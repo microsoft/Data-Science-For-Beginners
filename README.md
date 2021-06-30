@@ -1,33 +1,76 @@
-# Project
+# Data Science for Beginners - A Curriculum
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 24-lesson curriculum all about JavaScript, CSS,  HTML basics. Each lesson includes pre-  post-lesson quizzes, written instructions to complete the lesson, a solution, an assignment  more. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.
 
-As the maintainer of this project, please make a few updates:
+**Hearty thanks to our authors:**
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+# Getting Started
 
-## Contributing
+> **Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum. We'd love your feedback [in our discussion forum]()!
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+> **Students**, to use this curriculum on your own, fork the entire repo  complete the exercises on your own, starting with a pre-lecture quiz, then reading the lecture  completing the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends  go through the content together. For further study, we recommend [Microsoft Learn]()  by watching the videos mentioned below.
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+[![Promo video](screenshot.png)]( "Promo video")
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+> 🎥 Click the image above for a video about the project  the folks who created it!
 
-## Trademarks
+## Pedagogy
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+We have chosen two pedagogical tenets while building this curriculum: ensuring that it is project-based  that it includes frequent quizzes. By the end of this series, students will have ...
+
+In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible  fun  can be taken in whole or in part. The projects start small  become increasingly complex by the end of the 12 week cycle.
+
+> Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md),  [Translation](TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
+>
+
+## Each lesson includes:
+
+- optional sketchnote
+- optional supplemental video
+- pre-lesson warmup quiz
+- written lesson
+- for project-based lessons, step-by-step guides on how to build the project
+- knowledge checks
+- a challenge
+- supplemental reading
+- assignment
+- post-lesson quiz
+
+> **A note about quizzes**: All quizzes are contained [in this app](), for 48 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `quiz-app` folder. They are gradually being localized.
+
+## Lessons
+
+|       |                       Project Name                       |                            Concepts Taught                             | Learning Objectives                                                                                                                 |                                                         Linked Lesson                                                          |         Author          |
+| :---: | :------------------------------------------------------: | :--------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------: | :---------------------: |
+|  01   |                    Defining Data Science                 |                        TBD                          |  |  |                                                                                                                                                  |
+|  02   |                     Data Science Ethics                  |                        TBD                          |                                                     |                                                        |                    |
+|  03   |                       Defining Data                      |                        TBD                          |                                                                                                |                                              |              |
+|  04   |          Introduction to Statistics  Probability         |                        TBD                          |                                                                                                  |                                                                               |                  |
+|  05   |                     Working with Data                    |                        Spreadsheets                          |                                                             |                                                            |    |
+|  06   |                     Working with Data                    |                        Relational Databases                          |                                                             |                                                             |    |
+|  07   |                     Working with Data                    |                        NoSQL                          |                                                             |                                                          |    |
+|  08   |                     Working with Data                    |                        Python  Data                          |                                                             |                                                             |    |
+|  09   |                    Working with Data                     |                       Cleaning  Transformations                          |                                                             |                                                          |    |
+|  10   |                     Visualizing Data                     |                        Quantities                          |                                                             |                                                        |    |
+|  11   |                     Visualizing Data                     |                        Distributions                          |                                                             |                                                            |    |
+|  12   |                     Visualizing Data                     |                        Proportions                          |                                                             |                                                             |    |
+|  13   |                     Visualizing Data                     |                        Relationships                          |                                                             |                                                         |    |
+|  14   |                     Visualizing Data                     |                        Making meaningful visualizations                          |                                                             |                                                            |    |
+|  15   |                     The Data Science Lifecycle           |                        Capturing                          |                                                             |                                                         |    |
+|  16   |                     The Data Science Lifecycle           |                        Processing                        |                                                             |                                                            |    |
+|  17   |                     The Data Science Lifecycle           |                        Analyzing                          |                                                             |                                                          |    |
+|  18   |                     The Data Science Lifecycle           |                        Communication                         |                                                             |                                                            |    |
+|  19   |                     The Data Science Lifecycle           |                        Maintaining                          |                                                             |                                                         |    |
+|  20   |                     Data Science in the Cloud                    |                        TBD                          |                                                             |                                                             |    |
+|  21   |                     Data Science in the Cloud                    |                        TBD                          |                                                             |                                                             |    |
+|  22   |                     Data Science in the Cloud                    |                        TBD                          |                                                             |                                                             |    |
+|  23   |                     Data Science in the Wild                    |                        TBD                          |                                                             |                                                           |    |
+|  24   |                     Data Science in the Wild                    |                        TBD                          |                                                             |                                                             |    |
+
+## Offline access
+
+You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine,  then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
+
+## PDF
+
+A PDF of all of the lessons can be found [here](pdf/readme.pdf)
