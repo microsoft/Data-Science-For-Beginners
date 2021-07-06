@@ -4,6 +4,12 @@
 
 [Pre-lecture quiz]()
 
+# What is Data?
+
+#
+
+
+
 ## 🚀 Challenge
 
 
