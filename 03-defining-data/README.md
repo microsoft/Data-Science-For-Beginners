@@ -11,22 +11,24 @@ This lesson focuses on identifying and classifying data by its characteristics a
 [Pre-lecture quiz]()
 
 
-## Raw Data
-
 ## How Data is Described
+
+### Raw Data
 ### Numerical
 ### Categorical
 
 ## How Data is Structured
+
 ## Structured Data
+## Semi-structured
 ## Unstructured Data
-### Relational
-### Non-Relational
 
 ## Sources of Data
-### APIs
-### Spreadsheets
 ### Internet
+#### APIs
+#### Scraping
+### Spreadsheets
+
 
 ## 🚀 Challenge
 
