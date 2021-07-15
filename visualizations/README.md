@@ -24,6 +24,10 @@ These visualization lessons were written with 🌸 by [Jen Looper](https://twitt
 
 🍄 Data for mushrooms is also sourced from [Kaggle](https://www.kaggle.com/hatterasdunton/mushroom-classification-updated-dataset) revised by Hatteras Dunton. This dataset includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms (1981). This dataset was donated to UCI ML 27 in 1987.
 
+🦆 Data for Minnesota Birds is from [Kaggle](https://www.kaggle.com/hannahcollins/minnesota-birds) scraped from [Wikipedia](https://en.wikipedia.org/wiki/List_of_birds_of_Minnesota) by Hannah Collins.
+
+All these datasets are licensed as [CC0: Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/).
+
 
 
 
