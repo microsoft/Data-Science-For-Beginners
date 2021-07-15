@@ -11,36 +11,22 @@ This lesson focuses on identifying and classifying data by its characteristics a
 [Pre-lecture quiz]()
 
 
+## Raw Data
 
-## The 5 V's of Big Data 
+## How Data is Described
+### Numerical
+### Categorical
 
-
-
-### Velocity
-
-The speed at which data is collected.
-
-### Veracity
-
-The quality of the data. Was is collected ethically?
-
-### Variety
-
-Structured
-Semi-Structured 
-Unstructured
-
-### Value
-
-Is the data complete?
-
-### Volume
-
-The amount of data collected.
+## How Data is Structured
+## Structured Data
+## Unstructured Data
+### Relational
+### Non-Relational
 
 ## Sources of Data
-
-
+### APIs
+### Spreadsheets
+### Internet
 
 ## 🚀 Challenge
 
