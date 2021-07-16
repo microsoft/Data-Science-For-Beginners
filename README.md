@@ -40,32 +40,32 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 
 ## Lessons
 
-|       |              Project Name               |         Concepts Taught          | Learning Objectives | Linked Lesson | Author |
-| :---: | :-------------------------------------: | :------------------------------: | ------------------- | :-----------: | :----: |
-|  01   |          Defining Data Science          |               TBD                |                     |               |        |
-|  02   |           Data Science Ethics           |               TBD                |                     |               |        |
-|  03   |              Defining Data              |               TBD                |                     |               |        |
-|  04   | Introduction to Statistics  Probability |               TBD                |                     |               |        |
-|  05   |            Working with Data            |           Spreadsheets           |                     |               |        |
-|  06   |            Working with Data            |       Relational Databases       |                     |               |        |
-|  07   |            Working with Data            |              NoSQL               |                     |               |        |
-|  08   |            Working with Data            |           Python  Data           |                     |               |        |
-|  09   |            Working with Data            |    Cleaning  Transformations     |                     |               |        |
-|  10   |            Visualizing Data             |            Quantities            |                     |               |        |
-|  11   |            Visualizing Data             |          Distributions           |                     |               |        |
-|  12   |            Visualizing Data             |           Proportions            |                     |               |        |
-|  13   |            Visualizing Data             |          Relationships           |                     |               |        |
-|  14   |            Visualizing Data             | Making meaningful visualizations |                     |               |        |
-|  15   |       The Data Science Lifecycle        |            Capturing             |                     |               |        |
-|  16   |       The Data Science Lifecycle        |            Processing            |                     |               |        |
-|  17   |       The Data Science Lifecycle        |            Analyzing             |                     |               |        |
-|  18   |       The Data Science Lifecycle        |          Communication           |                     |               |        |
-|  19   |       The Data Science Lifecycle        |           Maintaining            |                     |               |        |
-|  20   |        Data Science in the Cloud        |               TBD                |                     |               |        |
-|  21   |        Data Science in the Cloud        |               TBD                |                     |               |        |
-|  22   |        Data Science in the Cloud        |               TBD                |                     |               |        |
-|  23   |        Data Science in the Wild         |               TBD                |                     |               |        |
-|  24   |        Data Science in the Wild         |               TBD                |                     |               |        |
+| Lesson Number |                  Topic                   |                   Lesson Grouping                    |                 Learning Objectives                  |                              Linked Lesson                               | Author |
+| :-----------: | :--------------------------------------: | :--------------------------------------------------: | :--------------------------------------------------: | :----------------------------------------------------------------------: | :----: |
+|      01       |          Defining Data Science           |       [Introduction](1-Introduction/README.md)       |                         TBD                          |                                                                          |        |
+|      02       |           Data Science Ethics            |       [Introduction](1-Introduction/README.md)       |                         TBD                          |                                                                          | Nitya  |
+|      03       |              Defining Data               |       [Introduction](1-Introduction/README.md)       |                         TBD                          |                                                                          |        |
+|      04       | Introduction to Statistics & Probability |       [Introduction](1-Introduction/README.md)       |                         TBD                          |                                                                          |        |
+|      05       |        Working with Spreadsheets         |  [Working With Data](2-Working-With-Data/README.md)  |                     Spreadsheets                     |                                                                          |        |
+|      06       |    Working with Relational Databases     |  [Working With Data](2-Working-With-Data/README.md)  |                 Relational Databases                 |                                                                          |        |
+|      07       |         Working with NoSQL Data          |  [Working With Data](2-Working-With-Data/README.md)  |                        NoSQL                         |                                                                          |        |
+|      08       |           Working with Python            |  [Working With Data](2-Working-With-Data/README.md)  |                     Python Data                      |                                                                          |        |
+|      09       |      Cleaning and Transforming Data      |  [Working With Data](2-Working-With-Data/README.md)  |               Cleaning Transformations               |                                                                          |        |
+|      10       |          Visualizing Quantities          | [Data Visualization](3-Data-Visualization/README.md) | Learn how to use Matplotlib to visualize bird data 🦆 | [Quantities](3-Data-Visualization/10-visualization-quantities/README.md) |  Jen   |
+|      11       |    Visualizing Distributions of Data     | [Data Visualization](3-Data-Visualization/README.md) |                    Distributions                     |                                                                          |  Jen   |
+|      12       |         Visualizing Proportions          | [Data Visualization](3-Data-Visualization/README.md) |                     Proportions                      |                                                                          |  Jen   |
+|      13       |        Visualizing Relationships         | [Data Visualization](3-Data-Visualization/README.md) |                    Relationships                     |                                                                          |  Jen   |
+|      14       |        Meaningful Visualizations         | [Data Visualization](3-Data-Visualization/README.md) |           Making meaningful visualizations           |                                                                          |  Jen   |
+|      15       |        The Data Science Lifecycle        |   [Lifecycle](4-Data-Science-Lifecycle/README.md)    |                      Capturing                       |                                                                          |        |
+|      16       |        The Data Science Lifecycle        |   [Lifecycle](4-Data-Science-Lifecycle/README.md)    |                      Processing                      |                                                                          |        |
+|      17       |        The Data Science Lifecycle        |   [Lifecycle](4-Data-Science-Lifecycle/README.md)    |                      Analyzing                       |                                                                          |        |
+|      18       |        The Data Science Lifecycle        |   [Lifecycle](4-Data-Science-Lifecycle/README.md)    |                    Communication                     |                                                                          |        |
+|      19       |        The Data Science Lifecycle        |   [Lifecycle](4-Data-Science-Lifecycle/README.md)    |                     Maintaining                      |                                                                          |        |
+|      20       |        Data Science in the Cloud         |   [Cloud Data](5-Data-Science-In-Cloud/README.md)    |                         TBD                          |                                                                          |        |
+|      21       |        Data Science in the Cloud         |   [Cloud Data](5-Data-Science-In-Cloud/README.md)    |                         TBD                          |                                                                          |        |
+|      22       |        Data Science in the Cloud         |   [Cloud Data](5-Data-Science-In-Cloud/README.md)    |                         TBD                          |                                                                          |        |
+|      23       |         Data Science in the Wild         |   [In the Wild](6-Data-Science-In-Wild/README.md)    |                         TBD                          |                                                                          |        |
+|      24       |         Data Science in the Wild         |   [In the Wild](6-Data-Science-In-Wild/README.md)    |                         TBD                          |                                                                          |        |
 
 ## Offline access
 
