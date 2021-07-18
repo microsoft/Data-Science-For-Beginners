@@ -13,11 +13,11 @@
 This lesson dives into a critical topic for the modern data scientist: _data ethics_.
 
 In this lesson we'll cover:
- 1. _[Fundamentals]()_ - Principles & History
+ 1. _[Fundamentals](#1-fundamentals)_ - Principles & History
  2. _[Data Collection](#2-data-collection)_ - Ownership & Consent
- 3. _[Data Privacy](#2-data-privacy)_ - Protection & Anonymity
- 4. _[Fairness](#4-fairness)_ - Algorithm Bias & 
- 5. _[Tools](5-tools)_ - Checklists & Frameworks
+ 3. _[Data Privacy](#3-data-privacy)_ - Protection & Anonymity
+ 4. _[Algorithms & Fairness](#4-algorithms-and-fairness)_ - Unfairness, Harms & Bias 
+ 5. _[Tools & Frameworks](5-tools-and-frameworks)_ - Codes, Checklists & Frameworks
  6. _[Summary](6-summary)_ - Related Work
 
 <br/>
@@ -56,7 +56,7 @@ In this lesson we'll cover:
 
 <br/>
 
-## 4. Algorithms Fairness
+## 4. Algorithms and Fairness
 
 | Topics|
 |--|
@@ -67,7 +67,7 @@ In this lesson we'll cover:
 
 <br/>
 
-## 5. Tools
+## 5. Tools and Frameworks
 
 | Topics|
 |--|
