@@ -17,12 +17,18 @@ This lesson focuses on identifying and classifying data by its characteristics a
 ### Numerical
 ### Categorical
 
+
 ## How Data is Structured
 
 ## Structured Data
-## Semi-structured
-## Unstructured Data
+Structured data is data that is organized into rows and columns, where each row will have the same set of columns. A benefit of structured data is that it can be organized in such a way that it can be related to other structured data. However, because the data is designed to be organized in a specific way, making changes to its overall structure can take a lot of effort to do.
 
+Examples of structured data: Spreadsheets, relational databases
+
+## Semi-structured
+
+## Unstructured Data
+Unstructured data 
 ## Sources of Data
 ### Internet
 #### APIs
