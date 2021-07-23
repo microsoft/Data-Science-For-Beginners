@@ -23,7 +23,7 @@ This lesson focuses on identifying and classifying data by its characteristics a
 ## Structured Data
 Structured data is data that is organized into rows and columns, where each row will have the same set of columns. Columns represent a value of a particular type and will be identified with a name describing what the value represents, while rows contain the actual values. Columns will often have a specific set of rules or restrictions on the values, to ensure that the values accurately represent the column. For example imagine a spreadsheet of customers where each row must have a phone number and the phone numbers never contain alphabetical characters. There may be rules applied on the phone number column to make sure it's never empty and only contains numbers. 
 
-A benefit of structured data is that it can be organized in such a way that it can be related to other structured data. However, because the data is designed to be organized in a specific way, making changes to its overall structure can take a lot of effort to do. For example, adding an email column to the customer spreadsheet means you'll need to if and how you'll add these values to the existing rows of customers in the dataset. 
+A benefit of structured data is that it can be organized in such a way that it can be related to other structured data. However, because the data is designed to be organized in a specific way, making changes to its overall structure can take a lot of effort to do. For example, adding an email column to the customer spreadsheet that cannot be empty means you'll need figure out how you'll add these values to the existing rows of customers in the dataset. 
 
 Examples of structured data: spreadsheets, relational databases, phone numbers, bank statements
 
@@ -31,9 +31,9 @@ Examples of structured data: spreadsheets, relational databases, phone numbers, 
 *type description*
 
 ## Unstructured Data
-Unstructured data typically cannot be categorized into into rows or columns. There are tools and methods to convert an unstructured dataset into a structured format, but would take more effort to achieve. Unstructured data does not follow a is easier to add new information
+Unstructured data typically cannot be categorized into into rows or columns and doesn't contain a format or set of rules to follow. There are tools and methods to convert an unstructured dataset into a structured format, but could turn into a tedious task. Because unstructured data has less restrictions on its structure it's easier to add new information in comparison to a structured dataset. If a sensor capturing data on barometric pressure every 2 minutes has received an update that measures and records temperature, it doesn't require altering the existing data. However, this may make analyzing or investigating this type of data take longer. For example, a scientist who wants to find the average temperature of the previous month from the sensors data, but discovers that the sensor recorded an "e" in some of its recorded  to note that it was broken instead of a typical number, which means the data is incomplete.
 
-Examples of unstructured data: email, text files, social media, text messages, video files
+Examples of unstructured data:  text files, social media comments, text messages, video files
 
 ![image of type]()
 *type description*
