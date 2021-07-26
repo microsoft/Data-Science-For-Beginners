@@ -31,15 +31,17 @@ Examples of structured data: spreadsheets, relational databases, phone numbers, 
 *type description*
 
 ## Unstructured Data
-Unstructured data typically cannot be categorized into into rows or columns and doesn't contain a format or set of rules to follow. There are tools and methods to convert an unstructured dataset into a structured format, but could turn into a tedious task. Because unstructured data has less restrictions on its structure it's easier to add new information in comparison to a structured dataset. If a sensor capturing data on barometric pressure every 2 minutes has received an update that measures and records temperature, it doesn't require altering the existing data. However, this may make analyzing or investigating this type of data take longer. For example, a scientist who wants to find the average temperature of the previous month from the sensors data, but discovers that the sensor recorded an "e" in some of its recorded  to note that it was broken instead of a typical number, which means the data is incomplete.
+Unstructured data typically cannot be categorized into into rows or columns and doesn't contain a format or set of rules to follow. Because unstructured data has less restrictions on its structure it's easier to add new information in comparison to a structured dataset. If a sensor capturing data on barometric pressure every 2 minutes has received an update that measures and records temperature, it doesn't require altering the existing data. However, this may make analyzing or investigating this type of data take longer. For example, a scientist who wants to find the average temperature of the previous month from the sensors data, but discovers that the sensor recorded an "e" in some of its recorded data to note that it was broken instead of a typical number, which means the data is incomplete.
 
-Examples of unstructured data:  text files, social media comments, text messages, video files
+Examples of unstructured data:  text files, text messages, video files
 
 ![image of type]()
 *type description*
 
 ## Semi-structured
+Semi-structured data has features that make it a combination of structured and unstructured data. It doesn't typically conform to a format of rows and columns but is organized in a way that is considered structured and may follow a fixed format or set of rules. The structure will vary between sources, such as a well defined hierarchy to something more flexible that allows for easy integration of new information. Metadata are indicators that help decide how the data is organized and stored and will have various names, based on the type of data. Some common names for metadata are tags, elements, entities and attributes.
 
+Examples of unstructured data:  HTML, JSON, CSV files, emails
 
 ## Sources of Data
 ### Internet
