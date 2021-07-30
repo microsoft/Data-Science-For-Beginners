@@ -9,6 +9,14 @@ In this lesson, you will use three different libraries to learn how to create in
 
 An excellent library to create both simple and sophisticated plots and charts of various kinds is [Matplotlib](https://matplotlib.org/stable/index.html). In general terms, the process of plotting data using these libraries includes identifying the parts of your dataframe that you want to target, performing any transforms on that data necessary, assigning its x and y axis values, deciding what kind of plot to show, and then showing the plot. Matplotlib offers a large variety of visualizations, but for this lesson, let's focus on the ones most appropriate for visualizing quantity: line charts, scatterplots, and bar plots.
 
+> ✅ Use the best chart to suit your data's structure and the story you want to tell. 
+> - To analyze trends over time: line
+> - To compare values: bar, column, pie, scatterplot
+> - To show how parts relate to a whole: pie
+> - To show distribution of data: scatterplot, bar
+> - To show trends: line, column
+> - To show relationships between values: line, scatterplot, bubble
+
 If you have a dataset and need to discover how much of a given item is included, one of the first tasks you have at hand will be to inspect its values. 
 
 ✅ There are very good 'cheat sheets' available for Matplotlib [here](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-1.png) and [here](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-2.png).
@@ -134,7 +142,7 @@ This bar chart, however, is unreadable because there is too much non-grouped dat
 
 Filter your data to include only the bird's category. 
 
-✅ Notice that you use Pandas to manage the data, and then let Matplotlib do the charting. 
+✅ Notice that you use Pandas to manage the data, and then let Matplotlib do the charting.
 
 Since there are many categories, you can display this chart vertically and tweak its height to account for all the data:
 
@@ -175,7 +183,7 @@ plt.barh(category, minLength)
 
 plt.show()
 ```
-In this plot you can see the range, per category, of the Minimum Length and Maximum length of a given bird category. You can safely say,  that, given this data,  the bigger the bird, the larger its length range. Fascinating!
+In this plot you can see the range, per category, of the Minimum Length and Maximum length of a given bird category. You can safely say that, given this data, the bigger the bird, the larger its length range. Fascinating!
 
 ![superimposed values](images/superimposed.png)
 
