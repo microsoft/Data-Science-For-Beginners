@@ -4,6 +4,24 @@
 
 [Pre-lecture quiz]()
 
+## Introduction
+File
+Workbooks
+Worksheets
+Columns 
+Row
+Cell
+
+## Exploring Values
+Date (slash or dash) times (colon) 
+Numbers
+Text
+Autofill?
+
+## Formulas
+
+
+
 ## 🚀 Challenge
 
 
