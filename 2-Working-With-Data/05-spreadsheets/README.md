@@ -15,10 +15,22 @@ Cell
 ## Exploring Values
 Date (slash or dash) times (colon) 
 Numbers
-Text
+Text/alpha characters 
 Autofill?
 
 ## Formulas
+- How to start one (equal and cell id)
+- formula bar
+- copying by dragging over by fill handle
+
+## Functions
+- Basic mathematics
+- Sum
+- Average
+- XLookup/lookup functions -relationships
+
+## Formatting
+
 
 
 
