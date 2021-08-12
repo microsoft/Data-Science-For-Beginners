@@ -20,7 +20,7 @@ In the case of discrete random variables, it is easy to describe the probability
 
 The most well-known discrete distribution is **uniform distribution**, in which there is a sample space of N elements, with equal probability of 1/N for each of them. 
 
-It is more difficult to describe the probability distribution of a continuous variable. Consider the case of bus arrival time. In fact, for each exact arrival time $t$, the probability of a bus arriving at exactly that time is 0!
+It is more difficult to describe the probability distribution of a continuous variable, with values drawn from some interval [a,b], or the whole set of real numbers &Ropf;. Consider the case of bus arrival time. In fact, for each exact arrival time $t$, the probability of a bus arriving at exactly that time is 0!
 
 > Now you know that events with 0 probability happen, and very often! At least each time when the bus arrives!
 
@@ -34,9 +34,23 @@ Another important distribution is **normal distribution**, which we will talk ab
 
 ## Mean, Variance and Standard Deviation
 
-Suppose we draw n samples of a random variable X: {x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>}. We can define **mean** (or ** arithmetic average**) value of the sequence in the traditional way as (x<sub>1</sub>+x<sub>2</sub>+x<sub>n</sub>)/n. As we grow the size of the sample (i.e. take the limit with n&rarr;&infin;), we will obtain the mean (also called **expectation**) of the distribution.
+Suppose we draw a sequence of n samples of a random variable X: x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>. We can define **mean** (or **arithmetic average**) value of the sequence in the traditional way as (x<sub>1</sub>+x<sub>2</sub>+x<sub>n</sub>)/n. As we grow the size of the sample (i.e. take the limit with n&rarr;&infin;), we will obtain the mean (also called **expectation**) of the distribution.
 
-> It can be demonstrated that for any discrete distribution with values x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>N</sub> and corresponding probabilities p<sub>1</sub>, p<sub>2</sub>, ..., p<sub>N</sub>, the expectation would equal to E(X)=x<sub>1</sub>p<sub>1</sub>+x<sub>2</sub>p<sub>2</sub>+...+x<sub>N</sub>p<sub>N</sub>.
+> It can be demonstrated that for any discrete distribution with values {x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>N</sub>} and corresponding probabilities p<sub>1</sub>, p<sub>2</sub>, ..., p<sub>N</sub>, the expectation would equal to E(X)=x<sub>1</sub>p<sub>1</sub>+x<sub>2</sub>p<sub>2</sub>+...+x<sub>N</sub>p<sub>N</sub>.
+
+To identify how far the values are spread, we can compute the variance &sigma;<sup>2</sup> = &sum;(x<sub>i</sub> - \mu;)<sup>2</sub>/n), where &mu; is the mean of the sequence. The value &sigma; is called **standard deviation**, and &sigma;<sup>2</sup> is called a **variance**.
+
+## Real-world Data
+
+When we analyze data from real life, they often are not random variables as such, in a sense that we do not perform experiments with unknown result. For example, consider a team of baseball players, and their body data, such as height, weight and age. Those numbers are not exactly random, but we can still apply the same mathematical concepts. For example, a sequence of people's weights can be considered to be a sequence of values drawn from some random variable. Below is the sequence of weights of actual baseball players from [Major League Baseball](http://mlb.mlb.com/index.jsp), taken from [this dataset](http://wiki.stat.ucla.edu/socr/index.php/SOCR_Data_MLB_HeightsWeights) (for your convenience, only first 20 values are shown):
+
+```
+[180.0, 215.0, 210.0, 210.0, 188.0, 176.0, 209.0, 200.0, 231.0, 180.0, 188.0, 180.0, 185.0, 160.0, 180.0, 185.0, 197.0, 189.0, 185.0, 219.0]
+```
+
+> When working with real data, we assume that data points are samples drawn from some probability distribution. This assumption allows us to apply machine learning techniques and build working predictive models.
+
+
 
 ## Normal Distribution
 
