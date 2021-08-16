@@ -38,7 +38,7 @@ Suppose we draw a sequence of n samples of a random variable X: x<sub>1</sub>, x
 
 > It can be demonstrated that for any discrete distribution with values {x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>N</sub>} and corresponding probabilities p<sub>1</sub>, p<sub>2</sub>, ..., p<sub>N</sub>, the expectation would equal to E(X)=x<sub>1</sub>p<sub>1</sub>+x<sub>2</sub>p<sub>2</sub>+...+x<sub>N</sub>p<sub>N</sub>.
 
-To identify how far the values are spread, we can compute the variance &sigma;<sup>2</sup> = &sum;(x<sub>i</sub> - \mu;)<sup>2</sub>/n), where &mu; is the mean of the sequence. The value &sigma; is called **standard deviation**, and &sigma;<sup>2</sup> is called a **variance**.
+To identify how far the values are spread, we can compute the variance &sigma;<sup>2</sup> = &sum;(x<sub>i</sub> - &mu;)<sup>2</sup>/n, where &mu; is the mean of the sequence. The value &sigma; is called **standard deviation**, and &sigma;<sup>2</sup> is called a **variance**.
 
 ## Real-world Data
 
@@ -48,11 +48,39 @@ When we analyze data from real life, they often are not random variables as such
 [180.0, 215.0, 210.0, 210.0, 188.0, 176.0, 209.0, 200.0, 231.0, 180.0, 188.0, 180.0, 185.0, 160.0, 180.0, 185.0, 197.0, 189.0, 185.0, 219.0]
 ```
 
-> When working with real data, we assume that data points are samples drawn from some probability distribution. This assumption allows us to apply machine learning techniques and build working predictive models.
+> When working with real-world data, we assume that all data points are samples drawn from some probability distribution. This assumption allows us to apply machine learning techniques and build working predictive models.
 
+To see what is the distribution of our data, we can plot a graph called a **histogram**. X-axis would contain a number of different weight intervals (so-called **bins**), and vertical axis would show the number of times our random variable sample was inside a given interval. 
 
+![Histogram of real world data](images/weight-histogram.png)
 
+From this histogram you can see that all values are centered around certain mean weight, and the further we go from that weight - the fewer weights of that value are encountered. I.e., it is very improbable that a weight of a baseball player would be very different from the mean weight. Variance of weights show the extent to which weights are likely to differ from the mean.
+
+> If we take weights of other people, not from the baseball league, the distribution is likely to be different. However, the shape of the distribution will be the same, but mean and variance would change. So, if we train our model on baseball players, it i likely to give wrong results when applied to students of a university, because the underlying distribution is different.
 ## Normal Distribution
+
+The distribution of weights that we have seen above is very typical, and many measurements from real world follow the same type of distribution, but with different mean and variance. This distribution is called **normal distribution**, and it plays very important role in statistics.
+
+Using normal distribution is a correct way to generate random weights of potential baseball players. Once we know mean weight `mean` and standard deviation `std`, we can generate 1000 weight samples in the following way:
+```python
+samples = np.random.normal(mean,std,1000)
+``` 
+
+If we plot the histogram of the generated samples we will see the picture very similar to the one shown above. And if we increase the number of samples and the number of bins, we can generate a picture of a normal distribution that is more close to ideal:
+
+![Normal Distribution with mean=0 and std.dev=1](images/normal-histogram.png)
+*Normal Distribution with mean=0 and std.dev=1*
+
+
+## Law of Large Numbers and Central Limit Theorem
+
+One of the reasons why normal distribution is so important is so-called **central limit theorem**. Suppose we have a large sample of independent N values X<sub>1</sub>, ..., X<sub>N</sub>, sampled from any distribution with mean &mu; and variance &sigma;<sup>2</sup>. Then, for sufficiently large N (in other words, when N&rarr;&infin;), the mean &Sigma;<sub>i</sub>X<sub>i</sub> would be normally distributed, with mean &mu; and variance &sigma;<sup>2</sup>/N.
+
+> Another way to interpret central limit theorem is to say that regardless of distribution, when you compute the mean of any random variable values you end up with normal distribution. 
+
+From central limit theorem it also follows that, when N&rarr;&infin;, the probability of the sample mean to be equal to &mu; becomes 1. This is known as **the law of large numbers**.
+
+
 
 ## 🚀 Challenge
 
