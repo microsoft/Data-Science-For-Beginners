@@ -34,7 +34,7 @@ Another important distribution is **normal distribution**, which we will talk ab
 
 ## Mean, Variance and Standard Deviation
 
-Suppose we draw a sequence of n samples of a random variable X: x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>. We can define **mean** (or **arithmetic average**) value of the sequence in the traditional way as (x<sub>1</sub>+x<sub>2</sub>+x<sub>n</sub>)/n. As we grow the size of the sample (i.e. take the limit with n&rarr;&infin;), we will obtain the mean (also called **expectation**) of the distribution.
+Suppose we draw a sequence of n samples of a random variable X: x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>. We can define **mean** (or **arithmetic average**) value of the sequence in the traditional way as (x<sub>1</sub>+x<sub>2</sub>+x<sub>n</sub>)/n. As we grow the size of the sample (i.e. take the limit with n&rarr;&infin;), we will obtain the mean (also called **expectation**) of the distribution. We will denote expectation by **E**(x).
 
 > It can be demonstrated that for any discrete distribution with values {x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>N</sub>} and corresponding probabilities p<sub>1</sub>, p<sub>2</sub>, ..., p<sub>N</sub>, the expectation would equal to E(X)=x<sub>1</sub>p<sub>1</sub>+x<sub>2</sub>p<sub>2</sub>+...+x<sub>N</sub>p<sub>N</sub>.
 
@@ -80,7 +80,15 @@ One of the reasons why normal distribution is so important is so-called **centra
 
 From central limit theorem it also follows that, when N&rarr;&infin;, the probability of the sample mean to be equal to &mu; becomes 1. This is known as **the law of large numbers**.
 
+## Covariance and Correlation
 
+One of the things Data Science does is finding relations between data. We say that two sequences **correlate** when they exhibit the similar behavior at the same time, i.e. they either rise/fall simultaneously, or one sequence rises when another one falls and vice versa. In other words, there seems to be some relation between two sequences.
+
+> Correlation does not necessarily indicate causal relationship between two sequences; sometimes both variables can depend on some external cause, or it can be purely by chance the two sequences correlate. However, strong mathematical correlation is a good indication that two variables are somehow connected.
+
+ Mathematically, the main concept that show the relation between two random variables is **covariance**, that is computed like this: Cov(X,Y) = **E**\[(X-**E**(X))(Y-**E**(Y))\]. We compute the deviation of both variables from their mean values, and then product of those deviations. If both variables deviate together, the product would always be a positive value, that would add up to positive covariance. If both variables deviate out-of-sync (i.e. one falls below average when another one rises above average), we will always get negative numbers, that will add up to negative covariance. If the deviations are not dependent, they will add up to roughly zero.
+
+The absolute value of covariance does not tell us much on how large the correlation is, because it depends on the magnitude of actual values. To normalize it, we can divide covariance by standard deviation of both variables, to get **correlation**. The good thing is that correlation is always in the range of [-1,1], where 1 indicates strong positive correlation between values, -1 - strong negative correlation, and 0 - no correlation at all (variables are independent). 
 
 ## 🚀 Challenge
 
