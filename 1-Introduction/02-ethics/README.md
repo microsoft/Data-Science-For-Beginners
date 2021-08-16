@@ -1,106 +1,61 @@
 # Data Ethics
 
-> Summary Sketchnote from [Nitya Narasimhan](https://twitter.com/nitya) / [SketchTheDocs](https://twitter.com/sketchthedocs)
+## Pre-Lecture Quiz 🎯
 
-<br/>
+[Pre-lecture quiz]() 
 
-## Pre-Lecture Quiz
+## Sketchnote 🖼
 
-[Pre-lecture quiz]()
-
-## Introduction
-
-This lesson dives into a critical topic for the modern data scientist: _data ethics_.
-
-In this lesson we'll cover:
- 1. _[Fundamentals](#1-fundamentals)_ - Principles & History
- 2. _[Data Collection](#2-data-collection)_ - Ownership & Consent
- 3. _[Data Privacy](#3-data-privacy)_ - Protection & Anonymity
- 4. _[Algorithms & Fairness](#4-algorithms-and-fairness)_ - Unfairness, Harms & Bias 
- 5. _[Tools & Frameworks](5-tools-and-frameworks)_ - Codes, Checklists & Frameworks
- 6. _[Summary](6-summary)_ - Related Work
-
-<br/>
-
-## 1. Fundamentals
-
-| Topics|
-|--|
-| 1.1 What is Ethics and why do we care?|
-| 1.2 History and challenges |
-| 1.3 Concepts in Ethics|
-| 1.4 Ethical Principles and Responsible AI|
-
-<br/>
-
-## 2. Data Collection
-
-| Topics|
-|--|
-| 2.1 Data Ownership & Intellectual Property |
-| 2.2 Ethics & Human Consent |
-| 2.3 Data Quality & Representation |
-| 2.4 The 5Cs Framework |
+| A Visual Guide to Data Ethics by [Nitya Narasimhan](https://twitter.com/nitya) / [(@sketchthedocs)](https://sketchthedocs.dev)|
+|---| 
+| <br/><br/><br/><br/><br/><br/><br/><br/> |
 
 
-<br/>
+## Introduction 
 
-## 3. Data Privacy
+What is ethics? What does data ethics mean, and how is it relevant to data scientists and developers in the context of big data, machine learning, and artificial intelligence? This lesson explores these ideas under the following sections:
 
-| Topics|
-|--|
-| 3.1 Data Privacy & Degrees of Privacy |
-| 3.2 Data Anonymity & De-Identification |
-| 3.3 Challenges & Frameworks |
-| 3.4 Case Studies |
+ * [**Fundamentals**](1-fundamentals) - Understand definitions, motivation and core concepts.
+ * [**Data Collection**](2-collection) - Explore data ethics issues around data ownership, user consent and control.
+ * [**Data Privacy**](3-privacy) - Understand degrees of privacy, challenges in anonymity and leakage, and user rights.
+ * [**Algorithm Fairness**](4-fairness) - Explore consequences & harms of algorithm bias and data misrepresentation.
+ * [**Societal Consequences**](5-consequences) - Explore socio-economic issues and case studies related to data ethics.
+ * [**Summary & Resources**](6-summary) - Wrap-up with a review of current data ethics practices and resources.
 
-<br/>
+---
 
-## 4. Algorithms and Fairness
+[1. Ethics Fundamentals](1-fundamentals.md ':include')
 
-| Topics|
-|--|
-| 4.1 Fairness, Unfairness & Harms |
-| 4.2 Data Validity & Misrepresentation |
-| 4.3 Algorithm Bias & Mitigation |
-| 4.4 Case Studies |
+[2. Data Collection](2-collection.md ':include')
 
-<br/>
+[3. Data Privacy](3-privacy.md ':include')
 
-## 5. Tools and Frameworks
+[4. Algorithm Fairness](4-fairness.md ':include')
 
-| Topics|
-|--|
-| 5.1 Data Ethics & Culture |
-| 5.2 Codes of Conduct & Checklists |
-| 5.3 Industry Frameworks (Google, IBM, Microsoft, Facebook) |
-| 5.4 Government Frameworks (UK, US, India) |
+[5. Societal Consequences](5-consequences.md ':include')
 
-<br/>
+[6. Summary & Resources](6-summary.md ':include')
 
-## 6. Summary
+---
 
-| Topics|
-|--|
-| 6.1 Understanding Ethics (History) |
-| 6.2 Applying Ethics (Principles) |
-| 6.3 Evolving Ethics (Research) |
-| 6.4 Further Reading (References) |
+## Challenge 🚀 
 
 
-<br/>
+## Post-Lecture Quiz 🎯
 
-## 🚀 Challenge
-
-
-## Post-Lecture Quiz
-
-[Post-lecture quiz]()
+[Post-lecture quiz]() 
 
 
-## Review & Self Study
+## Review & Self Study 
 
 
-## Assignment
+---
+# Assignment 
 
-[Assignment Title](assignment.md)
+[Assignment Title](assignment.md ':include')
+
+---
+
+# Resources
+
+[Related Resources](resources.md ':include')
