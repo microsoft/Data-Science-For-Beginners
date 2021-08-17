@@ -40,6 +40,22 @@ Suppose we draw a sequence of n samples of a random variable X: x<sub>1</sub>, x
 
 To identify how far the values are spread, we can compute the variance &sigma;<sup>2</sup> = &sum;(x<sub>i</sub> - &mu;)<sup>2</sup>/n, where &mu; is the mean of the sequence. The value &sigma; is called **standard deviation**, and &sigma;<sup>2</sup> is called a **variance**.
 
+## Mode, Median and Quartiles
+
+Sometimes, mean does not adequately represent the "typical" value for data. For example, when there are a few extreme values that are completely out of range, they can affect the mean. Another good indication is a **median**, a value such that half of data points are lower than it, and another half - higher.
+
+To help us understand the distribution of data, it is helpful to talk about **quartiles**:
+
+* First quartile, or Q1, is a value, such that 25% of the data fall below it
+* Third quartile, or Q3, is a value that 75% of the data fall below it
+
+Graphically we can represent relationship between median and quartiles in a diagram called the **box plot**:
+
+![Box Plot](images/boxplot_expanation.png)
+
+Here we also computer **inter-quartile range** IQR=Q3-Q1, and so-called **outliers** - values, that lie outside the boundaries [Q1-1.5*IQR,Q3+1.5*IQR].
+
+For finite distribution that contains small number of possible values, a good "typical" value is the one that appears the most frequently, which is called **mode**. It is often applied to categorical data, such as colors. Consider a situation when we have two groups of people - some that strongly prefer red, and others who prefer blue. If we code colors by numbers, the mean value for a favourite color would be somewhere in the orange-green spectrum, which does not indicate the actual preference on neither group. However, the mode would be either one of the colors, or both colors, if the number of people voting for them is equal (in this case we call the sample **multimodal**).
 ## Real-world Data
 
 When we analyze data from real life, they often are not random variables as such, in a sense that we do not perform experiments with unknown result. For example, consider a team of baseball players, and their body data, such as height, weight and age. Those numbers are not exactly random, but we can still apply the same mathematical concepts. For example, a sequence of people's weights can be considered to be a sequence of values drawn from some random variable. Below is the sequence of weights of actual baseball players from [Major League Baseball](http://mlb.mlb.com/index.jsp), taken from [this dataset](http://wiki.stat.ucla.edu/socr/index.php/SOCR_Data_MLB_HeightsWeights) (for your convenience, only first 20 values are shown):
@@ -69,6 +85,7 @@ samples = np.random.normal(mean,std,1000)
 If we plot the histogram of the generated samples we will see the picture very similar to the one shown above. And if we increase the number of samples and the number of bins, we can generate a picture of a normal distribution that is more close to ideal:
 
 ![Normal Distribution with mean=0 and std.dev=1](images/normal-histogram.png)
+
 *Normal Distribution with mean=0 and std.dev=1*
 
 
@@ -76,7 +93,7 @@ If we plot the histogram of the generated samples we will see the picture very s
 
 One of the reasons why normal distribution is so important is so-called **central limit theorem**. Suppose we have a large sample of independent N values X<sub>1</sub>, ..., X<sub>N</sub>, sampled from any distribution with mean &mu; and variance &sigma;<sup>2</sup>. Then, for sufficiently large N (in other words, when N&rarr;&infin;), the mean &Sigma;<sub>i</sub>X<sub>i</sub> would be normally distributed, with mean &mu; and variance &sigma;<sup>2</sup>/N.
 
-> Another way to interpret central limit theorem is to say that regardless of distribution, when you compute the mean of any random variable values you end up with normal distribution. 
+> Another way to interpret central limit theorem is to say that regardless of distribution, when you compute the mean of a sum of any random variable values you end up with normal distribution. 
 
 From central limit theorem it also follows that, when N&rarr;&infin;, the probability of the sample mean to be equal to &mu; becomes 1. This is known as **the law of large numbers**.
 
@@ -89,6 +106,27 @@ One of the things Data Science does is finding relations between data. We say th
  Mathematically, the main concept that show the relation between two random variables is **covariance**, that is computed like this: Cov(X,Y) = **E**\[(X-**E**(X))(Y-**E**(Y))\]. We compute the deviation of both variables from their mean values, and then product of those deviations. If both variables deviate together, the product would always be a positive value, that would add up to positive covariance. If both variables deviate out-of-sync (i.e. one falls below average when another one rises above average), we will always get negative numbers, that will add up to negative covariance. If the deviations are not dependent, they will add up to roughly zero.
 
 The absolute value of covariance does not tell us much on how large the correlation is, because it depends on the magnitude of actual values. To normalize it, we can divide covariance by standard deviation of both variables, to get **correlation**. The good thing is that correlation is always in the range of [-1,1], where 1 indicates strong positive correlation between values, -1 - strong negative correlation, and 0 - no correlation at all (variables are independent). 
+
+**Example**: We can compute correlation between weights and heights of baseball players from the dataset mentioned above:
+```python
+print(np.corrcoef(weights,heights))
+```
+As a result, we get **correlation matrix** like this one:
+```
+array([[1.        , 0.52959196],
+       [0.52959196, 1.        ]])
+```
+
+> Correlation matrix C can be computed for any number of input sequences S<sub>1</sub>, ..., S<sub>n</sub>. The value of C<sub>ij</sub> is the correlation between S<sub>i</sub> and S<sub>j</sub>, and diagonal elements are always 1 (which is also self-correlation of S<sub>i</sub>).
+
+In our case, the value 0.53 indicates that there is some correlation between weight and height of a person. We can also make the scatter plot of one value against the other to see the relationship visually:
+
+![Relationship between weight and height](images/weight-height-relationship.png)
+
+> More examples of correlation and covariance can be found in [accompanying notebook](notebook.ipynb).
+
+
+
 
 ## 🚀 Challenge
 
