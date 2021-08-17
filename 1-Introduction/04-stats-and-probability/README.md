@@ -64,6 +64,10 @@ When we analyze data from real life, they often are not random variables as such
 [180.0, 215.0, 210.0, 210.0, 188.0, 176.0, 209.0, 200.0, 231.0, 180.0, 188.0, 180.0, 185.0, 160.0, 180.0, 185.0, 197.0, 189.0, 185.0, 219.0]
 ```
 
+Here is the box plot showing mean, median and quartiles for our data:
+
+![Weight Box Plot](images/weight-boxplot.png)
+
 > When working with real-world data, we assume that all data points are samples drawn from some probability distribution. This assumption allows us to apply machine learning techniques and build working predictive models.
 
 To see what is the distribution of our data, we can plot a graph called a **histogram**. X-axis would contain a number of different weight intervals (so-called **bins**), and vertical axis would show the number of times our random variable sample was inside a given interval. 
