@@ -23,7 +23,9 @@ If you have a dataset and need to discover how much of a given item is included,
 
 ## Build a line plot about bird wingspan values
 
-Open the `notebook.ipynb` file at the root of this lesson folder and add a cell:
+Open the `notebook.ipynb` file at the root of this lesson folder and add a cell.
+
+> Note: the data is stored in the root of this repo in the `/data` folder.
 
 ```python
 import pandas as pd

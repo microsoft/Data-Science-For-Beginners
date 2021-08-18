@@ -13,7 +13,7 @@ Let's discover some facts about the distributions of data in this dataset. In th
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
-birds = pd.read_csv('../data/birds.csv')
+birds = pd.read_csv('../../data/birds.csv')
 birds.head()
 ```
 
