@@ -1,14 +1,14 @@
 {
-	"name": "ml-for-beginners",
+	"name": "ds-for-beginners",
 	"version": "1.0.0",
-	"description": "Machine Learning for Beginners - A Curriculum",
+	"description": "Data Science for Beginners - A Curriculum",
 	"main": "index.js",
 	"scripts": {
 		"convert": "node_modules/.bin/docsify-to-pdf"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/microsoft/ML-For-Beginners.git"
+		"url": "git+https://github.com/microsoft/Data-Science-For-Beginners.git"
 	},
 	"keywords": [
 		"machine",
@@ -20,9 +20,9 @@
 	"author": "Jen Looper and team",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/microsoft/ML-For-Beginners/issues"
+		"url": "https://github.com/microsoft/Data-Science-For-Beginners/issues"
 	},
-	"homepage": "https://github.com/microsoft/ML-For-Beginners#readme",
+	"homepage": "https://github.com/microsoft/Data-Science-For-Beginners#readme",
 	"devDependencies": {
 		"docsify-to-pdf": "0.0.5"
 	}

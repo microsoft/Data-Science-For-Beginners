@@ -1,5 +1,8 @@
 # Working with Data: Spreadsheets
 
+Many data scientists will not pick spreadsheets as their first tool for various and valid reasons. However, it's a popular way to store and explore data because it requires less work to get setup and started. In this lesson you'll learn the basic components of a spreadsheet, how to apply formulas and functions, generating charts and pivot tables, and how to sort and filter a spreadsheet. This lesson provides foundational knowledge of spreadsheets in the rare event that you find yourself working with with them. The examples will be illustrated with Microsoft Excel, but most of the parts and topics will have similar names and steps in comparison to other spreadsheet software. 
+  
+
 ## Pre-Lecture Quiz
 
 [Pre-lecture quiz]()
@@ -11,6 +14,7 @@ Worksheets
 Columns 
 Row
 Cell
+Header
 
 ## Exploring Values
 Date (slash or dash) times (colon) 
@@ -29,7 +33,15 @@ Autofill?
 - Average
 - XLookup/lookup functions -relationships
 
-## Formatting
+## Charts
+- Creating a chart
+- Pivot Tables
+
+## Misc
+-Sorting
+-Filtering
+
+- Pivot table - summary totals
 
 
 
