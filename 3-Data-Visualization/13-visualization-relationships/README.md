@@ -81,9 +81,11 @@ You can see the size of the dots gradually increasing.
 
 ![scatterplot 3](images/scatter3.png)
 
-Is this a simple case of supply and demand? Is there less honey available for purchase year over year, and thus the price increases?
+Is this a simple case of supply and demand? Due to factors such as climate change and colony collapse, is there less honey available for purchase year over year, and thus the price increases?
 
 To discover a correlation between price, number of colonies, and yield per colony, let's explore some line charts.
+
+
 
 
 

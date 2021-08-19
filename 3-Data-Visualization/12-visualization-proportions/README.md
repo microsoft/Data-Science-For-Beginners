@@ -6,6 +6,8 @@ In this lesson, you will use a different nature-focused dataset to visualize pro
 - Donut charts 🍩
 - Waffle charts 🧇
 
+> 💡 A very interesting project called [Charticulator](https://charticulator.com) by Microsoft Research offers a free drag and drop interface for data visualizations. In one of their tutorials they also use this mushroom dataset! So you can explore the data and learn the library at the same time: https://charticulator.com/tutorials/tutorial4.html
+
 ## Pre-Lecture Quiz
 
 [Pre-lecture quiz]()
