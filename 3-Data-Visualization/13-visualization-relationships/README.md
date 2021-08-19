@@ -83,17 +83,79 @@ You can see the size of the dots gradually increasing.
 
 Is this a simple case of supply and demand? Due to factors such as climate change and colony collapse, is there less honey available for purchase year over year, and thus the price increases?
 
-To discover a correlation between price, number of colonies, and yield per colony, let's explore some line charts.
+To discover a correlation between some of the variables in this dataset, let's explore some line charts.
 
+Question: Is there a clear rise in price of honey per pound year over year? You can most easily discover that by creating a single line chart:
 
+```python
+sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
+```
+Answer: Yes, with some exceptions around the year 2003:
 
+![line chart 1](images/line1.png)
 
+✅ Because Seaborn is aggregating data around one line, it displays "the multiple measurements at each x value by plotting the mean and the 95% confidence interval around the mean". [source](https://seaborn.pydata.org/tutorial/relational.html). This time-consuming behavior can be disabled by adding `ci=None`.
 
+Question: Well, in 2003 can we also see a spike in the honey supply? What if you look at total production year over year?
 
-## Multi-line Plots
+```python
+sns.relplot(x="year", y="totalprod", kind="line", data=honey);
+```
 
+![line chart 2](images/line2.png)
 
+Answer: Not really. If you look at total production, it actually seems to have increased in that particular year, even though generally speaking the amount of honey being produced is in decline during these years.
 
+Question: In that case, what could have caused that spike in the price of honey around 2003? 
+
+To discover this, you can explore a facet grid.
+
+## Facet Grids
+
+Facet grids take one facet of your dataset (in our case, you can choose 'year' to avoid having too many facets produced). Seaborn can then make a plot for each of those facets of your chosen x and y coordinates for more easy visual comparison. Does 2003 stand out in this type of comparison?
+
+Create a facet grid by continuing to use `relplot` as recommended by [Seaborn's documentation](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid). 
+
+```python
+sns.relplot(
+    data=honey, 
+    x="yieldpercol", y="numcol",
+    col="year", 
+    col_wrap=3,
+    kind="line"
+```
+In this visualization, you can compare the yield per colony and number of colonies year over year, side by side with a wrap set at 3 for the columns:
+
+![facet grid](images/facet.png)
+
+For this dataset, nothing particularly stands out with regards to the number of colonies and their yield, year over year and state over state. Is there a different way to look at finding a correlation between these two variables?
+
+## Dual-line Plots
+
+Try a multiline plot by superimposing two lineplots on top of each other, using Seaborn's 'despine' to remove their top and right spines, and using `ax.twinx` [derived from Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx allows a chart to share the x axis and display two y axes. So, display the yield per colony and number of colonies, superimposed:
+
+```python
+fig, ax = plt.subplots(figsize=(12,6))
+lineplot = sns.lineplot(x=honey['year'], y=honey['numcol'], data=honey, 
+                        label = 'Number of bee colonies', legend=False)
+sns.despine()
+plt.ylabel('# colonies')
+plt.title('Honey Production Year over Year');
+
+ax2 = ax.twinx()
+lineplot2 = sns.lineplot(x=honey['year'], y=honey['yieldpercol'], ax=ax2, color="r", 
+                         label ='Yield per colony', legend=False) 
+sns.despine(right=False)
+plt.ylabel('colony yield')
+ax.figure.legend();
+```
+![superimposed plots](images/dual-line.png)
+
+While nothing jumps out to the eye around the year 2003, it does allow us to end this lesson on a little happier note: while there are overall a declining number of colonies, their numbers might seem to be stabilizing and their yield per colony is actually increasing, even with fewer bees. 
+
+Go, bees, go!
+
+🐝❤️
 ## 🚀 Challenge
 
 ## Post-Lecture Quiz

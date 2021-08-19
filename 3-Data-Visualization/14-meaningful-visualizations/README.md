@@ -13,7 +13,7 @@
 
 ## Review & Self Study
 
-
+https://handbook.pubpub.org/
 ## Assignment
 
 [Assignment Title](assignment.md)
