@@ -51,7 +51,7 @@ To help us understand the distribution of data, it is helpful to talk about **qu
 
 Graphically we can represent relationship between median and quartiles in a diagram called the **box plot**:
 
-![Box Plot](images/boxplot_explanation.png)
+<img src="images/boxplot_explanation.png" width="50%"/>
 
 Here we also computer **inter-quartile range** IQR=Q3-Q1, and so-called **outliers** - values, that lie outside the boundaries [Q1-1.5*IQR,Q3+1.5*IQR].
 
@@ -92,6 +92,82 @@ If we plot the histogram of the generated samples we will see the picture very s
 
 *Normal Distribution with mean=0 and std.dev=1*
 
+## Confidence Intervals
+
+When we talk about weights of baseball players, we assume that there is certain **random variable W** that corresponds to ideal probability distribution of weights of all baseball players. Our sequence of weights corresponds to a subset of all baseball players that we call **population**. An interesting question is, can we know the parameters of distribution of W, i.e. mean and variance?
+
+The easiest answer would be to calculate mean and variance of our sample. However, it could happen that our random sample does not accurately represent complete population. Thus it makes sense to talk about **confidence interval**. 
+
+Suppose we have a sample X<sub>1</sub>, ..., X<sub>n</sub> from our distribution. Each time we draw a sample from our distribution, we would end up with different mean value &mu;. Thus &mu; can be considered to be a random variable. A **confidence interval** with confidence p is a pair of values (L<sub>p</sub>,R<sub>p</sub>), such that **P**(L<sub>p</sub>&leq;&mu;&leq;R<sub>p</sub>) = p, i.e. a probability of measured mean value falling within the interval equals to p.
+
+It does beyond our short intro to discuss how those confidence intervals are calculated. Some more details can be found [on Wikipedia](https://en.wikipedia.org/wiki/Confidence_interval). An example of calculating confidence interval for weights and heights is given in the [accompanying notebooks](notebook.ipynb).
+
+| p | Weight mean |
+|-----|-----------|
+| 0.85 | 201.73±0.94 |
+| 0.90 | 201.73±1.08 |
+| 0.95 | 201.73±1.28 |
+
+Notice that the higher is the confidence probability, the wider is the confidence interval. 
+
+## Hypothesis Testing 
+
+In our baseball players dataset, there are different player roles, that can be summarized below (look at the [accompanying notebook](notebook.ipynb) to see how this table can be calculated):
+
+| Role | Height | Weight | Count |
+|------|--------|--------|-------|
+| Catcher | 72.723684 | 204.328947 | 76 |
+| Designated_Hitter | 74.222222 | 220.888889 | 18 |
+| First_Baseman | 74.000000 | 213.109091 | 55 |
+| Outfielder | 73.010309 | 199.113402 | 194 |
+| Relief_Pitcher | 74.374603 | 203.517460 | 315 |
+| Second_Baseman | 71.362069 | 184.344828 | 58 |
+| Shortstop | 71.903846 | 182.923077 | 52 |
+| Starting_Pitcher | 74.719457 | 205.163636 | 221 |
+| Third_Baseman | 73.044444 | 200.955556 | 45 |
+
+We can notice that the mean heights of first basemen is higher that that of second basemen. Thus, we may be tempted to conclude that **first basemen are higher than second basemen**.
+
+> This statement is called **a hypothesis**, because we do not know whether the fact is actually true or not.
+
+However, it is not always obvious whether we can make this conclusion. From the discussion above we know that each mean has an associated confidence interval, and thus this difference can just be a statistical error. We need some more formal way to test our hypothesis.
+
+Let's compute confidence intervals separately for heights of first and second basemen:
+
+| Confidence | First Basemen | Second Basemen |
+|------------|---------------|----------------|
+| 0.85 | 73.62..74.38 | 71.04..71.69 |
+| 0.90 | 73.56..74.44 | 70.99..71.73 |
+| 0.95 | 73.47..74.53 | 70.92..71.81 |
+
+We can see that under no confidence the intervals overlap. That proves our hypothesis that first basemen are higher than second basemen.
+
+More formally, the problem we are solving is to see if **two probability distributions are the same**, or at least have the same parameters. Depending on the distribution, we need to use different tests for that. If we know that our distributions are normal, we can apply **[Student t-test](https://en.wikipedia.org/wiki/Student%27s_t-test)**. 
+
+In Student t-test, we compute so-called **t-value**, which indicates the difference between means, taking into account the variance. It is demonstrated that t-value follows **student distribution**, which allows us to get the threshold value for a given confidence level **p** (this can be computed, or looked up in the numerical tables). We then compare t-value to this threshold to approve or reject the hypothesis.
+
+In Python, we can use **SciPy** package, which includes `ttest_ind` function (in addition to many other useful statistical functions!). It computes the t-value for us, and also does the reverse lookup of confidence p-value, so that we can just look at the confidence to draw the conclusion.
+
+For example, our comparison between heights of first and second basemen give us the following results: 
+```python
+from scipy.stats import ttest_ind
+
+tval, pval = ttest_ind(df.loc[df['Role']=='First_Baseman',['Height']], df.loc[df['Role']=='Designated_Hitter',['Height']],equal_var=False)
+print(f"T-value = {tval[0]:.2f}\nP-value: {pval[0]}")
+```
+```
+T-value = 7.65
+P-value: 9.137321189738925e-12
+```
+In our case, p-value is very low, meaning that there is strong evidence supporting that first basemen are taller.
+
+> **Challenge**: Use the sample code in the notebook to test other hypothesis that: (1) First basemen and older that second basemen; (2) First basemen and taller than third basemen; (3) Shortstops are taller than second basemen
+
+
+There are different types of hypothesis that we might want to test, for example:
+* To prove that a given sample follows some distribution. In our case we have assumed that heights are normally distributed, but that needs formal statistical verification. 
+* To prove that a mean value of a sample corresponds to some predefined value
+* To prove that 
 
 ## Law of Large Numbers and Central Limit Theorem
 
