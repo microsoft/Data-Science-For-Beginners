@@ -11,6 +11,7 @@ It will be interesting to visualize the relationship between a given state's pro
 [Pre-lecture quiz]()
 
 In this lesson, you can use Seaborn, which you use before, as a good library to visualize relationships between variables. Particularly interesting is the use of Seaborn's `relplot` function that allows scatter plots and line plots to quickly visualize '[statistical relationships](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', which allow the data scientist to better understand how variables relate to each other.
+
 ## Scatterplots
 
 Use a scatterplot to show how the price of honey has evolved, year over year, per state. Seaborn, using `relplot`, conveniently groups the state data and displays data points for both categorical and numeric data. 
@@ -85,6 +86,8 @@ Is this a simple case of supply and demand? Due to factors such as climate chang
 
 To discover a correlation between some of the variables in this dataset, let's explore some line charts.
 
+## Line charts
+
 Question: Is there a clear rise in price of honey per pound year over year? You can most easily discover that by creating a single line chart:
 
 ```python
@@ -110,7 +113,7 @@ Question: In that case, what could have caused that spike in the price of honey 
 
 To discover this, you can explore a facet grid.
 
-## Facet Grids
+## Facet grids
 
 Facet grids take one facet of your dataset (in our case, you can choose 'year' to avoid having too many facets produced). Seaborn can then make a plot for each of those facets of your chosen x and y coordinates for more easy visual comparison. Does 2003 stand out in this type of comparison?
 
