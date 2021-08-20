@@ -94,20 +94,15 @@ The steps necessary to create this projects are the following:
 
 * Start the job 
 
- 
+To view the full process, check out the [documentation](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends).
+
+
 
 Let’s take a more original example of a project created by Dmitry Soshnikov, one of the authors of this curriculum. 
-
- 
-
-To view the full process, check out the [documentation](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends). 
-
- 
 
 Dmitry created a Generative Adversarial Network and taught it to create artificial paintings. We will see the different steps used to for this: 
 
  
-
 * Creating artificial paintings 
 
 * Training the network on paintings from a dataset 
@@ -128,13 +123,18 @@ As you can see, we can leverage Cloud services in many ways to perform Data Scie
 
 To see the full process, visit [Dmitry’s blog](https://soshnikov.com/scienceart/creating-generative-art-using-gan-on-azureml). 
 
+
+Here is a paragraph with an footnote <span id="a1">[[1]](#f1)</span>.
+
+## Footnote
+
+Sources:
+* https://azure.microsoft.com/overview/what-is-cloud-computing  
+
+* https://docs.microsoft.com/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends  
+
+* https://soshnikov.com/scienceart/creating-generative-art-using-gan-on-azureml/  
+
 ## Post-Lecture Quiz
 
 [Post-lecture quiz]()
-
-## Review & Self Study
-
-
-## Assignment
-
-[Assignment Title](assignment.md)
