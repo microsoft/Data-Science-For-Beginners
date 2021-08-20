@@ -47,8 +47,7 @@ Developers and IT professionals chose to work with the Cloud for many reasons, i
 
 * Security: you can benefit from policies, technologies, and controls that strengthen the security of your project 
 
- 
-Data scientists and developers working with large amounts of data face several challenges that are specifically impactful in their activities: 
+ These are some of the most reasons why people choose to use Cloud services. Now that we have a better understanding of what the Cloud is and what its main benefits are, let's look more specifically into the jobs of Data scientists and developers working with data, and how the Cloud can help them with several of the specific challenges they face: 
 
 * Storing large amounts of data: instead of buying, managing and protecting big servers, you can store your data directly in the cloud, with solutions such as Azure Cosmos DB, Azure SQL Database and Azure Data Lake Storage 
 
