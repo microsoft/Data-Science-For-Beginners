@@ -62,6 +62,71 @@ Developers and IT professionals chose to work with the Cloud for many reasons, i
  
 ## Examples of Data Science in the Cloud 
 
+ 
+
+Let’s make this more tangible by looking at a couple of scenarios. 
+
+ 
+
+We’ll start with a scenario commonly studied by people who start with machine learning: social media sentiment analysis in real time. 
+
+ 
+
+Let's say you run a news media website, and you want to leverage live data to understand what content your readers could be interested in. To know more about that, you can build a program that performs real-time sentiment analysis of data from Twitter publications, on topics that are relevant to your readers. 
+
+ 
+
+The key indicators you will look at is the volume of tweets on specific topics (hashtags), and sentiment, which is established using analytics tools that perform sentiment analysis around the specified topics. 
+
+ 
+
+The steps necessary to create this projects are the following: 
+
+* Create an event hub for streaming input, which will collect data from Twitter 
+
+* Configure and start a Twitter client application, which will call the Twitter Streaming APIs 
+
+* Create a Stream Analytics job 
+
+* Specify the job input and query 
+
+* Create an output sink and specify the job output 
+
+* Start the job 
+
+ 
+
+Let’s take a more original example of a project created by Dmitry Soshnikov, one of the authors of this curriculum. 
+
+ 
+
+To view the full process, check out the [documentation](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends). 
+
+ 
+
+Dmitry created a Generative Adversarial Network and taught it to create artificial paintings. We will see the different steps used to for this: 
+
+ 
+
+* Creating artificial paintings 
+
+* Training the network on paintings from a dataset 
+
+* Training a GAN, or Generative Adversarial Network 
+
+* Creating a discriminator model and a generator model 
+
+* Training the script in the Cloud with Azure ML 
+
+* Generating new images 
+
+ 
+
+As you can see, we can leverage Cloud services in many ways to perform Data Science. 
+
+ 
+
+To see the full process, visit [Dmitry’s blog](https://soshnikov.com/scienceart/creating-generative-art-using-gan-on-azureml). 
 
 ## Post-Lecture Quiz
 
