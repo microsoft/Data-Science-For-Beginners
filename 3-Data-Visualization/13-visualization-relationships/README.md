@@ -161,13 +161,14 @@ Go, bees, go!
 🐝❤️
 ## 🚀 Challenge
 
+In this lesson, you learned a bit more about other uses of scatterplots and line grids, including facet grids. Challenge yourself to create a facet grid using a different dataset, maybe one you used prior to these lessons. Note how long they take to create and how you need to be careful about how many grids you need to draw using these techniques.
 ## Post-Lecture Quiz
 
 [Post-lecture quiz]()
 
 ## Review & Self Study
 
-
+Line plots can be simple or quite complex. Do a bit of reading in the [Seaborn documentation](https://seaborn.pydata.org/generated/seaborn.lineplot.html) on the various ways you can build them. Try to enhance the line charts you built in this lesson with other methods listed in the docs.
 ## Assignment
 
-[Assignment Title](assignment.md)
+[Dive into the beehive](assignment.md)
