@@ -133,7 +133,7 @@ Loop through the .json object to capture the 'to' and 'from' data for the letter
 Run your app from the terminal (npm run serve) and enjoy the visualization!
 ## 🚀 Challenge
 
-Using the code sample in this project to create a social network, mock up data of your own social interactions. You could map your usage of social media or make a diagram of your family members. Create an interesting web app that shows a unique visualization of a social network.
+Take a tour of the internet to discover deceptive visualizations. How does the author fool the user, and is it intentional? Try correcting the visualizations to show how they should look.
 ## Post-Lecture Quiz
 
 [Post-lecture quiz]()
@@ -155,4 +155,4 @@ Look through this article on how animation can enhance your visualizations
 https://medium.com/@EvanSinar/use-animation-to-supercharge-data-visualization-cd905a882ad4
 ## Assignment
 
-[Assignment Title](assignment.md)
+[Build your own custom vis](assignment.md)
