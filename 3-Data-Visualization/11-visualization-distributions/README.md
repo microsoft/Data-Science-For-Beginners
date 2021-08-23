@@ -176,6 +176,7 @@ Perhaps it's worth researching whether the cluster of 'Vulnerable' birds accordi
 
 ## 🚀 Challenge
 
+Histograms are a more sophisticated type of chart than basic scatterplots, bar charts, or line charts. Go on a search on the internet to find good examples of the use of histograms. How are they used, what do they demonstrate, and in what fields or areas of inquiry do they tend to be used?
 
 ## Post-Lecture Quiz
 
@@ -183,7 +184,8 @@ Perhaps it's worth researching whether the cluster of 'Vulnerable' birds accordi
 
 ## Review & Self Study
 
+In this lesson, you used Matplotlib and started working with Seaborn to show more sophisticated charts. Do some research on `kdeplot` in Seaborn, a "continuous probability density curve in one or more dimensions". Read through [the documentation](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) to understand how it works.
 
 ## Assignment
 
-[Assignment Title](assignment.md)
+[Apply your skills](assignment.md)
