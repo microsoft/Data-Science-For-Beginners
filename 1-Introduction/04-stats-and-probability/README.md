@@ -179,7 +179,7 @@ P-value: 9.137321189738925e-12
 ```
 In our case, p-value is very low, meaning that there is strong evidence supporting that first basemen are taller.
 
-> **Challenge**: Use the sample code in the notebook to test other hypothesis that: (1) First basemen and older that second basemen; (2) First basemen and taller than third basemen; (3) Shortstops are taller than second basemen
+> 🚀 **Challenge**: Use the sample code in the notebook to test other hypothesis that: (1) First basemen and older that second basemen; (2) First basemen and taller than third basemen; (3) Shortstops are taller than second basemen
 
 There are also different other types of hypothesis that we might want to test, for example:
 * To prove that a given sample follows some distribution. In our case we have assumed that heights are normally distributed, but that needs formal statistical verification. 
@@ -222,8 +222,17 @@ In our case, the value 0.53 indicates that there is some correlation between wei
 
 > More examples of correlation and covariance can be found in [accompanying notebook](notebook.ipynb).
 
-## 🚀 Challenge
+## Conclusion
 
+In this section, we have learnt:
+
+* basic statistical properties of data, such as mean, variance, mode and quartiles
+* different distributions of random variables, including normal distribution
+* how to find correlation between different properties
+* how to use sound apparatus of math and statistics in order to prove some hypotheses, 
+* how to compute confidence intervals for random variable given data sample
+
+While this is definitely not exhaustive list of topics that exist within probability and statistics, it should be enough to give you a good start into this course.
 
 ## Post-Lecture Quiz
 
@@ -240,3 +249,4 @@ Probability and statistics is such a broad topic that it deserves its own course
 ## Assignment
 
 [Small Diabetes Study](assignment.md)
+
