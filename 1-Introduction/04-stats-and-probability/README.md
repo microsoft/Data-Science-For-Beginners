@@ -70,6 +70,12 @@ Here is the box plot showing mean, median and quartiles for our data:
 
 ![Weight Box Plot](images/weight-boxplot.png)
 
+Since our data contains information about different player **roles**, we can also do the box plot by role - it will allow us to get the idea on how parameters values differ across roles. This time we will consider height:
+
+![Box plot by role](images/boxplot_byrole.png)
+
+This diagram suggests that, on average, height of first basemen is higher that height of second basemen. Later in this lesson we will learn how we can test this hypothesis more formally, and how to demonstrate that our data is statistically significant to show that.
+
 > When working with real-world data, we assume that all data points are samples drawn from some probability distribution. This assumption allows us to apply machine learning techniques and build working predictive models.
 
 To see what is the distribution of our data, we can plot a graph called a **histogram**. X-axis would contain a number of different weight intervals (so-called **bins**), and vertical axis would show the number of times our random variable sample was inside a given interval. 
@@ -78,7 +84,7 @@ To see what is the distribution of our data, we can plot a graph called a **hist
 
 From this histogram you can see that all values are centered around certain mean weight, and the further we go from that weight - the fewer weights of that value are encountered. I.e., it is very improbable that a weight of a baseball player would be very different from the mean weight. Variance of weights show the extent to which weights are likely to differ from the mean.
 
-> If we take weights of other people, not from the baseball league, the distribution is likely to be different. However, the shape of the distribution will be the same, but mean and variance would change. So, if we train our model on baseball players, it i likely to give wrong results when applied to students of a university, because the underlying distribution is different.
+> If we take weights of other people, not from the baseball league, the distribution is likely to be different. However, the shape of the distribution will be the same, but mean and variance would change. So, if we train our model on baseball players, it is likely to give wrong results when applied to students of a university, because the underlying distribution is different.
 ## Normal Distribution
 
 The distribution of weights that we have seen above is very typical, and many measurements from real world follow the same type of distribution, but with different mean and variance. This distribution is called **normal distribution**, and it plays very important role in statistics.
