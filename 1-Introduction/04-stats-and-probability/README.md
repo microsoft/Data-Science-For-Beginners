@@ -55,7 +55,7 @@ Graphically we can represent relationship between median and quartiles in a diag
 
 Here we also computer **inter-quartile range** IQR=Q3-Q1, and so-called **outliers** - values, that lie outside the boundaries [Q1-1.5*IQR,Q3+1.5*IQR].
 
-For finite distribution that contains small number of possible values, a good "typical" value is the one that appears the most frequently, which is called **mode**. It is often applied to categorical data, such as colors. Consider a situation when we have two groups of people - some that strongly prefer red, and others who prefer blue. If we code colors by numbers, the mean value for a favourite color would be somewhere in the orange-green spectrum, which does not indicate the actual preference on neither group. However, the mode would be either one of the colors, or both colors, if the number of people voting for them is equal (in this case we call the sample **multimodal**).
+For finite distribution that contains small number of possible values, a good "typical" value is the one that appears the most frequently, which is called **mode**. It is often applied to categorical data, such as colors. Consider a situation when we have two groups of people - some that strongly prefer red, and others who prefer blue. If we code colors by numbers, the mean value for a favorite color would be somewhere in the orange-green spectrum, which does not indicate the actual preference on neither group. However, the mode would be either one of the colors, or both colors, if the number of people voting for them is equal (in this case we call the sample **multimodal**).
 ## Real-world Data
 
 When we analyze data from real life, they often are not random variables as such, in a sense that we do not perform experiments with unknown result. For example, consider a team of baseball players, and their body data, such as height, weight and age. Those numbers are not exactly random, but we can still apply the same mathematical concepts. For example, a sequence of people's weights can be considered to be a sequence of values drawn from some random variable. Below is the sequence of weights of actual baseball players from [Major League Baseball](http://mlb.mlb.com/index.jsp), taken from [this dataset](http://wiki.stat.ucla.edu/socr/index.php/SOCR_Data_MLB_HeightsWeights) (for your convenience, only first 20 values are shown):
@@ -63,6 +63,8 @@ When we analyze data from real life, they often are not random variables as such
 ```
 [180.0, 215.0, 210.0, 210.0, 188.0, 176.0, 209.0, 200.0, 231.0, 180.0, 188.0, 180.0, 185.0, 160.0, 180.0, 185.0, 197.0, 189.0, 185.0, 219.0]
 ```
+
+> **Note**: To see the example of working with this dataset, have a look at the [accompanying notebook](notebook.ipynb). There is also a number of challenges throughout this lesson, and you may complete them by adding some code to that notebook. If you are not sure how to operate on data, do not worry - we will come back to working with data using Python at a later time.
 
 Here is the box plot showing mean, median and quartiles for our data:
 
@@ -94,13 +96,23 @@ If we plot the histogram of the generated samples we will see the picture very s
 
 ## Confidence Intervals
 
-When we talk about weights of baseball players, we assume that there is certain **random variable W** that corresponds to ideal probability distribution of weights of all baseball players. Our sequence of weights corresponds to a subset of all baseball players that we call **population**. An interesting question is, can we know the parameters of distribution of W, i.e. mean and variance?
+When we talk about weights of baseball players, we assume that there is certain **random variable W** that corresponds to ideal probability distribution of weights of all baseball players (so-called **population**). Our sequence of weights corresponds to a subset of all baseball players that we call **sample**. An interesting question is, can we know the parameters of distribution of W, i.e. mean and variance of the population?
 
-The easiest answer would be to calculate mean and variance of our sample. However, it could happen that our random sample does not accurately represent complete population. Thus it makes sense to talk about **confidence interval**. 
+The easiest answer would be to calculate mean and variance of our sample. However, it could happen that our random sample does not accurately represent complete population. Thus it makes sense to talk about **confidence interval**.
+
+> **Confidence interval** is the estimation of true mean of the population given our sample, which is accurate is a certain probability (or **level of confidence**).
 
 Suppose we have a sample X<sub>1</sub>, ..., X<sub>n</sub> from our distribution. Each time we draw a sample from our distribution, we would end up with different mean value &mu;. Thus &mu; can be considered to be a random variable. A **confidence interval** with confidence p is a pair of values (L<sub>p</sub>,R<sub>p</sub>), such that **P**(L<sub>p</sub>&leq;&mu;&leq;R<sub>p</sub>) = p, i.e. a probability of measured mean value falling within the interval equals to p.
 
-It does beyond our short intro to discuss how those confidence intervals are calculated. Some more details can be found [on Wikipedia](https://en.wikipedia.org/wiki/Confidence_interval). An example of calculating confidence interval for weights and heights is given in the [accompanying notebooks](notebook.ipynb).
+It does beyond our short intro to discuss in detail how those confidence intervals are calculated. Some more details can be found [on Wikipedia](https://en.wikipedia.org/wiki/Confidence_interval). In short, we define the distribution of computed sample mean relative to the true mean of the population, which is called **student distribution**.
+
+> **Interesting fact**: Student distribution is named after mathematician William Sealy Gosset, who published his paper under pseudonym "Student". He worked in the Guinness brewery, and, according to one of the versions, his employer did not want general public to know that they were using statistical tests to determine the quality of raw materials.
+
+If we want to estimate the mean &mu; of our population with confidence p, we need to take *(1-p)/2-th percentile* of a Student distribution A, which can either be taken from tables, or computer using some built-in functions of statistical software (eg. Python, R, etc.). Then the interval for &mu; would be given by X&pm;A*D/&radic;n, where X is the obtained mean of the sample, D is the standard deviation.
+
+> **Note**: We also omit the discussion of an important concept of [degrees of freedom](https://en.wikipedia.org/wiki/Degrees_of_freedom_(statistics)), which is important in relation to Student distribution. You can refer to more complete books on statistics to understand this concept deeper.
+
+An example of calculating confidence interval for weights and heights is given in the [accompanying notebooks](notebook.ipynb).
 
 | p | Weight mean |
 |-----|-----------|
@@ -163,11 +175,10 @@ In our case, p-value is very low, meaning that there is strong evidence supporti
 
 > **Challenge**: Use the sample code in the notebook to test other hypothesis that: (1) First basemen and older that second basemen; (2) First basemen and taller than third basemen; (3) Shortstops are taller than second basemen
 
-
-There are different types of hypothesis that we might want to test, for example:
+There are also different other types of hypothesis that we might want to test, for example:
 * To prove that a given sample follows some distribution. In our case we have assumed that heights are normally distributed, but that needs formal statistical verification. 
 * To prove that a mean value of a sample corresponds to some predefined value
-* To prove that 
+* To compare means of a number of samples (eg. what is the difference in happiness levels amond different age groups)
 
 ## Law of Large Numbers and Central Limit Theorem
 
@@ -205,9 +216,6 @@ In our case, the value 0.53 indicates that there is some correlation between wei
 
 > More examples of correlation and covariance can be found in [accompanying notebook](notebook.ipynb).
 
-
-
-
 ## 🚀 Challenge
 
 
@@ -217,7 +225,12 @@ In our case, the value 0.53 indicates that there is some correlation between wei
 
 ## Review & Self Study
 
+Probability and statistics is such a broad topic that it deserves its own course. If you are interested to go deeper into theory, you may want to continue reading some of the following books:
+
+1. [Carlos Fernanderz-Granda](https://cims.nyu.edu/~cfgranda/) from New York University has great lecture notes [Probability and Statistics for Data Science](https://cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf) (available online)
+1. [Peter and Andrew Bruce. Practical Statistics for Data Scientists.](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/) [[sample code in R](https://github.com/andrewgbruce/statistics-for-data-scientists)]. 
+1. [James D. Miller. Statistics for Data Science](https://www.packtpub.com/product/statistics-for-data-science/9781788290678) [[sample code in R](https://github.com/PacktPublishing/Statistics-for-Data-Science)]
 
 ## Assignment
 
-[Assignment Title](assignment.md)
+[Small Diabetes Study](assignment.md)
