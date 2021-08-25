@@ -1,4 +1,4 @@
-# Working with Data: Cleaning and Transformations
+# Working with Data: Data Preparation
 
 ## Pre-Lecture Quiz
 
