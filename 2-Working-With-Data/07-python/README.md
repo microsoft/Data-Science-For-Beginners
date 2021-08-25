@@ -43,7 +43,9 @@ import matplotlib.pyplot as plt
 from scipy import ... # you need to specify exact sub-packages that you need
 ``` 
 
-Pandas is centered around the following basic concepts:
+Pandas is centered around a few basic concepts.
+
+### Series 
 
 **Series** is a sequence of values, similar to a list or numpy array. The main difference is that series also has and **index**, and when we operate on series (eg., add them), the index is taken into account. Index can be as simple as integer row number (it is the index used by default when creating a series from list or array), or it can have a complex structure, such as date interval.
 
@@ -71,11 +73,52 @@ total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
 ![Time Series Plot](images/timeseries-2.png)
+
+> **Note** that we are not using simple syntax `total_items+additional_items`. If we did, we would have received a lot of `NaN` (*Not a Number*) values in the resulting series. This is because there are missing values for some of the index point in the `additional_items` series, and adding `Nan` to anything results in `NaN`. Thus we need to specify `fill_value` parameter during addition.
+
+With time series, we can also **resample** the series with different time intervals. For example, suppose we want to compute mean sales volume monthly. We can use the following code:
+```python
+monthly = total_items.resample("1M").mean()
+ax = monthly.plot(kind='bar')
+```
+![Monthly Time Series Averages](images/timeseries-3.png)
+
+### DataFrame
+
+A DataFrame is essentially a collection of series with the same index. We can combine several series together into a DataFrame:
+```python
+a = pd.Series(range(1,10))
+b = pd.Series(["I","like","to","play","games","and","will","not","change"],index=range(0,9))
+df = pd.DataFrame([a,b])
+```
+This will create a horizontal table like this:
+| | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+|---|---|---|---|---|---|---|---|---|---|
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| 1 | I | like | to | use | Python | and | Pandas | very | much |
+
+We can also use Series as columns, and specify column names using dictionary:
+```python
+df = pd.DataFrame({ 'A' : a, 'B' : b })
+```
+This will give us a table like this:
+
+|  | A | B |
+|---|---|---|
+| 0 | 1 | I |
+| 1 | 2 | like |
+| 2 | 3 | to |
+| 3 | 4 | use |
+| 4 | 5 | Python |
+| 5 | 6 | and |
+| 6 | 7 | Pandas |
+| 7 | 8 | very |
+| 8 | 9 | much |
 ## 🚀 Challenge
 
 First problem we will focus on is modelling of epidemic spread of COVID-19. In order to do that, we will use the data on the number of infected individuals in different countries, provided by the [Center for Systems Science and Engineering](https://systems.jhu.edu/) (CSSE) at [Johns Hopkins University](https://jhu.edu/). Dataset is available in [this GitHub Repository](https://github.com/CSSEGISandData/COVID-19).
 
-Since we want to demonstrate how to deal with data, we invite you to open [`notebook-pandas.ipynb`](notebook-pandas.ipynb) and read it from top to bottom. You can also execute cells, and do some challenges that we have leaf for you along the way.
+Since we want to demonstrate how to deal with data, we invite you to open [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) and read it from top to bottom. You can also execute cells, and do some challenges that we have leaf for you along the way.
 
 
 
