@@ -1,43 +1,32 @@
 # Working with Data: Non-Relational Data
 
-Data can come from various sources, and is not limited to relational databases. This lesson focuses on non relational data and will cover spreadsheets and NoSQL.
-
+Data is not limited to relational databases. This lesson focuses on non relational data and will cover the basic of spreadsheets and NoSQL.
 
 ## Spreadsheets
 
-Many data scientists will not pick spreadsheets as their first tool for various and valid reasons. However, it's a popular way to store and explore data because it requires less work to setup and get started. In this lesson you'll learn the basic components of a spreadsheet, how to apply formulas and functions, generating charts and pivot tables, and how to sort and filter a spreadsheet. This lesson provides foundational knowledge of spreadsheets in the rare event that you find yourself working with with them. The examples will be illustrated with Microsoft Excel, but most of the parts and topics will have similar names and steps in comparison to other spreadsheet software. 
+Many data scientists will not pick spreadsheets as their first tool for various and valid reasons. However, it's a popular way to store and explore data because it requires less work to setup and get started. In this lesson you'll learn the basic components of a spreadsheet and formulas and functions are applied. This lesson provides foundational knowledge of spreadsheets in the rare event that you find yourself working with with them. The examples will be illustrated with Microsoft Excel, but most of the parts and topics will have similar names and steps in comparison to other spreadsheet software. 
 
 ![An empty Microsoft Excel workbook with two worksheets](parts-of-spreadsheet.png)
 
-A spreadsheet is a file and will be accessible in the file system of a computer, device, or cloud based file system. The software itself may be browser based or an application that must be installed on a computer or downloaded as an app. When it comes to Excel, these files are also defined as workbooks and this terminology will be used the remainder of this lesson.
+A spreadsheet is a file and will be accessible in the file system of a computer, device, or cloud based file system. The software itself may be browser based or an application that must be installed on a computer or downloaded as an app. In Excel these files are also defined as **workbooks** and this terminology will be used the remainder of this lesson.
 
-A workbook contains one or more worksheets
-Worksheets
-Columns 
-Row
-Cell
-Header
+A workbook contains one or more **worksheets**, where each worksheet are labeled by tabs. Within a worksheet are rectangles called **cells**, which will contain the actual data. A cell is the intersection of a row and column, where the columns are labeled with alphabetical characters and rows labeled numerically. Some spreadsheets will contain headers in the first few rows to describe the data in a cell.
 
-### Exploring Values
-Date (slash or dash) times (colon)
-Numbers
-Text/alpha characters 
-Autofill?
+With these basic elements of an Excel workbook, we'll use and an example from [Microsoft Templates](https://templates.office.com/) focused on an inventory to walk through some additional parts of a spreadsheet. 
 
-### Formulas and Functions
-- How to start one (equal and cell id)
-- formula bar
-- copying by dragging over by fill handle
-- Basic mathematics
-- Sum
-- Average
-- XLookup/lookup functions -relationships
+### Managing an Inventory 
 
-### Charts
-- Creating a chart
-- Pivot Tables
+The spreadsheet file named "Inventory Example" is a formatted spreadsheet of items within an inventory that contains three worksheets, where the tabs are labeled "Inventory List", "Inventory Pick List" and "Bin Lookup". Row 4 of the Inventory List worksheet is the header, which describes the value of each cell in the header column.
 
+> Knowledge check: Is a header a cell?
 
+There are instances where a cell is dependent on the values of other cells to generate its value. The Inventory List spreadsheet keeps track of the cost of every item in its inventory, but what if we need to know the value of everything in the inventory? **Formulas** perform actions on cell data and is used to calculate the cost of the inventory in this example. This spreadsheet used a formula in the Inventory Value column to calculate the value of each item by multiplying the quantity under the QTY header and its costs by the cells under the COST header. Double clicking or highlighting a cell will show the formula. You'll notice that formulas start with an equals sign, followed by the calculation or operation. 
+
+!IMG[Show what it looks like here]
+
+We can use another formula to add all the values of Inventory Value together to get its total value. This could be calculated by adding each cell to generate the sum, but that can be a tedious task. Excel has **functions**, or predefined formulas to perform calculations on cell values. Functions require arguments, which are the required values used to perform these calculations. When functions require more than one argument, they will need to be listed in a particular order or the function may not calculate the correct value. This example uses the SUM function, and uses the values of on Inventory Value as the argument to add generate the total listed under row 3, column B (also referred to as B3).
+
+There are some additional formatting and features added to this spreadsheet that this lesson does not cover. If you're interested in learning more about Excel, [RESOURCE HERE] 
 
 ## NoSQL
 
