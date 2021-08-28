@@ -31,6 +31,13 @@ Questions a data scientist may ask about the data:
 
 
 ## Processing
+
+Processing the data prepares it for analysis and is where patterns in the data is discovered. Some techniques used to in the processing stage requires statistical methods to uncover the patterns. Typically, this would be a tedious task for a human to do with a large data set and will rely on computers, machine learning, and artificial intelligence to speed up the process. 
+Most of these techniques can be categorized as data mining, the popular approaches of classification and clustering are covered in the ML for beginner curriculum.  Follow these links to read more about them:
+
+[Get Started with Classification in Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners/tree/main/4-Classification)
+[Clustering Models for Machine Learning in Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners/tree/main/5-Clustering)
+
 ## Maintaining
 
 ## Pre-Lecture Quiz
