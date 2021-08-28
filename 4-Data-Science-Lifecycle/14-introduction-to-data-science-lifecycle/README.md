@@ -32,11 +32,14 @@ Questions a data scientist may ask about the data:
 
 ## Processing
 
-Processing the data prepares it for analysis and is where patterns in the data is discovered. Some techniques used to in the processing stage requires statistical methods to uncover the patterns. Typically, this would be a tedious task for a human to do with a large data set and will rely on computers, machine learning, and artificial intelligence to speed up the process. 
-Most of these techniques can be categorized as data mining, the popular approaches of classification and clustering are covered in the ML for beginner curriculum.  Follow these links to read more about them:
+The processing stage of the lifecycle focuses on discovering patterns in the data as well as modeling. Some techniques used to in the processing stage requires statistical methods to uncover the patterns. Typically, this would be a tedious task for a human to do with a large data set and will rely on computers to do the heavy lifting to speed up the process. This stage is also where data science and machine learning will intersect. As you learned in the first lesson, machine learning is the process of building models to understand the data. Models are a representation of the relationship between variables in the data that help predict outcomes.
 
-[Get Started with Classification in Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners/tree/main/4-Classification)
-[Clustering Models for Machine Learning in Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners/tree/main/5-Clustering)
+Common techniques used in this stage are covered in the ML for Beginners curriculum.  Follow the links to learn more about them:
+
+- Classification:  Organizing data into categories for more efficient use.
+- Clustering: Grouping data into similar groups.
+- Regression: Determine the relationships between variables to predict or forecast values 
+
 
 ## Maintaining
 
