@@ -18,8 +18,6 @@ With these basic elements of an Excel workbook, we'll use and an example from [M
 
 The spreadsheet file named "Inventory Example" is a formatted spreadsheet of items within an inventory that contains three worksheets, where the tabs are labeled "Inventory List", "Inventory Pick List" and "Bin Lookup". Row 4 of the Inventory List worksheet is the header, which describes the value of each cell in the header column.
 
-> Knowledge check: Is a header a cell?
-
 There are instances where a cell is dependent on the values of other cells to generate its value. The Inventory List spreadsheet keeps track of the cost of every item in its inventory, but what if we need to know the value of everything in the inventory? **Formulas** perform actions on cell data and is used to calculate the cost of the inventory in this example. This spreadsheet used a formula in the Inventory Value column to calculate the value of each item by multiplying the quantity under the QTY header and its costs by the cells under the COST header. Double clicking or highlighting a cell will show the formula. You'll notice that formulas start with an equals sign, followed by the calculation or operation. 
 
 !IMG[Show what it looks like here]
@@ -30,14 +28,31 @@ There are some additional formatting and features added to this spreadsheet that
 
 ## NoSQL
 
-### Types
+NoSQL stands for "Not only SQL"
 
-Document
-Key Value
-Graph
-Columnar
+NoSQL is an umbrella term for the different ways to store non-relational data. These can be categorized into 4 types.
+https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data
 
-### 
+[Key-value](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#keyvalue-data-stores) databases pair unique keys, which are a unique identifier associated with a value. These pairs are stored using a [hash table](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/) with an appropriate hashing function.
+
+![Image of a key-value store]
+
+
+[Graph](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#graph-data-stores) databases describe relationships in data and are represented as a collection of nodes and edges. A node represents an entity, something that exists in the real world such as a student or bank statement. Edges represent the relationship between two entities  Each node and edge have properties that provides additional information about each node and edges. 
+
+![Image of a key-value store]
+
+
+[Columnar](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) data stores organizes data into columns and rows like a relational data structure but each column is divided into groups called a column family, where the all the data under one column is related and can be retrieved and changed in one unit. 
+
+![Image of a key-value store]
+
+
+### Document Data Stores with the Azure Cosmos DB Emulator
+[Document](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#document-data-stores) data stores build on the concept of a key-value data store and is made up of a series of fields and objects
+
+#### The Cosmos DB Emulator
+
 
   
 
