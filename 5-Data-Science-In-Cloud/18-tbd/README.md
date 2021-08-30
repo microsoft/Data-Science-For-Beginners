@@ -44,6 +44,19 @@ Azure ML provides all the tools developers and data scientists need for their ma
 - **MLflow** is an open-source library for managing the life cycle of your machine learning experiments. **MLFlow Tracking** is a component of MLflow that logs and tracks your training run metrics and model artifacts, no matter your experiment's environment.
 
 ### 1.2 The Heart Failure Prediction Project
+
+What better way to learn than actually doing a project! In this lesson, we are going to explore two different ways of building a data science project for the prediction of heart failure attacks in Azure ML Studio, through Low code/No code and through the Azure ML SDK as shown in the following schema.
+
+![project-schema](img/project-schema.PNG)
+
+Both ways has its pro and cons. The Low code/No code way is easier to start with because it is mostly interacting with a GUI (Graphical User Interface) without knowledge of code required. This method is great at the beginning of a project to quickly test if a project is viable and to create POC (Proof Of Concept). However, once a project grows and things need to be production ready, it is not maintainable to create resources by hand through the GUI. We need to programmatically automate everything, from the creation of resources, to the deployment of a model. This is where knowing how to use the Azure ML SDK is critical.
+
+|                   | Low code/No code | Azure ML SDK              |
+|-------------------|------------------|---------------------------|
+| Expertise in code | Not required     | Required                  |
+| Time to develop   | Fast and easy    | Depends on code expertise |
+| Production ready  | No               | Yes                       |
+
 ### 1.3 The Heart Failure Dataset
 ## 2. Low code/No code training of a model in Azure ML Studio
 ### 2.1 Create an Azure ML workspace
