@@ -194,7 +194,44 @@ In the [Azure ML workspace](https://ml.azure.com/) that we created earlier, go t
 Awesome! Now that we have a Compute cluster, we need to load the data to Azure ML Studio. 
 
 ### 2.3 Loading the Dataset
+
+1. In the [Azure ML workspace](https://ml.azure.com/) that we created earlier click on "Datasets" in the left menu and click on the "+ Create dataset" button to create a dataset. Choose the "From local files" option and select the Kaggle dataset we downloaded earlier.
+   
+   ![24](img/dataset-1.PNG)
+
+2. Give your dataset a name, a type and a description. Click Next. Upload the data from files. Click Next.
+   
+   ![25](img/dataset-2.PNG)
+
+3. In the Schema, change the data type to Boolean for the following features: anaemia, diabetes, high blood pressure, sex, smoking, and DEATH_EVENT. Click Next and Click Create.
+   
+   ![26](img/dataset-3.PNG)
+
+Great now that the dataset is in place and the compute cluster is created, we can start the training of the model!
+
 ### 2.4 Low code/No Code training with AutoML 
+
+Traditional machine learning model development is resource-intensive, requiring significant domain knowledge and time to produce and compare dozens of models. 
+Automated machine learning (AutoML), is the process of automating the time-consuming, iterative tasks of machine learning model development. It allows data scientists, analysts, and developers to build ML models with high scale, efficiency, and productivity all while sustaining model quality. It greatly accelerates the time it takes to get production-ready ML models with great ease and efficiency. [Learn more](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml)
+
+1. In the [Azure ML workspace](https://ml.azure.com/) that we created earlier click on "Automated ML" in the left menu and select the dataset you just uploaded. Click Next.
+
+   ![27](img/aml-1.PNG)
+
+2.  Enter a new experiment name, the target column (DEATH_EVENT) and the compute cluster we created. Click Next.
+   
+   ![28](img/aml-2.PNG)
+
+3. Choose "Classification" and Click Finish. This step might take between 30 min to 1 hour depending on your compute cluster size.
+    
+    ![30](img/aml-3.PNG)
+
+4. Once the run is complete, click on the "Automated ML" tab, click on your run, and click on the Algorithm in the "Best model summary" card.
+    
+    ![31](img/aml-4.PNG)
+
+Here you can see the detailed description of the best model that AutoML generated. You can also explore other modes generated in the Models tab. Take a few minutes to explore the models in the Explanations (preview button). Once you have chosen the model you want to use (here we will chose the best model selected by autoML), we will see how we can deploy it.
+
 ## 3. Low code/No Code model deployment and endpoint consumption
 ### 3.1 Model deployment
 ### 3.2 Endpoint consumption
