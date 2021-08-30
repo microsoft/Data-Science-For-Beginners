@@ -84,6 +84,56 @@ Once you have the dataset, we can start the project in Azure.
 
 ## 2. Low code/No code training of a model in Azure ML Studio
 ### 2.1 Create an Azure ML workspace
+To train a model in Azure ML you first need to create an Azure ML workspace. The workspace is the top-level resource for Azure Machine Learning, providing a centralized place to work with all the artifacts you create when you use Azure Machine Learning. The workspace keeps a history of all training runs, including logs, metrics, output, and a snapshot of your scripts. You use this information to determine which training run produces the best model. [Learn more](https://docs.microsoft.com/en-us/azure/machine-learning/concept-workspace)
+
+It is recommended to use the most up-to-date browser that's compatible with your operating system. The following browsers are supported:
+
+- Microsoft Edge (The new Microsoft Edge, latest version. Not Microsoft Edge legacy)
+- Safari (latest version, Mac only)
+- Chrome (latest version)
+- Firefox (latest version)
+
+To use Azure Machine Learning, create a workspace in your Azure subscription. You can then use this workspace to manage data, compute resources, code, models, and other artifacts related to your machine learning workloads.
+
+> **_NOTE:_** Your Azure subscription will be charged a small amount for data storage as long as the Azure Machine Learning workspace exists in your subscription, so we recommend you delete the Azure Machine Learning workspace when you are no longer using it.
+
+1. Sign into the [Azure portal](https://ms.portal.azure.com/) using the Microsoft credentials associated with your Azure subscription.
+2. Select **＋Create a resource**
+   
+   ![workspace-1](img/workspace-1.PNG)
+
+   Search for Machine Learning and select the Machine Learning tile
+
+   ![workspace-2](img/workspace-2.PNG)
+
+   Click the create button
+
+   ![workspace-3](img/workspace-3.PNG)
+
+   Fill in the settings:
+   - Subscription: Your Azure subscription
+   - Resource group: Create or select a resource group
+   - Workspace name: Enter a unique name for your workspace
+   - Region: Select the geographical region closest to you
+   - Storage account: Note the default new storage account that will be created for your workspace
+   - Key vault: Note the default new key vault that will be created for your workspace
+   - Application insights: Note the default new application insights resource that will be created for your workspace
+   - Container registry: None (one will be created automatically the first time you deploy a model to a container)
+
+    ![workspace-4](img/workspace-4.PNG)
+
+   - Click the create + review and then on the create button
+3. Wait for your workspace to be created (it can take a few minutes). Then go to it in the portal. You can find it through the Machine Learning Azure service.
+4. On the Overview page for your workspace, launch Azure Machine Learning studio (or open a new browser tab and navigate to https://ml.azure.com), and sign into Azure Machine Learning studio using your Microsoft account. If prompted, select your Azure directory and subscription, and your Azure Machine Learning workspace.
+   
+![workspace-5](img/workspace-5.PNG)
+
+5. In Azure Machine Learning studio, toggle the ☰ icon at the top left to view the various pages in the interface. You can use these pages to manage the resources in your workspace.
+
+![workspace-6](img/workspace-6.PNG)
+
+You can manage your workspace using the Azure portal, but for data scientists and Machine Learning operations engineers, Azure Machine Learning studio provides a more focused user interface for managing workspace resources.
+
 ### 2.2 Compute Resources
 #### 2.2.1 Choosing the right options for your compute resources
 #### 2.2.2 Creating a compute cluster
