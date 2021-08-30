@@ -12,9 +12,10 @@ Table of contents:
     - [2.2 Create a compute instance](#22-create-a-compute-instance)
     - [2.3 Loading the Dataset](#23-loading-the-dataset)
     - [2.4 Creating Notebooks](#24-creating-notebooks)
-    - [2.5 Training a model with the Azure ML SDK](#25-training-a-model-with-the-azure-ml-sdk)
+    - [2.5 Training a model](#25-training-a-model)
       - [2.5.1 Setup Workspace, experiment, compute cluster and dataset](#251-setup-workspace-experiment-compute-cluster-and-dataset)
-      - [2.5.2 AutoML Configuration](#252-automl-configuration)
+      - [2.5.2 AutoML Configuration and training](#252-automl-configuration-and-training)
+  - [3. Model deployment and endpoint consumption with the Azure ML SDK](#3-model-deployment-and-endpoint-consumption-with-the-azure-ml-sdk)
   - [🚀 Challenge](#-challenge)
   - [Post-Lecture Quiz](#post-lecture-quiz)
   - [Review & Self Study](#review--self-study)
@@ -86,7 +87,7 @@ To create a Notebook, we need a compute node that is serving out the jupyter not
 
 Now that we have a Notebook, we can start training the model with Azure ML SDK.
 
-### 2.5 Training a model with the Azure ML SDK
+### 2.5 Training a model
 
 First of all, if you ever have a doubt, refer to the [Azure ML SDK documentation](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/?view=azure-ml-py). In contains all the necessary information to understand the modules we are going to see in this lesson.
 
@@ -134,15 +135,23 @@ dataset = ws.datasets['heart-failure-records']
 df = dataset.to_pandas_dataframe()
 df.describe()
 ```
-#### 2.5.2 AutoML Configuration
+#### 2.5.2 AutoML Configuration and training
 
 To set the AutoML configuration, use the [AutoMLConfig class](https://docs.microsoft.com/en-us/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?view=azure-ml-py).
 
-As described in the doc, there are a lot of settings with which you can play with. For this project, we will use the following settings:
+As described in the doc, there are a lot of parameters with which you can play with. For this project, we will use the following parameters:
 
 - `experiment_timeout_minutes`: The maximum amount of time (in minutes) that the experiment is allowed to run before it is automatically stopped and results are automatically made available
 - `max_concurrent_iterations`: The maximum number of concurrent training iterations allowed for the experiment.
 - `primary_metric`: The primary metric used to determine the experiment's status.
+- `compute_target`: The Azure Machine Learning compute target to run the Automated Machine Learning experiment on.
+- `task`: The type of task to run. Values can be 'classification', 'regression', or 'forecasting' depending on the type of automated ML problem to solve.
+- `training_data`: The training data to be used within the experiment. It should contain both training features and a label column (optionally a sample weights column).
+- `label_column_name`: The name of the label column.
+- `path`: The full path to the Azure Machine Learning project folder.
+- `enable_early_stopping`: Whether to enable early termination if the score is not improving in the short term.
+- `featurization`: Indicator for whether featurization step should be done automatically or not, or whether customized featurization should be used.
+- `debug_log`: The log file to write debug information to.
 
 ```python
 from azureml.train.automl import AutoMLConfig
@@ -166,6 +175,17 @@ automl_config = AutoMLConfig(compute_target=compute_target,
                              **automl_settings
                             )
 ```
+Now that you have your configuration set, you can train the model using the following code. This step can take up to an hour depending on your cluster size.
+
+```python
+remote_run = experiment.submit(automl_config)
+```
+You can run the RunDetails widget to show the different experiments.
+```python
+from azureml.widgets import RunDetails
+RunDetails(remote_run).show()
+```
+## 3. Model deployment and endpoint consumption with the Azure ML SDK
 
 ## 🚀 Challenge
 
