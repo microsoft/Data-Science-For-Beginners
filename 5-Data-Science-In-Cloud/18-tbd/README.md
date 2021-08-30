@@ -234,6 +234,23 @@ Here you can see the detailed description of the best model that AutoML generate
 
 ## 3. Low code/No Code model deployment and endpoint consumption
 ### 3.1 Model deployment
+
+The automated machine learning interface allows you to deploy the best model as a web service in a few steps. Deployment is the integration of the model so it can predict on new data and identify potential areas of opportunity. For this project, deployment to a web service means that medical applications will be able to consume the model to have live predictions of their patients risk to have a heart attack.
+
+In the best model description, click on the "Deploy" button.
+    
+![deploy-1](img/deploy-1.PNG)
+
+15. Give it a name, a description, compute type (Azure Container Instance), enable authentication and click on Deploy. This step might take about 20 minutes to complete. The deployment process entails several steps including registering the model, generating resources, and configuring them for the web service. A status message appears under Deploy status. Select Refresh periodically to check the deployment status. It is deployed and running when the status is "Healthy".
+
+![deploy-2](img/deploy-2.PNG)
+
+16. Once it is deployed, go click on the Endpoint tab and click on the endpoint you just deployed. You can find here all the details you need to know about the endpoint. 
+
+![deploy-3](img/deploy-3.PNG)
+
+Amazing! Now that we have a model deployed, we can start the consumption of the endpoint.
+
 ### 3.2 Endpoint consumption
 ## 🚀 Challenge
 
