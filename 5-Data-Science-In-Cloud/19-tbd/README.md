@@ -240,6 +240,41 @@ This step should take a few minutes.
 
 ### 3.3 Endpoint consumption
 
+You consume your endpoint by creating a sample input:
+
+```python
+data = {
+    "data":
+    [
+        {
+            'age': "60",
+            'anaemia': "false",
+            'creatinine_phosphokinase': "500",
+            'diabetes': "false",
+            'ejection_fraction': "38",
+            'high_blood_pressure': "false",
+            'platelets': "260000",
+            'serum_creatinine': "1.40",
+            'serum_sodium': "137",
+            'sex': "false",
+            'smoking': "false",
+            'time': "130",
+        },
+    ],
+}
+
+test_sample = str.encode(json.dumps(data))
+```
+And then you can send this input to your model for prediction : 
+
+```python
+response = aci_service.run(input_data=test_sample)
+response
+```
+This should output `'{"result": [false]}'`. This means that the patient input we sent to the endpoint generated the prediction `false` which means this person is not likely to have a heart attack.
+
+Congratulations! You just consumed the model deployed and trained on Azure ML!
+
 ## 🚀 Challenge
 
 
