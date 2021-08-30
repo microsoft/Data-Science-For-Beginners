@@ -323,7 +323,7 @@ The script should return :
 
 ## Assignment
 
-[Assignment Title](assignment.md)
+[Low code/No code Data Science project on Azure ML](assignment.md)
 
 
 

@@ -1,4 +1,4 @@
-# [Low code/No code] The Heart Failure Prediction Project
+# Low code/No code Data Science project on Azure ML
 
 ## Instructions
 
