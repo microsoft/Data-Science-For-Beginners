@@ -175,6 +175,24 @@ A low-priority instance means that it is interruptible—essentially, Microsoft 
 This is another consideration of time vs money, since interruptible instances are less expensive than dedicated ones.
 
 #### 2.2.2 Creating a compute cluster
+
+In the [Azure ML workspace](https://ml.azure.com/) that we created earlier, go to compute and you will see the different compute resources we just discussed (i.e compute instances, compute clusters, inference clusters and attached compute). For this project, we are going to need a compute cluster for the model training. In the Studio, Click on the "Compute" menu, then the "Compute cluster" tab and click on the "+ New" button to create a compute cluster.
+
+![22](img/cluster-1.PNG)
+
+1. Choose your options: Dedicated vs Low priority, CPU or GPU, VM size and core number (you can keep the default settings for this project).
+2. Click in the Next button.
+
+![23](img/cluster-2.PNG)
+
+3. Give the cluster a compute name 
+4. Choose your options: Min/Max number of nodes, Idle seconds before scale down, SSH access. Note that if the min number of nodes is 0, you will save money when the cluster is idle. Note that the higher the number of max node, the shorter the training the will be. The max number of nodes recommended is 3.  
+5. Click on the "Create" button. This step may take a few minutes. 
+
+![29](img/cluster-3.PNG)
+
+Awesome! Now that we have a Compute cluster, we need to load the data to Azure ML Studio. 
+
 ### 2.3 Loading the Dataset
 ### 2.4 Low code/No Code training with AutoML 
 ## 3. Low code/No Code model deployment and endpoint consumption
