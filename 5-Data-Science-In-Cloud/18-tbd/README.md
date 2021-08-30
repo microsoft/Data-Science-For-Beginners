@@ -145,6 +145,35 @@ Compute Resources are cloud-based resources on which you can run model training 
 
 
 #### 2.2.1 Choosing the right options for your compute resources
+
+Some key factors are to consider when creating a compute resource and those choices can be critical decisions to make. 
+
+**Do you need CPU or GPU ?**
+
+A CPU (Central Processing Unit) is the electronic circuitry that executes instructions comprising a computer program. A GPU (Graphics Processing Unit) is specialized electronic circuit that can execute graphics-related code at a very high rate. 
+
+The main difference between CPU and GPU architecture is that a CPU is designed to handle a wide-range of tasks quickly (as measured by CPU clock speed), but are limited in the concurrency of tasks that can be running. GPUs are designed for parallel computing and therfore are much better at deep learning tasks.
+
+| CPU                                     | GPU                         |
+|-----------------------------------------|-----------------------------|
+| Less expensive                          | More expensive              |
+| Lower level of concurrency              | Higher level of concurrency |
+| Slower in training deep learning models | Optimal for deep learning   |
+
+
+**Cluster Size**
+
+Larger clusters are more expensive but will result in better responsiveness. Therefore, if you have time and not much money, you should start with a small cluster. Conversely, if you have money but not much time, you should start with a larger cluster.
+
+**VM Size**
+
+Depending on your time and budgetary constrains, you can vary the size of your RAM, disk, number of cores and higher clock speed. Increasing all those parameters will be ore expensive but will result in better performance.
+
+**Dedicated or Low-Priority Instances ?**
+
+A low-priority instance means that it is interruptible—essentially, Microsoft Azure can take those resources and assign them to another task, thus interrupting a job. A dedicated instance, or non-interruptible, means that the job will never be terminated without your permission.
+This is another consideration of time vs money, since interruptible instances are less expensive than dedicated ones.
+
 #### 2.2.2 Creating a compute cluster
 ### 2.3 Loading the Dataset
 ### 2.4 Low code/No Code training with AutoML 
