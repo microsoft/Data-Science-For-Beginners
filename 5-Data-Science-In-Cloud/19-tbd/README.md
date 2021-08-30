@@ -16,6 +16,9 @@ Table of contents:
       - [2.5.1 Setup Workspace, experiment, compute cluster and dataset](#251-setup-workspace-experiment-compute-cluster-and-dataset)
       - [2.5.2 AutoML Configuration and training](#252-automl-configuration-and-training)
   - [3. Model deployment and endpoint consumption with the Azure ML SDK](#3-model-deployment-and-endpoint-consumption-with-the-azure-ml-sdk)
+    - [3.1 Saving the best model](#31-saving-the-best-model)
+    - [3.2 Model Deployment](#32-model-deployment)
+    - [3.3 Endpoint consumption](#33-endpoint-consumption)
   - [🚀 Challenge](#-challenge)
   - [Post-Lecture Quiz](#post-lecture-quiz)
   - [Review & Self Study](#review--self-study)
@@ -186,6 +189,56 @@ from azureml.widgets import RunDetails
 RunDetails(remote_run).show()
 ```
 ## 3. Model deployment and endpoint consumption with the Azure ML SDK
+
+### 3.1 Saving the best model
+
+The `remote_run` an object of type [AutoMLRun](https://docs.microsoft.com/en-us/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?view=azure-ml-py). This object contains the method `get_output()` which returns the best run and the corresponding fitted model.
+
+```python
+best_run, fitted_model = remote_run.get_output()
+```
+You can see the parameters used for the best model by just printing the fitted_model and see the properties of the best model by using the [get_properties()](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties) method.
+
+```python
+best_run.get_properties()
+```
+
+Now register the model with the [register_model](https://docs.microsoft.com/en-us/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?view=azure-ml-py#register-model-model-name-none--description-none--tags-none--iteration-none--metric-none-) method.
+```python
+model_name = best_run.properties['model_name']
+script_file_name = 'inference/score.py'
+best_run.download_file('outputs/scoring_file_v_1_0_0.py', 'inference/score.py')
+description = "aml heart failure project sdk"
+model = best_run.register_model(model_name = model_name,
+                                model_path = './outputs/',
+                                description = description,
+                                tags = None)
+```
+### 3.2 Model Deployment
+
+Once the best model is saved, we can deploy it with the [InferenceConfig](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py) class. InferenceConfig represents the configuration settings for a custom environment used for deployment. The [AciWebservice](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) class represents a machine learning model deployed as a web service endpoint on Azure Container Instances. A deployed service is created from a model, script, and associated files. The resulting web service is a load-balanced, HTTP endpoint with a REST API. You can send data to this API and receive the prediction returned by the model.
+
+The model is deployed using the [deploy](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-) method.
+
+```python
+from azureml.core.model import InferenceConfig, Model
+from azureml.core.webservice import AciWebservice, Webservice
+
+inference_config = InferenceConfig(entry_script=script_file_name, environment=best_run.get_environment())
+
+aciconfig = AciWebservice.deploy_configuration(cpu_cores = 1,
+                                               memory_gb = 1,
+                                               tags = {'type': "automl-heart-failure-prediction"},
+                                               description = 'Sample service for AutoML Heart Failure Prediction')
+
+aci_service_name = 'automl-hf-sdk'
+aci_service = Model.deploy(ws, aci_service_name, [model], inference_config, aciconfig)
+aci_service.wait_for_deployment(True)
+print(aci_service.state)
+```
+This step should take a few minutes.
+
+### 3.3 Endpoint consumption
 
 ## 🚀 Challenge
 
