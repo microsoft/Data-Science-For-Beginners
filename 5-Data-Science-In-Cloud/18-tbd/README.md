@@ -1,8 +1,8 @@
-# Low code/No code Data Science in the Cloud
+# Data Science in the Cloud: The "Low code/No code" way 
 
 Table of contents:
 
-- [Low code/No code Data Science in the Cloud](#low-codeno-code-data-science-in-the-cloud)
+- [Data Science in the Cloud: The "Low code/No code" way](#data-science-in-the-cloud-the-low-codeno-code-way)
   - [Pre-Lecture Quiz](#pre-lecture-quiz)
   - [1. Introduction](#1-introduction)
     - [1.1 What is Azure Machine Learning?](#11-what-is-azure-machine-learning)
