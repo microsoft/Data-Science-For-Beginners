@@ -252,6 +252,65 @@ In the best model description, click on the "Deploy" button.
 Amazing! Now that we have a model deployed, we can start the consumption of the endpoint.
 
 ### 3.2 Endpoint consumption
+
+Click on the "Consume" tab. Here you can find the REST endpoint and a python script in the consumption option. Take some time to read the python code. 
+This script can be run directly from your local machine and will consume your endpoint.
+
+![35](img/consumption-1.PNG)
+
+Take a moment to check those 2 lines of code: 
+
+```python
+url = 'http://98e3715f-xxxx-xxxx-xxxx-9ec22d57b796.centralus.azurecontainer.io/score'
+api_key = '' # Replace this with the API key for the web service
+```
+The `url` variable is the REST endpoint found in the consume tab and the `api_key` variable is the primary key also found in the consume tab (only in the case you have enabled authentication). This is how the script can consume the endpoint.
+
+18. Running the scrip, you should see the following output:
+    ```python
+    b'"{\\"result\\": [true]}"'
+    ```
+This means that the prediction of heart failure for the data given is true. This makes sens because if you look more closely at the data automatically generated in the script, everythin is at 0 and false by default. You can change the data with the following input sample:
+
+```python
+data = {
+    "data":
+    [
+        {
+            'age': "0",
+            'anaemia': "false",
+            'creatinine_phosphokinase': "0",
+            'diabetes': "false",
+            'ejection_fraction': "0",
+            'high_blood_pressure': "false",
+            'platelets': "0",
+            'serum_creatinine': "0",
+            'serum_sodium': "0",
+            'sex': "false",
+            'smoking': "false",
+            'time': "0",
+        },
+        {
+            'age': "60",
+            'anaemia': "false",
+            'creatinine_phosphokinase': "500",
+            'diabetes': "false",
+            'ejection_fraction': "38",
+            'high_blood_pressure': "false",
+            'platelets': "260000",
+            'serum_creatinine': "1.40",
+            'serum_sodium': "137",
+            'sex': "false",
+            'smoking': "false",
+            'time': "130",
+        },
+    ],
+}
+```
+The script should return :
+    ```python
+    b'"{\\"result\\": [true, false]}"'
+    ```
 ## 🚀 Challenge
 
 
