@@ -1,10 +1,11 @@
 # Introduction to the Data Science Lifecycle
 
-At this point you've probably come to the realization that that data science is a process. This process can be broken down into 5 stages, starting with capturing and ending with maintenance. 
+At this point you've probably come to the realization that that data science is a process. This process can be broken down into 5 stages.
+
 This lesson focuses on 3 parts of the life cycle: capturing, processing and maintenance.
 
-![](./data-science-lifecycle.jpg)
-(source??)
+![Diagram of the data science lifecycle](./data-science-lifecycle.jpg)
+> Photo by [Berkley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Capturing
 
@@ -29,16 +30,15 @@ Questions a data scientist may ask about the data:
 -	Is the data of acceptable quality for this problem?
 -	If I discover additional information through this data, should we consider changing or redefining the goals?
 
-
 ## Processing
 
 The processing stage of the lifecycle focuses on discovering patterns in the data as well as modeling. Some techniques used to in the processing stage requires statistical methods to uncover the patterns. Typically, this would be a tedious task for a human to do with a large data set and will rely on computers to do the heavy lifting to speed up the process. This stage is also where data science and machine learning will intersect. As you learned in the first lesson, machine learning is the process of building models to understand the data. Models are a representation of the relationship between variables in the data that help predict outcomes.
 
 Common techniques used in this stage are covered in the ML for Beginners curriculum.  Follow the links to learn more about them:
 
-- Classification:  Organizing data into categories for more efficient use.
-- Clustering: Grouping data into similar groups.
-- Regression: Determine the relationships between variables to predict or forecast values 
+- [Classification](https://github.com/microsoft/ML-For-Beginners/tree/main/4-Classification):  Organizing data into categories for more efficient use.
+- [Clustering](https://github.com/microsoft/ML-For-Beginners/tree/main/5-Clustering): Grouping data into similar groups.
+- [Regression](https://github.com/microsoft/ML-For-Beginners/tree/main/2-Regression): Determine the relationships between variables to predict or forecast values.
 
 ## Maintaining
 In the diagram of lifecycle, you may have noticed that maintenance sits between capturing and processing. Maintenance is an ongoing process of managing, storing and securing the data throughout the process of a project and should be taken into consideration throughout the entirety of the project. 
@@ -49,7 +49,7 @@ Considerations of how and where the data is stored can influence the cost of its
 Here’s some aspects of modern data storage systems that can affect these choices: 
 
 **On premise vs off premise vs public or private cloud**
-On premise refers to hosting managing the data on your own equipment, like owning a server with hard drives that store the data, while off premise relies on equipment that you don’t own, such as a data center. The public cloud is a popular choice for storing data that requires no knowledge of how or where exactly the data is stored, where public refers to a unified underlying infrastructure that is shared by all who use the cloud. Some organizations have strict security policies that require that they have complete access to the equipment where the data is hosted and will rely on a private cloud that provides its own cloud services. You’ll learn more about data in the cloud in later lessons.
+On premise refers to hosting managing the data on your own equipment, like owning a server with hard drives that store the data, while off premise relies on equipment that you don’t own, such as a data center. The public cloud is a popular choice for storing data that requires no knowledge of how or where exactly the data is stored, where public refers to a unified underlying infrastructure that is shared by all who use the cloud. Some organizations have strict security policies that require that they have complete access to the equipment where the data is hosted and will rely on a private cloud that provides its own cloud services. You’ll learn more about data in the cloud in [later lessons](5-Data-Science-In-Cloud).
 
 **Cold vs hot data** 
 When training your models, you may require more training data. If you’re content with your model, more data will arrive for a model to serve its purpose. In any case the cost of storing and accessing data will increase as you accumulate more of it. Separating rarely used data, known as cold data from frequently accessed hot data can be a cheaper data storage option through hardware or software services. If cold data needs to be accessed, it may take a little longer to retrieve in comparison to hot data.
@@ -60,10 +60,10 @@ Below is an example of the cost of owning an Azure Storage Account
 Putting it all together: The Data Lake
 
 ### Managing Data
-As you work with data you may discover that some of the data needs to be cleaned using some of the techniques covered in [reference lesson] to build accurate models.  When new data arrives, it will need some of the same applications to maintain consistency in quality. Some projects will involve use of an automated tool for cleansing, aggregation, and compression before the data is moved to its final location. Azure Data Factory is an example of one of these tools.
+As you work with data you may discover that some of the data needs to be cleaned using some of the techniques covered in the lesson focused on [data preparation](2-Working-With-Data\08-data-preparation) to build accurate models.  When new data arrives, it will need some of the same applications to maintain consistency in quality. Some projects will involve use of an automated tool for cleansing, aggregation, and compression before the data is moved to its final location. Azure Data Factory is an example of one of these tools.
 
 #### Securing the Data
-One of the main goals of securing data is ensuring that those working it are in control of what is collected and in what context it is being used. Keeping data secure involves limiting access to only those who need it, adhering to local laws and regulations, as well as maintaining ethical standards, as covered in [link to lesson here]. 
+One of the main goals of securing data is ensuring that those working it are in control of what is collected and in what context it is being used. Keeping data secure involves limiting access to only those who need it, adhering to local laws and regulations, as well as maintaining ethical standards, as covered in the [ethics lesson](1-Introduction\02-ethics). 
 
 Here’s some things that a team may do with security in mind:
 - Confirm that all data is encrypted
