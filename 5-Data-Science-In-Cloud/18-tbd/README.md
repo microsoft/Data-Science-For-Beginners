@@ -58,6 +58,30 @@ Both ways has its pro and cons. The Low code/No code way is easier to start with
 | Production ready  | No               | Yes                       |
 
 ### 1.3 The Heart Failure Dataset
+
+Cardiovascular diseases (CVDs) are the number 1 cause of death globally, accounting for 31% of all deaths worlwide. Environmental and behavioural risk factors such as tobacco use, unhealthy diet and obesity, physical inactivity and harmful use of alcohol could be used as features for estimation models. Being able to estimate the probability of developping a CVD could be of great to prevent attacks for high risk people.
+
+Kaggle has made publically available a [Heart Failure dataset](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) that we are going to use for this project. You can download the dataset now. This is a tabular dataset with 13 columns (12 features and 1 target variable) and contains 299 rows. 
+
+|    | Variable name             | Type            | Description                                               | Example           |
+|----|---------------------------|-----------------|-----------------------------------------------------------|-------------------|
+| 1  | age                       | numerical       | age of the patient                                        | 25                |
+| 2  | anaemia                   | boolean         | Decrease of red blood cells or hemoglobin                 | 0 or 1            |
+| 3  | creatinine_phosphokinase  | numerical       | Level of the CPK enzyme in the blood                      | 542               |
+| 4  | diabetes                  | boolean         | If the patient has diabetes                               | university.degree |
+| 5  | ejection_fraction         | numerical       | Percentage of blood leaving the heart at each contraction | 45                |
+| 6  | high_blood_pressure       | boolean         | If the patient has hypertension                           | 0 or 1            |
+| 7  | platelets                 | numerical       | Platelets in the blood                                    | 149000            |
+| 8  | serum_creatinine          | numerical       | Level of serum creatinine in the blood                    | 0.5               |
+| 9  | serum_sodium              | numerical       | Level of serum sodium in the blood                        | jun               |
+| 10 | sex                       | boolean         | Woman or man                                              | 0 or 1            |
+| 11 | smoking                   | boolean         | If the patient smokes                                     | 285               |
+| 12 | time                      | numerical       | follow-up period (days)                                   | 4                 |
+|----|---------------------------|-----------------|-----------------------------------------------------------|-------------------|
+| 21 | DEATH_EVENT [Target]      | boolean         | if the patient deceased during the follow-up period       | 0 or 1            |
+
+Once you have the dataset, we can start the project in Azure.
+
 ## 2. Low code/No code training of a model in Azure ML Studio
 ### 2.1 Create an Azure ML workspace
 ### 2.2 Compute Resources
