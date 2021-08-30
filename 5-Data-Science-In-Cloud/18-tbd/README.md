@@ -135,6 +135,15 @@ To use Azure Machine Learning, create a workspace in your Azure subscription. Yo
 You can manage your workspace using the Azure portal, but for data scientists and Machine Learning operations engineers, Azure Machine Learning studio provides a more focused user interface for managing workspace resources.
 
 ### 2.2 Compute Resources
+
+Compute Resources are cloud-based resources on which you can run model training and data exploration processes. There are four kinds of compute resource you can create:
+
+- **Compute Instances**: Development workstations that data scientists can use to work with data and models. This involves the creation of a Virtual Machine (VM) and launch a notebook instance. You can then train a model by calling a computer cluster from the notebook.
+- **Compute Clusters**: Scalable clusters of VMs for on-demand processing of experiment code. You will need it when training a model. Compute clusters can also employ specialized GPU or CPU resources.
+- **Inference Clusters**: Deployment targets for predictive services that use your trained models.
+- **Attached Compute**: Links to existing Azure compute resources, such as Virtual Machines or Azure Databricks clusters.
+
+
 #### 2.2.1 Choosing the right options for your compute resources
 #### 2.2.2 Creating a compute cluster
 ### 2.3 Loading the Dataset
