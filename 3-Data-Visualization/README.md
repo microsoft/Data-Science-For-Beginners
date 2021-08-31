@@ -9,11 +9,11 @@ Visualizing data is one of the most important tasks of a data scientist. Images 
 In these five lessons, you will explore data sourced from nature and create interesting and beautiful visualizations using various techniques.
 ### Topics
 
-1. [Quantities](10-visualization-quantities/README.md)
-1. [Distribution](11-visualization-distributions/README.md)
-1. [Proportions](12-visualization-proportions/README.md)
-1. [Relationships](13-visualization-relationships/README.md)
-1. [Making Meaningful Visualizations](14-meaningful-visualizations/README.md)
+1. [Visualizing quantities](09-visualization-quantities/README.md)
+1. [Visualizing distribution](10-visualization-distributions/README.md)
+1. [Visualizing proportions](11-visualization-proportions/README.md)
+1. [Visualizing relationships](12-visualization-relationships/README.md)
+1. [Making Meaningful Visualizations](13-meaningful-visualizations/README.md)
 
 ### Credits
 
