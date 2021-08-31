@@ -159,11 +159,48 @@ Emerson could introduce the proposed solutions, lay out how those solutions will
 
 If Emerson took approach #2, it is much more likely that the team leads will take away from the meeting exactly what Emerson intended for them to take away – that the way complaints and bugs are handled could be improved, and there are 2 solutions that could be put in place to make that improvement happen. This approach would be a much more effective approach to communicating the data, and the story, that Emerson wants to communicate.  
 
+
 # Conclusion
 ### Summary of main points
+ - To communicate is to convey or exchange information.
+ - When communicating data, your aim shouldn't be to simply pass along numbers to your audience. Your aim should be to communicate a story that is informed by your data. 
+ - There are 2 types of communication, One-Way Communication (information is communicated with no intention of a response) and Two-Way Communication (information is communicated back and forth.)
+ - There are many strategies you can use to telling a story with your data, 5 strategies we went over are:
+	 - Understand Your Audience, Your Medium, & Your Communication Method
+	 - Begin with the End in Mind
+	 - Approach it Like an Actual Story
+	 - Use Meaningful Words & Phrases
+	 - Use Emotion
 ### Post Lecture Quiz
-### Review & Self Study
-### Recommended Resources
+
+
+
+### Recommended Resources for Self Study
+[The Five C's of Storytelling - Articulate Persuasion](http://articulatepersuasion.com/the-five-cs-of-storytelling/)
+
+[1.4 Your Responsibilities as a Communicator – Business Communication for Success (umn.edu)](https://open.lib.umn.edu/businesscommunication/chapter/1-4-your-responsibilities-as-a-communicator/)
+
+[How to Tell a Story with Data (hbr.org)](https://hbr.org/2013/04/how-to-tell-a-story-with-data)
+
+[Two-Way Communication: 4 Tips for a More Engaged Workplace (yourthoughtpartner.com)](https://www.yourthoughtpartner.com/blog/bid/59576/4-steps-to-increase-employee-engagement-through-two-way-communication)
+
+[6 succinct steps to great data storytelling - BarnRaisers, LLC (barnraisersllc.com)](https://barnraisersllc.com/2021/05/02/6-succinct-steps-to-great-data-storytelling/)
+
+[How to Tell a Story With Data | Lucidchart Blog](https://www.lucidchart.com/blog/how-to-tell-a-story-with-data)
+
+[6 Cs of Effective Storytelling on Social Media | Cooler Insights](https://coolerinsights.com/2018/06/effective-storytelling-social-media/)
+
+[The Importance of Emotions In Presentations | Ethos3 - A Presentation Training and Design Agency](https://ethos3.com/2015/02/the-importance-of-emotions-in-presentations/)
+
+[Data storytelling: linking emotions and rational decisions (toucantoco.com)](https://www.toucantoco.com/en/blog/data-storytelling-dataviz)
+
+[Emotional Advertising: How Brands Use Feelings to Get People to Buy (hubspot.com)](https://blog.hubspot.com/marketing/emotions-in-advertising-examples)
+
+[Choosing Colors for Your Presentation Slides | Think Outside The Slide](https://www.thinkoutsidetheslide.com/choosing-colors-for-your-presentation-slides/)
+
+[How To Present Data [10 Expert Tips] | ObservePoint](https://resources.observepoint.com/blog/10-tips-for-presenting-data)
+
+[Microsoft Word - Persuasive Instructions.doc (tpsnva.org)](https://www.tpsnva.org/teach/lq/016/persinstr.pdf)
 
 
 
