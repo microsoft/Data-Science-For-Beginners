@@ -107,12 +107,10 @@ How do you use emotion when communicating data? Below are a couple of ways.
 
  - Use Testimonials and Personal Stories 
 	- When collecting data, try to collect both quantitative and qualitative data, and integrate both types of data when you're communicating. If your data is primarily quantitative, seek stories from individuals to learn more about their experience with whatever your data is telling you.
-	
  - Use Imagery
 	 - Images help an audience see themselves in a situation. When you use
 	   images, you can push an audience toward the emotion that you feel
 	   they should have about your data.
-	   
  - Use Color
 	 - Different colors evoke different emotions for different cultures. Popular colors and the emotions they evoke are below. 
 		 - Blue usually evokes emotions of peace and trust
