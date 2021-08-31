@@ -1,4 +1,4 @@
-# Data Science in the Cloud: The "Azure ML SDK" way 
+# Data Science project using Azure ML SDK
 
 ## Instructions
 

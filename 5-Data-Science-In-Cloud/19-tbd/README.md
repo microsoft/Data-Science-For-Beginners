@@ -320,6 +320,6 @@ In this lesson, you learned how to train, deploy and consume a model to predict 
 
 ## Assignment
 
-[Assignment Title](assignment.md)
+[Data Science project using Azure ML SDK](assignment.md)
 
 
