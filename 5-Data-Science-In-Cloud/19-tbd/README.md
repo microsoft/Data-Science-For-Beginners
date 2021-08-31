@@ -77,6 +77,9 @@ Congratulations, you have just created a compute instance! We will use this comp
 Refer the [previous lesson](../18-tbd/README.md) in the section **2.3 Loading the Dataset** if you have not uploaded the dataset yet.
 
 ### 2.4 Creating Notebooks
+
+> **_NOTE:_** For the next step you can either create a new notebook from scratch, or you can upload the [notebook we created](notebook.ipynb) in you Azure ML Studio. To upload it, simply click on the "Notebook" menu and upload the notebook.
+
 Notebook are a really important part of the data science process. They can be used to Conduct Exploratory Data Analysis (EDA), call out to a computer cluster to train a model, call out to an inference cluster to deploy an endpoint. 
 
 To create a Notebook, we need a compute node that is serving out the jupyter notebook instance. Go back to the [Azure ML workspace](https://ml.azure.com/) and click on Compute instances. In the list of compute instances you should see the [compute instance we created earlier](#22-create-a-compute-instance). 
@@ -115,7 +118,7 @@ To get or create an experiment from a workspace, you request the experiment usin
 Now you need to create a compute cluster for the training using the following code. Note that this step can take a few minutes. 
 
 ```python
-from azureml.core.compute import ComputeTarget, AmlCompute
+from azureml.core.compute import AmlCompute
 
 aml_name = "heart-f-cluster"
 try:
@@ -222,7 +225,7 @@ The model is deployed using the [deploy](https://docs.microsoft.com/en-us/python
 
 ```python
 from azureml.core.model import InferenceConfig, Model
-from azureml.core.webservice import AciWebservice, Webservice
+from azureml.core.webservice import AciWebservice
 
 inference_config = InferenceConfig(entry_script=script_file_name, environment=best_run.get_environment())
 
