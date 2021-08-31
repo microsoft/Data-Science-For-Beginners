@@ -1,6 +1,8 @@
 # Data Science in the Cloud
 
-Now we will see why and how you can use Cloud services for Data Science.
+When it comes to doing data science with big data, the cloud can be a game changer. In the next three lessons, we are going to see what the cloud is and why it can be very helpful. We are also going to explore a heart failure dataset and build a model to help assess the probability of someone having a heart failure. We will use the power of the cloud to train, deploy and consume a model in two different ways. One way using only the user interface in a Low code/No code fashion, the other way using the Azure Machine Learning Software Developer Kit (Azure ML SDK).
+
+![project-schema](19-tbd/img/project-schema.PNG)
 
 ### Topics
 
