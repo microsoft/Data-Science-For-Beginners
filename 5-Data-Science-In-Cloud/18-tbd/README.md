@@ -323,7 +323,7 @@ Look more closely at the model explanations and details that AutoML generated fo
 
 In this lesson, you trained, deployed and consumed a model to predict heart failure risk. If you have not done it yet, look more closely at the model explanations that AutoML generated for the top models and try to understand why the best model is better than the other ones.
 
-You can go further into AutoML by reading this [documentation](https://docs.microsoft.com/fr-fr/azure/machine-learning/tutorial-first-experiment-automated-ml).
+You can go further into Low code/No code AutoML by reading this [documentation](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-first-experiment-automated-ml).
 
 
 ## Assignment
