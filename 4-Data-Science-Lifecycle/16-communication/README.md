@@ -6,7 +6,7 @@
 
 ## 🚀 Challenge
 
-# Introduction
+## Introduction
 
 ### What is Communication?
 
@@ -16,7 +16,7 @@
 ### Types of Communication
 
 
-# Effective Communication
+## Effective Communication
 ### Your Responsibilities as a communicator
 
 ### 1. Begin With The End In Mind
