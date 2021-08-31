@@ -313,12 +313,17 @@ The script should return :
     ```
 ## 🚀 Challenge
 
+Look more closely at the model explanations and details that AutoML generated for the top models. Try to understand why the best model is better than the other ones. What algorithms were compared ? What are the differences between them ? Why is the best one performing better in this case ?
 
 ## Post-Lecture Quiz
 
 [Post-lecture quiz]()
 
 ## Review & Self Study
+
+In this lesson, you trained, deployed and consumed a model to predict heart failure risk. If you have not done it yet, look more closely at the model explanations that AutoML generated for the top models and try to understand why the best model is better than the other ones.
+
+You can go further into AutoML by reading this [documentation](https://docs.microsoft.com/fr-fr/azure/machine-learning/tutorial-first-experiment-automated-ml).
 
 
 ## Assignment
