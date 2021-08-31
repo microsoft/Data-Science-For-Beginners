@@ -112,7 +112,7 @@ How do you use emotion when communicating data? Below are a couple of ways.
 	   images, you can push an audience toward the emotion that you feel
 	   they should have about your data.
  - Use Color
-	 - Different colors evoke different emotions for different cultures. Popular colors and the emotions they evoke are below. 
+	 - Different colors evoke different emotions. Popular colors and the emotions they evoke are below. Be aware, that colors could have different meanings in different cultures. 
 		 - Blue usually evokes emotions of peace and trust
 		 - Green is usually related to the nature and the environment
 		 - Red is usually passion and excitement
