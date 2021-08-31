@@ -280,6 +280,9 @@ Congratulations! You just consumed the model deployed and trained on Azure ML!
 
 ## 🚀 Challenge
 
+ There are many other things you can do through the SDK, unfortunately, we can not view them all in this lesson. But good news, learning how to skim through the SDK documentation can take you a long way on your own. Have a look at the Azure ML SDK documentation and find the `Pipeline` class that allows you to create pipelines. A Pipeline is a collection of steps which can be executed as a workflow.
+
+**HINT:** Go to the [SDK documentation](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/?view=azure-ml-py) and type keywords in the search bar like "Pipeline". You should have the `azureml.pipeline.core.Pipeline` class in the search results.
 
 ## Post-Lecture Quiz
 
@@ -287,6 +290,7 @@ Congratulations! You just consumed the model deployed and trained on Azure ML!
 
 ## Review & Self Study
 
+In this lesson, you learned how to train, deploy and consume a model to predict heart failure risk with the Azure ML SDK in the cloud. Check this [documentation](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/?view=azure-ml-py) for further information about the Azure ML SDK. Try to create your own model with the Azure ML SDK. 
 
 ## Assignment
 
