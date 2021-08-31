@@ -202,6 +202,18 @@ If Emerson took approach #2, it is much more likely that the team leads will tak
 
 [Microsoft Word - Persuasive Instructions.doc (tpsnva.org)](https://www.tpsnva.org/teach/lq/016/persinstr.pdf)
 
+[The Power of Story for Your Data (thinkhdi.com)](https://www.thinkhdi.com/library/supportworld/2019/power-story-your-data.aspx)
+
+[Common Mistakes in Data Presentation (perceptualedge.com)](https://www.perceptualedge.com/articles/ie/data_presentation.pdf)
+
+[Infographic: Here are 15 Common Data Fallacies to Avoid (visualcapitalist.com)](https://www.visualcapitalist.com/here-are-15-common-data-fallacies-to-avoid/)
+
+[Cherry Picking: When People Ignore Evidence that They Dislike – Effectiviology](https://effectiviology.com/cherry-picking/#How_to_avoid_cherry_picking)
+
+[Tell Stories with Data: Communication in Data Science | by Sonali Verghese | Towards Data Science](https://towardsdatascience.com/tell-stories-with-data-communication-in-data-science-5266f7671d7)
+
+[1. Communicating Data - Communicating Data with Tableau [Book] (oreilly.com)](https://www.oreilly.com/library/view/communicating-data-with/9781449372019/ch01.html)
+
 
 
 ## Post-Lecture Quiz
