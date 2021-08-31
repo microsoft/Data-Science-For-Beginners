@@ -27,6 +27,18 @@ Table of contents:
 
 [Pre-lecture quiz]()
 
+1. On what increasing the cluster size would NOT have an impact?
+   1.  Responsiveness
+   2.  Cost
+   3.  TRUE: Model performance 
+2. What is a benefit of using low code tools?
+   1. TRUE: No expertise of code required
+   2. Automatically label the dataset
+   3. Better security of the model
+3. What is AutoML?
+   1. A tool for automating the preprocessing of data
+   2. A tool for automating the deployment of models
+   3. TRUE: A tool for automating the development of models
 
 ## 1. Introduction
 
@@ -276,7 +288,9 @@ response
 ```
 This should output `'{"result": [false]}'`. This means that the patient input we sent to the endpoint generated the prediction `false` which means this person is not likely to have a heart attack.
 
-Congratulations! You just consumed the model deployed and trained on Azure ML!
+Congratulations! You just consumed the model deployed and trained on Azure ML with the Azure ML SDK!
+
+> **_NOTE:_** Once you are done with the project, don't forget to delete all the resources.
 
 ## 🚀 Challenge
 
@@ -288,12 +302,24 @@ Congratulations! You just consumed the model deployed and trained on Azure ML!
 
 [Post-lecture quiz]()
 
+1. What is the reason for creating an AutoMLConfig?
+   1. It is where the training and the testing data are split
+   2. TRUE : It provides all the details of your AutoML experiment
+   3. It is where you specify the model to be trained
+2. Which of the following metrics is supported by Automated ML for a classification task?
+   1. TRUE : accuracy
+   2. r2_score
+   3. normalized_root_mean_error
+3. What is NOT an advantage of using the SDK?
+   1. It can be used to automate multiple tasks and runs
+   2. It makes it easier to programmatically edit runs
+   3. It can be used throught a Graphical User Interface
 ## Review & Self Study
 
 In this lesson, you learned how to train, deploy and consume a model to predict heart failure risk with the Azure ML SDK in the cloud. Check this [documentation](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/?view=azure-ml-py) for further information about the Azure ML SDK. Try to create your own model with the Azure ML SDK. 
 
 ## Assignment
 
-[Assignment Title](assignment.md)
+[Data Science project using Azure ML SDK](assignment.md)
 
 
