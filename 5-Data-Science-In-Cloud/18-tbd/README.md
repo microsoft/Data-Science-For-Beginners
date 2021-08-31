@@ -25,6 +25,20 @@ Table of contents:
 ## Pre-Lecture Quiz
 
 [Pre-lecture quiz]()
+
+1. What is the cloud?
+   1. A collection of Databases for storing big data.
+   2. TRUE : A collection of pay-as-you-go computing services over the internet.
+   3. A visible mass of particles suspended in the air.
+2. What are some advantages of the cloud?
+   1. TRUE : Flexibility, Scalability, Reliability, Security
+   2. Flexibility, Scalability, Reliability, Variability
+   3. Clarity, Scalability, Reliability, Variability
+3. Which one is not necessarily a good reason for choosing the cloud?
+   1. Using Machine Learning and data intelligence services
+   2. Processing large amounts of data
+   3. TRUE : Storing sensitive/confidential governmental data
+
 ## 1. Introduction
 ### 1.1 What is Azure Machine Learning?
 Data scientists expend a lot of effort exploring and pre-processing data, and trying various types of model-training algorithms to produce accurate models, which is time consuming, and often makes inefficient use of expensive compute hardware.
@@ -311,6 +325,10 @@ The script should return :
     ```python
     b'"{\\"result\\": [true, false]}"'
     ```
+
+Congratulations! You just consumed the model deployed and trained on Azure ML !
+
+> **_NOTE:_** Once you are done with the project, don't forget to delete all the resources.
 ## 🚀 Challenge
 
 Look more closely at the model explanations and details that AutoML generated for the top models. Try to understand why the best model is better than the other ones. What algorithms were compared? What are the differences between them? Why is the best one performing better in this case?
@@ -318,6 +336,20 @@ Look more closely at the model explanations and details that AutoML generated fo
 ## Post-Lecture Quiz
 
 [Post-lecture quiz]()
+1. What do I need to create before accessing Azure ML Studio?
+   1. TRUE: A workspace
+   2. A compute instance
+   3. A compute cluster
+
+2. Which of the following are the different tasks supported by Automated ML?
+   1. Image generation
+   2. TRUE : Classification
+   3. Natural Language generation
+
+3. In which case do you need GPU over CPU?
+   1. When you have tabular data
+   2. When you have enough money to afford it
+   3. TRUE: When you do Deep Learning
 
 ## Review & Self Study
 
