@@ -313,7 +313,7 @@ The script should return :
     ```
 ## 🚀 Challenge
 
-Look more closely at the model explanations and details that AutoML generated for the top models. Try to understand why the best model is better than the other ones. What algorithms were compared ? What are the differences between them ? Why is the best one performing better in this case ?
+Look more closely at the model explanations and details that AutoML generated for the top models. Try to understand why the best model is better than the other ones. What algorithms were compared? What are the differences between them? Why is the best one performing better in this case?
 
 ## Post-Lecture Quiz
 
@@ -321,7 +321,7 @@ Look more closely at the model explanations and details that AutoML generated fo
 
 ## Review & Self Study
 
-In this lesson, you trained, deployed and consumed a model to predict heart failure risk. If you have not done it yet, look more closely at the model explanations that AutoML generated for the top models and try to understand why the best model is better than the other ones.
+In this lesson, you learned how to train, deploy and consume a model to predict heart failure risk in a Low code/No code fashion in the cloud. If you have not done it yet, look more closely at the model explanations that AutoML generated for the top models and try to understand why the best model is better than the other ones.
 
 You can go further into Low code/No code AutoML by reading this [documentation](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-first-experiment-automated-ml).
 
