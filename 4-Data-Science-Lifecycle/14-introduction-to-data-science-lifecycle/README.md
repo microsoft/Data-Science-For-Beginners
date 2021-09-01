@@ -1,6 +1,13 @@
 # Introduction to the Data Science Lifecycle
 
-At this point you've probably come to the realization that that data science is a process. This process can be broken down into 5 stages.
+At this point you've probably come to the realization that that data science is a process. This process can be broken down into 5 stages:
+
+- Capturing
+- Processing
+- Analysis
+- Communication
+- Maintenance
+
 
 This lesson focuses on 3 parts of the life cycle: capturing, processing and maintenance.
 
@@ -56,8 +63,6 @@ When training your models, you may require more training data. If you’re conte
 
 Below is an example of the cost of owning an Azure Storage Account
 [screenshot of Azure cost calculator]
-
-Putting it all together: The Data Lake
 
 ### Managing Data
 As you work with data you may discover that some of the data needs to be cleaned using some of the techniques covered in the lesson focused on [data preparation](2-Working-With-Data\08-data-preparation) to build accurate models.  When new data arrives, it will need some of the same applications to maintain consistency in quality. Some projects will involve use of an automated tool for cleansing, aggregation, and compression before the data is moved to its final location. Azure Data Factory is an example of one of these tools.
