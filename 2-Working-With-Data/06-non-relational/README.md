@@ -146,4 +146,4 @@ Try to run a few select queries to find the documents that have Microsoft in the
 
 ## Assignment
 
-[Assignment Title](assignment.md)
+[Soda Profits](assignment.md)
