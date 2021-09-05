@@ -92,10 +92,10 @@ b = pd.Series(["I","like","to","play","games","and","will","not","change"],index
 df = pd.DataFrame([a,b])
 ```
 This will create a horizontal table like this:
-| | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
-|---|---|---|---|---|---|---|---|---|---|
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-| 1 | I | like | to | use | Python | and | Pandas | very | much |
+|     | 0   | 1    | 2   | 3   | 4      | 5   | 6      | 7    | 8    |
+| --- | --- | ---- | --- | --- | ------ | --- | ------ | ---- | ---- |
+| 0   | 1   | 2    | 3   | 4   | 5      | 6   | 7      | 8    | 9    |
+| 1   | I   | like | to  | use | Python | and | Pandas | very | much |
 
 We can also use Series as columns, and specify column names using dictionary:
 ```python
@@ -103,22 +103,22 @@ df = pd.DataFrame({ 'A' : a, 'B' : b })
 ```
 This will give us a table like this:
 
-|  | A | B |
-|---|---|---|
-| 0 | 1 | I |
-| 1 | 2 | like |
-| 2 | 3 | to |
-| 3 | 4 | use |
-| 4 | 5 | Python |
-| 5 | 6 | and |
-| 6 | 7 | Pandas |
-| 7 | 8 | very |
-| 8 | 9 | much |
+|     | A   | B      |
+| --- | --- | ------ |
+| 0   | 1   | I      |
+| 1   | 2   | like   |
+| 2   | 3   | to     |
+| 3   | 4   | use    |
+| 4   | 5   | Python |
+| 5   | 6   | and    |
+| 6   | 7   | Pandas |
+| 7   | 8   | very   |
+| 8   | 9   | much   |
 ## 🚀 Challenge
 
 First problem we will focus on is modelling of epidemic spread of COVID-19. In order to do that, we will use the data on the number of infected individuals in different countries, provided by the [Center for Systems Science and Engineering](https://systems.jhu.edu/) (CSSE) at [Johns Hopkins University](https://jhu.edu/). Dataset is available in [this GitHub Repository](https://github.com/CSSEGISandData/COVID-19).
 
-Since we want to demonstrate how to deal with data, we invite you to open [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) and read it from top to bottom. You can also execute cells, and do some challenges that we have leaf for you along the way.
+Since we want to demonstrate how to deal with data, we invite you to open [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) and read it from top to bottom. You can also execute cells, and do some challenges that we have set for you along the way.
 
 
 
