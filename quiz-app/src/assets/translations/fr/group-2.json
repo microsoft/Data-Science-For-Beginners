@@ -1,12 +1,12 @@
 [
   {
-    "title": "Data Science for Beginners: Quizzes",
-    "complete": "Congratulations, you completed the quiz!",
-    "error": "Sorry, try again",
+    "title": "Data Science pour Débutants: Quizzes",
+    "complete": "Felicitations, you completed the quiz!",
+    "error": "Oups, try again",
     "quizzes": [
       {
         "id": 1,
-        "title": "quiz 1",
+        "title": "deuxieme quiz",
         "quiz": [
           {
             "questionText": "q1",

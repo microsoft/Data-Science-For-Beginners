@@ -1,24 +1,32 @@
 <template>
   <div class="card">
-    <div v-for="q in questions" :key="q.id">
-      <div v-if="route == q.id">
-        <h2>{{ q.title }}</h2>
-        <hr />
-        <h3 v-if="complete" class="message">{{ $t("complete") }}</h3>
-        <div v-else>
-          <h3 v-if="error" class="error">{{ $t("error") }}</h3>
-          <h2>
-            {{ q.quiz[currentQuestion].questionText }}
-          </h2>
+    <div v-for="q in questions[currLocale]" :key="q.quizzes[0].id">
+      <div v-for="quiz in q.quizzes" :key="quiz.id">
+        
+        <div v-if="route == quiz.id">
           <div>
-            <button
-              :key="index"
-              v-for="(option, index) in q.quiz[currentQuestion].answerOptions"
-              @click="handleAnswerClick(option.isCorrect)"
-              class="btn ans-btn"
-            >
-              {{ option.answerText }}
-            </button>
+            <h3 v-if="complete" class="message complete">{{ q.complete }}</h3>
+            <div v-else>
+              <h3 v-if="error" class="error">{{ q.error }}</h3>
+            </div>
+
+            <h1>{{quiz.title}}</h1>
+
+
+            <h2>
+              {{ quiz.quiz[currentQuestion].questionText }}
+            </h2>
+            <div>
+              <button
+                :key="index"
+                v-for="(option, index) in quiz.quiz[currentQuestion]
+                  .answerOptions"
+                @click="handleAnswerClick(option.isCorrect)"
+                class="btn ans-btn"
+              >
+                {{ option.answerText }}
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -42,11 +50,17 @@ export default {
   },
   computed: {
     questions() {
-      return this.$t("quizzes");
+      return messages;
     },
+    currLocale() {
+      return this.$root.$i18n.locale;
+    }
   },
 
-  i18n: { messages },
+  i18n: {
+    messages,
+  },
+
   methods: {
     handleAnswerClick(isCorrect) {
       this.error = false;
@@ -65,7 +79,11 @@ export default {
   },
   created() {
     this.route = this.$route.params.id;
-    this.locale = this.$route.query.loc;
+    if (this.$route.query.loc) {
+      this.locale = this.$route.query.loc;
+    } else {
+      this.locale = "en";
+    }
   },
 };
 </script>

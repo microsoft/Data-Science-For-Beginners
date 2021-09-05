@@ -1,0 +1,327 @@
+[
+  {
+    "title": "Data Science for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 32,
+        "title": "Data Science in the Cloud - Introduction - Pre-Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 2 question 2",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "title": "Data Science in the Cloud - Introduction - Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 2 question 2",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "title": "Data Science in the Cloud - Low-Code - Pre-Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 2 question 2",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "title": "Data Science in the Cloud - Low-Code - Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 2 question 2",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "title": "Data Science in the Cloud - Azure - Pre-Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 2 question 2",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "title": "Data Science in the Cloud - Azure - Pre-Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 2 question 2",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

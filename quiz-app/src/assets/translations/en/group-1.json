@@ -1,0 +1,434 @@
+[
+  {
+    "title": "Data Science for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 0,
+        "title": "Defining Data Science - Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 1 question 1",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Defining Data Science: Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 1 question 1",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Ethics - Pre-Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 1 question 1",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      }
+      ,
+      {
+        "id": 3,
+        "title": "Ethics - Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 1 question 1",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Defining Data - Pre-Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 1 question 1",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Defining Data - Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 1 question 1",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Statistics and Probability - Pre-Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 1 question 1",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Statistics and Probability - Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 1 question 1",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

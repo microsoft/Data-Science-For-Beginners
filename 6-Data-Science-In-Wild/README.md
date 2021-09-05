@@ -4,7 +4,6 @@
 
 ### Topics
 
-1. [Lesson 1](23-tbd/README.md)
-1. [Lesson 2](24-tbd/README.md)
+1. [Data Science in the Real World](20-Real-World/README.md)
 
 ### Credits
