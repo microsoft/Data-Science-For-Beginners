@@ -9,49 +9,49 @@
         "title": "Visualizing Quantities - Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "A useful library for data visualizations is:",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "Matplotlib",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "Matchartlib",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Matgraphtlib",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "You can visualize quantities using:",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "scatterplots",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "line charts",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both the above",
                 "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "Bar plots are useful for visualizing quantity",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "true",
                 "isCorrect": "true"
+              },
+              {
+                "answerText": "false",
+                "isCorrect": "false"
               }
             ]
           }
@@ -62,48 +62,52 @@
         "title": "Visualizing Quantities - Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "You can analyze trends over time using a:",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "line chart",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "bar chart",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "pie chart",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "You can compare values using this type of chart:",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "line chart",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "bar chart",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of these",
                 "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "Show how parts relate to a whole using this type of chart:",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "line",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "column",
                 "isCorrect": "false"
               },
               {
-                "answerText": "both of the above",
+                "answerText": "pie",
                 "isCorrect": "true"
               }
             ]
@@ -115,7 +119,7 @@
         "title": "Visualizing Distributions - Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "Histograms are overall more sophisticated types of chart than scatterplots",
             "answerOptions": [
               {
                 "answerText": "True",
@@ -128,35 +132,35 @@
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "You can visualize distributions using this type of chart:",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "the use of neural networks",
+                "answerText": "scatterplot",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "pie chart",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "column chart",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "This library is particularly useful for building histograms",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "TensorFlow",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "PyTorch",
                 "isCorrect": "false"
               },
               {
-                "answerText": "both of the above",
+                "answerText": "Matplotlib",
                 "isCorrect": "true"
               }
             ]
@@ -168,49 +172,53 @@
         "title": "Visualizing Distributions - Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "Histograms can be used to analyze this type of data:",
             "answerOptions": [
               {
-                "answerText": "True",
-                "isCorrect": "true"
-              },
-              {
-                "answerText": "False",
-                "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q2",
-            "answerOptions": [
-              {
-                "answerText": "classical ML was invented first",
+                "answerText": "textual",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
-                "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q3",
-            "answerOptions": [
-              {
-                "answerText": "to automate the solving of multi-dimensional problems",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "numeric",
                 "isCorrect": "false"
               },
               {
                 "answerText": "both of the above",
                 "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "In a histogram, a 'bin' refers to:",
+            "answerOptions": [
+              {
+                "answerText": "a class of data",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "a grouping of data",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "throwaway data",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "To build a smooth density plot, use this library:",
+            "answerOptions": [
+              {
+                "answerText": "Seaborn",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "Matplotlib",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "PyTorch",
+                "isCorrect": "false"
               }
             ]
           }
@@ -221,49 +229,53 @@
         "title": "Visualizing Proportions - Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "To visualize proprtions, use this type of chart:",
             "answerOptions": [
               {
-                "answerText": "True",
-                "isCorrect": "true"
+                "answerText": "pie",
+                "isCorrect": "false"
               },
               {
-                "answerText": "False",
+                "answerText": "waffle",
                 "isCorrect": "false"
+              },
+              {
+                "answerText": "either of the above",
+                "isCorrect": "true"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "A free tool for visualizing your data is:",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "Popculator",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "Graphculator",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Charticulator",
                 "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "Use `plt.pie` to display a:",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "pie chart",
                 "isCorrect": "true"
+              },
+              {
+                "answerText": "waffle chart",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "scatterplot",
+                "isCorrect": "false"
               }
             ]
           }
@@ -274,7 +286,7 @@
         "title": "Visualizing Proportions - Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "You can edit the colors of your waffle charts",
             "answerOptions": [
               {
                 "answerText": "True",
@@ -287,36 +299,36 @@
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "Use this library to build waffle charts:",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "edwaffle",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "pywaffle",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "yumwaffle",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "In a donut chart, build your center circle using this syntax:",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "plt.Oval",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "plt.Circle",
                 "isCorrect": "true"
+              },
+              {
+                "answerText": "plt.Edit",
+                "isCorrect": "false"
               }
             ]
           }
@@ -327,49 +339,53 @@
         "title": "Visualizing Relationships - Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "Use this library to visualize relationships:",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "Seaborn",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "Merborn",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Reborn",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "Use Seaborn's `relplot` to visualize",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "categorical relationships",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "statistical relationships",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "special relationships",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "By editing a scatterplot's hue, you can:",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "display a dataset's distribution",
                 "isCorrect": "true"
+              },
+              {
+                "answerText": "display item colors",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "display temperatures",
+                "isCorrect": "false"
               }
             ]
           }
@@ -380,49 +396,49 @@
         "title": "Visualizing Relationships - Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "A more accessible way to display distribution is:",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "Using datapoint shape variation",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Using datapoint size variation",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Using either of the above",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Using Seaborn's `relplot` you can view an aggregation of data around a line chart",
+            "answerOptions": [
+              {
+                "answerText": "true",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "false",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "Facet grids help visualize",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "the use of neural networks",
+                "answerText": "a given facet of your data",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q3",
-            "answerOptions": [
-              {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "outliers in your data",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "progression in your data",
                 "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
-                "isCorrect": "true"
               }
             ]
           }
@@ -433,7 +449,7 @@
         "title": "Meaningful Visualizations - Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "It's relatively easy to deceive users by editing charts",
             "answerOptions": [
               {
                 "answerText": "True",
@@ -446,35 +462,31 @@
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "Selecting the kind of chart to build depends on the type of data you have and the story you are telling about it",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "the use of neural networks",
+                "answerText": "True",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "False",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "To create a deceptive chart, some creators manipulate:",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "the chart colors",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "the X and Y axes",
                 "isCorrect": "false"
               },
               {
-                "answerText": "both of the above",
+                "answerText": "either of the above",
                 "isCorrect": "true"
               }
             ]
@@ -486,48 +498,52 @@
         "title": "Meaningful Visualizations - Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "Ensure that your charts are:",
             "answerOptions": [
               {
-                "answerText": "True",
-                "isCorrect": "true"
-              },
-              {
-                "answerText": "False",
-                "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q2",
-            "answerOptions": [
-              {
-                "answerText": "classical ML was invented first",
+                "answerText": "accessible",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
-                "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q3",
-            "answerOptions": [
-              {
-                "answerText": "to automate the solving of multi-dimensional problems",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "readable",
                 "isCorrect": "false"
               },
               {
                 "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "D3 is an excellent charting library for use to create:",
+            "answerOptions": [
+              {
+                "answerText": "animated visualizations",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "infographics",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "deep learning",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "Ensure the readability of your chart by:",
+            "answerOptions": [
+              {
+                "answerText": "adding tags",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "editing color",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "aligning labels properly",
                 "isCorrect": "true"
               }
             ]

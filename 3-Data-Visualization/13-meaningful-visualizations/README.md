@@ -13,8 +13,7 @@ In this lesson, you will review:
 5. How to build animated or 3D charting solutions
 6. How to build a creative visualization
 
-[Pre-lecture quiz]()
-## Pre-Lecture Quiz
+## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/24)
 
 ## Choose the right chart type
 
@@ -94,6 +93,8 @@ Some of the best data visualizations today are animated. Shirley Wu has amazing 
 
 ![busing](images/busing.png)
 
+> "Bussed Out: How America Moves its Homeless" from [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualizations by Nadieh Bremer & Shirley Wu
+
 While this lesson is insufficient to go into depth to teach these powerful visualization libraries, try your hand at D3 in a Vue.js app using a library to display a visualization of the book "Dangerous Liaisons" as an animated social network.
 
 > "Les Liaisons Dangereuses" is an epistolary novel, or a novel presented as a series of letters. Written in 1782 by Choderlos de Laclos, it tells the story of the vicious, morally-bankrupt social maneuvers of two dueling protagonists of the French aristocracy in the late 18th century, the Vicomte de Valmont and the Marquise de Merteuil. Both meet their demise in the end but not without inflicting a great deal of social damage. The novel unfolds as a series of letters written to various people in their circles, plotting for revenge or simply to make trouble. Create a visualization of these letters to discover the major kingpins of the narrative, visually.
@@ -134,9 +135,7 @@ Run your app from the terminal (npm run serve) and enjoy the visualization!
 ## 🚀 Challenge
 
 Take a tour of the internet to discover deceptive visualizations. How does the author fool the user, and is it intentional? Try correcting the visualizations to show how they should look.
-## Post-Lecture Quiz
-
-[Post-lecture quiz]()
+## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/25)
 
 ## Review & Self Study
 
