@@ -1,5 +1,6 @@
 # Defining Data Science
 
+[![Defining Data Science Video](images/video-def-ds.png)](https://youtu.be/pqqsm5reGvs)
 ## Pre-Lecture Quiz
 
 [Pre-lecture quiz]()
@@ -146,8 +147,6 @@ In this challenge, we will try to find concepts relevant to the field of Data Sc
 
 [Post-lecture quiz]()
 
-## Review & Self Study
-
 ## Assignment
 
-[Assignment Title](assignment.md)
+[Think About Data Science Scenarios](assignment.md)
