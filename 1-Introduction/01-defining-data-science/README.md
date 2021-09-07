@@ -103,8 +103,8 @@ First step is to collect the data. While in many cases it can be a straightforwa
 Storing the data can be challenging, especially if we are talking about big data. When deciding how to store data, it makes sense to anticipate the way you would want later on to query them. There are several ways data can be stored:
 <ul>
 <li>Relational database stores a collection of tables, and uses special language called SQL to query them. Typically, tables would be connected to each other using some schema. In many cases we need to convert the data from original form to fit the schema</li>
-<li>[NoSQL](https://en.wikipedia.org/wiki/NoSQL) database, such as [CosmosDB](https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=acad-31812-dmitryso), does not enforce schema on data, and allows storing more complex data, for example, hierarchical JSON documents or graphs. However, NoSQL database does not have rich querying capabilities of SQL, and cannot enforce referential integrity between data.</li>
-<li>[Data Lake](https://en.wikipedia.org/wiki/Data_lake) storage is used for large collections of data in raw form. Data lakes are often used with big data, where all data cannot fit into one machine, and has to be stored and processed by a cluster. [Parquet](https://en.wikipedia.org/wiki/Apache_Parquet) is the data format that is often used in conjunction with big data.</li> 
+<li><a href="https://en.wikipedia.org/wiki/NoSQL">NoSQL</a> database, such as <a href="https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=acad-31812-dmitryso">CosmosDB</a>, does not enforce schema on data, and allows storing more complex data, for example, hierarchical JSON documents or graphs. However, NoSQL database does not have rich querying capabilities of SQL, and cannot enforce referential integrity between data.</li>
+<li><a href="https://en.wikipedia.org/wiki/Data_lake">Data Lake</a> storage is used for large collections of data in raw form. Data lakes are often used with big data, where all data cannot fit into one machine, and has to be stored and processed by a cluster. <a href="https://en.wikipedia.org/wiki/Apache_Parquet">Parquet</a> is the data format that is often used in conjunction with big data.</li> 
 </ul>
 </dd>
 <dt>Data Processing</dt>
@@ -117,7 +117,7 @@ Often to understand the data we need to visualize them. Having many different vi
 </dd>
 <dt>Training predictive model</dt>
 <dd>
-Because the ultimate goal of data science is to be able to take decisions based on data, we may want to use the techniques of [Machine Learning](http://github.com/microsoft/ml-for-beginners) to build predictive model that will be able to solve our problem.
+Because the ultimate goal of data science is to be able to take decisions based on data, we may want to use the techniques of <a href="http://github.com/microsoft/ml-for-beginners">Machine Learning</a> to build predictive model that will be able to solve our problem.
 </dd>
 </dl>
 
