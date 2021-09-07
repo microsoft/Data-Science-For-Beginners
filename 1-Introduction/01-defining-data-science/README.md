@@ -1,5 +1,6 @@
 # Defining Data Science
 
+[![Defining Data Science Video](images/video-def-ds.png)](https://youtu.be/pqqsm5reGvs)
 ## Pre-Lecture Quiz
 
 [Pre-lecture quiz]()
@@ -74,10 +75,54 @@ As we have already mentioned - data is everywhere, we just need to capture it in
 ## Where to get Data
 
 There are many possible sources of data, and it will be impossible to list all of them! However, let's mention some of the typical places where you can get data:
-  
+
+* **Structured**
+  - **Internet of Things**, including data from different sensors, such as temperature or pressure sensors, provides a lot of useful data. For example, if an office building is equipped with IoT sensors, we can automatically control heating and lighting in order to minimize costs. 
+  - **Surveys** that we ask users after purchase of a good, or after visiting a web site.
+  - **Analysis of behavior** can, for example, help us understand how deeply a user goes into a site, and what is the typical reason for leaving the site.
+* **Unstructured**
+  - **Texts** can be a rich source of insights, starting from overall **sentiment score**, up to extracting keywords and even some semantic meaning.
+  - **Images** or **Video**. A video from surveillance camera can be used to estimate traffic on the road, and inform people about potential traffic jams.
+  - Web server **Logs** can be used to understand which pages of our site are most visited, and for how long.
+* Semi-structured
+  - **Social Network** graph can be a great source of data about user personality and potential effectiveness in spreading information around.
+  - When we have a bunch of photographs from a party, we can try to extract **Group Dynamics** data by building a graph of people taking pictures with each other.
+
+By knowing different possible sources of data, you can try to think about different scenarios where data science techniques can be applied to know the situation better, and to improve business processes. 
+
 ## What you can do with Data
 
+In Data Science, we focus on the following steps of data journey:
 
+<dl>
+<dt>Data Acquisition</dt>
+<dd>
+First step is to collect the data. While in many cases it can be a straightforward process, like data coming to a database from web application, sometimes we need to use special techniques. For example, data from IoT sensors can be overwhelming, and it is a good practice to use buffering endpoints such as IoT Hub to collect all the data before further processing.
+</dd>
+<dt>Data Storage</dt>
+<dd>
+Storing the data can be challenging, especially if we are talking about big data. When deciding how to store data, it makes sense to anticipate the way you would want later on to query them. There are several ways data can be stored:
+<ul>
+<li>Relational database stores a collection of tables, and uses special language called SQL to query them. Typically, tables would be connected to each other using some schema. In many cases we need to convert the data from original form to fit the schema</li>
+<li><a href="https://en.wikipedia.org/wiki/NoSQL">NoSQL</a> database, such as <a href="https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=acad-31812-dmitryso">CosmosDB</a>, does not enforce schema on data, and allows storing more complex data, for example, hierarchical JSON documents or graphs. However, NoSQL database does not have rich querying capabilities of SQL, and cannot enforce referential integrity between data.</li>
+<li><a href="https://en.wikipedia.org/wiki/Data_lake">Data Lake</a> storage is used for large collections of data in raw form. Data lakes are often used with big data, where all data cannot fit into one machine, and has to be stored and processed by a cluster. <a href="https://en.wikipedia.org/wiki/Apache_Parquet">Parquet</a> is the data format that is often used in conjunction with big data.</li> 
+</ul>
+</dd>
+<dt>Data Processing</dt>
+<dd>
+This is the most exciting part of data journey, which involved processing the data from its original form to the form that can be used for visualization/model training. When dealing with unstructured data such as text or images, we may need to use some AI techniques to extract **features** from the data, thus converting it to structured form.
+</dd>
+<dt>Visualization / Human Insights</dt>
+<dd>
+Often to understand the data we need to visualize them. Having many different visualization techniques in our toolbox we can find the right view to make an insight. Often, data scientist needs to "play with data", visualizing it many times and looking for some relationships. Also, we may use techniques from statistics to test some hypotheses or prove correlation between different pieces of data.   
+</dd>
+<dt>Training predictive model</dt>
+<dd>
+Because the ultimate goal of data science is to be able to take decisions based on data, we may want to use the techniques of <a href="http://github.com/microsoft/ml-for-beginners">Machine Learning</a> to build predictive model that will be able to solve our problem.
+</dd>
+</dl>
+
+Of course, depending on the actual data some steps might be missing (eg., when we already have the data in the database, or when we do not need model training), or some steps might be repeated several times (such as data processing).
 
 ## Digitalization and Digital Transformation
 
@@ -102,8 +147,6 @@ In this challenge, we will try to find concepts relevant to the field of Data Sc
 
 [Post-lecture quiz]()
 
-## Review & Self Study
-
 ## Assignment
 
-[Assignment Title](assignment.md)
+[Think About Data Science Scenarios](assignment.md)
