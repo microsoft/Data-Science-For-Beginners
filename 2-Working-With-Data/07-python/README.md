@@ -213,6 +213,8 @@ Since we want to demonstrate how to deal with data, we invite you to open [`note
 
 ![COVID Spread](images/covidspread.png)
 
+> If you do not know how to run code in Jupyter Notebook, have a look at [this article](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+
 ## Working with Unstructured Data
 
 While data very often comes in tabular form, in some cases we need to deal with less structured data, for example, text or images. In this case, to apply data processing techniques we have seen above, we need to somehow **extract** structured data. Here are a few examples:

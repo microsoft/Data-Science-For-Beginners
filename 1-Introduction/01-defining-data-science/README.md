@@ -143,6 +143,11 @@ If we want to get even more complicated, we can plot the time taken for each mod
 In this challenge, we will try to find concepts relevant to the field of Data Science by looking at texts. We will take Wikipedia article on Data Science, download and process the text, and then build a word cloud like this one:
 
 ![Word Cloud for Data Science](images/ds_wordcloud.png)
+
+Visit [`notebook.ipynb`](notebook.ipynb) to read through the code. You can also run the code, and see how it performs all data transformations in real time. 
+
+> If you do not know how to run code in Jupyter Notebook, have a look at [this article](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+
 ## Post-Lecture Quiz
 
 [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/1)

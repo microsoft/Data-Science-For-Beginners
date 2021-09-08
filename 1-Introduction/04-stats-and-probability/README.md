@@ -65,7 +65,7 @@ When we analyze data from real life, they often are not random variables as such
 [180.0, 215.0, 210.0, 210.0, 188.0, 176.0, 209.0, 200.0, 231.0, 180.0, 188.0, 180.0, 185.0, 160.0, 180.0, 185.0, 197.0, 189.0, 185.0, 219.0]
 ```
 
-> **Note**: To see the example of working with this dataset, have a look at the [accompanying notebook](notebook.ipynb). There is also a number of challenges throughout this lesson, and you may complete them by adding some code to that notebook. If you are not sure how to operate on data, do not worry - we will come back to working with data using Python at a later time.
+> **Note**: To see the example of working with this dataset, have a look at the [accompanying notebook](notebook.ipynb). There is also a number of challenges throughout this lesson, and you may complete them by adding some code to that notebook. If you are not sure how to operate on data, do not worry - we will come back to working with data using Python at a later time. If you do not know how to run code in Jupyter Notebook, have a look at [this article](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
 Here is the box plot showing mean, median and quartiles for our data:
 
