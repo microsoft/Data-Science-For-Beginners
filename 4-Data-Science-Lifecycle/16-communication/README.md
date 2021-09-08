@@ -211,13 +211,6 @@ If Emerson took approach #2, it is much more likely that the team leads will tak
 
 
 
-## Post-Lecture Quiz
+## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/31)
 
-[Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/31)
-
-## Review & Self Study
-
-
-## Assignment
-
-[Assignment Title](assignment.md)
+Review what you've just learned with the Post-Lecture Quiz above!
