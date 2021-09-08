@@ -147,6 +147,7 @@ In this challenge, we will try to find concepts relevant to the field of Data Sc
 
 [Post-lecture quiz]()
 
-## Assignment
+## Assignments
 
-[Think About Data Science Scenarios](assignment.md)
+* **Task 1**: Modify the code above to find out related concepts for the fields of **Big Data** and **Machine Learning**
+* **Task 2**: [Think About Data Science Scenarios](assignment.md)
