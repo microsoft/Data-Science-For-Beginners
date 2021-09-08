@@ -2,7 +2,7 @@
 
 ## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/30)
 
-Test your knowledge of what's to ocme with the Pre-Lecture Quiz above!
+Test your knowledge of what's to come with the Pre-Lecture Quiz above!
 
 # Introduction
 
