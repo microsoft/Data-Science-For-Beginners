@@ -3,7 +3,7 @@
 [![Defining Data Science Video](images/video-def-ds.png)](https://youtu.be/pqqsm5reGvs)
 ## Pre-Lecture Quiz
 
-[Pre-lecture quiz]()
+[Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
 
 ## What is Data?
 
@@ -145,7 +145,7 @@ In this challenge, we will try to find concepts relevant to the field of Data Sc
 ![Word Cloud for Data Science](images/ds_wordcloud.png)
 ## Post-Lecture Quiz
 
-[Post-lecture quiz]()
+[Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/1)
 
 ## Assignments
 

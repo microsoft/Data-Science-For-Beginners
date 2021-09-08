@@ -336,49 +336,49 @@
         "title": "Statistics and Probability - Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 1 question 1",
+            "questionText": "Why statistics and probability are important for data science?",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "Because you cannot operate on data without knowing math",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Because data science is a science and has strong formal foundation",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "Because we want to keep uneducated people from doing data science",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "Can you get heads 10 times in a row when throwing a coin?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "the use of neural networks",
+                "answerText": "yes",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "no",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "When you throw a dice, what is the probability of getting an even number?",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "1/2",
                 "isCorrect": "true"
+              },
+              {
+                "answerText": "1/3",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "impossible to tell",
+                "isCorrect": "false"
               }
             ]
           }
@@ -389,49 +389,53 @@
         "title": "Statistics and Probability - Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 1 question 1",
+            "questionText": "We want to prove that basketball players are taller than average people. We have collected heights of 20 people from both groups. What do we need to do?",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "compare means",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "collect more data, 20 is not enough!",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "use t-test",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "How can we demonstrate that income of a person is dependent on the level of education?",
+            "answerOptions": [
+              {
+                "answerText": "compute correlation coefficient",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "divide into educated and non-educated cohorts and compute means",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "use t-test",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "We throw the dice 100 times and compute the average value. What would be the distribution of the result?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "uniform",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "normal",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "none of the above",
                 "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q3",
-            "answerOptions": [
-              {
-                "answerText": "to automate the solving of multi-dimensional problems",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
-                "isCorrect": "true"
               }
             ]
           }
