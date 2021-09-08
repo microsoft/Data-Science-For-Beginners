@@ -9,48 +9,48 @@
         "title": "Defining Data Science - Pre Quiz",
         "quiz": [
           {
-            "questionText": "quiz 1 question 1",
+            "questionText": "Why there is a word Science in Data Science?",
+            "answerOptions": [
+              {
+                "answerText": "It uses scientific methods to analyze data",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "Only people with academic degrees can understand it",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "To make is sound cool",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "Learning Data Science is only useful for developers",
             "answerOptions": [
               {
                 "answerText": "True",
-                "isCorrect": "true"
+                "isCorrect": "false"
               },
               {
                 "answerText": "False",
-                "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q2",
-            "answerOptions": [
-              {
-                "answerText": "classical ML was invented first",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "the use of neural networks",
                 "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "What do we need to demonstrate that basketball players are taller than average people?",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "Collect some data",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "Know some probability and statistics",
                 "isCorrect": "false"
               },
               {
-                "answerText": "both of the above",
+                "answerText": "All of the above",
                 "isCorrect": "true"
               }
             ]
@@ -62,48 +62,56 @@
         "title": "Defining Data Science: Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 1 question 1",
+            "questionText": "Which areas are closely related to data science?",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "Artificial Intelligence",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Machine Learning",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Big Data",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "All of the above",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Which of the following is the example of non-structured data?",
+            "answerOptions": [
+              {
+                "answerText": "List of students in class",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Collection of student essays",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "Graph of friends of social network users",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "What is the main goal of data science?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "to collect data",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
-                "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q3",
-            "answerOptions": [
-              {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "to process data",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "to be able to take decisions based on data",
                 "isCorrect": "true"
               }
             ]
