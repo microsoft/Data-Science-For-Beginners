@@ -221,49 +221,49 @@
         "title": "Data Science LifeCycle - Communication Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "When communicating data to an audience, it is a best practice to focus solely on the numbers and not the story.",
             "answerOptions": [
               {
                 "answerText": "True",
-                "isCorrect": "true"
+                "isCorrect": "false"
               },
               {
                 "answerText": "False",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Which is an example of Two-Way Communication?",
+            "answerOptions": [
+              {
+                "answerText": "When a presenter presents to an audience and leaves the floor open for questions & feedback.",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "When a leader puts out a TV or Radio message to their constituents.",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "When a brand advertises to potential customers.",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "When an individual is presenting to an audience, and the audience is not providing any feedback who is acting as the information receiver?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "The presenter",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "The audience",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "Specific members of the audience",
                 "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q3",
-            "answerOptions": [
-              {
-                "answerText": "to automate the solving of multi-dimensional problems",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
-                "isCorrect": "true"
               }
             ]
           }
@@ -274,7 +274,7 @@
         "title": "Data Science LifeCycle - Communication Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "When communicating data, colors can be used to evoke emotion from the audience.",
             "answerOptions": [
               {
                 "answerText": "True",
@@ -287,36 +287,36 @@
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "Of the options below, which is the most meaningful explaination of a company's yearly progress?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "the use of neural networks",
+                "answerText": "We had an excellent year! Our users grew by 30%, our revenue increased by 21%, and we've added 100 new team members.",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "We had a great year! Our users grew tremendously, our revenue increased by a lot, and we even added several new team members across all divisions.",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Our progress year was simply phenomenal. I can't overstate how much of an increase we've had with growing our users, our revenue, or our team.",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "When communicating data to an Executive Audience, which would be an acceptable strategy to take?",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "Go in depth with the small details and spend less time on the significance of the data.",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "Focus primarily on the significance of the data and the recommended next steps based on the data.",
                 "isCorrect": "true"
+              },
+              {
+                "answerText": "Explain the entire context and try to brainstorm potential solutions with the executives.",
+                "isCorrect": "false"
               }
             ]
           }
