@@ -1,12 +1,9 @@
 # The Data Science Lifecycle: Communication
 
-## Pre-Lecture Quiz
+## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/30)
 
-[Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/30)
+Test your knowledge of what's to ocme with the Pre-Lecture Quiz above!
 
-## 🚀 Challenge
-
-# The Data Science Lifecycle: Communication
 # Introduction
 
 ### What is Communication?
