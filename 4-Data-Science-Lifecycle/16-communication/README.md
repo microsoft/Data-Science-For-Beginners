@@ -2,7 +2,7 @@
 
 ## Pre-Lecture Quiz
 
-[Pre-lecture quiz]()
+[Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/30)
 
 ## 🚀 Challenge
 
@@ -216,7 +216,7 @@ If Emerson took approach #2, it is much more likely that the team leads will tak
 
 ## Post-Lecture Quiz
 
-[Post-lecture quiz]()
+[Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/31)
 
 ## Review & Self Study
 
