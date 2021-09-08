@@ -8,9 +8,9 @@ assignees: ''
 ---
 
 # This lesson has been reviwed and resolved of the following issues
-[] Typos
-[] Grammar errors
-[] Missing links
-[] Broken Images
-[] Checked for completeness
-[] Quiz (if no quiz assign to @paladique)
+- [ ] Typos
+- [ ] Grammar errors
+- [ ] Missing links
+- [ ] Broken Images
+- [ ] Checked for completeness
+- [ ] Quiz (if no quiz assign to @paladique)
