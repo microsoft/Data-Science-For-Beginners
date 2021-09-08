@@ -19,7 +19,7 @@ Here are some of the problem domains and problems that can get you started think
 Fill in the following table (substitute suggested problem domains for your own ones if needed):
 
 | Problem Domain | Problem | Which data to collect | How to store the data | Which insights/decisions we can make | 
-|---------|-----------------------|-----------------------|--------------------------------------|
+|----------------|---------|-----------------------|-----------------------|--------------------------------------|
 | Education | | | | |
 | Vaccination | | | | |
 | Productivity | | | | |
