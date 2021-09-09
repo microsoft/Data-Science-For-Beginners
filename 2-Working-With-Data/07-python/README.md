@@ -273,3 +273,7 @@ Whether you already have structured or unstructured data, using Python you can p
 ## Assignment
 
 [Perform more detailed data study for the challenges above](assignment.md)
+
+## Credits
+
+This lesson has been authored with ♥️ by [Dmitry Soshnikov](http://soshnikov.com)

@@ -156,3 +156,7 @@ Visit [`notebook.ipynb`](notebook.ipynb) to read through the code. You can also 
 
 * **Task 1**: Modify the code above to find out related concepts for the fields of **Big Data** and **Machine Learning**
 * **Task 2**: [Think About Data Science Scenarios](assignment.md)
+
+## Credits
+
+This lesson has been authored with ♥️ by [Dmitry Soshnikov](http://soshnikov.com)

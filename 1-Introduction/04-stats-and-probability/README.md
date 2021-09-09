@@ -251,3 +251,6 @@ Probability and statistics is such a broad topic that it deserves its own course
 
 [Small Diabetes Study](assignment.md)
 
+## Credits
+
+This lesson has been authored with ♥️ by [Dmitry Soshnikov](http://soshnikov.com)
