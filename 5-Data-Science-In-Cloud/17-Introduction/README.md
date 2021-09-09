@@ -70,15 +70,15 @@ To view the full process, check out the [documentation](https://docs.microsoft.c
 
 
 ### Scientific papers analysis
-Let’s take another example, of a project created by Dmitry Soshnikov, one of the authors of this curriculum. 
+Let’s take another example, of a project created by [Dmitry Soshnikov](http://soshnikov.com), one of the authors of this curriculum. 
 
 Dmitry created a tool that analyses COVID papers. By reviewing this project, you will see how you can create a tool that extracts knowledge from scientific papers, gains insights, and get a tool that helps researchers navigate large collections of papers in a meaningful way.
 
 Let's see the different steps used for this: 
- * Extracting and pre-processing information with Text Analytics
-* Using Azure ML to parallelize the processing
-* Storing and querying information with Cosmos DB
-* Create an interactive dashboard for data exploration and visualization  using Power BI
+* Extracting and pre-processing information with [Text Analytics for Health](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health?WT.mc_id=academic-40229-cxa)
+* Using [Azure ML](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-40229-cxa) to parallelize the processing
+* Storing and querying information with [Cosmos DB](https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=academic-40229-cxa)
+* Create an interactive dashboard for data exploration and visualization using Power BI
 
 To see the full process, visit [Dmitry’s blog](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/). 
  
@@ -91,7 +91,6 @@ Sources:
 * https://azure.microsoft.com/overview/what-is-cloud-computing  
 * https://docs.microsoft.com/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends  
 * https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/  
-
 
 ## Post-Lecture Quiz
 
