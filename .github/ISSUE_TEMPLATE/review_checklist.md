@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-# This lesson has been reviwed and resolved of the following issues
+# This lesson has been reviewed and resolved of the following issues
 - [ ] Typos
 - [ ] Grammar errors
 - [ ] Missing links
