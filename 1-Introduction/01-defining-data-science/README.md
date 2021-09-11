@@ -1,9 +1,9 @@
 # Defining Data Science
 
 [![Defining Data Science Video](images/video-def-ds.png)](https://youtu.be/pqqsm5reGvs)
-## Pre-Lecture Quiz
 
-[Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
+
+## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
 
 ## What is Data?
 
@@ -148,9 +148,9 @@ Visit [`notebook.ipynb`](notebook.ipynb) to read through the code. You can also 
 
 > If you do not know how to run code in Jupyter Notebook, have a look at [this article](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
-## Post-Lecture Quiz
 
-[Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/1)
+
+## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/1)
 
 ## Assignments
 
