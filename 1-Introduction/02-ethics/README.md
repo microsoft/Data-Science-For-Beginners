@@ -13,9 +13,9 @@ Data ethics are now _necessary guardrails_ for data science and engineering, hel
 In this lesson, we'll explore the fascinating area of data ethics - from core concepts and challenges, to case studies and applied AI concepts like governance - that help establish an ethics culture in teams and organizations that work with data and AI.
 
 
-## Pre-Lecture Quiz 🎯
 
-[Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/2) 
+
+## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/2) 🎯
 
 ## Sketchnote 🖼
 
@@ -252,9 +252,9 @@ The latter requires [collaborative approaches to defining ethics cultures](https
 ## Challenge 🚀 
 
 
-## Post-Lecture Quiz 🎯
 
-[Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/3) 
+
+## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/3) 🎯
 
 
 ## Review & Self Study 
