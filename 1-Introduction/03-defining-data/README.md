@@ -4,9 +4,9 @@ Data are facts, information, observations and measurements that are used to make
 
 This lesson focuses on identifying and classifying data by its characteristics and its sources.
 
-## Pre-Lecture Quiz
+## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/4)
 
-[Pre-lecture quiz]()
+
 
 ![Image of numerical data, also known as quantitative data](mika-baumeister-Wpnoqo2plFA-unsplash.jpg)
 > Source: [Mika Baumister](https://unsplash.com/@mbaumi) via [Unsplash](https://unsplash.com/photos/Wpnoqo2plFA)
@@ -59,9 +59,9 @@ Kaggle is an excellent source of open datasets. Use the [dataset search tool](ht
 - Is the data quantitative or qualitative?
 - Is the data structured, unstructured, or semi-structured?
 
-## Post-Lecture Quiz
+## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/5)
 
-[Post-lecture quiz]()
+
 
 ## Review & Self Study
 
