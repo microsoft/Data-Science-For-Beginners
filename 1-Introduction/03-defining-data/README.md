@@ -6,7 +6,7 @@ This lesson focuses on identifying and classifying data by its characteristics a
 
 ## Pre-Lecture Quiz
 
-[Pre-lecture quiz]()
+[Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/4)
 
 ![Image of numerical data, also known as quantitative data](mika-baumeister-Wpnoqo2plFA-unsplash.jpg)
 > Source: [Mika Baumister](https://unsplash.com/@mbaumi) via [Unsplash](https://unsplash.com/photos/Wpnoqo2plFA)
@@ -61,7 +61,7 @@ Kaggle is an excellent source of open datasets. Use the [dataset search tool](ht
 
 ## Post-Lecture Quiz
 
-[Post-lecture quiz]()
+[Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/5)
 
 ## Review & Self Study
 
