@@ -21,9 +21,9 @@ We will focus on a few examples of data processing, instead of giving you full o
 
 > **Most useful advice**. When you need to perform certain operation on data that you do not know how to do, try searching for it in the internet. [Stackoverflow](https://stackoverflow.com/) usually contains a lot of useful code sample in Python for many typical tasks. 
 
-## Pre-Lecture Quiz
 
-[Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/12)
+
+## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/12)
 
 ## Tabular Data and Dataframes
 
@@ -253,9 +253,9 @@ Here are some examples of exploring data from Image data sources:
 
 Whether you already have structured or unstructured data, using Python you can perform all steps related to data processing and understanding. It is probably the most flexible way of data processing, and that is the reason the majority of data scientists use Python as their primary tool. Learning Python in depth is probably a good idea if you are serious about your data science journey!
 
-## Post-Lecture Quiz
 
-[Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/13)
+
+## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/13)
 
 ## Review & Self Study
 
