@@ -1,5 +1,9 @@
 # Working with Data: Non-Relational Data
 
+## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/10)
+
+
+
 Data is not limited to relational databases. This lesson focuses on non-relational data and will cover the basic of spreadsheets and NoSQL.
 
 ## Spreadsheets
@@ -113,9 +117,7 @@ In most instances, APIs that return JSON data can be directly transferred and st
 
 The fields of interest in this document are: `created_at`, `id`, and `text`.
 
-## Pre-Lecture Quiz
 
-[Pre-lecture quiz]()
 
 
 ## 🚀 Challenge
@@ -132,9 +134,9 @@ There is a `TwitterData.json` file that you can upload to the SampleDB database.
 Try to run a few select queries to find the documents that have Microsoft in the text field. Hint: try to use the [LIKE keyword](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character)
 
 
-## Post-Lecture Quiz
+## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/11)
 
-[Post-lecture quiz]()
+
 
 ## Review & Self Study
 
