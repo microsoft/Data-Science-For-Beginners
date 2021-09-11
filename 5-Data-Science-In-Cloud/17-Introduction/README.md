@@ -66,7 +66,7 @@ The steps necessary to create this projects are the following:
 * Create an output sink and specify the job output 
 * Start the job 
 
-To view the full process, check out the [documentation](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends).
+To view the full process, check out the [documentation](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends?ocid=AID3041109).
 
 
 ### Scientific papers analysis
@@ -75,9 +75,9 @@ Let’s take another example, of a project created by [Dmitry Soshnikov](http://
 Dmitry created a tool that analyses COVID papers. By reviewing this project, you will see how you can create a tool that extracts knowledge from scientific papers, gains insights, and get a tool that helps researchers navigate large collections of papers in a meaningful way.
 
 Let's see the different steps used for this: 
-* Extracting and pre-processing information with [Text Analytics for Health](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health?WT.mc_id=academic-40229-cxa)
-* Using [Azure ML](https://azure.microsoft.com/services/machine-learning/?WT.mc_id=academic-40229-cxa) to parallelize the processing
-* Storing and querying information with [Cosmos DB](https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=academic-40229-cxa)
+* Extracting and pre-processing information with [Text Analytics for Health](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health?ocid=AID3041109)
+* Using [Azure ML](https://azure.microsoft.com/services/machine-learning/?ocid=AID3041109) to parallelize the processing
+* Storing and querying information with [Cosmos DB](https://azure.microsoft.com/services/cosmos-db/?ocid=AID3041109)
 * Create an interactive dashboard for data exploration and visualization using Power BI
 
 To see the full process, visit [Dmitry’s blog](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/). 
@@ -88,8 +88,8 @@ As you can see, we can leverage Cloud services in many ways to perform Data Scie
 ## Footnote
 
 Sources:
-* https://azure.microsoft.com/overview/what-is-cloud-computing  
-* https://docs.microsoft.com/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends  
+* https://azure.microsoft.com/overview/what-is-cloud-computing?ocid=AID3041109  
+* https://docs.microsoft.com/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends?ocid=AID3041109  
 * https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/  
 
 ## Post-Lecture Quiz
