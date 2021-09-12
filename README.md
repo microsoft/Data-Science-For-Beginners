@@ -2,7 +2,7 @@
 
 Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson curriculum all about Data Science. Each lesson includes pre-lesson and post-lesson quizzes, written instructions to complete the lesson, a solution, and an assignment. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.
 
-**Hearty thanks to our authors:** Jasmine Greenaway, Dmitry Soshnikov, Nitya Narasimhan, Jalen McGee, Jen Looper, Maud Levy, Tiffany Souterre.
+**Hearty thanks to our authors:** Jasmine Greenaway, Dmitry Soshnikov, Nitya Narasimhan, Jalen McGee, Jen Looper, Maud Levy, Tiffany Souterre, Christopher Harrison.
 
 # Getting Started
 
