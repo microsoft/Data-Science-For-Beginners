@@ -40,10 +40,6 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 
 ## Lessons
 
-## Lessons
-
-  
-
 | Lesson Number | Topic | Lesson Grouping | Learning Objectives | Linked Lesson | Author |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
 | 01 | Defining Data Science | [Introduction](1-Introduction/README.md) | Learn the basic concepts behind data science and how it’s related to artificial intelligence, machine learning, and big data. | [lesson](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/pqqsm5reGvs) | [Dmitry](http://soshnikov.com) |
@@ -59,9 +55,9 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 | 11 | Visualizing Proportions | [Data Visualization](3-Data-Visualization/README.md) | Visualizing discrete and grouped percentages. | [lesson](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 12 | Visualizing Relationships | [Data Visualization](3-Data-Visualization/README.md) | Visualizing connections and correlations between sets of data and their variables. | [lesson](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 13 | Meaningful Visualizations | [Data Visualization](3-Data-Visualization/README.md) | Techniques and guidance for making your visualizations valuable for effective problem solving and insights. | [lesson](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 14 | Introduction to the Data Science lifecycle | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Introduction to the data science lifecycle and its first step of acquiring and extracting data | [lesson](4-Data-Science-Lifecycle/14-Introduction/README.md) | |
-| 15 | Analyzing | [Lifecycle](4-Data-Science-Lifecycle/README.md) | This phase of the data science lifecycle focuses on techniques to analyze data. | [lesson](4-Data-Science-Lifecycle/15-Analyzing/README.md) | | | |
-| 16 | Communication | [Lifecycle](4-Data-Science-Lifecycle/README.md) | This phase of the data science lifecycle focuses on presenting the insights from the data in a way that makes it easier for decision makers to understand. | [lesson](4-Data-Science-Lifecycle/16-Communication/README.md) |  | | |
+| 14 | Introduction to the Data Science lifecycle | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Introduction to the data science lifecycle and its first step of acquiring and extracting data | [lesson](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
+| 15 | Analyzing | [Lifecycle](4-Data-Science-Lifecycle/README.md) | This phase of the data science lifecycle focuses on techniques to analyze data. | [lesson](4-Data-Science-Lifecycle/15-Analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | Communication | [Lifecycle](4-Data-Science-Lifecycle/README.md) | This phase of the data science lifecycle focuses on presenting the insights from the data in a way that makes it easier for decision makers to understand. | [lesson](4-Data-Science-Lifecycle/16-Communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
 | 17 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | This series of lessons introduces data science in the cloud and its benefits. | [Cloud Data](5-Data-Science-In-Cloud/17-Introduction/README.md) | Tiffany and Maud |
 | 18 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/18-Low-Code/README.md) | Training models with Azure Machine Learning Studio | |Tiffany and Maud |
 | 19 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/19-Azure/README.md) | Deploying models with Azure Machine Learning Studio | |Tiffany and Maud |
