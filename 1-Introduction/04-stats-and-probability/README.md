@@ -145,7 +145,7 @@ In our baseball players dataset, there are different player roles, that can be s
 | Starting_Pitcher | 74.719457 | 205.163636 | 221 |
 | Third_Baseman | 73.044444 | 200.955556 | 45 |
 
-We can notice that the mean heights of first basemen is higher that that of second basemen. Thus, we may be tempted to conclude that **first basemen are higher than second basemen**.
+We can notice that the mean heights of first basemen is higher than that of second basemen. Thus, we may be tempted to conclude that **first basemen are higher than second basemen**.
 
 > This statement is called **a hypothesis**, because we do not know whether the fact is actually true or not.
 
@@ -179,8 +179,6 @@ T-value = 7.65
 P-value: 9.137321189738925e-12
 ```
 In our case, p-value is very low, meaning that there is strong evidence supporting that first basemen are taller.
-
-> 🚀 **Challenge**: Use the sample code in the notebook to test other hypothesis that: (1) First basemen and older that second basemen; (2) First basemen and taller than third basemen; (3) Shortstops are taller than second basemen
 
 There are also different other types of hypothesis that we might want to test, for example:
 * To prove that a given sample follows some distribution. In our case we have assumed that heights are normally distributed, but that needs formal statistical verification. 
@@ -235,6 +233,12 @@ In this section, we have learnt:
 
 While this is definitely not exhaustive list of topics that exist within probability and statistics, it should be enough to give you a good start into this course.
 
+## 🚀 Challenge
+
+Use the sample code in the notebook to test other hypothesis that: 
+1. First basemen and older that second basemen
+2. First basemen and taller than third basemen
+3. Shortstops are taller than second basemen
 
 ## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/7)
 
