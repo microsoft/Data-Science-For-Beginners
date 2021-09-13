@@ -67,7 +67,7 @@ Below is an example of the cost of owning an Azure Storage Account
 ### Managing Data
 As you work with data you may discover that some of the data needs to be cleaned using some of the techniques covered in the lesson focused on [data preparation](2-Working-With-Data\08-data-preparation) to build accurate models.  When new data arrives, it will need some of the same applications to maintain consistency in quality. Some projects will involve use of an automated tool for cleansing, aggregation, and compression before the data is moved to its final location. Azure Data Factory is an example of one of these tools.
 
-#### Securing the Data
+### Securing the Data
 One of the main goals of securing data is ensuring that those working it are in control of what is collected and in what context it is being used. Keeping data secure involves limiting access to only those who need it, adhering to local laws and regulations, as well as maintaining ethical standards, as covered in the [ethics lesson](1-Introduction\02-ethics). 
 
 Here’s some things that a team may do with security in mind:
