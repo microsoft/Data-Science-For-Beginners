@@ -2,15 +2,14 @@
 
 [![Intro Video](images/video-ds-python.png)](https://youtu.be/dZjWOGbsN4Y)
 
-While databases offer very efficient ways to store data and query them using query languages, the most flexible way of data processing is writing your own program to manipulate data. While in many cases doing database query will be more effective way, in some cases you might need some more complex data processing, which cannot be easily done using SQL.
-
+While databases offer very efficient ways to store data and query them using query languages, the most flexible way of data processing is writing your own program to manipulate data. In many cases, doing a database query would be a a more effective way. However in some cases when more complex data processing is needed, it cannot be done easily on SQL. 
 Data processing can be programmed in any programming language, but there are certain languages that are higher level with respect to working with data. Data scientists typically prefer one of the following languages:
 
 * **[Python](https://www.python.org/)**, a general-purpose programming language, which is often considered one of the best options for beginners due to its simplicity. Python has a lot of additional libraries that can help you solve many practical problems, such as extracting your data from ZIP archive, or converting picture to grayscale. In addition to data science, Python is also often used for web development. 
 * **[R](https://www.r-project.org/)** is a traditional toolbox developed with statistical data processing in mind. It also contains large repository of libraries (CRAN), making it a good choice for data processing. However, R is not a general-purpose programming language, and is rarely used outside of data science domain.
 * **[Julia](https://julialang.org/)** is another language developed specifically for data science. It is intended to give better performance than Python, making it a great tool for scientific experimentation.
 
-In this lesson, we will focus on using Python for simple data processing. We will assume basic familiarity with the language. If you want deeper tour of Python, you can refer to one of the following resources:
+In this lesson, we will focus on using Python for simple data processing. We will assume basic familiarity with the language. If you want a deeper tour of Python, you can refer to one of the following resources:
 
 * [Learn Python in a Fun Way with Turtle Graphics and Fractals](https://github.com/shwars/pycourse) - GitHub-based quick intro course into Python Programming
 * [Take your First Steps with Python](https://docs.microsoft.com/en-us/learn/paths/python-first-steps/?WT.mc_id=acad-31812-dmitryso) Learning Path on [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=acad-31812-dmitryso)
@@ -35,7 +34,7 @@ There are two most useful libraries in Python that can help you deal with tabula
 
 There are also a couple of other libraries you should know about:
 * **[Matplotlib](https://matplotlib.org/)** is a library used for data visualization and plotting graphs
-* **[SciPy](https://www.scipy.org/)** is a library with some additional scientific functions. We have already come accross this library when talking about probability and statistics
+* **[SciPy](https://www.scipy.org/)** is a library with some additional scientific functions. We have already come across this library when talking about probability and statistics
 
 Here is a piece of code that you would typically use to import those libraries in the beginning of your Python program:
 ```python
@@ -199,7 +198,7 @@ We will see more examples of loading data, including fetching it from external w
 
 ### Printing and Plotting
 
-Data Scientist often has to explore the data, thus it is important to be able to visualize it. When DataFrame is big, manytimes we want just to make sure we are doing everything correctly by printing out the first few rows. This can be done by calling `df.head()`. If you are running it from Jupyter Notebook, it will print out the DataFrame in a nice tabular form.
+A Data Scientist often has to explore the data, thus it is important to be able to visualize it. When DataFrame is big, many times we want just to make sure we are doing everything correctly by printing out the first few rows. This can be done by calling `df.head()`. If you are running it from Jupyter Notebook, it will print out the DataFrame in a nice tabular form.
 
 We have also seen the usage of `plot` function to visualize some columns. While `plot` is very useful for many tasks, and supports many different graph types via `kind=` parameter, you can always use raw `matplotlib` library to plot something more complex. We will cover data visualization in detail in separate course lessons.
 
