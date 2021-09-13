@@ -7,7 +7,7 @@
 
 ## What is Data?
 
-In our everyday life, we are always surrounded by **data**. The text you are reading now is data, the list of phone numbers of your friends in your smartphone is data, as well as current time displayed on your watch. As human beings, we naturally operate with data, counting the amount of money we have, or writing letters to our friends.
+In our everyday life, we are always surrounded by **data**. The text you are reading now is data, the list of phone numbers of your friends in your smartphone is data, as well as the current time displayed on your watch. As human beings, we naturally operate with data by counting the amount of money we have or writing letters to our friends.
 
 However, data became much more important with the creation of **computers**. The main role of computers is to perform *computations*, but they need data to operate on. Thus, we need to understand how computers store and process data.
 
@@ -17,12 +17,12 @@ With the emergence of Internet, the role of computers as data handling devices i
 
 ## What is Data Science?
 
-In [Wikipedia](https://en.wikipedia.org/wiki/Data_science), **Data Science** is defined as *scientific field that uses scientific methods to extract knowledge and insights from structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains*. 
+In [Wikipedia](https://en.wikipedia.org/wiki/Data_science), **Data Science** is defined as *a scientific field that uses scientific methods to extract knowledge and insights from structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains*. 
 
 This definition highlights the following important aspects of data science:
 
 * The main goal of data science is to **extract knowledge** from data, in order words - to **understand** data, find some hidden relationships and build a **model**.
-* Data science uses **scientific methods**, such as probability and statistics. In fact, when the term *data science* was first introduced, some people argued that data science is just a new fancy name for statistics. Nowadays it becomes evident that the field is much more broad.    
+* Data science uses **scientific methods**, such as probability and statistics. In fact, when the term *data science* was first introduced, some people argued that data science is just a new fancy name for statistics. Nowadays it has become evident that the field is much broader.    
 * Obtained knowledge should be applied to produce some **actionable insights**.
 * We should be able to operate on both **structured** and **unstructured** data. We will come back to discuss different types of data later in the course.
 * **Application domain** is an important concept, and data scientist often needs at least some degree of expertise in the problem domain.
@@ -37,7 +37,7 @@ One of the ways (attributed to [Jim Gray](https://en.wikipedia.org/wiki/Jim_Gray
 
 ## Other Related Fields
 
-Since data is pervasive concept, data science itself is also a broad field, touching many other related disciplines.
+Since data is a pervasive concept, data science itself is also a broad field, touching many other related disciplines.
 
 <dl>
 <dt>Databases</dt>
@@ -64,13 +64,13 @@ Vast amounts of data are incomprehensible for a human being, but once we create 
 
 ## Types of Data
 
-As we have already mentioned - data is everywhere, we just need to capture it in the right way! It is useful to distinguish between **structured** and **unstructured** data - the former are typically represented in some well-structured form, often as a table or number of tables, while latter is just a collection of files. Sometimes we can also talk about **semistructured** data, that have some sort of a structure that may vary greatly.
+As we have already mentioned - data is everywhere, we just need to capture it in the right way! It is useful to distinguish between **structured** and **unstructured** data. The former are typically represented in some well-structured form, often as a table or number of tables, while latter is just a collection of files. Sometimes we can also talk about **semistructured** data, that have some sort of a structure that may vary greatly.
 
 | Structured | Semi-structured | Unstructured |
 |----------- |-----------------|--------------|
-| List of people with their phone numbers | Wikipedia pages with links | Text of Encyclopaedia Brittanica |
+| List of people with their phone numbers | Wikipedia pages with links | Text of Encyclopaedia Britannica |
 | Temperature in all rooms of a building at every minute for the last 20 years | Collection of scientific papers in JSON format with authors, data of publication, and abstract | File share with corporate documents |
-| Data for age and gender for all people entering the building | Internet pages | Raw video feed from surveillance camera |
+| Data for age and gender of all people entering the building | Internet pages | Raw video feed from surveillance camera |
 
 ## Where to get Data
 
@@ -95,28 +95,28 @@ By knowing different possible sources of data, you can try to think about differ
 In Data Science, we focus on the following steps of data journey:
 
 <dl>
-<dt>Data Acquisition</dt>
+<dt>1) Data Acquisition</dt>
 <dd>
 First step is to collect the data. While in many cases it can be a straightforward process, like data coming to a database from web application, sometimes we need to use special techniques. For example, data from IoT sensors can be overwhelming, and it is a good practice to use buffering endpoints such as IoT Hub to collect all the data before further processing.
 </dd>
-<dt>Data Storage</dt>
+<dt>2) Data Storage</dt>
 <dd>
 Storing the data can be challenging, especially if we are talking about big data. When deciding how to store data, it makes sense to anticipate the way you would want later on to query them. There are several ways data can be stored:
 <ul>
-<li>Relational database stores a collection of tables, and uses special language called SQL to query them. Typically, tables would be connected to each other using some schema. In many cases we need to convert the data from original form to fit the schema</li>
+<li>Relational database stores a collection of tables, and uses a special language called SQL to query them. Typically, tables would be connected to each other using some schema. In many cases we need to convert the data from original form to fit the schema.</li>
 <li><a href="https://en.wikipedia.org/wiki/NoSQL">NoSQL</a> database, such as <a href="https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=acad-31812-dmitryso">CosmosDB</a>, does not enforce schema on data, and allows storing more complex data, for example, hierarchical JSON documents or graphs. However, NoSQL database does not have rich querying capabilities of SQL, and cannot enforce referential integrity between data.</li>
 <li><a href="https://en.wikipedia.org/wiki/Data_lake">Data Lake</a> storage is used for large collections of data in raw form. Data lakes are often used with big data, where all data cannot fit into one machine, and has to be stored and processed by a cluster. <a href="https://en.wikipedia.org/wiki/Apache_Parquet">Parquet</a> is the data format that is often used in conjunction with big data.</li> 
 </ul>
 </dd>
-<dt>Data Processing</dt>
+<dt>3) Data Processing</dt>
 <dd>
 This is the most exciting part of data journey, which involved processing the data from its original form to the form that can be used for visualization/model training. When dealing with unstructured data such as text or images, we may need to use some AI techniques to extract **features** from the data, thus converting it to structured form.
 </dd>
-<dt>Visualization / Human Insights</dt>
+<dt>4) Visualization / Human Insights</dt>
 <dd>
 Often to understand the data we need to visualize them. Having many different visualization techniques in our toolbox we can find the right view to make an insight. Often, data scientist needs to "play with data", visualizing it many times and looking for some relationships. Also, we may use techniques from statistics to test some hypotheses or prove correlation between different pieces of data.   
 </dd>
-<dt>Training predictive model</dt>
+<dt>5) Training predictive model</dt>
 <dd>
 Because the ultimate goal of data science is to be able to take decisions based on data, we may want to use the techniques of <a href="http://github.com/microsoft/ml-for-beginners">Machine Learning</a> to build predictive model that will be able to solve our problem.
 </dd>
