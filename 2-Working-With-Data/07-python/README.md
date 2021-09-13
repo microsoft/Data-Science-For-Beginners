@@ -2,7 +2,7 @@
 
 [![Intro Video](images/video-ds-python.png)](https://youtu.be/dZjWOGbsN4Y)
 
-While databases offer very efficient ways to store data and query them using query languages, the most flexible way of data processing is writing your own program to manipulate data. While in many cases doing database query will be more effective way, in some cases you might need some more complex data processing, which cannot be easily done using SQL.
+While databases offer very efficient ways to store data and query them using query languages, the most flexible way of data processing is writing your own program to manipulate data. While in many cases doing database query will be more effective way, in some cases you might need some more complex data processing, which cannot be easily done if SQL is leveraged.
 
 Data processing can be programmed in any programming language, but there are certain languages that are higher level with respect to working with data. Data scientists typically prefer one of the following languages:
 
