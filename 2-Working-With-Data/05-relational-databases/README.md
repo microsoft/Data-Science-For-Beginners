@@ -10,7 +10,7 @@ A relational database has at its core tables. Just as with the spreadsheet, a ta
 
 Let's begin our exploration by starting a table to store information about cities. We might start with their name and country. You could store this in a table as follows:
 
-| city     | country       |
+| City     | Country       |
 | -------- | ------------- |
 | Tokyo    | Japan         |
 | Atlanta  | United States |
@@ -22,7 +22,7 @@ Notice the column names of **city**, **country** and **population** to describe 
 
 Chances are, the table above seems relatively familiar to you. Let's start to add some additional data to our burgeoning database - annual rainfall (in millimeters). We'll focus on the years 2018, 2019 and 2020. If we were to add it for Tokyo, it might look something like this:
 
-| city  | country | year | amount |
+| City  | Country | Year | Amount |
 | ----- | ------- | ---- | ------ |
 | Tokyo | Japan   | 2020 | 1690   |
 | Tokyo | Japan   | 2019 | 1874   |
@@ -32,7 +32,7 @@ What do you notice about our table? You might notice we're duplicating the name 
 
 OK, let's try something else. Let's add new columns for each year:
 
-| city     | country       | 2018 | 2019 | 2020 |
+| City     | Country       | 2018 | 2019 | 2020 |
 | -------- | ------------- | ---- | ---- | ---- |
 | Tokyo    | Japan         | 1445 | 1874 | 1690 |
 | Atlanta  | United States | 1779 | 1111 | 1683 |
@@ -46,7 +46,7 @@ This is why we need multiple tables and relationships. By breaking apart our dat
 
 Let's return to our data and determine how we want to split things up. We know we want to store the name and country for our cities, so this will probably work best in one table.
 
-| city     | country       |
+| City     | Country       |
 | -------- | ------------- |
 | Tokyo    | Japan         |
 | Atlanta  | United States |
@@ -56,7 +56,7 @@ But before we create the next table, we need to figure out how to reference each
 
 ### cities
 
-| city_id | city     | country       |
+| city_id | City     | Country       |
 | ------- | -------- | ------------- |
 | 1       | Tokyo    | Japan         |
 | 2       | Atlanta  | United States |
@@ -68,7 +68,7 @@ With our cities table created, let's store the rainfall. Rather than duplicating
 
 ### rainfall
 
-| rainfall_id | city_id | year | amount |
+| rainfall_id | city_id | Year | Amount |
 | ----------- | ------- | ---- | ------ |
 | 1           | 1       | 2018 | 1445   |
 | 2           | 1       | 2019 | 1874   |
