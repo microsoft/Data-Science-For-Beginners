@@ -2,7 +2,7 @@
 
 ## Instructions
 
-We saw how to use the Azure ML platform to train, deploy and consume a model in a Low code/No code fashion. Now look around for some data that you could use to train an other model, deploy it and consume it. You can look for datasets on [Kaggle](https://kaggle.com) and [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog?WT.mc_id=academic-40229-cxa&ocid=AID3041109).
+We saw how to use the Azure ML platform to train, deploy and consume a model in a Low code/No code fashion. Now look around for some data that you could use to train an other model, deploy it and consume it. You can look for datasets on [Kaggle](https://kaggle.com) and [Azure Open Datasets](https://azure.microsoft.com/services/open-datasets/catalog?WT.mc_id=academic-40229-cxa&ocid=AID3041109).
 
 ## Rubric
 
