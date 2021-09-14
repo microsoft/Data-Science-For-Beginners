@@ -6,13 +6,11 @@
 ## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
 
 ## What is Data?
+In our everyday life, we are constantly surrounded by data. The text you are reading now is data, the list of phone numbers of your friends in your smartphone is data, as well as the current time displayed on your watch. As human beings, we naturally operate with data by counting the money we have or writing letters to our friends.
 
-In our everyday life, we are always surrounded by **data**. The text you are reading now is data, the list of phone numbers of your friends in your smartphone is data, as well as the current time displayed on your watch. As human beings, we naturally operate with data by counting the amount of money we have or writing letters to our friends.
+However, data became much more critical with the creation of computers. The primary role of computers is to perform computations, but they need data to operate on. Thus, we need to understand how computers store and process data.
 
-However, data became much more important with the creation of **computers**. The main role of computers is to perform *computations*, but they need data to operate on. Thus, we need to understand how computers store and process data.
-
-With the emergence of Internet, the role of computers as data handling devices increased. If you think of it, we now use computers more and more for data processing and communication, rather than actual computations. When we write an e-mail to a friend, or search some information on the Internet - we are essentially creating, storing, transmitting, and manipulating data.
-
+With the emergence of the Internet, the role of computers as data handling devices increased. If you think of it, we now use computers more and more for data processing and communication, rather than actual computations. When we write an e-mail to a friend or search for some information on the Internet - we are essentially creating, storing, transmitting, and manipulating data.
 > Can you remember the last time you have used computers to actually compute something? 
 
 ## What is Data Science?
