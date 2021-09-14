@@ -10,7 +10,7 @@ When it comes to doing data science with big data, the cloud can be a game chang
 
 ### Topics
 
-1. [Why do Data Science in the Cloud?](17-Introduction/README.md)
+1. [Why use Cloud for Data Science?](17-Introduction/README.md)
 2. [Data Science in the Cloud: The "Low code/No code" way ](18-Low-Code/README.md)
 3. [Data Science in the Cloud: The "Azure ML SDK" way ](19-Azure/README.md)
 
