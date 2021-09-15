@@ -8,7 +8,7 @@ In these lessons, you'll explore some of the aspects of the Data Science lifeycl
 
 1. [Introduction](14-Introduction/README.md)
 2. [Analyzing](15-Analyzing/README.md)
-3. [Communication](16-Communication/README.md)
+3. [Communication](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/16-communication)
 
 ### Credits
 
