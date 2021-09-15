@@ -25,16 +25,16 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 
 ## Each lesson includes:
 
-- optional sketchnote
-- optional supplemental video
-- pre-lesson warmup quiz
-- written lesson
-- for project-based lessons, step-by-step guides on how to build the project
-- knowledge checks
-- a challenge
-- supplemental reading
-- assignment
-- post-lesson quiz
+- Optional sketchnote
+- Optional supplemental video
+- Pre-lesson warmup quiz
+- Written lesson
+- For project-based lessons, step-by-step guides on how to build the project
+- Knowledge checks
+- A challenge
+- Supplemental reading
+- Assignment
+- Post-lesson quiz
 
 > **A note about quizzes**: All quizzes are contained [in this app](https://red-water-0103e7a0f.azurestaticapps.net/), for 40 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `quiz-app` folder. They are gradually being localized.
 
