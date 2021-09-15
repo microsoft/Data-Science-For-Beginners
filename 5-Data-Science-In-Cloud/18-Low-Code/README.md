@@ -26,21 +26,27 @@ Table of contents:
 
 [Pre-lecture quiz]()
 
-1. What is the cloud?
+1. What is the cloud computing?
+   1. Delivery of computing services over the internet.
+   2. Setting up your own datacenter.
+   3. Using the internet.
+2. What is the cloud?
    1. A collection of Databases for storing big data.
    2. TRUE : A collection of pay-as-you-go computing services over the internet.
    3. A visible mass of particles suspended in the air.
-2. What are some advantages of the cloud?
+3. What are some advantages of the cloud?
    1. TRUE : Flexibility, Scalability, Reliability, Security
    2. Flexibility, Scalability, Reliability, Variability
    3. Clarity, Scalability, Reliability, Variability
-3. Which one is not necessarily a good reason for choosing the cloud?
+4. Which one is not necessarily a good reason for choosing the cloud?
    1. Using Machine Learning and data intelligence services
    2. Processing large amounts of data
    3. TRUE : Storing sensitive/confidential governmental data
 
 ## 1. Introduction
 ### 1.1 What is Azure Machine Learning?
+
+The Azure cloud platform is more than 200 products and cloud services designed to help you bring new solutions to life.
 Data scientists expend a lot of effort exploring and pre-processing data, and trying various types of model-training algorithms to produce accurate models, which is time consuming, and often makes inefficient use of expensive compute hardware.
 
 [Azure ML](https://docs.microsoft.com/EN-US/azure/machine-learning/overview-what-is-azure-machine-learning) is a cloud-based platform for building and operating machine learning solutions in Azure. It includes a wide range of features and capabilities that help data scientists prepare data, train models, publish predictive services, and monitor their usage. Most importantly, it helps data scientists increase their efficiency by automating many of the time-consuming tasks associated with training models; and it enables them to use cloud-based compute resources that scale effectively to handle large volumes of data while incurring costs only when actually used.
@@ -73,7 +79,7 @@ Both ways has its pro and cons. The Low code/No code way is easier to start with
 
 ### 1.3 The Heart Failure Dataset
 
-Cardiovascular diseases (CVDs) are the number 1 cause of death globally, accounting for 31% of all deaths worlwide. Environmental and behavioural risk factors such as tobacco use, unhealthy diet and obesity, physical inactivity and harmful use of alcohol could be used as features for estimation models. Being able to estimate the probability of developping a CVD could be of great to prevent attacks for high risk people.
+Cardiovascular diseases (CVDs) are the number 1 cause of death globally, accounting for 31% of all deaths worldwide. Environmental and behavioural risk factors such as tobacco use, unhealthy diet and obesity, physical inactivity and harmful use of alcohol could be used as features for estimation models. Being able to estimate the probability of developping a CVD could be of great to prevent attacks for high risk people.
 
 Kaggle has made publically available a [Heart Failure dataset](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) that we are going to use for this project. You can download the dataset now. This is a tabular dataset with 13 columns (12 features and 1 target variable) and contains 299 rows. 
 
