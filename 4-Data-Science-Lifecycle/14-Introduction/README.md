@@ -1,6 +1,6 @@
 # Introduction to the Data Science Lifecycle
 
-At this point you've probably come to the realization that that data science is a process. This process can be broken down into 5 stages:
+At this point you've probably come to the realization that data science is a process. This process can be broken down into 5 stages:
 
 - Capturing
 - Processing
@@ -17,7 +17,7 @@ This lesson focuses on 3 parts of the life cycle: capturing, processing and main
 ## Capturing
 
 The first stage of the lifecycle is very important as the next stages are dependent on it. It’s practically two stages combined into one: acquiring the data and defining the purpose and problems that need to be addressed. 
-Defining the goals of the project will require deeper context into the problem or question. First, we need to identify and acquire those who need their problem solved. These may be stakeholders in a business or sponsors of the project who can help identify who or what will benefit from this project as well as what, and why they need it. A well-defined goal should be measurable and quantifiable to define an acceptable result. 
+Defining the goals of the project will require deeper context into the problem or question. First, we need to identify and acquire those who need their problem solved. These may be stakeholders in a business or sponsors of the project, who can help identify who or what will benefit from this project as well as what, and why they need it. A well-defined goal should be measurable and quantifiable to define an acceptable result. 
 
 Questions a data scientist may ask:
 -	Has this problem been approached before? What was discovered?
@@ -39,7 +39,7 @@ Questions a data scientist may ask about the data:
 
 ## Processing
 
-The processing stage of the lifecycle focuses on discovering patterns in the data as well as modeling. Some techniques used to in the processing stage requires statistical methods to uncover the patterns. Typically, this would be a tedious task for a human to do with a large data set and will rely on computers to do the heavy lifting to speed up the process. This stage is also where data science and machine learning will intersect. As you learned in the first lesson, machine learning is the process of building models to understand the data. Models are a representation of the relationship between variables in the data that help predict outcomes.
+The processing stage of the lifecycle focuses on discovering patterns in the data as well as modeling. Some techniques used in the processing stage require statistical methods to uncover the patterns. Typically, this would be a tedious task for a human to do with a large data set and will rely on computers to do the heavy lifting to speed up the process. This stage is also where data science and machine learning will intersect. As you learned in the first lesson, machine learning is the process of building models to understand the data. Models are a representation of the relationship between variables in the data that help predict outcomes.
 
 Common techniques used in this stage are covered in the ML for Beginners curriculum.  Follow the links to learn more about them:
 

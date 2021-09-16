@@ -54,7 +54,7 @@ Key areas of the SDK include:
 - Use automated machine learning, which accepts configuration parameters and training data. It automatically iterates through algorithms and hyperparameter settings to find the best model for running predictions.
 - Deploy web services to convert your trained models into RESTful services that can be consumed in any application.
 
-[Learn more about the Azure Machine Learning SDK](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/?view=azure-ml-py)
+[Learn more about the Azure Machine Learning SDK](https://docs.microsoft.com/en-us/python/api/overview/azure/ml?WT.mc_id=academic-40229-cxa&ocid=AID3041109)
 
 In the [previous lesson](../18-tbd/README.md), we saw how to train, deploy and consume a model in a Low code/No code fashion. We used the Heart Failure dataset to generate and Heart failure prediction model. In this lesson, we are going to do the exact same thing but using the Azure Machine Learning SDK.
 
@@ -107,7 +107,7 @@ Now that we have a Notebook, we can start training the model with Azure ML SDK.
 
 ### 2.5 Training a model
 
-First of all, if you ever have a doubt, refer to the [Azure ML SDK documentation](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/?view=azure-ml-py). In contains all the necessary information to understand the modules we are going to see in this lesson.
+First of all, if you ever have a doubt, refer to the [Azure ML SDK documentation](https://docs.microsoft.com/en-us/python/api/overview/azure/ml?WT.mc_id=academic-40229-cxa&ocid=AID3041109). In contains all the necessary information to understand the modules we are going to see in this lesson.
 
 #### 2.5.1 Setup Workspace, experiment, compute cluster and dataset
 
@@ -155,7 +155,7 @@ df.describe()
 ```
 #### 2.5.2 AutoML Configuration and training
 
-To set the AutoML configuration, use the [AutoMLConfig class](https://docs.microsoft.com/en-us/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?view=azure-ml-py).
+To set the AutoML configuration, use the [AutoMLConfig class](https://docs.microsoft.com/en-us/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?WT.mc_id=academic-40229-cxa&ocid=AID3041109).
 
 As described in the doc, there are a lot of parameters with which you can play with. For this project, we will use the following parameters:
 
@@ -207,18 +207,18 @@ RunDetails(remote_run).show()
 
 ### 3.1 Saving the best model
 
-The `remote_run` an object of type [AutoMLRun](https://docs.microsoft.com/en-us/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?view=azure-ml-py). This object contains the method `get_output()` which returns the best run and the corresponding fitted model.
+The `remote_run` an object of type [AutoMLRun](https://docs.microsoft.com/en-us/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-40229-cxa&ocid=AID3041109). This object contains the method `get_output()` which returns the best run and the corresponding fitted model.
 
 ```python
 best_run, fitted_model = remote_run.get_output()
 ```
-You can see the parameters used for the best model by just printing the fitted_model and see the properties of the best model by using the [get_properties()](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties) method.
+You can see the parameters used for the best model by just printing the fitted_model and see the properties of the best model by using the [get_properties()](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-40229-cxa&ocid=AID3041109) method.
 
 ```python
 best_run.get_properties()
 ```
 
-Now register the model with the [register_model](https://docs.microsoft.com/en-us/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?view=azure-ml-py#register-model-model-name-none--description-none--tags-none--iteration-none--metric-none-) method.
+Now register the model with the [register_model](https://docs.microsoft.com/en-us/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?view=azure-ml-py#register-model-model-name-none--description-none--tags-none--iteration-none--metric-none-?WT.mc_id=academic-40229-cxa&ocid=AID3041109) method.
 ```python
 model_name = best_run.properties['model_name']
 script_file_name = 'inference/score.py'
@@ -231,9 +231,9 @@ model = best_run.register_model(model_name = model_name,
 ```
 ### 3.2 Model Deployment
 
-Once the best model is saved, we can deploy it with the [InferenceConfig](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py) class. InferenceConfig represents the configuration settings for a custom environment used for deployment. The [AciWebservice](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) class represents a machine learning model deployed as a web service endpoint on Azure Container Instances. A deployed service is created from a model, script, and associated files. The resulting web service is a load-balanced, HTTP endpoint with a REST API. You can send data to this API and receive the prediction returned by the model.
+Once the best model is saved, we can deploy it with the [InferenceConfig](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109) class. InferenceConfig represents the configuration settings for a custom environment used for deployment. The [AciWebservice](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) class represents a machine learning model deployed as a web service endpoint on Azure Container Instances. A deployed service is created from a model, script, and associated files. The resulting web service is a load-balanced, HTTP endpoint with a REST API. You can send data to this API and receive the prediction returned by the model.
 
-The model is deployed using the [deploy](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-) method.
+The model is deployed using the [deploy](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-40229-cxa&ocid=AID3041109) method.
 
 ```python
 from azureml.core.model import InferenceConfig, Model
@@ -296,7 +296,7 @@ Congratulations! You just consumed the model deployed and trained on Azure ML wi
 
  There are many other things you can do through the SDK, unfortunately, we can not view them all in this lesson. But good news, learning how to skim through the SDK documentation can take you a long way on your own. Have a look at the Azure ML SDK documentation and find the `Pipeline` class that allows you to create pipelines. A Pipeline is a collection of steps which can be executed as a workflow.
 
-**HINT:** Go to the [SDK documentation](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/?view=azure-ml-py) and type keywords in the search bar like "Pipeline". You should have the `azureml.pipeline.core.Pipeline` class in the search results.
+**HINT:** Go to the [SDK documentation](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-40229-cxa&ocid=AID3041109) and type keywords in the search bar like "Pipeline". You should have the `azureml.pipeline.core.Pipeline` class in the search results.
 
 ## Post-Lecture Quiz
 
@@ -316,7 +316,7 @@ Congratulations! You just consumed the model deployed and trained on Azure ML wi
    3. It can be used throught a Graphical User Interface
 ## Review & Self Study
 
-In this lesson, you learned how to train, deploy and consume a model to predict heart failure risk with the Azure ML SDK in the cloud. Check this [documentation](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/?view=azure-ml-py) for further information about the Azure ML SDK. Try to create your own model with the Azure ML SDK. 
+In this lesson, you learned how to train, deploy and consume a model to predict heart failure risk with the Azure ML SDK in the cloud. Check this [documentation](https://docs.microsoft.com/en-us/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-40229-cxa&ocid=AID3041109) for further information about the Azure ML SDK. Try to create your own model with the Azure ML SDK. 
 
 ## Assignment
 
