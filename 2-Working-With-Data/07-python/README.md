@@ -267,7 +267,7 @@ Whether you already have structured or unstructured data, using Python you can p
 
 **Learning Python**
 * [Learn Python in a Fun Way with Turtle Graphics and Fractals](https://github.com/shwars/pycourse)
-* [Take your First Steps with Python](https://docs.microsoft.com/en-us/learn/paths/python-first-steps/?WT.mc_id=acad-31812-dmitryso) Learning Path on [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=acad-31812-dmitryso)
+* [Take your First Steps with Python](https://docs.microsoft.com/learn/paths/python-first-steps/?WT.mc_id=acad-31812-dmitryso) Learning Path on [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=acad-31812-dmitryso)
 
 ## Assignment
 
