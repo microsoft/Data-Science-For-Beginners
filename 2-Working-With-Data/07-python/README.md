@@ -55,7 +55,7 @@ Pandas is centered around a few basic concepts.
 Consider an example: we want to analyze sales of our ice-cream spot. Let's generate a series of sales numbers (number of items sold each day) for some time period:
 
 ```python
-tart_date = "Jan 1, 2020"
+start_date = "Jan 1, 2020"
 end_date = "Mar 31, 2020"
 idx = pd.date_range(start_date,end_date)
 print(f"Length of index is {len(idx)}")
