@@ -55,7 +55,7 @@ Pandas is centered around a few basic concepts.
 Consider an example: we want to analyze sales of our ice-cream spot. Let's generate a series of sales numbers (number of items sold each day) for some time period:
 
 ```python
-tart_date = "Jan 1, 2020"
+start_date = "Jan 1, 2020"
 end_date = "Mar 31, 2020"
 idx = pd.date_range(start_date,end_date)
 print(f"Length of index is {len(idx)}")
@@ -267,7 +267,7 @@ Whether you already have structured or unstructured data, using Python you can p
 
 **Learning Python**
 * [Learn Python in a Fun Way with Turtle Graphics and Fractals](https://github.com/shwars/pycourse)
-* [Take your First Steps with Python](https://docs.microsoft.com/en-us/learn/paths/python-first-steps/?WT.mc_id=acad-31812-dmitryso) Learning Path on [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=acad-31812-dmitryso)
+* [Take your First Steps with Python](https://docs.microsoft.com/learn/paths/python-first-steps/?WT.mc_id=acad-31812-dmitryso) Learning Path on [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=acad-31812-dmitryso)
 
 ## Assignment
 
