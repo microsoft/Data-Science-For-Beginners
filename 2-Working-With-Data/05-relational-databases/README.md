@@ -162,7 +162,7 @@ TBD
 
 ## Review & Self Study
 
-## [SQL content on Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure?WT.mc_id=academic-40229-cxa)
+## [SQL content on Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-40229-cxa)
 
 ## Assignment
 
