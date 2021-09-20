@@ -1,6 +1,6 @@
 # Visualizing Quantities
 
-In this lesson, you will use three different libraries to learn how to create interesting visualizations all around the concept of quantity. Using a cleaned dataset about the birds of Minnesota, you can learn many interesting facts about local wildlife. 
+In this lesson you will explore how to use one of the many available Python libraries to learn how to create interesting visualizations all around the concept of quantity. Using a cleaned dataset about the birds of Minnesota, you can learn many interesting facts about local wildlife. 
 ## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/16)
 
 ## Observe wingspan with Matplotlib
