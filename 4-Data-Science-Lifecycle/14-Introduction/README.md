@@ -86,13 +86,18 @@ Explore the [Team Data Science Process lifecycle](https://docs.microsoft.com/en-
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![](..\images\tdsp-lifecycle2.png)| ![](..\images\CRISP-DM.png)
+|![](..\images\tdsp-lifecycle2.png)> Photo by [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/lifecycle)| ![](..\images\CRISP-DM.png)> Photo by [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/)
+
 
 ## Post-Lecture Quiz
-
 [Post-lecture quiz]()
 
 ## Review & Self Study
+
+Applying the Data Science Lifecycle involves multiple roles and tasks, where some may focus on particular parts of each stage. The Team Data Science Process provides a few resources that explain the types of roles and tasks that someone may have in a project.
+
+* [Team Data Science Process roles and tasks](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/roles-tasks)
+* [Execute data science tasks: exploration, modeling, and deployment](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/execute-data-science-tasks)
 
 ## Assignment
 
