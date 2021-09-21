@@ -1,5 +1,9 @@
 # The Data Science Lifecycle: Communication
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/16-Communicating.png)|
+|:---:|
+| Data Science Lifecycle: Communication - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 ## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/30)
 
 Test your knowledge of what's to come with the Pre-Lecture Quiz above!

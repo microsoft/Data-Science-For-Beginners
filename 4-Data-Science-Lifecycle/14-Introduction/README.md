@@ -1,5 +1,9 @@
 # Introduction to the Data Science Lifecycle
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/14-DataScience-Lifecycle.png)|
+|:---:|
+| Introduction to the Data Science Lifecycle - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 ## Pre-Lecture Quiz
 
 [Pre-lecture quiz]()
