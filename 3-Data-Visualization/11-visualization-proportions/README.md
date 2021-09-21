@@ -1,5 +1,9 @@
 # Visualizing Proportions
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/11-Visualizing-Proportions.png)|
+|:---:|
+|Visualizing Proportions - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 In this lesson, you will use a different nature-focused dataset to visualize proportions, such as how many different types of fungi populate a given dataset about mushrooms. Let's explore these fascinating fungi using a dataset sourced from Audubon listing details about 23 species of gilled mushrooms in the Agaricus and Lepiota families. You will experiment with tasty visualizations such as:
 
 - Pie charts 🥧

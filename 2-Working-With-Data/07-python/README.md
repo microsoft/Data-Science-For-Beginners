@@ -1,5 +1,9 @@
 # Working with Data: Python and the Pandas Library
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/07-WorkWithPython.png)|
+|:---:|
+|Working With Python - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 [![Intro Video](images/video-ds-python.png)](https://youtu.be/dZjWOGbsN4Y)
 
 While databases offer very efficient ways to store data and query them using query languages, the most flexible way of data processing is writing your own program to manipulate data. In many cases, doing a database query would be a more effective way. However in some cases when more complex data processing is needed, it cannot be done easily using SQL. 

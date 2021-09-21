@@ -1,5 +1,9 @@
 # Making Meaningful Visualizations
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/13-MeaningfulViz.png)|
+|:---:|
+| Meaningful Visualizations - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 > "If you torture the data long enough, it will confess to anything" -- [Ronald Coase](https://en.wikiquote.org/wiki/Ronald_Coase)
 
 One of the basic skills of a data scientist is the ability to create a meaningful data visualization that helps answer questions you might have. Prior to visualizing your data, you need to ensure that it has been cleaned and prepared, as you did in prior lessons. After that, you can start deciding how best to present the data.

@@ -1,5 +1,9 @@
 # Visualizing Quantities
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png)|
+|:---:|
+| Visualizing Quantities - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 In this lesson you will explore how to use one of the many available Python libraries to learn how to create interesting visualizations all around the concept of quantity. Using a cleaned dataset about the birds of Minnesota, you can learn many interesting facts about local wildlife. 
 ## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/16)
 

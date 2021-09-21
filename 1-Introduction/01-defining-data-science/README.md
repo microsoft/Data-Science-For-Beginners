@@ -1,7 +1,12 @@
 # Defining Data Science
 
-[![Defining Data Science Video](images/video-def-ds.png)](https://youtu.be/pqqsm5reGvs)
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png)|
+|:---:|
+|Defining Data Science - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
+---
+
+[![Defining Data Science Video](images/video-def-ds.png)](https://youtu.be/pqqsm5reGvs)
 
 ## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
 
