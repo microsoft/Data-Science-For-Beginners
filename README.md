@@ -45,6 +45,12 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 
 ## Lessons
 
+
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Roadmap.png)|
+|:---:|
+| Data Science For Beginners: Roadmap - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
+
 | Lesson Number | Topic | Lesson Grouping | Learning Objectives | Linked Lesson | Author |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
 | 01 | Defining Data Science | [Introduction](1-Introduction/README.md) | Learn the basic concepts behind data science and how it’s related to artificial intelligence, machine learning, and big data. | [lesson](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/pqqsm5reGvs) | [Dmitry](http://soshnikov.com) |
