@@ -1,5 +1,9 @@
 # Data Science in the Cloud: The "Low code/No code" way 
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/18-DataScience-Cloud.png)|
+|:---:|
+| Data Science In The Cloud: Low Code - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 Table of contents:
 
 - [Data Science in the Cloud: The "Low code/No code" way](#data-science-in-the-cloud-the-low-codeno-code-way)

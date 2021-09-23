@@ -4,6 +4,11 @@ Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson cur
 
 **Hearty thanks to our authors:** Jasmine Greenaway, Dmitry Soshnikov, Nitya Narasimhan, Jalen McGee, Jen Looper, Maud Levy, Tiffany Souterre, Christopher Harrison.
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Title.png)|
+|:---:|
+| Data Science For Beginners - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
+
 # Getting Started
 
 > **Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum. We'd love your feedback [in our discussion forum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
@@ -39,6 +44,12 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 > **A note about quizzes**: All quizzes are contained [in this app](https://red-water-0103e7a0f.azurestaticapps.net/), for 40 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `quiz-app` folder. They are gradually being localized.
 
 ## Lessons
+
+
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Roadmap.png)|
+|:---:|
+| Data Science For Beginners: Roadmap - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 
 | Lesson Number | Topic | Lesson Grouping | Learning Objectives | Linked Lesson | Author |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |

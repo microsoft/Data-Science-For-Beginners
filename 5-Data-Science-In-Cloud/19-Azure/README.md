@@ -1,5 +1,9 @@
 # Data Science in the Cloud: The "Azure ML SDK" way 
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/19-DataScience-Cloud.png)|
+|:---:|
+| Data Science In The Cloud: Azure ML SDK - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 Table of contents:
 
 - [Data Science in the Cloud: The "Azure ML SDK" way](#data-science-in-the-cloud-the-azure-ml-sdk-way)
