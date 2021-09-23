@@ -54,6 +54,8 @@ Let's return to our data and determine how we want to split things up. We know w
 
 But before we create the next table, we need to figure out how to reference each city. We need some form of an identifier, ID or (in technical database terms) a primary key. A primary key is a value used to identify one specific row in a table. While this could be based on a value itself (we could use the name of the city, for example), it should almost always be a number or other identifier. We don't want the id to ever change as it would break the relationship. You will find in most cases the primary key or id will be an auto-generated number.
 
+> [!NOTE] Foreign key is frequently abbreviated as PK
+
 ### cities
 
 | city_id | city     | country       |
@@ -80,7 +82,9 @@ With our cities table created, let's store the rainfall. Rather than duplicating
 | 8           | 3       | 2019 | 942    |
 | 9           | 3       | 2020 | 1176   |
 
-Notice the **city_id** column inside the newly created **rainfall** table. This column contains values which reference the IDs in the **cities** table. In technical relational data terms, this is called a foreign key; it's a primary key from another table. You can just think of it as a reference or a pointer. **city_id** 1 references Tokyo.
+Notice the **city_id** column inside the newly created **rainfall** table. This column contains values which reference the IDs in the **cities** table. In technical relational data terms, this is called a **foreign key**; it's a primary key from another table. You can just think of it as a reference or a pointer. **city_id** 1 references Tokyo.
+
+> [!NOTE] Foreign key is frequently abbreviated as FK
 
 ## Retrieving the data
 
@@ -154,7 +158,7 @@ Relational databases are centered around dividing information between multiple t
 
 ## 🚀 Challenge
 
-TBD
+There are numerous relational databases available on the internet. You can explore the data by using the skills you've learned above.
 
 ## Post-Lecture Quiz
 
@@ -162,7 +166,10 @@ TBD
 
 ## Review & Self Study
 
-- SQL content on Learn
+There are several resources available on [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-40229-cxa) for you to continue your exploration of SQL and relational database concepts
+
+- [Describe concepts of relational data](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-40229-cxa)
+- [Get Started Querying with Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-40229-cxa) (Transact-SQL is a version of SQL)
 
 ## Assignment
 
