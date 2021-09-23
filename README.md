@@ -72,7 +72,7 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 | 17 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | This series of lessons introduces data science in the cloud and its benefits. | [lesson](5-Data-Science-In-Cloud/17-Introduction/README.md) | Tiffany and Maud |
 | 18 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Training models using Low Code tools |[lesson](5-Data-Science-In-Cloud/18-Low-Code/README.md) |Tiffany and Maud |
 | 19 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Deploying models with Azure Machine Learning Studio | [lesson](5-Data-Science-In-Cloud/19-Azure/README.md)|Tiffany and Maud |
-| 20 | Data Science in the Wild | [In the Wild](6-Data-Science-In-Wild/README.md) | Data science driven projects in the real world | [lesson](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | Nitya |
+| 20 | Data Science in the Wild | [In the Wild](6-Data-Science-In-Wild/README.md) | Data science driven projects in the real world | [lesson](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 ## Offline access
 
 You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine,  then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
