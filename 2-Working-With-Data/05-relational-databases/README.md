@@ -1,5 +1,9 @@
 # Working with Data: Relational Databases
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/05-RelationalData.png)|
+|:---:|
+| Working With Data: Relational Databases - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 Chances are you have used a spreadsheet in the past to store information. You had a set of rows and columns, where the rows contained the information (or data), and the columns described the information (sometimes called metadata). A relational database is built upon this core principle of columns and rows in tables, allowing you to have information spread across multiple tables. This allows you to work with more complex data, avoid duplication, and have flexibility in the way you explore the data. Let's explore the concepts of a relational database.
 
 ## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/8)
@@ -10,7 +14,7 @@ A relational database has at its core tables. Just as with the spreadsheet, a ta
 
 Let's begin our exploration by starting a table to store information about cities. We might start with their name and country. You could store this in a table as follows:
 
-| city     | country       |
+| City     | Country       |
 | -------- | ------------- |
 | Tokyo    | Japan         |
 | Atlanta  | United States |
@@ -22,7 +26,7 @@ Notice the column names of **city**, **country** and **population** to describe 
 
 Chances are, the table above seems relatively familiar to you. Let's start to add some additional data to our burgeoning database - annual rainfall (in millimeters). We'll focus on the years 2018, 2019 and 2020. If we were to add it for Tokyo, it might look something like this:
 
-| city  | country | year | amount |
+| City  | Country | Year | Amount |
 | ----- | ------- | ---- | ------ |
 | Tokyo | Japan   | 2020 | 1690   |
 | Tokyo | Japan   | 2019 | 1874   |
@@ -32,7 +36,7 @@ What do you notice about our table? You might notice we're duplicating the name 
 
 OK, let's try something else. Let's add new columns for each year:
 
-| city     | country       | 2018 | 2019 | 2020 |
+| City     | Country       | 2018 | 2019 | 2020 |
 | -------- | ------------- | ---- | ---- | ---- |
 | Tokyo    | Japan         | 1445 | 1874 | 1690 |
 | Atlanta  | United States | 1779 | 1111 | 1683 |
@@ -46,7 +50,7 @@ This is why we need multiple tables and relationships. By breaking apart our dat
 
 Let's return to our data and determine how we want to split things up. We know we want to store the name and country for our cities, so this will probably work best in one table.
 
-| city     | country       |
+| City     | Country       |
 | -------- | ------------- |
 | Tokyo    | Japan         |
 | Atlanta  | United States |
@@ -54,21 +58,23 @@ Let's return to our data and determine how we want to split things up. We know w
 
 But before we create the next table, we need to figure out how to reference each city. We need some form of an identifier, ID or (in technical database terms) a primary key. A primary key is a value used to identify one specific row in a table. While this could be based on a value itself (we could use the name of the city, for example), it should almost always be a number or other identifier. We don't want the id to ever change as it would break the relationship. You will find in most cases the primary key or id will be an auto-generated number.
 
+> [!NOTE] Foreign key is frequently abbreviated as PK
+
 ### cities
 
-| city_id | city     | country       |
+| city_id | City     | Country       |
 | ------- | -------- | ------------- |
 | 1       | Tokyo    | Japan         |
 | 2       | Atlanta  | United States |
 | 3       | Auckland | New Zealand   |
 
-> [!NOTE] You will notice we use the terms "id" and "primary key" interchangeably during this lesson. The concepts here apply to DataFrames, which you will explore later. DataFrames don't use the terminology of "primary key", however you will notice they behave much in the same way.
+> [NOTE] You will notice we use the terms "id" and "primary key" interchangeably during this lesson. The concepts here apply to DataFrames, which you will explore later. DataFrames don't use the terminology of "primary key", however you will notice they behave much in the same way.
 
 With our cities table created, let's store the rainfall. Rather than duplicating the full information about the city, we can use the id. We should also ensure the newly created table has an *id* column as well, as all tables should have an id or primary key.
 
 ### rainfall
 
-| rainfall_id | city_id | year | amount |
+| rainfall_id | city_id | Year | Amount |
 | ----------- | ------- | ---- | ------ |
 | 1           | 1       | 2018 | 1445   |
 | 2           | 1       | 2019 | 1874   |
@@ -80,7 +86,9 @@ With our cities table created, let's store the rainfall. Rather than duplicating
 | 8           | 3       | 2019 | 942    |
 | 9           | 3       | 2020 | 1176   |
 
-Notice the **city_id** column inside the newly created **rainfall** table. This column contains values which reference the IDs in the **cities** table. In technical relational data terms, this is called a foreign key; it's a primary key from another table. You can just think of it as a reference or a pointer. **city_id** 1 references Tokyo.
+Notice the **city_id** column inside the newly created **rainfall** table. This column contains values which reference the IDs in the **cities** table. In technical relational data terms, this is called a **foreign key**; it's a primary key from another table. You can just think of it as a reference or a pointer. **city_id** 1 references Tokyo.
+
+> [!NOTE] Foreign key is frequently abbreviated as FK
 
 ## Retrieving the data
 
@@ -100,7 +108,7 @@ FROM cities;
 
 `SELECT` is where you list the columns, and `FROM` is where you list the tables.
 
-> [!NOTE] SQL syntax is case-insensitive, meaning `select` and `SELECT` mean the same thing. However, depending on the type of database you are using the columns and tables might be case sensitive. As a result, it's a best practice to always treat everything in programming like it's case sensitive. When writing SQL queries common convention is to put the keywords in all upper-case letters.
+> [NOTE] SQL syntax is case-insensitive, meaning `select` and `SELECT` mean the same thing. However, depending on the type of database you are using the columns and tables might be case sensitive. As a result, it's a best practice to always treat everything in programming like it's case sensitive. When writing SQL queries common convention is to put the keywords in all upper-case letters.
 
 The query above will display all cities. Let's imagine we only wanted to display cities in New Zealand. We need some form of a filter. The SQL keyword for this is `WHERE`, or "where something is true".
 
@@ -154,7 +162,7 @@ Relational databases are centered around dividing information between multiple t
 
 ## 🚀 Challenge
 
-TBD
+There are numerous relational databases available on the internet. You can explore the data by using the skills you've learned above.
 
 ## Post-Lecture Quiz
 
@@ -162,7 +170,11 @@ TBD
 
 ## Review & Self Study
 
-- SQL content on Learn
+There are several resources available on [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-40229-cxa) for you to continue your exploration of SQL and relational database concepts
+
+- [Describe concepts of relational data](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-40229-cxa)
+- [Get Started Querying with Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-40229-cxa) (Transact-SQL is a version of SQL)
+- [SQL content on Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-40229-cxa)
 
 ## Assignment
 

@@ -4,6 +4,11 @@ Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson cur
 
 **Hearty thanks to our authors:** Jasmine Greenaway, Dmitry Soshnikov, Nitya Narasimhan, Jalen McGee, Jen Looper, Maud Levy, Tiffany Souterre, Christopher Harrison.
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Title.png)|
+|:---:|
+| Data Science For Beginners - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
+
 # Getting Started
 
 > **Teachers**, we have [included some suggestions](for-teachers.md) on how to use this curriculum. We'd love your feedback [in our discussion forum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
@@ -25,20 +30,26 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 
 ## Each lesson includes:
 
-- optional sketchnote
-- optional supplemental video
-- pre-lesson warmup quiz
-- written lesson
-- for project-based lessons, step-by-step guides on how to build the project
-- knowledge checks
-- a challenge
-- supplemental reading
-- assignment
-- post-lesson quiz
+- Optional sketchnote
+- Optional supplemental video
+- Pre-lesson warmup quiz
+- Written lesson
+- For project-based lessons, step-by-step guides on how to build the project
+- Knowledge checks
+- A challenge
+- Supplemental reading
+- Assignment
+- Post-lesson quiz
 
 > **A note about quizzes**: All quizzes are contained [in this app](https://red-water-0103e7a0f.azurestaticapps.net/), for 40 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `quiz-app` folder. They are gradually being localized.
 
 ## Lessons
+
+
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Roadmap.png)|
+|:---:|
+| Data Science For Beginners: Roadmap - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 
 | Lesson Number | Topic | Lesson Grouping | Learning Objectives | Linked Lesson | Author |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
@@ -61,7 +72,7 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 | 17 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | This series of lessons introduces data science in the cloud and its benefits. | [lesson](5-Data-Science-In-Cloud/17-Introduction/README.md) | Tiffany and Maud |
 | 18 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Training models using Low Code tools |[lesson](5-Data-Science-In-Cloud/18-Low-Code/README.md) |Tiffany and Maud |
 | 19 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Deploying models with Azure Machine Learning Studio | [lesson](5-Data-Science-In-Cloud/19-Azure/README.md)|Tiffany and Maud |
-| 20 | Data Science in the Wild | [In the Wild](6-Data-Science-In-Wild/README.md) | Data science driven projects in the real world | |
+| 20 | Data Science in the Wild | [In the Wild](6-Data-Science-In-Wild/README.md) | Data science driven projects in the real world | [lesson](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 ## Offline access
 
 You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine,  then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.

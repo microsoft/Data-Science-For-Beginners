@@ -1,5 +1,9 @@
 # Visualizing Relationships: All About Honey 🍯
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/12-visualizing-relationships.png)|
+|:---:|
+|Visualizing Relationships - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 Continuing with the nature focus of our research, let's discover interesting visualizations to show the relationships between various types of honey, according to a dataset derived from the [United States Department of Agriculture](https://www.nass.usda.gov/About_NASS/index.php). 
 
 This dataset of about 600 items displays honey production in many U.S. states. So, for example, you can look at the number of colonies, yield per colony, total production, stocks, price per pound, and value of the honey produced in a given state from 1998-2012, with one row per year for each state. 

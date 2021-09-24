@@ -1,5 +1,11 @@
 # Introduction to Data Ethics
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/02-Ethics.png)|
+|:---:|
+| Data Science Ethics - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
+---
+
 We are all data citizens living in a datafied world.
 
 Market trends tell us that by 2022, 1-in-3 large organizations will buy and sell their data through online [Marketplaces and Exchanges](https://www.gartner.com/smarterwithgartner/gartner-top-10-trends-in-data-and-analytics-for-2020/). As **App Developers**, we'll find it easier and cheaper to integrate data-driven insights and algorithm-driven automation into daily user experiences. But as AI becomes pervasive, we'll also need to understand the potential harms caused by the [weaponization](https://www.youtube.com/watch?v=TQHs8SA1qpk) of such algorithms at scale.
@@ -16,13 +22,6 @@ In this lesson, we'll explore the fascinating area of data ethics - from core co
 
 
 ## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/2) 🎯
-
-## Sketchnote 🖼
-
-> A Visual Guide to Data Ethics by [Nitya Narasimhan](https://twitter.com/nitya) / [(@sketchthedocs)](https://sketchthedocs.dev)
-
-
----
 
 ## Basic Definitions
 

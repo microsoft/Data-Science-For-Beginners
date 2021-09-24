@@ -1,5 +1,13 @@
 # Introduction to the Data Science Lifecycle
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/14-DataScience-Lifecycle.png)|
+|:---:|
+| Introduction to the Data Science Lifecycle - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
+## Pre-Lecture Quiz
+
+[Pre-lecture quiz]()
+
 At this point you've probably come to the realization that data science is a process. This process can be broken down into 5 stages:
 
 - Capturing
@@ -61,9 +69,6 @@ On premise refers to hosting managing the data on your own equipment, like ownin
 **Cold vs hot data** 
 When training your models, you may require more training data. If you’re content with your model, more data will arrive for a model to serve its purpose. In any case the cost of storing and accessing data will increase as you accumulate more of it. Separating rarely used data, known as cold data from frequently accessed hot data can be a cheaper data storage option through hardware or software services. If cold data needs to be accessed, it may take a little longer to retrieve in comparison to hot data.
 
-Below is an example of the cost of owning an Azure Storage Account
-[screenshot of Azure cost calculator]
-
 ### Managing Data
 As you work with data you may discover that some of the data needs to be cleaned using some of the techniques covered in the lesson focused on [data preparation](2-Working-With-Data\08-data-preparation) to build accurate models.  When new data arrives, it will need some of the same applications to maintain consistency in quality. Some projects will involve use of an automated tool for cleansing, aggregation, and compression before the data is moved to its final location. Azure Data Factory is an example of one of these tools.
 
@@ -77,18 +82,27 @@ Here’s some things that a team may do with security in mind:
 - Let only certain project members alter the data
 
 
-## Pre-Lecture Quiz
-
-[Pre-lecture quiz]()
-
 ## 🚀 Challenge
 
-## Post-Lecture Quiz
+There are many versions of the Data Science Lifecycle, where each step may have different names and number of stages but will contain the same processes mentioned within this lesson.
 
+Explore the [Team Data Science Process lifecycle](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/lifecycle) and the [Cross-industry standard process for data mining](https://www.datascience-pm.com/crisp-dm-2/). Name 3 similarities and differences between the two.
+
+|Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
+|--|--|
+|![](..\images\tdsp-lifecycle2.png)> Photo by [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/lifecycle)| ![](..\images\CRISP-DM.png)> Photo by [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/)
+
+
+## Post-Lecture Quiz
 [Post-lecture quiz]()
 
 ## Review & Self Study
 
+Applying the Data Science Lifecycle involves multiple roles and tasks, where some may focus on particular parts of each stage. The Team Data Science Process provides a few resources that explain the types of roles and tasks that someone may have in a project.
+
+* [Team Data Science Process roles and tasks](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/roles-tasks)
+* [Execute data science tasks: exploration, modeling, and deployment](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/execute-data-science-tasks)
+
 ## Assignment
 
-[Assignment Title](assignment.md)
+[Exploring and Assessing a Dataset](assignment.md)

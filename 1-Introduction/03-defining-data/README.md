@@ -1,5 +1,9 @@
 # Defining Data
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/03-DefiningData.png)|
+|:---:|
+|Defining Data - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 Data are facts, information, observations and measurements that are used to make discoveries and to support informed decisions. A data point is a single unit of data with in a dataset, which is collection of data points. Datasets may come in different formats and structures, and will usually be based on its source, or where the data came from. For example, a company's monthly earnings might be in a spreadsheet but hourly heart rate data from a smartwatch may be in [JSON](https://stackoverflow.com/a/383699) format. It's common for data scientists to work with different types of data within a dataset. 
 
 This lesson focuses on identifying and classifying data by its characteristics and its sources.
