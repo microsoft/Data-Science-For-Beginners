@@ -1,20 +1,22 @@
 # Visualizing Proportions
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/11-Visualizing-Proportions.png)|
+|:---:|
+|Visualizing Proportions - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 In this lesson, you will use a different nature-focused dataset to visualize proportions, such as how many different types of fungi populate a given dataset about mushrooms. Let's explore these fascinating fungi using a dataset sourced from Audubon listing details about 23 species of gilled mushrooms in the Agaricus and Lepiota families. You will experiment with tasty visualizations such as:
 
 - Pie charts 🥧
 - Donut charts 🍩
 - Waffle charts 🧇
 
-> 💡 A very interesting project called [Charticulator](https://charticulator.com) by Microsoft Research offers a free drag and drop interface for data visualizations. In one of their tutorials they also use this mushroom dataset! So you can explore the data and learn the library at the same time: https://charticulator.com/tutorials/tutorial4.html
+> 💡 A very interesting project called [Charticulator](https://charticulator.com) by Microsoft Research offers a free drag and drop interface for data visualizations. In one of their tutorials they also use this mushroom dataset! So you can explore the data and learn the library at the same time: [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html).
 
-## Pre-Lecture Quiz
-
-[Pre-lecture quiz]()
+## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/20)
 
 ## Get to know your mushrooms 🍄
 
-Mushrooms are very interesting. Let's import a dataset to study them.
+Mushrooms are very interesting. Let's import a dataset to study them:
 
 ```python
 import pandas as pd
@@ -32,7 +34,7 @@ A table is printed out with some great data for analysis:
 | Edible    | Bell      | Smooth      | White     | Bruises | Anise   | Free            | Close        | Broad     | Brown      | Enlarging   | Club       | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Brown             | Numerous   | Meadows |
 | Poisonous | Convex    | Scaly       | White     | Bruises | Pungent | Free            | Close        | Narrow    | Brown      | Enlarging   | Equal      | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Black             | Scattered  | Urban   |
 
-Right away, you notice that all the data is textual. You will have to edit this data to be able to use it in a chart. Most of the data, in fact, is represented as an object:
+Right away, you notice that all the data is textual. You will have to convert this data to be able to use it in a chart. Most of the data, in fact, is represented as an object:
 
 ```python
 print(mushrooms.select_dtypes(["object"]).columns)
@@ -74,7 +76,7 @@ plt.pie(edibleclass['population'],labels=labels,autopct='%.1f %%')
 plt.title('Edible?')
 plt.show()
 ```
-Voila, a pie chart showing the proportions of this data according to these two classes of mushroom. It's quite important to get the order of labels correct, especially here, so be sure to verify the order with which the label array is built!
+Voila, a pie chart showing the proportions of this data according to these two classes of mushrooms. It's quite important to get the order of the labels correct, especially here, so be sure to verify the order with which the label array is built!
 
 ![pie chart](images/pie1.png)
 
@@ -82,7 +84,7 @@ Voila, a pie chart showing the proportions of this data according to these two c
 
 A somewhat more visually interesting pie chart is a donut chart, which is a pie chart with a hole in the middle. Let's look at our data using this method.
 
-Take a look at the various habitats where mushrooms grow.
+Take a look at the various habitats where mushrooms grow:
 
 ```python
 habitat=mushrooms.groupby(['habitat']).count()
@@ -108,9 +110,9 @@ plt.show()
 
 ![donut chart](images/donut.png)
 
-This code draws a chart and a center circle, then adds that center circle in. Edit the width of the center circle by changing `0.40` to another value.
+This code draws a chart and a center circle, then adds that center circle in the chart. Edit the width of the center circle by changing `0.40` to another value.
 
-Donut charts can be tweaked several ways to change the labels. The labels in particular can be highlighted for readability. Learn more in the [docs](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
+Donut charts can be tweaked in several ways to change the labels. The labels in particular can be highlighted for readability. Learn more in the [docs](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
 
 Now that you know how to group your data and then display it as a pie or donut, you can explore other types of charts. Try a waffle chart, which is just a different way of exploring quantity.
 ## Waffles!
@@ -151,20 +153,18 @@ fig = plt.figure(
 )
 ```
 
-Using a waffle chart, you can plainly see the proportions of cap color of this mushroom dataset. Interestingly, there are many green-capped mushrooms!
+Using a waffle chart, you can plainly see the proportions of cap colors of this mushrooms dataset. Interestingly, there are many green-capped mushrooms!
 
 ![waffle chart](images/waffle.png)
 
 ✅ Pywaffle supports icons within the charts that use any icon available in [Font Awesome](https://fontawesome.com/). Do some experiments to create an even more interesting waffle chart using icons instead of squares.
 
-In this lesson you learned three ways to visualize proportions. First, you need to group your data into categories and then decide which is the best way to display the data - pie, donut, or waffle. All are delicious and gratify the user with an instant snapshot of a dataset.
+In this lesson, you learned three ways to visualize proportions. First, you need to group your data into categories and then decide which is the best way to display the data - pie, donut, or waffle. All are delicious and gratify the user with an instant snapshot of a dataset.
 
 ## 🚀 Challenge
 
 Try recreating these tasty charts in [Charticulator](https://charticulator.com).
-## Post-Lecture Quiz
-
-[Post-lecture quiz]()
+## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/21)
 
 ## Review & Self Study
 

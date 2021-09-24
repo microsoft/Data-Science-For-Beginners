@@ -1,10 +1,8 @@
-// index.js
-import en from './en.json';
-
-//export const defaultLocale = 'en';
+import englishQuizzes from "./en/";
+import frenchQuizzes from "./fr/";
 
 const messages = {
-	en: en[0],
+  en: englishQuizzes,
+  fr: frenchQuizzes
 };
-
 export default messages;

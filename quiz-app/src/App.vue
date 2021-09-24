@@ -5,10 +5,13 @@
       <label for="locale">locale</label>
       <select v-model="locale">
         <option>en</option>
+        <option>fr</option>
       </select>
+
+      <span class="title">{{ questions[locale][0].title }}</span>
     </nav>
     <div id="app">
-      <h1>{{ $t("title") }}</h1>
+      
       <router-view>
         <Quiz />
       </router-view>
@@ -22,13 +25,19 @@ import messages from "@/assets/translations";
 
 export default {
   name: "App",
+  computed: {
+    questions() {
+      return messages;
+    },
+    
+  },
   i18n: { messages },
   components: {
     Quiz,
   },
   data() {
     return {
-      locale: "en",
+      locale: "",
     };
   },
   watch: {
@@ -37,8 +46,11 @@ export default {
     },
   },
   created() {
+    this.route = this.$route.params.id;
     if (this.$route.query.loc) {
       this.locale = this.$route.query.loc;
+    } else {
+      this.locale = "en";
     }
   },
 };
@@ -62,6 +74,13 @@ nav a {
   text-align: right;
 }
 
+.title {
+  color:white;
+  font-weight: bold;
+  font-size: x-large;
+  float: right;
+}
+
 .link {
   display: list-item;
 }
@@ -74,6 +93,9 @@ h3,
 }
 .error {
   color: red;
+}
+.complete {
+  color: green;
 }
 .card {
   width: 60%;

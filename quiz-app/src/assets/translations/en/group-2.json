@@ -1,0 +1,437 @@
+[
+  {
+    "title": "Data Science for Beginners: Quizzes",
+    "complete": "Congratulations, you completed the quiz!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 8,
+        "title": "Relational Databases - Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 2 question 2",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Relational Databases - Post Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 2 question 2",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "NonRelational Databases - Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 2 question 2",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "NonRelational Databases - Post Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 2 question 2",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Python - Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "Python is the best language for",
+            "answerOptions": [
+              {
+                "answerText": "Data Science",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Beginners",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Both",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Python is the best language for Data Science because",
+            "answerOptions": [
+              {
+                "answerText": "it has a lot of libraries",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "it is rich yet simple language",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "all of the above",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "You cannot do Data Science if you do not know Python",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "title": "Python - Post Quiz",
+        "quiz": [
+          {
+            "questionText": "Which library would you use to represent a list of grades of students in class?",
+            "answerOptions": [
+              {
+                "answerText": "Numpy",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "SciPy",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Pandas",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "You have a DataFrame with a list of students, their group number, and average grade. Which operation would you use to compute average grade per group?",
+            "answerOptions": [
+              {
+                "answerText": "average",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "avg",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "groupby",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "You have 100 friends, and you want to represent the information on how frequently they take pictures with each other. Which data structure would you use?",
+            "answerOptions": [
+              {
+                "answerText": "Numpy array",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "Pandas DataFrame",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Pandas Series",
+                "isCorrect": "false"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "title": "Data Preparation - Pre Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 2 question 2",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "title": "Data Preparation - Post Quiz",
+        "quiz": [
+          {
+            "questionText": "quiz 2 question 2",
+            "answerOptions": [
+              {
+                "answerText": "True",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "False",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q2",
+            "answerOptions": [
+              {
+                "answerText": "classical ML was invented first",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "the use of neural networks",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "deep learning is used in robots",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "q3",
+            "answerOptions": [
+              {
+                "answerText": "to automate the solving of multi-dimensional problems",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "to customize a shopping experience based on the type of customer",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of the above",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,18 +1,23 @@
 # A Brief Introduction to Statistics and Probability
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/04-Statistics-Probability.png)|
+|:---:|
+| Statistics and Probability - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 Statistics and Probability Theory are two highly related areas of Mathematics that are highly relevant to Data Science. It is possible to operate with data without deep knowledge of mathematics, but it is still better to know at least some basic concepts. Here we will present a short introduction that will help you get started.
 
-## Pre-Lecture Quiz
+[![Intro Video](images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)
 
-[Pre-lecture quiz]()
+
+## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/6)
 
 ## Probability and Random Variables
 
 **Probability** is a number between 0 and 1 that expresses how probable an **event** is. It is defined as a number of positive outcomes (that lead to the event), divided by total number of outcomes, given that all outcomes are equally probable. For example, when we roll a dice, the probability that we get an even number is 3/6 = 0.5.
 
-When we talk about events, we use **random variables**. For example, the random variable that represents a number obtained when rolling a dice would take values from 1 to 6. Set of numbers from 1 to 6 is called **sample space**. We can talk about probability of a random variable taking a certain value, for example P(X=3)=1/6.
+When we talk about events, we use **random variables**. For example, the random variable that represents a number obtained when rolling a dice would take values from 1 to 6. Set of numbers from 1 to 6 is called **sample space**. We can talk about the probability of a random variable taking a certain value, for example P(X=3)=1/6.
 
-The random variable in previous example is called **discrete**, because it has a countable sample space, i.e. there are separate values that can be enumerated. There are cases when sample space is a range of real numbers, or the whole set of real numbers. Such variables are called **continuous**. An good example is the time when the bus arrives.
+The random variable in previous example is called **discrete**, because it has a countable sample space, i.e. there are separate values that can be enumerated. There are cases when sample space is a range of real numbers, or the whole set of real numbers. Such variables are called **continuous**. A good example is the time when the bus arrives.
 
 ## Probability Distribution
 
@@ -28,7 +33,7 @@ We can only talk about the probability of a variable falling in a given interval
 
 <img src="http://www.sciweavers.org/tex2img.php?eq=P%28t_1%5Cle%20X%3Ct_2%29%3D%5Cint_%7Bt_1%7D%5E%7Bt_2%7Dp%28x%29dx&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx" width="228" height="51" >
   
-An continuous analog of uniform distribution is called **continuous uniform**, which is defined on a finite interval. A probability that the value X falls into an interval of length l is proportional to l, and rises up to 1.
+A continuous analog of uniform distribution is called **continuous uniform**, which is defined on a finite interval. A probability that the value X falls into an interval of length l is proportional to l, and rises up to 1.
 
 Another important distribution is **normal distribution**, which we will talk about in more detail below.
 
@@ -53,9 +58,9 @@ Graphically we can represent relationship between median and quartiles in a diag
 
 <img src="images/boxplot_explanation.png" width="50%"/>
 
-Here we also computer **inter-quartile range** IQR=Q3-Q1, and so-called **outliers** - values, that lie outside the boundaries [Q1-1.5*IQR,Q3+1.5*IQR].
+Here we also compute **inter-quartile range** IQR=Q3-Q1, and so-called **outliers** - values, that lie outside the boundaries [Q1-1.5*IQR,Q3+1.5*IQR].
 
-For finite distribution that contains small number of possible values, a good "typical" value is the one that appears the most frequently, which is called **mode**. It is often applied to categorical data, such as colors. Consider a situation when we have two groups of people - some that strongly prefer red, and others who prefer blue. If we code colors by numbers, the mean value for a favorite color would be somewhere in the orange-green spectrum, which does not indicate the actual preference on neither group. However, the mode would be either one of the colors, or both colors, if the number of people voting for them is equal (in this case we call the sample **multimodal**).
+For finite distribution that contains a small number of possible values, a good "typical" value is the one that appears the most frequently, which is called **mode**. It is often applied to categorical data, such as colors. Consider a situation when we have two groups of people - some that strongly prefer red, and others who prefer blue. If we code colors by numbers, the mean value for a favorite color would be somewhere in the orange-green spectrum, which does not indicate the actual preference on neither group. However, the mode would be either one of the colors, or both colors, if the number of people voting for them is equal (in this case we call the sample **multimodal**).
 ## Real-world Data
 
 When we analyze data from real life, they often are not random variables as such, in a sense that we do not perform experiments with unknown result. For example, consider a team of baseball players, and their body data, such as height, weight and age. Those numbers are not exactly random, but we can still apply the same mathematical concepts. For example, a sequence of people's weights can be considered to be a sequence of values drawn from some random variable. Below is the sequence of weights of actual baseball players from [Major League Baseball](http://mlb.mlb.com/index.jsp), taken from [this dataset](http://wiki.stat.ucla.edu/socr/index.php/SOCR_Data_MLB_HeightsWeights) (for your convenience, only first 20 values are shown):
@@ -64,7 +69,7 @@ When we analyze data from real life, they often are not random variables as such
 [180.0, 215.0, 210.0, 210.0, 188.0, 176.0, 209.0, 200.0, 231.0, 180.0, 188.0, 180.0, 185.0, 160.0, 180.0, 185.0, 197.0, 189.0, 185.0, 219.0]
 ```
 
-> **Note**: To see the example of working with this dataset, have a look at the [accompanying notebook](notebook.ipynb). There is also a number of challenges throughout this lesson, and you may complete them by adding some code to that notebook. If you are not sure how to operate on data, do not worry - we will come back to working with data using Python at a later time.
+> **Note**: To see the example of working with this dataset, have a look at the [accompanying notebook](notebook.ipynb). There are also a number of challenges throughout this lesson, and you may complete them by adding some code to that notebook. If you are not sure how to operate on data, do not worry - we will come back to working with data using Python at a later time. If you do not know how to run code in Jupyter Notebook, have a look at [this article](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
 Here is the box plot showing mean, median and quartiles for our data:
 
@@ -78,16 +83,16 @@ This diagram suggests that, on average, height of first basemen is higher that h
 
 > When working with real-world data, we assume that all data points are samples drawn from some probability distribution. This assumption allows us to apply machine learning techniques and build working predictive models.
 
-To see what is the distribution of our data, we can plot a graph called a **histogram**. X-axis would contain a number of different weight intervals (so-called **bins**), and vertical axis would show the number of times our random variable sample was inside a given interval. 
+To see what the distribution of our data is, we can plot a graph called a **histogram**. X-axis would contain a number of different weight intervals (so-called **bins**), and the vertical axis would show the number of times our random variable sample was inside a given interval. 
 
 ![Histogram of real world data](images/weight-histogram.png)
 
-From this histogram you can see that all values are centered around certain mean weight, and the further we go from that weight - the fewer weights of that value are encountered. I.e., it is very improbable that a weight of a baseball player would be very different from the mean weight. Variance of weights show the extent to which weights are likely to differ from the mean.
+From this histogram you can see that all values are centered around certain mean weight, and the further we go from that weight - the fewer weights of that value are encountered. I.e., it is very improbable that the weight of a baseball player would be very different from the mean weight. Variance of weights show the extent to which weights are likely to differ from the mean.
 
 > If we take weights of other people, not from the baseball league, the distribution is likely to be different. However, the shape of the distribution will be the same, but mean and variance would change. So, if we train our model on baseball players, it is likely to give wrong results when applied to students of a university, because the underlying distribution is different.
 ## Normal Distribution
 
-The distribution of weights that we have seen above is very typical, and many measurements from real world follow the same type of distribution, but with different mean and variance. This distribution is called **normal distribution**, and it plays very important role in statistics.
+The distribution of weights that we have seen above is very typical, and many measurements from real world follow the same type of distribution, but with different mean and variance. This distribution is called **normal distribution**, and it plays a very important role in statistics.
 
 Using normal distribution is a correct way to generate random weights of potential baseball players. Once we know mean weight `mean` and standard deviation `std`, we can generate 1000 weight samples in the following way:
 ```python
@@ -112,7 +117,7 @@ Suppose we have a sample X<sub>1</sub>, ..., X<sub>n</sub> from our distribution
 
 It does beyond our short intro to discuss in detail how those confidence intervals are calculated. Some more details can be found [on Wikipedia](https://en.wikipedia.org/wiki/Confidence_interval). In short, we define the distribution of computed sample mean relative to the true mean of the population, which is called **student distribution**.
 
-> **Interesting fact**: Student distribution is named after mathematician William Sealy Gosset, who published his paper under pseudonym "Student". He worked in the Guinness brewery, and, according to one of the versions, his employer did not want general public to know that they were using statistical tests to determine the quality of raw materials.
+> **Interesting fact**: Student distribution is named after mathematician William Sealy Gosset, who published his paper under the pseudonym "Student". He worked in the Guinness brewery, and, according to one of the versions, his employer did not want general public to know that they were using statistical tests to determine the quality of raw materials.
 
 If we want to estimate the mean &mu; of our population with confidence p, we need to take *(1-p)/2-th percentile* of a Student distribution A, which can either be taken from tables, or computer using some built-in functions of statistical software (eg. Python, R, etc.). Then the interval for &mu; would be given by X&pm;A*D/&radic;n, where X is the obtained mean of the sample, D is the standard deviation.
 
@@ -144,7 +149,7 @@ In our baseball players dataset, there are different player roles, that can be s
 | Starting_Pitcher | 74.719457 | 205.163636 | 221 |
 | Third_Baseman | 73.044444 | 200.955556 | 45 |
 
-We can notice that the mean heights of first basemen is higher that that of second basemen. Thus, we may be tempted to conclude that **first basemen are higher than second basemen**.
+We can notice that the mean heights of first basemen is higher than that of second basemen. Thus, we may be tempted to conclude that **first basemen are higher than second basemen**.
 
 > This statement is called **a hypothesis**, because we do not know whether the fact is actually true or not.
 
@@ -164,7 +169,7 @@ More formally, the problem we are solving is to see if **two probability distrib
 
 In Student t-test, we compute so-called **t-value**, which indicates the difference between means, taking into account the variance. It is demonstrated that t-value follows **student distribution**, which allows us to get the threshold value for a given confidence level **p** (this can be computed, or looked up in the numerical tables). We then compare t-value to this threshold to approve or reject the hypothesis.
 
-In Python, we can use **SciPy** package, which includes `ttest_ind` function (in addition to many other useful statistical functions!). It computes the t-value for us, and also does the reverse lookup of confidence p-value, so that we can just look at the confidence to draw the conclusion.
+In Python, we can use the **SciPy** package, which includes `ttest_ind` function (in addition to many other useful statistical functions!). It computes the t-value for us, and also does the reverse lookup of confidence p-value, so that we can just look at the confidence to draw the conclusion.
 
 For example, our comparison between heights of first and second basemen give us the following results: 
 ```python
@@ -179,20 +184,18 @@ P-value: 9.137321189738925e-12
 ```
 In our case, p-value is very low, meaning that there is strong evidence supporting that first basemen are taller.
 
-> 🚀 **Challenge**: Use the sample code in the notebook to test other hypothesis that: (1) First basemen and older that second basemen; (2) First basemen and taller than third basemen; (3) Shortstops are taller than second basemen
-
 There are also different other types of hypothesis that we might want to test, for example:
 * To prove that a given sample follows some distribution. In our case we have assumed that heights are normally distributed, but that needs formal statistical verification. 
 * To prove that a mean value of a sample corresponds to some predefined value
-* To compare means of a number of samples (eg. what is the difference in happiness levels amond different age groups)
+* To compare means of a number of samples (eg. what is the difference in happiness levels among different age groups)
 
 ## Law of Large Numbers and Central Limit Theorem
 
 One of the reasons why normal distribution is so important is so-called **central limit theorem**. Suppose we have a large sample of independent N values X<sub>1</sub>, ..., X<sub>N</sub>, sampled from any distribution with mean &mu; and variance &sigma;<sup>2</sup>. Then, for sufficiently large N (in other words, when N&rarr;&infin;), the mean &Sigma;<sub>i</sub>X<sub>i</sub> would be normally distributed, with mean &mu; and variance &sigma;<sup>2</sup>/N.
 
-> Another way to interpret central limit theorem is to say that regardless of distribution, when you compute the mean of a sum of any random variable values you end up with normal distribution. 
+> Another way to interpret the central limit theorem is to say that regardless of distribution, when you compute the mean of a sum of any random variable values you end up with normal distribution. 
 
-From central limit theorem it also follows that, when N&rarr;&infin;, the probability of the sample mean to be equal to &mu; becomes 1. This is known as **the law of large numbers**.
+From the central limit theorem it also follows that, when N&rarr;&infin;, the probability of the sample mean to be equal to &mu; becomes 1. This is known as **the law of large numbers**.
 
 ## Covariance and Correlation
 
@@ -200,7 +203,7 @@ One of the things Data Science does is finding relations between data. We say th
 
 > Correlation does not necessarily indicate causal relationship between two sequences; sometimes both variables can depend on some external cause, or it can be purely by chance the two sequences correlate. However, strong mathematical correlation is a good indication that two variables are somehow connected.
 
- Mathematically, the main concept that show the relation between two random variables is **covariance**, that is computed like this: Cov(X,Y) = **E**\[(X-**E**(X))(Y-**E**(Y))\]. We compute the deviation of both variables from their mean values, and then product of those deviations. If both variables deviate together, the product would always be a positive value, that would add up to positive covariance. If both variables deviate out-of-sync (i.e. one falls below average when another one rises above average), we will always get negative numbers, that will add up to negative covariance. If the deviations are not dependent, they will add up to roughly zero.
+ Mathematically, the main concept that shows the relation between two random variables is **covariance**, that is computed like this: Cov(X,Y) = **E**\[(X-**E**(X))(Y-**E**(Y))\]. We compute the deviation of both variables from their mean values, and then product of those deviations. If both variables deviate together, the product would always be a positive value, that would add up to positive covariance. If both variables deviate out-of-sync (i.e. one falls below average when another one rises above average), we will always get negative numbers, that will add up to negative covariance. If the deviations are not dependent, they will add up to roughly zero.
 
 The absolute value of covariance does not tell us much on how large the correlation is, because it depends on the magnitude of actual values. To normalize it, we can divide covariance by standard deviation of both variables, to get **correlation**. The good thing is that correlation is always in the range of [-1,1], where 1 indicates strong positive correlation between values, -1 - strong negative correlation, and 0 - no correlation at all (variables are independent). 
 
@@ -234,9 +237,14 @@ In this section, we have learnt:
 
 While this is definitely not exhaustive list of topics that exist within probability and statistics, it should be enough to give you a good start into this course.
 
-## Post-Lecture Quiz
+## 🚀 Challenge
 
-[Post-lecture quiz]()
+Use the sample code in the notebook to test other hypothesis that: 
+1. First basemen and older that second basemen
+2. First basemen and taller than third basemen
+3. Shortstops are taller than second basemen
+
+## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/7)
 
 ## Review & Self Study
 
@@ -250,3 +258,6 @@ Probability and statistics is such a broad topic that it deserves its own course
 
 [Small Diabetes Study](assignment.md)
 
+## Credits
+
+This lesson has been authored with ♥️ by [Dmitry Soshnikov](http://soshnikov.com)

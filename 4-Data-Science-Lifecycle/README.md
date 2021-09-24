@@ -1,13 +1,15 @@
 # The Data Science Lifecycle
 
-[Brief description about the lessons in this section]
-
+![communication](images/communication.jpg)
+> Photo by <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> on <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+In these lessons, you'll explore some of the aspects of the Data Science lifeycle, including analysis and communication around data.
 ### Topics
 
-1. [Capturing](15-capturing/README.md)
-1. [Processing](16-processing/README.md)
-1. [Analyzing](17-analyzing/README.md)
-1. [Communication](18-communication/README.md)
-1. [Maintaining](19-maintaining/README.md)
+1. [Introduction](14-Introduction/README.md)
+2. [Analyzing](15-Analyzing/README.md)
+3. [Communication](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/16-communication)
 
 ### Credits
+
+These lessons were written with ❤️ by [Jalen McGee](https://twitter.com/JalenMCG)

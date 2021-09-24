@@ -1,6 +1,26 @@
-- Introduction TBD
-  - [Introduction to Machine Learning](../1-Introduction/1-intro-to-ML/README.md)
-  - [History of Machine Learning](../1-Introduction/2-history-of-ML/README.md)
-  - [ML and Fairness](../1-Introduction/3-fairness/README.md)
-  - [Techniques of ML](../1-Introduction/4-techniques-of-ML/README.md)
-
+- Introduction
+  - [Defining Data Science](../1-Introduction/01-defining-data-science/README.md)
+  - [Ethics of Data Science](../1-Introduction/02-ethics/README.md)
+  - [Defining Data](../1-Introduction/03-defining-data/README.md)
+  - [Probability and Stats](../1-Introduction/04-stats-and-probability/README.md)
+- Working With Data
+  - [Relational Databases](../2-Working-With-Data/05-relational-databases/README.md)
+  - [Nonrelational Databases](../2-Working-With-Data/06-non-relational/README.md)
+  - [Python](../2-Working-With-Data/07-python/README.md)
+  - [Data Preparation](../2-Working-With-Data/08-data-preparation/README.md)
+- Data Visualization
+  - [Visualizing Quantities](../3-Data-Visualization/09-visualization-quantities/README.md)
+  - [Visualizing Distributions](../3-Data-Visualization/10-visualization-distributions/README.md)
+  - [Visualizing Proportions](../3-Data-Visualization/11-visualization-proportions/README.md)
+  - [Visualizing Relationships](../3-Data-Visualization/12-visualization-relationships/README.md)
+  - [Meaningful Visualizations](../3-Data-Visualization/13-meaningful-visualizations/README.md)
+- Data Science Lifecycle
+  - [Introduction](../4-Data-Science-Lifecycle/14-Introduction/README.md)
+  - [Analyzing](../4-Data-Science-Lifecycle/15-Analyzing/README.md)
+  - [Communication](../4-Data-Science-Lifecycle/16-Communication/README.md)
+- Data Science in the Cloud
+  - [Introduction](../5-Data-Science-In-Cloud/17-Introduction/README.md)
+  - [Low Code](../5-Data-Science-In-Cloud/18-Low-Code/README.md)
+  - [Azure](../5-Data-Science-In-Cloud/19-Azure/README.md)
+- Data Science in the Wild
+  - [DS In The Wild](../6-Data-Science-In-Wild/README.md)

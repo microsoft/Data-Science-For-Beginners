@@ -1,0 +1,27 @@
+
+ [
+        {
+            "firstname": "Christophe",
+            "age": 32
+        },
+        {
+            "firstname": "Prema",
+            "age": 20
+        },        
+        {
+            "firstname": "Arthur",
+            "age": 15
+        },       
+        {
+            "firstname": "Zoe",
+            "age": 7
+        },
+        {
+            "firstname": "Keisha",
+            "age": 84
+        },        
+        {
+            "firstname": "Jackie",
+            "age": 45
+        }
+]
