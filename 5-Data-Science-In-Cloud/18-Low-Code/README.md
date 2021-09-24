@@ -1,4 +1,5 @@
 # Data Science in the Cloud: The "Low code/No code" way 
+![](img/datascienceinthecloud.jpg)
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/18-DataScience-Cloud.png)|
 |:---:|
@@ -84,7 +85,6 @@ Each way has its own pros and cons. The Low code/No code way is easier to start 
 ### 1.3 The Heart Failure Dataset: 
 
 Cardiovascular diseases (CVDs) are the number 1 cause of death globally, accounting for 31% of all deaths worldwide. Environmental and behavioural risk factors such as use of tobacco, unhealthy diet and obesity, physical inactivity and harmful use of alcohol could be used as features for estimation models. Being able to estimate the probability of the development of a CVD could be of great use to prevent attacks in high risk people.
-
 
 Kaggle has made a [Heart Failure dataset](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) publically available, that we are going to use for this project. You can download the dataset now. This is a tabular dataset with 13 columns (12 features and 1 target variable) and 299 rows. 
 
