@@ -1,5 +1,9 @@
 # A Brief Introduction to Statistics and Probability
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/04-Statistics-Probability.png)|
+|:---:|
+| Statistics and Probability - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 Statistics and Probability Theory are two highly related areas of Mathematics that are highly relevant to Data Science. It is possible to operate with data without deep knowledge of mathematics, but it is still better to know at least some basic concepts. Here we will present a short introduction that will help you get started.
 
 [![Intro Video](images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)

@@ -1,8 +1,10 @@
 # Working with Data: Non-Relational Data
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/06-NoSQL.png)|
+|:---:|
+|Working with NoSQL Data - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 ## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/10)
-
-
 
 Data is not limited to relational databases. This lesson focuses on non-relational data and will cover the basic of spreadsheets and NoSQL.
 

@@ -13,4 +13,4 @@ In these lessons, you will learn some of the ways that data can be managed, mani
 
 ### Credits
 
-These lessons were written with ❤️ by [Christopher Harrison](https://twitter.com/geektrainer) and ...
+These lessons were written with ❤️ by [Christopher Harrison](https://twitter.com/geektrainer), [Dmitry Soshnikov](https://twitter.com/shwars) and [Jasmine Greenaway](https://twitter.com/paladique)

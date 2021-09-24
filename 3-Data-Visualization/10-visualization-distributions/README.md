@@ -1,5 +1,9 @@
 # Visualizing Distributions
 
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/10-Visualizing-Distributions.png)|
+|:---:|
+| Visualizing Distributions - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 In the previous lesson, you learned some interesting facts about a dataset about the birds of Minnesota. You found some erroneous data by visualizing outliers and looked at the differences between bird categories by their maximum length.
 
 ## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/18)
