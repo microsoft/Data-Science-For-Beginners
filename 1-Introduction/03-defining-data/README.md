@@ -34,12 +34,12 @@ Examples of structured data: spreadsheets, relational databases, phone numbers, 
 ### Unstructured Data
 Unstructured data typically cannot be categorized into into rows or columns and doesn't contain a format or set of rules to follow. Because unstructured data has less restrictions on its structure it's easier to add new information in comparison to a structured dataset. If a sensor capturing data on barometric pressure every 2 minutes has received an update that now allows it to measure and record temperature, it doesn't require altering the existing data if it's unstructured. However, this may make analyzing or investigating this type of data take longer. For example, a scientist who wants to find the average temperature of the previous month from the sensors data, but discovers that the sensor recorded an "e" in some of its recorded data to note that it was broken instead of a typical number, which means the data is incomplete.
 
-Examples of unstructured data:  text files, text messages, video files
+Examples of unstructured data: text files, text messages, video files
 
 ### Semi-structured
 Semi-structured data has features that make it a combination of structured and unstructured data. It doesn't typically conform to a format of rows and columns but is organized in a way that is considered structured and may follow a fixed format or set of rules. The structure will vary between sources, such as a well defined hierarchy to something more flexible that allows for easy integration of new information. Metadata are indicators that help decide how the data is organized and stored and will have various names, based on the type of data. Some common names for metadata are tags, elements, entities and attributes. For example, a typical email message will have a subject, body and a set of recipients and can be organized by whom or when it was sent. 
 
-Examples of unstructured data:  HTML, CSV files, JavaScript Object Notation (JSON)
+Examples of unstructured data: HTML, CSV files, JavaScript Object Notation (JSON)
 
 ## Sources of Data 
 
@@ -58,7 +58,7 @@ In this lesson we have learned:
 
 ## 🚀 Challenge
 
-Kaggle is an excellent source of open datasets. Use the [dataset search tool](https://www.kaggle.com/datasets) to find some data sets of interest and and classify 3-5 with this criteria:
+Kaggle is an excellent source of open datasets. Use the [dataset search tool](https://www.kaggle.com/datasets) to find some interesting datasets and classify 3-5 datasets with this criteria:
 
 - Is the data quantitative or qualitative?
 - Is the data structured, unstructured, or semi-structured?
