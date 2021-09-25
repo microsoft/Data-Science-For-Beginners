@@ -1,6 +1,6 @@
 # Visualizing Relationships: All About Honey 🍯
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/12-visualizing-relationships.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/12-Visualizing-Relationships.png)|
 |:---:|
 |Visualizing Relationships - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
