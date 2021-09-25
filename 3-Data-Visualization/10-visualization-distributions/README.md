@@ -9,7 +9,7 @@ In the previous lesson, you learned some interesting facts about a dataset about
 ## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/18)
 ## Explore the birds dataset
 
-Another way to dig into data is by looking at its distribution, or how the data is organized along an axis. Perhaps, for example, you'd like to learn about the general distribution, for this dataset, of maximum wingspan or maximum body mass for the birds of Minnesota. 
+Another way to dig into data is by looking at its distribution, or how the data is organized along an axis. Perhaps, for example, you'd like to learn about the general distribution, for this dataset, of the maximum wingspan or maximum body mass for the birds of Minnesota. 
 
 Let's discover some facts about the distributions of data in this dataset. In the _notebook.ipynb_ file at the root of this lesson folder, import Pandas, Matplotlib, and your data:
 
@@ -34,7 +34,7 @@ plt.show()
 This gives an overview of the general distribution of body length per bird Order, but it is not the optimal way to display true distributions. That task is usually handled by creating a Histogram.
 ## Working with histograms
 
-Matplotlib offers very good ways to visualize data distribution using Histograms. This type of chart is like a bar chart where the distribution can be seen via a rise and fall of the bars. To build a histogram, you need numeric data.To build a Histogram, you can plot a chart defining the kind as 'hist' for Histogram. This chart show the distribution of MaxBodyMass for the entire dataset's range of numeric data. By dividing the array of data it is given into smaller bins, it can display the distribution of the data's values:
+Matplotlib offers very good ways to visualize data distribution using Histograms. This type of chart is like a bar chart where the distribution can be seen via a rise and fall of the bars. To build a histogram, you need numeric data. To build a Histogram, you can plot a chart defining the kind as 'hist' for Histogram. This chart shows the distribution of MaxBodyMass for the entire dataset's range of numeric data. By dividing the array of data it is given into smaller bins, it can display the distribution of the data's values:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
@@ -42,7 +42,7 @@ plt.show()
 ```
 ![distribution over the entire dataset](images/dist1.png)
 
-As you can see, most of the 400+ birds in this dataset fall in the range of under 2000 for their Max Body Mass. Gain more insight on the data by changing  the `bins` parameter to a higher number, something like 30:
+As you can see, most of the 400+ birds in this dataset fall in the range of under 2000 for their Max Body Mass. Gain more insight into the data by changing  the `bins` parameter to a higher number, something like 30:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 30, figsize = (12,12))
@@ -81,9 +81,9 @@ There appears to be an expected correlation between these two elements along an 
 Histograms work well by default for numeric data. What if you need to see distributions according to text data? 
 ## Explore the dataset for distributions using text data 
 
-This dataset also includes good information about the bird category and its genus, species and family as well as its conservation status. Let's dig into this conservation information. What is the distribution of the birds according to their conservation status?
+This dataset also includes good information about the bird category and its genus, species, and family as well as its conservation status. Let's dig into this conservation information. What is the distribution of the birds according to their conservation status?
 
-> ✅ In the dataset, several acronyms are used to describe conservation status. These acronyms come from the [IUCN Red List Categories](https://www.iucnredlist.org/), an organization that catalogue species status.
+> ✅ In the dataset, several acronyms are used to describe conservation status. These acronyms come from the [IUCN Red List Categories](https://www.iucnredlist.org/), an organization that catalogs species' status.
 > 
 > - CR: Critically Endangered
 > - EN: Endangered
@@ -121,7 +121,7 @@ There doesn't seem to be a good correlation between minimum wingspan and conserv
 
 ## Density plots
 
-You may have noticed that the histograms we have looked at so far are 'stepped' and do not flow smoothy in an arc. To show a smoother density chart, you can try a density plot.
+You may have noticed that the histograms we have looked at so far are 'stepped' and do not flow smoothly in an arc. To show a smoother density chart, you can try a density plot.
 
 To work with density plots, familiarize yourself with a new plotting library, [Seaborn](https://seaborn.pydata.org/generated/seaborn.kdeplot.html). 
 
@@ -145,7 +145,7 @@ plt.show()
 ```
 ![smooth bodymass line](images/density2.png)
 
-If you wanted a smooth, but not too smooth line, edit the `bw_adjust` parameter 
+If you wanted a smooth, but not too smooth line, edit the `bw_adjust` parameter: 
 
 ```python
 sns.kdeplot(filteredBirds['MaxBodyMass'], bw_adjust=.2)
