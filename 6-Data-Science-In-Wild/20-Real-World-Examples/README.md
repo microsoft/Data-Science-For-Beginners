@@ -1,5 +1,10 @@
 # Data Science in the Real World
 
+
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png)|
+|:---:|
+| Data Science In The Real World - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 We're almost at the end of this learning journey!
 
 We started with definitions of data science and ethics, explored various tools & techniques for data analysis, reviewed the data science lifecycle, and looked at scaling and automating data science workflows with cloud computing services. 
@@ -53,6 +58,11 @@ The study had broader implications for facial analysis algorithms as a whole, hi
 
 
 ## Digital Humanities: Poetics 
+
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Humanities.png)|
+|:---:|
+| Data Science & Digital Humanities - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 
 Digital Humanities [has been defined](https://digitalhumanities.stanford.edu/about-dh-stanford) as "a collection of practices and approaches combining computational methods with humanistic inquiry". [Stanford projects](https://digitalhumanities.stanford.edu/projects) like _"rebooting history"_ and _"poetic thinking"_ illustrate the linkage between [Digital Humanities and Data Science](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science) - emphasizing techniques like network analysis, information visualization, spatial and text analysis that can help us revisit historical and literary data sets to derive new insights and perspective.
 
