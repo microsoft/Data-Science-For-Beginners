@@ -123,49 +123,53 @@
         "title": "Ethics - Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 1 question 1",
+            "questionText": "What is a consideration of ethics in Data Science?",
+            "answerOptions": [
+              {
+                "answerText": "Data collection",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Algorithm Design",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "All the above",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "What does Data ethics focus on?",
+            "answerOptions": [
+              {
+                "answerText": "Informed consent",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "How big the data is",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Is the data relational",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "All the above",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "Data ethics also includes AI and machine learning algorithms ",
             "answerOptions": [
               {
                 "answerText": "True",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "False, they are separate",
                 "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q2",
-            "answerOptions": [
-              {
-                "answerText": "classical ML was invented first",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "the use of neural networks",
-                "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q3",
-            "answerOptions": [
-              {
-                "answerText": "to automate the solving of multi-dimensional problems",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
-                "isCorrect": "true"
               }
             ]
           }
@@ -177,45 +181,49 @@
         "title": "Ethics - Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 1 question 1",
+            "questionText": "What is the main difference between ethics and applied ethics?",
             "answerOptions": [
               {
-                "answerText": "True",
-                "isCorrect": "true"
+                "answerText": "Applied ethics is a specific type of ethics",
+                "isCorrect": "false"
               },
               {
-                "answerText": "False",
+                "answerText": "Applied ethics is not a real term",
                 "isCorrect": "false"
+              },
+              {
+                "answerText": "Applied ethics is the process of finding and correcting ethical issues",
+                "isCorrect": "true"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "What is the difference between ethics regulation vs ethics principles",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "Ethics regulation focuses on regular ethics",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "There is no difference",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Ethics principles do not relate to a particular law, while regulations do",
                 "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "Which of these are real ethical principles and practices that can be applied?",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "Collection bias",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
+                "answerText": "Compliance with ethics regulations",
+                "isCorrect": "true"
               },
               {
                 "answerText": "both of the above",
