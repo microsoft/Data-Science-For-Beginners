@@ -335,48 +335,52 @@
         "title": "Data Preparation - Pre Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "What one of these is part of the data preparation process?",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "Model validation",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Classification",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Cleaning",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Why is data preparation so important?",
+            "answerOptions": [
+              {
+                "answerText": "Makes models more accurate",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "It's not important",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Computers can help clean the data",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "What is a goal of data cleaning?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "Fixing formatting issues",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
-                "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q3",
-            "answerOptions": [
-              {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "Fixing data types",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "All of the above",
                 "isCorrect": "true"
               }
             ]
@@ -388,7 +392,7 @@
         "title": "Data Preparation - Post Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "Merging or joining two datasets into one can affect consistency in data",
             "answerOptions": [
               {
                 "answerText": "True",
@@ -401,35 +405,35 @@
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "What's the first thing that should be done when faced with missing data?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "Delete it",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "Assess why it's missing",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "Try to fill in empty values",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "Joining two or more datasets can cause which following issue(s)?",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "Duplicates",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "Inconsistent formatting",
                 "isCorrect": "false"
               },
               {
-                "answerText": "both of the above",
+                "answerText": "All of the above",
                 "isCorrect": "true"
               }
             ]
