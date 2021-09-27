@@ -27,22 +27,8 @@ Table of contents:
   - [Post-Lecture Quiz](#post-lecture-quiz)
   - [Review & Self Study](#review--self-study)
   - [Assignment](#assignment)
-## Pre-Lecture Quiz
 
-[Pre-lecture quiz]()
-
-1. On what increasing the cluster size would NOT have an impact?
-   1.  Responsiveness
-   2.  Cost
-   3.  TRUE: Model performance 
-2. What is a benefit of using low code tools?
-   1. TRUE: No expertise of code required
-   2. Automatically label the dataset
-   3. Better security of the model
-3. What is AutoML?
-   1. A tool for automating the preprocessing of data
-   2. A tool for automating the deployment of models
-   3. TRUE: A tool for automating the development of models
+## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/36)
 
 ## 1. Introduction
 
@@ -60,24 +46,24 @@ Key areas of the SDK include:
 
 [Learn more about the Azure Machine Learning SDK](https://docs.microsoft.com/en-us/python/api/overview/azure/ml?WT.mc_id=academic-40229-cxa&ocid=AID3041109)
 
-In the [previous lesson](../18-tbd/README.md), we saw how to train, deploy and consume a model in a Low code/No code fashion. We used the Heart Failure dataset to generate and Heart failure prediction model. In this lesson, we are going to do the exact same thing but using the Azure Machine Learning SDK.
+In the [previous lesson](../18-Low-Code/README.md), we saw how to train, deploy and consume a model in a Low code/No code fashion. We used the Heart Failure dataset to generate and Heart failure prediction model. In this lesson, we are going to do the exact same thing but using the Azure Machine Learning SDK.
 
 ![project-schema](img/project-schema.PNG)
 
 ### 1.2 Heart failure prediction project and dataset introduction
 
-Check [here](../18-tbd/README.md) the Heart failure prediction project and dataset introduction.
+Check [here](../18-Low-Code/README.md) the Heart failure prediction project and dataset introduction.
 
 ## 2. Training a model with the Azure ML SDK
 ### 2.1 Create an Azure ML workspace
 
 For simplicity, we are going to work on a jupyter notebook. This implies that you already have a Workspace and a compute instance. If you already have a Workspace, you can directly jump to the section 2.3 Notebook creation.
 
-If not, please follow the instructions in the section **2.1 Create an Azure ML workspace** in the [previous lesson](../18-tbd/README.md) to create a workspace.
+If not, please follow the instructions in the section **2.1 Create an Azure ML workspace** in the [previous lesson](../18-Low-Code/README.md) to create a workspace.
 
 ### 2.2 Create a compute instance
 
-In the [Azure ML workspace](https://ml.azure.com/) that we created earlier, go to the compute menue and you will see the different compute resources available
+In the [Azure ML workspace](https://ml.azure.com/) that we created earlier, go to the compute menu and you will see the different compute resources available
 
 ![compute-instance-1](img/compute-instance-1.PNG)
 

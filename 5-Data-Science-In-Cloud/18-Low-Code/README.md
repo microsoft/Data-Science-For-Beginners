@@ -28,7 +28,7 @@ Table of contents:
   - [Review & Self Study](#review--self-study)
   - [Assignment](#assignment)
   
-## [Pre-Lecture quiz]()
+## [Pre-Lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/34)
 
 ## 1. Introduction
 ### 1.1 What is Azure Machine Learning?
@@ -326,27 +326,11 @@ Congratulations! You just consumed the model deployed and trained it on Azure ML
 
 Look closely at the model explanations and details that AutoML generated for the top models. Try to understand why the best model is better than the other ones. What algorithms were compared? What are the differences between them? Why is the best one performing better in this case?
 
-## Post-Lecture Quiz
-
-[Post-lecture quiz]()
-1. What do I need to create before accessing Azure ML Studio?
-   1. TRUE: A workspace
-   2. A compute instance
-   3. A compute cluster
-
-2. Which of the following tasks are supported by Automated ML?
-   1. Image generation
-   2. TRUE : Classification
-   3. Natural Language generation
-
-3. In which case do you need GPU over CPU?
-   1. When you have tabular data
-   2. When you have enough money to afford it
-   3. TRUE: When you do Deep Learning
+## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/35)
 
 ## Review & Self Study
 
-In this lesson, you learned how to train, deploy and consume a model to predict heart failure risk in a Low code/No code fashion in the cloud. If you have not done it yet, dive deeper into the model explainations that AutoML generated for the top models and try to understand why the best model is better than others.
+In this lesson, you learned how to train, deploy and consume a model to predict heart failure risk in a Low code/No code fashion in the cloud. If you have not done it yet, dive deeper into the model explanations that AutoML generated for the top models and try to understand why the best model is better than others.
 
 You can go further into Low code/No code AutoML by reading this [documentation](https://docs.microsoft.com/azure/machine-learning/tutorial-first-experiment-automated-ml?WT.mc_id=academic-40229-cxa&ocid=AID3041109).
 

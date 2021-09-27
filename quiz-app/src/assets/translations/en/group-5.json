@@ -123,7 +123,7 @@
         "title": "Data Science in the Cloud - Low-Code - Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "One benefit of using Jupyter Notebooks is that you can quickly prototype models.",
             "answerOptions": [
               {
                 "answerText": "True",
@@ -136,36 +136,32 @@
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "Why would a data scientist use Azure Machine Learning?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "To save time exploring and pre-processing data.",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "To produce accurate models",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "All of the above",
                 "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "You don't need to have expertise in coding do use Azure ML.",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "True",
                 "isCorrect": "true"
+              },
+              {
+                "answerText": "False, code is always needed",
+                "isCorrect": "false"
               }
             ]
           }
@@ -176,48 +172,52 @@
         "title": "Data Science in the Cloud - Low-Code - Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "What do you need to create before accessing Azure ML Studio?",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "A workspace",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "A compute instance",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "A compute cluster",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "Which of the following tasks are supported by Automated ML?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "Image generation",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "Classification",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "Natural language generation",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "In which case do you need GPU over CPU?",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "When you have tabular data",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "When you have enough money to afford it",
                 "isCorrect": "false"
               },
               {
-                "answerText": "both of the above",
+                "answerText": "When you do Deep Learning",
                 "isCorrect": "true"
               }
             ]
@@ -229,49 +229,53 @@
         "title": "Data Science in the Cloud - Azure - Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "Which of these would be affected by increasing the cluster size?",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "Responsiveness",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Cost",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Model performance",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "What is a benefit of using low code tools?",
+            "answerOptions": [
+              {
+                "answerText": "No expertise of code required",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "Automatically label the dataset",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Better security of the model",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "What is AutoML?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "A tool for automating the preprocessing of data",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "A tool for automating the deployment of models",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "All of the above",
                 "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q3",
-            "answerOptions": [
-              {
-                "answerText": "to automate the solving of multi-dimensional problems",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
-                "isCorrect": "true"
               }
             ]
           }
@@ -279,51 +283,55 @@
       },
       {
         "id": 37,
-        "title": "Data Science in the Cloud - Azure - Pre-Quiz",
+        "title": "Data Science in the Cloud - Azure - Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "What is the reason for creating an AutoMLConfig?",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "It is where the training and the testing data are split",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "It is where you specify the model to be trained",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "It provides all the details of your AutoML experiment",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Which of the following metrics is supported by Automated ML for a classification task?",
+            "answerOptions": [
+              {
+                "answerText": "Accuracy",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "r2_score",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "normalized_root_mean_error",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "What is NOT an advantage of using the SDK?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "It can be used to automate multiple tasks and runs",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
-                "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q3",
-            "answerOptions": [
-              {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "It makes it easier to programmatically edit runs",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "It can be used through a Graphical User Interface",
                 "isCorrect": "true"
               }
             ]
