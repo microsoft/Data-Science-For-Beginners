@@ -39,14 +39,13 @@ Give the exercises in the [notebook](4-Data-Science-Lifecycle\15-analyzing\noteb
 
 ## Review & Self Study
 
-There are many ways to discover and approach preparing your data for analysis and modeling and cleaning the data is an important step that is a "hands on" experience. Try these challenges from Kaggle to try some of techniques that this lesson didn't cover.
+There are many ways to discover and approach preparing your data for analysis and modeling and cleaning the data is an important step that is a "hands on" experience. Try these challenges from Kaggle to explore techniques that this lesson didn't cover.
 
 - [Data Cleaning Challenge: Parsing Dates](https://www.kaggle.com/rtatman/data-cleaning-challenge-parsing-dates/)
 
 - [Data Cleaning Challenge: Scale and Normalize Data](https://www.kaggle.com/rtatman/data-cleaning-challenge-scale-and-normalize-data)
 
 
-
 ## Assignment
 
-[Assignment Title](assignment.md)
+[Evaluating Data from a Form](assignment.md)
