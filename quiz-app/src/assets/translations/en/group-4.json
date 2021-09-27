@@ -127,7 +127,7 @@
         "title": "Data Science LifeCycle - Analyzing Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "Analyzing can refer to analyzing models or data",
             "answerOptions": [
               {
                 "answerText": "True",
@@ -140,35 +140,39 @@
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "What is important about exploring data before using it in a model or further analysis?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "To remove data",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "Identify challenges in the data",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "Exploring data isn't important",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "What are some things a data scientist will do when exploring data? ",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "Queries",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "Sampling",
                 "isCorrect": "false"
               },
               {
-                "answerText": "both of the above",
+                "answerText": "Visualizations",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "All of the above",
                 "isCorrect": "true"
               }
             ]
@@ -180,48 +184,48 @@
         "title": "Data Science LifeCycle - Analyzing Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "Visualization is never part of exploratory data analysis (EDA)",
             "answerOptions": [
               {
                 "answerText": "True",
-                "isCorrect": "true"
+                "isCorrect": "false"
               },
               {
                 "answerText": "False",
-                "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q2",
-            "answerOptions": [
-              {
-                "answerText": "classical ML was invented first",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "the use of neural networks",
                 "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "Which Panda functions provides basic data profiling?",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "pandas()",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "isnull()",
                 "isCorrect": "false"
               },
               {
-                "answerText": "both of the above",
+                "answerText": "describe()",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "What is the purpose of sampling data?",
+            "answerOptions": [
+              {
+                "answerText": "Sampling is better than data profiling when looking for errors",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Sampling doesn't serve a purpose",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Sampling is used to analyze data in a large data set because it's hard to analyze all of it",
                 "isCorrect": "true"
               }
             ]

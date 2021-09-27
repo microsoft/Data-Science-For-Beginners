@@ -6,7 +6,7 @@
 
 ## Pre-Lecture Quiz
 
-[Pre-lecture quiz]()
+## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/28)
 
 Analyzing in the data lifecycle confirms that the data can answer the questions that are proposed or solving a particular problem. This step can also focus on confirming a model is correctly addressing these questions and problems. This lesson is focused on Exploratory Data Analysis or EDA, which are techniques for defining features and relationships within the data and can be used to prepare the data for modeling. 
 
@@ -24,7 +24,7 @@ Exploratory Data Analysis is the process of getting to know that data and can be
 ## Data Profiling, Descriptive Statistics, and Pandas
 How do we evaluate if we have enough data to solve this problem? Data profiling can summarize and gather some general overall information about our dataset through techniques of descriptive statistics. Data profiling helps us understand what is available to us, and descriptive statistics helps us understand how many things are available to us. 
 
-In the few of the lessons, we have used Pandas to provide some descriptive statistics with the [`describe()` function]( https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html). It provides the count, max and min values, mean, standard deviation and quantiles on the numerical data. Using descriptive statistics like the `describe()` function can help you assess how much you have and if you need more.
+In a few of the previous lessons, we have used Pandas to provide some descriptive statistics with the [`describe()` function]( https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html). It provides the count, max and min values, mean, standard deviation and quantiles on the numerical data. Using descriptive statistics like the `describe()` function can help you assess how much you have and if you need more.
 
 ## Sampling and Querying
 Exploring everything in a large dataset can be very time consuming and a task that’s usually left up to a computer to do. However, sampling is a helpful tool in understanding of the data and allows us to have a better understanding of what’s in the dataset and what it represents. With a sample, you can apply probability and statistics to come to some general conclusions about your data. While there’s no defined rule on how much data you should sample it’s important to note that the more data you sample, the more precise of a generalization you can make of about data. 
@@ -42,9 +42,8 @@ All the topics in this lesson can help identify missing or inconsistent values, 
 
 ## 🚀 Challenge
 
-## Post-Lecture Quiz
+## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/27)
 
-[Post-lecture quiz]()
 
 ## Review & Self Study
 
