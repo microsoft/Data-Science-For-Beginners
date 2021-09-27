@@ -9,48 +9,52 @@
         "title": "Data Science LifeCycle - Introduction Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "What is the first step of the data science lifecycle?",
+            "answerOptions": [
+              {
+                "answerText": "Analyzing data",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Cleaning data",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Acquiring data and the problem to solve",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Once the next step of the data science lifecycle is reached, you can't go back to previous steps",
             "answerOptions": [
               {
                 "answerText": "True",
-                "isCorrect": "true"
+                "isCorrect": "false"
               },
               {
                 "answerText": "False",
-                "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q2",
-            "answerOptions": [
-              {
-                "answerText": "classical ML was invented first",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "the use of neural networks",
                 "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "What considerations should be taken when maintaining data?",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "Cleaning data",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "Where the data will be stored",
                 "isCorrect": "false"
               },
               {
-                "answerText": "both of the above",
+                "answerText": "Keeping the data secure",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "All of the above",
                 "isCorrect": "true"
               }
             ]
@@ -62,49 +66,57 @@
         "title": "Data Science LifeCycle - Introduction Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "What step of the data science lifecycle is most likely to produce a model? ",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "Processing",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "Maintenance",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Capturing",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "What questions would a data scientist ask in the capture phase of the data science lifecycle?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "the use of neural networks",
+                "answerText": "What are the constraints?",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "Does the data make sense?",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Does the model make sense?",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "What are some common techniques in the processing stage?",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "Processing",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "Clustering",
                 "isCorrect": "true"
+              },
+              {
+                "answerText": "Artificial intelligence",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "All of the above",
+                "isCorrect": "false"
               }
             ]
           }
@@ -287,7 +299,7 @@
             ]
           },
           {
-            "questionText": "Of the options below, which is the most meaningful explaination of a company's yearly progress?",
+            "questionText": "Of the options below, which is the most meaningful explanation of a company's yearly progress?",
             "answerOptions": [
               {
                 "answerText": "We had an excellent year! Our users grew by 30%, our revenue increased by 21%, and we've added 100 new team members.",
