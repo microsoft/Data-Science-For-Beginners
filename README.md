@@ -4,6 +4,8 @@ Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson cur
 
 **Hearty thanks to our authors:** Jasmine Greenaway, Dmitry Soshnikov, Nitya Narasimhan, Jalen McGee, Jen Looper, Maud Levy, Tiffany Souterre, Christopher Harrison.
 
+**🙏 Special thanks 🙏 to our Microsoft Student Ambassador authors, reviewers and content contributors,** notably [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Rohit Yadav](https://www.linkedin.com/in/rty2423), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119)
+
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Title.png)|
 |:---:|
 | Data Science For Beginners - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
