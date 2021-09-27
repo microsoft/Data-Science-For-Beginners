@@ -9,49 +9,53 @@
         "title": "Data Science in the Cloud - Introduction - Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "What is the cloud?",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "A collection of databases for storing big data.",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "A collection of pay-as-you-go computing services over the internet.",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "A visible mass of particles suspended in the air.",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "What is cloud computing?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "the use of neural networks",
+                "answerText": "Delivery of computing services over the internet.",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "Setting up your own datacenter.",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Using the internet.",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "What are some advantages of the cloud?",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "Flexibility, scalability, reliability, security",
                 "isCorrect": "true"
+              },
+              {
+                "answerText": "Flexibility, scalability, variability, security",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Clarity, scalability, reliability, variability",
+                "isCorrect": "false"
               }
             ]
           }
@@ -62,48 +66,52 @@
         "title": "Data Science in the Cloud - Introduction - Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "Which one is NOT necessarily a good reason for choosing the cloud?",
             "answerOptions": [
               {
-                "answerText": "True",
-                "isCorrect": "true"
+                "answerText": "Using Machine Learning and data intelligence services",
+                "isCorrect": "false"
+              },              
+              {
+                "answerText": "Processing large amounts of data",
+                "isCorrect": "false"
               },
               {
-                "answerText": "False",
+                "answerText": "Storing sensitive/confidential governmental data",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "In which way(s) do data scientists use the cloud?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "Infrastructure tasks",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "Storing large amounts of data",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "Configuring networking options",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "Which cloud computing service provides access to software applications without the need to maintain the software?",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "Infrastructure as a Service",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "Platform as a Service",
                 "isCorrect": "false"
               },
               {
-                "answerText": "both of the above",
+                "answerText": "Software as a Service",
                 "isCorrect": "true"
               }
             ]

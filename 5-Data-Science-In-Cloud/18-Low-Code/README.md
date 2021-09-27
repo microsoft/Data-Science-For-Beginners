@@ -27,26 +27,8 @@ Table of contents:
   - [Post-Lecture Quiz](#post-lecture-quiz)
   - [Review & Self Study](#review--self-study)
   - [Assignment](#assignment)
-## Pre-Lecture Quiz
-
-[Pre-lecture quiz]()
-
-1. What is the cloud computing?
-   1. Delivery of computing services over the internet.
-   2. Setting up your own datacenter.
-   3. Using the internet.
-2. What is the cloud?
-   1. A collection of Databases for storing big data.
-   2. TRUE : A collection of pay-as-you-go computing services over the internet.
-   3. A visible mass of particles suspended in the air.
-3. What are some advantages of the cloud?
-   1. TRUE : Flexibility, Scalability, Reliability, Security
-   2. Flexibility, Scalability, Reliability, Variability
-   3. Clarity, Scalability, Reliability, Variability
-4. Which one is not necessarily a good reason for choosing the cloud?
-   1. Using Machine Learning and data intelligence services
-   2. Processing large amounts of data
-   3. TRUE : Storing sensitive/confidential governmental data
+  
+## [Pre-Lecture quiz]()
 
 ## 1. Introduction
 ### 1.1 What is Azure Machine Learning?
@@ -342,7 +324,7 @@ Congratulations! You just consumed the model deployed and trained it on Azure ML
 > **_NOTE:_** Once you are done with the project, don't forget to delete all the resources.
 ## 🚀 Challenge
 
-Look closely at the model explainations and details that AutoML generated for the top models. Try to understand why the best model is better than the other ones. What algorithms were compared? What are the differences between them? Why is the best one performing better in this case?
+Look closely at the model explanations and details that AutoML generated for the top models. Try to understand why the best model is better than the other ones. What algorithms were compared? What are the differences between them? Why is the best one performing better in this case?
 
 ## Post-Lecture Quiz
 
