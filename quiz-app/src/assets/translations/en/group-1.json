@@ -140,22 +140,18 @@
             ]
           },
           {
-            "questionText": "What does Data ethics focus on?",
+            "questionText": "Which of the following are a part of ethical challenges?",
             "answerOptions": [
               {
-                "answerText": "Informed consent",
-                "isCorrect": "true"
-              },
-              {
-                "answerText": "How big the data is",
+                "answerText": "Transparency",
                 "isCorrect": "false"
               },
               {
-                "answerText": "Is the data relational",
+                "answerText": "Data privacy",
                 "isCorrect": "false"
               },
               {
-                "answerText": "All the above",
+                "answerText": "Reliability and safety",
                 "isCorrect": "false"
               }
             ]

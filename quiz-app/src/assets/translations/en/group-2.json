@@ -112,10 +112,10 @@
       },
       {
         "id": 10,
-        "title": "NonRelational Databases - Pre Quiz",
+        "title": "Non-Relational Databases - Pre Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "Spreadsheets are non-relational data",
             "answerOptions": [
               {
                 "answerText": "True",
@@ -128,88 +128,92 @@
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "Identify the difference between non-relational and relational data?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "the use of neural networks",
+                "answerText": "Relational databases always contain columns and rows",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "Some types of non-relational data use columns",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "There is no difference",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "What does NoSQL stand for?",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "Nope SQL",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "Not Only SQL",
                 "isCorrect": "true"
+              },
+              {
+                "answerText": "No more SQL",
+                "isCorrect": "false"
               }
             ]
-          }
+          }       
         ]
       },
       {
         "id": 11,
-        "title": "NonRelational Databases - Post Quiz",
+        "title": "Non-Relational Databases - Post Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "Which one of these is NOT a type of NoSQL?",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "Object oriented",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "Key-value",
+                "isCorrect": "false"
+              },              
+              {
+                "answerText": "Columnar",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "What do you use to do calculations in spreadsheets?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "Python",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "Aliases",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Formulas",
                 "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "What other type of non-relational data does a document in a document database resemble?",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "Keys",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "Column",
                 "isCorrect": "false"
               },
               {
-                "answerText": "both of the above",
+                "answerText": "JSON",
                 "isCorrect": "true"
               }
             ]

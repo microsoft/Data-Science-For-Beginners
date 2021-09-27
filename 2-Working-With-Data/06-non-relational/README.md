@@ -6,7 +6,7 @@
 
 ## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/10)
 
-Data is not limited to relational databases. This lesson focuses on non-relational data and will cover the basic of spreadsheets and NoSQL.
+Data is not limited to relational databases. This lesson focuses on non-relational data and will cover the basics of spreadsheets and NoSQL.
 
 ## Spreadsheets
 
