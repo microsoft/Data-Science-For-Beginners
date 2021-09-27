@@ -10,7 +10,7 @@
 
 Analyzing in the data lifecycle confirms that the data can answer the questions that are proposed or solving a particular problem. This step can also focus on confirming a model is correctly addressing these questions and problems. This lesson is focused on Exploratory Data Analysis or EDA, which are techniques for defining features and relationships within the data and can be used to prepare the data for modeling. 
 
- We'll be using an example dataset from [Kaggle](https://www.kaggle.com/balaka18/email-spam-classification-dataset-csv/version/1) to show how this can be applied with Python's Pandas library. This dataset contains a count of some common words found in emails, the sources of these emails are anonymous. Use the [notebook](notebook.ipynb) in this directory to follow along.
+ We'll be using an example dataset from [Kaggle](https://www.kaggle.com/balaka18/email-spam-classification-dataset-csv/version/1) to show how this can be applied with Python and the Pandas library. This dataset contains a count of some common words found in emails, the sources of these emails are anonymous. Use the [notebook](notebook.ipynb) in this directory to follow along.
 
 ## Exploratory Data Analysis
 
@@ -31,13 +31,13 @@ Exploring everything in a large dataset can be very time consuming and a task th
 Pandas has the [`sample()` function in its library]( https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html) where you can pass an argument of how many random samples you’d like to receive and use. 
 
 General querying of the data can help you answer some general questions and theories you may have. In contrast to sampling, queries allow you to have control and focus on specific parts of the data you have questions about. 
-The [`query() `function]( https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.query.html) in the Pandas library allows you to select the columns and receive simple answers about the data in the form of `True` or `False`.
+The [`query() `function]( https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.query.html) in the Pandas library allows you to select columns and receive simple answers about the data through the rows retrieved.
 
 ## Exploring with Visualizations
 You don’t have to wait until the data is thoroughly cleaned and analyzed to start creating visualizations. In fact, having a visual representation while exploring can help identify patterns, relationships, and problems in the data. Furthermore, visualizations provide a means of communication with those who are not involved with managing the data and can be an opportunity to share and clarify additional questions that were not addressed in the capture stage. Refer to the [section on Visualizations](3-Data-Visualization) to learn more about some popular ways to explore visually.
 
 ## Exploring to identify inconsistencies
-All the topics in this lesson can help identify missing or inconsistent values, but Pandas provides functions to check for some of these. [isna() or isnull()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.isna.html) can check for missing values. One important piece of exploring for these values within your data is to explore why they ended up that way in the first place. This can help you decide on what [actions to take to resolve them]().
+All the topics in this lesson can help identify missing or inconsistent values, but Pandas provides functions to check for some of these. [isna() or isnull()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.isna.html) can check for missing values. One important piece of exploring for these values within your data is to explore why they ended up that way in the first place. This can help you decide on what [actions to take to resolve them](2-Working-With-Data\08-data-preparation\notebook.ipynb).
 
 
 ## 🚀 Challenge
