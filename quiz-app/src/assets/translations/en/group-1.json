@@ -238,48 +238,52 @@
         "title": "Defining Data - Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 1 question 1",
+            "questionText": "Which of these could be quantitative data?",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "Photos of dogs",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Hotel reviews",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Student’s marks or grades",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Which of these could be qualitative data?",
+            "answerOptions": [
+              {
+                "answerText": "List of employees' salaries",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Hotel reviews",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "Student’s marks or grades",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "What is the main goal of classifying data?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "To store the data correctly",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
-                "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q3",
-            "answerOptions": [
-              {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "To give the data a proper name",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "To know which method is best to organize it for readability and analysis",
                 "isCorrect": "true"
               }
             ]
@@ -291,48 +295,52 @@
         "title": "Defining Data - Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 1 question 1",
+            "questionText": "The teacher is reviewing students’ number of correct answers, what type of data is that?",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "Qualitative Data",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Quantitative Data",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "All the above",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "A company is collecting surveys from their customers to improve their products. What type of data source is this?",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "the use of neural networks",
+                "answerText": "Primary",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "Secondary",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Tertiary",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "A student is collecting data using queries. What data source could that be?",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "Local Files",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "API",
                 "isCorrect": "false"
               },
               {
-                "answerText": "both of the above",
+                "answerText": "Database",
                 "isCorrect": "true"
               }
             ]
