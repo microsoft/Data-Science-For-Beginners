@@ -225,7 +225,7 @@
         "title": "Python - Pre Quiz",
         "quiz": [
           {
-            "questionText": "Python is the best language for",
+            "questionText": "Python is a good language for",
             "answerOptions": [
               {
                 "answerText": "Data Science",
@@ -242,14 +242,14 @@
             ]
           },
           {
-            "questionText": "Python is the best language for Data Science because",
+            "questionText": "Python is a good language for Data Science because",
             "answerOptions": [
               {
                 "answerText": "it has a lot of libraries",
                 "isCorrect": "false"
               },
               {
-                "answerText": "it is rich yet simple language",
+                "answerText": "it is a rich yet simple language",
                 "isCorrect": "false"
               },
               {
@@ -295,7 +295,7 @@
             ]
           },
           {
-            "questionText": "You have a DataFrame with a list of students, their group number, and average grade. Which operation would you use to compute average grade per group?",
+            "questionText": "You have a DataFrame with a list of students, their group number, and average grade. Which operation would you use to compute the average grade per group?",
             "answerOptions": [
               {
                 "answerText": "average",
@@ -312,7 +312,7 @@
             ]
           },
           {
-            "questionText": "You have 100 friends, and you want to represent the information on how frequently they take pictures with each other. Which data structure would you use?",
+            "questionText": "You have 100 friends and you want to represent the information on how frequently they take pictures with each other. Which data structure would you use?",
             "answerOptions": [
               {
                 "answerText": "Numpy array",
@@ -335,7 +335,7 @@
         "title": "Data Preparation - Pre Quiz",
         "quiz": [
           {
-            "questionText": "What one of these is part of the data preparation process?",
+            "questionText": "Which one of these is part of the data preparation process?",
             "answerOptions": [
               {
                 "answerText": "Model validation",
@@ -355,7 +355,7 @@
             "questionText": "Why is data preparation so important?",
             "answerOptions": [
               {
-                "answerText": "Makes models more accurate",
+                "answerText": "It makes models more accurate",
                 "isCorrect": "true"
               },
               {
