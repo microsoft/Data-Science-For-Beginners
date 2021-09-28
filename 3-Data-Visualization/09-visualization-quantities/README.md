@@ -58,7 +58,7 @@ What do you notice immediately? There seems to be at least one outlier - that's 
 
 While you could  do a quick sort in Excel to find those outliers, which are probably typos, continue the visualization process by working from within the plot.
 
-Add labels to the y-axis to show what kind of birds are in question:
+Add labels to the x-axis to show what kind of birds are in question:
 
 ```
 plt.title('Max Wingspan in Centimeters')
@@ -118,14 +118,14 @@ By filtering out outliers, your data is now more cohesive and understandable.
 
 Now that we have a cleaner dataset at least in terms of wingspan, let's discover more about these birds.
 
-While line and scatter plots can display information about data values and their distributions, we want to think about the values inherent in this dataset. You could create visualizations to answer this following questions about quantity:
+While line and scatter plots can display information about data values and their distributions, we want to think about the values inherent in this dataset. You could create visualizations to answer the following questions about quantity:
 
 > How many categories of birds are there, and what are their numbers?
 > How many birds are extinct, endangered, rare, or common?
 > How many are there of the various genus and orders in Linnaeus's terminology?
 ## Explore bar charts
 
-Bar charts are very useful when you need to show groupings of data. Let's explore the categories of birds that exist in this dataset to see which is the most common by number.
+Bar charts are practical when you need to show groupings of data. Let's explore the categories of birds that exist in this dataset to see which is the most common by number.
 
 In the notebook file, create a basic bar chart
 
@@ -142,11 +142,11 @@ birds.plot(x='Category',
 ```
 ![full data as a bar chart](images/full-data-bar.png)
 
-This bar chart, however, is unreadable because there is too much non-grouped data. You need to select only the data that you want to chart, so let's look at the length of birds based on their category. 
+This bar chart, however, is unreadable because there is too much non-grouped data. You need to select only the data that you want to plot, so let's look at the length of birds based on their category. 
 
 Filter your data to include only the bird's category. 
 
-✅ Notice that you use Pandas to manage the data, and then let Matplotlib do the charting.
+✅ Notice that that you use Pandas to manage the data, and then let Matplotlib do the charting.
 
 Since there are many categories, you can display this chart vertically and tweak its height to account for all the data:
 
@@ -157,7 +157,7 @@ category_count.plot.barh()
 ```
 ![category and length](images/category-counts.png)
 
-This bar chart shows a good view of the amount of birds in each category. In a blink of an eye, you see that the largest number of birds in this region are in the Ducks/Geese/Waterfowl category. Minnesota is the 'land of 10,000 lakes' so this isn't surprising!
+This bar chart shows a good view of the number of birds in each category. In a blink of an eye, you see that the largest number of birds in this region are in the Ducks/Geese/Waterfowl category. Minnesota is the 'land of 10,000 lakes' so this isn't surprising!
 
 ✅ Try some other counts on this dataset. Does anything surprise you?
 
@@ -187,7 +187,7 @@ plt.barh(category, minLength)
 
 plt.show()
 ```
-In this plot you can see the range, per category, of the Minimum Length and Maximum length of a given bird category. You can safely say that, given this data, the bigger the bird, the larger its length range. Fascinating!
+In this plot, you can see the range per bird category of the Minimum Length and Maximum length. You can safely say that, given this data, the bigger the bird, the larger its length range. Fascinating!
 
 ![superimposed values](images/superimposed.png)
 
