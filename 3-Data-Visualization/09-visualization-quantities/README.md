@@ -159,7 +159,7 @@ category_count.plot.barh()
 
 This bar chart shows a good view of the number of birds in each category. In a blink of an eye, you see that the largest number of birds in this region are in the Ducks/Geese/Waterfowl category. Minnesota is the 'land of 10,000 lakes' so this isn't surprising!
 
-Try some other counts on this dataset. Does anything surprise you?
+Try some other counts on this dataset. 😄
 
 ## Comparing data
 
