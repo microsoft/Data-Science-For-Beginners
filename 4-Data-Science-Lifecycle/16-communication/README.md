@@ -26,6 +26,7 @@ Throughout this lesson two different types of communication will be discussed, O
 When communicating data, there will be cases where you will be using one-way communication (think about presenting at a conference, or to a large group where questions won’t be asked directly after) and there will be cases where you will use two-way communication (think about using data to persuade a few stakeholders for buy-in, or to convince a teammate that time and effort should be spent building something new).
 
 # Effective Communication
+
 ### Your Responsibilities as a communicator
 When communicating, it is your job to make sure that your receiver(s) are taking away the information that you want them to take away. When you’re communicating data, you don’t just want your receivers to takeaway numbers, you want your receivers to takeaway a story that’s informed by your data. A good data communicator is a good storyteller.
 
@@ -170,9 +171,8 @@ If Emerson took approach #2, it is much more likely that the team leads will tak
 	 - Approach it Like an Actual Story
 	 - Use Meaningful Words & Phrases
 	 - Use Emotion
-### Post Lecture Quiz
 
-
+## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/31)
 
 ### Recommended Resources for Self Study
 [The Five C's of Storytelling - Articulate Persuasion](http://articulatepersuasion.com/the-five-cs-of-storytelling/)
@@ -213,8 +213,6 @@ If Emerson took approach #2, it is much more likely that the team leads will tak
 
 [1. Communicating Data - Communicating Data with Tableau [Book] (oreilly.com)](https://www.oreilly.com/library/view/communicating-data-with/9781449372019/ch01.html)
 
+## Assignment
 
-
-## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/31)
-
-Review what you've just learned with the Post-Lecture Quiz above!
+[Tell a story](assignment.md)
