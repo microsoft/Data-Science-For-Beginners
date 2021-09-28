@@ -24,7 +24,7 @@ Table of contents:
     - [3.2 Model Deployment](#32-model-deployment)
     - [3.3 Endpoint consumption](#33-endpoint-consumption)
   - [🚀 Challenge](#-challenge)
-  - [Post-Lecture Quiz](#post-lecture-quiz)
+  - [Post-lecture quiz](#post-lecture-quiz)
   - [Review & Self Study](#review--self-study)
   - [Assignment](#assignment)
 
@@ -288,9 +288,7 @@ Congratulations! You just consumed the model deployed and trained on Azure ML wi
 
 **HINT:** Go to the [SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-40229-cxa&ocid=AID3041109) and type keywords in the search bar like "Pipeline". You should have the `azureml.pipeline.core.Pipeline` class in the search results.
 
-## Post-Lecture Quiz
-
-[Post-lecture quiz]()
+## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/37)
 
 1. What is the reason for creating an AutoMLConfig?
    1. It is where the training and the testing data are split
