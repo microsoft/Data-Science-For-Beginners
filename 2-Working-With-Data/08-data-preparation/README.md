@@ -4,9 +4,9 @@
 |:---:|
 |Data Preparation - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## Pre-Lecture Quiz
+## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/14)
 
-[Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/14)
+
 
 Depending on its source, raw data may contain some inconsistencies that will cause challenges in analysis and modeling. In other words, this data can be categorized as “dirty” and will need to be cleaned up. This lesson focuses on techniques for cleaning and transforming the data to handle challenges of missing, inaccurate, or incomplete data. Topics covered in this lesson will utilize Python and the Pandas library and will be [demonstrated in the notebook](notebook.ipynb) within this directory.
 
@@ -33,9 +33,9 @@ Depending on its source, raw data may contain some inconsistencies that will cau
 
 Give the exercises in the [notebook](4-Data-Science-Lifecycle\15-analyzing\notebook.ipynb) a try!
 
-## Post-Lecture Quiz
+## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/15)
 
-[Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/15)
+
 
 ## Review & Self Study
 
