@@ -4,8 +4,6 @@
 |:---:|
 | Introduction to the Data Science Lifecycle - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## Pre-Lecture Quiz
-
 ## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/26)
 
 At this point you've probably come to the realization that data science is a process. This process can be broken down into 5 stages:
@@ -93,8 +91,7 @@ Explore the [Team Data Science Process lifecycle](https://docs.microsoft.com/en-
 |![](..\images\tdsp-lifecycle2.png)> Photo by [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/lifecycle)| ![](..\images\CRISP-DM.png)> Photo by [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/)
 
 
-## Post-Lecture Quiz
-[Post-lecture quiz]()
+## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/27)
 
 ## Review & Self Study
 
@@ -105,4 +102,4 @@ Applying the Data Science Lifecycle involves multiple roles and tasks, where som
 
 ## Assignment
 
-[Exploring and Assessing a Dataset](assignment.md)
+[Assessing a Dataset](assignment.md)
