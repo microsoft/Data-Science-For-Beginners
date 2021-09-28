@@ -20,7 +20,7 @@ Depending on its source, raw data may contain some inconsistencies that will cau
 
 ## Common cleaning goals and strategies
 
-- **Exploring a dataset**: Data exploration, which is covered in a [later lesson](4-Data-Science-Lifecycle\15-analyzing) can help you discover data that needs to be cleaned up. Visually observing values within a dataset can set expectations of what that rest of it will look like, or provide an idea of the problems that can be resolved. Exploration can involve basic querying, visualizations, and sampling.
+- **Exploring a dataset**: Data exploration, which is covered in a [later lesson](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/15-analyzing) can help you discover data that needs to be cleaned up. Visually observing values within a dataset can set expectations of what that rest of it will look like, or provide an idea of the problems that can be resolved. Exploration can involve basic querying, visualizations, and sampling.
 
 -  **Formatting**: Depending on the source, data can have inconsistencies in how it’s presented. This can cause problems in searching for and representing the value, where it’s seen within the dataset but is not properly represented in visualizations or query results. Common formatting problems involve resolving whitespace, dates, and data types. Resolving formatting issues is typically up to the people who are using the data. For example, standards on how dates and numbers are presented can differ by country. 
 
@@ -31,7 +31,7 @@ Depending on its source, raw data may contain some inconsistencies that will cau
 
 ## 🚀 Challenge
 
-Give the exercises in the [notebook](4-Data-Science-Lifecycle\15-analyzing\notebook.ipynb) a try!
+Give the exercises in the [notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb) a try!
 
 ## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/15)
 
