@@ -187,7 +187,7 @@ plt.barh(category, minLength)
 
 plt.show()
 ```
-In this plot you can see the range, per category, of the Minimum Length and Maximum length of a given bird category. You can safely say that, given this data, the bigger the bird, the larger its length range. Fascinating!
+In this plot, you can see the range per bird category of the Minimum Length and Maximum length. You can safely say that, given this data, the bigger the bird, the larger its length range. Fascinating!
 
 ![superimposed values](images/superimposed.png)
 
