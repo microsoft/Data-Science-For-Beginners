@@ -97,7 +97,7 @@ What did you discover?
 ![outliers](images/labeled-wingspan.png)
 ## Filter your data
 
-Both the Bald Eagle and the Prairie Falcon, while probably very large birds, appear to be mislabeled, with an extra `0` added to their maximum wingspan. It's unlikely that you'll meet a Bald Eagle with a 25 meter wingspan, but if so, please let us know! Let's create a new dataframe without those two outliers:
+Both the Bald Eagle and the Prairie Falcon, while probably very large birds, appear to be mislabeled, with an extra `0` added to their maximum wingspan. It's unlikely that you'll meet a Bald Eagle with a 25 meters wingspan, but if so, please let us know! Let's create a new dataframe without those two outliers:
 
 ```python
 plt.title('Max Wingspan in Centimeters')
