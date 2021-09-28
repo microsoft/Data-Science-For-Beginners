@@ -46,4 +46,4 @@ All the topics in this lesson can help identify missing or inconsistent values, 
 
 ## Assignment
 
-[Assignment Title](assignment.md)
+[Exploring for answers](assignment.md)
