@@ -142,7 +142,7 @@ birds.plot(x='Category',
 ```
 ![full data as a bar chart](images/full-data-bar.png)
 
-This bar chart, however, is unreadable because there is too much non-grouped data. You need to select only the data that you want to chart, so let's look at the length of birds based on their category. 
+This bar chart, however, is unreadable because there is too much non-grouped data. You need to select only the data that you want to plot, so let's look at the length of birds based on their category. 
 
 Filter your data to include only the bird's category. 
 
