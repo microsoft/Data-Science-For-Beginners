@@ -125,7 +125,7 @@ While line and scatter plots can display information about data values and their
 > How many are there of the various genus and orders in Linnaeus's terminology?
 ## Explore bar charts
 
-Bar charts are very useful when you need to show groupings of data. Let's explore the categories of birds that exist in this dataset to see which is the most common by number.
+Bar charts are practical when you need to show groupings of data. Let's explore the categories of birds that exist in this dataset to see which is the most common by number.
 
 In the notebook file, create a basic bar chart
 
