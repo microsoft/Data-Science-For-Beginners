@@ -56,7 +56,7 @@ wingspan.plot()
 
 What do you notice immediately? There seems to be at least one outlier - that's quite a wingspan! A 2300 centimeter wingspan equals 23 meters - are there Pterodactyls roaming Minnesota? Let's investigate.
 
-While you could  do a quick sort in Excel to find those outliers, which are probably typoscontinue the visualization process by working from within the plot.
+While you could  do a quick sort in Excel to find those outliers, which are probably typos, continue the visualization process by working from within the plot.
 
 Add labels to the x-axis to show what kind of birds are in question:
 
