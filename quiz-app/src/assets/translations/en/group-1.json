@@ -9,7 +9,7 @@
         "title": "Defining Data Science - Pre Quiz",
         "quiz": [
           {
-            "questionText": "Why there is a word Science in Data Science?",
+            "questionText": "Why is the word _Science_ in Data Science?",
             "answerOptions": [
               {
                 "answerText": "It uses scientific methods to analyze data",
@@ -73,17 +73,13 @@
                 "isCorrect": "false"
               },
               {
-                "answerText": "Big Data",
-                "isCorrect": "false"
-              },
-              {
                 "answerText": "All of the above",
                 "isCorrect": "true"
               }
             ]
           },
           {
-            "questionText": "Which of the following is the example of non-structured data?",
+            "questionText": "Which of the following is an example of non-structured data?",
             "answerOptions": [
               {
                 "answerText": "List of students in class",
@@ -111,7 +107,7 @@
                 "isCorrect": "false"
               },
               {
-                "answerText": "to be able to take decisions based on data",
+                "answerText": "to be able to make decisions based on data",
                 "isCorrect": "true"
               }
             ]
@@ -170,8 +166,7 @@
             ]
           }
         ]
-      }
-      ,
+      },
       {
         "id": 3,
         "title": "Ethics - Post-Quiz",
@@ -262,7 +257,7 @@
                 "isCorrect": "true"
               },
               {
-                "answerText": "Student’s marks or grades",
+                "answerText": "Students' marks or grades",
                 "isCorrect": "false"
               }
             ]

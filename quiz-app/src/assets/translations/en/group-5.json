@@ -71,7 +71,7 @@
               {
                 "answerText": "Using Machine Learning and data intelligence services",
                 "isCorrect": "false"
-              },              
+              },
               {
                 "answerText": "Processing large amounts of data",
                 "isCorrect": "false"
@@ -153,7 +153,7 @@
             ]
           },
           {
-            "questionText": "You don't need to have expertise in coding do use Azure ML.",
+            "questionText": "You don't need to have expertise in coding to use Azure ML.",
             "answerOptions": [
               {
                 "answerText": "True",

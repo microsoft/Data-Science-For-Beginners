@@ -45,10 +45,7 @@
                 "answerText": "Cleaning data",
                 "isCorrect": "false"
               },
-              {
-                "answerText": "Where the data will be stored",
-                "isCorrect": "false"
-              },
+
               {
                 "answerText": "Keeping the data secure",
                 "isCorrect": "false"
@@ -103,10 +100,6 @@
             "questionText": "What are some common techniques in the processing stage?",
             "answerOptions": [
               {
-                "answerText": "Processing",
-                "isCorrect": "false"
-              },
-              {
                 "answerText": "Clustering",
                 "isCorrect": "true"
               },
@@ -159,10 +152,6 @@
           {
             "questionText": "What are some things a data scientist will do when exploring data? ",
             "answerOptions": [
-              {
-                "answerText": "Queries",
-                "isCorrect": "false"
-              },
               {
                 "answerText": "Sampling",
                 "isCorrect": "false"
