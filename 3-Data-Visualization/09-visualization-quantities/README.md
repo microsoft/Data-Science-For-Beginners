@@ -56,7 +56,7 @@ wingspan.plot()
 
 What do you notice immediately? There seems to be at least one outlier - that's quite a wingspan! A 2300 centimeter wingspan equals 23 meters - are there Pterodactyls roaming Minnesota? Let's investigate.
 
-While you could  do a quick sort in Excel to find those outliers, which are probably typos. Let's continue the visualization process by working from within the plot.
+While you could  do a quick sort in Excel to find those outliers, which are probably typoscontinue the visualization process by working from within the plot.
 
 Add labels to the x-axis to show what kind of birds are in question:
 
@@ -97,7 +97,7 @@ What did you discover?
 ![outliers](images/labeled-wingspan.png)
 ## Filter your data
 
-Both the Bald Eagle and the Prairie Falcon, while probably very large birds, appear to be mislabeled, with an extra `0` added to their maximum wingspan. It's unlikely that you'll meet a Bald Eagle with a 25 meters wingspan, but if so, please let us know! Let's create a new dataframe without those two outliers:
+Both the Bald Eagle and the Prairie Falcon, while probably very large birds, appear to be mislabeled, with an extra `0` added to their maximum wingspan. It's unlikely that you'll meet a Bald Eagle with a 25 meter wingspan, but if so, please let us know! Let's create a new dataframe without those two outliers:
 
 ```python
 plt.title('Max Wingspan in Centimeters')
@@ -129,7 +129,7 @@ Bar charts are practical when you need to show groupings of data. Let's explore 
 
 In the notebook file, create a basic bar chart
 
-> 🔑 **Note:** You can either filter out the two outlier birds we identified in the previous section, edit the typo in their wingspan, or leave them in for these exercises which do not depend on wingspan values.
+✅ Note, you can either filter out the two outlier birds we identified in the previous section, edit the typo in their wingspan, or leave them in for these exercises which do not depend on wingspan values.
 
 If you want to create a bar chart, you can select the data you want to focus on. Bar charts can be created from raw data:
 
@@ -146,7 +146,7 @@ This bar chart, however, is unreadable because there is too much non-grouped dat
 
 Filter your data to include only the bird's category. 
 
-> 🔑 **Note:** Notice that you use Pandas to manage the data, and then let Matplotlib do the charting.
+✅ Notice that that you use Pandas to manage the data, and then let Matplotlib do the charting.
 
 Since there are many categories, you can display this chart vertically and tweak its height to account for all the data:
 
@@ -159,7 +159,7 @@ category_count.plot.barh()
 
 This bar chart shows a good view of the number of birds in each category. In a blink of an eye, you see that the largest number of birds in this region are in the Ducks/Geese/Waterfowl category. Minnesota is the 'land of 10,000 lakes' so this isn't surprising!
 
-Try some other counts on this dataset. 😄
+✅ Try some other counts on this dataset. Does anything surprise you?
 
 ## Comparing data
 
@@ -173,7 +173,7 @@ plt.show()
 ```
 ![comparing data](images/category-length.png)
 
-Nothing is surprising here: Hummingbirds have the least MaxLength compared to Pelicans or Geese. It's good when data makes logical sense!
+Nothing is surprising here: hummingbirds have the least MaxLength compared to Pelicans or Geese. It's good when data makes logical sense!
 
 You can create more interesting visualizations of bar charts by superimposing data. Let's superimpose Minimum and Maximum Length on a given bird category:
 
