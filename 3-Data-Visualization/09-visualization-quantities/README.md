@@ -118,7 +118,7 @@ By filtering out outliers, your data is now more cohesive and understandable.
 
 Now that we have a cleaner dataset at least in terms of wingspan, let's discover more about these birds.
 
-While line and scatter plots can display information about data values and their distributions, we want to think about the values inherent in this dataset. You could create visualizations to answer this following questions about quantity:
+While line and scatter plots can display information about data values and their distributions, we want to think about the values inherent in this dataset. You could create visualizations to answer the following questions about quantity:
 
 > How many categories of birds are there, and what are their numbers?
 > How many birds are extinct, endangered, rare, or common?
