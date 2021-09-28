@@ -28,8 +28,6 @@ Most cloud computing services fall into three categories: Infrastructure as a Se
 * Software as a Service (SaaS): users get access to software applications over the Internet, on demand and typically on a subscription basis. Users don’t need to worry about hosting and managing the software application, the underlying infrastructure or the maintenance, like software upgrades and security patching. 
 
 Some of the largest Cloud providers are Amazon Web Services, Google Cloud Platform and Microsoft Azure.
-
-
 ## Why Choose the Cloud for Data Science? 
 
 Developers and IT professionals chose to work with the Cloud for many reasons, including the following: 
@@ -71,8 +69,6 @@ The steps necessary to create this project are as follows:
 * Start the job 
 
 To view the full process, check out the [documentation](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends?WT.mc_id=academic-40229-cxa&ocid=AID30411099).
-
-
 ### Scientific papers analysis
 Let’s take another example of a project created by [Dmitry Soshnikov](http://soshnikov.com), one of the authors of this curriculum. 
 
@@ -87,8 +83,6 @@ Let's see the different steps used for this:
 To see the full process, visit [Dmitry’s blog](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/). 
  
 As you can see, we can leverage Cloud services in many ways to perform Data Science. 
-
-
 ## Footnote
 
 Sources:
@@ -99,3 +93,7 @@ Sources:
 ## Post-Lecture Quiz
 
 [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/33)
+
+## Assignment
+
+[Market Research](assignment.md)
