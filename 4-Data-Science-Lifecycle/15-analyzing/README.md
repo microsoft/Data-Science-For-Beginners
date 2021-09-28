@@ -28,10 +28,10 @@ In a few of the previous lessons, we have used Pandas to provide some descriptiv
 
 ## Sampling and Querying
 Exploring everything in a large dataset can be very time consuming and a task that’s usually left up to a computer to do. However, sampling is a helpful tool in understanding of the data and allows us to have a better understanding of what’s in the dataset and what it represents. With a sample, you can apply probability and statistics to come to some general conclusions about your data. While there’s no defined rule on how much data you should sample it’s important to note that the more data you sample, the more precise of a generalization you can make of about data. 
-Pandas has the [`sample()` function in its library]( https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html) where you can pass an argument of how many random samples you’d like to receive and use. 
+Pandas has the [`sample()` function in its library](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html) where you can pass an argument of how many random samples you’d like to receive and use. 
 
 General querying of the data can help you answer some general questions and theories you may have. In contrast to sampling, queries allow you to have control and focus on specific parts of the data you have questions about. 
-The [`query() `function]( https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.query.html) in the Pandas library allows you to select columns and receive simple answers about the data through the rows retrieved.
+The [`query() `function](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.query.html) in the Pandas library allows you to select columns and receive simple answers about the data through the rows retrieved.
 
 ## Exploring with Visualizations
 You don’t have to wait until the data is thoroughly cleaned and analyzed to start creating visualizations. In fact, having a visual representation while exploring can help identify patterns, relationships, and problems in the data. Furthermore, visualizations provide a means of communication with those who are not involved with managing the data and can be an opportunity to share and clarify additional questions that were not addressed in the capture stage. Refer to the [section on Visualizations](3-Data-Visualization) to learn more about some popular ways to explore visually.
@@ -43,10 +43,6 @@ All the topics in this lesson can help identify missing or inconsistent values, 
 ## 🚀 Challenge
 
 ## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/27)
-
-
-## Review & Self Study
-
 
 ## Assignment
 
