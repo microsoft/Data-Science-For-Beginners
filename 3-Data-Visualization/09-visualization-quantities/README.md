@@ -173,7 +173,7 @@ plt.show()
 ```
 ![comparing data](images/category-length.png)
 
-Nothing is surprising here: hummingbirds have the least MaxLength compared to Pelicans or Geese. It's good when data makes logical sense!
+Nothing is surprising here: Hummingbirds have the least MaxLength compared to Pelicans or Geese. It's good when data makes logical sense!
 
 You can create more interesting visualizations of bar charts by superimposing data. Let's superimpose Minimum and Maximum Length on a given bird category:
 
