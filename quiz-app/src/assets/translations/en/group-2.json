@@ -9,7 +9,7 @@
         "title": "Relational Databases - Pre Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "A database can be considered a table with columns and rows",
             "answerOptions": [
               {
                 "answerText": "True",
@@ -22,36 +22,36 @@
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "Most databases are comprised of",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "one table",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "one spreadsheet",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "many tables",
                 "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "You can avoid duplicating column names by",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "creating many tables",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "creating tables with relationships built in",
                 "isCorrect": "true"
+              },
+              {
+                "answerText": "sticking to one big table",
+                "isCorrect": "false"
               }
             ]
           }
@@ -62,49 +62,49 @@
         "title": "Relational Databases - Post Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "A primary key is",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "a value used to identify one specific row in a table",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "a value used to make values unique",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "a value used to force capitalization",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "A numeric 'ID' column would be a good primary key",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "the use of neural networks",
+                "answerText": "true",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "false",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "A foreign key is used to",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
+                "answerText": "values that reference the ids in a separate table",
                 "isCorrect": "true"
+              },
+              {
+                "answerText": "values that reference the strings in a separate table",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "preserve values that change over time",
+                "isCorrect": "false"
               }
             ]
           }
@@ -160,7 +160,7 @@
                 "isCorrect": "false"
               }
             ]
-          }       
+          }
         ]
       },
       {
@@ -177,7 +177,7 @@
               {
                 "answerText": "Key-value",
                 "isCorrect": "false"
-              },              
+              },
               {
                 "answerText": "Columnar",
                 "isCorrect": "false"

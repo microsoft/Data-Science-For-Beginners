@@ -20,7 +20,7 @@ Let's begin our exploration by starting a table to store information about citie
 | Atlanta  | United States |
 | Auckland | New Zealand   |
 
-Notice the column names of **city**, **country** and **population** to describe the data being stored, and each row has information about once city.
+Notice the column names of **city**, **country** and **population** describe the data being stored, and each row has information about one city.
 
 ## The shortcomings of a single table approach
 
@@ -58,7 +58,7 @@ Let's return to our data and determine how we want to split things up. We know w
 
 But before we create the next table, we need to figure out how to reference each city. We need some form of an identifier, ID or (in technical database terms) a primary key. A primary key is a value used to identify one specific row in a table. While this could be based on a value itself (we could use the name of the city, for example), it should almost always be a number or other identifier. We don't want the id to ever change as it would break the relationship. You will find in most cases the primary key or id will be an auto-generated number.
 
-> [!NOTE] Foreign key is frequently abbreviated as PK
+> ✅ Primary key is frequently abbreviated as PK
 
 ### cities
 
@@ -68,7 +68,7 @@ But before we create the next table, we need to figure out how to reference each
 | 2       | Atlanta  | United States |
 | 3       | Auckland | New Zealand   |
 
-> [NOTE] You will notice we use the terms "id" and "primary key" interchangeably during this lesson. The concepts here apply to DataFrames, which you will explore later. DataFrames don't use the terminology of "primary key", however you will notice they behave much in the same way.
+> ✅ You will notice we use the terms "id" and "primary key" interchangeably during this lesson. The concepts here apply to DataFrames, which you will explore later. DataFrames don't use the terminology of "primary key", however you will notice they behave much in the same way.
 
 With our cities table created, let's store the rainfall. Rather than duplicating the full information about the city, we can use the id. We should also ensure the newly created table has an *id* column as well, as all tables should have an id or primary key.
 
