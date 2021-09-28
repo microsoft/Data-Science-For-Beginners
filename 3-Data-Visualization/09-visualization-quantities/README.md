@@ -129,7 +129,7 @@ Bar charts are practical when you need to show groupings of data. Let's explore 
 
 In the notebook file, create a basic bar chart
 
-✅ Note, you can either filter out the two outlier birds we identified in the previous section, edit the typo in their wingspan, or leave them in for these exercises which do not depend on wingspan values.
+> 🔑 **Note:** You can either filter out the two outlier birds we identified in the previous section, edit the typo in their wingspan, or leave them in for these exercises which do not depend on wingspan values.
 
 If you want to create a bar chart, you can select the data you want to focus on. Bar charts can be created from raw data:
 
@@ -146,7 +146,7 @@ This bar chart, however, is unreadable because there is too much non-grouped dat
 
 Filter your data to include only the bird's category. 
 
-✅ Notice that you use Pandas to manage the data, and then let Matplotlib do the charting.
+> 🔑 **Note:** Notice that you use Pandas to manage the data, and then let Matplotlib do the charting.
 
 Since there are many categories, you can display this chart vertically and tweak its height to account for all the data:
 
@@ -159,7 +159,7 @@ category_count.plot.barh()
 
 This bar chart shows a good view of the amount of birds in each category. In a blink of an eye, you see that the largest number of birds in this region are in the Ducks/Geese/Waterfowl category. Minnesota is the 'land of 10,000 lakes' so this isn't surprising!
 
-✅ Try some other counts on this dataset. Does anything surprise you?
+Try some other counts on this dataset. Does anything surprise you?
 
 ## Comparing data
 
