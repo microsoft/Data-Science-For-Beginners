@@ -82,3 +82,11 @@ You can run this documentation offline by using [Docsify](https://docsify.js.org
 ## PDF
 
 A PDF of all of the lessons can be found [here](pdf/readme.pdf)
+
+## Other Curricula
+
+Our team produces other curricula! Check out:
+
+- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
+- [IoT for Beginners](https://aka.ms/iot-beginners)
+- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
