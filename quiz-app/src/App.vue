@@ -5,7 +5,7 @@
       <label for="locale">locale</label>
       <select v-model="locale">
         <option>en</option>
-        <option>fr</option>
+        <!--<option>fr</option>-->
       </select>
 
       <span class="title">{{ questions[locale][0].title }}</span>
