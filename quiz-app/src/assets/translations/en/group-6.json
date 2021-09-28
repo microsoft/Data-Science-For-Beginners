@@ -9,49 +9,53 @@
         "title": "Data Science In the Wild - Pre-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "Data Science can be used in many industries such as",
             "answerOptions": [
               {
-                "answerText": "True",
+                "answerText": "Finance and the Humanities",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Agriculture and Manufacturing",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "All of these and more",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "Data Science in the context of research can be focus on:",
+            "answerOptions": [
+              {
+                "answerText": "innovation opportunities",
                 "isCorrect": "true"
               },
               {
-                "answerText": "False",
+                "answerText": "error handling",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "boosting sales",
                 "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "The 'Gender Shades Study' focused on",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "transforming gender discourse",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "the biases inherent in facial analytics",
                 "isCorrect": "true"
               },
               {
-                "answerText": "deep learning is used in robots",
+                "answerText": "neither of these",
                 "isCorrect": "false"
-              }
-            ]
-          },
-          {
-            "questionText": "q3",
-            "answerOptions": [
-              {
-                "answerText": "to automate the solving of multi-dimensional problems",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "to customize a shopping experience based on the type of customer",
-                "isCorrect": "false"
-              },
-              {
-                "answerText": "both of the above",
-                "isCorrect": "true"
               }
             ]
           }
@@ -62,7 +66,7 @@
         "title": "Data Science In the Wild - Post-Quiz",
         "quiz": [
           {
-            "questionText": "quiz 2 question 2",
+            "questionText": "Digital Humanities is a practice that combines computational methods with humanistic inquiry",
             "answerOptions": [
               {
                 "answerText": "True",
@@ -75,31 +79,31 @@
             ]
           },
           {
-            "questionText": "q2",
+            "questionText": "Use Data Science for sustainability research by",
             "answerOptions": [
               {
-                "answerText": "classical ML was invented first",
+                "answerText": "studying deforestation",
                 "isCorrect": "false"
               },
               {
-                "answerText": "the use of neural networks",
+                "answerText": "studying climate change data",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "both of these",
                 "isCorrect": "true"
-              },
-              {
-                "answerText": "deep learning is used in robots",
-                "isCorrect": "false"
               }
             ]
           },
           {
-            "questionText": "q3",
+            "questionText": "In finance, you can use data science for",
             "answerOptions": [
               {
-                "answerText": "to automate the solving of multi-dimensional problems",
+                "answerText": "research on your financial services",
                 "isCorrect": "false"
               },
               {
-                "answerText": "to customize a shopping experience based on the type of customer",
+                "answerText": "to customize mutual fund options based on the type of customer",
                 "isCorrect": "false"
               },
               {

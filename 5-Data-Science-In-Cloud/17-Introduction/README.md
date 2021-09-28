@@ -47,9 +47,8 @@ Developers and IT professionals chose to work with the Cloud for many reasons, i
 * Storing large amounts of data: instead of buying, managing and protecting big servers, you can store your data directly in the cloud, with solutions such as Azure Cosmos DB, Azure SQL Database and Azure Data Lake Storage.
 * Performing Data Integration: data integration is an essential part of Data Science, that lets you make a transition from data collection to taking actions. With data integration services offered in the cloud, you can collect, transform and integrate data from various sources into a single data warehouse, with Data Factory. 
 * Processing data: processing vast amounts of data requires a lot of computing power, and not everyone has access to machines powerful enough for that, which is why many people choose to directly harness the cloud’s huge computing power to run and deploy their solutions. 
-* Using data analytics services: cloud services like Azure Synapse Analytics, Azure Stream Analytics and Azure Databricksto help you turn your data into actionable insights. 
+* Using data analytics services: cloud services like Azure Synapse Analytics, Azure Stream Analytics and Azure Databricks to help you turn your data into actionable insights. 
 * Using Machine Learning and data intelligence services: Instead of starting from scratch, you can use machine learning algorithms offered by the cloud provider, with services such as AzureML. You can also use cognitive services such as speech-to-text, text to speech, computer vision and more.
- 
 
 ## Examples of Data Science in the Cloud 
 

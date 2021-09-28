@@ -1,15 +1,17 @@
 # Data Science in the Real World
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png)|
-|:---:|
-| Data Science In The Real World - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png) |
+| :--------------------------------------------------------------------------------------------------------------: |
+|               Data Science In The Real World - _Sketchnote by [@nitya](https://twitter.com/nitya)_               |
 
 We're almost at the end of this learning journey!
 
 We started with definitions of data science and ethics, explored various tools & techniques for data analysis and visualization, reviewed the data science lifecycle, and looked at scaling and automating data science workflows with cloud computing services. So, you're probably wondering: _"How exactly do I map all these learnings to real-world contexts?"_
 
 In this lesson, we'll explore real-world applications of data science across industry and dive into specific examples in the research, digital humanities, and sustainability, contexts. We'll look at student project opportunities and conclude with useful resources to help you continue your learning journey!
+## Pre-Lecture Quiz
 
+[Pre-lecture quiz]()
 ## Data Science + Industry
 
 Thanks to the democratization of AI, developers are now finding it easier to design and integrate AI-driven decision-making and data-driven insights into user experiences and development workflows. Here are a few examples of how data science is "applied" to real-world applications across the industry:
@@ -28,10 +30,9 @@ Thanks to the democratization of AI, developers are now finding it easier to des
 
  * [Data Science in Healthcare](https://data-flair.training/blogs/data-science-in-healthcare/) - highlights applications like medical imaging (e.g., MRI, X-Ray, CT-Scan), genomics (DNA sequencing), drug development (risk assessment, success prediction), predictive analytics (patient care & supply logistics), disease tracking & prevention etc.
 
-![Data Science Applications in The Real World](data-science-applications.png) Image Credit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Data Science Applications in The Real World](./images/data-science-applications.png) Image Credit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 The figure shows other domains and examples for applying data science techniques. Want to explore other applications? Check out the [Review & Self Study](?id=review-amp-self-study) section below.
-
 
 ## Data Science + Research
 
@@ -63,16 +64,16 @@ Results showed that though overall classification accuracy was good, there was a
 
 ## Data Science + Humanities
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Humanities.png)|
-|:---:|
-| Data Science & Digital Humanities - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Humanities.png) |
+| :---------------------------------------------------------------------------------------------------------------: |
+|              Data Science & Digital Humanities - _Sketchnote by [@nitya](https://twitter.com/nitya)_              |
 
 
 Digital Humanities [has been defined](https://digitalhumanities.stanford.edu/about-dh-stanford) as "a collection of practices and approaches combining computational methods with humanistic inquiry". [Stanford projects](https://digitalhumanities.stanford.edu/projects) like _"rebooting history"_ and _"poetic thinking"_ illustrate the linkage between [Digital Humanities and Data Science](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science) - emphasizing techniques like network analysis, information visualization, spatial and text analysis that can help us revisit historical and literary data sets to derive new insights and perspective.
 
 *Want to explore and extend a project in this space?*
 
-Check out ["Emily Dickinson and the Meter of Mood"](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671) - a great example from [Jen Looper](https://twitter.com/jenlooper) that asks how we can use data science to revisit familiar poetry and re-evaluate its meaning and the contributions of its author in new contexts. For instance, _can we predict the year in which a poem was authored by analyzing its tone or sentiment_ - and what does this tell us about the author's state of mind over the relevant period?
+Check out ["Emily Dickinson and the Meter of Mood"](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671) - a great example from [Jen Looper](https://twitter.com/jenlooper) that asks how we can use data science to revisit familiar poetry and re-evaluate its meaning and the contributions of its author in new contexts. For instance, _can we predict the season in which a poem was authored by analyzing its tone or sentiment_ - and what does this tell us about the author's state of mind over the relevant period?
 
 To answer that question, we follow the steps of our data science lifecycle:
  * [`Data Acquisition`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#acquiring-the-dataset) - to collect a relevant dataset for analysis. Options including using an API ( e.g., [Poetry DB API](https://poetrydb.org/index.html)) or scraping web pages  (e.g., [Project Gutenberg](https://www.gutenberg.org/files/12242/12242-h/12242-h.htm)) using tools like [Scrapy](https://scrapy.org/).
@@ -81,6 +82,8 @@ To answer that question, we follow the steps of our data science lifecycle:
  * [`Sentiment Analysis`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#sentiment-analysis-using-cognitive-services) - explains how we can integrate cloud services like Text Analytics, using low-code tools like [Power Automate](https://flow.microsoft.com/en-us/) for automated data processing workflows.
 
 Using this workflow, we can explore the seasonal impacts on the sentiment of the poems, and help us fashion our own perspectives on the author. Try it out yourself - then extend the notebook to ask other questions or visualize the data in new ways!
+
+> You can use some of the tools in the [Digital Humanities toolkit](https://github.com/Digital-Humanities-Toolkit) to pursue these avenues of inquiry
 
 
 ## Data Science + Sustainability
@@ -100,9 +103,7 @@ Tackling these challenges in a scalable and timely manner requires cloud-scale t
 * [Explore documentation](https://planetarycomputer.microsoft.com/docs/overview/about) to understand supported datasets and APIs.
 * Explore applications like [Ecosystem Monitoring](https://analytics-lab.org/ecosystemmonitoring/) for inspiration on application ideas.
   
-
 Think about how you can use data visualization to expose or amplify relevant insights into areas like climate change and deforestation. Or think about how insights can be used to create new user experiences that motivate behavioral changes for more sustainable living. 
-
 
 ## Data Science + Students
 
@@ -115,20 +116,12 @@ Here are some examples of data science student projects to inspire you.
     - [Reliability of NYC Subway System](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2018-exploring-the-reliability-of-the-nyc-subway-system/) | [Github](https://github.com/msr-ds3/nyctransit)
  * [Digitizing Material Culture: Exploring socio-economic distributions in Sirkap](https://claremont.maps.arcgis.com/apps/Cascade/index.html?appid=bdf2aef0f45a4674ba41cd373fa23afc)- from [Ornella Altunyan](https://twitter.com/ornelladotcom) and team at Claremont, using using [ArcGIS StoryMaps](https://storymaps.arcgis.com/).
 
-Also search for articles that recommend data science projects that are beginner friendly - like [these 50 topic areas](https://www.upgrad.com/blog/data-science-project-ideas-topics-beginners/) or [these 21 project ideas](https://www.intellspot.com/data-science-project-ideas) or [these 16 projects with source code](https://data-flair.training/blogs/data-science-project-ideas/) that you can deconstruct and remix. And don't forget to blog about your learning journeys and share your insights with all of us.
-
-
-## Pre-Lecture Quiz
-
-[Pre-lecture quiz]()
-
 ## 🚀 Challenge
 
-
+Search for articles that recommend data science projects that are beginner friendly - like [these 50 topic areas](https://www.upgrad.com/blog/data-science-project-ideas-topics-beginners/) or [these 21 project ideas](https://www.intellspot.com/data-science-project-ideas) or [these 16 projects with source code](https://data-flair.training/blogs/data-science-project-ideas/) that you can deconstruct and remix. And don't forget to blog about your learning journeys and share your insights with all of us.
 ## Post-Lecture Quiz
 
 [Post-lecture quiz]()
-
 ## Review & Self Study
 
 Want to explore more use cases? Here are a few relevant articles:
@@ -136,8 +129,6 @@ Want to explore more use cases? Here are a few relevant articles:
  * [11 Breathtaking Data Science Applications in Real World](https://myblindbird.com/data-science-applications-real-world/) - May 2021
  * [Data Science In The Real World](https://towardsdatascience.com/data-science-in-the-real-world/home) - Article Collection
  * Data Science In: [Education](https://data-flair.training/blogs/data-science-in-education/), [Agriculture](https://data-flair.training/blogs/data-science-in-agriculture/), [Finance](https://data-flair.training/blogs/data-science-in-finance/), [Movies](https://data-flair.training/blogs/data-science-at-movies/) & more.
-
-
 ## Assignment
 
 [Assignment Title](assignment.md)
