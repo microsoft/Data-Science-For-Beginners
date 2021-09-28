@@ -1,23 +1,18 @@
 # Data Science in the Real World
 
-
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png)|
 |:---:|
 | Data Science In The Real World - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
 We're almost at the end of this learning journey!
 
-We started with definitions of data science and ethics, explored various tools & techniques for data analysis, reviewed the data science lifecycle, and looked at scaling and automating data science workflows with cloud computing services. 
+We started with definitions of data science and ethics, explored various tools & techniques for data analysis and visualization, reviewed the data science lifecycle, and looked at scaling and automating data science workflows with cloud computing services. So, you're probably wondering: _"How exactly do I map all these learnings to real-world contexts?"_
 
-And right now, you're probably wondering: "_How do these lessons translate to real-world contexts?_"
+In this lesson, we'll explore real-world applications of data science across industry and dive into specific examples in the research, digital humanities, and sustainability, contexts. We'll look at student project opportunities and conclude with useful resources to help you continue your learning journey!
 
-In this lesson, we'll talk about the real-world applications of data science and dive into a select few examples that explore data science in research, sustainability and digital humanities contexts. And we'll conclude with resources to help you continue the learning journey and explore some of these application ideas on your own.
+## Data Science + Industry
 
-## Where is Data Science Used Today?
-
-Data Science technologies and techniques are finding a home in almost every industry today - thanks in no small part due to the democratization of AI, allowing developers to integrate data insights and decision-making intelligence into user experiences and workflows.
-
-Here are some examples of "applied" data science in the real world:
+Thanks to the democratization of AI, developers are now finding it easier to design and integrate AI-driven decision-making and data-driven insights into user experiences and development workflows. Here are a few examples of how data science is "applied" to real-world applications across the industry:
 
  * [Google Flu Trends](https://www.wired.com/2015/10/can-learn-epic-failure-google-flu-trends/) used data science to correlate search terms with flu trends. While the approach had flaws, it raised awareness of the possibilities (and challenges) of data-driven healthcare predictions.
 
@@ -35,29 +30,38 @@ Here are some examples of "applied" data science in the real world:
 
 ![Data Science Applications in The Real World](data-science-applications.png) Image Credit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
-There are many other application domains to consider (see the image above as one example) - check out the [Review & Self Study](?id=review-amp-self-study) section for some relevant resources. For now, let's take a slightly deeper look at a few interesting examples in the following sections.
+The figure shows other domains and examples for applying data science techniques. Want to explore other applications? Check out the [Review & Self Study](?id=review-amp-self-study) section below.
 
 
-## Research: Gender Shades Study
+## Data Science + Research
 
-Researchers are often the earliest members of the technical community to explore real-world applications for big data algorithms and applied AI. The focus is often on both _exploring opportunities_ to do good and _uncovering challenges_ that lead to potential harms or unintended consequences.
+While real-world applications often focus on industry use cases at scale, _research_ applications and projects can be useful from two perspectives:
 
-Let's talk about one example - the [Gender Shades](http://gendershades.org/overview.html) project from MIT, one of the earliest to explore data ethics topics like fairness and bias, to highlight the need for more transparency in algorithm design and AI, and demand more inclusive testing of products.
+* _innovation opportunities_ - explore rapid prototyping of advanced concepts and testing of user experiences for next-generation applications.
+* _deployment challenges_ - investigate potential harms or unintended consequences of data science technologies in real-world contexts.
 
-The project evaluated the accuracy of AI-powered _gender classification_ products (from companies like IBM, Microsoft and Face++) using a dataset of 1270 images (from African and European countries) as the benchmark. While overall accuracy of classification was high for all products, the study identified non-trivial differences in the error rates _between different groups of users_, with misgendering being higher for female subjects or those with darker skin. 
+For students, these research projects can provide both learning and collaboration opportunities that can improve your understanding of the topic, and broaden your awareness and engagement with relevant people or teams working in areas of interest. So what do research projects look like and how can they make an impact?
 
-The study had broader implications for facial analysis algorithms as a whole, highlighting the potential for individual and social harms when used in contexts like law enforcement or hiring. Many organizations have since created _responsible AI_ principles and practices to improve the fairness of AI systems.
+Let's look at one example - the [MIT Gender Shades Study](http://gendershades.org/overview.html) from Joy Buolamwini (MIT Media Labs) with a [signature research paper](http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) co-authored with Timnit Gebru (then at Microsoft Research) that focused on 
+
+ * **What:** The objective of the research project was to _evaluate bias present in automated facial analysis algorithms and datasets_ based on gender and skin type. 
+ * **Why:** Facial analysis is used in areas like law enforcement, airport security, hiring systems and more - contexts where inaccurate classifications (e.g., due to bias) can cause potential economic and social harms to affected individuals or groups. Understanding (and eliminating or mitigating) biases is key to fairness in usage.
+ * **How:** Researchers recongized that existing benchmarks used predominantly lighter-skinned subjects, and curated a new data set (1000+ images) that was _more balanced_ by gender and skin type. The data set was used to evaluate the accuracy of three gender classification products (from Microsoft, IBM & Face++). 
+
+Results showed that though overall classification accuracy was good, there was a noticeable difference in error rates between various subgroups - with **misgendering** being higher for females or persons with darker skin types, indicative of bias.
+
+**Key Outcomes:** Raised awareness that data science needs more _representative datasets_ (balanced subgroups) and more _inclusive teams_ (diverse backgrounds) to recognize and eliminate or mitigate such biases earlier in AI solutions. Research efforts like this are also instrumental in many organizations defining principles and practices for _responsible AI_ to improve fairness across their AI products and processes.
 
 
 **Want to learn about relevant research efforts in Microsoft?** 
 
-* Check out these [Microsoft Research Projects](https://www.microsoft.com/research/research-area/artificial-intelligence/?facet%5Btax%5D%5Bmsr-research-area%5D%5B%5D=13556&facet%5Btax%5D%5Bmsr-content-type%5D%5B%5D=msr-project)
-* Explore student projects and coursework from the [Microsoft Research Data Science Summer School](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/).
-* Check out the [Fairlearn](https://fairlearn.org/) open-source, community-driven effort to improve fairness in AI systems.
+* Check out [Microsoft Research Projects](https://www.microsoft.com/research/research-area/artificial-intelligence/?facet%5Btax%5D%5Bmsr-research-area%5D%5B%5D=13556&facet%5Btax%5D%5Bmsr-content-type%5D%5B%5D=msr-project) on Artificial Intelligence.
+* Explore student projects from [Microsoft Research Data Science Summer School](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/).
+* Check out the [Fairlearn](https://fairlearn.org/) project and [Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6) initiatives.
 
 
 
-## Digital Humanities: Poetics 
+## Data Science + Humanities
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Humanities.png)|
 |:---:|
@@ -79,22 +83,39 @@ To answer that question, we follow the steps of our data science lifecycle:
 Using this workflow, we can explore the seasonal impacts on the sentiment of the poems, and help us fashion our own perspectives on the author. Try it out yourself - then extend the notebook to ask other questions or visualize the data in new ways!
 
 
-## Sustainability: Planetary Data
+## Data Science + Sustainability
 
 The [2030 Agenda For Sustainable Development](https://sdgs.un.org/2030agenda) - adopted by all United Nations members in 2015 - identifies 17 goals including ones that focus on **Protecting the Planet** from degradation and the impact of climate change. The [Microsoft Sustainability](https://www.microsoft.com/en-us/sustainability) initiative supports these goals by exploring ways in which technology solutions can support and build more sustainable futures with a [focus on 4 goals](https://dev.to/azure/a-visual-guide-to-sustainable-software-engineering-53hh) - being carbon negative, water positive, zero waste, and bio-diverse by 2030.
 
-Tackling these challenges in a scalable and timely manner requires cloud-scale thinking - and large scale data. That's where the [Planetary Computer](https://planetarycomputer.microsoft.com/) initiative. It consists of 4 components:
+Tackling these challenges in a scalable and timely manner requires cloud-scale thinking - and large scale data. The [Planetary Computer](https://planetarycomputer.microsoft.com/) initiative provides 4 components to help data scientists and developers in this effort:
  
- * [Data Catalog](https://planetarycomputer.microsoft.com/catalog) - with petabytes of data on Earth systems, hosted on Azure, available for free.
+ * [Data Catalog](https://planetarycomputer.microsoft.com/catalog) - with petabytes of Earth Systems data (free & Azure-hosted).
  * [Planetary API](https://planetarycomputer.microsoft.com/docs/reference/stac/) - to help users search for relevant data across space and time.
- * [Hub](https://planetarycomputer.microsoft.com/docs/overview/environment/) - a managed environment for scientists to process massive geospatial datasets.
- * [Applications](https://planetarycomputer.microsoft.com/applications) - showcasing use cases and tools using this data, for sustainability insights.
+ * [Hub](https://planetarycomputer.microsoft.com/docs/overview/environment/) - managed environment for scientists to process massive geospatial datasets.
+ * [Applications](https://planetarycomputer.microsoft.com/applications) - showcase use cases & tools for sustainability insights.
 
-Check out [the documentation](https://planetarycomputer.microsoft.com/docs/overview/about) for more details and explore applications like [Ecosystem Monitoring](https://analytics-lab.org/ecosystemmonitoring/) to get ideas for how you can use the data sets to derive useful insights or build applications that can motivate relevant behavioral changes for sustainability.
+**The Planetary Computer Project is currently in preview (as of Sep 2021)** - here's how you can get started contributing to sustainability solutions using data science.
 
-**The Planetary Computer Project is currently in preview (as of Sep 2021)** 
+* [Request access](https://planetarycomputer.microsoft.com/account/request) to start exploration and connect with peers.
+* [Explore documentation](https://planetarycomputer.microsoft.com/docs/overview/about) to understand supported datasets and APIs.
+* Explore applications like [Ecosystem Monitoring](https://analytics-lab.org/ecosystemmonitoring/) for inspiration on application ideas.
+  
 
-Please [request access](https://planetarycomputer.microsoft.com/account/request) to get started with your own exploration and connect with your peers in this space.
+Think about how you can use data visualization to expose or amplify relevant insights into areas like climate change and deforestation. Or think about how insights can be used to create new user experiences that motivate behavioral changes for more sustainable living. 
+
+
+## Data Science + Students
+
+We've talked about real-world applications in industry and research, and explored data science application examples in digital humanities and sustainability. So how can you build your skills and share your expertise as data science beginners?
+
+Here are some examples of data science student projects to inspire you.
+
+ * [MSR Data Science Summer School](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/#!projects) with GitHub [projects](https://github.com/msr-ds3) exploring topics like:
+    - [Racial Bias in Police Use of Force](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2019-replicating-an-empirical-analysis-of-racial-differences-in-police-use-of-force/) | [Github](https://github.com/msr-ds3/stop-question-frisk)
+    - [Reliability of NYC Subway System](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2018-exploring-the-reliability-of-the-nyc-subway-system/) | [Github](https://github.com/msr-ds3/nyctransit)
+ * [Digitizing Material Culture: Exploring socio-economic distributions in Sirkap](https://claremont.maps.arcgis.com/apps/Cascade/index.html?appid=bdf2aef0f45a4674ba41cd373fa23afc)- from [Ornella Altunyan](https://twitter.com/ornelladotcom) and team at Claremont, using using [ArcGIS StoryMaps](https://storymaps.arcgis.com/).
+
+Also search for articles that recommend data science projects that are beginner friendly - like [these 50 topic areas](https://www.upgrad.com/blog/data-science-project-ideas-topics-beginners/) or [these 21 project ideas](https://www.intellspot.com/data-science-project-ideas) or [these 16 projects with source code](https://data-flair.training/blogs/data-science-project-ideas/) that you can deconstruct and remix. And don't forget to blog about your learning journeys and share your insights with all of us.
 
 
 ## Pre-Lecture Quiz
@@ -114,10 +135,7 @@ Want to explore more use cases? Here are a few relevant articles:
  * [17 Data Science Applications and Examples](https://builtin.com/data-science/data-science-applications-examples) - Jul 2021
  * [11 Breathtaking Data Science Applications in Real World](https://myblindbird.com/data-science-applications-real-world/) - May 2021
  * [Data Science In The Real World](https://towardsdatascience.com/data-science-in-the-real-world/home) - Article Collection
- * [Data Science In Education](https://data-flair.training/blogs/data-science-in-education/)
- * [Data Science In Agriculture](https://data-flair.training/blogs/data-science-in-agriculture/)
- * [Data Science in Finance](https://data-flair.training/blogs/data-science-in-finance/)
- * [Data Science at the Movies](https://data-flair.training/blogs/data-science-at-movies/)
+ * Data Science In: [Education](https://data-flair.training/blogs/data-science-in-education/), [Agriculture](https://data-flair.training/blogs/data-science-in-agriculture/), [Finance](https://data-flair.training/blogs/data-science-in-finance/), [Movies](https://data-flair.training/blogs/data-science-at-movies/) & more.
 
 
 ## Assignment
