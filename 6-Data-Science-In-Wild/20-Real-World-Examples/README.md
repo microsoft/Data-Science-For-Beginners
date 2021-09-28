@@ -36,6 +36,10 @@ The figure shows other domains and examples for applying data science techniques
 
 ## Data Science + Research
 
+| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Research.png) |
+| :---------------------------------------------------------------------------------------------------------------: |
+|              Data Science & Research - _Sketchnote by [@nitya](https://twitter.com/nitya)_              |
+
 While real-world applications often focus on industry use cases at scale, _research_ applications and projects can be useful from two perspectives:
 
 * _innovation opportunities_ - explore rapid prototyping of advanced concepts and testing of user experiences for next-generation applications.
@@ -87,6 +91,10 @@ Using this workflow, we can explore the seasonal impacts on the sentiment of the
 
 
 ## Data Science + Sustainability
+
+| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Sustainability.png) |
+| :---------------------------------------------------------------------------------------------------------------: |
+|              Data Science & Sustainability - _Sketchnote by [@nitya](https://twitter.com/nitya)_              |
 
 The [2030 Agenda For Sustainable Development](https://sdgs.un.org/2030agenda) - adopted by all United Nations members in 2015 - identifies 17 goals including ones that focus on **Protecting the Planet** from degradation and the impact of climate change. The [Microsoft Sustainability](https://www.microsoft.com/en-us/sustainability) initiative supports these goals by exploring ways in which technology solutions can support and build more sustainable futures with a [focus on 4 goals](https://dev.to/azure/a-visual-guide-to-sustainable-software-engineering-53hh) - being carbon negative, water positive, zero waste, and bio-diverse by 2030.
 
