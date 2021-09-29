@@ -119,9 +119,6 @@ In most instances, APIs that return JSON data can be directly transferred and st
 
 The fields of interest in this document are: `created_at`, `id`, and `text`.
 
-
-
-
 ## 🚀 Challenge
 
 
