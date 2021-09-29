@@ -144,7 +144,7 @@
               },
               {
                 "answerText": "Data privacy",
-                "isCorrect": "false"
+                "isCorrect": "true"
               },
               {
                 "answerText": "Reliability and safety",
@@ -214,7 +214,7 @@
               },
               {
                 "answerText": "Compliance with ethics regulations",
-                "isCorrect": "true"
+                "isCorrect": "false"
               },
               {
                 "answerText": "both of the above",
