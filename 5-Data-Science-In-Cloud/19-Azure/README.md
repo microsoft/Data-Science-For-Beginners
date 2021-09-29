@@ -290,18 +290,6 @@ Congratulations! You just consumed the model deployed and trained on Azure ML wi
 
 ## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/37)
 
-1. What is the reason for creating an AutoMLConfig?
-   1. It is where the training and the testing data are split
-   2. TRUE : It provides all the details of your AutoML experiment
-   3. It is where you specify the model to be trained
-2. Which of the following metrics is supported by Automated ML for a classification task?
-   1. TRUE : accuracy
-   2. r2_score
-   3. normalized_root_mean_error
-3. What is NOT an advantage of using the SDK?
-   1. It can be used to automate multiple tasks and runs
-   2. It makes it easier to programmatically edit runs
-   3. It can be used throught a Graphical User Interface
 ## Review & Self Study
 
 In this lesson, you learned how to train, deploy and consume a model to predict heart failure risk with the Azure ML SDK in the cloud. Check this [documentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-40229-cxa&ocid=AID3041109) for further information about the Azure ML SDK. Try to create your own model with the Azure ML SDK. 
