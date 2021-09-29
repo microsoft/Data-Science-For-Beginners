@@ -271,4 +271,4 @@ Courses and books help with understanding core ethics concepts and challenges, w
 ---
 # Assignment 
 
-[Assignment Title](assignment.md)
+[Write A Data Ethics Case Study](assignment.md)
