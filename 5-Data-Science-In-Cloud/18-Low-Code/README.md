@@ -1,5 +1,4 @@
 # Data Science in the Cloud: The "Low code/No code" way 
-![](img/datascienceinthecloud.jpg)
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/18-DataScience-Cloud.png)|
 |:---:|
@@ -8,11 +7,11 @@
 Table of contents:
 
 - [Data Science in the Cloud: The "Low code/No code" way](#data-science-in-the-cloud-the-low-codeno-code-way)
-  - [Pre-Lecture Quiz](#pre-lecture-quiz)
+  - [Pre-Lecture quiz](#pre-lecture-quiz)
   - [1. Introduction](#1-introduction)
     - [1.1 What is Azure Machine Learning?](#11-what-is-azure-machine-learning)
-    - [1.2 The Heart Failure Prediction Project](#12-the-heart-failure-prediction-project)
-    - [1.3 The Heart Failure Dataset](#13-the-heart-failure-dataset)
+    - [1.2 The Heart Failure Prediction Project:](#12-the-heart-failure-prediction-project)
+    - [1.3 The Heart Failure Dataset:](#13-the-heart-failure-dataset)
   - [2. Low code/No code training of a model in Azure ML Studio](#2-low-codeno-code-training-of-a-model-in-azure-ml-studio)
     - [2.1 Create an Azure ML workspace](#21-create-an-azure-ml-workspace)
     - [2.2 Compute Resources](#22-compute-resources)
@@ -29,7 +28,6 @@ Table of contents:
   - [Assignment](#assignment)
   
 ## [Pre-Lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/34)
-
 ## 1. Introduction
 ### 1.1 What is Azure Machine Learning?
 
@@ -47,16 +45,16 @@ Azure ML provides all the tools developers and data scientists need for their ma
 - **Data Labelling**: an assisted ML tool to automatically label data.
 - **Machine learning extension for Visual Studio Code**: provides a full-featured development environment for building and managing ML projects.
 - **Machine learning CLI**: provides commands for managing Azure ML resources from the command line.
-- **Integration with open-source frameworks** such as PyTorch, TensorFlow, scikit-learn and many more for training, deploying, and managing the end-to-end machine learning process.
+- **Integration with open-source frameworks** such as PyTorch, TensorFlow, Scikit-learn and many more for training, deploying, and managing the end-to-end machine learning process.
 - **MLflow**: It is an open-source library for managing the life cycle of your machine learning experiments. **MLFlow Tracking** is a component of MLflow that logs and tracks your training run metrics and model artifacts, irrespective of your experiment's environment.
 
 ### 1.2 The Heart Failure Prediction Project:
 
 There is no doubt that making and building projects is the best to put your skills and knowledge to test. In this lesson, we are going to explore two different ways of building a data science project for the prediction of heart failure attacks in Azure ML Studio, through Low code/No code and through the Azure ML SDK as shown in the following schema:
 
-![project-schema](img/project-schema.PNG)
+![project-schema](images/project-schema.PNG)
 
-Each way has its own pros and cons. The Low code/No code way is easier to start with as it involves interacting with a GUI (Graphical User Interface), with no pior knowledge of code required. This method enables quick testing of the project's viability and to create POC (Proof Of Concept). However, as the project grows and things need to be production ready, it is not feasible to create resources through GUI. We need to programmatically automate everything, from the creation of resources, to the deployment of a model. This is where knowing how to use the Azure ML SDK becomes crucial.
+Each way has its own pros and cons. The Low code/No code way is easier to start with as it involves interacting with a GUI (Graphical User Interface), with no prior knowledge of code required. This method enables quick testing of the project's viability and to create POC (Proof Of Concept). However, as the project grows and things need to be production ready, it is not feasible to create resources through GUI. We need to programmatically automate everything, from the creation of resources, to the deployment of a model. This is where knowing how to use the Azure ML SDK becomes crucial.
 
 |                   | Low code/No code | Azure ML SDK              |
 |-------------------|------------------|---------------------------|
@@ -66,9 +64,9 @@ Each way has its own pros and cons. The Low code/No code way is easier to start 
 
 ### 1.3 The Heart Failure Dataset: 
 
-Cardiovascular diseases (CVDs) are the number 1 cause of death globally, accounting for 31% of all deaths worldwide. Environmental and behavioural risk factors such as use of tobacco, unhealthy diet and obesity, physical inactivity and harmful use of alcohol could be used as features for estimation models. Being able to estimate the probability of the development of a CVD could be of great use to prevent attacks in high risk people.
+Cardiovascular diseases (CVDs) are the number 1 cause of death globally, accounting for 31% of all deaths worldwide. Environmental and behavioral risk factors such as use of tobacco, unhealthy diet and obesity, physical inactivity and harmful use of alcohol could be used as features for estimation models. Being able to estimate the probability of the development of a CVD could be of great use to prevent attacks in high risk people.
 
-Kaggle has made a [Heart Failure dataset](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) publically available, that we are going to use for this project. You can download the dataset now. This is a tabular dataset with 13 columns (12 features and 1 target variable) and 299 rows. 
+Kaggle has made a [Heart Failure dataset](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) publicly available, that we are going to use for this project. You can download the dataset now. This is a tabular dataset with 13 columns (12 features and 1 target variable) and 299 rows. 
 
 |    | Variable name             | Type            | Description                                               | Example           |
 |----|---------------------------|-----------------|-----------------------------------------------------------|-------------------|
@@ -107,15 +105,15 @@ To use Azure Machine Learning, create a workspace in your Azure subscription. Yo
 1. Sign into the [Azure portal](https://ms.portal.azure.com/) using the Microsoft credentials associated with your Azure subscription.
 2. Select **＋Create a resource**
    
-   ![workspace-1](img/workspace-1.PNG)
+   ![workspace-1](images/workspace-1.PNG)
 
    Search for Machine Learning and select the Machine Learning tile
 
-   ![workspace-2](img/workspace-2.PNG)
+   ![workspace-2](images/workspace-2.PNG)
 
    Click the create button
 
-   ![workspace-3](img/workspace-3.PNG)
+   ![workspace-3](images/workspace-3.PNG)
 
    Fill in the settings as follows:
    - Subscription: Your Azure subscription
@@ -127,17 +125,17 @@ To use Azure Machine Learning, create a workspace in your Azure subscription. Yo
    - Application insights: Note the default new application insights resource that will be created for your workspace
    - Container registry: None (one will be created automatically the first time you deploy a model to a container)
 
-    ![workspace-4](img/workspace-4.PNG)
+    ![workspace-4](images/workspace-4.PNG)
 
    - Click the create + review and then on the create button
 3. Wait for your workspace to be created (this can take a few minutes). Then go to it in the portal. You can find it through the Machine Learning Azure service.
 4. On the Overview page for your workspace, launch Azure Machine Learning studio (or open a new browser tab and navigate to https://ml.azure.com), and sign into Azure Machine Learning studio using your Microsoft account. If prompted, select your Azure directory and subscription, and your Azure Machine Learning workspace.
    
-![workspace-5](img/workspace-5.PNG)
+![workspace-5](images/workspace-5.PNG)
 
 5. In Azure Machine Learning studio, toggle the ☰ icon at the top left to view the various pages in the interface. You can use these pages to manage the resources in your workspace.
 
-![workspace-6](img/workspace-6.PNG)
+![workspace-6](images/workspace-6.PNG)
 
 You can manage your workspace using the Azure portal, but for data scientists and Machine Learning operations engineers, Azure Machine Learning Studio provides a more focused user interface for managing workspace resources.
 
@@ -178,25 +176,25 @@ Depending on your time and budgetary constraints, you can vary the size of your 
 
 **Dedicated or Low-Priority Instances ?**
 
-A low-priority instance means that it is interruptible—essentially, Microsoft Azure can take those resources and assign them to another task, thus interrupting a job. A dedicated instance, or non-interruptible, means that the job will never be terminated without your permission.
+A low-priority instance means that it is interruptible: essentially, Microsoft Azure can take those resources and assign them to another task, thus interrupting a job. A dedicated instance, or non-interruptible, means that the job will never be terminated without your permission.
 This is another consideration of time vs money, since interruptible instances are less expensive than dedicated ones.
 
 #### 2.2.2 Creating a compute cluster
 
 In the [Azure ML workspace](https://ml.azure.com/) that we created earlier, go to compute and you will be able to see the different compute resources we just discussed (i.e compute instances, compute clusters, inference clusters and attached compute). For this project, we are going to need a compute cluster for model training. In the Studio, Click on the "Compute" menu, then the "Compute cluster" tab and click on the "+ New" button to create a compute cluster.
 
-![22](img/cluster-1.PNG)
+![22](images/cluster-1.PNG)
 
 1. Choose your options: Dedicated vs Low priority, CPU or GPU, VM size and core number (you can keep the default settings for this project).
 2. Click on the Next button.
 
-![23](img/cluster-2.PNG)
+![23](images/cluster-2.PNG)
 
 3. Give the cluster a compute name 
 4. Choose your options: Minimum/Maximum number of nodes, Idle seconds before scale down, SSH access. Note that if the minimum number of nodes is 0, you will save money when the cluster is idle. Note that the higher the number of maximum nodes, the shorter the training will be. The maximum number of nodes recommended is 3.  
 5. Click on the "Create" button. This step may take a few minutes. 
 
-![29](img/cluster-3.PNG)
+![29](images/cluster-3.PNG)
 
 Awesome! Now that we have a Compute cluster, we need to load the data to Azure ML Studio. 
 
@@ -204,15 +202,15 @@ Awesome! Now that we have a Compute cluster, we need to load the data to Azure M
 
 1. In the [Azure ML workspace](https://ml.azure.com/) that we created earlier, click on "Datasets" in the left menu and click on the "+ Create dataset" button to create a dataset. Choose the "From local files" option and select the Kaggle dataset we downloaded earlier.
    
-   ![24](img/dataset-1.PNG)
+   ![24](images/dataset-1.PNG)
 
 2. Give your dataset a name, a type and a description. Click Next. Upload the data from files. Click Next.
    
-   ![25](img/dataset-2.PNG)
+   ![25](images/dataset-2.PNG)
 
 3. In the Schema, change the data type to Boolean for the following features: anaemia, diabetes, high blood pressure, sex, smoking, and DEATH_EVENT. Click Next and Click Create.
    
-   ![26](img/dataset-3.PNG)
+   ![26](images/dataset-3.PNG)
 
 Great! Now that the dataset is in place and the compute cluster is created, we can start the training of the model!
 
@@ -223,19 +221,19 @@ Automated machine learning (AutoML), is the process of automating the time-consu
 
 1. In the [Azure ML workspace](https://ml.azure.com/) that we created earlier click on "Automated ML" in the left menu and select the dataset you just uploaded. Click Next.
 
-   ![27](img/aml-1.PNG)
+   ![27](images/aml-1.PNG)
 
 2.  Enter a new experiment name, the target column (DEATH_EVENT) and the compute cluster we created. Click Next.
    
-   ![28](img/aml-2.PNG)
+   ![28](images/aml-2.PNG)
 
 3. Choose "Classification" and Click Finish. This step might take between 30 minutes to 1 hour, depending upon your compute cluster size.
     
-    ![30](img/aml-3.PNG)
+    ![30](images/aml-3.PNG)
 
 4. Once the run is complete, click on the "Automated ML" tab, click on your run, and click on the Algorithm in the "Best model summary" card.
     
-    ![31](img/aml-4.PNG)
+    ![31](images/aml-4.PNG)
 
 Here you can see a detailed description of the best model that AutoML generated. You can also explore other modes generated in the Models tab. Take a few minutes to explore the models in the Explanations (preview button). Once you have chosen the model you want to use (here we will chose the best model selected by autoML), we will see how we can deploy it.
 
@@ -246,24 +244,25 @@ The automated machine learning interface allows you to deploy the best model as 
 
 In the best model description, click on the "Deploy" button.
     
-![deploy-1](img/deploy-1.PNG)
+![deploy-1](images/deploy-1.PNG)
 
 15. Give it a name, a description, compute type (Azure Container Instance), enable authentication and click on Deploy. This step might take about 20 minutes to complete. The deployment process entails several steps including registering the model, generating resources, and configuring them for the web service. A status message appears under Deploy status. Select Refresh periodically to check the deployment status. It is deployed and running when the status is "Healthy".
 
-![deploy-2](img/deploy-2.PNG)
+![deploy-2](images/deploy-2.PNG)
 
 16. Once it has been deployed, click on the Endpoint tab and click on the endpoint you just deployed. You can find here all the details you need to know about the endpoint. 
 
-![deploy-3](img/deploy-3.PNG)
+![deploy-3](images/deploy-3.PNG)
 
 Amazing! Now that we have a model deployed, we can start the consumption of the endpoint.
 
 ### 3.2 Endpoint consumption
 
 Click on the "Consume" tab. Here you can find the REST endpoint and a python script in the consumption option. Take some time to read the python code. 
+
 This script can be run directly from your local machine and will consume your endpoint.
 
-![35](img/consumption-1.PNG)
+![35](images/consumption-1.PNG)
 
 Take a moment to check those 2 lines of code: 
 
@@ -273,7 +272,7 @@ api_key = '' # Replace this with the API key for the web service
 ```
 The `url` variable is the REST endpoint found in the consume tab and the `api_key` variable is the primary key also found in the consume tab (only in the case you have enabled authentication). This is how the script can consume the endpoint.
 
-18. Running the scrip, you should see the following output:
+18. Running the script, you should see the following output:
     ```python
     b'"{\\"result\\": [true]}"'
     ```
@@ -334,10 +333,6 @@ In this lesson, you learned how to train, deploy and consume a model to predict 
 
 You can go further into Low code/No code AutoML by reading this [documentation](https://docs.microsoft.com/azure/machine-learning/tutorial-first-experiment-automated-ml?WT.mc_id=academic-40229-cxa&ocid=AID3041109).
 
-
 ## Assignment
 
 [Low code/No code Data Science project on Azure ML](assignment.md)
-
-
-

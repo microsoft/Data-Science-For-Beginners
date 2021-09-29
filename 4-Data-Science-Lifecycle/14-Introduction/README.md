@@ -17,8 +17,8 @@ At this point you've probably come to the realization that data science is a pro
 
 This lesson focuses on 3 parts of the life cycle: capturing, processing and maintenance.
 
-![Diagram of the data science lifecycle](./data-science-lifecycle.jpg)
-> Photo by [Berkley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
+![Diagram of the data science lifecycle](./images/data-science-lifecycle.jpg)
+> Photo by [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Capturing
 
@@ -88,8 +88,8 @@ Explore the [Team Data Science Process lifecycle](https://docs.microsoft.com/en-
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![](..\images\tdsp-lifecycle2.png)> Photo by [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/lifecycle)| ![](..\images\CRISP-DM.png)> Photo by [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/)
-
+|![Team Data Science Lifecycle](./images/tdsp-lifecycle2.png) | ![Data Science Process Alliance Image](./images/CRISP-DM.png) |
+| Image by [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Image by [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/27)
 

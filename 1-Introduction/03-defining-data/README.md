@@ -9,15 +9,8 @@ Data is facts, information, observations and measurements that are used to make 
 This lesson focuses on identifying and classifying data by its characteristics and its sources.
 
 ## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/4)
-
-
-
-![Image of numerical data, also known as quantitative data](mika-baumeister-Wpnoqo2plFA-unsplash.jpg)
-> Source: [Mika Baumister](https://unsplash.com/@mbaumi) via [Unsplash](https://unsplash.com/photos/Wpnoqo2plFA)
-
 ## How Data is Described
 **Raw data** is data that has come from its source in its initial state and has not been analyzed or organized. In order to make sense of what is happening with a dataset, it needs to be organized into a format that can be understood by humans as well as the technology they may use to analyze it further. The structure of a dataset describes how it's organized and can be classified at structured, unstructured and semi-structured. These types of structure will vary, depending on the source but will ultimately fit in these three categories. 
-
 ### Quantitative Data
 Quantitative data is numerical observations within a dataset and can typically be analyzed, measured and used mathematically. Some examples of quantitative data are: a country's population, a person's height or a company's quarterly earnings. With some additional analysis, quantitative data could be used to discover seasonal trends of the Air Quality Index (AQI) or estimate the probability of rush hour traffic on a typical work day.
 

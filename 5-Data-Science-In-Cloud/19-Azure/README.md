@@ -48,7 +48,7 @@ Key areas of the SDK include:
 
 In the [previous lesson](../18-Low-Code/README.md), we saw how to train, deploy and consume a model in a Low code/No code fashion. We used the Heart Failure dataset to generate and Heart failure prediction model. In this lesson, we are going to do the exact same thing but using the Azure Machine Learning SDK.
 
-![project-schema](img/project-schema.PNG)
+![project-schema](images/project-schema.PNG)
 
 ### 1.2 Heart failure prediction project and dataset introduction
 
@@ -65,7 +65,7 @@ If not, please follow the instructions in the section **2.1 Create an Azure ML w
 
 In the [Azure ML workspace](https://ml.azure.com/) that we created earlier, go to the compute menu and you will see the different compute resources available
 
-![compute-instance-1](img/compute-instance-1.PNG)
+![compute-instance-1](images/compute-instance-1.PNG)
 
 Let's create a compute instance to provision a jupyter notebook. 
 1. Click on the + New button. 
@@ -88,10 +88,10 @@ To create a Notebook, we need a compute node that is serving out the jupyter not
 
 1. In the Applications section, click on the Jupyter option. 
 2. Tick the "Yes, I understand" box and click on the Continue button.
-![notebook-1](img/notebook-1.PNG)
+![notebook-1](images/notebook-1.PNG)
 3. This should open a new browser tab with your jupyter notebook instance as follow. Click on the "New" button to create a notebook.
 
-![notebook-2](img/notebook-2.PNG)
+![notebook-2](images/notebook-2.PNG)
 
 Now that we have a Notebook, we can start training the model with Azure ML SDK.
 

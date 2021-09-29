@@ -1,6 +1,6 @@
 # Data Science in the Cloud
 
-![cloud-picture](img/cloud-picture.jpg)
+![cloud-picture](images/cloud-picture.jpg)
 
 > Photo by [Jelleke Vanooteghem](https://unsplash.com/@ilumire) from [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
