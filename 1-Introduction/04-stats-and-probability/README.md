@@ -31,7 +31,7 @@ It is more difficult to describe the probability distribution of a continuous va
 
 We can only talk about the probability of a variable falling in a given interval of values, eg. P(t<sub>1</sub>&le;X&lt;t<sub>2</sub>). In this case, probability distribution is described by a **probability density function** p(x), such that
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=P%28t_1%5Cle%20X%3Ct_2%29%3D%5Cint_%7Bt_1%7D%5E%7Bt_2%7Dp%28x%29dx&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx" width="228" height="51" >
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](./images/probability-density.png)
   
 A continuous analog of uniform distribution is called **continuous uniform**, which is defined on a finite interval. A probability that the value X falls into an interval of length l is proportional to l, and rises up to 1.
 
