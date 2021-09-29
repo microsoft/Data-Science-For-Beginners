@@ -73,14 +73,14 @@ Kaggle has made a [Heart Failure dataset](https://www.kaggle.com/andrewmvd/heart
 | 1  | age                       | numerical       | age of the patient                                        | 25                |
 | 2  | anaemia                   | boolean         | Decrease of red blood cells or haemoglobin                | 0 or 1            |
 | 3  | creatinine_phosphokinase  | numerical       | Level of CPK enzyme in the blood                          | 542               |
-| 4  | diabetes                  | boolean         | If the patient has diabetes                               | university.degree |
+| 4  | diabetes                  | boolean         | If the patient has diabetes                               | 0 or 1            |
 | 5  | ejection_fraction         | numerical       | Percentage of blood leaving the heart on each contraction | 45                |
 | 6  | high_blood_pressure       | boolean         | If the patient has hypertension                           | 0 or 1            |
 | 7  | platelets                 | numerical       | Platelets in the blood                                    | 149000            |
 | 8  | serum_creatinine          | numerical       | Level of serum creatinine in the blood                    | 0.5               |
 | 9  | serum_sodium              | numerical       | Level of serum sodium in the blood                        | jun               |
 | 10 | sex                       | boolean         | woman or man                                              | 0 or 1            |
-| 11 | smoking                   | boolean         | If the patient smokes                                     | 285               |
+| 11 | smoking                   | boolean         | If the patient smokes                                     | 0 or 1            |
 | 12 | time                      | numerical       | follow-up period (days)                                   | 4                 |
 |----|---------------------------|-----------------|-----------------------------------------------------------|-------------------|
 | 21 | DEATH_EVENT [Target]      | boolean         | if the patient dies during the follow-up period           | 0 or 1            |
