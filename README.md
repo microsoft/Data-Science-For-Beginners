@@ -84,6 +84,10 @@ You can run this documentation offline by using [Docsify](https://docsify.js.org
 
 A PDF of all of the lessons can be found [here](pdf/readme.pdf)
 
+## Help Wanted!
+
+If you would like to translate all or part of the curriculum, please follow our [Translations](TRANSLATIONS.md) guide.
+
 ## Other Curricula
 
 Our team produces other curricula! Check out:
