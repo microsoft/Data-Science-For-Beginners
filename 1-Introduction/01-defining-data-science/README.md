@@ -45,7 +45,7 @@ Since data is a pervasive concept, data science itself is also a broad field, to
 <dl>
 <dt>Databases</dt>
 <dd>
-The most obvious thing to consider is **how to store** the data, i.e. how to structure them in a way that allows faster processing. There are different types of databases that store structured and unstructured data, which [we will consider in our course](../../2-Working-With-Data/README.md).
+The most obvious thing to consider is <b>how to store</b> the data, i.e. how to structure them in a way that allows faster processing. There are different types of databases that store structured and unstructured data, which [we will consider in our course](../../2-Working-With-Data/README.md).
 </dd>
 <dt>Big Data</dt>
 <dd>
@@ -53,7 +53,7 @@ Often we need to store and process really large quantities of data with relative
 </dd>
 <dt>Machine Learning</dt>
 <dd>
-One of the ways to understand the data is to **build a model** that will be able to predict desired outcome. Being able to learn such models from data is the area studied in **machine learning**. You may want to have a look at our [Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners/) Curriculum to get deeper into that field.
+One of the ways to understand the data is to <b>build a model</b> that will be able to predict desired outcome. Being able to learn such models from data is the area studied in <b>machine learning</b>. You may want to have a look at our [Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners/) Curriculum to get deeper into that field.
 </dd>
 <dt>Artificial Intelligence</dt>
 <dd>
@@ -61,7 +61,7 @@ As machine learning, artificial intelligence also relies on data, and it involve
 </dd>
 <dt>Visualization</dt>
 <dd>
-Vast amounts of data are incomprehensible for a human being, but once we create useful visualizations - we can start making much more sense of data, and drawing some conclusions. Thus, it is important to know many ways to visualize information - something that we will cover in [Section 3](../../3-Data-Visualization/README.md) of our course. Related fields also include **Infographics**, and **Human-Computer Interaction** in general. 
+Vast amounts of data are incomprehensible for a human being, but once we create useful visualizations - we can start making much more sense of data, and drawing some conclusions. Thus, it is important to know many ways to visualize information - something that we will cover in [Section 3](../../3-Data-Visualization/README.md) of our course. Related fields also include <b>Infographics</b>, and <b>Human-Computer Interaction</b> in general. 
 </dd>
 </dl>
 
@@ -113,7 +113,7 @@ Storing the data can be challenging, especially if we are talking about big data
 </dd>
 <dt>3) Data Processing</dt>
 <dd>
-This is the most exciting part of data journey, which involved processing the data from its original form to the form that can be used for visualization/model training. When dealing with unstructured data such as text or images, we may need to use some AI techniques to extract **features** from the data, thus converting it to structured form.
+This is the most exciting part of data journey, which involved processing the data from its original form to the form that can be used for visualization/model training. When dealing with unstructured data such as text or images, we may need to use some AI techniques to extract <b>features</b> from the data, thus converting it to structured form.
 </dd>
 <dt>4) Visualization / Human Insights</dt>
 <dd>
