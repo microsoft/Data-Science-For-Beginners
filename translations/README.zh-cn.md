@@ -25,7 +25,7 @@
 
 在创建这个课程时，我们选择了两个教学原则：确保它是基于项目的，并且包括频繁的测验。在本系列课程结束时，学生将学会数据科学的基本原则，包括道德概念、数据准备、处理数据的不同方式、数据可视化、数据分析、数据科学的实际使用案例等等。
 
-此外，课前的低风险测验使学生对学习某个主题有了意向，而课后的第二次测验则确保了学生记住了内容。本课程的设计是灵活而有趣的，可以参加整个或部分课程。这些项目开始时很小，在 12 周的学习过程内会变得越来越复杂。
+此外，课前的低风险测验使学生对学习某个主题有了意向，而课后的第二次测验则确保了学生记住了内容。本课程的设计是灵活而有趣的，可以参加整个或部分课程。这些项目开始时很小，在 10 周的学习过程内会变得越来越复杂。
 
 > 找到我们的 [行为守则](../CODE_OF_CONDUCT.md)、[贡献](../CONTRIBUTING.md) 以及 [翻译](../TRANSLATIONS.md) 指南。我们欢迎你的建设性反馈！
 
@@ -53,10 +53,10 @@
 
 | 编号 | 主题 | 课程分类 | 学习目标 | 链接 | 作者 |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | 数据科学的定义 | [简介](../1-Introduction/README.md) | 了解数据科学背后的基本概念以及它与人工智能、机器学习和大数据的关系。 | [课程](../1-Introduction/01-defining-data-science/README.md) [视频](https://youtu.be/pqqsm5reGvs) | [Dmitry](http://soshnikov.com) |
-| 02 | 数据科学伦理 | [简介](../1-Introduction/README.md) | 数据伦理的概念、挑战和框架。 | [课程](../1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
-| 03 | 数据的定义 | [简介](../1-Introduction/README.md) | 数据是如何分类的，以及它的常见来源。 | [课程](../1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | 统计与概率概论 | [简介](../1-Introduction/README.md) | 用概率和统计学的数学技术来理解数据。 | [课程](../1-Introduction/04-stats-and-probability/README.md) [视频](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 01 | 数据科学的定义 | [简介](../1-Introduction/translations/README.zh-cn.md) | 了解数据科学背后的基本概念以及它与人工智能、机器学习和大数据的关系。 | [课程](../1-Introduction/01-defining-data-science/README.md) [视频](https://youtu.be/pqqsm5reGvs) | [Dmitry](http://soshnikov.com) |
+| 02 | 数据科学伦理 | [简介](../1-Introduction/translations/README.zh-cn.md) | 数据伦理的概念、挑战和框架。 | [课程](../1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
+| 03 | 数据的定义 | [简介](../1-Introduction/translations/README.zh-cn.md) | 数据是如何分类的，以及它的常见来源。 | [课程](../1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 04 | 统计与概率概论 | [简介](../1-Introduction/translations/README.zh-cn.md) | 用概率和统计学的数学技术来理解数据。 | [课程](../1-Introduction/04-stats-and-probability/README.md) [视频](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
 | 05 | 与关系型数据打交道 | [与数据打交道](../2-Working-With-Data/README.md) | 介绍关系型数据，以及用结构化查询语言（又称 SQL）探索和分析关系型数据的基础知识（读作 “see-quell”）。 | [课程](../2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) |
 | 06 | 与非关系型数据打交道 | [与数据打交道](../2-Working-With-Data/README.md) | 介绍非关系型数据，其各种类型以及探索和分析文档数据库的基本知识。 | [课程](../2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
 | 07 | 使用 Python 工作 | [与数据打交道](../2-Working-With-Data/README.md) | 使用 Python 与 Pandas 等库进行数据探索的基础知识。建议对 Python 编程有基本的了解。 | [课程](../2-Working-With-Data/07-python/README.md) [视频](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
@@ -86,7 +86,7 @@
 
 ## 需要帮忙！
 
-想贡献一份翻译吗？请阅读我们的 [翻译](TRANSLATIONS.md) 指南。
+想贡献一份翻译吗？请阅读我们的 [翻译](../TRANSLATIONS.md) 指南。
 
 ## 其他课程
 
