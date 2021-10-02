@@ -72,7 +72,7 @@
 | 17 | 云上的数据科学 | [云上数据](../5-Data-Science-In-Cloud/README.md) | 这一系列课程介绍了云上的数据科学及其好处。 | [课程](../5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
 | 18 | 云上的数据科学 | [云上数据](../5-Data-Science-In-Cloud/README.md) | 使用低代码工具训练模型。 |[课程](../5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
 | 19 | 云上的数据科学 | [云上数据](../5-Data-Science-In-Cloud/README.md) | 用 Azure ML Studio 部署模型 | [课程](../5-Data-Science-In-Cloud/19-Azure/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
-| 20 | 现实中的数据科学 | [现实世界](../6-Data-Science-In-Wild/README.md) | 现实世界中由数据科学驱动的项目 | [课程](../6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| 20 | 现实中的数据科学 | [现实世界](../6-Data-Science-In-Wild/translations/README.zh-cn.md) | 现实世界中由数据科学驱动的项目 | [课程](../6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## 离线访问
 
