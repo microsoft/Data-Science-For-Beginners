@@ -1,10 +1,10 @@
-# Introduction to Data Science
+# Introduzione alla Data Science
 
 ![dati in azione](../images/data.jpg)
 > Foto di <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> pubblicata su <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 In queste lezioni scoprirai la definizione di Data Science e le considerazioni etiche
-che un "data scientist" deve tenere in considerazione. Imparerai anche la definizione di Dato e alcuni concetti di Statistica e Probabilità, argomenti accademici fondamentali nel dominio del Data Science.
+che un "data scientist" deve tenere in considerazione. Imparerai anche la definizione di Dato e alcuni concetti di Statistica e Probabilità, argomenti accademici fondamentali nel dominio della Data Science.
 
 ### Argomenti
 
