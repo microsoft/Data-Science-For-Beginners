@@ -15,6 +15,4 @@
 
 ### क्रेडिट
 
-These lessons were written with ❤️ by [Christopher Harrison](https://twitter.com/geektrainer), [Dmitry Soshnikov](https://twitter.com/shwars) and [Jasmine Greenaway](https://twitter.com/paladique)
-
 ये पाठ [क्रिस्टोफर हैरिसन](https://twitter.com/geektrainer), [दिमित्री सोशनिकोव](https://twitter.com/shwars) और [जैस्मीन ग्रीनवे](https://twitter.com/shwars) द्वारा ❤️ के साथ लिखे गए थे।
