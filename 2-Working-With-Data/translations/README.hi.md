@@ -15,4 +15,4 @@
 
 ### क्रेडिट
 
-ये पाठ [क्रिस्टोफर हैरिसन](https://twitter.com/geektrainer), [दिमित्री सोशनिकोव](https://twitter.com/shwars) और [जैस्मीन ग्रीनवे](https://twitter.com/shwars) द्वारा ❤️ के साथ लिखे गए थे।
+ये पाठ [क्रिस्टोफर हैरिसन](https://twitter.com/geektrainer), [दिमित्री सोशनिकोव](https://twitter.com/shwars) और [जैस्मीन ग्रीनवे](https://twitter.com/shwars) द्वारा ❤️ से लिखे गए थे।
