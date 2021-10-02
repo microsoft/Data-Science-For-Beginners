@@ -1,10 +1,20 @@
 # Data Science for Beginners - A Curriculum
 
+[![GitHub license](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
+[![GitHub stars](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
+
 Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson curriculum all about Data Science. Each lesson includes pre-lesson and post-lesson quizzes, written instructions to complete the lesson, a solution, and an assignment. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.
 
 **Hearty thanks to our authors:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
-**🙏 Special thanks 🙏 to our Microsoft Student Ambassador authors, reviewers and content contributors,** notably [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Rohit Yadav](https://www.linkedin.com/in/rty2423), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Sheena Narula](https://www.linkedin.com/in/sheena-narula-n/), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), Alondra Sanchez, Yogendrasingh Pawar, Dibri Nsofor, Max Blum, Samridhi Sharma, Tauqeer Ahmad, Aaryan Arora, ChhailBihari Dubey
+**🙏 Special thanks 🙏 to our Microsoft Student Ambassador authors, reviewers and content contributors,** notably [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Rohit Yadav](https://www.linkedin.com/in/rty2423), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Sheena Narula](https://www.linkedin.com/in/sheena-narula-n/), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), Yogendrasingh Pawar, Max Blum, Samridhi Sharma, Tauqeer Ahmad, Aaryan Arora, ChhailBihari Dubey
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Title.png)|
 |:---:|
@@ -25,10 +35,9 @@ Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson cur
 
 We have chosen two pedagogical tenets while building this curriculum: ensuring that it is project-based and that it includes frequent quizzes. By the end of this series, students will have learned basic principles of data science, including ethical concepts, data preparation, different ways of working with data, data visualization, data analysis, real-world use cases of data science, and more.
 
-In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible and fun and can be taken in whole or in part. The projects start small and become increasingly complex by the end of the 12 week cycle.
+In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible and fun and can be taken in whole or in part. The projects start small and become increasingly complex by the end of the 10 week cycle.
 
 > Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md),  [Translation](TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
->
 
 ## Each lesson includes:
 
@@ -82,7 +91,7 @@ You can run this documentation offline by using [Docsify](https://docsify.js.org
 > Note, notebooks will not be rendered via Docsify, so when you need to run a notebook, do that separately in VS Code running a Python kernel. 
 ## PDF
 
-A PDF of all of the lessons can be found [here](pdf/readme.pdf)
+A PDF of all of the lessons can be found [here](https://microsoft.github.io/Data-Science-For-Beginners/pdf/readme.pdf)
 
 ## Help Wanted!
 
