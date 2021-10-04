@@ -173,8 +173,7 @@
           ]
         },
         {
-          "questionText": "En un histograma, un "
-          bin " se refiere a:",
+          "questionText": "En un histograma, un 'bin' se refiere a:",
           "answerOptions": [{
               "answerText": "una clase de datos",
               "isCorrect": "false"
