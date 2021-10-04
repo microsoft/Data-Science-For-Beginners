@@ -1,0 +1,316 @@
+[{
+  "title": "Ciencia de datos para principiantes: Cuestionarios",
+  "complete": "Enhorabuena, has completado el cuestionario!",
+  "error": "Lo siento, inténtalo de nuevo",
+  "quizzes": [{
+      "id": 32,
+      "title": "Ciencia de los datos en la nube - Introducción - Cuestionario previo",
+      "quiz": [{
+          "questionText": "¿Qué es la nube?",
+          "answerOptions": [{
+              "answerText": "Una colección de bases de datos para almacenar big data.",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Un conjunto de servicios informáticos de pago por Internet.",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Una masa visible de partículas suspendidas en el aire..",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué es la computación en nube?",
+          "answerOptions": [{
+              "answerText": "La prestación de servicios informáticos a través de Internet..",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Crear su propio centro de datos.",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Usar internet.",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuáles son las ventajas de la nube?",
+          "answerOptions": [{
+              "answerText": "Flexibilidad, escalabilidad, fiabilidad y seguridad",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Flexibilidad, escalabilidad, variabilidad, seguridad",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Claridad, escalabilidad, fiabilidad, variabilidad",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Ciencia de datos en la nube - Introducción - Cuestionario final",
+      "quiz": [{
+          "questionText": "¿Cuál NO es necesariamente una buena razón para elegir la nube?",
+          "answerOptions": [{
+              "answerText": "Uso de servicios de aprendizaje automático e inteligencia de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Procesamiento de grandes cantidades de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Almacenamiento de datos gubernamentales sensibles/confidenciales",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿De qué manera utilizan los científicos de datos la nube?",
+          "answerOptions": [{
+              "answerText": "Tareas de infraestructura",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Almacenamiento de grandes cantidades de datos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Configurar las opciones de red",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué servicio de computación en nube proporciona acceso a aplicaciones de software sin necesidad de mantener el software?",
+          "answerOptions": [{
+              "answerText": "Infraestructura como servicio",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Plataforma como servicio",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Software como servicio",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Ciencia de datos en la nube - Low-Code",
+      "quiz": [{
+          "questionText": "Una de las ventajas de utilizar Jupyter Notebooks es que se pueden crear rápidamente prototipos de modelos.",
+          "answerOptions": [{
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Por qué un científico de datos utilizaría Azure Machine Learning?",
+          "answerOptions": [{
+              "answerText": "Para ahorrar tiempo en la exploración y el preprocesamiento de datos.",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Para producir modelos precisos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "No es necesario tener experiencia programando para utilizar Azure ML.",
+          "answerOptions": [{
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso, programar siempre es necesario",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Ciencia de datos en la nube - Low-Code - Cuestionario final",
+      "quiz": [{
+          "questionText": "¿Qué hay que crear antes de acceder a Azure ML Studio?",
+          "answerOptions": [{
+              "answerText": "Un espacio de trabajo",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Una instancia de proceso",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Un cluster",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuáles de las siguientes tareas son compatibles con el ML automatizado?",
+          "answerOptions": [{
+              "answerText": "Creación de imágenes",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Clasificación",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Generación de lenguaje natural",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿En qué caso necesitas la GPU en lugar de la CPU?",
+          "answerOptions": [{
+              "answerText": "Cuando se tienen datos tabulares",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Cuando tengas suficiente dinero para permitírtelo",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Cuando trabajas con Deep Learning",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Ciencia de datos en la nube - Azure",
+      "quiz": [{
+          "questionText": "¿Cuál de ellos se vería afectado por el aumento del tamaño de la agrupación?",
+          "answerOptions": [{
+              "answerText": "Capacidad de respuesta",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Coste",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Rendimiento del modelo",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál es la ventaja de utilizar herramientas de bajo código?",
+          "answerOptions": [{
+              "answerText": "No se requiere experiencia en código",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Etiquetar automáticamente el conjunto de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Mayor seguridad del modelo",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué es AutoML?",
+          "answerOptions": [{
+              "answerText": "Una herramienta para automatizar el preprocesamiento de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Una herramienta para automatizar el despliegue de modelos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Ciencia de datos en la nube - Azure - Cuestionario final",
+      "quiz": [{
+          "questionText": "¿Cuál es la razón para crear una AutoMLConfig?",
+          "answerOptions": [{
+              "answerText": "Es donde se dividen los datos de entrenamiento y de prueba",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Es donde se especifica el modelo a entrenar",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Proporciona todos los detalles de su experimento AutoML",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál de las siguientes métricas es soportada por Automated ML para una tarea de clasificación?",
+          "answerOptions": [{
+              "answerText": "Precisión",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "r2_score",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "normalized_root_mean_error",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál NO es una ventaja de utilizar el SDK?",
+          "answerOptions": [{
+              "answerText": "Puede utilizarse para automatizar múltiples tareas y ejecuciones",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Facilita la edición programada de las ejecuciones",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Puede utilizarse a través de una interfaz gráfica de usuario",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}]
