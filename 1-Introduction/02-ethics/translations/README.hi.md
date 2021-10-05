@@ -61,7 +61,7 @@
 
 ### 2. नैतिकता से जुडी चुनौतियां
 
-एक बार जब हमारे पास नैतिक सिद्धांत परिभाषित हो जाते हैं, तो अगला कदम यह देखने के लिए हमारे डेटा और एआई कार्यों का मूल्यांकन करना है कि क्या वे उन साझा मूल्यों के साथ संरेखित हैं । Think about your actions in two categories: _data collection_ and _algorithm design_. 
+एक बार जब हमारे पास नैतिक सिद्धांत परिभाषित हो जाते हैं, तो अगला कदम यह देखने के लिए हमारे डेटा और एआई कार्यों का मूल्यांकन करना है कि क्या वे उन साझा मूल्यों के साथ संरेखित हैं । अपने कार्यों के बारे में दो श्रेणियों में सोचें: _डेटा संग्रह_ और _एल्गोरिदम डिज़ाइन_ | 
 
 With data collection, actions will likely involve **personal data** or personally identifiable information (PII) for identifiable living individuals. This includes [diverse items of non-personal data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-personal-data_en) that _collectively_ identify an individual. Ethical challenges can relate to _data privacy_, _data ownership_, and related topics like _informed consent_ and _intellectual property rights_ for users.
 
