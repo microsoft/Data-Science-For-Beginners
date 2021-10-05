@@ -31,7 +31,7 @@ Depending on its source, raw data may contain some inconsistencies that will cau
 ## Exploring DataFrame information
 > **Learning goal:** By the end of this subsection, you should be comfortable finding general information about the data stored in pandas DataFrames.
 
-Once you have loaded your data into pandas, it will more likely than not be in a DataFrame(refer to the previous [lesson](https://github.com/IndraP24/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python#dataframe) for detailed overview). However, if the data set in your DataFrame has 60,000 rows and 400 columns, how do you even begin to get a sense of what you're working with? Fortunately, [pandas](https://pandas.pydata.org/) provides some convenient tools to quickly look at overall information about a DataFrame in addition to the first few and last few rows.
+Once you have loaded your data into pandas, it will more likely than not be in a DataFrame(refer to the previous [lesson](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python#dataframe) for detailed overview). However, if the data set in your DataFrame has 60,000 rows and 400 columns, how do you even begin to get a sense of what you're working with? Fortunately, [pandas](https://pandas.pydata.org/) provides some convenient tools to quickly look at overall information about a DataFrame in addition to the first few and last few rows.
 
 In order to explore this functionality, we will import the Python scikit-learn library and use an iconic dataset: the **Iris data set**.
 
