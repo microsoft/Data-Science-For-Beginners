@@ -5,9 +5,9 @@
 इन पाठों में, आप डेटा विज्ञान जीवनचक्र के कुछ पहलुओं का पता लगाएंगे, जिसमें डेटा के आसपास विश्लेषण और संचार शामिल है।
 
 ### विषय
-1. [परिचय] (https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/14-Introduction/README.md)
-2. [विश्लेषण] (../15-analyzing/README.md)
-3. [संचार] (../16-communication/README.md)
+1. [परिचय](../14-Introduction/README.md)
+2. [विश्लेषण](../15-analyzing/README.md)
+3. [संचार](../16-communication/README.md)
 
 ### क्रेडिट
 ये पाठ ❤ के साथ [जालेन मैक्गी](https://twitter.com/JalenMCG) और [जैस्मीन ग्रीनवे](https://twitter.com/paladique) द्वारा लिखे गए थे।
