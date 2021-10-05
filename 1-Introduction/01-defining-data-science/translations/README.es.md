@@ -1,165 +1,175 @@
-# Defining Data Science
+# Definiendo la Ciencia de Datos
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png)|
+|![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png)|
 |:---:|
-|Defining Data Science - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+|Definiendo la Ciencia de Datos - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
 ---
 
-[![Defining Data Science Video](images/video-def-ds.png)](https://youtu.be/pqqsm5reGvs)
+[![Video definiendo la Ciencia de Datos](images/video-def-ds.png)](https://youtu.be/pqqsm5reGvs)
 
-## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
+## [Examen previo a la lección](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
 
-## What is Data?
-In our everyday life, we are constantly surrounded by data. The text you are reading now is data, the list of phone numbers of your friends in your smartphone is data, as well as the current time displayed on your watch. As human beings, we naturally operate with data by counting the money we have or writing letters to our friends.
+## ¿Qué son los Datos?
+En nuestra vida diaria, estamos constantemente rodeados por datos. El texto que estás leyendo ahora son datos,
+la lista de números telefónicos de tus amigos en tu móvil son datos, también como la hora actual que se muestra en tu reloj.
+Como seres humanos, operamos naturalmente con datos, contando el dinero que tenemos o escribiendo cartas a nuestros amigos.
 
-However, data became much more critical with the creation of computers. The primary role of computers is to perform computations, but they need data to operate on. Thus, we need to understand how computers store and process data.
+Sin embargo, los datos se vuelven más críticos con la creación de las computadoras. El rol principal de las computadoras
+es realizar cálculos, pero éstas necesitan datos para operar. Por lo cual, necesitamos entender cómo las computadoras 
+almacenan y procesan los datos.
 
-With the emergence of the Internet, the role of computers as data handling devices increased. If you think of it, we now use computers more and more for data processing and communication, rather than actual computations. When we write an e-mail to a friend or search for some information on the Internet - we are essentially creating, storing, transmitting, and manipulating data.
-> Can you remember the last time you have used computers to actually compute something? 
+Con el surgimiento de internet, el rol de las computadoras como dispositivos para la manipulación de datos incrementó.
+Si lo piensas, ahora usamos computadoras mucho más para la comunicación y el procesamiento de datos, en lugar de para hacer cálculos. Cuando escribimos un correo electrónico a un amigo o buscamos alguna información en internet - estamos
+creando, almacenando, transmitiendo y manipulando datos.
 
-## What is Data Science?
+> ¿Recuerdas la última vez que usaste una computadora para realmente calcular algo?
 
-In [Wikipedia](https://en.wikipedia.org/wiki/Data_science), **Data Science** is defined as *a scientific field that uses scientific methods to extract knowledge and insights from structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains*. 
+## ¿Qué es Ciencia de Datos?
 
-This definition highlights the following important aspects of data science:
+En [Wikipedia](https://en.wikipedia.org/wiki/Data_science), se define la **Ciencia de Datos** como *un campo de las ciencias que usa métodos científicos para extraer conocimiento y perspectivas de datos estructurados y no estructurados, y
+aplicar el conocimiento y conocimiento práctico de los datos a través de un amplio rango de dominios de aplicación*.
 
-* The main goal of data science is to **extract knowledge** from data, in order words - to **understand** data, find some hidden relationships and build a **model**.
-* Data science uses **scientific methods**, such as probability and statistics. In fact, when the term *data science* was first introduced, some people argued that data science is just a new fancy name for statistics. Nowadays it has become evident that the field is much broader.    
-* Obtained knowledge should be applied to produce some **actionable insights**.
-* We should be able to operate on both **structured** and **unstructured** data. We will come back to discuss different types of data later in the course.
-* **Application domain** is an important concept, and data scientist often needs at least some degree of expertise in the problem domain.
+Ésta definición destaca los siguientes aspectos importantes para la ciencia de datos: 
 
-> Another important aspect of Data Science is that it studies how data can be gathered, stored and operated upon using computers. While statistics gives us mathematical foundations, data science applies mathematical concepts to actually draw insights from data.
+* El objetivo principal para la ciencia de datos es **extraer conocimiento** de los datos, en otras palabras - **entender** los datos, encontrar relaciones ocultas y construir un **modelo**.
+* La ciencia de datos usa **métodos científicos**, como la probabilidad y estadística. De hecho, cuando el término **ciencia de datos** fue usado por primera vez, algunas personas argumentaron que la ciencia de datos era solo un nuevo nombre elegante para estadística. En estos días se ha vuelto evidente que es un campo mucho más amplio. 
+* El conocimiento obtenido puede ser aplicado para producir **conocimiento práctico**.
+* Seremos capace de operar tanto datos **estructurados** y **no estructurados**. Más adelante en el curso discutiremos los diferentes tupos de datos. 
+* El **dominio de la aplicación** es un concepto importante, y un científico de datos necesita al menos cierta experiencia en el dominio del problema.
 
-One of the ways (attributed to [Jim Gray](https://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist))) to look at the data science is to consider it to be a separate paradigm of science:
-* **Empyrical**, in which we rely mostly on observations and results of experiments
-* **Theoretical**, where new concepts emerge from existing scientific knowledge
-* **Computational**, where we discover new principles based on some computational experiments
-* **Data-Driven**, based on discovering relationships and patterns in the data  
+> Otro aspecto importante de la Ciencia de Datos es que esta estudia como los datos son obtenidos, almacenados y operados usando computadoras. Mientras la estadística nos da los fundamentos matemáticos, la ciencia de datos aplica los conceptos matemáticos para realmente extraer conocimiento de los datos.
 
-## Other Related Fields
+Una de las formas (atribuidas a [Jim Gray](https://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist))) de ver a la ciencia de datos es considerarla como un paradigma separado de la ciencia:
+* **Empírica**, en la que confíamos mayormente en observaciones y resultados de experimientos
+* **Teórica**, donde surgen nuevos conceptos desde el conocimiento científico existente
+* **Computacional**, donde descubrimos nuevos principios basados en algunos experimentos computacionales
+* **Dirigidos por datos**, basados en el descubrimiento de relaciones y patrones en los datos
 
-Since data is a pervasive concept, data science itself is also a broad field, touching many other related disciplines.
+## Otros campos relacionados
+
+Ya que los datos son un concepto predominante, la ciencia de datos en sí misma también es un amplio campo, abarcando muchas otras disciplinas relacionadas.
 
 <dl>
-<dt>Databases</dt>
+<dt>Bases de datos</dt>
 <dd>
-The most obvious thing to consider is **how to store** the data, i.e. how to structure them in a way that allows faster processing. There are different types of databases that store structured and unstructured data, which [we will consider in our course](../../2-Working-With-Data/README.md).
+La cosa más obvia a considerar es **cómo almacenar** los datos, por ejemplo como estructurarlos de tal formar que se procesen más rápido. Existen distintos tipos de bases de datos que almacenan datos estructurados y no estructurados, los
+cuales [consideraremos en este curso] (../../2-Working-With-Data/README.md).
 </dd>
 <dt>Big Data</dt>
 <dd>
-Often we need to store and process really large quantities of data with relatively simple structure. There are special approaches and tools to store that data in a distributed manner on a computer cluster, and process them efficiently.
+Usualmente necesitamos almacenar y procesar enormes cantidades de datos con estructuras relativamente simples. Existen
+formas especiales y herramientas para almacenar los datos en una forma distribuida on un clúster de computadoras, y procesarlas eficientemente.
 </dd>
-<dt>Machine Learning</dt>
+<dt>Aprendizaje automático</dt>
 <dd>
-One of the ways to understand the data is to **build a model** that will be able to predict desired outcome. Being able to learn such models from data is the area studied in **machine learning**. You may want to have a look at our [Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners/) Curriculum to get deeper into that field.
+Una de las formas de entender los datos es **construir un modelo** que será capaz de predecir el resultado deseado. Ser capaz de aprender esos modelos de los datos es el área de estudio del **aprendizaje automático**. Querrás dar un vistazo a nuestro currículum de [Aprendizaje automático para principiantes](https://github.com/microsoft/ML-For-Beginners/) para profundizar en ese campo.
 </dd>
-<dt>Artificial Intelligence</dt>
+<dt>Inteligencia aritifcial</dt>
 <dd>
-As machine learning, artificial intelligence also relies on data, and it involves building high complexity models that will exhibit the behavior similar to a human being. Also, AI methods often allow us to turn unstructured data (eg. natural language) into structured by extracting some insights. 
+Así como el aprendizaje automático, la inteligencia artificial también depende de los datos, e involucra la construcción de modelos altamente complejos que expondrán un comportamiento similar a un ser humano. Además, los métodos de AI usualmente nos permiten convertir datos no estructurados (por ejemplo, lenguaje natural) en datos estructurados extrayendo conocimiento útil.
 </dd>
-<dt>Visualization</dt>
+<dt>Visualización</dt>
 <dd>
-Vast amounts of data are incomprehensible for a human being, but once we create useful visualizations - we can start making much more sense of data, and drawing some conclusions. Thus, it is important to know many ways to visualize information - something that we will cover in [Section 3](../../3-Data-Visualization/README.md) of our course. Related fields also include **Infographics**, and **Human-Computer Interaction** in general. 
+Cantidades descomunales de datos son incomprensibles para un ser humano, pero una vez que creamos visualizaciones útiles - podemos iniciar haciendo más sentido de los datos, y extrayendo algunas conclusiones. Por lo tanto, es importante conocer diversas formas de visualizar la información - lo cual cubriremos en la [Sección 3](../../3-Data-Visualization/README.md) de nuestro curso. Campos relacionados incluyen **infografías**, e **interacción humano-computadora** en general. 
 </dd>
 </dl>
 
-## Types of Data
+## Tipos de datos
 
-As we have already mentioned - data is everywhere, we just need to capture it in the right way! It is useful to distinguish between **structured** and **unstructured** data. The former are typically represented in some well-structured form, often as a table or number of tables, while latter is just a collection of files. Sometimes we can also talk about **semistructured** data, that have some sort of a structure that may vary greatly.
+Como ya se ha mencionado - los datos están en todas partes, ¡sólo necesitamos capturarlos en la forma correcta! Es útil distinguir entre datos **estructurados** y **no estructurados**. Los primeros típicamente son representados en una forma bien estructurada, usualmente como una tabla o conunto de tablas, mientras que los últimos es sólo una colección de archivos. Algunas veces podemos hablar de datos **semi-estructurados**, que tienen cierta estructura la cual podría variar mucho.
 
-| Structured | Semi-structured | Unstructured |
-|----------- |-----------------|--------------|
-| List of people with their phone numbers | Wikipedia pages with links | Text of Encyclopaedia Britannica |
-| Temperature in all rooms of a building at every minute for the last 20 years | Collection of scientific papers in JSON format with authors, data of publication, and abstract | File share with corporate documents |
-| Data for age and gender of all people entering the building | Internet pages | Raw video feed from surveillance camera |
+| Estructurado | Semi-estructurado | No estructurado |
+|------------- |-------------------|-----------------|
+| Lista de personas con sus números telefónicos | Páginas de wikipedia con enlaces | Texto de la enciclopedia Británica |
+| Temperatura en todas las habitaciones de un edificio a cada minuto por los últimos 20 años | Colección de documentos científicos en formato JSON con autores, fecha de publicación, y resumen | Recurso compartido de archivos con documentos corporativos |
+| Datos por edad y género de todas las personas que entrar al edificio | Páginas de internet | Vídeo sin procesar de cámara de vigilancia |
 
-## Where to get Data
+## Dónde obtener datos
 
-There are many possible sources of data, and it will be impossible to list all of them! However, let's mention some of the typical places where you can get data:
+Hay múltiples fuentes de datos, y ¡sería imposible listarlas todas! Sin embargo, mencionemos algunos de los lugares típicos en dónde obtener datos:
 
-* **Structured**
-  - **Internet of Things**, including data from different sensors, such as temperature or pressure sensors, provides a lot of useful data. For example, if an office building is equipped with IoT sensors, we can automatically control heating and lighting in order to minimize costs. 
-  - **Surveys** that we ask users after purchase of a good, or after visiting a web site.
-  - **Analysis of behavior** can, for example, help us understand how deeply a user goes into a site, and what is the typical reason for leaving the site.
-* **Unstructured**
-  - **Texts** can be a rich source of insights, starting from overall **sentiment score**, up to extracting keywords and even some semantic meaning.
-  - **Images** or **Video**. A video from surveillance camera can be used to estimate traffic on the road, and inform people about potential traffic jams.
-  - Web server **Logs** can be used to understand which pages of our site are most visited, and for how long.
-* Semi-structured
-  - **Social Network** graph can be a great source of data about user personality and potential effectiveness in spreading information around.
-  - When we have a bunch of photographs from a party, we can try to extract **Group Dynamics** data by building a graph of people taking pictures with each other.
+* **Estructurados**
+  - **Internet de las cosas**, incluyendo datos de distintos sensore, como sensores de temperatura o presión, proveen muchos datos útiles. Por ejemplo, si una oficina es equipada con sensores IoT, podemos controlar automáticamente la calefacción e iluminación para minimizar costos.
+  - **Encuestas** que realizamos a los usuarios después de pagar un producto o después de visitar un sitio web.
+  - **Análisis de comportamiento** podemos, por ejemplo, ayudarnos a entender que tanto profundiza un usuario en un sitio, y cuál es la razón típica por la cual lo deja.
+* **No estructurados**
+  - Los **Textos** pueden ser una fuente rica en conocimiento práctico, empezando por el **sentimiento principal** generalizado, hasta la extracción de palabras clave e incluso algún significado semántico.
+  - **Imágenes** o **Video**. Un video de una cámara de vigilancia puede ser usado para estimar el tráfico en carretera, e informar a las personas acerca de posibles embotellamientos.
+  - **Bitácoras** de servidores web pueden ser usadas para entender qué páginas de nuestro sitio son las más visitadas y por cuánto tiempo.
+* **Semi-estructurados**
+  - Grafos de **redes sociales** pueden ser una gran fuente de datos acerca de la la personalidad del usuario y efectividad potencial de difusión de la información.
+  - Cuando tenemos un conjunto de fotografías de una fiesta, podemos intentar extraer datos de la **dinámica de grupos** construyendo un grafo de personas tomándose fotos unas a otras.
 
-By knowing different possible sources of data, you can try to think about different scenarios where data science techniques can be applied to know the situation better, and to improve business processes. 
+Conociendo posibles fuentes de datos diversas, puedes intentar pensar en distintos escenarios donde se pueden aplicar técnicas de ciencia de datos para conocer mejor la situación, y mejroar los procesos de negocio.
 
-## What you can do with Data
+## Qué puedes hacer con los datos
 
-In Data Science, we focus on the following steps of data journey:
+En la ciencia de datos, nos enfocamos en los siguientes pasos del viaje de los datos:
 
 <dl>
-<dt>1) Data Acquisition</dt>
+<dt>1) Adquisición de datos</dt>
 <dd>
-First step is to collect the data. While in many cases it can be a straightforward process, like data coming to a database from web application, sometimes we need to use special techniques. For example, data from IoT sensors can be overwhelming, and it is a good practice to use buffering endpoints such as IoT Hub to collect all the data before further processing.
+El primer paso es reunir los datos. Mientras que en muchos casos esto puede ser un proceso simple, como datos obtenidos des una base de datos de una aplicación web. algunas veces necesitamos usar técnicas especiales. Por ejemplo, los datos obtenidos desde sensorres IoT pueden ser inmensos, y es una buena práctica el uso de endpoints búfer como IoT Hub para para reunir todos los datos antes de procesarlos.
 </dd>
-<dt>2) Data Storage</dt>
+<dt>2) Almacenamiento de datos</dt>
 <dd>
-Storing the data can be challenging, especially if we are talking about big data. When deciding how to store data, it makes sense to anticipate the way you would want later on to query them. There are several ways data can be stored:
+Almacenar los datos puede ser desafiante, especialmente si hablamos de big data. Al decidir cómo almacer datos, hace sentido anticiparse a la forma en la cual serán consultados. Existen varias formas de almacenar los datos:
 <ul>
-<li>Relational database stores a collection of tables, and uses a special language called SQL to query them. Typically, tables would be connected to each other using some schema. In many cases we need to convert the data from original form to fit the schema.</li>
-<li><a href="https://en.wikipedia.org/wiki/NoSQL">NoSQL</a> database, such as <a href="https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=acad-31812-dmitryso">CosmosDB</a>, does not enforce schema on data, and allows storing more complex data, for example, hierarchical JSON documents or graphs. However, NoSQL database does not have rich querying capabilities of SQL, and cannot enforce referential integrity between data.</li>
-<li><a href="https://en.wikipedia.org/wiki/Data_lake">Data Lake</a> storage is used for large collections of data in raw form. Data lakes are often used with big data, where all data cannot fit into one machine, and has to be stored and processed by a cluster. <a href="https://en.wikipedia.org/wiki/Apache_Parquet">Parquet</a> is the data format that is often used in conjunction with big data.</li> 
+<li>Las bases de datos relacionales almacenan una colección de tabla, y usan un lenguaje especial llamado SQL para consultalos. Típicamente, las tablas estarían conectadas unas a otras mediante un esquema. En muchas ocasiones necesitamos convertir los datos desde la fuente original para que se ajusten al esquema.</li>
+<li>Bases de datos <a href="https://en.wikipedia.org/wiki/NoSQL">NoSQL</a>, como <a href="https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=acad-31812-dmitryso">CosmosDB</a>, no exigen un esquema de datos, y permiten almacenar datos más complejos, por ejemplo, documentos JSON jerárquicos o grafos. Sin embargo, Las bases de datos NoSQL no tienen capacidades de consulta SQL sofisticadas, y no requieren integridad referencial entre los datos.</li>
+<li>El almacenamiento en <a href="https://en.wikipedia.org/wiki/Data_lake">lago de datos</a> se usa para grandes colecciones de datos sin procesamiento. Los lagos de datos suelen ser usados con big data, donde todos los datos no pueden ser reunidos en un único equipo, y tienen que ser almacenados y procesados por un clúster. <a href="https://en.wikipedia.org/wiki/Apache_Parquet">Parquet</a> es un formato de datos que se utiliza comúnmente en conjunto con big data.</li> 
 </ul>
 </dd>
-<dt>3) Data Processing</dt>
+<dt>3) Procesamiento de datos</dt>
 <dd>
-This is the most exciting part of data journey, which involved processing the data from its original form to the form that can be used for visualization/model training. When dealing with unstructured data such as text or images, we may need to use some AI techniques to extract **features** from the data, thus converting it to structured form.
+Esta es la parte más emocionante del viaje de los datos, el cual involucra el procesamiento de los datos desde su forma original hasta la forma en que puede ser usada por visualizaciones/modelo de entrenamiento. Cuando tratamos con datos no estructurados como texto o imágenes, debemos usar algunas técnias de IA para extraer las **características** de los datos, y así convertirlos a su forma estructurada.
 </dd>
-<dt>4) Visualization / Human Insights</dt>
+<dt>4) Visualización / entendimiento humano</dt>
 <dd>
-Often to understand the data we need to visualize them. Having many different visualization techniques in our toolbox we can find the right view to make an insight. Often, data scientist needs to "play with data", visualizing it many times and looking for some relationships. Also, we may use techniques from statistics to test some hypotheses or prove correlation between different pieces of data.   
+Usualmente para entender los datos necesitamos visualizarlos. Teniendo diversas ténicas de visualización en nuestro arsenal podemos encontrar la visualización adecuada para comprenderla. Comúnmente, un científico de datos necesita "jugar con los datos", visualizádolos varias veces y buscando alguna relación. Además, debemos usar técnicas de estadística para probar algunas hipótesis o probar la correlación entre distintas porciones de datos.
 </dd>
-<dt>5) Training predictive model</dt>
+<dt>5) Entrenando modelos predictivos</dt>
 <dd>
-Because the ultimate goal of data science is to be able to take decisions based on data, we may want to use the techniques of <a href="http://github.com/microsoft/ml-for-beginners">Machine Learning</a> to build predictive model that will be able to solve our problem.
+Ya que el principal objetivo de la ciencia de datos es ser capaz de tomar decisiones basándonos en los datos, debemos usar técnicas de <a href="http://github.com/microsoft/ml-for-beginners">aprendizaje automático</a> para construir modelos predictivos que serán capces de resolver nuestros problemas.
 </dd>
 </dl>
 
-Of course, depending on the actual data some steps might be missing (eg., when we already have the data in the database, or when we do not need model training), or some steps might be repeated several times (such as data processing).
+Por supuesto, dependiendo de los datos reales algunos pasos serán omitidos (por ejemplo, cuando ya tenemos los datos en la base de datos, o cuando no necesitamos modelo de entrenamiento), o algunos pasos deben ser repetidos varias veces (como el procesamiento de datos).
 
-## Digitalization and Digital Transformation
+## Digitalización y transformación digital
 
-In the last decade, many businesses started to understand the importance of data when making business decisions. To apply data science principles to running a business one first needs to collect some data, i.e. somehow turn business processes into digital form. This is known as **digitalization**, and followed by using data science techniques to guide decisions it often leads to significant increase of productivity (or even business pivot), called **digital transformation**.
+En la última década, muchos negocios comenzaron a entender la importancia de los datos al tomar decisiones de negocio. Para aplicar los principios de ciencia de datos para dirigir un negocio primero necesitas reunir algunos datos, por ejemplo, de alguna forma digitalizar los procesos de negocio. Esto es conocido como **digitalización**, y seguido usar técnicas de ciencia de datos para guiar decisiones esto usualmente conlleva a un incremento significativo de la productividad (o incluso negocios pivote), llamado **transformación digital**.
 
-Let's consider an example. Suppose, we have a data science course (like this one), which we deliver online to students, and we want to use data science to improve it. How can we do it?
+Consideremos el siguiente ejemplo. Supongaos, tenemos un curso de ciencia de datos (como éste), el cual ofrecemos en línea a los estudiante, y queremos usar ciencia de datos para mejorarl. ¿Cómo podemos hacerlo?
 
-We can start with thinking "what can be digitized?". The simplest way would be to measure time it takes each student to complete each module, and the obtained knowledge (eg. by giving multiple-choice test at the end of each module). By averaging time-to-complete across all students, we can find out which modules cause the most problems to students, and work on simplifying them.
+Podemos comenzar pensando "¿qué puede ser digitalizado?". La forma más simple sería medir el tiempo que le toma a cada estuddiante completar cada módulo, y el conocimiento obtenido (por ejemplo, realizando exámenes de opción múltiple al final de cada módulo). Promediando el tiempo en concluir de todos los estudiantes, y trabajar en simplificarlos.
 
-> You may argue that this approach is not ideal, because modules can be of different length. It is probably more fair to divide the time by the length of the module (in number of characters), and compare those values instead.
+> Argumentarás que este enfoque no es idóneo, porque los módulos pueden tener distinta duración. Problablemente es más justo dividir el tiempo por la longitud del módulo (en número de caracteres), y comparar esos valores en su lugar.
 
-When we start analyzing results of multiple-choice tests, we can try to find out specific concepts that students understand poorly, and improve the content. To do that, we need to design tests in such a way that each question maps to a certain concept or chunk of knowledge.
+Cuando comenzamos analizando los resultados de los exámenes de opción múltiple, intentamos encontrar conceptos específicos que los estudiantes entendieron vagamente,y mejorar el contenido. Para hacerlo, necesitamos diseñar exámenes de tal forma que cada pregunta se relacione a un concepto concreto o porción de conocimiento.
 
-If we want to get even more complicated, we can plot the time taken for each module against the age category of students. We might find out that for some age categories it takes inappropriately long time to complete the module, or students drop out at certain point. This can help us provide age recommendation for the module, and minimize people's dissatisfaction from wrong expectations.
+Si queremos hacerlo aún más complejo, podemos trazar el tiempo invertido en cada módulo contra la categoría de edad de los estudiantes. Encontraremos que para algunas categorías de edad les toma ciertamente más tiempo el completar el módulo, o algunos estudiantes abandonan el curso en cierto punto. Esot nos puede ayudar a sugerir recomendaciones de módulos por edad, y así minimizar el descontengo de la gente por falsas expectativas.
 
-## 🚀 Challenge
+## 🚀 Desafío
 
-In this challenge, we will try to find concepts relevant to the field of Data Science by looking at texts. We will take Wikipedia article on Data Science, download and process the text, and then build a word cloud like this one:
+En este desafío, intentaremos encontrar los conceptos relevante para el campo de la Ciencia de Datos consultando algunos textos. Tomarermos un artículo de Wikipedia de Ciecnia de Datos, descargaremos y procesaremos el texto, y luego construiremos una nube de palabras como esta:
 
-![Word Cloud for Data Science](images/ds_wordcloud.png)
+![Nube de palabras para Ciencia de Datos](images/ds_wordcloud.png)
 
-Visit [`notebook.ipynb`](notebook.ipynb) to read through the code. You can also run the code, and see how it performs all data transformations in real time. 
+Visita [`notebook.ipynb`](notebook.ipynb) para leer el código.También pueder ejecutarlo y ver como realiza todas las transformaciones de los datos en tiempo real.
 
-> If you do not know how to run code in Jupyter Notebook, have a look at [this article](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+> Si no sabes como ejecutar el código en Jupyter Notebook, da un vistazo a [este artículo](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
 
 
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/1)
+## [Cuestionario porterior a la lección](https://red-water-0103e7a0f.azurestaticapps.net/quiz/1)
 
-## Assignments
+## Ejercicios
 
-* **Task 1**: Modify the code above to find out related concepts for the fields of **Big Data** and **Machine Learning**
-* **Task 2**: [Think About Data Science Scenarios](assignment.md)
+* **Tarea 1**: Modifica el código anterior para encontrar conceptos relacionados para los campos de **Big Data** y **Machine Learning**
+* **Tarea 2**: [Piensa en los escenarios para la Ciencia de Datos](assignment.md)
 
-## Credits
+## Créditos
 
-This lesson has been authored with ♥️ by [Dmitry Soshnikov](http://soshnikov.com)
+Esta lección ha sido escrita con ♥️ por [Dmitry Soshnikov](http://soshnikov.com)
