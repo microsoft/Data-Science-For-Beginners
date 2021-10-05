@@ -1,0 +1,512 @@
+[{
+  "title": "Ciencia de datos para principiantes: Cuestionarios",
+  "complete": "Enhorabuena, has completado el cuestionario!",
+  "error": "Lo siento, inténtalo de nuevo",
+  "quizzes": [{
+      "id": 16,
+      "title": "Visualización de cantidades - Cuestionario previo",
+      "quiz": [{
+          "questionText": "Una biblioteca útil para las visualizaciones de datos es:",
+          "answerOptions": [{
+              "answerText": "Matplotlib",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Matchartlib",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Matgraphtlib",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Puede visualizar las cantidades utilizando:",
+          "answerOptions": [{
+              "answerText": "gráficos de dispersión",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "gráfico líneas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Los gráficos de barras son útiles para visualizar la cantidad",
+          "answerOptions": [{
+              "answerText": "verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "falso",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Visualización de cantidades - Cuestionario final",
+      "quiz": [{
+          "questionText": "Puede analizar las tendencias a lo largo del tiempo utilizando un:",
+          "answerOptions": [{
+              "answerText": "gráfico de líneas",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "gráfico de barras",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "gráfico circular",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Puede comparar valores utilizando este tipo de gráfico:",
+          "answerOptions": [{
+              "answerText": "gráfico de líneas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "gráfico de barras",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Mostra cómo se relacionan las partes con un todo utilizando este tipo de gráfico:",
+          "answerOptions": [{
+              "answerText": "líneas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "columnas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "circular",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Visualización de distribuciones - Cuestionario previo",
+      "quiz": [{
+          "questionText": "Los histogramas son en general tipos de gráficos más sofisticados que los de dispersión",
+          "answerOptions": [{
+              "answerText": "verdaderos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Puede visualizar las distribuciones utilizando este tipo de gráfico:",
+          "answerOptions": [{
+              "answerText": "gráfico de dispersión",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "gráfico circular",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "gráfico de columnas",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Esta biblioteca es especialmente útil para construir histogramas",
+          "answerOptions": [{
+              "answerText": "TensorFlow",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "PyTorch",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Matplotlib",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Visualización de distribuciones - Cuestionario final",
+      "quiz": [{
+          "questionText": "Los histogramas pueden utilizarse para analizar este tipo de datos:",
+          "answerOptions": [{
+              "answerText": "textual",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "numérico",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "En un histograma, un 'bin' se refiere a:",
+          "answerOptions": [{
+              "answerText": "una clase de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "una agrupación de datos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "datos desechables",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": " Para construir un gráfico de densidad suave, utilice esta biblioteca:",
+          "answerOptions": [{
+              "answerText": "Seaborn",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Matplotlib",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "PyTorch",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Visualización de las proporciones - Cuestionario previo",
+      "quiz": [{
+          "questionText": "Para visualizar las proporciones, utilice este tipo de gráfico:",
+          "answerOptions": [{
+              "answerText": "circular",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "waffle",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "ninguna de las respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Una herramienta gratuita para visualizar sus datos es:",
+          "answerOptions": [{
+              "answerText": "Popculator",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Graphculator",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Charticulator",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Utiliza `plt.pie` para mostrar un:",
+          "answerOptions": [{
+              "answerText": "gráfico circular",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "gráfico de gofres",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "gráfico de dispersión",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Visualización de las proporciones - Cuestionario final",
+      "quiz": [{
+          "questionText": "Puedes editar los colores de tus gráficos de gofres",
+          "answerOptions": [{
+              "answerText": "verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Utiliza esta biblioteca para construir gráficos de gofres:",
+          "answerOptions": [{
+              "answerText": "edwaffle",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "pywaffle",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "yumwaffle",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "En un gráfico de rosca, construye el círculo central utilizando esta sintaxis:",
+          "answerOptions": [{
+              "answerText": "plt.Oval",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "plt.Circle",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "plt.Edit",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Visualización de las relaciones - Cuestionario previo",
+      "quiz": [{
+          "questionText": "Utiliza esta biblioteca para visualizar las relaciones:",
+          "answerOptions": [{
+              "answerText": "Seaborn",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Merborn",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Reborn",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Utiliza la función `relplot` de Seaborn para visualizar",
+          "answerOptions": [{
+              "answerText": "relaciones categóricas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "relaciones estadísticas",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "relaciones especiales",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Al editar el tono de un gráfico de dispersión, puedes:",
+          "answerOptions": [{
+              "answerText": "mostrar la distribución de un conjunto de datos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "mostrar los colores de los artículos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "mostrar las temperaturas",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Visualización de las relaciones - Cuestionario final",
+      "quiz": [{
+          "questionText": "Una forma más accesible de mostrar la distribución es:",
+          "answerOptions": [{
+              "answerText": "Uso de la variación de la forma de los puntos de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Empleo de la variación del tamaño de los puntos de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Utilizando cualquiera de los respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Utilizando la función `relplot` de Seaborn puedes ver una agregación de datos en torno a un gráfico de líneas",
+          "answerOptions": [{
+              "answerText": "verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Las cuadrículas de facetas ayudan a visualizar",
+          "answerOptions": [{
+              "answerText": "una faceta determinada de los datos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "valores atípicos en los datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "progresión en los datos",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Visualizaciones significativas - Cuestionario previo",
+      "quiz": [{
+          "questionText": "Es relativamente fácil engañar a los usuarios editando gráficos",
+          "answerOptions": [{
+              "answerText": "verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "La selección del tipo de gráfico que se va a construir depende del tipo de datos que se tenga y de la historia que se cuente sobre ellos",
+          "answerOptions": [{
+              "answerText": "verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Para crear un gráfico engañoso, algunos creadores manipulan:",
+          "answerOptions": [{
+              "answerText": "los colores del gráfico",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "los ejes X e Y",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "cualquiera de las respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Visualizaciones significativas - Cuestionario final",
+      "quiz": [{
+          "questionText": "Asegúrate de que sus gráficos son:",
+          "answerOptions": [{
+              "answerText": "accesibles",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "legibles",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "cualquiera de las respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "D3 es una excelente biblioteca de gráficos que se puede utilizar para crear:",
+          "answerOptions": [{
+              "answerText": "animar visualizaciones",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "crear infografía",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "aprendizaje avanzado",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Asegurate que la legibilidad de tu gráfico mediante:",
+          "answerOptions": [{
+              "answerText": "añadir etiquetas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "agregando colores",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "alinear correctamente las etiquetas",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}]
