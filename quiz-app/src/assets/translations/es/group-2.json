@@ -1,0 +1,410 @@
+[{
+  "title": "Ciencia de datos para principiantes: Cuestionarios",
+  "complete": "Enhorabuena, has completado el cuestionario!",
+  "error": "Lo siento, inténtalo de nuevo",
+  "quizzes": [{
+      "id": 8,
+      "title": "Bases de datos relacionales - Precuestionario",
+      "quiz": [{
+          "questionText": "Una base de datos puede considerarse una tabla con columnas y filas",
+          "answerOptions": [{
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "La mayoría de las bases de datos se componen de",
+          "answerOptions": [{
+              "answerText": "una tabla",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "una hoja de cálculo",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "muchas tablas",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Puede evitar la duplicación de nombres de columnas si",
+          "answerOptions": [{
+              "answerText": "creando muchas tablas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "creando tablas con relaciones incorporadas",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "creando una única tabla gigante",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bases de datos relacionales - Cuestionario final",
+      "quiz": [{
+          "questionText": "Una clave primaria es",
+          "answerOptions": [{
+              "answerText": "un valor utilizado para identificar una fila específica en una tabla",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "un valor utilizado para hacer que los valores sean únicos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "un valor utilizado para forzar la capitalización",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Una columna numérica 'ID' sería una buena clave primari",
+          "answerOptions": [{
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Una clave foránea se utiliza para",
+          "answerOptions": [{
+              "answerText": "valores que hacen referencia a los identificadores en una tabla separada",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "valores que hacen referencia a las cadenas en una tabla separada",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "conservar los valores que cambian con el tiempo",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bases de datos no relacionales - Precuestionario",
+      "quiz": [{
+          "questionText": "Las hojas de cálculo son datos no relacionales",
+          "answerOptions": [{
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Identifica la diferencia entre datos no relacionales y relacionales.",
+          "answerOptions": [{
+              "answerText": "Las bases de datos relacionales siempre contienen columnas y filas",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Algunos tipos de datos no relacionales utilizan columnas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "No hay ninguna diferencia",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué significa NoSQL?",
+          "answerOptions": [{
+              "answerText": "Nope SQL",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "No sólo SQL",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "No más SQL",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Bases de datos no relacionales - Cuestionario final",
+      "quiz": [{
+          "questionText": "¿Cuál de estos NO es un tipo de NoSQL?",
+          "answerOptions": [{
+              "answerText": "Object oriented",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Clave-valor",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Columnas",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué utilizas para hacer cálculos en las hojas de cálculo?",
+          "answerOptions": [{
+              "answerText": "Python",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Alias",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Fórmulas",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿A qué otro tipo de datos no relacionales se parece un documento en una base de datos de documentos?",
+          "answerOptions": [{
+              "answerText": "Claves",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Columnas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "JSON",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Python - Precuestionario",
+      "quiz": [{
+          "questionText": "Python es un buen lenguaje para",
+          "answerOptions": [{
+              "answerText": "La ciencia de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Princiantes",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Python es un buen lenguaje para la Ciencia de Datos porque",
+          "answerOptions": [{
+              "answerText": "tiene muchas bibliotecas",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "es un lenguaje rico pero sencillo",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "No puedes hacer ciencia de datos si no sabes Python",
+          "answerOptions": [{
+              "answerText": "Verdadero",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Python - Cuestionario final",
+      "quiz": [{
+          "questionText": "¿Qué biblioteca utilizarías para representar una lista de notas de los alumnos en clase?",
+          "answerOptions": [{
+              "answerText": "Numpy",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "SciPy",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Pandas",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Tienes un DataFrame con una lista de alumnos, su número de grupo y la nota media. ¿Qué operación utilizarías para calcular la nota media por grupo?",
+          "answerOptions": [{
+              "answerText": "average",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "avg",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "groupby",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Tienes 100 amigos y quieres representar la información sobre la frecuencia con la que se hacen fotos entre ellos. ¿Qué estructura de datos utilizarías?",
+          "answerOptions": [{
+              "answerText": "Numpy array",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Pandas DataFrame",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Pandas Series",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Preparación de datos - Precuestionario",
+      "quiz": [{
+          "questionText": "¿Cuál de ellos forma parte del proceso de preparación de datos?",
+          "answerOptions": [{
+              "answerText": "Validación del modelo",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Clasificación",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Limpieza de los datos",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Por qué es tan importante la preparación de los datos?",
+          "answerOptions": [{
+              "answerText": "Hace que los modelos sean más precisos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "No es importante",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Los ordenadores pueden ayudar a limpiar los datos",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál es el objetivo de la limpieza de datos?",
+          "answerOptions": [{
+              "answerText": "Corrección de problemas de formato",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Fijar los tipos de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Preparación de los datos - Cuestionario final",
+      "quiz": [{
+          "questionText": "Fusionar o unir dos conjuntos de datos en uno solo puede afectar a la coherencia de los datos",
+          "answerOptions": [{
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué es lo primero que hay que hacer ante la falta de datos?",
+          "answerOptions": [{
+              "answerText": "Borrar los datos relacionados a esa falta",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Evaluar por qué falta",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Intenta rellenar los valores vacíos",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "La unión de dos o más conjuntos de datos puede provocar los siguientes problemas",
+          "answerOptions": [{
+              "answerText": "Duplicados",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Un formato inconsistente",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}]
