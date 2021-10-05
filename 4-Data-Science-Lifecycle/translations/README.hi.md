@@ -1,4 +1,4 @@
-# डेटा विज्ञान जीवनचक्र
+# डेटा विज्ञान के जीवनचक्र
 ![संचार](../images/communication.jpg)
 >तस्वीर <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> द्वारा <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> पर
 
@@ -10,4 +10,4 @@
 3. [संचार](../16-communication/README.md)
 
 ### क्रेडिट
-ये पाठ ❤ के साथ [जालेन मैक्गी](https://twitter.com/JalenMCG) और [जैस्मीन ग्रीनवे](https://twitter.com/paladique) द्वारा लिखे गए थे।
+ये पाठ [जालेन मैक्गी](https://twitter.com/JalenMCG) और [जैस्मीन ग्रीनवे](https://twitter.com/paladique) द्वारा ❤️ से लिखे गए हैं।
