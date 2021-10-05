@@ -33,7 +33,8 @@ Depending on its source, raw data may contain some inconsistencies that will cau
 
 Once you have loaded your data into pandas, it will more likely than not be in a DataFrame(refer to the previous [lesson](https://github.com/IndraP24/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python#dataframe) for detailed overview). However, if the data set in your DataFrame has 60,000 rows and 400 columns, how do you even begin to get a sense of what you're working with? Fortunately, [pandas](https://pandas.pydata.org/) provides some convenient tools to quickly look at overall information about a DataFrame in addition to the first few and last few rows.
 
-In order to explore this functionality, we will import the Python scikit-learn library and use an iconic dataset: the **Iris data set **.
+In order to explore this functionality, we will import the Python scikit-learn library and use an iconic dataset: the **Iris data set**.
+
 ```python
 import pandas as pd
 from sklearn.datasets import load_iris
@@ -122,19 +123,199 @@ Look closely at the output. Does any of it surprise you? While `0` is an arithme
 
 Now, let's turn this around and use these methods in a manner more like you will use them in practice. You can use Boolean masks  directly as a ``Series`` or ``DataFrame`` index, which can be useful when trying to work with isolated missing (or present) values.
 
-> **Tkeaway**: Both the `isnull()` and `notnull()` methods produce similar results when you use them in `DataFrame`s: they show the results and the index of those results, which will help you enormously as you wrestle with your data.
+> **Takeaway**: Both the `isnull()` and `notnull()` methods produce similar results when you use them in `DataFrame`s: they show the results and the index of those results, which will help you enormously as you wrestle with your data.
 
 - **Dropping null values**: Beyond identifying missing values, pandas provides a convenient means to remove null values from `Series` and `DataFrame`s. (Particularly on large data sets, it is often more advisable to simply remove missing [NA] values from your analysis than deal with them in other ways.) To see this in action, let's return to `example1`:
 ```python
 example1 = example1.dropna()
 example1
 ```
+```
+0    0
+2     
+dtype: object
+```
+Note that this should look like your output from `example3[example3.notnull()]`. The difference here is that, rather than just indexing on the masked values, `dropna` has removed those missing values from the `Series` `example1`.
 
+Because `DataFrame`s have two dimensions, they afford more options for dropping data.
+
+```python
+example2 = pd.DataFrame([[1,      np.nan, 7], 
+                         [2,      5,      8], 
+                         [np.nan, 6,      9]])
+example2
+```
+|      | 0 | 1 | 2 |
+|------|---|---|---|
+|0     |1.0|NaN|7  |
+|1     |2.0|5.0|8  |
+|2     |NaN|6.0|9  |
+
+(Did you notice that pandas upcast two of the columns to floats to accommodate the `NaN`s?)
+
+You cannot drop a single value from a `DataFrame`, so you have to drop full rows or columns. Depending on what you are doing, you might want to do one or the other, and so pandas gives you options for both. Because in data science, columns generally represent variables and rows represent observations, you are more likely to drop rows of data; the default setting for `dropna()` is to drop all rows that contain any null values:
+
+```python
+example2.dropna()
+```
+```
+	0	1	2
+1	2.0	5.0	8
+```
+If necessary, you can drop NA values from columns. Use `axis=1` to do so:
+```python
+example2.dropna(axis='columns')
+```
+```
+	2
+0	7
+1	8
+2	9
+```
+Notice that this can drop a lot of data that you might want to keep, particularly in smaller datasets. What if you just want to drop rows or columns that contain several or even just all null values? You specify those setting in `dropna` with the `how` and `thresh` parameters.
+
+By default, `how='any'` (if you would like to check for yourself or see what other parameters the method has, run `example4.dropna?` in a code cell). You could alternatively specify `how='all'` so as to drop only rows or columns that contain all null values. Let's expand our example `DataFrame` to see this in action.
+
+```python
+example2[3] = np.nan
+example2
+```
+|      |0  |1  |2  |3  |
+|------|---|---|---|---|
+|0     |1.0|NaN|7  |NaN|
+|1     |2.0|5.0|8  |NaN|
+|2     |NaN|6.0|9  |NaN|
+
+The `thresh` parameter gives you finer-grained control: you set the number of *non-null* values that a row or column needs to have in order to be kept:
+```python
+example2.dropna(axis='rows', thresh=3)
+```
+```
+	0	1	2	3
+1	2.0	5.0	8	NaN
+```
+Here, the first and last row have been dropped, because they contain only two non-null values.
+
+- **Filling null values**: Depending on your dataset, it can sometimes make more sense to fill null values with valid ones rather than drop them. You could use `isnull` to do this in place, but that can be laborious, particularly if you have a lot of values to fill. Because this is such a common task in data science, pandas provides `fillna`, which returns a copy of the `Series` or `DataFrame` with the missing values replaced with one of your choosing. Let's create another example `Series` to see how this works in practice.
+```python
+example3 = pd.Series([1, np.nan, 2, None, 3], index=list('abcde'))
+example3
+```
+```
+a    1.0
+b    NaN
+c    2.0
+d    NaN
+e    3.0
+dtype: float64
+```
+You can fill all of the null entries with a single value, such as `0`:
+```python
+example3.fillna(0)
+```
+```
+a    1.0
+b    0.0
+c    2.0
+d    0.0
+e    3.0
+dtype: float64
+```
+You can **forward-fill** null values, which is to use the last valid value to fill a null:
+```python
+example3.fillna(method='ffill')
+```
+```
+a    1.0
+b    1.0
+c    2.0
+d    2.0
+e    3.0
+dtype: float64
+```
+You can also **back-fill** to propagate the next valid value backward to fill a null:
+```python
+example3.fillna(method='bfill')
+```
+```
+a    1.0
+b    2.0
+c    2.0
+d    3.0
+e    3.0
+dtype: float64
+```
+As you might guess, this works the same with `DataFrame`s, but you can also specify an `axis` along which to fill null values. taking the previously used `example2` again:
+```python
+example2.fillna(method='ffill', axis=1)
+```
+```
+	0	1	2	3
+0	1.0	1.0	7.0	7.0
+1	2.0	5.0	8.0	8.0
+2	NaN	6.0	9.0	9.0
+```
+Notice that when a previous value is not available for forward-filling, the null value remains.
+
+> **Takeaway:** There are multiple ways to deal with missing values in your datasets. The specific strategy you use (removing them, replacing them, or even how you replace them) should be dictated by the particulars of that data. You will develop a better sense of how to deal with missing values the more you handle and interact with datasets.
+
+## Removing duplicate data
+
+> **Learning goal:** By the end of this subsection, you should be comfortable identifying and removing duplicate values from DataFrames.
+
+In addition to missing data, you will often encounter duplicated data in real-world datasets. Fortunately, `pandas` provides an easy means of detecting and removing duplicate entries.
+
+- **Identifying duplicates: `duplicated`**: You can easily spot duplicate values using the `duplicated` method in pandas, which returns a Boolean mask indicating whether an entry in a `DataFrame` is a duplicate of an ealier one. Let's create another example `DataFrame` to see this in action.
+```python
+example4 = pd.DataFrame({'letters': ['A','B'] * 2 + ['B'],
+                         'numbers': [1, 2, 1, 3, 3]})
+example4
+```
+|      |letters|numbers|
+|------|-------|-------|
+|0     |A      |1      |
+|1     |B      |2      |
+|2     |A      |1      |
+|3     |B      |3      |
+|4     |B      |3      |
+
+```python
+example4.duplicated()
+```
+```
+0    False
+1    False
+2     True
+3    False
+4     True
+dtype: bool
+```
+- **Dropping duplicates: `drop_duplicates`: `drop_duplicates` simply returns a copy of the data for which all of the `duplicated` values are `False`:
+```python
+example4.drop_duplicates()
+```
+```
+	letters	numbers
+0	A	1
+1	B	2
+3	B	3
+```
+Both `duplicated` and `drop_duplicates` default to consider all columnsm but you can specify that they examine only a subset of columns in your `DataFrame`:
+```python
+example6.drop_duplicates(['letters'])
+```
+```
+letters	numbers
+0	A	1
+1	B	2
+```
+
+> **Takeaway:** Removing duplicate data is an essential part of almost every data-science project. Duplicate data can change the results of your analyses and give you inaccurate results!
 
 
 ## 🚀 Challenge
 
-Give the exercises in the [notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb) a try!
+All of the discussed materials are provided as a [Jupyter Notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb). Additionally, there are exercises present after each section, give them a try!
 
 ## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/15)
 
