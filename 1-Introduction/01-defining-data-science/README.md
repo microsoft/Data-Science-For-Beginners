@@ -33,7 +33,7 @@ This definition highlights the following important aspects of data science:
 > Another important aspect of Data Science is that it studies how data can be gathered, stored and operated upon using computers. While statistics gives us mathematical foundations, data science applies mathematical concepts to actually draw insights from data.
 
 One of the ways (attributed to [Jim Gray](https://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist))) to look at the data science is to consider it to be a separate paradigm of science:
-* **Empyrical**, in which we rely mostly on observations and results of experiments
+* **Empirical**, in which we rely mostly on observations and results of experiments
 * **Theoretical**, where new concepts emerge from existing scientific knowledge
 * **Computational**, where we discover new principles based on some computational experiments
 * **Data-Driven**, based on discovering relationships and patterns in the data  
@@ -45,7 +45,7 @@ Since data is a pervasive concept, data science itself is also a broad field, to
 <dl>
 <dt>Databases</dt>
 <dd>
-The most obvious thing to consider is **how to store** the data, i.e. how to structure them in a way that allows faster processing. There are different types of databases that store structured and unstructured data, which [we will consider in our course](../../2-Working-With-Data/README.md).
+The most obvious thing to consider is **how to store** the data, i.e. how to structure them in a way that allows faster processing. There are different types of databases that store structured and unstructured data, which <a href="../../2-Working-With-Data/README.md">we will consider in our course</a>.
 </dd>
 <dt>Big Data</dt>
 <dd>
@@ -53,7 +53,7 @@ Often we need to store and process really large quantities of data with relative
 </dd>
 <dt>Machine Learning</dt>
 <dd>
-One of the ways to understand the data is to **build a model** that will be able to predict desired outcome. Being able to learn such models from data is the area studied in **machine learning**. You may want to have a look at our [Machine Learning for Beginners](https://github.com/microsoft/ML-For-Beginners/) Curriculum to get deeper into that field.
+One of the ways to understand the data is to **build a model** that will be able to predict desired outcome. Being able to learn such models from data is the area studied in **machine learning**. You may want to have a look at our <a href="https://aka.ms/ml-beginners">Machine Learning for Beginners</a> Curriculum to get deeper into that field.
 </dd>
 <dt>Artificial Intelligence</dt>
 <dd>
@@ -61,7 +61,7 @@ As machine learning, artificial intelligence also relies on data, and it involve
 </dd>
 <dt>Visualization</dt>
 <dd>
-Vast amounts of data are incomprehensible for a human being, but once we create useful visualizations - we can start making much more sense of data, and drawing some conclusions. Thus, it is important to know many ways to visualize information - something that we will cover in [Section 3](../../3-Data-Visualization/README.md) of our course. Related fields also include **Infographics**, and **Human-Computer Interaction** in general. 
+Vast amounts of data are incomprehensible for a human being, but once we create useful visualizations - we can start making much more sense of data, and drawing some conclusions. Thus, it is important to know many ways to visualize information - something that we will cover in <a href="../../3-Data-Visualization/README.md">Section 3</a> of our course. Related fields also include **Infographics**, and **Human-Computer Interaction** in general. 
 </dd>
 </dl>
 

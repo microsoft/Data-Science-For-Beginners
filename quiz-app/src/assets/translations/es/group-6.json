@@ -1,0 +1,108 @@
+[{
+  "title": "Ciencia de datos para principiantes: Cuestionarios",
+  "complete": "Enhorabuena, has completado el cuestionario!",
+  "error": "Lo siento, inténtalo de nuevo",
+  "quizzes": [{
+      "id": 38,
+      "title": "Ciencia de los datos en la naturaleza",
+      "quiz": [{
+          "questionText": "La ciencia de los datos puede utilizarse en muchos sectores, como",
+          "answerOptions": [{
+              "answerText": "Finanzas y Humanidades",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Agricultura y manufactura",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "La ciencia de los datos en el contexto de la investigación puede centrarse en:",
+          "answerOptions": [{
+              "answerText": "oportunidades de innovación",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "gestión de errores",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "impulsar las ventas",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "El 'Estudio de los matices de género' se centró en",
+          "answerOptions": [{
+              "answerText": "transformar el discurso de género",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "los sesgos inherentes al análisis facial",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Ninguna de las respuestas anteriores",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Ciencia de los datos en la naturaleza - Cuestionario final",
+      "quiz": [{
+          "questionText": "Las humanidades digitales son una práctica que combina los métodos informáticos con la investigación humanística",
+          "answerOptions": [{
+              "answerText": "Verdadera",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Utilizar la ciencia de los datos para la investigación de la sostenibilidad",
+          "answerOptions": [{
+              "answerText": "Estudiar la deforestación",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Estudio de los datos del cambio climático",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "En finanzas, se puede utilizar la ciencia de los datos para",
+          "answerOptions": [{
+              "answerText": "Investigación sobre sus servicios financieros",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Personalizar las opciones de fondos de inversión en función del tipo de cliente",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}]

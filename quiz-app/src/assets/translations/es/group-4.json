@@ -1,0 +1,305 @@
+[{
+  "title": "Ciencia de datos para principiantes: Cuestionarios",
+  "complete": "Enhorabuena, has completado el cuestionario!",
+  "error": "Lo siento, inténtalo de nuevo",
+  "quizzes": [{
+      "id": 26,
+      "title": "Ciclo de vida de la ciencia de datos - Introducción Cuestionario previo",
+      "quiz": [{
+          "questionText": "¿Cuál es el primer paso del ciclo de vida de la ciencia de datos?",
+          "answerOptions": [{
+              "answerText": "Análisis de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Limpieza de datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Adquisición de datos y problema a resolver",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "Una vez alcanzado el siguiente paso del ciclo de vida de la ciencia de datos, no se puede volver a los pasos anteriores",
+          "answerOptions": [{
+              "answerText": "Verdadero",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué consideraciones hay que tener en cuenta a la hora de conservar los datos?",
+          "answerOptions": [{
+              "answerText": "Limpieza de los datos",
+              "isCorrect": "false"
+            },
+
+            {
+              "answerText": "Mantener la seguridad de los datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Ciclo de vida de la ciencia de datos - Cuestionario posterior",
+      "quiz": [{
+          "questionText": "¿Qué paso del ciclo de vida de la ciencia de datos es más probable que produzca un modelo? ",
+          "answerOptions": [{
+              "answerText": "Procesamiento",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Mantenimiento",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Captura",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué preguntas se haría un científico de datos en la fase de captura del ciclo de vida de la ciencia de datos?",
+          "answerOptions": [{
+              "answerText": "¿Cuáles son las limitaciones?",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "¿Tienen sentido los datos?",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "¿Tiene sentido el modelo?",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuáles son las técnicas más comunes en la etapa de procesamiento?",
+          "answerOptions": [{
+              "answerText": "Agrupación",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Inteligencia artificial",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Ciclo de vida de la ciencia de los datos - Análisis previo",
+      "quiz": [{
+          "questionText": "Analizar puede referirse a analizar modelos o datos",
+          "answerOptions": [{
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué importancia tiene la exploración de los datos antes de utilizarlos en un modelo o en un análisis posterior?",
+          "answerOptions": [{
+              "answerText": "Para eliminar los datos",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Identificar los desafíos en los datos",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Explorar los datos no es importante",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué hace un científico de datos cuando explora los datos?",
+          "answerOptions": [{
+              "answerText": "Muestreo",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Visualización",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Las dos respuestas anteriores",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Ciclo de vida de la ciencia de los datos - Análisis cuestionario final",
+      "quiz": [{
+          "questionText": "La visualización nunca forma parte del análisis exploratorio de datos (AED)",
+          "answerOptions": [{
+              "answerText": "Verdadero",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Qué funciones de Panda proporcionan un perfil de datos básico?",
+          "answerOptions": [{
+              "answerText": "pandas()",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "isnull()",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "describe()",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Para qué sirve el muestreo de datos?",
+          "answerOptions": [{
+              "answerText": "El muestreo es mejor que la elaboración de perfiles de datos cuando se buscan errores",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "El muestreo no sirve para nada",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "El muestreo se utiliza para analizar los datos de un gran conjunto de datos porque es difícil analizarlos todos",
+              "isCorrect": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Ciclo de vida de la ciencia de los datos - comunicación",
+      "quiz": [{
+          "questionText": "Cuando se comunican datos a un público, es una buena práctica centrarse únicamente en las cifras y no en la historia.",
+          "answerOptions": [{
+              "answerText": "Verdadero",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "true"
+            }
+          ]
+        },
+        {
+          "questionText": "¿Cuál es un ejemplo de comunicación bidireccional?",
+          "answerOptions": [{
+              "answerText": "Cuando un presentador se dirige a un público y deja la palabra abierta para preguntas y comentarios.",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Cuando un líder lanza un mensaje de televisión o radio a sus electores.",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Cuando una marca se anuncia a los clientes potenciales.",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "Cuando una persona hace una presentación ante un público, y éste no proporciona ninguna información, ¿quién actúa como receptor de la información?",
+          "answerOptions": [{
+              "answerText": "El presentador",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "La audiencia",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Miembros específicos de la audiencia",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Ciclo de vida de la ciencia de los datos - comunicación cuestionario final",
+      "quiz": [{
+          "questionText": "A la hora de comunicar datos, los colores pueden servir para evocar emociones en el público.",
+          "answerOptions": [{
+              "answerText": "Verdadero",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Falso",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "De las siguientes opciones, ¿cuál es la explicación más significativa del progreso anual de una empresa?",
+          "answerOptions": [{
+              "answerText": "Hemos tenido un año excelente. Nuestros usuarios han crecido un 30%, nuestros ingresos han aumentado un 21% y hemos incorporado 100 nuevos miembros al equipo.",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Hemos tenido un gran año. Nuestros usuarios han crecido enormemente, nuestros ingresos han aumentado mucho e incluso hemos incorporado varios miembros nuevos al equipo en todas las divisiones.",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Nuestro año de progreso fue simplemente fenomenal. No puedo exagerar el aumento que hemos tenido con el crecimiento de nuestros usuarios, nuestros ingresos o nuestro equipo.",
+              "isCorrect": "false"
+            }
+          ]
+        },
+        {
+          "questionText": "A la hora de comunicar datos a una audiencia ejecutiva, ¿cuál sería una estrategia aceptable?",
+          "answerOptions": [{
+              "answerText": "Profundiza en los pequeños detalles y dedique menos tiempo a la importancia de los datos.",
+              "isCorrect": "false"
+            },
+            {
+              "answerText": "Concentrate principalmente en la importancia de los datos y en los próximos pasos recomendados sobre la base de los datos.",
+              "isCorrect": "true"
+            },
+            {
+              "answerText": "Explica todo el contexto e intente hacer una lluvia de ideas sobre posibles soluciones con los ejecutivos.",
+              "isCorrect": "false"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}]

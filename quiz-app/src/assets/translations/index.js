@@ -1,8 +1,10 @@
-import englishQuizzes from "./en/";
-import frenchQuizzes from "./fr/";
+import englishQuizzes from './en/';
+import frenchQuizzes from './fr/';
+import spanishQuizzes from './es/';
 
 const messages = {
   en: englishQuizzes,
-  fr: frenchQuizzes
+  fr: frenchQuizzes,
+  es: spanishQuizzes,
 };
 export default messages;
