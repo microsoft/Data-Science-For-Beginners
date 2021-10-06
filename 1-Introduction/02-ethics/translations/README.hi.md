@@ -63,57 +63,57 @@
 
 एक बार जब हमारे पास नैतिक सिद्धांत परिभाषित हो जाते हैं, तो अगला कदम यह देखने के लिए हमारे डेटा और एआई कार्यों का मूल्यांकन करना है कि क्या वे उन साझा मूल्यों के साथ संरेखित हैं । अपने कार्यों के बारे में दो श्रेणियों में सोचें: _डेटा संग्रह_ और _एल्गोरिदम डिज़ाइन_ | 
 
-With data collection, actions will likely involve **personal data** or personally identifiable information (PII) for identifiable living individuals. This includes [diverse items of non-personal data](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-personal-data_en) that _collectively_ identify an individual. Ethical challenges can relate to _data privacy_, _data ownership_, and related topics like _informed consent_ and _intellectual property rights_ for users.
+डेटा संग्रह के साथ, कार्रवाइयों में संभवतः पहचान योग्य जीवित व्यक्तियों के लिए **व्यक्तिगत डेटा** या व्यक्तिगत रूप से पहचान योग्य जानकारी शामिल होगी । इसमें [गैर-व्यक्तिगत डेटा के विविध आइटम] (https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-personal-data_en) शामिल हैं, जो _collectively_ किसी व्यक्ति की पहचान करते हैं । नैतिक चुनौतियां _डेटा गोपनीयता_, _डेटा स्वामित्व_, और उपयोगकर्ताओं के लिए _सूचित सहमति_ और _बौद्धिक संपदा अधिकार_ जैसे संबंधित विषयों से संबंधित हो सकती हैं ।
 
-With algorithm design, actions will involve collecting & curating **datasets**, then using them to train & deploy **data models** that predict outcomes or automate decisions in real-world contexts. Ethical challenges can arise from _dataset bias_, _data quality_ issues, _unfairness_ ,and _misrepresentation_ in algorithms - including some issues that are systemic in nature.
+एल्गोरिथम डिज़ाइन के साथ, क्रियाओं में **डेटासेट** एकत्र करना और क्यूरेट करना शामिल होगा, फिर उनका उपयोग **डेटा मॉडल** को प्रशिक्षित और तैनात करने के लिए किया जाएगा जो वास्तविक दुनिया के संदर्भों में परिणामों की भविष्यवाणी या स्वचालित निर्णय लेते हैं । एल्गोरिथम डिज़ाइन के साथ, क्रियाओं में **डेटासेट** एकत्र करना और क्यूरेट करना शामिल होगा, फिर उनका उपयोग **डेटा मॉडल** को प्रशिक्षित और तैनात करने के लिए किया जाएगा जो वास्तविक दुनिया के संदर्भों में परिणामों की भविष्यवाणी या स्वचालित निर्णय लेते हैं ।
 
-In both cases, ethics challenges highlight areas where our actions may encounter conflict with our shared values. To detect, mitigate, minimize, or eliminate, these concerns - we need to ask moral "yes/no" questions related to our actions, then take corrective actions as needed. Let's take a look at some ethical challenges and the moral questions they raise:
-
-
-#### 2.1 Data Ownership
-
-Data collection often involves personal data that can identify the data subjects. [Data ownership](https://permission.io/blog/data-ownership) is about _control_ and [_user rights_](https://permission.io/blog/data-ownership) related to the creation, processing ,and dissemination of data. 
-
-The moral questions we need to ask are: 
- * Who owns the data? (user or organization)
- * What rights do data subjects have? (ex: access, erasure, portability)
- * What rights do organizations have? (ex: rectify malicious user reviews)
-
-#### 2.2 Informed Consent
-
-[Informed consent](https://legaldictionary.net/informed-consent/) defines the act of users agreeing to an action (like data collection) with a _full understanding_ of relevant facts including the purpose, potential risks ,and alternatives. 
-
-Questions to explore here are:
- * Did the user (data subject) give permission for data capture and usage?
- * Did the user understand the purpose for which that data was captured?
- * Did the user understand the potential risks from  their participation?
-
-#### 2.3 Intellectual Property
-
-[Intellectual property](https://en.wikipedia.org/wiki/Intellectual_property) refers to intangible creations resulting from the human initiative, that may _have economic value_ to individuals or businesses. 
-
-Questions to explore here are:
- * Did the collected data have economic value to a user or business?
- * Does the **user** have intellectual property here?
- * Does the **organization** have intellectual property here?
- * If these rights exist, how are we protecting them?
-
-#### 2.4 Data Privacy
-
-[Data privacy](https://www.northeastern.edu/graduate/blog/what-is-data-privacy/) or information privacy refers to the preservation of user privacy and protection of user identity with respect to personally identifiable information. 
-
-Questions to explore here are:
- * Is users' (personal) data secured against hacks and leaks?
- * Is users' data accessible only to authorized users and contexts?
- * Is users' anonymity preserved when data is shared or disseminated?
- * Can a user be de-identified from anonymized datasets?
+दोनों ही मामलों में, नैतिकता की चुनौतियाँ उन क्षेत्रों को उजागर करती हैं जहाँ हमारे कार्यों का हमारे साझा मूल्यों के साथ टकराव हो सकता है । इन चिंताओं का पता लगाने, सामना करने, कम करने या समाप्त करने के लिए - हमें अपने कार्यों से संबंधित नैतिक "हां या नहीं" प्रश्न पूछने की जरूरत है, फिर आवश्यकतानुसार सुधारात्मक कार्रवाई करें । आइए कुछ नैतिक चुनौतियों और उनके द्वारा उठाए गए नैतिक प्रश्नों पर एक नज़र डालें :
 
 
-#### 2.5 Right To Be Forgotten
+#### 2.1 डेटा स्वामित्व
 
-The [Right To Be Forgotten](https://en.wikipedia.org/wiki/Right_to_be_forgotten) or [Right to Erasure](https://www.gdpreu.org/right-to-be-forgotten/) provides additional personal data protection to users. Specifically, it gives users the right to request deletion or removal of personal data from Internet searches and other locations, _under specific circumstances_ - allowing them a fresh start online without past actions being held against them.
+डेटा संग्रह में अक्सर व्यक्तिगत डेटा शामिल होता है जो डेटा विषयों की पहचान कर सकता है । [डेटा स्वामित्व](https://permission.io/blog/data-ownership) _नियंत्रण_ के बारे में और उन [_उपयोगकर्ता अधिकारो_](https://permission.io/blog/data-ownership)के सम्भंदित है जो निर्माण , प्रसंस्करण और से संबंधित है । 
 
-Questions to explore here are:
+हमें जो नैतिक प्रश्न पूछने चाहिए, वे हैं : 
+ * डेटा का मालिक कौन है ? (उपयोगकर्ता या संगठन)
+ * डेटा विषयों के पास क्या अधिकार हैं ? (उदा: पहुंच, मिटाना, सुवाह्यता)
+ * संगठनों के पास क्या अधिकार हैं ? (उदा: दुर्भावनापूर्ण उपयोगकर्ता समीक्षाओं का सुधार)
+
+#### 2.2 सूचित सहमति
+
+[सूचित सहमति](https://legaldictionary.net/informed-consent/) उद्देश्य, संभावित जोखिमों और विकल्पों सहित प्रासंगिक तथ्यों की _पूर्ण समझ_ के साथ कार्रवाई (जैसे डेटा संग्रह) के लिए सहमत होने वाले उपयोगकर्ताओं के कार्य को परिभाषित करता है । 
+
+यहां देखने लायक प्रश्न हैं :
+ * क्या उपयोगकर्ता (डेटा विषय) ने डेटा कैप्चर और उपयोग के लिए अनुमति दी थी ?
+ * क्या उपयोगकर्ता को वह उद्देश्य समझ में आया जिसके लिए उस डेटा को कैप्चर किया गया था ?
+ * क्या उपयोगकर्ता ने उनकी भागीदारी से संभावित जोखिमों को समझा ?
+
+#### 2.3 बौद्धिक संपदा
+
+[बौद्धिक संपदा](https://en.wikipedia.org/wiki/Intellectual_property) मानव पहल से उत्पन्न अमूर्त कृतियों को संदर्भित करता है, जिनका व्यक्तियों या व्यवसायों के लिए _आर्थिक_ महत्व हो सकता है ।
+
+यहां देखने लायक प्रश्न हैं :
+ * क्या जमा किए गए डेटा का किसी उपयोगकर्ता या व्यवसाय के लिए आर्थिक महत्व है ?
+ * क्या **उपयोगकर्ता** के पास यहां बौद्धिक संपदा है ?
+ * क्या **संगठन** के पास यहां बौद्धिक संपदा है ?
+ * अगर ये अधिकार मौजूद हैं, तो हम उनकी रक्षा कैसे कर रहे हैं ?
+
+#### 2.4 डाटा गोपनीयता
+
+[डेटा गोपनीयता](https://www.northeaster.edu/graduate/blog/what-is-data-privacy/) या सूचना गोपनीयता व्यक्तिगत रूप से पहचान योग्य जानकारी के संबंध में उपयोगकर्ता की गोपनीयता के संरक्षण और उपयोगकर्ता की पहचान की सुरक्षा को संदर्भित करता है ।
+
+यहां देखने लायक प्रश्न हैं :
+ * क्या उपयोगकर्ताओं का (व्यक्तिगत) डेटा हैक और लीक से सुरक्षित है ?
+ * क्या उपयोगकर्ताओं का डेटा केवल अधिकृत उपयोगकर्ताओं और संदर्भों के लिए सुलभ है ?
+ * क्या डेटा साझा या प्रसारित होने पर उपयोगकर्ताओं की गोपनीयता बनी रहती है ?
+ * क्या किसी उपयोगकर्ता की पहचान अज्ञात डेटासेट से की जा सकती है ?
+
+
+#### 2.5 भूला दिया जाने का अधिकार
+
+[भूला दिया जाने का अधिकार](https://en.wikipedia.org/wiki/Right_to_be_forgotten) अतिरिक्त सुविधाएं प्रदान करता है उपयोगकर्ताओं के लिए व्यक्तिगत डेटा सुरक्षा। विशेष रूप से, यह उपयोगकर्ताओं को इंटरनेट खोजों और अन्य स्थानों से व्यक्तिगत डेटा को हटाने या हटाने का अनुरोध करने का अधिकार देता है, _विशिष्ट परिस्थितियों में_ - उन्हें उनके खिलाफ पिछली कार्रवाई किए बिना ऑनलाइन एक नई शुरुआत करने की अनुमति देता है ।
+
+यहां देखने लायक प्रश्न हैं :
  * Does the system allow data subjects to request erasure?
  * Should the withdrawal of user consent trigger automated erasure?
  * Was data collected without consent or by unlawful means?
