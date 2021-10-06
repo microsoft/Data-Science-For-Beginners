@@ -6,7 +6,7 @@
 
 ---
 
-[![Defining Data Science Video](images/video-def-ds.png)](https://youtu.be/pqqsm5reGvs)
+[![Defining Data Science Video](images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
 
@@ -33,7 +33,7 @@ This definition highlights the following important aspects of data science:
 > Another important aspect of Data Science is that it studies how data can be gathered, stored and operated upon using computers. While statistics gives us mathematical foundations, data science applies mathematical concepts to actually draw insights from data.
 
 One of the ways (attributed to [Jim Gray](https://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist))) to look at the data science is to consider it to be a separate paradigm of science:
-* **Empyrical**, in which we rely mostly on observations and results of experiments
+* **Empirical**, in which we rely mostly on observations and results of experiments
 * **Theoretical**, where new concepts emerge from existing scientific knowledge
 * **Computational**, where we discover new principles based on some computational experiments
 * **Data-Driven**, based on discovering relationships and patterns in the data  
