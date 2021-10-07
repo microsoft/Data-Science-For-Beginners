@@ -1,69 +1,69 @@
-# Defining Data
+# Definiendo datos
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/03-DefiningData.png)|
+|![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/03-DefiningData.png)|
 |:---:|
-|Defining Data - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+|Definiendo datos - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
-Data is facts, information, observations and measurements that are used to make discoveries and to support informed decisions. A data point is a single unit of data with in a dataset, which is collection of data points. Datasets may come in different formats and structures, and will usually be based on its source, or where the data came from. For example, a company's monthly earnings might be in a spreadsheet but hourly heart rate data from a smartwatch may be in [JSON](https://stackoverflow.com/a/383699) format. It's common for data scientists to work with different types of data within a dataset. 
+Los datos son hechos, información, observaciones y mediciones que son usados para realizar descubrimientos y soportar decisiones informadas. Un punto de datos es una unidad simple de datos dentro de un conjunto de datos, lo cual es una colección de puntos de datos. Los conjuntos de datos pueden venir en distintos formatos y estructuras, y comúnmente se basan en su fuente, o de donde provienen los datos. Por ejemplo, las ganancias mensuales de una compañía pueden estar en una hoja de cálculo, pero los datos del  ritmo cardiaco por hora de un reloj inteligente pueden estar en un formato [JSON](https://stackoverflow.com/a/383699). Es algo común para los científicos de datos el trabajar con distintos tipos de datos dentro de un conjunto de datos.
 
-This lesson focuses on identifying and classifying data by its characteristics and its sources.
+Esta lección se enfoca en la identificación y clasificación de datos por sus características y sus fuentes.
 
-## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/4)
-## How Data is Described
-**Raw data** is data that has come from its source in its initial state and has not been analyzed or organized. In order to make sense of what is happening with a dataset, it needs to be organized into a format that can be understood by humans as well as the technology they may use to analyze it further. The structure of a dataset describes how it's organized and can be classified at structured, unstructured and semi-structured. These types of structure will vary, depending on the source but will ultimately fit in these three categories. 
-### Quantitative Data
-Quantitative data is numerical observations within a dataset and can typically be analyzed, measured and used mathematically. Some examples of quantitative data are: a country's population, a person's height or a company's quarterly earnings. With some additional analysis, quantitative data could be used to discover seasonal trends of the Air Quality Index (AQI) or estimate the probability of rush hour traffic on a typical work day.
+## [Examen previo a la lección](https://red-water-0103e7a0f.azurestaticapps.net/quiz/4)
+## Como se describen los datos
+Los **datos en crudo** son datos que provienen de su fuente en su estado inicial y estos no han sido analizados u organizados. Con el fin de que tenga sentido lo que sucede con un conjunto de datos, es necesario organizarlos en un formato que pueda ser entendido tanto por humanos como por la tecnología usada para analizarla a mayor detalle. La estructura de un conjunto de datos describe como está organizado y puede ser clasificado de forma estructurada, no estructurada y semi-estructurada. Estos tipos de estructuras podrían variar, dependiendo de la fuente pero finalmente caerá en una de estas categorías.
+### Datos cuantitativos
+Los datos cuantitativos son observaciones numéricas en un conjunto de datos que puede ser típicamente analizados, medidos y usados matemáticamente. Algunos ejemplos de datos cuantitativos son: la población de un país, la altura de una persona o las ganancias trimestrales de una compañía. Con algo de análisis adicional, los datos cuantitativos podrían ser usados para descubrir tendencias de temporada en el índice de calidad del aire (AQI) o estimar la probabilidad la hora pico de embotellamiento vial en un día laboral típico.
 
-### Qualitative Data
-Qualitative data, also known as categorical data is data that cannot be measured objectively like observations of quantitative data. It's generally various formats of subjective data that captures the quality of something, such as a product or process. Sometimes, qualitative data is numerical and wouldn't be typically used mathematically, like phone numbers or timestamps. Some examples of qualitative data are: video comments, the make and model of a car or your closest friends' favorite color. Qualitative data could be used to understand which products consumers like best or identifying popular keywords in job application resumes.
+### Datos cualitativos
+Los datos cualitativos, también conocidos como datos categóricos son datos que no pueden ser medidos de forma objetiva en comparación con los datos cuantitativos. Comúnmente son formatos de datos subjetivos que capturan la calidad de algo, como un producto o un proceso. Algunas veces, los datos cuantitativos son numéricos y no pudiesen ser usados matemáticamente, como números telefónicos o marcas de tiempo. Algunos ejemplos de datos cualitativos son: comentarios en los videos, la marca y modelo de un automóvil o el color favorito de tus amigos más cercanos. Los datos cualitativos pueden ser usados para entender qué productos le gustan más a los usuarios o el identificar las palabras clave populares en solicitudes de empleo.
 
-### Structured Data
-Structured data is data that is organized into rows and columns, where each row will have the same set of columns. Columns represent a value of a particular type and will be identified with a name describing what the value represents, while rows contain the actual values. Columns will often have a specific set of rules or restrictions on the values, to ensure that the values accurately represent the column. For example imagine a spreadsheet of customers where each row must have a phone number and the phone numbers never contain alphabetical characters. There may be rules applied on the phone number column to make sure it's never empty and only contains numbers. 
+### Datos estructurados
+Los datos estructurados son datos que están organizados en filas y columnas, donde cada fila tendrá el mismo conjunto de columnas. Las columnas representan un valor de un tipo particular y serán identificadas con un nombre que describa el valor que representa, mientras que las filas contienen los valores en cuestión. Las columnas usualmente tendrán un conjunto específico de reglas o restricciones en sus valores, para asegurar que los valores presentan a la columna de forma precisa. Por ejemplo, imagina una hoja de cálculo de clientes donde cada fila debe tener un número telefónico y los números telefónicos nunca contienen caracteres alfabéticos. Habrá que aplicar reglas a la columna de número telefónico para asegurar éste nunca está vacío y contiene únicamente números.
 
-A benefit of structured data is that it can be organized in such a way that it can be related to other structured data. However, because the data is designed to be organized in a specific way, making changes to its overall structure can take a lot of effort to do. For example, adding an email column to the customer spreadsheet that cannot be empty means you'll need figure out how you'll add these values to the existing rows of customers in the dataset. 
+Un beneficio de los datos estructurados es que estos pueden ser organizados de tal forma que pueden relacionarse con otros datos estructurados. Sin embargo, ya que los datos están diseñados para ser organizados de forma específica, el realizar cambios a su estructura en general puede conllevar un gran esfuerzo. Por ejemplo, agregar una columna de correo a la hoja de cálculo de clientes para que no permita esté vacía significa que necesitas descubrir como agregar estos valores a las filas existentes de clientes en el conjunto de datos.
 
-Examples of structured data: spreadsheets, relational databases, phone numbers, bank statements
+Ejemplos de datos estructurados: hojas de cálculo, bases de datos relacionales, número de teléfono, estados de cuenta del banco.
 
-### Unstructured Data
-Unstructured data typically cannot be categorized into into rows or columns and doesn't contain a format or set of rules to follow. Because unstructured data has less restrictions on its structure it's easier to add new information in comparison to a structured dataset. If a sensor capturing data on barometric pressure every 2 minutes has received an update that now allows it to measure and record temperature, it doesn't require altering the existing data if it's unstructured. However, this may make analyzing or investigating this type of data take longer. For example, a scientist who wants to find the average temperature of the previous month from the sensors data, but discovers that the sensor recorded an "e" in some of its recorded data to note that it was broken instead of a typical number, which means the data is incomplete.
+### Datos no estructurados
+Los datos no estructurados no pueden ser típicamente categorizados en filas o columnas y no contienen un formato o conjunto de reglas a seguir. Ya que los datos no estructurados tienen menos restricciones en su estructura es más fácil agregar nueva información en comparación con los conjuntos de datos estructurados. Si un sensor captura datos de presión barométrica cada 2 minutos y ha recibido una actualización que ahora permite medir y granar la temperatura, no se requiere la modificación de los datos existentes si estos son no estructurados. Sin embargo, esto puede hacer que el análisis o la investigación de este tipo de datos tomará más tiempo. Por ejemplo, un científico quiere encontrar la temperatura promedio del mes previo desde los sensores de datos, pero descubre que los sensores grabaron una "e" en algunos de sus datos grabados para puntualizar que éste está averiado en lugar de grabar un número, lo cual significa que los datos están incompletos.
 
-Examples of unstructured data: text files, text messages, video files
+Ejemplos de datos no estructurados: archivos de texto, mensajes de texto, archivos de video.
 
-### Semi-structured
-Semi-structured data has features that make it a combination of structured and unstructured data. It doesn't typically conform to a format of rows and columns but is organized in a way that is considered structured and may follow a fixed format or set of rules. The structure will vary between sources, such as a well defined hierarchy to something more flexible that allows for easy integration of new information. Metadata are indicators that help decide how the data is organized and stored and will have various names, based on the type of data. Some common names for metadata are tags, elements, entities and attributes. For example, a typical email message will have a subject, body and a set of recipients and can be organized by whom or when it was sent. 
+### Datos semi-estructurados
+Los datos semi-estructurados combinan características tanto de datos estructurados como no estructurados. Generalmente no se ajustan a un formato de filas y columnas pero están organizados de tal forma que son considerados estructurados y pueden seguir un formato fijo o conjunto de reglas. La estructura cambiará entre las fuentes, así como también la jerarquía definida para algo más flexible que permite la fácil integración de información nueva. Los metadatos son indicadores que facilitan el decidir como se organizan y almacenan los datos y tendrán varios nombres, basados en los tipos de datos. Algunos nombres comunes para los metadatos son etiquetas, elementos, entidades y atributos. Por ejemplo, un mensaje de correo típico tendrá un asunto, un cuerpo y un conjunto de destinatarios y puede ser organizado por quién o cuando fue enviado.
 
-Examples of unstructured data: HTML, CSV files, JavaScript Object Notation (JSON)
+Ejemplos de datos no estructurados: HTML, archivos CSV, objetos JSON.
 
-## Sources of Data 
+## Fuentes de datos 
 
-A data source is the initial location of where the data was generated, or where it "lives" and will vary based on how and when it was collected. Data generated by its user(s) are known as primary data while secondary data comes from a source that has collected data for general use. For example, a group of scientists collecting observations in a rainforest would be considered primary and if they decide to share it with other scientists it would be considered secondary to those that use it. 
+Una fuente de datos es la ubicación inicial en donde los datos son generados, o donde estos "viven" y varían basados en cómo y cuándo fueron recolectados. Los datos generados por sus usuarios con conocidos como información primaria mientras que la información secundaria proviene de una fuente que ha recolectado datos para uso general. Por ejemplo, un grupo de científicos recolectó observaciones en la selva tropical, dicha información es considerada como primaria, pero si deciden compartirla con otros científicos sería considerada como secundaria para aquellos que la usen.
 
-Databases are a common source and rely on a database management system to host and maintain the data where users use commands called queries to explore the data. Files as data sources can be audio, image, and video files as well as spreadsheets like Excel. Internet sources are a common location for hosting data, where databases as well as files can be found. Application programming interfaces, also known as APIs allow programmers to create ways to share data with external users through the internet, while the process of web scraping extracts data from a web page. The [lessons in Working with Data](/2-Working-With-Data) focus on how to use various data sources. 
+Las bases de datos son una fuente común y recaen en sistemas de gestión de bases de datos para albergar y mantener los datos donde los usuarios usan comandos llamados consultas (queries) para explorar los datos. Los archivos como fuentes de datos pueden ser archivos de audio, imagen y video también como hojas de cálculo como Excel. Las fuentes de Internet son una ubicación común para albergar datos, donde se pueden encontrar tanto bases de datos como archivos. Las interfaces de programación de aplicaciones, también conocidas como APIs, le permiten a los programadores crear formas para compartir los datos con usuarios externos a través de internet, mientras que los procesos de "web scraping" extraen datos desde una página web. Las [lecciones de trabajando con datos](/2-Working-With-Data) se enfocan en como usar las distintas fuentes de datos.
 
-## Conclusion
+## Conclusiones
 
-In this lesson we have learned:
+En esta lección has aprendido:
 
-- What data is
-- How data is described
-- How data is classified and categorized
-- Where data can be found
+- Qué son los datos
+- Cómo se describen los datos
+- Cómo se clasifican y categorizan los datos
+- Dónde se pueden encontrar los datos
 
-## 🚀 Challenge
+## 🚀 Desafío
 
-Kaggle is an excellent source of open datasets. Use the [dataset search tool](https://www.kaggle.com/datasets) to find some interesting datasets and classify 3-5 datasets with this criteria:
+Kaggle es una fuente excelente de conjuntos de datos abiertos. Usa los [conjuntos de datos de la herramienta de búsqueda](https://www.kaggle.com/datasets) para encontrar algunos conjuntos de datos interesantes y clasifica de 3 a 5 conjuntos de datos con los siguientes criterios:
 
-- Is the data quantitative or qualitative?
-- Is the data structured, unstructured, or semi-structured?
+- ¿Los datos son cuantitativos o cualitativos?
+- ¿Los datos son estruturados, no estructurados o semi-estructurados?
 
-## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/5)
+## [Examen posterior a la lección](https://red-water-0103e7a0f.azurestaticapps.net/quiz/5)
 
 
 
-## Review & Self Study
+## Revisión y auto-estudio
 
-- This Microsoft Learn unit, titled [Classify your Data](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/2-classify-data) has a detailed breakdown of structured, semi-structured, and unstructured data.
+- Esta unidad de Microsoft Lean, titulada [clasifica tus datos](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/2-classify-data) tiene un desglose detallado de datos estructurados, semi-estructurados y no estructurados.
 
-## Assignment
+## Assignación
 
-[Classifying Datasets](assignment.md)
+[Clasificación de conjuntos de datos](assignment.md)
