@@ -16,7 +16,7 @@ L'équipe Azure Cloud Advocates de Microsoft a le plaisir de vous offrir un curr
 
 **🙏 Nous remercions également particulièrement 🙏 les auteurs, correcteurs et contributeurs membres du programme Microsoft Learn Student Ambassadors**, notamment [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Rohit Yadav](https://www.linkedin.com/in/rty2423), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Sheena Narula](https://www.linkedin.com/in/sheena-narula-n/), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), Yogendrasingh Pawar, Max Blum, Samridhi Sharma, Tauqeer Ahmad, Aaryan Arora, ChhailBihari Dubey
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Title.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../sketchnotes/00-Title.png)|
 |:---:|
 | Data Science For Beginners - _Sketchnote réalisé par [@nitya](https://twitter.com/nitya)_ |
 
@@ -57,7 +57,7 @@ De plus, un quiz à faible enjeu à réaliser avant chaque cours permet de prép
 ## Cours
 
 
-|![ Sketchnote réalisé par [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Roadmap.png)|
+|![ Sketchnote réalisé par [(@sketchthedocs)](https://sketchthedocs.dev) ](../sketchnotes/00-Roadmap.png)|
 |:---:|
 | Data Science For Beginners: Roadmap - _Sketchnote réalisé par [@nitya](https://twitter.com/nitya)_ |
 
