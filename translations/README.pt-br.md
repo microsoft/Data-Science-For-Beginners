@@ -16,7 +16,7 @@ Consultores da Azure Cloud na Microsoft estão felizes em oferecer um currículo
 
 **🙏 Agradecimentos especiais 🙏 para nossos autores, revisores e contribuidores de conteúdo Estudantes Embaixadores da Microsoft,** notavelmente [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Rohit Yadav](https://www.linkedin.com/in/rty2423), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Sheena Narula](https://www.linkedin.com/in/sheena-narula-n/), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), Yogendrasingh Pawar, Max Blum, Samridhi Sharma, Tauqeer Ahmad, Aaryan Arora, ChhailBihari Dubey
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Title.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../sketchnotes/00-Title.png)|
 |:---:|
 | Ciência de Dados para Iniciantes - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
@@ -57,7 +57,7 @@ Além do mais, um quiz com valor baixo antes da aula define a intenção do estu
 ## Tarefas
 
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Roadmap.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../sketchnotes/00-Roadmap.png)|
 |:---:|
 | Ciência de Dados para Iniciantes: Roadmap - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
