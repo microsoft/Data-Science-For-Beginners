@@ -1,4 +1,4 @@
-# Visualizations
+# विज़ुअलाइज़ेशन
 
 ![लैवेंडर फूल पर मधुमक्खी](../images/bee.jpg)
 > <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
