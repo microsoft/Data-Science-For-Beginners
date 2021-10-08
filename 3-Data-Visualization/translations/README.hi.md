@@ -1,6 +1,6 @@
 # Visualizations
 
-![a bee on a lavender flower](./images/bee.jpg)
+![लैवेंडर फूल पर मधुमक्खी](../images/bee.jpg)
 > <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
 जेना ली</a> द्वारा फोटो  <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash 
 पर </a>
