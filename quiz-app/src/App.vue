@@ -6,12 +6,12 @@
       <select v-model="locale">
         <option>en</option>
         <option>es</option>
+        <option>ne</option>
       </select>
 
       <span class="title">{{ questions[locale][0].title }}</span>
     </nav>
     <div id="app">
-      
       <router-view>
         <Quiz />
       </router-view>
@@ -29,7 +29,6 @@ export default {
     questions() {
       return messages;
     },
-    
   },
   i18n: { messages },
   components: {
@@ -75,7 +74,7 @@ nav a {
 }
 
 .title {
-  color:white;
+  color: white;
   font-weight: bold;
   font-size: x-large;
   float: right;

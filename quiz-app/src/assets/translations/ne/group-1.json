@@ -1,0 +1,453 @@
+[
+  {
+    "title": "शुरुआती को लागी डाटा विज्ञान: क्विज",
+    "complete": "बधाई छ, तपाइँ क्विज पूरा गर्नुभयो!",
+    "error": "Sorry, try again",
+    "quizzes": [
+      {
+        "id": 0,
+        "title": "डाटा विज्ञान परिभाषित परि्भासा - क्विज पूर्व",
+        "quiz": [
+          {
+            "questionText": "डाटा विज्ञान मा शब्द _विज्ञान_ किन हुन्क्ष?",
+            "answerOptions": [
+              {
+                "answerText": "यस्मा डाटा विश्लेषण गर्न वैज्ञानिक विधिहरु को उपयोग हुन्क्ष",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "केवल शैक्षिक डिग्री भएका मानिसहरु यसलाई बुझ्न सक्छन्",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "कूल सुनिने भयेको कारण",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "डाटा विज्ञान सिक्न डेव्लपर को लागी मात्र उपयोगी छ",
+            "answerOptions": [
+              {
+                "answerText": "सहि",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "गलत",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "बास्केटबल खेलाडीहरु औसत मानिसहरु भन्दा अग्लो छन् भनेर प्रदर्शन गर्न के चाहिन्छ हामिलाई?",
+            "answerOptions": [
+              {
+                "answerText": "केहि डाटा सन्ंकलन गर्नुपर्क्ष",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "केहि सम्भावना र आँकडा जान्नुपर्क्ष",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "माथिका सबै",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "डाटा विज्ञानको परिभासा: पोस्ट क्विज",
+        "quiz": [
+          {
+            "questionText": "कुन क्षेत्रहरु नजिक बाट डाटा विज्ञान संग सम्बन्धित छन्?",
+            "answerOptions": [
+              {
+                "answerText": "आर्टिफिसियल इन्टेलिजेन्स",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "मेशिन लर्निङ्ग",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "माथिका सबै",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "निम्न मध्ये कुन गैर-संरचित डाटा को एक उदाहरण हो?",
+            "answerOptions": [
+              {
+                "answerText": "कक्षा मा विद्यार्थीहरुको सूची",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "विद्यार्थीहरुको निबन्ध को संग्रह",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "सामाजिक सन्जाल प्रयोगकर्ताहरु को मित्र को ग्राफ",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "डाटा विज्ञान को मुख्य लक्ष्य के हो?",
+            "answerOptions": [
+              {
+                "answerText": "डाटा सन्ंकलन गर्न",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "डाटा प्रशोधन गर्न",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "डाटा मा आधारित निर्णय गर्न सक्षम हुन",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "नैतिकता - पूर्व क्विज",
+        "quiz": [
+          {
+            "questionText": "डाटा विज्ञान मा नैतिकता को एक विचार के हो?",
+            "answerOptions": [
+              {
+                "answerText": "डाटा संकलन",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "एल्गोरिथ्म डिजाइन",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "माथिका सबै",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "निम्न मध्ये कुन नैतिक चुनौतिहरु को एक हिस्सा हो?",
+            "answerOptions": [
+              {
+                "answerText": "पारदर्शिता",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "डाटा गोपनीयता",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "विश्वसनीयता र सुरक्षा",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "डाटा नैतिकता मा एआई र मेशिन शिक्षा एल्गोरिदम सामेल छन् ",
+            "answerOptions": [
+              {
+                "answerText": "सहि",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "गलत, तिनीहरू अलग छन्",
+                "isCorrect": "false"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "नैतिकता - पोस्ट क्विज",
+        "quiz": [
+          {
+            "questionText": "नैतिकता र लागू नैतिकता को बीच मुख्य फरक के हो?",
+            "answerOptions": [
+              {
+                "answerText": "लागू नैतिकता नैतिकताको एक विशिष्ट प्रकार हो",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "लागू नैतिकता एक वास्तविक शब्द होइन",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "लागू नैतिकता नैतिक मुद्दाहरु खोज्न र सच्याउने प्रक्रिया हो",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "नैतिकता नियमन बनाम नैतिक सिद्धान्तहरु बीच के फरक छ?",
+            "answerOptions": [
+              {
+                "answerText": "नैतिकता नियमन नियमित नैतिकता मा केन्द्रित छ",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "कुनै फरक छैन",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "नैतिक सिद्धान्तहरु एक विशेष कानून संग सम्बन्धित छैन, जबकि नियमहरु गर्छन्",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "यि मध्ये कुन वास्तविक नैतिक सिद्धान्तहरु र अभ्यासहरु छन् जुन लागू गर्न सकिन्छ?",
+            "answerOptions": [
+              {
+                "answerText": "संग्रह पूर्वाग्रह",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "नैतिक नियमहरु संग अनुपालन",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "माथिका दुबै",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "परिभाषित डाटा - पूर्व क्विज",
+        "quiz": [
+          {
+            "questionText": "यी मध्ये कुन मात्रात्मक डाटा हुन सक्छ?",
+            "answerOptions": [
+              {
+                "answerText": "कुकुरहरुको फोटो",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "होटलहरुको समीक्षा",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "विद्यार्थीको अंक वा ग्रेड",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "यी मध्ये कुन गुणात्मक डाटा हुन सक्छ?",
+            "answerOptions": [
+              {
+                "answerText": "कर्मचारीहरुको तलब को सूची",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "होटलहरुको समीक्षा",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "विद्यार्थीको अंक वा ग्रेड",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "डाटा वर्गीकरण गर्नुको मुख्य लक्ष्य के हो?",
+            "answerOptions": [
+              {
+                "answerText": "सही ढंगले डाटा भण्डारण गर्न",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "डाटालाई एक उचित नाम दिन",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "पठनीयता र विश्लेषणलाई व्यवस्थित गर्न को लागी कुन विधि राम्रो छ जान्न",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "परिभाषित डाटा - पोस्ट क्विज",
+        "quiz": [
+          {
+            "questionText": "The teacher is reviewing students’ number of correct answers, what type of data is that?",
+            "answerOptions": [
+              {
+                "answerText": "Qualitative Data",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Quantitative Data",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "All the above",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "A company is collecting surveys from their customers to improve their products. What type of data source is this?",
+            "answerOptions": [
+              {
+                "answerText": "Primary",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "Secondary",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Tertiary",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "A student is collecting data using queries. What data source could that be?",
+            "answerOptions": [
+              {
+                "answerText": "Local Files",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "API",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Database",
+                "isCorrect": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Statistics and Probability - Pre-Quiz",
+        "quiz": [
+          {
+            "questionText": "Why statistics and probability are important for data science?",
+            "answerOptions": [
+              {
+                "answerText": "Because you cannot operate on data without knowing math",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "Because data science is a science and has strong formal foundation",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "Because we want to keep uneducated people from doing data science",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "Can you get heads 10 times in a row when throwing a coin?",
+            "answerOptions": [
+              {
+                "answerText": "yes",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "no",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "When you throw a dice, what is the probability of getting an even number?",
+            "answerOptions": [
+              {
+                "answerText": "1/2",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "1/3",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "impossible to tell",
+                "isCorrect": "false"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Statistics and Probability - Post-Quiz",
+        "quiz": [
+          {
+            "questionText": "We want to prove that basketball players are taller than average people. We have collected heights of 20 people from both groups. What do we need to do?",
+            "answerOptions": [
+              {
+                "answerText": "compare means",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "collect more data, 20 is not enough!",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "use t-test",
+                "isCorrect": "true"
+              }
+            ]
+          },
+          {
+            "questionText": "How can we demonstrate that income of a person is dependent on the level of education?",
+            "answerOptions": [
+              {
+                "answerText": "compute correlation coefficient",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "divide into educated and non-educated cohorts and compute means",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "use t-test",
+                "isCorrect": "false"
+              }
+            ]
+          },
+          {
+            "questionText": "We throw the dice 100 times and compute the average value. What would be the distribution of the result?",
+            "answerOptions": [
+              {
+                "answerText": "uniform",
+                "isCorrect": "false"
+              },
+              {
+                "answerText": "normal",
+                "isCorrect": "true"
+              },
+              {
+                "answerText": "none of the above",
+                "isCorrect": "false"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
