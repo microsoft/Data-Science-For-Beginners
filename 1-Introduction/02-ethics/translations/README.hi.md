@@ -114,41 +114,41 @@
 [भूला दिया जाने का अधिकार](https://en.wikipedia.org/wiki/Right_to_be_forgotten) अतिरिक्त सुविधाएं प्रदान करता है उपयोगकर्ताओं के लिए व्यक्तिगत डेटा सुरक्षा। विशेष रूप से, यह उपयोगकर्ताओं को इंटरनेट खोजों और अन्य स्थानों से व्यक्तिगत डेटा को हटाने या हटाने का अनुरोध करने का अधिकार देता है, _विशिष्ट परिस्थितियों में_ - उन्हें उनके खिलाफ पिछली कार्रवाई किए बिना ऑनलाइन एक नई शुरुआत करने की अनुमति देता है ।
 
 यहां देखने लायक प्रश्न हैं :
- * Does the system allow data subjects to request erasure?
- * Should the withdrawal of user consent trigger automated erasure?
- * Was data collected without consent or by unlawful means?
- * Are we compliant with government regulations for data privacy?
+ * क्या सिस्टम डेटा विषयों को अपना डेटा मिटाने का अनुरोध करने की अनुमति देता है ?
+ * क्या उपयोगकर्ता की सहमति वापस लेने से स्वचालित डेटा मिटाना शुरू हो जाएगा ?
+ * क्या डेटा सहमति के बिना या गैरकानूनी तरीके से एकत्र किया गया था ?
+ * क्या हम डेटा गोपनीयता के लिए सरकारी नियमों का अनुपालन करते हैं ?
 
 
-#### 2.6 Dataset Bias
+#### 2.6 डेटासेट पूर्वाग्रह
 
-Dataset or [Collection Bias](http://researcharticles.com/index.php/bias-in-data-collection-in-research/) is about selecting a _non-representative_ subset of data for algorithm development, creating potential  unfairness in result outcomes for diverse groups. Types of bias include selection or sampling bias, volunteer bias, and instrument bias. 
+डेटासेट या [संग्रह पूर्वाग्रह](http://researcharticles.com/index.php/bias-in-data-collection-in-research/) एल्गोरिथम विकास के लिए डेटा के _गैर-प्रतिनिधि_ सबसेट का चयन करने के बारे में है, जिसमें संभावित अनुचितता पैदा होती है विभिन्न समूहों के लिए भेदभाव । पूर्वाग्रह के प्रकारों में चयन या नमूना पूर्वाग्रह, स्वयंसेवी पूर्वाग्रह और साधन पूर्वाग्रह शामिल हैं ।
 
-Questions to explore here are:
- * Did we recruit a representative set of data subjects?
- * Did we test our collected or curated dataset for various biases?
- * Can we mitigate or remove any discovered biases?
+यहां देखने लायक प्रश्न हैं :
+ * क्या हमने डेटा विषयों के प्रतिनिधि सेट की भर्ती की ?
+ * क्या हमने विभिन्न पूर्वाग्रहों के लिए अपने एकत्रित या क्यूरेट किए गए डेटासेट का परीक्षण किय ा?
+ * क्या हम खोजे गए पूर्वाग्रहों को कम कर सकते हैं या हटा सकते हैं ?
 
-#### 2.7 Data Quality
+#### 2.7 डेटा की गुणवत्ता
 
-[Data Quality](https://lakefs.io/data-quality-testing/) looks at the validity of the curated dataset used to develop our algorithms, checking to see if features and records meet requirements for the level of accuracy and consistency needed for our AI purpose.
+[डेटा गुणवत्ता](https://lakefs.io/data-quality-testing/) जो हमारे एल्गोरिदम को विकसित करने के लिए उपयोग किए गए क्यूरेट किए गए डेटासेट की वैधता को देखता है, यह देखने के लिए जाँच करता है कि सुविधाएँ और रिकॉर्ड सटीकता और स्थिरता के स्तर की आवश्यकताओं को पूरा करते हैं या नहीं हमारे AI उद्देश्य के लिए आवश्यक है ।
 
-Questions to explore here are:
- * Did we capture valid _features_ for our use case?
- * Was data captured _consistently_ across diverse data sources?
- * Is the dataset _complete_ for diverse conditions or scenarios?
- * Is information captured _accurately_ in reflecting reality?
+यहां देखने लायक प्रश्न हैं :
+ * क्या हमने अपने उपयोग के मामले में मान्य _features_ को कैप्चर किया ?
+ * क्या डेटा विविध डेटा स्रोतों से _लगातार_ कैप्चर किया गया था ? 
+ * क्या विविध स्थितियों या परिदृश्यों के लिए डेटासेट _पूर्ण_ है ?
+ * क्या वास्तविकता को प्रतिबिंबित करने में जानकारी _सटीक_ रूप से कैप्चर की गई है ?
 
-#### 2.8 Algorithm Fairness
+#### 2.8 एल्गोरिथम की निष्पक्षता
 
-[Algorithm Fairness](https://towardsdatascience.com/what-is-algorithm-fairness-3182e161cf9f) checks to see if the algorithm design systematically discriminates against specific subgroups of data subjects leading to [potential harms](https://docs.microsoft.com/en-us/azure/machine-learning/concept-fairness-ml) in _allocation_ (where resources are denied or withheld from that group) and _quality of service_ (where AI is not as accurate for some subgroups as it is for others). 
+[एल्गोरिदम निष्पक्षता](https://towardsdatascience.com/what-is-algorithm-fairness-3182e161cf9f) यह देखने के लिए जांच करता है कि क्या एल्गोरिथम डिज़ाइन व्यवस्थित रूप से डेटा विषयों के विशिष्ट उपसमूहों के साथ भेदभाव करता है जिससे [संभावित नुकसान] होते हैं (https://docs) .microsoft.com/en-us/azure/machine-learning/concept-fairness-ml) में _allocation_ (जहां संसाधनों को अस्वीकार कर दिया जाता है या उस समूह से रोक दिया जाता है) और _सेवा की गुणवत्ता_ (जहां AI कुछ उपसमूहों के लिए उतना सटीक नहीं है जितना कि यह दूसरों के लिए है) । 
 
-Questions to explore here are:
- * Did we evaluate model accuracy for diverse subgroups and conditions?
- * Did we scrutinize the system for potential harms (e.g., stereotyping)?
- * Can we revise data or retrain models to mitigate identified harms?
+यहां देखने लायक प्रश्न हैं :
+ * क्या हमने विविध उपसमूहों और स्थितियों के लिए मॉडल सटीकता का मूल्यांकन किया ?
+ * क्या हमने संभावित नुकसान (जैसे, स्टीरियोटाइपिंग) के लिए सिस्टम की जांच की ?
+ * क्या हम पहचाने गए नुकसान को कम करने के लिए डेटा को संशोधित कर सकते हैं या मॉडल को फिर से प्रशिक्षित कर सकते हैं ?
 
-Explore resources like [AI Fairness checklists](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4t6dA) to learn more.
+अधिक जानने के लिए [AI फेयरनेस चेकलिस्ट](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4t6dA) जैसे संसाधनों का अन्वेषण करें ।
 
 #### 2.9 Misrepresentation
 
