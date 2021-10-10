@@ -1,6 +1,6 @@
 # Visualizando Quantidades
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/09-Visualizing-Quantities.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/09-Visualizing-Quantities.png)|
 |:---:|
 | Visualizando quantidades - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
@@ -53,7 +53,7 @@ Vamos começar plotando alguns dados numéricos com um simples gráfico de linha
 wingspan = birds['MaxWingspan'] 
 wingspan.plot()
 ```
-![Envergadura máxima](images/max-wingspan.png)
+![Envergadura máxima](../images/max-wingspan.png)
 
 O que é possível perceber imediatamente? Aparentemente existe pelo menos um outlier - e que envergadura! Uma envergadura de 2300 centímetros equivale a 23 metros - têm pterodáctilos voando em Minnesota? Vamos investigar.
 
@@ -73,7 +73,7 @@ plt.plot(x, y)
 
 plt.show()
 ```
-![Envergadura com labels (identificadores)](images/max-wingspan-labels.png)
+![Envergadura com labels (identificadores)](../images/max-wingspan-labels.png)
 
 Mesmo com a rotação das labels em 45 graus, existem muitos para ler. Vamos tentar outra estratégia: identificar somente os outliers e colocar as labels dentro do gráfico. Você pode usarj um gráfico de dispersão para abrir mais espaço para identificação:
 
@@ -96,7 +96,7 @@ O que aconteceu aqui? Você usou `tick_params` para esconder as labels debaixo e
 
 O que você descobriu?
 
-![outliers](images/labeled-wingspan.png)
+![outliers](../images/labeled-wingspan.png)
 
 ## Filtrar seus dados
 
@@ -117,7 +117,7 @@ plt.show()
 
 By filtering out outliers, your data is now more cohesive and understandable.
 
-![scatterplot of wingspans](images/scatterplot-wingspan.png)
+![scatterplot of wingspans](../images/scatterplot-wingspan.png)
 
 Now that we have a cleaner dataset at least in terms of wingspan, let's discover more about these birds.
 
@@ -143,7 +143,7 @@ birds.plot(x='Category',
         title='Birds of Minnesota')
 
 ```
-![full data as a bar chart](images/full-data-bar.png)
+![full data as a bar chart](../images/full-data-bar.png)
 
 This bar chart, however, is unreadable because there is too much non-grouped data. You need to select only the data that you want to plot, so let's look at the length of birds based on their category. 
 
@@ -158,7 +158,7 @@ category_count = birds.value_counts(birds['Category'].values, sort=True)
 plt.rcParams['figure.figsize'] = [6, 12]
 category_count.plot.barh()
 ```
-![category and length](images/category-counts.png)
+![category and length](../images/category-counts.png)
 
 This bar chart shows a good view of the number of birds in each category. In a blink of an eye, you see that the largest number of birds in this region are in the Ducks/Geese/Waterfowl category. Minnesota is the 'land of 10,000 lakes' so this isn't surprising!
 
@@ -174,7 +174,7 @@ plt.barh(y=birds['Category'], width=maxlength)
 plt.rcParams['figure.figsize'] = [6, 12]
 plt.show()
 ```
-![comparing data](images/category-length.png)
+![comparing data](../images/category-length.png)
 
 Nothing is surprising here: hummingbirds have the least MaxLength compared to Pelicans or Geese. It's good when data makes logical sense!
 
@@ -192,7 +192,7 @@ plt.show()
 ```
 In this plot, you can see the range per bird category of the Minimum Length and Maximum length. You can safely say that, given this data, the bigger the bird, the larger its length range. Fascinating!
 
-![superimposed values](images/superimposed.png)
+![superimposed values](../images/superimposed.png)
 
 ## 🚀 Challenge
 
