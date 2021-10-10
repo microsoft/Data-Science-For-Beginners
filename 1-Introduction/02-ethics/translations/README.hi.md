@@ -150,23 +150,23 @@
 
 अधिक जानने के लिए [AI फेयरनेस चेकलिस्ट](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4t6dA) जैसे संसाधनों का अन्वेषण करें ।
 
-#### 2.9 Misrepresentation
+#### 2.9 मिथ्या निरूपण
 
-[Data Misrepresentation](https://www.sciencedirect.com/topics/computer-science/misrepresentation) is about asking whether we are communicating insights from honestly reported data in a deceptive manner to support a desired narrative. 
+[डेटा मिसरिप्रेजेंटेशन](https://www.sciencedirect.com/topics/computer-science/misrepresentation) यह पूछने के बारे में है कि क्या हम एक वांछित कथा का समर्थन करने के लिए भ्रामक तरीके से ईमानदारी से रिपोर्ट किए गए डेटा से अंतर्दृष्टि का संचार कर रहे हैं ।
 
-Questions to explore here are:
- * Are we reporting incomplete or inaccurate data?
- * Are we visualizing data in a manner that drives misleading conclusions?
- * Are we using selective statistical techniques to manipulate outcomes?
- * Are there alternative explanations that may offer a different conclusion?
+यहां देखने लायक प्रश्न हैं :
+ * क्या हम अपूर्ण या गलत डेटा की रिपोर्ट कर रहे हैं ?
+ * क्या हम डेटा को इस तरह से देख रहे हैं जिससे भ्रामक निष्कर्ष निकलते हैं ?
+ * क्या हम परिणामों में हेरफेर करने के लिए चुनिंदा सांख्यिकीय तकनीकों का उपयोग कर रहे हैं ?
+ * क्या ऐसे वैकल्पिक स्पष्टीकरण हैं जो एक अलग निष्कर्ष प्रस्तुत कर सकते हैं ?
 
-#### 2.10 Free Choice
-The [Illusion of Free Choice](https://www.datasciencecentral.com/profiles/blogs/the-illusion-of-choice) occurs when system "choice architectures" use decision-making algorithms to nudge people towards taking a preferred outcome while seeming to give them options and control. These [dark patterns](https://www.darkpatterns.org/) can cause social and economic harm to users. Because user decisions impact behavior profiles, these actions potentially drive future choices that can amplify or extend the impact of these harms.
+#### 2.10 मुक्त चयन
+[इल्यूज़न ऑफ़ फ्री चॉइस](https://www.datasciencecentral.com/profiles/blogs/the-illusion-of-choice) तब होता है जब सिस्टम "चॉइस आर्किटेक्चर" लोगों को पसंदीदा परिणाम लेने के लिए प्रेरित करने के लिए निर्णय लेने वाले एल्गोरिदम का उपयोग करता है। जबकि उन्हें विकल्प और नियंत्रण देना प्रतीत होता है। ये [डार्क पैटर्न](https://www.darkpatterns.org/) उपयोगकर्ताओं को सामाजिक और आर्थिक नुकसान पहुंचा सकते हैं। चूंकि उपयोगकर्ता निर्णय व्यवहार प्रोफाइल को प्रभावित करते हैं, इसलिए ये कार्रवाइयां संभावित रूप से भविष्य के विकल्पों को प्रेरित करती हैं जो इन नुकसानों के प्रभाव को बढ़ा या बढ़ा सकते हैं।
 
-Questions to explore here are:
- * Did the user understand the implications of making that choice?
- * Was the user aware of (alternative) choices and the pros & cons of each?
- * Can the user reverse an automated or influenced choice later?
+यहां देखने लायक प्रश्न हैं :
+ * क्या उपयोगकर्ता ने उस विकल्प को बनाने के निहितार्थों को समझा ?
+ * क्या उपयोगकर्ता (वैकल्पिक) विकल्पों और प्रत्येक के पेशेवरों और विपक्षों से अवगत था ?
+ * क्या उपयोगकर्ता किसी स्वचालित या प्रभावित विकल्प को बाद में उलट सकता है ?
 
 ### 3. Case Studies
 
@@ -184,12 +184,12 @@ Here are a few examples:
 | **Illusion of free choice** | 2020 - Learning app [ABCmouse paid $10M to settle an FTC complaint](https://www.washingtonpost.com/business/2020/09/04/abcmouse-10-million-ftc-settlement/) where parents were trapped into paying for subscriptions they couldn't cancel. This illustrates dark patterns in choice architectures, where users were nudged towards potentially harmful choices. |
 | **Data Privacy & User Rights** | 2021 - Facebook [Data Breach](https://www.npr.org/2021/04/09/986005820/after-data-breach-exposes-530-million-facebook-says-it-will-not-notify-users) exposed data from 530M users, resulting in a $5B settlement to the FTC. It however refused to notify users of the breach violating user rights around data transparency and access. |
 
-Want to explore more case studies? Check out these resources:
-* [Ethics Unwrapped](https://ethicsunwrapped.utexas.edu/case-studies) - ethics dilemmas across diverse industries. 
-* [Data Science Ethics course](https://www.coursera.org/learn/data-science-ethics#syllabus) - landmark case studies explored.
-* [Where things have gone wrong](https://deon.drivendata.org/examples/) - deon checklist with examples
+अधिक केस स्टडी के बारे में चाहते हैं ? इन संसाधनों की जाँच करें :
+* [Ethics Unwrapped](https://ethicsunwrapped.utexas.edu/case-studies) - विविध उद्योगों में नैतिकता की दुविधा । 
+* [Data Science Ethics course](https://www.coursera.org/learn/data-science-ethics#syllabus) - ऐतिहासिक मामले का अध्ययन ।
+* [Where things have gone wrong](https://deon.drivendata.org/examples/) - उदाहरण के साथ डीओन चेकलिस्ट |
 
-> 🚨 Think about the case studies you've seen - have you experienced, or been affected by, a similar ethical challenge in your life? Can you think of at least one other case study that illustrates one of the ethical challenges we've discussed in this section?
+> 🚨 आपके द्वारा देखी गई केस स्टडी के बारे में सोचें - क्या आपने अपने जीवन में इसी तरह की नैतिक चुनौती का अनुभव किया है, या इससे प्रभावित हुए हैं ? क्या आप कम से कम एक अन्य केस स्टडी के बारे में सोच सकते हैं जो इस खंड में चर्चा की गई नैतिक चुनौतियों में से एक को दर्शाती है ?
 
 ## Applied Ethics
 
@@ -219,42 +219,42 @@ Examples include:
  * [AI Fairness Checklist](https://www.microsoft.com/en-us/research/project/ai-fairness-checklist/) - created by AI practitioners to support the adoption and integration of fairness checks into AI development cycles.
  * [22 questions for ethics in data and AI](https://medium.com/the-organization/22-questions-for-ethics-in-data-and-ai-efb68fd19429) - more open-ended framework, structured for initial exploration of ethical issues in design, implementation, and organizational, contexts.
 
-### 3. Ethics Regulations
+### 3. नैतिकता विनियम
 
-Ethics is about defining shared values and doing the right thing _voluntarily_. **Compliance** is about _following the law_ if and where defined. **Governance** broadly covers all the ways in which organizations operate to enforce ethical principles and comply with established laws.
+नैतिकता साझा मूल्यों को परिभाषित करने और _स्वेच्छा_ से सही काम करने के बारे में है । **अनुपालन** _कानून का पालन करने के बारे में है_ यदि और जहां परिभाषित किया गया है । **शासन** मोटे तौर पर उन सभी तरीकों को शामिल करता है जिनमें संगठन नैतिक सिद्धांतों को लागू करने और स्थापित कानूनों का पालन करने के लिए काम करते हैं ।
 
-Today, governance takes two forms within organizations. First, it's about defining **ethical AI** principles and establishing practices to operationalize adoption across all AI-related projects in the organization. Second, it's about complying with all government-mandated **data protection regulations** for regions it operates in.
+आज, संगठनों के भीतर शासन दो रूप लेता है । सबसे पहले, यह **नैतिक एआई** सिद्धांतों को परिभाषित करने और संगठन में सभी एआई-संबंधित परियोजनाओं में गोद लेने के संचालन के लिए प्रथाओं को स्थापित करने के बारे में है । दूसरा, यह उन क्षेत्रों के लिए सरकार द्वारा अनिवार्य सभी **डेटा सुरक्षा नियमों** का अनुपालन करने के बारे में है जहां यह संचालित होता है ।
 
-Examples of data protection and privacy regulations:
+डेटा सुरक्षा और गोपनीयता नियमों के उदाहरण :
 
- * `1974`, [US Privacy Act](https://www.justice.gov/opcl/privacy-act-1974) - regulates _federal govt._ collection, use ,and disclosure of personal information.
- * `1996`, [US Health Insurance Portability & Accountability Act (HIPAA)](https://www.cdc.gov/phlp/publications/topic/hipaa.html) - protects personal health data.
- * `1998`, [US Children's Online Privacy Protection Act (COPPA)](https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/childrens-online-privacy-protection-rule) - protects data privacy of children under 13.
- * `2018`, [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/) - provides user rights, data protection ,and privacy.
- * `2018`, [California Consumer Privacy Act (CCPA)](https://www.oag.ca.gov/privacy/ccpa) gives consumers more _rights_ over their (personal) data.
- * `2021`, China's [Personal Information Protection Law](https://www.reuters.com/world/china/china-passes-new-personal-data-privacy-law-take-effect-nov-1-2021-08-20/) just passed, creating one of the strongest online data privacy regulations worldwide.
+ * `१९७४`, [US Privacy Act](https://www.justice.gov/opcl/privacy-act-1974) - व्यक्तिगत जानकारी के संग्रह, उपयोग और प्रकटीकरण को नियंत्रित करता है ।
+ * `१९९६`, [US Health Insurance Portability & Accountability Act (HIPAA)](https://www.cdc.gov/phlp/publications/topic/hipaa.html) - व्यक्तिगत स्वास्थ्य डेटा की सुरक्षा करता है ।
+ * `१९९८`, [US Children's Online Privacy Protection Act (COPPA)](https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/childrens-online-privacy-protection-rule) - 13 साल से कम उम्र के बच्चों की डेटा गोपनीयता की रक्षा करता है ।
+ * `२०१८`, [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/) - उपयोगकर्ता अधिकार, डेटा सुरक्षा और गोपनीयता प्रदान करता है ।
+ * `२०१८`, [California Consumer Privacy Act (CCPA)](https://www.oag.ca.gov/privacy/ccpa) उपभोक्ताओं को उनके (व्यक्तिगत) डेटा पर अधिक _अधिकार_ देता है ।
+ * `२०२१`, चीन का [Personal Information Protection Law](https://www.reuters.com/world/china/china-passes-new-personal-data-privacy-law-take-effect-nov-1-2021-08-20/) अभी-अभी पारित हुआ, दुनिया भर में सबसे मजबूत ऑनलाइन डेटा गोपनीयता नियमों में से एक बना ।
 
-> 🚨 The European Union defined GDPR (General Data Protection Regulation) remains one of the most influential data privacy regulations today. Did you know it also defines [8 user rights](https://www.freeprivacypolicy.com/blog/8-user-rights-gdpr) to protect citizens' digital privacy and personal data? Learn about what these are, and why they matter.
+> 🚨 यूरोपीय संघ परिभाषित GDPR (जनरल डेटा प्रोटेक्शन रेगुलेशन) आज सबसे प्रभावशाली डेटा गोपनीयता नियमों में से एक है । क्या आप जानते हैं कि यह नागरिकों की डिजिटल गोपनीयता और व्यक्तिगत डेटा की सुरक्षा के लिए [8 उपयोगकर्ता अधिकार](https://www.freeprivacypolicy.com/blog/8-user-rights-gdpr) को भी परिभाषित करता है ? जानें कि ये क्या हैं, और क्यों मायने रखते हैं ।
 
 
-### 4. Ethics Culture
+### 4. नैतिकता संस्कृति
 
-Note that there remains an intangible gap between _compliance_ (doing enough to meet "the letter of the law") and addressing [systemic issues](https://www.coursera.org/learn/data-science-ethics/home/week/4) (like ossification, information asymmetry ,and distributional unfairness) that can speed up the weaponization of AI. 
+ध्यान दें कि _अनुपालन_ ("कानून के पत्र को पूरा करने के लिए पर्याप्त प्रयास करना") और [प्रणालीगत मुद्दों] (https://www.coursera.org/learn/data-science-ethics/home/week) को संबोधित करने के बीच एक अमूर्त अंतर है । / 4) (जैसे ossification, सूचना विषमता, और वितरण संबंधी अनुचितता) जो AI के शस्त्रीकरण को गति दे सकता है ।
 
-The latter requires [collaborative approaches to defining ethics cultures](https://towardsdatascience.com/why-ai-ethics-requires-a-culture-driven-approach-26f451afa29f) that build emotional connections and consistent shared values _across organizations_ in the industry. This calls for more [formalized data ethics cultures](https://www.codeforamerica.org/news/formalizing-an-ethical-data-culture/) in organizations - allowing _anyone_ to [pull the Andon cord](https://en.wikipedia.org/wiki/Andon_(manufacturing)) (to raise ethics concerns early in the process) and making _ethical assessments_ (e.g., in hiring) a core criteria team formation in AI projects.
+बाद वाले को [नैतिक संस्कृतियों को परिभाषित करने के लिए सहयोगात्मक दृष्टिकोण] (https://towardsdatascience.com/why-ai-ethics-requires-a-culture-drive-approach-26f451afa29f) की आवश्यकता होती है, जो पूरे संगठनों में भावनात्मक संबंध और सुसंगत साझा मूल्यों का निर्माण करते हैं । यह संगठनों में अधिक [औपचारिक डेटा नैतिकता संस्कृतियों](https://www.codeforamerica.org/news/formalizing-an-ethical-data-culture/) की मांग करता है - _किसी_ को [एंडोन कॉर्ड को खींचने] की अनुमति देता है (https:/ /en.wikipedia.org/wiki/Andon_(manufacturing)) (इस प्रक्रिया में नैतिकता संबंधी चिंताओं को जल्दी उठाने के लिए) और एआई परियोजनाओं में _नैतिक मूल्यांकन_ (उदाहरण के लिए, भर्ती में) एक मुख्य मानदंड टीम गठन करना ।
 
 ---
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/3) 🎯
-## Review & Self Study 
+## [व्याख्यान के बाद प्रश्नोत्तरी](https://red-water-0103e7a0f.azurestaticapps.net/quiz/3) 🎯
+## समीक्षा और स्व अध्ययन 
 
-Courses and books help with understanding core ethics concepts and challenges, while case studies and tools help with applied ethics practices in real-world contexts. Here are a few resources to start with.
+पाठ्यक्रम और पुस्तकें मूल नैतिकता अवधारणाओं और चुनौतियों को समझने में मदद करती हैं, जबकि केस स्टडी और उपकरण वास्तविक दुनिया के संदर्भों में लागू नैतिकता प्रथाओं के साथ मदद करते हैं। शुरू करने के लिए यहां कुछ संसाधन दिए गए हैं।
 
-* [Machine Learning For Beginners](https://github.com/microsoft/ML-For-Beginners/blob/main/1-Introduction/3-fairness/README.md) - lesson on Fairness, from Microsoft.
-* [Principles of Responsible AI](https://docs.microsoft.com/en-us/learn/modules/responsible-ai-principles/) - free learning path from Microsoft Learn.
+* [Machine Learning For Beginners](https://github.com/microsoft/ML-For-Beginners/blob/main/1-Introduction/3-fairness/README.md) - Microsoft से निष्पक्षता पर पाठ ।
+* [Principles of Responsible AI](https://docs.microsoft.com/en-us/learn/modules/responsible-ai-principles/) - माइक्रोसॉफ्ट लर्न की ओर से फ्री लर्निंग पाथ ।
 * [Ethics and Data Science](https://resources.oreilly.com/examples/0636920203964) - O'Reilly EBook (M. Loukides, H. Mason et. al)
-* [Data Science Ethics](https://www.coursera.org/learn/data-science-ethics#syllabus) - online course from the University of Michigan.
-* [Ethics Unwrapped](https://ethicsunwrapped.utexas.edu/case-studies) - case studies from the University of Texas.
+* [Data Science Ethics](https://www.coursera.org/learn/data-science-ethics#syllabus) - मिशिगन विश्वविद्यालय से ऑनलाइन पाठ्यक्रम ।
+* [Ethics Unwrapped](https://ethicsunwrapped.utexas.edu/case-studies) - टेक्सास विश्वविद्यालय से केस स्टडीज ।
 
-# Assignment 
-
-[Write A Data Ethics Case Study](assignment.md)
+# कार्यभार
+<!-- need to change the link once assignment is translated -->
+[डेटा एथिक्स केस स्टडी लिखें](assignment.md)
