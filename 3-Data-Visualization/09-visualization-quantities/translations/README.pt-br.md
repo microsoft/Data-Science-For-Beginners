@@ -11,23 +11,24 @@ Nessa aula você irá explorar como usar uma das muitas bibliotecas disponíveis
 
 Uma biblioteca excelente para criar gráficos simples e sofisticados de diversos tipos é o [Matplotlib](https://matplotlib.org/stable/index.html). Em geral, o processo de plotar dados com essas bibliotecas inclui identificar as partes do seu dataframe que você quer focar, utilizando quaisquer transformações necessárias nestes dados, atribuindo seus valores dos eixos x e y, decidindo qual tipo de gráfico mostrar, e então mostrando o gráfico. O Matplotlib oferece uma grande variedade de visualizações, mas, nesta aula, iremos focar nos mais apropriados para visualizar quantidade: gráfico de linha, gráfico de dispersão e gráfico de barra.
 
-> ✅ Use the best chart to suit your data's structure and the story you want to tell. 
-> - To analyze trends over time: line
-> - To compare values: bar, column, pie, scatterplot
-> - To show how parts relate to a whole: pie
-> - To show distribution of data: scatterplot, bar
-> - To show trends: line, column
-> - To show relationships between values: line, scatterplot, bubble
+> ✅ Use o melhor gráfico para se adaptar a estrutura dos dados e a história que você quer contar.
+> - Para analisar tendências ao longo do tempo: linha
+> - Para comparar valores: barra, coluna, pizza, dispersão
+> - Para mostrar como as partes se relacionam com o todo: pizza
+> - Para mostrar a distrivuição dos dados: dispersão, barra
+> - Para mostrar tendências: linha, coluna
+> - Para mostrar relações entre valores: linha, dispersão, bolha
 
-If you have a dataset and need to discover how much of a given item is included, one of the first tasks you have at hand will be to inspect its values. 
+Se você tem um dataset e precisa descobrir quanto de um dado item está presente, uma das primeiras coisas que você precisará fazer é examinar seus valores.
 
-✅ There are very good 'cheat sheets' available for Matplotlib [here](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-1.png) and [here](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-2.png).
 
-## Build a line plot about bird wingspan values
+✅ Existem dicas ('cheat sheets') muito boas disponíveis para o Matplotlib [aqui](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-1.png) e [aqui](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-2.png).
 
-Open the `notebook.ipynb` file at the root of this lesson folder and add a cell.
+## Construir um gráfico de linhas sobre os valores de envergadura de pássaros
 
-> Note: the data is stored in the root of this repo in the `/data` folder.
+Abra o arquivo `notebook.ipynb` na raiz da pasta dessa aula e adicione uma célula.
+
+> Nota: os dados estão armazenados na raiz deste repositório na pasta `/data`.
 
 ```python
 import pandas as pd
@@ -35,7 +36,7 @@ import matplotlib.pyplot as plt
 birds = pd.read_csv('../../data/birds.csv')
 birds.head()
 ```
-This data is a mix of text and numbers:
+Esses dados são uma mistura de texto e números:
 
 
 |      | Name                         | ScientificName         | Category              | Order        | Family   | Genus       | ConservationStatus | MinLength | MaxLength | MinBodyMass | MaxBodyMass | MinWingspan | MaxWingspan |
@@ -46,19 +47,19 @@ This data is a mix of text and numbers:
 |    3 | Ross's goose                 | Anser rossii           | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Anser       | LC                 |      57.3 |        64 |        1066 |        1567 |         113 |         116 |
 |    4 | Greater white-fronted goose  | Anser albifrons        | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Anser       | LC                 |        64 |        81 |        1930 |        3310 |         130 |         165 |
 
-Let's start by plotting some of the numeric data using a basic line plot. Suppose you wanted a view of the maximum wingspan for these interesting birds.
+Vamos começar plotando alguns dados numéricos com um simples gráfico de linhas. Suponha que você quer uma visualização da envergadura máxima desses pássaros interessantes.
 
 ```python
 wingspan = birds['MaxWingspan'] 
 wingspan.plot()
 ```
-![Max Wingspan](images/max-wingspan.png)
+![Envergadura máxima](images/max-wingspan.png)
 
-What do you notice immediately? There seems to be at least one outlier - that's quite a wingspan! A 2300 centimeter wingspan equals 23 meters - are there Pterodactyls roaming Minnesota? Let's investigate.
+O que é possível perceber imediatamente? Aparentemente existe pelo menos um outlier - e que envergadura! Uma envergadura de 2300 centímetros equivale a 23 metros - têm pterodáctilos voando em Minnesota? Vamos investigar.
 
-While you could  do a quick sort in Excel to find those outliers, which are probably typos, continue the visualization process by working from within the plot.
+Você poderia fazer uma ordenação rápida no Excel para encontrar esses outliers, que provavelmente são erros de digitação. No entanto, vamos continuar o processo de visualização trabalhando no gráfico.
 
-Add labels to the x-axis to show what kind of birds are in question:
+Adicione labels (identificadores) no eixo x para mostrar quais tipos de pássaros estão sendo analisados:
 
 ```
 plt.title('Max Wingspan in Centimeters')
@@ -72,9 +73,9 @@ plt.plot(x, y)
 
 plt.show()
 ```
-![wingspan with labels](images/max-wingspan-labels.png)
+![Envergadura com labels (identificadores)](images/max-wingspan-labels.png)
 
-Even with the rotation of the labels set to 45 degrees, there are too many to read. Let's try a different strategy: label only those outliers and set the labels within the chart. You can use a scatter chart to make more room for the labeling:
+Mesmo com a rotação das labels em 45 graus, existem muitos para ler. Vamos tentar outra estratégia: identificar somente os outliers e colocar as labels dentro do gráfico. Você pode usarj um gráfico de dispersão para abrir mais espaço para identificação:
 
 ```python
 plt.title('Max Wingspan in Centimeters')
@@ -90,12 +91,14 @@ for i in range(len(birds)):
     
 plt.show()
 ```
-What's going on here? You used `tick_params` to hide the bottom labels and then created a loop over your birds dataset. Plotting the chart with small round blue dots by using `bo`, you checked for any bird with a maximum wingspan over 500 and displayed their label next to the dot if so. You offset the labels a little on the y axis (`y * (1 - 0.05)`) and used the bird name as a label.
 
-What did you discover?
+O que aconteceu aqui? Você usou `tick_params` para esconder as labels debaixo e entrão criou um loop sobre o dataset dos paśsaros. Depois, plotou o gráfico com pequenos círculos azuis usando `bo` e procurou por pássaros com envergadura maior que 500 e, se sim, exibiu a label ao lado do círculo. Você ajustou as labels no eixo y (`y * (1 - 0.05)`) e usou o nome do pássaro como label.
+
+O que você descobriu?
 
 ![outliers](images/labeled-wingspan.png)
-## Filter your data
+
+## Filtrar seus dados
 
 Both the Bald Eagle and the Prairie Falcon, while probably very large birds, appear to be mislabeled, with an extra `0` added to their maximum wingspan. It's unlikely that you'll meet a Bald Eagle with a 25 meter wingspan, but if so, please let us know! Let's create a new dataframe without those two outliers:
 
