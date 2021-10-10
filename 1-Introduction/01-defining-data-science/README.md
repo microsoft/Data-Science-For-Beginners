@@ -6,7 +6,7 @@
 
 ---
 
-[![Defining Data Science Video](images/video-def-ds.png)](https://youtu.be/pqqsm5reGvs)
+[![Defining Data Science Video](images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
 
