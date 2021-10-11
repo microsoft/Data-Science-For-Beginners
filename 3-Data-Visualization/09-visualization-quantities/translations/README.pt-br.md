@@ -100,7 +100,7 @@ O que você descobriu?
 
 ## Filtrar seus dados
 
-Both the Bald Eagle and the Prairie Falcon, while probably very large birds, appear to be mislabeled, with an extra `0` added to their maximum wingspan. It's unlikely that you'll meet a Bald Eagle with a 25 meter wingspan, but if so, please let us know! Let's create a new dataframe without those two outliers:
+Apesar de grandes, tanto a Bald Eagle e o Prairie Falcon parecem ter valores errados, com um `0` a mais na envergadura máxima. É imporvável que você encontra uma Bald Eagle com envergadura de 25 metros, mas, se encontrar, por favor nos diga! Agora, vamos criar um novo dataframe sem esses dois outliers:
 
 ```python
 plt.title('Max Wingspan in Centimeters')
@@ -115,26 +115,27 @@ for i in range(len(birds)):
 plt.show()
 ```
 
-By filtering out outliers, your data is now more cohesive and understandable.
+Ao remover esses outliers, seus dados ficaram mais coesos e compreensíveis.
 
-![scatterplot of wingspans](../images/scatterplot-wingspan.png)
+![Dispersão das envergaduras](../images/scatterplot-wingspan.png)
 
-Now that we have a cleaner dataset at least in terms of wingspan, let's discover more about these birds.
+Agora que temos um dataset mais limpo ao menos em termos de envergadura, vamos aprender mais sobre esses pássaros
 
-While line and scatter plots can display information about data values and their distributions, we want to think about the values inherent in this dataset. You could create visualizations to answer the following questions about quantity:
+Enquanto gráficos de linha e dispersão conseguem mostrar informações sobre valores e suas distribuições, nós queremos pensar sobre os valores intrínsecos a esse dataset. Você poderia criar visualizações para responder as seguintes perguntas sobre quantidade:
 
-> How many categories of birds are there, and what are their numbers?
-> How many birds are extinct, endangered, rare, or common?
-> How many are there of the various genus and orders in Linnaeus's terminology?
-## Explore bar charts
+> Quantas categorias de pássaros existem, e quais são seus números?
+> Quantos pássaros estão extintos, em risco de extinção, raros ou comuns?
+> Quantos gêneros e ordens da taxonomia de Lineu (nome científico) existem no dataset?
 
-Bar charts are practical when you need to show groupings of data. Let's explore the categories of birds that exist in this dataset to see which is the most common by number.
+## Explorar gráfico de barras
 
-In the notebook file, create a basic bar chart
+Gráfico de barras são práticos quando se precisa mostrar agrupamentos de dados. Vamos explorar as categorias de pássaros que existem nesse dataset para obrservar qual é o mais comum em quantidade.
 
-✅ Note, you can either filter out the two outlier birds we identified in the previous section, edit the typo in their wingspan, or leave them in for these exercises which do not depend on wingspan values.
+No arquivo notebook, crie um gráfico de barras simples
 
-If you want to create a bar chart, you can select the data you want to focus on. Bar charts can be created from raw data:
+✅ Note que, você pode remover os dois pássaros outliers que foram identificados anteriormente, editar o erro de digitação na envergadura ou deixá-los nesses exercícios que não dependem dos valores da envergadura.
+
+Se você quer criar um gráfico de barras, você pode selecionar os dados que quer focar. Gráfico de barras pode ser criado a partir de dados brutos:
 
 ```python
 birds.plot(x='Category',
@@ -145,13 +146,13 @@ birds.plot(x='Category',
 ```
 ![full data as a bar chart](../images/full-data-bar.png)
 
-This bar chart, however, is unreadable because there is too much non-grouped data. You need to select only the data that you want to plot, so let's look at the length of birds based on their category. 
+No entanto, esse gráfico de barras é ilegível porque existem muitos dados não agrupados. Você precisa selecionar somente os dados que quer plotar, então vamos olhar o comprimento de pássaros com base na sua categoria.
 
-Filter your data to include only the bird's category. 
+Filtre os dados para incluir somente a categoria do pássaro.
 
-✅ Notice that that you use Pandas to manage the data, and then let Matplotlib do the charting.
+✅ Note que você usa o Pandas para lidar com os dados, e deixa a criação de gráficos para o Matplotlib.
 
-Since there are many categories, you can display this chart vertically and tweak its height to account for all the data:
+Já que existem muitas categorias, você pode mostrar esse gráfico verticalmente e ajustar sua altura para acomodar todos os dados:
 
 ```python
 category_count = birds.value_counts(birds['Category'].values, sort=True)
@@ -160,13 +161,13 @@ category_count.plot.barh()
 ```
 ![category and length](../images/category-counts.png)
 
-This bar chart shows a good view of the number of birds in each category. In a blink of an eye, you see that the largest number of birds in this region are in the Ducks/Geese/Waterfowl category. Minnesota is the 'land of 10,000 lakes' so this isn't surprising!
+Esse gráfico de barras mostra uma boa visão do número de pássaros em cada categoria. Em um piscar de olhos, você vê que a maior quantidade de pássaros nessa região pertence à categoria de Ducks/Geese/Waterfowl (patos/gansos/cisnes). Minnesota é 'a terra de 10.000 lagos', então isso não é surpreendente!
 
-✅ Try some other counts on this dataset. Does anything surprise you?
+✅ Tente contar outras quantidades nesse dataset. Algo te surpreende?
 
-## Comparing data
+## Comparando dados
 
-You can try different comparisons of grouped data by creating new axes. Try a comparison of the MaxLength of a bird, based on its category:
+Você pode tentar diferentes comparações de dados agrupados criando novos eixos. Tente comparar o comprimento máximo de um pássaro, baseado na sua categoria:
 
 ```python
 maxlength = birds['MaxLength']
@@ -176,9 +177,9 @@ plt.show()
 ```
 ![comparing data](../images/category-length.png)
 
-Nothing is surprising here: hummingbirds have the least MaxLength compared to Pelicans or Geese. It's good when data makes logical sense!
+Nada é surpreendente aqui: hummingbirds (beija-flores) tem o menor comprimento comparados com pelicans (pelicanos) ou geese (gansos). É muito bom quando os dados fazem sentido!
 
-You can create more interesting visualizations of bar charts by superimposing data. Let's superimpose Minimum and Maximum Length on a given bird category:
+Você pode criar visualizações mais interessantes de gráficos de barras ao sobrepor dados. Vamos sobrepor o comprimento mínimo e máximo de uma dada categoria de pássaros:
 
 ```python
 minLength = birds['MinLength']
@@ -190,18 +191,21 @@ plt.barh(category, minLength)
 
 plt.show()
 ```
-In this plot, you can see the range per bird category of the Minimum Length and Maximum length. You can safely say that, given this data, the bigger the bird, the larger its length range. Fascinating!
+
+Nesse gráfico, você pode ver o intervalo de comprimento mínimo e máximo por categoria de pássaro. Você pode seguramente dizer, a partir desses dados, que quanto maior o pássaro, maior seu intervalo de comprimento. Fascinante!
 
 ![superimposed values](../images/superimposed.png)
 
-## 🚀 Challenge
+## 🚀 Desafio
 
-This bird dataset offers a wealth of information about different types of birds within a particular ecosystem. Search around the internet and see if you can find other bird-oriented datasets. Practice building charts and graphs around these birds to discover facts you didn't realize.
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/17)
+Esse dataset de pássaros oferece uma riqueza de informações sobre os diferentes tipos de pássaros de um ecossistema particular. Tente achar na internet outros datasets com dados sobre pássaros. Pratique construir gráficos sobre esses pássaros e tente descobrir fatos que você ainda não havia percebido.
 
-## Review & Self Study
+## [Quiz pós-aula](https://red-water-0103e7a0f.azurestaticapps.net/quiz/17)
 
-This first lesson has given you some information about how to use Matplotlib to visualize quantities. Do some research around other ways to work with datasets for visualization. [Plotly](https://github.com/plotly/plotly.py) is one that we won't cover in these lessons, so take a look at what it can offer.
-## Assignment
+## Revisão e autoestudo
+
+Essa primeira aula lhe deu informações sobre como usar o Matplotlib para visualizar quantidades. Procure por outras formas de trabalhar com dataset para visualização. [Plotly](https://github.com/plotly/plotly.py) é uma que não será abordada nas aulas, então dê uma olhada no que ela pode oferecer.
+
+## Tarefa
 
 [Lines, Scatters, and Bars](assignment.md)
