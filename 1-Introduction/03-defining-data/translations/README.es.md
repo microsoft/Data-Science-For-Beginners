@@ -62,7 +62,7 @@ Kaggle es una fuente excelente de conjuntos de datos abiertos. Usa los [conjunto
 
 ## Revisión y auto-estudio
 
-- Esta unidad de Microsoft Lean, titulada [clasifica tus datos](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/2-classify-data) tiene un desglose detallado de datos estructurados, semi-estructurados y no estructurados.
+- Esta unidad de Microsoft Learn, titulada [clasifica tus datos](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/2-classify-data) tiene un desglose detallado de datos estructurados, semi-estructurados y no estructurados.
 
 ## Assignación
 
