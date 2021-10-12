@@ -1,6 +1,6 @@
 # Definiendo datos
 
-|![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/03-DefiningData.png)|
+|![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/03-DefiningData.png)|
 |:---:|
 |Definiendo datos - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
