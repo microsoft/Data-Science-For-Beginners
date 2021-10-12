@@ -1,6 +1,6 @@
 # Introducción a la Ciencia de Datos
 
-![Datos en acción](images/data.jpg)
+![Datos en acción](../images/data.jpg)
 > Fotografía de <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> en <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 En estas lecciones descubrirás cómo se define la Ciencia de Datos y aprenderás acerca de
