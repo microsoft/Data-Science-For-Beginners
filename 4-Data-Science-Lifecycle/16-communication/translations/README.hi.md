@@ -169,10 +169,9 @@
 ## [व्याख्यान के बाद प्रश्नोत्तरी](https://red-water-0103e7a0f.azurestaticapps.net/quiz/31)
 
 ### स्व अध्ययन के लिए अनुशंसित संसाधन
-[द फाइव सी ऑफ़ स्टोरीटेलिंग - आर्टिक्यूलेट पर्सुएशन](http://articlepersuasion.com/the-five-cs-of-storytelling/)
+[द फाइव सी ऑफ़ स्टोरीटेलिंग - आर्टिक्यूलेट पर्सुएशन](http://articulatepersuasion.com/the-five-cs-of-storytelling/)
 
-[१.४ एक संचारक के रूप में आपकी जिम्मेदारियां - सफलता के लिए व्यावसायिक संचार (umn.edu)](https://open.lib.umn.edu/businesscommunication/chapter/1-4-your-responsibility-as-a-communicator/)
-
+[१.४ एक संचारक के रूप में आपकी जिम्मेदारियां - सफलता के लिए व्यावसायिक संचार (umn.edu)](https://open.lib.umn.edu/businesscommunication/chapter/1-4-your-responsibilities-as-a-communicator/)
 [डेटा के साथ कहानी कैसे सुनाएं (hbr.org)](https://hbr.org/2013/04/how-to-tell-a-story-with-data)
 
 [टू-वे कम्युनिकेशन: अधिक व्यस्त कार्यस्थल के लिए 4 टिप्स (yourthoughtpartner.com)](https://www.yourthoughtpartner.com/blog/bid/59576/4-steps-to-increase-employee-engagement-through-two-way-communication)
@@ -181,7 +180,7 @@
 
 [डेटा के साथ कहानी कैसे सुनाएं | ल्यूसिडचार्ट ब्लॉग](https://www.lucidchart.com/blog/how-to-tell-a-story-with-data)
 
-[6 Cs ऑफ़ इफेक्टिव स्टोरीटेलिंग ऑन सोशल मीडिया | कूलर इनसाइट्स](https://coolerinsights.com/2018/06/efffect-storytelling-social-media/)
+[6 Cs ऑफ़ इफेक्टिव स्टोरीटेलिंग ऑन सोशल मीडिया | कूलर इनसाइट्स](https://coolerinsights.com/2018/06/effective-storytelling-social-media/)
 
 [प्रस्तुतिकरण में भावनाओं का महत्व | Ethos3 - एक प्रस्तुति प्रशिक्षण और डिजाइन एजेंसी](https://ethos3.com/2015/02/the-importance-of-emotions-in-presentations/)
 
@@ -193,7 +192,7 @@
 
 [डेटा कैसे प्रस्तुत करें [१० विशेषज्ञ युक्तियाँ] | ऑब्जर्वप्वाइंट](https://resources.observepoint.com/blog/10-tips-for-presenting-data)
 
-[माइक्रोसॉफ्ट वर्ड - प्रेरक निर्देश.doc (tpsnva.org)](https://www.tpsnva.org/teach/lq/016/persinstr.pdf)
+[Microsoft Word - Persuasive Instructions.doc (tpsnva.org)](https://www.tpsnva.org/teach/lq/016/persinstr.pdf)
 
 [द पावर ऑफ स्टोरी फॉर योर डेटा (थिंकहडी.कॉम)](https://www.thinkhdi.com/library/supportworld/2019/power-story-your-data.aspx)
 
@@ -209,4 +208,4 @@
 
 ## कार्यभार
 
-[एक कहानी बताओ](assignment.md)
+[एक कहानी बताओ](../assignment.md)
