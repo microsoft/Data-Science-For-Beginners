@@ -1,4 +1,4 @@
-# Definiendo datos
+# Definiendo los datos
 
 |![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/03-DefiningData.png)|
 |:---:|
