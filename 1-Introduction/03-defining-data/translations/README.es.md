@@ -2,14 +2,14 @@
 
 |![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/03-DefiningData.png)|
 |:---:|
-|Definiendo datos - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
+|Definiendo los datos - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
 Los datos son hechos, información, observaciones y mediciones que son usados para realizar descubrimientos y soportar decisiones informadas. Un punto de datos es una unidad simple de datos dentro de un conjunto de datos, lo cual es una colección de puntos de datos. Los conjuntos de datos pueden venir en distintos formatos y estructuras, y comúnmente se basan en su fuente, o de donde provienen los datos. Por ejemplo, las ganancias mensuales de una compañía pueden estar en una hoja de cálculo, pero los datos del  ritmo cardiaco por hora de un reloj inteligente pueden estar en un formato [JSON](https://stackoverflow.com/a/383699). Es algo común para los científicos de datos el trabajar con distintos tipos de datos dentro de un conjunto de datos.
 
 Esta lección se enfoca en la identificación y clasificación de datos por sus características y sus fuentes.
 
 ## [Examen previo a la lección](https://red-water-0103e7a0f.azurestaticapps.net/quiz/4)
-## Como se describen los datos
+## Cómo se describen los datos
 Los **datos en crudo** son datos que provienen de su fuente en su estado inicial y estos no han sido analizados u organizados. Con el fin de que tenga sentido lo que sucede con un conjunto de datos, es necesario organizarlos en un formato que pueda ser entendido tanto por humanos como por la tecnología usada para analizarla a mayor detalle. La estructura de un conjunto de datos describe como está organizado y puede ser clasificado de forma estructurada, no estructurada y semi-estructurada. Estos tipos de estructuras podrían variar, dependiendo de la fuente pero finalmente caerá en una de estas categorías.
 ### Datos cuantitativos
 Los datos cuantitativos son observaciones numéricas en un conjunto de datos que puede ser típicamente analizados, medidos y usados matemáticamente. Algunos ejemplos de datos cuantitativos son: la población de un país, la altura de una persona o las ganancias trimestrales de una compañía. Con algo de análisis adicional, los datos cuantitativos podrían ser usados para descubrir tendencias de temporada en el índice de calidad del aire (AQI) o estimar la probabilidad la hora pico de embotellamiento vial en un día laboral típico.
