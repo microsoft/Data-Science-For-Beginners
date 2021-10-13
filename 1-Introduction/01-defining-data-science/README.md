@@ -1,12 +1,12 @@
 # Defining Data Science
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png)|
-|:---:|
-|Defining Data Science - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png) |
+| :----------------------------------------------------------------------------------------------------: |
+|              Defining Data Science - _Sketchnote by [@nitya](https://twitter.com/nitya)_               |
 
 ---
 
-[![Defining Data Science Video](images/video-def-ds.png)](https://youtu.be/pqqsm5reGvs)
+[![Defining Data Science Video](images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
 
@@ -33,7 +33,7 @@ This definition highlights the following important aspects of data science:
 > Another important aspect of Data Science is that it studies how data can be gathered, stored and operated upon using computers. While statistics gives us mathematical foundations, data science applies mathematical concepts to actually draw insights from data.
 
 One of the ways (attributed to [Jim Gray](https://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist))) to look at the data science is to consider it to be a separate paradigm of science:
-* **Empyrical**, in which we rely mostly on observations and results of experiments
+* **Empirical**, in which we rely mostly on observations and results of experiments
 * **Theoretical**, where new concepts emerge from existing scientific knowledge
 * **Computational**, where we discover new principles based on some computational experiments
 * **Data-Driven**, based on discovering relationships and patterns in the data  
@@ -69,11 +69,11 @@ Vast amounts of data are incomprehensible for a human being, but once we create 
 
 As we have already mentioned - data is everywhere, we just need to capture it in the right way! It is useful to distinguish between **structured** and **unstructured** data. The former are typically represented in some well-structured form, often as a table or number of tables, while latter is just a collection of files. Sometimes we can also talk about **semistructured** data, that have some sort of a structure that may vary greatly.
 
-| Structured | Semi-structured | Unstructured |
-|----------- |-----------------|--------------|
-| List of people with their phone numbers | Wikipedia pages with links | Text of Encyclopaedia Britannica |
-| Temperature in all rooms of a building at every minute for the last 20 years | Collection of scientific papers in JSON format with authors, data of publication, and abstract | File share with corporate documents |
-| Data for age and gender of all people entering the building | Internet pages | Raw video feed from surveillance camera |
+| Structured                                                                   | Semi-structured                                                                                | Unstructured                            |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------- |
+| List of people with their phone numbers                                      | Wikipedia pages with links                                                                     | Text of Encyclopaedia Britannica        |
+| Temperature in all rooms of a building at every minute for the last 20 years | Collection of scientific papers in JSON format with authors, data of publication, and abstract | File share with corporate documents     |
+| Data for age and gender of all people entering the building                  | Internet pages                                                                                 | Raw video feed from surveillance camera |
 
 ## Where to get Data
 
@@ -107,7 +107,7 @@ First step is to collect the data. While in many cases it can be a straightforwa
 Storing the data can be challenging, especially if we are talking about big data. When deciding how to store data, it makes sense to anticipate the way you would want later on to query them. There are several ways data can be stored:
 <ul>
 <li>Relational database stores a collection of tables, and uses a special language called SQL to query them. Typically, tables would be connected to each other using some schema. In many cases we need to convert the data from original form to fit the schema.</li>
-<li><a href="https://en.wikipedia.org/wiki/NoSQL">NoSQL</a> database, such as <a href="https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=acad-31812-dmitryso">CosmosDB</a>, does not enforce schema on data, and allows storing more complex data, for example, hierarchical JSON documents or graphs. However, NoSQL database does not have rich querying capabilities of SQL, and cannot enforce referential integrity between data.</li>
+<li><a href="https://en.wikipedia.org/wiki/NoSQL">NoSQL</a> database, such as <a href="https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=academic-31812-dmitryso">CosmosDB</a>, does not enforce schema on data, and allows storing more complex data, for example, hierarchical JSON documents or graphs. However, NoSQL database does not have rich querying capabilities of SQL, and cannot enforce referential integrity between data.</li>
 <li><a href="https://en.wikipedia.org/wiki/Data_lake">Data Lake</a> storage is used for large collections of data in raw form. Data lakes are often used with big data, where all data cannot fit into one machine, and has to be stored and processed by a cluster. <a href="https://en.wikipedia.org/wiki/Apache_Parquet">Parquet</a> is the data format that is often used in conjunction with big data.</li> 
 </ul>
 </dd>
