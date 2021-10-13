@@ -12,7 +12,7 @@ Tendências do mercado nos mostram que até 2022, 1 em 3 grandes organizações 
 
 Tendências também indicam que nós vamos criar e consumir mais de [180 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/) de dados em 2025. Como **Cientistas de Dados**, isso nos dará níveis de acesso sem precedentes à dados pessoais. Isso significa que poderemos construir perfis comportamentais dos usuário e influenciar tomadas de decisão de uma forma que crie a [ilusão da livre escolha](https://www.datasciencecentral.com/profiles/blogs/the-illusion-of-choice) enquanto potencialmente direcionando os usuários na direção do resultado que nós preferimos. Isso também levanta questões mais amplas sobre privacidade dos dados e proteção dos usuários.
 
-Ética dos dados é agora um _guarda-corpos necessário_ para ciẽncia de dados e engenharia, nos ajudando a minimizar potenciais danos e consequências não intencionas das nossas ações realizadas com base em dados. O [Gartner Hype Cycle for AI](https://www.gartner.com/smarterwithgartner/2-megatrends-dominate-the-gartner-hype-cycle-for-artificial-intelligence-2020/) identifica tendências relevantes ná ética digital, IAs responsáveis, e governanças de IA como principais impulsionadores para grandes mega tendências sobre _democratização_ e _industrialização_ da IA.
+Ética dos dados é agora uma _proteção necessário_ para ciẽncia de dados e engenharia, nos ajudando a minimizar potenciais danos e consequências não intencionas das nossas ações realizadas com base em dados. O [Gartner Hype Cycle for AI](https://www.gartner.com/smarterwithgartner/2-megatrends-dominate-the-gartner-hype-cycle-for-artificial-intelligence-2020/) identifica tendências relevantes ná ética digital, IAs responsáveis, e governanças de IA como principais impulsionadores para grandes mega tendências sobre _democratização_ e _industrialização_ da IA.
 
 ![Gartner's Hype Cycle for AI - 2020](https://images-cdn.newscred.com/Zz1mOWJhNzlkNDA2ZTMxMWViYjRiOGFiM2IyMjQ1YmMwZQ==)
 
@@ -124,7 +124,7 @@ Questões a se explorar aqui são:
 
 #### 2.6 Viéses dos Datasets
 
-Dataset ou [Viéses da Coleção](http://researcharticles.com/index.php/bias-in-data-collection-in-research/) é sobre selecionar um subset de dados _não representativos_ para o desenvolvimento de um algoritmo, criando potenciais injustiças nos resultados para grupos diversos. Os tipos de viéses incluem seleção ou viés da amostra, viés voluntário, e viés do instrumento.
+[Viéses da Coleção ou do Dataset](http://researcharticles.com/index.php/bias-in-data-collection-in-research/) é sobre selecionar um subset de dados _não representativos_ para o desenvolvimento de um algoritmo, criando potenciais injustiças nos resultados para grupos diversos. Os tipos de viéses incluem seleção ou viés da amostra, viés voluntário, e viés do instrumento.
 
 Questões a se explorar aqui são:
  * Recrutamos um conjunto representativo de titulares de dados?
