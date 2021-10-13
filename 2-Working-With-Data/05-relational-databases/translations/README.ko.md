@@ -1,6 +1,6 @@
 ﻿# 데이터 작업: 관계형 데이터베이스
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/05-RelationalData.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/05-RelationalData.png)|
 |:---:|
 | 데이터 작업: 관계형 데이터베이스 - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
@@ -86,15 +86,15 @@ A relational database has at its core tables. 스프레드 시트와 마찬가�
 | 8           | 3       | 2019 | 942    |
 | 9           | 3       | 2020 | 1176   |
 
-새롭게 생성된 **강수량** 테이블의 **city_id** 열이 추가 되었습니다. 이 열은 **cities** 테이블의 참조 값(reference id)을 나타냅니다. 기술적 용어로 이것을, **왜래 키(foreign key)**라고 부릅니다; 이는 다른 테이블의 기본키입니다. 참조나 포인터의 개념이라고 생각할 수 있습니다. **city_id** 1은 Tokyo를 참조합니다.
+새롭게 생성된 **강수량** 테이블의 **city_id** 열이 추가 되었습니다. 이 열은 **cities** 테이블의 참조 값(reference id)을 나타냅니다. 기술적 용어로 이것을, **외래 키(foreign key)**라고 부릅니다; 이는 다른 테이블의 기본키입니다. 참조나 포인터의 개념이라고 생각할 수 있습니다. **city_id** 1은 Tokyo를 참조합니다.
 
 > ✅ 외래키(Foreign key)는 주로 FK라고 약칭합니다.
 
 ## 데이터 조회
 
-With our data separated into two tables, you may be wondering how we retrieve it. If we are using a relational database such as MySQL, SQL Server or Oracle, we can use a language called Structured Query Language or SQL. SQL (sometimes pronounced sequel) is a standard language used to retrieve and modify data in a relational database.
+데이터가 두개의 테이블로 분리되어 있을때는, 어떻게 데이터를 검색할까요?. 만약 우리가 MYSQL, SQL Server, Oracle과 같은 관계형 데이터베이스를 사용하는 경우, 우리는 구조화된 질의언어 혹은 SQL을 사용할 수 있습니다 . SQL("에스큐엘"이라고 발음된다.)은 관계형 데이터베이스에서 데이터를 검색하고 수정하는 데 사용되는 표준 언어입니다.
 
-To retrieve data you use the command `SELECT`. At its core, you **select** the columns you want to see **from** the table they're contained in. If you wanted to display just the names of the cities, you could use the following:
+데이터를 검색할 때는 `SELECT` 명령어를 사용합니다. 핵심은 데이터가 담긴 테이블에서(**from**) 찾고자 하는 열을 검색(**select**)하는 것입니다. 만약 도시의 이름만 보이고 싶다면, 다음 내용을 따라하세요:
 
 ```sql
 SELECT city
@@ -106,11 +106,11 @@ FROM cities;
 -- Auckland
 ```
 
-`SELECT` is where you list the columns, and `FROM` is where you list the tables.
+`SELECT`는 열의 집합이라면, `FROM`은 테이블의 집합이라고 할 수 있습니다.
 
-> [NOTE] SQL syntax is case-insensitive, meaning `select` and `SELECT` mean the same thing. However, depending on the type of database you are using the columns and tables might be case sensitive. As a result, it's a best practice to always treat everything in programming like it's case sensitive. When writing SQL queries common convention is to put the keywords in all upper-case letters.
+> [주의] SQL 문법은 대소문자를 구분하지 않으며, `select`와 `SELECT`는 서로 같습니다. 그러나, 데이터베이스의 타입에 따라 열과 테이블은 대소문자를 구분할 수도 있습니다. 따라서, 대소문자를 구분해 프로그래밍하는 것이 좋습니다. SQL 쿼리를 작성할 때 키워드를 대문자로 적는 것이 원칙입니다.
 
-The query above will display all cities. Let's imagine we only wanted to display cities in New Zealand. We need some form of a filter. The SQL keyword for this is `WHERE`, or "where something is true".
+위의 예시 쿼리는 모든 도시를 나타냅니다. 여기서 뉴질랜드(New Zealand)의 도시만 보여주고 싶다면 어떻게 할까요? 사용할 키워드는 `WHERE`, 혹은 "where something is true" 입니다.
 
 ```sql
 SELECT city
@@ -123,13 +123,13 @@ WHERE country = 'New Zealand';
 
 ## 데이터 조인
 
-Until now we've retrieved data from a single table. Now we want to bring the data together from both **cities** and **rainfall**. This is done by *joining* them together. You will effectively create a seam between the two tables, and match up the values from a column from each table.
+우리는 이전까지 단일 테이블에서 데이터를 검색했습니다. 이제 도시(**city**)와 강수량(**rainfall**)의 데이터를 하나로 통합해 보여주려 합니다. 이것은 데이터 *조인*을 통해서 할 수 있습니다. 데이터 조인은 두개의 다른 테이블의 열을 일치시킴으로써 효과적으로 이어줍니다.
 
-In our example, we will match the **city_id** column in **rainfall** with the **city_id** column in **cities**. This will match the rainfall value with its respective city. The type of join we will perform is what's called an *inner* join, meaning if any rows don't match with anything from the other table they won't be displayed. In our case every city has rainfall, so everything will be displayed.
+예를들어, 강수량(**rainfall) 테이블의 **city_id** 열과 도시(**city**) 테이블의 **city_id** 열을 매칭할 수 있습니다. 조인을 통해 각 도시들과 그에 맞는 강수량을 매칭할 것입니다. 여러 조인의 종류 중에서 먼저 다룰 것은 *inner* 조인입니다. *inner* 조인은 테이블간의 행이 정확하게 일치하지 않으면 표시되지 않습니다. 위의 예시의 경우 모든 도시에 비가 내리므로, 모든 행이 표시될 것입니다.
 
-Let's retrieve the rainfall for 2019 for all our cities.
+그렇다면 모든 도시의 2019년 강수량을 보겠습니다. 
 
-We're going to do this in steps. The first step is to join the data together by indicating the columns for the seam - **city_id** as highlighted before.
+첫번째로 이전에 강조했던 **city_id** 열을 매칭해 데이터를 결합하겠습니다.
 
 ```sql
 SELECT cities.city
@@ -138,7 +138,7 @@ FROM cities
     INNER JOIN rainfall ON cities.city_id = rainfall.city_id
 ```
 
-We have highlighted the two columns we want, and the fact we want to join the tables together by the **city_id**. Now we can add the `WHERE` statement to filter out only year 2019.
+같은 **city_id**값과 함께 테이블 명을 명시함으로써, 테이블 조인에 핵심적인 열을 강조했습니다. 이제 `WHERE` 구문을 추가해 2019년만 검색해 보겠습니다.
 
 ```sql
 SELECT cities.city
@@ -158,24 +158,24 @@ WHERE rainfall.year = 2019
 
 ## 요약
 
-Relational databases are centered around dividing information between multiple tables which is then brought back together for display and analysis. This provides a high degree of flexibility to perform calculations and otherwise manipulate data. You have seen the core concepts of a relational database, and how to perform a join between two tables.
+관계형 데이터 베이스는 여러 테이블 간에 정보를 분산시키며, 데이터 분석과 검색을 위해 결합됩니다. 계산을 수행할때나 조작할때 높은 유연성을 보장하는 것이 장점입니다. 지금까지 관계형 데이터베이스의 핵심 개념과 두 테이블 간의 조인을 수행하는 방법을 살펴보았습니다.
 
 ## 🚀 챌린지
 
-There are numerous relational databases available on the internet. You can explore the data by using the skills you've learned above.
+인터넷에는 수많은 관계형 데이터베이스가 있습니다. 위에서 배운 내용과 기술을 토대로 이제 데이터를 자유롭게 다룰 수 있습니다.
 
 ## 강의 후 퀴즈
 
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/9)
+## [강의 후 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/9)
 
-## Review & Self Study
+## 리뷰 & 복습
 
-There are several resources available on [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-40229-cxa) for you to continue your exploration of SQL and relational database concepts
+[Microsoft 학습](https://docs.microsoft.com/learn?WT.mc_id=academic-40229-cxa)에 SQL 및 관계형 데이터베이스 개념에 대한 학습을 계속할 수 있는 자료들이 있습니다.
 
-- [Describe concepts of relational data](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-40229-cxa)
-- [Get Started Querying with Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-40229-cxa) (Transact-SQL is a version of SQL)
-- [SQL content on Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-40229-cxa)
+- [관계형 데이터의 개념 설명](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-40229-cxa)
+- [Transact-SQL로 시작하는 쿼리](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-40229-cxa) (Transact-SQL SQL의 버전이다.)
+- [Microsoft 학습의 SQL 콘텐츠](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-40229-cxa)
 
 ## 과제
 
-[Assignment Title](assignment.md)
+[과제](assignment.md)
