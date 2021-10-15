@@ -20,7 +20,7 @@ Com o surgimento da Internet, o papel dos computadores como dispositivos de mani
 
 ## O que é Ciência de Dados?
 
-Na [Wikipedia (PT-BR)](https://pt.wikipedia.org/wiki/Ci%C3%AAncia_de_dados), **Ciência de Dados** é definido como *é uma área interdisciplinar voltada para o estudo e a análise de dados econômicos, financeiros e sociais, estruturados e não-estruturados, que visa a extração de conhecimento, detecção de padrões e/ou obtenção de insights para possíveis tomadas de decisão*.
+Na [Wikipedia (PT-BR)](https://pt.wikipedia.org/wiki/Ci%C3%AAncia_de_dados), **Ciência de Dados** é definida como *uma área interdisciplinar voltada para o estudo e a análise de dados econômicos, financeiros e sociais, estruturados e não-estruturados, que visa a extração de conhecimento, detecção de padrões e/ou obtenção de insights para possíveis tomadas de decisão*.
 
 Essa definição destaca os seguintes aspectos importantes da ciência de dados:
 
