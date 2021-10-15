@@ -69,7 +69,7 @@ Quando analisamos dados da vida real, eles normalmente não são variáveis alea
 [180.0, 215.0, 210.0, 210.0, 188.0, 176.0, 209.0, 200.0, 231.0, 180.0, 188.0, 180.0, 185.0, 160.0, 180.0, 185.0, 197.0, 189.0, 185.0, 219.0]
 ```
 
-> **Nota**: Para ver o exemplo de trabalhar com esse dataset, olhe o [notebook](notebook.ipynb). Existe também um número de desafios nessa aula, e você pode completá-los adicionando alguns códigos nesse notebook. Se você não tem certeza de como operar os dados, não se preocupe - nós vamos voltar a trabalhar com dados usando Python em um outro momento. Se você não sabe como rodar código no Jupyter Notebook, dê uma olhada [neste artigo](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+> **Nota**: Para ver o exemplo de trabalhar com esse dataset, olhe o [notebook](../notebook.ipynb). Existe também um número de desafios nessa aula, e você pode completá-los adicionando alguns códigos nesse notebook. Se você não tem certeza de como operar os dados, não se preocupe - nós vamos voltar a trabalhar com dados usando Python em um outro momento. Se você não sabe como rodar código no Jupyter Notebook, dê uma olhada [neste artigo](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
 Aqui está o box plot mostrando a média, mediana e quartis para os nossos dados:
 
@@ -123,7 +123,7 @@ Se nós quiséssemos estimar a média &mu; da nossa população com confiança p
 
 > **Nota**: Nós também omitimos a discussão de um conceito importante de [degrees of freedom (graus de liberdade)](https://en.wikipedia.org/wiki/Degrees_of_freedom_(statistics)), que é importante em relação a distribuição Student. Você pode dar uma olhada em livros mais completos sobre estatísticas para entender esse conceito mais profundadamente.
 
-Um exemplo para calcular o intervalo de confiança para pesos e alturas é dado no [notebook](notebook.ipynb).
+Um exemplo para calcular o intervalo de confiança para pesos e alturas é dado no [notebook](../notebook.ipynb).
 
 | p | Weight mean |
 |-----|-----------|
@@ -134,7 +134,7 @@ Um exemplo para calcular o intervalo de confiança para pesos e alturas é dado 
 Perceba que quanto maior é a probabilidade da confiança, mais amplo é o intervalo de confiança.
 
 ## Testando Hipóteses
-No nosso dataset de jogadores de baseball, existem diferentes posições, as quais podem ser sumarizadas abaixo (olhe o [notebook](notebook.ipynb) para ver como essa tabela pode ser calculada):
+No nosso dataset de jogadores de baseball, existem diferentes posições, as quais podem ser sumarizadas abaixo (olhe o [notebook](../notebook.ipynb) para ver como essa tabela pode ser calculada):
 
 | Role | Height | Weight | Count |
 |------|--------|--------|-------|
@@ -222,7 +222,7 @@ No nosso caso, o valor 0.53 indica que existe alguma correlação entre peso e a
 
 ![Relação entre peso e altura](../images/weight-height-relationship.png)
 
-> Mais exemplos de correlação e covariância podem ser encontrados no [notebook](notebook.ipynb).
+> Mais exemplos de correlação e covariância podem ser encontrados no [notebook](../notebook.ipynb).
 
 ## Conclusão
 
@@ -254,7 +254,7 @@ Probabilidade e estatística é um tópico muito amplo que merece um curso próp
 
 ## Tarefa
 
-[Small Diabetes Study (Pequeno Estudo de Diabetes)](assignment.md)
+[Small Diabetes Study (Pequeno Estudo de Diabetes)](../assignment.md)
 
 ## Créditos
 

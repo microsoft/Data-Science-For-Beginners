@@ -1,6 +1,6 @@
 # Definindo Ciências de Dados
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/01-Definitions.png)|
+|![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/01-Definitions.png)|
 |:---:|
 |Definindo Ciências de Dados - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
@@ -20,7 +20,7 @@ Com o surgimento da Internet, o papel dos computadores como dispositivos de mani
 
 ## O que é Ciência de Dados?
 
-Na [Wikipedia](https://en.wikipedia.org/wiki/Data_science), **Ciência de Dados** é definido como *um campo científico que utiliza métodos científicos para extrair conhecimento e insights de dados estruturados e não estruturados, e aplicar esse conhecimento e insights acionáveis de dados em uma ampla gama de domínios de aplicativos*.
+Na [Wikipedia](https://en.wikipedia.org/wiki/Data_science), **Ciência de Dados** é definido como *um campo científico que utiliza métodos científicos para extrair conhecimento e insights de dados estruturados e não estruturados, e aplicar esse conhecimento e insights úteis obtidos a partir de dados em uma ampla gama de domínios de aplicativos*.
 
 Essa definição destaca os seguintes aspectos importantes da ciência de dados:
 
@@ -147,7 +147,7 @@ Nesse desafio, nós vamos tentar encontrar conceitos relevantes para a área de 
 
 ![Nuvem de Palavras para Ciência de Dados](../images/ds_wordcloud.png)
 
-Visite [`notebook.ipynb`](notebook.ipynb) para ler o código. Você também pode rodar esse código, e ver como ele performa toda a transformação de dados em tempo real.
+Visite [`notebook.ipynb`](../notebook.ipynb) para ler o código. Você também pode rodar esse código, e ver como ele performa toda a transformação de dados em tempo real.
 
 > Se você não sabe como rodar códigos no Jupyter Notebook, dê uma olhada [nesse artigo](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
