@@ -20,13 +20,13 @@ Com o surgimento da Internet, o papel dos computadores como dispositivos de mani
 
 ## O que é Ciência de Dados?
 
-Na [Wikipedia](https://en.wikipedia.org/wiki/Data_science), **Ciência de Dados** é definido como *um campo científico que utiliza métodos científicos para extrair conhecimento e insights de dados estruturados e não estruturados, e aplicar esse conhecimento e insights úteis obtidos a partir de dados em uma ampla gama de domínios de aplicativos*.
+Na [Wikipedia (PT-BR)](https://pt.wikipedia.org/wiki/Ci%C3%AAncia_de_dados), **Ciência de Dados** é definido como *é uma área interdisciplinar voltada para o estudo e a análise de dados econômicos, financeiros e sociais, estruturados e não-estruturados, que visa a extração de conhecimento, detecção de padrões e/ou obtenção de insights para possíveis tomadas de decisão*.
 
 Essa definição destaca os seguintes aspectos importantes da ciência de dados:
 
 * O principal objetivo da ciência de dados é **extrair conhecimento** dos dados, em outras palavras - **entender** os dados, encontrar alguma relação escondida e construir um **modelo**.
 * Ciência de dados utiliza **métodos científicos**, como probabilidade e estatística. Na verdade, quando o termo *ciência de dados* foi introduzido pela primeira vez, algumas pessoas argumentaram que ciência de dados é apenas um nome chique para estatística. Hoje em dia ficou mais evidente que esse campo é muito mais amplo.
-* Conhecimento adquirido deve ser aplicado para produzir algum **insights acionável**.
+* Conhecimento adquirido deve ser aplicado para produzir algum **insight para possível tomada de decisão**.
 * Nós devemos ser capazes de operar tanto nos dados **estruturados** quanto nos **não estruturados**. Nós voltaremos a discutir diferentes tipos de dados mais para a frente no curso.
 * **Domínio de aplicação** é um conceito importante, e cientistas de dados frequentemente precisam de pelo menos algum grau de perícia no domínio do problema.
 
