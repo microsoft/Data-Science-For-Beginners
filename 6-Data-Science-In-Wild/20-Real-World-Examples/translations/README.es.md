@@ -32,7 +32,7 @@ Gracias a la democratización de la AI, los desarrolladores encuentran más fác
 
 ![Aplicaciones de la Ciencia de Datos en el mundo real](../images/data-science-applications.png) Image Credit: [Estilos de datos: 6 sorprendentes aplicaciones de la Ciencia de Datos](https://data-flair.training/blogs/data-science-applications/)
 
-La imagen muestra otros dominios y ejemplos para aplicar técnicas de ciencia de datos. ¿Quieres explorar otras aplicaciones? Revisa la sección [revisión y auto-estudio](?id=review-amp-self-study) abajo.
+La imagen muestra otros dominios y ejemplos para aplicar técnicas de ciencia de datos. ¿Quieres explorar otras aplicaciones? Revisa la sección [revisión y auto-estudio](#revisi%C3%B3n-y-auto-estudio) abajo.
 
 ## Ciencia de datos + Investigación
 
