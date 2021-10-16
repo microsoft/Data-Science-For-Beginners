@@ -1,38 +1,37 @@
-# Explore a Planetary Computer Dataset
+# Explora un conjunto de datos de la Computadora Planetaria
 
-## Instructions
+## Instrucciones
 
-In this lesson, we talked about various data science application domains - with deep dives into examples related to research, sustainability and digital humanities. In this assignment, you'll explore one of these examples in more detail, and apply some of your learnings around data visualizations and analysis to derive insights about sustainability data.
+En esta lección, hablamos acerca de distintos dominios de aplicación de la ciencia de datos - profundizando en ejemplos relacionados a la investigación, sustentabilidad y humanidades digitales. En esta asignación, explorarás uno de estos ejemplos a mayor detalle, y aplicarás algunos de tus aprendizajes en visualización de datos y análisis para derivar en conocimientos acerca de datos de sustentabilidad.
 
-The [Planetary Computer](https://planetarycomputer.microsoft.com/) project has datasets and APIs that can be accessed with an account - request one for access if you want to try the bonus step of the assignment. The site also provides an [Explorer](https://planetarycomputer.microsoft.com/explore) feature that you can use without creating an account. 
-
-
-`Steps:`
-The Explorer interface (shown in the screenshot below) lets you select a dataset (from provided options), a preset query (to filter data) and a rendering option (to create a relevant visualization). In this assignment, your task is to:
-
- 1. Read the [Explorer documentation](https://planetarycomputer.microsoft.com/docs/overview/explorer/) - understand options.
- 2. Explore the dataset [Catalog](https://planetarycomputer.microsoft.com/catalog) - learn the purpose of each.
- 3. Use the Explorer - pick a dataset of interest, select a relevant query & rendering option.
+El proyecto de [Computadora Planetaria](https://planetarycomputer.microsoft.com/) tiene conjuntos de datos y APIs que pueden ser accesadas con una cuenta - solicita acceso si quieres probar el paso adicional de esta asignación. El sitio también provee una característica de [Explorador](https://planetarycomputer.microsoft.com/explore) que puedes usar sin crear una cuenta.
 
 
-![The Planetary Computer Explorer](images/Planetary-Computer-Explorer.png)
+`Pasos:`
+La interfaz de exploración (mostrada en captura de pantalla abajo) te permite seleccionar un conjunto de datos (de las opciones proporcionadas), una consulta preestablecida (para filtrar los datos) y una opción de representación (para crear una visualización relevante). En esta asignación, tu tarea es:
 
-`Your Task:`
-Now study the visualization that is rendered in the browser and answer the following:
- * What _features_ does the dataset have?
- * What _insights_ or results does the visualization provide?
- * What are the _implications_ of those insights to the sustainability goals of the project?
- * What are the _limitations_ of the visualization (i.e., what insight did you not get?)
- * If you could get the raw data, what _alternative visualizations_ would you create, and why?
+ 1. Lee la [documentación del explorador](https://planetarycomputer.microsoft.com/docs/overview/explorer/) - entiende las opciones.
+ 2. Explora el conjunto de datos del [catálogo](https://planetarycomputer.microsoft.com/catalog) - entiende el propósito de cada uno.
+ 3. Usa el explorador - elige un conjunto de datos de interés, selecciona una consulta relevante y una opción de representación.
 
-`Bonus Points:`
-Apply for an account - and login when accepted.
- * Use the _Launch Hub_ option to open the raw data in a Notebook.
- * Explore the data interactively, and implement the alternative visualizations you thought of.
- * Now analyze your custom visualizations - were you able to derive the insights you missed before?
+![El explorador de la Computadora Planetaria](../images/planetary-computer-explorer.png)
 
-## Rubric
+`Tu tarea:`
+Ahora estudia la visualización que es representada en el navegador y responde a lo siguiente:
+ * ¿Qué _características_ tiene el conjunto de datos?
+ * ¿Qué _conocimientos_ o resultados provee la visualización?
+ * ¿Cuáles son las _implicaciones_ de esos conocimientos para las metas de sustentabilidad del proyecto?
+ * ¿Cuáles son las _limitantes_ de la visualización (esto es, ¿qué conocimiento no obtienes?)?
+ * Si pudieras obtener los datos en crudo, ¿qué _alternativas de visualización_ crearías y porqué?
 
-Exemplary | Adequate | Needs Improvement
+`Puntos adicionales:`
+Aplica para una cuenta - e inicia sesión cuando seas aceptado.
+ * Usa la opción _Launch Hub_ para abrir el conjunto de datos en crudo en un Notebook.
+* Explorar los datos de forma interactiva, e implementa las alternativas de visualización que tengas en mente.
+* Ahora analiza tus visualizaciones personalizadas - ¿fuiste capaz de derivar los conocimientos que antes te faltaron?
+
+## Rúbrica
+
+Ejemplar | Adecuado | Necesita mejorar
 --- | --- | -- |
-All five core questions were answered. The student clearly identified how current and alternative visualizations could provide insights into sustainability objectives or outcomes.| The student answered at least the top 3 questions in great detail, showing that had practical experience with the Explorer. | The student failed to answer multiple questions, or provided insufficient detail - indicating that no meaningful attempt was made for the project |
+Todas las cinco preguntas se respondieron. El estudiante identificó claramente como las visualizaciones actuales y alternativas podrían proveer conocimiento en objetivos de sustentabilidad o resultados. | El estudiante respondió al menos las 3 preguntas principales a gran detalle, mostrando que tuvo experiencia práctica con el Explorador. | El estudiante falló al responder múltiples preguntas, o dió detalles insuficientes - indicando que hizo un intento significativo para el proyecto. |
