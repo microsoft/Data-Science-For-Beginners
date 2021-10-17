@@ -9,9 +9,9 @@ Na aula anterior, você aprendeu fatos interessantes sobre um dataset de aves de
 ## [Quiz pré-aula](https://red-water-0103e7a0f.azurestaticapps.net/quiz/18)
 ## Explorando o dataset de aves
 
-Outra forma de explorar os dados é olhar para sua distribuição, ou como os dados estão organizados ao longo do eixo. Por exemplo, talvez você gostaria de aprender sobre a distribuição geral, nesse dataset, do máximo de envergadura (wingspan) ou máximo de massa corporal (body mass) das aves de Minnesota.
+Outra forma de explorar os dados é olhar para sua distribuição, ou como os dados estão organizados ao longo do eixo. Por exemplo, talvez você gostaria de aprender sobre a distribuição geral, neste dataset, do máximo de envergadura (wingspan) ou máximo de massa corporal (body mass) das aves de Minnesota.
 
-Vamos descobrir alguns fatos sobre as distribuições de dados neste dataset. No arquivo  _notebook.ipynb_, na raiz do diretório dessa aula, importe Pandas, Matplotlib, e os dados:
+Vamos descobrir alguns fatos sobre as distribuições de dados neste dataset. No arquivo  _notebook.ipynb_, na raiz do diretório desta aula, importe Pandas, Matplotlib, e os dados:
 
 ```python
 import pandas as pd
@@ -32,7 +32,7 @@ plt.xlabel('Max Length')
 plt.show()
 ```
 
-Isso nos dá uma visão geral da distribuição de comprimento do corpo por Ordem da ave, mas não é a melhor forma de mostrar a distribuição real. Essa tarefa geralmente é realizada usando um histograma.
+Isso nos dá uma visão geral da distribuição de comprimento do corpo por Ordem da ave, mas não é a melhor forma de mostrar a distribuição real. Esta tarefa geralmente é realizada usando um histograma.
 
 ## Trabalhando com histogramas
 
@@ -79,7 +79,7 @@ fig, ax = plt.subplots(tight_layout=True)
 hist = ax.hist2d(x, y)
 ```
 
-Aparentemente, existe uma suposta correlação entre esses dois elementos ao longo de um eixo esperado, com um forte ponto de convergência:
+Aparentemente, existe uma suposta correlação entre estes dois elementos ao longo de um eixo esperado, com um forte ponto de convergência:
 
 ![Histograma 2D](../images/2D.png)
 
@@ -87,9 +87,9 @@ Por definição, os histogramas funcionam para dados numéricos. Mas, e se você
 
 ## Explore o dataset e busque por distribuições usando dados textuais
 
-Este dataset também inclui informações relevantes sobre a categoria de ave e seu gênero, espécie e família, assim como seu status de conservação. Vamos explorar mais a fundo essa informação sobre conservação. Qual é a distribuição das aves de acordo com seu status de conservação?
+Este dataset também inclui informações relevantes sobre a categoria de ave e seu gênero, espécie e família, assim como seu status de conservação. Vamos explorar mais a fundo esta informação sobre conservação. Qual é a distribuição das aves de acordo com seu status de conservação?
 
-> ✅ No dataset, são utilizados vários acrônimos para descrever o status de conservação. Esses acrônimos vêm da [IUCN Red List Categories](https://www.iucnredlist.org/), uma organização que cataloga os status das espécies.
+> ✅ No dataset, são utilizados vários acrônimos para descrever o status de conservação. Estes acrônimos vêm da [IUCN Red List Categories](https://www.iucnredlist.org/), uma organização que cataloga os status das espécies.
 > 
 > - CR: Critically Endangered (Criticamente em perigo)
 > - EN: Endangered (Em perigo)
@@ -123,7 +123,7 @@ plt.legend();
 
 ![Compilação envergadura e conservação](../images/histogram-conservation.png)
 
-Aparentemente não existe uma correlação forte entre a envergadura mínima e o status de conservação. Teste outros elementos do dataset usando esse método. Você também pode tentar outros filtros. Você encontrou alguma correlação?
+Aparentemente não existe uma correlação forte entre a envergadura mínima e o status de conservação. Teste outros elementos do dataset usando este método. Você também pode tentar outros filtros. Você encontrou alguma correlação?
 
 ## Gráfico de densidade (Estimativa de densidade kernel)
 
@@ -159,9 +159,9 @@ plt.show()
 ```
 ![Linha menos suave massa corporal](../images/density3.png)
 
-✅ Leia sobre os parâmetros disponíveis para esse tipo de gráfico e experimente!
+✅ Leia sobre os parâmetros disponíveis para este tipo de gráfico e experimente!
 
-Esse tipo de gráfico oferece visualizações bonitas e esclarecedoras. Com algumas linhas de código, por exemplo, você pode mostrar a densidade de massa corporal máxima por ave por Ordem:
+Este tipo de gráfico oferece visualizações bonitas e esclarecedoras. Com algumas linhas de código, por exemplo, você pode mostrar a densidade de massa corporal máxima por ave por Ordem:
 
 ```python
 sns.kdeplot(
