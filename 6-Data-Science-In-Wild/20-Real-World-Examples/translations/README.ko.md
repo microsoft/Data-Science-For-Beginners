@@ -1,6 +1,6 @@
 # Data Science in the Real World
 
-| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png) |
+| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/20-DataScience-RealWorld.png) |
 |:----------------------------------------------------------------------------------------------------------------:|
 | Data Science In The Real World - _Sketchnote by [@nitya](https://twitter.com/nitya)_                             |
 
@@ -40,7 +40,7 @@ AI의 민주화 덕분에, 개발자들은 이제 사용자 경험과 개발 워
 
 ## Data Science + Research
 
-| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Research.png) |
+| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/20-DataScience-Research.png) |
 |:---------------------------------------------------------------------------------------------------------------:|
 | Data Science & Research - _Sketchnote by [@nitya](https://twitter.com/nitya)_                                   |
 
