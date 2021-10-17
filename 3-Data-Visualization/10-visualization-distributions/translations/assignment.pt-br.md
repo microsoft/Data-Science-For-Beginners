@@ -1,8 +1,8 @@
-# Aplique suas habilidades
+# Aplique seus conhecimentos
 
 ## Instruções
 
-Até agora, você trabalhou com o dataset de pássaros de Minnesota para descobrir informação sobre quantidades de pássaros e densidade populacional. Pratique essas técnicas usando um outro dataset, talvez do [Kaggle](https://www.kaggle.com/). Faça um notebook que conta uma história sobre esse dataset, e lembre-se de usar histogramas para isso.
+Até agora, você trabalhou com o dataset de aves de Minnesota para descobrir informação sobre quantidades de aves e densidade populacional. Pratique essas técnicas usando outro dataset, talvez do [Kaggle](https://www.kaggle.com/). Faça um notebook que conta uma história sobre esse dataset, e lembre-se de usar histogramas para isso.
 
 ## Rubrica
 
