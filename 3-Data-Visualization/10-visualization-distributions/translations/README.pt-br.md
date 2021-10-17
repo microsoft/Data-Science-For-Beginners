@@ -1,17 +1,17 @@
 # Visualizando distribuições
 
-|![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/10-Visualizing-Distributions.png)|
+|![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/10-Visualizing-Distributions.png)|
 |:---:|
 | Visualizando distribuições - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
-Na aula anterior, você aprendeu fatos interessantes sobre um dataset de pássaros de Minnesota. Você encontrou dados incorretos ao visualizar outliers e olhou as diferenças entre categorias de pássaros com base no seu comprimento máximo.
+Na aula anterior, você aprendeu fatos interessantes sobre um dataset de aves de Minnesota. Você encontrou dados incorretos ao visualizar outliers e olhou as diferenças entre categorias de aves com base no seu comprimento máximo.
 
 ## [Quiz pré-aula](https://red-water-0103e7a0f.azurestaticapps.net/quiz/18)
-## Explore o dataset de pássaros
+## Explorando o dataset de aves
 
-Outra forma de explorar os dados é olhar para sua distribuição, ou como os dados estão organizados ao longo do eixo. Por exemplo, talvez você gostaria de aprender sobre a distribuição geral, nesse dataset, do máximo de envergadura (wingspan) ou máximo de massa corporal (body mass) dos pássaros de Minnesota.
+Outra forma de explorar os dados é olhar para sua distribuição, ou como os dados estão organizados ao longo do eixo. Por exemplo, talvez você gostaria de aprender sobre a distribuição geral, nesse dataset, do máximo de envergadura (wingspan) ou máximo de massa corporal (body mass) das aves de Minnesota.
 
-Vamos descobrir alguns fatos sobre as distribuições de dados nesse dataset. No arquivo  _notebook.ipynb_ na raiz do diretório dessa aula, importe Pandas, Matplotlib, e seus dados:
+Vamos descobrir alguns fatos sobre as distribuições de dados neste dataset. No arquivo  _notebook.ipynb_, na raiz do diretório dessa aula, importe Pandas, Matplotlib, e os dados:
 
 ```python
 import pandas as pd
@@ -32,42 +32,42 @@ plt.xlabel('Max Length')
 plt.show()
 ```
 
-Isso nos dá uma visão geral da distribuição de comprimento de corpo por Ordem do pássaro, mas não é a forma ótima de mostrar a distribuição real. Essa tarefa geralmente é realizada usando um histograma.
+Isso nos dá uma visão geral da distribuição de comprimento do corpo por Ordem da ave, mas não é a melhor forma de mostrar a distribuição real. Essa tarefa geralmente é realizada usando um histograma.
 
 ## Trabalhando com histogramas
 
-O Matplotlib oferece formas muito boas de visualizar distribuição dos dados usando histogramas. Esse tipo de gráfico é parecido com um gráfico de barras onde a distribuiçao pode ser vista por meio da subida e descida das barras. Para construir um histograma, você precisa de dados numéricos. Para construir um histograma, você pode plotar um gráfico definindo o tipo (kind) como 'hist' para histograma. Esse gráfico mostra a distribuição de massa corporal máxima (MaxBodyMass) para todo o intervalo numérico dos dados. Ao dividir um certo vetor de dados em intervalos (bins) menores, vemos a distribuição dos valores:
+O Matplotlib oferece formas muito boas de visualizar distribuição dos dados usando histogramas. Este tipo de gráfico é parecido com um gráfico de barras onde a distribuição pode ser vista por meio da subida e descida das barras. Para construir um histograma, você precisa de dados numéricos e você pode plotar um gráfico definindo o tipo (kind) como 'hist' para histograma. Este gráfico mostra a distribuição de massa corporal máxima (MaxBodyMass) para todo o intervalo numérico dos dados. Ao dividir um certo vetor de dados em intervalos (bins) menores, vemos a distribuição dos valores:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
 plt.show()
 ```
 
-![Distribuição de todo o dataset](images/dist1.png)
+![Distribuição de todo o dataset](../images/dist1.png)
 
-Como você pode ver, a maior parte dos mais de 400 pássaros cai no intervalo de menos de 2000 para a massa corporal máxima. Obtenha mais conhecimento dos dados mudando o parâmetro de intervalo (`bins`) para um número maior, como 30:
+Como você pode ver, a maior parte das mais de 400 aves cai no intervalo de menos de 2000 para a massa corporal máxima. Obtenha mais conhecimento dos dados mudando o parâmetro de intervalo (`bins`) para um número maior, como 30:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 30, figsize = (12,12))
 plt.show()
 ```
 
-![Distribuição de todo o dataset com valores maiores de intervalo](images/dist2.png)
+![Distribuição de todo o dataset com valores maiores de intervalo](../images/dist2.png)
 
-Esse gráfico mostra a distribuição de forma mais detalhada. Um gráfico menos concentrado na esquerda pode ser criado garantindo que você só seleciona os dados dentro de um certo intervalo:
+Este gráfico mostra a distribuição de forma mais detalhada. Um gráfico menos concentrado na esquerda pode ser criado garantindo que você só selecione os dados dentro de um certo intervalo:
 
-Filtre seus dados para obter somente os pássaros que possuem menos de 60 de massa corporal, e mostre 40 intervalos (`bins`):
+Filtre seus dados para obter somente as aves que possuem menos de 60 de massa corporal, e mostre 40 intervalos (`bins`):
 
 ```python
 filteredBirds = birds[(birds['MaxBodyMass'] > 1) & (birds['MaxBodyMass'] < 60)]      
 filteredBirds['MaxBodyMass'].plot(kind = 'hist',bins = 40,figsize = (12,12))
 plt.show()     
 ```
-![Histograma filtrado](images/dist3.png)
+![Histograma filtrado](../images/dist3.png)
 
-✅ Tente outros filtros e pontos de dados (data points). Para ver a distribuição completa dos dados, remova o filtro `['MaxBodyMass']` para mostrar as distribuições com identificação.
+✅ Tente outros filtros e pontos de dados (data points). Para ver a distribuição completa dos dados, remova o filtro `['MaxBodyMass']` para mostrar as distribuições com labels (identificadores).
 
-O histrograma também oferece algumas cores legais e identificadores (labels) melhorados:
+O histograma também oferece algumas cores legais e labels (identificares) melhorados:
 
 Crie um histograma 2D para comparar a relação entre duas distribuições. Vamos comparar massa corporal máxima vs. comprimento máximo (`MaxBodyMass` vs. `MaxLength`). O Matplotlib possui uma forma integrada de mostrar convergência usando cores mais vivas:
 
@@ -81,13 +81,13 @@ hist = ax.hist2d(x, y)
 
 Aparentemente, existe uma suposta correlação entre esses dois elementos ao longo de um eixo esperado, com um forte ponto de convergência:
 
-![Histrograma 2D](images/2D.png)
+![Histograma 2D](../images/2D.png)
 
-Por definição, os histogramas funcionam para dados numéricos. E se você precisar ver distribuições de dados textuais?
+Por definição, os histogramas funcionam para dados numéricos. Mas, e se você precisar ver distribuições de dados textuais?
 
 ## Explore o dataset e busque por distribuições usando dados textuais
 
-Esse dataset também inclui informações relevantes sobre a categoria de pássaro e seu gênero, espécie e família, assim como seu status de conservação. Vamos explorar mais a fundo essa informação sobre conservação. Qual é a distribuição dos pássaros de acordo com seu status de conservação?
+Este dataset também inclui informações relevantes sobre a categoria de ave e seu gênero, espécie e família, assim como seu status de conservação. Vamos explorar mais a fundo essa informação sobre conservação. Qual é a distribuição das aves de acordo com seu status de conservação?
 
 > ✅ No dataset, são utilizados vários acrônimos para descrever o status de conservação. Esses acrônimos vêm da [IUCN Red List Categories](https://www.iucnredlist.org/), uma organização que cataloga os status das espécies.
 > 
@@ -98,7 +98,7 @@ Esse dataset também inclui informações relevantes sobre a categoria de pássa
 > - NT: Near Threatened (Quase ameaçada)
 > - VU: Vulnerable (Vulnerável)
 
-Esses são valores textuais, então será preciso transformá-los para criar um histograma. Usando o dataframe filteredBirds, mostre seu status de conservação juntamente com sua envergadura mínima (MinWingspan). O que você vê? 
+Estes são valores textuais, então será preciso transformá-los para criar um histograma. Usando o dataframe filteredBirds, mostre seu status de conservação com sua envergadura mínima (MinWingspan). O que você vê? 
 
 ```python
 x1 = filteredBirds.loc[filteredBirds.ConservationStatus=='EX', 'MinWingspan']
@@ -121,7 +121,7 @@ plt.gca().set(title='Conservation Status', ylabel='Max Body Mass')
 plt.legend();
 ```
 
-![Compilação envergadura e conservação](images/histogram-conservation.png)
+![Compilação envergadura e conservação](../images/histogram-conservation.png)
 
 Aparentemente não existe uma correlação forte entre a envergadura mínima e o status de conservação. Teste outros elementos do dataset usando esse método. Você também pode tentar outros filtros. Você encontrou alguma correlação?
 
@@ -129,9 +129,9 @@ Aparentemente não existe uma correlação forte entre a envergadura mínima e o
 
 Você pode ter percebido que até agora os histogramas são quebrados em degraus e não fluem de forma suave em uma curva. Para mostrar um gráfico de densidade mais 'fluido', você pode tentar usar a estimativa de densidade kernel (kde).
 
-Para trabalhar com gráficos de densidade, acostume-se com uma nova biblioteca de gráficos, [Seaborn](https://seaborn.pydata.org/generated/seaborn.kdeplot.html). 
+Para trabalhar com gráficos de densidade, acostume-se com uma nova biblioteca de gráficos, o [Seaborn](https://seaborn.pydata.org/generated/seaborn.kdeplot.html). 
 
-Depois de carregar o Seaborn, tente um gráfico de densidade básico:
+Após carregar o Seaborn, tente um gráfico de densidade básico:
 
 ```python
 import seaborn as sns
@@ -139,10 +139,9 @@ import matplotlib.pyplot as plt
 sns.kdeplot(filteredBirds['MinWingspan'])
 plt.show()
 ```
-![Gráfico de densidade](images/density1.png)
+![Gráfico de densidade](../images/density1.png)
 
-Você consegue ver como o gráfico reflete o anterior (de envergadura mínima); só é mais fluido/suave. De acordo com a documentação do Seaborn, ""
-"Em comparação com o histograma, KDE pode produzir um gráfico que é menos confuso e mais legível, especialmente quando plotamos múltiplas distribuições. Mas pode potencialmente introduzir distorções se a distribuição usada é limitada ou não suave. Como um histograma, a qualidade da representação também depende na escolha de bons parâmetros suavizadores (smoothing parameters)." [créditos](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Em outras palavras, dados discrepantes (outliers) vão fazer seus gráficos se comportarem mal, como sempre.
+Você consegue ver como o gráfico reflete o anterior (de envergadura mínima); só é mais fluido/suave. De acordo com a documentação do Seaborn, "Em comparação com o histograma, o KDE pode produzir um gráfico que é menos confuso e mais legível, especialmente quando plotamos múltiplas distribuições. Mas pode potencialmente introduzir distorções se a distribuição usada é limitada ou não suave. Como um histograma, a qualidade da representação também depende na escolha de bons parâmetros suavizadores (smoothing parameters)." [créditos](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Em outras palavras, dados discrepantes (outliers) vão fazer seus gráficos se comportarem mal, como sempre.
 
 Se você quer revisitar a linha irregular/dentada MaxBodyMass (massa corporal máxima) no segundo gráfico construído, você pode suavizá-la muito bem recriando o seguinte método:
 
@@ -150,7 +149,7 @@ Se você quer revisitar a linha irregular/dentada MaxBodyMass (massa corporal m�
 sns.kdeplot(filteredBirds['MaxBodyMass'])
 plt.show()
 ```
-![Linha suave massa corporal](images/density2.png)
+![Linha suave massa corporal](../images/density2.png)
 
 Se você quer uma linha suave, mas não tão suave, mude o parâmetro `bw_adjust`:
 
@@ -158,11 +157,11 @@ Se você quer uma linha suave, mas não tão suave, mude o parâmetro `bw_adjust
 sns.kdeplot(filteredBirds['MaxBodyMass'], bw_adjust=.2)
 plt.show()
 ```
-![Linha menos suave massa corporal](images/density3.png)
+![Linha menos suave massa corporal](../images/density3.png)
 
 ✅ Leia sobre os parâmetros disponíveis para esse tipo de gráfico e experimente!
 
-Esse tipo de gráfico oferece visualizações bonitas e esclarecedoras. Com algumas linhas de código, por exemplo, você pode mostrar a densidade de massa corporal máxima por pássaro por Ordem:
+Esse tipo de gráfico oferece visualizações bonitas e esclarecedoras. Com algumas linhas de código, por exemplo, você pode mostrar a densidade de massa corporal máxima por ave por Ordem:
 
 ```python
 sns.kdeplot(
@@ -172,17 +171,17 @@ sns.kdeplot(
 )
 ```
 
-![Massa corporal por Ordem](images/density4.png)
+![Massa corporal por Ordem](../images/density4.png)
 
-Você também pode mapear a densidade de várias variáveis em um só gráfico. Teste usar o comprimento máximo (MaxLength) e mínimo (MinLength) de um pássaro comparado com seu status de conservação:
+Você também pode mapear a densidade de várias variáveis em um só gráfico. Teste usar o comprimento máximo (MaxLength) e mínimo (MinLength) de uma ave comparado com seu status de conservação:
 
 ```python
 sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationStatus")
 ```
 
-![Múltiplas densidades sobrepostas](images/multi.png)
+![Múltiplas densidades sobrepostas](../images/multi.png)
 
-Talvez valha a pena pesquisar mais a fundo se o cluster de pássaros vulneráveis ('Vulnerable') de acordo com seus comprimentos tem significado ou não.
+Talvez valha a pena pesquisar mais a fundo se o cluster de aves vulneráveis ('Vulnerable') de acordo com seus comprimentos têm significado ou não.
 
 ## 🚀 Desafio
 
@@ -192,8 +191,8 @@ Histogramas são um tipo mais sofisticado de gráfico em relação a simples gr�
 
 ## Revisão e autoestudo
 
-Nessa aula, você usou o Matplotlib e começou a trabalhar com o Seaborn para mostrar gráficos mais avançados. Pesquise sobre o `kdeplot` no Seaborn, uma "curva  de densidade de probabilidade contínua em uma ou mais dimensões". Leia a [documentação](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) para entender como funciona.
+Nesta aula, você usou o Matplotlib e começou a trabalhar com o Seaborn para mostrar gráficos mais avançados. Pesquise sobre o `kdeplot` no Seaborn, uma "curva  de densidade de probabilidade contínua em uma ou mais dimensões". Leia a [documentação](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) para entender como funciona.
 
 ## Tarefa
 
-[Use suas habilidades](assignment.md)
+[Aplique seus conhecimentos](assignment.pt-br.md)
