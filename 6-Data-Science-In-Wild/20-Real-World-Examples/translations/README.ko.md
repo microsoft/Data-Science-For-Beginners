@@ -51,15 +51,19 @@ AI의 민주화 덕분에, 개발자들은 이제 사용자 경험과 개발 워
 
 학생들에게 이러한 연구 프로젝트는 주제에 대한 이해를 향상시킬 수 있는 학습 기회와 협업 기회를 제공할 수 있으며, 관심 분야에서 일하는 관련 직원 또는 팀과의 인식과 참여를 넓힐 수 있습니다. 그렇다면 연구 프로젝트는 어떻게 생겼고 어떻게 영향을 미칠 수 있을까요?
 
-이 예제를 한 번 봅시다 - Joy Buolamwini (MIT Media Labs)의 [MIT 젠더 쉐이즈 연구 (MIT Gender Shades Study)](http://gendershades.org/overview.html)의 [연구 (signature research paper)](http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) co-authored with Timnit Gebru (then at Microsoft Research) that focused on 
+이 예제를 한 번 봅시다 - Joy Buolamwini (MIT Media Labs)의 [MIT 젠더 쉐이즈 연구 (MIT Gender Shades Study)](http://gendershades.org/overview.html)와 Timnit Gebru (당시에 Microsoft Research)가 공동 저술한 [연구 (signature research paper)](http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf)
 
-* **무엇:** The objective of the research project was to _evaluate bias present in automated facial analysis algorithms and datasets_ based on gender and skin type. 
-* **Why:** Facial analysis is used in areas like law enforcement, airport security, hiring systems and more - contexts where inaccurate classifications (e.g., due to bias) can cause potential economic and social harms to affected individuals or groups. Understanding (and eliminating or mitigating) biases is key to fairness in usage.
-* **How:** Researchers recongized that existing benchmarks used predominantly lighter-skinned subjects, and curated a new data set (1000+ images) that was _more balanced_ by gender and skin type. The data set was used to evaluate the accuracy of three gender classification products (from Microsoft, IBM & Face++). 
+* **무엇:** 이 연구 프로젝트의 목적은 _성별과 피부 타입에 기초하여 자동화된 얼굴 분석 알고리즘과 데이터 세트에 존재하는 편향을 평가하는 것_ 입니다. 
+* **왜:** 얼굴 분석은 법 집행, 공항 보안, 고용 시스템 등에서 사용됩니다 - 부정확한 분류(예: 편향으로 인한)로 인해 영향을 받는 개인이나 집단에 잠재적인 경제적, 사회적 피해를 일으킬 수 있는 상황이 생길 수 있습니다. 편향을 이해하는 (그리고 제거 또는 완화하는) 것이 사용 공정성의 핵심입니다.
+* **어떻게:** 연구원들은 기존 벤치마크에서 주로 밝은 피부의 피사체를 사용했으며, 성별과 피부 유형에 따라 보다 균형 잡힌 새로운 데이터 셋 (1000개 이상의 이미지)을 큐레이션했다고 밝혔습니다. 데이터 셋은 세 가지 성별 분류 제품 (Microsoft, IBM & Face++)의 정확성을 평가하는 데 사용되었습니다.
 
-Results showed that though overall classification accuracy was good, there was a noticeable difference in error rates between various subgroups - with **misgendering** being higher for females or persons with darker skin types, indicative of bias.
+그 결과 전체적인 분류 정확도는 괜찮았지만, 다양한 하위 그룹 간 오류율에서 현저한 차이가 있었습니다. **misgendering**은 여성 또는 피부색이 어두운 사람의 경우에 더 높은 편향을 나타냈습니다.
 
-**Key Outcomes:** Raised awareness that data science needs more _representative datasets_ (balanced subgroups) and more _inclusive teams_ (diverse backgrounds) to recognize and eliminate or mitigate such biases earlier in AI solutions. Research efforts like this are also instrumental in many organizations defining principles and practices for _responsible AI_ to improve fairness across their AI products and processes.
+**주요 결과:** 데이터 사이언스가 초기 AI 솔루션에서 이러한 편견을 인식하고 완화하기 위해 더 많은 _대표적인 데이터 셋_ (균형 있는 하위 그룹)과 더 많은 _포괄적인 팀_ (다양한 배경)을 필요로 한다는 인식을 높였습니다. 이러한 연구 노력은 AI 제품 및 프로세스 전반의 공정성을 개선하기 위해 _책임 있는 AI_에 대한 원칙과 관행을 정의하는 많은 조직에서도 중요한 역할을 합니다.
+
+Raised awareness that data science needs more _representative datasets_ (balanced subgroups) and more _inclusive teams_ (diverse backgrounds) to recognize and eliminate or mitigate such biases earlier in AI solutions. 
+
+Research efforts like this are also instrumental in many organizations defining principles and practices for _responsible AI_ to improve fairness across their AI products and processes.
 
 **Want to learn about relevant research efforts in Microsoft?** 
 
@@ -69,9 +73,9 @@ Results showed that though overall classification accuracy was good, there was a
 
 ## Data Science + Humanities
 
-| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Humanities.png) |
-|:-----------------------------------------------------------------------------------------------------------------:|
-| Data Science & Digital Humanities - _Sketchnote by [@nitya](https://twitter.com/nitya)_                           |
+| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/20-DataScience-Humanities.png) |
+|:--------------------------------------------------------------------------------------------------------------------:|
+| Data Science & Digital Humanities - _Sketchnote by [@nitya](https://twitter.com/nitya)_                              |
 
 Digital Humanities [has been defined](https://digitalhumanities.stanford.edu/about-dh-stanford) as "a collection of practices and approaches combining computational methods with humanistic inquiry". [Stanford projects](https://digitalhumanities.stanford.edu/projects) like _"rebooting history"_ and _"poetic thinking"_ illustrate the linkage between [Digital Humanities and Data Science](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science) - emphasizing techniques like network analysis, information visualization, spatial and text analysis that can help us revisit historical and literary data sets to derive new insights and perspective.
 
@@ -92,9 +96,9 @@ Using this workflow, we can explore the seasonal impacts on the sentiment of the
 
 ## Data Science + Sustainability
 
-| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Sustainability.png) |
-|:---------------------------------------------------------------------------------------------------------------------:|
-| Data Science & Sustainability - _Sketchnote by [@nitya](https://twitter.com/nitya)_                                   |
+| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/20-DataScience-Sustainability.png) |
+|:------------------------------------------------------------------------------------------------------------------------:|
+| Data Science & Sustainability - _Sketchnote by [@nitya](https://twitter.com/nitya)_                                      |
 
 The [2030 Agenda For Sustainable Development](https://sdgs.un.org/2030agenda) - adopted by all United Nations members in 2015 - identifies 17 goals including ones that focus on **Protecting the Planet** from degradation and the impact of climate change. The [Microsoft Sustainability](https://www.microsoft.com/en-us/sustainability) initiative supports these goals by exploring ways in which technology solutions can support and build more sustainable futures with a [focus on 4 goals](https://dev.to/azure/a-visual-guide-to-sustainable-software-engineering-53hh) - being carbon negative, water positive, zero waste, and bio-diverse by 2030.
 
