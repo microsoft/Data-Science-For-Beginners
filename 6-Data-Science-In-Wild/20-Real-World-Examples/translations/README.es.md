@@ -141,4 +141,4 @@ Busca artículos que recomienden proyectos de ciencia de datos que son amigables
  * Ciencia de Datos en la [Educación](https://data-flair.training/blogs/data-science-in-education/), [Agricultura](https://data-flair.training/blogs/data-science-in-agriculture/), [Finanzas](https://data-flair.training/blogs/data-science-in-finance/), [Películas](https://data-flair.training/blogs/data-science-at-movies/) y más.
 ## Asignación
 
-[Explora un conjunto de datos de la Computadora Planetaria](../assignment.md)
+[Explora un conjunto de datos de la Computadora Planetaria](assignment.es.md)
