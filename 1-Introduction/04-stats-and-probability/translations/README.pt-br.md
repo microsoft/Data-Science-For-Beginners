@@ -254,7 +254,7 @@ Probabilidade e estatística é um tópico muito amplo que merece um curso próp
 
 ## Tarefa
 
-[Small Diabetes Study (Pequeno Estudo de Diabetes)](../assignment.md)
+[Small Diabetes Study (Pequeno Estudo de Diabetes)](assignment.pt-br.md)
 
 ## Créditos
 

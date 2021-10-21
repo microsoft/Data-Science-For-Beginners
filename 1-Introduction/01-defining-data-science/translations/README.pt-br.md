@@ -158,7 +158,7 @@ Visite [`notebook.ipynb`](../notebook.ipynb) para ler o código. Você também p
 ## Tarefas
 
 * **Tarefa 1**: Modifique o código acima para descobrir conceitos relacionados para as áreas de **Big Data** e **Aprendizado de Máquina**
-* **Tarefa 2**: [Pense Sobre Cenários de Ciência de Dados](assignment.md)
+* **Tarefa 2**: [Pense Sobre Cenários de Ciência de Dados](assignment.pt-br.md)
 
 ## Créditos
 

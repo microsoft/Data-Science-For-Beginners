@@ -259,4 +259,4 @@ Cursos e livros ajudam a entender os conceitos essencias da ética, enquanto est
 
 # Tarefa 
 
-[Escreva um Caso de Uso de Ética de Dados](assignment.md)
+[Escreva um Caso de Uso de Ética de Dados](assignment.pt-br.md)

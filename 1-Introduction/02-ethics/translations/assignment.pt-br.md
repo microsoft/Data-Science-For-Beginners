@@ -2,11 +2,11 @@
 
 ## Instruções
 
-Você aprendeu sobre vários [Desafios da Ética de Dados](README?id=_2-ethics-challenges) e viu alguns exemplos de [Estudo de Casos](README?id=_3-case-studies) refletindo desafios da ética de dados em contextos do mundo real.
+Você aprendeu sobre vários [Desafios da Ética de Dados](README.pt-br.md#2-desafios-de-ética) e viu alguns exemplos de [Estudo de Casos](README.pt-br.md#3-estudo-de-casos) refletindo desafios da ética de dados em contextos do mundo real.
 
 Nessa tarefa você irá escrever o seu próprio estudo de caso refletindo um desafio da ética de dados de seu própria experiência, ou de um contexto relevante do mundo real que você está familiarizado. Apenas siga esses passos:
 
-1. `Escolha um Desafio da Ética de Dados`. Olhe [os exemplos da aula](README?id=_2-ethics-challenges) ou explore exemplos onlines como [as Checklists da Deon](https://deon.drivendata.org/examples/) para se inspirar.
+1. `Escolha um Desafio da Ética de Dados`. Olhe [os exemplos da aula](README.pt-br.md#2-desafios-de-ética) ou explore exemplos onlines como [as Checklists da Deon](https://deon.drivendata.org/examples/) para se inspirar.
 
 2. `Descreva um Exemplo do Mundo Real`. Pense sobre a situação que você ouviu sobre (manchetes, pesquisas etc.) ou experienciou (comunidade local), onde esse desafio em específico aconteceu. Pense sobre as questões de ética de dados relacionadas ao desafio - e discuta os danos potenciais ou consequências não-ntencionais que são levantados por causa desse problema. Pontos bônus: pense sobre potenciais soluções ou precessos que podem ser aplicados aqui para ajuda a eliminar ou mitigar o impacto adverso desse desafio.
 

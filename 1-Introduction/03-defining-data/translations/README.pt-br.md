@@ -64,4 +64,4 @@ O Kaggle é uma excelente fonte para datasets abertos. Use a [ferramenta de busc
 
 ## Tarefa
 
-[Classificando Datasets](assignment.md)
+[Classificando Datasets](assignment.pt-br.md)
