@@ -4,8 +4,8 @@
 
 ### विषय
 
-1. [वास्तविक दुनिया में डेटा विज्ञान] (20-Real-World-Examples/README.md)
+1. [वास्तविक दुनिया में डेटा विज्ञान](20-Real-World-Examples/README.md)
 
 ### क्रेडिट
 
-[नित्या नरसिम्हन] द्वारा ❤️ के साथ लिखा गया (https://twitter.com/nitya)
+[नित्या नरसिम्हन](https://twitter.com/nitya) द्वारा ❤️ के साथ लिखा गया 
