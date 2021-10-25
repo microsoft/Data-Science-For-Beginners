@@ -8,11 +8,11 @@ Visualizar datos es una de las tareas más importantes de un científico de dato
 En estas cinco lecciones, podrás explorar datos provenientes de la naturaleza y crear interesantes y hermosas visualizaciones usando varias técnicas. 
 ### Tópicos
 
-1. [Visualización de cantidades](09-visualization-quantities/README.md)
-2. [Visualización de la distribución](10-visualization-distributions/README.md)
-3. [Visualización de proporciones](11-visualization-proportions/README.md)
-4. [Visualización de relaciones](12-visualization-relationships/README.md)
-5. [Hacer visualizaciones significativas](13-meaningful-visualizations/README.md)
+1. [Visualización de cantidades](../09-visualization-quantities/translations/README.es.md)
+2. [Visualización de distribuciones](../10-visualization-distributions/translations/README.es.md)
+3. [Visualización de proporciones](../11-visualization-proportions/translations/README.es.md)
+4. [Visualización de relaciones](../12-visualization-relationships/translations/README.es.md)
+5. [Hacer visualizaciones significativas](../13-meaningful-visualizations/translations/README.es.md)
 
 ### Créditos
 
