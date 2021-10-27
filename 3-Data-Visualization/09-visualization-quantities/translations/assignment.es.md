@@ -1,4 +1,4 @@
-# Líneas, Scatters y Barras
+# Líneas, Dispersiones y Barras
 
 ## Instrucciones
 
