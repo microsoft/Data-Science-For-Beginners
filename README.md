@@ -32,6 +32,8 @@ Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson cur
 
 [![Promo video](ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Promo video")
 
+**Gif by** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
+
 > 🎥 Click the image above for a video about the project  the folks who created it!
 
 ## Pedagogy
