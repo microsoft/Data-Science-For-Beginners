@@ -6,7 +6,7 @@
 
 En la lección anterior, aprendiste algunos datos interesantes sobre un conjunto de datos acerca de las aves de Minnesota. Encontraste algunos datos erróneos visualizando los valores atípicos y observaste las diferencias entre las categorías de aves según su longitud máxima.
 
-## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/18)
+## [Cuestionario previo](https://red-water-0103e7a0f.azurestaticapps.net/quiz/18)
 ## Explora el conjunto de datos sobre aves
 
 Otra forma de profundizar en los datos es observar su distribución, o cómo se organizan los datos a lo largo de un eje. Quizás, por ejemplo, te gustaría conocer la distribución general para este conjunto de datos, de la envergadura máxima o la masa corporal máxima de las aves de Minnesota. 
