@@ -16,8 +16,8 @@
   - [Meaningful Visualizations](../3-Data-Visualization/13-meaningful-visualizations/README.md)
 - Data Science Lifecycle
   - [Introduction](../4-Data-Science-Lifecycle/14-Introduction/README.md)
-  - [Analyzing](../4-Data-Science-Lifecycle/15-Analyzing/README.md)
-  - [Communication](../4-Data-Science-Lifecycle/16-Communication/README.md)
+  - [Analyzing](../4-Data-Science-Lifecycle/15-analyzing/README.md)
+  - [Communication](../4-Data-Science-Lifecycle/16-communication/README.md)
 - Data Science in the Cloud
   - [Introduction](../5-Data-Science-In-Cloud/17-Introduction/README.md)
   - [Low Code](../5-Data-Science-In-Cloud/18-Low-Code/README.md)
