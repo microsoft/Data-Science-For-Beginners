@@ -1,24 +1,24 @@
 # Definitie van Data Science
 
-| ![ Sketchnote door [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png) |
+| ![ Sketchnote door [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/01-Definitions.png) |
 | :----------------------------------------------------------------------------------------------------: |
 |              Defining Data Science - _Sketchnote by [@nitya](https://twitter.com/nitya)_               |
 
 ---
 
-[![Defining Data Science Video](images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Defining Data Science Video](../images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Starttoets data science](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
 
 ## Wat is Data?
-In our everyday life, we are constantly surrounded by data. The text you are reading now is data.  The list of phone numbers of your friends in your smartphone is data, as well as the current time displayed on your watch. As human beings, we naturally operate with data by counting the money we have or by writing letters to our friends.
+In ons dagelijks leven zijn we voortdurend omringd door data. De tekst die je nu leest is data.  De lijst met telefoonnummers van je vrienden op je smartphone is data, evenals de huidige tijd die op je horloge wordt weergegeven. Als mens werken we van nature met data, denk aan het geld dat we moeten tellen of door berichten te schrijven aan onze vrienden.
 
-However, data became much more critical with the creation of computers.  The primary role of computers is to perform computations, but they need data to operate on.  Thus, we need to understand how computers store and process data.
+Gegevens werden echter veel belangrijker met de introductie van computers.  De primaire rol van computers is om berekeningen uit te voeren, maar ze hebben gegevens nodig om mee te werken.  We moeten dus begrijpen hoe computers gegevens opslaan en verwerken.
 
-With the emergence of the Internet, the role of computers as data handling devices increased.  If you think about it, we now use computers more and more for data processing and communication, rather than actual computations. When we write an e-mail to a friend or search for some information on the Internet - we are essentially creating, storing, transmitting, and manipulating data.
-> Can you remember the last time you have used computers to actually compute something? 
+Met de opkomst van het internet nam de rol van computers als gegevensverwerkingsapparatuur toe.  Als je erover nadenkt, gebruiken we computers nu steeds meer voor gegevensverwerking en communicatie, in plaats van echte berekeningen. Wanneer we een e-mail schrijven naar een vriend of zoeken naar informatie op internet, creëren, bewaren, verzenden en manipuleren we in wezen gegevens.
+> Kan jij je herinneren wanneer jij voor het laatste echte berekeningen door een computer hebt laten uitvoeren?
 
-## What is Data Science?
+## Wat is Data Science?
 
 In [Wikipedia](https://en.wikipedia.org/wiki/Data_science), **Data Science** is defined as *a scientific field that uses scientific methods to extract knowledge and insights from structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains*. 
 
