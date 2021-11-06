@@ -17,7 +17,7 @@
 
 데이터에 대한 자세한 내용은 [정보 사전](https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf) 및 [사용자 가이드](https://www1.nyc.gov/assets/tlc/downloads/pdf/trip_record_user_guide.pdf)을 참조하십시오.
 
-## Rubric
+## 표제
 
 모범 | 충분 | 개선 필요
 --- | --- | -- |
