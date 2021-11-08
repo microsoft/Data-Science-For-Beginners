@@ -1,103 +1,96 @@
-# The Data Science Lifecycle: Communication
+# 데이터 사이언스 생활주기(life cycle) : 소통(communication)
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/16-Communicating.png)|
 |:---:|
-| Data Science Lifecycle: Communication - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+| 데이터 사이언스 생활주기 : 소통 - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/30)
+## [강의 전 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/30)
 
-Test your knowledge of what's to come with the Pre-Lecture Quiz above!
+위의 사전 강의 퀴즈와 함께 제공되는 내용을 테스트해 보십시오!
 
-# Introduction
+# 개요
 
-### What is Communication?
-Let’s start this lesson by defining what is means to communicate. **To communicate is to convey or exchange information.** Information can be ideas, thoughts, feelings, messages, covert signals, data – anything that a **_sender_** (someone sending information) wants a **_receiver_** (someone receiving information) to understand. In this lesson, we will refer to senders as  communicators, and receivers as the audience. 
+### 소통이란 무엇인가?
+의사소통의 의미를 정의하는 것으로 이 수업을 시작하겠습니다. **소통하는 것은 정보를 전달하거나 교환하는 것입니다.** 정보는 아이디어, 생각, 느낌, 메시지, 은밀한 신호, 데이터 등 **_sender_** (정보를 보내는 사람)가  **_수신기_** (정보를 받는 사람)에게 이해하길 원하는 모든 것이 될 수 있습니다. 이 과정에서는 송신자를 전달자로, 수신자를 청중으로 언급할 것입니다.
 
-### Data Communication & Storytelling
-We understand that when communicating, the aim is to convey or exchange information. But when communicating data, your aim shouldn't be to simply pass along numbers to your audience. Your aim should be to communicate a story that is informed by your data - effective data communication and storytelling go hand-in-hand. Your audience is more likely to remember a story you tell, than a number you give. Later in this lesson, we will go over a few ways that you can use storytelling to communicate your data more effectively. 
+### 데이터 통신 & 스토리텔링
+우리는 의사소통의 목적이 정보를 전달하거나 교환하는 것이라는 것을 이해한다. 하지만 데이터를 전달할 때, 여러분의 목표는 단순히 청중들에게 숫자를 전달하는 것이 아니어야 합니다. 여러분의 목표는 데이터를 통해 정보를 전달하는 것이어야 합니다 - 효과적인 데이터 커뮤니케이션과 스토리텔링이 함께 진행됩니다. 청중들은 여러분이 들려주는 숫자보다 여러분이 들려주는 이야기를 더 잘 기억할 것입니다. 이 레슨의 후반부에서 스토리텔링을 사용하여 데이터를 보다 효과적으로 전달할 수 있는 몇 가지 방법에 대해 살펴보겠습니다.
 
-### Types of Communication
-Throughout this lesson two different types of communication will be discussed, One-Way Communication and Two-Way Communication.
+### 통신의 종류
+이 레슨 내내 단방향 통신과 양방향 통신이라는 두 가지 유형의 통신에 대해 논의합니다.
 
-**One way communication** happens when a sender sends information to a receiver, without any feedback or response. We see examples of one-way communication every day – in bulk/mass emails, when the news delivers the most recent stories, or even when a television commercial comes on and informs you about why their product is great. In each of these instances, the sender is not seeking an exchange of information. They are only seeking to convey or deliver information.
+**일방향 통신**은 송신자가 피드백이나 응답 없이 수신자에게 정보를 보낼 때 발생합니다. 우리는 매일 단방향 커뮤니케이션의 예를 볼 수 있습니다  - 크고/많은 이메일, 뉴스가 가장 최신 이야기를 전달할 때, 또는 TV 광고에서 제품이 좋은 이유를 알려줄 때 등. 이러한 각각의 경우, 송신자는 정보의 교환을 추구하지 않습니다. 그들은 단지 정보를 전달하거나 전달하려고 할 뿐이다.
 
-**Two-way communication** happens when all involved parties act as both senders and receivers. A sender will begin by communicating to a receiver, and the receiver will provide feedback or a response. Two-way communication is what we traditionally think of when we talk about communication. We usually think of people engaged in a conversation - either in person, or over a phone call, social media, or text message.
+**양방향 커뮤니케이션**은 모든 관련 당사자가 송신자와 수신자 역할을 할 때 발생합니다. 송신자는 수신자와 통신하는 것으로 시작하고 수신자는 피드백 또는 응답을 제공합니다. 쌍방향 커뮤니케이션은 우리가 소통에 대해 이야기할 때 전통적으로 생각하는 것입니다. 우리는 보통 직접 대화하거나 전화 통화, 소셜 미디어 또는 문자 메시지와 같은 방식으로 사람들의 소통 한다고 생각합니다.
 
-When communicating data, there will be cases where you will be using one-way communication (think about presenting at a conference, or to a large group where questions won’t be asked directly after) and there will be cases where you will use two-way communication (think about using data to persuade a few stakeholders for buy-in, or to convince a teammate that time and effort should be spent building something new).
+데이터를 전달할 때 단방향 커뮤니케이션(직후에 질문이 들어오지 않는 컨퍼런스에서 발표하거나 대규모 그룹을 대상으로 발표할 때)을 사용하는 경우와 양방향 커뮤니케이션(데이터를 사용하여 소수의 이해 관계자를 설득하거나, 팀 동료에게 새로운 것을 구축하는 데 시간과 노력을 투자해야 한다고 설득할 때)을 사용하는 경우가 있습니다.
 
-# Effective Communication
+# 효과적인 커뮤니케이션
 
-### Your Responsibilities as a communicator
-When communicating, it is your job to make sure that your receiver(s) are taking away the information that you want them to take away. When you’re communicating data, you don’t just want your receivers to takeaway numbers, you want your receivers to takeaway a story that’s informed by your data. A good data communicator is a good storyteller.
+### 전달자로서 여러분의 책임
+통신을 할 때 수신자가 당신이 원하는 정보를 가져 가는지 확인하는 것이 여러분의 일입니다. 데이터를 주고받을 때 수신자가 번호만 가져가는 것이 아니라 그 데이터를 통해 스토리를 얻을 수 있는 데이터를 수신자가 가져가는 것을 원할 것입니다. 훌륭한 데이터 전달자는 훌륭한 스토리텔러입니다.
 
-How do you tell a story with data? There are infinite ways – but below are 6 that we will talk about in this lesson.
-1.	Understand Your Audience, Your Medium, & Your Communication Method
-2.	Begin with the End in Mind
-3.	Approach it Like an Actual Story
-4.	Use Meaningful Words & Phrases
-5.	Use Emotion
+데이터를 가지고 어떻게 이야기를 할 수 있을까요? 방법은 무궁무진하지만 아래 6가지에 대해 이 수업에서 설명하겠습니다.
+1. 당신의 청중, 매체 및 커뮤니케이션 방법을 이해하십시오.
+2. 끝을 염두에 두고 시작하라
+3. 실제 이야기처럼 접근하라
+4. 의미 있는 단어와 구문을 사용하라
+5. 감정을 사용하라
 
-Each of these strategies is explained in greater detail below. 
+이러한 각 전략은 아래에 자세히 설명되어 있습니다.
 
-### 1. Understand Your Audience, Your Channel & Your Communication Method
-The way you communicate with family members is likely different than the way you communicate with your friends. You probably use different words and phrases that the people you’re speaking to are more likely to understand. You should take the same approach when communicating data. Think about who you’re communicating to. Think about their goals and the context that they have around the situation that you’re explaining to them.
+### 1. 청중, 채널 및 커뮤니케이션 방법을 이해하십시오.
+여러분이 가족과 소통하는 방법은 여러분이 친구들과 소통하는 방법과 다를 수 있습니다. 여러분은 아마도 듣고 있는 사람들이 더 이해하기 쉬운 다른 단어와 구절을 사용할 것입니다. 데이터 통신 시에도 동일한 방법을 사용해야 합니다. 누구와 소통하고 있는지 생각해 보세요. 당신이 설명하려는 상황에 대하여 그들이 가지고 있는 그들의 목표와 전후사정에 대해 생각해보세요.
 
-You can likely group the majority of your audience them within a category. In a _Harvard Business Review_ article, “[How to Tell a Story with Data](http://blogs.hbr.org/2013/04/how-to-tell-a-story-with-data/),” Dell Executive Strategist Jim Stikeleather identifies five categories of audiences.
+대부분의 청중을 한 범주 내에 그룹화할 수 있습니다. 'Harvard Business Review' 기사에서 "[데이터로 스토리를 전하는 방법]"(http://blogs.hbr.org/2013/04/how-to-tell-a-story-with-data/),) Dell의 총괄 전략가인 Jim Stikeleather는 5가지 범주의 고객을 파악합니다.
 
- - **Novice**: first exposure to the subject, but doesn’t want
-   oversimplification
- - **Generalist**: aware of the topic, but looking for an overview
-   understanding and major themes
- - **Managerial**: in-depth, actionable understanding of intricacies and
-   interrelationships with access to detail
- - **Expert**: more exploration and discovery and less storytelling with
-   great detail
- - **Executive**: only has time to glean the significance and conclusions of
-   weighted probabilities
+ - **초보자(Novice)**: 주제에 대한 첫 노출이지만 지나치게 단순화하는 것을 원치 않습니다.
+ - **일반인(Generalist)**: 주제를 알고 있지만 개요 이해 및 주요 주제를 찾습니다.
+ - **관리자(Managerial)**: 세부사항 접근과의 복잡성과 상호 관계에 대한 심층적이고 실행 가능한 이해
+ - **전문가(Expert)**: 더 많은 탐색과 발견, 매우 상세하고 더 적은 스토리텔링
+ - **임원(Executive)**: 가중 확률의 중요성과 결론을 얻을 시간만 있습니다.
 
-These categories can inform the way you present data to your audience. 
+이러한 카테고리들은 청중에게 데이터를 보여주는 방법을 알려줄 수 있습니다. 
 
-In addition to thinking about your audience's category, you should also consider the channel you're using to communicate with your audience. Your approach should be slightly different if you're writing a memo or email vs having a meeting or presenting at a conference. 
+청중의 카테고리에 대해 생각하는 것 외에도, 여러분은 청중을 소통하기 위해 사용하고 있는 채널도 고려해야 합니다. 메모나 이메일을 작성하는 경우, 회의나 컨퍼런스에서 발표하거나 하는 경우와는 약간 다르게 접근해야 합니다. 
 
-On top of understanding your audience, knowing how you will be communicating with them (using one-way communication or two-way) is also critical.
+여러분의 청중을 이해하는 것 외에도, 여러분이 그들과 어떻게 의사소통할 것인지(단방향 또는 양방향) 아는 것 또한 중요하다.
 
-If you are communicating with a majority Novice audience and you’re using one-way communication, you must first educate the audience and give them proper context. Then you must present your data to them and tell them what your data means and why your data matters. In this instance, you may want to be laser focused on driving clarity, because your audience will not be able to ask you any direct questions.
+대다수의 초보 청중과 대화하고 일방적인 대화를 사용하는 경우, 먼저 청중을 교육하고 적절한 맥락을 제공해야 합니다. 그런 다음 고객에게 데이터를 제시하고 데이터가 무엇을 의미하는지, 데이터가 중요한 이유를 설명해야 합니다. 이 경우, 청중들은 여러분에게 어떠한 직접적인 질문도 할 수 없기 때문에, 여러분은 명확성을 높이는 것에 초점을 맞추고 싶을지도 모릅니다.
 
-If you are communicating with a majority Managerial audience and you’re using two-way communication, you likely won’t need to educate your audience or provide them with much context. You may be able to jump straight into discussing the data that you’ve collected and why it matters. In this scenario though, you should be focused on timing and controlling your presentation. When using two-way communication (especially with a Managerial audience who is seeking an “actionable understanding of intricacies and interrelationships with access to detail”) questions may pop up during your interaction that may take the discussion in a direction that doesn’t relate to the story that you’re trying to tell. When this happens, you can take action and move the discussion back on track with your story.
+대다수의 관리 대상자와 대화하고 양방향 커뮤니케이션을 사용하는 경우, 청중을 교육하거나 많은 컨텍스트를 제공할 필요가 없습니다. 수집한 데이터와 데이터가 중요한 이유에 대해 바로 논의할 수 있습니다. 그러나 이 시나리오에서는 프레젠테이션 타이밍과 제어에 집중해야 합니다. 양방향 커뮤니케이션을 사용할 때(특히 "세부사항 접근과의 복잡성과 상호 관계에 대한 실행 가능한 이해"를 찾는 관리자와) 대화 중에 토론이 이야기와 관련이 없는 방향으로 진행될 수 있습니다. 이 경우, 조치를 취하여 토론 내용을 다시 본 궤도에 올릴 수 있습니다.
 
+### 2. 끝을 염두에 두고 시작하라
+끝에서부터 시작하는 것은 청중과 대화를 시작하기 전에 여러분이 의도한 바를 이해시키는 것을 의미한다. 청중들이 가져가기를 원하는 것에 대해 미리 생각하는 것은 당신이 청중들이 따라올 수 있는 이야기를 만드는 것에 도움이 됩니다. 단방향 커뮤니케이션과 양방향 커뮤니케이션에 모두 끝부터 시작하는 것이 적절합니다.
 
-### 2. Begin With The End In Mind
-Beginning with the end in mind means understanding your intended takeaways for your audience before you start communicating with them. Being thoughtful about what you want your audience to takeaway ahead of time can help you craft a story that your audience can follow. Beginning with the end in mind is appropriate for both one-way communication and two-way communication.
+끝을 염두에 두고 어떻게 시작할까요? 데이터를 전달하기 전에 중요한 사항을 적어 두십시오. 그리고 나서, 여러분이 데이터를 가지고 하고 싶은 이야기를 준비할 때, 스스로에게 물어보세요. "어떻게 이것이 제가 말하고 있는 이야기와 통합될까?"
 
-How do you begin with the end in mind? Before communicating your data, write down your key takeaways. Then, every step of the way as you're preparing the story that you want to tell with your data, ask yourself, "How does this integrate into the story I'm telling?"
+주의 – 목표를 염두에 두고 시작하는 것이 이상적이지만, 의도한 결과를 뒷받침하는 데이터만 전달하고 싶지는 않을 것입니다. 이렇게 하는 것을 체리 픽킹이라고 하는데, 이것은 통신자가 그들이 만들고자 하는 지점을 지원하는 데이터만 주고받고 다른 모든 데이터를 무시할 때 발생합니다.
 
-Be Aware – While starting with the end in mind is ideal, you don’t want to communicate only the data that supports your intended takeaways. Doing this is called Cherry-Picking, which happens when a communicator only communicates data that supports the point they are tying to make and ignores all other data.
+수집한 모든 데이터가 의도한 결과를 명확하게 뒷받침한다면 매우 좋습니다. 그러나 수집한 데이터가 사용자의 핵심 정보를 지원하지 않거나 핵심 정보에 반대하는 주장을 뒷받침하는 경우 해당 데이터도 전달해야 합니다. 이러한 상황이 발생하면, 모든 데이터가 반드시 여러분의 이야기를 뒷받침하는 것은 아니지만 왜 여러분이 이야기를 고수하기로 선택했는지 청중에게 솔직하게 알리십시오.
 
-If all the data that you collected clearly supports your intended takeaways, great. But if there is data that you collected that doesn’t support your takeaways, or even supports an argument against your key takeaways, you should communicate that data as well. If this happens, be upfront with your audience and let them know why you're choosing to stick with your story even though all the data doesn't necessarily support it. 
+### 3. 실제 이야기처럼 접근하라
+전통적인 이야기는 5단계로 진행됩니다. 여러분은 Exposition, Rising Action, Clincise, Falling Action 및 Denounation으로 표현된 단계들을 들어본 적이 있을 것입니다. 또는 Context, Conflict, Climax, Closure, Conclusion으로 기억하기 쉽습니다. 데이터와 사례를 전달할 때도 비슷한 방법을 사용할 수 있습니다. 
 
+Context에서 시작하여 무대를 설정하고 청중이 모두 같은 페이지에 있는지 확인할 수 있습니다. 그런 다음 Conflict을 소개합니다. 왜 이 데이터를 수집해야 했습니까? 어떤 문제를 해결하려고 했습니까? 그 다음 Climax. 데이터가 무엇입니까? 이 데이터는 무엇을 의미합니까? 데이터에 따르면 우리에게 필요한 솔루션은 무엇입니까? 그런 다음 문제와 제안된 솔루션을 반복할 수 있는 Closure에 도달합니다. 마지막으로, 주요 요점과 팀에게 권장하는 다음 단계를 요약할 수 있는 Conclusion에 도달했습니다.
 
-### 3. Approach it Like an Actual Story
-A traditional story happens in 5 Phases. You may have heard these phases expressed as Exposition, Rising Action, Climax, Falling Action, and Denouncement. Or the easier to remember Context, Conflict, Climax, Closure, Conclusion. When communicating your data and your story, you can take a similar approach. 
+### 4. 의미 있는 단어와 구문을 사용하라
+만약 여러분과 제가 함께 제품을 작업하다가 "우리 사용자들이 플랫폼에 접속하는 데 시간이 오래 걸린다"고 말했다면, 얼마나 걸릴 것 같습니까? 한 시간? 일주일? 잘 모르겠는데요. 만약 제가 모든 청중에게 그렇게 말한다면요? 모든 청중은 사용자가 당사 플랫폼에 탑승하는 데 걸리는 시간에 대해 각기 다른 생각을 하게 될 수 있습니다. 
 
-You can begin with context, set the stage and make sure your audience is all on the same page. Then introduce the conflict. Why did you need to collect this data? What problems were you seeking to solve? After that, the climax. What is the data? What does the data mean? What solutions does the data tell us we need? Then you get to the closure, where you can reiterate the problem, and the proposed solution(s). Lastly, we come to the conclusion, where you can summarize your key takeaways and the next steps you recommend the team takes.
+대신, "전체 사용자가 가입하고 플랫폼에 탑승하는 데 평균 3분이 소요됩니다."라고 말한다면 어떨까요? 
 
-### 4. Use Meaningful Words & Phrases
-If you and I were working together on a product, and I said to you "Our users take a long time to onboard onto our platform," how long would you estimate that "long time" to be? An hour? A week? It's hard to know. What if I said that to an entire audience? Everyone in the audience may end up with a different idea of how long users take to onboard onto our platform. 
+이 메시지는 더 명확합니다. 데이터를 전달할 때, 청중 모두가 여러분과 같은 생각을 하고 있다고 생각하기 쉽습니다. 하지만 항상 그런 것은 아니다. 데이터와 데이터의 명확성을 높이는 것은 소통자로서 여러분의 책임 중 하나입니다.  만약 데이터나 여러분의 이야기가 명확하지 않다면, 여러분의 청중은 따라가는데 어려움을 겪을 것이고, 그들이 여러분의 주요 요점을 이해하게 될 가능성이 더 적습니다. 
 
-Instead, what if I said "Out users take, on average, 3 minutes to sign up and onboard onto our platform." 
+모호한 단어 대신 의미 있는 단어와 구문을 사용하면 데이터를 보다 명확하게 전달할 수 있습니다. 다음은 몇 가지 예입니다. 
 
-That messaging is more clear. When communicating data, it can be easy to think that everyone in your audience is thinking just like you. But that is not always the case. Driving clarity around your data and what it means is one of your responsibilities as a communicator.  If the data or your story is not clear, your audience will have a hard time following, and it is less likely that they will understand your key takeaways. 
+ - 우리는 인상적인 한 해를 보냈어요! 
+	 - 한 사람은 2% - 3%의 매출증가를, 한 사람은 50% - 60%의 매출증가를 의미한다고 생각할 수 있습니다. 
+ - 사용자의 성공률이 *극적으로* 증가했습니다.
+	 - 급격한 상승폭은 얼마나 큰가?
+ - 이 사업은 *중대한* 노력이 필요합니다.
+	 - 얼마나 많은 노력이 중요한가?
 
-You can communicate data more clearly when you use meaningful words and phrases, instead of vague ones. Below are a few examples. 
-
- - We had an *impressive* year! 
-	 - One person could think a impressive means a 2% - 3% increase in revenue, and one person could think it means a 50% - 60% increase. 
- - Our users' success rates increased *dramatically*.
-	 - How large of an increase is a dramatic increase?
- - This undertaking will require *significant* effort.
-	 - How much effort is significant?
-
-Using vague words could be useful as an introduction to more data that's coming, or as a summary of the story that you've just told. But consider ensuring that every part of your presentation is clear for your audience. 
+모호한 단어를 사용하면 앞으로 다가올 더 많은 데이터를 소개하거나 방금 말한 내용을 요약하는 데 유용할 수 있습니다. 하지만 청중들을 위해 프레젠테이션의 모든 부분이 명확하도록 하는 것을 고려하라.
  
 
 ### 5. Use Emotion
