@@ -24,7 +24,7 @@ In [Wikipedia](https://en.wikipedia.org/wiki/Data_science), **Data Science** is 
 
 This definition highlights the following important aspects of data science:
 
-* The main goal of data science is to **extract knowledge** from data, in order words - to **understand** data, find some hidden relationships and build a **model**.
+* The main goal of data science is to **extract knowledge** from data, in other words - to **understand** data, find some hidden relationships and build a **model**.
 * Data science uses **scientific methods**, such as probability and statistics. In fact, when the term *data science* was first introduced, some people argued that data science is just a new fancy name for statistics. Nowadays it has become evident that the field is much broader.    
 * Obtained knowledge should be applied to produce some **actionable insights**.
 * We should be able to operate on both **structured** and **unstructured** data. We will come back to discuss different types of data later in the course.
