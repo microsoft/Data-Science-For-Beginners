@@ -4,11 +4,11 @@
 
 다시 한번, 고객이 알고싶어하는 질문: **뉴욕의 노란 택시 승객들은 겨울이나 여름에 기사들에게 팁을 더 많이 주나요?**
 
-당신의 팀은 Data Science Lifecycle의 [Analyzing](Readme.md)단계에 있으며, 이 곳에서 데이터셋에 대한 탐색적 데이터분석을 수행해야합니다. 당신은 2019년 1월부터 7월까지 200건의 택시 거래가 포함된 노트북과 데이터셋을 제공받았습니다.
+당신의 팀은 Data Science Lifecycle의 [Analyzing](README.ko.md)단계에 있으며, 이 곳에서 데이터셋에 대한 탐색적 데이터분석을 수행해야합니다. 당신은 2019년 1월부터 7월까지 200건의 택시 거래가 포함된 노트북과 데이터셋을 제공받았습니다.
 
 ## 지시사항
 
-이 디렉토리에는 [notebook](assignment.ipynb)와 [Taxi & Limousine Commission](https://docs.microsoft.com/en-us/azure/open-datasets/dataset-taxi-yellow?tabs=azureml-opendatasets)의 데이터가 있습니다. 데이터에 대한 자세한 내용은 [dataset's dictionary](https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf) 및 [user guide](https://www1.nyc.gov/assets/tlc/downloads/pdf/trip_record_user_guide.pdf)를 참조하세요.
+이 디렉토리에는 [notebook](../assignment.ipynb)와 [Taxi & Limousine Commission](https://docs.microsoft.com/en-us/azure/open-datasets/dataset-taxi-yellow?tabs=azureml-opendatasets)의 데이터가 있습니다. 데이터에 대한 자세한 내용은 [dataset's dictionary](https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf) 및 [user guide](https://www1.nyc.gov/assets/tlc/downloads/pdf/trip_record_user_guide.pdf)를 참조하세요.
 
 이번 강의에서 배운 몇 가지 기술을 사용하여 노트북에 있는 EDA를 직접 수행하고(원하는 경우 셀 추가) 다음 질문에 답하십시오.
 
