@@ -1,6 +1,6 @@
 # Veriyi Tanımlamak
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/03-DefiningData.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/03-DefiningData.png)|
 |:---:|
 |Veriyi Tanımlamak - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
