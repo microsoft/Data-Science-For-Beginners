@@ -1,6 +1,6 @@
 # 데이터 과학의 생애주기 소개
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/14-DataScience-Lifecycle.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/14-DataScience-Lifecycle.png)|
 |:---:|
 | 데이터 과학의 생애주기 소개 - [@nitya](https://twitter.com/nitya)의 이미지 |
 
@@ -17,7 +17,7 @@
 
 이번 강의에서는 생애 주기의 세 부분 : 데이터 포획, 데이터 처리 그리고 유지에 집중합니다.
 
-![Diagram of the data science lifecycle](./images/data-science-lifecycle.jpg)
+![Diagram of the data science lifecycle](.././images/data-science-lifecycle.jpg)
 > [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/) 의 이미지
 
 ## 데이터 포획
@@ -88,7 +88,7 @@
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![Team Data Science Lifecycle](./images/tdsp-lifecycle2.png) | ![Data Science Process Alliance Image](./images/CRISP-DM.png) |
+|![Team Data Science Lifecycle](.././images/tdsp-lifecycle2.png) | ![Data Science Process Alliance Image](.././images/CRISP-DM.png) |
 | [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle)의 이미지 | [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/)의 이미지 |
 
 ## [이전 강의 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/27)
@@ -101,4 +101,4 @@
 * [데이터 과학 작업 실행: 탐색, 모델링 및 배치](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/execute-data-science-tasks)
 
 ## 과제
-[데이터 세트 ](assignment.md)
+[데이터 세트](assignment.md)
