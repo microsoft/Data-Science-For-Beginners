@@ -7,10 +7,10 @@
  
 ### 话题
 
-1. [关系数据库](05-relational-databases/README.md)
-2. [非关系数据库](06-non-relational/README.md)
-3. [使用Python](07-python/README.md)
-4. [准备数据](08-data-preparation/README.md)
+1. [关系数据库](../05-relational-databases/README.md)
+2. [非关系数据库](../06-non-relational/README.md)
+3. [使用Python](../07-python/README.md)
+4. [准备数据](../08-data-preparation/README.md)
 
 ### 学分
 
