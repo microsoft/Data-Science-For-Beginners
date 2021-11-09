@@ -181,7 +181,7 @@ sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationS
 
 히스토그램은 기본 산점도, 막대 차트 또는 꺾은선형 차트보다 더 정교한 유형의 차트입니다. 히스토그램 사용의 좋은 예를 찾으려면 인터넷에서 검색해보세요. 어떻게 사용되고, 무엇을 입증하며, 어떤 분야나 조사 분야에서 사용되는 경향이 있습니까?
 
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/19)
+## [강의 후 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/19)
 
 ## 복습 & 독학
 
@@ -189,4 +189,4 @@ sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationS
 
 ## 과제
 
-[Apply your skills](assignment.md)
+[기술 적용해보기](assignment.md)
