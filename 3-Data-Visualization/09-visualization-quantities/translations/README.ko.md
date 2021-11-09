@@ -1,6 +1,6 @@
 # Visualizing Quantities
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/09-Visualizing-Quantities.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/09-Visualizing-Quantities.png)|
 |:---:|
 | Visualizing Quantities - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
