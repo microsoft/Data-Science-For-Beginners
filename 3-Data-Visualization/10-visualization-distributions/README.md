@@ -184,7 +184,7 @@ sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationS
 
 ## [강의 후 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/19)
 
-## 복습 & 독학
+## 복습 & 자기주도학습
 
 이 수업에서는 Matplotlib를 사용하고 보다 정교한 차트를 보여주기 위해 Seaborn으로 작업을 시작했습니다. "하나 이상의 차원에서 연속 확률 밀도 곡선"인 Seaborn의 `kdeplot`에 대한 연구를 수행하세요. 작동 방식을 이해하려면 [문서](https://seaborn.pydata.org/generated/seaborn.kdeplot.html)를 읽어보세요.
 
