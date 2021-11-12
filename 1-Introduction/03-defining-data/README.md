@@ -32,7 +32,7 @@ Examples of unstructured data: text files, text messages, video files
 ### Semi-structured
 Semi-structured data has features that make it a combination of structured and unstructured data. It doesn't typically conform to a format of rows and columns but is organized in a way that is considered structured and may follow a fixed format or set of rules. The structure will vary between sources, such as a well defined hierarchy to something more flexible that allows for easy integration of new information. Metadata are indicators that help decide how the data is organized and stored and will have various names, based on the type of data. Some common names for metadata are tags, elements, entities and attributes. For example, a typical email message will have a subject, body and a set of recipients and can be organized by whom or when it was sent. 
 
-Examples of unstructured data: HTML, CSV files, JavaScript Object Notation (JSON)
+Examples of semi-structured data: HTML, CSV files, JavaScript Object Notation (JSON)
 
 ## Sources of Data 
 
