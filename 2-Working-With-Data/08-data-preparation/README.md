@@ -24,7 +24,7 @@ Depending on its source, raw data may contain some inconsistencies that will cau
 
 -  **Formatting**: Depending on the source, data can have inconsistencies in how it’s presented. This can cause problems in searching for and representing the value, where it’s seen within the dataset but is not properly represented in visualizations or query results. Common formatting problems involve resolving whitespace, dates, and data types. Resolving formatting issues is typically up to the people who are using the data. For example, standards on how dates and numbers are presented can differ by country. 
 
--  **Duplications**: Data that has more than one occurrence can produce inaccurate results and usually should be removed. This can be a common occurrence when joining more two or more datasets together. However, there are instances where duplication in joined datasets contain pieces that can provide additional information and may need to be preserved.
+-  **Duplications**: Data that has more than one occurrence can produce inaccurate results and usually should be removed. This can be a common occurrence when joining two or more datasets together. However, there are instances where duplication in joined datasets contain pieces that can provide additional information and may need to be preserved.
 
 - **Missing Data**: Missing data can cause inaccuracies as well as weak or biased results. Sometimes these can be resolved by a "reload" of the data, filling in the missing values with computation and code like Python, or simply just removing the value and corresponding data. There are numerous reasons for why data may be missing and the actions that are taken to resolve these missing values can be dependent on how and why they went missing in the first place. 
 
@@ -300,9 +300,9 @@ example4.drop_duplicates()
 1	B	2
 3	B	3
 ```
-Both `duplicated` and `drop_duplicates` default to consider all columnsm but you can specify that they examine only a subset of columns in your `DataFrame`:
+Both `duplicated` and `drop_duplicates` default to consider all columns but you can specify that they examine only a subset of columns in your `DataFrame`:
 ```python
-example6.drop_duplicates(['letters'])
+example4.drop_duplicates(['letters'])
 ```
 ```
 letters	numbers
@@ -315,7 +315,7 @@ letters	numbers
 
 ## 🚀 Challenge
 
-All of the discussed materials are provided as a [Jupyter Notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb). Additionally, there are exercises present after each section, give them a try!
+All of the discussed materials are provided as a [Jupyter Notebook](https://https://github.com/microsoft/Data-Science-For-Beginners/blob/main/2-Working-With-Data/08-data-preparation/notebook.ipynb). Additionally, there are exercises present after each section, give them a try!
 
 ## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/15)
 
