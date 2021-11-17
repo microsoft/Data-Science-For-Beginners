@@ -240,8 +240,8 @@ While this is definitely not exhaustive list of topics that exist within probabi
 ## 🚀 Challenge
 
 Use the sample code in the notebook to test other hypothesis that: 
-1. First basemen and older that second basemen
-2. First basemen and taller than third basemen
+1. First basemen are older than second basemen
+2. First basemen are taller than third basemen
 3. Shortstops are taller than second basemen
 
 ## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/7)
