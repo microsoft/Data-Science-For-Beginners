@@ -56,8 +56,9 @@ Take this data and convert the 'class' column to a category:
 ```python
 cols = mushrooms.select_dtypes(["object"]).columns
 mushrooms[cols] = mushrooms[cols].astype('category')
+edibleclass = mushrooms.groupby(["class"]).count()
 ```
-Now, if you print out the mushrooms data, you can see that it has been grouped into categories according to the poisonous/edible class:
+Now, if you print out the ```edibleclass```, you can see that it has been grouped into categories according to the poisonous/edible class:
 
 
 |           | cap-shape | cap-surface | cap-color | bruises | odor | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | ... | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
