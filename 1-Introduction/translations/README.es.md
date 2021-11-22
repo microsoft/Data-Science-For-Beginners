@@ -12,7 +12,7 @@ cómo se definen los datos y un poco de probabilidad y estadística, el núcleo 
 1. [Definiendo la Ciencia de Datos](../01-defining-data-science/README.md)
 2. [Ética de la Ciencia de Datos](../02-ethics/README.md)
 3. [Definición de Datos](../03-defining-data/translations/README.es.md)
-4. [introducción a la probabilidad y estadística](../04-stats-and-probability/README.md)
+4. [Introducción a la probabilidad y estadística](../04-stats-and-probability/README.md)
 
 ### Créditos
 

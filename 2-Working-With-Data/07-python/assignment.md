@@ -4,7 +4,7 @@ In this assignment, we will ask you to elaborate on the code we have started dev
 
 ## COVID-19 Spread Modelling
 
- - [ ] Plot $R_t$ graphs for 5-6 different countries on one plot for comparison, or using several plots side-by-side
+ - [ ] Plot *R<sub>t</sub>* graphs for 5-6 different countries on one plot for comparison, or using several plots side-by-side
  - [ ] See how the number of deaths and recoveries correlate with number of infected cases.
  - [ ] Find out how long a typical disease lasts by visually correlating infection rate and deaths rate and looking for some anomalies. You may need to look at different countries to find that out.
  - [ ] Calculate the fatality rate and how it changes over time. *You may want to take into account the length of the disease in days to shift one time series before doing calculations*
