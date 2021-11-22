@@ -72,7 +72,7 @@ plt.plot(x, y)
 
 plt.show()
 ```
-![wingspan with labels](images/max-wingspan-labels.png)
+![wingspan with labels](images/max-wingspan-labels-02.png)
 
 Even with the rotation of the labels set to 45 degrees, there are too many to read. Let's try a different strategy: label only those outliers and set the labels within the chart. You can use a scatter chart to make more room for the labeling:
 
