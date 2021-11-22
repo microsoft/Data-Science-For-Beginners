@@ -84,7 +84,7 @@ Er zijn veel mogelijke gegevensbronnen en het zal onmogelijk zijn om ze allemaal
   - **Internet of Things** (IoT), inclusief data van verschillende sensoren, zoals temperatuur- of druksensoren, leveren veel bruikbare data op.  Als een kantoorgebouw bijvoorbeeld is uitgerust met IoT-sensoren, kunnen we automatisch verwarming en verlichting regelen om de kosten te minimaliseren. 
   - **Enquêtes** die we gebruikers vragen in te vullen na een aankoop of na een bezoek aan een website.
   - **Analyse van gedrag** kan ons bijvoorbeeld helpen begrijpen hoe diep een gebruiker in een website gaat en wat de typische reden is om de site te verlaten.
-* ** Ongestructureerd **
+* **Ongestructureerd **
   - **Teksten** kunnen een rijke bron van inzichten zijn, zoals een algemene **sentimentscore**, of het extraheren van trefwoorden en semantische betekenis.
   - **Afbeeldingen** of **Video**. Een video van een bewakingscamera kan worden gebruikt om het verkeer op de weg in te schatten en mensen te informeren over mogelijke files.
   - Webserver **Logs** kunnen worden gebruikt om te begrijpen welke pagina's van onze site het vaakst worden bezocht en voor hoe lang.
@@ -157,7 +157,7 @@ Ga naar ['notebook.ipynb'](notebook.ipynb) om de code door te lezen.  Je kunt de
 ## Opdrachten
 
 * **Taak 1**: Wijzig de bovenstaande code om gerelateerde concepten te achterhalen voor de velden **Big Data** en **Machine Learning**
-* ** Taak 2 **: [Denk na over Data Science-scenario's] (assignment.md)
+* **Taak 2**: [Denk na over Data Science-scenario's] (assignment.md)
 
 ## Credits
 
