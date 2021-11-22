@@ -20,146 +20,145 @@ Met de opkomst van het internet nam de rol van computers als gegevensverwerkings
 
 ## Wat is Data Science?
 
-In [Wikipedia](https://en.wikipedia.org/wiki/Data_science), **Data Science** is defined as *a scientific field that uses scientific methods to extract knowledge and insights from structured and unstructured data, and apply knowledge and actionable insights from data across a broad range of application domains*. 
+[Wikipedia](https://en.wikipedia.org/wiki/Data_science) definieert **Data Science** als *een interdisciplinair onderzoeksveld met betrekking tot wetenschappelijke methoden, processen en systemen om kennis en inzichten te onttrekken uit (zowel gestructureerde als ongestructureerde) data.* 
 
-This definition highlights the following important aspects of data science:
+Deze definitie belicht de volgende belangrijke aspecten van data science:
 
-* The main goal of data science is to **extract knowledge** from data, in order words - to **understand** data, find some hidden relationships and build a **model**.
-* Data science uses **scientific methods**, such as probability and statistics.  In fact, when the term *data science* was first introduced, some people argued that data science was just a new fancy name for statistics.  Nowadays it has become evident that the field is much broader.    
-* Obtained knowledge should be applied to produce some **actionable insights**, i.e. practical insights that you can apply to real business situations.
-* We should be able to operate on both **structured** and **unstructured** data.  We will come back to discuss different types of data later in the course.
-* **Application domain** is an important concept, and data scientists often need at least some degree of expertise in the problem domain, for example: finance, medicine, marketing, etc.
+* Het belangrijkste doel van data science is om **kennis** uit gegevens te destilleren, in andere woorden - om data **te begrijpen**, verborgen relaties te vinden en een **model** te bouwen.
+* Data science maakt gebruik van **wetenschappelijke methoden**, zoals waarschijnlijkheid en statistiek.  Toen de term *data science* voor het eerst werd geïntroduceerd, beweerden sommige mensen zelfs dat data science slechts een nieuwe mooie naam voor statistiek was.  Tegenwoordig is duidelijk geworden dat het veld veel breder is.    
+* Verkregen kennis moet worden toegepast om enkele **bruikbare inzichten** te produceren, d.w.z. praktische inzichten die je kunt toepassen op echte bedrijfssituaties.
+* We moeten in staat zijn om te werken met zowel **gestructureerde** als **ongestructureerde** data.  We komen later in de cursus terug om verschillende soorten gegevens te bespreken.
+* **Toepassingsdomein** is een belangrijk begrip, en datawetenschappers hebben vaak minstens een zekere mate van expertise nodig in het probleemdomein, bijvoorbeeld: financiën, geneeskunde, marketing, enz.
 
-> Another important aspect of Data Science is that it studies how data can be gathered, stored and operated upon using computers.  While statistics gives us mathematical foundations, data science applies mathematical concepts to actually draw insights from data.
+> Een ander belangrijk aspect van Data Science is dat het bestudeert hoe gegevens kunnen worden verzameld, opgeslagen en bediend met behulp van computers.  Terwijl statistiek ons wiskundige grondslagen geeft, past data science wiskundige concepten toe om daadwerkelijk inzichten uit gegevens te halen.
 
-One of the ways (attributed to [Jim Gray](https://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist))) to look at the data science is to consider it to be a separate paradigm of science:
-* **Empirical**, in which we rely mostly on observations and results of experiments
-* **Theoretical**, where new concepts emerge from existing scientific knowledge
-* **Computational**, where we discover new principles based on some computational experiments
-* **Data-Driven**, based on discovering relationships and patterns in the data  
 
-## Other Related Fields
+Een van de manieren (toegeschreven aan [Jim Gray] (https://en.wikipedia.org/wiki/Jim_Gray_ (computer_scientist))) om naar de data science te kijken, is om het te beschouwen als een apart paradigma van de wetenschap:
+* **Empirisch**, waarbij we vooral vertrouwen op waarnemingen en resultaten van experimenten
+* **Theoretisch**, waar nieuwe concepten voortkomen uit bestaande wetenschappelijke kennis
+* **Computational**, waar we nieuwe principes ontdekken op basis van enkele computationele experimenten
+* **Data-Driven**, gebaseerd op het ontdekken van relaties en patronen in de data  
 
-Since data is pervasive, data science itself is also a broad field, touching many other disciplines.
+## Andere gerelateerde vakgebieden
+
+Omdat data alomtegenwoordig is, is data science zelf ook een breed vakgebied, dat veel andere disciplines raakt.
 
 <dl>
 <dt>Databases</dt>
 <dd>
-A critical consideration is **how to store** the data, i.e. how to structure it in a way that allows faster processing.  There are different types of databases that store structured and unstructured data, which <a href="../../2-Working-With-Data/README.md">we will consider in our course</a>.
+Een kritische overweging is **hoe de gegevens op te slaan**, d.w.z. hoe deze te structureren op een manier die een snellere verwerking mogelijk maakt.  Er zijn verschillende soorten databases die gestructureerde en ongestructureerde gegevens opslaan, welke <a href ="../../../2-Working-With-Data/README.md">we in onze cursus zullen overwegen</a>.
 </dd>
 <dt>Big Data</dt>
 <dd>
-Often we need to store and process very large quantities of data with a relatively simple structure.  There are special approaches and tools to store that data in a distributed manner on a computer cluster, and process it efficiently.
+Vaak moeten we zeer grote hoeveelheden gegevens opslaan en verwerken met een relatief eenvoudige structuur.  Er zijn speciale benaderingen en hulpmiddelen om die gegevens op een gedistribueerde manier op een computercluster op te slaan en efficiënt te verwerken.
 </dd>
-<dt>Machine Learning</dt>
+<dt>Machine learning</dt>
 <dd>
-One way to understand data is to **build a model** that will be able to predict a desired outcome.  Developing models from data is called **machine learning**. You may want to have a look at our <a href="https://aka.ms/ml-beginners">Machine Learning for Beginners</a> Curriculum to learn more about it.
+Een manier om gegevens te begrijpen is door **een model** te bouwen dat in staat zal zijn om een gewenste uitkomst te voorspellen.  Het ontwikkelen van modellen op basis van data wordt **machine learning** genoemd. Misschien wilt u een kijkje nemen op onze <a href = "https://aka.ms/ml-beginners">Machine Learning for Beginners</a> Curriculum om er meer over te weten te komen.
 </dd>
-<dt>Artificial Intelligence</dt>
+<dt>kunstmatige intelligentie</dt>
 <dd>
-An area of machine learning known as artificial intelligence (AI) also relies on data, and it involves building high complexity models that mimic human thought processes.  AI methods often allow us to turn unstructured data (e.g. natural language) into structured insights. 
+Een gebied van machine learning dat bekend staat als Artificial Intelligence (AI) is ook afhankelijk van gegevens en betreft het bouwen van modellen met een hoge complexiteit die menselijke denkprocessen nabootsen.  AI-methoden stellen ons vaak in staat om ongestructureerde data (bijvoorbeeld natuurlijke taal) om te zetten in gestructureerde inzichten. 
 </dd>
-<dt>Visualization</dt>
+<dt>visualisatie</dt>
 <dd>
-Vast amounts of data are incomprehensible for a human being, but once we create useful visualizations using that data, we can make more sense of the data, and draw some conclusions. Thus, it is important to know many ways to visualize information - something that we will cover in <a href="../../3-Data-Visualization/README.md">Section 3</a> of our course. Related fields also include **Infographics**, and **Human-Computer Interaction** in general. 
+Enorme hoeveelheden gegevens zijn onbegrijpelijk voor een mens, maar zodra we nuttige visualisaties maken met behulp van die gegevens, kunnen we de gegevens beter begrijpen en enkele conclusies trekken. Het is dus belangrijk om veel manieren te kennen om informatie te visualiseren - iets dat we zullen behandelen in <a href =../../../3-Data-Visualization/README.md">sectie 3</a> van onze cursus. Gerelateerde velden omvatten ook **Infographics** en **Mens-computerinteractie** in het algemeen. 
 </dd>
 </dl>
 
-## Types of Data
+## Typen van Data
 
-As we have already mentioned, data is everywhere.  We just need to capture it in the right way!  It is useful to distinguish between **structured** and **unstructured** data. The former is typically represented in some well-structured form, often as a table or number of tables, while the latter is just a collection of files.  Sometimes we can also talk about **semistructured** data, that have some sort of a structure that may vary greatly.
+Zoals we al hebben vermeld, zijn gegevens overal te vinden.  We moeten het gewoon op de juiste manier vastleggen!  Het is handig om onderscheid te maken tussen **gestructureerde** en **ongestructureerde** data. De eerste wordt meestal weergegeven in een goed gestructureerde vorm, vaak als een tabel of een aantal tabellen, terwijl de laatste slechts een verzameling bestanden is.  Soms kunnen we het ook hebben over **semigestructureerde** gegevens, die een soort structuur hebben die sterk kan variëren.
 
-| Structured                                                                   | Semi-structured                                                                                | Unstructured                            |
-| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------- |
-| List of people with their phone numbers                                      | Wikipedia pages with links                                                                     | Text of Encyclopaedia Britannica        |
-| Temperature in all rooms of a building at every minute for the last 20 years | Collection of scientific papers in JSON format with authors, data of publication, and abstract | File share with corporate documents     |
-| Data for age and gender of all people entering the building                  | Internet pages                                                                                 | Raw video feed from surveillance camera |
+| Gestructureerde                                                                         | Semi-gestructureerde                                                                                        | Ongestructureerde                          |
+| --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| Lijst van mensen met hun telefoonnummer                                                 | Wikipedia pagina's met links                                                                                | Tekst van encyclopaedia Britannica         |
+| Temperatuur in alle kamers van een gebouw op elke minuut gedurende de laatste 20 jaar   | Verzameling van wetenschappelijke artikelen in JSON-formaat met auteurs, publicatiegegevens en een abstract | Bestanden opslag met bedrijfsdocumenten    |
+| Gegevens van leeftijd en geslacht van alle mensen die het gebouw betreden               | Internet pagina's                                                                                           | Onbewerkte videofeed van bewakingscamera's |
 
-## Where to get Data
+## Waar data vandaan te halen
 
-There are many possible sources of data, and it will be impossible to list all of them! However, let's mention some of the typical places where you can get data:
+Er zijn veel mogelijke gegevensbronnen en het zal onmogelijk zijn om ze allemaal op te sommen! Laten we echter enkele van de typische plaatsen noemen waar u gegevens kunt krijgen:
 
-* **Structured**
-  - **Internet of Things** (IoT), including data from different sensors, such as temperature or pressure sensors, provides a lot of useful data.  For example, if an office building is equipped with IoT sensors, we can automatically control heating and lighting in order to minimize costs. 
-  - **Surveys** that we ask users to complete after a purchase, or after visiting a web site.
-  - **Analysis of behavior** can, for example, help us understand how deeply a user goes into a site, and what is the typical reason for leaving the site.
-* **Unstructured**
-  - **Texts** can be a rich source of insights, such as an overall **sentiment score**, or extracting keywords and semantic meaning.
-  - **Images** or **Video**. A video from a surveillance camera can be used to estimate traffic on the road, and inform people about potential traffic jams.
-  - Web server **Logs** can be used to understand which pages of our site are most often visited, and for how long.
-* Semi-structured
-  - **Social Network** graphs can be great sources of data about user personalities and potential effectiveness in spreading information around.
-  - When we have a bunch of photographs from a party, we can try to extract **Group Dynamics** data by building a graph of people taking pictures with each other.
+* **Gestructureerd**
+  - **Internet of Things** (IoT), inclusief data van verschillende sensoren, zoals temperatuur- of druksensoren, leveren veel bruikbare data op.  Als een kantoorgebouw bijvoorbeeld is uitgerust met IoT-sensoren, kunnen we automatisch verwarming en verlichting regelen om de kosten te minimaliseren. 
+  - **Enquêtes** die we gebruikers vragen in te vullen na een aankoop of na een bezoek aan een website.
+  - **Analyse van gedrag** kan ons bijvoorbeeld helpen begrijpen hoe diep een gebruiker in een website gaat en wat de typische reden is om de site te verlaten.
+* ** Ongestructureerd **
+  - **Teksten** kunnen een rijke bron van inzichten zijn, zoals een algemene **sentimentscore**, of het extraheren van trefwoorden en semantische betekenis.
+  - **Afbeeldingen** of **Video**. Een video van een bewakingscamera kan worden gebruikt om het verkeer op de weg in te schatten en mensen te informeren over mogelijke files.
+  - Webserver **Logs** kunnen worden gebruikt om te begrijpen welke pagina's van onze site het vaakst worden bezocht en voor hoe lang.
+* Semi-gestructureerd
+  - **Social Network** grafieken kunnen geweldige bronnen van gegevens zijn over gebruikerspersoonlijkheden en potentiële effectiviteit bij het verspreiden van informatie.
+  - Wanneer we een heleboel foto's van een feest hebben, kunnen we proberen **Group Dynamics**-gegevens te extraheren door een grafiek te maken van mensen die met elkaar foto's maken.
 
-By knowing different possible sources of data, you can try to think about different scenarios where data science techniques can be applied to know the situation better, and to improve business processes. 
+Door verschillende mogelijke databronnen te kennen, kun je proberen na te denken over verschillende scenario's waarin data science technieken kunnen worden toegepast om de situatie beter te leren kennen en bedrijfsprocessen te verbeteren.
 
-## What you can do with Data
+## Wat je met Data kunt doen
 
-In Data Science, we focus on the following steps of data journey:
+In Data Science richten we ons op de volgende stappen van data journey:
 
 <dl>
-<dt>1) Data Acquisition</dt>
+<dt>1) Data-acquisitie</dt>
 <dd>
-The first step is to collect the data.  While in many cases it can be a straightforward process, like data coming to a database from a web application, sometimes we need to use special techniques. For example, data from IoT sensors can be overwhelming, and it is a good practice to use buffering endpoints such as IoT Hub to collect all the data before further processing.
+De eerste stap is het verzamelen van de gegevens.  Hoewel het in veel gevallen een eenvoudig proces kan zijn, zoals gegevens die vanuit een webapplicatie naar een database komen, moeten we soms speciale technieken gebruiken. Gegevens van IoT-sensoren kunnen bijvoorbeeld overweldigend zijn en het is een goede gewoonte om bufferingseindpunten zoals IoT Hub te gebruiken om alle gegevens te verzamelen voordat ze verder worden verwerkt.
 </dd>
-<dt>2) Data Storage</dt>
+<dt>2) Gegevensopslag</dt>
 <dd>
-Storing data can be challenging, especially if we are talking about big data.  When deciding how to store data, it makes sense to anticipate the way you would to query the data in the future.  There are several ways data can be stored:
+Het opslaan van gegevens kan een uitdaging zijn, vooral als we het hebben over big data.  Wanneer u beslist hoe u gegevens wilt opslaan, is het logisch om te anticiperen op de manier waarop u de gegevens in de toekomst zou opvragen.  Er zijn verschillende manieren waarop gegevens kunnen worden opgeslagen:
 <ul>
-<li>A relational database stores a collection of tables, and uses a special language called SQL to query them.  Typically, tables are organized into different groups called schemas.  In many cases we need to convert the data from original form to fit the schema.</li>
-<li><a href="https://en.wikipedia.org/wiki/NoSQL">A NoSQL</a> database, such as <a href="https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=academic-31812-dmitryso">CosmosDB</a>, does not enforce schemas on data, and allows storing more complex data, for example, hierarchical JSON documents or graphs. However, NoSQL databases do not have the rich querying capabilities of SQL, and cannot enforce referential integrity, i.e. rules on how the data is structured in tables and governing the relationships between tables.</li>
-<li><a href="https://en.wikipedia.org/wiki/Data_lake">Data Lake</a> storage is used for large collections of data in raw, unstructured form. Data lakes are often used with big data, where all data cannot fit on one machine, and has to be stored and processed by a cluster of servers. <a href="https://en.wikipedia.org/wiki/Apache_Parquet">Parquet</a> is the data format that is often used in conjunction with big data.</li> 
+<li>Een relationele database slaat een verzameling tabellen op en gebruikt een speciale taal genaamd SQL om deze op te vragen.  Tabellen zijn meestal georganiseerd in verschillene groepen die schema's worden genoemd.  In veel gevallen moeten we de gegevens van de oorspronkelijke vorm converteren naar het schema.</li>
+<li><a href="https://en.wikipedia.org/wiki/NoSQL">A NoSQL</a> database, zoals <a href="https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=academic-31812-dmitryso">CosmosDB</a>, dwingt geen schema's af op gegevens en maakt het opslaan van complexere gegevens mogelijk, bijvoorbeeld hiërarchische JSON-documenten of grafieken. NoSQL-databases hebben echter niet de uitgebreide querymogelijkheden van SQL en kunnen geen referentiële integriteit afdwingen, d.w.z. regels over hoe de gegevens in tabellen zijn gestructureerd en de relaties tussen tabellen regelen.</li>
+<li><a href="https://en.wikipedia.org/wiki/Data_lake">Data Lake</a> opslag wordt gebruikt voor grote verzamelingen gegevens in ruwe, ongestructureerde vorm. Data lakes worden vaak gebruikt met big data, waarbij alle data niet op één machine past en moet worden opgeslagen en verwerkt door een cluster van servers. <a href="https://en.wikipedia.org/wiki/Apache_Parquet">Parquet</a> is het gegevensformaat dat vaak wordt gebruikt in combinatie met big data.</li> 
 </ul>
 </dd>
-<dt>3) Data Processing</dt>
+<dt>3) Gegevensverwerking</dt>
 <dd>
-This is the most exciting part of the data journey, which involves converting the data from its original form into a form that can be used for visualization/model training.  When dealing with unstructured data such as text or images, we may need to use some AI techniques to extract **features** from the data, thus converting it to structured form.
+Dit is het meest spannende deel van het gegevenstraject, waarbij de gegevens van de oorspronkelijke vorm worden omgezet in een vorm die kan worden gebruikt voor visualisatie / modeltraining.  Bij het omgaan met ongestructureerde gegevens zoals tekst of afbeeldingen, moeten we mogelijk enkele AI-technieken gebruiken om **functies** uit de gegevens te destilleren en deze zo naar gestructureerde vorm te converteren.
 </dd>
-<dt>4) Visualization / Human Insights</dt>
+<dt>4) Visualisatie / Menselijke inzichten</dt>
 <dd>
-Oftentimes, in order to understand the data, we need to visualize it.  Having many different visualization techniques in our toolbox, we can find the right view to make an insight.  Often, a data scientist needs to "play with data", visualizing it many times and looking for some relationships.  Also, we may use statistical techniques to test a hypotheses or prove a correlation between different pieces of data.   
+Vaak moeten we, om de gegevens te begrijpen, deze visualiseren.  Met veel verschillende visualisatietechnieken in onze toolbox kunnen we de juiste weergave vinden om inzicht te krijgen.  Vaak moet een data scientist "spelen met data", deze vele malen visualiseren en op zoek gaan naar wat relaties.  Ook kunnen we statistische technieken gebruiken om een hypothese te testen of een correlatie tussen verschillende gegevens te bewijzen.   
 </dd>
-<dt>5) Training a predictive model</dt>
+<dt>5) Het trainen van een voorspellend model</dt>
 <dd>
-Because the ultimate goal of data science is to be able to make decisions based on data, we may want to use the techniques of <a href="http://github.com/microsoft/ml-for-beginners">Machine Learning</a> to build a predictive model.  We can then use this to make predictions using new data sets with similar structures.
+Omdat het uiteindelijke doel van data science is om beslissingen te kunnen nemen op basis van data, willen we misschien de technieken van <a href="http://github.com/microsoft/ml-for-beginners">Machine Learning</a> gebruiken om een voorspellend model te bouwen.  We kunnen dit vervolgens gebruiken om voorspellingen te doen met behulp van nieuwe datasets met vergelijkbare structuren.
 </dd>
 </dl>
 
-Of course, depending on the actual data, some steps might be missing (e.g., when we already have the data in the database, or when we do not need model training), or some steps might be repeated several times (such as data processing).
+Natuurlijk, afhankelijk van de werkelijke gegevens, kunnen sommige stappen ontbreken (bijvoorbeeld wanneer we de gegevens al in de database hebben opgeslagen of wanneer we geen modeltraining nodig hebben), of sommige stappen kunnen meerdere keren worden herhaald (zoals gegevensverwerking).
 
-## Digitalization and Digital Transformation
+## Digitalisering en digitale transformatie
 
-In the last decade, many businesses started to understand the importance of data when making business decisions.  To apply data science principles to running a business, one first needs to collect some data, i.e. translate business processes into digital form. This is known as **digitalization**.  Applying data science techniques to this data to guide decisions can lead to significant increases in productivity (or even business pivot), called **digital transformation**.
+In het afgelopen decennium begonnen veel bedrijven het belang van gegevens te begrijpen bij het nemen van zakelijke beslissingen.  Om data science-principes toe te passen op het opereren van een bedrijf, moet men eerst wat gegevens verzamelen, d.w.z. bedrijfsprocessen vertalen naar digitale vorm. Dit staat bekend als **digitalisering**.  Het toepassen van data science-technieken op deze gegevens om beslissingen te sturen, kan leiden tot aanzienlijke productiviteitsstijgingen (of zelfs zakelijke spil), **digitale transformatie** genoemd.
 
-Let's consider an example.  Suppose we have a data science course (like this one) which we deliver online to students, and we want to use data science to improve it.  How can we do it?
+Laten we een voorbeeld nemen.  Stel dat we een data science-cursus hebben (zoals deze) die we online aan studenten geven, en we willen data science gebruiken om het te verbeteren.  Hoe kunnen we dat doen?
 
-We can start by asking "What can be digitized?"  The simplest way would be to measure the time it takes each student to complete each module, and to measure the obtained knowledge by giving a multiple-choice test at the end of each module.  By averaging time-to-complete across all students, we can find out which modules cause the most difficulties for students, and work on simplifying them.
+We kunnen beginnen met de vraag "Wat kan worden gedigitaliseerd?"  De eenvoudigste manier zou zijn om de tijd te meten die elke student nodig heeft om elke module te voltooien en om de verkregen kennis te meten door aan het einde van elke module een meerkeuzetest te geven.  Door het gemiddelde te nemen van de time-to-complete over alle studenten, kunnen we erachter komen welke modules de meeste problemen veroorzaken voor studenten en werken aan het vereenvoudigen ervan.
 
-> You may argue that this approach is not ideal, because modules can be of different lengths.  It is probably more fair to divide the time by the length of the module (in number of characters), and compare those values instead.
+> Je zou kunnen stellen dat deze aanpak niet ideaal is, omdat modules van verschillende lengtes kunnen zijn.  Het is waarschijnlijk eerlijker om de tijd te delen door de lengte van de module (in aantal tekens) en in plaats daarvan die waarden te vergelijken.
 
-When we start analyzing results of multiple-choice tests, we can try to determine which concepts that students have difficulty understanding, and and use that information to improve the content.  To do that, we need to design tests in such a way that each question maps to a certain concept or chunk of knowledge.
+Wanneer we beginnen met het analyseren van resultaten van meerkeuzetoetsen, kunnen we proberen te bepalen welke concepten studenten moeilijk kunnen begrijpen en die informatie gebruiken om de inhoud te verbeteren.  Om dat te doen, moeten we tests zo ontwerpen dat elke vraag is toegewezen aan een bepaald concept of een deel van de kennis.
 
-If we want to get even more complicated, we can plot the time taken for each module against the age category of students.  We might find out that for some age categories it takes an inappropriately long time to complete the module, or that students drop out before completing it.  This can help us provide age recommendations for the module, and minimize people's dissatisfaction from wrong expectations.
+Als we het nog ingewikkelder willen maken, kunnen we de tijd die voor elke module nodig is, uitzetten tegen de leeftijdscategorie van studenten.  We kunnen erachter komen dat het voor sommige leeftijdscategorieën ongepast lang duurt om de module te voltooien, of dat studenten afhaken voordat ze het voltooien.  Dit kan ons helpen leeftijdsaanbevelingen voor de module te geven en de ontevredenheid van mensen over verkeerde verwachtingen te minimaliseren.
 
-## 🚀 Challenge
+## 🚀 Uitdaging
 
-In this challenge, we will try to find concepts relevant to the field of Data Science by looking at texts.  We will take a Wikipedia article on Data Science, download and process the text, and then build a word cloud like this one:
+In deze challenge proberen we concepten te vinden die relevant zijn voor het vakgebied Data Science door te kijken naar teksten.  We nemen een Wikipedia-artikel over Data Science, downloaden en verwerken de tekst en bouwen vervolgens een woordwolk zoals deze:
 
-![Word Cloud for Data Science](images/ds_wordcloud.png)
+![Word Cloud voor Data Science] (../images/ds_wordcloud.png)
 
-Visit [`notebook.ipynb`](notebook.ipynb) to read through the code.  You can also run the code, and see how it performs all data transformations in real time. 
+Ga naar ['notebook.ipynb'](notebook.ipynb) om de code door te lezen.  Je kunt de code ook uitvoeren en zien hoe alle gegevenstransformaties in realtime worden uitgevoerd. 
 
-> If you do not know how to run code in a Jupyter Notebook, have a look at [this article](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
-
-
+> Als je niet weet hoe je code in een Jupyter Notebook moet uitvoeren, kijk dan eens naar [dit artikel] (https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
 ## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/1)
 
-## Assignments
+## Opdrachten
 
-* **Task 1**: Modify the code above to find out related concepts for the fields of **Big Data** and **Machine Learning**
-* **Task 2**: [Think About Data Science Scenarios](assignment.md)
+* **Taak 1**: Wijzig de bovenstaande code om gerelateerde concepten te achterhalen voor de velden **Big Data** en **Machine Learning**
+* ** Taak 2 **: [Denk na over Data Science-scenario's] (assignment.md)
 
 ## Credits
 
-This lesson has been authored with ♥️ by [Dmitry Soshnikov](http://soshnikov.com)
+Deze les is geschreven met ♥️ door [Dmitry Soshnikov] (http://soshnikov.com)
