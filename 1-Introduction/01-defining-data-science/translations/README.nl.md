@@ -33,7 +33,7 @@ Deze definitie belicht de volgende belangrijke aspecten van data science:
 > Een ander belangrijk aspect van Data Science is dat het bestudeert hoe gegevens kunnen worden verzameld, opgeslagen en bediend met behulp van computers.  Terwijl statistiek ons wiskundige grondslagen geeft, past data science wiskundige concepten toe om daadwerkelijk inzichten uit gegevens te halen.
 
 
-Een van de manieren (toegeschreven aan [Jim Gray] (https://en.wikipedia.org/wiki/Jim_Gray_ (computer_scientist))) om naar de data science te kijken, is om het te beschouwen als een apart paradigma van de wetenschap:
+Een van de manieren (toegeschreven aan [Jim Gray](https://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist))) om naar de data science te kijken, is om het te beschouwen als een apart paradigma van de wetenschap:
 * **Empirisch**, waarbij we vooral vertrouwen op waarnemingen en resultaten van experimenten
 * **Theoretisch**, waar nieuwe concepten voortkomen uit bestaande wetenschappelijke kennis
 * **Computational**, waar we nieuwe principes ontdekken op basis van enkele computationele experimenten
@@ -62,7 +62,7 @@ Een gebied van machine learning dat bekend staat als Artificial Intelligence (AI
 </dd>
 <dt>visualisatie</dt>
 <dd>
-Enorme hoeveelheden gegevens zijn onbegrijpelijk voor een mens, maar zodra we nuttige visualisaties maken met behulp van die gegevens, kunnen we de gegevens beter begrijpen en enkele conclusies trekken. Het is dus belangrijk om veel manieren te kennen om informatie te visualiseren - iets dat we zullen behandelen in <a href =../../../3-Data-Visualization/README.md">sectie 3</a> van onze cursus. Gerelateerde velden omvatten ook **Infographics** en **Mens-computerinteractie** in het algemeen. 
+Enorme hoeveelheden gegevens zijn onbegrijpelijk voor een mens, maar zodra we nuttige visualisaties maken met behulp van die gegevens, kunnen we de gegevens beter begrijpen en enkele conclusies trekken. Het is dus belangrijk om veel manieren te kennen om informatie te visualiseren - iets dat we zullen behandelen in <a href="../../../3-Data-Visualization/README.md">Sectie 3</a> van onze cursus. Gerelateerde velden omvatten ook **Infographics** en **Mens-computerinteractie** in het algemeen. 
 </dd>
 </dl>
 
@@ -146,11 +146,11 @@ Als we het nog ingewikkelder willen maken, kunnen we de tijd die voor elke modul
 
 In deze challenge proberen we concepten te vinden die relevant zijn voor het vakgebied Data Science door te kijken naar teksten.  We nemen een Wikipedia-artikel over Data Science, downloaden en verwerken de tekst en bouwen vervolgens een woordwolk zoals deze:
 
-![Word Cloud voor Data Science] (../images/ds_wordcloud.png)
+![Word Cloud for Data Science](../images/ds_wordcloud.png)
 
 Ga naar ['notebook.ipynb'](notebook.ipynb) om de code door te lezen.  Je kunt de code ook uitvoeren en zien hoe alle gegevenstransformaties in realtime worden uitgevoerd. 
 
-> Als je niet weet hoe je code in een Jupyter Notebook moet uitvoeren, kijk dan eens naar [dit artikel] (https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+> Als je niet weet hoe je code in een Jupyter Notebook moet uitvoeren, kijk dan eens naar [dit artikel](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
 ## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/1)
 
