@@ -45,7 +45,7 @@ Já que dados são um conceito difundido, a ciência de dados em si também é u
 <dl>
 <dt>Banco de Dados</dt>
 <dd>
-A coisa mais óbvia a considerar é **como armazenar** os dados, ex. como estruturá-los de uma forma que permite um processamento rápido. Existem diferentes tipos de banco de dados que armazenam dados estruturados e não estruturados, que <a href="../../2-Working-With-Data/README.md">nós vamos considerar nesse curso</a>.
+A coisa mais óbvia a considerar é **como armazenar** os dados, ex. como estruturá-los de uma forma que permite um processamento rápido. Existem diferentes tipos de banco de dados que armazenam dados estruturados e não estruturados, que <a href="../../../2-Working-With-Data/README.md">nós vamos considerar nesse curso</a>.
 </dd>
 <dt>Big Data</dt>
 <dd>
