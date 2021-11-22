@@ -52,7 +52,7 @@ Let's start by plotting some of the numeric data using a basic line plot. Suppos
 wingspan = birds['MaxWingspan'] 
 wingspan.plot()
 ```
-![Max Wingspan](images/max-wingspan.png)
+![Max Wingspan](images/max-wingspan-02.png)
 
 What do you notice immediately? There seems to be at least one outlier - that's quite a wingspan! A 2300 centimeter wingspan equals 23 meters - are there Pterodactyls roaming Minnesota? Let's investigate.
 
