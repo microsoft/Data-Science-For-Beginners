@@ -50,7 +50,7 @@ Dado que los datos son omnipresentes, la propia ciencia de los datos es también
 <dl>
 <dt>Bases de datos</dt>
 <dd>
-Una consideración crítica es **cómo almacenar** los datos, es decir, cómo estructurarlos de forma que permitan un procesamiento más rápido.  Hay diferentes tipos de bases de datos que almacenan datos estructurados y no estructurados, que <a href="../../2-Working-With-Data/README.md">consideraremos en nuestro curso</a>.
+Una consideración crítica es **cómo almacenar** los datos, es decir, cómo estructurarlos de forma que permitan un procesamiento más rápido.  Hay diferentes tipos de bases de datos que almacenan datos estructurados y no estructurados, que <a href="../../../2-Working-With-Data/README.md">consideraremos en nuestro curso</a>.
 </dd>
 <dt>Big Data</dt>
 <dd>
@@ -66,7 +66,7 @@ Un área del Machine learning llamada inteligencia artificial (IA o AI, por sus 
 </dd>
 <dt>Visualización</dt>
 <dd>
-Cantidades muy grandes de datos son incomprensibles para un ser humano, pero una vez que creamos visualizaciones útiles con esos datos, podemos darles más sentido y sacar algunas conclusiones. Por ello, es importante conocer muchas formas de visualizar la información, algo que trataremos en <a href="../../3-Data-Visualization/README.md">la sección 3</a> de nuestro curso. Campos relacionados también incluyen la **Infografía**, y la **Interacción Persona-Ordenador** en general. 
+Cantidades muy grandes de datos son incomprensibles para un ser humano, pero una vez que creamos visualizaciones útiles con esos datos, podemos darles más sentido y sacar algunas conclusiones. Por ello, es importante conocer muchas formas de visualizar la información, algo que trataremos en <a href="../../../3-Data-Visualization/README.md">la sección 3</a> de nuestro curso. Campos relacionados también incluyen la **Infografía**, y la **Interacción Persona-Ordenador** en general. 
 </dd>
 </dl>
 

@@ -61,7 +61,7 @@ Como aprendizado de máquina, inteligência artificial também se baseia em dado
 </dd>
 <dt>Visualização</dt>
 <dd>
-Vastas quantidades de dados são incompreensíveis para o ser humano, mas uma vez que criamos visualizações úteis - nós podemos começar a dar muito mais sentido aos dados, e desenhar algumas conclusões. Portanto, é importante conhecer várias formas de visualizar informação - algo que vamos cobrir na <a href="../../3-Data-Visualization/README.md">Seção 3</a> do nosso curso. Áreas relacionadas também incluem **Infográficos**, e **Interação Humano-Computador** no geral.
+Vastas quantidades de dados são incompreensíveis para o ser humano, mas uma vez que criamos visualizações úteis - nós podemos começar a dar muito mais sentido aos dados, e desenhar algumas conclusões. Portanto, é importante conhecer várias formas de visualizar informação - algo que vamos cobrir na <a href="../../../3-Data-Visualization/README.md">Seção 3</a> do nosso curso. Áreas relacionadas também incluem **Infográficos**, e **Interação Humano-Computador** no geral.
 </dd>
 </dl>
 
