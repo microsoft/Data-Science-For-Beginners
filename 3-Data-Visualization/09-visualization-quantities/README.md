@@ -146,7 +146,7 @@ This bar chart, however, is unreadable because there is too much non-grouped dat
 
 Filter your data to include only the bird's category. 
 
-✅ Notice that that you use Pandas to manage the data, and then let Matplotlib do the charting.
+✅ Notice that you use Pandas to manage the data, and then let Matplotlib do the charting.
 
 Since there are many categories, you can display this chart vertically and tweak its height to account for all the data:
 
