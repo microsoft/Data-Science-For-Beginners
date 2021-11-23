@@ -21,7 +21,7 @@
 
 데이터 세트가 있고 주어진 항목이 얼마나 포함되어 있는지 확인해야 하는 경우에, 가장 먼저 처리해야 하는 작업 중 하나는 해당 값을 검사하는 것입니다.
 
-✅ Matplotlib에 사용할 수 있는 매우 좋은 '치트 시트'가 있습니다. [here](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-1.png) and [here](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-2.png).
+✅ Matplotlib에 사용할 수 있는 매우 좋은 '치트 시트'가 있습니다. [here](https://matplotlib.org/cheatsheets/cheatsheets.pdf).
 
 ## 새 날개 길이 값에 대한 선 그래프 작성하기
 
