@@ -21,7 +21,7 @@ Uma biblioteca excelente para criar tanto gráficos simples como sofisticados e 
 
 Se você tem um dataset e precisa descobrir quanto de um dado elemento está presente, uma das primeiras coisas que você precisará fazer é examinar seus valores.
 
-✅ Existem dicas ('cheat sheets') ótimas disponíveis para o Matplotlib [aqui](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-1.png) e [aqui](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-2.png).
+✅ Existem dicas ('cheat sheets') ótimas disponíveis para o Matplotlib [aqui](https://matplotlib.org/cheatsheets/cheatsheets.pdf).
 
 ## Construindo um gráfico de linhas sobre os valores de envergadura de aves
 
