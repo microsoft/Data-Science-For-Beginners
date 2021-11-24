@@ -128,6 +128,7 @@ sns.relplot(
     col="year", 
     col_wrap=3,
     kind="line"
+)
 ```
 In this visualization, you can compare the yield per colony and number of colonies year over year, side by side with a wrap set at 3 for the columns:
 
