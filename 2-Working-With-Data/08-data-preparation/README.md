@@ -265,7 +265,7 @@ Notice that when a previous value is not available for forward-filling, the null
 
 In addition to missing data, you will often encounter duplicated data in real-world datasets. Fortunately, `pandas` provides an easy means of detecting and removing duplicate entries.
 
-- **Identifying duplicates: `duplicated`**: You can easily spot duplicate values using the `duplicated` method in pandas, which returns a Boolean mask indicating whether an entry in a `DataFrame` is a duplicate of an ealier one. Let's create another example `DataFrame` to see this in action.
+- **Identifying duplicates: `duplicated`**: You can easily spot duplicate values using the `duplicated` method in pandas, which returns a Boolean mask indicating whether an entry in a `DataFrame` is a duplicate of an earlier one. Let's create another example `DataFrame` to see this in action.
 ```python
 example4 = pd.DataFrame({'letters': ['A','B'] * 2 + ['B'],
                          'numbers': [1, 2, 1, 3, 3]})
@@ -290,7 +290,7 @@ example4.duplicated()
 4     True
 dtype: bool
 ```
-- **Dropping duplicates: `drop_duplicates`: `drop_duplicates` simply returns a copy of the data for which all of the `duplicated` values are `False`:
+- **Dropping duplicates: `drop_duplicates`:** simply returns a copy of the data for which all of the `duplicated` values are `False`:
 ```python
 example4.drop_duplicates()
 ```

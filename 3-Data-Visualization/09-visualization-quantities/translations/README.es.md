@@ -21,7 +21,7 @@ Una excelente librería para crear gráficos tanto simples como sofisticados de 
 
 Si tienes un conjunto de datos y necesitas descubrir qué cantidad de un elemento determinado está incluido, una de las primeras tareas que tienes que hacer será inspeccionar sus valores. 
 
-✅ Hay muy buenas "hojas de trucos" disponibles para Matplotlib [aquí](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-1.png) y [aquí](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-2.png).
+✅ Hay muy buenas "hojas de trucos" disponibles para Matplotlib [aquí](https://matplotlib.org/cheatsheets/cheatsheets.pdf).
 
 ## Construir un gráfico de líneas sobre los valores de la envergadura de las aves
 

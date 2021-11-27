@@ -21,7 +21,7 @@
 
 यदि आपके पास एक डेटासेट है और यह पता लगाने की आवश्यकता है कि किसी दिए गए आइटम में से कितना शामिल है, तो आपके पास सबसे पहले कार्यों में से एक इसके मूल्यों का निरीक्षण करना होगा। 
 
-✅ माटप्लोटलिब के लिए बहुत अच्छी 'चीट शीट' उपलब्ध हैं [here](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-1.png) and [here](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-2.png).
+✅ माटप्लोटलिब के लिए बहुत अच्छी 'चीट शीट' उपलब्ध हैं [here](https://matplotlib.org/cheatsheets/cheatsheets.pdf).
 
 ## बर्ड विंगस्पैन मूल्यों के बारे में एक लाइन प्लॉट बनाएं
 
