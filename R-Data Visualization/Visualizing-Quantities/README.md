@@ -29,4 +29,23 @@ In this section, you would be plotting a line graph to analyse the trends of the
 Open the R console and import the dataset. 
 > Note: The dataset is stored in the root of this repo in the `/data` folder.
 
+Let's import the dataset and observe the head (top 5 rows) of the data.
+
+```r
+df_covid <- read.csv("../../data/covid.csv")
+head(df_covid)
+```
+The head of the data has a mix of numbers and text:
+
+|id|updated|confirmed|confirmed_change|deaths|deaths_change|recovered|recovered_change|load_time|
+| ---: | :--------------------------- | :--------------------- | :-------------------- | :----------- | :------- | :---------- | :----------------- | --------: | 
+|338995|21-01-2020|262|NA|0|NA|NA|NA|09:54.1|
+|338996|22-01-2020|313|51|0|0|NA|NA|09:54.1|
+|338997|23-01-2020|578|265|0|0|NA|NA|09:54.1|
+|338998|24-01-2020|841|263|0|0|NA|NA|09:54.1|
+|338999|25-01-2020|1320|479|0|0|NA|NA|09:54.1|
+
+Let's start visualizing this data by plotting a line graph of the confirmed, deceased and the recovered cases.
+
+
 
