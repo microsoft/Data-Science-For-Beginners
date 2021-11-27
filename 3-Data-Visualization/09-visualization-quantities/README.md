@@ -21,7 +21,7 @@ An excellent library to create both simple and sophisticated plots and charts of
 
 If you have a dataset and need to discover how much of a given item is included, one of the first tasks you have at hand will be to inspect its values. 
 
-✅ There are very good 'cheat sheets' available for Matplotlib [here](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-1.png) and [here](https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-2.png).
+✅ There are very good 'cheat sheets' available for Matplotlib [here](https://matplotlib.org/cheatsheets/cheatsheets.pdf).
 
 ## Build a line plot about bird wingspan values
 
