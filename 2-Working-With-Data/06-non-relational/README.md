@@ -49,7 +49,7 @@ NoSQL is an umbrella term for the different ways to store non-relational data an
 
 ![Graphical representation of a columnar data store showing a customer database with two column families named Identity and Contact Info](images/columnar-db.png)
 
-[Columnar](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) data stores organizes data into columns and rows like a relational data structure but each column is divided into groups called a column family, where the all the data under one column is related and can be retrieved and changed in one unit. 
+[Columnar](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) data stores organizes data into columns and rows like a relational data structure but each column is divided into groups called a column family, where all the data under one column is related and can be retrieved and changed in one unit. 
 
 
 ### Document Data Stores with the Azure Cosmos DB 
