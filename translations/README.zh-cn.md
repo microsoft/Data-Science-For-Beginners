@@ -17,9 +17,9 @@
 
 > **同学们**，如果你想自己学习这门课程，你可以在整个 repo 中自己完成练习，从课前测验开始，然后阅读讲座，完成其他活动。尝试通过理解课程内容来创建项目，而不是仅仅把答案代码抄下来；然而，在每个项目课程中，这些代码可以在里面的 /solutions 文件夹中找到。另一个方法是与朋友组成一个学习小组，一起学习内容。为了进一步的研究，我们推荐 [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-40229-cxa)。
 
-<!--[![Promo video](../screenshot.png)]( "Promo video")
+[![Promo video](../ds-for-beginners.png)](https://youtu.be/8mzavjQSMM4 "Promo video")
 
-> 🎥 点击上面的图片，可以看到关于这个项目以及它的作者的视频！-->
+> 🎥 点击上面的图片，观看关于这个项目以及作者的视频！
 
 ## 教学方法
 
@@ -27,7 +27,7 @@
 
 此外，课前的低风险测验使学生对学习某个主题有了意向，而课后的第二次测验则确保了学生记住了内容。本课程的设计是灵活而有趣的，可以参加整个或部分课程。这些项目开始时很小，在 10 周的学习过程内会变得越来越复杂。
 
-> 找到我们的 [行为守则](../CODE_OF_CONDUCT.md)、[贡献](../CONTRIBUTING.md) 以及 [翻译](../TRANSLATIONS.md) 指南。我们欢迎你的建设性反馈！
+> 看看我们的 [行为守则](../CODE_OF_CONDUCT.md)、[贡献](../CONTRIBUTING.md) 以及 [翻译](../TRANSLATIONS.md) 指南。我们欢迎你的建设性反馈！
 
 ## 每节课包括：
 

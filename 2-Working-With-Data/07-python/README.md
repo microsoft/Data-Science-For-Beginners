@@ -1,8 +1,8 @@
 # Working with Data: Python and the Pandas Library
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/07-WorkWithPython.png)|
-|:---:|
-|Working With Python - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/07-WorkWithPython.png) |
+| :-------------------------------------------------------------------------------------------------------: |
+|                 Working With Python - _Sketchnote by [@nitya](https://twitter.com/nitya)_                 |
 
 [![Intro Video](images/video-ds-python.png)](https://youtu.be/dZjWOGbsN4Y)
 
@@ -16,7 +16,7 @@ Data processing can be programmed in any programming language, but there are cer
 In this lesson, we will focus on using Python for simple data processing. We will assume basic familiarity with the language. If you want a deeper tour of Python, you can refer to one of the following resources:
 
 * [Learn Python in a Fun Way with Turtle Graphics and Fractals](https://github.com/shwars/pycourse) - GitHub-based quick intro course into Python Programming
-* [Take your First Steps with Python](https://docs.microsoft.com/en-us/learn/paths/python-first-steps/?WT.mc_id=acad-31812-dmitryso) Learning Path on [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=acad-31812-dmitryso)
+* [Take your First Steps with Python](https://docs.microsoft.com/en-us/learn/paths/python-first-steps/?WT.mc_id=academic-31812-dmitryso) Learning Path on [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=academic-31812-dmitryso)
 
 Data can come in many forms. In this lesson, we will consider three forms of data - **tabular data**, **text** and **images**.
 
@@ -52,7 +52,7 @@ Pandas is centered around a few basic concepts.
 
 ### Series 
 
-**Series** is a sequence of values, similar to a list or numpy array. The main difference is that series also has and **index**, and when we operate on series (eg., add them), the index is taken into account. Index can be as simple as integer row number (it is the index used by default when creating a series from list or array), or it can have a complex structure, such as date interval.
+**Series** is a sequence of values, similar to a list or numpy array. The main difference is that series also has an **index**, and when we operate on series (eg., add them), the index is taken into account. Index can be as simple as integer row number (it is the index used by default when creating a series from list or array), or it can have a complex structure, such as date interval.
 
 > **Note**: There is some introductory Pandas code in the accompanying notebook [`notebook.ipynb`](notebook.ipynb). We only outline some the examples here, and you are definitely welcome to check out the full notebook.
 
@@ -97,10 +97,10 @@ b = pd.Series(["I","like","to","play","games","and","will","not","change"],index
 df = pd.DataFrame([a,b])
 ```
 This will create a horizontal table like this:
-| | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
-|---|---|---|---|---|---|---|---|---|---|
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-| 1 | I | like | to | use | Python | and | Pandas | very | much |
+|     | 0   | 1    | 2   | 3   | 4      | 5   | 6      | 7    | 8    |
+| --- | --- | ---- | --- | --- | ------ | --- | ------ | ---- | ---- |
+| 0   | 1   | 2    | 3   | 4   | 5      | 6   | 7      | 8    | 9    |
+| 1   | I   | like | to  | use | Python | and | Pandas | very | much |
 
 We can also use Series as columns, and specify column names using dictionary:
 ```python
@@ -108,17 +108,17 @@ df = pd.DataFrame({ 'A' : a, 'B' : b })
 ```
 This will give us a table like this:
 
-|  | A | B |
-|---|---|---|
-| 0 | 1 | I |
-| 1 | 2 | like |
-| 2 | 3 | to |
-| 3 | 4 | use |
-| 4 | 5 | Python |
-| 5 | 6 | and |
-| 6 | 7 | Pandas |
-| 7 | 8 | very |
-| 8 | 9 | much |
+|     | A   | B      |
+| --- | --- | ------ |
+| 0   | 1   | I      |
+| 1   | 2   | like   |
+| 2   | 3   | to     |
+| 3   | 4   | use    |
+| 4   | 5   | Python |
+| 5   | 6   | and    |
+| 6   | 7   | Pandas |
+| 7   | 8   | very   |
+| 8   | 9   | much   |
 
 **Note** that we can also get this table layout by transposing the previous table, eg. by writing 
 ```python
@@ -154,17 +154,17 @@ df['LenB'] = df['B'].apply(len)
 
 After operations above, we will end up with the following DataFrame:
 
-|  | A | B | DivA | LenB |
-|---|---|---|---|---|
-| 0 | 1 | I | -4.0 | 1 |
-| 1 | 2 | like | -3.0 | 4 |
-| 2 | 3 | to | -2.0 | 2 |
-| 3 | 4 | use | -1.0 | 3 |
-| 4 | 5 | Python | 0.0 | 6 |
-| 5 | 6 | and | 1.0 | 3 |
-| 6 | 7 | Pandas | 2.0 | 6 |
-| 7 | 8 | very | 3.0 | 4 |
-| 8 | 9 | much | 4.0 | 4 |
+|     | A   | B      | DivA | LenB |
+| --- | --- | ------ | ---- | ---- |
+| 0   | 1   | I      | -4.0 | 1    |
+| 1   | 2   | like   | -3.0 | 4    |
+| 2   | 3   | to     | -2.0 | 2    |
+| 3   | 4   | use    | -1.0 | 3    |
+| 4   | 5   | Python | 0.0  | 6    |
+| 5   | 6   | and    | 1.0  | 3    |
+| 6   | 7   | Pandas | 2.0  | 6    |
+| 7   | 8   | very   | 3.0  | 4    |
+| 8   | 9   | much   | 4.0  | 4    |
 
 **Selecting rows based on numbers** can be done using `iloc` construct. For example, to select first 5 rows from the DataFrame:
 ```python
@@ -183,13 +183,13 @@ df.groupby(by='LenB') \
 ```
 This gives us the following table:
 
-| LenB | Count | Mean |
-|------|-------|------|
-| 1 | 1 | 1.000000 |
-| 2 | 1 | 3.000000 |
-| 3 | 2 | 5.000000 |
-| 4 | 3 | 6.333333 |
-| 6 | 2 | 6.000000 |
+| LenB | Count | Mean     |
+| ---- | ----- | -------- |
+| 1    | 1     | 1.000000 |
+| 2    | 1     | 3.000000 |
+| 3    | 2     | 5.000000 |
+| 4    | 3     | 6.333333 |
+| 6    | 2     | 6.000000 |
 
 ### Getting Data
 
@@ -230,7 +230,7 @@ While data very often comes in tabular form, in some cases we need to deal with 
 
 In this challenge, we will continue with the topic of COVID pandemic, and focus on processing scientific papers on the subject. There is [CORD-19 Dataset](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) with more than 7000 (at the time of writing) papers on COVID, available with metadata and abstracts (and for about half of them there is also full text provided).
 
-A full example of analyzing this dataset using [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health/?WT.mc_id=acad-31812-dmitryso) cognitive service is described [in this blog post](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/). We will discuss simplified version of this analysis.
+A full example of analyzing this dataset using [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health/?WT.mc_id=academic-31812-dmitryso) cognitive service is described [in this blog post](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/). We will discuss simplified version of this analysis.
 
 > **NOTE**: We do not provide a copy of the dataset as part of this repository. You may first need to download the [`metadata.csv`](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge?select=metadata.csv) file from [this dataset on Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge). Registration with Kaggle may be required. You may also download the dataset without registration [from here](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), but it will include all full texts in addition to metadata file.
 
@@ -242,15 +242,15 @@ Open [`notebook-papers.ipynb`](notebook-papers.ipynb) and read it from top to bo
 
 Recently, very powerful AI models have been developed that allow us to understand images. There are many tasks that can be solved using pre-trained neural networks, or cloud services. Some examples include:
 
-* **Image Classification**, which can help you categorize the image into one of the pre-defined classes. You can easily train your own image classifiers using services such as [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=acad-31812-dmitryso)
-* **Object Detection** to detect different objects in the image. Services such as [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=acad-31812-dmitryso) can detect a number of common objects, and you can train [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=acad-31812-dmitryso) model to detect some specific objects of interest.
-* **Face Detection**, including Age, Gender and Emotion detection. This can be done via [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=acad-31812-dmitryso).
+* **Image Classification**, which can help you categorize the image into one of the pre-defined classes. You can easily train your own image classifiers using services such as [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-31812-dmitryso)
+* **Object Detection** to detect different objects in the image. Services such as [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-31812-dmitryso) can detect a number of common objects, and you can train [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-31812-dmitryso) model to detect some specific objects of interest.
+* **Face Detection**, including Age, Gender and Emotion detection. This can be done via [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-31812-dmitryso).
 
-All those cloud services can be called using [Python SDKs](https://docs.microsoft.com/samples/azure-samples/cognitive-services-python-sdk-samples/cognitive-services-python-sdk-samples/?WT.mc_id=acad-31812-dmitryso), and thus can be easily incorporated into your data exploration workflow. 
+All those cloud services can be called using [Python SDKs](https://docs.microsoft.com/samples/azure-samples/cognitive-services-python-sdk-samples/cognitive-services-python-sdk-samples/?WT.mc_id=academic-31812-dmitryso), and thus can be easily incorporated into your data exploration workflow. 
 
 Here are some examples of exploring data from Image data sources:
-* In the blog post [How to Learn Data Science without Coding](https://soshnikov.com/azure/how-to-learn-data-science-without-coding/) we explore Instagram photos, trying to understand what makes people give more likes to a photo. We first extract as much information from pictures as possible using [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=acad-31812-dmitryso), and then use [Azure Machine Learning AutoML](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml/?WT.mc_id=acad-31812-dmitryso) to build interpretable model.
-* In [Facial Studies Workshop](https://github.com/CloudAdvocacy/FaceStudies) we use [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=acad-31812-dmitryso) to extract emotions on people on photographs from events, in order to try to understand what makes people happy. 
+* In the blog post [How to Learn Data Science without Coding](https://soshnikov.com/azure/how-to-learn-data-science-without-coding/) we explore Instagram photos, trying to understand what makes people give more likes to a photo. We first extract as much information from pictures as possible using [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-31812-dmitryso), and then use [Azure Machine Learning AutoML](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml/?WT.mc_id=academic-31812-dmitryso) to build interpretable model.
+* In [Facial Studies Workshop](https://github.com/CloudAdvocacy/FaceStudies) we use [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-31812-dmitryso) to extract emotions on people on photographs from events, in order to try to understand what makes people happy. 
 
 ## Conclusion
 
@@ -271,7 +271,7 @@ Whether you already have structured or unstructured data, using Python you can p
 
 **Learning Python**
 * [Learn Python in a Fun Way with Turtle Graphics and Fractals](https://github.com/shwars/pycourse)
-* [Take your First Steps with Python](https://docs.microsoft.com/learn/paths/python-first-steps/?WT.mc_id=acad-31812-dmitryso) Learning Path on [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=acad-31812-dmitryso)
+* [Take your First Steps with Python](https://docs.microsoft.com/learn/paths/python-first-steps/?WT.mc_id=academic-31812-dmitryso) Learning Path on [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=academic-31812-dmitryso)
 
 ## Assignment
 

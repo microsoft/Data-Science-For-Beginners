@@ -1,14 +1,21 @@
 <template>
   <div>
     <nav>
-      <router-link class="navlink" to="/">Home</router-link>
-      <label for="locale">locale</label>
-      <select v-model="locale">
-        <option>en</option>
-        <option>es</option>
-      </select>
-
-      <span class="title">{{ questions[locale][0].title }}</span>
+      <ul>
+        <li>
+          <router-link class="navlink" to="/">Home</router-link>
+        </li>
+        <li>
+          <label for="locale">locale</label>
+        </li>
+        <li>
+          <select v-model="locale">
+            <option>en</option>
+            <option>es</option>
+          </select>
+        </li>
+        <li class="title">{{ questions[locale][0].title }}</li>
+      </ul>
     </nav>
     <div id="app">
       
@@ -72,6 +79,17 @@ nav {
 nav a {
   color: white;
   text-align: right;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
 }
 
 .title {

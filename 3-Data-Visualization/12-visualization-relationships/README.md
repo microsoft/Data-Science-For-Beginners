@@ -99,7 +99,7 @@ Answer: Yes, with some exceptions around the year 2003:
 
 ![line chart 1](images/line1.png)
 
-✅ Because Seaborn is aggregating data around one line, it displays "the multiple measurements at each x value by plotting the mean and the 95% confidence interval around the mean". [source](https://seaborn.pydata.org/tutorial/relational.html). This time-consuming behavior can be disabled by adding `ci=None`.
+✅ Because Seaborn is aggregating data around one line, it displays "the multiple measurements at each x value by plotting the mean and the 95% confidence interval around the mean". [Source](https://seaborn.pydata.org/tutorial/relational.html). This time-consuming behavior can be disabled by adding `ci=None`.
 
 Question: Well, in 2003 can we also see a spike in the honey supply? What if you look at total production year over year?
 
