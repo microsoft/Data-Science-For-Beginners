@@ -45,7 +45,20 @@ The head of the data has a mix of numbers and text:
 |338998|24-01-2020|841|263|0|0|NA|NA|09:54.1|
 |338999|25-01-2020|1320|479|0|0|NA|NA|09:54.1|
 
-Let's start visualizing this data by plotting a line graph of the confirmed, deceased and the recovered cases.
+The data type for the "updated" column is a 'chr' (character), but we would want it in a date-time format for analysing and vidualizing. In order to convert the values to the date-time format in the updated column, the [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) package is used. To install, load and convert the data type to date-time, enter the following in the R console.
+```r
+install.packages("lubridate")
+library("lubridate")
+df_covid$updated<-as.Date(parse_date_time(df_covid$updated, c('dmy', 'dmy')))
+```
+Using the command above, we convert the "updated" column in the "df_covid" dataset into a date-time format. We specify the existing format of the dates to be dd-mm-yyyy and the desired format as dd-mm-yyyy
+
+Next, to get started with visualizations, let's install and load ggplot2 package using the R console. 
+```r
+install.packages("ggplot2")
+library("ggplot2")
+```
+Let's start visualizing the data we imported by plotting a line graph of the confirmed, deceased and the recovered cases.
 
 
 
