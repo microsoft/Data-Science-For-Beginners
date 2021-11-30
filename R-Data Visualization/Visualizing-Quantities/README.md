@@ -49,9 +49,9 @@ The data type for the "updated" column is a 'chr' (character), but we would want
 ```r
 install.packages("lubridate")
 library("lubridate")
-df_covid$updated<-as.Date(parse_date_time(df_covid$updated, c('dmy', 'dmy')))
+df_covid$updated<-as.Date(parse_date_time(df_covid$updated, c('ymd', 'ymd')))
 ```
-Using the command above, we convert the "updated" column in the "df_covid" dataset into a date-time format. We specify the existing format of the dates to be dd-mm-yyyy and the desired format as dd-mm-yyyy
+Using the command above, we convert the "updated" column in the "df_covid" dataset into a date-time format. We specify the existing format of the dates to be yyyy-mm-dd and the desired format as yyyy-mm-dd
 
 Next, to get started with visualizations, let's install and load ggplot2 package using the R console. 
 ```r
@@ -59,6 +59,51 @@ install.packages("ggplot2")
 library("ggplot2")
 ```
 Let's start visualizing the data we imported by plotting a line graph of the confirmed, deceased and the recovered cases.
+```r
+ggplot(df_covid,aes(x=updated, y=confirmed)) + 
+   geom_line()
+```
+We use the ggplot2 package for plotting a line graph of the confirmed covid cases for the range of dates starting January 2020 to November 2021. The 'geom_line()' function is used for plotting a line graph, with the dataset being the first argument in 'ggplot()'. The 'aes' specifies the variables for the x and y axes which would be 'updated' and 'confirmed' respectively.
 
+The graph looks like this:
 
+![Confirmed COVID-19 cases line graph](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/confirmed_line-graph.png)
 
+To make the plot understandable, we can change the Y-axis scales to numbers instead of abbreviated points (abbreviated to e) using the ['scales'](https://scales.r-lib.org/) package. We can also add points, title, customized labels on the line graph for a better presentation.
+
+```r
+install.packages("scales")
+library("scales")
+ggplot(df_covid,aes(x=updated, y=confirmed)) +
+  geom_line(colour="red") +
+  geom_point() +
+  xlab("Month") +
+  ylab("Confirmed Cases") +
+  ggtitle("Confirmed COVID-19 cases from Jan 2020 to Nov 2021") +
+  scale_y_continuous(labels=comma)
+```
+You have now successfully added customized labels to the axes, titled the plot, changed the colour of the line to red and points on the y-axis are now in the numerical format instead of the abbreviated format.
+
+![Confirmed COVID-19 cases line graph](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/confirmed_line-graph1.png)
+
+Similarly, you can now plot the line graphs for the recovered and the deceased cases.
+```r
+ggplot(df_covid,aes(x=updated, y=recovered)) +
+  geom_line(colour="red") +
+  geom_point() +
+  xlab("Month") +
+  ylab("Recovered Cases") +
+  ggtitle("Recovered COVID-19 cases from Jan 2020 to Nov 2021") +
+  scale_y_continuous(labels=comma)
+  
+ggplot(df_covid,aes(x=updated, y=deaths)) +
+  geom_line(colour="red") +
+  geom_point() +
+  xlab("Month") +
+  ylab("Deceased Cases") +
+  ggtitle("Deceased COVID-19 cases from Jan 2020 to Nov 2021") +
+  scale_y_continuous(labels=comma)
+```
+![Recovered COVID-19 cases line graph](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/recovered_line-graph.png)
+
+![Deceased COVID-19 cases line graph](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/deceased_line-graph.png)
