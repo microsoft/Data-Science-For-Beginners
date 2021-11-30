@@ -107,3 +107,24 @@ ggplot(df_covid,aes(x=updated, y=deaths)) +
 ![Recovered COVID-19 cases line graph](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/recovered_line-graph.png)
 
 ![Deceased COVID-19 cases line graph](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/deceased_line-graph.png)
+
+## Exploring bar graphs
+
+Let's start off with creating a simple bar chart of the confirmed COVID-19 cases
+
+```r
+ggplot(data=df, aes(x=updated, y=confirmed, fill=confirmed)) +
+   geom_bar(stat="identity") + 
+   xlab("Month") +
+   ylab("Confirmed Cases") +
+   ggtitle("Confirmed COVID-19 cases from Jan 2020 to Nov 2021") +
+   scale_y_continuous(labels=comma) + 
+   scale_fill_gradient(low = "green", high = "red",labels = comma)
+   ```
+
+![Confirmed cases bar chart](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/confirmed_bar-graph.png)
+
+Similarly, we can also make the bar charts for the recovered and the deceased cases in different colours.
+
+![Recovered cases bar chart](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/recovered_bar-graph.png)
+![Deceased cases bar chart](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/deceased_bar-graph.png)
