@@ -128,3 +128,71 @@ Similarly, we can also make the bar charts for the recovered and the deceased ca
 
 ![Recovered cases bar chart](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/recovered_bar-graph.png)
 ![Deceased cases bar chart](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/deceased_bar-graph.png)
+
+### Stacked Bar Chart
+
+You can now analyse the data using a stacked bar chart. Each bar is divided into a number of sub-bars which get stacked end to end over one another. In our case we can stack the bars corresponding to confirmed, recovered and deceased cases in one graph. 
+In order to convert multiple columns into columns of key-value pairs, the'gather()' function from the [tidyverse](https://www.tidyverse.org/) and [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) packages will help us summarize the data. 
+
+```r
+install.packages("dplyr")
+install.packages("tidyverse")
+
+library(lubridate)
+library(scales)
+library(dplyr)
+library(ggplot2)
+library(tidyverse)
+
+df_covid %>% group_by(updated) %>%
+   summarise(n=n(),
+   Deceased = mean(deaths),
+   Recovered = mean(recovered),
+   Confirmed = mean(confirmed)) %>% 
+   gather("key", "value", - c(updated, n)) %>%
+   ggplot(aes(x = updated, y = value, group = key, fill = key)) +
+   geom_bar(stat = "identity") +
+   scale_fill_manual(values = c("#0c94ed", "#e34a0d", "#3bed0c")) +
+   xlab("Month") +
+   ylab("Number of cases") +
+   ggtitle("COVID-19 cases from Jan 2020 to Nov 2021") +
+   scale_y_continuous(labels=comma) +
+   labs(fill="Type of case")
+   ```
+   ![COVID-19 cases stacked bar plot](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/stacked-bar-graph.png)
+   
+   ## Scatter plot
+   
+   You can also plot a scatter plot using the geom_point() function to have a look at the variation in the data. 
+   
+   ```r
+   df%>% group_by(updated) %>%
+   summarise(n=n(),
+   Deceased = mean(deaths),
+   Recovered = mean(recovered),
+   Confirmed = mean(confirmed)) %>% 
+   gather("key", "value", - c(updated, n)) %>%
+   ggplot(aes(x = updated, y = value, group = key, fill = key)) +
+   geom_point(stat = "identity") +
+   scale_color_manual(values = c("#0c94ed", "#e34a0d", "#3bed0c")) +
+   xlab("Month") +
+   ylab("Number of cases") +
+   ggtitle("COVID-19 cases from Jan 2020 to Nov 2021") +
+   scale_y_continuous(labels=comma) +aes(color=key)
+   ```
+   
+   ![Scatter Plot](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/scatter-plot.png)
+   
+   All these graphs help in clear interpretation and analysis of the COVID-19 data
+   
+   ## 🚀 Challenge
+
+The dataset used in this lesson visualizes the data worldwide. Practice building plots and visualizing quantities around the data for countries that you like. The dataset can be found [here](https://docs.microsoft.com/en-in/azure/open-datasets/dataset-bing-covid-19?tabs=azure-storage)
+
+## Review & Self Study
+
+This first lesson has given you some information about how to use ggplot2 to visualize quantities. Research and lookout for datasets that you could visualize using other packages like [Lattice](https://stat.ethz.ch/R-manual/R-devel/library/lattice/html/Lattice.html) and [Plotly](https://github.com/plotly/plotly.R#readme)
+
+## Assignment
+
+[Line, Bar and Scatter plot]()
