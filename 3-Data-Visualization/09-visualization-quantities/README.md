@@ -52,7 +52,7 @@ Let's start by plotting some of the numeric data using a basic line plot. Suppos
 wingspan = birds['MaxWingspan'] 
 wingspan.plot()
 ```
-![Max Wingspan](images/max-wingspan.png)
+![Max Wingspan](images/max-wingspan-02.png)
 
 What do you notice immediately? There seems to be at least one outlier - that's quite a wingspan! A 2300 centimeter wingspan equals 23 meters - are there Pterodactyls roaming Minnesota? Let's investigate.
 
@@ -72,7 +72,7 @@ plt.plot(x, y)
 
 plt.show()
 ```
-![wingspan with labels](images/max-wingspan-labels.png)
+![wingspan with labels](images/max-wingspan-labels-02.png)
 
 Even with the rotation of the labels set to 45 degrees, there are too many to read. Let's try a different strategy: label only those outliers and set the labels within the chart. You can use a scatter chart to make more room for the labeling:
 
@@ -94,7 +94,7 @@ What's going on here? You used `tick_params` to hide the bottom labels and then 
 
 What did you discover?
 
-![outliers](images/labeled-wingspan.png)
+![outliers](images/labeled-wingspan-02.png)
 ## Filter your data
 
 Both the Bald Eagle and the Prairie Falcon, while probably very large birds, appear to be mislabeled, with an extra `0` added to their maximum wingspan. It's unlikely that you'll meet a Bald Eagle with a 25 meter wingspan, but if so, please let us know! Let's create a new dataframe without those two outliers:
@@ -114,7 +114,7 @@ plt.show()
 
 By filtering out outliers, your data is now more cohesive and understandable.
 
-![scatterplot of wingspans](images/scatterplot-wingspan.png)
+![scatterplot of wingspans](images/scatterplot-wingspan-02.png)
 
 Now that we have a cleaner dataset at least in terms of wingspan, let's discover more about these birds.
 
@@ -140,7 +140,7 @@ birds.plot(x='Category',
         title='Birds of Minnesota')
 
 ```
-![full data as a bar chart](images/full-data-bar.png)
+![full data as a bar chart](images/full-data-bar-02.png)
 
 This bar chart, however, is unreadable because there is too much non-grouped data. You need to select only the data that you want to plot, so let's look at the length of birds based on their category. 
 
@@ -155,7 +155,7 @@ category_count = birds.value_counts(birds['Category'].values, sort=True)
 plt.rcParams['figure.figsize'] = [6, 12]
 category_count.plot.barh()
 ```
-![category and length](images/category-counts.png)
+![category and length](images/category-counts-02.png)
 
 This bar chart shows a good view of the number of birds in each category. In a blink of an eye, you see that the largest number of birds in this region are in the Ducks/Geese/Waterfowl category. Minnesota is the 'land of 10,000 lakes' so this isn't surprising!
 
@@ -171,7 +171,7 @@ plt.barh(y=birds['Category'], width=maxlength)
 plt.rcParams['figure.figsize'] = [6, 12]
 plt.show()
 ```
-![comparing data](images/category-length.png)
+![comparing data](images/category-length-02.png)
 
 Nothing is surprising here: hummingbirds have the least MaxLength compared to Pelicans or Geese. It's good when data makes logical sense!
 
@@ -189,7 +189,7 @@ plt.show()
 ```
 In this plot, you can see the range per bird category of the Minimum Length and Maximum length. You can safely say that, given this data, the bigger the bird, the larger its length range. Fascinating!
 
-![superimposed values](images/superimposed.png)
+![superimposed values](images/superimposed-02.png)
 
 ## 🚀 Challenge
 
