@@ -50,7 +50,7 @@ Azure ML provides all the tools developers and data scientists need for their ma
 
 ### 1.2 The Heart Failure Prediction Project:
 
-There is no doubt that making and building projects is the best way to put your skills and knowledge to test. In this lesson, we are going to explore two different ways of building a data science project for the prediction of heart failure attacks in Azure ML Studio, through Low code/No code and through the Azure ML SDK as shown in the following schema:
+There is no doubt that making and building projects is the best way to put your skills and knowledge to the test. In this lesson, we are going to explore two different ways of building a data science project for the prediction of heart failure attacks in Azure ML Studio, through Low code/No code and through the Azure ML SDK as shown in the following schema:
 
 ![project-schema](images/project-schema.PNG)
 
