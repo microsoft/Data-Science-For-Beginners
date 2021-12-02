@@ -6,7 +6,7 @@ In this lesson you will explore how to use the [ggplot2](https://cran.r-project.
 ## [Pre-lecture quiz](_) <em> yet to be linked </em>
 
 ## Observe COVID-19 trends with ggplot2
-ggplot2 is a system for declaratively creating graphics, based on The Grammar of Graphics. The [Grammar of Graphics](https://en.wikipedia.org/wiki/Ggplot2) is a general scheme for data visualization which breaks up graphs into semantic components such as scales and layers. In other words, the ease of creating plots and graphs for univariate or multivariate data with little code makes ggplot2 the most popular package used for visualizations in R. The user tells ggplot2 how to map the variables to aesthetics, the graphical primitives to use, and ggplot2 takes care of the remaining.
+`ggplot2` is a system for declaratively creating graphics, based on The Grammar of Graphics. The [Grammar of Graphics](https://en.wikipedia.org/wiki/Ggplot2) is a general scheme for data visualization which breaks up graphs into semantic components such as scales and layers. In other words, the ease of creating plots and graphs for univariate or multivariate data with little code makes `ggplot2` the most popular package used for visualizations in R. The user tells `ggplot2` how to map the variables to aesthetics, the graphical primitives to use, and `ggplot2` takes care of the remaining.
 
 > ✅ Plot = Data + Aesthetics + Geometry
 > - Data refers to the dataset
@@ -45,7 +45,7 @@ The head of the data has a mix of numbers and text:
 |338998|24-01-2020|841|263|0|0|NA|NA|09:54.1|
 |338999|25-01-2020|1320|479|0|0|NA|NA|09:54.1|
 
-The data type for the "updated" column is a 'chr' (character), but we would want it in a date-time format for analysing and vidualizing. In order to convert the values to the date-time format in the updated column, the [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) package is used. To install, load and convert the data type to date-time, enter the following in the R console.
+The data type for the "updated" column is a`chr`(character), but we would want it in a date-time format for analysing and vidualizing. In order to convert the values to the date-time format in the updated column, the [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) package is used. To install, load and convert the data type to date-time, enter the following in the R console.
 ```r
 install.packages("lubridate")
 library("lubridate")
@@ -53,7 +53,7 @@ df_covid$updated<-as.Date(parse_date_time(df_covid$updated, c('ymd', 'ymd')))
 ```
 Using the command above, we convert the "updated" column in the "df_covid" dataset into a date-time format. We specify the existing format of the dates to be yyyy-mm-dd and the desired format as yyyy-mm-dd
 
-Next, to get started with visualizations, let's install and load ggplot2 package using the R console. 
+Next, to get started with visualizations, let's install and load`ggplot2`package using the R console. 
 ```r
 install.packages("ggplot2")
 library("ggplot2")
@@ -63,7 +63,7 @@ Let's start visualizing the data we imported by plotting a line graph of the con
 ggplot(df_covid,aes(x=updated, y=confirmed)) + 
    geom_line()
 ```
-We use the ggplot2 package for plotting a line graph of the confirmed covid cases for the range of dates starting January 2020 to November 2021. The 'geom_line()' function is used for plotting a line graph, with the dataset being the first argument in 'ggplot()'. The 'aes' specifies the variables for the x and y axes which would be 'updated' and 'confirmed' respectively.
+We use the`ggplot2`package for plotting a line graph of the confirmed covid cases for the range of dates starting January 2020 to November 2021. The`geom_line()`function is used for plotting a line graph, with the dataset being the first argument in`ggplot()` The 'aes' specifies the variables for the x and y axes which would be 'updated' and 'confirmed' respectively.
 
 The graph looks like this:
 
@@ -132,7 +132,7 @@ Similarly, we can also make the bar charts for the recovered and the deceased ca
 ### Stacked Bar Chart
 
 You can now analyse the data using a stacked bar chart. Each bar is divided into a number of sub-bars which get stacked end to end over one another. In our case we can stack the bars corresponding to confirmed, recovered and deceased cases in one graph. 
-In order to convert multiple columns into columns of key-value pairs, the'gather()' function from the [tidyverse](https://www.tidyverse.org/) and [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) packages will help us summarize the data. 
+In order to convert multiple columns into columns of key-value pairs, the`gather()` function from the [tidyverse](https://www.tidyverse.org/) and [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) packages will help us summarize the data. 
 
 ```r
 install.packages("dplyr")
@@ -163,7 +163,7 @@ df_covid %>% group_by(updated) %>%
    
    ## Scatter plot
    
-   You can also plot a scatter plot using the geom_point() function to have a look at the variation in the data. 
+   You can also plot a scatter plot using the`geom_point()`function to have a look at the variation in the data. 
    
    ```r
    df%>% group_by(updated) %>%
