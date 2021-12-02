@@ -26,7 +26,7 @@ ggplot(data=df_covid, aes(x=confirmed_change)) +
   geom_histogram()
 ```
 This produces an output like this
-![Confirmed histogram]https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-distributions/Graphs/confirmed_histogram.png()
+![Confirmed histogram](Graphs/confirmed_histogram.png)
 
 Let's make the histogram more presentable for easy interpretation. Using the `scales` package, we would alter the number of axes ticks/points. Along with this a change in the axes titles and addition of the plot title would help in easy interpretation.
 
@@ -40,7 +40,7 @@ ggplot(data=df_covid, aes(x=confirmed_change)) +
   ggtitle("Distribution of change in confirmed COVID-19 cases")
 ```
 You have successfully added ticks on the x-axis ranging from 0 to 2000000 with a gap of 100000 between two consecutive ticks. Similarly added ticks on the y-axis ranging from 0 to 200 with a gap of 20 between two consecutive ticks. Along with this you have now given an appropriate x-axis label and chart title. The `bins` tells `ggplot2` how many bars or bins do we want in our histogram. In this chart, the number of bins are 16 but you can customize them to as many bins as you like. This plot shows us that the change of about 300000 was the most frequent for the confirmed COVID-19 cases
-![Confirmed Histogram improved](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-distributions/Graphs/confirmed_histogram1.png)
+![Confirmed Histogram improved](Graphs/confirmed_histogram1.png)
 
 Similarly, try plotting the histograms for change in the number of recovered and deceased cases. 
 
@@ -55,13 +55,13 @@ ggplot(data = df_covid, aes(x = confirmed_change)) +
   xlab("Change in confirmed cases") +
   ggtitle("Distribution of change in confirmed COVID-19 cases")
 ```
-![comparison](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-distributions/Graphs/comparison.png)
+![comparison](Graphs/comparison.png)
 
 The density plot is clearly a smoothened form of the histogram. 
 Let's also plot density plots for change in recovered and deceased cases. 
 
-![recovered density plot](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-distributions/Graphs/recovered_density.png)
-![deceased density plot](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-distributions/Graphs/deceased_density.png)
+![recovered density plot](Graphs/recovered_density.png)
+![deceased density plot](Graphs/deceased_density.png)
 
 ## 🚀 Challenge
 
