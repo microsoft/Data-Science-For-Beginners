@@ -67,7 +67,7 @@ We use the`ggplot2`package for plotting a line graph of the confirmed covid case
 
 The graph looks like this:
 
-![Confirmed COVID-19 cases line graph](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/confirmed_line-graph.png)
+![Confirmed COVID-19 cases line graph](Graphs/confirmed_line-graph.png)
 
 To make the plot understandable, we can change the Y-axis scales to numbers instead of abbreviated points (abbreviated to e) using the ['scales'](https://scales.r-lib.org/) package. We can also add points, title, customized labels on the line graph for a better presentation.
 
@@ -84,7 +84,7 @@ ggplot(df_covid,aes(x=updated, y=confirmed)) +
 ```
 You have now successfully added customized labels to the axes, titled the plot, changed the colour of the line to red and points on the y-axis are now in the numerical format instead of the abbreviated format.
 
-![Confirmed COVID-19 cases line graph](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/confirmed_line-graph1.png)
+![Confirmed COVID-19 cases line graph](Graphs/confirmed_line-graph1.png)
 
 Similarly, you can now plot the line graphs for the recovered and the deceased cases.
 ```r
@@ -104,9 +104,9 @@ ggplot(df_covid,aes(x=updated, y=deaths)) +
   ggtitle("Deceased COVID-19 cases from Jan 2020 to Nov 2021") +
   scale_y_continuous(labels=comma)
 ```
-![Recovered COVID-19 cases line graph](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/recovered_line-graph.png)
+![Recovered COVID-19 cases line graph](Graphs/recovered_line-graph.png)
 
-![Deceased COVID-19 cases line graph](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/deceased_line-graph.png)
+![Deceased COVID-19 cases line graph](Graphs/deceased_line-graph.png)
 
 ## Exploring bar graphs
 
@@ -122,12 +122,12 @@ ggplot(data=df, aes(x=updated, y=confirmed, fill=confirmed)) +
    scale_fill_gradient(low = "green", high = "red",labels = comma)
    ```
 
-![Confirmed cases bar chart](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/confirmed_bar-graph.png)
+![Confirmed cases bar chart](Graphs/confirmed_bar-graph.png)
 
 Similarly, we can also make the bar charts for the recovered and the deceased cases in different colours.
 
-![Recovered cases bar chart](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/recovered_bar-graph.png)
-![Deceased cases bar chart](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/deceased_bar-graph.png)
+![Recovered cases bar chart](Graphs/recovered_bar-graph.png)
+![Deceased cases bar chart](Graphs/deceased_bar-graph.png)
 
 ### Stacked Bar Chart
 
@@ -159,7 +159,7 @@ df_covid %>% group_by(updated) %>%
    scale_y_continuous(labels=comma) +
    labs(fill="Type of case")
    ```
-   ![COVID-19 cases stacked bar plot](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/stacked-bar-graph.png)
+   ![COVID-19 cases stacked bar plot](Graphs/stacked-bar-graph.png)
    
    ## Scatter plot
    
@@ -181,7 +181,7 @@ df_covid %>% group_by(updated) %>%
    scale_y_continuous(labels=comma) +aes(color=key)
    ```
    
-   ![Scatter Plot](https://github.com/Vidushi-Gupta/Data-Science-For-Beginners/blob/main/R-Data%20Visualization/Visualizing-Quantities/Graphs/scatter-plot.png)
+   ![Scatter Plot](Graphs/scatter-plot.png)
    
    All these graphs help in clear interpretation and analysis of the COVID-19 data
    
@@ -195,4 +195,4 @@ This first lesson has given you some information about how to use ggplot2 to vis
 
 ## Assignment
 
-[Line, Bar and Scatter plot]()
+[Line, Bar and Scatter plot]() yet to be linked
