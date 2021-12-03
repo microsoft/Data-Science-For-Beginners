@@ -1,8 +1,8 @@
 # O ciclo de vida da ciência de dados
 
-![communication](images/communication.jpg)
-> Foto do <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> no <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+![communication](../images/communication.jpg)
+> Foto feita por <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> no <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 Nessas lições, você explorará alguns dos aspectos do ciclo de vida da ciência de dados, incluindo análise e comunicação em torno de dados.
 
 ### Tópicos
