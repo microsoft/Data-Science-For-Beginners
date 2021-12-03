@@ -57,6 +57,12 @@ Take this data and convert the 'class' column to a category:
 cols = mushrooms.select_dtypes(["object"]).columns
 mushrooms[cols] = mushrooms[cols].astype('category')
 ```
+
+```python
+edibleclass=mushrooms.groupby(['class']).count()
+edibleclass
+```
+
 Now, if you print out the mushrooms data, you can see that it has been grouped into categories according to the poisonous/edible class:
 
 
@@ -78,7 +84,7 @@ plt.show()
 ```
 Voila, a pie chart showing the proportions of this data according to these two classes of mushrooms. It's quite important to get the order of the labels correct, especially here, so be sure to verify the order with which the label array is built!
 
-![pie chart](images/pie1.png)
+![pie chart](images/pie1-wb.png)
 
 ## Donuts!
 
@@ -108,7 +114,7 @@ plt.title('Mushroom Habitats')
 plt.show()
 ```
 
-![donut chart](images/donut.png)
+![donut chart](images/donut-wb.png)
 
 This code draws a chart and a center circle, then adds that center circle in the chart. Edit the width of the center circle by changing `0.40` to another value.
 
