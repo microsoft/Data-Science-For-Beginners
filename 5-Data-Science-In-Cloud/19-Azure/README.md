@@ -76,7 +76,7 @@ Let's create a compute instance to provision a jupyter notebook.
 Congratulations, you have just created a compute instance! We will use this compute instance to create a Notebook the [Creating Notebooks section](#23-creating-notebooks).
 
 ### 2.3 Loading the Dataset
-Refer the [previous lesson](../18-tbd/README.md) in the section **2.3 Loading the Dataset** if you have not uploaded the dataset yet.
+Refer the [previous lesson](../18-Low-Code/README.md) in the section **2.3 Loading the Dataset** if you have not uploaded the dataset yet.
 
 ### 2.4 Creating Notebooks
 
@@ -97,7 +97,7 @@ Now that we have a Notebook, we can start training the model with Azure ML SDK.
 
 ### 2.5 Training a model
 
-First of all, if you ever have a doubt, refer to the [Azure ML SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-40229-cxa&ocid=AID3041109). In contains all the necessary information to understand the modules we are going to see in this lesson.
+First of all, if you ever have a doubt, refer to the [Azure ML SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-40229-cxa&ocid=AID3041109). It contains all the necessary information to understand the modules we are going to see in this lesson.
 
 #### 2.5.1 Setup Workspace, experiment, compute cluster and dataset
 
