@@ -26,7 +26,7 @@ Thanks to the democratization of AI, developers are now finding it easier to des
 
  * [Sports Analytics](https://towardsdatascience.com/scope-of-analytics-in-sports-world-37ed09c39860) - focuses on _predictive analytics_ (team and player analysis - think [Moneyball](https://datasciencedegree.wisconsin.edu/blog/moneyball-proves-importance-big-data-big-ideas/) - and fan management) and _data visualization_ (team & fan dashboards, games etc.) with applications like talent scouting, sports gambling and inventory/venue management.
 
- * [Data Science in Banking](https://data-flair.training/blogs/data-science-in-banking/) - highlights the value of data science in the finance industry with applications ranging from risk modeling and fraud detction, to customer segmentation, real-time prediction and recommender systems. Predictive analytics also drive critical measures like [credit scores](https://dzone.com/articles/using-big-data-and-predictive-analytics-for-credit).
+ * [Data Science in Banking](https://data-flair.training/blogs/data-science-in-banking/) - highlights the value of data science in the finance industry with applications ranging from risk modeling and fraud detection, to customer segmentation, real-time prediction and recommender systems. Predictive analytics also drive critical measures like [credit scores](https://dzone.com/articles/using-big-data-and-predictive-analytics-for-credit).
 
  * [Data Science in Healthcare](https://data-flair.training/blogs/data-science-in-healthcare/) - highlights applications like medical imaging (e.g., MRI, X-Ray, CT-Scan), genomics (DNA sequencing), drug development (risk assessment, success prediction), predictive analytics (patient care & supply logistics), disease tracking & prevention etc.
 
