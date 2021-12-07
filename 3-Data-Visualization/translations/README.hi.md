@@ -11,11 +11,11 @@
 इन पांच पाठों में, आप प्रकृति से प्राप्त डेटा का पता लगाएंगे और विभिन्न तकनीकों का उपयोग करके दिलचस्प और सुंदर विज़ुअलाइज़ेशन बनाएंगे।
 ### Topics
 
-1. [विज़ुअलाइज़िंग मात्रा](09-visualization-quantities/README.md)
-1. [विज़ुअलाइज़िंग वितरण](10-visualization-distributions/README.md)
-1. [विज़ुअलाइज़िंग अनुपात](11-visualization-proportions/README.md)
-1. [रिश्तों की कल्पना](12-visualization-relationships/README.md)
-1. [सार्थक विज़ुअलाइज़ेशन बनाना](13-meaningful-visualizations/README.md)
+1. [विज़ुअलाइज़िंग मात्रा](09-visualization-quantities/translations/README.hi.mdREADME.hi.md)
+1. [विज़ुअलाइज़िंग वितरण](10-visualization-distributions/translations/README.hi.md)
+1. [विज़ुअलाइज़िंग अनुपात](11-visualization-proportions/translations/README.hi.md)
+1. [रिश्तों की कल्पना](12-visualization-relationships/translations/README.hi.md)
+1. [सार्थक विज़ुअलाइज़ेशन बनाना](13-meaningful-visualizations/translations/README.hi.md)
 
 ### Credits
 
