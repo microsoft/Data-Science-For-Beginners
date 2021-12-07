@@ -1,6 +1,6 @@
 # The Data Science Lifecycle: Communication
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/16-Communicating.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev)](../../sketchnotes/16-Communicating.png)|
 |:---:|
 | Data Science Lifecycle: Communication - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
@@ -172,8 +172,6 @@ If Emerson took approach #2, it is much more likely that the team leads will tak
 	 - Use Meaningful Words & Phrases
 	 - Use Emotion
 
-## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/31)
-
 ### Recommended Resources for Self Study
 [The Five C's of Storytelling - Articulate Persuasion](http://articulatepersuasion.com/the-five-cs-of-storytelling/)
 
@@ -213,6 +211,13 @@ If Emerson took approach #2, it is much more likely that the team leads will tak
 
 [1. Communicating Data - Communicating Data with Tableau [Book] (oreilly.com)](https://www.oreilly.com/library/view/communicating-data-with/9781449372019/ch01.html)
 
+
+
+## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/31)
+
+Review what you've just learned with the Post-Lecture Quiz above!
+
+
 ## Assignment
 
-[Tell a story](assignment.md)
+[Market Research](assignment.md)
