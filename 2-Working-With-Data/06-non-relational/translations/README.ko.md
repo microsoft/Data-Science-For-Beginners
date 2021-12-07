@@ -14,7 +14,7 @@
 
 ![An empty Microsoft Excel workbook with two worksheets](../images/parts-of-spreadsheet.png)
 
-스프레드시트는 하나의 파일이며, 컴퓨터, 장치, 클라우드 기반 파일 시스템에서 접근할 수 있습니다. 소프트웨어 자체로써 브라우저 기반이거나 컴퓨터나 앱에서 다운로드해야 하는 응용 프로그램일 수도 있습니다. 엑셀에서 이러한 파일은 **워크북**이라고 적의되며, 이 과정의 나머지 부분에서 다시 설명하도록 하겠습니다.
+스프레드시트는 하나의 파일이며, 컴퓨터, 장치, 클라우드 기반 파일 시스템에서 접근할 수 있습니다. 소프트웨어 자체로써 브라우저 기반이거나 컴퓨터나 앱에서 다운로드해야 하는 응용 프로그램일 수도 있습니다. 엑셀에서 이러한 파일은 **워크북**이라고 정의되며, 이 과정의 나머지 부분에서 다시 설명하도록 하겠습니다.
 
 워크북은 하나 이상의 **워크시트**가 포함되며, 각 워크시트에는 탭으로 레이블이 지정됩니다. 워크시트에는 **셀**이라 불리는 사각형이 있고, 실제 데이터가 여기에 들어가게 됩니다. 셀은 행과 열의 교차하며 열에는 알파벳 문자의 레이블, 행에는 숫자 레이블이 지정됩니다. 일부 스프레드시트는 처음 몇 행에 셀의 데이터를 설명하는 머릿글이 위치할 수도 있습니다.
 
@@ -37,28 +37,27 @@
 NoSQL은 비관계적 데이터를 저장하는 다양한 방법을 포괄적으로 지칭하는 용어이며, "비SQL", "비-관계적" 또는 "SQL의 확장"으로 해석될 수 있다. 이러한 유형의 데이터베이스 시스템은 4가지 유형으로 분류할 수 있습니다.
 
 ![Graphical representation of a key-value data store showing 4 unique numerical keys that are associated with 4 various values](../images/kv-db.png)
-> 출처: [Michał Białecki Blog](https://www.michalbialecki.com/2018/03/18/azure-cosmos-db-key-value-database-cloud/)
+> 출처: [Michał Białecki 블로그](https://www.michalbialecki.com/2018/03/18/azure-cosmos-db-key-value-database-cloud/)
 
-[키-값](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#keyvalue-data-stores) databases pair unique keys, which are a unique identifier associated with a value. These pairs are stored using a [hash table](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/) with an appropriate hashing function.
+[키-값](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#keyvalue-data-stores) 데이터베이스는 값과 연결된 고유 식별자인 고유 키를 쌍으로 구성합니다. 이러한 쌍들은 해시 함수를 사용하여 [해시 테이블](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/)에 저장됩니다.
 
 
 ![Graphical representation of a graph data store showing the relationships between people, their interests and locations](../images/graph-db.png)
 > 출처: [Microsoft](https://docs.microsoft.com/en-us/azure/cosmos-db/graph/graph-introduction#graph-database-by-example)
 
-[그래프](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#graph-data-stores) databases describe relationships in data and are represented as a collection of nodes and edges. A node represents an entity, something that exists in the real world such as a student or bank statement. Edges represent the relationship between two entities  Each node and edge have properties that provides additional information about each node and edges.
+[그래프](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#graph-data-stores) 데이터베이스는 데이터의 관계를 설명하고 노드(node)와 엣지(edge)의 집합으로 표현됩니다. 노드는 학생 또는 은행 명세서처럼 실제 세계에 존재하는 엔티티를 나타냅니다. 엣지는 두 엔티티간의 관계를 나타냅니다. 각 노드와 가장자리는 각각에 대한 추가 정보를 제공하는 속성을 가지고 있습니다.
 
 ![Graphical representation of a columnar data store showing a customer database with two column families named Identity and Contact Info](../images/columnar-db.png)
 
-[열 기반](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) data stores organizes data into columns and rows like a relational data structure but each column is divided into groups called a column family, where the all the data under one column is related and can be retrieved and changed in one unit. 
+[컬럼 기반](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) 데이터 스토어는 데이터를 관계형 데이터 구조처럼 열과 행으로 구성하지만, 각 열은  컬럼패밀리(column family)라 불리는 그룹으로 나뉘며, 한 컬럼 아래의 모든 데이터가 관련되 하나의 단위로 검색 및 변경할 수 있습니다.
 
+### Azure Cosmos DB를 사용한 문서 데이터 저장소
 
-### Document Data Stores with the Azure Cosmos DB 
+[문서](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#document-data-stores) 데이터 저장소는 키 값 데이터 저장소의 개념을 기반으로 하며, 일련의 필드와 객체로 구성됩니다. 이 섹션에서는 Cosmos DB 에뮬레이터를 사용하여 문서 데이터베이스를 살펴봅니다.
 
-[Document](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#document-data-stores) data stores build on the concept of a key-value data store and is made up of a series of fields and objects. This section will explore document databases with the Cosmos DB emulator. 
+Cosmos DB 데이터베이스는 "Not Only SQL"의 정의에 부합하며, 여기서 Cosmos DB의 문서 데이터베이스는 SQL에 의존하여 데이터를 쿼리합니다. SQL에 대한 [이전 과정](../../05-relational-databases/README.md)에서는 언어의 기본 사항에 대해 설명하며 여기서 동일한 쿼리 중 일부를 문서 데이터베이스에 적용할 수 있습니다. 우리는 컴퓨터에서 로컬로 문서 데이터베이스를 만들고 탐색할 수 있는 Cosmos DB 에뮬레이터를 사용할 것입니다. 에뮬레이터에 관해서는 [이곳](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21)에서 더 자세히 알아보세요.
 
-A Cosmos DB database fits the definition of "Not Only SQL", where Cosmos DB's document database relies on SQL to query the data. The [previous lesson](../../05-relational-databases/README.md) on SQL covers the basics of the language, and we'll be able to apply some of the same queries to a document database here. We'll be using the Cosmos DB Emulator, which allows us to create and explore a document database locally on a computer. Read more about the Emulator [here](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21).
-
-A document is a collection of fields and object values, where the fields describe what the object value represents. Below is an example of a document.
+문서는 필드 및 오브젝트 값의 집합으로, 여기서 필드는 오브젝트 값이 나타내는 것을 설명합니다. 아래는 문서의 예시입니다.
 
 ```json
 {
@@ -73,37 +72,38 @@ A document is a collection of fields and object values, where the fields describ
 }
 ```
 
-The fields of interest in this document are: `firstname`, `id`, and `age`. The rest of the fields with the underscores were generated by Cosmos DB.
+이 문서의 관심 필드는 `firstname`, `id`, 그리고 `age` 입니다. 밑줄이 있는 나머지 필드는 Cosmos DB에서 생성되었습니다.
 
-#### Exploring Data with the Cosmos DB Emulator
+#### Cosmos DB 에뮬레이터를 이용한 데이터 탐색
 
-You can download and install the emulator [for Windows here](https://aka.ms/cosmosdb-emulator). Refer to this [documentation](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21#run-on-linux-macos) for options on how to run the Emulator for macOS and Linux.
+당신은 [이곳](https://aka.ms/cosmosdb-emulator)에서 윈도우 전용 에뮬레이터를 다운로드하여 설치할 수 있습니다. macOS 및 Linux용 에뮬레이터를 실행하는 방법은 이 [설명서](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21#run-on-linux-macos)를 참조하세요.
 
-The Emulator launches a browser window, where the Explorer view allows you to explore documents.
+에뮬레이터는 탐색기 보기를 통해 문서를 탐색할 수 있는 브라우저 창을 실행합니다.
 
-![The Explorer view of the Cosmos DB Emulator](images/cosmosdb-emulator-explorer.png)
+![The Explorer view of the Cosmos DB Emulator](../images/cosmosdb-emulator-explorer.png)
 
-If you're following along, click on "Start with Sample" to generate a sample database called SampleDB. If you expand Sample DB by clicking on the arrow you'll find a container called `Persons`, a container holds a collection of items, which are the documents within the container. You can explore the four individual documents under `Items`. 
+다음은 "샘플부터 시작(Start with Sample)"을 클릭하여 샘플DB(SampleDB)라고 불리는 샘플 데이터베이스를 
+생성합니다. 화살표를 클릭하여 샘플 DB를 확장하게 되면, 컨테이너 안에 있는 문서인 항목들을 모아둔 `사람`이라는 컨테이너가 있습니다. 당신은 이제 `항목` 아래에 있는 4개의 개별문서들을 탐색할 수 있습니다.
 
-![Exploring sample data in the Cosmos DB Emulator](images/cosmosdb-emulator-persons.png)
+![Exploring sample data in the Cosmos DB Emulator](../images/cosmosdb-emulator-persons.png)
 
-#### Querying Document Data with the Cosmos DB Emulator
+#### Cosmos DB 에뮬레이터를 사용한 문서 데이터 쿼리
 
-We can also query the sample data by clicking on the new SQL Query button (second button from the left).
+우리는 또한 새로운 SQL Query 버튼(왼쪽에서 2번째 버튼)을 클릭하여 샘플 데이터를 조회할 수 있습니다.
 
-`SELECT * FROM c` returns all the documents in the container. Let's add a where clause and find everyone younger than 40.
+`SELECT * FROM c` 는 컨테이너에 있는 모든 문서를 반환합니다. `WHERE` 절을 추가하고 40세 이하의 모든 사람을 찾아봅시다!
 
 `SELECT * FROM c where c.age < 40`
 
- ![Running a SELECT query on sample data in the Cosmos DB Emulator to find documents that have an age field value that is less than 40](images/cosmosdb-emulator-persons-query.png)
+ ![Running a SELECT query on sample data in the Cosmos DB Emulator to find documents that have an age field value that is less than 40](../images/cosmosdb-emulator-persons-query.png)
 
-The query returns two documents, notice the age value for each document is less than 40.
+이 쿼리는 나이에 대한 값이 40보다 작은 두 개의 문서를 반환합니다.
 
-#### JSON and Documents
+#### JSON 과 문서들
 
-If you're familiar with JavaScript Object Notation (JSON) you'll notice that documents look similar to JSON. There is a `PersonsData.json` file in this directory with more data that you may upload to the Persons container in the Emulator via the `Upload Item` button.
+만약 당신이 JavaScript Object Notation (JSON)에 익숙한 경우 문서가 JSON과 유사하다는 것을 알 수 있습니다. 이 디렉토리에는 `항목 업로드` 버튼을 통해 에뮬레이터의 사용자 컨테이너에 업로드할 수 있는 더 많은 데이터가 포함된 `PersonData.json` 파일이 있습니다.
 
-In most instances, APIs that return JSON data can be directly transferred and stored in document databases. Below is another document, it represents tweets from the Microsoft Twitter account that was retrieved using the Twitter API, then inserted into Cosmos DB.
+대부분의 경우 JSON 데이터를 반환하는 API는 문서 데이터 베이스에 직접 전송 및 저장할 수 있습니다. 아래는 트위터 API를 사용하여 검색된 마이크로소프트 트위터 계정의 트윗을 나타낸 문서이며 Cosmos DB에 삽입되었습니다.
 
 ```json
 {
@@ -117,34 +117,33 @@ In most instances, APIs that return JSON data can be directly transferred and st
     "_ts": 1630537000
 ```
 
-The fields of interest in this document are: `created_at`, `id`, and `text`.
+이 문서의 관심 필드는 `created_at`, `id`, 그리고 `text` 입니다.
 
-## 🚀 Challenge
+## 🚀 과제
 
+샘플 DB 데이터베이스에 업로드할 수 있는 `TwitterData.json` 파일이 있습니다. 별도의 컨테이너에 추가하는 것을 추천합니다. 이 작업은 다음에 따라 수행할 수 있습니다.:
 
-There is a `TwitterData.json` file that you can upload to the SampleDB database. It's recommended that you add it to a separate container. This can be done by:
+1. 오른쪽 상단에 있는 새 컨테이너 버튼을 클릭합니다.
+1. 컨테이너에 대한 컨테이너 id 를 작성하는 기존 데이터베이스(Sample DB)를 선택합니다.
+1. 파티션 키를 `/id`로 설정합니다.
+1. OK(확인)를 클릭합니다.(이 보기의 나머지 정보는 컴퓨터에서 로컬로 실행되는 작은 데이터 집합이므로 무시할 수 있습니다.)
+1. 새 컨테이너를 열고 `항목업로드`버튼으로 트위터 데이터 파일을 업로드합니다.
 
-1. Clicking the new container button in the top right
-1. Selecting the existing database (SampleDB) creating a container id for the container
-1. Setting the partition key to `/id`
-1. Clicking OK (you can ignore rest of the information in this view as this is a small dataset running locally on your machine)
-1. Open your new container and upload the Twitter Data file with `Upload Item` button
-
-Try to run a few select queries to find the documents that have Microsoft in the text field. Hint: try to use the [LIKE keyword](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character)
-
-
-## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/11)
+텍스트 필드에 Microsoft가 있는 문서를 찾기 위해 몇 가지 쿼리를 실행해 보십시오. 힌트: [LIKE 키워드](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character)를 사용해 보십시오.
 
 
+## [강의 후 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/11)
 
-## Review & Self Study
 
-- There are some additional formatting and features added to this spreadsheet that this lesson does not cover. Microsoft has a [large library of documentation and videos](https://support.microsoft.com/excel) on Excel if you're interested in learning more.
 
-- This architectural documentation details the characteristics in the different types of non-relational data: [Non-relational Data and NoSQL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data)
+## 리뷰 & 복습
 
-- Cosmos DB is a cloud based non-relational database that can also store the different NoSQL types mentioned in this lesson. Learn more about these types in this [Cosmos DB Microsoft Learn Module](https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/)
+- 이 과정에서는 다루지 않는 일부 추가 형식 및 기능이 이 스프레드쉬트에 추가되었습니다. 마이크로 소프트는 흥미를 가질만한 엑셀에 대한 [많은 영상과 문서들](https://support.microsoft.com/excel)을 가지고 있습니다.
 
-## Assignment
+- 이 아키텍처 문서에는 여러 유형의 비관계형 데이터의 특성이 자세히 나와 있습니다: [비-관계형 데이터와 NoSQL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data)
 
-[Soda Profits](assignment.md)
+- Cosmos DB는 클라우드 기반 비관계형 데이터베이스로, 이 과정에서 언급한 다양한 NoSQL 유형도 저장할 수 있습니다. [Cosmos DB Microsoft 학습 모듈](https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/)에서 이러한 유형에 대해 자세히 알아보세요.
+
+## 과제
+
+[탄산음료 수익](assignment.md)
