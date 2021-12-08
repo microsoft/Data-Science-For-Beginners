@@ -26,37 +26,37 @@
 
 
 
-## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/12)
+## [강의 전 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/12)
 
-## Tabular Data and Dataframes
+## 표 형식 데이터 및 데이터 프레임
 
-You have already met tabular data when we talked about relational databases. When you have a lot of data, and it is contained in many different linked tables, it definitely makes sense to use SQL for working with it. However, there are many cases when we have a table of data, and we need to gain some **understanding** or **insights** about this data, such as the distribution, correlation between values, etc. In data science, there are a lot of cases when we need to perform some transformations of the original data, followed by visualization. Both those steps can be easily done using Python.
+이전에 관계형 데이터베이스에 대해 이야기할 때 이미 표 형식의 데이터를 다뤘습니다. 데이터가 많고 다양한 테이블이 연결된 경우 SQL을 사용하여 작업하는 것이 좋습니다. 그러나, 데이터 테이블을 가질 때 많은 경우들이 있으며, 우리는 분포, 값들 사이의 상관관계 등과 같이 데이터 자체에 대한 조금의 **이해**나 **통찰력**을 얻을 필요가 있습니다. 데이터 과학에서는 원본 데이터의 일부 변환을 수행한 후 시각화를 수행해야 하는 경우가 많습니다. 이 두 단계는 파이썬을 사용하면 쉽게 수행할 수 있습니다.
 
-There are two most useful libraries in Python that can help you deal with tabular data:
-* **[Pandas](https://pandas.pydata.org/)** allows you to manipulate so-called **Dataframes**, which are analogous to relational tables. You can have named columns, and perform different operations on row, columns and dataframes in general. 
-* **[Numpy](https://numpy.org/)** is a library for working with **tensors**, i.e. multi-dimensional **arrays**. Array has values of the same underlying type, and it is simpler than dataframe, but it offers more mathematical operations, and creates less overhead.
+파이썬에는 표 형식의 데이터를 처리하는 데 도움이 되는 두 가지 가장 유용한 라이브러리가 있습니다:
+* **[Pandas](https://pandas.pydata.org/)** 를 사용하면 관계형 테이블과 유사한 이른바 **데이터 프레임**을 조작할 수 있습니다. 명명된 컬럼을 가질 수 있으며 일반적으로 행,열 및 데이터 프레임에 대해 다양한 작업을 수행할 수 있습니다.
+* **[Numpy](https://numpy.org/)** 는 **tensors(텐서)** 작업을 위한 라이브러리 입니다. (예: 다차원 **배열**). 배열은 동일한 기본 유형의 값을 가지며 데이터 프레임보다 간단하지만, 더 많은 수학적 연산을 제공하고 오버헤드를 덜 발생시킵니다.
 
-There are also a couple of other libraries you should know about:
-* **[Matplotlib](https://matplotlib.org/)** is a library used for data visualization and plotting graphs
-* **[SciPy](https://www.scipy.org/)** is a library with some additional scientific functions. We have already come across this library when talking about probability and statistics
+또한 알아야 할 몇 개의 또 다른 라이브러리들도 있습니다:
+* **[Matplotlib](https://matplotlib.org/)** 은 데이터 시각화 및 플롯 그래프에 사용되는 라이브러리입니다.
+* **[SciPy](https://www.scipy.org/)** 는 몇 가지 추가적인 과학적 기능을 가진 라이브러리이다. 우리는 확률과 통계에 대해 이야기할 때 이 라이브러리를 사용합니다.
 
-Here is a piece of code that you would typically use to import those libraries in the beginning of your Python program:
+다음은 파이썬 프로그램 시작 부분에서 이러한 라이브러리를 가져오기 위해 일반적으로 사용하는 코드 일부입니다:
 ```python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from scipy import ... # you need to specify exact sub-packages that you need
+from scipy import ... # 필요한 하위 항목을 정확하게 지정해야 합니다.
 ``` 
 
-Pandas is centered around a few basic concepts.
+Pandas는 몇 가지 기본적인 개념을 중심으로 합니다.
 
-### Series 
+### 시리즈(Series) 
 
-**Series** is a sequence of values, similar to a list or numpy array. The main difference is that series also has an **index**, and when we operate on series (eg., add them), the index is taken into account. Index can be as simple as integer row number (it is the index used by default when creating a series from list or array), or it can have a complex structure, such as date interval.
+**시리즈(Series)** 은 리스트 또는 numpy 배열과 유사한 일련의 값들입니다. 주요 차이점은 시리즈에도 **색인**이 있고 시리즈에 대해 작업할 때(예: 추가) 인덱스가 고려된다는 것입니다. 인덱스는 정수 행 번호만큼 단순할 수도 있고(목록 또는 배열에서 시리즈를 생성할 때 기본적으로 사용되는 인덱스) 날짜 간격과 같은 복잡한 구조를 가질 수도 있습니다.
 
-> **Note**: There is some introductory Pandas code in the accompanying notebook [`notebook.ipynb`](notebook.ipynb). We only outline some the examples here, and you are definitely welcome to check out the full notebook.
+> **주의**: 동봉된 [`notebook.ipynb`](notebook.ipynb) 파일에는 몇 가지 Pandas 소개 코드가 있습니다. 여기서는 몇 가지 예시만 간략히 설명하며, 전체 notebook 코드를 확인해 보시기 바랍니다.
 
-Consider an example: we want to analyze sales of our ice-cream spot. Let's generate a series of sales numbers (number of items sold each day) for some time period:
+예시: 우리는 아이스크림 가게의 매출을 분석하려고 합니다. 일정 기간 동안 일련의 판매 번호(매일 판매되는 품목 수)를 생성해 봅시다.
 
 ```python
 start_date = "Jan 1, 2020"
@@ -66,47 +66,47 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Time Series Plot](images/timeseries-1.png)
+![Time Series Plot](../images/timeseries-1.png)
 
-Now suppose that each week we are organizing a party for friends, and we take additional 10 packs of ice-cream for a party. We can create another series, indexed by week, to demonstrate that:
+이제 우리가 매주 친구들을 위한 파티를 준비하고, 파티를 위해 아이스크림 10팩을 추가로 가져간다고 가정해 봅시다. 이것을 증명하기 위해 주간별로 색인화된 또 다른 시리즈를 만들 수 있습니다:
 ```python
 additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"))
 ```
-When we add two series together, we get total number:
+두 시리즈를 더하면 총 갯수(total_items)가 나온다:
 ```python
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Time Series Plot](images/timeseries-2.png)
+![Time Series Plot](../images/timeseries-2.png)
 
-> **Note** that we are not using simple syntax `total_items+additional_items`. If we did, we would have received a lot of `NaN` (*Not a Number*) values in the resulting series. This is because there are missing values for some of the index point in the `additional_items` series, and adding `Nan` to anything results in `NaN`. Thus we need to specify `fill_value` parameter during addition.
+> **주의** 지금까지 우리는 `total_control+control_control_control` 이라는 간단한 구문을 사용하지 않고 있습니다. 그랬다면 결과 시리즈에서 많은 `NaN` (*숫자가 아님*) 값을 받았을 것입니다. 이는 `additional_items` 시리즈의 일부 인덱스 포인트에 누락된 값이 있고 항목에 `Nan`을 추가하면 `NaN`이 되기 때문입니다. 따라서 추가하는 동안 'fill_value' 매개변수를 지정해야 합니다.
 
-With time series, we can also **resample** the series with different time intervals. For example, suppose we want to compute mean sales volume monthly. We can use the following code:
+시계열을 사용하면 다른 시간 간격으로 시리즈를 **리샘플링(resample)**할 수도 있습니다. 예를 들어, 월별 평균 판매량을 계산하려고 한다고 가정합니다. 다음 코드를 사용할 수 있습니다:
 ```python
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Monthly Time Series Averages](images/timeseries-3.png)
+![Monthly Time Series Averages](../images/timeseries-3.png)
 
-### DataFrame
+### 데이터프레임
 
-A DataFrame is essentially a collection of series with the same index. We can combine several series together into a DataFrame:
+데이터프레임은 기본적으로 동일한 인덱스를 가진 시리즈 모음입니다. 여러 시리즈를 데이터프레임으로 결합할 수 있습니다:
 ```python
 a = pd.Series(range(1,10))
 b = pd.Series(["I","like","to","play","games","and","will","not","change"],index=range(0,9))
 df = pd.DataFrame([a,b])
 ```
-This will create a horizontal table like this:
+이렇게 하면 다음과 같은 가로 테이블이 생성됩니다:
 |     | 0   | 1    | 2   | 3   | 4      | 5   | 6      | 7    | 8    |
 | --- | --- | ---- | --- | --- | ------ | --- | ------ | ---- | ---- |
 | 0   | 1   | 2    | 3   | 4   | 5      | 6   | 7      | 8    | 9    |
 | 1   | I   | like | to  | use | Python | and | Pandas | very | much |
 
-We can also use Series as columns, and specify column names using dictionary:
+시리즈를 열로 사용하고 딕셔너리(Dictionary)를 사용하여 열 이름을 지정할 수도 있습니다:
 ```python
 df = pd.DataFrame({ 'A' : a, 'B' : b })
 ```
-This will give us a table like this:
+위의 코드는 다음과 같은 테이블을 얻을 수 있습니다:
 
 |     | A   | B      |
 | --- | --- | ------ |
@@ -120,39 +120,39 @@ This will give us a table like this:
 | 7   | 8   | very   |
 | 8   | 9   | much   |
 
-**Note** that we can also get this table layout by transposing the previous table, eg. by writing 
+**주의** 또한 이전 표를 바꿔서 이 같은 표 레이아웃을 얻을 수 있습니다.
 ```python
 df = pd.DataFrame([a,b]).T..rename(columns={ 0 : 'A', 1 : 'B' })
 ```
-Here `.T` means the operation of transposing the DataFrame, i.e. changing rows and columns, and `rename` operation allows us to rename columns to match the previous example.
+여기서 `.T`는 행과 열을 변경하는 DataFrame을 전치하는 작업, 즉 행과 열을 변경하는 작업을 의미하며 `rename` 작업을 사용하면 이전 예제와 일치하도록 열 이름을 바꿀 수 있습니다.
 
-Here are a few most important operations we can perform on DataFrames:
+다음은 데이터프레임에서 수행할 수 있는 몇 가지 가장 중요한 작업입니다:
 
-**Column selection**. We can select individual columns by writing `df['A']` - this operation returns a Series. We can also select a subset of columns into another DataFrame by writing `df[['B','A']]` - this return another DataFrame.
+**특정 컬럼 선택(Column selection)**. `df['A']`를 작성하여 개별 열을 선택할 수 있습니다. 이 작업은 시리즈를 반환합니다. 또한 `df[['B','A']]`를 작성하여 열의 하위 집합을 다른 데이터프레임으로 선택할 수 있습니다. 그러면 다른 데이터프레임이 반환됩니다.
 
-**Filtering** only certain rows by criteria. For example, to leave only rows with column `A` greater than 5, we can write `df[df['A']>5]`.
+**필터링(Filtering)** 은 기준에 따라 특정 행만 적용합니다. 예를 들어 `A` 열이 5보다 큰 행만 남기려면 `df[df['A']>5]`라고 쓸 수 있습니다.
 
-> **Note**: The way filtering works is the following. The expression `df['A']<5` returns a boolean series, which indicates whether expression is `True` or `False` for each element of the original series `df['A']`. When boolean series is used as an index, it returns subset of rows in the DataFrame. Thus it is not possible to use arbitrary Python boolean expression, for example, writing `df[df['A']>5 and df['A']<7]` would be wrong. Instead, you should use special `&` operation on boolean series, writing `df[(df['A']>5) & (df['A']<7)]` (*brackets are important here*).
+> **주의**: 필터링이 작동하는 방식은 다음과 같습니다. 표현식 `df['A']<5`는 원래 시리즈 `df['A']`의 각 요소에 대해 표현식이 `True`인지 아니면 `False`인지를 나타내는 `부울(Boolean)` 시리즈를 반환합니다. 부울 계열이 인덱스로 사용되면 데이터프레임에서 행의 하위 집합을 반환합니다. 따라서 임의의 Python 부울 표현식을 사용할 수 없습니다. 예를 들어 `df[df['A']>5 및 df['A']<7]`를 작성하는 것은 잘못된 것입니다. 대신, 부울 계열에 특수 `&` 연산을 사용하여 `df[(df['A']>5) & (df['A']<7)]`로 작성해야 합니다(*여기서 대괄호가 중요합니다*).
 
-**Creating new computable columns**. We can easily create new computable columns for our DataFrame by using intuitive expression like this:
+**새로운 계산 가능한 열 만들기**. 우리는 직관적인 표현을 사용하여 데이터프레임에 대한 새로운 계산 가능한 열을 쉽게 만들 수 있습니다.:
 ```python
 df['DivA'] = df['A']-df['A'].mean() 
 ``` 
-This example calculates divergence of A from its mean value. What actually happens here is we are computing a series, and then assigning this series to the left-hand-side, creating another column. Thus, we cannot use any operations that are not compatible with series, for example, the code below is wrong:
+이 예제에서는 평균값으로부터 A의 차이를 계산합니다. 여기서 실제로 발생하는 일은 열을 계산하고 왼쪽에 이 열을 할당하여 다른 열을 만드는 것입니다. 따라서 시리즈와 호환되지 않는 연산은 사용할 수 없습니다. 예를 들어 아래와 같은 코드는 잘못되었습니다.:
 ```python
-# Wrong code -> df['ADescr'] = "Low" if df['A'] < 5 else "Hi"
-df['LenB'] = len(df['B']) # <- Wrong result
+# 잘못된 코드 -> df['ADescr'] = "Low" if df['A'] < 5 else "Hi"
+df['LenB'] = len(df['B']) # <- 잘못된 결과
 ``` 
-The latter example, while being syntactically correct, gives us wrong result, because it assigns the length of series `B` to all values in the column, and not the length of individual elements as we intended.
+위의 예제는 문법적으로는 정확하지만, 우리가 의도한 대로 개별 요소의 길이가 아니라 열의 모든 값에 시리즈 `B`의 길이를 할당하기 때문에 잘못된 결과를 도출합니다.
 
-If we need to compute complex expressions like this, we can use `apply` function. The last example can be written as follows:
+이와 같이 복잡한 표현식을 계산해야 하는 경우 `apply` 함수를 사용할 수 있습니다. 마지막 예제는 다음과 같이 작성할 수 있습니다:
 ```python
 df['LenB'] = df['B'].apply(lambda x : len(x))
 # or 
 df['LenB'] = df['B'].apply(len)
 ```
 
-After operations above, we will end up with the following DataFrame:
+위의 작업 후에 다음과 같은 데이터프레임이 완성됩니다:
 
 |     | A   | B      | DivA | LenB |
 | --- | --- | ------ | ---- | ---- |
@@ -166,16 +166,16 @@ After operations above, we will end up with the following DataFrame:
 | 7   | 8   | very   | 3.0  | 4    |
 | 8   | 9   | much   | 4.0  | 4    |
 
-**Selecting rows based on numbers** can be done using `iloc` construct. For example, to select first 5 rows from the DataFrame:
+**숫자를 기준으로 행 선택** `iloc(정수 위치:integer location)` 구성을 사용하여 수행할 수 있습니다. 예를 들어 데이터프레임에서 처음 5개 행을 선택하려면:
 ```python
 df.iloc[:5]
 ```
 
-**Grouping** is often used to get a result similar to *pivot tables* in Excel. Suppose that we want to compute mean value of column `A` for each given number of `LenB`. Then we can group our DataFrame by `LenB`, and call `mean`:
+**그룹화(Grouping)** 는 종종 Excel의 *피벗 테이블*과 유사한 결과를 얻는 데 사용됩니다. 주어진 `LenB` 수에 대해 `A` 열의 평균 값을 계산하려고 한다고 가정합니다. 그런 다음 `LenB`로 데이터프레임을 그룹화하고 `mean`을 호출할 수 있습니다:
 ```python
 df.groupby(by='LenB').mean()
 ```
-If we need to compute mean and the number of elements in the group, then we can use more complex `aggregate` function:
+그룹의 요소 수와 평균을 계산해야 하는 경우 더 복잡한 `집계(aggregate)` 함수를 사용할 수 있습니다:
 ```python
 df.groupby(by='LenB') \
  .aggregate({ 'DivA' : len, 'A' : lambda x: x.mean() }) \
@@ -191,92 +191,94 @@ This gives us the following table:
 | 4    | 3     | 6.333333 |
 | 6    | 2     | 6.000000 |
 
-### Getting Data
+### 데이터 얻기
 
-We have seen how easy it is to construct Series and DataFrames from Python objects. However, data usually comes in the form of a text file, or an Excel table. Luckily, Pandas offers us a simple way to load data from disk. For example, reading CSV file is as simple as this:
+우리는 Python 객체에서 시리즈 및 데이터프레임을 구성하는 것이 얼마나 쉬운지 보았습니다. 그러나 데이터는 일반적으로 텍스트 파일 또는 Excel 표의 형태로 제공됩니다. 운 좋게도 Pandas는 디스크에서 데이터를 로드하는 간단한 방법을 제공합니다. 예를 들어 CSV 파일을 읽는 것은 다음과 같이 간단합니다:
 ```python
 df = pd.read_csv('file.csv')
 ```
-We will see more examples of loading data, including fetching it from external web sites, in the "Challenge" section
+"도전(Channenge)" 섹션에서 외부 웹 사이트에서 가져오기를 포함하여 데이터를 로드하는 더 많은 예를 볼 수 있습니다.
 
 
-### Printing and Plotting
+### 출력(Printing) 및 플로팅(Plotting)
 
-A Data Scientist often has to explore the data, thus it is important to be able to visualize it. When DataFrame is big, many times we want just to make sure we are doing everything correctly by printing out the first few rows. This can be done by calling `df.head()`. If you are running it from Jupyter Notebook, it will print out the DataFrame in a nice tabular form.
+데이터 과학자는 종종 데이터를 탐색해야 하므로 시각화할 수 있는 것이 중요합니다. 데이터프레임이 클 때 처음 몇 행을 인쇄하여 모든 작업을 올바르게 수행하고 있는지 확인하려는 경우가 많습니다. 이것은 `df.head()`를 호출하여 수행할 수 있습니다. Jupyter Notebook에서 실행하는 경우 데이터프레임을 멋진 표 형식으로 인쇄합니다.
 
-We have also seen the usage of `plot` function to visualize some columns. While `plot` is very useful for many tasks, and supports many different graph types via `kind=` parameter, you can always use raw `matplotlib` library to plot something more complex. We will cover data visualization in detail in separate course lessons.
+또한 일부 열을 시각화하기 위해 'plot' 함수를 사용하는 것을 보았습니다. `plot`은 많은 작업에 매우 유용하고 `kind=` 매개변수를 통해 다양한 그래프 유형을 지원하지만, 항상 원시 `matplotlib` 라이브러리를 사용하여 더 복잡한 것을 그릴 수 있습니다. 데이터 시각화는 별도의 강의에서 자세히 다룰 것입니다.
 
-This overview covers most important concepts of Pandas, however, the library is very rich, and there is no limit to what you can do with it! Let's now apply this knowledge for solving specific problem.
+이 개요는 Pandas의 가장 중요한 개념을 다루지만 Pandas 라이브러리는 매우 풍부하고 이를 사용하여 수행할 수 있는 작업은 무궁무진합니다! 이제 특정 문제를 해결하기 위해 배운 것을 적용해 보겠습니다.
 
-## 🚀 Challenge 1: Analyzing COVID Spread
+## 🚀 도전과제 1: 코로나 확산 분석
 
-First problem we will focus on is modelling of epidemic spread of COVID-19. In order to do that, we will use the data on the number of infected individuals in different countries, provided by the [Center for Systems Science and Engineering](https://systems.jhu.edu/) (CSSE) at [Johns Hopkins University](https://jhu.edu/). Dataset is available in [this GitHub Repository](https://github.com/CSSEGISandData/COVID-19).
+우리가 초점을 맞출 첫 번째 문제는 COVID-19의 전염병 확산 모델링입니다. 이를 위해 [존 홉킨스 대학](https://jhu.edu/)의 [시스템 과학 및 엔지니어링 센터](https://systems.jhu.edu/)(CSSE)에서 제공하는 여러 국가의 감염자 수 데이터를 사용합니다. 이 [GitHub 레포지토리](https://github.com/CSSEGISandData/COVID-19)에서 데이터 세트를 사용할 수 있습니다.
 
-Since we want to demonstrate how to deal with data, we invite you to open [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) and read it from top to bottom. You can also execute cells, and do some challenges that we have left for you at the end.
+데이터를 다루는 방법을 보여주고 싶기 때문에 `notebook-covidspread.ipynb`(notebook-covidspread.ipynb)를 열고 위에서 아래로 읽으시기 바랍니다. 셀을 실행할 수도 있고 마지막에 남겨둔 몇 가지 과제를 수행할 수도 있습니다.
 
-![COVID Spread](images/covidspread.png)
+![COVID Spread](../images/covidspread.png)
 
-> If you do not know how to run code in Jupyter Notebook, have a look at [this article](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+> Jupyter Notebook에서 코드를 실행하는 방법을 모르는 경우 [이 기사](https://soshnikov.com/education/how-to-execute-notebooks-from-github/)를 참조하십시오.
 
-## Working with Unstructured Data
+## 비정형 데이터 작업
 
-While data very often comes in tabular form, in some cases we need to deal with less structured data, for example, text or images. In this case, to apply data processing techniques we have seen above, we need to somehow **extract** structured data. Here are a few examples:
+데이터가 표 형식으로 제공되는 경우가 많지만 경우에 따라 텍스트나 이미지와 같이 덜 구조화된 데이터를 처리해야 합니다. 이 경우 위에서 본 데이터 처리 기술을 적용하려면 어떻게든 구조화된 데이터를 **추출(extract)** 해야 합니다. 다음은 몇 가지 예시입니다:
 
-* Extracting keywords from text, and seeing how often those keywords appear
-* Using neural networks to extract information about objects on the picture
-* Getting information on emotions of people on video camera feed
+* 텍스트에서 키워드 추출 및 해당 키워드가 나타나는 빈도 확인
+* 신경망을 사용하여 그림의 개체에 대한 정보 추출
+* 비디오 카메라 피드에서 사람들의 감정에 대한 정보 얻기
 
-## 🚀 Challenge 2: Analyzing COVID Papers
+## 🚀 도전과제 2: 코로나 논문 분석
 
-In this challenge, we will continue with the topic of COVID pandemic, and focus on processing scientific papers on the subject. There is [CORD-19 Dataset](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) with more than 7000 (at the time of writing) papers on COVID, available with metadata and abstracts (and for about half of them there is also full text provided).
+이 도전과제에서 우리는 COVID 팬데믹이라는 주제를 계속해서 다룰 것이며 해당 주제에 대한 과학 논문을 처리하는 데 집중할 것입니다. 메타데이터 및 초록과 함께 사용할 수 있는 COVID에 대한 7000개 이상의(작성 당시) 논문이 포함된 [CORD-19 데이터 세트](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge)가 있습니다(이 중 약 절반에 대해 전체 텍스트도 제공됨). 
 
-A full example of analyzing this dataset using [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health/?WT.mc_id=academic-31812-dmitryso) cognitive service is described [in this blog post](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/). We will discuss simplified version of this analysis.
+[건강 인지 서비스를 위한 텍스트 분석](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health/?WT.mc_id=academic-31812-dmitryso)를 사용하여 이 데이터 세트를 분석하는 전체 예는 이 블로그 게시물에 설명되어 있습니다. 우리는 이 분석의 단순화된 버전에 대해 논의할 것입니다.
 
-> **NOTE**: We do not provide a copy of the dataset as part of this repository. You may first need to download the [`metadata.csv`](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge?select=metadata.csv) file from [this dataset on Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge). Registration with Kaggle may be required. You may also download the dataset without registration [from here](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), but it will include all full texts in addition to metadata file.
+> **주의**: 우리는 더이상 데이터 세트의 복사본을 이 리포지토리의 일부로 제공하지 않습니다. 먼저 [Kaggle의 데이터세트](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge)에서 [`metadata.csv`](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge?select=metadata.csv) 파일을 다운로드해야 할 수도 있습니다. Kaggle에 가입해야 할 수 있습니다. [여기](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html)에서 등록 없이 데이터 세트를 다운로드할 수도 있지만 여기에는 메타데이터 파일 외에 모든 전체 텍스트가 포함됩니다.
 
-Open [`notebook-papers.ipynb`](notebook-papers.ipynb) and read it from top to bottom. You can also execute cells, and do some challenges that we have left for you at the end.
+[`notebook-papers.ipynb`](notebook-papers.ipynb)를 열고 위에서 아래로 읽으십시오. 셀을 실행할 수도 있고 마지막에 남겨둔 몇 가지 과제를 수행할 수도 있습니다.
 
-![Covid Medical Treatment](images/covidtreat.png)
+![Covid Medical Treatment](../images/covidtreat.png)
 
-## Processing Image Data
+## 이미지 데이터 처리
 
-Recently, very powerful AI models have been developed that allow us to understand images. There are many tasks that can be solved using pre-trained neural networks, or cloud services. Some examples include:
+최근에는 이미지를 이해할 수 있는 매우 강력한 AI 모델이 개발되었습니다. 사전에 훈련된 신경망이나 클라우드 서비스를 사용하여 해결할 수 있는 작업이 많이 있습니다. 몇 가지 예는 다음과 같습니다:
 
-* **Image Classification**, which can help you categorize the image into one of the pre-defined classes. You can easily train your own image classifiers using services such as [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-31812-dmitryso)
-* **Object Detection** to detect different objects in the image. Services such as [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-31812-dmitryso) can detect a number of common objects, and you can train [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-31812-dmitryso) model to detect some specific objects of interest.
-* **Face Detection**, including Age, Gender and Emotion detection. This can be done via [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-31812-dmitryso).
+* **이미지 분류(Image Classification)** 는 이미지를 미리 정의된 클래스 중 하나로 분류하는 데 도움이 됩니다. [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-31812-dmitryso)과 같은 서비스를 사용하여 자신의 이미지 분류기를 쉽게 훈련할 수 있습니다.
+* **물체 검출** 은 이미지에서 다른 물체를 감지합니다. [컴퓨터 비전(Computer vision)](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-31812-dmitryso)과 같은 서비스는 여러 일반 개체를 감지할 수 있으며 [커스텀 비전(Custom Vision)](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-31812-dmitryso) 모델을 훈련하여 관심 있는 특정 개체를 감지할 수 있습니다.
+* **얼굴 인식** 은 연령, 성별 및 감정 감지를 포함합니다. 이것은 [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-31812-dmitryso)를 통해 수행할 수 있습니다.
 
-All those cloud services can be called using [Python SDKs](https://docs.microsoft.com/samples/azure-samples/cognitive-services-python-sdk-samples/cognitive-services-python-sdk-samples/?WT.mc_id=academic-31812-dmitryso), and thus can be easily incorporated into your data exploration workflow. 
+이러한 모든 클라우드 서비스는 [Python SDK](https://docs.microsoft.com/samples/azure-samples/cognitive-services-python-sdk-samples/cognitive-services-python-sdk-samples/?WT.mc_id=academic-31812-dmitryso)를 사용하여 호출할 수 있으므로, 데이터 탐색 워크플로에 쉽게 통합할 수 있습니다.
+ 
+다음은 이미지 데이터 소스에서 데이터를 탐색하는 몇 가지 예입니다:
+* 블로그 게시물 중 [코딩 없이 데이터 과학을 배우는 방법](https://soshnikov.com/azure/how-to-learn-data-science-without-coding/)에서 우리는 인스타그램 사진을 살펴보고 사람들이 사진에 더 많은 좋아요를 주는 이유를 이해하려고 합니다. 먼저 [컴퓨터 비전(Computer vision)](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-31812-dmitryso)을 사용하여 사진에서 최대한 많은 정보를 추출한 다음 [Azure Machine Learning AutoML](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml/?WT.mc_id=academic-31812-dmitryso)을 사용하여 해석 가능한 모델을 빌드합니다.
+* [얼굴 연구 워크숍(Facial Studies Workshop)](https://github.com/CloudAdvocacy/FaceStudies)에서는 사람들을 행복하게 만드는 요소를 이해하고자, 이벤트에서 사진에 있는 사람들의 감정을 추출하기 위해 [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-31812-dmitryso)를 사용합니다.
 
-Here are some examples of exploring data from Image data sources:
-* In the blog post [How to Learn Data Science without Coding](https://soshnikov.com/azure/how-to-learn-data-science-without-coding/) we explore Instagram photos, trying to understand what makes people give more likes to a photo. We first extract as much information from pictures as possible using [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-31812-dmitryso), and then use [Azure Machine Learning AutoML](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml/?WT.mc_id=academic-31812-dmitryso) to build interpretable model.
-* In [Facial Studies Workshop](https://github.com/CloudAdvocacy/FaceStudies) we use [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-31812-dmitryso) to extract emotions on people on photographs from events, in order to try to understand what makes people happy. 
+## 결론
 
-## Conclusion
-
-Whether you already have structured or unstructured data, using Python you can perform all steps related to data processing and understanding. It is probably the most flexible way of data processing, and that is the reason the majority of data scientists use Python as their primary tool. Learning Python in depth is probably a good idea if you are serious about your data science journey!
+이미 정형 데이터이든 비정형 데이터이든 관계없이 Python을 사용하여 데이터 처리 및 이해와 관련된 모든 단계를 수행할 수 있습니다. 아마도 가장 유연한 데이터 처리 방법일 것이며, 이것이 대부분의 데이터 과학자들이 Python을 기본 도구로 사용하는 이유입니다. 데이터 과학 여정에 대해 진지하게 생각하고 있다면 Python을 깊이 있게 배우는 것이 좋습니다!
 
 
+## [강의 후 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/13)
 
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/13)
+## 리뷰 & 복습
 
-## Review & Self Study
+**책**
 
-**Books**
-* [Wes McKinney. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython](https://www.amazon.com/gp/product/1491957662)
+* [Wes McKinney. 데이터 분석을 위한 Python: Pandas, NumPy 및 IPython을 사용한 데이터 논쟁(Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython)](https://www.amazon.com/gp/product/1491957662)
 
-**Online Resources**
-* Official [10 minutes to Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html) tutorial
-* [Documentation on Pandas Visualization](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
+**온라인 자료**
 
-**Learning Python**
-* [Learn Python in a Fun Way with Turtle Graphics and Fractals](https://github.com/shwars/pycourse)
-* [Take your First Steps with Python](https://docs.microsoft.com/learn/paths/python-first-steps/?WT.mc_id=academic-31812-dmitryso) Learning Path on [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=academic-31812-dmitryso)
+* 공식 [판다까지 10분(10 minutes to Pandas)](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html) tutorial
+* [Pandas 시각화에 대한 문서(Documentation on Pandas Visualization)](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
 
-## Assignment
+**Python 학습**
 
-[Perform more detailed data study for the challenges above](assignment.md)
+* [거북이 그래픽과 도형으로 재미있는 방식으로 파이썬 배우기(Learn Python in a Fun Way with Turtle Graphics and Fractals)](https://github.com/shwars/pycourse)
+* [파이썬으로 첫걸음(Take your First Steps with Python)](https://docs.microsoft.com/learn/paths/python-first-steps/?WT.mc_id=academic-31812-dmitryso): 관련 강의 [Microsoft 강의](http://learn.microsoft.com/?WT.mc_id=academic-31812-dmitryso)
 
-## Credits
+## 과제
 
-This lesson has been authored with ♥️ by [Dmitry Soshnikov](http://soshnikov.com)
+[Perform more detailed data study for the challenges above](../assignment.md)
+
+## 크레딧
+
+본 레슨은 [Dmitry Soshnikov](http://soshnikov.com)님에 의해 작성되었습니다.
