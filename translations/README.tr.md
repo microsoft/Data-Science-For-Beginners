@@ -30,7 +30,7 @@ Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](
 
 ## Ekiple Tanışın
 
-[![Promo video](ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Promo video")
+[![Promo video](../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Promo video")
 
 **Gif by** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
 
