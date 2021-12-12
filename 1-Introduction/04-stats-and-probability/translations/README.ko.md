@@ -2,7 +2,7 @@
 
 |![ [(@sketchthedocs)의 스케치노트](https://sketchthedocs.dev) ](../../../sketchnotes/04-Statistics-Probability.png)|
 |:---:|
-| 통계 및 확률 - _[@nitya](https://twitter.com/nitya)_의 스케치노트 |
+| 통계 및 확률 - _[@nitya](https://twitter.com/nitya)_ 의 스케치노트 |
 
 통계 및 확률 이론은 데이터 과학과 매우 관련성이 높은 수학 영역입니다. 수학에 대한 깊은 지식이 없어도 데이터로 작업하는 것은 가능하지만 최소한 몇 가지 기본 개념은 알고 있는 것이 좋습니다. 이 장에서 통계 및 확률을 시작하는 데 도움이 되는 간단한 소개를 제공합니다.
 
@@ -165,7 +165,7 @@
 
 신뢰하지 않는 경우 구간이 겹치는 것을 볼 수 있습니다. 이것은 1루수가 2루수보다 높다는 우리의 가설을 증명합니다.
 
-보다 공식적으로, 우리가 해결하는 문제는 **두 개의 확률 분포가 동일한지** 또는 최소한 동일한 매개변수를 갖는지 확인하는 것입니다. 분포에 따라 다른 테스트를 사용해야 합니다. 분포가 정상이라는 것을 안다면 **[Student t-test](https://en.wikipedia.org/wiki/Student%27s_t-test)**를 적용할 수 있습니다.
+보다 공식적으로, 우리가 해결하는 문제는 **두 개의 확률 분포가 동일한지** 또는 최소한 동일한 매개변수를 갖는지 확인하는 것입니다. 분포에 따라 다른 테스트를 사용해야 합니다. 분포가 정상이라는 것을 안다면 **[Student t-test](https://en.wikipedia.org/wiki/Student%27s_t-test)** 를 적용할 수 있습니다.
 
 스튜던트 t-검정에서는 분산을 고려하여 평균 간의 차이를 나타내는 소위 **t-값**을 계산합니다. t-값은 **학생 분포**를 따르며, 이를 통해 주어진 신뢰 수준 **p**에 대한 임계값을 얻을 수 있습니다(이는 계산하거나 숫자 표에서 조회할 수 있음). 그런 다음 t-값을 이 임계값과 비교하여 가설을 승인하거나 기각합니다.
 
@@ -250,9 +250,9 @@ print(np.corrcoef(무게, 높이))
 
 확률과 통계는 그 자체로 충분한 가치가 있는 광범위한 주제입니다. 이론에 대해 더 깊이 알고 싶다면 다음 책을 계속 읽어도 좋습니다.
 
-1. 뉴욕대학교의 [Carlos Fernanderz-Graranda](https://cims.nyu.edu/~cfgranda/) 강의노트가 훌륭합니다. [Probability and Statistics for Data Science](https://cims.nyu.edu/ ~cfgranda/pages/stuff/probability_stats_for_DS.pdf) (온라인에서 사용 가능)
-1. [피터와 앤드류 브루스. 데이터 과학자를 위한 실용 통계.](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/) [[R의 샘플 코드](https://github.com/andrewgbruce/statistics -for-data-scientists)].
-1. [제임스 D. 밀러. 데이터 과학 통계](https://www.packtpub.com/product/statistics-for-data-science/9781788290678) [[샘플 코드 R](https://github.com/PacktPublishing/Statistics-for- 데이터 과학)]
+1. 뉴욕대학교의 [Carlos Fernanderz-Graranda](https://cims.nyu.edu/~cfgranda/) 강의노트가 훌륭합니다. [Probability and Statistics for Data Science](https://cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf) (온라인에서 사용 가능)
+1. [피터와 앤드류 브루스. 데이터 과학자를 위한 실용 통계.](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/) [[R의 샘플 코드](https://github.com/andrewgbruce/statistics-for-data-scientists)].
+1. [제임스 D. 밀러. 데이터 과학 통계](https://www.packtpub.com/product/statistics-for-data-science/9781788290678) [[샘플 코드 R](https://github.com/PacktPublishing/Statistics-for-Data-Science)]
 
 ## 과제
 
