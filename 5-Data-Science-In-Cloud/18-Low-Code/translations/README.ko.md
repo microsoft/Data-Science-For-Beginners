@@ -335,4 +335,4 @@ AutoML이 상위 모델에 대해 생성한 모델 설명 및 세부정보를 �
 
 ## 과제
 
-[Azure ML의 로우 코드/코드 없음 데이터 과학 프로젝트](../assignment.md)
+[Azure ML의 로우 코드/코드 없음 데이터 과학 프로젝트](./assignment.ko.md)

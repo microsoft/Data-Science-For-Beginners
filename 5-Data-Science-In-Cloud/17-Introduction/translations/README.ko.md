@@ -96,4 +96,4 @@ Dmitry는 COVID 논문을 분석하는 도구를 만들었습니다. 이 프로�
 
 ## 과제
 
-[시장조사](../assignment.md)
+[시장조사](./assignment.ko.md)

@@ -66,4 +66,4 @@ Kaggle은 공개 데이터셋의 훌륭한 소스입니다. [데이터셋 검색
 
 ## 과제
 
-[데이터셋 분류](../assignment.md)
+[데이터셋 분류](./assignment.ko.md)

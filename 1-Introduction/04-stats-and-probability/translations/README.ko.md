@@ -256,7 +256,7 @@ print(np.corrcoef(무게, 높이))
 
 ## 과제
 
-[소형 당뇨병 연구](../assignment.md)
+[소형 당뇨병 연구](./assignment.ko.md)
 
 ## 크레딧
 

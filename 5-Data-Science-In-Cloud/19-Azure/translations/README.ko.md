@@ -296,6 +296,6 @@ response
 
 ## 과제
 
-[Azure ML SDK를 이용한 Data Science 프로젝트](../assignment.md)
+[Azure ML SDK를 이용한 Data Science 프로젝트](./assignment.ko.md)
 
 
