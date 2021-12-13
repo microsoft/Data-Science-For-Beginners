@@ -7,10 +7,10 @@
 
 ### 주제
 
-1. [관계형 데이터베이스](05-relational-databases/README.md)
-2. [비관계형 데이터베이스](06-non-relational/README.md)
-3. [Python 활용하기](07-python/README.md)
-4. [데이터 준비](08-data-preparation/README.md)
+1. [관계형 데이터베이스](05-relational-databases/translation/README.ko.md)
+2. [비관계형 데이터베이스](06-non-relational/translation/README.ko.md)
+3. [Python 활용하기](07-python/translation/README.ko.md)
+4. [데이터 준비](08-data-preparation/translation/README.ko.md)
 
 ### 크레딧
 
