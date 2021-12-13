@@ -8,7 +8,7 @@ In these lessons, you'll explore some of the aspects of the Data Science lifecyc
 ### Topics
 
 1. [Introduction](14-Introduction/README.md)
-2. [Analyzing](15-Analyzing/README.md)
+2. [Analyzing](15-analyzing/README.md)
 3. [Communication](16-communication/README.md)
 
 ### Credits
