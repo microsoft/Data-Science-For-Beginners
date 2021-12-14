@@ -10,9 +10,9 @@
 
 ### 주제
 
-1. [데이터 사이언스에 클라우드를 사용하는 이유](17-Introduction/README.md)
-2. [클라우드에서의 데이터 과학: "Low code/No code" 방식](../18-Low-Code/README.md)
-3. [클라우드에서의 데이터 과학: "Azure ML SDK" 방식](../19-Azure/README.md)
+1. [데이터 사이언스에 클라우드를 사용하는 이유](17-Introduction/translations/README.ko.mdd)
+2. [클라우드에서의 데이터 과학: "Low code/No code" 방식](../18-Low-Code/translations/README.ko.md)
+3. [클라우드에서의 데이터 과학: "Azure ML SDK" 방식](../19-Azure/translations/README.ko.md)
 
 ### 크레딧
 이 수업은 [Maud Levy](https://twitter.com/maudstweets)와 [Tiffany Souterre](https://twitter.com/TiffanySouterre)의 ☁️ 과 💕 로 작성했습니다.

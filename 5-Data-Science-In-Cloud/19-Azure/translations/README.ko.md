@@ -46,20 +46,20 @@ SDK의 주요 영역은 다음과 같습니다.
 
 [Azure Machine Learning SDK에 대해 자세히 알아보기](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-40229-cxa&ocid=AID3041109)
 
-[이전 강의](../../18-Low-Code/README.md)에서 Low code/No code 방식으로 모델을 훈련, 배포 및 소비하는 방법을 살펴보았습니다. 심부전 데이터셋을 사용하여 심부전 예측 모델을 생성했습니다. 이 단원에서는 Azure Machine Learning SDK를 사용하여 똑같은 작업을 수행할 것입니다.
+[이전 강의](../../18-Low-Code/translations/README.ko.md)에서 Low code/No code 방식으로 모델을 훈련, 배포 및 소비하는 방법을 살펴보았습니다. 심부전 데이터셋을 사용하여 심부전 예측 모델을 생성했습니다. 이 단원에서는 Azure Machine Learning SDK를 사용하여 똑같은 작업을 수행할 것입니다.
 
 ![프로젝트 스키마](../images/project-schema.PNG)
 
 ### 1.2 심부전 예측 프로젝트 및 데이터셋 소개
 
-[여기](../../18-Low-Code/README.md)에서 심부전예측 프로젝트 및 데이터셋 소개를 확인하세요.
+[여기](../../18-Low-Code/translations/README.ko.md)에서 심부전예측 프로젝트 및 데이터셋 소개를 확인하세요.
 
 ## 2. Azure ML SDK로 모델 학습
 ### 2.1 Azure ML 작업 영역 만들기
 
 간단히 하기 위해 우리는 jupyter Notebook에서 작업할 것입니다. 이는 이미 작업 공간과 컴퓨팅 인스턴스가 있음을 의미합니다. 이미 작업 공간이 있는 경우 섹션 2.3 Notebook 생성으로 바로 이동할 수 있습니다.
 
-그렇지 않은 경우 [이전 강의](../../18-Low-Code/README.md)의 **2.1 Azure ML 워크스페이스 만들기** 섹션의 지침에 따라 워크스페이스을 만듭니다.
+그렇지 않은 경우 [이전 강의](../../18-Low-Code/translations/README.ko.md)의 **2.1 Azure ML 워크스페이스 만들기** 섹션의 지침에 따라 워크스페이스을 만듭니다.
 
 ### 2.2 컴퓨팅 인스턴스 생성
 
@@ -76,7 +76,7 @@ Jupyter Notebook을 프로비저닝할 컴퓨팅 인스턴스를 생성해 보�
 축하합니다. 방금 컴퓨팅 인스턴스를 만들었습니다! 이 컴퓨팅 인스턴스를 사용하여 [Notebook 생성 섹션](#23-creating-notebooks)에서 Notebook을 생성합니다.
 
 ### 2.3 데이터셋 로드
-아직 데이터셋을 업로드하지 않았다면 **2.3 데이터셋 로드하기** 섹션의 [이전 강의](../../18-Low-Code/README.md)를 참조하세요.
+아직 데이터셋을 업로드하지 않았다면 **2.3 데이터셋 로드하기** 섹션의 [이전 강의](../../18-Low-Code/translations/README.ko.md)를 참조하세요.
 
 ### 2.4 Notebook 만들기
 

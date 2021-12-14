@@ -7,10 +7,10 @@
 
 ### 주제
 
-1. [데이터 과학 정의](../01-defining-data-science/README.md)
-2. [데이터 과학 윤리](../02-ethics/README.md)
-3. [데이터 정의](../03-defining-data/README.md)
-4. [확률과 통계 소개](../04-stats-and-probability/README.md)
+1. [데이터 과학 정의](../01-defining-data-science/translations/README.ko.md)
+2. [데이터 과학 윤리](../02-ethics/translations/README.ko.md)
+3. [데이터 정의](../03-defining-data/translations/README.ko.md)
+4. [확률과 통계 소개](../04-stats-and-probability/translations/README.ko.md)
 
 ### 크레딧
 
