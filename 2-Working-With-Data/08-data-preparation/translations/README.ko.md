@@ -31,7 +31,7 @@
 ## DataFrame 정보 탐색
 > **학습 목표:** 하위 섹션이 끝날때까지, pandas DataFrame에 저장된 데이터에 대한 정보를 능숙하게 찾을 수 있을 것입니다.
 
-데이터를 pandas에 로드하면 DataFrame에 없을 가능성이 더 높아집니다(이전 [단원](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python/translations/README.ko.md#데이터프레임) 참조. 그러나 DataFrame에 있는 데이터셋에 60,000개의 행과 400개의 열이 있는 경우). 다행스럽게도 [pandas](https://pandas.pydata.org/)는 처음 몇 행과 마지막 몇 행 외에도 DataFrame에 대한 전체 정보를 빠르게 볼 수 있는 몇 가지 편리한 도구를 제공합니다.
+데이터를 pandas에 로드하면 DataFrame에 없을 가능성이 더 높아집니다(이전 [단원](../../07-python/translations/README.ko.md#데이터프레임) 참조. 그러나 DataFrame에 있는 데이터셋에 60,000개의 행과 400개의 열이 있는 경우). 다행스럽게도 [pandas](https://pandas.pydata.org/)는 처음 몇 행과 마지막 몇 행 외에도 DataFrame에 대한 전체 정보를 빠르게 볼 수 있는 몇 가지 편리한 도구를 제공합니다.
 
 
 이 기능을 살펴보기 위해 Python scikit-learn 라이브러리를 가져오고 상징적인 데이터셋인 **Iris 데이터셋** 을 사용합니다.
