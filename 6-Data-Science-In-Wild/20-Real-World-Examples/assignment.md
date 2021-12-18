@@ -15,7 +15,7 @@ The Explorer interface (shown in the screenshot below) lets you select a dataset
  3. Use the Explorer - pick a dataset of interest, select a relevant query & rendering option.
 
 
-![The Planetary Computer Explorer](images/Planetary-Computer-Explorer.png)
+![The Planetary Computer Explorer](images/planetary-computer-explorer.png)
 
 `Your Task:`
 Now study the visualization that is rendered in the browser and answer the following:
