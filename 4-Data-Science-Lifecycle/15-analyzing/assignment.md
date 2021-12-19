@@ -1,10 +1,10 @@
 # Exploring for answers
 
-This is a continuation of the previous lesson's [assignment](..\14-Introduction\assignment.md), where we briefly took a look at the data set. Now we will be taking a deeper look at the data.
+This is a continuation of the previous lesson's [assignment](../14-Introduction/assignment.md), where we briefly took a look at the data set. Now we will be taking a deeper look at the data.
 
 Again, the question the client wants to know: **Do yellow taxi passengers in New York City tip drivers more in the winter or summer?**
 
-Your team is in the [Analyzing](Readme.md) stage of the Data Science Lifecycle, where you are responsible for doing exploratory data analysis on the dataset. You have been provided a notebook and dataset that contains 200 taxi transactions from January and July 2019.
+Your team is in the [Analyzing](README.md) stage of the Data Science Lifecycle, where you are responsible for doing exploratory data analysis on the dataset. You have been provided a notebook and dataset that contains 200 taxi transactions from January and July 2019.
 
 ## Instructions
 
