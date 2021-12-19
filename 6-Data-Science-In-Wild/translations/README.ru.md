@@ -4,7 +4,7 @@
 
 ### Разделы
 
-1. [Наука о данных на практике](20-Real-World-Examples/README.md)
+1. [Наука о данных на практике](../20-Real-World-Examples/README.md)
 
 ### Благодарности
 

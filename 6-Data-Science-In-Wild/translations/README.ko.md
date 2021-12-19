@@ -4,7 +4,7 @@
 
 ### 토픽
 
-1. [현실에서의 데이터 과학](20-Real-World-Examples/README.md)
+1. [현실에서의 데이터 과학](../20-Real-World-Examples/README.md)
 
 ### 출처
 
