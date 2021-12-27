@@ -25,7 +25,7 @@ In the case of discrete random variables, it is easy to describe the probability
 
 The most well-known discrete distribution is **uniform distribution**, in which there is a sample space of N elements, with equal probability of 1/N for each of them. 
 
-It is more difficult to describe the probability distribution of a continuous variable, with values drawn from some interval [a,b], or the whole set of real numbers &Ropf;. Consider the case of bus arrival time. In fact, for each exact arrival time $t$, the probability of a bus arriving at exactly that time is 0!
+It is more difficult to describe the probability distribution of a continuous variable, with values drawn from some interval [a,b], or the whole set of real numbers &Ropf;. Consider the case of bus arrival time. In fact, for each exact arrival time *t*, the probability of a bus arriving at exactly that time is 0!
 
 > Now you know that events with 0 probability happen, and very often! At least each time when the bus arrives!
 
@@ -240,8 +240,8 @@ While this is definitely not exhaustive list of topics that exist within probabi
 ## 🚀 Challenge
 
 Use the sample code in the notebook to test other hypothesis that: 
-1. First basemen and older that second basemen
-2. First basemen and taller than third basemen
+1. First basemen are older than second basemen
+2. First basemen are taller than third basemen
 3. Shortstops are taller than second basemen
 
 ## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/7)
