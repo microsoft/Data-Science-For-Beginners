@@ -67,11 +67,11 @@ Vast amounts of data are incomprehensible for a human being, but once we create 
 
 ## Types of Data
 
-As we have already mentioned, data is everywhere.  We just need to capture it in the right way!  It is useful to distinguish between **structured** and **unstructured** data. The former is typically represented in some well-structured form, often as a table or number of tables, while the latter is just a collection of files.  Sometimes we can also talk about **semistructured** data, that have some sort of a structure that may vary greatly.
+As we have already mentioned, data is everywhere.  We just need to capture it in the right way!  It is useful to distinguish between **structured** and **unstructured** data. The former is typically represented in some well-structured form, often as a table or number of tables, while the latter is just a collection of files.  Sometimes we can also talk about **semi-structured** data, that have some sort of a structure that may vary greatly.
 
 | Structured                                                                   | Semi-structured                                                                                | Unstructured                            |
 | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------- |
-| List of people with their phone numbers                                      | Wikipedia pages with links                                                                     | Text of Encyclopaedia Britannica        |
+| List of people with their phone numbers                                      | Wikipedia pages with links                                                                     | Text of Encyclopedia Britannica        |
 | Temperature in all rooms of a building at every minute for the last 20 years | Collection of scientific papers in JSON format with authors, data of publication, and abstract | File share with corporate documents     |
 | Data for age and gender of all people entering the building                  | Internet pages                                                                                 | Raw video feed from surveillance camera |
 

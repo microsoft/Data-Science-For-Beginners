@@ -51,7 +51,7 @@ Let's look at one example - the [MIT Gender Shades Study](http://gendershades.or
 
  * **What:** The objective of the research project was to _evaluate bias present in automated facial analysis algorithms and datasets_ based on gender and skin type. 
  * **Why:** Facial analysis is used in areas like law enforcement, airport security, hiring systems and more - contexts where inaccurate classifications (e.g., due to bias) can cause potential economic and social harms to affected individuals or groups. Understanding (and eliminating or mitigating) biases is key to fairness in usage.
- * **How:** Researchers recongized that existing benchmarks used predominantly lighter-skinned subjects, and curated a new data set (1000+ images) that was _more balanced_ by gender and skin type. The data set was used to evaluate the accuracy of three gender classification products (from Microsoft, IBM & Face++). 
+ * **How:** Researchers recognized that existing benchmarks used predominantly lighter-skinned subjects, and curated a new data set (1000+ images) that was _more balanced_ by gender and skin type. The data set was used to evaluate the accuracy of three gender classification products (from Microsoft, IBM & Face++). 
 
 Results showed that though overall classification accuracy was good, there was a noticeable difference in error rates between various subgroups - with **misgendering** being higher for females or persons with darker skin types, indicative of bias.
 
