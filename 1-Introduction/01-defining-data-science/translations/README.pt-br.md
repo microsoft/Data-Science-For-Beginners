@@ -45,7 +45,7 @@ Já que dados são um conceito difundido, a ciência de dados em si também é u
 <dl>
 <dt>Banco de Dados</dt>
 <dd>
-A coisa mais óbvia a considerar é **como armazenar** os dados, ex. como estruturá-los de uma forma que permite um processamento rápido. Existem diferentes tipos de banco de dados que armazenam dados estruturados e não estruturados, que <a href="../../2-Working-With-Data/README.md">nós vamos considerar nesse curso</a>.
+A coisa mais óbvia a considerar é **como armazenar** os dados, ex. como estruturá-los de uma forma que permite um processamento rápido. Existem diferentes tipos de banco de dados que armazenam dados estruturados e não estruturados, que <a href="../../../2-Working-With-Data/README.md">nós vamos considerar nesse curso</a>.
 </dd>
 <dt>Big Data</dt>
 <dd>
@@ -61,7 +61,7 @@ Como aprendizado de máquina, inteligência artificial também se baseia em dado
 </dd>
 <dt>Visualização</dt>
 <dd>
-Vastas quantidades de dados são incompreensíveis para o ser humano, mas uma vez que criamos visualizações úteis - nós podemos começar a dar muito mais sentido aos dados, e desenhar algumas conclusões. Portanto, é importante conhecer várias formas de visualizar informação - algo que vamos cobrir na <a href="../../3-Data-Visualization/README.md">Seção 3</a> do nosso curso. Áreas relacionadas também incluem **Infográficos**, e **Interação Humano-Computador** no geral.
+Vastas quantidades de dados são incompreensíveis para o ser humano, mas uma vez que criamos visualizações úteis - nós podemos começar a dar muito mais sentido aos dados, e desenhar algumas conclusões. Portanto, é importante conhecer várias formas de visualizar informação - algo que vamos cobrir na <a href="../../../3-Data-Visualization/README.md">Seção 3</a> do nosso curso. Áreas relacionadas também incluem **Infográficos**, e **Interação Humano-Computador** no geral.
 </dd>
 </dl>
 

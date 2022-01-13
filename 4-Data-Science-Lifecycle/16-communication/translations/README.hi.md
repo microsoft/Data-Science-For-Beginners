@@ -1,6 +1,6 @@
 # डेटा विज्ञान के जीवनचक्र: संचार
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev)](https://github.com/Heril18/Data-Science-For-Beginners/raw/main/sketchnotes/16-Communicating.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev)](../..//sketchnotes/16-Communicating.png)|
 |:---:|
 | डेटा विज्ञान के जीवनचक्र: संचार - _[@nitya](https://twitter.com/nitya) द्वारा स्केचनोट_|
 
