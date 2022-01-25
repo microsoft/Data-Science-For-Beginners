@@ -153,8 +153,7 @@ example2
 
 (Pandas'ın, NaN'leri yerleştirmek için sütunlardan ikisini float'a çevirdiğini fark ettiniz mi?)
 
-`DataFrame`'den tek bir değeri silemezsiniz, bu yüzden tüm bir satırı yada sütunu silmeniz gerekir. 
-You cannot drop a single value from a `DataFrame`, so you have to drop full rows or columns. Ne yaptığınıza bağlı olarak, birini veya diğerini yapmak isteyebilirsiniz ve bu nedenle pandas size her ikisi için de seçenekler sunar. Veri biliminde sütunlar genellikle değişkenleri ve satırlar değişken gruplarının isimlerini(okul numaraları, köpek sayısı vb) temsil ettiğinden, satırları silme olasılığınız daha yüksektir; "dropna()" için varsayılan ayar, herhangi bir boş değer içeren tüm satırları silmektir:
+`DataFrame`'den tek bir değeri silemezsiniz, bu yüzden tüm bir satırı yada sütunu silmeniz gerekir. Ne yaptığınıza bağlı olarak, birini veya diğerini yapmak isteyebilirsiniz ve bu nedenle pandas size her ikisi için de seçenekler sunar. Veri biliminde sütunlar genellikle değişkenleri ve satırlar değişken gruplarının isimlerini(okul numaraları, köpek sayısı vb) temsil ettiğinden, satırları silme olasılığınız daha yüksektir; "dropna()" için varsayılan ayar, herhangi bir boş değer içeren tüm satırları silmektir:
 
 ```python
 example2.dropna()
@@ -291,7 +290,7 @@ example4.duplicated()
 4     True
 dtype: bool
 ```
-- **Yinelenen verilerin silinmesi: `drop_duplicates`: `drop_duplicates`, tüm `yinelenen` değerlerin `False` olduğu verilerin bir kopyasını döndürür:
+- **Yinelenen verilerin silinmesi**: `drop_duplicates`: `drop_duplicates`, tüm `yinelenen` değerlerin `False` olduğu verilerin bir kopyasını döndürür:
 ```python
 example4.drop_duplicates()
 ```
