@@ -1,6 +1,6 @@
 # Veri Üzerinde Çalışmak: Verinin Hazırlanması
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/08-DataPreparation.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/08-DataPreparation.png)|
 |:---:|
 |Veriyi Hazırlamak - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
