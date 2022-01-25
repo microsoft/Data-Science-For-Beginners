@@ -68,7 +68,6 @@ dtypes: float64(4)
 memory usage: 4.8 KB
 ```
 Buradan itibaren, *Iris* veri setinin dört sütunda boş(null) girdi içermeyen 150 girdiye sahip olduğunu biliyoruz. Tüm veriler 64 bit kayan noktalı sayılar olarak saklanıyor.
-From this, we know that the *Iris* dataset has 150 entries in four columns with no null entries. All of the data is stored as 64-bit floating-point numbers.
 
 - **DataFrame.head()**: Ardından, `DataFrame'in` gerçek içeriğini kontrol etmek için `head()` metodunu kullanıyoruz. `iris_df`'nin ilk birkaç satırının neye benzediğini görelim:
 ```python
