@@ -8,7 +8,7 @@
 
 
 
-Veriye bağlı olarak ham veriler, analiz ve modellemede zorluk çıkarabilecek bazı tutarsızlıklar içerebilir. Başka bir deyişle bu veriler "kirli" olarak sınıflandırılabilir ve temizlenmeleri gerekir. Bu derste kayıp, tutarsız ve eksik verilerle ilgili zorlukların üstesinden gelmek için verileri temizleme ve dönüştürne tekniklerine odaklanacağız. Bu derste işlenen konular Python programlama dili ve Pandas kitaplığını kullanacak ve [bu dizindeki](../notebook.ipnyb) not defterinde gösterilecektir.
+Veriye bağlı olarak ham veriler, analiz ve modellemede zorluk çıkarabilecek bazı tutarsızlıklar içerebilir. Başka bir deyişle bu veriler "kirli" olarak sınıflandırılabilir ve temizlenmeleri gerekir. Bu derste kayıp, tutarsız ve eksik verilerle ilgili zorlukların üstesinden gelmek için verileri temizleme ve dönüştürne tekniklerine odaklanacağız. Bu derste işlenen konular Python programlama dili ve Pandas kitaplığını kullanacak ve [bu dizindeki](../notebook.ipynb) not defterinde gösterilecektir.
 
 ## Veriyi temizlemenin önemi
 
