@@ -20,12 +20,9 @@ Use a scatterplot to show how the price of honey has evolved, year over year, pe
 
 Let's start by importing the data and Seaborn:
 
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-honey = pd.read_csv('../../data/honey.csv')
-honey.head()
+```r
+honey=read.csv('../../data/honey.csv')
+head(honey)
 ```
 You notice that the honey data has several interesting columns, including year and price per pound. Let's explore this data, grouped by U.S. state:
 
@@ -36,6 +33,7 @@ You notice that the honey data has several interesting columns, including year a
 | AR    | 53000  | 65          | 3445000   | 1688000  | 0.59       | 2033000   | 1998 |
 | CA    | 450000 | 83          | 37350000  | 12326000 | 0.62       | 23157000  | 1998 |
 | CO    | 27000  | 72          | 1944000   | 1594000  | 0.7        | 1361000   | 1998 |
+| FL    | 230000 | 98          |22540000   | 4508000  | 0.64       | 14426000  | 1998 |
 
 
 Create a basic scatterplot to show the relationship between the price per pound of honey and its U.S. state of origin. Make the `y` axis tall enough to display all the states:
