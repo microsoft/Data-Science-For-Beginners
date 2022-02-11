@@ -58,34 +58,32 @@ The output is:
 ```
 Take this data and convert the 'class' column to a category:
 
-```python
-cols = mushrooms.select_dtypes(["object"]).columns
-mushrooms[cols] = mushrooms[cols].astype('category')
+```r
+grouped=mushrooms %>%
+  group_by(class) %>%
+  summarise(count=n())
 ```
 
-```python
-edibleclass=mushrooms.groupby(['class']).count()
-edibleclass
-```
 
 Now, if you print out the mushrooms data, you can see that it has been grouped into categories according to the poisonous/edible class:
+```r
+View(grouped)
+```
 
 
-|           | cap-shape | cap-surface | cap-color | bruises | odor | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | ... | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
-| --------- | --------- | ----------- | --------- | ------- | ---- | --------------- | ------------ | --------- | ---------- | ----------- | --- | ------------------------ | ---------------------- | ---------------------- | --------- | ---------- | ----------- | --------- | ----------------- | ---------- | ------- |
-| class     |           |             |           |         |      |                 |              |           |            |             |     |                          |                        |                        |           |            |             |           |                   |            |         |
-| Edible    | 4208      | 4208        | 4208      | 4208    | 4208 | 4208            | 4208         | 4208      | 4208       | 4208        | ... | 4208                     | 4208                   | 4208                   | 4208      | 4208       | 4208        | 4208      | 4208              | 4208       | 4208    |
-| Poisonous | 3916      | 3916        | 3916      | 3916    | 3916 | 3916            | 3916         | 3916      | 3916       | 3916        | ... | 3916                     | 3916                   | 3916                   | 3916      | 3916       | 3916        | 3916      | 3916              | 3916       | 3916    |
+| class | count |
+| --------- | --------- |
+| Edible | 4208 |
+| Poisonous| 3916 |
 
-If you follow the order presented in this table to create your class category labels, you can build a pie chart:
+
+
+If you follow the order presented in this table to create your class category labels, you can build a pie chart. 
 
 ## Pie!
 
-```python
-labels=['Edible','Poisonous']
-plt.pie(edibleclass['population'],labels=labels,autopct='%.1f %%')
-plt.title('Edible?')
-plt.show()
+```r
+pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, a pie chart showing the proportions of this data according to these two classes of mushrooms. It's quite important to get the order of the labels correct, especially here, so be sure to verify the order with which the label array is built!
 
@@ -97,26 +95,29 @@ A somewhat more visually interesting pie chart is a donut chart, which is a pie 
 
 Take a look at the various habitats where mushrooms grow:
 
-```python
-habitat=mushrooms.groupby(['habitat']).count()
-habitat
+```r
+habitat=mushrooms %>%
+  group_by(habitat) %>%
+  summarise(count=n())
+View(habitat)
 ```
+The output is:
+| habitat| count |
+| --------- | --------- |
+| Grasses    | 2148 |
+| Leaves| 832 |
+| Meadows    | 292 |
+| Paths| 1144 |
+| Urban    | 368 |
+| Waste| 192 |
+| Wood| 3148 |
+
+
 Here, you are grouping your data by habitat. There are 7 listed, so use those as labels for your donut chart:
 
-```python
-labels=['Grasses','Leaves','Meadows','Paths','Urban','Waste','Wood']
-
-plt.pie(habitat['class'], labels=labels,
-        autopct='%1.1f%%', pctdistance=0.85)
-  
-center_circle = plt.Circle((0, 0), 0.40, fc='white')
-fig = plt.gcf()
-
-fig.gca().add_artist(center_circle)
-  
-plt.title('Mushroom Habitats')
-  
-plt.show()
+```r
+library(webr)
+PieDonut(habitat, aes(habitat, count=count))
 ```
 
 ![donut chart](images/donut-wb.png)
