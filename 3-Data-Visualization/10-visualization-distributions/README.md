@@ -122,7 +122,7 @@ plt.hist(x4, **kwargs, color='green', label='Near Threatened')
 plt.hist(x5, **kwargs, color='blue', label='Vulnerable')
 plt.hist(x6, **kwargs, color='gray', label='Least Concern')
 
-plt.gca().set(title='Conservation Status', ylabel='Max Body Mass')
+plt.gca().set(title='Conservation Status', ylabel='Min Wingspan')
 plt.legend();
 ```
 
