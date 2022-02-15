@@ -1,6 +1,6 @@
 # Visualizing Distributions
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/10-Visualizing-Distributions.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/sketchnotes/10-Visualizing-Distributions.png)|
 |:---:|
 | Visualizing Distributions - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
@@ -36,7 +36,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![max length per order]()
+![max length per order](images/max-length-per-order.png)
 
 This gives an overview of the general distribution of body length per bird Order, but it is not the optimal way to display true distributions. That task is usually handled by creating a Histogram.
 ## Working with histograms
@@ -47,7 +47,7 @@ This gives an overview of the general distribution of body length per bird Order
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![distribution over entire dataset]()
+![distribution over entire dataset](images/distribution-over-the-entire-dataset.png)
 
 As you can see, most of the 400+ birds in this dataset fall in the range of under 2000 for their Max Body Mass. Gain more insight into the data by changing  the `bins` parameter to a higher number, something like 30:
 
@@ -55,7 +55,7 @@ As you can see, most of the 400+ birds in this dataset fall in the range of unde
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![distribution-30bins]()
+![distribution-30bins](images/distribution-30bins.png)
 
 This chart shows the distribution in a bit more granular fashion. A chart less skewed to the left could be created by ensuring that you only select data within a given range:
 
@@ -67,7 +67,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![filtered histogram]()
+![filtered histogram](images/filtered-histogram.png)
 
 ✅ Try some other filters and data points. To see the full distribution of the data, remove the `['MaxBodyMass']` filter to show labeled distributions.
 
@@ -81,7 +81,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 There appears to be an expected correlation between these two elements along an expected axis, with one particularly strong point of convergence:
 
-![2d plot]()
+![2d plot](images/2d-plot.png)
 
 Histograms work well by default for numeric data. What if you need to see distributions according to text data? 
 ## Explore the dataset for distributions using text data 
@@ -112,7 +112,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![wingspan and conservation collation]()
+![wingspan and conservation collation](images/wingspan-conservation-collation.png)
 
 There doesn't seem to be a good correlation between minimum wingspan and conservation status. Test other elements of the dataset using this method. You can try different filters as well. Do you find any correlation?
 
@@ -126,7 +126,7 @@ Let's work with density plot's now!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![density plot]()
+![density plot](images/density-plot.png)
 
 You can see how the plot echoes the previous one for Minimum Wingspan data; it's just a bit smoother. If you wanted to revisit that jagged MaxBodyMass line in the second chart you built, you could smooth it out very well by recreating it using this method:
 
@@ -134,7 +134,7 @@ You can see how the plot echoes the previous one for Minimum Wingspan data; it's
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![bodymass density]()
+![bodymass density](images/bodymass-smooth.png)
 
 If you wanted a smooth, but not too smooth line, edit the `adjust` parameter: 
 
@@ -142,7 +142,7 @@ If you wanted a smooth, but not too smooth line, edit the `adjust` parameter:
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![less smooth bodymass]()
+![less smooth bodymass](images/less-smooth-bodymass.png)
 
 ✅ Read about the parameters available for this type of plot and experiment!
 
@@ -152,8 +152,29 @@ This type of chart offers beautifully explanatory visualizations. With a few lin
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![bodymass per order]()
+![bodymass per order](images/bodymass-per-order.png)
 
 You can also map the density of several variables in one chart. Text the MaxLength and MinLength of a bird compared to their conservation status:
+```r
+to be inserted
+```
+
+![2d density plot]()
+
+Perhaps it's worth researching whether the cluster of 'Vulnerable' birds according to their lengths is meaningful or not.
+
+## 🚀 Challenge
+
+Histograms are a more sophisticated type of chart than basic scatterplots, bar charts, or line charts. Go on a search on the internet to find good examples of the use of histograms. How are they used, what do they demonstrate, and in what fields or areas of inquiry do they tend to be used?
+
+## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/19)
+
+## Review & Self Study
+
+In this lesson, you used `ggplot2` and started working to show more sophisticated charts. Do some research on `geom_density_2d()` a "continuous probability density curve in one or more dimensions". Read through [the documentation](https://ggplot2.tidyverse.org/reference/geom_density_2d.html) to understand how it works.
+
+## Assignment
+
+[Apply your skills](assignment.md)
 
 
