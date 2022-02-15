@@ -160,7 +160,7 @@
 
 ![Word Cloud for Data Science](../images/ds_wordcloud.png)
 
-Откройте [`notebook.ipynb`](../notebook.ipynb), чтобы ознакомиться с исходным кодом. Вы также можете запустить выполнение кода и понаблюдать, как происходит трансформация данных в реальном времени. 
+Откройте [`notebook.ipynb`](/1-Introduction/01-defining-data-science/notebook.ipynb ':ignore'), чтобы ознакомиться с исходным кодом. Вы также можете запустить выполнение кода и понаблюдать, как происходит трансформация данных в реальном времени. 
 
 > Если Вы не знаете, как запустить код в Jupyter Notebook, прочтите [данную статью](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 

@@ -147,7 +147,7 @@ Nesse desafio, nós vamos tentar encontrar conceitos relevantes para a área de 
 
 ![Nuvem de Palavras para Ciência de Dados](../images/ds_wordcloud.png)
 
-Visite [`notebook.ipynb`](../notebook.ipynb) para ler o código. Você também pode rodar esse código, e ver como ele performa toda a transformação de dados em tempo real.
+Visite [`notebook.ipynb`](/1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') para ler o código. Você também pode rodar esse código, e ver como ele performa toda a transformação de dados em tempo real.
 
 > Se você não sabe como rodar códigos no Jupyter Notebook, dê uma olhada [nesse artigo](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 

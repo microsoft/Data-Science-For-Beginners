@@ -54,7 +54,7 @@ Pandas는 몇 가지 기본적인 개념을 중심으로 합니다.
 
 **시리즈(Series)** 은 리스트 또는 numpy 배열과 유사한 일련의 값들입니다. 주요 차이점은 시리즈에도 **색인**이 있고 시리즈에 대해 작업할 때(예: 추가) 인덱스가 고려된다는 것입니다. 인덱스는 정수 행 번호만큼 단순할 수도 있고(목록 또는 배열에서 시리즈를 생성할 때 기본적으로 사용되는 인덱스) 날짜 간격과 같은 복잡한 구조를 가질 수도 있습니다.
 
-> **주의**: 동봉된 [`notebook.ipynb`](notebook.ipynb) 파일에는 몇 가지 Pandas 소개 코드가 있습니다. 여기서는 몇 가지 예시만 간략히 설명하며, 전체 notebook 코드를 확인해 보시기 바랍니다.
+> **주의**: 동봉된 [`notebook.ipynb`](/2-Working-With-Data/07-python/notebook.ipynb ':ignore') 파일에는 몇 가지 Pandas 소개 코드가 있습니다. 여기서는 몇 가지 예시만 간략히 설명하며, 전체 notebook 코드를 확인해 보시기 바랍니다.
 
 예시: 우리는 아이스크림 가게의 매출을 분석하려고 합니다. 일정 기간 동안 일련의 판매 번호(매일 판매되는 품목 수)를 생성해 봅시다.
 
@@ -234,7 +234,7 @@ df = pd.read_csv('file.csv')
 
 > **주의**: 우리는 더이상 데이터 세트의 복사본을 이 리포지토리의 일부로 제공하지 않습니다. 먼저 [Kaggle의 데이터세트](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge)에서 [`metadata.csv`](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge?select=metadata.csv) 파일을 다운로드해야 할 수도 있습니다. Kaggle에 가입해야 할 수 있습니다. [여기](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html)에서 등록 없이 데이터 세트를 다운로드할 수도 있지만 여기에는 메타데이터 파일 외에 모든 전체 텍스트가 포함됩니다.
 
-[`notebook-papers.ipynb`](notebook-papers.ipynb)를 열고 위에서 아래로 읽으십시오. 셀을 실행할 수도 있고 마지막에 남겨둔 몇 가지 과제를 수행할 수도 있습니다.
+[`notebook-papers.ipynb`](/2-Working-With-Data/07-python/notebook-papers.ipynb ':ignore')를 열고 위에서 아래로 읽으십시오. 셀을 실행할 수도 있고 마지막에 남겨둔 몇 가지 과제를 수행할 수도 있습니다.
 
 ![Covid Medical Treatment](../images/covidtreat.png)
 

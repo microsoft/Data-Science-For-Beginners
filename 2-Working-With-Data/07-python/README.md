@@ -54,7 +54,7 @@ Pandas is centered around a few basic concepts.
 
 **Series** is a sequence of values, similar to a list or numpy array. The main difference is that series also has an **index**, and when we operate on series (eg., add them), the index is taken into account. Index can be as simple as integer row number (it is the index used by default when creating a series from list or array), or it can have a complex structure, such as date interval.
 
-> **Note**: There is some introductory Pandas code in the accompanying notebook [`notebook.ipynb`](notebook.ipynb). We only outline some the examples here, and you are definitely welcome to check out the full notebook.
+> **Note**: There is some introductory Pandas code in the accompanying notebook [`notebook.ipynb`](/2-Working-With-Data/07-python/notebook.ipynb ':ignore'). We only outline some the examples here, and you are definitely welcome to check out the full notebook.
 
 Consider an example: we want to analyze sales of our ice-cream spot. Let's generate a series of sales numbers (number of items sold each day) for some time period:
 
@@ -212,7 +212,7 @@ This overview covers most important concepts of Pandas, however, the library is 
 
 First problem we will focus on is modelling of epidemic spread of COVID-19. In order to do that, we will use the data on the number of infected individuals in different countries, provided by the [Center for Systems Science and Engineering](https://systems.jhu.edu/) (CSSE) at [Johns Hopkins University](https://jhu.edu/). Dataset is available in [this GitHub Repository](https://github.com/CSSEGISandData/COVID-19).
 
-Since we want to demonstrate how to deal with data, we invite you to open [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) and read it from top to bottom. You can also execute cells, and do some challenges that we have left for you at the end.
+Since we want to demonstrate how to deal with data, we invite you to open [`notebook-covidspread.ipynb`](/2-Working-With-Data/07-python/notebook-covidspread.ipynb ':ignore') and read it from top to bottom. You can also execute cells, and do some challenges that we have left for you at the end.
 
 ![COVID Spread](images/covidspread.png)
 
@@ -234,7 +234,7 @@ A full example of analyzing this dataset using [Text Analytics for Health](https
 
 > **NOTE**: We do not provide a copy of the dataset as part of this repository. You may first need to download the [`metadata.csv`](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge?select=metadata.csv) file from [this dataset on Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge). Registration with Kaggle may be required. You may also download the dataset without registration [from here](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), but it will include all full texts in addition to metadata file.
 
-Open [`notebook-papers.ipynb`](notebook-papers.ipynb) and read it from top to bottom. You can also execute cells, and do some challenges that we have left for you at the end.
+Open [`notebook-papers.ipynb`](/2-Working-With-Data/07-python/notebook-papers.ipynb ':ignore') and read it from top to bottom. You can also execute cells, and do some challenges that we have left for you at the end.
 
 ![Covid Medical Treatment](images/covidtreat.png)
 
