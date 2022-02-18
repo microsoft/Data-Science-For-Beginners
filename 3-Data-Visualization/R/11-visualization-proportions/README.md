@@ -1,6 +1,6 @@
 # Visualizing Proportions
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/11-Visualizing-Proportions.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/11-Visualizing-Proportions.png)|
 |:---:|
 |Visualizing Proportions - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
