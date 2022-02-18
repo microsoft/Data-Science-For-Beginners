@@ -154,15 +154,6 @@ ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
 ```
 ![bodymass per order](images/bodymass-per-order.png)
 
-You can also map the density of several variables in one chart. Text the MaxLength and MinLength of a bird compared to their conservation status:
-```r
-to be inserted
-```
-
-![2d density plot]()
-
-Perhaps it's worth researching whether the cluster of 'Vulnerable' birds according to their lengths is meaningful or not.
-
 ## 🚀 Challenge
 
 Histograms are a more sophisticated type of chart than basic scatterplots, bar charts, or line charts. Go on a search on the internet to find good examples of the use of histograms. How are they used, what do they demonstrate, and in what fields or areas of inquiry do they tend to be used?
