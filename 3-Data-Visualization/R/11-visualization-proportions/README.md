@@ -59,6 +59,7 @@ The output is:
 Take this data and convert the 'class' column to a category:
 
 ```r
+library(dplyr)
 grouped=mushrooms %>%
   group_by(class) %>%
   summarise(count=n())
@@ -96,6 +97,7 @@ A somewhat more visually interesting pie chart is a donut chart, which is a pie 
 Take a look at the various habitats where mushrooms grow:
 
 ```r
+library(dplyr)
 habitat=mushrooms %>%
   group_by(habitat) %>%
   summarise(count=n())
@@ -116,6 +118,7 @@ The output is:
 Here, you are grouping your data by habitat. There are 7 listed, so use those as labels for your donut chart:
 
 ```r
+library(ggplot2)
 library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
