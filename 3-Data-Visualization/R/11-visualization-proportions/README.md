@@ -18,11 +18,9 @@ In this lesson, you will use a different nature-focused dataset to visualize pro
 
 Mushrooms are very interesting. Let's import a dataset to study them:
 
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
-mushrooms = pd.read_csv('../../data/mushrooms.csv')
-mushrooms.head()
+```r
+mushrooms = read.csv('../../data/mushrooms.csv')
+head(mushrooms)
 ```
 A table is printed out with some great data for analysis:
 
@@ -32,55 +30,60 @@ A table is printed out with some great data for analysis:
 | Poisonous | Convex    | Smooth      | Brown     | Bruises | Pungent | Free            | Close        | Narrow    | Black      | Enlarging   | Equal      | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Black             | Scattered  | Urban   |
 | Edible    | Convex    | Smooth      | Yellow    | Bruises | Almond  | Free            | Close        | Broad     | Black      | Enlarging   | Club       | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Brown             | Numerous   | Grasses |
 | Edible    | Bell      | Smooth      | White     | Bruises | Anise   | Free            | Close        | Broad     | Brown      | Enlarging   | Club       | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Brown             | Numerous   | Meadows |
-| Poisonous | Convex    | Scaly       | White     | Bruises | Pungent | Free            | Close        | Narrow    | Brown      | Enlarging   | Equal      | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Black             | Scattered  | Urban   |
-
+| Poisonous | Convex    | Scaly       | White     | Bruises | Pungent | Free            | Close        | Narrow    | Brown      | Enlarging   | Equal      | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Black             | Scattered  | Urban 
+| Edible | Convex       |Smooth       | Green     | No Bruises| None   |Free            | Crowded       | Broad     | Black      | Tapering   | Equal      |  Smooth | Smooth                    | White                 | White                  | Partial    | White     | One         | Evanescent | Brown             | Abundant | Grasses
+|Edible  |  Convex      | Scaly   | Yellow         | Bruises  | Almond  | Free | Close  |   Broad   |   Brown  | Enlarging   |   Club                      | Smooth                  | Smooth    | White                 |  White                | Partial      | White    |  One  |  Pendant | Black   | Numerous | Grasses
+      
 Right away, you notice that all the data is textual. You will have to convert this data to be able to use it in a chart. Most of the data, in fact, is represented as an object:
 
-```python
-print(mushrooms.select_dtypes(["object"]).columns)
+```r
+names(mushrooms)
 ```
 
 The output is:
 
 ```output
-Index(['class', 'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor',
-       'gill-attachment', 'gill-spacing', 'gill-size', 'gill-color',
-       'stalk-shape', 'stalk-root', 'stalk-surface-above-ring',
-       'stalk-surface-below-ring', 'stalk-color-above-ring',
-       'stalk-color-below-ring', 'veil-type', 'veil-color', 'ring-number',
-       'ring-type', 'spore-print-color', 'population', 'habitat'],
-      dtype='object')
+[1] "class"                    "cap.shape"               
+ [3] "cap.surface"              "cap.color"               
+ [5] "bruises"                  "odor"                    
+ [7] "gill.attachment"          "gill.spacing"            
+ [9] "gill.size"                "gill.color"              
+[11] "stalk.shape"              "stalk.root"              
+[13] "stalk.surface.above.ring" "stalk.surface.below.ring"
+[15] "stalk.color.above.ring"   "stalk.color.below.ring"  
+[17] "veil.type"                "veil.color"              
+[19] "ring.number"              "ring.type"               
+[21] "spore.print.color"        "population"              
+[23] "habitat"            
 ```
 Take this data and convert the 'class' column to a category:
 
-```python
-cols = mushrooms.select_dtypes(["object"]).columns
-mushrooms[cols] = mushrooms[cols].astype('category')
+```r
+grouped=mushrooms %>%
+  group_by(class) %>%
+  summarise(count=n())
 ```
 
-```python
-edibleclass=mushrooms.groupby(['class']).count()
-edibleclass
-```
 
 Now, if you print out the mushrooms data, you can see that it has been grouped into categories according to the poisonous/edible class:
+```r
+View(grouped)
+```
 
 
-|           | cap-shape | cap-surface | cap-color | bruises | odor | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | ... | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
-| --------- | --------- | ----------- | --------- | ------- | ---- | --------------- | ------------ | --------- | ---------- | ----------- | --- | ------------------------ | ---------------------- | ---------------------- | --------- | ---------- | ----------- | --------- | ----------------- | ---------- | ------- |
-| class     |           |             |           |         |      |                 |              |           |            |             |     |                          |                        |                        |           |            |             |           |                   |            |         |
-| Edible    | 4208      | 4208        | 4208      | 4208    | 4208 | 4208            | 4208         | 4208      | 4208       | 4208        | ... | 4208                     | 4208                   | 4208                   | 4208      | 4208       | 4208        | 4208      | 4208              | 4208       | 4208    |
-| Poisonous | 3916      | 3916        | 3916      | 3916    | 3916 | 3916            | 3916         | 3916      | 3916       | 3916        | ... | 3916                     | 3916                   | 3916                   | 3916      | 3916       | 3916        | 3916      | 3916              | 3916       | 3916    |
+| class | count |
+| --------- | --------- |
+| Edible | 4208 |
+| Poisonous| 3916 |
 
-If you follow the order presented in this table to create your class category labels, you can build a pie chart:
+
+
+If you follow the order presented in this table to create your class category labels, you can build a pie chart. 
 
 ## Pie!
 
-```python
-labels=['Edible','Poisonous']
-plt.pie(edibleclass['population'],labels=labels,autopct='%.1f %%')
-plt.title('Edible?')
-plt.show()
+```r
+pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, a pie chart showing the proportions of this data according to these two classes of mushrooms. It's quite important to get the order of the labels correct, especially here, so be sure to verify the order with which the label array is built!
 
@@ -92,26 +95,29 @@ A somewhat more visually interesting pie chart is a donut chart, which is a pie 
 
 Take a look at the various habitats where mushrooms grow:
 
-```python
-habitat=mushrooms.groupby(['habitat']).count()
-habitat
+```r
+habitat=mushrooms %>%
+  group_by(habitat) %>%
+  summarise(count=n())
+View(habitat)
 ```
+The output is:
+| habitat| count |
+| --------- | --------- |
+| Grasses    | 2148 |
+| Leaves| 832 |
+| Meadows    | 292 |
+| Paths| 1144 |
+| Urban    | 368 |
+| Waste| 192 |
+| Wood| 3148 |
+
+
 Here, you are grouping your data by habitat. There are 7 listed, so use those as labels for your donut chart:
 
-```python
-labels=['Grasses','Leaves','Meadows','Paths','Urban','Waste','Wood']
-
-plt.pie(habitat['class'], labels=labels,
-        autopct='%1.1f%%', pctdistance=0.85)
-  
-center_circle = plt.Circle((0, 0), 0.40, fc='white')
-fig = plt.gcf()
-
-fig.gca().add_artist(center_circle)
-  
-plt.title('Mushroom Habitats')
-  
-plt.show()
+```r
+library(webr)
+PieDonut(habitat, aes(habitat, count=count))
 ```
 
 ![donut chart](images/donut-wb.png)
@@ -123,10 +129,10 @@ Donut charts can be tweaked in several ways to change the labels. The labels in 
 Now that you know how to group your data and then display it as a pie or donut, you can explore other types of charts. Try a waffle chart, which is just a different way of exploring quantity.
 ## Waffles!
 
-A 'waffle' type chart is a different way to visualize quantities as a 2D array of squares. Try visualizing the different quantities of mushroom cap colors in this dataset. To do this, you need to install a helper library called [PyWaffle](https://pypi.org/project/pywaffle/) and use Matplotlib:
+A 'waffle' type chart is a different way to visualize quantities as a 2D array of squares. Try visualizing the different quantities of mushroom cap colors in this dataset. To do this, you need to install a helper library called [waffle](https://r-charts.com/part-whole/waffle-chart-ggplot2/) and use it to generate your visualization:
 
-```python
-pip install pywaffle
+```r
+install.packages("waffle", repos = "https://cinc.rud.is")
 ```
 
 Select a segment of your data to group:
