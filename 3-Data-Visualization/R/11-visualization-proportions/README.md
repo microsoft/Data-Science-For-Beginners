@@ -125,14 +125,14 @@ PieDonut(habitat, aes(habitat, count=count))
 
 ![donut chart](images/donut-wb.png)
 
-This code draws a chart and a center circle, then adds that center circle in the chart. Edit the width of the center circle by changing `0.40` to another value.
+This code uses the two libraries- ggplot2 and webr. Using the PieDonut function of the webr library, we can create a donut chart easily!
 
-Donut charts can be tweaked in several ways to change the labels. The labels in particular can be highlighted for readability. Learn more in the [docs](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
+Donut charts in R can be made using only the ggplot2 library as well. You can learn more about it [here](https://www.r-graph-gallery.com/128-ring-or-donut-plot.html) and try it out yourself.
 
 Now that you know how to group your data and then display it as a pie or donut, you can explore other types of charts. Try a waffle chart, which is just a different way of exploring quantity.
 ## Waffles!
 
-A 'waffle' type chart is a different way to visualize quantities as a 2D array of squares. Try visualizing the different quantities of mushroom cap colors in this dataset. To do this, you need to install a helper library called [waffle](https://r-charts.com/part-whole/waffle-chart-ggplot2/) and use it to generate your visualization:
+A 'waffle' type chart is a different way to visualize quantities as a 2D array of squares. Try visualizing the different quantities of mushroom cap colors in this dataset. To do this, you need to install a helper library called [waffle](https://cran.r-project.org/web/packages/waffle/waffle.pdf) and use it to generate your visualization:
 
 ```r
 install.packages("waffle", repos = "https://cinc.rud.is")
@@ -140,9 +140,12 @@ install.packages("waffle", repos = "https://cinc.rud.is")
 
 Select a segment of your data to group:
 
-```python
-capcolor=mushrooms.groupby(['cap-color']).count()
-capcolor
+```r
+library(dplyr)
+cap_color=mushrooms %>%
+  group_by(cap.color) %>%
+  summarise(count=n())
+View(cap_color)
 ```
 
 Create a waffle chart by creating labels and then grouping your data:
@@ -171,8 +174,6 @@ fig = plt.figure(
 Using a waffle chart, you can plainly see the proportions of cap colors of this mushrooms dataset. Interestingly, there are many green-capped mushrooms!
 
 ![waffle chart](images/waffle.png)
-
-✅ Pywaffle supports icons within the charts that use any icon available in [Font Awesome](https://fontawesome.com/). Do some experiments to create an even more interesting waffle chart using icons instead of squares.
 
 In this lesson, you learned three ways to visualize proportions. First, you need to group your data into categories and then decide which is the best way to display the data - pie, donut, or waffle. All are delicious and gratify the user with an instant snapshot of a dataset.
 
