@@ -64,7 +64,7 @@ It's important to understand how easily the eye can be fooled by deceptive chart
 
 ## Color
 
-You saw in the 'Florida gun violence' chart above how color can provide an additional layer of meaning to charts, especially ones not designed using libraries such as Matplotlib and Seaborn which come with various vetted color libraries and palettes. If you are making a chart by hand, do a little study of [color theory](https://colormatters.com/color-and-design/basic-color-theory)
+You saw in the 'Florida gun violence' chart above how color can provide an additional layer of meaning to charts, especially ones not designed using libraries such as ggplot2 and RColorBrewer which come with various vetted color libraries and palettes. If you are making a chart by hand, do a little study of [color theory](https://colormatters.com/color-and-design/basic-color-theory)
 
 > ✅ Be aware, when designing charts, that accessibility is an important aspect of visualization. Some of your users might be color blind - does your chart display well for users with visual impairments?
 
@@ -89,7 +89,7 @@ Charts are not meaningful if they are not readable! Take a moment to consider st
 
 Label your axes, provide a legend if necessary, and offer tooltips for better comprehension of data.
 
-If your data is textual and verbose on the X axis, you can angle the text for better readability. [Matplotlib](https://matplotlib.org/stable/tutorials/toolkits/mplot3d.html) offers 3d plotting, if you data supports it. Sophisticated data visualizations can be produced using `mpl_toolkits.mplot3d`.
+If your data is textual and verbose on the X axis, you can angle the text for better readability. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) offers 3d plotting, if you data supports it. Sophisticated data visualizations can be produced using it.
 
 ![3d plots](images/3d.png)
 
