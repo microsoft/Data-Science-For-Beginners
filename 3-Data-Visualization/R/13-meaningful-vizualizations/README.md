@@ -1,6 +1,6 @@
 # Making Meaningful Visualizations
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/13-MeaningfulViz.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/13-MeaningfulViz.png)|
 |:---:|
 | Meaningful Visualizations - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
