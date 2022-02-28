@@ -45,12 +45,13 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 ![scatterplot 1](images/scatter1.png)
 
-Now, show the same data with a honey color scheme to show how the price evolves over the years. You can do this by adding a 'hue' parameter to show the change, year over year:
+Now, show the same data with a honey color scheme to show how the price evolves over the years. You can do this by adding a 'scale_color_gradientn' parameter to show the change, year over year:
 
-> ✅ Learn more about the [color palettes you can use in Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) - try a beautiful rainbow color scheme!
+> ✅ Learn more about the [scale_color_gradientn](https://www.rdocumentation.org/packages/ggplot2/versions/0.9.1/topics/scale_colour_gradientn) - try a beautiful rainbow color scheme!
 
-```python
-sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
+```r
+ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
+  geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
 ![scatterplot 2](images/scatter2.png)
 
