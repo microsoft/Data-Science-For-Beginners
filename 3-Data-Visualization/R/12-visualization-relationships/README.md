@@ -77,8 +77,11 @@ With this color scheme change, you can see that there's obviously a strong progr
 
 Another way to visualize this progression is to use size, rather than color. For colorblind users, this might be a better option. Edit your visualization to show an increase of price by an increase in dot circumference:
 
-```python
-sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspect=.5);
+```r
+library(ggplot2)
+ggplot(honey, aes(x = priceperlb, y = state)) +
+  geom_point(aes(size = year),colour = "blue") +
+  scale_size_continuous(range = c(0.25, 3))
 ```
 You can see the size of the dots gradually increasing.
 
