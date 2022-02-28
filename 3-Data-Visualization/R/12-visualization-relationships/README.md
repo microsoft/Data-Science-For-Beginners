@@ -1,6 +1,6 @@
 # Visualizing Relationships: All About Honey 🍯
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/12-Visualizing-Relationships.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/12-Visualizing-Relationships.png)|
 |:---:|
 |Visualizing Relationships - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
@@ -12,11 +12,11 @@ It will be interesting to visualize the relationship between a given state's pro
 
 ## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/22)
 
-In this lesson, you can use Seaborn, which you have used before, as a good library to visualize relationships between variables. Particularly interesting is the use of Seaborn's `relplot` function that allows scatter plots and line plots to quickly visualize '[statistical relationships](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', which allow the data scientist to better understand how variables relate to each other.
+In this lesson, you can use Seaborn, which you have used before, as a good library to visualize relationships between variables. Particularly interesting is the use of ggplot2's `ggplot`and `geom_point` function that allows scatter plots and line plots to quickly visualize '[statistical relationships](https://ggplot2.tidyverse.org/)', which allow the data scientist to better understand how variables relate to each other.
 
 ## Scatterplots
 
-Use a scatterplot to show how the price of honey has evolved, year over year, per state. Seaborn, using `relplot`, conveniently groups the state data and displays data points for both categorical and numeric data. 
+Use a scatterplot to show how the price of honey has evolved, year over year, per state. ggplot2, using `ggplot` and `geom_point`, conveniently groups the state data and displays data points for both categorical and numeric data. 
 
 Let's start by importing the data and Seaborn:
 
@@ -38,8 +38,10 @@ You notice that the honey data has several interesting columns, including year a
 
 Create a basic scatterplot to show the relationship between the price per pound of honey and its U.S. state of origin. Make the `y` axis tall enough to display all the states:
 
-```python
-sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
+```r
+library(ggplot2)
+ggplot(honey, aes(x = priceperlb, y = state)) +
+  geom_point(colour = "blue")
 ```
 ![scatterplot 1](images/scatter1.png)
 
