@@ -165,7 +165,7 @@ In this lesson, you learned a bit more about other uses of scatterplots and line
 
 ## Review & Self Study
 
-Line plots can be simple or quite complex. Do a bit of reading in the [Seaborn documentation](https://seaborn.pydata.org/generated/seaborn.lineplot.html) on the various ways you can build them. Try to enhance the line charts you built in this lesson with other methods listed in the docs.
+Line plots can be simple or quite complex. Do a bit of reading in the [ggplot2 documentation](https://ggplot2.tidyverse.org/reference/geom_path.html#:~:text=geom_line()%20connects%20them%20in,which%20cases%20are%20connected%20together) on the various ways you can build them. Try to enhance the line charts you built in this lesson with other methods listed in the docs.
 ## Assignment
 
 [Dive into the beehive](assignment.md)
