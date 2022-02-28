@@ -78,7 +78,6 @@ With this color scheme change, you can see that there's obviously a strong progr
 Another way to visualize this progression is to use size, rather than color. For colorblind users, this might be a better option. Edit your visualization to show an increase of price by an increase in dot circumference:
 
 ```r
-library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(aes(size = year),colour = "blue") +
   scale_size_continuous(range = c(0.25, 3))
@@ -95,19 +94,17 @@ To discover a correlation between some of the variables in this dataset, let's e
 
 Question: Is there a clear rise in price of honey per pound year over year? You can most easily discover that by creating a single line chart:
 
-```python
-sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
+```r
+qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab = "priceperlb")
 ```
 Answer: Yes, with some exceptions around the year 2003:
 
 ![line chart 1](images/line1.png)
 
-✅ Because Seaborn is aggregating data around one line, it displays "the multiple measurements at each x value by plotting the mean and the 95% confidence interval around the mean". [Source](https://seaborn.pydata.org/tutorial/relational.html). This time-consuming behavior can be disabled by adding `ci=None`.
-
 Question: Well, in 2003 can we also see a spike in the honey supply? What if you look at total production year over year?
 
 ```python
-sns.relplot(x="year", y="totalprod", kind="line", data=honey);
+qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
 ![line chart 2](images/line2.png)
