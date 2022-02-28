@@ -119,15 +119,11 @@ To discover this, you can explore a facet grid.
 
 Facet grids take one facet of your dataset (in our case, you can choose 'year' to avoid having too many facets produced). Seaborn can then make a plot for each of those facets of your chosen x and y coordinates for more easy visual comparison. Does 2003 stand out in this type of comparison?
 
-Create a facet grid by continuing to use `relplot` as recommended by [Seaborn's documentation](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid). 
+Create a facet grid by using `facet_wrap` as recommended by [ggplot2's documentation](https://ggplot2.tidyverse.org/reference/facet_wrap.html). 
 
-```python
-sns.relplot(
-    data=honey, 
-    x="yieldpercol", y="numcol",
-    col="year", 
-    col_wrap=3,
-    kind="line"
+```r
+ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) + 
+  geom_line() + facet_wrap(vars(year))
 ```
 In this visualization, you can compare the yield per colony and number of colonies year over year, side by side with a wrap set at 3 for the columns:
 
