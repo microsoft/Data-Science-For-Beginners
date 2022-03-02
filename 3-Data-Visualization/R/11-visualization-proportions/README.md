@@ -150,25 +150,12 @@ View(cap_color)
 
 Create a waffle chart by creating labels and then grouping your data:
 
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
-from pywaffle import Waffle
-  
-data ={'color': ['brown', 'buff', 'cinnamon', 'green', 'pink', 'purple', 'red', 'white', 'yellow'],
-    'amount': capcolor['class']
-     }
-  
-df = pd.DataFrame(data)
-  
-fig = plt.figure(
-    FigureClass = Waffle,
-    rows = 100,
-    values = df.amount,
-    labels = list(df.color),
-    figsize = (30,30),
-    colors=["brown", "tan", "maroon", "green", "pink", "purple", "red", "whitesmoke", "yellow"],
-)
+```r
+library(waffle)
+names(cap_color$count) = paste0(cap_color$cap.color)
+waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual(values=c("brown", "#F0DC82", "#D2691E", "green", 
+                                                                                     "pink", "purple", "red", "grey", 
+                                                                                     "yellow","white"))
 ```
 
 Using a waffle chart, you can plainly see the proportions of cap colors of this mushrooms dataset. Interestingly, there are many green-capped mushrooms!
