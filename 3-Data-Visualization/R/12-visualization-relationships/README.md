@@ -134,22 +134,17 @@ For this dataset, nothing particularly stands out with regards to the number of 
 
 ## Dual-line Plots
 
-Try a multiline plot by superimposing two lineplots on top of each other, using Seaborn's 'despine' to remove their top and right spines, and using `ax.twinx` [derived from Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx allows a chart to share the x axis and display two y axes. So, display the yield per colony and number of colonies, superimposed:
+Try a multiline plot by superimposing two lineplots on top of each other, using R's `par` and `plot` function. We will be plotting the year in the x axis and display two y axes. So, display the yield per colony and number of colonies, superimposed:
 
-```python
-fig, ax = plt.subplots(figsize=(12,6))
-lineplot = sns.lineplot(x=honey['year'], y=honey['numcol'], data=honey, 
-                        label = 'Number of bee colonies', legend=False)
-sns.despine()
-plt.ylabel('# colonies')
-plt.title('Honey Production Year over Year');
 
-ax2 = ax.twinx()
-lineplot2 = sns.lineplot(x=honey['year'], y=honey['yieldpercol'], ax=ax2, color="r", 
-                         label ='Yield per colony', legend=False) 
-sns.despine(right=False)
-plt.ylabel('colony yield')
-ax.figure.legend();
+```r
+par(mar = c(5, 4, 4, 4) + 0.3)              
+plot(honey$year, honey$numcol, pch = 16, col = 2,type="l")              
+par(new = TRUE)                             
+plot(honey$year, honey$yieldpercol, pch = 17, col = 3,              
+     axes = FALSE, xlab = "", ylab = "",type="l")
+axis(side = 4, at = pretty(range(y2)))      
+mtext("colony yield", side = 4, line = 3)   
 ```
 ![superimposed plots](images/dual-line.png)
 
