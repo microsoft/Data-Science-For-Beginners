@@ -94,11 +94,12 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine,  then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
 
 > Note, notebooks will not be rendered via Docsify, so when you need to run a notebook, do that separately in VS Code running a Python kernel.
-## PDF
+
+## PDF     <img align="right" alt="GIF" src="images/PDF.gif" width="80" height="90" />
 
 A PDF of all of the lessons can be found [here](https://microsoft.github.io/Data-Science-For-Beginners/pdf/readme.pdf)
 
-## Help Wanted!
+ ## Help Wanted!
 
 If you would like to translate all or part of the curriculum, please follow our [Translations](TRANSLATIONS.md) guide.
 
@@ -109,3 +110,4 @@ Our team produces other curricula! Check out:
 - [Machine Learning for Beginners](https://aka.ms/ml-beginners)
 - [IoT for Beginners](https://aka.ms/iot-beginners)
 - [Web Dev for Beginners](https://aka.ms/webdev-beginners)
+
