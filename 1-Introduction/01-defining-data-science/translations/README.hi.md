@@ -1,6 +1,6 @@
 # डेटा विज्ञान को परिभाषित करना
 
-| ![द्वारा स्केचनोट [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png) |
+| ![द्वारा स्केचनोट [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/01-Definitions.png) |
 | :----------------------------------------------------------------------------------------------------: |
 |              डेटा विज्ञान को परिभाषित करना - [@nitya](https://twitter.com/nitya) द्वारा स्केचनोट                |
 
