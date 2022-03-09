@@ -95,7 +95,7 @@ You can run this documentation offline by using [Docsify](https://docsify.js.org
 
 > Note, notebooks will not be rendered via Docsify, so when you need to run a notebook, do that separately in VS Code running a Python kernel.
 
-## PDF     <img align="right" alt="GIF" src="images/PDF.gif" width="80" height="90" />
+## PDF    
 
 A PDF of all of the lessons can be found [here](https://microsoft.github.io/Data-Science-For-Beginners/pdf/readme.pdf)
 
