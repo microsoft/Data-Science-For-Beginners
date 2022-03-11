@@ -1,14 +1,14 @@
 # डेटा विज्ञान को परिभाषित करना
 
-| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev)](../../sketchnotes/01-Definitions.png)  |
+| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev)](/sketchnotes/01-Definitions.png)  |
 | :----------------------------------------------------------------------------------------------------: |
-|              डेटा विज्ञान को परिभाषित करना - _Sketchnote by [@nitya](https://twitter.com/nitya)_            |
+|              डेटा विज्ञान को परिभाषित करना - _Sketchnote by [@nitya](https://twitter.com/nitya)_               |
 
 ---
 
-[![डेटा विज्ञान वीडियो को परिभाषित करना](images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Defining Data Science Video](/1-Introduction/01-defining-data-science/images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
 
-## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
+## [प्री-लेक्चर क्विज](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
 
 ## डेटा क्या है?
 अपने दैनिक जीवन में हम लगातार डेटा से घिरे रहते हैं। अभी आप जो पाठ पढ़ रहे हैं वह डेटा है। आपके स्मार्टफ़ोन में आपके मित्रों के फ़ोन नंबरों की सूची डेटा है, साथ ही आपकी घड़ी पर प्रदर्शित वर्तमान समय भी है। मनुष्य के रूप में, हम स्वाभाविक रूप से हमारे पास मौजूद धन की गणना करके या अपने मित्रों को पत्र लिखकर डेटा के साथ काम करते हैं।
