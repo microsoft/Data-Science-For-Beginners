@@ -2,11 +2,11 @@
 
 ## Instructions
 
-You've learned about various [Data Ethics Challenges](README?id=_2-ethics-challenges) and seen some examples of [Case Studies](README?id=_3-case-studies) reflecting data ethics challenges in real-world contexts.
+You've learned about various [Data Ethics Challenges](README.md#2-ethics-challenges) and seen some examples of [Case Studies](README.md#3-case-studies) reflecting data ethics challenges in real-world contexts.
 
 In this assignment, you'll write your own case study reflecting a data ethics challenge from your own experience, or from a relevant real-world context you are familiar with. Just follow these steps:
 
-1. `Pick a Data Ethics Challenge`. Look at the [the lesson examples](README?id=_2-ethics-challenges) or explore online examples like [the Deon Checklist](https://deon.drivendata.org/examples/) to get inspiration.
+1. `Pick a Data Ethics Challenge`. Look at the [the lesson examples](README.md#2-ethics-challenges) or explore online examples like [the Deon Checklist](https://deon.drivendata.org/examples/) to get inspiration.
 
 2. `Describe a Real World Example`. Think about a situation you have heard of (headlines, research study etc.) or experienced (local community), where this specific challenge occurred. Think about the data ethics questions related to the challenge - and discuss the potential harms or unintended consequences that arise because of this issue. Bonus points: think about potential solutions or processes that may be applied here to help eliminate or mitigate the adverse impact of this challenge.
 
