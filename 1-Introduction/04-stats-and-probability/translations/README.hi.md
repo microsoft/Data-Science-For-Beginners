@@ -1,12 +1,12 @@
 # सांख्यिकी और संभाव्यता का संक्षिप्त परिचय
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/04-Statistics-Probability.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev)](/sketchnotes/04-Statistics-Probability.png)|
 |:---:|
 | सांख्यिकी और संभावना - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
 सांख्यिकी और संभाव्यता सिद्धांत गणित के दो अत्यधिक संबंधित क्षेत्र हैं जो डेटा विज्ञान के लिए अत्यधिक प्रासंगिक हैं। गणित के गहन ज्ञान के बिना डेटा के साथ काम करना संभव है, लेकिन कम से कम कुछ बुनियादी अवधारणाओं को जानना अभी भी बेहतर है। यहां हम एक संक्षिप्त परिचय प्रस्तुत करेंगे जो आपको आरंभ करने में मदद करेगा।
 
-[![Intro Video](images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Intro Video](/1-Introduction/04-stats-and-probability/images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 
 ## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/6)
@@ -31,7 +31,7 @@
 
 हम केवल दिए गए मानों के अंतराल में एक चर के गिरने की प्रायिकता के बारे में बात कर सकते हैं, उदाहरण के लिए। P(t<sub>1</sub>&le;X&lt;t<sub>2</sub>)। इस मामले में, प्रायिकता बंटन को **प्रायिकता घनत्व फलन** p(x) द्वारा वर्णित किया जाता है, जैसे कि
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](./images/probability-density.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](/1-Introduction/04-stats-and-probability/images/probability-density.png)
   
 एकसमान वितरण के एक सतत एनालॉग को **निरंतर वर्दी** कहा जाता है, जिसे एक सीमित अंतराल पर परिभाषित किया जाता है। एक संभावना है कि मान X लंबाई l के अंतराल में आता है l के समानुपाती है, और 1 तक बढ़ जाता है।
 
@@ -54,7 +54,7 @@
 
 ग्राफिक रूप से हम **बॉक्स प्लॉट** नामक आरेख में माध्यिका और चतुर्थक के बीच संबंध का प्रतिनिधित्व कर सकते हैं:
 
-<img src="images/boxplot_explanation.png" width="50%"/>
+<img src="/1-Introduction/04-stats-and-probability/images/boxplot_explanation.png" width="50%"/>
 
 यहां हम **अंतर-चतुर्थक श्रेणी** IQR=Q3-Q1, और तथाकथित **आउटलेयर** - मानों की भी गणना करते हैं, जो सीमाओं के बाहर होते हैं [Q1-1.5*IQR,Q3+1.5*IQR]।
 
@@ -62,22 +62,22 @@
 
 ## वास्तविक दुनिया का डेटा
 
-जब हम वास्तविक जीवन से डेटा का विश्लेषण करते हैं, तो वे अक्सर यादृच्छिक चर नहीं होते हैं, इस अर्थ में कि हम अज्ञात परिणाम के साथ प्रयोग नहीं करते हैं। उदाहरण के लिए, बेसबॉल खिलाड़ियों की एक टीम और उनके शरीर के डेटा, जैसे ऊंचाई, वजन और उम्र पर विचार करें। वे संख्याएँ बिल्कुल यादृच्छिक नहीं हैं, लेकिन हम अभी भी उन्हीं गणितीय अवधारणाओं को लागू कर सकते हैं। उदाहरण के लिए, लोगों के वजन के अनुक्रम को कुछ यादृच्छिक चर से निकाले गए मानों का अनुक्रम माना जा सकता है। [इस डेटासेट] (http://wiki.stat.ucla.edu) से लिए गए [मेजर लीग बेसबॉल](http://mlb.mlb.com/index.jsp) से वास्तविक बेसबॉल खिलाड़ियों के वज़न का क्रम नीचे दिया गया है /socr/index.php/SOCR_Data_MLB_HeightsWeights) (आपकी सुविधा के लिए, केवल पहले 20 मान दिखाए गए हैं):
+जब हम वास्तविक जीवन से डेटा का विश्लेषण करते हैं, तो वे अक्सर यादृच्छिक चर नहीं होते हैं, इस अर्थ में कि हम अज्ञात परिणाम के साथ प्रयोग नहीं करते हैं। उदाहरण के लिए, बेसबॉल खिलाड़ियों की एक टीम और उनके शरीर के डेटा, जैसे ऊंचाई, वजन और उम्र पर विचार करें। वे संख्याएँ बिल्कुल यादृच्छिक नहीं हैं, लेकिन हम अभी भी उन्हीं गणितीय अवधारणाओं को लागू कर सकते हैं। उदाहरण के लिए, लोगों के वजन के अनुक्रम को कुछ यादृच्छिक चर से निकाले गए मानों का अनुक्रम माना जा सकता है। [इस डेटासेट](http://wiki.stat.ucla.edu/socr/index.php/SOCR_Data_MLB_HeightsWeights) से लिए गए [मेजर लीग बेसबॉल](http://mlb.mlb.com/index.jsp) से वास्तविक बेसबॉल खिलाड़ियों के वज़न का क्रम नीचे दिया गया ह। (आपकी सुविधा के लिए, केवल पहले 20 मान दिखाए गए हैं):
 
 
 ```
 [180.0, 215.0, 210.0, 210.0, 188.0, 176.0, 209.0, 200.0, 231.0, 180.0, 188.0, 180.0, 185.0, 160.0, 180.0, 185.0, 197.0, 189.0, 185.0, 219.0]
 ```
 
-> **नोट**: इस डेटासेट के साथ काम करने का उदाहरण देखने के लिए, [साथ वाली नोटबुक](notebook.ipynb) पर एक नज़र डालें। इस पूरे पाठ में कई चुनौतियाँ भी हैं, और आप उस नोटबुक में कुछ कोड जोड़कर उन्हें पूरा कर सकते हैं। यदि आप सुनिश्चित नहीं हैं कि डेटा पर कैसे काम करना है, तो चिंता न करें - हम बाद में पायथन का उपयोग करके डेटा के साथ काम करने के लिए वापस आएंगे। यदि आप जुपिटर नोटबुक में कोड चलाना नहीं जानते हैं, तो [इस लेख] (https://soshnikov.com/education/how-to-execute-notebooks-from-github/) पर एक नज़र डालें।
+> **नोट**: इस डेटासेट के साथ काम करने का उदाहरण देखने के लिए, [साथ वाली नोटबुक](/1-Introduction/04-stats-and-probability/notebook.ipynb) पर एक नज़र डालें। इस पूरे पाठ में कई चुनौतियाँ भी हैं, और आप उस नोटबुक में कुछ कोड जोड़कर उन्हें पूरा कर सकते हैं। यदि आप सुनिश्चित नहीं हैं कि डेटा पर कैसे काम करना है, तो चिंता न करें - हम बाद में पायथन का उपयोग करके डेटा के साथ काम करने के लिए वापस आएंगे। यदि आप जुपिटर नोटबुक में कोड चलाना नहीं जानते हैं, तो [इस लेख](https://soshnikov.com/education/how-to-execute-notebooks-from-github/) पर एक नज़र डालें।
 
 हमारे डेटा के लिए माध्य, माध्यिका और चतुर्थक दिखाने वाला बॉक्स प्लॉट यहां दिया गया है:
 
-![वेट बॉक्स प्लॉट](images/weight-boxplot.png)
+![वेट बॉक्स प्लॉट](/1-Introduction/04-stats-and-probability/images/weight-boxplot.png)
 
 चूंकि हमारे डेटा में अलग-अलग खिलाड़ी **भूमिकाएं** के बारे में जानकारी है, इसलिए हम भूमिका के आधार पर बॉक्स प्लॉट भी कर सकते हैं - यह हमें यह विचार प्राप्त करने की अनुमति देगा कि कैसे पैरामीटर मान भूमिकाओं में भिन्न होते हैं। इस बार हम ऊंचाई पर विचार करेंगे:
 
-![भूमिका के अनुसार बॉक्स प्लॉट](images/boxplot_byrole.png)
+![भूमिका के अनुसार बॉक्स प्लॉट](/1-Introduction/04-stats-and-probability/images/boxplot_byrole.png)
 
 यह आरेख बताता है कि, औसतन, पहले बेसमेन की ऊंचाई दूसरे बेसमेन की ऊंचाई से अधिक होती है। बाद में इस पाठ में हम सीखेंगे कि हम इस परिकल्पना का अधिक औपचारिक रूप से परीक्षण कैसे कर सकते हैं, और यह कैसे प्रदर्शित करें कि हमारा डेटा सांख्यिकीय रूप से महत्वपूर्ण है।
 
@@ -85,7 +85,7 @@
 
 यह देखने के लिए कि हमारे डेटा का वितरण क्या है, हम एक ग्राफ बना सकते हैं जिसे **हिस्टोग्राम** कहा जाता है। एक्स-अक्ष में कई अलग-अलग वज़न अंतराल (तथाकथित **बिन्स**) होंगे, और ऊर्ध्वाधर अक्ष दिखाएगा कि हमारा यादृच्छिक चर नमूना किसी दिए गए अंतराल के अंदर कितनी बार था।
 
-![वास्तविक विश्व डेटा का हिस्टोग्राम](images/weight-histogram.png)
+![वास्तविक विश्व डेटा का हिस्टोग्राम](/1-Introduction/04-stats-and-probability/images/weight-histogram.png)
 
 इस हिस्टोग्राम से आप देख सकते हैं कि सभी मान निश्चित औसत वजन के आसपास केंद्रित होते हैं, और हम उस वजन से जितना आगे जाते हैं - उस मान के कम वजन का सामना करना पड़ता है। यानी, यह बहुत ही असंभव है कि बेसबॉल खिलाड़ी का वजन औसत वजन से बहुत अलग होगा। भार में भिन्नता यह दर्शाती है कि भार किस हद तक माध्य से भिन्न होने की संभावना है।
 
@@ -102,7 +102,7 @@ samples = np.random.normal(mean,std,1000)
 
 यदि हम उत्पन्न नमूनों के हिस्टोग्राम की साजिश करते हैं तो हम ऊपर दिखाए गए चित्र के समान ही चित्र देखेंगे। और अगर हम नमूनों की संख्या और डिब्बे की संख्या में वृद्धि करते हैं, तो हम एक सामान्य वितरण की एक तस्वीर उत्पन्न कर सकते हैं जो आदर्श के अधिक करीब है:
 
-![माध्य = 0 और एसटीडी.देव = 1 के साथ सामान्य वितरण](images/normal-histogram.png)
+![माध्य = 0 और एसटीडी.देव = 1 के साथ सामान्य वितरण](/1-Introduction/04-stats-and-probability/images/normal-histogram.png)
 
 
 *माध्य = 0 और std.dev=1* के साथ सामान्य वितरण
@@ -121,11 +121,11 @@ samples = np.random.normal(mean,std,1000)
 
 > **दिलचस्प तथ्य**: छात्र वितरण का नाम गणितज्ञ विलियम सीली गॉसेट के नाम पर रखा गया है, जिन्होंने छद्म नाम "स्टूडेंट" के तहत अपना पेपर प्रकाशित किया था। उन्होंने गिनीज शराब की भठ्ठी में काम किया, और, एक संस्करण के अनुसार, उनके नियोक्ता नहीं चाहते थे कि आम जनता को पता चले कि वे कच्चे माल की गुणवत्ता निर्धारित करने के लिए सांख्यिकीय परीक्षणों का उपयोग कर रहे थे।
 
-If we want to estimate the mean &mu; of our population with confidence p, we need to take *(1-p)/2-th percentile* of a Student distribution A, which can either be taken from tables, or computer using some built-in functions of statistical software (eg. Python, R, etc.). Then the interval for &mu; would be given by X&pm;A*D/&radic;n, where X is the obtained mean of the sample, D is the standard deviation.
+यदि हम माध्य का अनुमान लगाना चाहते हैं &mu; हमारी जनसंख्या का विश्वास p के साथ, हमें छात्र वितरण A का *(1-p)/2-th प्रतिशत* लेने की आवश्यकता है, जिसे या तो तालिकाओं से लिया जा सकता है, या कंप्यूटर सांख्यिकीय सॉफ़्टवेयर के कुछ अंतर्निहित कार्यों का उपयोग करके (उदाहरण के लिए पायथन, आर, आदि)। फिर अंतराल के लिए &mu; X&pm;A*D/&radic;n द्वारा दिया जाएगा, जहां X नमूने का प्राप्त माध्य है, D मानक विचलन है।
 
-> **Note**: We also omit the discussion of an important concept of [degrees of freedom](https://en.wikipedia.org/wiki/Degrees_of_freedom_(statistics)), which is important in relation to Student distribution. You can refer to more complete books on statistics to understand this concept deeper.
+> **नोट**: हम [स्वतंत्रता की डिग्री](https://en.wikipedia.org/wiki/Degrees_of_freedom_(statistics)) की एक महत्वपूर्ण अवधारणा की चर्चा को भी छोड़ देते हैं, जो छात्र वितरण के संबंध में महत्वपूर्ण है। इस अवधारणा को गहराई से समझने के लिए आप सांख्यिकी पर अधिक संपूर्ण पुस्तकों का उल्लेख कर सकते हैं।
 
-An example of calculating confidence interval for weights and heights is given in the [accompanying notebooks](notebook.ipynb).
+वजन और ऊंचाई के लिए आत्मविश्वास अंतराल की गणना का एक उदाहरण [साथ वाली नोटबुक](/1-Introduction/04-stats-and-probability/notebook.ipynb) में दिया गया है।
 
 | p | Weight mean |
 |-----|-----------|
@@ -137,7 +137,7 @@ An example of calculating confidence interval for weights and heights is given i
 
 ## परिकल्पना परीक्षण 
 
-हमारे बेसबॉल खिलाड़ियों के डेटासेट में, अलग-अलग खिलाड़ी भूमिकाएँ होती हैं, जिन्हें नीचे संक्षेप में प्रस्तुत किया जा सकता है (इस तालिका की गणना कैसे की जा सकती है, यह देखने के लिए [साथ वाली नोटबुक](notebook.ipynb) देखें):
+हमारे बेसबॉल खिलाड़ियों के डेटासेट में, अलग-अलग खिलाड़ी भूमिकाएँ होती हैं, जिन्हें नीचे संक्षेप में प्रस्तुत किया जा सकता है (इस तालिका की गणना कैसे की जा सकती है, यह देखने के लिए [साथ वाली नोटबुक](/1-Introduction/04-stats-and-probability/notebook.ipynb) देखें):
 
 | Role | Height | Weight | Count |
 |------|--------|--------|-------|
@@ -226,9 +226,9 @@ array([[1.        , 0.52959196],
 
 हमारे मामले में, मान 0.53 इंगित करता है कि किसी व्यक्ति के वजन और ऊंचाई के बीच कुछ संबंध है। हम रिश्ते को देखने के लिए दूसरे के खिलाफ एक मूल्य का स्कैटर प्लॉट भी बना सकते हैं:
 
-![वजन और ऊंचाई के बीच संबंध](images/weight-height-relationship.png)
+![वजन और ऊंचाई के बीच संबंध](/1-Introduction/04-stats-and-probability/images/weight-height-relationship.png)
 
-> सहसंबंध और सहप्रसरण के अधिक उदाहरण [साथ वाली नोटबुक](notebook.ipynb) में पाए जा सकते हैं।
+> सहसंबंध और सहप्रसरण के अधिक उदाहरण [साथ वाली नोटबुक](/1-Introduction/04-stats-and-probability/notebook.ipynb) में पाए जा सकते हैं।
 
 ## निष्कर्ष
 
@@ -255,9 +255,9 @@ array([[1.        , 0.52959196],
 
 संभाव्यता और सांख्यिकी इतना व्यापक विषय है कि यह अपने पाठ्यक्रम के योग्य है। यदि आप सिद्धांत में गहराई तक जाने में रुचि रखते हैं, तो आप निम्नलिखित में से कुछ पुस्तकों को पढ़ना जारी रख सकते हैं:
 
-1. [Carlos Fernandez-Granda](https://cims.nyu.edu/~cfgranda/) from New York University has great lecture notes [Probability and Statistics for Data Science](https://cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf) (available online)
-1. [Peter and Andrew Bruce. Practical Statistics for Data Scientists.](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/) [[sample code in R](https://github.com/andrewgbruce/statistics-for-data-scientists)]. 
-1. [James D. Miller. Statistics for Data Science](https://www.packtpub.com/product/statistics-for-data-science/9781788290678) [[sample code in R](https://github.com/PacktPublishing/Statistics-for-Data-Science)]
+1. न्यूयॉर्क विश्वविद्यालय के [कार्लोस फर्नांडीज-ग्रांडा](https://cims.nyu.edu/~cfgranda/) के पास डेटा साइंस के लिए [संभाव्यता और सांख्यिकी](https://cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf) (ऑनलाइन उपलब्ध) के लिए महान व्याख्यान नोट्स हैं।
+1. [पीटर और एंड्रयू ब्रूस। डेटा वैज्ञानिकों के लिए व्यावहारिक सांख्यिकी](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/) । [[आर . में नमूना कोड](https://github.com/PacktPublishing/Statistics-for-Data-Science)]
+1. [जेम्स डी. मिलर। डेटा विज्ञान के लिए सांख्यिकी](https://www.packtpub.com/product/statistics-for-data-science/9781788290678) [[आर . में नमूना कोड](https://github.com/PacktPublishing/Statistics-for-Data-Science)] 
 
 ## कार्यभार
 
