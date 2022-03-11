@@ -162,8 +162,4 @@ Visit [`notebook.ipynb`](/1-Introduction/01-defining-data-science/notebook.ipynb
 
 ## Credits
 
-<<<<<<< HEAD
 This lesson has been authored with ♥️ by [Dmitry Soshnikov](http://soshnikov.com)
-=======
-This lesson has been authored with ♥️ by [Dmitry Soshnikov](http://soshnikov.com)
->>>>>>> parent of 0954651 (Hindi Translation of Defining Data Science README.md)
