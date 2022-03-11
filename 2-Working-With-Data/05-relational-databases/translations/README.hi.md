@@ -1,6 +1,6 @@
 # डेटा के साथ कार्य करना: संबंधपरक डेटाबेस
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/05-RelationalData.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](/sketchnotes/05-RelationalData.png)|
 |:---:|
 | डेटा के साथ कार्य करना: संबंधपरक डेटाबेस - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
