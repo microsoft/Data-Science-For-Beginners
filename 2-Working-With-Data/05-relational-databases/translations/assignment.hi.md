@@ -1,6 +1,6 @@
 # हवाईअड्डा डेटा प्रदर्शित करना
 
-आपको एक [डेटाबेस](https://raw.githubusercontent.com/Microsoft/Data-Science-For-Beginners/main/2-Working-With-Data/05-relational-databases/airports.db)प्रदान किया जायेगा। बनाया गया है [SQLite](https://sqlite.org/index.html) पर जिसमें हवाई अड्डों के बारे में जानकारी होती है। स्कीमा नीचे प्रदर्शित किया गया है। आप [विजुअल स्टूडियो कोड](https://code.) में [SQLite एक्सटेंशन](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-40229-cxa) का इस्तेमाल करेंगे। Visualstudio.com?WT.mc_id=academic-40229-cxa) विभिन्न शहरों के हवाई अड्डों के बारे में जानकारी प्रदर्शित करने के लिए।
+आपको एक [डेटाबेस](https://raw.githubusercontent.com/Microsoft/Data-Science-For-Beginners/main/2-Working-With-Data/05-relational-databases/airports.db) प्रदान किया जायेगा। बनाया गया है [SQLite](https://sqlite.org/index.html) पर जिसमें हवाई अड्डों के बारे में जानकारी होती है। स्कीमा नीचे प्रदर्शित किया गया है। आप [विजुअल स्टूडियो कोड](https://code.visualstudio.com/) में [SQLite एक्सटेंशन](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-40229-cxa) का इस्तेमाल करेंगे। Visualstudio.com?WT.mc_id=academic-40229-cxa) विभिन्न शहरों के हवाई अड्डों के बारे में जानकारी प्रदर्शित करने के लिए।
 
 ## निर्देश
 
