@@ -6,7 +6,7 @@
 
 ---
 
-[![Defining Data Science Video](/1-Introduction/01-defining-data-science/images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
+[![डेटा विज्ञान वीडियो को परिभाषित करना](/1-Introduction/01-defining-data-science/images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [प्री-लेक्चर क्विज](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
 
@@ -152,12 +152,12 @@ Visit [`notebook.ipynb`](/1-Introduction/01-defining-data-science/notebook.ipynb
 
 
 
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/1)
+## [व्याख्यान के बाद प्रश्नोत्तरी](https://red-water-0103e7a0f.azurestaticapps.net/quiz/1)
 
 ## कार्य (Assignments)
 
 * **कार्य 1**: **बिग डेटा** और **मशीन लर्निंग** के क्षेत्रों के लिए संबंधित अवधारणाओं का पता लगाने के लिए ऊपर दिए गए कोड को संशोधित करें
-* **कार्य 2**: [डेटा विज्ञान परिदृश्यों के बारे में सोचें](assignment.md)
+* **कार्य 2**: [डेटा विज्ञान परिदृश्यों के बारे में सोचें](assignment.hi.md)
 
 ## क्रेडिट
 
