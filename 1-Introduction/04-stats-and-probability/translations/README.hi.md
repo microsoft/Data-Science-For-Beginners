@@ -9,7 +9,7 @@
 [![Intro Video](/1-Introduction/04-stats-and-probability/images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 
-## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/6)
+## [प्री-लेक्चर क्विज](https://red-water-0103e7a0f.azurestaticapps.net/quiz/6)
 
 ## प्रायिकता और यादृच्छिक चर
 
@@ -39,7 +39,7 @@
 
 ## माध्य, प्रसरण और मानक विचलन
 मान लीजिए कि हम एक यादृच्छिक चर X के n नमूनों का एक क्रम बनाते हैं: x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>। हम पारंपरिक तरीके से अनुक्रम के **माध्य** (या **अंकगणित औसत**) मान को परिभाषित कर सकते हैं (x<sub>1</sub>+x<sub>2</sub>+x<sub >एन</उप>)/एन। जैसे-जैसे हम नमूने का आकार बढ़ाते हैं (अर्थात n&rr;&infin; के साथ सीमा लेते हैं), हम वितरण का माध्य (जिसे **अपेक्षा** भी कहते हैं) प्राप्त करेंगे। हम उम्मीद को **E**(x) से निरूपित करेंगे।
-> यह प्रदर्शित किया जा सकता है कि मूल्यों के साथ किसी भी असतत वितरण के लिए {x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>N</sub>} and corresponding probabilities p<sub>1</sub>, p<sub>2</sub>, ..., p<sub>N</sub>, the expectation would equal to E(X)=x<sub>1</sub>p<sub>1</sub>+x<sub>2</sub>p<sub>2</sub>+...+x<sub>N</sub>p<sub>N</sub>.
+> यह प्रदर्शित किया जा सकता है कि मूल्यों के साथ किसी भी असतत वितरण के लिए {x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>N</sub>} और संबंधित संभावनाएं p<sub>1</sub>, p<sub>2</sub>, ..., p<sub>N</sub>, उम्मीद के बराबर होगा E(X)=x<sub>1</sub>p<sub>1</sub>+x<sub>2</sub>p<sub>2</sub>+...+x<sub>N</sub>p<sub>N</sub>.
 
 यह पहचानने के लिए कि मान कितनी दूर तक फैले हुए हैं, हम प्रसरण की गणना कर सकते हैं &sigma;<sup>2</sup> = &sum;(x<sub>i</sub> - &mu;)<sup>2</sup>/ एन, जहां & एमयू; अनुक्रम का माध्य है। मूल्य &सिग्मा; इसे **मानक विचलन** कहा जाता है, और &sigma;<sup>2</sup> को **विचरण** कहा जाता है।
 
