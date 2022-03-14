@@ -216,7 +216,7 @@ P-value: 9.137321189738925e-12
 ```python
 print(np.corrcoef(weights,heights))
 ```
-As a result, we get **correlation matrix** like this one:
+नतीजतन, हमें इस तरह **सहसंबंध मैट्रिक्स** मिलता है:
 ```
 array([[1.        , 0.52959196],
        [0.52959196, 1.        ]])
