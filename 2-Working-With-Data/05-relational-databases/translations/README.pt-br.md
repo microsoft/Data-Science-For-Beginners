@@ -92,90 +92,92 @@ Perceba a coluna **cidade_id** na tabela **precipitacao** recém criada. Essa co
 
 ## Buscando dados
 
-With our data separated into two tables, you may be wondering how we retrieve it. If we are using a relational database such as MySQL, SQL Server or Oracle, we can use a language called Structured Query Language or SQL. SQL (sometimes pronounced sequel) is a standard language used to retrieve and modify data in a relational database.
+Com os nossos dados separados em duas tabelas, você pode se perguntar como acessá-los. Se usarmos uma base de dados relacional, como MySQL, SQL Server ou Oracle, podemos usar uma linguagem chamada Structured Query Language (Linguagem de Consulta Estruturada) ou SQL. A SQL (às vezes lida como "sequel" em inglês) é uma linguagem padronizada para buscar e modificar dados em uma base de dados relacional.
 
-To retrieve data you use the command `SELECT`. At its core, you **select** the columns you want to see **from** the table they're contained in. If you wanted to display just the names of the cities, you could use the following:
+Para buscar dados, usamos o comando `SELECT` (que significa "selecionar"). No fundo, você **seleciona** as colunas que você quer ver **desde** a tabela em que elas estão contidas. Se você quer apenas mostrar os nomes das cidades, você pode usar o seguinte comando:   
 
 ```sql
 SELECT cidade
-FROM cities;
+FROM cidades;
 
--- Output:
+-- Resultado:
 -- Tóquio
 -- Atlanta
 -- Auckland
 ```
 
-`SELECT` is where you list the columns, and `FROM` is where you list the tables.
+`SELECT` é onde você lista as colunas, e `FROM` é onde você lista as tabelas.
 
-> [NOTE] SQL syntax is case-insensitive, meaning `select` and `SELECT` mean the same thing. However, depending on the type of database you are using the columns and tables might be case sensitive. As a result, it's a best practice to always treat everything in programming like it's case sensitive. When writing SQL queries common convention is to put the keywords in all upper-case letters.
+> [NOTE] A sintaxe de SQL não é sensível a maiúsculas e minúsculas, que significa que  `select` e `SELECT` são a mesma coisa. Entretanto, dependendo do tipo de base de dados que você usa, as colunas e tabelas podem ser sensíveis a maiúsculas e minúsculas. Por causa disso, é uma boa prática sempre presumir que tudo em programação é sensível. Quando se escreve uma query (consulta) em SQL, a convenção é usar as palavras-chave todas em maiúsculas.
 
-The query above will display all cities. Let's imagine we only wanted to display cities in Nova Zelândia. We need some form of a filter. The SQL keyword for this is `WHERE`, or "where something is true".
+A query acima mostrará todas as cidades. Imaginemos que só queremos mostrar as cidades da Nova Zelândia. Vamos precisar de alguma forma de filtro. A palavra-chave em SQL para isso é `WHERE` ("onde"), ou  "onde certa afirmação é verdadeira".
 
 ```sql
 SELECT cidade
-FROM cities
-WHERE country = 'Nova Zelândia';
+FROM cidades
+WHERE pais = 'Nova Zelândia';
 
--- Output:
+-- Resultado:
 -- Auckland
 ```
 
-## Joining data
+## Juntando dados
 
-Until now we've retrieved data from a single table. Now we want to bring the data together from both **cities** and **rainfall**. This is done by *joining* them together. You will effectively create a seam between the two tables, and match up the values from a column from each table.
+Até agora nós conseguimos buscar dados de uma única tabela. Agora queremos juntas or dados de ambas as tabelas **cidades** e **precipitacao**. Isso se faz juntando (em inglês, "*joining*") elas. Dessa forma você vai "costurar" as duas tabelas, e combinar os valoras de uma coluna de cada tabela.
 
-In our example, we will match the **cidade_id** column in **rainfall** with the **cidade_id** column in **cities**. This will match the rainfall value with its respective cidade. The type of join we will perform is what's called an *inner* join, meaning if any rows don't match with anything from the other table they won't be displayed. In our case every cidade has rainfall, so everything will be displayed.
+Em nosso exemplo, vamos combinar a coluna **cidade_id** em **precipitacao** com a coluna **cidade_id** em **cidades**. Isso irá combinar a precipitação com sua respectiva cidade. O tipo de "join" que faremos é chamado de *inner* join ("juntar internamente"), que significa que caso as linhas não combinem com nada da outra tabela, elas não serão mostradas. No nosso caso, cada cidade tem uma precipitação, então tudo será mostrado.
 
-Let's retrieve the rainfall for 2019 for all our cities.
+Agora vamos buscar a precipitação em 2019 para todas as nossas cidades.
 
-We're going to do this in steps. The first step is to join the data together by indicating the columns for the seam - **cidade_id** as highlighted before.
+Faremos isso em alguns passos. O primeiro passo é juntar os dados indicando as colunas para a "costura" - **cidade_id** como dito anteriormente.
+
 
 ```sql
-SELECT cities.cidade
-    rainfall.amount
-FROM cities
-    INNER JOIN rainfall ON cities.cidade_id = rainfall.cidade_id
+SELECT cidades.cidade
+    precipitacao.quantidade
+FROM cidades
+    INNER JOIN precipitacao ON cidades.cidade_id = precipitacao.cidade_id
 ```
 
-We have highlighted the two columns we want, and the fact we want to join the tables together by the **cidade_id**. Now we can add the `WHERE` statement to filter out only year 2019.
+Escolhemos as duas colunas que queremos, e o fato de querermos juntar as tabelas pelo **cidade_id**. Agora podemos adicionar o `WHERE` para filtrar apenas o ano 2019.
 
 ```sql
-SELECT cities.cidade
-    rainfall.amount
-FROM cities
-    INNER JOIN rainfall ON cities.cidade_id = rainfall.cidade_id
-WHERE rainfall.year = 2019
+SELECT cidades.cidade
+    precipitacao.quantidade
+FROM cidades
+    INNER JOIN precipitacao ON cidades.cidade_id = precipitacao.cidade_id
+WHERE precipitacao.ano = 2019
 
--- Output
+-- Resultado
 
--- cidade     | amount
+-- cidade   | quantidade
 -- -------- | ------
--- Tóquio    | 1874
+-- Tóquio   | 1874
 -- Atlanta  | 1111
 -- Auckland |  942
 ```
 
-## Summary
+## Resumo
+Bases de dados relacionais funcionam dividindo a informação entre várias tabelas, que depois são juntas novamente para serem mostradas e analizadas. Isso nos dá um alto grau de flexibilidade para fazer cálculos e manipular dados. Você viu os principais conceitos de uma base de dados relacional, e como fazer um "join" entre duas tabelas.
 
-Relational databases are centered around dividing information between multiple tables which is then brought back together for display and analysis. This provides a high degree of flexibility to perform calculations and otherwise manipulate data. You have seen the core concepts of a relational database, and how to perform a join between two tables.
 
-## 🚀 Challenge
+## 🚀 Desafio
 
-There are numerous relational databases available on the internet. You can explore the data by using the skills you've learned above.
+Há muitas bases de dados relacionais disponíveis na internet. Você pode explorar os dados usando as técnicas que você aprendeu acima. 
 
-## Post-Lecture Quiz
 
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/9)
+## Quiz Pós-Aula
 
-## Review & Self Study
+## [Quiz pós-aula](https://red-water-0103e7a0f.azurestaticapps.net/quiz/9)
 
-There are several resources available on [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-40229-cxa) for you to continue your exploration of SQL and relational database concepts
+## Revisão & Auto-Estudo
 
-- [Describe concepts of relational data](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-40229-cxa)
-- [Get Started Querying with Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-40229-cxa) (Transact-SQL is a version of SQL)
-- [SQL content on Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-40229-cxa)
+Há muitos recursos em [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-40229-cxa) para você continuar sua exploração sobre SQL e conceitos de bases de dados relacionais.
 
-## Assignment
+- [Descreva conceitos de bases de dados relacionais](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-40229-cxa)
+- [Comece a fazer queries com Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-40229-cxa) (Transact-SQL é uma versão de SQL)
+- [Conteúdo de SQL em Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-40229-cxa)
 
-[Assignment Title](assignment.md)
+## Trabalho
+
+[Título do Trabalho](assignment.md)
