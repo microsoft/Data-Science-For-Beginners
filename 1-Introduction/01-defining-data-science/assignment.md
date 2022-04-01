@@ -19,10 +19,10 @@ Here are some of the problem domains and problems that can get you started think
 Fill in the following table (substitute suggested problem domains for your own ones if needed):
 
 | Problem Domain | Problem | Which data to collect | How to store the data | Which insights/decisions we can make | 
-|----------------|---------|-----------------------|-----------------------|--------------------------------------|
-| Education | | | | |
-| Vaccination | | | | |
-| Productivity | | | | |
+|Algebra|Students findong it hard to understand algebra|Students past assessment on algebra|We can store the data using RDMD SQL|which part of Algebra should be more focused on while teaching the students|
+| Education |Increased failure in Jamb examination in Nigeria|Students Assessment takimg the Jamb examination|we can dtoree the data in relatable database Queries like tables|which age group,courses,or genders should be focused more while training for the jamb examination|
+| Vaccination |increased sensitivity reactions to the vaccine|semi-structured data woith texts and figures showing numbet of patients,types of sensitivity reactions, Genders e.t.c|NoSQL like CosmoDB|which features are peculiar to those havinh similar sensitivity reactions to the vaccine|
+| Productivity |Low Milk productivity in cattles|Quantity of Milk produced and previous records|SQL|why there is decreased productivity of milk in Cattles|
 
 ## Rubric
 
