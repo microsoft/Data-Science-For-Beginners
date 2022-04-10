@@ -69,9 +69,9 @@
 | 14 | 数据科学生命周期介绍 | [生命周期](../4-Data-Science-Lifecycle/translations/README.zh-cn.md) | 介绍数据科学生命周期及其获取和提取数据的第一个步骤。 | [课程](../4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
 | 15 | 分析 | [生命周期](../4-Data-Science-Lifecycle/translations/README.zh-cn.md) | 数据科学生命周期的这一阶段侧重于分析数据的技术。 | [课程](../4-Data-Science-Lifecycle/15-Analyzing/README.md) | [Jasmine](https://twitter.com/paladique) |
 | 16 | 交流 | [生命周期](../4-Data-Science-Lifecycle/translations/README.zh-cn.md) | 数据科学生命周期的这一阶段重点是以一种使决策者更容易理解的方式来展示数据的洞察力。 | [课程](../4-Data-Science-Lifecycle/16-Communication/README.md) | [Jalen](https://twitter.com/JalenMcG) |
-| 17 | 云上的数据科学 | [云上数据](../5-Data-Science-In-Cloud/README.md) | 这一系列课程介绍了云上的数据科学及其好处。 | [课程](../5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
-| 18 | 云上的数据科学 | [云上数据](../5-Data-Science-In-Cloud/README.md) | 使用低代码工具训练模型。 |[课程](../5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
-| 19 | 云上的数据科学 | [云上数据](../5-Data-Science-In-Cloud/README.md) | 用 Azure ML Studio 部署模型 | [课程](../5-Data-Science-In-Cloud/19-Azure/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
+| 17 | 云上的数据科学 | [云上数据](../5-Data-Science-In-Cloud/translations/README.zh-cn.md) | 这一系列课程介绍了云上的数据科学及其好处。 | [课程](../5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
+| 18 | 云上的数据科学 | [云上数据](../5-Data-Science-In-Cloud/translations/README.zh-cn.md) | 使用低代码工具训练模型。 |[课程](../5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
+| 19 | 云上的数据科学 | [云上数据](../5-Data-Science-In-Cloud/translations/README.zh-cn.md) | 用 Azure ML Studio 部署模型 | [课程](../5-Data-Science-In-Cloud/19-Azure/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
 | 20 | 现实中的数据科学 | [现实世界](../6-Data-Science-In-Wild/translations/README.zh-cn.md) | 现实世界中由数据科学驱动的项目 | [课程](../6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## 离线访问
