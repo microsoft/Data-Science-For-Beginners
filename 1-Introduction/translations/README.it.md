@@ -1,6 +1,6 @@
 # Introduzione alla Data Science
 
-![data in action](images/data.jpg)
+![data in action](../images/data.jpg)
 > Fotografia di <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> su <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 In queste lezioni, scoprirai come la Data Science è definita e apprenderai le considerazioni etiche che devono essere considerate da un data scientist. Imparerai anche come i dati sono definiti e ti verrà introdotta un po' di statistica e probabilità, i principali temi accademici della Data Science.
