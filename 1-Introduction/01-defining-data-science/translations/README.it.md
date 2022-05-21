@@ -1,12 +1,12 @@
 # Definendo la  Data Science
 
-| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png) |
+| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/01-Definitions.png) |
 | :----------------------------------------------------------------------------------------------------: |
 |              Definedo la  Data Science - _Sketchnote di [@nitya](https://twitter.com/nitya)_               |
 
 ---
 
-[![Definendo la  Data Science Video](images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Definendo la  Data Science Video](../images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Quiz pre-lezione](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
 
@@ -147,7 +147,7 @@ Se vogliamo complicare ancora la situazione, possiamo fare un grafico del tempo 
 
 in questa challenge, proveremo a trovare concetti importanti per il campo della data science e cercare dei testi. Prenderemo degli articoli di Wikipedia di Data Science, li scaricheremo e processeremo il testo, e poi costruiremo un cloud di parole come questo:
 
-![Word Cloud per la Data Science](images/ds_wordcloud.png)
+![Word Cloud per la Data Science](../images/ds_wordcloud.png)
 
 Visita [`notebook.ipynb`](/1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') per leggere il codice. Puoi anche eseguire il codice , e vedere com funzionano tutte le trasformazioni di dati in tempo reale. 
 
