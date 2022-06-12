@@ -4,9 +4,9 @@
 
 他们想知道：**纽约市黄色出租车乘客在冬夏两季是否会给司机更多小费？**
 
-你的团队正处于数据科学生命周期的[捕获](Readme.md#Capturing)阶段,而你正在处理数据集。有笔记本和[数据](../../data/taxi.csv)可供你探索。
+你的团队正处于数据科学生命周期的[捕获](../Readme.md#Capturing)阶段,而你正在处理数据集。有笔记本和[数据](../../../data/taxi.csv)可供你探索。
 
-在这个目录中, [笔记本](notebook.ipynb)利用Python加载来自[纽约市出租车和豪华轿车委员会](https://docs.microsoft.com/en-us/azure/open-datasets/dataset-taxi-yellow?tabs=azureml-opendatasets)的黄色出租车出行数据。
+在这个目录中, [笔记本](../notebook.ipynb)利用Python加载来自[纽约市出租车和豪华轿车委员会](https://docs.microsoft.com/en-us/azure/open-datasets/dataset-taxi-yellow?tabs=azureml-opendatasets)的黄色出租车出行数据。
 你也可以用文本编辑器或电子表格软件，如Excel来打开出租车数据文件。
 
 ## 指示
