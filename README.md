@@ -21,6 +21,12 @@ Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson cur
 |:---:|
 | Data Science For Beginners - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
+# Are you a student?
+
+Get started with the following resources:
+
+- [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-13441-cxa) In this page, you will find beginner resources, Student packs and even ways to get a free cert voucher. This is one page you want to bookmark and check from time to time as we switch out content at least monthly.
+- [Microsoft Student Learn ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-13441-cxa) Join a global community of student ambassadors, this could be your way into Microsoft
 
 # Getting Started
 
