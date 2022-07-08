@@ -20,6 +20,12 @@ Consultores da Azure Cloud na Microsoft estão felizes em oferecer um currículo
 |:---:|
 | Ciência de Dados para Iniciantes - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
+# Você é um aluno?
+
+Comece com os seguintes recursos:
+
+- [Página do Hub de Alunos](https://docs.microsoft.com/pt-br/learn/student-hub/?WT.mc_id=academic-13441-cxa) Nessa página, você irá encontrar recursos de iniciantes, pacotes estudantis e até mesmo modos de conseguir certificados de graça. Essa é uma página que você vai querer favoritar e checar de tempos em tempos pois nós mudamos o conteúdo pelo menos mensalmente.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com/pt-BR) Junte-se a uma comunidade global de embaixadores estudantis, esse pode ser o seu caminho à Microsoft.
 
 # Primeiros Passos
 
