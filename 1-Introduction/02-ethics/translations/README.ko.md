@@ -1,6 +1,6 @@
 # 데이터 윤리 소개
 
-| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/02-Ethics.png) |
+| ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/02-Ethics.png) |
 | :-----------------------------------------------------------------------------------------------: |
 |              데이터 과학 윤리 - _Sketchnote by [@nitya](https://twitter.com/nitya)_               |
 

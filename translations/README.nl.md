@@ -19,7 +19,7 @@ Met groot genoegen bieden Azure Cloud Advocates bij Microsoft dit curriculum van
 **🙏 Speciale dank 🙏 gaat uit naar onze [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) auteurs, proeflezers en "meedenkers",** notably Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), Tauqeer Ahmad, Yogendrasingh Pawar
 
-|![ Sketchnote door [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Title.png)|
+|![ Sketchnote door [(@sketchthedocs)](https://sketchthedocs.dev) ](../sketchnotes/00-Title.png)|
 |:---:|
 | Data Science voor Beginners - _Sketchnote door [@nitya](https://twitter.com/nitya)_ |
 

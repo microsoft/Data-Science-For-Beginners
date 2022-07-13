@@ -1,6 +1,6 @@
 # Definiendo la ciencia de datos
 
-| ![ Boceto por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png) |
+| ![ Boceto por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/01-Definitions.png) |
 | :----------------------------------------------------------------------------------------------------: |
 |              Definiendo la ciencia de datos - Boceto por [@nitya](https://twitter.com/nitya)_               |
 
