@@ -17,7 +17,7 @@ In this lesson, you will review:
 5. How to build animated or 3D charting solutions
 6. How to build a creative visualization
 
-## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/24)
+## [Pre-Lecture Quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/24)
 
 ## Choose the right chart type
 
@@ -145,7 +145,7 @@ Run your app from the terminal (npm run serve) and enjoy the visualization!
 
 Take a tour of the internet to discover deceptive visualizations. How does the author fool the user, and is it intentional? Try correcting the visualizations to show how they should look.
 
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/25)
+## [Post-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/25)
 
 ## Review & Self Study
 

@@ -5,7 +5,7 @@
 | Visualizando quantidades - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
 Nesta aula você irá explorar como usar uma das muitas bibliotecas disponíveis no Python para aprender a criar visualizações interessantes relacionadas ao conceito de quantidade. Usando um dataset já limpo sobre aves de Minnesota, você pode aprender muitos fatos interessantes sobre a fauna selvagem local.
-## [Quiz pré-aula](https://red-water-0103e7a0f.azurestaticapps.net/quiz/16)
+## [Quiz pré-aula](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/16)
 
 ## Observando envergadura da asa com Matplotlib
 
@@ -201,7 +201,7 @@ Neste gráfico, você pode ver o intervalo de comprimento mínimo e máximo por 
 
 Este dataset de aves oferece uma riqueza de informações sobre os diferentes tipos de aves de um ecossistema particular. Tente achar na internet outros datasets com dados sobre aves. Pratique construir gráficos com eles e tente descobrir fatos que você ainda não havia percebido.
 
-## [Quiz pós-aula](https://red-water-0103e7a0f.azurestaticapps.net/quiz/17)
+## [Quiz pós-aula](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/17)
 
 ## Revisão e autoestudo
 

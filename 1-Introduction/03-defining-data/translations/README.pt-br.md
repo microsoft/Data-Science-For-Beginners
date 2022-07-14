@@ -8,7 +8,7 @@ Dados são fatos, informações, observações e medidas que são usadas para fa
 
 Essa aula irá focar em identificar e classificar dados baseados em sua características e fontes.
 
-## [Quiz Pré Aula](https://red-water-0103e7a0f.azurestaticapps.net/quiz/4)
+## [Quiz Pré Aula](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/4)
 ## Como Dados são Descritos
 **Dados Brutos (Raw data)** são dados que vieram em seu estado inicial de sua fonte e não foram analisados ou organizados. Para entender o que está acontecendo com um conjunto de dados, é necessário organizar os dados em um formato que possa ser entendido pelos humanos e também pela tecnologia que pode ser usada para analisar os mesmos. A estrutura do dataset descreve como estão organizados e pode ser classificada em estruturada, não estruturada e semi estruturada. Esses tipos de estruturas irão variar, dependendo da fonte mas irão ultimamente se encaixar nessas categorias.
 
@@ -54,7 +54,7 @@ O Kaggle é uma excelente fonte para datasets abertos. Use a [ferramenta de busc
 - Os dados são quantitativos ou qualitativos?
 - Os dados são estruturados, não estruturados, ou semi estruturados?
 
-## [Quiz Pós Aula](https://red-water-0103e7a0f.azurestaticapps.net/quiz/5)
+## [Quiz Pós Aula](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/5)
 
 
 

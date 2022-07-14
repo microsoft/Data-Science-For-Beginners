@@ -5,7 +5,7 @@
 | 수량 시각화 - _제작자 : [@nitya](https://twitter.com/nitya)_ |
 
 이 강의에서는 사용할 수 있는 많은 파이썬 라이브러리 중에 하나를 사용하여 수량 개념과 관련된 흥미로운 시각화를 만드는 방법을 알아봅니다. 여러분은 미네소타의 새들에 대한 정리된 데이터 세트를 사용하여, 지역 야생동물에 대한 많은 흥미로운 사실들을 배울 수 있습니다.
-## [강의 전 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/16)
+## [강의 전 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/16)
 
 ## Matplotlib으로 날개 길이 관찰하기
 
@@ -193,7 +193,7 @@ plt.show()
 ## 🚀 도전
 
 이 새 데이터 셋은 특정 생태계 내의 다양한 종류의 새에 대한 풍부한 정보를 제공합니다. 인터넷을 검색하여 다른 조류 지향 데이터 셋을 찾을 수 있는지 확인해 보세요. 여러분이 깨닫지 못한 사실을 발견하기 위해 이 새들에 대한 차트와 그래프를 만드는 연습을 하세요.
-## [이전 강의 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/17)
+## [이전 강의 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/17)
 
 ## 복습 & 자기주도학습
 

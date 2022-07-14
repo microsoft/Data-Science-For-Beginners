@@ -26,7 +26,7 @@ We will focus on a few examples of data processing, instead of giving you full o
 
 
 
-## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/12)
+## [Pre-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/12)
 
 ## Tabular Data and Dataframes
 
@@ -258,7 +258,7 @@ Whether you already have structured or unstructured data, using Python you can p
 
 
 
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/13)
+## [Post-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/13)
 
 ## Review & Self Study
 

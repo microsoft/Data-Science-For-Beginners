@@ -8,7 +8,7 @@
 
 [![Video definiendo la ciencia de datos](../images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
 
-## [Cuestionario antes de la lección](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
+## [Cuestionario antes de la lección](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/0)
 
 ## ¿Qué son los datos?
 En nuestra vida cotidiana estamos rodeados de datos. El texto que estás leyendo ahora mismo son datos.  La lista de tus contactos en tu teléfono móvil son datos, como lo es la hora que muestra tu reloj. Como seres humanos, operamos naturalmente condatos como por ejemplo contando el dinero que tenemos o escribiendo cartas a nuestros amigos.
@@ -159,7 +159,7 @@ Visite [`notebook.ipynb`](notebook.ipynb) para leer el código.  También puedes
 
 
 
-## [Cuestionario después de la lección](https://red-water-0103e7a0f.azurestaticapps.net/quiz/1)
+## [Cuestionario después de la lección](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/1)
 
 ## Tareas
 
