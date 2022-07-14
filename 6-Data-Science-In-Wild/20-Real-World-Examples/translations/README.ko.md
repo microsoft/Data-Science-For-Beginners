@@ -12,7 +12,7 @@
 
 ## 강의 전 퀴즈
 
-[Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/38)
+[Pre-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/38)
 
 ## 데이터 과학 + 산업
 
@@ -129,7 +129,7 @@ AI의 민주화 덕분에, 개발자들은 이제 사용자 경험과 개발 워
 
 ## 강의 후 퀴즈
 
-[Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/39)
+[Post-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/39)
 
 ## 리뷰 & 혼자 공부해보기
 

@@ -6,7 +6,7 @@
 
 ## 강의 전 퀴즈
 
-## [강의 전 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/28)
+## [강의 전 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/28)
 
 데이터의 라이프사이클을 분석하면 데이터가 제안된 질문에 답하거나 특정 문제를 해결할 수 있음을 확인할 수 있습니다. 또한 이 단계는 모델이 이러한 질문과 문제를 올바르게 해결하는지 확인하는 데 초점을 맞출 수 있습니다. 이 과정에서는 데이터 내의 특징과 관계를 정의하는 기술이며 모델링을 위한 데이터를 준비하는 데 사용할 수 있는 탐색 데이터 분석(Exploratory Data Analysis) 또는 EDA에 초점을 맞춥니다.
 
@@ -39,7 +39,7 @@ Pandas 라이브러리의 [`query()` 함수](https://pandas.pydata.org/pandas-do
 ## 불일치 식별을 위한 탐색
 이 강의의 모든 주제는 누락되거나 일치하지 않는 값을 식별하는 데 도움이 될 수 있지만 Pandas는 이러한 값 중 일부를 확인하는 기능을 제공합니다. [isna() 또는 isnull()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.isna.html)에서 결측값을 확인할 수 있습니다. 데이터 내에서 이러한 값을 탐구할 때 중요한 한 가지 요소는 처음에 이러한 값이 왜 이렇게 되었는지 이유를 탐구하는 것입니다. 이는 [문제 해결을 위해 취해야 할 조치](2-Working-With-Data\08-data-preparation/notebook.ipynb)를 결정하는 데 도움이 될 수 있습니다.
 
-## [강의 전 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/27)
+## [강의 전 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/27)
 
 ## 과제
 

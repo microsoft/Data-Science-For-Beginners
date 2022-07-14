@@ -4,7 +4,7 @@
 |:---:|
 |데이터 전처리 - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [강의 전 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/14)
+## [강의 전 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/14)
 
 
 
@@ -321,7 +321,7 @@ letters	numbers
 
 논의된 모든 자료는 [Jupyter Notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/2-Working-With-Data/08-data-preparation/notebook.ipynb)으로 제공됩니다. 또한, 각 섹션 후에 연습 문제가 있으므로 시도해 보세요!
 
-## [강의 후 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/15)
+## [강의 후 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/15)
 
 
 

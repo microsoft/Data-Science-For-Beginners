@@ -21,7 +21,7 @@ In this lesson, we'll explore the fascinating area of data ethics - from core co
 
 
 
-## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/2) 🎯
+## [Pre-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/2) 🎯
 
 ## Basic Definitions
 
@@ -247,7 +247,7 @@ Note that there remains an intangible gap between _compliance_ (doing enough to 
 The latter requires [collaborative approaches to defining ethics cultures](https://towardsdatascience.com/why-ai-ethics-requires-a-culture-driven-approach-26f451afa29f) that build emotional connections and consistent shared values _across organizations_ in the industry. This calls for more [formalized data ethics cultures](https://www.codeforamerica.org/news/formalizing-an-ethical-data-culture/) in organizations - allowing _anyone_ to [pull the Andon cord](https://en.wikipedia.org/wiki/Andon_(manufacturing)) (to raise ethics concerns early in the process) and making _ethical assessments_ (e.g., in hiring) a core criteria team formation in AI projects.
 
 ---
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/3) 🎯
+## [Post-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/3) 🎯
 ## Review & Self Study 
 
 Courses and books help with understanding core ethics concepts and challenges, while case studies and tools help with applied ethics practices in real-world contexts. Here are a few resources to start with.

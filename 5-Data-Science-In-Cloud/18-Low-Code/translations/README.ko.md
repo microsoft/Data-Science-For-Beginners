@@ -27,7 +27,7 @@
   - [리뷰&자습](#리뷰--자습)
   - [과제](#과제)
   
-## [강의전 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/34)
+## [강의전 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/34)
 ## 1. 소개
 ### 1.1 Azure 기계 학습(Machine Learning)이란 무엇입니까?
 
@@ -325,7 +325,7 @@ data = {
 
 AutoML이 상위 모델에 대해 생성한 모델 설명 및 세부정보를 자세히 살펴보세요. 최고의 모델이 다른 모델보다 나은 이유를 이해하려고 노력하십시오. 어떤 알고리즘이 비교되었습니까? 이들의 차이점은 무엇인가요? 이 경우 왜 최고 성능이 더 나은가요?
 
-## [강의 후 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/35)
+## [강의 후 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/35)
 
 ## 복습 및 독학
 

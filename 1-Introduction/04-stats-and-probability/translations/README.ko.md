@@ -9,7 +9,7 @@
 [![인트로 영상](../images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 
-## [강의전 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/6)
+## [강의전 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/6)
 
 ## 확률과 랜덤 변수
 
@@ -244,7 +244,7 @@ print(np.corrcoef(무게, 높이))
 2. 1루수는 3루수보다 키가 크다
 3. 유격수는 2루수보다 키가 크다
 
-## [강의 후 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/7)
+## [강의 후 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/7)
 
 ## 복습 및 독학
 

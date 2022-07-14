@@ -6,7 +6,7 @@
 
 In the previous lesson, you learned some interesting facts about a dataset about the birds of Minnesota. You found some erroneous data by visualizing outliers and looked at the differences between bird categories by their maximum length.
 
-## [प्री-लेक्चर क्विज](https://red-water-0103e7a0f.azurestaticapps.net/quiz/18)
+## [प्री-लेक्चर क्विज](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/18)
 ## पक्षियों के डेटासेट का अन्वेषण करें
 
 डेटा में खुदाई करने का दूसरा तरीका इसके वितरण को देखना है, या डेटा को एक अक्ष के साथ कैसे व्यवस्थित किया जाता है। शायद, उदाहरण के लिए, आप इस डेटासेट के सामान्य वितरण के बारे में जानना चाहेंगे, मिनेसोटा के पक्षियों के लिए अधिकतम पंख या अधिकतम शरीर द्रव्यमान।
@@ -180,7 +180,7 @@ sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationS
 
 हिस्टोग्राम बुनियादी स्कैटरप्लॉट, बार चार्ट या लाइन चार्ट की तुलना में अधिक परिष्कृत प्रकार के चार्ट हैं। हिस्टोग्राम के उपयोग के अच्छे उदाहरण खोजने के लिए इंटरनेट पर खोज करें। उनका उपयोग कैसे किया जाता है, वे क्या प्रदर्शित करते हैं, और किन क्षेत्रों या पूछताछ के क्षेत्रों में उनका उपयोग किया जाता है?
 
-## [व्याख्यान के बाद प्रश्नोत्तरी](https://red-water-0103e7a0f.azurestaticapps.net/quiz/19)
+## [व्याख्यान के बाद प्रश्नोत्तरी](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/19)
 
 ## समीक्षा और स्व अध्ययन
 
