@@ -12,7 +12,7 @@ In this lesson, you will use a different nature-focused dataset to visualize pro
 
 > 💡 A very interesting project called [Charticulator](https://charticulator.com) by Microsoft Research offers a free drag and drop interface for data visualizations. In one of their tutorials they also use this mushroom dataset! So you can explore the data and learn the library at the same time: [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/20)
+## [Pre-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/20)
 
 ## Get to know your mushrooms 🍄
 
@@ -167,7 +167,7 @@ In this lesson, you learned three ways to visualize proportions. First, you need
 ## 🚀 Challenge
 
 Try recreating these tasty charts in [Charticulator](https://charticulator.com).
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/21)
+## [Post-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/21)
 
 ## Review & Self Study
 

@@ -6,7 +6,7 @@
 
 Na aula anterior, você aprendeu fatos interessantes sobre um dataset de aves de Minnesota. Você encontrou dados incorretos ao visualizar outliers e olhou as diferenças entre categorias de aves com base no seu comprimento máximo.
 
-## [Quiz pré-aula](https://red-water-0103e7a0f.azurestaticapps.net/quiz/18)
+## [Quiz pré-aula](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/18)
 ## Explorando o dataset de aves
 
 Outra forma de explorar os dados é olhar para sua distribuição, ou como os dados estão organizados ao longo do eixo. Por exemplo, talvez você gostaria de aprender sobre a distribuição geral, neste dataset, do máximo de envergadura (wingspan) ou máximo de massa corporal (body mass) das aves de Minnesota.
@@ -187,7 +187,7 @@ Talvez valha a pena pesquisar mais a fundo se o cluster de aves vulneráveis ('V
 
 Histogramas são um tipo mais sofisticado de gráfico em relação a simples gráficos de dispersão, barras ou linhas. Pesquise na internet bons exemplos de uso de histogramas. Como eles são usados, o que eles demonstram e em quais áreas ou campos de pesquisa eles são usados.
 
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/19)
+## [Post-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/19)
 
 ## Revisão e autoestudo
 

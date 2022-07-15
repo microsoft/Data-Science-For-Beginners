@@ -8,7 +8,7 @@
 
 [![데이터 과학(Data Science) 정의 영상](../images/video-def-ds.png)](https://youtu.be/pqqsm5reGvs)
 
-## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
+## [Pre-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/0)
 
 ## 데이터란 무엇인가?
 일상 생활에서 우리는 항상 데이터에 둘러싸여 있습니다. 지금 당신이 읽고 있는 이 글, 당신의 스마트폰 안에 있는 친구들의 전화번호 목록도 데이터이며, 시계에 표시되는 현재 시간 역시 마찬가지입니다. 인간으로서 우리는 가지고 있는 돈을 세거나 친구들에게 편지를 쓰면서 자연스럽게 데이터를 조작합니다.
@@ -153,7 +153,7 @@
 
 
 
-## [강의 후 퀴즈](https://red-water-0103e7a0f.azurestaticapps.net/quiz/1)
+## [강의 후 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/1)
 
 ## 과제
 

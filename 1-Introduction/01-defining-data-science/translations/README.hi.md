@@ -8,7 +8,7 @@
 
 [![डेटा विज्ञान वीडियो को परिभाषित करना](/1-Introduction/01-defining-data-science/images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
 
-## [प्री-लेक्चर क्विज](https://red-water-0103e7a0f.azurestaticapps.net/quiz/0)
+## [प्री-लेक्चर क्विज](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/0)
 
 ## डेटा क्या है?
 अपने दैनिक जीवन में हम लगातार डेटा से घिरे रहते हैं। अभी आप जो पाठ पढ़ रहे हैं वह डेटा है। आपके स्मार्टफ़ोन में आपके मित्रों के फ़ोन नंबरों की सूची डेटा है, साथ ही आपकी घड़ी पर प्रदर्शित वर्तमान समय भी है। मनुष्य के रूप में, हम स्वाभाविक रूप से हमारे पास मौजूद धन की गणना करके या अपने मित्रों को पत्र लिखकर डेटा के साथ काम करते हैं।
@@ -152,7 +152,7 @@ Visit [`notebook.ipynb`](/1-Introduction/01-defining-data-science/notebook.ipynb
 
 
 
-## [व्याख्यान के बाद प्रश्नोत्तरी](https://red-water-0103e7a0f.azurestaticapps.net/quiz/1)
+## [व्याख्यान के बाद प्रश्नोत्तरी](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/1)
 
 ## कार्य (Assignments)
 

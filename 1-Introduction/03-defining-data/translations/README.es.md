@@ -8,7 +8,7 @@ Los datos son hechos, información, observaciones y mediciones que son usados pa
 
 Esta lección se enfoca en la identificación y clasificación de datos por sus características y sus fuentes.
 
-## [Examen previo a la lección](https://red-water-0103e7a0f.azurestaticapps.net/quiz/4)
+## [Examen previo a la lección](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/4)
 ## Cómo se describen los datos
 Los **datos en crudo** son datos que provienen de su fuente en su estado inicial y estos no han sido analizados u organizados. Con el fin de que tenga sentido lo que sucede con un conjunto de datos, es necesario organizarlos en un formato que pueda ser entendido tanto por humanos como por la tecnología usada para analizarla a mayor detalle. La estructura de un conjunto de datos describe como está organizado y puede ser clasificado de forma estructurada, no estructurada y semi-estructurada. Estos tipos de estructuras podrían variar, dependiendo de la fuente pero finalmente caerá en una de estas categorías.
 ### Datos cuantitativos
@@ -56,7 +56,7 @@ Kaggle es una fuente excelente de conjuntos de datos abiertos. Usa los [conjunto
 - ¿Los datos son cuantitativos o cualitativos?
 - ¿Los datos son estruturados, no estructurados o semi-estructurados?
 
-## [Examen posterior a la lección](https://red-water-0103e7a0f.azurestaticapps.net/quiz/5)
+## [Examen posterior a la lección](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/5)
 
 
 

@@ -6,7 +6,7 @@
 
 In the previous lesson, you learned some interesting facts about a dataset about the birds of Minnesota. You found some erroneous data by visualizing outliers and looked at the differences between bird categories by their maximum length.
 
-## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/18)
+## [Pre-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/18)
 ## Explore the birds dataset
 
 Another way to dig into data is by looking at its distribution, or how the data is organized along an axis. Perhaps, for example, you'd like to learn about the general distribution, for this dataset, of the maximum wingspan or maximum body mass for the birds of Minnesota. 
@@ -158,7 +158,7 @@ ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
 
 Histograms are a more sophisticated type of chart than basic scatterplots, bar charts, or line charts. Go on a search on the internet to find good examples of the use of histograms. How are they used, what do they demonstrate, and in what fields or areas of inquiry do they tend to be used?
 
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/19)
+## [Post-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/19)
 
 ## Review & Self Study
 

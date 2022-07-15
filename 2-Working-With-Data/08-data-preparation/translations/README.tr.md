@@ -4,7 +4,7 @@
 |:---:|
 |Veriyi Hazırlamak - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [Ders Öncesi Kısa Sınavı](https://red-water-0103e7a0f.azurestaticapps.net/quiz/14)
+## [Ders Öncesi Kısa Sınavı](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/14)
 
 
 
@@ -317,7 +317,7 @@ letters	numbers
 
 Konuştuğumuz bütün materyaller burada sağlanıyor [Jupyter Notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb). Ek olarak, her bölümden sonra alıştırmalar var, bunları yapmayı deneyin!
 
-## [Ders Sonu Kısa Sınavı](https://red-water-0103e7a0f.azurestaticapps.net/quiz/15)
+## [Ders Sonu Kısa Sınavı](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/15)
 
 
 

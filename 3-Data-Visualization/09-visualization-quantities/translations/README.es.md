@@ -5,7 +5,7 @@
 | Visualización de cantidades - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
 En esta lección explorarás cómo utilizar una de las muchas librerías de Python disponibles para aprender a crear interesantes visualizaciones relacionadas al concepto de cantidad. Utilizando un conjunto de datos limpios sobre las aves de Minnesota, podrás aprender muchos datos interesantes sobre la vida silvestre local.
-## [Cuestionario previo](https://red-water-0103e7a0f.azurestaticapps.net/quiz/16)
+## [Cuestionario previo](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/16)
 
 ## Observar la envergadura con Matplotlib
 
@@ -196,7 +196,7 @@ En este gráfico, puedes ver el rango por categoría de ave de la longitud míni
 
 Este conjunto de datos sobre aves ofrece una gran cantidad de información sobre diferentes tipos de aves dentro de un ecosistema concreto. Busca en Internet y comprueba si puedes encontrar otros conjuntos de datos orientados a las aves. Practica la construcción de tablas y gráficos en torno a estas aves para descubrir datos que no conocías.
 
-## [Cuestionario posterior a la clase](https://red-water-0103e7a0f.azurestaticapps.net/quiz/17)
+## [Cuestionario posterior a la clase](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/17)
 
 ## Repaso y Autoestudio
 
