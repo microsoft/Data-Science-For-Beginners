@@ -10,7 +10,7 @@
 [![Вступительное видео](../images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 
-## [Вступительный тест](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/6)
+## [Вступительный тест](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/6)
 
 ## Вероятность и случайная величина
 
@@ -253,7 +253,7 @@ array([[1.        , 0.52959196],
 2. Игрок первой базы выше, чем игрок третьей
 3. Шорт-стоп выше, чем игрок второй базы
 
-## [Проверочный тест](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/7)
+## [Проверочный тест](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/7)
 
 ## Материалы для самостоятельного изучения
 

@@ -21,7 +21,7 @@ Nessa aula, nós vamos explorar a área fascinante de ética dos dados - desde c
 
 
 
-## [Quiz pré aula](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/2) 🎯
+## [Quiz pré aula](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/2) 🎯
 
 ## Definição Básica
 
@@ -246,7 +246,7 @@ Note que existe uma lacuna intangível entre _compliance_ (fazer o suficiente pa
 Este último requere [abordagens colaborativas para definir culturas éticas](https://towardsdatascience.com/why-ai-ethics-requires-a-culture-driven-approach-26f451afa29f) que constrói conexões emocionais e valores compartilhados consistentes _em todas as organizações_ na indústria. Isso requere mais [culturas de ética de dados formalizadas](https://www.codeforamerica.org/news/formalizing-an-ethical-data-culture/) nas organizações - permitindo _qualquer um_ a [puxar o cordão Andom](https://en.wikipedia.org/wiki/Andon_(manufacturing)) (para aumentar as preocupações éticas mais cedo no processo) e fazendo _avaliações éticas_ (ex. na contratação) um critério fundamental na formação de times em projetos de IA.
 
 ---
-## [Quiz pós aula](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/3) 🎯
+## [Quiz pós aula](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/3) 🎯
 ## Revisão e Autoestudo
 
 Cursos e livros ajudam a entender os conceitos essencias da ética, enquanto estudos de caso e ferramentas ajudam com práticas da ética aplicado em contextos do mundo real. Aqui estão alguns recursos para começar.

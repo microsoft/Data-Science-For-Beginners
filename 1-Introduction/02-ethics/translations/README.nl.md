@@ -21,7 +21,7 @@ In deze les verkennen we het fascinerende gebied van data-ethiek - van kernconce
 
 
 
-## [Pre-college quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/2) 🎯
+## [Pre-college quiz](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/2) 🎯
 
 ## Basisdefinities
 
@@ -243,7 +243,7 @@ Onthoud dat er een ongrijpbare kloof blijft tussen _compliance_ (genoeg doen om 
 Dit laatste vereist [samenwerkingsbenaderingen voor het definiëren van ethische culturen](https://towardsdatascience.com/why-ai-ethics-requires-a-culture-driven-approach-26f451afa29f) die emotionele verbindingen en consistente gedeelde waarden _over organisaties_ in de industrie. Dit vraagt ​​om meer [geformaliseerde data-ethiekculturen](https://www.codeforamerica.org/news/formalizing-an-ethical-data-culture/) in organisaties - waardoor _iedereen_ [aan het Andon-koord kan trekken](https:/ /en.wikipedia.org/wiki/Andon_(manufacturing)) (om ethische problemen vroeg in het proces aan de orde te stellen) en het maken van _ethische beoordelingen_ (bijvoorbeeld bij het aannemen) een kerncriterium voor teamvorming in AI-projecten.
 
 ---
-## [Quiz voor na het college](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/3) 🎯
+## [Quiz voor na het college](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/3) 🎯
 ## Review & Zelfstudie
 
 Cursussen en boeken helpen bij het begrijpen van kernconcepten en uitdagingen op het gebied van ethiek, terwijl casestudy's en hulpmiddelen helpen bij toegepaste ethische praktijken in echte contexten. Hier zijn een paar bronnen om mee te beginnen.

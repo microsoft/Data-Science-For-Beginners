@@ -9,7 +9,7 @@
 [![Intro Video](/1-Introduction/04-stats-and-probability/images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 
-## [प्री-लेक्चर क्विज](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/6)
+## [प्री-लेक्चर क्विज](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/6)
 
 ## प्रायिकता और यादृच्छिक चर
 
@@ -249,7 +249,7 @@ array([[1.        , 0.52959196],
 2. पहले बेसमेन तीसरे बेसमेन से लम्बे होते हैं
 3. शॉर्टस्टॉप दूसरे बेसमेन से लम्बे होते हैं
 
-## [व्याख्यान के बाद प्रश्नोत्तरी](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/7)
+## [व्याख्यान के बाद प्रश्नोत्तरी](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/7)
 
 ## समीक्षा और आत्म अध्ययन
 
