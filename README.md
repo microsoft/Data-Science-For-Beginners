@@ -63,7 +63,7 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 - Assignment
 - Post-lesson quiz
 
-> **A note about quizzes**: All quizzes are contained [in this app](https://red-bay-0a991ec0f.1.azurestaticapps.net), for 40 total quizzes of three questions each. They are linked from within the lessons, but the quiz app can be run locally; follow the instruction in the `quiz-app` folder. They are gradually being localized.
+> **A note about quizzes**: All quizzes are contained [in this app](https://witty-beach-04b13e603.1.azurestaticapps.net/), for 40 total quizzes of three questions each. They are linked from within the lessons, but the quiz app can be run locally; follow the instruction in the `quiz-app` folder. They are gradually being localized.
 
 ## Lessons
 
