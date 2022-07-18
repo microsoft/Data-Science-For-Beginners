@@ -28,7 +28,7 @@
   - [리뷰&자습](#리뷰--자습)
   - [과제](#과제)
 
-## [강의전 퀴즈](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/36)
+## [강의전 퀴즈](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/36)
 
 ## 1. 소개
 
@@ -288,7 +288,7 @@ response
 
 **힌트:** [SDK 설명서](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-40229-cxa&ocid=AID3041109) 로 이동합니다. 검색창에 "파이프라인"과 같은 키워드를 입력합니다. 검색 결과에 `azureml.pipeline.core.Pipeline` 클래스가 있어야 합니다.
 
-## [강의 후 퀴즈](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/37)
+## [강의 후 퀴즈](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/37)
 
 ## 복습 및 독학
 

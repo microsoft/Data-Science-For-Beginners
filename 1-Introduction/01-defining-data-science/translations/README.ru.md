@@ -8,7 +8,7 @@
 
 [![Defining Data Science Video](../images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
 
-## [Вступительный тест](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/0)
+## [Вступительный тест](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/0)
 
 ## Что такое данные?
 В повседневной жизни мы окружены данными. Текст, который Вы в данный момент читаете, является данными, список номеров телефонов друзей в Вашем смартфоне является данными, также как и время на Ваших часах. Люди умеют оперировать даными естественным образом, считая деньги, которые у нас есть, или составляя письма нашим друзьям.
@@ -165,7 +165,7 @@
 > Если Вы не знаете, как запустить код в Jupyter Notebook, прочтите [данную статью](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
 
-## [Проверочный тест](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/1)
+## [Проверочный тест](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/1)
 
 ## Домашнее задание
 

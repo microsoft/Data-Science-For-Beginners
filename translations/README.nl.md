@@ -60,7 +60,7 @@ Bovendien zet een laagdrempelige quiz voor een les de intentie van de student om
 - Quiz na de les
 
 
-> **Een opmerking over de quizzen**: Alle quizzen zijn opgenomen [in deze app](https://red-water-0103e7a0f.azurestaticapps.net/), voor in totaal 40 quizzen van elk drie vragen. Ze zijn gekoppeld vanuit de lessen, maar de quiz-app kan lokaal worden uitgevoerd; volg de instructies in de `quiz-app` map. Ze worden stilaan gelokaliseerd.
+> **Een opmerking over de quizzen**: Alle quizzen zijn opgenomen [in deze app](https://purple-hill-04aebfb03.1.azurestaticapps.net/), voor in totaal 40 quizzen van elk drie vragen. Ze zijn gekoppeld vanuit de lessen, maar de quiz-app kan lokaal worden uitgevoerd; volg de instructies in de `quiz-app` map. Ze worden stilaan gelokaliseerd.
 
 ## Lessen
 

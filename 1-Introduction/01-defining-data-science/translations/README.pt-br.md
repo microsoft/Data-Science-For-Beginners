@@ -8,7 +8,7 @@
 
 [![Definindo Ciências de Dados](../images/video-def-ds.png)](https://youtu.be/pqqsm5reGvs)
 
-## [Quiz pré-aula](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/0)
+## [Quiz pré-aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/0)
 
 ## O que são Dados?
 Na nossa vida cotidiana, nós estamos constantemente cercados por dados. O texto que você está lendo agora é um dado, a lista de telefones dos seus amigos no seu celular é um dado, assim como o horário atual mostrado no seu relógio. Como seres humanos, nós operamos naturalmente com dados. contando o dinheiro que temos ou escrevendo cartas para os nossos amigos.
@@ -153,7 +153,7 @@ Visite [`notebook.ipynb`](../notebook.ipynb) para ler o código. Você também p
 
 
 
-## [Quiz pós-aula](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/1)
+## [Quiz pós-aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/1)
 
 ## Tarefas
 

@@ -9,7 +9,7 @@ Teoria da Probabilidade e Estatística são duas áreas altamente relacionadas d
 [![Vídeo de Introdução](../images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 
-## [Quiz Pré Aula](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/6)
+## [Quiz Pré Aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/6)
 
 ## Probabilidade e Variáveis Aleatórias
 
@@ -242,7 +242,7 @@ Use o código de exemplo no notebook para testar outras hipóteses que:
 2. Jogadores na primeira base e mais altos que jogadores na terceira base
 3. Interbases (Shortstops) são maiores que jogadores na segunda base
 
-## [Quis Pós Aula](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/7)
+## [Quis Pós Aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/7)
 
 ## Revisão e Autoestudo
 
