@@ -5,7 +5,7 @@
 | Visualizing Quantities - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
 In this lesson you will explore how to use one of the many available Python libraries to learn how to create interesting visualizations all around the concept of quantity. Using a cleaned dataset about the birds of Minnesota, you can learn many interesting facts about local wildlife. 
-## [Pre-lecture quiz](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/16)
+## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/16)
 
 ## Observe wingspan with Matplotlib
 
@@ -194,7 +194,7 @@ In this plot, you can see the range per bird category of the Minimum Length and 
 ## 🚀 Challenge
 
 This bird dataset offers a wealth of information about different types of birds within a particular ecosystem. Search around the internet and see if you can find other bird-oriented datasets. Practice building charts and graphs around these birds to discover facts you didn't realize.
-## [Post-lecture quiz](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/17)
+## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/17)
 
 ## Review & Self Study
 

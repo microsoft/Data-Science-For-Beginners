@@ -9,7 +9,7 @@ Statistics and Probability Theory are two highly related areas of Mathematics th
 [![Intro Video](images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 
-## [Pre-lecture quiz](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/6)
+## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/6)
 
 ## Probability and Random Variables
 
@@ -244,7 +244,7 @@ Use the sample code in the notebook to test other hypothesis that:
 2. First basemen are taller than third basemen
 3. Shortstops are taller than second basemen
 
-## [Post-lecture quiz](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/7)
+## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/7)
 
 ## Review & Self Study
 

@@ -12,7 +12,7 @@ En esta lección, utilizarás un conjunto de datos diferente centrado en la natu
 
 > 💡 Un proyecto muy interesante llamado [Charticulator](https://charticulator.com) de Microsoft Research ofrece una interfaz gratuita de arrastrar y soltar para las visualizaciones de datos. ¡En uno de sus tutoriales también utilizan este conjunto de datos de hongos! Así que puedes explorar los datos y aprender la biblioteca al mismo tiempo: [Tutorial de Charticulator](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Cuestionario previo](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/20)
+## [Cuestionario previo](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/20)
 
 ## Conoce tus hongos 🍄
 
@@ -163,7 +163,7 @@ En esta lección, aprendiste tres maneras de visualizar proporciones. En primer 
 ## 🚀 Desafío
 
 Intenta recrear estos sabrosos gráficos en [Charticulator](https://charticulator.com).
-## [Cuestionario posterior a la clase](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/21)
+## [Cuestionario posterior a la clase](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
 
 ## Repaso y autoestudio
 

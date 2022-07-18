@@ -60,7 +60,7 @@ Um quiz de aquecimento antes da aula de forma a cativar a atenção do aluno par
 - Um trabalho de casa
 - Um quiz de consolidação (Pré-Lição)
 
-> **Nota sobre os quizzes**: Os quizzes encontram-se [nesta aplicação](https://red-water-0103e7a0f.azurestaticapps.net/), num total de 40 quizzes com 3 perguntas cada. O link de cada quiz encontrasse nos documentos de cada lição mas a plataforma de quizzes pode ser corrida localmente: basta seguir as instruções da pasta `quiz-app`. Cada quiz esta a ser gradualmente trduzido.
+> **Nota sobre os quizzes**: Os quizzes encontram-se [nesta aplicação](https://purple-hill-04aebfb03.1.azurestaticapps.net/), num total de 40 quizzes com 3 perguntas cada. O link de cada quiz encontrasse nos documentos de cada lição mas a plataforma de quizzes pode ser corrida localmente: basta seguir as instruções da pasta `quiz-app`. Cada quiz esta a ser gradualmente trduzido.
 
 
 ## Lições

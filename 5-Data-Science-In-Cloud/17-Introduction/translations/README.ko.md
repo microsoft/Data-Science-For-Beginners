@@ -8,7 +8,7 @@
 이 강의에서는 클라우드의 기본 원칙을 배운 다음 클라우드 서비스를 사용하여 데이터 사이언스 프로젝트를 실행하는 것이 왜 흥미로운지 알게 되고, 클라우드에서 실행되는 데이터 사이언스 프로젝트들 중 몇가지 예시를 보게 될 것이다.
 
 
-## [강의전 퀴즈](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/32)
+## [강의전 퀴즈](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/32)
 
 
 ## 클라우드란?
@@ -92,7 +92,7 @@ Dmitry는 COVID 논문을 분석하는 도구를 만들었습니다. 이 프로�
 
 ## 강의 후 퀴즈
 
-[강의 후 퀴즈](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/33)
+[강의 후 퀴즈](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/33)
 
 ## 과제
 
