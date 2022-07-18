@@ -6,7 +6,7 @@
 
 En la lección anterior, aprendiste algunos datos interesantes sobre un conjunto de datos acerca de las aves de Minnesota. Encontraste algunos datos erróneos visualizando los valores atípicos y observaste las diferencias entre las categorías de aves según su longitud máxima.
 
-## [Cuestionario previo](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/18)
+## [Cuestionario previo](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/18)
 ## Explora el conjunto de datos sobre aves
 
 Otra forma de profundizar en los datos es observar su distribución, o cómo se organizan los datos a lo largo de un eje. Quizás, por ejemplo, te gustaría conocer la distribución general para este conjunto de datos, de la envergadura máxima o la masa corporal máxima de las aves de Minnesota. 
@@ -182,7 +182,7 @@ Tal vez valga la pena investigar si la agrupación de aves "Vulnerables" según 
 
 Los histogramas son un tipo de gráfico más sofisticado que los gráficos de dispersión básicos, los gráficos de barras o los gráficos de líneas. Haz una búsqueda en internet para encontrar buenos ejemplos del uso de histogramas. ¿Cómo se utilizan, qué demuestran y en qué campos o áreas de investigación suelen utilizarse?
 
-## [Cuestionario posterior a la clase](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/19)
+## [Cuestionario posterior a la clase](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/19)
 
 ## Repaso y Autoestudio
 

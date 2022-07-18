@@ -8,7 +8,7 @@
 
 [![Defining Data Science Video](../images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
 
-## [Starttoets data science](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/0)
+## [Starttoets data science](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/0)
 
 ## Wat is Data?
 In ons dagelijks leven zijn we voortdurend omringd door data. De tekst die je nu leest is data.  De lijst met telefoonnummers van je vrienden op je smartphone is data, evenals de huidige tijd die op je horloge wordt weergegeven. Als mens werken we van nature met data, denk aan het geld dat we moeten tellen of door berichten te schrijven aan onze vrienden.
@@ -152,7 +152,7 @@ Ga naar ['notebook.ipynb'](notebook.ipynb) om de code door te lezen.  Je kunt de
 
 > Als je niet weet hoe je code in een Jupyter Notebook moet uitvoeren, kijk dan eens naar [dit artikel](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
-## [Post-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/1)
+## [Post-lecture quiz](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/1)
 
 ## Opdrachten
 

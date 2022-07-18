@@ -8,7 +8,7 @@
 In this lesson, you will learn the fundamental principles of the Cloud, then you will see why it can be interesting for you to use Cloud services to run your data science projects and we'll look at some examples of data science projects run in the Cloud. 
 
 
-## [Pre-Lecture Quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/32)
+## [Pre-Lecture Quiz](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/32)
 
 
 ## What is the Cloud?
@@ -92,7 +92,7 @@ Sources:
 
 ## Post-Lecture Quiz
 
-[Post-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/33)
+[Post-lecture quiz](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/33)
 
 ## Assignment
 

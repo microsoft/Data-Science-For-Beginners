@@ -10,7 +10,7 @@ Este conjunto de datos, compuesto por unos 600 elementos, muestra la producción
 
 Será interesante visualizar la relación entre la producción de un estado determinado por año y, por ejemplo, el precio de la miel en ese estado. También se podría visualizar la relación entre la producción de miel por colonia de los estados. Este intervalo de años abarca el devastador "CCD" o "Colony Collapse Disorder" que se observó por primera vez en 2006 (http://npic.orst.edu/envir/ccd.html), por lo que es un conjunto de datos conmovedor para estudiar. 🐝
 
-## [Cuestionario previo](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/22)
+## [Cuestionario previo](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/22)
 
 En esta lección, puedes utilizar Seaborn, que ya has utilizado anteriormente, como una buena librería para visualizar las relaciones entre las variables. Es especialmente interesante el uso de la función `relplot` de Seaborn, que permite realizar gráficos de dispersión y de líneas para visualizar rápidamente las '[relaciones estadísticas](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', que permiten al científico de datos comprender mejor cómo se relacionan las variables entre sí.
 
@@ -163,7 +163,7 @@ Aunque no hay nada que salte a la vista en torno al año 2003, nos permite termi
 ## 🚀 Desafío
 
 En esta lección, has aprendido un poco más sobre otros usos de los gráficos de dispersión y las cuadrículas de líneas, incluyendo las cuadrículas de facetas. Desafíate a crear una cuadrícula de facetas utilizando un conjunto de datos diferente, tal vez uno que hayas utilizado antes de estas lecciones. Fíjate en el tiempo que se tarda en crearlas y en la necesidad de tener cuidado con el número de cuadrículas que necesitas dibujar utilizando estas técnicas.
-## [Cuestionario posterior a la clase](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/23)
+## [Cuestionario posterior a la clase](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/23)
 
 ## Repaso y autoestudio
 

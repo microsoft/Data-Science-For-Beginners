@@ -10,7 +10,7 @@ This dataset of about 600 items displays honey production in many U.S. states. S
 
 It will be interesting to visualize the relationship between a given state's production per year and, for example, the price of honey in that state. Alternately, you could visualize the relationship between states' honey yield per colony. This year span covers the devastating 'CCD' or 'Colony Collapse Disorder' first seen in 2006 (http://npic.orst.edu/envir/ccd.html), so it is a poignant dataset to study. 🐝
 
-## [Pre-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/22)
+## [Pre-lecture quiz](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/22)
 
 In this lesson, you can use Seaborn, which you have used before, as a good library to visualize relationships between variables. Particularly interesting is the use of Seaborn's `relplot` function that allows scatter plots and line plots to quickly visualize '[statistical relationships](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', which allow the data scientist to better understand how variables relate to each other.
 
@@ -164,7 +164,7 @@ Go, bees, go!
 ## 🚀 Challenge
 
 In this lesson, you learned a bit more about other uses of scatterplots and line grids, including facet grids. Challenge yourself to create a facet grid using a different dataset, maybe one you used prior to these lessons. Note how long they take to create and how you need to be careful about how many grids you need to draw using these techniques.
-## [Post-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/23)
+## [Post-lecture quiz](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/23)
 
 ## Review & Self Study
 

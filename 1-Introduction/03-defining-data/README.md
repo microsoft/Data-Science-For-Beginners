@@ -8,7 +8,7 @@ Data is facts, information, observations and measurements that are used to make 
 
 This lesson focuses on identifying and classifying data by its characteristics and its sources.
 
-## [Pre-Lecture Quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/4)
+## [Pre-Lecture Quiz](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/4)
 ## How Data is Described
 **Raw data** is data that has come from its source in its initial state and has not been analyzed or organized. In order to make sense of what is happening with a dataset, it needs to be organized into a format that can be understood by humans as well as the technology they may use to analyze it further. The structure of a dataset describes how it's organized and can be classified at structured, unstructured and semi-structured. These types of structure will vary, depending on the source but will ultimately fit in these three categories. 
 ### Quantitative Data
@@ -56,7 +56,7 @@ Kaggle is an excellent source of open datasets. Use the [dataset search tool](ht
 - Is the data quantitative or qualitative?
 - Is the data structured, unstructured, or semi-structured?
 
-## [Post-Lecture Quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/5)
+## [Post-Lecture Quiz](https://witty-beach-04b13e603.1.azurestaticapps.net/quiz/5)
 
 
 
