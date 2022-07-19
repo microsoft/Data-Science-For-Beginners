@@ -4,7 +4,7 @@
 | Visualizing Quantities - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
 In this lesson you will explore how to use some of the many available R packages libraries to learn how to create interesting visualizations all around the concept of quantity. Using a cleaned dataset about the birds of Minnesota, you can learn many interesting facts about local wildlife. 
-## [Pre-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/16)
+## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/16)
 
 ## Observe wingspan with ggplot2
 An excellent library to create both simple and sophisticated plots and charts of various kinds is [ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html). In general terms, the process of plotting data using these libraries includes identifying the parts of your dataframe that you want to target, performing any transforms on that data necessary, assigning its x and y axis values, deciding what kind of plot to show, and then showing the plot.
@@ -206,7 +206,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
 ## 🚀 Challenge
 
 This bird dataset offers a wealth of information about different types of birds within a particular ecosystem. Search around the internet and see if you can find other bird-oriented datasets. Practice building charts and graphs around these birds to discover facts you didn't realize.
-## [Post-lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/17)
+## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/17)
 
 ## Review & Self Study
 

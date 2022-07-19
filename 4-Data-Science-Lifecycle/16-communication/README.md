@@ -4,7 +4,7 @@
 |:---:|
 | Data Science Lifecycle: Communication - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [Pre-Lecture Quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/30)
+## [Pre-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/30)
 
 Test your knowledge of what's to come with the Pre-Lecture Quiz above!
 
@@ -213,7 +213,7 @@ If Emerson took approach #2, it is much more likely that the team leads will tak
 
 
 
-## [Post-Lecture Quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/31)
+## [Post-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/31)
 
 Review what you've just learned with the Post-Lecture Quiz above!
 

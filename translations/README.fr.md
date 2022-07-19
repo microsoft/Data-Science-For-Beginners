@@ -52,7 +52,7 @@ De plus, un quiz à faible enjeu à réaliser avant chaque cours permet de prép
 - Un exercice
 - Un quiz de fin
 
-> **Concernant les quiz** : Vous pourrez retrouver tous les quiz [dans cette application](https://red-water-0103e7a0f.azurestaticapps.net/). Il y a 40 quiz, avec trois questions chacun. Vous les retrouverez dans chaque cours correspondant, mais vous pouvez aussi utiliser l'application de quiz en local en suivant les instruction disponibles dans le dossier `quiz-app`. Les quiz sont en cours de localisation.
+> **Concernant les quiz** : Vous pourrez retrouver tous les quiz [dans cette application](https://purple-hill-04aebfb03.1.azurestaticapps.net/). Il y a 40 quiz, avec trois questions chacun. Vous les retrouverez dans chaque cours correspondant, mais vous pouvez aussi utiliser l'application de quiz en local en suivant les instruction disponibles dans le dossier `quiz-app`. Les quiz sont en cours de localisation.
 
 ## Cours
 

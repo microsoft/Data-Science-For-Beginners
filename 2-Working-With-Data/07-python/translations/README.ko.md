@@ -26,7 +26,7 @@
 
 
 
-## [강의 전 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/12)
+## [강의 전 퀴즈](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/12)
 
 ## 표 형식 데이터 및 데이터 프레임
 
@@ -257,7 +257,7 @@ df = pd.read_csv('file.csv')
 이미 정형 데이터이든 비정형 데이터이든 관계없이 Python을 사용하여 데이터 처리 및 이해와 관련된 모든 단계를 수행할 수 있습니다. 아마도 가장 유연한 데이터 처리 방법일 것이며, 이것이 대부분의 데이터 과학자들이 Python을 기본 도구로 사용하는 이유입니다. 데이터 과학 여정에 대해 진지하게 생각하고 있다면 Python을 깊이 있게 배우는 것이 좋습니다!
 
 
-## [강의 후 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/13)
+## [강의 후 퀴즈](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/13)
 
 ## 리뷰 & 복습
 

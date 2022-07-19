@@ -10,7 +10,7 @@
 
 예를 들어 해당 주의 연간 생산량과 해당 주의 꿀 가격 간의 관계를 시각화하는 것은 흥미로울 것입니다. 또는 각 주의 군집 당 꿀 생산량 간의 관계를 시각화할 수 있습니다. 올해에는 2006년(http://npic.orst.edu/envir/ccd.html)에 처음 발견된 파괴적인 'CCD' 또는 '봉군붕괴증후군'을 다루는데, 이것은 연구하기에 가슴 아픈 데이터 셋입니다. 🐝
 
-## [이전 강의 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/22)
+## [이전 강의 퀴즈](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/22)
 
 이 강의에서는 변수 간의 관계를 시각화하는 좋은 라이브러리로, 전에 사용했던 Seaborn을 사용할 수 있습니다. 특히 흥미로운 점은 산점도와 선 플롯이 '[통계적 관계](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)'를 빠르게 시각화할 수 있도록 해주는 Seaborn의 'relplot' 기능입니다. 'replot'은 데이터 과학자가 변수들이 서로 어떻게 관련되어 있는지 더 잘 이해할 수 있도록 합니다. 
 
@@ -164,7 +164,7 @@ ax.figure.legend();
 ## 🚀 도전
 
 이번 강의에서는 facet grid를 비롯한 산점도 및 꺾은선 그래프의 다른 용도에 대해 조금 더 알아봤습니다. 다른 데이터 셋(이 교육 전에 사용했을 수도 있습니다.)을 사용하여 facet grid를 만드는 데 도전해보세요. 이러한 기술을 사용하여 그리드를 만드는 데 걸리는 시간과 그리드를 몇 개 그려야 하는지 주의할 필요가 있습니다.
-## [이전 강의 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/23)
+## [이전 강의 퀴즈](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/23)
 
 ## 복습 & 자기 주도 학습
 

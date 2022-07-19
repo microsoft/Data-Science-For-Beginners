@@ -4,7 +4,7 @@
 |:---:|
 |데이터 처리: NoSQL 데이터 - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [강의 전 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/10)
+## [강의 전 퀴즈](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/10)
 
 데이터는 관계형 데이터베이스에만 국한되지 않습니다. 이 과정을 통해 비-관계형 데이터에 초점을 맞춰 스프레드시트와 NoSQL의 기초에 대해 설명하겠습니다.
 
@@ -132,7 +132,7 @@ Cosmos DB 데이터베이스는 "Not Only SQL"의 정의에 부합하며, 여기
 텍스트 필드에 Microsoft가 있는 문서를 찾기 위해 몇 가지 쿼리를 실행해 보십시오. 힌트: [LIKE 키워드](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character)를 사용해 보십시오.
 
 
-## [강의 후 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/11)
+## [강의 후 퀴즈](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/11)
 
 
 

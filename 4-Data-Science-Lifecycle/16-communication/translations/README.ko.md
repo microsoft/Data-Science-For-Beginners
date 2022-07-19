@@ -4,7 +4,7 @@
 |:---:|
 | 데이터 사이언스 생활주기 : 소통 - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [강의 전 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/30)
+## [강의 전 퀴즈](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/30)
 
 위의 사전 강의 퀴즈와 함께 제공되는 내용을 테스트해 보십시오!
 
@@ -165,7 +165,7 @@ Emerson이 #2번 접근 방식을 택했다면, 팀 책임자는 Emerson이 의�
 	 - 의미 있는 단어와 구문을 사용
 	 - 감정 사용
 
-## [강의 후 퀴즈](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/31)
+## [강의 후 퀴즈](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/31)
 
 ### 자습을 위한 추천 자료
 [스토리텔링의 5대 C - 분명한 설득](http://articulatepersuasion.com/the-five-cs-of-storytelling/)

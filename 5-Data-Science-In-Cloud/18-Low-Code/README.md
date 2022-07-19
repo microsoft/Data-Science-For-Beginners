@@ -27,7 +27,7 @@ Table of contents:
   - [Review & Self Study](#review--self-study)
   - [Assignment](#assignment)
   
-## [Pre-Lecture quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/34)
+## [Pre-Lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/34)
 ## 1. Introduction
 ### 1.1 What is Azure Machine Learning?
 
@@ -325,7 +325,7 @@ Congratulations! You just consumed the model deployed and trained it on Azure ML
 
 Look closely at the model explanations and details that AutoML generated for the top models. Try to understand why the best model is better than the other ones. What algorithms were compared? What are the differences between them? Why is the best one performing better in this case?
 
-## [Post-Lecture Quiz](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/35)
+## [Post-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/35)
 
 ## Review & Self Study
 

@@ -8,7 +8,7 @@ Veri, keşifler yapmak ve bilinçli kararları desteklemek için kullanılan ger
 
 Bu ders veriyi karakteristiklerine ve kaynaklarına göre tanımlama ve sınıflandırma üzerine odaklanmaktadır.
 
-## [Ders Öncesi Kısa Sınavı](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/4)
+## [Ders Öncesi Kısa Sınavı](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/4)
 
 ## Veri nasıl tanımlanır
 
@@ -65,7 +65,7 @@ Kriterler:
 - Bu veri nicel midir yoksa nitel midir?
 - Bu veri yapısal mıdır, yapısal değil midir yoksa yarı yapısal mıdır? 
 
-## [Ders Sonu Kısa Sınavı](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/5)
+## [Ders Sonu Kısa Sınavı](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/5)
 
 ## İnceleme & Öz Çalışma
 

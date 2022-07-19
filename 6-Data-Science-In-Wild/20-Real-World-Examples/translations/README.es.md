@@ -11,7 +11,7 @@ Empezamos con las definiciones de ciencia de datos y ética, se exploraron diver
 En esta lección, exploraremos la aplicación de la ciencia de datos en el mundo real en la industria y profundizaremos en ejemplos específicos en la investigación, humanidades digitales y sustentabilidad. Analizaremos oportunidades de proyectos para estudiantes y concluiremos con recursos útiles que te ayuden en tu aventura de aprendizaje.
 ## Examen previo a la lección
 
-[Examen previo a la lección](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/38)
+[Examen previo a la lección](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/38)
 ## Ciencia de Datos + Industria
 
 Gracias a la democratización de la AI, los desarrolladores encuentran más fácil el diseñar e integrar tanto la toma de decisiones dirigidas por AI como el conocimiento práctico dirigido por datos en experiencias de usuario y desarrollar flujos de trabajo. Aquí algunos ejemplos de cómo la ciencia de datos es "aplicada" en aplicaciones del mundo real a través de la industria:
@@ -131,7 +131,7 @@ Busca artículos que recomienden proyectos de ciencia de datos que son amigables
 
 ## Examen posterior a la lección
 
-[Examen posterior a la lección](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/39)
+[Examen posterior a la lección](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/39)
 ## Revisión y auto-estudio
 
 ¿Quieres explorar más casos de uso? Aquí hay algunos artículos relevantes:

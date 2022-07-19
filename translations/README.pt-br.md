@@ -58,7 +58,7 @@ Além do mais, um quiz com valor baixo antes da aula define a intenção do estu
 - Tarefa
 - Quiz pós-aula
 
-> **Nota sobre os quizzes**: Todos os quizzes estão [aqui](https://red-water-0103e7a0f.azurestaticapps.net/), para 40 quizzes de três questões cada. Os links deles estão dentro de cada aula mas o "quiz-app" pode ser executado localmente; siga as intruções na pasta `quiz-app`. Eles estão gradualmente localizados.
+> **Nota sobre os quizzes**: Todos os quizzes estão [aqui](https://purple-hill-04aebfb03.1.azurestaticapps.net/), para 40 quizzes de três questões cada. Os links deles estão dentro de cada aula mas o "quiz-app" pode ser executado localmente; siga as intruções na pasta `quiz-app`. Eles estão gradualmente localizados.
 
 ## Tarefas
 

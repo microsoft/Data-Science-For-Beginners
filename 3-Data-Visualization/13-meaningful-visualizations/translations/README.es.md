@@ -17,7 +17,7 @@ En esta lección, revisarás:
 5. Cómo construir soluciones de gráficos animados o en 3D
 6. Cómo construir una visualización creativa
 
-## [Cuestionario previo](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/24)
+## [Cuestionario previo](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/24)
 
 ## Elegir el tipo de gráfico adecuado
 
@@ -144,7 +144,7 @@ Recorre el objeto .json para capturar los datos "to" y "from" de las letras y co
 
 Date una vuelta por internet para descubrir visualizaciones engañosas. ¿Cómo engaña el autor al usuario, y, si es intencionado? Intenta corregir las visualizaciones para mostrar cómo deberían ser.
 
-## [Cuestionario posterior a la clase](https://red-bay-0a991ec0f.1.azurestaticapps.net/quiz/25)
+## [Cuestionario posterior a la clase](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/25)
 
 ## Revisión y Autoestudio
 

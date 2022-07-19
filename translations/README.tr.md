@@ -57,7 +57,7 @@ Bunlara ek olarak ders öncesi yüzeysel bir kısa sınav ile öğrencinin bir k
 - Ödev
 - Ve ders sonrası kısa sınavı içerir
 
-> **Kısa sınavlar hakkında bir not**: Her biri üçer soruluk toplamda 40 kısa sınav [bu uygulamada](https://red-water-0103e7a0f.azurestaticapps.net/) bulunmaktadır. Kısa sınavlara ders içerisinde bir bağlantıyla yer verilmiştir ancak kısa sınav uygulaması yerel olarak da çalıştırılabilir. `quiz-app` dosyasındaki talimatları takip edebilirsiniz. Kısa sınavlar yavaş yavaş çevrilmektedir.
+> **Kısa sınavlar hakkında bir not**: Her biri üçer soruluk toplamda 40 kısa sınav [bu uygulamada](https://purple-hill-04aebfb03.1.azurestaticapps.net/) bulunmaktadır. Kısa sınavlara ders içerisinde bir bağlantıyla yer verilmiştir ancak kısa sınav uygulaması yerel olarak da çalıştırılabilir. `quiz-app` dosyasındaki talimatları takip edebilirsiniz. Kısa sınavlar yavaş yavaş çevrilmektedir.
 
 ## Dersler
 
