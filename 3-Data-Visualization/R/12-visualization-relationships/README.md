@@ -12,7 +12,7 @@ It will be interesting to visualize the relationship between a given state's pro
 
 ## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/22)
 
-In this lesson, you can use Seaborn, which you have used before, as a good library to visualize relationships between variables. Particularly interesting is the use of ggplot2's `ggplot`and `geom_point` function that allows scatter plots and line plots to quickly visualize '[statistical relationships](https://ggplot2.tidyverse.org/)', which allow the data scientist to better understand how variables relate to each other.
+In this lesson, you can use ggplot2, which you have used before, as a good library to visualize relationships between variables. Particularly interesting is the use of ggplot2's `geom_point`and `qplot` function that allows scatter plots and line plots to quickly visualize '[statistical relationships](https://ggplot2.tidyverse.org/)', which allow the data scientist to better understand how variables relate to each other.
 
 ## Scatterplots
 
