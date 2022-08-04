@@ -30,4 +30,4 @@ Vul de volgende tabel in (vul je eigen onderwerp in, indien nodig):
 
 Uitstekend | Adequaat | Vereist verbetering
 --- | --- | -- |
-Men kon voldoende databronnen vinden, deze juist opslaan en hier de juiste inzichten aan ontlenen voor alle probleemstellingen. | Sommige aspecten van de oplssing zijn niet concreet, de data opslag is niet gedefinieerd, tenminste 2 van de probleemstellingen zijn besproken. | Enkel onderdelen vand e oplossing zijn beschreven, slechts een van de probleemstellingen is besproken.
+Men kon voldoende databronnen vinden, deze juist opslaan en hier de juiste inzichten aan ontlenen voor alle probleemstellingen. | Sommige aspecten van de oplssing zijn niet concreet, de data opslag is niet gedefinieerd, tenminste 2 van de probleemstellingen zijn besproken. | Enkele onderdelen van de oplossing zijn beschreven, slechts een van de probleemstellingen is besproken.
