@@ -137,7 +137,7 @@ We can start by asking "What can be digitized?"  The simplest way would be to me
 
 > You may argue that this approach is not ideal, because modules can be of different lengths.  It is probably more fair to divide the time by the length of the module (in number of characters), and compare those values instead.
 
-When we start analyzing results of multiple-choice tests, we can try to determine which concepts that students have difficulty understanding, and and use that information to improve the content.  To do that, we need to design tests in such a way that each question maps to a certain concept or chunk of knowledge.
+When we start analyzing results of multiple-choice tests, we can try to determine which concepts that students have difficulty understanding, and use that information to improve the content.  To do that, we need to design tests in such a way that each question maps to a certain concept or chunk of knowledge.
 
 If we want to get even more complicated, we can plot the time taken for each module against the age category of students.  We might find out that for some age categories it takes an inappropriately long time to complete the module, or that students drop out before completing it.  This can help us provide age recommendations for the module, and minimize people's dissatisfaction from wrong expectations.
 
