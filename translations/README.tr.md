@@ -26,7 +26,7 @@ Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](
 
 > **Öğretmenler**: bu ders programını nasıl kullanacağınızla alakalı bazı [öneriler](../for-teachers.md) ekledik. [Tartışma forumlarımıza](https://github.com/microsoft/Data-Science-For-Beginners/discussions) bırakacağınız geribildirimlerinizi görmeyi çok isteriz!
 
-> **Öğrenciler**: bu ders programını kendi başınıza kullanabilmek için tüm repoyu fork edin ve kendi başınıza ders öncesi kısa sınavlarından başlayarak alıştırmaları tamamlamaya çalışın. Sonra dersi okuyun ve geri kalan etkinlikleri tamamlayın. Çözüm kodunu kopyalamaktansa derslerde öğrendiklerinizi kullanarak projeler yaratmaya çalışın. Çözüm kodları her projeye dayalı dersin /solution klasöründe bulunmaktadır. Başka bir fikir de arkadaşlarınızla bir çalışma grubu kurup içeriği birlikte takip etmeniz olabilir. Daha ileri öğrenim için [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-40229-cxa)'ü tavsiye ediyoruz.
+> **Öğrenciler**: bu ders programını kendi başınıza kullanabilmek için tüm repoyu fork edin ve kendi başınıza ders öncesi kısa sınavlarından başlayarak alıştırmaları tamamlamaya çalışın. Sonra dersi okuyun ve geri kalan etkinlikleri tamamlayın. Çözüm kodunu kopyalamaktansa derslerde öğrendiklerinizi kullanarak projeler yaratmaya çalışın. Çözüm kodları her projeye dayalı dersin /solution klasöründe bulunmaktadır. Başka bir fikir de arkadaşlarınızla bir çalışma grubu kurup içeriği birlikte takip etmeniz olabilir. Daha ileri öğrenim için [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum)'ü tavsiye ediyoruz.
 
 ## Ekiple Tanışın
 

@@ -2,7 +2,7 @@
 
 ## 지침
 
-Azure ML 플랫폼을 사용하여 로우 코드/노 코드 방식으로 모델을 학습, 배포 및 사용하는 방법을 보았습니다. 이제 다른 모델을 훈련하고 배포하고 소비하는 데 사용할 수 있는 일부 데이터를 찾아보십시오. [Kaggle](https://kaggle.com) 및 [Azure Open Datasets](https://azure.microsoft.com/services/open-datasets/catalog?WT.mc_id=academic-40229-cxa&ocid=AID3041109)에서 데이터셋을 찾을 수 있습니다.
+Azure ML 플랫폼을 사용하여 로우 코드/노 코드 방식으로 모델을 학습, 배포 및 사용하는 방법을 보았습니다. 이제 다른 모델을 훈련하고 배포하고 소비하는 데 사용할 수 있는 일부 데이터를 찾아보십시오. [Kaggle](https://kaggle.com) 및 [Azure Open Datasets](https://azure.microsoft.com/services/open-datasets/catalog?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)에서 데이터셋을 찾을 수 있습니다.
 
 ## 기준표
 

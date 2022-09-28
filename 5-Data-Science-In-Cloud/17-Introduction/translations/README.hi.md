@@ -68,7 +68,7 @@
 * आउटपुट सिंक बनाएं और जॉब आउटपुट निर्दिष्ट करें
 * जॉब शुरू करें
 
-पूरी प्रक्रिया देखने के लिए [प्रलेखन](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends?WT.mc_id=academic-40229-cxa&ocid=AID30411099) देखें।
+पूरी प्रक्रिया देखने के लिए [प्रलेखन](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends?WT.mc_id=academic-77958-bethanycheum&ocid=AID30411099) देखें।
 
 ### वैज्ञानिक कागजात विश्लेषण
 आइए इस पाठ्यक्रम के लेखकों में से एक, [दिमित्री सोशनिकोव](http://soshnikov.com) द्वारा बनाई गई परियोजना का एक और उदाहरण लें।
@@ -76,9 +76,9 @@
 दिमित्री ने एक टूल बनाया जो कोविड पेपर्स का विश्लेषण करता है। इस परियोजना की समीक्षा करके, आप देखेंगे कि आप एक उपकरण कैसे बना सकते हैं जो वैज्ञानिक पत्रों से ज्ञान प्राप्त करता है, अंतर्दृष्टि प्राप्त करता है और शोधकर्ताओं को एक कुशल तरीके से कागजात के बड़े संग्रह के माध्यम से नेविगेट करने में मदद करता है।
 
 आइए इसके लिए उपयोग किए जाने वाले विभिन्न चरणों को देखें:
-* [टेक्स्ट एनालिटिक्स फॉर हेल्थ](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health?WT.mc_id=academic-40229-cxa&ocid=AID3041109) के साथ जानकारी निकालना और प्री-प्रोसेस करना
-* प्रसंस्करण को समानांतर रखने के लिए [अज़ूरएमएल](https://azure.microsoft.com/services/machine-learning?WT.mc_id=academic-40229-cxa&ocid=AID3041109) का उपयोग करना
-* [कॉसमॉस डीबी](https://azure.microsoft.com/services/cosmos-db?WT.mc_id=academic-40229-cxa&ocid=AID3041109) के साथ जानकारी संग्रहीत करना और क्वेरी करना
+* [टेक्स्ट एनालिटिक्स फॉर हेल्थ](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) के साथ जानकारी निकालना और प्री-प्रोसेस करना
+* प्रसंस्करण को समानांतर रखने के लिए [अज़ूरएमएल](https://azure.microsoft.com/services/machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) का उपयोग करना
+* [कॉसमॉस डीबी](https://azure.microsoft.com/services/cosmos-db?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) के साथ जानकारी संग्रहीत करना और क्वेरी करना
 * पावर बीआई का उपयोग करके डेटा अन्वेषण और विज़ुअलाइज़ेशन के लिए एक इंटरैक्टिव डैशबोर्ड बनाना
 
 पूरी प्रक्रिया देखने के लिए [दिमित्री के ब्लॉग](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/) पर जाएँ।

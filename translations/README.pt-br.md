@@ -24,14 +24,14 @@ Consultores da Azure Cloud na Microsoft estão felizes em oferecer um currículo
 
 Comece com os seguintes recursos:
 
-- [Página do Hub de Alunos](https://docs.microsoft.com/pt-br/learn/student-hub/?WT.mc_id=academic-13441-cxa) Nessa página, você irá encontrar recursos de iniciantes, pacotes estudantis e até mesmo modos de conseguir certificados de graça. Essa é uma página que você vai querer favoritar e checar de tempos em tempos pois nós mudamos o conteúdo pelo menos mensalmente.
+- [Página do Hub de Alunos](https://docs.microsoft.com/pt-br/learn/student-hub/?WT.mc_id=academic-77958-bethanycheum) Nessa página, você irá encontrar recursos de iniciantes, pacotes estudantis e até mesmo modos de conseguir certificados de graça. Essa é uma página que você vai querer favoritar e checar de tempos em tempos pois nós mudamos o conteúdo pelo menos mensalmente.
 - [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com/pt-BR) Junte-se a uma comunidade global de embaixadores estudantis, esse pode ser o seu caminho à Microsoft.
 
 # Primeiros Passos
 
 > **Professores**, nós [incluímos algumas sugestões](for-teachers.md) em como usar esse currículo. Nós adoraríamos ouvir o seu feedback [no nosso fórum de discussão](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
-> **Estudantes**, para usar esse currículo por conta própria, dê fork nesse repositório, complete os exercícios por sua conta, começando com um quiz pré aula, então leia a aula completando o resto das atividades. Tente criar os projetos compreendendo as aulas ao invés de copiar o código da solução; no entanto o código está disponível na pasta /solutions em cada aula baseada em projeto. Outra ideia seria formar um grupo de estudo com seus amigos e ler o conteúdo juntos. Para mais estudos, nós recomendamos [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-40229-cxa).
+> **Estudantes**, para usar esse currículo por conta própria, dê fork nesse repositório, complete os exercícios por sua conta, começando com um quiz pré aula, então leia a aula completando o resto das atividades. Tente criar os projetos compreendendo as aulas ao invés de copiar o código da solução; no entanto o código está disponível na pasta /solutions em cada aula baseada em projeto. Outra ideia seria formar um grupo de estudo com seus amigos e ler o conteúdo juntos. Para mais estudos, nós recomendamos [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 <!--[![Promo video](screenshot.png)]( "Promod video")
 

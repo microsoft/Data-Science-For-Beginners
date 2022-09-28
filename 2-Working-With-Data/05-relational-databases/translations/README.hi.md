@@ -168,11 +168,11 @@ WHERE rainfall.year = 2019
 
 ## समीक्षा और आत्म अध्ययन
 
-आपके लिए SQL और रिलेशनल डेटाबेस अवधारणाओं की खोज जारी रखने के लिए [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-40229-cxa) पर कई संसाधन उपलब्ध हैं
+आपके लिए SQL और रिलेशनल डेटाबेस अवधारणाओं की खोज जारी रखने के लिए [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum) पर कई संसाधन उपलब्ध हैं
 
-- [संबंधपरक डेटा की अवधारणाओं का वर्णन करें](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-40229-cxa)
-- [Transact-SQL के साथ क्वेरी करना प्रारंभ करें](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-40229-cxa) (ट्रांजैक्ट-एसक्यूएल एसक्यूएल का एक संस्करण है)
-- [Microsoft पर SQL सामग्री जानें](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-40229-cxa)
+- [संबंधपरक डेटा की अवधारणाओं का वर्णन करें](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-77958-bethanycheum)
+- [Transact-SQL के साथ क्वेरी करना प्रारंभ करें](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-77958-bethanycheum) (ट्रांजैक्ट-एसक्यूएल एसक्यूएल का एक संस्करण है)
+- [Microsoft पर SQL सामग्री जानें](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-77958-bethanycheum)
 
 ## कार्यभार
 
