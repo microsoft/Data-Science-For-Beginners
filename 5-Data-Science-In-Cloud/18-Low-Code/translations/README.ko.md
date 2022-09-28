@@ -34,7 +34,7 @@
 Azure 클라우드 플랫폼은 새로운 솔루션에 생명을 불어넣는 데 도움이 되도록 설계된 200개 이상의 제품 및 클라우드 서비스입니다.
 데이터 사이언티스트는 데이터를 탐색하고 전처리하며 다양한 유형의 모델 학습 알고리즘을 시도하여 정확한 모델을 생성하는 데 많은 노력을 기울입니다. 이러한 작업은 시간이 많이 걸리고 종종 값비싼 컴퓨팅 하드웨어를 비효율적으로 사용합니다.
 
-[Azure ML](https://docs.microsoft.com/azure/machine-learning/overview-what-is-azure-machine-learning?WT.mc_id=academic-40229-cxa&ocid=AID3041109)은 클라우드 기반 Azure에서 기계 학습 솔루션을 구축하고 운영하기 위한 플랫폼입니다. 여기에는 데이터 사이언티스트가 데이터를 준비하고, 모델을 훈련하고, 예측 서비스를 게시하고, 사용량을 모니터링하는 데 도움이 되는 다양한 기능이 포함되어 있습니다. 가장 중요한 것은 훈련 모델과 관련된 많은 시간 소모적인 작업을 자동화하여 효율성을 높이는 데 도움이 된다는 것입니다. 또한 효과적으로 확장되는 클라우드 기반 컴퓨팅 리소스를 사용하여 실제로 사용할 때만 비용을 발생시키면서 대량의 데이터를 처리할 수 있습니다.
+[Azure ML](https://docs.microsoft.com/azure/machine-learning/overview-what-is-azure-machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)은 클라우드 기반 Azure에서 기계 학습 솔루션을 구축하고 운영하기 위한 플랫폼입니다. 여기에는 데이터 사이언티스트가 데이터를 준비하고, 모델을 훈련하고, 예측 서비스를 게시하고, 사용량을 모니터링하는 데 도움이 되는 다양한 기능이 포함되어 있습니다. 가장 중요한 것은 훈련 모델과 관련된 많은 시간 소모적인 작업을 자동화하여 효율성을 높이는 데 도움이 된다는 것입니다. 또한 효과적으로 확장되는 클라우드 기반 컴퓨팅 리소스를 사용하여 실제로 사용할 때만 비용을 발생시키면서 대량의 데이터를 처리할 수 있습니다.
 
 Azure ML은 개발자와 데이터 사이언티스트가 기계 학습 워크플로에 필요한 모든 도구를 제공합니다. 여기에는 다음이 포함됩니다.
 
@@ -89,7 +89,7 @@ Kaggle은 이 프로젝트에 사용할 [Heart Failure dataset](https://www.kagg
 
 ## 2. Azure ML Studio에서 모델의 로우 코드/노 코드 학습(Training)
 ### 2.1 Azure ML 워크스페이스 만들기
-Azure ML에서 모델을 학습시키려면 먼저 Azure ML 워크스페이스를 만들어야 합니다. 워크스페이스는 Azure Machine Learning의 최상위 리소스로, Azure Machine Learning을 사용할 때 만드는 모든 아티팩트를 작업할 수 있는 중앙 집중식 장소를 제공합니다. 작업 공간은 로그, 메트릭, 출력 및 스크립트의 스냅샷을 포함하여 모든 훈련 실행의 기록을 유지합니다. 이 정보를 사용하여 최상의 모델을 생성하는 훈련 실행을 결정합니다. [자세히 알아보기](https://docs.microsoft.com/azure/machine-learning/concept-workspace?WT.mc_id=academic-40229-cxa&ocid=AID3041109)
+Azure ML에서 모델을 학습시키려면 먼저 Azure ML 워크스페이스를 만들어야 합니다. 워크스페이스는 Azure Machine Learning의 최상위 리소스로, Azure Machine Learning을 사용할 때 만드는 모든 아티팩트를 작업할 수 있는 중앙 집중식 장소를 제공합니다. 작업 공간은 로그, 메트릭, 출력 및 스크립트의 스냅샷을 포함하여 모든 훈련 실행의 기록을 유지합니다. 이 정보를 사용하여 최상의 모델을 생성하는 훈련 실행을 결정합니다. [자세히 알아보기](https://docs.microsoft.com/azure/machine-learning/concept-workspace?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
 운영 체제와 호환되는 최신 브라우저를 사용하는 것이 좋습니다. 다음 브라우저가 지원됩니다.
 
@@ -217,7 +217,7 @@ CPU와 GPU 아키텍처의 주요 차이점은 CPU가 광범위한 작업을 빠
 ### 2.4 AutoML을 사용한 로우 코드/노 코드 학습
 
 전통적인 기계 학습 모델 개발은 리소스 집약적이며 수십 개의 모델을 생성하고 비교하는 데 상당한 도메인 지식과 시간이 필요합니다.
-AutoML(자동화된 기계 학습)은 기계 학습 모델 개발의 시간 소모적이고 반복적인 작업을 자동화하는 프로세스입니다. 이를 통해 데이터 사이언티스트, 분석가 및 개발자는 모델 품질을 유지하면서 높은 확장성, 효율성 및 생산성을 갖춘 ML 모델을 구축할 수 있습니다. 프로덕션 준비 ML 모델을 매우 쉽고 효율적으로 얻는 데 걸리는 시간을 줄입니다. [자세히 알아보기](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml?WT.mc_id=academic-40229-cxa&ocid=AID3041109)
+AutoML(자동화된 기계 학습)은 기계 학습 모델 개발의 시간 소모적이고 반복적인 작업을 자동화하는 프로세스입니다. 이를 통해 데이터 사이언티스트, 분석가 및 개발자는 모델 품질을 유지하면서 높은 확장성, 효율성 및 생산성을 갖춘 ML 모델을 구축할 수 있습니다. 프로덕션 준비 ML 모델을 매우 쉽고 효율적으로 얻는 데 걸리는 시간을 줄입니다. [자세히 알아보기](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
 1. 앞서 생성한 [Azure ML 워크스페이스](https://ml.azure.com/)에서 왼쪽 메뉴의 "Automated ML"을 클릭하고 방금 업로드한 데이터 셋을 선택합니다. 다음을 클릭합니다.
 
@@ -331,7 +331,7 @@ AutoML이 상위 모델에 대해 생성한 모델 설명 및 세부정보를 �
 
 이 강의에서는 클라우드에서 로우 코드/노 코드 방식으로 심부전 위험을 예측하기 위해 모델을 훈련, 배포 및 사용하는 방법을 배웠습니다. 아직 수행하지 않았다면 AutoML이 상위 모델에 대해 생성한 모델 설명을 더 자세히 살펴보고 최고의 모델이 다른 모델보다 더 나은 이유를 이해하려고 합니다.
 
-로우 코드/노 코드 Auto ML 에 대해 더 알아보고 싶다면 이 [문서](https://docs.microsoft.com/azure/machine-learning/tutorial-first-experiment-automated-ml?WT.mc_id=academic-40229-cxa&ocid=AID3041109)를 읽어보세요.
+로우 코드/노 코드 Auto ML 에 대해 더 알아보고 싶다면 이 [문서](https://docs.microsoft.com/azure/machine-learning/tutorial-first-experiment-automated-ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)를 읽어보세요.
 
 ## 과제
 

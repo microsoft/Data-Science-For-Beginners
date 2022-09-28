@@ -16,7 +16,7 @@
 이 과정에서는 간단한 데이터 처리를 위해 파이썬을 사용하는 것에 초점을 맞출 것입니다. 사전에 파이썬에 익숙해질 필요가 있습니다. 파이썬에 대해 더 자세히 살펴보고 싶다면 다음 리소스 중 하나를 참조할 수 있습니다:
 
 * [Turtle Graphics와 Fractal로 Python을 재미있게 배우기](https://github.com/shwars/pycourse) - GitHub 기반 Python 프로그래밍에 대한 빠른 소개 과정
-* [Python으로 첫 걸음 내딛기](https://docs.microsoft.com/en-us/learn/paths/python-first-steps/?WT.mc_id=academic-31812-dmitryso) - [Microsoft 학습](http://learn.microsoft.com/?WT.mc_id=academic-31812-dmitryso)으로 이동하기
+* [Python으로 첫 걸음 내딛기](https://docs.microsoft.com/en-us/learn/paths/python-first-steps/?WT.mc_id=academic-77958-bethanycheum) - [Microsoft 학습](http://learn.microsoft.com/?WT.mc_id=academic-77958-bethanycheum)으로 이동하기
 
 데이터는 다양한 형태로 나타날 수 있습니다. 이 과정에서 우리는 세 가지 형태의 데이터를 고려할 것입니다. - **표로 나타낸 데이터(tabular data)**, **텍스트(text)** and **이미지(images)**.
 
@@ -230,7 +230,7 @@ df = pd.read_csv('file.csv')
 
 이 도전과제에서 우리는 COVID 팬데믹이라는 주제를 계속해서 다룰 것이며 해당 주제에 대한 과학 논문을 처리하는 데 집중할 것입니다. 메타데이터 및 초록과 함께 사용할 수 있는 COVID에 대한 7000개 이상의(작성 당시) 논문이 포함된 [CORD-19 데이터 세트](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge)가 있습니다(이 중 약 절반에 대해 전체 텍스트도 제공됨). 
 
-[건강 인지 서비스를 위한 텍스트 분석](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health/?WT.mc_id=academic-31812-dmitryso)를 사용하여 이 데이터 세트를 분석하는 전체 예는 이 블로그 게시물에 설명되어 있습니다. 우리는 이 분석의 단순화된 버전에 대해 논의할 것입니다.
+[건강 인지 서비스를 위한 텍스트 분석](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health/?WT.mc_id=academic-77958-bethanycheum)를 사용하여 이 데이터 세트를 분석하는 전체 예는 이 블로그 게시물에 설명되어 있습니다. 우리는 이 분석의 단순화된 버전에 대해 논의할 것입니다.
 
 > **주의**: 우리는 더이상 데이터 세트의 복사본을 이 리포지토리의 일부로 제공하지 않습니다. 먼저 [Kaggle의 데이터세트](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge)에서 [`metadata.csv`](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge?select=metadata.csv) 파일을 다운로드해야 할 수도 있습니다. Kaggle에 가입해야 할 수 있습니다. [여기](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html)에서 등록 없이 데이터 세트를 다운로드할 수도 있지만 여기에는 메타데이터 파일 외에 모든 전체 텍스트가 포함됩니다.
 
@@ -242,15 +242,15 @@ df = pd.read_csv('file.csv')
 
 최근에는 이미지를 이해할 수 있는 매우 강력한 AI 모델이 개발되었습니다. 사전에 훈련된 신경망이나 클라우드 서비스를 사용하여 해결할 수 있는 작업이 많이 있습니다. 몇 가지 예는 다음과 같습니다:
 
-* **이미지 분류(Image Classification)** 는 이미지를 미리 정의된 클래스 중 하나로 분류하는 데 도움이 됩니다. [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-31812-dmitryso)과 같은 서비스를 사용하여 자신의 이미지 분류기를 쉽게 훈련할 수 있습니다.
-* **물체 검출** 은 이미지에서 다른 물체를 감지합니다. [컴퓨터 비전(Computer vision)](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-31812-dmitryso)과 같은 서비스는 여러 일반 개체를 감지할 수 있으며 [커스텀 비전(Custom Vision)](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-31812-dmitryso) 모델을 훈련하여 관심 있는 특정 개체를 감지할 수 있습니다.
-* **얼굴 인식** 은 연령, 성별 및 감정 감지를 포함합니다. 이것은 [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-31812-dmitryso)를 통해 수행할 수 있습니다.
+* **이미지 분류(Image Classification)** 는 이미지를 미리 정의된 클래스 중 하나로 분류하는 데 도움이 됩니다. [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-77958-bethanycheum)과 같은 서비스를 사용하여 자신의 이미지 분류기를 쉽게 훈련할 수 있습니다.
+* **물체 검출** 은 이미지에서 다른 물체를 감지합니다. [컴퓨터 비전(Computer vision)](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-77958-bethanycheum)과 같은 서비스는 여러 일반 개체를 감지할 수 있으며 [커스텀 비전(Custom Vision)](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-77958-bethanycheum) 모델을 훈련하여 관심 있는 특정 개체를 감지할 수 있습니다.
+* **얼굴 인식** 은 연령, 성별 및 감정 감지를 포함합니다. 이것은 [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum)를 통해 수행할 수 있습니다.
 
-이러한 모든 클라우드 서비스는 [Python SDK](https://docs.microsoft.com/samples/azure-samples/cognitive-services-python-sdk-samples/cognitive-services-python-sdk-samples/?WT.mc_id=academic-31812-dmitryso)를 사용하여 호출할 수 있으므로, 데이터 탐색 워크플로에 쉽게 통합할 수 있습니다.
+이러한 모든 클라우드 서비스는 [Python SDK](https://docs.microsoft.com/samples/azure-samples/cognitive-services-python-sdk-samples/cognitive-services-python-sdk-samples/?WT.mc_id=academic-77958-bethanycheum)를 사용하여 호출할 수 있으므로, 데이터 탐색 워크플로에 쉽게 통합할 수 있습니다.
  
 다음은 이미지 데이터 소스에서 데이터를 탐색하는 몇 가지 예입니다:
-* 블로그 게시물 중 [코딩 없이 데이터 과학을 배우는 방법](https://soshnikov.com/azure/how-to-learn-data-science-without-coding/)에서 우리는 인스타그램 사진을 살펴보고 사람들이 사진에 더 많은 좋아요를 주는 이유를 이해하려고 합니다. 먼저 [컴퓨터 비전(Computer vision)](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-31812-dmitryso)을 사용하여 사진에서 최대한 많은 정보를 추출한 다음 [Azure Machine Learning AutoML](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml/?WT.mc_id=academic-31812-dmitryso)을 사용하여 해석 가능한 모델을 빌드합니다.
-* [얼굴 연구 워크숍(Facial Studies Workshop)](https://github.com/CloudAdvocacy/FaceStudies)에서는 사람들을 행복하게 만드는 요소를 이해하고자, 이벤트에서 사진에 있는 사람들의 감정을 추출하기 위해 [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-31812-dmitryso)를 사용합니다.
+* 블로그 게시물 중 [코딩 없이 데이터 과학을 배우는 방법](https://soshnikov.com/azure/how-to-learn-data-science-without-coding/)에서 우리는 인스타그램 사진을 살펴보고 사람들이 사진에 더 많은 좋아요를 주는 이유를 이해하려고 합니다. 먼저 [컴퓨터 비전(Computer vision)](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-77958-bethanycheum)을 사용하여 사진에서 최대한 많은 정보를 추출한 다음 [Azure Machine Learning AutoML](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml/?WT.mc_id=academic-77958-bethanycheum)을 사용하여 해석 가능한 모델을 빌드합니다.
+* [얼굴 연구 워크숍(Facial Studies Workshop)](https://github.com/CloudAdvocacy/FaceStudies)에서는 사람들을 행복하게 만드는 요소를 이해하고자, 이벤트에서 사진에 있는 사람들의 감정을 추출하기 위해 [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum)를 사용합니다.
 
 ## 결론
 
@@ -273,7 +273,7 @@ df = pd.read_csv('file.csv')
 **Python 학습**
 
 * [거북이 그래픽과 도형으로 재미있는 방식으로 파이썬 배우기(Learn Python in a Fun Way with Turtle Graphics and Fractals)](https://github.com/shwars/pycourse)
-* [파이썬으로 첫걸음(Take your First Steps with Python)](https://docs.microsoft.com/learn/paths/python-first-steps/?WT.mc_id=academic-31812-dmitryso): 관련 강의 [Microsoft 강의](http://learn.microsoft.com/?WT.mc_id=academic-31812-dmitryso)
+* [파이썬으로 첫걸음(Take your First Steps with Python)](https://docs.microsoft.com/learn/paths/python-first-steps/?WT.mc_id=academic-77958-bethanycheum): 관련 강의 [Microsoft 강의](http://learn.microsoft.com/?WT.mc_id=academic-77958-bethanycheum)
 
 ## 과제
 

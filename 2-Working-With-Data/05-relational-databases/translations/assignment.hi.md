@@ -1,6 +1,6 @@
 # हवाईअड्डा डेटा प्रदर्शित करना
 
-आपको एक [डेटाबेस](https://raw.githubusercontent.com/Microsoft/Data-Science-For-Beginners/main/2-Working-With-Data/05-relational-databases/airports.db) प्रदान किया जायेगा। बनाया गया है [SQLite](https://sqlite.org/index.html) पर जिसमें हवाई अड्डों के बारे में जानकारी होती है। स्कीमा नीचे प्रदर्शित किया गया है। आप [विजुअल स्टूडियो कोड](https://code.visualstudio.com/) में [SQLite एक्सटेंशन](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-40229-cxa) का इस्तेमाल करेंगे। Visualstudio.com?WT.mc_id=academic-40229-cxa) विभिन्न शहरों के हवाई अड्डों के बारे में जानकारी प्रदर्शित करने के लिए।
+आपको एक [डेटाबेस](https://raw.githubusercontent.com/Microsoft/Data-Science-For-Beginners/main/2-Working-With-Data/05-relational-databases/airports.db) प्रदान किया जायेगा। बनाया गया है [SQLite](https://sqlite.org/index.html) पर जिसमें हवाई अड्डों के बारे में जानकारी होती है। स्कीमा नीचे प्रदर्शित किया गया है। आप [विजुअल स्टूडियो कोड](https://code.visualstudio.com/) में [SQLite एक्सटेंशन](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum) का इस्तेमाल करेंगे। Visualstudio.com?WT.mc_id=academic-77958-bethanycheum) विभिन्न शहरों के हवाई अड्डों के बारे में जानकारी प्रदर्शित करने के लिए।
 
 ## निर्देश
 
@@ -10,8 +10,8 @@
 
 आप डेटाबेस के साथ इंटरैक्ट करने के लिए विजुअल स्टूडियो कोड और SQLite एक्सटेंशन का उपयोग कर सकते हैं।
 
-1. [code.visualstudio.com](https://code.visualstudio.com?WT.mc_id=academic-40229-cxa) पर नेविगेट करें और विजुअल स्टूडियो कोड इंस्टॉल करने के लिए निर्देशों का पालन करें
-1. मार्केटप्लेस पेज पर दिए निर्देशों के अनुसार [SQLite एक्सटेंशन](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-40229-cxa) एक्सटेंशन इंस्टॉल करें
+1. [code.visualstudio.com](https://code.visualstudio.com?WT.mc_id=academic-77958-bethanycheum) पर नेविगेट करें और विजुअल स्टूडियो कोड इंस्टॉल करने के लिए निर्देशों का पालन करें
+1. मार्केटप्लेस पेज पर दिए निर्देशों के अनुसार [SQLite एक्सटेंशन](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum) एक्सटेंशन इंस्टॉल करें
 
 ### डेटाबेस डाउनलोड करें और खोलें
 
@@ -25,7 +25,7 @@
 
 एक बार खुलने के बाद, नई क्वेरी विंडो का उपयोग डेटाबेस के विरुद्ध SQL कथन चलाने के लिए किया जा सकता है। डेटाबेस के विरुद्ध क्वेरी चलाने के लिए आप **Ctl-Shift-Q** (या मैक पर **Cmd-Shift-Q**) कमांड का उपयोग कर सकते हैं।
 
-> [!नोट] SQLite एक्सटेंशन के बारे में अधिक जानकारी के लिए, आप [दस्तावेज़ीकरण](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-40229-cxa) से परामर्श कर सकते हैं।
+> [!नोट] SQLite एक्सटेंशन के बारे में अधिक जानकारी के लिए, आप [दस्तावेज़ीकरण](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum) से परामर्श कर सकते हैं।
 
 ## डेटाबेस स्कीमा
 

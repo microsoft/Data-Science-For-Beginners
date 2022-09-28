@@ -170,11 +170,11 @@ WHERE rainfall.year = 2019
 
 ## 리뷰 & 복습
 
-[Microsoft 학습](https://docs.microsoft.com/learn?WT.mc_id=academic-40229-cxa)에 SQL 및 관계형 데이터베이스 개념에 대한 학습을 계속할 수 있는 자료들이 있습니다.
+[Microsoft 학습](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum)에 SQL 및 관계형 데이터베이스 개념에 대한 학습을 계속할 수 있는 자료들이 있습니다.
 
-- [관계형 데이터의 개념 설명](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-40229-cxa)
-- [Transact-SQL로 시작하는 쿼리](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-40229-cxa) (Transact-SQL SQL의 버전이다.)
-- [Microsoft 학습의 SQL 콘텐츠](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-40229-cxa)
+- [관계형 데이터의 개념 설명](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-77958-bethanycheum)
+- [Transact-SQL로 시작하는 쿼리](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-77958-bethanycheum) (Transact-SQL SQL의 버전이다.)
+- [Microsoft 학습의 SQL 콘텐츠](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-77958-bethanycheum)
 
 ## 과제
 

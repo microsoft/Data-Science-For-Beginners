@@ -26,7 +26,7 @@ Microsoft의 Azure Cloud Advocates는 데이터 과학에 관한 10주짜리 20�
 
 > **선생님들께**, 이 커리큘럼의 사용 방법에 대해 [일부 제안사항](for-teachers.md)이 있습니다. 이 [포럼에서](https://github.com/microsoft/Data-Science-For-Beginners/discussions) 의견을 주시면 감사하겠습니다.
 
-> **학생분들께**, 스스로 이 커리큘럼을 활용하려면 강의 전 퀴즈부터 시작하여 강의 전 학습 과정을 읽고 나머지 과제를 완료하면 됩니다. 솔루션 코드를 복사하는 대신 레슨을 이해하여 프로젝트를 만들어 보십시오. 이 코드들의 답안은 각 프로젝트 지향 레슨에 있는 /solutions 폴더에서 찾을 수 있습니다. 또 다른 방법으로는 친구들과 함께 학습 내용을 살펴보는 스터디 그룹을 만드는 것입니다. 추가 학습은 [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-40229-cxa)을 추천합니다.
+> **학생분들께**, 스스로 이 커리큘럼을 활용하려면 강의 전 퀴즈부터 시작하여 강의 전 학습 과정을 읽고 나머지 과제를 완료하면 됩니다. 솔루션 코드를 복사하는 대신 레슨을 이해하여 프로젝트를 만들어 보십시오. 이 코드들의 답안은 각 프로젝트 지향 레슨에 있는 /solutions 폴더에서 찾을 수 있습니다. 또 다른 방법으로는 친구들과 함께 학습 내용을 살펴보는 스터디 그룹을 만드는 것입니다. 추가 학습은 [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum)을 추천합니다.
 
 # 팀을 만나다
 

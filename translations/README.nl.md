@@ -28,7 +28,7 @@ Met groot genoegen bieden Azure Cloud Advocates bij Microsoft dit curriculum van
 
 > **Leerkrachten**: we hebben [suggesties bijgevoegd](for-teachers.md) over het gebruik van dit curriculum. We staan open voor uw feedback [in ons discussie forum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
-> **Studenten, leerlingen**: "fork" om dit lesmateriaal te gebruiken de gehele folder, en werk op eigen kracht door de opdrachten. Start steeds met de quiz vooraf. Lees dan de lezing en volg de rest van de opdrachten. Probeer de projecten te voltooien zonder de oplossing een-op-een te kopiëren; maar weet dat de oplossing in de /solutions folder te vinden is. Overweeg een studie groep te vormen en samen door het lesmateriaal te gaan. Wil je nog meer leren? Ga dan naar [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-40229-cxa).
+> **Studenten, leerlingen**: "fork" om dit lesmateriaal te gebruiken de gehele folder, en werk op eigen kracht door de opdrachten. Start steeds met de quiz vooraf. Lees dan de lezing en volg de rest van de opdrachten. Probeer de projecten te voltooien zonder de oplossing een-op-een te kopiëren; maar weet dat de oplossing in de /solutions folder te vinden is. Overweeg een studie groep te vormen en samen door het lesmateriaal te gaan. Wil je nog meer leren? Ga dan naar [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 ## Het team achter Data Science voor Beginners
 

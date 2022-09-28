@@ -44,7 +44,7 @@ SDK의 주요 영역은 다음과 같습니다.
 - 구성 매개변수 및 교육 데이터를 허용하는 자동화된 기계 학습을 사용합니다. 알고리즘과 하이퍼파라미터 설정을 자동으로 반복하여 예측 실행에 가장 적합한 모델을 찾습니다.
 - 웹 서비스를 배포하여 훈련된 모델을 모든 애플리케이션에서 사용할 수 있는 RESTful 서비스로 변환합니다.
 
-[Azure Machine Learning SDK에 대해 자세히 알아보기](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-40229-cxa&ocid=AID3041109)
+[Azure Machine Learning SDK에 대해 자세히 알아보기](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
 [이전 강의](../../18-Low-Code/translations/README.ko.md)에서 Low code/No code 방식으로 모델을 훈련, 배포 및 소비하는 방법을 살펴보았습니다. 심부전 데이터셋을 사용하여 심부전 예측 모델을 생성했습니다. 이 단원에서는 Azure Machine Learning SDK를 사용하여 똑같은 작업을 수행할 것입니다.
 
@@ -97,7 +97,7 @@ Notebook을 생성하려면 jupyter Notebook 인스턴스를 제공하는 컴퓨
 
 ### 2.5 모델 학습
 
-먼저 궁금한 점이 있으시면 [Azure ML SDK 설명서](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-40229-cxa&ocid=AID3041109)을 참고할 수 있습니다. 여기에는 이 단원에서 보게 될 모듈을 이해하는 데 필요한 모든 정보가 포함되어 있습니다.
+먼저 궁금한 점이 있으시면 [Azure ML SDK 설명서](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)을 참고할 수 있습니다. 여기에는 이 단원에서 보게 될 모듈을 이해하는 데 필요한 모든 정보가 포함되어 있습니다.
 
 #### 2.5.1 작업 공간, 실험, 컴퓨팅 클러스터 및 데이터셋 설정
 
@@ -145,7 +145,7 @@ df.describe()
 ```
 #### 2.5.2 AutoML 구성 및 교육
 
-AutoML 구성을 설정하려면 [AutoMLConfig 클래스](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?WT.mc_id=academic-40229-cxa&ocid=AID3041109)를 사용하세요.
+AutoML 구성을 설정하려면 [AutoMLConfig 클래스](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)를 사용하세요.
 
 문서에 설명된 대로 가지고 놀 수 있는 많은 매개변수가 있습니다. 이 프로젝트에서는 다음 매개변수를 사용합니다.
 
@@ -197,18 +197,18 @@ RunDetails(remote_run).show()
 
 ### 3.1 최고의 모델 저장
 
-[AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-40229-cxa&ocid=AID3041109)타입 중 하나인 `remote_run` 객체. 이 객체에는 최상의 실행과 해당하는 적합 모델을 반환하는 `get_output()` 메서드가 포함되어 있습니다.
+[AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)타입 중 하나인 `remote_run` 객체. 이 객체에는 최상의 실행과 해당하는 적합 모델을 반환하는 `get_output()` 메서드가 포함되어 있습니다.
 
 ```python
 best_run, fitted_model = remote_run.get_output()
 ```
-fit_model을 출력하기만 하면 최상의 모델에 사용된 매개변수를 볼 수 있고 [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-40229-cxa&ocid=AID3041109) 메소드를 사용하여 최상의 모델의 속성을 볼 수 있습니다.
+fit_model을 출력하기만 하면 최상의 모델에 사용된 매개변수를 볼 수 있고 [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) 메소드를 사용하여 최상의 모델의 속성을 볼 수 있습니다.
 
 ```python
 best_run.get_properties()
 ```
 
-이제 [register_model](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?view=azure-ml-py#register-model-model-name-none--description-none--tags-none--iteration-none--metric-none-?WT.mc_id=academic-40229-cxa&ocid=AID3041109) 방법을 사용해 모델을 등록해봅시다.
+이제 [register_model](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?view=azure-ml-py#register-model-model-name-none--description-none--tags-none--iteration-none--metric-none-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) 방법을 사용해 모델을 등록해봅시다.
 ```python
 model_name = best_run.properties['model_name']
 script_file_name = 'inference/score.py'
@@ -223,7 +223,7 @@ model = best_run.register_model(model_name = model_name,
 
 최상의 모델이 저장되면 [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109) 클래스를 사용하여 배포할 수 있습니다. InferenceConfig는 배포에 사용되는 사용자 지정 환경에 대한 구성 설정을 나타냅니다. [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) 클래스는 웹 서비스로 배포된 기계 학습 모델을 나타냅니다. Azure Container Instances의 엔드포인트. 배포된 서비스는 모델, 스크립트 및 관련 파일에서 생성됩니다. 결과 웹 서비스는 REST API가 있는 로드 밸런싱된 HTTP 엔드포인트입니다. 이 API로 데이터를 보내고 모델에서 반환된 예측을 받을 수 있습니다.
 
-모델은 [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-40229-cxa&ocid=AID3041109) 방법을 사용하여 배포됩니다.
+모델은 [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) 방법을 사용하여 배포됩니다.
 
 ```python
 from azureml.core.model import InferenceConfig, Model
@@ -286,13 +286,13 @@ response
 
  SDK를 통해 수행할 수 있는 다른 많은 작업이 있지만 불행히도 이 강의에서 모두 볼 수는 없습니다. 그러나 좋은 소식은 SDK 문서를 훑어보는 방법을 배우면 스스로 많은 시간을 할애할 수 있다는 것입니다. Azure ML SDK 설명서를 살펴보고 파이프라인을 만들 수 있는 'Pipeline' 클래스를 찾으세요. 파이프라인은 워크플로로 실행할 수 있는 단계 모음입니다.
 
-**힌트:** [SDK 설명서](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-40229-cxa&ocid=AID3041109) 로 이동합니다. 검색창에 "파이프라인"과 같은 키워드를 입력합니다. 검색 결과에 `azureml.pipeline.core.Pipeline` 클래스가 있어야 합니다.
+**힌트:** [SDK 설명서](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) 로 이동합니다. 검색창에 "파이프라인"과 같은 키워드를 입력합니다. 검색 결과에 `azureml.pipeline.core.Pipeline` 클래스가 있어야 합니다.
 
 ## [강의 후 퀴즈](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/37)
 
 ## 복습 및 독학
 
-이 단원에서는 클라우드에서 Azure ML SDK를 사용하여 심부전 위험을 예측하기 위해 모델을 학습, 배포 및 사용하는 방법을 배웠습니다. 자세한 내용은 이 [문서](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-40229-cxa&ocid=AID3041109)를 확인하세요. Azure ML SDK에 대해 Azure ML SDK를 사용하여 고유한 모델을 만들어 보세요.
+이 단원에서는 클라우드에서 Azure ML SDK를 사용하여 심부전 위험을 예측하기 위해 모델을 학습, 배포 및 사용하는 방법을 배웠습니다. 자세한 내용은 이 [문서](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)를 확인하세요. Azure ML SDK에 대해 Azure ML SDK를 사용하여 고유한 모델을 만들어 보세요.
 
 ## 과제
 
