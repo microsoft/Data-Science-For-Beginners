@@ -1,10 +1,11 @@
-# Market Research
+# Investigación de mercado
 
-## Instructions
+## Instrucciones
 
-In this lesson you learned that there are several important cloud providers. Do some market research to discover what each can offer to the Data Scientist. Are the offerings comparable? Write a paper to describe the offerings of three or more of these cloud providers.
-## Rubric
+En esta lección aprendiste que existen varios proveedores de servicios en la Nube importantes. Realiza una investigación de mercado para descubrir qué puede ofrecer cada uno a un Científico de Datos. ¿Son comparables las ofertas? Escribe un ensayo para describir las ofertas de tres o más de estos proveedores de la Nube.
 
-Exemplary | Adequate | Needs Improvement
+## Rúbrica
+
+Ejemplar | Adecuado | Necesita mejorar
 --- | --- | -- |
-A one page paper describes three cloud providers' data science offerings and differentiates between them. | A shorter paper is presented | A paper is presented without completing the analysis
+Un ensayo de una hoja describe las ofertas de tres proveedores de la Nube para ciencia de datos y las diferencias entre ellos. | Se presentó un ensayo más corto. | Se presentó un ensayo con el análisis incompleto. 
