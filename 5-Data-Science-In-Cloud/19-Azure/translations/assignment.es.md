@@ -1,11 +1,11 @@
-# Data Science project using Azure ML SDK
+# Proyecto de Ciencia de Datos usando Azure ML SDK
 
-## Instructions
+## Instrucciones
 
-We saw how to use the Azure ML platform to train, deploy and consume a model with the Azure ML SDK. Now look around for some data that you could use to train an other model, deploy it and consume it. You can look for datasets on [Kaggle](https://kaggle.com) and [Azure Open Datasets](https://azure.microsoft.com/services/open-datasets/catalog?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
+Vimos como usar la plataforma de entrenamiento Azure ML, desplegar y consumir un modelo con Azure ML SDK. Ahora busca algunos datos que puedas usar para entrenar un modelo, desplegarlo y consumirlo. Puedes buscar conjuntos de datos en [Kaggle](https://kaggle.com) y [Azure Open Datasets](https://azure.microsoft.com/services/open-datasets/catalog?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
-## Rubric
+## Rúbrica
 
-| Exemplary | Adequate | Needs Improvement |
+| Ejemplar  | Adecuado | Necesita mejorar  |
 |-----------|----------|-------------------|
-|When doing the AutoML Configuration, you went through the SDK documentation to see what parameters you could use. You ran a training on a dataset through AutoML using Azure ML SDK, and you checked the model explanations. You deployed the best model and you were able to consume it through the Azure ML SDK. | You ran a training on a dataset through AutoML using Azure ML SDK, and you checked the model explanations. You deployed the best model and you were able to consume it through the Azure ML SDK. | You ran a training on a dataset through AutoML using Azure ML SDK. You deployed the best model and you were able to consume it through the Azure ML SDK. |
+| Al realizar la configuración de AutoMl, revisaste la documentación del SDK para ver qué parámetros podías usar. Ejecutaste un entrenamiento en un conjunto de datos a través de AutoML usando Azure ML SDK y verificaste las explicaciones del modelo. Desplegaste el mejor modelo y fuiste capaz de consumirlo a través de Azure ML SDK. | Ejecutaste un modleo en un conjunto de datos a través de AutoML usando Azure ML SDK y verificaste las explicaciones del modelo. Desplegaste el mejor modelo y fuiste capaz de consumirlo a través de Azure ML SDK. | Ejecutaste un entrenamiento en un conjunto de datos a través de AutoML usando Azure ML SDK. Desplegaste el mejor modelo y fuiste capaz de consumirlo a través de Azure ML SDK. |
