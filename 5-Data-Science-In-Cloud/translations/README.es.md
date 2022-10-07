@@ -1,21 +1,22 @@
-# Data Science in the Cloud
+# Ciencia de datos en la Nube
 
-![cloud-picture](images/cloud-picture.jpg)
+![imagen de nube](../images/cloud-picture.jpg)
 
-> Photo by [Jelleke Vanooteghem](https://unsplash.com/@ilumire) from [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
+> Foto de [Jelleke Vanooteghem](https://unsplash.com/@ilumire) de [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
-When it comes to doing data science with big data, the cloud can be a game changer. In the next three lessons, we are going to see what the cloud is and why it can be very helpful. We are also going to explore a heart failure dataset and build a model to help assess the probability of someone having a heart failure. We will use the power of the cloud to train, deploy and consume a model in two different ways. One way using only the user interface in a Low code/No code fashion, the other way using the Azure Machine Learning Software Developer Kit (Azure ML SDK).
+Cuando se trata de hacer ciencia de datos con Big Data, la Nube puede cambiar las reglas del juego. En las próximas 3 lecciones, veremos qué es la Nube y porqué nos puede ser útil. También exploraremos un conjunto de datos de insuficiencia cardiaca y construiremos un modelo para ayudar a evaluar la probabilidad que alguien tenga una insuficiencia cardiaca. Usaremos el poder de la Nuber para entrenar, desplegar y consumir un modelo de 2 formas distintas. La primer forma, usando sólo la interfaz de usuario de la forma Low code/No code; la segunda forma, usando Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](19-Azure/images/project-schema.PNG)
+![Esquema del proyecto](../19-Azure/images/project-schema.PNG)
 
-### Topics
+### Temas
 
-1. [Why use Cloud for Data Science?](17-Introduction/README.md)
-2. [Data Science in the Cloud: The "Low code/No code" way ](18-Low-Code/README.md)
-3. [Data Science in the Cloud: The "Azure ML SDK" way ](19-Azure/README.md)
+1. [¿Porqué usar la Nube para ciencia de datos?](../17-Introduction/translations/README.es.md)
+2. [Ciencia de datos en la Nube: La forma "Low code/No code"](../18-Low-Code/translations/README.es.md)
+3. [Ciencia de datos en la Nube: La forma "Azure ML SDK"](19-Azure/translations/README.es.md)
 
-### Credits
-These lessons were written with ☁️ and 💕 by [Maud Levy](https://twitter.com/maudstweets) and [Tiffany Souterre](https://twitter.com/TiffanySouterre)
+### Créditos
 
-Data for the Heart Failure Prediction project is sourced from [
-Larxel](https://www.kaggle.com/andrewmvd) on [Kaggle](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data). It is licensed under the [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+Estas lecciones fueron escritas con ☁️ y 💕 por [Maud Levy](https://twitter.com/maudstweets) y [Tiffany Souterre](https://twitter.com/TiffanySouterre)
+
+El proyecto de datos para la predicción de insuficiencia cardiaca fue obtenido de [
+Larxel](https://www.kaggle.com/andrewmvd) en [Kaggle](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data). Bajo la licencia [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
