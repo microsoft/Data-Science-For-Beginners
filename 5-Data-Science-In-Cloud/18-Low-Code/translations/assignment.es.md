@@ -1,11 +1,11 @@
-# Low code/No code Data Science project on Azure ML
+# Proyecto de Ciencia de Datos Low code/No code en Azure ML
 
-## Instructions
+## Instrucciones
 
-We saw how to use the Azure ML platform to train, deploy and consume a model in a Low code/No code fashion. Now look around for some data that you could use to train an other model, deploy it and consume it. You can look for datasets on [Kaggle](https://kaggle.com) and [Azure Open Datasets](https://azure.microsoft.com/services/open-datasets/catalog?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
+Vimos como usar la plataforma Azure ML para entrenar, desplegar y consumir un modelo de la forma Low code/No code. Ahora busca algunos datos que pudieras usar para entrenar otro modelo, desplegarlo y consumirlo. Puedes buscar conjuntos de datos en [Kaggle](https://kaggle.com) y [Azure Open Datasets](https://azure.microsoft.com/services/open-datasets/catalog?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
-## Rubric
+## Rúbrica
 
-| Exemplary | Adequate | Needs Improvement |
+| Ejemplar | Adecuado | Necesita mejorar   |
 |-----------|----------|-------------------|
-|When uploading the data you took care of changing the feature's type if necessary. You also cleaned the data if needed. You ran a training on a dataset through AutoML, and you checked the model explanations. You deployed the best model and you were able to consume it. | When uploading the data you took care of changing the feature's type if necessary. You ran a training on a dataset through AutoML, you deployed the best model and you were able to consume it. | You have deployed the best model trained by AutoML and you were able to consume it. |
+| Al cargar los datos tuviste en cuenta el cambiar el tipo de características si era necesario. También limpiaste los datos si se requirió. Ejecutaste un entrenamiento en un conjunto de datos a través de AutoML, y verificaste las explicaciones del modelo. Desplegaste el mejor modelo y fuiste capaz de consumirlo. | Al cargar los datos tuviste en cuenta de cambiar el tipo de característica si era necesario. Ejecutaste un entrenamiento en un conjunto de datos a través de AutoML, desplegastes el mejor modelo y fuiste capaz de consumirlo. | Desplegaste el mejor modelo entrenado por AutoML y fuiste capaz de consumirlo. |
