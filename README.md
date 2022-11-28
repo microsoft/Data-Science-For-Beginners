@@ -100,9 +100,6 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine,  then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
 
 > Note, notebooks will not be rendered via Docsify, so when you need to run a notebook, do that separately in VS Code running a Python kernel.
-## PDF
-
-A PDF of all of the lessons can be found [here](https://microsoft.github.io/Data-Science-For-Beginners/pdf/readme.pdf)
 
 ## Help Wanted!
 
