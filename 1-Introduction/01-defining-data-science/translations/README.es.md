@@ -11,13 +11,13 @@
 ## [Cuestionario antes de la lección](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/0)
 
 ## ¿Qué son los datos?
-En nuestra vida cotidiana estamos rodeados de datos. El texto que estás leyendo ahora mismo son datos.  La lista de tus contactos en tu teléfono móvil son datos, como lo es la hora que muestra tu reloj. Como seres humanos, operamos naturalmente condatos como por ejemplo contando el dinero que tenemos o escribiendo cartas a nuestros amigos.
+En nuestra vida cotidiana estamos rodeados de datos. El texto que estás leyendo ahora mismo son datos.  La lista de tus contactos en tu teléfono móvil son datos, como lo es la hora que muestra tu reloj. Como seres humanos, operamos naturalmente con datos como por ejemplo contando el dinero que tenemos o escribiendo cartas a nuestros amigos.
 
 Sin embargo, los datos se volvieron mucho más importantes con la creación de los ordenadores.  La función principal de los ordenadores es realizar cálculos, pero necesitan datos para operar. Por ello, debemos entender cómo los ordenadores almacenan y procesan estos datos.
 
 Con la aparición de Internet, aumentó el papel de los ordenadores como dispositivos de tratamiento de datos.  Si lo pensamos bien, ahora utilizamos los ordenadores cada vez más para el procesamiento de datos y la comunicación, incluso más que para los cálculos propiamente dichos. Cuando escribimos un correo electrónico a un amigo o buscamos información en Internet, estamos creando, almacenando, transmitiendo y manipulando datos.
 
-> Te acuerdas de la última vez que utilizaste un ordenador sólo para hacer un cálculo? 
+> ¿Te acuerdas de la última vez que utilizaste un ordenador sólo para hacer un cálculo?
 
 ## ¿Qué es la ciencia de datos?
 
@@ -50,7 +50,7 @@ Dado que los datos son omnipresentes, la propia ciencia de los datos es también
 <dl>
 <dt>Bases de datos</dt>
 <dd>
-Una consideración crítica es **cómo almacenar** los datos, es decir, cómo estructurarlos de forma que permitan un procesamiento más rápido.  Hay diferentes tipos de bases de datos que almacenan datos estructurados y no estructurados, que <a href="../../../2-Working-With-Data/README.md">consideraremos en nuestro curso</a>.
+Una consideración crítica es **cómo almacenar** los datos, es decir, cómo estructurarlos de forma que permitan un procesamiento más rápido. Hay diferentes tipos de bases de datos que almacenan datos estructurados y no estructurados, que <a href="../../../2-Working-With-Data/README.md">consideraremos en nuestro curso</a>.
 </dd>
 <dt>Big Data</dt>
 <dd>
@@ -90,11 +90,11 @@ Hay muchas fuentes de datos posibles, y será imposible enumerarlas todas. Sin e
   - **Encuestas** que pedimos a los usuarios que completen después de una compra, o después de visitar un sitio web.
   - **El análisis del comportamiento** puede, por ejemplo, ayudarnos a entender hasta qué punto se adentra un usuario en un sitio, y cuál es el motivo típico por el que lo abandonan.
 * **No estructurado**
-  - Los textos pueden ser una rica fuente de información, como la puntuación general del sentimiento, o la extracción de palabras clave y el significado semántico.
-  - Imágenes o vídeos. Un vídeo de una cámara de vigilancia puede utilizarse para estimar el tráfico en la carretera e informar a la gente sobre posibles atascos.
+  - Los **textos** pueden ser una rica fuente de información, como la puntuación general del sentimiento, o la extracción de palabras clave y el significado semántico.
+  - **Imágenes** o **vídeos**. Un vídeo de una cámara de vigilancia puede utilizarse para estimar el tráfico en la carretera e informar a la gente sobre posibles atascos.
   - Los **registros** del servidor web pueden utilizarse para entender qué páginas de nuestro sitio son las más visitadas, y durante cuánto tiempo.
 * **Semiestructurados**
-  - Los gráficos de las redes sociales pueden ser una gran fuente de datos sobre la personalidad de los usuarios y su eficacia para difundir información.
+  - Los gráficos de las **redes sociales** pueden ser una gran fuente de datos sobre la personalidad de los usuarios y su eficacia para difundir información.
   - Cuando tenemos un montón de fotografías de una fiesta, podemos intentar extraer datos de **dinámica de grupos** construyendo un gráfico de las personas que se hacen fotos entre sí.
 
 Al conocer las distintas fuentes posibles de datos, se puede intentar pensar en diferentes escenarios en los que se pueden aplicar técnicas de ciencia de datos para conocer mejor la situación y mejorar los procesos empresariales. 
@@ -113,7 +113,7 @@ El primer paso es recoger los datos.  Aunque en muchos casos puede ser un proces
 El almacenamiento de datos puede ser un reto, especialmente si hablamos de big data. A la hora de decidir cómo almacenar los datos, tiene sentido anticiparse a la forma en que se consultarán los datos en el futuro.  Hay varias formas de almacenar los datos:
 <ul>
 <li>Una base de datos relacional almacena una colección de tablas y utiliza un lenguaje especial llamado SQL para consultarlas.  Normalmente, las tablas se organizan en diferentes grupos llamados esquemas.  En muchos casos hay que convertir los datos de la forma original para que se ajusten al esquema.</li>
-<li><a href="https://en.wikipedia.org/wiki/NoSQL">una base de datos no SQL</a>, como <a href="https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=academic-77958-bethanycheum">CosmosDB</a>, no impone esquemas a los datos y permite almacenar datos más complejos, por ejemplo, documentos JSON jerárquicos o gráficos. Sin embargo, las bases de datos NoSQL no tienen las ricas capacidades de consulta de SQL, y no pueden asegurar la integridad referencial, i.e. reglas sobre cómo se estructuran los datos en las tablas y que rigen las relaciones entre ellas.</li>
+<li><a href="https://en.wikipedia.org/wiki/NoSQL">Una base de datos no SQL</a>, como <a href="https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=academic-77958-bethanycheum">CosmosDB</a>, no impone esquemas a los datos y permite almacenar datos más complejos, por ejemplo, documentos JSON jerárquicos o gráficos. Sin embargo, las bases de datos NoSQL no tienen las ricas capacidades de consulta de SQL, y no pueden asegurar la integridad referencial, i.e. reglas sobre cómo se estructuran los datos en las tablas y que rigen las relaciones entre ellas.</li>
 <li><a href="https://en.wikipedia.org/wiki/Data_lake">Los lagos de datos</a> se utilizan para grandes colecciones de datos en bruto y sin estructurar. Los lagos de datos se utilizan a menudo con big data, donde los datos no caben en una sola máquina, y tienen que ser almacenados y procesados por un clúster de servidores. <a href="https://en.wikipedia.org/wiki/Apache_Parquet">Parquet</a> es el formato de datos que se suele utilizar junto con big data.</li> 
 </ul>
 </dd>
@@ -151,7 +151,7 @@ Si queremos complicarnos aún más, podemos representar el tiempo que se tarda e
 
 En este reto, trataremos de encontrar conceptos relevantes para el campo de la Ciencia de los Datos a través de textos.  Tomaremos un artículo de Wikipedia sobre la Ciencia de los Datos, descargaremos y procesaremos el texto, y luego construiremos una nube de palabras como esta:
 
-![Word Cloud para ciencia de datos](images/ds_wordcloud.png)
+![Word Cloud para ciencia de datos](../images/ds_wordcloud.png)
 
 Visite [`notebook.ipynb`](notebook.ipynb) para leer el código.  También puedes ejecutar el código y ver cómo realiza todas las transformaciones de datos en tiempo real. 
 
