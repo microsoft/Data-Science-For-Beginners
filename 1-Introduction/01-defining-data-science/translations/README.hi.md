@@ -146,7 +146,7 @@
 
 ![डेटा साइंस के लिए वर्ड क्लाउड](/1-Introduction/01-defining-data-science/images/ds_wordcloud.png)
 
-Visit [`notebook.ipynb`](/1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') कोड के माध्यम से पढ़ने के लिए। आप कोड भी चला सकते हैं, और देख सकते हैं कि यह वास्तविक समय में सभी डेटा परिवर्तन कैसे करता है।
+Visit [`notebook.ipynb`](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') कोड के माध्यम से पढ़ने के लिए। आप कोड भी चला सकते हैं, और देख सकते हैं कि यह वास्तविक समय में सभी डेटा परिवर्तन कैसे करता है।
 
 > यदि आप नहीं जानते कि जुपिटर नोटबुक में कोड कैसे चलाना है, तो एक नज़र डालें [यह लेख](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
