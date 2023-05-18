@@ -1,5 +1,7 @@
 # Data Science for Beginners - A Curriculum
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
+
 [![GitHub license](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
 [![GitHub issues](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
@@ -95,14 +97,34 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 | 18 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Training models using Low Code tools. |[lesson](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
 | 19 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Deploying models with Azure Machine Learning Studio. | [lesson](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
 | 20 | Data Science in the Wild | [In the Wild](6-Data-Science-In-Wild/README.md) | Data science driven projects in the real world. | [lesson](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+
+## GitHub Codespaces
+
+Follow these steps to open this sample in a Codespace:
+1. Click the Code drop-down menu and select the Open with Codespaces option.
+2. Select + New codespace at the bottom on the pane.
+For more info, check out the [GitHub documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
+
+## VSCode Remote - Containers
+Follow these steps to open this repo in a container using your local machine and VSCode using  the VS Code Remote - Containers extension:
+
+1. If this is your first time using a development container, please ensure your system meets the pre-reqs (i.e. have Docker installed) in [the getting started documentation](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+
+To use this repository, you can either open the repository in an isolated Docker volume:
+
+**Note**: Under the hood, this will use the Remote-Containers: **Clone Repository in Container Volume...** command to clone the source code in a Docker volume instead of the local filesystem. [Volumes](https://docs.docker.com/storage/volumes/) are the preferred mechanism for persisting container data.
+
+Or open a locally cloned or downloaded version of the repository:
+
+- Clone this repository to your local filesystem.
+- Press F1 and select the **Remote-Containers: Open Folder in Container...** command.
+- Select the cloned copy of this folder, wait for the container to start, and try things out.
+
 ## Offline access
 
 You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine,  then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
 
 > Note, notebooks will not be rendered via Docsify, so when you need to run a notebook, do that separately in VS Code running a Python kernel.
-## PDF
-
-A PDF of all of the lessons can be found [here](https://microsoft.github.io/Data-Science-For-Beginners/pdf/readme.pdf)
 
 ## Help Wanted!
 
