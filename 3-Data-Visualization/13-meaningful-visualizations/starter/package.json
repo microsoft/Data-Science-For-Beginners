@@ -13,8 +13,8 @@
 		"vue-d3-network": "0.1.28"
 	},
 	"devDependencies": {
-		"@vue/cli-plugin-babel": "~4.5.0",
-		"@vue/cli-plugin-eslint": "~4.5.0",
+		"@vue/cli-plugin-babel": "~5.0.8",
+		"@vue/cli-plugin-eslint": "~5.0.8",
 		"@vue/cli-service": "~5.0.8",
 		"babel-eslint": "^10.1.0",
 		"eslint": "^6.7.2",
