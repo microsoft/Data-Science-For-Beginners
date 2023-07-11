@@ -16,8 +16,8 @@ Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson cur
 
 **Hearty thanks to our authors:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
-**🙏 Special thanks 🙏 to our [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) authors, reviewers and content contributors,** notably Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
-[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
+**🙏 Special thanks 🙏 to our [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) authors, reviewers and content contributors,** notably [Aaryan Arora](https://in.linkedin.com/in/aaryan-arora-6789b089), [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), [ChhailBihari Dubey](https://in.linkedin.com/in/cbdubey), [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), [Samridhi Sharma](https://www.linkedin.com/in/samriddhisharma/?originalSubdomain=uk), [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), [Yogendrasingh Pawar](https://www.linkedin.com/in/yogendrasingh-pawar/?originalSubdomain=in) , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Title.png)|
 |:---:|
@@ -27,14 +27,14 @@ Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson cur
 
 Get started with the following resources:
 
-- [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) In this page, you will find beginner resources, Student packs and even ways to get a free cert voucher. This is one page you want to bookmark and check from time to time as we switch out content at least monthly.
+- [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) On this page, you will find beginner resources, Student packs, and even ways to get a free cert voucher. This is one page you want to bookmark and check from time to time as we switch out content at least monthly.
 - [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Join a global community of student ambassadors, this could be your way into Microsoft
 
 # Getting Started
 
 > **Teachers**: we have [included some suggestions](for-teachers.md) on how to use this curriculum.  We'd love your feedback [in our discussion forum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
-> **[Students](https://aka.ms/student-page)**: to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz.  Then read the lecture and complete the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however, that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **[Students](https://aka.ms/student-page)**: to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz.  Then read the lecture and complete the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however, that code is available in the /solutions folders in each project-oriented class. Another idea would be to form a study group with friends and review the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 ## Meet the Team
 
@@ -42,19 +42,19 @@ Get started with the following resources:
 
 **Gif by** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
 
-> 🎥 Click the image above for a video about the project  the folks who created it!
+> 🎥 Click the image above for a video about the project  and the folks who created it!
 
 ## Pedagogy
 
-We have chosen two pedagogical tenets while building this curriculum: ensuring that it is project-based and that it includes frequent quizzes. By the end of this series, students will have learned basic principles of data science, including ethical concepts, data preparation, different ways of working with data, data visualization, data analysis, real-world use cases of data science, and more.
+We have chosen two pedagogical tenets while building this curriculum: ensuring that it is project-based and includes frequent quizzes. By the end of this series, students will have learned basic principles of data science, including ethical concepts, data preparation, different ways of working with data, data visualization, data analysis, real-world use cases of data science, and more.
 
-In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible and fun and can be taken in whole or in part. The projects start small and become increasingly complex by the end of the 10 week cycle.
+In addition, a low-stakes quiz before a class sets the intention of the student towards learning a topic, while a second quiz after class ensures further retention. This curriculum was designed to be flexible and fun and can be taken in whole or in part. The projects start small and become increasingly complex by the end of the 10-week cycle.
 
 > Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md),  [Translation](TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
 
 ## Each lesson includes:
 
-- Optional sketchnote
+- Optional sketch note
 - Optional supplemental video
 - Pre-lesson warmup quiz
 - Written lesson
@@ -89,10 +89,10 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 | 10 | Visualizing Distributions of Data | [Data Visualization](3-Data-Visualization/README.md) | Visualizing observations and trends within an interval. | [lesson](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 11 | Visualizing Proportions | [Data Visualization](3-Data-Visualization/README.md) | Visualizing discrete and grouped percentages. | [lesson](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 12 | Visualizing Relationships | [Data Visualization](3-Data-Visualization/README.md) | Visualizing connections and correlations between sets of data and their variables. | [lesson](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | Meaningful Visualizations | [Data Visualization](3-Data-Visualization/README.md) | Techniques and guidance for making your visualizations valuable for effective problem solving and insights. | [lesson](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 13 | Meaningful Visualizations | [Data Visualization](3-Data-Visualization/README.md) | Techniques and guidance for making your visualizations valuable for effective problem-solving and insights. | [lesson](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 14 | Introduction to the Data Science lifecycle | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Introduction to the data science lifecycle and its first step of acquiring and extracting data. | [lesson](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
 | 15 | Analyzing | [Lifecycle](4-Data-Science-Lifecycle/README.md) | This phase of the data science lifecycle focuses on techniques to analyze data. | [lesson](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Communication | [Lifecycle](4-Data-Science-Lifecycle/README.md) | This phase of the data science lifecycle focuses on presenting the insights from the data in a way that makes it easier for decision makers to understand. | [lesson](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 16 | Communication | [Lifecycle](4-Data-Science-Lifecycle/README.md) | This phase of the data science lifecycle focuses on presenting the insights from the data in a way that makes it easier for decision-makers to understand. | [lesson](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
 | 17 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | This series of lessons introduces data science in the cloud and its benefits. | [lesson](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
 | 18 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Training models using Low Code tools. |[lesson](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
 | 19 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Deploying models with Azure Machine Learning Studio. | [lesson](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
@@ -102,13 +102,13 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 
 Follow these steps to open this sample in a Codespace:
 1. Click the Code drop-down menu and select the Open with Codespaces option.
-2. Select + New codespace at the bottom on the pane.
+2. Select + New codespace at the bottom of the pane.
 For more info, check out the [GitHub documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
 Follow these steps to open this repo in a container using your local machine and VSCode using  the VS Code Remote - Containers extension:
 
-1. If this is your first time using a development container, please ensure your system meets the pre-reqs (i.e. have Docker installed) in [the getting started documentation](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. If this is your first time using a development container, please ensure your system meets the prereqs (i.e. have Docker installed) in [the getting started documentation](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
 To use this repository, you can either open the repository in an isolated Docker volume:
 
@@ -122,7 +122,7 @@ Or open a locally cloned or downloaded version of the repository:
 
 ## Offline access
 
-You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine,  then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
+You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine,  then in the root folder of this repo, type `notify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
 
 > Note, notebooks will not be rendered via Docsify, so when you need to run a notebook, do that separately in VS Code running a Python kernel.
 
