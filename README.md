@@ -28,7 +28,7 @@ Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson cur
 Get started with the following resources:
 
 - [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) In this page, you will find beginner resources, Student packs and even ways to get a free cert voucher. This is one page you want to bookmark and check from time to time as we switch out content at least monthly.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Join a global community of student ambassadors, this could be your way into Microsoft
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Join a global community of student ambassadors, this could be your way into Microsoft.
 
 # Getting Started
 
@@ -128,7 +128,7 @@ You can run this documentation offline by using [Docsify](https://docsify.js.org
 
 ## Help Wanted!
 
-If you would like to translate all or part of the curriculum, please follow our [Translations](TRANSLATIONS.md) guide
+If you would like to translate all or part of the curriculum, please follow our [Translations](TRANSLATIONS.md) guide.
 
 ## Other Curricula
 
