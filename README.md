@@ -23,6 +23,20 @@ Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson cur
 |:---:|
 | Data Science For Beginners - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
+## Announcement - New Curriculum on Generative AI was just released!
+
+We just released a 12 lesson curriculum on generative AI. Come learn things like:
+
+- prompting and prompt engineering
+- text and image app generation
+- search apps
+
+As usual, there's a lesson, assignments to complete, knowledge checks and challenges.
+
+Check it out:
+
+> https://github.com/microsoft/generative-ai-for-beginners
+
 # Are you a student?
 
 Get started with the following resources:
