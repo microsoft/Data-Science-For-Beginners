@@ -134,6 +134,7 @@ If you would like to translate all or part of the curriculum, please follow our 
 
 Our team produces other curricula! Check out:
 
+- [Generative AI for beginners](https://aka.ms/genai-beginners)
 - [Machine Learning for Beginners](https://aka.ms/ml-beginners)
 - [IoT for Beginners](https://aka.ms/iot-beginners)
 - [Web Dev for Beginners](https://aka.ms/webdev-beginners)
