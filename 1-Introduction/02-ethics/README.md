@@ -32,7 +32,7 @@ The word "ethics" comes from the [Greek word "ethikos"](https://en.wikipedia.org
 **Ethics** is about the shared values and moral principles that govern our behavior in society. Ethics is based not on laws but on
 widely accepted norms of what is "right vs. wrong". However, ethical considerations can influence corporate governance initiatives and government regulations that create more incentives for compliance.
 
-**Data Ethics** is a [new branch of ethics](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2016.0360#sec-1) that "studies and evaluates moral problems related to _data, algorithms and corresponding practices_". Here, **"data"** focuses on actions related to generation, recording, curation, processing dissemination, sharing ,and usage, **"algorithms"** focuses on AI, agents, machine learning ,and robots, and **"practices"** focuses on topics like responsible innovation, programming, hacking and ethics codes.
+**Data Ethics** is a [new branch of ethics](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2016.0360#sec-1) that "studies and evaluates moral problems related to _data, algorithms and corresponding practices_". Here, **"data"** focuses on actions related to generation, recording, curation, processing, dissemination, sharing, and usage, **"algorithms"** focuses on AI, agents, machine learning, and robots, and **"practices"** focuses on topics like responsible innovation, programming, hacking, and ethics codes.
 
 **Applied Ethics** is the [practical application of moral considerations](https://en.wikipedia.org/wiki/Applied_ethics). It's the process of actively investigating ethical issues in the context of _real-world actions, products and processes_, and taking corrective measures to make that these remain aligned with our defined ethical values.
 
@@ -60,7 +60,7 @@ Let's briefly explore these principles. _Transparency_ and _accountability_ are 
 * [**Privacy & Security**](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1:primaryr6) - is about understanding data lineage, and providing _data privacy and related protections_ to users.
 * [**Inclusiveness**](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1:primaryr6) - is about designing AI solutions with intention, adapting them to meet a _broad range of human needs_ & capabilities.
 
-> 🚨 Think about what your data ethics mission statement could be. Explore ethical AI frameworks from other organizations - here are examples from [IBM](https://www.ibm.com/cloud/learn/ai-ethics), [Google](https://ai.google/principles) ,and [Facebook](https://ai.facebook.com/blog/facebooks-five-pillars-of-responsible-ai/). What shared values do they have in common? How do these principles relate to the AI product or industry they operate in?
+> 🚨 Think about what your data ethics mission statement could be. Explore ethical AI frameworks from other organizations - here are examples from [IBM](https://www.ibm.com/cloud/learn/ai-ethics), [Google](https://ai.google/principles), and [Facebook](https://ai.facebook.com/blog/facebooks-five-pillars-of-responsible-ai/). What shared values do they have in common? How do these principles relate to the AI product or industry they operate in?
 
 ### 2. Ethics Challenges
 
