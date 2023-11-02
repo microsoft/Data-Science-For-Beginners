@@ -35,7 +35,7 @@ As usual, there's a lesson, assignments to complete, knowledge checks and challe
 
 Check it out:
 
-> https://github.com/microsoft/generative-ai-for-beginners
+> https://aka.ms/genai-beginners
 
 # Are you a student?
 
@@ -148,8 +148,9 @@ If you would like to translate all or part of the curriculum, please follow our 
 
 Our team produces other curricula! Check out:
 
-- [Generative AI for beginners](https://aka.ms/genai-beginners)
-- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
-- [IoT for Beginners](https://aka.ms/iot-beginners)
-- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
 - [AI for Beginners](https://aka.ms/ai-beginners)
+- [Data Science for Beginners](https://aka.ms/datascience-beginners)
+- [Generative AI for Beginners](https://aka.ms/genai-beginners)
+- [IoT for Beginners](https://aka.ms/iot-beginners)
+- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
+- [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)
