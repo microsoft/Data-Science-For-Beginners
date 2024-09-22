@@ -157,3 +157,4 @@ Our team produces other curricula! Check out:
 - [Machine Learning for Beginners](https://aka.ms/ml-beginners)
 - [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)
 - [Mastering GitHub Copilot for AI Paired Programming](https://aka.ms/GitHubCopilotAI)
+- [Bash for Beginners](https://github.com/microsoft/bash-for-beginners)
