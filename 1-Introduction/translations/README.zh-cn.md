@@ -7,7 +7,7 @@
 
 ### 主题
 
-1. [数据科学的定义](../01-defining-data-science/README.md)
+1. [数据科学的定义](../01-defining-data-science/translations/README.zh-cn.md)
 2. [数据科学伦理](../02-ethics/README.md)
 3. [数据的定义](../03-defining-data/README.md)
 4. [统计与概率概论](../04-stats-and-probability/README.md)

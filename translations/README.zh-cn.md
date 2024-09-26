@@ -53,7 +53,7 @@
 
 | 编号 | 主题 | 课程分类 | 学习目标 | 链接 | 作者 |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | 数据科学的定义 | [简介](../1-Introduction/translations/README.zh-cn.md) | 了解数据科学背后的基本概念以及它与人工智能、机器学习和大数据的关系。 | [课程](../1-Introduction/01-defining-data-science/README.md) [视频](https://youtu.be/pqqsm5reGvs) | [Dmitry](http://soshnikov.com) |
+| 01 | 数据科学的定义 | [简介](../1-Introduction/translations/README.zh-cn.md) | 了解数据科学背后的基本概念以及它与人工智能、机器学习和大数据的关系。 | [课程](../1-Introduction/01-defining-data-science/translations/README.zh-cn.md) [视频](https://youtu.be/pqqsm5reGvs) | [Dmitry](http://soshnikov.com) |
 | 02 | 数据科学伦理 | [简介](../1-Introduction/translations/README.zh-cn.md) | 数据伦理的概念、挑战和框架。 | [课程](../1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
 | 03 | 数据的定义 | [简介](../1-Introduction/translations/README.zh-cn.md) | 数据是如何分类的，以及它的常见来源。 | [课程](../1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 04 | 统计与概率概论 | [简介](../1-Introduction/translations/README.zh-cn.md) | 用概率和统计学的数学技术来理解数据。 | [课程](../1-Introduction/04-stats-and-probability/README.md) [视频](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
