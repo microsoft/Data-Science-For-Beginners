@@ -12,6 +12,8 @@
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
 
+[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)
+
 Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson curriculum all about Data Science. Each lesson includes pre-lesson and post-lesson quizzes, written instructions to complete the lesson, a solution, and an assignment. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.
 
 **Hearty thanks to our authors:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
@@ -23,12 +25,26 @@ Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson cur
 |:---:|
 | Data Science For Beginners - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
+## Announcement - New Curriculum on Generative AI was just released!
+
+We just released a 12 lesson curriculum on generative AI. Come learn things like:
+
+- prompting and prompt engineering
+- text and image app generation
+- search apps
+
+As usual, there's a lesson, assignments to complete, knowledge checks and challenges.
+
+Check it out:
+
+> https://aka.ms/genai-beginners
+
 # Are you a student?
 
 Get started with the following resources:
 
 - [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) In this page, you will find beginner resources, Student packs and even ways to get a free cert voucher. This is one page you want to bookmark and check from time to time as we switch out content at least monthly.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Join a global community of student ambassadors, this could be your way into Microsoft
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Join a global community of student ambassadors, this could be your way into Microsoft.
 
 # Getting Started
 
@@ -65,7 +81,7 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 - Assignment
 - Post-lesson quiz
 
-> **A note about quizzes**: All quizzes are contained [in this app](https://purple-hill-04aebfb03.1.azurestaticapps.net/), for 40 total quizzes of three questions each. They are linked from within the lessons, but the quiz app can be run locally; follow the instruction in the `quiz-app` folder. They are gradually being localized.
+> **A note about quizzes**: All quizzes are contained in the Quiz-App folder, for 40 total quizzes of three questions each. They are linked from within the lessons, but the quiz app can be run locally or deployed to Azure; follow the instruction in the `quiz-app` folder. They are gradually being localized.
 
 ## Lessons
 
@@ -128,13 +144,18 @@ You can run this documentation offline by using [Docsify](https://docsify.js.org
 
 ## Help Wanted!
 
-If you would like to translate all or part of the curriculum, please follow our [Translations](TRANSLATIONS.md) guide
+If you would like to translate all or part of the curriculum, please follow our [Translations](TRANSLATIONS.md) guide.
 
 ## Other Curricula
 
 Our team produces other curricula! Check out:
 
-- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
-- [IoT for Beginners](https://aka.ms/iot-beginners)
-- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
 - [AI for Beginners](https://aka.ms/ai-beginners)
+- [Data Science for Beginners](https://aka.ms/datascience-beginners)
+- [Generative AI for Beginners](https://aka.ms/genai-beginners)
+- [**NEW** Cybersecurity for Beginners](https://github.com/microsoft/Security-101??WT.mc_id=academic-96948-sayoung)
+- [Web Dev for Beginners](https://aka.ms/webdev-beginners?WT.mc_id=academic-113596-abartolo)
+- [IoT for Beginners](https://aka.ms/iot-beginners)
+- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
+- [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)
+- [Mastering GitHub Copilot for AI Paired Programming](https://aka.ms/GitHubCopilotAI)
