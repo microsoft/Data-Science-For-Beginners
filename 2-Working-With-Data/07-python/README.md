@@ -208,7 +208,7 @@ We have also seen the usage of `plot` function to visualize some columns. While 
 
 This overview covers most important concepts of Pandas, however, the library is very rich, and there is no limit to what you can do with it! Let's now apply this knowledge for solving specific problem.
 
-## 🚀 Challenge 1: Analyzing COVID Spread
+### 🚀 Challenge 1: Analyzing COVID Spread
 
 First problem we will focus on is modelling of epidemic spread of COVID-19. In order to do that, we will use the data on the number of infected individuals in different countries, provided by the [Center for Systems Science and Engineering](https://systems.jhu.edu/) (CSSE) at [Johns Hopkins University](https://jhu.edu/). Dataset is available in [this GitHub Repository](https://github.com/CSSEGISandData/COVID-19).
 
