@@ -147,7 +147,7 @@ In this challenge, we will try to find concepts relevant to the field of Data Sc
 
 ![Word Cloud for Data Science](images/ds_wordcloud.png)
 
-Visit [`notebook.ipynb`](/1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') to read through the code.  You can also run the code, and see how it performs all data transformations in real time. 
+Visit [`notebook.ipynb`](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/1-Introduction/01-defining-data-science/notebook.ipynb) to read through the code.  You can also run the code, and see how it performs all data transformations in real time. 
 
 > If you do not know how to run code in a Jupyter Notebook, have a look at [this article](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
