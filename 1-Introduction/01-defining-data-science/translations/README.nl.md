@@ -148,7 +148,7 @@ In deze challenge proberen we concepten te vinden die relevant zijn voor het vak
 
 ![Word Cloud for Data Science](../images/ds_wordcloud.png)
 
-Ga naar ['notebook.ipynb'](notebook.ipynb) om de code door te lezen.  Je kunt de code ook uitvoeren en zien hoe alle gegevenstransformaties in realtime worden uitgevoerd. 
+Ga naar ['notebook.ipynb'](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/1-Introduction/01-defining-data-science/notebook.ipynb) om de code door te lezen.  Je kunt de code ook uitvoeren en zien hoe alle gegevenstransformaties in realtime worden uitgevoerd. 
 
 > Als je niet weet hoe je code in een Jupyter Notebook moet uitvoeren, kijk dan eens naar [dit artikel](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
