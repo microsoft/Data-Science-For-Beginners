@@ -147,7 +147,7 @@
 
 ![데이터 과학에 대한 워드 클라우드](../images/ds_wordcloud.png)
 
-[`notebook.ipynb`](../notebook.ipynb)에서 코드를 읽어보세요. 코드를 실행할 수 있고, 실시간으로 모든 데이터 변환을 어떻게 수행하는 지 확인할 수 있습니다.
+[`notebook.ipynb`](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/1-Introduction/01-defining-data-science/notebook.ipynb)에서 코드를 읽어보세요. 코드를 실행할 수 있고, 실시간으로 모든 데이터 변환을 어떻게 수행하는 지 확인할 수 있습니다.
 
 > 주피터 노트북(Jupyter Notebook)에서 코드를 어떻게 실행하는 지 잘 모른다면, [이 기사](https://soshnikov.com/education/how-to-execute-notebooks-from-github/)를 읽어보세요.
 

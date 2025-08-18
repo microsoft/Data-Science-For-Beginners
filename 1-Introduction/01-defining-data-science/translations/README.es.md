@@ -153,7 +153,7 @@ En este reto, trataremos de encontrar conceptos relevantes para el campo de la C
 
 ![Word Cloud para ciencia de datos](images/ds_wordcloud.png)
 
-Visite [`notebook.ipynb`](notebook.ipynb) para leer el código.  También puedes ejecutar el código y ver cómo realiza todas las transformaciones de datos en tiempo real. 
+Visite [`notebook.ipynb`](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/1-Introduction/01-defining-data-science/notebook.ipynb) para leer el código.  También puedes ejecutar el código y ver cómo realiza todas las transformaciones de datos en tiempo real. 
 
 > Si no sabe cómo ejecutar código en un "jupyter notebook", eche un vistazo a [este artículo](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
