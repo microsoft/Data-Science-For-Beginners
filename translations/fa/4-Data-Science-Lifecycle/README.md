@@ -1,0 +1,28 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "dd173fd30fc039a7a299898920680723",
+  "translation_date": "2025-08-24T00:40:26+00:00",
+  "source_file": "4-Data-Science-Lifecycle/README.md",
+  "language_code": "fa"
+}
+-->
+# چرخه زندگی علم داده
+
+![communication](../../../4-Data-Science-Lifecycle/images/communication.jpg)  
+> عکس از <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> در <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
+
+در این درس‌ها، برخی از جنبه‌های چرخه زندگی علم داده، از جمله تحلیل و ارتباطات پیرامون داده‌ها را بررسی خواهید کرد.
+
+### موضوعات
+
+1. [مقدمه](14-Introduction/README.md)  
+2. [تحلیل](15-analyzing/README.md)  
+3. [ارتباطات](16-communication/README.md)  
+
+### اعتبارها
+
+این درس‌ها با ❤️ توسط [Jalen McGee](https://twitter.com/JalenMCG) و [Jasmine Greenaway](https://twitter.com/paladique) نوشته شده‌اند.  
+
+**سلب مسئولیت**:  
+این سند با استفاده از سرویس ترجمه هوش مصنوعی [Co-op Translator](https://github.com/Azure/co-op-translator) ترجمه شده است. در حالی که ما تلاش می‌کنیم دقت را حفظ کنیم، لطفاً توجه داشته باشید که ترجمه‌های خودکار ممکن است حاوی خطاها یا نادرستی‌هایی باشند. سند اصلی به زبان بومی آن باید به عنوان منبع معتبر در نظر گرفته شود. برای اطلاعات حساس، ترجمه حرفه‌ای انسانی توصیه می‌شود. ما هیچ مسئولیتی در قبال سوءتفاهم‌ها یا تفسیرهای نادرست ناشی از استفاده از این ترجمه نداریم.
