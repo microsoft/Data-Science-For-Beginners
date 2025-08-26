@@ -59,9 +59,9 @@ jobs:
           # translate -l "ru ar ur mo ja bn" -y
           # translate -l "mr ne pa br it tr" -y
           # translate -l "el th sv da no fi" -y 
-          # translate -l nl he vi id ms tl" -y
-          # translate -l "sw hu cs sk ro bg" -y
-            translate -l "sr hr sl uk my" -y
+          # translate -l "nl he vi id ms tl" -y
+            translate -l "sw hu cs sk ro bg" -y
+          # translate -l "sr hr sl uk my" -y
 
       - name: Authenticate GitHub App
         id: generate_token
