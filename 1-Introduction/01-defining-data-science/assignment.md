@@ -20,9 +20,9 @@ Fill in the following table (substitute suggested problem domains for your own o
 
 | Problem Domain | Problem | Which data to collect | How to store the data | Which insights/decisions we can make | 
 |----------------|---------|-----------------------|-----------------------|--------------------------------------|
-| Education | | | | |
-| Vaccination | | | | |
-| Productivity | | | | |
+| Govt Contracting |How can we use data to help write bid proposals? |We can collect solicitations from sam.gov |We can stor it locally| We can decipher response format and automate the process.|
+| Real Estate Development | How can we use data to help us identify lucrative deals.| We can collect population trends data, as well as market data from sites like Zillow.| We could save this on a VM| We can make insights about which markets we should target for buys.|
+| Productivity |How to use data to make better use of our time| We can collect app data from our phone and personal recordings.| We can store this data locally.| We can pinpoint time gaps of unproductivity.|
 
 ## Rubric
 
