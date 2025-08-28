@@ -1,22 +1,22 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "6bb17a440fdabf0823105136a5b81029",
-  "translation_date": "2025-08-26T20:33:37+00:00",
+  "original_hash": "a746eb3b41f67cde5a0b648b8910a656",
+  "translation_date": "2025-08-28T13:32:35+00:00",
   "source_file": "README.md",
   "language_code": "da"
 }
 -->
 # Data Science for Begyndere - Et Curriculum
 
-Azure Cloud Advocates hos Microsoft er glade for at tilbyde et 10-ugers, 20-lektioners curriculum om Data Science. Hver lektion inkluderer quizzer før og efter lektionen, skriftlige instruktioner til at gennemføre lektionen, en løsning og en opgave. Vores projektbaserede pædagogik giver dig mulighed for at lære, mens du bygger, en dokumenteret metode til at få nye færdigheder til at hænge fast.
+Azure Cloud Advocates hos Microsoft er glade for at tilbyde et 10-ugers, 20-lektioners curriculum om Data Science. Hver lektion inkluderer quizzer før og efter lektionen, skriftlige instruktioner til at gennemføre lektionen, en løsning og en opgave. Vores projektbaserede tilgang giver dig mulighed for at lære ved at bygge, en dokumenteret metode til at få nye færdigheder til at "sidde fast".
 
 **Stor tak til vores forfattere:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
 **🙏 Speciel tak 🙏 til vores [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) forfattere, anmeldere og indholdsbidragydere,** især Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
-[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar, [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
+[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
-|![ Sketchnote af [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Title.png)|
+|![ Sketchnote af (@sketchthedocs) https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.da.png)|
 |:---:|
 | Data Science For Beginners - _Sketchnote af [@nitya](https://twitter.com/nitya)_ |
 
@@ -28,7 +28,7 @@ Vi har netop udgivet et 12-lektioners curriculum om generativ AI. Lær om ting s
 - tekst- og billedapp-generering
 - søgeapps
 
-Som altid er der en lektion, opgaver at fuldføre, videnskontroller og udfordringer.
+Som altid er der en lektion, opgaver at fuldføre, videnstjek og udfordringer.
 
 Se det her:
 
@@ -38,7 +38,7 @@ Se det her:
 
 Kom i gang med følgende ressourcer:
 
-- [Student Hub-side](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) På denne side finder du begynderressourcer, studentpakker og endda måder at få en gratis certifikatvoucher. Dette er en side, du bør bogmærke og tjekke fra tid til anden, da vi skifter indhold mindst månedligt.
+- [Student Hub-side](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) På denne side finder du ressourcer for begyndere, studentpakker og endda måder at få en gratis certifikatvoucher. Dette er en side, du bør bogmærke og tjekke fra tid til anden, da vi skifter indhold mindst månedligt.
 - [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Bliv en del af et globalt fællesskab af studentambassadører, dette kunne være din vej ind i Microsoft.
 
 # Kom godt i gang
@@ -53,7 +53,7 @@ Kom i gang med følgende ressourcer:
 
 **Gif af** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
 
-> 🎥 Klik på billedet ovenfor for en video om projektet og de folk, der skabte det!
+> 🎥 Klik på billedet ovenfor for en video om projektet og folkene, der skabte det!
 
 ## Pædagogik
 
@@ -67,10 +67,10 @@ Derudover sætter en lav-stress quiz før en klasse intentionen hos den studeren
 
 - Valgfri sketchnote
 - Valgfri supplerende video
-- Opvarmningsquiz før lektionen
+- Quiz før lektionen
 - Skriftlig lektion
 - For projektbaserede lektioner, trin-for-trin vejledninger om, hvordan man bygger projektet
-- Videnskontroller
+- Videnstjek
 - En udfordring
 - Supplerende læsning
 - Opgave
@@ -90,7 +90,7 @@ Derudover sætter en lav-stress quiz før en klasse intentionen hos den studeren
 | 02 | Data Science Etik | [Introduktion](1-Introduction/README.md) | Dataetik begreber, udfordringer og rammer. | [lektion](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
 | 03 | Definere Data | [Introduktion](1-Introduction/README.md) | Hvordan data klassificeres og dets almindelige kilder. | [lektion](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 04 | Introduktion til Statistik & Sandsynlighed | [Introduktion](1-Introduction/README.md) | De matematiske teknikker inden for sandsynlighed og statistik til at forstå data. | [lektion](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Arbejde med Relationelle Data | [Arbejde Med Data](2-Working-With-Data/README.md) | Introduktion til relationelle data og grundlæggende udforskning og analyse af relationelle data med Structured Query Language, også kendt som SQL (udtales “see-quell”). | [lektion](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 05 | Arbejde med Relationelle Data | [Arbejde Med Data](2-Working-With-Data/README.md) | Introduktion til relationelle data og grundlæggende udforskning og analyse af relationelle data med Structured Query Language, også kendt som SQL (udtales "see-quell"). | [lektion](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
 | 06 | Arbejde med NoSQL Data | [Arbejde Med Data](2-Working-With-Data/README.md) | Introduktion til ikke-relationelle data, dets forskellige typer og grundlæggende udforskning og analyse af dokumentdatabaser. | [lektion](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
 | 07 | Arbejde med Python | [Arbejde Med Data](2-Working-With-Data/README.md) | Grundlæggende brug af Python til dataudforskning med biblioteker som Pandas. Grundlæggende forståelse af Python-programmering anbefales. | [lektion](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
 | 08 | Dataklargøring | [Arbejde med data](2-Working-With-Data/README.md) | Emner om datateknikker til rengøring og transformation af data for at håndtere udfordringer med manglende, unøjagtige eller ufuldstændige data. | [lektion](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
@@ -110,7 +110,7 @@ Derudover sætter en lav-stress quiz før en klasse intentionen hos den studeren
 ## GitHub Codespaces
 
 Følg disse trin for at åbne dette eksempel i en Codespace:
-1. Klik på Code-menuen og vælg Open with Codespaces.
+1. Klik på Code-rullemenuen og vælg Open with Codespaces.
 2. Vælg + New codespace nederst i panelet.
 For mere info, se [GitHub-dokumentationen](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
@@ -131,7 +131,7 @@ Eller åbne en lokalt klonet eller downloadet version af repositoryet:
 
 ## Offline adgang
 
-Du kan køre denne dokumentation offline ved hjælp af [Docsify](https://docsify.js.org/#/). Fork dette repo, [installer Docsify](https://docsify.js.org/#/quickstart) på din lokale maskine, og skriv derefter `docsify serve` i roden af dette repo. Websitet vil blive serveret på port 3000 på din localhost: `localhost:3000`.
+Du kan køre denne dokumentation offline ved hjælp af [Docsify](https://docsify.js.org/#/). Fork dette repo, [installer Docsify](https://docsify.js.org/#/quickstart) på din lokale maskine, og skriv derefter `docsify serve` i roden af dette repo. Hjemmesiden vil blive serveret på port 3000 på din localhost: `localhost:3000`.
 
 > Bemærk, notebooks vil ikke blive gengivet via Docsify, så når du skal køre en notebook, skal du gøre det separat i VS Code med en Python-kernel.
 
@@ -156,9 +156,9 @@ Vores team producerer andre pensum! Tjek:
 - [XR-udvikling for begyndere](https://github.com/microsoft/xr-development-for-beginners)
 - [Mastering GitHub Copilot for parprogrammering](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
 - [Mastering GitHub Copilot for C#/.NET-udviklere](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
-- [Vælg din egen Copilot-oplevelse](https://github.com/microsoft/CopilotAdventures)
+- [Vælg dit eget Copilot-eventyr](https://github.com/microsoft/CopilotAdventures)
 
 ---
 
 **Ansvarsfraskrivelse**:  
-Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi påtager os ikke ansvar for misforståelser eller fejltolkninger, der opstår som følge af brugen af denne oversættelse.
+Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi påtager os intet ansvar for misforståelser eller fejltolkninger, der måtte opstå som følge af brugen af denne oversættelse.
