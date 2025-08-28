@@ -85,7 +85,7 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 ## Lessons
 
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](./sketchnotes/00-Roadmap.png)|
+|![ Sketchnote by @sketchthedocs https://sketchthedocs.dev](./sketchnotes/00-Roadmap.png)|
 |:---:|
 | Data Science For Beginners: Roadmap - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
