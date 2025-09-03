@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "2583a9894af7123b2fcae3376b14c035",
-  "translation_date": "2025-08-24T21:26:58+00:00",
+  "original_hash": "8141e7195841682914be03ef930fe43d",
+  "translation_date": "2025-09-03T19:57:57+00:00",
   "source_file": "1-Introduction/01-defining-data-science/README.md",
   "language_code": "es"
 }
@@ -22,9 +22,9 @@ Como ya hemos mencionado, los datos están en todas partes. ¡Solo necesitamos c
 Existen muchas fuentes posibles de datos, ¡y sería imposible enumerarlas todas! Sin embargo, mencionemos algunos de los lugares típicos donde puedes obtener datos:
 
 * **Estructurados**
-  - **Internet de las Cosas** (IoT), incluyendo datos de diferentes sensores, como sensores de temperatura o presión, que proporcionan muchos datos útiles. Por ejemplo, si un edificio de oficinas está equipado con sensores IoT, podemos controlar automáticamente la calefacción y la iluminación para minimizar costos.
+  - **Internet de las Cosas** (IoT), incluyendo datos de diferentes sensores, como sensores de temperatura o presión, que proporcionan mucha información útil. Por ejemplo, si un edificio de oficinas está equipado con sensores IoT, podemos controlar automáticamente la calefacción y la iluminación para minimizar costos.
   - **Encuestas** que pedimos a los usuarios completar después de una compra o tras visitar un sitio web.
-  - **Análisis de comportamiento** puede, por ejemplo, ayudarnos a entender qué tan profundamente navega un usuario en un sitio y cuál es la razón típica para abandonar el sitio.
+  - **Análisis de comportamiento** puede, por ejemplo, ayudarnos a entender qué tan profundamente un usuario navega en un sitio y cuál es la razón típica para abandonarlo.
 * **No estructurados**
   - **Textos** pueden ser una rica fuente de información, como un puntaje general de **sentimiento**, o la extracción de palabras clave y significado semántico.
   - **Imágenes** o **Videos**. Un video de una cámara de vigilancia puede ser usado para estimar el tráfico en la carretera e informar a las personas sobre posibles atascos.
@@ -43,13 +43,13 @@ Por supuesto, dependiendo de los datos reales, algunos pasos podrían faltar (po
 
 ## Digitalización y Transformación Digital
 
-En la última década, muchas empresas han comenzado a entender la importancia de los datos al tomar decisiones empresariales. Para aplicar los principios de la ciencia de datos a la gestión de un negocio, primero se necesita recopilar algunos datos, es decir, traducir los procesos empresariales a forma digital. Esto se conoce como **digitalización**. Aplicar técnicas de ciencia de datos a estos datos para guiar decisiones puede llevar a aumentos significativos en la productividad (o incluso a un cambio de dirección en el negocio), lo que se denomina **transformación digital**.
+En la última década, muchas empresas han comenzado a entender la importancia de los datos al tomar decisiones empresariales. Para aplicar los principios de la ciencia de datos en la gestión de un negocio, primero se necesita recopilar algunos datos, es decir, traducir los procesos empresariales a forma digital. Esto se conoce como **digitalización**. Aplicar técnicas de ciencia de datos a estos datos para guiar decisiones puede llevar a aumentos significativos en la productividad (o incluso a un cambio de rumbo en el negocio), lo que se denomina **transformación digital**.
 
 Consideremos un ejemplo. Supongamos que tenemos un curso de ciencia de datos (como este) que impartimos en línea a estudiantes, y queremos usar la ciencia de datos para mejorarlo. ¿Cómo podemos hacerlo?
 
-Podemos comenzar preguntando "¿Qué se puede digitalizar?" La forma más sencilla sería medir el tiempo que cada estudiante tarda en completar cada módulo y evaluar el conocimiento adquirido mediante un examen de opción múltiple al final de cada módulo. Promediando el tiempo de finalización entre todos los estudiantes, podemos identificar qué módulos causan más dificultades y trabajar en simplificarlos.
-> Podrías argumentar que este enfoque no es ideal, porque los módulos pueden tener longitudes diferentes. Probablemente sea más justo dividir el tiempo por la longitud del módulo (en número de caracteres) y comparar esos valores en su lugar.
-Cuando comenzamos a analizar los resultados de pruebas de opción múltiple, podemos intentar determinar qué conceptos les resultan difíciles de entender a los estudiantes y usar esa información para mejorar el contenido. Para lograrlo, necesitamos diseñar las pruebas de manera que cada pregunta se relacione con un concepto o fragmento de conocimiento específico.
+Podemos empezar preguntando "¿Qué se puede digitalizar?" La forma más sencilla sería medir el tiempo que cada estudiante tarda en completar cada módulo y evaluar el conocimiento adquirido mediante un examen de opción múltiple al final de cada módulo. Promediando el tiempo de finalización entre todos los estudiantes, podemos identificar qué módulos causan más dificultades y trabajar en simplificarlos.
+> Podrías argumentar que este enfoque no es ideal, porque los módulos pueden tener diferentes longitudes. Probablemente sea más justo dividir el tiempo por la longitud del módulo (en número de caracteres) y comparar esos valores en su lugar.
+Cuando comenzamos a analizar los resultados de pruebas de opción múltiple, podemos intentar determinar qué conceptos les resultan difíciles de entender a los estudiantes y usar esa información para mejorar el contenido. Para lograrlo, necesitamos diseñar las pruebas de manera que cada pregunta se asocie con un concepto o fragmento de conocimiento específico.
 
 Si queremos complicarlo aún más, podemos graficar el tiempo que toma cada módulo en relación con la categoría de edad de los estudiantes. Podríamos descubrir que para algunas categorías de edad toma un tiempo excesivamente largo completar el módulo, o que los estudiantes abandonan antes de terminarlo. Esto puede ayudarnos a proporcionar recomendaciones de edad para el módulo y minimizar la insatisfacción de las personas debido a expectativas equivocadas.
 
@@ -63,7 +63,7 @@ Visita [`notebook.ipynb`](../../../../../../../../../1-Introduction/01-defining-
 
 > Si no sabes cómo ejecutar código en un Jupyter Notebook, consulta [este artículo](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
-## [Cuestionario posterior a la lección](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/1)
+## [Cuestionario posterior a la lección](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Tareas
 
@@ -74,5 +74,7 @@ Visita [`notebook.ipynb`](../../../../../../../../../1-Introduction/01-defining-
 
 Esta lección ha sido creada con ♥️ por [Dmitry Soshnikov](http://soshnikov.com)
 
+---
+
 **Descargo de responsabilidad**:  
-Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Aunque nos esforzamos por garantizar la precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.
+Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Aunque nos esforzamos por garantizar la precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.
