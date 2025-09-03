@@ -211,9 +211,7 @@ If Emerson took approach #2, it is much more likely that the team leads will tak
 
 [1. Communicating Data - Communicating Data with Tableau [Book] (oreilly.com)](https://www.oreilly.com/library/view/communicating-data-with/9781449372019/ch01.html)
 
-
-
-## [Post-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/31)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
 Review what you've just learned with the Post-Lecture Quiz above!
 

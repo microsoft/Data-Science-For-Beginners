@@ -92,7 +92,7 @@ Sources:
 
 ## Post-Lecture Quiz
 
-[Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/33)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Assignment
 

@@ -12,7 +12,7 @@ In this lesson, you will use a different nature-focused dataset to visualize pro
 
 > 💡 A very interesting project called [Charticulator](https://charticulator.com) by Microsoft Research offers a free drag and drop interface for data visualizations. In one of their tutorials they also use this mushroom dataset! So you can explore the data and learn the library at the same time: [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/20)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Get to know your mushrooms 🍄
 

@@ -11,7 +11,8 @@ We started with definitions of data science and ethics, explored various tools &
 In this lesson, we'll explore real-world applications of data science across industry and dive into specific examples in the research, digital humanities, and sustainability, contexts. We'll look at student project opportunities and conclude with useful resources to help you continue your learning journey!
 ## Pre-Lecture Quiz
 
-[Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/38)
+[Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
+
 ## Data Science + Industry
 
 Thanks to the democratization of AI, developers are now finding it easier to design and integrate AI-driven decision-making and data-driven insights into user experiences and development workflows. Here are a few examples of how data science is "applied" to real-world applications across the industry:
@@ -129,7 +130,8 @@ Here are some examples of data science student projects to inspire you.
 Search for articles that recommend data science projects that are beginner friendly - like [these 50 topic areas](https://www.upgrad.com/blog/data-science-project-ideas-topics-beginners/) or [these 21 project ideas](https://www.intellspot.com/data-science-project-ideas) or [these 16 projects with source code](https://data-flair.training/blogs/data-science-project-ideas/) that you can deconstruct and remix. And don't forget to blog about your learning journeys and share your insights with all of us.
 ## Post-Lecture Quiz
 
-[Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/39)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
+
 ## Review & Self Study
 
 Want to explore more use cases? Here are a few relevant articles:

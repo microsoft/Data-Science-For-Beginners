@@ -132,8 +132,7 @@ There is a `TwitterData.json` file that you can upload to the SampleDB database.
 
 Try to run a few select queries to find the documents that have Microsoft in the text field. Hint: try to use the [LIKE keyword](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character)
 
-
-## [Post-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/11)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
 
 

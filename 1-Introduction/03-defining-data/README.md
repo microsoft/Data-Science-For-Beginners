@@ -59,7 +59,7 @@ Kaggle is an excellent source of open datasets. Use the [dataset search tool](ht
 - Is the data quantitative or qualitative?
 - Is the data structured, unstructured, or semi-structured?
 
-## [Post-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/5)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
 
 

@@ -145,7 +145,7 @@ Run your app from the terminal (npm run serve) and enjoy the visualization!
 
 Take a tour of the internet to discover deceptive visualizations. How does the author fool the user, and is it intentional? Try correcting the visualizations to show how they should look.
 
-## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/25)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Review & Self Study
 

@@ -166,7 +166,7 @@ There are numerous relational databases available on the internet. You can explo
 
 ## Post-Lecture Quiz
 
-## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/9)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Review & Self Study
 
