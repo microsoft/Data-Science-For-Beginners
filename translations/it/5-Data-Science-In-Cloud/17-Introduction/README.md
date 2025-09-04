@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "408c55cab2880daa4e78616308bd5db7",
-  "translation_date": "2025-08-28T10:41:20+00:00",
+  "original_hash": "6a0556b17de4c8d1a9470b02247b01d4",
+  "translation_date": "2025-09-04T17:53:05+00:00",
   "source_file": "5-Data-Science-In-Cloud/17-Introduction/README.md",
   "language_code": "it"
 }
@@ -14,7 +14,7 @@ CO_OP_TRANSLATOR_METADATA:
 | Data Science nel Cloud: Introduzione - _Sketchnote di [@nitya](https://twitter.com/nitya)_ |
 
 
-In questa lezione, imparerai i principi fondamentali del Cloud, scoprirai perché può essere interessante utilizzare i servizi Cloud per eseguire i tuoi progetti di data science e vedremo alcuni esempi di progetti di data science eseguiti nel Cloud.
+In questa lezione, imparerai i principi fondamentali del Cloud, vedrai perché può essere interessante utilizzare i servizi Cloud per gestire i tuoi progetti di data science e analizzeremo alcuni esempi di progetti di data science eseguiti nel Cloud. 
 
 ## [Quiz Pre-Lettura](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/32)
 
@@ -44,11 +44,11 @@ Sviluppatori e professionisti IT scelgono di lavorare con il Cloud per molte rag
 * Flessibilità: paghi solo per i servizi di cui hai bisogno e puoi scegliere tra una vasta gamma di servizi. Tipicamente paghi a consumo e adatti i tuoi servizi in base alle tue esigenze in evoluzione.
 * Budget: non è necessario fare investimenti iniziali per acquistare hardware e software, configurare e gestire datacenter locali; puoi semplicemente pagare per ciò che utilizzi.
 * Scalabilità: le tue risorse possono scalare in base alle esigenze del tuo progetto, il che significa che le tue app possono utilizzare più o meno potenza di calcolo, archiviazione e larghezza di banda, adattandosi a fattori esterni in qualsiasi momento.
-* Produttività: puoi concentrarti sulla tua attività piuttosto che perdere tempo su compiti che possono essere gestiti da qualcun altro, come la gestione dei datacenter.
-* Affidabilità: il Cloud Computing offre diversi modi per eseguire backup continui dei tuoi dati e puoi configurare piani di recupero in caso di disastri per mantenere la tua attività e i tuoi servizi operativi, anche in tempi di crisi.
+* Produttività: puoi concentrarti sul tuo business piuttosto che dedicare tempo a compiti che possono essere gestiti da altri, come la gestione dei datacenter.
+* Affidabilità: il Cloud Computing offre diversi modi per eseguire backup continui dei tuoi dati e puoi configurare piani di recupero in caso di disastri per mantenere il tuo business e i tuoi servizi operativi, anche in tempi di crisi.
 * Sicurezza: puoi beneficiare di politiche, tecnologie e controlli che rafforzano la sicurezza del tuo progetto.
 
-Queste sono alcune delle ragioni più comuni per cui le persone scelgono di utilizzare i servizi Cloud. Ora che abbiamo una migliore comprensione di cosa sia il Cloud e dei suoi principali vantaggi, esaminiamo più specificamente il lavoro dei Data Scientist e degli sviluppatori che lavorano con i dati, e come il Cloud può aiutarli a superare diverse sfide che potrebbero incontrare:
+Queste sono alcune delle ragioni più comuni per cui le persone scelgono di utilizzare i servizi Cloud. Ora che abbiamo una migliore comprensione di cosa sia il Cloud e dei suoi principali vantaggi, analizziamo più specificamente il lavoro dei Data Scientist e degli sviluppatori che lavorano con i dati, e come il Cloud può aiutarli a superare diverse sfide che potrebbero incontrare:
 
 * Archiviazione di grandi quantità di dati: invece di acquistare, gestire e proteggere grandi server, puoi archiviare i tuoi dati direttamente nel cloud, con soluzioni come Azure Cosmos DB, Azure SQL Database e Azure Data Lake Storage.
 * Integrazione dei dati: l'integrazione dei dati è una parte essenziale della Data Science, che ti consente di passare dalla raccolta dei dati all'azione. Con i servizi di integrazione dei dati offerti nel cloud, puoi raccogliere, trasformare e integrare dati da varie fonti in un unico data warehouse, con Data Factory.
@@ -58,14 +58,14 @@ Queste sono alcune delle ragioni più comuni per cui le persone scelgono di util
 
 ## Esempi di Data Science nel Cloud
 
-Rendiamo tutto più concreto esaminando un paio di scenari.
+Rendiamo tutto più concreto analizzando un paio di scenari.
 
 ### Analisi del sentiment sui social media in tempo reale
 Iniziamo con uno scenario comunemente studiato da chi si avvicina al machine learning: l'analisi del sentiment sui social media in tempo reale.
 
-Supponiamo che tu gestisca un sito web di notizie e voglia sfruttare i dati live per capire quali contenuti potrebbero interessare ai tuoi lettori. Per saperne di più, puoi creare un programma che esegue un'analisi del sentiment in tempo reale dei dati provenienti da pubblicazioni su Twitter, su argomenti rilevanti per i tuoi lettori.
+Supponiamo che tu gestisca un sito web di notizie e voglia sfruttare i dati in tempo reale per capire quali contenuti potrebbero interessare ai tuoi lettori. Per approfondire, puoi creare un programma che esegue un'analisi del sentiment in tempo reale dei dati provenienti dalle pubblicazioni su Twitter, su argomenti rilevanti per i tuoi lettori.
 
-Gli indicatori chiave che esaminerai sono il volume di tweet su argomenti specifici (hashtag) e il sentiment, che viene stabilito utilizzando strumenti di analisi che eseguono l'analisi del sentiment sugli argomenti specificati.
+Gli indicatori chiave che analizzerai sono il volume di tweet su argomenti specifici (hashtag) e il sentiment, che viene stabilito utilizzando strumenti di analisi che eseguono l'analisi del sentiment sugli argomenti specificati.
 
 I passaggi necessari per creare questo progetto sono i seguenti:
 
@@ -81,11 +81,11 @@ Per visualizzare il processo completo, consulta la [documentazione](https://docs
 ### Analisi di articoli scientifici
 Prendiamo un altro esempio di un progetto creato da [Dmitry Soshnikov](http://soshnikov.com), uno degli autori di questo curriculum.
 
-Dmitry ha creato uno strumento che analizza articoli sul COVID. Esaminando questo progetto, vedrai come puoi creare uno strumento che estrae conoscenze da articoli scientifici, ottiene informazioni e aiuta i ricercatori a navigare attraverso grandi collezioni di articoli in modo efficiente.
+Dmitry ha creato uno strumento che analizza articoli sul COVID. Esaminando questo progetto, vedrai come puoi creare uno strumento che estrae conoscenze dagli articoli scientifici, ottiene informazioni e aiuta i ricercatori a navigare attraverso grandi collezioni di articoli in modo efficiente.
 
 Vediamo i diversi passaggi utilizzati per questo:
 
-* Estrarre e pre-processare informazioni con [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
+* Estrarre e pre-elaborare informazioni con [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 * Utilizzare [Azure ML](https://azure.microsoft.com/services/machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) per parallelizzare l'elaborazione.
 * Archiviare e interrogare informazioni con [Cosmos DB](https://azure.microsoft.com/services/cosmos-db?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 * Creare un dashboard interattivo per l'esplorazione e la visualizzazione dei dati utilizzando Power BI.
@@ -103,7 +103,7 @@ Fonti:
 
 ## Quiz Post-Lettura
 
-[Quiz post-lettura](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/33)
+## [Quiz post-lettura](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Compito
 
@@ -112,4 +112,4 @@ Fonti:
 ---
 
 **Disclaimer**:  
-Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale eseguita da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.
+Questo documento è stato tradotto utilizzando il servizio di traduzione AI [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatizzate possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

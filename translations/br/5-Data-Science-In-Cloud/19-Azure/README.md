@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "73dead89dc2ddda4d6ec0232814a191e",
-  "translation_date": "2025-08-27T17:53:04+00:00",
+  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
+  "translation_date": "2025-09-04T17:41:38+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "br"
 }
@@ -50,7 +50,7 @@ Cientistas de dados e desenvolvedores de IA utilizam o Azure Machine Learning SD
 - Explorar, preparar e gerenciar o ciclo de vida dos conjuntos de dados usados em experimentos de aprendizado de máquina.
 - Gerenciar recursos na nuvem para monitoramento, registro e organização de seus experimentos de aprendizado de máquina.
 - Treinar modelos localmente ou utilizando recursos na nuvem, incluindo treinamento acelerado por GPU.
-- Usar aprendizado de máquina automatizado, que aceita parâmetros de configuração e dados de treinamento. Ele itera automaticamente por algoritmos e configurações de hiperparâmetros para encontrar o melhor modelo para realizar previsões.
+- Usar aprendizado de máquina automatizado, que aceita parâmetros de configuração e dados de treinamento. Ele itera automaticamente entre algoritmos e configurações de hiperparâmetros para encontrar o melhor modelo para realizar previsões.
 - Implantar serviços web para converter seus modelos treinados em serviços RESTful que podem ser consumidos em qualquer aplicação.
 
 [Saiba mais sobre o Azure Machine Learning SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
@@ -89,9 +89,9 @@ Consulte a [lição anterior](../18-Low-Code/README.md) na seção **2.3 Carrega
 
 ### 2.4 Criando Notebooks
 
-> **_NOTA:_** Para o próximo passo, você pode criar um novo notebook do zero ou carregar o [notebook que criamos](notebook.ipynb) no seu Azure ML Studio. Para carregá-lo, basta clicar no menu "Notebook" e fazer o upload do notebook.
+> **_NOTA:_** Para o próximo passo, você pode criar um novo notebook do zero ou pode carregar o [notebook que criamos](notebook.ipynb) no seu Azure ML Studio. Para carregá-lo, basta clicar no menu "Notebook" e carregar o notebook.
 
-Notebooks são uma parte muito importante do processo de ciência de dados. Eles podem ser usados para realizar Análise Exploratória de Dados (EDA), chamar um cluster de computação para treinar um modelo ou chamar um cluster de inferência para implantar um endpoint. 
+Notebooks são uma parte muito importante do processo de ciência de dados. Eles podem ser usados para realizar Análise Exploratória de Dados (EDA), chamar um cluster de computação para treinar um modelo, ou chamar um cluster de inferência para implantar um endpoint. 
 
 Para criar um Notebook, precisamos de um nó de computação que esteja servindo a instância do jupyter notebook. Volte ao [workspace do Azure ML](https://ml.azure.com/) e clique em Instâncias de computação. Na lista de instâncias de computação, você deve ver a [instância de computação que criamos anteriormente](../../../../5-Data-Science-In-Cloud/19-Azure). 
 
@@ -230,7 +230,7 @@ model = best_run.register_model(model_name = model_name,
 ```
 ### 3.2 Implantação do modelo
 
-Depois de salvar o melhor modelo, podemos implantá-lo com a classe [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109). InferenceConfig representa as configurações de configuração para um ambiente personalizado usado para implantação. A classe [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) representa um modelo de aprendizado de máquina implantado como um endpoint de serviço web em Azure Container Instances. Um serviço implantado é criado a partir de um modelo, script e arquivos associados. O serviço web resultante é um endpoint HTTP balanceado com uma API REST. Você pode enviar dados para essa API e receber a previsão retornada pelo modelo.
+Depois de salvar o melhor modelo, podemos implantá-lo com a classe [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109). InferenceConfig representa as configurações de configuração para um ambiente personalizado usado para implantação. A classe [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) representa um modelo de aprendizado de máquina implantado como um endpoint de serviço web em Azure Container Instances. Um serviço implantado é criado a partir de um modelo, script e arquivos associados. O serviço web resultante é um endpoint HTTP balanceado com uma API REST. Você pode enviar dados para esta API e receber a previsão retornada pelo modelo.
 
 O modelo é implantado usando o método [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
@@ -279,11 +279,11 @@ data = {
 
 test_sample = str.encode(json.dumps(data))
 ```
-E então pode enviar essa entrada para seu modelo para obter a previsão:
+E então pode enviar esta entrada para seu modelo para obter a previsão:
 ```python
 response = aci_service.run(input_data=test_sample)
 response
-```  
+```
 Isso deve gerar `'{"result": [false]}'`. Isso significa que o input do paciente que enviamos para o endpoint gerou a previsão `false`, o que indica que essa pessoa provavelmente não terá um ataque cardíaco.
 
 Parabéns! Você acabou de consumir o modelo implantado e treinado no Azure ML com o Azure ML SDK!
@@ -296,11 +296,11 @@ Há muitas outras coisas que você pode fazer com o SDK, infelizmente, não pode
 
 **DICA:** Acesse a [documentação do SDK](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) e digite palavras-chave na barra de pesquisa, como "Pipeline". Você deve encontrar a classe `azureml.pipeline.core.Pipeline` nos resultados da pesquisa.
 
-## [Quiz pós-aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/37)
+## [Quiz pós-aula](https://ff-quizzes.netlify.app/en/ds/)
 
-## Revisão e Estudo Individual
+## Revisão e Autoestudo
 
-Nesta lição, você aprendeu como treinar, implantar e consumir um modelo para prever o risco de insuficiência cardíaca com o Azure ML SDK na nuvem. Confira esta [documentação](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) para mais informações sobre o Azure ML SDK. Tente criar seu próprio modelo com o Azure ML SDK.
+Nesta lição, você aprendeu como treinar, implantar e consumir um modelo para prever o risco de insuficiência cardíaca com o Azure ML SDK na nuvem. Confira esta [documentação](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) para obter mais informações sobre o Azure ML SDK. Tente criar seu próprio modelo com o Azure ML SDK.
 
 ## Tarefa
 

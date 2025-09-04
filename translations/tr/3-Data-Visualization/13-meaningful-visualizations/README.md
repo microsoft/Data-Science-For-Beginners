@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "4ec4747a9f4f7d194248ea29903ae165",
-  "translation_date": "2025-08-28T11:14:07+00:00",
+  "original_hash": "0b380bb6d34102bb061eb41de23d9834",
+  "translation_date": "2025-09-04T18:13:25+00:00",
   "source_file": "3-Data-Visualization/13-meaningful-visualizations/README.md",
   "language_code": "tr"
 }
@@ -13,15 +13,15 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Anlamlı Görselleştirmeler - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-> "Veriyi yeterince işkence ederseniz, her şeyi itiraf eder." -- [Ronald Coase](https://en.wikiquote.org/wiki/Ronald_Coase)
+> "Veriyi yeterince işkenceye maruz bırakırsanız, her şeyi itiraf eder" -- [Ronald Coase](https://en.wikiquote.org/wiki/Ronald_Coase)
 
-Bir veri bilimcisinin temel becerilerinden biri, sahip olduğunuz soruları yanıtlamaya yardımcı olacak anlamlı bir veri görselleştirmesi oluşturma yeteneğidir. Verilerinizi görselleştirmeden önce, önceki derslerde olduğu gibi temizlenmiş ve hazırlanmış olduğundan emin olmanız gerekir. Bundan sonra, verileri en iyi şekilde nasıl sunacağınızı belirlemeye başlayabilirsiniz.
+Bir veri bilimcisinin temel becerilerinden biri, sahip olduğunuz soruları yanıtlamaya yardımcı olan anlamlı bir veri görselleştirmesi oluşturma yeteneğidir. Verilerinizi görselleştirmeden önce, önceki derslerde olduğu gibi temizlenmiş ve hazırlanmış olduğundan emin olmanız gerekir. Bundan sonra, veriyi en iyi şekilde nasıl sunacağınızı belirlemeye başlayabilirsiniz.
 
-Bu derste şunları gözden geçireceksiniz:
+Bu derste şunları inceleyeceksiniz:
 
 1. Doğru grafik türünü nasıl seçersiniz
 2. Yanıltıcı grafiklerden nasıl kaçınırsınız
-3. Renklerle nasıl çalışırsınız
+3. Renklerle nasıl çalışılır
 4. Grafiklerinizi okunabilirlik için nasıl tasarlarsınız
 5. Animasyonlu veya 3D grafik çözümleri nasıl oluşturulur
 6. Yaratıcı bir görselleştirme nasıl yapılır
@@ -30,11 +30,11 @@ Bu derste şunları gözden geçireceksiniz:
 
 ## Doğru grafik türünü seçmek
 
-Önceki derslerde, Matplotlib ve Seaborn kullanarak her türlü ilginç veri görselleştirmesi oluşturmayı denediniz. Genel olarak, sorduğunuz soruya uygun [doğru grafik türünü](https://chartio.com/learn/charts/how-to-select-a-data-vizualization/) bu tabloyu kullanarak seçebilirsiniz:
+Önceki derslerde, Matplotlib ve Seaborn kullanarak çeşitli ilginç veri görselleştirmeleri oluşturmayı denediniz. Genel olarak, sorduğunuz soruya uygun [doğru grafik türünü](https://chartio.com/learn/charts/how-to-select-a-data-vizualization/) bu tabloyu kullanarak seçebilirsiniz:
 
 | Yapmanız gereken:          | Kullanmanız gereken:            |
 | -------------------------- | ------------------------------- |
-| Zaman içindeki veri trendlerini göstermek | Çizgi                          |
+| Zaman içinde veri trendlerini göstermek | Çizgi                          |
 | Kategorileri karşılaştırmak | Çubuk, Pasta                    |
 | Toplamları karşılaştırmak   | Pasta, Yığılmış Çubuk           |
 | İlişkileri göstermek        | Dağılım, Çizgi, Facet, Çift Çizgi |
@@ -45,7 +45,7 @@ Bu derste şunları gözden geçireceksiniz:
 
 ## Yanıltıcı grafiklerden kaçınmak
 
-Bir veri bilimci doğru grafik türünü doğru veri için dikkatlice seçse bile, veriler genellikle bir noktayı kanıtlamak için, çoğu zaman verinin kendisini baltalama pahasına, yanıltıcı bir şekilde gösterilebilir. Yanıltıcı grafikler ve infografikler hakkında birçok örnek bulunmaktadır!
+Bir veri bilimcisi doğru grafik türünü doğru veri için dikkatlice seçse bile, veriler genellikle bir noktayı kanıtlamak için, çoğu zaman verinin kendisini baltalama pahasına, yanıltıcı bir şekilde sunulabilir. Yanıltıcı grafikler ve infografiklerin birçok örneği vardır!
 
 [![Alberto Cairo'dan "How Charts Lie"](../../../../translated_images/tornado.9f42168791208f970d6faefc11d1226d7ca89518013b14aa66b1c9edcd7678d2.tr.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
@@ -59,7 +59,7 @@ Bu grafik, X eksenini ters çevirerek tarihe dayalı olarak gerçeğin tam tersi
 
 ![kötü grafik 2](../../../../translated_images/bad-chart-2.c20e36dd4e6f617c0c325878dd421a563885bbf30a394884c147438827254e0e.tr.jpg)
 
-Bu kötü şöhretli örnek, yanıltmak için renk ve ters çevrilmiş Y eksenini kullanır: silah dostu yasaların geçmesinden sonra silah ölümlerinin arttığı sonucuna varmak yerine, göz tam tersinin doğru olduğunu düşünmek için kandırılır:
+Bu kötü şöhretli örnek, yanıltmak için renk ve ters çevrilmiş Y eksenini kullanır: silah dostu yasaların geçmesinden sonra silah ölümlerinin arttığı sonucuna varmak yerine, göz tam tersinin doğru olduğuna inanmak için kandırılır:
 
 ![kötü grafik 3](../../../../translated_images/bad-chart-3.6865d0afac4108d737558d90a61547d23a8722896397ec792264ee51a1be4be5.tr.jpg)
 
@@ -67,7 +67,7 @@ Bu garip grafik, oranların nasıl manipüle edilebileceğini, komik bir şekild
 
 ![kötü grafik 4](../../../../translated_images/bad-chart-4.68cfdf4011b454471053ee1231172747e1fbec2403b4443567f1dc678134f4f2.tr.jpg)
 
-Karşılaştırılamaz olanı karşılaştırmak, başka bir gölgeli hiledir. [Harika bir web sitesi](https://tylervigen.com/spurious-correlations), Maine'deki boşanma oranı ile margarin tüketimi gibi şeyleri ilişkilendiren 'uydurma korelasyonlar' hakkında 'gerçekler' sergiliyor. Bir Reddit grubu ayrıca [verilerin çirkin kullanımlarını](https://www.reddit.com/r/dataisugly/top/?t=all) toplar.
+Karşılaştırılamaz olanı karşılaştırmak, başka bir gölgeli hiledir. [Harika bir web sitesi](https://tylervigen.com/spurious-correlations), Maine'deki boşanma oranı ile margarin tüketimi gibi şeyleri ilişkilendiren 'uydurma korelasyonlar' gösteren 'gerçekler' ile ilgilidir. Bir Reddit grubu ayrıca [verilerin çirkin kullanımlarını](https://www.reddit.com/r/dataisugly/top/?t=all) toplar.
 
 Gözün yanıltıcı grafiklerle ne kadar kolay kandırılabileceğini anlamak önemlidir. Veri bilimcisinin niyeti iyi olsa bile, çok fazla kategori gösteren bir pasta grafiği gibi kötü bir grafik türü seçimi yanıltıcı olabilir.
 
@@ -94,7 +94,7 @@ Grafiğiniz için renk seçerken dikkatli olun, çünkü renk istemediğiniz bir
 
 ## Grafiklerinizi okunabilirlik için tasarlamak
 
-Grafikler, okunabilir olmadıklarında anlamlı değildir! Verilerinizle iyi ölçeklenecek şekilde grafiğinizin genişliğini ve yüksekliğini tasarlamayı düşünmek için bir an durun. Bir değişkenin (örneğin tüm 50 eyalet) görüntülenmesi gerekiyorsa, mümkünse Y ekseninde dikey olarak gösterin, böylece yatay kaydırmalı bir grafik oluşmasından kaçının.
+Grafikler, okunabilir olmadıklarında anlamlı değildir! Verilerinizle iyi ölçeklenmesi için grafiğinizin genişliğini ve yüksekliğini tasarlamayı düşünmek için bir an durun. Bir değişkenin (örneğin tüm 50 eyalet) görüntülenmesi gerekiyorsa, mümkünse Y ekseninde dikey olarak gösterin, böylece yatay kaydırmalı bir grafik oluşmasın.
 
 Eksenlerinizi etiketleyin, gerekirse bir açıklama sağlayın ve verilerin daha iyi anlaşılması için ipuçları sunun.
 
@@ -104,21 +104,21 @@ Verileriniz X ekseninde metinsel ve ayrıntılıysa, daha iyi okunabilirlik içi
 
 ## Animasyon ve 3D grafik gösterimi
 
-Bugün en iyi veri görselleştirmelerinden bazıları animasyonludur. Shirley Wu, D3 ile yapılan '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)' gibi harika görselleştirmeler yapmıştır; burada her çiçek bir filmin görselleştirmesidir. Guardian için başka bir örnek 'bussed out', NYC'nin evsiz sorununu insanları şehirden otobüsle çıkararak nasıl ele aldığını göstermek için görselleştirmeleri Greensock ve D3 ile birleştiren etkileşimli bir deneyimdir.
+Bugün en iyi veri görselleştirmelerinden bazıları animasyonludur. Shirley Wu, D3 ile yapılan '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)' gibi harika görselleştirmeler yapmıştır, burada her çiçek bir filmin görselleştirilmesidir. Guardian için başka bir örnek 'bussed out', NYC'nin evsiz sorununu insanları şehirden otobüsle çıkararak nasıl ele aldığını göstermek için görselleştirmeleri Greensock ve D3 ile birleştiren etkileşimli bir deneyimdir.
 
 ![busing](../../../../translated_images/busing.7b9e3b41cd4b981c6d63922cd82004cc1cf18895155536c1d98fcc0999bdd23e.tr.png)
 
-> "Bussed Out: Amerika Evsizlerini Nasıl Hareket Ettiriyor" [Guardian'dan](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Görselleştirmeler Nadieh Bremer & Shirley Wu tarafından.
+> "Bussed Out: Amerika Evsizlerini Nasıl Hareket Ettiriyor" [Guardian'dan](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Görselleştirmeler Nadieh Bremer & Shirley Wu tarafından
 
 Bu ders, bu güçlü görselleştirme kütüphanelerini öğretmek için derinlemesine gitmek için yetersiz olsa da, D3'ü bir Vue.js uygulamasında deneyerek "Tehlikeli İlişkiler" kitabının animasyonlu bir sosyal ağ görselleştirmesini oluşturmayı deneyebilirsiniz.
 
-> "Les Liaisons Dangereuses" bir mektup romanıdır, yani bir dizi mektup olarak sunulan bir romandır. 1782'de Choderlos de Laclos tarafından yazılmıştır ve 18. yüzyılın sonlarında Fransız aristokrasisinin iki rakip kahramanı olan Vicomte de Valmont ve Marquise de Merteuil'in acımasız, ahlaki açıdan yozlaşmış sosyal manevralarını anlatır. Her ikisi de sonunda yok olur, ancak büyük bir sosyal zarar vermeden önce değil. Roman, çevrelerindeki çeşitli insanlara yazılan, intikam planlayan veya sadece sorun çıkarmak için yazılan bir dizi mektup olarak gelişir. Bu mektupların görselleştirmesini oluşturarak anlatının anahtar figürlerini görsel olarak keşfedin.
+> "Les Liaisons Dangereuses" bir mektup romanıdır, yani bir dizi mektup olarak sunulan bir romandır. 1782'de Choderlos de Laclos tarafından yazılmıştır ve 18. yüzyılın sonlarında Fransız aristokrasisinin iki rakip kahramanı olan Vicomte de Valmont ve Marquise de Merteuil'in acımasız, ahlaki açıdan yozlaşmış sosyal manevralarını anlatır. Her ikisi de sonunda yok olur, ancak büyük bir sosyal zarar vermeden önce değil. Roman, çevrelerindeki çeşitli insanlara yazılan, intikam planlayan veya sadece sorun çıkarmak için yazılan bir dizi mektup olarak gelişir. Bu mektupların görselleştirmesini yaparak anlatının anahtar figürlerini görsel olarak keşfedin.
 
 Bir sosyal ağın animasyonlu bir görünümünü gösterecek bir web uygulaması tamamlayacaksınız. Bu uygulama, Vue.js ve D3 kullanarak bir [ağ görselleştirmesi](https://github.com/emiliorizzo/vue-d3-network) oluşturmak için tasarlanmış bir kütüphane kullanır. Uygulama çalışırken, ekran üzerindeki düğümleri çekerek verileri karıştırabilirsiniz.
 
 ![liaisons](../../../../translated_images/liaisons.7b440b28f6d07ea430244fdf1fc4c64ff48f473f143b8e921846eda1c302aeba.tr.png)
 
-## Proje: D3.js kullanarak bir ağ göstermek için grafik oluşturun
+## Proje: D3.js kullanarak bir ağ göstermek için bir grafik oluşturun
 
 > Bu ders klasörü, referansınız için tamamlanmış projeyi bulabileceğiniz bir `solution` klasörü içerir.
 
@@ -152,23 +152,23 @@ Uygulamanızı terminalden çalıştırın (npm run serve) ve görselleştirmeni
 
 ## 🚀 Zorluk
 
-İnternette yanıltıcı görselleştirmeleri keşfetmek için bir tur yapın. Yazar kullanıcıyı nasıl kandırıyor ve bu kasıtlı mı? Görselleştirmeleri düzeltmeyi deneyin ve nasıl görünmeleri gerektiğini gösterin.
+İnternette yanıltıcı görselleştirmeleri keşfetmek için bir tur yapın. Yazar kullanıcıyı nasıl kandırıyor ve bu kasıtlı mı? Görselleştirmeleri düzeltmeye çalışarak nasıl görünmeleri gerektiğini gösterin.
 
-## [Ders Sonrası Test](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/25)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ds/)
 
 ## İnceleme ve Kendi Kendine Çalışma
 
-Yanıltıcı veri görselleştirme hakkında bazı makaleler okuyun:
+Yanıltıcı veri görselleştirme hakkında okumak için bazı makaleler:
 
 https://gizmodo.com/how-to-lie-with-data-visualization-1563576606
 
 http://ixd.prattsi.org/2017/12/visual-lies-usability-in-deceptive-data-visualizations/
 
-Tarihi varlıklar ve eserler için bu ilginç görselleştirmelere bir göz atın:
+Tarihi varlıklar ve eserler için bu ilginç görselleştirmelere göz atın:
 
 https://handbook.pubpub.org/
 
-Animasyonun görselleştirmelerinizi nasıl geliştirebileceğiyle ilgili bu makaleye göz atın:
+Animasyonun görselleştirmelerinizi nasıl geliştirebileceği hakkında bu makaleye göz atın:
 
 https://medium.com/@EvanSinar/use-animation-to-supercharge-data-visualization-cd905a882ad4
 
@@ -179,4 +179,4 @@ https://medium.com/@EvanSinar/use-animation-to-supercharge-data-visualization-cd
 ---
 
 **Feragatname**:  
-Bu belge, [Co-op Translator](https://github.com/Azure/co-op-translator) adlı yapay zeka çeviri hizmeti kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlama veya yanlış yorumlamalardan sorumlu değiliz.
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluğu sağlamak için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

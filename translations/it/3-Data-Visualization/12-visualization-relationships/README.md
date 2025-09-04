@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "cad419b574d5c35eaa417e9abfdcb0c8",
-  "translation_date": "2025-08-28T11:15:22+00:00",
+  "original_hash": "b29e427401499e81f4af55a8c4afea76",
+  "translation_date": "2025-09-04T18:01:09+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "it"
 }
@@ -15,9 +15,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 Continuando con il focus sulla natura della nostra ricerca, scopriamo visualizzazioni interessanti per mostrare le relazioni tra i vari tipi di miele, secondo un dataset derivato dal [Dipartimento dell'Agricoltura degli Stati Uniti](https://www.nass.usda.gov/About_NASS/index.php).
 
-Questo dataset di circa 600 elementi mostra la produzione di miele in molti stati americani. Ad esempio, puoi osservare il numero di colonie, la resa per colonia, la produzione totale, le scorte, il prezzo per libbra e il valore del miele prodotto in un determinato stato dal 1998 al 2012, con una riga per anno per ogni stato.
+Questo dataset di circa 600 elementi mostra la produzione di miele in molti stati americani. Ad esempio, è possibile osservare il numero di colonie, la resa per colonia, la produzione totale, le scorte, il prezzo per libbra e il valore del miele prodotto in un determinato stato dal 1998 al 2012, con una riga per anno per ogni stato.
 
-Sarà interessante visualizzare la relazione tra la produzione annuale di un determinato stato e, ad esempio, il prezzo del miele in quello stato. In alternativa, potresti visualizzare la relazione tra la resa di miele per colonia nei vari stati. Questo intervallo di anni copre il devastante 'CCD' o 'Colony Collapse Disorder', osservato per la prima volta nel 2006 (http://npic.orst.edu/envir/ccd.html), rendendo questo dataset particolarmente significativo da studiare. 🐝
+Sarà interessante visualizzare la relazione tra la produzione annuale di un determinato stato e, ad esempio, il prezzo del miele in quello stato. In alternativa, si potrebbe visualizzare la relazione tra la resa di miele per colonia nei vari stati. Questo intervallo di anni copre il devastante 'CCD' o 'Colony Collapse Disorder', osservato per la prima volta nel 2006 (http://npic.orst.edu/envir/ccd.html), rendendo questo dataset particolarmente significativo da studiare. 🐝
 
 ## [Quiz pre-lezione](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/22)
 
@@ -25,7 +25,7 @@ In questa lezione, puoi utilizzare Seaborn, che hai già usato in precedenza, co
 
 ## Scatterplot
 
-Usa uno scatterplot per mostrare come il prezzo del miele si è evoluto anno dopo anno, per stato. Seaborn, utilizzando `relplot`, raggruppa comodamente i dati per stato e visualizza i punti dati sia per dati categorici che numerici.
+Utilizza uno scatterplot per mostrare come il prezzo del miele si è evoluto anno dopo anno, per stato. Seaborn, utilizzando `relplot`, raggruppa comodamente i dati per stato e visualizza i punti dati sia per dati categorici che numerici.
 
 Iniziamo importando i dati e Seaborn:
 
@@ -36,7 +36,7 @@ import seaborn as sns
 honey = pd.read_csv('../../data/honey.csv')
 honey.head()
 ```
-Noterai che i dati sul miele contengono diverse colonne interessanti, tra cui anno e prezzo per libbra. Esploriamo questi dati, raggruppati per stato americano:
+Noterai che i dati sul miele hanno diverse colonne interessanti, tra cui anno e prezzo per libbra. Esploriamo questi dati, raggruppati per stato americano:
 
 | stato | numcol | yieldpercol | totalprod | stocks   | priceperlb | prodvalue | anno |
 | ----- | ------ | ----------- | --------- | -------- | ---------- | --------- | ---- |
@@ -55,14 +55,14 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 
 Ora, mostra gli stessi dati con una palette di colori che richiama il miele per evidenziare come il prezzo evolve nel corso degli anni. Puoi farlo aggiungendo un parametro 'hue' per mostrare il cambiamento anno dopo anno:
 
-> ✅ Scopri di più sulle [palette di colori che puoi usare in Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) - prova una bellissima palette arcobaleno!
+> ✅ Scopri di più sulle [palette di colori che puoi utilizzare in Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) - prova una bellissima palette arcobaleno!
 
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
 ![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.it.png)
 
-Con questo cambiamento di colori, puoi vedere chiaramente una forte progressione nel corso degli anni in termini di prezzo del miele per libbra. Infatti, se guardi un campione di dati per verificare (scegli un determinato stato, ad esempio l'Arizona), puoi osservare un pattern di aumento del prezzo anno dopo anno, con poche eccezioni:
+Con questo cambiamento di colori, puoi vedere chiaramente una forte progressione nel corso degli anni in termini di prezzo del miele per libbra. Infatti, se guardi un campione di dati per verificare (scegli un determinato stato, ad esempio l'Arizona), puoi osservare un pattern di aumento dei prezzi anno dopo anno, con poche eccezioni:
 
 | stato | numcol | yieldpercol | totalprod | stocks  | priceperlb | prodvalue | anno |
 | ----- | ------ | ----------- | --------- | ------- | ---------- | --------- | ---- |
@@ -82,7 +82,7 @@ Con questo cambiamento di colori, puoi vedere chiaramente una forte progressione
 | AZ    | 23000  | 53          | 1219000   | 427000  | 1.55       | 1889000   | 2011 |
 | AZ    | 22000  | 46          | 1012000   | 253000  | 1.79       | 1811000   | 2012 |
 
-Un altro modo per visualizzare questa progressione è utilizzare la dimensione, anziché il colore. Per gli utenti daltonici, questa potrebbe essere un'opzione migliore. Modifica la tua visualizzazione per mostrare un aumento del prezzo attraverso un aumento della circonferenza dei punti:
+Un altro modo per visualizzare questa progressione è utilizzare la dimensione, anziché il colore. Per gli utenti daltonici, questa potrebbe essere un'opzione migliore. Modifica la tua visualizzazione per mostrare l'aumento del prezzo attraverso un aumento della circonferenza dei punti:
 
 ```python
 sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspect=.5);
@@ -108,7 +108,7 @@ Risposta: Sì, con alcune eccezioni intorno all'anno 2003:
 
 ✅ Poiché Seaborn aggrega i dati attorno a una linea, visualizza "le misurazioni multiple per ogni valore x tracciando la media e l'intervallo di confidenza al 95% attorno alla media". [Fonte](https://seaborn.pydata.org/tutorial/relational.html). Questo comportamento dispendioso in termini di tempo può essere disabilitato aggiungendo `ci=None`.
 
-Domanda: Bene, nel 2003 possiamo anche vedere un picco nella fornitura di miele? E se guardassi la produzione totale anno dopo anno?
+Domanda: Bene, nel 2003 possiamo anche vedere un picco nella disponibilità di miele? E se guardassi la produzione totale anno dopo anno?
 
 ```python
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
@@ -116,7 +116,7 @@ sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 
 ![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.it.png)
 
-Risposta: Non proprio. Se guardi la produzione totale, sembra che sia effettivamente aumentata in quell'anno particolare, anche se, in generale, la quantità di miele prodotta è in calo durante questi anni.
+Risposta: Non proprio. Se guardi la produzione totale, sembra che sia effettivamente aumentata in quell'anno particolare, anche se generalmente parlando la quantità di miele prodotta è in calo durante questi anni.
 
 Domanda: In tal caso, cosa potrebbe aver causato quel picco nel prezzo del miele intorno al 2003?
 
@@ -136,7 +136,7 @@ sns.relplot(
     col_wrap=3,
     kind="line"
 ```
-In questa visualizzazione, puoi confrontare la resa per colonia e il numero di colonie anno dopo anno, fianco a fianco con un wrap impostato a 3 per le colonne:
+In questa visualizzazione, puoi confrontare la resa per colonia e il numero di colonie anno dopo anno, affiancati con un wrap impostato a 3 per le colonne:
 
 ![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.it.png)
 
@@ -163,19 +163,20 @@ ax.figure.legend();
 ```
 ![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.it.png)
 
-Sebbene nulla salti all'occhio intorno all'anno 2003, questo ci permette di concludere la lezione con una nota un po' più positiva: mentre il numero di colonie è complessivamente in calo, il numero di colonie si sta stabilizzando anche se la loro resa per colonia è in diminuzione.
+Sebbene nulla salti all'occhio intorno all'anno 2003, ci permette di concludere questa lezione con una nota un po' più positiva: mentre il numero di colonie è generalmente in calo, il numero di colonie si sta stabilizzando anche se la loro resa per colonia è in diminuzione.
 
 Forza, api, forza!
 
 🐝❤️
 ## 🚀 Sfida
 
-In questa lezione, hai imparato un po' di più su altri usi degli scatterplot e delle griglie a linee, incluse le griglie di faccette. Sfida te stesso a creare una griglia di faccette utilizzando un dataset diverso, magari uno che hai usato prima di queste lezioni. Nota quanto tempo impiegano per essere create e quanto devi essere attento al numero di griglie che devi disegnare utilizzando queste tecniche.
-## [Quiz post-lezione](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/23)
+In questa lezione, hai imparato un po' di più su altri usi degli scatterplot e delle griglie a linee, incluse le griglie di faccette. Sfida te stesso a creare una griglia di faccette utilizzando un dataset diverso, magari uno che hai usato prima di queste lezioni. Nota quanto tempo impiegano a essere create e come devi prestare attenzione al numero di griglie che devi disegnare utilizzando queste tecniche.
+
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Revisione & Studio Autonomo
 
-I grafici a linee possono essere semplici o piuttosto complessi. Leggi un po' la [documentazione di Seaborn](https://seaborn.pydata.org/generated/seaborn.lineplot.html) sui vari modi in cui puoi costruirli. Prova a migliorare i grafici a linee che hai costruito in questa lezione con altri metodi elencati nella documentazione.
+I grafici a linee possono essere semplici o piuttosto complessi. Fai un po' di lettura nella [documentazione di Seaborn](https://seaborn.pydata.org/generated/seaborn.lineplot.html) sui vari modi in cui puoi costruirli. Prova a migliorare i grafici a linee che hai costruito in questa lezione con altri metodi elencati nella documentazione.
 ## Compito
 
 [Immergiti nell'alveare](assignment.md)
@@ -183,4 +184,4 @@ I grafici a linee possono essere semplici o piuttosto complessi. Leggi un po' la
 ---
 
 **Disclaimer**:  
-Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si consiglia una traduzione professionale eseguita da un traduttore umano. Non siamo responsabili per eventuali fraintendimenti o interpretazioni errate derivanti dall'uso di questa traduzione.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

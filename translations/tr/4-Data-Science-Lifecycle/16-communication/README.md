@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "1ac43023e78bfe76481a32c878ace516",
-  "translation_date": "2025-08-28T11:01:11+00:00",
+  "original_hash": "fcac117b5c4793907fb76f55c98fd40e",
+  "translation_date": "2025-09-04T18:11:01+00:00",
   "source_file": "4-Data-Science-Lifecycle/16-communication/README.md",
   "language_code": "tr"
 }
@@ -13,35 +13,35 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Veri Bilimi Yaşam Döngüsü: İletişim - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [Ders Öncesi Testi](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/30)
+## [Ders Öncesi Test](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/30)
 
-Yukarıdaki Ders Öncesi Testi ile gelecek konular hakkındaki bilginizi test edin!
+Yukarıdaki Ders Öncesi Test ile gelecek konular hakkındaki bilginizi test edin!
 
 # Giriş
 
 ### İletişim Nedir?
-Bu derse iletişim kavramını tanımlayarak başlayalım. **İletişim, bilgi aktarmak veya paylaşmaktır.** Bu bilgi; fikirler, düşünceler, duygular, mesajlar, gizli sinyaller, veriler – bir **_göndericinin_** (bilgiyi gönderen kişi) bir **_alıcıya_** (bilgiyi alan kişi) aktarmak istediği her şey olabilir. Bu derste, göndericilere iletişimciler, alıcılara ise hedef kitle diyeceğiz.
+Bu derse iletişim kavramını tanımlayarak başlayalım. **İletişim, bilgi aktarmak veya paylaşmaktır.** Bilgi, fikirler, düşünceler, duygular, mesajlar, gizli sinyaller, veriler – bir **_göndericinin_** (bilgi gönderen kişi) bir **_alıcıya_** (bilgi alan kişi) anlamasını istediği her şey olabilir. Bu derste, göndericilere iletişimciler, alıcılara ise hedef kitle olarak atıfta bulunacağız.
 
 ### Veri İletişimi ve Hikaye Anlatımı
-İletişim kurarken amacın bilgi aktarmak veya paylaşmak olduğunu anlıyoruz. Ancak veri iletişimi yaparken amacınız sadece rakamları hedef kitlenize iletmek olmamalıdır. Amacınız, verilerinizin oluşturduğu bir hikayeyi anlatmak olmalıdır – etkili veri iletişimi ve hikaye anlatımı el ele gider. Hedef kitleniz, verdiğiniz bir rakamdan ziyade anlattığınız bir hikayeyi hatırlama olasılığı daha yüksektir. Bu derste, verilerinizi daha etkili bir şekilde iletmek için hikaye anlatımını nasıl kullanabileceğinizi ele alacağız.
+İletişim kurarken amacın bilgi aktarmak veya paylaşmak olduğunu anlıyoruz. Ancak veri iletişimi yaparken amacınız sadece rakamları hedef kitlenize iletmek olmamalıdır. Amacınız, verilerinizden ilham alan bir hikaye anlatmak olmalıdır - etkili veri iletişimi ve hikaye anlatımı birbiriyle iç içedir. Hedef kitleniz, verdiğiniz bir rakamdan çok anlattığınız bir hikayeyi hatırlama olasılığı daha yüksektir. Bu derste, verilerinizi daha etkili bir şekilde iletmek için hikaye anlatımını nasıl kullanabileceğinizi ele alacağız.
 
 ### İletişim Türleri
 Bu ders boyunca iki farklı iletişim türü tartışılacaktır: Tek Yönlü İletişim ve Çift Yönlü İletişim.
 
-**Tek yönlü iletişim**, bir göndericinin bir alıcıya bilgi gönderdiği, ancak geri bildirim veya yanıt almadığı durumlarda gerçekleşir. Tek yönlü iletişim örneklerini her gün görürüz – toplu e-postalarda, haberlerin en son gelişmeleri aktardığı anlarda veya bir televizyon reklamının ürünlerini neden harika bulmanız gerektiğini anlattığı durumlarda. Bu örneklerin her birinde, gönderici bilgi alışverişi arayışında değildir. Sadece bilgi aktarmayı veya iletmeyi amaçlar.
+**Tek yönlü iletişim**, bir göndericinin bir alıcıya bilgi gönderdiği, ancak herhangi bir geri bildirim veya yanıt almadığı durumlarda gerçekleşir. Tek yönlü iletişim örneklerini her gün görüyoruz – toplu e-postalarda, haberlerin en son hikayeleri aktardığı durumlarda veya bir televizyon reklamı çıktığında ve ürünlerinin neden harika olduğunu anlattığında. Bu durumların her birinde, gönderici bilgi alışverişi aramıyor. Sadece bilgi aktarmayı veya iletmeyi amaçlıyor.
 
-**Çift yönlü iletişim**, tüm tarafların hem gönderici hem de alıcı olarak hareket ettiği durumlarda gerçekleşir. Bir gönderici, bir alıcıya iletişim kurarak başlar ve alıcı geri bildirim veya yanıt verir. Çift yönlü iletişim, genellikle iletişimden bahsettiğimizde aklımıza gelen şeydir. İnsanların yüz yüze, telefon görüşmesi, sosyal medya veya mesajlaşma yoluyla bir konuşma içinde olduğunu düşünürüz.
+**Çift yönlü iletişim**, tüm tarafların hem gönderici hem de alıcı olarak hareket ettiği durumlarda gerçekleşir. Bir gönderici, bir alıcıya iletişim kurarak başlar ve alıcı geri bildirim veya yanıt verir. Çift yönlü iletişim, genellikle iletişimden bahsettiğimizde düşündüğümüz şeydir. Genellikle bir kişinin yüz yüze konuşması, telefon görüşmesi, sosyal medya veya mesajlaşma yoluyla iletişim kurması olarak düşünülür.
 
-Veri iletişimi yaparken, tek yönlü iletişim kullanacağınız durumlar (örneğin, bir konferansta sunum yapmak veya doğrudan soru sorulmayacak büyük bir gruba hitap etmek) ve çift yönlü iletişim kullanacağınız durumlar (örneğin, birkaç paydaşı ikna etmek veya bir takım arkadaşınızı yeni bir şey inşa etmek için zaman ve çaba harcamaya ikna etmek) olacaktır.
+Veri iletişimi yaparken, tek yönlü iletişim kullanacağınız durumlar (örneğin bir konferansta sunum yapmak veya doğrudan soru sorulmayacak büyük bir gruba hitap etmek) ve çift yönlü iletişim kullanacağınız durumlar (örneğin birkaç paydaşı ikna etmek veya bir takım arkadaşını yeni bir şey inşa etmek için zaman ve çaba harcamaya ikna etmek) olacaktır.
 
 # Etkili İletişim
 
-### Bir İletişimci Olarak Sorumluluklarınız
-İletişim kurarken, alıcılarınızın sizin aktarmak istediğiniz bilgiyi aldığından emin olmak sizin sorumluluğunuzdadır. Veri iletişimi yaparken, alıcılarınızın sadece rakamları değil, verilerinizin oluşturduğu bir hikayeyi anlamasını istersiniz. İyi bir veri iletişimcisi, iyi bir hikaye anlatıcısıdır.
+### İletişimci Olarak Sorumluluklarınız
+İletişim kurarken, alıcılarınızın istediğiniz bilgiyi aldığından emin olmak sizin görevinizdir. Veri iletişimi yaparken, alıcılarınızın sadece rakamları değil, verilerinizden ilham alan bir hikayeyi almasını istersiniz. İyi bir veri iletişimcisi, iyi bir hikaye anlatıcısıdır.
 
-Peki, verilerle nasıl hikaye anlatılır? Bunun sonsuz yolu vardır – ancak bu derste ele alacağımız 6 yöntem aşağıda sıralanmıştır:
+Verilerle nasıl hikaye anlatırsınız? Sonsuz yollar vardır – ancak bu derste ele alacağımız 6 yol aşağıda verilmiştir:
 1. Hedef Kitlenizi, Kanalınızı ve İletişim Yönteminizi Anlayın
-2. Sonu Düşünerek Başlayın
+2. Sonu Başlangıçta Belirleyin
 3. Gerçek Bir Hikaye Gibi Yaklaşın
 4. Anlamlı Kelimeler ve İfadeler Kullanın
 5. Duyguları Kullanın
@@ -49,127 +49,127 @@ Peki, verilerle nasıl hikaye anlatılır? Bunun sonsuz yolu vardır – ancak b
 Bu stratejilerin her biri aşağıda daha ayrıntılı olarak açıklanmıştır.
 
 ### 1. Hedef Kitlenizi, Kanalınızı ve İletişim Yönteminizi Anlayın
-Ailenizle iletişim kurma şekliniz, arkadaşlarınızla iletişim kurma şeklinizden muhtemelen farklıdır. Muhtemelen konuştuğunuz kişilerin daha iyi anlayacağı farklı kelimeler ve ifadeler kullanırsınız. Veri iletişimi yaparken de aynı yaklaşımı benimsemelisiniz. Kime iletişim kurduğunuzu düşünün. Onların hedeflerini ve açıklamakta olduğunuz durumla ilgili bağlamlarını düşünün.
+Aile üyelerinizle iletişim kurma şekliniz muhtemelen arkadaşlarınızla iletişim kurma şeklinizden farklıdır. Muhtemelen konuştuğunuz kişilerin daha iyi anlayacağı farklı kelimeler ve ifadeler kullanıyorsunuzdur. Veri iletişimi yaparken de aynı yaklaşımı benimsemelisiniz. Kime iletişim kurduğunuzu düşünün. Onların hedeflerini ve açıklamakta olduğunuz durumla ilgili bağlamlarını düşünün.
 
-Hedef kitlenizin çoğunu bir kategoriye dahil edebilirsiniz. _Harvard Business Review_ makalesinde, “[How to Tell a Story with Data](http://blogs.hbr.org/2013/04/how-to-tell-a-story-with-data/)” (Verilerle Nasıl Hikaye Anlatılır), Dell Yöneticisi Jim Stikeleather beş hedef kitle kategorisi tanımlar:
+Hedef kitlenizin çoğunu bir kategori içinde gruplandırabilirsiniz. _Harvard Business Review_ makalesinde, “[Verilerle Nasıl Hikaye Anlatılır](http://blogs.hbr.org/2013/04/how-to-tell-a-story-with-data/)” Dell Executive Strategist Jim Stikeleather, beş hedef kitle kategorisi tanımlıyor:
 
 - **Acemi**: Konuya ilk kez maruz kalan, ancak aşırı basitleştirme istemeyen
-- **Genel**: Konuya aşina, ancak genel bir anlayış ve ana temalar arayan
-- **Yönetici**: Ayrıntılarla birlikte karmaşıklıkların ve ilişkilerin derinlemesine, uygulanabilir bir şekilde anlaşılmasını isteyen
-- **Uzman**: Daha fazla keşif ve daha az hikaye anlatımı isteyen, ayrıntılara önem veren
-- **Üst Düzey Yönetici**: Sadece olasılıkların ağırlıklı sonuçlarını ve çıkarımlarını anlamak için zamanı olan
+- **Genelci**: Konuya aşina olan, ancak genel bir anlayış ve ana temalar arayan
+- **Yönetici**: Ayrıntılara erişimle birlikte karmaşıklıklar ve ilişkiler hakkında derinlemesine, uygulanabilir bir anlayış arayan
+- **Uzman**: Daha fazla keşif ve daha az hikaye anlatımı, büyük ayrıntılarla
+- **Yönetici**: Sadece anlam ve olasılıkların sonuçlarını hızlıca kavrayacak zamanı olan
 
 Bu kategoriler, verilerinizi hedef kitlenize nasıl sunacağınızı şekillendirebilir.
 
 Hedef kitlenizin kategorisini düşünmenin yanı sıra, onlarla iletişim kurmak için kullandığınız kanalı da göz önünde bulundurmalısınız. Bir not veya e-posta yazmak ile bir toplantı yapmak veya bir konferansta sunum yapmak arasında yaklaşımınız biraz farklı olmalıdır.
 
-Hedef kitlenizi anlamanın yanı sıra, onlarla nasıl iletişim kuracağınızı (tek yönlü iletişim mi yoksa çift yönlü mü) bilmek de kritik öneme sahiptir.
+Hedef kitlenizi anlamanın yanı sıra, onlarla nasıl iletişim kuracağınızı (tek yönlü iletişim mi yoksa çift yönlü mü kullanacağınızı) bilmek de kritik öneme sahiptir.
 
-Eğer çoğunluğu Acemi olan bir hedef kitleyle tek yönlü iletişim kuruyorsanız, önce hedef kitlenizi eğitmeniz ve onlara uygun bağlamı sağlamanız gerekir. Daha sonra verilerinizi sunmalı, bu verilerin ne anlama geldiğini ve neden önemli olduğunu açıklamalısınız. Bu durumda, netlik sağlamak için odaklanmanız gerekebilir, çünkü hedef kitleniz size doğrudan soru soramayacaktır.
+Eğer çoğunlukla Acemi bir hedef kitleyle iletişim kuruyorsanız ve tek yönlü iletişim kullanıyorsanız, önce hedef kitlenizi eğitmeniz ve onlara uygun bağlamı sağlamanız gerekir. Ardından verilerinizi sunmalı ve verilerinizin ne anlama geldiğini ve neden önemli olduğunu açıklamalısınız. Bu durumda, netlik sağlamak için odaklanmanız gerekebilir, çünkü hedef kitleniz size doğrudan soru soramayacaktır.
 
-Eğer çoğunluğu Yönetici olan bir hedef kitleyle çift yönlü iletişim kuruyorsanız, hedef kitlenizi eğitmeniz veya onlara çok fazla bağlam sağlamanız gerekmeyebilir. Muhtemelen doğrudan topladığınız veriler ve bu verilerin neden önemli olduğu konusuna geçebilirsiniz. Ancak bu senaryoda, zamanlama ve sunumunuzu kontrol etme konusunda dikkatli olmalısınız. Çift yönlü iletişimde (özellikle “karmaşıklıkların ve ilişkilerin uygulanabilir bir şekilde anlaşılmasını” isteyen Yönetici bir hedef kitleyle) etkileşim sırasında ortaya çıkan sorular, anlatmaya çalıştığınız hikayeyle ilgisiz bir yöne götürebilir. Bu olduğunda, harekete geçip tartışmayı hikayenize geri döndürebilirsiniz.
+Eğer çoğunlukla Yönetici bir hedef kitleyle iletişim kuruyorsanız ve çift yönlü iletişim kullanıyorsanız, hedef kitlenizi eğitmeniz veya onlara fazla bağlam sağlamanız gerekmeyebilir. Muhtemelen doğrudan topladığınız verileri ve neden önemli olduğunu tartışmaya başlayabilirsiniz. Ancak bu senaryoda, zamanlama ve sunumunuzu kontrol etme konusunda dikkatli olmalısınız. Çift yönlü iletişim kullanırken (özellikle "karmaşıklıklar ve ilişkiler hakkında uygulanabilir bir anlayış arayan" Yönetici bir hedef kitleyle), etkileşim sırasında ortaya çıkabilecek sorular, anlatmaya çalıştığınız hikayeyle ilgisi olmayan bir yöne tartışmayı götürebilir. Bu olduğunda, harekete geçebilir ve tartışmayı hikayenize geri döndürebilirsiniz.
 
-### 2. Sonu Düşünerek Başlayın
-Sonu düşünerek başlamak, hedef kitleniz için planladığınız çıkarımları iletişim kurmaya başlamadan önce anlamak anlamına gelir. Hedef kitlenizin neyi anlamasını istediğinizi önceden düşünmek, onların takip edebileceği bir hikaye oluşturmanıza yardımcı olabilir. Sonu düşünerek başlamak, hem tek yönlü hem de çift yönlü iletişim için uygundur.
+### 2. Sonu Başlangıçta Belirleyin
+Sonu başlangıçta belirlemek, hedef kitleniz için istediğiniz sonuçları iletişim kurmaya başlamadan önce anlamak demektir. Hedef kitlenizin önceden neyi anlamasını istediğinizi düşünmek, onların takip edebileceği bir hikaye oluşturmanıza yardımcı olabilir. Sonu başlangıçta belirlemek, hem tek yönlü iletişim hem de çift yönlü iletişim için uygundur.
 
-Sonu düşünerek nasıl başlarsınız? Verilerinizi iletmeden önce, ana çıkarımlarınızı yazın. Daha sonra, verilerinizle anlatmak istediğiniz hikayeyi hazırlarken her adımda kendinize şu soruyu sorun: "Bu, anlatmak istediğim hikayeye nasıl entegre oluyor?"
+Sonu başlangıçta nasıl belirlersiniz? Verilerinizi iletmeden önce, ana sonuçlarınızı yazın. Ardından, verilerinizle anlatmak istediğiniz hikayeyi hazırlarken her adımda kendinize şu soruyu sorun: "Bu, anlatmak istediğim hikayeye nasıl entegre oluyor?"
 
-Dikkat Edin – Sonu düşünerek başlamak ideal olsa da, yalnızca planladığınız çıkarımları destekleyen verileri iletmek istemezsiniz. Bunu yapmak, yalnızca yapmak istediğiniz noktayı destekleyen verileri iletmek ve diğer tüm verileri görmezden gelmek anlamına gelen Seçmece Davranış (Cherry-Picking) olarak adlandırılır.
+Dikkat Edin – Sonu başlangıçta belirlemek ideal olsa da, yalnızca istediğiniz sonuçları destekleyen verileri iletmek istemezsiniz. Bu, bir iletişimcinin yalnızca yapmak istediği noktayı destekleyen verileri ilettiği ve diğer tüm verileri görmezden geldiği "Seçmece" olarak adlandırılır.
 
-Topladığınız tüm veriler açıkça planladığınız çıkarımları destekliyorsa, harika. Ancak topladığınız veriler arasında çıkarımlarınızı desteklemeyen veya hatta çıkarımlarınıza karşı bir argümanı destekleyen veriler varsa, bu verileri de iletmelisiniz. Bu durumda, hedef kitlenize karşı dürüst olun ve tüm veriler hikayenizi desteklemese bile neden hikayenize bağlı kalmayı seçtiğinizi açıklayın.
+Topladığınız tüm veriler açıkça istediğiniz sonuçları destekliyorsa, harika. Ancak topladığınız veriler, sonuçlarınızı desteklemiyorsa veya hatta ana sonuçlarınıza karşı bir argümanı destekliyorsa, bu verileri de iletmelisiniz. Bu durumda, hedef kitlenize açık olun ve tüm veriler hikayenizi desteklemese bile neden hikayenize bağlı kalmayı seçtiğinizi açıklayın.
 
 ### 3. Gerçek Bir Hikaye Gibi Yaklaşın
-Geleneksel bir hikaye 5 aşamada gerçekleşir. Bu aşamaları şu şekilde duymuş olabilirsiniz: Giriş, Yükselen Aksiyon, Doruk Noktası, Düşen Aksiyon ve Sonuç. Ya da daha kolay hatırlanabilir haliyle: Bağlam, Çatışma, Doruk, Çözüm, Sonuç. Verilerinizi ve hikayenizi iletirken benzer bir yaklaşım benimseyebilirsiniz.
+Geleneksel bir hikaye 5 aşamada gerçekleşir. Bu aşamaları Açıklama, Yükselen Eylem, Doruk Noktası, Düşen Eylem ve Sonuç olarak duymuş olabilirsiniz. Ya da daha kolay hatırlanabilir olan Bağlam, Çatışma, Doruk Noktası, Kapanış ve Sonuç. Verilerinizi ve hikayenizi iletirken benzer bir yaklaşım benimseyebilirsiniz.
 
-Bağlamla başlayabilir, sahneyi hazırlayabilir ve hedef kitlenizin aynı sayfada olduğundan emin olabilirsiniz. Daha sonra çatışmayı tanıtabilirsiniz. Bu verileri neden toplamanız gerekti? Hangi sorunları çözmeye çalışıyordunuz? Ardından doruk noktasına gelirsiniz. Veriler nedir? Veriler ne anlama geliyor? Veriler bize hangi çözümleri öneriyor? Daha sonra çözüme gelirsiniz, burada sorunu ve önerilen çözümü tekrar edebilirsiniz. Son olarak, sonuç kısmına gelirsiniz, burada ana çıkarımlarınızı ve ekibin atmasını önerdiğiniz sonraki adımları özetleyebilirsiniz.
+Bağlamla başlayabilir, sahneyi hazırlayabilir ve hedef kitlenizin aynı sayfada olduğundan emin olabilirsiniz. Ardından çatışmayı tanıtabilirsiniz. Bu verileri neden toplamanız gerekti? Hangi sorunları çözmeye çalışıyordunuz? Daha sonra doruk noktasına gelirsiniz. Veriler nedir? Veriler ne anlama geliyor? Veriler bize hangi çözümleri öneriyor? Ardından kapanışa geçersiniz, burada sorunu ve önerilen çözüm(ler)i tekrar edebilirsiniz. Son olarak, ana sonuçlarınızı ve ekibin atmasını önerdiğiniz sonraki adımları özetleyebileceğiniz sonuca gelirsiniz.
 
 ### 4. Anlamlı Kelimeler ve İfadeler Kullanın
-Eğer bir ürün üzerinde birlikte çalışıyorsak ve size "Kullanıcılarımız platformumuza kaydolup giriş yapmak için uzun zaman harcıyor," dersem, "uzun zaman"ın ne kadar olduğunu tahmin edersiniz? Bir saat mi? Bir hafta mı? Bilmek zor. Peki ya bunu tüm bir hedef kitleye söyleseydim? Hedef kitlenin her bir üyesi, kullanıcıların platformumuza giriş yapmak için ne kadar zaman harcadığına dair farklı bir fikir edinebilir.
+Eğer bir ürün üzerinde birlikte çalışıyorsak ve size "Kullanıcılarımız platformumuza kaydolup giriş yaparken uzun zaman harcıyor" dersem, "uzun zaman"ın ne kadar olduğunu tahmin edersiniz? Bir saat mi? Bir hafta mı? Bilmek zor. Peki bunu tüm bir hedef kitleye söylesem? Hedef kitlenin her bir üyesi, platformumuza kaydolup giriş yapmanın ne kadar sürdüğü konusunda farklı bir fikir edinebilir.
 
-Bunun yerine, "Kullanıcılarımız platformumuza kaydolup giriş yapmak için ortalama 3 dakika harcıyor," dersem ne olur?
+Bunun yerine, "Kullanıcılarımız platformumuza kaydolup giriş yaparken ortalama 3 dakika harcıyor" dersem ne olur?
 
-Bu mesaj daha net olur. Veri iletişimi yaparken, hedef kitlenizin sizin gibi düşündüğünü varsaymak kolay olabilir. Ancak bu her zaman böyle değildir. Verileriniz ve ne anlama geldiği konusunda netlik sağlamak, bir iletişimci olarak sorumluluklarınızdan biridir. Eğer veriler veya hikayeniz net değilse, hedef kitlenizin takip etmesi zorlaşır ve ana çıkarımlarınızı anlamaları daha az olasıdır.
+Bu mesaj daha net olur. Veri iletişimi yaparken, hedef kitlenizin sizin gibi düşündüğünü varsaymak kolay olabilir. Ancak bu her zaman doğru değildir. Verileriniz ve ne anlama geldiği konusunda netlik sağlamak, bir iletişimci olarak sorumluluklarınızdan biridir. Veriler veya hikayeniz net değilse, hedef kitlenizin takip etmesi zor olur ve ana sonuçlarınızı anlamaları daha az olasıdır.
 
-Verileri daha net bir şekilde iletmek için anlamlı kelimeler ve ifadeler kullanabilirsiniz, belirsiz olanlar yerine. Aşağıda birkaç örnek verilmiştir:
+Anlamlı kelimeler ve ifadeler kullanarak verileri daha net bir şekilde iletebilirsiniz. Aşağıda birkaç örnek verilmiştir.
 
 - Harika bir yıl geçirdik!
-  - Bir kişi harika bir yılın %2-3'lük bir gelir artışı anlamına geldiğini düşünebilirken, bir diğeri %50-60'lık bir artış anlamına geldiğini düşünebilir.
-- Kullanıcılarımızın başarı oranları *dramatik* bir şekilde arttı.
-  - Dramatik bir artış ne kadar büyük bir artıştır?
-- Bu girişim *önemli* bir çaba gerektirecek.
-  - Ne kadar çaba önemlidir?
+	- Bir kişi harika bir yılın %2 - %3'lük bir gelir artışı anlamına geldiğini düşünebilirken, bir diğeri %50 - %60'lık bir artış anlamına geldiğini düşünebilir.
+- Kullanıcılarımızın başarı oranları *önemli ölçüde* arttı.
+	- Önemli ölçüde artış ne kadar büyük bir artış anlamına geliyor?
+- Bu girişim *önemli* çaba gerektirecek.
+	- Önemli çaba ne kadar çaba anlamına geliyor?
 
-Belirsiz kelimeler, daha fazla verinin geleceği bir giriş olarak veya anlattığınız hikayenin bir özeti olarak faydalı olabilir. Ancak sunumunuzun her bölümünün hedef kitleniz için net olduğundan emin olmayı düşünün.
+Belirsiz kelimeler, gelen daha fazla verinin bir tanıtımı olarak veya anlattığınız hikayenin bir özeti olarak faydalı olabilir. Ancak sunumunuzun her bölümünün hedef kitleniz için net olduğundan emin olmayı düşünün.
 
 ### 5. Duyguları Kullanın
-Duygular, hikaye anlatımında anahtardır. Verilerle bir hikaye anlatırken bu daha da önemlidir. Veri iletişimi yaparken her şey, hedef kitlenizin sahip olmasını istediğiniz çıkarımlara odaklanır. Bir hedef kitlede bir duygu uyandırdığınızda, onların empati kurmasına yardımcı olur ve harekete geçme olasılıklarını artırır. Duygular ayrıca bir hedef kitlenin mesajınızı hatırlama olasılığını artırır.
+Duygu, hikaye anlatımında anahtardır. Verilerle hikaye anlatırken daha da önemlidir. Veri iletişimi yaparken her şey, hedef kitlenizin almasını istediğiniz sonuçlara odaklanır. Bir hedef kitlede bir duygu uyandırdığınızda, onların empati kurmasına yardımcı olur ve harekete geçme olasılıklarını artırır. Duygu ayrıca bir hedef kitlenin mesajınızı hatırlama olasılığını artırır.
 
-Bunu daha önce TV reklamlarında yaşamış olabilirsiniz. Bazı reklamlar oldukça hüzünlüdür ve hedef kitleleriyle bağlantı kurmak ve sundukları verileri gerçekten öne çıkarmak için üzücü bir duygu kullanır. Ya da bazı reklamlar oldukça neşelidir ve sizi verileri mutlu bir duygu ile ilişkilendirmenizi sağlar.
+Bunu daha önce TV reklamlarında yaşamış olabilirsiniz. Bazı reklamlar çok hüzünlüdür ve hedef kitleleriyle bağlantı kurmak ve sundukları verileri gerçekten öne çıkarmak için üzgün bir duygu kullanır. Ya da bazı reklamlar çok neşelidir ve mutlu bir duygu ile verilerini ilişkilendirmenizi sağlar.
 
-Veri iletişimi yaparken duyguları nasıl kullanabilirsiniz? İşte birkaç yol:
+Veri iletişimi yaparken duyguları nasıl kullanırsınız? Aşağıda birkaç yol verilmiştir.
 
 - Tanıklıklar ve Kişisel Hikayeler Kullanın
-  - Veri toplarken, hem nicel hem de nitel veriler toplamaya çalışın ve iletişim kurarken her iki tür veriyi de entegre edin. Eğer verileriniz ağırlıklı olarak nicel ise, verilerinizin size ne söylediği hakkında daha fazla bilgi edinmek için bireylerden hikayeler toplayın.
+	- Veri toplarken, hem nicel hem de nitel veriler toplamaya çalışın ve iletişim kurarken her iki tür veriyi de entegre edin. Verileriniz ağırlıklı olarak nicel ise, verilerinizin size ne söylediği hakkında daha fazla bilgi edinmek için bireylerden hikayeler arayın.
 - Görseller Kullanın
-  - Görseller, bir hedef kitlenin kendini bir durumun içinde görmesine yardımcı olur. Görseller kullandığınızda, hedef kitlenizi verileriniz hakkında sahip olmaları gerektiğini düşündüğünüz duyguya yönlendirebilirsiniz.
+	- Görseller, bir hedef kitlenin kendisini bir durumda görmesine yardımcı olur. Görseller kullandığınızda, hedef kitlenizi verileriniz hakkında sahip olmaları gerektiğini düşündüğünüz duyguya yönlendirebilirsiniz.
 - Renk Kullanın
-  - Farklı renkler farklı duygular uyandırır. Popüler renkler ve uyandırdıkları duygular aşağıda verilmiştir. Ancak renklerin farklı kültürlerde farklı anlamlara sahip olabileceğini unutmayın.
-    - Mavi genellikle huzur ve güven duyguları uyandırır.
-    - Yeşil genellikle doğa ve çevre ile ilişkilendirilir.
-    - Kırmızı genellikle tutku ve heyecan anlamına gelir.
-    - Sarı genellikle iyimserlik ve mutluluk anlamına gelir.
+	- Farklı renkler farklı duygular uyandırır. Popüler renkler ve uyandırdıkları duygular aşağıda verilmiştir. Dikkat edin, renkler farklı kültürlerde farklı anlamlara sahip olabilir.
+		- Mavi genellikle barış ve güven duygularını uyandırır
+		- Yeşil genellikle doğa ve çevre ile ilişkilidir
+		- Kırmızı genellikle tutku ve heyecan anlamına gelir
+		- Sarı genellikle iyimserlik ve mutluluk anlamına gelir
 
 # İletişim Vaka Çalışması
-Emerson, bir mobil uygulama için Ürün Yöneticisidir. Emerson, müşterilerin hafta sonları %42 daha fazla şikayet ve hata raporu gönderdiğini fark etmiştir. Ayrıca, bir şikayeti 48 saat içinde yanıtlanmayan müşterilerin, uygulamaya 1 veya 2 yıldız verme olasılığının %32 daha fazla olduğunu gözlemlemiştir.
+Emerson, bir mobil uygulama için Ürün Müdürü. Emerson, müşterilerin hafta sonları %42 daha fazla şikayet ve hata raporu gönderdiğini fark etti. Emerson ayrıca, bir şikayet 48 saat içinde yanıtlanmazsa, müşterilerin uygulamaya 1 veya 2 yıldız verme olasılığının %32 daha fazla olduğunu fark etti.
 
-Araştırma yaptıktan sonra, Emerson sorunu ele alacak birkaç çözüm bulmuştur. Emerson, verileri ve önerilen çözümleri iletmek için şirketin 3 lideriyle 30 dakikalık bir toplantı ayarlar.
+Araştırma yaptıktan sonra, Emerson sorunu çözebilecek birkaç çözüm buldu. Emerson, verileri ve önerilen çözümleri iletmek için şirketin 3 lideriyle 30 dakikalık bir toplantı ayarladı.
 
-Bu toplantı sırasında Emerson’un hedefi, şirket liderlerinin aşağıdaki 2 çözümün uygulamanın puanını iyileştirebileceğini anlamalarını sağlamaktır, bu da muhtemelen daha yüksek gelir anlamına gelecektir.
+Bu toplantıda Emerson’un amacı, şirket liderlerinin aşağıdaki 2 çözümün uygulamanın puanını iyileştirebileceğini anlamalarını sağlamaktır, bu da muhtemelen daha yüksek gelir anlamına gelecektir.
 
-**Çözüm 1.** Hafta sonları çalışacak müşteri hizmetleri temsilcileri işe alın.
+**Çözüm 1.** Hafta sonları çalışacak müşteri hizmetleri temsilcileri işe alın
 
-**Çözüm 2.** Müşteri hizmetleri temsilcilerinin hangi şikayetlerin en uzun süredir beklediğini kolayca belirleyebileceği yeni bir müşteri hizmetleri biletleme sistemi satın alın.
+**Çözüm 2.** Müşteri hizmetleri temsilcilerinin hangi şikayetlerin en uzun süredir beklediğini kolayca belirleyebileceği yeni bir müşteri hizmetleri biletleme sistemi satın alın – böylece hangilerinin en acil şekilde ele alınması gerektiğini anlayabilirler.
 Toplantıda Emerson, uygulama mağazasındaki düşük puana sahip olmanın neden kötü olduğunu açıklamak için 5 dakika, araştırma sürecini ve trendlerin nasıl belirlendiğini açıklamak için 10 dakika, son müşteri şikayetlerini gözden geçirmek için 10 dakika ve son olarak 2 olası çözümü hızlıca geçmek için 5 dakika harcıyor.
 
-Emerson, bu toplantıda iletişim kurmak için etkili bir yol izledi mi?
+Emerson bu toplantıda iletişim kurmak için etkili bir yol izledi mi?
 
-Toplantı sırasında, bir şirket lideri Emerson'ın müşteri şikayetlerini ele aldığı 10 dakikaya odaklandı. Toplantıdan sonra, bu şikayetler bu ekip liderinin hatırladığı tek şey oldu. Bir diğer şirket lideri ise Emerson'ın araştırma sürecini açıklamasına odaklandı. Üçüncü şirket lideri Emerson'ın önerdiği çözümleri hatırladı ancak bu çözümlerin nasıl uygulanabileceğinden emin değildi.
+Toplantı sırasında, bir şirket lideri Emerson'ın müşteri şikayetlerini gözden geçirdiği 10 dakikaya odaklandı. Toplantıdan sonra, bu liderin hatırladığı tek şey bu şikayetler oldu. Bir diğer şirket lideri ise Emerson'ın araştırma sürecini açıklamasına odaklandı. Üçüncü şirket lideri Emerson'ın önerdiği çözümleri hatırladı, ancak bu çözümlerin nasıl uygulanabileceğinden emin değildi.
 
-Yukarıdaki durumda, Emerson'ın ekip liderlerinin toplantıdan almasını istediği şey ile onların toplantıdan aldıkları arasında önemli bir fark olduğunu görebilirsiniz. Aşağıda Emerson'ın düşünebileceği başka bir yaklaşım yer alıyor.
+Yukarıdaki durumda, Emerson'ın takım liderlerinin toplantıdan almasını istediği şey ile onların toplantıdan aldıkları arasında önemli bir fark olduğunu görebilirsiniz. Aşağıda Emerson'ın düşünebileceği başka bir yaklaşım yer alıyor.
 
 Emerson bu yaklaşımı nasıl geliştirebilir?  
 Bağlam, Çatışma, Doruk Noktası, Kapanış, Sonuç  
-**Bağlam** - Emerson, ilk 5 dakikayı tüm durumu tanıtarak ve ekip liderlerinin sorunların şirket için kritik olan metrikleri, örneğin gelir, nasıl etkilediğini anlamalarını sağlayarak geçirebilir.
+**Bağlam** - Emerson, ilk 5 dakikayı tüm durumu tanıtmak ve takım liderlerinin sorunların şirket için kritik olan metrikleri, örneğin gelir, nasıl etkilediğini anlamalarını sağlamak için harcayabilir.
 
-Şöyle ifade edilebilir: "Şu anda uygulamamızın mağaza puanı 2.5. Uygulama mağazası puanları, uygulama mağazası optimizasyonu için kritik öneme sahiptir ve bu, uygulamamızın aramalarda kaç kullanıcı tarafından görüldüğünü ve potansiyel kullanıcılar tarafından nasıl algılandığını etkiler. Ve tabii ki, sahip olduğumuz kullanıcı sayısı doğrudan gelirle bağlantılıdır."
+Şöyle açıklanabilir: "Şu anda uygulamamızın mağaza puanı 2.5. Uygulama mağazası puanları, uygulama mağazası optimizasyonu için kritik öneme sahiptir. Bu, uygulamamızın aramalarda kaç kullanıcı tarafından görüldüğünü ve potansiyel kullanıcılar tarafından nasıl algılandığını etkiler. Ve tabii ki, sahip olduğumuz kullanıcı sayısı doğrudan gelirle bağlantılıdır."
 
 **Çatışma** Emerson, ardından yaklaşık 5 dakika boyunca çatışmayı ele alabilir.
 
-Şöyle ifade edilebilir: “Kullanıcılar hafta sonları %42 daha fazla şikayet ve hata raporu gönderiyor. Şikayet gönderen ve 48 saat içinde yanıt alamayan müşteriler, uygulama mağazasına 2'nin üzerinde bir puan verme olasılığı %32 daha düşük. Uygulama mağazasındaki puanımızı 4'e çıkarmak, görünürlüğümüzü %20-30 oranında artırır ve bunun geliri %10 artıracağını öngörüyorum." Tabii ki, Emerson bu rakamları gerekçelendirmeye hazır olmalıdır.
+Şöyle devam edebilir: “Kullanıcılar hafta sonları %42 daha fazla şikayet ve hata raporu gönderiyor. Şikayet gönderen ve 48 saat içinde yanıt alamayan müşteriler, uygulama mağazasına 2'nin üzerinde bir puan verme olasılığı %32 daha düşük. Uygulama mağazasında puanımızı 4'e çıkarmak, görünürlüğümüzü %20-30 artırır ve bunun geliri %10 artıracağını öngörüyorum." Tabii ki, Emerson bu rakamları gerekçelendirmeye hazır olmalıdır.
 
-**Doruk Noktası** Temelleri attıktan sonra Emerson yaklaşık 5 dakika boyunca Doruk Noktası'na geçebilir.
+**Doruk Noktası** Temelleri attıktan sonra, Emerson yaklaşık 5 dakika boyunca Doruk Noktası'na geçebilir.
 
-Emerson önerilen çözümleri tanıtabilir, bu çözümlerin belirtilen sorunları nasıl ele alacağını, mevcut iş akışlarına nasıl entegre edilebileceğini, çözümlerin maliyetini, çözümlerin yatırım getirisini (ROI) ve hatta çözümlerin uygulanması durumunda nasıl görüneceğine dair ekran görüntüleri veya taslaklar gösterebilir. Emerson ayrıca, şikayetleri 48 saatten uzun sürede yanıtlanan kullanıcıların görüşlerini ve mevcut müşteri hizmetleri temsilcisinin mevcut biletleme sistemi hakkındaki yorumlarını paylaşabilir.
+Emerson önerilen çözümleri tanıtabilir, bu çözümlerin belirtilen sorunları nasıl ele alacağını, mevcut iş akışlarına nasıl entegre edilebileceğini, maliyetlerini, çözümlerin yatırım getirisini (ROI) ve hatta çözümlerin uygulanması durumunda nasıl görüneceğine dair ekran görüntüleri veya taslaklar gösterebilir. Emerson ayrıca, şikayetleri 48 saatten uzun sürede yanıtlanan kullanıcıların görüşlerini ve mevcut müşteri hizmetleri temsilcisinin mevcut biletleme sistemi hakkındaki yorumlarını paylaşabilir.
 
 **Kapanış** Şimdi Emerson, şirketin karşılaştığı sorunları yeniden ifade etmek, önerilen çözümleri tekrar gözden geçirmek ve neden bu çözümlerin doğru olduğunu incelemek için 5 dakika harcayabilir.
 
-**Sonuç** Bu, birkaç paydaşla yapılan ve iki yönlü iletişimin kullanılacağı bir toplantı olduğundan, Emerson toplantı bitmeden önce ekip liderlerinin kafasını karıştıran herhangi bir şeyi netleştirebilmek için 10 dakika soru-cevap bölümü planlayabilir.
+**Sonuç** Bu, birkaç paydaşla yapılan ve iki yönlü iletişimin kullanılacağı bir toplantı olduğundan, Emerson toplantı bitmeden önce takım liderlerinin kafasını karıştıran herhangi bir şeyi netleştirebilmek için 10 dakika soru-cevap planlayabilir.
 
-Emerson yaklaşım #2'yi benimserse, ekip liderlerinin toplantıdan tam olarak Emerson'ın istediği şeyi alması çok daha olasıdır – şikayetlerin ve hataların ele alınma şeklinin iyileştirilebileceği ve bu iyileştirmeyi gerçekleştirmek için uygulanabilecek 2 çözüm olduğu. Bu yaklaşım, Emerson'ın iletmek istediği verileri ve hikayeyi çok daha etkili bir şekilde iletmesini sağlayacaktır.
+Emerson yaklaşım #2'yi uygularsa, takım liderlerinin toplantıdan tam olarak Emerson'ın istediği şeyi alması çok daha olasıdır – şikayetlerin ve hataların ele alınma şeklinin iyileştirilebileceği ve bu iyileştirmeyi gerçekleştirmek için uygulanabilecek 2 çözüm olduğu. Bu yaklaşım, Emerson'ın iletmek istediği verileri ve hikayeyi çok daha etkili bir şekilde iletmesini sağlayacaktır.
 
 # Sonuç  
 ### Ana Noktaların Özeti  
 - İletişim kurmak, bilgi aktarmak veya paylaşmaktır.  
 - Verileri iletişim kurarken amacınız sadece rakamları izleyicilerinize aktarmak olmamalıdır. Amacınız, verilerinizden ilham alan bir hikaye anlatmak olmalıdır.  
 - İletişimin 2 türü vardır: Tek Yönlü İletişim (bilgi bir yanıt beklenmeden iletilir) ve İki Yönlü İletişim (bilgi karşılıklı olarak iletilir).  
-- Verilerle hikaye anlatmak için kullanabileceğiniz birçok strateji vardır, üzerinde durduğumuz 5 strateji şunlardır:  
+- Verilerle hikaye anlatmak için kullanabileceğiniz birçok strateji vardır. İncelediğimiz 5 strateji şunlardır:  
   - Kitlenizi, Ortamınızı ve İletişim Yönteminizi Anlayın  
   - Sonu Başta Düşünün  
   - Gerçek Bir Hikaye Gibi Yaklaşın  
   - Anlamlı Kelimeler ve İfadeler Kullanın  
   - Duyguları Kullanın  
 
-### Kendi Kendine Çalışma için Önerilen Kaynaklar  
+### Önerilen Kaynaklar  
 [The Five C's of Storytelling - Articulate Persuasion](http://articulatepersuasion.com/the-five-cs-of-storytelling/)  
 
 [1.4 Your Responsibilities as a Communicator – Business Communication for Success (umn.edu)](https://open.lib.umn.edu/businesscommunication/chapter/1-4-your-responsibilities-as-a-communicator/)  
@@ -208,9 +208,9 @@ Emerson yaklaşım #2'yi benimserse, ekip liderlerinin toplantıdan tam olarak E
 
 [1. Communicating Data - Communicating Data with Tableau [Book] (oreilly.com)](https://www.oreilly.com/library/view/communicating-data-with/9781449372019/ch01.html)  
 
-## [Ders Sonrası Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/31)  
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ds/)  
 
-Yukarıdaki Ders Sonrası Quiz ile öğrendiklerinizi gözden geçirin!  
+Yukarıda yer alan Ders Sonrası Test ile öğrendiklerinizi gözden geçirin!  
 
 ## Ödev  
 
@@ -219,4 +219,4 @@ Yukarıdaki Ders Sonrası Quiz ile öğrendiklerinizi gözden geçirin!
 ---
 
 **Feragatname**:  
-Bu belge, [Co-op Translator](https://github.com/Azure/co-op-translator) adlı yapay zeka çeviri hizmeti kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belgenin kendi dilindeki hali, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.

@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "b706a07cfa87ba091cbb91e0aa775600",
-  "translation_date": "2025-08-27T17:27:28+00:00",
+  "original_hash": "8bbb3fa0d4ad61384a3b4b5f7560226f",
+  "translation_date": "2025-09-04T17:49:27+00:00",
   "source_file": "1-Introduction/04-stats-and-probability/README.md",
   "language_code": "br"
 }
@@ -17,19 +17,19 @@ A Teoria da Estatística e Probabilidade são duas áreas altamente relacionadas
 
 [![Vídeo de Introdução](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.br.png)](https://youtu.be/Z5Zy85g4Yjw)
 
-## [Quiz pré-aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/6)
+## [Quiz Pré-aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/6)
 
 ## Probabilidade e Variáveis Aleatórias
 
-**Probabilidade** é um número entre 0 e 1 que expressa o quão provável é um **evento**. Ela é definida como o número de resultados positivos (que levam ao evento), dividido pelo número total de resultados, dado que todos os resultados são igualmente prováveis. Por exemplo, ao lançar um dado, a probabilidade de obter um número par é 3/6 = 0.5.
+**Probabilidade** é um número entre 0 e 1 que expressa o quão provável é que um **evento** ocorra. Ela é definida como o número de resultados positivos (que levam ao evento), dividido pelo número total de resultados, assumindo que todos os resultados são igualmente prováveis. Por exemplo, ao lançar um dado, a probabilidade de obter um número par é 3/6 = 0,5.
 
-Quando falamos de eventos, usamos **variáveis aleatórias**. Por exemplo, a variável aleatória que representa o número obtido ao lançar um dado assumiria valores de 1 a 6. O conjunto de números de 1 a 6 é chamado de **espaço amostral**. Podemos falar sobre a probabilidade de uma variável aleatória assumir um determinado valor, por exemplo P(X=3)=1/6.
+Quando falamos de eventos, usamos **variáveis aleatórias**. Por exemplo, a variável aleatória que representa o número obtido ao lançar um dado pode assumir valores de 1 a 6. O conjunto de números de 1 a 6 é chamado de **espaço amostral**. Podemos falar sobre a probabilidade de uma variável aleatória assumir um determinado valor, por exemplo, P(X=3)=1/6.
 
 A variável aleatória no exemplo anterior é chamada de **discreta**, porque possui um espaço amostral contável, ou seja, há valores separados que podem ser enumerados. Existem casos em que o espaço amostral é um intervalo de números reais ou o conjunto completo de números reais. Essas variáveis são chamadas de **contínuas**. Um bom exemplo é o horário de chegada de um ônibus.
 
 ## Distribuição de Probabilidade
 
-No caso de variáveis aleatórias discretas, é fácil descrever a probabilidade de cada evento por uma função P(X). Para cada valor *s* do espaço amostral *S*, ela fornecerá um número entre 0 e 1, de forma que a soma de todos os valores de P(X=s) para todos os eventos seja 1.
+No caso de variáveis aleatórias discretas, é fácil descrever a probabilidade de cada evento por uma função P(X). Para cada valor *s* do espaço amostral *S*, ela fornecerá um número entre 0 e 1, de forma que a soma de todos os valores de P(X=s) para todos os eventos seja igual a 1.
 
 A distribuição discreta mais conhecida é a **distribuição uniforme**, na qual há um espaço amostral de N elementos, com probabilidade igual de 1/N para cada um deles.
 
@@ -47,7 +47,7 @@ Outra distribuição importante é a **distribuição normal**, sobre a qual fal
 
 ## Média, Variância e Desvio Padrão
 
-Suponha que extraímos uma sequência de n amostras de uma variável aleatória X: x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>. Podemos definir o valor **médio** (ou **média aritmética**) da sequência da maneira tradicional como (x<sub>1</sub>+x<sub>2</sub>+x<sub>n</sub>)/n. À medida que aumentamos o tamanho da amostra (ou seja, tomamos o limite com n→∞), obteremos a média (também chamada de **expectativa**) da distribuição. Denotaremos a expectativa por **E**(x).
+Suponha que extraímos uma sequência de n amostras de uma variável aleatória X: x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>. Podemos definir o valor **médio** (ou **média aritmética**) da sequência da maneira tradicional como (x<sub>1</sub>+x<sub>2</sub>+x<sub>n</sub>)/n. À medida que aumentamos o tamanho da amostra (ou seja, tomamos o limite com n→∞), obtemos a média (também chamada de **expectativa**) da distribuição. Denotaremos a expectativa por **E**(x).
 
 > Pode-se demonstrar que, para qualquer distribuição discreta com valores {x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>N</sub>} e probabilidades correspondentes p<sub>1</sub>, p<sub>2</sub>, ..., p<sub>N</sub>, a expectativa seria igual a E(X)=x<sub>1</sub>p<sub>1</sub>+x<sub>2</sub>p<sub>2</sub>+...+x<sub>N</sub>p<sub>N</sub>.
 
@@ -55,7 +55,7 @@ Para identificar o quão dispersos os valores estão, podemos calcular a variân
 
 ## Moda, Mediana e Quartis
 
-Às vezes, a média não representa adequadamente o valor "típico" dos dados. Por exemplo, quando há alguns valores extremos completamente fora do intervalo, eles podem afetar a média. Outra boa indicação é a **mediana**, um valor tal que metade dos pontos de dados são menores que ele, e a outra metade - maiores.
+Às vezes, a média não representa adequadamente o valor "típico" dos dados. Por exemplo, quando há alguns valores extremos que estão completamente fora do intervalo, eles podem afetar a média. Outra boa indicação é a **mediana**, um valor tal que metade dos pontos de dados são menores que ele, e a outra metade - maiores.
 
 Para nos ajudar a entender a distribuição dos dados, é útil falar sobre **quartis**:
 
@@ -68,11 +68,11 @@ Graficamente, podemos representar a relação entre mediana e quartis em um diag
 
 Aqui também calculamos o **intervalo interquartil** IQR=Q3-Q1, e os chamados **outliers** - valores que estão fora dos limites [Q1-1.5*IQR,Q3+1.5*IQR].
 
-Para uma distribuição finita que contém um pequeno número de valores possíveis, um bom valor "típico" é aquele que aparece com mais frequência, chamado de **moda**. Ele é frequentemente aplicado a dados categóricos, como cores. Considere uma situação em que temos dois grupos de pessoas - algumas que preferem fortemente vermelho, e outras que preferem azul. Se codificarmos as cores por números, o valor médio para uma cor favorita estaria em algum lugar no espectro laranja-verde, o que não indica a preferência real de nenhum dos grupos. No entanto, a moda seria uma das cores ou ambas, se o número de pessoas votando por elas for igual (nesse caso, chamamos a amostra de **multimodal**).
+Para uma distribuição finita que contém um pequeno número de valores possíveis, um bom valor "típico" é aquele que aparece com mais frequência, chamado de **moda**. Ele é frequentemente aplicado a dados categóricos, como cores. Considere uma situação em que temos dois grupos de pessoas - algumas que preferem fortemente vermelho, e outras que preferem azul. Se codificarmos as cores por números, o valor médio para a cor favorita estaria em algum lugar no espectro laranja-verde, o que não indica a preferência real de nenhum dos grupos. No entanto, a moda seria uma das cores ou ambas, se o número de pessoas votando por elas for igual (nesse caso, chamamos a amostra de **multimodal**).
 
 ## Dados do Mundo Real
 
-Quando analisamos dados da vida real, eles frequentemente não são variáveis aleatórias propriamente ditas, no sentido de que não realizamos experimentos com resultados desconhecidos. Por exemplo, considere um time de jogadores de beisebol e seus dados corporais, como altura, peso e idade. Esses números não são exatamente aleatórios, mas ainda podemos aplicar os mesmos conceitos matemáticos. Por exemplo, uma sequência de pesos de pessoas pode ser considerada uma sequência de valores retirados de alguma variável aleatória. Abaixo está a sequência de pesos de jogadores reais de beisebol da [Major League Baseball](http://mlb.mlb.com/index.jsp), retirada deste [conjunto de dados](http://wiki.stat.ucla.edu/socr/index.php/SOCR_Data_MLB_HeightsWeights) (para sua conveniência, apenas os primeiros 20 valores são mostrados):
+Quando analisamos dados do mundo real, eles frequentemente não são variáveis aleatórias propriamente ditas, no sentido de que não realizamos experimentos com resultados desconhecidos. Por exemplo, considere um time de jogadores de beisebol e seus dados corporais, como altura, peso e idade. Esses números não são exatamente aleatórios, mas ainda podemos aplicar os mesmos conceitos matemáticos. Por exemplo, uma sequência de pesos de pessoas pode ser considerada como uma sequência de valores retirados de alguma variável aleatória. Abaixo está a sequência de pesos de jogadores de beisebol reais da [Major League Baseball](http://mlb.mlb.com/index.jsp), retirada deste [conjunto de dados](http://wiki.stat.ucla.edu/socr/index.php/SOCR_Data_MLB_HeightsWeights) (para sua conveniência, apenas os primeiros 20 valores são mostrados):
 
 ```
 [180.0, 215.0, 210.0, 210.0, 188.0, 176.0, 209.0, 200.0, 231.0, 180.0, 188.0, 180.0, 185.0, 160.0, 180.0, 185.0, 197.0, 189.0, 185.0, 219.0]
@@ -84,7 +84,7 @@ Aqui está o box plot mostrando média, mediana e quartis para nossos dados:
 
 ![Box Plot de Peso](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.br.png)
 
-Como nossos dados contêm informações sobre diferentes **funções** de jogadores, também podemos fazer o box plot por função - isso nos permitirá ter uma ideia de como os valores dos parâmetros diferem entre as funções. Desta vez, consideraremos a altura:
+Como nossos dados contêm informações sobre diferentes **funções** dos jogadores, também podemos fazer o box plot por função - isso nos permitirá ter uma ideia de como os valores dos parâmetros diferem entre as funções. Desta vez, consideraremos a altura:
 
 ![Box plot por função](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.br.png)
 
@@ -92,13 +92,13 @@ Este diagrama sugere que, em média, a altura dos jogadores de primeira base é 
 
 > Ao trabalhar com dados do mundo real, assumimos que todos os pontos de dados são amostras retiradas de alguma distribuição de probabilidade. Essa suposição nos permite aplicar técnicas de aprendizado de máquina e construir modelos preditivos funcionais.
 
-Para ver qual é a distribuição de nossos dados, podemos plotar um gráfico chamado **histograma**. O eixo X conteria um número de diferentes intervalos de peso (os chamados **bins**), e o eixo vertical mostraria o número de vezes que a amostra da variável aleatória esteve dentro de um determinado intervalo.
+Para ver qual é a distribuição de nossos dados, podemos plotar um gráfico chamado **histograma**. O eixo X conteria um número de diferentes intervalos de peso (os chamados **bins**), e o eixo vertical mostraria o número de vezes que nossa amostra de variável aleatória esteve dentro de um determinado intervalo.
 
 ![Histograma de dados do mundo real](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.br.png)
 
-A partir deste histograma, você pode ver que todos os valores estão centrados em torno de um certo peso médio, e quanto mais nos afastamos desse peso - menos pesos desse valor são encontrados. Ou seja, é muito improvável que o peso de um jogador de beisebol seja muito diferente do peso médio. A variância dos pesos mostra a extensão em que os pesos provavelmente diferem da média.
+A partir deste histograma, você pode ver que todos os valores estão centrados em torno de um certo peso médio, e quanto mais nos afastamos desse peso, menos pesos desse valor são encontrados. Ou seja, é muito improvável que o peso de um jogador de beisebol seja muito diferente do peso médio. A variância dos pesos mostra a extensão em que os pesos provavelmente diferem da média.
 
-> Se pegarmos pesos de outras pessoas, não da liga de beisebol, a distribuição provavelmente será diferente. No entanto, o formato da distribuição será o mesmo, mas a média e a variância mudariam. Assim, se treinarmos nosso modelo com jogadores de beisebol, é provável que ele forneça resultados errados quando aplicado a estudantes de uma universidade, porque a distribuição subjacente é diferente.
+> Se pegarmos pesos de outras pessoas, não da liga de beisebol, a distribuição provavelmente será diferente. No entanto, o formato da distribuição será o mesmo, mas a média e a variância mudariam. Assim, se treinarmos nosso modelo com jogadores de beisebol, é provável que ele produza resultados errados quando aplicado a estudantes de uma universidade, porque a distribuição subjacente é diferente.
 
 ## Distribuição Normal
 
@@ -157,7 +157,7 @@ No nosso conjunto de dados de jogadores de beisebol, existem diferentes funçõe
 | Starting_Pitcher  | 74.719457  | 205.163636 | 221      |
 | Third_Baseman     | 73.044444  | 200.955556 | 45       |
 
-Podemos notar que a média das alturas dos jogadores de primeira base é maior do que a dos jogadores de segunda base. Assim, podemos ser tentados a concluir que **jogadores de primeira base são mais altos do que jogadores de segunda base**.
+Podemos notar que as alturas médias dos jogadores de primeira base são maiores do que as dos jogadores de segunda base. Assim, podemos ser tentados a concluir que **jogadores de primeira base são mais altos do que jogadores de segunda base**.
 
 > Essa afirmação é chamada de **hipótese**, porque não sabemos se o fato é realmente verdadeiro ou não.
 
@@ -201,19 +201,19 @@ Existem também outros tipos de hipóteses que podemos querer testar, por exempl
 
 Uma das razões pelas quais a distribuição normal é tão importante é o chamado **teorema central do limite**. Suponha que temos uma grande amostra de N valores independentes X<sub>1</sub>, ..., X<sub>N</sub>, amostrados de qualquer distribuição com média μ e variância σ<sup>2</sup>. Então, para N suficientemente grande (em outras palavras, quando N→∞), a média Σ<sub>i</sub>X<sub>i</sub> seria normalmente distribuída, com média μ e variância σ<sup>2</sup>/N.
 
-> Outra maneira de interpretar o teorema central do limite é dizer que, independentemente da distribuição, ao calcular a média de uma soma de valores de variáveis aleatórias, você acaba com uma distribuição normal.
+> Outra maneira de interpretar o teorema central do limite é dizer que, independentemente da distribuição, ao calcular a média de uma soma de valores de qualquer variável aleatória, você acaba com uma distribuição normal.
 
-Do teorema central do limite também segue que, quando N→∞, a probabilidade de a média da amostra ser igual a μ torna-se 1. Isso é conhecido como **a lei dos grandes números**.
+Do teorema central do limite também segue que, quando N→∞, a probabilidade de a média amostral ser igual a μ torna-se 1. Isso é conhecido como **a lei dos grandes números**.
 
 ## Covariância e Correlação
 
-Uma das coisas que a Ciência de Dados faz é encontrar relações entre dados. Dizemos que duas sequências **correlacionam** quando exibem comportamento semelhante ao mesmo tempo, ou seja, elas sobem/descem simultaneamente, ou uma sequência sobe quando outra cai e vice-versa. Em outras palavras, parece haver alguma relação entre duas sequências.
+Uma das coisas que a Ciência de Dados faz é encontrar relações entre dados. Dizemos que duas sequências **correlacionam** quando exibem comportamento semelhante ao mesmo tempo, ou seja, elas sobem/descem simultaneamente, ou uma sequência sobe quando outra desce e vice-versa. Em outras palavras, parece haver alguma relação entre duas sequências.
 
 > Correlação não indica necessariamente uma relação causal entre duas sequências; às vezes, ambas as variáveis podem depender de alguma causa externa, ou pode ser puramente por acaso que as duas sequências se correlacionam. No entanto, uma correlação matemática forte é uma boa indicação de que duas variáveis estão de alguma forma conectadas.
 
 Matematicamente, o principal conceito que mostra a relação entre duas variáveis aleatórias é a **covariância**, que é calculada assim: Cov(X,Y) = **E**\[(X-**E**(X))(Y-**E**(Y))\]. Calculamos o desvio de ambas as variáveis em relação aos seus valores médios e, em seguida, o produto desses desvios. Se ambas as variáveis se desviam juntas, o produto será sempre um valor positivo, que se somará a uma covariância positiva. Se ambas as variáveis se desviam fora de sincronia (ou seja, uma cai abaixo da média quando outra sobe acima da média), sempre obteremos números negativos, que se somarão a uma covariância negativa. Se os desvios não forem dependentes, eles se somarão a aproximadamente zero.
 
-O valor absoluto da covariância não nos diz muito sobre o quão grande é a correlação, porque depende da magnitude dos valores reais. Para normalizá-lo, podemos dividir a covariância pelo desvio padrão de ambas as variáveis, para obter a **correlação**. A vantagem é que a correlação está sempre no intervalo de [-1,1], onde 1 indica forte correlação positiva entre os valores, -1 - forte correlação negativa, e 0 - nenhuma correlação (variáveis independentes).
+O valor absoluto da covariância não nos diz muito sobre o quão grande é a correlação, porque depende da magnitude dos valores reais. Para normalizá-lo, podemos dividir a covariância pelo desvio padrão de ambas as variáveis, para obter a **correlação**. A vantagem é que a correlação está sempre no intervalo de [-1,1], onde 1 indica uma correlação positiva forte entre os valores, -1 - uma correlação negativa forte, e 0 - nenhuma correlação (variáveis independentes).
 
 **Exemplo**: Podemos calcular a correlação entre pesos e alturas dos jogadores de beisebol do conjunto de dados mencionado acima:
 ```python
@@ -238,9 +238,9 @@ No nosso caso, o valor 0.53 indica que há alguma correlação entre o peso e a 
 Nesta seção, aprendemos:
 
 * propriedades estatísticas básicas dos dados, como média, variância, moda e quartis
-* diferentes distribuições de variáveis aleatórias, incluindo a distribuição normal
+* diferentes distribuições de variáveis aleatórias, incluindo distribuição normal
 * como encontrar correlação entre diferentes propriedades
-* como usar o aparato matemático e estatístico para provar algumas hipóteses
+* como usar um aparato matemático e estatístico sólido para provar algumas hipóteses
 * como calcular intervalos de confiança para variáveis aleatórias com base em amostras de dados
 
 Embora esta lista definitivamente não seja exaustiva dos tópicos que existem dentro de probabilidade e estatística, ela deve ser suficiente para dar um bom início neste curso.
@@ -252,11 +252,11 @@ Use o código de exemplo no notebook para testar outras hipóteses:
 2. Jogadores de primeira base são mais altos do que jogadores de terceira base.
 3. Shortstops são mais altos do que jogadores de segunda base.
 
-## [Quiz pós-aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/7)
+## [Quiz pós-aula](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Revisão e Autoestudo
 
-Probabilidade e estatística é um tópico tão amplo que merece seu próprio curso. Se você estiver interessado em aprofundar na teoria, pode querer continuar lendo alguns dos seguintes livros:
+Probabilidade e estatística é um tópico tão amplo que merece seu próprio curso. Se você estiver interessado em aprofundar na teoria, pode continuar lendo alguns dos seguintes livros:
 
 1. [Carlos Fernandez-Granda](https://cims.nyu.edu/~cfgranda/) da Universidade de Nova York tem ótimos apontamentos [Probability and Statistics for Data Science](https://cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf) (disponível online).
 1. [Peter e Andrew Bruce. Practical Statistics for Data Scientists.](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/) [[código de exemplo em R](https://github.com/andrewgbruce/statistics-for-data-scientists)].
@@ -268,7 +268,7 @@ Probabilidade e estatística é um tópico tão amplo que merece seu próprio cu
 
 ## Créditos
 
-Esta lição foi criada com ♥️ por [Dmitry Soshnikov](http://soshnikov.com)
+Esta lição foi escrita com ♥️ por [Dmitry Soshnikov](http://soshnikov.com)
 
 ---
 
