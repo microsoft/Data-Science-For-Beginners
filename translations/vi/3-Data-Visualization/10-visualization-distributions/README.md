@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "87faccac113d772551486a67a607153e",
-  "translation_date": "2025-08-28T18:47:44+00:00",
+  "original_hash": "02ce904bc1e2bfabb7dc05c25aae375c",
+  "translation_date": "2025-09-04T20:27:22+00:00",
   "source_file": "3-Data-Visualization/10-visualization-distributions/README.md",
   "language_code": "vi"
 }
@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Trực quan hóa phân bố - _Sketchnote của [@nitya](https://twitter.com/nitya)_ |
 
-Trong bài học trước, bạn đã tìm hiểu một số thông tin thú vị về bộ dữ liệu về các loài chim ở Minnesota. Bạn đã phát hiện một số dữ liệu sai lệch bằng cách trực quan hóa các giá trị ngoại lai và xem xét sự khác biệt giữa các loại chim dựa trên chiều dài tối đa của chúng.
+Trong bài học trước, bạn đã tìm hiểu một số thông tin thú vị về bộ dữ liệu về các loài chim ở Minnesota. Bạn đã phát hiện một số dữ liệu sai bằng cách trực quan hóa các giá trị ngoại lai và xem xét sự khác biệt giữa các loại chim dựa trên chiều dài tối đa của chúng.
 
 ## [Câu hỏi trước bài học](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/18)
 ## Khám phá bộ dữ liệu về các loài chim
@@ -31,11 +31,11 @@ birds.head()
 
 |      | Tên                          | Tên khoa học           | Loại                  | Bộ           | Họ       | Chi         | Tình trạng bảo tồn | Chiều dài tối thiểu | Chiều dài tối đa | Khối lượng cơ thể tối thiểu | Khối lượng cơ thể tối đa | Sải cánh tối thiểu | Sải cánh tối đa |
 | ---: | :--------------------------- | :--------------------- | :-------------------- | :----------- | :------- | :---------- | :----------------- | ------------------: | ----------------: | --------------------------: | --------------------------: | ------------------: | ------------------: |
-|    0 | Vịt huýt sáo bụng đen        | Dendrocygna autumnalis | Vịt/Ngan/Chim nước    | Anseriformes | Anatidae | Dendrocygna | LC                 |                  47 |                  56 |                       652 |                       1020 |                  76 |                  94 |
-|    1 | Vịt huýt sáo nâu             | Dendrocygna bicolor    | Vịt/Ngan/Chim nước    | Anseriformes | Anatidae | Dendrocygna | LC                 |                  45 |                  53 |                       712 |                       1050 |                  85 |                  93 |
-|    2 | Ngỗng tuyết                  | Anser caerulescens     | Vịt/Ngan/Chim nước    | Anseriformes | Anatidae | Anser       | LC                 |                  64 |                  79 |                      2050 |                      4050 |                 135 |                 165 |
-|    3 | Ngỗng Ross                   | Anser rossii           | Vịt/Ngan/Chim nước    | Anseriformes | Anatidae | Anser       | LC                 |                57.3 |                  64 |                      1066 |                      1567 |                 113 |                 116 |
-|    4 | Ngỗng trắng lớn              | Anser albifrons        | Vịt/Ngan/Chim nước    | Anseriformes | Anatidae | Anser       | LC                 |                  64 |                  81 |                      1930 |                      3310 |                 130 |                 165 |
+|    0 | Vịt huýt sáo bụng đen        | Dendrocygna autumnalis | Vịt/Ngan/Chim nước    | Anseriformes | Anatidae | Dendrocygna | LC                 |                 47   |                 56   |                       652   |                       1020   |                   76   |                   94   |
+|    1 | Vịt huýt sáo hung            | Dendrocygna bicolor    | Vịt/Ngan/Chim nước    | Anseriformes | Anatidae | Dendrocygna | LC                 |                 45   |                 53   |                       712   |                       1050   |                   85   |                   93   |
+|    2 | Ngỗng tuyết                  | Anser caerulescens     | Vịt/Ngan/Chim nước    | Anseriformes | Anatidae | Anser       | LC                 |                 64   |                 79   |                      2050   |                      4050   |                  135   |                  165   |
+|    3 | Ngỗng Ross                   | Anser rossii           | Vịt/Ngan/Chim nước    | Anseriformes | Anatidae | Anser       | LC                 |               57.3   |                 64   |                      1066   |                      1567   |                  113   |                  116   |
+|    4 | Ngỗng trắng lớn              | Anser albifrons        | Vịt/Ngan/Chim nước    | Anseriformes | Anatidae | Anser       | LC                 |                 64   |                 81   |                      1930   |                      3310   |                  130   |                  165   |
 
 Nhìn chung, bạn có thể nhanh chóng xem cách dữ liệu được phân bố bằng cách sử dụng biểu đồ phân tán như chúng ta đã làm trong bài học trước:
 
@@ -50,11 +50,11 @@ plt.show()
 ```
 ![chiều dài tối đa theo bộ](../../../../translated_images/scatter-wb.9d98b0ed7f0388af979441853361a11df5f518f5307938a503ca7913e986111b.vi.png)
 
-Điều này cung cấp một cái nhìn tổng quan về phân bố chiều dài cơ thể theo bộ của chim, nhưng đây không phải là cách tối ưu để hiển thị phân bố thực sự. Nhiệm vụ này thường được thực hiện bằng cách tạo biểu đồ Histogram.
+Điều này cung cấp một cái nhìn tổng quan về phân bố chiều dài cơ thể theo từng bộ của chim, nhưng đây không phải là cách tối ưu để hiển thị phân bố thực sự. Nhiệm vụ này thường được thực hiện bằng cách tạo biểu đồ Histogram.
 
 ## Làm việc với biểu đồ Histogram
 
-Matplotlib cung cấp các cách rất tốt để trực quan hóa phân bố dữ liệu bằng biểu đồ Histogram. Loại biểu đồ này giống như biểu đồ cột, nơi phân bố có thể được nhìn thấy qua sự tăng giảm của các cột. Để tạo một biểu đồ Histogram, bạn cần dữ liệu số. Để tạo một biểu đồ Histogram, bạn có thể vẽ biểu đồ bằng cách định nghĩa loại là 'hist' cho Histogram. Biểu đồ này hiển thị phân bố của MaxBodyMass cho toàn bộ phạm vi dữ liệu số của bộ dữ liệu. Bằng cách chia mảng dữ liệu được cung cấp thành các nhóm nhỏ hơn, nó có thể hiển thị phân bố các giá trị của dữ liệu:
+Matplotlib cung cấp các cách rất tốt để trực quan hóa phân bố dữ liệu bằng biểu đồ Histogram. Loại biểu đồ này giống như biểu đồ cột, nơi phân bố có thể được nhìn thấy qua sự tăng giảm của các cột. Để tạo một biểu đồ Histogram, bạn cần dữ liệu số. Để tạo biểu đồ Histogram, bạn có thể vẽ biểu đồ bằng cách định nghĩa loại là 'hist' cho Histogram. Biểu đồ này hiển thị phân bố của MaxBodyMass cho toàn bộ phạm vi dữ liệu số của bộ dữ liệu. Bằng cách chia mảng dữ liệu được cung cấp thành các nhóm nhỏ hơn, nó có thể hiển thị phân bố các giá trị của dữ liệu:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
@@ -81,11 +81,11 @@ plt.show()
 ```
 ![biểu đồ histogram đã lọc](../../../../translated_images/dist3-wb.64b88db7f9780200bd486a2c2a3252548dd439672dbd3f778193db7f654b100c.vi.png)
 
-✅ Thử một số bộ lọc và điểm dữ liệu khác. Để xem toàn bộ phân bố của dữ liệu, hãy loại bỏ bộ lọc `['MaxBodyMass']` để hiển thị các phân bố được gắn nhãn.
+✅ Thử một số bộ lọc và điểm dữ liệu khác. Để xem toàn bộ phân bố của dữ liệu, hãy loại bỏ bộ lọc `['MaxBodyMass']` để hiển thị các phân bố có nhãn.
 
-Biểu đồ Histogram cung cấp một số cải tiến về màu sắc và nhãn mà bạn có thể thử:
+Biểu đồ Histogram cũng cung cấp một số cải tiến về màu sắc và nhãn để thử nghiệm:
 
-Tạo một biểu đồ Histogram 2D để so sánh mối quan hệ giữa hai phân bố. Hãy so sánh `MaxBodyMass` và `MaxLength`. Matplotlib cung cấp một cách tích hợp để hiển thị sự hội tụ bằng cách sử dụng màu sắc sáng hơn:
+Tạo một biểu đồ Histogram 2D để so sánh mối quan hệ giữa hai phân bố. Hãy so sánh `MaxBodyMass` với `MaxLength`. Matplotlib cung cấp một cách tích hợp để hiển thị sự hội tụ bằng cách sử dụng màu sắc sáng hơn:
 
 ```python
 x = filteredBirds['MaxBodyMass']
@@ -110,7 +110,7 @@ Bộ dữ liệu này cũng bao gồm thông tin tốt về loại chim và chi,
 > - EX: Tuyệt chủng
 > - LC: Ít quan tâm
 > - NT: Gần bị đe dọa
-> - VU: Dễ tổn thương
+> - VU: Dễ bị tổn thương
 
 Đây là các giá trị dựa trên văn bản, vì vậy bạn sẽ cần thực hiện một chuyển đổi để tạo biểu đồ Histogram. Sử dụng dataframe filteredBirds, hiển thị tình trạng bảo tồn của nó cùng với sải cánh tối thiểu. Bạn thấy gì?
 
@@ -141,7 +141,7 @@ Dường như không có mối tương quan tốt giữa sải cánh tối thi�
 
 ## Biểu đồ mật độ
 
-Bạn có thể đã nhận thấy rằng các biểu đồ Histogram mà chúng ta đã xem xét cho đến nay có dạng 'bậc thang' và không trôi chảy mượt mà theo một vòng cung. Để hiển thị biểu đồ mật độ mượt mà hơn, bạn có thể thử biểu đồ mật độ.
+Bạn có thể đã nhận thấy rằng các biểu đồ Histogram mà chúng ta đã xem xét cho đến nay có dạng 'bậc thang' và không trôi chảy mượt mà theo một đường cong. Để hiển thị biểu đồ mật độ mượt mà hơn, bạn có thể thử biểu đồ mật độ.
 
 Để làm việc với biểu đồ mật độ, hãy làm quen với một thư viện vẽ biểu đồ mới, [Seaborn](https://seaborn.pydata.org/generated/seaborn.kdeplot.html). 
 
@@ -157,7 +157,7 @@ plt.show()
 
 Bạn có thể thấy cách biểu đồ phản ánh biểu đồ trước đó về dữ liệu sải cánh tối thiểu; nó chỉ mượt mà hơn một chút. Theo tài liệu của Seaborn, "So với biểu đồ Histogram, KDE có thể tạo ra một biểu đồ ít lộn xộn và dễ hiểu hơn, đặc biệt khi vẽ nhiều phân bố. Nhưng nó có khả năng gây ra biến dạng nếu phân bố cơ bản bị giới hạn hoặc không mượt mà. Giống như biểu đồ Histogram, chất lượng của biểu diễn cũng phụ thuộc vào việc chọn các tham số làm mịn tốt." [nguồn](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Nói cách khác, các giá trị ngoại lai như mọi khi sẽ làm cho biểu đồ của bạn hoạt động không đúng.
 
-Nếu bạn muốn xem lại đường MaxBodyMass gập ghềnh trong biểu đồ thứ hai mà bạn đã tạo, bạn có thể làm mượt nó rất tốt bằng cách tạo lại nó bằng phương pháp này:
+Nếu bạn muốn xem lại đường khối lượng cơ thể tối đa gấp khúc trong biểu đồ thứ hai mà bạn đã tạo, bạn có thể làm mượt nó rất tốt bằng cách tạo lại nó bằng phương pháp này:
 
 ```python
 sns.kdeplot(filteredBirds['MaxBodyMass'])
@@ -175,7 +175,7 @@ plt.show()
 
 ✅ Đọc về các tham số có sẵn cho loại biểu đồ này và thử nghiệm!
 
-Loại biểu đồ này cung cấp các hình ảnh trực quan giải thích rất đẹp. Với một vài dòng mã, ví dụ, bạn có thể hiển thị mật độ khối lượng cơ thể tối đa theo bộ của chim:
+Loại biểu đồ này cung cấp các hình ảnh trực quan rất dễ hiểu. Với một vài dòng mã, ví dụ, bạn có thể hiển thị mật độ khối lượng cơ thể tối đa theo từng bộ của chim:
 
 ```python
 sns.kdeplot(
@@ -195,13 +195,13 @@ sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationS
 
 ![nhiều mật độ, chồng lên nhau](../../../../translated_images/multi.56548caa9eae8d0fd9012a8586295538c7f4f426e2abc714ba070e2e4b1fc2c1.vi.png)
 
-Có lẽ đáng để nghiên cứu xem cụm chim 'Dễ tổn thương' theo chiều dài của chúng có ý nghĩa hay không.
+Có lẽ đáng để nghiên cứu xem cụm chim 'Dễ bị tổn thương' theo chiều dài của chúng có ý nghĩa hay không.
 
 ## 🚀 Thử thách
 
-Biểu đồ Histogram là một loại biểu đồ tinh vi hơn so với biểu đồ phân tán, biểu đồ cột hoặc biểu đồ đường cơ bản. Hãy tìm kiếm trên internet để tìm các ví dụ tốt về việc sử dụng biểu đồ Histogram. Chúng được sử dụng như thế nào, chúng thể hiện điều gì, và trong các lĩnh vực hoặc lĩnh vực nghiên cứu nào chúng thường được sử dụng?
+Biểu đồ Histogram là một loại biểu đồ tinh vi hơn so với biểu đồ phân tán, biểu đồ cột hoặc biểu đồ đường cơ bản. Hãy tìm kiếm trên internet để tìm các ví dụ tốt về việc sử dụng biểu đồ Histogram. Chúng được sử dụng như thế nào, chúng thể hiện điều gì, và chúng thường được sử dụng trong các lĩnh vực hoặc lĩnh vực nghiên cứu nào?
 
-## [Câu hỏi sau bài học](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/19)
+## [Câu hỏi sau bài học](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Ôn tập & Tự học
 
@@ -214,4 +214,4 @@ Trong bài học này, bạn đã sử dụng Matplotlib và bắt đầu làm v
 ---
 
 **Tuyên bố miễn trừ trách nhiệm**:  
-Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc không chính xác. Tài liệu gốc bằng ngôn ngữ bản địa nên được coi là nguồn thông tin chính thức. Đối với các thông tin quan trọng, khuyến nghị sử dụng dịch vụ dịch thuật chuyên nghiệp từ con người. Chúng tôi không chịu trách nhiệm về bất kỳ sự hiểu lầm hoặc diễn giải sai nào phát sinh từ việc sử dụng bản dịch này.
+Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc sự không chính xác. Tài liệu gốc bằng ngôn ngữ bản địa nên được coi là nguồn tham khảo chính thức. Đối với các thông tin quan trọng, nên sử dụng dịch vụ dịch thuật chuyên nghiệp từ con người. Chúng tôi không chịu trách nhiệm cho bất kỳ sự hiểu lầm hoặc diễn giải sai nào phát sinh từ việc sử dụng bản dịch này.

@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "408c55cab2880daa4e78616308bd5db7",
-  "translation_date": "2025-08-28T15:09:18+00:00",
+  "original_hash": "6a0556b17de4c8d1a9470b02247b01d4",
+  "translation_date": "2025-09-04T19:49:07+00:00",
   "source_file": "5-Data-Science-In-Cloud/17-Introduction/README.md",
   "language_code": "nl"
 }
@@ -14,21 +14,21 @@ CO_OP_TRANSLATOR_METADATA:
 | Data Science In The Cloud: Introductie - _Sketchnote door [@nitya](https://twitter.com/nitya)_ |
 
 
-In deze les leer je de fundamentele principes van de Cloud, ontdek je waarom het interessant kan zijn om Cloud-diensten te gebruiken voor je data science-projecten, en bekijken we enkele voorbeelden van data science-projecten die in de Cloud worden uitgevoerd. 
+In deze les leer je de fundamentele principes van de Cloud kennen, ontdek je waarom het interessant kan zijn om Cloud-diensten te gebruiken voor je data science-projecten, en bekijken we enkele voorbeelden van data science-projecten die in de Cloud worden uitgevoerd. 
 
 ## [Pre-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/32)
 
 ## Wat is de Cloud?
 
-De Cloud, of Cloud Computing, is het leveren van een breed scala aan betaalbare computerdiensten via een infrastructuur op het internet. Diensten omvatten oplossingen zoals opslag, databases, netwerken, software, analytics en intelligente diensten.
+De Cloud, of Cloud Computing, is het leveren van een breed scala aan betaalbare computerdiensten die worden gehost op een infrastructuur via het internet. Diensten omvatten oplossingen zoals opslag, databases, netwerken, software, analytics en intelligente diensten.
 
 We onderscheiden meestal de Publieke, Private en Hybride clouds als volgt:
 
 * Publieke cloud: een publieke cloud is eigendom van en wordt beheerd door een externe cloudserviceprovider die zijn computermiddelen via het internet aan het publiek levert.
-* Private cloud: verwijst naar cloudcomputing-middelen die exclusief door één bedrijf of organisatie worden gebruikt, met diensten en een infrastructuur die worden onderhouden op een privé-netwerk.
+* Private cloud: verwijst naar cloud computing-middelen die exclusief worden gebruikt door een enkel bedrijf of organisatie, met diensten en een infrastructuur die worden onderhouden op een privé-netwerk.
 * Hybride cloud: de hybride cloud is een systeem dat publieke en private clouds combineert. Gebruikers kiezen voor een datacenter op locatie, terwijl ze gegevens en applicaties laten draaien op een of meer publieke clouds.
 
-De meeste cloudcomputing-diensten vallen in drie categorieën: Infrastructure as a Service (IaaS), Platform as a Service (PaaS) en Software as a Service (SaaS).
+De meeste cloud computing-diensten vallen in drie categorieën: Infrastructure as a Service (IaaS), Platform as a Service (PaaS) en Software as a Service (SaaS).
 
 * Infrastructure as a Service (IaaS): gebruikers huren een IT-infrastructuur zoals servers en virtuele machines (VMs), opslag, netwerken, besturingssystemen.
 * Platform as a Service (PaaS): gebruikers huren een omgeving voor het ontwikkelen, testen, leveren en beheren van softwareapplicaties. Gebruikers hoeven zich geen zorgen te maken over het opzetten of beheren van de onderliggende infrastructuur van servers, opslag, netwerk en databases die nodig zijn voor ontwikkeling.
@@ -40,21 +40,21 @@ Enkele van de grootste Cloud-providers zijn Amazon Web Services, Google Cloud Pl
 
 Ontwikkelaars en IT-professionals kiezen om met de Cloud te werken om verschillende redenen, waaronder:
 
-* Innovatie: je kunt je applicaties versterken door innovatieve diensten van Cloud-providers direct in je apps te integreren.
-* Flexibiliteit: je betaalt alleen voor de diensten die je nodig hebt en kunt kiezen uit een breed scala aan diensten. Je betaalt meestal naar gebruik en past je diensten aan je veranderende behoeften aan.
-* Budget: je hoeft geen initiële investeringen te doen om hardware en software aan te schaffen, datacenters op te zetten en te beheren. Je betaalt alleen voor wat je gebruikt.
+* Innovatie: je kunt je applicaties versterken door innovatieve diensten die door Cloud-providers zijn ontwikkeld direct in je apps te integreren.
+* Flexibiliteit: je betaalt alleen voor de diensten die je nodig hebt en kunt kiezen uit een breed scala aan diensten. Je betaalt meestal naar gebruik en past je diensten aan op basis van je veranderende behoeften.
+* Budget: je hoeft geen initiële investeringen te doen om hardware en software aan te schaffen, datacenters op te zetten en te beheren, en je betaalt alleen voor wat je gebruikt.
 * Schaalbaarheid: je middelen kunnen worden aangepast aan de behoeften van je project, wat betekent dat je apps meer of minder rekenkracht, opslag en bandbreedte kunnen gebruiken, afhankelijk van externe factoren op elk moment.
 * Productiviteit: je kunt je richten op je bedrijf in plaats van tijd te besteden aan taken die door anderen kunnen worden beheerd, zoals het beheren van datacenters.
 * Betrouwbaarheid: Cloud Computing biedt verschillende manieren om je gegevens continu te back-uppen en je kunt rampenherstelplannen opstellen om je bedrijf en diensten draaiende te houden, zelfs in crisistijden.
 * Beveiliging: je kunt profiteren van beleidsregels, technologieën en controles die de beveiliging van je project versterken.
 
-Dit zijn enkele van de meest voorkomende redenen waarom mensen ervoor kiezen om Cloud-diensten te gebruiken. Nu we een beter begrip hebben van wat de Cloud is en wat de belangrijkste voordelen zijn, laten we specifiek kijken naar de taken van datawetenschappers en ontwikkelaars die met data werken, en hoe de Cloud hen kan helpen met verschillende uitdagingen waarmee ze te maken kunnen krijgen:
+Dit zijn enkele van de meest voorkomende redenen waarom mensen ervoor kiezen om Cloud-diensten te gebruiken. Nu we een beter begrip hebben van wat de Cloud is en wat de belangrijkste voordelen zijn, laten we specifieker kijken naar de taken van datawetenschappers en ontwikkelaars die met data werken, en hoe de Cloud hen kan helpen met verschillende uitdagingen waarmee ze te maken kunnen krijgen:
 
 * Opslaan van grote hoeveelheden data: in plaats van grote servers te kopen, beheren en beschermen, kun je je data direct in de Cloud opslaan, met oplossingen zoals Azure Cosmos DB, Azure SQL Database en Azure Data Lake Storage.
-* Data-integratie uitvoeren: data-integratie is een essentieel onderdeel van Data Science, waarmee je de overgang maakt van dataverzameling naar actie ondernemen. Met data-integratiediensten die in de Cloud worden aangeboden, kun je data verzamelen, transformeren en integreren vanuit verschillende bronnen in een enkel datawarehouse, met Data Factory.
-* Data verwerken: het verwerken van grote hoeveelheden data vereist veel rekenkracht, en niet iedereen heeft toegang tot krachtige machines. Daarom kiezen veel mensen ervoor om direct gebruik te maken van de enorme rekenkracht van de Cloud om hun oplossingen uit te voeren en te implementeren.
+* Uitvoeren van data-integratie: data-integratie is een essentieel onderdeel van Data Science, waarmee je de overgang maakt van dataverzameling naar het nemen van acties. Met data-integratiediensten die in de Cloud worden aangeboden, kun je data verzamelen, transformeren en integreren vanuit verschillende bronnen in een enkel datawarehouse, met Data Factory.
+* Verwerken van data: het verwerken van grote hoeveelheden data vereist veel rekenkracht, en niet iedereen heeft toegang tot machines die krachtig genoeg zijn. Daarom kiezen veel mensen ervoor om direct gebruik te maken van de enorme rekenkracht van de Cloud om hun oplossingen uit te voeren en te implementeren.
 * Gebruik maken van data-analyse diensten: Cloud-diensten zoals Azure Synapse Analytics, Azure Stream Analytics en Azure Databricks helpen je om je data om te zetten in bruikbare inzichten.
-* Gebruik maken van Machine Learning en data-intelligentie diensten: in plaats van vanaf nul te beginnen, kun je gebruik maken van machine learning-algoritmen die door de Cloud-provider worden aangeboden, met diensten zoals AzureML. Je kunt ook cognitieve diensten gebruiken zoals spraak-naar-tekst, tekst-naar-spraak, computervisie en meer.
+* Gebruik maken van Machine Learning en data-intelligentie diensten: in plaats van helemaal opnieuw te beginnen, kun je gebruik maken van machine learning-algoritmes die door de Cloud-provider worden aangeboden, met diensten zoals AzureML. Je kunt ook cognitieve diensten gebruiken zoals spraak-naar-tekst, tekst-naar-spraak, computervisie en meer.
 
 ## Voorbeelden van Data Science in de Cloud
 
@@ -65,7 +65,7 @@ We beginnen met een scenario dat vaak wordt bestudeerd door mensen die beginnen 
 
 Stel dat je een nieuwssite beheert en je wilt live data gebruiken om te begrijpen welke content je lezers interessant zouden kunnen vinden. Om hier meer over te weten te komen, kun je een programma bouwen dat real-time sentimentanalyse uitvoert op data van Twitter-publicaties, over onderwerpen die relevant zijn voor je lezers.
 
-De belangrijkste indicatoren waar je naar kijkt zijn het aantal tweets over specifieke onderwerpen (hashtags) en sentiment, dat wordt vastgesteld met analysetools die sentimentanalyse uitvoeren rond de gespecificeerde onderwerpen.
+De belangrijkste indicatoren waar je naar kijkt zijn het volume van tweets over specifieke onderwerpen (hashtags) en sentiment, dat wordt vastgesteld met analysetools die sentimentanalyse uitvoeren rond de gespecificeerde onderwerpen.
 
 De stappen die nodig zijn om dit project te maken zijn als volgt:
 
@@ -79,7 +79,7 @@ De stappen die nodig zijn om dit project te maken zijn als volgt:
 Bekijk de volledige procedure in de [documentatie](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends?WT.mc_id=academic-77958-bethanycheum&ocid=AID30411099).
 
 ### Analyse van wetenschappelijke artikelen
-Laten we een ander voorbeeld bekijken van een project gemaakt door [Dmitry Soshnikov](http://soshnikov.com), een van de auteurs van dit curriculum.
+Laten we een ander voorbeeld bekijken van een project dat is gemaakt door [Dmitry Soshnikov](http://soshnikov.com), een van de auteurs van dit curriculum.
 
 Dmitry heeft een tool gemaakt die COVID-artikelen analyseert. Door dit project te bekijken, zie je hoe je een tool kunt maken die kennis uit wetenschappelijke artikelen haalt, inzichten verkrijgt en onderzoekers helpt om efficiënt door grote collecties artikelen te navigeren.
 
@@ -102,7 +102,7 @@ Bronnen:
 
 ## Post-Lecture Quiz
 
-[Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/33)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Opdracht
 

@@ -1,71 +1,71 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "32ddfef8121650f2ca2f3416fd283c37",
-  "translation_date": "2025-08-28T15:13:35+00:00",
+  "original_hash": "54c5a1c74aecb69d2f9099300a4b7eea",
+  "translation_date": "2025-09-04T20:02:55+00:00",
   "source_file": "2-Working-With-Data/06-non-relational/README.md",
   "language_code": "he"
 }
 -->
 # עבודה עם נתונים: נתונים לא-רלציוניים
 
-|![ סקצ'נוט מאת [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/06-NoSQL.png)|
+|![ סקיצה מאת [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/06-NoSQL.png)|
 |:---:|
-|עבודה עם נתוני NoSQL - _סקצ'נוט מאת [@nitya](https://twitter.com/nitya)_ |
+|עבודה עם נתוני NoSQL - _סקיצה מאת [@nitya](https://twitter.com/nitya)_ |
 
-## [שאלון לפני ההרצאה](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/10)
+## [שאלון לפני השיעור](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/10)
 
-נתונים אינם מוגבלים רק למסדי נתונים רלציוניים. שיעור זה מתמקד בנתונים לא-רלציוניים ויכסה את היסודות של גיליונות אלקטרוניים ו-NoSQL.
+נתונים אינם מוגבלים לבסיסי נתונים רלציוניים. שיעור זה מתמקד בנתונים לא-רלציוניים ויכסה את היסודות של גיליונות אלקטרוניים ו-NoSQL.
 
 ## גיליונות אלקטרוניים
 
-גיליונות אלקטרוניים הם דרך פופולרית לאחסן ולחקור נתונים מכיוון שהם דורשים פחות עבודה כדי להתחיל. בשיעור זה תלמדו את הרכיבים הבסיסיים של גיליון אלקטרוני, כמו גם נוסחאות ופונקציות. הדוגמאות יוסברו באמצעות Microsoft Excel, אך רוב החלקים והנושאים יהיו בעלי שמות ושלבים דומים בהשוואה לתוכנות גיליונות אלקטרוניים אחרות.
+גיליונות אלקטרוניים הם דרך פופולרית לאחסן ולחקור נתונים מכיוון שהם דורשים פחות עבודה כדי להגדיר ולהתחיל. בשיעור זה תלמדו את הרכיבים הבסיסיים של גיליון אלקטרוני, כמו גם נוסחאות ופונקציות. הדוגמאות יוסברו באמצעות Microsoft Excel, אך רוב החלקים והנושאים יהיו בעלי שמות ושלבים דומים בהשוואה לתוכנות גיליונות אלקטרוניים אחרות.
 
 ![חוברת עבודה ריקה של Microsoft Excel עם שני גיליונות עבודה](../../../../translated_images/parts-of-spreadsheet.120711c82aa18a45c3e62a491a15bba0a31ab0e9db407ec022702fed8ffd89bf.he.png)
 
-גיליון אלקטרוני הוא קובץ שניתן לגשת אליו במערכת הקבצים של מחשב, מכשיר או מערכת קבצים מבוססת ענן. התוכנה עצמה עשויה להיות מבוססת דפדפן או יישום שצריך להתקין על מחשב או להוריד כאפליקציה. ב-Excel קבצים אלו מוגדרים גם כ-**חוברות עבודה**, ומונח זה ישמש לאורך כל השיעור.
+גיליון אלקטרוני הוא קובץ ויהיה נגיש במערכת הקבצים של מחשב, מכשיר או מערכת קבצים מבוססת ענן. התוכנה עצמה עשויה להיות מבוססת דפדפן או אפליקציה שצריך להתקין על מחשב או להוריד כאפליקציה. ב-Excel קבצים אלו מוגדרים גם כ-**חוברות עבודה**, וטרמינולוגיה זו תיעשה בה שימוש בשאר השיעור.
 
-חוברת עבודה מכילה גיליון עבודה אחד או יותר, כאשר כל גיליון עבודה מסומן באמצעות כרטיסיות. בתוך גיליון עבודה ישנם מלבנים הנקראים **תאים**, המכילים את הנתונים בפועל. תא הוא החיתוך של שורה ועמודה, כאשר העמודות מסומנות באותיות והשורות ממוספרות. חלק מהגיליונות יכילו כותרות בשורות הראשונות כדי לתאר את הנתונים בתא.
+חוברת עבודה מכילה אחד או יותר **גיליונות עבודה**, כאשר כל גיליון עבודה מסומן באמצעות לשוניות. בתוך גיליון עבודה ישנם מלבנים הנקראים **תאים**, אשר מכילים את הנתונים בפועל. תא הוא נקודת המפגש בין שורה לעמודה, כאשר העמודות מסומנות באותיות אלפביתיות והשורות מסומנות במספרים. חלק מהגיליונות האלקטרוניים יכילו כותרות בשורות הראשונות כדי לתאר את הנתונים בתא.
 
-עם הרכיבים הבסיסיים הללו של חוברת עבודה ב-Excel, נשתמש בדוגמה מתוך [תבניות Microsoft](https://templates.office.com/) המתמקדת במלאי כדי לעבור על חלקים נוספים של גיליון אלקטרוני.
+עם הרכיבים הבסיסיים הללו של חוברת עבודה ב-Excel, נשתמש בדוגמה מ-[תבניות Microsoft](https://templates.office.com/) המתמקדת במלאי כדי לעבור על חלקים נוספים של גיליון אלקטרוני.
 
 ### ניהול מלאי
 
-קובץ הגיליון האלקטרוני בשם "InventoryExample" הוא גיליון מעוצב של פריטים במלאי המכיל שלושה גיליונות עבודה, כאשר הכרטיסיות מסומנות "Inventory List", "Inventory Pick List" ו-"Bin Lookup". שורה 4 בגיליון העבודה Inventory List היא הכותרת, שמתארת את הערך של כל תא בעמודת הכותרת.
+קובץ הגיליון האלקטרוני בשם "InventoryExample" הוא גיליון אלקטרוני מעוצב של פריטים בתוך מלאי שמכיל שלושה גיליונות עבודה, כאשר הלשוניות מסומנות כ"רשימת מלאי", "רשימת איסוף מלאי" ו"חיפוש מיקום". שורה 4 בגיליון העבודה של רשימת המלאי היא הכותרת, שמתארת את הערך של כל תא בעמודת הכותרת.
 
-![נוסחה מסומנת מתוך רשימת מלאי לדוגמה ב-Microsoft Excel](../../../../translated_images/formula-excel.ad1068c220892f5ead570d12f2394897961d31a5043a1dd4e6fc5d7690c7a14e.he.png)
+![נוסחה מודגשת מתוך רשימת מלאי לדוגמה ב-Microsoft Excel](../../../../translated_images/formula-excel.ad1068c220892f5ead570d12f2394897961d31a5043a1dd4e6fc5d7690c7a14e.he.png)
 
-ישנם מקרים שבהם תא תלוי בערכים של תאים אחרים כדי ליצור את ערכו. גיליון העבודה Inventory List עוקב אחר העלות של כל פריט במלאי, אך מה אם נצטרך לדעת את הערך של כל המלאי? [**נוסחאות**](https://support.microsoft.com/en-us/office/overview-of-formulas-34519a4e-1e8d-4f4b-84d4-d642c4f63263) מבצעות פעולות על נתוני תאים ומשמשות לחישוב עלות המלאי בדוגמה זו. גיליון זה השתמש בנוסחה בעמודת Inventory Value כדי לחשב את הערך של כל פריט על ידי הכפלת הכמות תחת כותרת QTY והעלויות תחת כותרת COST. לחיצה כפולה או סימון תא תציג את הנוסחה. תבחינו שנוסחאות מתחילות בסימן שווה, ואחריו החישוב או הפעולה.
+ישנם מקרים שבהם תא תלוי בערכים של תאים אחרים כדי ליצור את ערכו. גיליון העבודה של רשימת המלאי עוקב אחר העלות של כל פריט במלאי שלו, אך מה אם נצטרך לדעת את הערך של כל המלאי? [**נוסחאות**](https://support.microsoft.com/en-us/office/overview-of-formulas-34519a4e-1e8d-4f4b-84d4-d642c4f63263) מבצעות פעולות על נתוני תאים ומשמשות לחישוב העלות של המלאי בדוגמה זו. גיליון אלקטרוני זה השתמש בנוסחה בעמודת ערך המלאי כדי לחשב את הערך של כל פריט על ידי הכפלת הכמות תחת כותרת QTY והעלויות תחת כותרת COST. לחיצה כפולה או סימון תא תציג את הנוסחה. תבחינו שנוסחאות מתחילות בסימן שווה, ואחריו החישוב או הפעולה.
 
-![פונקציה מסומנת מתוך רשימת מלאי לדוגמה ב-Microsoft Excel](../../../../translated_images/function-excel.be2ae4feddc10ca089f3d4363040d93b7fd046c8d4f83ba975ec46483ee99895.he.png)
+![פונקציה מודגשת מתוך רשימת מלאי לדוגמה ב-Microsoft Excel](../../../../translated_images/function-excel.be2ae4feddc10ca089f3d4363040d93b7fd046c8d4f83ba975ec46483ee99895.he.png)
 
-ניתן להשתמש בנוסחה נוספת כדי להוסיף את כל הערכים של Inventory Value יחד כדי לקבל את הערך הכולל. ניתן לחשב זאת על ידי הוספת כל תא כדי ליצור את הסכום, אך זו יכולה להיות משימה מייגעת. ל-Excel יש [**פונקציות**](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89), או נוסחאות מוגדרות מראש לביצוע חישובים על ערכי תאים. פונקציות דורשות ארגומנטים, שהם הערכים הנדרשים לביצוע החישובים. כאשר פונקציות דורשות יותר מארגומנט אחד, יש לרשום אותם בסדר מסוים אחרת הפונקציה לא תחשב את הערך הנכון. בדוגמה זו נעשה שימוש בפונקציה SUM, ומשתמשים בערכים של Inventory Value כארגומנט כדי להוסיף את הסכום הכולל המופיע תחת שורה 3, עמודה B (המכונה גם B3).
+ניתן להשתמש בנוסחה נוספת כדי להוסיף את כל הערכים של ערך המלאי יחד כדי לקבל את הערך הכולל. ניתן לחשב זאת על ידי הוספת כל תא כדי ליצור את הסכום, אך זו יכולה להיות משימה מייגעת. ל-Excel יש [**פונקציות**](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89), או נוסחאות מוגדרות מראש לביצוע חישובים על ערכי תאים. פונקציות דורשות ארגומנטים, שהם הערכים הנדרשים לביצוע החישובים. כאשר פונקציות דורשות יותר מארגומנט אחד, יש צורך לרשום אותם בסדר מסוים אחרת הפונקציה עשויה לא לחשב את הערך הנכון. דוגמה זו משתמשת בפונקציה SUM, ומשתמשת בערכים של ערך המלאי כארגומנט כדי להוסיף וליצור את הסכום המופיע תחת שורה 3, עמודה B (המכונה גם B3).
 
 ## NoSQL
 
-NoSQL הוא מונח כללי לדרכים השונות לאחסן נתונים לא-רלציוניים וניתן לפרשו כ"לא-SQL", "לא-רלציוני" או "לא רק SQL". מערכות מסדי נתונים מסוג זה יכולות להיות מסווגות לארבעה סוגים.
+NoSQL הוא מונח כולל לדרכים השונות לאחסן נתונים לא-רלציוניים וניתן לפרש אותו כ"לא SQL", "לא רלציוני" או "לא רק SQL". מערכות בסיסי נתונים מסוג זה יכולות להיות מסווגות ל-4 סוגים.
 
-![ייצוג גרפי של מאגר נתונים מסוג key-value המציג 4 מפתחות ייחודיים המשויכים ל-4 ערכים שונים](../../../../translated_images/kv-db.e8f2b75686bbdfcba0c827b9272c10ae0821611ea0fe98429b9d13194383afa6.he.png)  
-> מקור: [בלוג של מיכאל ביאלקי](https://www.michalbialecki.com/2018/03/18/azure-cosmos-db-key-value-database-cloud/)
+![ייצוג גרפי של בסיס נתונים מסוג מפתח-ערך המציג 4 מפתחות מספריים ייחודיים המשויכים ל-4 ערכים שונים](../../../../translated_images/kv-db.e8f2b75686bbdfcba0c827b9272c10ae0821611ea0fe98429b9d13194383afa6.he.png)
+> מקור מ-[בלוג Michał Białecki](https://www.michalbialecki.com/2018/03/18/azure-cosmos-db-key-value-database-cloud/)
 
-[מסדי נתונים מסוג key-value](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#keyvalue-data-stores) משייכים מפתחות ייחודיים, שהם מזהים ייחודיים, לערכים. זוגות אלו נשמרים באמצעות [טבלת hash](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/) עם פונקציית hash מתאימה.
+[מפתח-ערך](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#keyvalue-data-stores) בסיסי נתונים משייכים מפתחות ייחודיים, שהם מזהה ייחודי המשויך לערך. זוגות אלו נשמרים באמצעות [טבלת האש](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/) עם פונקציית האש מתאימה.
 
-![ייצוג גרפי של מאגר נתונים מסוג גרף המציג את הקשרים בין אנשים, תחומי העניין שלהם ומיקומים](../../../../translated_images/graph-db.d13629152f79a9dac895b20fa7d841d4d4d6f6008b1382227c3bbd200fd4cfa1.he.png)  
-> מקור: [Microsoft](https://docs.microsoft.com/en-us/azure/cosmos-db/graph/graph-introduction#graph-database-by-example)
+![ייצוג גרפי של בסיס נתונים גרפי המציג את הקשרים בין אנשים, תחומי העניין שלהם ומיקומים](../../../../translated_images/graph-db.d13629152f79a9dac895b20fa7d841d4d4d6f6008b1382227c3bbd200fd4cfa1.he.png)
+> מקור מ-[Microsoft](https://docs.microsoft.com/en-us/azure/cosmos-db/graph/graph-introduction#graph-database-by-example)
 
-[מסדי נתונים מסוג גרף](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#graph-data-stores) מתארים קשרים בנתונים ומיוצגים כאוסף של צמתים וקשתות. צומת מייצג ישות, משהו שקיים בעולם האמיתי כמו סטודנט או דוח בנק. קשתות מייצגות את הקשר בין שתי ישויות. לכל צומת וקשת יש תכונות המספקות מידע נוסף עליהם.
+[גרף](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#graph-data-stores) בסיסי נתונים מתארים קשרים בנתונים ומיוצגים כאוסף של צמתים וקצוות. צומת מייצג ישות, משהו שקיים בעולם האמיתי כמו סטודנט או דוח בנק. קצוות מייצגים את הקשר בין שתי ישויות. לכל צומת וקצה יש תכונות המספקות מידע נוסף על כל צומת וקצה.
 
-![ייצוג גרפי של מאגר נתונים עמודתי המציג מסד נתונים של לקוחות עם שתי משפחות עמודות בשם Identity ו-Contact Info](../../../../translated_images/columnar-db.ffcfe73c3e9063a8c8f93f8ace85e1200863584b1e324eb5159d8ca10f62ec04.he.png)
+![ייצוג גרפי של בסיס נתונים עמודתי המציג בסיס נתונים של לקוחות עם שתי משפחות עמודות בשם זהות ומידע ליצירת קשר](../../../../translated_images/columnar-db.ffcfe73c3e9063a8c8f93f8ace85e1200863584b1e324eb5159d8ca10f62ec04.he.png)
 
-[מסדי נתונים עמודתיים](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) מארגנים נתונים לעמודות ושורות כמו מבנה נתונים רלציוני, אך כל עמודה מחולקת לקבוצות הנקראות משפחות עמודות, שבהן כל הנתונים תחת עמודה אחת קשורים וניתן לשלוף ולשנות אותם כיחידה אחת.
+[עמודתי](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) בסיסי נתונים מארגנים נתונים לעמודות ושורות כמו מבנה נתונים רלציוני, אך כל עמודה מחולקת לקבוצות הנקראות משפחת עמודות, שבה כל הנתונים תחת עמודה אחת קשורים וניתן לאחזר ולשנות אותם כיחידה אחת.
 
-### מסדי נתונים מסמכים עם Azure Cosmos DB
+### בסיסי נתונים מסמכים עם Azure Cosmos DB
 
-[מסדי נתונים מסמכים](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#document-data-stores) מבוססים על הרעיון של מסד נתונים מסוג key-value ומורכבים מסדרה של שדות ואובייקטים. חלק זה יחקור מסדי נתונים מסמכים עם אמולטור Cosmos DB.
+[מסמך](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#document-data-stores) בסיסי נתונים מבוססים על הרעיון של בסיס נתונים מפתח-ערך ומורכבים מסדרה של שדות ואובייקטים. חלק זה יחקור בסיסי נתונים מסמכים עם אמולטור Cosmos DB.
 
-מסד נתונים של Cosmos DB מתאים להגדרה של "לא רק SQL", כאשר מסד הנתונים המסמכים של Cosmos DB מסתמך על SQL כדי לשאול את הנתונים. [השיעור הקודם](../05-relational-databases/README.md) על SQL מכסה את היסודות של השפה, ונוכל ליישם כמה מהשאילתות גם כאן. נשתמש באמולטור Cosmos DB, שמאפשר לנו ליצור ולחקור מסד נתונים מסמכים באופן מקומי על מחשב. קראו עוד על האמולטור [כאן](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21).
+בסיס נתונים של Cosmos DB מתאים להגדרה של "לא רק SQL", כאשר בסיס הנתונים המסמכים של Cosmos DB מסתמך על SQL כדי לשאול את הנתונים. [השיעור הקודם](../05-relational-databases/README.md) על SQL מכסה את היסודות של השפה, ונוכל ליישם כמה מהשאילתות הללו גם כאן. נשתמש באמולטור Cosmos DB, שמאפשר לנו ליצור ולחקור בסיס נתונים מסמכים באופן מקומי על מחשב. קראו עוד על האמולטור [כאן](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21).
 
-מסמך הוא אוסף של שדות וערכי אובייקטים, כאשר השדות מתארים מה מייצג ערך האובייקט. להלן דוגמה למסמך:
+מסמך הוא אוסף של שדות וערכי אובייקטים, כאשר השדות מתארים מה ערך האובייקט מייצג. להלן דוגמה למסמך.
 
 ```json
 {
@@ -82,35 +82,35 @@ NoSQL הוא מונח כללי לדרכים השונות לאחסן נתונים
 
 השדות המעניינים במסמך זה הם: `firstname`, `id`, ו-`age`. שאר השדות עם הקווים התחתונים נוצרו על ידי Cosmos DB.
 
-#### חקירת נתונים עם אמולטור Cosmos DB
+#### חקר נתונים עם אמולטור Cosmos DB
 
-ניתן להוריד ולהתקין את האמולטור [ל-Windows כאן](https://aka.ms/cosmosdb-emulator). עיינו ב-[תיעוד זה](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21#run-on-linux-macos) לאפשרויות הפעלה עבור macOS ו-Linux.
+ניתן להוריד ולהתקין את האמולטור [ל-Windows כאן](https://aka.ms/cosmosdb-emulator). עיינו ב-[תיעוד זה](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21#run-on-linux-macos) לאפשרויות כיצד להפעיל את האמולטור עבור macOS ו-Linux.
 
 האמולטור פותח חלון דפדפן, שבו תצוגת Explorer מאפשרת לחקור מסמכים.
 
 ![תצוגת Explorer של אמולטור Cosmos DB](../../../../translated_images/cosmosdb-emulator-explorer.a1c80b1347206fe2f30f88fc123821636587d04fc5a56a9eb350c7da6b31f361.he.png)
 
-אם אתם עוקבים, לחצו על "Start with Sample" כדי ליצור מסד נתונים לדוגמה בשם SampleDB. אם תרחיבו את SampleDB על ידי לחיצה על החץ, תמצאו מיכל בשם `Persons`. מיכל מחזיק אוסף של פריטים, שהם המסמכים שבתוך המיכל. תוכלו לחקור את ארבעת המסמכים האישיים תחת `Items`.
+אם אתם עוקבים, לחצו על "Start with Sample" כדי ליצור בסיס נתונים לדוגמה בשם SampleDB. אם תרחיבו את SampleDB על ידי לחיצה על החץ תמצאו מיכל בשם `Persons`. מיכל מחזיק אוסף של פריטים, שהם המסמכים בתוך המיכל. ניתן לחקור את ארבעת המסמכים האישיים תחת `Items`.
 
-![חקירת נתוני דוגמה באמולטור Cosmos DB](../../../../translated_images/cosmosdb-emulator-persons.bf640586a7077c8985dfd3071946465c8e074c722c7c202d6d714de99a93b90a.he.png)
+![חקר נתונים לדוגמה באמולטור Cosmos DB](../../../../translated_images/cosmosdb-emulator-persons.bf640586a7077c8985dfd3071946465c8e074c722c7c202d6d714de99a93b90a.he.png)
 
-#### שאילתת נתונים מסמכים עם אמולטור Cosmos DB
+#### שאילתת נתוני מסמכים עם אמולטור Cosmos DB
 
-ניתן גם לשאול את נתוני הדוגמה על ידי לחיצה על כפתור SQL Query החדש (הכפתור השני משמאל).
+ניתן גם לשאול את הנתונים לדוגמה על ידי לחיצה על כפתור השאילתה SQL החדשה (הכפתור השני משמאל).
 
 `SELECT * FROM c` מחזיר את כל המסמכים במיכל. נוסיף תנאי where ונמצא את כל מי שגילו פחות מ-40.
 
 `SELECT * FROM c where c.age < 40`
 
-![הרצת שאילתת SELECT על נתוני דוגמה באמולטור Cosmos DB למציאת מסמכים שבהם ערך השדה age קטן מ-40](../../../../translated_images/cosmosdb-emulator-persons-query.6905ebb497e3cd047cd96e55a0a03f69ce1b91b2b3d8c147e617b746b22b7e33.he.png)
+![הרצת שאילתת SELECT על נתונים לדוגמה באמולטור Cosmos DB כדי למצוא מסמכים עם ערך שדה גיל פחות מ-40](../../../../translated_images/cosmosdb-emulator-persons-query.6905ebb497e3cd047cd96e55a0a03f69ce1b91b2b3d8c147e617b746b22b7e33.he.png)
 
 השאילתה מחזירה שני מסמכים, שימו לב שערך הגיל עבור כל מסמך קטן מ-40.
 
 #### JSON ומסמכים
 
-אם אתם מכירים את JavaScript Object Notation (JSON), תבחינו שהמסמכים נראים דומים ל-JSON. ישנו קובץ בשם `PersonsData.json` בתיקייה זו עם נתונים נוספים שניתן להעלות למיכל Persons באמולטור באמצעות כפתור `Upload Item`.
+אם אתם מכירים את JavaScript Object Notation (JSON) תבחינו שהמסמכים נראים דומים ל-JSON. ישנו קובץ `PersonsData.json` בתיקייה זו עם נתונים נוספים שניתן להעלות למיכל Persons באמולטור באמצעות כפתור `Upload Item`.
 
-ברוב המקרים, APIs שמחזירים נתוני JSON יכולים להיות מועברים ישירות ולהישמר במסדי נתונים מסמכים. להלן מסמך נוסף, המייצג ציוצים מחשבון הטוויטר של Microsoft שנשלפו באמצעות Twitter API ואז הוכנסו ל-Cosmos DB.
+ברוב המקרים, APIs שמחזירים נתוני JSON יכולים להיות מועברים ישירות ולהישמר בבסיסי נתונים מסמכים. להלן מסמך נוסף, הוא מייצג ציוצים מחשבון הטוויטר של Microsoft שנשלפו באמצעות Twitter API, ואז הוכנסו ל-Cosmos DB.
 
 ```json
 {
@@ -128,31 +128,31 @@ NoSQL הוא מונח כללי לדרכים השונות לאחסן נתונים
 
 ## 🚀 אתגר
 
-ישנו קובץ בשם `TwitterData.json` שניתן להעלות למסד הנתונים SampleDB. מומלץ להוסיף אותו למיכל נפרד. ניתן לעשות זאת על ידי:
+ישנו קובץ `TwitterData.json` שניתן להעלות לבסיס הנתונים SampleDB. מומלץ להוסיף אותו למיכל נפרד. ניתן לעשות זאת על ידי:
 
-1. לחיצה על כפתור new container בפינה הימנית העליונה  
-2. בחירת מסד הנתונים הקיים (SampleDB) ויצירת מזהה מיכל  
-3. הגדרת מפתח החלוקה ל-`/id`  
-4. לחיצה על OK (ניתן להתעלם משאר המידע בתצוגה זו מכיוון שמדובר במערך נתונים קטן שרץ מקומית במחשב שלכם)  
-5. פתיחת המיכל החדש והעלאת קובץ Twitter Data באמצעות כפתור `Upload Item`  
+1. לחיצה על כפתור מיכל חדש בפינה הימנית העליונה
+1. בחירת בסיס הנתונים הקיים (SampleDB) יצירת מזהה מיכל עבור המיכל
+1. הגדרת מפתח המחיצה ל-`/id`
+1. לחיצה על OK (ניתן להתעלם משאר המידע בתצוגה זו מכיוון שמדובר במערך נתונים קטן הפועל באופן מקומי על המחשב שלכם)
+1. פתיחת המיכל החדש שלכם והעלאת קובץ נתוני הטוויטר באמצעות כפתור `Upload Item`
 
-נסו להריץ כמה שאילתות SELECT כדי למצוא מסמכים שבהם מופיעה המילה Microsoft בשדה הטקסט. רמז: נסו להשתמש במילת המפתח [LIKE](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character).
+נסו להריץ כמה שאילתות SELECT כדי למצוא את המסמכים שיש בהם את המילה Microsoft בשדה הטקסט. רמז: נסו להשתמש ב-[מילת המפתח LIKE](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character)
 
-## [שאלון לאחר ההרצאה](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/11)
+## [שאלון לאחר השיעור](https://ff-quizzes.netlify.app/en/ds/)
 
-## סקירה ולמידה עצמית
+## סקירה ולימוד עצמי
 
-- ישנם עיצובים ותכונות נוספים שנוספו לגיליון האלקטרוני שלא כוסו בשיעור זה. ל-Microsoft יש [ספרייה גדולה של תיעוד וסרטונים](https://support.microsoft.com/excel) על Excel אם אתם מעוניינים ללמוד עוד.  
+- ישנם כמה עיצובים ותכונות נוספות שנוספו לגיליון האלקטרוני שהשיעור הזה אינו מכסה. ל-Microsoft יש [ספריית תיעוד וסרטונים גדולה](https://support.microsoft.com/excel) על Excel אם אתם מעוניינים ללמוד עוד.
 
-- תיעוד ארכיטקטוני זה מפרט את המאפיינים של סוגי הנתונים הלא-רלציוניים השונים: [נתונים לא-רלציוניים ו-NoSQL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data).  
+- תיעוד ארכיטקטוני זה מפרט את המאפיינים בסוגים השונים של נתונים לא-רלציוניים: [נתונים לא-רלציוניים ו-NoSQL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data)
 
-- Cosmos DB הוא מסד נתונים מבוסס ענן שיכול גם לאחסן את סוגי ה-NoSQL השונים שהוזכרו בשיעור זה. למדו עוד על סוגים אלו במודול [Cosmos DB Microsoft Learn](https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/).  
+- Cosmos DB הוא בסיס נתונים לא-רלציוני מבוסס ענן שיכול גם לאחסן את סוגי ה-NoSQL השונים שהוזכרו בשיעור זה. למדו עוד על סוגים אלו ב-[מודול הלמידה של Microsoft על Cosmos DB](https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/)
 
 ## משימה
 
-[רווחי סודה](assignment.md)  
+[רווחי סודה](assignment.md)
 
 ---
 
 **כתב ויתור**:  
-מסמך זה תורגם באמצעות שירות תרגום מבוסס בינה מלאכותית [Co-op Translator](https://github.com/Azure/co-op-translator). בעוד שאנו שואפים לדיוק, יש לקחת בחשבון שתרגומים אוטומטיים עשויים להכיל שגיאות או אי-דיוקים. המסמך המקורי בשפתו המקורית נחשב למקור הסמכותי. למידע קריטי, מומלץ להשתמש בתרגום מקצועי על ידי מתרגם אנושי. איננו נושאים באחריות לכל אי-הבנה או פרשנות שגויה הנובעת משימוש בתרגום זה.
+מסמך זה תורגם באמצעות שירות תרגום מבוסס בינה מלאכותית [Co-op Translator](https://github.com/Azure/co-op-translator). למרות שאנו שואפים לדיוק, יש לקחת בחשבון שתרגומים אוטומטיים עשויים להכיל שגיאות או אי דיוקים. המסמך המקורי בשפתו המקורית צריך להיחשב כמקור סמכותי. עבור מידע קריטי, מומלץ להשתמש בתרגום מקצועי על ידי אדם. איננו נושאים באחריות לאי הבנות או לפרשנויות שגויות הנובעות משימוש בתרגום זה.

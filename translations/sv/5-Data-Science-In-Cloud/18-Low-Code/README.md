@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "14b2a7f1c63202920bd98eeb913f5614",
-  "translation_date": "2025-08-26T22:00:36+00:00",
+  "original_hash": "39f3b3a9d873eaa522c2e792ce0ca503",
+  "translation_date": "2025-09-04T18:55:52+00:00",
   "source_file": "5-Data-Science-In-Cloud/18-Low-Code/README.md",
   "language_code": "sv"
 }
@@ -28,53 +28,54 @@ Innehållsförteckning:
       - [2.2.2 Skapa en beräkningskluster](../../../../5-Data-Science-In-Cloud/18-Low-Code)
     - [2.3 Ladda datasetet](../../../../5-Data-Science-In-Cloud/18-Low-Code)
     - [2.4 Low code/No code-träning med AutoML](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-  - [3. Low code/No code-modellimplementering och användning av endpoint](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+  - [3. Low code/No code-modellimplementering och användning av endpoints](../../../../5-Data-Science-In-Cloud/18-Low-Code)
     - [3.1 Modellimplementering](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-    - [3.2 Användning av endpoint](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+    - [3.2 Användning av endpoints](../../../../5-Data-Science-In-Cloud/18-Low-Code)
   - [🚀 Utmaning](../../../../5-Data-Science-In-Cloud/18-Low-Code)
   - [Quiz efter föreläsningen](../../../../5-Data-Science-In-Cloud/18-Low-Code)
   - [Granskning & Självstudier](../../../../5-Data-Science-In-Cloud/18-Low-Code)
   - [Uppgift](../../../../5-Data-Science-In-Cloud/18-Low-Code)
   
-## [Quiz före föreläsningen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/34)
+## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ds/)
+
 ## 1. Introduktion
 ### 1.1 Vad är Azure Machine Learning?
 
-Azure-molnplattformen består av över 200 produkter och molntjänster som är utformade för att hjälpa dig att skapa nya lösningar. Dataforskare lägger mycket tid på att utforska och förbehandla data samt att testa olika algoritmer för modellträning för att skapa exakta modeller. Dessa uppgifter är tidskrävande och kan ofta leda till ineffektiv användning av dyr hårdvara.
+Azure-molnplattformen består av över 200 produkter och molntjänster som är utformade för att hjälpa dig att skapa nya lösningar. Dataforskare lägger ner mycket arbete på att utforska och förbehandla data samt att testa olika typer av algoritmer för modellträning för att skapa exakta modeller. Dessa uppgifter är tidskrävande och leder ofta till ineffektiv användning av dyr hårdvara.
 
-[Azure ML](https://docs.microsoft.com/azure/machine-learning/overview-what-is-azure-machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) är en molnbaserad plattform för att bygga och driva lösningar för maskininlärning i Azure. Den innehåller ett brett utbud av funktioner som hjälper dataforskare att förbereda data, träna modeller, publicera prediktiva tjänster och övervaka deras användning. Framför allt ökar den effektiviteten genom att automatisera många av de tidskrävande uppgifterna som är förknippade med modellträning, och den gör det möjligt att använda molnbaserade beräkningsresurser som kan skalas effektivt för att hantera stora datamängder, med kostnader endast när resurserna används.
+[Azure ML](https://docs.microsoft.com/azure/machine-learning/overview-what-is-azure-machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) är en molnbaserad plattform för att bygga och driva lösningar för maskininlärning i Azure. Den innehåller ett brett utbud av funktioner som hjälper dataforskare att förbereda data, träna modeller, publicera prediktiva tjänster och övervaka deras användning. Framför allt ökar den effektiviteten genom att automatisera många av de tidskrävande uppgifterna som är förknippade med modellträning, och den gör det möjligt att använda molnbaserade beräkningsresurser som skalar effektivt för att hantera stora datamängder, samtidigt som kostnader endast uppstår vid faktisk användning.
 
 Azure ML erbjuder alla verktyg som utvecklare och dataforskare behöver för sina arbetsflöden inom maskininlärning. Dessa inkluderar:
 
 - **Azure Machine Learning Studio**: En webbportal i Azure Machine Learning för low-code och no-code-alternativ för modellträning, implementering, automatisering, spårning och hantering av tillgångar. Studion integreras med Azure Machine Learning SDK för en smidig upplevelse.
 - **Jupyter Notebooks**: Snabbt prototypa och testa ML-modeller.
-- **Azure Machine Learning Designer**: Möjliggör drag-och-släpp-moduler för att bygga experiment och sedan implementera pipelines i en low-code-miljö.
-- **Automated machine learning UI (AutoML)**: Automatiserar iterativa uppgifter inom utveckling av maskininlärningsmodeller, vilket möjliggör skapande av ML-modeller med hög skala, effektivitet och produktivitet, samtidigt som modellkvaliteten bibehålls.
+- **Azure Machine Learning Designer**: Möjliggör drag-and-drop-moduler för att bygga experiment och sedan implementera pipelines i en low-code-miljö.
+- **Automated machine learning UI (AutoML)**: Automatiserar iterativa uppgifter vid utveckling av maskininlärningsmodeller, vilket möjliggör att bygga ML-modeller med hög skala, effektivitet och produktivitet, samtidigt som modellkvaliteten bibehålls.
 - **Data Labelling**: Ett assisterat ML-verktyg för att automatiskt märka data.
 - **Maskininlärningstillägg för Visual Studio Code**: Ger en fullständig utvecklingsmiljö för att bygga och hantera ML-projekt.
 - **Maskininlärning CLI**: Ger kommandon för att hantera Azure ML-resurser från kommandoraden.
 - **Integration med open-source-ramverk** som PyTorch, TensorFlow, Scikit-learn och många fler för att träna, implementera och hantera hela processen för maskininlärning.
-- **MLflow**: Ett open-source-bibliotek för att hantera livscykeln för dina experiment inom maskininlärning. **MLFlow Tracking** är en komponent av MLflow som loggar och spårar dina träningskörningsmetrik och modellartefakter, oavsett experimentets miljö.
+- **MLflow**: Ett open-source-bibliotek för att hantera livscykeln för dina experiment inom maskininlärning. **MLFlow Tracking** är en komponent i MLflow som loggar och spårar dina träningskörningsmetrik och modellartefakter, oavsett experimentets miljö.
 
 ### 1.2 Projektet för att förutsäga hjärtsvikt:
 
-Det råder ingen tvekan om att skapa och bygga projekt är det bästa sättet att sätta dina färdigheter och kunskaper på prov. I denna lektion ska vi utforska två olika sätt att bygga ett datavetenskapsprojekt för att förutsäga hjärtsvikt i Azure ML Studio, genom Low code/No code och genom Azure ML SDK, som visas i följande schema:
+Det råder ingen tvekan om att att skapa och bygga projekt är det bästa sättet att sätta dina färdigheter och kunskaper på prov. I denna lektion ska vi utforska två olika sätt att bygga ett datavetenskapsprojekt för att förutsäga hjärtsvikt i Azure ML Studio, genom Low code/No code och genom Azure ML SDK, som visas i följande schema:
 
 ![projekt-schema](../../../../translated_images/project-schema.736f6e403f321eb48d10242b3f4334dc6ccf0eabef8ff87daf52b89781389fcb.sv.png)
 
-Varje metod har sina egna för- och nackdelar. Low code/No code-metoden är enklare att börja med eftersom den innebär interaktion med en GUI (grafiskt användargränssnitt), utan krav på tidigare kunskaper i kod. Denna metod möjliggör snabb testning av projektets genomförbarhet och skapande av POC (Proof Of Concept). Men när projektet växer och saker behöver vara produktionsklara är det inte hållbart att skapa resurser via GUI. Då behöver vi programmera och automatisera allt, från skapandet av resurser till implementeringen av en modell. Här blir kunskaper i Azure ML SDK avgörande.
+Varje metod har sina egna för- och nackdelar. Low code/No code-metoden är enklare att börja med eftersom den innebär interaktion med en GUI (grafiskt användargränssnitt), utan krav på förkunskaper i kodning. Denna metod möjliggör snabb testning av projektets genomförbarhet och att skapa POC (Proof Of Concept). Men när projektet växer och saker behöver vara produktionsklara är det inte praktiskt att skapa resurser via GUI. Vi behöver programmera och automatisera allt, från att skapa resurser till att implementera en modell. Här blir kunskap om hur man använder Azure ML SDK avgörande.
 
 |                   | Low code/No code | Azure ML SDK              |
 |-------------------|------------------|---------------------------|
 | Kodkunskaper      | Ej nödvändigt    | Nödvändigt                |
-| Utvecklingstid    | Snabb och enkel  | Beror på kodkunskaper     |
-| Produktionsklar   | Nej              | Ja                        |
+| Utvecklingstid    | Snabbt och enkelt| Beror på kodkunskaper     |
+| Produktionsklart  | Nej              | Ja                        |
 
 ### 1.3 Datasetet för hjärtsvikt: 
 
-Kardiovaskulära sjukdomar (CVDs) är den främsta dödsorsaken globalt och står för 31% av alla dödsfall världen över. Miljö- och beteenderiskfaktorer som tobaksanvändning, ohälsosam kost och fetma, fysisk inaktivitet och skadlig alkoholkonsumtion kan användas som funktioner för uppskattningsmodeller. Att kunna uppskatta sannolikheten för att utveckla en CVD kan vara mycket användbart för att förebygga attacker hos högriskpersoner.
+Kardiovaskulära sjukdomar (CVD) är den främsta dödsorsaken globalt och står för 31% av alla dödsfall världen över. Miljö- och beteenderiskfaktorer som tobaksanvändning, ohälsosam kost och fetma, fysisk inaktivitet och skadlig alkoholkonsumtion kan användas som funktioner för uppskattningsmodeller. Att kunna uppskatta sannolikheten för att utveckla en CVD kan vara mycket användbart för att förebygga attacker hos högriskpersoner.
 
-Kaggle har gjort ett [dataset för hjärtsvikt](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) offentligt tillgängligt, som vi ska använda för detta projekt. Du kan ladda ner datasetet nu. Detta är ett tabellformat dataset med 13 kolumner (12 funktioner och 1 målvariabel) och 299 rader. 
+Kaggle har gjort ett [dataset för hjärtsvikt](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) offentligt tillgängligt, som vi ska använda för detta projekt. Du kan ladda ner datasetet nu. Det är ett tabellformat dataset med 13 kolumner (12 funktioner och 1 målvariabel) och 299 rader. 
 
 |    | Variabelnamn              | Typ             | Beskrivning                                               | Exempel           |
 |----|---------------------------|-----------------|-----------------------------------------------------------|-------------------|
@@ -108,14 +109,14 @@ Det rekommenderas att använda den mest uppdaterade webbläsaren som är kompati
 
 För att använda Azure Machine Learning, skapa en arbetsyta i din Azure-prenumeration. Du kan sedan använda denna arbetsyta för att hantera data, beräkningsresurser, kod, modeller och andra artefakter relaterade till dina arbetsflöden inom maskininlärning.
 
-> **_OBS:_** Din Azure-prenumeration kommer att debiteras en liten summa för datalagring så länge som Azure Machine Learning-arbetsytan finns i din prenumeration, så vi rekommenderar att du tar bort arbetsytan när du inte längre använder den.
+> **_OBS:_** Din Azure-prenumeration kommer att debiteras en liten summa för datalagring så länge Azure Machine Learning-arbetsytan finns i din prenumeration, så vi rekommenderar att du tar bort arbetsytan när du inte längre använder den.
 
 1. Logga in på [Azure-portalen](https://ms.portal.azure.com/) med de Microsoft-uppgifter som är kopplade till din Azure-prenumeration.
 2. Välj **＋Skapa en resurs**
    
    ![arbetsyta-1](../../../../translated_images/workspace-1.ac8694d60b073ed1ae8333d71244dc8a9b3e439d54593724f98f1beefdd27b08.sv.png)
 
-   Sök efter Machine Learning och välj Machine Learning-tile
+   Sök efter Machine Learning och välj Machine Learning-kortet
 
    ![arbetsyta-2](../../../../translated_images/workspace-2.ae7c486db8796147075e4a56566aa819827dd6c4c8d18d64590317c3be625f17.sv.png)
 
@@ -128,10 +129,10 @@ För att använda Azure Machine Learning, skapa en arbetsyta i din Azure-prenume
    - Resursgrupp: Skapa eller välj en resursgrupp
    - Arbetsytans namn: Ange ett unikt namn för din arbetsyta
    - Region: Välj den geografiska regionen närmast dig
-   - Lagringskonto: Notera det nya standardlagringskonto som kommer att skapas för din arbetsyta
-   - Nyckelvalv: Notera det nya standardnyckelvalv som kommer att skapas för din arbetsyta
+   - Lagringskonto: Notera det nya standardlagringskontot som kommer att skapas för din arbetsyta
+   - Nyckelvalv: Notera det nya standardnyckelvalvet som kommer att skapas för din arbetsyta
    - Application insights: Notera den nya standardresursen för application insights som kommer att skapas för din arbetsyta
-   - Containerregister: Ingen (ett kommer att skapas automatiskt första gången du implementerar en modell till en container)
+   - Containerregister: Ingen (ett kommer att skapas automatiskt första gången du implementerar en modell i en container)
 
     ![arbetsyta-4](../../../../translated_images/workspace-4.bac87f6599c4df63e624fc2608990f965887bee551d9dedc71c687b43b986b6a.sv.png)
 
@@ -145,13 +146,13 @@ För att använda Azure Machine Learning, skapa en arbetsyta i din Azure-prenume
 
 ![arbetsyta-6](../../../../translated_images/workspace-6.8dd81fe841797ee17f8f73916769576260b16c4e17e850d277a49db35fd74a15.sv.png)
 
-Du kan hantera din arbetsyta via Azure-portalen, men för dataforskare och ingenjörer inom maskininlärningsoperationer erbjuder Azure Machine Learning Studio ett mer fokuserat användargränssnitt för att hantera arbetsytans resurser.
+Du kan hantera din arbetsyta via Azure-portalen, men för dataforskare och ingenjörer inom maskininlärningsdrift erbjuder Azure Machine Learning Studio ett mer fokuserat användargränssnitt för att hantera arbetsytans resurser.
 
 ### 2.2 Beräkningsresurser
 
 Beräkningsresurser är molnbaserade resurser där du kan köra modellträning och datautforskningsprocesser. Det finns fyra typer av beräkningsresurser du kan skapa:
 
-- **Beräkningsinstanser**: Utvecklingsarbetsstationer som dataforskare kan använda för att arbeta med data och modeller. Detta innebär skapandet av en virtuell maskin (VM) och start av en notebook-instans. Du kan sedan träna en modell genom att kalla på en beräkningskluster från notebooken.
+- **Beräkningsinstanser**: Utvecklingsarbetsstationer som dataforskare kan använda för att arbeta med data och modeller. Detta innebär att skapa en virtuell maskin (VM) och starta en notebook-instans. Du kan sedan träna en modell genom att kalla på en beräkningskluster från notebooken.
 - **Beräkningskluster**: Skalbara kluster av virtuella maskiner för on-demand bearbetning av experimentkod. Du kommer att behöva det när du tränar en modell. Beräkningskluster kan också använda specialiserade GPU- eller CPU-resurser.
 - **Inferenskluster**: Implementeringsmål för prediktiva tjänster som använder dina tränade modeller.
 - **Attached Compute**: Länkar till befintliga Azure-beräkningsresurser, såsom virtuella maskiner eller Azure Databricks-kluster.
@@ -164,7 +165,7 @@ Det finns några viktiga faktorer att tänka på när du skapar en beräkningsre
 
 En CPU (Central Processing Unit) är den elektroniska kretsen som utför instruktioner i ett datorprogram. En GPU (Graphics Processing Unit) är en specialiserad elektronisk krets som kan köra grafikrelaterad kod i mycket hög hastighet.
 
-Den huvudsakliga skillnaden mellan CPU och GPU-arkitektur är att en CPU är designad för att hantera ett brett spektrum av uppgifter snabbt (mätt i CPU-klockhastighet), men är begränsad i antalet samtidiga uppgifter som kan köras. GPUs är designade för parallell databehandling och är därför mycket bättre på djupinlärningsuppgifter.
+Den huvudsakliga skillnaden mellan CPU- och GPU-arkitektur är att en CPU är designad för att hantera ett brett spektrum av uppgifter snabbt (mätt i CPU-klockhastighet), men är begränsad i antalet samtidiga uppgifter som kan köras. GPUs är designade för parallell databehandling och är därför mycket bättre på uppgifter som djupinlärning.
 
 | CPU                                     | GPU                         |
 |-----------------------------------------|-----------------------------|
@@ -182,7 +183,7 @@ Beroende på dina tids- och budgetbegränsningar kan du variera storleken på RA
 
 **Dedikerade eller lågprioriterade instanser?**
 
-En lågprioriterad instans innebär att den är avbrytbar: Microsoft Azure kan ta dessa resurser och tilldela dem till en annan uppgift, vilket avbryter jobbet. En dedikerad instans, eller icke-avbrytbar, innebär att jobbet aldrig kommer att avslutas utan ditt tillstånd. Detta är ytterligare en övervägning mellan tid och pengar, eftersom avbrytbara instanser är billigare än dedikerade.
+En lågprioriterad instans innebär att den kan avbrytas: Microsoft Azure kan ta dessa resurser och tilldela dem till en annan uppgift, vilket avbryter jobbet. En dedikerad instans, eller icke-avbrytbar, innebär att jobbet aldrig kommer att avslutas utan ditt tillstånd. Detta är ytterligare en övervägning mellan tid och pengar, eftersom avbrytbara instanser är billigare än dedikerade.
 
 #### 2.2.2 Skapa ett beräkningskluster
 
@@ -196,7 +197,7 @@ I [Azure ML-arbetsytan](https://ml.azure.com/) som vi skapade tidigare, gå till
 ![23](../../../../translated_images/cluster-2.ea30cdbc9f926bb9e05af3fdbc1f679811c796dc2a6847f935290aec15526e88.sv.png)
 
 3. Ge klustret ett namn.
-4. Välj dina alternativ: Minsta/maximala antal noder, antal sekunder i viloläge innan nedskalning, SSH-åtkomst. Observera att om det minsta antalet noder är 0, sparar du pengar när klustret är vilande. Observera att ju högre antal maximala noder, desto kortare blir träningen. Det rekommenderade maximala antalet noder är 3.  
+4. Välj dina alternativ: Minsta/maximala antal noder, antal sekunder i viloläge innan nedskalning, SSH-åtkomst. Observera att om det minsta antalet noder är 0, sparar du pengar när klustret är vilande. Observera att ju högre antal maximala noder, desto kortare blir träningstiden. Det rekommenderade maximala antalet noder är 3.  
 5. Klicka på knappen "Create". Detta steg kan ta några minuter.
 
 ![29](../../../../translated_images/cluster-3.8a334bc070ec173a329ce5abd2a9d727542e83eb2347676c9af20f2c8870b3e7.sv.png)
@@ -219,7 +220,7 @@ Fantastiskt! Nu när vi har ett beräkningskluster behöver vi ladda upp data ti
 
 Bra! Nu när datasetet är på plats och beräkningsklustret är skapat kan vi börja träna modellen!
 
-### 2.4 Lågkod/Ingen kod-träning med AutoML
+### 2.4 Lågkod/Ingen kod-träning med AutoML 
 
 Traditionell utveckling av maskininlärningsmodeller är resurskrävande, kräver betydande domänkunskap och tid för att producera och jämföra dussintals modeller. 
 Automatiserad maskininlärning (AutoML) är processen att automatisera de tidskrävande, iterativa uppgifterna vid utveckling av maskininlärningsmodeller. Det gör det möjligt för dataforskare, analytiker och utvecklare att bygga ML-modeller med hög skala, effektivitet och produktivitet, samtidigt som modellkvaliteten bibehålls. Det minskar tiden det tar att få produktionsklara ML-modeller, med stor enkelhet och effektivitet. [Läs mer](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
@@ -263,25 +264,25 @@ Fantastiskt! Nu när vi har en modell distribuerad kan vi börja konsumera endpo
 
 ### 3.2 Endpoint-konsumtion
 
-Klicka på fliken "Consume". Här kan du hitta REST-endpointen och ett Python-skript i konsumtionsalternativet. Ta dig tid att läsa Python-koden.
+Klicka på fliken "Consume". Här kan du hitta REST-endpointen och ett Python-skript i konsumtionsalternativet. Ta dig tid att läsa Python-koden. 
 
 Detta skript kan köras direkt från din lokala maskin och kommer att konsumera din endpoint.
 
 ![35](../../../../translated_images/consumption-1.700abd196452842a020c7d745908637a6e4c5c50494ad1217be80e283e0de154.sv.png)
 
-Ta en stund att kontrollera dessa två rader kod: 
+Ta en stund att kolla dessa två rader kod: 
 
 ```python
 url = 'http://98e3715f-xxxx-xxxx-xxxx-9ec22d57b796.centralus.azurecontainer.io/score'
 api_key = '' # Replace this with the API key for the web service
 ```
-Variabeln `url` är REST-endpointen som finns i fliken Consume och variabeln `api_key` är den primära nyckeln som också finns i fliken Consume (endast om du har aktiverat autentisering). Detta är hur skriptet kan konsumera endpointen.
+Variabeln `url` är REST-endpointen som finns i konsumtionsfliken och variabeln `api_key` är den primära nyckeln som också finns i konsumtionsfliken (endast om du har aktiverat autentisering). Detta är hur skriptet kan konsumera endpointen.
 
 18. När du kör skriptet bör du se följande output:
     ```python
     b'"{\\"result\\": [true]}"'
     ```
-Detta betyder att förutsägelsen av hjärtsvikt för den givna datan är sann. Detta är logiskt eftersom om du tittar närmare på datan som automatiskt genereras i skriptet, är allt satt till 0 och falskt som standard. Du kan ändra datan med följande inmatningsprov:
+Detta betyder att förutsägelsen om hjärtsvikt för den givna datan är sann. Detta är logiskt eftersom om du tittar närmare på datan som automatiskt genereras i skriptet, är allt inställt på 0 och falskt som standard. Du kan ändra datan med följande inmatningsprov:
 
 ```python
 data = {
@@ -330,19 +331,19 @@ Grattis! Du har just konsumerat den distribuerade modellen och tränat den på A
 
 Titta noga på modellförklaringarna och detaljerna som AutoML genererade för de bästa modellerna. Försök att förstå varför den bästa modellen är bättre än de andra. Vilka algoritmer jämfördes? Vilka är skillnaderna mellan dem? Varför presterar den bästa modellen bättre i detta fall?
 
-## [Post-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/35)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
-## Granskning & Självstudie
+## Granskning & Självstudier
 
-I denna lektion lärde du dig hur man tränar, distribuerar och konsumerar en modell för att förutsäga hjärtsviktsrisk på ett lågkod/ingen kod-sätt i molnet. Om du inte har gjort det ännu, fördjupa dig i modellförklaringarna som AutoML genererade för de bästa modellerna och försök att förstå varför den bästa modellen är bättre än de andra.
+I denna lektion lärde du dig hur man tränar, distribuerar och konsumerar en modell för att förutsäga risk för hjärtsvikt på ett lågkod/ingen kod-sätt i molnet. Om du inte har gjort det ännu, fördjupa dig i modellförklaringarna som AutoML genererade för de bästa modellerna och försök att förstå varför den bästa modellen är bättre än de andra.
 
 Du kan gå vidare med lågkod/ingen kod AutoML genom att läsa denna [dokumentation](https://docs.microsoft.com/azure/machine-learning/tutorial-first-experiment-automated-ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
 ## Uppgift
 
-[Projekt med lågkod/ingen kod inom datavetenskap på Azure ML](assignment.md)
+[Low code/No code Data Science-projekt på Azure ML](assignment.md)
 
 ---
 
 **Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör det noteras att automatiserade översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på dess originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som kan uppstå vid användning av denna översättning.
+Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör det noteras att automatiska översättningar kan innehålla fel eller inexaktheter. Det ursprungliga dokumentet på dess originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.

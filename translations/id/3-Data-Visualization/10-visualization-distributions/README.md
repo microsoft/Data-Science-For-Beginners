@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "87faccac113d772551486a67a607153e",
-  "translation_date": "2025-08-28T18:48:15+00:00",
+  "original_hash": "02ce904bc1e2bfabb7dc05c25aae375c",
+  "translation_date": "2025-09-04T20:38:54+00:00",
   "source_file": "3-Data-Visualization/10-visualization-distributions/README.md",
   "language_code": "id"
 }
 -->
 # Memvisualisasikan Distribusi
 
-|![ Sketchnote oleh [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/10-Visualizing-Distributions.png)|
+|![Sketchnote oleh [(@sketchthedocs)](https://sketchthedocs.dev)](../../sketchnotes/10-Visualizing-Distributions.png)|
 |:---:|
 | Memvisualisasikan Distribusi - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_ |
 
@@ -18,7 +18,7 @@ Pada pelajaran sebelumnya, Anda mempelajari beberapa fakta menarik tentang datas
 ## [Kuis sebelum pelajaran](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/18)
 ## Jelajahi dataset burung
 
-Cara lain untuk menggali data adalah dengan melihat distribusinya, atau bagaimana data diatur sepanjang sumbu. Misalnya, Anda mungkin ingin mengetahui distribusi umum, untuk dataset ini, dari lebar sayap maksimum atau massa tubuh maksimum burung di Minnesota.
+Cara lain untuk menggali data adalah dengan melihat distribusinya, atau bagaimana data diatur sepanjang sumbu. Misalnya, Anda mungkin ingin mengetahui distribusi umum, untuk dataset ini, dari rentang sayap maksimum atau massa tubuh maksimum burung di Minnesota.
 
 Mari kita temukan beberapa fakta tentang distribusi data dalam dataset ini. Dalam file _notebook.ipynb_ di folder pelajaran ini, impor Pandas, Matplotlib, dan data Anda:
 
@@ -29,15 +29,15 @@ birds = pd.read_csv('../../data/birds.csv')
 birds.head()
 ```
 
-|      | Nama                         | NamaIlmiah             | Kategori              | Ordo         | Famili   | Genus       | StatusKonservasi    | MinPanjang | MaxPanjang | MinMassaTubuh | MaxMassaTubuh | MinLebarSayap | MaxLebarSayap |
-| ---: | :--------------------------- | :--------------------- | :-------------------- | :----------- | :------- | :---------- | :----------------- | ----------: | ----------: | ------------: | ------------: | ------------: | ------------: |
-|    0 | Itik bersiul perut hitam     | Dendrocygna autumnalis | Bebek/Angsa/Burung Air| Anseriformes | Anatidae | Dendrocygna | LC                 |        47   |        56   |         652   |        1020   |          76   |          94   |
-|    1 | Itik bersiul fulvous         | Dendrocygna bicolor    | Bebek/Angsa/Burung Air| Anseriformes | Anatidae | Dendrocygna | LC                 |        45   |        53   |         712   |        1050   |          85   |          93   |
-|    2 | Angsa salju                  | Anser caerulescens     | Bebek/Angsa/Burung Air| Anseriformes | Anatidae | Anser       | LC                 |        64   |        79   |        2050   |        4050   |         135   |         165   |
-|    3 | Angsa Ross                   | Anser rossii           | Bebek/Angsa/Burung Air| Anseriformes | Anatidae | Anser       | LC                 |      57.3   |        64   |        1066   |        1567   |         113   |         116   |
-|    4 | Angsa berwajah putih besar   | Anser albifrons        | Bebek/Angsa/Burung Air| Anseriformes | Anatidae | Anser       | LC                 |        64   |        81   |        1930   |        3310   |         130   |         165   |
+|      | Nama                         | NamaIlmiah            | Kategori              | Ordo         | Famili   | Genus       | StatusKonservasi    | MinPanjang | MaxPanjang | MinMassaTubuh | MaxMassaTubuh | MinRentangSayap | MaxRentangSayap |
+| ---: | :--------------------------- | :-------------------- | :-------------------- | :----------- | :------- | :---------- | :----------------- | ----------: | ----------: | ------------: | ------------: | --------------: | --------------: |
+|    0 | Itik bersiul perut hitam     | Dendrocygna autumnalis | Bebek/Angsa/Burung Air | Anseriformes | Anatidae | Dendrocygna | LC                 |        47   |        56   |         652   |        1020   |          76     |          94     |
+|    1 | Itik bersiul fulvous         | Dendrocygna bicolor    | Bebek/Angsa/Burung Air | Anseriformes | Anatidae | Dendrocygna | LC                 |        45   |        53   |         712   |        1050   |          85     |          93     |
+|    2 | Angsa salju                  | Anser caerulescens     | Bebek/Angsa/Burung Air | Anseriformes | Anatidae | Anser       | LC                 |        64   |        79   |        2050   |        4050   |         135     |         165     |
+|    3 | Angsa Ross                   | Anser rossii           | Bebek/Angsa/Burung Air | Anseriformes | Anatidae | Anser       | LC                 |      57.3   |        64   |        1066   |        1567   |         113     |         116     |
+|    4 | Angsa berwajah putih besar   | Anser albifrons        | Bebek/Angsa/Burung Air | Anseriformes | Anatidae | Anser       | LC                 |        64   |        81   |        1930   |        3310   |         130     |         165     |
 
-Secara umum, Anda dapat dengan cepat melihat bagaimana data didistribusikan dengan menggunakan scatter plot seperti yang kita lakukan pada pelajaran sebelumnya:
+Secara umum, Anda dapat dengan cepat melihat bagaimana data terdistribusi dengan menggunakan scatter plot seperti yang kita lakukan pada pelajaran sebelumnya:
 
 ```python
 birds.plot(kind='scatter',x='MaxLength',y='Order',figsize=(12,8))
@@ -62,7 +62,7 @@ plt.show()
 ```
 ![distribusi seluruh dataset](../../../../translated_images/dist1-wb.0d0cac82e2974fbbec635826fefead401af795f82e2279e2e2678bf2c117d827.id.png)
 
-Seperti yang Anda lihat, sebagian besar dari 400+ burung dalam dataset ini berada dalam rentang di bawah 2000 untuk Max Body Mass mereka. Dapatkan wawasan lebih lanjut tentang data dengan mengubah parameter `bins` ke angka yang lebih tinggi, misalnya 30:
+Seperti yang Anda lihat, sebagian besar dari 400+ burung dalam dataset ini memiliki Max Body Mass di bawah 2000. Dapatkan wawasan lebih lanjut tentang data dengan mengubah parameter `bins` ke angka yang lebih tinggi, misalnya 30:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 30, figsize = (12,12))
@@ -72,7 +72,7 @@ plt.show()
 
 Grafik ini menunjukkan distribusi dengan cara yang sedikit lebih rinci. Grafik yang kurang condong ke kiri dapat dibuat dengan memastikan bahwa Anda hanya memilih data dalam rentang tertentu:
 
-Filter data Anda untuk mendapatkan hanya burung yang massa tubuhnya di bawah 60, dan tampilkan 40 `bins`:
+Filter data Anda untuk mendapatkan hanya burung dengan massa tubuh di bawah 60, dan tampilkan 40 `bins`:
 
 ```python
 filteredBirds = birds[(birds['MaxBodyMass'] > 1) & (birds['MaxBodyMass'] < 60)]      
@@ -85,7 +85,7 @@ plt.show()
 
 Histogram juga menawarkan beberapa peningkatan warna dan pelabelan yang menarik untuk dicoba:
 
-Buat histogram 2D untuk membandingkan hubungan antara dua distribusi. Mari bandingkan `MaxBodyMass` vs. `MaxLength`. Matplotlib menawarkan cara bawaan untuk menunjukkan konvergensi menggunakan warna yang lebih cerah:
+Buat histogram 2D untuk membandingkan hubungan antara dua distribusi. Mari kita bandingkan `MaxBodyMass` vs. `MaxLength`. Matplotlib menawarkan cara bawaan untuk menunjukkan konvergensi menggunakan warna yang lebih cerah:
 
 ```python
 x = filteredBirds['MaxBodyMass']
@@ -94,11 +94,12 @@ y = filteredBirds['MaxLength']
 fig, ax = plt.subplots(tight_layout=True)
 hist = ax.hist2d(x, y)
 ```
-Tampaknya ada korelasi yang diharapkan antara kedua elemen ini di sepanjang sumbu yang diharapkan, dengan satu titik konvergensi yang sangat kuat:
+Tampaknya ada korelasi yang diharapkan antara kedua elemen ini sepanjang sumbu yang diharapkan, dengan satu titik konvergensi yang sangat kuat:
 
 ![plot 2D](../../../../translated_images/2D-wb.ae22fdd33936507a41e3af22e11e4903b04a9be973b23a4e05214efaccfd66c8.id.png)
 
-Histogram bekerja dengan baik secara default untuk data numerik. Bagaimana jika Anda perlu melihat distribusi berdasarkan data teks? 
+Histogram bekerja dengan baik secara default untuk data numerik. Bagaimana jika Anda perlu melihat distribusi berdasarkan data teks?
+
 ## Jelajahi dataset untuk distribusi menggunakan data teks 
 
 Dataset ini juga mencakup informasi yang baik tentang kategori burung serta genus, spesies, dan famili mereka, serta status konservasi mereka. Mari kita gali informasi konservasi ini. Bagaimana distribusi burung berdasarkan status konservasi mereka?
@@ -112,7 +113,7 @@ Dataset ini juga mencakup informasi yang baik tentang kategori burung serta genu
 > - NT: Hampir Terancam
 > - VU: Rentan
 
-Nilai-nilai ini berbasis teks sehingga Anda perlu melakukan transformasi untuk membuat histogram. Menggunakan dataframe filteredBirds, tampilkan status konservasi bersama dengan Lebar Sayap Minimum. Apa yang Anda lihat?
+Nilai-nilai ini berbasis teks sehingga Anda perlu melakukan transformasi untuk membuat histogram. Menggunakan dataframe filteredBirds, tampilkan status konservasi bersama dengan Rentang Sayap Minimum. Apa yang Anda lihat?
 
 ```python
 x1 = filteredBirds.loc[filteredBirds.ConservationStatus=='EX', 'MinWingspan']
@@ -135,9 +136,9 @@ plt.gca().set(title='Conservation Status', ylabel='Min Wingspan')
 plt.legend();
 ```
 
-![kolasi lebar sayap dan konservasi](../../../../translated_images/histogram-conservation-wb.3c40450eb072c14de7a1a3ec5c0fcba4995531024760741b392911b567fd8b70.id.png)
+![kolasi rentang sayap dan konservasi](../../../../translated_images/histogram-conservation-wb.3c40450eb072c14de7a1a3ec5c0fcba4995531024760741b392911b567fd8b70.id.png)
 
-Tampaknya tidak ada korelasi yang baik antara lebar sayap minimum dan status konservasi. Uji elemen lain dari dataset menggunakan metode ini. Anda juga dapat mencoba filter yang berbeda. Apakah Anda menemukan korelasi?
+Tampaknya tidak ada korelasi yang baik antara rentang sayap minimum dan status konservasi. Uji elemen lain dari dataset menggunakan metode ini. Anda juga dapat mencoba filter yang berbeda. Apakah Anda menemukan korelasi?
 
 ## Plot kepadatan
 
@@ -145,7 +146,7 @@ Anda mungkin telah memperhatikan bahwa histogram yang kita lihat sejauh ini 'ber
 
 Untuk bekerja dengan plot kepadatan, kenali diri Anda dengan pustaka plotting baru, [Seaborn](https://seaborn.pydata.org/generated/seaborn.kdeplot.html). 
 
-Memuat Seaborn, cobalah plot kepadatan dasar:
+Dengan memuat Seaborn, cobalah plot kepadatan dasar:
 
 ```python
 import seaborn as sns
@@ -155,7 +156,7 @@ plt.show()
 ```
 ![Plot kepadatan](../../../../translated_images/density1.8801043bd4af2567b0f706332b5853c7614e5e4b81b457acc27eb4e092a65cbd.id.png)
 
-Anda dapat melihat bagaimana plot ini mencerminkan yang sebelumnya untuk data Lebar Sayap Minimum; hanya saja lebih halus. Menurut dokumentasi Seaborn, "Dibandingkan dengan histogram, KDE dapat menghasilkan plot yang lebih rapi dan lebih mudah diinterpretasikan, terutama saat menggambar beberapa distribusi. Namun, ini memiliki potensi untuk memperkenalkan distorsi jika distribusi dasarnya terbatas atau tidak mulus. Seperti histogram, kualitas representasi juga bergantung pada pemilihan parameter pemulusan yang baik." [sumber](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Dengan kata lain, outlier seperti biasa akan membuat grafik Anda berperilaku buruk.
+Anda dapat melihat bagaimana plot ini mencerminkan yang sebelumnya untuk data Rentang Sayap Minimum; hanya saja lebih halus. Menurut dokumentasi Seaborn, "Dibandingkan dengan histogram, KDE dapat menghasilkan plot yang lebih rapi dan lebih mudah diinterpretasikan, terutama saat menggambar beberapa distribusi. Namun, ini memiliki potensi untuk memperkenalkan distorsi jika distribusi dasarnya terbatas atau tidak mulus. Seperti histogram, kualitas representasi juga bergantung pada pemilihan parameter pemulusan yang baik." [sumber](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Dengan kata lain, outlier seperti biasa akan membuat grafik Anda berperilaku buruk.
 
 Jika Anda ingin mengunjungi kembali garis MaxBodyMass yang bergerigi pada grafik kedua yang Anda buat, Anda dapat menghaluskannya dengan sangat baik dengan membuat ulang menggunakan metode ini:
 
@@ -195,13 +196,13 @@ sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationS
 
 ![beberapa kepadatan, ditumpangkan](../../../../translated_images/multi.56548caa9eae8d0fd9012a8586295538c7f4f426e2abc714ba070e2e4b1fc2c1.id.png)
 
-Mungkin ada baiknya meneliti apakah kumpulan burung 'Rentan' berdasarkan panjang mereka memiliki arti atau tidak.
+Mungkin ada baiknya meneliti apakah kumpulan burung 'Rentan' berdasarkan panjang mereka memiliki makna atau tidak.
 
 ## 🚀 Tantangan
 
-Histogram adalah jenis grafik yang lebih canggih daripada scatterplot, grafik batang, atau grafik garis dasar. Lakukan pencarian di internet untuk menemukan contoh penggunaan histogram yang baik. Bagaimana mereka digunakan, apa yang mereka tunjukkan, dan di bidang atau area penyelidikan apa mereka cenderung digunakan?
+Histogram adalah jenis grafik yang lebih canggih daripada scatterplot, grafik batang, atau grafik garis dasar. Cari di internet untuk menemukan contoh penggunaan histogram yang baik. Bagaimana mereka digunakan, apa yang mereka tunjukkan, dan di bidang atau area penyelidikan apa mereka cenderung digunakan?
 
-## [Kuis setelah pelajaran](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/19)
+## [Kuis setelah pelajaran](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Tinjauan & Studi Mandiri
 
@@ -214,4 +215,4 @@ Dalam pelajaran ini, Anda menggunakan Matplotlib dan mulai bekerja dengan Seabor
 ---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan layanan penerjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Meskipun kami berupaya untuk memberikan hasil yang akurat, harap diperhatikan bahwa terjemahan otomatis mungkin mengandung kesalahan atau ketidakakuratan. Dokumen asli dalam bahasa aslinya harus dianggap sebagai sumber yang otoritatif. Untuk informasi yang bersifat kritis, disarankan menggunakan jasa penerjemahan profesional oleh manusia. Kami tidak bertanggung jawab atas kesalahpahaman atau penafsiran yang keliru yang timbul dari penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan layanan penerjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Meskipun kami berupaya untuk memberikan hasil yang akurat, harap diperhatikan bahwa terjemahan otomatis mungkin mengandung kesalahan atau ketidakakuratan. Dokumen asli dalam bahasa aslinya harus dianggap sebagai sumber yang berwenang. Untuk informasi yang bersifat kritis, disarankan menggunakan jasa penerjemahan manusia profesional. Kami tidak bertanggung jawab atas kesalahpahaman atau penafsiran yang keliru yang timbul dari penggunaan terjemahan ini.

@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d92f57eb110dc7f765c05cbf0f837c77",
-  "translation_date": "2025-08-26T22:29:20+00:00",
+  "original_hash": "a167aa0bfb1c46ece1b3d21ae939cc0d",
+  "translation_date": "2025-09-04T19:01:19+00:00",
   "source_file": "4-Data-Science-Lifecycle/15-analyzing/README.md",
   "language_code": "sv"
 }
@@ -23,7 +23,7 @@ Vi kommer att använda ett exempel på dataset från [Kaggle](https://www.kaggle
 
 ## Exploratory Data Analysis
 
-Fasen för insamling i livscykeln är där datan samlas in samt där problemen och frågorna identifieras, men hur vet vi att datan kan hjälpa till att stödja slutresultatet? 
+Fasen för insamling i livscykeln är där datan samlas in samt problemen och frågorna identifieras, men hur vet vi att datan kan hjälpa till att stödja slutresultatet? 
 Kom ihåg att en datavetare kan ställa följande frågor när de får tillgång till datan:
 -   Har jag tillräckligt med data för att lösa detta problem?
 -   Är datan av acceptabel kvalitet för detta problem?
@@ -41,7 +41,7 @@ Att utforska allt i ett stort dataset kan vara mycket tidskrävande och är vanl
 
 Pandas har funktionen [`sample()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html) i sitt bibliotek där du kan ange ett argument för hur många slumpmässiga prover du vill få och använda.
 
-Generella frågeställningar om datan kan hjälpa dig att besvara vissa generella frågor och teorier du kan ha. Till skillnad från sampling tillåter frågor dig att ha kontroll och fokusera på specifika delar av datan som du har frågor om. 
+Generella frågeställningar om datan kan hjälpa dig att besvara vissa generella frågor och teorier du kan ha. Till skillnad från sampling tillåter frågeställningar dig att ha kontroll och fokusera på specifika delar av datan som du har frågor om. 
 Funktionen [`query()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.query.html) i Pandas-biblioteket låter dig välja kolumner och få enkla svar om datan genom de rader som hämtas.
 
 ## Utforska med visualiseringar
@@ -50,7 +50,7 @@ Du behöver inte vänta tills datan är noggrant rengjord och analyserad för at
 ## Utforska för att identifiera inkonsekvenser
 Alla ämnen i denna lektion kan hjälpa till att identifiera saknade eller inkonsekventa värden, men Pandas tillhandahåller funktioner för att kontrollera några av dessa. [isna() eller isnull()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.isna.html) kan kontrollera saknade värden. En viktig del av att utforska dessa värden inom din data är att undersöka varför de hamnade så från början. Detta kan hjälpa dig att besluta om vilka [åtgärder som ska vidtas för att lösa dem](/2-Working-With-Data/08-data-preparation/notebook.ipynb).
 
-## [Förquiz före föreläsning](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/27)
+## [Quiz efter föreläsning](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Uppgift
 
@@ -59,4 +59,4 @@ Alla ämnen i denna lektion kan hjälpa till att identifiera saknade eller inkon
 ---
 
 **Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör det noteras att automatiska översättningar kan innehålla fel eller inexaktheter. Det ursprungliga dokumentet på dess originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.
+Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör du vara medveten om att automatiserade översättningar kan innehålla fel eller felaktigheter. Det ursprungliga dokumentet på dess ursprungliga språk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.

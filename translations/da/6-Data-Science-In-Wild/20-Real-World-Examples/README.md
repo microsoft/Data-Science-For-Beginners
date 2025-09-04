@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "67076ed50f54e7d26ba1ba378d6078f1",
-  "translation_date": "2025-08-26T21:52:43+00:00",
+  "original_hash": "f95679140c7cb39c30ccba535cd8f03f",
+  "translation_date": "2025-09-04T19:21:10+00:00",
   "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
   "language_code": "da"
 }
@@ -17,11 +17,11 @@ Vi er næsten ved vejs ende i denne læringsrejse!
 
 Vi startede med definitioner af data science og etik, udforskede forskellige værktøjer og teknikker til dataanalyse og visualisering, gennemgik data science-livscyklussen og kiggede på skalering og automatisering af data science-arbejdsgange med cloud computing-tjenester. Så du tænker sikkert: _"Hvordan kan jeg præcist anvende alt dette i virkelige kontekster?"_
 
-I denne lektion vil vi undersøge virkelige anvendelser af data science på tværs af industrier og dykke ned i specifikke eksempler inden for forskning, digitale humaniora og bæredygtighed. Vi vil se på muligheder for studenterprojekter og afslutte med nyttige ressourcer, der kan hjælpe dig med at fortsætte din læringsrejse!
+I denne lektion vil vi udforske virkelige anvendelser af data science på tværs af industrier og dykke ned i specifikke eksempler inden for forskning, digitale humaniora og bæredygtighed. Vi vil se på muligheder for studenterprojekter og afslutte med nyttige ressourcer, der kan hjælpe dig med at fortsætte din læringsrejse!
 
-## Quiz før forelæsning
+## Quiz før forelæsningen
 
-[Quiz før forelæsning](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/38)
+[Quiz før forelæsningen](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Data Science + Industri
 
@@ -58,15 +58,15 @@ Mens virkelige applikationer ofte fokuserer på industrielle anvendelser i stor 
 
 For studerende kan disse forskningsprojekter give både lærings- og samarbejdsmuligheder, der kan forbedre din forståelse af emnet og udvide din bevidsthed og engagement med relevante personer eller teams, der arbejder inden for interesseområder. Så hvordan ser forskningsprojekter ud, og hvordan kan de gøre en forskel?
 
-Lad os se på et eksempel - [MIT Gender Shades Study](http://gendershades.org/overview.html) af Joy Buolamwini (MIT Media Labs) med en [signatur forskningsartikel](http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) medforfattet af Timnit Gebru (dengang hos Microsoft Research), der fokuserede på:
+Lad os se på et eksempel - [MIT Gender Shades Study](http://gendershades.org/overview.html) af Joy Buolamwini (MIT Media Labs) med en [signaturforskningsartikel](http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) medforfattet af Timnit Gebru (dengang hos Microsoft Research), der fokuserede på:
 
  * **Hvad:** Målet med forskningsprojektet var at _evaluere bias i automatiserede ansigtsanalysealgoritmer og datasæt_ baseret på køn og hudtype.
  * **Hvorfor:** Ansigtsanalyse bruges i områder som retshåndhævelse, lufthavnssikkerhed, ansættelsessystemer og mere - kontekster, hvor unøjagtige klassifikationer (f.eks. på grund af bias) kan forårsage potentielle økonomiske og sociale skader for berørte individer eller grupper. Forståelse (og eliminering eller afbødning) af bias er nøglen til retfærdighed i brugen.
- * **Hvordan:** Forskerne erkendte, at eksisterende benchmarks primært brugte lysere hudtoner og kuraterede et nyt datasæt (1000+ billeder), der var _mere balanceret_ efter køn og hudtype. Datasættet blev brugt til at evaluere nøjagtigheden af tre kønsklassifikationsprodukter (fra Microsoft, IBM & Face++).
+ * **Hvordan:** Forskerne erkendte, at eksisterende benchmarks hovedsageligt brugte lysere hudtoner og kuraterede et nyt datasæt (1000+ billeder), der var _mere balanceret_ efter køn og hudtype. Datasættet blev brugt til at evaluere nøjagtigheden af tre kønsklassifikationsprodukter (fra Microsoft, IBM & Face++).
 
 Resultaterne viste, at selvom den samlede klassifikationsnøjagtighed var god, var der en mærkbar forskel i fejlprocenter mellem forskellige undergrupper - med **fejlklassifikation** højere for kvinder eller personer med mørkere hudtoner, hvilket indikerer bias.
 
-**Vigtige Resultater:** Skabte opmærksomhed omkring, at data science har brug for mere _repræsentative datasæt_ (balancerede undergrupper) og mere _inkluderende teams_ (diverse baggrunde) for at genkende og eliminere eller afbøde sådanne bias tidligere i AI-løsninger. Forskningsindsatser som denne er også afgørende for, at mange organisationer kan definere principper og praksis for _ansvarlig AI_ for at forbedre retfærdighed i deres AI-produkter og -processer.
+**Vigtige Resultater:** Skabte opmærksomhed omkring, at data science har brug for mere _repræsentative datasæt_ (balancerede undergrupper) og mere _inkluderende teams_ (diverse baggrunde) for at genkende og eliminere eller afbøde sådanne bias tidligere i AI-løsninger. Forskningsindsatser som denne er også afgørende for, at mange organisationer kan definere principper og praksis for _ansvarlig AI_ for at forbedre retfærdigheden i deres AI-produkter og -processer.
 
 **Vil du lære om relevante forskningsindsatser hos Microsoft?**
 
@@ -80,16 +80,16 @@ Resultaterne viste, at selvom den samlede klassifikationsnøjagtighed var god, v
 | :---------------------------------------------------------------------------------------------------------------: |
 |              Data Science & Digitale Humaniora - _Sketchnote af [@nitya](https://twitter.com/nitya)_              |
 
-Digitale Humaniora [er blevet defineret](https://digitalhumanities.stanford.edu/about-dh-stanford) som "en samling af praksisser og tilgange, der kombinerer computermetoder med humanistisk forskning". [Stanford-projekter](https://digitalhumanities.stanford.edu/projects) som _"rebooting history"_ og _"poetic thinking"_ illustrerer forbindelsen mellem [Digitale Humaniora og Data Science](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science) - med vægt på teknikker som netværksanalyse, informationsvisualisering, rumlig og tekstanalyse, der kan hjælpe os med at genbesøge historiske og litterære datasæt for at udlede nye indsigter og perspektiver.
+Digitale Humaniora [er blevet defineret](https://digitalhumanities.stanford.edu/about-dh-stanford) som "en samling af praksisser og tilgange, der kombinerer computermetoder med humanistisk undersøgelse". [Stanford-projekter](https://digitalhumanities.stanford.edu/projects) som _"rebooting history"_ og _"poetic thinking"_ illustrerer forbindelsen mellem [Digitale Humaniora og Data Science](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science) - med vægt på teknikker som netværksanalyse, informationsvisualisering, rumlig og tekstanalyse, der kan hjælpe os med at genbesøge historiske og litterære datasæt for at udlede nye indsigter og perspektiver.
 
 *Vil du udforske og udvide et projekt inden for dette område?*
 
-Tjek ["Emily Dickinson and the Meter of Mood"](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671) - et godt eksempel fra [Jen Looper](https://twitter.com/jenlooper), der spørger, hvordan vi kan bruge data science til at genbesøge velkendt poesi og genvurdere dens betydning og bidrag fra dens forfatter i nye kontekster. For eksempel, _kan vi forudsige sæsonen, hvor et digt blev skrevet, ved at analysere dets tone eller sentiment_ - og hvad fortæller dette os om forfatterens sindstilstand i den relevante periode?
+Tjek ["Emily Dickinson and the Meter of Mood"](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671) - et fantastisk eksempel fra [Jen Looper](https://twitter.com/jenlooper), der spørger, hvordan vi kan bruge data science til at genbesøge velkendt poesi og genvurdere dens betydning og bidrag fra dens forfatter i nye kontekster. For eksempel, _kan vi forudsige sæsonen, hvor et digt blev skrevet, ved at analysere dets tone eller sentiment_ - og hvad fortæller dette os om forfatterens sindstilstand i den relevante periode?
 
 For at besvare det spørgsmål følger vi trinnene i vores data science-livscyklus:
  * [`Dataindsamling`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#acquiring-the-dataset) - for at indsamle et relevant datasæt til analyse. Muligheder inkluderer brug af en API (f.eks. [Poetry DB API](https://poetrydb.org/index.html)) eller scraping af websider (f.eks. [Project Gutenberg](https://www.gutenberg.org/files/12242/12242-h/12242-h.htm)) ved hjælp af værktøjer som [Scrapy](https://scrapy.org/).
  * [`Databehandling`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#clean-the-data) - forklarer, hvordan tekst kan formateres, renses og forenkles ved hjælp af grundlæggende værktøjer som Visual Studio Code og Microsoft Excel.
- * [`Dataanalyse`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#working-with-the-data-in-a-notebook) - forklarer, hvordan vi kan importere datasættet til "Notebooks" til analyse ved hjælp af Python-pakker (som pandas, numpy og matplotlib) til at organisere og visualisere dataene.
+ * [`Dataanalyse`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#working-with-the-data-in-a-notebook) - forklarer, hvordan vi nu kan importere datasættet til "Notebooks" til analyse ved hjælp af Python-pakker (som pandas, numpy og matplotlib) til at organisere og visualisere dataene.
  * [`Sentimentanalyse`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#sentiment-analysis-using-cognitive-services) - forklarer, hvordan vi kan integrere cloud-tjenester som Text Analytics ved hjælp af low-code værktøjer som [Power Automate](https://flow.microsoft.com/en-us/) til automatiserede databehandlingsarbejdsgange.
 
 Ved at bruge denne arbejdsgang kan vi udforske sæsonmæssige påvirkninger på digtenes sentiment og hjælpe os med at forme vores egne perspektiver på forfatteren. Prøv det selv - og udvid derefter notebooken til at stille andre spørgsmål eller visualisere dataene på nye måder!
@@ -102,7 +102,7 @@ Ved at bruge denne arbejdsgang kan vi udforske sæsonmæssige påvirkninger på 
 | :---------------------------------------------------------------------------------------------------------------: |
 |              Data Science & Bæredygtighed - _Sketchnote af [@nitya](https://twitter.com/nitya)_              |
 
-[2030 Agenda For Sustainable Development](https://sdgs.un.org/2030agenda) - vedtaget af alle FN-medlemmer i 2015 - identificerer 17 mål, herunder dem, der fokuserer på **beskyttelse af planeten** mod nedbrydning og virkningerne af klimaforandringer. [Microsoft Sustainability](https://www.microsoft.com/en-us/sustainability)-initiativet støtter disse mål ved at undersøge måder, hvorpå teknologiløsninger kan understøtte og bygge mere bæredygtige fremtider med et [fokus på 4 mål](https://dev.to/azure/a-visual-guide-to-sustainable-software-engineering-53hh) - at være kulstofnegative, vandpositive, nul affald og biodiversitet ved 2030.
+[2030 Agenda For Sustainable Development](https://sdgs.un.org/2030agenda) - vedtaget af alle FN-medlemmer i 2015 - identificerer 17 mål, herunder dem, der fokuserer på **beskyttelse af planeten** mod nedbrydning og virkningerne af klimaforandringer. [Microsoft Sustainability](https://www.microsoft.com/en-us/sustainability)-initiativet støtter disse mål ved at udforske måder, hvorpå teknologiløsninger kan understøtte og bygge mere bæredygtige fremtider med et [fokus på 4 mål](https://dev.to/azure/a-visual-guide-to-sustainable-software-engineering-53hh) - at være kulstofnegative, vandpositive, nul affald og biodiversitet inden 2030.
 
 At tackle disse udfordringer på en skalerbar og rettidig måde kræver cloud-skala tænkning - og store mængder data. [Planetary Computer](https://planetarycomputer.microsoft.com/)-initiativet tilbyder 4 komponenter til at hjælpe dataforskere og udviklere i denne indsats:
 
@@ -135,14 +135,14 @@ Søg efter artikler, der anbefaler data science-projekter, som er begyndervenlig
 
 ## Quiz efter forelæsning
 
-[Quiz efter forelæsning](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/39)
+## [Quiz efter forelæsning](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Gennemgang & Selvstudie
 
 Vil du udforske flere anvendelsesmuligheder? Her er nogle relevante artikler:
 * [17 Data Science Applications and Examples](https://builtin.com/data-science/data-science-applications-examples) - juli 2021
 * [11 Breathtaking Data Science Applications in Real World](https://myblindbird.com/data-science-applications-real-world/) - maj 2021
-* [Data Science In The Real World](https://towardsdatascience.com/data-science-in-the-real-world/home) - Artikelkollektion
+* [Data Science In The Real World](https://towardsdatascience.com/data-science-in-the-real-world/home) - artikelkollektion
 * Data Science inden for: [Uddannelse](https://data-flair.training/blogs/data-science-in-education/), [Landbrug](https://data-flair.training/blogs/data-science-in-agriculture/), [Finans](https://data-flair.training/blogs/data-science-in-finance/), [Film](https://data-flair.training/blogs/data-science-at-movies/) og mere.
 
 ## Opgave
@@ -152,4 +152,4 @@ Vil du udforske flere anvendelsesmuligheder? Her er nogle relevante artikler:
 ---
 
 **Ansvarsfraskrivelse**:  
-Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi er ikke ansvarlige for eventuelle misforståelser eller fejltolkninger, der opstår som følge af brugen af denne oversættelse.
+Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på at sikre nøjagtighed, skal det bemærkes, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi påtager os ikke ansvar for eventuelle misforståelser eller fejltolkninger, der måtte opstå som følge af brugen af denne oversættelse.

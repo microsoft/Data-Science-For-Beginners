@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "af6a12015c6e250e500b570a9fa42593",
-  "translation_date": "2025-08-26T23:23:23+00:00",
+  "original_hash": "cc490897ee2d276870472bcb31602d03",
+  "translation_date": "2025-09-04T19:42:33+00:00",
   "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
   "language_code": "fi"
 }
@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Osuuksien visualisointi - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-Tässä oppitunnissa käytät luontoon keskittyvää datasettiä visualisoidaksesi osuuksia, kuten kuinka monta erilaista sienityyppiä esiintyy datasetissä, joka käsittelee sieniä. Tutustutaan näihin kiehtoviin sieniin datasetin avulla, joka on peräisin Audubonilta ja sisältää tietoja 23 kidallisen sienen lajista Agaricus- ja Lepiota-suvuista. Kokeilet herkullisia visualisointeja, kuten:
+Tässä oppitunnissa käytät luontoon keskittyvää datasettiä visualisoidaksesi osuuksia, kuten kuinka monta erilaista sienityyppiä esiintyy datasetissä, joka käsittelee sieniä. Tutustutaan näihin kiehtoviin sieniin datasetin avulla, joka on peräisin Audubonilta ja sisältää tietoja 23 kiduksellisen sienen lajista Agaricus- ja Lepiota-suvuista. Kokeilet herkullisia visualisointeja, kuten:
 
 - Piirakkakaavioita 🥧
 - Donitsikaavioita 🍩
@@ -21,7 +21,7 @@ Tässä oppitunnissa käytät luontoon keskittyvää datasettiä visualisoidakse
 
 > 💡 Microsoft Researchin [Charticulator](https://charticulator.com) on erittäin mielenkiintoinen projekti, joka tarjoaa ilmaisen vedä ja pudota -käyttöliittymän datavisualisointeihin. Yhdessä heidän tutoriaaleistaan käytetään myös tätä sienidatasettiä! Voit siis tutkia dataa ja oppia kirjaston käyttöä samanaikaisesti: [Charticulator-tutoriaali](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Esiluennon kysely](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/20)
+## [Oppitunnin jälkeinen kysely](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Tutustu sieniin 🍄
 
@@ -33,15 +33,15 @@ import matplotlib.pyplot as plt
 mushrooms = pd.read_csv('../../data/mushrooms.csv')
 mushrooms.head()
 ```
-Tulostetaan taulukko, joka sisältää loistavaa analysoitavaa dataa:
+Taulukko tulostetaan, ja siinä on loistavaa dataa analysoitavaksi:
 
 
-| luokka    | lakin muoto | lakin pinta | lakin väri | mustelmat | haju     | kidan kiinnitys | kidan väli   | kidan koko | kidan väri | jalan muoto | jalan juuri | jalan pinta renkaan yläpuolella | jalan pinta renkaan alapuolella | jalan väri renkaan yläpuolella | jalan väri renkaan alapuolella | verhon tyyppi | verhon väri | renkaiden määrä | renkaan tyyppi | itiöiden väri     | populaatio | elinympäristö |
-| --------- | ----------- | ----------- | ---------- | --------- | -------- | --------------- | ------------ | ---------- | ---------- | ----------- | ----------- | ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ | ------------- | ----------- | --------------- | -------------- | ----------------- | ---------- | ------------- |
-| Myrkyllinen | Kupera     | Sileä       | Ruskea     | Mustelmat | Pistävä  | Vapaa           | Tiivis       | Kapea      | Musta      | Laajeneva   | Tasainen    | Sileä                         | Sileä                         | Valkoinen                      | Valkoinen                      | Osittainen    | Valkoinen   | Yksi            | Riippuva       | Musta             | Hajallaan  | Kaupunki      |
-| Syötävä    | Kupera     | Sileä       | Keltainen  | Mustelmat | Manteli  | Vapaa           | Tiivis       | Leveä      | Musta      | Laajeneva   | Nuija       | Sileä                         | Sileä                         | Valkoinen                      | Valkoinen                      | Osittainen    | Valkoinen   | Yksi            | Riippuva       | Ruskea            | Lukuisia   | Ruohikko      |
-| Syötävä    | Kellomainen | Sileä       | Valkoinen  | Mustelmat | Anis     | Vapaa           | Tiivis       | Leveä      | Ruskea     | Laajeneva   | Nuija       | Sileä                         | Sileä                         | Valkoinen                      | Valkoinen                      | Osittainen    | Valkoinen   | Yksi            | Riippuva       | Ruskea            | Lukuisia   | Niitty        |
-| Myrkyllinen | Kupera     | Suomuinen   | Valkoinen  | Mustelmat | Pistävä  | Vapaa           | Tiivis       | Kapea      | Ruskea     | Laajeneva   | Tasainen    | Sileä                         | Sileä                         | Valkoinen                      | Valkoinen                      | Osittainen    | Valkoinen   | Yksi            | Riippuva       | Musta             | Hajallaan  | Kaupunki      |
+| luokka    | lakin muoto | lakin pinta | lakin väri | mustelmat | haju     | kiduskiinnitys | kidusväli   | kiduskoko | kidusväri  | jalan muoto | jalan juuri | jalan pinta renkaan yläpuolella | jalan pinta renkaan alapuolella | jalan väri renkaan yläpuolella | jalan väri renkaan alapuolella | verhon tyyppi | verhon väri | renkaiden määrä | renkaan tyyppi | itiöprintin väri | populaatio | elinympäristö |
+| --------- | ----------- | ----------- | ---------- | --------- | -------- | -------------- | ----------- | --------- | ---------- | ----------- | ----------- | ------------------------------- | ------------------------------- | ----------------------------- | ----------------------------- | ------------- | ---------- | --------------- | ------------- | ---------------- | ---------- | ------------- |
+| Myrkyllinen | Kupera     | Sileä       | Ruskea     | Mustelmat | Pistävä  | Vapaa          | Tiivis      | Kapea     | Musta      | Laajeneva   | Tasainen    | Sileä                          | Sileä                          | Valkoinen                     | Valkoinen                     | Osittainen    | Valkoinen  | Yksi            | Riippuva      | Musta            | Hajallaan  | Kaupunki      |
+| Syötävä    | Kupera     | Sileä       | Keltainen  | Mustelmat | Manteli  | Vapaa          | Tiivis      | Leveä     | Musta      | Laajeneva   | Nuija       | Sileä                          | Sileä                          | Valkoinen                     | Valkoinen                     | Osittainen    | Valkoinen  | Yksi            | Riippuva      | Ruskea           | Lukuisia   | Ruohikko      |
+| Syötävä    | Kellomainen | Sileä       | Valkoinen  | Mustelmat | Anis     | Vapaa          | Tiivis      | Leveä     | Ruskea     | Laajeneva   | Nuija       | Sileä                          | Sileä                          | Valkoinen                     | Valkoinen                     | Osittainen    | Valkoinen  | Yksi            | Riippuva      | Ruskea           | Lukuisia   | Niitty        |
+| Myrkyllinen | Kupera     | Suomuinen   | Valkoinen  | Mustelmat | Pistävä  | Vapaa          | Tiivis      | Kapea     | Ruskea     | Laajeneva   | Tasainen    | Sileä                          | Sileä                          | Valkoinen                     | Valkoinen                     | Osittainen    | Valkoinen  | Yksi            | Riippuva      | Musta            | Hajallaan  | Kaupunki      |
 
 Heti huomaat, että kaikki data on tekstimuotoista. Sinun täytyy muuntaa tämä data, jotta voit käyttää sitä kaaviossa. Suurin osa datasta on itse asiassa esitetty objektina:
 
@@ -75,13 +75,13 @@ edibleclass
 Kun tulostat sienidatan, näet, että se on ryhmitelty kategorioihin myrkyllisen/syötävän luokan mukaan:
 
 
-|           | lakin muoto | lakin pinta | lakin väri | mustelmat | haju | kidan kiinnitys | kidan väli   | kidan koko | kidan väri | jalan muoto | ... | jalan pinta renkaan alapuolella | jalan väri renkaan yläpuolella | jalan väri renkaan alapuolella | verhon tyyppi | verhon väri | renkaiden määrä | renkaan tyyppi | itiöiden väri     | populaatio | elinympäristö |
-| --------- | ----------- | ----------- | ---------- | --------- | ---- | --------------- | ------------ | ---------- | ---------- | ----------- | --- | ------------------------------ | ------------------------------ | ------------------------------ | ------------- | ----------- | --------------- | -------------- | ----------------- | ---------- | ------------- |
-| luokka    |             |             |            |           |      |                 |              |            |            |             |     |                                |                                |                                |               |             |                 |                |                   |            |               |
-| Syötävä   | 4208        | 4208        | 4208       | 4208      | 4208 | 4208            | 4208         | 4208       | 4208       | 4208        | ... | 4208                           | 4208                           | 4208                           | 4208          | 4208        | 4208            | 4208           | 4208              | 4208       | 4208          |
-| Myrkyllinen | 3916      | 3916        | 3916       | 3916      | 3916 | 3916            | 3916         | 3916       | 3916       | 3916        | ... | 3916                           | 3916                           | 3916                           | 3916          | 3916        | 3916            | 3916           | 3916              | 3916       | 3916          |
+|           | lakin muoto | lakin pinta | lakin väri | mustelmat | haju | kiduskiinnitys | kidusväli   | kiduskoko | kidusväri  | jalan muoto | ... | jalan pinta renkaan alapuolella | jalan väri renkaan yläpuolella | jalan väri renkaan alapuolella | verhon tyyppi | verhon väri | renkaiden määrä | renkaan tyyppi | itiöprintin väri | populaatio | elinympäristö |
+| --------- | ----------- | ----------- | ---------- | --------- | ---- | -------------- | ----------- | --------- | ---------- | ----------- | --- | ------------------------------- | ----------------------------- | ----------------------------- | ------------- | ---------- | --------------- | ------------- | ---------------- | ---------- | ------------- |
+| luokka    |             |             |            |           |      |                |             |           |            |             |     |                               |                             |                             |               |            |                 |               |                  |            |               |
+| Syötävä   | 4208        | 4208        | 4208       | 4208      | 4208 | 4208           | 4208        | 4208      | 4208       | 4208        | ... | 4208                          | 4208                        | 4208                        | 4208          | 4208       | 4208            | 4208          | 4208             | 4208       | 4208          |
+| Myrkyllinen | 3916      | 3916        | 3916       | 3916      | 3916 | 3916           | 3916        | 3916      | 3916       | 3916        | ... | 3916                          | 3916                        | 3916                        | 3916          | 3916       | 3916            | 3916          | 3916             | 3916       | 3916          |
 
-Jos noudatat tämän taulukon järjestystä luodessasi luokkakategorian tunnisteita, voit rakentaa piirakkakaavion:
+Jos noudatat tämän taulukon järjestystä luodaksesi luokkakategorian tunnisteet, voit rakentaa piirakkakaavion:
 
 ## Piirakka!
 
@@ -97,15 +97,15 @@ Voila, piirakkakaavio, joka näyttää tämän datan osuudet näiden kahden sien
 
 ## Donitsit!
 
-Hieman visuaalisesti kiinnostavampi piirakkakaavio on donitsikaavio, joka on piirakkakaavio, jossa on reikä keskellä. Katsotaan dataa tällä menetelmällä.
+Hieman visuaalisesti kiinnostavampi piirakkakaavio on donitsikaavio, joka on piirakkakaavio, jossa on reikä keskellä. Tarkastellaan dataamme tällä menetelmällä.
 
-Tarkastellaan eri elinympäristöjä, joissa sienet kasvavat:
+Tutkitaan eri elinympäristöjä, joissa sienet kasvavat:
 
 ```python
 habitat=mushrooms.groupby(['habitat']).count()
 habitat
 ```
-Tässä ryhmitellään data elinympäristön mukaan. Niitä on listattu 7, joten käytä niitä tunnisteina donitsikaaviolle:
+Tässä ryhmitellään data elinympäristön mukaan. Niitä on listattu 7, joten käytä niitä donitsikaavion tunnisteina:
 
 ```python
 labels=['Grasses','Leaves','Meadows','Paths','Urban','Waste','Wood']
@@ -125,14 +125,14 @@ plt.show()
 
 ![donitsikaavio](../../../../translated_images/donut-wb.be3c12a22712302b5d10c40014d5389d4a1ae4412fe1655b3cf4af57b64f799a.fi.png)
 
-Tämä koodi piirtää kaavion ja keskirenkaan, ja lisää sitten keskirenkaan kaavioon. Muokkaa keskirenkaan leveyttä muuttamalla arvoa `0.40`.
+Tämä koodi piirtää kaavion ja keskirenkaan, ja lisää sen kaavioon. Muokkaa keskirenkaan leveyttä muuttamalla arvoa `0.40`.
 
 Donitsikaavioita voi muokata monin tavoin tunnisteiden muuttamiseksi. Tunnisteet voidaan erityisesti korostaa luettavuuden parantamiseksi. Lue lisää [dokumentaatiosta](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
 
-Kun tiedät, miten ryhmitellä dataa ja esittää se piirakkana tai donitsina, voit tutkia muita kaaviotyyppejä. Kokeile vohvelikaaviota, joka on vain erilainen tapa tutkia määriä.
+Kun tiedät, miten ryhmitellä dataa ja näyttää sen piirakkana tai donitsina, voit tutkia muita kaaviotyyppejä. Kokeile vohvelikaaviota, joka on vain erilainen tapa tutkia määriä.
 ## Vohvelit!
 
-'Vohveli'-tyyppinen kaavio on erilainen tapa visualisoida määriä 2D-ruudukon avulla. Kokeile visualisoida eri sienilakkien värien määriä tässä datasetissä. Tätä varten sinun täytyy asentaa apukirjasto nimeltä [PyWaffle](https://pypi.org/project/pywaffle/) ja käyttää Matplotlibia:
+'Vohveli'-tyyppinen kaavio on erilainen tapa visualisoida määriä 2D-ruudukon neliöinä. Kokeile visualisoida eri sienilakkivärien määriä tässä datasetissä. Tätä varten sinun täytyy asentaa apukirjasto nimeltä [PyWaffle](https://pypi.org/project/pywaffle/) ja käyttää Matplotlibia:
 
 ```python
 pip install pywaffle
@@ -145,7 +145,7 @@ capcolor=mushrooms.groupby(['cap-color']).count()
 capcolor
 ```
 
-Luo vohvelikaavio luomalla tunnisteet ja ryhmittelemällä data:
+Luo vohvelikaavio luomalla tunnisteet ja ryhmittelemällä datasi:
 
 ```python
 import pandas as pd
@@ -168,20 +168,20 @@ fig = plt.figure(
 )
 ```
 
-Vohvelikaavion avulla näet selvästi sienilakkien värien osuudet tässä datasetissä. Mielenkiintoista on, että datasetissä on paljon vihreälakkisia sieniä!
+Vohvelikaaviota käyttämällä näet selvästi tämän sienidatasetin lakin värien osuudet. Mielenkiintoista on, että datasetissä on paljon vihreälakkisia sieniä!
 
 ![vohvelikaavio](../../../../translated_images/waffle.5455dbae4ccf17d53bb40ff0a657ecef7b8aa967e27a19cc96325bd81598f65e.fi.png)
 
-✅ Pywaffle tukee kaavioiden sisällä ikoneita, jotka käyttävät mitä tahansa [Font Awesomen](https://fontawesome.com/) saatavilla olevaa ikonia. Kokeile luoda vieläkin mielenkiintoisempi vohvelikaavio käyttämällä ikoneita ruutujen sijaan.
+✅ PyWaffle tukee kaavioiden sisällä ikoneita, jotka käyttävät mitä tahansa [Font Awesomen](https://fontawesome.com/) saatavilla olevaa ikonia. Kokeile luoda vieläkin mielenkiintoisempia vohvelikaavioita käyttämällä ikoneita neliöiden sijaan.
 
 Tässä oppitunnissa opit kolme tapaa visualisoida osuuksia. Ensin sinun täytyy ryhmitellä data kategorioihin ja sitten päättää, mikä on paras tapa esittää data - piirakka, donitsi tai vohveli. Kaikki ovat herkullisia ja tarjoavat käyttäjälle välittömän katsauksen datasettiin.
 
 ## 🚀 Haaste
 
-Kokeile luoda nämä herkulliset kaaviot [Charticulatorissa](https://charticulator.com).
-## [Luennon jälkeinen kysely](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
+Kokeile luoda nämä herkulliset kaaviot uudelleen [Charticulatorissa](https://charticulator.com).
+## [Oppitunnin jälkeinen kysely](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
 
-## Kertaus ja itseopiskelu
+## Kertaus & Itseopiskelu
 
 Joskus ei ole ilmeistä, milloin käyttää piirakka-, donitsi- tai vohvelikaaviota. Tässä muutamia artikkeleita aiheesta:
 

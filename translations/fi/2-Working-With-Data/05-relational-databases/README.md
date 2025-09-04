@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "870a0086adbc313a8eea5489bdcb2522",
-  "translation_date": "2025-08-26T20:50:44+00:00",
+  "original_hash": "11b166fbcb7eaf82308cdc24b562f687",
+  "translation_date": "2025-09-04T19:38:43+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "fi"
 }
@@ -13,15 +13,15 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Työskentely datan kanssa: Relaatiotietokannat - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-Todennäköisesti olet aiemmin käyttänyt taulukkolaskentaohjelmaa tiedon tallentamiseen. Sinulla oli rivejä ja sarakkeita, joissa rivit sisälsivät tiedot (tai datan) ja sarakkeet kuvasivat tietoa (joskus kutsutaan metadataksi). Relaatiotietokanta perustuu tähän perusperiaatteeseen, jossa taulukot koostuvat riveistä ja sarakkeista, mahdollistaen tiedon jakamisen useisiin taulukoihin. Tämä mahdollistaa monimutkaisemman datan käsittelyn, päällekkäisyyksien välttämisen ja joustavuuden datan tutkimisessa. Tutustutaan relaatiotietokannan käsitteisiin.
+Todennäköisesti olet aiemmin käyttänyt taulukkolaskentaohjelmaa tiedon tallentamiseen. Sinulla oli rivejä ja sarakkeita, joissa rivit sisälsivät tiedot (tai datan) ja sarakkeet kuvasivat tietoja (joskus kutsutaan metadataksi). Relaatiotietokanta perustuu tähän perusperiaatteeseen, jossa taulukot koostuvat riveistä ja sarakkeista, ja tiedot voivat olla jaettu useisiin taulukoihin. Tämä mahdollistaa monimutkaisemman datan käsittelyn, päällekkäisyyksien välttämisen ja joustavuuden datan tutkimisessa. Tutustutaan relaatiotietokannan käsitteisiin.
 
 ## [Esiluennon kysely](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/8)
 
 ## Kaikki alkaa taulukoista
 
-Relaatiotietokannan ydin on taulukot. Kuten taulukkolaskennassa, taulukko on kokoelma rivejä ja sarakkeita. Rivi sisältää datan tai tiedon, jonka kanssa haluamme työskennellä, kuten kaupungin nimi tai sademäärä. Sarakkeet kuvaavat tallennettavaa dataa.
+Relaatiotietokannan ydin on taulukot. Kuten taulukkolaskennassa, taulukko on kokoelma rivejä ja sarakkeita. Rivit sisältävät datan tai tiedot, joiden kanssa haluamme työskennellä, kuten kaupungin nimi tai sademäärä. Sarakkeet kuvaavat tallennettavaa dataa.
 
-Aloitetaan tutkimalla taulukkoa, joka tallentaa tietoa kaupungeista. Voisimme aloittaa niiden nimellä ja maalla. Voisit tallentaa tämän taulukkoon seuraavasti:
+Aloitetaan tutkimalla taulukkoa, joka tallentaa tietoa kaupungeista. Voisimme aloittaa niiden nimellä ja maalla. Tämä voitaisiin tallentaa taulukkoon seuraavasti:
 
 | Kaupunki | Maa           |
 | -------- | ------------- |
@@ -29,11 +29,11 @@ Aloitetaan tutkimalla taulukkoa, joka tallentaa tietoa kaupungeista. Voisimme al
 | Atlanta  | Yhdysvallat   |
 | Auckland | Uusi-Seelanti |
 
-Huomaa, että sarakenimet **kaupunki**, **maa** ja **väkiluku** kuvaavat tallennettavaa dataa, ja jokainen rivi sisältää tiedot yhdestä kaupungista.
+Huomaa, että sarakenimet **kaupunki**, **maa** ja **väkiluku** kuvaavat tallennettavaa dataa, ja jokainen rivi sisältää tietoa yhdestä kaupungista.
 
 ## Yhden taulukon lähestymistavan puutteet
 
-Taulukko yllä näyttää todennäköisesti melko tutulta. Lisätään nyt lisää dataa kasvavaan tietokantaamme - vuotuinen sademäärä (millimetreinä). Keskitytään vuosiin 2018, 2019 ja 2020. Jos lisäisimme tiedot Tokiosta, se voisi näyttää tältä:
+Taulukko yllä saattaa tuntua melko tutulta. Lisätään nyt lisää dataa kasvavaan tietokantaamme - vuotuinen sademäärä (millimetreinä). Keskitytään vuosiin 2018, 2019 ja 2020. Jos lisäisimme sen Tokion osalta, se voisi näyttää tältä:
 
 | Kaupunki | Maa     | Vuosi | Määrä  |
 | -------- | ------- | ----- | ------ |
@@ -51,7 +51,7 @@ Kokeillaan jotain muuta. Lisätään uusia sarakkeita jokaiselle vuodelle:
 | Atlanta  | Yhdysvallat   | 1779 | 1111 | 1683 |
 | Auckland | Uusi-Seelanti | 1386 | 942  | 1176 |
 
-Vaikka tämä välttää rivien toistamisen, se tuo mukanaan muita haasteita. Meidän pitäisi muokata taulukon rakennetta aina, kun tulee uusi vuosi. Lisäksi, kun datamme kasvaa, vuosien käyttäminen sarakkeina tekee arvojen hakemisesta ja laskemisesta hankalampaa.
+Vaikka tämä välttää rivien toistamisen, se tuo mukanaan muita haasteita. Meidän pitäisi muuttaa taulukon rakennetta joka kerta, kun tulee uusi vuosi. Lisäksi, kun datamme kasvaa, vuosien pitäminen sarakkeina tekee arvojen hakemisesta ja laskemisesta hankalampaa.
 
 Tämän vuoksi tarvitsemme useita taulukoita ja suhteita. Jakamalla datan osiin voimme välttää päällekkäisyyksiä ja saada enemmän joustavuutta datan käsittelyyn.
 
@@ -65,7 +65,7 @@ Palataan dataamme ja mietitään, miten haluamme jakaa sen. Tiedämme, että hal
 | Atlanta  | Yhdysvallat   |
 | Auckland | Uusi-Seelanti |
 
-Mutta ennen kuin luomme seuraavan taulukon, meidän täytyy päättää, miten viittaamme jokaiseen kaupunkiin. Tarvitsemme jonkinlaisen tunnisteen, ID:n tai (teknisessä tietokantatermistössä) pääavaimen. Pääavain on arvo, jota käytetään yhden tietyn rivin tunnistamiseen taulukossa. Vaikka tämä voisi perustua itse arvoon (voisimme käyttää kaupungin nimeä esimerkiksi), sen pitäisi lähes aina olla numero tai muu tunniste. Emme halua, että ID muuttuu koskaan, sillä se rikkoisi suhteen. Useimmissa tapauksissa pääavain tai ID on automaattisesti luotu numero.
+Mutta ennen kuin luomme seuraavan taulukon, meidän täytyy päättää, miten viitata jokaiseen kaupunkiin. Tarvitsemme jonkinlaisen tunnisteen, ID:n tai (teknisessä tietokantatermistössä) pääavaimen. Pääavain on arvo, jota käytetään yhden tietyn rivin tunnistamiseen taulukossa. Vaikka tämä voisi perustua itse arvoon (voisimme käyttää kaupungin nimeä esimerkiksi), sen pitäisi lähes aina olla numero tai muu tunniste. Emme halua, että ID muuttuu koskaan, sillä se rikkoisi suhteen. Useimmissa tapauksissa pääavain tai ID on automaattisesti luotu numero.
 
 > ✅ Pääavain lyhennetään usein PK
 
@@ -95,7 +95,7 @@ Kun kaupunkien taulukko on luotu, tallennetaan sademäärä. Sen sijaan, että t
 | 8           | 3       | 2019  | 942    |
 | 9           | 3       | 2020  | 1176   |
 
-Huomaa **city_id**-sarake juuri luodussa **sademäärä**-taulukossa. Tämä sarake sisältää arvoja, jotka viittaavat **kaupungit**-taulukon ID:ihin. Teknisen relaatiodatan termeissä tätä kutsutaan **vierasavaimeksi**; se on pääavain toisesta taulukosta. Voit ajatella sitä viittauksena tai osoittimena. **city_id** 1 viittaa Tokioon.
+Huomaa **city_id**-sarake juuri luodussa **sademäärä**-taulukossa. Tämä sarake sisältää arvoja, jotka viittaavat **kaupungit**-taulukon ID:ihin. Teknisen relaatiodatan termein tätä kutsutaan **vierasavaimeksi**; se on pääavain toisesta taulukosta. Voit ajatella sitä viittauksena tai osoittimena. **city_id** 1 viittaa Tokioon.
 
 > [!NOTE] Vierasavain lyhennetään usein FK
 
@@ -103,7 +103,7 @@ Huomaa **city_id**-sarake juuri luodussa **sademäärä**-taulukossa. Tämä sar
 
 Kun datamme on jaettu kahteen taulukkoon, saatat miettiä, miten sen voi hakea. Jos käytämme relaatiotietokantaa, kuten MySQL, SQL Server tai Oracle, voimme käyttää kieltä nimeltä Structured Query Language eli SQL. SQL (joskus lausutaan "sequel") on standardikieli, jota käytetään datan hakemiseen ja muokkaamiseen relaatiotietokannassa.
 
-Datan hakemiseen käytetään komentoa `SELECT`. Perusperiaatteena on, että **valitset** sarakkeet, jotka haluat nähdä, **taulukosta**, jossa ne sijaitsevat. Jos haluaisit näyttää vain kaupunkien nimet, voisit käyttää seuraavaa:
+Datan hakemiseen käytetään komentoa `SELECT`. Perusperiaatteena on, että **valitset** sarakkeet, jotka haluat nähdä, **taulukosta**, jossa ne ovat. Jos haluaisit näyttää vain kaupunkien nimet, voisit käyttää seuraavaa:
 
 ```sql
 SELECT city
@@ -117,7 +117,7 @@ FROM cities;
 
 `SELECT` on kohta, jossa luetellaan sarakkeet, ja `FROM` on kohta, jossa luetellaan taulukot.
 
-> [NOTE] SQL-syntaksi ei ole kirjainkoolle herkkä, eli `select` ja `SELECT` tarkoittavat samaa. Kuitenkin riippuen käyttämästäsi tietokantatyypistä sarakkeet ja taulukot voivat olla kirjainkoolle herkkiä. Tämän vuoksi on hyvä käytäntö aina käsitellä kaikkea ohjelmoinnissa kuin se olisi kirjainkoolle herkkää. Kun kirjoitat SQL-kyselyitä, yleinen tapa on kirjoittaa avainsanat kokonaan isoilla kirjaimilla.
+> [NOTE] SQL-syntaksi ei ole kirjainkoolle herkkä, eli `select` ja `SELECT` tarkoittavat samaa. Kuitenkin, riippuen käyttämästäsi tietokantatyypistä, sarakkeet ja taulukot voivat olla kirjainkoolle herkkiä. Tämän vuoksi on hyvä käytäntö aina käsitellä kaikkea ohjelmoinnissa kuin se olisi kirjainkoolle herkkää. Kun kirjoitat SQL-kyselyitä, yleinen tapa on kirjoittaa avainsanat kokonaan isoilla kirjaimilla.
 
 Yllä oleva kysely näyttää kaikki kaupungit. Kuvitellaan, että haluaisimme näyttää vain Uuden-Seelannin kaupungit. Tarvitsemme jonkinlaisen suodattimen. SQL-avainsana tähän on `WHERE`, eli "missä jokin on totta".
 
@@ -175,7 +175,7 @@ Internetissä on lukuisia relaatiotietokantoja. Voit tutkia dataa käyttämäll�
 
 ## Luennon jälkeinen kysely
 
-## [Luennon jälkeinen kysely](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/9)
+## [Luennon jälkeinen kysely](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Kertaus ja itseopiskelu
 
@@ -183,7 +183,7 @@ Microsoft Learn -sivustolla on useita resursseja, joiden avulla voit jatkaa SQL:
 
 - [Relaatiodatan käsitteiden kuvaaminen](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-77958-bethanycheum)
 - [Aloita kyselyt Transact-SQL:llä](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-77958-bethanycheum) (Transact-SQL on SQL:n versio)
-- [SQL-sisältö Microsoft Learnissa](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-77958-bethanycheum)
+- [SQL-sisältö Microsoft Learn -sivustolla](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-77958-bethanycheum)
 
 ## Tehtävä
 
@@ -192,4 +192,4 @@ Microsoft Learn -sivustolla on useita resursseja, joiden avulla voit jatkaa SQL:
 ---
 
 **Vastuuvapauslauseke**:  
-Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulisi pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa tämän käännöksen käytöstä johtuvista väärinkäsityksistä tai virhetulkinnoista.
+Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulisi pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa väärinkäsityksistä tai virhetulkinnoista, jotka johtuvat tämän käännöksen käytöstä.

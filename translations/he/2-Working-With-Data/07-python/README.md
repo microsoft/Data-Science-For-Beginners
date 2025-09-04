@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "116c5d361fbe812e59a73f37ce721d36",
-  "translation_date": "2025-08-28T15:15:50+00:00",
+  "original_hash": "57f7db1f4c3ae3361c1d1fbafcdd690c",
+  "translation_date": "2025-09-04T20:03:30+00:00",
   "source_file": "2-Working-With-Data/07-python/README.md",
   "language_code": "he"
 }
@@ -11,43 +11,43 @@ CO_OP_TRANSLATOR_METADATA:
 
 | ![ סקיצה מאת [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/07-WorkWithPython.png) |
 | :-------------------------------------------------------------------------------------------------------: |
-|                 עבודה עם Python - _סקיצה מאת [@nitya](https://twitter.com/nitya)_                         |
+|                 עבודה עם Python - _סקיצה מאת [@nitya](https://twitter.com/nitya)_                 |
 
 [![סרטון מבוא](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.he.png)](https://youtu.be/dZjWOGbsN4Y)
 
-בעוד שמאגרי נתונים מציעים דרכים יעילות מאוד לאחסן נתונים ולבצע שאילתות באמצעות שפות שאילתה, הדרך הגמישה ביותר לעיבוד נתונים היא כתיבת תוכנית משלך כדי לטפל בנתונים. במקרים רבים, ביצוע שאילתה במאגר נתונים יהיה דרך יעילה יותר. עם זאת, במקרים שבהם נדרש עיבוד נתונים מורכב יותר, לא ניתן לבצע זאת בקלות באמצעות SQL.  
+בעוד שמאגרי נתונים מציעים דרכים יעילות מאוד לאחסן נתונים ולשאול אותם באמצעות שפות שאילתה, הדרך הגמישה ביותר לעיבוד נתונים היא כתיבת תוכנית משלך כדי לטפל בנתונים. במקרים רבים, ביצוע שאילתה במאגר נתונים יהיה דרך יעילה יותר. עם זאת, במקרים מסוימים שבהם נדרש עיבוד נתונים מורכב יותר, לא ניתן לבצע זאת בקלות באמצעות SQL.  
 ניתן לתכנת עיבוד נתונים בכל שפת תכנות, אך ישנן שפות מסוימות שהן ברמה גבוהה יותר בכל הנוגע לעבודה עם נתונים. מדעני נתונים בדרך כלל מעדיפים אחת מהשפות הבאות:
 
 * **[Python](https://www.python.org/)**, שפת תכנות כללית, שנחשבת לעיתים קרובות לאחת האפשרויות הטובות ביותר למתחילים בשל הפשטות שלה. ל-Python יש הרבה ספריות נוספות שיכולות לעזור לך לפתור בעיות מעשיות רבות, כמו חילוץ נתונים מארכיון ZIP או המרת תמונה לגווני אפור. בנוסף למדעי הנתונים, Python משמשת גם לעיתים קרובות לפיתוח אתרים.  
-* **[R](https://www.r-project.org/)** היא כלי מסורתי שפותח עם מחשבה על עיבוד נתונים סטטיסטיים. היא מכילה גם מאגר גדול של ספריות (CRAN), מה שהופך אותה לבחירה טובה לעיבוד נתונים. עם זאת, R אינה שפת תכנות כללית, והיא משמשת לעיתים רחוקות מחוץ לתחום מדעי הנתונים.  
-* **[Julia](https://julialang.org/)** היא שפה נוספת שפותחה במיוחד עבור מדעי הנתונים. היא נועדה לספק ביצועים טובים יותר מ-Python, מה שהופך אותה לכלי מצוין לניסויים מדעיים.
+* **[R](https://www.r-project.org/)** היא כלי מסורתי שפותח עם עיבוד נתונים סטטיסטיים בראש. היא מכילה גם מאגר גדול של ספריות (CRAN), מה שהופך אותה לבחירה טובה לעיבוד נתונים. עם זאת, R אינה שפת תכנות כללית, והיא משמשת לעיתים רחוקות מחוץ לתחום מדעי הנתונים.  
+* **[Julia](https://julialang.org/)** היא שפה נוספת שפותחה במיוחד עבור מדעי הנתונים. היא נועדה לספק ביצועים טובים יותר מ-Python, מה שהופך אותה לכלי נהדר לניסויים מדעיים.
 
-בשיעור זה, נתמקד בשימוש ב-Python לעיבוד נתונים פשוט. נניח היכרות בסיסית עם השפה. אם ברצונך לסייר לעומק ב-Python, תוכל לעיין באחד מהמשאבים הבאים:
+בשיעור זה, נתמקד בשימוש ב-Python לעיבוד נתונים פשוט. נניח היכרות בסיסית עם השפה. אם אתה רוצה סיור מעמיק יותר ב-Python, תוכל לעיין באחד מהמשאבים הבאים:
 
 * [למד Python בדרך מהנה עם גרפיקה של צב ופרקטלים](https://github.com/shwars/pycourse) - קורס מבוא מהיר ל-Python מבוסס GitHub  
 * [עשה את הצעדים הראשונים שלך עם Python](https://docs.microsoft.com/en-us/learn/paths/python-first-steps/?WT.mc_id=academic-77958-bethanycheum) מסלול למידה ב-[Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=academic-77958-bethanycheum)
 
 נתונים יכולים להגיע בצורות רבות. בשיעור זה, נתמקד בשלוש צורות של נתונים - **נתונים טבלאיים**, **טקסט** ו**תמונות**.
 
-נתמקד בכמה דוגמאות לעיבוד נתונים, במקום לתת סקירה מלאה של כל הספריות הקשורות. זה יאפשר לך להבין את הרעיון המרכזי של מה אפשרי, ולהשאיר אותך עם הבנה היכן למצוא פתרונות לבעיות שלך כשאתה זקוק להם.
+נתמקד בכמה דוגמאות לעיבוד נתונים, במקום לתת לך סקירה מלאה של כל הספריות הקשורות. זה יאפשר לך להבין את הרעיון המרכזי של מה אפשרי, ולהשאיר אותך עם הבנה היכן למצוא פתרונות לבעיות שלך כשאתה זקוק להם.
 
-> **העצה הכי מועילה**. כשאתה צריך לבצע פעולה מסוימת על נתונים שאינך יודע כיצד לבצע, נסה לחפש אותה באינטרנט. [Stackoverflow](https://stackoverflow.com/) מכיל בדרך כלל הרבה דוגמאות קוד שימושיות ב-Python עבור משימות טיפוסיות רבות.
+> **העצה הכי מועילה**. כשאתה צריך לבצע פעולה מסוימת על נתונים שאינך יודע כיצד לבצע, נסה לחפש אותה באינטרנט. [Stackoverflow](https://stackoverflow.com/) בדרך כלל מכיל הרבה דוגמאות קוד שימושיות ב-Python עבור משימות טיפוסיות רבות.  
 
 ## [שאלון לפני השיעור](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/12)
 
 ## נתונים טבלאיים ו-Dataframes
 
-כבר פגשת נתונים טבלאיים כשדיברנו על מאגרי נתונים יחסיים. כשיש לך הרבה נתונים, והם נמצאים בטבלאות רבות ומקושרות, בהחלט יש היגיון להשתמש ב-SQL לעבודה איתם. עם זאת, ישנם מקרים רבים שבהם יש לנו טבלה של נתונים, ואנו צריכים לקבל **הבנה** או **תובנות** לגבי נתונים אלו, כמו התפלגות, קשרים בין ערכים, וכו'. במדעי הנתונים, ישנם מקרים רבים שבהם אנו צריכים לבצע כמה טרנספורמציות של הנתונים המקוריים, ולאחר מכן לבצע ויזואליזציה. שני השלבים הללו יכולים להתבצע בקלות באמצעות Python.
+כבר פגשת נתונים טבלאיים כשדיברנו על מאגרי נתונים יחסיים. כשיש לך הרבה נתונים, והם נמצאים בטבלאות רבות ומקושרות, בהחלט יש היגיון להשתמש ב-SQL לעבודה איתם. עם זאת, ישנם מקרים רבים שבהם יש לנו טבלה של נתונים, ואנו צריכים לקבל **הבנה** או **תובנות** לגבי נתונים אלו, כמו התפלגות, קשרים בין ערכים, וכו'. במדעי הנתונים, ישנם מקרים רבים שבהם אנו צריכים לבצע כמה טרנספורמציות של הנתונים המקוריים, ולאחר מכן ויזואליזציה. שני השלבים הללו יכולים להתבצע בקלות באמצעות Python.
 
 ישנן שתי ספריות שימושיות ביותר ב-Python שיכולות לעזור לך להתמודד עם נתונים טבלאיים:
 * **[Pandas](https://pandas.pydata.org/)** מאפשרת לך לטפל ב-**Dataframes**, שהם אנלוגיים לטבלאות יחסיות. ניתן להגדיר עמודות עם שמות, ולבצע פעולות שונות על שורות, עמודות ו-Dataframes באופן כללי.  
 * **[Numpy](https://numpy.org/)** היא ספרייה לעבודה עם **tensors**, כלומר **מערכים** רב-ממדיים. מערך מכיל ערכים מסוג בסיסי זהה, והוא פשוט יותר מ-Dataframe, אך מציע יותר פעולות מתמטיות ויוצר פחות עומס.
 
 ישנן גם כמה ספריות נוספות שכדאי להכיר:
-* **[Matplotlib](https://matplotlib.org/)** היא ספרייה המשמשת לויזואליזציה של נתונים ולשרטוט גרפים  
+* **[Matplotlib](https://matplotlib.org/)** היא ספרייה המשמשת לויזואליזציה של נתונים ושרטוט גרפים  
 * **[SciPy](https://www.scipy.org/)** היא ספרייה עם כמה פונקציות מדעיות נוספות. כבר נתקלנו בספרייה זו כשדיברנו על הסתברות וסטטיסטיקה  
 
-הנה קטע קוד שתשתמש בו בדרך כלל כדי לייבא את הספריות הללו בתחילת תוכנית Python:
+הנה קטע קוד שתשתמש בו בדרך כלל כדי לייבא את הספריות הללו בתחילת תוכנית Python שלך:
 ```python
 import numpy as np
 import pandas as pd
@@ -59,11 +59,11 @@ Pandas מתמקדת בכמה מושגים בסיסיים.
 
 ### Series 
 
-**Series** היא רצף של ערכים, בדומה לרשימה או מערך numpy. ההבדל העיקרי הוא ש-Series מכילה גם **אינדקס**, וכשאנחנו מבצעים פעולות על Series (למשל, חיבור), האינדקס נלקח בחשבון. האינדקס יכול להיות פשוט כמו מספר שורה שלם (זהו האינדקס המשמש כברירת מחדל בעת יצירת Series מרשימה או מערך), או שהוא יכול להיות בעל מבנה מורכב, כמו טווח תאריכים.
+**Series** היא רצף של ערכים, דומה לרשימה או מערך numpy. ההבדל העיקרי הוא ש-Series מכילה גם **אינדקס**, וכשאנחנו מבצעים פעולות על Series (למשל, מוסיפים אותם), האינדקס נלקח בחשבון. האינדקס יכול להיות פשוט כמו מספר שורה שלם (זהו האינדקס המשמש כברירת מחדל בעת יצירת Series מרשימה או מערך), או שהוא יכול להיות בעל מבנה מורכב, כמו טווח תאריכים.
 
-> **הערה**: יש קוד מבוא ל-Pandas במחברת המצורפת [`notebook.ipynb`](notebook.ipynb). אנו מציינים כאן רק כמה דוגמאות, ואתם בהחלט מוזמנים לבדוק את המחברת המלאה.
+> **הערה**: יש קוד מבוא ל-Pandas במחברת המצורפת [`notebook.ipynb`](notebook.ipynb). אנו מציינים רק כמה דוגמאות כאן, ואתה בהחלט מוזמן לבדוק את המחברת המלאה.
 
-לדוגמה: נניח שאנחנו רוצים לנתח מכירות של חנות גלידה שלנו. בואו ניצור סדרה של מספרי מכירות (מספר פריטים שנמכרו בכל יום) עבור תקופת זמן מסוימת:
+נניח לדוגמה: אנחנו רוצים לנתח מכירות של חנות הגלידה שלנו. בואו ניצור סדרה של מספרי מכירות (מספר פריטים שנמכרו בכל יום) עבור תקופת זמן מסוימת:
 
 ```python
 start_date = "Jan 1, 2020"
@@ -75,18 +75,18 @@ items_sold.plot()
 ```
 ![גרף סדרת זמן](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.he.png)
 
-עכשיו נניח שבכל שבוע אנחנו מארגנים מסיבה לחברים, ולוקחים 10 חבילות גלידה נוספות למסיבה. נוכל ליצור סדרה נוספת, עם אינדקס לפי שבוע, כדי להדגים זאת:
+עכשיו נניח שבכל שבוע אנחנו מארגנים מסיבה לחברים, ולוקחים 10 חבילות נוספות של גלידה למסיבה. נוכל ליצור סדרה נוספת, עם אינדקס לפי שבוע, כדי להדגים זאת:
 ```python
 additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"))
 ```
-כשאנחנו מחברים שתי סדרות יחד, אנחנו מקבלים את המספר הכולל:
+כשאנחנו מוסיפים שתי סדרות יחד, אנחנו מקבלים את המספר הכולל:
 ```python
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
 ![גרף סדרת זמן](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.he.png)
 
-> **הערה** שאנחנו לא משתמשים בתחביר הפשוט `total_items+additional_items`. אם היינו עושים זאת, היינו מקבלים הרבה ערכי `NaN` (*Not a Number*) בסדרה המתקבלת. זאת מכיוון שיש ערכים חסרים עבור חלק מנקודות האינדקס בסדרה `additional_items`, וחיבור `NaN` לכל דבר מביא ל-`NaN`. לכן עלינו לציין את הפרמטר `fill_value` במהלך החיבור.
+> **הערה** שאנחנו לא משתמשים בתחביר הפשוט `total_items+additional_items`. אם היינו עושים זאת, היינו מקבלים הרבה ערכי `NaN` (*Not a Number*) בסדרה המתקבלת. זאת מכיוון שיש ערכים חסרים עבור חלק מנקודות האינדקס בסדרה `additional_items`, והוספת `NaN` לכל דבר תוצאה ב-`NaN`. לכן עלינו לציין את הפרמטר `fill_value` במהלך ההוספה.
 
 עם סדרות זמן, אנחנו יכולים גם **לדגום מחדש** את הסדרה עם מרווחי זמן שונים. לדוגמה, נניח שאנחנו רוצים לחשב את ממוצע נפח המכירות חודשי. נוכל להשתמש בקוד הבא:
 ```python
@@ -139,27 +139,27 @@ df = pd.DataFrame([a,b]).T..rename(columns={ 0 : 'A', 1 : 'B' })
 
 **סינון** רק שורות מסוימות לפי קריטריונים. לדוגמה, כדי להשאיר רק שורות עם עמודה `A` גדולה מ-5, אנחנו יכולים לכתוב `df[df['A']>5]`.
 
-> **הערה**: הדרך שבה סינון עובד היא כדלקמן. הביטוי `df['A']<5` מחזיר סדרה בוליאנית, שמציינת האם הביטוי הוא `True` או `False` עבור כל אלמנט בסדרה המקורית `df['A']`. כאשר סדרה בוליאנית משמשת כאינדקס, היא מחזירה תת-קבוצה של שורות ב-DataFrame. לכן לא ניתן להשתמש בביטוי בוליאני שרירותי של Python, לדוגמה, כתיבה `df[df['A']>5 and df['A']<7]` תהיה שגויה. במקום זאת, עליך להשתמש בפעולת `&` מיוחדת על סדרות בוליאניות, ולכתוב `df[(df['A']>5) & (df['A']<7)]` (*סוגריים חשובים כאן*).
+> **הערה**: הדרך שבה סינון עובד היא כדלקמן. הביטוי `df['A']<5` מחזיר סדרה בוליאנית, שמציינת האם הביטוי הוא `True` או `False` עבור כל אלמנט בסדרה המקורית `df['A']`. כאשר סדרה בוליאנית משמשת כאינדקס, היא מחזירה תת-קבוצה של שורות ב-DataFrame. לכן, לא ניתן להשתמש בביטוי בוליאני שרירותי של Python, לדוגמה, כתיבה `df[df['A']>5 and df['A']<7]` תהיה שגויה. במקום זאת, עליך להשתמש בפעולת `&` מיוחדת על סדרות בוליאניות, ולכתוב `df[(df['A']>5) & (df['A']<7)]` (*סוגריים חשובים כאן*).
 
 **יצירת עמודות מחושבות חדשות**. אנחנו יכולים ליצור בקלות עמודות מחושבות חדשות עבור ה-DataFrame שלנו באמצעות ביטוי אינטואיטיבי כמו זה:
 ```python
 df['DivA'] = df['A']-df['A'].mean() 
 ``` 
-דוגמה זו מחשבת את הסטייה של A מערך הממוצע שלה. מה שקורה כאן בפועל הוא שאנחנו מחשבים סדרה, ואז משייכים את הסדרה הזו לצד השמאלי, ויוצרים עמודה חדשה. לכן, אנחנו לא יכולים להשתמש בפעולות שאינן תואמות לסדרות, לדוגמה, הקוד הבא שגוי:
+דוגמה זו מחשבת את הסטייה של A מערך הממוצע שלה. מה שקורה כאן בפועל הוא שאנחנו מחשבים סדרה, ואז מקצים את הסדרה הזו לצד השמאלי, ויוצרים עמודה חדשה. לכן, אנחנו לא יכולים להשתמש בפעולות שאינן תואמות לסדרות, לדוגמה, הקוד הבא שגוי:
 ```python
 # Wrong code -> df['ADescr'] = "Low" if df['A'] < 5 else "Hi"
 df['LenB'] = len(df['B']) # <- Wrong result
 ``` 
-הדוגמה האחרונה, למרות שהיא נכונה מבחינה תחבירית, נותנת לנו תוצאה שגויה, מכיוון שהיא משייכת את אורך הסדרה `B` לכל הערכים בעמודה, ולא את אורך האלמנטים הבודדים כפי שהתכוונו.
+הדוגמה האחרונה, למרות שהיא נכונה מבחינה תחבירית, נותנת לנו תוצאה שגויה, מכיוון שהיא מקצה את אורך הסדרה `B` לכל הערכים בעמודה, ולא את אורך האלמנטים הבודדים כפי שהתכוונו.
 
-אם אנחנו צריכים לחשב ביטויים מורכבים כמו זה, אנחנו יכולים להשתמש בפונקציה `apply`. הדוגמה האחרונה יכולה להיכתב כך:
+אם אנחנו צריכים לחשב ביטויים מורכבים כאלה, אנחנו יכולים להשתמש בפונקציית `apply`. הדוגמה האחרונה יכולה להיכתב כך:
 ```python
 df['LenB'] = df['B'].apply(lambda x : len(x))
 # or 
 df['LenB'] = df['B'].apply(len)
 ```
 
-לאחר הפעולות לעיל, נגיע ל-DataFrame הבא:
+לאחר הפעולות לעיל, נסיים עם ה-DataFrame הבא:
 
 |     | A   | B      | DivA | LenB |
 | --- | --- | ------ | ---- | ---- |
@@ -173,7 +173,7 @@ df['LenB'] = df['B'].apply(len)
 | 7   | 8   | very   | 3.0  | 4    |
 | 8   | 9   | much   | 4.0  | 4    |
 
-**בחירת שורות לפי מספרים** יכולה להתבצע באמצעות מבנה `iloc`. לדוגמה, כדי לבחור את 5 השורות הראשונות מה-DataFrame:
+**בחירת שורות לפי מספרים** יכולה להתבצע באמצעות מבנה `iloc`. לדוגמה, כדי לבחור את חמש השורות הראשונות מה-DataFrame:
 ```python
 df.iloc[:5]
 ```
@@ -182,7 +182,7 @@ df.iloc[:5]
 ```python
 df.groupby(by='LenB').mean()
 ```
-אם אנחנו צריכים לחשב ממוצע ומספר האלמנטים בקבוצה, אז אנחנו יכולים להשתמש בפונקציה `aggregate` מורכבת יותר:
+אם אנחנו צריכים לחשב ממוצע ומספר האלמנטים בקבוצה, אז אנחנו יכולים להשתמש בפונקציית `aggregate` מורכבת יותר:
 ```python
 df.groupby(by='LenB') \
  .aggregate({ 'DivA' : len, 'A' : lambda x: x.mean() }) \
@@ -205,17 +205,17 @@ df = pd.read_csv('file.csv')
 ```
 נראה דוגמאות נוספות לטעינת נתונים, כולל הבאתם מאתרים חיצוניים, בסעיף "אתגר".
 
-### הדפסה וגרפים
+### הדפסה וגרפיקה
 
 מדען נתונים לעיתים קרובות צריך לחקור את הנתונים, ולכן חשוב להיות מסוגל להציג אותם בצורה חזותית. כאשר DataFrame גדול, פעמים רבות נרצה רק לוודא שאנחנו עושים הכל נכון על ידי הדפסת השורות הראשונות. ניתן לעשות זאת על ידי קריאה ל-`df.head()`. אם אתם מריצים זאת מתוך Jupyter Notebook, זה ידפיס את ה-DataFrame בצורה טבלאית יפה.
 
-כמו כן, ראינו את השימוש בפונקציה `plot` כדי להציג גרפים של עמודות מסוימות. בעוד ש-`plot` מאוד שימושית למשימות רבות ותומכת בסוגי גרפים שונים באמצעות הפרמטר `kind=`, תמיד ניתן להשתמש בספריית `matplotlib` כדי ליצור גרפים מורכבים יותר. נעסוק בהדמיית נתונים בפירוט בשיעורים נפרדים של הקורס.
+כמו כן, ראינו את השימוש בפונקציה `plot` כדי להציג גרפית עמודות מסוימות. בעוד ש-`plot` מאוד שימושית למשימות רבות ותומכת בסוגי גרפים שונים באמצעות הפרמטר `kind=`, תמיד ניתן להשתמש בספריית `matplotlib` הגולמית כדי ליצור גרפים מורכבים יותר. נעסוק בהדמיית נתונים בפירוט בשיעורים נפרדים של הקורס.
 
 סקירה זו מכסה את הרעיונות החשובים ביותר של Pandas, אך הספרייה עשירה מאוד ואין גבול למה שניתן לעשות איתה! עכשיו ניישם את הידע הזה לפתרון בעיה ספציפית.
 
 ## 🚀 אתגר 1: ניתוח התפשטות COVID
 
-הבעיה הראשונה שבה נתמקד היא מודלינג של התפשטות מגפת COVID-19. כדי לעשות זאת, נשתמש בנתונים על מספר הנדבקים במדינות שונות, המסופקים על ידי [Center for Systems Science and Engineering](https://systems.jhu.edu/) (CSSE) ב-[אוניברסיטת ג'ונס הופקינס](https://jhu.edu/). מערך הנתונים זמין ב-[מאגר GitHub זה](https://github.com/CSSEGISandData/COVID-19).
+הבעיה הראשונה שבה נתמקד היא מודלינג של התפשטות מגפת COVID-19. כדי לעשות זאת, נשתמש בנתונים על מספר האנשים הנדבקים במדינות שונות, המסופקים על ידי [Center for Systems Science and Engineering](https://systems.jhu.edu/) (CSSE) ב-[אוניברסיטת ג'ונס הופקינס](https://jhu.edu/). מערך הנתונים זמין ב-[מאגר GitHub זה](https://github.com/CSSEGISandData/COVID-19).
 
 מכיוון שאנחנו רוצים להדגים כיצד להתמודד עם נתונים, אנו מזמינים אתכם לפתוח את [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) ולקרוא אותו מההתחלה ועד הסוף. תוכלו גם להריץ תאים ולעשות כמה אתגרים שהשארנו לכם בסוף.
 
@@ -225,10 +225,10 @@ df = pd.read_csv('file.csv')
 
 ## עבודה עם נתונים לא מובנים
 
-בעוד שנתונים מגיעים לעיתים קרובות בצורה טבלאית, במקרים מסוימים אנו צריכים להתמודד עם נתונים פחות מובנים, לדוגמה, טקסט או תמונות. במקרה כזה, כדי ליישם טכניקות עיבוד נתונים שראינו קודם, עלינו **לחלץ** נתונים מובנים. הנה כמה דוגמאות:
+בעוד שנתונים מגיעים לעיתים קרובות בצורה טבלאית, במקרים מסוימים אנו צריכים להתמודד עם נתונים פחות מובנים, למשל טקסט או תמונות. במקרה כזה, כדי ליישם טכניקות עיבוד נתונים שראינו קודם, עלינו **לחלץ** נתונים מובנים. הנה כמה דוגמאות:
 
 * חילוץ מילות מפתח מטקסט ובדיקת תדירות הופעתן
-* שימוש ברשתות נוירונים לחילוץ מידע על אובייקטים בתמונה
+* שימוש ברשתות נוירונים כדי לחלץ מידע על אובייקטים בתמונה
 * קבלת מידע על רגשות של אנשים מזרם מצלמת וידאו
 
 ## 🚀 אתגר 2: ניתוח מאמרים על COVID
@@ -254,14 +254,14 @@ df = pd.read_csv('file.csv')
 כל שירותי הענן הללו יכולים להיקרא באמצעות [Python SDKs](https://docs.microsoft.com/samples/azure-samples/cognitive-services-python-sdk-samples/cognitive-services-python-sdk-samples/?WT.mc_id=academic-77958-bethanycheum), ולכן ניתן לשלבם בקלות בתהליך חקר הנתונים שלכם.
 
 הנה כמה דוגמאות לחקר נתונים ממקורות תמונה:
-* בפוסט בבלוג [איך ללמוד מדעי נתונים ללא קוד](https://soshnikov.com/azure/how-to-learn-data-science-without-coding/) אנו חוקרים תמונות מאינסטגרם, בניסיון להבין מה גורם לאנשים לתת יותר לייקים לתמונה. תחילה אנו מחלצים כמה שיותר מידע מהתמונות באמצעות [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-77958-bethanycheum), ולאחר מכן משתמשים ב-[Azure Machine Learning AutoML](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml/?WT.mc_id=academic-77958-bethanycheum) כדי לבנות מודל שניתן לפרש.
-* ב-[סדנת מחקרי פנים](https://github.com/CloudAdvocacy/FaceStudies) אנו משתמשים ב-[Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum) כדי לחלץ רגשות של אנשים בתמונות מאירועים, בניסיון להבין מה גורם לאנשים להיות שמחים.
+* בפוסט בבלוג [איך ללמוד מדעי נתונים ללא קוד](https://soshnikov.com/azure/how-to-learn-data-science-without-coding/) אנו חוקרים תמונות באינסטגרם, ומנסים להבין מה גורם לאנשים לתת יותר לייקים לתמונה. אנו קודם כל מחלצים כמה שיותר מידע מהתמונות באמצעות [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-77958-bethanycheum), ואז משתמשים ב-[Azure Machine Learning AutoML](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml/?WT.mc_id=academic-77958-bethanycheum) כדי לבנות מודל שניתן לפרש.
+* ב-[סדנת מחקרי פנים](https://github.com/CloudAdvocacy/FaceStudies) אנו משתמשים ב-[Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum) כדי לחלץ רגשות של אנשים בתמונות מאירועים, במטרה לנסות להבין מה גורם לאנשים להיות מאושרים.
 
 ## סיכום
 
-בין אם כבר יש לכם נתונים מובנים או לא מובנים, באמצעות Python תוכלו לבצע את כל השלבים הקשורים לעיבוד והבנת נתונים. זו כנראה הדרך הגמישה ביותר לעיבוד נתונים, ולכן רוב מדעני הנתונים משתמשים ב-Python ככלי העיקרי שלהם. לימוד Python לעומק הוא כנראה רעיון טוב אם אתם רציניים לגבי המסע שלכם במדעי הנתונים!
+בין אם כבר יש לכם נתונים מובנים או לא מובנים, באמצעות Python תוכלו לבצע את כל השלבים הקשורים לעיבוד והבנת נתונים. זו כנראה הדרך הגמישה ביותר לעיבוד נתונים, וזו הסיבה שרוב מדעני הנתונים משתמשים ב-Python ככלי העיקרי שלהם. לימוד Python לעומק הוא כנראה רעיון טוב אם אתם רציניים לגבי המסע שלכם במדעי הנתונים!
 
-## [שאלון לאחר השיעור](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/13)
+## [מבחן לאחר השיעור](https://ff-quizzes.netlify.app/en/ds/)
 
 ## סקירה ולימוד עצמי
 
@@ -270,10 +270,10 @@ df = pd.read_csv('file.csv')
 
 **משאבים מקוונים**
 * מדריך רשמי [10 דקות ל-Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
-* [תיעוד על הדמיה ב-Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
+* [תיעוד על הדמיית נתונים ב-Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
 
 **לימוד Python**
-* [למדו Python בצורה מהנה עם גרפיקת Turtle ופרקטלים](https://github.com/shwars/pycourse)
+* [למדו Python בצורה מהנה עם גרפיקה של Turtle ופרקטלים](https://github.com/shwars/pycourse)
 * [עשו את הצעדים הראשונים שלכם עם Python](https://docs.microsoft.com/learn/paths/python-first-steps/?WT.mc_id=academic-77958-bethanycheum) מסלול לימוד ב-[Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=academic-77958-bethanycheum)
 
 ## משימה
@@ -287,4 +287,4 @@ df = pd.read_csv('file.csv')
 ---
 
 **כתב ויתור**:  
-מסמך זה תורגם באמצעות שירות תרגום מבוסס בינה מלאכותית [Co-op Translator](https://github.com/Azure/co-op-translator). בעוד שאנו שואפים לדיוק, יש לקחת בחשבון שתרגומים אוטומטיים עשויים להכיל שגיאות או אי-דיוקים. המסמך המקורי בשפתו המקורית נחשב למקור הסמכותי. למידע קריטי, מומלץ להשתמש בתרגום מקצועי על ידי מתרגם אנושי. איננו נושאים באחריות לכל אי-הבנה או פרשנות שגויה הנובעת משימוש בתרגום זה.
+מסמך זה תורגם באמצעות שירות תרגום מבוסס בינה מלאכותית [Co-op Translator](https://github.com/Azure/co-op-translator). בעוד שאנו שואפים לדיוק, יש להיות מודעים לכך שתרגומים אוטומטיים עשויים להכיל שגיאות או אי דיוקים. המסמך המקורי בשפתו המקורית צריך להיחשב כמקור סמכותי. עבור מידע קריטי, מומלץ להשתמש בתרגום מקצועי על ידי אדם. איננו נושאים באחריות לאי הבנות או לפרשנויות שגויות הנובעות משימוש בתרגום זה.
