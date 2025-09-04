@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "408c55cab2880daa4e78616308bd5db7",
-  "translation_date": "2025-08-27T17:47:05+00:00",
+  "original_hash": "6a0556b17de4c8d1a9470b02247b01d4",
+  "translation_date": "2025-09-04T17:41:13+00:00",
   "source_file": "5-Data-Science-In-Cloud/17-Introduction/README.md",
   "language_code": "br"
 }
@@ -19,9 +19,9 @@ Nesta lição, você aprenderá os princípios fundamentais da Nuvem, verá por 
 
 ## O que é a Nuvem?
 
-A Nuvem, ou Computação em Nuvem, é a entrega de uma ampla gama de serviços de computação sob demanda, hospedados em uma infraestrutura pela internet. Os serviços incluem soluções como armazenamento, bancos de dados, redes, software, análises e serviços inteligentes.
+A Nuvem, ou Computação em Nuvem, é a entrega de uma ampla gama de serviços de computação sob demanda, hospedados em uma infraestrutura pela internet. Esses serviços incluem soluções como armazenamento, bancos de dados, redes, software, análises e serviços inteligentes.
 
-Normalmente, diferenciamos as Nuvens Pública, Privada e Híbrida da seguinte forma:
+Normalmente, diferenciamos as Nuvens Públicas, Privadas e Híbridas da seguinte forma:
 
 * Nuvem pública: uma nuvem pública é propriedade e operada por um provedor de serviços de nuvem terceirizado que entrega seus recursos de computação pela Internet ao público.
 * Nuvem privada: refere-se aos recursos de computação em nuvem usados exclusivamente por uma única empresa ou organização, com serviços e infraestrutura mantidos em uma rede privada.
@@ -29,7 +29,7 @@ Normalmente, diferenciamos as Nuvens Pública, Privada e Híbrida da seguinte fo
 
 A maioria dos serviços de computação em nuvem se enquadra em três categorias: Infraestrutura como Serviço (IaaS), Plataforma como Serviço (PaaS) e Software como Serviço (SaaS).
 
-* Infraestrutura como Serviço (IaaS): os usuários alugam uma infraestrutura de TI, como servidores e máquinas virtuais (VMs), armazenamento, redes, sistemas operacionais.
+* Infraestrutura como Serviço (IaaS): os usuários alugam uma infraestrutura de TI, como servidores e máquinas virtuais (VMs), armazenamento, redes e sistemas operacionais.
 * Plataforma como Serviço (PaaS): os usuários alugam um ambiente para desenvolver, testar, entregar e gerenciar aplicativos de software. Os usuários não precisam se preocupar em configurar ou gerenciar a infraestrutura subjacente de servidores, armazenamento, rede e bancos de dados necessários para o desenvolvimento.
 * Software como Serviço (SaaS): os usuários têm acesso a aplicativos de software pela Internet, sob demanda e, geralmente, com base em assinatura. Os usuários não precisam se preocupar em hospedar e gerenciar o aplicativo de software, a infraestrutura subjacente ou a manutenção, como atualizações de software e correções de segurança.
 
@@ -80,7 +80,7 @@ Para ver o processo completo, confira a [documentação](https://docs.microsoft.
 
 ### Análise de artigos científicos
 
-Vamos analisar outro exemplo de um projeto criado por [Dmitry Soshnikov](http://soshnikov.com), um dos autores deste currículo.
+Vamos analisar outro exemplo de projeto criado por [Dmitry Soshnikov](http://soshnikov.com), um dos autores deste currículo.
 
 Dmitry criou uma ferramenta que analisa artigos sobre COVID. Ao revisar este projeto, você verá como pode criar uma ferramenta que extrai conhecimento de artigos científicos, obtém insights e ajuda pesquisadores a navegar por grandes coleções de artigos de forma eficiente.
 
@@ -95,7 +95,7 @@ Para ver o processo completo, visite o [blog de Dmitry](https://soshnikov.com/sc
 
 Como você pode ver, podemos aproveitar os serviços de Nuvem de várias maneiras para realizar Ciência de Dados.
 
-## Nota de Rodapé
+## Nota de rodapé
 
 Fontes:
 * https://azure.microsoft.com/overview/what-is-cloud-computing?ocid=AID3041109  
@@ -104,7 +104,7 @@ Fontes:
 
 ## Quiz Pós-Aula
 
-[Quiz pós-aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/33)
+## [Quiz Pós-Aula](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Tarefa
 

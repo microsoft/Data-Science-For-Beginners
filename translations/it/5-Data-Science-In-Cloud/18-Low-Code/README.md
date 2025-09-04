@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "14b2a7f1c63202920bd98eeb913f5614",
-  "translation_date": "2025-08-28T10:37:14+00:00",
+  "original_hash": "39f3b3a9d873eaa522c2e792ce0ca503",
+  "translation_date": "2025-09-04T17:51:33+00:00",
   "source_file": "5-Data-Science-In-Cloud/18-Low-Code/README.md",
   "language_code": "it"
 }
@@ -26,7 +26,7 @@ Indice:
     - [2.2 Risorse di calcolo](../../../../5-Data-Science-In-Cloud/18-Low-Code)
       - [2.2.1 Scegliere le opzioni giuste per le risorse di calcolo](../../../../5-Data-Science-In-Cloud/18-Low-Code)
       - [2.2.2 Creare un cluster di calcolo](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-    - [2.3 Caricamento del dataset](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+    - [2.3 Caricare il dataset](../../../../5-Data-Science-In-Cloud/18-Low-Code)
     - [2.4 Addestramento Low code/No code con AutoML](../../../../5-Data-Science-In-Cloud/18-Low-Code)
   - [3. Deployment del modello Low code/No code e consumo dell'endpoint](../../../../5-Data-Science-In-Cloud/18-Low-Code)
     - [3.1 Deployment del modello](../../../../5-Data-Science-In-Cloud/18-Low-Code)
@@ -36,29 +36,30 @@ Indice:
   - [Revisione e studio autonomo](../../../../5-Data-Science-In-Cloud/18-Low-Code)
   - [Compito](../../../../5-Data-Science-In-Cloud/18-Low-Code)
   
-## [Quiz pre-lezione](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/34)
+## [Quiz pre-lezione](https://ff-quizzes.netlify.app/en/ds/)
+
 ## 1. Introduzione
 ### 1.1 Cos'è Azure Machine Learning?
 
-La piattaforma cloud Azure offre più di 200 prodotti e servizi cloud progettati per aiutarti a dare vita a nuove soluzioni. I data scientist dedicano molto tempo all'esplorazione e alla pre-elaborazione dei dati, oltre a testare vari tipi di algoritmi di addestramento per produrre modelli accurati. Questi compiti sono dispendiosi in termini di tempo e spesso utilizzano in modo inefficiente hardware di calcolo costoso.
+La piattaforma cloud Azure offre più di 200 prodotti e servizi cloud progettati per aiutarti a dare vita a nuove soluzioni. I data scientist dedicano molto tempo all'esplorazione e alla pre-elaborazione dei dati, provando vari tipi di algoritmi di addestramento per produrre modelli accurati. Questi compiti sono dispendiosi in termini di tempo e spesso utilizzano in modo inefficiente hardware di calcolo costoso.
 
-[Azure ML](https://docs.microsoft.com/azure/machine-learning/overview-what-is-azure-machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) è una piattaforma basata sul cloud per la creazione e l'operatività di soluzioni di machine learning in Azure. Include una vasta gamma di funzionalità che aiutano i data scientist a preparare i dati, addestrare modelli, pubblicare servizi predittivi e monitorarne l'utilizzo. Soprattutto, consente di aumentare l'efficienza automatizzando molti dei compiti dispendiosi in termini di tempo associati all'addestramento dei modelli e permette di utilizzare risorse di calcolo basate sul cloud che si scalano efficacemente per gestire grandi volumi di dati, sostenendo costi solo quando effettivamente utilizzate.
+[Azure ML](https://docs.microsoft.com/azure/machine-learning/overview-what-is-azure-machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) è una piattaforma basata sul cloud per costruire e gestire soluzioni di machine learning in Azure. Include una vasta gamma di funzionalità che aiutano i data scientist a preparare i dati, addestrare modelli, pubblicare servizi predittivi e monitorarne l'utilizzo. Soprattutto, consente di aumentare l'efficienza automatizzando molte delle attività dispendiose in termini di tempo associate all'addestramento dei modelli e permette di utilizzare risorse di calcolo basate sul cloud che si scalano efficacemente per gestire grandi volumi di dati, sostenendo costi solo quando effettivamente utilizzate.
 
 Azure ML fornisce tutti gli strumenti necessari per i flussi di lavoro di machine learning di sviluppatori e data scientist. Questi includono:
 
 - **Azure Machine Learning Studio**: un portale web in Azure Machine Learning per opzioni low-code e no-code per l'addestramento, il deployment, l'automazione, il tracciamento e la gestione delle risorse. Lo studio si integra con l'SDK di Azure Machine Learning per un'esperienza senza interruzioni.
 - **Jupyter Notebooks**: prototipazione rapida e test di modelli ML.
 - **Azure Machine Learning Designer**: consente di trascinare e rilasciare moduli per costruire esperimenti e poi distribuire pipeline in un ambiente low-code.
-- **Interfaccia AutoML per il machine learning automatizzato**: automatizza i compiti iterativi dello sviluppo di modelli di machine learning, permettendo di costruire modelli ML con alta scala, efficienza e produttività, mantenendo la qualità del modello.
+- **Interfaccia AutoML**: automatizza i compiti iterativi dello sviluppo di modelli di machine learning, permettendo di costruire modelli ML con alta scala, efficienza e produttività, mantenendo la qualità del modello.
 - **Etichettatura dei dati**: uno strumento ML assistito per etichettare automaticamente i dati.
-- **Estensione di machine learning per Visual Studio Code**: fornisce un ambiente di sviluppo completo per la creazione e la gestione di progetti ML.
-- **CLI per il machine learning**: offre comandi per gestire le risorse di Azure ML dalla riga di comando.
-- **Integrazione con framework open-source** come PyTorch, TensorFlow, Scikit-learn e molti altri per l'addestramento, il deployment e la gestione del processo end-to-end di machine learning.
+- **Estensione di machine learning per Visual Studio Code**: fornisce un ambiente di sviluppo completo per costruire e gestire progetti ML.
+- **CLI di machine learning**: comandi per gestire le risorse di Azure ML dalla riga di comando.
+- **Integrazione con framework open-source** come PyTorch, TensorFlow, Scikit-learn e molti altri per addestrare, distribuire e gestire il processo end-to-end di machine learning.
 - **MLflow**: una libreria open-source per gestire il ciclo di vita degli esperimenti di machine learning. **MLFlow Tracking** è un componente di MLflow che registra e traccia le metriche di addestramento e gli artefatti del modello, indipendentemente dall'ambiente dell'esperimento.
 
 ### 1.2 Il progetto di previsione dell'insufficienza cardiaca:
 
-Non c'è dubbio che creare e sviluppare progetti sia il modo migliore per mettere alla prova le proprie competenze e conoscenze. In questa lezione, esploreremo due modi diversi per costruire un progetto di data science per la previsione di attacchi di insufficienza cardiaca in Azure ML Studio, attraverso il metodo Low code/No code e attraverso l'SDK di Azure ML, come mostrato nello schema seguente:
+Non c'è dubbio che creare e sviluppare progetti sia il modo migliore per mettere alla prova le proprie competenze e conoscenze. In questa lezione, esploreremo due modi diversi per costruire un progetto di data science per la previsione di attacchi di insufficienza cardiaca in Azure ML Studio, attraverso il metodo Low code/No code e tramite l'SDK di Azure ML, come mostrato nello schema seguente:
 
 ![schema-progetto](../../../../translated_images/project-schema.736f6e403f321eb48d10242b3f4334dc6ccf0eabef8ff87daf52b89781389fcb.it.png)
 
@@ -67,7 +68,7 @@ Ogni metodo ha i suoi pro e contro. Il metodo Low code/No code è più facile da
 |                   | Low code/No code | SDK di Azure ML           |
 |-------------------|------------------|---------------------------|
 | Competenza nel codice | Non richiesta   | Richiesta                 |
-| Tempo di sviluppo   | Veloce e semplice | Dipende dalla competenza nel codice |
+| Tempo di sviluppo   | Veloce e semplice| Dipende dalla competenza nel codice |
 | Pronto per la produzione | No               | Sì                        |
 
 ### 1.3 Il dataset sull'insufficienza cardiaca: 
@@ -79,19 +80,19 @@ Kaggle ha reso disponibile pubblicamente un [dataset sull'insufficienza cardiaca
 |    | Nome variabile            | Tipo            | Descrizione                                               | Esempio           |
 |----|---------------------------|-----------------|-----------------------------------------------------------|-------------------|
 | 1  | age                       | numerico        | Età del paziente                                          | 25                |
-| 2  | anaemia                   | booleano        | Diminuzione dei globuli rossi o dell'emoglobina           | 0 o 1             |
+| 2  | anaemia                   | booleano        | Diminuzione dei globuli rossi o dell'emoglobina           | 0 o 1            |
 | 3  | creatinine_phosphokinase  | numerico        | Livello dell'enzima CPK nel sangue                        | 542               |
-| 4  | diabetes                  | booleano        | Se il paziente ha il diabete                              | 0 o 1             |
-| 5  | ejection_fraction         | numerico        | Percentuale di sangue che lascia il cuore a ogni contrazione | 45                |
-| 6  | high_blood_pressure       | booleano        | Se il paziente ha ipertensione                            | 0 o 1             |
+| 4  | diabetes                  | booleano        | Se il paziente ha il diabete                              | 0 o 1            |
+| 5  | ejection_fraction         | numerico        | Percentuale di sangue che lascia il cuore ad ogni contrazione | 45                |
+| 6  | high_blood_pressure       | booleano        | Se il paziente ha ipertensione                            | 0 o 1            |
 | 7  | platelets                 | numerico        | Piastrine nel sangue                                      | 149000            |
 | 8  | serum_creatinine          | numerico        | Livello di creatinina sierica nel sangue                  | 0.5               |
 | 9  | serum_sodium              | numerico        | Livello di sodio sierico nel sangue                       | jun               |
-| 10 | sex                       | booleano        | Donna o uomo                                              | 0 o 1             |
-| 11 | smoking                   | booleano        | Se il paziente fuma                                       | 0 o 1             |
+| 10 | sex                       | booleano        | Donna o uomo                                              | 0 o 1            |
+| 11 | smoking                   | booleano        | Se il paziente fuma                                       | 0 o 1            |
 | 12 | time                      | numerico        | Periodo di follow-up (giorni)                             | 4                 |
 |----|---------------------------|-----------------|-----------------------------------------------------------|-------------------|
-| 21 | DEATH_EVENT [Target]      | booleano        | Se il paziente muore durante il periodo di follow-up      | 0 o 1             |
+| 21 | DEATH_EVENT [Target]      | booleano        | Se il paziente muore durante il periodo di follow-up      | 0 o 1            |
 
 Una volta ottenuto il dataset, possiamo iniziare il progetto in Azure.
 
@@ -101,12 +102,12 @@ Per addestrare un modello in Azure ML, è necessario prima creare uno spazio di 
 
 Si consiglia di utilizzare il browser più aggiornato compatibile con il sistema operativo. I seguenti browser sono supportati:
 
-- Microsoft Edge (Il nuovo Microsoft Edge, ultima versione. Non Microsoft Edge legacy)
+- Microsoft Edge (la nuova versione di Microsoft Edge, non la versione legacy)
 - Safari (ultima versione, solo Mac)
 - Chrome (ultima versione)
 - Firefox (ultima versione)
 
-Per utilizzare Azure Machine Learning, crea uno spazio di lavoro nel tuo abbonamento Azure. Puoi quindi utilizzare questo spazio di lavoro per gestire dati, risorse di calcolo, codice, modelli e altri artefatti relativi ai tuoi carichi di lavoro di machine learning.
+Per utilizzare Azure Machine Learning, crea uno spazio di lavoro nel tuo abbonamento Azure. Puoi quindi utilizzare questo spazio di lavoro per gestire dati, risorse di calcolo, codice, modelli e altri artefatti relativi ai carichi di lavoro di machine learning.
 
 > **_NOTA:_** Il tuo abbonamento Azure verrà addebitato per una piccola quantità di archiviazione dati finché lo spazio di lavoro Azure Machine Learning esiste nel tuo abbonamento, quindi ti consigliamo di eliminare lo spazio di lavoro Azure Machine Learning quando non lo utilizzi più.
 
@@ -130,8 +131,8 @@ Per utilizzare Azure Machine Learning, crea uno spazio di lavoro nel tuo abbonam
    - Regione: Seleziona la regione geografica più vicina a te
    - Account di archiviazione: Nota il nuovo account di archiviazione predefinito che verrà creato per il tuo spazio di lavoro
    - Key vault: Nota il nuovo key vault predefinito che verrà creato per il tuo spazio di lavoro
-   - Application insights: Nota la nuova risorsa application insights predefinita che verrà creata per il tuo spazio di lavoro
-   - Container registry: Nessuno (uno verrà creato automaticamente la prima volta che distribuisci un modello in un container)
+   - Application insights: Nota la nuova risorsa di application insights predefinita che verrà creata per il tuo spazio di lavoro
+   - Container registry: Nessuno (verrà creato automaticamente la prima volta che distribuisci un modello in un container)
 
     ![workspace-4](../../../../translated_images/workspace-4.bac87f6599c4df63e624fc2608990f965887bee551d9dedc71c687b43b986b6a.it.png)
 
@@ -145,7 +146,7 @@ Per utilizzare Azure Machine Learning, crea uno spazio di lavoro nel tuo abbonam
 
 ![workspace-6](../../../../translated_images/workspace-6.8dd81fe841797ee17f8f73916769576260b16c4e17e850d277a49db35fd74a15.it.png)
 
-Puoi gestire il tuo spazio di lavoro utilizzando il portale Azure, ma per i data scientist e gli ingegneri delle operazioni di Machine Learning, Azure Machine Learning Studio offre un'interfaccia utente più mirata per la gestione delle risorse dello spazio di lavoro.
+Puoi gestire il tuo spazio di lavoro utilizzando il portale Azure, ma per i data scientist e gli ingegneri delle operazioni di Machine Learning, Azure Machine Learning Studio fornisce un'interfaccia utente più mirata per gestire le risorse dello spazio di lavoro.
 
 ### 2.2 Risorse di calcolo
 
@@ -164,7 +165,7 @@ Ci sono alcuni fattori chiave da considerare quando si crea una risorsa di calco
 
 Una CPU (Central Processing Unit) è il circuito elettronico che esegue le istruzioni di un programma informatico. Una GPU (Graphics Processing Unit) è un circuito elettronico specializzato che può eseguire codice relativo alla grafica a una velocità molto elevata.
 
-La principale differenza tra l'architettura di CPU e GPU è che una CPU è progettata per gestire una vasta gamma di attività rapidamente (misurata dalla velocità di clock della CPU), ma è limitata nella concorrenza delle attività che possono essere eseguite. Le GPU sono progettate per il calcolo parallelo e quindi sono molto più adatte ai compiti di deep learning.
+La principale differenza tra l'architettura di CPU e GPU è che una CPU è progettata per gestire una vasta gamma di attività rapidamente (misurata dalla velocità di clock della CPU), ma è limitata nella concorrenza delle attività che possono essere eseguite. Le GPU sono progettate per il calcolo parallelo e sono quindi molto più adatte ai compiti di deep learning.
 
 | CPU                                     | GPU                         |
 |-----------------------------------------|-----------------------------|
@@ -174,15 +175,15 @@ La principale differenza tra l'architettura di CPU e GPU è che una CPU è proge
 
 **Dimensione del cluster**
 
-Cluster più grandi sono più costosi ma garantiscono una migliore reattività. Pertanto, se hai tempo ma non abbastanza denaro, dovresti iniziare con un cluster piccolo. Al contrario, se hai denaro ma poco tempo, dovresti iniziare con un cluster più grande.
+Cluster più grandi sono più costosi ma offrono una migliore reattività. Pertanto, se hai tempo ma non abbastanza denaro, dovresti iniziare con un cluster piccolo. Al contrario, se hai denaro ma poco tempo, dovresti iniziare con un cluster più grande.
 
 **Dimensione della VM**
 
-A seconda dei tuoi vincoli di tempo e budget, puoi variare la dimensione della RAM, del disco, il numero di core e la velocità di clock. Aumentare tutti questi parametri sarà più costoso, ma garantirà prestazioni migliori.
+A seconda dei tuoi vincoli di tempo e budget, puoi variare la dimensione della RAM, del disco, il numero di core e la velocità di clock. Aumentare tutti questi parametri sarà più costoso, ma offrirà prestazioni migliori.
 
 **Istanza dedicata o a bassa priorità?**
 
-Un'istanza a bassa priorità significa che è interrompibile: essenzialmente, Microsoft Azure può prendere quelle risorse e assegnarle a un altro compito, interrompendo così un lavoro. Un'istanza dedicata, o non interrompibile, significa che il lavoro non sarà mai terminato senza il tuo permesso. Questa è un'altra considerazione tra tempo e denaro, poiché le istanze interrompibili sono meno costose di quelle dedicate.
+Un'istanza a bassa priorità significa che è interrompibile: essenzialmente, Microsoft Azure può prendere quelle risorse e assegnarle a un'altra attività, interrompendo così un lavoro. Un'istanza dedicata, o non interrompibile, significa che il lavoro non sarà mai terminato senza il tuo permesso. Questa è un'altra considerazione tra tempo e denaro, poiché le istanze interrompibili sono meno costose di quelle dedicate.
 
 #### 2.2.2 Creare un cluster di calcolo
 
@@ -236,22 +237,22 @@ L'apprendimento automatico automatizzato (AutoML) è il processo di automazione 
     
     ![30](../../../../translated_images/aml-3.a7952e4295f38cc6cdb0c7ed6dc71ea756b7fb5697ec126bc1220f87c5fa9231.it.png)
 
-4. Una volta completata l'esecuzione, clicca sulla scheda "Automated ML", clicca sulla tua esecuzione e clicca sull'algoritmo nella scheda "Best model summary".
+4. Una volta completata l'esecuzione, clicca sulla scheda "Automated ML", clicca sulla tua esecuzione e clicca sull'algoritmo nella scheda "Riepilogo del miglior modello".
     
     ![31](../../../../translated_images/aml-4.7a627e09cb6f16d0aa246059d9faee3d1725cc4258d0c8df15e801f73afc7e2c.it.png)
 
-Qui puoi vedere una descrizione dettagliata del miglior modello generato da AutoML. Puoi anche esplorare altri modelli generati nella scheda "Models". Prenditi qualche minuto per esplorare i modelli nella scheda "Explanations (preview)". Una volta scelto il modello che vuoi utilizzare (qui sceglieremo il miglior modello selezionato da AutoML), vedremo come possiamo distribuirlo.
+Qui puoi vedere una descrizione dettagliata del miglior modello generato da AutoML. Puoi anche esplorare altri modelli generati nella scheda "Modelli". Prenditi qualche minuto per esplorare i modelli nella scheda "Spiegazioni (anteprima)". Una volta scelto il modello che vuoi utilizzare (qui sceglieremo il miglior modello selezionato da AutoML), vedremo come possiamo distribuirlo.
 
 ## 3. Distribuzione del modello Low code/No code e consumo dell'endpoint
 ### 3.1 Distribuzione del modello
 
 L'interfaccia di apprendimento automatico automatizzato consente di distribuire il miglior modello come servizio web in pochi passaggi. La distribuzione è l'integrazione del modello in modo che possa fare previsioni basate su nuovi dati e identificare potenziali aree di opportunità. Per questo progetto, la distribuzione come servizio web significa che le applicazioni mediche potranno consumare il modello per fare previsioni in tempo reale sul rischio di infarto dei loro pazienti.
 
-Nella descrizione del miglior modello, clicca sul pulsante "Deploy".
+Nella descrizione del miglior modello, clicca sul pulsante "Distribuisci".
     
 ![deploy-1](../../../../translated_images/deploy-1.ddad725acadc84e34553c3d09e727160faeb32527a9fb8b904c0f99235a34bb6.it.png)
 
-15. Dai un nome, una descrizione, il tipo di calcolo (Azure Container Instance), abilita l'autenticazione e clicca su "Deploy". Questo passaggio potrebbe richiedere circa 20 minuti per essere completato. Il processo di distribuzione comprende diversi passaggi, tra cui la registrazione del modello, la generazione delle risorse e la loro configurazione per il servizio web. Un messaggio di stato appare sotto "Deploy status". Seleziona "Refresh" periodicamente per controllare lo stato della distribuzione. È distribuito e funzionante quando lo stato è "Healthy".
+15. Dai un nome, una descrizione, il tipo di calcolo (Azure Container Instance), abilita l'autenticazione e clicca su "Distribuisci". Questo passaggio potrebbe richiedere circa 20 minuti per essere completato. Il processo di distribuzione comporta diversi passaggi, tra cui la registrazione del modello, la generazione delle risorse e la loro configurazione per il servizio web. Un messaggio di stato appare sotto "Stato distribuzione". Seleziona "Aggiorna" periodicamente per controllare lo stato della distribuzione. È distribuito e funzionante quando lo stato è "Healthy".
 
 ![deploy-2](../../../../translated_images/deploy-2.94dbb13f239086473aa4bf814342fd40483d136849b080f02bafbb995383940e.it.png)
 
@@ -281,7 +282,7 @@ La variabile `url` è l'endpoint REST trovato nella scheda "Consume" e la variab
     ```python
     b'"{\\"result\\": [true]}"'
     ```
-Questo significa che la previsione di insufficienza cardiaca per i dati forniti è vera. Questo ha senso perché, se guardi più da vicino i dati generati automaticamente nello script, tutto è impostato su 0 e falso per impostazione predefinita. Puoi cambiare i dati con il seguente esempio di input:
+Questo significa che la previsione di insufficienza cardiaca per i dati forniti è vera. Ha senso perché, se guardi più da vicino i dati generati automaticamente nello script, tutto è impostato su 0 e falso per impostazione predefinita. Puoi modificare i dati con il seguente esempio di input:
 
 ```python
 data = {
@@ -330,7 +331,7 @@ Congratulazioni! Hai appena consumato il modello distribuito e lo hai addestrato
 
 Osserva attentamente le spiegazioni del modello e i dettagli che AutoML ha generato per i modelli migliori. Cerca di capire perché il miglior modello è migliore degli altri. Quali algoritmi sono stati confrontati? Quali sono le differenze tra loro? Perché il migliore sta performando meglio in questo caso?
 
-## [Quiz post-lezione](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/35)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Revisione e studio autonomo
 
@@ -345,4 +346,4 @@ Puoi approfondire ulteriormente AutoML Low code/No code leggendo questa [documen
 ---
 
 **Disclaimer**:  
-Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si consiglia una traduzione professionale eseguita da un traduttore umano. Non siamo responsabili per eventuali fraintendimenti o interpretazioni errate derivanti dall'uso di questa traduzione.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

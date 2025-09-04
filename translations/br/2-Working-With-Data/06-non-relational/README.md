@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "32ddfef8121650f2ca2f3416fd283c37",
-  "translation_date": "2025-08-27T16:59:52+00:00",
+  "original_hash": "54c5a1c74aecb69d2f9099300a4b7eea",
+  "translation_date": "2025-09-04T17:42:21+00:00",
   "source_file": "2-Working-With-Data/06-non-relational/README.md",
   "language_code": "br"
 }
@@ -23,7 +23,7 @@ Planilhas são uma forma popular de armazenar e explorar dados porque exigem men
 
 ![Uma planilha vazia do Microsoft Excel com duas abas](../../../../translated_images/parts-of-spreadsheet.120711c82aa18a45c3e62a491a15bba0a31ab0e9db407ec022702fed8ffd89bf.br.png)
 
-Uma planilha é um arquivo e estará acessível no sistema de arquivos de um computador, dispositivo ou sistema de arquivos baseado em nuvem. O software em si pode ser baseado em navegador ou um aplicativo que deve ser instalado em um computador ou baixado como um app. No Excel, esses arquivos também são definidos como **workbooks** (pastas de trabalho), e essa terminologia será usada pelo restante desta lição.
+Uma planilha é um arquivo que estará acessível no sistema de arquivos de um computador, dispositivo ou sistema de arquivos baseado em nuvem. O software em si pode ser baseado em navegador ou um aplicativo que deve ser instalado em um computador ou baixado como um app. No Excel, esses arquivos também são definidos como **workbooks** (pastas de trabalho), e essa terminologia será usada pelo restante desta lição.
 
 Um workbook contém uma ou mais **worksheets** (planilhas), onde cada planilha é identificada por abas. Dentro de uma planilha, há retângulos chamados **células**, que contêm os dados reais. Uma célula é a interseção de uma linha e uma coluna, onde as colunas são identificadas por caracteres alfabéticos e as linhas por números. Algumas planilhas contêm cabeçalhos nas primeiras linhas para descrever os dados em uma célula.
 
@@ -31,11 +31,11 @@ Com esses elementos básicos de um workbook do Excel, usaremos um exemplo dos [M
 
 ### Gerenciando um Inventário
 
-O arquivo de planilha chamado "InventoryExample" é uma planilha formatada de itens dentro de um inventário que contém três abas, onde as abas são identificadas como "Inventory List", "Inventory Pick List" e "Bin Lookup". A linha 4 da aba Inventory List é o cabeçalho, que descreve o valor de cada célula na coluna do cabeçalho.
+O arquivo de planilha chamado "InventoryExample" é uma planilha formatada de itens dentro de um inventário que contém três planilhas, onde as abas são identificadas como "Inventory List", "Inventory Pick List" e "Bin Lookup". A linha 4 da planilha Inventory List é o cabeçalho, que descreve o valor de cada célula na coluna do cabeçalho.
 
 ![Uma fórmula destacada de um exemplo de lista de inventário no Microsoft Excel](../../../../translated_images/formula-excel.ad1068c220892f5ead570d12f2394897961d31a5043a1dd4e6fc5d7690c7a14e.br.png)
 
-Existem casos em que uma célula depende dos valores de outras células para gerar seu valor. A planilha Inventory List acompanha o custo de cada item em seu inventário, mas e se precisarmos saber o valor total de tudo no inventário? [**Fórmulas**](https://support.microsoft.com/en-us/office/overview-of-formulas-34519a4e-1e8d-4f4b-84d4-d642c4f63263) realizam ações nos dados das células e são usadas para calcular o custo do inventário neste exemplo. Esta planilha usou uma fórmula na coluna Inventory Value para calcular o valor de cada item multiplicando a quantidade sob o cabeçalho QTY e seus custos pelas células sob o cabeçalho COST. Ao clicar duas vezes ou destacar uma célula, a fórmula será exibida. Você notará que as fórmulas começam com um sinal de igual, seguido pelo cálculo ou operação.
+Existem casos em que uma célula depende dos valores de outras células para gerar seu valor. A planilha Inventory List acompanha o custo de cada item em seu inventário, mas e se precisarmos saber o valor total de tudo no inventário? [**Fórmulas**](https://support.microsoft.com/en-us/office/overview-of-formulas-34519a4e-1e8d-4f4b-84d4-d642c4f63263) realizam ações nos dados das células e são usadas para calcular o custo do inventário neste exemplo. Esta planilha usou uma fórmula na coluna Inventory Value para calcular o valor de cada item multiplicando a quantidade sob o cabeçalho QTY e seus custos pelas células sob o cabeçalho COST. Ao clicar duas vezes ou destacar uma célula, você verá a fórmula. Você notará que as fórmulas começam com um sinal de igual, seguido pelo cálculo ou operação.
 
 ![Uma função destacada de um exemplo de lista de inventário no Microsoft Excel](../../../../translated_images/function-excel.be2ae4feddc10ca089f3d4363040d93b7fd046c8d4f83ba975ec46483ee99895.br.png)
 
@@ -57,7 +57,7 @@ Bancos de dados [gráficos](https://docs.microsoft.com/en-us/azure/architecture/
 
 ![Representação gráfica de um banco de dados colunar mostrando um banco de dados de clientes com duas famílias de colunas chamadas Identidade e Informações de Contato](../../../../translated_images/columnar-db.ffcfe73c3e9063a8c8f93f8ace85e1200863584b1e324eb5159d8ca10f62ec04.br.png)
 
-Bancos de dados [colunares](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) organizam dados em colunas e linhas, como uma estrutura de dados relacional, mas cada coluna é dividida em grupos chamados famílias de colunas, onde todos os dados sob uma coluna estão relacionados e podem ser recuperados e alterados em uma única unidade.
+Bancos de dados [colunares](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) organizam dados em colunas e linhas, como uma estrutura de dados relacional, mas cada coluna é dividida em grupos chamados famílias de colunas, onde todos os dados sob uma coluna estão relacionados e podem ser recuperados e alterados como uma unidade.
 
 ### Bancos de Dados Documentais com o Azure Cosmos DB
 
@@ -84,7 +84,7 @@ Os campos de interesse neste documento são: `firstname`, `id` e `age`. Os demai
 
 #### Explorando Dados com o Emulador do Cosmos DB
 
-Você pode baixar e instalar o emulador [para Windows aqui](https://aka.ms/cosmosdb-emulator). Consulte esta [documentação](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21#run-on-linux-macos) para opções sobre como executar o Emulador no macOS e Linux.
+Você pode baixar e instalar o emulador [para Windows aqui](https://aka.ms/cosmosdb-emulator). Consulte esta [documentação](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21#run-on-linux-macos) para opções de como executar o Emulador no macOS e Linux.
 
 O Emulador abre uma janela no navegador, onde a visualização Explorer permite explorar documentos.
 
@@ -96,19 +96,19 @@ Se você estiver acompanhando, clique em "Start with Sample" para gerar um banco
 
 #### Consultando Dados Documentais com o Emulador do Cosmos DB
 
-Também podemos consultar os dados de exemplo clicando no botão de nova consulta SQL (segundo botão da esquerda para a direita).
+Também podemos consultar os dados de exemplo clicando no botão "New SQL Query" (segundo botão da esquerda para a direita).
 
 `SELECT * FROM c` retorna todos os documentos no contêiner. Vamos adicionar uma cláusula where e encontrar todos com menos de 40 anos.
 
 `SELECT * FROM c where c.age < 40`
 
-![Executando uma consulta SELECT em dados de exemplo no Emulador do Cosmos DB para encontrar documentos que possuem um campo de idade com valor menor que 40](../../../../translated_images/cosmosdb-emulator-persons-query.6905ebb497e3cd047cd96e55a0a03f69ce1b91b2b3d8c147e617b746b22b7e33.br.png)
+![Executando uma consulta SELECT em dados de exemplo no Emulador do Cosmos DB para encontrar documentos com um campo de idade menor que 40](../../../../translated_images/cosmosdb-emulator-persons-query.6905ebb497e3cd047cd96e55a0a03f69ce1b91b2b3d8c147e617b746b22b7e33.br.png)
 
 A consulta retorna dois documentos, observe que o valor de idade para cada documento é menor que 40.
 
 #### JSON e Documentos
 
-Se você está familiarizado com JavaScript Object Notation (JSON), notará que os documentos se parecem com JSON. Há um arquivo `PersonsData.json` neste diretório com mais dados que você pode carregar no contêiner `Persons` no Emulador via o botão `Upload Item`.
+Se você está familiarizado com JavaScript Object Notation (JSON), notará que os documentos se parecem com JSON. Há um arquivo `PersonsData.json` neste diretório com mais dados que você pode carregar no contêiner Persons no Emulador via o botão `Upload Item`.
 
 Na maioria dos casos, APIs que retornam dados em JSON podem ser diretamente transferidas e armazenadas em bancos de dados documentais. Abaixo está outro documento, que representa tweets da conta do Twitter da Microsoft, recuperados usando a API do Twitter e inseridos no Cosmos DB.
 
@@ -130,15 +130,15 @@ Os campos de interesse neste documento são: `created_at`, `id` e `text`.
 
 Há um arquivo `TwitterData.json` que você pode carregar no banco de dados SampleDB. Recomenda-se adicioná-lo a um contêiner separado. Isso pode ser feito por:
 
-1. Clicar no botão de novo contêiner no canto superior direito
+1. Clicar no botão "New Container" no canto superior direito
 1. Selecionar o banco de dados existente (SampleDB) e criar um id para o contêiner
 1. Definir a chave de partição como `/id`
-1. Clicar em OK (você pode ignorar o restante das informações nesta visualização, pois este é um pequeno conjunto de dados rodando localmente em sua máquina)
+1. Clicar em OK (você pode ignorar o restante das informações nesta visualização, já que este é um pequeno conjunto de dados rodando localmente em sua máquina)
 1. Abrir seu novo contêiner e carregar o arquivo de dados do Twitter com o botão `Upload Item`
 
 Tente executar algumas consultas SELECT para encontrar os documentos que possuem "Microsoft" no campo de texto. Dica: tente usar a [palavra-chave LIKE](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character).
 
-## [Quiz Pós-Aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/11)
+## [Quiz Pós-Aula](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Revisão e Autoestudo
 
@@ -146,7 +146,7 @@ Tente executar algumas consultas SELECT para encontrar os documentos que possuem
 
 - Esta documentação arquitetural detalha as características dos diferentes tipos de dados não-relacionais: [Dados Não-Relacionais e NoSQL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data)
 
-- O Cosmos DB é um banco de dados não-relacional baseado em nuvem que também pode armazenar os diferentes tipos de NoSQL mencionados nesta lição. Saiba mais sobre esses tipos neste [Módulo de Aprendizado da Microsoft sobre Cosmos DB](https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/).
+- O Cosmos DB é um banco de dados não-relacional baseado em nuvem que também pode armazenar os diferentes tipos de NoSQL mencionados nesta lição. Saiba mais sobre esses tipos neste [Módulo de Aprendizado do Cosmos DB da Microsoft](https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/)
 
 ## Tarefa
 
