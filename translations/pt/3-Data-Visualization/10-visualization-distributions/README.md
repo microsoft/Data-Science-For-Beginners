@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "87faccac113d772551486a67a607153e",
-  "translation_date": "2025-08-24T22:34:56+00:00",
+  "original_hash": "02ce904bc1e2bfabb7dc05c25aae375c",
+  "translation_date": "2025-09-04T13:47:15+00:00",
   "source_file": "3-Data-Visualization/10-visualization-distributions/README.md",
   "language_code": "pt"
 }
@@ -13,14 +13,14 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Visualizar Distribuições - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
-Na lição anterior, aprendeste alguns factos interessantes sobre um conjunto de dados sobre as aves do Minnesota. Identificaste alguns dados erróneos ao visualizar outliers e analisaste as diferenças entre categorias de aves com base no seu comprimento máximo.
+Na lição anterior, aprendeste alguns factos interessantes sobre um conjunto de dados sobre as aves do Minnesota. Identificaste dados erróneos ao visualizar outliers e analisaste as diferenças entre categorias de aves com base no seu comprimento máximo.
 
 ## [Questionário pré-aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/18)
 ## Explorar o conjunto de dados das aves
 
 Outra forma de explorar os dados é analisando a sua distribuição, ou seja, como os dados estão organizados ao longo de um eixo. Talvez, por exemplo, queiras saber mais sobre a distribuição geral, neste conjunto de dados, da envergadura máxima ou da massa corporal máxima das aves do Minnesota.
 
-Vamos descobrir alguns factos sobre as distribuições dos dados neste conjunto. No ficheiro _notebook.ipynb_ na raiz da pasta desta lição, importa Pandas, Matplotlib e os teus dados:
+Vamos descobrir alguns factos sobre as distribuições dos dados neste conjunto. No ficheiro _notebook.ipynb_ na raiz desta pasta da lição, importa Pandas, Matplotlib e os teus dados:
 
 ```python
 import pandas as pd
@@ -32,9 +32,9 @@ birds.head()
 |      | Nome                        | NomeCientífico         | Categoria             | Ordem        | Família  | Género      | EstadoConservação | ComprMin | ComprMax | MassaMin | MassaMax | EnvergMin | EnvergMax |
 | ---: | :-------------------------- | :--------------------- | :-------------------- | :----------- | :------- | :---------- | :---------------- | --------:| --------:| ---------:| ---------:| ----------:| ----------:|
 |    0 | Pato-assobiador-de-barriga-preta | Dendrocygna autumnalis | Patos/Gansos/AvesAquáticas | Anseriformes | Anatidae | Dendrocygna | LC                 |        47 |        56 |         652 |        1020 |          76 |          94 |
-|    1 | Pato-assobiador-ferrugíneo  | Dendrocygna bicolor    | Patos/Gansos/AvesAquáticas | Anseriformes | Anatidae | Dendrocygna | LC                 |        45 |        53 |         712 |        1050 |          85 |          93 |
-|    2 | Ganso-das-neves            | Anser caerulescens     | Patos/Gansos/AvesAquáticas | Anseriformes | Anatidae | Anser       | LC                 |        64 |        79 |        2050 |        4050 |         135 |         165 |
-|    3 | Ganso-de-Ross              | Anser rossii           | Patos/Gansos/AvesAquáticas | Anseriformes | Anatidae | Anser       | LC                 |      57.3 |        64 |        1066 |        1567 |         113 |         116 |
+|    1 | Pato-assobiador-fulvo       | Dendrocygna bicolor    | Patos/Gansos/AvesAquáticas | Anseriformes | Anatidae | Dendrocygna | LC                 |        45 |        53 |         712 |        1050 |          85 |          93 |
+|    2 | Ganso-das-neves             | Anser caerulescens     | Patos/Gansos/AvesAquáticas | Anseriformes | Anatidae | Anser       | LC                 |        64 |        79 |        2050 |        4050 |         135 |         165 |
+|    3 | Ganso-de-Ross               | Anser rossii           | Patos/Gansos/AvesAquáticas | Anseriformes | Anatidae | Anser       | LC                 |      57.3 |        64 |        1066 |        1567 |         113 |         116 |
 |    4 | Ganso-de-testa-branca-maior | Anser albifrons        | Patos/Gansos/AvesAquáticas | Anseriformes | Anatidae | Anser       | LC                 |        64 |        81 |        1930 |        3310 |         130 |         165 |
 
 De forma geral, podes rapidamente observar como os dados estão distribuídos utilizando um gráfico de dispersão, como fizemos na lição anterior:
@@ -54,7 +54,7 @@ Isto dá uma visão geral da distribuição do comprimento corporal por Ordem da
 
 ## Trabalhar com histogramas
 
-O Matplotlib oferece ótimas formas de visualizar a distribuição de dados utilizando Histogramas. Este tipo de gráfico é semelhante a um gráfico de barras, onde a distribuição pode ser vista pelo aumento e diminuição das barras. Para construir um histograma, precisas de dados numéricos. Para criar um Histograma, podes traçar um gráfico definindo o tipo como 'hist' para Histograma. Este gráfico mostra a distribuição da MaxBodyMass para toda a gama de dados numéricos do conjunto. Dividindo o array de dados em pequenos intervalos (bins), é possível exibir a distribuição dos valores dos dados:
+O Matplotlib oferece formas muito boas de visualizar a distribuição de dados utilizando Histogramas. Este tipo de gráfico é semelhante a um gráfico de barras, onde a distribuição pode ser vista através do aumento e diminuição das barras. Para construir um histograma, precisas de dados numéricos. Para criar um Histograma, podes desenhar um gráfico definindo o tipo como 'hist' para Histograma. Este gráfico mostra a distribuição da MaxBodyMass para toda a gama de dados numéricos do conjunto. Dividindo o array de dados em pequenos intervalos (bins), é possível exibir a distribuição dos valores dos dados:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
@@ -62,13 +62,13 @@ plt.show()
 ```
 ![distribuição em todo o conjunto de dados](../../../../translated_images/dist1-wb.0d0cac82e2974fbbec635826fefead401af795f82e2279e2e2678bf2c117d827.pt.png)
 
-Como podes ver, a maioria das mais de 400 aves neste conjunto de dados está na faixa abaixo de 2000 para a sua Massa Corporal Máxima. Obtém mais informações sobre os dados alterando o parâmetro `bins` para um número maior, como 30:
+Como podes ver, a maioria das mais de 400 aves neste conjunto de dados encontra-se na faixa abaixo de 2000 para a sua Massa Corporal Máxima. Obtém mais informações sobre os dados alterando o parâmetro `bins` para um número maior, como 30:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 30, figsize = (12,12))
 plt.show()
 ```
-![distribuição em todo o conjunto de dados com mais bins](../../../../translated_images/dist2-wb.2c0a7a3499b2fbf561e9f93b69f265dfc538dc78f6de15088ba84a88152e26ba.pt.png)
+![distribuição em todo o conjunto de dados com bins maiores](../../../../translated_images/dist2-wb.2c0a7a3499b2fbf561e9f93b69f265dfc538dc78f6de15088ba84a88152e26ba.pt.png)
 
 Este gráfico mostra a distribuição de forma um pouco mais detalhada. Um gráfico menos enviesado para a esquerda poderia ser criado garantindo que apenas selecionas dados dentro de um determinado intervalo:
 
@@ -81,9 +81,9 @@ plt.show()
 ```
 ![histograma filtrado](../../../../translated_images/dist3-wb.64b88db7f9780200bd486a2c2a3252548dd439672dbd3f778193db7f654b100c.pt.png)
 
-✅ Experimenta outros filtros e pontos de dados. Para ver a distribuição completa dos dados, remove o filtro `['MaxBodyMass']` para mostrar distribuições rotuladas.
+✅ Experimenta outros filtros e pontos de dados. Para ver a distribuição completa dos dados, remove o filtro `['MaxBodyMass']` para mostrar distribuições etiquetadas.
 
-O histograma oferece algumas melhorias interessantes de cor e rotulagem para experimentar também:
+O histograma oferece também algumas melhorias de cor e etiquetagem interessantes para experimentar:
 
 Cria um histograma 2D para comparar a relação entre duas distribuições. Vamos comparar `MaxBodyMass` vs. `MaxLength`. O Matplotlib oferece uma forma integrada de mostrar convergência utilizando cores mais brilhantes:
 
@@ -101,9 +101,9 @@ Parece haver uma correlação esperada entre estes dois elementos ao longo de um
 Os histogramas funcionam bem por padrão para dados numéricos. E se precisares de ver distribuições de acordo com dados textuais? 
 ## Explorar o conjunto de dados para distribuições usando dados textuais 
 
-Este conjunto de dados também inclui boas informações sobre a categoria da ave, o seu género, espécie, família e o seu estado de conservação. Vamos explorar esta informação de conservação. Qual é a distribuição das aves de acordo com o seu estado de conservação?
+Este conjunto de dados também inclui boas informações sobre a categoria das aves, bem como o seu género, espécie, família e estado de conservação. Vamos explorar esta informação de conservação. Qual é a distribuição das aves de acordo com o seu estado de conservação?
 
-> ✅ No conjunto de dados, vários acrónimos são usados para descrever o estado de conservação. Estes acrónimos vêm das [Categorias da Lista Vermelha da IUCN](https://www.iucnredlist.org/), uma organização que cataloga o estado das espécies.
+> ✅ No conjunto de dados, são usados vários acrónimos para descrever o estado de conservação. Estes acrónimos vêm das [Categorias da Lista Vermelha da IUCN](https://www.iucnredlist.org/), uma organização que cataloga o estado das espécies.
 > 
 > - CR: Criticamente em Perigo
 > - EN: Em Perigo
@@ -112,7 +112,7 @@ Este conjunto de dados também inclui boas informações sobre a categoria da av
 > - NT: Quase Ameaçado
 > - VU: Vulnerável
 
-Estes são valores baseados em texto, por isso precisarás de fazer uma transformação para criar um histograma. Usando o dataframe filteredBirds, exibe o estado de conservação ao lado da sua Envergadura Mínima. O que observas?
+Estes são valores baseados em texto, por isso precisarás de fazer uma transformação para criar um histograma. Usando o dataframe filteredBirds, exibe o estado de conservação juntamente com a sua Envergadura Mínima. O que observas?
 
 ```python
 x1 = filteredBirds.loc[filteredBirds.ConservationStatus=='EX', 'MinWingspan']
@@ -155,7 +155,7 @@ plt.show()
 ```
 ![Gráfico de densidade](../../../../translated_images/density1.8801043bd4af2567b0f706332b5853c7614e5e4b81b457acc27eb4e092a65cbd.pt.png)
 
-Podes ver como o gráfico reflete o anterior para os dados de Envergadura Mínima; é apenas um pouco mais suave. De acordo com a documentação do Seaborn, "Em relação a um histograma, o KDE pode produzir um gráfico menos confuso e mais interpretável, especialmente ao desenhar várias distribuições. Mas tem o potencial de introduzir distorções se a distribuição subjacente for limitada ou não for suave. Como um histograma, a qualidade da representação também depende da seleção de bons parâmetros de suavização." [fonte](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Em outras palavras, outliers, como sempre, farão com que os teus gráficos se comportem mal.
+Podes ver como o gráfico reflete o anterior para os dados de Envergadura Mínima; é apenas um pouco mais suave. De acordo com a documentação do Seaborn, "Em relação a um histograma, o KDE pode produzir um gráfico menos confuso e mais interpretável, especialmente ao desenhar múltiplas distribuições. Mas tem o potencial de introduzir distorções se a distribuição subjacente for limitada ou não for suave. Tal como um histograma, a qualidade da representação também depende da seleção de bons parâmetros de suavização." [fonte](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Em outras palavras, outliers, como sempre, farão com que os teus gráficos se comportem mal.
 
 Se quisesses revisitar aquela linha irregular de MaxBodyMass no segundo gráfico que criaste, poderias suavizá-la muito bem recriando-a usando este método:
 
@@ -165,7 +165,7 @@ plt.show()
 ```
 ![linha de massa corporal suavizada](../../../../translated_images/density2.8e7647257060ff544a1aaded57e8dd1887586bfe340139e9b77ac1e5287f7977.pt.png)
 
-Se quisesses uma linha suave, mas não tão suave, edita o parâmetro `bw_adjust`: 
+Se quisesses uma linha suave, mas não demasiado suave, edita o parâmetro `bw_adjust`: 
 
 ```python
 sns.kdeplot(filteredBirds['MaxBodyMass'], bw_adjust=.2)
@@ -201,7 +201,7 @@ Talvez valha a pena investigar se o agrupamento de aves 'Vulneráveis' de acordo
 
 Os histogramas são um tipo de gráfico mais sofisticado do que gráficos de dispersão, gráficos de barras ou gráficos de linhas básicos. Faz uma pesquisa na internet para encontrar bons exemplos do uso de histogramas. Como são usados, o que demonstram e em que áreas ou campos de investigação tendem a ser utilizados?
 
-## [Questionário pós-aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/19)
+## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Revisão e Autoestudo
 
@@ -211,5 +211,7 @@ Nesta lição, utilizaste o Matplotlib e começaste a trabalhar com o Seaborn pa
 
 [Aplica as tuas competências](assignment.md)
 
+---
+
 **Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, tenha em atenção que traduções automáticas podem conter erros ou imprecisões. O documento original na sua língua nativa deve ser considerado a fonte autoritária. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes da utilização desta tradução.
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original no seu idioma nativo deve ser considerado a fonte oficial. Para informações críticas, recomenda-se uma tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas resultantes do uso desta tradução.

@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "408c55cab2880daa4e78616308bd5db7",
-  "translation_date": "2025-08-24T22:02:30+00:00",
+  "original_hash": "6a0556b17de4c8d1a9470b02247b01d4",
+  "translation_date": "2025-09-04T13:51:45+00:00",
   "source_file": "5-Data-Science-In-Cloud/17-Introduction/README.md",
   "language_code": "es"
 }
@@ -31,19 +31,19 @@ La mayoría de los servicios de computación en la nube se dividen en tres categ
 
 * Infraestructura como Servicio (IaaS): los usuarios alquilan una infraestructura de TI como servidores y máquinas virtuales (VMs), almacenamiento, redes, sistemas operativos.
 * Plataforma como Servicio (PaaS): los usuarios alquilan un entorno para desarrollar, probar, entregar y gestionar aplicaciones de software. Los usuarios no necesitan preocuparse por configurar o gestionar la infraestructura subyacente de servidores, almacenamiento, redes y bases de datos necesarias para el desarrollo.
-* Software como Servicio (SaaS): los usuarios obtienen acceso a aplicaciones de software a través de Internet, bajo demanda y típicamente mediante una suscripción. Los usuarios no necesitan preocuparse por alojar y gestionar la aplicación de software, la infraestructura subyacente o el mantenimiento, como actualizaciones de software y parches de seguridad.
+* Software como Servicio (SaaS): los usuarios obtienen acceso a aplicaciones de software a través de Internet, bajo demanda y típicamente por suscripción. Los usuarios no necesitan preocuparse por alojar y gestionar la aplicación de software, la infraestructura subyacente o el mantenimiento, como actualizaciones de software y parches de seguridad.
 
 Algunos de los mayores proveedores de servicios en la nube son Amazon Web Services, Google Cloud Platform y Microsoft Azure.
 
 ## ¿Por qué elegir la Nube para la Ciencia de Datos?
 
-Los desarrolladores y profesionales de TI eligen trabajar con la Nube por muchas razones, entre ellas:
+Los desarrolladores y profesionales de TI eligen trabajar con la Nube por muchas razones, incluyendo las siguientes:
 
 * Innovación: puedes potenciar tus aplicaciones integrando servicios innovadores creados por los proveedores de la Nube directamente en tus aplicaciones.
 * Flexibilidad: solo pagas por los servicios que necesitas y puedes elegir entre una amplia gama de servicios. Normalmente pagas según el uso y adaptas tus servicios según tus necesidades cambiantes.
-* Presupuesto: no necesitas hacer inversiones iniciales para comprar hardware y software, configurar y operar centros de datos locales, y solo pagas por lo que utilizas.
+* Presupuesto: no necesitas realizar inversiones iniciales para comprar hardware y software, configurar y operar centros de datos locales, y solo pagas por lo que utilizas.
 * Escalabilidad: tus recursos pueden escalar según las necesidades de tu proyecto, lo que significa que tus aplicaciones pueden usar más o menos potencia de computación, almacenamiento y ancho de banda, adaptándose a factores externos en cualquier momento.
-* Productividad: puedes concentrarte en tu negocio en lugar de dedicar tiempo a tareas que pueden ser gestionadas por otros, como administrar centros de datos.
+* Productividad: puedes enfocarte en tu negocio en lugar de dedicar tiempo a tareas que pueden ser gestionadas por otros, como administrar centros de datos.
 * Fiabilidad: la computación en la nube ofrece varias formas de respaldar continuamente tus datos y puedes configurar planes de recuperación ante desastres para mantener tu negocio y servicios funcionando, incluso en tiempos de crisis.
 * Seguridad: puedes beneficiarte de políticas, tecnologías y controles que fortalecen la seguridad de tu proyecto.
 
@@ -70,7 +70,7 @@ Los indicadores clave que observarás son el volumen de tweets sobre temas espec
 Los pasos necesarios para crear este proyecto son los siguientes:
 
 * Crear un centro de eventos para la entrada de streaming, que recolectará datos de Twitter.
-* Configurar y iniciar una aplicación cliente de Twitter, que llamará a las APIs de Streaming de Twitter.
+* Configurar e iniciar una aplicación cliente de Twitter, que llamará a las APIs de Streaming de Twitter.
 * Crear un trabajo de Stream Analytics.
 * Especificar la entrada y consulta del trabajo.
 * Crear un destino de salida y especificar la salida del trabajo.
@@ -89,7 +89,7 @@ Veamos los diferentes pasos utilizados para esto:
 * Extraer y preprocesar información con [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 * Usar [Azure ML](https://azure.microsoft.com/services/machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) para paralelizar el procesamiento.
 * Almacenar y consultar información con [Cosmos DB](https://azure.microsoft.com/services/cosmos-db?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
-* Crear un panel interactivo para la exploración y visualización de datos usando Power BI.
+* Crear un panel interactivo para exploración y visualización de datos usando Power BI.
 
 Para ver el proceso completo, visita el [blog de Dmitry](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/).
 
@@ -104,11 +104,13 @@ Fuentes:
 
 ## Cuestionario posterior a la lección
 
-[Cuestionario posterior a la lección](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/33)
+## [Cuestionario posterior a la lección](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Tarea
 
 [Investigación de mercado](assignment.md)
 
+---
+
 **Descargo de responsabilidad**:  
-Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Aunque nos esforzamos por garantizar la precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.
+Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Si bien nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.

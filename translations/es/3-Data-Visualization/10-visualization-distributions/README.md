@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "87faccac113d772551486a67a607153e",
-  "translation_date": "2025-08-24T22:35:23+00:00",
+  "original_hash": "02ce904bc1e2bfabb7dc05c25aae375c",
+  "translation_date": "2025-09-04T14:00:43+00:00",
   "source_file": "3-Data-Visualization/10-visualization-distributions/README.md",
   "language_code": "es"
 }
@@ -54,7 +54,7 @@ Esto da una visión general de la distribución de la longitud corporal por orde
 
 ## Trabajando con histogramas
 
-Matplotlib ofrece muy buenas formas de visualizar la distribución de datos utilizando histogramas. Este tipo de gráfico es como un gráfico de barras donde la distribución se puede observar a través del aumento y la caída de las barras. Para construir un histograma, necesitas datos numéricos. Para construir un histograma, puedes graficar un gráfico definiendo el tipo como 'hist' para histograma. Este gráfico muestra la distribución de MaxBodyMass para el rango completo de datos numéricos del conjunto de datos. Dividiendo el arreglo de datos en pequeños intervalos, puede mostrar la distribución de los valores de los datos:
+Matplotlib ofrece muy buenas formas de visualizar la distribución de datos utilizando histogramas. Este tipo de gráfico es como un gráfico de barras donde la distribución se puede observar mediante el aumento y la caída de las barras. Para construir un histograma, necesitas datos numéricos. Para construir un histograma, puedes trazar un gráfico definiendo el tipo como 'hist' para histograma. Este gráfico muestra la distribución de MaxBodyMass para el rango completo de datos numéricos del conjunto de datos. Dividiendo el arreglo de datos en pequeños intervalos, puede mostrar la distribución de los valores de los datos:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
@@ -199,9 +199,9 @@ Tal vez valga la pena investigar si el grupo de aves 'Vulnerables' según sus lo
 
 ## 🚀 Desafío
 
-Los histogramas son un tipo de gráfico más sofisticado que los gráficos de dispersión, gráficos de barras o gráficos de líneas básicos. Busca en internet buenos ejemplos del uso de histogramas. ¿Cómo se utilizan, qué demuestran y en qué campos o áreas de investigación tienden a utilizarse?
+Los histogramas son un tipo de gráfico más sofisticado que los gráficos de dispersión, barras o líneas básicos. Busca en internet buenos ejemplos del uso de histogramas. ¿Cómo se utilizan, qué demuestran y en qué campos o áreas de investigación tienden a usarse?
 
-## [Cuestionario posterior a la lección](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/19)
+## [Cuestionario posterior a la lección](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Repaso y Autoestudio
 
@@ -211,5 +211,7 @@ En esta lección, utilizaste Matplotlib y comenzaste a trabajar con Seaborn para
 
 [Aplica tus habilidades](assignment.md)
 
+---
+
 **Descargo de responsabilidad**:  
-Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Aunque nos esforzamos por garantizar la precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.
+Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Si bien nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.

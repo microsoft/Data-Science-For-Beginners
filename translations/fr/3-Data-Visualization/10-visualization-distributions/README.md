@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "87faccac113d772551486a67a607153e",
-  "translation_date": "2025-08-25T18:06:16+00:00",
+  "original_hash": "02ce904bc1e2bfabb7dc05c25aae375c",
+  "translation_date": "2025-09-04T13:04:46+00:00",
   "source_file": "3-Data-Visualization/10-visualization-distributions/README.md",
   "language_code": "fr"
 }
@@ -16,7 +16,7 @@ CO_OP_TRANSLATOR_METADATA:
 Dans la leçon précédente, vous avez appris des faits intéressants sur un ensemble de données concernant les oiseaux du Minnesota. Vous avez identifié des données erronées en visualisant les valeurs aberrantes et examiné les différences entre les catégories d'oiseaux en fonction de leur longueur maximale.
 
 ## [Quiz avant la leçon](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/18)
-## Explorer l'ensemble de données des oiseaux
+## Explorer l'ensemble de données sur les oiseaux
 
 Une autre façon d'explorer les données est d'examiner leur distribution, c'est-à-dire comment les données sont organisées le long d'un axe. Par exemple, vous pourriez vouloir en savoir plus sur la distribution générale, pour cet ensemble de données, de l'envergure maximale ou de la masse corporelle maximale des oiseaux du Minnesota.
 
@@ -54,7 +54,7 @@ Cela donne un aperçu de la distribution générale de la longueur corporelle pa
 
 ## Travailler avec des histogrammes
 
-Matplotlib offre d'excellents moyens de visualiser la distribution des données à l'aide d'histogrammes. Ce type de graphique ressemble à un diagramme en barres où la distribution peut être observée à travers la montée et la descente des barres. Pour construire un histogramme, vous avez besoin de données numériques. Pour créer un histogramme, vous pouvez tracer un graphique en définissant le type comme 'hist' pour Histogramme. Ce graphique montre la distribution de la MaxMasseCorporelle pour l'ensemble de données entier. En divisant le tableau de données en petits intervalles, il peut afficher la distribution des valeurs des données :
+Matplotlib offre d'excellents moyens de visualiser la distribution des données à l'aide d'histogrammes. Ce type de graphique ressemble à un diagramme en barres où la distribution peut être observée à travers la montée et la descente des barres. Pour construire un histogramme, vous avez besoin de données numériques. Pour créer un histogramme, vous pouvez tracer un graphique en définissant le type comme 'hist' pour Histogramme. Ce graphique montre la distribution de la masse corporelle maximale pour l'ensemble de données dans sa plage de données numériques. En divisant le tableau de données en petits intervalles, il peut afficher la distribution des valeurs des données :
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
@@ -62,15 +62,15 @@ plt.show()
 ```
 ![distribution sur l'ensemble du dataset](../../../../translated_images/dist1-wb.0d0cac82e2974fbbec635826fefead401af795f82e2279e2e2678bf2c117d827.fr.png)
 
-Comme vous pouvez le voir, la plupart des 400+ oiseaux de cet ensemble de données ont une masse corporelle maximale inférieure à 2000. Obtenez plus d'informations sur les données en modifiant le paramètre `bins` pour un nombre plus élevé, comme 30 :
+Comme vous pouvez le voir, la plupart des 400+ oiseaux de cet ensemble de données se situent dans la plage de moins de 2000 pour leur masse corporelle maximale. Obtenez plus d'informations sur les données en modifiant le paramètre `bins` à un nombre plus élevé, comme 30 :
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 30, figsize = (12,12))
 plt.show()
 ```
-![distribution avec un paramètre bins plus élevé](../../../../translated_images/dist2-wb.2c0a7a3499b2fbf561e9f93b69f265dfc538dc78f6de15088ba84a88152e26ba.fr.png)
+![distribution sur l'ensemble du dataset avec un paramètre bins plus élevé](../../../../translated_images/dist2-wb.2c0a7a3499b2fbf561e9f93b69f265dfc538dc78f6de15088ba84a88152e26ba.fr.png)
 
-Ce graphique montre la distribution de manière un peu plus détaillée. Un graphique moins biaisé vers la gauche pourrait être créé en s'assurant que vous ne sélectionnez que des données dans une plage donnée :
+Ce graphique montre la distribution de manière un peu plus détaillée. Un graphique moins biaisé vers la gauche pourrait être créé en veillant à ne sélectionner que les données dans une plage donnée :
 
 Filtrez vos données pour obtenir uniquement les oiseaux dont la masse corporelle est inférieure à 60, et affichez 40 `bins` :
 
@@ -99,9 +99,9 @@ Il semble y avoir une corrélation attendue entre ces deux éléments le long d'
 ![graphique 2D](../../../../translated_images/2D-wb.ae22fdd33936507a41e3af22e11e4903b04a9be973b23a4e05214efaccfd66c8.fr.png)
 
 Les histogrammes fonctionnent bien par défaut pour les données numériques. Que faire si vous devez examiner les distributions selon des données textuelles ? 
-## Explorer l'ensemble de données pour les distributions basées sur des données textuelles 
+## Explorer l'ensemble de données pour les distributions à l'aide de données textuelles 
 
-Cet ensemble de données contient également de bonnes informations sur la catégorie des oiseaux, leur genre, espèce, famille ainsi que leur statut de conservation. Explorons ces informations de conservation. Quelle est la distribution des oiseaux selon leur statut de conservation ?
+Cet ensemble de données contient également de bonnes informations sur la catégorie des oiseaux, leur genre, espèce et famille, ainsi que leur statut de conservation. Explorons ces informations de conservation. Quelle est la distribution des oiseaux selon leur statut de conservation ?
 
 > ✅ Dans l'ensemble de données, plusieurs acronymes sont utilisés pour décrire le statut de conservation. Ces acronymes proviennent des [Catégories de la Liste Rouge de l'UICN](https://www.iucnredlist.org/), une organisation qui catalogue le statut des espèces.
 > 
@@ -193,7 +193,7 @@ Vous pouvez également cartographier la densité de plusieurs variables dans un 
 sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationStatus")
 ```
 
-![densités multiples superposées](../../../../translated_images/multi.56548caa9eae8d0fd9012a8586295538c7f4f426e2abc714ba070e2e4b1fc2c1.fr.png)
+![densités multiples, superposées](../../../../translated_images/multi.56548caa9eae8d0fd9012a8586295538c7f4f426e2abc714ba070e2e4b1fc2c1.fr.png)
 
 Peut-être vaut-il la peine de rechercher si le regroupement des oiseaux "Vulnérables" selon leurs longueurs est significatif ou non.
 
@@ -201,7 +201,7 @@ Peut-être vaut-il la peine de rechercher si le regroupement des oiseaux "Vulné
 
 Les histogrammes sont un type de graphique plus sophistiqué que les diagrammes de dispersion, les diagrammes en barres ou les graphiques linéaires de base. Faites une recherche sur Internet pour trouver de bons exemples d'utilisation des histogrammes. Comment sont-ils utilisés, que démontrent-ils, et dans quels domaines ou champs d'étude ont-ils tendance à être utilisés ?
 
-## [Quiz après la leçon](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/19)
+## [Quiz après la leçon](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Révision et auto-apprentissage
 
@@ -211,5 +211,7 @@ Dans cette leçon, vous avez utilisé Matplotlib et commencé à travailler avec
 
 [Appliquez vos compétences](assignment.md)
 
+---
+
 **Avertissement** :  
-Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction professionnelle réalisée par un humain. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.
+Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de faire appel à une traduction humaine professionnelle. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.
