@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "73dead89dc2ddda4d6ec0232814a191e",
-  "translation_date": "2025-08-28T15:10:32+00:00",
+  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
+  "translation_date": "2025-09-04T19:49:29+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "nl"
 }
@@ -45,7 +45,7 @@ Inhoudsopgave:
 
 Datawetenschappers en AI-ontwikkelaars gebruiken de Azure Machine Learning SDK om machine learning-workflows te bouwen en uit te voeren met de Azure Machine Learning-service. Je kunt met de service werken in elke Python-omgeving, zoals Jupyter Notebooks, Visual Studio Code of je favoriete Python IDE.
 
-Belangrijke functies van de SDK zijn:
+Belangrijke onderdelen van de SDK zijn:
 
 - Verkennen, voorbereiden en beheren van de levenscyclus van datasets die worden gebruikt in machine learning-experimenten.
 - Beheren van cloudresources voor monitoring, logging en het organiseren van je machine learning-experimenten.
@@ -158,7 +158,7 @@ Om de AutoML-configuratie in te stellen, gebruik je de [AutoMLConfig-klasse](htt
 
 Zoals beschreven in de documentatie zijn er veel parameters waarmee je kunt spelen. Voor dit project zullen we de volgende parameters gebruiken:
 
-- `experiment_timeout_minutes`: De maximale tijdsduur (in minuten) die het experiment mag duren voordat het automatisch wordt gestopt en de resultaten automatisch beschikbaar worden gemaakt.
+- `experiment_timeout_minutes`: De maximale tijd (in minuten) die het experiment mag duren voordat het automatisch wordt gestopt en de resultaten automatisch beschikbaar worden gemaakt.
 - `max_concurrent_iterations`: Het maximale aantal gelijktijdige trainingsiteraties dat is toegestaan voor het experiment.
 - `primary_metric`: De primaire metriek die wordt gebruikt om de status van het experiment te bepalen.
 - `compute_target`: Het Azure Machine Learning compute-doel waarop het geautomatiseerde machine learning-experiment wordt uitgevoerd.
@@ -254,7 +254,7 @@ Deze stap kan enkele minuten duren.
 
 ### 3.3 Gebruik van endpoints
 
-Je gebruikt je endpoint door een voorbeeldinvoer te maken:
+Je gebruikt je endpoint door een voorbeeldinput te maken:
 
 ```python
 data = {
@@ -279,7 +279,7 @@ data = {
 
 test_sample = str.encode(json.dumps(data))
 ```
-En vervolgens kun je deze invoer naar je model sturen voor voorspelling:
+En vervolgens kun je deze input naar je model sturen voor voorspelling:
 ```python
 response = aci_service.run(input_data=test_sample)
 response
@@ -293,15 +293,15 @@ Gefeliciteerd! Je hebt zojuist het model gebruikt dat is gedeployed en getraind 
 
 ## 🚀 Uitdaging
 
-Er zijn veel andere dingen die je kunt doen met de SDK, helaas kunnen we ze niet allemaal in deze les behandelen. Maar goed nieuws, leren hoe je door de SDK-documentatie kunt navigeren kan je een heel eind op weg helpen. Bekijk de Azure ML SDK-documentatie en zoek de `Pipeline`-klasse waarmee je pipelines kunt maken. Een Pipeline is een verzameling stappen die als een workflow kunnen worden uitgevoerd.
+Er zijn veel andere dingen die je kunt doen met de SDK, helaas kunnen we ze niet allemaal in deze les behandelen. Maar goed nieuws, leren hoe je door de SDK-documentatie kunt navigeren kan je een heel eind op weg helpen. Bekijk de Azure ML SDK-documentatie en zoek de `Pipeline`-klasse die je in staat stelt om pipelines te maken. Een Pipeline is een verzameling stappen die als een workflow kunnen worden uitgevoerd.
 
 **TIP:** Ga naar de [SDK-documentatie](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) en typ trefwoorden zoals "Pipeline" in de zoekbalk. Je zou de `azureml.pipeline.core.Pipeline`-klasse in de zoekresultaten moeten vinden.
 
-## [Quiz na de les](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/37)
+## [Quiz na de les](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Review & Zelfstudie
 
-In deze les heb je geleerd hoe je een model kunt trainen, deployen en gebruiken om het risico op hartfalen te voorspellen met de Azure ML SDK in de cloud. Bekijk deze [documentatie](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) voor meer informatie over de Azure ML SDK. Probeer je eigen model te maken met de Azure ML SDK. 
+In deze les heb je geleerd hoe je een model kunt trainen, deployen en gebruiken om het risico op hartfalen te voorspellen met de Azure ML SDK in de cloud. Bekijk deze [documentatie](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) voor meer informatie over de Azure ML SDK. Probeer je eigen model te maken met de Azure ML SDK.
 
 ## Opdracht
 
@@ -310,4 +310,4 @@ In deze les heb je geleerd hoe je een model kunt trainen, deployen en gebruiken 
 ---
 
 **Disclaimer**:  
-Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, willen we u erop wijzen dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor kritieke informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.
+Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in zijn oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.

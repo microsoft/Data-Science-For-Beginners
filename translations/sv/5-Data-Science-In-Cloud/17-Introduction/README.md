@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "408c55cab2880daa4e78616308bd5db7",
-  "translation_date": "2025-08-26T22:08:04+00:00",
+  "original_hash": "6a0556b17de4c8d1a9470b02247b01d4",
+  "translation_date": "2025-09-04T18:56:55+00:00",
   "source_file": "5-Data-Science-In-Cloud/17-Introduction/README.md",
   "language_code": "sv"
 }
@@ -13,25 +13,26 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Data Science i Molnet: Introduktion - _Sketchnote av [@nitya](https://twitter.com/nitya)_ |
 
-I denna lektion kommer du att lära dig de grundläggande principerna för molnet, varför det kan vara intressant att använda molntjänster för att driva dina data science-projekt, och vi kommer att titta på några exempel på data science-projekt som körs i molnet.
+
+I denna lektion kommer du att lära dig de grundläggande principerna för molnet, varför det kan vara intressant att använda molntjänster för att driva dina data science-projekt, och vi kommer att titta på några exempel på data science-projekt som körs i molnet. 
 
 ## [Quiz före föreläsningen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/32)
 
 ## Vad är molnet?
 
-Molnet, eller molnbaserad databehandling, är leveransen av ett brett utbud av betalningsbaserade datatjänster som är värd på en infrastruktur via internet. Tjänsterna inkluderar lösningar som lagring, databaser, nätverk, mjukvara, analys och intelligenta tjänster.
+Molnet, eller molnbaserad databehandling, är leveransen av ett brett utbud av betalningsbaserade databehandlingstjänster som är värd på en infrastruktur via internet. Tjänsterna inkluderar lösningar som lagring, databaser, nätverk, mjukvara, analys och intelligenta tjänster.
 
 Vi brukar skilja mellan offentliga, privata och hybrida moln enligt följande:
 
-* Offentligt moln: ett offentligt moln ägs och drivs av en tredje part som tillhandahåller sina databehandlingsresurser via internet till allmänheten.
+* Offentligt moln: ett offentligt moln ägs och drivs av en tredjepartsleverantör av molntjänster som levererar sina databehandlingsresurser via internet till allmänheten.
 * Privat moln: avser databehandlingsresurser som används exklusivt av ett enda företag eller organisation, med tjänster och en infrastruktur som underhålls på ett privat nätverk.
 * Hybridmoln: hybridmolnet är ett system som kombinerar offentliga och privata moln. Användare väljer ett datacenter på plats, samtidigt som de tillåter data och applikationer att köras på ett eller flera offentliga moln.
 
-De flesta molntjänster faller inom tre kategorier: Infrastruktur som en tjänst (IaaS), Plattform som en tjänst (PaaS) och Mjukvara som en tjänst (SaaS).
+De flesta molnbaserade databehandlingstjänster faller inom tre kategorier: Infrastruktur som en tjänst (IaaS), Plattform som en tjänst (PaaS) och Mjukvara som en tjänst (SaaS).
 
-* Infrastruktur som en tjänst (IaaS): användare hyr en IT-infrastruktur som servrar och virtuella maskiner (VM), lagring, nätverk, operativsystem.
+* Infrastruktur som en tjänst (IaaS): användare hyr en IT-infrastruktur såsom servrar och virtuella maskiner (VM), lagring, nätverk, operativsystem.
 * Plattform som en tjänst (PaaS): användare hyr en miljö för att utveckla, testa, leverera och hantera mjukvaruapplikationer. Användare behöver inte oroa sig för att ställa in eller hantera den underliggande infrastrukturen av servrar, lagring, nätverk och databaser som behövs för utveckling.
-* Mjukvara som en tjänst (SaaS): användare får tillgång till mjukvaruapplikationer via internet, på begäran och vanligtvis på abonnemangsbasis. Användare behöver inte oroa sig för att värda och hantera mjukvaruapplikationen, den underliggande infrastrukturen eller underhållet, som mjukvaruuppdateringar och säkerhetsåtgärder.
+* Mjukvara som en tjänst (SaaS): användare får tillgång till mjukvaruapplikationer via internet, på begäran och vanligtvis på abonnemangsbasis. Användare behöver inte oroa sig för att värda och hantera mjukvaruapplikationen, den underliggande infrastrukturen eller underhållet, såsom mjukvaruuppdateringar och säkerhetsåtgärder.
 
 Några av de största molnleverantörerna är Amazon Web Services, Google Cloud Platform och Microsoft Azure.
 
@@ -47,20 +48,20 @@ Utvecklare och IT-proffs väljer att arbeta med molnet av många skäl, inklusiv
 * Tillförlitlighet: molnbaserad databehandling erbjuder flera sätt att kontinuerligt säkerhetskopiera dina data och du kan skapa katastrofåterställningsplaner för att hålla din verksamhet och dina tjänster igång, även i krissituationer.
 * Säkerhet: du kan dra nytta av policyer, teknologier och kontroller som stärker säkerheten för ditt projekt.
 
-Detta är några av de vanligaste anledningarna till varför människor väljer att använda molntjänster. Nu när vi har en bättre förståelse för vad molnet är och dess huvudsakliga fördelar, låt oss titta mer specifikt på arbetet som dataforskare och utvecklare som arbetar med data, och hur molnet kan hjälpa dem med flera utmaningar de kan möta:
+Detta är några av de vanligaste anledningarna till varför människor väljer att använda molntjänster. Nu när vi har en bättre förståelse för vad molnet är och dess huvudsakliga fördelar, låt oss titta mer specifikt på jobben för dataforskare och utvecklare som arbetar med data, och hur molnet kan hjälpa dem med flera utmaningar de kan möta:
 
 * Lagra stora mängder data: istället för att köpa, hantera och skydda stora servrar kan du lagra dina data direkt i molnet, med lösningar som Azure Cosmos DB, Azure SQL Database och Azure Data Lake Storage.
 * Utföra dataintegration: dataintegration är en viktig del av Data Science, som låter dig göra övergången från datainsamling till att vidta åtgärder. Med dataintegrationstjänster som erbjuds i molnet kan du samla in, transformera och integrera data från olika källor till ett enda datalager, med Data Factory.
 * Bearbeta data: att bearbeta stora mängder data kräver mycket datorkraft, och inte alla har tillgång till tillräckligt kraftfulla maskiner för det, vilket är anledningen till att många väljer att direkt utnyttja molnets enorma datorkraft för att köra och distribuera sina lösningar.
 * Använda dataanalystjänster: molntjänster som Azure Synapse Analytics, Azure Stream Analytics och Azure Databricks hjälper dig att omvandla dina data till användbara insikter.
-* Använda maskininlärning och dataintelligens-tjänster: istället för att börja från grunden kan du använda maskininlärningsalgoritmer som erbjuds av molnleverantören, med tjänster som AzureML. Du kan också använda kognitiva tjänster som tal-till-text, text-till-tal, datorseende och mer.
+* Använda maskininlärning och dataintelligens-tjänster: istället för att börja från början kan du använda maskininlärningsalgoritmer som erbjuds av molnleverantören, med tjänster som AzureML. Du kan också använda kognitiva tjänster såsom tal-till-text, text-till-tal, datorseende och mer.
 
-## Exempel på Data Science i molnet
+## Exempel på Data Science i Molnet
 
 Låt oss göra detta mer konkret genom att titta på ett par scenarier.
 
 ### Realtidsanalys av sociala mediers sentiment
-Vi börjar med ett scenario som ofta studeras av personer som börjar med maskininlärning: sentimentanalys av sociala medier i realtid.
+Vi börjar med ett scenario som ofta studeras av personer som börjar med maskininlärning: analys av sentiment på sociala medier i realtid.
 
 Låt oss säga att du driver en nyhetswebbplats och vill utnyttja live-data för att förstå vilket innehåll dina läsare kan vara intresserade av. För att ta reda på mer om detta kan du bygga ett program som utför sentimentanalys i realtid av data från Twitter-publikationer, om ämnen som är relevanta för dina läsare.
 
@@ -101,7 +102,7 @@ Källor:
 
 ## Quiz efter föreläsningen
 
-[Quiz efter föreläsningen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/33)
+## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Uppgift
 
@@ -110,4 +111,4 @@ Källor:
 ---
 
 **Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör det noteras att automatiserade översättningar kan innehålla fel eller brister. Det ursprungliga dokumentet på dess originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.
+Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör du vara medveten om att automatiska översättningar kan innehålla fel eller felaktigheter. Det ursprungliga dokumentet på dess ursprungliga språk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.

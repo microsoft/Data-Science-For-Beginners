@@ -1,13 +1,13 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "73dead89dc2ddda4d6ec0232814a191e",
-  "translation_date": "2025-08-26T22:16:57+00:00",
+  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
+  "translation_date": "2025-09-04T19:36:18+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "fi"
 }
 -->
-# Data Science pilvessä: "Azure ML SDK" -tapa
+# Data Science pilvessä: "Azure ML SDK" -menetelmä
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/19-DataScience-Cloud.png)|
 |:---:|
@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Sisällysluettelo:
 
-- [Data Science pilvessä: "Azure ML SDK" -tapa](../../../../5-Data-Science-In-Cloud/19-Azure)
+- [Data Science pilvessä: "Azure ML SDK" -menetelmä](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Ennakkokysely](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [1. Johdanto](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [1.1 Mikä on Azure ML SDK?](../../../../5-Data-Science-In-Cloud/19-Azure)
@@ -24,7 +24,7 @@ Sisällysluettelo:
     - [2.1 Azure ML -työtilan luominen](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.2 Laskentayksikön luominen](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.3 Datasetin lataaminen](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [2.4 Notebookien luominen](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [2.4 Muistikirjojen luominen](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.5 Mallin kouluttaminen](../../../../5-Data-Science-In-Cloud/19-Azure)
       - [2.5.1 Työtilan, kokeen, laskentaklusterin ja datasetin määrittäminen](../../../../5-Data-Science-In-Cloud/19-Azure)
       - [2.5.2 AutoML-konfiguraatio ja koulutus](../../../../5-Data-Science-In-Cloud/19-Azure)
@@ -33,7 +33,7 @@ Sisällysluettelo:
     - [3.2 Mallin käyttöönotto](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [3.3 Päätepisteen hyödyntäminen](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [🚀 Haaste](../../../../5-Data-Science-In-Cloud/19-Azure)
-  - [Loppukysely](../../../../5-Data-Science-In-Cloud/19-Azure)
+  - [Jälkikysely](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Kertaus ja itseopiskelu](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Tehtävä](../../../../5-Data-Science-In-Cloud/19-Azure)
 
@@ -45,17 +45,17 @@ Sisällysluettelo:
 
 Data-analyytikot ja tekoälykehittäjät käyttävät Azure Machine Learning SDK:ta rakentaakseen ja suorittaakseen koneoppimisen työnkulkuja Azure Machine Learning -palvelun avulla. Palvelua voi käyttää missä tahansa Python-ympäristössä, kuten Jupyter Notebooksissa, Visual Studio Codessa tai suosikkisi Python-IDE:ssä.
 
-SDK:n keskeiset alueet:
+SDK:n keskeiset osa-alueet:
 
 - Tutki, valmistele ja hallitse koneoppimiskokeiden datasetien elinkaarta.
 - Hallitse pilviresursseja koneoppimiskokeiden monitorointiin, lokitukseen ja organisointiin.
-- Kouluta malleja joko paikallisesti tai pilviresursseja käyttäen, mukaan lukien GPU-kiihdytetty mallikoulutus.
-- Käytä automatisoitua koneoppimista, joka hyväksyy konfiguraatioparametrit ja koulutusdatan. Se käy automaattisesti läpi algoritmeja ja hyperparametrien asetuksia löytääkseen parhaan mallin ennusteiden suorittamiseen.
+- Kouluta malleja joko paikallisesti tai pilviresursseja, kuten GPU-kiihdytettyä mallikoulutusta, hyödyntäen.
+- Käytä automatisoitua koneoppimista, joka ottaa vastaan konfiguraatioparametreja ja koulutusdataa. Se käy automaattisesti läpi algoritmeja ja hyperparametrien asetuksia löytääkseen parhaan mallin ennusteiden suorittamiseen.
 - Ota käyttöön verkkopalveluita, jotka muuntavat koulutetut mallisi RESTful-palveluiksi, joita voi käyttää missä tahansa sovelluksessa.
 
 [Lisätietoja Azure Machine Learning SDK:sta](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
-[Edellisessä oppitunnissa](../18-Low-Code/README.md) opimme, kuinka kouluttaa, ottaa käyttöön ja hyödyntää mallia Low code/No code -menetelmällä. Käytimme sydämen vajaatoiminnan datasettiä ennustemallin luomiseen. Tässä oppitunnissa teemme täsmälleen saman, mutta käyttäen Azure Machine Learning SDK:ta.
+[Edellisessä oppitunnissa](../18-Low-Code/README.md) opimme, kuinka kouluttaa, ottaa käyttöön ja hyödyntää mallia Low code/No code -menetelmällä. Käytimme sydämen vajaatoiminnan datasettiä ennustemallin luomiseen. Tässä oppitunnissa teemme täsmälleen saman, mutta käytämme Azure Machine Learning SDK:ta.
 
 ![projektikaavio](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.fi.png)
 
@@ -66,7 +66,7 @@ Katso [täältä](../18-Low-Code/README.md) sydämen vajaatoiminnan ennustamispr
 ## 2. Mallin kouluttaminen Azure ML SDK:lla
 ### 2.1 Azure ML -työtilan luominen
 
-Yksinkertaisuuden vuoksi työskentelemme jupyter-notebookissa. Tämä tarkoittaa, että sinulla on jo työtila ja laskentayksikkö. Jos sinulla on jo työtila, voit siirtyä suoraan kohtaan 2.3 Notebookien luominen.
+Yksinkertaisuuden vuoksi työskentelemme jupyter-muistikirjassa. Tämä tarkoittaa, että sinulla on jo työtila ja laskentayksikkö. Jos sinulla on jo työtila, voit siirtyä suoraan kohtaan 2.3 Muistikirjan luominen.
 
 Jos ei, seuraa ohjeita kohdassa **2.1 Azure ML -työtilan luominen** [edellisessä oppitunnissa](../18-Low-Code/README.md) luodaksesi työtilan.
 
@@ -76,37 +76,37 @@ Jos ei, seuraa ohjeita kohdassa **2.1 Azure ML -työtilan luominen** [edellisess
 
 ![laskentayksikkö-1](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.fi.png)
 
-Luodaan laskentayksikkö jupyter-notebookin käyttöä varten. 
+Luodaan laskentayksikkö jupyter-muistikirjan käyttöä varten. 
 1. Klikkaa + Uusi -painiketta. 
 2. Anna laskentayksikölle nimi.
 3. Valitse vaihtoehdot: CPU tai GPU, VM-koko ja ytimien määrä.
 4. Klikkaa Luo-painiketta.
 
-Onnittelut, olet juuri luonut laskentayksikön! Käytämme tätä laskentayksikköä notebookin luomiseen kohdassa [Notebookien luominen](../../../../5-Data-Science-In-Cloud/19-Azure).
+Onneksi olkoon, olet juuri luonut laskentayksikön! Käytämme tätä laskentayksikköä muistikirjan luomiseen kohdassa [Muistikirjojen luominen](../../../../5-Data-Science-In-Cloud/19-Azure).
 
 ### 2.3 Datasetin lataaminen
 Katso [edellinen oppitunti](../18-Low-Code/README.md) kohdasta **2.3 Datasetin lataaminen**, jos et ole vielä ladannut datasettiä.
 
-### 2.4 Notebookien luominen
+### 2.4 Muistikirjojen luominen
 
-> **_HUOM:_** Seuraavassa vaiheessa voit joko luoda uuden notebookin alusta alkaen tai ladata [luomamme notebookin](notebook.ipynb) Azure ML Studioosi. Lataamista varten klikkaa "Notebook"-valikkoa ja lataa notebook.
+> **_HUOM:_** Seuraavassa vaiheessa voit joko luoda uuden muistikirjan alusta alkaen tai ladata [luomamme muistikirjan](notebook.ipynb) Azure ML Studioosi. Lataamista varten klikkaa "Notebook"-valikkoa ja lataa muistikirja.
 
-Notebookit ovat erittäin tärkeä osa data-analytiikkaprosessia. Niitä voidaan käyttää tutkimaan dataa (EDA), kutsumaan laskentaklusteria mallin kouluttamiseen tai kutsumaan inferenssiklusteria päätepisteen käyttöönottoon.
+Muistikirjat ovat erittäin tärkeä osa data-analytiikan prosessia. Niitä voidaan käyttää tutkimaan dataa (EDA), kutsumaan laskentaklusteria mallin kouluttamiseen tai kutsumaan inferenssiklusteria päätepisteen käyttöönottoon.
 
-Notebookin luomiseen tarvitsemme laskentayksikön, joka palvelee jupyter-notebook-instanssia. Palaa [Azure ML -työtilaan](https://ml.azure.com/) ja klikkaa Laskentayksiköt. Laskentayksiköiden listassa pitäisi näkyä [aiemmin luomamme laskentayksikkö](../../../../5-Data-Science-In-Cloud/19-Azure). 
+Muistikirjan luomiseen tarvitsemme laskentayksikön, joka tarjoaa jupyter-muistikirjan. Palaa [Azure ML -työtilaan](https://ml.azure.com/) ja klikkaa Laskentayksiköt. Laskentayksiköiden listassa pitäisi näkyä [aiemmin luomamme laskentayksikkö](../../../../5-Data-Science-In-Cloud/19-Azure). 
 
 1. Sovellukset-osiossa klikkaa Jupyter-vaihtoehtoa. 
 2. Ruksaa "Kyllä, ymmärrän" -ruutu ja klikkaa Jatka-painiketta.
-![notebook-1](../../../../translated_images/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.fi.png)
-3. Tämä avaa uuden selaimen välilehden jupyter-notebook-instanssillasi. Klikkaa "Uusi"-painiketta luodaksesi notebookin.
+![muistikirja-1](../../../../translated_images/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.fi.png)
+3. Tämä avaa uuden selaimen välilehden jupyter-muistikirjallasi. Klikkaa "Uusi"-painiketta luodaksesi muistikirjan.
 
-![notebook-2](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.fi.png)
+![muistikirja-2](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.fi.png)
 
-Nyt kun meillä on notebook, voimme aloittaa mallin kouluttamisen Azure ML SDK:lla.
+Nyt kun meillä on muistikirja, voimme aloittaa mallin kouluttamisen Azure ML SDK:lla.
 
 ### 2.5 Mallin kouluttaminen
 
-Ensinnäkin, jos sinulla on epäilyksiä, viittaa [Azure ML SDK -dokumentaatioon](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). Se sisältää kaikki tarvittavat tiedot moduuleista, joita käsittelemme tässä oppitunnissa.
+Ensinnäkin, jos sinulla on epäselvyyksiä, katso [Azure ML SDK -dokumentaatio](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). Se sisältää kaikki tarvittavat tiedot moduuleista, joita käsittelemme tässä oppitunnissa.
 
 #### 2.5.1 Työtilan, kokeen, laskentaklusterin ja datasetin määrittäminen
 
@@ -117,16 +117,16 @@ from azureml.core import Workspace
 ws = Workspace.from_config()
 ```
 
-Tämä palauttaa `Workspace`-tyyppisen objektin, joka edustaa työtilaa. Sitten sinun täytyy luoda `experiment` seuraavalla koodilla:
+Tämä palauttaa `Workspace`-tyyppisen objektin, joka edustaa työtilaa. Seuraavaksi sinun täytyy luoda `experiment` seuraavalla koodilla:
 
 ```python
 from azureml.core import Experiment
 experiment_name = 'aml-experiment'
 experiment = Experiment(ws, experiment_name)
 ```
-Työtilasta voi hakea tai luoda kokeen kokeen nimen avulla. Kokeen nimi täytyy olla 3-36 merkkiä pitkä, alkaa kirjaimella tai numerolla, ja voi sisältää vain kirjaimia, numeroita, alaviivoja ja viivoja. Jos koetta ei löydy työtilasta, uusi koe luodaan.
+Työtilasta voi hakea tai luoda kokeen kokeen nimen avulla. Kokeen nimi täytyy olla 3-36 merkkiä pitkä, alkaa kirjaimella tai numerolla ja sisältää vain kirjaimia, numeroita, alaviivoja ja viivoja. Jos kokeen nimeä ei löydy työtilasta, uusi koe luodaan.
 
-Nyt sinun täytyy luoda laskentaklusteri koulutusta varten seuraavalla koodilla. Huomaa, että tämä vaihe voi kestää muutaman minuutin. 
+Seuraavaksi luodaan laskentaklusteri koulutusta varten seuraavalla koodilla. Huomaa, että tämä vaihe voi kestää muutaman minuutin. 
 
 ```python
 from azureml.core.compute import AmlCompute
@@ -145,7 +145,7 @@ cts = ws.compute_targets
 compute_target = cts[aml_name]
 ```
 
-Voit hakea datasetin työtilasta datasetin nimen avulla seuraavasti:
+Datasetin voi hakea työtilasta datasetin nimen avulla seuraavasti:
 
 ```python
 dataset = ws.datasets['heart-failure-records']
@@ -156,19 +156,19 @@ df.describe()
 
 AutoML-konfiguraation määrittämiseen käytetään [AutoMLConfig-luokkaa](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
-Kuten dokumentaatiossa kuvataan, konfiguraatiossa on paljon parametreja, joilla voit leikkiä. Tässä projektissa käytämme seuraavia parametreja:
+Kuten dokumentaatiossa kuvataan, konfiguraatiossa on paljon parametreja, joilla voi leikitellä. Tässä projektissa käytämme seuraavia parametreja:
 
 - `experiment_timeout_minutes`: Maksimiaika (minuuteissa), jonka koe saa kestää ennen automaattista pysäytystä ja tulosten saatavuutta.
 - `max_concurrent_iterations`: Maksimimäärä samanaikaisia koulutuskierroksia kokeessa.
 - `primary_metric`: Ensisijainen metriikka kokeen tilan määrittämiseen.
 - `compute_target`: Azure Machine Learning -laskentakohde, jossa automatisoitu koneoppimiskoe suoritetaan.
 - `task`: Suoritettavan tehtävän tyyppi. Arvot voivat olla 'classification', 'regression' tai 'forecasting' riippuen ratkaistavasta koneoppimisongelmasta.
-- `training_data`: Koulutusdata, jota käytetään kokeessa. Sen tulee sisältää sekä koulutusominaisuudet että label-sarake (valinnaisesti näytepainot-sarake).
+- `training_data`: Koulutusdata, jota käytetään kokeessa. Sen tulee sisältää sekä koulutusominaisuudet että label-sarake (valinnaisesti painotussarake).
 - `label_column_name`: Label-sarakkeen nimi.
 - `path`: Täydellinen polku Azure Machine Learning -projektikansioon.
-- `enable_early_stopping`: Ota käyttöön varhainen lopetus, jos tulos ei parane lyhyellä aikavälillä.
-- `featurization`: Indikaattori siitä, tehdäänkö featurointi automaattisesti vai ei, tai käytetäänkö mukautettua featurointia.
-- `debug_log`: Lokitiedosto, johon kirjoitetaan debug-tietoja.
+- `enable_early_stopping`: Ota käyttöön varhainen lopetus, jos tulokset eivät parane lyhyellä aikavälillä.
+- `featurization`: Indikaattori siitä, tehdäänkö featurointi automaattisesti vai käytetäänkö mukautettua featurointia.
+- `debug_log`: Lokitiedosto, johon kirjoitetaan debug-tiedot.
 
 ```python
 from azureml.train.automl import AutoMLConfig
@@ -192,7 +192,7 @@ automl_config = AutoMLConfig(compute_target=compute_target,
                              **automl_settings
                             )
 ```
-Kun konfiguraatio on asetettu, voit kouluttaa mallin seuraavalla koodilla. Tämä vaihe voi kestää jopa tunnin klusterin koosta riippuen.
+Kun konfiguraatio on määritetty, voit kouluttaa mallin seuraavalla koodilla. Tämä vaihe voi kestää jopa tunnin klusterin koosta riippuen.
 
 ```python
 remote_run = experiment.submit(automl_config)
@@ -206,12 +206,12 @@ RunDetails(remote_run).show()
 
 ### 3.1 Parhaan mallin tallentaminen
 
-`remote_run` on [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)-tyyppinen objekti. Tämä objekti sisältää `get_output()`-metodin, joka palauttaa parhaan ajon ja vastaavan sovitetun mallin.
+`remote_run` on [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)-tyyppinen objekti. Tämä objekti sisältää `get_output()`-metodin, joka palauttaa parhaan kokeen ja vastaavan sovitetun mallin.
 
 ```python
 best_run, fitted_model = remote_run.get_output()
 ```
-Voit nähdä parhaan mallin käytetyt parametrit tulostamalla fitted_modelin ja tarkastella parhaan mallin ominaisuuksia käyttämällä [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)-metodia.
+Voit tarkastella parhaan mallin parametreja tulostamalla fitted_modelin ja nähdä mallin ominaisuudet käyttämällä [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)-metodia.
 
 ```python
 best_run.get_properties()
@@ -230,7 +230,7 @@ model = best_run.register_model(model_name = model_name,
 ```
 ### 3.2 Mallin käyttöönotto
 
-Kun paras malli on tallennettu, voimme ottaa sen käyttöön [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109)-luokan avulla. InferenceConfig edustaa konfiguraatioasetuksia mukautetulle ympäristölle, jota käytetään käyttöönotossa. [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py)-luokka edustaa koneoppimismallia, joka on otettu käyttöön verkkopalvelupäätepisteenä Azure Container Instancesissa. Käyttöön otettu palvelu luodaan mallista, skriptistä ja siihen liittyvistä tiedostoista. Tuloksena oleva verkkopalvelu on kuormantasattu HTTP-päätepiste REST-API:lla. Voit lähettää dataa tähän API:iin ja saada mallin palauttaman ennusteen.
+Kun paras malli on tallennettu, voimme ottaa sen käyttöön [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109)-luokan avulla. InferenceConfig edustaa konfiguraatioasetuksia mukautetulle ympäristölle, jota käytetään käyttöönotossa. [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py)-luokka edustaa koneoppimismallia, joka on otettu käyttöön verkkopalvelupäätepisteenä Azure Container Instancesissa. Käyttöön otettu palvelu luodaan mallista, skriptistä ja siihen liittyvistä tiedostoista. Tuloksena oleva verkkopalvelu on kuormitusta tasapainottava HTTP-päätepiste, jossa on REST API. Voit lähettää dataa tähän API:iin ja saada mallin palauttaman ennusteen.
 
 Malli otetaan käyttöön [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)-metodilla.
 
@@ -254,7 +254,7 @@ Tämä vaihe voi kestää muutaman minuutin.
 
 ### 3.3 Päätepisteen hyödyntäminen
 
-Voit hyödyntää päätepistettä luomalla näytesyötteen:
+Voit hyödyntää päätepistettä luomalla näytedatan:
 
 ```python
 data = {
@@ -279,11 +279,11 @@ data = {
 
 test_sample = str.encode(json.dumps(data))
 ```
-Ja sitten voit lähettää tämän syötteen mallillesi ennustetta varten:
+Ja lähettämällä tämän datan mallillesi ennustetta varten:
 ```python
 response = aci_service.run(input_data=test_sample)
 response
-```  
+```
 Tämän pitäisi tuottaa `'{"result": [false]}'`. Tämä tarkoittaa, että lähettämämme potilastieto tuotti ennusteen `false`, mikä tarkoittaa, että tämän henkilön sydänkohtauksen riski on epätodennäköinen.
 
 Onnittelut! Olet juuri käyttänyt Azure ML:ssä koulutettua ja julkaistua mallia Azure ML SDK:n avulla!
@@ -292,21 +292,21 @@ Onnittelut! Olet juuri käyttänyt Azure ML:ssä koulutettua ja julkaistua malli
 
 ## 🚀 Haaste
 
-SDK:n avulla voi tehdä paljon muutakin, mutta valitettavasti emme voi käydä kaikkea läpi tässä oppitunnissa. Hyvä uutinen on, että oppimalla selaamaan SDK-dokumentaatiota pääset pitkälle omatoimisesti. Tutustu Azure ML SDK -dokumentaatioon ja etsi `Pipeline`-luokka, jonka avulla voit luoda työnkulkuja. Pipeline on kokoelma vaiheita, jotka voidaan suorittaa yhtenäisenä prosessina.
+SDK:n avulla voi tehdä paljon muutakin, mutta valitettavasti emme voi käydä kaikkea läpi tässä oppitunnissa. Hyvä uutinen on, että SDK-dokumentaation selaamisen oppiminen voi viedä sinut pitkälle omatoimisesti. Tutustu Azure ML SDK -dokumentaatioon ja etsi `Pipeline`-luokka, joka mahdollistaa putkistojen luomisen. Putkisto on kokoelma vaiheita, jotka voidaan suorittaa työnkulun muodossa.
 
-**VIHJE:** Mene [SDK-dokumentaatioon](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) ja kirjoita hakukenttään avainsanoja, kuten "Pipeline". Hakutuloksista pitäisi löytyä `azureml.pipeline.core.Pipeline`-luokka.
+**VINKKI:** Mene [SDK-dokumentaatioon](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) ja kirjoita hakukenttään avainsanoja, kuten "Pipeline". Hakutuloksista pitäisi löytyä `azureml.pipeline.core.Pipeline`-luokka.
 
-## [Oppitunnin jälkeinen kysely](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/37)
+## [Oppitunnin jälkeinen kysely](https://ff-quizzes.netlify.app/en/ds/)
 
-## Kertaus ja itseopiskelu
+## Kertaus & Itseopiskelu
 
-Tässä oppitunnissa opit, kuinka kouluttaa, julkaista ja käyttää mallia sydämen vajaatoiminnan riskin ennustamiseen Azure ML SDK:n avulla pilvessä. Katso tämä [dokumentaatio](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) saadaksesi lisätietoa Azure ML SDK:sta. Kokeile luoda oma malli Azure ML SDK:n avulla.
+Tässä oppitunnissa opit, kuinka kouluttaa, julkaista ja käyttää mallia sydämen vajaatoiminnan riskin ennustamiseen Azure ML SDK:n avulla pilvessä. Katso tämä [dokumentaatio](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) saadaksesi lisätietoa Azure ML SDK:sta. Kokeile luoda oma mallisi Azure ML SDK:n avulla.
 
 ## Tehtävä
 
-[Data Science -projekti Azure ML SDK:ta käyttäen](assignment.md)
+[Data Science -projekti Azure ML SDK:lla](assignment.md)
 
 ---
 
 **Vastuuvapauslauseke**:  
-Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulisi pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa tämän käännöksen käytöstä johtuvista väärinkäsityksistä tai virhetulkinnoista.
+Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulisi pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa väärinkäsityksistä tai virhetulkinnoista, jotka johtuvat tämän käännöksen käytöstä.

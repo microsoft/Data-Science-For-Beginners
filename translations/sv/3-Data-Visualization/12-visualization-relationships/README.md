@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "cad419b574d5c35eaa417e9abfdcb0c8",
-  "translation_date": "2025-08-26T22:53:00+00:00",
+  "original_hash": "b29e427401499e81f4af55a8c4afea76",
+  "translation_date": "2025-09-04T19:05:04+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "sv"
 }
@@ -13,19 +13,19 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Visualisera relationer - _Sketchnote av [@nitya](https://twitter.com/nitya)_ |
 
-Fortsätt med naturfokuset i vår forskning och upptäck intressanta visualiseringar för att visa relationerna mellan olika typer av honung, baserat på en dataset från [United States Department of Agriculture](https://www.nass.usda.gov/About_NASS/index.php).
+Fortsätt med naturfokuset i vår forskning och upptäck intressanta visualiseringar för att visa relationerna mellan olika typer av honung, baserat på en dataset från [United States Department of Agriculture](https://www.nass.usda.gov/About_NASS/index.php). 
 
-Denna dataset, som innehåller cirka 600 poster, visar honungsproduktionen i många amerikanska delstater. Till exempel kan du undersöka antalet bisamhällen, avkastning per samhälle, total produktion, lager, pris per pound och värdet av den producerade honungen i en viss delstat från 1998-2012, med en rad per år för varje delstat.
+Denna dataset med cirka 600 poster visar honungsproduktion i många amerikanska delstater. Du kan till exempel se antalet kolonier, avkastning per koloni, total produktion, lager, pris per pund och värdet av den producerade honungen i en given delstat från 1998-2012, med en rad per år för varje delstat. 
 
-Det kan vara intressant att visualisera relationen mellan en viss delstats produktion per år och till exempel priset på honung i den delstaten. Alternativt kan du visualisera relationen mellan delstaternas honungsavkastning per samhälle. Denna tidsperiod täcker den förödande 'CCD' eller 'Colony Collapse Disorder', som först observerades 2006 (http://npic.orst.edu/envir/ccd.html), vilket gör detta till en tankeväckande dataset att studera. 🐝
+Det kan vara intressant att visualisera relationen mellan en given delstats produktion per år och till exempel priset på honung i den delstaten. Alternativt kan du visualisera relationen mellan delstaternas honungsavkastning per koloni. Denna tidsperiod täcker den förödande 'CCD' eller 'Colony Collapse Disorder' som först observerades 2006 (http://npic.orst.edu/envir/ccd.html), vilket gör det till en gripande dataset att studera. 🐝
 
 ## [Quiz före lektionen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/22)
 
-I denna lektion kan du använda Seaborn, som du har använt tidigare, som ett bra bibliotek för att visualisera relationer mellan variabler. Särskilt intressant är användningen av Seaborns `relplot`-funktion, som möjliggör scatterplots och linjediagram för att snabbt visualisera '[statistiska relationer](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', vilket hjälper dataforskare att bättre förstå hur variabler relaterar till varandra.
+I denna lektion kan du använda Seaborn, som du har använt tidigare, som ett bra bibliotek för att visualisera relationer mellan variabler. Särskilt intressant är användningen av Seaborns `relplot`-funktion som möjliggör spridningsdiagram och linjediagram för att snabbt visualisera '[statistiska relationer](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', vilket hjälper dataforskaren att bättre förstå hur variabler relaterar till varandra.
 
-## Scatterplots
+## Spridningsdiagram
 
-Använd ett scatterplot för att visa hur priset på honung har utvecklats år för år per delstat. Seaborn, med hjälp av `relplot`, grupperar bekvämt delstatsdata och visar datapunkter för både kategoriska och numeriska data.
+Använd ett spridningsdiagram för att visa hur priset på honung har utvecklats år för år, per delstat. Seaborn, med hjälp av `relplot`, grupperar bekvämt delstatsdata och visar datapunkter för både kategoriska och numeriska data. 
 
 Låt oss börja med att importera data och Seaborn:
 
@@ -36,7 +36,7 @@ import seaborn as sns
 honey = pd.read_csv('../../data/honey.csv')
 honey.head()
 ```
-Du märker att honungsdatan har flera intressanta kolumner, inklusive år och pris per pound. Låt oss utforska denna data, grupperad efter amerikansk delstat:
+Du märker att honungsdatan har flera intressanta kolumner, inklusive år och pris per pund. Låt oss utforska denna data, grupperad efter amerikansk delstat:
 
 | state | numcol | yieldpercol | totalprod | stocks   | priceperlb | prodvalue | year |
 | ----- | ------ | ----------- | --------- | -------- | ---------- | --------- | ---- |
@@ -46,23 +46,23 @@ Du märker att honungsdatan har flera intressanta kolumner, inklusive år och pr
 | CA    | 450000 | 83          | 37350000  | 12326000 | 0.62       | 23157000  | 1998 |
 | CO    | 27000  | 72          | 1944000   | 1594000  | 0.7        | 1361000   | 1998 |
 
-Skapa ett grundläggande scatterplot för att visa relationen mellan priset per pound honung och dess ursprungsdelstat i USA. Gör `y`-axeln tillräckligt hög för att visa alla delstater:
+Skapa ett grundläggande spridningsdiagram för att visa relationen mellan priset per pund honung och dess ursprungsdelstat i USA. Gör `y`-axeln tillräckligt hög för att visa alla delstater:
 
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.sv.png)
+![spridningsdiagram 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.sv.png)
 
-Visa nu samma data med ett honungsfärgat tema för att visa hur priset utvecklas över åren. Du kan göra detta genom att lägga till en 'hue'-parameter för att visa förändringen år för år:
+Visa nu samma data med ett honungsfärgschema för att visa hur priset utvecklas över åren. Du kan göra detta genom att lägga till en 'hue'-parameter för att visa förändringen år för år:
 
-> ✅ Läs mer om de [färgpaletter du kan använda i Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) - prova ett vackert regnbågstema!
+> ✅ Läs mer om [färgpaletter du kan använda i Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) - prova ett vackert regnbågsfärgschema!
 
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.sv.png)
+![spridningsdiagram 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.sv.png)
 
-Med denna färgändring kan du tydligt se en stark progression över åren när det gäller priset på honung per pound. Om du tittar på ett urval av data för att verifiera (välj en viss delstat, till exempel Arizona) kan du se ett mönster av prisökningar år för år, med få undantag:
+Med denna färgschemaförändring kan du tydligt se en stark utveckling över åren när det gäller honungspriset per pund. Faktum är att om du tittar på ett urval i datan för att verifiera (välj en given delstat, till exempel Arizona) kan du se ett mönster av prisökningar år för år, med få undantag:
 
 | state | numcol | yieldpercol | totalprod | stocks  | priceperlb | prodvalue | year |
 | ----- | ------ | ----------- | --------- | ------- | ---------- | --------- | ---- |
@@ -82,51 +82,51 @@ Med denna färgändring kan du tydligt se en stark progression över åren när 
 | AZ    | 23000  | 53          | 1219000   | 427000  | 1.55       | 1889000   | 2011 |
 | AZ    | 22000  | 46          | 1012000   | 253000  | 1.79       | 1811000   | 2012 |
 
-Ett annat sätt att visualisera denna progression är att använda storlek istället för färg. För färgblinda användare kan detta vara ett bättre alternativ. Ändra din visualisering för att visa en ökning av priset genom en ökning av punktens omkrets:
+Ett annat sätt att visualisera denna utveckling är att använda storlek istället för färg. För färgblinda användare kan detta vara ett bättre alternativ. Redigera din visualisering för att visa en ökning av priset genom en ökning av punktens omkrets:
 
 ```python
 sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspect=.5);
 ```
 Du kan se att storleken på punkterna gradvis ökar.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.sv.png)
+![spridningsdiagram 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.sv.png)
 
-Är detta ett enkelt fall av utbud och efterfrågan? På grund av faktorer som klimatförändringar och kollaps av bisamhällen, finns det mindre honung tillgänglig för köp år för år, och därmed ökar priset?
+Är detta ett enkelt fall av utbud och efterfrågan? På grund av faktorer som klimatförändringar och kollaps av kolonier, finns det mindre honung tillgänglig för köp år för år, och därför ökar priset?
 
 För att upptäcka en korrelation mellan några av variablerna i denna dataset, låt oss utforska några linjediagram.
 
 ## Linjediagram
 
-Fråga: Finns det en tydlig ökning av priset på honung per pound år för år? Du kan enklast upptäcka det genom att skapa ett enda linjediagram:
+Fråga: Finns det en tydlig ökning av priset på honung per pund år för år? Du kan enklast upptäcka detta genom att skapa ett enda linjediagram:
 
 ```python
 sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Svar: Ja, med vissa undantag runt år 2003:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.sv.png)
+![linjediagram 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.sv.png)
 
-✅ Eftersom Seaborn aggregerar data runt en linje, visar den "de flera mätningarna vid varje x-värde genom att plotta medelvärdet och 95 % konfidensintervallet runt medelvärdet". [Källa](https://seaborn.pydata.org/tutorial/relational.html). Detta tidskrävande beteende kan inaktiveras genom att lägga till `ci=None`.
+✅ Eftersom Seaborn aggregerar data runt en linje, visar det "de flera mätningarna vid varje x-värde genom att plotta medelvärdet och 95% konfidensintervallet runt medelvärdet". [Källa](https://seaborn.pydata.org/tutorial/relational.html). Detta tidskrävande beteende kan inaktiveras genom att lägga till `ci=None`.
 
-Fråga: Kan vi också se en topp i honungstillgången runt 2003? Vad händer om du tittar på den totala produktionen år för år?
+Fråga: Kan vi också se en topp i honungstillgången runt 2003? Vad händer om du tittar på total produktion år för år?
 
 ```python
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.sv.png)
+![linjediagram 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.sv.png)
 
-Svar: Inte riktigt. Om du tittar på den totala produktionen verkar den faktiskt ha ökat det året, även om mängden producerad honung generellt sett minskar under dessa år.
+Svar: Inte riktigt. Om du tittar på total produktion verkar det faktiskt ha ökat det året, även om mängden honung som produceras generellt sett minskar under dessa år.
 
-Fråga: I så fall, vad kan ha orsakat prisökningen på honung runt 2003?
+Fråga: I så fall, vad kan ha orsakat den prisökningen på honung runt 2003? 
 
 För att upptäcka detta kan du utforska ett facet grid.
 
 ## Facet grids
 
-Facet grids tar en aspekt av din dataset (i vårt fall kan du välja 'år' för att undvika att för många facetter skapas). Seaborn kan sedan skapa en plot för var och en av dessa facetter av dina valda x- och y-koordinater för enklare visuell jämförelse. Står 2003 ut i denna typ av jämförelse?
+Facet grids tar en aspekt av din dataset (i vårt fall kan du välja 'year' för att undvika att skapa för många facetter). Seaborn kan sedan skapa en plot för varje av dessa facetter av dina valda x- och y-koordinater för enklare visuell jämförelse. Sticker 2003 ut i denna typ av jämförelse?
 
-Skapa ett facet grid genom att fortsätta använda `relplot` som rekommenderas av [Seaborns dokumentation](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid).
+Skapa ett facet grid genom att fortsätta använda `relplot` som rekommenderas av [Seaborns dokumentation](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid). 
 
 ```python
 sns.relplot(
@@ -136,15 +136,15 @@ sns.relplot(
     col_wrap=3,
     kind="line"
 ```
-I denna visualisering kan du jämföra avkastning per samhälle och antal samhällen år för år, sida vid sida med en wrap inställd på 3 för kolumnerna:
+I denna visualisering kan du jämföra avkastning per koloni och antal kolonier år för år, sida vid sida med en wrap inställd på 3 för kolumnerna:
 
 ![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.sv.png)
 
-För denna dataset står inget särskilt ut när det gäller antalet samhällen och deras avkastning, år för år och delstat för delstat. Finns det ett annat sätt att hitta en korrelation mellan dessa två variabler?
+För denna dataset sticker inget särskilt ut när det gäller antalet kolonier och deras avkastning, år för år och delstat för delstat. Finns det ett annat sätt att hitta en korrelation mellan dessa två variabler?
 
 ## Dubbel-linjediagram
 
-Prova ett flerlindjediagram genom att lägga två linjediagram ovanpå varandra, använd Seaborns 'despine' för att ta bort deras övre och högra axlar, och använd `ax.twinx` [hämtat från Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx tillåter ett diagram att dela x-axeln och visa två y-axlar. Visa avkastning per samhälle och antal samhällen, överlagrade:
+Prova ett flerlinjediagram genom att lägga två linjediagram ovanpå varandra, använda Seaborns 'despine' för att ta bort deras övre och högra spines, och använda `ax.twinx` [härledd från Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx tillåter ett diagram att dela x-axeln och visa två y-axlar. Visa avkastning per koloni och antal kolonier, överlagrade:
 
 ```python
 fig, ax = plt.subplots(figsize=(12,6))
@@ -161,26 +161,27 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.sv.png)
+![överlagrade diagram](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.sv.png)
 
-Även om inget särskilt sticker ut runt år 2003, låter det oss avsluta denna lektion på en lite gladare not: även om antalet samhällen totalt sett minskar, stabiliseras antalet samhällen även om deras avkastning per samhälle minskar.
+Även om inget särskilt sticker ut runt år 2003, låter det oss avsluta denna lektion på en lite gladare ton: även om det totalt sett är ett minskande antal kolonier, stabiliseras antalet kolonier även om deras avkastning per koloni minskar.
 
-Heja bina!
+Heja bina, heja!
 
 🐝❤️
 ## 🚀 Utmaning
 
-I denna lektion lärde du dig lite mer om andra användningar av scatterplots och linjenät, inklusive facet grids. Utmana dig själv att skapa ett facet grid med en annan dataset, kanske en du använde tidigare i dessa lektioner. Notera hur lång tid de tar att skapa och hur du behöver vara försiktig med hur många grids du behöver rita med dessa tekniker.
-## [Quiz efter lektionen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/23)
+I denna lektion lärde du dig lite mer om andra användningar av spridningsdiagram och linjediagram, inklusive facet grids. Utmana dig själv att skapa ett facet grid med en annan dataset, kanske en du använde tidigare i dessa lektioner. Notera hur lång tid det tar att skapa och hur du behöver vara försiktig med hur många grids du behöver rita med dessa tekniker.
+
+## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Granskning & Självstudier
 
-Linjediagram kan vara enkla eller ganska komplexa. Läs lite i [Seaborns dokumentation](https://seaborn.pydata.org/generated/seaborn.lineplot.html) om de olika sätten du kan bygga dem. Försök att förbättra de linjediagram du byggde i denna lektion med andra metoder som listas i dokumentationen.
+Linjediagram kan vara enkla eller ganska komplexa. Läs lite i [Seaborns dokumentation](https://seaborn.pydata.org/generated/seaborn.lineplot.html) om de olika sätten du kan bygga dem. Försök förbättra de linjediagram du byggde i denna lektion med andra metoder som listas i dokumentationen.
 ## Uppgift
 
-[Dyk in i bikupan](assignment.md)
+[Utforska bikupan](assignment.md)
 
 ---
 
 **Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör du vara medveten om att automatiserade översättningar kan innehålla fel eller felaktigheter. Det ursprungliga dokumentet på dess ursprungliga språk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.
+Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör du vara medveten om att automatiserade översättningar kan innehålla fel eller felaktigheter. Det ursprungliga dokumentet på dess originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.

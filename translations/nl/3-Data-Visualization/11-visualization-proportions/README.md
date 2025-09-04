@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "af6a12015c6e250e500b570a9fa42593",
-  "translation_date": "2025-08-28T15:37:11+00:00",
+  "original_hash": "cc490897ee2d276870472bcb31602d03",
+  "translation_date": "2025-09-04T19:55:15+00:00",
   "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
   "language_code": "nl"
 }
@@ -13,17 +13,17 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Visualiseren van Verhoudingen - _Sketchnote door [@nitya](https://twitter.com/nitya)_ |
 
-In deze les gebruik je een dataset met een focus op de natuur om verhoudingen te visualiseren, zoals hoeveel verschillende soorten paddenstoelen voorkomen in een gegeven dataset over champignons. Laten we deze fascinerende schimmels verkennen met behulp van een dataset van Audubon, die details bevat over 23 soorten plaatjeszwammen in de Agaricus- en Lepiota-families. Je gaat experimenteren met smakelijke visualisaties zoals:
+In deze les gebruik je een dataset met een focus op de natuur om verhoudingen te visualiseren, zoals hoeveel verschillende soorten schimmels voorkomen in een dataset over paddenstoelen. Laten we deze fascinerende schimmels verkennen met behulp van een dataset van Audubon, die details bevat over 23 soorten plaatjeszwammen in de Agaricus- en Lepiota-families. Je gaat experimenteren met smakelijke visualisaties zoals:
 
 - Taartdiagrammen 🥧  
 - Donutdiagrammen 🍩  
-- Waffeldiagrammen 🧇  
+- Wafeldiagrammen 🧇  
 
-> 💡 Een heel interessant project genaamd [Charticulator](https://charticulator.com) van Microsoft Research biedt een gratis drag-and-drop-interface voor datavisualisaties. In een van hun tutorials gebruiken ze ook deze champignondataset! Zo kun je de data verkennen en tegelijkertijd de bibliotheek leren kennen: [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html).
+> 💡 Een heel interessant project genaamd [Charticulator](https://charticulator.com) van Microsoft Research biedt een gratis drag-and-drop-interface voor datavisualisaties. In een van hun tutorials gebruiken ze ook deze paddenstoelendataset! Zo kun je de data verkennen en tegelijkertijd de bibliotheek leren kennen: [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Quiz voorafgaand aan de les](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/20)
+## [Quiz na de les](https://ff-quizzes.netlify.app/en/ds/)
 
-## Leer je champignons kennen 🍄
+## Leer je paddenstoelen kennen 🍄
 
 Paddenstoelen zijn erg interessant. Laten we een dataset importeren om ze te bestuderen:
 
@@ -33,7 +33,7 @@ import matplotlib.pyplot as plt
 mushrooms = pd.read_csv('../../data/mushrooms.csv')
 mushrooms.head()
 ```  
-Een tabel wordt weergegeven met geweldige gegevens voor analyse:
+Een tabel wordt weergegeven met geweldige data voor analyse:
 
 | class     | cap-shape | cap-surface | cap-color | bruises | odor    | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | stalk-root | stalk-surface-above-ring | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
 | --------- | --------- | ----------- | --------- | ------- | ------- | --------------- | ------------ | --------- | ---------- | ----------- | ---------- | ------------------------ | ------------------------ | ---------------------- | ---------------------- | --------- | ---------- | ----------- | --------- | ----------------- | ---------- | ------- |
@@ -42,7 +42,7 @@ Een tabel wordt weergegeven met geweldige gegevens voor analyse:
 | Eetbaar   | Bell      | Smooth      | White     | Bruises | Anise   | Free            | Close        | Broad     | Brown      | Enlarging   | Club       | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Brown             | Numerous   | Meadows |
 | Giftig    | Convex    | Scaly       | White     | Bruises | Pungent | Free            | Close        | Narrow    | Brown      | Enlarging   | Equal      | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Black             | Scattered  | Urban   |
 
-Je merkt meteen dat alle gegevens tekstueel zijn. Je zult deze gegevens moeten omzetten om ze in een diagram te kunnen gebruiken. De meeste gegevens worden zelfs weergegeven als een object:
+Je merkt meteen dat alle data tekstueel is. Je zult deze data moeten converteren om het in een diagram te kunnen gebruiken. De meeste data is namelijk als een object weergegeven:
 
 ```python
 print(mushrooms.select_dtypes(["object"]).columns)
@@ -59,7 +59,7 @@ Index(['class', 'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor',
        'ring-type', 'spore-print-color', 'population', 'habitat'],
       dtype='object')
 ```  
-Neem deze gegevens en converteer de 'class'-kolom naar een categorie:
+Converteer deze data en zet de 'class'-kolom om naar een categorie:
 
 ```python
 cols = mushrooms.select_dtypes(["object"]).columns
@@ -71,7 +71,7 @@ edibleclass=mushrooms.groupby(['class']).count()
 edibleclass
 ```  
 
-Als je nu de champignongegevens afdrukt, zie je dat ze zijn gegroepeerd in categorieën op basis van de giftige/eetbare klasse:
+Als je nu de paddenstoelendata afdrukt, zie je dat deze is gegroepeerd in categorieën op basis van de giftige/eetbare klasse:
 
 |           | cap-shape | cap-surface | cap-color | bruises | odor | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | ... | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
 | --------- | --------- | ----------- | --------- | ------- | ---- | --------------- | ------------ | --------- | ---------- | ----------- | --- | ------------------------ | ---------------------- | ---------------------- | --------- | ---------- | ----------- | --------- | ----------------- | ---------- | ------- |
@@ -79,7 +79,7 @@ Als je nu de champignongegevens afdrukt, zie je dat ze zijn gegroepeerd in categ
 | Eetbaar   | 4208      | 4208        | 4208      | 4208    | 4208 | 4208            | 4208         | 4208      | 4208       | 4208        | ... | 4208                     | 4208                   | 4208                   | 4208      | 4208       | 4208        | 4208      | 4208              | 4208       | 4208    |
 | Giftig    | 3916      | 3916        | 3916      | 3916    | 3916 | 3916            | 3916         | 3916      | 3916       | 3916        | ... | 3916                     | 3916                   | 3916                   | 3916      | 3916       | 3916        | 3916      | 3916              | 3916       | 3916    |
 
-Als je de volgorde in deze tabel aanhoudt om je klassenlabels te maken, kun je een taartdiagram maken:
+Als je de volgorde in deze tabel aanhoudt om je klassenlabels te maken, kun je een taartdiagram bouwen:
 
 ## Taart!
 
@@ -89,21 +89,21 @@ plt.pie(edibleclass['population'],labels=labels,autopct='%.1f %%')
 plt.title('Edible?')
 plt.show()
 ```  
-Voila, een taartdiagram dat de verhoudingen van deze gegevens laat zien volgens deze twee klassen van champignons. Het is erg belangrijk om de volgorde van de labels correct te krijgen, vooral hier, dus controleer de volgorde waarmee de labelarray is opgebouwd!
+Voilà, een taartdiagram dat de verhoudingen van deze data toont volgens de twee klassen van paddenstoelen. Het is erg belangrijk om de volgorde van de labels correct te krijgen, vooral hier, dus controleer de volgorde waarmee de labelarray is opgebouwd!
 
 ![taartdiagram](../../../../translated_images/pie1-wb.e201f2fcc335413143ce37650fb7f5f0bb21358e7823a327ed8644dfb84be9db.nl.png)
 
 ## Donuts!
 
-Een iets visueel interessanter taartdiagram is een donutdiagram, wat een taartdiagram is met een gat in het midden. Laten we onze gegevens op deze manier bekijken.
+Een iets visueel interessanter taartdiagram is een donutdiagram, een taartdiagram met een gat in het midden. Laten we onze data op deze manier bekijken.
 
-Bekijk de verschillende habitats waar champignons groeien:
+Bekijk de verschillende habitats waar paddenstoelen groeien:
 
 ```python
 habitat=mushrooms.groupby(['habitat']).count()
 habitat
 ```  
-Hier groepeer je je gegevens op habitat. Er zijn er 7 vermeld, dus gebruik die als labels voor je donutdiagram:
+Hier groepeer je je data op habitat. Er zijn er 7 vermeld, dus gebruik deze als labels voor je donutdiagram:
 
 ```python
 labels=['Grasses','Leaves','Meadows','Paths','Urban','Waste','Wood']
@@ -127,24 +127,24 @@ Deze code tekent een diagram en een cirkel in het midden, en voegt die cirkel to
 
 Donutdiagrammen kunnen op verschillende manieren worden aangepast om de labels te wijzigen. De labels kunnen bijvoorbeeld worden benadrukt voor betere leesbaarheid. Lees meer in de [documentatie](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
 
-Nu je weet hoe je je gegevens kunt groeperen en weergeven als een taart- of donutdiagram, kun je andere soorten diagrammen verkennen. Probeer een waffeldiagram, wat gewoon een andere manier is om hoeveelheden te verkennen.
+Nu je weet hoe je je data kunt groeperen en weergeven als een taart- of donutdiagram, kun je andere soorten diagrammen verkennen. Probeer een wafeldiagram, een andere manier om hoeveelheden te visualiseren.
 
 ## Wafels!
 
-Een 'waffel'-type diagram is een andere manier om hoeveelheden te visualiseren als een 2D-array van vierkanten. Probeer de verschillende hoeveelheden hoedkleuren van champignons in deze dataset te visualiseren. Hiervoor moet je een hulpbibliotheek genaamd [PyWaffle](https://pypi.org/project/pywaffle/) installeren en Matplotlib gebruiken:
+Een 'wafel'-type diagram is een andere manier om hoeveelheden te visualiseren als een 2D-array van vierkanten. Probeer de verschillende hoeveelheden hoedkleuren van paddenstoelen in deze dataset te visualiseren. Hiervoor moet je een hulpbibliotheek genaamd [PyWaffle](https://pypi.org/project/pywaffle/) installeren en Matplotlib gebruiken:
 
 ```python
 pip install pywaffle
 ```  
 
-Selecteer een segment van je gegevens om te groeperen:
+Selecteer een segment van je data om te groeperen:
 
 ```python
 capcolor=mushrooms.groupby(['cap-color']).count()
 capcolor
 ```  
 
-Maak een waffeldiagram door labels te maken en vervolgens je gegevens te groeperen:
+Maak een wafeldiagram door labels te maken en vervolgens je data te groeperen:
 
 ```python
 import pandas as pd
@@ -167,13 +167,13 @@ fig = plt.figure(
 )
 ```  
 
-Met een waffeldiagram kun je duidelijk de verhoudingen van hoedkleuren in deze champignondataset zien. Interessant genoeg zijn er veel champignons met groene hoeden!
+Met een wafeldiagram kun je duidelijk de verhoudingen van hoedkleuren in deze paddenstoelendataset zien. Interessant genoeg zijn er veel paddenstoelen met groene hoeden!
 
-![waffeldiagram](../../../../translated_images/waffle.5455dbae4ccf17d53bb40ff0a657ecef7b8aa967e27a19cc96325bd81598f65e.nl.png)
+![wafeldiagram](../../../../translated_images/waffle.5455dbae4ccf17d53bb40ff0a657ecef7b8aa967e27a19cc96325bd81598f65e.nl.png)
 
-✅ PyWaffle ondersteunt iconen binnen de diagrammen die elk pictogram gebruiken dat beschikbaar is in [Font Awesome](https://fontawesome.com/). Experimenteer om een nog interessanter waffeldiagram te maken met iconen in plaats van vierkanten.
+✅ PyWaffle ondersteunt iconen binnen de diagrammen die elk pictogram gebruiken dat beschikbaar is in [Font Awesome](https://fontawesome.com/). Experimenteer om een nog interessanter wafeldiagram te maken met iconen in plaats van vierkanten.
 
-In deze les heb je drie manieren geleerd om verhoudingen te visualiseren. Eerst moet je je gegevens groeperen in categorieën en vervolgens beslissen wat de beste manier is om de gegevens weer te geven - taart, donut of wafel. Allemaal zijn ze heerlijk en geven de gebruiker direct een overzicht van een dataset.
+In deze les heb je drie manieren geleerd om verhoudingen te visualiseren. Eerst groepeer je je data in categorieën en bepaal je vervolgens welke manier het beste is om de data weer te geven - taart, donut of wafel. Allemaal zijn ze smakelijk en geven de gebruiker direct een overzicht van een dataset.
 
 ## 🚀 Uitdaging
 
@@ -182,7 +182,7 @@ Probeer deze smakelijke diagrammen opnieuw te maken in [Charticulator](https://c
 
 ## Herziening & Zelfstudie
 
-Soms is het niet duidelijk wanneer je een taart-, donut- of waffeldiagram moet gebruiken. Hier zijn enkele artikelen om te lezen over dit onderwerp:
+Soms is het niet duidelijk wanneer je een taart-, donut- of wafeldiagram moet gebruiken. Hier zijn enkele artikelen om hierover te lezen:
 
 https://www.beautiful.ai/blog/battle-of-the-charts-pie-chart-vs-donut-chart  
 
@@ -201,4 +201,4 @@ Doe wat onderzoek om meer informatie te vinden over deze lastige keuze.
 ---
 
 **Disclaimer**:  
-Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, willen we u erop wijzen dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor kritieke informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.
+Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.

@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "af6a12015c6e250e500b570a9fa42593",
-  "translation_date": "2025-08-28T18:39:34+00:00",
+  "original_hash": "cc490897ee2d276870472bcb31602d03",
+  "translation_date": "2025-09-04T20:36:38+00:00",
   "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
   "language_code": "id"
 }
@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |![Sketchnote oleh [(@sketchthedocs)](https://sketchthedocs.dev)](../../sketchnotes/11-Visualizing-Proportions.png)|
 |:---:|
-|Memvisualisasikan Proporsi - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_ |
+|Memvisualisasikan Proporsi - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_|
 
 Dalam pelajaran ini, Anda akan menggunakan dataset bertema alam untuk memvisualisasikan proporsi, seperti berapa banyak jenis jamur yang terdapat dalam dataset tertentu tentang jamur. Mari kita eksplorasi jamur yang menarik ini menggunakan dataset dari Audubon yang mencantumkan detail tentang 23 spesies jamur berinsang dalam keluarga Agaricus dan Lepiota. Anda akan bereksperimen dengan visualisasi menarik seperti:
 
@@ -21,7 +21,7 @@ Dalam pelajaran ini, Anda akan menggunakan dataset bertema alam untuk memvisuali
 
 > 💡 Sebuah proyek menarik bernama [Charticulator](https://charticulator.com) oleh Microsoft Research menawarkan antarmuka drag-and-drop gratis untuk visualisasi data. Dalam salah satu tutorialnya, mereka juga menggunakan dataset jamur ini! Jadi Anda bisa mengeksplorasi data sekaligus mempelajari pustaka tersebut: [Tutorial Charticulator](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Kuis sebelum pelajaran](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/20)
+## [Kuis setelah pelajaran](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Mengenal Jamur Anda 🍄
 
@@ -103,7 +103,7 @@ Lihat berbagai habitat tempat jamur tumbuh:
 habitat=mushrooms.groupby(['habitat']).count()
 habitat
 ```
-Di sini, Anda mengelompokkan data berdasarkan habitat. Ada 7 habitat yang terdaftar, jadi gunakan itu sebagai label untuk diagram donat Anda:
+Di sini, Anda mengelompokkan data berdasarkan habitat. Ada 7 habitat yang tercantum, jadi gunakan itu sebagai label untuk diagram donat Anda:
 
 ```python
 labels=['Grasses','Leaves','Meadows','Paths','Urban','Waste','Wood']
@@ -127,11 +127,11 @@ Kode ini menggambar diagram dan lingkaran tengah, lalu menambahkan lingkaran ten
 
 Diagram donat dapat disesuaikan dalam berbagai cara untuk mengubah label. Label khususnya dapat disorot untuk meningkatkan keterbacaan. Pelajari lebih lanjut di [dokumentasi](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
 
-Sekarang setelah Anda tahu cara mengelompokkan data dan kemudian menampilkannya sebagai lingkaran atau donat, Anda dapat mengeksplorasi jenis diagram lainnya. Cobalah diagram waffle, yang hanya cara berbeda untuk mengeksplorasi kuantitas.
+Sekarang setelah Anda tahu cara mengelompokkan data dan menampilkannya sebagai lingkaran atau donat, Anda dapat mengeksplorasi jenis diagram lainnya. Cobalah diagram waffle, yang merupakan cara berbeda untuk mengeksplorasi kuantitas.
 
 ## Waffle!
 
-Diagram tipe 'waffle' adalah cara berbeda untuk memvisualisasikan kuantitas sebagai array 2D dari kotak-kotak. Cobalah memvisualisasikan berbagai jumlah warna topi jamur dalam dataset ini. Untuk melakukannya, Anda perlu menginstal pustaka pembantu bernama [PyWaffle](https://pypi.org/project/pywaffle/) dan menggunakan Matplotlib:
+Diagram tipe 'waffle' adalah cara berbeda untuk memvisualisasikan kuantitas sebagai array 2D dari kotak-kotak. Cobalah memvisualisasikan jumlah warna topi jamur yang berbeda dalam dataset ini. Untuk melakukannya, Anda perlu menginstal pustaka pembantu bernama [PyWaffle](https://pypi.org/project/pywaffle/) dan menggunakan Matplotlib:
 
 ```python
 pip install pywaffle
@@ -171,7 +171,7 @@ Menggunakan diagram waffle, Anda dapat dengan jelas melihat proporsi warna topi 
 
 ![diagram waffle](../../../../translated_images/waffle.5455dbae4ccf17d53bb40ff0a657ecef7b8aa967e27a19cc96325bd81598f65e.id.png)
 
-✅ Pywaffle mendukung ikon dalam diagram yang menggunakan ikon apa pun yang tersedia di [Font Awesome](https://fontawesome.com/). Lakukan beberapa eksperimen untuk membuat diagram waffle yang lebih menarik menggunakan ikon alih-alih kotak.
+✅ PyWaffle mendukung ikon dalam diagram yang menggunakan ikon apa pun yang tersedia di [Font Awesome](https://fontawesome.com/). Lakukan beberapa eksperimen untuk membuat diagram waffle yang lebih menarik menggunakan ikon alih-alih kotak.
 
 Dalam pelajaran ini, Anda mempelajari tiga cara untuk memvisualisasikan proporsi. Pertama, Anda perlu mengelompokkan data Anda ke dalam kategori dan kemudian memutuskan cara terbaik untuk menampilkan data tersebut - lingkaran, donat, atau waffle. Semuanya menarik dan memberikan gambaran instan tentang dataset kepada pengguna.
 
@@ -201,4 +201,4 @@ Lakukan penelitian untuk menemukan lebih banyak informasi tentang keputusan yang
 ---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan layanan penerjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Meskipun kami berusaha untuk memberikan hasil yang akurat, harap diingat bahwa terjemahan otomatis mungkin mengandung kesalahan atau ketidakakuratan. Dokumen asli dalam bahasa aslinya harus dianggap sebagai sumber yang otoritatif. Untuk informasi yang bersifat kritis, disarankan menggunakan jasa penerjemahan profesional oleh manusia. Kami tidak bertanggung jawab atas kesalahpahaman atau penafsiran yang keliru yang timbul dari penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan layanan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Meskipun kami berupaya untuk memberikan hasil yang akurat, harap diperhatikan bahwa terjemahan otomatis mungkin mengandung kesalahan atau ketidakakuratan. Dokumen asli dalam bahasa aslinya harus dianggap sebagai sumber yang berwenang. Untuk informasi yang bersifat kritis, disarankan menggunakan jasa penerjemah manusia profesional. Kami tidak bertanggung jawab atas kesalahpahaman atau penafsiran yang keliru yang timbul dari penggunaan terjemahan ini.

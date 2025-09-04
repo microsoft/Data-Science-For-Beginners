@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "3ade580a06b5f04d57cc83a768a8fb77",
-  "translation_date": "2025-08-28T18:17:20+00:00",
+  "original_hash": "90a815d332aea41a222f4c6372e7186e",
+  "translation_date": "2025-09-04T20:45:35+00:00",
   "source_file": "2-Working-With-Data/08-data-preparation/README.md",
   "language_code": "ms"
 }
@@ -27,13 +27,13 @@ Bergantung kepada sumbernya, data mentah mungkin mengandungi beberapa ketidakkon
 
 ## Matlamat dan strategi pembersihan yang biasa
 
-- **Meneroka set data**: Penerokaan data, yang dibincangkan dalam [pelajaran kemudian](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/15-analyzing), boleh membantu anda mengenal pasti data yang perlu dibersihkan. Melihat nilai secara visual dalam set data boleh menetapkan jangkaan tentang bagaimana selebihnya akan kelihatan, atau memberikan idea tentang masalah yang boleh diselesaikan. Penerokaan boleh melibatkan pertanyaan asas, visualisasi, dan pensampelan.
+- **Meneroka set data**: Penerokaan data, yang dibincangkan dalam [pelajaran kemudian](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/15-analyzing), boleh membantu anda mengenal pasti data yang perlu dibersihkan. Melihat nilai secara visual dalam set data boleh memberikan jangkaan tentang rupa keseluruhan data atau memberikan idea tentang masalah yang boleh diselesaikan. Penerokaan boleh melibatkan pertanyaan asas, visualisasi, dan pensampelan.
 
-- **Pemformatan**: Bergantung kepada sumbernya, data boleh mempunyai ketidakkonsistenan dalam cara ia disampaikan. Ini boleh menyebabkan masalah dalam mencari dan mewakili nilai, di mana ia dilihat dalam set data tetapi tidak diwakili dengan betul dalam visualisasi atau hasil pertanyaan. Masalah pemformatan biasa melibatkan penyelesaian ruang kosong, tarikh, dan jenis data. Menyelesaikan isu pemformatan biasanya bergantung kepada orang yang menggunakan data. Sebagai contoh, standard tentang cara tarikh dan nombor dipersembahkan boleh berbeza mengikut negara.
+- **Pemformatan**: Bergantung kepada sumbernya, data boleh mempunyai ketidakkonsistenan dalam cara ia dipersembahkan. Ini boleh menyebabkan masalah dalam mencari dan mewakili nilai, di mana ia dilihat dalam set data tetapi tidak diwakili dengan betul dalam visualisasi atau hasil pertanyaan. Masalah pemformatan biasa melibatkan penyelesaian ruang kosong, tarikh, dan jenis data. Menyelesaikan isu pemformatan biasanya bergantung kepada orang yang menggunakan data. Sebagai contoh, standard tentang cara tarikh dan nombor dipersembahkan boleh berbeza mengikut negara.
 
-- **Penduaan**: Data yang mempunyai lebih daripada satu kejadian boleh menghasilkan keputusan yang tidak tepat dan biasanya perlu dibuang. Ini boleh berlaku apabila menggabungkan dua atau lebih set data. Walau bagaimanapun, terdapat keadaan di mana penduaan dalam set data gabungan mengandungi bahagian yang boleh memberikan maklumat tambahan dan mungkin perlu dikekalkan.
+- **Penduaan**: Data yang mempunyai lebih daripada satu kejadian boleh menghasilkan keputusan yang tidak tepat dan biasanya perlu dibuang. Ini boleh berlaku apabila menggabungkan dua atau lebih set data. Walau bagaimanapun, terdapat keadaan di mana penduaan dalam set data gabungan mengandungi maklumat tambahan yang mungkin perlu dikekalkan.
 
-- **Data yang hilang**: Data yang hilang boleh menyebabkan ketidaktepatan serta keputusan yang lemah atau berat sebelah. Kadangkala ini boleh diselesaikan dengan "memuat semula" data, mengisi nilai yang hilang dengan pengiraan dan kod seperti Python, atau hanya membuang nilai dan data yang berkaitan. Terdapat banyak sebab mengapa data mungkin hilang dan tindakan yang diambil untuk menyelesaikan nilai yang hilang ini boleh bergantung kepada bagaimana dan mengapa ia hilang.
+- **Data yang hilang**: Data yang hilang boleh menyebabkan ketidaktepatan serta keputusan yang lemah atau berat sebelah. Kadangkala ini boleh diselesaikan dengan "memuat semula" data, mengisi nilai yang hilang dengan pengiraan dan kod seperti Python, atau hanya membuang nilai dan data yang berkaitan. Terdapat banyak sebab mengapa data mungkin hilang, dan tindakan yang diambil untuk menyelesaikan nilai yang hilang ini boleh bergantung kepada bagaimana dan mengapa ia hilang.
 
 ## Meneroka maklumat DataFrame
 > **Matlamat pembelajaran:** Pada akhir subseksyen ini, anda seharusnya selesa mencari maklumat umum tentang data yang disimpan dalam DataFrame pandas.
@@ -99,7 +99,7 @@ iris_df.tail()
 148                6.2               3.4                5.4               2.3
 149                5.9               3.0                5.1               1.8
 ```
-> **Kesimpulan:** Walaupun hanya dengan melihat metadata tentang maklumat dalam DataFrame atau beberapa nilai pertama dan terakhir, anda boleh mendapatkan idea segera tentang saiz, bentuk, dan kandungan data yang anda sedang kerjakan.
+> **Kesimpulan:** Walaupun hanya dengan melihat metadata tentang maklumat dalam DataFrame atau beberapa nilai pertama dan terakhir dalamnya, anda boleh mendapatkan idea segera tentang saiz, bentuk, dan kandungan data yang anda sedang kerjakan.
 
 ## Menangani Data yang Hilang
 > **Matlamat pembelajaran:** Pada akhir subseksyen ini, anda seharusnya tahu cara menggantikan atau membuang nilai null daripada DataFrame.
@@ -108,7 +108,7 @@ Kebanyakan masa, set data yang anda ingin gunakan (atau perlu gunakan) mempunyai
 
 Pandas menangani nilai yang hilang dengan dua cara. Yang pertama telah anda lihat sebelum ini dalam bahagian sebelumnya: `NaN`, atau Not a Number. Ini sebenarnya adalah nilai khas yang merupakan sebahagian daripada spesifikasi titik terapung IEEE dan hanya digunakan untuk menunjukkan nilai titik terapung yang hilang.
 
-Untuk nilai yang hilang selain daripada titik terapung, pandas menggunakan objek Python `None`. Walaupun mungkin kelihatan mengelirukan bahawa anda akan menemui dua jenis nilai yang pada dasarnya mengatakan perkara yang sama, terdapat alasan programatik yang kukuh untuk pilihan reka bentuk ini dan, dalam praktiknya, pendekatan ini membolehkan pandas memberikan kompromi yang baik untuk kebanyakan kes. Walau bagaimanapun, kedua-dua `None` dan `NaN` membawa sekatan yang perlu anda perhatikan berkaitan dengan cara ia boleh digunakan.
+Untuk nilai yang hilang selain daripada titik terapung, pandas menggunakan objek Python `None`. Walaupun mungkin kelihatan mengelirukan bahawa anda akan menemui dua jenis nilai yang pada dasarnya mengatakan perkara yang sama, terdapat alasan programatik yang kukuh untuk pilihan reka bentuk ini dan, dalam amalan, pendekatan ini membolehkan pandas memberikan kompromi yang baik untuk kebanyakan kes. Walaupun begitu, kedua-dua `None` dan `NaN` membawa sekatan yang perlu anda perhatikan berkaitan dengan cara ia boleh digunakan.
 
 Ketahui lebih lanjut tentang `NaN` dan `None` daripada [notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb)!
 
@@ -126,13 +126,13 @@ example1.isnull()
 3     True
 dtype: bool
 ```
-Perhatikan dengan teliti outputnya. Adakah ada yang mengejutkan anda? Walaupun `0` adalah null aritmetik, ia tetap merupakan integer yang sah dan pandas menganggapnya sebagai sedemikian. `''` sedikit lebih halus. Walaupun kita menggunakannya dalam Bahagian 1 untuk mewakili nilai string kosong, ia tetap merupakan objek string dan bukan representasi null seperti yang dianggap oleh pandas.
+Perhatikan dengan teliti outputnya. Adakah ada yang mengejutkan anda? Walaupun `0` adalah null aritmetik, ia tetap merupakan integer yang sah dan pandas menganggapnya sebagai sedemikian. `''` sedikit lebih halus. Walaupun kita menggunakannya dalam Bahagian 1 untuk mewakili nilai rentetan kosong, ia tetap merupakan objek rentetan dan bukan representasi null seperti yang dianggap oleh pandas.
 
-Sekarang, mari kita balikkan ini dan gunakan kaedah ini dengan cara yang lebih seperti yang akan anda gunakan dalam praktik. Anda boleh menggunakan topeng Boolean secara langsung sebagai indeks ``Series`` atau ``DataFrame``, yang boleh berguna apabila cuba bekerja dengan nilai yang hilang (atau hadir) secara terasing.
+Sekarang, mari kita balikkan ini dan gunakan kaedah ini dengan cara yang lebih seperti yang akan anda gunakan dalam amalan. Anda boleh menggunakan topeng Boolean secara langsung sebagai indeks ``Series`` atau ``DataFrame``, yang boleh berguna apabila cuba bekerja dengan nilai yang hilang (atau hadir) secara terasing.
 
 > **Kesimpulan**: Kedua-dua kaedah `isnull()` dan `notnull()` menghasilkan hasil yang serupa apabila anda menggunakannya dalam `DataFrame`: ia menunjukkan hasil dan indeks hasil tersebut, yang akan sangat membantu anda semasa anda bergelut dengan data anda.
 
-- **Membuang nilai null**: Selain mengenal pasti nilai yang hilang, pandas menyediakan cara yang mudah untuk membuang nilai null daripada `Series` dan `DataFrame`. (Terutamanya pada set data yang besar, lebih disarankan untuk hanya membuang nilai [NA] yang hilang daripada analisis anda daripada menanganinya dengan cara lain.) Untuk melihat ini dalam tindakan, mari kembali ke `example1`:
+- **Membuang nilai null**: Selain mengenal pasti nilai yang hilang, pandas menyediakan cara yang mudah untuk membuang nilai null daripada `Series` dan `DataFrame`. (Terutamanya pada set data yang besar, sering kali lebih disarankan untuk hanya membuang nilai [NA] yang hilang daripada analisis anda daripada menanganinya dengan cara lain.) Untuk melihat ini dalam tindakan, mari kembali ke `example1`:
 ```python
 example1 = example1.dropna()
 example1
@@ -142,7 +142,7 @@ example1
 2     
 dtype: object
 ```
-Perhatikan bahawa ini sepatutnya kelihatan seperti output anda daripada `example3[example3.notnull()]`. Perbezaannya di sini ialah, daripada hanya mengindeks pada nilai yang bertopeng, `dropna` telah membuang nilai yang hilang daripada `Series` `example1`.
+Perhatikan bahawa ini sepatutnya kelihatan seperti output anda daripada `example3[example3.notnull()]`. Perbezaannya di sini ialah, daripada hanya mengindeks pada nilai yang bertopeng, `dropna` telah membuang nilai yang hilang tersebut daripada `Series` `example1`.
 
 Oleh kerana `DataFrame` mempunyai dua dimensi, ia memberikan lebih banyak pilihan untuk membuang data.
 
@@ -181,7 +181,7 @@ example2.dropna(axis='columns')
 ```
 Perhatikan bahawa ini boleh membuang banyak data yang mungkin anda ingin simpan, terutamanya dalam set data yang lebih kecil. Bagaimana jika anda hanya ingin membuang baris atau lajur yang mengandungi beberapa atau bahkan semua nilai null? Anda menentukan tetapan tersebut dalam `dropna` dengan parameter `how` dan `thresh`.
 
-Secara lalai, `how='any'` (jika anda ingin memeriksa sendiri atau melihat parameter lain yang dimiliki oleh kaedah, jalankan `example4.dropna?` dalam sel kod). Anda boleh menentukan `how='all'` sebagai alternatif untuk hanya membuang baris atau lajur yang mengandungi semua nilai null. Mari kita kembangkan contoh `DataFrame` kita untuk melihat ini dalam tindakan.
+Secara lalai, `how='any'` (jika anda ingin memeriksa sendiri atau melihat parameter lain yang dimiliki oleh kaedah tersebut, jalankan `example4.dropna?` dalam sel kod). Anda boleh menentukan `how='all'` sebagai alternatif untuk hanya membuang baris atau lajur yang mengandungi semua nilai null. Mari kita kembangkan `DataFrame` contoh kita untuk melihat ini dalam tindakan.
 
 ```python
 example2[3] = np.nan
@@ -193,7 +193,7 @@ example2
 |1     |2.0|5.0|8  |NaN|
 |2     |NaN|6.0|9  |NaN|
 
-Parameter `thresh` memberikan anda kawalan yang lebih terperinci: anda menetapkan bilangan nilai *bukan null* yang baris atau lajur perlu ada untuk dikekalkan:
+Parameter `thresh` memberikan kawalan yang lebih terperinci: anda menetapkan bilangan nilai *bukan null* yang diperlukan oleh baris atau lajur untuk disimpan:
 ```python
 example2.dropna(axis='rows', thresh=3)
 ```
@@ -203,7 +203,7 @@ example2.dropna(axis='rows', thresh=3)
 ```
 Di sini, baris pertama dan terakhir telah dibuang, kerana ia hanya mengandungi dua nilai bukan null.
 
-- **Mengisi nilai null**: Bergantung pada set data anda, kadangkala lebih masuk akal untuk mengisi nilai null dengan nilai yang sah daripada membuangnya. Anda boleh menggunakan `isnull` untuk melakukan ini secara langsung, tetapi itu boleh menjadi membebankan, terutamanya jika anda mempunyai banyak nilai untuk diisi. Oleh kerana ini adalah tugas yang biasa dalam sains data, pandas menyediakan `fillna`, yang mengembalikan salinan `Series` atau `DataFrame` dengan nilai yang hilang digantikan dengan nilai pilihan anda. Mari buat contoh `Series` lain untuk melihat bagaimana ini berfungsi dalam praktik.
+- **Mengisi nilai null**: Bergantung pada set data anda, kadangkala lebih masuk akal untuk mengisi nilai null dengan nilai yang sah daripada membuangnya. Anda boleh menggunakan `isnull` untuk melakukan ini secara langsung, tetapi itu boleh menjadi membosankan, terutamanya jika anda mempunyai banyak nilai untuk diisi. Oleh kerana ini adalah tugas yang biasa dalam sains data, pandas menyediakan `fillna`, yang mengembalikan salinan `Series` atau `DataFrame` dengan nilai yang hilang digantikan dengan nilai pilihan anda. Mari buat `Series` contoh lain untuk melihat cara ini berfungsi dalam amalan.
 ```python
 example3 = pd.Series([1, np.nan, 2, None, 3], index=list('abcde'))
 example3
@@ -252,7 +252,7 @@ d    3.0
 e    3.0
 dtype: float64
 ```
-Seperti yang anda mungkin jangkakan, ini berfungsi sama dengan `DataFrame`, tetapi anda juga boleh menentukan `axis` di sepanjang mana untuk mengisi nilai null. Menggunakan semula `example2` yang digunakan sebelum ini:
+Seperti yang anda mungkin jangkakan, ini berfungsi sama dengan `DataFrame`, tetapi anda juga boleh menentukan `axis` sepanjang mana untuk mengisi nilai null. Menggunakan semula `example2` yang digunakan sebelum ini:
 ```python
 example2.fillna(method='ffill', axis=1)
 ```
@@ -271,7 +271,7 @@ Perhatikan bahawa apabila nilai sebelumnya tidak tersedia untuk pengisian ke dep
 
 Selain data yang hilang, anda juga sering akan menemui data pendua dalam set data dunia nyata. Nasib baik, `pandas` menyediakan cara mudah untuk mengesan dan menghapus entri pendua.
 
-- **Mengenal pasti pendua: `duplicated`**: Anda boleh dengan mudah mengenal pasti nilai pendua menggunakan kaedah `duplicated` dalam pandas, yang mengembalikan topeng Boolean yang menunjukkan sama ada entri dalam `DataFrame` adalah pendua daripada entri sebelumnya. Mari kita cipta satu lagi contoh `DataFrame` untuk melihat ini dalam tindakan.
+- **Mengenal pasti pendua: `duplicated`**: Anda boleh dengan mudah mengenal pasti nilai pendua menggunakan kaedah `duplicated` dalam pandas, yang mengembalikan topeng Boolean yang menunjukkan sama ada entri dalam `DataFrame` adalah pendua entri sebelumnya. Mari kita cipta satu lagi contoh `DataFrame` untuk melihat ini dalam tindakan.
 ```python
 example4 = pd.DataFrame({'letters': ['A','B'] * 2 + ['B'],
                          'numbers': [1, 2, 1, 3, 3]})
@@ -306,7 +306,7 @@ example4.drop_duplicates()
 1	B	2
 3	B	3
 ```
-Kedua-dua `duplicated` dan `drop_duplicates` secara lalai mempertimbangkan semua lajur tetapi anda boleh menentukan bahawa mereka hanya memeriksa subset lajur dalam `DataFrame` anda:
+Kedua-dua `duplicated` dan `drop_duplicates` secara lalai mempertimbangkan semua lajur tetapi anda boleh menentukan bahawa ia hanya memeriksa subset lajur dalam `DataFrame` anda:
 ```python
 example4.drop_duplicates(['letters'])
 ```
@@ -323,7 +323,7 @@ letters	numbers
 
 Semua bahan yang dibincangkan disediakan sebagai [Jupyter Notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/2-Working-With-Data/08-data-preparation/notebook.ipynb). Selain itu, terdapat latihan selepas setiap bahagian, cubalah!
 
-## [Kuiz Selepas Kuliah](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/15)
+## [Kuiz Selepas Kuliah](https://ff-quizzes.netlify.app/en/ds/)
 
 
 

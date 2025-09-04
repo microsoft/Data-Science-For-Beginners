@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "87faccac113d772551486a67a607153e",
-  "translation_date": "2025-08-28T15:43:56+00:00",
+  "original_hash": "02ce904bc1e2bfabb7dc05c25aae375c",
+  "translation_date": "2025-09-04T19:57:32+00:00",
   "source_file": "3-Data-Visualization/10-visualization-distributions/README.md",
   "language_code": "nl"
 }
@@ -30,9 +30,9 @@ birds.head()
 ```
 
 |      | Naam                         | WetenschappelijkeNaam  | Categorie             | Orde         | Familie  | Geslacht    | Beschermingsstatus  | MinLengte | MaxLengte | MinLichaamsmassa | MaxLichaamsmassa | MinSpanwijdte | MaxSpanwijdte |
-| ---: | :--------------------------- | :--------------------- | :-------------------- | :----------- | :------- | :---------- | :----------------- | --------: | --------: | --------------: | --------------: | ------------: | ------------: |
+| ---: | :--------------------------- | :--------------------- | :-------------------- | :----------- | :------- | :---------- | :-----------------  | --------: | --------: | --------------: | --------------: | ------------: | ------------: |
 |    0 | Zwartbuikfluiteend           | Dendrocygna autumnalis | Eenden/Ganzen/Watervogels | Anseriformes | Anatidae | Dendrocygna | LC                 |        47 |        56 |             652 |            1020 |            76 |            94 |
-|    1 | Bruine fluiteend             | Dendrocygna bicolor    | Eenden/Ganzen/Watervogels | Anseriformes | Anatidae | Dendrocygna | LC                 |        45 |        53 |             712 |            1050 |            85 |            93 |
+|    1 | Rosse fluiteend              | Dendrocygna bicolor    | Eenden/Ganzen/Watervogels | Anseriformes | Anatidae | Dendrocygna | LC                 |        45 |        53 |             712 |            1050 |            85 |            93 |
 |    2 | Sneeuwgans                   | Anser caerulescens     | Eenden/Ganzen/Watervogels | Anseriformes | Anatidae | Anser       | LC                 |        64 |        79 |            2050 |            4050 |           135 |           165 |
 |    3 | Ross' gans                   | Anser rossii           | Eenden/Ganzen/Watervogels | Anseriformes | Anatidae | Anser       | LC                 |      57.3 |        64 |            1066 |            1567 |           113 |           116 |
 |    4 | Grote rietgans               | Anser albifrons        | Eenden/Ganzen/Watervogels | Anseriformes | Anatidae | Anser       | LC                 |        64 |        81 |            1930 |            3310 |           130 |           165 |
@@ -54,7 +54,7 @@ Dit geeft een overzicht van de algemene verdeling van lichaamslengte per vogelor
 
 ## Werken met histogrammen
 
-Matplotlib biedt zeer goede manieren om gegevensdistributie te visualiseren met behulp van histogrammen. Dit type grafiek lijkt op een staafdiagram waarbij de distributie kan worden gezien via een stijging en daling van de staven. Om een histogram te maken, heb je numerieke gegevens nodig. Om een histogram te maken, kun je een grafiek plotten waarbij je het type definieert als 'hist' voor histogram. Deze grafiek toont de distributie van MaxBodyMass voor het volledige bereik van numerieke gegevens in de dataset. Door de array van gegevens die het krijgt op te splitsen in kleinere bins, kan het de verdeling van de waarden van de gegevens weergeven:
+Matplotlib biedt zeer goede manieren om gegevensdistributie te visualiseren met behulp van histogrammen. Dit type grafiek lijkt op een staafdiagram waarbij de distributie kan worden gezien via een stijging en daling van de staven. Om een histogram te maken, heb je numerieke gegevens nodig. Om een histogram te maken, kun je een grafiek plotten waarbij je het type instelt op 'hist' voor histogram. Deze grafiek toont de distributie van MaxBodyMass voor het volledige bereik van numerieke gegevens in de dataset. Door de array van gegevens op te splitsen in kleinere bins, kan het de verdeling van de waarden van de gegevens weergeven:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
@@ -62,7 +62,7 @@ plt.show()
 ```
 ![distributie over de volledige dataset](../../../../translated_images/dist1-wb.0d0cac82e2974fbbec635826fefead401af795f82e2279e2e2678bf2c117d827.nl.png)
 
-Zoals je kunt zien, valt het merendeel van de 400+ vogels in deze dataset in het bereik van minder dan 2000 voor hun maximale lichaamsmassa. Krijg meer inzicht in de gegevens door de `bins`-parameter te wijzigen naar een hoger aantal, bijvoorbeeld 30:
+Zoals je kunt zien, valt het merendeel van de 400+ vogels in deze dataset in het bereik van minder dan 2000 voor hun maximale lichaamsmassa. Krijg meer inzicht in de gegevens door de `bins`-parameter te verhogen naar bijvoorbeeld 30:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 30, figsize = (12,12))
@@ -81,7 +81,7 @@ plt.show()
 ```
 ![gefilterd histogram](../../../../translated_images/dist3-wb.64b88db7f9780200bd486a2c2a3252548dd439672dbd3f778193db7f654b100c.nl.png)
 
-✅ Probeer enkele andere filters en gegevenspunten. Om de volledige distributie van de gegevens te zien, verwijder je de `['MaxBodyMass']`-filter om gelabelde distributies weer te geven.
+✅ Probeer enkele andere filters en gegevenspunten. Om de volledige distributie van de gegevens te zien, verwijder de `['MaxBodyMass']`-filter om gelabelde distributies weer te geven.
 
 Het histogram biedt ook enkele leuke kleur- en labelverbeteringen om te proberen:
 
@@ -94,22 +94,22 @@ y = filteredBirds['MaxLength']
 fig, ax = plt.subplots(tight_layout=True)
 hist = ax.hist2d(x, y)
 ```
-Er lijkt een verwachte correlatie te zijn tussen deze twee elementen langs een verwachte as, met één bijzonder sterk convergentiepunt:
+Er lijkt een verwachte correlatie te zijn tussen deze twee elementen langs een verwachte as, met één bijzonder sterk punt van convergentie:
 
 ![2D plot](../../../../translated_images/2D-wb.ae22fdd33936507a41e3af22e11e4903b04a9be973b23a4e05214efaccfd66c8.nl.png)
 
 Histogrammen werken standaard goed voor numerieke gegevens. Wat als je distributies wilt zien op basis van tekstgegevens? 
 ## Verken de dataset voor distributies met tekstgegevens 
 
-Deze dataset bevat ook goede informatie over de vogelcategorie en het geslacht, de soort en de familie, evenals de beschermingsstatus. Laten we deze beschermingsinformatie onderzoeken. Wat is de verdeling van de vogels volgens hun beschermingsstatus?
+Deze dataset bevat ook goede informatie over de vogelcategorie en zijn geslacht, soort en familie, evenals zijn beschermingsstatus. Laten we deze beschermingsinformatie onderzoeken. Wat is de verdeling van de vogels volgens hun beschermingsstatus?
 
 > ✅ In de dataset worden verschillende acroniemen gebruikt om de beschermingsstatus te beschrijven. Deze acroniemen komen van de [IUCN Red List Categories](https://www.iucnredlist.org/), een organisatie die de status van soorten catalogiseert.
 > 
-> - CR: Kritiek Bedreigd
+> - CR: Kritiek bedreigd
 > - EN: Bedreigd
 > - EX: Uitgestorven
-> - LC: Minste Zorg
-> - NT: Bijna Bedreigd
+> - LC: Minste zorg
+> - NT: Bijna bedreigd
 > - VU: Kwetsbaar
 
 Dit zijn tekstgebaseerde waarden, dus je moet een transformatie uitvoeren om een histogram te maken. Gebruik de filteredBirds dataframe om de beschermingsstatus weer te geven naast de minimale spanwijdte. Wat zie je?
@@ -145,7 +145,7 @@ Je hebt misschien gemerkt dat de histogrammen die we tot nu toe hebben bekeken '
 
 Om met dichtheidsplots te werken, kun je jezelf vertrouwd maken met een nieuwe plotbibliotheek, [Seaborn](https://seaborn.pydata.org/generated/seaborn.kdeplot.html). 
 
-Laad Seaborn en probeer een basis dichtheidsplot:
+Laad Seaborn en probeer een eenvoudige dichtheidsplot:
 
 ```python
 import seaborn as sns
@@ -155,9 +155,9 @@ plt.show()
 ```
 ![Dichtheidsplot](../../../../translated_images/density1.8801043bd4af2567b0f706332b5853c7614e5e4b81b457acc27eb4e092a65cbd.nl.png)
 
-Je kunt zien hoe de plot de vorige grafiek voor minimale spanwijdtegegevens weerspiegelt; het is gewoon iets vloeiender. Volgens de documentatie van Seaborn: "In vergelijking met een histogram kan KDE een plot produceren die minder rommelig en beter interpreteerbaar is, vooral bij het tekenen van meerdere distributies. Maar het heeft de potentie om vervormingen te introduceren als de onderliggende distributie begrensd of niet vloeiend is. Net als een histogram hangt de kwaliteit van de representatie ook af van de selectie van goede gladmakingsparameters." [bron](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Met andere woorden, uitschieters zullen zoals altijd je grafieken slecht laten functioneren.
+Je kunt zien hoe de plot de vorige grafiek voor minimale spanwijdtegegevens weerspiegelt; het is gewoon iets vloeiender. Volgens de documentatie van Seaborn: "In vergelijking met een histogram kan KDE een plot produceren die minder rommelig en beter interpreteerbaar is, vooral bij het tekenen van meerdere distributies. Maar het heeft de potentie om vervormingen te introduceren als de onderliggende distributie begrensd of niet vloeiend is. Net als een histogram hangt de kwaliteit van de representatie ook af van de selectie van goede gladmakingsparameters." [bron](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Met andere woorden, uitschieters zullen zoals altijd je grafieken negatief beïnvloeden.
 
-Als je die hoekige MaxBodyMass-lijn in de tweede grafiek die je hebt gemaakt opnieuw wilt bekijken, kun je deze heel goed gladstrijken door deze methode opnieuw te gebruiken:
+Als je die hoekige MaxBodyMass-lijn in de tweede grafiek die je hebt gemaakt opnieuw wilt bekijken, kun je deze heel goed gladstrijken door deze opnieuw te maken met deze methode:
 
 ```python
 sns.kdeplot(filteredBirds['MaxBodyMass'])
@@ -165,7 +165,7 @@ plt.show()
 ```
 ![gladde lichaamsmassalijn](../../../../translated_images/density2.8e7647257060ff544a1aaded57e8dd1887586bfe340139e9b77ac1e5287f7977.nl.png)
 
-Als je een gladde, maar niet te gladde lijn wilt, bewerk je de `bw_adjust`-parameter: 
+Als je een gladde, maar niet te gladde lijn wilt, pas dan de `bw_adjust`-parameter aan:
 
 ```python
 sns.kdeplot(filteredBirds['MaxBodyMass'], bw_adjust=.2)
@@ -187,13 +187,13 @@ sns.kdeplot(
 
 ![lichaamsmassa per orde](../../../../translated_images/density4.e9d6c033f15c500fd33df94cb592b9f5cf1ed2a3d213c448a3f9e97ba39573ce.nl.png)
 
-Je kunt ook de dichtheid van meerdere variabelen in één grafiek in kaart brengen. Test de MaxLength en MinLength van een vogel in vergelijking met hun beschermingsstatus:
+Je kunt ook de dichtheid van meerdere variabelen in één grafiek weergeven. Test de MaxLength en MinLength van een vogel in vergelijking met hun beschermingsstatus:
 
 ```python
 sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationStatus")
 ```
 
-![meerdere dichtheden, boven elkaar](../../../../translated_images/multi.56548caa9eae8d0fd9012a8586295538c7f4f426e2abc714ba070e2e4b1fc2c1.nl.png)
+![meerdere dichtheden, over elkaar heen gelegd](../../../../translated_images/multi.56548caa9eae8d0fd9012a8586295538c7f4f426e2abc714ba070e2e4b1fc2c1.nl.png)
 
 Misschien is het de moeite waard om te onderzoeken of de cluster van 'Kwetsbare' vogels volgens hun lengtes betekenisvol is of niet.
 
@@ -201,7 +201,7 @@ Misschien is het de moeite waard om te onderzoeken of de cluster van 'Kwetsbare'
 
 Histogrammen zijn een meer geavanceerd type grafiek dan eenvoudige scatterplots, staafdiagrammen of lijndiagrammen. Ga op zoek op het internet naar goede voorbeelden van het gebruik van histogrammen. Hoe worden ze gebruikt, wat laten ze zien, en in welke vakgebieden of onderzoeksgebieden worden ze vaak gebruikt?
 
-## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/19)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Review & Zelfstudie
 
@@ -214,4 +214,4 @@ In deze les heb je Matplotlib gebruikt en ben je begonnen met werken met Seaborn
 ---
 
 **Disclaimer**:  
-Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor kritieke informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.
+Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in zijn oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor eventuele misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.

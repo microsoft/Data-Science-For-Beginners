@@ -1,17 +1,17 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "32ddfef8121650f2ca2f3416fd283c37",
-  "translation_date": "2025-08-26T21:10:03+00:00",
+  "original_hash": "54c5a1c74aecb69d2f9099300a4b7eea",
+  "translation_date": "2025-09-04T19:10:57+00:00",
   "source_file": "2-Working-With-Data/06-non-relational/README.md",
   "language_code": "da"
 }
 -->
-# Arbejde med data: Ikke-relationelle data
+# Arbejde med Data: Ikke-relationelle Data
 
 |![ Sketchnote af [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/06-NoSQL.png)|
 |:---:|
-|Arbejde med NoSQL-data - _Sketchnote af [@nitya](https://twitter.com/nitya)_ |
+|Arbejde med NoSQL Data - _Sketchnote af [@nitya](https://twitter.com/nitya)_ |
 
 ## [Quiz før lektionen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/10)
 
@@ -23,45 +23,45 @@ Regneark er en populær måde at gemme og udforske data på, fordi det kræver m
 
 ![En tom Microsoft Excel-arbejdsbog med to regneark](../../../../translated_images/parts-of-spreadsheet.120711c82aa18a45c3e62a491a15bba0a31ab0e9db407ec022702fed8ffd89bf.da.png)
 
-Et regneark er en fil og vil være tilgængelig i filsystemet på en computer, enhed eller skybaseret filsystem. Selve softwaren kan være browserbaseret eller en applikation, der skal installeres på en computer eller downloades som en app. I Excel defineres disse filer også som **arbejdsbøger**, og denne terminologi vil blive brugt resten af lektionen.
+Et regneark er en fil og vil være tilgængelig i filsystemet på en computer, enhed eller cloud-baseret filsystem. Selve softwaren kan være browserbaseret eller en applikation, der skal installeres på en computer eller downloades som en app. I Excel defineres disse filer også som **arbejdsbøger**, og denne terminologi vil blive brugt resten af lektionen.
 
 En arbejdsbog indeholder et eller flere **regneark**, hvor hvert regneark er mærket med faner. Inden for et regneark er der rektangler kaldet **celler**, som indeholder de faktiske data. En celle er skæringspunktet mellem en række og en kolonne, hvor kolonnerne er mærket med alfabetiske tegn og rækkerne numerisk. Nogle regneark vil indeholde overskrifter i de første par rækker for at beskrive dataene i en celle.
 
-Med disse grundlæggende elementer i en Excel-arbejdsbog vil vi bruge et eksempel fra [Microsoft Templates](https://templates.office.com/) med fokus på et lager for at gennemgå nogle yderligere dele af et regneark.
+Med disse grundlæggende elementer i en Excel-arbejdsbog vil vi bruge et eksempel fra [Microsoft Templates](https://templates.office.com/) fokuseret på et lager for at gennemgå nogle yderligere dele af et regneark.
 
-### Håndtering af et lager
+### Håndtering af et Lager
 
 Regnearksfilen kaldet "InventoryExample" er et formateret regneark med varer i et lager, der indeholder tre regneark, hvor fanerne er mærket "Inventory List", "Inventory Pick List" og "Bin Lookup". Række 4 i regnearket Inventory List er overskriften, som beskriver værdien af hver celle i overskriftskolonnen.
 
-![En fremhævet formel fra et eksempel på lagerliste i Microsoft Excel](../../../../translated_images/formula-excel.ad1068c220892f5ead570d12f2394897961d31a5043a1dd4e6fc5d7690c7a14e.da.png)
+![En fremhævet formel fra et eksempel på en lagerliste i Microsoft Excel](../../../../translated_images/formula-excel.ad1068c220892f5ead570d12f2394897961d31a5043a1dd4e6fc5d7690c7a14e.da.png)
 
-Der er tilfælde, hvor en celle er afhængig af værdierne i andre celler for at generere sin værdi. Lagerlisten holder styr på omkostningerne for hver vare i lageret, men hvad hvis vi skal kende værdien af alt i lageret? [**Formler**](https://support.microsoft.com/en-us/office/overview-of-formulas-34519a4e-1e8d-4f4b-84d4-d642c4f63263) udfører handlinger på celldata og bruges til at beregne lagerets værdi i dette eksempel. Dette regneark brugte en formel i kolonnen Inventory Value til at beregne værdien af hver vare ved at multiplicere mængden under overskriften QTY og dens omkostninger under overskriften COST. Dobbeltklik eller fremhæv en celle for at se formlen. Du vil bemærke, at formler starter med et lighedstegn, efterfulgt af beregningen eller operationen.
+Der er tilfælde, hvor en celle er afhængig af værdierne i andre celler for at generere sin værdi. Regnearket Inventory List holder styr på omkostningerne for hver vare i lageret, men hvad hvis vi skal kende værdien af alt i lageret? [**Formler**](https://support.microsoft.com/en-us/office/overview-of-formulas-34519a4e-1e8d-4f4b-84d4-d642c4f63263) udfører handlinger på celldata og bruges til at beregne lagerets værdi i dette eksempel. Dette regneark brugte en formel i kolonnen Inventory Value til at beregne værdien af hver vare ved at multiplicere mængden under overskriften QTY og dens omkostninger under overskriften COST. Dobbeltklik eller fremhæv en celle for at vise formlen. Du vil bemærke, at formler starter med et lighedstegn, efterfulgt af beregningen eller operationen.
 
-![En fremhævet funktion fra et eksempel på lagerliste i Microsoft Excel](../../../../translated_images/function-excel.be2ae4feddc10ca089f3d4363040d93b7fd046c8d4f83ba975ec46483ee99895.da.png)
+![En fremhævet funktion fra et eksempel på en lagerliste i Microsoft Excel](../../../../translated_images/function-excel.be2ae4feddc10ca089f3d4363040d93b7fd046c8d4f83ba975ec46483ee99895.da.png)
 
-Vi kan bruge en anden formel til at lægge alle værdierne i Inventory Value sammen for at få den samlede værdi. Dette kunne beregnes ved at tilføje hver celle for at generere summen, men det kan være en tidskrævende opgave. Excel har [**funktioner**](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89), eller foruddefinerede formler til at udføre beregninger på celldata. Funktioner kræver argumenter, som er de nødvendige værdier, der bruges til at udføre disse beregninger. Når funktioner kræver mere end ét argument, skal de angives i en bestemt rækkefølge, ellers beregner funktionen muligvis ikke den korrekte værdi. Dette eksempel bruger SUM-funktionen og bruger værdierne i Inventory Value som argumentet for at generere summen, der er angivet under række 3, kolonne B (også kaldet B3).
+Vi kan bruge en anden formel til at lægge alle værdierne i Inventory Value sammen for at få den samlede værdi. Dette kunne beregnes ved at tilføje hver celle for at generere summen, men det kan være en tidskrævende opgave. Excel har [**funktioner**](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89), eller foruddefinerede formler til at udføre beregninger på celldata. Funktioner kræver argumenter, som er de nødvendige værdier, der bruges til at udføre disse beregninger. Når funktioner kræver mere end ét argument, skal de angives i en bestemt rækkefølge, ellers kan funktionen ikke beregne den korrekte værdi. Dette eksempel bruger SUM-funktionen og bruger værdierne i Inventory Value som argumentet for at generere summen, der er angivet under række 3, kolonne B (også kaldet B3).
 
 ## NoSQL
 
-NoSQL er en paraplybetegnelse for de forskellige måder at gemme ikke-relationelle data på og kan tolkes som "non-SQL", "non-relationel" eller "not only SQL". Disse typer databasesystemer kan kategoriseres i 4 typer.
+NoSQL er en paraplybetegnelse for de forskellige måder at gemme ikke-relationelle data på og kan tolkes som "non-SQL", "non-relational" eller "not only SQL". Disse typer databasesystemer kan kategoriseres i 4 typer.
 
-![Grafisk repræsentation af en nøgle-værdi-datastore, der viser 4 unikke numeriske nøgler, der er knyttet til 4 forskellige værdier](../../../../translated_images/kv-db.e8f2b75686bbdfcba0c827b9272c10ae0821611ea0fe98429b9d13194383afa6.da.png)
+![Grafisk repræsentation af en nøgle-værdi datalager, der viser 4 unikke numeriske nøgler, der er knyttet til 4 forskellige værdier](../../../../translated_images/kv-db.e8f2b75686bbdfcba0c827b9272c10ae0821611ea0fe98429b9d13194383afa6.da.png)
 > Kilde fra [Michał Białecki Blog](https://www.michalbialecki.com/2018/03/18/azure-cosmos-db-key-value-database-cloud/)
 
 [Nøgle-værdi](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#keyvalue-data-stores) databaser parrer unikke nøgler, som er en unik identifikator knyttet til en værdi. Disse par gemmes ved hjælp af en [hash-tabel](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/) med en passende hash-funktion.
 
-![Grafisk repræsentation af en graf-datastore, der viser relationerne mellem personer, deres interesser og lokationer](../../../../translated_images/graph-db.d13629152f79a9dac895b20fa7d841d4d4d6f6008b1382227c3bbd200fd4cfa1.da.png)
+![Grafisk repræsentation af en graf-datalager, der viser relationerne mellem personer, deres interesser og lokationer](../../../../translated_images/graph-db.d13629152f79a9dac895b20fa7d841d4d4d6f6008b1382227c3bbd200fd4cfa1.da.png)
 > Kilde fra [Microsoft](https://docs.microsoft.com/en-us/azure/cosmos-db/graph/graph-introduction#graph-database-by-example)
 
 [Graf](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#graph-data-stores) databaser beskriver relationer i data og er repræsenteret som en samling af noder og kanter. En node repræsenterer en enhed, noget der eksisterer i den virkelige verden, såsom en studerende eller en bankudskrift. Kanter repræsenterer relationen mellem to enheder. Hver node og kant har egenskaber, der giver yderligere information om hver node og kant.
 
-![Grafisk repræsentation af en kolonnær-datastore, der viser en kundedatabase med to kolonnefamilier kaldet Identity og Contact Info](../../../../translated_images/columnar-db.ffcfe73c3e9063a8c8f93f8ace85e1200863584b1e324eb5159d8ca10f62ec04.da.png)
+![Grafisk repræsentation af en kolonnær datalager, der viser en kundedatabase med to kolonnefamilier kaldet Identity og Contact Info](../../../../translated_images/columnar-db.ffcfe73c3e9063a8c8f93f8ace85e1200863584b1e324eb5159d8ca10f62ec04.da.png)
 
-[Kolonnær](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) datastores organiserer data i kolonner og rækker som en relationel datastruktur, men hver kolonne er opdelt i grupper kaldet en kolonnefamilie, hvor alle data under én kolonne er relaterede og kan hentes og ændres som en enhed.
+[Kolonnær](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) datalager organiserer data i kolonner og rækker som en relationel datastruktur, men hver kolonne er opdelt i grupper kaldet en kolonnefamilie, hvor alle data under én kolonne er relaterede og kan hentes og ændres som en enhed.
 
-### Dokumentdatastores med Azure Cosmos DB
+### Dokumentdatalager med Azure Cosmos DB
 
-[Dokument](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#document-data-stores) datastores bygger på konceptet med en nøgle-værdi-datastore og består af en række felter og objekter. Denne sektion vil udforske dokumentdatabaser med Cosmos DB-emulatoren.
+[Dokument](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#document-data-stores) datalager bygger på konceptet med en nøgle-værdi datalager og består af en række felter og objekter. Denne sektion vil udforske dokumentdatabaser med Cosmos DB-emulatoren.
 
 En Cosmos DB-database passer til definitionen af "Not Only SQL", hvor Cosmos DB's dokumentdatabase bruger SQL til at forespørge data. [Den tidligere lektion](../05-relational-databases/README.md) om SQL dækker grundlæggende om sproget, og vi vil kunne anvende nogle af de samme forespørgsler på en dokumentdatabase her. Vi vil bruge Cosmos DB Emulator, som giver os mulighed for at oprette og udforske en dokumentdatabase lokalt på en computer. Læs mere om Emulatoren [her](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21).
 
@@ -94,23 +94,23 @@ Hvis du følger med, skal du klikke på "Start with Sample" for at generere en p
 
 ![Udforskning af prøvedata i Cosmos DB Emulator](../../../../translated_images/cosmosdb-emulator-persons.bf640586a7077c8985dfd3071946465c8e074c722c7c202d6d714de99a93b90a.da.png)
 
-#### Forespørgsel på dokumentdata med Cosmos DB Emulator
+#### Forespørgsel af dokumentdata med Cosmos DB Emulator
 
 Vi kan også forespørge prøvedataene ved at klikke på knappen "New SQL Query" (anden knap fra venstre).
 
-`SELECT * FROM c` returnerer alle dokumenterne i containeren. Lad os tilføje en where-sætning og finde alle under 40 år.
+`SELECT * FROM c` returnerer alle dokumenterne i containeren. Lad os tilføje en where-klausul og finde alle under 40 år.
 
 `SELECT * FROM c where c.age < 40`
 
-![Kørsel af en SELECT-forespørgsel på prøvedata i Cosmos DB Emulator for at finde dokumenter, der har en alder-feltværdi mindre end 40](../../../../translated_images/cosmosdb-emulator-persons-query.6905ebb497e3cd047cd96e55a0a03f69ce1b91b2b3d8c147e617b746b22b7e33.da.png)
+![Kørsel af en SELECT-forespørgsel på prøvedata i Cosmos DB Emulator for at finde dokumenter, der har en age-feltværdi mindre end 40](../../../../translated_images/cosmosdb-emulator-persons-query.6905ebb497e3cd047cd96e55a0a03f69ce1b91b2b3d8c147e617b746b22b7e33.da.png)
 
-Forespørgslen returnerer to dokumenter. Bemærk, at alder-værdien for hvert dokument er mindre end 40.
+Forespørgslen returnerer to dokumenter, bemærk at age-værdien for hvert dokument er mindre end 40.
 
-#### JSON og dokumenter
+#### JSON og Dokumenter
 
 Hvis du er bekendt med JavaScript Object Notation (JSON), vil du bemærke, at dokumenter ligner JSON. Der er en `PersonsData.json`-fil i denne mappe med flere data, som du kan uploade til containeren Persons i Emulatoren via knappen `Upload Item`.
 
-I de fleste tilfælde kan API'er, der returnerer JSON-data, direkte overføres og gemmes i dokumentdatabaser. Nedenfor er et andet dokument, der repræsenterer tweets fra Microsofts Twitter-konto, som blev hentet ved hjælp af Twitter API og derefter indsat i Cosmos DB.
+I de fleste tilfælde kan API'er, der returnerer JSON-data, direkte overføres og gemmes i dokumentdatabaser. Nedenfor er et andet dokument, det repræsenterer tweets fra Microsofts Twitter-konto, som blev hentet ved hjælp af Twitter API og derefter indsat i Cosmos DB.
 
 ```json
 {
@@ -136,17 +136,17 @@ Der er en `TwitterData.json`-fil, som du kan uploade til SampleDB-databasen. Det
 1. Klikke på OK (du kan ignorere resten af informationen i denne visning, da dette er et lille datasæt, der kører lokalt på din maskine)
 1. Åbne din nye container og uploade Twitter Data-filen med knappen `Upload Item`
 
-Prøv at køre nogle SELECT-forespørgsler for at finde dokumenterne, der har Microsoft i tekstfeltet. Tip: prøv at bruge [LIKE nøgleordet](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character).
+Prøv at køre nogle SELECT-forespørgsler for at finde dokumenterne, der har Microsoft i tekstfeltet. Tip: prøv at bruge [LIKE nøgleordet](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character)
 
-## [Quiz efter lektionen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/11)
+## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Gennemgang & Selvstudie
 
 - Der er nogle yderligere formateringer og funktioner tilføjet til dette regneark, som denne lektion ikke dækker. Microsoft har et [stort bibliotek af dokumentation og videoer](https://support.microsoft.com/excel) om Excel, hvis du er interesseret i at lære mere.
 
-- Denne arkitekturdokumentation beskriver egenskaberne ved de forskellige typer ikke-relationelle data: [Ikke-relationelle data og NoSQL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data).
+- Denne arkitektoniske dokumentation beskriver egenskaberne ved de forskellige typer ikke-relationelle data: [Ikke-relationelle Data og NoSQL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data)
 
-- Cosmos DB er en skybaseret ikke-relationel database, der også kan gemme de forskellige NoSQL-typer, der er nævnt i denne lektion. Lær mere om disse typer i dette [Cosmos DB Microsoft Learn Module](https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/).
+- Cosmos DB er en cloud-baseret ikke-relationel database, der også kan gemme de forskellige NoSQL-typer nævnt i denne lektion. Lær mere om disse typer i dette [Cosmos DB Microsoft Learn Modul](https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/)
 
 ## Opgave
 
@@ -155,4 +155,4 @@ Prøv at køre nogle SELECT-forespørgsler for at finde dokumenterne, der har Mi
 ---
 
 **Ansvarsfraskrivelse**:  
-Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på nøjagtighed, skal det bemærkes, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi er ikke ansvarlige for eventuelle misforståelser eller fejltolkninger, der opstår som følge af brugen af denne oversættelse.
+Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på at sikre nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi påtager os ikke ansvar for eventuelle misforståelser eller fejltolkninger, der måtte opstå som følge af brugen af denne oversættelse.

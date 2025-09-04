@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "43c402d9d90ae6da55d004519ada5033",
-  "translation_date": "2025-08-26T23:17:45+00:00",
+  "original_hash": "69b32b6789a91f796ebc7a02f5575e03",
+  "translation_date": "2025-09-04T19:17:21+00:00",
   "source_file": "3-Data-Visualization/09-visualization-quantities/README.md",
   "language_code": "da"
 }
@@ -13,22 +13,22 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Visualisering af mængder - _Sketchnote af [@nitya](https://twitter.com/nitya)_ |
 
-I denne lektion vil du udforske, hvordan du kan bruge en af de mange tilgængelige Python-biblioteker til at lære at skabe interessante visualiseringer omkring begrebet mængde. Ved at bruge et renset datasæt om fuglene i Minnesota kan du lære mange interessante fakta om det lokale dyreliv.  
+I denne lektion vil du udforske, hvordan du kan bruge en af de mange tilgængelige Python-biblioteker til at lære at skabe interessante visualiseringer omkring begrebet mængde. Ved at bruge et renset datasæt om fugle i Minnesota kan du lære mange interessante fakta om det lokale dyreliv.  
 ## [Quiz før lektionen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/16)
 
 ## Observer vingefang med Matplotlib
 
-Et fremragende bibliotek til at skabe både simple og avancerede grafer og diagrammer af forskellige slags er [Matplotlib](https://matplotlib.org/stable/index.html). Generelt indebærer processen med at plotte data ved hjælp af disse biblioteker at identificere de dele af din dataframe, du vil fokusere på, udføre nødvendige transformationer på dataene, tildele værdier til x- og y-aksen, beslutte hvilken type diagram der skal vises, og derefter vise diagrammet. Matplotlib tilbyder et stort udvalg af visualiseringer, men for denne lektion vil vi fokusere på dem, der er mest passende til at visualisere mængder: linjediagrammer, scatterplots og søjlediagrammer.
+Et fremragende bibliotek til at skabe både simple og avancerede grafer og diagrammer af forskellige slags er [Matplotlib](https://matplotlib.org/stable/index.html). Generelt indebærer processen med at plotte data ved hjælp af disse biblioteker at identificere de dele af din dataframe, du vil fokusere på, udføre nødvendige transformationer på dataene, tildele værdier til x- og y-aksen, beslutte hvilken type diagram der skal vises, og derefter vise diagrammet. Matplotlib tilbyder et stort udvalg af visualiseringer, men for denne lektion vil vi fokusere på dem, der er mest relevante for at visualisere mængder: linjediagrammer, scatterplots og søjlediagrammer.
 
 > ✅ Brug det bedste diagram til at passe til din datas struktur og den historie, du vil fortælle.  
-> - For at analysere trends over tid: linje  
+> - For at analysere tendenser over tid: linje  
 > - For at sammenligne værdier: søjle, kolonne, cirkel, scatterplot  
 > - For at vise, hvordan dele relaterer sig til helheden: cirkel  
 > - For at vise datafordeling: scatterplot, søjle  
-> - For at vise trends: linje, kolonne  
+> - For at vise tendenser: linje, kolonne  
 > - For at vise relationer mellem værdier: linje, scatterplot, boble  
 
-Hvis du har et datasæt og skal finde ud af, hvor meget der er af en given genstand, vil en af de første opgaver være at inspicere dens værdier.  
+Hvis du har et datasæt og skal finde ud af, hvor meget der er af en given genstand, vil en af de første opgaver være at inspicere værdierne.
 
 ✅ Der findes meget gode 'cheat sheets' til Matplotlib [her](https://matplotlib.org/cheatsheets/cheatsheets.pdf).
 
@@ -36,7 +36,7 @@ Hvis du har et datasæt og skal finde ud af, hvor meget der er af en given genst
 
 Åbn filen `notebook.ipynb` i roden af denne lektionsmappe og tilføj en celle.
 
-> Bemærk: dataene er gemt i roden af dette repo i mappen `/data`.
+> Bemærk: Dataene er gemt i roden af dette repo i mappen `/data`.
 
 ```python
 import pandas as pd
@@ -62,11 +62,11 @@ wingspan.plot()
 ```  
 ![Max Vingefang](../../../../translated_images/max-wingspan-02.e79fd847b2640b89e21e340a3a9f4c5d4b224c4fcd65f54385e84f1c9ed26d52.da.png)
 
-Hvad bemærker du med det samme? Der ser ud til at være mindst én outlier - det er et ret imponerende vingefang! Et vingefang på 2300 centimeter svarer til 23 meter - er der Pterodactyler, der flyver rundt i Minnesota? Lad os undersøge det.
+Hvad bemærker du med det samme? Der ser ud til at være mindst én outlier - det er et ret imponerende vingefang! Et vingefang på 2300 centimeter svarer til 23 meter - er der Pterodactyler i Minnesota? Lad os undersøge det.
 
 Selvom du hurtigt kunne sortere i Excel for at finde disse outliers, som sandsynligvis er tastefejl, fortsæt visualiseringsprocessen ved at arbejde direkte fra diagrammet.
 
-Tilføj labels til x-aksen for at vise, hvilke fugle der er tale om:
+Tilføj etiketter til x-aksen for at vise, hvilke fugle der er tale om:
 
 ```
 plt.title('Max Wingspan in Centimeters')
@@ -80,9 +80,9 @@ plt.plot(x, y)
 
 plt.show()
 ```  
-![vingefang med labels](../../../../translated_images/max-wingspan-labels-02.aa90e826ca49a9d1dde78075e9755c1849ef56a4e9ec60f7e9f3806daf9283e2.da.png)
+![vingefang med etiketter](../../../../translated_images/max-wingspan-labels-02.aa90e826ca49a9d1dde78075e9755c1849ef56a4e9ec60f7e9f3806daf9283e2.da.png)
 
-Selv med rotation af labels sat til 45 grader er der for mange til at læse. Lad os prøve en anden strategi: label kun outliers og sæt labels inden for diagrammet. Du kan bruge et scatterplot for at skabe mere plads til labeling:
+Selv med etiketterne roteret 45 grader er der for mange til at læse. Lad os prøve en anden strategi: kun at mærke outliers og placere etiketterne inden for diagrammet. Du kan bruge et scatterplot for at skabe mere plads til mærkningen:
 
 ```python
 plt.title('Max Wingspan in Centimeters')
@@ -98,7 +98,7 @@ for i in range(len(birds)):
     
 plt.show()
 ```  
-Hvad sker der her? Du brugte `tick_params` til at skjule de nederste labels og derefter oprettede en loop over dit fugledatasæt. Ved at plotte diagrammet med små runde blå prikker ved hjælp af `bo`, tjekkede du for enhver fugl med et maksimalt vingefang over 500 og viste deres label ved siden af prikken, hvis det var tilfældet. Du forskød labels lidt på y-aksen (`y * (1 - 0.05)`) og brugte fuglens navn som label.
+Hvad sker der her? Du brugte `tick_params` til at skjule de nederste etiketter og derefter oprettede en loop over dit fugledatasæt. Ved at plotte diagrammet med små runde blå prikker ved hjælp af `bo`, kontrollerede du for enhver fugl med et maksimalt vingefang over 500 og viste deres etiket ved siden af prikken, hvis det var tilfældet. Du forskød etiketterne lidt på y-aksen (`y * (1 - 0.05)`) og brugte fuglens navn som etiket.
 
 Hvad opdagede du?
 
@@ -150,7 +150,7 @@ birds.plot(x='Category',
 ```  
 ![fulde data som søjlediagram](../../../../translated_images/full-data-bar-02.aaa3fda71c63ed564b917841a1886c177dd9a26424142e510c0c0498fd6ca160.da.png)
 
-Dette søjlediagram er dog ulæseligt, fordi der er for meget ikke-grupperet data. Du skal vælge kun de data, du vil plotte, så lad os se på længden af fugle baseret på deres kategori.
+Dette søjlediagram er dog ulæseligt, fordi der er for mange ikke-grupperede data. Du skal vælge kun de data, du vil plotte, så lad os se på længden af fugle baseret på deres kategori.
 
 Filtrer dine data til kun at inkludere fuglens kategori.
 
@@ -195,21 +195,22 @@ plt.barh(category, minLength)
 
 plt.show()
 ```  
-I dette diagram kan du se spændet pr. fuglekategori af Minimum Længde og Maksimum Længde. Du kan trygt sige, at jo større fuglen er, jo større er dens længdespænd. Fascinerende!
+I dette diagram kan du se spændet pr. fuglekategori for Minimum Længde og Maksimum Længde. Du kan trygt sige, at jo større fuglen er, jo større er dens længdeområde. Fascinerende!
 
 ![overlejrede værdier](../../../../translated_images/superimposed-02.f03058536baeb2ed7864f01102538464d4c2fd7ade881ddd7d5ba74dc5d2fdae.da.png)
 
 ## 🚀 Udfordring
 
-Dette fugledatasæt tilbyder en rigdom af information om forskellige typer fugle inden for et bestemt økosystem. Søg rundt på internettet og se, om du kan finde andre fugleorienterede datasæt. Øv dig i at bygge diagrammer og grafer omkring disse fugle for at opdage fakta, du ikke vidste.  
-## [Quiz efter lektionen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/17)
+Dette fugledatasæt tilbyder en rigdom af information om forskellige typer fugle inden for et bestemt økosystem. Søg rundt på internettet og se, om du kan finde andre fugleorienterede datasæt. Øv dig i at bygge diagrammer og grafer omkring disse fugle for at opdage fakta, du ikke var klar over.
+
+## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Gennemgang & Selvstudie
 
 Denne første lektion har givet dig noget information om, hvordan du bruger Matplotlib til at visualisere mængder. Undersøg andre måder at arbejde med datasæt til visualisering. [Plotly](https://github.com/plotly/plotly.py) er et, vi ikke vil dække i disse lektioner, så tag et kig på, hvad det kan tilbyde.  
 ## Opgave
 
-[Linjer, Scatterplots og Søjler](assignment.md)  
+[Linjer, Scatterplots og Søjler](assignment.md)
 
 ---
 

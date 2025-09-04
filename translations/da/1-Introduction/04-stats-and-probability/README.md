@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "b706a07cfa87ba091cbb91e0aa775600",
-  "translation_date": "2025-08-26T21:44:06+00:00",
+  "original_hash": "8bbb3fa0d4ad61384a3b4b5f7560226f",
+  "translation_date": "2025-09-04T19:19:28+00:00",
   "source_file": "1-Introduction/04-stats-and-probability/README.md",
   "language_code": "da"
 }
@@ -13,51 +13,51 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Statistik og Sandsynlighed - _Sketchnote af [@nitya](https://twitter.com/nitya)_ |
 
-Statistik og Sandsynlighedsteori er to nært beslægtede områder inden for matematik, som er meget relevante for datavidenskab. Det er muligt at arbejde med data uden dyb matematisk viden, men det er stadig en fordel at kende nogle grundlæggende begreber. Her præsenterer vi en kort introduktion, der kan hjælpe dig i gang.
+Statistik og Sandsynlighedsteori er to nært beslægtede områder inden for matematik, som er meget relevante for datavidenskab. Det er muligt at arbejde med data uden dyb matematisk viden, men det er stadig bedre at kende i det mindste nogle grundlæggende begreber. Her præsenterer vi en kort introduktion, der kan hjælpe dig med at komme i gang.
 
 [![Introduktionsvideo](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.da.png)](https://youtu.be/Z5Zy85g4Yjw)
 
-## [Quiz før lektionen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/6)
+## [Quiz før forelæsning](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/6)
 
-## Sandsynlighed og Tilfældige Variable
+## Sandsynlighed og Stokastiske Variable
 
 **Sandsynlighed** er et tal mellem 0 og 1, der angiver, hvor sandsynligt en **begivenhed** er. Det defineres som antallet af positive udfald (der fører til begivenheden) divideret med det samlede antal udfald, forudsat at alle udfald er lige sandsynlige. For eksempel, når vi kaster en terning, er sandsynligheden for at få et lige tal 3/6 = 0,5.
 
-Når vi taler om begivenheder, bruger vi **tilfældige variable**. For eksempel vil den tilfældige variabel, der repræsenterer et tal opnået ved at kaste en terning, tage værdier fra 1 til 6. Sættet af tal fra 1 til 6 kaldes **udfaldsrummet**. Vi kan tale om sandsynligheden for, at en tilfældig variabel tager en bestemt værdi, for eksempel P(X=3)=1/6.
+Når vi taler om begivenheder, bruger vi **stokastiske variable**. For eksempel vil den stokastiske variabel, der repræsenterer et tal opnået ved at kaste en terning, tage værdier fra 1 til 6. Sættet af tal fra 1 til 6 kaldes **udfaldsrummet**. Vi kan tale om sandsynligheden for, at en stokastisk variabel tager en bestemt værdi, for eksempel P(X=3)=1/6.
 
-Den tilfældige variabel i det tidligere eksempel kaldes **diskret**, fordi den har et tælleligt udfaldsrum, dvs. der er separate værdier, der kan opregnes. Der er tilfælde, hvor udfaldsrummet er et interval af reelle tal eller hele mængden af reelle tal. Sådanne variable kaldes **kontinuerlige**. Et godt eksempel er tidspunktet, hvor bussen ankommer.
+Den stokastiske variabel i det tidligere eksempel kaldes **diskret**, fordi den har et tælleligt udfaldsrum, dvs. der er separate værdier, der kan opregnes. Der er tilfælde, hvor udfaldsrummet er et interval af reelle tal eller hele mængden af reelle tal. Sådanne variable kaldes **kontinuerlige**. Et godt eksempel er tidspunktet, hvor bussen ankommer.
 
 ## Sandsynlighedsfordeling
 
-For diskrete tilfældige variable er det nemt at beskrive sandsynligheden for hver begivenhed med en funktion P(X). For hver værdi *s* fra udfaldsrummet *S* vil den give et tal mellem 0 og 1, sådan at summen af alle værdier af P(X=s) for alle begivenheder vil være 1.
+I tilfælde af diskrete stokastiske variable er det nemt at beskrive sandsynligheden for hver begivenhed med en funktion P(X). For hver værdi *s* fra udfaldsrummet *S* vil den give et tal fra 0 til 1, sådan at summen af alle værdier af P(X=s) for alle begivenheder vil være 1.
 
 Den mest kendte diskrete fordeling er **uniform fordeling**, hvor der er et udfaldsrum med N elementer, med lige sandsynlighed på 1/N for hver af dem.
 
-Det er mere udfordrende at beskrive sandsynlighedsfordelingen for en kontinuerlig variabel med værdier trukket fra et interval [a,b] eller hele mængden af reelle tal ℝ. Overvej tilfældet med busankomsttidspunktet. Faktisk er sandsynligheden for, at en bus ankommer præcis på et bestemt tidspunkt *t*, 0!
+Det er mere vanskeligt at beskrive sandsynlighedsfordelingen for en kontinuerlig variabel med værdier trukket fra et interval [a,b] eller hele mængden af reelle tal ℝ. Overvej tilfældet med busankomsttidspunktet. Faktisk er sandsynligheden for, at en bus ankommer præcis på et bestemt tidspunkt *t*, 0!
 
-> Nu ved du, at begivenheder med sandsynlighed 0 sker, og det sker ofte! I det mindste hver gang bussen ankommer!
+> Nu ved du, at begivenheder med sandsynlighed 0 sker, og meget ofte! I det mindste hver gang bussen ankommer!
 
 Vi kan kun tale om sandsynligheden for, at en variabel falder inden for et givet interval af værdier, fx P(t<sub>1</sub>≤X<t<sub>2</sub>). I dette tilfælde beskrives sandsynlighedsfordelingen af en **sandsynlighedstæthedsfunktion** p(x), sådan at
 
 ![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.da.png)
 
-En kontinuerlig analog til uniform fordeling kaldes **kontinuerlig uniform**, som er defineret på et endeligt interval. Sandsynligheden for, at værdien X falder inden for et interval af længde l, er proportional med l og stiger op til 1.
+En kontinuerlig analog til uniform fordeling kaldes **kontinuerlig uniform**, som er defineret på et begrænset interval. Sandsynligheden for, at værdien X falder inden for et interval af længde l, er proportional med l og stiger op til 1.
 
 En anden vigtig fordeling er **normal fordeling**, som vi vil tale mere om nedenfor.
 
 ## Middelværdi, Varians og Standardafvigelse
 
-Antag, at vi trækker en sekvens af n prøver af en tilfældig variabel X: x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>. Vi kan definere **middelværdi** (eller **aritmetisk gennemsnit**) af sekvensen på traditionel vis som (x<sub>1</sub>+x<sub>2</sub>+x<sub>n</sub>)/n. Når vi øger størrelsen af prøven (dvs. tager grænsen med n→∞), vil vi opnå middelværdien (også kaldet **forventning**) af fordelingen. Vi vil betegne forventningen med **E**(x).
+Antag, at vi trækker en sekvens af n prøver af en stokastisk variabel X: x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>. Vi kan definere **middelværdi** (eller **aritmetisk gennemsnit**) af sekvensen på traditionel vis som (x<sub>1</sub>+x<sub>2</sub>+x<sub>n</sub>)/n. Når vi øger størrelsen af prøven (dvs. tager grænsen med n→∞), vil vi opnå middelværdien (også kaldet **forventning**) af fordelingen. Vi vil betegne forventningen med **E**(x).
 
 > Det kan vises, at for enhver diskret fordeling med værdier {x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>N</sub>} og tilsvarende sandsynligheder p<sub>1</sub>, p<sub>2</sub>, ..., p<sub>N</sub>, vil forventningen være E(X)=x<sub>1</sub>p<sub>1</sub>+x<sub>2</sub>p<sub>2</sub>+...+x<sub>N</sub>p<sub>N</sub>.
 
-For at identificere, hvor spredte værdierne er, kan vi beregne variansen σ<sup>2</sup> = ∑(x<sub>i</sub> - μ)<sup>2</sup>/n, hvor μ er middelværdien af sekvensen. Værdien σ kaldes **standardafvigelse**, og σ<sup>2</sup> kaldes **varians**.
+For at identificere, hvor langt værdierne er spredt, kan vi beregne variansen σ<sup>2</sup> = ∑(x<sub>i</sub> - μ)<sup>2</sup>/n, hvor μ er middelværdien af sekvensen. Værdien σ kaldes **standardafvigelse**, og σ<sup>2</sup> kaldes **varians**.
 
 ## Typetal, Median og Kvartiler
 
-Nogle gange repræsenterer middelværdien ikke tilstrækkeligt den "typiske" værdi for data. For eksempel, når der er nogle ekstreme værdier, der er helt uden for rækkevidde, kan de påvirke middelværdien. En anden god indikator er **medianen**, en værdi sådan, at halvdelen af datapunkterne er lavere end den, og den anden halvdel - højere.
+Nogle gange repræsenterer middelværdien ikke tilstrækkeligt den "typiske" værdi for data. For eksempel, når der er nogle få ekstreme værdier, der er helt uden for rækkevidde, kan de påvirke middelværdien. En anden god indikator er **medianen**, en værdi sådan at halvdelen af datapunkterne er lavere end den, og den anden halvdel - højere.
 
-For at hjælpe os med at forstå datafordelingen er det nyttigt at tale om **kvartiler**:
+For at hjælpe os med at forstå fordelingen af data er det nyttigt at tale om **kvartiler**:
 
 * Første kvartil, eller Q1, er en værdi, sådan at 25% af dataene ligger under den
 * Tredje kvartil, eller Q3, er en værdi, sådan at 75% af dataene ligger under den
@@ -66,13 +66,13 @@ Grafisk kan vi repræsentere forholdet mellem median og kvartiler i et diagram k
 
 <img src="images/boxplot_explanation.png" width="50%"/>
 
-Her beregner vi også **interkvartilområdet** IQR=Q3-Q1 og såkaldte **outliers** - værdier, der ligger uden for grænserne [Q1-1.5*IQR,Q3+1.5*IQR].
+Her beregner vi også **interkvartil spændvidde** IQR=Q3-Q1 og såkaldte **outliers** - værdier, der ligger uden for grænserne [Q1-1.5*IQR,Q3+1.5*IQR].
 
-For en endelig fordeling, der indeholder et lille antal mulige værdier, er en god "typisk" værdi den, der forekommer hyppigst, hvilket kaldes **typetal**. Det anvendes ofte på kategoriske data, såsom farver. Overvej en situation, hvor vi har to grupper af mennesker - nogle, der stærkt foretrækker rød, og andre, der foretrækker blå. Hvis vi koder farver med tal, vil middelværdien for en favoritfarve være et sted i det orange-grønne spektrum, hvilket ikke angiver den faktiske præference for nogen af grupperne. Typetallet vil dog være enten en af farverne eller begge farver, hvis antallet af mennesker, der stemmer for dem, er lige (i dette tilfælde kalder vi prøven **multimodal**).
+For en begrænset fordeling, der indeholder et lille antal mulige værdier, er en god "typisk" værdi den, der forekommer hyppigst, hvilket kaldes **typetal**. Det anvendes ofte på kategoriske data, såsom farver. Overvej en situation, hvor vi har to grupper af mennesker - nogle, der stærkt foretrækker rød, og andre, der foretrækker blå. Hvis vi koder farver med tal, vil middelværdien for en favoritfarve være et sted i det orange-grønne spektrum, hvilket ikke angiver den faktiske præference for nogen af grupperne. Typetallet vil dog være enten en af farverne eller begge farver, hvis antallet af mennesker, der stemmer for dem, er lige (i dette tilfælde kalder vi prøven **multimodal**).
 
 ## Data fra Virkeligheden
 
-Når vi analyserer data fra virkeligheden, er de ofte ikke tilfældige variable i den forstand, at vi ikke udfører eksperimenter med ukendt resultat. For eksempel, overvej et hold af baseballspillere og deres kropsdata, såsom højde, vægt og alder. Disse tal er ikke præcis tilfældige, men vi kan stadig anvende de samme matematiske begreber. For eksempel kan en sekvens af folks vægte betragtes som en sekvens af værdier trukket fra en tilfældig variabel. Nedenfor er sekvensen af vægte for faktiske baseballspillere fra [Major League Baseball](http://mlb.mlb.com/index.jsp), taget fra [dette datasæt](http://wiki.stat.ucla.edu/socr/index.php/SOCR_Data_MLB_HeightsWeights) (for din bekvemmelighed vises kun de første 20 værdier):
+Når vi analyserer data fra virkeligheden, er de ofte ikke stokastiske variable i den forstand, at vi ikke udfører eksperimenter med ukendt resultat. For eksempel, overvej et hold af baseballspillere og deres kropsdata, såsom højde, vægt og alder. Disse tal er ikke præcis tilfældige, men vi kan stadig anvende de samme matematiske begreber. For eksempel kan en sekvens af folks vægte betragtes som en sekvens af værdier trukket fra en stokastisk variabel. Nedenfor er sekvensen af vægte for faktiske baseballspillere fra [Major League Baseball](http://mlb.mlb.com/index.jsp), taget fra [dette datasæt](http://wiki.stat.ucla.edu/socr/index.php/SOCR_Data_MLB_HeightsWeights) (for din bekvemmelighed vises kun de første 20 værdier):
 
 ```
 [180.0, 215.0, 210.0, 210.0, 188.0, 176.0, 209.0, 200.0, 231.0, 180.0, 188.0, 180.0, 185.0, 160.0, 180.0, 185.0, 197.0, 189.0, 185.0, 219.0]
@@ -80,29 +80,29 @@ Når vi analyserer data fra virkeligheden, er de ofte ikke tilfældige variable 
 
 > **Note**: For at se et eksempel på arbejde med dette datasæt, kig på den [tilhørende notebook](notebook.ipynb). Der er også en række udfordringer gennem denne lektion, og du kan fuldføre dem ved at tilføje noget kode til den notebook. Hvis du ikke er sikker på, hvordan man arbejder med data, skal du ikke bekymre dig - vi vender tilbage til at arbejde med data ved hjælp af Python senere. Hvis du ikke ved, hvordan man kører kode i Jupyter Notebook, kan du kigge på [denne artikel](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
-Her er box plottet, der viser middelværdi, median og kvartiler for vores data:
+Her er box-plottet, der viser middelværdi, median og kvartiler for vores data:
 
 ![Vægt Box Plot](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.da.png)
 
-Da vores data indeholder information om forskellige spiller **roller**, kan vi også lave box plottet efter rolle - det vil give os en idé om, hvordan parameterværdierne varierer på tværs af roller. Denne gang vil vi overveje højde:
+Da vores data indeholder information om forskellige spiller **roller**, kan vi også lave box-plottet efter rolle - det vil give os en idé om, hvordan parameterværdierne varierer på tværs af roller. Denne gang vil vi overveje højde:
 
 ![Box plot efter rolle](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.da.png)
 
 Dette diagram antyder, at gennemsnitligt er højden af første basemen højere end højden af anden basemen. Senere i denne lektion vil vi lære, hvordan vi kan teste denne hypotese mere formelt, og hvordan vi kan demonstrere, at vores data er statistisk signifikante for at vise dette.
 
-> Når vi arbejder med data fra virkeligheden, antager vi, at alle datapunkter er prøver trukket fra en sandsynlighedsfordeling. Denne antagelse giver os mulighed for at anvende maskinlæringsteknikker og bygge fungerende forudsigelsesmodeller.
+> Når vi arbejder med data fra virkeligheden, antager vi, at alle datapunkter er prøver trukket fra en sandsynlighedsfordeling. Denne antagelse giver os mulighed for at anvende maskinlæringsteknikker og bygge fungerende prædiktive modeller.
 
-For at se, hvordan fordelingen af vores data er, kan vi plotte en graf kaldet et **histogram**. X-aksen vil indeholde et antal forskellige vægtintervaller (såkaldte **bins**), og den lodrette akse vil vise antallet af gange, vores tilfældige variabelprøve var inden for et givet interval.
+For at se, hvordan fordelingen af vores data er, kan vi plotte en graf kaldet et **histogram**. X-aksen vil indeholde et antal forskellige vægtintervaller (såkaldte **bins**), og den lodrette akse vil vise antallet af gange, vores stokastiske variabelprøve var inden for et givet interval.
 
 ![Histogram af data fra virkeligheden](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.da.png)
 
-Fra dette histogram kan du se, at alle værdier er centreret omkring en bestemt gennemsnitsvægt, og jo længere vi bevæger os fra den vægt - jo færre vægte af den værdi støder vi på. Dvs., det er meget usandsynligt, at vægten af en baseballspiller vil være meget forskellig fra gennemsnitsvægten. Variansen af vægtene viser, i hvilket omfang vægtene sandsynligvis vil afvige fra gennemsnittet.
+Fra dette histogram kan du se, at alle værdier er centreret omkring en bestemt gennemsnitsvægt, og jo længere vi bevæger os fra den vægt - jo færre vægte af den værdi forekommer. Dvs., det er meget usandsynligt, at vægten af en baseballspiller vil være meget forskellig fra gennemsnitsvægten. Variansen af vægtene viser, i hvilken grad vægtene sandsynligvis vil afvige fra gennemsnittet.
 
-> Hvis vi tager vægtene af andre mennesker, ikke fra baseballligaen, vil fordelingen sandsynligvis være anderledes. Dog vil formen af fordelingen være den samme, men middelværdien og variansen vil ændre sig. Så hvis vi træner vores model på baseballspillere, vil den sandsynligvis give forkerte resultater, når den anvendes på studerende på et universitet, fordi den underliggende fordeling er anderledes.
+> Hvis vi tager vægtene af andre mennesker, ikke fra baseballligaen, vil fordelingen sandsynligvis være anderledes. Dog vil formen på fordelingen være den samme, men middelværdien og variansen vil ændre sig. Så hvis vi træner vores model på baseballspillere, vil den sandsynligvis give forkerte resultater, når den anvendes på studerende fra et universitet, fordi den underliggende fordeling er anderledes.
 
 ## Normalfordeling
 
-Fordelingen af vægte, som vi har set ovenfor, er meget typisk, og mange målinger fra virkeligheden følger samme type fordeling, men med forskellige middelværdier og varians. Denne fordeling kaldes **normalfordeling**, og den spiller en meget vigtig rolle i statistik.
+Den fordeling af vægte, vi har set ovenfor, er meget typisk, og mange målinger fra virkeligheden følger samme type fordeling, men med forskellige middelværdier og varians. Denne fordeling kaldes **normalfordeling**, og den spiller en meget vigtig rolle i statistik.
 
 At bruge normalfordeling er en korrekt måde at generere tilfældige vægte af potentielle baseballspillere. Når vi kender gennemsnitsvægten `mean` og standardafvigelsen `std`, kan vi generere 1000 vægtprøver på følgende måde:
 ```python
@@ -117,19 +117,19 @@ Hvis vi plotter histogrammet for de genererede prøver, vil vi se et billede, de
 
 ## Konfidensintervaller
 
-Når vi taler om vægtene af baseballspillere, antager vi, at der er en bestemt **tilfældig variabel W**, der svarer til den ideelle sandsynlighedsfordeling af vægtene for alle baseballspillere (den såkaldte **population**). Vores sekvens af vægte svarer til et udsnit af alle baseballspillere, som vi kalder **prøve**. Et interessant spørgsmål er, om vi kan kende parametrene for fordelingen af W, dvs. middelværdien og variansen af populationen?
+Når vi taler om vægtene af baseballspillere, antager vi, at der er en vis **stokastisk variabel W**, der svarer til den ideelle sandsynlighedsfordeling af vægtene for alle baseballspillere (den såkaldte **population**). Vores sekvens af vægte svarer til en delmængde af alle baseballspillere, som vi kalder **prøve**. Et interessant spørgsmål er, om vi kan kende parametrene for fordelingen af W, dvs. middelværdien og variansen af populationen?
 
 Det nemmeste svar ville være at beregne middelværdien og variansen af vores prøve. Dog kunne det ske, at vores tilfældige prøve ikke nøjagtigt repræsenterer den komplette population. Derfor giver det mening at tale om **konfidensintervaller**.
-> **Konfidensinterval** er en estimering af den sande middelværdi for populationen baseret på vores stikprøve, som er nøjagtig med en vis sandsynlighed (eller **konfidensniveau**).
+> **Konfidensinterval** er en vurdering af den sande middelværdi for populationen baseret på vores stikprøve, som er nøjagtig med en vis sandsynlighed (eller **konfidensniveau**).
 Antag, at vi har en stikprøve X<sub>1</sub>, ..., X<sub>n</sub> fra vores fordeling. Hver gang vi trækker en stikprøve fra vores fordeling, vil vi ende med en forskellig middelværdi μ. Derfor kan μ betragtes som en stokastisk variabel. Et **konfidensinterval** med konfidens p er et par værdier (L<sub>p</sub>,R<sub>p</sub>), sådan at **P**(L<sub>p</sub>≤μ≤R<sub>p</sub>) = p, dvs. sandsynligheden for, at den målte middelværdi falder inden for intervallet, er lig med p.
 
 Det går ud over vores korte introduktion at diskutere i detaljer, hvordan disse konfidensintervaller beregnes. Flere detaljer kan findes [på Wikipedia](https://en.wikipedia.org/wiki/Confidence_interval). Kort sagt definerer vi fordelingen af den beregnede stikprøvemiddelværdi i forhold til den sande middelværdi af populationen, hvilket kaldes **studentfordeling**.
 
 > **Interessant fakta**: Studentfordelingen er opkaldt efter matematikeren William Sealy Gosset, som udgav sin artikel under pseudonymet "Student". Han arbejdede på Guinness-bryggeriet, og ifølge en af versionerne ønskede hans arbejdsgiver ikke, at offentligheden skulle vide, at de brugte statistiske tests til at bestemme kvaliteten af råmaterialer.
 
-Hvis vi ønsker at estimere middelværdien μ af vores population med konfidens p, skal vi tage *(1-p)/2-percentilen* af en Studentfordeling A, som enten kan tages fra tabeller eller beregnes ved hjælp af indbyggede funktioner i statistisk software (fx Python, R osv.). Derefter vil intervallet for μ være givet ved X±A*D/√n, hvor X er den opnåede middelværdi af stikprøven, og D er standardafvigelsen.
+Hvis vi ønsker at estimere middelværdien μ af vores population med konfidens p, skal vi tage *(1-p)/2-percentilen* af en Studentfordeling A, som enten kan hentes fra tabeller eller beregnes ved hjælp af indbyggede funktioner i statistisk software (fx Python, R osv.). Derefter vil intervallet for μ være givet ved X±A*D/√n, hvor X er den opnåede middelværdi af stikprøven, og D er standardafvigelsen.
 
-> **Bemærk**: Vi udelader også diskussionen om et vigtigt begreb, [frihedsgrader](https://en.wikipedia.org/wiki/Degrees_of_freedom_(statistics)), som er vigtigt i relation til Studentfordelingen. Du kan henvise til mere komplette bøger om statistik for at forstå dette begreb dybere.
+> **Note**: Vi udelader også diskussionen om et vigtigt begreb kaldet [frihedsgrader](https://en.wikipedia.org/wiki/Degrees_of_freedom_(statistics)), som er vigtigt i relation til Studentfordelingen. Du kan henvise til mere komplette bøger om statistik for at forstå dette begreb dybere.
 
 Et eksempel på beregning af konfidensinterval for vægt og højde findes i de [tilhørende notebooks](notebook.ipynb).
 
@@ -207,11 +207,11 @@ Fra den centrale grænseværdisætning følger det også, at når N→∞, blive
 
 ## Kovarians og korrelation
 
-En af de ting, Data Science gør, er at finde relationer mellem data. Vi siger, at to sekvenser **korrelerer**, når de udviser lignende adfærd på samme tid, dvs. de enten stiger/falder samtidig, eller én sekvens stiger, når en anden falder og omvendt. Med andre ord ser der ud til at være en relation mellem to sekvenser.
+En af de ting, Data Science gør, er at finde relationer mellem data. Vi siger, at to sekvenser **korrelerer**, når de udviser lignende adfærd på samme tid, dvs. de enten stiger/falder samtidig, eller én sekvens stiger, når en anden falder og omvendt. Med andre ord ser der ud til at være en relation mellem de to sekvenser.
 
 > Korrelation indikerer ikke nødvendigvis en årsagssammenhæng mellem to sekvenser; nogle gange kan begge variabler afhænge af en ekstern årsag, eller det kan være rent tilfældigt, at de to sekvenser korrelerer. Dog er stærk matematisk korrelation en god indikation på, at to variabler på en eller anden måde er forbundet.
 
-Matematisk er det primære begreb, der viser relationen mellem to stokastiske variabler, **kovarians**, som beregnes sådan: Cov(X,Y) = **E**\[(X-**E**(X))(Y-**E**(Y))\]. Vi beregner afvigelsen af begge variabler fra deres middelværdier og derefter produktet af disse afvigelser. Hvis begge variabler afviger sammen, vil produktet altid være en positiv værdi, der vil summere til positiv kovarians. Hvis begge variabler afviger ude af sync (dvs. én falder under gennemsnittet, når en anden stiger over gennemsnittet), vil vi altid få negative tal, der vil summere til negativ kovarians. Hvis afvigelserne ikke er afhængige, vil de summere til cirka nul.
+Matematisk er det primære begreb, der viser relationen mellem to stokastiske variabler, **kovarians**, som beregnes sådan: Cov(X,Y) = **E**\[(X-**E**(X))(Y-**E**(Y))\]. Vi beregner afvigelsen af begge variabler fra deres middelværdier og derefter produktet af disse afvigelser. Hvis begge variabler afviger sammen, vil produktet altid være en positiv værdi, der vil summere til positiv kovarians. Hvis begge variabler afviger usynkront (dvs. én falder under gennemsnittet, når en anden stiger over gennemsnittet), vil vi altid få negative tal, der vil summere til negativ kovarians. Hvis afvigelserne ikke er afhængige, vil de summere til cirka nul.
 
 Den absolutte værdi af kovarians fortæller os ikke meget om, hvor stor korrelationen er, fordi den afhænger af størrelsen af de faktiske værdier. For at normalisere den kan vi dividere kovarians med standardafvigelsen af begge variabler for at få **korrelation**. Det gode ved korrelation er, at den altid ligger i intervallet [-1,1], hvor 1 indikerer stærk positiv korrelation mellem værdier, -1 - stærk negativ korrelation, og 0 - ingen korrelation overhovedet (variablerne er uafhængige).
 
@@ -252,13 +252,13 @@ Brug eksempelkoden i notebooken til at teste andre hypoteser:
 2. First basemen er højere end third basemen
 3. Shortstops er højere end second basemen
 
-## [Quiz efter lektionen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/7)
+## [Quiz efter forelæsning](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Gennemgang & Selvstudie
 
 Sandsynlighed og statistik er et så bredt emne, at det fortjener sit eget kursus. Hvis du er interesseret i at gå dybere ind i teorien, kan du overveje at læse nogle af følgende bøger:
 
-1. [Carlos Fernandez-Granda](https://cims.nyu.edu/~cfgranda/) fra New York University har fremragende noter [Probability and Statistics for Data Science](https://cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf) (tilgængelig online)
+1. [Carlos Fernandez-Granda](https://cims.nyu.edu/~cfgranda/) fra New York University har fremragende forelæsningsnoter [Probability and Statistics for Data Science](https://cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf) (tilgængelig online)
 1. [Peter og Andrew Bruce. Practical Statistics for Data Scientists.](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/) [[eksempelkode i R](https://github.com/andrewgbruce/statistics-for-data-scientists)]. 
 1. [James D. Miller. Statistics for Data Science](https://www.packtpub.com/product/statistics-for-data-science/9781788290678) [[eksempelkode i R](https://github.com/PacktPublishing/Statistics-for-Data-Science)]
 

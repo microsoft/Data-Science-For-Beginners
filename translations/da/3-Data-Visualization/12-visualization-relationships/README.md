@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "cad419b574d5c35eaa417e9abfdcb0c8",
-  "translation_date": "2025-08-26T22:53:35+00:00",
+  "original_hash": "b29e427401499e81f4af55a8c4afea76",
+  "translation_date": "2025-09-04T19:18:27+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "da"
 }
@@ -17,7 +17,7 @@ Vi fortsætter med naturfokus i vores forskning og udforsker interessante visual
 
 Dette datasæt med omkring 600 poster viser honningproduktion i mange amerikanske stater. For eksempel kan du se på antallet af kolonier, udbytte pr. koloni, total produktion, lagre, pris pr. pund og værdien af den producerede honning i en given stat fra 1998-2012, med én række pr. år for hver stat.
 
-Det vil være interessant at visualisere relationen mellem en given stats produktion pr. år og f.eks. prisen på honning i den stat. Alternativt kunne du visualisere relationen mellem staters honningudbytte pr. koloni. Denne tidsperiode dækker den ødelæggende 'CCD' eller 'Colony Collapse Disorder', som først blev observeret i 2006 (http://npic.orst.edu/envir/ccd.html), hvilket gør det til et tankevækkende datasæt at studere. 🐝
+Det vil være interessant at visualisere relationen mellem en given stats produktion pr. år og f.eks. prisen på honning i den stat. Alternativt kan du visualisere relationen mellem staters honningudbytte pr. koloni. Denne tidsperiode dækker den ødelæggende 'CCD' eller 'Colony Collapse Disorder', som først blev observeret i 2006 (http://npic.orst.edu/envir/ccd.html), så det er et tankevækkende datasæt at studere. 🐝
 
 ## [Quiz før lektionen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/22)
 
@@ -27,7 +27,7 @@ I denne lektion kan du bruge Seaborn, som du har brugt før, som et godt bibliot
 
 Brug et scatterplot til at vise, hvordan prisen på honning har udviklet sig år for år pr. stat. Seaborn, ved brug af `relplot`, grupperer bekvemt data fra staterne og viser datapunkter for både kategoriske og numeriske data.
 
-Lad os starte med at importere data og Seaborn:
+Lad os starte med at importere dataene og Seaborn:
 
 ```python
 import pandas as pd
@@ -36,7 +36,7 @@ import seaborn as sns
 honey = pd.read_csv('../../data/honey.csv')
 honey.head()
 ```
-Du bemærker, at honningdataene har flere interessante kolonner, herunder år og pris pr. pund. Lad os udforske disse data, grupperet efter amerikanske stater:
+Du bemærker, at honningdataene har flere interessante kolonner, inklusive år og pris pr. pund. Lad os udforske disse data, grupperet efter amerikanske stater:
 
 | stat | numcol | yieldpercol | totalprod | stocks   | priceperlb | prodvalue | year |
 | ----- | ------ | ----------- | --------- | -------- | ---------- | --------- | ---- |
@@ -62,7 +62,7 @@ sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey,
 ```
 ![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.da.png)
 
-Med denne farveskemaændring kan du tydeligt se en stærk progression over årene i forhold til honningprisen pr. pund. Hvis du ser på et eksempel i datasættet for at verificere (vælg f.eks. Arizona), kan du se et mønster med prisstigninger år for år, med få undtagelser:
+Med denne farveskemaændring kan du se, at der tydeligvis er en stærk progression over årene i forhold til honningprisen pr. pund. Faktisk, hvis du ser på et eksempel i dataene for at verificere (vælg en given stat, f.eks. Arizona), kan du se et mønster af prisstigninger år for år med få undtagelser:
 
 | stat | numcol | yieldpercol | totalprod | stocks  | priceperlb | prodvalue | year |
 | ----- | ------ | ----------- | --------- | ------- | ---------- | --------- | ---- |
@@ -106,7 +106,7 @@ Svar: Ja, med nogle undtagelser omkring året 2003:
 
 ![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.da.png)
 
-✅ Fordi Seaborn aggregerer data omkring én linje, viser den "de multiple målinger ved hver x-værdi ved at plotte gennemsnittet og 95% konfidensintervallet omkring gennemsnittet". [Kilde](https://seaborn.pydata.org/tutorial/relational.html). Denne tidskrævende adfærd kan deaktiveres ved at tilføje `ci=None`.
+✅ Fordi Seaborn aggregerer data omkring én linje, viser det "de flere målinger ved hver x-værdi ved at plotte gennemsnittet og 95% konfidensintervallet omkring gennemsnittet". [Kilde](https://seaborn.pydata.org/tutorial/relational.html). Denne tidskrævende adfærd kan deaktiveres ved at tilføje `ci=None`.
 
 Spørgsmål: Nå, i 2003 kan vi også se en stigning i honningforsyningen? Hvad hvis du ser på den totale produktion år for år?
 
@@ -116,7 +116,7 @@ sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 
 ![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.da.png)
 
-Svar: Ikke rigtig. Hvis du ser på den totale produktion, ser det faktisk ud til at være steget i det pågældende år, selvom mængden af produceret honning generelt er faldende i disse år.
+Svar: Ikke rigtigt. Hvis du ser på den totale produktion, ser det faktisk ud til at være steget i det pågældende år, selvom mængden af produceret honning generelt set er faldende i disse år.
 
 Spørgsmål: I så fald, hvad kunne have forårsaget den stigning i prisen på honning omkring 2003?
 
@@ -163,15 +163,16 @@ ax.figure.legend();
 ```
 ![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.da.png)
 
-Mens intet springer i øjnene omkring året 2003, giver det os mulighed for at afslutte denne lektion på en lidt gladere note: selvom der generelt er et faldende antal kolonier, stabiliserer antallet af kolonier sig, selvom deres udbytte pr. koloni falder.
+Mens intet springer i øjnene omkring året 2003, giver det os mulighed for at afslutte denne lektion på en lidt gladere note: selvom der generelt er et faldende antal kolonier, stabiliserer antallet af kolonier sig, selvom deres udbytte pr. koloni er faldende.
 
 Kom så, bier, kom så!
 
 🐝❤️
 ## 🚀 Udfordring
 
-I denne lektion lærte du lidt mere om andre anvendelser af scatterplots og line grids, inklusive facet grids. Udfordr dig selv til at lave et facet grid ved hjælp af et andet datasæt, måske et du brugte før disse lektioner. Bemærk, hvor lang tid de tager at lave, og hvordan du skal være forsigtig med, hvor mange grids du skal tegne ved hjælp af disse teknikker.
-## [Quiz efter lektionen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/23)
+I denne lektion lærte du lidt mere om andre anvendelser af scatterplots og line grids, inklusive facet grids. Udfordr dig selv til at lave et facet grid ved hjælp af et andet datasæt, måske et du brugte tidligere i disse lektioner. Bemærk, hvor lang tid det tager at lave, og hvordan du skal være forsigtig med, hvor mange grids du skal tegne ved hjælp af disse teknikker.
+
+## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Gennemgang & Selvstudie
 
@@ -183,4 +184,4 @@ Linjediagrammer kan være simple eller ret komplekse. Læs lidt i [Seaborns doku
 ---
 
 **Ansvarsfraskrivelse**:  
-Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi er ikke ansvarlige for eventuelle misforståelser eller fejltolkninger, der opstår som følge af brugen af denne oversættelse.
+Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi er ikke ansvarlige for eventuelle misforståelser eller fejltolkninger, der måtte opstå som følge af brugen af denne oversættelse.

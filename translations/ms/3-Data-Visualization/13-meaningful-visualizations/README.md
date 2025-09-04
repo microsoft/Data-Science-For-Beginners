@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "4ec4747a9f4f7d194248ea29903ae165",
-  "translation_date": "2025-08-28T18:44:13+00:00",
+  "original_hash": "0b380bb6d34102bb061eb41de23d9834",
+  "translation_date": "2025-09-04T20:49:07+00:00",
   "source_file": "3-Data-Visualization/13-meaningful-visualizations/README.md",
   "language_code": "ms"
 }
@@ -11,11 +11,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 |![ Sketchnote oleh [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/13-MeaningfulViz.png)|
 |:---:|
-| Visualisasi Bermakna - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_ |
+| Visualisasi yang Bermakna - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_ |
 
 > "Jika anda menyeksa data cukup lama, ia akan mengaku apa sahaja" -- [Ronald Coase](https://en.wikiquote.org/wiki/Ronald_Coase)
 
-Salah satu kemahiran asas seorang saintis data adalah keupayaan untuk mencipta visualisasi data yang bermakna yang membantu menjawab soalan yang mungkin anda ada. Sebelum memvisualisasikan data anda, anda perlu memastikan bahawa ia telah dibersihkan dan disediakan, seperti yang telah anda lakukan dalam pelajaran sebelumnya. Selepas itu, anda boleh mula memutuskan cara terbaik untuk membentangkan data tersebut.
+Salah satu kemahiran asas seorang saintis data adalah keupayaan untuk mencipta visualisasi data yang bermakna yang membantu menjawab soalan yang anda ada. Sebelum memvisualisasikan data anda, anda perlu memastikan bahawa ia telah dibersihkan dan disediakan, seperti yang telah anda lakukan dalam pelajaran sebelumnya. Selepas itu, anda boleh mula memutuskan cara terbaik untuk mempersembahkan data tersebut.
 
 Dalam pelajaran ini, anda akan mengkaji:
 
@@ -37,15 +37,15 @@ Dalam pelajaran sebelumnya, anda telah bereksperimen dengan membina pelbagai jen
 | Menunjukkan trend data dari masa ke masa | Garis                          |
 | Membandingkan kategori      | Bar, Pai                       |
 | Membandingkan jumlah        | Pai, Bar Bertindan             |
-| Menunjukkan hubungan        | Serakan, Garis, Facet, Garis Berganda |
+| Menunjukkan hubungan        | Serakan, Garis, Facet, Garis Ganda |
 | Menunjukkan taburan         | Serakan, Histogram, Kotak      |
 | Menunjukkan perkadaran      | Pai, Donut, Wafel              |
 
-> ✅ Bergantung pada komposisi data anda, anda mungkin perlu menukarnya daripada teks kepada angka untuk menyokong jenis carta tertentu.
+> ✅ Bergantung pada komposisi data anda, anda mungkin perlu menukarnya daripada teks kepada angka untuk menyokong carta tertentu.
 
 ## Elakkan penipuan
 
-Walaupun seorang saintis data berhati-hati memilih carta yang sesuai untuk data yang betul, terdapat banyak cara data boleh dipaparkan untuk membuktikan sesuatu, sering kali dengan mengorbankan integriti data itu sendiri. Terdapat banyak contoh carta dan infografik yang mengelirukan!
+Walaupun seorang saintis data berhati-hati memilih carta yang sesuai untuk data yang sesuai, terdapat banyak cara data boleh dipaparkan untuk membuktikan sesuatu, sering kali dengan mengorbankan integriti data itu sendiri. Terdapat banyak contoh carta dan infografik yang mengelirukan!
 
 [![Bagaimana Carta Menipu oleh Alberto Cairo](../../../../translated_images/tornado.9f42168791208f970d6faefc11d1226d7ca89518013b14aa66b1c9edcd7678d2.ms.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Bagaimana carta menipu")
 
@@ -59,7 +59,7 @@ Carta ini membalikkan paksi X untuk menunjukkan kebalikan daripada kebenaran, be
 
 ![carta buruk 2](../../../../translated_images/bad-chart-2.c20e36dd4e6f617c0c325878dd421a563885bbf30a394884c147438827254e0e.ms.jpg)
 
-Contoh terkenal ini menggunakan warna DAN paksi Y yang terbalik untuk menipu: bukannya menyimpulkan bahawa kematian akibat senjata meningkat selepas penggubalan undang-undang mesra senjata, mata sebenarnya tertipu untuk berfikir sebaliknya:
+Contoh terkenal ini menggunakan warna DAN paksi Y yang terbalik untuk menipu: bukannya menyimpulkan bahawa kematian akibat senjata meningkat selepas penggubalan undang-undang mesra senjata, mata sebenarnya tertipu untuk berfikir bahawa sebaliknya adalah benar:
 
 ![carta buruk 3](../../../../translated_images/bad-chart-3.6865d0afac4108d737558d90a61547d23a8722896397ec792264ee51a1be4be5.ms.jpg)
 
@@ -67,9 +67,9 @@ Carta pelik ini menunjukkan bagaimana perkadaran boleh dimanipulasi, dengan kesa
 
 ![carta buruk 4](../../../../translated_images/bad-chart-4.68cfdf4011b454471053ee1231172747e1fbec2403b4443567f1dc678134f4f2.ms.jpg)
 
-Membandingkan perkara yang tidak boleh dibandingkan adalah satu lagi helah yang tidak jujur. Terdapat [laman web yang hebat](https://tylervigen.com/spurious-correlations) tentang 'hubungan palsu' yang memaparkan 'fakta' yang mengaitkan perkara seperti kadar perceraian di Maine dan penggunaan marjerin. Kumpulan Reddit juga mengumpulkan [penggunaan data yang buruk](https://www.reddit.com/r/dataisugly/top/?t=all).
+Membandingkan perkara yang tidak boleh dibandingkan adalah satu lagi helah yang tidak jujur. Terdapat [laman web yang hebat](https://tylervigen.com/spurious-correlations) tentang 'korelasi palsu' yang memaparkan 'fakta' yang mengaitkan perkara seperti kadar perceraian di Maine dan penggunaan marjerin. Kumpulan Reddit juga mengumpulkan [penggunaan data yang buruk](https://www.reddit.com/r/dataisugly/top/?t=all).
 
-Adalah penting untuk memahami betapa mudahnya mata boleh tertipu oleh carta yang mengelirukan. Walaupun niat saintis data adalah baik, pemilihan jenis carta yang salah, seperti carta pai yang menunjukkan terlalu banyak kategori, boleh mengelirukan.
+Adalah penting untuk memahami betapa mudahnya mata boleh tertipu oleh carta yang mengelirukan. Walaupun niat saintis data adalah baik, pemilihan jenis carta yang buruk, seperti carta pai yang menunjukkan terlalu banyak kategori, boleh mengelirukan.
 
 ## Warna
 
@@ -79,7 +79,7 @@ Anda telah melihat dalam carta 'keganasan senjata Florida' di atas bagaimana war
 
 Berhati-hati semasa memilih warna untuk carta anda, kerana warna boleh menyampaikan makna yang mungkin tidak anda maksudkan. 'Wanita merah jambu' dalam carta 'ketinggian' di atas menyampaikan makna 'feminin' yang jelas yang menambah keanehan carta itu sendiri.
 
-Walaupun [makna warna](https://colormatters.com/color-symbolism/the-meanings-of-colors) mungkin berbeza di bahagian dunia yang berlainan, dan cenderung berubah mengikut bayangannya. Secara umum, makna warna termasuk:
+Walaupun [makna warna](https://colormatters.com/color-symbolism/the-meanings-of-colors) mungkin berbeza di bahagian dunia yang berlainan, dan cenderung berubah mengikut tona warna. Secara umum, makna warna termasuk:
 
 | Warna  | Makna               |
 | ------ | ------------------- |
@@ -112,7 +112,7 @@ Beberapa visualisasi data terbaik hari ini adalah animasi. Shirley Wu mempunyai 
 
 Walaupun pelajaran ini tidak mencukupi untuk mengajar perpustakaan visualisasi yang berkuasa ini secara mendalam, cuba gunakan D3 dalam aplikasi Vue.js menggunakan perpustakaan untuk memaparkan visualisasi buku "Dangerous Liaisons" sebagai rangkaian sosial animasi.
 
-> "Les Liaisons Dangereuses" ialah novel epistolari, atau novel yang disampaikan sebagai siri surat. Ditulis pada tahun 1782 oleh Choderlos de Laclos, ia menceritakan kisah manuver sosial yang kejam dan tidak bermoral oleh dua protagonis yang bersaing dalam kalangan bangsawan Perancis pada akhir abad ke-18, Vicomte de Valmont dan Marquise de Merteuil. Kedua-duanya menemui kehancuran mereka pada akhirnya tetapi tidak tanpa menyebabkan kerosakan sosial yang besar. Novel ini berkembang sebagai siri surat yang ditulis kepada pelbagai orang dalam lingkaran mereka, merancang untuk membalas dendam atau sekadar membuat masalah. Cipta visualisasi surat-surat ini untuk mengenal pasti 'kingpin' utama dalam naratif, secara visual.
+> "Les Liaisons Dangereuses" ialah novel epistolari, atau novel yang disampaikan sebagai siri surat. Ditulis pada tahun 1782 oleh Choderlos de Laclos, ia menceritakan kisah manuver sosial yang kejam dan tidak bermoral oleh dua protagonis yang bersaing dalam kalangan bangsawan Perancis pada akhir abad ke-18, Vicomte de Valmont dan Marquise de Merteuil. Kedua-duanya akhirnya menemui kehancuran mereka tetapi tidak sebelum menyebabkan kerosakan sosial yang besar. Novel ini berkembang sebagai siri surat yang ditulis kepada pelbagai orang dalam lingkaran mereka, merancang untuk membalas dendam atau sekadar untuk menimbulkan masalah. Cipta visualisasi surat-surat ini untuk mengenal pasti tokoh utama dalam naratif, secara visual.
 
 Anda akan melengkapkan aplikasi web yang akan memaparkan pandangan animasi rangkaian sosial ini. Ia menggunakan perpustakaan yang dibina untuk mencipta [visual rangkaian](https://github.com/emiliorizzo/vue-d3-network) menggunakan Vue.js dan D3. Apabila aplikasi berjalan, anda boleh menarik nod di skrin untuk menyusun semula data.
 
@@ -128,7 +128,7 @@ Anda akan melengkapkan aplikasi web yang akan memaparkan pandangan animasi rangk
 
 3. Lengkapkan kod dalam `components/Nodes.vue` untuk membolehkan visualisasi. Cari kaedah yang dipanggil `createLinks()` dan tambahkan gelung bersarang berikut.
 
-Gelung melalui objek .json untuk menangkap data 'to' dan 'from' untuk surat-surat dan bina objek `links` supaya perpustakaan visualisasi boleh menggunakannya:
+Gelung melalui objek .json untuk menangkap data 'to' dan 'from' untuk surat-surat dan membina objek `links` supaya perpustakaan visualisasi dapat menggunakannya:
 
 ```javascript
 //loop through letters
@@ -152,9 +152,9 @@ Jalankan aplikasi anda dari terminal (npm run serve) dan nikmati visualisasi!
 
 ## 🚀 Cabaran
 
-Jelajahi internet untuk mencari visualisasi yang mengelirukan. Bagaimana pengarang menipu pengguna, dan adakah ia disengajakan? Cuba betulkan visualisasi untuk menunjukkan bagaimana ia sepatutnya kelihatan.
+Jelajahi internet untuk mencari visualisasi yang mengelirukan. Bagaimana pengarang menipu pengguna, dan adakah ia disengajakan? Cuba betulkan visualisasi tersebut untuk menunjukkan bagaimana ia sepatutnya kelihatan.
 
-## [Kuiz Pasca-Kuliah](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/25)
+## [Kuiz Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Kajian & Pembelajaran Kendiri
 
@@ -168,7 +168,7 @@ Lihat visualisasi menarik ini untuk aset dan artifak sejarah:
 
 https://handbook.pubpub.org/
 
-Baca artikel ini tentang bagaimana animasi boleh meningkatkan visualisasi anda:
+Lihat artikel ini tentang bagaimana animasi boleh meningkatkan visualisasi anda:
 
 https://medium.com/@EvanSinar/use-animation-to-supercharge-data-visualization-cd905a882ad4
 

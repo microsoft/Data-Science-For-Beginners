@@ -1,13 +1,13 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "73dead89dc2ddda4d6ec0232814a191e",
-  "translation_date": "2025-08-26T22:14:44+00:00",
+  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
+  "translation_date": "2025-09-04T19:10:16+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "da"
 }
 -->
-# Data Science i skyen: Den "Azure ML SDK" tilgang
+# Data Science i skyen: Den "Azure ML SDK" måde
 
 |![ Sketchnote af [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/19-DataScience-Cloud.png)|
 |:---:|
@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Indholdsfortegnelse:
 
-- [Data Science i skyen: Den "Azure ML SDK" tilgang](../../../../5-Data-Science-In-Cloud/19-Azure)
+- [Data Science i skyen: Den "Azure ML SDK" måde](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Quiz før lektionen](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [1. Introduktion](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [1.1 Hvad er Azure ML SDK?](../../../../5-Data-Science-In-Cloud/19-Azure)
@@ -53,7 +53,7 @@ Nøgleområder i SDK inkluderer:
 - Brug automatiseret machine learning, som accepterer konfigurationsparametre og træningsdata. Det itererer automatisk gennem algoritmer og hyperparameterindstillinger for at finde den bedste model til at køre forudsigelser.
 - Udrul webtjenester for at konvertere dine trænede modeller til RESTful-tjenester, der kan forbruges i enhver applikation.
 
-[Læs mere om Azure Machine Learning SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
+[Lær mere om Azure Machine Learning SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
 I [den forrige lektion](../18-Low-Code/README.md) så vi, hvordan man træner, udruller og forbruger en model på en Low code/No code-måde. Vi brugte hjertesvigt-datasættet til at generere en hjertesvigtforudsigelsesmodel. I denne lektion vil vi gøre præcis det samme, men ved hjælp af Azure Machine Learning SDK.
 
@@ -124,7 +124,7 @@ from azureml.core import Experiment
 experiment_name = 'aml-experiment'
 experiment = Experiment(ws, experiment_name)
 ```
-For at få eller oprette et eksperiment fra et workspace anmoder du om eksperimentet ved hjælp af eksperimentnavnet. Eksperimentnavnet skal være 3-36 tegn, starte med et bogstav eller et tal og kan kun indeholde bogstaver, tal, understregninger og bindestreger. Hvis eksperimentet ikke findes i workspace, oprettes et nyt eksperiment.
+For at få eller oprette et eksperiment fra et workspace skal du anmode om eksperimentet ved hjælp af eksperimentnavnet. Eksperimentnavnet skal være 3-36 tegn, starte med et bogstav eller et tal og kan kun indeholde bogstaver, tal, understregninger og bindestreger. Hvis eksperimentet ikke findes i workspace, oprettes et nyt eksperiment.
 
 Nu skal du oprette en compute-cluster til træningen ved hjælp af følgende kode. Bemærk, at dette trin kan tage et par minutter. 
 
@@ -145,7 +145,7 @@ cts = ws.compute_targets
 compute_target = cts[aml_name]
 ```
 
-Du kan få datasættet fra workspace ved hjælp af datasætnavnet på følgende måde:
+Du kan hente datasættet fra workspace ved hjælp af datasætnavnet på følgende måde:
 
 ```python
 dataset = ws.datasets['heart-failure-records']
@@ -161,7 +161,7 @@ Som beskrevet i dokumentationen er der mange parametre, du kan lege med. For det
 - `experiment_timeout_minutes`: Den maksimale tid (i minutter), som eksperimentet må køre, før det automatisk stoppes, og resultaterne automatisk gøres tilgængelige.
 - `max_concurrent_iterations`: Det maksimale antal samtidige træningsiterationer, der er tilladt for eksperimentet.
 - `primary_metric`: Den primære metrik, der bruges til at bestemme eksperimentets status.
-- `compute_target`: Azure Machine Learning compute-målet, som det automatiserede machine learning-eksperiment skal køre på.
+- `compute_target`: Azure Machine Learning compute-målet, hvorpå det automatiserede machine learning-eksperiment skal køre.
 - `task`: Typen af opgave, der skal køres. Værdier kan være 'classification', 'regression' eller 'forecasting' afhængigt af typen af automatiseret ML-problem, der skal løses.
 - `training_data`: Træningsdataene, der skal bruges i eksperimentet. Det skal indeholde både træningsfunktioner og en label-kolonne (valgfrit en sample weights-kolonne).
 - `label_column_name`: Navnet på label-kolonnen.
@@ -286,22 +286,22 @@ response
 ```
 Dette bør give outputtet `'{"result": [false]}'`. Det betyder, at patientdataene, vi sendte til endpointet, genererede forudsigelsen `false`, hvilket betyder, at denne person sandsynligvis ikke vil få et hjerteanfald.
 
-Tillykke! Du har netop brugt modellen, der er implementeret og trænet på Azure ML med Azure ML SDK!
+Tillykke! Du har netop brugt modellen, der er deployeret og trænet på Azure ML med Azure ML SDK!
 
 
-> **_NOTE:_** Når du er færdig med projektet, må du ikke glemme at slette alle ressourcer.
+> **_NOTE:_** Når du er færdig med projektet, må du ikke glemme at slette alle ressourcerne.
 
 ## 🚀 Udfordring
 
-Der er mange andre ting, du kan gøre med SDK'en, men desværre kan vi ikke gennemgå dem alle i denne lektion. Men gode nyheder: Hvis du lærer at navigere i SDK-dokumentationen, kan du komme langt på egen hånd. Tag et kig på Azure ML SDK-dokumentationen og find klassen `Pipeline`, som giver dig mulighed for at oprette pipelines. En pipeline er en samling af trin, der kan udføres som en arbejdsgang.
+Der er mange andre ting, du kan gøre med SDK'en, men desværre kan vi ikke gennemgå dem alle i denne lektion. Men gode nyheder: Hvis du lærer at navigere i SDK-dokumentationen, kan du komme langt på egen hånd. Tag et kig på Azure ML SDK-dokumentationen og find `Pipeline`-klassen, som giver dig mulighed for at oprette pipelines. En pipeline er en samling af trin, der kan udføres som en arbejdsgang.
 
-**TIP:** Gå til [SDK-dokumentationen](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) og skriv nøgleord i søgefeltet som "Pipeline". Du bør finde klassen `azureml.pipeline.core.Pipeline` i søgeresultaterne.
+**TIP:** Gå til [SDK-dokumentationen](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) og skriv nøgleord i søgefeltet som "Pipeline". Du bør finde `azureml.pipeline.core.Pipeline`-klassen i søgeresultaterne.
 
-## [Quiz efter lektionen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/37)
+## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Gennemgang & Selvstudie
 
-I denne lektion lærte du, hvordan man træner, implementerer og bruger en model til at forudsige risikoen for hjertesvigt med Azure ML SDK i skyen. Se denne [dokumentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) for yderligere information om Azure ML SDK. Prøv at oprette din egen model med Azure ML SDK.
+I denne lektion lærte du, hvordan man træner, deployerer og bruger en model til at forudsige risikoen for hjertesvigt med Azure ML SDK i skyen. Tjek denne [dokumentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) for yderligere information om Azure ML SDK. Prøv at oprette din egen model med Azure ML SDK.
 
 ## Opgave
 
@@ -310,4 +310,4 @@ I denne lektion lærte du, hvordan man træner, implementerer og bruger en model
 ---
 
 **Ansvarsfraskrivelse**:  
-Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi er ikke ansvarlige for eventuelle misforståelser eller fejltolkninger, der opstår som følge af brugen af denne oversættelse.
+Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på at sikre nøjagtighed, skal det bemærkes, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi påtager os ikke ansvar for eventuelle misforståelser eller fejltolkninger, der måtte opstå som følge af brugen af denne oversættelse.

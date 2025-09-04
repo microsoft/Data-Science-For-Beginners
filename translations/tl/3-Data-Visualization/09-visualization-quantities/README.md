@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "43c402d9d90ae6da55d004519ada5033",
-  "translation_date": "2025-08-28T02:39:36+00:00",
+  "original_hash": "69b32b6789a91f796ebc7a02f5575e03",
+  "translation_date": "2025-09-04T21:02:36+00:00",
   "source_file": "3-Data-Visualization/09-visualization-quantities/README.md",
   "language_code": "tl"
 }
@@ -13,23 +13,23 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Pagpapakita ng Dami - _Sketchnote ni [@nitya](https://twitter.com/nitya)_ |
 
-Sa araling ito, matutuklasan mo kung paano gamitin ang isa sa maraming Python libraries upang matutunan kung paano lumikha ng mga kawili-wiling visualisasyon na may kaugnayan sa konsepto ng dami. Gamit ang isang nalinis na dataset tungkol sa mga ibon ng Minnesota, maaari kang matuto ng maraming kawili-wiling impormasyon tungkol sa lokal na wildlife.
+Sa araling ito, matutuklasan mo kung paano gamitin ang isa sa maraming Python libraries upang matutunan kung paano gumawa ng mga kawili-wiling visualizations na may kaugnayan sa konsepto ng dami. Gamit ang isang nalinis na dataset tungkol sa mga ibon ng Minnesota, maaari kang matuto ng maraming kawili-wiling impormasyon tungkol sa lokal na wildlife.
 
 ## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/16)
 
 ## Obserbahan ang wingspan gamit ang Matplotlib
 
-Ang [Matplotlib](https://matplotlib.org/stable/index.html) ay isang mahusay na library para sa paggawa ng parehong simple at sopistikadong mga plot at chart ng iba't ibang uri. Sa pangkalahatan, ang proseso ng pag-plot ng data gamit ang mga library na ito ay kinabibilangan ng pagtukoy sa mga bahagi ng iyong dataframe na nais mong i-target, pagsasagawa ng anumang transformasyon sa data na kinakailangan, pagtatalaga ng mga x at y axis values, pagpapasya kung anong uri ng plot ang ipapakita, at pagkatapos ay ipakita ang plot. Nag-aalok ang Matplotlib ng malawak na uri ng visualisasyon, ngunit para sa araling ito, mag-focus tayo sa mga pinakaangkop para sa pagpapakita ng dami: line charts, scatterplots, at bar plots.
+Ang [Matplotlib](https://matplotlib.org/stable/index.html) ay isang mahusay na library para gumawa ng parehong simpleng at sopistikadong mga plots at charts ng iba't ibang uri. Sa pangkalahatan, ang proseso ng pag-plot ng data gamit ang mga library na ito ay kinabibilangan ng pagtukoy sa mga bahagi ng iyong dataframe na nais mong i-target, pagsasagawa ng anumang transformasyon sa data na kinakailangan, pag-assign ng x at y axis values, pagpapasya kung anong uri ng plot ang ipapakita, at pagkatapos ay ipakita ang plot. Nag-aalok ang Matplotlib ng malawak na uri ng visualizations, ngunit para sa araling ito, mag-focus tayo sa mga pinakaangkop para sa pagpapakita ng dami: line charts, scatterplots, at bar plots.
 
 > ✅ Gumamit ng pinakamahusay na chart na angkop sa istruktura ng iyong data at sa kwentong nais mong ipakita.  
-> - Para sa pagsusuri ng mga trend sa paglipas ng panahon: line  
-> - Para sa paghahambing ng mga halaga: bar, column, pie, scatterplot  
+> - Para suriin ang mga trend sa paglipas ng panahon: line  
+> - Para ikumpara ang mga halaga: bar, column, pie, scatterplot  
 > - Para ipakita kung paano nauugnay ang mga bahagi sa kabuuan: pie  
 > - Para ipakita ang distribusyon ng data: scatterplot, bar  
 > - Para ipakita ang mga trend: line, column  
 > - Para ipakita ang relasyon sa pagitan ng mga halaga: line, scatterplot, bubble  
 
-Kung mayroon kang dataset at kailangang tuklasin kung gaano karami ang isang partikular na item, isa sa mga unang hakbang na gagawin mo ay ang inspeksyon ng mga halaga nito.
+Kung mayroon kang dataset at kailangang tukuyin kung gaano karami ang isang partikular na item, isa sa mga unang hakbang na gagawin mo ay suriin ang mga halaga nito.
 
 ✅ Mayroong magagandang 'cheat sheets' para sa Matplotlib [dito](https://matplotlib.org/cheatsheets/cheatsheets.pdf).
 
@@ -37,7 +37,7 @@ Kung mayroon kang dataset at kailangang tuklasin kung gaano karami ang isang par
 
 Buksan ang `notebook.ipynb` file sa root ng folder ng araling ito at magdagdag ng cell.
 
-> Tandaan: ang data ay nakaimbak sa root ng repo na ito sa folder na `/data`.
+> Tandaan: ang data ay nakaimbak sa root ng repo na ito sa `/data` folder.
 
 ```python
 import pandas as pd
@@ -65,7 +65,7 @@ wingspan.plot()
 
 Ano ang napansin mo agad? Mukhang mayroong hindi bababa sa isang outlier - napakalaki ng wingspan! Ang 2300 sentimetro na wingspan ay katumbas ng 23 metro - may mga Pterodactyl ba sa Minnesota? Suriin natin.
 
-Bagama't maaari kang gumawa ng mabilis na sort sa Excel upang mahanap ang mga outlier, na malamang ay mga typo, ipagpatuloy ang proseso ng visualisasyon sa pamamagitan ng pagtatrabaho mula sa loob ng plot.
+Bagama't maaari kang gumawa ng mabilis na sort sa Excel upang mahanap ang mga outlier, na malamang ay mga typo, ipagpatuloy ang proseso ng visualization sa pamamagitan ng pagtatrabaho mula sa loob ng plot.
 
 Magdagdag ng mga label sa x-axis upang ipakita kung anong uri ng mga ibon ang pinag-uusapan:
 
@@ -83,7 +83,7 @@ plt.show()
 ```  
 ![wingspan with labels](../../../../translated_images/max-wingspan-labels-02.aa90e826ca49a9d1dde78075e9755c1849ef56a4e9ec60f7e9f3806daf9283e2.tl.png)
 
-Kahit na ang mga label ay naka-rotate sa 45 degrees, masyado pa rin silang maraming basahin. Subukan natin ang ibang estratehiya: lagyan ng label ang mga outlier lamang at ilagay ang mga label sa loob ng chart. Maaari kang gumamit ng scatter chart upang magkaroon ng mas maraming espasyo para sa paglalagay ng label:
+Kahit na ang mga label ay naka-rotate sa 45 degrees, masyado pa rin silang marami para mabasa. Subukan natin ang ibang estratehiya: lagyan lamang ng label ang mga outlier at ilagay ang mga label sa loob ng chart. Maaari kang gumamit ng scatter chart upang magkaroon ng mas maraming espasyo para sa pag-label:
 
 ```python
 plt.title('Max Wingspan in Centimeters')
@@ -99,7 +99,7 @@ for i in range(len(birds)):
     
 plt.show()
 ```  
-Ano ang nangyayari dito? Ginamit mo ang `tick_params` upang itago ang mga label sa ibaba at pagkatapos ay gumawa ng loop sa iyong dataset ng mga ibon. Sa pag-plot ng chart gamit ang maliliit na bilog na asul na tuldok gamit ang `bo`, sinuri mo ang anumang ibon na may maximum wingspan na higit sa 500 at ipinakita ang kanilang label sa tabi ng tuldok kung mayroon. In-offset mo ang mga label nang kaunti sa y axis (`y * (1 - 0.05)`) at ginamit ang pangalan ng ibon bilang label.
+Ano ang nangyayari dito? Ginamit mo ang `tick_params` upang itago ang mga label sa ibaba at pagkatapos ay gumawa ng loop sa iyong dataset ng mga ibon. Sa pag-plot ng chart gamit ang maliliit na bilog na asul na tuldok gamit ang `bo`, sinuri mo kung may ibon na may maximum wingspan na higit sa 500 at ipinakita ang kanilang label sa tabi ng tuldok kung mayroon. In-offset mo ang mga label nang kaunti sa y axis (`y * (1 - 0.05)`) at ginamit ang pangalan ng ibon bilang label.
 
 Ano ang natuklasan mo?
 
@@ -107,7 +107,7 @@ Ano ang natuklasan mo?
 
 ## I-filter ang iyong data
 
-Ang Bald Eagle at Prairie Falcon, bagama't malamang na napakalaking ibon, ay mukhang maling na-label, na may dagdag na `0` sa kanilang maximum wingspan. Hindi malamang na makakita ka ng Bald Eagle na may 25 metrong wingspan, ngunit kung sakali, ipaalam mo sa amin! Gumawa tayo ng bagong dataframe na walang dalawang outlier na ito:
+Ang Bald Eagle at Prairie Falcon, bagama't malamang na napakalaking mga ibon, ay mukhang mali ang label, na may dagdag na `0` sa kanilang maximum wingspan. Hindi malamang na makakakita ka ng Bald Eagle na may 25 metrong wingspan, ngunit kung mayroon, ipaalam mo sa amin! Gumawa tayo ng bagong dataframe na walang dalawang outliers na ito:
 
 ```python
 plt.title('Max Wingspan in Centimeters')
@@ -122,25 +122,25 @@ for i in range(len(birds)):
 plt.show()
 ```  
 
-Sa pag-filter ng mga outlier, ang iyong data ay mas cohesive at mas madaling maunawaan.
+Sa pag-filter ng mga outliers, ang iyong data ay mas cohesive at mas madaling maunawaan.
 
 ![scatterplot of wingspans](../../../../translated_images/scatterplot-wingspan-02.1c33790094ce36a75f5fb45b25ed2cf27f0356ea609e43c11e97a2cedd7011a4.tl.png)
 
-Ngayon na mayroon tayong mas malinis na dataset, hindi bababa sa mga tuntunin ng wingspan, tuklasin natin ang higit pa tungkol sa mga ibon na ito.
+Ngayon na mayroon tayong mas malinis na dataset, hindi bababa sa mga wingspan, tuklasin natin ang higit pa tungkol sa mga ibon na ito.
 
-Bagama't ang line at scatter plots ay maaaring magpakita ng impormasyon tungkol sa mga halaga ng data at kanilang distribusyon, nais nating pag-isipan ang mga halaga na likas sa dataset na ito. Maaari kang lumikha ng mga visualisasyon upang sagutin ang mga sumusunod na tanong tungkol sa dami:
+Bagama't ang line at scatter plots ay maaaring magpakita ng impormasyon tungkol sa mga halaga ng data at kanilang distribusyon, nais nating pag-isipan ang mga halaga na likas sa dataset na ito. Maaari kang gumawa ng mga visualizations upang sagutin ang mga sumusunod na tanong tungkol sa dami:
 
 > Ilan ang mga kategorya ng ibon, at ano ang kanilang bilang?  
 > Ilan ang mga ibon na extinct, endangered, rare, o common?  
-> Ilan ang iba't ibang genus at orders sa terminolohiya ni Linnaeus?  
+> Ilan ang mayroon sa iba't ibang genus at orders sa terminolohiya ni Linnaeus?  
 
 ## Tuklasin ang bar charts
 
-Ang bar charts ay praktikal kapag kailangan mong ipakita ang mga pangkat ng data. Tuklasin natin ang mga kategorya ng ibon na umiiral sa dataset na ito upang makita kung alin ang pinakakaraniwan batay sa bilang.
+Ang bar charts ay praktikal kapag kailangan mong ipakita ang mga grupo ng data. Tuklasin natin ang mga kategorya ng ibon na nasa dataset na ito upang makita kung alin ang pinakakaraniwan batay sa bilang.
 
 Sa notebook file, gumawa ng basic bar chart.
 
-✅ Tandaan, maaari mong i-filter ang dalawang outlier na ibon na natukoy natin sa nakaraang seksyon, i-edit ang typo sa kanilang wingspan, o iwanan sila para sa mga ehersisyo na ito na hindi nakadepende sa mga halaga ng wingspan.
+✅ Tandaan, maaari mong i-filter ang dalawang outlier na ibon na natukoy natin sa nakaraang seksyon, i-edit ang typo sa kanilang wingspan, o iwanan sila para sa mga exercise na ito na hindi nakadepende sa mga halaga ng wingspan.
 
 Kung nais mong gumawa ng bar chart, maaari mong piliin ang data na nais mong i-focus. Ang bar charts ay maaaring gawin mula sa raw data:
 
@@ -159,7 +159,7 @@ I-filter ang iyong data upang isama lamang ang kategorya ng ibon.
 
 ✅ Pansinin na ginagamit mo ang Pandas upang pamahalaan ang data, at pagkatapos ay hayaan ang Matplotlib na gawin ang charting.
 
-Dahil maraming kategorya, maaari mong ipakita ang chart na ito nang patayo at i-tweak ang taas nito upang ma-accommodate ang lahat ng data:
+Dahil maraming kategorya, maaari mong ipakita ang chart na ito nang patayo at i-adjust ang taas nito upang ma-accommodate ang lahat ng data:
 
 ```python
 category_count = birds.value_counts(birds['Category'].values, sort=True)
@@ -168,7 +168,7 @@ category_count.plot.barh()
 ```  
 ![category and length](../../../../translated_images/category-counts-02.0b9a0a4de42275ae5096d0f8da590d8bf520d9e7e40aad5cc4fc8d276480cc32.tl.png)
 
-Ang bar chart na ito ay nagpapakita ng magandang view ng bilang ng mga ibon sa bawat kategorya. Sa isang sulyap, makikita mo na ang pinakamalaking bilang ng mga ibon sa rehiyong ito ay nasa kategoryang Ducks/Geese/Waterfowl. Ang Minnesota ay ang 'land of 10,000 lakes' kaya't hindi ito nakakagulat!
+Ang bar chart na ito ay nagpapakita ng magandang view ng bilang ng mga ibon sa bawat kategorya. Sa isang sulyap, makikita mo na ang pinakamalaking bilang ng mga ibon sa rehiyong ito ay nasa kategoryang Ducks/Geese/Waterfowl. Ang Minnesota ay 'land of 10,000 lakes' kaya't hindi ito nakakagulat!
 
 ✅ Subukan ang iba pang mga bilang sa dataset na ito. Mayroon bang anumang nakakagulat sa iyo?
 
@@ -184,9 +184,9 @@ plt.show()
 ```  
 ![comparing data](../../../../translated_images/category-length-02.7304bf519375c9807d8165cc7ec60dd2a60f7b365b23098538e287d89adb7d76.tl.png)
 
-Walang nakakagulat dito: ang mga hummingbird ay may pinakamaliit na MaxLength kumpara sa Pelicans o Geese. Maganda kapag ang data ay may lohikal na kahulugan!
+Walang nakakagulat dito: ang hummingbirds ay may pinakamaliit na MaxLength kumpara sa Pelicans o Geese. Maganda kapag ang data ay may lohikal na kahulugan!
 
-Maaari kang lumikha ng mas kawili-wiling visualisasyon ng bar charts sa pamamagitan ng pag-superimpose ng data. I-superimpose natin ang Minimum at Maximum Length sa isang partikular na kategorya ng ibon:
+Maaari kang gumawa ng mas kawili-wiling visualizations ng bar charts sa pamamagitan ng pag-overlay ng data. I-overlay natin ang Minimum at Maximum Length sa isang partikular na kategorya ng ibon:
 
 ```python
 minLength = birds['MinLength']
@@ -204,15 +204,15 @@ Sa plot na ito, makikita mo ang range per bird category ng Minimum Length at Max
 
 ## 🚀 Hamon
 
-Ang dataset ng ibon na ito ay nag-aalok ng maraming impormasyon tungkol sa iba't ibang uri ng ibon sa loob ng isang partikular na ecosystem. Maghanap sa internet at tingnan kung makakahanap ka ng iba pang mga dataset na may kaugnayan sa ibon. Magpraktis sa paggawa ng mga chart at graph tungkol sa mga ibon upang matuklasan ang mga bagay na hindi mo inaasahan.
+Ang dataset ng ibon na ito ay nag-aalok ng maraming impormasyon tungkol sa iba't ibang uri ng ibon sa isang partikular na ecosystem. Maghanap sa internet at tingnan kung makakahanap ka ng iba pang mga dataset na may kaugnayan sa ibon. Magpraktis sa paggawa ng mga charts at graphs tungkol sa mga ibon upang matuklasan ang mga bagay na hindi mo inaasahan.
 
-## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/17)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
-## Review at Pag-aaral sa Sarili
+## Review & Self Study
 
-Ang unang araling ito ay nagbigay sa iyo ng ilang impormasyon tungkol sa kung paano gamitin ang Matplotlib upang mag-visualize ng dami. Mag-research tungkol sa iba pang paraan upang magtrabaho sa mga dataset para sa visualisasyon. Ang [Plotly](https://github.com/plotly/plotly.py) ay isa sa mga hindi natin tatalakayin sa mga araling ito, kaya't tingnan kung ano ang maiaalok nito.
+Ang unang araling ito ay nagbigay sa iyo ng impormasyon tungkol sa kung paano gamitin ang Matplotlib upang mag-visualize ng dami. Mag-research tungkol sa iba pang paraan upang magtrabaho sa mga dataset para sa visualization. [Plotly](https://github.com/plotly/plotly.py) ay isa na hindi natin tatalakayin sa mga araling ito, kaya't tingnan kung ano ang maiaalok nito.
 
-## Takdang Aralin
+## Assignment
 
 [Lines, Scatters, and Bars](assignment.md)
 

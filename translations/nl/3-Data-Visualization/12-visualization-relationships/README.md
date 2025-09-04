@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "cad419b574d5c35eaa417e9abfdcb0c8",
-  "translation_date": "2025-08-28T15:42:10+00:00",
+  "original_hash": "b29e427401499e81f4af55a8c4afea76",
+  "translation_date": "2025-09-04T19:56:51+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "nl"
 }
@@ -17,11 +17,11 @@ In lijn met de natuurfocus van ons onderzoek, laten we interessante visualisatie
 
 Deze dataset van ongeveer 600 items toont de honingproductie in veel Amerikaanse staten. Je kunt bijvoorbeeld kijken naar het aantal kolonies, opbrengst per kolonie, totale productie, voorraden, prijs per pond en de waarde van de geproduceerde honing in een bepaalde staat van 1998-2012, met één rij per jaar voor elke staat.
 
-Het is interessant om de relatie te visualiseren tussen de productie van een bepaalde staat per jaar en bijvoorbeeld de prijs van honing in die staat. Alternatief kun je de relatie visualiseren tussen de opbrengst per kolonie in verschillende staten. Deze periode omvat de verwoestende 'CCD' of 'Colony Collapse Disorder', die voor het eerst werd waargenomen in 2006 (http://npic.orst.edu/envir/ccd.html), waardoor het een aangrijpende dataset is om te bestuderen. 🐝
+Het is interessant om de relatie te visualiseren tussen de productie van een bepaalde staat per jaar en bijvoorbeeld de prijs van honing in die staat. Alternatief kun je de relatie tussen de opbrengst per kolonie van verschillende staten visualiseren. Deze periode omvat de verwoestende 'CCD' of 'Colony Collapse Disorder', die voor het eerst werd waargenomen in 2006 (http://npic.orst.edu/envir/ccd.html), waardoor het een aangrijpende dataset is om te bestuderen. 🐝
 
-## [Quiz voorafgaand aan de les](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/22)
+## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/22)
 
-In deze les kun je Seaborn gebruiken, een bibliotheek die je al eerder hebt gebruikt, om relaties tussen variabelen te visualiseren. Vooral interessant is het gebruik van de `relplot`-functie van Seaborn, waarmee scatterplots en lijnplots snel '[statistische relaties](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)' kunnen visualiseren. Dit stelt de datawetenschapper in staat om beter te begrijpen hoe variabelen zich tot elkaar verhouden.
+In deze les kun je Seaborn gebruiken, een bibliotheek die je al eerder hebt gebruikt, om relaties tussen variabelen te visualiseren. Vooral interessant is het gebruik van Seaborn's `relplot`-functie, waarmee scatterplots en lijnplots snel '[statistische relaties](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)' kunnen visualiseren. Dit stelt de datawetenschapper in staat om beter te begrijpen hoe variabelen zich tot elkaar verhouden.
 
 ## Scatterplots
 
@@ -36,7 +36,7 @@ import seaborn as sns
 honey = pd.read_csv('../../data/honey.csv')
 honey.head()
 ```
-Je merkt dat de honingdata verschillende interessante kolommen bevat, waaronder jaar en prijs per pond. Laten we deze gegevens verkennen, gegroepeerd per Amerikaanse staat:
+Je merkt dat de honingdata verschillende interessante kolommen bevat, waaronder jaar en prijs per pond. Laten we deze data verkennen, gegroepeerd per Amerikaanse staat:
 
 | staat | numcol | yieldpercol | totalprod | stocks   | priceperlb | prodvalue | jaar |
 | ----- | ------ | ----------- | --------- | -------- | ---------- | --------- | ---- |
@@ -53,16 +53,16 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
 ![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.nl.png)
 
-Toon nu dezelfde gegevens met een honingkleurenschema om te laten zien hoe de prijs zich door de jaren heen ontwikkelt. Je kunt dit doen door een 'hue'-parameter toe te voegen om de verandering jaar na jaar te tonen:
+Toon nu dezelfde data met een honingkleurenschema om te laten zien hoe de prijs zich door de jaren heen ontwikkelt. Dit kun je doen door een 'hue'-parameter toe te voegen om de verandering jaar na jaar te tonen:
 
-> ✅ Lees meer over de [kleurenpaletten die je kunt gebruiken in Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) - probeer een prachtig regenboogkleurenschema!
+> ✅ Lees meer over de [kleurpaletten die je kunt gebruiken in Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) - probeer een prachtig regenboogkleurenschema!
 
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
 ![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.nl.png)
 
-Met deze kleurenschemawijziging kun je duidelijk zien dat er een sterke progressie is in de prijs per pond honing door de jaren heen. Als je een steekproef uit de gegevens neemt om dit te verifiëren (kies bijvoorbeeld een bepaalde staat, Arizona), kun je een patroon van prijsstijgingen jaar na jaar zien, met enkele uitzonderingen:
+Met deze kleurenschemawijziging kun je duidelijk zien dat er een sterke progressie is door de jaren heen in termen van honingprijs per pond. Als je een steekproef uit de data neemt om dit te verifiëren (kies bijvoorbeeld een bepaalde staat, Arizona), kun je een patroon van prijsstijgingen jaar na jaar zien, met enkele uitzonderingen:
 
 | staat | numcol | yieldpercol | totalprod | stocks  | priceperlb | prodvalue | jaar |
 | ----- | ------ | ----------- | --------- | ------- | ---------- | --------- | ---- |
@@ -97,7 +97,7 @@ Om een correlatie tussen enkele variabelen in deze dataset te ontdekken, laten w
 
 ## Lijngrafieken
 
-Vraag: Is er een duidelijke stijging in de prijs van honing per pond jaar na jaar? Je kunt dit het gemakkelijkst ontdekken door een enkele lijngrafiek te maken:
+Vraag: Is er een duidelijke stijging in de prijs van honing per pond jaar na jaar? Dit kun je het gemakkelijkst ontdekken door een enkele lijngrafiek te maken:
 
 ```python
 sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
@@ -106,7 +106,7 @@ Antwoord: Ja, met enkele uitzonderingen rond het jaar 2003:
 
 ![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.nl.png)
 
-✅ Omdat Seaborn gegevens rond één lijn aggregeert, toont het "de meerdere metingen bij elke x-waarde door het gemiddelde en het 95% betrouwbaarheidsinterval rond het gemiddelde te plotten". [Bron](https://seaborn.pydata.org/tutorial/relational.html). Dit tijdrovende gedrag kan worden uitgeschakeld door `ci=None` toe te voegen.
+✅ Omdat Seaborn gegevens aggregeert rond één lijn, toont het "de meerdere metingen bij elke x-waarde door het gemiddelde en het 95% betrouwbaarheidsinterval rond het gemiddelde te plotten". [Bron](https://seaborn.pydata.org/tutorial/relational.html). Dit tijdrovende gedrag kan worden uitgeschakeld door `ci=None` toe te voegen.
 
 Vraag: Kunnen we in 2003 ook een piek zien in de honingvoorraad? Wat als je kijkt naar de totale productie jaar na jaar?
 
@@ -124,7 +124,7 @@ Om dit te ontdekken, kun je een facet grid verkennen.
 
 ## Facet grids
 
-Facet grids nemen één facet van je dataset (in ons geval kun je 'jaar' kiezen om te voorkomen dat er te veel facetten worden geproduceerd). Seaborn kan vervolgens een plot maken voor elk van die facetten van je gekozen x- en y-coördinaten voor een gemakkelijkere visuele vergelijking. Valt 2003 op in dit soort vergelijking?
+Facet grids nemen één facet van je dataset (in ons geval kun je 'jaar' kiezen om te voorkomen dat er te veel facetten worden geproduceerd). Seaborn kan dan een plot maken voor elk van die facetten van je gekozen x- en y-coördinaten voor een gemakkelijkere visuele vergelijking. Valt 2003 op in dit soort vergelijking?
 
 Maak een facet grid door `relplot` te blijven gebruiken zoals aanbevolen door [Seaborn's documentatie](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid).
 
@@ -142,9 +142,9 @@ In deze visualisatie kun je de opbrengst per kolonie en het aantal kolonies jaar
 
 Voor deze dataset valt er niets bijzonders op met betrekking tot het aantal kolonies en hun opbrengst, jaar na jaar en staat na staat. Is er een andere manier om een correlatie tussen deze twee variabelen te vinden?
 
-## Dubbele-lijnplots
+## Dubbele-lijngrafieken
 
-Probeer een meerlijnige plot door twee lijnplots bovenop elkaar te leggen, gebruikmakend van Seaborn's 'despine' om de bovenste en rechter spines te verwijderen, en gebruik `ax.twinx` [afgeleid van Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx maakt het mogelijk om een grafiek de x-as te laten delen en twee y-assen weer te geven. Toon dus de opbrengst per kolonie en het aantal kolonies, bovenop elkaar gelegd:
+Probeer een meerlijnige plot door twee lijngrafieken bovenop elkaar te leggen, gebruikmakend van Seaborn's 'despine' om de bovenste en rechter spines te verwijderen, en gebruik `ax.twinx` [afgeleid van Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx maakt het mogelijk om een grafiek de x-as te laten delen en twee y-assen weer te geven. Toon dus de opbrengst per kolonie en het aantal kolonies, bovenop elkaar gelegd:
 
 ```python
 fig, ax = plt.subplots(figsize=(12,6))
@@ -163,19 +163,20 @@ ax.figure.legend();
 ```
 ![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.nl.png)
 
-Hoewel er rond het jaar 2003 niets opvallends te zien is, eindigen we deze les op een wat vrolijkere noot: hoewel het aantal kolonies over het algemeen afneemt, stabiliseert het aantal kolonies zelfs als hun opbrengst per kolonie afneemt.
+Hoewel er rond het jaar 2003 niets opvallends te zien is, eindigen we deze les toch met een iets positiever noot: hoewel het aantal kolonies over het algemeen afneemt, stabiliseert het aantal kolonies, zelfs als hun opbrengst per kolonie afneemt.
 
 Go, bijen, go!
 
 🐝❤️
 ## 🚀 Uitdaging
 
-In deze les heb je meer geleerd over andere toepassingen van scatterplots en lijnroosters, waaronder facet grids. Daag jezelf uit om een facet grid te maken met een andere dataset, misschien een die je eerder in deze lessen hebt gebruikt. Let op hoe lang het duurt om ze te maken en hoe je voorzichtig moet zijn met hoeveel grids je moet tekenen met deze technieken.
-## [Quiz na de les](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/23)
+In deze les heb je meer geleerd over andere toepassingen van scatterplots en lijngrafieken, inclusief facet grids. Daag jezelf uit om een facet grid te maken met een andere dataset, misschien een die je eerder in deze lessen hebt gebruikt. Let op hoe lang het duurt om ze te maken en hoe je voorzichtig moet zijn met hoeveel grids je wilt tekenen met deze technieken.
+
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Review & Zelfstudie
 
-Lijnplots kunnen eenvoudig of behoorlijk complex zijn. Lees wat meer in de [Seaborn-documentatie](https://seaborn.pydata.org/generated/seaborn.lineplot.html) over de verschillende manieren waarop je ze kunt bouwen. Probeer de lijnplots die je in deze les hebt gemaakt te verbeteren met andere methoden die in de documentatie worden vermeld.
+Lijngrafieken kunnen eenvoudig of behoorlijk complex zijn. Lees wat meer in de [Seaborn documentatie](https://seaborn.pydata.org/generated/seaborn.lineplot.html) over de verschillende manieren waarop je ze kunt bouwen. Probeer de lijngrafieken die je in deze les hebt gemaakt te verbeteren met andere methoden die in de documentatie worden vermeld.
 ## Opdracht
 
 [Duik in de bijenkorf](assignment.md)
@@ -183,4 +184,4 @@ Lijnplots kunnen eenvoudig of behoorlijk complex zijn. Lees wat meer in de [Seab
 ---
 
 **Disclaimer**:  
-Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor kritieke informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.
+Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor eventuele misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.

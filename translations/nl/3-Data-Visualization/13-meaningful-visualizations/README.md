@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "4ec4747a9f4f7d194248ea29903ae165",
-  "translation_date": "2025-08-28T15:40:12+00:00",
+  "original_hash": "0b380bb6d34102bb061eb41de23d9834",
+  "translation_date": "2025-09-04T19:56:23+00:00",
   "source_file": "3-Data-Visualization/13-meaningful-visualizations/README.md",
   "language_code": "nl"
 }
@@ -37,15 +37,15 @@ In eerdere lessen heb je geëxperimenteerd met het maken van allerlei interessan
 | Trends in data over tijd tonen | Lijn                          |
 | Categorieën vergelijken    | Staaf, Taart                    |
 | Totalen vergelijken         | Taart, Gestapelde Staaf         |
-| Relaties tonen              | Spreiding, Lijn, Facet, Dubbele Lijn |
-| Distributies tonen          | Spreiding, Histogram, Box       |
-| Verhoudingen tonen          | Taart, Donut, Wafel             |
+| Relaties tonen             | Spreiding, Lijn, Facet, Dubbele Lijn |
+| Distributies tonen         | Spreiding, Histogram, Box       |
+| Verhoudingen tonen         | Taart, Donut, Wafel             |
 
-> ✅ Afhankelijk van de samenstelling van je data moet je deze mogelijk omzetten van tekst naar numeriek om een bepaalde grafiek te ondersteunen.
+> ✅ Afhankelijk van de samenstelling van je data, moet je deze mogelijk omzetten van tekst naar numeriek om een bepaalde grafiek te ondersteunen.
 
 ## Vermijd misleiding
 
-Zelfs als een datawetenschapper zorgvuldig het juiste type grafiek kiest voor de juiste data, zijn er genoeg manieren waarop data kan worden weergegeven om een punt te bewijzen, vaak ten koste van de integriteit van de data. Er zijn veel voorbeelden van misleidende grafieken en infographics!
+Zelfs als een datawetenschapper zorgvuldig het juiste type grafiek kiest voor de juiste data, zijn er genoeg manieren waarop data kan worden weergegeven om een punt te bewijzen, vaak ten koste van de data zelf. Er zijn veel voorbeelden van misleidende grafieken en infographics!
 
 [![How Charts Lie door Alberto Cairo](../../../../translated_images/tornado.9f42168791208f970d6faefc11d1226d7ca89518013b14aa66b1c9edcd7678d2.nl.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
@@ -59,7 +59,7 @@ Deze grafiek keert de X-as om om het tegenovergestelde van de waarheid te tonen,
 
 ![slechte grafiek 2](../../../../translated_images/bad-chart-2.c20e36dd4e6f617c0c325878dd421a563885bbf30a394884c147438827254e0e.nl.jpg)
 
-Dit beruchte voorbeeld gebruikt kleur EN een omgekeerde Y-as om te misleiden: in plaats van te concluderen dat het aantal schietincidenten steeg na de invoering van gun-vriendelijke wetgeving, wordt het oog misleid om te denken dat het tegenovergestelde waar is:
+Dit beruchte voorbeeld gebruikt kleur EN een omgekeerde Y-as om te misleiden: in plaats van te concluderen dat het aantal schietincidenten steeg na de invoering van gun-vriendelijke wetgeving, wordt het oog juist misleid om te denken dat het tegenovergestelde waar is:
 
 ![slechte grafiek 3](../../../../translated_images/bad-chart-3.6865d0afac4108d737558d90a61547d23a8722896397ec792264ee51a1be4be5.nl.jpg)
 
@@ -69,7 +69,7 @@ Deze vreemde grafiek laat zien hoe proporties kunnen worden gemanipuleerd, met h
 
 Het vergelijken van het onvergelijkbare is nog een schimmige truc. Er is een [geweldige website](https://tylervigen.com/spurious-correlations) helemaal gewijd aan 'spurious correlations' die 'feiten' tonen zoals de correlatie tussen het echtscheidingspercentage in Maine en de consumptie van margarine. Een Reddit-groep verzamelt ook de [lelijke toepassingen](https://www.reddit.com/r/dataisugly/top/?t=all) van data.
 
-Het is belangrijk te begrijpen hoe gemakkelijk het oog kan worden misleid door misleidende grafieken. Zelfs als de intentie van de datawetenschapper goed is, kan de keuze voor een slecht type grafiek, zoals een taartdiagram met te veel categorieën, misleidend zijn.
+Het is belangrijk om te begrijpen hoe gemakkelijk het oog kan worden misleid door misleidende grafieken. Zelfs als de intentie van de datawetenschapper goed is, kan de keuze voor een slecht type grafiek, zoals een taartdiagram met te veel categorieën, misleidend zijn.
 
 ## Kleur
 
@@ -96,17 +96,17 @@ Als je de taak hebt om een grafiek te maken met aangepaste kleuren, zorg er dan 
 
 Grafieken zijn niet betekenisvol als ze niet leesbaar zijn! Neem de tijd om de breedte en hoogte van je grafiek te stylen zodat deze goed schaalt met je data. Als één variabele (zoals alle 50 staten) moet worden weergegeven, toon ze dan verticaal op de Y-as indien mogelijk om een horizontaal scrollende grafiek te vermijden.
 
-Label je assen, geef indien nodig een legenda en bied tooltips voor een betere begrip van de data.
+Label je assen, geef indien nodig een legenda en bied tooltips aan voor een betere begrip van de data.
 
-Als je data tekstueel en uitgebreid is op de X-as, kun je de tekst schuin zetten voor een betere leesbaarheid. [Matplotlib](https://matplotlib.org/stable/tutorials/toolkits/mplot3d.html) biedt 3D-plotten, als je data dit ondersteunt. Geavanceerde datavisualisaties kunnen worden geproduceerd met `mpl_toolkits.mplot3d`.
+Als je data tekstueel en uitgebreid is op de X-as, kun je de tekst schuin zetten voor een betere leesbaarheid. [Matplotlib](https://matplotlib.org/stable/tutorials/toolkits/mplot3d.html) biedt 3D-plotten aan, als je data dit ondersteunt. Geavanceerde datavisualisaties kunnen worden geproduceerd met `mpl_toolkits.mplot3d`.
 
 ![3d grafieken](../../../../translated_images/3d.0cec12bcc60f0ce7284c63baed1411a843e24716f7d7425de878715ebad54a15.nl.png)
 
 ## Animatie en 3D-grafiekweergave
 
-Sommige van de beste datavisualisaties vandaag de dag zijn geanimeerd. Shirley Wu heeft geweldige voorbeelden gemaakt met D3, zoals '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', waarbij elke bloem een visualisatie van een film is. Een ander voorbeeld voor de Guardian is 'bussed out', een interactieve ervaring die visualisaties combineert met Greensock en D3 plus een scrollytelling artikelvorm om te laten zien hoe NYC omgaat met het daklozenprobleem door mensen uit de stad te sturen.
+Sommige van de beste datavisualisaties van vandaag zijn geanimeerd. Shirley Wu heeft geweldige voorbeelden gemaakt met D3, zoals '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', waarbij elke bloem een visualisatie van een film is. Een ander voorbeeld voor de Guardian is 'bussed out', een interactieve ervaring die visualisaties combineert met Greensock en D3 plus een scrollytelling artikelvorm om te laten zien hoe NYC omgaat met het daklozenprobleem door mensen uit de stad te sturen.
 
-![busing](../../../../translated_images/busing.7b9e3b41cd4b981c6d63922cd82004cc1cf18895155536c1d98fcc0999bdd23e.nl.png)
+![bussing](../../../../translated_images/busing.7b9e3b41cd4b981c6d63922cd82004cc1cf18895155536c1d98fcc0999bdd23e.nl.png)
 
 > "Bussed Out: How America Moves its Homeless" van [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualisaties door Nadieh Bremer & Shirley Wu
 
@@ -120,11 +120,11 @@ Je zult een webapp voltooien die een geanimeerde weergave van dit sociale netwer
 
 ## Project: Bouw een grafiek om een netwerk te tonen met D3.js
 
-> Deze lesmap bevat een `solution`-map waar je het voltooide project kunt vinden ter referentie.
+> Deze lesmap bevat een `solution`-map waar je het voltooide project kunt vinden, ter referentie.
 
 1. Volg de instructies in het README.md-bestand in de root van de startermap. Zorg ervoor dat je NPM en Node.js op je machine hebt draaien voordat je de afhankelijkheden van je project installeert.
 
-2. Open de `starter/src`-map. Je vindt een `assets`-map met een .json-bestand met alle brieven uit de roman, genummerd, met een 'to' en 'from'-annotatie.
+2. Open de `starter/src`-map. Je vindt een `assets`-map waar je een .json-bestand kunt vinden met alle brieven uit de roman, genummerd, met een 'to' en 'from'-annotatie.
 
 3. Voltooi de code in `components/Nodes.vue` om de visualisatie mogelijk te maken. Zoek naar de methode genaamd `createLinks()` en voeg de volgende geneste lus toe.
 
@@ -154,11 +154,11 @@ Voer je app uit vanuit de terminal (npm run serve) en geniet van de visualisatie
 
 Maak een rondje op het internet om misleidende visualisaties te ontdekken. Hoe misleidt de auteur de gebruiker, en is dit opzettelijk? Probeer de visualisaties te corrigeren om te laten zien hoe ze eruit zouden moeten zien.
 
-## [Post-Les Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/25)
+## [Post-Les Quiz](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Review & Zelfstudie
 
-Hier zijn enkele artikelen over misleidende datavisualisatie:
+Hier zijn enkele artikelen om te lezen over misleidende datavisualisaties:
 
 https://gizmodo.com/how-to-lie-with-data-visualization-1563576606
 
@@ -179,4 +179,4 @@ https://medium.com/@EvanSinar/use-animation-to-supercharge-data-visualization-cd
 ---
 
 **Disclaimer**:  
-Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor kritieke informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor eventuele misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.
+Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we ons best doen voor nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in zijn oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor eventuele misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.

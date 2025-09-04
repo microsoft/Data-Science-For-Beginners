@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "73dead89dc2ddda4d6ec0232814a191e",
-  "translation_date": "2025-08-28T18:02:04+00:00",
+  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
+  "translation_date": "2025-09-04T20:31:26+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "id"
 }
@@ -23,7 +23,7 @@ Daftar isi:
   - [2. Melatih model dengan Azure ML SDK](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.1 Membuat workspace Azure ML](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.2 Membuat instance komputasi](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [2.3 Memuat dataset](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [2.3 Memuat Dataset](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.4 Membuat Notebook](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.5 Melatih model](../../../../5-Data-Science-In-Cloud/19-Azure)
       - [2.5.1 Menyiapkan Workspace, eksperimen, cluster komputasi, dan dataset](../../../../5-Data-Science-In-Cloud/19-Azure)
@@ -43,19 +43,19 @@ Daftar isi:
 
 ### 1.1 Apa itu Azure ML SDK?
 
-Data scientist dan pengembang AI menggunakan Azure Machine Learning SDK untuk membangun dan menjalankan alur kerja pembelajaran mesin dengan layanan Azure Machine Learning. Anda dapat berinteraksi dengan layanan ini di lingkungan Python mana pun, termasuk Jupyter Notebooks, Visual Studio Code, atau IDE Python favorit Anda.
+Data scientist dan pengembang AI menggunakan Azure Machine Learning SDK untuk membangun dan menjalankan alur kerja machine learning dengan layanan Azure Machine Learning. Anda dapat berinteraksi dengan layanan ini di lingkungan Python mana pun, termasuk Jupyter Notebooks, Visual Studio Code, atau IDE Python favorit Anda.
 
 Area utama dari SDK meliputi:
 
-- Mengeksplorasi, mempersiapkan, dan mengelola siklus hidup dataset yang digunakan dalam eksperimen pembelajaran mesin.
-- Mengelola sumber daya cloud untuk pemantauan, pencatatan, dan pengorganisasian eksperimen pembelajaran mesin.
+- Mengeksplorasi, mempersiapkan, dan mengelola siklus hidup dataset yang digunakan dalam eksperimen machine learning.
+- Mengelola sumber daya cloud untuk pemantauan, pencatatan, dan pengorganisasian eksperimen machine learning.
 - Melatih model baik secara lokal maupun menggunakan sumber daya cloud, termasuk pelatihan model yang dipercepat GPU.
-- Menggunakan pembelajaran mesin otomatis, yang menerima parameter konfigurasi dan data pelatihan. Secara otomatis mengiterasi algoritma dan pengaturan hyperparameter untuk menemukan model terbaik untuk menjalankan prediksi.
-- Menerapkan layanan web untuk mengubah model yang telah dilatih menjadi layanan RESTful yang dapat dikonsumsi dalam aplikasi apa pun.
+- Menggunakan machine learning otomatis, yang menerima parameter konfigurasi dan data pelatihan. Ini secara otomatis mengiterasi algoritma dan pengaturan hyperparameter untuk menemukan model terbaik untuk menjalankan prediksi.
+- Menerapkan layanan web untuk mengubah model yang telah dilatih menjadi layanan RESTful yang dapat digunakan dalam aplikasi apa pun.
 
 [Pelajari lebih lanjut tentang Azure Machine Learning SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
-Dalam [pelajaran sebelumnya](../18-Low-Code/README.md), kita telah melihat cara melatih, menerapkan, dan mengonsumsi model dengan pendekatan Low code/No code. Kita menggunakan dataset Gagal Jantung untuk menghasilkan model prediksi gagal jantung. Dalam pelajaran ini, kita akan melakukan hal yang sama tetapi menggunakan Azure Machine Learning SDK.
+Dalam [pelajaran sebelumnya](../18-Low-Code/README.md), kita telah melihat cara melatih, menerapkan, dan menggunakan model dengan pendekatan Low code/No code. Kita menggunakan dataset Gagal Jantung untuk menghasilkan model prediksi gagal jantung. Dalam pelajaran ini, kita akan melakukan hal yang sama tetapi menggunakan Azure Machine Learning SDK.
 
 ![skema-proyek](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.id.png)
 
@@ -72,28 +72,28 @@ Jika belum, silakan ikuti instruksi di bagian **2.1 Membuat workspace Azure ML**
 
 ### 2.2 Membuat instance komputasi
 
-Di [workspace Azure ML](https://ml.azure.com/) yang kita buat sebelumnya, buka menu komputasi dan Anda akan melihat berbagai sumber daya komputasi yang tersedia.
+Di [workspace Azure ML](https://ml.azure.com/) yang telah kita buat sebelumnya, buka menu komputasi dan Anda akan melihat berbagai sumber daya komputasi yang tersedia.
 
 ![instance-komputasi-1](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.id.png)
 
 Mari kita buat instance komputasi untuk menyediakan jupyter notebook. 
 1. Klik tombol + Baru. 
-2. Beri nama untuk instance komputasi Anda.
+2. Berikan nama untuk instance komputasi Anda.
 3. Pilih opsi Anda: CPU atau GPU, ukuran VM, dan jumlah inti.
 4. Klik tombol Buat.
 
 Selamat, Anda baru saja membuat instance komputasi! Kita akan menggunakan instance komputasi ini untuk membuat Notebook di bagian [Membuat Notebook](../../../../5-Data-Science-In-Cloud/19-Azure).
 
-### 2.3 Memuat dataset
-Lihat [pelajaran sebelumnya](../18-Low-Code/README.md) di bagian **2.3 Memuat dataset** jika Anda belum mengunggah dataset.
+### 2.3 Memuat Dataset
+Lihat [pelajaran sebelumnya](../18-Low-Code/README.md) di bagian **2.3 Memuat Dataset** jika Anda belum mengunggah dataset.
 
 ### 2.4 Membuat Notebook
 
 > **_CATATAN:_** Untuk langkah berikutnya, Anda dapat membuat notebook baru dari awal, atau Anda dapat mengunggah [notebook yang telah kita buat](notebook.ipynb) ke Azure ML Studio Anda. Untuk mengunggahnya, cukup klik menu "Notebook" dan unggah notebook.
 
-Notebook adalah bagian yang sangat penting dari proses data science. Notebook dapat digunakan untuk melakukan Analisis Data Eksplorasi (EDA), memanggil cluster komputasi untuk melatih model, atau memanggil cluster inferensi untuk menerapkan endpoint. 
+Notebook adalah bagian yang sangat penting dalam proses data science. Notebook dapat digunakan untuk melakukan Analisis Data Eksplorasi (EDA), memanggil cluster komputasi untuk melatih model, atau memanggil cluster inferensi untuk menerapkan endpoint. 
 
-Untuk membuat Notebook, kita memerlukan node komputasi yang menjalankan instance jupyter notebook. Kembali ke [workspace Azure ML](https://ml.azure.com/) dan klik pada Instance komputasi. Dalam daftar instance komputasi, Anda seharusnya melihat [instance komputasi yang kita buat sebelumnya](../../../../5-Data-Science-In-Cloud/19-Azure). 
+Untuk membuat Notebook, kita memerlukan node komputasi yang menjalankan instance jupyter notebook. Kembali ke [workspace Azure ML](https://ml.azure.com/) dan klik pada Instance komputasi. Dalam daftar instance komputasi, Anda seharusnya melihat [instance komputasi yang telah kita buat sebelumnya](../../../../5-Data-Science-In-Cloud/19-Azure). 
 
 1. Di bagian Aplikasi, klik opsi Jupyter. 
 2. Centang kotak "Ya, saya mengerti" dan klik tombol Lanjutkan.
@@ -158,11 +158,11 @@ Untuk mengatur konfigurasi AutoML, gunakan [kelas AutoMLConfig](https://docs.mic
 
 Seperti yang dijelaskan dalam dokumentasi, ada banyak parameter yang dapat Anda gunakan. Untuk proyek ini, kita akan menggunakan parameter berikut:
 
-- `experiment_timeout_minutes`: Jumlah waktu maksimum (dalam menit) yang diizinkan untuk eksperimen berjalan sebelum secara otomatis dihentikan dan hasilnya secara otomatis tersedia.
-- `max_concurrent_iterations`: Jumlah maksimum iterasi pelatihan bersamaan yang diizinkan untuk eksperimen.
+- `experiment_timeout_minutes`: Waktu maksimum (dalam menit) yang diizinkan untuk eksperimen berjalan sebelum secara otomatis dihentikan dan hasilnya secara otomatis tersedia.
+- `max_concurrent_iterations`: Jumlah maksimum iterasi pelatihan yang diizinkan untuk eksperimen.
 - `primary_metric`: Metrik utama yang digunakan untuk menentukan status eksperimen.
-- `compute_target`: Target komputasi Azure Machine Learning untuk menjalankan eksperimen Pembelajaran Mesin Otomatis.
-- `task`: Jenis tugas yang akan dijalankan. Nilai dapat berupa 'classification', 'regression', atau 'forecasting' tergantung pada jenis masalah pembelajaran mesin otomatis yang akan diselesaikan.
+- `compute_target`: Target komputasi Azure Machine Learning untuk menjalankan eksperimen Machine Learning otomatis.
+- `task`: Jenis tugas yang akan dijalankan. Nilai dapat berupa 'classification', 'regression', atau 'forecasting' tergantung pada jenis masalah ML otomatis yang akan diselesaikan.
 - `training_data`: Data pelatihan yang akan digunakan dalam eksperimen. Data ini harus berisi fitur pelatihan dan kolom label (opsional kolom bobot sampel).
 - `label_column_name`: Nama kolom label.
 - `path`: Jalur lengkap ke folder proyek Azure Machine Learning.
@@ -211,7 +211,7 @@ RunDetails(remote_run).show()
 ```python
 best_run, fitted_model = remote_run.get_output()
 ```
-Anda dapat melihat parameter yang digunakan untuk model terbaik dengan mencetak fitted_model dan melihat properti model terbaik dengan menggunakan metode [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
+Anda dapat melihat parameter yang digunakan untuk model terbaik dengan mencetak fitted_model dan melihat properti model terbaik menggunakan metode [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
 ```python
 best_run.get_properties()
@@ -230,7 +230,7 @@ model = best_run.register_model(model_name = model_name,
 ```
 ### 3.2 Penerapan model
 
-Setelah model terbaik disimpan, kita dapat menerapkannya dengan kelas [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109). InferenceConfig mewakili pengaturan konfigurasi untuk lingkungan khusus yang digunakan untuk penerapan. Kelas [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) mewakili model pembelajaran mesin yang diterapkan sebagai endpoint layanan web pada Azure Container Instances. Layanan web yang diterapkan dibuat dari model, skrip, dan file terkait. Layanan web yang dihasilkan adalah endpoint HTTP yang seimbang dengan REST API. Anda dapat mengirim data ke API ini dan menerima prediksi yang dikembalikan oleh model.
+Setelah model terbaik disimpan, kita dapat menerapkannya dengan kelas [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109). InferenceConfig mewakili pengaturan konfigurasi untuk lingkungan khusus yang digunakan untuk penerapan. Kelas [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) mewakili model machine learning yang diterapkan sebagai endpoint layanan web di Azure Container Instances. Layanan web yang diterapkan dibuat dari model, skrip, dan file terkait. Layanan web yang dihasilkan adalah endpoint HTTP yang seimbang beban dengan API REST. Anda dapat mengirim data ke API ini dan menerima prediksi yang dikembalikan oleh model.
 
 Model diterapkan menggunakan metode [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
@@ -254,7 +254,7 @@ Langkah ini akan memakan waktu beberapa menit.
 
 ### 3.3 Konsumsi endpoint
 
-Anda dapat mengonsumsi endpoint Anda dengan membuat input sampel:
+Anda dapat menggunakan endpoint Anda dengan membuat input sampel:
 
 ```python
 data = {
@@ -284,23 +284,24 @@ Dan kemudian Anda dapat mengirimkan input ini ke model Anda untuk prediksi:
 response = aci_service.run(input_data=test_sample)
 response
 ```
-Ini akan menghasilkan `'{"result": [false]}'`. Ini berarti bahwa input pasien yang kita kirimkan ke endpoint menghasilkan prediksi `false`, yang berarti orang ini tidak mungkin mengalami serangan jantung.
+Ini seharusnya menghasilkan `'{"result": [false]}'`. Ini berarti bahwa input pasien yang kita kirim ke endpoint menghasilkan prediksi `false`, yang berarti orang ini tidak mungkin mengalami serangan jantung.
 
-Selamat! Anda baru saja menggunakan model yang dideploy dan dilatih di Azure ML dengan Azure ML SDK!
+Selamat! Anda baru saja menggunakan model yang telah dilatih dan di-deploy di Azure ML dengan Azure ML SDK!
 
-> **_NOTE:_** Setelah Anda menyelesaikan proyek ini, jangan lupa untuk menghapus semua sumber daya.
+
+> **_NOTE:_** Setelah Anda selesai dengan proyek ini, jangan lupa untuk menghapus semua sumber daya.
 
 ## 🚀 Tantangan
 
-Ada banyak hal lain yang dapat Anda lakukan melalui SDK, sayangnya, kita tidak dapat membahas semuanya dalam pelajaran ini. Tapi kabar baiknya, belajar cara menjelajahi dokumentasi SDK dapat membantu Anda melangkah jauh secara mandiri. Lihat dokumentasi Azure ML SDK dan temukan kelas `Pipeline` yang memungkinkan Anda membuat pipeline. Pipeline adalah kumpulan langkah-langkah yang dapat dijalankan sebagai alur kerja.
+Ada banyak hal lain yang dapat Anda lakukan melalui SDK, sayangnya, kita tidak dapat membahas semuanya dalam pelajaran ini. Tapi kabar baiknya, belajar cara menjelajahi dokumentasi SDK dapat membawa Anda jauh secara mandiri. Lihat dokumentasi Azure ML SDK dan temukan kelas `Pipeline` yang memungkinkan Anda membuat pipeline. Pipeline adalah kumpulan langkah yang dapat dijalankan sebagai alur kerja.
 
-**PETUNJUK:** Kunjungi [dokumentasi SDK](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) dan ketik kata kunci seperti "Pipeline" di bilah pencarian. Anda seharusnya menemukan kelas `azureml.pipeline.core.Pipeline` dalam hasil pencarian.
+**PETUNJUK:** Pergi ke [dokumentasi SDK](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) dan ketik kata kunci seperti "Pipeline" di bilah pencarian. Anda seharusnya menemukan kelas `azureml.pipeline.core.Pipeline` dalam hasil pencarian.
 
-## [Kuis setelah pelajaran](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/37)
+## [Kuis setelah pelajaran](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Tinjauan & Studi Mandiri
 
-Dalam pelajaran ini, Anda telah belajar cara melatih, mendeply, dan menggunakan model untuk memprediksi risiko gagal jantung dengan Azure ML SDK di cloud. Periksa [dokumentasi ini](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) untuk informasi lebih lanjut tentang Azure ML SDK. Cobalah untuk membuat model Anda sendiri dengan Azure ML SDK.
+Dalam pelajaran ini, Anda telah belajar cara melatih, mendeply, dan menggunakan model untuk memprediksi risiko gagal jantung dengan Azure ML SDK di cloud. Lihat [dokumentasi ini](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) untuk informasi lebih lanjut tentang Azure ML SDK. Cobalah untuk membuat model Anda sendiri dengan Azure ML SDK.
 
 ## Tugas
 
