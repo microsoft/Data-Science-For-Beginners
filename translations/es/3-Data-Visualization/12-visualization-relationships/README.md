@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "cad419b574d5c35eaa417e9abfdcb0c8",
-  "translation_date": "2025-08-24T22:39:04+00:00",
+  "original_hash": "b29e427401499e81f4af55a8c4afea76",
+  "translation_date": "2025-09-04T14:00:09+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "es"
 }
@@ -62,7 +62,7 @@ sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey,
 ```
 ![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.es.png)
 
-Con este cambio de esquema de colores, puedes ver que hay una progresión evidente a lo largo de los años en términos de precio de la miel por libra. De hecho, si observas un conjunto de muestra en los datos para verificar (elige un estado, Arizona por ejemplo), puedes ver un patrón de aumento de precios año tras año, con pocas excepciones:
+Con este cambio de esquema de colores, puedes ver que hay obviamente una fuerte progresión a lo largo de los años en términos de precio de la miel por libra. De hecho, si observas un conjunto de muestra en los datos para verificar (elige un estado dado, Arizona por ejemplo), puedes ver un patrón de aumento de precios año tras año, con pocas excepciones:
 
 | estado | numcol | yieldpercol | totalprod | stocks  | priceperlb | prodvalue | year |
 | ------ | ------ | ----------- | --------- | ------- | ---------- | --------- | ---- |
@@ -97,7 +97,7 @@ Para descubrir una correlación entre algunas de las variables en este conjunto 
 
 ## Gráficos de líneas
 
-Pregunta: ¿Hay un aumento claro en el precio de la miel por libra año tras año? Puedes descubrirlo fácilmente creando un único gráfico de líneas:
+Pregunta: ¿Hay un aumento claro en el precio de la miel por libra año tras año? Puedes descubrirlo fácilmente creando un gráfico de líneas único:
 
 ```python
 sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
@@ -106,7 +106,7 @@ Respuesta: Sí, con algunas excepciones alrededor del año 2003:
 
 ![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.es.png)
 
-✅ Debido a que Seaborn está agregando datos alrededor de una línea, muestra "las múltiples mediciones en cada valor de x trazando la media y el intervalo de confianza del 95% alrededor de la media". [Fuente](https://seaborn.pydata.org/tutorial/relational.html). Este comportamiento que consume tiempo puede desactivarse agregando `ci=None`.
+✅ Debido a que Seaborn está agregando datos alrededor de una línea, muestra "las múltiples mediciones en cada valor x trazando la media y el intervalo de confianza del 95% alrededor de la media". [Fuente](https://seaborn.pydata.org/tutorial/relational.html). Este comportamiento que consume tiempo puede desactivarse agregando `ci=None`.
 
 Pregunta: Bueno, en 2003, ¿también podemos ver un aumento en el suministro de miel? ¿Qué pasa si observas la producción total año tras año?
 
@@ -170,8 +170,9 @@ Aunque nada salta a la vista alrededor del año 2003, esto nos permite terminar 
 🐝❤️
 ## 🚀 Desafío
 
-En esta lección, aprendiste un poco más sobre otros usos de gráficos de dispersión y cuadrículas de líneas, incluyendo cuadrículas de facetas. Desafíate a ti mismo para crear una cuadrícula de facetas usando un conjunto de datos diferente, tal vez uno que hayas usado antes en estas lecciones. Nota cuánto tiempo tardan en crearse y cómo necesitas ser cuidadoso con la cantidad de cuadrículas que necesitas dibujar usando estas técnicas.
-## [Cuestionario posterior a la lección](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/23)
+En esta lección, aprendiste un poco más sobre otros usos de los gráficos de dispersión y las cuadrículas de líneas, incluidas las cuadrículas de facetas. Desafíate a crear una cuadrícula de facetas usando un conjunto de datos diferente, tal vez uno que hayas usado antes en estas lecciones. Nota cuánto tiempo tardan en crearse y cómo necesitas ser cuidadoso con la cantidad de cuadrículas que necesitas dibujar usando estas técnicas.
+
+## [Cuestionario posterior a la lección](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Revisión y Autoestudio
 
@@ -180,5 +181,7 @@ Los gráficos de líneas pueden ser simples o bastante complejos. Haz un poco de
 
 [Sumérgete en la colmena](assignment.md)
 
+---
+
 **Descargo de responsabilidad**:  
-Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Aunque nos esforzamos por garantizar la precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.
+Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Si bien nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.

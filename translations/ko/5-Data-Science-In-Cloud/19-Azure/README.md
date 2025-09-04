@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "73dead89dc2ddda4d6ec0232814a191e",
-  "translation_date": "2025-08-25T17:37:29+00:00",
+  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
+  "translation_date": "2025-09-04T13:26:00+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "ko"
 }
@@ -50,12 +50,12 @@ SDK의 주요 기능은 다음과 같습니다:
 - 머신 러닝 실험에 사용되는 데이터셋의 라이프사이클을 탐색, 준비 및 관리합니다.
 - 클라우드 리소스를 관리하여 머신 러닝 실험을 모니터링, 로깅 및 조직화합니다.
 - 로컬 또는 GPU 가속 모델 학습을 포함한 클라우드 리소스를 사용하여 모델을 학습합니다.
-- 자동화된 머신 러닝을 사용하여 구성 매개변수와 학습 데이터를 받아들입니다. 알고리즘과 하이퍼파라미터 설정을 자동으로 반복하여 예측 실행에 가장 적합한 모델을 찾습니다.
-- 학습된 모델을 RESTful 서비스로 변환하여 모든 애플리케이션에서 소비할 수 있는 웹 서비스를 배포합니다.
+- 자동화된 머신 러닝을 사용하여 구성 매개변수와 학습 데이터를 받아 알고리즘과 하이퍼파라미터 설정을 자동으로 반복하여 예측 실행에 가장 적합한 모델을 찾습니다.
+- 학습된 모델을 RESTful 서비스로 변환하여 애플리케이션에서 소비할 수 있는 웹 서비스를 배포합니다.
 
 [Azure Machine Learning SDK에 대해 더 알아보기](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
-[이전 강의](../18-Low-Code/README.md)에서는 로우 코드/노 코드 방식으로 모델을 학습, 배포 및 소비하는 방법을 살펴보았습니다. 심부전 데이터셋을 사용하여 심부전 예측 모델을 생성했습니다. 이번 강의에서는 동일한 작업을 Azure Machine Learning SDK를 사용하여 수행할 것입니다.
+[이전 강의](../18-Low-Code/README.md)에서는 로우 코드/노 코드 방식으로 모델을 학습, 배포 및 소비하는 방법을 배웠습니다. 심부전 데이터셋을 사용하여 심부전 예측 모델을 생성했습니다. 이번 강의에서는 동일한 작업을 Azure Machine Learning SDK를 사용하여 수행할 것입니다.
 
 ![프로젝트 스키마](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.ko.png)
 
@@ -66,7 +66,7 @@ SDK의 주요 기능은 다음과 같습니다:
 ## 2. Azure ML SDK를 사용한 모델 학습
 ### 2.1 Azure ML 워크스페이스 생성
 
-간단히 하기 위해 우리는 Jupyter Notebook에서 작업할 것입니다. 이는 이미 워크스페이스와 컴퓨트 인스턴스를 가지고 있음을 의미합니다. 이미 워크스페이스가 있다면, 바로 **2.3 노트북 생성** 섹션으로 이동할 수 있습니다.
+간단히 하기 위해 우리는 Jupyter Notebook에서 작업할 것입니다. 이는 이미 워크스페이스와 컴퓨트 인스턴스를 가지고 있다는 것을 의미합니다. 이미 워크스페이스가 있다면, 바로 **2.3 노트북 생성** 섹션으로 이동할 수 있습니다.
 
 워크스페이스가 없다면, [이전 강의](../18-Low-Code/README.md)의 **2.1 Azure ML 워크스페이스 생성** 섹션의 지침을 따라 워크스페이스를 생성하세요.
 
@@ -76,7 +76,7 @@ SDK의 주요 기능은 다음과 같습니다:
 
 ![컴퓨트 인스턴스 1](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.ko.png)
 
-Jupyter Notebook을 프로비저닝하기 위해 컴퓨트 인스턴스를 생성해봅시다.
+Jupyter Notebook을 프로비저닝하기 위해 컴퓨트 인스턴스를 생성해 봅시다.
 1. + New 버튼을 클릭합니다.
 2. 컴퓨트 인스턴스에 이름을 지정합니다.
 3. CPU 또는 GPU, VM 크기 및 코어 수를 선택합니다.
@@ -89,11 +89,11 @@ Jupyter Notebook을 프로비저닝하기 위해 컴퓨트 인스턴스를 생�
 
 ### 2.4 노트북 생성
 
-> **_참고:_** 다음 단계에서는 새 노트북을 처음부터 생성하거나, [우리가 생성한 노트북](../../../../5-Data-Science-In-Cloud/19-Azure/notebook.ipynb)을 Azure ML Studio에 업로드할 수 있습니다. 업로드하려면 "Notebook" 메뉴를 클릭하고 노트북을 업로드하세요.
+> **_참고:_** 다음 단계에서는 새 노트북을 처음부터 생성하거나 [우리가 생성한 노트북](notebook.ipynb)을 Azure ML Studio에 업로드할 수 있습니다. 업로드하려면 "Notebook" 메뉴를 클릭하고 노트북을 업로드하세요.
 
-노트북은 데이터 과학 과정에서 매우 중요한 역할을 합니다. 탐색적 데이터 분석(EDA)을 수행하거나, 컴퓨트 클러스터를 호출하여 모델을 학습하거나, 추론 클러스터를 호출하여 엔드포인트를 배포하는 데 사용할 수 있습니다.
+노트북은 데이터 과학 과정에서 매우 중요한 역할을 합니다. 탐색적 데이터 분석(EDA)을 수행하거나 컴퓨트 클러스터를 호출하여 모델을 학습하거나 추론 클러스터를 호출하여 엔드포인트를 배포하는 데 사용할 수 있습니다.
 
-노트북을 생성하려면 Jupyter Notebook 인스턴스를 제공하는 컴퓨트 노드가 필요합니다. [Azure ML 워크스페이스](https://ml.azure.com/)로 돌아가 컴퓨트 인스턴스를 클릭하세요. 컴퓨트 인스턴스 목록에서 [이전에 생성한 컴퓨트 인스턴스](../../../../5-Data-Science-In-Cloud/19-Azure)를 확인할 수 있습니다.
+노트북을 생성하려면 Jupyter Notebook 인스턴스를 제공하는 컴퓨트 노드가 필요합니다. [Azure ML 워크스페이스](https://ml.azure.com/)로 돌아가 컴퓨트 인스턴스를 클릭하세요. 생성한 [컴퓨트 인스턴스](../../../../5-Data-Science-In-Cloud/19-Azure)가 목록에 표시될 것입니다.
 
 1. Applications 섹션에서 Jupyter 옵션을 클릭합니다.
 2. "Yes, I understand" 박스를 체크하고 Continue 버튼을 클릭합니다.
@@ -102,11 +102,11 @@ Jupyter Notebook을 프로비저닝하기 위해 컴퓨트 인스턴스를 생�
 
 ![노트북 2](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.ko.png)
 
-이제 노트북을 생성했으니 Azure ML SDK를 사용하여 모델 학습을 시작할 수 있습니다.
+이제 노트북이 준비되었으니 Azure ML SDK를 사용하여 모델 학습을 시작할 수 있습니다.
 
 ### 2.5 모델 학습
 
-먼저, 의문이 생길 경우 [Azure ML SDK 문서](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)를 참조하세요. 이번 강의에서 다룰 모듈에 대한 모든 필요한 정보를 포함하고 있습니다.
+먼저, 의문이 생기면 [Azure ML SDK 문서](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)를 참조하세요. 이번 강의에서 다룰 모듈에 대한 모든 정보를 포함하고 있습니다.
 
 #### 2.5.1 워크스페이스, 실험, 컴퓨트 클러스터 및 데이터셋 설정
 
@@ -162,12 +162,12 @@ AutoML 구성을 설정하려면 [AutoMLConfig 클래스](https://docs.microsoft
 - `max_concurrent_iterations`: 실험에서 허용되는 최대 동시 학습 반복 횟수.
 - `primary_metric`: 실험 상태를 결정하는 데 사용되는 주요 메트릭.
 - `compute_target`: 자동화된 머신 러닝 실험을 실행할 Azure Machine Learning 컴퓨트 대상.
-- `task`: 실행할 작업 유형. 'classification', 'regression', 'forecasting' 값 중 하나를 선택하여 해결할 자동화된 ML 문제 유형을 결정.
+- `task`: 실행할 작업 유형. 'classification', 'regression', 'forecasting' 중 하나.
 - `training_data`: 실험 내에서 사용될 학습 데이터. 학습 특징과 레이블 열(선택적으로 샘플 가중치 열)을 포함해야 함.
-- `label_column_name`: 레이블 열의 이름.
+- `label_column_name`: 레이블 열 이름.
 - `path`: Azure Machine Learning 프로젝트 폴더의 전체 경로.
 - `enable_early_stopping`: 점수가 단기적으로 개선되지 않을 경우 조기 종료를 활성화할지 여부.
-- `featurization`: 자동으로 특징화 단계를 수행할지 여부 또는 사용자 정의 특징화를 사용할지 여부.
+- `featurization`: 자동으로 특징화 단계를 수행할지 여부 또는 사용자 지정 특징화를 사용할지 여부.
 - `debug_log`: 디버그 정보를 기록할 로그 파일.
 
 ```python
@@ -192,7 +192,7 @@ automl_config = AutoMLConfig(compute_target=compute_target,
                              **automl_settings
                             )
 ```
-구성이 완료되었으니 다음 코드를 사용하여 모델을 학습할 수 있습니다. 클러스터 크기에 따라 이 단계는 최대 한 시간이 걸릴 수 있습니다.
+구성이 완료되었으면 다음 코드를 사용하여 모델을 학습시킬 수 있습니다. 이 단계는 클러스터 크기에 따라 최대 한 시간이 걸릴 수 있습니다.
 
 ```python
 remote_run = experiment.submit(automl_config)
@@ -206,12 +206,12 @@ RunDetails(remote_run).show()
 
 ### 3.1 최적의 모델 저장
 
-`remote_run`은 [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) 유형의 객체입니다. 이 객체는 `get_output()` 메서드를 포함하며, 최적의 실행과 해당 학습된 모델을 반환합니다.
+`remote_run`은 [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) 유형의 객체입니다. 이 객체는 최적의 실행과 해당 학습된 모델을 반환하는 `get_output()` 메서드를 포함합니다.
 
 ```python
 best_run, fitted_model = remote_run.get_output()
 ```
-최적의 모델에 사용된 매개변수를 보려면 `fitted_model`을 출력하고 [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) 메서드를 사용하여 최적의 모델 속성을 확인할 수 있습니다.
+최적의 모델에 사용된 매개변수를 보려면 `fitted_model`을 출력하고 [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) 메서드를 사용하여 최적의 모델 속성을 확인하세요.
 
 ```python
 best_run.get_properties()
@@ -230,7 +230,7 @@ model = best_run.register_model(model_name = model_name,
 ```
 ### 3.2 모델 배포
 
-최적의 모델을 저장한 후 [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109) 클래스를 사용하여 모델을 배포할 수 있습니다. InferenceConfig는 배포에 사용되는 사용자 정의 환경에 대한 구성 설정을 나타냅니다. [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) 클래스는 Azure Container Instances에서 웹 서비스 엔드포인트로 배포된 머신 러닝 모델을 나타냅니다. 배포된 서비스는 모델, 스크립트 및 관련 파일에서 생성됩니다. 결과 웹 서비스는 로드 밸런싱된 HTTP 엔드포인트로 REST API를 제공합니다. 이 API에 데이터를 보내고 모델이 반환한 예측을 받을 수 있습니다.
+최적의 모델이 저장되면 [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109) 클래스를 사용하여 배포할 수 있습니다. InferenceConfig는 배포에 사용되는 사용자 지정 환경의 구성 설정을 나타냅니다. [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) 클래스는 Azure Container Instances에서 웹 서비스 엔드포인트로 배포된 머신 러닝 모델을 나타냅니다. 배포된 서비스는 모델, 스크립트 및 관련 파일에서 생성됩니다. 결과 웹 서비스는 로드 밸런싱된 HTTP 엔드포인트로 REST API를 제공합니다. 이 API에 데이터를 보내고 모델이 반환한 예측을 받을 수 있습니다.
 
 모델은 [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) 메서드를 사용하여 배포됩니다.
 
@@ -284,27 +284,29 @@ test_sample = str.encode(json.dumps(data))
 response = aci_service.run(input_data=test_sample)
 response
 ```
-이 코드는 `'{"result": [false]}'`를 출력해야 합니다. 이는 우리가 엔드포인트에 보낸 환자 입력값이 `false`라는 예측을 생성했음을 의미하며, 이 사람은 심장마비를 겪을 가능성이 낮다는 뜻입니다.
+이 코드는 `'{"result": [false]}'`를 출력해야 합니다. 이는 우리가 엔드포인트에 보낸 환자 입력 데이터가 `false`라는 예측을 생성했음을 의미하며, 이 사람은 심장마비를 겪을 가능성이 낮다는 뜻입니다.
 
-축하합니다! Azure ML SDK를 사용하여 Azure ML에서 학습하고 배포된 모델을 성공적으로 활용했습니다!
+축하합니다! Azure ML SDK를 사용하여 Azure ML에서 배포 및 학습된 모델을 성공적으로 활용하셨습니다!
 
 > **_NOTE:_** 프로젝트를 완료한 후에는 모든 리소스를 삭제하는 것을 잊지 마세요.
 
 ## 🚀 도전 과제
 
-SDK를 통해 할 수 있는 많은 작업이 있지만, 아쉽게도 이 수업에서 모두 다룰 수는 없습니다. 하지만 좋은 소식은 SDK 문서를 빠르게 훑는 방법을 배우면 스스로 많은 것을 해낼 수 있다는 점입니다. Azure ML SDK 문서를 살펴보고 파이프라인을 생성할 수 있는 `Pipeline` 클래스를 찾아보세요. 파이프라인은 워크플로우로 실행할 수 있는 단계들의 모음입니다.
+SDK를 통해 할 수 있는 많은 작업들이 있지만, 아쉽게도 이 수업에서 모두 다룰 수는 없습니다. 하지만 좋은 소식은, SDK 문서를 빠르게 훑어보는 방법을 배우면 스스로 많은 것을 해낼 수 있다는 점입니다. Azure ML SDK 문서를 살펴보고, 파이프라인을 생성할 수 있는 `Pipeline` 클래스를 찾아보세요. 파이프라인은 워크플로우로 실행할 수 있는 단계들의 모음입니다.
 
-**힌트:** [SDK 문서](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)에 접속하여 검색창에 "Pipeline"과 같은 키워드를 입력하세요. 검색 결과에서 `azureml.pipeline.core.Pipeline` 클래스를 확인할 수 있을 것입니다.
+**힌트:** [SDK 문서](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)에 접속하여 검색창에 "Pipeline"과 같은 키워드를 입력해 보세요. 검색 결과에서 `azureml.pipeline.core.Pipeline` 클래스를 찾을 수 있을 것입니다.
 
-## [강의 후 퀴즈](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/37)
+## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ds/)
 
 ## 복습 및 자기 학습
 
-이번 수업에서는 Azure ML SDK를 사용하여 클라우드에서 심부전 위험을 예측하는 모델을 학습, 배포 및 활용하는 방법을 배웠습니다. Azure ML SDK에 대한 추가 정보를 원한다면 [문서](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)를 확인하세요. Azure ML SDK를 사용하여 자신만의 모델을 만들어 보세요.
+이번 강의에서는 Azure ML SDK를 사용하여 클라우드에서 심부전 위험을 예측하는 모델을 학습, 배포, 활용하는 방법을 배웠습니다. Azure ML SDK에 대한 추가 정보를 원한다면 이 [문서](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)를 확인하세요. Azure ML SDK를 사용하여 직접 모델을 만들어 보세요.
 
 ## 과제
 
 [Azure ML SDK를 활용한 데이터 과학 프로젝트](assignment.md)
 
+---
+
 **면책 조항**:  
-이 문서는 AI 번역 서비스 [Co-op Translator](https://github.com/Azure/co-op-translator)를 사용하여 번역되었습니다. 정확성을 위해 최선을 다하고 있으나, 자동 번역에는 오류나 부정확성이 포함될 수 있습니다. 원본 문서의 원어 버전이 권위 있는 출처로 간주되어야 합니다. 중요한 정보에 대해서는 전문적인 인간 번역을 권장합니다. 이 번역 사용으로 인해 발생하는 오해나 잘못된 해석에 대해 책임을 지지 않습니다.
+이 문서는 AI 번역 서비스 [Co-op Translator](https://github.com/Azure/co-op-translator)를 사용하여 번역되었습니다. 정확성을 위해 최선을 다하고 있으나, 자동 번역에는 오류나 부정확성이 포함될 수 있습니다. 원본 문서를 해당 언어로 작성된 상태에서 권위 있는 자료로 간주해야 합니다. 중요한 정보의 경우, 전문적인 인간 번역을 권장합니다. 이 번역 사용으로 인해 발생하는 오해나 잘못된 해석에 대해 당사는 책임을 지지 않습니다.  

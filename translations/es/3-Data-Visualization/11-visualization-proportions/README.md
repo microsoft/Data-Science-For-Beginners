@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "af6a12015c6e250e500b570a9fa42593",
-  "translation_date": "2025-08-24T23:04:31+00:00",
+  "original_hash": "cc490897ee2d276870472bcb31602d03",
+  "translation_date": "2025-09-04T13:58:38+00:00",
   "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
   "language_code": "es"
 }
@@ -21,7 +21,7 @@ En esta lección, usarás un conjunto de datos enfocado en la naturaleza para vi
 
 > 💡 Un proyecto muy interesante llamado [Charticulator](https://charticulator.com) de Microsoft Research ofrece una interfaz gratuita de arrastrar y soltar para visualizaciones de datos. ¡En uno de sus tutoriales también usan este conjunto de datos de hongos! Así que puedes explorar los datos y aprender a usar la biblioteca al mismo tiempo: [Tutorial de Charticulator](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Cuestionario previo a la lección](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/20)
+## [Cuestionario posterior a la lección](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Conoce tus hongos 🍄
 
@@ -35,13 +35,12 @@ mushrooms.head()
 ```
 Se imprime una tabla con datos excelentes para analizar:
 
-
-| clase      | forma-sombrero | superficie-sombrero | color-sombrero | magulladuras | olor     | unión-laminillas | espaciado-laminillas | tamaño-laminillas | color-laminillas | forma-tallo | raíz-tallo | superficie-tallo-encima-anillo | superficie-tallo-debajo-anillo | color-tallo-encima-anillo | color-tallo-debajo-anillo | tipo-velo | color-velo | número-anillos | tipo-anillo | color-esporas | población   | hábitat |
-| ---------- | -------------- | ------------------- | -------------- | ------------ | -------- | ---------------- | -------------------- | ----------------- | ---------------- | ----------- | ---------- | ----------------------------- | ----------------------------- | ------------------------- | ------------------------- | --------- | ---------- | -------------- | ----------- | ------------- | ----------- | ------- |
-| Venenoso   | Convexo        | Liso               | Marrón         | Magulladuras | Punzante | Libre            | Cerrado              | Estrecho          | Negro            | Ensanchado  | Igual      | Liso                        | Liso                        | Blanco                  | Blanco                  | Parcial   | Blanco     | Uno            | Colgante    | Negro         | Disperso    | Urbano  |
-| Comestible | Convexo        | Liso               | Amarillo       | Magulladuras | Almendra | Libre            | Cerrado              | Ancho             | Negro            | Ensanchado  | Club       | Liso                        | Liso                        | Blanco                  | Blanco                  | Parcial   | Blanco     | Uno            | Colgante    | Marrón        | Numeroso    | Pastos  |
-| Comestible | Campana        | Liso               | Blanco         | Magulladuras | Anís     | Libre            | Cerrado              | Ancho             | Marrón           | Ensanchado  | Club       | Liso                        | Liso                        | Blanco                  | Blanco                  | Parcial   | Blanco     | Uno            | Colgante    | Marrón        | Numeroso    | Praderas |
-| Venenoso   | Convexo        | Escamoso           | Blanco         | Magulladuras | Punzante | Libre            | Cerrado              | Estrecho          | Marrón           | Ensanchado  | Igual      | Liso                        | Liso                        | Blanco                  | Blanco                  | Parcial   | Blanco     | Uno            | Colgante    | Negro         | Disperso    | Urbano  |
+| class     | cap-shape | cap-surface | cap-color | bruises | odor    | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | stalk-root | stalk-surface-above-ring | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
+| --------- | --------- | ----------- | --------- | ------- | ------- | --------------- | ------------ | --------- | ---------- | ----------- | ---------- | ------------------------ | ------------------------ | ---------------------- | ---------------------- | --------- | ---------- | ----------- | --------- | ----------------- | ---------- | ------- |
+| Venenoso  | Convexo   | Liso        | Marrón    | Magullado | Pungente | Libre           | Cerrado      | Estrecho  | Negro      | Ensanchado  | Igual      | Liso                     | Liso                     | Blanco                 | Blanco                 | Parcial   | Blanco     | Uno         | Colgante  | Negro             | Disperso   | Urbano  |
+| Comestible| Convexo   | Liso        | Amarillo  | Magullado | Almendra | Libre           | Cerrado      | Ancho     | Negro      | Ensanchado  | Club       | Liso                     | Liso                     | Blanco                 | Blanco                 | Parcial   | Blanco     | Uno         | Colgante  | Marrón            | Numeroso   | Pastos  |
+| Comestible| Campana   | Liso        | Blanco    | Magullado | Anís     | Libre           | Cerrado      | Ancho     | Marrón     | Ensanchado  | Club       | Liso                     | Liso                     | Blanco                 | Blanco                 | Parcial   | Blanco     | Uno         | Colgante  | Marrón            | Numeroso   | Praderas|
+| Venenoso  | Convexo   | Escamoso    | Blanco    | Magullado | Pungente | Libre           | Cerrado      | Estrecho  | Marrón     | Ensanchado  | Igual      | Liso                     | Liso                     | Blanco                 | Blanco                 | Parcial   | Blanco     | Uno         | Colgante  | Negro             | Disperso   | Urbano  |
 
 De inmediato, notas que todos los datos son textuales. Tendrás que convertir estos datos para poder usarlos en un gráfico. De hecho, la mayoría de los datos están representados como un objeto:
 
@@ -74,14 +73,13 @@ edibleclass
 
 Ahora, si imprimes los datos de los hongos, puedes ver que se han agrupado en categorías según la clase venenoso/comestible:
 
+|           | cap-shape | cap-surface | cap-color | bruises | odor | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | ... | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
+| --------- | --------- | ----------- | --------- | ------- | ---- | --------------- | ------------ | --------- | ---------- | ----------- | --- | ------------------------ | ---------------------- | ---------------------- | --------- | ---------- | ----------- | --------- | ----------------- | ---------- | ------- |
+| class     |           |             |           |         |      |                 |              |           |            |             |     |                          |                        |                        |           |            |             |           |                   |            |         |
+| Comestible| 4208      | 4208        | 4208      | 4208    | 4208 | 4208            | 4208         | 4208      | 4208       | 4208        | ... | 4208                     | 4208                   | 4208                   | 4208      | 4208       | 4208        | 4208      | 4208              | 4208       | 4208    |
+| Venenoso  | 3916      | 3916        | 3916      | 3916    | 3916 | 3916            | 3916         | 3916      | 3916       | 3916        | ... | 3916                     | 3916                   | 3916                   | 3916      | 3916       | 3916        | 3916      | 3916              | 3916       | 3916    |
 
-|           | forma-sombrero | superficie-sombrero | color-sombrero | magulladuras | olor | unión-laminillas | espaciado-laminillas | tamaño-laminillas | color-laminillas | forma-tallo | ... | superficie-tallo-debajo-anillo | color-tallo-encima-anillo | color-tallo-debajo-anillo | tipo-velo | color-velo | número-anillos | tipo-anillo | color-esporas | población | hábitat |
-| --------- | -------------- | ------------------- | -------------- | ------------ | ---- | ---------------- | -------------------- | ----------------- | ---------------- | ----------- | --- | ----------------------------- | ------------------------- | ------------------------- | --------- | ---------- | -------------- | ----------- | ------------- | --------- | ------- |
-| clase     |                |                     |                |              |      |                  |                      |                   |                  |             |     |                               |                         |                         |           |            |                |             |               |           |         |
-| Comestible| 4208           | 4208                | 4208           | 4208         | 4208 | 4208             | 4208                 | 4208              | 4208             | 4208        | ... | 4208                        | 4208                    | 4208                    | 4208      | 4208       | 4208           | 4208        | 4208          | 4208      | 4208    |
-| Venenoso  | 3916           | 3916                | 3916           | 3916         | 3916 | 3916             | 3916                 | 3916              | 3916             | 3916        | ... | 3916                        | 3916                    | 3916                    | 3916      | 3916       | 3916           | 3916        | 3916          | 3916      | 3916    |
-
-Si sigues el orden presentado en esta tabla para crear las etiquetas de la categoría 'class', puedes construir un gráfico de pastel:
+Si sigues el orden presentado en esta tabla para crear las etiquetas de las categorías de clase, puedes construir un gráfico de pastel:
 
 ## ¡Pastel!
 
@@ -97,7 +95,7 @@ Voilà, un gráfico de pastel que muestra las proporciones de estos datos según
 
 ## ¡Donas!
 
-Un gráfico de dona, que es un gráfico de pastel con un agujero en el medio, es una forma visualmente más interesante de mostrar los datos. Veamos nuestros datos usando este método.
+Un gráfico de dona, que es un gráfico de pastel con un agujero en el medio, es una forma un poco más visualmente interesante de mostrar los datos. Veamos nuestros datos usando este método.
 
 Observa los diversos hábitats donde crecen los hongos:
 
@@ -125,11 +123,12 @@ plt.show()
 
 ![gráfico de dona](../../../../translated_images/donut-wb.be3c12a22712302b5d10c40014d5389d4a1ae4412fe1655b3cf4af57b64f799a.es.png)
 
-Este código dibuja un gráfico y un círculo central, luego agrega ese círculo central al gráfico. Edita el ancho del círculo central cambiando `0.40` por otro valor.
+Este código dibuja un gráfico y un círculo central, luego agrega ese círculo central al gráfico. Edita el ancho del círculo central cambiando `0.40` a otro valor.
 
-Los gráficos de dona se pueden ajustar de varias maneras para cambiar las etiquetas. Las etiquetas, en particular, se pueden resaltar para mejorar la legibilidad. Aprende más en los [documentos](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
+Los gráficos de dona se pueden ajustar de varias maneras para cambiar las etiquetas. En particular, las etiquetas pueden resaltarse para mejorar la legibilidad. Aprende más en los [docs](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
 
 Ahora que sabes cómo agrupar tus datos y luego mostrarlos como un gráfico de pastel o de dona, puedes explorar otros tipos de gráficos. Prueba un gráfico de waffle, que es solo una forma diferente de explorar cantidades.
+
 ## ¡Waffles!
 
 Un gráfico tipo 'waffle' es una forma diferente de visualizar cantidades como una matriz 2D de cuadrados. Intenta visualizar las diferentes cantidades de colores de sombreros de hongos en este conjunto de datos. Para hacerlo, necesitas instalar una biblioteca auxiliar llamada [PyWaffle](https://pypi.org/project/pywaffle/) y usar Matplotlib:
@@ -174,7 +173,7 @@ Usando un gráfico de waffle, puedes ver claramente las proporciones de colores 
 
 ✅ PyWaffle admite íconos dentro de los gráficos que usan cualquier ícono disponible en [Font Awesome](https://fontawesome.com/). Haz algunos experimentos para crear un gráfico de waffle aún más interesante usando íconos en lugar de cuadrados.
 
-En esta lección, aprendiste tres formas de visualizar proporciones. Primero, necesitas agrupar tus datos en categorías y luego decidir cuál es la mejor manera de mostrar los datos: pastel, dona o waffle. Todos son deliciosos y ofrecen al usuario una instantánea instantánea de un conjunto de datos.
+En esta lección, aprendiste tres formas de visualizar proporciones. Primero, necesitas agrupar tus datos en categorías y luego decidir cuál es la mejor manera de mostrar los datos: pastel, dona o waffle. Todas son deliciosas y ofrecen al usuario una instantánea instantánea de un conjunto de datos.
 
 ## 🚀 Desafío
 
@@ -193,11 +192,13 @@ https://www.mit.edu/~mbarker/formula1/f1help/11-ch-c6.htm
 
 https://medium.datadriveninvestor.com/data-visualization-done-the-right-way-with-tableau-waffle-chart-fdf2a19be402
 
-Investiga más para encontrar información adicional sobre esta decisión.
+Investiga más para encontrar información adicional sobre esta decisión tan interesante.
 
 ## Tarea
 
-[Prueba en Excel](assignment.md)
+[Prueba esto en Excel](assignment.md)
+
+---
 
 **Descargo de responsabilidad**:  
-Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Aunque nos esforzamos por garantizar la precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.
+Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Si bien nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.

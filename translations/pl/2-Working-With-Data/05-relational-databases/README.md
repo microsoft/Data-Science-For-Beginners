@@ -1,17 +1,17 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "870a0086adbc313a8eea5489bdcb2522",
-  "translation_date": "2025-08-24T20:54:40+00:00",
+  "original_hash": "11b166fbcb7eaf82308cdc24b562f687",
+  "translation_date": "2025-09-04T14:39:13+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "pl"
 }
 -->
 # Praca z danymi: Relacyjne bazy danych
 
-|![ Sketchnote autorstwa [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/05-RelationalData.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/05-RelationalData.png)|
 |:---:|
-| Praca z danymi: Relacyjne bazy danych - _Sketchnote autorstwa [@nitya](https://twitter.com/nitya)_ |
+| Praca z danymi: Relacyjne bazy danych - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
 Prawdopodobnie w przeszłości korzystałeś z arkusza kalkulacyjnego do przechowywania informacji. Miałeś zestaw wierszy i kolumn, gdzie wiersze zawierały informacje (lub dane), a kolumny opisywały te informacje (czasami nazywane metadanymi). Relacyjna baza danych opiera się na tej podstawowej zasadzie kolumn i wierszy w tabelach, pozwalając na przechowywanie informacji w wielu tabelach. Dzięki temu możesz pracować z bardziej złożonymi danymi, unikać duplikacji i mieć większą elastyczność w eksploracji danych. Przyjrzyjmy się koncepcjom relacyjnej bazy danych.
 
@@ -19,7 +19,7 @@ Prawdopodobnie w przeszłości korzystałeś z arkusza kalkulacyjnego do przecho
 
 ## Wszystko zaczyna się od tabel
 
-Relacyjna baza danych opiera się na tabelach. Podobnie jak w arkuszu kalkulacyjnym, tabela to zbiór kolumn i wierszy. Wiersz zawiera dane lub informacje, z którymi chcemy pracować, takie jak nazwa miasta czy ilość opadów. Kolumny opisują dane, które przechowują.
+Relacyjna baza danych ma w swoim rdzeniu tabele. Podobnie jak w arkuszu kalkulacyjnym, tabela to zbiór kolumn i wierszy. Wiersz zawiera dane lub informacje, z którymi chcemy pracować, takie jak nazwa miasta czy ilość opadów. Kolumny opisują dane, które przechowują.
 
 Zacznijmy naszą eksplorację od stworzenia tabeli do przechowywania informacji o miastach. Możemy zacząć od ich nazwy i kraju. Możesz przechowywać to w tabeli w następujący sposób:
 
@@ -51,13 +51,13 @@ OK, spróbujmy czegoś innego. Dodajmy nowe kolumny dla każdego roku:
 | Atlanta  | Stany Zjednoczone | 1779 | 1111 | 1683 |
 | Auckland | Nowa Zelandia | 1386 | 942  | 1176 |
 
-Chociaż unika to duplikacji wierszy, dodaje kilka innych wyzwań. Musielibyśmy zmieniać strukturę naszej tabeli za każdym razem, gdy pojawi się nowy rok. Dodatkowo, gdy nasze dane się rozrosną, posiadanie lat jako kolumn utrudni ich pobieranie i obliczanie wartości.
+Chociaż unika to duplikacji wierszy, dodaje kilka innych wyzwań. Musielibyśmy zmieniać strukturę naszej tabeli za każdym razem, gdy pojawi się nowy rok. Dodatkowo, gdy nasze dane rosną, posiadanie lat jako kolumn utrudni ich pobieranie i obliczanie wartości.
 
 Dlatego potrzebujemy wielu tabel i relacji. Rozdzielając nasze dane, możemy uniknąć duplikacji i mieć większą elastyczność w pracy z danymi.
 
 ## Koncepcje relacji
 
-Wróćmy do naszych danych i zdecydujmy, jak je podzielić. Wiemy, że chcemy przechowywać nazwę i kraj naszych miast, więc prawdopodobnie najlepiej będzie to zrobić w jednej tabeli.
+Wróćmy do naszych danych i określmy, jak chcemy je podzielić. Wiemy, że chcemy przechowywać nazwę i kraj naszych miast, więc prawdopodobnie najlepiej będzie to zrobić w jednej tabeli.
 
 | Miasto   | Kraj          |
 | -------- | ------------- |
@@ -77,7 +77,7 @@ Ale zanim stworzymy następną tabelę, musimy ustalić, jak odwoływać się do
 | 2       | Atlanta  | Stany Zjednoczone |
 | 3       | Auckland | Nowa Zelandia |
 
-> ✅ Zauważysz, że w trakcie tej lekcji używamy terminów "id" i "klucz główny" zamiennie. Koncepcje te dotyczą również DataFrames, które poznasz później. DataFrames nie używają terminologii "klucz główny", jednak zauważysz, że zachowują się bardzo podobnie.
+> ✅ Zauważysz, że w trakcie tej lekcji używamy zamiennie terminów "id" i "klucz główny". Koncepcje te mają zastosowanie do DataFrames, które poznasz później. DataFrames nie używają terminologii "klucz główny", jednak zauważysz, że zachowują się w bardzo podobny sposób.
 
 Po stworzeniu tabeli miast, przechowajmy dane o opadach. Zamiast powielać pełne informacje o mieście, możemy użyć identyfikatora. Powinniśmy również upewnić się, że nowo utworzona tabela ma kolumnę *id*, ponieważ wszystkie tabele powinny mieć identyfikator lub klucz główny.
 
@@ -95,13 +95,13 @@ Po stworzeniu tabeli miast, przechowajmy dane o opadach. Zamiast powielać pełn
 | 8           | 3       | 2019 | 942   |
 | 9           | 3       | 2020 | 1176  |
 
-Zauważ kolumnę **city_id** w nowo utworzonej tabeli **opady**. Ta kolumna zawiera wartości, które odnoszą się do identyfikatorów w tabeli **miasta**. W technicznych terminach relacyjnych danych nazywa się to **kluczem obcym**; jest to klucz główny z innej tabeli. Możesz po prostu myśleć o tym jako o odniesieniu lub wskaźniku. **city_id** 1 odnosi się do Tokio.
+Zauważ kolumnę **city_id** w nowo utworzonej tabeli **opady**. Ta kolumna zawiera wartości, które odnoszą się do identyfikatorów w tabeli **miasta**. W technicznych terminach relacyjnych danych nazywa się to **kluczem obcym**; jest to klucz główny z innej tabeli. Możesz po prostu myśleć o tym jako o odwołaniu lub wskaźniku. **city_id** 1 odnosi się do Tokio.
 
 > [!NOTE] Klucz obcy jest często skracany jako FK
 
 ## Pobieranie danych
 
-Po podzieleniu danych na dwie tabele, możesz się zastanawiać, jak je pobrać. Jeśli używamy relacyjnej bazy danych, takiej jak MySQL, SQL Server czy Oracle, możemy użyć języka o nazwie Structured Query Language, czyli SQL. SQL (czasami wymawiane jako "sequel") to standardowy język używany do pobierania i modyfikowania danych w relacyjnej bazie danych.
+Mając dane podzielone na dwie tabele, możesz się zastanawiać, jak je pobrać. Jeśli używamy relacyjnej bazy danych, takiej jak MySQL, SQL Server lub Oracle, możemy użyć języka o nazwie Structured Query Language, czyli SQL. SQL (czasami wymawiane jako sequel) to standardowy język używany do pobierania i modyfikowania danych w relacyjnej bazie danych.
 
 Aby pobrać dane, używasz polecenia `SELECT`. W swojej podstawowej formie **wybierasz** kolumny, które chcesz zobaczyć **z** tabeli, w której się znajdują. Jeśli chciałbyś wyświetlić tylko nazwy miast, możesz użyć następującego zapytania:
 
@@ -132,9 +132,9 @@ WHERE country = 'New Zealand';
 
 ## Łączenie danych
 
-Do tej pory pobieraliśmy dane z jednej tabeli. Teraz chcemy połączyć dane z tabel **miasta** i **opady**. Robi się to poprzez *łączenie* ich ze sobą. Efektywnie tworzysz połączenie między dwiema tabelami i dopasowujesz wartości z kolumny z każdej tabeli.
+Do tej pory pobieraliśmy dane z jednej tabeli. Teraz chcemy połączyć dane z tabel **miasta** i **opady**. Robi się to poprzez *łączenie* ich razem. Efektywnie tworzysz połączenie między dwiema tabelami i dopasowujesz wartości z kolumny z każdej tabeli.
 
-W naszym przykładzie dopasujemy kolumnę **city_id** w tabeli **opady** do kolumny **city_id** w tabeli **miasta**. To dopasuje wartość opadów do odpowiedniego miasta. Typ łączenia, który wykonamy, nazywa się *łączeniem wewnętrznym*, co oznacza, że jeśli jakieś wiersze nie pasują do niczego z drugiej tabeli, nie zostaną wyświetlone. W naszym przypadku każde miasto ma dane o opadach, więc wszystko zostanie wyświetlone.
+W naszym przykładzie dopasujemy kolumnę **city_id** w tabeli **opady** do kolumny **city_id** w tabeli **miasta**. To dopasuje wartość opadów do odpowiedniego miasta. Typ łączenia, który wykonamy, nazywa się *łączeniem wewnętrznym*, co oznacza, że jeśli jakiekolwiek wiersze nie pasują do niczego z drugiej tabeli, nie będą wyświetlane. W naszym przypadku każde miasto ma dane o opadach, więc wszystko zostanie wyświetlone.
 
 Pobierzmy dane o opadach z 2019 roku dla wszystkich naszych miast.
 
@@ -167,7 +167,7 @@ WHERE rainfall.year = 2019
 
 ## Podsumowanie
 
-Relacyjne bazy danych opierają się na podziale informacji między wiele tabel, które następnie są łączone w celu wyświetlenia i analizy. Zapewnia to wysoki stopień elastyczności w wykonywaniu obliczeń i manipulowaniu danymi. Poznałeś podstawowe koncepcje relacyjnej bazy danych oraz sposób wykonywania połączenia między dwiema tabelami.
+Relacyjne bazy danych koncentrują się na dzieleniu informacji między wiele tabel, które następnie są łączone w celu wyświetlania i analizy. Zapewnia to wysoki stopień elastyczności w wykonywaniu obliczeń i manipulowaniu danymi. Poznałeś podstawowe koncepcje relacyjnej bazy danych oraz sposób wykonywania połączenia między dwiema tabelami.
 
 ## 🚀 Wyzwanie
 
@@ -175,7 +175,7 @@ Istnieje wiele relacyjnych baz danych dostępnych w internecie. Możesz eksploro
 
 ## Quiz po wykładzie
 
-## [Quiz po wykładzie](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/9)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Przegląd i samodzielna nauka
 
@@ -189,5 +189,7 @@ Na [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-be
 
 [Temat zadania](assignment.md)
 
+---
+
 **Zastrzeżenie**:  
-Ten dokument został przetłumaczony za pomocą usługi tłumaczenia AI [Co-op Translator](https://github.com/Azure/co-op-translator). Chociaż staramy się zapewnić dokładność, prosimy mieć na uwadze, że automatyczne tłumaczenia mogą zawierać błędy lub nieścisłości. Oryginalny dokument w jego rodzimym języku powinien być uznawany za wiarygodne źródło. W przypadku informacji krytycznych zaleca się skorzystanie z profesjonalnego tłumaczenia przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z użycia tego tłumaczenia.
+Ten dokument został przetłumaczony za pomocą usługi tłumaczeniowej AI [Co-op Translator](https://github.com/Azure/co-op-translator). Chociaż dokładamy wszelkich starań, aby tłumaczenie było precyzyjne, prosimy pamiętać, że automatyczne tłumaczenia mogą zawierać błędy lub nieścisłości. Oryginalny dokument w jego rodzimym języku powinien być uznawany za wiarygodne źródło. W przypadku informacji krytycznych zaleca się skorzystanie z profesjonalnego tłumaczenia wykonanego przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z korzystania z tego tłumaczenia.
