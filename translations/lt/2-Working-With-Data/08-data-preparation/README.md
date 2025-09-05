@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "3ade580a06b5f04d57cc83a768a8fb77",
-  "translation_date": "2025-08-31T05:41:35+00:00",
+  "original_hash": "90a815d332aea41a222f4c6372e7186e",
+  "translation_date": "2025-09-04T22:27:16+00:00",
   "source_file": "2-Working-With-Data/08-data-preparation/README.md",
   "language_code": "lt"
 }
@@ -13,34 +13,34 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Duomenų paruošimas - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [Prieš paskaitą: Klausimynas](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/14)
+## [Prieš paskaitos testą](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/14)
 
-Priklausomai nuo šaltinio, neapdoroti duomenys gali turėti tam tikrų neatitikimų, kurie sukels sunkumų analizuojant ir modeliuojant. Kitaip tariant, šie duomenys gali būti laikomi „nešvariais“ ir juos reikės išvalyti. Šioje pamokoje dėmesys skiriamas duomenų valymo ir transformavimo technikoms, siekiant spręsti problemas, susijusias su trūkstamais, netiksliais ar neišsamiais duomenimis. Pamokoje aptariamos temos bus naudojamos su Python ir Pandas biblioteka ir bus [pademonstruotos užrašų knygelėje](notebook.ipynb) šiame kataloge.
+Priklausomai nuo šaltinio, neapdoroti duomenys gali turėti tam tikrų neatitikimų, kurie sukels sunkumų analizuojant ir modeliuojant. Kitaip tariant, šie duomenys gali būti laikomi „nešvariais“ ir juos reikės išvalyti. Ši pamoka orientuota į duomenų valymo ir transformavimo technikas, siekiant spręsti problemas, susijusias su trūkstamais, netiksliais ar neišsamiais duomenimis. Pamokoje aptariamos temos naudos Python ir Pandas biblioteką, o jos bus [pademonstruotos užrašų knygelėje](../../../../2-Working-With-Data/08-data-preparation/notebook.ipynb) šiame kataloge.
 
-## Kodėl svarbu valyti duomenis
+## Duomenų valymo svarba
 
-- **Naudojimo ir pakartotinio naudojimo paprastumas**: Kai duomenys yra tinkamai organizuoti ir normalizuoti, juos lengviau ieškoti, naudoti ir dalintis su kitais.
+- **Patogumas naudoti ir pakartotinai naudoti**: Kai duomenys yra tinkamai organizuoti ir normalizuoti, juos lengviau ieškoti, naudoti ir dalintis su kitais.
 
-- **Nuoseklumas**: Duomenų mokslas dažnai reikalauja dirbti su daugiau nei vienu duomenų rinkiniu, kur duomenų rinkiniai iš skirtingų šaltinių turi būti sujungti. Užtikrinus, kad kiekvienas atskiras duomenų rinkinys būtų standartizuotas, galima užtikrinti, kad sujungti duomenys išliks naudingi.
+- **Nuoseklumas**: Duomenų mokslas dažnai reikalauja dirbti su daugiau nei vienu duomenų rinkiniu, kur duomenų rinkiniai iš skirtingų šaltinių turi būti sujungti. Užtikrinus, kad kiekvienas atskiras duomenų rinkinys turi bendrą standartizaciją, duomenys išliks naudingi, kai jie bus sujungti į vieną rinkinį.
 
 - **Modelio tikslumas**: Išvalyti duomenys pagerina modelių, kurie jais remiasi, tikslumą.
 
-## Dažni valymo tikslai ir strategijos
+## Dažniausi valymo tikslai ir strategijos
 
-- **Duomenų rinkinio tyrimas**: Duomenų tyrimas, kuris aptariamas [vėlesnėje pamokoje](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/15-analyzing), gali padėti atrasti duomenis, kuriuos reikia išvalyti. Vizualiai stebint reikšmes duomenų rinkinyje galima susidaryti lūkesčius, kaip atrodys likusi dalis, arba gauti idėjų apie problemas, kurias galima išspręsti. Tyrimas gali apimti pagrindinius užklausų vykdymus, vizualizacijas ir pavyzdžių analizę.
+- **Duomenų rinkinio tyrimas**: Duomenų tyrimas, kuris aptariamas [vėlesnėje pamokoje](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/15-analyzing), gali padėti atrasti duomenis, kuriuos reikia išvalyti. Vizualiai stebint reikšmes duomenų rinkinyje galima nustatyti, ko tikėtis iš likusios dalies, arba gauti idėją apie problemas, kurias galima išspręsti. Tyrimas gali apimti pagrindinius užklausų vykdymus, vizualizacijas ir pavyzdžių analizę.
 
-- **Formatavimas**: Priklausomai nuo šaltinio, duomenys gali būti pateikti nenuosekliai. Tai gali sukelti problemų ieškant ir atvaizduojant reikšmes, kai jos matomos duomenų rinkinyje, bet nėra tinkamai pateiktos vizualizacijose ar užklausų rezultatuose. Dažnos formatavimo problemos apima tarpus, datas ir duomenų tipus. Formatavimo problemų sprendimas paprastai priklauso nuo žmonių, kurie naudoja duomenis. Pavyzdžiui, standartai, kaip pateikiamos datos ir skaičiai, gali skirtis priklausomai nuo šalies.
+- **Formatavimas**: Priklausomai nuo šaltinio, duomenys gali turėti neatitikimų, kaip jie pateikiami. Tai gali sukelti problemų ieškant ir atvaizduojant reikšmes, kai jos matomos duomenų rinkinyje, bet nėra tinkamai pateiktos vizualizacijose ar užklausų rezultatuose. Dažnos formatavimo problemos apima tarpus, datas ir duomenų tipus. Formatavimo problemų sprendimas paprastai priklauso nuo žmonių, kurie naudoja duomenis. Pavyzdžiui, standartai, kaip pateikiamos datos ir skaičiai, gali skirtis priklausomai nuo šalies.
 
-- **Dubliavimas**: Duomenys, kurie pasikartoja, gali sukelti netikslius rezultatus ir dažniausiai turėtų būti pašalinti. Tai dažnai pasitaiko, kai sujungiami du ar daugiau duomenų rinkinių. Tačiau yra atvejų, kai dubliuoti duomenys sujungtuose rinkiniuose gali turėti papildomos informacijos ir juos gali reikėti išsaugoti.
+- **Dubliavimas**: Duomenys, kurie pasikartoja daugiau nei vieną kartą, gali sukelti netikslius rezultatus ir paprastai turėtų būti pašalinti. Tai dažnai pasitaiko, kai sujungiami du ar daugiau duomenų rinkinių. Tačiau yra atvejų, kai dubliavimas sujungtuose duomenų rinkiniuose gali turėti papildomos informacijos, kurią gali reikėti išsaugoti.
 
-- **Trūkstami duomenys**: Trūkstami duomenys gali sukelti netikslumus, taip pat silpnus ar šališkus rezultatus. Kartais tai galima išspręsti „pakartotinai įkeliant“ duomenis, užpildant trūkstamas reikšmes skaičiavimais ir kodu, pavyzdžiui, Python, arba tiesiog pašalinant reikšmę ir atitinkamus duomenis. Yra daugybė priežasčių, kodėl duomenys gali būti trūkstami, o veiksmai, kurių imamasi siekiant išspręsti šias problemas, gali priklausyti nuo to, kaip ir kodėl jie dingo.
+- **Trūkstami duomenys**: Trūkstami duomenys gali sukelti netikslumus, taip pat silpnus ar šališkus rezultatus. Kartais tai galima išspręsti „pakartotiniu įkėlimu“ arba trūkstamų reikšmių užpildymu skaičiavimais ir kodu, pavyzdžiui, Python, arba tiesiog pašalinant reikšmę ir atitinkamus duomenis. Yra daugybė priežasčių, kodėl duomenys gali būti trūkstami, o veiksmai, kurių imamasi norint išspręsti šias trūkstamas reikšmes, gali priklausyti nuo to, kaip ir kodėl jie dingo.
 
 ## Duomenų rėmelio informacijos tyrimas
-> **Mokymosi tikslas:** Šios dalies pabaigoje turėtumėte jaustis patogiai ieškodami bendros informacijos apie pandas DataFrame saugomus duomenis.
+> **Mokymosi tikslas:** Šios dalies pabaigoje turėtumėte jaustis patogiai ieškodami bendros informacijos apie duomenis, saugomus pandas DataFrame.
 
-Kai duomenys įkeliami į pandas, jie greičiausiai bus DataFrame formatu (žr. ankstesnę [pamoką](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python#dataframe) dėl išsamesnės apžvalgos). Tačiau jei jūsų DataFrame turi 60 000 eilučių ir 400 stulpelių, nuo ko pradėti suprasti, su kuo dirbate? Laimei, [pandas](https://pandas.pydata.org/) suteikia patogius įrankius greitai peržiūrėti bendrą informaciją apie DataFrame, taip pat pirmąsias ir paskutines eilutes.
+Kai duomenys įkeliami į pandas, jie greičiausiai bus DataFrame (žr. ankstesnę [pamoką](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python#dataframe) detaliam aprašymui). Tačiau jei jūsų DataFrame turi 60 000 eilučių ir 400 stulpelių, kaip pradėti suprasti, su kuo dirbate? Laimei, [pandas](https://pandas.pydata.org/) siūlo patogius įrankius, leidžiančius greitai peržiūrėti bendrą informaciją apie DataFrame, taip pat pirmąsias ir paskutines kelias eilutes.
 
-Norėdami ištirti šią funkciją, importuosime Python scikit-learn biblioteką ir naudosime ikonišką duomenų rinkinį: **Iris duomenų rinkinį**.
+Norėdami ištirti šią funkciją, importuosime Python scikit-learn biblioteką ir naudosime ikoninius duomenis: **Iris duomenų rinkinį**.
 
 ```python
 import pandas as pd
@@ -57,7 +57,7 @@ iris_df = pd.DataFrame(data=iris['data'], columns=iris['feature_names'])
 |3                                       |4.6              |3.1             |1.5              |0.2             |
 |4                                       |5.0              |3.6             |1.4              |0.2             |
 
-- **DataFrame.info**: Pradžiai, `info()` metodas naudojamas norint atspausdinti santrauką apie `DataFrame` turinį. Pažiūrėkime į šį duomenų rinkinį:
+- **DataFrame.info**: Pradžiai, `info()` metodas naudojamas norint atspausdinti santrauką apie turinį, esantį `DataFrame`. Pažvelkime į šį duomenų rinkinį, kad pamatytume, ką turime:
 ```python
 iris_df.info()
 ```
@@ -99,20 +99,20 @@ iris_df.tail()
 148                6.2               3.4                5.4               2.3
 149                5.9               3.0                5.1               1.8
 ```
-> **Išvada:** Net ir žiūrėdami tik į metaduomenis apie informaciją `DataFrame` arba pirmąsias ir paskutines kelias reikšmes, galite iš karto susidaryti idėją apie duomenų dydį, formą ir turinį.
+> **Išvada:** Net tik pažvelgus į metaduomenis apie informaciją `DataFrame` arba pirmąsias ir paskutines kelias reikšmes, galite iš karto susidaryti idėją apie duomenų dydį, formą ir turinį.
 
 ## Darbas su trūkstamais duomenimis
-> **Mokymosi tikslas:** Šios dalies pabaigoje turėtumėte žinoti, kaip pakeisti arba pašalinti null reikšmes iš DataFrame.
+> **Mokymosi tikslas:** Šios dalies pabaigoje turėtumėte žinoti, kaip pakeisti arba pašalinti tuščias reikšmes iš DataFrame.
 
-Dažniausiai duomenų rinkiniai, kuriuos norite naudoti (arba privalote naudoti), turi trūkstamų reikšmių. Kaip tvarkomi trūkstami duomenys, turi subtilių kompromisų, kurie gali paveikti jūsų galutinę analizę ir realaus pasaulio rezultatus.
+Dažniausiai duomenų rinkiniai, kuriuos norite naudoti (arba privalote naudoti), turi trūkstamų reikšmių. Kaip trūkstami duomenys tvarkomi, turi subtilių kompromisų, kurie gali paveikti galutinę analizę ir realaus pasaulio rezultatus.
 
-Pandas tvarko trūkstamas reikšmes dviem būdais. Pirmasis, kurį jau matėte ankstesnėse dalyse: `NaN`, arba Not a Number. Tai yra speciali reikšmė, kuri yra IEEE slankiojo kablelio specifikacijos dalis ir naudojama tik trūkstamoms slankiojo kablelio reikšmėms nurodyti.
+Pandas trūkstamas reikšmes tvarko dviem būdais. Pirmasis, kurį jau matėte ankstesnėse dalyse: `NaN`, arba Not a Number. Tai iš tikrųjų yra speciali reikšmė, kuri yra IEEE slankiojo kablelio specifikacijos dalis ir naudojama tik trūkstamoms slankiojo kablelio reikšmėms nurodyti.
 
-Kitiems nei slankiojo kablelio trūkstamiems duomenims pandas naudoja Python `None` objektą. Nors gali atrodyti painu, kad susidursite su dviem skirtingomis reikšmėmis, kurios iš esmės reiškia tą patį, yra pagrįstų programinių priežasčių šiam dizaino pasirinkimui, o praktikoje tai leidžia pandas pateikti gerą kompromisą daugumai atvejų. Nepaisant to, tiek `None`, tiek `NaN` turi apribojimų, kuriuos reikia žinoti, kaip jie gali būti naudojami.
+Kitoms trūkstamoms reikšmėms, išskyrus slankiojo kablelio skaičius, pandas naudoja Python `None` objektą. Nors gali atrodyti painu, kad susidursite su dviem skirtingomis reikšmėmis, kurios iš esmės reiškia tą patį, yra pagrįstų programavimo priežasčių šiam dizaino pasirinkimui, ir praktiškai tai leidžia pandas pateikti gerą kompromisą daugumai atvejų. Nepaisant to, tiek `None`, tiek `NaN` turi apribojimų, kuriuos reikia žinoti, atsižvelgiant į tai, kaip jie gali būti naudojami.
 
 Daugiau apie `NaN` ir `None` galite sužinoti iš [užrašų knygelės](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb)!
 
-- **Null reikšmių aptikimas**: Pandas `isnull()` ir `notnull()` metodai yra pagrindiniai metodai null duomenims aptikti. Abu grąžina Boole'o kaukes jūsų duomenims. Naudosime `numpy` `NaN` reikšmėms:
+- **Tuščių reikšmių aptikimas**: Pandas `isnull()` ir `notnull()` metodai yra pagrindiniai metodai, skirti aptikti tuščius duomenis. Abu grąžina Boole'o kaukes per jūsų duomenis. Naudosime `numpy` `NaN` reikšmėms:
 ```python
 import numpy as np
 
@@ -126,13 +126,13 @@ example1.isnull()
 3     True
 dtype: bool
 ```
-Atidžiai pažiūrėkite į išvestį. Ar kas nors jus nustebino? Nors `0` yra aritmetinis null, jis vis tiek yra tinkamas sveikasis skaičius ir pandas jį taip traktuoja. `''` yra šiek tiek subtilesnis. Nors jį naudojome 1 skyriuje kaip tuščios eilutės reikšmę, jis vis tiek yra eilutės objektas ir pandas nelaiko jo null reikšme.
+Atidžiai pažiūrėkite į rezultatą. Ar kas nors jus nustebino? Nors `0` yra aritmetinis nulis, jis vis tiek yra visiškai geras sveikasis skaičius, ir pandas jį taip traktuoja. `''` yra šiek tiek subtilesnis. Nors jį naudojome 1 skyriuje kaip tuščios eilutės reikšmę, jis vis tiek yra eilutės objektas ir pandas nelaiko jo tuščia reikšme.
 
-Dabar apverskime tai ir naudokime šiuos metodus taip, kaip dažniausiai juos naudosite praktikoje. Boole'o kaukes galite naudoti tiesiogiai kaip ``Series`` arba ``DataFrame`` indeksą, kuris gali būti naudingas dirbant su atskirai trūkstamomis (arba esančiomis) reikšmėmis.
+Dabar apsukime tai ir naudokime šiuos metodus taip, kaip dažniausiai juos naudosite praktikoje. Boole'o kaukes galite naudoti tiesiogiai kaip ``Series`` arba ``DataFrame`` indeksą, kuris gali būti naudingas, kai bandote dirbti su izoliuotomis trūkstamomis (arba esamomis) reikšmėmis.
 
-> **Išvada**: Tiek `isnull()`, tiek `notnull()` metodai duoda panašius rezultatus, kai juos naudojate `DataFrame`: jie rodo rezultatus ir tų rezultatų indeksą, kas jums labai padės dirbant su duomenimis.
+> **Išvada**: Tiek `isnull()`, tiek `notnull()` metodai duoda panašius rezultatus, kai juos naudojate `DataFrame`: jie rodo rezultatus ir tų rezultatų indeksą, kuris jums labai padės, kai dirbsite su savo duomenimis.
 
-- **Null reikšmių pašalinimas**: Be trūkstamų reikšmių identifikavimo, pandas suteikia patogų būdą pašalinti null reikšmes iš `Series` ir `DataFrame`. (Ypač dideliuose duomenų rinkiniuose dažnai patartina tiesiog pašalinti trūkstamas [NA] reikšmes iš analizės, o ne tvarkyti jas kitais būdais.) Norėdami tai pamatyti veiksmuose, grįžkime prie `example1`:
+- **Tuščių reikšmių pašalinimas**: Be trūkstamų reikšmių identifikavimo, pandas suteikia patogų būdą pašalinti tuščias reikšmes iš `Series` ir `DataFrame`. (Ypač dideliuose duomenų rinkiniuose dažnai patartina tiesiog pašalinti trūkstamas [NA] reikšmes iš analizės, o ne tvarkyti jas kitais būdais.) Norėdami tai pamatyti praktiškai, grįžkime prie `example1`:
 ```python
 example1 = example1.dropna()
 example1
@@ -142,9 +142,9 @@ example1
 2     
 dtype: object
 ```
-Atkreipkite dėmesį, kad tai turėtų atrodyti kaip jūsų išvestis iš `example3[example3.notnull()]`. Skirtumas tas, kad vietoj to, kad būtų indeksuojamos kaukės reikšmės, `dropna` pašalino tas trūkstamas reikšmes iš `Series` `example1`.
+Atkreipkite dėmesį, kad tai turėtų atrodyti kaip jūsų rezultatas iš `example3[example3.notnull()]`. Skirtumas čia yra tas, kad, užuot tiesiog indeksavus kaukės reikšmes, `dropna` pašalino tas trūkstamas reikšmes iš `Series` `example1`.
 
-Kadangi `DataFrame` turi dvi dimensijas, jie suteikia daugiau galimybių duomenims pašalinti.
+Kadangi `DataFrame` turi dvi dimensijas, jie suteikia daugiau galimybių duomenų pašalinimui.
 
 ```python
 example2 = pd.DataFrame([[1,      np.nan, 7], 
@@ -158,9 +158,9 @@ example2
 |1     |2.0|5.0|8  |
 |2     |NaN|6.0|9  |
 
-(Ar pastebėjote, kad pandas pakeitė du stulpelius į slankiojo kablelio tipus, kad atitiktų `NaN`?)
+(Ar pastebėjote, kad pandas pakeitė du stulpelius į slankiojo kablelio skaičius, kad pritaikytų `NaN`?)
 
-Negalite pašalinti vienos reikšmės iš `DataFrame`, todėl turite pašalinti visas eilutes arba stulpelius. Priklausomai nuo to, ką darote, galite norėti daryti vieną ar kitą, todėl pandas suteikia galimybes abiem. Kadangi duomenų moksle stulpeliai paprastai atspindi kintamuosius, o eilutės - stebėjimus, dažniau pašalinsite duomenų eilutes; numatytasis `dropna()` nustatymas yra pašalinti visas eilutes, kuriose yra bet kokių null reikšmių:
+Negalite pašalinti vienos reikšmės iš `DataFrame`, todėl turite pašalinti visas eilutes arba stulpelius. Priklausomai nuo to, ką darote, galite norėti daryti vieną ar kitą, todėl pandas suteikia galimybes abiem. Kadangi duomenų moksle stulpeliai paprastai atspindi kintamuosius, o eilutės – stebėjimus, labiau tikėtina, kad pašalinsite duomenų eilutes; numatytasis `dropna()` nustatymas yra pašalinti visas eilutes, kuriose yra bet kokių tuščių reikšmių:
 
 ```python
 example2.dropna()
@@ -179,9 +179,9 @@ example2.dropna(axis='columns')
 1	8
 2	9
 ```
-Atkreipkite dėmesį, kad tai gali pašalinti daug duomenų, kuriuos galbūt norėtumėte išsaugoti, ypač mažesniuose duomenų rinkiniuose. O kas, jei norite pašalinti tik tas eilutes ar stulpelius, kuriuose yra kelios arba net visos null reikšmės? Šiuos nustatymus galite nurodyti `dropna` naudodami `how` ir `thresh` parametrus.
+Atkreipkite dėmesį, kad tai gali pašalinti daug duomenų, kuriuos galbūt norėtumėte išsaugoti, ypač mažesniuose duomenų rinkiniuose. Ką daryti, jei norite pašalinti tik tas eilutes ar stulpelius, kuriuose yra kelios arba net visos tuščios reikšmės? Šiuos nustatymus galite nurodyti `dropna` su `how` ir `thresh` parametrais.
 
-Pagal numatytuosius nustatymus `how='any'` (jei norite patikrinti patys arba pamatyti, kokius kitus parametrus turi metodas, paleiskite `example4.dropna?` kodo langelyje). Galėtumėte alternatyviai nurodyti `how='all'`, kad pašalintumėte tik tas eilutes ar stulpelius, kuriuose yra visos null reikšmės. Išplėskime mūsų pavyzdinį `DataFrame`, kad pamatytume tai veiksmuose.
+Pagal numatytuosius nustatymus `how='any'` (jei norite patikrinti patys arba pamatyti, kokius kitus parametrus turi metodas, paleiskite `example4.dropna?` kodų langelyje). Galite alternatyviai nurodyti `how='all'`, kad pašalintumėte tik tas eilutes ar stulpelius, kuriuose yra visos tuščios reikšmės. Išplėskime mūsų pavyzdinį `DataFrame`, kad pamatytume tai praktiškai.
 
 ```python
 example2[3] = np.nan
@@ -193,7 +193,7 @@ example2
 |1     |2.0|5.0|8  |NaN|
 |2     |NaN|6.0|9  |NaN|
 
-`Thresh` parametras suteikia jums smulkesnę kontrolę: nustatote *ne-null* reikšmių skaičių, kurį eilutė arba stulpelis turi turėti, kad būtų išsaugotas:
+`thresh` parametras suteikia jums detalesnę kontrolę: nustatote, kiek *ne-tuščių* reikšmių eilutė ar stulpelis turi turėti, kad būtų išsaugotas:
 ```python
 example2.dropna(axis='rows', thresh=3)
 ```
@@ -201,9 +201,9 @@ example2.dropna(axis='rows', thresh=3)
 	0	1	2	3
 1	2.0	5.0	8	NaN
 ```
-Čia pirmoji ir paskutinė eilutės buvo pašalintos, nes jose yra tik dvi ne-null reikšmės.
+Čia pirmoji ir paskutinė eilutės buvo pašalintos, nes jose yra tik dvi ne-tuščios reikšmės.
 
-- **Null reikšmių užpildymas**: Priklausomai nuo jūsų duomenų rinkinio, kartais gali būti prasmingiau užpildyti null reikšmes galiojančiomis, o ne jas pašalinti. Galėtumėte naudoti `isnull`, kad tai padarytumėte vietoje, tačiau tai gali būti varginantis darbas, ypač jei turite daug reikšmių, kurias reikia užpildyti. Kadangi tai yra tokia dažna užduotis duomenų moksle, pandas suteikia `fillna`, kuris grąžina `Series` arba `DataFrame` kopiją su trūkstamomis reikšmėmis, pakeistomis jūsų pasirinkta reikšme. Sukurkime dar vieną pavyzdinį `Series`, kad pamatytume, kaip tai veikia praktikoje.
+- **Tuščių reikšmių užpildymas**: Priklausomai nuo jūsų duomenų rinkinio, kartais gali būti prasmingiau užpildyti tuščias reikšmes galiojančiomis, o ne jas pašalinti. Galėtumėte naudoti `isnull`, kad tai padarytumėte vietoje, tačiau tai gali būti varginantis darbas, ypač jei turite daug reikšmių, kurias reikia užpildyti. Kadangi tai yra tokia dažna užduotis duomenų moksle, pandas siūlo `fillna`, kuris grąžina `Series` arba `DataFrame` kopiją su trūkstamomis reikšmėmis, pakeistomis jūsų pasirinkta reikšme. Sukurkime dar vieną pavyzdinį `Series`, kad pamatytume, kaip tai veikia praktiškai.
 ```python
 example3 = pd.Series([1, np.nan, 2, None, 3], index=list('abcde'))
 example3
@@ -216,7 +216,7 @@ d    NaN
 e    3.0
 dtype: float64
 ```
-Galite užpildyti visas null reikšmes viena reikšme, pavyzdžiui, `0`:
+Galite užpildyti visas tuščias reikšmes viena reikšme, pavyzdžiui, `0`:
 ```python
 example3.fillna(0)
 ```
@@ -228,7 +228,7 @@ d    0.0
 e    3.0
 dtype: float64
 ```
-Galite **užpildyti pirmyn** null reikšmes, naudodami paskutinę galiojančią reikšmę null reikšmei užpildyti:
+Galite **užpildyti pirmyn** tuščias reikšmes, naudodami paskutinę galiojančią reikšmę, kad užpildytumėte tuščią:
 ```python
 example3.fillna(method='ffill')
 ```
@@ -240,7 +240,7 @@ d    2.0
 e    3.0
 dtype: float64
 ```
-Taip pat galite **užpildyti atgal**, kad užpildytumėte null reikšmę naudodami kitą galiojančią reikšmę:
+Taip pat galite **užpildyti atgal**, kad propaguotumėte kitą galiojančią reikšmę atgal, kad užpildytumėte tuščią:
 ```python
 example3.fillna(method='bfill')
 ```
@@ -252,18 +252,11 @@ d    3.0
 e    3.0
 dtype: float64
 ```
-Kaip galite spėti, tai veikia taip pat su `DataFrame`, tačiau taip pat galite nurodyti `axis`, pagal kurį užpildyti null reikšmes. Naudojant anksčiau naudotą `example2`:
+Kaip galite spėti, tai veikia taip pat su `DataFrame`, tačiau taip pat galite nurodyti `axis`, pagal kurį užpildyti tuščias reikšmes. Naudojant anksčiau naudotą `example2`:
 ```python
 example2.fillna(method='ffill', axis=1)
 ```
-```
-	0	1	2	3
-0	1.0	1.0	7.0	7.0
-1	2.0	5.0	8.0	8.0
-2	NaN	6.0	9.0	9.0
-```
-Atkreipkite dėmesį, kad kai ankstesnė reikšmė nėra prieinama užpildymui pirmyn, null reikšmė lieka.
-> **Svarbiausia:** Yra daugybė būdų, kaip spręsti trūkstamų reikšmių problemą jūsų duomenų rinkiniuose. Konkreti strategija, kurią pasirinksite (pašalinti, pakeisti ar net kaip pakeisti), turėtų būti diktuojama konkrečių duomenų ypatumų. Kuo daugiau dirbsite su duomenų rinkiniais, tuo geriau suprasite, kaip tvarkyti trūkstamas reikšmes.
+> **Svarbiausia:** Yra daugybė būdų, kaip spręsti trūkstamų reikšmių problemą jūsų duomenų rinkiniuose. Konkreti strategija, kurią pasirinksite (pašalinimas, pakeitimas ar net tai, kaip pakeisite), turėtų būti diktuojama konkrečių duomenų ypatumų. Kuo daugiau dirbsite su duomenų rinkiniais, tuo geriau suprasite, kaip tvarkyti trūkstamas reikšmes.
 
 ## Dublikatų duomenų pašalinimas
 
@@ -271,7 +264,7 @@ Atkreipkite dėmesį, kad kai ankstesnė reikšmė nėra prieinama užpildymui p
 
 Be trūkstamų duomenų, realiuose duomenų rinkiniuose dažnai susidursite su pasikartojančiais duomenimis. Laimei, `pandas` suteikia paprastą būdą aptikti ir pašalinti pasikartojančias įrašus.
 
-- **Dublikatų identifikavimas: `duplicated`**: Pasikartojančias reikšmes galite lengvai aptikti naudodami `duplicated` metodą `pandas`, kuris grąžina loginę kaukę, nurodančią, ar įrašas `DataFrame` yra ankstesnio įrašo dublikatas. Sukurkime dar vieną pavyzdinį `DataFrame`, kad pamatytume, kaip tai veikia.
+- **Dublikatų identifikavimas: `duplicated`**: Pasikartojančias reikšmes galite lengvai aptikti naudodami `duplicated` metodą `pandas`, kuris grąžina Boole'o kaukę, nurodančią, ar įrašas `DataFrame` yra ankstesnio įrašo dublikatas. Sukurkime dar vieną pavyzdinį `DataFrame`, kad pamatytume, kaip tai veikia.
 ```python
 example4 = pd.DataFrame({'letters': ['A','B'] * 2 + ['B'],
                          'numbers': [1, 2, 1, 3, 3]})
@@ -306,7 +299,7 @@ example4.drop_duplicates()
 1	B	2
 3	B	3
 ```
-Tiek `duplicated`, tiek `drop_duplicates` pagal numatytuosius nustatymus atsižvelgia į visas stulpelius, tačiau galite nurodyti, kad jie analizuotų tik tam tikrą `DataFrame` stulpelių dalį:
+Tiek `duplicated`, tiek `drop_duplicates` pagal numatymą analizuoja visas stulpelius, tačiau galite nurodyti, kad jie analizuotų tik tam tikrą `DataFrame` stulpelių dalį:
 ```python
 example4.drop_duplicates(['letters'])
 ```
@@ -316,20 +309,20 @@ letters	numbers
 1	B	2
 ```
 
-> **Svarbiausia:** Pasikartojančių duomenų pašalinimas yra būtina beveik kiekvieno duomenų mokslo projekto dalis. Pasikartojantys duomenys gali pakeisti jūsų analizės rezultatus ir pateikti netikslius rezultatus!
+> **Svarbiausia:** Pasikartojančių duomenų pašalinimas yra esminė beveik kiekvieno duomenų mokslo projekto dalis. Pasikartojantys duomenys gali pakeisti jūsų analizės rezultatus ir pateikti netikslius rezultatus!
 
 
 ## 🚀 Iššūkis
 
 Visos aptartos medžiagos pateikiamos kaip [Jupyter Notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/2-Working-With-Data/08-data-preparation/notebook.ipynb). Be to, po kiekvieno skyriaus yra pratimai – išbandykite juos!
 
-## [Po paskaitos testas](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/15)
+## [Po paskaitos testas](https://ff-quizzes.netlify.app/en/ds/)
 
 
 
 ## Apžvalga ir savarankiškas mokymasis
 
-Yra daugybė būdų, kaip atrasti ir pasiruošti duomenų analizavimui bei modeliavimui, o duomenų valymas yra svarbus žingsnis, reikalaujantis praktinio darbo. Išbandykite šiuos Kaggle iššūkius, kad susipažintumėte su technikomis, kurios nebuvo aptartos šioje pamokoje.
+Yra daugybė būdų, kaip atrasti ir pasiruošti duomenų analizės bei modeliavimo procesui, o duomenų valymas yra svarbus žingsnis, kuris reikalauja praktinio darbo. Išbandykite šiuos Kaggle iššūkius, kad susipažintumėte su technikomis, kurios nebuvo aptartos šioje pamokoje.
 
 - [Duomenų valymo iššūkis: Datų analizė](https://www.kaggle.com/rtatman/data-cleaning-challenge-parsing-dates/)
 
@@ -343,4 +336,4 @@ Yra daugybė būdų, kaip atrasti ir pasiruošti duomenų analizavimui bei model
 ---
 
 **Atsakomybės apribojimas**:  
-Šis dokumentas buvo išverstas naudojant dirbtinio intelekto vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, atkreipkite dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Kritinei informacijai rekomenduojama naudoti profesionalų žmogaus vertimą. Mes neprisiimame atsakomybės už nesusipratimus ar klaidingus aiškinimus, kylančius dėl šio vertimo naudojimo.
+Šis dokumentas buvo išverstas naudojant AI vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Kritinei informacijai rekomenduojama naudoti profesionalų žmogaus vertimą. Mes neprisiimame atsakomybės už nesusipratimus ar klaidingus interpretavimus, atsiradusius dėl šio vertimo naudojimo.
