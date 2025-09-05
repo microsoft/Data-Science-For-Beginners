@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "cc490897ee2d276870472bcb31602d03",
-  "translation_date": "2025-09-04T22:30:52+00:00",
+  "original_hash": "42119bcc97bee88254e381156d770f3c",
+  "translation_date": "2025-09-05T16:08:58+00:00",
   "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
   "language_code": "lt"
 }
@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Vizualizuojame proporcijas - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-Šioje pamokoje naudosite kitą gamtos tematikos duomenų rinkinį, kad vizualizuotumėte proporcijas, pavyzdžiui, kiek skirtingų grybų rūšių sudaro tam tikrą duomenų rinkinį apie grybus. Panagrinėkime šiuos įdomius grybus naudodami duomenų rinkinį iš Audubon, kuriame pateikiama informacija apie 23 rūšis grybų su lakšteliais iš Agaricus ir Lepiota šeimų. Eksperimentuosite su skaniais vizualizacijų tipais, tokiais kaip:
+Šioje pamokoje naudosite kitą gamtos tematikos duomenų rinkinį, kad vizualizuotumėte proporcijas, pavyzdžiui, kiek skirtingų grybų rūšių yra tam tikrame duomenų rinkinyje apie grybus. Panagrinėkime šiuos įdomius grybus naudodami duomenų rinkinį iš Audubon, kuriame pateikiama informacija apie 23 rūšis grybų su lakšteliais iš Agaricus ir Lepiota šeimų. Eksperimentuosite su skaniais vizualizacijų tipais, tokiais kaip:
 
 - Pyrago diagramos 🥧
 - Spurgos diagramos 🍩
@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 > 💡 Labai įdomus projektas, vadinamas [Charticulator](https://charticulator.com) iš Microsoft Research, siūlo nemokamą „drag and drop“ sąsają duomenų vizualizacijoms. Viename iš jų mokymų taip pat naudojamas šis grybų duomenų rinkinys! Taigi galite tyrinėti duomenis ir tuo pačiu metu mokytis naudotis biblioteka: [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Testas po paskaitos](https://ff-quizzes.netlify.app/en/ds/)
+## [Prieš paskaitą - testas](https://ff-quizzes.netlify.app/en/ds/quiz/20)
 
 ## Susipažinkite su savo grybais 🍄
 
@@ -36,14 +36,14 @@ mushrooms.head()
 Atspausdinama lentelė su puikiais duomenimis analizei:
 
 
-| klasė     | kepurėlės forma | kepurėlės paviršius | kepurėlės spalva | mėlynės | kvapas    | lakštelių tvirtinimas | lakštelių tarpai | lakštelių dydis | lakštelių spalva | kotelio forma | kotelio šaknis | kotelio paviršius virš žiedo | kotelio paviršius po žiedu | kotelio spalva virš žiedo | kotelio spalva po žiedu | šydo tipas | šydo spalva | žiedų skaičius | žiedo tipas | sporų atspaudų spalva | populiacija | buveinė |
+| klasė     | kepurėlės forma | kepurėlės paviršius | kepurėlės spalva | mėlynės | kvapas    | lakštelių tvirtinimas | lakštelių tarpai | lakštelių dydis | lakštelių spalva | kotelio forma | kotelio šaknis | kotelio paviršius virš žiedo | kotelio paviršius po žiedu | kotelio spalva virš žiedo | kotelio spalva po žiedu | šydo tipas | šydo spalva | žiedų skaičius | žiedo tipas | sporų atspaudo spalva | populiacija | buveinė |
 | --------- | -------------- | ------------------- | ---------------- | ------- | -------- | -------------------- | ---------------- | -------------- | ---------------- | ------------- | ------------- | -------------------------- | -------------------------- | ------------------------ | ------------------------ | --------- | ---------- | ------------- | --------- | --------------------- | ---------- | ------- |
-| Nuodingas | Išgaubta       | Lygi                | Ruda             | Mėlynės | Aitrus   | Laisvas              | Artimi           | Siauri          | Juoda            | Platėjantis   | Lygi          | Lygi                     | Lygi                     | Balta                   | Balta                   | Dalinis   | Balta      | Vienas        | Pakabukas | Juoda                 | Išsibarstę  | Miestas |
-| Valgomas  | Išgaubta       | Lygi                | Geltona          | Mėlynės | Migdolų | Laisvas              | Artimi           | Platus          | Juoda            | Platėjantis   | Klubas        | Lygi                     | Lygi                     | Balta                   | Balta                   | Dalinis   | Balta      | Vienas        | Pakabukas | Ruda                  | Daugybė     | Žolės   |
-| Valgomas  | Varpelis       | Lygi                | Balta            | Mėlynės | Anyžinis | Laisvas              | Artimi           | Platus          | Ruda             | Platėjantis   | Klubas        | Lygi                     | Lygi                     | Balta                   | Balta                   | Dalinis   | Balta      | Vienas        | Pakabukas | Ruda                  | Daugybė     | Pievos  |
-| Nuodingas | Išgaubta       | Žvynuota            | Balta            | Mėlynės | Aitrus   | Laisvas              | Artimi           | Siauri          | Ruda             | Platėjantis   | Lygi          | Lygi                     | Lygi                     | Balta                   | Balta                   | Dalinis   | Balta      | Vienas        | Pakabukas | Juoda                 | Išsibarstę  | Miestas |
+| Nuodingas | Išgaubta       | Lygi                | Ruda             | Mėlynės | Aitrus   | Laisvas              | Tankus           | Siauras         | Juoda            | Platėjantis   | Lygi          | Lygi                     | Lygi                     | Balta                   | Balta                   | Dalinis   | Balta      | Vienas        | Pakabukas | Juoda                 | Išsibarstę  | Miestas |
+| Valgomas  | Išgaubta       | Lygi                | Geltona          | Mėlynės | Migdolų | Laisvas              | Tankus           | Platus          | Juoda            | Platėjantis   | Klubas        | Lygi                     | Lygi                     | Balta                   | Balta                   | Dalinis   | Balta      | Vienas        | Pakabukas | Ruda                  | Daugybė     | Žolės   |
+| Valgomas  | Varpelis       | Lygi                | Balta            | Mėlynės | Anyžinis | Laisvas              | Tankus           | Platus          | Ruda             | Platėjantis   | Klubas        | Lygi                     | Lygi                     | Balta                   | Balta                   | Dalinis   | Balta      | Vienas        | Pakabukas | Ruda                  | Daugybė     | Pievos  |
+| Nuodingas | Išgaubta       | Žvynuota            | Balta            | Mėlynės | Aitrus   | Laisvas              | Tankus           | Siauras         | Ruda             | Platėjantis   | Lygi          | Lygi                     | Lygi                     | Balta                   | Balta                   | Dalinis   | Balta      | Vienas        | Pakabukas | Juoda                 | Išsibarstę  | Miestas |
 
-Iškart pastebėsite, kad visi duomenys yra tekstiniai. Turėsite konvertuoti šiuos duomenis, kad galėtumėte juos naudoti diagramoje. Dauguma duomenų, iš tiesų, yra pateikti kaip objektas:
+Iškart pastebite, kad visi duomenys yra tekstiniai. Turėsite konvertuoti šiuos duomenis, kad galėtumėte juos naudoti diagramoje. Dauguma duomenų iš tiesų yra pateikti kaip objektas:
 
 ```python
 print(mushrooms.select_dtypes(["object"]).columns)
@@ -72,14 +72,14 @@ edibleclass=mushrooms.groupby(['class']).count()
 edibleclass
 ```
 
-Dabar, jei atspausdinsite grybų duomenis, pamatysite, kad jie buvo suskirstyti į kategorijas pagal nuodingų/valgomų klasę:
+Dabar, jei atspausdinsite grybų duomenis, pamatysite, kad jie buvo suskirstyti į kategorijas pagal nuodingų/valgomų grybų klasę:
 
 
-|           | kepurėlės forma | kepurėlės paviršius | kepurėlės spalva | mėlynės | kvapas | lakštelių tvirtinimas | lakštelių tarpai | lakštelių dydis | lakštelių spalva | kotelio forma | ... | kotelio paviršius po žiedu | kotelio spalva virš žiedo | kotelio spalva po žiedu | šydo tipas | šydo spalva | žiedų skaičius | žiedo tipas | sporų atspaudų spalva | populiacija | buveinė |
+|           | kepurėlės forma | kepurėlės paviršius | kepurėlės spalva | mėlynės | kvapas | lakštelių tvirtinimas | lakštelių tarpai | lakštelių dydis | lakštelių spalva | kotelio forma | ... | kotelio paviršius po žiedu | kotelio spalva virš žiedo | kotelio spalva po žiedu | šydo tipas | šydo spalva | žiedų skaičius | žiedo tipas | sporų atspaudo spalva | populiacija | buveinė |
 | --------- | -------------- | ------------------- | ---------------- | ------- | ------ | -------------------- | ---------------- | -------------- | ---------------- | ------------- | --- | -------------------------- | ------------------------ | ------------------------ | --------- | ---------- | ------------- | --------- | --------------------- | ---------- | ------- |
 | klasė     |                |                     |                  |         |        |                      |                  |                |                  |               |     |                          |                        |                        |           |            |               |           |                     |            |         |
-| Valgomas  | 4208           | 4208               | 4208             | 4208    | 4208   | 4208                | 4208             | 4208           | 4208             | 4208          | ... | 4208                     | 4208                   | 4208                   | 4208      | 4208       | 4208          | 4208      | 4208                | 4208       | 4208    |
-| Nuodingas | 3916           | 3916               | 3916             | 3916    | 3916   | 3916                | 3916             | 3916           | 3916             | 3916          | ... | 3916                     | 3916                   | 3916                   | 3916      | 3916       | 3916          | 3916      | 3916                | 3916       | 3916    |
+| Valgomas  | 4208           | 4208               | 4208             | 4208    | 4208   | 4208                | 4208             | 4208           | 4208             | 4208          | ... | 4208                     | 4208                   | 4208                   | 4208      | 4208       | 4208          | 4208      | 4208                 | 4208       | 4208    |
+| Nuodingas | 3916           | 3916               | 3916             | 3916    | 3916   | 3916                | 3916             | 3916           | 3916             | 3916          | ... | 3916                     | 3916                   | 3916                   | 3916      | 3916       | 3916          | 3916      | 3916                 | 3916       | 3916    |
 
 Jei laikysitės šioje lentelėje pateiktos tvarkos, kad sukurtumėte klasės kategorijos etiketes, galėsite sukurti pyrago diagramą:
 
@@ -125,11 +125,11 @@ plt.show()
 
 ![spurgos diagrama](../../../../3-Data-Visualization/11-visualization-proportions/images/donut-wb.png)
 
-Šis kodas nubrėžia diagramą ir centrinį apskritimą, tada prideda tą centrinį apskritimą į diagramą. Redaguokite centrinio apskritimo plotį pakeisdami `0.40` į kitą reikšmę.
+Šis kodas nupiešia diagramą ir centrinį apskritimą, tada prideda tą centrinį apskritimą į diagramą. Redaguokite centrinio apskritimo plotį pakeisdami „0.40“ į kitą reikšmę.
 
-Spurgos diagramas galima koreguoti įvairiais būdais, kad pakeistumėte etiketes. Etiketės ypač gali būti paryškintos, kad būtų lengviau jas skaityti. Sužinokite daugiau [dokumentacijoje](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
+Spurgos diagramas galima koreguoti įvairiais būdais, kad pakeistumėte etiketes. Etiketės ypač gali būti paryškintos, kad būtų lengviau jas perskaityti. Sužinokite daugiau [dokumentacijoje](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
 
-Dabar, kai žinote, kaip grupuoti savo duomenis ir juos rodyti kaip pyragą ar spurgą, galite tyrinėti kitus diagramų tipus. Išbandykite vaflių diagramą, kuri yra tiesiog kitoks būdas tyrinėti kiekius.
+Dabar, kai žinote, kaip grupuoti savo duomenis ir juos rodyti kaip pyrago ar spurgos diagramą, galite tyrinėti kitus diagramų tipus. Išbandykite vaflių diagramą, kuri yra tiesiog kitoks būdas tyrinėti kiekius.
 ## Vafliai!
 
 „Vaflio“ tipo diagrama yra kitoks būdas vizualizuoti kiekius kaip 2D kvadratų masyvą. Pabandykite vizualizuoti skirtingus grybų kepurėlių spalvų kiekius šiame duomenų rinkinyje. Norėdami tai padaryti, turite įdiegti pagalbinę biblioteką, vadinamą [PyWaffle](https://pypi.org/project/pywaffle/) ir naudoti Matplotlib:
@@ -174,16 +174,16 @@ Naudodami vaflio diagramą, galite aiškiai matyti grybų kepurėlių spalvų pr
 
 ✅ Pywaffle palaiko piktogramas diagramose, kurios naudoja bet kokią piktogramą, esančią [Font Awesome](https://fontawesome.com/). Eksperimentuokite, kad sukurtumėte dar įdomesnę vaflio diagramą, naudodami piktogramas vietoj kvadratų.
 
-Šioje pamokoje išmokote tris būdus vizualizuoti proporcijas. Pirmiausia turite grupuoti savo duomenis į kategorijas, o tada nuspręsti, kuris būdas geriausiai atspindi duomenis - pyragas, spurga ar vaflis. Visi yra skanūs ir suteikia vartotojui akimirksniu suprantamą duomenų rinkinį.
+Šioje pamokoje išmokote tris būdus vizualizuoti proporcijas. Pirmiausia turite grupuoti savo duomenis į kategorijas, o tada nuspręsti, kuris būdas geriausiai tinka duomenims rodyti - pyragas, spurga ar vaflis. Visi yra skanūs ir suteikia vartotojui greitą duomenų rinkinio vaizdą.
 
 ## 🚀 Iššūkis
 
 Pabandykite atkurti šias skanias diagramas [Charticulator](https://charticulator.com).
-## [Testas po paskaitos](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
+## [Po paskaitos - testas](https://ff-quizzes.netlify.app/en/ds/quiz/21)
 
 ## Apžvalga ir savarankiškas mokymasis
 
-Kartais nėra akivaizdu, kada naudoti pyrago, spurgos ar vaflio diagramą. Štai keletas straipsnių, kuriuos galite perskaityti šia tema:
+Kartais nėra akivaizdu, kada naudoti pyrago, spurgos ar vaflio diagramą. Štai keletas straipsnių šia tema:
 
 https://www.beautiful.ai/blog/battle-of-the-charts-pie-chart-vs-donut-chart
 
@@ -201,4 +201,4 @@ Atlikite tyrimus, kad rastumėte daugiau informacijos apie šį sudėtingą spre
 ---
 
 **Atsakomybės apribojimas**:  
-Šis dokumentas buvo išverstas naudojant AI vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, atkreipkite dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Kritinei informacijai rekomenduojama profesionali žmogaus vertimo paslauga. Mes neprisiimame atsakomybės už nesusipratimus ar klaidingus aiškinimus, kylančius dėl šio vertimo naudojimo.
+Šis dokumentas buvo išverstas naudojant AI vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Kritinei informacijai rekomenduojama naudoti profesionalų žmogaus vertimą. Mes neprisiimame atsakomybės už nesusipratimus ar klaidingus interpretavimus, atsiradusius dėl šio vertimo naudojimo.

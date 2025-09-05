@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "57f7db1f4c3ae3361c1d1fbafcdd690c",
-  "translation_date": "2025-09-04T22:25:39+00:00",
+  "original_hash": "577a611517482c3ceaf76d3d8142cba9",
+  "translation_date": "2025-09-05T16:03:09+00:00",
   "source_file": "2-Working-With-Data/07-python/README.md",
   "language_code": "lt"
 }
@@ -15,37 +15,39 @@ CO_OP_TRANSLATOR_METADATA:
 
 [![Intro Video](../../../../2-Working-With-Data/07-python/images/video-ds-python.png)](https://youtu.be/dZjWOGbsN4Y)
 
-Nors duomenų bazės siūlo labai efektyvius būdus saugoti duomenis ir juos užklausti naudojant užklausų kalbas, lankstiausias būdas apdoroti duomenis yra rašyti savo programą, kuri manipuliuoja duomenimis. Daugeliu atvejų duomenų bazės užklausa būtų efektyvesnis sprendimas. Tačiau kai kuriais atvejais, kai reikia sudėtingesnio duomenų apdorojimo, tai negali būti lengvai atlikta naudojant SQL. 
-Duomenų apdorojimas gali būti programuojamas bet kuria programavimo kalba, tačiau yra tam tikros kalbos, kurios yra aukštesnio lygio dirbant su duomenimis. Duomenų mokslininkai dažniausiai renkasi vieną iš šių kalbų:
+Nors duomenų bazės siūlo labai efektyvius būdus saugoti duomenis ir užklausas vykdyti naudojant užklausų kalbas, lankstiausias duomenų apdorojimo būdas yra rašyti savo programą, kuri manipuliuoja duomenimis. Daugeliu atvejų duomenų bazės užklausa būtų efektyvesnis sprendimas. Tačiau kai kuriais atvejais, kai reikalingas sudėtingesnis duomenų apdorojimas, tai negali būti lengvai atlikta naudojant SQL. 
+Duomenų apdorojimas gali būti programuojamas bet kuria programavimo kalba, tačiau yra tam tikrų kalbų, kurios yra aukštesnio lygio dirbant su duomenimis. Duomenų mokslininkai dažniausiai renkasi vieną iš šių kalbų:
 
-* **[Python](https://www.python.org/)** – universali programavimo kalba, dažnai laikoma viena geriausių pasirinkimų pradedantiesiems dėl savo paprastumo. Python turi daugybę papildomų bibliotekų, kurios gali padėti išspręsti daugelį praktinių problemų, pvz., išgauti duomenis iš ZIP archyvo ar konvertuoti paveikslėlį į pilkąjį toną. Be duomenų mokslo, Python taip pat dažnai naudojama interneto svetainių kūrimui.
+* **[Python](https://www.python.org/)** – universali programavimo kalba, kuri dažnai laikoma viena geriausių pasirinkimų pradedantiesiems dėl savo paprastumo. Python turi daugybę papildomų bibliotekų, kurios gali padėti išspręsti daugelį praktinių problemų, pavyzdžiui, išgauti duomenis iš ZIP archyvo ar konvertuoti paveikslėlį į pilką spalvą. Be duomenų mokslo, Python taip pat dažnai naudojama interneto svetainių kūrimui.
 * **[R](https://www.r-project.org/)** – tradicinė įrankių dėžė, sukurta statistinių duomenų apdorojimui. Ji taip pat turi didelę bibliotekų saugyklą (CRAN), todėl yra geras pasirinkimas duomenų apdorojimui. Tačiau R nėra universali programavimo kalba ir retai naudojama už duomenų mokslo ribų.
-* **[Julia](https://julialang.org/)** – kita kalba, sukurta specialiai duomenų mokslui. Ji siekia geresnio našumo nei Python, todėl yra puikus įrankis moksliniams eksperimentams.
+* **[Julia](https://julialang.org/)** – kita kalba, sukurta specialiai duomenų mokslui. Ji skirta geresniam našumui nei Python, todėl yra puikus įrankis moksliniams eksperimentams.
 
-Šioje pamokoje mes sutelksime dėmesį į Python naudojimą paprastam duomenų apdorojimui. Mes prisiimsime, kad turite pagrindines žinias apie šią kalbą. Jei norite gilesnio Python kurso, galite pasinaudoti šiais ištekliais:
+Šioje pamokoje mes sutelksime dėmesį į Python naudojimą paprastam duomenų apdorojimui. Mes prielaida, kad turite pagrindines žinias apie šią kalbą. Jei norite giliau susipažinti su Python, galite pasinaudoti vienu iš šių šaltinių:
 
-* [Learn Python in a Fun Way with Turtle Graphics and Fractals](https://github.com/shwars/pycourse) – greitas įvadas į Python programavimą GitHub platformoje
-* [Take your First Steps with Python](https://docs.microsoft.com/en-us/learn/paths/python-first-steps/?WT.mc_id=academic-77958-bethanycheum) – mokymosi kelias [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=academic-77958-bethanycheum)
+* [Mokykitės Python smagiai su Turtle Graphics ir Fractals](https://github.com/shwars/pycourse) – greitas įvadas į Python programavimą GitHub platformoje
+* [Pradėkite savo pirmuosius žingsnius su Python](https://docs.microsoft.com/en-us/learn/paths/python-first-steps/?WT.mc_id=academic-77958-bethanycheum) Mokymosi kelias [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=academic-77958-bethanycheum)
 
 Duomenys gali būti įvairių formų. Šioje pamokoje mes apsvarstysime tris duomenų formas – **lentelinius duomenis**, **tekstą** ir **vaizdus**.
 
-Mes sutelksime dėmesį į keletą duomenų apdorojimo pavyzdžių, o ne pateiksime visą susijusių bibliotekų apžvalgą. Tai leis jums suprasti pagrindinę idėją, kas yra įmanoma, ir paliks jus su žiniomis, kur rasti sprendimus savo problemoms, kai jų prireiks.
+Mes sutelksime dėmesį į keletą duomenų apdorojimo pavyzdžių, o ne pateiksime visą susijusių bibliotekų apžvalgą. Tai leis jums suprasti pagrindinę idėją, kas įmanoma, ir paliks jums supratimą, kur rasti sprendimus savo problemoms, kai jų prireiks.
 
-> **Naudingiausias patarimas**. Kai reikia atlikti tam tikrą operaciją su duomenimis, kurios nežinote, kaip atlikti, pabandykite ieškoti informacijos internete. [Stackoverflow](https://stackoverflow.com/) dažnai turi daug naudingų Python kodo pavyzdžių, skirtų daugybei tipinių užduočių.
+> **Naudingiausias patarimas**. Kai reikia atlikti tam tikrą operaciją su duomenimis, kurios nežinote, kaip atlikti, pabandykite ieškoti informacijos internete. [Stackoverflow](https://stackoverflow.com/) dažnai turi daug naudingų Python kodo pavyzdžių daugeliui tipinių užduočių.
 
-## [Prieš pamokos testas](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/12)
+
+
+## [Prieš pamokos testas](https://ff-quizzes.netlify.app/en/ds/quiz/12)
 
 ## Lenteliniai duomenys ir duomenų rėmeliai
 
-Jūs jau susipažinote su lenteliniais duomenimis, kai kalbėjome apie reliacines duomenų bazes. Kai turite daug duomenų, kurie yra saugomi skirtingose susietose lentelėse, tikrai verta naudoti SQL darbui su jais. Tačiau yra daug atvejų, kai turime vieną duomenų lentelę ir norime gauti tam tikrą **supratimą** ar **įžvalgas** apie šiuos duomenis, pvz., pasiskirstymą, vertybių koreliaciją ir pan. Duomenų moksle dažnai reikia atlikti tam tikras originalių duomenų transformacijas, po kurių seka vizualizacija. Abi šios užduotys gali būti lengvai atliktos naudojant Python.
+Jūs jau susipažinote su lenteliniais duomenimis, kai kalbėjome apie reliacines duomenų bazes. Kai turite daug duomenų, kurie yra saugomi skirtingose susietose lentelėse, tikrai verta naudoti SQL darbui su jais. Tačiau yra daug atvejų, kai turime duomenų lentelę ir norime gauti tam tikrą **supratimą** ar **įžvalgas** apie šiuos duomenis, pavyzdžiui, pasiskirstymą, vertybių koreliaciją ir pan. Duomenų moksle dažnai reikia atlikti tam tikras pradinio duomenų transformacijas, po kurių seka vizualizacija. Abi šios užduotys gali būti lengvai atliktos naudojant Python.
 
-Python turi dvi naudingiausias bibliotekas, kurios padeda dirbti su lenteliniais duomenimis:
-* **[Pandas](https://pandas.pydata.org/)** leidžia manipuliuoti vadinamaisiais **duomenų rėmeliais** (Dataframes), kurie yra analogiški reliacinėms lentelėms. Galite turėti pavadintas stulpelius ir atlikti įvairias operacijas su eilutėmis, stulpeliais ir duomenų rėmeliais apskritai.
-* **[Numpy](https://numpy.org/)** – biblioteka, skirta dirbti su **tensoriais**, t. y. daugiamačiais **masyvais**. Masyvas turi vienodo tipo vertes ir yra paprastesnis nei duomenų rėmelis, tačiau siūlo daugiau matematinių operacijų ir sukuria mažiau papildomų išteklių.
+Yra dvi naudingiausios Python bibliotekos, kurios gali padėti dirbti su lenteliniais duomenimis:
+* **[Pandas](https://pandas.pydata.org/)** leidžia manipuliuoti vadinamaisiais **duomenų rėmeliais**, kurie yra analogiški reliacinėms lentelėms. Galite turėti pavadintas stulpelius ir atlikti įvairias operacijas su eilutėmis, stulpeliais ir duomenų rėmeliais apskritai.
+* **[Numpy](https://numpy.org/)** yra biblioteka, skirta dirbti su **tensoriais**, t. y. daugiamačiais **masyvais**. Masyvas turi tos pačios pagrindinės rūšies vertybes, yra paprastesnis nei duomenų rėmelis, tačiau siūlo daugiau matematinių operacijų ir sukuria mažiau apkrovos.
 
 Taip pat yra keletas kitų bibliotekų, kurias verta žinoti:
 * **[Matplotlib](https://matplotlib.org/)** – biblioteka, naudojama duomenų vizualizacijai ir grafų braižymui
-* **[SciPy](https://www.scipy.org/)** – biblioteka su papildomomis mokslinėmis funkcijomis. Jau susidūrėme su šia biblioteka, kai kalbėjome apie tikimybes ir statistiką.
+* **[SciPy](https://www.scipy.org/)** – biblioteka su papildomomis mokslinėmis funkcijomis. Jau susidūrėme su šia biblioteka, kai kalbėjome apie tikimybes ir statistiką
 
 Štai kodo fragmentas, kurį paprastai naudotumėte šių bibliotekų importavimui Python programos pradžioje:
 ```python
@@ -55,15 +57,15 @@ import matplotlib.pyplot as plt
 from scipy import ... # you need to specify exact sub-packages that you need
 ``` 
 
-Pandas biblioteka yra pagrįsta keliais pagrindiniais konceptais.
+Pandas yra pagrįsta keliais pagrindiniais konceptais.
 
-### Serijos
+### Serijos 
 
-**Serija** – tai vertybių seka, panaši į sąrašą ar numpy masyvą. Pagrindinis skirtumas yra tas, kad serija taip pat turi **indeksą**, ir kai atliekame operacijas su serijomis (pvz., jas sudedame), indeksas yra įtraukiamas į skaičiavimus. Indeksas gali būti toks paprastas kaip eilutės numeris (tai yra numatytasis indeksas, kai serija kuriama iš sąrašo ar masyvo), arba jis gali turėti sudėtingą struktūrą, pvz., datos intervalą.
+**Serijos** yra vertybių seka, panaši į sąrašą ar numpy masyvą. Pagrindinis skirtumas yra tas, kad serijos taip pat turi **indeksą**, ir kai atliekame operacijas su serijomis (pvz., jas sudedame), indeksas yra įtraukiamas į skaičiavimus. Indeksas gali būti toks paprastas kaip eilutės numeris (tai yra numatytasis indeksas, kai serija kuriama iš sąrašo ar masyvo), arba jis gali turėti sudėtingą struktūrą, pvz., datos intervalą.
 
 > **Pastaba**: Įvadinis Pandas kodas pateiktas pridedamame užrašų knygelėje [`notebook.ipynb`](../../../../2-Working-With-Data/07-python/notebook.ipynb). Čia pateikiame tik keletą pavyzdžių, tačiau tikrai kviečiame peržiūrėti visą užrašų knygelę.
 
-Pavyzdžiui, norime analizuoti mūsų ledų parduotuvės pardavimus. Sukurkime seriją pardavimų skaičių (kiek vienetų parduota kiekvieną dieną) tam tikram laikotarpiui:
+Pavyzdžiui, norime analizuoti mūsų ledų parduotuvės pardavimus. Sukurkime seriją pardavimų skaičių (kiekvieną dieną parduotų prekių skaičius) tam tikram laikotarpiui:
 
 ```python
 start_date = "Jan 1, 2020"
@@ -139,13 +141,13 @@ df = pd.DataFrame([a,b]).T..rename(columns={ 0 : 'A', 1 : 'B' })
 
 **Filtravimas** tik tam tikrų eilučių pagal kriterijus. Pavyzdžiui, norėdami palikti tik eilutes, kuriose stulpelis `A` yra didesnis nei 5, galime rašyti `df[df['A']>5]`.
 
-> **Pastaba**: Filtravimas veikia taip. Išraiška `df['A']<5` grąžina loginę seriją, kuri nurodo, ar išraiška yra `True` ar `False` kiekvienam originalios serijos `df['A']` elementui. Kai loginė serija naudojama kaip indeksas, ji grąžina eilučių pogrupį duomenų rėmelyje. Todėl negalima naudoti bet kokios Python loginės išraiškos, pvz., rašyti `df[df['A']>5 and df['A']<7]` būtų neteisinga. Vietoj to, turėtumėte naudoti specialią `&` operaciją loginėms serijoms, rašydami `df[(df['A']>5) & (df['A']<7)]` (*skliaustai čia yra svarbūs*).
+> **Pastaba**: Filtravimas veikia taip. Išraiška `df['A']<5` grąžina loginę seriją, kuri nurodo, ar išraiška yra `True` ar `False` kiekvienam pradiniam serijos `df['A']` elementui. Kai loginė serija naudojama kaip indeksas, ji grąžina eilučių pogrupį duomenų rėmelyje. Todėl negalima naudoti bet kokios Python loginės išraiškos, pavyzdžiui, rašyti `df[df['A']>5 and df['A']<7]` būtų neteisinga. Vietoj to turėtumėte naudoti specialią `&` operaciją loginėms serijoms, rašydami `df[(df['A']>5) & (df['A']<7)]` (*skliaustai čia yra svarbūs*).
 
 **Naujų skaičiuojamų stulpelių kūrimas**. Galime lengvai sukurti naujus skaičiuojamus stulpelius savo duomenų rėmelyje naudodami intuityvią išraišką, pvz.:
 ```python
 df['DivA'] = df['A']-df['A'].mean() 
 ``` 
-Šis pavyzdys apskaičiuoja A nukrypimą nuo jo vidutinės vertės. Kas iš tikrųjų vyksta, yra tai, kad mes apskaičiuojame seriją ir tada priskiriame šią seriją kairiajai pusei, sukurdami kitą stulpelį. Todėl negalime naudoti jokių operacijų, kurios nesuderinamos su serijomis, pvz., žemiau pateiktas kodas yra neteisingas:
+Šis pavyzdys apskaičiuoja A nukrypimą nuo jo vidutinės vertės. Kas iš tikrųjų vyksta, yra tai, kad mes apskaičiuojame seriją ir tada priskiriame šią seriją kairiajai pusei, sukurdami kitą stulpelį. Todėl negalime naudoti jokių operacijų, kurios nesuderinamos su serijomis, pavyzdžiui, žemiau pateiktas kodas yra neteisingas:
 ```python
 # Wrong code -> df['ADescr'] = "Low" if df['A'] < 5 else "Hi"
 df['LenB'] = len(df['B']) # <- Wrong result
@@ -203,21 +205,21 @@ Mes jau matėme, kaip lengva sukurti Series ir DataFrames iš Python objektų. T
 ```python
 df = pd.read_csv('file.csv')
 ```
-Daugiau duomenų įkėlimo pavyzdžių, įskaitant jų gavimą iš išorinių svetainių, aptarsime „Iššūkių“ skyriuje.
+Daugiau duomenų įkėlimo pavyzdžių, įskaitant jų gavimą iš išorinių svetainių, aptarsime „Iššūkio“ skyriuje.
 
 ### Spausdinimas ir Vizualizavimas
 
 Duomenų mokslininkas dažnai turi tyrinėti duomenis, todėl svarbu mokėti juos vizualizuoti. Kai DataFrame yra didelis, dažnai norime tiesiog įsitikinti, kad viską darome teisingai, išspausdindami pirmas kelias eilutes. Tai galima padaryti iškviečiant `df.head()`. Jei tai vykdote iš Jupyter Notebook, jis išspausdins DataFrame gražioje lentelės formoje.
 
-Mes taip pat matėme `plot` funkcijos naudojimą kai kurių stulpelių vizualizavimui. Nors `plot` yra labai naudinga daugeliui užduočių ir palaiko daugybę skirtingų grafiko tipų per `kind=` parametrą, visada galite naudoti „matplotlib“ biblioteką, kad sukurtumėte sudėtingesnį grafiką. Duomenų vizualizavimą detaliai aptarsime atskirose kurso pamokose.
+Mes taip pat matėme `plot` funkcijos naudojimą kai kurių stulpelių vizualizavimui. Nors `plot` yra labai naudinga daugeliui užduočių ir palaiko daugybę skirtingų grafiko tipų per `kind=` parametrą, visada galite naudoti „matplotlib“ biblioteką, kad sukurtumėte sudėtingesnį grafiką. Duomenų vizualizavimą išsamiai aptarsime atskirose kurso pamokose.
 
-Ši apžvalga apima svarbiausias Pandas koncepcijas, tačiau biblioteka yra labai turtinga, ir nėra ribų, ką su ja galite padaryti! Dabar pritaikykime šias žinias sprendžiant konkrečią problemą.
+Ši apžvalga apima svarbiausias Pandas koncepcijas, tačiau biblioteka yra labai turtinga, ir nėra ribų, ką su ja galite nuveikti! Dabar pritaikykime šias žinias sprendžiant konkrečią problemą.
 
 ## 🚀 Iššūkis 1: COVID plitimo analizė
 
 Pirmoji problema, į kurią sutelksime dėmesį, yra COVID-19 epidemijos plitimo modeliavimas. Tam naudosime duomenis apie užsikrėtusių asmenų skaičių skirtingose šalyse, kuriuos pateikė [Sistemų mokslo ir inžinerijos centras](https://systems.jhu.edu/) (CSSE) iš [Johns Hopkins universiteto](https://jhu.edu/). Duomenų rinkinys pasiekiamas [šiame GitHub saugykloje](https://github.com/CSSEGISandData/COVID-19).
 
-Kadangi norime parodyti, kaip dirbti su duomenimis, kviečiame atidaryti [`notebook-covidspread.ipynb`](../../../../2-Working-With-Data/07-python/notebook-covidspread.ipynb) ir perskaityti jį nuo pradžios iki pabaigos. Taip pat galite vykdyti langelius ir atlikti kai kuriuos iššūkius, kuriuos palikome jums pabaigoje.
+Kadangi norime parodyti, kaip dirbti su duomenimis, kviečiame atidaryti [`notebook-covidspread.ipynb`](../../../../2-Working-With-Data/07-python/notebook-covidspread.ipynb) ir perskaityti jį nuo pradžios iki pabaigos. Taip pat galite vykdyti langelius ir atlikti keletą iššūkių, kuriuos palikome jums pabaigoje.
 
 ![COVID plitimas](../../../../2-Working-With-Data/07-python/images/covidspread.png)
 
@@ -237,9 +239,9 @@ Nors duomenys dažnai pateikiami lentelės forma, kai kuriais atvejais turime di
 
 Pilnas šio duomenų rinkinio analizės pavyzdys naudojant [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health/?WT.mc_id=academic-77958-bethanycheum) kognityvinę paslaugą aprašytas [šiame tinklaraščio įraše](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/). Aptarsime supaprastintą šios analizės versiją.
 
-> **NOTE**: Mes nepateikiame duomenų rinkinio kopijos kaip šios saugyklos dalies. Pirmiausia gali tekti atsisiųsti [`metadata.csv`](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge?select=metadata.csv) failą iš [šio Kaggle duomenų rinkinio](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge). Gali reikėti registracijos Kaggle. Taip pat galite atsisiųsti duomenų rinkinį be registracijos [iš čia](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), tačiau jis apims visus pilnus tekstus be metaduomenų failo.
+> **NOTE**: Mes nepateikiame duomenų rinkinio kopijos kaip šios saugyklos dalies. Pirmiausia gali tekti atsisiųsti [`metadata.csv`](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge?select=metadata.csv) failą iš [šio Kaggle duomenų rinkinio](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge). Gali reikėti registracijos Kaggle. Taip pat galite atsisiųsti duomenų rinkinį be registracijos [iš čia](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), tačiau jis apims visus pilnus tekstus, be metaduomenų failo.
 
-Atidarykite [`notebook-papers.ipynb`](../../../../2-Working-With-Data/07-python/notebook-papers.ipynb) ir perskaitykite jį nuo pradžios iki pabaigos. Taip pat galite vykdyti langelius ir atlikti kai kuriuos iššūkius, kuriuos palikome jums pabaigoje.
+Atidarykite [`notebook-papers.ipynb`](../../../../2-Working-With-Data/07-python/notebook-papers.ipynb) ir perskaitykite jį nuo pradžios iki pabaigos. Taip pat galite vykdyti langelius ir atlikti keletą iššūkių, kuriuos palikome jums pabaigoje.
 
 ![COVID medicininis gydymas](../../../../2-Working-With-Data/07-python/images/covidtreat.png)
 
@@ -259,9 +261,9 @@ Visos šios debesų paslaugos gali būti iškviečiamos naudojant [Python SDKs](
 
 ## Išvada
 
-Nesvarbu, ar jau turite struktūruotus, ar nestruktūruotus duomenis, naudodami Python galite atlikti visus su duomenų apdorojimu ir supratimu susijusius veiksmus. Tai turbūt lankstiausias duomenų apdorojimo būdas, todėl dauguma duomenų mokslininkų naudoja Python kaip pagrindinį įrankį. Mokytis Python išsamiai yra gera idėja, jei rimtai žiūrite į savo duomenų mokslo kelionę!
+Nesvarbu, ar jau turite struktūruotus, ar nestruktūruotus duomenis, naudodami Python galite atlikti visus duomenų apdorojimo ir supratimo veiksmus. Tai turbūt lankstiausias duomenų apdorojimo būdas, todėl dauguma duomenų mokslininkų naudoja Python kaip pagrindinį įrankį. Mokytis Python išsamiai yra gera idėja, jei rimtai žiūrite į savo duomenų mokslo kelionę!
 
-## [Po paskaitos testas](https://ff-quizzes.netlify.app/en/ds/)
+## [Po paskaitos testas](https://ff-quizzes.netlify.app/en/ds/quiz/13)
 
 ## Apžvalga ir savarankiškas mokymasis
 
