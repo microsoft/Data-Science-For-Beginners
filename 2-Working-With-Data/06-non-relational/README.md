@@ -4,7 +4,7 @@
 |:---:|
 |Working with NoSQL Data - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [Pre-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/10)
+## [Pre-Lecture Quiz](https://ff-quizzes.netlify.app/en/ds/quiz/10)
 
 Data is not limited to relational databases. This lesson focuses on non-relational data and will cover the basics of spreadsheets and NoSQL.
 
@@ -132,7 +132,7 @@ There is a `TwitterData.json` file that you can upload to the SampleDB database.
 
 Try to run a few select queries to find the documents that have Microsoft in the text field. Hint: try to use the [LIKE keyword](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character)
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/11)
 
 
 

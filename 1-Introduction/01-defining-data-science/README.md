@@ -153,7 +153,7 @@ Visit [`notebook.ipynb`](/1-Introduction/01-defining-data-science/notebook.ipynb
 
 
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/1)
 
 ## Assignments
 

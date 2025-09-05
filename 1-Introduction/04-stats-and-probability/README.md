@@ -244,7 +244,7 @@ Use the sample code in the notebook to test other hypothesis that:
 2. First basemen are taller than third basemen
 3. Shortstops are taller than second basemen
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/7)
 
 ## Review & Self Study
 
