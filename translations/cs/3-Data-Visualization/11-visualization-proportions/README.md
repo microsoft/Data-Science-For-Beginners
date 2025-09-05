@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "cc490897ee2d276870472bcb31602d03",
-  "translation_date": "2025-09-04T21:44:51+00:00",
+  "original_hash": "42119bcc97bee88254e381156d770f3c",
+  "translation_date": "2025-09-05T17:50:43+00:00",
   "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
   "language_code": "cs"
 }
@@ -21,7 +21,7 @@ V této lekci použijete dataset zaměřený na přírodu k vizualizaci poměrů
 
 > 💡 Velmi zajímavý projekt od Microsoft Research nazvaný [Charticulator](https://charticulator.com) nabízí bezplatné rozhraní pro vizualizaci dat pomocí drag and drop. V jednom z jejich tutoriálů také používají tento dataset o houbách! Můžete tedy prozkoumat data a zároveň se naučit používat tuto knihovnu: [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ds/)
+## [Kvíz před lekcí](https://ff-quizzes.netlify.app/en/ds/quiz/20)
 
 ## Poznejte své houby 🍄
 
@@ -38,10 +38,10 @@ Tabulka se vytiskne s některými skvělými daty pro analýzu:
 
 | class     | cap-shape | cap-surface | cap-color | bruises | odor    | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | stalk-root | stalk-surface-above-ring | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
 | --------- | --------- | ----------- | --------- | ------- | ------- | --------------- | ------------ | --------- | ---------- | ----------- | ---------- | ------------------------ | ------------------------ | ---------------------- | ---------------------- | --------- | ---------- | ----------- | --------- | ----------------- | ---------- | ------- |
-| Poisonous | Convex    | Smooth      | Brown     | Bruises | Pungent | Free            | Close        | Narrow    | Black      | Enlarging   | Equal      | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Black             | Scattered  | Urban   |
-| Edible    | Convex    | Smooth      | Yellow    | Bruises | Almond  | Free            | Close        | Broad     | Black      | Enlarging   | Club       | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Brown             | Numerous   | Grasses |
-| Edible    | Bell      | Smooth      | White     | Bruises | Anise   | Free            | Close        | Broad     | Brown      | Enlarging   | Club       | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Brown             | Numerous   | Meadows |
-| Poisonous | Convex    | Scaly       | White     | Bruises | Pungent | Free            | Close        | Narrow    | Brown      | Enlarging   | Equal      | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Black             | Scattered  | Urban   |
+| Jedovaté  | Konvexní  | Hladký      | Hnědý     | Modřiny | Štiplavý| Volný           | Těsný        | Úzký      | Černý      | Rozšiřující | Rovný      | Hladký                   | Hladký                   | Bílý                   | Bílý                   | Částečný  | Bílý       | Jeden       | Visící   | Černý             | Rozptýlený | Městský |
+| Jedlé     | Konvexní  | Hladký      | Žlutý     | Modřiny | Mandlový| Volný           | Těsný        | Široký    | Černý      | Rozšiřující | Klubový    | Hladký                   | Hladký                   | Bílý                   | Bílý                   | Částečný  | Bílý       | Jeden       | Visící   | Hnědý             | Početný    | Trávy  |
+| Jedlé     | Zvoncový  | Hladký      | Bílý      | Modřiny | Anýzový | Volný           | Těsný        | Široký    | Hnědý      | Rozšiřující | Klubový    | Hladký                   | Hladký                   | Bílý                   | Bílý                   | Částečný  | Bílý       | Jeden       | Visící   | Hnědý             | Početný    | Louky  |
+| Jedovaté  | Konvexní  | Šupinatý    | Bílý      | Modřiny | Štiplavý| Volný           | Těsný        | Úzký      | Hnědý      | Rozšiřující | Rovný      | Hladký                   | Hladký                   | Bílý                   | Bílý                   | Částečný  | Bílý       | Jeden       | Visící   | Černý             | Rozptýlený | Městský |
 
 Hned si všimnete, že všechna data jsou textová. Budete je muset převést, abyste je mohli použít v grafu. Většina dat je ve skutečnosti reprezentována jako objekt:
 
@@ -60,7 +60,7 @@ Index(['class', 'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor',
        'ring-type', 'spore-print-color', 'population', 'habitat'],
       dtype='object')
 ```
-Vezměte tato data a převeďte sloupec 'class' na kategorii:
+Převeďte tato data a sloupec 'class' na kategorii:
 
 ```python
 cols = mushrooms.select_dtypes(["object"]).columns
@@ -72,16 +72,16 @@ edibleclass=mushrooms.groupby(['class']).count()
 edibleclass
 ```
 
-Nyní, pokud vytisknete data o houbách, uvidíte, že byla rozdělena do kategorií podle jedlých/jedovatých tříd:
+Nyní, pokud vytisknete data o houbách, uvidíte, že byla rozdělena do kategorií podle jedovaté/jedlé třídy:
 
 
 |           | cap-shape | cap-surface | cap-color | bruises | odor | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | ... | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
 | --------- | --------- | ----------- | --------- | ------- | ---- | --------------- | ------------ | --------- | ---------- | ----------- | --- | ------------------------ | ---------------------- | ---------------------- | --------- | ---------- | ----------- | --------- | ----------------- | ---------- | ------- |
 | class     |           |             |           |         |      |                 |              |           |            |             |     |                          |                        |                        |           |            |             |           |                   |            |         |
-| Edible    | 4208      | 4208        | 4208      | 4208    | 4208 | 4208            | 4208         | 4208      | 4208       | 4208        | ... | 4208                     | 4208                   | 4208                   | 4208      | 4208       | 4208        | 4208      | 4208              | 4208       | 4208    |
-| Poisonous | 3916      | 3916        | 3916      | 3916    | 3916 | 3916            | 3916         | 3916      | 3916       | 3916        | ... | 3916                     | 3916                   | 3916                   | 3916      | 3916       | 3916        | 3916      | 3916              | 3916       | 3916    |
+| Jedlé     | 4208      | 4208        | 4208      | 4208    | 4208 | 4208            | 4208         | 4208      | 4208       | 4208        | ... | 4208                     | 4208                   | 4208                   | 4208      | 4208       | 4208        | 4208      | 4208              | 4208       | 4208    |
+| Jedovaté  | 3916      | 3916        | 3916      | 3916    | 3916 | 3916            | 3916         | 3916      | 3916       | 3916        | ... | 3916                     | 3916                   | 3916                   | 3916      | 3916       | 3916        | 3916      | 3916              | 3916       | 3916    |
 
-Pokud budete postupovat podle pořadí uvedeného v této tabulce při vytváření štítků kategorií, můžete vytvořit koláčový graf:
+Pokud budete postupovat podle pořadí uvedeného v této tabulce při vytváření štítků kategorií třídy, můžete vytvořit koláčový graf:
 
 ## Koláč!
 
@@ -91,7 +91,7 @@ plt.pie(edibleclass['population'],labels=labels,autopct='%.1f %%')
 plt.title('Edible?')
 plt.show()
 ```
-Voila, koláčový graf zobrazující poměry těchto dat podle dvou tříd hub. Je velmi důležité správně nastavit pořadí štítků, zejména zde, takže si ověřte pořadí, ve kterém je pole štítků vytvořeno!
+Voila, koláčový graf zobrazující poměry těchto dat podle těchto dvou tříd hub. Je velmi důležité získat pořadí štítků správně, zejména zde, takže si ověřte pořadí, ve kterém je pole štítků vytvořeno!
 
 ![koláčový graf](../../../../3-Data-Visualization/11-visualization-proportions/images/pie1-wb.png)
 
@@ -125,11 +125,11 @@ plt.show()
 
 ![donutový graf](../../../../3-Data-Visualization/11-visualization-proportions/images/donut-wb.png)
 
-Tento kód nakreslí graf a středový kruh, poté přidá tento středový kruh do grafu. Šířku středového kruhu můžete upravit změnou hodnoty `0.40`.
+Tento kód vykreslí graf a středový kruh, poté přidá tento středový kruh do grafu. Upravte šířku středového kruhu změnou hodnoty `0.40` na jinou.
 
 Donutové grafy lze upravit několika způsoby, aby se změnily štítky. Štítky lze zejména zvýraznit pro lepší čitelnost. Více se dozvíte v [dokumentaci](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
 
-Nyní, když víte, jak seskupit svá data a poté je zobrazit jako koláč nebo donut, můžete prozkoumat další typy grafů. Vyzkoušejte waflový graf, což je jen jiný způsob zkoumání množství.
+Nyní, když víte, jak seskupit svá data a poté je zobrazit jako koláč nebo donut, můžete prozkoumat jiné typy grafů. Vyzkoušejte waflový graf, což je jen jiný způsob zkoumání množství.
 ## Wafle!
 
 Graf typu 'waffle' je jiný způsob vizualizace množství jako 2D pole čtverců. Zkuste vizualizovat různé množství barev klobouků hub v tomto datasetu. K tomu potřebujete nainstalovat pomocnou knihovnu nazvanou [PyWaffle](https://pypi.org/project/pywaffle/) a použít Matplotlib:
@@ -174,12 +174,12 @@ Pomocí waflového grafu můžete jasně vidět poměry barev klobouků v tomto 
 
 ✅ Pywaffle podporuje ikony v grafech, které používají jakoukoli ikonu dostupnou v [Font Awesome](https://fontawesome.com/). Udělejte několik experimentů a vytvořte ještě zajímavější waflový graf pomocí ikon místo čtverců.
 
-V této lekci jste se naučili tři způsoby vizualizace poměrů. Nejprve musíte seskupit svá data do kategorií a poté rozhodnout, který způsob zobrazení dat je nejlepší - koláč, donut nebo wafle. Všechny jsou chutné a poskytují uživateli okamžitý přehled o datasetu.
+V této lekci jste se naučili tři způsoby vizualizace poměrů. Nejprve musíte seskupit svá data do kategorií a poté rozhodnout, který způsob zobrazení dat je nejlepší - koláč, donut nebo wafle. Všechny jsou chutné a uživatele potěší okamžitým přehledem datasetu.
 
 ## 🚀 Výzva
 
 Zkuste znovu vytvořit tyto chutné grafy v [Charticulator](https://charticulator.com).
-## [Kvíz po přednášce](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
+## [Kvíz po lekci](https://ff-quizzes.netlify.app/en/ds/quiz/21)
 
 ## Přehled & Samostudium
 
@@ -201,4 +201,4 @@ Proveďte výzkum a najděte více informací o tomto nelehkém rozhodnutí.
 ---
 
 **Prohlášení**:  
-Tento dokument byl přeložen pomocí služby pro automatický překlad [Co-op Translator](https://github.com/Azure/co-op-translator). Ačkoli se snažíme o přesnost, mějte prosím na paměti, že automatické překlady mohou obsahovat chyby nebo nepřesnosti. Původní dokument v jeho původním jazyce by měl být považován za autoritativní zdroj. Pro důležité informace doporučujeme profesionální lidský překlad. Neodpovídáme za žádné nedorozumění nebo nesprávné interpretace vyplývající z použití tohoto překladu.
+Tento dokument byl přeložen pomocí služby AI pro překlady [Co-op Translator](https://github.com/Azure/co-op-translator). Ačkoli se snažíme o přesnost, mějte prosím na paměti, že automatizované překlady mohou obsahovat chyby nebo nepřesnosti. Původní dokument v jeho původním jazyce by měl být považován za autoritativní zdroj. Pro důležité informace se doporučuje profesionální lidský překlad. Neodpovídáme za žádná nedorozumění nebo nesprávné interpretace vzniklé v důsledku použití tohoto překladu.

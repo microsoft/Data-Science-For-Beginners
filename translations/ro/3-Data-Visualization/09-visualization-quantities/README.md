@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "69b32b6789a91f796ebc7a02f5575e03",
-  "translation_date": "2025-09-05T05:34:11+00:00",
+  "original_hash": "a49d78e32e280c410f04e5f2a2068e77",
+  "translation_date": "2025-09-05T18:27:27+00:00",
   "source_file": "3-Data-Visualization/09-visualization-quantities/README.md",
   "language_code": "ro"
 }
@@ -14,13 +14,13 @@ CO_OP_TRANSLATOR_METADATA:
 | Vizualizarea Cantităților - _Sketchnote de [@nitya](https://twitter.com/nitya)_ |
 
 În această lecție vei explora cum să folosești una dintre numeroasele biblioteci disponibile în Python pentru a învăța să creezi vizualizări interesante în jurul conceptului de cantitate. Folosind un set de date curățat despre păsările din Minnesota, poți descoperi multe lucruri interesante despre fauna locală.  
-## [Chestionar înainte de lecție](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/16)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ds/quiz/16)
 
 ## Observă anvergura aripilor cu Matplotlib
 
-O bibliotecă excelentă pentru a crea atât grafice simple, cât și sofisticate de diverse tipuri este [Matplotlib](https://matplotlib.org/stable/index.html). În termeni generali, procesul de realizare a graficelor folosind aceste biblioteci include identificarea părților din cadrul de date pe care vrei să le analizezi, efectuarea transformărilor necesare asupra datelor, atribuirea valorilor pentru axele x și y, alegerea tipului de grafic și apoi afișarea acestuia. Matplotlib oferă o varietate mare de vizualizări, dar pentru această lecție, să ne concentrăm pe cele mai potrivite pentru vizualizarea cantităților: grafice liniare, scatterplots și grafice de tip bară.
+O bibliotecă excelentă pentru a crea atât grafice simple, cât și sofisticate de diverse tipuri este [Matplotlib](https://matplotlib.org/stable/index.html). În termeni generali, procesul de creare a graficelor folosind aceste biblioteci include identificarea părților din cadrul de date pe care vrei să le analizezi, efectuarea transformărilor necesare asupra datelor, atribuirea valorilor pentru axele x și y, alegerea tipului de grafic și apoi afișarea acestuia. Matplotlib oferă o varietate mare de vizualizări, dar pentru această lecție, să ne concentrăm pe cele mai potrivite pentru vizualizarea cantităților: grafice liniare, scatterplots și grafice de tip bară.
 
-> ✅ Folosește cel mai potrivit tip de grafic pentru structura datelor și povestea pe care vrei să o spui.  
+> ✅ Folosește graficul cel mai potrivit pentru structura datelor și povestea pe care vrei să o spui.  
 > - Pentru a analiza tendințele în timp: grafic liniar  
 > - Pentru a compara valori: grafic bară, coloană, plăcintă, scatterplot  
 > - Pentru a arăta cum părțile se raportează la întreg: plăcintă  
@@ -28,13 +28,13 @@ O bibliotecă excelentă pentru a crea atât grafice simple, cât și sofisticat
 > - Pentru a arăta tendințe: grafic liniar, coloană  
 > - Pentru a arăta relații între valori: grafic liniar, scatterplot, bubble  
 
-Dacă ai un set de date și trebuie să descoperi cât de mult dintr-un anumit element este inclus, una dintre primele sarcini va fi să inspectezi valorile acestuia.  
+Dacă ai un set de date și trebuie să descoperi cât de mult dintr-un anumit element este inclus, una dintre primele sarcini pe care le ai este să inspectezi valorile acestuia.  
 
-✅ Există "fișe de ajutor" foarte bune pentru Matplotlib [aici](https://matplotlib.org/cheatsheets/cheatsheets.pdf).
+✅ Există 'fișe de ajutor' foarte bune pentru Matplotlib [aici](https://matplotlib.org/cheatsheets/cheatsheets.pdf).
 
 ## Construiește un grafic liniar despre valorile anvergurii aripilor păsărilor
 
-Deschide fișierul `notebook.ipynb` aflat la rădăcina acestui folder de lecție și adaugă un celulă.
+Deschide fișierul `notebook.ipynb` aflat la rădăcina folderului acestei lecții și adaugă un celulă.
 
 > Notă: datele sunt stocate la rădăcina acestui depozit în folderul `/data`.
 
@@ -62,9 +62,9 @@ wingspan.plot()
 ```  
 ![Anvergură Max](../../../../3-Data-Visualization/09-visualization-quantities/images/max-wingspan-02.png)
 
-Ce observi imediat? Pare să existe cel puțin un punct de extremă - ce anvergură impresionantă! O anvergură de 2300 centimetri înseamnă 23 metri - sunt Pterodactili care zboară prin Minnesota? Să investigăm.
+Ce observi imediat? Pare să existe cel puțin un outlier - ce anvergură impresionantă! O anvergură de 2300 centimetri înseamnă 23 metri - sunt Pterodactili care zboară prin Minnesota? Să investigăm.
 
-Deși ai putea face rapid o sortare în Excel pentru a găsi aceste puncte de extremă, care probabil sunt erori de tipar, continuă procesul de vizualizare lucrând direct din grafic.
+Deși ai putea face rapid un sortare în Excel pentru a găsi acești outlieri, care probabil sunt erori de tipar, continuă procesul de vizualizare lucrând direct din grafic.
 
 Adaugă etichete pe axa x pentru a arăta ce tip de păsări sunt în discuție:
 
@@ -82,7 +82,7 @@ plt.show()
 ```  
 ![anvergură cu etichete](../../../../3-Data-Visualization/09-visualization-quantities/images/max-wingspan-labels-02.png)
 
-Chiar și cu rotația etichetelor setată la 45 de grade, sunt prea multe pentru a fi citite. Să încercăm o strategie diferită: etichetează doar punctele de extremă și setează etichetele în cadrul graficului. Poți folosi un grafic scatter pentru a face mai mult loc pentru etichetare:
+Chiar și cu rotația etichetelor setată la 45 de grade, sunt prea multe pentru a fi citite. Să încercăm o strategie diferită: etichetează doar outlierii și setează etichetele în interiorul graficului. Poți folosi un grafic scatter pentru a face mai mult loc etichetării:
 
 ```python
 plt.title('Max Wingspan in Centimeters')
@@ -98,14 +98,14 @@ for i in range(len(birds)):
     
 plt.show()
 ```  
-Ce se întâmplă aici? Ai folosit `tick_params` pentru a ascunde etichetele de jos și apoi ai creat un loop peste setul de date al păsărilor. Reprezentând graficul cu puncte mici albastre rotunde folosind `bo`, ai verificat orice pasăre cu o anvergură maximă mai mare de 500 și ai afișat eticheta acesteia lângă punct dacă este cazul. Ai deplasat puțin etichetele pe axa y (`y * (1 - 0.05)`) și ai folosit numele păsării ca etichetă.
+Ce se întâmplă aici? Ai folosit `tick_params` pentru a ascunde etichetele de jos și apoi ai creat un loop peste setul de date al păsărilor. Reprezentând graficul cu puncte mici albastre folosind `bo`, ai verificat orice pasăre cu o anvergură maximă mai mare de 500 și ai afișat eticheta acesteia lângă punct dacă este cazul. Ai offsetat etichetele puțin pe axa y (`y * (1 - 0.05)`) și ai folosit numele păsării ca etichetă.
 
 Ce ai descoperit?
 
-![puncte de extremă](../../../../3-Data-Visualization/09-visualization-quantities/images/labeled-wingspan-02.png)  
+![outlieri](../../../../3-Data-Visualization/09-visualization-quantities/images/labeled-wingspan-02.png)  
 ## Filtrează datele
 
-Atât Vulturul Pleșuv, cât și Șoimul de Prerie, deși probabil păsări foarte mari, par să fie etichetate greșit, cu un `0` în plus adăugat la anvergura maximă. Este puțin probabil să întâlnești un Vultur Pleșuv cu o anvergură de 25 metri, dar dacă da, te rugăm să ne anunți! Să creăm un nou cadru de date fără aceste două puncte de extremă:
+Atât Vulturul Pleșuv, cât și Șoimul de Prerie, deși probabil păsări foarte mari, par să fie etichetate greșit, cu un `0` în plus adăugat la anvergura maximă. Este puțin probabil să întâlnești un Vultur Pleșuv cu o anvergură de 25 metri, dar dacă da, te rugăm să ne anunți! Să creăm un nou cadru de date fără acești doi outlieri:
 
 ```python
 plt.title('Max Wingspan in Centimeters')
@@ -120,13 +120,13 @@ for i in range(len(birds)):
 plt.show()
 ```  
 
-Filtrând punctele de extremă, datele tale sunt acum mai coerente și mai ușor de înțeles.
+Filtrând outlierii, datele tale sunt acum mai coerente și mai ușor de înțeles.
 
 ![scatterplot al anvergurilor](../../../../3-Data-Visualization/09-visualization-quantities/images/scatterplot-wingspan-02.png)  
 
 Acum că avem un set de date mai curat, cel puțin în ceea ce privește anvergura aripilor, să descoperim mai multe despre aceste păsări.
 
-Deși graficele liniare și scatter pot afișa informații despre valorile datelor și distribuțiile acestora, vrem să ne gândim la valorile inerente acestui set de date. Ai putea crea vizualizări pentru a răspunde la următoarele întrebări despre cantitate:
+Deși graficele liniare și scatter pot afișa informații despre valorile datelor și distribuțiile lor, vrem să ne gândim la valorile inerente acestui set de date. Ai putea crea vizualizări pentru a răspunde la următoarele întrebări despre cantitate:
 
 > Câte categorii de păsări există și care sunt numerele lor?  
 > Câte păsări sunt dispărute, pe cale de dispariție, rare sau comune?  
@@ -137,7 +137,7 @@ Graficele de tip bară sunt practice atunci când trebuie să arăți grupări d
 
 În fișierul notebook, creează un grafic de tip bară de bază.
 
-✅ Notă, poți fie să filtrezi cele două păsări puncte de extremă pe care le-am identificat în secțiunea anterioară, să editezi eroarea din anvergura lor, sau să le lași în aceste exerciții care nu depind de valorile anvergurii.
+✅ Notă, poți fie să filtrezi cele două păsări outlier pe care le-am identificat în secțiunea anterioară, să editezi eroarea din anvergura lor sau să le lași în aceste exerciții care nu depind de valorile anvergurii.
 
 Dacă vrei să creezi un grafic de tip bară, poți selecta datele pe care vrei să te concentrezi. Graficele de tip bară pot fi create din date brute:
 
@@ -154,7 +154,7 @@ Acest grafic de tip bară, totuși, este greu de citit deoarece există prea mul
 
 Filtrează datele pentru a include doar categoria păsării.  
 
-✅ Observă că folosești Pandas pentru a gestiona datele, iar apoi lași Matplotlib să se ocupe de grafic.
+✅ Observă că folosești Pandas pentru a gestiona datele, iar apoi lași Matplotlib să se ocupe de graficare.
 
 Deoarece există multe categorii, poți afișa acest grafic vertical și ajusta înălțimea pentru a include toate datele:
 
@@ -165,7 +165,7 @@ category_count.plot.barh()
 ```  
 ![categorie și lungime](../../../../3-Data-Visualization/09-visualization-quantities/images/category-counts-02.png)  
 
-Acest grafic de tip bară oferă o imagine bună a numărului de păsări din fiecare categorie. Dintr-o privire, vezi că cel mai mare număr de păsări din această regiune sunt în categoria Rațe/Gâște/Păsări acvatice. Minnesota este "țara celor 10.000 de lacuri", așa că acest lucru nu este surprinzător!
+Acest grafic de tip bară oferă o imagine bună a numărului de păsări din fiecare categorie. Dintr-o privire, vezi că cel mai mare număr de păsări din această regiune sunt din categoria Rațe/Gâște/Păsări acvatice. Minnesota este 'țara celor 10.000 de lacuri', așa că acest lucru nu este surprinzător!
 
 ✅ Încearcă alte numărători pe acest set de date. Te surprinde ceva?
 
@@ -201,11 +201,11 @@ plt.show()
 
 ## 🚀 Provocare
 
-Acest set de date despre păsări oferă o bogăție de informații despre diferite tipuri de păsări dintr-un anumit ecosistem. Caută pe internet și vezi dacă poți găsi alte seturi de date orientate spre păsări. Exersează construirea de grafice și diagrame în jurul acestor păsări pentru a descoperi fapte pe care nu le știai.
+Acest set de date despre păsări oferă o bogăție de informații despre diferite tipuri de păsări dintr-un anumit ecosistem. Caută pe internet și vezi dacă poți găsi alte seturi de date orientate spre păsări. Exersează construirea graficelor și diagramelor în jurul acestor păsări pentru a descoperi fapte pe care nu le știai.
 
-## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ds/)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ds/quiz/17)
 
-## Recapitulare și Studiu Individual
+## Recapitulare & Studiu Individual
 
 Această primă lecție ți-a oferit câteva informații despre cum să folosești Matplotlib pentru a vizualiza cantități. Fă cercetări despre alte moduri de a lucra cu seturi de date pentru vizualizare. [Plotly](https://github.com/plotly/plotly.py) este unul pe care nu îl vom acoperi în aceste lecții, așa că aruncă o privire la ce poate oferi.  
 ## Temă
@@ -215,4 +215,4 @@ Această primă lecție ți-a oferit câteva informații despre cum să foloseș
 ---
 
 **Declinare de responsabilitate**:  
-Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să rețineți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa maternă ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.
+Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.

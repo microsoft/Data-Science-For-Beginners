@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "6a0556b17de4c8d1a9470b02247b01d4",
-  "translation_date": "2025-09-05T05:26:54+00:00",
+  "original_hash": "5f8e7cdefa096664ae86f795be571580",
+  "translation_date": "2025-09-05T18:19:52+00:00",
   "source_file": "5-Data-Science-In-Cloud/17-Introduction/README.md",
   "language_code": "ro"
 }
@@ -15,23 +15,23 @@ CO_OP_TRANSLATOR_METADATA:
 
 În această lecție, vei învăța principiile fundamentale ale Cloud-ului, vei descoperi de ce poate fi interesant să folosești servicii Cloud pentru a derula proiecte de știința datelor și vom analiza câteva exemple de proiecte de știința datelor realizate în Cloud.
 
-## [Chestionar înainte de lecție](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/32)
+## [Quiz înainte de lecție](https://ff-quizzes.netlify.app/en/ds/quiz/32)
 
 ## Ce este Cloud-ul?
 
 Cloud-ul, sau Cloud Computing, reprezintă livrarea unei game largi de servicii de calcul pe bază de plată pe măsură ce le folosești, găzduite pe o infrastructură prin internet. Serviciile includ soluții precum stocare, baze de date, rețele, software, analize și servicii inteligente.
 
-De obicei, diferențiem între Cloud Public, Privat și Hibrid astfel:
+De obicei, diferențiem între Cloud-ul Public, Privat și Hibrid astfel:
 
-* Cloud public: un cloud public este deținut și operat de un furnizor terț de servicii cloud care livrează resursele sale de calcul prin internet către public.
+* Cloud public: un cloud public este deținut și operat de un furnizor terț de servicii cloud care livrează resursele sale de calcul prin Internet către public.
 * Cloud privat: se referă la resursele de calcul în cloud utilizate exclusiv de o singură afacere sau organizație, cu servicii și o infrastructură menținute pe o rețea privată.
-* Cloud hibrid: cloud-ul hibrid este un sistem care combină cloud-uri publice și private. Utilizatorii optează pentru un centru de date local, permițând în același timp rularea datelor și aplicațiilor pe unul sau mai multe cloud-uri publice.
+* Cloud hibrid: cloud-ul hibrid este un sistem care combină cloud-urile publice și private. Utilizatorii optează pentru un centru de date local, permițând în același timp ca datele și aplicațiile să fie rulate pe unul sau mai multe cloud-uri publice.
 
 Majoritatea serviciilor de cloud computing se încadrează în trei categorii: Infrastructură ca Serviciu (IaaS), Platformă ca Serviciu (PaaS) și Software ca Serviciu (SaaS).
 
 * Infrastructură ca Serviciu (IaaS): utilizatorii închiriază o infrastructură IT, cum ar fi servere și mașini virtuale (VM-uri), stocare, rețele, sisteme de operare.
 * Platformă ca Serviciu (PaaS): utilizatorii închiriază un mediu pentru dezvoltarea, testarea, livrarea și gestionarea aplicațiilor software. Utilizatorii nu trebuie să se preocupe de configurarea sau gestionarea infrastructurii de bază a serverelor, stocării, rețelelor și bazelor de date necesare pentru dezvoltare.
-* Software ca Serviciu (SaaS): utilizatorii au acces la aplicații software prin internet, la cerere și, de obicei, pe bază de abonament. Utilizatorii nu trebuie să se preocupe de găzduirea și gestionarea aplicației software, infrastructura de bază sau întreținerea, cum ar fi actualizările software și patch-urile de securitate.
+* Software ca Serviciu (SaaS): utilizatorii au acces la aplicații software prin Internet, la cerere și, de obicei, pe bază de abonament. Utilizatorii nu trebuie să se preocupe de găzduirea și gestionarea aplicației software, infrastructura de bază sau întreținerea, cum ar fi actualizările software și patch-urile de securitate.
 
 Unii dintre cei mai mari furnizori de Cloud sunt Amazon Web Services, Google Cloud Platform și Microsoft Azure.
 
@@ -41,7 +41,7 @@ Dezvoltatorii și profesioniștii IT aleg să lucreze cu Cloud-ul din mai multe 
 
 * Inovație: poți alimenta aplicațiile tale prin integrarea serviciilor inovatoare create de furnizorii de Cloud direct în aplicațiile tale.
 * Flexibilitate: plătești doar pentru serviciile de care ai nevoie și poți alege dintr-o gamă largă de servicii. De obicei, plătești pe măsură ce folosești și îți adaptezi serviciile în funcție de nevoile tale în evoluție.
-* Buget: nu trebuie să faci investiții inițiale pentru a achiziționa hardware și software, să configurezi și să operezi centre de date locale, ci plătești doar pentru ceea ce folosești.
+* Buget: nu trebuie să faci investiții inițiale pentru achiziționarea de hardware și software, configurarea și operarea centrelor de date locale, ci plătești doar pentru ceea ce folosești.
 * Scalabilitate: resursele tale pot fi scalate în funcție de nevoile proiectului, ceea ce înseamnă că aplicațiile tale pot folosi mai mult sau mai puțin putere de calcul, stocare și lățime de bandă, adaptându-se la factorii externi în orice moment.
 * Productivitate: te poți concentra pe afacerea ta, în loc să pierzi timp cu sarcini care pot fi gestionate de altcineva, cum ar fi administrarea centrelor de date.
 * Fiabilitate: Cloud Computing oferă mai multe modalități de a face backup continuu pentru datele tale și poți configura planuri de recuperare în caz de dezastru pentru a menține afacerea și serviciile funcționale, chiar și în perioade de criză.
@@ -59,7 +59,7 @@ Acestea sunt câteva dintre cele mai comune motive pentru care oamenii aleg să 
 
 Să facem acest lucru mai concret analizând câteva scenarii.
 
-### Analiza sentimentului în timp real pe rețelele sociale
+### Analiza sentimentului pe rețelele sociale în timp real
 Vom începe cu un scenariu studiat frecvent de cei care încep cu învățarea automată: analiza sentimentului pe rețelele sociale în timp real.
 
 Să presupunem că administrezi un site de știri și vrei să valorifici datele live pentru a înțelege ce conținut ar putea interesa cititorii tăi. Pentru a afla mai multe despre acest lucru, poți construi un program care efectuează analiza sentimentului în timp real a datelor din publicațiile de pe Twitter, pe subiecte relevante pentru cititorii tăi.
@@ -68,11 +68,11 @@ Indicatorii cheie pe care îi vei analiza sunt volumul de tweet-uri pe subiecte 
 
 Pașii necesari pentru a crea acest proiect sunt următorii:
 
-* Creează un hub de evenimente pentru colectarea datelor de intrare, care va colecta date de la Twitter.
+* Creează un hub de evenimente pentru colectarea datelor de intrare, care va colecta date de pe Twitter.
 * Configurează și pornește o aplicație client Twitter, care va apela API-urile de streaming Twitter.
 * Creează un job de Stream Analytics.
 * Specifică intrarea și interogarea jobului.
-* Creează un depozit de ieșire și specifică ieșirea jobului.
+* Creează un punct de ieșire și specifică ieșirea jobului.
 * Pornește jobul.
 
 Pentru a vedea procesul complet, consultă [documentația](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends?WT.mc_id=academic-77958-bethanycheum&ocid=AID30411099).
@@ -99,9 +99,9 @@ Surse:
 * https://docs.microsoft.com/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends?ocid=AID3041109  
 * https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/  
 
-## Chestionar după lecție
+## Quiz după lecție
 
-## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ds/)
+## [Quiz după lecție](https://ff-quizzes.netlify.app/en/ds/quiz/33)
 
 ## Temă
 
@@ -110,4 +110,4 @@ Surse:
 ---
 
 **Declinare de responsabilitate**:  
-Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să rețineți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.
+Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.

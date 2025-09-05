@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "8bbb3fa0d4ad61384a3b4b5f7560226f",
-  "translation_date": "2025-09-05T05:36:47+00:00",
+  "original_hash": "1cf49f029ba1f25a54f0d5bc2fa575fc",
+  "translation_date": "2025-09-05T18:30:53+00:00",
   "source_file": "1-Introduction/04-stats-and-probability/README.md",
   "language_code": "ro"
 }
@@ -13,29 +13,29 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Statistică și Probabilitate - _Sketchnote de [@nitya](https://twitter.com/nitya)_ |
 
-Teoria statisticii și probabilității sunt două domenii strâns legate ale matematicii, extrem de relevante pentru știința datelor. Este posibil să lucrăm cu date fără o cunoaștere profundă a matematicii, dar este totuși mai bine să avem măcar câteva concepte de bază. Aici vom prezenta o scurtă introducere care te va ajuta să începi.
+Teoria statisticii și probabilității sunt două domenii strâns legate ale matematicii, extrem de relevante pentru știința datelor. Este posibil să lucrăm cu date fără o cunoaștere profundă a matematicii, dar este totuși mai bine să știm cel puțin câteva concepte de bază. Aici vom prezenta o scurtă introducere care te va ajuta să începi.
 
 [![Video introductiv](../../../../1-Introduction/04-stats-and-probability/images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)
 
-## [Chestionar înainte de lecție](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/6)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
 ## Probabilitate și variabile aleatoare
 
 **Probabilitatea** este un număr între 0 și 1 care exprimă cât de probabil este un **eveniment**. Este definită ca numărul de rezultate pozitive (care duc la eveniment), împărțit la numărul total de rezultate, presupunând că toate rezultatele sunt la fel de probabile. De exemplu, când aruncăm un zar, probabilitatea de a obține un număr par este 3/6 = 0.5.
 
-Când vorbim despre evenimente, folosim **variabile aleatoare**. De exemplu, variabila aleatoare care reprezintă numărul obținut la aruncarea unui zar ar lua valori de la 1 la 6. Setul de numere de la 1 la 6 se numește **spațiu de eșantionare**. Putem vorbi despre probabilitatea ca o variabilă aleatoare să ia o anumită valoare, de exemplu P(X=3)=1/6.
+Când vorbim despre evenimente, folosim **variabile aleatoare**. De exemplu, variabila aleatoare care reprezintă numărul obținut la aruncarea unui zar ar lua valori de la 1 la 6. Setul de numere de la 1 la 6 se numește **spațiu de probă**. Putem vorbi despre probabilitatea ca o variabilă aleatoare să ia o anumită valoare, de exemplu P(X=3)=1/6.
 
-Variabila aleatoare din exemplul anterior se numește **discretă**, deoarece are un spațiu de eșantionare numărabil, adică există valori separate care pot fi enumerate. Există cazuri în care spațiul de eșantionare este un interval de numere reale sau întregul set de numere reale. Astfel de variabile se numesc **continue**. Un exemplu bun este timpul de sosire al autobuzului.
+Variabila aleatoare din exemplul anterior se numește **discretă**, deoarece are un spațiu de probă numărabil, adică există valori separate care pot fi enumerate. Există cazuri în care spațiul de probă este un interval de numere reale sau întregul set de numere reale. Astfel de variabile se numesc **continue**. Un exemplu bun este timpul la care ajunge autobuzul.
 
 ## Distribuția probabilității
 
-În cazul variabilelor aleatoare discrete, este ușor să descriem probabilitatea fiecărui eveniment printr-o funcție P(X). Pentru fiecare valoare *s* din spațiul de eșantionare *S*, aceasta va da un număr între 0 și 1, astfel încât suma tuturor valorilor P(X=s) pentru toate evenimentele să fie 1.
+În cazul variabilelor aleatoare discrete, este ușor să descriem probabilitatea fiecărui eveniment printr-o funcție P(X). Pentru fiecare valoare *s* din spațiul de probă *S*, aceasta va da un număr între 0 și 1, astfel încât suma tuturor valorilor P(X=s) pentru toate evenimentele să fie 1.
 
-Cea mai cunoscută distribuție discretă este **distribuția uniformă**, în care există un spațiu de eșantionare de N elemente, cu o probabilitate egală de 1/N pentru fiecare dintre ele.
+Cea mai cunoscută distribuție discretă este **distribuția uniformă**, în care există un spațiu de probă cu N elemente, cu o probabilitate egală de 1/N pentru fiecare dintre ele.
 
-Este mai dificil să descriem distribuția probabilității unei variabile continue, cu valori extrase dintr-un interval [a,b] sau întregul set de numere reale ℝ. Luați în considerare cazul timpului de sosire al autobuzului. De fapt, pentru fiecare moment exact de sosire *t*, probabilitatea ca autobuzul să sosească exact la acel moment este 0!
+Este mai dificil să descriem distribuția probabilității unei variabile continue, cu valori extrase dintr-un interval [a,b] sau întregul set de numere reale ℝ. Să luăm cazul timpului de sosire al autobuzului. De fapt, pentru fiecare moment exact de sosire *t*, probabilitatea ca autobuzul să ajungă exact la acel moment este 0!
 
-> Acum știi că evenimentele cu probabilitate 0 se întâmplă, și foarte des! Cel puțin de fiecare dată când sosește autobuzul!
+> Acum știi că evenimentele cu probabilitate 0 se întâmplă, și foarte des! Cel puțin de fiecare dată când ajunge autobuzul!
 
 Putem vorbi doar despre probabilitatea ca o variabilă să se încadreze într-un anumit interval de valori, de exemplu P(t<sub>1</sub>≤X<t<sub>2</sub>). În acest caz, distribuția probabilității este descrisă printr-o **funcție de densitate a probabilității** p(x), astfel încât
 
@@ -45,17 +45,17 @@ Un analog continuu al distribuției uniforme se numește **uniform continuu**, c
 
 O altă distribuție importantă este **distribuția normală**, despre care vom vorbi mai detaliat mai jos.
 
-## Media, Varianța și Abaterea Standard
+## Media, varianta și abaterea standard
 
-Să presupunem că extragem o secvență de n eșantioane ale unei variabile aleatoare X: x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>. Putem defini **media** (sau **media aritmetică**) a secvenței în mod tradițional ca (x<sub>1</sub>+x<sub>2</sub>+x<sub>n</sub>)/n. Pe măsură ce creștem dimensiunea eșantionului (adică luăm limita cu n→∞), vom obține media (numită și **așteptare**) distribuției. Vom nota așteptarea cu **E**(x).
+Să presupunem că extragem o secvență de n probe ale unei variabile aleatoare X: x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>. Putem defini **media** (sau **media aritmetică**) valorilor secvenței în mod tradițional ca (x<sub>1</sub>+x<sub>2</sub>+x<sub>n</sub>)/n. Pe măsură ce creștem dimensiunea probei (adică luăm limita cu n→∞), vom obține media (numită și **așteptare**) distribuției. Vom nota așteptarea prin **E**(x).
 
 > Se poate demonstra că pentru orice distribuție discretă cu valori {x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>N</sub>} și probabilități corespunzătoare p<sub>1</sub>, p<sub>2</sub>, ..., p<sub>N</sub>, așteptarea ar fi egală cu E(X)=x<sub>1</sub>p<sub>1</sub>+x<sub>2</sub>p<sub>2</sub>+...+x<sub>N</sub>p<sub>N</sub>.
 
-Pentru a identifica cât de mult sunt răspândite valorile, putem calcula varianța σ<sup>2</sup> = ∑(x<sub>i</sub> - μ)<sup>2</sup>/n, unde μ este media secvenței. Valoarea σ se numește **abatere standard**, iar σ<sup>2</sup> se numește **varianță**.
+Pentru a identifica cât de mult sunt răspândite valorile, putem calcula varianta σ<sup>2</sup> = ∑(x<sub>i</sub> - μ)<sup>2</sup>/n, unde μ este media secvenței. Valoarea σ se numește **abatere standard**, iar σ<sup>2</sup> se numește **variantă**.
 
-## Mod, Mediană și Quartile
+## Mod, mediană și quartile
 
-Uneori, media nu reprezintă adecvat valoarea "tipică" pentru date. De exemplu, când există câteva valori extreme care sunt complet în afara intervalului, acestea pot afecta media. O altă indicație bună este **mediana**, o valoare astfel încât jumătate dintre punctele de date sunt mai mici decât aceasta, iar cealaltă jumătate - mai mari.
+Uneori, media nu reprezintă adecvat valoarea "tipică" pentru date. De exemplu, când există câteva valori extreme care sunt complet în afara intervalului, acestea pot afecta media. O altă indicație bună este **mediana**, o valoare astfel încât jumătate din punctele de date sunt mai mici decât aceasta, iar cealaltă jumătate - mai mari.
 
 Pentru a ne ajuta să înțelegem distribuția datelor, este util să vorbim despre **quartile**:
 
@@ -68,21 +68,21 @@ Grafic, putem reprezenta relația dintre mediană și quartile într-un diagram�
 
 Aici calculăm și **intervalul inter-quartil** IQR=Q3-Q1 și așa-numitele **valori extreme** - valori care se află în afara limitelor [Q1-1.5*IQR,Q3+1.5*IQR].
 
-Pentru o distribuție finită care conține un număr mic de valori posibile, o valoare "tipică" bună este cea care apare cel mai frecvent, numită **mod**. Este adesea aplicată datelor categorice, cum ar fi culorile. Luați în considerare o situație în care avem două grupuri de oameni - unii care preferă puternic roșu și alții care preferă albastru. Dacă codificăm culorile prin numere, valoarea medie pentru culoarea preferată ar fi undeva în spectrul portocaliu-verde, ceea ce nu indică preferința reală a niciunui grup. Totuși, modul ar fi fie una dintre culori, fie ambele culori, dacă numărul de oameni care votează pentru ele este egal (în acest caz, numim eșantionul **multimodal**).
+Pentru o distribuție finită care conține un număr mic de valori posibile, o valoare "tipică" bună este cea care apare cel mai frecvent, numită **mod**. Este adesea aplicată datelor categorice, cum ar fi culorile. Să luăm o situație în care avem două grupuri de oameni - unii care preferă puternic roșu și alții care preferă albastru. Dacă codificăm culorile prin numere, valoarea medie pentru culoarea preferată ar fi undeva în spectrul portocaliu-verde, ceea ce nu indică preferința reală a niciunui grup. Totuși, modul ar fi fie una dintre culori, fie ambele culori, dacă numărul de oameni care votează pentru ele este egal (în acest caz, numim proba **multimodală**).
 
 ## Date din lumea reală
 
-Când analizăm date din viața reală, acestea nu sunt adesea variabile aleatoare în sensul că nu efectuăm experimente cu rezultat necunoscut. De exemplu, luați în considerare o echipă de jucători de baseball și datele lor corporale, cum ar fi înălțimea, greutatea și vârsta. Aceste numere nu sunt exact aleatoare, dar putem aplica aceleași concepte matematice. De exemplu, o secvență de greutăți ale oamenilor poate fi considerată o secvență de valori extrase dintr-o variabilă aleatoare. Mai jos este secvența greutăților jucătorilor de baseball din [Major League Baseball](http://mlb.mlb.com/index.jsp), luată din [acest set de date](http://wiki.stat.ucla.edu/socr/index.php/SOCR_Data_MLB_HeightsWeights) (pentru comoditate, sunt afișate doar primele 20 de valori):
+Când analizăm date din viața reală, acestea nu sunt adesea variabile aleatoare propriu-zise, în sensul că nu efectuăm experimente cu rezultat necunoscut. De exemplu, să luăm o echipă de jucători de baseball și datele lor corporale, cum ar fi înălțimea, greutatea și vârsta. Aceste numere nu sunt exact aleatoare, dar putem aplica aceleași concepte matematice. De exemplu, o secvență de greutăți ale oamenilor poate fi considerată o secvență de valori extrase dintr-o variabilă aleatoare. Mai jos este secvența greutăților jucătorilor de baseball din [Major League Baseball](http://mlb.mlb.com/index.jsp), luată din [acest set de date](http://wiki.stat.ucla.edu/socr/index.php/SOCR_Data_MLB_HeightsWeights) (pentru comoditate, sunt afișate doar primele 20 de valori):
 
 ```
 [180.0, 215.0, 210.0, 210.0, 188.0, 176.0, 209.0, 200.0, 231.0, 180.0, 188.0, 180.0, 185.0, 160.0, 180.0, 185.0, 197.0, 189.0, 185.0, 219.0]
 ```
 
-> **Notă**: Pentru a vedea un exemplu de lucru cu acest set de date, consultați [notebook-ul asociat](../../../../1-Introduction/04-stats-and-probability/notebook.ipynb). Există, de asemenea, o serie de provocări pe parcursul acestei lecții, pe care le puteți completa adăugând cod în acel notebook. Dacă nu sunteți sigur cum să operați pe date, nu vă faceți griji - vom reveni la lucrul cu date folosind Python mai târziu. Dacă nu știți cum să rulați codul într-un Jupyter Notebook, consultați [acest articol](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+> **Notă**: Pentru a vedea un exemplu de lucru cu acest set de date, consultă [notebook-ul însoțitor](../../../../1-Introduction/04-stats-and-probability/notebook.ipynb). Există și o serie de provocări pe parcursul acestei lecții, pe care le poți completa adăugând cod în acel notebook. Dacă nu ești sigur cum să operezi cu datele, nu te îngrijora - vom reveni la lucrul cu date folosind Python mai târziu. Dacă nu știi cum să rulezi cod în Jupyter Notebook, consultă [acest articol](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
 Iată box plot-ul care arată media, mediana și quartilele pentru datele noastre:
 
-![Weight Box Plot](../../../../1-Introduction/04-stats-and-probability/images/weight-boxplot.png)
+![Box plot greutate](../../../../1-Introduction/04-stats-and-probability/images/weight-boxplot.png)
 
 Deoarece datele noastre conțin informații despre diferite **roluri** ale jucătorilor, putem face și un box plot pe roluri - acest lucru ne va permite să înțelegem cum diferă valorile parametrilor între roluri. De această dată vom considera înălțimea:
 
@@ -90,26 +90,26 @@ Deoarece datele noastre conțin informații despre diferite **roluri** ale jucă
 
 Acest diagramă sugerează că, în medie, înălțimea jucătorilor de primă bază este mai mare decât înălțimea jucătorilor de a doua bază. Mai târziu în această lecție vom învăța cum putem testa această ipoteză mai formal și cum să demonstrăm că datele noastre sunt semnificative din punct de vedere statistic pentru a arăta acest lucru.
 
-> Când lucrăm cu date din lumea reală, presupunem că toate punctele de date sunt eșantioane extrase dintr-o distribuție probabilistică. Această presupunere ne permite să aplicăm tehnici de învățare automată și să construim modele predictive funcționale.
+> Când lucrăm cu date din lumea reală, presupunem că toate punctele de date sunt probe extrase dintr-o distribuție de probabilitate. Această presupunere ne permite să aplicăm tehnici de învățare automată și să construim modele predictive funcționale.
 
-Pentru a vedea ce distribuție au datele noastre, putem trasa un grafic numit **histogramă**. Axa X ar conține un număr de intervale de greutate diferite (așa-numitele **bin-uri**), iar axa verticală ar arăta numărul de ori când eșantionul variabilei aleatoare a fost în interiorul unui interval dat.
+Pentru a vedea ce distribuție au datele noastre, putem trasa un grafic numit **histogramă**. Axul X ar conține un număr de intervale de greutate diferite (așa-numitele **bin-uri**), iar axa verticală ar arăta numărul de ori când proba variabilei aleatoare a fost în acel interval.
 
 ![Histogramă a datelor din lumea reală](../../../../1-Introduction/04-stats-and-probability/images/weight-histogram.png)
 
-Din această histogramă puteți vedea că toate valorile sunt centrate în jurul unei anumite greutăți medii, iar cu cât ne îndepărtăm de acea greutate - cu atât mai puține greutăți de acea valoare sunt întâlnite. Adică, este foarte improbabil ca greutatea unui jucător de baseball să fie foarte diferită de greutatea medie. Varianța greutăților arată măsura în care greutățile sunt susceptibile să difere de medie.
+Din această histogramă poți vedea că toate valorile sunt centrate în jurul unei anumite greutăți medii, iar cu cât ne îndepărtăm de acea greutate - cu atât mai puține greutăți de acea valoare sunt întâlnite. Adică, este foarte improbabil ca greutatea unui jucător de baseball să fie foarte diferită de greutatea medie. Varianta greutăților arată măsura în care greutățile sunt susceptibile să difere de medie.
 
-> Dacă luăm greutățile altor persoane, nu din liga de baseball, distribuția este probabil să fie diferită. Totuși, forma distribuției va fi aceeași, dar media și varianța ar fi diferite. Deci, dacă antrenăm modelul nostru pe jucători de baseball, este probabil să dea rezultate greșite atunci când este aplicat studenților unei universități, deoarece distribuția de bază este diferită.
+> Dacă luăm greutățile altor persoane, nu din liga de baseball, distribuția este probabil să fie diferită. Totuși, forma distribuției va fi aceeași, dar media și varianta ar fi diferite. Deci, dacă antrenăm modelul nostru pe jucători de baseball, este probabil să dea rezultate greșite când este aplicat studenților unei universități, deoarece distribuția de bază este diferită.
 
 ## Distribuția normală
 
-Distribuția greutăților pe care am văzut-o mai sus este foarte tipică, iar multe măsurători din lumea reală urmează același tip de distribuție, dar cu medii și varianțe diferite. Această distribuție se numește **distribuție normală** și joacă un rol foarte important în statistică.
+Distribuția greutăților pe care am văzut-o mai sus este foarte tipică, iar multe măsurători din lumea reală urmează același tip de distribuție, dar cu medii și variante diferite. Această distribuție se numește **distribuție normală** și joacă un rol foarte important în statistică.
 
-Utilizarea distribuției normale este o modalitate corectă de a genera greutăți aleatorii ale potențialilor jucători de baseball. Odată ce știm greutatea medie `mean` și abaterea standard `std`, putem genera 1000 de eșantioane de greutate în următorul mod:
+Utilizarea distribuției normale este o modalitate corectă de a genera greutăți aleatorii ale potențialilor jucători de baseball. Odată ce știm greutatea medie `mean` și abaterea standard `std`, putem genera 1000 de probe de greutate în următorul mod:
 ```python
 samples = np.random.normal(mean,std,1000)
 ```
 
-Dacă trasăm histograma eșantioanelor generate, vom vedea o imagine foarte similară cu cea prezentată mai sus. Și dacă creștem numărul de eșantioane și numărul de bin-uri, putem genera o imagine a unei distribuții normale care este mai apropiată de ideal:
+Dacă trasăm histograma probelor generate, vom vedea o imagine foarte similară cu cea prezentată mai sus. Și dacă creștem numărul de probe și numărul de bin-uri, putem genera o imagine a unei distribuții normale care este mai aproape de ideal:
 
 ![Distribuție normală cu medie=0 și abatere standard=1](../../../../1-Introduction/04-stats-and-probability/images/normal-histogram.png)
 
@@ -117,21 +117,25 @@ Dacă trasăm histograma eșantioanelor generate, vom vedea o imagine foarte sim
 
 ## Intervalele de încredere
 
-Când vorbim despre greutățile jucătorilor de baseball, presupunem că există o **variabilă aleatoare W** care corespunde distribuției ideale a probabilității greutăților tuturor jucătorilor de baseball (așa-numita **populație**). Secvența noastră de greutăți corespunde unui subset al tuturor jucătorilor de baseball pe care îl numim **eșantion**. O întrebare interesantă este: putem cunoaște parametrii distribuției lui W, adică media și varianța populației?
+Când vorbim despre greutățile jucătorilor de baseball, presupunem că există o **variabilă aleatoare W** care corespunde distribuției ideale de probabilitate a greutăților tuturor jucătorilor de baseball (așa-numita **populație**). Secvența noastră de greutăți corespunde unui subset al tuturor jucătorilor de baseball pe care îl numim **probă**. O întrebare interesantă este: putem cunoaște parametrii distribuției lui W, adică media și varianta populației?
 
-Cel mai simplu răspuns ar fi să calculăm media și varianța eșantionului nostru. Totuși, s-ar putea întâmpla ca eșantionul nostru aleator să nu reprezinte cu acuratețe întreaga populație. Astfel, are sens să vorbim despre **intervalul de încredere**.
-> **Intervalul de încredere** reprezintă estimarea mediei reale a populației pe baza eșantionului nostru, care este precisă cu o anumită probabilitate (sau **nivel de încredere**).
-Presupunem că avem un eșantion X<sub>1</sub>, ..., X<sub>n</sub> din distribuția noastră. De fiecare dată când extragem un eșantion din distribuție, vom obține o valoare medie diferită μ. Astfel, μ poate fi considerată o variabilă aleatoare. Un **interval de încredere** cu încredere p este o pereche de valori (L<sub>p</sub>,R<sub>p</sub>), astfel încât **P**(L<sub>p</sub>≤μ≤R<sub>p</sub>) = p, adică probabilitatea ca valoarea medie măsurată să se încadreze în interval este egală cu p.
+Cel mai simplu răspuns ar fi să calculăm media și varianta probei noastre. Totuși, s-ar putea întâmpla ca proba noastră aleatoare să nu reprezinte cu acuratețe întreaga populație. Astfel, are sens să vorbim despre **intervalul de încredere**.
+
+> **Intervalul de încredere** este estimarea mediei reale a populației dată proba noastră, care este precisă cu o anumită probabilitate (sau **nivel de încredere**).
+
+Să presupunem că avem o probă X...
+
+1</sub>, ..., X<sub>n</sub> din distribuția noastră. De fiecare dată când extragem un eșantion din distribuția noastră, vom obține o valoare medie diferită μ. Astfel, μ poate fi considerată o variabilă aleatoare. Un **interval de încredere** cu încredere p este o pereche de valori (L<sub>p</sub>,R<sub>p</sub>), astfel încât **P**(L<sub>p</sub>≤μ≤R<sub>p</sub>) = p, adică probabilitatea ca valoarea medie măsurată să se încadreze în interval este egală cu p.
 
 Depășește scopul acestei introduceri scurte să discutăm în detaliu cum se calculează aceste intervale de încredere. Mai multe detalii pot fi găsite [pe Wikipedia](https://en.wikipedia.org/wiki/Confidence_interval). Pe scurt, definim distribuția mediei eșantionului calculat în raport cu media reală a populației, care se numește **distribuția Student**.
 
-> **Fapt interesant**: Distribuția Student este numită după matematicianul William Sealy Gosset, care și-a publicat lucrarea sub pseudonimul "Student". El a lucrat la fabrica de bere Guinness și, conform uneia dintre versiuni, angajatorul său nu dorea ca publicul larg să știe că foloseau teste statistice pentru a determina calitatea materiilor prime.
+> **Fapt interesant**: Distribuția Student este numită după matematicianul William Sealy Gosset, care și-a publicat lucrarea sub pseudonimul "Student". El a lucrat la fabrica de bere Guinness, iar, conform uneia dintre versiuni, angajatorul său nu dorea ca publicul larg să știe că foloseau teste statistice pentru a determina calitatea materiilor prime.
 
-Dacă dorim să estimăm media μ a populației noastre cu încredere p, trebuie să luăm *(1-p)/2-percentila* dintr-o distribuție Student A, care poate fi obținută fie din tabele, fie calculată folosind funcții integrate ale software-ului statistic (de exemplu, Python, R etc.). Apoi, intervalul pentru μ ar fi dat de X±A*D/√n, unde X este media obținută a eșantionului, iar D este deviația standard.
+Dacă dorim să estimăm media μ a populației noastre cu încredere p, trebuie să luăm *(1-p)/2-th percentilă* dintr-o distribuție Student A, care poate fi obținută fie din tabele, fie calculată folosind funcții integrate ale software-ului statistic (de exemplu, Python, R etc.). Apoi, intervalul pentru μ ar fi dat de X±A*D/√n, unde X este media obținută a eșantionului, iar D este deviația standard.
 
-> **Notă**: Omitem, de asemenea, discuția unui concept important al [gradele de libertate](https://en.wikipedia.org/wiki/Degrees_of_freedom_(statistics)), care este important în raport cu distribuția Student. Puteți consulta cărți mai complete despre statistică pentru a înțelege acest concept mai profund.
+> **Notă**: Omităm, de asemenea, discuția unui concept important al [gradele de libertate](https://en.wikipedia.org/wiki/Degrees_of_freedom_(statistics)), care este important în raport cu distribuția Student. Puteți consulta cărți mai complete despre statistică pentru a înțelege acest concept mai profund.
 
-Un exemplu de calcul al intervalului de încredere pentru greutăți și înălțimi este dat în [notebook-ul asociat](../../../../1-Introduction/04-stats-and-probability/notebook.ipynb).
+Un exemplu de calcul al intervalului de încredere pentru greutăți și înălțimi este dat în [notebook-ul însoțitor](../../../../1-Introduction/04-stats-and-probability/notebook.ipynb).
 
 | p | Media greutății |
 |-----|-----------|
@@ -143,7 +147,7 @@ Observați că, cu cât probabilitatea de încredere este mai mare, cu atât int
 
 ## Testarea Ipotezelor
 
-În setul nostru de date despre jucătorii de baseball, există diferite roluri ale jucătorilor, care pot fi rezumate mai jos (consultați [notebook-ul asociat](../../../../1-Introduction/04-stats-and-probability/notebook.ipynb) pentru a vedea cum poate fi calculat acest tabel):
+În setul nostru de date despre jucătorii de baseball, există diferite roluri ale jucătorilor, care pot fi rezumate mai jos (consultați [notebook-ul însoțitor](../../../../1-Introduction/04-stats-and-probability/notebook.ipynb) pentru a vedea cum poate fi calculat acest tabel):
 
 | Rol | Înălțime | Greutate | Număr |
 |------|--------|--------|-------|
@@ -161,7 +165,7 @@ Putem observa că media înălțimilor pentru jucătorii de primă bază este ma
 
 > Această afirmație se numește **o ipoteză**, deoarece nu știm dacă acest fapt este cu adevărat adevărat sau nu.
 
-Totuși, nu este întotdeauna evident dacă putem face această concluzie. Din discuția de mai sus știm că fiecare medie are un interval de încredere asociat, iar această diferență poate fi doar o eroare statistică. Avem nevoie de o metodă mai formală pentru a testa ipoteza noastră.
+Totuși, nu este întotdeauna evident dacă putem face această concluzie. Din discuția de mai sus știm că fiecare medie are un interval de încredere asociat, și astfel această diferență poate fi doar o eroare statistică. Avem nevoie de o metodă mai formală pentru a testa ipoteza noastră.
 
 Să calculăm intervalele de încredere separat pentru înălțimile jucătorilor de primă și a doua bază:
 
@@ -173,9 +177,9 @@ Să calculăm intervalele de încredere separat pentru înălțimile jucătorilo
 
 Putem vedea că, indiferent de nivelul de încredere, intervalele nu se suprapun. Acest lucru dovedește ipoteza noastră că jucătorii de primă bază sunt mai înalți decât cei de a doua bază.
 
-Mai formal, problema pe care o rezolvăm este să vedem dacă **două distribuții de probabilitate sunt identice**, sau cel puțin au aceleași parametri. În funcție de distribuție, trebuie să folosim teste diferite pentru aceasta. Dacă știm că distribuțiile noastre sunt normale, putem aplica **[Student t-test](https://en.wikipedia.org/wiki/Student%27s_t-test)**.
+Mai formal, problema pe care o rezolvăm este să vedem dacă **două distribuții de probabilitate sunt identice**, sau cel puțin au aceleași parametri. În funcție de distribuție, trebuie să folosim teste diferite pentru asta. Dacă știm că distribuțiile noastre sunt normale, putem aplica **[Student t-test](https://en.wikipedia.org/wiki/Student%27s_t-test)**.
 
-În Student t-test, calculăm așa-numita **valoare t**, care indică diferența dintre medii, luând în considerare variația. S-a demonstrat că valoarea t urmează **distribuția Student**, ceea ce ne permite să obținem valoarea prag pentru un nivel de încredere dat **p** (aceasta poate fi calculată sau consultată în tabele numerice). Comparăm apoi valoarea t cu acest prag pentru a aproba sau respinge ipoteza.
+În Student t-test, calculăm așa-numita **valoare t**, care indică diferența dintre medii, luând în considerare variația. S-a demonstrat că valoarea t urmează **distribuția Student**, ceea ce ne permite să obținem valoarea prag pentru un nivel de încredere dat **p** (acest lucru poate fi calculat sau găsit în tabele numerice). Comparăm apoi valoarea t cu acest prag pentru a aproba sau respinge ipoteza.
 
 În Python, putem folosi pachetul **SciPy**, care include funcția `ttest_ind` (pe lângă multe alte funcții statistice utile!). Aceasta calculează valoarea t pentru noi și face, de asemenea, căutarea inversă a valorii p de încredere, astfel încât să putem privi doar nivelul de încredere pentru a trage concluzia.
 
@@ -195,43 +199,43 @@ P-value: 9.137321189738925e-12
 Există și alte tipuri de ipoteze pe care am putea dori să le testăm, de exemplu:
 * Să demonstrăm că un eșantion dat urmează o anumită distribuție. În cazul nostru, am presupus că înălțimile sunt distribuite normal, dar acest lucru necesită o verificare statistică formală.
 * Să demonstrăm că valoarea medie a unui eșantion corespunde unei valori predefinite.
-* Să comparăm mediile mai multor eșantioane (de exemplu, care este diferența în nivelurile de fericire între diferite grupe de vârstă).
+* Să comparăm mediile mai multor eșantioane (de exemplu, care este diferența în nivelurile de fericire între diferite grupuri de vârstă).
 
-## Legea Numerelor Mari și Teorema Limitei Centrale
+## Legea Numerelor Mari și Teorema Limită Centrală
 
-Unul dintre motivele pentru care distribuția normală este atât de importantă este așa-numita **teorema limitei centrale**. Presupunem că avem un eșantion mare de N valori independente X<sub>1</sub>, ..., X<sub>N</sub>, eșantionate din orice distribuție cu media μ și variația σ<sup>2</sup>. Atunci, pentru N suficient de mare (cu alte cuvinte, când N→∞), media Σ<sub>i</sub>X<sub>i</sub> ar fi distribuită normal, cu media μ și variația σ<sup>2</sup>/N.
+Unul dintre motivele pentru care distribuția normală este atât de importantă este așa-numita **teoremă limită centrală**. Să presupunem că avem un eșantion mare de N valori independente X<sub>1</sub>, ..., X<sub>N</sub>, eșantionate din orice distribuție cu media μ și variația σ<sup>2</sup>. Atunci, pentru N suficient de mare (cu alte cuvinte, când N→∞), media Σ<sub>i</sub>X<sub>i</sub> ar fi distribuită normal, cu media μ și variația σ<sup>2</sup>/N.
 
-> O altă modalitate de a interpreta teorema limitei centrale este să spunem că, indiferent de distribuție, atunci când calculați media unei sume de valori ale variabilelor aleatoare, ajungeți la distribuția normală.
+> O altă modalitate de a interpreta teorema limită centrală este să spunem că, indiferent de distribuție, atunci când calculați media unei sume de valori ale variabilelor aleatoare ajungeți la distribuția normală.
 
-Din teorema limitei centrale rezultă, de asemenea, că, atunci când N→∞, probabilitatea ca media eșantionului să fie egală cu μ devine 1. Acest lucru este cunoscut sub numele de **legea numerelor mari**.
+Din teorema limită centrală rezultă, de asemenea, că, atunci când N→∞, probabilitatea ca media eșantionului să fie egală cu μ devine 1. Acest lucru este cunoscut sub numele de **legea numerelor mari**.
 
 ## Covarianță și Corelație
 
 Unul dintre lucrurile pe care le face Data Science este să găsească relații între date. Spunem că două secvențe **corelează** atunci când prezintă un comportament similar în același timp, adică fie cresc/scad simultan, fie o secvență crește când cealaltă scade și invers. Cu alte cuvinte, pare să existe o relație între cele două secvențe.
 
-> Corelația nu indică neapărat o relație cauzală între două secvențe; uneori ambele variabile pot depinde de o cauză externă sau poate fi pur întâmplător că cele două secvențe corelează. Totuși, o corelație matematică puternică este un bun indiciu că cele două variabile sunt cumva conectate.
+> Corelația nu indică neapărat o relație cauzală între două secvențe; uneori ambele variabile pot depinde de o cauză externă, sau poate fi pur întâmplător că cele două secvențe corelează. Totuși, o corelație matematică puternică este un indiciu bun că cele două variabile sunt cumva conectate.
 
-Matematic, conceptul principal care arată relația dintre două variabile aleatoare este **covarianța**, care se calculează astfel: Cov(X,Y) = **E**\[(X-**E**(X))(Y-**E**(Y))\]. Calculăm deviația ambelor variabile față de valorile lor medii și apoi produsul acestor deviații. Dacă ambele variabile deviază împreună, produsul va fi întotdeauna o valoare pozitivă, care se va aduna la o covarianță pozitivă. Dacă ambele variabile deviază în afara sincronizării (adică una scade sub medie când cealaltă crește peste medie), vom obține întotdeauna numere negative, care se vor aduna la o covarianță negativă. Dacă deviațiile nu sunt dependente, ele se vor aduna aproximativ la zero.
+Matematic, conceptul principal care arată relația dintre două variabile aleatoare este **covarianța**, care se calculează astfel: Cov(X,Y) = **E**\[(X-**E**(X))(Y-**E**(Y))\]. Calculăm deviația ambelor variabile față de valorile lor medii, și apoi produsul acestor deviații. Dacă ambele variabile deviază împreună, produsul va fi întotdeauna o valoare pozitivă, care se va adăuga la covarianța pozitivă. Dacă ambele variabile deviază în afara sincronizării (adică una scade sub medie când cealaltă crește peste medie), vom obține întotdeauna numere negative, care se vor adăuga la covarianța negativă. Dacă deviațiile nu sunt dependente, ele se vor adăuga aproximativ la zero.
 
-Valoarea absolută a covarianței nu ne spune prea multe despre cât de mare este corelația, deoarece depinde de magnitudinea valorilor reale. Pentru a o normaliza, putem împărți covarianța la deviația standard a ambelor variabile, pentru a obține **corelația**. Partea bună este că corelația este întotdeauna în intervalul [-1,1], unde 1 indică o corelație pozitivă puternică între valori, -1 - o corelație negativă puternică, iar 0 - nicio corelație (variabilele sunt independente).
+Valoarea absolută a covarianței nu ne spune prea multe despre cât de mare este corelația, deoarece depinde de magnitudinea valorilor reale. Pentru a o normaliza, putem împărți covarianța la deviația standard a ambelor variabile, pentru a obține **corelația**. Partea bună este că corelația este întotdeauna în intervalul [-1,1], unde 1 indică o corelație pozitivă puternică între valori, -1 - o corelație negativă puternică, și 0 - nicio corelație (variabilele sunt independente).
 
 **Exemplu**: Putem calcula corelația între greutățile și înălțimile jucătorilor de baseball din setul de date menționat mai sus:
 ```python
 print(np.corrcoef(weights,heights))
 ```
-Ca rezultat, obținem **matricea de corelație** astfel:
+Ca rezultat, obținem **matricea de corelație** ca aceasta:
 ```
 array([[1.        , 0.52959196],
        [0.52959196, 1.        ]])
 ```
 
-> Matricea de corelație C poate fi calculată pentru orice număr de secvențe de intrare S<sub>1</sub>, ..., S<sub>n</sub>. Valoarea C<sub>ij</sub> este corelația dintre S<sub>i</sub> și S<sub>j</sub>, iar elementele diagonale sunt întotdeauna 1 (care este și autocorelația lui S<sub>i</sub>).
+> Matricea de corelație C poate fi calculată pentru orice număr de secvențe de intrare S<sub>1</sub>, ..., S<sub>n</sub>. Valoarea C<sub>ij</sub> este corelația dintre S<sub>i</sub> și S<sub>j</sub>, iar elementele diagonale sunt întotdeauna 1 (care este și auto-corelația lui S<sub>i</sub>).
 
 În cazul nostru, valoarea 0.53 indică faptul că există o anumită corelație între greutatea și înălțimea unei persoane. De asemenea, putem face un grafic de dispersie al unei valori în raport cu cealaltă pentru a vedea relația vizual:
 
 ![Relația dintre greutate și înălțime](../../../../1-Introduction/04-stats-and-probability/images/weight-height-relationship.png)
 
-> Mai multe exemple de corelație și covarianță pot fi găsite în [notebook-ul asociat](../../../../1-Introduction/04-stats-and-probability/notebook.ipynb).
+> Mai multe exemple de corelație și covarianță pot fi găsite în [notebook-ul însoțitor](../../../../1-Introduction/04-stats-and-probability/notebook.ipynb).
 
 ## Concluzie
 
@@ -240,10 +244,10 @@ array([[1.        , 0.52959196],
 * proprietăți statistice de bază ale datelor, cum ar fi media, variația, moda și quartilele
 * diferite distribuții ale variabilelor aleatoare, inclusiv distribuția normală
 * cum să găsim corelația între diferite proprietăți
-* cum să folosim aparatul matematic și statistic pentru a demonstra unele ipoteze
-* cum să calculăm intervale de încredere pentru variabile aleatoare pe baza unui eșantion de date
+* cum să folosim aparatul matematic și statistic pentru a demonstra ipoteze
+* cum să calculăm intervale de încredere pentru variabile aleatoare pe baza eșantionului de date
 
-Deși aceasta nu este o listă exhaustivă de subiecte care există în cadrul probabilității și statisticii, ar trebui să fie suficient pentru a vă oferi un început bun în acest curs.
+Deși aceasta nu este o listă exhaustivă de subiecte care există în probabilitate și statistică, ar trebui să fie suficient pentru a vă oferi un început bun în acest curs.
 
 ## 🚀 Provocare
 
@@ -252,7 +256,7 @@ Folosiți codul exemplu din notebook pentru a testa alte ipoteze:
 2. Jucătorii de primă bază sunt mai înalți decât cei de a treia bază.
 3. Shortstop-urile sunt mai înalte decât jucătorii de a doua bază.
 
-## [Quiz post-lectură](https://ff-quizzes.netlify.app/en/ds/)
+## [Quiz post-lectură](https://ff-quizzes.netlify.app/en/ds/quiz/7)
 
 ## Recapitulare & Studiu Individual
 
@@ -273,4 +277,4 @@ Această lecție a fost scrisă cu ♥️ de [Dmitry Soshnikov](http://soshnikov
 ---
 
 **Declinare de responsabilitate**:  
-Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să rețineți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa maternă ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.
+Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.

@@ -1,21 +1,21 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "11b166fbcb7eaf82308cdc24b562f687",
-  "translation_date": "2025-09-05T05:29:47+00:00",
+  "original_hash": "9399d7b4767e75068f95ce5c660b285c",
+  "translation_date": "2025-09-05T18:22:49+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "ro"
 }
 -->
 # Lucrul cu Date: Baze de Date Relaționale
 
-|![ Schiță realizată de [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/05-RelationalData.png)|
+|![ Sketchnote de [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/05-RelationalData.png)|
 |:---:|
-| Lucrul cu Date: Baze de Date Relaționale - _Schiță realizată de [@nitya](https://twitter.com/nitya)_ |
+| Lucrul cu Date: Baze de Date Relaționale - _Sketchnote de [@nitya](https://twitter.com/nitya)_ |
 
 Probabil ai folosit un tabel în trecut pentru a stoca informații. Aveai un set de rânduri și coloane, unde rândurile conțineau informațiile (sau datele), iar coloanele descriau informațiile (uneori numite metadate). O bază de date relațională se bazează pe acest principiu de bază al coloanelor și rândurilor din tabele, permițându-ți să ai informații distribuite pe mai multe tabele. Acest lucru îți permite să lucrezi cu date mai complexe, să eviți duplicarea și să ai flexibilitate în modul în care explorezi datele. Haide să explorăm conceptele unei baze de date relaționale.
 
-## [Chestionar înainte de lecție](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/8)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
 ## Totul începe cu tabele
 
@@ -33,7 +33,7 @@ Observă că numele coloanelor **oraș**, **țară** și **populație** descriu 
 
 ## Limitările abordării cu un singur tabel
 
-Probabil, tabelul de mai sus îți pare destul de familiar. Să începem să adăugăm niște date suplimentare în baza noastră de date în formare - precipitațiile anuale (în milimetri). Ne vom concentra pe anii 2018, 2019 și 2020. Dacă am adăuga aceste date pentru Tokyo, ar arăta astfel:
+Probabil, tabelul de mai sus îți pare destul de familiar. Să începem să adăugăm date suplimentare în baza noastră de date în formare - precipitațiile anuale (în milimetri). Ne vom concentra pe anii 2018, 2019 și 2020. Dacă ar fi să le adăugăm pentru Tokyo, ar putea arăta astfel:
 
 | Oraș  | Țară    | An   | Cantitate |
 | ----- | ------- | ---- | --------- |
@@ -53,11 +53,11 @@ OK, să încercăm altceva. Să adăugăm noi coloane pentru fiecare an:
 
 Deși acest lucru evită duplicarea rândurilor, adaugă alte provocări. Ar trebui să modificăm structura tabelului de fiecare dată când apare un nou an. În plus, pe măsură ce datele noastre cresc, având anii ca și coloane va face mai dificilă recuperarea și calcularea valorilor.
 
-De aceea avem nevoie de mai multe tabele și relații. Prin împărțirea datelor noastre putem evita duplicarea și avem mai multă flexibilitate în modul în care lucrăm cu datele.
+De aceea avem nevoie de mai multe tabele și relații. Prin divizarea datelor noastre putem evita duplicarea și avem mai multă flexibilitate în modul în care lucrăm cu datele.
 
 ## Conceptele relațiilor
 
-Să revenim la datele noastre și să determinăm cum dorim să le împărțim. Știm că dorim să stocăm numele și țara orașelor noastre, așa că acest lucru va funcționa cel mai bine într-un tabel.
+Să revenim la datele noastre și să determinăm cum dorim să le împărțim. Știm că dorim să stocăm numele și țara orașelor noastre, așa că acest lucru va funcționa probabil cel mai bine într-un tabel.
 
 | Oraș     | Țară          |
 | -------- | ------------- |
@@ -77,7 +77,7 @@ Dar înainte de a crea următorul tabel, trebuie să ne dăm seama cum să facem
 | 2       | Atlanta  | Statele Unite |
 | 3       | Auckland | Noua Zeelandă |
 
-> ✅ Vei observa că folosim termenii "id" și "cheie primară" interschimbabil pe parcursul acestei lecții. Conceptele de aici se aplică și la DataFrames, pe care le vei explora mai târziu. DataFrames nu folosesc terminologia de "cheie primară", însă vei observa că se comportă în mod similar.
+> ✅ Vei observa că folosim termenii "id" și "cheie primară" interschimbabil în timpul acestei lecții. Conceptele de aici se aplică și la DataFrames, pe care le vei explora mai târziu. DataFrames nu folosesc terminologia de "cheie primară", însă vei observa că se comportă în mod similar.
 
 Cu tabelul nostru de orașe creat, să stocăm precipitațiile. În loc să duplicăm informațiile complete despre oraș, putem folosi ID-ul. De asemenea, ar trebui să ne asigurăm că tabelul nou creat are o coloană *id*, deoarece toate tabelele ar trebui să aibă un ID sau o cheie primară.
 
@@ -103,7 +103,7 @@ Observă coloana **city_id** din tabelul nou creat **precipitații**. Această c
 
 Cu datele noastre separate în două tabele, te-ai putea întreba cum le recuperăm. Dacă folosim o bază de date relațională precum MySQL, SQL Server sau Oracle, putem folosi un limbaj numit Structured Query Language sau SQL. SQL (uneori pronunțat "sequel") este un limbaj standard utilizat pentru a recupera și modifica datele dintr-o bază de date relațională.
 
-Pentru a recupera datele, folosești comanda `SELECT`. În esență, **selectezi** coloanele pe care dorești să le vezi **din** tabelul în care sunt conținute. Dacă ai dori să afișezi doar numele orașelor, ai putea folosi următorul:
+Pentru a recupera datele, folosești comanda `SELECT`. În esență, **selectezi** coloanele pe care vrei să le vezi **din** tabelul în care se află. Dacă ai dori să afișezi doar numele orașelor, ai putea folosi următorul:
 
 ```sql
 SELECT city
@@ -117,9 +117,9 @@ FROM cities;
 
 `SELECT` este locul unde listezi coloanele, iar `FROM` este locul unde listezi tabelele.
 
-> [NOTE] Sintaxa SQL este insensibilă la majuscule, ceea ce înseamnă că `select` și `SELECT` înseamnă același lucru. Totuși, în funcție de tipul de bază de date pe care îl folosești, coloanele și tabelele ar putea fi sensibile la majuscule. Ca rezultat, este o bună practică să tratezi întotdeauna totul în programare ca fiind sensibil la majuscule. Când scrii interogări SQL, convenția comună este să pui cuvintele cheie cu litere mari.
+> [NOTE] Sintaxa SQL nu este sensibilă la majuscule, ceea ce înseamnă că `select` și `SELECT` înseamnă același lucru. Totuși, în funcție de tipul de bază de date pe care o folosești, coloanele și tabelele ar putea fi sensibile la majuscule. Ca rezultat, este o bună practică să tratezi întotdeauna totul în programare ca fiind sensibil la majuscule. Când scrii interogări SQL, convenția comună este să pui cuvintele cheie cu litere mari.
 
-Interogarea de mai sus va afișa toate orașele. Să presupunem că dorim să afișăm doar orașele din Noua Zeelandă. Avem nevoie de o formă de filtru. Cuvântul cheie SQL pentru aceasta este `WHERE`, sau "unde ceva este adevărat".
+Interogarea de mai sus va afișa toate orașele. Să ne imaginăm că dorim să afișăm doar orașele din Noua Zeelandă. Avem nevoie de o formă de filtru. Cuvântul cheie SQL pentru aceasta este `WHERE`, sau "unde ceva este adevărat".
 
 ```sql
 SELECT city
@@ -134,7 +134,7 @@ WHERE country = 'New Zealand';
 
 Până acum am recuperat date dintr-un singur tabel. Acum dorim să aducem datele împreună din **orașe** și **precipitații**. Acest lucru se face prin *îmbinarea* lor. Practic vei crea o legătură între cele două tabele și vei potrivi valorile dintr-o coloană din fiecare tabel.
 
-În exemplul nostru, vom potrivi coloana **city_id** din **precipitații** cu coloana **city_id** din **orașe**. Acest lucru va potrivi valoarea precipitațiilor cu orașul său respectiv. Tipul de îmbinare pe care îl vom efectua se numește *îmbinare internă*, ceea ce înseamnă că, dacă vreun rând nu se potrivește cu nimic din celălalt tabel, nu va fi afișat. În cazul nostru, fiecare oraș are precipitații, deci totul va fi afișat.
+În exemplul nostru, vom potrivi coloana **city_id** din **precipitații** cu coloana **city_id** din **orașe**. Acest lucru va potrivi valoarea precipitațiilor cu orașul său respectiv. Tipul de îmbinare pe care îl vom efectua se numește îmbinare *internă*, ceea ce înseamnă că, dacă vreun rând nu se potrivește cu nimic din celălalt tabel, nu va fi afișat. În cazul nostru, fiecare oraș are precipitații, deci totul va fi afișat.
 
 Să recuperăm precipitațiile din 2019 pentru toate orașele noastre.
 
@@ -167,7 +167,7 @@ WHERE rainfall.year = 2019
 
 ## Rezumat
 
-Baze de date relaționale se concentrează pe împărțirea informațiilor între mai multe tabele care sunt apoi reunite pentru afișare și analiză. Acest lucru oferă un grad ridicat de flexibilitate pentru a efectua calcule și pentru a manipula datele. Ai văzut conceptele de bază ale unei baze de date relaționale și cum să efectuezi o îmbinare între două tabele.
+Baze de date relaționale sunt centrate pe divizarea informațiilor între mai multe tabele, care sunt apoi reunite pentru afișare și analiză. Acest lucru oferă un grad ridicat de flexibilitate pentru a efectua calcule și pentru a manipula datele. Ai văzut conceptele de bază ale unei baze de date relaționale și cum să efectuezi o îmbinare între două tabele.
 
 ## 🚀 Provocare
 
@@ -175,9 +175,9 @@ Există numeroase baze de date relaționale disponibile pe internet. Poți explo
 
 ## Chestionar după lecție
 
-## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ds/)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ds/quiz/9)
 
-## Recapitulare și Studiu Individual
+## Recapitulare & Studiu Individual
 
 Există mai multe resurse disponibile pe [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum) pentru a-ți continua explorarea conceptelor SQL și de baze de date relaționale:
 
@@ -187,7 +187,7 @@ Există mai multe resurse disponibile pe [Microsoft Learn](https://docs.microsof
 
 ## Temă
 
-[Titlul Temei](assignment.md)
+[Titlul temei](assignment.md)
 
 ---
 

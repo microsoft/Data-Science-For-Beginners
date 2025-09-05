@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
-  "translation_date": "2025-09-05T05:11:16+00:00",
+  "original_hash": "472d3fab1c5be50f387336e7a686dbe1",
+  "translation_date": "2025-09-05T20:09:32+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "my"
 }
@@ -13,120 +13,120 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Cloud တွင် Data Science: Azure ML SDK - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-အကြောင်းအရာများ:
+အကြောင်းအရာများစာရင်း:
 
 - [Cloud တွင် Data Science: "Azure ML SDK" နည်းလမ်း](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Pre-Lecture Quiz](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [1. အကျဉ်းချုပ်](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [1.1 Azure ML SDK ဆိုတာဘာလဲ?](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [1.2 နှလုံးရောဂါခန့်မှန်းမှု project နှင့် dataset အကျဉ်းချုပ်](../../../../5-Data-Science-In-Cloud/19-Azure)
-  - [2. Azure ML SDK ဖြင့် မော်ဒယ်တစ်ခုကို training လုပ်ခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [2.1 Azure ML workspace တစ်ခုကို ဖန်တီးခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [2.2 Compute instance တစ်ခုကို ဖန်တီးခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [2.3 Dataset ကို load လုပ်ခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [2.4 Notebooks ဖန်တီးခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [2.5 မော်ဒယ် training လုပ်ခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
-      - [2.5.1 Workspace, experiment, compute cluster နှင့် dataset ကို setup လုပ်ခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
-      - [2.5.2 AutoML Configuration နှင့် training](../../../../5-Data-Science-In-Cloud/19-Azure)
-  - [3. Azure ML SDK ဖြင့် မော်ဒယ် deployment နှင့် endpoint ကို အသုံးပြုခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [3.1 အကောင်းဆုံးမော်ဒယ်ကို save လုပ်ခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [3.2 မော်ဒယ် Deployment](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [1.2 နှလုံးရောဂါခန့်မှန်းမှုပရောဂျက်နှင့်ဒေတာအချက်အလက်မိတ်ဆက်](../../../../5-Data-Science-In-Cloud/19-Azure)
+  - [2. Azure ML SDK ဖြင့်မော်ဒယ်တစ်ခုကိုလေ့ကျင့်ခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [2.1 Azure ML workspace တစ်ခုဖန်တီးခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [2.2 Compute instance တစ်ခုဖန်တီးခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [2.3 ဒေတာအချက်အလက်တင်သွင်းခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [2.4 Notebook ဖန်တီးခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [2.5 မော်ဒယ်လေ့ကျင့်ခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
+      - [2.5.1 Workspace, experiment, compute cluster နှင့် dataset ကိုတပ်ဆင်ခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
+      - [2.5.2 AutoML Configuration နှင့်လေ့ကျင့်ခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
+  - [3. Azure ML SDK ဖြင့်မော်ဒယ်တင်သွင်းခြင်းနှင့် endpoint အသုံးပြုခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [3.1 အကောင်းဆုံးမော်ဒယ်ကိုသိမ်းဆည်းခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [3.2 မော်ဒယ်တင်သွင်းခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [3.3 Endpoint အသုံးပြုခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [🚀 စိန်ခေါ်မှု](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Post-lecture quiz](../../../../5-Data-Science-In-Cloud/19-Azure)
-  - [Review & Self Study](../../../../5-Data-Science-In-Cloud/19-Azure)
-  - [Assignment](../../../../5-Data-Science-In-Cloud/19-Azure)
+  - [ပြန်လည်သုံးသပ်ခြင်းနှင့်ကိုယ်တိုင်လေ့လာခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure)
+  - [အလုပ်ပေးစာ](../../../../5-Data-Science-In-Cloud/19-Azure)
 
-## [Pre-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/36)
+## [Pre-Lecture Quiz](https://ff-quizzes.netlify.app/en/ds/quiz/36)
 
 ## 1. အကျဉ်းချုပ်
 
 ### 1.1 Azure ML SDK ဆိုတာဘာလဲ?
 
-Data scientists နှင့် AI developers များသည် Azure Machine Learning SDK ကို အသုံးပြု၍ Azure Machine Learning service ဖြင့် machine learning workflows များကို တည်ဆောက်ပြီး run လုပ်ကြသည်။ Python environment မည်သည့်အမျိုးအစားမဆို (Jupyter Notebooks, Visual Studio Code, သို့မဟုတ် သင်နှစ်သက်သော Python IDE) မှာ service ကို အသုံးပြုနိုင်သည်။
+Data scientist များနှင့် AI developer များသည် Azure Machine Learning SDK ကိုအသုံးပြု၍ Azure Machine Learning service ဖြင့် machine learning workflow များကိုတည်ဆောက်ပြီးအကောင်အထည်ဖော်ပါသည်။ Python environment မည်သည့်အမျိုးအစားမဆို (Jupyter Notebooks, Visual Studio Code, သို့မဟုတ် သင်နှစ်သက်သော Python IDE) မှာ service ကိုအသုံးပြုနိုင်ပါသည်။
 
-SDK ၏ အဓိက function များမှာ:
+SDK ၏အဓိကအပိုင်းများမှာ:
 
-- Machine learning experiments တွင် အသုံးပြုမည့် datasets များကို ရှာဖွေ၊ ပြင်ဆင်၊ lifecycle ကို စီမံခန့်ခွဲခြင်း။
-- Cloud resources များကို စီမံခန့်ခွဲခြင်း (monitoring, logging, organizing)။
-- မော်ဒယ်များကို local မှာ training လုပ်ခြင်း သို့မဟုတ် GPU-accelerated cloud resources အသုံးပြု၍ training လုပ်ခြင်း။
-- Automated machine learning ကို အသုံးပြုခြင်း။ Configuration parameters နှင့် training data ကို input လုပ်ပြီး အကောင်းဆုံးမော်ဒယ်ကို ရှာဖွေခြင်း။
-- Web services များကို deploy လုပ်၍ trained models များကို RESTful services အဖြစ် ပြောင်းလဲခြင်း။
+- Machine learning experiment များတွင်အသုံးပြုသော dataset များကိုလေ့လာခြင်း၊ ပြင်ဆင်ခြင်းနှင့် lifecycle ကိုစီမံခန့်ခွဲခြင်း။
+- Cloud resources များကိုစီမံခန့်ခွဲခြင်း၊ log မှတ်တမ်းများနှင့် experiment များကိုစီမံခန့်ခွဲခြင်း။
+- မော်ဒယ်များကို local တွင်လေ့ကျင့်ခြင်း သို့မဟုတ် GPU acceleration ပါသော cloud resources အသုံးပြု၍လေ့ကျင့်ခြင်း။
+- Automated machine learning ကိုအသုံးပြုခြင်း၊ configuration parameters နှင့် training data ကိုလက်ခံပြီး အကောင်းဆုံးမော်ဒယ်ကို algorithms နှင့် hyperparameter settings များဖြင့်အလိုအလျောက်ရှာဖွေခြင်း။
+- Web services များကို deploy လုပ်၍ trained model များကို RESTful services အဖြစ်ပြောင်းလဲပြီး application များတွင်အသုံးပြုနိုင်ခြင်း။
 
 [Azure Machine Learning SDK အကြောင်းပိုမိုလေ့လာရန်](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
-[ယခင်သင်ခန်းစာ](../18-Low-Code/README.md) တွင် Low code/No code နည်းလမ်းဖြင့် မော်ဒယ်ကို training, deployment, consumption လုပ်ပုံကို လေ့လာခဲ့ပါသည်။ Heart Failure dataset ကို အသုံးပြု၍ Heart failure prediction model ကို ဖန်တီးခဲ့ပါသည်။ ယခုသင်ခန်းစာတွင် အတူတူသောအရာကို Azure Machine Learning SDK အသုံးပြု၍ ပြုလုပ်မည်ဖြစ်သည်။
+[ယခင်သင်ခန်းစာ](../18-Low-Code/README.md) တွင် Low code/No code နည်းလမ်းဖြင့် မော်ဒယ်ကိုလေ့ကျင့်ခြင်း၊ တင်သွင်းခြင်းနှင့်အသုံးပြုခြင်းကိုကြည့်ခဲ့ပါသည်။ Heart Failure dataset ကိုအသုံးပြု၍ Heart failure prediction model ကိုဖန်တီးခဲ့ပါသည်။ ဒီသင်ခန်းစာတွင် Azure Machine Learning SDK ကိုအသုံးပြု၍ အတူတူသောအရာကိုပြုလုပ်သွားမည်ဖြစ်သည်။
 
 ![project-schema](../../../../5-Data-Science-In-Cloud/19-Azure/images/project-schema.PNG)
 
-### 1.2 နှလုံးရောဂါခန့်မှန်းမှု project နှင့် dataset အကျဉ်းချုပ်
+### 1.2 နှလုံးရောဂါခန့်မှန်းမှုပရောဂျက်နှင့်ဒေတာအချက်အလက်မိတ်ဆက်
 
-[ဒီနေရာ](../18-Low-Code/README.md) တွင် Heart failure prediction project နှင့် dataset အကျဉ်းချုပ်ကို ကြည့်ပါ။
+[ဒီနေရာ](../18-Low-Code/README.md) တွင် Heart failure prediction project နှင့် dataset မိတ်ဆက်ကိုကြည့်ပါ။
 
-## 2. Azure ML SDK ဖြင့် မော်ဒယ်တစ်ခုကို training လုပ်ခြင်း
-### 2.1 Azure ML workspace တစ်ခုကို ဖန်တီးခြင်း
+## 2. Azure ML SDK ဖြင့်မော်ဒယ်တစ်ခုကိုလေ့ကျင့်ခြင်း
+### 2.1 Azure ML workspace တစ်ခုဖန်တီးခြင်း
 
-ရိုးရှင်းစွာ Jupyter notebook တွင် အလုပ်လုပ်မည်ဖြစ်သည်။ ဒါကြောင့် Workspace နှင့် compute instance ရှိပြီးသားဖြစ်ရမည်။ Workspace ရှိပြီးသားဖြစ်ပါက **2.3 Notebook creation** အပိုင်းသို့ တိုက်ရိုက်သွားနိုင်သည်။
+ရိုးရှင်းစွာ Jupyter notebook တွင်အလုပ်လုပ်မည်ဖြစ်သည်။ ဒါက Workspace နှင့် compute instance ရှိပြီးသားဖြစ်သည်ကိုဆိုလိုသည်။ Workspace ရှိပြီးသားဖြစ်ပါက **2.3 Notebook ဖန်တီးခြင်း** အပိုင်းသို့တိုက်ရိုက်သွားနိုင်ပါသည်။
 
-Workspace မရှိသေးပါက [ယခင်သင်ခန်းစာ](../18-Low-Code/README.md) တွင် **2.1 Azure ML workspace ဖန်တီးခြင်း** အပိုင်းကို လိုက်နာ၍ Workspace တစ်ခုကို ဖန်တီးပါ။
+Workspace မရှိသေးပါက [ယခင်သင်ခန်းစာ](../18-Low-Code/README.md) တွင် **2.1 Azure ML workspace တစ်ခုဖန်တီးခြင်း** အပိုင်းကိုလိုက်နာ၍ workspace တစ်ခုဖန်တီးပါ။
 
-### 2.2 Compute instance တစ်ခုကို ဖန်တီးခြင်း
+### 2.2 Compute instance တစ်ခုဖန်တီးခြင်း
 
-[Azure ML workspace](https://ml.azure.com/) တွင် Compute menu သို့သွားပါ။ Compute resources များကို တွေ့နိုင်ပါသည်။
+[Azure ML workspace](https://ml.azure.com/) တွင် Compute menu သို့သွားပါ။ Compute resources များကိုတွေ့မြင်နိုင်ပါသည်။
 
 ![compute-instance-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/compute-instance-1.PNG)
 
-Jupyter notebook ကို provision လုပ်ရန် compute instance တစ်ခုကို ဖန်တီးပါ။
-1. + New button ကို နှိပ်ပါ။
-2. Compute instance အမည်ပေးပါ။
-3. CPU/GPU, VM size နှင့် core number ကို ရွေးပါ။
-4. Create button ကို နှိပ်ပါ။
+Jupyter notebook ကို provision လုပ်ရန် compute instance တစ်ခုဖန်တီးပါ။
+1. + New button ကိုနှိပ်ပါ။
+2. Compute instance ကိုအမည်ပေးပါ။
+3. CPU သို့မဟုတ် GPU, VM size နှင့် core အရေအတွက်ကိုရွေးပါ။
+4. Create button ကိုနှိပ်ပါ။
 
-Compute instance တစ်ခုကို ဖန်တီးပြီးပါပြီ! [Creating Notebooks section](../../../../5-Data-Science-In-Cloud/19-Azure) တွင် Notebook ဖန်တီးရန် Compute instance ကို အသုံးပြုမည်။
+အောင်မြင်စွာ compute instance တစ်ခုဖန်တီးပြီးပါပြီ! [Notebook ဖန်တီးခြင်း](../../../../5-Data-Science-In-Cloud/19-Azure) အပိုင်းတွင် compute instance ကိုအသုံးပြုမည်ဖြစ်သည်။
 
-### 2.3 Dataset ကို load လုပ်ခြင်း
-Dataset ကို upload မလုပ်ရသေးပါက [ယခင်သင်ခန်းစာ](../18-Low-Code/README.md) တွင် **2.3 Dataset ကို load လုပ်ခြင်း** အပိုင်းကို ကြည့်ပါ။
+### 2.3 ဒေတာအချက်အလက်တင်သွင်းခြင်း
+Dataset ကို upload မလုပ်ရသေးပါက [ယခင်သင်ခန်းစာ](../18-Low-Code/README.md) တွင် **2.3 Loading the Dataset** အပိုင်းကိုကြည့်ပါ။
 
-### 2.4 Notebooks ဖန်တီးခြင်း
+### 2.4 Notebook ဖန်တီးခြင်း
 
-> **_NOTE:_** နောက်ထပ်အဆင့်တွင် Notebook အသစ်တစ်ခုကို စတင်ဖန်တီးနိုင်သလို [ယခင်ဖန်တီးထားသော notebook](../../../../5-Data-Science-In-Cloud/19-Azure/notebook.ipynb) ကို upload လုပ်နိုင်ပါသည်။ Upload လုပ်ရန် "Notebook" menu ကို နှိပ်ပြီး notebook ကို upload လုပ်ပါ။
+> **_NOTE:_** နောက်တစ်ဆင့်တွင် notebook အသစ်တစ်ခုကိုစတင်ဖန်တီးနိုင်သလို [ယခင်ဖန်တီးထားသော notebook](../../../../5-Data-Science-In-Cloud/19-Azure/notebook.ipynb) ကို upload လုပ်နိုင်ပါသည်။ Upload လုပ်ရန် "Notebook" menu ကိုနှိပ်ပြီး notebook ကို upload လုပ်ပါ။
 
-Notebook များသည် Data Science လုပ်ငန်းစဉ်တွင် အရေးပါသောအခန်းကဏ္ဍတစ်ခုဖြစ်သည်။ EDA (Exploratory Data Analysis) ပြုလုပ်ခြင်း၊ compute cluster သို့ ခေါ်သွား၍ မော်ဒယ် training လုပ်ခြင်း၊ inference cluster သို့ ခေါ်သွား၍ endpoint deploy လုပ်ခြင်းတို့အတွက် အသုံးပြုနိုင်သည်။
+Notebook များသည် data science လုပ်ငန်းစဉ်တွင်အရေးပါသောအခန်းကဏ္ဍတစ်ခုဖြစ်သည်။ EDA (Exploratory Data Analysis) ပြုလုပ်ခြင်း၊ compute cluster သို့ခေါ်သွား၍ မော်ဒယ်ကိုလေ့ကျင့်ခြင်း၊ inference cluster သို့ခေါ်သွား၍ endpoint ကို deploy လုပ်ခြင်းတို့အတွက်အသုံးပြုနိုင်သည်။
 
-Notebook ဖန်တီးရန် Jupyter notebook instance ကို run လုပ်နေသော compute node တစ်ခုလိုအပ်သည်။ [Azure ML workspace](https://ml.azure.com/) သို့ ပြန်သွားပြီး Compute instances ကို click လုပ်ပါ။ [ယခင်ဖန်တီးထားသော compute instance](../../../../5-Data-Science-In-Cloud/19-Azure) ကို တွေ့ရမည်။
+Notebook ဖန်တီးရန် Jupyter notebook instance ကို run လုပ်နေသော compute node တစ်ခုလိုအပ်သည်။ [Azure ML workspace](https://ml.azure.com/) သို့ပြန်သွားပြီး Compute instances ကိုနှိပ်ပါ။ [ယခင်ဖန်တီးထားသော compute instance](../../../../5-Data-Science-In-Cloud/19-Azure) ကိုတွေ့မြင်နိုင်ပါသည်။
 
-1. Applications အပိုင်းတွင် Jupyter option ကို click လုပ်ပါ။
-2. "Yes, I understand" box ကို check လုပ်ပြီး Continue button ကို click လုပ်ပါ။
+1. Applications အပိုင်းတွင် Jupyter option ကိုနှိပ်ပါ။
+2. "Yes, I understand" box ကိုအမှန်ခြစ်ပြီး Continue button ကိုနှိပ်ပါ။
 ![notebook-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-1.PNG)
-3. Jupyter notebook instance ကို browser tab အသစ်တွင် ဖွင့်ပါ။ "New" button ကို click လုပ်၍ notebook တစ်ခုကို ဖန်တီးပါ။
+3. Jupyter notebook instance ကို browser tab အသစ်တွင်ဖွင့်ပါ။ "New" button ကိုနှိပ်ပြီး notebook တစ်ခုဖန်တီးပါ။
 
 ![notebook-2](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-2.PNG)
 
-Notebook ရရှိပြီးပါက Azure ML SDK ဖြင့် မော်ဒယ် training လုပ်နိုင်ပါပြီ။
+Notebook ရရှိပြီးပါက Azure ML SDK ဖြင့်မော်ဒယ်ကိုလေ့ကျင့်နိုင်ပါပြီ။
 
-### 2.5 မော်ဒယ် training လုပ်ခြင်း
+### 2.5 မော်ဒယ်လေ့ကျင့်ခြင်း
 
-သင့်တွင် မည်သည့်အခါမဆို သ nghi doute ရှိပါက [Azure ML SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) ကို ကြည့်ပါ။ ဒီသင်ခန်းစာတွင် အသုံးပြုမည့် modules များကို နားလည်ရန် လိုအပ်သော အချက်အလက်များ ပါဝင်သည်။
+မည်သည့်အချိန်တွင်မဆို သင်မသေချာပါက [Azure ML SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) ကိုကြည့်ပါ။ ဒီသင်ခန်းစာတွင်တွေ့မြင်မည့် module များကိုနားလည်ရန်လိုအပ်သောအချက်အလက်များပါဝင်သည်။
 
-#### 2.5.1 Workspace, experiment, compute cluster နှင့် dataset ကို setup လုပ်ခြင်း
+#### 2.5.1 Workspace, experiment, compute cluster နှင့် dataset ကိုတပ်ဆင်ခြင်း
 
-Configuration file မှ `workspace` ကို load လုပ်ရန် အောက်ပါ code ကို အသုံးပြုပါ:
+Configuration file မှ `workspace` ကို load လုပ်ရန်အောက်ပါ code ကိုအသုံးပြုပါ:
 
 ```python
 from azureml.core import Workspace
 ws = Workspace.from_config()
 ```
 
-ဒီ code သည် `Workspace` အမျိုးအစား object ကို return ပြန်ပါသည်။ Workspace ကို represent လုပ်သည်။ Experiment တစ်ခုကို ဖန်တီးရန် အောက်ပါ code ကို အသုံးပြုပါ:
+ဒီ code သည် workspace ကိုကိုယ်စားပြုသော `Workspace` အမျိုးအစား object ကိုပြန်ပေးသည်။ experiment တစ်ခုကိုအောက်ပါ code ဖြင့်ဖန်တီးရန်လိုအပ်သည်:
 
 ```python
 from azureml.core import Experiment
 experiment_name = 'aml-experiment'
 experiment = Experiment(ws, experiment_name)
 ```
-Workspace မှ experiment ကို request လုပ်၍ experiment name ဖြင့် ရယူနိုင်သည်။ Experiment name သည် 3-36 characters ရှိရမည်၊ အက္ခရာ သို့မဟုတ် နံပါတ်ဖြင့် စရမည်၊ အက္ခရာ၊ နံပါတ်၊ underscores နှင့် dashes များသာ ပါဝင်နိုင်သည်။ Workspace တွင် experiment မရှိပါက အသစ်တစ်ခုကို ဖန်တီးမည်။
+Workspace မှ experiment ကိုရယူရန် experiment name ကိုအသုံးပြုပါ။ Experiment name သည် 3-36 characters ရှိရမည်၊ အက္ခရာ သို့မဟုတ် နံပါတ်ဖြင့်စရမည်၊ အက္ခရာ၊ နံပါတ်၊ underscore နှင့် dash များသာပါဝင်နိုင်သည်။ Workspace တွင် experiment မရှိပါက အသစ်တစ်ခုဖန်တီးမည်ဖြစ်သည်။
 
-Training အတွက် compute cluster တစ်ခုကို ဖန်တီးရန် အောက်ပါ code ကို အသုံးပြုပါ။ ဒီအဆင့်သည် မိနစ်အနည်းငယ်ကြာနိုင်သည်။
+Training အတွက် compute cluster တစ်ခုဖန်တီးရန်အောက်ပါ code ကိုအသုံးပြုပါ။ ဒီအဆင့်သည်မိနစ်အနည်းငယ်ကြာနိုင်သည်။
 
 ```python
 from azureml.core.compute import AmlCompute
@@ -145,30 +145,30 @@ cts = ws.compute_targets
 compute_target = cts[aml_name]
 ```
 
-Workspace မှ dataset ကို dataset name ဖြင့် ရယူနိုင်သည်။
+Workspace မှ dataset ကို dataset name ဖြင့်ရယူနိုင်သည်:
 
 ```python
 dataset = ws.datasets['heart-failure-records']
 df = dataset.to_pandas_dataframe()
 df.describe()
 ```
-#### 2.5.2 AutoML Configuration နှင့် training
+#### 2.5.2 AutoML Configuration နှင့်လေ့ကျင့်ခြင်း
 
-AutoML configuration ကို set လုပ်ရန် [AutoMLConfig class](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) ကို အသုံးပြုပါ။
+AutoML configuration ကို [AutoMLConfig class](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) ကိုအသုံးပြု၍တပ်ဆင်ပါ။
 
-Doc တွင် ဖော်ပြထားသည့်အတိုင်း parameters များစွာရှိပြီး သင့် project အတွက် အောက်ပါ parameters များကို အသုံးပြုမည်:
+Doc တွင်ဖော်ပြထားသည့်အတိုင်း parameter များစွာရှိပြီး သင်စိတ်ကြိုက်ပြင်ဆင်နိုင်သည်။ ဒီ project အတွက် အောက်ပါ parameter များကိုအသုံးပြုမည်ဖြစ်သည်:
 
-- `experiment_timeout_minutes`: Experiment run လုပ်နိုင်သည့် အချိန်အများဆုံး (မိနစ်)။
-- `max_concurrent_iterations`: Experiment အတွက် training iterations အများဆုံး။
-- `primary_metric`: Experiment status ကို သတ်မှတ်ရန် primary metric။
+- `experiment_timeout_minutes`: Experiment ကို run လုပ်ခွင့်ရရှိသည့်အချိန်အများဆုံး (မိနစ်)။
+- `max_concurrent_iterations`: Experiment အတွက် concurrent training iteration အများဆုံး။
+- `primary_metric`: Experiment ၏အခြေအနေကိုသတ်မှတ်ရန်အသုံးပြုသော primary metric။
 - `compute_target`: Automated Machine Learning experiment ကို run လုပ်ရန် Azure Machine Learning compute target။
-- `task`: Run လုပ်မည့် task အမျိုးအစား။ 'classification', 'regression', 'forecasting' တစ်ခုခုဖြစ်နိုင်သည်။
-- `training_data`: Experiment အတွင်း training data အဖြစ် အသုံးပြုမည့် data။
-- `label_column_name`: Label column name။
-- `path`: Azure Machine Learning project folder ၏ full path။
-- `enable_early_stopping`: အချိန်တိုအတွင်း score မတိုးတက်ပါက early termination ကို enable လုပ်မည်။
-- `featurization`: Featurization step ကို auto/manual/customize လုပ်မည်။
-- `debug_log`: Debug information ကို ရေးသားမည့် log file။
+- `task`: Run လုပ်ရန် task အမျိုးအစား။ 'classification', 'regression', 'forecasting' တို့ဖြစ်နိုင်သည်။
+- `training_data`: Experiment အတွင်း training data အဖြစ်အသုံးပြုမည့် data။
+- `label_column_name`: Label column ၏အမည်။
+- `path`: Azure Machine Learning project folder ၏လမ်းကြောင်း။
+- `enable_early_stopping`: အချိန်တိုအတွင်း score မတိုးတက်ပါက early termination ကိုဖွင့်ရန်။
+- `featurization`: Featurization ကိုအလိုအလျောက်လုပ်ရန် သို့မဟုတ် customized featurization ကိုအသုံးပြုရန်။
+- `debug_log`: Debug အချက်အလက်များကိုရေးသားရန် log file။
 
 ```python
 from azureml.train.automl import AutoMLConfig
@@ -192,26 +192,26 @@ automl_config = AutoMLConfig(compute_target=compute_target,
                              **automl_settings
                             )
 ```
-Configuration set ပြီးပါက အောက်ပါ code ကို အသုံးပြု၍ မော်ဒယ် training လုပ်နိုင်သည်။ ဒီအဆင့်သည် cluster size ပေါ်မူတည်၍ တစ်နာရီအထိ ကြာနိုင်သည်။
+Configuration ကိုတပ်ဆင်ပြီးပါက အောက်ပါ code ဖြင့်မော်ဒယ်ကိုလေ့ကျင့်နိုင်သည်။ ဒီအဆင့်သည် cluster size ပေါ်မူတည်၍ တစ်နာရီအထိကြာနိုင်သည်။
 
 ```python
 remote_run = experiment.submit(automl_config)
 ```
-RunDetails widget ကို run လုပ်၍ experiment များကို ပြသနိုင်သည်။
+RunDetails widget ကို run လုပ်၍ experiment များကိုပြသနိုင်သည်။
 ```python
 from azureml.widgets import RunDetails
 RunDetails(remote_run).show()
 ```
-## 3. Azure ML SDK ဖြင့် မော်ဒယ် deployment နှင့် endpoint ကို အသုံးပြုခြင်း
+## 3. Azure ML SDK ဖြင့်မော်ဒယ်တင်သွင်းခြင်းနှင့် endpoint အသုံးပြုခြင်း
 
-### 3.1 အကောင်းဆုံးမော်ဒယ်ကို save လုပ်ခြင်း
+### 3.1 အကောင်းဆုံးမော်ဒယ်ကိုသိမ်းဆည်းခြင်း
 
-`remote_run` သည် [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) အမျိုးအစား object ဖြစ်သည်။ ဒီ object တွင် `get_output()` method ပါဝင်ပြီး အကောင်းဆုံး run နှင့် အဆင်ပြေသော fitted model ကို return ပြန်သည်။
+`remote_run` သည် [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) အမျိုးအစား object ဖြစ်သည်။ ဒီ object တွင် `get_output()` method ပါဝင်ပြီး အကောင်းဆုံး run နှင့်သက်ဆိုင်သော fitted model ကိုပြန်ပေးသည်။
 
 ```python
 best_run, fitted_model = remote_run.get_output()
 ```
-အကောင်းဆုံးမော်ဒယ်၏ parameters ကို print လုပ်၍ ကြည့်နိုင်သည်။ [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) method ကို အသုံးပြု၍ properties ကို ကြည့်နိုင်သည်။
+အကောင်းဆုံးမော်ဒယ်တွင်အသုံးပြုသော parameters ကို fitted_model ကို print လုပ်၍ကြည့်နိုင်သည်။ [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) method ကိုအသုံးပြု၍ မော်ဒယ်၏ properties ကိုကြည့်နိုင်သည်။
 
 ```python
 best_run.get_properties()
@@ -228,9 +228,9 @@ model = best_run.register_model(model_name = model_name,
                                 description = description,
                                 tags = None)
 ```
-### 3.2 မော်ဒယ် Deployment
+### 3.2 မော်ဒယ်တင်သွင်းခြင်း
 
-အကောင်းဆုံးမော်ဒယ်ကို save လုပ်ပြီးပါက [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109) class ကို အသုံးပြု၍ deploy လုပ်နိုင်သည်။ InferenceConfig သည် deployment အတွက် custom environment settings ကို represent လုပ်သည်။ [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) class သည် Azure Container Instances တွင် web service endpoint အဖြစ် deploy လုပ်ထားသော machine learning model ကို represent လုပ်သည်။ Deploy လုပ်ထားသော service သည် load-balanced HTTP endpoint ဖြစ်ပြီး REST API ပါဝင်သည်။ API သို့ data ပို့ပြီး မော်ဒယ်မှ prediction ကို ရယူနိုင်သည်။
+အကောင်းဆုံးမော်ဒယ်ကိုသိမ်းဆည်းပြီးပါက [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109) class ကိုအသုံးပြု၍ deploy လုပ်နိုင်သည်။ InferenceConfig သည် deployment အတွက် custom environment settings ကိုကိုယ်စားပြုသည်။ [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) class သည် Azure Container Instances တွင် web service endpoint အဖြစ် deploy လုပ်ထားသော machine learning model ကိုကိုယ်စားပြုသည်။ Deploy လုပ်ထားသော service သည် load-balanced HTTP endpoint ဖြစ်ပြီး REST API ပါဝင်သည်။ API သို့ data ပေးပို့ပြီး မော်ဒယ်မှ prediction ကိုပြန်လည်ရယူနိုင်သည်။
 
 မော်ဒယ်ကို [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) method ဖြင့် deploy လုပ်ပါ။
 
@@ -250,11 +250,11 @@ aci_service = Model.deploy(ws, aci_service_name, [model], inference_config, acic
 aci_service.wait_for_deployment(True)
 print(aci_service.state)
 ```
-ဒီအဆင့်သည် မိနစ်အနည်းငယ်ကြာနိုင်သည်။
+ဒီအဆင့်သည်မိနစ်အနည်းငယ်ကြာနိုင်သည်။
 
 ### 3.3 Endpoint အသုံးပြုခြင်း
 
-Endpoint ကို အသုံးပြုရန် sample input တစ်ခုကို ဖန်တီးပါ:
+Endpoint ကိုအသုံးပြုရန် sample input တစ်ခုဖန်တီးပါ:
 
 ```python
 data = {
@@ -279,34 +279,34 @@ data = {
 
 test_sample = str.encode(json.dumps(data))
 ```
-ပြီးနောက် input ကို မော်ဒယ်သို့ ပို့၍ prediction ရယူနိုင်သည်:
+ပြီးနောက် input ကိုမော်ဒယ်သို့ပေးပို့၍ prediction ရယူနိုင်သည်:
 ```python
 response = aci_service.run(input_data=test_sample)
 response
 ```  
-ဤအရာသည် `'{"result": [false]}'` ကို output ပြုလုပ်သင့်သည်။ ဤသည်မှာ ကျွန်ုပ်တို့ endpoint သို့ ပေးပို့ခဲ့သော လူနာ input သည် `false` ဟုခန့်မှန်းချက်ကို ဖန်တီးခဲ့သည်။ အဆိုပါ `false` သည် ဤပုဂ္ဂိုလ်သည် နှလုံးရောဂါဖြစ်နိုင်ခြေမရှိကြောင်းကို ဆိုလိုသည်။
+ဤအရာသည် `'{"result": [false]}'` ကို output ပြုလုပ်သင့်သည်။ ၎င်းသည် ကျွန်ုပ်တို့ endpoint သို့ ပေးပို့ခဲ့သော လူနာ input မှ `false` ဟုခန့်မှန်းချက်ကို ထုတ်လုပ်ခဲ့သည်ကို ဆိုလိုသည်။ ၎င်းသည် ဤပုဂ္ဂိုလ်သည် နှလုံးရောဂါဖြစ်နိုင်ခြေမရှိကြောင်းကို အဓိပ္ပါယ်ရသည်။
 
-ဂုဏ်ယူပါတယ်! Azure ML SDK ကို အသုံးပြု၍ Azure ML ပေါ်တွင် သင်တန်းပေးပြီး deploy လုပ်ထားသော မော်ဒယ်ကို သင်အသုံးပြုနိုင်ခဲ့ပါပြီ!
+ဂုဏ်ယူပါတယ်! Azure ML SDK ကို အသုံးပြု၍ Azure ML တွင် train လုပ်ပြီး deploy လုပ်ထားသော model ကို သင်အသုံးပြုနိုင်ခဲ့ပါပြီ!
 
-> **_NOTE:_** သင်၏ project ကို ပြီးမြောက်သွားသောအခါတွင် resource အားလုံးကို မေ့မလွဲဖျက်ပစ်ပါ။
+> **_NOTE:_** သင်၏ project ကို ပြီးဆုံးသောအခါတွင် resource အားလုံးကို မမေ့ပါနှင့် delete လုပ်ပါ။
 
 ## 🚀 စိန်ခေါ်မှု
 
-SDK ကို အသုံးပြု၍ ပြုလုပ်နိုင်သော အခြားအရာများစွာရှိပါသေးသည်။ သို့သော် အကောင်းဆုံး သင်ခန်းစာတွင် အားလုံးကို မဖော်ပြနိုင်ပါ။ ကောင်းသော သတင်းကတော့ SDK documentation ကို လေ့လာသင်ယူခြင်းဖြင့် သင်ကိုယ်တိုင်အတွက် အတော်လေးအထောက်အကူဖြစ်စေမည်ဖြစ်သည်။ Azure ML SDK documentation ကို ကြည့်ပြီး `Pipeline` class ကို ရှာဖွေပါ။ Pipeline သည် workflow အနေဖြင့် အဆင့်ဆင့်အဆောင်အဆောင်များကို စီစဉ်နိုင်သော collection ဖြစ်သည်။
+SDK မှတဆင့် ပြုလုပ်နိုင်သော အခြားအရာများစွာရှိပါသေးသည်။ သို့သော် အကောင်းတစ်ခုကတော့ ဤသင်ခန်းစာတွင် အားလုံးကို မဖော်ပြနိုင်သော်လည်း SDK documentation ကို လေ့လာသင်ယူခြင်းဖြင့် သင်ကိုယ်တိုင်အတွက် အတော်လေးအထောက်အကူဖြစ်စေမည်ဖြစ်သည်။ Azure ML SDK documentation ကို ကြည့်ပြီး `Pipeline` class ကို ရှာဖွေပါ။ Pipeline သည် workflow အနေဖြင့် အဆင့်ဆင့်အလုပ်များကို စနစ်တကျ အကောင်အထည်ဖော်နိုင်သော collection ဖြစ်သည်။
 
-**HINT:** [SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) သို့ သွားပြီး "Pipeline" ကဲ့သို့သော keyword များကို ရှာဖွေပါ။ သင်သည် `azureml.pipeline.core.Pipeline` class ကို ရလဒ်များတွင် တွေ့ရမည်ဖြစ်သည်။
+**HINT:** [SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) သို့ သွားပြီး "Pipeline" ကဲ့သို့သော keyword များကို ရှာဖွေပါ။ `azureml.pipeline.core.Pipeline` class ကို ရလဒ်များတွင် တွေ့ရမည်ဖြစ်သည်။
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/37)
 
 ## ပြန်လည်သုံးသပ်ခြင်းနှင့် ကိုယ်တိုင်လေ့လာခြင်း
 
-ဤသင်ခန်းစာတွင် သင်သည် Azure ML SDK ကို cloud ပေါ်တွင် အသုံးပြု၍ နှလုံးရောဂါဖြစ်နိုင်ခြေကို ခန့်မှန်းရန် မော်ဒယ်ကို သင်တန်းပေး၊ deploy လုပ်ခြင်းနှင့် အသုံးပြုခြင်းကို လေ့လာခဲ့ပါသည်။ Azure ML SDK အကြောင်းကို ပိုမိုသိရှိရန် [documentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) ကို ကြည့်ပါ။ Azure ML SDK ကို အသုံးပြု၍ သင်၏ကိုယ်ပိုင်မော်ဒယ်ကို ဖန်တီးကြည့်ပါ။
+ဤသင်ခန်းစာတွင် သင်သည် Azure ML SDK ကို cloud တွင် အသုံးပြု၍ နှလုံးရောဂါဖြစ်နိုင်ခြေကို ခန့်မှန်းရန် model ကို train လုပ်ခြင်း၊ deploy လုပ်ခြင်းနှင့် အသုံးပြုခြင်းကို သင်ယူခဲ့ပါသည်။ Azure ML SDK အကြောင်း အခြားသော အချက်အလက်များကို သိရှိရန် [documentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) ကို ကြည့်ပါ။ Azure ML SDK ကို အသုံးပြု၍ သင်၏ကိုယ်ပိုင် model ကို ဖန်တီးကြည့်ပါ။
 
-## အိမ်စာ
+## လုပ်ငန်းတာဝန်
 
-[Azure ML SDK ကို အသုံးပြု၍ Data Science project](assignment.md)
+[Azure ML SDK ကို အသုံးပြုသော Data Science project](assignment.md)
 
 ---
 
 **အကြောင်းကြားချက်**:  
-ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်မှုများတွင် အမှားများ သို့မဟုတ် မတိကျမှုများ ပါဝင်နိုင်သည်ကို သတိပြုပါ။ မူရင်းဘာသာစကားဖြင့် ရေးသားထားသော စာရွက်စာတမ်းကို အာဏာရှိသော ရင်းမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူ့ဘာသာပြန်ပညာရှင်များမှ ပရော်ဖက်ရှင်နယ် ဘာသာပြန်မှုကို အကြံပြုပါသည်။ ဤဘာသာပြန်မှုကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော အလွဲအမှားများ သို့မဟုတ် အနားယူမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။
+ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်မှုများတွင် အမှားများ သို့မဟုတ် မတိကျမှုများ ပါရှိနိုင်သည်ကို သတိပြုပါ။ မူရင်းဘာသာစကားဖြင့် ရေးသားထားသော စာရွက်စာတမ်းကို အာဏာရှိသော ရင်းမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူ့ဘာသာပြန်ပညာရှင်များမှ ပရော်ဖက်ရှင်နယ် ဘာသာပြန်မှုကို အကြံပြုပါသည်။ ဤဘာသာပြန်မှုကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော အလွဲအလွတ်များ သို့မဟုတ် အနားလွဲမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။

@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "02ce904bc1e2bfabb7dc05c25aae375c",
-  "translation_date": "2025-09-05T05:50:07+00:00",
+  "original_hash": "80a20467e046d312809d008395051fc7",
+  "translation_date": "2025-09-05T18:11:39+00:00",
   "source_file": "3-Data-Visualization/10-visualization-distributions/README.md",
   "language_code": "sk"
 }
@@ -13,9 +13,9 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Vizualizácia distribúcií - _Sketchnote od [@nitya](https://twitter.com/nitya)_ |
 
-V predchádzajúcej lekcii ste sa dozvedeli niekoľko zaujímavých faktov o dátach o vtákoch z Minnesoty. Našli ste chybné údaje vizualizáciou odľahlých hodnôt a pozreli ste sa na rozdiely medzi kategóriami vtákov podľa ich maximálnej dĺžky.
+V predchádzajúcej lekcii ste sa dozvedeli niekoľko zaujímavých faktov o dátach týkajúcich sa vtákov z Minnesoty. Objavili ste chybné údaje vizualizáciou odľahlých hodnôt a pozreli ste sa na rozdiely medzi kategóriami vtákov podľa ich maximálnej dĺžky.
 
-## [Kvíz pred prednáškou](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/18)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ds/quiz/18)
 ## Preskúmajte dataset vtákov
 
 Ďalším spôsobom, ako sa ponoriť do dát, je pozrieť sa na ich distribúciu, teda na to, ako sú údaje usporiadané pozdĺž osi. Možno by ste napríklad chceli zistiť všeobecnú distribúciu maximálneho rozpätia krídel alebo maximálnej telesnej hmotnosti vtákov z Minnesoty v tomto datasete.
@@ -48,13 +48,12 @@ plt.xlabel('Max Length')
 
 plt.show()
 ```
-![maximálna dĺžka podľa radu](../../../../3-Data-Visualization/10-visualization-distributions/images/scatter-wb.png)
+![max dĺžka podľa radu](../../../../3-Data-Visualization/10-visualization-distributions/images/scatter-wb.png)
 
-Tento graf poskytuje prehľad o všeobecnej distribúcii dĺžky tela podľa radu vtákov, ale nie je to optimálny spôsob zobrazenia skutočných distribúcií. Táto úloha sa zvyčajne rieši vytvorením histogramu.
-
+Toto poskytuje prehľad o všeobecnej distribúcii dĺžky tela podľa radu vtákov, ale nie je to optimálny spôsob zobrazenia skutočných distribúcií. Na tento účel sa zvyčajne používa histogram.
 ## Práca s histogramami
 
-Matplotlib ponúka veľmi dobré spôsoby vizualizácie distribúcie dát pomocou histogramov. Tento typ grafu je podobný stĺpcovému grafu, kde distribúciu možno vidieť prostredníctvom vzostupu a poklesu stĺpcov. Na vytvorenie histogramu potrebujete číselné údaje. Na vytvorenie histogramu môžete vytvoriť graf, kde definujete typ ako 'hist' pre histogram. Tento graf ukazuje distribúciu MaxBodyMass pre celý rozsah číselných údajov datasetu. Rozdelením poľa dát na menšie intervaly (bins) môže zobraziť distribúciu hodnôt dát:
+Matplotlib ponúka veľmi dobré spôsoby vizualizácie distribúcie dát pomocou histogramov. Tento typ grafu je podobný stĺpcovému grafu, kde distribúciu možno vidieť prostredníctvom stúpania a klesania stĺpcov. Na vytvorenie histogramu potrebujete numerické údaje. Na vytvorenie histogramu môžete nakresliť graf, kde definujete typ ako 'hist' pre histogram. Tento graf ukazuje distribúciu MaxBodyMass pre celý rozsah numerických dát v datasete. Rozdelením poľa dát na menšie intervaly (bins) môže zobraziť distribúciu hodnôt dát:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
@@ -70,9 +69,9 @@ plt.show()
 ```
 ![distribúcia v celom datasete s väčším parametrom bins](../../../../3-Data-Visualization/10-visualization-distributions/images/dist2-wb.png)
 
-Tento graf ukazuje distribúciu trochu podrobnejšie. Menej skreslený graf by sa dal vytvoriť tým, že by ste vybrali iba údaje v danom rozsahu:
+Tento graf ukazuje distribúciu trochu podrobnejšie. Graf menej skreslený doľava by sa dal vytvoriť tým, že by ste vybrali iba dáta v danom rozsahu:
 
-Filtrovať svoje dáta tak, aby obsahovali iba vtáky, ktorých telesná hmotnosť je pod 60, a zobraziť 40 `bins`:
+Filtrovať svoje dáta tak, aby ste získali iba tie vtáky, ktorých telesná hmotnosť je pod 60, a zobraziť 40 `bins`:
 
 ```python
 filteredBirds = birds[(birds['MaxBodyMass'] > 1) & (birds['MaxBodyMass'] < 60)]      
@@ -98,10 +97,10 @@ Zdá sa, že existuje očakávaná korelácia medzi týmito dvoma prvkami pozdĺ
 
 ![2D graf](../../../../3-Data-Visualization/10-visualization-distributions/images/2D-wb.png)
 
-Histogramy fungujú dobre predvolene pre číselné údaje. Čo ak potrebujete vidieť distribúcie podľa textových údajov? 
+Histogramy fungujú dobre predvolene pre numerické údaje. Čo ak potrebujete vidieť distribúcie podľa textových údajov? 
 ## Preskúmajte dataset pre distribúcie pomocou textových údajov 
 
-Tento dataset obsahuje aj dobré informácie o kategórii vtákov, ich rode, druhu a čeľadi, ako aj o ich stave ochrany. Poďme sa ponoriť do informácií o stave ochrany. Aká je distribúcia vtákov podľa ich stavu ochrany?
+Tento dataset obsahuje aj dobré informácie o kategórii vtákov, ich rode, druhu, čeľadi, ako aj o ich stave ochrany. Poďme sa ponoriť do informácií o stave ochrany. Aká je distribúcia vtákov podľa ich stavu ochrany?
 
 > ✅ V datasete sa používajú rôzne skratky na opis stavu ochrany. Tieto skratky pochádzajú z [IUCN Red List Categories](https://www.iucnredlist.org/), organizácie, ktorá katalogizuje stav druhov.
 > 
@@ -141,7 +140,7 @@ Zdá sa, že neexistuje dobrá korelácia medzi minimálnym rozpätím krídel a
 
 ## Hustotné grafy
 
-Možno ste si všimli, že histogramy, ktoré sme doteraz videli, sú 'krokové' a neplynú hladko v oblúku. Na zobrazenie hladšieho hustotného grafu môžete vyskúšať hustotný graf.
+Možno ste si všimli, že histogramy, ktoré sme doteraz videli, sú "krokové" a neplynú hladko v oblúku. Na zobrazenie hladšieho hustotného grafu môžete vyskúšať hustotný graf.
 
 Na prácu s hustotnými grafmi sa oboznámte s novou knižnicou na tvorbu grafov, [Seaborn](https://seaborn.pydata.org/generated/seaborn.kdeplot.html). 
 
@@ -173,7 +172,7 @@ plt.show()
 ```
 ![menej hladká čiara telesnej hmotnosti](../../../../3-Data-Visualization/10-visualization-distributions/images/density3.png)
 
-✅ Prečítajte si o parametroch dostupných pre tento typ grafu a experimentujte!
+✅ Prečítajte si o dostupných parametroch pre tento typ grafu a experimentujte!
 
 Tento typ grafu ponúka krásne vysvetľujúce vizualizácie. S niekoľkými riadkami kódu môžete napríklad zobraziť hustotu maximálnej telesnej hmotnosti podľa radu vtákov:
 
@@ -187,7 +186,7 @@ sns.kdeplot(
 
 ![telesná hmotnosť podľa radu](../../../../3-Data-Visualization/10-visualization-distributions/images/density4.png)
 
-Môžete tiež mapovať hustotu viacerých premenných v jednom grafe. Porovnajte MaxLength a MinLength vtáka podľa ich stavu ochrany:
+Môžete tiež mapovať hustotu viacerých premenných v jednom grafe. Skúste porovnať MaxLength a MinLength vtákov podľa ich stavu ochrany:
 
 ```python
 sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationStatus")
@@ -195,17 +194,17 @@ sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationS
 
 ![viac hustôt, prekryté](../../../../3-Data-Visualization/10-visualization-distributions/images/multi.png)
 
-Možno stojí za preskúmanie, či je zhluk 'Zraniteľných' vtákov podľa ich dĺžok významný alebo nie.
+Možno stojí za to preskúmať, či je zhluk "Zraniteľných" vtákov podľa ich dĺžok významný alebo nie.
 
 ## 🚀 Výzva
 
 Histogramy sú sofistikovanejší typ grafu ako základné bodové grafy, stĺpcové grafy alebo čiarové grafy. Vyhľadajte na internete dobré príklady použitia histogramov. Ako sa používajú, čo demonštrujú a v akých oblastiach alebo oblastiach výskumu sa zvyčajne používajú?
 
-## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ds/)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ds/quiz/19)
 
 ## Prehľad a samostatné štúdium
 
-V tejto lekcii ste použili Matplotlib a začali pracovať so Seaborn na vytváranie sofistikovanejších grafov. Urobte si výskum o `kdeplot` v Seaborn, "kontinuálna krivka hustoty pravdepodobnosti v jednej alebo viacerých dimenziách". Prečítajte si [dokumentáciu](https://seaborn.pydata.org/generated/seaborn.kdeplot.html), aby ste pochopili, ako funguje.
+V tejto lekcii ste použili Matplotlib a začali pracovať so Seaborn na zobrazenie sofistikovanejších grafov. Urobte si výskum o `kdeplot` v Seaborn, "kontinuálna krivka hustoty pravdepodobnosti v jednej alebo viacerých dimenziách". Prečítajte si [dokumentáciu](https://seaborn.pydata.org/generated/seaborn.kdeplot.html), aby ste pochopili, ako funguje.
 
 ## Zadanie
 
@@ -214,4 +213,4 @@ V tejto lekcii ste použili Matplotlib a začali pracovať so Seaborn na vytvár
 ---
 
 **Upozornenie**:  
-Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Aj keď sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho pôvodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nie sme zodpovední za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Hoci sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho rodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nenesieme zodpovednosť za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.

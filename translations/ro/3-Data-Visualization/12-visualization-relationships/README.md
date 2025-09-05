@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "b29e427401499e81f4af55a8c4afea76",
-  "translation_date": "2025-09-05T05:35:39+00:00",
+  "original_hash": "44de95649fcec43643cbe3962f904331",
+  "translation_date": "2025-09-05T18:28:33+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "ro"
 }
@@ -15,17 +15,17 @@ CO_OP_TRANSLATOR_METADATA:
 
 Continuând cu accentul pe natură al cercetării noastre, să descoperim vizualizări interesante pentru a arăta relațiile dintre diferite tipuri de miere, conform unui set de date derivat de la [Departamentul de Agricultură al Statelor Unite](https://www.nass.usda.gov/About_NASS/index.php). 
 
-Acest set de date, care conține aproximativ 600 de elemente, prezintă producția de miere în multe state din SUA. De exemplu, poți analiza numărul de colonii, randamentul per colonie, producția totală, stocurile, prețul pe kilogram și valoarea mierii produse într-un anumit stat între anii 1998-2012, cu un rând pentru fiecare an din fiecare stat. 
+Acest set de date, care conține aproximativ 600 de elemente, prezintă producția de miere în multe state din SUA. De exemplu, poți analiza numărul de colonii, randamentul per colonie, producția totală, stocurile, prețul pe kilogram și valoarea mierii produse într-un anumit stat între anii 1998-2012, cu câte un rând pe an pentru fiecare stat. 
 
 Va fi interesant să vizualizăm relația dintre producția anuală a unui stat și, de exemplu, prețul mierii în acel stat. Alternativ, ai putea vizualiza relația dintre randamentul mierii per colonie în diferite state. Această perioadă acoperă devastatorul fenomen 'CCD' sau 'Colony Collapse Disorder', observat pentru prima dată în 2006 (http://npic.orst.edu/envir/ccd.html), ceea ce face ca acest set de date să fie unul emoționant de studiat. 🐝
 
-## [Chestionar înainte de lecție](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/22)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ds/quiz/22)
 
-În această lecție, poți folosi Seaborn, pe care l-ai utilizat anterior, ca o bibliotecă excelentă pentru a vizualiza relațiile dintre variabile. Este deosebit de interesantă funcția `relplot` din Seaborn, care permite realizarea de diagrame de dispersie și diagrame liniare pentru a vizualiza rapid '[relațiile statistice](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', ajutând astfel specialistul în date să înțeleagă mai bine cum se raportează variabilele între ele.
+În această lecție, poți folosi Seaborn, pe care l-ai utilizat anterior, ca o bibliotecă excelentă pentru a vizualiza relațiile dintre variabile. Este deosebit de interesantă funcția `relplot` din Seaborn, care permite realizarea de scatter plots și line plots pentru a vizualiza rapid '[relațiile statistice](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', ajutând astfel data scientist-ul să înțeleagă mai bine cum se relaționează variabilele între ele.
 
-## Diagrame de dispersie
+## Scatterplots
 
-Folosește o diagramă de dispersie pentru a arăta cum a evoluat prețul mierii, an după an, în fiecare stat. Seaborn, utilizând `relplot`, grupează convenabil datele pe state și afișează puncte de date atât pentru date categorice, cât și pentru date numerice. 
+Folosește un scatterplot pentru a arăta cum a evoluat prețul mierii, an de an, în fiecare stat. Seaborn, utilizând `relplot`, grupează convenabil datele pe state și afișează puncte de date atât pentru date categorice, cât și pentru date numerice. 
 
 Să începem prin importarea datelor și a bibliotecii Seaborn:
 
@@ -46,14 +46,14 @@ Observi că datele despre miere au mai multe coloane interesante, inclusiv anul 
 | CA    | 450000 | 83          | 37350000  | 12326000 | 0.62       | 23157000  | 1998 |
 | CO    | 27000  | 72          | 1944000   | 1594000  | 0.7        | 1361000   | 1998 |
 
-Creează o diagramă de dispersie de bază pentru a arăta relația dintre prețul pe kilogram al mierii și statul de origine al acesteia. Fă axa `y` suficient de înaltă pentru a afișa toate statele:
+Creează un scatterplot de bază pentru a arăta relația dintre prețul pe kilogram al mierii și statul de origine al acesteia. Fă ca axa `y` să fie suficient de înaltă pentru a afișa toate statele:
 
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
 ![scatterplot 1](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter1.png)
 
-Acum, afișează aceleași date cu o schemă de culori inspirată de miere pentru a arăta cum evoluează prețul de-a lungul anilor. Poți face acest lucru adăugând un parametru 'hue' pentru a arăta schimbarea, an după an:
+Acum, arată aceleași date cu o schemă de culori inspirată de miere pentru a evidenția cum evoluează prețul de-a lungul anilor. Poți face acest lucru adăugând un parametru 'hue' pentru a arăta schimbarea, an de an:
 
 > ✅ Află mai multe despre [paletele de culori pe care le poți folosi în Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) - încearcă o frumoasă schemă de culori curcubeu!
 
@@ -62,7 +62,7 @@ sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey,
 ```
 ![scatterplot 2](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter2.png)
 
-Cu această schimbare de schemă de culori, poți observa clar o progresie puternică de-a lungul anilor în ceea ce privește prețul mierii pe kilogram. De fapt, dacă analizezi un set de date de probă pentru verificare (alege un stat, Arizona, de exemplu), poți vedea un model de creștere a prețului an după an, cu câteva excepții:
+Cu această schimbare de schemă de culori, poți observa clar o progresie puternică de-a lungul anilor în ceea ce privește prețul mierii pe kilogram. De fapt, dacă analizezi un set de date exemplu pentru verificare (alege un stat, Arizona de exemplu), poți vedea un model de creștere a prețului an de an, cu câteva excepții:
 
 | stat | numcol | yieldpercol | totalprod | stocks  | priceperlb | prodvalue | year |
 | ----- | ------ | ----------- | --------- | ------- | ---------- | --------- | ---- |
@@ -91,13 +91,13 @@ Poți observa cum dimensiunea punctelor crește treptat.
 
 ![scatterplot 3](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter3.png)
 
-Este acesta un caz simplu de cerere și ofertă? Din cauza unor factori precum schimbările climatice și colapsul coloniilor, există mai puțină miere disponibilă pentru cumpărare an după an, iar astfel prețul crește?
+Este acesta un caz simplu de cerere și ofertă? Din cauza unor factori precum schimbările climatice și colapsul coloniilor, există mai puțină miere disponibilă pentru cumpărare an de an, iar astfel prețul crește?
 
-Pentru a descoperi o corelație între unele dintre variabilele din acest set de date, să explorăm câteva diagrame liniare.
+Pentru a descoperi o corelație între unele dintre variabilele din acest set de date, să explorăm câteva grafice de tip linie.
 
-## Diagrame liniare
+## Grafice de tip linie
 
-Întrebare: Există o creștere clară a prețului mierii pe kilogram an după an? Poți descoperi acest lucru cel mai ușor prin crearea unei singure diagrame liniare:
+Întrebare: Există o creștere clară a prețului mierii pe kilogram an de an? Poți descoperi acest lucru cel mai ușor prin crearea unui singur grafic de tip linie:
 
 ```python
 sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
@@ -106,9 +106,9 @@ Răspuns: Da, cu câteva excepții în jurul anului 2003:
 
 ![line chart 1](../../../../3-Data-Visualization/12-visualization-relationships/images/line1.png)
 
-✅ Deoarece Seaborn agregă datele într-o singură linie, afișează "măsurătorile multiple pentru fiecare valoare x prin reprezentarea mediei și a intervalului de încredere de 95% în jurul mediei". [Sursa](https://seaborn.pydata.org/tutorial/relational.html). Acest comportament consumator de timp poate fi dezactivat prin adăugarea `ci=None`.
+✅ Deoarece Seaborn agregă datele în jurul unei singure linii, afișează "măsurătorile multiple pentru fiecare valoare x prin reprezentarea mediei și a intervalului de încredere de 95% în jurul mediei". [Sursă](https://seaborn.pydata.org/tutorial/relational.html). Acest comportament consumator de timp poate fi dezactivat prin adăugarea `ci=None`.
 
-Întrebare: Ei bine, în 2003 putem observa și o creștere a ofertei de miere? Ce se întâmplă dacă analizezi producția totală an după an?
+Întrebare: Ei bine, în 2003 putem observa și o creștere a cantității de miere? Ce se întâmplă dacă analizezi producția totală an de an?
 
 ```python
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
@@ -120,13 +120,13 @@ Răspuns: Nu chiar. Dacă analizezi producția totală, pare să fi crescut în 
 
 Întrebare: În acest caz, ce ar fi putut cauza acea creștere a prețului mierii în jurul anului 2003? 
 
-Pentru a descoperi acest lucru, poți explora o grilă de fațete.
+Pentru a descoperi acest lucru, poți explora un facet grid.
 
-## Grile de fațete
+## Facet grids
 
-Grilele de fațete iau un aspect al setului tău de date (în cazul nostru, poți alege 'anul' pentru a evita producerea prea multor fațete). Seaborn poate apoi să creeze un grafic pentru fiecare dintre aceste fațete ale coordonatelor x și y alese, pentru o comparație mai ușoară. Se remarcă anul 2003 în acest tip de comparație?
+Facet grids iau un aspect al setului tău de date (în cazul nostru, poți alege 'anul' pentru a evita producerea unui număr prea mare de aspecte). Seaborn poate apoi să creeze un grafic pentru fiecare dintre aceste aspecte ale coordonatelor x și y alese, pentru o comparație mai ușoară. Se remarcă anul 2003 în acest tip de comparație?
 
-Creează o grilă de fațete continuând să folosești `relplot`, așa cum este recomandat de [documentația Seaborn](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid). 
+Creează un facet grid continuând să folosești `relplot`, așa cum este recomandat de [documentația Seaborn](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid). 
 
 ```python
 sns.relplot(
@@ -136,15 +136,15 @@ sns.relplot(
     col_wrap=3,
     kind="line"
 ```
-În această vizualizare, poți compara randamentul per colonie și numărul de colonii an după an, unul lângă altul, cu o împărțire setată la 3 pentru coloane:
+În această vizualizare, poți compara randamentul per colonie și numărul de colonii an de an, unul lângă altul, cu wrap setat la 3 pentru coloane:
 
 ![facet grid](../../../../3-Data-Visualization/12-visualization-relationships/images/facet.png)
 
-Pentru acest set de date, nimic nu pare să iasă în evidență în ceea ce privește numărul de colonii și randamentul acestora, an după an și stat după stat. Există o altă modalitate de a găsi o corelație între aceste două variabile?
+Pentru acest set de date, nimic nu pare să iasă în evidență în ceea ce privește numărul de colonii și randamentul acestora, an de an și stat cu stat. Există o altă modalitate de a găsi o corelație între aceste două variabile?
 
-## Diagrame cu linii suprapuse
+## Grafice cu linii suprapuse
 
-Încearcă o diagramă cu linii multiple prin suprapunerea a două diagrame liniare una peste alta, folosind funcția 'despine' din Seaborn pentru a elimina marginile de sus și de dreapta și utilizând `ax.twinx` [derivată din Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx permite unui grafic să împartă axa x și să afișeze două axe y. Așadar, afișează randamentul per colonie și numărul de colonii, suprapuse:
+Încearcă un grafic cu linii multiple prin suprapunerea a două grafice de tip linie unul peste altul, folosind funcția 'despine' din Seaborn pentru a elimina spinii de sus și din dreapta, și utilizând `ax.twinx` [derivat din Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx permite unui grafic să împartă axa x și să afișeze două axe y. Așadar, afișează randamentul per colonie și numărul de colonii, suprapuse:
 
 ```python
 fig, ax = plt.subplots(figsize=(12,6))
@@ -170,13 +170,13 @@ Hai, albine, hai!
 🐝❤️
 ## 🚀 Provocare
 
-În această lecție, ai învățat puțin mai multe despre alte utilizări ale diagramelor de dispersie și grilelor liniare, inclusiv grilele de fațete. Provocarea ta este să creezi o grilă de fațete folosind un alt set de date, poate unul pe care l-ai utilizat anterior în aceste lecții. Observă cât timp durează să o creezi și cât de atent trebuie să fii în privința numărului de grile pe care trebuie să le desenezi folosind aceste tehnici.
+În această lecție, ai învățat mai multe despre alte utilizări ale scatterplots și line grids, inclusiv facet grids. Provocarea ta este să creezi un facet grid folosind un alt set de date, poate unul pe care l-ai utilizat înainte de aceste lecții. Observă cât timp durează să îl creezi și cât de atent trebuie să fii în privința numărului de grile pe care trebuie să le desenezi folosind aceste tehnici.
 
-## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ds/)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ds/quiz/23)
 
 ## Recapitulare & Studiu Individual
 
-Diagramele liniare pot fi simple sau destul de complexe. Citește puțin în [documentația Seaborn](https://seaborn.pydata.org/generated/seaborn.lineplot.html) despre diferitele moduri în care le poți construi. Încearcă să îmbunătățești diagramele liniare pe care le-ai construit în această lecție cu alte metode listate în documentație.
+Graficele de tip linie pot fi simple sau destul de complexe. Citește puțin în [documentația Seaborn](https://seaborn.pydata.org/generated/seaborn.lineplot.html) despre diferitele moduri în care le poți construi. Încearcă să îmbunătățești graficele de tip linie pe care le-ai construit în această lecție cu alte metode listate în documentație.
 ## Temă
 
 [Explorează stupul](assignment.md)

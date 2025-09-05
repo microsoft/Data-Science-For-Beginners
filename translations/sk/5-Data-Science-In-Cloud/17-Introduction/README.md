@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "6a0556b17de4c8d1a9470b02247b01d4",
-  "translation_date": "2025-09-05T05:40:45+00:00",
+  "original_hash": "5f8e7cdefa096664ae86f795be571580",
+  "translation_date": "2025-09-05T18:01:24+00:00",
   "source_file": "5-Data-Science-In-Cloud/17-Introduction/README.md",
   "language_code": "sk"
 }
@@ -13,25 +13,25 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Dátová veda v cloude: Úvod - _Sketchnote od [@nitya](https://twitter.com/nitya)_ |
 
-V tejto lekcii sa naučíte základné princípy cloudu, dozviete sa, prečo môže byť zaujímavé používať cloudové služby na realizáciu vašich projektov dátovej vedy, a pozrieme sa na niekoľko príkladov projektov dátovej vedy realizovaných v cloude.
+V tejto lekcii sa naučíte základné princípy cloudu, zistíte, prečo môže byť zaujímavé používať cloudové služby na realizáciu vašich projektov dátovej vedy, a pozrieme sa na niekoľko príkladov projektov dátovej vedy realizovaných v cloude.
 
-## [Kvíz pred prednáškou](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/32)
+## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ds/quiz/32)
 
 ## Čo je cloud?
 
-Cloud, alebo cloud computing, je poskytovanie širokej škály výpočtových služieb na báze platby za používanie, ktoré sú hostované na infraštruktúre cez internet. Služby zahŕňajú riešenia ako úložisko, databázy, sieťovanie, softvér, analytiku a inteligentné služby.
+Cloud, alebo cloud computing, je poskytovanie širokej škály výpočtových služieb na báze platby za použitie, ktoré sú hostované na infraštruktúre cez internet. Služby zahŕňajú riešenia ako úložiská, databázy, siete, softvér, analytiku a inteligentné služby.
 
 Zvyčajne rozlišujeme verejný, súkromný a hybridný cloud nasledovne:
 
 * Verejný cloud: verejný cloud je vlastnený a prevádzkovaný treťou stranou poskytovateľa cloudových služieb, ktorý poskytuje svoje výpočtové zdroje cez internet verejnosti.
-* Súkromný cloud: označuje výpočtové zdroje cloudu používané výhradne jednou firmou alebo organizáciou, pričom služby a infraštruktúra sú udržiavané na súkromnej sieti.
+* Súkromný cloud: označuje výpočtové zdroje cloudu používané výlučne jednou firmou alebo organizáciou, pričom služby a infraštruktúra sú udržiavané na súkromnej sieti.
 * Hybridný cloud: hybridný cloud je systém, ktorý kombinuje verejný a súkromný cloud. Používatelia si vyberajú dátové centrum na mieste, pričom umožňujú, aby dáta a aplikácie bežali na jednom alebo viacerých verejných cloudoch.
 
 Väčšina služieb cloud computingu spadá do troch kategórií: infraštruktúra ako služba (IaaS), platforma ako služba (PaaS) a softvér ako služba (SaaS).
 
-* Infraštruktúra ako služba (IaaS): používatelia si prenajímajú IT infraštruktúru, ako sú servery a virtuálne stroje (VMs), úložisko, siete, operačné systémy.
-* Platforma ako služba (PaaS): používatelia si prenajímajú prostredie na vývoj, testovanie, doručovanie a správu softvérových aplikácií. Nemusia sa starať o nastavenie alebo správu základnej infraštruktúry serverov, úložiska, siete a databáz potrebných na vývoj.
-* Softvér ako služba (SaaS): používatelia získavajú prístup k softvérovým aplikáciám cez internet, na požiadanie a zvyčajne na základe predplatného. Nemusia sa starať o hosting a správu softvérovej aplikácie, základnej infraštruktúry ani údržbu, ako sú aktualizácie softvéru a bezpečnostné záplaty.
+* Infraštruktúra ako služba (IaaS): používatelia si prenajímajú IT infraštruktúru, ako sú servery a virtuálne stroje (VMs), úložiská, siete, operačné systémy.
+* Platforma ako služba (PaaS): používatelia si prenajímajú prostredie na vývoj, testovanie, doručovanie a správu softvérových aplikácií. Nemusia sa starať o nastavenie alebo správu základnej infraštruktúry serverov, úložísk, sietí a databáz potrebných na vývoj.
+* Softvér ako služba (SaaS): používatelia získavajú prístup k softvérovým aplikáciám cez internet, na požiadanie a zvyčajne na základe predplatného. Nemusia sa starať o hosting a správu softvérovej aplikácie, základnej infraštruktúry alebo údržby, ako sú aktualizácie softvéru a bezpečnostné záplaty.
 
 Niektorí z najväčších poskytovateľov cloudu sú Amazon Web Services, Google Cloud Platform a Microsoft Azure.
 
@@ -40,11 +40,11 @@ Niektorí z najväčších poskytovateľov cloudu sú Amazon Web Services, Googl
 Vývojári a IT profesionáli si vyberajú prácu s cloudom z mnohých dôvodov, vrátane nasledujúcich:
 
 * Inovácie: môžete poháňať svoje aplikácie integráciou inovatívnych služieb vytvorených poskytovateľmi cloudu priamo do svojich aplikácií.
-* Flexibilita: platíte len za služby, ktoré potrebujete, a môžete si vybrať zo širokej škály služieb. Zvyčajne platíte podľa používania a prispôsobujete svoje služby podľa svojich meniacich sa potrieb.
+* Flexibilita: platíte len za služby, ktoré potrebujete, a môžete si vybrať zo širokej škály služieb. Zvyčajne platíte podľa potreby a prispôsobujete svoje služby podľa svojich meniacich sa potrieb.
 * Rozpočet: nemusíte robiť počiatočné investície na nákup hardvéru a softvéru, nastavenie a prevádzku dátových centier na mieste, a môžete jednoducho platiť za to, čo používate.
 * Škálovateľnosť: vaše zdroje sa môžu škálovať podľa potrieb vášho projektu, čo znamená, že vaše aplikácie môžu používať viac alebo menej výpočtového výkonu, úložiska a šírky pásma, prispôsobujúc sa externým faktorom v danom čase.
 * Produktivita: môžete sa sústrediť na svoje podnikanie namiesto trávenia času na úlohách, ktoré môže spravovať niekto iný, ako je správa dátových centier.
-* Spoľahlivosť: cloud computing ponúka niekoľko spôsobov, ako neustále zálohovať vaše dáta, a môžete nastaviť plány obnovy po havárii, aby vaše podnikanie a služby pokračovali aj v čase krízy.
+* Spoľahlivosť: cloud computing ponúka niekoľko spôsobov, ako nepretržite zálohovať vaše dáta, a môžete nastaviť plány obnovy po havárii, aby vaše podnikanie a služby pokračovali aj v čase krízy.
 * Bezpečnosť: môžete využívať politiky, technológie a kontroly, ktoré posilňujú bezpečnosť vášho projektu.
 
 Toto sú niektoré z najbežnejších dôvodov, prečo sa ľudia rozhodujú používať cloudové služby. Teraz, keď máme lepšie pochopenie toho, čo je cloud a aké sú jeho hlavné výhody, pozrime sa konkrétnejšie na prácu dátových vedcov a vývojárov pracujúcich s dátami, a ako im cloud môže pomôcť s viacerými výzvami, ktorým môžu čeliť:
@@ -57,21 +57,21 @@ Toto sú niektoré z najbežnejších dôvodov, prečo sa ľudia rozhodujú pou�
 
 ## Príklady dátovej vedy v cloude
 
-Pozrime sa na niekoľko scenárov, aby sme si to predstavili konkrétnejšie.
+Pozrime sa na niekoľko scenárov, aby sme si to urobili konkrétnejšie.
 
 ### Analýza sentimentu na sociálnych sieťach v reálnom čase
 Začneme scenárom, ktorý je často študovaný ľuďmi začínajúcimi so strojovým učením: analýza sentimentu na sociálnych sieťach v reálnom čase.
 
-Predstavte si, že prevádzkujete webovú stránku spravodajských médií a chcete využiť živé dáta na pochopenie toho, aký obsah by mohol zaujímať vašich čitateľov. Aby ste sa o tom dozvedeli viac, môžete vytvoriť program, ktorý vykonáva analýzu sentimentu v reálnom čase na dátach z Twitteru, na témy, ktoré sú relevantné pre vašich čitateľov.
+Predstavte si, že prevádzkujete webovú stránku spravodajských médií a chcete využiť živé dáta na pochopenie toho, aký obsah by mohol zaujímať vašich čitateľov. Aby ste o tom vedeli viac, môžete vytvoriť program, ktorý vykonáva analýzu sentimentu v reálnom čase na dátach z publikácií na Twitteri, na témy, ktoré sú relevantné pre vašich čitateľov.
 
 Kľúčové ukazovatele, na ktoré sa budete pozerať, sú objem tweetov na konkrétne témy (hashtagy) a sentiment, ktorý sa určuje pomocou analytických nástrojov vykonávajúcich analýzu sentimentu na určené témy.
 
 Kroky potrebné na vytvorenie tohto projektu sú nasledovné:
 
-* Vytvorte hub udalostí na streamovanie vstupov, ktorý bude zbierať dáta z Twitteru.
+* Vytvorte centrum udalostí na streamovanie vstupov, ktoré bude zbierať dáta z Twitteru.
 * Nakonfigurujte a spustite aplikáciu klienta Twitteru, ktorá bude volať Twitter Streaming API.
 * Vytvorte úlohu Stream Analytics.
-* Špecifikujte vstup a dotaz úlohy.
+* Špecifikujte vstup úlohy a dotaz.
 * Vytvorte výstupný kanál a špecifikujte výstup úlohy.
 * Spustite úlohu.
 
@@ -82,7 +82,7 @@ Pozrime sa na ďalší príklad projektu vytvoreného [Dmitrym Soshnikovom](http
 
 Dmitry vytvoril nástroj, ktorý analyzuje články o COVIDe. Preskúmaním tohto projektu uvidíte, ako môžete vytvoriť nástroj, ktorý extrahuje poznatky z vedeckých článkov, získava poznatky a pomáha výskumníkom efektívne sa orientovať vo veľkých kolekciách článkov.
 
-Pozrime sa na rôzne kroky použité na tento účel:
+Pozrime sa na rôzne kroky použité na tento projekt:
 
 * Extrakcia a predspracovanie informácií pomocou [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 * Použitie [Azure ML](https://azure.microsoft.com/services/machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) na paralelizáciu spracovania.
@@ -102,7 +102,7 @@ Zdroje:
 
 ## Kvíz po prednáške
 
-## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ds/)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ds/quiz/33)
 
 ## Zadanie
 

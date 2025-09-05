@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "11b166fbcb7eaf82308cdc24b562f687",
-  "translation_date": "2025-09-05T06:28:14+00:00",
+  "original_hash": "9399d7b4767e75068f95ce5c660b285c",
+  "translation_date": "2025-09-05T17:08:07+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "sw"
 }
@@ -15,13 +15,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 Inawezekana umewahi kutumia lahajedwali hapo awali kuhifadhi taarifa. Ulikuwa na seti ya safu na nguzo, ambapo safu zilikuwa na taarifa (au data), na nguzo zilielezea taarifa hiyo (wakati mwingine huitwa metadata). Hifadhidata ya kihusiano inajengwa juu ya kanuni hii ya msingi ya nguzo na safu katika jedwali, ikikuruhusu kuwa na taarifa iliyosambazwa katika majedwali mengi. Hii inakuruhusu kufanya kazi na data ngumu zaidi, kuepuka kurudia, na kuwa na urahisi katika jinsi unavyotafuta data. Hebu tuchunguze dhana za hifadhidata ya kihusiano.
 
-## [Jaribio la kabla ya somo](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/8)
+## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
 ## Yote huanza na majedwali
 
 Hifadhidata ya kihusiano ina majedwali kama msingi wake. Kama ilivyo kwenye lahajedwali, jedwali ni mkusanyiko wa nguzo na safu. Safu ina data au taarifa tunayotaka kufanya kazi nayo, kama jina la jiji au kiasi cha mvua. Nguzo zinaelezea data wanayohifadhi.
 
-Hebu tuanze uchunguzi wetu kwa kuunda jedwali la kuhifadhi taarifa kuhusu miji. Tunaweza kuanza na majina yao na nchi zao. Unaweza kuhifadhi hii katika jedwali kama ifuatavyo:
+Hebu tuanze uchunguzi wetu kwa kuunda jedwali la kuhifadhi taarifa kuhusu miji. Tunaweza kuanza na majina yao na nchi. Unaweza kuhifadhi hii katika jedwali kama ifuatavyo:
 
 | Jiji     | Nchi          |
 | -------- | ------------- |
@@ -33,7 +33,7 @@ Angalia majina ya nguzo **jiji**, **nchi**, na **idadi ya watu** yanavyoelezea d
 
 ## Mapungufu ya mbinu ya jedwali moja
 
-Inawezekana, jedwali hapo juu linaonekana kuwa la kawaida kwako. Hebu tuanze kuongeza data ya ziada kwenye hifadhidata yetu inayokua - mvua ya kila mwaka (katika milimita). Tutazingatia miaka ya 2018, 2019, na 2020. Ikiwa tungeongeza kwa Tokyo, inaweza kuonekana kama hii:
+Inawezekana, jedwali hapo juu linaonekana kuwa la kawaida kwako. Hebu tuanze kuongeza data ya ziada kwenye hifadhidata yetu inayokua - mvua ya kila mwaka (katika milimita). Tutazingatia miaka ya 2018, 2019, na 2020. Ikiwa tungeiongeza kwa Tokyo, inaweza kuonekana kama hii:
 
 | Jiji  | Nchi   | Mwaka | Kiasi  |
 | ----- | ------ | ----- | ------ |
@@ -51,7 +51,7 @@ Sawa, hebu tujaribu kitu kingine. Hebu tuongeze nguzo mpya kwa kila mwaka:
 | Atlanta  | Marekani      | 1779 | 1111 | 1683 |
 | Auckland | New Zealand   | 1386 | 942  | 1176 |
 
-Ingawa hii inazuia kurudia safu, inaongeza changamoto nyingine. Tunahitaji kurekebisha muundo wa jedwali letu kila mara kuna mwaka mpya. Aidha, kadri data yetu inavyokua, kuwa na miaka kama nguzo kutafanya iwe ngumu zaidi kupata na kuhesabu thamani.
+Ingawa hii inazuia kurudia safu, inaongeza changamoto nyingine. Tunahitaji kubadilisha muundo wa jedwali letu kila mara kuna mwaka mpya. Aidha, data yetu inavyokua, kuwa na miaka kama nguzo itafanya iwe ngumu zaidi kupata na kuhesabu thamani.
 
 Hii ndiyo sababu tunahitaji majedwali mengi na mahusiano. Kwa kugawanya data yetu tunaweza kuepuka kurudia na kuwa na urahisi zaidi katika jinsi tunavyofanya kazi na data yetu.
 
@@ -65,7 +65,7 @@ Hebu turudi kwenye data yetu na kuamua jinsi tunavyotaka kuigawanya. Tunajua tun
 | Atlanta  | Marekani      |
 | Auckland | New Zealand   |
 
-Lakini kabla ya kuunda jedwali linalofuata, tunahitaji kujua jinsi ya kurejelea kila jiji. Tunahitaji aina fulani ya kitambulisho, ID au (katika istilahi za hifadhidata za kiufundi) funguo kuu. Funguo kuu ni thamani inayotumika kutambua safu moja maalum katika jedwali. Ingawa hii inaweza kutegemea thamani yenyewe (tunaweza kutumia jina la jiji, kwa mfano), inapaswa kuwa namba au kitambulisho kingine. Hatutaki ID ibadilike kwani itavunja uhusiano. Utakuta katika hali nyingi funguo kuu au ID itakuwa namba inayotengenezwa kiotomatiki.
+Lakini kabla ya kuunda jedwali linalofuata, tunahitaji kujua jinsi ya kurejelea kila jiji. Tunahitaji aina fulani ya kitambulisho, ID au (katika istilahi za hifadhidata za kiufundi) funguo kuu. Funguo kuu ni thamani inayotumika kutambua safu moja maalum katika jedwali. Ingawa hii inaweza kutegemea thamani yenyewe (tunaweza kutumia jina la jiji, kwa mfano), inapaswa kuwa namba au kitambulisho kingine. Hatutaki ID ibadilike kwani ingeweza kuvunja uhusiano. Utakuta katika hali nyingi funguo kuu au ID itakuwa namba inayozalishwa kiotomatiki.
 
 > ✅ Funguo kuu mara nyingi hufupishwa kama PK
 
@@ -79,7 +79,7 @@ Lakini kabla ya kuunda jedwali linalofuata, tunahitaji kujua jinsi ya kurejelea 
 
 > ✅ Utagundua tunatumia maneno "id" na "funguo kuu" kwa kubadilishana wakati wa somo hili. Dhana hizi zinatumika kwa DataFrames, ambazo utachunguza baadaye. DataFrames hazitumii istilahi ya "funguo kuu", hata hivyo utagundua zinatenda kwa njia sawa.
 
-Baada ya kuunda jedwali letu la miji, hebu tuhifadhi data ya mvua. Badala ya kurudia taarifa kamili kuhusu jiji, tunaweza kutumia ID. Tunapaswa pia kuhakikisha jedwali jipya lililoundwa lina safu ya *id*, kwani majedwali yote yanapaswa kuwa na ID au funguo kuu.
+Kwa jedwali letu la miji kuundwa, hebu tuhifadhi mvua. Badala ya kurudia taarifa kamili kuhusu jiji, tunaweza kutumia ID. Tunapaswa pia kuhakikisha jedwali jipya lililoundwa lina safu ya *id*, kwani majedwali yote yanapaswa kuwa na ID au funguo kuu.
 
 ### mvua
 
@@ -101,7 +101,7 @@ Angalia safu ya **city_id** ndani ya jedwali jipya la **mvua**. Safu hii ina tha
 
 ## Kupata data
 
-Kwa kugawanya data yetu katika majedwali mawili, unaweza kujiuliza jinsi tunavyopata data hiyo. Ikiwa tunatumia hifadhidata ya kihusiano kama MySQL, SQL Server au Oracle, tunaweza kutumia lugha inayoitwa Structured Query Language au SQL. SQL (wakati mwingine hutamkwa "sequel") ni lugha ya kawaida inayotumika kupata na kurekebisha data katika hifadhidata ya kihusiano.
+Kwa data yetu kugawanywa katika majedwali mawili, unaweza kuwa unajiuliza jinsi tunavyopata. Ikiwa tunatumia hifadhidata ya kihusiano kama MySQL, SQL Server au Oracle, tunaweza kutumia lugha inayoitwa Structured Query Language au SQL. SQL (wakati mwingine hutamkwa "sequel") ni lugha ya kawaida inayotumika kupata na kurekebisha data katika hifadhidata ya kihusiano.
 
 Ili kupata data unatumia amri `SELECT`. Kwa msingi wake, unachagua nguzo unazotaka kuona kutoka kwenye jedwali zinapopatikana. Ikiwa ungependa kuonyesha majina ya miji pekee, unaweza kutumia yafuatayo:
 
@@ -115,11 +115,11 @@ FROM cities;
 -- Auckland
 ```
 
-`SELECT` ni mahali unapoorodhesha nguzo, na `FROM` ni mahali unapoorodhesha majedwali.
+`SELECT` ni pale unapoorodhesha nguzo, na `FROM` ni pale unapoorodhesha majedwali.
 
 > [NOTE] Sintaksia ya SQL haibagui herufi kubwa na ndogo, ikimaanisha `select` na `SELECT` ni sawa. Hata hivyo, kulingana na aina ya hifadhidata unayotumia, nguzo na majedwali yanaweza kuwa na herufi kubwa na ndogo. Kwa hivyo, ni mazoea bora kila mara kutibu kila kitu katika programu kama kinachobagua herufi kubwa na ndogo. Wakati wa kuandika maswali ya SQL, kawaida ni kuweka maneno muhimu kwa herufi kubwa.
 
-Swali hapo juu litaonyesha miji yote. Hebu tufikirie tunataka kuonyesha miji ya New Zealand pekee. Tunahitaji aina fulani ya kichujio. Neno muhimu la SQL kwa hili ni `WHERE`, au "mahali ambapo kitu ni kweli".
+Swali hapo juu litaonyesha miji yote. Hebu tufikirie tunataka kuonyesha miji ya New Zealand pekee. Tunahitaji aina fulani ya kichujio. Neno muhimu la SQL kwa hili ni `WHERE`, au "mahali kitu ni kweli".
 
 ```sql
 SELECT city
@@ -132,13 +132,13 @@ WHERE country = 'New Zealand';
 
 ## Kuunganisha data
 
-Hadi sasa tumepata data kutoka jedwali moja. Sasa tunataka kuleta data pamoja kutoka **miji** na **mvua**. Hii inafanyika kwa *kuunganisha* majedwali pamoja. Kimsingi utaunda mshono kati ya majedwali mawili, na kulinganisha thamani kutoka safu kutoka kila jedwali.
+Hadi sasa tumepata data kutoka jedwali moja. Sasa tunataka kuleta data pamoja kutoka kwa **miji** na **mvua**. Hii inafanywa kwa *kuunganisha* majedwali pamoja. Kimsingi utaunda kiunganishi kati ya majedwali mawili, na kulinganisha thamani kutoka safu kutoka kila jedwali.
 
-Katika mfano wetu, tutalinganisha safu ya **city_id** katika **mvua** na safu ya **city_id** katika **miji**. Hii italinganisha thamani ya mvua na jiji lake husika. Aina ya muunganisho tutakaofanya inaitwa *inner join*, ikimaanisha ikiwa safu yoyote haifani na chochote kutoka jedwali lingine haitakuwa imeonyeshwa. Katika kesi yetu kila jiji lina data ya mvua, kwa hivyo kila kitu kitaonyeshwa.
+Katika mfano wetu, tutalinganisha safu ya **city_id** katika **mvua** na safu ya **city_id** katika **miji**. Hii italinganisha thamani ya mvua na jiji lake husika. Aina ya kuunganisha tutakayofanya inaitwa *inner join*, ikimaanisha ikiwa safu yoyote haifani na kitu chochote kutoka jedwali lingine haitakuwa imeonyeshwa. Katika kesi yetu kila jiji lina mvua, kwa hivyo kila kitu kitaonyeshwa.
 
-Hebu tupate data ya mvua ya mwaka 2019 kwa miji yetu yote.
+Hebu tupate mvua ya mwaka 2019 kwa miji yetu yote.
 
-Tutafanya hili kwa hatua. Hatua ya kwanza ni kuunganisha data pamoja kwa kuonyesha safu za mshono - **city_id** kama ilivyoangaziwa hapo awali.
+Tunaenda kufanya hivi kwa hatua. Hatua ya kwanza ni kuunganisha data pamoja kwa kuonyesha safu za kiunganishi - **city_id** kama ilivyoangaziwa hapo awali.
 
 ```sql
 SELECT cities.city
@@ -147,7 +147,7 @@ FROM cities
     INNER JOIN rainfall ON cities.city_id = rainfall.city_id
 ```
 
-Tumesisitiza safu mbili tunazotaka, na ukweli kwamba tunataka kuunganisha majedwali pamoja kwa **city_id**. Sasa tunaweza kuongeza taarifa ya `WHERE` ili kuchuja mwaka wa 2019 pekee.
+Tumeangazia safu mbili tunazotaka, na ukweli tunataka kuunganisha majedwali pamoja kwa **city_id**. Sasa tunaweza kuongeza taarifa ya `WHERE` ili kuchuja mwaka 2019 pekee.
 
 ```sql
 SELECT cities.city
@@ -167,7 +167,7 @@ WHERE rainfall.year = 2019
 
 ## Muhtasari
 
-Hifadhidata za kihusiano zinazingatia kugawanya taarifa kati ya majedwali mengi ambayo kisha huletwa pamoja kwa kuonyesha na kuchambua. Hii inatoa kiwango cha juu cha urahisi wa kufanya mahesabu na vinginevyo kudhibiti data. Umeona dhana za msingi za hifadhidata ya kihusiano, na jinsi ya kufanya muunganisho kati ya majedwali mawili.
+Hifadhidata za kihusiano zinazingatia kugawanya taarifa kati ya majedwali mengi ambayo baadaye huletwa pamoja kwa kuonyesha na kuchambua. Hii inatoa kiwango cha juu cha urahisi wa kufanya mahesabu na vinginevyo kudhibiti data. Umeona dhana za msingi za hifadhidata ya kihusiano, na jinsi ya kufanya kuunganisha kati ya majedwali mawili.
 
 ## 🚀 Changamoto
 
@@ -175,7 +175,7 @@ Kuna hifadhidata nyingi za kihusiano zinazopatikana kwenye mtandao. Unaweza kuch
 
 ## Jaribio la baada ya somo
 
-## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ds/)
+## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ds/quiz/9)
 
 ## Mapitio na Kujisomea
 
