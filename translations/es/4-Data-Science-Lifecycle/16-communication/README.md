@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "fcac117b5c4793907fb76f55c98fd40e",
-  "translation_date": "2025-09-04T13:57:35+00:00",
+  "original_hash": "e4eae0345bfb6c9c936fca47081e57f8",
+  "translation_date": "2025-09-05T13:39:06+00:00",
   "source_file": "4-Data-Science-Lifecycle/16-communication/README.md",
   "language_code": "es"
 }
@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Ciclo de Vida de la Ciencia de Datos: Comunicación - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
-## [Cuestionario Previo a la Clase](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/30)
+## [Cuestionario Previo a la Clase](https://ff-quizzes.netlify.app/en/ds/quiz/30)
 
 ¡Pon a prueba tus conocimientos sobre lo que viene con el cuestionario previo a la clase!
 
@@ -37,7 +37,7 @@ Al comunicar datos, habrá casos en los que usarás comunicación unidireccional
 # Comunicación Efectiva
 
 ### Tus Responsabilidades como Comunicador
-Al comunicar, es tu responsabilidad asegurarte de que tu(s) receptor(es) comprendan la información que deseas transmitir. Al comunicar datos, no solo quieres que tus receptores se queden con números, quieres que se queden con una historia informada por tus datos. Un buen comunicador de datos es un buen narrador.
+Al comunicar, es tu responsabilidad asegurarte de que tu(s) receptor(es) se lleven la información que deseas que se lleven. Cuando comunicas datos, no solo quieres que tus receptores se lleven números, quieres que se lleven una historia informada por tus datos. Un buen comunicador de datos es un buen narrador.
 
 ¿Cómo cuentas una historia con datos? Hay infinitas maneras, pero a continuación se presentan 6 que discutiremos en esta lección:
 1. Comprende a tu audiencia, tu canal y tu método de comunicación.
@@ -49,7 +49,7 @@ Al comunicar, es tu responsabilidad asegurarte de que tu(s) receptor(es) compren
 Cada una de estas estrategias se explica en mayor detalle a continuación.
 
 ### 1. Comprende a tu Audiencia, tu Canal y tu Método de Comunicación
-La forma en que te comunicas con los miembros de tu familia probablemente sea diferente a la forma en que te comunicas con tus amigos. Probablemente uses palabras y frases diferentes que las personas con las que hablas puedan entender mejor. Deberías adoptar el mismo enfoque al comunicar datos. Piensa en quién estás comunicando. Piensa en sus objetivos y el contexto que tienen sobre la situación que les estás explicando.
+La forma en que te comunicas con los miembros de tu familia probablemente sea diferente a la forma en que te comunicas con tus amigos. Probablemente uses palabras y frases diferentes que las personas con las que estás hablando puedan entender mejor. Deberías adoptar el mismo enfoque al comunicar datos. Piensa en quién estás comunicando. Piensa en sus objetivos y el contexto que tienen sobre la situación que les estás explicando.
 
 Es probable que puedas agrupar a la mayoría de tu audiencia dentro de una categoría. En un artículo de _Harvard Business Review_, “[Cómo Contar una Historia con Datos](http://blogs.hbr.org/2013/04/how-to-tell-a-story-with-data/)”, el estratega ejecutivo de Dell, Jim Stikeleather, identifica cinco categorías de audiencias:
 
@@ -61,7 +61,7 @@ Es probable que puedas agrupar a la mayoría de tu audiencia dentro de una categ
 
 Estas categorías pueden informar la forma en que presentas datos a tu audiencia.
 
-Además de pensar en la categoría de tu audiencia, también debes considerar el canal que estás utilizando para comunicarte con ellos. Tu enfoque debería ser ligeramente diferente si estás escribiendo un memorando o correo electrónico frente a tener una reunión o presentar en una conferencia.
+Además de pensar en la categoría de tu audiencia, también deberías considerar el canal que estás utilizando para comunicarte con ellos. Tu enfoque debería ser ligeramente diferente si estás escribiendo un memorando o correo electrónico frente a tener una reunión o presentar en una conferencia.
 
 Además de comprender a tu audiencia, saber cómo te comunicarás con ellos (usando comunicación unidireccional o bidireccional) también es fundamental.
 
@@ -70,11 +70,11 @@ Si te estás comunicando con una audiencia mayoritariamente principiante y está
 Si te estás comunicando con una audiencia mayoritariamente gerencial y estás utilizando comunicación bidireccional, probablemente no necesites educar a tu audiencia ni proporcionarles mucho contexto. Es posible que puedas ir directamente a discutir los datos que has recopilado y por qué son importantes. En este escenario, sin embargo, deberías enfocarte en el tiempo y en controlar tu presentación. Al usar comunicación bidireccional (especialmente con una audiencia gerencial que busca una "comprensión accionable de las complejidades y las interrelaciones con acceso a detalles"), pueden surgir preguntas durante tu interacción que podrían llevar la discusión en una dirección que no se relacione con la historia que estás tratando de contar. Cuando esto suceda, puedes tomar medidas y volver a encaminar la discusión hacia tu historia.
 
 ### 2. Comienza con el Final en Mente
-Comenzar con el final en mente significa comprender los resultados que deseas para tu audiencia antes de comenzar a comunicarte con ellos. Ser reflexivo sobre lo que quieres que tu audiencia se lleve por adelantado puede ayudarte a crear una historia que puedan seguir. Comenzar con el final en mente es apropiado tanto para la comunicación unidireccional como para la bidireccional.
+Comenzar con el final en mente significa comprender los resultados que deseas para tu audiencia antes de comenzar a comunicarte con ellos. Ser reflexivo sobre lo que quieres que tu audiencia se lleve de antemano puede ayudarte a crear una historia que puedan seguir. Comenzar con el final en mente es apropiado tanto para la comunicación unidireccional como para la bidireccional.
 
 ¿Cómo comienzas con el final en mente? Antes de comunicar tus datos, escribe tus conclusiones clave. Luego, en cada paso mientras preparas la historia que deseas contar con tus datos, pregúntate: "¿Cómo se integra esto en la historia que estoy contando?"
 
-Ten cuidado: aunque comenzar con el final en mente es ideal, no debes comunicar solo los datos que respaldan tus conclusiones deseadas. Esto se llama selección sesgada, que ocurre cuando un comunicador solo comunica datos que respaldan el punto que está tratando de hacer e ignora todos los demás datos.
+Ten cuidado: aunque comenzar con el final en mente es ideal, no deberías comunicar solo los datos que respaldan tus conclusiones deseadas. Hacer esto se llama "selección sesgada", que ocurre cuando un comunicador solo comunica datos que respaldan el punto que está tratando de hacer e ignora todos los demás datos.
 
 Si todos los datos que recopilaste respaldan claramente tus conclusiones deseadas, excelente. Pero si hay datos que recopilaste que no respaldan tus conclusiones, o incluso respaldan un argumento en contra de tus conclusiones clave, también deberías comunicar esos datos. Si esto sucede, sé transparente con tu audiencia y explícales por qué eliges seguir con tu historia aunque todos los datos no la respalden necesariamente.
 
@@ -92,7 +92,7 @@ Ese mensaje es más claro. Al comunicar datos, puede ser fácil pensar que todos
 
 Puedes comunicar datos de manera más clara cuando usas palabras y frases significativas en lugar de vagas. A continuación se presentan algunos ejemplos:
 
-- Tuvimos un año *impresionante*!
+- Tuvimos un año *impresionante*.
    - Una persona podría pensar que impresionante significa un aumento del 2% - 3% en ingresos, y otra persona podría pensar que significa un aumento del 50% - 60%.
 - Las tasas de éxito de nuestros usuarios aumentaron *dramáticamente*.
    - ¿Qué tan grande es un aumento dramático?
@@ -104,7 +104,7 @@ Usar palabras vagas podría ser útil como introducción a más datos que están
 ### 5. Usa Emoción
 La emoción es clave en la narración. Es aún más importante cuando estás contando una historia con datos. Al comunicar datos, todo se centra en las conclusiones que deseas que tu audiencia tenga. Cuando evocas una emoción en una audiencia, les ayudas a empatizar y los haces más propensos a tomar acción. La emoción también aumenta la probabilidad de que una audiencia recuerde tu mensaje.
 
-Es posible que hayas experimentado esto antes con comerciales de televisión. Algunos comerciales son muy solemnes y usan una emoción triste para conectar con su audiencia y hacer que los datos que están presentando realmente destaquen. O algunos comerciales son muy alegres y felices, lo que puede hacer que asocies sus datos con un sentimiento positivo.
+Es posible que hayas experimentado esto antes con comerciales de televisión. Algunos comerciales son muy solemnes y usan una emoción triste para conectar con su audiencia y hacer que los datos que están presentando realmente destaquen. O, algunos comerciales son muy alegres y felices, lo que puede hacer que asocies sus datos con un sentimiento positivo.
 
 ¿Cómo usas la emoción al comunicar datos? A continuación se presentan un par de formas:
 
@@ -113,14 +113,14 @@ Es posible que hayas experimentado esto antes con comerciales de televisión. Al
 - Usa Imágenes
    - Las imágenes ayudan a una audiencia a verse a sí misma en una situación. Cuando usas imágenes, puedes dirigir a una audiencia hacia la emoción que sientes que deberían tener sobre tus datos.
 - Usa Color
-   - Los diferentes colores evocan diferentes emociones. Los colores populares y las emociones que evocan son los siguientes. Ten en cuenta que los colores podrían tener significados diferentes en distintas culturas.
+   - Los diferentes colores evocan diferentes emociones. Los colores populares y las emociones que evocan se presentan a continuación. Ten en cuenta que los colores podrían tener significados diferentes en distintas culturas.
       - El azul generalmente evoca emociones de paz y confianza.
       - El verde suele estar relacionado con la naturaleza y el medio ambiente.
-      - El rojo generalmente representa pasión y emoción.
+      - El rojo suele ser pasión y emoción.
       - El amarillo suele ser optimismo y felicidad.
 
 # Estudio de Caso de Comunicación
-Emerson es un gerente de producto para una aplicación móvil. Emerson ha notado que los clientes envían un 42% más de quejas y reportes de errores los fines de semana. Emerson también notó que los clientes que envían una queja que no se responde después de 48 horas tienen un 32% más de probabilidades de calificar la aplicación con 1 o 2 estrellas en la tienda de aplicaciones.
+Emerson es un gerente de producto para una aplicación móvil. Emerson ha notado que los clientes envían un 42% más de quejas y reportes de errores los fines de semana. Emerson también notó que los clientes que envían una queja que no se responde después de 48 horas tienen un 32% más de probabilidades de dar a la aplicación una calificación de 1 o 2 en la tienda de aplicaciones.
 
 Después de investigar, Emerson tiene un par de soluciones que abordarán el problema. Emerson organiza una reunión de 30 minutos con los 3 líderes de la empresa para comunicar los datos y las soluciones propuestas.
 
@@ -129,11 +129,11 @@ Durante esta reunión, el objetivo de Emerson es que los líderes de la empresa 
 **Solución 1.** Contratar representantes de servicio al cliente para trabajar los fines de semana.
 
 **Solución 2.** Comprar un nuevo sistema de gestión de tickets de servicio al cliente donde los representantes puedan identificar fácilmente qué quejas han estado en la cola por más tiempo, para saber cuáles atender de inmediato.
-En la reunión, Emerson dedica 5 minutos a explicar por qué tener una calificación baja en la tienda de aplicaciones es perjudicial, 10 minutos explicando el proceso de investigación y cómo se identificaron las tendencias, 10 minutos revisando algunas de las quejas recientes de los clientes, y los últimos 5 minutos mencionando brevemente las 2 posibles soluciones.
 
-¿Fue esta una forma efectiva de comunicar durante esta reunión?
+En la reunión, Emerson pasa 5 minutos explicando por qué tener una calificación baja en la tienda de aplicaciones es malo, 10 minutos explicando el proceso de investigación y cómo se identificaron las tendencias, 10 minutos revisando algunas de las quejas recientes de los clientes, y los últimos 5 minutos pasando por alto las 2 soluciones potenciales.
+¿Fue esta una forma efectiva para que Emerson se comunicara durante esta reunión?
 
-Durante la reunión, uno de los líderes de la empresa se enfocó exclusivamente en los 10 minutos de quejas de clientes que Emerson revisó. Después de la reunión, estas quejas fueron lo único que este líder recordó. Otro líder de la empresa se centró principalmente en la descripción del proceso de investigación por parte de Emerson. El tercer líder sí recordó las soluciones propuestas por Emerson, pero no estaba seguro de cómo podrían implementarse esas soluciones.
+Durante la reunión, un líder de la empresa se enfocó únicamente en los 10 minutos de quejas de clientes que Emerson presentó. Después de la reunión, estas quejas fueron lo único que este líder recordó. Otro líder de la empresa se centró principalmente en la descripción del proceso de investigación por parte de Emerson. El tercer líder sí recordó las soluciones propuestas por Emerson, pero no estaba seguro de cómo podrían implementarse esas soluciones.
 
 En la situación anterior, se puede observar que hubo una brecha significativa entre lo que Emerson quería que los líderes de equipo entendieran y lo que realmente se llevaron de la reunión. A continuación, se presenta otro enfoque que Emerson podría considerar.
 
@@ -143,19 +143,19 @@ Contexto, Conflicto, Clímax, Cierre, Conclusión
 
 Podría plantearlo de esta manera: "Actualmente, la calificación de nuestra aplicación en la tienda de aplicaciones es de 2.5. Las calificaciones en la tienda de aplicaciones son fundamentales para la optimización de la tienda de aplicaciones, lo que impacta cuántos usuarios ven nuestra aplicación en las búsquedas y cómo nuestra aplicación es percibida por los usuarios potenciales. Y, por supuesto, el número de usuarios que tenemos está directamente relacionado con los ingresos."
 
-**Conflicto** Emerson podría dedicar los siguientes 5 minutos a hablar sobre el conflicto.
+**Conflicto** Emerson podría dedicar los siguientes 5 minutos aproximadamente a hablar sobre el conflicto.
 
-Podría decir algo como: “Los usuarios envían un 42% más de quejas y reportes de errores los fines de semana. Los clientes que envían una queja que no se responde en un plazo de 48 horas tienen un 32% menos de probabilidades de dar a nuestra aplicación una calificación superior a 2 en la tienda de aplicaciones. Mejorar la calificación de nuestra aplicación en la tienda de aplicaciones a un 4 aumentaría nuestra visibilidad entre un 20-30%, lo que proyectaría un incremento en los ingresos del 10%." Por supuesto, Emerson debería estar preparado para justificar estos números.
+Podría decir algo como: “Los usuarios envían un 42% más de quejas y reportes de errores los fines de semana. Los clientes que envían una queja que no se responde en un plazo de 48 horas tienen un 32% menos de probabilidades de darle a nuestra aplicación una calificación superior a 2 en la tienda de aplicaciones. Mejorar la calificación de nuestra aplicación en la tienda de aplicaciones a un 4 aumentaría nuestra visibilidad entre un 20-30%, lo que proyectaría un incremento en los ingresos del 10%." Por supuesto, Emerson debería estar preparado para justificar estos números.
 
 **Clímax** Después de establecer las bases, Emerson podría pasar al clímax durante unos 5 minutos.
 
-Emerson podría presentar las soluciones propuestas, explicar cómo estas soluciones abordarían los problemas descritos, cómo podrían integrarse en los flujos de trabajo existentes, cuánto costarían las soluciones, cuál sería el retorno de inversión (ROI) de las soluciones, e incluso mostrar capturas de pantalla o prototipos de cómo se verían las soluciones si se implementaran. Emerson también podría compartir testimonios de usuarios que esperaron más de 48 horas para que se atendiera su queja, e incluso un testimonio de un representante de servicio al cliente actual dentro de la empresa que comente sobre el sistema de tickets actual.
+Emerson podría presentar las soluciones propuestas, explicar cómo estas soluciones abordarían los problemas descritos, cómo podrían integrarse en los flujos de trabajo existentes, cuánto costarían las soluciones, cuál sería el ROI de las mismas, e incluso mostrar capturas de pantalla o prototipos de cómo se verían las soluciones si se implementaran. Emerson también podría compartir testimonios de usuarios que esperaron más de 48 horas para que se atendiera su queja, e incluso un testimonio de un representante de servicio al cliente actual de la empresa que comente sobre el sistema de tickets actual.
 
 **Cierre** Ahora Emerson podría dedicar 5 minutos a reiterar los problemas que enfrenta la empresa, repasar las soluciones propuestas y revisar por qué esas soluciones son las adecuadas.
 
 **Conclusión** Dado que esta es una reunión con algunos interesados donde se utilizará comunicación bidireccional, Emerson podría planear dejar 10 minutos para preguntas, para asegurarse de que cualquier cosa que haya sido confusa para los líderes de equipo pueda aclararse antes de que termine la reunión.
 
-Si Emerson adoptara el enfoque #2, es mucho más probable que los líderes de equipo se lleven de la reunión exactamente lo que Emerson pretendía que entendieran: que la forma en que se manejan las quejas y los errores podría mejorarse, y que hay 2 soluciones que podrían implementarse para lograr esa mejora. Este enfoque sería una forma mucho más efectiva de comunicar los datos y la historia que Emerson quiere transmitir.
+Si Emerson adoptara el enfoque #2, es mucho más probable que los líderes de equipo se lleven de la reunión exactamente lo que Emerson quería que entendieran: que la forma en que se manejan las quejas y los errores podría mejorarse, y que hay 2 soluciones que podrían implementarse para lograr esa mejora. Este enfoque sería una forma mucho más efectiva de comunicar los datos y la historia que Emerson quiere transmitir.
 
 # Conclusión  
 ### Resumen de los puntos principales  
@@ -164,12 +164,12 @@ Si Emerson adoptara el enfoque #2, es mucho más probable que los líderes de eq
 - Hay 2 tipos de comunicación: Comunicación Unidireccional (la información se comunica sin intención de recibir una respuesta) y Comunicación Bidireccional (la información se comunica de ida y vuelta).  
 - Hay muchas estrategias que puedes usar para contar una historia con tus datos. Las 5 estrategias que revisamos son:  
   - Comprender a tu audiencia, tu medio y tu método de comunicación  
-  - Comenzar con el objetivo final en mente  
+  - Comenzar con el final en mente  
   - Abordarlo como una historia real  
   - Usar palabras y frases significativas  
   - Usar emoción  
 
-### Recursos recomendados para autoestudio  
+### Recursos recomendados para estudio independiente  
 [The Five C's of Storytelling - Articulate Persuasion](http://articulatepersuasion.com/the-five-cs-of-storytelling/)  
 
 [1.4 Your Responsibilities as a Communicator – Business Communication for Success (umn.edu)](https://open.lib.umn.edu/businesscommunication/chapter/1-4-your-responsibilities-as-a-communicator/)  
@@ -208,9 +208,9 @@ Si Emerson adoptara el enfoque #2, es mucho más probable que los líderes de eq
 
 [1. Communicating Data - Communicating Data with Tableau [Book] (oreilly.com)](https://www.oreilly.com/library/view/communicating-data-with/9781449372019/ch01.html)  
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)  
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/31)  
 
-¡Revisa lo que acabas de aprender con el cuestionario posterior a la conferencia en el enlace anterior!
+¡Revisa lo que acabas de aprender con el cuestionario posterior a la conferencia en el enlace de arriba!  
 
 ## Tarea  
 

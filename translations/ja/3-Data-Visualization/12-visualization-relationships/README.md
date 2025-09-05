@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "b29e427401499e81f4af55a8c4afea76",
-  "translation_date": "2025-09-04T13:20:16+00:00",
+  "original_hash": "44de95649fcec43643cbe3962f904331",
+  "translation_date": "2025-09-05T12:46:42+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "ja"
 }
@@ -13,21 +13,21 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |関係の可視化 - _スケッチノート by [@nitya](https://twitter.com/nitya)_ |
 
-私たちの研究の自然に焦点を当てたテーマを続け、[アメリカ合衆国農務省](https://www.nass.usda.gov/About_NASS/index.php)から得られたデータセットに基づいて、さまざまな種類のハチミツの関係を示す興味深い可視化を探ってみましょう。
+自然に焦点を当てた研究を続けながら、さまざまな種類のハチミツ間の関係を示す興味深い可視化を探ってみましょう。このデータセットは[アメリカ合衆国農務省](https://www.nass.usda.gov/About_NASS/index.php)から得られたものです。
 
-このデータセットには約600件の項目が含まれており、アメリカの多くの州におけるハチミツ生産が表示されています。例えば、1998年から2012年までの各州の1年ごとのデータとして、コロニー数、コロニーあたりの収量、総生産量、在庫、1ポンドあたりの価格、そして生産価値を確認することができます。
+約600項目のデータセットには、アメリカの多くの州でのハチミツ生産が表示されています。例えば、州ごとのコロニー数、コロニーあたりの収量、総生産量、在庫、1ポンドあたりの価格、そして1998年から2012年までの各州の年間生産価値を確認できます。
 
-特定の州の年間生産量とその州のハチミツの価格との関係を可視化するのは興味深いでしょう。または、州ごとのコロニーあたりのハチミツ収量の関係を可視化することもできます。この期間には、2006年に初めて確認された「コロニー崩壊症候群（CCD）」(http://npic.orst.edu/envir/ccd.html) が含まれており、研究するには感慨深いデータセットです。🐝
+特定の州の年間生産量とその州のハチミツ価格の関係を可視化するのは興味深いでしょう。または、州ごとのコロニーあたりのハチミツ収量の関係を可視化することもできます。この期間には、2006年に初めて確認された「コロニー崩壊症候群（CCD）」(http://npic.orst.edu/envir/ccd.html)が含まれており、研究する価値のあるデータセットです。🐝
 
-## [講義前のクイズ](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/22)
+## [講義前のクイズ](https://ff-quizzes.netlify.app/en/ds/quiz/22)
 
-このレッスンでは、以前使用したSeabornを使って、変数間の関係を可視化する方法を学びます。特に興味深いのは、Seabornの`relplot`関数を使用して、散布図や折れ線グラフを作成し、データサイエンティストが変数間の関係をよりよく理解できるようにする「[統計的関係](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)」を迅速に可視化することです。
+このレッスンでは、以前使用したSeabornを使って、変数間の関係を可視化する方法を学びます。特に興味深いのは、Seabornの`relplot`関数を使用して、散布図や折れ線グラフを作成し、データ科学者が変数間の関係をよりよく理解できるようにする「[統計的関係](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)」を迅速に可視化することです。
 
 ## 散布図
 
-散布図を使用して、州ごとのハチミツの価格が年々どのように変化しているかを示しましょう。Seabornの`relplot`を使用すると、州ごとのデータをグループ化し、カテゴリカルデータと数値データの両方のデータポイントを表示することができます。
+州ごとのハチミツ価格が年々どのように変化しているかを示す散布図を作成します。Seabornの`relplot`を使用すると、州ごとのデータを便利にグループ化し、カテゴリカルデータと数値データの両方のデータポイントを表示できます。
 
-まず、データとSeabornをインポートしましょう：
+まず、データとSeabornをインポートしましょう:
 
 ```python
 import pandas as pd
@@ -36,7 +36,7 @@ import seaborn as sns
 honey = pd.read_csv('../../data/honey.csv')
 honey.head()
 ```
-ハチミツデータには、年や1ポンドあたりの価格など、いくつかの興味深い列が含まれていることに気づくでしょう。これをアメリカの州ごとにグループ化して探索してみましょう：
+ハチミツデータには、年や1ポンドあたりの価格など、いくつか興味深い列が含まれています。このデータをアメリカの州ごとにグループ化して探索してみましょう:
 
 | state | numcol | yieldpercol | totalprod | stocks   | priceperlb | prodvalue | year |
 | ----- | ------ | ----------- | --------- | -------- | ---------- | --------- | ---- |
@@ -46,23 +46,23 @@ honey.head()
 | CA    | 450000 | 83          | 37350000  | 12326000 | 0.62       | 23157000  | 1998 |
 | CO    | 27000  | 72          | 1944000   | 1594000  | 0.7        | 1361000   | 1998 |
 
-1ポンドあたりのハチミツの価格とその州の関係を示す基本的な散布図を作成しましょう。`y`軸を十分に高くして、すべての州を表示できるようにします：
+州ごとのハチミツの1ポンドあたりの価格とその州の出身地との関係を示す基本的な散布図を作成します。`y`軸をすべての州を表示できるように十分に高く設定してください:
 
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.ja.png)
+![scatterplot 1](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter1.png)
 
-次に、ハチミツの価格が年々どのように変化しているかを示すために、ハチミツの色合いを使用して同じデータを表示します。これを行うには、`hue`パラメータを追加して、年ごとの変化を示します：
+次に、ハチミツの色合いを使用して、価格が年々どのように変化しているかを示します。これを行うには、'hue'パラメータを追加して、年ごとの変化を表示します:
 
-> ✅ [Seabornで使用できるカラーパレット](https://seaborn.pydata.org/tutorial/color_palettes.html)についてもっと学びましょう - 美しい虹色のカラースキームを試してみてください！
+> ✅ [Seabornで使用できるカラーパレット](https://seaborn.pydata.org/tutorial/color_palettes.html)について詳しく学びましょう - 美しい虹色のカラースキームを試してみてください！
 
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.ja.png)
+![scatterplot 2](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter2.png)
 
-このカラースキームの変更により、1ポンドあたりのハチミツの価格が年々明らかに上昇していることがわかります。実際、データのサンプルセットを確認すると（例えばアリゾナ州を選んでみると）、例外はあるものの、年々価格が上昇しているパターンが見られます：
+このカラースキームの変更により、ハチミツの1ポンドあたりの価格が年々明らかに強い進行を示していることがわかります。実際、データのサンプルセットを確認すると（例えばアリゾナ州を選択）、年々価格が上昇するパターンがいくつかの例外を除いて見られます:
 
 | state | numcol | yieldpercol | totalprod | stocks  | priceperlb | prodvalue | year |
 | ----- | ------ | ----------- | --------- | ------- | ---------- | --------- | ---- |
@@ -82,51 +82,51 @@ sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey,
 | AZ    | 23000  | 53          | 1219000   | 427000  | 1.55       | 1889000   | 2011 |
 | AZ    | 22000  | 46          | 1012000   | 253000  | 1.79       | 1811000   | 2012 |
 
-色ではなくサイズを使用してこの進行を可視化する別の方法もあります。色覚異常のユーザーにとっては、こちらの方が良い選択肢かもしれません。ドットの円周の増加で価格の上昇を示すように可視化を編集してみましょう：
+色ではなくサイズを使用してこの進行を可視化する別の方法があります。色覚異常のユーザーにとっては、これがより良い選択肢かもしれません。価格の増加を点の円周の増加で示すように可視化を編集してください:
 
 ```python
 sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspect=.5);
 ```
-ドットのサイズが徐々に大きくなっているのがわかります。
+点のサイズが徐々に大きくなっているのがわかります。
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.ja.png)
+![scatterplot 3](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter3.png)
 
 これは単純な需要と供給の問題でしょうか？気候変動やコロニー崩壊などの要因により、年々購入可能なハチミツが減少し、その結果価格が上昇しているのでしょうか？
 
-このデータセット内のいくつかの変数間の相関を発見するために、折れ線グラフを探索してみましょう。
+このデータセット内のいくつかの変数間の相関関係を発見するために、折れ線グラフを探索してみましょう。
 
 ## 折れ線グラフ
 
-質問：1ポンドあたりのハチミツの価格は年々明確に上昇しているのでしょうか？これを最も簡単に発見する方法は、単一の折れ線グラフを作成することです：
+質問: ハチミツの1ポンドあたりの価格は年々明確に上昇しているのでしょうか？これを最も簡単に発見する方法は、単一の折れ線グラフを作成することです:
 
 ```python
 sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
-答え：はい、2003年頃の例外を除いて：
+答え: はい、2003年頃を除いて。
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.ja.png)
+![line chart 1](../../../../3-Data-Visualization/12-visualization-relationships/images/line1.png)
 
-✅ Seabornはデフォルトで「各x値での複数の測定値を平均値とその周りの95%信頼区間をプロットすることで表示」します。[出典](https://seaborn.pydata.org/tutorial/relational.html)。この時間のかかる動作は、`ci=None`を追加することで無効にできます。
+✅ Seabornはデータを1本の線に集約しており、「各x値での複数の測定値を平均とその平均周辺の95%信頼区間をプロットすることで表示」しています。[出典](https://seaborn.pydata.org/tutorial/relational.html)。この時間のかかる動作は、`ci=None`を追加することで無効にできます。
 
-質問：では、2003年にはハチミツの供給量の急増も見られるのでしょうか？年ごとの総生産量を見てみましょう：
+質問: では、2003年にはハチミツ供給の急増も見られるのでしょうか？年々の総生産量を見てみたらどうでしょう？
 
 ```python
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.ja.png)
+![line chart 2](../../../../3-Data-Visualization/12-visualization-relationships/images/line2.png)
 
-答え：そうではありません。総生産量を見ると、実際にはその年に増加しているように見えますが、一般的にはこれらの年の間に生産量は減少傾向にあります。
+答え: そうではありません。総生産量を見ると、実際にはその年に増加しているように見えますが、一般的にはこれらの年の間に生産されるハチミツの量は減少しています。
 
-質問：その場合、2003年頃のハチミツ価格の急上昇の原因は何だったのでしょうか？
+質問: その場合、2003年頃のハチミツ価格の急上昇の原因は何だったのでしょうか？
 
 これを発見するために、ファセットグリッドを探索してみましょう。
 
 ## ファセットグリッド
 
-ファセットグリッドは、データセットの1つの側面（この場合、'year'を選ぶと、生成されるファセットが多すぎるのを避けられます）を取り、Seabornが選択したx座標とy座標のプロットを各ファセットごとに作成します。このようにして、比較が容易になります。2003年はこのような比較で際立っているでしょうか？
+ファセットグリッドはデータセットの1つのファセット（この場合は「年」を選択して、生成されるファセットが多すぎないようにします）を取り、Seabornが選択したx座標とy座標のプロットを各ファセットごとに作成します。これにより、比較が容易になります。2003年はこのタイプの比較で際立っているでしょうか？
 
-Seabornのドキュメントで推奨されているように、`relplot`を使い続けてファセットグリッドを作成しましょう。[Seabornのドキュメント](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid)
+[Seabornのドキュメント](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid)で推奨されているように、`relplot`を使用してファセットグリッドを作成します。
 
 ```python
 sns.relplot(
@@ -136,15 +136,15 @@ sns.relplot(
     col_wrap=3,
     kind="line"
 ```
-この可視化では、コロニーあたりの収量とコロニー数を年ごとに比較し、列を3つに設定して横並びに表示します：
+この可視化では、コロニーあたりの収量とコロニー数を年々並べて比較できます。列のラップを3に設定します:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.ja.png)
+![facet grid](../../../../3-Data-Visualization/12-visualization-relationships/images/facet.png)
 
-このデータセットでは、州ごとの年ごとのコロニー数や収量に関して特に目立つものはありません。これら2つの変数間の相関を見つける別の方法はあるでしょうか？
+このデータセットでは、州ごとの年々のコロニー数とその収量に関して特に目立つものはありません。これら2つの変数間の相関関係を見つける別の方法はあるでしょうか？
 
 ## デュアルラインプロット
 
-Seabornの'despine'を使用して上部と右側のスパインを削除し、Matplotlibから派生した`ax.twinx`を使用して2つの折れ線グラフを重ねてみましょう。[Matplotlibのドキュメント](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html)。Twixを使用すると、チャートがx軸を共有し、2つのy軸を表示できます。コロニーあたりの収量とコロニー数を重ねて表示してみましょう：
+Seabornの'despine'を使用して上部と右側のスパインを削除し、Matplotlibから派生した`ax.twinx`を使用して2つの折れ線グラフを重ねて表示してみましょう。[Matplotlibのドキュメント](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html)によると、Twinxはx軸を共有し、2つのy軸を表示することができます。コロニーあたりの収量とコロニー数を重ねて表示します:
 
 ```python
 fig, ax = plt.subplots(figsize=(12,6))
@@ -161,22 +161,22 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.ja.png)
+![superimposed plots](../../../../3-Data-Visualization/12-visualization-relationships/images/dual-line.png)
 
-2003年頃に目立つものは特にありませんが、全体的にコロニー数が減少している一方で、コロニー数が安定していることがわかります。収量は減少しているものの、少し明るいニュースでこのレッスンを終えることができます。
+2003年頃に目立つものはありませんが、全体的にコロニー数が減少している一方で、コロニー数が安定していることがわかります。コロニーあたりの収量は減少しているものの、少し希望が持てます。
 
 がんばれ、ミツバチたち！
 
 🐝❤️
 ## 🚀 チャレンジ
 
-このレッスンでは、散布図やライングリッドの他の使い方、特にファセットグリッドについて少し学びました。これまでのレッスンで使用したデータセットを使って、別のファセットグリッドを作成してみましょう。それを作成するのにどれくらい時間がかかるか、またこれらの技術を使用する際に描画するグリッドの数に注意する必要があるかを確認してください。
+このレッスンでは、散布図やライングリッドの他の用途について少し学びました。チャレンジとして、以前のレッスンで使用した別のデータセットを使用してファセットグリッドを作成してみましょう。これらの技術を使用して描画するグリッドの数に注意しながら、作成にどれくらい時間がかかるかを確認してください。
 
-## [講義後のクイズ](https://ff-quizzes.netlify.app/en/ds/)
+## [講義後のクイズ](https://ff-quizzes.netlify.app/en/ds/quiz/23)
 
 ## 復習と自己学習
 
-折れ線グラフはシンプルなものから非常に複雑なものまであります。[Seabornのドキュメント](https://seaborn.pydata.org/generated/seaborn.lineplot.html)を読んで、折れ線グラフを構築するさまざまな方法について学んでみてください。このレッスンで作成した折れ線グラフを、ドキュメントに記載されている他の方法で強化してみてください。
+折れ線グラフはシンプルなものから非常に複雑なものまであります。[Seabornのドキュメント](https://seaborn.pydata.org/generated/seaborn.lineplot.html)で折れ線グラフのさまざまな作成方法について少し読んでみましょう。このレッスンで作成した折れ線グラフを、ドキュメントに記載されている他の方法を使用して強化してみてください。
 ## 課題
 
 [ハチの巣に飛び込もう](assignment.md)
@@ -184,4 +184,4 @@ ax.figure.legend();
 ---
 
 **免責事項**:  
-この文書は、AI翻訳サービス [Co-op Translator](https://github.com/Azure/co-op-translator) を使用して翻訳されています。正確性を追求しておりますが、自動翻訳には誤りや不正確な部分が含まれる可能性があります。元の言語で記載された原文が正式な情報源と見なされるべきです。重要な情報については、専門の人間による翻訳を推奨します。この翻訳の利用に起因する誤解や誤認について、当方は一切の責任を負いません。
+この文書は、AI翻訳サービス [Co-op Translator](https://github.com/Azure/co-op-translator) を使用して翻訳されています。正確性を期すよう努めておりますが、自動翻訳には誤りや不正確な表現が含まれる可能性があります。原文（元の言語で記載された文書）が公式な情報源と見なされるべきです。重要な情報については、専門の人間による翻訳を推奨します。この翻訳の利用に起因する誤解や誤認について、当社は一切の責任を負いません。

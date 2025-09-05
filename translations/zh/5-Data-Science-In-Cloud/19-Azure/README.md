@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
-  "translation_date": "2025-09-04T12:16:28+00:00",
+  "original_hash": "472d3fab1c5be50f387336e7a686dbe1",
+  "translation_date": "2025-09-05T11:29:32+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "zh"
 }
@@ -11,7 +11,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |![由 [(@sketchthedocs)](https://sketchthedocs.dev) 绘制的草图笔记](../../sketchnotes/19-DataScience-Cloud.png)|
 |:---:|
-| 云中的数据科学：Azure ML SDK - _草图笔记由 [@nitya](https://twitter.com/nitya) 提供_ |
+| 云中的数据科学：Azure ML SDK - _草图笔记由 [@nitya](https://twitter.com/nitya) 绘制_ |
 
 目录：
 
@@ -27,7 +27,7 @@ CO_OP_TRANSLATOR_METADATA:
     - [2.4 创建笔记本](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.5 训练模型](../../../../5-Data-Science-In-Cloud/19-Azure)
       - [2.5.1 设置工作区、实验、计算集群和数据集](../../../../5-Data-Science-In-Cloud/19-Azure)
-      - [2.5.2 自动化机器学习配置和训练](../../../../5-Data-Science-In-Cloud/19-Azure)
+      - [2.5.2 自动化机器学习配置与训练](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [3. 使用 Azure ML SDK 部署模型和消费端点](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [3.1 保存最佳模型](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [3.2 模型部署](../../../../5-Data-Science-In-Cloud/19-Azure)
@@ -37,7 +37,7 @@ CO_OP_TRANSLATOR_METADATA:
   - [复习与自学](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [作业](../../../../5-Data-Science-In-Cloud/19-Azure)
 
-## [课前测验](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/36)
+## [课前测验](https://ff-quizzes.netlify.app/en/ds/quiz/36)
 
 ## 1. 介绍
 
@@ -57,7 +57,7 @@ SDK 的主要功能包括：
 
 在[上一课](../18-Low-Code/README.md)中，我们学习了如何以低代码/无代码的方式训练、部署和消费模型。我们使用了心力衰竭数据集来生成心力衰竭预测模型。在本课中，我们将使用 Azure Machine Learning SDK 完成相同的任务。
 
-![项目架构](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.zh.png)
+![项目架构](../../../../5-Data-Science-In-Cloud/19-Azure/images/project-schema.PNG)
 
 ### 1.2 心力衰竭预测项目和数据集介绍
 
@@ -69,17 +69,17 @@ SDK 的主要功能包括：
 
 为了简化操作，我们将在 Jupyter Notebook 中工作。这意味着你已经有一个工作区和一个计算实例。如果你已经有一个工作区，可以直接跳到 2.3 节的笔记本创建部分。
 
-如果没有，请按照[上一课](../18-Low-Code/README.md)中 **2.1 创建 Azure ML 工作区** 的说明创建工作区。
+如果没有，请按照[上一课](../18-Low-Code/README.md)中 **2.1 创建 Azure ML 工作区** 的说明创建一个工作区。
 
 ### 2.2 创建计算实例
 
 在我们之前创建的 [Azure ML 工作区](https://ml.azure.com/)中，进入计算菜单，你会看到可用的不同计算资源。
 
-![计算实例](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.zh.png)
+![计算实例](../../../../5-Data-Science-In-Cloud/19-Azure/images/compute-instance-1.PNG)
 
 让我们创建一个计算实例来提供 Jupyter Notebook。
 1. 点击 + New 按钮。
-2. 为你的计算实例命名。
+2. 给你的计算实例命名。
 3. 选择你的选项：CPU 或 GPU、虚拟机大小和核心数量。
 4. 点击 Create 按钮。
 
@@ -91,7 +91,7 @@ SDK 的主要功能包括：
 
 ### 2.4 创建笔记本
 
-> **_注意：_** 接下来的步骤中，你可以选择从头创建一个新笔记本，或者上传我们之前创建的 [notebook](notebook.ipynb) 到你的 Azure ML Studio。要上传笔记本，只需点击 "Notebook" 菜单并上传笔记本文件。
+> **_注意：_** 接下来的步骤中，你可以从头创建一个新的笔记本，或者上传我们之前创建的 [notebook](../../../../5-Data-Science-In-Cloud/19-Azure/notebook.ipynb) 到你的 Azure ML Studio。要上传，只需点击 "Notebook" 菜单并上传笔记本。
 
 笔记本是数据科学过程中非常重要的一部分。它们可以用于进行探索性数据分析（EDA）、调用计算集群训练模型、调用推理集群部署端点。
 
@@ -99,16 +99,16 @@ SDK 的主要功能包括：
 
 1. 在 Applications 部分，点击 Jupyter 选项。
 2. 勾选 "Yes, I understand" 框并点击 Continue 按钮。
-![笔记本](../../../../translated_images/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.zh.png)
-3. 这会打开一个新的浏览器标签页，显示你的 Jupyter Notebook 实例。点击 "New" 按钮创建一个笔记本。
+![笔记本](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-1.PNG)
+3. 这将打开一个新的浏览器标签页，显示你的 Jupyter Notebook 实例。点击 "New" 按钮创建一个笔记本。
 
-![笔记本](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.zh.png)
+![笔记本](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-2.PNG)
 
 现在我们有了一个笔记本，可以开始使用 Azure ML SDK 训练模型了。
 
 ### 2.5 训练模型
 
-首先，如果你有任何疑问，请参考 [Azure ML SDK 文档](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)。文档中包含了理解本课中涉及模块的所有必要信息。
+首先，如果你有任何疑问，请参考 [Azure ML SDK 文档](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)。它包含了理解本课中涉及模块的所有必要信息。
 
 #### 2.5.1 设置工作区、实验、计算集群和数据集
 
@@ -119,7 +119,7 @@ from azureml.core import Workspace
 ws = Workspace.from_config()
 ```
 
-这会返回一个表示工作区的 `Workspace` 对象。然后你需要使用以下代码创建一个 `experiment`：
+这将返回一个表示工作区的 `Workspace` 对象。然后你需要使用以下代码创建一个 `experiment`：
 
 ```python
 from azureml.core import Experiment
@@ -127,7 +127,7 @@ experiment_name = 'aml-experiment'
 experiment = Experiment(ws, experiment_name)
 ```
 
-要从工作区获取或创建实验，你需要通过实验名称请求实验。实验名称必须是 3-36 个字符，以字母或数字开头，并且只能包含字母、数字、下划线和短划线。如果在工作区中找不到实验，则会创建一个新实验。
+要从工作区获取或创建实验，你需要通过实验名称请求实验。实验名称必须为 3-36 个字符，以字母或数字开头，并且只能包含字母、数字、下划线和短划线。如果在工作区中找不到实验，将创建一个新实验。
 
 现在你需要使用以下代码为训练创建一个计算集群。注意，这一步可能需要几分钟。
 
@@ -156,13 +156,13 @@ df = dataset.to_pandas_dataframe()
 df.describe()
 ```
 
-#### 2.5.2 自动化机器学习配置和训练
+#### 2.5.2 自动化机器学习配置与训练
 
 要设置 AutoML 配置，请使用 [AutoMLConfig 类](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)。
 
-根据文档描述，你可以调整许多参数。对于本项目，我们将使用以下参数：
+根据文档，有许多参数可以调整。对于本项目，我们将使用以下参数：
 
-- `experiment_timeout_minutes`：实验允许运行的最大时间（以分钟为单位），超时后实验会自动停止并生成结果。
+- `experiment_timeout_minutes`：实验允许运行的最大时间（以分钟为单位），超时后实验将自动停止并生成结果。
 - `max_concurrent_iterations`：实验允许的最大并发训练迭代次数。
 - `primary_metric`：用于确定实验状态的主要指标。
 - `compute_target`：运行自动化机器学习实验的 Azure Machine Learning 计算目标。
@@ -214,7 +214,7 @@ RunDetails(remote_run).show()
 
 ### 3.1 保存最佳模型
 
-`remote_run` 是一个 [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) 类型的对象。该对象包含 `get_output()` 方法，可返回最佳运行及其对应的拟合模型。
+`remote_run` 是一个 [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) 类型的对象。该对象包含 `get_output()` 方法，可返回最佳运行和相应的拟合模型。
 
 ```python
 best_run, fitted_model = remote_run.get_output()
@@ -241,9 +241,9 @@ model = best_run.register_model(model_name = model_name,
 
 ### 3.2 模型部署
 
-保存最佳模型后，我们可以使用 [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109) 类部署模型。InferenceConfig 表示用于部署的自定义环境的配置设置。[AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) 类表示部署为 Azure 容器实例上的 Web 服务端点的机器学习模型。部署的服务由模型、脚本和相关文件创建。生成的 Web 服务是一个负载均衡的 HTTP 端点，带有 REST API。你可以向该 API 发送数据并接收模型返回的预测。
+保存最佳模型后，我们可以使用 [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109) 类部署它。InferenceConfig 表示用于部署的自定义环境的配置设置。[AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) 类表示部署为 Azure 容器实例上的 Web 服务端点的机器学习模型。部署的服务由模型、脚本和相关文件创建。生成的 Web 服务是一个负载均衡的 HTTP 端点，带有 REST API。你可以向该 API 发送数据并接收模型返回的预测。
 
-使用 [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) 方法部署模型。
+模型通过 [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) 方法部署。
 
 ```python
 from azureml.core.model import InferenceConfig, Model
@@ -292,14 +292,14 @@ data = {
 test_sample = str.encode(json.dumps(data))
 ```
 
-然后将该输入发送到模型以获取预测：
+然后将此输入发送到模型以获取预测：
 ```python
 response = aci_service.run(input_data=test_sample)
 response
 ```
-这应该输出 `'{"result": [false]}'`。这意味着我们发送到端点的患者输入生成了预测 `false`，表示此人不太可能发生心脏病。
+这应该输出 `'{"result": [false]}'`。这意味着我们发送到端点的患者输入生成了预测值 `false`，表示此人不太可能发生心脏病。
 
-恭喜！你刚刚使用 Azure ML SDK 消耗了在 Azure ML 上部署和训练的模型！
+恭喜你！你刚刚使用 Azure ML SDK 消耗了在 Azure ML 上部署和训练的模型！
 
 > **_注意:_** 完成项目后，别忘了删除所有资源。
 
@@ -307,13 +307,13 @@ response
 
 通过 SDK 你可以做很多其他事情，但遗憾的是我们无法在这节课中全部讲解。不过好消息是，学会快速浏览 SDK 文档可以让你在学习中走得更远。查看 Azure ML SDK 文档，找到允许你创建管道的 `Pipeline` 类。管道是可以作为工作流执行的一系列步骤的集合。
 
-**提示:** 访问 [SDK 文档](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)，在搜索栏中输入关键词如 "Pipeline"。你应该能在搜索结果中找到 `azureml.pipeline.core.Pipeline` 类。
+**提示:** 访问 [SDK 文档](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)，在搜索栏中输入关键词，例如 "Pipeline"。你应该能在搜索结果中找到 `azureml.pipeline.core.Pipeline` 类。
 
-## [课后测验](https://ff-quizzes.netlify.app/en/ds/)
+## [课后测验](https://ff-quizzes.netlify.app/en/ds/quiz/37)
 
 ## 复习与自学
 
-在本课中，你学习了如何在云端使用 Azure ML SDK 训练、部署和消耗一个模型来预测心脏病风险。查看这个 [文档](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)，获取更多关于 Azure ML SDK 的信息。尝试使用 Azure ML SDK 创建你自己的模型。
+在本课中，你学习了如何使用 Azure ML SDK 在云端训练、部署和消耗一个模型来预测心脏病风险。查看这个 [文档](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)，获取有关 Azure ML SDK 的更多信息。尝试使用 Azure ML SDK 创建你自己的模型。
 
 ## 作业
 
@@ -322,4 +322,4 @@ response
 ---
 
 **免责声明**：  
-本文档使用AI翻译服务 [Co-op Translator](https://github.com/Azure/co-op-translator) 进行翻译。尽管我们努力确保翻译的准确性，但请注意，自动翻译可能包含错误或不准确之处。原始语言的文档应被视为权威来源。对于关键信息，建议使用专业人工翻译。我们不对因使用此翻译而产生的任何误解或误读承担责任。
+本文档使用AI翻译服务 [Co-op Translator](https://github.com/Azure/co-op-translator) 进行翻译。尽管我们努力确保翻译的准确性，但请注意，自动翻译可能包含错误或不准确之处。应以原始语言的文档作为权威来源。对于关键信息，建议使用专业人工翻译。我们不对因使用此翻译而产生的任何误解或误读承担责任。

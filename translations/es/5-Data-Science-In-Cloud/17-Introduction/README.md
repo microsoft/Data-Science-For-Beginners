@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "6a0556b17de4c8d1a9470b02247b01d4",
-  "translation_date": "2025-09-04T13:51:45+00:00",
+  "original_hash": "5f8e7cdefa096664ae86f795be571580",
+  "translation_date": "2025-09-05T13:33:31+00:00",
   "source_file": "5-Data-Science-In-Cloud/17-Introduction/README.md",
   "language_code": "es"
 }
@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 En esta lección, aprenderás los principios fundamentales de la Nube, luego verás por qué puede ser interesante utilizar servicios en la Nube para ejecutar tus proyectos de ciencia de datos y revisaremos algunos ejemplos de proyectos de ciencia de datos realizados en la Nube.
 
-## [Cuestionario previo a la lección](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/32)
+## [Cuestionario previo a la lección](https://ff-quizzes.netlify.app/en/ds/quiz/32)
 
 ## ¿Qué es la Nube?
 
@@ -31,17 +31,17 @@ La mayoría de los servicios de computación en la nube se dividen en tres categ
 
 * Infraestructura como Servicio (IaaS): los usuarios alquilan una infraestructura de TI como servidores y máquinas virtuales (VMs), almacenamiento, redes, sistemas operativos.
 * Plataforma como Servicio (PaaS): los usuarios alquilan un entorno para desarrollar, probar, entregar y gestionar aplicaciones de software. Los usuarios no necesitan preocuparse por configurar o gestionar la infraestructura subyacente de servidores, almacenamiento, redes y bases de datos necesarias para el desarrollo.
-* Software como Servicio (SaaS): los usuarios obtienen acceso a aplicaciones de software a través de Internet, bajo demanda y típicamente por suscripción. Los usuarios no necesitan preocuparse por alojar y gestionar la aplicación de software, la infraestructura subyacente o el mantenimiento, como actualizaciones de software y parches de seguridad.
+* Software como Servicio (SaaS): los usuarios obtienen acceso a aplicaciones de software a través de Internet, bajo demanda y típicamente mediante una suscripción. Los usuarios no necesitan preocuparse por alojar y gestionar la aplicación de software, la infraestructura subyacente o el mantenimiento, como actualizaciones de software y parches de seguridad.
 
 Algunos de los mayores proveedores de servicios en la nube son Amazon Web Services, Google Cloud Platform y Microsoft Azure.
 
 ## ¿Por qué elegir la Nube para la Ciencia de Datos?
 
-Los desarrolladores y profesionales de TI eligen trabajar con la Nube por muchas razones, incluyendo las siguientes:
+Los desarrolladores y profesionales de TI eligen trabajar con la Nube por muchas razones, entre ellas:
 
 * Innovación: puedes potenciar tus aplicaciones integrando servicios innovadores creados por los proveedores de la Nube directamente en tus aplicaciones.
 * Flexibilidad: solo pagas por los servicios que necesitas y puedes elegir entre una amplia gama de servicios. Normalmente pagas según el uso y adaptas tus servicios según tus necesidades cambiantes.
-* Presupuesto: no necesitas realizar inversiones iniciales para comprar hardware y software, configurar y operar centros de datos locales, y solo pagas por lo que utilizas.
+* Presupuesto: no necesitas hacer inversiones iniciales para comprar hardware y software, configurar y operar centros de datos locales, y solo pagas por lo que utilizas.
 * Escalabilidad: tus recursos pueden escalar según las necesidades de tu proyecto, lo que significa que tus aplicaciones pueden usar más o menos potencia de computación, almacenamiento y ancho de banda, adaptándose a factores externos en cualquier momento.
 * Productividad: puedes enfocarte en tu negocio en lugar de dedicar tiempo a tareas que pueden ser gestionadas por otros, como administrar centros de datos.
 * Fiabilidad: la computación en la nube ofrece varias formas de respaldar continuamente tus datos y puedes configurar planes de recuperación ante desastres para mantener tu negocio y servicios funcionando, incluso en tiempos de crisis.
@@ -60,7 +60,6 @@ Estas son algunas de las razones más comunes por las que las personas eligen us
 Hagamos esto más tangible revisando un par de escenarios.
 
 ### Análisis de sentimiento en redes sociales en tiempo real
-
 Comenzaremos con un escenario comúnmente estudiado por personas que inician con el aprendizaje automático: análisis de sentimiento en redes sociales en tiempo real.
 
 Supongamos que diriges un sitio web de noticias y quieres aprovechar datos en vivo para entender qué contenido podría interesar a tus lectores. Para saber más sobre esto, puedes construir un programa que realice análisis de sentimiento en tiempo real de datos provenientes de publicaciones en Twitter, sobre temas relevantes para tus lectores.
@@ -70,7 +69,7 @@ Los indicadores clave que observarás son el volumen de tweets sobre temas espec
 Los pasos necesarios para crear este proyecto son los siguientes:
 
 * Crear un centro de eventos para la entrada de streaming, que recolectará datos de Twitter.
-* Configurar e iniciar una aplicación cliente de Twitter, que llamará a las APIs de Streaming de Twitter.
+* Configurar y iniciar una aplicación cliente de Twitter, que llamará a las APIs de Streaming de Twitter.
 * Crear un trabajo de Stream Analytics.
 * Especificar la entrada y consulta del trabajo.
 * Crear un destino de salida y especificar la salida del trabajo.
@@ -79,17 +78,15 @@ Los pasos necesarios para crear este proyecto son los siguientes:
 Para ver el proceso completo, consulta la [documentación](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends?WT.mc_id=academic-77958-bethanycheum&ocid=AID30411099).
 
 ### Análisis de artículos científicos
-
 Tomemos otro ejemplo de un proyecto creado por [Dmitry Soshnikov](http://soshnikov.com), uno de los autores de este currículo.
 
-Dmitry creó una herramienta que analiza artículos sobre COVID. Al revisar este proyecto, verás cómo puedes crear una herramienta que extraiga conocimiento de artículos científicos, obtenga información y ayude a los investigadores a navegar eficientemente a través de grandes colecciones de artículos.
+Dmitry creó una herramienta que analiza artículos sobre COVID. Al revisar este proyecto, verás cómo puedes crear una herramienta que extraiga conocimiento de artículos científicos, obtenga información y ayude a los investigadores a navegar por grandes colecciones de artículos de manera eficiente.
 
 Veamos los diferentes pasos utilizados para esto:
-
 * Extraer y preprocesar información con [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 * Usar [Azure ML](https://azure.microsoft.com/services/machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) para paralelizar el procesamiento.
 * Almacenar y consultar información con [Cosmos DB](https://azure.microsoft.com/services/cosmos-db?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
-* Crear un panel interactivo para exploración y visualización de datos usando Power BI.
+* Crear un panel interactivo para la exploración y visualización de datos usando Power BI.
 
 Para ver el proceso completo, visita el [blog de Dmitry](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/).
 
@@ -104,7 +101,7 @@ Fuentes:
 
 ## Cuestionario posterior a la lección
 
-## [Cuestionario posterior a la lección](https://ff-quizzes.netlify.app/en/ds/)
+## [Cuestionario posterior a la lección](https://ff-quizzes.netlify.app/en/ds/quiz/33)
 
 ## Tarea
 
@@ -113,4 +110,4 @@ Fuentes:
 ---
 
 **Descargo de responsabilidad**:  
-Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Si bien nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.
+Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Si bien nos esforzamos por garantizar la precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.

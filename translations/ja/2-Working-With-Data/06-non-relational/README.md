@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "54c5a1c74aecb69d2f9099300a4b7eea",
-  "translation_date": "2025-09-04T13:11:14+00:00",
+  "original_hash": "c182e87f9f80be7e7cdffc7b40bbfccf",
+  "translation_date": "2025-09-05T12:38:33+00:00",
   "source_file": "2-Working-With-Data/06-non-relational/README.md",
   "language_code": "ja"
 }
@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |NoSQLデータの操作 - _スケッチノート by [@nitya](https://twitter.com/nitya)_ |
 
-## [講義前クイズ](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/10)
+## [講義前クイズ](https://ff-quizzes.netlify.app/en/ds/quiz/10)
 
 データはリレーショナルデータベースに限定されません。このレッスンでは、非リレーショナルデータに焦点を当て、スプレッドシートとNoSQLの基本について学びます。
 
@@ -21,7 +21,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 スプレッドシートは、セットアップや開始に手間がかからないため、データを保存・探索するための一般的な方法です。このレッスンでは、スプレッドシートの基本的な構成要素、数式や関数について学びます。例はMicrosoft Excelを使用して説明しますが、他のスプレッドシートソフトウェアでも似たような名称や手順が多くあります。
 
-![空のMicrosoft Excelワークブックと2つのワークシート](../../../../translated_images/parts-of-spreadsheet.120711c82aa18a45c3e62a491a15bba0a31ab0e9db407ec022702fed8ffd89bf.ja.png)
+![空のMicrosoft Excelワークブックと2つのワークシート](../../../../2-Working-With-Data/06-non-relational/images/parts-of-spreadsheet.png)
 
 スプレッドシートはファイルであり、コンピュータ、デバイス、またはクラウドベースのファイルシステムでアクセス可能です。ソフトウェア自体はブラウザベースの場合もあれば、コンピュータにインストールするアプリケーションやアプリとしてダウンロードする必要がある場合もあります。Excelでは、これらのファイルは**ワークブック**と定義されており、このレッスンではこの用語を使用します。
 
@@ -31,41 +31,41 @@ Excelワークブックのこれらの基本要素を使用して、[Microsoft T
 
 ### 在庫管理
 
-"InventoryExample"という名前のスプレッドシートファイルは、在庫内のアイテムをフォーマットしたスプレッドシートで、3つのワークシートが含まれています。タブには「Inventory List」「Inventory Pick List」「Bin Lookup」とラベル付けされています。Inventory Listワークシートの4行目はヘッダーで、ヘッダー列内の各セルの値を説明しています。
+"InventoryExample"という名前のスプレッドシートファイルは、在庫内のアイテムをフォーマットしたスプレッドシートで、3つのワークシートが含まれています。タブには「Inventory List」、「Inventory Pick List」、「Bin Lookup」とラベル付けされています。Inventory Listワークシートの4行目はヘッダーで、ヘッダー列内の各セルの値を説明しています。
 
-![Microsoft Excelの在庫リスト例からの数式のハイライト](../../../../translated_images/formula-excel.ad1068c220892f5ead570d12f2394897961d31a5043a1dd4e6fc5d7690c7a14e.ja.png)
+![Microsoft Excelの在庫リスト例からの数式のハイライト](../../../../2-Working-With-Data/06-non-relational/images/formula-excel.png)
 
-セルが他のセルの値に依存して値を生成する場合があります。在庫リストスプレッドシートでは、在庫内の各アイテムのコストを追跡していますが、在庫全体の価値を知りたい場合はどうすればよいでしょうか。[**数式**](https://support.microsoft.com/en-us/office/overview-of-formulas-34519a4e-1e8d-4f4b-84d4-d642c4f63263)はセルデータに対して操作を行い、この例では在庫の価値を計算するために使用されます。このスプレッドシートでは、Inventory Value列に数式を使用して、QTYヘッダーの下の数量とCOSTヘッダーの下のコストを掛け合わせて各アイテムの価値を計算しています。セルをダブルクリックまたはハイライトすると数式が表示されます。数式は等号（=）で始まり、その後に計算や操作が続きます。
+セルが他のセルの値に依存して値を生成する場合があります。この在庫リストスプレッドシートでは、在庫内の各アイテムのコストを追跡していますが、在庫全体の価値を知りたい場合はどうすればよいでしょうか。[**数式**](https://support.microsoft.com/en-us/office/overview-of-formulas-34519a4e-1e8d-4f4b-84d4-d642c4f63263)はセルデータに対して操作を行い、この例では在庫の価値を計算するために使用されます。このスプレッドシートでは、Inventory Value列に数式を使用して、QTYヘッダーの下の数量とCOSTヘッダーの下のコストを掛け合わせて各アイテムの価値を計算しています。セルをダブルクリックまたはハイライトすると数式が表示されます。数式は等号（=）で始まり、その後に計算や操作が続きます。
 
-![Microsoft Excelの在庫リスト例からの関数のハイライト](../../../../translated_images/function-excel.be2ae4feddc10ca089f3d4363040d93b7fd046c8d4f83ba975ec46483ee99895.ja.png)
+![Microsoft Excelの在庫リスト例からの関数のハイライト](../../../../2-Working-With-Data/06-non-relational/images/function-excel.png)
 
-在庫価値のすべての値を合計して総価値を求める別の数式を使用することもできます。各セルを加算して合計を生成することもできますが、それは手間のかかる作業です。Excelには[**関数**](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89)と呼ばれる、セル値に対して計算を行うための事前定義された数式があります。関数には引数が必要で、これらは計算に使用される必要な値です。関数が複数の引数を必要とする場合、特定の順序でリストする必要があります。そうしないと、関数が正しい値を計算できない可能性があります。この例ではSUM関数を使用し、Inventory Valueの値を引数として使用して合計を生成し、B3（3行目、列B）にリストされています。
+在庫価値のすべての値を合計して総価値を求める別の数式を使用することもできます。各セルを加算して合計を生成することもできますが、それは手間のかかる作業です。Excelには[**関数**](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89)と呼ばれる、セル値に対して計算を行うための事前定義された数式があります。関数には引数が必要で、これは計算を行うために必要な値です。複数の引数が必要な場合、それらは特定の順序でリストされる必要があり、そうでないと関数が正しい値を計算できない場合があります。この例ではSUM関数を使用し、Inventory Valueの値を引数として使用して合計を生成し、B3（3行目、列B）にリストされています。
 
 ## NoSQL
 
-NoSQLは、非リレーショナルデータを保存するさまざまな方法を指す包括的な用語であり、「非SQL」「非リレーショナル」「SQLだけではない」と解釈されることがあります。この種のデータベースシステムは、4つのタイプに分類されます。
+NoSQLは、非リレーショナルデータを保存するさまざまな方法を指す包括的な用語であり、「非SQL」、「非リレーショナル」、または「SQLだけではない」と解釈されることがあります。このタイプのデータベースシステムは、4つのタイプに分類されます。
 
-![4つのユニークな数値キーとそれに関連付けられた4つの異なる値を示すキー値データストアの図](../../../../translated_images/kv-db.e8f2b75686bbdfcba0c827b9272c10ae0821611ea0fe98429b9d13194383afa6.ja.png)
+![キーと値のデータストアのグラフィカル表現。4つの一意の数値キーが4つの異なる値に関連付けられている](../../../../2-Working-With-Data/06-non-relational/images/kv-db.png)
 > 出典: [Michał Białecki Blog](https://www.michalbialecki.com/2018/03/18/azure-cosmos-db-key-value-database-cloud/)
 
-[キー値](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#keyvalue-data-stores)データベースは、ユニークなキー（値に関連付けられた一意の識別子）と値をペアにします。これらのペアは、適切なハッシュ関数を使用した[ハッシュテーブル](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/)を使用して保存されます。
+[キーと値](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#keyvalue-data-stores)のデータベースは、一意の識別子であるキーと値をペアにして保存します。これらのペアは、適切なハッシュ関数を使用した[ハッシュテーブル](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/)を使用して保存されます。
 
-![人々、彼らの興味、場所の関係を示すグラフデータストアの図](../../../../translated_images/graph-db.d13629152f79a9dac895b20fa7d841d4d4d6f6008b1382227c3bbd200fd4cfa1.ja.png)
+![グラフデータストアのグラフィカル表現。人々、興味、場所の関係を示している](../../../../2-Working-With-Data/06-non-relational/images/graph-db.png)
 > 出典: [Microsoft](https://docs.microsoft.com/en-us/azure/cosmos-db/graph/graph-introduction#graph-database-by-example)
 
-[グラフ](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#graph-data-stores)データベースはデータ内の関係を記述し、ノードとエッジのコレクションとして表されます。ノードは、学生や銀行明細書など、現実世界に存在するエンティティを表します。エッジは、2つのエンティティ間の関係を表します。各ノードとエッジには、それぞれの追加情報を提供するプロパティがあります。
+[グラフ](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#graph-data-stores)データベースはデータの関係を記述し、ノードとエッジの集合として表されます。ノードは、学生や銀行明細書など、現実世界に存在するエンティティを表します。エッジは2つのエンティティ間の関係を表します。各ノードとエッジには、それぞれの追加情報を提供するプロパティがあります。
 
-![顧客データベースを示すカラムナーデータストアの図。2つのカラムファミリー「Identity」と「Contact Info」が含まれる](../../../../translated_images/columnar-db.ffcfe73c3e9063a8c8f93f8ace85e1200863584b1e324eb5159d8ca10f62ec04.ja.png)
+![カラム型データストアのグラフィカル表現。顧客データベースに「Identity」と「Contact Info」という2つのカラムファミリーがある](../../../../2-Working-With-Data/06-non-relational/images/columnar-db.png)
 
-[カラムナー](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores)データストアは、リレーショナルデータ構造のようにデータを列と行に整理しますが、各列はカラムファミリーと呼ばれるグループに分けられます。1つのカラム内のすべてのデータは関連しており、1つの単位で取得および変更できます。
+[カラム型](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores)データストアは、リレーショナルデータ構造のようにデータを列と行に整理しますが、各列はカラムファミリーと呼ばれるグループに分けられます。同じ列内のすべてのデータは関連しており、一つの単位として取得および変更することができます。
 
-### Azure Cosmos DBを使用したドキュメントデータストア
+### Azure Cosmos DBを使ったドキュメントデータストア
 
-[ドキュメント](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#document-data-stores)データストアは、キー値データストアの概念を基に構築され、フィールドとオブジェクトの一連で構成されています。このセクションでは、Cosmos DBエミュレーターを使用してドキュメントデータベースを探ります。
+[ドキュメント](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#document-data-stores)データストアは、キーと値のデータストアの概念を基に構築され、フィールドとオブジェクトの一連で構成されています。このセクションでは、Cosmos DBエミュレーターを使用してドキュメントデータベースを探ります。
 
-Cosmos DBデータベースは「SQLだけではない」という定義に当てはまり、Cosmos DBのドキュメントデータベースはSQLを使用してデータをクエリします。[前回のレッスン](../05-relational-databases/README.md)ではSQLの基本を学びましたが、ここでも同じクエリをいくつか適用できます。Cosmos DBエミュレーターを使用して、ローカルコンピュータ上でドキュメントデータベースを作成し、探索します。エミュレーターについての詳細は[こちら](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21)をご覧ください。
+Cosmos DBデータベースは「SQLだけではない」という定義に当てはまり、Cosmos DBのドキュメントデータベースはデータをクエリするためにSQLを使用します。[前回のレッスン](../05-relational-databases/README.md)ではSQLの基本を学びましたが、ここではドキュメントデータベースに同じクエリを適用することができます。Cosmos DBエミュレーターを使用すると、ローカルコンピュータ上でドキュメントデータベースを作成し、探索することができます。エミュレーターについての詳細は[こちら](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21)をご覧ください。
 
-ドキュメントはフィールドとオブジェクト値のコレクションであり、フィールドはオブジェクト値が何を表しているかを説明します。以下はドキュメントの例です。
+ドキュメントはフィールドとオブジェクト値の集合であり、フィールドはオブジェクト値が何を表しているかを説明します。以下はドキュメントの例です。
 
 ```json
 {
@@ -82,33 +82,33 @@ Cosmos DBデータベースは「SQLだけではない」という定義に当�
 
 このドキュメントで注目すべきフィールドは、`firstname`、`id`、`age`です。アンダースコア付きの他のフィールドはCosmos DBによって生成されました。
 
-#### Cosmos DBエミュレーターを使用したデータの探索
+#### Cosmos DBエミュレーターを使ったデータの探索
 
-エミュレーターは[Windows用はこちら](https://aka.ms/cosmosdb-emulator)からダウンロードしてインストールできます。macOSおよびLinuxでエミュレーターを実行する方法については、この[ドキュメント](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21#run-on-linux-macos)を参照してください。
+エミュレーターは[Windows用はこちら](https://aka.ms/cosmosdb-emulator)からダウンロードしてインストールできます。macOSやLinuxでエミュレーターを実行する方法については、この[ドキュメント](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21#run-on-linux-macos)を参照してください。
 
 エミュレーターを起動するとブラウザウィンドウが開き、Explorerビューでドキュメントを探索できます。
 
-![Cosmos DBエミュレーターのExplorerビュー](../../../../translated_images/cosmosdb-emulator-explorer.a1c80b1347206fe2f30f88fc123821636587d04fc5a56a9eb350c7da6b31f361.ja.png)
+![Cosmos DBエミュレーターのExplorerビュー](../../../../2-Working-With-Data/06-non-relational/images/cosmosdb-emulator-explorer.png)
 
-もし一緒に進めている場合は、「Start with Sample」をクリックしてSampleDBというサンプルデータベースを生成してください。SampleDBを展開すると、`Persons`というコンテナが見つかります。コンテナはアイテムのコレクションを保持しており、これがコンテナ内のドキュメントです。`Items`の下にある4つの個別のドキュメントを探索できます。
+もし一緒に進めている場合は、「Start with Sample」をクリックしてSampleDBというサンプルデータベースを生成してください。SampleDBを展開すると、`Persons`というコンテナーが見つかります。コンテナーはアイテムのコレクションを保持しており、これがコンテナー内のドキュメントです。`Items`の下にある4つの個別のドキュメントを探索できます。
 
-![Cosmos DBエミュレーターでサンプルデータを探索](../../../../translated_images/cosmosdb-emulator-persons.bf640586a7077c8985dfd3071946465c8e074c722c7c202d6d714de99a93b90a.ja.png)
+![Cosmos DBエミュレーターでサンプルデータを探索](../../../../2-Working-With-Data/06-non-relational/images/cosmosdb-emulator-persons.png)
 
-#### Cosmos DBエミュレーターを使用したドキュメントデータのクエリ
+#### Cosmos DBエミュレーターを使ったドキュメントデータのクエリ
 
-新しいSQLクエリボタン（左から2番目のボタン）をクリックすると、サンプルデータをクエリすることもできます。
+新しいSQLクエリボタン（左から2番目のボタン）をクリックすると、サンプルデータにクエリを実行できます。
 
-`SELECT * FROM c`はコンテナ内のすべてのドキュメントを返します。where句を追加して、40歳未満の人を見つけてみましょう。
+`SELECT * FROM c` はコンテナー内のすべてのドキュメントを返します。where句を追加して、40歳未満の人を見つけてみましょう。
 
 `SELECT * FROM c where c.age < 40`
 
-![Cosmos DBエミュレーターで40歳未満のドキュメントを見つけるためのSELECTクエリを実行](../../../../translated_images/cosmosdb-emulator-persons-query.6905ebb497e3cd047cd96e55a0a03f69ce1b91b2b3d8c147e617b746b22b7e33.ja.png)
+![Cosmos DBエミュレーターで40歳未満のドキュメントを見つけるためのSELECTクエリを実行](../../../../2-Working-With-Data/06-non-relational/images/cosmosdb-emulator-persons-query.png)
 
 このクエリは2つのドキュメントを返します。それぞれのドキュメントのage値が40未満であることに注目してください。
 
 #### JSONとドキュメント
 
-JavaScript Object Notation (JSON)に詳しい場合、ドキュメントがJSONに似ていることに気付くでしょう。このディレクトリには`PersonsData.json`というファイルがあり、エミュレーターのPersonsコンテナに`Upload Item`ボタンを使ってアップロードできます。
+JavaScript Object Notation (JSON) に詳しい方は、ドキュメントがJSONに似ていることに気付くでしょう。このディレクトリには`PersonsData.json`というファイルがあり、エミュレーターのPersonsコンテナーに`Upload Item`ボタンを使ってアップロードできます。
 
 ほとんどの場合、JSONデータを返すAPIは、ドキュメントデータベースに直接転送して保存することができます。以下は別のドキュメントで、MicrosoftのTwitterアカウントから取得したツイートを表しています。このデータはTwitter APIを使用して取得され、その後Cosmos DBに挿入されました。
 
@@ -128,25 +128,25 @@ JavaScript Object Notation (JSON)に詳しい場合、ドキュメントがJSON�
 
 ## 🚀 チャレンジ
 
-`TwitterData.json`というファイルをSampleDBデータベースにアップロードできます。これを別のコンテナに追加することをお勧めします。以下の手順で行えます：
+`TwitterData.json`というファイルをSampleDBデータベースにアップロードできます。これを別のコンテナーに追加することをお勧めします。以下の手順で行えます：
 
-1. 右上の新しいコンテナボタンをクリック
-1. 既存のデータベース（SampleDB）を選択し、コンテナIDを作成
+1. 右上の新しいコンテナーボタンをクリック
+1. 既存のデータベース（SampleDB）を選択し、コンテナーIDを作成
 1. パーティションキーを`/id`に設定
 1. OKをクリック（このビューの他の情報は無視して構いません。これはローカルマシンで実行される小さなデータセットです）
-1. 新しいコンテナを開き、`Upload Item`ボタンでTwitter Dataファイルをアップロード
+1. 新しいコンテナーを開き、`Upload Item`ボタンでTwitter Dataファイルをアップロード
 
-いくつかのSELECTクエリを実行して、textフィールドにMicrosoftが含まれるドキュメントを見つけてみてください。ヒント：[LIKEキーワード](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character)を使用してみてください。
+いくつかのSELECTクエリを実行して、textフィールドにMicrosoftが含まれているドキュメントを見つけてみてください。ヒント：[LIKEキーワード](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character)を使用してみてください。
 
-## [講義後クイズ](https://ff-quizzes.netlify.app/en/ds/)
+## [講義後クイズ](https://ff-quizzes.netlify.app/en/ds/quiz/11)
 
 ## 復習と自己学習
 
-- このレッスンではカバーしていない、スプレッドシートに追加されたフォーマットや機能がいくつかあります。Excelについてもっと学びたい場合は、Microsoftの[豊富なドキュメントとビデオライブラリ](https://support.microsoft.com/excel)をご覧ください。
+- このレッスンではカバーしていないスプレッドシートの追加のフォーマットや機能があります。MicrosoftはExcelに関する[豊富なドキュメントとビデオライブラリ](https://support.microsoft.com/excel)を提供していますので、さらに学びたい方はぜひご覧ください。
 
-- 非リレーショナルデータのさまざまなタイプの特性については、このアーキテクチャドキュメントをご覧ください：[非リレーショナルデータとNoSQL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data)
+- 非リレーショナルデータの特性についての詳細は、このアーキテクチャドキュメントをご覧ください：[非リレーショナルデータとNoSQL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data)
 
-- Cosmos DBは、ここで説明したさまざまなNoSQLタイプを保存できるクラウドベースの非リレーショナルデータベースです。この[Cosmos DB Microsoft Learn Module](https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/)でこれらのタイプについてさらに学ぶことができます。
+- Cosmos DBは、レッスンで紹介したさまざまなNoSQLタイプを保存できるクラウドベースの非リレーショナルデータベースです。この[Cosmos DB Microsoft Learnモジュール](https://docs.microsoft.com/en-us/learn/paths/work-with-nosql-data-in-azure-cosmos-db/)でこれらのタイプについてさらに学ぶことができます。
 
 ## 課題
 
@@ -155,4 +155,4 @@ JavaScript Object Notation (JSON)に詳しい場合、ドキュメントがJSON�
 ---
 
 **免責事項**:  
-この文書は、AI翻訳サービス [Co-op Translator](https://github.com/Azure/co-op-translator) を使用して翻訳されています。正確性を追求しておりますが、自動翻訳には誤りや不正確な表現が含まれる可能性があります。元の言語で記載された原文が正式な情報源と見なされるべきです。重要な情報については、専門の人間による翻訳を推奨します。この翻訳の利用に起因する誤解や誤認について、当社は一切の責任を負いません。
+この文書は、AI翻訳サービス [Co-op Translator](https://github.com/Azure/co-op-translator) を使用して翻訳されています。正確性を期すよう努めておりますが、自動翻訳には誤りや不正確な表現が含まれる可能性があります。元の言語で記載された原文が正式な情報源とみなされるべきです。重要な情報については、専門の人間による翻訳を推奨します。この翻訳の利用に起因する誤解や誤認について、当方は一切の責任を負いません。

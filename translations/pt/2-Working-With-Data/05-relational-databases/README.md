@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "11b166fbcb7eaf82308cdc24b562f687",
-  "translation_date": "2025-09-04T13:41:26+00:00",
+  "original_hash": "9399d7b4767e75068f95ce5c660b285c",
+  "translation_date": "2025-09-05T13:17:57+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "pt"
 }
@@ -13,9 +13,9 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Trabalhar com Dados: Bases de Dados Relacionais - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
-É provável que já tenha utilizado uma folha de cálculo no passado para armazenar informações. Tinha um conjunto de linhas e colunas, onde as linhas continham as informações (ou dados) e as colunas descreviam essas informações (por vezes chamadas de metadados). Uma base de dados relacional é construída com base neste princípio central de colunas e linhas em tabelas, permitindo que tenha informações distribuídas por várias tabelas. Isto permite trabalhar com dados mais complexos, evitar duplicação e ter flexibilidade na forma como explora os dados. Vamos explorar os conceitos de uma base de dados relacional.
+É provável que já tenha utilizado uma folha de cálculo no passado para armazenar informações. Tinha um conjunto de linhas e colunas, onde as linhas continham as informações (ou dados) e as colunas descreviam essas informações (por vezes chamadas de metadados). Uma base de dados relacional é construída com base neste princípio fundamental de colunas e linhas em tabelas, permitindo que tenha informações distribuídas por várias tabelas. Isto permite trabalhar com dados mais complexos, evitar duplicação e ter flexibilidade na forma como explora os dados. Vamos explorar os conceitos de uma base de dados relacional.
 
-## [Questionário pré-aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/8)
+## [Questionário pré-aula](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
 ## Tudo começa com tabelas
 
@@ -33,7 +33,7 @@ Repare que os nomes das colunas **cidade**, **país** e **população** descreve
 
 ## As limitações de uma abordagem de tabela única
 
-É provável que a tabela acima lhe pareça relativamente familiar. Vamos começar a adicionar alguns dados adicionais à nossa base de dados em crescimento - precipitação anual (em milímetros). Vamos focar-nos nos anos de 2018, 2019 e 2020. Se adicionássemos os dados para Tóquio, poderia ficar algo assim:
+Provavelmente, a tabela acima parece-lhe relativamente familiar. Vamos começar a adicionar alguns dados adicionais à nossa base de dados em crescimento - precipitação anual (em milímetros). Vamos focar-nos nos anos 2018, 2019 e 2020. Se adicionássemos os dados para Tóquio, poderia ficar algo assim:
 
 | Cidade | País  | Ano | Quantidade |
 | ------ | ----- | --- | ---------- |
@@ -51,13 +51,13 @@ OK, vamos tentar outra abordagem. Vamos adicionar novas colunas para cada ano:
 | Atlanta  | Estados Unidos| 1779 | 1111 | 1683 |
 | Auckland | Nova Zelândia | 1386 | 942  | 1176 |
 
-Embora isto evite a duplicação de linhas, adiciona outros desafios. Teríamos de modificar a estrutura da nossa tabela cada vez que houvesse um novo ano. Além disso, à medida que os nossos dados crescem, ter os anos como colunas tornará mais difícil recuperar e calcular valores.
+Embora isto evite a duplicação de linhas, adiciona outros desafios. Teríamos de modificar a estrutura da tabela cada vez que houvesse um novo ano. Além disso, à medida que os dados crescem, ter os anos como colunas tornará mais difícil recuperar e calcular valores.
 
-É por isso que precisamos de múltiplas tabelas e relações. Ao dividir os nossos dados, podemos evitar duplicação e ter mais flexibilidade na forma como trabalhamos com eles.
+É por isso que precisamos de múltiplas tabelas e relações. Ao dividir os dados, podemos evitar duplicação e ter mais flexibilidade na forma como trabalhamos com eles.
 
 ## Os conceitos de relações
 
-Vamos voltar aos nossos dados e determinar como queremos dividi-los. Sabemos que queremos armazenar o nome e o país das nossas cidades, então isto provavelmente funcionará melhor numa tabela.
+Vamos voltar aos nossos dados e determinar como queremos dividi-los. Sabemos que queremos armazenar o nome e o país das nossas cidades, por isso isto funcionará melhor numa tabela.
 
 | Cidade   | País          |
 | -------- | ------------- |
@@ -77,9 +77,9 @@ Mas antes de criarmos a próxima tabela, precisamos de descobrir como referencia
 | 2         | Atlanta  | Estados Unidos|
 | 3         | Auckland | Nova Zelândia |
 
-> ✅ Vai reparar que usamos os termos "id" e "chave primária" de forma intercambiável durante esta lição. Os conceitos aqui aplicam-se a DataFrames, que irá explorar mais tarde. DataFrames não utilizam a terminologia de "chave primária", mas irá notar que se comportam de forma muito semelhante.
+> ✅ Vai reparar que usamos os termos "id" e "chave primária" de forma intercambiável durante esta lição. Os conceitos aqui aplicam-se a DataFrames, que irá explorar mais tarde. Os DataFrames não utilizam a terminologia de "chave primária", mas irá notar que se comportam de forma muito semelhante.
 
-Com a nossa tabela de cidades criada, vamos armazenar os dados de precipitação. Em vez de duplicar as informações completas sobre a cidade, podemos usar o ID. Devemos também garantir que a tabela recém-criada tenha uma coluna *id*, já que todas as tabelas devem ter um ID ou chave primária.
+Com a nossa tabela de cidades criada, vamos armazenar os dados de precipitação. Em vez de duplicar as informações completas sobre a cidade, podemos usar o ID. Devemos também garantir que a tabela recém-criada tem uma coluna *id*, já que todas as tabelas devem ter um ID ou chave primária.
 
 ### precipitação
 
@@ -101,9 +101,9 @@ Repare na coluna **cidade_id** dentro da tabela recém-criada **precipitação**
 
 ## Recuperar os dados
 
-Com os nossos dados separados em duas tabelas, pode estar a perguntar-se como os recuperamos. Se estivermos a usar uma base de dados relacional como MySQL, SQL Server ou Oracle, podemos usar uma linguagem chamada Structured Query Language ou SQL. SQL (por vezes pronunciado como "sequel") é uma linguagem padrão usada para recuperar e modificar dados numa base de dados relacional.
+Com os nossos dados separados em duas tabelas, pode estar a perguntar-se como os recuperamos. Se estivermos a usar uma base de dados relacional como MySQL, SQL Server ou Oracle, podemos usar uma linguagem chamada Structured Query Language ou SQL. SQL (por vezes pronunciado "sequel") é uma linguagem padrão usada para recuperar e modificar dados numa base de dados relacional.
 
-Para recuperar dados, usa-se o comando `SELECT`. No seu núcleo, **seleciona** as colunas que deseja ver **de** dentro da tabela onde estão contidas. Se quisesse exibir apenas os nomes das cidades, poderia usar o seguinte:
+Para recuperar dados, utiliza-se o comando `SELECT`. Na sua essência, **seleciona-se** as colunas que se quer ver **a partir** da tabela onde estão contidas. Se quisesse exibir apenas os nomes das cidades, poderia usar o seguinte:
 
 ```sql
 SELECT city
@@ -117,7 +117,7 @@ FROM cities;
 
 `SELECT` é onde lista as colunas, e `FROM` é onde lista as tabelas.
 
-> [NOTE] A sintaxe SQL não distingue maiúsculas de minúsculas, o que significa que `select` e `SELECT` têm o mesmo significado. No entanto, dependendo do tipo de base de dados que está a usar, as colunas e tabelas podem ser sensíveis a maiúsculas e minúsculas. Como resultado, é uma boa prática tratar tudo em programação como sensível a maiúsculas e minúsculas. Quando escreve consultas SQL, a convenção comum é colocar as palavras-chave em letras maiúsculas.
+> [NOTE] A sintaxe SQL não distingue maiúsculas de minúsculas, o que significa que `select` e `SELECT` têm o mesmo significado. No entanto, dependendo do tipo de base de dados que está a usar, as colunas e tabelas podem ser sensíveis a maiúsculas e minúsculas. Como resultado, é uma boa prática tratar sempre tudo em programação como sendo sensível a maiúsculas e minúsculas. Quando escreve consultas SQL, a convenção comum é colocar as palavras-chave em letras maiúsculas.
 
 A consulta acima exibirá todas as cidades. Vamos imaginar que só queríamos exibir cidades na Nova Zelândia. Precisamos de algum tipo de filtro. A palavra-chave SQL para isto é `WHERE`, ou "onde algo é verdadeiro".
 
@@ -132,9 +132,9 @@ WHERE country = 'New Zealand';
 
 ## Juntar dados
 
-Até agora, recuperámos dados de uma única tabela. Agora queremos juntar os dados das tabelas **cidades** e **precipitação**. Isto é feito através de um *join*. Irá efetivamente criar uma ligação entre as duas tabelas e combinar os valores de uma coluna de cada tabela.
+Até agora, recuperámos dados de uma única tabela. Agora queremos reunir os dados das tabelas **cidades** e **precipitação**. Isto é feito ao *juntar* as tabelas. Irá efetivamente criar uma ligação entre as duas tabelas e combinar os valores de uma coluna de cada tabela.
 
-No nosso exemplo, vamos combinar a coluna **cidade_id** em **precipitação** com a coluna **cidade_id** em **cidades**. Isto irá associar o valor de precipitação à sua respetiva cidade. O tipo de join que vamos realizar é chamado de *inner join*, o que significa que, se alguma linha não corresponder a nada da outra tabela, não será exibida. No nosso caso, todas as cidades têm dados de precipitação, então tudo será exibido.
+No nosso exemplo, iremos combinar a coluna **cidade_id** em **precipitação** com a coluna **cidade_id** em **cidades**. Isto irá associar o valor de precipitação à sua respetiva cidade. O tipo de junção que iremos realizar é chamado de *inner join*, o que significa que, se alguma linha não corresponder a nada da outra tabela, não será exibida. No nosso caso, todas as cidades têm dados de precipitação, por isso tudo será exibido.
 
 Vamos recuperar os dados de precipitação de 2019 para todas as nossas cidades.
 
@@ -167,7 +167,7 @@ WHERE rainfall.year = 2019
 
 ## Resumo
 
-Bases de dados relacionais são centradas na divisão de informações entre múltiplas tabelas, que são depois reunidas para exibição e análise. Isto proporciona um elevado grau de flexibilidade para realizar cálculos e manipular dados. Viu os conceitos principais de uma base de dados relacional e como realizar um join entre duas tabelas.
+Bases de dados relacionais são centradas na divisão de informações entre múltiplas tabelas, que são depois reunidas para exibição e análise. Isto proporciona um elevado grau de flexibilidade para realizar cálculos e manipular dados. Viu os conceitos fundamentais de uma base de dados relacional e como realizar uma junção entre duas tabelas.
 
 ## 🚀 Desafio
 
@@ -175,7 +175,7 @@ Existem inúmeras bases de dados relacionais disponíveis na internet. Pode expl
 
 ## Questionário pós-aula
 
-## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ds/)
+## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ds/quiz/9)
 
 ## Revisão & Autoestudo
 
@@ -192,4 +192,4 @@ Existem vários recursos disponíveis no [Microsoft Learn](https://docs.microsof
 ---
 
 **Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original no seu idioma nativo deve ser considerado a fonte oficial. Para informações críticas, recomenda-se uma tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas resultantes do uso desta tradução.
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, é importante notar que traduções automáticas podem conter erros ou imprecisões. O documento original na sua língua nativa deve ser considerado a fonte autoritária. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes da utilização desta tradução.
