@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "39f3b3a9d873eaa522c2e792ce0ca503",
-  "translation_date": "2025-09-04T21:32:54+00:00",
+  "original_hash": "bd4da10766c64fce4294a98f6479dfb0",
+  "translation_date": "2025-09-05T17:42:30+00:00",
   "source_file": "5-Data-Science-In-Cloud/18-Low-Code/README.md",
   "language_code": "cs"
 }
@@ -36,25 +36,25 @@ Obsah:
   - [Revize a samostudium](../../../../5-Data-Science-In-Cloud/18-Low-Code)
   - [Úkol](../../../../5-Data-Science-In-Cloud/18-Low-Code)
   
-## [Kvíz před lekcí](https://ff-quizzes.netlify.app/en/ds/)
+## [Kvíz před lekcí](https://ff-quizzes.netlify.app/en/ds/quiz/34)
 
 ## 1. Úvod
 ### 1.1 Co je Azure Machine Learning?
 
-Platforma Azure cloud zahrnuje více než 200 produktů a cloudových služeb navržených tak, aby vám pomohly přivést nové řešení k životu. Datoví vědci věnují značné úsilí průzkumu a předzpracování dat a zkoušení různých typů algoritmů pro trénování modelů, aby vytvořili přesné modely. Tyto úkoly jsou časově náročné a často neefektivně využívají drahé výpočetní zdroje.
+Platforma Azure cloud zahrnuje více než 200 produktů a cloudových služeb navržených tak, aby vám pomohly přivést nové řešení k životu. Datoví vědci věnují značné úsilí průzkumu a předzpracování dat a zkoušení různých typů algoritmů pro trénování modelů, aby vytvořili přesné modely. Tyto úkoly jsou časově náročné a často neefektivně využívají drahý výpočetní hardware.
 
-[Azure ML](https://docs.microsoft.com/azure/machine-learning/overview-what-is-azure-machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) je cloudová platforma pro vytváření a provozování řešení strojového učení v Azure. Nabízí širokou škálu funkcí a možností, které pomáhají datovým vědcům připravovat data, trénovat modely, publikovat prediktivní služby a monitorovat jejich využití. Největší výhodou je, že zvyšuje efektivitu automatizací mnoha časově náročných úkolů spojených s trénováním modelů a umožňuje využívat cloudové výpočetní zdroje, které se efektivně škálují, aby zvládly velké objemy dat, přičemž náklady vznikají pouze při jejich skutečném využití.
+[Azure ML](https://docs.microsoft.com/azure/machine-learning/overview-what-is-azure-machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) je cloudová platforma pro vytváření a provozování řešení strojového učení v Azure. Nabízí širokou škálu funkcí a možností, které pomáhají datovým vědcům připravovat data, trénovat modely, publikovat prediktivní služby a monitorovat jejich využití. Největší výhodou je automatizace mnoha časově náročných úkolů spojených s trénováním modelů a možnost využívat cloudové výpočetní zdroje, které se efektivně škálují, aby zvládly velké objemy dat, přičemž náklady vznikají pouze při jejich skutečném využití.
 
 Azure ML poskytuje všechny nástroje, které vývojáři a datoví vědci potřebují pro své pracovní postupy strojového učení. Patří sem:
 
 - **Azure Machine Learning Studio**: webový portál v Azure Machine Learning pro možnosti trénování modelů, nasazení, automatizace, sledování a správy aktiv v režimu Low code/No code. Studio se integruje s Azure Machine Learning SDK pro bezproblémový zážitek.
-- **Jupyter Notebooks**: rychlé prototypování a testování modelů ML.
+- **Jupyter Notebooks**: rychlé prototypování a testování ML modelů.
 - **Azure Machine Learning Designer**: umožňuje přetahování modulů pro vytváření experimentů a následné nasazení pipeline v prostředí Low code.
-- **Automatizované uživatelské rozhraní strojového učení (AutoML)**: automatizuje iterativní úkoly vývoje modelů strojového učení, umožňuje vytvářet modely ML s vysokou škálovatelností, efektivitou a produktivitou, přičemž zachovává kvalitu modelu.
+- **Automatizované uživatelské rozhraní strojového učení (AutoML)**: automatizuje iterativní úkoly vývoje modelů strojového učení, což umožňuje vytvářet ML modely s vysokou škálovatelností, efektivitou a produktivitou, přičemž je zachována kvalita modelu.
 - **Označování dat**: asistovaný nástroj ML pro automatické označování dat.
-- **Rozšíření strojového učení pro Visual Studio Code**: poskytuje plně vybavené vývojové prostředí pro vytváření a správu projektů ML.
-- **Příkazový řádek strojového učení**: poskytuje příkazy pro správu zdrojů Azure ML z příkazového řádku.
-- **Integrace s open-source frameworky** jako PyTorch, TensorFlow, Scikit-learn a mnoho dalších pro trénování, nasazení a správu procesu strojového učení od začátku do konce.
+- **Rozšíření strojového učení pro Visual Studio Code**: poskytuje plně vybavené vývojové prostředí pro vytváření a správu ML projektů.
+- **CLI strojového učení**: poskytuje příkazy pro správu zdrojů Azure ML z příkazového řádku.
+- **Integrace s open-source frameworky** jako PyTorch, TensorFlow, Scikit-learn a mnoho dalších pro trénování, nasazení a správu celého procesu strojového učení.
 - **MLflow**: open-source knihovna pro správu životního cyklu vašich experimentů strojového učení. **MLFlow Tracking** je komponenta MLflow, která zaznamenává a sleduje metriky trénování a artefakty modelu bez ohledu na prostředí vašeho experimentu.
 
 ### 1.2 Projekt predikce srdečního selhání:
@@ -63,13 +63,13 @@ Není pochyb o tom, že vytváření projektů je nejlepší způsob, jak otesto
 
 ![project-schema](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/project-schema.PNG)
 
-Každý způsob má své výhody a nevýhody. Cesta Low code/No code je jednodušší na začátek, protože zahrnuje práci s grafickým uživatelským rozhraním (GUI) bez nutnosti předchozích znalostí kódu. Tento způsob umožňuje rychlé testování životaschopnosti projektu a vytvoření POC (Proof Of Concept). Jakmile však projekt roste a je potřeba jej připravit na produkci, není možné vytvářet zdroje pouze prostřednictvím GUI. Je nutné vše programově automatizovat, od vytvoření zdrojů až po nasazení modelu. Zde se stává klíčovým umět používat Azure ML SDK.
+Každý způsob má své výhody a nevýhody. Cesta Low code/No code je jednodušší na začátek, protože zahrnuje práci s grafickým uživatelským rozhraním (GUI) bez nutnosti předchozích znalostí kódu. Tento způsob umožňuje rychlé testování životaschopnosti projektu a vytvoření POC (Proof Of Concept). Jakmile však projekt roste a je potřeba jej připravit na produkční prostředí, není možné vytvářet zdroje pouze prostřednictvím GUI. Je nutné vše programově automatizovat, od vytvoření zdrojů až po nasazení modelu. Zde se stává klíčovým umět používat Azure ML SDK.
 
 |                   | Low code/No code | Azure ML SDK              |
 |-------------------|------------------|---------------------------|
 | Znalost kódu      | Není nutná       | Nutná                     |
-| Čas na vývoj      | Rychlý a snadný  | Závisí na znalostech kódu |
-| Připravenost na produkci | Ne               | Ano                       |
+| Doba vývoje       | Rychlá a snadná  | Závisí na znalostech kódu |
+| Připravenost na produkci | Ne         | Ano                       |
 
 ### 1.3 Dataset srdečního selhání: 
 
@@ -98,20 +98,20 @@ Jakmile máte dataset, můžeme začít projekt v Azure.
 
 ## 2. Trénování modelu v Azure ML Studio pomocí Low code/No code
 ### 2.1 Vytvoření pracovního prostoru Azure ML
-Pro trénování modelu v Azure ML je nejprve nutné vytvořit pracovní prostor Azure ML. Pracovní prostor je nejvyšší úroveň zdroje pro Azure Machine Learning, která poskytuje centralizované místo pro práci se všemi artefakty, které vytvoříte při používání Azure Machine Learning. Pracovní prostor uchovává historii všech trénovacích běhů, včetně logů, metrik, výstupů a snímků vašich skriptů. Tyto informace používáte k určení, který trénovací běh produkuje nejlepší model. [Zjistěte více](https://docs.microsoft.com/azure/machine-learning/concept-workspace?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
+Pro trénování modelu v Azure ML je nejprve nutné vytvořit pracovní prostor Azure ML. Pracovní prostor je nejvyšší úroveň zdroje pro Azure Machine Learning, která poskytuje centralizované místo pro práci se všemi artefakty, které vytvoříte při používání Azure Machine Learning. Pracovní prostor uchovává historii všech trénovacích běhů, včetně logů, metrik, výstupů a snímků vašich skriptů. Tyto informace využíváte k určení, který trénovací běh produkuje nejlepší model. [Zjistěte více](https://docs.microsoft.com/azure/machine-learning/concept-workspace?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
 Doporučuje se používat nejaktuálnější prohlížeč kompatibilní s vaším operačním systémem. Podporované prohlížeče jsou:
 
-- Microsoft Edge (nový Microsoft Edge, nejnovější verze. Ne legacy verze Microsoft Edge)
+- Microsoft Edge (nový Microsoft Edge, nejnovější verze. Ne Microsoft Edge legacy)
 - Safari (nejnovější verze, pouze Mac)
 - Chrome (nejnovější verze)
 - Firefox (nejnovější verze)
 
-Pro použití Azure Machine Learning vytvořte pracovní prostor ve vašem předplatném Azure. Tento pracovní prostor můžete poté použít ke správě dat, výpočetních zdrojů, kódu, modelů a dalších artefaktů souvisejících s vašimi pracovními postupy strojového učení.
+Pro použití Azure Machine Learning vytvořte pracovní prostor ve svém předplatném Azure. Tento pracovní prostor pak můžete použít ke správě dat, výpočetních zdrojů, kódu, modelů a dalších artefaktů souvisejících s vašimi pracovními postupy strojového učení.
 
 > **_POZNÁMKA:_** Vaše předplatné Azure bude účtováno malou částkou za úložiště dat, dokud pracovní prostor Azure Machine Learning existuje ve vašem předplatném, takže doporučujeme pracovní prostor Azure Machine Learning smazat, když jej již nebudete používat.
 
-1. Přihlaste se do [Azure portálu](https://ms.portal.azure.com/) pomocí přihlašovacích údajů Microsoft spojených s vaším předplatným Azure.
+1. Přihlaste se do [Azure portálu](https://ms.portal.azure.com/) pomocí Microsoft přihlašovacích údajů spojených s vaším předplatným Azure.
 2. Vyberte **＋Vytvořit zdroj**
    
    ![workspace-1](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/workspace-1.PNG)
@@ -132,13 +132,13 @@ Pro použití Azure Machine Learning vytvořte pracovní prostor ve vašem před
    - Účet úložiště: Poznamenejte si výchozí nový účet úložiště, který bude vytvořen pro váš pracovní prostor
    - Key vault: Poznamenejte si výchozí nový key vault, který bude vytvořen pro váš pracovní prostor
    - Application insights: Poznamenejte si výchozí nový zdroj Application Insights, který bude vytvořen pro váš pracovní prostor
-   - Registr kontejnerů: Žádný (jeden bude vytvořen automaticky při prvním nasazení modelu do kontejneru)
+   - Container registry: Žádný (bude vytvořen automaticky při prvním nasazení modelu do kontejneru)
 
     ![workspace-4](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/workspace-4.PNG)
 
    - Klikněte na vytvořit + recenze a poté na tlačítko vytvořit
 3. Počkejte, až bude váš pracovní prostor vytvořen (může to trvat několik minut). Poté do něj přejděte v portálu. Najdete jej prostřednictvím služby Machine Learning Azure.
-4. Na stránce Přehled vašeho pracovního prostoru spusťte Azure Machine Learning studio (nebo otevřete novou kartu prohlížeče a přejděte na https://ml.azure.com) a přihlaste se do Azure Machine Learning studio pomocí svého účtu Microsoft. Pokud budete vyzváni, vyberte svůj adresář Azure, předplatné a pracovní prostor Azure Machine Learning.
+4. Na stránce Přehled vašeho pracovního prostoru spusťte Azure Machine Learning studio (nebo otevřete novou kartu prohlížeče a přejděte na https://ml.azure.com) a přihlaste se do Azure Machine Learning studio pomocí svého Microsoft účtu. Pokud budete vyzváni, vyberte svůj Azure adresář a předplatné a svůj pracovní prostor Azure Machine Learning.
    
 ![workspace-5](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/workspace-5.PNG)
 
@@ -150,7 +150,7 @@ Pracovní prostor můžete spravovat pomocí Azure portálu, ale pro datové vě
 
 ### 2.2 Výpočetní zdroje
 
-Výpočetní zdroje jsou cloudové zdroje, na kterých můžete spouštět procesy trénování modelů a průzkumu dat. Existují čtyři typy výpočetních zdrojů, které můžete vytvořit:
+Výpočetní zdroje jsou cloudové zdroje, na kterých můžete spouštět procesy trénování modelů a průzkumu dat. Existují čtyři druhy výpočetních zdrojů, které můžete vytvořit:
 
 - **Výpočetní instance**: Vývojové pracovní stanice, které mohou datoví vědci používat k práci s daty a modely. To zahrnuje vytvoření virtuálního stroje (VM) a spuštění instance notebooku. Poté můžete trénovat model voláním výpočetního clusteru z notebooku.
 - **Výpočetní clustery**: Škálovatelné clustery VM pro zpracování experimentálního kódu na vyžádání. Budete je potřebovat při trénování modelu. Výpočetní clustery mohou také využívat specializované GPU nebo CPU zdroje.
@@ -163,9 +163,9 @@ Při vytváření výpočetního prostředku je třeba zvážit několik klíčo
 
 **Potřebujete CPU nebo GPU?**
 
-CPU (Central Processing Unit) je elektronický obvod, který provádí instrukce tvořící počítačový program. GPU (Graphics Processing Unit) je specializovaný elektronický obvod, který dokáže velmi rychle provádět graficky zaměřený kód.
+CPU (Central Processing Unit) je elektronický obvod, který provádí instrukce tvořící počítačový program. GPU (Graphics Processing Unit) je specializovaný elektronický obvod, který dokáže provádět graficky orientovaný kód velmi rychle.
 
-Hlavní rozdíl mezi architekturou CPU a GPU je v tom, že CPU je navrženo pro rychlé zpracování široké škály úkolů (měřeno rychlostí hodin CPU), ale má omezenou schopnost paralelního zpracování. GPU je navrženo pro paralelní výpočty, a proto je mnohem lepší pro úkoly hlubokého učení.
+Hlavní rozdíl mezi architekturou CPU a GPU je v tom, že CPU je navrženo pro rychlé zpracování široké škály úkolů (měřeno rychlostí hodin CPU), ale má omezenou schopnost paralelního zpracování. GPU je navrženo pro paralelní výpočty, a proto je mnohem lepší pro úlohy hlubokého učení.
 
 | CPU                                     | GPU                         |
 |-----------------------------------------|-----------------------------|
@@ -179,38 +179,38 @@ Větší clustery jsou dražší, ale poskytují lepší odezvu. Pokud máte ča
 
 **Velikost virtuálního počítače**
 
-Podle vašich časových a rozpočtových omezení můžete měnit velikost RAM, disku, počet jader a rychlost hodin. Zvýšení všech těchto parametrů bude dražší, ale povede k lepšímu výkonu.
+V závislosti na vašich časových a rozpočtových omezeních můžete měnit velikost RAM, disku, počet jader a rychlost hodin. Zvýšení všech těchto parametrů bude dražší, ale povede k lepšímu výkonu.
 
-**Dedikované nebo nízkoprioritní instance?**
+**Dedikované nebo nízko-prioritní instance?**
 
-Nízkoprioritní instance znamená, že je přerušitelná: Microsoft Azure může tyto prostředky převzít a přiřadit je jinému úkolu, čímž přeruší vaši práci. Dedikovaná instance, nebo nepřerušitelná, znamená, že práce nebude nikdy ukončena bez vašeho svolení. Toto je další úvaha o čase vs. penězích, protože přerušitelné instance jsou levnější než dedikované.
+Nízko-prioritní instance znamená, že je přerušitelná: Microsoft Azure může tyto prostředky převzít a přiřadit je jinému úkolu, čímž přeruší běžící úlohu. Dedikovaná instance, nebo nepřerušitelná, znamená, že úloha nebude nikdy ukončena bez vašeho svolení. Toto je další úvaha mezi časem a penězi, protože přerušitelné instance jsou levnější než dedikované.
 
 #### 2.2.2 Vytvoření výpočetního clusteru
 
-V [Azure ML workspace](https://ml.azure.com/), který jsme vytvořili dříve, přejděte na výpočetní prostředky a uvidíte různé výpočetní prostředky, o kterých jsme právě diskutovali (tj. výpočetní instance, výpočetní clustery, inferenční clustery a připojené výpočetní prostředky). Pro tento projekt budeme potřebovat výpočetní cluster pro trénování modelu. Ve Studio klikněte na nabídku "Compute", poté na záložku "Compute cluster" a klikněte na tlačítko "+ New" pro vytvoření výpočetního clusteru.
+V [Azure ML workspace](https://ml.azure.com/), který jsme vytvořili dříve, přejděte na výpočetní prostředky a uvidíte různé výpočetní prostředky, o kterých jsme právě diskutovali (tj. výpočetní instance, výpočetní clustery, inference clustery a připojené výpočetní prostředky). Pro tento projekt budeme potřebovat výpočetní cluster pro trénování modelu. Ve Studio klikněte na nabídku "Compute", poté na záložku "Compute cluster" a klikněte na tlačítko "+ New" pro vytvoření výpočetního clusteru.
 
 ![22](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/cluster-1.PNG)
 
-1. Vyberte své možnosti: Dedikované vs nízkoprioritní, CPU nebo GPU, velikost virtuálního počítače a počet jader (pro tento projekt můžete ponechat výchozí nastavení).
+1. Vyberte své možnosti: Dedikované vs nízko-prioritní, CPU nebo GPU, velikost virtuálního počítače a počet jader (pro tento projekt můžete ponechat výchozí nastavení).
 2. Klikněte na tlačítko Next.
 
 ![23](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/cluster-2.PNG)
 
 3. Pojmenujte cluster.
-4. Vyberte své možnosti: Minimální/maximální počet uzlů, počet nečinných sekund před zmenšením, přístup přes SSH. Všimněte si, že pokud je minimální počet uzlů 0, ušetříte peníze, když je cluster nečinný. Všimněte si, že čím vyšší je počet maximálních uzlů, tím kratší bude trénování. Doporučený maximální počet uzlů je 3.  
+4. Vyberte své možnosti: Minimální/maximální počet uzlů, počet nečinných sekund před zmenšením, přístup SSH. Všimněte si, že pokud je minimální počet uzlů 0, ušetříte peníze, když je cluster nečinný. Všimněte si, že čím vyšší je počet maximálních uzlů, tím kratší bude trénování. Doporučený maximální počet uzlů je 3.  
 5. Klikněte na tlačítko "Create". Tento krok může trvat několik minut.
 
 ![29](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/cluster-3.PNG)
 
 Skvělé! Nyní, když máme výpočetní cluster, musíme nahrát data do Azure ML Studio.
 
-### 2.3 Nahrání datové sady
+### 2.3 Nahrání datasetu
 
-1. V [Azure ML workspace](https://ml.azure.com/), který jsme vytvořili dříve, klikněte na "Datasets" v levém menu a klikněte na tlačítko "+ Create dataset" pro vytvoření datové sady. Vyberte možnost "From local files" a vyberte datovou sadu Kaggle, kterou jsme stáhli dříve.
+1. V [Azure ML workspace](https://ml.azure.com/), který jsme vytvořili dříve, klikněte na "Datasets" v levém menu a klikněte na tlačítko "+ Create dataset" pro vytvoření datasetu. Vyberte možnost "From local files" a vyberte dataset Kaggle, který jsme stáhli dříve.
    
    ![24](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/dataset-1.PNG)
 
-2. Pojmenujte svou datovou sadu, zadejte typ a popis. Klikněte na Next. Nahrajte data ze souborů. Klikněte na Next.
+2. Pojmenujte dataset, zadejte typ a popis. Klikněte na Next. Nahrajte data ze souborů. Klikněte na Next.
    
    ![25](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/dataset-2.PNG)
 
@@ -218,13 +218,13 @@ Skvělé! Nyní, když máme výpočetní cluster, musíme nahrát data do Azure
    
    ![26](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/dataset-3.PNG)
 
-Skvělé! Nyní, když je datová sada připravena a výpočetní cluster vytvořen, můžeme začít trénovat model!
+Skvělé! Nyní, když je dataset na místě a výpočetní cluster je vytvořen, můžeme začít trénovat model!
 
 ### 2.4 Trénování s nízkým kódem/bez kódu pomocí AutoML
 
-Tradiční vývoj modelů strojového učení je náročný na zdroje, vyžaduje značné odborné znalosti a čas na vytvoření a porovnání desítek modelů. Automatizované strojové učení (AutoML) je proces automatizace časově náročných, iterativních úkolů vývoje modelů strojového učení. Umožňuje datovým vědcům, analytikům a vývojářům vytvářet modely ML s vysokou škálovatelností, efektivitou a produktivitou, přičemž zachovává kvalitu modelů. Snižuje čas potřebný k získání modelů připravených pro produkci, s velkou lehkostí a efektivitou. [Zjistěte více](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
+Tradiční vývoj modelů strojového učení je náročný na zdroje, vyžaduje značné odborné znalosti a čas na vytvoření a porovnání desítek modelů. Automatizované strojové učení (AutoML) je proces automatizace časově náročných, iterativních úkolů vývoje modelů strojového učení. Umožňuje datovým vědcům, analytikům a vývojářům vytvářet modely ML s vysokou škálovatelností, efektivitou a produktivitou, přičemž zachovává kvalitu modelu. Snižuje čas potřebný k získání modelů ML připravených pro produkci, s velkou lehkostí a efektivitou. [Více informací](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
-1. V [Azure ML workspace](https://ml.azure.com/), který jsme vytvořili dříve, klikněte na "Automated ML" v levém menu a vyberte datovou sadu, kterou jste právě nahráli. Klikněte na Next.
+1. V [Azure ML workspace](https://ml.azure.com/), který jsme vytvořili dříve, klikněte na "Automated ML" v levém menu a vyberte dataset, který jste právě nahráli. Klikněte na Next.
 
    ![27](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/aml-1.PNG)
 
@@ -236,7 +236,7 @@ Tradiční vývoj modelů strojového učení je náročný na zdroje, vyžaduje
     
     ![30](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/aml-3.PNG)
 
-4. Po dokončení běhu klikněte na záložku "Automated ML", klikněte na svůj běh a klikněte na algoritmus v kartě "Best model summary".
+4. Jakmile je běh dokončen, klikněte na záložku "Automated ML", klikněte na svůj běh a klikněte na algoritmus v kartě "Best model summary".
     
     ![31](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/aml-4.PNG)
 
@@ -251,7 +251,7 @@ V popisu nejlepšího modelu klikněte na tlačítko "Deploy".
     
 ![deploy-1](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/deploy-1.PNG)
 
-15. Zadejte název, popis, typ výpočetního prostředku (Azure Container Instance), povolte autentizaci a klikněte na Deploy. Tento krok může trvat asi 20 minut. Proces nasazení zahrnuje několik kroků, včetně registrace modelu, generování prostředků a jejich konfigurace pro webovou službu. Pod stavem nasazení se zobrazí zpráva o stavu. Pravidelně klikněte na Refresh, abyste zkontrolovali stav nasazení. Je nasazen a běží, když je stav "Healthy".
+15. Zadejte název, popis, typ výpočtu (Azure Container Instance), povolte autentizaci a klikněte na Deploy. Tento krok může trvat asi 20 minut. Proces nasazení zahrnuje několik kroků, včetně registrace modelu, generování prostředků a jejich konfigurace pro webovou službu. Stavová zpráva se objeví pod stavem nasazení. Pravidelně klikněte na Refresh pro kontrolu stavu nasazení. Je nasazen a běží, když je stav "Healthy".
 
 ![deploy-2](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/deploy-2.PNG)
 
@@ -263,13 +263,13 @@ V popisu nejlepšího modelu klikněte na tlačítko "Deploy".
 
 ### 3.2 Spotřeba endpointu
 
-Klikněte na záložku "Consume". Zde najdete REST endpoint a python skript v možnosti spotřeby. Věnujte chvíli čtení pythonového kódu.
+Klikněte na záložku "Consume". Zde najdete REST endpoint a python skript v možnosti spotřeby. Věnujte chvíli čtení python kódu.
 
 Tento skript lze spustit přímo z vašeho lokálního počítače a bude spotřebovávat váš endpoint.
 
 ![35](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/consumption-1.PNG)
 
-Věnujte chvíli pozornosti těmto dvěma řádkům kódu:
+Věnujte chvíli pozornost těmto dvěma řádkům kódu:
 
 ```python
 url = 'http://98e3715f-xxxx-xxxx-xxxx-9ec22d57b796.centralus.azurecontainer.io/score'
@@ -330,13 +330,13 @@ Gratulujeme! Právě jste spotřebovali nasazený model a trénovali jej na Azur
 
 Podívejte se podrobně na vysvětlení modelu a detaily, které AutoML vytvořil pro nejlepší modely. Pokuste se pochopit, proč je nejlepší model lepší než ostatní. Jaké algoritmy byly porovnány? Jaké jsou mezi nimi rozdíly? Proč je nejlepší model v tomto případě výkonnější?
 
-## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ds/)
+## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ds/quiz/35)
 
-## Přehled a samostudium
+## Přehled & Samostudium
 
 V této lekci jste se naučili, jak trénovat, nasazovat a spotřebovávat model pro predikci rizika srdečního selhání s nízkým kódem/bez kódu v cloudu. Pokud jste to ještě neudělali, ponořte se hlouběji do vysvětlení modelu, které AutoML vytvořil pro nejlepší modely, a pokuste se pochopit, proč je nejlepší model lepší než ostatní.
 
-Můžete se dále věnovat AutoML s nízkým kódem/bez kódu čtením této [dokumentace](https://docs.microsoft.com/azure/machine-learning/tutorial-first-experiment-automated-ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
+Můžete se dále ponořit do AutoML s nízkým kódem/bez kódu přečtením této [dokumentace](https://docs.microsoft.com/azure/machine-learning/tutorial-first-experiment-automated-ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
 ## Zadání
 
@@ -345,4 +345,4 @@ Můžete se dále věnovat AutoML s nízkým kódem/bez kódu čtením této [do
 ---
 
 **Prohlášení**:  
-Tento dokument byl přeložen pomocí služby AI pro překlady [Co-op Translator](https://github.com/Azure/co-op-translator). Ačkoli se snažíme o přesnost, mějte prosím na paměti, že automatizované překlady mohou obsahovat chyby nebo nepřesnosti. Původní dokument v jeho původním jazyce by měl být považován za autoritativní zdroj. Pro důležité informace se doporučuje profesionální lidský překlad. Neodpovídáme za žádná nedorozumění nebo nesprávné interpretace vyplývající z použití tohoto překladu.
+Tento dokument byl přeložen pomocí služby pro automatický překlad [Co-op Translator](https://github.com/Azure/co-op-translator). I když se snažíme o přesnost, mějte prosím na paměti, že automatické překlady mohou obsahovat chyby nebo nepřesnosti. Původní dokument v jeho původním jazyce by měl být považován za autoritativní zdroj. Pro důležité informace se doporučuje profesionální lidský překlad. Neodpovídáme za žádné nedorozumění nebo nesprávné interpretace vyplývající z použití tohoto překladu.

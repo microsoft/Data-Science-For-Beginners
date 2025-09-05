@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "11b166fbcb7eaf82308cdc24b562f687",
-  "translation_date": "2025-09-05T05:58:08+00:00",
+  "original_hash": "9399d7b4767e75068f95ce5c660b285c",
+  "translation_date": "2025-09-05T19:35:42+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "sl"
 }
@@ -13,15 +13,15 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Delo z podatki: Relacijske baze podatkov - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-Verjetno ste že kdaj uporabili preglednico za shranjevanje informacij. Imeli ste niz vrstic in stolpcev, kjer so vrstice vsebovale informacije (ali podatke), stolpci pa so opisovali te informacije (včasih imenovane metapodatki). Relacijska baza podatkov temelji na tem osnovnem principu stolpcev in vrstic v tabelah, kar omogoča razporeditev informacij med več tabelami. To vam omogoča delo z bolj zapletenimi podatki, izogibanje podvajanju in večjo prilagodljivost pri raziskovanju podatkov. Raziskali bomo koncepte relacijske baze podatkov.
+Verjetno ste v preteklosti že uporabljali preglednico za shranjevanje informacij. Imeli ste niz vrstic in stolpcev, kjer so vrstice vsebovale informacije (ali podatke), stolpci pa so opisovali te informacije (včasih imenovane metapodatki). Relacijska baza podatkov temelji na tem osnovnem principu stolpcev in vrstic v tabelah, kar omogoča razporeditev informacij med več tabelami. To vam omogoča delo z bolj zapletenimi podatki, izogibanje podvajanju in večjo prilagodljivost pri raziskovanju podatkov. Raziskali bomo koncepte relacijske baze podatkov.
 
-## [Predhodni kviz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/8)
+## [Predhodni kviz](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
 ## Vse se začne s tabelami
 
 Jedro relacijske baze podatkov so tabele. Tako kot pri preglednici je tabela zbirka stolpcev in vrstic. Vrstica vsebuje podatke ali informacije, s katerimi želimo delati, kot so ime mesta ali količina padavin. Stolpci opisujejo podatke, ki jih hranijo.
 
-Začnimo z raziskovanjem tako, da ustvarimo tabelo za shranjevanje informacij o mestih. Morda začnemo z njihovim imenom in državo. To bi lahko shranili v tabelo, kot je prikazano spodaj:
+Začnimo raziskovanje z ustvarjanjem tabele za shranjevanje informacij o mestih. Morda začnemo z njihovim imenom in državo. To lahko shranite v tabelo, kot je prikazano spodaj:
 
 | Mesto    | Država        |
 | -------- | ------------- |
@@ -41,7 +41,7 @@ Verjetno se vam zgornja tabela zdi precej znana. Dodajmo nekaj dodatnih podatkov
 | Tokio | Japonska | 2019 | 1874   |
 | Tokio | Japonska | 2018 | 1445   |
 
-Kaj opazite pri naši tabeli? Morda opazite, da podvajamo ime in državo mesta znova in znova. To bi lahko zavzelo precej prostora za shranjevanje, kar je večinoma nepotrebno. Navsezadnje ima Tokio samo eno ime, ki nas zanima.
+Kaj opazite pri naši tabeli? Morda opazite, da večkrat podvajamo ime in državo mesta. To bi lahko zavzelo precej prostora za shranjevanje, kar je večinoma nepotrebno. Navsezadnje ima Tokio samo eno ime, ki nas zanima.
 
 OK, poskusimo nekaj drugega. Dodajmo nove stolpce za vsako leto:
 
@@ -51,7 +51,7 @@ OK, poskusimo nekaj drugega. Dodajmo nove stolpce za vsako leto:
 | Atlanta  | Združene države | 1779 | 1111 | 1683 |
 | Auckland | Nova Zelandija | 1386 | 942  | 1176 |
 
-Čeprav se s tem izognemo podvajanju vrstic, to prinaša nekaj drugih izzivov. Strukturo tabele bi morali spreminjati vsakič, ko se pojavi novo leto. Poleg tega bo z rastjo naših podatkov uporaba let kot stolpcev otežila pridobivanje in izračunavanje vrednosti.
+Čeprav se s tem izognemo podvajanju vrstic, to prinaša nekaj drugih izzivov. Strukturo tabele bi morali spreminjati vsakič, ko se pojavi novo leto. Poleg tega bo z rastjo podatkov uporaba let kot stolpcev otežila pridobivanje in izračunavanje vrednosti.
 
 Zato potrebujemo več tabel in relacije. Z razdelitvijo podatkov se lahko izognemo podvajanju in pridobimo večjo prilagodljivost pri delu s podatki.
 
@@ -65,7 +65,7 @@ Vrnimo se k našim podatkom in določimo, kako jih želimo razdeliti. Vemo, da �
 | Atlanta  | Združene države |
 | Auckland | Nova Zelandija |
 
-Preden ustvarimo naslednjo tabelo, moramo ugotoviti, kako bomo sklicevali na vsako mesto. Potrebujemo neko obliko identifikatorja, ID ali (v tehničnih izrazih baze podatkov) primarni ključ. Primarni ključ je vrednost, ki se uporablja za identifikacijo ene specifične vrstice v tabeli. Čeprav bi to lahko temeljilo na sami vrednosti (na primer lahko uporabimo ime mesta), bi moral biti skoraj vedno številka ali drug identifikator. Ne želimo, da se ID kdaj spremeni, saj bi to prekinilo relacijo. V večini primerov bo primarni ključ ali ID samodejno generirana številka.
+Preden ustvarimo naslednjo tabelo, moramo ugotoviti, kako bomo sklicevali na vsako mesto. Potrebujemo neko obliko identifikatorja, ID ali (v tehničnih izrazih baze podatkov) primarni ključ. Primarni ključ je vrednost, ki se uporablja za identifikacijo ene specifične vrstice v tabeli. Čeprav bi to lahko temeljilo na sami vrednosti (na primer, lahko uporabimo ime mesta), bi moral biti skoraj vedno številka ali drug identifikator. Ne želimo, da se ID kdaj spremeni, saj bi to prekinilo relacijo. V večini primerov bo primarni ključ ali ID samodejno generirana številka.
 
 > ✅ Primarni ključ je pogosto okrajšan kot PK
 
@@ -77,7 +77,7 @@ Preden ustvarimo naslednjo tabelo, moramo ugotoviti, kako bomo sklicevali na vsa
 | 2        | Atlanta  | Združene države |
 | 3        | Auckland | Nova Zelandija |
 
-> ✅ Opazili boste, da izraze "id" in "primarni ključ" uporabljamo izmenično med to lekcijo. Koncepti tukaj veljajo za DataFrames, ki jih boste raziskovali kasneje. DataFrames ne uporabljajo terminologije "primarni ključ", vendar boste opazili, da se obnašajo zelo podobno.
+> ✅ Opazili boste, da med to lekcijo uporabljamo izraza "id" in "primarni ključ" izmenično. Koncepti tukaj veljajo za DataFrames, ki jih boste raziskovali kasneje. DataFrames ne uporabljajo terminologije "primarni ključ", vendar boste opazili, da se obnašajo zelo podobno.
 
 Ko smo ustvarili tabelo mest, shranimo padavine. Namesto da podvajamo celotne informacije o mestu, lahko uporabimo ID. Prav tako moramo zagotoviti, da ima na novo ustvarjena tabela stolpec *id*, saj bi morale vse tabele imeti ID ali primarni ključ.
 
@@ -101,9 +101,9 @@ Opazite stolpec **mesto_id** znotraj na novo ustvarjene tabele **padavine**. Ta 
 
 ## Pridobivanje podatkov
 
-Ko so naši podatki razdeljeni v dve tabeli, se morda sprašujete, kako jih pridobiti. Če uporabljamo relacijsko bazo podatkov, kot so MySQL, SQL Server ali Oracle, lahko uporabimo jezik, imenovan Structured Query Language ali SQL. SQL (včasih izgovorjen kot "sequel") je standardni jezik, ki se uporablja za pridobivanje in spreminjanje podatkov v relacijski bazi podatkov.
+Ko so naši podatki razdeljeni v dve tabeli, se morda sprašujete, kako jih pridobimo. Če uporabljamo relacijsko bazo podatkov, kot so MySQL, SQL Server ali Oracle, lahko uporabimo jezik, imenovan Structured Query Language ali SQL. SQL (včasih izgovorjen kot "sequel") je standardni jezik, ki se uporablja za pridobivanje in spreminjanje podatkov v relacijski bazi podatkov.
 
-Za pridobivanje podatkov uporabite ukaz `SELECT`. V osnovi **izberete** stolpce, ki jih želite videti **iz** tabele, v kateri so vsebovani. Če želite prikazati samo imena mest, lahko uporabite naslednje:
+Za pridobivanje podatkov uporabite ukaz `SELECT`. V svojem jedru **izberete** stolpce, ki jih želite videti **iz** tabele, v kateri so vsebovani. Če bi želeli prikazati samo imena mest, bi lahko uporabili naslednje:
 
 ```sql
 SELECT city
@@ -115,9 +115,9 @@ FROM cities;
 -- Auckland
 ```
 
-`SELECT` je mesto, kjer navedete stolpce, `FROM` pa mesto, kjer navedete tabele.
+`SELECT` je mesto, kjer navedete stolpce, in `FROM` je mesto, kjer navedete tabele.
 
-> [NOTE] Sintaksa SQL ni občutljiva na velike in male črke, kar pomeni, da `select` in `SELECT` pomenita isto. Vendar pa so lahko stolpci in tabele, odvisno od vrste baze podatkov, občutljivi na velike in male črke. Zato je dobra praksa, da vse v programiranju obravnavate, kot da je občutljivo na velike in male črke. Pri pisanju SQL poizvedb je običajna konvencija, da ključne besede pišete z velikimi črkami.
+> [NOTE] Sintaksa SQL ni občutljiva na velike in male črke, kar pomeni, da `select` in `SELECT` pomenita isto. Vendar pa so lahko stolpci in tabele občutljivi na velike in male črke, odvisno od vrste baze podatkov, ki jo uporabljate. Zato je najboljša praksa, da vedno obravnavate vse v programiranju, kot da je občutljivo na velike in male črke. Pri pisanju SQL poizvedb je običajna konvencija, da ključne besede pišete z velikimi črkami.
 
 Zgornja poizvedba bo prikazala vsa mesta. Predstavljajte si, da želimo prikazati samo mesta v Novi Zelandiji. Potrebujemo neko obliko filtra. Ključna beseda SQL za to je `WHERE`, ali "kjer nekaj drži".
 
@@ -134,7 +134,7 @@ WHERE country = 'New Zealand';
 
 Do zdaj smo pridobivali podatke iz ene same tabele. Zdaj želimo združiti podatke iz obeh tabel **mesta** in **padavine**. To se naredi z *združevanjem* tabel. Ustvarili boste povezavo med obema tabelama in uskladili vrednosti iz stolpca vsake tabele.
 
-V našem primeru bomo uskladili stolpec **mesto_id** v tabeli **padavine** s stolpcem **mesto_id** v tabeli **mesta**. To bo uskladilo vrednost padavin z ustreznim mestom. Vrsta združitve, ki jo bomo izvedli, se imenuje *notranja* združitev, kar pomeni, da vrstice, ki se ne ujemajo z ničemer iz druge tabele, ne bodo prikazane. V našem primeru ima vsako mesto padavine, zato bo vse prikazano.
+V našem primeru bomo uskladili stolpec **mesto_id** v tabeli **padavine** s stolpcem **mesto_id** v tabeli **mesta**. To bo uskladilo vrednost padavin z ustreznim mestom. Vrsta združitve, ki jo bomo izvedli, se imenuje *notranja* združitev, kar pomeni, da se vrstice, ki se ne ujemajo z ničemer iz druge tabele, ne bodo prikazale. V našem primeru ima vsako mesto padavine, zato bo vse prikazano.
 
 Pridobimo podatke o padavinah za leto 2019 za vsa naša mesta.
 
@@ -167,7 +167,7 @@ WHERE rainfall.year = 2019
 
 ## Povzetek
 
-Relacijske baze podatkov temeljijo na razdelitvi informacij med več tabel, ki se nato združijo za prikaz in analizo. To zagotavlja visoko stopnjo prilagodljivosti za izvajanje izračunov in drugačno manipulacijo podatkov. Spoznali ste osnovne koncepte relacijske baze podatkov in kako izvesti združitev med dvema tabelama.
+Relacijske baze podatkov temeljijo na delitvi informacij med več tabelami, ki se nato združijo za prikaz in analizo. To zagotavlja visoko stopnjo prilagodljivosti za izvajanje izračunov in drugačno manipulacijo podatkov. Videli ste osnovne koncepte relacijske baze podatkov in kako izvesti združitev med dvema tabelama.
 
 ## 🚀 Izziv
 
@@ -175,7 +175,7 @@ Na internetu je na voljo veliko relacijskih baz podatkov. Raziskujte podatke z u
 
 ## Kviz po predavanju
 
-## [Kviz po predavanju](https://ff-quizzes.netlify.app/en/ds/)
+## [Kviz po predavanju](https://ff-quizzes.netlify.app/en/ds/quiz/9)
 
 ## Pregled in samostojno učenje
 

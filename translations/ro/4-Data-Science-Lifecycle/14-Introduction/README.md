@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "79ca8a5a3135e94d2d43f56ba62d5205",
-  "translation_date": "2025-09-05T05:32:04+00:00",
+  "original_hash": "07478c2092203a69087b9c76b1f4dd56",
+  "translation_date": "2025-09-05T18:25:17+00:00",
   "source_file": "4-Data-Science-Lifecycle/14-Introduction/README.md",
   "language_code": "ro"
 }
@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Introducere în ciclul de viață al științei datelor - _Sketchnote de [@nitya](https://twitter.com/nitya)_ |
 
-## [Chestionar înainte de lecție](https://red-water-0103e7a0f.azurestaticapps.net/quiz/26)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ds/quiz/26)
 
 Până acum, probabil ai realizat că știința datelor este un proces. Acest proces poate fi împărțit în 5 etape:
 
@@ -41,7 +41,7 @@ Definirea obiectivelor proiectului va necesita o înțelegere mai profundă a pr
 - Cum ar putea arăta rezultatul final?
 - Câte resurse (timp, oameni, computaționale) sunt disponibile?
 
-Următorul pas este identificarea, colectarea și, în final, explorarea datelor necesare pentru a atinge aceste obiective definite. În această etapă de achiziție, specialiștii în știința datelor trebuie să evalueze cantitatea și calitatea datelor. Acest lucru necesită o explorare a datelor pentru a confirma că ceea ce a fost obținut va sprijini atingerea rezultatului dorit.
+Următorul pas este identificarea, colectarea și, în final, explorarea datelor necesare pentru atingerea acestor obiective definite. În această etapă de achiziție, specialiștii în știința datelor trebuie să evalueze cantitatea și calitatea datelor. Acest lucru necesită o explorare a datelor pentru a confirma că ceea ce a fost obținut va sprijini atingerea rezultatului dorit.
 
 Întrebări pe care un specialist în știința datelor le poate pune despre date:
 - Ce date sunt deja disponibile pentru mine?
@@ -53,7 +53,7 @@ Următorul pas este identificarea, colectarea și, în final, explorarea datelor
 
 ## Procesare
 
-Etapa de procesare a ciclului de viață se concentrează pe descoperirea tiparelor în date, precum și pe modelare. Unele tehnici utilizate în etapa de procesare necesită metode statistice pentru a descoperi tiparele. De obicei, aceasta ar fi o sarcină obositoare pentru un om să o realizeze cu un set mare de date și se va baza pe computere pentru a accelera procesul. Această etapă este, de asemenea, locul unde știința datelor și învățarea automată se intersectează. Așa cum ai învățat în prima lecție, învățarea automată este procesul de construire a modelelor pentru a înțelege datele. Modelele sunt o reprezentare a relației dintre variabilele din date care ajută la prezicerea rezultatelor.
+Etapa de procesare a ciclului de viață se concentrează pe descoperirea tiparelor în date, precum și pe modelare. Unele tehnici utilizate în etapa de procesare necesită metode statistice pentru a descoperi tiparele. De obicei, aceasta ar fi o sarcină obositoare pentru un om să o facă cu un set mare de date și se va baza pe computere pentru a accelera procesul. Această etapă este, de asemenea, locul unde știința datelor și învățarea automată se intersectează. Așa cum ai învățat în prima lecție, învățarea automată este procesul de construire a modelelor pentru a înțelege datele. Modelele sunt o reprezentare a relației dintre variabilele din date care ajută la prezicerea rezultatelor.
 
 Tehnici comune utilizate în această etapă sunt acoperite în curriculumul ML pentru Începători. Urmează linkurile pentru a afla mai multe despre ele:
 
@@ -63,29 +63,29 @@ Tehnici comune utilizate în această etapă sunt acoperite în curriculumul ML 
 
 ## Menținere
 
-În diagrama ciclului de viață, ai observat probabil că menținerea se află între capturare și procesare. Menținerea este un proces continuu de gestionare, stocare și securizare a datelor pe parcursul procesului unui proiect și ar trebui luată în considerare pe întreaga durată a proiectului.
+În diagrama ciclului de viață, poate ai observat că menținerea se află între capturare și procesare. Menținerea este un proces continuu de gestionare, stocare și securizare a datelor pe parcursul procesului unui proiect și ar trebui luată în considerare pe întreaga durată a proiectului.
 
 ### Stocarea datelor
 
-Considerațiile despre cum și unde sunt stocate datele pot influența costul stocării, precum și performanța accesării rapide a datelor. Decizii de acest tip nu sunt probabil luate doar de un specialist în știința datelor, dar acesta poate ajunge să facă alegeri despre cum să lucreze cu datele în funcție de modul în care sunt stocate.
+Considerațiile despre cum și unde sunt stocate datele pot influența costul stocării, precum și performanța accesării rapide a datelor. Decizii de acest tip nu sunt probabil luate doar de un specialist în știința datelor, dar acesta poate fi nevoit să facă alegeri despre cum să lucreze cu datele în funcție de modul în care sunt stocate.
 
 Iată câteva aspecte ale sistemelor moderne de stocare a datelor care pot influența aceste alegeri:
 
 **On premise vs off premise vs cloud public sau privat**
 
-On premise se referă la găzduirea și gestionarea datelor pe propriul echipament, cum ar fi deținerea unui server cu hard diskuri care stochează datele, în timp ce off premise se bazează pe echipamente pe care nu le deții, cum ar fi un centru de date. Cloud-ul public este o alegere populară pentru stocarea datelor care nu necesită cunoștințe despre cum sau unde exact sunt stocate datele, unde public se referă la o infrastructură unificată de bază care este partajată de toți cei care folosesc cloud-ul. Unele organizații au politici stricte de securitate care necesită acces complet la echipamentele unde sunt găzduite datele și se vor baza pe un cloud privat care oferă propriile servicii de cloud. Vei învăța mai multe despre datele în cloud în [lecțiile ulterioare](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/5-Data-Science-In-Cloud).
+On premise se referă la găzduirea și gestionarea datelor pe echipamentul propriu, cum ar fi deținerea unui server cu hard diskuri care stochează datele, în timp ce off premise se bazează pe echipamente pe care nu le deții, cum ar fi un centru de date. Cloud-ul public este o alegere populară pentru stocarea datelor care nu necesită cunoștințe despre cum sau unde exact sunt stocate datele, unde public se referă la o infrastructură unificată de bază care este partajată de toți cei care folosesc cloud-ul. Unele organizații au politici stricte de securitate care necesită acces complet la echipamentul unde sunt găzduite datele și vor folosi un cloud privat care oferă propriile servicii de cloud. Vei învăța mai multe despre datele în cloud în [lecțiile ulterioare](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/5-Data-Science-In-Cloud).
 
 **Date reci vs date fierbinți**
 
-Când îți antrenezi modelele, este posibil să ai nevoie de mai multe date de antrenament. Dacă ești mulțumit de modelul tău, mai multe date vor fi necesare pentru ca modelul să-și îndeplinească scopul. În orice caz, costul stocării și accesării datelor va crește pe măsură ce acumulezi mai multe. Separarea datelor rar utilizate, cunoscute sub numele de date reci, de datele accesate frecvent, numite date fierbinți, poate fi o opțiune mai ieftină de stocare a datelor prin hardware sau servicii software. Dacă datele reci trebuie accesate, poate dura puțin mai mult pentru a le recupera în comparație cu datele fierbinți.
+Când îți antrenezi modelele, este posibil să ai nevoie de mai multe date de antrenament. Dacă ești mulțumit de modelul tău, mai multe date vor fi necesare pentru ca modelul să-și îndeplinească scopul. În orice caz, costul stocării și accesării datelor va crește pe măsură ce acumulezi mai multe. Separarea datelor rar utilizate, cunoscute sub numele de date reci, de datele accesate frecvent, numite date fierbinți, poate fi o opțiune mai ieftină de stocare a datelor prin hardware sau servicii software. Dacă datele reci trebuie accesate, poate dura puțin mai mult să fie recuperate în comparație cu datele fierbinți.
 
 ### Gestionarea datelor
 
-Pe măsură ce lucrezi cu date, este posibil să descoperi că unele dintre ele trebuie curățate folosind unele dintre tehnicile acoperite în lecția dedicată [pregătirii datelor](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/08-data-preparation) pentru a construi modele precise. Când sosesc date noi, va fi nevoie de aplicarea acelorași tehnici pentru a menține consistența calității. Unele proiecte vor implica utilizarea unui instrument automatizat pentru curățare, agregare și comprimare înainte ca datele să fie mutate în locația finală. Azure Data Factory este un exemplu de astfel de instrument.
+Pe măsură ce lucrezi cu date, este posibil să descoperi că unele dintre ele trebuie curățate folosind unele dintre tehnicile acoperite în lecția dedicată [pregătirii datelor](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/08-data-preparation) pentru a construi modele precise. Când sosesc date noi, va fi nevoie de aceleași aplicații pentru a menține consistența calității. Unele proiecte vor implica utilizarea unui instrument automat pentru curățare, agregare și compresie înainte ca datele să fie mutate în locația finală. Azure Data Factory este un exemplu de astfel de instrument.
 
 ### Securizarea datelor
 
-Unul dintre obiectivele principale ale securizării datelor este asigurarea că cei care lucrează cu ele controlează ceea ce este colectat și în ce context este utilizat. Menținerea securității datelor implică limitarea accesului doar la cei care au nevoie de ele, respectarea legilor și reglementărilor locale, precum și menținerea standardelor etice, așa cum este acoperit în [lecția despre etică](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/1-Introduction/02-ethics).
+Unul dintre principalele obiective ale securizării datelor este asigurarea că cei care lucrează cu ele controlează ceea ce este colectat și în ce context este utilizat. Menținerea securității datelor implică limitarea accesului doar la cei care au nevoie de ele, respectarea legilor și reglementărilor locale, precum și menținerea standardelor etice, așa cum este acoperit în [lecția despre etică](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/1-Introduction/02-ethics).
 
 Iată câteva lucruri pe care o echipă le poate face având în vedere securitatea:
 - Confirmarea că toate datele sunt criptate
@@ -97,20 +97,20 @@ Iată câteva lucruri pe care o echipă le poate face având în vedere securita
 
 Există multe versiuni ale ciclului de viață al științei datelor, unde fiecare etapă poate avea nume diferite și un număr diferit de etape, dar va conține aceleași procese menționate în această lecție.
 
-Explorează [ciclul de viață al procesului de echipă în știința datelor](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/lifecycle) și [standardul inter-industrial pentru procesul de extragere a datelor](https://www.datascience-pm.com/crisp-dm-2/). Numește 3 asemănări și diferențe între cele două.
+Explorează [ciclul de viață al procesului de echipă pentru știința datelor](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/lifecycle) și [standardul inter-industrial pentru procesul de extragere a datelor](https://www.datascience-pm.com/crisp-dm-2/). Numește 3 asemănări și diferențe între cele două.
 
-|Procesul de echipă în știința datelor (TDSP)|Standardul inter-industrial pentru procesul de extragere a datelor (CRISP-DM)|
+|Procesul de echipă pentru știința datelor (TDSP)|Standardul inter-industrial pentru procesul de extragere a datelor (CRISP-DM)|
 |--|--|
-|![Ciclul de viață al echipei în știința datelor](../../../../4-Data-Science-Lifecycle/14-Introduction/images/tdsp-lifecycle2.png) | ![Imaginea procesului de știința datelor](../../../../4-Data-Science-Lifecycle/14-Introduction/images/CRISP-DM.png) |
+|![Ciclul de viață al echipei pentru știința datelor](../../../../4-Data-Science-Lifecycle/14-Introduction/images/tdsp-lifecycle2.png) | ![Imaginea procesului CRISP-DM](../../../../4-Data-Science-Lifecycle/14-Introduction/images/CRISP-DM.png) |
 | Imagine de [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Imagine de [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
-## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ds/)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ds/quiz/27)
 
 ## Recapitulare și studiu individual
 
-Aplicarea ciclului de viață al științei datelor implică mai multe roluri și sarcini, unde unele se pot concentra pe anumite părți ale fiecărei etape. Procesul de echipă în știința datelor oferă câteva resurse care explică tipurile de roluri și sarcini pe care cineva le poate avea într-un proiect.
+Aplicarea ciclului de viață al științei datelor implică multiple roluri și sarcini, unde unele se pot concentra pe anumite părți ale fiecărei etape. Procesul de echipă pentru știința datelor oferă câteva resurse care explică tipurile de roluri și sarcini pe care cineva le poate avea într-un proiect.
 
-* [Roluri și sarcini în procesul de echipă în știința datelor](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/roles-tasks)
+* [Roluri și sarcini în procesul de echipă pentru știința datelor](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/roles-tasks)  
 * [Executarea sarcinilor de știința datelor: explorare, modelare și implementare](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/execute-data-science-tasks)
 
 ## Temă

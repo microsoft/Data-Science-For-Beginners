@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "cc490897ee2d276870472bcb31602d03",
-  "translation_date": "2025-09-05T05:33:40+00:00",
+  "original_hash": "42119bcc97bee88254e381156d770f3c",
+  "translation_date": "2025-09-05T18:26:56+00:00",
   "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
   "language_code": "ro"
 }
@@ -13,15 +13,15 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Vizualizarea Proporțiilor - _Sketchnote de [@nitya](https://twitter.com/nitya)_ |
 
-În această lecție, vei folosi un set de date axat pe natură pentru a vizualiza proporțiile, cum ar fi câte tipuri diferite de ciuperci sunt prezente într-un set de date despre ciuperci. Hai să explorăm aceste ciuperci fascinante folosind un set de date obținut de la Audubon, care conține detalii despre 23 de specii de ciuperci cu lamele din familiile Agaricus și Lepiota. Vei experimenta cu vizualizări delicioase precum:
+În această lecție, vei folosi un set de date axat pe natură pentru a vizualiza proporții, cum ar fi câte tipuri diferite de ciuperci sunt prezente într-un set de date despre ciuperci. Hai să explorăm aceste ciuperci fascinante folosind un set de date obținut de la Audubon, care conține detalii despre 23 de specii de ciuperci cu lamele din familiile Agaricus și Lepiota. Vei experimenta cu vizualizări interesante precum:
 
-- Grafice de tip plăcintă 🥧
-- Grafice de tip gogoșă 🍩
-- Grafice de tip vafă 🧇
+- Grafice de tip plăcintă 🥧  
+- Grafice de tip gogoșă 🍩  
+- Grafice de tip vafă 🧇  
 
 > 💡 Un proiect foarte interesant numit [Charticulator](https://charticulator.com) de la Microsoft Research oferă o interfață gratuită de tip drag-and-drop pentru vizualizări de date. În unul dintre tutorialele lor, folosesc și acest set de date despre ciuperci! Așadar, poți explora datele și învăța biblioteca în același timp: [Tutorial Charticulator](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Quiz post-lecție](https://ff-quizzes.netlify.app/en/ds/)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ds/quiz/20)
 
 ## Cunoaște-ți ciupercile 🍄
 
@@ -32,22 +32,21 @@ import pandas as pd
 import matplotlib.pyplot as plt
 mushrooms = pd.read_csv('../../data/mushrooms.csv')
 mushrooms.head()
-```
+```  
 Se afișează un tabel cu date excelente pentru analiză:
-
 
 | clasă     | formă pălărie | suprafață pălărie | culoare pălărie | vânătăi | miros    | atașare lamele | spațiere lamele | mărime lamele | culoare lamele | formă tulpină | rădăcină tulpină | suprafață tulpină deasupra inelului | suprafață tulpină sub inel | culoare tulpină deasupra inelului | culoare tulpină sub inel | tip voal | culoare voal | număr inele | tip inel | culoare spor | populație | habitat |
 | --------- | ------------- | ----------------- | --------------- | ------- | -------- | -------------- | --------------- | ------------- | -------------- | ------------- | -------------- | ------------------------------- | -------------------------- | ------------------------------- | -------------------------- | -------- | ------------ | ----------- | -------- | ------------ | --------- | ------- |
-| Otrăvitoare | Convexă      | Netedă            | Maro            | Vânătăi | Pungent  | Liber          | Apropiate       | Înguste       | Negru          | Lărgită       | Egală          | Netedă                          | Netedă                     | Albă                           | Albă                       | Parțial  | Alb          | Unul        | Pandantiv | Negru         | Răspândită | Urban   |
-| Comestibil | Convexă      | Netedă            | Galben          | Vânătăi | Migdale  | Liber          | Apropiate       | Largi         | Negru          | Lărgită       | Club          | Netedă                          | Netedă                     | Albă                           | Albă                       | Parțial  | Alb          | Unul        | Pandantiv | Maro          | Numeroasă  | Iarbă   |
-| Comestibil | Clopot       | Netedă            | Alb             | Vânătăi | Anason   | Liber          | Apropiate       | Largi         | Maro           | Lărgită       | Club          | Netedă                          | Netedă                     | Albă                           | Albă                       | Parțial  | Alb          | Unul        | Pandantiv | Maro          | Numeroasă  | Pajiști |
-| Otrăvitoare | Convexă      | Solzoasă          | Alb             | Vânătăi | Pungent  | Liber          | Apropiate       | Înguste       | Maro           | Lărgită       | Egală          | Netedă                          | Netedă                     | Albă                           | Albă                       | Parțial  | Alb          | Unul        | Pandantiv | Negru         | Răspândită | Urban   |
+| Otrăvitoare | Convexă      | Netedă            | Maro            | Vânătăi | Pungent  | Liber          | Apropiate       | Înguste       | Negru          | Lărgită       | Egală          | Netedă                          | Netedă                     | Albă                           | Albă                       | Parțial  | Alb          | Unul        | Pandantiv | Negru        | Răspândită | Urban   |
+| Comestibilă | Convexă      | Netedă            | Galben          | Vânătăi | Migdale  | Liber          | Apropiate       | Largi         | Negru          | Lărgită       | Club          | Netedă                          | Netedă                     | Albă                           | Albă                       | Parțial  | Alb          | Unul        | Pandantiv | Maro         | Numeroasă  | Iarbă   |
+| Comestibilă | Clopot       | Netedă            | Alb             | Vânătăi | Anason   | Liber          | Apropiate       | Largi         | Maro           | Lărgită       | Club          | Netedă                          | Netedă                     | Albă                           | Albă                       | Parțial  | Alb          | Unul        | Pandantiv | Maro         | Numeroasă  | Pajiști |
+| Otrăvitoare | Convexă      | Solzoasă          | Alb             | Vânătăi | Pungent  | Liber          | Apropiate       | Înguste       | Maro           | Lărgită       | Egală          | Netedă                          | Netedă                     | Albă                           | Albă                       | Parțial  | Alb          | Unul        | Pandantiv | Negru        | Răspândită | Urban   |
 
-Imediat, observi că toate datele sunt textuale. Va trebui să convertești aceste date pentru a le putea folosi într-un grafic. Majoritatea datelor, de fapt, sunt reprezentate ca un obiect:
+Imediat observi că toate datele sunt textuale. Va trebui să convertești aceste date pentru a le putea folosi într-un grafic. De fapt, majoritatea datelor sunt reprezentate ca un obiect:
 
 ```python
 print(mushrooms.select_dtypes(["object"]).columns)
-```
+```  
 
 Rezultatul este:
 
@@ -59,26 +58,25 @@ Index(['class', 'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor',
        'stalk-color-below-ring', 'veil-type', 'veil-color', 'ring-number',
        'ring-type', 'spore-print-color', 'population', 'habitat'],
       dtype='object')
-```
-Ia aceste date și convertește coloana 'clasă' într-o categorie:
+```  
+Transformă aceste date și convertește coloana 'clasă' într-o categorie:
 
 ```python
 cols = mushrooms.select_dtypes(["object"]).columns
 mushrooms[cols] = mushrooms[cols].astype('category')
-```
+```  
 
 ```python
 edibleclass=mushrooms.groupby(['class']).count()
 edibleclass
-```
+```  
 
-Acum, dacă imprimi datele despre ciuperci, poți vedea că au fost grupate în categorii conform claselor comestibile/otrăvitoare:
-
+Acum, dacă afișezi datele despre ciuperci, poți vedea că au fost grupate în categorii conform claselor comestibile/otrăvitoare:
 
 |           | formă pălărie | suprafață pălărie | culoare pălărie | vânătăi | miros | atașare lamele | spațiere lamele | mărime lamele | culoare lamele | formă tulpină | ... | suprafață tulpină sub inel | culoare tulpină deasupra inelului | culoare tulpină sub inel | tip voal | culoare voal | număr inele | tip inel | culoare spor | populație | habitat |
 | --------- | ------------- | ----------------- | --------------- | ------- | ----- | -------------- | --------------- | ------------- | -------------- | ------------- | --- | -------------------------- | ------------------------------- | -------------------------- | -------- | ------------ | ----------- | -------- | ------------ | --------- | ------- |
-| clasă     |               |                   |                 |         |       |                |                 |               |                |               |     |                          |                                 |                          |          |              |             |          |              |           |         |
-| Comestibil | 4208          | 4208             | 4208            | 4208    | 4208  | 4208           | 4208            | 4208          | 4208           | 4208          | ... | 4208                     | 4208                           | 4208                     | 4208     | 4208         | 4208        | 4208     | 4208         | 4208      | 4208    |
+| clasă     |               |                   |                 |         |       |                |                 |               |                |               |     |                          |                               |                          |          |              |             |          |              |           |         |
+| Comestibilă | 4208         | 4208             | 4208            | 4208    | 4208  | 4208           | 4208            | 4208          | 4208           | 4208          | ... | 4208                     | 4208                           | 4208                     | 4208     | 4208         | 4208        | 4208     | 4208         | 4208      | 4208    |
 | Otrăvitoare | 3916         | 3916             | 3916            | 3916    | 3916  | 3916           | 3916            | 3916          | 3916           | 3916          | ... | 3916                     | 3916                           | 3916                     | 3916     | 3916         | 3916        | 3916     | 3916         | 3916      | 3916    |
 
 Dacă urmezi ordinea prezentată în acest tabel pentru a crea etichetele categoriei clasă, poți construi un grafic de tip plăcintă:
@@ -90,21 +88,21 @@ labels=['Edible','Poisonous']
 plt.pie(edibleclass['population'],labels=labels,autopct='%.1f %%')
 plt.title('Edible?')
 plt.show()
-```
+```  
 Voila, un grafic de tip plăcintă care arată proporțiile acestor date conform celor două clase de ciuperci. Este foarte important să obții ordinea etichetelor corectă, mai ales aici, așa că asigură-te că verifici ordinea în care este construit array-ul de etichete!
 
 ![grafic plăcintă](../../../../3-Data-Visualization/11-visualization-proportions/images/pie1-wb.png)
 
 ## Gogoși!
 
-Un grafic de tip gogoșă este o variantă mai interesantă vizual a graficului de tip plăcintă, având o gaură în mijloc. Hai să ne uităm la datele noastre folosind această metodă.
+Un grafic de tip gogoșă este o variantă mai interesantă vizual a graficului de tip plăcintă, având un gol în mijloc. Hai să ne uităm la datele noastre folosind această metodă.
 
 Aruncă o privire la diferitele habitate în care cresc ciupercile:
 
 ```python
 habitat=mushrooms.groupby(['habitat']).count()
 habitat
-```
+```  
 Aici, grupezi datele după habitat. Sunt 7 listate, așa că folosește-le ca etichete pentru graficul de tip gogoșă:
 
 ```python
@@ -121,29 +119,30 @@ fig.gca().add_artist(center_circle)
 plt.title('Mushroom Habitats')
   
 plt.show()
-```
+```  
 
 ![grafic gogoșă](../../../../3-Data-Visualization/11-visualization-proportions/images/donut-wb.png)
 
 Acest cod desenează un grafic și un cerc central, apoi adaugă acel cerc central în grafic. Modifică lățimea cercului central schimbând `0.40` cu o altă valoare.
 
-Graficele de tip gogoșă pot fi ajustate în mai multe moduri pentru a schimba etichetele. Etichetele, în special, pot fi evidențiate pentru lizibilitate. Află mai multe în [documentație](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
+Graficele de tip gogoșă pot fi ajustate în mai multe moduri pentru a schimba etichetele. Etichetele, în special, pot fi evidențiate pentru o mai bună lizibilitate. Află mai multe în [documentație](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
 
-Acum că știi cum să grupezi datele și să le afișezi ca plăcintă sau gogoșă, poți explora alte tipuri de grafice. Încearcă un grafic de tip vafă, care este doar o altă modalitate de a explora cantitatea.
+Acum că știi cum să grupezi datele și să le afișezi ca plăcintă sau gogoșă, poți explora alte tipuri de grafice. Încearcă un grafic de tip vafă, care este doar o altă modalitate de a explora cantitățile.
+
 ## Vafe!
 
 Un grafic de tip 'vafă' este o modalitate diferită de a vizualiza cantitățile ca o matrice 2D de pătrate. Încearcă să vizualizezi diferitele cantități de culori ale pălăriilor de ciuperci din acest set de date. Pentru a face acest lucru, trebuie să instalezi o bibliotecă auxiliară numită [PyWaffle](https://pypi.org/project/pywaffle/) și să folosești Matplotlib:
 
 ```python
 pip install pywaffle
-```
+```  
 
-Selectează un segment din datele tale pentru a grupa:
+Selectează un segment din datele tale pentru a le grupa:
 
 ```python
 capcolor=mushrooms.groupby(['cap-color']).count()
 capcolor
-```
+```  
 
 Creează un grafic de tip vafă prin crearea etichetelor și apoi gruparea datelor:
 
@@ -166,37 +165,38 @@ fig = plt.figure(
     figsize = (30,30),
     colors=["brown", "tan", "maroon", "green", "pink", "purple", "red", "whitesmoke", "yellow"],
 )
-```
+```  
 
 Folosind un grafic de tip vafă, poți vedea clar proporțiile culorilor pălăriilor din acest set de date despre ciuperci. Interesant, există multe ciuperci cu pălării verzi!
 
 ![grafic vafă](../../../../3-Data-Visualization/11-visualization-proportions/images/waffle.png)
 
-✅ Pywaffle suportă utilizarea de pictograme în grafice care folosesc orice pictogramă disponibilă în [Font Awesome](https://fontawesome.com/). Fă câteva experimente pentru a crea un grafic de tip vafă și mai interesant folosind pictograme în loc de pătrate.
+✅ PyWaffle suportă pictograme în cadrul graficelor care folosesc orice pictogramă disponibilă în [Font Awesome](https://fontawesome.com/). Fă câteva experimente pentru a crea un grafic de tip vafă și mai interesant folosind pictograme în loc de pătrate.
 
 În această lecție, ai învățat trei modalități de a vizualiza proporțiile. Mai întâi, trebuie să grupezi datele în categorii și apoi să decizi care este cea mai bună modalitate de a afișa datele - plăcintă, gogoșă sau vafă. Toate sunt delicioase și oferă utilizatorului o imagine instantanee a unui set de date.
 
 ## 🚀 Provocare
 
-Încearcă să recreezi aceste grafice delicioase în [Charticulator](https://charticulator.com).
-## [Quiz post-lecție](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
+Încearcă să recreezi aceste grafice delicioase în [Charticulator](https://charticulator.com).  
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ds/quiz/21)
 
 ## Recapitulare & Studiu Individual
 
 Uneori nu este evident când să folosești un grafic de tip plăcintă, gogoșă sau vafă. Iată câteva articole de citit pe acest subiect:
 
-https://www.beautiful.ai/blog/battle-of-the-charts-pie-chart-vs-donut-chart
+https://www.beautiful.ai/blog/battle-of-the-charts-pie-chart-vs-donut-chart  
 
-https://medium.com/@hypsypops/pie-chart-vs-donut-chart-showdown-in-the-ring-5d24fd86a9ce
+https://medium.com/@hypsypops/pie-chart-vs-donut-chart-showdown-in-the-ring-5d24fd86a9ce  
 
-https://www.mit.edu/~mbarker/formula1/f1help/11-ch-c6.htm
+https://www.mit.edu/~mbarker/formula1/f1help/11-ch-c6.htm  
 
-https://medium.datadriveninvestor.com/data-visualization-done-the-right-way-with-tableau-waffle-chart-fdf2a19be402
+https://medium.datadriveninvestor.com/data-visualization-done-the-right-way-with-tableau-waffle-chart-fdf2a19be402  
 
-Fă câteva cercetări pentru a găsi mai multe informații despre această decizie dificilă.
+Fă câteva cercetări pentru a găsi mai multe informații despre această decizie dificilă.  
+
 ## Temă
 
-[Încearcă în Excel](assignment.md)
+[Încearcă în Excel](assignment.md)  
 
 ---
 

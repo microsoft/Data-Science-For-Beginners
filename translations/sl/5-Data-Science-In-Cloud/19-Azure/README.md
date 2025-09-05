@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
-  "translation_date": "2025-09-05T05:55:31+00:00",
+  "original_hash": "472d3fab1c5be50f387336e7a686dbe1",
+  "translation_date": "2025-09-05T19:33:17+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "sl"
 }
@@ -33,17 +33,17 @@ Kazalo:
     - [3.2 Namestitev modela](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [3.3 Uporaba končne točke](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [🚀 Izziv](../../../../5-Data-Science-In-Cloud/19-Azure)
-  - [Kviz po predavanju](../../../../5-Data-Science-In-Cloud/19-Azure)
+  - [Zaključni kviz](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Pregled in samostojno učenje](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Naloga](../../../../5-Data-Science-In-Cloud/19-Azure)
 
-## [Predhodni kviz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/36)
+## [Predhodni kviz](https://ff-quizzes.netlify.app/en/ds/quiz/36)
 
 ## 1. Uvod
 
 ### 1.1 Kaj je Azure ML SDK?
 
-Podatkovni znanstveniki in razvijalci umetne inteligence uporabljajo Azure Machine Learning SDK za gradnjo in izvajanje delovnih procesov strojnega učenja z uporabo storitve Azure Machine Learning. S storitvijo lahko komunicirate v katerem koli okolju Python, vključno z Jupyter Notebooks, Visual Studio Code ali vašim najljubšim IDE za Python.
+Podatkovni znanstveniki in razvijalci AI uporabljajo Azure Machine Learning SDK za gradnjo in izvajanje delovnih procesov strojnega učenja z uporabo storitve Azure Machine Learning. S storitvijo lahko komunicirate v katerem koli okolju Python, vključno z Jupyter Notebooks, Visual Studio Code ali vašim najljubšim Python IDE.
 
 Ključna področja SDK vključujejo:
 
@@ -66,43 +66,43 @@ Oglejte si [tukaj](../18-Low-Code/README.md) predstavitev projekta napovedovanja
 ## 2. Učenje modela z Azure ML SDK
 ### 2.1 Ustvarjanje delovnega prostora Azure ML
 
-Za enostavnost bomo delali v Jupyter Notebooku. To pomeni, da že imate delovni prostor in računalniški primer. Če že imate delovni prostor, lahko neposredno skočite na razdelek 2.3 Ustvarjanje beležk.
+Za enostavnost bomo delali v jupyter beležki. To pomeni, da že imate delovni prostor in računalniški primer. Če že imate delovni prostor, lahko neposredno preskočite na razdelek 2.3 Ustvarjanje beležk.
 
-Če ga še nimate, sledite navodilom v razdelku **2.1 Ustvarjanje delovnega prostora Azure ML** v [prejšnji lekciji](../18-Low-Code/README.md) za ustvarjanje delovnega prostora.
+Če ga nimate, sledite navodilom v razdelku **2.1 Ustvarjanje delovnega prostora Azure ML** v [prejšnji lekciji](../18-Low-Code/README.md) za ustvarjanje delovnega prostora.
 
 ### 2.2 Ustvarjanje računalniškega primerka
 
 V [delovnem prostoru Azure ML](https://ml.azure.com/), ki smo ga ustvarili prej, pojdite v meni za računalniške vire, kjer boste videli različne razpoložljive računalniške vire.
 
-![računalniški-primer-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/compute-instance-1.PNG)
+![racunalniski-primer-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/compute-instance-1.PNG)
 
-Ustvarimo računalniški primer za pripravo Jupyter Notebooka. 
-1. Kliknite gumb + New. 
+Ustvarimo računalniški primer za pripravo jupyter beležke. 
+1. Kliknite na gumb + New. 
 2. Dajte ime svojemu računalniškemu primerku.
 3. Izberite možnosti: CPU ali GPU, velikost VM in število jeder.
-4. Kliknite gumb Create.
+4. Kliknite na gumb Create.
 
 Čestitamo, pravkar ste ustvarili računalniški primer! Ta primer bomo uporabili za ustvarjanje beležke v razdelku [Ustvarjanje beležk](../../../../5-Data-Science-In-Cloud/19-Azure).
 
 ### 2.3 Nalaganje podatkov
-Če še niste naložili podatkovnega niza, si oglejte razdelek **2.3 Nalaganje podatkov** v [prejšnji lekciji](../18-Low-Code/README.md).
+Če podatkovnega niza še niste naložili, si oglejte razdelek **2.3 Nalaganje podatkov** v [prejšnji lekciji](../18-Low-Code/README.md).
 
 ### 2.4 Ustvarjanje beležk
 
-> **_OPOMBA:_** Za naslednji korak lahko ustvarite novo beležko iz nič ali pa naložite [beležko, ki smo jo ustvarili](../../../../5-Data-Science-In-Cloud/19-Azure/notebook.ipynb) v Azure ML Studio. Za nalaganje preprosto kliknite meni "Notebook" in naložite beležko.
+> **_OPOMBA:_** Za naslednji korak lahko ustvarite novo beležko iz nič ali pa naložite [beležko, ki smo jo ustvarili](../../../../5-Data-Science-In-Cloud/19-Azure/notebook.ipynb) v Azure ML Studio. Za nalaganje preprosto kliknite na meni "Notebook" in naložite beležko.
 
 Beležke so zelo pomemben del procesa podatkovne znanosti. Uporabljajo se lahko za izvedbo raziskovalne analize podatkov (EDA), klicanje računalniškega grozda za učenje modela ali klicanje grozda za sklepanje za namestitev končne točke. 
 
-Za ustvarjanje beležke potrebujemo računalniško vozlišče, ki izvaja instanco Jupyter Notebooka. Vrnite se v [delovni prostor Azure ML](https://ml.azure.com/) in kliknite na Računalniški primerki. Na seznamu računalniških primerkov bi morali videti [računalniški primer, ki smo ga ustvarili prej](../../../../5-Data-Science-In-Cloud/19-Azure). 
+Za ustvarjanje beležke potrebujemo računalniško vozlišče, ki izvaja jupyter beležko. Vrnite se v [delovni prostor Azure ML](https://ml.azure.com/) in kliknite na Računalniški primerki. Na seznamu računalniških primerkov bi morali videti [primer, ki smo ga ustvarili prej](../../../../5-Data-Science-In-Cloud/19-Azure). 
 
-1. V razdelku Applications kliknite možnost Jupyter. 
-2. Označite polje "Yes, I understand" in kliknite gumb Continue.
+1. V razdelku Applications kliknite na možnost Jupyter. 
+2. Označite polje "Yes, I understand" in kliknite na gumb Continue.
 ![beležka-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-1.PNG)
-3. To bi moralo odpreti nov zavihek brskalnika z vašo instanco Jupyter Notebooka, kot je prikazano. Kliknite gumb "New" za ustvarjanje beležke.
+3. To bi moralo odpreti nov zavihek brskalnika z vašim jupyter primerkom beležke. Kliknite na gumb "New" za ustvarjanje beležke.
 
 ![beležka-2](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-2.PNG)
 
-Zdaj, ko imamo beležko, lahko začnemo učiti model z Azure ML SDK.
+Zdaj, ko imamo beležko, lahko začnemo z učenjem modela z Azure ML SDK.
 
 ### 2.5 Učenje modela
 
@@ -124,7 +124,7 @@ from azureml.core import Experiment
 experiment_name = 'aml-experiment'
 experiment = Experiment(ws, experiment_name)
 ```
-Za pridobitev ali ustvarjanje eksperimenta iz delovnega prostora zahtevate eksperiment z uporabo imena eksperimenta. Ime eksperimenta mora biti dolgo 3-36 znakov, začeti se mora s črko ali številko in lahko vsebuje le črke, številke, podčrtaje in vezaje. Če eksperiment ni najden v delovnem prostoru, se ustvari nov eksperiment.
+Za pridobitev ali ustvarjanje eksperimenta iz delovnega prostora zahtevate eksperiment z uporabo imena eksperimenta. Ime eksperimenta mora biti dolgo 3-36 znakov, začeti z črko ali številko ter vsebovati le črke, številke, podčrtaje in vezaje. Če eksperiment ni najden v delovnem prostoru, se ustvari nov eksperiment.
 
 Zdaj morate ustvariti računalniški grozd za učenje z naslednjo kodo. Upoštevajte, da lahko ta korak traja nekaj minut. 
 
@@ -156,16 +156,16 @@ df.describe()
 
 Za nastavitev konfiguracije AutoML uporabite [razred AutoMLConfig](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
-Kot je opisano v dokumentaciji, obstaja veliko parametrov, s katerimi se lahko igrate. Za ta projekt bomo uporabili naslednje parametre:
+Kot je opisano v dokumentaciji, je na voljo veliko parametrov, s katerimi se lahko igrate. Za ta projekt bomo uporabili naslednje parametre:
 
 - `experiment_timeout_minutes`: Najdaljši čas (v minutah), ki je dovoljen za izvajanje eksperimenta, preden se samodejno ustavi in rezultati postanejo na voljo.
-- `max_concurrent_iterations`: Največje število dovoljenih sočasnih iteracij učenja za eksperiment.
-- `primary_metric`: Primarna metrika, ki se uporablja za določanje statusa eksperimenta.
-- `compute_target`: Cilj računalniškega učenja Azure Machine Learning za izvajanje eksperimenta avtomatiziranega strojnega učenja.
+- `max_concurrent_iterations`: Največje število hkratnih iteracij učenja, dovoljenih za eksperiment.
+- `primary_metric`: Glavna metrika, ki se uporablja za določanje statusa eksperimenta.
+- `compute_target`: Ciljni računalniški vir Azure Machine Learning za izvajanje eksperimenta avtomatiziranega strojnega učenja.
 - `task`: Vrsta naloge za izvajanje. Vrednosti so lahko 'classification', 'regression' ali 'forecasting', odvisno od vrste problema avtomatiziranega strojnega učenja.
-- `training_data`: Podatki za učenje, ki se uporabljajo v eksperimentu. Vsebujejo tako značilnosti za učenje kot stolpec z oznakami (po možnosti stolpec z utežmi vzorcev).
+- `training_data`: Podatki za učenje, ki se uporabljajo v eksperimentu. Vsebujejo tako značilnosti za učenje kot stolpec z oznakami (po želji tudi stolpec z utežmi vzorcev).
 - `label_column_name`: Ime stolpca z oznakami.
-- `path`: Polna pot do mape projekta Azure Machine Learning.
+- `path`: Celotna pot do mape projekta Azure Machine Learning.
 - `enable_early_stopping`: Ali omogočiti zgodnjo prekinitev, če se rezultat kratkoročno ne izboljšuje.
 - `featurization`: Indikator, ali naj se korak featurizacije izvede samodejno ali ne, ali naj se uporabi prilagojena featurizacija.
 - `debug_log`: Dnevniška datoteka za zapisovanje informacij o odpravljanju napak.
@@ -192,7 +192,7 @@ automl_config = AutoMLConfig(compute_target=compute_target,
                              **automl_settings
                             )
 ```
-Zdaj, ko imate konfiguracijo nastavljeno, lahko naučite model z naslednjo kodo. Ta korak lahko traja do ene ure, odvisno od velikosti vašega grozda.
+Zdaj, ko imate konfiguracijo nastavljeno, lahko model naučite z naslednjo kodo. Ta korak lahko traja do ene ure, odvisno od velikosti vašega grozda.
 
 ```python
 remote_run = experiment.submit(automl_config)
@@ -230,7 +230,7 @@ model = best_run.register_model(model_name = model_name,
 ```
 ### 3.2 Namestitev modela
 
-Ko je najboljši model shranjen, ga lahko namestimo z razredom [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109). InferenceConfig predstavlja nastavitve konfiguracije za prilagojeno okolje, uporabljeno za namestitev. Razred [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) predstavlja model strojnega učenja, nameščen kot spletna storitev na končni točki na Azure Container Instances. Nameščena storitev je uravnotežena HTTP končna točka z REST API-jem. Temu API-ju lahko pošljete podatke in prejmete napoved, ki jo vrne model.
+Ko je najboljši model shranjen, ga lahko namestimo z razredom [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109). InferenceConfig predstavlja nastavitve konfiguracije za prilagojeno okolje, uporabljeno za namestitev. Razred [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) predstavlja model strojnega učenja, nameščen kot spletna storitev na končni točki na Azure Container Instances. Nameščena storitev je uravnotežena HTTP končna točka z REST API. Podatke lahko pošljete na ta API in prejmete napoved, ki jo vrne model.
 
 Model je nameščen z metodo [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
@@ -286,7 +286,7 @@ response
 ```
 To bi moralo vrniti `'{"result": [false]}'`. To pomeni, da je vhod pacienta, ki smo ga poslali na končno točko, ustvaril napoved `false`, kar pomeni, da ta oseba verjetno ne bo doživela srčnega napada.
 
-Čestitke! Pravkar ste uporabili model, ki je bil razporejen in treniran na Azure ML z uporabo Azure ML SDK!
+Čestitke! Pravkar ste uporabili model, ki je bil nameščen in usposobljen na Azure ML z uporabo Azure ML SDK!
 
 
 > **_NOTE:_** Ko zaključite projekt, ne pozabite izbrisati vseh virov.
@@ -297,11 +297,11 @@ Obstaja veliko drugih stvari, ki jih lahko naredite prek SDK-ja, žal pa jih v t
 
 **NAMIG:** Obiščite [dokumentacijo SDK](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) in v iskalno vrstico vnesite ključne besede, kot je "Pipeline". V rezultatih iskanja bi morali najti razred `azureml.pipeline.core.Pipeline`.
 
-## [Kvizi po predavanju](https://ff-quizzes.netlify.app/en/ds/)
+## [Kvizi po predavanju](https://ff-quizzes.netlify.app/en/ds/quiz/37)
 
 ## Pregled in samostojno učenje
 
-V tej lekciji ste se naučili, kako trenirati, razporediti in uporabiti model za napovedovanje tveganja srčnega popuščanja z uporabo Azure ML SDK v oblaku. Oglejte si to [dokumentacijo](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) za dodatne informacije o Azure ML SDK. Poskusite ustvariti svoj model z uporabo Azure ML SDK.
+V tej lekciji ste se naučili, kako usposobiti, namestiti in uporabiti model za napovedovanje tveganja srčnega popuščanja z uporabo Azure ML SDK v oblaku. Oglejte si to [dokumentacijo](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) za dodatne informacije o Azure ML SDK. Poskusite ustvariti svoj model z uporabo Azure ML SDK.
 
 ## Naloga
 
@@ -310,4 +310,4 @@ V tej lekciji ste se naučili, kako trenirati, razporediti in uporabiti model za
 ---
 
 **Omejitev odgovornosti**:  
-Ta dokument je bil preveden z uporabo storitve za prevajanje z umetno inteligenco [Co-op Translator](https://github.com/Azure/co-op-translator). Čeprav si prizadevamo za natančnost, vas prosimo, da upoštevate, da lahko avtomatizirani prevodi vsebujejo napake ali netočnosti. Izvirni dokument v njegovem maternem jeziku je treba obravnavati kot avtoritativni vir. Za ključne informacije priporočamo profesionalni človeški prevod. Ne prevzemamo odgovornosti za morebitna nesporazumevanja ali napačne razlage, ki bi nastale zaradi uporabe tega prevoda.
+Ta dokument je bil preveden z uporabo storitve AI za prevajanje [Co-op Translator](https://github.com/Azure/co-op-translator). Čeprav si prizadevamo za natančnost, vas prosimo, da upoštevate, da lahko avtomatizirani prevodi vsebujejo napake ali netočnosti. Izvirni dokument v njegovem izvirnem jeziku je treba obravnavati kot avtoritativni vir. Za ključne informacije priporočamo profesionalni človeški prevod. Ne prevzemamo odgovornosti za morebitna napačna razumevanja ali napačne interpretacije, ki bi nastale zaradi uporabe tega prevoda.

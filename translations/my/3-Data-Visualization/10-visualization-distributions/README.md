@@ -1,26 +1,26 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "02ce904bc1e2bfabb7dc05c25aae375c",
-  "translation_date": "2025-09-05T05:22:29+00:00",
+  "original_hash": "80a20467e046d312809d008395051fc7",
+  "translation_date": "2025-09-05T20:21:19+00:00",
   "source_file": "3-Data-Visualization/10-visualization-distributions/README.md",
   "language_code": "my"
 }
 -->
-# အနံ့အကျယ်များကို မြင်သာအောင် ဖော်ပြခြင်း
+# အချိုးအစားများကိုမြင်နိုင်စေခြင်း
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/10-Visualizing-Distributions.png)|
 |:---:|
-| အနံ့အကျယ်များကို မြင်သာအောင် ဖော်ပြခြင်း - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+| အချိုးအစားများကိုမြင်နိုင်စေခြင်း - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-ယခင် သင်ခန်းစာတွင် Minnesota ရှိ ငှက်များအကြောင်း ဒေတာအချို့ကို သင်လေ့လာခဲ့ပါသည်။ သင်သည် အနံ့အကျယ်များကို မြင်သာအောင် ဖော်ပြခြင်းဖြင့် အမှားပါသော ဒေတာများကို ရှာဖွေခဲ့ပြီး ငှက်အမျိုးအစားများ၏ အရှည်အမြင့်အများဆုံးအကြား ကွာခြားချက်များကို ကြည့်ရှုခဲ့ပါသည်။
+ယခင်သင်ခန်းစာတွင်၊ Minnesota ရှိငှက်များအကြောင်း dataset တစ်ခုမှ စိတ်ဝင်စားဖွယ်အချက်အလက်များကို သင်လေ့လာခဲ့ပါသည်။ သင်သည် outliers များကိုမြင်နိုင်စေခြင်းဖြင့် အမှားအယွင်းရှိသောဒေတာများကို ရှာဖွေခဲ့ပြီး၊ ငှက်အမျိုးအစားများ၏ အရှည်အမြင့်အများဆုံးအရေအတွက်အပေါ် မတူကွဲပြားမှုများကိုကြည့်ခဲ့ပါသည်။
 
-## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/18)
-## ငှက်များ၏ ဒေတာကို လေ့လာခြင်း
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/18)
+## ငှက်များ dataset ကိုလေ့လာခြင်း
 
-ဒေတာကို အနက်ရှိုင်းစွာ လေ့လာရန် နောက်ထပ်နည်းလမ်းတစ်ခုမှာ ဒေတာကို အချိုးအစားအနေနှင့် (distribution) ကြည့်ရှုခြင်းဖြစ်သည်။ ဥပမာအားဖြင့် Minnesota ရှိ ငှက်များ၏ အမြင့်ဆုံးတောင်ပံအကျယ် (maximum wingspan) သို့မဟုတ် အမြင့်ဆုံးကိုယ်အလေးချိန် (maximum body mass) အကြောင်းကို သိလိုပါက ဒေတာ၏ အချိုးအစားကို လေ့လာနိုင်ပါသည်။
+ဒေတာကိုရှာဖွေဖို့နောက်ထပ်နည်းလမ်းတစ်ခုက ဒေတာကို axis တစ်ခုတစ်လျှောက်တွင် ဘယ်လိုစီစဉ်ထားသည်ကိုကြည့်ခြင်းဖြစ်သည်။ ဥပမာအားဖြင့်၊ Minnesota ရှိငှက်များအတွက် အမြင့်ဆုံးတောင်ပံအကျယ်သို့မဟုတ် အမြင့်ဆုံးကိုယ်အလေးချိန်၏ အခြေခံအချိုးအစားကို သင်လေ့လာလိုပါက၊ ဒေတာ၏အချိုးအစားများအကြောင်းကို ရှာဖွေကြည့်ရအောင်။
 
-ဒီ ဒေတာအချိုးအစားများအကြောင်း အချက်အလက်အချို့ကို ရှာဖွေကြည့်ရအောင်။ ဒီ သင်ခန်းစာဖိုလ်ဒါ၏ အရင်းအမြစ်တွင်ရှိသော _notebook.ipynb_ ဖိုင်တွင် Pandas, Matplotlib နှင့် သင့်ဒေတာကို import လုပ်ပါ။
+ဒီသင်ခန်းစာ folder ရဲ့ root မှာရှိတဲ့ _notebook.ipynb_ ဖိုင်ထဲမှာ Pandas, Matplotlib, နဲ့ သင့်ဒေတာကို import လုပ်ပါ။
 
 ```python
 import pandas as pd
@@ -37,7 +37,7 @@ birds.head()
 |    3 | Ross's goose                 | Anser rossii           | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Anser       | LC                 |      57.3 |        64 |        1066 |        1567 |         113 |         116 |
 |    4 | Greater white-fronted goose  | Anser albifrons        | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Anser       | LC                 |        64 |        81 |        1930 |        3310 |         130 |         165 |
 
-ယေဘူယျအားဖြင့် ဒေတာကို အချိုးအစားအနေနှင့် မြင်သာအောင် ဖော်ပြရန် scatter plot ကို အသုံးပြုနိုင်ပါသည်။ ယခင် သင်ခန်းစာတွင် ကျွန်ုပ်တို့ ပြုလုပ်ခဲ့သည့်အတိုင်းပါ:
+ယေဘူယျအားဖြင့်၊ scatter plot ကိုအသုံးပြုခြင်းဖြင့် ဒေတာကိုဘယ်လိုမျှတစီစဉ်ထားသည်ကို အလွယ်တကူကြည့်နိုင်သည်။ ယခင်သင်ခန်းစာတွင်လည်း ဒီနည်းကိုအသုံးပြုခဲ့ပါသည်။
 
 ```python
 birds.plot(kind='scatter',x='MaxLength',y='Order',figsize=(12,8))
@@ -50,11 +50,11 @@ plt.show()
 ```
 ![max length per order](../../../../3-Data-Visualization/10-visualization-distributions/images/scatter-wb.png)
 
-ဤအချက်အလက်သည် ငှက်အမျိုးအစား (Order) တစ်ခုချင်းစီအတွက် ကိုယ်အရှည်အမြင့်၏ အချိုးအစားကို ယေဘူယျအားဖြင့် ဖော်ပြပေးသည်။ သို့သော် ဒေတာ၏ အမှန်တကယ် အချိုးအစားကို ဖော်ပြရန် အကောင်းဆုံးနည်းလမ်းမဟုတ်ပါ။ အဲဒီအလုပ်ကို Histogram ဖန်တီးခြင်းဖြင့် ပြုလုပ်နိုင်ပါသည်။
+ဒါက ငှက် Order တစ်ခုချင်းစီအတွက် ကိုယ်အရှည်အချိုးအစားကို ယေဘူယျအားဖြင့်မြင်နိုင်စေသော်လည်း၊ အချိုးအစားများကိုမှန်ကန်စွာဖော်ပြရန်အတွက် အကောင်းဆုံးနည်းလမ်းမဟုတ်ပါ။ ဒီအလုပ်ကို Histogram တစ်ခုဖန်တီးခြင်းဖြင့်လုပ်ဆောင်နိုင်ပါသည်။
 
-## Histogram နှင့် အလုပ်လုပ်ခြင်း
+## Histogram များနှင့်အလုပ်လုပ်ခြင်း
 
-Matplotlib သည် Histogram အသုံးပြု၍ ဒေတာအချိုးအစားကို မြင်သာအောင် ဖော်ပြရန် အကောင်းဆုံးနည်းလမ်းများကို ပေးသည်။ ဒီအမျိုးအစား chart သည် bar chart နှင့် ဆင်တူပြီး bar များ၏ မြင့်တက်နှင့် ကျဆင်းမှုမှတစ်ဆင့် ဒေတာအချိုးအစားကို မြင်နိုင်သည်။ Histogram ဖန်တီးရန် သင်Numeric ဒေတာလိုအပ်ပါသည်။ Histogram ဖန်တီးရန် chart ကို 'hist' အမျိုးအစားအဖြစ် သတ်မှတ်ပြီး ဖန်တီးနိုင်ပါသည်။ ဤ chart သည် MaxBodyMass အတွက် ဒေတာ၏ အချိုးအစားကို ဖော်ပြသည်။ ဒေတာ array ကို bin များသို့ ခွဲခြားခြင်းဖြင့် ဒေတာ၏ အချိုးအစားကို ဖော်ပြနိုင်သည်။
+Matplotlib သည် Histogram များကိုအသုံးပြု၍ ဒေတာအချိုးအစားကိုမြင်နိုင်စေရန် အလွန်ကောင်းမွန်သောနည်းလမ်းများကိုပေးသည်။ ဒီအမျိုးအစား chart က bar chart တစ်ခုလိုပဲဖြစ်ပြီး၊ bar များ၏တက်ခြင်းနှင့်ကျခြင်းအားဖြင့် အချိုးအစားကိုမြင်နိုင်သည်။ Histogram တစ်ခုဖန်တီးရန် သင်Numeric data လိုအပ်ပါသည်။ Histogram တစ်ခုဖန်တီးရန်၊ chart ကို 'hist' အမျိုးအစားအဖြစ်သတ်မှတ်ပြီး plot လုပ်နိုင်ပါသည်။ ဒီ chart က dataset တစ်ခု၏ MaxBodyMass အချိုးအစားကိုဖော်ပြသည်။ ဒေတာ array ကို bin များသေးငယ်စွာခွဲခြင်းဖြင့်၊ ဒေတာ၏တန်ဖိုးများ၏အချိုးအစားကိုဖော်ပြနိုင်သည်။
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
@@ -62,7 +62,7 @@ plt.show()
 ```
 ![distribution over the entire dataset](../../../../3-Data-Visualization/10-visualization-distributions/images/dist1-wb.png)
 
-သင်မြင်နိုင်သည့်အတိုင်း ဒီ dataset တွင်ပါဝင်သော 400+ ငှက်များ၏ အများစုသည် Max Body Mass 2000 အောက်တွင် ရှိသည်။ `bins` parameter ကို 30 အဖြစ် ပြောင်းလဲခြင်းဖြင့် ဒေတာအကြောင်းကို ပိုမိုနက်ရှိုင်းစွာ သိရှိနိုင်ပါသည်။
+သင်မြင်နိုင်သည့်အတိုင်း၊ ဒီ dataset ရှိငှက် 400+ အများစုသည် Max Body Mass 2000 အောက်တွင်ရှိသည်။ `bins` parameter ကို 30 အထိမြှင့်တင်ခြင်းဖြင့် ဒေတာအကြောင်းကိုပိုမိုနက်နက်ရှိုင်းရှိုင်းလေ့လာပါ။
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 30, figsize = (12,12))
@@ -70,9 +70,9 @@ plt.show()
 ```
 ![distribution over the entire dataset with larger bins param](../../../../3-Data-Visualization/10-visualization-distributions/images/dist2-wb.png)
 
-ဤ chart သည် အချိုးအစားကို ပိုမိုအသေးစိတ် ဖော်ပြပေးသည်။ ပိုမိုလက်ဝါးကပ်သော chart ကို ဖန်တီးရန် သတ်မှတ်ထားသော range အတွင်းရှိ ဒေတာကိုသာ ရွေးချယ်ပါ:
+ဒီ chart ကပိုမိုအသေးစိတ်အချိုးအစားကိုဖော်ပြသည်။ left ကိုပိုမို skewed မဖြစ်သော chart တစ်ခုဖန်တီးရန်၊ သတ်မှတ်ထားသော range အတွင်းရှိဒေတာကိုသာရွေးချယ်ပါ။
 
-ကိုယ်အလေးချိန် 60 အောက်ရှိ ငှက်များကို filter လုပ်ပြီး `bins` ကို 40 အဖြစ် ပြပါ:
+ကိုယ်အလေးချိန် 60 အောက်ရှိငှက်များကို filter လုပ်ပြီး၊ 40 `bins` ကိုပြပါ။
 
 ```python
 filteredBirds = birds[(birds['MaxBodyMass'] > 1) & (birds['MaxBodyMass'] < 60)]      
@@ -81,11 +81,11 @@ plt.show()
 ```
 ![filtered histogram](../../../../3-Data-Visualization/10-visualization-distributions/images/dist3-wb.png)
 
-✅ အခြား filter များနှင့် ဒေတာအချက်အလက်များကို စမ်းကြည့်ပါ။ ဒေတာ၏ အပြည့်အစုံအချိုးအစားကို မြင်ရန် `['MaxBodyMass']` filter ကို ဖယ်ရှားပြီး label ထည့်ထားသော အချိုးအစားများကို ပြပါ။
+✅ အခြား filter များနှင့် data point များကိုစမ်းကြည့်ပါ။ ဒေတာ၏အချိုးအစားအပြည့်အစုံကိုမြင်ရန် `['MaxBodyMass']` filter ကိုဖယ်ရှားပြီး labeled distributions ကိုပြပါ။
 
-Histogram သည် အရောင်နှင့် label အဆင်ပြေမှုများကိုလည်း စမ်းသပ်နိုင်ပါသည်။
+Histogram တွင်အရောင်နှင့် label များကိုတိုးတက်စေရန်အဆင်ပြေသော enhancement များလည်းရှိသည်။
 
-2D histogram ဖန်တီးပြီး အချိုးအစားနှစ်ခုအကြား ဆက်နွယ်မှုကို နှိုင်းယှဉ်ကြည့်ပါ။ `MaxBodyMass` နှင့် `MaxLength` ကို နှိုင်းယှဉ်ကြည့်ရအောင်။ Matplotlib သည် အလင်းရောင်များကို အသုံးပြု၍ ဆက်နွယ်မှုကို ဖော်ပြရန် built-in နည်းလမ်းကို ပေးသည်။
+2D histogram တစ်ခုဖန်တီးပြီး အချိုးအစားနှစ်ခုအကြားဆက်နွယ်မှုကိုနှိုင်းယှဉ်ပါ။ `MaxBodyMass` နှင့် `MaxLength` ကိုနှိုင်းယှဉ်ကြည့်ပါ။ Matplotlib သည် အလင်းရောင်ပိုမိုတောက်ပသောအရောင်များကိုအသုံးပြု၍ ဆက်စပ်မှုကိုဖော်ပြရန် built-in နည်းလမ်းကိုပေးသည်။
 
 ```python
 x = filteredBirds['MaxBodyMass']
@@ -94,26 +94,26 @@ y = filteredBirds['MaxLength']
 fig, ax = plt.subplots(tight_layout=True)
 hist = ax.hist2d(x, y)
 ```
-ဤ chart တွင် အချိုးအစားနှစ်ခုအကြား ဆက်နွယ်မှုရှိသည်ကို မြင်နိုင်ပြီး တစ်နေရာမှာ အထူးအားကောင်းသော ဆက်နွယ်မှုကို တွေ့နိုင်သည်။
+တစ်ခုတည်းသော axis တစ်ခုတစ်လျှောက်တွင် မျှော်လင့်ထားသော correlation တစ်ခုရှိသည့်အပြင်၊ convergence အားကောင်းသော point တစ်ခုလည်းရှိသည်။
 
 ![2D plot](../../../../3-Data-Visualization/10-visualization-distributions/images/2D-wb.png)
 
-Histogram များသည် Numeric ဒေတာအတွက် အလွန်ကောင်းမွန်စွာ အလုပ်လုပ်သည်။ Text-based ဒေတာအချိုးအစားကို မြင်ရန်လိုပါက ဘာလုပ်ရမလဲ?
+Histogram များသည် Numeric data အတွက် default အနေဖြင့်ကောင်းမွန်စွာအလုပ်လုပ်သည်။ Text data အရေအတွက်အချိုးအစားကိုမြင်ရန်လိုအပ်ပါက ဘာလုပ်ရမလဲ?
 
-## Text-based ဒေတာအချိုးအစားများကို လေ့လာခြင်း
+## Text data ကိုအသုံးပြု၍ dataset ကိုလေ့လာခြင်း
 
-ဤ dataset တွင် ငှက်အမျိုးအစား၊ genus, species, family နှင့် conservation status အကြောင်း အချက်အလက်များပါဝင်သည်။ conservation status အကြောင်းကို လေ့လာကြည့်ရအောင်။ ငှက်များ၏ conservation status အချိုးအစားကို ဘယ်လိုဖြစ်နေသလဲ?
+ဒီ dataset တွင် ငှက်အမျိုးအစား၊ genus, species, family နှင့် conservation status အကြောင်းအချက်များလည်းပါဝင်သည်။ ဒီ conservation အချက်အလက်ကိုရှာဖွေကြည့်ရအောင်။ ငှက်များကို conservation status အရဘယ်လိုအချိုးအစားဖြင့်ခွဲထားသလဲ?
 
-> ✅ Dataset တွင် conservation status ကို ဖော်ပြရန် အတိုကောက်များကို အသုံးပြုထားသည်။ ဤအတိုကောက်များသည် [IUCN Red List Categories](https://www.iucnredlist.org/) မှ ရရှိသည်။
+> ✅ Dataset တွင် conservation status ကိုဖော်ပြရန် အတိုကောက်များစွာအသုံးပြုထားသည်။ ဒီအတိုကောက်များသည် [IUCN Red List Categories](https://www.iucnredlist.org/) မှရရှိပြီး၊ species များ၏အခြေအနေကို catalog လုပ်ထားသောအဖွဲ့အစည်းဖြစ်သည်။
 > 
 > - CR: အလွန်အန္တရာယ်ရှိသော
 > - EN: အန္တရာယ်ရှိသော
 > - EX: မျိုးတုံးသွားသော
-> - LC: အနည်းဆုံး စိုးရိမ်ရသော
-> - NT: အနီးကပ် စိုးရိမ်ရသော
+> - LC: အနည်းဆုံးအန္တရာယ်ရှိသော
+> - NT: အနီးကပ်အန္တရာယ်ရှိသော
 > - VU: အန္တရာယ်ရှိနိုင်သော
 
-ဤအချက်အလက်များသည် text-based ဖြစ်သောကြောင့် histogram ဖန်တီးရန် transform လုပ်ရန်လိုအပ်ပါသည်။ filteredBirds dataframe ကို အသုံးပြု၍ conservation status ကို Minimum Wingspan နှင့်အတူ ဖော်ပြပါ။ သင်ဘာတွေ့ရမလဲ?
+ဒီအတိုကောက်များသည် text-based values ဖြစ်သောကြောင့် histogram ဖန်တီးရန် transform လုပ်ရန်လိုအပ်ပါသည်။ filteredBirds dataframe ကိုအသုံးပြု၍၊ conservation status ကို Minimum Wingspan နှင့်အတူပြပါ။ သင်ဘာတွေမြင်ရလဲ?
 
 ```python
 x1 = filteredBirds.loc[filteredBirds.ConservationStatus=='EX', 'MinWingspan']
@@ -138,15 +138,15 @@ plt.legend();
 
 ![wingspan and conservation collation](../../../../3-Data-Visualization/10-visualization-distributions/images/histogram-conservation-wb.png)
 
-Minimum Wingspan နှင့် conservation status အကြား ဆက်နွယ်မှုကောင်းကောင်း မရှိသလိုပုံရသည်။ dataset ၏ အခြား element များကို ဒီနည်းလမ်းဖြင့် စမ်းကြည့်ပါ။ အခြား filter များကိုလည်း စမ်းကြည့်ပါ။ သင် ဆက်နွယ်မှုတစ်ခုခုကို တွေ့နိုင်ပါသလား?
+Minimum Wingspan နှင့် conservation status အကြား correlation ကောင်းမွန်သောအချက်အလက်မရှိသလိုပဲ။ ဒီနည်းလမ်းကိုအသုံးပြု၍ dataset ရှိအခြား element များကိုစမ်းကြည့်ပါ။ အခြား filter များကိုလည်းစမ်းကြည့်ပါ။ သင် correlation တစ်ခုရှာဖွေတွေ့ရှိပါသလား?
 
 ## Density plots
 
-ယခင်တွင် ကြည့်ရှုခဲ့သော histogram များသည် 'stepped' ဖြစ်ပြီး arc အနေနှင့် မပြေပြစ်သောပုံစံဖြစ်သည်ကို သတိထားမိနိုင်ပါသည်။ arc ပုံစံဖြင့် ပိုမိုပြေပြစ်သော density chart ကို ဖော်ပြရန် density plot ကို စမ်းကြည့်နိုင်ပါသည်။
+သင်မိမိကြည့်ခဲ့သော histogram များသည် 'stepped' ဖြစ်ပြီး arc တစ်ခုအနေဖြင့်ချောမွေ့စွာမရောက်ရှိကြောင်းသတိထားမိနိုင်ပါသည်။ ချောမွေ့သော density chart ကိုဖော်ပြရန် density plot ကိုစမ်းကြည့်နိုင်သည်။
 
-Density plot များနှင့် အလုပ်လုပ်ရန် [Seaborn](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) ဆိုသော plotting library အသစ်ကို လေ့လာပါ။
+Density plots နှင့်အလုပ်လုပ်ရန်၊ plotting library အသစ်တစ်ခုဖြစ်သော [Seaborn](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) ကိုလေ့လာပါ။
 
-Seaborn ကို load လုပ်ပြီး basic density plot တစ်ခုကို စမ်းကြည့်ပါ:
+Seaborn ကို load လုပ်ပြီး၊ basic density plot တစ်ခုစမ်းကြည့်ပါ။
 
 ```python
 import seaborn as sns
@@ -156,9 +156,9 @@ plt.show()
 ```
 ![Density plot](../../../../3-Data-Visualization/10-visualization-distributions/images/density1.png)
 
-ဤ plot သည် Minimum Wingspan data အတွက် ယခင် histogram ကို echo လုပ်ပေးသည်။ သို့သော် ပိုမိုပြေပြစ်သောပုံစံဖြစ်သည်။ Seaborn ၏ documentation အရ "Histogram နှင့် နှိုင်းယှဉ်ပါက KDE သည် ပိုမိုရှင်းလင်းပြီး အဓိပ္ပာယ်ရှိသော plot ကို ဖန်တီးပေးနိုင်သည်။ သို့သော် underlying distribution bounded မဖြစ်ပါက distortion ဖြစ်နိုင်သည်။ Histogram နှင့်တူပင် representation quality သည် smoothing parameters ရွေးချယ်မှုကောင်းမွန်မှုအပေါ် မူတည်သည်။" [source](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) အဆိုအရ outliers များသည် အမြဲ chart များကို မကောင်းစေမည်ဖြစ်သည်။
+သင်မြင်နိုင်သည့်အတိုင်း၊ Minimum Wingspan data အတွက် ယခင် chart ကို echo လုပ်သလိုပဲဖြစ်သည်။ ဒါပေမယ့်ပိုချောမွေ့သည်။ Seaborn ၏ documentation အရ၊ "Histogram နှင့်နှိုင်းယှဉ်ပါက၊ KDE သည် ပိုမိုရှင်းလင်းပြီး၊ အဓိပ္ပါယ်ရှိသော plot တစ်ခုကိုဖန်တီးနိုင်သည်။ အထူးသဖြင့် distribution များစွာကိုဆွဲဆောင်သောအခါတွင်။ သို့သော်၊ underlying distribution bounded သို့မဟုတ် smooth မဖြစ်ပါက distortion များကိုဖြစ်စေနိုင်သည်။ Histogram တစ်ခုလိုပဲ၊ representation ၏အရည်အသွေးသည် smoothing parameters ကောင်းမွန်စွာရွေးချယ်မှုအပေါ်မူတည်သည်။" [source](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) အဆိုအရ၊ outliers များသည်အမြဲတမ်း chart များကိုမကောင်းစေမည်ဖြစ်သည်။
 
-ယခင်တွင် ဖန်တီးခဲ့သော jagged MaxBodyMass line ကို ပြေပြစ်စွာ ဖော်ပြလိုပါက ဒီနည်းလမ်းဖြင့် ပြန်ဖန်တီးနိုင်ပါသည်။
+ယခင် chart တွင်ရှိသော jagged MaxBodyMass line ကိုပြန်လည်လေ့လာလိုပါက၊ ဒီနည်းလမ်းကိုအသုံးပြု၍ အလွန်ချောမွေ့စွာပြန်လည်ဖန်တီးနိုင်သည်။
 
 ```python
 sns.kdeplot(filteredBirds['MaxBodyMass'])
@@ -166,7 +166,7 @@ plt.show()
 ```
 ![smooth bodymass line](../../../../3-Data-Visualization/10-visualization-distributions/images/density2.png)
 
-Smooth ဖြစ်သော်လည်း အလွန်ပြေပြစ်မဖြစ်စေရန် `bw_adjust` parameter ကို ပြင်ဆင်ပါ:
+ချောမွေ့သော၊ သို့သော်အလွန်ချောမွေ့မဟုတ်သော line တစ်ခုလိုချင်ပါက `bw_adjust` parameter ကို edit လုပ်ပါ။
 
 ```python
 sns.kdeplot(filteredBirds['MaxBodyMass'], bw_adjust=.2)
@@ -174,9 +174,9 @@ plt.show()
 ```
 ![less smooth bodymass line](../../../../3-Data-Visualization/10-visualization-distributions/images/density3.png)
 
-✅ ဒီအမျိုးအစား plot အတွက် ရရှိနိုင်သော parameters များကို ဖတ်ရှုပြီး စမ်းကြည့်ပါ!
+✅ ဒီအမျိုးအစား plot အတွက်ရရှိနိုင်သော parameters များအကြောင်းဖတ်ရှုပြီး စမ်းကြည့်ပါ။
 
-ဤ chart အမျိုးအစားသည် အလွန်ရှင်းလင်းသော visualizations ကို ဖန်တီးပေးသည်။ ဥပမာအားဖြင့် ငှက်အမျိုးအစား (Order) တစ်ခုချင်းစီအတွက် max body mass density ကို ဖော်ပြနိုင်သည်။
+ဒီအမျိုးအစား chart သည် ရှင်းလင်းသော visualizations များကိုအလှပဆုံးဖော်ပြပေးသည်။ ဥပမာအားဖြင့်၊ ငှက် Order တစ်ခုချင်းစီအတွက် max body mass density ကိုဖော်ပြရန် code အချို့သာရေးလိုက်ရုံဖြင့်ပြနိုင်သည်။
 
 ```python
 sns.kdeplot(
@@ -188,7 +188,7 @@ sns.kdeplot(
 
 ![bodymass per order](../../../../3-Data-Visualization/10-visualization-distributions/images/density4.png)
 
-တစ်ခုချင်းစီ plot များကို map လုပ်ပြီး chart တစ်ခုထဲတွင် variables များစွာကို ဖော်ပြနိုင်သည်။ ငှက်၏ MaxLength နှင့် MinLength ကို conservation status နှင့် နှိုင်းယှဉ်ကြည့်ပါ:
+Variable များစွာ၏ density ကို chart တစ်ခုထဲတွင် map လုပ်နိုင်သည်။ Conservation status နှင့်နှိုင်းယှဉ်ပြီး ငှက်၏ MaxLength နှင့် MinLength ကိုစမ်းကြည့်ပါ။
 
 ```python
 sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationStatus")
@@ -196,23 +196,23 @@ sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationS
 
 ![multiple densities, superimposed](../../../../3-Data-Visualization/10-visualization-distributions/images/multi.png)
 
-'Vulnerable' ငှက်များ၏ အရှည်အချိုးအစားအကြောင်း cluster သည် အဓိပ္ပာယ်ရှိမရှိကို သုတေသနလုပ်ရန် တန်ဖိုးရှိနိုင်ပါသည်။
+'Vulnerable' status ရှိငှက်များ၏ length အချိုးအစားအပေါ် cluster တစ်ခုရှိသည်မှာ အဓိပ္ပါယ်ရှိမရှိကိုလေ့လာရန်တန်ဖိုးရှိနိုင်သည်။
 
 ## 🚀 စိန်ခေါ်မှု
 
-Histogram များသည် scatterplots, bar charts, သို့မဟုတ် line charts ထက် ပိုမိုရှုပ်ထွေးသော chart အမျိုးအစားဖြစ်သည်။ Histogram များကို အသုံးပြုထားသော ကောင်းမွန်သော ဥပမာများကို အင်တာနက်တွင် ရှာဖွေပါ။ Histogram များကို ဘယ်လိုအသုံးပြုထားသည်၊ ဘာကို ဖော်ပြပေးသည်၊ ဘယ်လောကများတွင် အသုံးပြုလေ့ရှိသည်ဆိုတာကို လေ့လာပါ။
+Histogram များသည် scatterplots, bar charts, သို့မဟုတ် line charts များထက်ပိုမိုရှုပ်ထွေးသော chart အမျိုးအစားဖြစ်သည်။ Histogram များကိုအသုံးပြုသောကောင်းမွန်သောဥပမာများကိုအင်တာနက်တွင်ရှာဖွေပါ။ Histogram များကိုဘယ်လိုအသုံးပြုကြသည်၊ ဘာကိုဖော်ပြနိုင်သည်၊ ဘယ်လောကများတွင်အသုံးပြုလေ့ရှိသည်ဆိုတာကိုလေ့လာပါ။
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/19)
 
 ## ပြန်လည်သုံးသပ်ခြင်းနှင့် ကိုယ်တိုင်လေ့လာခြင်း
 
-ဤသင်ခန်းစာတွင် Matplotlib ကို အသုံးပြုပြီး Seaborn ကို စတင်အသုံးပြုကာ ပိုမိုရှုပ်ထွေးသော chart များကို ဖော်ပြခဲ့ပါသည်။ Seaborn တွင် `kdeplot` အကြောင်း သုတေသနလုပ်ပါ။ "continuous probability density curve in one or more dimensions" ဖြစ်သည်။ [documentation](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) ကို ဖတ်ရှုကာ ၎င်း၏ အလုပ်လုပ်ပုံကို နားလည်ပါ။
+ဒီသင်ခန်းစာတွင်၊ သင်သည် Matplotlib ကိုအသုံးပြုခဲ့ပြီး Seaborn ကိုစတင်အသုံးပြုကာ ပိုမိုရှုပ်ထွေးသော chart များကိုဖော်ပြခဲ့သည်။ Seaborn ၏ `kdeplot` အကြောင်းလေ့လာပါ၊ "continuous probability density curve in one or more dimensions" ဖြစ်သည်။ [documentation](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) ကိုဖတ်ရှုပြီး၊ ၎င်းအလုပ်လုပ်ပုံကိုနားလည်ပါ။
 
 ## လုပ်ငန်း
 
-[သင်၏ ကျွမ်းကျင်မှုကို အသုံးချပါ](assignment.md)
+[သင်၏ကျွမ်းကျင်မှုများကိုအသုံးပြုပါ](assignment.md)
 
 ---
 
 **အကြောင်းကြားချက်**:  
-ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်မှုများတွင် အမှားများ သို့မဟုတ် မတိကျမှုများ ပါဝင်နိုင်သည်ကို သတိပြုပါ။ မူရင်းစာရွက်စာတမ်းကို ၎င်း၏ မူရင်းဘာသာစကားဖြင့် အာဏာတရားရှိသော အရင်းအမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူက ဘာသာပြန်မှုကို အသုံးပြုရန် အကြံပြုပါသည်။ ဤဘာသာပြန်မှုကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော နားလည်မှုမှားများ သို့မဟုတ် အဓိပ္ပာယ်မှားများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။
+ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်ခြင်းတွင် အမှားများ သို့မဟုတ် မတိကျမှုများ ပါရှိနိုင်သည်ကို သတိပြုပါ။ မူရင်းဘာသာစကားဖြင့် ရေးသားထားသော စာရွက်စာတမ်းကို အာဏာတရ အရင်းအမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူ့ဘာသာပြန်ပညာရှင်များမှ ပရော်ဖက်ရှင်နယ် ဘာသာပြန်ခြင်းကို အကြံပြုပါသည်။ ဤဘာသာပြန်ကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော အလွဲအလွတ်များ သို့မဟုတ် အနားလွဲများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။

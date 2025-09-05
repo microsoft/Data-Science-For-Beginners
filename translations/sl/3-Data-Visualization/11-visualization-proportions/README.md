@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "cc490897ee2d276870472bcb31602d03",
-  "translation_date": "2025-09-05T06:01:54+00:00",
+  "original_hash": "42119bcc97bee88254e381156d770f3c",
+  "translation_date": "2025-09-05T19:39:22+00:00",
   "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
   "language_code": "sl"
 }
@@ -13,15 +13,15 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Vizualizacija deležev - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-V tej lekciji boste uporabili naravoslovno usmerjen nabor podatkov za vizualizacijo deležev, na primer koliko različnih vrst gliv je prisotnih v danem naboru podatkov o gobah. Raziskali bomo te fascinantne glive z naborom podatkov, pridobljenim iz Audubona, ki vsebuje podrobnosti o 23 vrstah gob z lističi iz družin Agaricus in Lepiota. Eksperimentirali boste z okusnimi vizualizacijami, kot so:
+V tej lekciji boste uporabili naravno usmerjen nabor podatkov za vizualizacijo deležev, na primer koliko različnih vrst gliv je v določenem naboru podatkov o gobah. Raziskali bomo te fascinantne glive z uporabo nabora podatkov, pridobljenega iz Audubona, ki vsebuje podrobnosti o 23 vrstah gob z lističi iz družin Agaricus in Lepiota. Eksperimentirali boste z okusnimi vizualizacijami, kot so:
 
 - Tabelni diagrami 🥧
 - Krožni diagrami 🍩
 - Waffle diagrami 🧇
 
-> 💡 Zelo zanimiv projekt [Charticulator](https://charticulator.com) Microsoft Research ponuja brezplačen vmesnik za vizualizacijo podatkov z metodo povleci in spusti. V enem od njihovih vaj uporabljajo tudi ta nabor podatkov o gobah! Tako lahko raziskujete podatke in hkrati spoznate knjižnico: [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html).
+> 💡 Zelo zanimiv projekt z imenom [Charticulator](https://charticulator.com) od Microsoft Research ponuja brezplačen vmesnik za vizualizacijo podatkov z metodo povleci in spusti. V enem od njihovih vaj uporabljajo tudi ta nabor podatkov o gobah! Tako lahko raziskujete podatke in hkrati spoznate knjižnico: [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Kvizi po predavanju](https://ff-quizzes.netlify.app/en/ds/)
+## [Predlekcijski kviz](https://ff-quizzes.netlify.app/en/ds/quiz/20)
 
 ## Spoznajte svoje gobe 🍄
 
@@ -91,13 +91,13 @@ plt.pie(edibleclass['population'],labels=labels,autopct='%.1f %%')
 plt.title('Edible?')
 plt.show()
 ```
-Voila, tabelni diagram, ki prikazuje deleže teh podatkov glede na dva razreda gob. Zelo pomembno je, da pravilno določite vrstni red oznak, še posebej tukaj, zato preverite vrstni red, s katerim je zgrajeno polje oznak!
+Voila, tabelni diagram, ki prikazuje deleže teh podatkov glede na dva razreda gob. Zelo pomembno je, da je vrstni red oznak pravilen, še posebej tukaj, zato preverite vrstni red, s katerim je ustvarjen niz oznak!
 
-![pie chart](../../../../3-Data-Visualization/11-visualization-proportions/images/pie1-wb.png)
+![tabelni diagram](../../../../3-Data-Visualization/11-visualization-proportions/images/pie1-wb.png)
 
 ## Krogi!
 
-Vizualno nekoliko bolj zanimiv tabelni diagram je krožni diagram, ki je tabelni diagram z luknjo na sredini. Poglejmo naše podatke s to metodo.
+Malce bolj vizualno zanimiv tabelni diagram je krožni diagram, ki je tabelni diagram z luknjo na sredini. Poglejmo naše podatke s to metodo.
 
 Oglejte si različna življenjska okolja, kjer rastejo gobe:
 
@@ -105,7 +105,7 @@ Oglejte si različna življenjska okolja, kjer rastejo gobe:
 habitat=mushrooms.groupby(['habitat']).count()
 habitat
 ```
-Tukaj razvrščate podatke po življenjskem okolju. Naštetih je 7, zato jih uporabite kot oznake za krožni diagram:
+Tukaj razvrščate podatke glede na življenjsko okolje. Naštetih je 7, zato jih uporabite kot oznake za krožni diagram:
 
 ```python
 labels=['Grasses','Leaves','Meadows','Paths','Urban','Waste','Wood']
@@ -123,16 +123,16 @@ plt.title('Mushroom Habitats')
 plt.show()
 ```
 
-![donut chart](../../../../3-Data-Visualization/11-visualization-proportions/images/donut-wb.png)
+![krožni diagram](../../../../3-Data-Visualization/11-visualization-proportions/images/donut-wb.png)
 
-Ta koda nariše diagram in osrednji krog, nato pa ta osrednji krog doda v diagram. Širino osrednjega kroga lahko uredite tako, da spremenite `0.40` v drugo vrednost.
+Ta koda nariše diagram in osrednji krog, nato pa ta osrednji krog doda v diagram. Širino osrednjega kroga lahko spremenite tako, da spremenite `0.40` v drugo vrednost.
 
-Krožni diagrami se lahko prilagodijo na več načinov, da spremenite oznake. Oznake je mogoče posebej poudariti za boljšo berljivost. Več o tem si preberite v [dokumentaciji](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
+Krožni diagrami se lahko prilagodijo na več načinov, da spremenijo oznake. Oznake je mogoče posebej poudariti za boljšo berljivost. Več o tem si preberite v [dokumentaciji](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
 
 Zdaj, ko veste, kako razvrstiti podatke in jih nato prikazati kot tabelo ali krog, lahko raziščete druge vrste diagramov. Poskusite waffle diagram, ki je le drugačen način raziskovanja količine.
 ## Waffle!
 
-Diagram tipa 'waffle' je drugačen način vizualizacije količin kot 2D matrika kvadratov. Poskusite vizualizirati različne količine barv klobukov gob v tem naboru podatkov. Za to morate namestiti pomožno knjižnico [PyWaffle](https://pypi.org/project/pywaffle/) in uporabiti Matplotlib:
+Diagram tipa 'waffle' je drugačen način vizualizacije količin kot 2D matrika kvadratov. Poskusite vizualizirati različne količine barv gobjih klobukov v tem naboru podatkov. Za to morate namestiti pomožno knjižnico z imenom [PyWaffle](https://pypi.org/project/pywaffle/) in uporabiti Matplotlib:
 
 ```python
 pip install pywaffle
@@ -170,7 +170,7 @@ fig = plt.figure(
 
 Z uporabo waffle diagrama lahko jasno vidite deleže barv klobukov v tem naboru podatkov o gobah. Zanimivo je, da je veliko gob z zelenimi klobuki!
 
-![waffle chart](../../../../3-Data-Visualization/11-visualization-proportions/images/waffle.png)
+![waffle diagram](../../../../3-Data-Visualization/11-visualization-proportions/images/waffle.png)
 
 ✅ Pywaffle podpira ikone znotraj diagramov, ki uporabljajo katero koli ikono, ki je na voljo v [Font Awesome](https://fontawesome.com/). Eksperimentirajte in ustvarite še bolj zanimiv waffle diagram z uporabo ikon namesto kvadratov.
 
@@ -179,7 +179,7 @@ V tej lekciji ste se naučili treh načinov vizualizacije deležev. Najprej mora
 ## 🚀 Izziv
 
 Poskusite ponovno ustvariti te okusne diagrame v [Charticulator](https://charticulator.com).
-## [Kvizi po predavanju](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
+## [Po-lekcijski kviz](https://ff-quizzes.netlify.app/en/ds/quiz/21)
 
 ## Pregled in samostojno učenje
 
@@ -201,4 +201,4 @@ Raziskujte in poiščite več informacij o tej težki odločitvi.
 ---
 
 **Omejitev odgovornosti**:  
-Ta dokument je bil preveden z uporabo storitve za prevajanje z umetno inteligenco [Co-op Translator](https://github.com/Azure/co-op-translator). Čeprav si prizadevamo za natančnost, vas prosimo, da upoštevate, da lahko avtomatizirani prevodi vsebujejo napake ali netočnosti. Izvirni dokument v njegovem maternem jeziku je treba obravnavati kot avtoritativni vir. Za ključne informacije priporočamo profesionalni človeški prevod. Ne prevzemamo odgovornosti za morebitna nesporazumevanja ali napačne razlage, ki bi nastale zaradi uporabe tega prevoda.
+Ta dokument je bil preveden z uporabo storitve za prevajanje z umetno inteligenco [Co-op Translator](https://github.com/Azure/co-op-translator). Čeprav si prizadevamo za natančnost, vas prosimo, da upoštevate, da lahko avtomatizirani prevodi vsebujejo napake ali netočnosti. Izvirni dokument v njegovem izvirnem jeziku je treba obravnavati kot avtoritativni vir. Za ključne informacije priporočamo profesionalni človeški prevod. Ne prevzemamo odgovornosti za morebitna nesporazumevanja ali napačne razlage, ki bi nastale zaradi uporabe tega prevoda.

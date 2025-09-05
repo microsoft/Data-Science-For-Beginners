@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "6a0556b17de4c8d1a9470b02247b01d4",
-  "translation_date": "2025-09-04T21:35:11+00:00",
+  "original_hash": "5f8e7cdefa096664ae86f795be571580",
+  "translation_date": "2025-09-05T17:43:48+00:00",
   "source_file": "5-Data-Science-In-Cloud/17-Introduction/README.md",
   "language_code": "cs"
 }
@@ -13,10 +13,9 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Datová věda v cloudu: Úvod - _Sketchnote od [@nitya](https://twitter.com/nitya)_ |
 
-
 V této lekci se naučíte základní principy cloudu, zjistíte, proč může být zajímavé využívat cloudové služby pro vaše projekty datové vědy, a podíváme se na několik příkladů projektů datové vědy realizovaných v cloudu.
 
-## [Kvíz před přednáškou](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/32)
+## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ds/quiz/32)
 
 ## Co je cloud?
 
@@ -25,7 +24,7 @@ Cloud, nebo cloud computing, je poskytování široké škály výpočetních sl
 Obvykle rozlišujeme veřejný, soukromý a hybridní cloud následovně:
 
 * Veřejný cloud: veřejný cloud je vlastněn a provozován třetí stranou, poskytovatelem cloudových služeb, který poskytuje své výpočetní zdroje přes internet veřejnosti.
-* Soukromý cloud: označuje výpočetní zdroje cloudu používané výhradně jedním podnikem nebo organizací, přičemž služby a infrastruktura jsou udržovány na soukromé síti.
+* Soukromý cloud: označuje výpočetní zdroje cloudu používané výhradně jedním podnikem nebo organizací, přičemž služby a infrastruktura jsou spravovány na soukromé síti.
 * Hybridní cloud: hybridní cloud je systém, který kombinuje veřejné a soukromé cloudy. Uživatelé si zvolí datové centrum na místě, zatímco umožní, aby data a aplikace běžely na jednom nebo více veřejných cloudech.
 
 Většina služeb cloud computingu spadá do tří kategorií: infrastruktura jako služba (IaaS), platforma jako služba (PaaS) a software jako služba (SaaS).
@@ -38,11 +37,11 @@ Mezi největší poskytovatele cloudových služeb patří Amazon Web Services, 
 
 ## Proč zvolit cloud pro datovou vědu?
 
-Vývojáři a IT profesionálové si volí práci s cloudem z mnoha důvodů, včetně následujících:
+Vývojáři a IT profesionálové si vybírají práci s cloudem z mnoha důvodů, včetně následujících:
 
 * Inovace: můžete pohánět své aplikace integrací inovativních služeb vytvořených poskytovateli cloudu přímo do svých aplikací.
 * Flexibilita: platíte pouze za služby, které potřebujete, a můžete si vybrat z široké škály služeb. Obvykle platíte podle potřeby a přizpůsobujete své služby podle svých měnících se potřeb.
-* Rozpočet: nemusíte dělat počáteční investice do nákupu hardwaru a softwaru, nastavení a provozu datových center na místě, a můžete jednoduše platit za to, co používáte.
+* Rozpočet: nemusíte dělat počáteční investice do nákupu hardwaru a softwaru, nastavení a provozu datových center na místě, a můžete platit pouze za to, co používáte.
 * Škálovatelnost: vaše zdroje se mohou přizpůsobit potřebám vašeho projektu, což znamená, že vaše aplikace mohou využívat více nebo méně výpočetního výkonu, úložiště a šířky pásma, přizpůsobené externím faktorům v daném okamžiku.
 * Produktivita: můžete se soustředit na své podnikání místo trávení času úkoly, které může spravovat někdo jiný, jako je správa datových center.
 * Spolehlivost: cloud computing nabízí několik způsobů, jak nepřetržitě zálohovat vaše data, a můžete nastavit plány obnovy po havárii, aby vaše podnikání a služby pokračovaly i v době krize.
@@ -51,45 +50,46 @@ Vývojáři a IT profesionálové si volí práci s cloudem z mnoha důvodů, v�
 Toto jsou některé z nejběžnějších důvodů, proč lidé volí cloudové služby. Nyní, když máme lepší pochopení toho, co cloud je a jaké jsou jeho hlavní výhody, podívejme se konkrétněji na práci datových vědců a vývojářů pracujících s daty a na to, jak jim cloud může pomoci s několika výzvami, kterým mohou čelit:
 
 * Ukládání velkého množství dat: místo nákupu, správy a ochrany velkých serverů můžete ukládat svá data přímo v cloudu, s řešeními jako Azure Cosmos DB, Azure SQL Database a Azure Data Lake Storage.
-* Provádění integrace dat: integrace dat je zásadní součástí datové vědy, která vám umožňuje přejít od sběru dat k činění rozhodnutí. S integračními službami dat nabízenými v cloudu můžete sbírat, transformovat a integrovat data z různých zdrojů do jednoho datového skladu, s Data Factory.
+* Provádění integrace dat: integrace dat je zásadní součástí datové vědy, která vám umožňuje přejít od sběru dat k činění rozhodnutí. S integračními službami dat nabízenými v cloudu můžete sbírat, transformovat a integrovat data z různých zdrojů do jednoho datového skladu, například pomocí Data Factory.
 * Zpracování dat: zpracování velkého množství dat vyžaduje hodně výpočetního výkonu, a ne každý má přístup k dostatečně výkonným strojům, což je důvod, proč mnoho lidí volí přímo využití obrovského výpočetního výkonu cloudu k provozu a nasazení svých řešení.
 * Využívání analytických služeb: cloudové služby jako Azure Synapse Analytics, Azure Stream Analytics a Azure Databricks vám pomohou proměnit vaše data v akční poznatky.
-* Využívání služeb strojového učení a inteligence dat: místo začínání od nuly můžete využívat algoritmy strojového učení nabízené poskytovatelem cloudu, s službami jako AzureML. Můžete také využívat kognitivní služby, jako je převod řeči na text, text na řeč, počítačové vidění a další.
+* Využívání služeb strojového učení a datové inteligence: místo začínání od nuly můžete využívat algoritmy strojového učení nabízené poskytovatelem cloudu, například pomocí AzureML. Můžete také využívat kognitivní služby, jako je převod řeči na text, text na řeč, počítačové vidění a další.
 
 ## Příklady datové vědy v cloudu
 
 Pojďme si to přiblížit pomocí několika scénářů.
 
 ### Analýza sentimentu na sociálních sítích v reálném čase
-Začněme scénářem, který je běžně studován lidmi, kteří začínají se strojovým učením: analýza sentimentu na sociálních sítích v reálném čase.
+Začneme scénářem, který je běžně studován lidmi začínajícími se strojovým učením: analýza sentimentu na sociálních sítích v reálném čase.
 
-Řekněme, že provozujete zpravodajský web a chcete využít živá data k pochopení, jaký obsah by mohl vaše čtenáře zajímat. Abyste se o tom dozvěděli více, můžete vytvořit program, který provádí analýzu sentimentu dat z publikací na Twitteru v reálném čase, na témata, která jsou relevantní pro vaše čtenáře.
+Řekněme, že provozujete zpravodajský web a chcete využít živá data k pochopení, jaký obsah by mohl vaše čtenáře zajímat. Abyste se o tom dozvěděli více, můžete vytvořit program, který provádí analýzu sentimentu v reálném čase na datech z publikací na Twitteru, na témata, která jsou relevantní pro vaše čtenáře.
 
-Klíčové ukazatele, na které se zaměříte, jsou objem tweetů na konkrétní témata (hashtagy) a sentiment, který je stanoven pomocí analytických nástrojů, které provádějí analýzu sentimentu kolem specifikovaných témat.
+Klíčové ukazatele, na které se zaměříte, jsou objem tweetů na konkrétní témata (hashtagy) a sentiment, který je stanoven pomocí analytických nástrojů provádějících analýzu sentimentu kolem specifikovaných témat.
 
 Kroky potřebné k vytvoření tohoto projektu jsou následující:
 
-* Vytvořte event hub pro streamování vstupů, který bude sbírat data z Twitteru.
+* Vytvořte událostní centrum pro streamování vstupů, které bude sbírat data z Twitteru.
 * Nakonfigurujte a spusťte aplikaci klienta Twitteru, která bude volat Twitter Streaming API.
 * Vytvořte úlohu Stream Analytics.
-* Určete vstup úlohy a dotaz.
+* Určete vstup a dotaz úlohy.
 * Vytvořte výstupní cíl a určete výstup úlohy.
 * Spusťte úlohu.
 
 Pro zobrazení celého procesu si prohlédněte [dokumentaci](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends?WT.mc_id=academic-77958-bethanycheum&ocid=AID30411099).
 
 ### Analýza vědeckých článků
-Podívejme se na další příklad projektu vytvořeného [Dmitrijem Soshnikovem](http://soshnikov.com), jedním z autorů tohoto kurzu.
+Podívejme se na další příklad projektu vytvořeného [Dmitrym Soshnikovem](http://soshnikov.com), jedním z autorů tohoto kurzu.
 
-Dmitrij vytvořil nástroj, který analyzuje články o COVIDu. Přezkoumáním tohoto projektu uvidíte, jak můžete vytvořit nástroj, který extrahuje znalosti z vědeckých článků, získává poznatky a pomáhá výzkumníkům efektivně procházet velké kolekce článků.
+Dmitry vytvořil nástroj, který analyzuje články o COVIDu. Přezkoumáním tohoto projektu uvidíte, jak můžete vytvořit nástroj, který extrahuje znalosti z vědeckých článků, získává poznatky a pomáhá výzkumníkům efektivně se orientovat ve velkých kolekcích článků.
 
 Podívejme se na různé kroky použité pro tento projekt:
+
 * Extrakce a předzpracování informací pomocí [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 * Použití [Azure ML](https://azure.microsoft.com/services/machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) k paralelizaci zpracování.
 * Ukládání a dotazování informací pomocí [Cosmos DB](https://azure.microsoft.com/services/cosmos-db?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
-* Vytvoření interaktivního dashboardu pro průzkum dat a vizualizaci pomocí Power BI.
+* Vytvoření interaktivního dashboardu pro průzkum a vizualizaci dat pomocí Power BI.
 
-Pro zobrazení celého procesu navštivte [Dmitrijův blog](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/).
+Pro zobrazení celého procesu navštivte [Dmitryho blog](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/).
 
 Jak vidíte, cloudové služby můžeme využívat mnoha způsoby k provádění datové vědy.
 
@@ -102,7 +102,7 @@ Zdroje:
 
 ## Kvíz po přednášce
 
-## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ds/)
+## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ds/quiz/33)
 
 ## Zadání
 

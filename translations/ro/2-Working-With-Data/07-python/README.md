@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "57f7db1f4c3ae3361c1d1fbafcdd690c",
-  "translation_date": "2025-09-05T05:28:41+00:00",
+  "original_hash": "577a611517482c3ceaf76d3d8142cba9",
+  "translation_date": "2025-09-05T18:21:45+00:00",
   "source_file": "2-Working-With-Data/07-python/README.md",
   "language_code": "ro"
 }
@@ -15,41 +15,41 @@ CO_OP_TRANSLATOR_METADATA:
 
 [![Video Introductiv](../../../../2-Working-With-Data/07-python/images/video-ds-python.png)](https://youtu.be/dZjWOGbsN4Y)
 
-Deși bazele de date oferă modalități foarte eficiente de a stoca date și de a le interoga folosind limbaje de interogare, cea mai flexibilă metodă de procesare a datelor este scrierea propriului program pentru a manipula datele. În multe cazuri, o interogare în baza de date ar fi o metodă mai eficientă. Totuși, în unele situații, când este necesară o procesare mai complexă a datelor, aceasta nu poate fi realizată ușor folosind SQL. 
+Deși bazele de date oferă modalități foarte eficiente de stocare a datelor și de interogare a acestora folosind limbaje de interogare, cea mai flexibilă metodă de procesare a datelor este scrierea propriului program pentru manipularea datelor. În multe cazuri, o interogare SQL ar fi o metodă mai eficientă. Totuși, în unele situații, când este necesară o procesare mai complexă a datelor, aceasta nu poate fi realizată ușor folosind SQL. 
 Procesarea datelor poate fi programată în orice limbaj de programare, dar există anumite limbaje care sunt mai potrivite pentru lucrul cu date. De obicei, oamenii de știință în domeniul datelor preferă unul dintre următoarele limbaje:
 
-* **[Python](https://www.python.org/)**, un limbaj de programare general, considerat adesea una dintre cele mai bune opțiuni pentru începători datorită simplității sale. Python are multe biblioteci suplimentare care te pot ajuta să rezolvi diverse probleme practice, cum ar fi extragerea datelor dintr-un arhiv ZIP sau convertirea unei imagini în tonuri de gri. Pe lângă știința datelor, Python este utilizat frecvent și pentru dezvoltarea web. 
-* **[R](https://www.r-project.org/)** este un instrument tradițional dezvoltat pentru procesarea datelor statistice. Acesta conține un depozit vast de biblioteci (CRAN), ceea ce îl face o alegere bună pentru procesarea datelor. Totuși, R nu este un limbaj de programare general și este rar utilizat în afara domeniului științei datelor.
+* **[Python](https://www.python.org/)**, un limbaj de programare general, considerat adesea una dintre cele mai bune opțiuni pentru începători datorită simplității sale. Python are multe biblioteci suplimentare care te pot ajuta să rezolvi diverse probleme practice, cum ar fi extragerea datelor dintr-un fișier ZIP sau convertirea unei imagini în tonuri de gri. Pe lângă știința datelor, Python este utilizat frecvent și pentru dezvoltarea web. 
+* **[R](https://www.r-project.org/)** este un instrument tradițional dezvoltat pentru procesarea statistică a datelor. Acesta conține un depozit vast de biblioteci (CRAN), ceea ce îl face o alegere bună pentru procesarea datelor. Totuși, R nu este un limbaj de programare general și este rar utilizat în afara domeniului științei datelor.
 * **[Julia](https://julialang.org/)** este un alt limbaj dezvoltat special pentru știința datelor. Acesta este conceput pentru a oferi performanțe mai bune decât Python, fiind un instrument excelent pentru experimente științifice.
 
-În această lecție, ne vom concentra pe utilizarea Python pentru procesarea simplă a datelor. Vom presupune că ai o familiaritate de bază cu limbajul. Dacă dorești o introducere mai aprofundată în Python, poți consulta unul dintre următoarele resurse:
+În această lecție, ne vom concentra pe utilizarea Python pentru procesarea simplă a datelor. Vom presupune că ai o familiaritate de bază cu limbajul. Dacă dorești o introducere mai detaliată în Python, poți consulta unul dintre următoarele resurse:
 
 * [Învață Python într-un mod distractiv cu Turtle Graphics și Fractali](https://github.com/shwars/pycourse) - Curs introductiv rapid pe GitHub despre programarea în Python
-* [Fă primii pași cu Python](https://docs.microsoft.com/en-us/learn/paths/python-first-steps/?WT.mc_id=academic-77958-bethanycheum) Parcurs de învățare pe [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=academic-77958-bethanycheum)
+* [Fă primii pași cu Python](https://docs.microsoft.com/en-us/learn/paths/python-first-steps/?WT.mc_id=academic-77958-bethanycheum) - Parcurs de învățare pe [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=academic-77958-bethanycheum)
 
 Datele pot avea multe forme. În această lecție, vom analiza trei forme de date - **date tabelare**, **text** și **imagini**.
 
-Ne vom concentra pe câteva exemple de procesare a datelor, în loc să oferim o prezentare completă a tuturor bibliotecilor asociate. Acest lucru îți va permite să înțelegi principalele posibilități și să știi unde să găsești soluții pentru problemele tale atunci când ai nevoie.
+Ne vom concentra pe câteva exemple de procesare a datelor, în loc să oferim o prezentare completă a tuturor bibliotecilor relevante. Acest lucru îți va permite să înțelegi principalele posibilități și să știi unde să găsești soluții pentru problemele tale atunci când ai nevoie.
 
 > **Cel mai util sfat**. Când trebuie să efectuezi o anumită operațiune pe date și nu știi cum să o faci, încearcă să cauți pe internet. [Stackoverflow](https://stackoverflow.com/) conține de obicei multe exemple utile de cod în Python pentru diverse sarcini tipice.
 
 
 
-## [Chestionar înainte de lecție](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/12)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ds/quiz/12)
 
 ## Date Tabelare și Dataframes
 
-Ai întâlnit deja date tabelare când am vorbit despre bazele de date relaționale. Când ai multe date, iar acestea sunt conținute în mai multe tabele interconectate, este cu siguranță logic să folosești SQL pentru a lucra cu ele. Totuși, există multe situații în care avem un tabel de date și trebuie să obținem o **înțelegere** sau **perspectivă** asupra acestor date, cum ar fi distribuția, corelația între valori etc. În știința datelor, există multe cazuri în care trebuie să efectuăm anumite transformări ale datelor originale, urmate de vizualizare. Ambele etape pot fi realizate ușor folosind Python.
+Ai întâlnit deja date tabelare când am discutat despre bazele de date relaționale. Când ai multe date, iar acestea sunt conținute în mai multe tabele interconectate, este logic să folosești SQL pentru a lucra cu ele. Totuși, există multe situații în care avem un tabel de date și trebuie să obținem o **înțelegere** sau **perspectivă** asupra acestor date, cum ar fi distribuția, corelația între valori etc. În știința datelor, există multe cazuri în care trebuie să efectuăm transformări ale datelor originale, urmate de vizualizare. Ambele etape pot fi realizate ușor folosind Python.
 
 Există două biblioteci foarte utile în Python care te pot ajuta să lucrezi cu date tabelare:
-* **[Pandas](https://pandas.pydata.org/)** îți permite să manipulezi așa-numitele **Dataframes**, care sunt analoge tabelelor relaționale. Poți avea coloane denumite și poți efectua diverse operațiuni pe rânduri, coloane și dataframes în general. 
+* **[Pandas](https://pandas.pydata.org/)** îți permite să manipulezi așa-numitele **Dataframes**, care sunt analoage tabelelor relaționale. Poți avea coloane denumite și poți efectua diverse operațiuni pe rânduri, coloane și dataframes în general. 
 * **[Numpy](https://numpy.org/)** este o bibliotecă pentru lucrul cu **tensori**, adică **matrici** multidimensionale. Matricele au valori de același tip de bază și sunt mai simple decât dataframes, dar oferă mai multe operațiuni matematice și creează mai puțin overhead.
 
 Există și câteva alte biblioteci pe care ar trebui să le cunoști:
 * **[Matplotlib](https://matplotlib.org/)** este o bibliotecă utilizată pentru vizualizarea datelor și crearea de grafice
-* **[SciPy](https://www.scipy.org/)** este o bibliotecă cu funcții științifice suplimentare. Am întâlnit deja această bibliotecă când am vorbit despre probabilitate și statistici
+* **[SciPy](https://www.scipy.org/)** este o bibliotecă cu funcții științifice suplimentare. Am întâlnit deja această bibliotecă când am discutat despre probabilitate și statistici
 
-Iată un fragment de cod pe care l-ai folosi de obicei pentru a importa aceste biblioteci la începutul unui program Python:
+Iată un fragment de cod pe care l-ai folosi de obicei pentru a importa aceste biblioteci la începutul programului tău Python:
 ```python
 import numpy as np
 import pandas as pd
@@ -63,7 +63,7 @@ Pandas se concentrează pe câteva concepte de bază.
 
 **Series** este o secvență de valori, similară unei liste sau unui array numpy. Principala diferență este că series are și un **index**, iar când operăm pe series (de exemplu, le adunăm), indexul este luat în considerare. Indexul poate fi la fel de simplu ca numărul de rând (este indexul utilizat implicit când creăm un series dintr-o listă sau un array) sau poate avea o structură complexă, cum ar fi un interval de date.
 
-> **Notă**: Există un cod introductiv despre Pandas în notebook-ul asociat [`notebook.ipynb`](../../../../2-Working-With-Data/07-python/notebook.ipynb). Vom prezenta doar câteva exemple aici, dar ești binevenit să verifici notebook-ul complet.
+> **Notă**: Există cod introductiv Pandas în notebook-ul asociat [`notebook.ipynb`](../../../../2-Working-With-Data/07-python/notebook.ipynb). Vom prezenta doar câteva exemple aici, dar ești binevenit să explorezi notebook-ul complet.
 
 Să luăm un exemplu: dorim să analizăm vânzările unui magazin de înghețată. Să generăm un series de numere de vânzări (numărul de produse vândute în fiecare zi) pentru o anumită perioadă de timp:
 
@@ -88,9 +88,9 @@ total_items.plot()
 ```
 ![Grafic Serii Temporale](../../../../2-Working-With-Data/07-python/images/timeseries-2.png)
 
-> **Notă** că nu folosim sintaxa simplă `total_items+additional_items`. Dacă am fi făcut asta, am fi obținut multe valori `NaN` (*Not a Number*) în series-ul rezultat. Acest lucru se întâmplă deoarece lipsesc valori pentru unele puncte de index în series-ul `additional_items`, iar adunarea unui `NaN` cu orice altceva rezultă în `NaN`. Astfel, trebuie să specificăm parametrul `fill_value` în timpul adunării.
+> **Notă** că nu folosim sintaxa simplă `total_items+additional_items`. Dacă am fi făcut acest lucru, am fi obținut multe valori `NaN` (*Not a Number*) în series-ul rezultat. Acest lucru se întâmplă deoarece există valori lipsă pentru unele puncte de index în series-ul `additional_items`, iar adunarea lui `NaN` cu orice altceva rezultă în `NaN`. Astfel, trebuie să specificăm parametrul `fill_value` în timpul adunării.
 
-Cu seriile temporale, putem și **resample** seria cu intervale de timp diferite. De exemplu, să presupunem că dorim să calculăm volumul mediu de vânzări lunar. Putem folosi următorul cod:
+Cu seriile temporale, putem **resampla** seria cu intervale de timp diferite. De exemplu, să presupunem că dorim să calculăm volumul mediu de vânzări lunar. Putem folosi următorul cod:
 ```python
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
@@ -141,13 +141,13 @@ Iată câteva dintre cele mai importante operațiuni pe care le putem efectua pe
 
 **Filtrarea** doar a anumitor rânduri pe baza unor criterii. De exemplu, pentru a păstra doar rândurile cu coloana `A` mai mare decât 5, putem scrie `df[df['A']>5]`.
 
-> **Notă**: Modul în care funcționează filtrarea este următorul. Expresia `df['A']<5` returnează un series boolean, care indică dacă expresia este `True` sau `False` pentru fiecare element al series-ului original `df['A']`. Când series-ul boolean este utilizat ca index, returnează subsetul de rânduri din DataFrame. Astfel, nu este posibil să folosești expresii boolean arbitrare din Python, de exemplu, scrierea `df[df['A']>5 and df['A']<7]` ar fi greșită. În schimb, ar trebui să folosești operația specială `&` pe series boolean, scriind `df[(df['A']>5) & (df['A']<7)]` (*parantezele sunt importante aici*).
+> **Notă**: Modul în care funcționează filtrarea este următorul. Expresia `df['A']<5` returnează un series boolean, care indică dacă expresia este `True` sau `False` pentru fiecare element al series-ului original `df['A']`. Când series-ul boolean este utilizat ca index, acesta returnează subsetul de rânduri din DataFrame. Astfel, nu este posibil să folosești expresii boolean arbitrare din Python, de exemplu, scriind `df[df['A']>5 and df['A']<7]` ar fi greșit. În schimb, ar trebui să folosești operația specială `&` pe series boolean, scriind `df[(df['A']>5) & (df['A']<7)]` (*parantezele sunt importante aici*).
 
 **Crearea de coloane calculabile noi**. Putem crea ușor coloane calculabile noi pentru DataFrame-ul nostru folosind expresii intuitive ca aceasta:
 ```python
 df['DivA'] = df['A']-df['A'].mean() 
 ``` 
-Acest exemplu calculează abaterea lui A față de valoarea sa medie. Ce se întâmplă de fapt aici este că calculăm un series și apoi îl atribuim părții stângi, creând o altă coloană. Astfel, nu putem folosi operațiuni care nu sunt compatibile cu series, de exemplu, codul de mai jos este greșit:
+Acest exemplu calculează abaterea lui A față de valoarea sa medie. Ce se întâmplă de fapt aici este că calculăm un series și apoi atribuim acest series părții din stânga, creând o altă coloană. Astfel, nu putem folosi operațiuni care nu sunt compatibile cu series, de exemplu, codul de mai jos este greșit:
 ```python
 # Wrong code -> df['ADescr'] = "Low" if df['A'] < 5 else "Hi"
 df['LenB'] = len(df['B']) # <- Wrong result
@@ -161,7 +161,7 @@ df['LenB'] = df['B'].apply(lambda x : len(x))
 df['LenB'] = df['B'].apply(len)
 ```
 
-După operațiunile de mai sus, vom avea următorul DataFrame:
+După operațiunile de mai sus, vom obține următorul DataFrame:
 
 |     | A   | B      | DivA | LenB |
 | --- | --- | ------ | ---- | ---- |
@@ -180,7 +180,7 @@ După operațiunile de mai sus, vom avea următorul DataFrame:
 df.iloc[:5]
 ```
 
-**Gruparea** este adesea utilizată pentru a obține un rezultat similar cu *pivot tables* din Excel. Să presupunem că dorim să calculăm valoarea medie a coloanei `A` pentru fiecare număr dat de `LenB`. Atunci putem grupa DataFrame-ul nostru după `LenB` și să apelăm `mean`:
+**Gruparea** este adesea utilizată pentru a obține un rezultat similar cu *tabelele pivot* din Excel. Să presupunem că dorim să calculăm valoarea medie a coloanei `A` pentru fiecare număr dat de `LenB`. Atunci putem grupa DataFrame-ul nostru după `LenB` și să apelăm `mean`:
 ```python
 df.groupby(by='LenB').mean()
 ```
@@ -209,17 +209,17 @@ Vom vedea mai multe exemple de încărcare a datelor, inclusiv obținerea lor de
 
 ### Printarea și Vizualizarea
 
-Un Data Scientist trebuie adesea să exploreze datele, astfel încât este important să le poată vizualiza. Când DataFrame-ul este mare, de multe ori dorim doar să ne asigurăm că facem totul corect prin printarea primelor câteva rânduri. Acest lucru poate fi realizat prin apelarea `df.head()`. Dacă îl rulați din Jupyter Notebook, acesta va afișa DataFrame-ul într-o formă tabelară frumoasă.
+Un Data Scientist trebuie adesea să exploreze datele, astfel încât este important să le poată vizualiza. Când DataFrame-ul este mare, de multe ori vrem doar să ne asigurăm că facem totul corect prin printarea primelor câteva rânduri. Acest lucru poate fi realizat prin apelarea `df.head()`. Dacă îl rulați din Jupyter Notebook, acesta va afișa DataFrame-ul într-o formă tabelară plăcută.
 
-De asemenea, am văzut utilizarea funcției `plot` pentru a vizualiza unele coloane. Deși `plot` este foarte util pentru multe sarcini și suportă multe tipuri diferite de grafice prin parametrul `kind=`, puteți întotdeauna folosi biblioteca `matplotlib` pentru a crea ceva mai complex. Vom acoperi vizualizarea datelor în detaliu în lecții separate ale cursului.
+Am văzut, de asemenea, utilizarea funcției `plot` pentru a vizualiza unele coloane. Deși `plot` este foarte util pentru multe sarcini și suportă multe tipuri diferite de grafice prin parametrul `kind=`, puteți întotdeauna folosi biblioteca `matplotlib` pentru a crea ceva mai complex. Vom acoperi vizualizarea datelor în detaliu în lecții separate ale cursului.
 
 Această prezentare generală acoperă cele mai importante concepte ale Pandas, totuși, biblioteca este foarte bogată și nu există limite pentru ceea ce puteți face cu ea! Să aplicăm acum aceste cunoștințe pentru rezolvarea unei probleme specifice.
 
 ## 🚀 Provocarea 1: Analiza Răspândirii COVID
 
-Prima problemă pe care ne vom concentra este modelarea răspândirii epidemiei COVID-19. Pentru a face acest lucru, vom folosi datele despre numărul de persoane infectate în diferite țări, furnizate de [Center for Systems Science and Engineering](https://systems.jhu.edu/) (CSSE) de la [Johns Hopkins University](https://jhu.edu/). Setul de date este disponibil în [acest depozit GitHub](https://github.com/CSSEGISandData/COVID-19).
+Prima problemă pe care ne vom concentra este modelarea răspândirii epidemiei de COVID-19. Pentru a face acest lucru, vom folosi datele despre numărul de persoane infectate în diferite țări, furnizate de [Center for Systems Science and Engineering](https://systems.jhu.edu/) (CSSE) de la [Johns Hopkins University](https://jhu.edu/). Setul de date este disponibil în [acest depozit GitHub](https://github.com/CSSEGISandData/COVID-19).
 
-Deoarece dorim să demonstrăm cum să lucrăm cu datele, vă invităm să deschideți [`notebook-covidspread.ipynb`](../../../../2-Working-With-Data/07-python/notebook-covidspread.ipynb) și să îl citiți de la început până la sfârșit. De asemenea, puteți executa celulele și să faceți unele provocări pe care le-am lăsat pentru voi la final.
+Deoarece dorim să demonstrăm cum să lucrăm cu datele, vă invităm să deschideți [`notebook-covidspread.ipynb`](../../../../2-Working-With-Data/07-python/notebook-covidspread.ipynb) și să îl citiți de la început până la sfârșit. Puteți, de asemenea, să executați celulele și să faceți unele provocări pe care le-am lăsat pentru voi la final.
 
 ![COVID Spread](../../../../2-Working-With-Data/07-python/images/covidspread.png)
 
@@ -229,7 +229,7 @@ Deoarece dorim să demonstrăm cum să lucrăm cu datele, vă invităm să desch
 
 Deși datele vin foarte des sub formă tabelară, în unele cazuri trebuie să lucrăm cu date mai puțin structurate, de exemplu, text sau imagini. În acest caz, pentru a aplica tehnicile de procesare a datelor pe care le-am văzut mai sus, trebuie să **extragem** cumva date structurate. Iată câteva exemple:
 
-* Extracția cuvintelor cheie din text și analiza frecvenței acestora
+* Extracția cuvintelor cheie din text și analiza frecvenței apariției acestora
 * Utilizarea rețelelor neuronale pentru a extrage informații despre obiectele dintr-o imagine
 * Obținerea informațiilor despre emoțiile oamenilor din fluxul video al unei camere
 
@@ -241,7 +241,7 @@ Un exemplu complet de analiză a acestui set de date folosind serviciul cognitiv
 
 > **NOTE**: Nu oferim o copie a setului de date ca parte a acestui depozit. Este posibil să fie nevoie să descărcați mai întâi fișierul [`metadata.csv`](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge?select=metadata.csv) din [acest set de date pe Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge). Este posibil să fie necesară înregistrarea pe Kaggle. De asemenea, puteți descărca setul de date fără înregistrare [de aici](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), dar acesta va include toate textele complete în plus față de fișierul de metadate.
 
-Deschideți [`notebook-papers.ipynb`](../../../../2-Working-With-Data/07-python/notebook-papers.ipynb) și citiți-l de la început până la sfârșit. De asemenea, puteți executa celulele și să faceți unele provocări pe care le-am lăsat pentru voi la final.
+Deschideți [`notebook-papers.ipynb`](../../../../2-Working-With-Data/07-python/notebook-papers.ipynb) și citiți-l de la început până la sfârșit. Puteți, de asemenea, să executați celulele și să faceți unele provocări pe care le-am lăsat pentru voi la final.
 
 ![Covid Medical Treatment](../../../../2-Working-With-Data/07-python/images/covidtreat.png)
 
@@ -251,19 +251,19 @@ Recent, au fost dezvoltate modele AI foarte puternice care ne permit să înțel
 
 * **Clasificarea Imaginilor**, care vă poate ajuta să categorizați imaginea într-una dintre clasele predefinite. Puteți antrena cu ușurință propriile clasificatoare de imagini folosind servicii precum [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-77958-bethanycheum)
 * **Detectarea Obiectelor** pentru a identifica diferite obiecte din imagine. Servicii precum [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-77958-bethanycheum) pot detecta un număr de obiecte comune, iar modelul [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-77958-bethanycheum) poate fi antrenat pentru a detecta obiecte specifice de interes.
-* **Detectarea Feței**, inclusiv vârsta, genul și emoțiile. Acest lucru poate fi realizat prin [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum).
+* **Detectarea Fețelor**, inclusiv vârsta, genul și emoțiile. Acest lucru poate fi realizat prin [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum).
 
-Toate aceste servicii cloud pot fi apelate folosind [SDK-uri Python](https://docs.microsoft.com/samples/azure-samples/cognitive-services-python-sdk-samples/cognitive-services-python-sdk-samples/?WT.mc_id=academic-77958-bethanycheum) și, astfel, pot fi ușor integrate în fluxul de explorare a datelor.
+Toate aceste servicii cloud pot fi apelate folosind [SDK-uri Python](https://docs.microsoft.com/samples/azure-samples/cognitive-services-python-sdk-samples/cognitive-services-python-sdk-samples/?WT.mc_id=academic-77958-bethanycheum) și, astfel, pot fi ușor integrate în fluxul de lucru de explorare a datelor.
 
 Iată câteva exemple de explorare a datelor din surse de imagini:
 * În articolul de blog [Cum să înveți Data Science fără programare](https://soshnikov.com/azure/how-to-learn-data-science-without-coding/) explorăm fotografii de pe Instagram, încercând să înțelegem ce determină oamenii să aprecieze mai mult o fotografie. Mai întâi extragem cât mai multe informații din imagini folosind [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-77958-bethanycheum), apoi folosim [Azure Machine Learning AutoML](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml/?WT.mc_id=academic-77958-bethanycheum) pentru a construi un model interpretabil.
-* În [Facial Studies Workshop](https://github.com/CloudAdvocacy/FaceStudies) folosim [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum) pentru a extrage emoțiile oamenilor din fotografii de la evenimente, pentru a încerca să înțelegem ce îi face fericiți.
+* În [Facial Studies Workshop](https://github.com/CloudAdvocacy/FaceStudies) folosim [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum) pentru a extrage emoțiile oamenilor din fotografii de la evenimente, încercând să înțelegem ce îi face fericiți.
 
 ## Concluzie
 
-Indiferent dacă aveți deja date structurate sau nestructurate, folosind Python puteți realiza toate etapele legate de procesarea și înțelegerea datelor. Este probabil cea mai flexibilă modalitate de procesare a datelor, și acesta este motivul pentru care majoritatea data scientist-ilor folosesc Python ca instrument principal. Învățarea Python în profunzime este probabil o idee bună dacă sunteți serios în privința călătoriei voastre în data science!
+Indiferent dacă aveți deja date structurate sau nestructurate, folosind Python puteți realiza toți pașii legați de procesarea și înțelegerea datelor. Este probabil cea mai flexibilă modalitate de procesare a datelor, și acesta este motivul pentru care majoritatea data scientist-ilor folosesc Python ca instrument principal. A învăța Python în profunzime este probabil o idee bună dacă sunteți serios în privința călătoriei voastre în data science!
 
-## [Quiz post-lectură](https://ff-quizzes.netlify.app/en/ds/)
+## [Quiz post-lectură](https://ff-quizzes.netlify.app/en/ds/quiz/13)
 
 ## Recapitulare & Studiu Individual
 
@@ -289,4 +289,4 @@ Această lecție a fost scrisă cu ♥️ de [Dmitry Soshnikov](http://soshnikov
 ---
 
 **Declinare de responsabilitate**:  
-Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa maternă ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.
+Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să rețineți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.

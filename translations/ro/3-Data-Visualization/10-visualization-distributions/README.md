@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "02ce904bc1e2bfabb7dc05c25aae375c",
-  "translation_date": "2025-09-05T05:36:16+00:00",
+  "original_hash": "80a20467e046d312809d008395051fc7",
+  "translation_date": "2025-09-05T18:29:10+00:00",
   "source_file": "3-Data-Visualization/10-visualization-distributions/README.md",
   "language_code": "ro"
 }
@@ -15,12 +15,12 @@ CO_OP_TRANSLATOR_METADATA:
 
 În lecția anterioară, ai învățat câteva lucruri interesante despre un set de date despre păsările din Minnesota. Ai descoperit date eronate vizualizând valorile extreme și ai analizat diferențele dintre categoriile de păsări în funcție de lungimea lor maximă.
 
-## [Chestionar înainte de lecție](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/18)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ds/quiz/18)
 ## Explorează setul de date despre păsări
 
-O altă modalitate de a analiza datele este prin examinarea distribuției lor, adică modul în care datele sunt organizate de-a lungul unei axe. De exemplu, poate vrei să afli despre distribuția generală, pentru acest set de date, a anvergurii maxime a aripilor sau a masei corporale maxime pentru păsările din Minnesota.
+O altă modalitate de a analiza datele este prin examinarea distribuției lor, adică modul în care datele sunt organizate de-a lungul unei axe. De exemplu, poate dorești să afli despre distribuția generală, pentru acest set de date, a anvergurii maxime a aripilor sau a masei corporale maxime pentru păsările din Minnesota.
 
-Hai să descoperim câteva informații despre distribuțiile datelor din acest set de date. În fișierul _notebook.ipynb_ aflat la rădăcina folderului acestei lecții, importă Pandas, Matplotlib și datele tale:
+Hai să descoperim câteva informații despre distribuțiile datelor din acest set de date. În fișierul _notebook.ipynb_ aflat la rădăcina acestui folder de lecție, importă Pandas, Matplotlib și datele tale:
 
 ```python
 import pandas as pd
@@ -29,15 +29,15 @@ birds = pd.read_csv('../../data/birds.csv')
 birds.head()
 ```
 
-|      | Nume                         | NumeȘtiințific         | Categorie             | Ordin        | Familie  | Gen         | StatusConservare    | MinLungime | MaxLungime | MinMasaCorp | MaxMasaCorp | MinAnvergura | MaxAnvergura |
+|      | Nume                         | NumeȘtiințific         | Categorie             | Ordin        | Familie  | Gen         | StatusConservare    | MinLungime | MaxLungime | MinMasăCorp | MaxMasăCorp | MinAnvergură | MaxAnvergură |
 | ---: | :--------------------------- | :--------------------- | :-------------------- | :----------- | :------- | :---------- | :----------------- | --------: | --------: | ----------: | ----------: | ----------: | ----------: |
 |    0 | Rața fluierătoare cu burtă neagră | Dendrocygna autumnalis | Rațe/Gâște/Păsări acvatice | Anseriformes | Anatidae | Dendrocygna | LC                 |        47 |        56 |         652 |        1020 |          76 |          94 |
 |    1 | Rața fluierătoare fulvoasă       | Dendrocygna bicolor    | Rațe/Gâște/Păsări acvatice | Anseriformes | Anatidae | Dendrocygna | LC                 |        45 |        53 |         712 |        1050 |          85 |          93 |
-|    2 | Gâsca de zăpadă                 | Anser caerulescens     | Rațe/Gâște/Păsări acvatice | Anseriformes | Anatidae | Anser       | LC                 |        64 |        79 |        2050 |        4050 |         135 |         165 |
-|    3 | Gâsca lui Ross                 | Anser rossii           | Rațe/Gâște/Păsări acvatice | Anseriformes | Anatidae | Anser       | LC                 |      57.3 |        64 |        1066 |        1567 |         113 |         116 |
-|    4 | Gâsca albă cu frunte mare      | Anser albifrons        | Rațe/Gâște/Păsări acvatice | Anseriformes | Anatidae | Anser       | LC                 |        64 |        81 |        1930 |        3310 |         130 |         165 |
+|    2 | Gâsca de zăpadă                  | Anser caerulescens     | Rațe/Gâște/Păsări acvatice | Anseriformes | Anatidae | Anser       | LC                 |        64 |        79 |        2050 |        4050 |         135 |         165 |
+|    3 | Gâsca lui Ross                   | Anser rossii           | Rațe/Gâște/Păsări acvatice | Anseriformes | Anatidae | Anser       | LC                 |      57.3 |        64 |        1066 |        1567 |         113 |         116 |
+|    4 | Gâsca albă cu frunte mare        | Anser albifrons        | Rațe/Gâște/Păsări acvatice | Anseriformes | Anatidae | Anser       | LC                 |        64 |        81 |        1930 |        3310 |         130 |         165 |
 
-În general, poți analiza rapid modul în care datele sunt distribuite folosind un grafic de tip scatter, așa cum am făcut în lecția anterioară:
+În general, poți analiza rapid modul în care datele sunt distribuite utilizând un grafic de dispersie, așa cum am făcut în lecția anterioară:
 
 ```python
 birds.plot(kind='scatter',x='MaxLength',y='Order',figsize=(12,8))
@@ -50,11 +50,11 @@ plt.show()
 ```
 ![lungimea maximă per ordin](../../../../3-Data-Visualization/10-visualization-distributions/images/scatter-wb.png)
 
-Acest grafic oferă o privire de ansamblu asupra distribuției generale a lungimii corpului per ordin de păsări, dar nu este cea mai bună modalitate de a afișa distribuțiile reale. Această sarcină este de obicei realizată prin crearea unui histogramă.
+Acest grafic oferă o privire de ansamblu asupra distribuției generale a lungimii corporale per Ordin de păsări, dar nu este cea mai bună modalitate de a afișa distribuțiile reale. Această sarcină este de obicei realizată prin crearea unui histogramă.
 
 ## Lucrul cu histograme
 
-Matplotlib oferă modalități foarte bune de a vizualiza distribuția datelor folosind histograme. Acest tip de grafic este similar cu un grafic de tip bară, unde distribuția poate fi observată prin creșterea și scăderea barelor. Pentru a construi o histogramă, ai nevoie de date numerice. Pentru a construi o histogramă, poți crea un grafic definind tipul ca 'hist' pentru histogramă. Acest grafic arată distribuția masei corporale maxime pentru întregul interval de date numerice din setul de date. Prin împărțirea array-ului de date în secțiuni mai mici (bins), poate afișa distribuția valorilor datelor:
+Matplotlib oferă modalități foarte bune de a vizualiza distribuția datelor utilizând histograme. Acest tip de grafic este similar cu un grafic cu bare, unde distribuția poate fi observată prin creșterea și scăderea barelor. Pentru a construi o histogramă, ai nevoie de date numerice. Pentru a construi o histogramă, poți crea un grafic definind tipul ca 'hist' pentru histogramă. Acest grafic arată distribuția masei corporale maxime pentru întregul interval de date numerice din setul de date. Prin împărțirea array-ului de date în secțiuni mai mici, poate afișa distribuția valorilor datelor:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
@@ -81,11 +81,11 @@ plt.show()
 ```
 ![histogramă filtrată](../../../../3-Data-Visualization/10-visualization-distributions/images/dist3-wb.png)
 
-✅ Încearcă alte filtre și puncte de date. Pentru a vedea distribuția completă a datelor, elimină filtrul `['MaxBodyMass']` pentru a afișa distribuții etichetate.
+✅ Încearcă alte filtre și puncte de date. Pentru a vedea distribuția completă a datelor, elimină filtrul `['MaxBodyMass']` pentru a afișa distribuțiile etichetate.
 
 Histogramele oferă și câteva îmbunătățiri de culoare și etichetare pe care le poți încerca:
 
-Creează o histogramă 2D pentru a compara relația dintre două distribuții. Să comparăm `MaxBodyMass` vs. `MaxLength`. Matplotlib oferă o modalitate integrată de a arăta convergența folosind culori mai luminoase:
+Creează o histogramă 2D pentru a compara relația dintre două distribuții. Să comparăm `MaxBodyMass` vs. `MaxLength`. Matplotlib oferă o modalitate integrată de a arăta convergența utilizând culori mai luminoase:
 
 ```python
 x = filteredBirds['MaxBodyMass']
@@ -99,20 +99,20 @@ Pare să existe o corelație așteptată între aceste două elemente de-a lungu
 ![grafic 2D](../../../../3-Data-Visualization/10-visualization-distributions/images/2D-wb.png)
 
 Histogramele funcționează bine în mod implicit pentru date numerice. Ce se întâmplă dacă trebuie să vezi distribuții în funcție de date text? 
-## Explorează setul de date pentru distribuții folosind date text 
+## Explorează setul de date pentru distribuții utilizând date text 
 
-Acest set de date include, de asemenea, informații bune despre categoria păsării, genul, specia și familia acesteia, precum și statusul de conservare. Hai să analizăm aceste informații despre conservare. Care este distribuția păsărilor în funcție de statusul lor de conservare?
+Acest set de date include, de asemenea, informații bune despre categoria păsării, genul, specia și familia acesteia, precum și statusul de conservare. Să analizăm aceste informații despre conservare. Care este distribuția păsărilor în funcție de statusul lor de conservare?
 
-> ✅ În setul de date, sunt folosite mai multe acronime pentru a descrie statusul de conservare. Aceste acronime provin de la [IUCN Red List Categories](https://www.iucnredlist.org/), o organizație care cataloghează statusul speciilor.
+> ✅ În setul de date, sunt utilizate mai multe acronime pentru a descrie statusul de conservare. Aceste acronime provin de la [IUCN Red List Categories](https://www.iucnredlist.org/), o organizație care cataloghează statusul speciilor.
 > 
 > - CR: Critic Periclitat
 > - EN: Periclitat
 > - EX: Extinct
-> - LC: Preocupare Minimă
+> - LC: Fără Griji
 > - NT: Aproape Amenințat
 > - VU: Vulnerabil
 
-Acestea sunt valori bazate pe text, așa că va trebui să faci o transformare pentru a crea o histogramă. Folosind dataframe-ul filteredBirds, afișează statusul de conservare alături de anvergura minimă a aripilor. Ce observi? 
+Acestea sunt valori bazate pe text, așa că va trebui să faci o transformare pentru a crea o histogramă. Utilizând dataframe-ul filteredBirds, afișează statusul de conservare alături de anvergura minimă a aripilor. Ce observi?
 
 ```python
 x1 = filteredBirds.loc[filteredBirds.ConservationStatus=='EX', 'MinWingspan']
@@ -137,7 +137,7 @@ plt.legend();
 
 ![colaj anvergură și conservare](../../../../3-Data-Visualization/10-visualization-distributions/images/histogram-conservation-wb.png)
 
-Nu pare să existe o corelație bună între anvergura minimă a aripilor și statusul de conservare. Testează alte elemente ale setului de date folosind această metodă. Poți încerca diferite filtre. Găsești vreo corelație?
+Nu pare să existe o corelație bună între anvergura minimă a aripilor și statusul de conservare. Testează alte elemente ale setului de date utilizând această metodă. Poți încerca diferite filtre. Găsești vreo corelație?
 
 ## Grafice de densitate
 
@@ -155,27 +155,27 @@ plt.show()
 ```
 ![Grafic de densitate](../../../../3-Data-Visualization/10-visualization-distributions/images/density1.png)
 
-Poți observa cum graficul reflectă cel anterior pentru datele despre anvergura minimă a aripilor; este doar puțin mai lin. Conform documentației Seaborn, "Comparativ cu o histogramă, KDE poate produce un grafic mai puțin aglomerat și mai ușor de interpretat, mai ales când se trasează mai multe distribuții. Dar are potențialul de a introduce distorsiuni dacă distribuția de bază este limitată sau nu este lină. La fel ca o histogramă, calitatea reprezentării depinde și de selecția unor parametri de netezire buni." [sursa](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Cu alte cuvinte, valorile extreme, ca întotdeauna, vor face ca graficele tale să se comporte ciudat.
+Poți observa cum graficul reflectă cel anterior pentru datele despre anvergura minimă a aripilor; este doar puțin mai lin. Conform documentației Seaborn, "Comparativ cu o histogramă, KDE poate produce un grafic mai puțin aglomerat și mai ușor de interpretat, mai ales atunci când se trasează mai multe distribuții. Dar are potențialul de a introduce distorsiuni dacă distribuția de bază este limitată sau nu este lină. La fel ca o histogramă, calitatea reprezentării depinde și de selecția unor parametri de netezire buni." [sursa](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Cu alte cuvinte, valorile extreme, ca întotdeauna, vor face ca graficele tale să se comporte ciudat.
 
-Dacă ai vrea să revizitezi acea linie în trepte pentru MaxBodyMass din al doilea grafic pe care l-ai construit, ai putea să o netezești foarte bine recreând-o folosind această metodă:
+Dacă dorești să revizitezi acea linie neregulată a masei corporale maxime din al doilea grafic pe care l-ai construit, o poți netezi foarte bine recreând-o utilizând această metodă:
 
 ```python
 sns.kdeplot(filteredBirds['MaxBodyMass'])
 plt.show()
 ```
-![linie netedă pentru masa corporală](../../../../3-Data-Visualization/10-visualization-distributions/images/density2.png)
+![linie netedă a masei corporale](../../../../3-Data-Visualization/10-visualization-distributions/images/density2.png)
 
-Dacă ai vrea o linie netedă, dar nu prea netedă, editează parametrul `bw_adjust`: 
+Dacă dorești o linie netedă, dar nu prea netedă, editează parametrul `bw_adjust`: 
 
 ```python
 sns.kdeplot(filteredBirds['MaxBodyMass'], bw_adjust=.2)
 plt.show()
 ```
-![linie mai puțin netedă pentru masa corporală](../../../../3-Data-Visualization/10-visualization-distributions/images/density3.png)
+![linie mai puțin netedă a masei corporale](../../../../3-Data-Visualization/10-visualization-distributions/images/density3.png)
 
 ✅ Citește despre parametrii disponibili pentru acest tip de grafic și experimentează!
 
-Acest tip de grafic oferă vizualizări explicative frumoase. Cu câteva linii de cod, de exemplu, poți afișa densitatea masei corporale maxime per ordin de păsări:
+Acest tip de grafic oferă vizualizări explicative frumoase. Cu câteva linii de cod, de exemplu, poți afișa densitatea masei corporale maxime per Ordin de păsări:
 
 ```python
 sns.kdeplot(
@@ -185,9 +185,9 @@ sns.kdeplot(
 )
 ```
 
-![masa corporală per ordin](../../../../3-Data-Visualization/10-visualization-distributions/images/density4.png)
+![masă corporală per ordin](../../../../3-Data-Visualization/10-visualization-distributions/images/density4.png)
 
-Poți, de asemenea, să mapezi densitatea mai multor variabile într-un singur grafic. Testează lungimea maximă și lungimea minimă a unei păsări în comparație cu statusul lor de conservare:
+De asemenea, poți mapa densitatea mai multor variabile într-un singur grafic. Testează lungimea maximă și lungimea minimă a unei păsări în comparație cu statusul lor de conservare:
 
 ```python
 sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationStatus")
@@ -195,17 +195,17 @@ sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationS
 
 ![densități multiple, suprapuse](../../../../3-Data-Visualization/10-visualization-distributions/images/multi.png)
 
-Poate merită să cercetezi dacă grupul de păsări 'Vulnerabile' în funcție de lungimile lor este semnificativ sau nu.
+Poate merită cercetat dacă grupul de păsări 'Vulnerabile' în funcție de lungimile lor este semnificativ sau nu.
 
 ## 🚀 Provocare
 
-Histogramele sunt un tip de grafic mai sofisticat decât graficele de tip scatter, bară sau linie. Caută pe internet exemple bune de utilizare a histogramelor. Cum sunt folosite, ce demonstrează și în ce domenii sau arii de cercetare tind să fie utilizate?
+Histogramele sunt un tip de grafic mai sofisticat decât graficele de dispersie, graficele cu bare sau graficele liniare de bază. Caută pe internet exemple bune de utilizare a histogramelor. Cum sunt utilizate, ce demonstrează și în ce domenii sau arii de cercetare tind să fie utilizate?
 
-## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ds/)
+## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ds/quiz/19)
 
-## Recapitulare și Studiu Individual
+## Recapitulare & Studiu Individual
 
-În această lecție, ai folosit Matplotlib și ai început să lucrezi cu Seaborn pentru a crea grafice mai sofisticate. Fă cercetări despre `kdeplot` în Seaborn, o "curbă de densitate a probabilității continue într-una sau mai multe dimensiuni". Citește [documentația](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) pentru a înțelege cum funcționează.
+În această lecție, ai utilizat Matplotlib și ai început să lucrezi cu Seaborn pentru a crea grafice mai sofisticate. Fă cercetări despre `kdeplot` în Seaborn, o "curbă de densitate a probabilității continue într-una sau mai multe dimensiuni". Citește [documentația](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) pentru a înțelege cum funcționează.
 
 ## Temă
 
@@ -214,4 +214,4 @@ Histogramele sunt un tip de grafic mai sofisticat decât graficele de tip scatte
 ---
 
 **Declinare de responsabilitate**:  
-Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de oameni. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.
+Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.

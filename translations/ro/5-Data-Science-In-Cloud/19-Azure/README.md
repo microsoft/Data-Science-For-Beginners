@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
-  "translation_date": "2025-09-05T05:27:22+00:00",
+  "original_hash": "472d3fab1c5be50f387336e7a686dbe1",
+  "translation_date": "2025-09-05T18:20:20+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "ro"
 }
@@ -37,7 +37,7 @@ Cuprins:
   - [Recapitulare și studiu individual](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Temă](../../../../5-Data-Science-In-Cloud/19-Azure)
 
-## [Chestionar înainte de lecție](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/36)
+## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ds/quiz/36)
 
 ## 1. Introducere
 
@@ -55,24 +55,24 @@ Zonele cheie ale SDK-ului includ:
 
 [Află mai multe despre Azure Machine Learning SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
-În [lecția anterioară](../18-Low-Code/README.md), am văzut cum să antrenăm, implementăm și consumăm un model într-un mod Low code/No code. Am folosit datasetul despre insuficiența cardiacă pentru a genera un model de predicție a insuficienței cardiace. În această lecție, vom face exact același lucru, dar utilizând Azure Machine Learning SDK.
+În [lecția anterioară](../18-Low-Code/README.md), am văzut cum să antrenăm, implementăm și consumăm un model într-un mod Low code/No code. Am folosit datasetul de insuficiență cardiacă pentru a genera un model de predicție a insuficienței cardiace. În această lecție, vom face exact același lucru, dar utilizând Azure Machine Learning SDK.
 
 ![schema-proiectului](../../../../5-Data-Science-In-Cloud/19-Azure/images/project-schema.PNG)
 
 ### 1.2 Proiectul de predicție a insuficienței cardiace și introducerea datasetului
 
-Verifică [aici](../18-Low-Code/README.md) introducerea proiectului de predicție a insuficienței cardiace și datasetului.
+Consultă [aici](../18-Low-Code/README.md) introducerea proiectului de predicție a insuficienței cardiace și datasetului.
 
 ## 2. Antrenarea unui model cu Azure ML SDK
 ### 2.1 Crearea unui workspace Azure ML
 
-Pentru simplitate, vom lucra într-un notebook Jupyter. Acest lucru implică faptul că ai deja un Workspace și o instanță de calcul. Dacă ai deja un Workspace, poți sări direct la secțiunea 2.3 Crearea notebook-urilor.
+Pentru simplitate, vom lucra într-un notebook Jupyter. Acest lucru implică faptul că deja ai un Workspace și o instanță de calcul. Dacă ai deja un Workspace, poți sări direct la secțiunea 2.3 Crearea notebook-urilor.
 
 Dacă nu, te rugăm să urmezi instrucțiunile din secțiunea **2.1 Crearea unui workspace Azure ML** din [lecția anterioară](../18-Low-Code/README.md) pentru a crea un workspace.
 
 ### 2.2 Crearea unei instanțe de calcul
 
-În [workspace-ul Azure ML](https://ml.azure.com/) pe care l-am creat anterior, mergi la meniul de calcul și vei vedea diferitele resurse de calcul disponibile.
+În [workspace-ul Azure ML](https://ml.azure.com/) pe care l-am creat anterior, accesează meniul de calcul și vei vedea diferitele resurse de calcul disponibile.
 
 ![instanță-de-calcul-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/compute-instance-1.PNG)
 
@@ -91,11 +91,11 @@ Consultă [lecția anterioară](../18-Low-Code/README.md) în secțiunea **2.3 �
 
 > **_NOTĂ:_** Pentru pasul următor, poți fie să creezi un notebook nou de la zero, fie să încarci [notebook-ul pe care l-am creat](../../../../5-Data-Science-In-Cloud/19-Azure/notebook.ipynb) în Azure ML Studio. Pentru a-l încărca, pur și simplu apasă pe meniul "Notebook" și încarcă notebook-ul.
 
-Notebook-urile sunt o parte foarte importantă a procesului de știință a datelor. Ele pot fi utilizate pentru a efectua Analiza Exploratorie a Datelor (EDA), pentru a apela un cluster de calcul pentru a antrena un model sau pentru a apela un cluster de inferență pentru a implementa un endpoint. 
+Notebook-urile sunt o parte foarte importantă a procesului de știință a datelor. Ele pot fi utilizate pentru a efectua Analiza Exploratorie a Datelor (EDA), pentru a apela un cluster de calcul pentru antrenarea unui model sau pentru a apela un cluster de inferență pentru a implementa un endpoint. 
 
 Pentru a crea un notebook, avem nevoie de un nod de calcul care servește instanța notebook-ului Jupyter. Revino la [workspace-ul Azure ML](https://ml.azure.com/) și apasă pe Instanțe de calcul. În lista de instanțe de calcul ar trebui să vezi [instanța de calcul pe care am creat-o anterior](../../../../5-Data-Science-In-Cloud/19-Azure). 
 
-1. În secțiunea Applications, apasă pe opțiunea Jupyter. 
+1. În secțiunea Aplicații, apasă pe opțiunea Jupyter. 
 2. Bifează caseta "Yes, I understand" și apasă pe butonul Continue.
 ![notebook-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-1.PNG)
 3. Acest lucru ar trebui să deschidă o filă nouă în browser cu instanța notebook-ului Jupyter. Apasă pe butonul "New" pentru a crea un notebook.
@@ -106,7 +106,7 @@ Acum că avem un notebook, putem începe antrenarea modelului cu Azure ML SDK.
 
 ### 2.5 Antrenarea unui model
 
-În primul rând, dacă ai vreodată îndoieli, consultă [documentația Azure ML SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). Aceasta conține toate informațiile necesare pentru a înțelege modulele pe care le vom vedea în această lecție.
+În primul rând, dacă ai vreodată vreo îndoială, consultă [documentația Azure ML SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). Aceasta conține toate informațiile necesare pentru a înțelege modulele pe care le vom vedea în această lecție.
 
 #### 2.5.1 Configurarea workspace-ului, experimentului, clusterului de calcul și datasetului
 
@@ -117,16 +117,16 @@ from azureml.core import Workspace
 ws = Workspace.from_config()
 ```
 
-Acest lucru returnează un obiect de tip `Workspace` care reprezintă workspace-ul. Apoi trebuie să creezi un `experiment` utilizând următorul cod:
+Acesta returnează un obiect de tip `Workspace` care reprezintă workspace-ul. Apoi trebuie să creezi un `experiment` utilizând următorul cod:
 
 ```python
 from azureml.core import Experiment
 experiment_name = 'aml-experiment'
 experiment = Experiment(ws, experiment_name)
 ```
-Pentru a obține sau crea un experiment dintr-un workspace, soliciți experimentul utilizând numele experimentului. Numele experimentului trebuie să aibă între 3 și 36 de caractere, să înceapă cu o literă sau un număr și să conțină doar litere, numere, underscore-uri și cratime. Dacă experimentul nu este găsit în workspace, se creează un experiment nou.
+Pentru a obține sau crea un experiment dintr-un workspace, soliciți experimentul utilizând numele experimentului. Numele experimentului trebuie să aibă între 3 și 36 de caractere, să înceapă cu o literă sau un număr și să conțină doar litere, numere, underscore-uri și liniuțe. Dacă experimentul nu este găsit în workspace, se creează un experiment nou.
 
-Acum trebuie să creezi un cluster de calcul pentru antrenament utilizând următorul cod. Reține că acest pas poate dura câteva minute. 
+Acum trebuie să creezi un cluster de calcul pentru antrenare utilizând următorul cod. Reține că acest pas poate dura câteva minute. 
 
 ```python
 from azureml.core.compute import AmlCompute
@@ -156,14 +156,14 @@ df.describe()
 
 Pentru a seta configurația AutoML, folosește clasa [AutoMLConfig](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
-Așa cum este descris în documentație, există o mulțime de parametri cu care poți experimenta. Pentru acest proiect, vom folosi următorii parametri:
+Așa cum este descris în documentație, există o mulțime de parametri cu care poți lucra. Pentru acest proiect, vom folosi următorii parametri:
 
 - `experiment_timeout_minutes`: Timpul maxim (în minute) permis pentru rularea experimentului înainte ca acesta să fie oprit automat și rezultatele să fie disponibile automat.
-- `max_concurrent_iterations`: Numărul maxim de iterații de antrenament simultane permise pentru experiment.
+- `max_concurrent_iterations`: Numărul maxim de iterații de antrenament concurente permise pentru experiment.
 - `primary_metric`: Metrica principală utilizată pentru a determina starea experimentului.
-- `compute_target`: Resursa de calcul Azure Machine Learning pe care se rulează experimentul de învățare automată automată.
-- `task`: Tipul de sarcină de rulare. Valorile pot fi 'classification', 'regression' sau 'forecasting', în funcție de tipul de problemă de învățare automată automată de rezolvat.
-- `training_data`: Datele de antrenament utilizate în cadrul experimentului. Acestea ar trebui să conțină atât caracteristicile de antrenament, cât și o coloană de etichete (opțional o coloană de greutăți ale eșantionului).
+- `compute_target`: Resursa de calcul Azure Machine Learning pe care se rulează experimentul de învățare automată automatizată.
+- `task`: Tipul de sarcină de rulare. Valorile pot fi 'classification', 'regression' sau 'forecasting', în funcție de tipul de problemă de învățare automată automatizată de rezolvat.
+- `training_data`: Datele de antrenament care urmează să fie utilizate în cadrul experimentului. Acestea ar trebui să conțină atât caracteristicile de antrenament, cât și o coloană de etichete (opțional o coloană de greutăți ale eșantionului).
 - `label_column_name`: Numele coloanei de etichete.
 - `path`: Calea completă către folderul proiectului Azure Machine Learning.
 - `enable_early_stopping`: Dacă se permite terminarea timpurie în cazul în care scorul nu se îmbunătățește pe termen scurt.
@@ -206,7 +206,7 @@ RunDetails(remote_run).show()
 
 ### 3.1 Salvarea celui mai bun model
 
-`remote_run` este un obiect de tip [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). Acest obiect conține metoda `get_output()` care returnează cel mai bun run și modelul ajustat corespunzător.
+`remote_run` este un obiect de tip [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). Acest obiect conține metoda `get_output()` care returnează cea mai bună rulare și modelul ajustat corespunzător.
 
 ```python
 best_run, fitted_model = remote_run.get_output()
@@ -230,7 +230,7 @@ model = best_run.register_model(model_name = model_name,
 ```
 ### 3.2 Implementarea modelului
 
-După ce cel mai bun model este salvat, îl putem implementa cu clasa [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109). InferenceConfig reprezintă setările de configurare pentru un mediu personalizat utilizat pentru implementare. Clasa [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) reprezintă un model de învățare automată implementat ca un endpoint de serviciu web pe Azure Container Instances. Un serviciu implementat este creat dintr-un model, script și fișiere asociate. Serviciul web rezultat este un endpoint HTTP echilibrat, cu o API REST. Poți trimite date către această API și primi predicția returnată de model.
+Odată ce cel mai bun model este salvat, îl putem implementa cu clasa [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109). InferenceConfig reprezintă setările de configurare pentru un mediu personalizat utilizat pentru implementare. Clasa [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) reprezintă un model de învățare automată implementat ca un endpoint de serviciu web pe Azure Container Instances. Un serviciu implementat este creat dintr-un model, script și fișiere asociate. Serviciul web rezultat este un endpoint HTTP echilibrat, cu o API REST. Poți trimite date către această API și primi predicția returnată de model.
 
 Modelul este implementat utilizând metoda [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
@@ -289,15 +289,15 @@ Acesta ar trebui să returneze `'{"result": [false]}'`. Aceasta înseamnă că d
 Felicitări! Tocmai ai utilizat modelul implementat și antrenat pe Azure ML folosind Azure ML SDK!
 
 
-> **_NOTE:_** După ce termini proiectul, nu uita să ștergi toate resursele.
+> **_NOTE:_** După ce ai terminat proiectul, nu uita să ștergi toate resursele.
 
 ## 🚀 Provocare
 
-Există multe alte lucruri pe care le poți face prin SDK, din păcate, nu le putem acoperi pe toate în această lecție. Dar vestea bună este că învățarea modului de a naviga prin documentația SDK te poate ajuta foarte mult pe cont propriu. Aruncă o privire la documentația Azure ML SDK și găsește clasa `Pipeline`, care îți permite să creezi pipeline-uri. Un pipeline este o colecție de pași care pot fi executați ca un flux de lucru.
+Există multe alte lucruri pe care le poți face prin SDK, din păcate, nu le putem acoperi pe toate în această lecție. Dar vestea bună este că învățarea modului de a naviga prin documentația SDK te poate ajuta foarte mult pe cont propriu. Aruncă o privire la documentația Azure ML SDK și găsește clasa `Pipeline`, care îți permite să creezi pipeline-uri. Un Pipeline este o colecție de pași care pot fi executați ca un flux de lucru.
 
 **INDICIU:** Accesează [documentația SDK](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) și tastează cuvinte cheie în bara de căutare, cum ar fi "Pipeline". Ar trebui să găsești clasa `azureml.pipeline.core.Pipeline` în rezultatele căutării.
 
-## [Test după lecție](https://ff-quizzes.netlify.app/en/ds/)
+## [Test de verificare după lecție](https://ff-quizzes.netlify.app/en/ds/quiz/37)
 
 ## Recapitulare & Studiu individual
 

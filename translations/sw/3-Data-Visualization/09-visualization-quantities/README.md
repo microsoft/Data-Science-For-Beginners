@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "69b32b6789a91f796ebc7a02f5575e03",
-  "translation_date": "2025-09-05T06:32:58+00:00",
+  "original_hash": "a49d78e32e280c410f04e5f2a2068e77",
+  "translation_date": "2025-09-05T17:13:05+00:00",
   "source_file": "3-Data-Visualization/09-visualization-quantities/README.md",
   "language_code": "sw"
 }
@@ -14,11 +14,11 @@ CO_OP_TRANSLATOR_METADATA:
 | Kuonyesha Kiasi - _Sketchnote na [@nitya](https://twitter.com/nitya)_ |
 
 Katika somo hili, utachunguza jinsi ya kutumia moja ya maktaba nyingi za Python ili kujifunza jinsi ya kuunda taswira za kuvutia zinazohusiana na dhana ya kiasi. Kwa kutumia seti ya data iliyosafishwa kuhusu ndege wa Minnesota, unaweza kujifunza mambo mengi ya kuvutia kuhusu wanyama wa porini wa eneo hilo.  
-## [Jaribio la kabla ya somo](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/16)
+## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ds/quiz/16)
 
-## Kuchunguza upana wa mabawa kwa kutumia Matplotlib
+## Angalia upana wa mabawa kwa kutumia Matplotlib
 
-Maktaba bora ya kuunda michoro rahisi na ya kisasa ya aina mbalimbali ni [Matplotlib](https://matplotlib.org/stable/index.html). Kwa ujumla, mchakato wa kuchora data kwa kutumia maktaba hizi unajumuisha kutambua sehemu za dataframe unazotaka kulenga, kufanya mabadiliko yoyote yanayohitajika kwenye data hiyo, kupeana thamani za mhimili wa x na y, kuamua aina ya mchoro wa kuonyesha, na kisha kuonyesha mchoro huo. Matplotlib inatoa aina nyingi za taswira, lakini kwa somo hili, hebu tuzingatie zile zinazofaa zaidi kwa kuonyesha kiasi: chati za mstari, scatterplots, na bar plots.
+Maktaba bora ya kuunda michoro rahisi na ngumu za aina mbalimbali ni [Matplotlib](https://matplotlib.org/stable/index.html). Kwa ujumla, mchakato wa kuchora data kwa kutumia maktaba hizi unajumuisha kutambua sehemu za dataframe yako unayotaka kulenga, kufanya mabadiliko yoyote yanayohitajika kwenye data hiyo, kupeana thamani za mhimili wa x na y, kuamua aina ya mchoro wa kuonyesha, na kisha kuonyesha mchoro huo. Matplotlib inatoa aina nyingi za taswira, lakini kwa somo hili, hebu tuzingatie zile zinazofaa zaidi kwa kuonyesha kiasi: chati za mstari, scatterplots, na bar plots.
 
 > ✅ Tumia chati bora inayofaa muundo wa data yako na hadithi unayotaka kusimulia.  
 > - Kuchambua mwenendo kwa muda: mstari  
@@ -28,7 +28,7 @@ Maktaba bora ya kuunda michoro rahisi na ya kisasa ya aina mbalimbali ni [Matplo
 > - Kuonyesha mwenendo: mstari, column  
 > - Kuonyesha uhusiano kati ya thamani: mstari, scatterplot, bubble  
 
-Ikiwa una seti ya data na unahitaji kugundua kiasi cha kipengee fulani kilichojumuishwa, moja ya kazi za kwanza utakazofanya ni kuchunguza thamani zake.  
+Ikiwa una seti ya data na unahitaji kugundua kiasi cha kipengee fulani kilichojumuishwa, moja ya kazi za kwanza ulizonazo ni kuchunguza thamani zake.  
 
 ✅ Kuna 'cheat sheets' nzuri sana zinazopatikana kwa Matplotlib [hapa](https://matplotlib.org/cheatsheets/cheatsheets.pdf).
 
@@ -46,7 +46,7 @@ birds.head()
 ```  
 Data hii ni mchanganyiko wa maandishi na namba:
 
-|      | Jina                          | Jina la Kisayansi      | Kategoria             | Order        | Familia  | Genus       | Hali ya Uhifadhi   | UrefuMdogo | UrefuMkuu | UzitoMdogo   | UzitoMkuu   | MabawaMdogo | MabawaMkuu  |
+|      | Jina                          | Jina la Kisayansi      | Kategoria             | Order        | Family   | Genus       | Hali ya Uhifadhi   | MinLength | MaxLength | MinBodyMass | MaxBodyMass | MinWingspan | MaxWingspan |
 | ---: | :---------------------------- | :--------------------- | :-------------------- | :----------- | :------- | :---------- | :----------------- | --------: | --------: | ----------: | ----------: | ----------: | ----------: |
 |    0 | Black-bellied whistling-duck | Dendrocygna autumnalis | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Dendrocygna | LC                 |        47 |        56 |         652 |        1020 |          76 |          94 |
 |    1 | Fulvous whistling-duck       | Dendrocygna bicolor    | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Dendrocygna | LC                 |        45 |        53 |         712 |        1050 |          85 |          93 |
@@ -64,7 +64,7 @@ wingspan.plot()
 
 Unagundua nini mara moja? Inaonekana kuna angalau kipengee kimoja cha kipekee - huo ni upana mkubwa wa mabawa! Upana wa mabawa wa sentimita 2300 ni sawa na mita 23 - kuna Pterodactyls wanaozunguka Minnesota? Hebu tuchunguze.  
 
-Ingawa unaweza kufanya mpangilio wa haraka katika Excel ili kupata vipengee vya kipekee, ambavyo labda ni makosa ya kuandika, endelea na mchakato wa taswira kwa kufanya kazi kutoka ndani ya mchoro.  
+Ingawa unaweza kufanya mpangilio wa haraka katika Excel ili kupata vipengee vya kipekee, ambavyo pengine ni makosa ya uandishi, endelea na mchakato wa taswira kwa kufanya kazi kutoka ndani ya mchoro.  
 
 Ongeza lebo kwenye mhimili wa x ili kuonyesha aina gani ya ndege inahusika:
 
@@ -82,7 +82,7 @@ plt.show()
 ```  
 ![wingspan with labels](../../../../3-Data-Visualization/09-visualization-quantities/images/max-wingspan-labels-02.png)
 
-Hata kwa mzunguko wa lebo kuwekwa kwa digrii 45, kuna nyingi sana kusoma. Hebu tujaribu mkakati tofauti: weka lebo tu kwa vipengee vya kipekee na weka lebo ndani ya mchoro. Unaweza kutumia mchoro wa scatter ili kutoa nafasi zaidi kwa kuweka lebo:
+Hata ukiweka mzunguko wa lebo kwa digrii 45, kuna nyingi sana kusoma. Hebu jaribu mkakati tofauti: lebo tu vipengee vya kipekee na weka lebo ndani ya mchoro. Unaweza kutumia mchoro wa scatter ili kutoa nafasi zaidi kwa kuweka lebo:
 
 ```python
 plt.title('Max Wingspan in Centimeters')
@@ -98,14 +98,14 @@ for i in range(len(birds)):
     
 plt.show()
 ```  
-Nini kinaendelea hapa? Ulitumia `tick_params` kuficha lebo za chini na kisha ukaunda kitanzi juu ya dataset ya ndege yako. Ukichora mchoro kwa kutumia nukta ndogo za bluu kwa `bo`, ulitafuta ndege yoyote yenye upana wa mabawa wa juu zaidi ya 500 na ukaonyesha lebo yao karibu na nukta ikiwa ni hivyo. Uliongeza kidogo lebo kwenye mhimili wa y (`y * (1 - 0.05)`) na ukatumia jina la ndege kama lebo.  
+Nini kinaendelea hapa? Ulitumia `tick_params` kuficha lebo za chini na kisha ukaunda mzunguko juu ya seti yako ya data ya ndege. Ukichora mchoro kwa kutumia nukta ndogo za bluu kwa `bo`, ulitafuta ndege yoyote yenye upana wa mabawa wa juu zaidi ya 500 na ukaonyesha lebo yao karibu na nukta ikiwa ni hivyo. Uliongeza kidogo lebo kwenye mhimili wa y (`y * (1 - 0.05)`) na ukatumia jina la ndege kama lebo.  
 
 Umegundua nini?  
 
 ![outliers](../../../../3-Data-Visualization/09-visualization-quantities/images/labeled-wingspan-02.png)  
 ## Chuja data yako  
 
-Bald Eagle na Prairie Falcon, ingawa labda ni ndege wakubwa sana, inaonekana wameandikwa vibaya, na `0` ya ziada imeongezwa kwenye upana wa mabawa wao wa juu zaidi. Haiwezekani kwamba utakutana na Bald Eagle yenye upana wa mabawa wa mita 25, lakini ikiwa ni hivyo, tafadhali tujulishe! Hebu tuunde dataframe mpya bila ndege hao wawili wa kipekee:  
+Bald Eagle na Prairie Falcon, ingawa pengine ni ndege wakubwa sana, inaonekana wameandikwa vibaya, na `0` ya ziada imeongezwa kwenye upana wao wa mabawa wa juu zaidi. Haiwezekani kukutana na Bald Eagle yenye upana wa mabawa wa mita 25, lakini ikiwa ni hivyo, tafadhali tujulishe! Hebu tuunde dataframe mpya bila vipengee hivyo vya kipekee:  
 
 ```python
 plt.title('Max Wingspan in Centimeters')
@@ -120,24 +120,24 @@ for i in range(len(birds)):
 plt.show()
 ```  
 
-Kwa kuchuja vipengee vya kipekee, data yako sasa ni thabiti zaidi na inaeleweka.  
+Kwa kuchuja vipengee vya kipekee, data yako sasa ni ya mshikamano na inayoeleweka.  
 
 ![scatterplot of wingspans](../../../../3-Data-Visualization/09-visualization-quantities/images/scatterplot-wingspan-02.png)  
 
 Sasa kwa kuwa tuna seti ya data safi angalau kwa suala la upana wa mabawa, hebu tujifunze zaidi kuhusu ndege hawa.  
 
-Ingawa michoro ya mstari na scatter inaweza kuonyesha taarifa kuhusu thamani za data na usambazaji wake, tunataka kufikiria kuhusu thamani zilizomo katika seti hii ya data. Unaweza kuunda taswira kujibu maswali yafuatayo kuhusu kiasi:  
+Ingawa michoro ya mstari na scatter inaweza kuonyesha taarifa kuhusu thamani za data na usambazaji wake, tunataka kufikiria kuhusu thamani zilizomo katika seti hii ya data. Unaweza kuunda taswira ili kujibu maswali yafuatayo kuhusu kiasi:  
 
 > Kuna kategoria ngapi za ndege, na idadi yao ni ngapi?  
 > Kuna ndege wangapi waliopotea, walio hatarini, nadra, au wa kawaida?  
-> Kuna idadi gani ya genus na order mbalimbali katika terminolojia ya Linnaeus?  
+> Kuna idadi gani ya genus na order mbalimbali kulingana na terminolojia ya Linnaeus?  
 ## Chunguza chati za bar  
 
 Chati za bar ni za vitendo unapohitaji kuonyesha makundi ya data. Hebu tuchunguze kategoria za ndege zilizopo katika seti hii ya data ili kuona ni ipi iliyo ya kawaida zaidi kwa idadi.  
 
 Katika faili ya notebook, unda chati ya bar ya msingi  
 
-✅ Kumbuka, unaweza kuchuja ndege wawili wa kipekee tuliowatambua katika sehemu iliyopita, kuhariri kosa la kuandika katika upana wao wa mabawa, au kuwaacha kwa mazoezi haya ambayo hayategemei thamani za upana wa mabawa.  
+✅ Kumbuka, unaweza kuchuja ndege wawili wa kipekee tulioainisha katika sehemu iliyopita, kuhariri makosa ya uandishi katika upana wao wa mabawa, au kuwaacha kwa mazoezi haya ambayo hayategemei thamani za upana wa mabawa.  
 
 Ikiwa unataka kuunda chati ya bar, unaweza kuchagua data unayotaka kuzingatia. Chati za bar zinaweza kuundwa kutoka kwa data ghafi:  
 
@@ -150,13 +150,13 @@ birds.plot(x='Category',
 ```  
 ![full data as a bar chart](../../../../3-Data-Visualization/09-visualization-quantities/images/full-data-bar-02.png)  
 
-Hata hivyo, chati hii ya bar haiwezi kusomeka kwa sababu kuna data nyingi isiyopangwa. Unahitaji kuchagua tu data unayotaka kuchora, kwa hivyo hebu tuangalie urefu wa ndege kulingana na kategoria yao.  
+Hata hivyo, chati hii ya bar haiwezi kusomeka kwa sababu kuna data nyingi zisizo na makundi. Unahitaji kuchagua tu data unayotaka kuchora, kwa hivyo hebu tuangalie urefu wa ndege kulingana na kategoria yao.  
 
 Chuja data yako ili kujumuisha tu kategoria ya ndege.  
 
 ✅ Kumbuka kwamba unatumia Pandas kusimamia data, na kisha unaruhusu Matplotlib kufanya uchoraji.  
 
-Kwa kuwa kuna kategoria nyingi, unaweza kuonyesha chati hii wima na kurekebisha urefu wake ili kuzingatia data yote:  
+Kwa kuwa kuna kategoria nyingi, unaweza kuonyesha chati hii kwa wima na kurekebisha urefu wake ili kuzingatia data yote:  
 
 ```python
 category_count = birds.value_counts(birds['Category'].values, sort=True)
@@ -171,7 +171,7 @@ Chati hii ya bar inaonyesha mtazamo mzuri wa idadi ya ndege katika kila kategori
 
 ## Kulinganisha data  
 
-Unaweza kujaribu kulinganisha data iliyopangwa kwa kuunda axes mpya. Jaribu kulinganisha MaxLength ya ndege, kulingana na kategoria yake:  
+Unaweza kujaribu kulinganisha data ya makundi tofauti kwa kuunda axes mpya. Jaribu kulinganisha MaxLength ya ndege, kulingana na kategoria yake:  
 
 ```python
 maxlength = birds['MaxLength']
@@ -181,7 +181,7 @@ plt.show()
 ```  
 ![comparing data](../../../../3-Data-Visualization/09-visualization-quantities/images/category-length-02.png)  
 
-Hakuna kitu cha kushangaza hapa: hummingbirds wana MaxLength ndogo zaidi ikilinganishwa na Pelicans au Geese. Ni vizuri wakati data ina mantiki!  
+Hakuna kinachoshangaza hapa: hummingbirds wana MaxLength ndogo zaidi ikilinganishwa na Pelicans au Geese. Ni vizuri data inapofanya mantiki!  
 
 Unaweza kuunda taswira za kuvutia zaidi za chati za bar kwa kuweka data juu ya nyingine. Hebu tuweke Minimum na Maximum Length kwenye kategoria ya ndege fulani:  
 
@@ -195,15 +195,15 @@ plt.barh(category, minLength)
 
 plt.show()
 ```  
-Katika mchoro huu, unaweza kuona anuwai kwa kategoria ya ndege ya Minimum Length na Maximum Length. Unaweza kusema kwa usalama kwamba, kulingana na data hii, ndege mkubwa zaidi ana anuwai kubwa ya urefu. Inavutia!  
+Katika mchoro huu, unaweza kuona anuwai kwa kategoria ya ndege ya Minimum Length na Maximum Length. Unaweza kusema kwa usalama kwamba, kulingana na data hii, ndege mkubwa zaidi ana anuwai kubwa zaidi ya urefu. Inavutia!  
 
 ![superimposed values](../../../../3-Data-Visualization/09-visualization-quantities/images/superimposed-02.png)  
 
 ## 🚀 Changamoto  
 
-Seti hii ya data ya ndege inatoa utajiri wa taarifa kuhusu aina mbalimbali za ndege ndani ya mfumo fulani wa ikolojia. Tafuta mtandaoni na uone ikiwa unaweza kupata seti nyingine za data zinazohusiana na ndege. Fanya mazoezi ya kujenga chati na michoro kuhusu ndege hawa ili kugundua ukweli ambao hukujua.  
+Seti hii ya data ya ndege inatoa utajiri wa taarifa kuhusu aina tofauti za ndege ndani ya mfumo fulani wa ikolojia. Tafuta mtandaoni na uone ikiwa unaweza kupata seti nyingine za data zinazohusiana na ndege. Fanya mazoezi ya kujenga chati na grafu kuhusu ndege hawa ili kugundua ukweli ambao hukujua.  
 
-## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ds/)  
+## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ds/quiz/17)
 
 ## Mapitio & Kujisomea  
 
@@ -215,4 +215,4 @@ Somo hili la kwanza limekupa taarifa kuhusu jinsi ya kutumia Matplotlib kuonyesh
 ---
 
 **Kanusho**:  
-Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

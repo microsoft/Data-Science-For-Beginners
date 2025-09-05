@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "cc490897ee2d276870472bcb31602d03",
-  "translation_date": "2025-09-05T06:32:26+00:00",
+  "original_hash": "42119bcc97bee88254e381156d770f3c",
+  "translation_date": "2025-09-05T17:12:34+00:00",
   "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
   "language_code": "sw"
 }
@@ -13,15 +13,15 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Kuonyesha Uwiano - _Sketchnote na [@nitya](https://twitter.com/nitya)_ |
 
-Katika somo hili, utatumia seti ya data inayohusiana na asili ili kuonyesha uwiano, kama vile idadi ya aina tofauti za uyoga zinazopatikana katika seti ya data kuhusu uyoga. Hebu tuchunguze uyoga huu wa kuvutia kwa kutumia seti ya data iliyotolewa na Audubon inayoorodhesha maelezo kuhusu spishi 23 za uyoga wenye magamba katika familia za Agaricus na Lepiota. Utajaribu mbinu za kuvutia za kuonyesha data kama:
+Katika somo hili, utatumia seti ya data inayohusiana na asili ili kuonyesha uwiano, kama vile idadi ya aina tofauti za uyoga zinazopatikana katika seti ya data kuhusu uyoga. Hebu tuchunguze uyoga huu wa kuvutia kwa kutumia seti ya data kutoka Audubon inayoorodhesha maelezo kuhusu spishi 23 za uyoga wenye magamba katika familia za Agaricus na Lepiota. Utajaribu mbinu za kuvutia za kuonyesha data kama:
 
 - Chati za pai 🥧
 - Chati za donati 🍩
 - Chati za waffle 🧇
 
-> 💡 Mradi wa kuvutia sana unaoitwa [Charticulator](https://charticulator.com) na Microsoft Research unatoa kiolesura cha bure cha kuburuta na kudondosha kwa ajili ya kuonyesha data. Katika mojawapo ya mafunzo yao wanatumia pia seti hii ya data ya uyoga! Kwa hivyo unaweza kuchunguza data na kujifunza maktaba kwa wakati mmoja: [Mafunzo ya Charticulator](https://charticulator.com/tutorials/tutorial4.html).
+> 💡 Mradi wa kuvutia sana unaoitwa [Charticulator](https://charticulator.com) na Microsoft Research unatoa kiolesura cha bure cha kuburuta na kudondosha kwa ajili ya kuonyesha data. Katika mojawapo ya mafunzo yao wanatumia seti hii ya data ya uyoga! Kwa hivyo unaweza kuchunguza data na kujifunza maktaba kwa wakati mmoja: [Mafunzo ya Charticulator](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ds/)
+## [Jaribio la awali la somo](https://ff-quizzes.netlify.app/en/ds/quiz/20)
 
 ## Fahamu uyoga wako 🍄
 
@@ -35,14 +35,15 @@ mushrooms.head()
 ```
 Jedwali linachapishwa likiwa na data nzuri kwa uchambuzi:
 
-| darasa    | umbo la kofia | uso wa kofia | rangi ya kofia | majeraha | harufu   | kiambatisho cha magamba | nafasi ya magamba | ukubwa wa magamba | rangi ya magamba | umbo la shina | mzizi wa shina | uso wa shina juu ya pete | uso wa shina chini ya pete | rangi ya shina juu ya pete | rangi ya shina chini ya pete | aina ya pazia | rangi ya pazia | idadi ya pete | aina ya pete | rangi ya uchapaji wa spora | idadi ya watu | makazi |
-| --------- | ------------- | ------------ | -------------- | -------- | -------- | ----------------------- | ----------------- | ----------------- | ---------------- | ------------- | ------------- | ------------------------ | ------------------------ | -------------------------- | -------------------------- | ------------- | ------------- | ------------- | ----------- | ------------------------ | ------------- | ------- |
-| Sumu      | Mbonyeo       | Laini        | Kahawia        | Majeraha | Chungu   | Huru                   | Karibu            | Nyembamba         | Nyeusi          | Inapanuka     | Sawa          | Laini                   | Laini                   | Nyeupe                  | Nyeupe                  | Sehemu         | Nyeupe         | Moja          | Inaning'inia | Nyeusi                  | Imetawanyika  | Mjini   |
-| Chakula   | Mbonyeo       | Laini        | Njano          | Majeraha | Mlozi    | Huru                   | Karibu            | Pana              | Nyeusi          | Inapanuka     | Klabu         | Laini                   | Laini                   | Nyeupe                  | Nyeupe                  | Sehemu         | Nyeupe         | Moja          | Inaning'inia | Kahawia                | Wengi          | Nyasi   |
-| Chakula   | Kengele       | Laini        | Nyeupe         | Majeraha | Anise    | Huru                   | Karibu            | Pana              | Kahawia         | Inapanuka     | Klabu         | Laini                   | Laini                   | Nyeupe                  | Nyeupe                  | Sehemu         | Nyeupe         | Moja          | Inaning'inia | Kahawia                | Wengi          | Malisho |
-| Sumu      | Mbonyeo       | Magamba      | Nyeupe         | Majeraha | Chungu   | Huru                   | Karibu            | Nyembamba         | Kahawia         | Inapanuka     | Sawa          | Laini                   | Laini                   | Nyeupe                  | Nyeupe                  | Sehemu         | Nyeupe         | Moja          | Inaning'inia | Nyeusi                  | Imetawanyika  | Mjini   |
 
-Mara moja, unagundua kuwa data yote ni ya maandishi. Utalazimika kubadilisha data hii ili kuweza kuitumia katika chati. Kwa kweli, data nyingi inawakilishwa kama kitu:
+| darasa    | umbo la kofia | uso wa kofia | rangi ya kofia | majeraha | harufu   | kiambatisho cha magamba | nafasi ya magamba | ukubwa wa magamba | rangi ya magamba | umbo la shina | mzizi wa shina | uso wa shina juu ya pete | uso wa shina chini ya pete | rangi ya shina juu ya pete | rangi ya shina chini ya pete | aina ya pazia | rangi ya pazia | idadi ya pete | aina ya pete | rangi ya uchapaji wa spora | idadi ya watu | makazi |
+| --------- | ------------- | ------------ | -------------- | -------- | -------- | ----------------------- | ----------------- | ----------------- | ---------------- | ------------- | ------------- | ------------------------ | ------------------------ | -------------------------- | -------------------------- | ------------- | ------------- | ------------- | ----------- | ------------------------ | ------------- | ------ |
+| Sumu      | Mbonyeo       | Laini        | Kahawia        | Majeraha | Chungu   | Huru                   | Karibu            | Nyembamba         | Nyeusi          | Inapanuka     | Sawa          | Laini                   | Laini                   | Nyeupe                  | Nyeupe                  | Sehemu         | Nyeupe         | Moja          | Inaning'inia | Nyeusi                  | Imetawanyika  | Mjini  |
+| Chakula   | Mbonyeo       | Laini        | Njano          | Majeraha | Mlozi    | Huru                   | Karibu            | Pana              | Nyeusi          | Inapanuka     | Klabu         | Laini                   | Laini                   | Nyeupe                  | Nyeupe                  | Sehemu         | Nyeupe         | Moja          | Inaning'inia | Kahawia                | Wengi          | Nyasi  |
+| Chakula   | Kengele       | Laini        | Nyeupe         | Majeraha | Anise    | Huru                   | Karibu            | Pana              | Kahawia         | Inapanuka     | Klabu         | Laini                   | Laini                   | Nyeupe                  | Nyeupe                  | Sehemu         | Nyeupe         | Moja          | Inaning'inia | Kahawia                | Wengi          | Malisho |
+| Sumu      | Mbonyeo       | Magamba      | Nyeupe         | Majeraha | Chungu   | Huru                   | Karibu            | Nyembamba         | Kahawia         | Inapanuka     | Sawa          | Laini                   | Laini                   | Nyeupe                  | Nyeupe                  | Sehemu         | Nyeupe         | Moja          | Inaning'inia | Nyeusi                  | Imetawanyika  | Mjini  |
+
+Mara moja, unagundua kuwa data yote ni ya maandishi. Utalazimika kubadilisha data hii ili uweze kuitumia katika chati. Kwa kweli, data nyingi inawakilishwa kama kitu:
 
 ```python
 print(mushrooms.select_dtypes(["object"]).columns)
@@ -73,13 +74,14 @@ edibleclass
 
 Sasa, ukichapisha data ya uyoga, utaona kuwa imepangwa katika kategoria kulingana na darasa la sumu/chakula:
 
-|           | umbo la kofia | uso wa kofia | rangi ya kofia | majeraha | harufu | kiambatisho cha magamba | nafasi ya magamba | ukubwa wa magamba | rangi ya magamba | umbo la shina | ... | uso wa shina chini ya pete | rangi ya shina juu ya pete | rangi ya shina chini ya pete | aina ya pazia | rangi ya pazia | idadi ya pete | aina ya pete | rangi ya uchapaji wa spora | idadi ya watu | makazi |
-| --------- | ------------- | ------------ | -------------- | -------- | ------ | ----------------------- | ----------------- | ----------------- | ---------------- | ------------- | --- | ------------------------ | -------------------------- | -------------------------- | ------------- | ------------- | ------------- | ----------- | ------------------------ | ------------- | ------- |
-| darasa    |               |              |                |          |        |                         |                   |                   |                  |               |     |                          |                          |                          |               |               |               |             |                        |               |         |
-| Chakula   | 4208          | 4208         | 4208           | 4208     | 4208   | 4208                   | 4208              | 4208              | 4208             | 4208          | ... | 4208                     | 4208                     | 4208                     | 4208          | 4208          | 4208          | 4208        | 4208                  | 4208          | 4208    |
-| Sumu      | 3916          | 3916         | 3916           | 3916     | 3916   | 3916                   | 3916              | 3916              | 3916             | 3916          | ... | 3916                     | 3916                     | 3916                     | 3916          | 3916          | 3916          | 3916        | 3916                  | 3916          | 3916    |
 
-Ukifuata mpangilio uliowasilishwa katika jedwali hili ili kuunda lebo za kategoria za darasa lako, unaweza kujenga chati ya pai:
+|           | umbo la kofia | uso wa kofia | rangi ya kofia | majeraha | harufu | kiambatisho cha magamba | nafasi ya magamba | ukubwa wa magamba | rangi ya magamba | umbo la shina | ... | uso wa shina chini ya pete | rangi ya shina juu ya pete | rangi ya shina chini ya pete | aina ya pazia | rangi ya pazia | idadi ya pete | aina ya pete | rangi ya uchapaji wa spora | idadi ya watu | makazi |
+| --------- | ------------- | ------------ | -------------- | -------- | ------ | ----------------------- | ----------------- | ----------------- | ---------------- | ------------- | --- | ------------------------ | -------------------------- | -------------------------- | ------------- | ------------- | ------------- | ----------- | ------------------------ | ------------- | ------ |
+| darasa    |               |              |                |          |        |                         |                   |                   |                  |               |     |                          |                          |                          |               |               |               |             |                          |               |        |
+| Chakula   | 4208          | 4208         | 4208           | 4208     | 4208   | 4208                    | 4208              | 4208              | 4208             | 4208          | ... | 4208                     | 4208                     | 4208                     | 4208          | 4208          | 4208          | 4208        | 4208                    | 4208           | 4208   |
+| Sumu      | 3916          | 3916         | 3916           | 3916     | 3916   | 3916                    | 3916              | 3916              | 3916             | 3916          | ... | 3916                     | 3916                     | 3916                     | 3916          | 3916          | 3916          | 3916        | 3916                    | 3916           | 3916   |
+
+Ukifuata mpangilio uliowasilishwa katika jedwali hili kuunda lebo za kategoria za darasa lako, unaweza kuunda chati ya pai:
 
 ## Pai!
 
@@ -95,7 +97,7 @@ Voila, chati ya pai inayoonyesha uwiano wa data hii kulingana na madarasa haya m
 
 ## Donati!
 
-Chati ya pai yenye kuvutia zaidi ni chati ya donati, ambayo ni chati ya pai yenye shimo katikati. Hebu tuangalie data yetu kwa kutumia mbinu hii.
+Chati ya pai yenye kuvutia zaidi kwa macho ni chati ya donati, ambayo ni chati ya pai yenye shimo katikati. Hebu tuangalie data yetu kwa kutumia mbinu hii.
 
 Angalia makazi mbalimbali ambapo uyoga hukua:
 
@@ -129,7 +131,7 @@ Chati za donati zinaweza kubadilishwa kwa njia kadhaa ili kubadilisha lebo. Lebo
 
 Sasa kwa kuwa unajua jinsi ya kupanga data yako na kisha kuionyesha kama pai au donati, unaweza kuchunguza aina nyingine za chati. Jaribu chati ya waffle, ambayo ni njia tofauti ya kuchunguza idadi.
 
-## Waffle!
+## Waffles!
 
 Chati ya aina ya 'waffle' ni njia tofauti ya kuonyesha idadi kama safu ya 2D ya miraba. Jaribu kuonyesha idadi tofauti za rangi za kofia za uyoga katika seti hii ya data. Ili kufanya hivyo, unahitaji kusakinisha maktaba ya msaidizi inayoitwa [PyWaffle](https://pypi.org/project/pywaffle/) na kutumia Matplotlib:
 
@@ -167,20 +169,20 @@ fig = plt.figure(
 )
 ```
 
-Kwa kutumia chati ya waffle, unaweza kuona wazi uwiano wa rangi za kofia za uyoga katika seti hii ya data. Cha kuvutia, kuna uyoga wengi wenye kofia za kijani!
+Kwa kutumia chati ya waffle, unaweza kuona wazi uwiano wa rangi za kofia za uyoga katika seti hii ya data. Kwa kushangaza, kuna uyoga wengi wenye kofia za kijani!
 
 ![chati ya waffle](../../../../3-Data-Visualization/11-visualization-proportions/images/waffle.png)
 
-✅ Pywaffle inaunga mkono ikoni ndani ya chati zinazotumia ikoni yoyote inayopatikana katika [Font Awesome](https://fontawesome.com/). Fanya majaribio ili kuunda chati ya waffle ya kuvutia zaidi kwa kutumia ikoni badala ya miraba.
+✅ Pywaffle inaunga mkono ikoni ndani ya chati zinazotumia ikoni yoyote inayopatikana katika [Font Awesome](https://fontawesome.com/). Fanya majaribio kuunda chati ya waffle ya kuvutia zaidi kwa kutumia ikoni badala ya miraba.
 
-Katika somo hili, umejifunza njia tatu za kuonyesha uwiano. Kwanza, unahitaji kupanga data yako katika kategoria na kisha kuamua ni njia gani bora ya kuonyesha data - pai, donati, au waffle. Zote ni tamu na zinamfurahisha mtumiaji kwa muhtasari wa haraka wa seti ya data.
+Katika somo hili, ulijifunza njia tatu za kuonyesha uwiano. Kwanza, unahitaji kupanga data yako katika kategoria na kisha kuamua ni njia gani bora ya kuonyesha data - pai, donati, au waffle. Zote ni tamu na zinamfurahisha mtumiaji kwa muhtasari wa haraka wa seti ya data.
 
 ## 🚀 Changamoto
 
 Jaribu kuunda upya chati hizi tamu katika [Charticulator](https://charticulator.com).
-## [Jaribio la baada ya somo](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
+## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ds/quiz/21)
 
-## Mapitio na Kujisomea
+## Mapitio & Kujisomea
 
 Wakati mwingine si rahisi kujua ni lini utumie pai, donati, au chati ya waffle. Hapa kuna makala za kusoma kuhusu mada hii:
 
