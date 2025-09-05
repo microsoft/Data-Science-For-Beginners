@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "b29e427401499e81f4af55a8c4afea76",
-  "translation_date": "2025-09-04T14:46:34+00:00",
+  "original_hash": "44de95649fcec43643cbe3962f904331",
+  "translation_date": "2025-09-05T14:40:14+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "pl"
 }
@@ -13,19 +13,19 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Wizualizacja relacji - _Sketchnote autorstwa [@nitya](https://twitter.com/nitya)_ |
 
-Kontynuując nasz fokus na naturę w badaniach, odkryjmy ciekawe wizualizacje, które pokazują relacje między różnymi rodzajami miodu, na podstawie danych pochodzących z [Departamentu Rolnictwa Stanów Zjednoczonych](https://www.nass.usda.gov/About_NASS/index.php).
+Kontynuując nasz fokus na naturę w badaniach, odkryjmy ciekawe wizualizacje, które pokazują relacje między różnymi rodzajami miodu, zgodnie z danymi pochodzącymi z [Departamentu Rolnictwa Stanów Zjednoczonych](https://www.nass.usda.gov/About_NASS/index.php).
 
-Ten zbiór danych, zawierający około 600 pozycji, przedstawia produkcję miodu w wielu stanach USA. Można na przykład przeanalizować liczbę kolonii, wydajność na kolonię, całkowitą produkcję, zapasy, cenę za funt oraz wartość wyprodukowanego miodu w danym stanie w latach 1998-2012, z jednym wierszem na każdy rok dla każdego stanu.
+Ten zestaw danych, zawierający około 600 pozycji, przedstawia produkcję miodu w wielu stanach USA. Na przykład można przeanalizować liczbę kolonii, wydajność na kolonię, całkowitą produkcję, zapasy, cenę za funt oraz wartość wyprodukowanego miodu w danym stanie w latach 1998-2012, z jednym wierszem na rok dla każdego stanu.
 
-Ciekawie będzie zwizualizować relację między produkcją w danym stanie w danym roku a, na przykład, ceną miodu w tym stanie. Alternatywnie, można zwizualizować relację między wydajnością miodu na kolonię w różnych stanach. Ten zakres czasowy obejmuje niszczycielski okres 'CCD' (Colony Collapse Disorder), który po raz pierwszy zaobserwowano w 2006 roku (http://npic.orst.edu/envir/ccd.html), co czyni ten zbiór danych szczególnie wartym analizy. 🐝
+Ciekawie będzie zwizualizować relację między produkcją danego stanu w danym roku a, na przykład, ceną miodu w tym stanie. Alternatywnie, można zwizualizować relację między wydajnością miodu na kolonię w różnych stanach. Ten zakres lat obejmuje niszczycielski 'CCD' czyli 'Colony Collapse Disorder', który po raz pierwszy zaobserwowano w 2006 roku (http://npic.orst.edu/envir/ccd.html), co czyni ten zestaw danych szczególnie interesującym do analizy. 🐝
 
-## [Quiz przed wykładem](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/22)
+## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ds/quiz/22)
 
-W tej lekcji możesz użyć biblioteki Seaborn, którą już wcześniej stosowałeś, jako świetnego narzędzia do wizualizacji relacji między zmiennymi. Szczególnie interesująca jest funkcja `relplot` w Seaborn, która umożliwia tworzenie wykresów punktowych i liniowych, pozwalając szybko wizualizować '[relacje statystyczne](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', co pomaga naukowcom danych lepiej zrozumieć, jak zmienne są ze sobą powiązane.
+W tej lekcji możesz użyć biblioteki Seaborn, którą już wcześniej stosowałeś, jako świetnego narzędzia do wizualizacji relacji między zmiennymi. Szczególnie interesująca jest funkcja `relplot` w Seaborn, która umożliwia tworzenie wykresów punktowych i liniowych, aby szybko zwizualizować '[relacje statystyczne](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', co pozwala naukowcom danych lepiej zrozumieć, jak zmienne są ze sobą powiązane.
 
 ## Wykresy punktowe
 
-Użyj wykresu punktowego, aby pokazać, jak cena miodu zmieniała się rok po roku w poszczególnych stanach. Seaborn, korzystając z `relplot`, wygodnie grupuje dane stanowe i wyświetla punkty danych zarówno dla danych kategorycznych, jak i liczbowych.
+Użyj wykresu punktowego, aby pokazać, jak cena miodu zmieniała się rok po roku w poszczególnych stanach. Seaborn, korzystając z `relplot`, wygodnie grupuje dane stanowe i wyświetla punkty danych zarówno dla danych kategorycznych, jak i numerycznych.
 
 Zacznijmy od zaimportowania danych i biblioteki Seaborn:
 
@@ -36,9 +36,9 @@ import seaborn as sns
 honey = pd.read_csv('../../data/honey.csv')
 honey.head()
 ```
-Zauważysz, że dane dotyczące miodu zawierają kilka interesujących kolumn, w tym rok i cenę za funt. Przyjrzyjmy się tym danym, pogrupowanym według stanów USA:
+Zauważ, że dane o miodzie zawierają kilka interesujących kolumn, w tym rok i cenę za funt. Przyjrzyjmy się tym danym, pogrupowanym według stanów USA:
 
-| state | numcol | yieldpercol | totalprod | stocks   | priceperlb | prodvalue | year |
+| stan | numcol | yieldpercol | totalprod | stocks   | priceperlb | prodvalue | rok |
 | ----- | ------ | ----------- | --------- | -------- | ---------- | --------- | ---- |
 | AL    | 16000  | 71          | 1136000   | 159000   | 0.72       | 818000    | 1998 |
 | AZ    | 55000  | 60          | 3300000   | 1485000  | 0.64       | 2112000   | 1998 |
@@ -46,25 +46,25 @@ Zauważysz, że dane dotyczące miodu zawierają kilka interesujących kolumn, w
 | CA    | 450000 | 83          | 37350000  | 12326000 | 0.62       | 23157000  | 1998 |
 | CO    | 27000  | 72          | 1944000   | 1594000  | 0.7        | 1361000   | 1998 |
 
-Stwórz podstawowy wykres punktowy, aby pokazać relację między ceną za funt miodu a stanem jego pochodzenia. Ustaw oś `y` na tyle wysoką, aby wyświetlić wszystkie stany:
+Stwórz podstawowy wykres punktowy, aby pokazać relację między ceną za funt miodu a stanem jego pochodzenia. Ustaw oś `y` wystarczająco wysoką, aby wyświetlić wszystkie stany:
 
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.pl.png)
+![scatterplot 1](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter1.png)
 
-Teraz pokaż te same dane z kolorystyką nawiązującą do miodu, aby zobrazować, jak cena zmienia się na przestrzeni lat. Możesz to zrobić, dodając parametr 'hue', który pokaże zmiany rok po roku:
+Teraz pokaż te same dane z kolorystyką inspirowaną miodem, aby zobrazować, jak cena zmienia się na przestrzeni lat. Możesz to zrobić, dodając parametr 'hue', który pokazuje zmiany rok po roku:
 
-> ✅ Dowiedz się więcej o [paletach kolorów dostępnych w Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) - wypróbuj piękną paletę tęczową!
+> ✅ Dowiedz się więcej o [paletach kolorów dostępnych w Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) - wypróbuj piękną tęczową paletę kolorów!
 
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.pl.png)
+![scatterplot 2](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter2.png)
 
-Dzięki tej zmianie kolorystyki widać wyraźnie, że cena miodu za funt wykazuje silny trend wzrostowy na przestrzeni lat. Jeśli spojrzysz na próbkę danych (na przykład dla stanu Arizona), zauważysz wzorzec wzrostu cen rok po roku, z nielicznymi wyjątkami:
+Dzięki tej zmianie kolorystyki widać wyraźnie silny postęp w cenach na przestrzeni lat. Rzeczywiście, jeśli spojrzysz na próbkę danych, aby to zweryfikować (wybierz na przykład stan Arizona), możesz zauważyć wzorzec wzrostu cen rok po roku, z kilkoma wyjątkami:
 
-| state | numcol | yieldpercol | totalprod | stocks  | priceperlb | prodvalue | year |
+| stan | numcol | yieldpercol | totalprod | stocks  | priceperlb | prodvalue | rok |
 | ----- | ------ | ----------- | --------- | ------- | ---------- | --------- | ---- |
 | AZ    | 55000  | 60          | 3300000   | 1485000 | 0.64       | 2112000   | 1998 |
 | AZ    | 52000  | 62          | 3224000   | 1548000 | 0.62       | 1999000   | 1999 |
@@ -82,49 +82,49 @@ Dzięki tej zmianie kolorystyki widać wyraźnie, że cena miodu za funt wykazuj
 | AZ    | 23000  | 53          | 1219000   | 427000  | 1.55       | 1889000   | 2011 |
 | AZ    | 22000  | 46          | 1012000   | 253000  | 1.79       | 1811000   | 2012 |
 
-Innym sposobem wizualizacji tego trendu jest użycie rozmiaru zamiast koloru. Dla osób z daltonizmem może to być lepsza opcja. Zmień wizualizację, aby pokazać wzrost ceny poprzez zwiększenie obwodu punktów:
+Innym sposobem wizualizacji tego postępu jest użycie rozmiaru zamiast koloru. Dla osób z daltonizmem może to być lepsza opcja. Zmień swoją wizualizację, aby pokazać wzrost ceny poprzez zwiększenie obwodu punktów:
 
 ```python
 sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspect=.5);
 ```
 Widać, że rozmiar punktów stopniowo się zwiększa.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.pl.png)
+![scatterplot 3](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter3.png)
 
-Czy to prosty przypadek podaży i popytu? Czy z powodu takich czynników jak zmiany klimatyczne i upadek kolonii dostępność miodu maleje z roku na rok, a cena rośnie?
+Czy to prosty przypadek podaży i popytu? Czy z powodu takich czynników jak zmiany klimatyczne i zanik kolonii jest mniej miodu dostępnego do zakupu rok po roku, a co za tym idzie, cena wzrasta?
 
-Aby odkryć korelację między niektórymi zmiennymi w tym zbiorze danych, przyjrzyjmy się wykresom liniowym.
+Aby odkryć korelację między niektórymi zmiennymi w tym zestawie danych, przyjrzyjmy się wykresom liniowym.
 
 ## Wykresy liniowe
 
-Pytanie: Czy cena miodu za funt wyraźnie rośnie z roku na rok? Najłatwiej to sprawdzić, tworząc pojedynczy wykres liniowy:
+Pytanie: Czy istnieje wyraźny wzrost ceny miodu za funt rok po roku? Najłatwiej to odkryć, tworząc pojedynczy wykres liniowy:
 
 ```python
 sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
-Odpowiedź: Tak, z pewnymi wyjątkami w okolicach roku 2003:
+Odpowiedź: Tak, z kilkoma wyjątkami w okolicach roku 2003:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.pl.png)
+![line chart 1](../../../../3-Data-Visualization/12-visualization-relationships/images/line1.png)
 
-✅ Ponieważ Seaborn agreguje dane w jednej linii, wyświetla "wiele pomiarów dla każdej wartości x, rysując średnią i 95% przedział ufności wokół średniej". [Źródło](https://seaborn.pydata.org/tutorial/relational.html). To czasochłonne zachowanie można wyłączyć, dodając `ci=None`.
+✅ Ponieważ Seaborn agreguje dane wokół jednej linii, wyświetla "wiele pomiarów dla każdej wartości x, rysując średnią i 95% przedział ufności wokół średniej". [Źródło](https://seaborn.pydata.org/tutorial/relational.html). To czasochłonne zachowanie można wyłączyć, dodając `ci=None`.
 
-Pytanie: Czy w 2003 roku można również zauważyć wzrost podaży miodu? Co jeśli spojrzysz na całkowitą produkcję rok po roku?
+Pytanie: Cóż, czy w 2003 roku można również zauważyć wzrost podaży miodu? Co jeśli spojrzysz na całkowitą produkcję rok po roku?
 
 ```python
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.pl.png)
+![line chart 2](../../../../3-Data-Visualization/12-visualization-relationships/images/line2.png)
 
-Odpowiedź: Niekoniecznie. Jeśli spojrzysz na całkowitą produkcję, wydaje się, że w tym konkretnym roku faktycznie wzrosła, mimo że ogólnie rzecz biorąc ilość produkowanego miodu maleje w tych latach.
+Odpowiedź: Niekoniecznie. Jeśli spojrzysz na całkowitą produkcję, wydaje się, że faktycznie wzrosła w tym konkretnym roku, mimo że ogólnie rzecz biorąc ilość produkowanego miodu maleje w tych latach.
 
-Pytanie: W takim razie, co mogło spowodować wzrost ceny miodu w okolicach roku 2003?
+Pytanie: W takim razie, co mogło spowodować ten wzrost ceny miodu w okolicach roku 2003?
 
-Aby to odkryć, możesz zbadać siatkę wykresów (facet grid).
+Aby to odkryć, możesz zbadać siatkę wykresów.
 
-## Siatki wykresów (Facet grids)
+## Siatki wykresów
 
-Siatki wykresów pozwalają na podział danych na mniejsze części (w naszym przypadku możesz wybrać 'rok', aby uniknąć zbyt wielu wykresów). Seaborn może następnie stworzyć wykres dla każdej z tych części, używając wybranych współrzędnych x i y, co ułatwia porównanie. Czy rok 2003 wyróżnia się w tego typu porównaniu?
+Siatki wykresów biorą jeden aspekt twojego zestawu danych (w naszym przypadku możesz wybrać 'rok', aby uniknąć zbyt wielu wygenerowanych wykresów). Seaborn może następnie stworzyć wykres dla każdego z tych aspektów, używając wybranych współrzędnych x i y, co ułatwia porównanie. Czy rok 2003 wyróżnia się w tego typu porównaniu?
 
 Stwórz siatkę wykresów, kontynuując użycie `relplot`, zgodnie z zaleceniami [dokumentacji Seaborn](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid).
 
@@ -136,15 +136,15 @@ sns.relplot(
     col_wrap=3,
     kind="line"
 ```
-Na tej wizualizacji możesz porównać wydajność na kolonię i liczbę kolonii rok po roku, obok siebie, z ustawieniem wrap na 3 dla kolumn:
+Na tej wizualizacji możesz porównać wydajność na kolonię i liczbę kolonii rok po roku, obok siebie, z ustawionym wrapem na 3 dla kolumn:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.pl.png)
+![facet grid](../../../../3-Data-Visualization/12-visualization-relationships/images/facet.png)
 
-Dla tego zbioru danych nic szczególnego nie wyróżnia się w odniesieniu do liczby kolonii i ich wydajności, rok po roku i stan po stanie. Czy istnieje inny sposób na znalezienie korelacji między tymi dwiema zmiennymi?
+Dla tego zestawu danych nic szczególnego nie wyróżnia się w odniesieniu do liczby kolonii i ich wydajności rok po roku oraz stan po stanie. Czy istnieje inny sposób na znalezienie korelacji między tymi dwoma zmiennymi?
 
 ## Wykresy z dwiema liniami
 
-Spróbuj stworzyć wykres z wieloma liniami, nakładając na siebie dwa wykresy liniowe, używając funkcji 'despine' w Seaborn, aby usunąć górne i prawe osie, oraz `ax.twinx` [pochodzącej z Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx pozwala na współdzielenie osi x i wyświetlanie dwóch osi y. Wyświetl wydajność na kolonię i liczbę kolonii, nakładając je na siebie:
+Spróbuj wykresu wieloliniowego, nakładając na siebie dwa wykresy liniowe, używając funkcji 'despine' w Seaborn, aby usunąć górne i prawe osie, oraz funkcji `ax.twinx` [pochodzącej z Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx pozwala wykresowi dzielić oś x i wyświetlać dwie osie y. Wyświetl wydajność na kolonię i liczbę kolonii, nałożone na siebie:
 
 ```python
 fig, ax = plt.subplots(figsize=(12,6))
@@ -161,22 +161,22 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.pl.png)
+![superimposed plots](../../../../3-Data-Visualization/12-visualization-relationships/images/dual-line.png)
 
-Chociaż nic szczególnego nie rzuca się w oczy w okolicach roku 2003, pozwala to zakończyć tę lekcję na nieco bardziej optymistycznej nucie: mimo ogólnego spadku liczby kolonii, ich liczba stabilizuje się, nawet jeśli ich wydajność na kolonię maleje.
+Chociaż nic szczególnego nie rzuca się w oczy w okolicach roku 2003, pozwala nam to zakończyć tę lekcję na nieco bardziej optymistycznej nucie: mimo że ogólnie liczba kolonii maleje, liczba kolonii stabilizuje się, nawet jeśli ich wydajność na kolonię spada.
 
-Brawo, pszczoły!
+Brawo, pszczoły, brawo!
 
 🐝❤️
 ## 🚀 Wyzwanie
 
-W tej lekcji dowiedziałeś się więcej o innych zastosowaniach wykresów punktowych i siatek wykresów, w tym siatek wykresów (facet grids). Wyzwanie dla Ciebie: stwórz siatkę wykresów, używając innego zbioru danych, być może takiego, którego używałeś wcześniej w tych lekcjach. Zwróć uwagę, ile czasu zajmuje ich stworzenie i jak ważne jest ostrożne dobieranie liczby wykresów w tych technikach.
+W tej lekcji dowiedziałeś się więcej o innych zastosowaniach wykresów punktowych i siatek wykresów, w tym siatek wykresów. Wyzwanie dla ciebie: stwórz siatkę wykresów, używając innego zestawu danych, może takiego, którego używałeś wcześniej w tych lekcjach. Zauważ, jak długo zajmuje ich tworzenie i jak musisz być ostrożny w kwestii liczby siatek, które chcesz wygenerować, korzystając z tych technik.
 
-## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ds/)
+## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ds/quiz/23)
 
 ## Przegląd i samodzielna nauka
 
-Wykresy liniowe mogą być proste lub dość złożone. Przeczytaj więcej w [dokumentacji Seaborn](https://seaborn.pydata.org/generated/seaborn.lineplot.html) na temat różnych sposobów ich budowy. Spróbuj ulepszyć wykresy liniowe, które stworzyłeś w tej lekcji, korzystając z innych metod opisanych w dokumentacji.
+Wykresy liniowe mogą być proste lub dość złożone. Poczytaj trochę w [dokumentacji Seaborn](https://seaborn.pydata.org/generated/seaborn.lineplot.html) o różnych sposobach ich budowy. Spróbuj ulepszyć wykresy liniowe, które stworzyłeś w tej lekcji, korzystając z innych metod wymienionych w dokumentacji.
 ## Zadanie
 
 [Zanurz się w ulu](assignment.md)
@@ -184,4 +184,4 @@ Wykresy liniowe mogą być proste lub dość złożone. Przeczytaj więcej w [do
 ---
 
 **Zastrzeżenie**:  
-Ten dokument został przetłumaczony za pomocą usługi tłumaczenia AI [Co-op Translator](https://github.com/Azure/co-op-translator). Chociaż staramy się zapewnić dokładność, prosimy pamiętać, że automatyczne tłumaczenia mogą zawierać błędy lub nieścisłości. Oryginalny dokument w jego języku źródłowym powinien być uznawany za autorytatywne źródło. W przypadku informacji krytycznych zaleca się skorzystanie z profesjonalnego tłumaczenia przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z użycia tego tłumaczenia.
+Ten dokument został przetłumaczony za pomocą usługi tłumaczenia AI [Co-op Translator](https://github.com/Azure/co-op-translator). Chociaż dokładamy wszelkich starań, aby zapewnić poprawność tłumaczenia, prosimy pamiętać, że automatyczne tłumaczenia mogą zawierać błędy lub nieścisłości. Oryginalny dokument w jego rodzimym języku powinien być uznawany za wiarygodne źródło. W przypadku informacji o kluczowym znaczeniu zaleca się skorzystanie z profesjonalnego tłumaczenia przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z użycia tego tłumaczenia.

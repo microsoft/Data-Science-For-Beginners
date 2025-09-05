@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "cc490897ee2d276870472bcb31602d03",
-  "translation_date": "2025-09-04T13:17:55+00:00",
+  "original_hash": "42119bcc97bee88254e381156d770f3c",
+  "translation_date": "2025-09-05T12:44:15+00:00",
   "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
   "language_code": "ja"
 }
@@ -13,15 +13,15 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |比率の可視化 - _[@nitya](https://twitter.com/nitya) によるスケッチノート_ |
 
-このレッスンでは、自然に焦点を当てた異なるデータセットを使用して、キノコに関するデータセット内でどれだけ多くの種類の菌類が存在するかなどの比率を可視化します。Audubonから取得したデータセットを使用して、AgaricusおよびLepiota科に属する23種のひだ付きキノコの詳細を探ります。以下のような魅力的な可視化を試してみましょう：
+このレッスンでは、自然に焦点を当てた異なるデータセットを使用して、キノコに関するデータセット内でどれだけ異なる種類の菌類が存在するかなどの比率を可視化します。Audubonから取得したデータセットを使用して、AgaricusおよびLepiota科に属する23種のひだ付きキノコの詳細を探ります。以下のような魅力的な可視化を試してみましょう：
 
 - 円グラフ 🥧
 - ドーナツグラフ 🍩
 - ワッフルチャート 🧇
 
-> 💡 Microsoft Researchによる非常に興味深いプロジェクト [Charticulator](https://charticulator.com) は、データ可視化のための無料のドラッグ＆ドロップインターフェースを提供しています。彼らのチュートリアルの1つでは、このキノコのデータセットも使用されています！データを探索しながらライブラリを学ぶことができます：[Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html)。
+> 💡 Microsoft Researchによる非常に興味深いプロジェクト [Charticulator](https://charticulator.com) は、データ可視化のための無料のドラッグ＆ドロップインターフェースを提供しています。彼らのチュートリアルの1つでもこのキノコのデータセットを使用しています！データを探索しながらライブラリを学ぶことができます：[Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html)。
 
-## [講義後のクイズ](https://ff-quizzes.netlify.app/en/ds/)
+## [講義前クイズ](https://ff-quizzes.netlify.app/en/ds/quiz/20)
 
 ## キノコについて知ろう 🍄
 
@@ -42,7 +42,7 @@ mushrooms.head()
 | 食用      | Bell      | Smooth      | White     | Bruises | Anise   | Free            | Close        | Broad     | Brown      | Enlarging   | Club       | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Brown             | Numerous   | Meadows |
 | 毒性あり | Convex    | Scaly       | White     | Bruises | Pungent | Free            | Close        | Narrow    | Brown      | Enlarging   | Equal      | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Black             | Scattered  | Urban   |
 
-すぐに気づくのは、すべてのデータがテキスト形式であることです。このデータをチャートで使用できるように変換する必要があります。実際、このデータの多くはオブジェクトとして表現されています：
+すぐに気づくのは、すべてのデータがテキスト形式であることです。このデータをチャートで使用できるように変換する必要があります。実際、ほとんどのデータはオブジェクトとして表現されています：
 
 ```python
 print(mushrooms.select_dtypes(["object"]).columns)
@@ -71,7 +71,7 @@ edibleclass=mushrooms.groupby(['class']).count()
 edibleclass
 ```
 
-これでキノコのデータを印刷すると、毒性あり/食用のクラスに基づいてカテゴリにグループ化されたことが確認できます：
+これで、キノコのデータを印刷すると、毒性あり/食用のクラスに従ってカテゴリにグループ化されたことが確認できます：
 
 |           | cap-shape | cap-surface | cap-color | bruises | odor | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | ... | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
 | --------- | --------- | ----------- | --------- | ------- | ---- | --------------- | ------------ | --------- | ---------- | ----------- | --- | ------------------------ | ---------------------- | ---------------------- | --------- | ---------- | ----------- | --------- | ----------------- | ---------- | ------- |
@@ -89,9 +89,9 @@ plt.pie(edibleclass['population'],labels=labels,autopct='%.1f %%')
 plt.title('Edible?')
 plt.show()
 ```
-完成！この円グラフは、キノコのデータを毒性あり/食用の2つのクラスに基づいて比率を示しています。特にここではラベルの順序が重要なので、ラベル配列の順序を必ず確認してください！
+これで、キノコのデータを毒性あり/食用の2つのクラスに基づいて比率を示す円グラフが完成しました。特にここではラベルの順序が重要なので、ラベル配列の順序を必ず確認してください！
 
-![円グラフ](../../../../translated_images/pie1-wb.e201f2fcc335413143ce37650fb7f5f0bb21358e7823a327ed8644dfb84be9db.ja.png)
+![円グラフ](../../../../3-Data-Visualization/11-visualization-proportions/images/pie1-wb.png)
 
 ## ドーナツグラフ！
 
@@ -103,7 +103,7 @@ plt.show()
 habitat=mushrooms.groupby(['habitat']).count()
 habitat
 ```
-ここではデータを生息地ごとにグループ化しています。7つの生息地がリストされているので、それらをドーナツグラフのラベルとして使用します：
+ここではデータを生息地ごとにグループ化しています。7つの生息地が記載されているので、それらをドーナツグラフのラベルとして使用します：
 
 ```python
 labels=['Grasses','Leaves','Meadows','Paths','Urban','Waste','Wood']
@@ -121,23 +121,23 @@ plt.title('Mushroom Habitats')
 plt.show()
 ```
 
-![ドーナツグラフ](../../../../translated_images/donut-wb.be3c12a22712302b5d10c40014d5389d4a1ae4412fe1655b3cf4af57b64f799a.ja.png)
+![ドーナツグラフ](../../../../3-Data-Visualization/11-visualization-proportions/images/donut-wb.png)
 
-このコードはチャートと中央の円を描画し、その円をチャートに追加します。中央の円の幅を変更するには、`0.40`を別の値に変更してください。
+このコードはチャートと中央の円を描画し、その後その中央の円をチャートに追加します。中央の円の幅を変更するには、`0.40`を別の値に変更してください。
 
-ドーナツグラフはラベルを変更するなど、いくつかの方法で調整できます。特にラベルは読みやすさを向上させるために強調表示できます。詳細は[ドキュメント](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut)で学べます。
+ドーナツグラフはラベルを変更するなど、いくつかの方法で調整できます。特にラベルは読みやすさを向上させるために強調表示できます。詳細は[ドキュメント](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut)をご覧ください。
 
-データをグループ化して円グラフやドーナツグラフとして表示する方法を学んだので、他の種類のチャートも探索できます。ワッフルチャートを試してみましょう。これは数量を探索する別の方法です。
+データをグループ化して円グラフやドーナツグラフとして表示する方法を学んだので、他の種類のチャートも探索できます。ワッフルチャートを試してみましょう。これは数量を異なる方法で探索するためのものです。
 
 ## ワッフルチャート！
 
-ワッフルチャートは、数量を2D配列の四角形として可視化する方法です。このデータセット内のキノコの傘の色の異なる数量を可視化してみましょう。そのためには、[PyWaffle](https://pypi.org/project/pywaffle/)というヘルパーライブラリをインストールし、Matplotlibを使用します：
+ワッフルチャートは、数量を2D配列の四角形として視覚化する異なる方法です。このデータセット内のキノコの傘の色の異なる数量を視覚化してみましょう。そのためには、[PyWaffle](https://pypi.org/project/pywaffle/)というヘルパーライブラリをインストールし、Matplotlibを使用します：
 
 ```python
 pip install pywaffle
 ```
 
-データのセグメントを選択してグループ化します：
+データの一部を選択してグループ化します：
 
 ```python
 capcolor=mushrooms.groupby(['cap-color']).count()
@@ -167,9 +167,9 @@ fig = plt.figure(
 )
 ```
 
-ワッフルチャートを使用すると、このキノコのデータセットの傘の色の比率が明確にわかります。興味深いことに、緑色の傘を持つキノコが多く存在します！
+ワッフルチャートを使用すると、このキノコのデータセットの傘の色の比率がはっきりとわかります。興味深いことに、緑色の傘を持つキノコがたくさんあります！
 
-![ワッフルチャート](../../../../translated_images/waffle.5455dbae4ccf17d53bb40ff0a657ecef7b8aa967e27a19cc96325bd81598f65e.ja.png)
+![ワッフルチャート](../../../../3-Data-Visualization/11-visualization-proportions/images/waffle.png)
 
 ✅ PyWaffleは、[Font Awesome](https://fontawesome.com/)で利用可能なアイコンを使用してチャート内にアイコンを表示することをサポートしています。アイコンを四角形の代わりに使用して、さらに興味深いワッフルチャートを作成する実験をしてみてください。
 
@@ -177,8 +177,8 @@ fig = plt.figure(
 
 ## 🚀 チャレンジ
 
-[Charticulator](https://charticulator.com)でこれらの魅力的なチャートを再現してみてください。
-## [講義後のクイズ](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
+[Charticulator](https://charticulator.com)でこれらの魅力的なチャートを再現してみましょう。
+## [講義後クイズ](https://ff-quizzes.netlify.app/en/ds/quiz/21)
 
 ## 復習と自己学習
 
@@ -192,7 +192,7 @@ https://www.mit.edu/~mbarker/formula1/f1help/11-ch-c6.htm
 
 https://medium.datadriveninvestor.com/data-visualization-done-the-right-way-with-tableau-waffle-chart-fdf2a19be402
 
-さらに情報を探して、この難しい決定について調査してみてください。
+さらに調査して、この難しい決定に関する情報を見つけてください。
 ## 課題
 
 [Excelで試してみる](assignment.md)
@@ -200,4 +200,4 @@ https://medium.datadriveninvestor.com/data-visualization-done-the-right-way-with
 ---
 
 **免責事項**:  
-この文書は、AI翻訳サービス [Co-op Translator](https://github.com/Azure/co-op-translator) を使用して翻訳されています。正確性を追求しておりますが、自動翻訳には誤りや不正確さが含まれる可能性があります。元の言語で記載された原文が正式な情報源と見なされるべきです。重要な情報については、専門の人間による翻訳を推奨します。この翻訳の使用に起因する誤解や誤認について、当社は一切の責任を負いません。
+この文書は、AI翻訳サービス[Co-op Translator](https://github.com/Azure/co-op-translator)を使用して翻訳されています。正確性を追求しておりますが、自動翻訳には誤りや不正確な部分が含まれる可能性があります。元の言語で記載された原文が正式な情報源とみなされるべきです。重要な情報については、専門の人間による翻訳を推奨します。本翻訳の利用に起因する誤解や誤訳について、当社は一切の責任を負いません。

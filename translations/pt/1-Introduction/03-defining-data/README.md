@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "1228edf3572afca7d7cdcd938b6b4984",
-  "translation_date": "2025-09-04T13:48:51+00:00",
+  "original_hash": "12339119c0165da569a93ddba05f9339",
+  "translation_date": "2025-09-05T13:28:26+00:00",
   "source_file": "1-Introduction/03-defining-data/README.md",
   "language_code": "pt"
 }
@@ -13,25 +13,25 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Definindo Dados - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
-Dados são fatos, informações, observações e medições que são usados para fazer descobertas e apoiar decisões informadas. Um ponto de dado é uma unidade única de dados dentro de um conjunto de dados, que é uma coleção de pontos de dados. Conjuntos de dados podem vir em diferentes formatos e estruturas, geralmente baseados em sua origem ou na fonte dos dados. Por exemplo, os ganhos mensais de uma empresa podem estar em uma folha de cálculo, enquanto os dados de frequência cardíaca por hora de um smartwatch podem estar no formato [JSON](https://stackoverflow.com/a/383699). É comum que cientistas de dados trabalhem com diferentes tipos de dados dentro de um conjunto de dados.
+Dados são fatos, informações, observações e medições que são usados para fazer descobertas e apoiar decisões informadas. Um ponto de dado é uma unidade única de dados dentro de um conjunto de dados, que é uma coleção de pontos de dados. Conjuntos de dados podem vir em diferentes formatos e estruturas, geralmente baseados em sua origem ou de onde os dados vieram. Por exemplo, os lucros mensais de uma empresa podem estar em uma folha de cálculo, enquanto os dados de frequência cardíaca por hora de um smartwatch podem estar no formato [JSON](https://stackoverflow.com/a/383699). É comum que cientistas de dados trabalhem com diferentes tipos de dados dentro de um conjunto de dados.
 
 Esta lição foca em identificar e classificar dados com base em suas características e suas fontes.
 
-## [Questionário Pré-Aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/4)
+## [Questionário Pré-Aula](https://ff-quizzes.netlify.app/en/ds/quiz/4)
 
 ## Como os Dados São Descritos
 
 ### Dados Brutos
-Dados brutos são dados que vêm de sua fonte em seu estado inicial e não foram analisados ou organizados. Para entender o que está acontecendo em um conjunto de dados, ele precisa ser organizado em um formato que possa ser compreendido por humanos, bem como pela tecnologia que pode ser usada para analisá-lo mais a fundo. A estrutura de um conjunto de dados descreve como ele está organizado e pode ser classificada como estruturada, não estruturada e semi-estruturada. Esses tipos de estrutura variam dependendo da fonte, mas geralmente se encaixam nessas três categorias.
+Dados brutos são dados que vêm de sua fonte em seu estado inicial e não foram analisados ou organizados. Para entender o que está acontecendo com um conjunto de dados, ele precisa ser organizado em um formato que possa ser compreendido por humanos, bem como pela tecnologia que pode ser usada para analisá-lo mais a fundo. A estrutura de um conjunto de dados descreve como ele está organizado e pode ser classificada como estruturada, não estruturada e semiestruturada. Esses tipos de estrutura variam dependendo da origem, mas, em última análise, se encaixam nessas três categorias.
 
 ### Dados Quantitativos
-Dados quantitativos são observações numéricas dentro de um conjunto de dados e podem, tipicamente, ser analisados, medidos e usados matematicamente. Alguns exemplos de dados quantitativos são: a população de um país, a altura de uma pessoa ou os ganhos trimestrais de uma empresa. Com alguma análise adicional, dados quantitativos podem ser usados para descobrir tendências sazonais do Índice de Qualidade do Ar (AQI) ou estimar a probabilidade de tráfego na hora de ponta em um dia de trabalho típico.
+Dados quantitativos são observações numéricas dentro de um conjunto de dados e podem, tipicamente, ser analisados, medidos e usados matematicamente. Alguns exemplos de dados quantitativos são: a população de um país, a altura de uma pessoa ou os lucros trimestrais de uma empresa. Com alguma análise adicional, dados quantitativos podem ser usados para descobrir tendências sazonais do Índice de Qualidade do Ar (AQI) ou estimar a probabilidade de tráfego na hora do rush em um dia típico de trabalho.
 
 ### Dados Qualitativos
-Dados qualitativos, também conhecidos como dados categóricos, são dados que não podem ser medidos objetivamente como as observações de dados quantitativos. Geralmente, são formatos variados de dados subjetivos que capturam a qualidade de algo, como um produto ou processo. Às vezes, dados qualitativos são numéricos, mas não seriam usados matematicamente, como números de telefone ou marcas de tempo. Alguns exemplos de dados qualitativos são: comentários em vídeos, a marca e o modelo de um carro ou a cor favorita dos seus amigos mais próximos. Dados qualitativos podem ser usados para entender quais produtos os consumidores preferem ou identificar palavras-chave populares em currículos de candidaturas de emprego.
+Dados qualitativos, também conhecidos como dados categóricos, são dados que não podem ser medidos objetivamente como as observações de dados quantitativos. Geralmente, são formatos variados de dados subjetivos que capturam a qualidade de algo, como um produto ou processo. Às vezes, dados qualitativos são numéricos, mas não seriam usados matematicamente, como números de telefone ou marcas de tempo. Alguns exemplos de dados qualitativos são: comentários em vídeos, a marca e o modelo de um carro ou a cor favorita dos seus amigos mais próximos. Dados qualitativos podem ser usados para entender quais produtos os consumidores mais gostam ou identificar palavras-chave populares em currículos de emprego.
 
 ### Dados Estruturados
-Dados estruturados são organizados em linhas e colunas, onde cada linha terá o mesmo conjunto de colunas. As colunas representam um valor de um tipo específico e serão identificadas com um nome que descreve o que o valor representa, enquanto as linhas contêm os valores reais. As colunas frequentemente têm um conjunto específico de regras ou restrições sobre os valores, para garantir que os valores representem com precisão a coluna. Por exemplo, imagine uma folha de cálculo de clientes onde cada linha deve ter um número de telefone e os números de telefone nunca contêm caracteres alfabéticos. Podem ser aplicadas regras na coluna de número de telefone para garantir que ela nunca esteja vazia e contenha apenas números.
+Dados estruturados são organizados em linhas e colunas, onde cada linha terá o mesmo conjunto de colunas. As colunas representam um valor de um tipo específico e serão identificadas com um nome que descreve o que o valor representa, enquanto as linhas contêm os valores reais. As colunas frequentemente têm um conjunto específico de regras ou restrições sobre os valores, para garantir que os valores representem com precisão a coluna. Por exemplo, imagine uma folha de cálculo de clientes onde cada linha deve ter um número de telefone e os números de telefone nunca contêm caracteres alfabéticos. Podem ser aplicadas regras na coluna de números de telefone para garantir que ela nunca esteja vazia e contenha apenas números.
 
 Uma vantagem dos dados estruturados é que eles podem ser organizados de forma a se relacionar com outros dados estruturados. No entanto, como os dados são projetados para serem organizados de uma maneira específica, fazer alterações em sua estrutura geral pode exigir muito esforço. Por exemplo, adicionar uma coluna de e-mail à folha de cálculo de clientes que não pode estar vazia significa que será necessário descobrir como adicionar esses valores às linhas existentes de clientes no conjunto de dados.
 
@@ -42,10 +42,10 @@ Dados não estruturados geralmente não podem ser categorizados em linhas ou col
 
 Exemplos de dados não estruturados: arquivos de texto, mensagens de texto, arquivos de vídeo.
 
-### Dados Semi-estruturados
-Dados semi-estruturados têm características que os tornam uma combinação de dados estruturados e não estruturados. Eles geralmente não seguem um formato de linhas e colunas, mas são organizados de uma maneira considerada estruturada e podem seguir um formato fixo ou conjunto de regras. A estrutura varia entre as fontes, como uma hierarquia bem definida ou algo mais flexível que permite a fácil integração de novas informações. Metadados são indicadores que ajudam a decidir como os dados são organizados e armazenados e terão vários nomes, dependendo do tipo de dado. Alguns nomes comuns para metadados são tags, elementos, entidades e atributos. Por exemplo, uma mensagem de e-mail típica terá um assunto, corpo e um conjunto de destinatários e pode ser organizada por quem ou quando foi enviada.
+### Dados Semiestruturados
+Dados semiestruturados têm características que os tornam uma combinação de dados estruturados e não estruturados. Eles geralmente não seguem um formato de linhas e colunas, mas são organizados de uma maneira considerada estruturada e podem seguir um formato fixo ou conjunto de regras. A estrutura varia entre as fontes, como uma hierarquia bem definida ou algo mais flexível que permite a fácil integração de novas informações. Metadados são indicadores que ajudam a decidir como os dados são organizados e armazenados e terão vários nomes, dependendo do tipo de dado. Alguns nomes comuns para metadados são tags, elementos, entidades e atributos. Por exemplo, uma mensagem de e-mail típica terá um assunto, corpo e um conjunto de destinatários e pode ser organizada por quem ou quando foi enviada.
 
-Exemplos de dados semi-estruturados: HTML, arquivos CSV, JavaScript Object Notation (JSON).
+Exemplos de dados semiestruturados: HTML, arquivos CSV, JavaScript Object Notation (JSON).
 
 ## Fontes de Dados
 
@@ -67,13 +67,13 @@ Nesta lição aprendemos:
 O Kaggle é uma excelente fonte de conjuntos de dados abertos. Use a [ferramenta de busca de conjuntos de dados](https://www.kaggle.com/datasets) para encontrar alguns conjuntos de dados interessantes e classifique de 3 a 5 conjuntos de dados com os seguintes critérios:
 
 - Os dados são quantitativos ou qualitativos?
-- Os dados são estruturados, não estruturados ou semi-estruturados?
+- Os dados são estruturados, não estruturados ou semiestruturados?
 
-## [Questionário Pós-Aula](https://ff-quizzes.netlify.app/en/ds/)
+## [Questionário Pós-Aula](https://ff-quizzes.netlify.app/en/ds/quiz/5)
 
 ## Revisão e Autoestudo
 
-- Esta unidade do Microsoft Learn, intitulada [Classifique seus Dados](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/2-classify-data), tem uma explicação detalhada sobre dados estruturados, semi-estruturados e não estruturados.
+- Esta unidade do Microsoft Learn, intitulada [Classifique seus Dados](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/2-classify-data), tem uma explicação detalhada sobre dados estruturados, semiestruturados e não estruturados.
 
 ## Tarefa
 
@@ -82,4 +82,4 @@ O Kaggle é uma excelente fonte de conjuntos de dados abertos. Use a [ferramenta
 ---
 
 **Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original na sua língua nativa deve ser considerado a fonte oficial. Para informações críticas, recomenda-se uma tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes do uso desta tradução.
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original no seu idioma nativo deve ser considerado a fonte oficial. Para informações críticas, recomenda-se uma tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas resultantes do uso desta tradução.

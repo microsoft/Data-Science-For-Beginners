@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "f95679140c7cb39c30ccba535cd8f03f",
-  "translation_date": "2025-09-04T14:03:02+00:00",
+  "original_hash": "06bac7959b46b6e8aedcae014278c476",
+  "translation_date": "2025-09-05T13:47:39+00:00",
   "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
   "language_code": "es"
 }
@@ -21,7 +21,7 @@ En esta lección, exploraremos aplicaciones reales de la ciencia de datos en la 
 
 ## Cuestionario Previo a la Clase
 
-[Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ds/)
+## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ds/quiz/38)
 
 ## Ciencia de Datos + Industria
 
@@ -41,7 +41,7 @@ Gracias a la democratización de la IA, los desarrolladores ahora encuentran má
 
  * [Ciencia de Datos en la Salud](https://data-flair.training/blogs/data-science-in-healthcare/) - destaca aplicaciones como imágenes médicas (por ejemplo, MRI, Rayos X, Tomografía), genómica (secuenciación de ADN), desarrollo de medicamentos (evaluación de riesgos, predicción de éxito), analítica predictiva (cuidado de pacientes y logística de suministros), seguimiento y prevención de enfermedades, etc.
 
-![Aplicaciones de Ciencia de Datos en el Mundo Real](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.es.png) Crédito de la Imagen: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Aplicaciones de Ciencia de Datos en el Mundo Real](../../../../6-Data-Science-In-Wild/20-Real-World-Examples/images/data-science-applications.png) Crédito de la Imagen: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 La figura muestra otros dominios y ejemplos para aplicar técnicas de ciencia de datos. ¿Quieres explorar otras aplicaciones? Consulta la sección [Revisión y Autoestudio](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) a continuación.
 
@@ -49,38 +49,38 @@ La figura muestra otros dominios y ejemplos para aplicar técnicas de ciencia de
 
 | ![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Research.png) |
 | :---------------------------------------------------------------------------------------------------------------: |
-|              Ciencia de Datos & Investigación - _Sketchnote por [@nitya](https://twitter.com/nitya)_              |
+|              Ciencia de Datos e Investigación - _Sketchnote por [@nitya](https://twitter.com/nitya)_              |
 
-Aunque las aplicaciones del mundo real suelen centrarse en casos de uso industrial a gran escala, las aplicaciones y proyectos de _investigación_ pueden ser útiles desde dos perspectivas:
+Aunque las aplicaciones del mundo real a menudo se centran en casos de uso industrial a gran escala, las aplicaciones y proyectos de _investigación_ pueden ser útiles desde dos perspectivas:
 
 * _oportunidades de innovación_ - explorar prototipos rápidos de conceptos avanzados y probar experiencias de usuario para aplicaciones de próxima generación.
 * _desafíos de implementación_ - investigar posibles daños o consecuencias no deseadas de las tecnologías de ciencia de datos en contextos reales.
 
-Para los estudiantes, estos proyectos de investigación pueden proporcionar oportunidades de aprendizaje y colaboración que mejoren su comprensión del tema y amplíen su conciencia e interacción con personas o equipos relevantes que trabajan en áreas de interés. Entonces, ¿cómo son los proyectos de investigación y cómo pueden tener un impacto?
+Para los estudiantes, estos proyectos de investigación pueden proporcionar oportunidades de aprendizaje y colaboración que mejoren tu comprensión del tema y amplíen tu conciencia e interacción con personas o equipos relevantes que trabajan en áreas de interés. Entonces, ¿cómo son los proyectos de investigación y cómo pueden tener impacto?
 
 Veamos un ejemplo: el [Estudio Gender Shades del MIT](http://gendershades.org/overview.html) de Joy Buolamwini (MIT Media Labs) con un [artículo de investigación destacado](http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) coautorado con Timnit Gebru (entonces en Microsoft Research) que se centró en:
 
- * **Qué:** El objetivo del proyecto de investigación era _evaluar el sesgo presente en algoritmos y conjuntos de datos de análisis facial automatizado_ basado en género y tipo de piel.
- * **Por qué:** El análisis facial se utiliza en áreas como la aplicación de la ley, seguridad en aeropuertos, sistemas de contratación y más - contextos donde clasificaciones inexactas (por ejemplo, debido a sesgos) pueden causar daños económicos y sociales a individuos o grupos afectados. Comprender (y eliminar o mitigar) los sesgos es clave para la equidad en el uso.
- * **Cómo:** Los investigadores reconocieron que los puntos de referencia existentes utilizaban predominantemente sujetos de piel más clara y crearon un nuevo conjunto de datos (más de 1000 imágenes) que estaba _más equilibrado_ por género y tipo de piel. El conjunto de datos se utilizó para evaluar la precisión de tres productos de clasificación de género (de Microsoft, IBM y Face++).
+ * **Qué:** El objetivo del proyecto de investigación era _evaluar el sesgo presente en algoritmos y conjuntos de datos de análisis facial automatizado_ basado en género y tipo de piel. 
+ * **Por qué:** El análisis facial se utiliza en áreas como la aplicación de la ley, seguridad en aeropuertos, sistemas de contratación y más - contextos donde clasificaciones inexactas (por ejemplo, debido al sesgo) pueden causar daños económicos y sociales a individuos o grupos afectados. Comprender (y eliminar o mitigar) los sesgos es clave para la equidad en el uso.
+ * **Cómo:** Los investigadores reconocieron que los puntos de referencia existentes utilizaban predominantemente sujetos de piel más clara y crearon un nuevo conjunto de datos (más de 1000 imágenes) que estaba _más equilibrado_ por género y tipo de piel. El conjunto de datos se utilizó para evaluar la precisión de tres productos de clasificación de género (de Microsoft, IBM y Face++). 
 
 Los resultados mostraron que, aunque la precisión general de la clasificación era buena, había una diferencia notable en las tasas de error entre varios subgrupos, con **errores de clasificación de género** más altos para mujeres o personas con piel más oscura, lo que indicaba sesgo.
 
 **Resultados Clave:** Generó conciencia de que la ciencia de datos necesita más _conjuntos de datos representativos_ (subgrupos equilibrados) y más _equipos inclusivos_ (antecedentes diversos) para reconocer y eliminar o mitigar dichos sesgos en las soluciones de IA desde el principio. Esfuerzos de investigación como este también son fundamentales para que muchas organizaciones definan principios y prácticas para una _IA responsable_ que mejore la equidad en sus productos y procesos de IA.
 
-**¿Quieres aprender sobre esfuerzos de investigación relevantes en Microsoft?**
+**¿Quieres aprender sobre esfuerzos de investigación relevantes en Microsoft?** 
 
 * Consulta [Proyectos de Investigación de Microsoft](https://www.microsoft.com/research/research-area/artificial-intelligence/?facet%5Btax%5D%5Bmsr-research-area%5D%5B%5D=13556&facet%5Btax%5D%5Bmsr-content-type%5D%5B%5D=msr-project) en Inteligencia Artificial.
-* Explora proyectos estudiantiles de [Microsoft Research Data Science Summer School](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/).
+* Explora proyectos estudiantiles de la [Escuela de Verano de Ciencia de Datos de Microsoft Research](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/).
 * Consulta el proyecto [Fairlearn](https://fairlearn.org/) y las iniciativas de [IA Responsable](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6).
 
 ## Ciencia de Datos + Humanidades
 
 | ![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Humanities.png) |
 | :---------------------------------------------------------------------------------------------------------------: |
-|              Ciencia de Datos & Humanidades Digitales - _Sketchnote por [@nitya](https://twitter.com/nitya)_              |
+|              Ciencia de Datos y Humanidades Digitales - _Sketchnote por [@nitya](https://twitter.com/nitya)_              |
 
-Las Humanidades Digitales [se han definido](https://digitalhumanities.stanford.edu/about-dh-stanford) como "una colección de prácticas y enfoques que combinan métodos computacionales con investigación humanística". Los [proyectos de Stanford](https://digitalhumanities.stanford.edu/projects) como _"rebooting history"_ y _"poetic thinking"_ ilustran la conexión entre [Humanidades Digitales y Ciencia de Datos](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science), enfatizando técnicas como análisis de redes, visualización de información, análisis espacial y de texto que pueden ayudarnos a revisar conjuntos de datos históricos y literarios para derivar nuevas perspectivas e ideas.
+Las Humanidades Digitales [se han definido](https://digitalhumanities.stanford.edu/about-dh-stanford) como "una colección de prácticas y enfoques que combinan métodos computacionales con investigación humanística". Los [proyectos de Stanford](https://digitalhumanities.stanford.edu/projects) como _"rebooting history"_ y _"poetic thinking"_ ilustran el vínculo entre [Humanidades Digitales y Ciencia de Datos](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science), enfatizando técnicas como análisis de redes, visualización de información, análisis espacial y de texto que pueden ayudarnos a revisar conjuntos de datos históricos y literarios para derivar nuevas perspectivas e ideas.
 
 *¿Quieres explorar y ampliar un proyecto en este espacio?*
 
@@ -100,7 +100,7 @@ Usando este flujo de trabajo, podemos explorar los impactos estacionales en el s
 
 | ![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Sustainability.png) |
 | :---------------------------------------------------------------------------------------------------------------: |
-|              Ciencia de Datos & Sostenibilidad - _Sketchnote por [@nitya](https://twitter.com/nitya)_              |
+|              Ciencia de Datos y Sostenibilidad - _Sketchnote por [@nitya](https://twitter.com/nitya)_              |
 
 La [Agenda 2030 para el Desarrollo Sostenible](https://sdgs.un.org/2030agenda) - adoptada por todos los miembros de las Naciones Unidas en 2015 - identifica 17 objetivos, incluyendo aquellos que se centran en **Proteger el Planeta** de la degradación y el impacto del cambio climático. La iniciativa de [Sostenibilidad de Microsoft](https://www.microsoft.com/en-us/sustainability) apoya estos objetivos explorando formas en que las soluciones tecnológicas pueden respaldar y construir futuros más sostenibles con un [enfoque en 4 metas](https://dev.to/azure/a-visual-guide-to-sustainable-software-engineering-53hh): ser carbono negativo, agua positiva, cero residuos y biodiverso para 2030.
 
@@ -110,7 +110,7 @@ Abordar estos desafíos de manera escalable y oportuna requiere pensamiento a es
  * [API Planetaria](https://planetarycomputer.microsoft.com/docs/reference/stac/) - para ayudar a los usuarios a buscar datos relevantes en espacio y tiempo.
  * [Hub](https://planetarycomputer.microsoft.com/docs/overview/environment/) - entorno gestionado para que los científicos procesen conjuntos de datos geoespaciales masivos.
  * [Aplicaciones](https://planetarycomputer.microsoft.com/applications) - muestran casos de uso y herramientas para obtener conocimientos sobre sostenibilidad.
-**El Proyecto Planetary Computer está actualmente en vista previa (a partir de septiembre de 2021)** - aquí tienes cómo puedes empezar a contribuir a soluciones de sostenibilidad utilizando ciencia de datos.
+**El Proyecto Planetary Computer está actualmente en vista previa (a partir de septiembre de 2021)** - aquí tienes cómo puedes empezar a contribuir a soluciones sostenibles utilizando ciencia de datos.
 
 * [Solicita acceso](https://planetarycomputer.microsoft.com/account/request) para comenzar la exploración y conectarte con otros.
 * [Explora la documentación](https://planetarycomputer.microsoft.com/docs/overview/about) para entender los conjuntos de datos y APIs compatibles.
@@ -120,22 +120,22 @@ Piensa en cómo puedes usar la visualización de datos para exponer o amplificar
 
 ## Ciencia de Datos + Estudiantes
 
-Hemos hablado sobre aplicaciones del mundo real en la industria y la investigación, y explorado ejemplos de aplicaciones de ciencia de datos en humanidades digitales y sostenibilidad. Entonces, ¿cómo puedes desarrollar tus habilidades y compartir tu experiencia como principiante en ciencia de datos?
+Hemos hablado sobre aplicaciones reales en la industria y la investigación, y explorado ejemplos de aplicaciones de ciencia de datos en humanidades digitales y sostenibilidad. Entonces, ¿cómo puedes desarrollar tus habilidades y compartir tu experiencia como principiante en ciencia de datos?
 
 Aquí tienes algunos ejemplos de proyectos estudiantiles de ciencia de datos para inspirarte.
 
  * [Escuela de Verano de Ciencia de Datos de MSR](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/#!projects) con [proyectos](https://github.com/msr-ds3) en GitHub que exploran temas como:
     - [Sesgo racial en el uso de la fuerza policial](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2019-replicating-an-empirical-analysis-of-racial-differences-in-police-use-of-force/) | [Github](https://github.com/msr-ds3/stop-question-frisk)
     - [Fiabilidad del sistema de metro de Nueva York](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2018-exploring-the-reliability-of-the-nyc-subway-system/) | [Github](https://github.com/msr-ds3/nyctransit)
- * [Digitalizando la cultura material: Explorando distribuciones socioeconómicas en Sirkap](https://claremont.maps.arcgis.com/apps/Cascade/index.html?appid=bdf2aef0f45a4674ba41cd373fa23afc) - de [Ornella Altunyan](https://twitter.com/ornelladotcom) y su equipo en Claremont, utilizando [ArcGIS StoryMaps](https://storymaps.arcgis.com/).
+ * [Digitalización de la cultura material: Explorando distribuciones socioeconómicas en Sirkap](https://claremont.maps.arcgis.com/apps/Cascade/index.html?appid=bdf2aef0f45a4674ba41cd373fa23afc) - de [Ornella Altunyan](https://twitter.com/ornelladotcom) y su equipo en Claremont, utilizando [ArcGIS StoryMaps](https://storymaps.arcgis.com/).
 
 ## 🚀 Desafío
 
-Busca artículos que recomienden proyectos de ciencia de datos para principiantes - como [estas 50 áreas temáticas](https://www.upgrad.com/blog/data-science-project-ideas-topics-beginners/) o [estas 21 ideas de proyectos](https://www.intellspot.com/data-science-project-ideas) o [estos 16 proyectos con código fuente](https://data-flair.training/blogs/data-science-project-ideas/) que puedes descomponer y remezclar. Y no olvides escribir en tu blog sobre tus aprendizajes y compartir tus ideas con todos nosotros.
+Busca artículos que recomienden proyectos de ciencia de datos para principiantes - como [estas 50 áreas temáticas](https://www.upgrad.com/blog/data-science-project-ideas-topics-beginners/) o [estas 21 ideas de proyectos](https://www.intellspot.com/data-science-project-ideas) o [estos 16 proyectos con código fuente](https://data-flair.training/blogs/data-science-project-ideas/) que puedes descomponer y adaptar. Y no olvides escribir en tu blog sobre tus aprendizajes y compartir tus ideas con todos nosotros.
 
 ## Cuestionario Post-Clase
 
-## [Cuestionario post-clase](https://ff-quizzes.netlify.app/en/ds/)
+## [Cuestionario post-clase](https://ff-quizzes.netlify.app/en/ds/quiz/39)
 
 ## Revisión y Autoestudio
 

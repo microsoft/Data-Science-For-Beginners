@@ -1,43 +1,43 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "69b32b6789a91f796ebc7a02f5575e03",
-  "translation_date": "2025-09-04T12:48:47+00:00",
+  "original_hash": "a49d78e32e280c410f04e5f2a2068e77",
+  "translation_date": "2025-09-05T12:08:22+00:00",
   "source_file": "3-Data-Visualization/09-visualization-quantities/README.md",
   "language_code": "hk"
 }
 -->
 # 視覺化數量
 
-|![由 [(@sketchthedocs)](https://sketchthedocs.dev) 繪製的速記筆記](../../sketchnotes/09-Visualizing-Quantities.png)|
+|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/09-Visualizing-Quantities.png)|
 |:---:|
-| 視覺化數量 - _由 [@nitya](https://twitter.com/nitya) 繪製的速記筆記_ |
+| 視覺化數量 - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
 在這節課中，你將探索如何使用眾多可用的 Python 庫之一，學習如何圍繞數量的概念創建有趣的視覺化。使用一個關於明尼蘇達州鳥類的清理過的數據集，你可以了解許多關於當地野生動物的有趣事實。
 
-## [課前測驗](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/16)
+## [課前測驗](https://ff-quizzes.netlify.app/en/ds/quiz/16)
 
 ## 使用 Matplotlib 觀察翼展
 
-[Matplotlib](https://matplotlib.org/stable/index.html) 是一個非常出色的庫，可以用來創建各種簡單和複雜的圖表和圖形。一般來說，使用這些庫繪製數據的過程包括：識別你想要處理的數據框部分，對數據進行必要的轉換，分配 x 和 y 軸的值，決定要顯示的圖表類型，然後顯示圖表。Matplotlib 提供了多種視覺化選擇，但在這節課中，我們將專注於最適合視覺化數量的圖表類型：折線圖、散點圖和柱狀圖。
+一個非常出色的庫可以用來創建各種簡單和複雜的圖表和圖形，那就是 [Matplotlib](https://matplotlib.org/stable/index.html)。一般來說，使用這些庫繪製數據的過程包括：識別你想要針對的數據框部分，對數據進行必要的轉換，分配其 x 和 y 軸值，決定要顯示的圖表類型，然後顯示圖表。Matplotlib 提供了多種視覺化選擇，但在這節課中，我們將重點放在最適合視覺化數量的圖表上：折線圖、散點圖和柱狀圖。
 
-> ✅ 使用最適合數據結構和你想要講述故事的圖表。
+> ✅ 根據數據結構和你想要講述的故事選擇最合適的圖表。
 > - 分析時間趨勢：折線圖
 > - 比較數值：柱狀圖、條形圖、餅圖、散點圖
-> - 顯示部分與整體的關係：餅圖
-> - 顯示數據分佈：散點圖、柱狀圖
-> - 顯示趨勢：折線圖、條形圖
-> - 顯示數值之間的關係：折線圖、散點圖、氣泡圖
+> - 展示部分與整體的關係：餅圖
+> - 展示數據分佈：散點圖、柱狀圖
+> - 展示趨勢：折線圖、條形圖
+> - 展示數值之間的關係：折線圖、散點圖、氣泡圖
 
-如果你有一個數據集並需要了解某個項目的數量，第一步通常是檢查其值。
+如果你有一個數據集並需要了解某個項目的數量，第一步通常是檢查其數值。
 
-✅ Matplotlib 有非常好的「速查表」，可以在[這裡](https://matplotlib.org/cheatsheets/cheatsheets.pdf)找到。
+✅ Matplotlib 有非常好的「速查表」，可以在 [這裡](https://matplotlib.org/cheatsheets/cheatsheets.pdf) 找到。
 
 ## 建立鳥類翼展數值的折線圖
 
-打開本課文件夾根目錄中的 `notebook.ipynb` 文件，並添加一個單元格。
+打開本課文件夾根目錄中的 `notebook.ipynb` 文件並添加一個單元格。
 
-> 注意：數據存儲在此倉庫的根目錄 `/data` 文件夾中。
+> 注意：數據存儲在本倉庫根目錄的 `/data` 文件夾中。
 
 ```python
 import pandas as pd
@@ -47,13 +47,13 @@ birds.head()
 ```
 這些數據是文本和數字的混合：
 
-|      | 名稱                         | 學名                   | 類別                  | 目          | 科       | 屬         | 保育狀況             | 最小長度 | 最大長度 | 最小體重   | 最大體重   | 最小翼展   | 最大翼展   |
+|      | 名稱                         | 學名                   | 類別                  | 目            | 科       | 屬          | 保育狀況           | 最小長度 | 最大長度 | 最小體重   | 最大體重   | 最小翼展   | 最大翼展   |
 | ---: | :--------------------------- | :--------------------- | :-------------------- | :----------- | :------- | :---------- | :----------------- | --------: | --------: | ----------: | ----------: | ----------: | ----------: |
-|    0 | 黑腹樹鴨                     | Dendrocygna autumnalis | 鴨/鵝/水禽            | 雁形目       | 鴨科     | 樹鴨屬     | LC                 |        47 |        56 |         652 |        1020 |          76 |          94 |
-|    1 | 棕樹鴨                       | Dendrocygna bicolor    | 鴨/鵝/水禽            | 雁形目       | 鴨科     | 樹鴨屬     | LC                 |        45 |        53 |         712 |        1050 |          85 |          93 |
-|    2 | 雪鵝                         | Anser caerulescens     | 鴨/鵝/水禽            | 雁形目       | 鴨科     | 鵝屬       | LC                 |        64 |        79 |        2050 |        4050 |         135 |         165 |
-|    3 | 羅斯鵝                       | Anser rossii           | 鴨/鵝/水禽            | 雁形目       | 鴨科     | 鵝屬       | LC                 |      57.3 |        64 |        1066 |        1567 |         113 |         116 |
-|    4 | 大白額鵝                     | Anser albifrons        | 鴨/鵝/水禽            | 雁形目       | 鴨科     | 鵝屬       | LC                 |        64 |        81 |        1930 |        3310 |         130 |         165 |
+|    0 | 黑腹樹鴨                     | Dendrocygna autumnalis | 鴨/鵝/水禽            | 雁形目       | 鴨科     | 樹鴨屬      | LC                 |        47 |        56 |         652 |        1020 |          76 |          94 |
+|    1 | 棕樹鴨                       | Dendrocygna bicolor    | 鴨/鵝/水禽            | 雁形目       | 鴨科     | 樹鴨屬      | LC                 |        45 |        53 |         712 |        1050 |          85 |          93 |
+|    2 | 雪鵝                         | Anser caerulescens     | 鴨/鵝/水禽            | 雁形目       | 鴨科     | 雁屬        | LC                 |        64 |        79 |        2050 |        4050 |         135 |         165 |
+|    3 | 羅斯鵝                       | Anser rossii           | 鴨/鵝/水禽            | 雁形目       | 鴨科     | 雁屬        | LC                 |      57.3 |        64 |        1066 |        1567 |         113 |         116 |
+|    4 | 大白額鵝                     | Anser albifrons        | 鴨/鵝/水禽            | 雁形目       | 鴨科     | 雁屬        | LC                 |        64 |        81 |        1930 |        3310 |         130 |         165 |
 
 讓我們從使用基本折線圖繪製一些數字數據開始。假設你想查看這些有趣鳥類的最大翼展。
 
@@ -61,13 +61,13 @@ birds.head()
 wingspan = birds['MaxWingspan'] 
 wingspan.plot()
 ```
-![最大翼展](../../../../translated_images/max-wingspan-02.e79fd847b2640b89e21e340a3a9f4c5d4b224c4fcd65f54385e84f1c9ed26d52.hk.png)
+![最大翼展](../../../../3-Data-Visualization/09-visualization-quantities/images/max-wingspan-02.png)
 
 你立即注意到什麼？似乎至少有一個異常值——這是一個相當大的翼展！2300 厘米的翼展相當於 23 米——明尼蘇達州有翼龍在飛嗎？讓我們調查一下。
 
-雖然你可以在 Excel 中快速排序以找到這些異常值（可能是錯誤），但繼續在圖表中進行視覺化處理。
+雖然你可以在 Excel 中快速排序以找到這些異常值（可能是輸入錯誤），但繼續從圖表中進行視覺化分析。
 
-為 x 軸添加標籤以顯示涉及的鳥類類型：
+在 x 軸上添加標籤以顯示涉及的鳥類類型：
 
 ```
 plt.title('Max Wingspan in Centimeters')
@@ -81,9 +81,9 @@ plt.plot(x, y)
 
 plt.show()
 ```
-![帶標籤的翼展](../../../../translated_images/max-wingspan-labels-02.aa90e826ca49a9d1dde78075e9755c1849ef56a4e9ec60f7e9f3806daf9283e2.hk.png)
+![帶標籤的翼展](../../../../3-Data-Visualization/09-visualization-quantities/images/max-wingspan-labels-02.png)
 
-即使將標籤旋轉設置為 45 度，仍然太多以至於無法閱讀。讓我們嘗試另一種策略：僅標記那些異常值，並將標籤設置在圖表內。你可以使用散點圖來為標籤留出更多空間：
+即使將標籤旋轉設置為 45 度，仍然太多以至於無法閱讀。讓我們嘗試另一種策略：僅標記那些異常值並在圖表內設置標籤。你可以使用散點圖來為標籤留出更多空間：
 
 ```python
 plt.title('Max Wingspan in Centimeters')
@@ -99,11 +99,11 @@ for i in range(len(birds)):
     
 plt.show()
 ```
-這裡發生了什麼？你使用 `tick_params` 隱藏了底部標籤，然後對你的鳥類數據集進行了循環。通過使用 `bo` 繪製帶有小圓形藍點的圖表，你檢查了任何最大翼展超過 500 的鳥類，並在點旁邊顯示其標籤。你在 y 軸上稍微偏移標籤 (`y * (1 - 0.05)`)，並使用鳥類名稱作為標籤。
+這裡發生了什麼？你使用 `tick_params` 隱藏了底部標籤，然後對你的鳥類數據集進行了循環。通過使用 `bo` 繪製帶有小圓形藍點的圖表，你檢查了任何最大翼展超過 500 的鳥類，並在點旁邊顯示其標籤。你在 y 軸上稍微偏移了標籤 (`y * (1 - 0.05)`) 並使用鳥類名稱作為標籤。
 
 你發現了什麼？
 
-![異常值](../../../../translated_images/labeled-wingspan-02.6110e2d2401cd5238ccc24dfb6d04a6c19436101f6cec151e3992e719f9f1e1f.hk.png)
+![異常值](../../../../3-Data-Visualization/09-visualization-quantities/images/labeled-wingspan-02.png)
 
 ## 篩選數據
 
@@ -124,19 +124,19 @@ plt.show()
 
 通過篩選掉異常值，你的數據現在更加一致且易於理解。
 
-![翼展散點圖](../../../../translated_images/scatterplot-wingspan-02.1c33790094ce36a75f5fb45b25ed2cf27f0356ea609e43c11e97a2cedd7011a4.hk.png)
+![翼展散點圖](../../../../3-Data-Visualization/09-visualization-quantities/images/scatterplot-wingspan-02.png)
 
-現在我們至少在翼展方面有一個更乾淨的數據集，讓我們了解更多關於這些鳥類的信息。
+現在我們至少在翼展方面有了一個更乾淨的數據集，讓我們進一步探索這些鳥類。
 
 雖然折線圖和散點圖可以顯示數據值及其分佈的信息，但我們想要思考這個數據集中固有的數值。你可以創建視覺化來回答以下關於數量的問題：
 
 > 有多少類別的鳥類？它們的數量是多少？
 > 有多少鳥類是滅絕、瀕危、稀有或常見的？
-> 根據林奈的術語，有多少屬和目？
+> 根據林奈分類法，有多少屬和目？
 
 ## 探索柱狀圖
 
-當你需要顯示數據分組時，柱狀圖非常實用。讓我們探索這個數據集中存在的鳥類類別，看看哪一類最常見。
+當你需要展示數據分組時，柱狀圖非常實用。讓我們探索這個數據集中存在的鳥類類別，看看哪一類最常見。
 
 在 notebook 文件中，創建一個基本柱狀圖。
 
@@ -151,26 +151,26 @@ birds.plot(x='Category',
         title='Birds of Minnesota')
 
 ```
-![完整數據柱狀圖](../../../../translated_images/full-data-bar-02.aaa3fda71c63ed564b917841a1886c177dd9a26424142e510c0c0498fd6ca160.hk.png)
+![完整數據柱狀圖](../../../../3-Data-Visualization/09-visualization-quantities/images/full-data-bar-02.png)
 
-然而，這個柱狀圖不可讀，因為有太多未分組的數據。你需要選擇你想要繪製的數據，所以讓我們看看基於鳥類類別的長度。
+然而，這個柱狀圖因為數據未分組而難以閱讀。你需要選擇你想要繪製的數據，所以讓我們看看基於鳥類類別的長度。
 
-篩選你的數據以僅包含鳥類的類別。
+篩選數據以僅包含鳥類的類別。
 
 ✅ 注意，你使用 Pandas 管理數據，然後讓 Matplotlib 繪製圖表。
 
-由於有許多類別，你可以垂直顯示此圖表並調整其高度以容納所有數據：
+由於類別很多，你可以垂直顯示此圖表並調整其高度以容納所有數據：
 
 ```python
 category_count = birds.value_counts(birds['Category'].values, sort=True)
 plt.rcParams['figure.figsize'] = [6, 12]
 category_count.plot.barh()
 ```
-![類別和長度](../../../../translated_images/category-counts-02.0b9a0a4de42275ae5096d0f8da590d8bf520d9e7e40aad5cc4fc8d276480cc32.hk.png)
+![類別和長度](../../../../3-Data-Visualization/09-visualization-quantities/images/category-counts-02.png)
 
-這個柱狀圖很好地顯示了每個類別中鳥類的數量。一眼就能看出，這個地區最多的鳥類屬於鴨/鵝/水禽類別。明尼蘇達州是「萬湖之地」，所以這並不令人驚訝！
+這個柱狀圖很好地展示了每個類別中鳥類的數量。一眼就能看出，這個地區最多的鳥類屬於鴨/鵝/水禽類別。明尼蘇達州是「萬湖之地」，所以這並不令人驚訝！
 
-✅ 嘗試對此數據集進行其他計數。有什麼讓你感到驚訝嗎？
+✅ 嘗試對這個數據集進行其他計數。有什麼讓你感到驚訝嗎？
 
 ## 比較數據
 
@@ -182,11 +182,11 @@ plt.barh(y=birds['Category'], width=maxlength)
 plt.rcParams['figure.figsize'] = [6, 12]
 plt.show()
 ```
-![比較數據](../../../../translated_images/category-length-02.7304bf519375c9807d8165cc7ec60dd2a60f7b365b23098538e287d89adb7d76.hk.png)
+![比較數據](../../../../3-Data-Visualization/09-visualization-quantities/images/category-length-02.png)
 
-這裡沒有什麼令人驚訝的：相比鵜鶘或鵝，蜂鳥的最大長度最小。當數據符合邏輯時，這是件好事！
+這裡沒有什麼令人驚訝的：蜂鳥的最大長度最小，而鵜鶘或鵝的最大長度最大。當數據符合邏輯時，這是件好事！
 
-你可以通過疊加數據創建更有趣的柱狀圖視覺化。讓我們疊加最小和最大長度在給定鳥類類別上：
+你可以通過疊加數據創建更有趣的柱狀圖視覺化。讓我們在給定的鳥類類別上疊加最小和最大長度：
 
 ```python
 minLength = birds['MinLength']
@@ -200,13 +200,13 @@ plt.show()
 ```
 在這個圖表中，你可以看到每個鳥類類別的最小長度和最大長度範圍。你可以安全地說，根據這些數據，鳥越大，其長度範圍越大。真是有趣！
 
-![疊加數值](../../../../translated_images/superimposed-02.f03058536baeb2ed7864f01102538464d4c2fd7ade881ddd7d5ba74dc5d2fdae.hk.png)
+![疊加數值](../../../../3-Data-Visualization/09-visualization-quantities/images/superimposed-02.png)
 
 ## 🚀 挑戰
 
-這個鳥類數據集提供了關於特定生態系統中不同類型鳥類的大量信息。在網上搜索，看看你是否能找到其他與鳥類相關的數據集。練習圍繞這些鳥類構建圖表和圖形，發現你之前未曾意識到的事實。
+這個鳥類數據集提供了關於特定生態系統中不同類型鳥類的大量信息。在網絡上搜索，看看你是否能找到其他與鳥類相關的數據集。練習圍繞這些鳥類構建圖表和圖形，發現你之前未曾意識到的事實。
 
-## [課後測驗](https://ff-quizzes.netlify.app/en/ds/)
+## [課後測驗](https://ff-quizzes.netlify.app/en/ds/quiz/17)
 
 ## 回顧與自學
 
@@ -219,4 +219,4 @@ plt.show()
 ---
 
 **免責聲明**：  
-此文件已使用人工智能翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 進行翻譯。我們致力於提供準確的翻譯，但請注意，自動翻譯可能包含錯誤或不準確之處。應以原始語言的文件作為權威來源。對於關鍵資訊，建議尋求專業人工翻譯。我們對因使用此翻譯而引起的任何誤解或誤釋不承擔責任。
+此文件已使用 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 翻譯。我們致力於提供準確的翻譯，但請注意，自動翻譯可能包含錯誤或不準確之處。應以原始語言的文件作為權威來源。對於關鍵資訊，建議尋求專業人工翻譯。我們對因使用此翻譯而引起的任何誤解或錯誤解讀概不負責。

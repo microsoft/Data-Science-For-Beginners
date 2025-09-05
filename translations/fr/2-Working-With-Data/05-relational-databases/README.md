@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "11b166fbcb7eaf82308cdc24b562f687",
-  "translation_date": "2025-09-04T12:58:34+00:00",
+  "original_hash": "9399d7b4767e75068f95ce5c660b285c",
+  "translation_date": "2025-09-05T12:22:08+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "fr"
 }
@@ -15,18 +15,18 @@ CO_OP_TRANSLATOR_METADATA:
 
 Il est probable que vous ayez déjà utilisé un tableur pour stocker des informations. Vous aviez un ensemble de lignes et de colonnes, où les lignes contenaient les informations (ou données), et les colonnes décrivaient ces informations (parfois appelées métadonnées). Une base de données relationnelle repose sur ce principe fondamental de colonnes et de lignes dans des tables, vous permettant de répartir les informations sur plusieurs tables. Cela vous permet de travailler avec des données plus complexes, d'éviter les duplications et d'avoir une flexibilité dans la manière d'explorer les données. Explorons les concepts d'une base de données relationnelle.
 
-## [Quiz avant le cours](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/8)
+## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
 ## Tout commence par des tables
 
-Une base de données relationnelle a pour élément central les tables. Tout comme dans un tableur, une table est une collection de colonnes et de lignes. Les lignes contiennent les données ou informations avec lesquelles nous souhaitons travailler, comme le nom d'une ville ou la quantité de précipitations. Les colonnes décrivent les données qu'elles stockent.
+Une base de données relationnelle repose sur des tables. Tout comme dans un tableur, une table est une collection de colonnes et de lignes. Les lignes contiennent les données ou informations avec lesquelles nous souhaitons travailler, comme le nom d'une ville ou la quantité de précipitations. Les colonnes décrivent les données qu'elles contiennent.
 
 Commençons notre exploration en créant une table pour stocker des informations sur les villes. Nous pourrions commencer par leur nom et leur pays. Vous pourriez stocker cela dans une table comme suit :
 
-| Ville     | Pays          |
-| --------- | ------------- |
-| Tokyo     | Japon         |
-| Atlanta   | États-Unis    |
+| Ville     | Pays           |
+| --------- | -------------- |
+| Tokyo     | Japon          |
+| Atlanta   | États-Unis     |
 | Auckland  | Nouvelle-Zélande |
 
 Remarquez que les noms des colonnes **ville**, **pays** et **population** décrivent les données stockées, et chaque ligne contient des informations sur une ville.
@@ -35,34 +35,34 @@ Remarquez que les noms des colonnes **ville**, **pays** et **population** décri
 
 Il est probable que la table ci-dessus vous semble relativement familière. Ajoutons maintenant des données supplémentaires à notre base de données en pleine croissance - les précipitations annuelles (en millimètres). Nous nous concentrerons sur les années 2018, 2019 et 2020. Si nous devions les ajouter pour Tokyo, cela pourrait ressembler à ceci :
 
-| Ville  | Pays    | Année | Quantité |
-| ------ | ------- | ----- | -------- |
-| Tokyo  | Japon   | 2020  | 1690     |
-| Tokyo  | Japon   | 2019  | 1874     |
-| Tokyo  | Japon   | 2018  | 1445     |
+| Ville  | Pays   | Année | Quantité |
+| ------ | ------ | ----- | -------- |
+| Tokyo  | Japon  | 2020  | 1690     |
+| Tokyo  | Japon  | 2019  | 1874     |
+| Tokyo  | Japon  | 2018  | 1445     |
 
 Que remarquez-vous à propos de notre table ? Vous pourriez remarquer que nous dupliquons le nom et le pays de la ville encore et encore. Cela pourrait prendre beaucoup de stockage, et il est largement inutile d'avoir plusieurs copies. Après tout, Tokyo n'a qu'un seul nom qui nous intéresse.
 
 OK, essayons autre chose. Ajoutons de nouvelles colonnes pour chaque année :
 
-| Ville     | Pays          | 2018 | 2019 | 2020 |
-| --------- | ------------- | ---- | ---- | ---- |
-| Tokyo     | Japon         | 1445 | 1874 | 1690 |
-| Atlanta   | États-Unis    | 1779 | 1111 | 1683 |
+| Ville     | Pays           | 2018 | 2019 | 2020 |
+| --------- | -------------- | ---- | ---- | ---- |
+| Tokyo     | Japon          | 1445 | 1874 | 1690 |
+| Atlanta   | États-Unis     | 1779 | 1111 | 1683 |
 | Auckland  | Nouvelle-Zélande | 1386 | 942  | 1176 |
 
-Bien que cela évite la duplication des lignes, cela ajoute quelques autres défis. Nous devrions modifier la structure de notre table chaque fois qu'une nouvelle année apparaît. De plus, à mesure que nos données augmentent, avoir nos années comme colonnes rendra plus difficile la récupération et le calcul des valeurs.
+Bien que cela évite la duplication des lignes, cela ajoute quelques autres défis. Nous devrions modifier la structure de notre table chaque fois qu'une nouvelle année est ajoutée. De plus, à mesure que nos données augmentent, avoir nos années comme colonnes rendra plus difficile la récupération et le calcul des valeurs.
 
 C'est pourquoi nous avons besoin de plusieurs tables et de relations. En divisant nos données, nous pouvons éviter les duplications et avoir plus de flexibilité dans la manière dont nous travaillons avec nos données.
 
 ## Les concepts de relations
 
-Revenons à nos données et déterminons comment nous voulons les diviser. Nous savons que nous voulons stocker le nom et le pays de nos villes, donc cela fonctionnera probablement mieux dans une seule table.
+Revenons à nos données et déterminons comment nous voulons les diviser. Nous savons que nous voulons stocker le nom et le pays de nos villes, donc cela fonctionnera probablement mieux dans une table.
 
-| Ville     | Pays          |
-| --------- | ------------- |
-| Tokyo     | Japon         |
-| Atlanta   | États-Unis    |
+| Ville     | Pays           |
+| --------- | -------------- |
+| Tokyo     | Japon          |
+| Atlanta   | États-Unis     |
 | Auckland  | Nouvelle-Zélande |
 
 Mais avant de créer la table suivante, nous devons déterminer comment référencer chaque ville. Nous avons besoin d'une forme d'identifiant, ID ou (en termes techniques de base de données) une clé primaire. Une clé primaire est une valeur utilisée pour identifier une ligne spécifique dans une table. Bien que cela puisse être basé sur une valeur elle-même (nous pourrions utiliser le nom de la ville, par exemple), cela devrait presque toujours être un numéro ou un autre identifiant. Nous ne voulons pas que l'ID change, car cela casserait la relation. Vous constaterez que dans la plupart des cas, la clé primaire ou l'ID sera un numéro généré automatiquement.
@@ -71,15 +71,15 @@ Mais avant de créer la table suivante, nous devons déterminer comment référe
 
 ### villes
 
-| ville_id | Ville     | Pays          |
-| -------- | --------- | ------------- |
-| 1        | Tokyo     | Japon         |
-| 2        | Atlanta   | États-Unis    |
+| ville_id | Ville     | Pays           |
+| -------- | --------- | -------------- |
+| 1        | Tokyo     | Japon          |
+| 2        | Atlanta   | États-Unis     |
 | 3        | Auckland  | Nouvelle-Zélande |
 
-> ✅ Vous remarquerez que nous utilisons les termes "id" et "clé primaire" de manière interchangeable pendant cette leçon. Les concepts ici s'appliquent aux DataFrames, que vous explorerez plus tard. Les DataFrames n'utilisent pas la terminologie de "clé primaire", mais vous remarquerez qu'ils se comportent de manière similaire.
+> ✅ Vous remarquerez que nous utilisons les termes "id" et "clé primaire" de manière interchangeable pendant cette leçon. Les concepts ici s'appliquent aux DataFrames, que vous explorerez plus tard. Les DataFrames n'utilisent pas la terminologie de "clé primaire", cependant vous remarquerez qu'ils se comportent de manière similaire.
 
-Avec notre table des villes créée, stockons les précipitations. Plutôt que de dupliquer les informations complètes sur la ville, nous pouvons utiliser l'ID. Nous devrions également nous assurer que la table nouvellement créée a une colonne *id*, car toutes les tables devraient avoir un ID ou une clé primaire.
+Avec notre table des villes créée, stockons les précipitations. Plutôt que de dupliquer les informations complètes sur la ville, nous pouvons utiliser l'ID. Nous devrions également nous assurer que la table nouvellement créée possède une colonne *id*, car toutes les tables devraient avoir un ID ou une clé primaire.
 
 ### précipitations
 
@@ -95,7 +95,7 @@ Avec notre table des villes créée, stockons les précipitations. Plutôt que d
 | 8                | 3        | 2019  | 942      |
 | 9                | 3        | 2020  | 1176     |
 
-Remarquez la colonne **ville_id** dans la table nouvellement créée **précipitations**. Cette colonne contient des valeurs qui font référence aux IDs dans la table **villes**. En termes techniques de données relationnelles, cela s'appelle une **clé étrangère**; c'est une clé primaire d'une autre table. Vous pouvez simplement la considérer comme une référence ou un pointeur. **ville_id** 1 fait référence à Tokyo.
+Remarquez la colonne **ville_id** dans la table nouvellement créée **précipitations**. Cette colonne contient des valeurs qui font référence aux IDs dans la table **villes**. En termes techniques de données relationnelles, cela s'appelle une **clé étrangère** ; c'est une clé primaire d'une autre table. Vous pouvez simplement la considérer comme une référence ou un pointeur. **ville_id** 1 fait référence à Tokyo.
 
 > [!NOTE] La clé étrangère est fréquemment abrégée en FK
 
@@ -103,7 +103,7 @@ Remarquez la colonne **ville_id** dans la table nouvellement créée **précipit
 
 Avec nos données séparées en deux tables, vous vous demandez peut-être comment les récupérer. Si nous utilisons une base de données relationnelle comme MySQL, SQL Server ou Oracle, nous pouvons utiliser un langage appelé Structured Query Language ou SQL. SQL (parfois prononcé "sequel") est un langage standard utilisé pour récupérer et modifier des données dans une base de données relationnelle.
 
-Pour récupérer des données, vous utilisez la commande `SELECT`. À son cœur, vous **sélectionnez** les colonnes que vous souhaitez voir **depuis** la table dans laquelle elles sont contenues. Si vous vouliez afficher uniquement les noms des villes, vous pourriez utiliser ce qui suit :
+Pour récupérer des données, vous utilisez la commande `SELECT`. En son cœur, vous **sélectionnez** les colonnes que vous souhaitez voir **à partir** de la table dans laquelle elles sont contenues. Si vous vouliez afficher uniquement les noms des villes, vous pourriez utiliser ce qui suit :
 
 ```sql
 SELECT city
@@ -117,7 +117,7 @@ FROM cities;
 
 `SELECT` est l'endroit où vous listez les colonnes, et `FROM` est l'endroit où vous listez les tables.
 
-> [NOTE] La syntaxe SQL est insensible à la casse, ce qui signifie que `select` et `SELECT` signifient la même chose. Cependant, selon le type de base de données que vous utilisez, les colonnes et les tables pourraient être sensibles à la casse. En conséquence, il est recommandé de toujours traiter tout en programmation comme si c'était sensible à la casse. Lors de l'écriture de requêtes SQL, la convention courante est de mettre les mots-clés en majuscules.
+> [NOTE] La syntaxe SQL n'est pas sensible à la casse, ce qui signifie que `select` et `SELECT` signifient la même chose. Cependant, selon le type de base de données que vous utilisez, les colonnes et les tables pourraient être sensibles à la casse. En conséquence, il est recommandé de toujours traiter tout en programmation comme si c'était sensible à la casse. Lors de l'écriture de requêtes SQL, la convention courante est de mettre les mots-clés en majuscules.
 
 La requête ci-dessus affichera toutes les villes. Imaginons que nous voulions afficher uniquement les villes en Nouvelle-Zélande. Nous avons besoin d'une forme de filtre. Le mot-clé SQL pour cela est `WHERE`, ou "où quelque chose est vrai".
 
@@ -132,13 +132,13 @@ WHERE country = 'New Zealand';
 
 ## Joindre les données
 
-Jusqu'à présent, nous avons récupéré des données d'une seule table. Maintenant, nous voulons rassembler les données des tables **villes** et **précipitations**. Cela se fait en les *joignant* ensemble. Vous allez effectivement créer une liaison entre les deux tables et faire correspondre les valeurs d'une colonne de chaque table.
+Jusqu'à présent, nous avons récupéré des données à partir d'une seule table. Maintenant, nous voulons rassembler les données des tables **villes** et **précipitations**. Cela se fait en les *joignant* ensemble. Vous allez effectivement créer une liaison entre les deux tables et faire correspondre les valeurs d'une colonne de chaque table.
 
 Dans notre exemple, nous allons faire correspondre la colonne **ville_id** dans **précipitations** avec la colonne **ville_id** dans **villes**. Cela associera la valeur des précipitations à sa ville respective. Le type de jointure que nous effectuerons est ce qu'on appelle une jointure *interne*, ce qui signifie que si des lignes ne correspondent pas à quelque chose dans l'autre table, elles ne seront pas affichées. Dans notre cas, chaque ville a des précipitations, donc tout sera affiché.
 
 Récupérons les précipitations de 2019 pour toutes nos villes.
 
-Nous allons le faire en étapes. La première étape consiste à joindre les données ensemble en indiquant les colonnes pour la liaison - **ville_id** comme souligné précédemment.
+Nous allons le faire par étapes. La première étape consiste à joindre les données ensemble en indiquant les colonnes pour la liaison - **ville_id** comme souligné précédemment.
 
 ```sql
 SELECT cities.city
@@ -175,7 +175,7 @@ Il existe de nombreuses bases de données relationnelles disponibles sur Interne
 
 ## Quiz après le cours
 
-## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ds/)
+## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ds/quiz/9)
 
 ## Révision et auto-apprentissage
 
@@ -192,4 +192,4 @@ Il existe plusieurs ressources disponibles sur [Microsoft Learn](https://docs.mi
 ---
 
 **Avertissement** :  
-Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction professionnelle réalisée par un humain. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.
+Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de faire appel à une traduction humaine professionnelle. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.
