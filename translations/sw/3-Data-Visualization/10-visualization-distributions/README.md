@@ -1,26 +1,26 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "87faccac113d772551486a67a607153e",
-  "translation_date": "2025-08-26T16:48:59+00:00",
+  "original_hash": "02ce904bc1e2bfabb7dc05c25aae375c",
+  "translation_date": "2025-09-05T06:34:37+00:00",
   "source_file": "3-Data-Visualization/10-visualization-distributions/README.md",
   "language_code": "sw"
 }
 -->
-# Kuonyesha Usambazaji wa Takwimu
+# Kuonyesha Usambazaji
 
 |![ Sketchnote na [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/10-Visualizing-Distributions.png)|
 |:---:|
-| Kuonyesha Usambazaji wa Takwimu - _Sketchnote na [@nitya](https://twitter.com/nitya)_ |
+| Kuonyesha Usambazaji - _Sketchnote na [@nitya](https://twitter.com/nitya)_ |
 
 Katika somo lililopita, ulijifunza mambo ya kuvutia kuhusu seti ya data ya ndege wa Minnesota. Ulipata data yenye makosa kwa kuonyesha vipimo vya nje na ukaangalia tofauti kati ya makundi ya ndege kulingana na urefu wao wa juu zaidi.
 
-## [Jaribio la kabla ya somo](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/18)
+## [Maswali ya awali ya somo](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/18)
 ## Chunguza seti ya data ya ndege
 
-Njia nyingine ya kuchunguza data ni kwa kuangalia usambazaji wake, yaani jinsi data imepangwa kwenye mhimili. Kwa mfano, labda ungependa kujifunza kuhusu usambazaji wa jumla wa urefu wa mabawa au uzito wa juu wa mwili wa ndege wa Minnesota katika seti hii ya data.
+Njia nyingine ya kuchunguza data ni kwa kuangalia usambazaji wake, au jinsi data imepangwa kulingana na mhimili. Labda, kwa mfano, ungependa kujifunza kuhusu usambazaji wa jumla, kwa seti hii ya data, wa upana wa mabawa wa juu zaidi au uzito wa mwili wa juu zaidi wa ndege wa Minnesota.
 
-Hebu tugundue baadhi ya ukweli kuhusu usambazaji wa data katika seti hii ya data. Katika faili la _notebook.ipynb_ lililoko kwenye mzizi wa folda ya somo hili, leta Pandas, Matplotlib, na data yako:
+Hebu tujifunze baadhi ya ukweli kuhusu usambazaji wa data katika seti hii ya data. Katika faili _notebook.ipynb_ kwenye mzizi wa folda ya somo hili, leta Pandas, Matplotlib, na data yako:
 
 ```python
 import pandas as pd
@@ -29,13 +29,13 @@ birds = pd.read_csv('../../data/birds.csv')
 birds.head()
 ```
 
-|      | Jina                          | Jina la Kisayansi      | Jamii                | Oda          | Familia  | Jinsia      | Hali ya Uhifadhi   | UrefuMdogo | UrefuMkuu | UzitoMdogo  | UzitoMkuu   | MabawaMdogo | MabawaMkuu  |
-| ---: | :---------------------------- | :--------------------- | :------------------- | :----------- | :------- | :---------- | :----------------- | --------: | --------: | ----------: | ----------: | ----------: | ----------: |
-|    0 | Bata wa Black-bellied         | Dendrocygna autumnalis | Mabata/Maji          | Anseriformes | Anatidae | Dendrocygna | LC                 |        47 |        56 |         652 |        1020 |          76 |          94 |
-|    1 | Bata wa Fulvous               | Dendrocygna bicolor    | Mabata/Maji          | Anseriformes | Anatidae | Dendrocygna | LC                 |        45 |        53 |         712 |        1050 |          85 |          93 |
-|    2 | Goose wa Snow                 | Anser caerulescens     | Mabata/Maji          | Anseriformes | Anatidae | Anser       | LC                 |        64 |        79 |        2050 |        4050 |         135 |         165 |
-|    3 | Goose wa Ross                 | Anser rossii           | Mabata/Maji          | Anseriformes | Anatidae | Anser       | LC                 |      57.3 |        64 |        1066 |        1567 |         113 |         116 |
-|    4 | Goose wa Greater white-fronted| Anser albifrons        | Mabata/Maji          | Anseriformes | Anatidae | Anser       | LC                 |        64 |        81 |        1930 |        3310 |         130 |         165 |
+|      | Jina                         | Jina la Kisayansi      | Kategoria             | Oda          | Familia  | Jenasi      | Hali ya Uhifadhi   | Urefu wa Min | Urefu wa Max | Uzito wa Min | Uzito wa Max | Upana wa Min | Upana wa Max |
+| ---: | :--------------------------- | :--------------------- | :-------------------- | :----------- | :------- | :---------- | :----------------- | --------:    | --------:    | ----------:  | ----------:  | ----------:  | ----------:  |
+|    0 | Black-bellied whistling-duck | Dendrocygna autumnalis | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Dendrocygna | LC                 |        47    |        56    |         652  |        1020  |          76  |          94  |
+|    1 | Fulvous whistling-duck       | Dendrocygna bicolor    | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Dendrocygna | LC                 |        45    |        53    |         712  |        1050  |          85  |          93  |
+|    2 | Snow goose                   | Anser caerulescens     | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Anser       | LC                 |        64    |        79    |        2050  |        4050  |         135  |         165  |
+|    3 | Ross's goose                 | Anser rossii           | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Anser       | LC                 |      57.3    |        64    |        1066  |        1567  |         113  |         116  |
+|    4 | Greater white-fronted goose  | Anser albifrons        | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Anser       | LC                 |        64    |        81    |        1930  |        3310  |         130  |         165  |
 
 Kwa ujumla, unaweza kuangalia haraka jinsi data inavyosambazwa kwa kutumia mchoro wa alama kama tulivyofanya katika somo lililopita:
 
@@ -48,44 +48,44 @@ plt.xlabel('Max Length')
 
 plt.show()
 ```
-![urefu wa juu kwa kila oda](../../../../translated_images/scatter-wb.9d98b0ed7f0388af979441853361a11df5f518f5307938a503ca7913e986111b.sw.png)
+![urefu wa juu zaidi kwa oda](../../../../3-Data-Visualization/10-visualization-distributions/images/scatter-wb.png)
 
-Hii inatoa muhtasari wa usambazaji wa jumla wa urefu wa mwili kwa kila Oda ya ndege, lakini si njia bora ya kuonyesha usambazaji wa kweli. Kazi hii kwa kawaida hufanywa kwa kuunda Histogramu.
+Hii inatoa muhtasari wa usambazaji wa jumla wa urefu wa mwili kwa kila Oda ya ndege, lakini si njia bora ya kuonyesha usambazaji wa kweli. Kazi hiyo kwa kawaida hufanywa kwa kuunda Histogramu.
 
 ## Kufanya kazi na histogramu
 
-Matplotlib inatoa njia nzuri sana za kuonyesha usambazaji wa data kwa kutumia Histogramu. Aina hii ya mchoro ni kama mchoro wa nguzo ambapo usambazaji unaweza kuonekana kupitia kupanda na kushuka kwa nguzo. Ili kujenga histogramu, unahitaji data ya namba. Ili kujenga Histogramu, unaweza kuchora mchoro kwa kufafanua aina kama 'hist' kwa Histogramu. Mchoro huu unaonyesha usambazaji wa MaxBodyMass kwa safu nzima ya data ya namba katika seti hii ya data. Kwa kugawanya safu ya data iliyotolewa katika vikundi vidogo, inaweza kuonyesha usambazaji wa thamani za data:
+Matplotlib inatoa njia nzuri za kuonyesha usambazaji wa data kwa kutumia Histogramu. Aina hii ya mchoro ni kama mchoro wa bar ambapo usambazaji unaweza kuonekana kupitia kupanda na kushuka kwa mabara. Ili kujenga histogramu, unahitaji data ya nambari. Ili kujenga Histogramu, unaweza kuchora mchoro ukifafanua aina kama 'hist' kwa Histogramu. Mchoro huu unaonyesha usambazaji wa MaxBodyMass kwa seti nzima ya data ya nambari. Kwa kugawanya safu ya data iliyotolewa katika vikundi vidogo, inaweza kuonyesha usambazaji wa thamani za data:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
 plt.show()
 ```
-![usambazaji katika seti nzima ya data](../../../../translated_images/dist1-wb.0d0cac82e2974fbbec635826fefead401af795f82e2279e2e2678bf2c117d827.sw.png)
+![usambazaji katika seti nzima ya data](../../../../3-Data-Visualization/10-visualization-distributions/images/dist1-wb.png)
 
-Kama unavyoona, ndege wengi zaidi ya 400 katika seti hii ya data wanaangukia katika safu ya chini ya 2000 kwa Max Body Mass yao. Pata ufahamu zaidi wa data kwa kubadilisha kipengele cha `bins` kuwa namba kubwa zaidi, kama 30:
+Kama unavyoona, ndege wengi kati ya 400+ katika seti hii ya data wana uzito wa mwili wa juu zaidi chini ya 2000. Pata ufahamu zaidi kuhusu data kwa kubadilisha parameter ya `bins` kuwa nambari kubwa zaidi, kama 30:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 30, figsize = (12,12))
 plt.show()
 ```
-![usambazaji katika seti nzima ya data na bins kubwa zaidi](../../../../translated_images/dist2-wb.2c0a7a3499b2fbf561e9f93b69f265dfc538dc78f6de15088ba84a88152e26ba.sw.png)
+![usambazaji katika seti nzima ya data na param ya vikundi vikubwa](../../../../3-Data-Visualization/10-visualization-distributions/images/dist2-wb.png)
 
 Mchoro huu unaonyesha usambazaji kwa undani zaidi. Mchoro usioegemea sana upande wa kushoto unaweza kuundwa kwa kuhakikisha kuwa unachagua tu data ndani ya safu fulani:
 
-Chuja data yako ili kupata ndege wale tu ambao uzito wa mwili wao ni chini ya 60, na onyesha `bins` 40:
+Chuja data yako ili kupata ndege tu ambao uzito wa mwili uko chini ya 60, na onyesha vikundi 40 `bins`:
 
 ```python
 filteredBirds = birds[(birds['MaxBodyMass'] > 1) & (birds['MaxBodyMass'] < 60)]      
 filteredBirds['MaxBodyMass'].plot(kind = 'hist',bins = 40,figsize = (12,12))
 plt.show()     
 ```
-![histogramu iliyochujwa](../../../../translated_images/dist3-wb.64b88db7f9780200bd486a2c2a3252548dd439672dbd3f778193db7f654b100c.sw.png)
+![histogramu iliyochujwa](../../../../3-Data-Visualization/10-visualization-distributions/images/dist3-wb.png)
 
-✅ Jaribu vichujio vingine na vipengele vya data. Ili kuona usambazaji kamili wa data, ondoa kichujio cha `['MaxBodyMass']` ili kuonyesha usambazaji ulio na lebo.
+✅ Jaribu vichujio vingine na vidokezo vya data. Ili kuona usambazaji kamili wa data, ondoa kichujio cha `['MaxBodyMass']` ili kuonyesha usambazaji ulio na lebo.
 
-Histogramu inatoa rangi nzuri na maboresho ya kuweka lebo pia:
+Histogramu inatoa maboresho mazuri ya rangi na lebo pia:
 
-Unda histogramu ya 2D ili kulinganisha uhusiano kati ya usambazaji mbili. Hebu linganisha `MaxBodyMass` dhidi ya `MaxLength`. Matplotlib inatoa njia iliyojengwa ndani ya kuonyesha mwelekeo kwa kutumia rangi angavu zaidi:
+Unda histogramu ya 2D ili kulinganisha uhusiano kati ya usambazaji mbili. Hebu linganisha `MaxBodyMass` dhidi ya `MaxLength`. Matplotlib inatoa njia ya kujengwa kuonyesha muunganiko kwa kutumia rangi angavu zaidi:
 
 ```python
 x = filteredBirds['MaxBodyMass']
@@ -94,26 +94,26 @@ y = filteredBirds['MaxLength']
 fig, ax = plt.subplots(tight_layout=True)
 hist = ax.hist2d(x, y)
 ```
-Inaonekana kuna uhusiano wa kawaida kati ya vipengele hivi viwili kando ya mhimili unaotarajiwa, na sehemu moja yenye nguvu ya mwelekeo:
+Inaonekana kuna uhusiano unaotarajiwa kati ya vipengele hivi viwili kulingana na mhimili unaotarajiwa, na kuna sehemu moja yenye nguvu ya muunganiko:
 
-![mchoro wa 2D](../../../../translated_images/2D-wb.ae22fdd33936507a41e3af22e11e4903b04a9be973b23a4e05214efaccfd66c8.sw.png)
+![mchoro wa 2D](../../../../3-Data-Visualization/10-visualization-distributions/images/2D-wb.png)
 
-Histogramu hufanya kazi vizuri kwa chaguo-msingi kwa data ya namba. Je, unahitaji kuona usambazaji kulingana na data ya maandishi?
+Histogramu hufanya kazi vizuri kwa chaguo-msingi kwa data ya nambari. Je, unahitaji kuona usambazaji kulingana na data ya maandishi?
 
 ## Chunguza seti ya data kwa usambazaji kwa kutumia data ya maandishi 
 
-Seti hii ya data pia inajumuisha taarifa nzuri kuhusu jamii ya ndege na jinsia, spishi, na familia yake pamoja na hali yake ya uhifadhi. Hebu tuchunguze taarifa hii ya uhifadhi. Je, usambazaji wa ndege kulingana na hali yao ya uhifadhi ukoje?
+Seti hii ya data pia inajumuisha taarifa nzuri kuhusu kategoria ya ndege na jenasi, spishi, na familia yake pamoja na hali yake ya uhifadhi. Hebu tuchunguze taarifa hii ya uhifadhi. Usambazaji wa ndege kulingana na hali yao ya uhifadhi ukoje?
 
 > ✅ Katika seti ya data, vifupisho kadhaa vinatumika kuelezea hali ya uhifadhi. Vifupisho hivi vinatoka kwa [IUCN Red List Categories](https://www.iucnredlist.org/), shirika linaloorodhesha hali ya spishi.
 > 
 > - CR: Hatari Sana
 > - EN: Hatari
-> - EX: Imetoweka
+> - EX: Imeangamia
 > - LC: Wasiwasi Mdogo
 > - NT: Karibu na Hatari
 > - VU: Hatarini
 
-Hizi ni thamani za maandishi kwa hivyo utahitaji kufanya mabadiliko ili kuunda histogramu. Ukichukua dataframe ya filteredBirds, onyesha hali yake ya uhifadhi pamoja na MabawaMdogo. Unaona nini?
+Hizi ni thamani za maandishi kwa hivyo utahitaji kufanya mabadiliko ili kuunda histogramu. Kwa kutumia dataframe ya filteredBirds, onyesha hali yake ya uhifadhi pamoja na Upana wa Mabawa wa Min. Unaona nini?
 
 ```python
 x1 = filteredBirds.loc[filteredBirds.ConservationStatus=='EX', 'MinWingspan']
@@ -136,17 +136,17 @@ plt.gca().set(title='Conservation Status', ylabel='Min Wingspan')
 plt.legend();
 ```
 
-![mabawa na hali ya uhifadhi](../../../../translated_images/histogram-conservation-wb.3c40450eb072c14de7a1a3ec5c0fcba4995531024760741b392911b567fd8b70.sw.png)
+![muunganiko wa mabawa na uhifadhi](../../../../3-Data-Visualization/10-visualization-distributions/images/histogram-conservation-wb.png)
 
-Haionekani kuwa na uhusiano mzuri kati ya mabawa madogo na hali ya uhifadhi. Jaribu vipengele vingine vya seti ya data kwa kutumia njia hii. Unaweza pia kujaribu vichujio tofauti. Je, unapata uhusiano wowote?
+Haionekani kuwa na uhusiano mzuri kati ya upana wa mabawa wa chini na hali ya uhifadhi. Jaribu vipengele vingine vya seti ya data kwa kutumia njia hii. Unaweza kujaribu vichujio tofauti pia. Je, unapata uhusiano wowote?
 
-## Mchoro wa Msongamano
+## Mchoro wa wingi
 
-Huenda umeona kuwa histogramu tulizozitazama hadi sasa ni za 'vipande' na hazipiti kwa urahisi katika mduara. Ili kuonyesha mchoro wa msongamano ulio laini zaidi, unaweza kujaribu mchoro wa msongamano.
+Huenda umeona kwamba histogramu tulizozitazama hadi sasa ni 'zimepangwa' na hazionyeshi mtiririko laini katika umbo la mviringo. Ili kuonyesha mchoro wa wingi ulio laini zaidi, unaweza kujaribu mchoro wa wingi.
 
-Ili kufanya kazi na michoro ya msongamano, jifunze kuhusu maktaba mpya ya kuchora, [Seaborn](https://seaborn.pydata.org/generated/seaborn.kdeplot.html). 
+Ili kufanya kazi na mchoro wa wingi, jifunze kuhusu maktaba mpya ya kuchora, [Seaborn](https://seaborn.pydata.org/generated/seaborn.kdeplot.html). 
 
-Ukileta Seaborn, jaribu mchoro wa msingi wa msongamano:
+Ukileta Seaborn, jaribu mchoro wa wingi wa msingi:
 
 ```python
 import seaborn as sns
@@ -154,29 +154,29 @@ import matplotlib.pyplot as plt
 sns.kdeplot(filteredBirds['MinWingspan'])
 plt.show()
 ```
-![Mchoro wa Msongamano](../../../../translated_images/density1.8801043bd4af2567b0f706332b5853c7614e5e4b81b457acc27eb4e092a65cbd.sw.png)
+![Mchoro wa wingi](../../../../3-Data-Visualization/10-visualization-distributions/images/density1.png)
 
-Unaweza kuona jinsi mchoro unavyofanana na ule wa awali wa data ya MabawaMdogo; ni laini zaidi tu. Kulingana na nyaraka za Seaborn, "Ikilinganishwa na histogramu, KDE inaweza kutoa mchoro ambao si wa msongamano na unaoeleweka zaidi, hasa unapochora usambazaji mwingi. Lakini ina uwezo wa kuleta upotoshaji ikiwa usambazaji wa msingi umefungwa au si laini. Kama histogramu, ubora wa uwakilishi pia hutegemea uteuzi wa vigezo vya kusawazisha vizuri." [chanzo](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Kwa maneno mengine, vipimo vya nje kama kawaida vitafanya michoro yako iwe na tabia mbaya.
+Unaweza kuona jinsi mchoro unavyoakisi ule wa awali kwa data ya Upana wa Mabawa wa Min; ni laini kidogo tu. Kulingana na nyaraka za Seaborn, "Ikilinganishwa na histogramu, KDE inaweza kutoa mchoro ambao haujachanganyika sana na unaeleweka zaidi, hasa wakati wa kuchora usambazaji mwingi. Lakini ina uwezo wa kuleta upotoshaji ikiwa usambazaji wa msingi umefungwa au si laini. Kama histogramu, ubora wa uwakilishi pia unategemea uteuzi wa vigezo vya kulainisha vizuri." [chanzo](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Kwa maneno mengine, vipimo vya nje kama kawaida vitafanya michoro yako kuwa na tabia mbaya.
 
-Ikiwa ungependa kurejelea mstari wa MaxBodyMass ulio na vipande katika mchoro wa pili ulioujenga, ungeweza kuusawazisha vizuri kwa kuunda upya kwa kutumia njia hii:
+Ikiwa ungependa kurudia mstari wa MaxBodyMass ulio na pembe katika mchoro wa pili uliouunda, unaweza kuulainisha vizuri kwa kuutengeneza upya kwa kutumia njia hii:
 
 ```python
 sns.kdeplot(filteredBirds['MaxBodyMass'])
 plt.show()
 ```
-![mstari laini wa bodymass](../../../../translated_images/density2.8e7647257060ff544a1aaded57e8dd1887586bfe340139e9b77ac1e5287f7977.sw.png)
+![mstari laini wa uzito wa mwili](../../../../3-Data-Visualization/10-visualization-distributions/images/density2.png)
 
-Ikiwa ungependa mstari ulio laini, lakini si laini sana, hariri kipengele cha `bw_adjust`: 
+Ikiwa ungependa mstari ulio laini, lakini si laini sana, hariri parameter ya `bw_adjust`: 
 
 ```python
 sns.kdeplot(filteredBirds['MaxBodyMass'], bw_adjust=.2)
 plt.show()
 ```
-![mstari usio laini sana wa bodymass](../../../../translated_images/density3.84ae27da82f31e6b83ad977646f029a1d21186574d7581facd70123b3eb257ee.sw.png)
+![mstari usio laini sana wa uzito wa mwili](../../../../3-Data-Visualization/10-visualization-distributions/images/density3.png)
 
-✅ Soma kuhusu vigezo vinavyopatikana kwa aina hii ya mchoro na ujaribu!
+✅ Soma kuhusu vigezo vinavyopatikana kwa aina hii ya mchoro na jaribu!
 
-Aina hii ya mchoro inatoa maelezo mazuri ya kuelezea. Kwa mistari michache ya msimbo, kwa mfano, unaweza kuonyesha msongamano wa Max Body Mass kwa kila Oda ya ndege:
+Aina hii ya mchoro inatoa maelezo mazuri ya kuona. Kwa mistari michache ya msimbo, kwa mfano, unaweza kuonyesha wingi wa uzito wa mwili wa juu zaidi kwa kila Oda ya ndege:
 
 ```python
 sns.kdeplot(
@@ -186,27 +186,27 @@ sns.kdeplot(
 )
 ```
 
-![bodymass kwa kila oda](../../../../translated_images/density4.e9d6c033f15c500fd33df94cb592b9f5cf1ed2a3d213c448a3f9e97ba39573ce.sw.png)
+![uzito wa mwili kwa oda](../../../../3-Data-Visualization/10-visualization-distributions/images/density4.png)
 
-Unaweza pia kuonyesha msongamano wa vipengele kadhaa katika mchoro mmoja. Linganisha MaxLength na MinLength ya ndege kulingana na hali yao ya uhifadhi:
+Unaweza pia kuonyesha wingi wa vipengele kadhaa katika mchoro mmoja. Linganisha Urefu wa Max na Urefu wa Min wa ndege kulingana na hali yao ya uhifadhi:
 
 ```python
 sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationStatus")
 ```
 
-![msongamano mwingi, umewekwa juu](../../../../translated_images/multi.56548caa9eae8d0fd9012a8586295538c7f4f426e2abc714ba070e2e4b1fc2c1.sw.png)
+![wingi mwingi, umewekwa juu](../../../../3-Data-Visualization/10-visualization-distributions/images/multi.png)
 
-Labda inafaa kufanya utafiti ikiwa mkusanyiko wa ndege 'Hatarini' kulingana na urefu wao una maana au la.
+Labda inafaa kuchunguza ikiwa mkusanyiko wa ndege 'Hatarini' kulingana na urefu wao una maana au la.
 
 ## 🚀 Changamoto
 
-Histogramu ni aina ya mchoro wa hali ya juu zaidi kuliko michoro ya alama, michoro ya nguzo, au michoro ya mistari ya msingi. Tafuta mifano mizuri ya matumizi ya histogramu kwenye mtandao. Zinatumika vipi, zinaonyesha nini, na zinatumiwa katika nyanja au maeneo gani ya uchunguzi?
+Histogramu ni aina ya mchoro wa kisasa zaidi kuliko michoro ya alama, michoro ya bar, au michoro ya mstari. Tafuta mifano mizuri ya matumizi ya histogramu kwenye mtandao. Zinatumika vipi, zinaonyesha nini, na katika nyanja au maeneo gani ya uchunguzi zinatumiwa mara nyingi?
 
-## [Jaribio la baada ya somo](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/19)
+## [Maswali ya baada ya somo](https://ff-quizzes.netlify.app/en/ds/)
 
-## Mapitio na Kujisomea
+## Mapitio & Kujisomea
 
-Katika somo hili, ulitumia Matplotlib na kuanza kufanya kazi na Seaborn kuonyesha michoro ya hali ya juu zaidi. Fanya utafiti kuhusu `kdeplot` katika Seaborn, "mchoro wa msongamano wa uwezekano unaoendelea katika mwelekeo mmoja au zaidi". Soma [nyaraka](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) ili kuelewa jinsi inavyofanya kazi.
+Katika somo hili, ulitumia Matplotlib na ukaanza kufanya kazi na Seaborn kuonyesha michoro ya kisasa zaidi. Fanya utafiti kuhusu `kdeplot` katika Seaborn, "mchoro wa wingi wa uwezekano endelevu katika mwelekeo mmoja au zaidi". Soma [nyaraka](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) ili kuelewa jinsi inavyofanya kazi.
 
 ## Kazi
 
@@ -215,4 +215,4 @@ Katika somo hili, ulitumia Matplotlib na kuanza kufanya kazi na Seaborn kuonyesh
 ---
 
 **Kanusho**:  
-Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutokuelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

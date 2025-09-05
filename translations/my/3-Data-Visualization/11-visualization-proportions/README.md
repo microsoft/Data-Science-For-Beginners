@@ -1,31 +1,31 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "af6a12015c6e250e500b570a9fa42593",
-  "translation_date": "2025-08-30T18:59:22+00:00",
+  "original_hash": "cc490897ee2d276870472bcb31602d03",
+  "translation_date": "2025-09-05T05:19:10+00:00",
   "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
   "language_code": "my"
 }
 -->
-# အချိုးအစားများကိုမြင်သာအောင်ဖော်ပြခြင်း
+# အချိုးအစားများကို ရှင်းလင်းဖော်ပြခြင်း
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/11-Visualizing-Proportions.png)|
 |:---:|
-|အချိုးအစားများကိုမြင်သာအောင်ဖော်ပြခြင်း - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+|အချိုးအစားများကို ရှင်းလင်းဖော်ပြခြင်း - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-ဒီသင်ခန်းစာမှာ သင်သည် သဘာဝနှင့်ဆက်စပ်သောအခြား dataset ကိုအသုံးပြုပြီး အချိုးအစားများကိုမြင်သာအောင်ဖော်ပြပါမည်။ ဥပမာအားဖြင့် မုန့်ဖုတ် dataset တွင် မုန့်ဖုတ်အမျိုးအစားများ ဘယ်လောက်ရှိသည်ကိုဖော်ပြပါမည်။ Audubon မှရရှိသော Agaricus နှင့် Lepiota မိသားစုများတွင်ပါဝင်သော gilled မုန့်ဖုတ် 23 မျိုးအကြောင်းကိုဖော်ပြထားသော dataset ကိုအသုံးပြု၍ မုန့်ဖုတ်များ၏စိတ်ဝင်စားဖွယ်အချက်များကိုလေ့လာကြည့်ပါ။ သင်သည်အောက်ပါအချိုးအစားဖော်ပြမှုများကိုစမ်းသပ်နိုင်ပါသည်-
+ဒီသင်ခန်းစာမှာ သင့်အနေဖြင့် သဘာဝနှင့်ဆက်စပ်သော အခြား dataset ကို အသုံးပြုပြီး အချိုးအစားများကို ရှင်းလင်းဖော်ပြပါမည်။ ဥပမာအားဖြင့် မုန့်ဖုတ် dataset တွင် မုန့်ဖုတ်အမျိုးအစားများ ဘယ်လောက်ရှိသည်ကို ဖော်ပြခြင်း။ Audubon မှ ရရှိသော Agaricus နှင့် Lepiota မိသားစုများတွင် ပါဝင်သော 23 မျိုးစိတ်အကြောင်းအရာများပါဝင်သော dataset ကို အသုံးပြုကာ မုန့်ဖုတ်များကို စူးစမ်းလေ့လာကြမည်။ သင့်အနေဖြင့် အောက်ပါအတိုင်း ရှင်းလင်းဖော်ပြမှုများကို စမ်းသပ်နိုင်ပါသည်-
 
-- ပိုင်ကတ် 🥧
-- ဒိုနတ်ကတ် 🍩
-- ဝါဖယ်ကတ် 🧇
+- ပိုင်း chart 🥧
+- ဒိုနတ် chart 🍩
+- ဝါဖယ် chart 🧇
 
-> 💡 Microsoft Research မှ [Charticulator](https://charticulator.com) ဟုခေါ်သောစိတ်ဝင်စားဖွယ်ကောင်းသောပရောဂျက်တစ်ခုသည် ဒေတာဖော်ပြမှုများအတွက် အခမဲ့ drag and drop interface ကိုပေးသည်။ သူတို့၏ tutorial တစ်ခုတွင်လည်း ဒီမုန့်ဖုတ် dataset ကိုအသုံးပြုထားသည်! ဒါကြောင့် သင်သည် ဒေတာကိုလေ့လာပြီး library ကိုတစ်ချိန်တည်းမှာလည်းသင်ယူနိုင်သည်- [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html)။
+> 💡 Microsoft Research မှ [Charticulator](https://charticulator.com) ဟုခေါ်သော စိတ်ဝင်စားဖွယ်ကောင်းသော project တစ်ခုသည် data visualizations အတွက် အခမဲ့ drag and drop interface ကို ပေးထားသည်။ သူတို့၏ tutorial တစ်ခုတွင်လည်း မုန့်ဖုတ် dataset ကို အသုံးပြုထားသည်။ ထို့ကြောင့် သင့်အနေဖြင့် data ကို စူးစမ်းလေ့လာပြီး library ကို တစ်ချိန်တည်းမှာလည်း သင်ယူနိုင်ပါသည်- [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html)။
 
-## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/20)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
-## မုန့်ဖုတ်များကိုလေ့လာခြင်း 🍄
+## မုန့်ဖုတ်များကို သိရှိပါ 🍄
 
-မုန့်ဖုတ်များသည် အလွန်စိတ်ဝင်စားဖွယ်ကောင်းသည်။ ဒေတာတစ်ခုကို import လုပ်ပြီးလေ့လာကြည့်ပါ-
+မုန့်ဖုတ်များသည် စိတ်ဝင်စားဖွယ်ကောင်းသည်။ dataset ကို import လုပ်ပြီး မုန့်ဖုတ်များကို လေ့လာကြပါစို့-
 
 ```python
 import pandas as pd
@@ -33,7 +33,7 @@ import matplotlib.pyplot as plt
 mushrooms = pd.read_csv('../../data/mushrooms.csv')
 mushrooms.head()
 ```
-အလွန်ကောင်းမွန်သောဒေတာများပါဝင်သောဇယားတစ်ခု print ထုတ်ထားသည်-
+အလွန်ကောင်းမွန်သော data များပါဝင်သော table တစ်ခု print ထုတ်ထားသည်-
 
 | class     | cap-shape | cap-surface | cap-color | bruises | odor    | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | stalk-root | stalk-surface-above-ring | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
 | --------- | --------- | ----------- | --------- | ------- | ------- | --------------- | ------------ | --------- | ---------- | ----------- | ---------- | ------------------------ | ------------------------ | ---------------------- | ---------------------- | --------- | ---------- | ----------- | --------- | ----------------- | ---------- | ------- |
@@ -42,13 +42,13 @@ mushrooms.head()
 | Edible    | Bell      | Smooth      | White     | Bruises | Anise   | Free            | Close        | Broad     | Brown      | Enlarging   | Club       | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Brown             | Numerous   | Meadows |
 | Poisonous | Convex    | Scaly       | White     | Bruises | Pungent | Free            | Close        | Narrow    | Brown      | Enlarging   | Equal      | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Black             | Scattered  | Urban   |
 
-အချက်အလက်များအားလုံးသည် စာသားအဖြစ်ရှိနေသည်ကို သင်ချက်ချင်းသတိပြုမိပါသည်။ ဒေတာကို chart တွင်အသုံးပြုနိုင်ရန် ပြောင်းလဲရမည်ဖြစ်သည်။ အချက်အလက်များအများစုသည် object အဖြစ်ဖော်ပြထားသည်-
+အချက်အလက်များအားလုံးသည် စာသားအနေဖြင့် ရှိနေသည်ကို သင်ချက်ချင်း သတိပြုမိပါသည်။ chart တွင် အသုံးပြုနိုင်ရန်အတွက် data ကို ပြောင်းလဲရမည်ဖြစ်သည်။ အချက်အလက်များအများစုသည် object အနေဖြင့် ဖော်ပြထားသည်-
 
 ```python
 print(mushrooms.select_dtypes(["object"]).columns)
 ```
 
-Output သည်-
+output သည်-
 
 ```output
 Index(['class', 'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor',
@@ -59,7 +59,7 @@ Index(['class', 'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor',
        'ring-type', 'spore-print-color', 'population', 'habitat'],
       dtype='object')
 ```
-ဒီဒေတာကိုယူပြီး 'class' column ကို category အဖြစ်ပြောင်းပါ-
+ဒီ data ကိုယူပြီး 'class' column ကို category အဖြစ် ပြောင်းလဲပါ-
 
 ```python
 cols = mushrooms.select_dtypes(["object"]).columns
@@ -71,7 +71,7 @@ edibleclass=mushrooms.groupby(['class']).count()
 edibleclass
 ```
 
-အခု မုန့်ဖုတ်ဒေတာကို print ထုတ်ပါက poisonous/edible class အလိုက် category အဖြစ်အုပ်စုဖွဲ့ထားသည်ကိုတွေ့နိုင်ပါသည်-
+အခုတော့ မုန့်ဖုတ် data ကို print ထုတ်ပါက Poisonous/Edible class အလိုက် category အဖြစ် အုပ်စုဖွဲ့ထားသည်ကို တွေ့နိုင်ပါသည်-
 
 |           | cap-shape | cap-surface | cap-color | bruises | odor | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | ... | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
 | --------- | --------- | ----------- | --------- | ------- | ---- | --------------- | ------------ | --------- | ---------- | ----------- | --- | ------------------------ | ---------------------- | ---------------------- | --------- | ---------- | ----------- | --------- | ----------------- | ---------- | ------- |
@@ -79,9 +79,9 @@ edibleclass
 | Edible    | 4208      | 4208        | 4208      | 4208    | 4208 | 4208            | 4208         | 4208      | 4208       | 4208        | ... | 4208                     | 4208                   | 4208                   | 4208      | 4208       | 4208        | 4208      | 4208              | 4208       | 4208    |
 | Poisonous | 3916      | 3916        | 3916      | 3916    | 3916 | 3916            | 3916         | 3916      | 3916       | 3916        | ... | 3916                     | 3916                   | 3916                   | 3916      | 3916       | 3916        | 3916      | 3916              | 3916       | 3916    |
 
-ဒီဇယားတွင်ဖော်ပြထားသောအဆင့်လိုက်အတိုင်း class category labels များကိုဖန်တီးပါက pie chart တစ်ခုကိုဖော်ဆောင်နိုင်ပါသည်-
+ဒီ table တွင် ဖော်ပြထားသော အစီအစဉ်အတိုင်း class category labels များကို ဖန်တီးပါက ပိုင်း chart တစ်ခုကို ဖန်တီးနိုင်ပါသည်-
 
-## ပိုင်!
+## ပိုင်း!
 
 ```python
 labels=['Edible','Poisonous']
@@ -89,19 +89,21 @@ plt.pie(edibleclass['population'],labels=labels,autopct='%.1f %%')
 plt.title('Edible?')
 plt.show()
 ```
-Voila, ပိုင်ကတ်တစ်ခုသည် မုန့်ဖုတ်များ၏ poisonous/edible class အလိုက်အချိုးအစားများကိုဖော်ပြထားသည်။ ဒီနေရာမှာ label array ကိုဖန်တီးရာတွင် label များ၏အဆင့်ကိုမှန်ကန်စေရန် အထူးဂရုစိုက်ပါ။
+Voila, မုန့်ဖုတ်များ၏ class နှစ်ခုအလိုက် data အချိုးအစားများကို ဖော်ပြထားသော ပိုင်း chart တစ်ခု။ label array ကို ဖန်တီးရာတွင် label အစီအစဉ်ကို အတိအကျ စစ်ဆေးရန် အထူးအရေးကြီးပါသည်။
 
-![pie chart](../../../../translated_images/pie1-wb.e201f2fcc335413143ce37650fb7f5f0bb21358e7823a327ed8644dfb84be9db.my.png)
+![pie chart](../../../../3-Data-Visualization/11-visualization-proportions/images/pie1-wb.png)
 
 ## ဒိုနတ်!
 
-အနည်းငယ်ပိုမိုစိတ်ဝင်စားဖွယ်ကောင်းသောပိုင်ကတ်တစ်ခုမှာ ဒိုနတ်ကတ်ဖြစ်သည်။ ဒိုနတ်ကတ်သည် ပိုင်ကတ်၏အလယ်တွင်အပေါက်ရှိသောပိုင်ကတ်တစ်ခုဖြစ်သည်။ ဒီနည်းလမ်းကိုအသုံးပြု၍ မုန့်ဖုတ်များ၏နေရာအမျိုးမျိုးကိုကြည့်ပါ-
+ပိုင်း chart ထက် အနည်းငယ် ပိုမိုစိတ်ဝင်စားဖွယ်ကောင်းသော chart တစ်ခုမှာ ဒိုနတ် chart ဖြစ်သည်။ ဒိုနတ် chart သည် အလယ်တွင် အပေါက်ပါသော ပိုင်း chart ဖြစ်သည်။ ဒီနည်းလမ်းဖြင့် data ကို ကြည့်ရှုကြပါစို့။
+
+မုန့်ဖုတ်များ၏ အမျိုးမျိုးသော နေရာများကို ကြည့်ရှုပါ-
 
 ```python
 habitat=mushrooms.groupby(['habitat']).count()
 habitat
 ```
-ဒီနေရာမှာ သင်သည် မုန့်ဖုတ်များ၏နေရာအလိုက်အုပ်စုဖွဲ့ထားသည်။ 7 ခုရှိသော labels များကို ဒိုနတ်ကတ်အတွက်အသုံးပြုပါ-
+ဒီမှာ သင့် data ကို habitat အလိုက် အုပ်စုဖွဲ့ထားသည်။ habitat 7 ခုရှိပြီး ဒိုနတ် chart အတွက် label အဖြစ် အသုံးပြုပါ-
 
 ```python
 labels=['Grasses','Leaves','Meadows','Paths','Urban','Waste','Wood']
@@ -119,30 +121,30 @@ plt.title('Mushroom Habitats')
 plt.show()
 ```
 
-![donut chart](../../../../translated_images/donut-wb.be3c12a22712302b5d10c40014d5389d4a1ae4412fe1655b3cf4af57b64f799a.my.png)
+![donut chart](../../../../3-Data-Visualization/11-visualization-proportions/images/donut-wb.png)
 
-ဒီ code သည် chart တစ်ခုနှင့်အလယ်စက်ဝိုင်းတစ်ခုကိုဆွဲပြီး chart တွင်အလယ်စက်ဝိုင်းကိုထည့်သွင်းသည်။ အလယ်စက်ဝိုင်း၏အကျယ်ကို `0.40` ကိုအခြားတန်ဖိုးဖြင့်ပြောင်းလဲခြင်းဖြင့်တည်းဖြတ်နိုင်သည်။
+ဒီ code သည် chart နှင့် center circle တစ်ခုကို ရေးဆွဲပြီး ထို့နောက် center circle ကို chart တွင် ထည့်သွင်းသည်။ center circle ၏ width ကို `0.40` ကို အခြားတန်ဖိုးဖြင့် ပြောင်းလဲခြင်းဖြင့် ပြင်ဆင်နိုင်သည်။
 
-ဒိုနတ်ကတ်များကို label များကိုဖော်ပြရန်အထူး highlight လုပ်ခြင်းစသည့်နည်းလမ်းများဖြင့်တည်းဖြတ်နိုင်သည်။ [docs](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut) တွင်ပိုမိုလေ့လာပါ။
+ဒိုနတ် chart များကို label များကို ဖတ်ရှုနိုင်စေရန် highlight ပြုလုပ်ခြင်းအပါအဝင် အမျိုးမျိုးသောနည်းလမ်းများဖြင့် ပြင်ဆင်နိုင်သည်။ [docs](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut) တွင် ပိုမိုလေ့လာပါ။
 
-အခု သင်သည် ဒေတာကိုအုပ်စုဖွဲ့ပြီး pie သို့မဟုတ် donut အဖြစ်ဖော်ပြနိုင်သည်ကိုသိပြီး waffle chart ကိုစမ်းသပ်ပါ။ ဒါဟာအချိုးအစားကိုအခြားနည်းလမ်းဖြင့်ဖော်ပြခြင်းဖြစ်သည်။
+အခုတော့ သင့် data ကို အုပ်စုဖွဲ့ပြီး ပိုင်း သို့မဟုတ် ဒိုနတ်အဖြစ် ဖော်ပြနည်းကို သိရှိပြီးဖြစ်သည်။ အခြား chart အမျိုးအစားများကို စူးစမ်းကြည့်ပါ။ ဝါဖယ် chart ကို စမ်းကြည့်ပါ၊ အချိုးအစားကို 2D square array အဖြစ် ဖော်ပြခြင်းဖြစ်သည်။
 
 ## ဝါဖယ်!
 
-'ဝါဖယ်' အမျိုးအစား chart သည် 2D array of squares အဖြစ်အချိုးအစားများကိုဖော်ပြရန်အခြားနည်းလမ်းဖြစ်သည်။ ဒီ dataset တွင် မုန့်ဖုတ် cap color များ၏အချိုးအစားများကိုဖော်ပြရန်ဝါဖယ် chart ကိုစမ်းသပ်ပါ။ ဒီအတွက် [PyWaffle](https://pypi.org/project/pywaffle/) ဟုခေါ်သော helper library ကို install လုပ်ပြီး Matplotlib ကိုအသုံးပြုပါ-
+'ဝါဖယ်' အမျိုးအစား chart သည် အချိုးအစားများကို 2D square array အဖြစ် ရှင်းလင်းဖော်ပြခြင်းဖြစ်သည်။ dataset တွင် မုန့်ဖုတ် cap color များ၏ အချိုးအစားများကို ရှင်းလင်းဖော်ပြရန် ကြိုးစားပါ။ ဒီအတွက် [PyWaffle](https://pypi.org/project/pywaffle/) ဟုခေါ်သော helper library ကို install လုပ်ပြီး Matplotlib ကို အသုံးပြုပါ-
 
 ```python
 pip install pywaffle
 ```
 
-သင့်ဒေတာ၏ segment တစ်ခုကိုရွေးပါ-
+သင့် data ၏ segment တစ်ခုကို ရွေးချယ်ပါ-
 
 ```python
 capcolor=mushrooms.groupby(['cap-color']).count()
 capcolor
 ```
 
-label များဖန်တီးပြီး ဒေတာကိုအုပ်စုဖွဲ့ခြင်းဖြင့် ဝါဖယ် chart တစ်ခုဖန်တီးပါ-
+label များကို ဖန်တီးပြီး data ကို အုပ်စုဖွဲ့ကာ ဝါဖယ် chart တစ်ခုကို ဖန်တီးပါ-
 
 ```python
 import pandas as pd
@@ -165,22 +167,22 @@ fig = plt.figure(
 )
 ```
 
-ဝါဖယ် chart ကိုအသုံးပြု၍ မုန့်ဖုတ် cap color များ၏အချိုးအစားများကိုရှင်းလင်းစွာမြင်နိုင်သည်။ စိတ်ဝင်စားဖွယ်ကောင်းသည်မှာ အစိမ်းရောင် cap မုန့်ဖုတ်များအများကြီးရှိနေသည်!
+ဝါဖယ် chart ကို အသုံးပြု၍ dataset တွင် မုန့်ဖုတ် cap color များ၏ အချိုးအစားများကို ရှင်းလင်းဖော်ပြနိုင်သည်။ စိတ်ဝင်စားဖွယ်ကောင်းစွာ green-capped မုန့်ဖုတ်များ များစွာရှိသည်ကို တွေ့ရသည်။
 
-![waffle chart](../../../../translated_images/waffle.5455dbae4ccf17d53bb40ff0a657ecef7b8aa967e27a19cc96325bd81598f65e.my.png)
+![waffle chart](../../../../3-Data-Visualization/11-visualization-proportions/images/waffle.png)
 
-✅ Pywaffle သည် [Font Awesome](https://fontawesome.com/) တွင်ရရှိနိုင်သော icon များကို chart တွင်ထည့်သွင်းနိုင်သည်။ square များအစား icon များကိုအသုံးပြု၍ ပိုမိုစိတ်ဝင်စားဖွယ်ကောင်းသော waffle chart ကိုဖန်တီးရန်စမ်းသပ်ပါ။
+✅ Pywaffle သည် [Font Awesome](https://fontawesome.com/) တွင် ရရှိနိုင်သော icon များကို အသုံးပြု၍ chart များတွင် icon များထည့်သွင်းနိုင်သည်။ square များအစား icon များကို အသုံးပြုကာ ပိုမိုစိတ်ဝင်စားဖွယ်ကောင်းသော ဝါဖယ် chart ကို ဖန်တီးရန် စမ်းသပ်ပါ။
 
-ဒီသင်ခန်းစာတွင် သင်သည် အချိုးအစားများကိုဖော်ပြရန်နည်းလမ်း ၃ မျိုးကိုလေ့လာခဲ့သည်။ ပထမဦးစွာ သင်သည် သင့်ဒေတာကို category များအဖြစ်အုပ်စုဖွဲ့ပြီး pie, donut, သို့မဟုတ် waffle တစ်ခုကိုဖော်ပြရန်ဆုံးဖြတ်ရမည်။ အားလုံးသည် user ကို dataset ၏ snapshot ကိုချက်ချင်းမြင်နိုင်စေသည်။
+ဒီသင်ခန်းစာတွင် အချိုးအစားများကို ရှင်းလင်းဖော်ပြရန် နည်းလမ်း ၃ မျိုးကို သင်ယူခဲ့ပါသည်။ ပထမဦးဆုံး သင့် data ကို category များအဖြစ် အုပ်စုဖွဲ့ပြီး data ကို ဖော်ပြရန် အကောင်းဆုံးနည်းလမ်းကို ဆုံးဖြတ်ပါ- ပိုင်း, ဒိုနတ်, သို့မဟုတ် ဝါဖယ်။ အားလုံးသည် စိတ်ဝင်စားဖွယ်ကောင်းပြီး dataset ၏ snapshot ကို ချက်ချင်း ဖော်ပြပေးသည်။
 
 ## 🚀 စိန်ခေါ်မှု
 
-ဒီအချိုးအစားဖော်ပြမှုများကို [Charticulator](https://charticulator.com) တွင်ပြန်ဖန်တီးကြည့်ပါ။
+ဒီအရသာရှိသော chart များကို [Charticulator](https://charticulator.com) တွင် ပြန်ဖန်တီးကြည့်ပါ။
 ## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
 
 ## ပြန်လည်သုံးသပ်ခြင်းနှင့် ကိုယ်တိုင်လေ့လာခြင်း
 
-တစ်ခါတစ်ရံ pie, donut, သို့မဟုတ် waffle chart ကိုဘယ်အချိန်မှာအသုံးပြုရမည်ဆိုတာရှင်းလင်းမဖြစ်နိုင်ပါ။ ဒီအကြောင်းအရာနှင့်ပတ်သက်သောဆောင်းပါးများကိုဖတ်ရှုပါ-
+တစ်ခါတစ်ရံ ပိုင်း, ဒိုနတ်, သို့မဟုတ် ဝါဖယ် chart ကို ဘယ်အချိန်မှာ အသုံးပြုရမည်ဆိုတာ မရှင်းလင်းနိုင်ပါ။ ဒီအကြောင်းအရာနှင့်ပတ်သက်သော ဆောင်းပါးများကို ဖတ်ရှုပါ-
 
 https://www.beautiful.ai/blog/battle-of-the-charts-pie-chart-vs-donut-chart
 
@@ -190,13 +192,13 @@ https://www.mit.edu/~mbarker/formula1/f1help/11-ch-c6.htm
 
 https://medium.datadriveninvestor.com/data-visualization-done-the-right-way-with-tableau-waffle-chart-fdf2a19be402
 
-ပိုမိုသိရှိရန် သုတေသနလုပ်ပါ။
+ပိုမိုသိရှိရန် သုတေသနပြုပါ။
 
-## လုပ်ငန်းစဉ်
+## လုပ်ငန်းတာဝန်
 
-[Excel တွင်စမ်းကြည့်ပါ](assignment.md)
+[Excel တွင် စမ်းကြည့်ပါ](assignment.md)
 
 ---
 
-**ဝက်ဘ်ဆိုက်မှတ်ချက်**:  
-ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှန်ကန်မှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်ခြင်းတွင် အမှားများ သို့မဟုတ် မမှန်ကန်မှုများ ပါဝင်နိုင်ကြောင်း သတိပြုပါ။ မူလဘာသာဖြင့် ရေးသားထားသော စာရွက်စာတမ်းကို အာဏာတည်သော ရင်းမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူ့ဘာသာပြန်ပညာရှင်များကို အသုံးပြုရန် အကြံပြုပါသည်။ ဤဘာသာပြန်ကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော နားလည်မှုမှားခြင်း သို့မဟုတ် အဓိပ္ပါယ်မှားခြင်းများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။
+**အကြောင်းကြားချက်**:  
+ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်မှုများတွင် အမှားများ သို့မဟုတ် မတိကျမှုများ ပါဝင်နိုင်သည်ကို သတိပြုပါ။ မူရင်းဘာသာစကားဖြင့် ရေးသားထားသော စာရွက်စာတမ်းကို အာဏာတရ အရင်းအမြစ်အဖြစ် ရှုလေ့လာသင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူ့ဘာသာပြန်ပညာရှင်များမှ ပရော်ဖက်ရှင်နယ် ဘာသာပြန်မှုကို အကြံပြုပါသည်။ ဤဘာသာပြန်မှုကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော အလွဲအမှားများ သို့မဟုတ် အနားလွဲမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။

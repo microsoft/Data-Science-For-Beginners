@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "73dead89dc2ddda4d6ec0232814a191e",
-  "translation_date": "2025-08-26T16:14:41+00:00",
+  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
+  "translation_date": "2025-09-05T05:41:17+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "sk"
 }
@@ -55,9 +55,9 @@ Kľúčové oblasti SDK zahŕňajú:
 
 [Viac informácií o Azure Machine Learning SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
-V [predchádzajúcej lekcii](../18-Low-Code/README.md) sme videli, ako trénovať, nasadiť a využívať model pomocou prístupu Low code/No code. Použili sme dataset o zlyhaní srdca na generovanie modelu predikcie zlyhania srdca. V tejto lekcii urobíme presne to isté, ale pomocou Azure Machine Learning SDK.
+V [predchádzajúcej lekcii](../18-Low-Code/README.md) sme videli, ako trénovať, nasadiť a využívať model v režime Low code/No code. Použili sme dataset zlyhania srdca na generovanie modelu predikcie zlyhania srdca. V tejto lekcii urobíme presne to isté, ale pomocou Azure Machine Learning SDK.
 
-![projektová schéma](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.sk.png)
+![projektová schéma](../../../../5-Data-Science-In-Cloud/19-Azure/images/project-schema.PNG)
 
 ### 1.2 Projekt predikcie zlyhania srdca a úvod do datasetu
 
@@ -74,7 +74,7 @@ Ak nie, postupujte podľa pokynov v sekcii **2.1 Vytvorenie Azure ML pracovného
 
 V [Azure ML pracovnom priestore](https://ml.azure.com/), ktorý sme vytvorili skôr, prejdite do menu Compute a uvidíte rôzne dostupné výpočtové zdroje.
 
-![compute-instance-1](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.sk.png)
+![compute-instance-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/compute-instance-1.PNG)
 
 Vytvorme výpočtový uzol na zriadenie jupyter notebooku. 
 1. Kliknite na tlačidlo + New. 
@@ -89,28 +89,28 @@ Ak ste dataset ešte nenahrali, pozrite si sekciu **2.3 Načítanie datasetu** v
 
 ### 2.4 Vytváranie notebookov
 
-> **_POZNÁMKA:_** Pre ďalší krok môžete buď vytvoriť nový notebook od začiatku, alebo nahrať [notebook, ktorý sme vytvorili](notebook.ipynb) do vášho Azure ML Studio. Na jeho nahratie jednoducho kliknite na menu "Notebook" a nahrajte notebook.
+> **_POZNÁMKA:_** Pre ďalší krok môžete buď vytvoriť nový notebook od začiatku, alebo nahrať [notebook, ktorý sme vytvorili](../../../../5-Data-Science-In-Cloud/19-Azure/notebook.ipynb) do vášho Azure ML Studio. Na jeho nahratie jednoducho kliknite na menu "Notebook" a nahrajte notebook.
 
-Notebooky sú veľmi dôležitou súčasťou procesu data science. Môžu byť použité na vykonávanie prieskumných analýz dát (EDA), volanie výpočtového klastru na tréning modelu, alebo volanie inferenčného klastru na nasadenie endpointu.
+Notebooky sú veľmi dôležitou súčasťou procesu data science. Môžu byť použité na vykonávanie prieskumných analýz dát (EDA), volanie výpočtového klastru na tréning modelu, alebo volanie inferenčného klastru na nasadenie endpointu. 
 
 Na vytvorenie notebooku potrebujeme výpočtový uzol, ktorý poskytuje jupyter notebook. Vráťte sa do [Azure ML pracovného priestoru](https://ml.azure.com/) a kliknite na Compute instances. V zozname výpočtových uzlov by ste mali vidieť [výpočtový uzol, ktorý sme vytvorili skôr](../../../../5-Data-Science-In-Cloud/19-Azure). 
 
 1. V sekcii Applications kliknite na možnosť Jupyter. 
 2. Zaškrtnite políčko "Yes, I understand" a kliknite na tlačidlo Continue.
-![notebook-1](../../../../translated_images/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.sk.png)
+![notebook-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-1.PNG)
 3. Toto by malo otvoriť nový prehliadačový tab s vaším jupyter notebookom. Kliknite na tlačidlo "New" na vytvorenie notebooku.
 
-![notebook-2](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.sk.png)
+![notebook-2](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-2.PNG)
 
 Teraz, keď máme notebook, môžeme začať trénovať model pomocou Azure ML SDK.
 
 ### 2.5 Tréning modelu
 
-Ak máte akékoľvek pochybnosti, pozrite si [dokumentáciu Azure ML SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). Obsahuje všetky potrebné informácie na pochopenie modulov, ktoré uvidíme v tejto lekcii.
+Najprv, ak máte akékoľvek pochybnosti, pozrite si [dokumentáciu Azure ML SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). Obsahuje všetky potrebné informácie na pochopenie modulov, ktoré uvidíme v tejto lekcii.
 
 #### 2.5.1 Nastavenie pracovného priestoru, experimentu, výpočtového klastru a datasetu
 
-Pracovný priestor načítate z konfiguračného súboru pomocou nasledujúceho kódu:
+Pracovný priestor musíte načítať z konfiguračného súboru pomocou nasledujúceho kódu:
 
 ```python
 from azureml.core import Workspace
@@ -124,7 +124,7 @@ from azureml.core import Experiment
 experiment_name = 'aml-experiment'
 experiment = Experiment(ws, experiment_name)
 ```
-Na získanie alebo vytvorenie experimentu z pracovného priestoru požiadate experiment pomocou jeho názvu. Názov experimentu musí mať 3-36 znakov, začínať písmenom alebo číslom a môže obsahovať iba písmená, čísla, podčiarkovníky a pomlčky. Ak experiment nie je nájdený v pracovnom priestore, vytvorí sa nový experiment.
+Na získanie alebo vytvorenie experimentu z pracovného priestoru požiadate experiment pomocou názvu experimentu. Názov experimentu musí mať 3-36 znakov, začínať písmenom alebo číslom a môže obsahovať iba písmená, čísla, podčiarkovníky a pomlčky. Ak experiment nie je nájdený v pracovnom priestore, vytvorí sa nový experiment.
 
 Teraz musíte vytvoriť výpočtový klaster na tréning pomocou nasledujúceho kódu. Upozorňujeme, že tento krok môže trvať niekoľko minút. 
 
@@ -156,17 +156,17 @@ df.describe()
 
 Na nastavenie konfigurácie AutoML použite [AutoMLConfig triedu](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
-Ako je popísané v dokumentácii, existuje veľa parametrov, s ktorými môžete pracovať. Pre tento projekt použijeme nasledujúce parametre:
+Ako je popísané v dokumentácii, existuje veľa parametrov, s ktorými môžete experimentovať. Pre tento projekt použijeme nasledujúce parametre:
 
 - `experiment_timeout_minutes`: Maximálny čas (v minútach), ktorý je experimentu povolený pred automatickým zastavením a sprístupnením výsledkov.
 - `max_concurrent_iterations`: Maximálny počet súbežných tréningových iterácií povolených pre experiment.
 - `primary_metric`: Primárna metrika používaná na určenie stavu experimentu.
 - `compute_target`: Výpočtový cieľ Azure Machine Learning na spustenie experimentu automatizovaného strojového učenia.
-- `task`: Typ úlohy na spustenie. Hodnoty môžu byť 'classification', 'regression' alebo 'forecasting' v závislosti od typu problému automatizovaného ML.
-- `training_data`: Tréningové dáta, ktoré sa majú použiť v rámci experimentu. Mali by obsahovať tréningové vlastnosti a stĺpec s označením (voliteľne stĺpec s váhami vzoriek).
+- `task`: Typ úlohy na spustenie. Hodnoty môžu byť 'classification', 'regression' alebo 'forecasting' v závislosti od typu problému automatizovaného ML na riešenie.
+- `training_data`: Tréningové dáta, ktoré sa majú použiť v rámci experimentu. Mali by obsahovať tréningové vlastnosti aj stĺpec s označením (voliteľne stĺpec s váhami vzoriek).
 - `label_column_name`: Názov stĺpca s označením.
-- `path`: Celá cesta k priečinku projektu Azure Machine Learning.
-- `enable_early_stopping`: Či povoliť predčasné ukončenie, ak sa skóre krátkodobo nezlepšuje.
+- `path`: Plná cesta k priečinku projektu Azure Machine Learning.
+- `enable_early_stopping`: Či povoliť predčasné ukončenie, ak skóre krátkodobo nezlepšuje.
 - `featurization`: Indikátor, či má byť krok featurizácie vykonaný automaticky alebo nie, alebo či má byť použitá prispôsobená featurizácia.
 - `debug_log`: Súbor logov na zapisovanie informácií o ladení.
 
@@ -192,7 +192,7 @@ automl_config = AutoMLConfig(compute_target=compute_target,
                              **automl_settings
                             )
 ```
-Teraz, keď máte nastavenú konfiguráciu, môžete model trénovať pomocou nasledujúceho kódu. Tento krok môže trvať až hodinu v závislosti od veľkosti vášho klastru.
+Teraz, keď máte nastavenú konfiguráciu, môžete trénovať model pomocou nasledujúceho kódu. Tento krok môže trvať až hodinu v závislosti od veľkosti vášho klastru.
 
 ```python
 remote_run = experiment.submit(automl_config)
@@ -211,7 +211,7 @@ RunDetails(remote_run).show()
 ```python
 best_run, fitted_model = remote_run.get_output()
 ```
-Parametre použité pre najlepší model môžete vidieť jednoducho vytlačením fitted_model a vlastnosti najlepšieho modelu pomocou metódy [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
+Parametre použité pre najlepší model môžete vidieť jednoducho vytlačením fitted_model a vlastnosti najlepšieho modelu môžete zobraziť pomocou metódy [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
 ```python
 best_run.get_properties()
@@ -254,7 +254,7 @@ Tento krok by mal trvať niekoľko minút.
 
 ### 3.3 Využitie endpointu
 
-Endpoint využijete vytvorením vzorového vstupu:
+Endpoint môžete využiť vytvorením vzorového vstupu:
 
 ```python
 data = {
@@ -293,11 +293,11 @@ Gratulujeme! Práve ste použili model nasadený a trénovaný na Azure ML pomoc
 
 ## 🚀 Výzva
 
-Existuje mnoho ďalších vecí, ktoré môžete robiť prostredníctvom SDK, bohužiaľ, nemôžeme ich všetky prejsť v tejto lekcii. Dobrá správa je, že naučiť sa orientovať v dokumentácii SDK vám môže veľmi pomôcť. Pozrite si dokumentáciu Azure ML SDK a nájdite triedu `Pipeline`, ktorá vám umožňuje vytvárať pipeline. Pipeline je kolekcia krokov, ktoré môžu byť vykonané ako pracovný postup.
+Existuje mnoho ďalších vecí, ktoré môžete robiť prostredníctvom SDK, bohužiaľ, nemôžeme ich všetky prejsť v tejto lekcii. Ale dobrá správa je, že naučiť sa prechádzať dokumentáciou SDK vám môže veľmi pomôcť. Pozrite si dokumentáciu Azure ML SDK a nájdite triedu `Pipeline`, ktorá vám umožňuje vytvárať pipeline. Pipeline je kolekcia krokov, ktoré môžu byť vykonané ako pracovný postup.
 
 **TIP:** Prejdite na [dokumentáciu SDK](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) a zadajte kľúčové slová do vyhľadávacieho poľa, ako napríklad "Pipeline". Mali by ste mať triedu `azureml.pipeline.core.Pipeline` vo výsledkoch vyhľadávania.
 
-## [Kvíz po prednáške](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/37)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Prehľad & Samoštúdium
 
@@ -310,4 +310,4 @@ V tejto lekcii ste sa naučili, ako trénovať, nasadiť a používať model na 
 ---
 
 **Upozornenie**:  
-Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Hoci sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho pôvodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nenesieme zodpovednosť za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Hoci sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho pôvodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nie sme zodpovední za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
