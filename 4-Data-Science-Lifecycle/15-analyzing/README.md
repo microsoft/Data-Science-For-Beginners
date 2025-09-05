@@ -6,7 +6,7 @@
 
 ## Pre-Lecture Quiz
 
-## [Pre-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/28)
+## [Pre-Lecture Quiz](https://ff-quizzes.netlify.app/en/ds//quiz/28)
 
 Analyzing in the data lifecycle confirms that the data can answer the questions that are proposed or solving a particular problem. This step can also focus on confirming a model is correctly addressing these questions and problems. This lesson is focused on Exploratory Data Analysis or EDA, which are techniques for defining features and relationships within the data and can be used to prepare the data for modeling. 
 

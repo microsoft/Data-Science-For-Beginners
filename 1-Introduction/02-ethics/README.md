@@ -21,7 +21,7 @@ In this lesson, we'll explore the fascinating area of data ethics - from core co
 
 
 
-## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/2) 🎯
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/2) 🎯
 
 ## Basic Definitions
 

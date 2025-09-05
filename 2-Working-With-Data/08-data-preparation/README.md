@@ -4,7 +4,7 @@
 |:---:|
 |Data Preparation - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [Pre-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/14)
+## [Pre-Lecture Quiz](https://ff-quizzes.netlify.app/en/ds/quiz/14)
 
 
 

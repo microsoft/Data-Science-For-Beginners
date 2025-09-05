@@ -8,7 +8,7 @@ Data is facts, information, observations and measurements that are used to make 
 
 This lesson focuses on identifying and classifying data by its characteristics and its sources.
 
-## [Pre-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/4)
+## [Pre-Lecture Quiz](https://ff-quizzes.netlify.app/en/ds/quiz/4)
 ## How Data is Described
 
 ### Raw Data

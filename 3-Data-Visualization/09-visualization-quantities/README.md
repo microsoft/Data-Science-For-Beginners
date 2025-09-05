@@ -5,7 +5,7 @@
 | Visualizing Quantities - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
 In this lesson you will explore how to use one of the many available Python libraries to learn how to create interesting visualizations all around the concept of quantity. Using a cleaned dataset about the birds of Minnesota, you can learn many interesting facts about local wildlife. 
-## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/16)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/16)
 
 ## Observe wingspan with Matplotlib
 

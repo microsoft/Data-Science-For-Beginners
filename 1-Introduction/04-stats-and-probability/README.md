@@ -9,7 +9,7 @@ Statistics and Probability Theory are two highly related areas of Mathematics th
 [![Intro Video](images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 
-## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/6)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
 ## Probability and Random Variables
 

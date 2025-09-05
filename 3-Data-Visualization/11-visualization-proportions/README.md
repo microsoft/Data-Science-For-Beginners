@@ -170,7 +170,7 @@ In this lesson, you learned three ways to visualize proportions. First, you need
 ## 🚀 Challenge
 
 Try recreating these tasty charts in [Charticulator](https://charticulator.com).
-## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/21)
 
 ## Review & Self Study
 

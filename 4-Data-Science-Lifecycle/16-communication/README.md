@@ -4,7 +4,7 @@
 |:---:|
 | Data Science Lifecycle: Communication - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [Pre-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/30)
+## [Pre-Lecture Quiz](https://ff-quizzes.netlify.app/en/ds//quiz/30)
 
 Test your knowledge of what's to come with the Pre-Lecture Quiz above!
 

@@ -26,7 +26,7 @@ We will focus on a few examples of data processing, instead of giving you full o
 
 
 
-## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/12)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/12)
 
 ## Tabular Data and Dataframes
 

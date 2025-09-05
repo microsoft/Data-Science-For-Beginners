@@ -4,7 +4,7 @@
 |:---:|
 | Introduction to the Data Science Lifecycle - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/26)
+## [Pre-Lecture Quiz](https://ff-quizzes.netlify.app/en/ds//quiz/26)
 
 At this point you've probably come to the realization that data science is a process. This process can be broken down into 5 stages:
 
