@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "3ade580a06b5f04d57cc83a768a8fb77",
-  "translation_date": "2025-08-26T14:38:05+00:00",
+  "original_hash": "90a815d332aea41a222f4c6372e7186e",
+  "translation_date": "2025-09-05T05:44:25+00:00",
   "source_file": "2-Working-With-Data/08-data-preparation/README.md",
   "language_code": "sk"
 }
@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Kvíz pred prednáškou](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/14)
 
-V závislosti od zdroja môžu surové dáta obsahovať nekonzistencie, ktoré spôsobujú problémy pri analýze a modelovaní. Inými slovami, tieto dáta môžu byť označené ako „špinavé“ a bude ich potrebné vyčistiť. Táto lekcia sa zameriava na techniky čistenia a transformácie dát na riešenie problémov s chýbajúcimi, nepresnými alebo neúplnými dátami. Témy pokryté v tejto lekcii využívajú Python a knižnicu Pandas a budú [predvedené v notebooku](notebook.ipynb) v tomto adresári.
+V závislosti od zdroja môžu surové dáta obsahovať nekonzistencie, ktoré spôsobujú problémy pri analýze a modelovaní. Inými slovami, tieto dáta môžu byť označené ako „špinavé“ a bude ich potrebné vyčistiť. Táto lekcia sa zameriava na techniky čistenia a transformácie dát na riešenie problémov s chýbajúcimi, nepresnými alebo neúplnými dátami. Témy pokryté v tejto lekcii využívajú Python a knižnicu Pandas a budú [demonštrované v notebooku](../../../../2-Working-With-Data/08-data-preparation/notebook.ipynb) v tomto adresári.
 
 ## Dôležitosť čistenia dát
 
@@ -27,18 +27,18 @@ V závislosti od zdroja môžu surové dáta obsahovať nekonzistencie, ktoré s
 
 ## Bežné ciele a stratégie čistenia
 
-- **Preskúmanie datasetu**: Preskúmanie dát, ktoré je pokryté v [neskoršej lekcii](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/15-analyzing), vám môže pomôcť objaviť dáta, ktoré je potrebné vyčistiť. Vizualizácia hodnôt v datasete môže nastaviť očakávania, ako bude zvyšok vyzerať, alebo poskytnúť predstavu o problémoch, ktoré je možné vyriešiť. Preskúmanie môže zahŕňať základné dotazovanie, vizualizácie a vzorkovanie.
+- **Preskúmanie datasetu**: Preskúmanie dát, ktoré je pokryté v [neskoršej lekcii](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/15-analyzing), vám môže pomôcť objaviť dáta, ktoré je potrebné vyčistiť. Vizualizácia hodnôt v rámci datasetu môže nastaviť očakávania, ako bude zvyšok vyzerať, alebo poskytnúť predstavu o problémoch, ktoré je možné vyriešiť. Preskúmanie môže zahŕňať základné dotazovanie, vizualizácie a vzorkovanie.
 
 - **Formátovanie**: V závislosti od zdroja môžu dáta obsahovať nekonzistencie v tom, ako sú prezentované. To môže spôsobiť problémy pri vyhľadávaní a reprezentácii hodnôt, kde sú viditeľné v datasete, ale nie sú správne reprezentované vo vizualizáciách alebo výsledkoch dotazov. Bežné problémy s formátovaním zahŕňajú riešenie medzier, dátumov a typov dát. Riešenie problémov s formátovaním je zvyčajne na ľuďoch, ktorí dáta používajú. Napríklad štandardy, ako sú prezentované dátumy a čísla, sa môžu líšiť podľa krajiny.
 
 - **Duplikácie**: Dáta, ktoré sa vyskytujú viac ako raz, môžu produkovať nepresné výsledky a zvyčajne by mali byť odstránené. Toto môže byť bežné pri spájaní dvoch alebo viacerých datasetov. Avšak existujú prípady, keď duplikácie v spojených datasetoch obsahujú časti, ktoré môžu poskytnúť dodatočné informácie a môžu byť potrebné zachovať.
 
-- **Chýbajúce dáta**: Chýbajúce dáta môžu spôsobiť nepresnosti, ako aj slabé alebo zaujaté výsledky. Niekedy sa dajú vyriešiť „znovunačítaním“ dát, doplnením chýbajúcich hodnôt výpočtom a kódom, ako je Python, alebo jednoducho odstránením hodnoty a zodpovedajúcich dát. Existuje množstvo dôvodov, prečo môžu dáta chýbať, a kroky, ktoré sa podniknú na vyriešenie týchto chýbajúcich hodnôt, môžu závisieť od toho, ako a prečo zmizli.
+- **Chýbajúce dáta**: Chýbajúce dáta môžu spôsobiť nepresnosti, ako aj slabé alebo zaujaté výsledky. Niekedy je možné tieto problémy vyriešiť „znovunačítaním“ dát, doplnením chýbajúcich hodnôt výpočtom a kódom, ako je Python, alebo jednoducho odstránením hodnoty a zodpovedajúcich dát. Existuje množstvo dôvodov, prečo môžu dáta chýbať, a kroky, ktoré sa podniknú na vyriešenie týchto chýbajúcich hodnôt, môžu závisieť od toho, ako a prečo zmizli.
 
 ## Preskúmanie informácií o DataFrame
 > **Cieľ učenia:** Na konci tejto podsekcie by ste mali byť schopní nájsť všeobecné informácie o dátach uložených v pandas DataFrames.
 
-Keď načítate svoje dáta do pandas, pravdepodobne budú vo forme DataFrame (pozrite si predchádzajúcu [lekciu](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python#dataframe) pre podrobný prehľad). Ak však dataset vo vašom DataFrame obsahuje 60 000 riadkov a 400 stĺpcov, ako vôbec začnete získavať predstavu o tom, s čím pracujete? Našťastie, [pandas](https://pandas.pydata.org/) poskytuje niekoľko praktických nástrojov na rýchle zobrazenie celkových informácií o DataFrame, ako aj prvých a posledných niekoľkých riadkov.
+Keď načítate svoje dáta do pandas, pravdepodobne budú vo forme DataFrame (pozrite si predchádzajúcu [lekciu](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python#dataframe) pre podrobný prehľad). Ak však dataset vo vašom DataFrame obsahuje 60 000 riadkov a 400 stĺpcov, ako vôbec začnete chápať, s čím pracujete? Našťastie, [pandas](https://pandas.pydata.org/) poskytuje niekoľko praktických nástrojov na rýchle zobrazenie celkových informácií o DataFrame, ako aj prvých a posledných niekoľkých riadkov.
 
 Aby sme preskúmali túto funkcionalitu, importujeme knižnicu Python scikit-learn a použijeme ikonický dataset: **Iris dataset**.
 
@@ -57,7 +57,7 @@ iris_df = pd.DataFrame(data=iris['data'], columns=iris['feature_names'])
 |3                                       |4.6              |3.1             |1.5              |0.2             |
 |4                                       |5.0              |3.6             |1.4              |0.2             |
 
-- **DataFrame.info**: Na začiatok sa používa metóda `info()` na vytlačenie súhrnu obsahu prítomného v `DataFrame`. Pozrime sa na tento dataset, aby sme zistili, čo máme:
+- **DataFrame.info**: Na začiatok sa používa metóda `info()` na vytlačenie súhrnu obsahu prítomného v `DataFrame`. Pozrime sa na tento dataset, aby sme videli, čo máme:
 ```python
 iris_df.info()
 ```
@@ -75,7 +75,7 @@ memory usage: 4.8 KB
 ```
 Z toho vieme, že dataset *Iris* má 150 záznamov v štyroch stĺpcoch bez nulových záznamov. Všetky dáta sú uložené ako 64-bitové čísla s pohyblivou desatinnou čiarkou.
 
-- **DataFrame.head()**: Ďalej, na kontrolu skutočného obsahu `DataFrame`, používame metódu `head()`. Pozrime sa, ako vyzerá prvých pár riadkov nášho `iris_df`:
+- **DataFrame.head()**: Ďalej, na kontrolu skutočného obsahu `DataFrame`, používame metódu `head()`. Pozrime sa, ako vyzerajú prvé riadky nášho `iris_df`:
 ```python
 iris_df.head()
 ```
@@ -87,7 +87,7 @@ iris_df.head()
 3                4.6               3.1                1.5               0.2
 4                5.0               3.6                1.4               0.2
 ```
-- **DataFrame.tail()**: Naopak, na kontrolu posledných pár riadkov `DataFrame` používame metódu `tail()`:
+- **DataFrame.tail()**: Naopak, na kontrolu posledných riadkov `DataFrame` používame metódu `tail()`:
 ```python
 iris_df.tail()
 ```
@@ -108,7 +108,7 @@ Väčšinou dataset, ktorý chcete použiť (alebo musíte použiť), obsahuje c
 
 Pandas rieši chýbajúce hodnoty dvoma spôsobmi. Prvý ste už videli v predchádzajúcich sekciách: `NaN`, alebo Not a Number. Toto je vlastne špeciálna hodnota, ktorá je súčasťou špecifikácie IEEE pre čísla s pohyblivou desatinnou čiarkou a používa sa iba na označenie chýbajúcich hodnôt s pohyblivou desatinnou čiarkou.
 
-Pre chýbajúce hodnoty okrem čísel s pohyblivou desatinnou čiarkou používa pandas objekt Python `None`. Aj keď sa môže zdať mätúce, že sa stretnete s dvoma rôznymi typmi hodnôt, ktoré v podstate hovoria to isté, existujú rozumné programové dôvody pre tento dizajn a v praxi tento prístup umožňuje pandas poskytnúť dobrý kompromis pre drvivú väčšinu prípadov. Napriek tomu majú `None` a `NaN` obmedzenia, na ktoré si musíte dávať pozor, pokiaľ ide o ich použitie.
+Pre chýbajúce hodnoty okrem čísel s pohyblivou desatinnou čiarkou používa pandas objekt Python `None`. Aj keď sa môže zdať mätúce, že narazíte na dva rôzne typy hodnôt, ktoré v podstate hovoria to isté, existujú rozumné programové dôvody pre tento dizajn a v praxi tento prístup umožňuje pandas poskytnúť dobrý kompromis pre drvivú väčšinu prípadov. Napriek tomu, `None` aj `NaN` majú obmedzenia, na ktoré si musíte dávať pozor, pokiaľ ide o ich použitie.
 
 Viac o `NaN` a `None` si môžete pozrieť v [notebooku](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb)!
 
@@ -126,9 +126,9 @@ example1.isnull()
 3     True
 dtype: bool
 ```
-Pozorne si prezrite výstup. Prekvapilo vás niečo? Zatiaľ čo `0` je aritmetická nula, je to stále úplne dobré celé číslo a pandas ho takto aj považuje. `''` je trochu jemnejšie. Aj keď sme ho použili v sekcii 1 na reprezentáciu prázdnej hodnoty reťazca, je to stále objekt reťazca a nie reprezentácia nuly, pokiaľ ide o pandas.
+Pozorne si prezrite výstup. Prekvapilo vás niečo? Zatiaľ čo `0` je aritmetická nula, je to stále platné celé číslo a pandas ho takto aj považuje. `''` je trochu jemnejšie. Aj keď sme ho použili v sekcii 1 na reprezentáciu prázdnej hodnoty reťazca, je to stále objekt reťazca a nie reprezentácia nuly z pohľadu pandas.
 
-Teraz to otočme a použime tieto metódy spôsobom, akým ich budete používať v praxi. Booleovské masky môžete použiť priamo ako index `Series` alebo `DataFrame`, čo môže byť užitočné pri práci s izolovanými chýbajúcimi (alebo prítomnými) hodnotami.
+Teraz to otočme a použime tieto metódy spôsobom, akým ich budete používať v praxi. Booleovské masky môžete použiť priamo ako index pre ``Series`` alebo ``DataFrame``, čo môže byť užitočné pri práci s izolovanými chýbajúcimi (alebo prítomnými) hodnotami.
 
 > **Záver:** Metódy `isnull()` a `notnull()` produkujú podobné výsledky, keď ich použijete v `DataFrame`: zobrazujú výsledky a index týchto výsledkov, čo vám nesmierne pomôže pri práci s vašimi dátami.
 
@@ -158,9 +158,9 @@ example2
 |1     |2.0|5.0|8  |
 |2     |NaN|6.0|9  |
 
-(Všimli ste si, že pandas pretypoval dva stĺpce na čísla s pohyblivou desatinnou čiarkou, aby vyhovovali `NaN`?)
+(Všimli ste si, že pandas pretypoval dva stĺpce na čísla s pohyblivou desatinnou čiarkou, aby vyhoveli hodnotám `NaN`?)
 
-Nemôžete odstrániť jednu hodnotu z `DataFrame`, takže musíte odstrániť celé riadky alebo stĺpce. V závislosti od toho, čo robíte, môžete chcieť urobiť jedno alebo druhé, a preto pandas poskytuje možnosti pre obe. Keďže v dátovej vede stĺpce zvyčajne reprezentujú premenné a riadky reprezentujú pozorovania, je pravdepodobnejšie, že odstránite riadky dát; predvolené nastavenie pre `dropna()` je odstrániť všetky riadky, ktoré obsahujú akékoľvek nulové hodnoty:
+Nemôžete odstrániť jednu hodnotu z `DataFrame`, takže musíte odstrániť celé riadky alebo stĺpce. V závislosti od toho, čo robíte, môžete chcieť urobiť jedno alebo druhé, a preto pandas poskytuje možnosti pre obe. Keďže v dátovej vede stĺpce zvyčajne reprezentujú premenné a riadky reprezentujú pozorovania, pravdepodobnejšie je, že odstránite riadky dát; predvolené nastavenie pre `dropna()` je odstrániť všetky riadky, ktoré obsahujú akékoľvek nulové hodnoty:
 
 ```python
 example2.dropna()
@@ -263,7 +263,7 @@ example2.fillna(method='ffill', axis=1)
 2	NaN	6.0	9.0	9.0
 ```
 Všimnite si, že keď predchádzajúca hodnota nie je dostupná na dopĺňanie dopredu, nulová hodnota zostáva.
-> **Hlavná myšlienka:** Existuje viacero spôsobov, ako sa vysporiadať s chýbajúcimi hodnotami vo vašich datasetoch. Konkrétna stratégia, ktorú použijete (odstránenie, nahradenie alebo spôsob nahradenia), by mala byť určená špecifikami daných dát. Čím viac budete pracovať s datasetmi, tým lepšie pochopíte, ako riešiť chýbajúce hodnoty.
+> **Hlavná myšlienka:** Existuje viacero spôsobov, ako sa vysporiadať s chýbajúcimi hodnotami vo vašich datasetoch. Konkrétna stratégia, ktorú použijete (odstránenie, nahradenie alebo spôsob, akým ich nahradíte), by mala byť určená špecifikami daných dát. Čím viac budete pracovať s datasetmi, tým lepšie pochopíte, ako riešiť chýbajúce hodnoty.
 
 ## Odstraňovanie duplicitných dát
 
@@ -271,7 +271,7 @@ Všimnite si, že keď predchádzajúca hodnota nie je dostupná na dopĺňanie 
 
 Okrem chýbajúcich dát sa často stretnete s duplicitnými dátami v datasetoch z reálneho sveta. Našťastie, `pandas` poskytuje jednoduchý spôsob na detekciu a odstránenie duplicitných záznamov.
 
-- **Identifikácia duplicitných hodnôt: `duplicated`**: Duplicitné hodnoty môžete ľahko identifikovať pomocou metódy `duplicated` v pandas, ktorá vracia Boolean masku indikujúcu, či je záznam v `DataFrame` duplikátom skoršieho záznamu. Vytvorme ďalší príklad `DataFrame`, aby sme si to ukázali v praxi.
+- **Identifikácia duplicitných záznamov: `duplicated`**: Duplicitné hodnoty môžete ľahko identifikovať pomocou metódy `duplicated` v pandas, ktorá vracia Boolean masku indikujúcu, či je záznam v `DataFrame` duplicitou predchádzajúceho záznamu. Vytvorme ďalší príklad `DataFrame`, aby sme si to ukázali v praxi.
 ```python
 example4 = pd.DataFrame({'letters': ['A','B'] * 2 + ['B'],
                          'numbers': [1, 2, 1, 3, 3]})
@@ -296,7 +296,7 @@ example4.duplicated()
 4     True
 dtype: bool
 ```
-- **Odstraňovanie duplicitných hodnôt: `drop_duplicates`:** jednoducho vráti kópiu dát, kde všetky hodnoty označené ako `duplicated` sú `False`:
+- **Odstraňovanie duplicitných záznamov: `drop_duplicates`:** jednoducho vráti kópiu dát, kde všetky hodnoty označené ako `duplicated` sú `False`:
 ```python
 example4.drop_duplicates()
 ```
@@ -323,13 +323,13 @@ letters	numbers
 
 Všetky diskutované materiály sú dostupné ako [Jupyter Notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/2-Working-With-Data/08-data-preparation/notebook.ipynb). Navyše, po každej sekcii sú k dispozícii cvičenia, vyskúšajte ich!
 
-## [Kvíz po prednáške](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/15)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ds/)
 
 
 
 ## Prehľad & Samoštúdium
 
-Existuje mnoho spôsobov, ako objaviť a pristupovať k príprave vašich dát na analýzu a modelovanie, pričom čistenie dát je dôležitým krokom, ktorý si vyžaduje praktickú skúsenosť. Vyskúšajte tieto výzvy na Kaggle, aby ste preskúmali techniky, ktoré táto lekcia nepokrývala.
+Existuje mnoho spôsobov, ako objaviť a pristupovať k príprave vašich dát na analýzu a modelovanie, pričom čistenie dát je dôležitým krokom, ktorý si vyžaduje praktické skúsenosti. Vyskúšajte tieto výzvy na Kaggle, aby ste preskúmali techniky, ktoré táto lekcia nepokrývala.
 
 - [Výzva na čistenie dát: Parsovanie dátumov](https://www.kaggle.com/rtatman/data-cleaning-challenge-parsing-dates/)
 
@@ -343,4 +343,4 @@ Existuje mnoho spôsobov, ako objaviť a pristupovať k príprave vašich dát n
 ---
 
 **Upozornenie**:  
-Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Hoci sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho pôvodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nie sme zodpovední za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Hoci sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho rodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nie sme zodpovední za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.

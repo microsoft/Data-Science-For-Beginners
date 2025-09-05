@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "67076ed50f54e7d26ba1ba378d6078f1",
-  "translation_date": "2025-08-26T15:47:58+00:00",
+  "original_hash": "f95679140c7cb39c30ccba535cd8f03f",
+  "translation_date": "2025-09-05T05:52:40+00:00",
   "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
   "language_code": "sk"
 }
@@ -17,35 +17,35 @@ Sme takmer na konci tejto vzdelávacej cesty!
 
 Začali sme definíciami dátovej vedy a etiky, preskúmali rôzne nástroje a techniky na analýzu a vizualizáciu dát, prešli životný cyklus dátovej vedy a pozreli sa na škálovanie a automatizáciu pracovných postupov dátovej vedy pomocou cloudových služieb. Pravdepodobne sa pýtate: _"Ako presne môžem všetky tieto poznatky aplikovať v reálnom svete?"_
 
-V tejto lekcii preskúmame reálne aplikácie dátovej vedy v rôznych odvetviach a ponoríme sa do konkrétnych príkladov v oblasti výskumu, digitálnych humanitných vied a udržateľnosti. Pozrieme sa na príležitosti pre študentské projekty a zakončíme užitočnými zdrojmi, ktoré vám pomôžu pokračovať vo vašej vzdelávacej ceste!
+V tejto lekcii preskúmame aplikácie dátovej vedy v rôznych odvetviach a ponoríme sa do konkrétnych príkladov v oblasti výskumu, digitálnych humanitných vied a udržateľnosti. Pozrieme sa na príležitosti pre študentské projekty a zakončíme užitočnými zdrojmi, ktoré vám pomôžu pokračovať vo vašej vzdelávacej ceste!
 
 ## Kvíz pred prednáškou
 
-[Kvíz pred prednáškou](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/38)
+[Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ds/)
 
-## Data Science + Priemysel
+## Dátová veda + Priemysel
 
-Vďaka demokratizácii AI je pre vývojárov teraz jednoduchšie navrhovať a integrovať rozhodovanie poháňané AI a poznatky založené na dátach do používateľských skúseností a vývojových pracovných postupov. Tu je niekoľko príkladov, ako sa dátová veda "aplikuje" v reálnych aplikáciách naprieč priemyslom:
+Vďaka demokratizácii AI je pre vývojárov teraz jednoduchšie navrhovať a integrovať rozhodovanie poháňané AI a poznatky založené na dátach do používateľských skúseností a vývojových pracovných postupov. Tu je niekoľko príkladov, ako sa dátová veda "aplikuje" na reálne aplikácie v priemysle:
 
- * [Google Flu Trends](https://www.wired.com/2015/10/can-learn-epic-failure-google-flu-trends/) využíval dátovú vedu na koreláciu vyhľadávacích výrazov s trendmi chrípky. Hoci prístup mal nedostatky, zvýšil povedomie o možnostiach (a výzvách) predpovedí v zdravotníctve založených na dátach.
+ * [Google Flu Trends](https://www.wired.com/2015/10/can-learn-epic-failure-google-flu-trends/) použil dátovú vedu na koreláciu vyhľadávacích výrazov s trendmi chrípky. Hoci prístup mal nedostatky, zvýšil povedomie o možnostiach (a výzvách) predpovedí zdravotnej starostlivosti založených na dátach.
 
- * [Predikcie trás UPS](https://www.technologyreview.com/2018/11/21/139000/how-ups-uses-ai-to-outsmart-bad-weather/) - vysvetľuje, ako UPS využíva dátovú vedu a strojové učenie na predpovedanie optimálnych trás pre doručovanie, pričom zohľadňuje poveternostné podmienky, dopravné vzory, termíny doručenia a ďalšie faktory.
+ * [Predikcie trás UPS](https://www.technologyreview.com/2018/11/21/139000/how-ups-uses-ai-to-outsmart-bad-weather/) - vysvetľuje, ako UPS využíva dátovú vedu a strojové učenie na predpovedanie optimálnych trás pre doručovanie, pričom berie do úvahy poveternostné podmienky, dopravné vzory, termíny doručenia a ďalšie faktory.
 
- * [Vizualizácia trás taxíkov v NYC](http://chriswhong.github.io/nyctaxi/) - dáta získané pomocou [zákonov o slobode informácií](https://chriswhong.com/open-data/foil_nyc_taxi/) pomohli vizualizovať jeden deň v živote taxíkov v NYC, čo nám umožňuje pochopiť, ako sa pohybujú po rušnom meste, koľko zarábajú a aké sú trvania ciest počas 24-hodinového obdobia.
+ * [Vizualizácia trás taxíkov v NYC](http://chriswhong.github.io/nyctaxi/) - dáta získané pomocou [zákonov o slobode informácií](https://chriswhong.com/open-data/foil_nyc_taxi/) pomohli vizualizovať jeden deň v živote taxíkov v NYC, čo nám umožňuje pochopiť, ako sa pohybujú po rušnom meste, koľko zarábajú a aké sú trvania jázd počas každého 24-hodinového obdobia.
 
- * [Uber Data Science Workbench](https://eng.uber.com/dsw/) - využíva dáta (o miestach vyzdvihnutia a vysadenia, trvaní ciest, preferovaných trasách atď.) získané z miliónov denných jázd Uberom na vytvorenie nástroja na analýzu dát, ktorý pomáha s cenotvorbou, bezpečnosťou, detekciou podvodov a navigačnými rozhodnutiami.
+ * [Uber Data Science Workbench](https://eng.uber.com/dsw/) - využíva dáta (o miestach vyzdvihnutia a vysadenia, trvaní jázd, preferovaných trasách atď.) získané z miliónov jázd Uberu *denne* na vytvorenie nástroja na analýzu dát, ktorý pomáha s cenotvorbou, bezpečnosťou, detekciou podvodov a navigačnými rozhodnutiami.
 
- * [Analytika v športe](https://towardsdatascience.com/scope-of-analytics-in-sports-world-37ed09c39860) - zameriava sa na _prediktívnu analytiku_ (analýza tímov a hráčov - napr. [Moneyball](https://datasciencedegree.wisconsin.edu/blog/moneyball-proves-importance-big-data-big-ideas/) - a manažment fanúšikov) a _vizualizáciu dát_ (dashboardy tímov a fanúšikov, hry atď.) s aplikáciami ako skauting talentov, športové stávkovanie a manažment inventára/miest.
+ * [Športová analytika](https://towardsdatascience.com/scope-of-analytics-in-sports-world-37ed09c39860) - zameriava sa na _prediktívnu analytiku_ (analýza tímov a hráčov - napr. [Moneyball](https://datasciencedegree.wisconsin.edu/blog/moneyball-proves-importance-big-data-big-ideas/) - a manažment fanúšikov) a _vizualizáciu dát_ (dashboardy tímov a fanúšikov, hry atď.) s aplikáciami ako skauting talentov, športové stávkovanie a manažment inventára/miest.
 
  * [Dátová veda v bankovníctve](https://data-flair.training/blogs/data-science-in-banking/) - zdôrazňuje hodnotu dátovej vedy vo finančnom priemysle s aplikáciami od modelovania rizík a detekcie podvodov, cez segmentáciu zákazníkov, až po predikcie v reálnom čase a odporúčacie systémy. Prediktívna analytika tiež poháňa kritické opatrenia ako [kreditné skóre](https://dzone.com/articles/using-big-data-and-predictive-analytics-for-credit).
 
  * [Dátová veda v zdravotníctve](https://data-flair.training/blogs/data-science-in-healthcare/) - zdôrazňuje aplikácie ako medicínske zobrazovanie (napr. MRI, röntgen, CT-sken), genomika (sekvenovanie DNA), vývoj liekov (hodnotenie rizík, predikcia úspechu), prediktívna analytika (starostlivosť o pacientov a logistika zásob), sledovanie a prevencia chorôb atď.
 
-![Aplikácie dátovej vedy v reálnom svete](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.sk.png) Zdroj obrázku: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Aplikácie dátovej vedy v reálnom svete](../../../../6-Data-Science-In-Wild/20-Real-World-Examples/images/data-science-applications.png) Zdroj obrázku: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
-Obrázok ukazuje ďalšie oblasti a príklady aplikácie techník dátovej vedy. Chcete preskúmať ďalšie aplikácie? Pozrite si sekciu [Recenzia a samostatné štúdium](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) nižšie.
+Obrázok ukazuje ďalšie oblasti a príklady aplikácie techník dátovej vedy. Chcete preskúmať ďalšie aplikácie? Pozrite si sekciu [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) nižšie.
 
-## Data Science + Výskum
+## Dátová veda + Výskum
 
 | ![ Sketchnote od [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Research.png) |
 | :---------------------------------------------------------------------------------------------------------------: |
@@ -56,39 +56,39 @@ Zatiaľ čo aplikácie v reálnom svete sa často zameriavajú na priemyselné p
 * _príležitosti na inovácie_ - skúmanie rýchleho prototypovania pokročilých konceptov a testovanie používateľských skúseností pre aplikácie budúcej generácie.
 * _výzvy pri nasadení_ - skúmanie potenciálnych škôd alebo neúmyselných dôsledkov technológií dátovej vedy v reálnych kontextoch.
 
-Pre študentov môžu tieto výskumné projekty poskytnúť príležitosti na učenie a spoluprácu, ktoré zlepšia vaše pochopenie témy a rozšíria vaše povedomie a zapojenie sa s relevantnými ľuďmi alebo tímami pracujúcimi v oblastiach záujmu. Ako vyzerajú výskumné projekty a aký môžu mať dopad?
+Pre študentov môžu tieto výskumné projekty poskytnúť príležitosti na učenie a spoluprácu, ktoré môžu zlepšiť vaše pochopenie témy a rozšíriť vaše povedomie a zapojenie sa s relevantnými ľuďmi alebo tímami pracujúcimi v oblastiach záujmu. Ako teda vyzerajú výskumné projekty a aký môžu mať dopad?
 
-Pozrime sa na jeden príklad - [MIT Gender Shades Study](http://gendershades.org/overview.html) od Joy Buolamwini (MIT Media Labs) s [významným výskumným článkom](http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) spoluautorky Timnit Gebru (vtedy v Microsoft Research), ktorý sa zameriaval na:
+Pozrime sa na jeden príklad - [MIT Gender Shades Study](http://gendershades.org/overview.html) od Joy Buolamwini (MIT Media Labs) s [významným výskumným článkom](http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) spoluautorky Timnit Gebru (vtedy v Microsoft Research), ktorý sa zameral na:
 
- * **Čo:** Cieľom výskumného projektu bolo _hodnotiť predsudky prítomné v automatizovaných algoritmoch na analýzu tvárí a dátových súboroch_ na základe pohlavia a typu pokožky.
- * **Prečo:** Analýza tvárí sa používa v oblastiach ako presadzovanie práva, bezpečnosť na letiskách, systémy na prijímanie zamestnancov a ďalšie - kontexty, kde nepresné klasifikácie (napr. kvôli predsudkom) môžu spôsobiť potenciálne ekonomické a sociálne škody dotknutým jednotlivcom alebo skupinám. Pochopenie (a eliminácia alebo zmiernenie) predsudkov je kľúčom k spravodlivosti pri používaní.
- * **Ako:** Výskumníci si uvedomili, že existujúce benchmarky používali prevažne subjekty so svetlejšou pokožkou, a vytvorili nový dátový súbor (1000+ obrázkov), ktorý bol _viac vyvážený_ podľa pohlavia a typu pokožky. Tento dátový súbor bol použitý na hodnotenie presnosti troch produktov na klasifikáciu pohlavia (od Microsoftu, IBM a Face++).
+ * **Čo:** Cieľom výskumného projektu bolo _vyhodnotiť predsudky prítomné v automatizovaných algoritmoch a dátových súboroch na analýzu tváre_ na základe pohlavia a typu pokožky. 
+ * **Prečo:** Analýza tváre sa používa v oblastiach ako presadzovanie práva, bezpečnosť na letiskách, systémy na prijímanie zamestnancov a ďalšie - kontexty, kde nepresné klasifikácie (napr. kvôli predsudkom) môžu spôsobiť potenciálne ekonomické a sociálne škody dotknutým jednotlivcom alebo skupinám. Pochopenie (a eliminácia alebo zmiernenie) predsudkov je kľúčom k spravodlivosti pri používaní.
+ * **Ako:** Výskumníci si uvedomili, že existujúce benchmarky používali prevažne osoby so svetlejšou pokožkou, a vytvorili nový dátový súbor (1000+ obrázkov), ktorý bol _viac vyvážený_ podľa pohlavia a typu pokožky. Tento dátový súbor bol použitý na vyhodnotenie presnosti troch produktov na klasifikáciu pohlavia (od Microsoftu, IBM a Face++). 
 
 Výsledky ukázali, že hoci celková presnosť klasifikácie bola dobrá, existoval výrazný rozdiel v chybovosti medzi rôznymi podskupinami - s **nesprávnym určením pohlavia** častejším u žien alebo osôb s tmavšou pokožkou, čo naznačuje predsudky.
 
-**Kľúčové výsledky:** Zvýšenie povedomia o tom, že dátová veda potrebuje viac _reprezentatívnych dátových súborov_ (vyvážené podskupiny) a viac _inkluzívnych tímov_ (rôznorodé pozadie), aby sa takéto predsudky rozpoznali a eliminovali alebo zmiernili skôr v AI riešeniach. Výskumné úsilie ako toto je tiež zásadné pre mnohé organizácie pri definovaní princípov a praktík pre _zodpovednú AI_, aby sa zlepšila spravodlivosť naprieč ich AI produktmi a procesmi.
+**Kľúčové výsledky:** Zvýšenie povedomia o tom, že dátová veda potrebuje viac _reprezentatívnych dátových súborov_ (vyvážené podskupiny) a viac _inkluzívnych tímov_ (rôznorodé pozadie), aby sa takéto predsudky rozpoznali a eliminovali alebo zmiernili skôr v AI riešeniach. Výskumné úsilie ako toto je tiež kľúčové pre mnohé organizácie pri definovaní princípov a praktík pre _zodpovednú AI_, aby sa zlepšila spravodlivosť ich AI produktov a procesov.
 
-**Chcete sa dozvedieť o relevantných výskumných aktivitách v Microsoft?**
+**Chcete sa dozvedieť o relevantných výskumných aktivitách v Microsoft?** 
 
 * Pozrite si [Microsoft Research Projects](https://www.microsoft.com/research/research-area/artificial-intelligence/?facet%5Btax%5D%5Bmsr-research-area%5D%5B%5D=13556&facet%5Btax%5D%5Bmsr-content-type%5D%5B%5D=msr-project) v oblasti umelej inteligencie.
 * Preskúmajte študentské projekty z [Microsoft Research Data Science Summer School](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/).
 * Pozrite si projekt [Fairlearn](https://fairlearn.org/) a iniciatívy [Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6).
 
-## Data Science + Humanitné vedy
+## Dátová veda + Humanitné vedy
 
 | ![ Sketchnote od [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Humanities.png) |
 | :---------------------------------------------------------------------------------------------------------------: |
 |              Dátová veda & Digitálne humanitné vedy - _Sketchnote od [@nitya](https://twitter.com/nitya)_              |
 
-Digitálne humanitné vedy [boli definované](https://digitalhumanities.stanford.edu/about-dh-stanford) ako "súbor praktík a prístupov kombinujúcich výpočtové metódy s humanistickým skúmaním". [Projekty Stanfordu](https://digitalhumanities.stanford.edu/projects) ako _"rebooting history"_ a _"poetic thinking"_ ilustrujú prepojenie medzi [digitálnymi humanitnými vedami a dátovou vedou](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science) - zdôrazňujúc techniky ako analýza sietí, vizualizácia informácií, priestorová a textová analýza, ktoré nám môžu pomôcť znovu preskúmať historické a literárne dátové súbory a odvodiť nové poznatky a perspektívy.
+Digitálne humanitné vedy [boli definované](https://digitalhumanities.stanford.edu/about-dh-stanford) ako "zbierka praktík a prístupov kombinujúcich výpočtové metódy s humanistickým skúmaním". [Projekty Stanfordu](https://digitalhumanities.stanford.edu/projects) ako _"rebooting history"_ a _"poetic thinking"_ ilustrujú prepojenie medzi [digitálnymi humanitnými vedami a dátovou vedou](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science) - zdôrazňujúc techniky ako analýza sietí, vizualizácia informácií, priestorová a textová analýza, ktoré nám môžu pomôcť znovu preskúmať historické a literárne dátové súbory a odvodiť nové poznatky a perspektívy.
 
 *Chcete preskúmať a rozšíriť projekt v tejto oblasti?*
 
-Pozrite si ["Emily Dickinson and the Meter of Mood"](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671) - skvelý príklad od [Jen Looper](https://twitter.com/jenlooper), ktorý sa pýta, ako môžeme pomocou dátovej vedy znovu preskúmať známe básne a prehodnotiť ich význam a prínos ich autora v nových kontextoch. Napríklad, _môžeme predpovedať ročné obdobie, v ktorom bola báseň napísaná, analýzou jej tónu alebo sentimentu_ - a čo nám to hovorí o stave mysle autora počas relevantného obdobia?
+Pozrite si ["Emily Dickinson and the Meter of Mood"](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671) - skvelý príklad od [Jen Looper](https://twitter.com/jenlooper), ktorý sa pýta, ako môžeme použiť dátovú vedu na znovu preskúmanie známej poézie a prehodnotenie jej významu a príspevkov jej autora v nových kontextoch. Napríklad, _môžeme predpovedať ročné obdobie, v ktorom bola báseň napísaná, analýzou jej tónu alebo sentimentu_ - a čo nám to hovorí o stave mysle autora počas relevantného obdobia?
 
 Na zodpovedanie tejto otázky nasledujeme kroky životného cyklu dátovej vedy:
  * [`Získavanie dát`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#acquiring-the-dataset) - na zhromaždenie relevantného dátového súboru na analýzu. Možnosti zahŕňajú použitie API (napr. [Poetry DB API](https://poetrydb.org/index.html)) alebo scraping webových stránok (napr. [Project Gutenberg](https://www.gutenberg.org/files/12242/12242-h/12242-h.htm)) pomocou nástrojov ako [Scrapy](https://scrapy.org/).
- * [`Čistenie dát`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#clean-the-data) - vysvetľuje, ako môže byť text formátovaný, sanitizovaný a zjednodušený pomocou základných nástrojov ako Visual Studio Code a Microsoft Excel.
+ * [`Čistenie dát`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#clean-the-data) - vysvetľuje, ako môže byť text formátovaný, sanitovaný a zjednodušený pomocou základných nástrojov ako Visual Studio Code a Microsoft Excel.
  * [`Analýza dát`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#working-with-the-data-in-a-notebook) - vysvetľuje, ako môžeme teraz importovať dátový súbor do "Notebooks" na analýzu pomocou Python balíkov (ako pandas, numpy a matplotlib) na organizáciu a vizualizáciu dát.
  * [`Analýza sentimentu`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#sentiment-analysis-using-cognitive-services) - vysvetľuje, ako môžeme integrovať cloudové služby ako Text Analytics, pomocou nástrojov s nízkym kódom ako [Power Automate](https://flow.microsoft.com/en-us/) na automatizované pracovné postupy spracovania dát.
 
@@ -96,53 +96,53 @@ Pomocou tohto pracovného postupu môžeme preskúmať sezónne vplyvy na sentim
 
 > Môžete použiť niektoré nástroje z [Digital Humanities toolkit](https://github.com/Digital-Humanities-Toolkit) na preskúmanie týchto otázok.
 
-## Data Science + Udržateľnosť
+## Dátová veda + Udržateľnosť
 
 | ![ Sketchnote od [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Sustainability.png) |
 | :---------------------------------------------------------------------------------------------------------------: |
 |              Dátová veda & Udržateľnosť - _Sketchnote od [@nitya](https://twitter.com/nitya)_              |
 
-[Agenda 2030 pre udržateľný rozvoj](https://sdgs.un.org/2030agenda) - prijatá všetkými členmi OSN v roku 2015 - identifikuje 17 cieľov vrátane tých, ktoré sa zameriavajú na **ochranu planéty** pred degradáciou a dopadmi klimatických zmien. Iniciatíva [Microsoft Sustainability](https://www.microsoft.com/en-us/sustainability) podporuje tieto ciele skúmaním spôsobov, ako technologické riešenia môžu podporiť a budovať udržateľnejšiu budúcnosť so [zameraním na 4 ciele](https://dev.to/azure/a-visual-guide-to-sustainable-software-engineering-53hh) - byť uhlíkovo negatívny, vodne pozitívny, bez odpadu a biodiverzný do roku 2030.
+[Agenda 2030 pre udržateľný rozvoj](https://sdgs.un.org/2030agenda) - prijatá všetkými členmi OSN v roku 2015 - identifikuje 17 cieľov vrátane tých, ktoré sa zameriavajú na **ochranu planéty** pred degradáciou a dopadmi klimatických zmien. Iniciatíva [Microsoft Sustainability](https://www.microsoft.com/en-us/sustainability) podporuje tieto ciele skúmaním spôsobov, ako technologické riešenia môžu podporovať a budovať udržateľnejšiu budúcnosť so [zameraním na 4 ciele](https://dev.to/azure/a-visual-guide-to-sustainable-software-engineering-53hh) - byť uhlíkovo negatívny, vodne pozitívny, bez odpadu a biodiverzný do roku 2030.
 
 Riešenie týchto výziev v škálovateľnom a včasnom meradle si vyžaduje cloudové myslenie - a veľké množstvo dát. Iniciatíva [Planetary Computer](https://planetarycomputer.microsoft.com/) poskytuje 4 komponenty, ktoré pomáhajú dátovým vedcom a vývojárom v tomto úsilí:
-
+ 
  * [Katalóg dát](https://planetarycomputer.microsoft.com/catalog) - s petabajtmi dát o systémoch Zeme (bezplatné a hostované na Azure).
- * [Planetary API](https://planetarycomputer.microsoft.com/docs/reference/stac/) - na pomoc používateľom pri hľadaní relevantných dát naprieč priestorom a časom.
- * [Hub](https://planetarycomputer.microsoft.com/docs/overview/environment/) - spravované prostredie pre vedcov na sprac
+ * [Planetárne API](https://planetarycomputer.microsoft.com/docs/reference/stac/) - na pomoc používateľom pri hľadaní relevantných dát naprieč priestorom a časom.
+ * [Hub](https://planetarycomputer.microsoft.com/docs/overview/environment/) - spravované prostredie
 **Projekt Planetary Computer je momentálne v náhľade (k septembru 2021)** - tu je návod, ako začať prispievať k riešeniam udržateľnosti pomocou dátovej vedy.
 
-* [Požiadajte o prístup](https://planetarycomputer.microsoft.com/account/request), aby ste mohli začať s prieskumom a spojiť sa s kolegami.
-* [Preskúmajte dokumentáciu](https://planetarycomputer.microsoft.com/docs/overview/about), aby ste pochopili podporované datasety a API.
-* Preskúmajte aplikácie ako [Monitorovanie ekosystémov](https://analytics-lab.org/ecosystemmonitoring/) pre inšpiráciu na nápady aplikácií.
+* [Požiadajte o prístup](https://planetarycomputer.microsoft.com/account/request) na začatie prieskumu a spojenie sa s kolegami.
+* [Preskúmajte dokumentáciu](https://planetarycomputer.microsoft.com/docs/overview/about) na pochopenie podporovaných datasetov a API.
+* Preskúmajte aplikácie ako [Monitorovanie ekosystému](https://analytics-lab.org/ecosystemmonitoring/) pre inšpiráciu na nápady aplikácií.
 
-Premýšľajte o tom, ako môžete využiť vizualizáciu dát na odhalenie alebo zvýraznenie relevantných poznatkov v oblastiach, ako sú klimatické zmeny a odlesňovanie. Alebo premýšľajte o tom, ako môžu byť poznatky použité na vytvorenie nových užívateľských zážitkov, ktoré motivujú k zmenám správania pre udržateľnejší život.
+Premýšľajte o tom, ako môžete použiť vizualizáciu dát na odhalenie alebo zvýraznenie relevantných poznatkov v oblastiach ako klimatické zmeny a odlesňovanie. Alebo premýšľajte o tom, ako môžu byť poznatky použité na vytvorenie nových užívateľských zážitkov, ktoré motivujú k zmenám správania pre udržateľnejší život.
 
 ## Dátová veda + študenti
 
-Hovorili sme o aplikáciách v reálnom svete v priemysle a výskume a preskúmali sme príklady aplikácií dátovej vedy v digitálnych humanitných vedách a udržateľnosti. Ako si teda môžete budovať svoje zručnosti a zdieľať svoje odborné znalosti ako začiatočníci v dátovej vede?
+Hovorili sme o aplikáciách v reálnom svete v priemysle a výskume a preskúmali sme príklady aplikácií dátovej vedy v digitálnych humanitných vedách a udržateľnosti. Ako si teda môžete rozvíjať svoje zručnosti a zdieľať svoje odborné znalosti ako začiatočníci v dátovej vede?
 
-Tu je niekoľko príkladov študentských projektov v dátovej vede, ktoré vás môžu inšpirovať.
+Tu sú niektoré príklady študentských projektov z oblasti dátovej vedy, ktoré vás môžu inšpirovať.
 
-* [MSR Data Science Summer School](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/#!projects) s GitHub [projektmi](https://github.com/msr-ds3), ktoré skúmajú témy ako:
-   - [Rasová zaujatosť v policajnom použití sily](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2019-replicating-an-empirical-analysis-of-racial-differences-in-police-use-of-force/) | [Github](https://github.com/msr-ds3/stop-question-frisk)
-   - [Spoľahlivosť systému metra v NYC](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2018-exploring-the-reliability-of-the-nyc-subway-system/) | [Github](https://github.com/msr-ds3/nyctransit)
-* [Digitalizácia materiálnej kultúry: Skúmanie socio-ekonomických rozdelení v Sirkape](https://claremont.maps.arcgis.com/apps/Cascade/index.html?appid=bdf2aef0f45a4674ba41cd373fa23afc) - od [Ornella Altunyan](https://twitter.com/ornelladotcom) a tímu z Claremont, s použitím [ArcGIS StoryMaps](https://storymaps.arcgis.com/).
+ * [Letná škola dátovej vedy MSR](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/#!projects) s GitHub [projektmi](https://github.com/msr-ds3), ktoré skúmajú témy ako:
+    - [Rasová zaujatosť v používaní sily políciou](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2019-replicating-an-empirical-analysis-of-racial-differences-in-police-use-of-force/) | [Github](https://github.com/msr-ds3/stop-question-frisk)
+    - [Spoľahlivosť systému metra v NYC](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2018-exploring-the-reliability-of-the-nyc-subway-system/) | [Github](https://github.com/msr-ds3/nyctransit)
+ * [Digitalizácia materiálnej kultúry: Skúmanie socio-ekonomických rozložení v Sirkape](https://claremont.maps.arcgis.com/apps/Cascade/index.html?appid=bdf2aef0f45a4674ba41cd373fa23afc) - od [Ornella Altunyan](https://twitter.com/ornelladotcom) a tímu z Claremont, využívajúci [ArcGIS StoryMaps](https://storymaps.arcgis.com/).
 
 ## 🚀 Výzva
 
-Vyhľadajte články, ktoré odporúčajú projekty dátovej vedy vhodné pre začiatočníkov - ako napríklad [týchto 50 tém](https://www.upgrad.com/blog/data-science-project-ideas-topics-beginners/), [týchto 21 nápadov na projekty](https://www.intellspot.com/data-science-project-ideas) alebo [týchto 16 projektov so zdrojovým kódom](https://data-flair.training/blogs/data-science-project-ideas/), ktoré môžete rozobrať a upraviť. A nezabudnite blogovať o svojich učebných cestách a zdieľať svoje poznatky s nami všetkými.
+Vyhľadajte články, ktoré odporúčajú projekty dátovej vedy vhodné pre začiatočníkov - ako [týchto 50 tém](https://www.upgrad.com/blog/data-science-project-ideas-topics-beginners/) alebo [týchto 21 nápadov na projekty](https://www.intellspot.com/data-science-project-ideas) alebo [týchto 16 projektov so zdrojovým kódom](https://data-flair.training/blogs/data-science-project-ideas/), ktoré môžete rozobrať a upraviť. Nezabudnite blogovať o svojich učebných cestách a zdieľať svoje poznatky s nami všetkými.
 
 ## Kvíz po prednáške
 
-[Kvíz po prednáške](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/39)
+## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ds/)
 
-## Prehľad a samoštúdium
+## Prehľad a samostatné štúdium
 
 Chcete preskúmať viac prípadov použitia? Tu je niekoľko relevantných článkov:
-* [17 aplikácií a príkladov dátovej vedy](https://builtin.com/data-science/data-science-applications-examples) - júl 2021
-* [11 úžasných aplikácií dátovej vedy v reálnom svete](https://myblindbird.com/data-science-applications-real-world/) - máj 2021
-* [Dátová veda v reálnom svete](https://towardsdatascience.com/data-science-in-the-real-world/home) - kolekcia článkov
-* Dátová veda v: [vzdelávaní](https://data-flair.training/blogs/data-science-in-education/), [poľnohospodárstve](https://data-flair.training/blogs/data-science-in-agriculture/), [financiách](https://data-flair.training/blogs/data-science-in-finance/), [filmoch](https://data-flair.training/blogs/data-science-at-movies/) a ďalších.
+ * [17 aplikácií a príkladov dátovej vedy](https://builtin.com/data-science/data-science-applications-examples) - júl 2021
+ * [11 úžasných aplikácií dátovej vedy v reálnom svete](https://myblindbird.com/data-science-applications-real-world/) - máj 2021
+ * [Dátová veda v reálnom svete](https://towardsdatascience.com/data-science-in-the-real-world/home) - kolekcia článkov
+ * Dátová veda v: [vzdelávaní](https://data-flair.training/blogs/data-science-in-education/), [poľnohospodárstve](https://data-flair.training/blogs/data-science-in-agriculture/), [financiách](https://data-flair.training/blogs/data-science-in-finance/), [filmoch](https://data-flair.training/blogs/data-science-at-movies/) a ďalších.
 
 ## Zadanie
 
@@ -151,4 +151,4 @@ Chcete preskúmať viac prípadov použitia? Tu je niekoľko relevantných člá
 ---
 
 **Upozornenie**:  
-Tento dokument bol preložený pomocou služby na automatický preklad [Co-op Translator](https://github.com/Azure/co-op-translator). Aj keď sa snažíme o presnosť, upozorňujeme, že automatické preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho pôvodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre dôležité informácie sa odporúča profesionálny ľudský preklad. Nezodpovedáme za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Hoci sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho pôvodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nenesieme zodpovednosť za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.

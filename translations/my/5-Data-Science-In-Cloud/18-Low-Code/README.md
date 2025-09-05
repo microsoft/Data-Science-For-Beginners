@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "14b2a7f1c63202920bd98eeb913f5614",
-  "translation_date": "2025-08-30T17:43:16+00:00",
+  "original_hash": "39f3b3a9d873eaa522c2e792ce0ca503",
+  "translation_date": "2025-09-05T05:09:34+00:00",
   "source_file": "5-Data-Science-In-Cloud/18-Low-Code/README.md",
   "language_code": "my"
 }
@@ -13,277 +13,297 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Cloud တွင် Data Science: Low Code - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-အကြောင်းအရာများစာရင်း:
+အကြောင်းအရာများ:
 
 - [Cloud တွင် Data Science: "Low code/No code" နည်းလမ်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-  - [Pre-Lecture Quiz](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-  - [1. နိဒါန်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+  - [Pre-Lecture quiz](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+  - [1. အကျဉ်းချုပ်](../../../../5-Data-Science-In-Cloud/18-Low-Code)
     - [1.1 Azure Machine Learning ဆိုတာဘာလဲ?](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-    - [1.2 Heart Failure ခန့်မှန်းမှု Project:](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+    - [1.2 Heart Failure Prediction Project:](../../../../5-Data-Science-In-Cloud/18-Low-Code)
     - [1.3 Heart Failure Dataset:](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-  - [2. Azure ML Studio တွင် Low code/No code နည်းလမ်းဖြင့် မော်ဒယ်ကို သင်ကြားခြင်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+  - [2. Azure ML Studio တွင် Low code/No code နည်းလမ်းဖြင့် မော်ဒယ်ကို လေ့ကျင့်ခြင်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
     - [2.1 Azure ML workspace တစ်ခု ဖန်တီးခြင်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
     - [2.2 Compute Resources](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-      - [2.2.1 Compute Resources အတွက် မှန်ကန်သော ရွေးချယ်မှုများ](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-      - [2.2.2 Compute Cluster တစ်ခု ဖန်တီးခြင်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+      - [2.2.1 Compute resources အတွက် ရွေးချယ်မှုများ](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+      - [2.2.2 Compute cluster တစ်ခု ဖန်တီးခြင်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
     - [2.3 Dataset ကို Load လုပ်ခြင်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-    - [2.4 AutoML ဖြင့် Low code/No code သင်ကြားခြင်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-  - [3. Low code/No code မော်ဒယ်ကို တင်ပို့ခြင်းနှင့် Endpoint အသုံးပြုခြင်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-    - [3.1 မော်ဒယ် တင်ပို့ခြင်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-    - [3.2 Endpoint အသုံးပြုခြင်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+    - [2.4 AutoML ဖြင့် Low code/No code လေ့ကျင့်ခြင်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+  - [3. Low code/No code မော်ဒယ်ကို တင်သွင်းခြင်းနှင့် Endpoint ကို အသုံးပြုခြင်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+    - [3.1 မော်ဒယ် တင်သွင်းခြင်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+    - [3.2 Endpoint ကို အသုံးပြုခြင်း](../../../../5-Data-Science-In-Cloud/18-Low-Code)
   - [🚀 စိန်ခေါ်မှု](../../../../5-Data-Science-In-Cloud/18-Low-Code)
   - [Post-Lecture Quiz](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-  - [ပြန်လည်သုံးသပ်ခြင်းနှင့် ကိုယ်တိုင်လေ့လာမှု](../../../../5-Data-Science-In-Cloud/18-Low-Code)
-  - [အိမ်စာ](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+  - [Review & Self Study](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+  - [Assignment](../../../../5-Data-Science-In-Cloud/18-Low-Code)
+  
+## [Pre-Lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
-## [Pre-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/34)
-
-## 1. နိဒါန်း
-
+## 1. အကျဉ်းချုပ်
 ### 1.1 Azure Machine Learning ဆိုတာဘာလဲ?
 
-Azure cloud ပလက်ဖောင်းသည် အသစ်သောဖြေရှင်းနည်းများကို ဖန်တီးရန်အတွက် 200 ကျော်သော ထုတ်ကုန်များနှင့် cloud ဝန်ဆောင်မှုများကို ပံ့ပိုးပေးထားသည်။  
-Data Scientist များသည် ဒေတာကို စူးစမ်းခြင်း၊ ကြိုတင်လုပ်ငန်းစဉ်များ ပြုလုပ်ခြင်းနှင့် မော်ဒယ်သင်ကြားမှု အယ်လဂိုရီသမ်အမျိုးမျိုးကို စမ်းသပ်ခြင်းတို့တွင် အချိန်အများအပြား သုံးစွဲကြသည်။ ဤလုပ်ငန်းစဉ်များသည် အချိန်စားပြီး အချို့သော အကောင်းဆုံး hardware ကို မထိရောက်စွာ အသုံးပြုစေတတ်သည်။
+Azure cloud platform သည် 200 ကျော်သော ထုတ်ကုန်များနှင့် cloud ဝန်ဆောင်မှုများကို ပေးဆောင်ပြီး သင့်ရဲ့ အစီအစဉ်အသစ်များကို ဖန်တီးရန် အထောက်အကူပြုသည်။  
+Data scientist များသည် အချိန်များစွာကို ဒေတာကို စူးစမ်းခြင်း၊ ကြိုတင်လုပ်ဆောင်ခြင်းနှင့် မော်ဒယ်လေ့ကျင့်မှု algorithm များကို စမ်းသပ်ခြင်းတွင် အသုံးပြုရသည်။ ဤလုပ်ငန်းစဉ်များသည် အချိန်စားပြီး အချို့သော အဆင့်မြင့် hardware များကို မထိရောက်စွာ အသုံးပြုစေသည်။
 
-[Azure ML](https://docs.microsoft.com/azure/machine-learning/overview-what-is-azure-machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) သည် Azure တွင် Machine Learning ဖြေရှင်းနည်းများကို ဖန်တီးခြင်းနှင့် လည်ပတ်စေခြင်းအတွက် cloud-based ပလက်ဖောင်းတစ်ခုဖြစ်သည်။  
-ဤပလက်ဖောင်းတွင် Data Scientist များအတွက် ဒေတာကို ပြင်ဆင်ခြင်း၊ မော်ဒယ်များကို သင်ကြားခြင်း၊ ခန့်မှန်းမှု ဝန်ဆောင်မှုများကို ထုတ်ဝေခြင်းနှင့် ၎င်းတို့၏ အသုံးပြုမှုကို စောင့်ကြည့်ခြင်းတို့အတွက် လိုအပ်သော အင်္ဂါရပ်များစွာ ပါဝင်သည်။ အဓိကအားဖြင့် မော်ဒယ်သင်ကြားမှုနှင့် ဆက်စပ်သော အချိန်စားလုပ်ငန်းစဉ်များကို အလိုအလျောက်လုပ်ဆောင်ခြင်းဖြင့် ထိရောက်မှုကို တိုးတက်စေသည်။ ထို့အပြင် cloud-based compute resources များကို အသုံးပြု၍ ဒေတာအများအပြားကို ထိရောက်စွာ ကိုင်တွယ်နိုင်စေပြီး အသုံးပြုချိန်တွင်သာ ကုန်ကျစရိတ်ကို ပေးဆောင်ရမည်ဖြစ်သည်။
+[Azure ML](https://docs.microsoft.com/azure/machine-learning/overview-what-is-azure-machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) သည် Azure တွင် machine learning ဖြေရှင်းချက်များကို ဖန်တီးရန်နှင့် လုပ်ဆောင်ရန် cloud-based platform တစ်ခုဖြစ်သည်။  
+ဤ platform တွင် data scientist များအတွက် အချိန်စားသော လုပ်ငန်းစဉ်များကို အလိုအလျောက်လုပ်ဆောင်ရန် feature များစွာ ပါဝင်ပြီး cloud-based compute resources များကို အသုံးပြုနိုင်စေသည်။  
+ဤ resource များသည် ဒေတာအများအပြားကို ထိရောက်စွာ စီမံနိုင်ပြီး အသုံးပြုချိန်တွင်သာ ကုန်ကျစရိတ်ရှိသည်။
 
-Azure ML သည် Machine Learning လုပ်ငန်းစဉ်များအတွက် Developer များနှင့် Data Scientist များအတွက် လိုအပ်သော အရာအားလုံးကို ပံ့ပိုးပေးသည်။ ၎င်းတို့တွင် ပါဝင်သည်-
+Azure ML တွင် machine learning workflow များအတွက် developer များနှင့် data scientist များအတွက် လိုအပ်သော tools များပါဝင်သည်။  
+ဤ tools များတွင် ပါဝင်သောအရာများမှာ:
 
-- **Azure Machine Learning Studio**: မော်ဒယ်သင်ကြားမှု၊ တင်ပို့မှု၊ အလိုအလျောက်လုပ်ဆောင်မှု၊ ခြေရာခံမှုနှင့် Asset စီမံခန့်ခွဲမှုအတွက် low-code နှင့် no-code ရွေးချယ်မှုများကို ပံ့ပိုးပေးသည့် web portal တစ်ခုဖြစ်သည်။
-- **Jupyter Notebooks**: ML မော်ဒယ်များကို အလျင်အမြန် စမ်းသပ်ရန်။
-- **Azure Machine Learning Designer**: Drag-n-drop မော်ဂျူးများဖြင့် စမ်းသပ်မှုများကို ဖန်တီးပြီး low-code ပတ်ဝန်းကျင်တွင် pipeline များကို တင်ပို့နိုင်သည်။
-- **Automated machine learning UI (AutoML)**: ML မော်ဒယ်ဖွံ့ဖြိုးမှု၏ အကြိမ်ကြိမ်လုပ်ငန်းစဉ်များကို အလိုအလျောက်လုပ်ဆောင်ခြင်းဖြင့် အကျိုးရှိစွာ၊ ထိရောက်စွာ၊ ထုတ်လုပ်မှုမြင့်မားစွာ မော်ဒယ်များကို ဖန်တီးနိုင်သည်။
-- **Data Labelling**: ဒေတာများကို အလိုအလျောက် label လုပ်ပေးသည့် ML tool တစ်ခု။
-- **Machine learning extension for Visual Studio Code**: ML project များကို ဖန်တီးခြင်းနှင့် စီမံခန့်ခွဲခြင်းအတွက် အပြည့်အစုံသော ဖွံ့ဖြိုးရေးပတ်ဝန်းကျင်ကို ပံ့ပိုးပေးသည်။
-- **Machine learning CLI**: Command line မှတစ်ဆင့် Azure ML resources များကို စီမံခန့်ခွဲရန် command များကို ပံ့ပိုးပေးသည်။
-- **PyTorch, TensorFlow, Scikit-learn** စသည့် open-source frameworks များနှင့် ပေါင်းစပ်အသုံးပြုနိုင်သည်။
-- **MLflow**: ML စမ်းသပ်မှုများ၏ အသက်တာစဉ်ကို စီမံခန့်ခွဲရန်အတွက် open-source library တစ်ခုဖြစ်သည်။ **MLFlow Tracking** သည် သင်၏ စမ်းသပ်မှုမှ metrics နှင့် မော်ဒယ် artifacts များကို log လုပ်ပြီး ခြေရာခံပေးသည်။
+- **Azure Machine Learning Studio**: မော်ဒယ်လေ့ကျင့်ခြင်း၊ တင်သွင်းခြင်း၊ automation၊ tracking နှင့် asset management အတွက် low-code နှင့် no-code ရွေးချယ်မှုများကို ပေးသော web portal ဖြစ်သည်။
+- **Jupyter Notebooks**: ML မော်ဒယ်များကို prototype နှင့် စမ်းသပ်ရန် အလွယ်တကူ အသုံးပြုနိုင်သည်။
+- **Azure Machine Learning Designer**: drag-n-drop modules များကို အသုံးပြု၍ low-code ပတ်ဝန်းကျင်တွင် စမ်းသပ်မှုများကို ဖန်တီးပြီး pipeline များကို တင်သွင်းနိုင်သည်။
+- **Automated machine learning UI (AutoML)**: ML မော်ဒယ်ဖွံ့ဖြိုးမှု၏ iterative လုပ်ငန်းစဉ်များကို အလိုအလျောက်လုပ်ဆောင်ပြီး model quality ကို ထိန်းသိမ်းထားနိုင်သည်။
+- **Data Labelling**: ML tool တစ်ခုဖြစ်ပြီး ဒေတာကို အလိုအလျောက် label လုပ်ပေးသည်။
+- **Machine learning extension for Visual Studio Code**: ML project များကို ဖန်တီးရန်နှင့် စီမံရန် အပြည့်အစုံ development environment ကို ပေးသည်။
+- **Machine learning CLI**: command line မှတစ်ဆင့် Azure ML resources များကို စီမံရန် command များကို ပေးသည်။
+- **Open-source frameworks နှင့် ပေါင်းစည်းမှု**: PyTorch, TensorFlow, Scikit-learn စသည်တို့ကို training, deployment နှင့် ML process အဆုံးအထိ စီမံရန် အသုံးပြုနိုင်သည်။
+- **MLflow**: ML experiment များ၏ life cycle ကို စီမံရန် open-source library ဖြစ်သည်။ **MLFlow Tracking** သည် training run metrics နှင့် model artifacts များကို log နှင့် track လုပ်ပေးသည်။
 
-### 1.2 Heart Failure ခန့်မှန်းမှု Project:
+### 1.2 Heart Failure Prediction Project:
 
-Project များကို ဖန်တီးခြင်းနှင့် တည်ဆောက်ခြင်းသည် သင်၏ ကျွမ်းကျင်မှုနှင့် သိမှတ်မှုကို စမ်းသပ်ရန် အကောင်းဆုံးနည်းလမ်းဖြစ်သည်။  
-ဤသင်ခန်းစာတွင် Heart Failure အန္တရာယ်ကို ခန့်မှန်းနိုင်ရန် Data Science Project တစ်ခုကို Azure ML Studio တွင် Low code/No code နည်းလမ်းနှင့် Azure ML SDK နည်းလမ်းဖြင့် တည်ဆောက်မည်ဖြစ်သည်။
+Project တစ်ခုကို ဖန်တီးခြင်းနှင့် တည်ဆောက်ခြင်းသည် သင်၏ ကျွမ်းကျင်မှုနှင့် အသိပညာကို စမ်းသပ်ရန် အကောင်းဆုံးနည်းလမ်းဖြစ်သည်။  
+ဤသင်ခန်းစာတွင် Heart Failure Prediction Project ကို Azure ML Studio တွင် Low code/No code နည်းလမ်းနှင့် Azure ML SDK နည်းလမ်းဖြင့် တည်ဆောက်ခြင်းကို လေ့လာမည်။
 
-![project-schema](../../../../translated_images/project-schema.736f6e403f321eb48d10242b3f4334dc6ccf0eabef8ff87daf52b89781389fcb.my.png)
+![project-schema](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/project-schema.PNG)
 
-နည်းလမ်းတစ်ခုစီတွင် အားသာချက်နှင့် အားနည်းချက်များ ရှိသည်။ Low code/No code နည်းလမ်းသည် GUI (Graphical User Interface) ကို အသုံးပြုသဖြင့် စတင်ရန် လွယ်ကူပြီး အချိန်တိုအတွင်း POC (Proof Of Concept) ဖန်တီးနိုင်သည်။ သို့သော် Project ကြီးထွားလာပြီး ထုတ်လုပ်မှုအဆင့်သို့ ရောက်လာသောအခါ GUI ဖြင့် အားလုံးကို ဖန်တီးရန် မသင့်တော်တော့ပါ။ ထိုအချိန်တွင် Azure ML SDK ကို အသုံးပြု၍ အားလုံးကို အလိုအလျောက်လုပ်ဆောင်ရန် လိုအပ်သည်။
+Low code/No code နည်းလမ်းသည် GUI (Graphical User Interface) ကို အသုံးပြု၍ စတင်ရန် လွယ်ကူပြီး code အတွေ့အကြုံမလိုအပ်ပါ။  
+POC (Proof Of Concept) ဖန်တီးရန် အလွယ်တကူ စမ်းသပ်နိုင်သည်။  
+သို့သော် project ကြီးထွားလာသည်နှင့်အမျှ production-ready ဖြစ်ရန် GUI ဖြင့် resource များကို ဖန်တီးရန် မလုံလောက်တော့ပါ။  
+ဤအချိန်တွင် Azure ML SDK ကို အသုံးပြု၍ programmatically automate လုပ်ဆောင်ရန် လိုအပ်သည်။
 
 |                   | Low code/No code | Azure ML SDK              |
 |-------------------|------------------|---------------------------|
-| Code ကျွမ်းကျင်မှု | မလိုအပ်          | လိုအပ်သည်                |
-| ဖွံ့ဖြိုးမှုအချိန် | လွယ်ကူနှင့် မြန်ဆန် | Code ကျွမ်းကျင်မှုပေါ် မူတည် |
-| ထုတ်လုပ်မှုအဆင့် | မဟုတ်              | ဟုတ်သည်                  |
+| Code ကျွမ်းကျင်မှု | မလိုအပ်          | လိုအပ်                   |
+| ဖွံ့ဖြိုးမှုအချိန် | လွယ်ကူနှင့် မြန် | Code ကျွမ်းကျင်မှုအပေါ် မူတည် |
+| Production-ready  | မဟုတ်            | ဟုတ်                     |
 
-### 1.3 Heart Failure Dataset:
+### 1.3 Heart Failure Dataset: 
 
-Cardiovascular diseases (CVDs) သည် ကမ္ဘာတစ်ဝှမ်းတွင် သေဆုံးမှုအကြောင်းရင်းများအနက် အဆင့် ၁ ဖြစ်ပြီး ၃၁% အထိ သေဆုံးမှုများအတွက် တာဝန်ရှိသည်။  
-CVD ဖြစ်နိုင်ခြေကို ခန့်မှန်းရန် Tobacco အသုံးပြုမှု၊ အာဟာရမမှန်မှု၊ အလေးချိန်ပိုမှု၊ ရုပ်ပိုင်းဆိုင်ရာ မလှုပ်ရှားမှုနှင့် အရက်သောက်မှု စသည့် အချက်အလက်များကို အသုံးပြုနိုင်သည်။  
-CVD ဖြစ်နိုင်ခြေကို ခန့်မှန်းနိုင်ခြင်းသည် အန္တရာယ်ရှိသူများကို ကာကွယ်ရန် အထောက်အကူဖြစ်နိုင်သည်။
+Cardiovascular diseases (CVDs) သည် ကမ္ဘာ့သေဆုံးမှုများ၏ 31% ကို ဖြစ်စေသော အကြီးဆုံးအကြောင်းရင်းဖြစ်သည်။  
+တံငါ၊ မကျန်းမာသော အစားအစာ၊ အလေးချိန်ပိုများခြင်း၊ ရုပ်ပိုင်းဆိုင်ရာ မလှုပ်ရှားခြင်းနှင့် အရက်သောက်မှုများကဲ့သို့သော အပြင်ပနှင့် အပြုအမူဆိုင်ရာ အန္တရာယ်များကို estimation model များအတွက် feature အဖြစ် အသုံးပြုနိုင်သည်။  
+CVD ဖြစ်နိုင်ခြေကို ခန့်မှန်းနိုင်ခြင်းသည် အန္တရာယ်ရှိသော လူများကို ကာကွယ်ရန် အထောက်အကူပြုနိုင်သည်။
 
-Kaggle တွင် [Heart Failure dataset](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) ကို အများပြည်သူ အသုံးပြုနိုင်ရန် ထုတ်ဝေထားပြီး Project အတွက် အသုံးပြုမည်ဖြစ်သည်။ Dataset သည် 13 ကော်လံ (12 features နှင့် 1 target variable) နှင့် 299 rows ပါဝင်သည်။
+Kaggle တွင် [Heart Failure dataset](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) ကို အများပြည်သူအတွက် ရရှိနိုင်ပြီး project အတွက် အသုံးပြုမည်။  
+ဤ dataset သည် 13 ကော်လံ (12 features နှင့် 1 target variable) နှင့် 299 rows ပါဝင်သော tabular dataset ဖြစ်သည်။
 
 |    | Variable name             | Type            | Description                                               | Example           |
 |----|---------------------------|-----------------|-----------------------------------------------------------|-------------------|
 | 1  | age                       | numerical       | လူနာ၏ အသက်                                             | 25                |
-| 2  | anaemia                   | boolean         | အနီရောင်သွေးဆဲလ်များ သို့မဟုတ် Haemoglobin လျော့နည်းမှု | 0 or 1            |
-| 3  | creatinine_phosphokinase  | numerical       | သွေးထဲရှိ CPK အင်ဇိုင်း အဆင့်                          | 542               |
-| 4  | diabetes                  | boolean         | လူနာတွင် ဆီးချို ရှိ/မရှိ                               | 0 or 1            |
-| 5  | ejection_fraction         | numerical       | နှလုံးတစ်ခုခု ကျုံ့သွားစဉ် သွေးထွက်မှု ရာခိုင်နှုန်း   | 45                |
-| 6  | high_blood_pressure       | boolean         | လူနာတွင် သွေးတိုး ရှိ/မရှိ                              | 0 or 1            |
-| 7  | platelets                 | numerical       | သွေးထဲရှိ Platelets အရေအတွက်                          | 149000            |
-| 8  | serum_creatinine          | numerical       | သွေးထဲရှိ Serum Creatinine အဆင့်                       | 0.5               |
-| 9  | serum_sodium              | numerical       | သွေးထဲရှိ Serum Sodium အဆင့်                           | jun               |
-| 10 | sex                       | boolean         | အမျိုးသမီး/အမျိုးသား                                    | 0 or 1            |
+| 2  | anaemia                   | boolean         | အနီရောင်သွေးဆဲလ်များ သို့မဟုတ် haemoglobin လျော့နည်းခြင်း | 0 or 1            |
+| 3  | creatinine_phosphokinase  | numerical       | သွေးထဲရှိ CPK enzyme အဆင့်                              | 542               |
+| 4  | diabetes                  | boolean         | လူနာသည် ဆီးချိုရောဂါရှိ/မရှိ                          | 0 or 1            |
+| 5  | ejection_fraction         | numerical       | နှလုံး contraction တစ်ခုစီတွင် သွေးထွက်မှု ရာခိုင်နှုန်း | 45                |
+| 6  | high_blood_pressure       | boolean         | လူနာသည် သွေးတိုးရောဂါရှိ/မရှိ                          | 0 or 1            |
+| 7  | platelets                 | numerical       | သွေးထဲရှိ platelets အရေအတွက်                           | 149000            |
+| 8  | serum_creatinine          | numerical       | သွေးထဲရှိ serum creatinine အဆင့်                        | 0.5               |
+| 9  | serum_sodium              | numerical       | သွေးထဲရှိ serum sodium အဆင့်                            | jun               |
+| 10 | sex                       | boolean         | အမျိုးသမီး သို့မဟုတ် အမျိုးသား                          | 0 or 1            |
 | 11 | smoking                   | boolean         | လူနာသည် ဆေးလိပ်သောက်/မသောက်                           | 0 or 1            |
-| 12 | time                      | numerical       | လိုက်နာမှုကာလ (ရက်ပေါင်း)                              | 4                 |
+| 12 | time                      | numerical       | follow-up အချိန် (ရက်)                                   | 4                 |
 |----|---------------------------|-----------------|-----------------------------------------------------------|-------------------|
-| 21 | DEATH_EVENT [Target]      | boolean         | လိုက်နာမှုကာလအတွင်း လူနာ သေဆုံး/မသေဆုံး               | 0 or 1            |
+| 21 | DEATH_EVENT [Target]      | boolean         | follow-up အချိန်အတွင်း လူနာ သေဆုံး/မသေဆုံး               | 0 or 1            |
 
-Dataset ရရှိပြီးပါက Azure တွင် Project ကို စတင်နိုင်ပါပြီ။
+Dataset ရရှိပြီးပါက Azure တွင် project ကို စတင်နိုင်ပါသည်။
 
-## 2. Azure ML Studio တွင် Low code/No code နည်းလမ်းဖြင့် မော်ဒယ်ကို သင်ကြားခြင်း
-
+## 2. Azure ML Studio တွင် Low code/No code နည်းလမ်းဖြင့် မော်ဒယ်ကို လေ့ကျင့်ခြင်း
 ### 2.1 Azure ML workspace တစ်ခု ဖန်တီးခြင်း
+Azure ML တွင် မော်ဒယ်ကို လေ့ကျင့်ရန်အတွက် အရင်ဆုံး Azure ML workspace တစ်ခု ဖန်တီးရန် လိုအပ်သည်။  
+Workspace သည် Azure Machine Learning အတွက် အထက်ဆုံး resource ဖြစ်ပြီး ML လုပ်ငန်းစဉ်များနှင့် ဆက်စပ်သော artifacts များကို စီမံရန် အချက်အလက်များကို စုစည်းထားသည်။  
+Workspace သည် training run များ၏ မှတ်တမ်းများ၊ log များ၊ metrics များ၊ output များနှင့် script များ၏ snapshot ကို သိမ်းဆည်းထားသည်။  
+ဤအချက်အလက်များကို အသုံးပြု၍ အကောင်းဆုံး မော်ဒယ်ကို ဖန်တီးနိုင်သည်။ [ပိုမိုလေ့လာရန်](https://docs.microsoft.com/azure/machine-learning/concept-workspace?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
-Azure ML တွင် မော်ဒယ်ကို သင်ကြားရန်အတွက် အရင်ဆုံး Azure ML workspace တစ်ခု ဖန်တီးရန် လိုအပ်သည်။ Workspace သည် Azure Machine Learning အတွက် အထက်ဆုံးအရင်းအမြစ်ဖြစ်ပြီး သင်ဖန်တီးသည့် အရာအားလုံးကို စုစည်းထားသည်။  
-Workspace သည် သင်ကြားမှုလုပ်ငန်းစဉ်များ၏ မှတ်တမ်းများ (logs, metrics, output, scripts snapshot) ကို သိမ်းဆည်းထားပြီး အကောင်းဆုံး မော်ဒယ်ကို ရွေးချယ်ရန် အထောက်အကူဖြစ်သည်။ [ပိုမိုလေ့လာရန်](https://docs.microsoft.com/azure/machine-learning/concept-workspace?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
+အောက်ပါ browser များကို အသုံးပြုရန် အကြံပြုသည်:
 
-Azure ML workspace ဖန်တီးရန် အဆင့်များမှာ-
+- Microsoft Edge (နောက်ဆုံး version)
+- Safari (Mac အတွက် နောက်ဆုံး version)
+- Chrome (နောက်ဆုံး version)
+- Firefox (နောက်ဆုံး version)
 
-1. Microsoft အကောင့်ဖြင့် [Azure portal](https://ms.portal.azure.com/) သို့ ဝင်ပါ။
-2. **＋Create a resource** ကို ရွေးပါ။
+Azure Machine Learning ကို အသုံးပြုရန်အတွက် သင့် Azure subscription တွင် workspace တစ်ခု ဖန်တီးပါ။  
+ဤ workspace ကို ML workload များနှင့် ဆက်စပ်သော data, compute resources, code, models နှင့် artifacts များကို စီမံရန် အသုံးပြုနိုင်သည်။
+
+> **_မှတ်ချက်:_** Azure ML workspace ရှိနေသ zolang Azure subscription တွင် data storage အတွက် အနည်းငယ်ကုန်ကျစရိတ်ရှိမည်ဖြစ်သောကြောင့် workspace ကို မလိုအပ်တော့ပါက ဖျက်ရန် အကြံပြုသည်။
+
+1. [Azure portal](https://ms.portal.azure.com/) တွင် Microsoft credentials ဖြင့် လိုင်အင်ဝင်ပါ။
+2. **＋Create a resource** ကို ရွေးပါ
    
-   ![workspace-1](../../../../translated_images/workspace-1.ac8694d60b073ed1ae8333d71244dc8a9b3e439d54593724f98f1beefdd27b08.my.png)
+   ![workspace-1](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/workspace-1.PNG)
 
-   Machine Learning ကို ရှာပြီး Machine Learning tile ကို ရွေးပါ။
+   Machine Learning ကို ရှာပြီး Machine Learning tile ကို ရွေးပါ
 
-   ![workspace-2](../../../../translated_images/workspace-2.ae7c486db8796147075e4a56566aa819827dd6c4c8d18d64590317c3be625f17.my.png)
+   ![workspace-2](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/workspace-2.PNG)
 
-   Create ခလုတ်ကို နှိပ်ပါ။
+   Create button ကို နှိပ်ပါ
 
-   ![workspace-3](../../../../translated_images/workspace-3.398ca4a5858132cce584db9df10c5a011cd9075eb182e647a77d5cac01771eea.my.png)
+   ![workspace-3](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/workspace-3.PNG)
 
-   အောက်ပါအတိုင်း ပြည့်စုံစွာ ဖြည့်ပါ-
+   အောက်ပါအတိုင်း setting များကို ဖြည့်ပါ:
    - Subscription: သင့် Azure subscription
-   - Resource group: Resource group တစ်ခု ဖန်တီး/ရွေးချယ်ပါ
-   - Workspace name: သင့် workspace အတွက် တစ်ခုတည်းသောအမည်
-   - Region: သင့်အနီးဆုံး ဒေသ
-   - Storage account: Default storage account
-   - Key vault: Default key vault
-   - Application insights: Default application insights
-   - Container registry: မလိုအပ် (မော်ဒယ်ကို container သို့ တင်ပို့သောအခါ အလိုအလျောက် ဖန်တီးမည်)
+   - Resource group: Resource group တစ်ခု ဖန်တီးပါ သို့မဟုတ် ရွေးပါ
+   - Workspace name: သင့် workspace အတွက် ထူးခြားသော နာမည်တစ်ခု ထည့်ပါ
+   - Region: သင့်နီးစပ်သော ဒေသကို ရွေးပါ
+   - Storage account: Workspace အတွက် ဖန်တီးမည့် default storage account ကို မှတ်သားပါ
+   - Key vault: Workspace အတွက် ဖန်တီးမည့် default key vault ကို မှတ်သားပါ
+   - Application insights: Workspace အတွက် ဖန်တီးမည့် default application insights resource ကို မှတ်သားပါ
+   - Container registry: None (မော်ဒယ်ကို container သို့ တင်သွင်းသောအခါ အလိုအလျောက် ဖန်တီးမည်)
 
-    ![workspace-4](../../../../translated_images/workspace-4.bac87f6599c4df63e624fc2608990f965887bee551d9dedc71c687b43b986b6a.my.png)
+    ![workspace-4](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/workspace-4.PNG)
 
-   - Review + Create ကို နှိပ်ပြီး Create ခလုတ်ကို နှိပ်ပါ။
-3. Workspace ဖန်တီးမှု ပြီးဆုံးရန် စောင့်ပါ (မိနစ်အနည်းငယ်ကြာနိုင်သည်)။ ပြီးလျှင် Azure portal တွင် သင့် workspace ကို သွားပါ။
-4. Workspace ၏ Overview စာမျက်နှာတွင် Azure Machine Learning Studio ကို ဖွင့်ပါ (သို့မဟုတ် https://ml.azure.com သို့ သွားပါ)။ Microsoft အကောင့်ဖြင့် ဝင်ပါ။ Azure directory, subscription နှင့် Azure ML workspace ကို ရွေးပါ။
-   
-![workspace-5](../../../../translated_images/workspace-5.a6eb17e0a5e6420018b08bdaf3755ce977f96f1df3ea363d2476a9dce7e15adb.my.png)
+   - Create + review ကို နှိပ်ပြီး create button ကို နှိပ်ပါ
+3. Workspace ဖန်တီးမှုအတွက် မိနစ်အနည်းငယ် စောင့်ပါ။ ပြီးလျှင် portal တွင် workspace ကို သွားပါ။ Machine Learning Azure service မှတစ်ဆင့် ရှာနိုင်သည်။
+4. Workspace ၏ Overview စာမျက်နှာတွင် Azure Machine Learning studio ကို ဖွင့်ပါ (သို့မဟုတ် browser tab အသစ်တွင် https://ml.azure.com သို့ သွားပါ)။ Microsoft account ဖြင့် ML studio တွင် လိုင်အင်ဝင်ပါ။  
+   Azure directory, subscription နှင့် ML workspace ကို ရွေးပါ။
 
-5. Azure Machine Learning Studio တွင် ☰ icon ကို နှိပ်ပြီး interface ၏ စာမျက်နှာများကို ကြည့်ပါ။ Workspace ရှိ အရင်းအမြစ်များကို စီမံရန် စာမျက်နှာများကို အသုံးပြုနိုင်သည်။
+![workspace-5](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/workspace-5.PNG)
 
-![workspace-6](../../../../translated_images/workspace-6.8dd81fe841797ee17f8f73916769576260b16c4e17e850d277a49db35fd74a15.my.png)
+5. Azure Machine Learning studio တွင် ☰ icon ကို အပေါ်ဘက်တွင် toggle လုပ်ပြီး interface ၏ စာမျက်နှာများကို ကြည့်ပါ။  
+   Workspace resources များကို စီမံရန် ဤစာမျက်နှာများကို အသုံးပြုနိုင်သည်။
 
-Data Scientist များနှင့် Machine Learning Operations Engineer များအတွက် Azure Machine Learning Studio သည် Workspace အရင်းအမြစ်များကို စီမံရန် ပိုမိုအာရုံစိုက်သော interface ကို ပံ့ပိုးပေးသည်။
+![workspace-6](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/workspace-6.PNG)
+
+Azure portal ကို အသုံးပြု၍ workspace ကို စီမံနိုင်သော်လည်း data scientist များနှင့် ML operations engineer များအတွက် Azure Machine Learning Studio သည် workspace resources များကို စီမံရန် ပိုမိုအာရုံစိုက်သော user interface ကို ပေးသည်။
 
 ### 2.2 Compute Resources
 
-Compute Resources သည် မော်ဒယ်သင်ကြားမှုနှင့် ဒေတာစူးစမ်းမှုလုပ်ငန်းစဉ်များကို လုပ်ဆောင်ရန် cloud-based အရင်းအမြစ်များဖြစ်သည်။ Compute Resources မျိုးစုံရှိသည်-
+Compute Resources သည် cloud-based resource များဖြစ်ပြီး ML မော်ဒယ်လေ့ကျင့်ခြင်းနှင့် data စူးစမ်းမှုလုပ်ငန်းစဉ်များကို run လုပ်ရန် အသုံးပြုနိုင်သည်။  
+Compute resource များတွင် အောက်ပါအမျိုးအစား ၄ မျိုး ပါဝင်သည်:
 
-- **Compute Instances**: Data Scientist များအတွက် ဖွံ့ဖြိုးရေး workstation များ။
-- **Compute Clusters**: Scalable VM cluster များ။
-- **Inference Clusters**: သင့်မော်ဒယ်များကို အသုံးပြုသည့် predictive services များအတွက် Deployment Targets။
-- **Attached Compute**: Azure ရဲ့ရှိပြီးသား Compute အရင်းအမြစ်များ (ဥပမာ Virtual Machines သို့မဟုတ် Azure Databricks clusters) နှင့်ချိတ်ဆက်သည်။
+- **Compute Instances**: Data scientist များအတွက် development workstation များဖြစ်ပြီး Virtual Machine (VM) တစ်ခု ဖန်တီးပြီး notebook instance ကို ဖွင့်နိုင်သည်။ Notebook မှ compute cluster ကို ခေါ်ပြီး မော်ဒယ်ကို လေ့ကျင့်နိုင်သည်။
+- **Compute Clusters**: VM များ၏ scalable cluster များဖြစ်ပြီး experiment code ကို on-demand ဖြင့် process လုပ်ရန် အသုံးပြုသည်။  
+   မော်ဒယ်ကို လေ့ကျင့်ရန်
+- **Attached Compute**: Azure ရဲ့ Virtual Machines သို့မဟုတ် Azure Databricks clusters ကဲ့သို့သော ရှိပြီးသား Azure compute resources များနှင့် ချိတ်ဆက်ထားသည်။
 
-#### 2.2.1 သင့် Compute အရင်းအမြစ်များအတွက်မှန်ကန်သောရွေးချယ်မှုများကိုရွေးချယ်ခြင်း
+#### 2.2.1 သင့် compute resources အတွက် ရွေးချယ်မှုများကို မှန်ကန်စွာ ရွေးချယ်ခြင်း
 
-Compute အရင်းအမြစ်တစ်ခုကိုဖန်တီးရာတွင်စဉ်းစားရမည့်အချက်အချို့ရှိပြီး၊ အဲဒီရွေးချယ်မှုများသည်အရေးကြီးသောဆုံးဖြတ်ချက်များဖြစ်နိုင်သည်။
+Compute resource တစ်ခုကို ဖန်တီးရာတွင် အရေးကြီးသော ဆုံးဖြတ်ချက်များကို လုပ်ဆောင်ရန် အဓိကအချက်အချို့ကို စဉ်းစားရန် လိုအပ်သည်။
 
-**သင့်အား CPU လိုအပ်ပါသလား၊ GPU လိုအပ်ပါသလား?**
+**CPU သို့မဟုတ် GPU လိုအပ်ပါသလား?**
 
-CPU (Central Processing Unit) သည် ကွန်ပျူတာပရိုဂရမ်တစ်ခု၏အမိန့်များကို အကောင်အထည်ဖော်ဆောင်ရွက်သည့် အီလက်ထရွန်နစ်စက်ကိရိယာဖြစ်သည်။ GPU (Graphics Processing Unit) သည် ဂရပ်ဖစ်ဆိုင်ရာကုဒ်များကို အလွန်မြန်ဆန်စွာဆောင်ရွက်နိုင်သည့် အထူးပြုအီလက်ထရွန်နစ်စက်ကိရိယာဖြစ်သည်။
+CPU (Central Processing Unit) သည် ကွန်ပျူတာပရိုဂရမ်၏ အမိန့်များကို အကောင်အထည်ဖော်ဆောင်ရွက်သော အီလက်ထရောနစ် စက်ကိရိယာဖြစ်သည်။ GPU (Graphics Processing Unit) သည် အမြန်နှုန်းမြင့်သော rate ဖြင့် ဂရပ်ဖစ်ဆိုင်ရာ ကုဒ်များကို ဆောင်ရွက်နိုင်သော အထူးပြု အီလက်ထရောနစ် စက်ကိရိယာဖြစ်သည်။
 
-CPU နှင့် GPU အဆောက်အဦးအကြားအဓိကကွာခြားချက်မှာ CPU သည် အလုပ်အမျိုးမျိုးကို မြန်ဆန်စွာ (CPU clock speed ဖြင့်တိုင်းတာသည်) ဆောင်ရွက်ရန်ဒီဇိုင်းပြုလုပ်ထားပြီး၊ တစ်ချိန်တည်းတွင်လုပ်ဆောင်နိုင်သည့်အလုပ်အရေအတွက်မှာ ကန့်သတ်ထားသည်။ GPU များသည် ပျမ်းမျှလုပ်ဆောင်မှုအတွက်ဒီဇိုင်းပြုလုပ်ထားပြီး၊ အထူးသဖြင့် Deep Learning အလုပ်များအတွက်ပိုမိုထူးချွန်သည်။
+CPU နှင့် GPU architecture အကြား အဓိကကွာခြားချက်မှာ CPU သည် tasks များကို အမြန်နှုန်းမြင့် (CPU clock speed ဖြင့် တိုင်းတာသည်) ဖြင့် ဆောင်ရွက်ရန် အတွက် ဒီဇိုင်းထုတ်ထားပြီး တစ်ချိန်တည်းတွင် ဆောင်ရွက်နိုင်သော tasks များအရေအတွက်မှာ ကန့်သတ်ထားသည်။ GPU များသည် parallel computing အတွက် ဒီဇိုင်းထုတ်ထားပြီး deep learning tasks များတွင် ပိုမိုထူးချွန်သည်။
 
 | CPU                                     | GPU                         |
 |-----------------------------------------|-----------------------------|
-| စျေးနှုန်းသက်သာသည်                        | စျေးနှုန်းပိုကြီးသည်              |
-| လုပ်ဆောင်မှုတစ်ခုချင်းစီအတွက် concurrency နည်းသည် | concurrency များသည်          |
-| Deep Learning မော်ဒယ်များကိုလေ့ကျင့်ရာတွင်နှေးသည် | Deep Learning အတွက်အကောင်းဆုံး |
+| စျေးနှုန်းသက်သာ                          | စျေးနှုန်းမြင့်              |
+| Concurrency အဆင့်နိမ့်                  | Concurrency အဆင့်မြင့်       |
+| Deep learning models များကို လေ့ကျင့်ရာတွင် နှေး | Deep learning အတွက် အကောင်းဆုံး |
 
 **Cluster Size**
 
-Cluster အရွယ်အစားကြီးလေ၊ စျေးကြီးလေ၊ သို့သော် တုံ့ပြန်မှုကပိုကောင်းလိမ့်မည်။ ထို့ကြောင့် အချိန်ရှိပြီး ငွေမလုံလောက်ပါက Cluster အသေးကိုစတင်သင့်သည်။ အချိန်မရှိဘဲ ငွေရှိပါက Cluster ကြီးကိုစတင်သင့်သည်။
+Cluster အရွယ်အစားကြီးသည် စျေးကြီးသော်လည်း ပိုမိုတုံ့ပြန်မှုကောင်းမွန်စေသည်။ ထို့ကြောင့် အချိန်ရှိပြီး ငွေမလုံလောက်ပါက cluster သေးငယ်ကို စတင်သင့်သည်။ အချိန်မရှိဘဲ ငွေရှိပါက cluster ကြီးကို စတင်သင့်သည်။
 
 **VM Size**
 
-သင့်အချိန်နှင့်ဘဏ္ဍာရေးကန့်သတ်ချက်များပေါ်မူတည်၍ RAM, disk, core အရေအတွက်နှင့် clock speed အရွယ်အစားကိုပြောင်းလဲနိုင်သည်။ အဲဒီ parameter အားလုံးကိုတိုးမြှင့်ခြင်းသည် စျေးကြီးသော်လည်း၊ စွမ်းဆောင်ရည်ပိုမိုကောင်းမွန်စေမည်။
+RAM, disk, core အရေအတွက်နှင့် clock speed အရွယ်အစားကို သင့်အချိန်နှင့် ဘတ်ဂျက်အကန့်အသတ်အပေါ် မူတည်၍ ပြောင်းလဲနိုင်သည်။ အဆိုပါ parameters များအားလုံးကို တိုးမြှင့်ခြင်းသည် စျေးကြီးသော်လည်း performance ကောင်းမွန်စေသည်။
 
 **Dedicated သို့မဟုတ် Low-Priority Instances?**
 
-Low-priority instance သည် interruptible ဖြစ်သည်။ အဓိပ္ပါယ်မှာ Microsoft Azure သည် အရင်းအမြစ်များကိုအခြားအလုပ်တစ်ခုအတွက်သုံးနိုင်ပြီး၊ သင့်အလုပ်ကိုရပ်တန့်စေနိုင်သည်။ Dedicated instance သည် interruptible မဟုတ်သည့်အလုပ်ဖြစ်ပြီး၊ သင့်ခွင့်ပြုချက်မရှိဘဲ အလုပ်ကိုရပ်တန့်မည်မဟုတ်ပါ။ 
+Low-priority instance သည် interruptible ဖြစ်သည်။ Microsoft Azure သည် အဆိုပါ resources များကို အခြား task တစ်ခုသို့ ပေးအပ်နိုင်ပြီး job ကို ခေတ္တရပ်တန့်စေသည်။ Dedicated instance သို့မဟုတ် non-interruptible သည် သင့်ခွင့်ပြုချက်မရှိဘဲ job ကို ရပ်တန့်မည်မဟုတ်ပါ။ 
 
-ဤရွေးချယ်မှုသည် အချိန်နှင့်ငွေကြားအချိုးအစားဖြစ်ပြီး၊ interruptible instances များသည် Dedicated instances များထက်စျေးသက်သာသည်။
+ဤသည်မှာ အချိန်နှင့် ငွေကြား ဆုံးဖြတ်ချက်တစ်ခုဖြစ်ပြီး interruptible instances များသည် dedicated instances များထက် စျေးသက်သာသည်။
 
-#### 2.2.2 Compute Cluster ဖန်တီးခြင်း
+#### 2.2.2 Compute cluster ဖန်တီးခြင်း
 
-[Azure ML workspace](https://ml.azure.com/) တွင် Compute ကိုသွားပြီး၊ Compute အရင်းအမြစ်အမျိုးမျိုး (ဥပမာ Compute instances, Compute clusters, Inference clusters, Attached compute) ကိုကြည့်နိုင်သည်။ ဤပရောဂျက်အတွက် မော်ဒယ်လေ့ကျင့်ရန် Compute Cluster တစ်ခုလိုအပ်မည်။ Studio တွင် "Compute" မီနူးကိုနှိပ်ပြီး၊ "Compute cluster" tab ကိုရွေးပါ၊ "+ New" ခလုတ်ကိုနှိပ်ပြီး Compute Cluster တစ်ခုဖန်တီးပါ။
+[Azure ML workspace](https://ml.azure.com/) တွင် compute ကို သွားပြီး compute instances, compute clusters, inference clusters နှင့် attached compute ကဲ့သို့သော compute resources များကို ကြည့်ရှုနိုင်သည်။ ဤ project အတွက် model training အတွက် compute cluster တစ်ခုလိုအပ်သည်။ Studio တွင် "Compute" menu ကို click လုပ်ပြီး "Compute cluster" tab ကို ရွေးချယ်ပါ။ "+ New" button ကို click လုပ်၍ compute cluster တစ်ခု ဖန်တီးပါ။
 
-![22](../../../../translated_images/cluster-1.b78cb630bb543729b11f60c34d97110a263f8c27b516ba4dc47807b3cee5579f.my.png)
+![22](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/cluster-1.PNG)
 
-1. သင့်ရွေးချယ်မှုများကိုရွေးပါ - Dedicated vs Low priority, CPU သို့မဟုတ် GPU, VM အရွယ်အစားနှင့် core အရေအတွက် (ဤပရောဂျက်အတွက် default setting များကိုထားနိုင်သည်)။
-2. Next ခလုတ်ကိုနှိပ်ပါ။
+1. Dedicated vs Low priority, CPU or GPU, VM size နှင့် core အရေအတွက်ကို ရွေးချယ်ပါ (ဤ project အတွက် default settings ကို ထားနိုင်သည်)။
+2. Next button ကို click လုပ်ပါ။
 
-![23](../../../../translated_images/cluster-2.ea30cdbc9f926bb9e05af3fdbc1f679811c796dc2a6847f935290aec15526e88.my.png)
+![23](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/cluster-2.PNG)
 
-3. Cluster ကို Compute အမည်တစ်ခုပေးပါ။
-4. သင့်ရွေးချယ်မှုများကိုရွေးပါ - Minimum/Maximum node အရေအတွက်၊ Idle seconds before scale down, SSH access။ Minimum node အရေအတွက် 0 ဖြစ်ပါက Cluster idle ဖြစ်နေစဉ်ငွေသက်သာမည်။ Maximum node အရေအတွက်မြင့်မားလေ Training အချိန်ပိုမိုတိုတောင်းမည်။ အများဆုံး node အရေအတွက်အကြံပြုချက်မှာ 3 ဖြစ်သည်။
-5. "Create" ခလုတ်ကိုနှိပ်ပါ။ ဤအဆင့်သည် မိနစ်အနည်းငယ်ကြာနိုင်သည်။
+3. Cluster ကို compute name တစ်ခုပေးပါ။
+4. Minimum/Maximum nodes အရေအတွက်, Idle seconds before scale down, SSH access ကို ရွေးချယ်ပါ။ Minimum nodes အရေအတွက် 0 ဖြစ်ပါက cluster idle ဖြစ်နေစဉ် ငွေသက်သာစေပါသည်။ Maximum nodes အရေအတွက်မြင့်မားသည် training အချိန်ကို လျှော့ချစေပါသည်။ Maximum nodes အရေအတွက်အများဆုံး 3 ဖြစ်သည်။
+5. "Create" button ကို click လုပ်ပါ။ ဤအဆင့်သည် မိနစ်အနည်းငယ်ကြာနိုင်သည်။
 
-![29](../../../../translated_images/cluster-3.8a334bc070ec173a329ce5abd2a9d727542e83eb2347676c9af20f2c8870b3e7.my.png)
+![29](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/cluster-3.PNG)
 
-အံ့သြဖွယ်! ယခု Compute Cluster ရှိပြီးသည့်အတွက်၊ ဒေတာကို Azure ML Studio သို့တင်ရမည်။
+အံ့မခန်းပါ! ယခု Compute cluster ရှိပြီးဖြစ်သောကြောင့် Azure ML Studio သို့ data ကို load လုပ်ရန် လိုအပ်ပါသည်။
 
-### 2.3 Dataset တင်ခြင်း
+### 2.3 Dataset ကို Load လုပ်ခြင်း
 
-1. [Azure ML workspace](https://ml.azure.com/) တွင် "Datasets" ကိုနှိပ်ပြီး၊ "+ Create dataset" ခလုတ်ကိုနှိပ်ပါ။ "From local files" ရွေးပြီး၊ ယခင်ကဒေါင်းလုပ်လုပ်ထားသော Kaggle dataset ကိုရွေးပါ။
+1. [Azure ML workspace](https://ml.azure.com/) တွင် "Datasets" ကို click လုပ်ပြီး "+ Create dataset" button ကို click လုပ်ပါ။ "From local files" option ကို ရွေးချယ်ပြီး ယခင်က download လုပ်ထားသော Kaggle dataset ကို ရွေးပါ။
 
-   ![24](../../../../translated_images/dataset-1.e86ab4e10907a6e9c2a72577b51db35f13689cb33702337b8b7032f2ef76dac2.my.png)
+   ![24](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/dataset-1.PNG)
 
-2. သင့် dataset ကို အမည်၊ အမျိုးအစားနှင့် ဖော်ပြချက်ပေးပါ။ Next ကိုနှိပ်ပါ။ ဖိုင်များမှဒေတာတင်ပါ။ Next ကိုနှိပ်ပါ။
+2. Dataset ကို name, type နှင့် description ပေးပါ။ Next ကို click လုပ်ပါ။ Files မှ data ကို upload လုပ်ပါ။ Next ကို click လုပ်ပါ။
 
-   ![25](../../../../translated_images/dataset-2.f58de1c435d5bf9ccb16ccc5f5d4380eb2b50affca85cfbf4f97562bdab99f77.my.png)
+   ![25](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/dataset-2.PNG)
 
-3. Schema တွင် anaemia, diabetes, high blood pressure, sex, smoking, DEATH_EVENT စသည့် feature များအတွက် data type ကို Boolean သို့ပြောင်းပါ။ Next နှိပ်ပြီး Create ကိုနှိပ်ပါ။
+3. Schema တွင် anaemia, diabetes, high blood pressure, sex, smoking, နှင့် DEATH_EVENT အတွက် data type ကို Boolean သို့ ပြောင်းပါ။ Next ကို click လုပ်ပြီး Create ကို click လုပ်ပါ။
 
-   ![26](../../../../translated_images/dataset-3.58db8c0eb783e89236a02bbce5bb4ba808d081a87d994d5284b1ae59928c95bf.my.png)
+   ![26](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/dataset-3.PNG)
 
-အံ့သြဖွယ်! Dataset ကိုတင်ပြီး၊ Compute Cluster ကိုဖန်တီးပြီးဖြစ်သောကြောင့်၊ ယခုမော်ဒယ်လေ့ကျင့်မှုကိုစတင်နိုင်ပါပြီ။
+အလွန်ကောင်းမွန်ပါသည်! Dataset ရှိပြီး Compute cluster ဖန်တီးပြီးဖြစ်သောကြောင့် model training ကို စတင်နိုင်ပါပြီ!
 
-### 2.4 AutoML ဖြင့် Low code/No Code လေ့ကျင့်ခြင်း
+### 2.4 AutoML ဖြင့် Low code/No Code training
 
-စံမှန်သော Machine Learning မော်ဒယ်ဖွံ့ဖြိုးတိုးတက်မှုသည် အချိန်နှင့်အရင်းအမြစ်များအလွန်လိုအပ်ပြီး၊ မော်ဒယ်များစွာကိုဖန်တီးပြီးနှိုင်းယှဉ်ရန်အချိန်ကြာသည်။ Automated Machine Learning (AutoML) သည် ML မော်ဒယ်ဖွံ့ဖြိုးတိုးတက်မှု၏ အချိန်စားသောလုပ်ငန်းစဉ်များကို အလိုအလျောက်လုပ်ဆောင်ပေးသည်။ AutoML သည် ML မော်ဒယ်များကို အမြင့်ဆုံးစွမ်းဆောင်ရည်၊ ထိရောက်မှုနှင့် ထုတ်လုပ်မှုဖြင့် ဖန်တီးရန်ကူညီပေးသည်။ [ပိုမိုလေ့လာရန်](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
+Traditional machine learning model ဖွံ့ဖြိုးတိုးတက်မှုသည် အရင်းအမြစ်များကို အလွန်လိုအပ်ပြီး domain knowledge နှင့် အချိန်များကို model များစွာ ဖန်တီးနှိုင်းယှဉ်ရန် လိုအပ်သည်။ Automated machine learning (AutoML) သည် machine learning model ဖွံ့ဖြိုးတိုးတက်မှု၏ အချိန်စား iterative tasks များကို အလိုအလျောက်လုပ်ဆောင်ခြင်းဖြစ်သည်။ 
 
-1. [Azure ML workspace](https://ml.azure.com/) တွင် "Automated ML" ကိုနှိပ်ပြီး၊ သင့်တင်ထားသော dataset ကိုရွေးပါ။ Next ကိုနှိပ်ပါ။
+AutoML သည် data scientists, analysts, နှင့် developers များကို ML models များကို အမြင့်ဆုံး scale, efficiency, နှင့် productivity ဖြင့် ဖန်တီးရန် ခွင့်ပြုသည်။ [Learn more](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
-   ![27](../../../../translated_images/aml-1.67281a85d3a1e2f34eb367b2d0f74e1039d13396e510f363cd8766632106d1ec.my.png)
+1. [Azure ML workspace](https://ml.azure.com/) တွင် "Automated ML" ကို click လုပ်ပြီး upload လုပ်ထားသော dataset ကို ရွေးပါ။ Next ကို click လုပ်ပါ။
 
-2. အသစ်သော experiment အမည်၊ target column (DEATH_EVENT) နှင့် Compute Cluster ကိုရွေးပါ။ Next ကိုနှိပ်ပါ။
+   ![27](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/aml-1.PNG)
 
-   ![28](../../../../translated_images/aml-2.c9fb9cffb39ccbbe21ab9810ae937195d41a489744e15cff2b8477ed4dcae1ec.my.png)
+2. Experiment name အသစ်, target column (DEATH_EVENT) နှင့် ဖန်တီးထားသော compute cluster ကို ထည့်ပါ။ Next ကို click လုပ်ပါ။
 
-3. "Classification" ကိုရွေးပြီး Finish ကိုနှိပ်ပါ။ ဤအဆင့်သည် သင့် Compute Cluster အရွယ်အစားပေါ်မူတည်၍ 30 မိနစ်မှ 1 နာရီကြာနိုင်သည်။
+   ![28](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/aml-2.PNG)
 
-   ![30](../../../../translated_images/aml-3.a7952e4295f38cc6cdb0c7ed6dc71ea756b7fb5697ec126bc1220f87c5fa9231.my.png)
+3. "Classification" ကို ရွေးပြီး Finish ကို click လုပ်ပါ။ ဤအဆင့်သည် compute cluster size အပေါ်မူတည်၍ 30 မိနစ်မှ 1 နာရီကြား ကြာနိုင်သည်။
 
-4. Run ပြီးဆုံးသောအခါ "Automated ML" tab ကိုနှိပ်ပြီး၊ သင့် Run ကိုနှိပ်ပါ။ "Best model summary" ကဒ်တွင် Algorithm ကိုနှိပ်ပါ။
+    ![30](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/aml-3.PNG)
 
-   ![31](../../../../translated_images/aml-4.7a627e09cb6f16d0aa246059d9faee3d1725cc4258d0c8df15e801f73afc7e2c.my.png)
+4. Run ပြီးဆုံးသောအခါ "Automated ML" tab ကို click လုပ်ပြီး run ကို click လုပ်ပါ။ "Best model summary" card တွင် Algorithm ကို click လုပ်ပါ။
 
-ဒီမှာ AutoML ဖန်တီးထားသောအကောင်းဆုံးမော်ဒယ်၏အသေးစိတ်ဖော်ပြချက်ကိုကြည့်နိုင်သည်။ Models tab တွင်အခြားမော်ဒယ်များကိုလည်းလေ့လာနိုင်သည်။ Explanations (preview) ခလုတ်ကိုနှိပ်ပြီး မော်ဒယ်များကိုလေ့လာရန်အချိန်ယူပါ။ AutoML ရွေးချယ်ထားသောအကောင်းဆုံးမော်ဒယ်ကိုရွေးပြီး၊ Deployment အဆင့်သို့သွားပါမည်။
+    ![31](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/aml-4.PNG)
 
-## 3. Low code/No Code မော်ဒယ် Deployment နှင့် Endpoint အသုံးပြုမှု
-### 3.1 Model Deployment
+ဒီနေရာတွင် AutoML ဖန်တီးထားသော အကောင်းဆုံး model ၏ အသေးစိတ်ဖော်ပြချက်ကို ကြည့်ရှုနိုင်ပါသည်။ Models tab တွင် ဖန်တီးထားသော အခြား mode များကိုလည်း စူးစမ်းနိုင်ပါသည်။ Explanations (preview button) တွင် models များကို စစ်ဆေးရန် အချိန်ယူပါ။ AutoML ရွေးချယ်ထားသော အကောင်းဆုံး model ကို ရွေးချယ်ပြီး deployment လုပ်ပုံကို ကြည့်ရှုမည်။
 
-Automated Machine Learning Interface သည် အကောင်းဆုံးမော်ဒယ်ကို Web Service အဖြစ် Deployment ပြုလုပ်ရန် လွယ်ကူသောအဆင့်အနည်းငယ်ဖြင့်လုပ်ဆောင်နိုင်သည်။ Deployment သည် မော်ဒယ်ကိုအသစ်သောဒေတာများအပေါ်မူတည်၍ ခန့်မှန်းချက်များပြုလုပ်ရန်အIntegration ဖြစ်သည်။ 
+## 3. Low code/No Code model deployment နှင့် endpoint consumption
+### 3.1 Model deployment
 
-အကောင်းဆုံးမော်ဒယ်ဖော်ပြချက်တွင် "Deploy" ခလုတ်ကိုနှိပ်ပါ။
+Automated machine learning interface သည် အကောင်းဆုံး model ကို web service အဖြစ် deployment လုပ်ရန် အဆင့်အနည်းငယ်ဖြင့် ခွင့်ပြုသည်။ Deployment သည် model ကို အသစ်သော data အပေါ် အတိအကျခန့်မှန်းနိုင်ရန်နှင့် အခွင့်အလမ်းများကို ရှာဖွေရန် အIntegration ဖြစ်သည်။ 
 
-![deploy-1](../../../../translated_images/deploy-1.ddad725acadc84e34553c3d09e727160faeb32527a9fb8b904c0f99235a34bb6.my.png)
+Best model description တွင် "Deploy" button ကို click လုပ်ပါ။
 
-15. အမည်၊ ဖော်ပြချက်၊ Compute အမျိုးအစား (Azure Container Instance) ကိုပေးပြီး Authentication ကိုဖွင့်ပါ။ Deploy ကိုနှိပ်ပါ။ Deployment အဆင့်သည် 20 မိနစ်ခန့်ကြာနိုင်သည်။ Deployment အခြေအနေကို Refresh နှိပ်ပြီးစစ်ဆေးပါ။ "Healthy" ဖြစ်သောအခါ Deployment ပြီးဆုံးသည်။
+![deploy-1](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/deploy-1.PNG)
 
-![deploy-2](../../../../translated_images/deploy-2.94dbb13f239086473aa4bf814342fd40483d136849b080f02bafbb995383940e.my.png)
+15. Name, description, compute type (Azure Container Instance), authentication ကို enable လုပ်ပြီး Deploy ကို click လုပ်ပါ။ ဤအဆင့်သည် 20 မိနစ်ခန့် ကြာနိုင်သည်။ Deployment process တွင် model ကို register လုပ်ခြင်း၊ resources များကို ဖန်တီးခြင်းနှင့် web service အတွက် configure လုပ်ခြင်းတို့ ပါဝင်သည်။ Deploy status အောက်တွင် status message တစ်ခု ပေါ်လာသည်။ Refresh ကို အကြိမ်ကြိမ် click လုပ်၍ deployment status ကို စစ်ဆေးပါ။ Status "Healthy" ဖြစ်သောအခါ deployment ပြီးဆုံးပြီး run ဖြစ်နေသည်။
 
-16. Deployment ပြီးဆုံးသောအခါ Endpoint tab ကိုနှိပ်ပြီး၊ သင့် Deployment Endpoint ကိုနှိပ်ပါ။ Endpoint အကြောင်းအသေးစိတ်ကိုဒီမှာကြည့်နိုင်သည်။
+![deploy-2](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/deploy-2.PNG)
 
-![deploy-3](../../../../translated_images/deploy-3.fecefef070e8ef3b28e802326d107f61ac4e672d20bf82d05f78d025f9e6c611.my.png)
+16. Deployment ပြီးဆုံးသောအခါ Endpoint tab ကို click လုပ်ပြီး deploy လုပ်ထားသော endpoint ကို click လုပ်ပါ။ Endpoint အကြောင်းအသေးစိတ်ကို ဒီနေရာတွင် ကြည့်ရှုနိုင်ပါသည်။
 
-အံ့သြဖွယ်! ယခုမော်ဒယ်ကို Deployment ပြုလုပ်ပြီးဖြစ်သောကြောင့်၊ Endpoint ကိုအသုံးပြုနိုင်ပါပြီ။
+![deploy-3](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/deploy-3.PNG)
 
-### 3.2 Endpoint အသုံးပြုမှု
+အံ့မခန်းပါ! Model ကို deploy လုပ်ပြီးဖြစ်သောကြောင့် endpoint consumption ကို စတင်နိုင်ပါပြီ။
 
-"Consume" tab ကိုနှိပ်ပါ။ REST Endpoint နှင့် Python Script ကိုဒီမှာတွေ့နိုင်သည်။ Python Code ကိုဖတ်ရန်အချိန်ယူပါ။
+### 3.2 Endpoint consumption
 
-ဒီ Script ကိုသင့် Local Machine မှတစ်ဆင့်တိုက်ရိုက် Run လုပ်ပြီး Endpoint ကိုအသုံးပြုနိုင်သည်။
+"Consume" tab ကို click လုပ်ပါ။ REST endpoint နှင့် consumption option တွင် python script ကို တွေ့နိုင်ပါသည်။ Python code ကို အချိန်ယူဖတ်ပါ။
 
-![35](../../../../translated_images/consumption-1.700abd196452842a020c7d745908637a6e4c5c50494ad1217be80e283e0de154.my.png)
+ဤ script ကို သင့် local machine မှ တိုက်ရိုက် run လုပ်နိုင်ပြီး endpoint ကို consume လုပ်ပါမည်။
 
-ဒီလို Code ကိုစစ်ဆေးပါ -
+![35](../../../../5-Data-Science-In-Cloud/18-Low-Code/images/consumption-1.PNG)
+
+ဤကုဒ်၏ 2 လိုင်းကို စစ်ဆေးပါ:
 
 ```python
 url = 'http://98e3715f-xxxx-xxxx-xxxx-9ec22d57b796.centralus.azurecontainer.io/score'
 api_key = '' # Replace this with the API key for the web service
-```
-`url` variable သည် Consume tab တွင်တွေ့ရသော REST Endpoint ဖြစ်ပြီး၊ `api_key` variable သည် Primary Key ဖြစ်သည် (Authentication ဖွင့်ထားပါကเท่านั้น)။ Script သည် Endpoint ကိုဒီလိုအသုံးပြုသည်။
+```  
+`url` variable သည် consume tab တွင် တွေ့ရသော REST endpoint ဖြစ်ပြီး `api_key` variable သည် consume tab တွင် တွေ့ရသော primary key ဖြစ်သည် (authentication ကို enable လုပ်ထားသောအခါတွင်သာပါဝင်သည်)။ Script သည် endpoint ကို consume လုပ်ပုံမှာ ဤပုံစံဖြစ်သည်။
 
-18. Script ကို Run လုပ်ပါက အောက်ပါအဖြေကိုတွေ့ရမည် -
+18. Script ကို run လုပ်ပါက အောက်ပါ output ကို တွေ့ရမည်:
     ```python
     b'"{\\"result\\": [true]}"'
-    ```
-ဒီအဓိပ္ပါယ်မှာ ပေးထားသောဒေတာအပေါ်မူတည်၍ Heart Failure ဖြစ်နိုင်ခြေရှိသည်ဟုခန့်မှန်းသည်။ Script တွင် Default အနေဖြင့် အားလုံး 0 နှင့် False ဖြစ်နေသည်ကိုသတိပြုပါ။ အောက်ပါ Input Sample ဖြင့်ဒေတာကိုပြောင်းနိုင်သည် -
+    ```  
+ဤသည်မှာ heart failure အတွက် prediction သည် true ဖြစ်ကြောင်းကို ဆိုလိုသည်။ Script တွင် default data အားလုံးသည် 0 နှင့် false ဖြစ်နေသောကြောင့် ဤအချက်အလက်သည် make sense ဖြစ်သည်။ Input sample အောက်ပါအတိုင်း data ကို ပြောင်းလဲနိုင်သည်:
 
 ```python
 data = {
@@ -319,32 +339,32 @@ data = {
         },
     ],
 }
-```
-Script သည် အောက်ပါအဖြေကိုပြန်ပေးမည် -
+```  
+Script သည် အောက်ပါ output ကို ပြန်ပေးမည်:
     ```python
     b'"{\\"result\\": [true, false]}"'
-    ```
+    ```  
 
-ဂုဏ်ယူပါတယ်! သင်သည် Azure ML တွင် မော်ဒယ်ကိုလေ့ကျင့်ပြီး၊ Deployment ပြုလုပ်ပြီး၊ Endpoint ကိုအသုံးပြုနိုင်ခဲ့ပါပြီ။
+ဂုဏ်ယူပါတယ်! Azure ML တွင် model ကို train လုပ်ပြီး deploy လုပ်ပြီး consume လုပ်ပြီးဖြစ်ပါပြီ!
 
-> **_မှတ်ချက်:_** ပရောဂျက်ပြီးဆုံးပါက Resource အားလုံးကိုဖျက်ရန်မမေ့ပါနှင့်။
-## 🚀 စိန်ခေါ်မှု
+> **_NOTE:_** Project ပြီးဆုံးသောအခါ resources အားလုံးကို delete လုပ်ရန် မမေ့ပါနှင့်။
+## 🚀 Challenge
 
-AutoML ဖန်တီးထားသောအကောင်းဆုံးမော်ဒယ်နှင့်အခြားမော်ဒယ်များကိုနှိုင်းယှဉ်ကြည့်ပါ။ အကောင်းဆုံးမော်ဒယ်သည်ဘာကြောင့်ပိုကောင်းသနည်းဆိုတာကိုနားလည်ရန်ကြိုးစားပါ။ ဘယ် Algorithm များကိုနှိုင်းယှဉ်ခဲ့သလဲ? အကောင်းဆုံးမော်ဒယ်သည်ဘာကြောင့်ဤအခါတွင်ပိုမိုထိရောက်သနည်း?
+AutoML ဖန်တီးထားသော အကောင်းဆုံး models များ၏ explanations နှင့် details ကို စစ်ဆေးပါ။ အကောင်းဆုံး model သည် အခြား model များထက် အကောင်းဆုံးဖြစ်ရသည့် အကြောင်းရင်းကို နားလည်ရန် ကြိုးစားပါ။ Compare လုပ်ထားသော algorithms များက ဘာတွေလဲ? အကြားကွာခြားချက်များက ဘာတွေလဲ? ဤအခါတွင် အကောင်းဆုံး model သည် ဘာကြောင့် ပိုမိုထူးချွန်သနည်း?
 
-## [Post-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/35)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
-## ပြန်လည်သုံးသပ်ခြင်းနှင့် ကိုယ်တိုင်လေ့လာခြင်း
+## Review & Self Study
 
-ဤသင်ခန်းစာတွင် Heart Failure ဖြစ်နိုင်ခြေခန့်မှန်းရန် Low code/No Code နည်းလမ်းဖြင့် Cloud တွင် မော်ဒယ်ကိုလေ့ကျင့်ခြင်း၊ Deployment ပြုလုပ်ခြင်းနှင့် အသုံးပြုခြင်းကိုသင်ယူခဲ့သည်။ AutoML ဖန်တီးထားသောအကောင်းဆုံးမော်ဒယ်၏ Explanations ကိုနက်နက်ရှိုင်းရှိုင်းလေ့လာပြီး၊ အခြားမော်ဒယ်များနှင့်ဘာကြောင့်ကွာခြားသလဲဆိုတာကိုနားလည်ရန်ကြိုးစားပါ။
+ဤသင်ခန်းစာတွင် heart failure risk ကို cloud တွင် Low code/No code နည်းဖြင့် predict လုပ်ရန် model ကို train, deploy နှင့် consume လုပ်ပုံကို သင်ယူခဲ့ပါသည်။ AutoML ဖန်တီးထားသော model explanations များကို စူးစမ်းပြီး အကောင်းဆုံး model သည် အခြား model များထက် အကောင်းဆုံးဖြစ်ရသည့် အကြောင်းရင်းကို နားလည်ရန် ကြိုးစားပါ။
 
-Low code/No Code AutoML အကြောင်းပိုမိုလေ့လာရန်ဤ [စာရွက်စာတမ်း](https://docs.microsoft.com/azure/machine-learning/tutorial-first-experiment-automated-ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) ကိုဖတ်ပါ။
+Low code/No code AutoML အကြောင်းကို [documentation](https://docs.microsoft.com/azure/machine-learning/tutorial-first-experiment-automated-ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) ကို ဖတ်ရှုခြင်းဖြင့် ပိုမိုနက်နက်ရှိုင်းရှိုင်း သင်ယူနိုင်ပါသည်။
 
-## လုပ်ငန်းတာဝန်
+## Assignment
 
-[Azure ML တွင် Low code/No Code Data Science ပရောဂျက်](assignment.md)
+[Low code/No code Data Science project on Azure ML](assignment.md)
 
 ---
 
-**ဝက်ဘ်ဆိုက်မှတ်ချက်**:  
-ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှန်ကန်မှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက်ဘာသာပြန်ခြင်းတွင် အမှားများ သို့မဟုတ် မမှန်ကန်မှုများ ပါဝင်နိုင်ကြောင်း သတိပြုပါ။ မူလဘာသာစကားဖြင့် ရေးသားထားသော စာရွက်စာတမ်းကို အာဏာတရားရှိသော ရင်းမြစ်အဖြစ် သတ်မှတ်သင့်ပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူ့ဘာသာပြန်ပညာရှင်များကို အသုံးပြုရန် အကြံပြုပါသည်။ ဤဘာသာပြန်ကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော နားလည်မှုမှားများ သို့မဟုတ် အဓိပ္ပါယ်မှားများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။
+**အကြောင်းကြားချက်**:  
+ဤစာရွက်စာတမ်းကို AI ဘာသာပြန်ဝန်ဆောင်မှု [Co-op Translator](https://github.com/Azure/co-op-translator) ကို အသုံးပြု၍ ဘာသာပြန်ထားပါသည်။ ကျွန်ုပ်တို့သည် တိကျမှုအတွက် ကြိုးစားနေသော်လည်း၊ အလိုအလျောက် ဘာသာပြန်မှုများတွင် အမှားများ သို့မဟုတ် မတိကျမှုများ ပါဝင်နိုင်သည်ကို သတိပြုပါ။ မူရင်းဘာသာစကားဖြင့် ရေးသားထားသော စာရွက်စာတမ်းကို အာဏာတရ အရင်းအမြစ်အဖြစ် ရှုလို့ရပါသည်။ အရေးကြီးသော အချက်အလက်များအတွက် လူက ဘာသာပြန်မှု ဝန်ဆောင်မှုကို အကြံပြုပါသည်။ ဤဘာသာပြန်မှုကို အသုံးပြုခြင်းမှ ဖြစ်ပေါ်လာသော အလွဲအလွတ်များ သို့မဟုတ် အနားလွဲမှုများအတွက် ကျွန်ုပ်တို့သည် တာဝန်မယူပါ။

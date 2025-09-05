@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "73dead89dc2ddda4d6ec0232814a191e",
-  "translation_date": "2025-08-26T16:10:34+00:00",
+  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
+  "translation_date": "2025-09-05T06:25:48+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "sw"
 }
@@ -13,13 +13,13 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Sayansi ya Takwimu Katika Wingu: Azure ML SDK - _Sketchnote na [@nitya](https://twitter.com/nitya)_ |
 
-Orodha ya yaliyomo:
+Yaliyomo:
 
 - [Sayansi ya Takwimu katika Wingu: Njia ya "Azure ML SDK"](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Maswali ya awali ya somo](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [1. Utangulizi](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [1.1 Azure ML SDK ni nini?](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [1.2 Utangulizi wa mradi wa utabiri wa kushindwa kwa moyo na seti ya data](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [1.2 Mradi wa utabiri wa kushindwa kwa moyo na utangulizi wa seti ya data](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [2. Kufundisha modeli kwa Azure ML SDK](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.1 Kuunda eneo la kazi la Azure ML](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.2 Kuunda mfano wa kompyuta](../../../../5-Data-Science-In-Cloud/19-Azure)
@@ -45,21 +45,21 @@ Orodha ya yaliyomo:
 
 Wanasayansi wa takwimu na watengenezaji wa AI hutumia Azure Machine Learning SDK kujenga na kuendesha mchakato wa mafunzo ya mashine kwa kutumia huduma ya Azure Machine Learning. Unaweza kuingiliana na huduma hii katika mazingira yoyote ya Python, ikiwa ni pamoja na Jupyter Notebooks, Visual Studio Code, au IDE yako unayoipenda ya Python.
 
-Maeneo muhimu ya SDK ni:
+Sehemu kuu za SDK ni pamoja na:
 
 - Kuchunguza, kuandaa na kusimamia mzunguko wa maisha wa seti za data zinazotumika katika majaribio ya mafunzo ya mashine.
 - Kusimamia rasilimali za wingu kwa ufuatiliaji, kuandika kumbukumbu, na kupanga majaribio ya mafunzo ya mashine.
 - Kufundisha modeli ama kwa ndani au kwa kutumia rasilimali za wingu, ikiwa ni pamoja na mafunzo ya modeli yanayoharakishwa na GPU.
-- Kutumia mafunzo ya mashine yaliyojiendesha, ambayo yanakubali vigezo vya usanidi na data ya mafunzo. Inarudia kiotomatiki kupitia algoriti na mipangilio ya hyperparameter ili kupata modeli bora kwa utabiri.
+- Kutumia mafunzo ya mashine ya kiotomatiki, ambayo hukubali vigezo vya usanidi na data ya mafunzo. Inarudia kiotomatiki kupitia algorithimu na mipangilio ya hyperparameter ili kupata modeli bora kwa utabiri.
 - Kuweka huduma za wavuti ili kubadilisha modeli zako zilizofundishwa kuwa huduma za RESTful zinazoweza kutumika katika programu yoyote.
 
 [Jifunze zaidi kuhusu Azure Machine Learning SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
 Katika [somo lililopita](../18-Low-Code/README.md), tuliona jinsi ya kufundisha, kuweka na kutumia modeli kwa njia ya Low code/No code. Tulitumia seti ya data ya Kushindwa kwa Moyo kuunda modeli ya utabiri wa kushindwa kwa moyo. Katika somo hili, tutafanya jambo lile lile lakini kwa kutumia Azure Machine Learning SDK.
 
-![project-schema](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.sw.png)
+![mchoro-wa-mradi](../../../../5-Data-Science-In-Cloud/19-Azure/images/project-schema.PNG)
 
-### 1.2 Utangulizi wa mradi wa utabiri wa kushindwa kwa moyo na seti ya data
+### 1.2 Mradi wa utabiri wa kushindwa kwa moyo na utangulizi wa seti ya data
 
 Angalia [hapa](../18-Low-Code/README.md) utangulizi wa mradi wa utabiri wa kushindwa kwa moyo na seti ya data.
 
@@ -74,7 +74,7 @@ Ikiwa huna, tafadhali fuata maelekezo katika sehemu **2.1 Kuunda eneo la kazi la
 
 Katika [eneo la kazi la Azure ML](https://ml.azure.com/) tulilounda awali, nenda kwenye menyu ya kompyuta na utaona rasilimali tofauti za kompyuta zinazopatikana.
 
-![compute-instance-1](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.sw.png)
+![mfano-wa-kompyuta-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/compute-instance-1.PNG)
 
 Hebu tuunde mfano wa kompyuta ili kuandaa jupyter notebook. 
 1. Bonyeza kitufe cha + New. 
@@ -89,24 +89,24 @@ Rejelea [somo lililopita](../18-Low-Code/README.md) katika sehemu **2.3 Kupakia 
 
 ### 2.4 Kuunda Notebooks
 
-> **_NOTE:_** Kwa hatua inayofuata unaweza kuunda notebook mpya kutoka mwanzo, au unaweza kupakia [notebook tuliyounda](notebook.ipynb) katika Azure ML Studio yako. Ili kuipakia, bonyeza tu kwenye menyu ya "Notebook" na upakie notebook.
+> **_KUMBUKA:_** Kwa hatua inayofuata unaweza kuunda notebook mpya kutoka mwanzo, au unaweza kupakia [notebook tuliyounda](../../../../5-Data-Science-In-Cloud/19-Azure/notebook.ipynb) katika Azure ML Studio yako. Ili kuipakia, bonyeza tu kwenye menyu ya "Notebook" na upakie notebook.
 
 Notebook ni sehemu muhimu sana ya mchakato wa sayansi ya takwimu. Zinatumika kufanya Uchambuzi wa Takwimu wa Kichunguzi (EDA), kuwasiliana na klasta ya kompyuta kufundisha modeli, au kuwasiliana na klasta ya utabiri kuweka endpoint.
 
-Ili kuunda Notebook, tunahitaji nodi ya kompyuta inayotoa huduma ya jupyter notebook. Rudi kwenye [eneo la kazi la Azure ML](https://ml.azure.com/) na bonyeza kwenye Compute instances. Katika orodha ya compute instances unapaswa kuona [mfano wa kompyuta tuliouunda awali](../../../../5-Data-Science-In-Cloud/19-Azure). 
+Ili kuunda Notebook, tunahitaji nodi ya kompyuta inayotoa huduma ya jupyter notebook. Rudi kwenye [eneo la kazi la Azure ML](https://ml.azure.com/) na bonyeza kwenye Compute instances. Katika orodha ya compute instances unapaswa kuona [mfano wa kompyuta tuliyounda awali](../../../../5-Data-Science-In-Cloud/19-Azure). 
 
 1. Katika sehemu ya Applications, bonyeza chaguo la Jupyter. 
-2. Weka tiki kwenye kisanduku cha "Yes, I understand" na bonyeza kitufe cha Continue.
-![notebook-1](../../../../translated_images/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.sw.png)
-3. Hii itafungua tabo mpya ya kivinjari na mfano wako wa jupyter notebook kama ifuatavyo. Bonyeza kitufe cha "New" kuunda notebook.
+2. Weka alama kwenye kisanduku cha "Yes, I understand" na bonyeza kitufe cha Continue.
+![notebook-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-1.PNG)
+3. Hii itafungua tabo mpya ya kivinjari na huduma yako ya jupyter notebook kama inavyoonekana. Bonyeza kitufe cha "New" kuunda notebook.
 
-![notebook-2](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.sw.png)
+![notebook-2](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-2.PNG)
 
 Sasa kwa kuwa tuna Notebook, tunaweza kuanza kufundisha modeli kwa Azure ML SDK.
 
 ### 2.5 Kufundisha modeli
 
-Kwanza kabisa, ikiwa una shaka yoyote, rejelea [Azure ML SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). Inayo taarifa zote muhimu za kuelewa moduli tutakazoziona katika somo hili.
+Kwanza kabisa, ikiwa una shaka yoyote, rejelea [Azure ML SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). Inayo maelezo yote muhimu ya kuelewa moduli tutakazoziona katika somo hili.
 
 #### 2.5.1 Kuweka Eneo la Kazi, jaribio, klasta ya kompyuta na seti ya data
 
@@ -158,17 +158,17 @@ Ili kuweka usanidi wa AutoML, tumia [AutoMLConfig class](https://docs.microsoft.
 
 Kama ilivyoelezwa katika nyaraka, kuna vigezo vingi ambavyo unaweza kucheza navyo. Kwa mradi huu, tutatumia vigezo vifuatavyo:
 
-- `experiment_timeout_minutes`: Muda wa juu (kwa dakika) ambao jaribio linaruhusiwa kuendesha kabla ya kusimamishwa kiotomatiki na matokeo kufanywa kupatikana kiotomatiki.
-- `max_concurrent_iterations`: Idadi ya juu ya majaribio ya mafunzo yanayoruhusiwa kuendesha kwa wakati mmoja.
+- `experiment_timeout_minutes`: Muda wa juu kabisa (kwa dakika) ambao jaribio linaruhusiwa kuendelea kabla ya kusimamishwa kiotomatiki na matokeo kufanywa kupatikana kiotomatiki.
+- `max_concurrent_iterations`: Idadi ya juu ya majaribio ya mafunzo yanayoruhusiwa kuendeshwa kwa wakati mmoja.
 - `primary_metric`: Kipimo kikuu kinachotumika kuamua hali ya jaribio.
-- `compute_target`: Lengo la kompyuta la Azure Machine Learning kuendesha jaribio la Mafunzo ya Mashine Yaliyojiendesha.
-- `task`: Aina ya kazi ya kuendesha. Thamani zinaweza kuwa 'classification', 'regression', au 'forecasting' kulingana na aina ya tatizo la ML lililojiendesha.
+- `compute_target`: Lengo la kompyuta la Azure Machine Learning kuendesha jaribio la Mafunzo ya Mashine ya Kiotomatiki.
+- `task`: Aina ya kazi ya kuendesha. Thamani zinaweza kuwa 'classification', 'regression', au 'forecasting' kulingana na aina ya tatizo la mafunzo ya mashine ya kiotomatiki.
 - `training_data`: Data ya mafunzo itakayotumika ndani ya jaribio. Inapaswa kuwa na vipengele vya mafunzo na safu ya lebo (kwa hiari safu ya uzito wa sampuli).
 - `label_column_name`: Jina la safu ya lebo.
 - `path`: Njia kamili ya folda ya mradi wa Azure Machine Learning.
 - `enable_early_stopping`: Ikiwa kuwezesha kusimamisha mapema ikiwa alama haibadiliki kwa muda mfupi.
 - `featurization`: Kiashiria cha ikiwa hatua ya featurization inapaswa kufanywa kiotomatiki au la, au ikiwa featurization iliyobinafsishwa inapaswa kutumika.
-- `debug_log`: Faili ya logi ya kuandika taarifa za utatuzi.
+- `debug_log`: Faili ya logi ya kuandika maelezo ya utatuzi.
 
 ```python
 from azureml.train.automl import AutoMLConfig
@@ -230,7 +230,7 @@ model = best_run.register_model(model_name = model_name,
 ```
 ### 3.2 Uwekaji wa modeli
 
-Baada ya modeli bora kuhifadhiwa, tunaweza kuiweka kwa kutumia darasa la [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109). InferenceConfig inawakilisha mipangilio ya usanidi kwa mazingira maalum yanayotumika kwa uwekaji. Darasa la [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) linawakilisha modeli ya mafunzo ya mashine iliyowekwa kama endpoint ya huduma ya wavuti kwenye Azure Container Instances. Huduma ya wavuti iliyowekwa ni endpoint ya HTTP yenye usawa wa mzigo na API ya REST. Unaweza kutuma data kwa API hii na kupokea utabiri uliorudishwa na modeli.
+Baada ya modeli bora kuhifadhiwa, tunaweza kuiweka kwa kutumia darasa la [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109). InferenceConfig inawakilisha mipangilio ya usanidi kwa mazingira maalum yanayotumika kwa uwekaji. Darasa la [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) linawakilisha modeli ya mafunzo ya mashine iliyowekwa kama endpoint ya huduma ya wavuti kwenye Azure Container Instances. Huduma iliyowekwa ni endpoint ya HTTP yenye usawa wa mzigo na API ya REST. Unaweza kutuma data kwa API hii na kupokea utabiri uliorudishwa na modeli.
 
 Modeli inawekwa kwa kutumia njia ya [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
@@ -254,7 +254,7 @@ Hatua hii inapaswa kuchukua dakika chache.
 
 ### 3.3 Matumizi ya endpoint
 
-Unatumia endpoint yako kwa kuunda ingizo la sampuli:
+Unatumia endpoint yako kwa kuunda sampuli ya pembejeo:
 
 ```python
 data = {
@@ -279,34 +279,34 @@ data = {
 
 test_sample = str.encode(json.dumps(data))
 ```
-Kisha unaweza kutuma ingizo hili kwa modeli yako kwa utabiri:
+Kisha unaweza kutuma pembejeo hii kwa modeli yako kwa utabiri:
 ```python
 response = aci_service.run(input_data=test_sample)
 response
 ```  
-Hii inapaswa kutoa `'{"result": [false]}'`. Hii inamaanisha kwamba data ya mgonjwa tuliyotuma kwa endpoint ilizalisha utabiri `false` ambayo inamaanisha mtu huyu hana uwezekano wa kupata shambulio la moyo.  
+Hii inapaswa kutoa `'{"result": [false]}'`. Hii inamaanisha kwamba data ya mgonjwa tuliyotuma kwenye endpoint ilitoa utabiri `false` ambayo inamaanisha mtu huyu hana uwezekano mkubwa wa kupata shambulio la moyo.
 
-Hongera! Umetumia modeli iliyowekwa na kufundishwa kwenye Azure ML kwa kutumia Azure ML SDK!  
+Hongera! Umetumia mfano uliowekwa na kufundishwa kwenye Azure ML kwa kutumia Azure ML SDK!
 
-> **_NOTE:_** Ukimaliza mradi, usisahau kufuta rasilimali zote.  
+> **_NOTE:_** Ukimaliza mradi, usisahau kufuta rasilimali zote.
 
-## 🚀 Changamoto  
+## 🚀 Changamoto
 
-Kuna mambo mengine mengi unayoweza kufanya kupitia SDK, kwa bahati mbaya, hatuwezi kuyapitia yote katika somo hili. Lakini habari njema ni kwamba kujifunza jinsi ya kupitia haraka nyaraka za SDK kunaweza kukusaidia sana peke yako. Angalia nyaraka za Azure ML SDK na tafuta darasa la `Pipeline` ambalo linakuruhusu kuunda mifumo ya hatua. Pipeline ni mkusanyiko wa hatua ambazo zinaweza kutekelezwa kama mtiririko wa kazi.  
+Kuna mambo mengine mengi unayoweza kufanya kupitia SDK, lakini kwa bahati mbaya, hatuwezi kuyapitia yote katika somo hili. Habari njema ni kwamba, kujifunza jinsi ya kupitia haraka nyaraka za SDK kunaweza kukusaidia sana kujitegemea. Angalia nyaraka za Azure ML SDK na tafuta darasa la `Pipeline` ambalo linakuruhusu kuunda pipelines. Pipeline ni mkusanyiko wa hatua ambazo zinaweza kutekelezwa kama mtiririko wa kazi.
 
-**HINT:** Nenda kwenye [nyaraka za SDK](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) na andika maneno muhimu kwenye kisanduku cha utafutaji kama "Pipeline". Unapaswa kuwa na darasa la `azureml.pipeline.core.Pipeline` katika matokeo ya utafutaji.  
+**KIDOKEZO:** Nenda kwenye [nyaraka za SDK](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) na andika maneno muhimu kama "Pipeline" kwenye kisanduku cha utafutaji. Unapaswa kuona darasa la `azureml.pipeline.core.Pipeline` kwenye matokeo ya utafutaji.
 
-## [Jaribio baada ya somo](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/37)  
+## [Jaribio baada ya somo](https://ff-quizzes.netlify.app/en/ds/)
 
-## Mapitio na Kujifunza Binafsi  
+## Mapitio na Kujisomea
 
-Katika somo hili, umejifunza jinsi ya kufundisha, kuweka na kutumia modeli kutabiri hatari ya kushindwa kwa moyo kwa kutumia Azure ML SDK kwenye wingu. Angalia [nyaraka hizi](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) kwa maelezo zaidi kuhusu Azure ML SDK. Jaribu kuunda modeli yako mwenyewe kwa kutumia Azure ML SDK.  
+Katika somo hili, umejifunza jinsi ya kufundisha, kuweka, na kutumia mfano wa kutabiri hatari ya kushindwa kwa moyo kwa kutumia Azure ML SDK kwenye wingu. Angalia [nyaraka hizi](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) kwa maelezo zaidi kuhusu Azure ML SDK. Jaribu kuunda mfano wako mwenyewe kwa kutumia Azure ML SDK.
 
-## Kazi  
+## Kazi
 
-[Mradi wa Sayansi ya Data kwa kutumia Azure ML SDK](assignment.md)  
+[Mradi wa Sayansi ya Data kwa kutumia Azure ML SDK](assignment.md)
 
 ---
 
 **Kanusho**:  
-Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kwa usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, inashauriwa kutumia tafsiri ya kitaalamu ya binadamu. Hatutawajibika kwa maelewano mabaya au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

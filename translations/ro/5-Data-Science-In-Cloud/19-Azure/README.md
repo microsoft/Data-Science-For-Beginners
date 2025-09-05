@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "73dead89dc2ddda4d6ec0232814a191e",
-  "translation_date": "2025-08-26T16:15:27+00:00",
+  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
+  "translation_date": "2025-09-05T05:27:22+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "ro"
 }
@@ -43,25 +43,25 @@ Cuprins:
 
 ### 1.1 Ce este Azure ML SDK?
 
-Cercetătorii în domeniul datelor și dezvoltatorii AI folosesc Azure Machine Learning SDK pentru a construi și rula fluxuri de lucru de învățare automată cu serviciul Azure Machine Learning. Poți interacționa cu serviciul din orice mediu Python, inclusiv Jupyter Notebooks, Visual Studio Code sau IDE-ul tău preferat pentru Python.
+Cercetătorii în domeniul datelor și dezvoltatorii AI folosesc Azure Machine Learning SDK pentru a construi și rula fluxuri de lucru de învățare automată cu serviciul Azure Machine Learning. Poți interacționa cu serviciul în orice mediu Python, inclusiv Jupyter Notebooks, Visual Studio Code sau IDE-ul tău preferat pentru Python.
 
 Zonele cheie ale SDK-ului includ:
 
 - Explorarea, pregătirea și gestionarea ciclului de viață al dataseturilor utilizate în experimentele de învățare automată.
-- Gestionarea resurselor cloud pentru monitorizare, jurnalizare și organizarea experimentelor de învățare automată.
+- Gestionarea resurselor cloud pentru monitorizare, logare și organizarea experimentelor de învățare automată.
 - Antrenarea modelelor fie local, fie utilizând resurse cloud, inclusiv antrenarea modelelor accelerată de GPU.
 - Utilizarea învățării automate automate, care acceptă parametrii de configurare și datele de antrenament. Aceasta iterează automat prin algoritmi și setări de hiperparametri pentru a găsi cel mai bun model pentru rularea predicțiilor.
 - Implementarea serviciilor web pentru a transforma modelele antrenate în servicii RESTful care pot fi consumate în orice aplicație.
 
 [Află mai multe despre Azure Machine Learning SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
-În [lecția anterioară](../18-Low-Code/README.md), am văzut cum să antrenăm, implementăm și consumăm un model într-un mod Low code/No code. Am folosit datasetul de insuficiență cardiacă pentru a genera un model de predicție a insuficienței cardiace. În această lecție, vom face exact același lucru, dar folosind Azure Machine Learning SDK.
+În [lecția anterioară](../18-Low-Code/README.md), am văzut cum să antrenăm, implementăm și consumăm un model într-un mod Low code/No code. Am folosit datasetul despre insuficiența cardiacă pentru a genera un model de predicție a insuficienței cardiace. În această lecție, vom face exact același lucru, dar utilizând Azure Machine Learning SDK.
 
-![schema-proiectului](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.ro.png)
+![schema-proiectului](../../../../5-Data-Science-In-Cloud/19-Azure/images/project-schema.PNG)
 
 ### 1.2 Proiectul de predicție a insuficienței cardiace și introducerea datasetului
 
-Consultă [aici](../18-Low-Code/README.md) introducerea proiectului de predicție a insuficienței cardiace și a datasetului.
+Verifică [aici](../18-Low-Code/README.md) introducerea proiectului de predicție a insuficienței cardiace și datasetului.
 
 ## 2. Antrenarea unui model cu Azure ML SDK
 ### 2.1 Crearea unui workspace Azure ML
@@ -72,9 +72,9 @@ Dacă nu, te rugăm să urmezi instrucțiunile din secțiunea **2.1 Crearea unui
 
 ### 2.2 Crearea unei instanțe de calcul
 
-În [workspace-ul Azure ML](https://ml.azure.com/) pe care l-am creat anterior, accesează meniul de calcul și vei vedea diferitele resurse de calcul disponibile.
+În [workspace-ul Azure ML](https://ml.azure.com/) pe care l-am creat anterior, mergi la meniul de calcul și vei vedea diferitele resurse de calcul disponibile.
 
-![instanță-de-calcul-1](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.ro.png)
+![instanță-de-calcul-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/compute-instance-1.PNG)
 
 Să creăm o instanță de calcul pentru a provisiona un notebook Jupyter. 
 1. Apasă pe butonul + New. 
@@ -89,18 +89,18 @@ Consultă [lecția anterioară](../18-Low-Code/README.md) în secțiunea **2.3 �
 
 ### 2.4 Crearea notebook-urilor
 
-> **_NOTĂ:_** Pentru pasul următor, poți fie să creezi un notebook nou de la zero, fie să încarci [notebook-ul pe care l-am creat](notebook.ipynb) în Azure ML Studio. Pentru a-l încărca, pur și simplu apasă pe meniul "Notebook" și încarcă notebook-ul.
+> **_NOTĂ:_** Pentru pasul următor, poți fie să creezi un notebook nou de la zero, fie să încarci [notebook-ul pe care l-am creat](../../../../5-Data-Science-In-Cloud/19-Azure/notebook.ipynb) în Azure ML Studio. Pentru a-l încărca, pur și simplu apasă pe meniul "Notebook" și încarcă notebook-ul.
 
-Notebook-urile sunt o parte foarte importantă a procesului de știință a datelor. Ele pot fi utilizate pentru a efectua Analiza Exploratorie a Datelor (EDA), pentru a apela un cluster de calcul pentru antrenarea unui model sau pentru a apela un cluster de inferență pentru a implementa un endpoint. 
+Notebook-urile sunt o parte foarte importantă a procesului de știință a datelor. Ele pot fi utilizate pentru a efectua Analiza Exploratorie a Datelor (EDA), pentru a apela un cluster de calcul pentru a antrena un model sau pentru a apela un cluster de inferență pentru a implementa un endpoint. 
 
 Pentru a crea un notebook, avem nevoie de un nod de calcul care servește instanța notebook-ului Jupyter. Revino la [workspace-ul Azure ML](https://ml.azure.com/) și apasă pe Instanțe de calcul. În lista de instanțe de calcul ar trebui să vezi [instanța de calcul pe care am creat-o anterior](../../../../5-Data-Science-In-Cloud/19-Azure). 
 
-1. În secțiunea Aplicații, apasă pe opțiunea Jupyter. 
+1. În secțiunea Applications, apasă pe opțiunea Jupyter. 
 2. Bifează caseta "Yes, I understand" și apasă pe butonul Continue.
-![notebook-1](../../../../translated_images/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.ro.png)
+![notebook-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-1.PNG)
 3. Acest lucru ar trebui să deschidă o filă nouă în browser cu instanța notebook-ului Jupyter. Apasă pe butonul "New" pentru a crea un notebook.
 
-![notebook-2](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.ro.png)
+![notebook-2](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-2.PNG)
 
 Acum că avem un notebook, putem începe antrenarea modelului cu Azure ML SDK.
 
@@ -110,23 +110,23 @@ Acum că avem un notebook, putem începe antrenarea modelului cu Azure ML SDK.
 
 #### 2.5.1 Configurarea workspace-ului, experimentului, clusterului de calcul și datasetului
 
-Trebuie să încarci `workspace` din fișierul de configurare folosind codul următor:
+Trebuie să încarci `workspace` din fișierul de configurare utilizând următorul cod:
 
 ```python
 from azureml.core import Workspace
 ws = Workspace.from_config()
 ```
 
-Acesta returnează un obiect de tip `Workspace` care reprezintă workspace-ul. Apoi trebuie să creezi un `experiment` folosind codul următor:
+Acest lucru returnează un obiect de tip `Workspace` care reprezintă workspace-ul. Apoi trebuie să creezi un `experiment` utilizând următorul cod:
 
 ```python
 from azureml.core import Experiment
 experiment_name = 'aml-experiment'
 experiment = Experiment(ws, experiment_name)
 ```
-Pentru a obține sau crea un experiment dintr-un workspace, soliciți experimentul folosind numele experimentului. Numele experimentului trebuie să aibă între 3 și 36 de caractere, să înceapă cu o literă sau un număr și să conțină doar litere, numere, underscore-uri și liniuțe. Dacă experimentul nu este găsit în workspace, se creează un experiment nou.
+Pentru a obține sau crea un experiment dintr-un workspace, soliciți experimentul utilizând numele experimentului. Numele experimentului trebuie să aibă între 3 și 36 de caractere, să înceapă cu o literă sau un număr și să conțină doar litere, numere, underscore-uri și cratime. Dacă experimentul nu este găsit în workspace, se creează un experiment nou.
 
-Acum trebuie să creezi un cluster de calcul pentru antrenare folosind codul următor. Reține că acest pas poate dura câteva minute. 
+Acum trebuie să creezi un cluster de calcul pentru antrenament utilizând următorul cod. Reține că acest pas poate dura câteva minute. 
 
 ```python
 from azureml.core.compute import AmlCompute
@@ -145,7 +145,7 @@ cts = ws.compute_targets
 compute_target = cts[aml_name]
 ```
 
-Poți obține datasetul din workspace folosind numele datasetului în următorul mod:
+Poți obține datasetul din workspace utilizând numele datasetului în următorul mod:
 
 ```python
 dataset = ws.datasets['heart-failure-records']
@@ -161,14 +161,14 @@ Așa cum este descris în documentație, există o mulțime de parametri cu care
 - `experiment_timeout_minutes`: Timpul maxim (în minute) permis pentru rularea experimentului înainte ca acesta să fie oprit automat și rezultatele să fie disponibile automat.
 - `max_concurrent_iterations`: Numărul maxim de iterații de antrenament simultane permise pentru experiment.
 - `primary_metric`: Metrica principală utilizată pentru a determina starea experimentului.
-- `compute_target`: Resursa de calcul Azure Machine Learning pe care se rulează experimentul de învățare automată automatizată.
-- `task`: Tipul de sarcină de rulare. Valorile pot fi 'classification', 'regression' sau 'forecasting', în funcție de tipul de problemă de învățare automată automatizată de rezolvat.
+- `compute_target`: Resursa de calcul Azure Machine Learning pe care se rulează experimentul de învățare automată automată.
+- `task`: Tipul de sarcină de rulare. Valorile pot fi 'classification', 'regression' sau 'forecasting', în funcție de tipul de problemă de învățare automată automată de rezolvat.
 - `training_data`: Datele de antrenament utilizate în cadrul experimentului. Acestea ar trebui să conțină atât caracteristicile de antrenament, cât și o coloană de etichete (opțional o coloană de greutăți ale eșantionului).
 - `label_column_name`: Numele coloanei de etichete.
 - `path`: Calea completă către folderul proiectului Azure Machine Learning.
 - `enable_early_stopping`: Dacă se permite terminarea timpurie în cazul în care scorul nu se îmbunătățește pe termen scurt.
 - `featurization`: Indicator pentru dacă pasul de featurizare ar trebui să fie realizat automat sau nu, sau dacă ar trebui utilizată featurizarea personalizată.
-- `debug_log`: Fișierul jurnal în care se scriu informațiile de depanare.
+- `debug_log`: Fișierul de log în care se scriu informațiile de depanare.
 
 ```python
 from azureml.train.automl import AutoMLConfig
@@ -192,7 +192,7 @@ automl_config = AutoMLConfig(compute_target=compute_target,
                              **automl_settings
                             )
 ```
-Acum că ai configurarea setată, poți antrena modelul folosind codul următor. Acest pas poate dura până la o oră, în funcție de dimensiunea clusterului.
+Acum că ai configurarea setată, poți antrena modelul utilizând următorul cod. Acest pas poate dura până la o oră, în funcție de dimensiunea clusterului.
 
 ```python
 remote_run = experiment.submit(automl_config)
@@ -232,7 +232,7 @@ model = best_run.register_model(model_name = model_name,
 
 După ce cel mai bun model este salvat, îl putem implementa cu clasa [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109). InferenceConfig reprezintă setările de configurare pentru un mediu personalizat utilizat pentru implementare. Clasa [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) reprezintă un model de învățare automată implementat ca un endpoint de serviciu web pe Azure Container Instances. Un serviciu implementat este creat dintr-un model, script și fișiere asociate. Serviciul web rezultat este un endpoint HTTP echilibrat, cu o API REST. Poți trimite date către această API și primi predicția returnată de model.
 
-Modelul este implementat folosind metoda [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
+Modelul este implementat utilizând metoda [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
 ```python
 from azureml.core.model import InferenceConfig, Model
@@ -283,28 +283,29 @@ Apoi poți trimite acest input către modelul tău pentru predicție:
 ```python
 response = aci_service.run(input_data=test_sample)
 response
-```  
+```
 Acesta ar trebui să returneze `'{"result": [false]}'`. Aceasta înseamnă că datele pacientului pe care le-am trimis la endpoint au generat predicția `false`, ceea ce indică faptul că această persoană nu este predispusă la un atac de cord.
 
 Felicitări! Tocmai ai utilizat modelul implementat și antrenat pe Azure ML folosind Azure ML SDK!
 
-> **_NOTE:_** După ce ai terminat proiectul, nu uita să ștergi toate resursele.
 
-## 🚀 Provocare  
+> **_NOTE:_** După ce termini proiectul, nu uita să ștergi toate resursele.
+
+## 🚀 Provocare
 
 Există multe alte lucruri pe care le poți face prin SDK, din păcate, nu le putem acoperi pe toate în această lecție. Dar vestea bună este că învățarea modului de a naviga prin documentația SDK te poate ajuta foarte mult pe cont propriu. Aruncă o privire la documentația Azure ML SDK și găsește clasa `Pipeline`, care îți permite să creezi pipeline-uri. Un pipeline este o colecție de pași care pot fi executați ca un flux de lucru.
 
 **INDICIU:** Accesează [documentația SDK](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) și tastează cuvinte cheie în bara de căutare, cum ar fi "Pipeline". Ar trebui să găsești clasa `azureml.pipeline.core.Pipeline` în rezultatele căutării.
 
-## [Test de verificare după lecție](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/37)
+## [Test după lecție](https://ff-quizzes.netlify.app/en/ds/)
 
-## Recapitulare & Studiu individual  
+## Recapitulare & Studiu individual
 
-În această lecție, ai învățat cum să antrenezi, implementezi și utilizezi un model pentru a prezice riscul de insuficiență cardiacă folosind Azure ML SDK în cloud. Consultă această [documentație](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) pentru informații suplimentare despre Azure ML SDK. Încearcă să creezi propriul tău model folosind Azure ML SDK.
+În această lecție, ai învățat cum să antrenezi, implementezi și utilizezi un model pentru a prezice riscul de insuficiență cardiacă folosind Azure ML SDK în cloud. Consultă această [documentație](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) pentru informații suplimentare despre Azure ML SDK. Încearcă să creezi propriul tău model folosind Azure ML SDK. 
 
-## Temă  
+## Temă
 
-[Proiect de Data Science folosind Azure ML SDK](assignment.md)  
+[Proiect de Data Science folosind Azure ML SDK](assignment.md)
 
 ---
 

@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "3ade580a06b5f04d57cc83a768a8fb77",
-  "translation_date": "2025-08-26T14:39:08+00:00",
+  "original_hash": "90a815d332aea41a222f4c6372e7186e",
+  "translation_date": "2025-09-05T05:30:22+00:00",
   "source_file": "2-Working-With-Data/08-data-preparation/README.md",
   "language_code": "ro"
 }
@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Chestionar Pre-Lecție](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/14)
 
-În funcție de sursa sa, datele brute pot conține unele inconsistențe care vor crea provocări în analiză și modelare. Cu alte cuvinte, aceste date pot fi catalogate drept „murdare” și vor trebui curățate. Această lecție se concentrează pe tehnici de curățare și transformare a datelor pentru a gestiona provocările legate de datele lipsă, inexacte sau incomplete. Subiectele abordate în această lecție vor utiliza Python și biblioteca Pandas și vor fi [demonstrate în notebook](notebook.ipynb) din acest director.
+În funcție de sursa sa, datele brute pot conține unele inconsistențe care vor crea provocări în analiză și modelare. Cu alte cuvinte, aceste date pot fi catalogate drept „murdare” și vor trebui curățate. Această lecție se concentrează pe tehnici de curățare și transformare a datelor pentru a gestiona provocările legate de datele lipsă, inexacte sau incomplete. Subiectele abordate în această lecție vor utiliza Python și biblioteca Pandas și vor fi [demonstrate în notebook](../../../../2-Working-With-Data/08-data-preparation/notebook.ipynb) din acest director.
 
 ## Importanța curățării datelor
 
@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 - **Consistență**: Știința datelor necesită adesea lucrul cu mai multe seturi de date, unde seturile de date din surse diferite trebuie să fie combinate. Asigurarea că fiecare set de date individual are o standardizare comună va garanta că datele rămân utile atunci când sunt combinate într-un singur set de date.
 
-- **Acuratețea modelului**: Datele curățate îmbunătățesc acuratețea modelelor care se bazează pe ele.
+- **Acuratețea modelului**: Datele care au fost curățate îmbunătățesc acuratețea modelelor care se bazează pe ele.
 
 ## Obiective și strategii comune de curățare
 
@@ -31,14 +31,14 @@ CO_OP_TRANSLATOR_METADATA:
 
 - **Formatare**: În funcție de sursă, datele pot avea inconsistențe în modul în care sunt prezentate. Acest lucru poate cauza probleme în căutarea și reprezentarea valorilor, unde acestea sunt vizibile în setul de date, dar nu sunt reprezentate corect în vizualizări sau rezultate ale interogărilor. Problemele comune de formatare implică rezolvarea spațiilor albe, datelor și tipurilor de date. Rezolvarea problemelor de formatare depinde de utilizatorii datelor. De exemplu, standardele privind modul în care sunt prezentate datele și numerele pot diferi de la o țară la alta.
 
-- **Dubluri**: Datele care apar de mai multe ori pot produce rezultate inexacte și, de obicei, ar trebui eliminate. Acest lucru poate fi o situație comună atunci când se combină două sau mai multe seturi de date. Totuși, există cazuri în care dublurile din seturile de date combinate conțin informații suplimentare care ar putea fi necesare să fie păstrate.
+- **Dubluri**: Datele care au mai multe apariții pot produce rezultate inexacte și, de obicei, ar trebui eliminate. Acest lucru poate apărea frecvent atunci când se combină două sau mai multe seturi de date. Totuși, există cazuri în care dublurile din seturile de date combinate conțin informații suplimentare care ar putea fi necesare să fie păstrate.
 
 - **Date lipsă**: Datele lipsă pot cauza inexactități, precum și rezultate slabe sau părtinitoare. Uneori, acestea pot fi rezolvate printr-o „reîncărcare” a datelor, completarea valorilor lipsă prin calcul și cod, cum ar fi Python, sau pur și simplu eliminarea valorii și a datelor corespunzătoare. Există numeroase motive pentru care datele pot lipsi, iar acțiunile luate pentru a rezolva aceste valori lipsă pot depinde de modul și motivul pentru care au dispărut.
 
 ## Explorarea informațiilor din DataFrame
 > **Obiectiv de învățare:** La sfârșitul acestei subsecțiuni, ar trebui să fii confortabil în găsirea informațiilor generale despre datele stocate în DataFrames din pandas.
 
-Odată ce ai încărcat datele în pandas, cel mai probabil vor fi într-un DataFrame (vezi [lecția anterioară](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python#dataframe) pentru o prezentare detaliată). Totuși, dacă setul de date din DataFrame-ul tău are 60.000 de rânduri și 400 de coloane, cum începi să înțelegi ce ai de lucru? Din fericire, [pandas](https://pandas.pydata.org/) oferă câteva instrumente convenabile pentru a privi rapid informațiile generale despre un DataFrame, pe lângă primele și ultimele câteva rânduri.
+Odată ce ai încărcat datele în pandas, cel mai probabil vor fi într-un DataFrame (consultă [lecția anterioară](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python#dataframe) pentru o prezentare detaliată). Totuși, dacă setul de date din DataFrame-ul tău are 60.000 de rânduri și 400 de coloane, cum începi să înțelegi cu ce lucrezi? Din fericire, [pandas](https://pandas.pydata.org/) oferă câteva instrumente convenabile pentru a privi rapid informațiile generale despre un DataFrame, pe lângă primele și ultimele câteva rânduri.
 
 Pentru a explora această funcționalitate, vom importa biblioteca Python scikit-learn și vom folosi un set de date iconic: **setul de date Iris**.
 
@@ -73,7 +73,7 @@ Data columns (total 4 columns):
 dtypes: float64(4)
 memory usage: 4.8 KB
 ```
-Din aceasta, știm că setul de date *Iris* are 150 de intrări în patru coloane, fără intrări nule. Toate datele sunt stocate ca numere în virgulă mobilă pe 64 de biți.
+Din aceasta, știm că setul de date *Iris* are 150 de intrări în patru coloane, fără valori nule. Toate datele sunt stocate ca numere în virgulă mobilă pe 64 de biți.
 
 - **DataFrame.head()**: Apoi, pentru a verifica conținutul real al `DataFrame`, folosim metoda `head()`. Să vedem cum arată primele câteva rânduri ale `iris_df`:
 ```python
@@ -99,16 +99,16 @@ iris_df.tail()
 148                6.2               3.4                5.4               2.3
 149                5.9               3.0                5.1               1.8
 ```
-> **Concluzie:** Chiar și doar uitându-te la metadatele despre informațiile dintr-un DataFrame sau la primele și ultimele câteva valori din acesta, poți obține o idee imediată despre dimensiunea, forma și conținutul datelor cu care lucrezi.
+> **Concluzie:** Chiar și doar privind metadatele despre informațiile dintr-un DataFrame sau primele și ultimele câteva valori din acesta, poți obține o idee imediată despre dimensiunea, forma și conținutul datelor cu care lucrezi.
 
 ## Gestionarea Datelor Lipsă
 > **Obiectiv de învățare:** La sfârșitul acestei subsecțiuni, ar trebui să știi cum să înlocuiești sau să elimini valorile nule din DataFrames.
 
-De cele mai multe ori, seturile de date pe care vrei să le folosești (sau trebuie să le folosești) au valori lipsă. Modul în care datele lipsă sunt gestionate implică compromisuri subtile care pot afecta analiza finală și rezultatele din lumea reală.
+De cele mai multe ori, seturile de date pe care vrei să le folosești (sau trebuie să le folosești) au valori lipsă. Modul în care sunt gestionate datele lipsă implică compromisuri subtile care pot afecta analiza finală și rezultatele din lumea reală.
 
 Pandas gestionează valorile lipsă în două moduri. Primul, pe care l-ai văzut înainte în secțiunile anterioare, este `NaN`, sau Not a Number. Acesta este de fapt o valoare specială care face parte din specificația IEEE pentru numere în virgulă mobilă și este utilizată doar pentru a indica valori lipsă de tip virgulă mobilă.
 
-Pentru valorile lipsă, altele decât cele de tip virgulă mobilă, pandas folosește obiectul Python `None`. Deși poate părea confuz să întâlnești două tipuri diferite de valori care spun practic același lucru, există motive programatice solide pentru această alegere de design și, în practică, această abordare permite pandas să ofere un compromis bun pentru marea majoritate a cazurilor. Cu toate acestea, atât `None`, cât și `NaN` au restricții de care trebuie să fii conștient în ceea ce privește modul în care pot fi utilizate.
+Pentru valorile lipsă, altele decât cele de tip virgulă mobilă, pandas folosește obiectul Python `None`. Deși poate părea confuz să întâlnești două tipuri diferite de valori care spun, în esență, același lucru, există motive programatice solide pentru această alegere de design și, în practică, această abordare permite pandas să ofere un compromis bun pentru marea majoritate a cazurilor. Cu toate acestea, atât `None`, cât și `NaN` au restricții de care trebuie să fii conștient în ceea ce privește modul în care pot fi utilizate.
 
 Află mai multe despre `NaN` și `None` din [notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb)!
 
@@ -126,13 +126,13 @@ example1.isnull()
 3     True
 dtype: bool
 ```
-Privește cu atenție rezultatul. Te surprinde ceva? Deși `0` este un null aritmetic, este totuși un întreg perfect valid, iar pandas îl tratează ca atare. `''` este puțin mai subtil. Deși l-am folosit în Secțiunea 1 pentru a reprezenta o valoare de șir gol, este totuși un obiect de tip șir și nu o reprezentare a null-ului din perspectiva pandas.
+Privește cu atenție rezultatul. Te surprinde ceva? Deși `0` este un null aritmetic, este totuși un întreg perfect valid, iar pandas îl tratează ca atare. `''` este puțin mai subtil. Deși l-am folosit în Secțiunea 1 pentru a reprezenta o valoare de șir gol, este totuși un obiect de tip șir și nu o reprezentare a nullului din punctul de vedere al pandas.
 
-Acum, să întoarcem situația și să folosim aceste metode într-un mod mai apropiat de cel în care le vei folosi în practică. Poți folosi măști booleene direct ca index pentru un ``Series`` sau ``DataFrame``, ceea ce poate fi util atunci când încerci să lucrezi cu valori izolate lipsă (sau prezente).
+Acum, să întoarcem situația și să folosim aceste metode într-un mod mai apropiat de modul în care le vei folosi în practică. Poți folosi măști booleene direct ca index pentru un ``Series`` sau ``DataFrame``, ceea ce poate fi util atunci când încerci să lucrezi cu valori izolate lipsă (sau prezente).
 
-> **Concluzie**: Atât metodele `isnull()` cât și `notnull()` produc rezultate similare atunci când le folosești în `DataFrame`s: ele arată rezultatele și indexul acestor rezultate, ceea ce te va ajuta enorm în gestionarea datelor tale.
+> **Concluzie**: Atât metodele `isnull()` cât și `notnull()` produc rezultate similare atunci când le folosești în `DataFrame`-uri: ele arată rezultatele și indexul acestor rezultate, ceea ce te va ajuta enorm în gestionarea datelor tale.
 
-- **Eliminarea valorilor nule**: Dincolo de identificarea valorilor lipsă, pandas oferă un mijloc convenabil de a elimina valorile nule din `Series` și `DataFrame`s. (În special pentru seturi de date mari, este adesea mai recomandabil să elimini pur și simplu valorile lipsă [NA] din analiza ta decât să le gestionezi în alte moduri.) Pentru a vedea acest lucru în acțiune, să revenim la `example1`:
+- **Eliminarea valorilor nule**: Dincolo de identificarea valorilor lipsă, pandas oferă un mijloc convenabil de a elimina valorile nule din `Series` și `DataFrame`-uri. (În special pentru seturi de date mari, este adesea mai recomandabil să elimini pur și simplu valorile lipsă [NA] din analiza ta decât să le gestionezi în alte moduri.) Pentru a vedea acest lucru în acțiune, să revenim la `example1`:
 ```python
 example1 = example1.dropna()
 example1
@@ -144,7 +144,7 @@ dtype: object
 ```
 Observă că acest lucru ar trebui să arate ca rezultatul tău din `example3[example3.notnull()]`. Diferența aici este că, în loc să indexeze doar valorile mascate, `dropna` a eliminat acele valori lipsă din `Series` `example1`.
 
-Deoarece `DataFrame`s au două dimensiuni, ele oferă mai multe opțiuni pentru eliminarea datelor.
+Deoarece `DataFrame`-urile au două dimensiuni, ele oferă mai multe opțiuni pentru eliminarea datelor.
 
 ```python
 example2 = pd.DataFrame([[1,      np.nan, 7], 
@@ -203,7 +203,7 @@ example2.dropna(axis='rows', thresh=3)
 ```
 Aici, primul și ultimul rând au fost eliminate, deoarece conțin doar două valori non-nule.
 
-- **Completarea valorilor nule**: În funcție de setul tău de date, uneori poate avea mai mult sens să completezi valorile nule cu unele valide decât să le elimini. Ai putea folosi `isnull` pentru a face acest lucru în loc, dar acest lucru poate fi laborios, în special dacă ai multe valori de completat. Deoarece aceasta este o sarcină atât de comună în știința datelor, pandas oferă `fillna`, care returnează o copie a `Series` sau `DataFrame` cu valorile lipsă înlocuite cu una aleasă de tine. Să creăm un alt exemplu `Series` pentru a vedea cum funcționează acest lucru în practică.
+- **Completarea valorilor nule**: În funcție de setul tău de date, uneori poate avea mai mult sens să completezi valorile nule cu unele valide decât să le elimini. Ai putea folosi `isnull` pentru a face acest lucru direct, dar acest lucru poate fi laborios, în special dacă ai multe valori de completat. Deoarece aceasta este o sarcină atât de comună în știința datelor, pandas oferă `fillna`, care returnează o copie a `Series` sau `DataFrame` cu valorile lipsă înlocuite cu una aleasă de tine. Să creăm un alt exemplu de `Series` pentru a vedea cum funcționează acest lucru în practică.
 ```python
 example3 = pd.Series([1, np.nan, 2, None, 3], index=list('abcde'))
 example3
@@ -252,7 +252,7 @@ d    3.0
 e    3.0
 dtype: float64
 ```
-Așa cum probabil ai ghicit, acest lucru funcționează la fel cu `DataFrame`s, dar poți specifica un `axis` de-a lungul căruia să completezi valorile nule. Luând din nou `example2` utilizat anterior:
+După cum probabil ghicești, acest lucru funcționează la fel cu `DataFrame`-uri, dar poți specifica un `axis` de-a lungul căruia să completezi valorile nule. Luând din nou `example2` utilizat anterior:
 ```python
 example2.fillna(method='ffill', axis=1)
 ```
@@ -263,7 +263,7 @@ example2.fillna(method='ffill', axis=1)
 2	NaN	6.0	9.0	9.0
 ```
 Observă că atunci când o valoare anterioară nu este disponibilă pentru completarea înainte, valoarea nulă rămâne.
-> **Concluzie:** Există mai multe modalități de a gestiona valorile lipsă din seturile de date. Strategia specifică pe care o folosești (eliminarea lor, înlocuirea lor sau chiar modul în care le înlocuiești) ar trebui să fie dictată de particularitățile acelui set de date. Vei dezvolta o înțelegere mai bună a modului de a gestiona valorile lipsă pe măsură ce lucrezi și interacționezi mai mult cu seturile de date.
+> **Concluzie:** Există mai multe moduri de a gestiona valorile lipsă în seturile de date. Strategia specifică pe care o folosești (eliminarea lor, înlocuirea lor sau chiar modul în care le înlocuiești) ar trebui să fie dictată de particularitățile acelui set de date. Vei dezvolta o înțelegere mai bună a modului de a gestiona valorile lipsă pe măsură ce lucrezi și interacționezi mai mult cu seturile de date.
 
 ## Eliminarea datelor duplicate
 
@@ -323,13 +323,13 @@ letters	numbers
 
 Toate materialele discutate sunt disponibile ca [Jupyter Notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/2-Working-With-Data/08-data-preparation/notebook.ipynb). În plus, există exerciții prezente după fiecare secțiune, încearcă-le!
 
-## [Quiz de după lecție](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/15)
+## [Quiz post-lectură](https://ff-quizzes.netlify.app/en/ds/)
 
 
 
-## Recapitulare și Studiu Individual
+## Recapitulare & Studiu Individual
 
-Există multe modalități de a descoperi și aborda pregătirea datelor pentru analiză și modelare, iar curățarea datelor este un pas important care necesită o experiență practică. Încearcă aceste provocări de pe Kaggle pentru a explora tehnici pe care această lecție nu le-a acoperit.
+Există multe moduri de a descoperi și aborda pregătirea datelor pentru analiză și modelare, iar curățarea datelor este un pas important care necesită o experiență practică. Încearcă aceste provocări de pe Kaggle pentru a explora tehnici pe care această lecție nu le-a acoperit.
 
 - [Provocare de Curățare a Datelor: Parsarea Datelor](https://www.kaggle.com/rtatman/data-cleaning-challenge-parsing-dates/)
 
