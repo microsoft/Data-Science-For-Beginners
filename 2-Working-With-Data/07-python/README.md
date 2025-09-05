@@ -256,7 +256,7 @@ Here are some examples of exploring data from Image data sources:
 
 Whether you already have structured or unstructured data, using Python you can perform all steps related to data processing and understanding. It is probably the most flexible way of data processing, and that is the reason the majority of data scientists use Python as their primary tool. Learning Python in depth is probably a good idea if you are serious about your data science journey!
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/13)
 
 ## Review & Self Study
 

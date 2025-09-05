@@ -28,7 +28,7 @@ Table of contents:
   - [Review & Self Study](#review--self-study)
   - [Assignment](#assignment)
 
-## [Pre-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/36)
+## [Pre-Lecture Quiz](https://ff-quizzes.netlify.app/en/ds/quiz/36)
 
 ## 1. Introduction
 
@@ -288,7 +288,7 @@ Congratulations! You just consumed the model deployed and trained on Azure ML wi
 
 **HINT:** Go to the [SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) and type keywords in the search bar like "Pipeline". You should have the `azureml.pipeline.core.Pipeline` class in the search results.
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/37)
 
 ## Review & Self Study
 

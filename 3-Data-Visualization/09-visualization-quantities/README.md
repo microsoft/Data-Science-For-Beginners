@@ -195,7 +195,7 @@ In this plot, you can see the range per bird category of the Minimum Length and 
 
 This bird dataset offers a wealth of information about different types of birds within a particular ecosystem. Search around the internet and see if you can find other bird-oriented datasets. Practice building charts and graphs around these birds to discover facts you didn't realize.
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/17)
 
 ## Review & Self Study
 
