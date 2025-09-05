@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "87faccac113d772551486a67a607153e",
-  "translation_date": "2025-08-31T11:07:26+00:00",
+  "original_hash": "02ce904bc1e2bfabb7dc05c25aae375c",
+  "translation_date": "2025-09-05T07:45:01+00:00",
   "source_file": "3-Data-Visualization/10-visualization-distributions/README.md",
   "language_code": "en"
 }
@@ -13,14 +13,15 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Visualizing Distributions - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-In the previous lesson, you explored an interesting dataset about the birds of Minnesota. You identified some erroneous data by visualizing outliers and examined the differences between bird categories based on their maximum length.
+In the previous lesson, you explored a dataset about the birds of Minnesota. You identified some erroneous data by visualizing outliers and examined differences between bird categories based on their maximum length.
 
 ## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/18)
+
 ## Explore the birds dataset
 
 Another way to analyze data is by examining its distribution, or how the data is spread along an axis. For instance, you might want to understand the general distribution of maximum wingspan or maximum body mass for the birds of Minnesota in this dataset.
 
-Let’s uncover some insights about the data distributions in this dataset. In the _notebook.ipynb_ file located in the root of this lesson folder, import Pandas, Matplotlib, and your data:
+Let’s uncover some insights about the distributions in this dataset. In the _notebook.ipynb_ file located in the root of this lesson folder, import Pandas, Matplotlib, and your data:
 
 ```python
 import pandas as pd
@@ -37,7 +38,7 @@ birds.head()
 |    3 | Ross's goose                 | Anser rossii           | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Anser       | LC                 |      57.3 |        64 |        1066 |        1567 |         113 |         116 |
 |    4 | Greater white-fronted goose  | Anser albifrons        | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Anser       | LC                 |        64 |        81 |        1930 |        3310 |         130 |         165 |
 
-In general, you can quickly visualize how data is distributed by using a scatter plot, as demonstrated in the previous lesson:
+In general, you can quickly examine how data is distributed by using a scatter plot, as demonstrated in the previous lesson:
 
 ```python
 birds.plot(kind='scatter',x='MaxLength',y='Order',figsize=(12,8))
@@ -54,7 +55,7 @@ This provides an overview of the general distribution of body length per bird Or
 
 ## Working with histograms
 
-Matplotlib provides excellent tools for visualizing data distributions using histograms. A histogram is similar to a bar chart, but it shows the distribution of data through the rise and fall of the bars. To create a histogram, you need numeric data. You can plot a histogram by setting the chart type to 'hist'. This chart displays the distribution of MaxBodyMass across the dataset’s numeric range. By dividing the data into smaller bins, it reveals the distribution of values:
+Matplotlib provides excellent tools for visualizing data distributions using histograms. A histogram is similar to a bar chart, but it shows the distribution through the rise and fall of the bars. To create a histogram, you need numeric data. You can plot a histogram by specifying the chart type as 'hist'. This type of chart displays the distribution of MaxBodyMass across the dataset’s numeric range. By dividing the data into smaller bins, it reveals the spread of values:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
@@ -62,7 +63,7 @@ plt.show()
 ```
 ![distribution over the entire dataset](../../../../3-Data-Visualization/10-visualization-distributions/images/dist1-wb.png)
 
-As shown, most of the 400+ birds in this dataset have a Max Body Mass under 2000. You can gain more insight by increasing the `bins` parameter to a higher value, such as 30:
+As shown, most of the 400+ birds in this dataset have a Max Body Mass under 2000. You can gain more detailed insights by increasing the `bins` parameter to a higher number, such as 30:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 30, figsize = (12,12))
@@ -70,7 +71,7 @@ plt.show()
 ```
 ![distribution over the entire dataset with larger bins param](../../../../3-Data-Visualization/10-visualization-distributions/images/dist2-wb.png)
 
-This chart provides a more detailed view of the distribution. To create a chart that’s less skewed to the left, you can filter the data to include only birds with a body mass under 60 and set the `bins` parameter to 40:
+This chart provides a more granular view of the distribution. To create a chart that’s less skewed to the left, you can filter the data to include only birds with a body mass under 60 and set the `bins` parameter to 40:
 
 ```python
 filteredBirds = birds[(birds['MaxBodyMass'] > 1) & (birds['MaxBodyMass'] < 60)]      
@@ -83,7 +84,7 @@ plt.show()
 
 Histograms also allow for color and labeling enhancements:
 
-Create a 2D histogram to compare the relationship between two distributions. For example, compare `MaxBodyMass` and `MaxLength`. Matplotlib provides a built-in way to show convergence using brighter colors:
+Create a 2D histogram to compare the relationship between two distributions. For example, compare `MaxBodyMass` vs. `MaxLength`. Matplotlib provides a built-in method to show convergence using brighter colors:
 
 ```python
 x = filteredBirds['MaxBodyMass']
@@ -92,17 +93,17 @@ y = filteredBirds['MaxLength']
 fig, ax = plt.subplots(tight_layout=True)
 hist = ax.hist2d(x, y)
 ```
-There seems to be a clear correlation between these two variables along an expected axis, with one particularly strong point of convergence:
+There seems to be a predictable correlation between these two variables along an expected axis, with one particularly strong point of convergence:
 
 ![2D plot](../../../../3-Data-Visualization/10-visualization-distributions/images/2D-wb.png)
 
-Histograms are ideal for numeric data. But what if you want to analyze distributions based on text data?
+Histograms work well for numeric data by default. But what if you want to analyze distributions based on text data?
 
 ## Explore the dataset for distributions using text data 
 
-This dataset also contains valuable information about bird categories, genus, species, family, and conservation status. Let’s explore the conservation status. What is the distribution of birds based on their conservation status?
+This dataset also contains valuable information about bird categories, genus, species, family, and conservation status. Let’s explore the conservation status data. What is the distribution of birds based on their conservation status?
 
-> ✅ In the dataset, several acronyms are used to describe conservation status. These acronyms are derived from the [IUCN Red List Categories](https://www.iucnredlist.org/), which classify species' statuses:
+> ✅ In the dataset, several acronyms are used to describe conservation status. These acronyms are derived from the [IUCN Red List Categories](https://www.iucnredlist.org/), an organization that tracks species' statuses.
 > 
 > - CR: Critically Endangered
 > - EN: Endangered
@@ -111,7 +112,7 @@ This dataset also contains valuable information about bird categories, genus, sp
 > - NT: Near Threatened
 > - VU: Vulnerable
 
-Since these are text-based values, you’ll need to transform them to create a histogram. Using the filteredBirds dataframe, display its conservation status alongside its Minimum Wingspan. What do you observe?
+Since these are text-based values, you’ll need to transform the data to create a histogram. Using the filteredBirds dataframe, display its conservation status alongside its Minimum Wingspan. What do you observe?
 
 ```python
 x1 = filteredBirds.loc[filteredBirds.ConservationStatus=='EX', 'MinWingspan']
@@ -136,15 +137,15 @@ plt.legend();
 
 ![wingspan and conservation collation](../../../../3-Data-Visualization/10-visualization-distributions/images/histogram-conservation-wb.png)
 
-There doesn’t appear to be a strong correlation between minimum wingspan and conservation status. Test other elements of the dataset using this method. Try different filters as well. Do you notice any correlations?
+There doesn’t appear to be a strong correlation between minimum wingspan and conservation status. Test other elements of the dataset using this method. Try different filters as well. Do you find any correlations?
 
 ## Density plots
 
-You may have noticed that the histograms we’ve examined so far are 'stepped' and don’t flow smoothly. To create a smoother density chart, you can use a density plot.
+You may have noticed that the histograms we’ve examined so far are 'stepped' and don’t flow smoothly in an arc. To create a smoother density chart, you can use a density plot.
 
 To work with density plots, familiarize yourself with a new plotting library, [Seaborn](https://seaborn.pydata.org/generated/seaborn.kdeplot.html). 
 
-Load Seaborn and try a basic density plot:
+Load Seaborn and try creating a basic density plot:
 
 ```python
 import seaborn as sns
@@ -154,9 +155,9 @@ plt.show()
 ```
 ![Density plot](../../../../3-Data-Visualization/10-visualization-distributions/images/density1.png)
 
-This plot mirrors the previous one for Minimum Wingspan data but appears smoother. According to Seaborn’s documentation, "Relative to a histogram, KDE can produce a plot that is less cluttered and more interpretable, especially when drawing multiple distributions. But it has the potential to introduce distortions if the underlying distribution is bounded or not smooth. Like a histogram, the quality of the representation also depends on the selection of good smoothing parameters." [source](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) In other words, outliers can still negatively impact your charts.
+This plot mirrors the previous one for Minimum Wingspan data but is smoother. According to Seaborn’s documentation, "Relative to a histogram, KDE can produce a plot that is less cluttered and more interpretable, especially when drawing multiple distributions. But it has the potential to introduce distortions if the underlying distribution is bounded or not smooth. Like a histogram, the quality of the representation also depends on the selection of good smoothing parameters." [source](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) In other words, outliers can still negatively impact your charts.
 
-If you revisit the jagged MaxBodyMass line from the second chart, you can smooth it out using this method:
+If you want to smooth out the jagged MaxBodyMass line from the second chart you created, you can recreate it using this method:
 
 ```python
 sns.kdeplot(filteredBirds['MaxBodyMass'])
@@ -164,7 +165,7 @@ plt.show()
 ```
 ![smooth bodymass line](../../../../3-Data-Visualization/10-visualization-distributions/images/density2.png)
 
-To create a line that’s smooth but not overly so, adjust the `bw_adjust` parameter:
+If you prefer a smoother but not overly smooth line, adjust the `bw_adjust` parameter:
 
 ```python
 sns.kdeplot(filteredBirds['MaxBodyMass'], bw_adjust=.2)
@@ -174,7 +175,7 @@ plt.show()
 
 ✅ Explore the available parameters for this type of plot and experiment!
 
-This type of chart provides visually appealing and explanatory visualizations. For instance, with just a few lines of code, you can display the max body mass density per bird Order:
+This type of chart provides visually appealing and explanatory visualizations. For example, with just a few lines of code, you can display the max body mass density per bird Order:
 
 ```python
 sns.kdeplot(
@@ -186,7 +187,7 @@ sns.kdeplot(
 
 ![bodymass per order](../../../../3-Data-Visualization/10-visualization-distributions/images/density4.png)
 
-You can also map the density of multiple variables in one chart. Compare the MaxLength and MinLength of a bird to their conservation status:
+You can also map the density of multiple variables in one chart. Compare the MaxLength and MinLength of a bird to its conservation status:
 
 ```python
 sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationStatus")
@@ -194,13 +195,13 @@ sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationS
 
 ![multiple densities, superimposed](../../../../3-Data-Visualization/10-visualization-distributions/images/multi.png)
 
-It might be worth investigating whether the cluster of 'Vulnerable' birds based on their lengths has any significance.
+It might be worth investigating whether the cluster of 'Vulnerable' birds based on their lengths is significant.
 
 ## 🚀 Challenge
 
-Histograms are a more advanced type of chart compared to basic scatterplots, bar charts, or line charts. Search online for examples of histograms. How are they used, what do they reveal, and in which fields or areas of study are they commonly applied?
+Histograms are a more advanced type of chart compared to basic scatterplots, bar charts, or line charts. Search online for examples of histograms. How are they used, what do they demonstrate, and in which fields or areas of study are they commonly applied?
 
-## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/19)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
 
 ## Review & Self Study
 
@@ -213,4 +214,4 @@ In this lesson, you used Matplotlib and began working with Seaborn to create mor
 ---
 
 **Disclaimer**:  
-This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we aim for accuracy, please note that automated translations may include errors or inaccuracies. The original document in its native language should be regarded as the authoritative source. For critical information, professional human translation is advised. We are not responsible for any misunderstandings or misinterpretations resulting from the use of this translation.
+This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we strive for accuracy, please note that automated translations may contain errors or inaccuracies. The original document in its native language should be regarded as the authoritative source. For critical information, professional human translation is recommended. We are not responsible for any misunderstandings or misinterpretations resulting from the use of this translation.
