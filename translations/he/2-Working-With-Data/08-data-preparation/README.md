@@ -1,0 +1,345 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "1b560955ff39a2bcf2a049fce474a951",
+  "translation_date": "2025-09-05T23:15:31+00:00",
+  "source_file": "2-Working-With-Data/08-data-preparation/README.md",
+  "language_code": "he"
+}
+-->
+# עבודה עם נתונים: הכנת נתונים
+
+|![ סקצ'נוט מאת [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/08-DataPreparation.png)|
+|:---:|
+|הכנת נתונים - _סקצ'נוט מאת [@nitya](https://twitter.com/nitya)_ |
+
+## [שאלון לפני ההרצאה](https://ff-quizzes.netlify.app/en/ds/quiz/14)
+
+בהתאם למקורו, נתונים גולמיים עשויים להכיל אי-סדירויות שיגרמו לאתגרים בניתוח ובמודלים. במילים אחרות, נתונים אלו יכולים להיות מסווגים כ"מלוכלכים" ויהיה צורך לנקותם. שיעור זה מתמקד בטכניקות לניקוי והמרת נתונים כדי להתמודד עם אתגרים של נתונים חסרים, לא מדויקים או לא שלמים. הנושאים הנלמדים בשיעור זה יעשו שימוש ב-Python ובספריית Pandas ויודגמו [במחברת](../../../../2-Working-With-Data/08-data-preparation/notebook.ipynb) שבתיקייה זו.
+
+## החשיבות של ניקוי נתונים
+
+- **קלות שימוש ושימוש חוזר**: כאשר הנתונים מאורגנים ומנורמלים כראוי, קל יותר לחפש, להשתמש ולשתף אותם עם אחרים.
+
+- **עקביות**: מדע הנתונים דורש לעיתים קרובות עבודה עם יותר ממערך נתונים אחד, כאשר מערכי נתונים ממקורות שונים צריכים להיות משולבים יחד. הבטחת סטנדרטיזציה אחידה בכל מערך נתונים תבטיח שהנתונים יהיו שימושיים גם כאשר הם משולבים למערך נתונים אחד.
+
+- **דיוק המודל**: נתונים שנוקו משפרים את דיוק המודלים שמסתמכים עליהם.
+
+## מטרות ואסטרטגיות נפוצות לניקוי נתונים
+
+- **חקר מערך נתונים**: חקר נתונים, שמכוסה [בשיעור מאוחר יותר](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/15-analyzing), יכול לעזור לך לגלות נתונים שדורשים ניקוי. התבוננות חזותית בערכים בתוך מערך נתונים יכולה להגדיר ציפיות לגבי שאר הנתונים או לספק רעיונות לבעיות שניתן לפתור. החקר יכול לכלול שאילתות בסיסיות, ויזואליזציות ודגימה.
+
+- **עיצוב**: בהתאם למקור, נתונים עשויים להכיל אי-סדירויות באופן הצגתם. זה יכול לגרום לבעיות בחיפוש והצגת הערך, כאשר הוא מופיע במערך הנתונים אך אינו מיוצג כראוי בויזואליזציות או בתוצאות שאילתות. בעיות עיצוב נפוצות כוללות פתרון של רווחים מיותרים, תאריכים וסוגי נתונים. פתרון בעיות עיצוב תלוי בדרך כלל באנשים שמשתמשים בנתונים. לדוגמה, סטנדרטים להצגת תאריכים ומספרים עשויים להשתנות ממדינה למדינה.
+
+- **כפילויות**: נתונים שמופיעים יותר מפעם אחת יכולים להוביל לתוצאות לא מדויקות ובדרך כלל יש להסירם. זה יכול לקרות לעיתים קרובות כאשר משלבים שני מערכי נתונים או יותר. עם זאת, ישנם מקרים שבהם כפילויות במערכי נתונים משולבים מכילות מידע נוסף שעשוי להיות חשוב לשמור.
+
+- **נתונים חסרים**: נתונים חסרים יכולים לגרום לאי-דיוקים כמו גם לתוצאות חלשות או מוטות. לעיתים ניתן לפתור זאת על ידי "טעינה מחדש" של הנתונים, מילוי הערכים החסרים באמצעות חישוב וקוד כמו Python, או פשוט הסרת הערך והנתונים הקשורים אליו. ישנן סיבות רבות לכך שנתונים עשויים להיות חסרים, והפעולות שננקטות כדי לפתור ערכים חסרים אלו תלויות באופן ובסיבה להיעדרם.
+
+## חקר מידע על DataFrame
+> **מטרה לימודית:** בסיום תת-פרק זה, תרגישו בנוח למצוא מידע כללי על הנתונים המאוחסנים ב-DataFrames של pandas.
+
+לאחר שטענתם את הנתונים שלכם ל-pandas, סביר להניח שהם יהיו ב-DataFrame (עיינו [בשיעור הקודם](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python#dataframe) לסקירה מפורטת). עם זאת, אם מערך הנתונים ב-DataFrame שלכם מכיל 60,000 שורות ו-400 עמודות, איך בכלל מתחילים להבין עם מה אתם עובדים? למרבה המזל, [pandas](https://pandas.pydata.org/) מספקת כלים נוחים להצצה מהירה על מידע כללי על DataFrame בנוסף לשורות הראשונות והאחרונות.
+
+כדי לחקור פונקציונליות זו, נייבא את ספריית scikit-learn של Python ונשתמש במערך נתונים איקוני: **מערך הנתונים של Iris**.
+
+```python
+import pandas as pd
+from sklearn.datasets import load_iris
+
+iris = load_iris()
+iris_df = pd.DataFrame(data=iris['data'], columns=iris['feature_names'])
+```
+|                                        |sepal length (cm)|sepal width (cm)|petal length (cm)|petal width (cm)|
+|----------------------------------------|-----------------|----------------|-----------------|----------------|
+|0                                       |5.1              |3.5             |1.4              |0.2             |
+|1                                       |4.9              |3.0             |1.4              |0.2             |
+|2                                       |4.7              |3.2             |1.3              |0.2             |
+|3                                       |4.6              |3.1             |1.5              |0.2             |
+|4                                       |5.0              |3.6             |1.4              |0.2             |
+
+- **DataFrame.info**: כדי להתחיל, השיטה `info()` משמשת להדפסת סיכום של התוכן הקיים ב-`DataFrame`. בואו נסתכל על מערך הנתונים הזה כדי לראות מה יש לנו:
+```python
+iris_df.info()
+```
+```
+RangeIndex: 150 entries, 0 to 149
+Data columns (total 4 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   sepal length (cm)  150 non-null    float64
+ 1   sepal width (cm)   150 non-null    float64
+ 2   petal length (cm)  150 non-null    float64
+ 3   petal width (cm)   150 non-null    float64
+dtypes: float64(4)
+memory usage: 4.8 KB
+```
+מכך, אנו יודעים שמערך הנתונים *Iris* מכיל 150 רשומות בארבע עמודות ללא ערכים ריקים. כל הנתונים מאוחסנים כמספרים בנקודה צפה של 64 ביט.
+
+- **DataFrame.head()**: לאחר מכן, כדי לבדוק את התוכן בפועל של ה-`DataFrame`, אנו משתמשים בשיטה `head()`. בואו נראה איך נראות השורות הראשונות של `iris_df` שלנו:
+```python
+iris_df.head()
+```
+```
+   sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)
+0                5.1               3.5                1.4               0.2
+1                4.9               3.0                1.4               0.2
+2                4.7               3.2                1.3               0.2
+3                4.6               3.1                1.5               0.2
+4                5.0               3.6                1.4               0.2
+```
+- **DataFrame.tail()**: לעומת זאת, כדי לבדוק את השורות האחרונות של ה-`DataFrame`, אנו משתמשים בשיטה `tail()`:
+```python
+iris_df.tail()
+```
+```
+     sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)
+145                6.7               3.0                5.2               2.3
+146                6.3               2.5                5.0               1.9
+147                6.5               3.0                5.2               2.0
+148                6.2               3.4                5.4               2.3
+149                5.9               3.0                5.1               1.8
+```
+> **מסקנה:** אפילו רק על ידי התבוננות במטא-נתונים על המידע ב-DataFrame או בערכים הראשונים והאחרונים שבו, ניתן לקבל מושג מיידי על הגודל, הצורה והתוכן של הנתונים שאתם עובדים איתם.
+
+## התמודדות עם נתונים חסרים
+> **מטרה לימודית:** בסיום תת-פרק זה, תדעו כיצד להחליף או להסיר ערכים ריקים מ-DataFrames.
+
+ברוב המקרים, מערכי הנתונים שתרצו להשתמש בהם (או שתצטרכו להשתמש בהם) יכילו ערכים חסרים. האופן שבו מטפלים בנתונים חסרים נושא עמו פשרות עדינות שיכולות להשפיע על הניתוח הסופי והתוצאות בעולם האמיתי.
+
+Pandas מטפלת בערכים חסרים בשתי דרכים. הראשונה שראיתם קודם לכן בסעיפים קודמים: `NaN`, או Not a Number. זהו למעשה ערך מיוחד שהוא חלק מהמפרט של IEEE לנקודה צפה ומשמש רק לציון ערכים חסרים בנקודה צפה.
+
+לערכים חסרים שאינם נקודות צפות, pandas משתמשת באובייקט `None` של Python. למרות שזה עשוי להיראות מבלבל שתיתקלו בשני סוגים שונים של ערכים שאומרים למעשה את אותו הדבר, יש לכך סיבות תכנותיות טובות, ובפועל, גישה זו מאפשרת ל-pandas לספק פשרה טובה עבור הרוב המכריע של המקרים. עם זאת, גם ל-`None` וגם ל-`NaN` יש מגבלות שצריך להיות מודעים אליהן בנוגע לאופן שבו ניתן להשתמש בהם.
+
+למידע נוסף על `NaN` ו-`None`, עיינו [במחברת](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb)!
+
+- **זיהוי ערכים ריקים**: ב-`pandas`, השיטות `isnull()` ו-`notnull()` הן השיטות העיקריות לזיהוי נתונים ריקים. שתיהן מחזירות מסכות בוליאניות על הנתונים שלכם. נשתמש ב-`numpy` עבור ערכי `NaN`:
+```python
+import numpy as np
+
+example1 = pd.Series([0, np.nan, '', None])
+example1.isnull()
+```
+```
+0    False
+1     True
+2    False
+3     True
+dtype: bool
+```
+שימו לב היטב לפלט. האם משהו מפתיע אתכם? בעוד ש-`0` הוא ערך ריק אריתמטי, הוא עדיין מספר שלם תקין ו-pandas מתייחסת אליו ככזה. `''` הוא קצת יותר עדין. בעוד שהשתמשנו בו בסעיף 1 לייצוג ערך מחרוזת ריק, הוא עדיין אובייקט מחרוזת ולא ייצוג של ריק מבחינת pandas.
+
+כעת, בואו נהפוך את זה ונשתמש בשיטות אלו באופן דומה לאופן שבו תשתמשו בהן בפועל. ניתן להשתמש במסכות בוליאניות ישירות כ-``Series`` או כ-``DataFrame`` אינדקס, מה שיכול להיות שימושי כאשר מנסים לעבוד עם ערכים ריקים (או קיימים) מבודדים.
+
+> **מסקנה**: גם השיטות `isnull()` וגם `notnull()` מפיקות תוצאות דומות כאשר משתמשים בהן ב-`DataFrame`s: הן מציגות את התוצאות ואת האינדקס של אותן תוצאות, מה שיעזור לכם מאוד כאשר תתמודדו עם הנתונים שלכם.
+
+- **הסרת ערכים ריקים**: מעבר לזיהוי ערכים חסרים, pandas מספקת אמצעי נוח להסרת ערכים ריקים מ-`Series` ו-`DataFrame`s. (במיוחד במערכי נתונים גדולים, לעיתים קרובות עדיף פשוט להסיר ערכים חסרים [NA] מהניתוח מאשר להתמודד איתם בדרכים אחרות.) כדי לראות זאת בפעולה, נחזור ל-`example1`:
+```python
+example1 = example1.dropna()
+example1
+```
+```
+0    0
+2     
+dtype: object
+```
+שימו לב שזה אמור להיראות כמו הפלט שלכם מ-`example3[example3.notnull()]`. ההבדל כאן הוא שבמקום רק לאנדקס על הערכים המוסתרים, `dropna` הסירה את הערכים החסרים מ-`Series` `example1`.
+
+מכיוון של-`DataFrame`s יש שתי ממדים, הם מספקים יותר אפשרויות להסרת נתונים.
+
+```python
+example2 = pd.DataFrame([[1,      np.nan, 7], 
+                         [2,      5,      8], 
+                         [np.nan, 6,      9]])
+example2
+```
+|      | 0 | 1 | 2 |
+|------|---|---|---|
+|0     |1.0|NaN|7  |
+|1     |2.0|5.0|8  |
+|2     |NaN|6.0|9  |
+
+(שמתם לב ש-pandas המירה שתי עמודות לנקודות צפות כדי להתאים ל-`NaN`s?)
+
+לא ניתן להסיר ערך בודד מ-`DataFrame`, ולכן יש להסיר שורות או עמודות שלמות. בהתאם למה שאתם עושים, ייתכן שתרצו לעשות זאת או את זה, ולכן pandas נותנת לכם אפשרויות לשניהם. מכיוון שבמדע הנתונים, עמודות מייצגות בדרך כלל משתנים ושורות מייצגות תצפיות, סביר יותר שתסירו שורות נתונים; ההגדרה ברירת המחדל של `dropna()` היא להסיר את כל השורות שמכילות ערכים ריקים כלשהם:
+
+```python
+example2.dropna()
+```
+```
+	0	1	2
+1	2.0	5.0	8
+```
+אם יש צורך, ניתן להסיר ערכי NA מעמודות. השתמשו ב-`axis=1` כדי לעשות זאת:
+```python
+example2.dropna(axis='columns')
+```
+```
+	2
+0	7
+1	8
+2	9
+```
+שימו לב שזה יכול להסיר הרבה נתונים שייתכן שתרצו לשמור, במיוחד במערכי נתונים קטנים יותר. מה אם אתם רוצים להסיר רק שורות או עמודות שמכילות כמה או אפילו את כל הערכים הריקים? ניתן להגדיר הגדרות אלו ב-`dropna` עם הפרמטרים `how` ו-`thresh`.
+
+ברירת המחדל היא `how='any'` (אם תרצו לבדוק בעצמכם או לראות אילו פרמטרים נוספים יש לשיטה, הריצו `example4.dropna?` בתא קוד). ניתן גם להגדיר `how='all'` כדי להסיר רק שורות או עמודות שמכילות את כל הערכים הריקים. בואו נרחיב את דוגמת ה-`DataFrame` שלנו כדי לראות זאת בפעולה.
+
+```python
+example2[3] = np.nan
+example2
+```
+|      |0  |1  |2  |3  |
+|------|---|---|---|---|
+|0     |1.0|NaN|7  |NaN|
+|1     |2.0|5.0|8  |NaN|
+|2     |NaN|6.0|9  |NaN|
+
+הפרמטר `thresh` נותן לכם שליטה מדויקת יותר: אתם מגדירים את מספר הערכים *שאינם ריקים* ששורה או עמודה צריכים להכיל כדי להישאר:
+```python
+example2.dropna(axis='rows', thresh=3)
+```
+```
+	0	1	2	3
+1	2.0	5.0	8	NaN
+```
+כאן, השורה הראשונה והאחרונה הוסרו, מכיוון שהן מכילות רק שני ערכים שאינם ריקים.
+
+- **מילוי ערכים ריקים**: בהתאם למערך הנתונים שלכם, לעיתים הגיוני יותר למלא ערכים ריקים בערכים תקפים מאשר להסירם. ניתן להשתמש ב-`isnull` כדי לעשות זאת במקום, אך זה יכול להיות מייגע, במיוחד אם יש לכם הרבה ערכים למלא. מכיוון שזו משימה נפוצה במדע הנתונים, pandas מספקת את `fillna`, שמחזירה עותק של ה-`Series` או ה-`DataFrame` עם הערכים החסרים שהוחלפו באחד שתבחרו. בואו ניצור דוגמת `Series` נוספת כדי לראות איך זה עובד בפועל.
+```python
+example3 = pd.Series([1, np.nan, 2, None, 3], index=list('abcde'))
+example3
+```
+```
+a    1.0
+b    NaN
+c    2.0
+d    NaN
+e    3.0
+dtype: float64
+```
+ניתן למלא את כל הערכים הריקים בערך יחיד, כמו `0`:
+```python
+example3.fillna(0)
+```
+```
+a    1.0
+b    0.0
+c    2.0
+d    0.0
+e    3.0
+dtype: float64
+```
+ניתן **למלא קדימה** ערכים ריקים, כלומר להשתמש בערך התקף האחרון כדי למלא ערך ריק:
+```python
+example3.fillna(method='ffill')
+```
+```
+a    1.0
+b    1.0
+c    2.0
+d    2.0
+e    3.0
+dtype: float64
+```
+ניתן גם **למלא אחורה** כדי להפיץ את הערך התקף הבא אחורה למילוי ערך ריק:
+```python
+example3.fillna(method='bfill')
+```
+```
+a    1.0
+b    2.0
+c    2.0
+d    3.0
+e    3.0
+dtype: float64
+```
+כפי שניתן לנחש, זה עובד באותו אופן עם `DataFrame`s, אך ניתן גם להגדיר `axis` לאורך הציר שבו ימולאו הערכים הריקים. ניקח שוב את `example2` שהשתמשנו בו קודם:
+```python
+example2.fillna(method='ffill', axis=1)
+```
+```
+	0	1	2	3
+0	1.0	1.0	7.0	7.0
+1	2.0	5.0	8.0	8.0
+2	NaN	6.0	9.0	9.0
+```
+שימו לב שכאשר ערך קודם אינו זמין למילוי קדימה, הערך הריק נשאר.
+**עיקרי הדברים:** ישנן דרכים רבות להתמודד עם ערכים חסרים במערכי הנתונים שלך. האסטרטגיה הספציפית שבה תבחר (להסיר אותם, להחליף אותם, או אפילו איך להחליף אותם) צריכה להיות מותאמת למאפיינים הייחודיים של הנתונים הללו. ככל שתתמודד ותעבוד יותר עם מערכי נתונים, תפתח תחושה טובה יותר כיצד להתמודד עם ערכים חסרים.
+## הסרת נתונים כפולים
+
+> **מטרת הלמידה:** בסיום תת-פרק זה, עליכם להרגיש בנוח בזיהוי והסרת ערכים כפולים מתוך DataFrames.
+
+בנוסף לנתונים חסרים, לעיתים קרובות תיתקלו בנתונים כפולים במערכי נתונים מהעולם האמיתי. למרבה המזל, `pandas` מספקת דרך פשוטה לזיהוי והסרת רשומות כפולות.
+
+- **זיהוי כפילויות: `duplicated`**: ניתן לזהות בקלות ערכים כפולים באמצעות השיטה `duplicated` ב-pandas, שמחזירה מסכת בוליאנית המצביעה האם רשומה ב-`DataFrame` היא כפולה של רשומה קודמת. בואו ניצור `DataFrame` נוסף כדי לראות זאת בפעולה.
+```python
+example4 = pd.DataFrame({'letters': ['A','B'] * 2 + ['B'],
+                         'numbers': [1, 2, 1, 3, 3]})
+example4
+```
+|      |letters|numbers|
+|------|-------|-------|
+|0     |A      |1      |
+|1     |B      |2      |
+|2     |A      |1      |
+|3     |B      |3      |
+|4     |B      |3      |
+
+```python
+example4.duplicated()
+```
+```
+0    False
+1    False
+2     True
+3    False
+4     True
+dtype: bool
+```
+- **הסרת כפילויות: `drop_duplicates`:** מחזירה פשוט עותק של הנתונים שבהם כל הערכים ה-`duplicated` הם `False`:
+```python
+example4.drop_duplicates()
+```
+```
+	letters	numbers
+0	A	1
+1	B	2
+3	B	3
+```
+גם `duplicated` וגם `drop_duplicates` בברירת המחדל מתייחסים לכל העמודות, אך ניתן לציין שהם יבדקו רק תת-קבוצה של עמודות ב-`DataFrame` שלכם:
+```python
+example4.drop_duplicates(['letters'])
+```
+```
+letters	numbers
+0	A	1
+1	B	2
+```
+
+> **תובנה:** הסרת נתונים כפולים היא חלק חיוני כמעט בכל פרויקט מדעי נתונים. נתונים כפולים יכולים לשנות את תוצאות הניתוחים שלכם ולספק תוצאות לא מדויקות!
+
+
+## 🚀 אתגר
+
+כל החומרים שנדונו זמינים כ-[Jupyter Notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/2-Working-With-Data/08-data-preparation/notebook.ipynb). בנוסף, ישנם תרגילים לאחר כל חלק, נסו אותם!
+
+## [שאלון לאחר ההרצאה](https://ff-quizzes.netlify.app/en/ds/quiz/15)
+
+
+
+## סקירה ולמידה עצמית
+
+ישנן דרכים רבות לגלות ולגשת להכנת הנתונים שלכם לניתוח ומידול, וניקוי הנתונים הוא שלב חשוב שדורש "עבודה מעשית". נסו את האתגרים האלו מ-Kaggle כדי לחקור טכניקות שלא כוסו בשיעור זה.
+
+- [אתגר ניקוי נתונים: ניתוח תאריכים](https://www.kaggle.com/rtatman/data-cleaning-challenge-parsing-dates/)
+
+- [אתגר ניקוי נתונים: שינוי קנה מידה ונרמול נתונים](https://www.kaggle.com/rtatman/data-cleaning-challenge-scale-and-normalize-data)
+
+
+## משימה
+
+[הערכת נתונים מטופס](assignment.md)
+
+---
+
+**כתב ויתור**:  
+מסמך זה תורגם באמצעות שירות תרגום מבוסס בינה מלאכותית [Co-op Translator](https://github.com/Azure/co-op-translator). למרות שאנו שואפים לדיוק, יש לקחת בחשבון שתרגומים אוטומטיים עשויים להכיל שגיאות או אי-דיוקים. המסמך המקורי בשפתו המקורית נחשב למקור הסמכותי. למידע קריטי, מומלץ להשתמש בתרגום מקצועי על ידי בני אדם. איננו נושאים באחריות לכל אי-הבנה או פרשנות שגויה הנובעת משימוש בתרגום זה.  

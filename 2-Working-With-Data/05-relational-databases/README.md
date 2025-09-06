@@ -6,7 +6,7 @@
 
 Chances are you have used a spreadsheet in the past to store information. You had a set of rows and columns, where the rows contained the information (or data), and the columns described the information (sometimes called metadata). A relational database is built upon this core principle of columns and rows in tables, allowing you to have information spread across multiple tables. This allows you to work with more complex data, avoid duplication, and have flexibility in the way you explore the data. Let's explore the concepts of a relational database.
 
-## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/8)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
 ## It all starts with tables
 
@@ -166,7 +166,7 @@ There are numerous relational databases available on the internet. You can explo
 
 ## Post-Lecture Quiz
 
-## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/9)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/9)
 
 ## Review & Self Study
 
