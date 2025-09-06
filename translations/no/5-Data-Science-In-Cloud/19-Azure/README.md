@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
-  "translation_date": "2025-09-04T19:23:34+00:00",
+  "original_hash": "472d3fab1c5be50f387336e7a686dbe1",
+  "translation_date": "2025-09-05T22:15:14+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "no"
 }
@@ -37,7 +37,7 @@ Innholdsfortegnelse:
   - [Gjennomgang og selvstudium](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Oppgave](../../../../5-Data-Science-In-Cloud/19-Azure)
 
-## [Quiz før forelesning](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/36)
+## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ds/quiz/36)
 
 ## 1. Introduksjon
 
@@ -55,9 +55,9 @@ Nøkkelområder i SDK inkluderer:
 
 [Les mer om Azure Machine Learning SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
-I [forrige leksjon](../18-Low-Code/README.md) så vi hvordan vi kan trene, utplassere og bruke en modell på en Low code/No code-måte. Vi brukte datasettet for hjertesvikt for å generere en modell for hjertesviktprediksjon. I denne leksjonen skal vi gjøre nøyaktig det samme, men ved hjelp av Azure Machine Learning SDK.
+I [forrige leksjon](../18-Low-Code/README.md) så vi hvordan man trener, utplasserer og bruker en modell på en Low code/No code-måte. Vi brukte datasettet for hjertesvikt for å generere en modell for hjertesviktprediksjon. I denne leksjonen skal vi gjøre det samme, men ved å bruke Azure Machine Learning SDK.
 
-![prosjekt-skjema](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.no.png)
+![prosjekt-skjema](../../../../5-Data-Science-In-Cloud/19-Azure/images/project-schema.PNG)
 
 ### 1.2 Introduksjon til prosjektet og datasettet for hjertesviktprediksjon
 
@@ -66,7 +66,7 @@ Se [her](../18-Low-Code/README.md) for introduksjon til prosjektet og datasettet
 ## 2. Trene en modell med Azure ML SDK
 ### 2.1 Opprett et Azure ML-arbeidsområde
 
-For enkelhets skyld skal vi jobbe i en Jupyter Notebook. Dette innebærer at du allerede har et arbeidsområde og en beregningsinstans. Hvis du allerede har et arbeidsområde, kan du hoppe direkte til seksjon 2.3 Opprette Notebook.
+For enkelhets skyld skal vi jobbe i en Jupyter Notebook. Dette innebærer at du allerede har et arbeidsområde og en beregningsinstans. Hvis du allerede har et arbeidsområde, kan du hoppe direkte til seksjonen 2.3 Opprette Notebook.
 
 Hvis ikke, følg instruksjonene i seksjonen **2.1 Opprett et Azure ML-arbeidsområde** i [forrige leksjon](../18-Low-Code/README.md) for å opprette et arbeidsområde.
 
@@ -74,7 +74,7 @@ Hvis ikke, følg instruksjonene i seksjonen **2.1 Opprett et Azure ML-arbeidsomr
 
 I [Azure ML-arbeidsområdet](https://ml.azure.com/) som vi opprettet tidligere, gå til beregningsmenyen, og du vil se de forskjellige beregningsressursene som er tilgjengelige.
 
-![beregningsinstans-1](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.no.png)
+![beregningsinstans-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/compute-instance-1.PNG)
 
 La oss opprette en beregningsinstans for å klargjøre en Jupyter Notebook. 
 1. Klikk på + Ny-knappen. 
@@ -85,22 +85,22 @@ La oss opprette en beregningsinstans for å klargjøre en Jupyter Notebook.
 Gratulerer, du har nettopp opprettet en beregningsinstans! Vi vil bruke denne beregningsinstansen til å opprette en Notebook i seksjonen [Opprette Notebooks](../../../../5-Data-Science-In-Cloud/19-Azure).
 
 ### 2.3 Laste inn datasettet
-Se [forrige leksjon](../18-Low-Code/README.md) i seksjonen **2.3 Laste inn datasettet** hvis du ikke har lastet opp datasettet ennå.
+Se seksjonen **2.3 Laste inn datasettet** i [forrige leksjon](../18-Low-Code/README.md) hvis du ikke har lastet opp datasettet ennå.
 
 ### 2.4 Opprette Notebooks
 
-> **_MERK:_** For neste steg kan du enten opprette en ny Notebook fra bunnen av, eller du kan laste opp [Notebooken vi opprettet](notebook.ipynb) i Azure ML Studio. For å laste den opp, klikk på "Notebook"-menyen og last opp Notebooken.
+> **_MERK:_** For neste steg kan du enten opprette en ny Notebook fra bunnen av, eller du kan laste opp [Notebooken vi opprettet](../../../../5-Data-Science-In-Cloud/19-Azure/notebook.ipynb) i Azure ML Studio. For å laste den opp, klikk på "Notebook"-menyen og last opp Notebooken.
 
 Notebooks er en veldig viktig del av data science-prosessen. De kan brukes til å utføre utforskende dataanalyse (EDA), koble til en beregningsklynge for å trene en modell, eller koble til en inferensklynge for å utplassere et endepunkt. 
 
-For å opprette en Notebook trenger vi en beregningsnode som serverer Jupyter Notebook-instansen. Gå tilbake til [Azure ML-arbeidsområdet](https://ml.azure.com/) og klikk på Beregningsinstanser. I listen over beregningsinstanser bør du se [beregningsinstansen vi opprettet tidligere](../../../../5-Data-Science-In-Cloud/19-Azure). 
+For å opprette en Notebook trenger vi en beregningsnode som kjører Jupyter Notebook-instansen. Gå tilbake til [Azure ML-arbeidsområdet](https://ml.azure.com/) og klikk på Beregningsinstanser. I listen over beregningsinstanser bør du se [beregningsinstansen vi opprettet tidligere](../../../../5-Data-Science-In-Cloud/19-Azure). 
 
 1. I seksjonen Applikasjoner, klikk på Jupyter-alternativet. 
 2. Kryss av for "Ja, jeg forstår"-boksen og klikk på Fortsett-knappen.
-![notebook-1](../../../../translated_images/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.no.png)
-3. Dette bør åpne en ny nettleserfane med Jupyter Notebook-instansen din som vist nedenfor. Klikk på "Ny"-knappen for å opprette en Notebook.
+![notebook-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-1.PNG)
+3. Dette åpner en ny nettleserfane med Jupyter Notebook-instansen din som vist nedenfor. Klikk på "Ny"-knappen for å opprette en Notebook.
 
-![notebook-2](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.no.png)
+![notebook-2](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-2.PNG)
 
 Nå som vi har en Notebook, kan vi begynne å trene modellen med Azure ML SDK.
 
@@ -110,23 +110,23 @@ Først og fremst, hvis du noen gang er i tvil, se [Azure ML SDK-dokumentasjonen]
 
 #### 2.5.1 Konfigurer arbeidsområde, eksperiment, beregningsklynge og datasett
 
-Du må laste inn `workspace` fra konfigurasjonsfilen ved hjelp av følgende kode:
+Du må laste inn `workspace` fra konfigurasjonsfilen ved å bruke følgende kode:
 
 ```python
 from azureml.core import Workspace
 ws = Workspace.from_config()
 ```
 
-Dette returnerer et objekt av typen `Workspace` som representerer arbeidsområdet. Deretter må du opprette et `eksperiment` ved hjelp av følgende kode:
+Dette returnerer et objekt av typen `Workspace` som representerer arbeidsområdet. Deretter må du opprette et `eksperiment` ved å bruke følgende kode:
 
 ```python
 from azureml.core import Experiment
 experiment_name = 'aml-experiment'
 experiment = Experiment(ws, experiment_name)
 ```
-For å hente eller opprette et eksperiment fra et arbeidsområde, ber du om eksperimentet ved å bruke eksperimentnavnet. Eksperimentnavnet må være 3-36 tegn, starte med en bokstav eller et tall, og kan bare inneholde bokstaver, tall, understrekinger og bindestreker. Hvis eksperimentet ikke finnes i arbeidsområdet, opprettes et nytt eksperiment.
+For å hente eller opprette et eksperiment fra et arbeidsområde, ber du om eksperimentet ved å bruke eksperimentnavnet. Eksperimentnavnet må være 3-36 tegn, starte med en bokstav eller et tall, og kan kun inneholde bokstaver, tall, understreker og bindestreker. Hvis eksperimentet ikke finnes i arbeidsområdet, opprettes et nytt eksperiment.
 
-Nå må du opprette en beregningsklynge for treningen ved hjelp av følgende kode. Merk at dette steget kan ta noen minutter. 
+Nå må du opprette en beregningsklynge for treningen ved å bruke følgende kode. Merk at dette steget kan ta noen minutter. 
 
 ```python
 from azureml.core.compute import AmlCompute
@@ -156,17 +156,17 @@ df.describe()
 
 For å sette opp AutoML-konfigurasjonen, bruk [AutoMLConfig-klassen](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
-Som beskrevet i dokumentasjonen, er det mange parametere du kan eksperimentere med. For dette prosjektet vil vi bruke følgende parametere:
+Som beskrevet i dokumentasjonen, finnes det mange parametere du kan eksperimentere med. For dette prosjektet vil vi bruke følgende parametere:
 
 - `experiment_timeout_minutes`: Maksimal tid (i minutter) eksperimentet får lov til å kjøre før det automatisk stoppes og resultatene gjøres tilgjengelige.
 - `max_concurrent_iterations`: Maksimalt antall samtidige treningsiterasjoner tillatt for eksperimentet.
 - `primary_metric`: Den primære metrikken som brukes for å bestemme eksperimentets status.
-- `compute_target`: Azure Machine Learning-beregningsressursen som skal brukes til å kjøre det automatiserte maskinlæringseksperimentet.
+- `compute_target`: Azure Machine Learning-beregningsressursen som Automated Machine Learning-eksperimentet skal kjøres på.
 - `task`: Typen oppgave som skal kjøres. Verdier kan være 'classification', 'regression' eller 'forecasting' avhengig av typen automatisert ML-problem som skal løses.
 - `training_data`: Treningsdataene som skal brukes i eksperimentet. Det bør inneholde både treningsfunksjoner og en etikettkolonne (valgfritt en kolonne for prøvevekter).
 - `label_column_name`: Navnet på etikettkolonnen.
 - `path`: Den fullstendige banen til Azure Machine Learning-prosjektmappen.
-- `enable_early_stopping`: Om tidlig avslutning skal aktiveres hvis poengsummen ikke forbedres på kort sikt.
+- `enable_early_stopping`: Om tidlig avslutning skal aktiveres hvis resultatene ikke forbedres på kort sikt.
 - `featurization`: Indikator for om featurization-trinnet skal gjøres automatisk eller ikke, eller om tilpasset featurization skal brukes.
 - `debug_log`: Loggfilen for å skrive feilsøkingsinformasjon til.
 
@@ -192,7 +192,7 @@ automl_config = AutoMLConfig(compute_target=compute_target,
                              **automl_settings
                             )
 ```
-Nå som du har satt opp konfigurasjonen, kan du trene modellen ved hjelp av følgende kode. Dette steget kan ta opptil en time, avhengig av størrelsen på klyngen din.
+Nå som du har satt opp konfigurasjonen, kan du trene modellen ved å bruke følgende kode. Dette steget kan ta opptil en time avhengig av størrelsen på klyngen din.
 
 ```python
 remote_run = experiment.submit(automl_config)
@@ -206,7 +206,7 @@ RunDetails(remote_run).show()
 
 ### 3.1 Lagre den beste modellen
 
-`remote_run` er et objekt av typen [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). Dette objektet inneholder metoden `get_output()` som returnerer den beste kjøringen og den tilsvarende tilpassede modellen.
+`remote_run` er et objekt av typen [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). Dette objektet inneholder metoden `get_output()` som returnerer den beste kjøringen og den tilhørende tilpassede modellen.
 
 ```python
 best_run, fitted_model = remote_run.get_output()
@@ -232,7 +232,7 @@ model = best_run.register_model(model_name = model_name,
 
 Når den beste modellen er lagret, kan vi utplassere den med [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109)-klassen. InferenceConfig representerer konfigurasjonsinnstillingene for et tilpasset miljø som brukes til utplassering. [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py)-klassen representerer en maskinlæringsmodell utplassert som et webtjenesteendepunkt på Azure Container Instances. En utplassert tjeneste opprettes fra en modell, skript og tilhørende filer. Den resulterende webtjenesten er et lastbalansert HTTP-endepunkt med en REST API. Du kan sende data til denne API-en og motta prediksjonen returnert av modellen.
 
-Modellen utplasseres ved hjelp av [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)-metoden.
+Modellen utplasseres ved å bruke [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)-metoden.
 
 ```python
 from azureml.core.model import InferenceConfig, Model
@@ -254,7 +254,7 @@ Dette steget bør ta noen minutter.
 
 ### 3.3 Bruk av endepunkt
 
-Du bruker endepunktet ditt ved å opprette et eksempelinput:
+Du bruker endepunktet ditt ved å opprette en eksempelinput:
 
 ```python
 data = {
@@ -279,7 +279,7 @@ data = {
 
 test_sample = str.encode(json.dumps(data))
 ```
-Og deretter kan du sende dette inputet til modellen din for prediksjon:
+Og deretter kan du sende denne inputen til modellen din for prediksjon:
 ```python
 response = aci_service.run(input_data=test_sample)
 response
@@ -297,7 +297,7 @@ Det er mange andre ting du kan gjøre gjennom SDK-en, men dessverre kan vi ikke 
 
 **HINT:** Gå til [SDK-dokumentasjonen](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) og skriv inn nøkkelord i søkefeltet, som "Pipeline". Du bør finne `azureml.pipeline.core.Pipeline`-klassen i søkeresultatene.
 
-## [Quiz etter leksjonen](https://ff-quizzes.netlify.app/en/ds/)
+## [Quiz etter leksjonen](https://ff-quizzes.netlify.app/en/ds/quiz/37)
 
 ## Gjennomgang & Selvstudium
 

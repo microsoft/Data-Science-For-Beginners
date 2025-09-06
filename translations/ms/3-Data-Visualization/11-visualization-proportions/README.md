@@ -1,31 +1,31 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "cc490897ee2d276870472bcb31602d03",
-  "translation_date": "2025-09-04T20:48:19+00:00",
+  "original_hash": "42119bcc97bee88254e381156d770f3c",
+  "translation_date": "2025-09-06T00:09:29+00:00",
   "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
   "language_code": "ms"
 }
 -->
-# Memvisualkan Peratusan
+# Memvisualkan Perkadaran
 
 |![ Sketchnote oleh [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/11-Visualizing-Proportions.png)|
 |:---:|
-|Memvisualkan Peratusan - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_ |
+|Memvisualkan Perkadaran - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_ |
 
-Dalam pelajaran ini, anda akan menggunakan dataset yang berfokuskan alam semula jadi untuk memvisualkan peratusan, seperti berapa banyak jenis kulat yang terdapat dalam dataset tentang cendawan. Mari kita terokai kulat yang menarik ini menggunakan dataset yang diperoleh daripada Audubon yang menyenaraikan butiran tentang 23 spesies cendawan berinsang dalam keluarga Agaricus dan Lepiota. Anda akan bereksperimen dengan visualisasi yang menarik seperti:
+Dalam pelajaran ini, anda akan menggunakan set data berfokuskan alam semula jadi untuk memvisualkan perkadaran, seperti berapa banyak jenis kulat yang terdapat dalam set data tentang cendawan. Mari kita terokai kulat yang menarik ini menggunakan set data yang diperoleh daripada Audubon yang menyenaraikan butiran tentang 23 spesies cendawan berinsang dalam keluarga Agaricus dan Lepiota. Anda akan bereksperimen dengan visualisasi menarik seperti:
 
 - Carta pai 🥧
 - Carta donat 🍩
-- Carta waffle 🧇
+- Carta wafel 🧇
 
-> 💡 Satu projek yang sangat menarik dipanggil [Charticulator](https://charticulator.com) oleh Microsoft Research menawarkan antara muka seret dan lepas percuma untuk visualisasi data. Dalam salah satu tutorial mereka, mereka juga menggunakan dataset cendawan ini! Jadi anda boleh meneroka data dan belajar perpustakaan ini pada masa yang sama: [Tutorial Charticulator](https://charticulator.com/tutorials/tutorial4.html).
+> 💡 Satu projek yang sangat menarik dipanggil [Charticulator](https://charticulator.com) oleh Microsoft Research menawarkan antara muka seret dan lepas percuma untuk visualisasi data. Dalam salah satu tutorial mereka, mereka juga menggunakan set data cendawan ini! Jadi anda boleh meneroka data dan belajar perpustakaan ini pada masa yang sama: [Tutorial Charticulator](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Kuiz selepas kuliah](https://ff-quizzes.netlify.app/en/ds/)
+## [Kuiz pra-kuliah](https://ff-quizzes.netlify.app/en/ds/quiz/20)
 
 ## Kenali cendawan anda 🍄
 
-Cendawan sangat menarik. Mari kita import dataset untuk mengkajinya:
+Cendawan sangat menarik. Mari kita import set data untuk mengkajinya:
 
 ```python
 import pandas as pd
@@ -33,23 +33,22 @@ import matplotlib.pyplot as plt
 mushrooms = pd.read_csv('../../data/mushrooms.csv')
 mushrooms.head()
 ```
-Sebuah jadual dicetak dengan beberapa data yang hebat untuk analisis:
-
+Sebuah jadual dipaparkan dengan beberapa data hebat untuk dianalisis:
 
 | class     | cap-shape | cap-surface | cap-color | bruises | odor    | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | stalk-root | stalk-surface-above-ring | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
 | --------- | --------- | ----------- | --------- | ------- | ------- | --------------- | ------------ | --------- | ---------- | ----------- | ---------- | ------------------------ | ------------------------ | ---------------------- | ---------------------- | --------- | ---------- | ----------- | --------- | ----------------- | ---------- | ------- |
-| Poisonous | Convex    | Smooth      | Brown     | Bruises | Pungent | Free            | Close        | Narrow    | Black      | Enlarging   | Equal      | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Black             | Scattered  | Urban   |
-| Edible    | Convex    | Smooth      | Yellow    | Bruises | Almond  | Free            | Close        | Broad     | Black      | Enlarging   | Club       | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Brown             | Numerous   | Grasses |
-| Edible    | Bell      | Smooth      | White     | Bruises | Anise   | Free            | Close        | Broad     | Brown      | Enlarging   | Club       | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Brown             | Numerous   | Meadows |
-| Poisonous | Convex    | Scaly       | White     | Bruises | Pungent | Free            | Close        | Narrow    | Brown      | Enlarging   | Equal      | Smooth                   | Smooth                   | White                  | White                  | Partial   | White      | One         | Pendant   | Black             | Scattered  | Urban   |
+| Beracun   | Cembung   | Licin       | Coklat    | Lebam   | Tajam   | Bebas           | Rapat        | Sempit    | Hitam      | Membesar    | Sama       | Licin                   | Licin                   | Putih                  | Putih                  | Sebahagian | Putih      | Satu        | Gantung  | Hitam             | Berselerak | Bandar  |
+| Boleh dimakan | Cembung | Licin      | Kuning    | Lebam   | Badam   | Bebas           | Rapat        | Lebar     | Hitam      | Membesar    | Kelab      | Licin                   | Licin                   | Putih                  | Putih                  | Sebahagian | Putih      | Satu        | Gantung  | Coklat            | Banyak     | Rumput  |
+| Boleh dimakan | Loceng | Licin      | Putih     | Lebam   | Anis    | Bebas           | Rapat        | Lebar     | Coklat     | Membesar    | Kelab      | Licin                   | Licin                   | Putih                  | Putih                  | Sebahagian | Putih      | Satu        | Gantung  | Coklat            | Banyak     | Padang  |
+| Beracun   | Cembung   | Bersisik    | Putih     | Lebam   | Tajam   | Bebas           | Rapat        | Sempit    | Coklat     | Membesar    | Sama       | Licin                   | Licin                   | Putih                  | Putih                  | Sebahagian | Putih      | Satu        | Gantung  | Hitam             | Berselerak | Bandar  |
 
-Anda akan perasan bahawa semua data adalah berbentuk teks. Anda perlu menukar data ini supaya dapat digunakan dalam carta. Kebanyakan data, sebenarnya, diwakili sebagai objek:
+Anda segera perasan bahawa semua data adalah berbentuk teks. Anda perlu menukar data ini supaya boleh digunakan dalam carta. Kebanyakan data, sebenarnya, diwakili sebagai objek:
 
 ```python
 print(mushrooms.select_dtypes(["object"]).columns)
 ```
 
-Outputnya adalah:
+Hasilnya adalah:
 
 ```output
 Index(['class', 'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor',
@@ -60,7 +59,7 @@ Index(['class', 'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor',
        'ring-type', 'spore-print-color', 'population', 'habitat'],
       dtype='object')
 ```
-Ambil data ini dan tukarkan kolum 'class' kepada kategori:
+Ambil data ini dan tukar lajur 'class' kepada kategori:
 
 ```python
 cols = mushrooms.select_dtypes(["object"]).columns
@@ -72,14 +71,13 @@ edibleclass=mushrooms.groupby(['class']).count()
 edibleclass
 ```
 
-Sekarang, jika anda mencetak data cendawan, anda boleh lihat bahawa ia telah dikumpulkan ke dalam kategori mengikut kelas beracun/boleh dimakan:
-
+Sekarang, jika anda mencetak data cendawan, anda boleh melihat bahawa ia telah dikelompokkan ke dalam kategori mengikut kelas beracun/boleh dimakan:
 
 |           | cap-shape | cap-surface | cap-color | bruises | odor | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | ... | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
 | --------- | --------- | ----------- | --------- | ------- | ---- | --------------- | ------------ | --------- | ---------- | ----------- | --- | ------------------------ | ---------------------- | ---------------------- | --------- | ---------- | ----------- | --------- | ----------------- | ---------- | ------- |
 | class     |           |             |           |         |      |                 |              |           |            |             |     |                          |                        |                        |           |            |             |           |                   |            |         |
-| Edible    | 4208      | 4208        | 4208      | 4208    | 4208 | 4208            | 4208         | 4208      | 4208       | 4208        | ... | 4208                     | 4208                   | 4208                   | 4208      | 4208       | 4208        | 4208      | 4208              | 4208       | 4208    |
-| Poisonous | 3916      | 3916        | 3916      | 3916    | 3916 | 3916            | 3916         | 3916      | 3916       | 3916        | ... | 3916                     | 3916                   | 3916                   | 3916      | 3916       | 3916        | 3916      | 3916              | 3916       | 3916    |
+| Boleh dimakan | 4208  | 4208        | 4208      | 4208    | 4208 | 4208            | 4208         | 4208      | 4208       | 4208        | ... | 4208                     | 4208                   | 4208                   | 4208      | 4208       | 4208        | 4208      | 4208              | 4208       | 4208    |
+| Beracun   | 3916      | 3916        | 3916      | 3916    | 3916 | 3916            | 3916         | 3916      | 3916       | 3916        | ... | 3916                     | 3916                   | 3916                   | 3916      | 3916       | 3916        | 3916      | 3916              | 3916       | 3916    |
 
 Jika anda mengikuti susunan yang ditunjukkan dalam jadual ini untuk mencipta label kategori kelas anda, anda boleh membina carta pai:
 
@@ -91,13 +89,13 @@ plt.pie(edibleclass['population'],labels=labels,autopct='%.1f %%')
 plt.title('Edible?')
 plt.show()
 ```
-Voila, sebuah carta pai yang menunjukkan peratusan data ini mengikut dua kelas cendawan. Sangat penting untuk mendapatkan susunan label dengan betul, terutamanya di sini, jadi pastikan anda mengesahkan susunan dengan cara array label dibina!
+Voila, carta pai yang menunjukkan perkadaran data ini mengikut dua kelas cendawan ini. Sangat penting untuk mendapatkan susunan label dengan betul, terutamanya di sini, jadi pastikan anda mengesahkan susunan dengan cara label array dibina!
 
-![carta pai](../../../../translated_images/pie1-wb.e201f2fcc335413143ce37650fb7f5f0bb21358e7823a327ed8644dfb84be9db.ms.png)
+![carta pai](../../../../3-Data-Visualization/11-visualization-proportions/images/pie1-wb.png)
 
 ## Donat!
 
-Carta pai yang lebih menarik secara visual adalah carta donat, iaitu carta pai dengan lubang di tengah. Mari kita lihat data kita menggunakan kaedah ini.
+Carta pai yang lebih menarik secara visual ialah carta donat, iaitu carta pai dengan lubang di tengah. Mari kita lihat data kita menggunakan kaedah ini.
 
 Lihat pelbagai habitat di mana cendawan tumbuh:
 
@@ -123,16 +121,16 @@ plt.title('Mushroom Habitats')
 plt.show()
 ```
 
-![carta donat](../../../../translated_images/donut-wb.be3c12a22712302b5d10c40014d5389d4a1ae4412fe1655b3cf4af57b64f799a.ms.png)
+![carta donat](../../../../3-Data-Visualization/11-visualization-proportions/images/donut-wb.png)
 
 Kod ini melukis carta dan bulatan tengah, kemudian menambah bulatan tengah itu dalam carta. Edit lebar bulatan tengah dengan menukar `0.40` kepada nilai lain.
 
-Carta donat boleh diubah suai dalam beberapa cara untuk menukar label. Label khususnya boleh diserlahkan untuk meningkatkan kebolehbacaan. Ketahui lebih lanjut dalam [dokumen](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
+Carta donat boleh diubah suai dalam beberapa cara untuk menukar label. Label khususnya boleh diserlahkan untuk meningkatkan kebolehbacaan. Ketahui lebih lanjut dalam [dokumentasi](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
 
-Sekarang setelah anda tahu cara mengelompokkan data anda dan kemudian memaparkannya sebagai pai atau donat, anda boleh meneroka jenis carta lain. Cuba carta waffle, yang hanya cara berbeza untuk meneroka kuantiti.
-## Waffle!
+Sekarang setelah anda tahu cara mengelompokkan data anda dan kemudian memaparkannya sebagai pai atau donat, anda boleh meneroka jenis carta lain. Cuba carta wafel, yang hanya cara berbeza untuk meneroka kuantiti.
+## Wafel!
 
-Carta jenis 'waffle' adalah cara berbeza untuk memvisualkan kuantiti sebagai array 2D kotak. Cuba visualkan kuantiti warna penutup cendawan yang berbeza dalam dataset ini. Untuk melakukan ini, anda perlu memasang perpustakaan pembantu yang dipanggil [PyWaffle](https://pypi.org/project/pywaffle/) dan gunakan Matplotlib:
+Carta jenis 'wafel' adalah cara berbeza untuk memvisualkan kuantiti sebagai susunan 2D petak. Cuba visualkan kuantiti warna topi cendawan yang berbeza dalam set data ini. Untuk melakukan ini, anda perlu memasang perpustakaan pembantu yang dipanggil [PyWaffle](https://pypi.org/project/pywaffle/) dan gunakan Matplotlib:
 
 ```python
 pip install pywaffle
@@ -145,7 +143,7 @@ capcolor=mushrooms.groupby(['cap-color']).count()
 capcolor
 ```
 
-Cipta carta waffle dengan mencipta label dan kemudian mengelompokkan data anda:
+Cipta carta wafel dengan mencipta label dan kemudian mengelompokkan data anda:
 
 ```python
 import pandas as pd
@@ -168,22 +166,22 @@ fig = plt.figure(
 )
 ```
 
-Menggunakan carta waffle, anda boleh melihat dengan jelas peratusan warna penutup dalam dataset cendawan ini. Menariknya, terdapat banyak cendawan dengan penutup hijau!
+Menggunakan carta wafel, anda boleh melihat dengan jelas perkadaran warna topi dalam set data cendawan ini. Menariknya, terdapat banyak cendawan bertopi hijau!
 
-![carta waffle](../../../../translated_images/waffle.5455dbae4ccf17d53bb40ff0a657ecef7b8aa967e27a19cc96325bd81598f65e.ms.png)
+![carta wafel](../../../../3-Data-Visualization/11-visualization-proportions/images/waffle.png)
 
-✅ Pywaffle menyokong ikon dalam carta yang menggunakan mana-mana ikon yang tersedia dalam [Font Awesome](https://fontawesome.com/). Lakukan beberapa eksperimen untuk mencipta carta waffle yang lebih menarik menggunakan ikon dan bukannya kotak.
+✅ Pywaffle menyokong ikon dalam carta yang menggunakan mana-mana ikon yang tersedia dalam [Font Awesome](https://fontawesome.com/). Lakukan beberapa eksperimen untuk mencipta carta wafel yang lebih menarik menggunakan ikon dan bukannya petak.
 
-Dalam pelajaran ini, anda belajar tiga cara untuk memvisualkan peratusan. Pertama, anda perlu mengelompokkan data anda ke dalam kategori dan kemudian memutuskan cara terbaik untuk memaparkan data - pai, donat, atau waffle. Semua adalah menarik dan memberikan pengguna gambaran segera tentang dataset.
+Dalam pelajaran ini, anda mempelajari tiga cara untuk memvisualkan perkadaran. Pertama, anda perlu mengelompokkan data anda ke dalam kategori dan kemudian memutuskan cara terbaik untuk memaparkan data - pai, donat, atau wafel. Semuanya menarik dan memberikan pengguna gambaran segera tentang set data.
 
 ## 🚀 Cabaran
 
-Cuba cipta semula carta yang menarik ini dalam [Charticulator](https://charticulator.com).
-## [Kuiz selepas kuliah](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
+Cuba cipta semula carta menarik ini dalam [Charticulator](https://charticulator.com).
+## [Kuiz pasca-kuliah](https://ff-quizzes.netlify.app/en/ds/quiz/21)
 
 ## Ulasan & Kajian Kendiri
 
-Kadang-kadang tidak jelas bila untuk menggunakan carta pai, donat, atau waffle. Berikut adalah beberapa artikel untuk dibaca mengenai topik ini:
+Kadangkala tidak jelas bila untuk menggunakan carta pai, donat, atau wafel. Berikut adalah beberapa artikel untuk dibaca mengenai topik ini:
 
 https://www.beautiful.ai/blog/battle-of-the-charts-pie-chart-vs-donut-chart
 
@@ -193,10 +191,10 @@ https://www.mit.edu/~mbarker/formula1/f1help/11-ch-c6.htm
 
 https://medium.datadriveninvestor.com/data-visualization-done-the-right-way-with-tableau-waffle-chart-fdf2a19be402
 
-Lakukan penyelidikan untuk mencari lebih banyak maklumat mengenai keputusan yang sukar ini.
+Lakukan penyelidikan untuk mencari lebih banyak maklumat tentang keputusan yang sukar ini.
 ## Tugasan
 
-[Cuba di Excel](assignment.md)
+[Cubalah dalam Excel](assignment.md)
 
 ---
 

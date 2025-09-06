@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "57f7db1f4c3ae3361c1d1fbafcdd690c",
-  "translation_date": "2025-09-04T20:44:12+00:00",
+  "original_hash": "577a611517482c3ceaf76d3d8142cba9",
+  "translation_date": "2025-09-06T00:05:12+00:00",
   "source_file": "2-Working-With-Data/07-python/README.md",
   "language_code": "ms"
 }
@@ -11,45 +11,45 @@ CO_OP_TRANSLATOR_METADATA:
 
 | ![ Sketchnote oleh [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/07-WorkWithPython.png) |
 | :-------------------------------------------------------------------------------------------------------: |
-|                 Bekerja dengan Python - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_             |
+|                 Bekerja Dengan Python - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_             |
 
-[![Video Pengenalan](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.ms.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Video Pengenalan](../../../../2-Working-With-Data/07-python/images/video-ds-python.png)](https://youtu.be/dZjWOGbsN4Y)
 
-Walaupun pangkalan data menawarkan cara yang sangat efisien untuk menyimpan data dan membuat pertanyaan menggunakan bahasa pertanyaan, cara yang paling fleksibel untuk memproses data adalah dengan menulis program anda sendiri untuk memanipulasi data. Dalam banyak kes, membuat pertanyaan pangkalan data mungkin lebih berkesan. Namun, dalam beberapa kes apabila pemprosesan data yang lebih kompleks diperlukan, ia tidak dapat dilakukan dengan mudah menggunakan SQL. 
+Walaupun pangkalan data menawarkan cara yang sangat efisien untuk menyimpan data dan membuat pertanyaan menggunakan bahasa pertanyaan, cara yang paling fleksibel untuk memproses data adalah dengan menulis program anda sendiri untuk memanipulasi data. Dalam banyak kes, membuat pertanyaan pangkalan data mungkin lebih berkesan. Namun, dalam beberapa kes di mana pemprosesan data yang lebih kompleks diperlukan, ia tidak dapat dilakukan dengan mudah menggunakan SQL. 
 Pemprosesan data boleh diprogramkan dalam mana-mana bahasa pengaturcaraan, tetapi terdapat bahasa tertentu yang lebih tinggi tahapnya dalam bekerja dengan data. Saintis data biasanya memilih salah satu daripada bahasa berikut:
 
-* **[Python](https://www.python.org/)**, bahasa pengaturcaraan serba guna, yang sering dianggap sebagai salah satu pilihan terbaik untuk pemula kerana kesederhanaannya. Python mempunyai banyak perpustakaan tambahan yang boleh membantu anda menyelesaikan banyak masalah praktikal, seperti mengekstrak data anda daripada arkib ZIP, atau menukar gambar kepada skala kelabu. Selain sains data, Python juga sering digunakan untuk pembangunan web. 
-* **[R](https://www.r-project.org/)** adalah alat tradisional yang dibangunkan dengan pemprosesan data statistik dalam fikiran. Ia juga mengandungi repositori perpustakaan yang besar (CRAN), menjadikannya pilihan yang baik untuk pemprosesan data. Walau bagaimanapun, R bukanlah bahasa pengaturcaraan serba guna, dan jarang digunakan di luar domain sains data.
+* **[Python](https://www.python.org/)**, bahasa pengaturcaraan serba guna, yang sering dianggap sebagai salah satu pilihan terbaik untuk pemula kerana kesederhanaannya. Python mempunyai banyak perpustakaan tambahan yang boleh membantu anda menyelesaikan banyak masalah praktikal, seperti mengekstrak data daripada arkib ZIP, atau menukar gambar kepada skala kelabu. Selain sains data, Python juga sering digunakan untuk pembangunan web. 
+* **[R](https://www.r-project.org/)** adalah alat tradisional yang dibangunkan dengan pemprosesan data statistik dalam fikiran. Ia juga mengandungi repositori perpustakaan yang besar (CRAN), menjadikannya pilihan yang baik untuk pemprosesan data. Walau bagaimanapun, R bukan bahasa pengaturcaraan serba guna, dan jarang digunakan di luar domain sains data.
 * **[Julia](https://julialang.org/)** adalah bahasa lain yang dibangunkan khusus untuk sains data. Ia bertujuan memberikan prestasi yang lebih baik daripada Python, menjadikannya alat yang hebat untuk eksperimen saintifik.
 
-Dalam pelajaran ini, kita akan memberi tumpuan kepada penggunaan Python untuk pemprosesan data yang mudah. Kami akan mengandaikan anda mempunyai pengetahuan asas tentang bahasa ini. Jika anda ingin mendalami Python, anda boleh merujuk kepada salah satu sumber berikut:
+Dalam pelajaran ini, kita akan memberi tumpuan kepada penggunaan Python untuk pemprosesan data yang mudah. Kami akan mengandaikan anda mempunyai pemahaman asas tentang bahasa ini. Jika anda ingin penerokaan yang lebih mendalam tentang Python, anda boleh merujuk kepada salah satu sumber berikut:
 
-* [Belajar Python dengan Cara Menarik menggunakan Grafik Turtle dan Fraktal](https://github.com/shwars/pycourse) - Kursus pengenalan ringkas berasaskan GitHub tentang Pengaturcaraan Python
+* [Belajar Python dengan Cara yang Menyeronokkan menggunakan Turtle Graphics dan Fractals](https://github.com/shwars/pycourse) - Kursus pengenalan pantas berasaskan GitHub ke dalam Pengaturcaraan Python
 * [Ambil Langkah Pertama Anda dengan Python](https://docs.microsoft.com/en-us/learn/paths/python-first-steps/?WT.mc_id=academic-77958-bethanycheum) Laluan Pembelajaran di [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=academic-77958-bethanycheum)
 
 Data boleh datang dalam pelbagai bentuk. Dalam pelajaran ini, kita akan mempertimbangkan tiga bentuk data - **data tabular**, **teks**, dan **imej**.
 
-Kami akan memberi tumpuan kepada beberapa contoh pemprosesan data, bukannya memberikan gambaran penuh tentang semua perpustakaan berkaitan. Ini akan membolehkan anda memahami idea utama tentang apa yang mungkin dilakukan, dan meninggalkan anda dengan pemahaman tentang di mana untuk mencari penyelesaian kepada masalah anda apabila anda memerlukannya.
+Kami akan memberi tumpuan kepada beberapa contoh pemprosesan data, bukannya memberikan anda gambaran keseluruhan penuh tentang semua perpustakaan berkaitan. Ini akan membolehkan anda memahami idea utama tentang apa yang mungkin, dan meninggalkan anda dengan pemahaman tentang di mana untuk mencari penyelesaian kepada masalah anda apabila anda memerlukannya.
 
 > **Nasihat paling berguna**. Apabila anda perlu melakukan operasi tertentu pada data yang anda tidak tahu bagaimana untuk melakukannya, cuba cari di internet. [Stackoverflow](https://stackoverflow.com/) biasanya mengandungi banyak contoh kod berguna dalam Python untuk banyak tugas biasa.
 
 
 
-## [Kuiz Pra-Pelajaran](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/12)
+## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ds/quiz/12)
 
 ## Data Tabular dan Dataframe
 
-Anda sudah bertemu dengan data tabular apabila kita bercakap tentang pangkalan data relasi. Apabila anda mempunyai banyak data, dan ia terkandung dalam banyak jadual yang saling berkaitan, ia sememangnya masuk akal untuk menggunakan SQL untuk bekerja dengannya. Walau bagaimanapun, terdapat banyak kes apabila kita mempunyai jadual data, dan kita perlu mendapatkan beberapa **pemahaman** atau **wawasan** tentang data ini, seperti taburan, korelasi antara nilai, dan sebagainya. Dalam sains data, terdapat banyak kes apabila kita perlu melakukan beberapa transformasi pada data asal, diikuti dengan visualisasi. Kedua-dua langkah ini boleh dilakukan dengan mudah menggunakan Python.
+Anda telah bertemu dengan data tabular apabila kita bercakap tentang pangkalan data relasi. Apabila anda mempunyai banyak data, dan ia terkandung dalam banyak jadual yang saling berkaitan, memang masuk akal untuk menggunakan SQL untuk bekerja dengannya. Walau bagaimanapun, terdapat banyak kes di mana kita mempunyai jadual data, dan kita perlu mendapatkan beberapa **pemahaman** atau **wawasan** tentang data ini, seperti taburan, korelasi antara nilai, dan sebagainya. Dalam sains data, terdapat banyak kes di mana kita perlu melakukan beberapa transformasi data asal, diikuti dengan visualisasi. Kedua-dua langkah ini boleh dilakukan dengan mudah menggunakan Python.
 
 Terdapat dua perpustakaan paling berguna dalam Python yang boleh membantu anda menangani data tabular:
-* **[Pandas](https://pandas.pydata.org/)** membolehkan anda memanipulasi **Dataframe**, yang serupa dengan jadual relasi. Anda boleh mempunyai lajur bernama, dan melakukan pelbagai operasi pada baris, lajur, dan dataframe secara umum. 
-* **[Numpy](https://numpy.org/)** adalah perpustakaan untuk bekerja dengan **tensor**, iaitu **array** berbilang dimensi. Array mempunyai nilai jenis asas yang sama, dan ia lebih mudah daripada dataframe, tetapi ia menawarkan lebih banyak operasi matematik, dan menghasilkan kurang overhead.
+* **[Pandas](https://pandas.pydata.org/)** membolehkan anda memanipulasi apa yang dipanggil **Dataframe**, yang serupa dengan jadual relasi. Anda boleh mempunyai lajur bernama, dan melakukan pelbagai operasi pada baris, lajur, dan dataframe secara umum. 
+* **[Numpy](https://numpy.org/)** adalah perpustakaan untuk bekerja dengan **tensor**, iaitu **array** pelbagai dimensi. Array mempunyai nilai jenis asas yang sama, dan ia lebih mudah daripada dataframe, tetapi ia menawarkan lebih banyak operasi matematik, dan menghasilkan kurang overhead.
 
-Terdapat juga beberapa perpustakaan lain yang anda perlu tahu:
+Terdapat juga beberapa perpustakaan lain yang anda patut tahu:
 * **[Matplotlib](https://matplotlib.org/)** adalah perpustakaan yang digunakan untuk visualisasi data dan melukis graf
 * **[SciPy](https://www.scipy.org/)** adalah perpustakaan dengan beberapa fungsi saintifik tambahan. Kita telah menemui perpustakaan ini semasa bercakap tentang kebarangkalian dan statistik
 
-Berikut adalah sekeping kod yang biasanya anda gunakan untuk mengimport perpustakaan tersebut pada permulaan program Python anda:
+Berikut adalah sekeping kod yang biasanya anda gunakan untuk mengimport perpustakaan ini pada permulaan program Python anda:
 ```python
 import numpy as np
 import pandas as pd
@@ -61,11 +61,11 @@ Pandas berpusat pada beberapa konsep asas.
 
 ### Siri 
 
-**Siri** adalah urutan nilai, serupa dengan senarai atau array numpy. Perbezaan utama adalah siri juga mempunyai **indeks**, dan apabila kita beroperasi pada siri (contohnya, menambahnya), indeks diambil kira. Indeks boleh sesederhana nombor baris integer (ia adalah indeks yang digunakan secara lalai apabila mencipta siri daripada senarai atau array), atau ia boleh mempunyai struktur kompleks, seperti selang tarikh.
+**Siri** adalah urutan nilai, serupa dengan senarai atau array numpy. Perbezaan utama ialah siri juga mempunyai **indeks**, dan apabila kita beroperasi pada siri (contohnya, menambahnya), indeks diambil kira. Indeks boleh sesederhana nombor baris integer (ia adalah indeks yang digunakan secara lalai apabila mencipta siri daripada senarai atau array), atau ia boleh mempunyai struktur yang kompleks, seperti selang tarikh.
 
-> **Nota**: Terdapat beberapa kod pengenalan Pandas dalam notebook yang disertakan [`notebook.ipynb`](notebook.ipynb). Kami hanya menggariskan beberapa contoh di sini, dan anda sangat dialu-alukan untuk melihat keseluruhan notebook.
+> **Nota**: Terdapat beberapa kod pengenalan Pandas dalam buku nota yang disertakan [`notebook.ipynb`](../../../../2-Working-With-Data/07-python/notebook.ipynb). Kami hanya menggariskan beberapa contoh di sini, dan anda dialu-alukan untuk menyemak buku nota penuh.
 
-Pertimbangkan contoh: kita ingin menganalisis jualan kedai ais krim kita. Mari kita hasilkan siri nombor jualan (bilangan item yang dijual setiap hari) untuk beberapa tempoh masa:
+Pertimbangkan contoh: kita mahu menganalisis jualan kedai aiskrim kita. Mari kita hasilkan siri nombor jualan (bilangan item yang dijual setiap hari) untuk beberapa tempoh masa:
 
 ```python
 start_date = "Jan 1, 2020"
@@ -75,9 +75,9 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Plot Siri Masa](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.ms.png)
+![Plot Siri Masa](../../../../2-Working-With-Data/07-python/images/timeseries-1.png)
 
-Sekarang katakan setiap minggu kita menganjurkan pesta untuk rakan-rakan, dan kita mengambil tambahan 10 pek ais krim untuk pesta. Kita boleh mencipta siri lain, diindeks mengikut minggu, untuk menunjukkan itu:
+Sekarang anggap setiap minggu kita menganjurkan pesta untuk rakan-rakan, dan kita mengambil tambahan 10 pek aiskrim untuk pesta. Kita boleh mencipta siri lain, diindeks mengikut minggu, untuk menunjukkan itu:
 ```python
 additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"))
 ```
@@ -86,16 +86,16 @@ Apabila kita menambah dua siri bersama-sama, kita mendapat jumlah keseluruhan:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Plot Siri Masa](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.ms.png)
+![Plot Siri Masa](../../../../2-Working-With-Data/07-python/images/timeseries-2.png)
 
-> **Nota** bahawa kita tidak menggunakan sintaks mudah `total_items+additional_items`. Jika kita melakukannya, kita akan menerima banyak nilai `NaN` (*Not a Number*) dalam siri hasil. Ini kerana terdapat nilai yang hilang untuk beberapa titik indeks dalam siri `additional_items`, dan menambah `NaN` kepada apa-apa menghasilkan `NaN`. Oleh itu, kita perlu menentukan parameter `fill_value` semasa penambahan.
+> **Nota** bahawa kita tidak menggunakan sintaks mudah `total_items+additional_items`. Jika kita melakukannya, kita akan mendapat banyak nilai `NaN` (*Not a Number*) dalam siri hasil. Ini kerana terdapat nilai yang hilang untuk beberapa titik indeks dalam siri `additional_items`, dan menambah `NaN` kepada apa-apa menghasilkan `NaN`. Oleh itu, kita perlu menentukan parameter `fill_value` semasa penambahan.
 
-Dengan siri masa, kita juga boleh **menyampel semula** siri dengan selang masa yang berbeza. Sebagai contoh, katakan kita ingin mengira purata jumlah jualan bulanan. Kita boleh menggunakan kod berikut:
+Dengan siri masa, kita juga boleh **menyampel semula** siri dengan selang masa yang berbeza. Sebagai contoh, anggap kita mahu mengira purata jumlah jualan bulanan. Kita boleh menggunakan kod berikut:
 ```python
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Purata Siri Masa Bulanan](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.ms.png)
+![Purata Siri Masa Bulanan](../../../../2-Working-With-Data/07-python/images/timeseries-3.png)
 
 ### DataFrame
 
@@ -129,19 +129,19 @@ Ini akan memberikan kita jadual seperti ini:
 | 7   | 8   | very   |
 | 8   | 9   | much   |
 
-**Nota** bahawa kita juga boleh mendapatkan susun atur jadual ini dengan menukar jadual sebelumnya, contohnya dengan menulis 
+**Nota** bahawa kita juga boleh mendapatkan susun atur jadual ini dengan mentransposkan jadual sebelumnya, contohnya dengan menulis 
 ```python
 df = pd.DataFrame([a,b]).T..rename(columns={ 0 : 'A', 1 : 'B' })
 ```
-Di sini `.T` bermaksud operasi menukar DataFrame, iaitu menukar baris dan lajur, dan operasi `rename` membolehkan kita menamakan semula lajur untuk sepadan dengan contoh sebelumnya.
+Di sini `.T` bermaksud operasi mentransposkan DataFrame, iaitu menukar baris dan lajur, dan operasi `rename` membolehkan kita menamakan semula lajur untuk sepadan dengan contoh sebelumnya.
 
 Berikut adalah beberapa operasi paling penting yang boleh kita lakukan pada DataFrame:
 
 **Pemilihan lajur**. Kita boleh memilih lajur individu dengan menulis `df['A']` - operasi ini mengembalikan Siri. Kita juga boleh memilih subset lajur ke dalam DataFrame lain dengan menulis `df[['B','A']]` - ini mengembalikan DataFrame lain.
 
-**Penapisan** hanya baris tertentu mengikut kriteria. Sebagai contoh, untuk meninggalkan hanya baris dengan lajur `A` lebih besar daripada 5, kita boleh menulis `df[df['A']>5]`.
+**Penapisan** hanya baris tertentu berdasarkan kriteria. Sebagai contoh, untuk meninggalkan hanya baris dengan lajur `A` lebih besar daripada 5, kita boleh menulis `df[df['A']>5]`.
 
-> **Nota**: Cara penapisan berfungsi adalah seperti berikut. Ungkapan `df['A']<5` mengembalikan siri boolean, yang menunjukkan sama ada ungkapan adalah `True` atau `False` untuk setiap elemen siri asal `df['A']`. Apabila siri boolean digunakan sebagai indeks, ia mengembalikan subset baris dalam DataFrame. Oleh itu, tidak mungkin menggunakan ungkapan boolean Python sewenang-wenangnya, contohnya, menulis `df[df['A']>5 and df['A']<7]` adalah salah. Sebaliknya, anda harus menggunakan operasi khas `&` pada siri boolean, menulis `df[(df['A']>5) & (df['A']<7)]` (*kurungan adalah penting di sini*).
+> **Nota**: Cara penapisan berfungsi adalah seperti berikut. Ungkapan `df['A']<5` mengembalikan siri boolean, yang menunjukkan sama ada ungkapan itu `True` atau `False` untuk setiap elemen siri asal `df['A']`. Apabila siri boolean digunakan sebagai indeks, ia mengembalikan subset baris dalam DataFrame. Oleh itu, tidak mungkin menggunakan ungkapan boolean Python sewenang-wenangnya, contohnya, menulis `df[df['A']>5 and df['A']<7]` adalah salah. Sebaliknya, anda harus menggunakan operasi khas `&` pada siri boolean, menulis `df[(df['A']>5) & (df['A']<7)]` (*kurungan adalah penting di sini*).
 
 **Mencipta lajur boleh kira baru**. Kita boleh dengan mudah mencipta lajur boleh kira baru untuk DataFrame kita dengan menggunakan ungkapan intuitif seperti ini:
 ```python
@@ -152,7 +152,7 @@ Contoh ini mengira perbezaan A daripada nilai puratanya. Apa yang sebenarnya ber
 # Wrong code -> df['ADescr'] = "Low" if df['A'] < 5 else "Hi"
 df['LenB'] = len(df['B']) # <- Wrong result
 ``` 
-Contoh terakhir, walaupun secara sintaksis betul, memberikan kita hasil yang salah, kerana ia menetapkan panjang siri `B` kepada semua nilai dalam lajur, dan bukan panjang elemen individu seperti yang kita maksudkan.
+Contoh terakhir ini, walaupun secara sintaksis betul, memberikan kita hasil yang salah, kerana ia menetapkan panjang siri `B` kepada semua nilai dalam lajur, dan bukan panjang elemen individu seperti yang kita maksudkan.
 
 Jika kita perlu mengira ungkapan kompleks seperti ini, kita boleh menggunakan fungsi `apply`. Contoh terakhir boleh ditulis seperti berikut:
 ```python
@@ -180,7 +180,7 @@ Selepas operasi di atas, kita akan berakhir dengan DataFrame berikut:
 df.iloc[:5]
 ```
 
-**Pengelompokan** sering digunakan untuk mendapatkan hasil yang serupa dengan *jadual pangsi* dalam Excel. Katakan kita ingin mengira nilai purata lajur `A` untuk setiap nombor `LenB` yang diberikan. Kemudian kita boleh mengelompokkan DataFrame kita mengikut `LenB`, dan memanggil `mean`:
+**Pengelompokan** sering digunakan untuk mendapatkan hasil yang serupa dengan *jadual pangsi* dalam Excel. Anggap kita mahu mengira nilai purata lajur `A` untuk setiap nombor tertentu `LenB`. Kemudian kita boleh mengelompokkan DataFrame kita mengikut `LenB`, dan memanggil `mean`:
 ```python
 df.groupby(by='LenB').mean()
 ```
@@ -211,17 +211,17 @@ Kita akan melihat lebih banyak contoh memuatkan data, termasuk mengambilnya dari
 
 Seorang Saintis Data sering perlu meneroka data, jadi adalah penting untuk dapat memvisualisasikannya. Apabila DataFrame besar, banyak kali kita hanya ingin memastikan kita melakukan semuanya dengan betul dengan mencetak beberapa baris pertama. Ini boleh dilakukan dengan memanggil `df.head()`. Jika anda menjalankannya dari Jupyter Notebook, ia akan mencetak DataFrame dalam bentuk jadual yang kemas.
 
-Kita juga telah melihat penggunaan fungsi `plot` untuk memvisualisasikan beberapa kolum. Walaupun `plot` sangat berguna untuk banyak tugas, dan menyokong pelbagai jenis graf melalui parameter `kind=`, anda sentiasa boleh menggunakan pustaka `matplotlib` mentah untuk memplot sesuatu yang lebih kompleks. Kita akan membincangkan visualisasi data secara terperinci dalam pelajaran kursus yang berasingan.
+Kita juga telah melihat penggunaan fungsi `plot` untuk memvisualisasikan beberapa kolum. Walaupun `plot` sangat berguna untuk banyak tugas, dan menyokong pelbagai jenis graf melalui parameter `kind=`, anda sentiasa boleh menggunakan pustaka `matplotlib` secara langsung untuk memplot sesuatu yang lebih kompleks. Kita akan membincangkan visualisasi data secara terperinci dalam pelajaran kursus yang berasingan.
 
 Gambaran keseluruhan ini merangkumi konsep paling penting dalam Pandas, namun, pustaka ini sangat kaya, dan tiada had kepada apa yang boleh anda lakukan dengannya! Mari kita gunakan pengetahuan ini untuk menyelesaikan masalah tertentu.
 
 ## 🚀 Cabaran 1: Menganalisis Penyebaran COVID
 
-Masalah pertama yang akan kita fokuskan ialah pemodelan penyebaran wabak COVID-19. Untuk melakukannya, kita akan menggunakan data tentang bilangan individu yang dijangkiti di pelbagai negara, yang disediakan oleh [Center for Systems Science and Engineering](https://systems.jhu.edu/) (CSSE) di [Johns Hopkins University](https://jhu.edu/). Dataset tersedia di [Repositori GitHub ini](https://github.com/CSSEGISandData/COVID-19).
+Masalah pertama yang akan kita fokuskan ialah pemodelan penyebaran wabak COVID-19. Untuk melakukannya, kita akan menggunakan data mengenai bilangan individu yang dijangkiti di pelbagai negara, yang disediakan oleh [Center for Systems Science and Engineering](https://systems.jhu.edu/) (CSSE) di [Johns Hopkins University](https://jhu.edu/). Dataset ini tersedia di [Repositori GitHub ini](https://github.com/CSSEGISandData/COVID-19).
 
-Oleh kerana kita ingin menunjukkan cara menangani data, kami mengajak anda untuk membuka [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) dan membacanya dari atas ke bawah. Anda juga boleh melaksanakan sel-sel, dan melakukan beberapa cabaran yang telah kami tinggalkan untuk anda di penghujungnya.
+Oleh kerana kita ingin menunjukkan cara menangani data, kami mengajak anda untuk membuka [`notebook-covidspread.ipynb`](../../../../2-Working-With-Data/07-python/notebook-covidspread.ipynb) dan membacanya dari atas ke bawah. Anda juga boleh melaksanakan sel-sel, dan melakukan beberapa cabaran yang telah kami tinggalkan untuk anda di penghujungnya.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.ms.png)
+![COVID Spread](../../../../2-Working-With-Data/07-python/images/covidspread.png)
 
 > Jika anda tidak tahu cara menjalankan kod dalam Jupyter Notebook, lihat [artikel ini](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,29 +241,29 @@ Contoh penuh menganalisis dataset ini menggunakan perkhidmatan kognitif [Text An
 
 > **NOTE**: Kami tidak menyediakan salinan dataset sebagai sebahagian daripada repositori ini. Anda mungkin perlu memuat turun fail [`metadata.csv`](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge?select=metadata.csv) daripada [dataset ini di Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge). Pendaftaran dengan Kaggle mungkin diperlukan. Anda juga boleh memuat turun dataset tanpa pendaftaran [di sini](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), tetapi ia akan termasuk semua teks penuh selain daripada fail metadata.
 
-Buka [`notebook-papers.ipynb`](notebook-papers.ipynb) dan bacalah dari atas ke bawah. Anda juga boleh melaksanakan sel-sel, dan melakukan beberapa cabaran yang telah kami tinggalkan untuk anda di penghujungnya.
+Buka [`notebook-papers.ipynb`](../../../../2-Working-With-Data/07-python/notebook-papers.ipynb) dan bacalah dari atas ke bawah. Anda juga boleh melaksanakan sel-sel, dan melakukan beberapa cabaran yang telah kami tinggalkan untuk anda di penghujungnya.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.ms.png)
+![Covid Medical Treatment](../../../../2-Working-With-Data/07-python/images/covidtreat.png)
 
 ## Memproses Data Imej
 
 Baru-baru ini, model AI yang sangat berkuasa telah dibangunkan yang membolehkan kita memahami imej. Terdapat banyak tugas yang boleh diselesaikan menggunakan rangkaian neural yang telah dilatih, atau perkhidmatan awan. Beberapa contoh termasuk:
 
-* **Pengelasan Imej**, yang boleh membantu anda mengkategorikan imej ke dalam salah satu kelas yang telah ditetapkan. Anda boleh melatih pengelas imej anda sendiri dengan mudah menggunakan perkhidmatan seperti [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-77958-bethanycheum)
+* **Pengelasan Imej**, yang boleh membantu anda mengkategorikan imej ke dalam salah satu kelas yang telah ditentukan. Anda boleh melatih pengelas imej anda sendiri dengan mudah menggunakan perkhidmatan seperti [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-77958-bethanycheum)
 * **Pengesanan Objek** untuk mengesan objek yang berbeza dalam imej. Perkhidmatan seperti [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-77958-bethanycheum) boleh mengesan sejumlah objek biasa, dan anda boleh melatih model [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-77958-bethanycheum) untuk mengesan beberapa objek tertentu yang menarik.
-* **Pengesanan Wajah**, termasuk pengesanan Umur, Jantina dan Emosi. Ini boleh dilakukan melalui [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum).
+* **Pengesanan Wajah**, termasuk umur, jantina dan pengesanan emosi. Ini boleh dilakukan melalui [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum).
 
-Semua perkhidmatan awan ini boleh dipanggil menggunakan [Python SDKs](https://docs.microsoft.com/samples/azure-samples/cognitive-services-python-sdk-samples/cognitive-services-python-sdk-samples/?WT.mc_id=academic-77958-bethanycheum), dan dengan itu boleh dengan mudah digabungkan ke dalam aliran kerja penerokaan data anda.
+Semua perkhidmatan awan ini boleh dipanggil menggunakan [Python SDKs](https://docs.microsoft.com/samples/azure-samples/cognitive-services-python-sdk-samples/cognitive-services-python-sdk-samples/?WT.mc_id=academic-77958-bethanycheum), dan dengan itu boleh dengan mudah dimasukkan ke dalam aliran kerja penerokaan data anda.
 
 Berikut adalah beberapa contoh penerokaan data daripada sumber data imej:
 * Dalam catatan blog [How to Learn Data Science without Coding](https://soshnikov.com/azure/how-to-learn-data-science-without-coding/) kita meneroka foto Instagram, cuba memahami apa yang membuatkan orang memberikan lebih banyak suka kepada foto. Kita mula-mula mengekstrak sebanyak mungkin maklumat daripada gambar menggunakan [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-77958-bethanycheum), dan kemudian menggunakan [Azure Machine Learning AutoML](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml/?WT.mc_id=academic-77958-bethanycheum) untuk membina model yang boleh ditafsirkan.
-* Dalam [Facial Studies Workshop](https://github.com/CloudAdvocacy/FaceStudies) kita menggunakan [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum) untuk mengekstrak emosi orang dalam gambar dari acara, untuk cuba memahami apa yang membuatkan orang gembira.
+* Dalam [Facial Studies Workshop](https://github.com/CloudAdvocacy/FaceStudies) kita menggunakan [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum) untuk mengekstrak emosi orang dalam foto dari acara, untuk cuba memahami apa yang membuatkan orang gembira.
 
 ## Kesimpulan
 
-Sama ada anda sudah mempunyai data berstruktur atau tidak berstruktur, menggunakan Python anda boleh melakukan semua langkah berkaitan pemprosesan dan pemahaman data. Ia mungkin cara paling fleksibel untuk pemprosesan data, dan itulah sebabnya majoriti saintis data menggunakan Python sebagai alat utama mereka. Mempelajari Python secara mendalam mungkin idea yang baik jika anda serius tentang perjalanan sains data anda!
+Sama ada anda sudah mempunyai data berstruktur atau tidak berstruktur, menggunakan Python anda boleh melaksanakan semua langkah berkaitan pemprosesan dan pemahaman data. Ia mungkin cara paling fleksibel untuk pemprosesan data, dan itulah sebabnya majoriti saintis data menggunakan Python sebagai alat utama mereka. Mempelajari Python secara mendalam mungkin idea yang baik jika anda serius tentang perjalanan sains data anda!
 
-## [Kuiz selepas kuliah](https://ff-quizzes.netlify.app/en/ds/)
+## [Kuiz selepas kuliah](https://ff-quizzes.netlify.app/en/ds/quiz/13)
 
 ## Ulasan & Kajian Kendiri
 
@@ -275,8 +275,8 @@ Sama ada anda sudah mempunyai data berstruktur atau tidak berstruktur, menggunak
 * [Dokumentasi tentang Visualisasi Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
 
 **Belajar Python**
-* [Belajar Python dengan Cara Menarik menggunakan Turtle Graphics dan Fractals](https://github.com/shwars/pycourse)
-* [Ambil Langkah Pertama Anda dengan Python](https://docs.microsoft.com/learn/paths/python-first-steps/?WT.mc_id=academic-77958-bethanycheum) Laluan Pembelajaran di [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=academic-77958-bethanycheum)
+* [Learn Python in a Fun Way with Turtle Graphics and Fractals](https://github.com/shwars/pycourse)
+* [Take your First Steps with Python](https://docs.microsoft.com/learn/paths/python-first-steps/?WT.mc_id=academic-77958-bethanycheum) Laluan Pembelajaran di [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=academic-77958-bethanycheum)
 
 ## Tugasan
 
@@ -289,4 +289,4 @@ Pelajaran ini telah ditulis dengan ♥️ oleh [Dmitry Soshnikov](http://soshnik
 ---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil maklum bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil maklum bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat penting, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

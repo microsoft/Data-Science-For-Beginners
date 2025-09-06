@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "90a815d332aea41a222f4c6372e7186e",
-  "translation_date": "2025-09-04T20:45:35+00:00",
+  "original_hash": "1b560955ff39a2bcf2a049fce474a951",
+  "translation_date": "2025-09-06T00:06:38+00:00",
   "source_file": "2-Working-With-Data/08-data-preparation/README.md",
   "language_code": "ms"
 }
@@ -13,32 +13,32 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Penyediaan Data - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_ |
 
-## [Kuiz Pra-Kuliah](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/14)
+## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ds/quiz/14)
 
-Bergantung kepada sumbernya, data mentah mungkin mengandungi beberapa ketidakkonsistenan yang boleh menyebabkan cabaran dalam analisis dan pemodelan. Dalam erti kata lain, data ini boleh dikategorikan sebagai "kotor" dan perlu dibersihkan. Pelajaran ini memberi tumpuan kepada teknik untuk membersihkan dan mengubah data bagi menangani cabaran data yang hilang, tidak tepat, atau tidak lengkap. Topik yang dibincangkan dalam pelajaran ini akan menggunakan Python dan pustaka Pandas dan akan [ditunjukkan dalam notebook](notebook.ipynb) dalam direktori ini.
+Bergantung kepada sumbernya, data mentah mungkin mengandungi beberapa ketidakkonsistenan yang boleh menyebabkan cabaran dalam analisis dan pemodelan. Dalam erti kata lain, data ini boleh dikategorikan sebagai "kotor" dan perlu dibersihkan. Pelajaran ini memberi tumpuan kepada teknik untuk membersihkan dan mengubah data bagi menangani cabaran data yang hilang, tidak tepat, atau tidak lengkap. Topik yang dibincangkan dalam pelajaran ini akan menggunakan Python dan pustaka Pandas dan akan [ditunjukkan dalam notebook](../../../../2-Working-With-Data/08-data-preparation/notebook.ipynb) dalam direktori ini.
 
 ## Kepentingan membersihkan data
 
-- **Kemudahan penggunaan dan pengulangan**: Apabila data disusun dan dinormalisasi dengan betul, ia lebih mudah untuk dicari, digunakan, dan dikongsi dengan orang lain.
+- **Kemudahan penggunaan dan pengulangan**: Apabila data diatur dan dinormalisasi dengan betul, ia lebih mudah untuk dicari, digunakan, dan dikongsi dengan orang lain.
 
-- **Konsistensi**: Sains data sering memerlukan kerja dengan lebih daripada satu set data, di mana set data dari pelbagai sumber perlu digabungkan. Memastikan setiap set data individu mempunyai standardisasi yang sama akan memastikan data masih berguna apabila digabungkan menjadi satu set data.
+- **Konsistensi**: Sains data sering memerlukan kerja dengan lebih daripada satu set data, di mana set data dari pelbagai sumber perlu digabungkan. Memastikan setiap set data individu mempunyai standardisasi yang sama akan memastikan data masih berguna apabila semuanya digabungkan menjadi satu set data.
 
-- **Ketepatan model**: Data yang telah dibersihkan meningkatkan ketepatan model yang bergantung padanya.
+- **Ketepatan model**: Data yang telah dibersihkan meningkatkan ketepatan model yang bergantung kepadanya.
 
 ## Matlamat dan strategi pembersihan yang biasa
 
-- **Meneroka set data**: Penerokaan data, yang dibincangkan dalam [pelajaran kemudian](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/15-analyzing), boleh membantu anda mengenal pasti data yang perlu dibersihkan. Melihat nilai secara visual dalam set data boleh memberikan jangkaan tentang rupa keseluruhan data atau memberikan idea tentang masalah yang boleh diselesaikan. Penerokaan boleh melibatkan pertanyaan asas, visualisasi, dan pensampelan.
+- **Meneroka set data**: Penerokaan data, yang dibincangkan dalam [pelajaran kemudian](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/15-analyzing), boleh membantu anda mengenal pasti data yang perlu dibersihkan. Melihat nilai secara visual dalam set data boleh menetapkan jangkaan tentang bagaimana selebihnya akan kelihatan, atau memberikan idea tentang masalah yang boleh diselesaikan. Penerokaan boleh melibatkan pertanyaan asas, visualisasi, dan pensampelan.
 
 - **Pemformatan**: Bergantung kepada sumbernya, data boleh mempunyai ketidakkonsistenan dalam cara ia dipersembahkan. Ini boleh menyebabkan masalah dalam mencari dan mewakili nilai, di mana ia dilihat dalam set data tetapi tidak diwakili dengan betul dalam visualisasi atau hasil pertanyaan. Masalah pemformatan biasa melibatkan penyelesaian ruang kosong, tarikh, dan jenis data. Menyelesaikan isu pemformatan biasanya bergantung kepada orang yang menggunakan data. Sebagai contoh, standard tentang cara tarikh dan nombor dipersembahkan boleh berbeza mengikut negara.
 
-- **Penduaan**: Data yang mempunyai lebih daripada satu kejadian boleh menghasilkan keputusan yang tidak tepat dan biasanya perlu dibuang. Ini boleh berlaku apabila menggabungkan dua atau lebih set data. Walau bagaimanapun, terdapat keadaan di mana penduaan dalam set data gabungan mengandungi maklumat tambahan yang mungkin perlu dikekalkan.
+- **Penduaan**: Data yang mempunyai lebih daripada satu kejadian boleh menghasilkan hasil yang tidak tepat dan biasanya perlu dibuang. Ini boleh berlaku secara biasa apabila menggabungkan dua atau lebih set data. Walau bagaimanapun, terdapat keadaan di mana penduaan dalam set data yang digabungkan mengandungi bahagian yang boleh memberikan maklumat tambahan dan mungkin perlu dikekalkan.
 
-- **Data yang hilang**: Data yang hilang boleh menyebabkan ketidaktepatan serta keputusan yang lemah atau berat sebelah. Kadangkala ini boleh diselesaikan dengan "memuat semula" data, mengisi nilai yang hilang dengan pengiraan dan kod seperti Python, atau hanya membuang nilai dan data yang berkaitan. Terdapat banyak sebab mengapa data mungkin hilang, dan tindakan yang diambil untuk menyelesaikan nilai yang hilang ini boleh bergantung kepada bagaimana dan mengapa ia hilang.
+- **Data yang hilang**: Data yang hilang boleh menyebabkan ketidaktepatan serta hasil yang lemah atau berat sebelah. Kadangkala ini boleh diselesaikan dengan "memuat semula" data, mengisi nilai yang hilang dengan pengiraan dan kod seperti Python, atau hanya membuang nilai dan data yang berkaitan. Terdapat banyak sebab mengapa data mungkin hilang dan tindakan yang diambil untuk menyelesaikan nilai yang hilang ini boleh bergantung kepada bagaimana dan mengapa ia hilang pada mulanya.
 
 ## Meneroka maklumat DataFrame
 > **Matlamat pembelajaran:** Pada akhir subseksyen ini, anda seharusnya selesa mencari maklumat umum tentang data yang disimpan dalam DataFrame pandas.
 
-Setelah anda memuatkan data anda ke dalam pandas, ia kemungkinan besar akan berada dalam DataFrame (rujuk [pelajaran sebelumnya](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python#dataframe) untuk gambaran terperinci). Walau bagaimanapun, jika set data dalam DataFrame anda mempunyai 60,000 baris dan 400 lajur, bagaimana anda mula memahami apa yang anda sedang kerjakan? Nasib baik, [pandas](https://pandas.pydata.org/) menyediakan beberapa alat yang mudah untuk melihat maklumat keseluruhan tentang DataFrame selain daripada beberapa baris pertama dan terakhir.
+Setelah anda memuatkan data anda ke dalam pandas, kemungkinan besar ia akan berada dalam DataFrame (rujuk [pelajaran sebelumnya](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python#dataframe) untuk gambaran terperinci). Walau bagaimanapun, jika set data dalam DataFrame anda mempunyai 60,000 baris dan 400 lajur, bagaimana anda mula memahami apa yang anda sedang kerjakan? Nasib baik, [pandas](https://pandas.pydata.org/) menyediakan beberapa alat yang mudah untuk melihat maklumat keseluruhan tentang DataFrame selain daripada beberapa baris pertama dan terakhir.
 
 Untuk meneroka fungsi ini, kita akan mengimport pustaka Python scikit-learn dan menggunakan set data ikonik: **set data Iris**.
 
@@ -99,16 +99,16 @@ iris_df.tail()
 148                6.2               3.4                5.4               2.3
 149                5.9               3.0                5.1               1.8
 ```
-> **Kesimpulan:** Walaupun hanya dengan melihat metadata tentang maklumat dalam DataFrame atau beberapa nilai pertama dan terakhir dalamnya, anda boleh mendapatkan idea segera tentang saiz, bentuk, dan kandungan data yang anda sedang kerjakan.
+> **Kesimpulan:** Walaupun hanya dengan melihat metadata tentang maklumat dalam DataFrame atau beberapa nilai pertama dan terakhir dalam satu, anda boleh mendapatkan idea segera tentang saiz, bentuk, dan kandungan data yang anda sedang kerjakan.
 
 ## Menangani Data yang Hilang
 > **Matlamat pembelajaran:** Pada akhir subseksyen ini, anda seharusnya tahu cara menggantikan atau membuang nilai null daripada DataFrame.
 
 Kebanyakan masa, set data yang anda ingin gunakan (atau perlu gunakan) mempunyai nilai yang hilang di dalamnya. Cara data yang hilang ditangani membawa kompromi halus yang boleh mempengaruhi analisis akhir anda dan hasil dunia sebenar.
 
-Pandas menangani nilai yang hilang dengan dua cara. Yang pertama telah anda lihat sebelum ini dalam bahagian sebelumnya: `NaN`, atau Not a Number. Ini sebenarnya adalah nilai khas yang merupakan sebahagian daripada spesifikasi titik terapung IEEE dan hanya digunakan untuk menunjukkan nilai titik terapung yang hilang.
+Pandas menangani nilai yang hilang dengan dua cara. Yang pertama telah anda lihat sebelum ini dalam bahagian sebelumnya: `NaN`, atau Not a Number. Ini sebenarnya adalah nilai khas yang merupakan sebahagian daripada spesifikasi titik terapung IEEE dan ia hanya digunakan untuk menunjukkan nilai titik terapung yang hilang.
 
-Untuk nilai yang hilang selain daripada titik terapung, pandas menggunakan objek Python `None`. Walaupun mungkin kelihatan mengelirukan bahawa anda akan menemui dua jenis nilai yang pada dasarnya mengatakan perkara yang sama, terdapat alasan programatik yang kukuh untuk pilihan reka bentuk ini dan, dalam amalan, pendekatan ini membolehkan pandas memberikan kompromi yang baik untuk kebanyakan kes. Walaupun begitu, kedua-dua `None` dan `NaN` membawa sekatan yang perlu anda perhatikan berkaitan dengan cara ia boleh digunakan.
+Untuk nilai yang hilang selain daripada titik terapung, pandas menggunakan objek Python `None`. Walaupun mungkin kelihatan mengelirukan bahawa anda akan menemui dua jenis nilai yang pada dasarnya mengatakan perkara yang sama, terdapat alasan programatik yang kukuh untuk pilihan reka bentuk ini dan, dalam amalan, pendekatan ini membolehkan pandas memberikan kompromi yang baik untuk kebanyakan kes. Walau bagaimanapun, kedua-dua `None` dan `NaN` membawa sekatan yang perlu anda perhatikan berkaitan dengan cara ia boleh digunakan.
 
 Ketahui lebih lanjut tentang `NaN` dan `None` daripada [notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb)!
 
@@ -160,7 +160,7 @@ example2
 
 (Adakah anda perasan bahawa pandas menaikkan dua lajur kepada titik terapung untuk menampung `NaN`?)
 
-Anda tidak boleh membuang satu nilai daripada `DataFrame`, jadi anda perlu membuang baris atau lajur penuh. Bergantung pada apa yang anda lakukan, anda mungkin ingin melakukan salah satu atau yang lain, dan oleh itu pandas memberikan anda pilihan untuk kedua-duanya. Oleh kerana dalam sains data, lajur biasanya mewakili pembolehubah dan baris mewakili pemerhatian, anda lebih cenderung untuk membuang baris data; tetapan lalai untuk `dropna()` adalah untuk membuang semua baris yang mengandungi sebarang nilai null:
+Anda tidak boleh membuang satu nilai daripada `DataFrame`, jadi anda perlu membuang baris atau lajur penuh. Bergantung pada apa yang anda lakukan, anda mungkin mahu melakukan satu atau yang lain, dan oleh itu pandas memberikan anda pilihan untuk kedua-duanya. Oleh kerana dalam sains data, lajur biasanya mewakili pemboleh ubah dan baris mewakili pemerhatian, anda lebih cenderung untuk membuang baris data; tetapan lalai untuk `dropna()` adalah untuk membuang semua baris yang mengandungi sebarang nilai null:
 
 ```python
 example2.dropna()
@@ -179,7 +179,7 @@ example2.dropna(axis='columns')
 1	8
 2	9
 ```
-Perhatikan bahawa ini boleh membuang banyak data yang mungkin anda ingin simpan, terutamanya dalam set data yang lebih kecil. Bagaimana jika anda hanya ingin membuang baris atau lajur yang mengandungi beberapa atau bahkan semua nilai null? Anda menentukan tetapan tersebut dalam `dropna` dengan parameter `how` dan `thresh`.
+Perhatikan bahawa ini boleh membuang banyak data yang mungkin anda ingin simpan, terutamanya dalam set data yang lebih kecil. Bagaimana jika anda hanya mahu membuang baris atau lajur yang mengandungi beberapa atau bahkan semua nilai null? Anda menentukan tetapan tersebut dalam `dropna` dengan parameter `how` dan `thresh`.
 
 Secara lalai, `how='any'` (jika anda ingin memeriksa sendiri atau melihat parameter lain yang dimiliki oleh kaedah tersebut, jalankan `example4.dropna?` dalam sel kod). Anda boleh menentukan `how='all'` sebagai alternatif untuk hanya membuang baris atau lajur yang mengandungi semua nilai null. Mari kita kembangkan `DataFrame` contoh kita untuk melihat ini dalam tindakan.
 
@@ -193,7 +193,7 @@ example2
 |1     |2.0|5.0|8  |NaN|
 |2     |NaN|6.0|9  |NaN|
 
-Parameter `thresh` memberikan kawalan yang lebih terperinci: anda menetapkan bilangan nilai *bukan null* yang diperlukan oleh baris atau lajur untuk disimpan:
+Parameter `thresh` memberikan anda kawalan yang lebih terperinci: anda menetapkan bilangan nilai *bukan null* yang baris atau lajur perlu ada untuk dikekalkan:
 ```python
 example2.dropna(axis='rows', thresh=3)
 ```
@@ -263,15 +263,14 @@ example2.fillna(method='ffill', axis=1)
 2	NaN	6.0	9.0	9.0
 ```
 Perhatikan bahawa apabila nilai sebelumnya tidak tersedia untuk pengisian ke depan, nilai null tetap ada.
-> **Intipati Penting:** Terdapat pelbagai cara untuk menangani nilai yang hilang dalam set data anda. Strategi khusus yang anda gunakan (menghapusnya, menggantikannya, atau bagaimana anda menggantikannya) harus ditentukan oleh keunikan data tersebut. Anda akan mengembangkan pemahaman yang lebih baik tentang cara menangani nilai yang hilang semakin banyak anda berinteraksi dengan set data.
-
+> **Intipati:** Terdapat pelbagai cara untuk menangani nilai yang hilang dalam set data anda. Strategi khusus yang anda gunakan (menghapusnya, menggantikannya, atau bahkan cara anda menggantikannya) harus ditentukan oleh keunikan data tersebut. Anda akan membangunkan pemahaman yang lebih baik tentang cara menangani nilai yang hilang semakin banyak anda mengurus dan berinteraksi dengan set data.
 ## Menghapus Data Pendua
 
-> **Matlamat Pembelajaran:** Pada akhir subseksyen ini, anda seharusnya selesa mengenal pasti dan menghapus nilai pendua daripada DataFrame.
+> **Matlamat pembelajaran:** Pada akhir subseksyen ini, anda seharusnya selesa mengenal pasti dan menghapus nilai pendua daripada DataFrame.
 
-Selain data yang hilang, anda juga sering akan menemui data pendua dalam set data dunia nyata. Nasib baik, `pandas` menyediakan cara mudah untuk mengesan dan menghapus entri pendua.
+Selain daripada data yang hilang, anda juga akan sering menemui data pendua dalam set data dunia sebenar. Nasib baik, `pandas` menyediakan cara mudah untuk mengesan dan menghapus entri pendua.
 
-- **Mengenal pasti pendua: `duplicated`**: Anda boleh dengan mudah mengenal pasti nilai pendua menggunakan kaedah `duplicated` dalam pandas, yang mengembalikan topeng Boolean yang menunjukkan sama ada entri dalam `DataFrame` adalah pendua entri sebelumnya. Mari kita cipta satu lagi contoh `DataFrame` untuk melihat ini dalam tindakan.
+- **Mengenal pasti pendua: `duplicated`**: Anda boleh dengan mudah mengenal pasti nilai pendua menggunakan kaedah `duplicated` dalam pandas, yang mengembalikan topeng Boolean yang menunjukkan sama ada entri dalam `DataFrame` adalah pendua daripada entri sebelumnya. Mari kita cipta satu lagi contoh `DataFrame` untuk melihat cara ini berfungsi.
 ```python
 example4 = pd.DataFrame({'letters': ['A','B'] * 2 + ['B'],
                          'numbers': [1, 2, 1, 3, 3]})
@@ -306,7 +305,7 @@ example4.drop_duplicates()
 1	B	2
 3	B	3
 ```
-Kedua-dua `duplicated` dan `drop_duplicates` secara lalai mempertimbangkan semua lajur tetapi anda boleh menentukan bahawa ia hanya memeriksa subset lajur dalam `DataFrame` anda:
+Kedua-dua `duplicated` dan `drop_duplicates` secara lalai mempertimbangkan semua lajur tetapi anda boleh menentukan bahawa mereka hanya memeriksa subset lajur dalam `DataFrame` anda:
 ```python
 example4.drop_duplicates(['letters'])
 ```
@@ -316,20 +315,20 @@ letters	numbers
 1	B	2
 ```
 
-> **Intipati Penting:** Menghapus data pendua adalah bahagian penting dalam hampir setiap projek sains data. Data pendua boleh mengubah hasil analisis anda dan memberikan keputusan yang tidak tepat!
+> **Kesimpulan:** Menghapus data pendua adalah bahagian penting dalam hampir setiap projek sains data. Data pendua boleh mengubah hasil analisis anda dan memberikan keputusan yang tidak tepat!
 
 
 ## 🚀 Cabaran
 
 Semua bahan yang dibincangkan disediakan sebagai [Jupyter Notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/2-Working-With-Data/08-data-preparation/notebook.ipynb). Selain itu, terdapat latihan selepas setiap bahagian, cubalah!
 
-## [Kuiz Selepas Kuliah](https://ff-quizzes.netlify.app/en/ds/)
+## [Kuiz selepas kuliah](https://ff-quizzes.netlify.app/en/ds/quiz/15)
 
 
 
 ## Ulasan & Kajian Kendiri
 
-Terdapat banyak cara untuk meneroka dan mendekati penyediaan data anda untuk analisis dan pemodelan, dan membersihkan data adalah langkah penting yang memerlukan pengalaman "praktikal". Cuba cabaran ini dari Kaggle untuk meneroka teknik yang tidak dibincangkan dalam pelajaran ini.
+Terdapat banyak cara untuk meneroka dan mendekati penyediaan data anda untuk analisis dan pemodelan, dan membersihkan data adalah langkah penting yang memerlukan pengalaman "praktikal". Cuba cabaran-cabaran ini dari Kaggle untuk meneroka teknik yang tidak dibincangkan dalam pelajaran ini.
 
 - [Cabaran Pembersihan Data: Parsing Dates](https://www.kaggle.com/rtatman/data-cleaning-challenge-parsing-dates/)
 
@@ -343,4 +342,4 @@ Terdapat banyak cara untuk meneroka dan mendekati penyediaan data anda untuk ana
 ---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil maklum bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat penting, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat penting, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.

@@ -1,37 +1,37 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "6a0556b17de4c8d1a9470b02247b01d4",
-  "translation_date": "2025-09-04T19:35:51+00:00",
+  "original_hash": "5f8e7cdefa096664ae86f795be571580",
+  "translation_date": "2025-09-05T22:33:38+00:00",
   "source_file": "5-Data-Science-In-Cloud/17-Introduction/README.md",
   "language_code": "fi"
 }
 -->
-# Johdatus pilvipohjaiseen data-analytiikkaan
+# Johdanto pilvipohjaiseen data-analytiikkaan
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/17-DataScience-Cloud.png)|
 |:---:|
 | Data-analytiikka pilvessä: Johdanto - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-Tässä oppitunnissa opit pilvipalveluiden perusperiaatteet, näet miksi pilvipalveluiden käyttö voi olla hyödyllistä data-analytiikkaprojekteissa, ja tarkastelemme esimerkkejä pilvessä toteutetuista data-analytiikkaprojekteista.
+Tässä oppitunnissa opit pilvipalveluiden perusperiaatteet, saat selville, miksi pilvipalveluiden käyttö voi olla hyödyllistä data-analytiikkaprojekteissasi, ja tarkastelemme esimerkkejä pilvessä toteutetuista data-analytiikkaprojekteista.
 
-## [Esiluennon kysely](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/32)
+## [Esiluentavisa](https://ff-quizzes.netlify.app/en/ds/quiz/32)
 
 ## Mikä on pilvi?
 
-Pilvi, tai pilvilaskenta, tarkoittaa laajan valikoiman maksullisten laskentapalveluiden tarjoamista internetin kautta. Palveluihin kuuluu ratkaisuja, kuten tallennus, tietokannat, verkot, ohjelmistot, analytiikka ja älykkäät palvelut.
+Pilvi, tai pilvipalvelut, tarkoittaa laajan valikoiman maksullisten tietotekniikkapalveluiden toimittamista internetin kautta ylläpidetyn infrastruktuurin avulla. Palveluihin kuuluu ratkaisuja, kuten tallennustilaa, tietokantoja, verkottumista, ohjelmistoja, analytiikkaa ja älykkäitä palveluita.
 
-Pilvipalvelut jaetaan yleensä julkisiin, yksityisiin ja hybridipilviin seuraavasti:
+Yleensä pilvipalvelut jaetaan kolmeen kategoriaan: julkinen, yksityinen ja hybridi pilvi:
 
-* Julkinen pilvi: julkinen pilvi on kolmannen osapuolen pilvipalveluntarjoajan omistama ja ylläpitämä, ja se tarjoaa laskentaresursseja internetin kautta yleisölle.
-* Yksityinen pilvi: viittaa pilvilaskentaresursseihin, joita käyttää yksinomaan yksi yritys tai organisaatio, ja palvelut sekä infrastruktuuri ylläpidetään yksityisessä verkossa.
-* Hybridipilvi: hybridipilvi yhdistää julkisen ja yksityisen pilven. Käyttäjät voivat valita paikallisen datakeskuksen, mutta sallia datan ja sovellusten käytön yhdellä tai useammalla julkisella pilvellä.
+* Julkinen pilvi: julkinen pilvi on kolmannen osapuolen pilvipalveluntarjoajan omistama ja ylläpitämä, ja se toimittaa tietotekniikkapalveluita internetin kautta yleisölle.
+* Yksityinen pilvi: viittaa pilvipalveluihin, joita käyttää yksinomaan yksi yritys tai organisaatio, ja palvelut sekä infrastruktuuri ylläpidetään yksityisessä verkossa.
+* Hybridi pilvi: hybridi pilvi yhdistää julkisen ja yksityisen pilven. Käyttäjät voivat hyödyntää paikallista datakeskusta ja samalla ajaa dataa ja sovelluksia yhdessä tai useammassa julkisessa pilvessä.
 
-Suurin osa pilvilaskentapalveluista kuuluu kolmeen kategoriaan: Infrastructure as a Service (IaaS), Platform as a Service (PaaS) ja Software as a Service (SaaS).
+Useimmat pilvipalvelut kuuluvat kolmeen pääkategoriaan: Infrastructure as a Service (IaaS), Platform as a Service (PaaS) ja Software as a Service (SaaS).
 
-* Infrastructure as a Service (IaaS): käyttäjät vuokraavat IT-infrastruktuurin, kuten palvelimia, virtuaalikoneita (VM), tallennustilaa, verkkoja ja käyttöjärjestelmiä.
-* Platform as a Service (PaaS): käyttäjät vuokraavat ympäristön ohjelmistosovellusten kehittämiseen, testaamiseen, toimittamiseen ja hallintaan. Käyttäjien ei tarvitse huolehtia palvelimien, tallennustilan, verkon ja tietokantojen infrastruktuurin hallinnasta.
-* Software as a Service (SaaS): käyttäjät saavat pääsyn ohjelmistosovelluksiin internetin kautta, yleensä tilauspohjaisesti. Käyttäjien ei tarvitse huolehtia ohjelmiston isännöinnistä, hallinnasta tai ylläpidosta, kuten päivityksistä ja tietoturvasta.
+* Infrastructure as a Service (IaaS): käyttäjät vuokraavat IT-infrastruktuuria, kuten palvelimia ja virtuaalikoneita (VM), tallennustilaa, verkkoja ja käyttöjärjestelmiä.
+* Platform as a Service (PaaS): käyttäjät vuokraavat ympäristön ohjelmistojen kehittämiseen, testaamiseen, toimittamiseen ja hallintaan. Käyttäjien ei tarvitse huolehtia palvelimien, tallennustilan, verkkojen tai tietokantojen infrastruktuurin hallinnasta.
+* Software as a Service (SaaS): käyttäjät saavat pääsyn ohjelmistosovelluksiin internetin kautta tilauspohjaisesti. Käyttäjien ei tarvitse huolehtia ohjelmiston ylläpidosta, infrastruktuurista tai päivityksistä.
 
 Suurimpia pilvipalveluntarjoajia ovat Amazon Web Services, Google Cloud Platform ja Microsoft Azure.
 
@@ -39,59 +39,59 @@ Suurimpia pilvipalveluntarjoajia ovat Amazon Web Services, Google Cloud Platform
 
 Kehittäjät ja IT-ammattilaiset valitsevat pilvipalvelut monista syistä, kuten:
 
-* Innovaatio: voit tehostaa sovelluksiasi integroimalla pilvipalveluntarjoajien innovatiivisia palveluita suoraan sovelluksiisi.
-* Joustavuus: maksat vain tarvitsemistasi palveluista ja voit valita laajasta palveluvalikoimasta. Maksat yleensä käytön mukaan ja mukautat palvelut tarpeidesi mukaan.
-* Budjetti: sinun ei tarvitse tehdä alkuinvestointeja laitteistojen ja ohjelmistojen ostamiseen, datakeskusten perustamiseen ja ylläpitoon, vaan maksat vain käytöstä.
-* Skaalautuvuus: resurssit voivat skaalautua projektin tarpeiden mukaan, mikä tarkoittaa, että sovelluksesi voivat käyttää enemmän tai vähemmän laskentatehoa, tallennustilaa ja kaistanleveyttä ulkoisten tekijöiden mukaan.
+* Innovaatio: voit tehostaa sovelluksiasi integroimalla pilvipalveluntarjoajien kehittämiä innovatiivisia palveluita suoraan sovelluksiisi.
+* Joustavuus: maksat vain tarvitsemistasi palveluista ja voit valita laajasta palveluvalikoimasta. Maksat yleensä käytön mukaan ja voit mukauttaa palveluita tarpeidesi mukaan.
+* Budjetti: sinun ei tarvitse tehdä alkuinvestointeja laitteistojen ja ohjelmistojen hankintaan tai datakeskusten perustamiseen ja ylläpitoon – maksat vain käytöstä.
+* Skaalautuvuus: resurssit voivat skaalautua projektisi tarpeiden mukaan, mikä tarkoittaa, että sovelluksesi voivat käyttää enemmän tai vähemmän laskentatehoa, tallennustilaa ja kaistanleveyttä ulkoisten tekijöiden mukaan.
 * Tuottavuus: voit keskittyä liiketoimintaasi sen sijaan, että käyttäisit aikaa tehtäviin, jotka joku muu voi hoitaa, kuten datakeskusten hallintaan.
-* Luotettavuus: pilvilaskenta tarjoaa useita tapoja varmuuskopioida dataa jatkuvasti, ja voit luoda katastrofipalautussuunnitelmia, jotka pitävät liiketoimintasi ja palvelusi käynnissä kriisitilanteissa.
-* Tietoturva: voit hyödyntää politiikkoja, teknologioita ja kontrollimekanismeja, jotka vahvistavat projektisi tietoturvaa.
+* Luotettavuus: pilvipalvelut tarjoavat useita tapoja varmuuskopioida dataasi jatkuvasti, ja voit luoda katastrofipalautussuunnitelmia, jotta liiketoimintasi ja palvelusi pysyvät toiminnassa kriisitilanteissa.
+* Turvallisuus: voit hyödyntää käytäntöjä, teknologioita ja valvontaa, jotka vahvistavat projektisi turvallisuutta.
 
-Nämä ovat joitakin yleisimpiä syitä, miksi ihmiset valitsevat pilvipalvelut. Nyt kun ymmärrämme paremmin, mitä pilvi on ja mitkä sen tärkeimmät edut ovat, tarkastellaan tarkemmin data-analytiikan ammattilaisten ja kehittäjien työtä sekä sitä, miten pilvi voi auttaa heitä kohtaamaan erilaisia haasteita:
+Nämä ovat joitakin yleisimpiä syitä, miksi ihmiset valitsevat pilvipalvelut. Nyt kun ymmärrämme paremmin, mitä pilvi on ja mitkä ovat sen tärkeimmät hyödyt, tarkastellaan tarkemmin data-analyytikoiden ja datan parissa työskentelevien kehittäjien tehtäviä sekä sitä, miten pilvi voi auttaa heitä kohtaamaan erilaisia haasteita:
 
-* Suurten datamäärien tallentaminen: sen sijaan, että ostaisit, hallitsisit ja suojaisit suuria palvelimia, voit tallentaa datasi suoraan pilveen, esimerkiksi Azure Cosmos DB:n, Azure SQL Databasen ja Azure Data Lake Storagen avulla.
-* Datan integrointi: datan integrointi on olennainen osa data-analytiikkaa, joka mahdollistaa siirtymisen datan keräämisestä toimintaan. Pilvipalveluiden tarjoamat datan integrointipalvelut, kuten Data Factory, auttavat keräämään, muuntamaan ja integroimaan dataa eri lähteistä yhteen datavarastoon.
-* Datan käsittely: suurten datamäärien käsittely vaatii paljon laskentatehoa, eikä kaikilla ole pääsyä tarpeeksi tehokkaisiin koneisiin. Siksi monet valitsevat pilven valtavan laskentatehon ratkaisujensa suorittamiseen ja käyttöönottoon.
-* Data-analytiikkapalveluiden käyttö: pilvipalvelut, kuten Azure Synapse Analytics, Azure Stream Analytics ja Azure Databricks, auttavat muuttamaan datan toiminnallisiksi oivalluksiksi.
-* Koneoppimisen ja dataälyn palveluiden käyttö: sen sijaan, että aloittaisit alusta, voit käyttää pilvipalveluntarjoajan tarjoamia koneoppimisalgoritmeja, kuten AzureML. Voit myös hyödyntää kognitiivisia palveluita, kuten puheesta tekstiksi, tekstistä puheeksi, tietokonenäköä ja paljon muuta.
+* Suurten datamäärien tallentaminen: sen sijaan, että ostaisit, hallinnoisit ja suojaisit suuria palvelimia, voit tallentaa datasi suoraan pilveen, esimerkiksi Azure Cosmos DB:n, Azure SQL Databasen ja Azure Data Lake Storagen avulla.
+* Datan integrointi: datan integrointi on olennainen osa data-analytiikkaa, joka mahdollistaa siirtymisen datan keräämisestä toimenpiteisiin. Pilvipalveluiden tarjoamilla dataintegraatiopalveluilla voit kerätä, muuntaa ja yhdistää dataa eri lähteistä yhdeksi tietovarastoksi, esimerkiksi Data Factoryn avulla.
+* Datan käsittely: suurten datamäärien käsittely vaatii paljon laskentatehoa, eikä kaikilla ole pääsyä tarpeeksi tehokkaisiin koneisiin. Siksi monet valitsevat suoraan pilven valtavan laskentatehon ratkaisujensa suorittamiseen ja käyttöönottoon.
+* Data-analytiikkapalveluiden käyttö: pilvipalvelut, kuten Azure Synapse Analytics, Azure Stream Analytics ja Azure Databricks, auttavat muuttamaan datasi toimiviksi oivalluksiksi.
+* Koneoppimisen ja älypalveluiden käyttö: sen sijaan, että aloittaisit alusta, voit käyttää pilvipalveluntarjoajan tarjoamia koneoppimisalgoritmeja, kuten AzureML. Voit myös hyödyntää kognitiivisia palveluita, kuten puheesta tekstiksi, tekstistä puheeksi, tietokonenäköä ja paljon muuta.
 
 ## Esimerkkejä data-analytiikasta pilvessä
 
-Tarkastellaan muutamia konkreettisia esimerkkejä.
+Tarkastellaan muutamia käytännön esimerkkejä.
 
 ### Sosiaalisen median reaaliaikainen sentimenttianalyysi
-Aloitetaan skenaariolla, joka on yleinen koneoppimisen aloittelijoille: sosiaalisen median sentimenttianalyysi reaaliajassa.
+Aloitetaan skenaariolla, jota monet koneoppimisen aloittelijat tutkivat: sosiaalisen median sentimenttianalyysi reaaliajassa.
 
-Oletetaan, että ylläpidät uutismedia-sivustoa ja haluat hyödyntää reaaliaikaista dataa ymmärtääksesi, millainen sisältö kiinnostaisi lukijoitasi. Tätä varten voit rakentaa ohjelman, joka suorittaa reaaliaikaista sentimenttianalyysiä Twitter-julkaisujen datasta aiheista, jotka ovat lukijoillesi merkityksellisiä.
+Oletetaan, että ylläpidät uutismedia-sivustoa ja haluat hyödyntää reaaliaikaista dataa ymmärtääksesi, millainen sisältö kiinnostaa lukijoitasi. Tämän selvittämiseksi voit rakentaa ohjelman, joka suorittaa reaaliaikaista sentimenttianalyysiä Twitter-julkaisujen datasta aiheista, jotka ovat lukijoillesi merkityksellisiä.
 
-Keskeiset indikaattorit, joita tarkastelet, ovat tiettyjen aiheiden (hashtagien) twiittien määrä ja sentimentti, joka määritetään analytiikkatyökaluilla, jotka suorittavat sentimenttianalyysiä määritettyjen aiheiden ympärillä.
+Keskeisiä mittareita ovat tiettyihin aiheisiin liittyvien twiittien määrä (hashtagit) ja sentimentti, joka määritetään analytiikkatyökaluilla, jotka suorittavat sentimenttianalyysiä määriteltyjen aiheiden ympärillä.
 
 Projektin luomiseen tarvittavat vaiheet ovat seuraavat:
 
-* Luo tapahtumakeskus syötteen suoratoistolle, joka kerää dataa Twitteristä
-* Määritä ja käynnistä Twitter-asiakassovellus, joka kutsuu Twitter Streaming API:ta
-* Luo Stream Analytics -työ
-* Määritä työn syöte ja kysely
-* Luo ulostulosäiliö ja määritä työn ulostulo
-* Käynnistä työ
+* Luo tapahtumakeskus syötteen suoratoistoon, joka kerää dataa Twitteristä.
+* Määritä ja käynnistä Twitter-asiakassovellus, joka kutsuu Twitterin suoratoisto-API:ta.
+* Luo Stream Analytics -työ.
+* Määritä työn syöte ja kysely.
+* Luo ulostulosäilö ja määritä työn ulostulo.
+* Käynnistä työ.
 
 Katso koko prosessi [dokumentaatiosta](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends?WT.mc_id=academic-77958-bethanycheum&ocid=AID30411099).
 
-### Tieteellisten artikkeleiden analyysi
+### Tieteellisten julkaisujen analyysi
 Tarkastellaan toista esimerkkiä projektista, jonka on luonut [Dmitry Soshnikov](http://soshnikov.com), yksi tämän kurssin kirjoittajista.
 
-Dmitry loi työkalun, joka analysoi COVID-artikkeleita. Tarkastelemalla tätä projektia näet, miten voit luoda työkalun, joka poimii tietoa tieteellisistä artikkeleista, saa oivalluksia ja auttaa tutkijoita navigoimaan suurten artikkelikokoelmien läpi tehokkaasti.
+Dmitry loi työkalun, joka analysoi COVID-tutkimusjulkaisuja. Tämän projektin avulla näet, kuinka voit luoda työkalun, joka poimii tietoa tieteellisistä julkaisuista, saa oivalluksia ja auttaa tutkijoita navigoimaan suurten julkaisukokoelmien läpi tehokkaasti.
 
-Katsotaan projektin eri vaiheet:
+Katsotaanpa projektin eri vaiheet:
 
-* Tiedon poiminta ja esikäsittely [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) avulla
-* [Azure ML](https://azure.microsoft.com/services/machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) -palvelun käyttö prosessoinnin rinnakkaistamiseen
-* Tiedon tallennus ja kyselyt [Cosmos DB](https://azure.microsoft.com/services/cosmos-db?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) avulla
-* Interaktiivisen dashboardin luominen tiedon tutkimiseen ja visualisointiin Power BI:n avulla
+* Tiedon poiminta ja esikäsittely [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) -työkalulla.
+* [Azure ML](https://azure.microsoft.com/services/machine-learning?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) -palvelun käyttö prosessoinnin rinnakkaistamiseen.
+* Tiedon tallentaminen ja kyselyt [Cosmos DB](https://azure.microsoft.com/services/cosmos-db?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) -palvelulla.
+* Interaktiivisen kojelaudan luominen tiedon tutkimiseen ja visualisointiin Power BI:n avulla.
 
-Katso koko prosessi Dmitryn blogista [täältä](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/).
+Katso koko prosessi [Dmitryn blogista](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/).
 
-Kuten näet, pilvipalveluita voidaan hyödyntää monin tavoin data-analytiikan toteuttamisessa.
+Kuten huomaat, pilvipalveluita voidaan hyödyntää monin tavoin data-analytiikassa.
 
 ## Loppuviite
 
@@ -100,9 +100,9 @@ Lähteet:
 * https://docs.microsoft.com/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends?ocid=AID3041109  
 * https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/  
 
-## Jälkiluennon kysely
+## Jälkiluentavisa
 
-## [Jälkiluennon kysely](https://ff-quizzes.netlify.app/en/ds/)
+## [Jälkiluentavisa](https://ff-quizzes.netlify.app/en/ds/quiz/33)
 
 ## Tehtävä
 

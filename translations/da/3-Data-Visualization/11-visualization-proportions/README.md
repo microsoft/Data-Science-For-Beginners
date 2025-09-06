@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "cc490897ee2d276870472bcb31602d03",
-  "translation_date": "2025-09-04T19:16:50+00:00",
+  "original_hash": "42119bcc97bee88254e381156d770f3c",
+  "translation_date": "2025-09-05T22:03:12+00:00",
   "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
   "language_code": "da"
 }
@@ -21,7 +21,7 @@ I denne lektion vil du bruge et naturfokuseret datasæt til at visualisere propo
 
 > 💡 Et meget interessant projekt kaldet [Charticulator](https://charticulator.com) fra Microsoft Research tilbyder en gratis drag-and-drop-grænseflade til datavisualiseringer. I en af deres tutorials bruger de også dette champignondatasæt! Så du kan udforske dataene og lære biblioteket samtidig: [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ds/)
+## [Quiz før lektionen](https://ff-quizzes.netlify.app/en/ds/quiz/20)
 
 ## Lær dine champignoner at kende 🍄
 
@@ -72,7 +72,7 @@ edibleclass=mushrooms.groupby(['class']).count()
 edibleclass
 ```
 
-Nu, hvis du printer champignondataene, kan du se, at de er blevet grupperet i kategorier baseret på klassen giftig/spiselig:
+Nu, hvis du printer champignondataene, kan du se, at de er blevet grupperet i kategorier baseret på den giftige/spiselige klasse:
 
 
 |           | cap-shape | cap-surface | cap-color | bruises | odor | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | ... | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
@@ -91,11 +91,11 @@ plt.pie(edibleclass['population'],labels=labels,autopct='%.1f %%')
 plt.title('Edible?')
 plt.show()
 ```
-Voila, et cirkeldiagram, der viser proportionerne af disse data baseret på de to klasser af champignoner. Det er ret vigtigt at få rækkefølgen af labels korrekt, især her, så sørg for at verificere rækkefølgen, når du opbygger label-arrayet!
+Voila, et cirkeldiagram, der viser proportionerne af disse data baseret på de to klasser af champignoner. Det er ret vigtigt at få rækkefølgen af labels korrekt, især her, så sørg for at verificere rækkefølgen, som label-arrayet er bygget med!
 
-![cirkeldiagram](../../../../translated_images/pie1-wb.e201f2fcc335413143ce37650fb7f5f0bb21358e7823a327ed8644dfb84be9db.da.png)
+![cirkeldiagram](../../../../3-Data-Visualization/11-visualization-proportions/images/pie1-wb.png)
 
-## Donutdiagrammer!
+## Donuts!
 
 Et lidt mere visuelt interessant cirkeldiagram er et donutdiagram, som er et cirkeldiagram med et hul i midten. Lad os se på vores data ved hjælp af denne metode.
 
@@ -123,7 +123,7 @@ plt.title('Mushroom Habitats')
 plt.show()
 ```
 
-![donutdiagram](../../../../translated_images/donut-wb.be3c12a22712302b5d10c40014d5389d4a1ae4412fe1655b3cf4af57b64f799a.da.png)
+![donutdiagram](../../../../3-Data-Visualization/11-visualization-proportions/images/donut-wb.png)
 
 Denne kode tegner et diagram og en cirkel i midten og tilføjer derefter den midterste cirkel i diagrammet. Rediger bredden af den midterste cirkel ved at ændre `0.40` til en anden værdi.
 
@@ -145,7 +145,7 @@ capcolor=mushrooms.groupby(['cap-color']).count()
 capcolor
 ```
 
-Opret et vaffeldiagram ved at oprette labels og derefter gruppere dine data:
+Lav et vaffeldiagram ved at oprette labels og derefter gruppere dine data:
 
 ```python
 import pandas as pd
@@ -168,9 +168,9 @@ fig = plt.figure(
 )
 ```
 
-Ved hjælp af et vaffeldiagram kan du tydeligt se proportionerne af hatfarver i dette champignondatasæt. Interessant nok er der mange champignoner med grønne hatte!
+Ved hjælp af et vaffeldiagram kan du tydeligt se proportionerne af hatfarver i dette champignondatasæt. Interessant nok er der mange grønne champignonhatte!
 
-![vaffeldiagram](../../../../translated_images/waffle.5455dbae4ccf17d53bb40ff0a657ecef7b8aa967e27a19cc96325bd81598f65e.da.png)
+![vaffeldiagram](../../../../3-Data-Visualization/11-visualization-proportions/images/waffle.png)
 
 ✅ Pywaffle understøtter ikoner i diagrammer, der bruger ethvert ikon tilgængeligt i [Font Awesome](https://fontawesome.com/). Lav nogle eksperimenter for at skabe et endnu mere interessant vaffeldiagram ved at bruge ikoner i stedet for firkanter.
 
@@ -179,11 +179,11 @@ I denne lektion lærte du tre måder at visualisere proportioner på. Først ska
 ## 🚀 Udfordring
 
 Prøv at genskabe disse lækre diagrammer i [Charticulator](https://charticulator.com).
-## [Quiz efter lektionen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
+## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ds/quiz/21)
 
 ## Gennemgang & Selvstudie
 
-Nogle gange er det ikke indlysende, hvornår man skal bruge et cirkel-, donut- eller vaffeldiagram. Her er nogle artikler, du kan læse om emnet:
+Nogle gange er det ikke indlysende, hvornår man skal bruge et cirkel-, donut- eller vaffeldiagram. Her er nogle artikler, du kan læse om dette emne:
 
 https://www.beautiful.ai/blog/battle-of-the-charts-pie-chart-vs-donut-chart
 
@@ -193,7 +193,7 @@ https://www.mit.edu/~mbarker/formula1/f1help/11-ch-c6.htm
 
 https://medium.datadriveninvestor.com/data-visualization-done-the-right-way-with-tableau-waffle-chart-fdf2a19be402
 
-Lav noget research for at finde mere information om denne svære beslutning.
+Lav noget research for at finde mere information om denne vanskelige beslutning.
 ## Opgave
 
 [Prøv det i Excel](assignment.md)
@@ -201,4 +201,4 @@ Lav noget research for at finde mere information om denne svære beslutning.
 ---
 
 **Ansvarsfraskrivelse**:  
-Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på at sikre nøjagtighed, skal det bemærkes, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi påtager os ikke ansvar for eventuelle misforståelser eller fejltolkninger, der opstår som følge af brugen af denne oversættelse.
+Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi påtager os ikke ansvar for eventuelle misforståelser eller fejltolkninger, der opstår som følge af brugen af denne oversættelse.

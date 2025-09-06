@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "90a815d332aea41a222f4c6372e7186e",
-  "translation_date": "2025-09-04T19:39:17+00:00",
+  "original_hash": "1b560955ff39a2bcf2a049fce474a951",
+  "translation_date": "2025-09-05T22:38:43+00:00",
   "source_file": "2-Working-With-Data/08-data-preparation/README.md",
   "language_code": "fi"
 }
@@ -13,34 +13,34 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Datan valmistelu - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [Ennakkokysely](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/14)
+## [Esiluentakysely](https://ff-quizzes.netlify.app/en/ds/quiz/14)
 
-Riippuen datan lähteestä, raakadata voi sisältää epäjohdonmukaisuuksia, jotka aiheuttavat haasteita analyysissä ja mallinnuksessa. Toisin sanoen, tämä data voidaan luokitella "likaiseksi" ja se täytyy siivota. Tämä oppitunti keskittyy tekniikoihin, joilla dataa puhdistetaan ja muokataan käsittelemään puuttuvaa, epätarkkaa tai epätäydellistä dataa. Oppitunnin aiheet hyödyntävät Pythonia ja Pandas-kirjastoa, ja niitä [havainnollistetaan notebookissa](notebook.ipynb) tässä hakemistossa.
+Riippuen datan lähteestä, raakadatan mukana voi tulla epäjohdonmukaisuuksia, jotka aiheuttavat haasteita analyysissä ja mallinnuksessa. Toisin sanoen, tämä data voidaan luokitella "likaiseksi" ja se täytyy puhdistaa. Tämä oppitunti keskittyy tekniikoihin, joilla dataa puhdistetaan ja muokataan käsittelemään puuttuvaa, epätarkkaa tai epätäydellistä dataa. Oppitunnin aiheet hyödyntävät Pythonia ja Pandas-kirjastoa, ja ne [havainnollistetaan muistikirjassa](../../../../2-Working-With-Data/08-data-preparation/notebook.ipynb) tässä hakemistossa.
 
-## Datan puhdistamisen merkitys
+## Datan puhdistamisen tärkeys
 
 - **Helppokäyttöisyys ja uudelleenkäyttö**: Kun data on asianmukaisesti järjestetty ja normalisoitu, sitä on helpompi etsiä, käyttää ja jakaa muiden kanssa.
 
-- **Johdonmukaisuus**: Data-analytiikka vaatii usein työskentelyä useamman datasetin kanssa, jolloin eri lähteistä tulevat datasetit täytyy yhdistää. Varmistamalla, että jokainen yksittäinen datasetti noudattaa yhteisiä standardeja, varmistetaan datan hyödyllisyys, kun ne yhdistetään yhdeksi datasetiksi.
+- **Johdonmukaisuus**: Data-analyysi vaatii usein työskentelyä useamman datasetin kanssa, jolloin eri lähteistä tulevat datasetit täytyy yhdistää. Varmistamalla, että jokainen datasetti noudattaa yhteisiä standardeja, varmistetaan, että data on edelleen hyödyllistä, kun ne yhdistetään yhdeksi datasetiksi.
 
-- **Mallin tarkkuus**: Puhdistettu data parantaa mallien tarkkuutta, jotka perustuvat siihen.
+- **Mallien tarkkuus**: Puhdistettu data parantaa mallien tarkkuutta, jotka ovat riippuvaisia siitä.
 
 ## Yleiset puhdistustavoitteet ja -strategiat
 
-- **Datasetin tutkiminen**: Datan tutkiminen, joka käsitellään [myöhemmässä oppitunnissa](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/15-analyzing), auttaa tunnistamaan datan, joka täytyy siivota. Datasetin arvojen visuaalinen tarkastelu voi luoda odotuksia siitä, miltä loput datasetistä näyttää, tai antaa käsityksen ongelmista, jotka voidaan ratkaista. Tutkiminen voi sisältää peruskyselyitä, visualisointeja ja näytteenottoa.
+- **Datasetin tutkiminen**: Datan tutkiminen, joka käsitellään [myöhemmässä oppitunnissa](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/4-Data-Science-Lifecycle/15-analyzing), voi auttaa löytämään dataa, joka täytyy puhdistaa. Datasetin arvojen visuaalinen tarkastelu voi luoda odotuksia siitä, miltä loput datasta näyttävät, tai antaa käsityksen ongelmista, jotka voidaan ratkaista. Tutkiminen voi sisältää peruskyselyitä, visualisointeja ja otantaa.
 
-- **Muotoilu**: Riippuen lähteestä, datassa voi olla epäjohdonmukaisuuksia sen esitystavassa. Tämä voi aiheuttaa ongelmia arvon etsimisessä ja esittämisessä, jolloin arvo näkyy datasetissä, mutta ei ole asianmukaisesti esitetty visualisoinneissa tai kyselytuloksissa. Yleisiä muotoiluongelmia ovat välilyöntien, päivämäärien ja datatyypin korjaaminen. Muotoiluongelmien ratkaiseminen on yleensä datan käyttäjien vastuulla. Esimerkiksi päivämäärien ja numeroiden esitystavat voivat vaihdella maittain.
+- **Muotoilu**: Riippuen lähteestä, datassa voi olla epäjohdonmukaisuuksia sen esitystavassa. Tämä voi aiheuttaa ongelmia arvon etsimisessä ja esittämisessä, jolloin arvo näkyy datasetissä, mutta sitä ei esitetä oikein visualisoinneissa tai kyselytuloksissa. Yleisiä muotoiluongelmia ovat välilyöntien, päivämäärien ja datatyypin korjaaminen. Muotoiluongelmien ratkaiseminen on yleensä datan käyttäjien vastuulla. Esimerkiksi päivämäärien ja numeroiden esitystavat voivat vaihdella maittain.
 
-- **Kaksoiskappaleet**: Data, jossa on useampi esiintymä, voi tuottaa epätarkkoja tuloksia ja yleensä tulisi poistaa. Tämä on yleistä, kun yhdistetään kaksi tai useampi datasetti. On kuitenkin tilanteita, joissa yhdistettyjen datasetien kaksoiskappaleet sisältävät lisätietoa, joka voi olla tarpeen säilyttää.
+- **Duplikaatit**: Data, jossa on useampi esiintymä, voi tuottaa epätarkkoja tuloksia ja se tulisi yleensä poistaa. Tämä on yleistä, kun yhdistetään kaksi tai useampia datasettejä. On kuitenkin tilanteita, joissa yhdistetyissä dataseteissä olevat duplikaatit sisältävät lisätietoa ja ne täytyy säilyttää.
 
-- **Puuttuva data**: Puuttuva data voi aiheuttaa epätarkkuuksia sekä heikkoja tai puolueellisia tuloksia. Joskus nämä voidaan ratkaista lataamalla data uudelleen, täyttämällä puuttuvat arvot laskennalla ja koodilla, kuten Pythonilla, tai yksinkertaisesti poistamalla arvo ja vastaava data. Syyt datan puuttumiseen voivat vaihdella, ja toimenpiteet puuttuvien arvojen korjaamiseksi riippuvat siitä, miten ja miksi ne ovat kadonneet.
+- **Puuttuva data**: Puuttuva data voi aiheuttaa epätarkkuuksia sekä heikkoja tai puolueellisia tuloksia. Joskus nämä voidaan ratkaista "uudelleenlataamalla" data, täyttämällä puuttuvat arvot laskennalla ja koodilla, kuten Pythonilla, tai yksinkertaisesti poistamalla arvo ja siihen liittyvä data. Puuttuvan datan syyt voivat vaihdella, ja toimenpiteet sen ratkaisemiseksi riippuvat siitä, miten ja miksi data on alun perin puuttunut.
 
 ## DataFramen tietojen tutkiminen
-> **Oppimistavoite:** Tämän osion lopussa sinun tulisi olla mukava löytää yleistä tietoa pandas DataFrameihin tallennetusta datasta.
+> **Oppimistavoite:** Tämän osion lopussa sinun tulisi osata löytää yleistä tietoa pandas DataFrameihin tallennetusta datasta.
 
-Kun olet ladannut datasi pandas-kirjastoon, se on todennäköisesti DataFrame-muodossa (katso edellinen [oppitunti](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python#dataframe) saadaksesi yksityiskohtaisen yleiskatsauksen). Mutta jos DataFramessa on 60 000 riviä ja 400 saraketta, mistä edes aloitat saadaksesi käsityksen siitä, mitä sinulla on? Onneksi [pandas](https://pandas.pydata.org/) tarjoaa käteviä työkaluja, joilla voit nopeasti tarkastella DataFramen yleistä tietoa sekä sen ensimmäisiä ja viimeisiä rivejä.
+Kun olet ladannut datasi pandas-kirjastoon, se on todennäköisesti DataFrame-muodossa (katso edellinen [oppitunti](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/2-Working-With-Data/07-python#dataframe) saadaksesi yksityiskohtaisen yleiskatsauksen). Mutta jos DataFramessa on 60 000 riviä ja 400 saraketta, mistä edes aloitat ymmärtääksesi, mitä sinulla on käsissäsi? Onneksi [pandas](https://pandas.pydata.org/) tarjoaa käteviä työkaluja, joilla voit nopeasti tarkastella DataFramen yleistä tietoa sekä sen ensimmäisiä ja viimeisiä rivejä.
 
-Tämän toiminnallisuuden tutkimiseksi tuomme Pythonin scikit-learn-kirjaston ja käytämme ikonista datasettiä: **Iris-datasettiä**.
+Tämän toiminnallisuuden tutkimiseksi tuomme käyttöön Pythonin scikit-learn-kirjaston ja käytämme ikonista datasettiä: **Iris-datasettiä**.
 
 ```python
 import pandas as pd
@@ -73,9 +73,9 @@ Data columns (total 4 columns):
 dtypes: float64(4)
 memory usage: 4.8 KB
 ```
-Tästä tiedämme, että *Iris*-datasetissä on 150 merkintää neljässä sarakkeessa, eikä siinä ole puuttuvia arvoja. Kaikki data on tallennettu 64-bittisinä liukulukuina.
+Tästä tiedämme, että *Iris*-datasetissä on 150 riviä neljässä sarakkeessa, eikä siinä ole puuttuvia arvoja. Kaikki data on tallennettu 64-bittisinä liukulukuarvoina.
 
-- **DataFrame.head()**: Seuraavaksi tarkastellaan DataFramen varsinaista sisältöä `head()`-metodilla. Katsotaanpa, miltä `iris_df`:n ensimmäiset rivit näyttävät:
+- **DataFrame.head()**: Seuraavaksi tarkastellaan `DataFrame`-sisällön ensimmäisiä rivejä `head()`-metodilla. Katsotaanpa, miltä `iris_df`:n ensimmäiset rivit näyttävät:
 ```python
 iris_df.head()
 ```
@@ -87,7 +87,7 @@ iris_df.head()
 3                4.6               3.1                1.5               0.2
 4                5.0               3.6                1.4               0.2
 ```
-- **DataFrame.tail()**: Vastaavasti tarkastellaan DataFramen viimeisiä rivejä `tail()`-metodilla:
+- **DataFrame.tail()**: Vastaavasti tarkastellaan `DataFrame`-sisällön viimeisiä rivejä `tail()`-metodilla:
 ```python
 iris_df.tail()
 ```
@@ -99,20 +99,20 @@ iris_df.tail()
 148                6.2               3.4                5.4               2.3
 149                5.9               3.0                5.1               1.8
 ```
-> **Yhteenveto:** Jo pelkästään tarkastelemalla DataFramen metatietoja tai sen ensimmäisiä ja viimeisiä arvoja, voit saada välittömän käsityksen datan koosta, muodosta ja sisällöstä.
+> **Yhteenveto:** Jo pelkästään tarkastelemalla DataFramen metatietoja tai sen ensimmäisiä ja viimeisiä rivejä, voit saada välittömän käsityksen datan koosta, muodosta ja sisällöstä.
 
 ## Puuttuvan datan käsittely
-> **Oppimistavoite:** Tämän osion lopussa sinun tulisi osata korvata tai poistaa DataFramen null-arvot.
+> **Oppimistavoite:** Tämän osion lopussa sinun tulisi osata korvata tai poistaa puuttuvat arvot DataFrameista.
 
 Useimmiten datasetit, joita haluat käyttää (tai joudut käyttämään), sisältävät puuttuvia arvoja. Puuttuvan datan käsittelyyn liittyy hienovaraisia kompromisseja, jotka voivat vaikuttaa lopulliseen analyysiin ja todellisiin tuloksiin.
 
-Pandas käsittelee puuttuvia arvoja kahdella tavalla. Ensimmäinen, jonka olet nähnyt aiemmissa osioissa, on `NaN` eli Not a Number. Tämä on erityinen arvo, joka kuuluu IEEE-liukuluku-määrittelyyn ja sitä käytetään vain puuttuvien liukulukuarvojen merkitsemiseen.
+Pandas käsittelee puuttuvia arvoja kahdella tavalla. Ensimmäinen, jonka olet nähnyt aiemmissa osioissa, on `NaN` (Not a Number). Tämä on erityinen arvo, joka on osa IEEE:n liukulukumääritystä, ja sitä käytetään vain puuttuvien liukulukuarvojen merkitsemiseen.
 
-Muiden kuin liukulukuarvojen puuttumiseen pandas käyttää Pythonin `None`-objektia. Vaikka voi tuntua hämmentävältä, että kohtaat kaksi erilaista arvoa, jotka tarkoittavat käytännössä samaa asiaa, tähän suunnitteluratkaisuun on hyvät ohjelmalliset syyt, ja käytännössä tämä lähestymistapa mahdollistaa pandasille hyvän kompromissin useimmissa tapauksissa. Tästä huolimatta sekä `None` että `NaN` sisältävät rajoituksia, jotka sinun tulee ottaa huomioon niiden käyttöön liittyen.
+Muiden kuin liukulukujen puuttuvien arvojen kohdalla pandas käyttää Pythonin `None`-objektia. Vaikka voi tuntua hämmentävältä, että kohtaat kaksi erilaista arvoa, jotka tarkoittavat käytännössä samaa asiaa, tälle suunnitteluratkaisulle on hyvät ohjelmalliset syyt. Käytännössä tämä lähestymistapa mahdollistaa sen, että pandas tarjoaa hyvän kompromissin suurimmassa osassa tapauksia. Tästä huolimatta sekä `None` että `NaN` sisältävät rajoituksia, jotka sinun on hyvä tiedostaa niiden käyttöä koskien.
 
-Lisätietoja `NaN`- ja `None`-arvoista löytyy [notebookista](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb)!
+Lue lisää `NaN`- ja `None`-arvoista [muistikirjasta](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb)!
 
-- **Null-arvojen havaitseminen**: Pandasissa `isnull()`- ja `notnull()`-metodit ovat ensisijaisia menetelmiä null-datan havaitsemiseen. Molemmat palauttavat Boolean-maskit datan päälle. Käytämme `numpy`-kirjastoa `NaN`-arvojen kanssa:
+- **Puuttuvien arvojen tunnistaminen**: Pandasissa `isnull()`- ja `notnull()`-metodit ovat ensisijaisia tapoja tunnistaa puuttuva data. Molemmat palauttavat Boolean-maskit datan päälle. Käytämme `numpy`-kirjastoa `NaN`-arvojen kanssa:
 ```python
 import numpy as np
 
@@ -126,13 +126,13 @@ example1.isnull()
 3     True
 dtype: bool
 ```
-Katso tarkasti tulosta. Yllättääkö jokin? Vaikka `0` on aritmeettinen null, se on silti täysin kelvollinen kokonaisluku, ja pandas käsittelee sen sellaisena. `''` on hieman hienovaraisempi. Vaikka käytimme sitä osassa 1 tyhjän merkkijonon edustamiseen, se on silti merkkijono-objekti eikä null-arvon edustus pandasissa.
+Katso tarkasti tulostetta. Yllättääkö jokin? Vaikka `0` on aritmeettisesti nolla, se on silti täysin kelvollinen kokonaisluku, ja pandas käsittelee sen sellaisena. `''` on hieman hienovaraisempi. Vaikka käytimme sitä osassa 1 tyhjänä merkkijonona, se on silti merkkijono-objekti eikä pandasissa null-arvon esitys.
 
-Käännetään tämä nyt ympäri ja käytetään näitä metodeja enemmän käytännönläheisesti. Voit käyttää Boolean-maskeja suoraan ``Series``- tai ``DataFrame``-indeksinä, mikä voi olla hyödyllistä, kun yrität työskennellä eristettyjen puuttuvien (tai olemassa olevien) arvojen kanssa.
+Nyt käännetään tämä toisinpäin ja käytetään näitä metodeja tavalla, jolla niitä käytetään käytännössä. Voit käyttää Boolean-maskeja suoraan ``Series``- tai ``DataFrame``-indeksinä, mikä on hyödyllistä, kun yrität työskennellä eristettyjen puuttuvien (tai olemassa olevien) arvojen kanssa.
 
-> **Yhteenveto**: Sekä `isnull()`- että `notnull()`-metodit tuottavat samanlaisia tuloksia, kun käytät niitä `DataFrame`-muodossa: ne näyttävät tulokset ja niiden indeksit, mikä auttaa sinua valtavasti datan käsittelyssä.
+> **Yhteenveto**: Sekä `isnull()`- että `notnull()`-metodit tuottavat samankaltaisia tuloksia, kun käytät niitä `DataFrame`-objekteissa: ne näyttävät tulokset ja niiden indeksit, mikä auttaa sinua valtavasti datan käsittelyssä.
 
-- **Null-arvojen poistaminen**: Null-arvojen tunnistamisen lisäksi pandas tarjoaa kätevän tavan poistaa null-arvot `Series`- ja `DataFrame`-muodoista. (Erityisesti suurissa dataseteissä on usein suositeltavampaa yksinkertaisesti poistaa puuttuvat [NA] arvot analyysistä kuin käsitellä niitä muilla tavoilla.) Katsotaanpa tätä käytännössä `example1`-datasetillä:
+- **Puuttuvien arvojen poistaminen**: Puuttuvien arvojen tunnistamisen lisäksi pandas tarjoaa kätevän tavan poistaa puuttuvat arvot `Series`- ja `DataFrame`-objekteista. (Erityisesti suurissa dataseteissä on usein suositeltavampaa yksinkertaisesti poistaa puuttuvat [NA] arvot analyysistä kuin käsitellä niitä muilla tavoilla.) Katsotaanpa tätä toiminnallisuutta `example1`-datasetillä:
 ```python
 example1 = example1.dropna()
 example1
@@ -142,9 +142,9 @@ example1
 2     
 dtype: object
 ```
-Huomaa, että tämän pitäisi näyttää samalta kuin tuloksesi `example3[example3.notnull()]`. Ero on siinä, että `dropna` on poistanut puuttuvat arvot `Series`-muodosta `example1`.
+Huomaa, että tämä näyttää samalta kuin tulosteesi `example3[example3.notnull()]`. Erona on, että `dropna` on poistanut puuttuvat arvot `Series`-objektista `example1` sen sijaan, että vain indeksoisi maskattuja arvoja.
 
-Koska `DataFrame`-muodossa on kaksi ulottuvuutta, se tarjoaa enemmän vaihtoehtoja datan poistamiseen.
+Koska `DataFrame`-objekteilla on kaksi ulottuvuutta, ne tarjoavat enemmän vaihtoehtoja datan poistamiseen.
 
 ```python
 example2 = pd.DataFrame([[1,      np.nan, 7], 
@@ -158,9 +158,9 @@ example2
 |1     |2.0|5.0|8  |
 |2     |NaN|6.0|9  |
 
-(Huomasitko, että pandas muutti kaksi saraketta liukuluvuiksi mukauttaakseen `NaN`-arvot?)
+(Huomasitko, että pandas muutti kaksi saraketta liukuluvuiksi mukautuakseen `NaN`-arvoihin?)
 
-Et voi poistaa yksittäistä arvoa `DataFrame`-muodosta, joten sinun täytyy poistaa kokonaisia rivejä tai sarakkeita. Riippuen siitä, mitä teet, saatat haluta tehdä jomman kumman, ja pandas antaa sinulle vaihtoehtoja molempiin. Koska data-analytiikassa sarakkeet edustavat yleensä muuttujia ja rivit havaintoja, olet todennäköisemmin poistamassa rivejä datasta; `dropna()`-metodin oletusasetus on poistaa kaikki rivit, jotka sisältävät null-arvoja:
+Et voi poistaa yksittäistä arvoa `DataFrame`-objektista, joten sinun täytyy poistaa kokonaisia rivejä tai sarakkeita. Riippuen siitä, mitä olet tekemässä, saatat haluta tehdä jomman kumman, ja pandas antaa sinulle vaihtoehdot molempiin. Koska data-analyysissä sarakkeet edustavat yleensä muuttujia ja rivit havaintoja, olet todennäköisemmin poistamassa rivejä; `dropna()`-metodin oletusasetuksena on poistaa kaikki rivit, jotka sisältävät minkä tahansa puuttuvan arvon:
 
 ```python
 example2.dropna()
@@ -169,7 +169,7 @@ example2.dropna()
 	0	1	2
 1	2.0	5.0	8
 ```
-Tarvittaessa voit poistaa NA-arvot sarakkeista. Käytä `axis=1` tehdäksesi niin:
+Jos tarpeen, voit poistaa NA-arvot sarakkeista. Käytä `axis=1` tehdäksesi niin:
 ```python
 example2.dropna(axis='columns')
 ```
@@ -179,9 +179,9 @@ example2.dropna(axis='columns')
 1	8
 2	9
 ```
-Huomaa, että tämä voi poistaa paljon dataa, jonka haluaisit säilyttää, erityisesti pienemmissä dataseteissä. Entä jos haluat poistaa vain rivit tai sarakkeet, jotka sisältävät useita tai jopa kaikki null-arvot? Voit määrittää nämä asetukset `dropna`-metodissa `how`- ja `thresh`-parametreilla.
+Huomaa, että tämä voi poistaa paljon dataa, jonka haluaisit säilyttää, erityisesti pienemmissä dataseteissä. Entä jos haluat poistaa vain rivit tai sarakkeet, jotka sisältävät useita tai jopa kaikki puuttuvat arvot? Voit määrittää nämä asetukset `dropna`-metodissa `how`- ja `thresh`-parametreilla.
 
-Oletuksena `how='any'` (jos haluat tarkistaa itse tai nähdä, mitä muita parametreja metodilla on, suorita `example4.dropna?` koodisolussa). Voit vaihtoehtoisesti määrittää `how='all'`, jolloin poistetaan vain rivit tai sarakkeet, jotka sisältävät kaikki null-arvot. Laajennetaan esimerkkimme `DataFrame`-muotoa nähdäksesi tämä käytännössä.
+Oletuksena `how='any'` (jos haluat tarkistaa itse tai nähdä, mitä muita parametreja metodilla on, suorita `example4.dropna?` koodisolussa). Voit vaihtoehtoisesti määrittää `how='all'`, jolloin poistetaan vain rivit tai sarakkeet, jotka sisältävät kaikki puuttuvat arvot. Laajennetaan esimerkkimme `DataFrame`-objektia nähdäksesi tämä toiminnassa.
 
 ```python
 example2[3] = np.nan
@@ -203,7 +203,7 @@ example2.dropna(axis='rows', thresh=3)
 ```
 Tässä ensimmäinen ja viimeinen rivi on poistettu, koska niissä on vain kaksi ei-null-arvoa.
 
-- **Null-arvojen täyttäminen**: Riippuen datasetistäsi, voi joskus olla järkevämpää täyttää null-arvot kelvollisilla arvoilla kuin poistaa ne. Voisit käyttää `isnull`-metodia tehdäksesi tämän paikan päällä, mutta se voi olla työlästä, erityisesti jos sinulla on paljon arvoja täytettävänä. Koska tämä on niin yleinen tehtävä data-analytiikassa, pandas tarjoaa `fillna`-metodin, joka palauttaa kopion `Series`- tai `DataFrame`-muodosta, jossa puuttuvat arvot on korvattu valitsemallasi arvolla. Luodaan toinen esimerkki `Series`-muodosta nähdäksesi, miten tämä toimii käytännössä.
+- **Puuttuvien arvojen täyttäminen**: Riippuen datasetistäsi, voi joskus olla järkevämpää täyttää puuttuvat arvot kelvollisilla arvoilla kuin poistaa ne. Voisit käyttää `isnull`-metodia tehdäksesi tämän paikan päällä, mutta se voi olla työlästä, erityisesti jos täytettäviä arvoja on paljon. Koska tämä on niin yleinen tehtävä data-analyysissä, pandas tarjoaa `fillna`-metodin, joka palauttaa kopion `Series`- tai `DataFrame`-objektista, jossa puuttuvat arvot on korvattu valitsemallasi arvolla. Luodaan toinen esimerkki `Series`-objekti nähdäksesi, miten tämä toimii käytännössä.
 ```python
 example3 = pd.Series([1, np.nan, 2, None, 3], index=list('abcde'))
 example3
@@ -216,7 +216,7 @@ d    NaN
 e    3.0
 dtype: float64
 ```
-Voit täyttää kaikki null-arvot yhdellä arvolla, kuten `0`:
+Voit täyttää kaikki puuttuvat arvot yhdellä arvolla, kuten `0`:
 ```python
 example3.fillna(0)
 ```
@@ -228,7 +228,7 @@ d    0.0
 e    3.0
 dtype: float64
 ```
-Voit **täyttää eteenpäin** null-arvot, eli käyttää viimeistä kelvollista arvoa null-arvon täyttämiseen:
+Voit **täyttää eteenpäin** puuttuvat arvot, eli käyttää edellistä kelvollista arvoa täyttämään puuttuvan:
 ```python
 example3.fillna(method='ffill')
 ```
@@ -240,7 +240,7 @@ d    2.0
 e    3.0
 dtype: float64
 ```
-Voit myös **täyttää taaksepäin**, jolloin seuraava kelvollinen arvo täyttää null-arvon taaksepäin:
+Voit myös **täyttää taaksepäin**, jolloin seuraava kelvollinen arvo täyttää puuttuvan:
 ```python
 example3.fillna(method='bfill')
 ```
@@ -252,7 +252,7 @@ d    3.0
 e    3.0
 dtype: float64
 ```
-Kuten arvata saattaa, tämä toimii samalla tavalla `DataFrame`-muodossa, mutta voit myös määrittää `axis`-parametrin, jonka mukaan null-arvot täytetään. Käytetään aiemmin käytettyä `example2`-datasettiä uudelleen:
+Kuten arvata saattaa, tämä toimii samalla tavalla `DataFrame`-objekteissa, mutta voit myös määrittää `axis`-parametrin, jonka mukaan puuttuvat arvot täytetään. Käytetään aiemmin käytettyä `example2`-datasettiä uudelleen:
 ```python
 example2.fillna(method='ffill', axis=1)
 ```
@@ -262,16 +262,15 @@ example2.fillna(method='ffill', axis=1)
 1	2.0	5.0	8.0	8.0
 2	NaN	6.0	9.0	9.0
 ```
-Huomaa, että kun edellinen arvo ei ole saatavilla eteenpäin täyttämiseen, null-arvo jää ennalleen.
-> **Pääpointti:** Puuttuvien arvojen käsittelyyn on useita tapoja. Käyttämäsi strategia (poistaminen, korvaaminen tai tapa, jolla korvaat ne) tulisi määritellä datan erityispiirteiden mukaan. Saat paremman käsityksen puuttuvien arvojen käsittelystä, kun työskentelet ja vuorovaikutat datasetien kanssa enemmän.
+Huomaa, että kun edellistä arvoa ei ole saatavilla eteenpäin täyttämiseen, puuttuva arvo jää ennalleen.
+> **Tärkeää:** Puuttuvien arvojen käsittelyyn datassa on useita tapoja. Käyttämäsi strategia (poistaminen, korvaaminen tai tapa, jolla korvaat ne) tulisi määritellä datan erityispiirteiden mukaan. Saat paremman käsityksen puuttuvien arvojen käsittelystä, kun työskentelet ja vuorovaikutat datasetien kanssa enemmän.
+## Poistetaan päällekkäiset tiedot
 
-## Dublikaattidatan poistaminen
+> **Oppimistavoite:** Tämän osion lopussa sinun tulisi osata tunnistaa ja poistaa päällekkäiset arvot DataFrameista.
 
-> **Oppimistavoite:** Tämän alajakson lopussa sinun tulisi osata tunnistaa ja poistaa dublikaattiarvot DataFrameista.
+Puuttuvien tietojen lisäksi todellisissa tietoaineistoissa törmäät usein myös päällekkäisiin tietoihin. Onneksi `pandas` tarjoaa helpon tavan havaita ja poistaa päällekkäiset merkinnät.
 
-Puuttuvan datan lisäksi kohtaat usein dublikaattidataa todellisissa datasetissä. Onneksi `pandas` tarjoaa helpon tavan havaita ja poistaa dublikaattimerkinnät.
-
-- **Dublikaattien tunnistaminen: `duplicated`**: Voit helposti havaita dublikaattiarvot käyttämällä pandas-kirjaston `duplicated`-metodia, joka palauttaa Boolean-maskin, joka osoittaa, onko `DataFrame`-merkintä aiemman merkinnän dublikaatti. Luodaan toinen esimerkkidataframe, jotta näet tämän toiminnassa.
+- **Päällekkäisten tunnistaminen: `duplicated`**: Voit helposti havaita päällekkäiset arvot käyttämällä pandas-kirjaston `duplicated`-metodia, joka palauttaa Boolean-maskin, joka osoittaa, onko `DataFrame`-merkintä päällekkäinen aiemman kanssa. Luodaan toinen esimerkkidataframe tämän havainnollistamiseksi.
 ```python
 example4 = pd.DataFrame({'letters': ['A','B'] * 2 + ['B'],
                          'numbers': [1, 2, 1, 3, 3]})
@@ -296,7 +295,7 @@ example4.duplicated()
 4     True
 dtype: bool
 ```
-- **Dublikaattien poistaminen: `drop_duplicates`:** palauttaa yksinkertaisesti kopion datasta, jossa kaikki `duplicated`-arvot ovat `False`:
+- **Päällekkäisten poistaminen: `drop_duplicates`:** palauttaa yksinkertaisesti kopion datasta, jossa kaikki `duplicated`-arvot ovat `False`:
 ```python
 example4.drop_duplicates()
 ```
@@ -306,7 +305,7 @@ example4.drop_duplicates()
 1	B	2
 3	B	3
 ```
-Sekä `duplicated` että `drop_duplicates` oletuksena tarkastelevat kaikkia sarakkeita, mutta voit määrittää, että ne tarkastelevat vain tiettyä sarakejoukkoa `DataFrame`-rakenteessasi:
+Sekä `duplicated` että `drop_duplicates` oletuksena tarkastelevat kaikkia sarakkeita, mutta voit määrittää, että ne tarkastelevat vain tiettyä sarakejoukkoa `DataFrame`-objektissasi:
 ```python
 example4.drop_duplicates(['letters'])
 ```
@@ -316,20 +315,20 @@ letters	numbers
 1	B	2
 ```
 
-> **Pääpointti:** Dublikaattidatan poistaminen on olennainen osa lähes jokaista data-analytiikkaprojektia. Dublikaattidata voi muuttaa analyysiesi tuloksia ja antaa virheellisiä lopputuloksia!
+> **Yhteenveto:** Päällekkäisten tietojen poistaminen on olennainen osa lähes jokaista data-analytiikkaprojektia. Päällekkäiset tiedot voivat vääristää analyysiesi tuloksia ja antaa epätarkkoja tuloksia!
 
 
 ## 🚀 Haaste
 
-Kaikki käsitelty materiaali on saatavilla [Jupyter Notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/2-Working-With-Data/08-data-preparation/notebook.ipynb) -tiedostona. Lisäksi jokaisen osion jälkeen on harjoituksia, kokeile niitä!
+Kaikki käsitelty materiaali on saatavilla [Jupyter Notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/2-Working-With-Data/08-data-preparation/notebook.ipynb) -tiedostona. Lisäksi jokaisen osion jälkeen on harjoituksia – kokeile niitä!
 
-## [Luennon jälkeinen kysely](https://ff-quizzes.netlify.app/en/ds/)
+## [Luentojälkeinen kysely](https://ff-quizzes.netlify.app/en/ds/quiz/15)
 
 
 
-## Kertaus & Itseopiskelu
+## Kertaus ja itseopiskelu
 
-On olemassa monia tapoja löytää ja lähestyä datan valmistelua analyysia ja mallinnusta varten, ja datan puhdistaminen on tärkeä vaihe, joka vaatii "kädet savessa" -kokemusta. Kokeile näitä Kaggle-haasteita tutkiaksesi tekniikoita, joita tämä oppitunti ei käsitellyt.
+On olemassa monia tapoja löytää ja lähestyä datan valmistelua analysointia ja mallinnusta varten, ja datan puhdistaminen on tärkeä vaihe, joka vaatii "käytännön" kokemusta. Kokeile näitä Kaggle-haasteita tutustuaksesi tekniikoihin, joita tämä oppitunti ei käsitellyt.
 
 - [Data Cleaning Challenge: Parsing Dates](https://www.kaggle.com/rtatman/data-cleaning-challenge-parsing-dates/)
 
@@ -338,9 +337,9 @@ On olemassa monia tapoja löytää ja lähestyä datan valmistelua analyysia ja 
 
 ## Tehtävä
 
-[Arvioi lomakkeen dataa](assignment.md)
+[Arvioidaan lomakkeen tietoja](assignment.md)
 
 ---
 
 **Vastuuvapauslauseke**:  
-Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulisi pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa väärinkäsityksistä tai virhetulkinnoista, jotka johtuvat tämän käännöksen käytöstä.
+Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulee pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskääntämistä. Emme ole vastuussa väärinkäsityksistä tai virhetulkinnoista, jotka johtuvat tämän käännöksen käytöstä.

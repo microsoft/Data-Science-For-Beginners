@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "cc490897ee2d276870472bcb31602d03",
-  "translation_date": "2025-09-04T21:01:39+00:00",
+  "original_hash": "42119bcc97bee88254e381156d770f3c",
+  "translation_date": "2025-09-06T00:24:44+00:00",
   "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
   "language_code": "tl"
 }
@@ -13,17 +13,17 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Pagpapakita ng Proporsyon - _Sketchnote ni [@nitya](https://twitter.com/nitya)_ |
 
-Sa araling ito, gagamit ka ng dataset na nakatuon sa kalikasan upang ipakita ang proporsyon, tulad ng kung gaano karaming iba't ibang uri ng fungi ang makikita sa isang dataset tungkol sa mga kabute. Tuklasin natin ang mga kamangha-manghang fungi gamit ang dataset mula sa Audubon na naglalaman ng detalye tungkol sa 23 species ng gilled mushrooms sa mga pamilya ng Agaricus at Lepiota. Mag-eeksperimento ka sa masarap na mga visualisasyon tulad ng:
+Sa araling ito, gagamit ka ng dataset na nakatuon sa kalikasan upang ipakita ang proporsyon, tulad ng kung ilang iba't ibang uri ng fungi ang matatagpuan sa isang dataset tungkol sa mga kabute. Tuklasin natin ang mga kamangha-manghang fungi gamit ang isang dataset mula sa Audubon na naglalaman ng mga detalye tungkol sa 23 species ng gilled mushrooms sa mga pamilya ng Agaricus at Lepiota. Mag-eeksperimento ka sa masarap na mga visualisasyon tulad ng:
 
 - Pie charts 🥧
 - Donut charts 🍩
 - Waffle charts 🧇
 
-> 💡 Isang napaka-interesanteng proyekto na tinatawag na [Charticulator](https://charticulator.com) mula sa Microsoft Research ang nag-aalok ng libreng drag and drop interface para sa data visualizations. Sa isa sa kanilang mga tutorial, ginamit din nila ang dataset ng kabute! Kaya maaari mong tuklasin ang data at matutunan ang library nang sabay: [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html).
+> 💡 Isang napaka-interesanteng proyekto na tinatawag na [Charticulator](https://charticulator.com) ng Microsoft Research ang nag-aalok ng libreng drag and drop interface para sa data visualizations. Sa isa sa kanilang mga tutorial, ginagamit din nila ang dataset ng kabute! Kaya maaari mong tuklasin ang data at matutunan ang library nang sabay: [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/20)
 
-## Kilalanin ang iyong mga kabute 🍄
+## Kilalanin ang Iyong Mga Kabute 🍄
 
 Ang mga kabute ay napaka-interesante. Mag-import tayo ng dataset upang pag-aralan ang mga ito:
 
@@ -33,7 +33,7 @@ import matplotlib.pyplot as plt
 mushrooms = pd.read_csv('../../data/mushrooms.csv')
 mushrooms.head()
 ```
-Isang talahanayan ang ipinapakita na may magagandang datos para sa pagsusuri:
+Isang table ang ipinapakita na may magagandang datos para sa pagsusuri:
 
 | class     | cap-shape | cap-surface | cap-color | bruises | odor    | gill-attachment | gill-spacing | gill-size | gill-color | stalk-shape | stalk-root | stalk-surface-above-ring | stalk-surface-below-ring | stalk-color-above-ring | stalk-color-below-ring | veil-type | veil-color | ring-number | ring-type | spore-print-color | population | habitat |
 | --------- | --------- | ----------- | --------- | ------- | ------- | --------------- | ------------ | --------- | ---------- | ----------- | ---------- | ------------------------ | ------------------------ | ---------------------- | ---------------------- | --------- | ---------- | ----------- | --------- | ----------------- | ---------- | ------- |
@@ -59,7 +59,7 @@ Index(['class', 'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor',
        'ring-type', 'spore-print-color', 'population', 'habitat'],
       dtype='object')
 ```
-Kunin ang datos na ito at i-convert ang 'class' column sa isang kategorya:
+Gamitin ang datos na ito at i-convert ang 'class' column sa isang kategorya:
 
 ```python
 cols = mushrooms.select_dtypes(["object"]).columns
@@ -79,7 +79,7 @@ Ngayon, kung ipi-print mo ang datos ng kabute, makikita mo na ito ay na-grupo sa
 | Edible    | 4208      | 4208        | 4208      | 4208    | 4208 | 4208            | 4208         | 4208      | 4208       | 4208        | ... | 4208                     | 4208                   | 4208                   | 4208      | 4208       | 4208        | 4208      | 4208              | 4208       | 4208    |
 | Poisonous | 3916      | 3916        | 3916      | 3916    | 3916 | 3916            | 3916         | 3916      | 3916       | 3916        | ... | 3916                     | 3916                   | 3916                   | 3916      | 3916       | 3916        | 3916      | 3916              | 3916       | 3916    |
 
-Kung susundin mo ang pagkakasunod-sunod na ipinakita sa talahanayan na ito upang lumikha ng mga label ng kategorya ng class, maaari kang gumawa ng pie chart:
+Kung susundin mo ang pagkakasunod-sunod na ipinakita sa table na ito upang lumikha ng mga label ng kategorya ng class, maaari kang gumawa ng pie chart:
 
 ## Pie!
 
@@ -89,21 +89,21 @@ plt.pie(edibleclass['population'],labels=labels,autopct='%.1f %%')
 plt.title('Edible?')
 plt.show()
 ```
-Voila, isang pie chart na nagpapakita ng proporsyon ng datos ayon sa dalawang klase ng kabute. Mahalagang makuha ang tamang pagkakasunod-sunod ng mga label, lalo na dito, kaya siguraduhing suriin ang pagkakasunod-sunod ng array ng label!
+Voila, isang pie chart na nagpapakita ng proporsyon ng datos ayon sa dalawang klase ng kabute. Napakahalaga na makuha ang tamang pagkakasunod-sunod ng mga label, lalo na dito, kaya siguraduhing i-verify ang pagkakasunod-sunod ng array ng label!
 
-![pie chart](../../../../translated_images/pie1-wb.e201f2fcc335413143ce37650fb7f5f0bb21358e7823a327ed8644dfb84be9db.tl.png)
+![pie chart](../../../../3-Data-Visualization/11-visualization-proportions/images/pie1-wb.png)
 
 ## Donuts!
 
 Ang isang mas visually interesting na pie chart ay isang donut chart, na isang pie chart na may butas sa gitna. Tingnan natin ang ating datos gamit ang pamamaraang ito.
 
-Tingnan ang iba't ibang habitat kung saan tumutubo ang mga kabute:
+Tingnan ang iba't ibang mga habitat kung saan tumutubo ang mga kabute:
 
 ```python
 habitat=mushrooms.groupby(['habitat']).count()
 habitat
 ```
-Dito, ini-grupo mo ang iyong datos ayon sa habitat. Mayroong 7 na nakalista, kaya gamitin ang mga ito bilang mga label para sa iyong donut chart:
+Dito, ini-group mo ang iyong datos ayon sa habitat. Mayroong 7 na nakalista, kaya gamitin ang mga ito bilang mga label para sa iyong donut chart:
 
 ```python
 labels=['Grasses','Leaves','Meadows','Paths','Urban','Waste','Wood']
@@ -121,30 +121,30 @@ plt.title('Mushroom Habitats')
 plt.show()
 ```
 
-![donut chart](../../../../translated_images/donut-wb.be3c12a22712302b5d10c40014d5389d4a1ae4412fe1655b3cf4af57b64f799a.tl.png)
+![donut chart](../../../../3-Data-Visualization/11-visualization-proportions/images/donut-wb.png)
 
 Ang code na ito ay gumuguhit ng chart at isang gitnang bilog, pagkatapos ay idinadagdag ang gitnang bilog sa chart. I-edit ang lapad ng gitnang bilog sa pamamagitan ng pagbabago ng `0.40` sa ibang halaga.
 
 Ang mga donut chart ay maaaring i-tweak sa iba't ibang paraan upang baguhin ang mga label. Ang mga label, partikular, ay maaaring i-highlight para sa mas madaling mabasa. Matuto pa sa [docs](https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_and_donut_labels.html?highlight=donut).
 
-Ngayon na alam mo kung paano i-grupo ang iyong datos at ipakita ito bilang pie o donut, maaari mong tuklasin ang iba pang uri ng chart. Subukan ang waffle chart, na isang ibang paraan ng pag-explore ng dami.
+Ngayon na alam mo kung paano i-group ang iyong datos at ipakita ito bilang pie o donut, maaari mong tuklasin ang iba pang uri ng chart. Subukan ang waffle chart, na isang ibang paraan ng pag-explore ng dami.
 
 ## Waffles!
 
-Ang 'waffle' type chart ay isang ibang paraan ng pagpapakita ng dami bilang isang 2D array ng mga parisukat. Subukang ipakita ang iba't ibang dami ng kulay ng mushroom cap sa dataset na ito. Upang gawin ito, kailangan mong mag-install ng helper library na tinatawag na [PyWaffle](https://pypi.org/project/pywaffle/) at gamitin ang Matplotlib:
+Ang 'waffle' type chart ay isang ibang paraan ng pagpapakita ng dami bilang isang 2D array ng mga square. Subukang ipakita ang iba't ibang dami ng kulay ng mushroom cap sa dataset na ito. Upang gawin ito, kailangan mong mag-install ng helper library na tinatawag na [PyWaffle](https://pypi.org/project/pywaffle/) at gamitin ang Matplotlib:
 
 ```python
 pip install pywaffle
 ```
 
-Pumili ng segment ng iyong datos upang i-grupo:
+Pumili ng segment ng iyong datos upang i-group:
 
 ```python
 capcolor=mushrooms.groupby(['cap-color']).count()
 capcolor
 ```
 
-Gumawa ng waffle chart sa pamamagitan ng paglikha ng mga label at pagkatapos ay pag-grupo ng iyong datos:
+Gumawa ng waffle chart sa pamamagitan ng paggawa ng mga label at pagkatapos ay i-group ang iyong datos:
 
 ```python
 import pandas as pd
@@ -169,17 +169,17 @@ fig = plt.figure(
 
 Gamit ang waffle chart, makikita mo nang malinaw ang proporsyon ng mga kulay ng mushroom cap sa dataset na ito. Nakakatuwa, maraming green-capped mushrooms!
 
-![waffle chart](../../../../translated_images/waffle.5455dbae4ccf17d53bb40ff0a657ecef7b8aa967e27a19cc96325bd81598f65e.tl.png)
+![waffle chart](../../../../3-Data-Visualization/11-visualization-proportions/images/waffle.png)
 
-✅ Ang Pywaffle ay sumusuporta sa mga icon sa loob ng mga chart na gumagamit ng anumang icon na available sa [Font Awesome](https://fontawesome.com/). Mag-eksperimento upang lumikha ng mas kawili-wiling waffle chart gamit ang mga icon sa halip na mga parisukat.
+✅ Sinusuportahan ng Pywaffle ang mga icon sa loob ng mga chart na gumagamit ng anumang icon na available sa [Font Awesome](https://fontawesome.com/). Mag-eksperimento upang lumikha ng mas kawili-wiling waffle chart gamit ang mga icon sa halip na mga square.
 
-Sa araling ito, natutunan mo ang tatlong paraan ng pagpapakita ng proporsyon. Una, kailangan mong i-grupo ang iyong datos sa mga kategorya at pagkatapos ay magdesisyon kung alin ang pinakamahusay na paraan upang ipakita ang datos - pie, donut, o waffle. Lahat ay masarap at nagbibigay ng instant snapshot ng dataset sa user.
+Sa araling ito, natutunan mo ang tatlong paraan upang ipakita ang proporsyon. Una, kailangan mong i-group ang iyong datos sa mga kategorya at pagkatapos ay magdesisyon kung alin ang pinakamahusay na paraan upang ipakita ang datos - pie, donut, o waffle. Lahat ay masarap at nagbibigay-kasiyahan sa user sa isang instant snapshot ng dataset.
 
 ## 🚀 Hamon
 
-Subukang ulitin ang mga masarap na chart na ito sa [Charticulator](https://charticulator.com).
+Subukang muling likhain ang mga masarap na chart na ito sa [Charticulator](https://charticulator.com).
 
-## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/21)
 
 ## Review at Pag-aaral ng Sarili
 

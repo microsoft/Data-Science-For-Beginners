@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "b29e427401499e81f4af55a8c4afea76",
-  "translation_date": "2025-09-04T20:38:24+00:00",
+  "original_hash": "44de95649fcec43643cbe3962f904331",
+  "translation_date": "2025-09-05T23:55:09+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "id"
 }
@@ -15,13 +15,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 Melanjutkan fokus penelitian kita pada alam, mari kita temukan visualisasi menarik untuk menunjukkan hubungan antara berbagai jenis madu, berdasarkan dataset yang diambil dari [Departemen Pertanian Amerika Serikat](https://www.nass.usda.gov/About_NASS/index.php).
 
-Dataset ini, yang terdiri dari sekitar 600 item, menampilkan produksi madu di banyak negara bagian AS. Sebagai contoh, Anda dapat melihat jumlah koloni, hasil per koloni, total produksi, stok, harga per pon, dan nilai madu yang dihasilkan di negara bagian tertentu dari tahun 1998-2012, dengan satu baris per tahun untuk setiap negara bagian.
+Dataset ini, yang terdiri dari sekitar 600 item, menampilkan produksi madu di banyak negara bagian AS. Sebagai contoh, Anda dapat melihat jumlah koloni, hasil per koloni, total produksi, stok, harga per pon, dan nilai madu yang diproduksi di negara bagian tertentu dari tahun 1998-2012, dengan satu baris per tahun untuk setiap negara bagian.
 
-Akan menarik untuk memvisualisasikan hubungan antara produksi tahunan suatu negara bagian dan, misalnya, harga madu di negara bagian tersebut. Atau, Anda dapat memvisualisasikan hubungan antara hasil madu per koloni di berbagai negara bagian. Rentang tahun ini mencakup periode 'CCD' atau 'Colony Collapse Disorder' yang pertama kali terlihat pada tahun 2006 (http://npic.orst.edu/envir/ccd.html), sehingga dataset ini menjadi bahan studi yang menarik. 🐝
+Akan menarik untuk memvisualisasikan hubungan antara produksi tahunan suatu negara bagian dan, misalnya, harga madu di negara bagian tersebut. Sebagai alternatif, Anda dapat memvisualisasikan hubungan antara hasil madu per koloni di berbagai negara bagian. Rentang tahun ini mencakup periode 'CCD' atau 'Colony Collapse Disorder' yang pertama kali terlihat pada tahun 2006 (http://npic.orst.edu/envir/ccd.html), sehingga dataset ini menjadi bahan studi yang menarik. 🐝
 
-## [Kuis Pra-Pelajaran](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/22)
+## [Kuis Pra-Pelajaran](https://ff-quizzes.netlify.app/en/ds/quiz/22)
 
-Dalam pelajaran ini, Anda dapat menggunakan Seaborn, yang telah Anda gunakan sebelumnya, sebagai pustaka yang baik untuk memvisualisasikan hubungan antar variabel. Yang sangat menarik adalah penggunaan fungsi `relplot` dari Seaborn yang memungkinkan scatter plot dan line plot untuk dengan cepat memvisualisasikan '[hubungan statistik](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', yang memungkinkan data scientist untuk lebih memahami bagaimana variabel saling berhubungan.
+Dalam pelajaran ini, Anda dapat menggunakan Seaborn, yang sebelumnya telah Anda gunakan, sebagai pustaka yang baik untuk memvisualisasikan hubungan antar variabel. Yang sangat menarik adalah penggunaan fungsi `relplot` dari Seaborn yang memungkinkan scatter plot dan line plot untuk dengan cepat memvisualisasikan '[hubungan statistik](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', yang memungkinkan data scientist untuk lebih memahami bagaimana variabel saling berhubungan.
 
 ## Scatterplot
 
@@ -51,7 +51,7 @@ Buat scatterplot dasar untuk menunjukkan hubungan antara harga per pon madu dan 
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.id.png)
+![scatterplot 1](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter1.png)
 
 Sekarang, tampilkan data yang sama dengan skema warna madu untuk menunjukkan bagaimana harga berkembang dari tahun ke tahun. Anda dapat melakukannya dengan menambahkan parameter 'hue' untuk menunjukkan perubahan dari tahun ke tahun:
 
@@ -60,9 +60,9 @@ Sekarang, tampilkan data yang sama dengan skema warna madu untuk menunjukkan bag
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.id.png)
+![scatterplot 2](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter2.png)
 
-Dengan perubahan skema warna ini, Anda dapat melihat bahwa ada perkembangan yang jelas dari tahun ke tahun dalam hal harga madu per pon. Memang, jika Anda melihat satu set sampel dalam data untuk memverifikasi (pilih satu negara bagian, misalnya Arizona), Anda dapat melihat pola kenaikan harga dari tahun ke tahun, dengan beberapa pengecualian:
+Dengan perubahan skema warna ini, Anda dapat melihat bahwa ada perkembangan yang jelas dari tahun ke tahun dalam hal harga madu per pon. Memang, jika Anda melihat satu set data sampel untuk memverifikasi (pilih negara bagian tertentu, misalnya Arizona), Anda dapat melihat pola kenaikan harga dari tahun ke tahun, dengan beberapa pengecualian:
 
 | state | numcol | yieldpercol | totalprod | stocks  | priceperlb | prodvalue | year |
 | ----- | ------ | ----------- | --------- | ------- | ---------- | --------- | ---- |
@@ -89,9 +89,9 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Anda dapat melihat ukuran titik yang secara bertahap meningkat.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.id.png)
+![scatterplot 3](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter3.png)
 
-Apakah ini hanya kasus sederhana dari hukum penawaran dan permintaan? Karena faktor seperti perubahan iklim dan keruntuhan koloni, apakah madu yang tersedia untuk dibeli semakin sedikit dari tahun ke tahun, sehingga harga meningkat?
+Apakah ini hanya kasus sederhana dari penawaran dan permintaan? Karena faktor seperti perubahan iklim dan keruntuhan koloni, apakah madu yang tersedia untuk dibeli semakin sedikit dari tahun ke tahun, sehingga harga meningkat?
 
 Untuk menemukan korelasi antara beberapa variabel dalam dataset ini, mari kita eksplorasi beberapa grafik garis.
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Jawaban: Ya, dengan beberapa pengecualian di sekitar tahun 2003:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.id.png)
+![line chart 1](../../../../3-Data-Visualization/12-visualization-relationships/images/line1.png)
 
 ✅ Karena Seaborn mengagregasi data di sekitar satu garis, ia menampilkan "pengukuran ganda pada setiap nilai x dengan memplot rata-rata dan interval kepercayaan 95% di sekitar rata-rata". [Sumber](https://seaborn.pydata.org/tutorial/relational.html). Perilaku yang memakan waktu ini dapat dinonaktifkan dengan menambahkan `ci=None`.
 
@@ -114,7 +114,7 @@ Pertanyaan: Nah, pada tahun 2003 apakah kita juga melihat lonjakan pasokan madu?
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.id.png)
+![line chart 2](../../../../3-Data-Visualization/12-visualization-relationships/images/line2.png)
 
 Jawaban: Tidak juga. Jika Anda melihat total produksi, sebenarnya tampaknya meningkat pada tahun tersebut, meskipun secara umum jumlah madu yang diproduksi menurun selama tahun-tahun ini.
 
@@ -138,13 +138,13 @@ sns.relplot(
 ```
 Dalam visualisasi ini, Anda dapat membandingkan hasil per koloni dan jumlah koloni dari tahun ke tahun, berdampingan dengan pengaturan wrap pada 3 untuk kolom:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.id.png)
+![facet grid](../../../../3-Data-Visualization/12-visualization-relationships/images/facet.png)
 
 Untuk dataset ini, tidak ada yang secara khusus menonjol terkait jumlah koloni dan hasilnya, dari tahun ke tahun dan negara bagian ke negara bagian. Apakah ada cara lain untuk menemukan korelasi antara kedua variabel ini?
 
 ## Grafik Garis Ganda
 
-Cobalah grafik multiline dengan menumpangkan dua grafik garis satu di atas yang lain, menggunakan 'despine' dari Seaborn untuk menghapus spines atas dan kanan, dan menggunakan `ax.twinx` [berasal dari Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx memungkinkan grafik untuk berbagi sumbu x dan menampilkan dua sumbu y. Jadi, tampilkan hasil per koloni dan jumlah koloni, ditumpangkan:
+Cobalah grafik multiline dengan menumpangkan dua grafik garis di atas satu sama lain, menggunakan 'despine' dari Seaborn untuk menghapus spines atas dan kanan, dan menggunakan `ax.twinx` [berasal dari Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx memungkinkan grafik untuk berbagi sumbu x dan menampilkan dua sumbu y. Jadi, tampilkan hasil per koloni dan jumlah koloni, ditumpangkan:
 
 ```python
 fig, ax = plt.subplots(figsize=(12,6))
@@ -161,7 +161,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.id.png)
+![superimposed plots](../../../../3-Data-Visualization/12-visualization-relationships/images/dual-line.png)
 
 Meskipun tidak ada yang mencolok di sekitar tahun 2003, ini memungkinkan kita untuk mengakhiri pelajaran ini dengan catatan yang sedikit lebih positif: meskipun jumlah koloni secara keseluruhan menurun, jumlah koloni mulai stabil meskipun hasil per koloni menurun.
 
@@ -169,9 +169,9 @@ Semangat, lebah! 🐝❤️
 
 ## 🚀 Tantangan
 
-Dalam pelajaran ini, Anda belajar lebih banyak tentang penggunaan scatterplot dan line grid, termasuk facet grid. Tantang diri Anda untuk membuat facet grid menggunakan dataset yang berbeda, mungkin yang telah Anda gunakan sebelumnya dalam pelajaran ini. Perhatikan berapa lama waktu yang dibutuhkan untuk membuatnya dan bagaimana Anda perlu berhati-hati tentang jumlah grid yang perlu Anda gambar menggunakan teknik ini.
+Dalam pelajaran ini, Anda belajar lebih banyak tentang penggunaan scatterplot dan line grid lainnya, termasuk facet grid. Tantang diri Anda untuk membuat facet grid menggunakan dataset yang berbeda, mungkin yang telah Anda gunakan sebelumnya dalam pelajaran ini. Perhatikan berapa lama waktu yang dibutuhkan untuk membuatnya dan bagaimana Anda perlu berhati-hati tentang jumlah grid yang perlu Anda gambar menggunakan teknik ini.
 
-## [Kuis Pasca-Pelajaran](https://ff-quizzes.netlify.app/en/ds/)
+## [Kuis Pasca-Pelajaran](https://ff-quizzes.netlify.app/en/ds/quiz/23)
 
 ## Tinjauan & Studi Mandiri
 
@@ -179,9 +179,9 @@ Grafik garis bisa sederhana atau cukup kompleks. Lakukan sedikit pembacaan di [d
 
 ## Tugas
 
-[Masuk ke sarang lebah](assignment.md)
+[Masuk lebih dalam ke sarang lebah](assignment.md)
 
 ---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan layanan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Meskipun kami berupaya untuk memberikan hasil yang akurat, harap diperhatikan bahwa terjemahan otomatis mungkin mengandung kesalahan atau ketidakakuratan. Dokumen asli dalam bahasa aslinya harus dianggap sebagai sumber yang berwenang. Untuk informasi yang bersifat kritis, disarankan menggunakan jasa terjemahan manusia profesional. Kami tidak bertanggung jawab atas kesalahpahaman atau penafsiran yang keliru yang timbul dari penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan layanan penerjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Meskipun kami berupaya untuk memberikan hasil yang akurat, harap diperhatikan bahwa terjemahan otomatis mungkin mengandung kesalahan atau ketidakakuratan. Dokumen asli dalam bahasa aslinya harus dianggap sebagai sumber yang berwenang. Untuk informasi yang bersifat kritis, disarankan menggunakan jasa penerjemahan manusia profesional. Kami tidak bertanggung jawab atas kesalahpahaman atau penafsiran yang keliru yang timbul dari penggunaan terjemahan ini.
