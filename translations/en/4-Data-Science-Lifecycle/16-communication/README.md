@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "e4eae0345bfb6c9c936fca47081e57f8",
-  "translation_date": "2025-09-06T10:08:26+00:00",
+  "original_hash": "215a3254ba5a222a57c5bb0192cea8e3",
+  "translation_date": "2025-09-06T20:10:55+00:00",
   "source_file": "4-Data-Science-Lifecycle/16-communication/README.md",
   "language_code": "en"
 }
@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## [Pre-Lecture Quiz](https://ff-quizzes.netlify.app/en/ds/quiz/30)
 
-Test your knowledge of what's coming up with the Pre-Lecture Quiz above!
+Test your knowledge of what's to come with the Pre-Lecture Quiz above!
 
 # Introduction
 
@@ -23,14 +23,14 @@ Test your knowledge of what's coming up with the Pre-Lecture Quiz above!
 Let’s begin this lesson by defining communication. **To communicate is to share or exchange information.** Information can include ideas, thoughts, feelings, messages, signals, data—anything that a **_sender_** (someone sharing information) wants a **_receiver_** (someone receiving information) to understand. In this lesson, we’ll refer to senders as communicators and receivers as the audience.
 
 ### Data Communication & Storytelling
-When communicating, the goal is to share or exchange information. However, when communicating data, your goal shouldn’t be to simply present numbers to your audience. Instead, you should aim to tell a story informed by your data—effective data communication and storytelling go hand-in-hand. Your audience is more likely to remember a story you tell than a number you provide. Later in this lesson, we’ll explore ways to use storytelling to communicate your data more effectively.
+When communicating, the goal is to share or exchange information. However, when communicating data, the goal isn’t just to pass along numbers to your audience. Instead, the aim is to tell a story informed by your data—effective data communication and storytelling go hand-in-hand. Your audience is more likely to remember a story you tell than a number you provide. Later in this lesson, we’ll explore ways to use storytelling to communicate your data more effectively.
 
 ### Types of Communication
 This lesson will cover two types of communication: One-Way Communication and Two-Way Communication.
 
-**One-way communication** occurs when a sender shares information with a receiver without expecting feedback or a response. Examples of one-way communication include mass emails, news broadcasts, or television commercials. In these cases, the sender’s goal is to deliver information, not to engage in an exchange.
+**One-way communication** occurs when a sender shares information with a receiver without expecting feedback or a response. Examples of one-way communication include mass emails, news broadcasts, or television commercials promoting a product. In these cases, the sender’s goal is to deliver information, not to engage in an exchange.
 
-**Two-way communication** happens when all parties act as both senders and receivers. A sender shares information, and the receiver provides feedback or a response. This is the type of communication we typically associate with conversations—whether in person, over the phone, on social media, or via text.
+**Two-way communication** happens when all parties act as both senders and receivers. A sender begins by sharing information, and the receiver provides feedback or a response. Two-way communication is what we typically think of as a conversation—whether in person, over the phone, on social media, or via text message.
 
 When communicating data, you may use one-way communication (e.g., presenting at a conference or to a large group where questions won’t be asked immediately) or two-way communication (e.g., persuading stakeholders for buy-in or convincing a teammate to invest time and effort in a new initiative).
 
@@ -46,38 +46,38 @@ How do you tell a story with data? There are countless ways, but here are six st
 4. Use Meaningful Words & Phrases
 5. Use Emotion
 
-Each of these strategies is explained in detail below.
+Each strategy is explained in detail below.
 
 ### 1. Understand Your Audience, Your Channel & Your Communication Method
 The way you communicate with family members is likely different from how you communicate with friends. You probably use different words and phrases tailored to the people you’re speaking to. The same principle applies when communicating data. Consider who your audience is, their goals, and the context they have regarding the situation you’re explaining.
 
 You can often categorize your audience into groups. In a _Harvard Business Review_ article, “[How to Tell a Story with Data](http://blogs.hbr.org/2013/04/how-to-tell-a-story-with-data/),” Dell Executive Strategist Jim Stikeleather identifies five audience categories:
 
-- **Novice**: First exposure to the subject but doesn’t want oversimplification.
-- **Generalist**: Familiar with the topic but seeking an overview and major themes.
-- **Managerial**: Requires actionable understanding of details and interrelationships.
-- **Expert**: Prefers exploration and discovery with less storytelling and more detail.
-- **Executive**: Focused on significance and conclusions, with limited time.
+- **Novice**: First exposure to the subject, but doesn’t want oversimplification.
+- **Generalist**: Familiar with the topic, seeking an overview and major themes.
+- **Managerial**: Requires actionable understanding of intricacies and interrelationships, with access to details.
+- **Expert**: Prefers exploration and discovery over storytelling, with a focus on detailed information.
+- **Executive**: Limited time, interested in significance and conclusions based on weighted probabilities.
 
 These categories can guide how you present data to your audience.
 
 Additionally, consider the channel you’re using to communicate—whether it’s a memo, email, meeting, or conference presentation. Your approach should adapt accordingly.
 
 Understanding whether you’ll use one-way or two-way communication is also crucial. For example:
-- If your audience is primarily Novice and you’re using one-way communication, you’ll need to educate them, provide context, present your data, and explain its significance clearly, as they won’t be able to ask questions.
-- If your audience is primarily Managerial and you’re using two-way communication, you can skip extensive context and dive into the data and its implications. However, you’ll need to manage timing and keep the discussion focused, as questions may arise that could derail your story.
+- If communicating with a Novice audience via one-way communication, you’ll need to educate them, provide context, present your data, and explain its significance. Clarity is key since they won’t be able to ask questions directly.
+- If communicating with a Managerial audience via two-way communication, you may skip extensive context and dive into the data and its implications. However, you’ll need to manage timing and keep the discussion focused, as questions may arise that could derail your story.
 
 ### 2. Begin With The End In Mind
-Starting with the end in mind means identifying your intended takeaways for your audience before you begin communicating. Being clear about what you want your audience to learn can help you craft a coherent story. This approach works for both one-way and two-way communication.
+Starting with the end in mind means identifying your intended takeaways for your audience before you begin communicating. Being intentional about what you want your audience to learn helps you craft a coherent story. This approach works for both one-way and two-way communication.
 
-How do you start with the end in mind? Write down your key takeaways before you begin. As you prepare your story, continually ask yourself, “How does this fit into the story I’m telling?”
+How do you start with the end in mind? Write down your key takeaways before communicating your data. As you prepare your story, continually ask yourself, “How does this fit into the narrative I’m building?”
 
-A word of caution: While starting with the end in mind is ideal, avoid cherry-picking data—selecting only the information that supports your intended takeaways while ignoring the rest. If some of your data contradicts your takeaways, share it honestly and explain why you’re sticking with your story despite the conflicting evidence.
+Be cautious—while starting with the end in mind is ideal, avoid cherry-picking data. Cherry-picking occurs when a communicator only shares data that supports their point while ignoring other data. If some of your data contradicts your intended takeaways, share it honestly and explain why you’re sticking to your story despite the conflicting evidence.
 
 ### 3. Approach It Like an Actual Story
 Traditional stories often follow five phases: Exposition, Rising Action, Climax, Falling Action, and Denouement—or, more simply, Context, Conflict, Climax, Closure, and Conclusion. You can use a similar structure when communicating your data and story.
 
-Start with context to ensure your audience is on the same page. Introduce the conflict—why you collected the data and the problem you aimed to solve. Present the climax—what the data reveals, its implications, and potential solutions. Move to closure, reiterating the problem and proposed solutions. Finally, conclude by summarizing key takeaways and recommending next steps.
+Start with context to ensure your audience is on the same page. Introduce the conflict—why did you collect this data? What problem were you trying to solve? Then, present the climax—what does the data reveal? What solutions does it suggest? Follow with closure, reiterating the problem and proposed solutions. Finally, conclude by summarizing key takeaways and recommending next steps.
 
 ### 4. Use Meaningful Words & Phrases
 Imagine you’re working on a product, and you say, “Our users take a long time to onboard onto our platform.” How long is “a long time”? An hour? A week? It’s unclear. Now imagine saying this to an audience—each person might interpret “a long time” differently.
@@ -87,46 +87,46 @@ Instead, you could say, “Our users take, on average, 3 minutes to sign up and 
 When communicating data, don’t assume your audience thinks like you. Clarity is your responsibility as a communicator. If your message isn’t clear, your audience may struggle to follow, making it less likely they’ll understand your key takeaways.
 
 Use specific, meaningful words and phrases instead of vague ones. For example:
-- “We had an *impressive* year!”  
-  - One person might think “impressive” means a 2–3% revenue increase, while another might think it means 50–60%.
-- “Our users’ success rates increased *dramatically*.”  
-  - How much of an increase is “dramatic”?
-- “This undertaking will require *significant* effort.”  
-  - How much effort is “significant”?
+- “We had an *impressive* year!” 
+  - One person might think an impressive year means a 2%-3% revenue increase, while another might think it means a 50%-60% increase.
+- “Our users’ success rates increased *dramatically*.”
+  - How much of an increase qualifies as dramatic?
+- “This undertaking will require *significant* effort.”
+  - How much effort is significant?
 
 While vague words can be useful for introductions or summaries, ensure the core of your presentation is clear.
 
 ### 5. Use Emotion
-Emotion is a powerful tool in storytelling, especially when communicating data. Evoking emotion helps your audience empathize, making them more likely to take action and remember your message.
+Emotion is a powerful tool in storytelling, especially when communicating data. Evoking emotion helps your audience empathize, increases the likelihood they’ll take action, and makes your message more memorable.
 
-You’ve likely seen this in TV commercials—some use somber tones to highlight serious issues, while others are upbeat and associate their data with happiness.
+You’ve likely seen this in TV commercials—some use somber tones to emphasize their message, while others are upbeat and associate their data with positive feelings.
 
 How can you use emotion when communicating data? Here are a few ways:
 - **Testimonials and Personal Stories**: Collect both quantitative and qualitative data, and integrate personal stories to complement your numbers.
-- **Imagery**: Use visuals to help your audience see themselves in the situation and connect emotionally with your data.
+- **Imagery**: Use images to help your audience visualize the situation and connect emotionally with your data.
 - **Color**: Different colors evoke different emotions. For example:
-  - Blue: Peace and trust
-  - Green: Nature and environment
-  - Red: Passion and excitement
-  - Yellow: Optimism and happiness  
-  Be mindful that colors may have different meanings in different cultures.
+  - Blue often conveys peace and trust.
+  - Green is associated with nature and the environment.
+  - Red suggests passion and excitement.
+  - Yellow evokes optimism and happiness.
+  Be mindful that color meanings can vary across cultures.
 
 # Communication Case Study
 Emerson is a Product Manager for a mobile app. Emerson notices that customers submit 42% more complaints and bug reports on weekends. Additionally, customers whose complaints go unanswered for over 48 hours are 32% more likely to rate the app 1 or 2 stars in the app store.
 
-After researching, Emerson identifies two solutions to address the issue. Emerson schedules a 30-minute meeting with the three company leads to present the data and proposed solutions.
+After conducting research, Emerson identifies two solutions to address the issue. Emerson schedules a 30-minute meeting with the three company leads to present the data and proposed solutions.
 
-The goal of the meeting is for the company leads to understand that the two solutions below can improve the app’s rating, which could lead to higher revenue.
+During the meeting, Emerson’s goal is to help the company leads understand that the following two solutions can improve the app’s rating, which could lead to higher revenue:
 
-**Solution 1.** Hire customer service reps to work on weekends.
+**Solution 1.** Hire customer service representatives to work on weekends.
 
-**Solution 2.** Purchase a new customer service ticketing system that allows reps to prioritize complaints based on how long they’ve been in the queue.
+**Solution 2.** Invest in a new customer service ticketing system that allows reps to prioritize complaints based on how long they’ve been in the queue.
 
-During the meeting, Emerson spends:
+In the meeting, Emerson spends:
 - 5 minutes explaining why a low app store rating is problematic,
 - 10 minutes detailing the research process and how trends were identified,
-- 10 minutes reviewing recent customer complaints, and
-- 5 minutes briefly covering the two potential solutions.
+- 10 minutes reviewing recent customer complaints,
+- and the final 5 minutes briefly covering the two potential solutions.
 Was this an effective way for Emerson to communicate during this meeting?
 
 During the meeting, one company lead fixated on the 10 minutes of customer complaints that Emerson went through. After the meeting, these complaints were the only thing that this team lead remembered. Another company lead primarily focused on Emerson describing the research process. The third company lead did remember the solutions proposed by Emerson but wasn’t sure how those solutions could be implemented.
@@ -158,7 +158,7 @@ If Emerson took approach #2, it is much more likely that the team leads will tak
 - To communicate is to convey or exchange information.  
 - When communicating data, your aim shouldn't be to simply pass along numbers to your audience. Your aim should be to communicate a story that is informed by your data.  
 - There are 2 types of communication, One-Way Communication (information is communicated with no intention of a response) and Two-Way Communication (information is communicated back and forth.)  
-- There are many strategies you can use to tell a story with your data, 5 strategies we went over are:  
+- There are many strategies you can use to telling a story with your data, 5 strategies we went over are:  
   - Understand Your Audience, Your Medium, & Your Communication Method  
   - Begin with the End in Mind  
   - Approach it Like an Actual Story  

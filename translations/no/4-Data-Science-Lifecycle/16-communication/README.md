@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "e4eae0345bfb6c9c936fca47081e57f8",
-  "translation_date": "2025-09-05T22:21:38+00:00",
+  "original_hash": "215a3254ba5a222a57c5bb0192cea8e3",
+  "translation_date": "2025-09-06T21:11:16+00:00",
   "source_file": "4-Data-Science-Lifecycle/16-communication/README.md",
   "language_code": "no"
 }
@@ -26,21 +26,21 @@ La oss starte denne leksjonen med å definere hva det betyr å kommunisere. **Å
 Vi forstår at målet med kommunikasjon er å formidle eller utveksle informasjon. Men når du kommuniserer data, bør målet ditt ikke bare være å overlevere tall til publikum. Målet ditt bør være å formidle en historie som er informert av dataene dine – effektiv datakommunikasjon og historiefortelling går hånd i hånd. Publikum ditt er mer sannsynlig å huske en historie du forteller enn et tall du gir. Senere i denne leksjonen vil vi gå gjennom noen måter du kan bruke historiefortelling for å kommunisere dataene dine mer effektivt.
 
 ### Typer kommunikasjon
-I løpet av denne leksjonen vil vi diskutere to forskjellige typer kommunikasjon: Énveis kommunikasjon og Toveis kommunikasjon.
+Gjennom denne leksjonen vil vi diskutere to forskjellige typer kommunikasjon: Enveis kommunikasjon og toveis kommunikasjon.
 
-**Énveis kommunikasjon** skjer når en sender sender informasjon til en mottaker uten noen tilbakemelding eller respons. Vi ser eksempler på énveis kommunikasjon hver dag – i masseutsendte e-poster, når nyhetene leverer de siste historiene, eller når en TV-reklame forteller deg hvorfor produktet deres er fantastisk. I hver av disse tilfellene søker ikke senderen en utveksling av informasjon, men kun å formidle eller levere informasjon.
+**Enveis kommunikasjon** skjer når en sender sender informasjon til en mottaker uten tilbakemelding eller respons. Vi ser eksempler på enveis kommunikasjon hver dag – i masseutsendte e-poster, når nyhetene leverer de siste historiene, eller når en TV-reklame forteller deg hvorfor produktet deres er fantastisk. I hver av disse tilfellene søker ikke senderen en utveksling av informasjon, men kun å formidle eller levere informasjon.
 
-**Toveis kommunikasjon** skjer når alle involverte parter fungerer både som sendere og mottakere. En sender begynner med å kommunisere til en mottaker, og mottakeren gir tilbakemelding eller en respons. Toveis kommunikasjon er det vi tradisjonelt tenker på når vi snakker om kommunikasjon. Vi tenker vanligvis på folk som er engasjert i en samtale – enten personlig, via en telefonsamtale, på sosiale medier eller via tekstmelding.
+**Toveis kommunikasjon** skjer når alle involverte parter fungerer som både sendere og mottakere. En sender begynner med å kommunisere til en mottaker, og mottakeren gir tilbakemelding eller en respons. Toveis kommunikasjon er det vi tradisjonelt tenker på når vi snakker om kommunikasjon. Vi tenker vanligvis på folk som er engasjert i en samtale – enten personlig, over en telefonsamtale, på sosiale medier eller via tekstmelding.
 
-Når du kommuniserer data, vil det være tilfeller der du bruker énveis kommunikasjon (tenk på å presentere på en konferanse eller for en stor gruppe der spørsmål ikke stilles direkte etterpå) og tilfeller der du bruker toveis kommunikasjon (tenk på å bruke data for å overbevise noen interessenter om å støtte en idé, eller for å overbevise en kollega om at tid og innsats bør brukes på å bygge noe nytt).
+Når du kommuniserer data, vil det være tilfeller der du bruker enveis kommunikasjon (tenk på å presentere på en konferanse eller til en stor gruppe der spørsmål ikke stilles direkte etterpå) og tilfeller der du bruker toveis kommunikasjon (tenk på å bruke data for å overbevise noen interessenter om å støtte en idé, eller for å overbevise en kollega om at tid og innsats bør brukes på å bygge noe nytt).
 
 # Effektiv kommunikasjon
 
 ### Dine ansvarsområder som kommunikatør
 Når du kommuniserer, er det ditt ansvar å sørge for at mottakerne tar med seg den informasjonen du ønsker at de skal ta med seg. Når du kommuniserer data, vil du ikke bare at mottakerne skal ta med seg tall, men en historie som er informert av dataene dine. En god datakommunikatør er en god historieforteller.
 
-Hvordan forteller du en historie med data? Det finnes uendelige måter – men nedenfor er 6 som vi vil snakke om i denne leksjonen:
-1. Forstå ditt publikum, din kanal og din kommunikasjonsmetode
+Hvordan forteller du en historie med data? Det finnes uendelige måter – men nedenfor er 6 som vi vil diskutere i denne leksjonen:
+1. Forstå publikum, kanalen og kommunikasjonsmetoden din
 2. Begynn med slutten i tankene
 3. Tilnærm det som en faktisk historie
 4. Bruk meningsfulle ord og uttrykk
@@ -48,126 +48,121 @@ Hvordan forteller du en historie med data? Det finnes uendelige måter – men n
 
 Hver av disse strategiene er forklart mer detaljert nedenfor.
 
-### 1. Forstå ditt publikum, din kanal og din kommunikasjonsmetode
-Måten du kommuniserer med familiemedlemmer på er sannsynligvis annerledes enn måten du kommuniserer med venner på. Du bruker sannsynligvis forskjellige ord og uttrykk som de du snakker med er mer sannsynlig å forstå. Du bør ta samme tilnærming når du kommuniserer data. Tenk på hvem du kommuniserer til. Tenk på deres mål og konteksten de har rundt situasjonen du forklarer.
+### 1. Forstå publikum, kanalen og kommunikasjonsmetoden din
+Måten du kommuniserer med familiemedlemmer på er sannsynligvis annerledes enn måten du kommuniserer med vennene dine. Du bruker sannsynligvis forskjellige ord og uttrykk som de du snakker med er mer sannsynlig å forstå. Du bør ta samme tilnærming når du kommuniserer data. Tenk på hvem du kommuniserer til. Tenk på deres mål og konteksten de har rundt situasjonen du forklarer dem.
 
-Du kan sannsynligvis gruppere majoriteten av publikum innenfor en kategori. I en _Harvard Business Review_-artikkel, “[How to Tell a Story with Data](http://blogs.hbr.org/2013/04/how-to-tell-a-story-with-data/),” identifiserer Dell Executive Strategist Jim Stikeleather fem kategorier av publikum:
+Du kan sannsynligvis gruppere mesteparten av publikum innenfor en kategori. I en _Harvard Business Review_-artikkel, “[How to Tell a Story with Data](http://blogs.hbr.org/2013/04/how-to-tell-a-story-with-data/),” identifiserer Dell Executive Strategist Jim Stikeleather fem kategorier av publikum:
 
-- **Nybegynner**: første eksponering for emnet, men ønsker ikke
-  oversimplifisering
-- **Generalist**: kjent med temaet, men ser etter en oversikt
-  forståelse og hovedtemaer
-- **Leder**: dyptgående, handlingsrettet forståelse av detaljer og
-  sammenhenger med tilgang til detaljer
-- **Ekspert**: mer utforskning og oppdagelse og mindre historiefortelling med
-  stor detaljrikdom
-- **Direktør**: har kun tid til å forstå betydningen og konklusjonene av
-  sannsynlighetsvekting
+- **Nybegynner**: første eksponering for emnet, men ønsker ikke forenkling
+- **Generalist**: kjent med temaet, men ser etter en oversikt og hovedtemaer
+- **Leder**: dyptgående, handlingsrettet forståelse av detaljer og sammenhenger med tilgang til detaljer
+- **Ekspert**: mer utforskning og oppdagelse og mindre historiefortelling med stor detaljrikdom
+- **Direktør**: har kun tid til å forstå betydningen og konklusjonene av sannsynligheter
 
 Disse kategoriene kan informere måten du presenterer data til publikum.
 
 I tillegg til å tenke på publikums kategori, bør du også vurdere kanalen du bruker for å kommunisere med dem. Tilnærmingen din bør være litt annerledes hvis du skriver et notat eller en e-post kontra å ha et møte eller presentere på en konferanse.
 
-På toppen av å forstå publikum, er det også kritisk å vite hvordan du vil kommunisere med dem (ved bruk av énveis kommunikasjon eller toveis).
+På toppen av å forstå publikum, er det også kritisk å vite hvordan du vil kommunisere med dem (ved å bruke enveis kommunikasjon eller toveis).
 
-Hvis du kommuniserer med et publikum som hovedsakelig er nybegynnere og bruker énveis kommunikasjon, må du først utdanne publikum og gi dem riktig kontekst. Deretter må du presentere dataene dine for dem og fortelle dem hva dataene dine betyr og hvorfor de er viktige. I dette tilfellet kan det være lurt å være laserfokusert på å skape klarhet, fordi publikum ikke vil kunne stille deg direkte spørsmål.
+Hvis du kommuniserer med et publikum som hovedsakelig er nybegynnere og bruker enveis kommunikasjon, må du først utdanne publikum og gi dem riktig kontekst. Deretter må du presentere dataene dine for dem og fortelle dem hva dataene dine betyr og hvorfor de er viktige. I dette tilfellet kan det være lurt å være laserfokusert på å skape klarhet, fordi publikum ikke vil kunne stille deg direkte spørsmål.
 
-Hvis du kommuniserer med et publikum som hovedsakelig er ledere og bruker toveis kommunikasjon, trenger du sannsynligvis ikke å utdanne publikum eller gi dem mye kontekst. Du kan kanskje hoppe rett inn i å diskutere dataene du har samlet og hvorfor de er viktige. I dette scenariet bør du imidlertid fokusere på timing og kontrollere presentasjonen din. Når du bruker toveis kommunikasjon (spesielt med et lederpublikum som søker en "handlingsrettet forståelse av detaljer og sammenhenger med tilgang til detaljer"), kan spørsmål dukke opp under interaksjonen som kan ta diskusjonen i en retning som ikke relaterer seg til historien du prøver å fortelle. Når dette skjer, kan du ta grep og bringe diskusjonen tilbake på sporet med historien din.
+Hvis du kommuniserer med et publikum som hovedsakelig er ledere og bruker toveis kommunikasjon, trenger du sannsynligvis ikke å utdanne publikum eller gi dem mye kontekst. Du kan kanskje gå rett til å diskutere dataene du har samlet og hvorfor de er viktige. I dette scenariet bør du imidlertid fokusere på timing og kontrollere presentasjonen din. Når du bruker toveis kommunikasjon (spesielt med et lederpublikum som søker en "handlingsrettet forståelse av detaljer og sammenhenger med tilgang til detaljer"), kan spørsmål dukke opp under interaksjonen som kan ta diskusjonen i en retning som ikke relaterer seg til historien du prøver å fortelle. Når dette skjer, kan du ta grep og bringe diskusjonen tilbake på sporet med historien din.
 
 ### 2. Begynn med slutten i tankene
-Å begynne med slutten i tankene betyr å forstå hva du ønsker at publikum skal ta med seg før du begynner å kommunisere med dem. Å være bevisst på hva du ønsker at publikum skal ta med seg på forhånd kan hjelpe deg med å lage en historie som publikum kan følge. Å begynne med slutten i tankene er passende for både énveis kommunikasjon og toveis kommunikasjon.
+Å begynne med slutten i tankene betyr å forstå hva du ønsker at publikum skal ta med seg før du begynner å kommunisere med dem. Å være gjennomtenkt om hva du ønsker at publikum skal ta med seg på forhånd kan hjelpe deg med å lage en historie som publikum kan følge. Å begynne med slutten i tankene er passende for både enveis kommunikasjon og toveis kommunikasjon.
 
-Hvordan begynner du med slutten i tankene? Før du kommuniserer dataene dine, skriv ned dine viktigste takeaways. Deretter, hvert steg på veien mens du forbereder historien du vil fortelle med dataene dine, spør deg selv: "Hvordan integreres dette i historien jeg forteller?"
+Hvordan begynner du med slutten i tankene? Før du kommuniserer dataene dine, skriv ned de viktigste punktene du ønsker å formidle. Deretter, hvert steg på veien mens du forbereder historien du vil fortelle med dataene dine, spør deg selv: "Hvordan integreres dette i historien jeg forteller?"
 
-Vær oppmerksom – Selv om det er ideelt å starte med slutten i tankene, vil du ikke bare kommunisere data som støtter dine ønskede takeaways. Dette kalles Cherry-Picking, som skjer når en kommunikatør kun kommuniserer data som støtter poenget de prøver å gjøre og ignorerer all annen data.
+Vær oppmerksom – selv om det er ideelt å starte med slutten i tankene, vil du ikke bare kommunisere data som støtter dine ønskede konklusjoner. Dette kalles "Cherry-Picking", som skjer når en kommunikatør kun kommuniserer data som støtter poenget de prøver å gjøre og ignorerer all annen data.
 
-Hvis alle dataene du har samlet tydelig støtter dine ønskede takeaways, flott. Men hvis det er data du har samlet som ikke støtter dine takeaways, eller til og med støtter et argument mot dine viktigste takeaways, bør du kommunisere disse dataene også. Hvis dette skjer, vær ærlig med publikum og la dem vite hvorfor du velger å holde deg til historien din selv om alle dataene ikke nødvendigvis støtter den.
+Hvis alle dataene du har samlet tydelig støtter dine ønskede konklusjoner, flott. Men hvis det er data du har samlet som ikke støtter konklusjonene dine, eller til og med støtter et argument mot dine viktigste punkter, bør du kommunisere disse dataene også. Hvis dette skjer, vær ærlig med publikum og la dem vite hvorfor du velger å holde deg til historien din selv om ikke alle dataene nødvendigvis støtter den.
 
 ### 3. Tilnærm det som en faktisk historie
 En tradisjonell historie skjer i 5 faser. Du har kanskje hørt disse fasene uttrykt som Eksposisjon, Stigende handling, Klimaks, Fallende handling og Avslutning. Eller de enklere å huske: Kontekst, Konflikt, Klimaks, Avslutning, Konklusjon. Når du kommuniserer dataene dine og historien din, kan du ta en lignende tilnærming.
 
-Du kan begynne med kontekst, sette scenen og sørge for at publikum er på samme side. Deretter introduserer du konflikten. Hvorfor trengte du å samle inn disse dataene? Hvilke problemer prøvde du å løse? Etter det, klimaks. Hva er dataene? Hva betyr dataene? Hvilke løsninger forteller dataene oss at vi trenger? Deretter kommer du til avslutningen, hvor du kan gjenta problemet og de foreslåtte løsningene. Til slutt kommer vi til konklusjonen, hvor du kan oppsummere dine viktigste takeaways og de neste stegene du anbefaler teamet å ta.
+Du kan begynne med kontekst, sette scenen og sørge for at publikum er på samme side. Deretter introduserer du konflikten. Hvorfor trengte du å samle inn disse dataene? Hvilke problemer prøvde du å løse? Etter det, klimaks. Hva er dataene? Hva betyr dataene? Hvilke løsninger forteller dataene oss at vi trenger? Deretter kommer du til avslutningen, hvor du kan gjenta problemet og de foreslåtte løsningene. Til slutt kommer vi til konklusjonen, hvor du kan oppsummere de viktigste punktene og anbefale neste steg teamet bør ta.
 
 ### 4. Bruk meningsfulle ord og uttrykk
-Hvis du og jeg jobbet sammen på et produkt, og jeg sa til deg "Våre brukere bruker lang tid på å onboarde på plattformen vår," hvor lang tid ville du anslå at "lang tid" er? En time? En uke? Det er vanskelig å vite. Hva om jeg sa det til et helt publikum? Alle i publikum kan ende opp med en annen idé om hvor lang tid brukere bruker på å onboarde på plattformen vår.
+Hvis du og jeg jobbet sammen på et produkt, og jeg sa til deg "Våre brukere bruker lang tid på å registrere seg på plattformen vår," hvor lang tid ville du anslå at "lang tid" er? En time? En uke? Det er vanskelig å vite. Hva om jeg sa det til et helt publikum? Alle i publikum kan ende opp med en annen idé om hvor lang tid brukere bruker på å registrere seg på plattformen vår.
 
-I stedet, hva om jeg sa "Våre brukere bruker i gjennomsnitt 3 minutter på å registrere seg og onboarde på plattformen vår."
+I stedet, hva om jeg sa "Våre brukere bruker i gjennomsnitt 3 minutter på å registrere seg og komme i gang på plattformen vår."
 
-Den meldingen er mer tydelig. Når du kommuniserer data, kan det være lett å tro at alle i publikum tenker akkurat som deg. Men det er ikke alltid tilfelle. Å skape klarhet rundt dataene dine og hva de betyr er en av dine ansvarsområder som kommunikatør. Hvis dataene eller historien din ikke er tydelig, vil publikum ha vanskelig for å følge med, og det er mindre sannsynlig at de vil forstå dine viktigste takeaways.
+Den meldingen er mer tydelig. Når du kommuniserer data, kan det være lett å tro at alle i publikum tenker akkurat som deg. Men det er ikke alltid tilfelle. Å skape klarhet rundt dataene dine og hva de betyr er en av dine ansvarsområder som kommunikatør. Hvis dataene eller historien din ikke er tydelig, vil publikum ha vanskelig for å følge med, og det er mindre sannsynlig at de vil forstå de viktigste punktene dine.
 
-Du kan kommunisere data mer tydelig når du bruker meningsfulle ord og uttrykk i stedet for vage. Nedenfor er noen eksempler.
+Du kan kommunisere data mer tydelig når du bruker meningsfulle ord og uttrykk i stedet for vage. Nedenfor er noen eksempler:
 
 - Vi hadde et *imponerende* år!
-  - En person kan tro at imponerende betyr en økning på 2% - 3% i inntekter, og en annen kan tro at det betyr en økning på 50% - 60%.
+	- En person kan tro at et imponerende år betyr en økning på 2% - 3% i inntekter, og en annen kan tro at det betyr en økning på 50% - 60%.
 - Våre brukeres suksessrater økte *dramatisk*.
-  - Hvor stor økning er en dramatisk økning?
+	- Hvor stor økning er en dramatisk økning?
 - Denne oppgaven vil kreve *betydelig* innsats.
-  - Hvor mye innsats er betydelig?
+	- Hvor mye innsats er betydelig?
 
 Å bruke vage ord kan være nyttig som en introduksjon til mer data som kommer, eller som en oppsummering av historien du nettopp har fortalt. Men vurder å sørge for at hver del av presentasjonen din er tydelig for publikum.
 
 ### 5. Bruk følelser
-Følelser er nøkkelen i historiefortelling. Det er enda viktigere når du forteller en historie med data. Når du kommuniserer data, er alt fokusert på de takeaways du ønsker at publikum skal ha. Når du vekker en følelse hos publikum, hjelper det dem å føle empati og gjør dem mer sannsynlig å handle. Følelser øker også sannsynligheten for at publikum vil huske budskapet ditt.
+Følelser er nøkkelen i historiefortelling. Det er enda viktigere når du forteller en historie med data. Når du kommuniserer data, er alt fokusert på de viktigste punktene du ønsker at publikum skal ta med seg. Når du vekker en følelse hos publikum, hjelper det dem å føle empati og gjør dem mer sannsynlig å handle. Følelser øker også sannsynligheten for at publikum vil huske budskapet ditt.
 
 Du har kanskje opplevd dette før med TV-reklamer. Noen reklamer er veldig alvorlige og bruker en trist følelse for å knytte seg til publikum og få dataene de presenterer til å virkelig skille seg ut. Eller, noen reklamer er veldig optimistiske og glade og kan få deg til å assosiere dataene deres med en lykkelig følelse.
 
-Hvordan bruker du følelser når du kommuniserer data? Nedenfor er et par måter.
+Hvordan bruker du følelser når du kommuniserer data? Nedenfor er et par måter:
 
 - Bruk vitnesbyrd og personlige historier
-  - Når du samler inn data, prøv å samle både kvantitative og kvalitative data, og integrer begge typer data når du kommuniserer. Hvis dataene dine hovedsakelig er kvantitative, søk historier fra enkeltpersoner for å lære mer om deres erfaring med det dataene dine forteller deg.
+	- Når du samler inn data, prøv å samle både kvantitative og kvalitative data, og integrer begge typer data når du kommuniserer. Hvis dataene dine hovedsakelig er kvantitative, søk historier fra enkeltpersoner for å lære mer om deres erfaring med det dataene dine forteller deg.
 - Bruk bilder
-  - Bilder hjelper publikum med å se seg selv i en situasjon. Når du bruker bilder, kan du lede publikum mot den følelsen du mener de bør ha om dataene dine.
+	- Bilder hjelper publikum med å se seg selv i en situasjon. Når du bruker bilder, kan du lede publikum mot følelsen du mener de bør ha om dataene dine.
 - Bruk farger
-  - Ulike farger vekker ulike følelser. Populære farger og følelsene de vekker er nedenfor. Vær oppmerksom på at farger kan ha forskjellige betydninger i forskjellige kulturer.
-    - Blå vekker vanligvis følelser av fred og tillit
-    - Grønn er vanligvis relatert til naturen og miljøet
-    - Rød er vanligvis lidenskap og spenning
-    - Gul er vanligvis optimisme og lykke
+	- Ulike farger vekker ulike følelser. Populære farger og følelsene de vekker er nedenfor. Vær oppmerksom på at farger kan ha forskjellige betydninger i forskjellige kulturer.
+		- Blå vekker vanligvis følelser av fred og tillit
+		- Grønn er vanligvis relatert til natur og miljø
+		- Rød er vanligvis lidenskap og spenning
+		- Gul er vanligvis optimisme og lykke
 
 # Kommunikasjonscase
-Emerson er produktsjef for en mobilapp. Emerson har lagt merke til at kunder sender inn 42% flere klager og feilrapporter i helgene. Emerson har også lagt merke til at kunder som sender inn en klage som forblir ubesvart etter 48 timer, er 32% mer sannsynlig å gi appen en vurdering på 1 eller 2 i appbutikken.
+Emerson er produktsjef for en mobilapp. Emerson har lagt merke til at kunder sender inn 42% flere klager og feilrapporter i helgene. Emerson har også lagt merke til at kunder som sender inn en klage som ikke blir besvart innen 48 timer, er 32% mer sannsynlig å gi appen en vurdering på 1 eller 2 i appbutikken.
 
-Etter å ha gjort undersøkelser har Emerson et par løsninger som vil adressere problemet. Emerson setter opp et 30-minutters møte med de 3 selskapets ledere for å kommunisere dataene og de foreslåtte løsningene.
+Etter å ha gjort undersøkelser har Emerson et par løsninger som vil adressere problemet. Emerson setter opp et 30-minutters møte med de tre selskapets ledere for å kommunisere dataene og de foreslåtte løsningene.
 
-Under dette møtet er Emersons mål å få selskapets ledere til å forstå at de 2 løsningene nedenfor kan forbedre appens vurdering, noe som sannsynligvis vil oversettes til høyere inntekter.
+Under dette møtet er Emersons mål å få selskapets ledere til å forstå at de to løsningene nedenfor kan forbedre appens vurdering, noe som sannsynligvis vil føre til høyere inntekter.
 
-**Løsning 1.** Ansette kundeservicerepresentanter til å jobbe i helgene
+**Løsning 1.** Ansette kundeservicerepresentanter som kan jobbe i helgene
 
 **Løsning 2.** Kjøpe et nytt kundeservicesystem der kundeservicerepresentanter enkelt kan identifisere hvilke klager som har vært i køen lengst – slik at de kan se hvilke som bør adresseres mest umiddelbart.
 
-I møtet bruker Emerson 5 minutter på å forklare hvorfor det å ha en lav vurdering i appbutikken er dårlig, 10 minutter på å forklare forskningsprosessen og hvordan trendene ble identifisert, 10 minutter på å gå gjennom noen av de siste kundeklagene, og de siste 5 minuttene på å raskt gå gjennom de 2 potensielle løsningene.
+I møtet bruker Emerson 5 minutter på å forklare hvorfor det er dårlig å ha en lav vurdering i appbutikken, 10 minutter på å forklare forskningsprosessen og hvordan trendene ble identifisert, 10 minutter på å gå gjennom noen av de siste kundeklagene, og de siste 5 minuttene på å raskt gå gjennom de to potensielle løsningene.
 Var dette en effektiv måte for Emerson å kommunisere under dette møtet?
 
-Under møtet fokuserte en av lederne i selskapet kun på de 10 minuttene med kundeproblemer som Emerson gikk gjennom. Etter møtet var disse klagene det eneste denne lederen husket. En annen leder fokuserte hovedsakelig på hvordan Emerson beskrev forskningsprosessen. Den tredje lederen husket løsningene som Emerson foreslo, men var usikker på hvordan disse løsningene kunne implementeres. 
+Under møtet fokuserte en av lederne i selskapet kun på de 10 minuttene med kundeklager som Emerson gikk gjennom. Etter møtet var disse klagene det eneste denne lederen husket. En annen leder fokuserte primært på Emersons beskrivelse av forskningsprosessen. Den tredje lederen husket de foreslåtte løsningene, men var usikker på hvordan disse løsningene kunne implementeres.
 
-I situasjonen ovenfor kan vi se at det var et betydelig gap mellom hva Emerson ønsket at lederne skulle ta med seg fra møtet, og hva de faktisk tok med seg. Nedenfor er en annen tilnærming som Emerson kunne vurdere.
+I situasjonen ovenfor kan vi se at det var en betydelig avstand mellom det Emerson ønsket at lederne skulle ta med seg, og det de faktisk tok med seg fra møtet. Nedenfor er en annen tilnærming Emerson kunne vurdere.
 
 Hvordan kan Emerson forbedre denne tilnærmingen?  
 Kontekst, Konflikt, Klimaks, Avslutning, Konklusjon  
-**Kontekst** – Emerson kunne bruke de første 5 minuttene på å introdusere hele situasjonen og sørge for at lederne forstår hvordan problemene påvirker nøkkeltall som er kritiske for selskapet, som inntekter.  
+**Kontekst** - Emerson kunne bruke de første 5 minuttene på å introdusere hele situasjonen og sørge for at lederne forstår hvordan problemene påvirker kritiske bedriftsmål, som inntekter.
 
-Det kunne legges opp slik: "For øyeblikket er appens vurdering i appbutikken 2,5. Vurderinger i appbutikken er avgjørende for App Store-optimalisering, som påvirker hvor mange brukere som ser appen vår i søk, og hvordan appen oppfattes av potensielle brukere. Og selvfølgelig er antall brukere vi har direkte knyttet til inntektene våre."
+Det kunne legges fram slik: "For øyeblikket har appen vår en vurdering på 2,5 i appbutikken. Vurderinger i appbutikken er avgjørende for App Store-optimalisering, som påvirker hvor mange brukere som ser appen vår i søk, og hvordan appen vår oppfattes av potensielle brukere. Og selvfølgelig er antall brukere vi har direkte knyttet til inntektene."
 
-**Konflikt** Emerson kunne deretter bruke de neste 5 minuttene på å snakke om konflikten.  
+**Konflikt** Emerson kunne deretter bruke de neste 5 minuttene på å snakke om konflikten.
 
-Det kunne høres slik ut: "Brukere sender inn 42 % flere klager og feilrapporter i helgene. Kunder som sender inn en klage som ikke blir besvart innen 48 timer, er 32 % mindre tilbøyelige til å gi appen vår en vurdering over 2 i appbutikken. Å forbedre appens vurdering i appbutikken til 4 ville forbedre synligheten vår med 20–30 %, noe jeg anslår vil øke inntektene med 10 %." Selvfølgelig bør Emerson være forberedt på å begrunne disse tallene.  
+Det kunne formuleres slik: "Brukere sender inn 42 % flere klager og feilrapporter i helgene. Kunder som sender inn en klage som ikke blir besvart innen 48 timer, er 32 % mindre tilbøyelige til å gi appen vår en vurdering over 2 i appbutikken. Å forbedre appens vurdering i appbutikken til 4 ville forbedre synligheten vår med 20–30 %, noe jeg anslår ville øke inntektene med 10 %." Selvfølgelig bør Emerson være forberedt på å begrunne disse tallene.
 
-**Klimaks** Etter å ha lagt grunnlaget, kunne Emerson deretter gå videre til klimakset i omtrent 5 minutter.  
+**Klimaks** Etter å ha lagt grunnlaget, kunne Emerson deretter gå videre til klimaks i omtrent 5 minutter.
 
-Emerson kunne introdusere de foreslåtte løsningene, forklare hvordan disse løsningene vil adressere de beskrevne problemene, hvordan løsningene kan implementeres i eksisterende arbeidsflyter, hvor mye løsningene koster, hva avkastningen på investeringene vil være, og kanskje til og med vise noen skjermbilder eller wireframes av hvordan løsningene ville se ut hvis de ble implementert. Emerson kunne også dele uttalelser fra brukere som opplevde at klagen deres tok over 48 timer å få svar på, og kanskje en uttalelse fra en nåværende kundeservicerepresentant i selskapet som har kommentarer om det nåværende billettsystemet.  
+Emerson kunne introdusere de foreslåtte løsningene, forklare hvordan disse løsningene vil adressere de identifiserte problemene, hvordan løsningene kan implementeres i eksisterende arbeidsflyter, hvor mye løsningene koster, hva avkastningen på investeringene vil være, og kanskje til og med vise noen skjermbilder eller wireframes av hvordan løsningene vil se ut hvis de implementeres. Emerson kunne også dele uttalelser fra brukere som opplevde mer enn 48 timers ventetid på å få klagen sin behandlet, og en uttalelse fra en nåværende kundeservicerepresentant i selskapet som har kommentarer til det nåværende billettsystemet.
 
-**Avslutning** Nå kan Emerson bruke 5 minutter på å oppsummere problemene selskapet står overfor, gå gjennom de foreslåtte løsningene, og forklare hvorfor disse løsningene er de riktige.  
+**Avslutning** Nå kan Emerson bruke 5 minutter på å gjenta problemene selskapet står overfor, gå gjennom de foreslåtte løsningene, og oppsummere hvorfor disse løsningene er de riktige.
 
-**Konklusjon** Fordi dette er et møte med noen få interessenter hvor toveis kommunikasjon vil bli brukt, kunne Emerson deretter planlegge å sette av 10 minutter til spørsmål, for å sikre at alt som var uklart for lederne kunne bli oppklart før møtet er over.  
+**Konklusjon** Fordi dette er et møte med noen få interessenter der toveis kommunikasjon vil bli brukt, kan Emerson deretter planlegge å sette av 10 minutter til spørsmål, for å sikre at alt som var uklart for lederne blir avklart før møtet er over.
 
-Hvis Emerson tok tilnærming #2, er det mye mer sannsynlig at lederne vil ta med seg fra møtet akkurat det Emerson ønsket at de skulle ta med seg – at måten klager og feil håndteres på kan forbedres, og at det finnes to løsninger som kan implementeres for å oppnå denne forbedringen. Denne tilnærmingen ville vært en mye mer effektiv måte å kommunisere dataene og historien som Emerson ønsker å formidle.  
+Hvis Emerson tok tilnærming #2, er det mye mer sannsynlig at lederne vil ta med seg fra møtet akkurat det Emerson ønsket at de skulle ta med seg – at måten klager og feil håndteres på kan forbedres, og at det finnes 2 løsninger som kan implementeres for å gjøre denne forbedringen mulig. Denne tilnærmingen ville være en mye mer effektiv måte å kommunisere dataene og historien Emerson ønsker å formidle.
 
 # Konklusjon  
 ### Oppsummering av hovedpunkter  
 - Å kommunisere betyr å formidle eller utveksle informasjon.  
-- Når du kommuniserer data, bør målet ditt ikke bare være å overføre tall til publikum. Målet ditt bør være å formidle en historie som er informert av dataene dine.  
-- Det finnes to typer kommunikasjon: Enveis kommunikasjon (informasjon formidles uten intensjon om respons) og Toveis kommunikasjon (informasjon formidles frem og tilbake).  
-- Det finnes mange strategier du kan bruke for å fortelle en historie med dataene dine. Fem strategier vi gikk gjennom er:  
+- Når du kommuniserer data, bør målet ditt ikke være å bare overføre tall til publikum. Målet ditt bør være å formidle en historie som er informert av dataene dine.  
+- Det finnes 2 typer kommunikasjon: Énveis kommunikasjon (informasjon formidles uten intensjon om respons) og Toveis kommunikasjon (informasjon formidles frem og tilbake).  
+- Det finnes mange strategier du kan bruke for å fortelle en historie med dataene dine. 5 strategier vi har gått gjennom er:  
   - Forstå publikum, mediet og kommunikasjonsmetoden din  
   - Begynn med slutten i tankene  
   - Tilnærm det som en faktisk historie  
@@ -213,9 +208,9 @@ Hvis Emerson tok tilnærming #2, er det mye mer sannsynlig at lederne vil ta med
 
 [1. Communicating Data - Communicating Data with Tableau [Book] (oreilly.com)](https://www.oreilly.com/library/view/communicating-data-with/9781449372019/ch01.html)  
 
-## [Etter-forelesningsquiz](https://ff-quizzes.netlify.app/en/ds/quiz/31)  
+## [Etter-forelesning quiz](https://ff-quizzes.netlify.app/en/ds/quiz/31)  
 
-Gjennomgå det du nettopp har lært med Etter-Forelesningsquizen ovenfor!  
+Gjennomgå det du nettopp har lært med Etter-Forelesning Quiz ovenfor!  
 
 ## Oppgave  
 
