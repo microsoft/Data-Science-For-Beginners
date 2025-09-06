@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "44de95649fcec43643cbe3962f904331",
-  "translation_date": "2025-09-06T08:47:30+00:00",
+  "original_hash": "0764fd4077f3f04a1d968ec371227744",
+  "translation_date": "2025-09-06T11:36:14+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "it"
 }
@@ -51,16 +51,16 @@ Crea uno scatterplot di base per mostrare la relazione tra il prezzo per libbra 
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter1.png)
+![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.it.png)
 
-Ora, mostra gli stessi dati con una palette di colori che richiama il miele per evidenziare come il prezzo evolve nel corso degli anni. Puoi farlo aggiungendo un parametro 'hue' per mostrare il cambiamento anno dopo anno:
+Ora, mostra gli stessi dati con una palette di colori che richiami il miele per evidenziare come il prezzo si evolve nel corso degli anni. Puoi farlo aggiungendo un parametro 'hue' per mostrare il cambiamento anno dopo anno:
 
 > ✅ Scopri di più sulle [palette di colori che puoi usare in Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) - prova una bellissima palette arcobaleno!
 
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter2.png)
+![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.it.png)
 
 Con questo cambiamento di colori, puoi vedere chiaramente una forte progressione nel corso degli anni in termini di prezzo del miele per libbra. Infatti, se guardi un campione di dati per verificare (scegli uno stato, ad esempio l'Arizona), puoi osservare un pattern di aumento dei prezzi anno dopo anno, con poche eccezioni:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Puoi vedere la dimensione dei punti aumentare gradualmente.
 
-![scatterplot 3](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter3.png)
+![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.it.png)
 
 È un semplice caso di domanda e offerta? A causa di fattori come il cambiamento climatico e il collasso delle colonie, c'è meno miele disponibile per l'acquisto anno dopo anno, e quindi il prezzo aumenta?
 
@@ -104,19 +104,19 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Risposta: Sì, con alcune eccezioni intorno all'anno 2003:
 
-![line chart 1](../../../../3-Data-Visualization/12-visualization-relationships/images/line1.png)
+![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.it.png)
 
-✅ Poiché Seaborn aggrega i dati attorno a una linea, mostra "le misurazioni multiple per ogni valore x tracciando la media e l'intervallo di confidenza al 95% attorno alla media". [Fonte](https://seaborn.pydata.org/tutorial/relational.html). Questo comportamento che richiede tempo può essere disabilitato aggiungendo `ci=None`.
+✅ Poiché Seaborn aggrega i dati attorno a una linea, visualizza "le misurazioni multiple per ogni valore x tracciando la media e l'intervallo di confidenza al 95% attorno alla media". [Fonte](https://seaborn.pydata.org/tutorial/relational.html). Questo comportamento dispendioso in termini di tempo può essere disabilitato aggiungendo `ci=None`.
 
-Domanda: Bene, nel 2003 possiamo anche vedere un picco nella fornitura di miele? E se guardassi la produzione totale anno dopo anno?
+Domanda: Bene, nel 2003 possiamo anche vedere un picco nella fornitura di miele? E se guardi la produzione totale anno dopo anno?
 
 ```python
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../3-Data-Visualization/12-visualization-relationships/images/line2.png)
+![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.it.png)
 
-Risposta: Non proprio. Se guardi la produzione totale, sembra effettivamente essere aumentata in quell'anno particolare, anche se generalmente parlando la quantità di miele prodotta è in declino durante questi anni.
+Risposta: Non proprio. Se guardi la produzione totale, sembra effettivamente essere aumentata in quell'anno particolare, anche se generalmente parlando la quantità di miele prodotta è in calo durante questi anni.
 
 Domanda: In tal caso, cosa potrebbe aver causato quel picco nel prezzo del miele intorno al 2003?
 
@@ -124,7 +124,7 @@ Per scoprirlo, puoi esplorare una griglia di faccette.
 
 ## Griglie di faccette
 
-Le griglie di faccette prendono una faccetta del tuo dataset (nel nostro caso, puoi scegliere 'anno' per evitare di produrre troppe faccette). Seaborn può quindi creare un grafico per ciascuna di queste faccette delle coordinate x e y scelte per un confronto visivo più semplice. Il 2003 si distingue in questo tipo di confronto?
+Le griglie di faccette prendono una faccetta del tuo dataset (nel nostro caso, puoi scegliere 'anno' per evitare di produrre troppe faccette). Seaborn può quindi creare un grafico per ciascuna di queste faccette delle coordinate x e y scelte per un confronto più semplice. Il 2003 si distingue in questo tipo di confronto?
 
 Crea una griglia di faccette continuando a utilizzare `relplot` come raccomandato dalla [documentazione di Seaborn](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid).
 
@@ -135,16 +135,17 @@ sns.relplot(
     col="year", 
     col_wrap=3,
     kind="line"
+    )
 ```
 In questa visualizzazione, puoi confrontare la resa per colonia e il numero di colonie anno dopo anno, fianco a fianco con un wrap impostato a 3 per le colonne:
 
-![facet grid](../../../../3-Data-Visualization/12-visualization-relationships/images/facet.png)
+![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.it.png)
 
 Per questo dataset, nulla si distingue particolarmente riguardo al numero di colonie e alla loro resa, anno dopo anno e stato per stato. C'è un modo diverso per cercare di trovare una correlazione tra queste due variabili?
 
 ## Grafici a doppia linea
 
-Prova un grafico multilinea sovrapponendo due grafici a linee uno sopra l'altro, utilizzando il 'despine' di Seaborn per rimuovere le spine superiore e destra, e utilizzando `ax.twinx` [derivato da Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx consente a un grafico di condividere l'asse x e visualizzare due assi y. Quindi, mostra la resa per colonia e il numero di colonie, sovrapposti:
+Prova un grafico multilinea sovrapponendo due grafici a linee uno sopra l'altro, utilizzando il 'despine' di Seaborn per rimuovere le spine superiore e destra, e utilizzando `ax.twinx` [derivato da Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx consente a un grafico di condividere l'asse x e visualizzare due assi y. Quindi, visualizza la resa per colonia e il numero di colonie, sovrapposti:
 
 ```python
 fig, ax = plt.subplots(figsize=(12,6))
@@ -161,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../3-Data-Visualization/12-visualization-relationships/images/dual-line.png)
+![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.it.png)
 
 Sebbene nulla salti all'occhio intorno all'anno 2003, ci permette di concludere questa lezione con una nota un po' più positiva: mentre il numero di colonie è generalmente in calo, il numero di colonie si sta stabilizzando anche se la loro resa per colonia è in diminuzione.
 
@@ -170,14 +171,13 @@ Forza, api, forza!
 🐝❤️
 ## 🚀 Sfida
 
-In questa lezione, hai imparato un po' di più su altri usi degli scatterplot e delle griglie a linee, incluse le griglie di faccette. Sfida te stesso a creare una griglia di faccette utilizzando un dataset diverso, magari uno che hai usato prima di queste lezioni. Nota quanto tempo impiegano a essere create e quanto devi essere attento al numero di griglie che devi disegnare utilizzando queste tecniche.
+In questa lezione, hai imparato un po' di più su altri usi degli scatterplot e delle griglie a linee, incluse le griglie di faccette. Sfida te stesso a creare una griglia di faccette utilizzando un dataset diverso, magari uno che hai usato prima di queste lezioni. Nota quanto tempo impiegano a essere create e come devi prestare attenzione al numero di griglie che devi disegnare utilizzando queste tecniche.
 
 ## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ds/quiz/23)
 
 ## Revisione & Studio Autonomo
 
-I grafici a linee possono essere semplici o piuttosto complessi. Fai un po' di lettura nella [documentazione di Seaborn](https://seaborn.pydata.org/generated/seaborn.lineplot.html) sui vari modi in cui puoi costruirli. Prova a migliorare i grafici a linee che hai costruito in questa lezione con altri metodi elencati nella documentazione.
-
+I grafici a linee possono essere semplici o piuttosto complessi. Fai un po' di lettura nella [documentazione di Seaborn](https://seaborn.pydata.org/generated/seaborn.lineplot.html) sui vari modi in cui puoi costruirli. Prova a migliorare i grafici a linee che hai costruito in questa lezione con altri metodi elencati nei documenti.
 ## Compito
 
 [Immergiti nell'alveare](assignment.md)
@@ -185,4 +185,4 @@ I grafici a linee possono essere semplici o piuttosto complessi. Fai un po' di l
 ---
 
 **Disclaimer**:  
-Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un traduttore umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si consiglia una traduzione professionale eseguita da un traduttore umano. Non siamo responsabili per eventuali fraintendimenti o interpretazioni errate derivanti dall'uso di questa traduzione.

@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "44de95649fcec43643cbe3962f904331",
-  "translation_date": "2025-09-05T23:40:28+00:00",
+  "original_hash": "0764fd4077f3f04a1d968ec371227744",
+  "translation_date": "2025-09-06T11:42:28+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "vi"
 }
@@ -13,21 +13,21 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Hình dung Mối quan hệ - _Sketchnote của [@nitya](https://twitter.com/nitya)_ |
 
-Tiếp tục với chủ đề thiên nhiên trong nghiên cứu của chúng ta, hãy khám phá các cách hình dung thú vị để thể hiện mối quan hệ giữa các loại mật ong khác nhau, dựa trên một tập dữ liệu từ [Bộ Nông nghiệp Hoa Kỳ](https://www.nass.usda.gov/About_NASS/index.php).
+Tiếp tục với trọng tâm về thiên nhiên trong nghiên cứu của chúng ta, hãy khám phá các cách hình dung thú vị để thể hiện mối quan hệ giữa các loại mật ong khác nhau, dựa trên một tập dữ liệu từ [Bộ Nông nghiệp Hoa Kỳ](https://www.nass.usda.gov/About_NASS/index.php). 
 
-Tập dữ liệu này gồm khoảng 600 mục, hiển thị sản lượng mật ong ở nhiều bang của Hoa Kỳ. Ví dụ, bạn có thể xem số lượng đàn ong, sản lượng mỗi đàn, tổng sản lượng, lượng tồn kho, giá mỗi pound và giá trị mật ong được sản xuất ở một bang cụ thể từ năm 1998-2012, với mỗi hàng tương ứng với một năm cho từng bang.
+Tập dữ liệu này gồm khoảng 600 mục hiển thị sản lượng mật ong ở nhiều bang của Hoa Kỳ. Ví dụ, bạn có thể xem số lượng đàn ong, sản lượng mỗi đàn, tổng sản lượng, tồn kho, giá mỗi pound, và giá trị mật ong được sản xuất ở một bang từ năm 1998-2012, với mỗi hàng đại diện cho một năm của từng bang. 
 
-Sẽ rất thú vị khi hình dung mối quan hệ giữa sản lượng hàng năm của một bang và, chẳng hạn, giá mật ong ở bang đó. Hoặc, bạn có thể hình dung mối quan hệ giữa sản lượng mật ong mỗi đàn của các bang. Khoảng thời gian này bao gồm sự kiện 'CCD' hay 'Hội chứng Sụp đổ Đàn ong' lần đầu tiên được ghi nhận vào năm 2006 (http://npic.orst.edu/envir/ccd.html), vì vậy đây là một tập dữ liệu đáng để nghiên cứu. 🐝
+Sẽ rất thú vị khi hình dung mối quan hệ giữa sản lượng của một bang trong một năm nhất định và, ví dụ, giá mật ong ở bang đó. Ngoài ra, bạn có thể hình dung mối quan hệ giữa sản lượng mật ong mỗi đàn của các bang. Khoảng thời gian này bao gồm sự kiện 'CCD' hay 'Hội chứng Sụp đổ Đàn ong' lần đầu tiên được ghi nhận vào năm 2006 (http://npic.orst.edu/envir/ccd.html), vì vậy đây là một tập dữ liệu đáng để nghiên cứu. 🐝
 
 ## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ds/quiz/22)
 
-Trong bài học này, bạn có thể sử dụng Seaborn, một thư viện mà bạn đã sử dụng trước đó, để hình dung mối quan hệ giữa các biến. Đặc biệt thú vị là việc sử dụng hàm `relplot` của Seaborn, cho phép tạo biểu đồ phân tán và biểu đồ đường để nhanh chóng hình dung '[mối quan hệ thống kê](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', giúp nhà khoa học dữ liệu hiểu rõ hơn cách các biến liên quan đến nhau.
+Trong bài học này, bạn có thể sử dụng Seaborn, thư viện mà bạn đã sử dụng trước đây, để hình dung mối quan hệ giữa các biến. Đặc biệt thú vị là việc sử dụng hàm `relplot` của Seaborn, cho phép tạo biểu đồ phân tán và biểu đồ đường để nhanh chóng hình dung '[mối quan hệ thống kê](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', giúp nhà khoa học dữ liệu hiểu rõ hơn về cách các biến liên quan đến nhau.
 
 ## Biểu đồ phân tán
 
-Sử dụng biểu đồ phân tán để hiển thị cách giá mật ong thay đổi qua từng năm, theo từng bang. Seaborn, với `relplot`, thuận tiện nhóm dữ liệu theo bang và hiển thị các điểm dữ liệu cho cả dữ liệu phân loại và số.
+Sử dụng biểu đồ phân tán để hiển thị cách giá mật ong thay đổi theo năm, từng bang. Seaborn, với `relplot`, tiện lợi nhóm dữ liệu của các bang và hiển thị các điểm dữ liệu cho cả dữ liệu phân loại và dữ liệu số. 
 
-Hãy bắt đầu bằng cách nhập dữ liệu và thư viện Seaborn:
+Hãy bắt đầu bằng cách nhập dữ liệu và Seaborn:
 
 ```python
 import pandas as pd
@@ -36,7 +36,7 @@ import seaborn as sns
 honey = pd.read_csv('../../data/honey.csv')
 honey.head()
 ```
-Bạn sẽ nhận thấy rằng dữ liệu mật ong có một số cột thú vị, bao gồm năm và giá mỗi pound. Hãy khám phá dữ liệu này, được nhóm theo các bang của Hoa Kỳ:
+Bạn sẽ thấy rằng dữ liệu mật ong có một số cột thú vị, bao gồm năm và giá mỗi pound. Hãy khám phá dữ liệu này, được nhóm theo bang của Hoa Kỳ:
 
 | state | numcol | yieldpercol | totalprod | stocks   | priceperlb | prodvalue | year |
 | ----- | ------ | ----------- | --------- | -------- | ---------- | --------- | ---- |
@@ -51,18 +51,18 @@ Tạo một biểu đồ phân tán cơ bản để hiển thị mối quan hệ
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter1.png)
+![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.vi.png)
 
-Bây giờ, hiển thị cùng dữ liệu với bảng màu mật ong để thể hiện cách giá thay đổi qua các năm. Bạn có thể làm điều này bằng cách thêm tham số 'hue' để hiển thị sự thay đổi qua từng năm:
+Bây giờ, hiển thị cùng dữ liệu với một bảng màu mật ong để thể hiện cách giá thay đổi theo năm. Bạn có thể làm điều này bằng cách thêm tham số 'hue' để hiển thị sự thay đổi theo năm:
 
 > ✅ Tìm hiểu thêm về [bảng màu bạn có thể sử dụng trong Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) - thử một bảng màu cầu vồng đẹp mắt!
 
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter2.png)
+![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.vi.png)
 
-Với sự thay đổi bảng màu này, bạn có thể thấy rõ ràng rằng có một sự tiến triển mạnh mẽ qua các năm về giá mật ong mỗi pound. Thật vậy, nếu bạn xem xét một tập dữ liệu mẫu để xác minh (chọn một bang cụ thể, chẳng hạn Arizona), bạn có thể thấy một mô hình tăng giá qua từng năm, với một vài ngoại lệ:
+Với sự thay đổi bảng màu này, bạn có thể thấy rõ ràng rằng có một sự tiến triển mạnh mẽ theo năm về giá mật ong mỗi pound. Thực tế, nếu bạn xem xét một tập mẫu trong dữ liệu để xác minh (chọn một bang cụ thể, ví dụ Arizona), bạn có thể thấy một xu hướng tăng giá theo năm, với một vài ngoại lệ:
 
 | state | numcol | yieldpercol | totalprod | stocks  | priceperlb | prodvalue | year |
 | ----- | ------ | ----------- | --------- | ------- | ---------- | --------- | ---- |
@@ -89,44 +89,44 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Bạn có thể thấy kích thước của các điểm tăng dần.
 
-![scatterplot 3](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter3.png)
+![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.vi.png)
 
-Đây có phải là một trường hợp đơn giản của cung và cầu? Do các yếu tố như biến đổi khí hậu và sự sụp đổ của đàn ong, liệu có ít mật ong hơn để mua qua từng năm, và do đó giá tăng?
+Đây có phải là một trường hợp đơn giản của cung và cầu? Do các yếu tố như biến đổi khí hậu và sự sụp đổ của đàn ong, liệu có ít mật ong hơn để mua theo năm, và do đó giá tăng lên?
 
 Để khám phá mối tương quan giữa một số biến trong tập dữ liệu này, hãy cùng tìm hiểu một số biểu đồ đường.
 
 ## Biểu đồ đường
 
-Câu hỏi: Liệu có sự tăng giá rõ ràng của mật ong mỗi pound qua từng năm không? Bạn có thể dễ dàng khám phá điều đó bằng cách tạo một biểu đồ đường đơn:
+Câu hỏi: Có sự tăng giá rõ ràng của mật ong mỗi pound theo năm không? Bạn có thể dễ dàng khám phá điều này bằng cách tạo một biểu đồ đường đơn:
 
 ```python
 sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Trả lời: Có, với một số ngoại lệ vào khoảng năm 2003:
 
-![line chart 1](../../../../3-Data-Visualization/12-visualization-relationships/images/line1.png)
+![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.vi.png)
 
-✅ Vì Seaborn đang tổng hợp dữ liệu xung quanh một đường, nó hiển thị "các phép đo lặp lại tại mỗi giá trị x bằng cách vẽ trung bình và khoảng tin cậy 95% xung quanh trung bình". [Nguồn](https://seaborn.pydata.org/tutorial/relational.html). Hành vi tốn thời gian này có thể bị vô hiệu hóa bằng cách thêm `ci=None`.
+✅ Vì Seaborn đang tổng hợp dữ liệu xung quanh một đường, nó hiển thị "các phép đo nhiều lần tại mỗi giá trị x bằng cách vẽ trung bình và khoảng tin cậy 95% xung quanh trung bình". [Nguồn](https://seaborn.pydata.org/tutorial/relational.html). Hành vi tốn thời gian này có thể bị vô hiệu hóa bằng cách thêm `ci=None`.
 
-Câu hỏi: Vậy, vào năm 2003, liệu chúng ta có thể thấy sự tăng đột biến trong nguồn cung mật ong không? Điều gì sẽ xảy ra nếu bạn xem xét tổng sản lượng qua từng năm?
+Câu hỏi: Vậy, vào năm 2003, liệu chúng ta có thể thấy sự tăng đột biến trong nguồn cung mật ong không? Nếu bạn xem xét tổng sản lượng theo năm thì sao?
 
 ```python
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../3-Data-Visualization/12-visualization-relationships/images/line2.png)
+![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.vi.png)
 
 Trả lời: Không hẳn. Nếu bạn xem xét tổng sản lượng, thực tế nó dường như đã tăng trong năm đó, mặc dù nhìn chung lượng mật ong được sản xuất đang giảm trong những năm này.
 
 Câu hỏi: Trong trường hợp đó, điều gì có thể đã gây ra sự tăng giá mật ong vào khoảng năm 2003?
 
-Để khám phá điều này, bạn có thể sử dụng lưới mặt cắt.
+Để khám phá điều này, bạn có thể sử dụng một lưới facet.
 
-## Lưới mặt cắt
+## Lưới facet
 
-Lưới mặt cắt lấy một khía cạnh của tập dữ liệu (trong trường hợp của chúng ta, bạn có thể chọn 'năm' để tránh tạo ra quá nhiều mặt cắt). Seaborn sau đó có thể tạo một biểu đồ cho mỗi mặt cắt của các tọa độ x và y bạn chọn để so sánh dễ dàng hơn. Liệu năm 2003 có nổi bật trong loại so sánh này?
+Lưới facet lấy một khía cạnh của tập dữ liệu của bạn (trong trường hợp này, bạn có thể chọn 'năm' để tránh tạo quá nhiều facet). Seaborn sau đó có thể tạo một biểu đồ cho mỗi facet của các tọa độ x và y bạn chọn để so sánh dễ dàng hơn. Liệu năm 2003 có nổi bật trong loại so sánh này?
 
-Tạo một lưới mặt cắt bằng cách tiếp tục sử dụng `relplot` như được khuyến nghị bởi [tài liệu của Seaborn](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid).
+Tạo một lưới facet bằng cách tiếp tục sử dụng `relplot` như được khuyến nghị bởi [tài liệu của Seaborn](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid). 
 
 ```python
 sns.relplot(
@@ -135,16 +135,17 @@ sns.relplot(
     col="year", 
     col_wrap=3,
     kind="line"
+    )
 ```
-Trong hình dung này, bạn có thể so sánh sản lượng mỗi đàn và số lượng đàn ong qua từng năm, cạnh nhau với số cột được đặt là 3:
+Trong hình dung này, bạn có thể so sánh sản lượng mỗi đàn và số lượng đàn ong theo năm, cạnh nhau với wrap được đặt là 3 cho các cột:
 
-![facet grid](../../../../3-Data-Visualization/12-visualization-relationships/images/facet.png)
+![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.vi.png)
 
-Đối với tập dữ liệu này, không có điều gì đặc biệt nổi bật liên quan đến số lượng đàn ong và sản lượng của chúng, qua từng năm và từng bang. Liệu có cách nào khác để tìm mối tương quan giữa hai biến này?
+Đối với tập dữ liệu này, không có gì đặc biệt nổi bật liên quan đến số lượng đàn ong và sản lượng của chúng theo năm và theo bang. Có cách nào khác để tìm mối tương quan giữa hai biến này không?
 
 ## Biểu đồ đường kép
 
-Thử một biểu đồ đường nhiều dòng bằng cách chồng hai biểu đồ đường lên nhau, sử dụng 'despine' của Seaborn để loại bỏ các cạnh trên và phải, và sử dụng `ax.twinx` [dựa trên Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx cho phép một biểu đồ chia sẻ trục x và hiển thị hai trục y. Vì vậy, hiển thị sản lượng mỗi đàn và số lượng đàn ong, chồng lên nhau:
+Thử một biểu đồ đa đường bằng cách chồng hai biểu đồ đường lên nhau, sử dụng 'despine' của Seaborn để loại bỏ các cạnh trên và phải, và sử dụng `ax.twinx` [dựa trên Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx cho phép một biểu đồ chia sẻ trục x và hiển thị hai trục y. Vì vậy, hiển thị sản lượng mỗi đàn và số lượng đàn ong, chồng lên nhau:
 
 ```python
 fig, ax = plt.subplots(figsize=(12,6))
@@ -161,22 +162,22 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../3-Data-Visualization/12-visualization-relationships/images/dual-line.png)
+![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.vi.png)
 
-Mặc dù không có điều gì nổi bật vào khoảng năm 2003, nhưng điều này cho phép chúng ta kết thúc bài học với một ghi chú tích cực hơn: mặc dù số lượng đàn ong đang giảm, nhưng số lượng đàn ong đang ổn định ngay cả khi sản lượng mỗi đàn đang giảm.
+Mặc dù không có gì nổi bật vào khoảng năm 2003, nó cho phép chúng ta kết thúc bài học này với một ghi chú tích cực hơn: mặc dù số lượng đàn ong đang giảm, số lượng đàn ong đang ổn định ngay cả khi sản lượng mỗi đàn đang giảm.
 
-Cố lên, những chú ong! 🐝❤️
+Cố lên, ong nhé!
 
+🐝❤️
 ## 🚀 Thử thách
 
-Trong bài học này, bạn đã học thêm về các cách sử dụng khác của biểu đồ phân tán và lưới mặt cắt, bao gồm cả lưới mặt cắt. Thử thách bản thân để tạo một lưới mặt cắt sử dụng một tập dữ liệu khác, có thể là một tập dữ liệu bạn đã sử dụng trước đó trong các bài học này. Lưu ý thời gian tạo và cần cẩn thận như thế nào về số lượng lưới bạn cần vẽ bằng các kỹ thuật này.
+Trong bài học này, bạn đã học thêm về các cách sử dụng biểu đồ phân tán và lưới đường, bao gồm lưới facet. Thử thách bản thân để tạo một lưới facet sử dụng một tập dữ liệu khác, có thể là một tập dữ liệu bạn đã sử dụng trước đây trong các bài học này. Lưu ý thời gian tạo và cách bạn cần cẩn thận về số lượng lưới cần vẽ khi sử dụng các kỹ thuật này.
 
 ## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ds/quiz/23)
 
 ## Ôn tập & Tự học
 
 Biểu đồ đường có thể đơn giản hoặc khá phức tạp. Hãy đọc thêm trong [tài liệu của Seaborn](https://seaborn.pydata.org/generated/seaborn.lineplot.html) về các cách khác nhau bạn có thể xây dựng chúng. Thử cải thiện các biểu đồ đường bạn đã tạo trong bài học này bằng các phương pháp khác được liệt kê trong tài liệu.
-
 ## Bài tập
 
 [Khám phá tổ ong](assignment.md)

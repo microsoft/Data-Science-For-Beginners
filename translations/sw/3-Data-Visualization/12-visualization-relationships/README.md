@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "44de95649fcec43643cbe3962f904331",
-  "translation_date": "2025-09-05T17:14:15+00:00",
+  "original_hash": "0764fd4077f3f04a1d968ec371227744",
+  "translation_date": "2025-09-06T11:44:30+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "sw"
 }
@@ -13,19 +13,19 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Kuonyesha Mahusiano - _Sketchnote na [@nitya](https://twitter.com/nitya)_ |
 
-Tukiendelea na mtazamo wa asili katika utafiti wetu, hebu tujifunze mbinu za kuvutia za kuonyesha mahusiano kati ya aina mbalimbali za asali, kulingana na seti ya data iliyotolewa na [Idara ya Kilimo ya Marekani](https://www.nass.usda.gov/About_NASS/index.php).
+Tukiendelea na mtazamo wa asili katika utafiti wetu, hebu tujifunze njia za kuvutia za kuonyesha mahusiano kati ya aina mbalimbali za asali, kulingana na seti ya data iliyotolewa na [Idara ya Kilimo ya Marekani](https://www.nass.usda.gov/About_NASS/index.php).
 
-Seti hii ya data yenye takriban vitu 600 inaonyesha uzalishaji wa asali katika majimbo mengi ya Marekani. Kwa mfano, unaweza kuchunguza idadi ya makoloni, mavuno kwa kila koloni, uzalishaji wa jumla, akiba, bei kwa pauni, na thamani ya asali iliyozalishwa katika jimbo fulani kuanzia mwaka 1998-2012, na safu moja kwa kila mwaka kwa kila jimbo.
+Seti hii ya data yenye takriban vitu 600 inaonyesha uzalishaji wa asali katika majimbo mengi ya Marekani. Kwa mfano, unaweza kuangalia idadi ya makoloni, mavuno kwa kila koloni, uzalishaji wa jumla, akiba, bei kwa pauni, na thamani ya asali iliyozalishwa katika jimbo fulani kuanzia mwaka 1998-2012, na safu moja kwa kila mwaka kwa kila jimbo.
 
-Itakuwa ya kuvutia kuonyesha mahusiano kati ya uzalishaji wa jimbo fulani kwa mwaka na, kwa mfano, bei ya asali katika jimbo hilo. Vinginevyo, unaweza kuonyesha mahusiano kati ya mavuno ya asali kwa kila koloni katika majimbo mbalimbali. Kipindi hiki cha miaka kinajumuisha tukio la kusikitisha la 'CCD' au 'Colony Collapse Disorder' lililoonekana kwa mara ya kwanza mwaka 2006 (http://npic.orst.edu/envir/ccd.html), kwa hivyo ni seti ya data yenye umuhimu wa kusoma. 🐝
+Itakuwa ya kuvutia kuonyesha mahusiano kati ya uzalishaji wa jimbo fulani kwa mwaka na, kwa mfano, bei ya asali katika jimbo hilo. Vinginevyo, unaweza kuonyesha mahusiano kati ya mavuno ya asali kwa kila koloni katika majimbo mbalimbali. Kipindi hiki cha miaka kinajumuisha tukio la kusikitisha la 'CCD' au 'Colony Collapse Disorder' lililoonekana kwa mara ya kwanza mwaka 2006 (http://npic.orst.edu/envir/ccd.html), kwa hivyo ni seti ya data yenye umuhimu wa kipekee wa kusoma. 🐝
 
-## [Jaribio la awali la somo](https://ff-quizzes.netlify.app/en/ds/quiz/22)
+## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ds/quiz/22)
 
 Katika somo hili, unaweza kutumia Seaborn, ambayo umewahi kuitumia hapo awali, kama maktaba nzuri ya kuonyesha mahusiano kati ya vigezo. Jambo la kuvutia hasa ni matumizi ya kipengele cha `relplot` cha Seaborn ambacho huruhusu grafu za alama na grafu za mistari kuonyesha haraka '[mahusiano ya takwimu](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', ambayo humsaidia mtaalamu wa data kuelewa vyema jinsi vigezo vinavyohusiana.
 
 ## Grafu za Alama
 
-Tumia grafu ya alama kuonyesha jinsi bei ya asali imebadilika, mwaka hadi mwaka, kwa kila jimbo. Seaborn, kwa kutumia `relplot`, huweka data ya majimbo pamoja na kuonyesha alama za data kwa data ya kategoria na ya nambari.
+Tumia grafu ya alama kuonyesha jinsi bei ya asali imebadilika, mwaka hadi mwaka, kwa kila jimbo. Seaborn, kwa kutumia `relplot`, huweka data ya majimbo pamoja na kuonyesha alama za data kwa data ya kategoria na ya namba.
 
 Hebu tuanze kwa kuingiza data na Seaborn:
 
@@ -46,21 +46,21 @@ Unagundua kuwa data ya asali ina safu kadhaa za kuvutia, zikiwemo mwaka na bei k
 | CA    | 450000 | 83          | 37350000  | 12326000 | 0.62       | 23157000  | 1998 |
 | CO    | 27000  | 72          | 1944000   | 1594000  | 0.7        | 1361000   | 1998 |
 
-Tengeneza grafu ya msingi ya alama kuonyesha mahusiano kati ya bei kwa pauni ya asali na jimbo la asili la asali hiyo. Fanya mhimili wa `y` uwe mrefu vya kutosha kuonyesha majimbo yote:
+Unda grafu ya msingi ya alama kuonyesha mahusiano kati ya bei kwa pauni ya asali na jimbo la asili. Fanya mhimili wa `y` uwe mrefu vya kutosha kuonyesha majimbo yote:
 
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter1.png)
+![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.sw.png)
 
-Sasa, onyesha data hiyo hiyo kwa kutumia mpangilio wa rangi ya asali ili kuonyesha jinsi bei inavyobadilika mwaka hadi mwaka. Unaweza kufanya hivi kwa kuongeza kipengele cha 'hue' kuonyesha mabadiliko, mwaka hadi mwaka:
+Sasa, onyesha data hiyo hiyo kwa mpangilio wa rangi ya asali ili kuonyesha jinsi bei inavyobadilika mwaka hadi mwaka. Unaweza kufanya hivi kwa kuongeza kipengele cha 'hue' kuonyesha mabadiliko, mwaka hadi mwaka:
 
 > ✅ Jifunze zaidi kuhusu [paleti za rangi unazoweza kutumia katika Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) - jaribu mpangilio mzuri wa rangi za upinde wa mvua!
 
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter2.png)
+![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.sw.png)
 
 Kwa mabadiliko haya ya mpangilio wa rangi, unaweza kuona wazi kuwa kuna mwelekeo wa ongezeko la bei kwa pauni ya asali mwaka hadi mwaka. Kwa kweli, ukichunguza seti ya sampuli katika data ili kuthibitisha (chagua jimbo fulani, Arizona kwa mfano) unaweza kuona mwelekeo wa ongezeko la bei mwaka hadi mwaka, isipokuwa kwa baadhi ya miaka:
 
@@ -82,51 +82,51 @@ Kwa mabadiliko haya ya mpangilio wa rangi, unaweza kuona wazi kuwa kuna mwelekeo
 | AZ    | 23000  | 53          | 1219000   | 427000  | 1.55       | 1889000   | 2011 |
 | AZ    | 22000  | 46          | 1012000   | 253000  | 1.79       | 1811000   | 2012 |
 
-Njia nyingine ya kuonyesha mwelekeo huu ni kutumia ukubwa badala ya rangi. Kwa watumiaji wenye matatizo ya kuona rangi, hii inaweza kuwa chaguo bora. Hariri grafu yako kuonyesha ongezeko la bei kwa ongezeko la mduara wa alama:
+Njia nyingine ya kuonyesha mwelekeo huu ni kutumia ukubwa badala ya rangi. Kwa watumiaji wenye matatizo ya kuona rangi, hii inaweza kuwa chaguo bora. Hariri grafu yako ili kuonyesha ongezeko la bei kwa ongezeko la mduara wa alama:
 
 ```python
 sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspect=.5);
 ```
-Unaweza kuona ukubwa wa alama ukiongezeka polepole.
+Unaweza kuona ukubwa wa alama ukiongezeka hatua kwa hatua.
 
-![scatterplot 3](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter3.png)
+![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.sw.png)
 
-Je, hili ni suala rahisi la mahitaji na usambazaji? Kutokana na mambo kama mabadiliko ya hali ya hewa na kuporomoka kwa makoloni, je, kuna asali kidogo inayopatikana kwa ununuzi mwaka hadi mwaka, na hivyo bei inaongezeka?
+Je, hili ni suala rahisi la mahitaji na usambazaji? Kutokana na mambo kama mabadiliko ya hali ya hewa na kuporomoka kwa makoloni, je, kuna asali kidogo inayopatikana kwa ununuzi mwaka hadi mwaka, na hivyo bei kuongezeka?
 
 Ili kugundua uhusiano kati ya baadhi ya vigezo katika seti hii ya data, hebu tuchunguze grafu za mistari.
 
 ## Grafu za Mistari
 
-Swali: Je, kuna ongezeko dhahiri la bei ya asali kwa pauni mwaka hadi mwaka? Unaweza kugundua hili kwa urahisi kwa kutengeneza grafu moja ya mstari:
+Swali: Je, kuna ongezeko dhahiri la bei ya asali kwa pauni mwaka hadi mwaka? Unaweza kugundua hili kwa urahisi kwa kuunda grafu moja ya mstari:
 
 ```python
 sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Jibu: Ndiyo, isipokuwa kwa baadhi ya miaka kama 2003:
 
-![line chart 1](../../../../3-Data-Visualization/12-visualization-relationships/images/line1.png)
+![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.sw.png)
 
 ✅ Kwa sababu Seaborn inakusanya data kuzunguka mstari mmoja, inaonyesha "vipimo vingi kwa kila thamani ya x kwa kuonyesha wastani na kipimo cha kujiamini cha 95% kuzunguka wastani". [Chanzo](https://seaborn.pydata.org/tutorial/relational.html). Tabia hii inayochukua muda inaweza kuzimwa kwa kuongeza `ci=None`.
 
-Swali: Vema, mwaka 2003 tunaweza pia kuona ongezeko la usambazaji wa asali? Je, ukichunguza uzalishaji wa jumla mwaka hadi mwaka?
+Swali: Vema, mwaka 2003 tunaweza pia kuona ongezeko la usambazaji wa asali? Je, ukitazama uzalishaji wa jumla mwaka hadi mwaka?
 
 ```python
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../3-Data-Visualization/12-visualization-relationships/images/line2.png)
+![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.sw.png)
 
-Jibu: Sio kweli. Ukichunguza uzalishaji wa jumla, inaonekana kuwa uliongezeka katika mwaka huo, ingawa kwa ujumla uzalishaji wa asali unaonekana kupungua katika miaka hiyo.
+Jibu: Sio kweli. Ukitazama uzalishaji wa jumla, inaonekana kuwa uliongezeka katika mwaka huo, ingawa kwa ujumla uzalishaji wa asali unaonekana kupungua katika miaka hiyo.
 
 Swali: Katika hali hiyo, ni nini kingeweza kusababisha ongezeko la bei ya asali karibu na mwaka 2003?
 
 Ili kugundua hili, unaweza kuchunguza gridi ya vipengele.
 
-## Gridi za Vipengele
+## Gridi ya Vipengele
 
-Gridi za vipengele huchukua kipengele kimoja cha seti yako ya data (katika hali yetu, unaweza kuchagua 'mwaka' ili kuepuka kuwa na vipengele vingi vilivyotengenezwa). Seaborn inaweza kisha kutengeneza grafu kwa kila kipengele cha x na y ulichokichagua kwa kulinganisha kwa urahisi. Je, mwaka 2003 unajitokeza katika aina hii ya kulinganisha?
+Gridi ya vipengele huchukua kipengele kimoja cha seti yako ya data (katika hali yetu, unaweza kuchagua 'mwaka' ili kuepuka kuzalisha vipengele vingi sana). Seaborn inaweza kisha kutengeneza grafu kwa kila kipengele cha x na y unazochagua kwa kulinganisha kwa urahisi. Je, mwaka 2003 unajitokeza katika aina hii ya kulinganisha?
 
-Tengeneza gridi ya vipengele kwa kuendelea kutumia `relplot` kama inavyopendekezwa na [nyaraka za Seaborn](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid).
+Unda gridi ya vipengele kwa kuendelea kutumia `relplot` kama inavyopendekezwa na [hati za Seaborn](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid).
 
 ```python
 sns.relplot(
@@ -135,12 +135,13 @@ sns.relplot(
     col="year", 
     col_wrap=3,
     kind="line"
+    )
 ```
-Katika grafu hii, unaweza kulinganisha mavuno kwa kila koloni na idadi ya makoloni mwaka hadi mwaka, sambamba na safu zilizowekwa 3 kwa kila safu:
+Katika grafu hii, unaweza kulinganisha mavuno kwa kila koloni na idadi ya makoloni mwaka hadi mwaka, sambamba na mpangilio wa safu 3:
 
-![facet grid](../../../../3-Data-Visualization/12-visualization-relationships/images/facet.png)
+![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.sw.png)
 
-Kwa seti hii ya data, hakuna kitu kinachojitokeza hasa kuhusu idadi ya makoloni na mavuno yao, mwaka hadi mwaka na jimbo hadi jimbo. Je, kuna njia tofauti ya kutafuta uhusiano kati ya vigezo hivi viwili?
+Kwa seti hii ya data, hakuna kitu kinachojitokeza hasa kuhusu idadi ya makoloni na mavuno yao, mwaka hadi mwaka na jimbo hadi jimbo. Je, kuna njia tofauti ya kutazama uhusiano kati ya vigezo hivi viwili?
 
 ## Grafu za Mistari Mbili
 
@@ -161,28 +162,28 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../3-Data-Visualization/12-visualization-relationships/images/dual-line.png)
+![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.sw.png)
 
-Ingawa hakuna kitu kinachojitokeza kwa macho karibu na mwaka 2003, inaturuhusu kumaliza somo hili kwa mtazamo wa furaha kidogo: ingawa kuna kupungua kwa idadi ya makoloni kwa ujumla, idadi ya makoloni inaonekana kuwa imara hata kama mavuno yao kwa kila koloni yanapungua.
+Ingawa hakuna kitu kinachojitokeza kwa macho karibu na mwaka 2003, inaturuhusu kumaliza somo hili kwa maelezo ya furaha kidogo: ingawa kuna idadi inayopungua ya makoloni, idadi ya makoloni inastabilisha hata kama mavuno yao kwa kila koloni yanapungua.
 
 Endeleeni nyuki, endeleeni!
 
 🐝❤️
 ## 🚀 Changamoto
 
-Katika somo hili, umejifunza zaidi kuhusu matumizi mengine ya grafu za alama na gridi za mistari, ikiwemo gridi za vipengele. Jipatie changamoto ya kutengeneza gridi ya vipengele kwa kutumia seti tofauti ya data, labda moja uliyotumia kabla ya masomo haya. Angalia muda unaochukua kutengeneza na jinsi unavyohitaji kuwa makini kuhusu idadi ya gridi unazohitaji kuchora kwa kutumia mbinu hizi.
+Katika somo hili, umejifunza zaidi kuhusu matumizi mengine ya grafu za alama na gridi za mistari, ikiwemo gridi za vipengele. Jipatie changamoto ya kuunda gridi ya vipengele kwa kutumia seti tofauti ya data, labda moja uliyoitumia kabla ya masomo haya. Angalia muda wanaochukua kuunda na jinsi unavyohitaji kuwa makini kuhusu idadi ya gridi unazohitaji kuchora kwa kutumia mbinu hizi.
 
 ## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ds/quiz/23)
 
 ## Mapitio na Kujisomea
 
-Grafu za mistari zinaweza kuwa rahisi au ngumu sana. Soma kidogo katika [nyaraka za Seaborn](https://seaborn.pydata.org/generated/seaborn.lineplot.html) kuhusu njia mbalimbali unazoweza kuzitumia kujenga grafu hizi. Jaribu kuboresha grafu za mistari ulizotengeneza katika somo hili kwa kutumia mbinu nyingine zilizoorodheshwa katika nyaraka.
+Grafu za mistari zinaweza kuwa rahisi au ngumu sana. Fanya usomaji kidogo katika [hati za Seaborn](https://seaborn.pydata.org/generated/seaborn.lineplot.html) kuhusu njia mbalimbali unazoweza kuzitumia kuzijenga. Jaribu kuboresha grafu za mistari ulizojenga katika somo hili kwa kutumia mbinu nyingine zilizoorodheshwa katika hati.
 
-## Kazi ya Nyumbani
+## Kazi
 
 [Chunguza mzinga wa nyuki](assignment.md)
 
 ---
 
 **Kanusho**:  
-Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kwa usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, inashauriwa kutumia huduma ya tafsiri ya kitaalamu ya binadamu. Hatutawajibika kwa maelewano mabaya au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
