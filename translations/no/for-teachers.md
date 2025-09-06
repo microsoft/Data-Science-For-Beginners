@@ -1,43 +1,41 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "87f157ea00d36c1d12c14390d9852b50",
-  "translation_date": "2025-08-26T20:43:50+00:00",
+  "original_hash": "f7440be10c17a8a9262713af3d2818a9",
+  "translation_date": "2025-09-06T19:58:01+00:00",
   "source_file": "for-teachers.md",
   "language_code": "no"
 }
 -->
 ## For lærere
 
-Ønsker du å bruke dette pensumet i klasserommet ditt? Vær så god!
+Vil du bruke denne læreplanen i klasserommet ditt? Vær så god!
 
-Faktisk kan du bruke det direkte på GitHub ved å bruke GitHub Classroom.
+Faktisk kan du bruke den direkte på GitHub ved å bruke GitHub Classroom.
 
-For å gjøre det, fork denne repoen. Du må opprette en repo for hver leksjon, så du må trekke ut hver mappe til en separat repo. På den måten kan [GitHub Classroom](https://classroom.github.com/classrooms) hente hver leksjon separat.
+For å gjøre det, lag en fork av dette repoet. Du må opprette et repo for hver leksjon, så du må trekke ut hver mappe til et eget repo. På den måten kan [GitHub Classroom](https://classroom.github.com/classrooms) hente opp hver leksjon separat.
 
 Disse [fullstendige instruksjonene](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) gir deg en idé om hvordan du kan sette opp klasserommet ditt.
 
-## Bruke repoen som den er
+## Bruke repoet som det er
 
-Hvis du ønsker å bruke denne repoen slik den står, uten å bruke GitHub Classroom, kan det også gjøres. Du må kommunisere med studentene dine om hvilken leksjon dere skal jobbe med sammen.
+Hvis du ønsker å bruke dette repoet slik det står, uten å bruke GitHub Classroom, er det også mulig. Du må kommunisere med studentene dine om hvilken leksjon dere skal jobbe med sammen.
 
-I et nettbasert format (Zoom, Teams eller andre) kan du opprette grupperom for quizene og veilede studentene for å hjelpe dem med å forberede seg på læring. Deretter kan du invitere studentene til quizene og be dem sende inn svarene som 'issues' på et bestemt tidspunkt. Du kan gjøre det samme med oppgaver, hvis du ønsker at studentene skal jobbe sammen i det åpne.
+I et nettbasert format (Zoom, Teams eller andre) kan du opprette grupperom for quizene og veilede studentene for å hjelpe dem med å forberede seg på læring. Deretter kan du invitere studentene til å ta quizene og sende inn svarene sine som 'issues' på et bestemt tidspunkt. Du kan gjøre det samme med oppgaver hvis du ønsker at studentene skal jobbe sammen i det åpne.
 
-Hvis du foretrekker et mer privat format, kan du be studentene dine om å fork pensumet, leksjon for leksjon, til sine egne private GitHub-repoer og gi deg tilgang. Da kan de fullføre quizene og oppgavene privat og sende dem til deg via issues på klasseromsrepoen din.
+Hvis du foretrekker et mer privat format, kan du be studentene dine om å forke læreplanen, leksjon for leksjon, til sine egne private GitHub-repoer og gi deg tilgang. Da kan de fullføre quizer og oppgaver privat og sende dem til deg via issues på klasseromsrepoet ditt.
 
 Det finnes mange måter å få dette til å fungere i et nettbasert klasseromsformat. Gi oss gjerne beskjed om hva som fungerer best for deg!
 
-## Inkludert i dette pensumet:
+## Inkludert i denne læreplanen:
 
-20 leksjoner, 40 quizer og 20 oppgaver. Sketchnotes følger med leksjonene for visuelle elever. Mange leksjoner er tilgjengelige både i Python og R og kan fullføres ved hjelp av Jupyter-notebooks i VS Code. Lær mer om hvordan du kan sette opp klasserommet ditt for å bruke denne teknologistakken: https://code.visualstudio.com/docs/datascience/jupyter-notebooks.
+20 leksjoner, 40 quizer og 20 oppgaver. Sketchnotes følger med leksjonene for visuelle elever. Mange leksjoner er tilgjengelige både i Python og R og kan fullføres ved hjelp av Jupyter-notatbøker i VS Code. Lær mer om hvordan du setter opp klasserommet ditt for å bruke denne teknologistakken: https://code.visualstudio.com/docs/datascience/jupyter-notebooks.
 
-Alle sketchnotes, inkludert en storformat plakat, finnes i [denne mappen](../../sketchnotes).
+Alle sketchnotes, inkludert en plakat i stort format, finnes i [denne mappen](../../sketchnotes).
 
-Hele pensumet er tilgjengelig [som en PDF](../../pdf/readme.pdf).
+Du kan også kjøre denne læreplanen som et frittstående, offline-vennlig nettsted ved å bruke [Docsify](https://docsify.js.org/#/). [Installer Docsify](https://docsify.js.org/#/quickstart) på din lokale maskin, og skriv deretter `docsify serve` i rotmappen til din lokale kopi av dette repoet. Nettstedet vil bli servert på port 3000 på localhost: `localhost:3000`.
 
-Du kan også kjøre dette pensumet som et frittstående, offline-vennlig nettsted ved å bruke [Docsify](https://docsify.js.org/#/). [Installer Docsify](https://docsify.js.org/#/quickstart) på din lokale maskin, og skriv deretter `docsify serve` i rotmappen til din lokale kopi av denne repoen. Nettstedet vil bli servert på port 3000 på localhost: `localhost:3000`.
-
-En offline-vennlig versjon av pensumet vil åpne som en frittstående nettside: https://localhost:3000
+En offline-vennlig versjon av læreplanen vil åpnes som en frittstående nettside: https://localhost:3000
 
 Leksjonene er gruppert i 6 deler:
 
@@ -57,7 +55,7 @@ Leksjonene er gruppert i 6 deler:
     - 11: Visualisering av proporsjoner
     - 12: Visualisering av relasjoner
     - 13: Meningsfulle visualiseringer
-- 4: Livssyklus for datavitenskap
+- 4: Datavitenskapens livssyklus
     - 14: Introduksjon
     - 15: Analyse
     - 16: Kommunikasjon
@@ -70,9 +68,9 @@ Leksjonene er gruppert i 6 deler:
 
 ## Gi oss dine tanker!
 
-Vi ønsker å gjøre dette pensumet nyttig for deg og dine studenter. Gi oss tilbakemelding på diskusjonsforumene! Du kan gjerne opprette et klasseromsområde på diskusjonsforumene for studentene dine.
+Vi ønsker å gjøre denne læreplanen nyttig for deg og studentene dine. Gi oss tilbakemeldinger i diskusjonsforumene! Du kan også opprette et klasseromsområde i diskusjonsforumene for studentene dine.
 
 ---
 
 **Ansvarsfraskrivelse**:  
-Dette dokumentet er oversatt ved hjelp av AI-oversettelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selv om vi streber etter nøyaktighet, vær oppmerksom på at automatiserte oversettelser kan inneholde feil eller unøyaktigheter. Det originale dokumentet på sitt opprinnelige språk bør anses som den autoritative kilden. For kritisk informasjon anbefales profesjonell menneskelig oversettelse. Vi er ikke ansvarlige for misforståelser eller feiltolkninger som oppstår ved bruk av denne oversettelsen.
+Dette dokumentet er oversatt ved hjelp av AI-oversettelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selv om vi tilstreber nøyaktighet, vennligst vær oppmerksom på at automatiske oversettelser kan inneholde feil eller unøyaktigheter. Det originale dokumentet på sitt opprinnelige språk bør anses som den autoritative kilden. For kritisk informasjon anbefales profesjonell menneskelig oversettelse. Vi er ikke ansvarlige for eventuelle misforståelser eller feiltolkninger som oppstår ved bruk av denne oversettelsen.

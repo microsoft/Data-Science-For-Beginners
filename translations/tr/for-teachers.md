@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "87f157ea00d36c1d12c14390d9852b50",
-  "translation_date": "2025-08-28T10:36:16+00:00",
+  "original_hash": "f7440be10c17a8a9262713af3d2818a9",
+  "translation_date": "2025-09-06T19:56:46+00:00",
   "source_file": "for-teachers.md",
   "language_code": "tr"
 }
@@ -11,31 +11,29 @@ CO_OP_TRANSLATOR_METADATA:
 
 Bu müfredatı sınıfınızda kullanmak ister misiniz? Lütfen çekinmeden kullanın!
 
-Aslında, GitHub Classroom kullanarak GitHub üzerinden de kullanabilirsiniz.
+Aslında, GitHub Classroom kullanarak bu müfredatı doğrudan GitHub üzerinde kullanabilirsiniz.
 
-Bunu yapmak için, bu depoyu çatallayın. Her ders için ayrı bir depo oluşturmanız gerekecek, bu yüzden her klasörü ayrı bir depoya ayırmanız gerekecek. Böylece [GitHub Classroom](https://classroom.github.com/classrooms) her dersi ayrı ayrı alabilir.
+Bunu yapmak için, bu depoyu fork'layın. Her ders için ayrı bir depo oluşturmanız gerekecek, bu yüzden her klasörü ayrı bir depoya çıkarmanız gerekecek. Bu şekilde, [GitHub Classroom](https://classroom.github.com/classrooms) her dersi ayrı ayrı alabilir.
 
-Bu [tam talimatlar](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) sınıfınızı nasıl kuracağınız konusunda size fikir verecektir.
+Bu [tam talimatlar](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) sınıfınızı nasıl kuracağınız konusunda size bir fikir verecektir.
 
 ## Depoyu Olduğu Gibi Kullanma
 
 Eğer bu depoyu şu anki haliyle, GitHub Classroom kullanmadan kullanmak isterseniz, bu da mümkün. Öğrencilerinizle hangi dersi birlikte çalışacağınızı iletişim kurmanız gerekecek.
 
-Çevrimiçi bir formatta (Zoom, Teams veya diğerleri) sınavlar için gruplar oluşturabilir ve öğrencileri öğrenmeye hazırlanmaları için yönlendirebilirsiniz. Ardından öğrencileri sınavlara davet edebilir ve cevaplarını belirli bir zamanda 'issue' olarak göndermelerini isteyebilirsiniz. Aynı şeyi ödevler için de yapabilirsiniz, eğer öğrencilerin açık bir şekilde iş birliği yapmasını istiyorsanız.
+Çevrimiçi bir formatta (Zoom, Teams veya başka bir platform) sınavlar için gruplar oluşturabilir ve öğrencileri öğrenmeye hazırlanmaları için yönlendirebilirsiniz. Daha sonra öğrencileri sınavlara davet edebilir ve cevaplarını belirli bir zamanda 'issue' olarak göndermelerini isteyebilirsiniz. Aynı şeyi ödevler için de yapabilirsiniz, eğer öğrencilerin açık bir şekilde iş birliği yapmasını istiyorsanız.
 
-Daha özel bir format tercih ederseniz, öğrencilerinizden müfredatı ders ders kendi GitHub depolarına, özel depolar olarak çatallamalarını isteyebilir ve size erişim verebilirler. Ardından sınavları ve ödevleri özel olarak tamamlayabilir ve bunları sınıf deponuzdaki 'issue'lar aracılığıyla size gönderebilirler.
+Daha özel bir format tercih ederseniz, öğrencilerinizden müfredatı ders ders kendi GitHub depolarına, özel depolar olarak fork'lamalarını isteyebilir ve size erişim verebilirler. Daha sonra sınavları ve ödevleri özel olarak tamamlayabilir ve bunları sınıf deponuzdaki 'issue'lar aracılığıyla size gönderebilirler.
 
-Çevrimiçi sınıf formatında bunu çalıştırmanın birçok yolu var. Lütfen sizin için en iyi çalışan yöntemi bizimle paylaşın!
+Çevrimiçi sınıf formatında bunu çalıştırmanın birçok yolu vardır. Sizin için en iyi neyin işe yaradığını bize bildirin!
 
 ## Bu Müfredatta Neler Var:
 
-20 ders, 40 sınav ve 20 ödev. Görsel öğrenenler için derslere eşlik eden çizim notları. Birçok ders hem Python hem de R ile sunuluyor ve VS Code'daki Jupyter defterleri kullanılarak tamamlanabiliyor. Bu teknoloji yığınıyla sınıfınızı nasıl kuracağınızı öğrenmek için: https://code.visualstudio.com/docs/datascience/jupyter-notebooks.
+20 ders, 40 sınav ve 20 ödev. Görsel öğrenenler için derslere eşlik eden sketchnote'lar bulunmaktadır. Birçok ders hem Python hem de R ile sunulmaktadır ve VS Code'daki Jupyter notebook'ları kullanılarak tamamlanabilir. Bu teknoloji yığınını kullanmak için sınıfınızı nasıl kuracağınızı öğrenin: https://code.visualstudio.com/docs/datascience/jupyter-notebooks.
 
-Tüm çizim notları, büyük formatlı bir poster de dahil olmak üzere [bu klasörde](../../sketchnotes) bulunuyor.
+Tüm sketchnote'lar, büyük boyutlu bir poster de dahil olmak üzere, [bu klasörde](../../sketchnotes) bulunmaktadır.
 
-Tüm müfredat [PDF olarak](../../pdf/readme.pdf) mevcuttur.
-
-Bu müfredatı bağımsız, çevrimdışı dostu bir web sitesi olarak çalıştırmak için [Docsify](https://docsify.js.org/#/) kullanabilirsiniz. [Docsify'i yükleyin](https://docsify.js.org/#/quickstart) yerel makinenize, ardından bu deponun yerel kopyasının kök klasöründe `docsify serve` yazın. Web sitesi localhost'unuzda 3000 portunda sunulacaktır: `localhost:3000`.
+Ayrıca bu müfredatı [Docsify](https://docsify.js.org/#/) kullanarak bağımsız, çevrimdışı dostu bir web sitesi olarak çalıştırabilirsiniz. [Docsify'i yükleyin](https://docsify.js.org/#/quickstart) yerel makinenize, ardından bu deponun yerel kopyasının kök klasöründe `docsify serve` yazın. Web sitesi localhost'unuzda 3000 portunda sunulacaktır: `localhost:3000`.
 
 Müfredatın çevrimdışı dostu bir versiyonu bağımsız bir web sayfası olarak açılacaktır: https://localhost:3000
 
@@ -46,13 +44,13 @@ Dersler 6 bölüme ayrılmıştır:
     - 2: Etik
     - 3: Veriyi Tanımlama
     - 4: Olasılık ve İstatistik Genel Bakış
-- 2: Veri ile Çalışma
+- 2: Verilerle Çalışma
     - 5: İlişkisel Veritabanları
     - 6: İlişkisel Olmayan Veritabanları
     - 7: Python
     - 8: Veri Hazırlama
 - 3: Veri Görselleştirme
-    - 9: Miktarların Görselleştirilmesi
+    - 9: Niceliklerin Görselleştirilmesi
     - 10: Dağılımların Görselleştirilmesi
     - 11: Oranların Görselleştirilmesi
     - 12: İlişkilerin Görselleştirilmesi
@@ -68,9 +66,9 @@ Dersler 6 bölüme ayrılmıştır:
 - 6: Gerçek Hayatta Veri Bilimi
     - 20: Genel Bakış
 
-## Lütfen Görüşlerinizi Paylaşın!
+## Lütfen Görüşlerinizi Bizimle Paylaşın!
 
-Bu müfredatı sizin ve öğrencileriniz için işe yarar hale getirmek istiyoruz. Lütfen tartışma panolarında geri bildirimde bulunun! Öğrencileriniz için tartışma panolarında bir sınıf alanı oluşturmakta özgürsünüz.
+Bu müfredatın sizin ve öğrencileriniz için işe yaramasını istiyoruz. Lütfen tartışma panolarında bize geri bildirimde bulunun! Öğrencileriniz için tartışma panolarında bir sınıf alanı oluşturmakta özgürsünüz.
 
 ---
 

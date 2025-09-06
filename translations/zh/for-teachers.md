@@ -1,50 +1,48 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "87f157ea00d36c1d12c14390d9852b50",
-  "translation_date": "2025-08-25T16:08:40+00:00",
+  "original_hash": "f7440be10c17a8a9262713af3d2818a9",
+  "translation_date": "2025-09-06T19:52:53+00:00",
   "source_file": "for-teachers.md",
   "language_code": "zh"
 }
 -->
 ## 给教育工作者
 
-您想在课堂上使用这套课程吗？请随意使用！
+想在课堂上使用这套课程吗？请随意使用！
 
-事实上，您可以直接在 GitHub 上使用它，通过 GitHub Classroom 来实现。
+事实上，您可以直接在 GitHub 上通过 GitHub Classroom 使用这套课程。
 
-为此，您需要 fork 此仓库。您需要为每节课创建一个单独的仓库，因此需要将每个文件夹提取到一个独立的仓库中。这样，[GitHub Classroom](https://classroom.github.com/classrooms) 就可以单独处理每节课。
+要做到这一点，请先 fork 此仓库。您需要为每节课创建一个单独的仓库，因此需要将每个文件夹提取到一个独立的仓库中。这样，[GitHub Classroom](https://classroom.github.com/classrooms) 就可以分别识别每节课。
 
-这些[完整的说明](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/)可以帮助您了解如何设置您的课堂。
+这些[完整的说明](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/)将帮助您了解如何设置您的课堂。
 
 ## 按原样使用此仓库
 
-如果您希望按当前形式使用此仓库，而不使用 GitHub Classroom，也完全可以实现。您需要与学生沟通，共同完成每节课的学习。
+如果您希望按当前形式使用此仓库，而不使用 GitHub Classroom，也完全可以。您需要与学生沟通，一起完成哪一节课程。
 
-在在线教学环境中（如 Zoom、Teams 或其他平台），您可以为测验创建分组讨论室，并指导学生做好学习准备。然后邀请学生参加测验，并在规定时间内以“问题”的形式提交答案。如果您希望学生公开协作完成作业，也可以采用类似的方式。
+在在线教学环境中（如 Zoom、Teams 或其他平台），您可以为测验创建分组讨论室，并指导学生为学习做好准备。然后邀请学生参加测验，并在特定时间以“issue”的形式提交答案。如果您希望学生公开协作完成作业，也可以采用相同的方式。
 
-如果您更倾向于私密的教学方式，可以让学生逐节 fork 课程到他们自己的 GitHub 私有仓库，并授予您访问权限。这样，他们可以私密地完成测验和作业，并通过您课堂仓库中的问题提交给您。
+如果您更喜欢更私密的形式，可以让学生逐节 fork 课程到他们自己的 GitHub 私有仓库，并授予您访问权限。这样，他们可以私下完成测验和作业，并通过您课堂仓库中的 issue 提交给您。
 
-在在线课堂中有许多方法可以实现这些目标。请告诉我们哪种方式最适合您！
+在在线课堂中，有很多方法可以让这套课程发挥作用。请告诉我们哪种方式最适合您！
 
-## 课程内容包括：
+## 本课程包含内容：
 
-20节课、40个测验和20个作业。课程配有手绘笔记，适合视觉学习者。许多课程同时提供 Python 和 R 的版本，可以通过 VS Code 中的 Jupyter notebooks 完成。了解更多关于如何设置您的课堂以使用这些技术栈的信息：https://code.visualstudio.com/docs/datascience/jupyter-notebooks。
+20 节课程，40 个测验，以及 20 个作业。课程配有手绘笔记，适合视觉型学习者。许多课程同时提供 Python 和 R 的版本，可以通过 VS Code 中的 Jupyter notebooks 完成。了解更多关于如何设置课堂以使用这套技术栈的信息：https://code.visualstudio.com/docs/datascience/jupyter-notebooks。
 
 所有手绘笔记，包括一张大幅海报，都在[这个文件夹](../../sketchnotes)中。
 
-整个课程也可以[以 PDF 格式](../../pdf/readme.pdf)获取。
+您还可以使用 [Docsify](https://docsify.js.org/#/) 将这套课程作为一个独立的、离线友好的网站运行。[安装 Docsify](https://docsify.js.org/#/quickstart) 到您的本地机器，然后在本地副本的根文件夹中输入 `docsify serve`。网站将在本地的 3000 端口运行：`localhost:3000`。
 
-您还可以使用 [Docsify](https://docsify.js.org/#/) 将此课程作为独立的离线友好型网站运行。[安装 Docsify](https://docsify.js.org/#/quickstart)到您的本地机器，然后在您本地仓库的根文件夹中输入 `docsify serve`。网站将在您的本地端口 3000 上运行：`localhost:3000`。
+课程的离线友好版本将作为一个独立的网页打开：https://localhost:3000
 
-离线友好的课程版本将作为独立网页打开：https://localhost:3000
-
-课程分为6个部分：
+课程分为 6 个部分：
 
 - 1: 介绍
-    - 1: 数据科学定义
+    - 1: 数据科学的定义
     - 2: 伦理
-    - 3: 数据定义
+    - 3: 数据的定义
     - 4: 概率与统计概述
 - 2: 数据处理
     - 5: 关系型数据库
@@ -70,7 +68,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## 请告诉我们您的想法！
 
-我们希望这套课程能够满足您和学生的需求。请在讨论区中给我们反馈！欢迎您在讨论区为您的学生创建一个课堂专区。
+我们希望这套课程能为您和您的学生带来帮助。请在讨论区中给我们反馈！也可以在讨论区为您的学生创建一个课堂专区。
+
+---
 
 **免责声明**：  
-本文档使用AI翻译服务 [Co-op Translator](https://github.com/Azure/co-op-translator) 进行翻译。尽管我们努力确保翻译的准确性，但请注意，自动翻译可能包含错误或不准确之处。应以原始语言的文档作为权威来源。对于重要信息，建议使用专业人工翻译。我们不对因使用此翻译而产生的任何误解或误读承担责任。
+本文档使用AI翻译服务[Co-op Translator](https://github.com/Azure/co-op-translator)进行翻译。尽管我们努力确保准确性，但请注意，自动翻译可能包含错误或不准确之处。应以原始语言的文档作为权威来源。对于关键信息，建议使用专业人工翻译。因使用本翻译而导致的任何误解或误读，我们概不负责。

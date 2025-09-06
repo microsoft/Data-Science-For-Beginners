@@ -1,43 +1,41 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "87f157ea00d36c1d12c14390d9852b50",
-  "translation_date": "2025-08-28T15:02:41+00:00",
+  "original_hash": "f7440be10c17a8a9262713af3d2818a9",
+  "translation_date": "2025-09-06T19:58:32+00:00",
   "source_file": "for-teachers.md",
   "language_code": "nl"
 }
 -->
 ## Voor Docenten
 
-Wilt u dit curriculum in uw klas gebruiken? Voel u vrij!
+Wilt u deze lesstof in uw klas gebruiken? Voel u vrij!
 
 U kunt het zelfs direct binnen GitHub gebruiken door gebruik te maken van GitHub Classroom.
 
-Om dit te doen, fork deze repository. U zult een aparte repository moeten maken voor elke les, dus u moet elke map uit deze repository afzonderlijk extraheren. Op die manier kan [GitHub Classroom](https://classroom.github.com/classrooms) elke les apart oppakken.
+Om dat te doen, fork deze repo. U zult een aparte repo moeten maken voor elke les, dus u moet elke map uit de repo halen en in een aparte repo plaatsen. Op die manier kan [GitHub Classroom](https://classroom.github.com/classrooms) elke les afzonderlijk oppakken.
 
-Deze [volledige instructies](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) geven u een idee hoe u uw klaslokaal kunt opzetten.
+Deze [volledige instructies](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) geven u een idee hoe u uw klas kunt opzetten.
 
-## De repository gebruiken zoals deze is
+## De repo gebruiken zoals hij is
 
-Als u deze repository wilt gebruiken zoals deze nu is, zonder gebruik te maken van GitHub Classroom, is dat ook mogelijk. U moet dan met uw studenten communiceren over welke les gezamenlijk doorgewerkt moet worden.
+Als u deze repo wilt gebruiken zoals hij nu is, zonder GitHub Classroom, dan kan dat ook. U moet dan met uw studenten communiceren over welke les ze samen moeten doorlopen.
 
-In een online format (Zoom, Teams of andere) kunt u breakout rooms maken voor de quizzen en studenten begeleiden om zich voor te bereiden op het leren. Nodig vervolgens studenten uit om de quizzen te maken en hun antwoorden op een bepaald moment als 'issues' in te dienen. U kunt hetzelfde doen met opdrachten, als u wilt dat studenten in het openbaar samenwerken.
+In een online format (Zoom, Teams of andere) kunt u breakout rooms maken voor de quizzen en studenten begeleiden om hen klaar te maken om te leren. Vervolgens kunt u studenten uitnodigen om de quizzen te maken en hun antwoorden als 'issues' in te dienen op een bepaald moment. U kunt hetzelfde doen met opdrachten, als u wilt dat studenten openlijk en samen werken.
 
-Als u de voorkeur geeft aan een meer privéformat, vraag uw studenten dan om het curriculum, les voor les, te forken naar hun eigen GitHub-repositories als privé-repositories, en geef u toegang. Vervolgens kunnen ze quizzen en opdrachten privé voltooien en deze via issues op uw klaslokaal-repository aan u indienen.
+Als u liever een meer privéformat heeft, vraag uw studenten dan om de lesstof, les voor les, te forken naar hun eigen GitHub-repo's als privé-repo's en geef u toegang. Vervolgens kunnen ze quizzen en opdrachten privé voltooien en deze via issues op uw klasrepo aan u indienen.
 
-Er zijn veel manieren om dit te laten werken in een online klaslokaal. Laat ons weten wat voor u het beste werkt!
+Er zijn veel manieren om dit te laten werken in een online klasformat. Laat ons weten wat het beste voor u werkt!
 
-## Inbegrepen in dit curriculum:
+## Inbegrepen in deze lesstof:
 
-20 lessen, 40 quizzen en 20 opdrachten. Sketchnotes begeleiden de lessen voor visuele leerlingen. Veel lessen zijn beschikbaar in zowel Python als R en kunnen worden voltooid met behulp van Jupyter-notebooks in VS Code. Lees meer over hoe u uw klaslokaal kunt opzetten om deze technische stack te gebruiken: https://code.visualstudio.com/docs/datascience/jupyter-notebooks.
+20 lessen, 40 quizzen en 20 opdrachten. Sketchnotes begeleiden de lessen voor visuele leerlingen. Veel lessen zijn beschikbaar in zowel Python als R en kunnen worden voltooid met Jupyter-notebooks in VS Code. Lees meer over hoe u uw klas kunt opzetten om deze tech-stack te gebruiken: https://code.visualstudio.com/docs/datascience/jupyter-notebooks.
 
 Alle sketchnotes, inclusief een poster op groot formaat, zijn te vinden in [deze map](../../sketchnotes).
 
-Het volledige curriculum is beschikbaar [als een PDF](../../pdf/readme.pdf).
+U kunt deze lesstof ook als een standalone, offline-vriendelijke website draaien door gebruik te maken van [Docsify](https://docsify.js.org/#/). [Installeer Docsify](https://docsify.js.org/#/quickstart) op uw lokale machine, en typ vervolgens in de rootmap van uw lokale kopie van deze repo `docsify serve`. De website wordt geserveerd op poort 3000 op uw localhost: `localhost:3000`.
 
-U kunt dit curriculum ook uitvoeren als een zelfstandige, offline-vriendelijke website door gebruik te maken van [Docsify](https://docsify.js.org/#/). [Installeer Docsify](https://docsify.js.org/#/quickstart) op uw lokale machine, en typ vervolgens in de hoofdmap van uw lokale kopie van deze repository `docsify serve`. De website wordt geserveerd op poort 3000 op uw localhost: `localhost:3000`.
-
-Een offline-vriendelijke versie van het curriculum opent als een zelfstandige webpagina: https://localhost:3000
+Een offline-vriendelijke versie van de lesstof opent als een standalone webpagina: https://localhost:3000
 
 De lessen zijn gegroepeerd in 6 delen:
 
@@ -50,10 +48,10 @@ De lessen zijn gegroepeerd in 6 delen:
     - 5: Relationele Databases
     - 6: Niet-Relationele Databases
     - 7: Python
-    - 8: Data Voorbereiden
-- 3: Data Visualisatie
+    - 8: Datavoorbereiding
+- 3: Datavisualisatie
     - 9: Visualisatie van Hoeveelheden
-    - 10: Visualisatie van Verdelingen
+    - 10: Visualisatie van Distributies
     - 11: Visualisatie van Verhoudingen
     - 12: Visualisatie van Relaties
     - 13: Betekenisvolle Visualisaties
@@ -70,7 +68,7 @@ De lessen zijn gegroepeerd in 6 delen:
 
 ## Geef ons uw mening!
 
-We willen dit curriculum laten werken voor u en uw studenten. Geef ons alstublieft feedback op de discussiefora! Voel u vrij om een klaslokaalruimte te creëren op de discussiefora voor uw studenten.
+We willen deze lesstof laten werken voor u en uw studenten. Geef ons feedback in de discussieforums! Voel u vrij om een klasruimte te creëren op de discussieforums voor uw studenten.
 
 ---
 
