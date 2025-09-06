@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "a5443b88ba402d2ec7b000e4de6cecb8",
-  "translation_date": "2025-08-29T10:00:28+00:00",
+  "original_hash": "7332da4946897c5885e9ca5bc24de96b",
+  "translation_date": "2025-09-06T10:56:19+00:00",
   "source_file": "README.md",
   "language_code": "sv"
 }
 -->
 # Data Science för Nybörjare - En Läroplan
 
-Azure Cloud Advocates på Microsoft är glada att erbjuda en 10-veckors, 20-lektions läroplan som handlar om Data Science. Varje lektion innehåller quiz före och efter lektionen, skriftliga instruktioner för att genomföra lektionen, en lösning och en uppgift. Vår projektbaserade pedagogik låter dig lära dig genom att skapa, en beprövad metod för att nya färdigheter ska fastna.
+Azure Cloud Advocates på Microsoft är glada att erbjuda en 10-veckors, 20-lektions läroplan om Data Science. Varje lektion innehåller quiz före och efter lektionen, skriftliga instruktioner för att genomföra lektionen, en lösning och en uppgift. Vår projektbaserade pedagogik låter dig lära dig genom att skapa, en beprövad metod för att nya färdigheter ska fastna.
 
 **Stort tack till våra författare:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
@@ -20,22 +20,22 @@ Azure Cloud Advocates på Microsoft är glada att erbjuda en 10-veckors, 20-lekt
 |:---:|
 | Data Science för Nybörjare - _Sketchnote av [@nitya](https://twitter.com/nitya)_ |
 
-### 🌐 Flerspråkigt Stöd
+### 🌐 Stöd för flera språk
 
 #### Stöds via GitHub Action (Automatiserat & Alltid Uppdaterat)
 
-[Franska](../fr/README.md) | [Spanska](../es/README.md) | [Tyska](../de/README.md) | [Ryska](../ru/README.md) | [Arabiska](../ar/README.md) | [Persiska (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Kinesiska (Förenklad)](../zh/README.md) | [Kinesiska (Traditionell, Macau)](../mo/README.md) | [Kinesiska (Traditionell, Hongkong)](../hk/README.md) | [Kinesiska (Traditionell, Taiwan)](../tw/README.md) | [Japanska](../ja/README.md) | [Koreanska](../ko/README.md) | [Hindi](../hi/README.md) | [Bengali](../bn/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Portugisiska (Portugal)](../pt/README.md) | [Portugisiska (Brasilien)](../br/README.md) | [Italienska](../it/README.md) | [Polska](../pl/README.md) | [Turkiska](../tr/README.md) | [Grekiska](../el/README.md) | [Thailändska](../th/README.md) | [Svenska](./README.md) | [Danska](../da/README.md) | [Norska](../no/README.md) | [Finska](../fi/README.md) | [Nederländska](../nl/README.md) | [Hebreiska](../he/README.md) | [Vietnamesiska](../vi/README.md) | [Indonesiska](../id/README.md) | [Malajiska](../ms/README.md) | [Tagalog (Filippinska)](../tl/README.md) | [Swahili](../sw/README.md) | [Ungerska](../hu/README.md) | [Tjeckiska](../cs/README.md) | [Slovakiska](../sk/README.md) | [Rumänska](../ro/README.md) | [Bulgariska](../bg/README.md) | [Serbiska (Kyrilliska)](../sr/README.md) | [Kroatiska](../hr/README.md) | [Slovenska](../sl/README.md) | [Ukrainska](../uk/README.md) | [Burmesiska (Myanmar)](../my/README.md)
+[Franska](../fr/README.md) | [Spanska](../es/README.md) | [Tyska](../de/README.md) | [Ryska](../ru/README.md) | [Arabiska](../ar/README.md) | [Persiska (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Kinesiska (Förenklad)](../zh/README.md) | [Kinesiska (Traditionell, Macau)](../mo/README.md) | [Kinesiska (Traditionell, Hongkong)](../hk/README.md) | [Kinesiska (Traditionell, Taiwan)](../tw/README.md) | [Japanska](../ja/README.md) | [Koreanska](../ko/README.md) | [Hindi](../hi/README.md) | [Bengali](../bn/README.md) | [Marathi](../mr/README.md) | [Nepalesiska](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Portugisiska (Portugal)](../pt/README.md) | [Portugisiska (Brasilien)](../br/README.md) | [Italienska](../it/README.md) | [Polska](../pl/README.md) | [Turkiska](../tr/README.md) | [Grekiska](../el/README.md) | [Thailändska](../th/README.md) | [Svenska](./README.md) | [Danska](../da/README.md) | [Norska](../no/README.md) | [Finska](../fi/README.md) | [Nederländska](../nl/README.md) | [Hebreiska](../he/README.md) | [Vietnamesiska](../vi/README.md) | [Indonesiska](../id/README.md) | [Malajiska](../ms/README.md) | [Tagalog (Filippinska)](../tl/README.md) | [Swahili](../sw/README.md) | [Ungerska](../hu/README.md) | [Tjeckiska](../cs/README.md) | [Slovakiska](../sk/README.md) | [Rumänska](../ro/README.md) | [Bulgariska](../bg/README.md) | [Serbiska (Kyrilliska)](../sr/README.md) | [Kroatiska](../hr/README.md) | [Slovenska](../sl/README.md) | [Ukrainska](../uk/README.md) | [Burmesiska (Myanmar)](../my/README.md)
 
 **Om du vill ha ytterligare översättningar, finns stödda språk listade [här](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
-#### Gå med i vårt Community 
+#### Gå med i vårt community 
 [![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://discord.gg/kzRShWzttr)
 
 # Är du student?
 
 Kom igång med följande resurser:
 
-- [Student Hub-sida](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) På denna sida hittar du resurser för nybörjare, studentpaket och till och med sätt att få en gratis certifieringskupong. Detta är en sida du vill bokmärka och kolla in då och då eftersom vi byter ut innehållet minst en gång i månaden.
+- [Student Hub-sida](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) På denna sida hittar du resurser för nybörjare, studentpaket och till och med sätt att få en gratis certifieringsvoucher. Detta är en sida du vill bokmärka och kolla in då och då eftersom vi byter ut innehållet minst en gång i månaden.
 - [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Gå med i ett globalt community av studentambassadörer, detta kan vara din väg in i Microsoft.
 
 # Kom igång
@@ -54,10 +54,10 @@ Kom igång med följande resurser:
 
 ## Pedagogik
 
-Vi har valt två pedagogiska principer när vi byggde denna läroplan: att säkerställa att den är projektbaserad och att den innehåller frekventa quiz. Vid slutet av denna serie kommer studenter att ha lärt sig grundläggande principer inom data science, inklusive etiska koncept, databeredning, olika sätt att arbeta med data, datavisualisering, dataanalys, verkliga användningsfall av data science och mer.
+Vi har valt två pedagogiska principer när vi byggde denna läroplan: att säkerställa att den är projektbaserad och att den inkluderar frekventa quiz. Vid slutet av denna serie kommer studenter att ha lärt sig grundläggande principer inom data science, inklusive etiska koncept, databeredning, olika sätt att arbeta med data, datavisualisering, dataanalys, verkliga användningsfall av data science och mer.
 
-Dessutom sätter ett lågtröskel-quiz före en lektion studentens intention mot att lära sig ett ämne, medan ett andra quiz efter lektionen säkerställer ytterligare inlärning. Denna läroplan är designad för att vara flexibel och rolig och kan tas i sin helhet eller delvis. Projekten börjar små och blir alltmer komplexa mot slutet av den 10-veckors cykeln.
-> Hitta vår [Uppförandekod](CODE_OF_CONDUCT.md), [Bidrag](CONTRIBUTING.md), [Översättnings](TRANSLATIONS.md) riktlinjer. Vi välkomnar din konstruktiva feedback!
+Dessutom sätter ett lågtröskelquiz före en lektion studentens intention mot att lära sig ett ämne, medan ett andra quiz efter lektionen säkerställer ytterligare inlärning. Denna läroplan är designad för att vara flexibel och rolig och kan tas i sin helhet eller delvis. Projekten börjar små och blir alltmer komplexa mot slutet av den 10-veckors cykeln.
+> Hitta vår [Uppförandekod](CODE_OF_CONDUCT.md), [Bidra](CONTRIBUTING.md), [Översättnings](TRANSLATIONS.md) riktlinjer. Vi välkomnar din konstruktiva feedback!
 ## Varje lektion innehåller:
 
 - Valfri sketchnote
@@ -88,7 +88,7 @@ Dessutom sätter ett lågtröskel-quiz före en lektion studentens intention mot
 | 05 | Arbeta med Relationell Data | [Arbeta med Data](2-Working-With-Data/README.md) | Introduktion till relationell data och grunderna i att utforska och analysera relationell data med Structured Query Language, även känt som SQL (uttalas "see-quell"). | [lektion](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
 | 06 | Arbeta med NoSQL Data | [Arbeta med Data](2-Working-With-Data/README.md) | Introduktion till icke-relationell data, dess olika typer och grunderna i att utforska och analysera dokumentdatabaser. | [lektion](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
 | 07 | Arbeta med Python | [Arbeta med Data](2-Working-With-Data/README.md) | Grunderna i att använda Python för datautforskning med bibliotek som Pandas. Grundläggande förståelse för Python-programmering rekommenderas. | [lektion](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | Datapreparation | [Arbeta med Data](2-Working-With-Data/README.md) | Ämnen om datatekniker för att rengöra och transformera data för att hantera utmaningar med saknad, felaktig eller ofullständig data. | [lektion](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 08 | Databeredning | [Arbeta med Data](2-Working-With-Data/README.md) | Ämnen om datatekniker för att rengöra och transformera data för att hantera utmaningar med saknad, felaktig eller ofullständig data. | [lektion](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 09 | Visualisera Kvantiteter | [Datavisualisering](3-Data-Visualization/README.md) | Lär dig hur du använder Matplotlib för att visualisera fågeldata 🦆 | [lektion](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 10 | Visualisera Datafördelningar | [Datavisualisering](3-Data-Visualization/README.md) | Visualisera observationer och trender inom ett intervall. | [lektion](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 11 | Visualisera Proportioner | [Datavisualisering](3-Data-Visualization/README.md) | Visualisera diskreta och grupperade procentandelar. | [lektion](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
@@ -105,28 +105,28 @@ Dessutom sätter ett lågtröskel-quiz före en lektion studentens intention mot
 ## GitHub Codespaces
 
 Följ dessa steg för att öppna detta exempel i en Codespace:
-1. Klicka på Code-menyn och välj alternativet Open with Codespaces.
+1. Klicka på Code-rullgardinsmenyn och välj alternativet Open with Codespaces.
 2. Välj + New codespace längst ner i panelen.
-För mer information, kolla [GitHub-dokumentationen](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
+För mer information, kolla in [GitHub-dokumentationen](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
-Följ dessa steg för att öppna detta repo i en container med din lokala dator och VSCode med tillägget VS Code Remote - Containers:
+Följ dessa steg för att öppna detta repo i en container med din lokala dator och VSCode med VS Code Remote - Containers-tillägget:
 
-1. Om detta är första gången du använder en utvecklingscontainer, se till att ditt system uppfyller förkraven (t.ex. ha Docker installerat) i [dokumentationen för att komma igång](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. Om detta är första gången du använder en utvecklingscontainer, se till att ditt system uppfyller förkraven (dvs. ha Docker installerat) i [dokumentationen för att komma igång](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
-För att använda detta repo kan du antingen öppna det i en isolerad Docker-volym:
+För att använda detta repository kan du antingen öppna det i en isolerad Docker-volym:
 
 **Notering**: Under huven kommer detta att använda Remote-Containers: **Clone Repository in Container Volume...**-kommandot för att klona källkoden i en Docker-volym istället för det lokala filsystemet. [Volymer](https://docs.docker.com/storage/volumes/) är den föredragna mekanismen för att bevara containerdata.
 
-Eller öppna en lokalt klonad eller nedladdad version av repo:
+Eller öppna en lokalt klonad eller nedladdad version av repositoryt:
 
-- Klona detta repo till ditt lokala filsystem.
+- Klona detta repository till ditt lokala filsystem.
 - Tryck på F1 och välj kommandot **Remote-Containers: Open Folder in Container...**.
-- Välj den klonade kopian av denna mapp, vänta tills containern startar och testa saker.
+- Välj den klonade kopian av denna mapp, vänta på att containern startar och testa saker.
 
 ## Offlineåtkomst
 
-Du kan köra denna dokumentation offline med [Docsify](https://docsify.js.org/#/). Forka detta repo, [installera Docsify](https://docsify.js.org/#/quickstart) på din lokala dator, och i root-mappen av detta repo, skriv `docsify serve`. Webbplatsen kommer att köras på port 3000 på din localhost: `localhost:3000`.
+Du kan köra denna dokumentation offline med hjälp av [Docsify](https://docsify.js.org/#/). Forka detta repo, [installera Docsify](https://docsify.js.org/#/quickstart) på din lokala dator, och i root-mappen av detta repo, skriv `docsify serve`. Webbplatsen kommer att köras på port 3000 på din localhost: `localhost:3000`.
 
 > Notera, notebooks kommer inte att renderas via Docsify, så när du behöver köra en notebook, gör det separat i VS Code med en Python-kärna.
 
@@ -140,16 +140,19 @@ Vårt team producerar andra läroplaner! Kolla in:
 - [Generativ AI med Java](https://aka.ms/genaijava)
 - [AI för Nybörjare](https://aka.ms/ai-beginners)
 - [Data Science för Nybörjare](https://aka.ms/datascience-beginners)
+- [Bash för Nybörjare](https://github.com/microsoft/bash-for-beginners)
 - [ML för Nybörjare](https://aka.ms/ml-beginners)
 - [Cybersäkerhet för Nybörjare](https://github.com/microsoft/Security-101) 
 - [Webbutveckling för Nybörjare](https://aka.ms/webdev-beginners)
 - [IoT för Nybörjare](https://aka.ms/iot-beginners)
+- [Maskininlärning för Nybörjare](https://aka.ms/ml-beginners)
+- [XR-utveckling för Nybörjare](https://aka.ms/xr-dev-for-beginners)
+- [Bemästra GitHub Copilot för AI-parprogrammering](https://aka.ms/GitHubCopilotAI)
 - [XR-utveckling för Nybörjare](https://github.com/microsoft/xr-development-for-beginners)
-- [Bemästra GitHub Copilot för Parprogrammering](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
 - [Bemästra GitHub Copilot för C#/.NET-utvecklare](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
-- [Välj Din Egen Copilot-Äventyr](https://github.com/microsoft/CopilotAdventures)
+- [Välj ditt eget Copilot-äventyr](https://github.com/microsoft/CopilotAdventures)
 
 ---
 
 **Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, vänligen notera att automatiska översättningar kan innehålla fel eller felaktigheter. Det ursprungliga dokumentet på sitt originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.
+Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, vänligen notera att automatiska översättningar kan innehålla fel eller felaktigheter. Det ursprungliga dokumentet på dess originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.
