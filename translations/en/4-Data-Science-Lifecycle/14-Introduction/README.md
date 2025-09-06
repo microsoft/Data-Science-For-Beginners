@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "07478c2092203a69087b9c76b1f4dd56",
-  "translation_date": "2025-09-06T10:08:05+00:00",
+  "original_hash": "07e12a25d20b8f191e3cb651c27fdb2b",
+  "translation_date": "2025-09-06T20:10:35+00:00",
   "source_file": "4-Data-Science-Lifecycle/14-Introduction/README.md",
   "language_code": "en"
 }
@@ -41,7 +41,7 @@ Questions a data scientist might ask:
 - What might the end result look like?
 - What resources (time, people, computational) are available?
 
-Next, we identify, collect, and explore the data needed to achieve these defined goals. During the acquisition step, data scientists must also evaluate the quantity and quality of the data. This involves some data exploration to ensure that the acquired data will support achieving the desired outcome.
+Next, we identify, collect, and explore the data needed to achieve these defined goals. During the acquisition step, data scientists must also evaluate the quantity and quality of the data. This involves some data exploration to ensure that the data collected will support achieving the desired outcome.
 
 Questions a data scientist might ask about the data:
 - What data is already available to me?
@@ -53,7 +53,7 @@ Questions a data scientist might ask about the data:
 
 ## Processing
 
-The processing stage of the lifecycle focuses on uncovering patterns in the data and building models. Some techniques used in this stage involve statistical methods to identify patterns. For large datasets, this would typically be a tedious task for a human, so computers are used to handle the heavy lifting and speed up the process. This stage is also where data science and machine learning intersect. As you learned in the first lesson, machine learning involves building models to understand the data. Models represent the relationships between variables in the data and help predict outcomes.
+The processing stage of the lifecycle focuses on uncovering patterns in the data and building models. Some techniques used in this stage involve statistical methods to identify patterns. For large datasets, this task would be too time-consuming for a human, so computers are used to handle the heavy lifting and speed up the process. This stage is also where data science and machine learning intersect. As you learned in the first lesson, machine learning involves building models to understand the data. Models represent the relationships between variables in the data and help predict outcomes.
 
 Common techniques used in this stage are covered in the ML for Beginners curriculum. Follow the links to learn more about them:
 
@@ -63,7 +63,7 @@ Common techniques used in this stage are covered in the ML for Beginners curricu
 
 ## Maintaining
 
-In the lifecycle diagram, you may have noticed that maintenance sits between capturing and processing. Maintenance is an ongoing process of managing, storing, and securing the data throughout the project and should be considered throughout the entire lifecycle.
+In the lifecycle diagram, you may have noticed that maintenance sits between capturing and processing. Maintenance is an ongoing process of managing, storing, and securing the data throughout the project and should be considered at every stage.
 
 ### Storing Data
 
@@ -73,11 +73,11 @@ Here are some aspects of modern data storage systems that can affect these decis
 
 **On-premise vs. off-premise vs. public or private cloud**
 
-On-premise refers to hosting and managing data on your own equipment, such as owning a server with hard drives to store the data. Off-premise relies on equipment you don’t own, such as a data center. The public cloud is a popular choice for storing data, requiring no knowledge of how or where the data is stored. Public refers to a shared underlying infrastructure used by all cloud users. Some organizations have strict security policies requiring complete control over the equipment where the data is hosted, so they rely on a private cloud that provides dedicated cloud services. You’ll learn more about data in the cloud in [later lessons](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/5-Data-Science-In-Cloud).
+On-premise refers to hosting and managing data on your own equipment, such as owning a server with hard drives to store the data. Off-premise relies on equipment you don’t own, such as a data center. The public cloud is a popular choice for storing data, requiring no knowledge of how or where the data is stored. Public refers to a shared underlying infrastructure used by all cloud users. Some organizations have strict security policies requiring complete control over the equipment hosting their data, so they use a private cloud that provides dedicated cloud services. You’ll learn more about data in the cloud in [later lessons](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/5-Data-Science-In-Cloud).
 
 **Cold vs. hot data**
 
-When training your models, you may need more training data. Once your model is finalized, additional data will still arrive for the model to fulfill its purpose. In either case, the cost of storing and accessing data will increase as more data accumulates. Separating rarely used data (cold data) from frequently accessed data (hot data) can be a more cost-effective storage solution, whether through hardware or software services. However, accessing cold data may take longer compared to hot data.
+When training your models, you may need more training data. Once your model is finalized, additional data will still arrive for the model to fulfill its purpose. In either case, the cost of storing and accessing data increases as you accumulate more of it. Separating rarely used data (cold data) from frequently accessed data (hot data) can be a more cost-effective storage solution, whether through hardware or software services. However, accessing cold data may take longer compared to hot data.
 
 ### Managing Data
 
@@ -85,9 +85,9 @@ As you work with data, you may find that some of it needs cleaning using techniq
 
 ### Securing the Data
 
-One of the main goals of securing data is ensuring that those working with it have control over what is collected and how it is used. Keeping data secure involves limiting access to only those who need it, adhering to local laws and regulations, and maintaining ethical standards, as discussed in the [ethics lesson](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/1-Introduction/02-ethics).
+One of the main goals of securing data is ensuring that those working with it have control over what is collected and how it is used. Keeping data secure involves limiting access to only those who need it, complying with local laws and regulations, and maintaining ethical standards, as discussed in the [ethics lesson](https://github.com/microsoft/Data-Science-For-Beginners/tree/main/1-Introduction/02-ethics).
 
-Here are some steps a team might take to ensure data security:
+Here are some steps a team might take to ensure security:
 - Ensure all data is encrypted.
 - Provide customers with information about how their data is used.
 - Remove data access for individuals who have left the project.
@@ -108,7 +108,7 @@ Explore the [Team Data Science Process lifecycle](https://docs.microsoft.com/en-
 
 ## Review & Self Study
 
-Applying the Data Science Lifecycle involves multiple roles and tasks, with some focusing on specific parts of each stage. The Team Data Science Process provides resources that explain the roles and tasks involved in a project.
+Applying the Data Science Lifecycle involves multiple roles and tasks, with some focusing on specific parts of each stage. The Team Data Science Process provides resources explaining the roles and tasks involved in a project.
 
 * [Team Data Science Process roles and tasks](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/roles-tasks)
 * [Execute data science tasks: exploration, modeling, and deployment](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/execute-data-science-tasks)

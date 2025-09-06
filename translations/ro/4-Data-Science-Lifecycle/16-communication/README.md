@@ -1,167 +1,167 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "e4eae0345bfb6c9c936fca47081e57f8",
-  "translation_date": "2025-09-05T18:25:50+00:00",
+  "original_hash": "215a3254ba5a222a57c5bb0192cea8e3",
+  "translation_date": "2025-09-06T21:36:16+00:00",
   "source_file": "4-Data-Science-Lifecycle/16-communication/README.md",
   "language_code": "ro"
 }
 -->
-# Ciclu de viață al științei datelor: Comunicarea
+# Ciclul de viață al științei datelor: Comunicarea
 
 |![ Sketchnote de [(@sketchthedocs)](https://sketchthedocs.dev)](../../sketchnotes/16-Communicating.png)|
 |:---:|
-| Ciclu de viață al științei datelor: Comunicarea - _Sketchnote de [@nitya](https://twitter.com/nitya)_ |
+| Ciclul de viață al științei datelor: Comunicarea - _Sketchnote de [@nitya](https://twitter.com/nitya)_ |
 
 ## [Chestionar Pre-Lecție](https://ff-quizzes.netlify.app/en/ds/quiz/30)
 
-Testează-ți cunoștințele despre ceea ce urmează cu chestionarul de mai sus!
+Testează-ți cunoștințele despre ce urmează cu chestionarul de mai sus!
 
 # Introducere
 
 ### Ce este comunicarea?
-Să începem această lecție prin a defini ce înseamnă să comunici. **A comunica înseamnă a transmite sau a schimba informații.** Informațiile pot fi idei, gânduri, sentimente, mesaje, semnale ascunse, date – orice pe care un **_expeditor_** (cineva care trimite informații) dorește ca un **_destinatar_** (cineva care primește informații) să le înțeleagă. În această lecție, ne vom referi la expeditori ca fiind comunicatori, iar la destinatari ca fiind publicul.
+Să începem această lecție prin a defini ce înseamnă să comunici. **A comunica înseamnă a transmite sau a schimba informații.** Informațiile pot fi idei, gânduri, sentimente, mesaje, semnale subtile, date – orice pe care un **_transmițător_** (cineva care trimite informații) dorește ca un **_receptor_** (cineva care primește informații) să le înțeleagă. În această lecție, ne vom referi la transmițători ca fiind comunicatori, iar la receptori ca fiind audiența.
 
 ### Comunicarea datelor și povestirea
-Înțelegem că atunci când comunicăm, scopul este să transmitem sau să schimbăm informații. Dar când comunicăm date, scopul nu ar trebui să fie doar să transmitem cifre publicului. Scopul ar trebui să fie să comunicăm o poveste informată de datele noastre – comunicarea eficientă a datelor și povestirea merg mână în mână. Publicul tău este mult mai probabil să-și amintească o poveste pe care o spui, decât o cifră pe care o oferi. Mai târziu în această lecție, vom discuta câteva modalități prin care poți folosi povestirea pentru a comunica datele mai eficient.
+Înțelegem că atunci când comunicăm, scopul este să transmitem sau să schimbăm informații. Dar când comunicăm date, scopul tău nu ar trebui să fie doar să transmiți cifre audienței tale. Scopul tău ar trebui să fie să comunici o poveste informată de datele tale – comunicarea eficientă a datelor și povestirea merg mână în mână. Audiența ta este mult mai probabil să-și amintească o poveste pe care o spui, decât o cifră pe care o oferi. Mai târziu în această lecție, vom discuta câteva modalități prin care poți folosi povestirea pentru a comunica datele mai eficient.
 
 ### Tipuri de comunicare
-Pe parcursul acestei lecții, vor fi discutate două tipuri diferite de comunicare: comunicarea unidirecțională și comunicarea bidirecțională.
+Pe parcursul acestei lecții, vor fi discutate două tipuri diferite de comunicare: Comunicarea unidirecțională și Comunicarea bidirecțională.
 
-**Comunicarea unidirecțională** are loc atunci când un expeditor trimite informații unui destinatar, fără a primi feedback sau răspuns. Vedem exemple de comunicare unidirecțională în fiecare zi – în e-mailuri de masă, când știrile transmit cele mai recente povești sau chiar când apare o reclamă TV și te informează de ce produsul lor este grozav. În fiecare dintre aceste cazuri, expeditorul nu caută un schimb de informații. El doar dorește să transmită sau să livreze informații.
+**Comunicarea unidirecțională** are loc atunci când un transmițător trimite informații unui receptor, fără a primi feedback sau răspuns. Vedem exemple de comunicare unidirecțională în fiecare zi – în e-mailuri de masă, când știrile prezintă cele mai recente evenimente sau chiar când apare o reclamă la televizor și te informează de ce produsul lor este grozav. În fiecare dintre aceste cazuri, transmițătorul nu caută un schimb de informații. Ei doar doresc să transmită sau să livreze informații.
 
-**Comunicarea bidirecțională** are loc atunci când toate părțile implicate acționează atât ca expeditori, cât și ca destinatari. Un expeditor va începe prin a comunica unui destinatar, iar destinatarul va oferi feedback sau un răspuns. Comunicarea bidirecțională este ceea ce ne gândim în mod tradițional când vorbim despre comunicare. De obicei, ne gândim la oameni angajați într-o conversație – fie în persoană, fie printr-un apel telefonic, pe rețelele sociale sau printr-un mesaj text.
+**Comunicarea bidirecțională** are loc atunci când toate părțile implicate acționează atât ca transmițători, cât și ca receptori. Un transmițător va începe prin a comunica unui receptor, iar receptorul va oferi feedback sau un răspuns. Comunicarea bidirecțională este ceea ce ne gândim în mod tradițional când vorbim despre comunicare. De obicei, ne gândim la oameni angajați într-o conversație – fie în persoană, fie printr-un apel telefonic, pe rețelele sociale sau prin mesaje text.
 
-Când comunici date, vor exista cazuri în care vei folosi comunicarea unidirecțională (gândește-te la prezentări la o conferință sau în fața unui grup mare unde nu se vor pune întrebări imediat după) și cazuri în care vei folosi comunicarea bidirecțională (gândește-te la utilizarea datelor pentru a convinge câțiva factori de decizie să susțină o idee sau pentru a convinge un coleg că merită să investească timp și efort în construirea unui lucru nou).
+Când comunici date, vor exista cazuri în care vei folosi comunicarea unidirecțională (gândește-te la prezentări la o conferință sau în fața unui grup mare unde întrebările nu vor fi adresate imediat după) și vor exista cazuri în care vei folosi comunicarea bidirecțională (gândește-te la utilizarea datelor pentru a convinge câțiva factori de decizie să sprijine o idee sau pentru a convinge un coleg că merită să investească timp și efort în construirea a ceva nou).
 
 # Comunicarea eficientă
 
-### Responsabilitățile tale ca comunicator
-Când comunici, este responsabilitatea ta să te asiguri că destinatarii înțeleg informațiile pe care vrei să le transmită. Când comunici date, nu vrei doar ca destinatarii să rețină cifre, ci vrei ca aceștia să rețină o poveste informată de datele tale. Un bun comunicator de date este un bun povestitor.
+### Responsabilitățile tale ca și comunicator
+Când comunici, este responsabilitatea ta să te asiguri că receptorii tăi înțeleg informațiile pe care vrei să le transmită. Când comunici date, nu vrei doar ca receptorii tăi să rețină cifre, ci vrei ca aceștia să rețină o poveste informată de datele tale. Un bun comunicator de date este un bun povestitor.
 
 Cum spui o poveste cu date? Există nenumărate modalități – dar mai jos sunt 6 pe care le vom discuta în această lecție.
-1.	Înțelege-ți publicul, canalul și metoda de comunicare
-2.	Începe cu sfârșitul în minte
-3.	Abordează comunicarea ca pe o poveste reală
-4.	Folosește cuvinte și expresii semnificative
-5.	Folosește emoția
+1. Înțelege-ți audiența, canalul și metoda de comunicare
+2. Începe cu sfârșitul în minte
+3. Abordează totul ca pe o poveste reală
+4. Folosește cuvinte și expresii semnificative
+5. Folosește emoția
 
 Fiecare dintre aceste strategii este explicată mai detaliat mai jos.
 
-### 1. Înțelege-ți publicul, canalul și metoda de comunicare
-Modul în care comunici cu membrii familiei este probabil diferit de modul în care comunici cu prietenii. Probabil folosești cuvinte și expresii diferite pe care persoanele cu care vorbești sunt mai susceptibile să le înțeleagă. Ar trebui să adopți aceeași abordare atunci când comunici date. Gândește-te la cine comunici. Gândește-te la obiectivele lor și la contextul pe care îl au în legătură cu situația pe care le-o explici.
+### 1. Înțelege-ți audiența, canalul și metoda de comunicare
+Modul în care comunici cu membrii familiei este probabil diferit de modul în care comunici cu prietenii. Probabil folosești cuvinte și expresii diferite, pe care persoanele cu care vorbești sunt mai susceptibile să le înțeleagă. Ar trebui să adopți aceeași abordare atunci când comunici date. Gândește-te la cine comunici. Gândește-te la obiectivele lor și la contextul pe care îl au în legătură cu situația pe care le-o explici.
 
-Probabil poți grupa majoritatea publicului tău într-o categorie. Într-un articol din _Harvard Business Review_, “[Cum să spui o poveste cu date](http://blogs.hbr.org/2013/04/how-to-tell-a-story-with-data/),” strategul executiv Dell, Jim Stikeleather, identifică cinci categorii de public.
+Probabil poți grupa majoritatea audienței tale într-o categorie. Într-un articol din _Harvard Business Review_, “[Cum să spui o poveste cu date](http://blogs.hbr.org/2013/04/how-to-tell-a-story-with-data/)”, strategul executiv Dell, Jim Stikeleather, identifică cinci categorii de audiențe.
 
- - **Novice**: prima expunere la subiect, dar nu dorește o simplificare excesivă
+ - **Novici**: prima expunere la subiect, dar nu doresc o simplificare excesivă
  - **Generalist**: conștient de subiect, dar caută o înțelegere generală și teme majore
- - **Managerial**: înțelegere detaliată, aplicabilă a complexităților și interrelațiilor, cu acces la detalii
- - **Expert**: mai multă explorare și descoperire și mai puțină povestire, cu detalii extinse
- - **Executiv**: are timp doar să înțeleagă semnificația și concluziile probabilităților ponderate
+ - **Managerial**: înțelegere detaliată, aplicabilă, a complexităților și interrelațiilor, cu acces la detalii
+ - **Expert**: mai multă explorare și descoperire și mai puțină povestire, cu detalii ample
+ - **Executiv**: are timp doar pentru a înțelege semnificația și concluziile probabilităților ponderate
 
-Aceste categorii pot influența modul în care prezinți datele publicului tău.
+Aceste categorii pot influența modul în care prezinți datele audienței tale.
 
-Pe lângă faptul că te gândești la categoria publicului tău, ar trebui să iei în considerare și canalul pe care îl folosești pentru a comunica cu publicul tău. Abordarea ta ar trebui să fie ușor diferită dacă scrii un memo sau un e-mail față de a avea o întâlnire sau a prezenta la o conferință.
+Pe lângă faptul că te gândești la categoria audienței tale, ar trebui să iei în considerare și canalul pe care îl folosești pentru a comunica cu aceasta. Abordarea ta ar trebui să fie ușor diferită dacă scrii un memo sau un e-mail față de a avea o întâlnire sau a prezenta la o conferință.
 
-Pe lângă înțelegerea publicului, este esențial să știi cum vei comunica cu acesta (folosind comunicarea unidirecțională sau bidirecțională).
+Pe lângă înțelegerea audienței, este esențial să știi cum vei comunica cu aceasta (folosind comunicare unidirecțională sau bidirecțională).
 
-Dacă comunici cu un public majoritar novice și folosești comunicarea unidirecțională, trebuie mai întâi să educi publicul și să îi oferi contextul adecvat. Apoi trebuie să le prezinți datele și să le explici ce înseamnă datele tale și de ce contează. În acest caz, poate fi necesar să te concentrezi pe claritate, deoarece publicul tău nu va putea să-ți pună întrebări directe.
+Dacă comunici cu o audiență majoritar novice și folosești comunicare unidirecțională, trebuie mai întâi să educi audiența și să le oferi contextul potrivit. Apoi trebuie să le prezinți datele și să le explici ce înseamnă acestea și de ce sunt importante. În acest caz, poate fi necesar să te concentrezi pe claritate, deoarece audiența ta nu va putea să-ți pună întrebări directe.
 
-Dacă comunici cu un public majoritar managerial și folosești comunicarea bidirecțională, probabil nu va fi nevoie să educi publicul sau să îi oferi prea mult context. Poți trece direct la discutarea datelor pe care le-ai colectat și de ce contează. În acest scenariu, însă, ar trebui să te concentrezi pe gestionarea timpului și controlul prezentării. Când folosești comunicarea bidirecțională (mai ales cu un public managerial care caută o „înțelegere aplicabilă a complexităților și interrelațiilor, cu acces la detalii”), pot apărea întrebări în timpul interacțiunii care pot devia discuția de la povestea pe care încerci să o spui. Când se întâmplă acest lucru, poți interveni și readuce discuția pe drumul cel bun.
+Dacă comunici cu o audiență majoritar managerială și folosești comunicare bidirecțională, probabil nu va fi nevoie să-ți educi audiența sau să le oferi mult context. Poți sări direct la discutarea datelor pe care le-ai colectat și de ce sunt importante. În acest scenariu, însă, ar trebui să te concentrezi pe gestionarea timpului și controlul prezentării. Când folosești comunicare bidirecțională (mai ales cu o audiență managerială care caută o „înțelegere aplicabilă a complexităților și interrelațiilor, cu acces la detalii”), pot apărea întrebări care pot devia discuția de la povestea pe care încerci să o spui. Când se întâmplă acest lucru, poți interveni pentru a readuce discuția pe drumul corect.
 
 ### 2. Începe cu sfârșitul în minte
-A începe cu sfârșitul în minte înseamnă să înțelegi ce vrei ca publicul tău să rețină înainte de a începe să comunici cu el. A fi atent la ceea ce vrei ca publicul tău să rețină din timp te poate ajuta să construiești o poveste pe care acesta să o poată urmări. A începe cu sfârșitul în minte este potrivit atât pentru comunicarea unidirecțională, cât și pentru cea bidirecțională.
+A începe cu sfârșitul în minte înseamnă să înțelegi ce vrei ca audiența ta să rețină înainte de a începe să comunici cu ea. A fi atent la ce vrei ca audiența ta să rețină din timp te poate ajuta să construiești o poveste pe care aceasta să o poată urmări. A începe cu sfârșitul în minte este potrivit atât pentru comunicarea unidirecțională, cât și pentru cea bidirecțională.
 
-Cum începi cu sfârșitul în minte? Înainte de a comunica datele tale, notează-ți concluziile cheie. Apoi, la fiecare pas în timp ce pregătești povestea pe care vrei să o spui cu datele tale, întreabă-te: „Cum se integrează acest lucru în povestea pe care o spun?”
+Cum începi cu sfârșitul în minte? Înainte de a comunica datele tale, notează-ți ideile principale. Apoi, la fiecare pas în pregătirea poveștii pe care vrei să o spui cu datele tale, întreabă-te: „Cum se integrează acest lucru în povestea pe care o spun?”
 
-Fii atent – Deși a începe cu sfârșitul în minte este ideal, nu vrei să comunici doar datele care susțin concluziile tale. Acest lucru se numește selecție preferențială, care are loc atunci când un comunicator transmite doar datele care susțin punctul pe care încearcă să-l facă și ignoră toate celelalte date.
+Fii atent – Deși a începe cu sfârșitul în minte este ideal, nu vrei să comunici doar datele care susțin concluziile tale intenționate. Acest lucru se numește selecție părtinitoare, care apare atunci când un comunicator transmite doar datele care susțin punctul său de vedere și ignoră toate celelalte date.
 
-Dacă toate datele pe care le-ai colectat susțin clar concluziile tale, grozav. Dar dacă există date pe care le-ai colectat care nu susțin concluziile tale sau chiar susțin un argument împotriva concluziilor tale cheie, ar trebui să comunici și acele date. Dacă se întâmplă acest lucru, fii sincer cu publicul tău și explică de ce alegi să rămâi la povestea ta, chiar dacă toate datele nu o susțin în mod necesar.
+Dacă toate datele pe care le-ai colectat susțin clar concluziile tale intenționate, grozav. Dar dacă există date pe care le-ai colectat care nu susțin concluziile tale sau chiar susțin un argument împotriva acestora, ar trebui să comunici și acele date. Dacă se întâmplă acest lucru, fii sincer cu audiența ta și explică de ce alegi să rămâi la povestea ta, chiar dacă nu toate datele o susțin.
 
-### 3. Abordează comunicarea ca pe o poveste reală
-O poveste tradițională are loc în 5 faze. Poate ai auzit aceste faze exprimate ca Expozitie, Acțiune Ascendentă, Climax, Acțiune Descendentă și Deznodământ. Sau mai simplu de reținut: Context, Conflict, Climax, Încheiere, Concluzie. Când comunici datele și povestea ta, poți adopta o abordare similară.
+### 3. Abordează totul ca pe o poveste reală
+O poveste tradițională are loc în 5 faze. Poate ai auzit aceste faze exprimate ca Expozitie, Acțiune Ascendentă, Punct Culminant, Acțiune Descendentă și Deznodământ. Sau, mai simplu de reținut: Context, Conflict, Climax, Încheiere, Concluzie. Când comunici datele și povestea ta, poți adopta o abordare similară.
 
-Poți începe cu contextul, să setezi scena și să te asiguri că publicul tău este pe aceeași pagină. Apoi introduci conflictul. De ce a fost nevoie să colectezi aceste date? Ce probleme încercai să rezolvi? După aceea, climaxul. Care sunt datele? Ce înseamnă datele? Ce soluții ne spun datele că trebuie să adoptăm? Apoi ajungi la încheiere, unde poți reitera problema și soluțiile propuse. În cele din urmă, ajungem la concluzie, unde poți rezuma concluziile cheie și pașii următori pe care recomanzi echipei să-i urmeze.
+Poți începe cu contextul, să stabilești scena și să te asiguri că audiența ta este pe aceeași lungime de undă. Apoi introduci conflictul. De ce a fost nevoie să colectezi aceste date? Ce probleme încercai să rezolvi? După aceea, punctul culminant. Care sunt datele? Ce înseamnă acestea? Ce soluții sugerează datele că sunt necesare? Apoi ajungi la încheiere, unde poți reitera problema și soluțiile propuse. În cele din urmă, ajungem la concluzie, unde poți rezuma ideile principale și pașii următori pe care îi recomanzi echipei.
 
 ### 4. Folosește cuvinte și expresii semnificative
-Dacă lucrăm împreună la un produs și îți spun „Utilizatorii noștri petrec mult timp pentru a se înregistra pe platforma noastră,” cât de mult timp ai estima că „mult timp” înseamnă? O oră? O săptămână? Este greu de știut. Ce se întâmplă dacă spun asta unui întreg public? Fiecare persoană din public ar putea ajunge la o idee diferită despre cât de mult timp petrec utilizatorii pentru a se înregistra pe platforma noastră.
+Dacă lucrăm împreună la un produs și îți spun „Utilizatorii noștri petrec mult timp pentru a se înregistra pe platforma noastră,” cât de mult timp ai estima că înseamnă „mult timp”? O oră? O săptămână? Este greu de spus. Ce s-ar întâmpla dacă aș spune asta unei întregi audiențe? Fiecare persoană din audiență ar putea avea o idee diferită despre cât de mult timp durează utilizatorii să se înregistreze pe platforma noastră.
 
-În schimb, ce-ar fi dacă aș spune „Utilizatorii noștri petrec, în medie, 3 minute pentru a se înregistra și a se familiariza cu platforma noastră.”
+În schimb, ce-ar fi dacă aș spune „Utilizatorii noștri petrec, în medie, 3 minute pentru a se înregistra și a începe să folosească platforma noastră.”
 
-Această formulare este mai clară. Când comunici date, poate fi ușor să crezi că toată lumea din publicul tău gândește la fel ca tine. Dar acest lucru nu este întotdeauna cazul. Claritatea în jurul datelor tale și a ceea ce înseamnă este una dintre responsabilitățile tale ca comunicator. Dacă datele sau povestea ta nu sunt clare, publicul tău va avea dificultăți în a urmări și este mai puțin probabil să înțeleagă concluziile tale cheie.
+Această formulare este mai clară. Când comunici date, poate fi ușor să crezi că toată audiența ta gândește la fel ca tine. Dar acest lucru nu este întotdeauna cazul. Claritatea în jurul datelor tale și a semnificației lor este una dintre responsabilitățile tale ca și comunicator. Dacă datele sau povestea ta nu sunt clare, audiența ta va avea dificultăți în a te urmări și este mai puțin probabil să înțeleagă ideile tale principale.
 
-Poți comunica datele mai clar atunci când folosești cuvinte și expresii semnificative, în loc de unele vagi. Mai jos sunt câteva exemple.
+Poți comunica datele mai clar folosind cuvinte și expresii semnificative, în loc de unele vagi. Mai jos sunt câteva exemple.
 
  - Am avut un an *impresionant*!
-	 - O persoană ar putea crede că „impresionant” înseamnă o creștere de 2% - 3% a veniturilor, iar alta ar putea crede că înseamnă o creștere de 50% - 60%.
+	 - O persoană ar putea crede că un an impresionant înseamnă o creștere de 2% - 3% a veniturilor, iar alta ar putea crede că înseamnă o creștere de 50% - 60%.
  - Ratele de succes ale utilizatorilor noștri au crescut *dramatic*.
 	 - Cât de mare este o creștere dramatică?
- - Acest proiect va necesita un efort *semnificativ*.
-	 - Cât de mult efort este „semnificativ”?
+ - Această inițiativă va necesita un efort *semnificativ*.
+	 - Cât de mare este un efort semnificativ?
 
-Folosirea cuvintelor vagi ar putea fi utilă ca introducere pentru mai multe date care urmează sau ca un rezumat al poveștii pe care tocmai ai spus-o. Dar ia în considerare să te asiguri că fiecare parte a prezentării tale este clară pentru publicul tău.
+Folosirea cuvintelor vagi ar putea fi utilă ca introducere pentru mai multe date care urmează sau ca un rezumat al poveștii pe care tocmai ai spus-o. Dar ia în considerare să te asiguri că fiecare parte a prezentării tale este clară pentru audiența ta.
 
 ### 5. Folosește emoția
-Emoția este esențială în povestire. Este și mai importantă atunci când spui o poveste cu date. Când comunici date, totul se concentrează pe concluziile pe care vrei ca publicul tău să le aibă. Când provoci o emoție în public, îi ajuți să empatizeze și îi faci mai predispuși să acționeze. Emoția crește, de asemenea, probabilitatea ca publicul să-și amintească mesajul tău.
+Emoția este cheia în povestire. Este și mai importantă atunci când spui o poveste cu date. Când comunici date, totul se concentrează pe ideile principale pe care vrei ca audiența ta să le rețină. Când trezești o emoție în audiență, îi ajuți să empatizeze și îi faci mai predispuși să acționeze. Emoția crește, de asemenea, probabilitatea ca audiența să-și amintească mesajul tău.
 
-Probabil ai întâlnit acest lucru înainte în reclame TV. Unele reclame sunt foarte triste și folosesc o emoție melancolică pentru a se conecta cu publicul și pentru a face datele pe care le prezintă să iasă în evidență. Sau, unele reclame sunt foarte optimiste și fericite, făcându-te să asociezi datele lor cu un sentiment pozitiv.
+Probabil ai întâlnit acest lucru înainte în reclame TV. Unele reclame sunt foarte triste și folosesc o emoție melancolică pentru a se conecta cu audiența și a face datele prezentate să iasă în evidență. Sau, unele reclame sunt foarte vesele și optimiste, făcându-te să asociezi datele lor cu o stare de bine.
 
 Cum folosești emoția atunci când comunici date? Mai jos sunt câteva modalități.
 
  - Folosește mărturii și povești personale
-	- Când colectezi date, încearcă să colectezi atât date cantitative, cât și calitative și integrează ambele tipuri de date atunci când comunici. Dacă datele tale sunt în principal cantitative, caută povești de la indivizi pentru a afla mai multe despre experiența lor cu ceea ce îți spun datele.
+	 - Când colectezi date, încearcă să colectezi atât date cantitative, cât și calitative, și integrează ambele tipuri de date atunci când comunici. Dacă datele tale sunt în principal cantitative, caută povești de la indivizi pentru a afla mai multe despre experiența lor cu ceea ce îți spun datele.
  - Folosește imagini
-	 - Imaginile ajută publicul să se vadă într-o situație. Când folosești imagini, poți orienta publicul spre emoția pe care consideri că ar trebui să o aibă despre datele tale.
+	 - Imaginile ajută audiența să se vadă într-o situație. Când folosești imagini, poți ghida audiența spre emoția pe care consideri că ar trebui să o aibă despre datele tale.
  - Folosește culori
-	 - Culorile diferite evocă emoții diferite. Culorile populare și emoțiile pe care le evocă sunt mai jos. Fii atent, culorile pot avea semnificații diferite în culturi diferite.
+	 - Culorile diferite evocă emoții diferite. Culorile populare și emoțiile pe care le evocă sunt mai jos. Fii conștient că culorile pot avea semnificații diferite în culturi diferite.
 		 - Albastrul evocă de obicei emoții de pace și încredere
 		 - Verdele este de obicei asociat cu natura și mediul
-		 - Roșul este de obicei pasiune și entuziasm
-		 - Galbenul este de obicei optimism și fericire
+		 - Roșul este de obicei asociat cu pasiunea și entuziasmul
+		 - Galbenul este de obicei asociat cu optimismul și fericirea
 
 # Studiu de caz: Comunicarea
-Emerson este manager de produs pentru o aplicație mobilă. Emerson a observat că clienții trimit cu 42% mai multe plângeri și rapoarte de erori în weekend. Emerson a mai observat că clienții care trimit o plângere care rămâne fără răspuns după 48 de ore sunt cu 32% mai predispuși să acorde aplicației o evaluare de 1 sau 2 în magazinul de aplicații.
+Emerson este manager de produs pentru o aplicație mobilă. Emerson a observat că utilizatorii trimit cu 42% mai multe plângeri și rapoarte de erori în weekend. Emerson a mai observat că utilizatorii care trimit o plângere care rămâne fără răspuns după 48 de ore sunt cu 32% mai predispuși să acorde aplicației o evaluare de 1 sau 2 în magazinul de aplicații.
 
-După ce a făcut cercetări, Emerson are câteva soluții care vor aborda problema. Emerson organizează o întâlnire de 30 de minute cu cei 3 lideri ai companiei pentru a comunica datele și soluțiile propuse.
+După ce a făcut cercetări, Emerson are câteva soluții care vor rezolva problema. Emerson stabilește o întâlnire de 30 de minute cu cei 3 lideri ai companiei pentru a comunica datele și soluțiile propuse.
 
-În timpul acestei întâlniri, obiectivul lui Emerson este ca liderii companiei să înțeleagă că cele 2 soluții de mai jos pot îmbunătăți evaluarea aplicației, ceea ce probabil se va traduce în venituri mai mari.
+În timpul acestei întâlniri, scopul lui Emerson este ca liderii companiei să înțeleagă că cele 2 soluții de mai jos pot îmbunătăți evaluarea aplicației, ceea ce probabil se va traduce în venituri mai mari.
 
-**Soluția 1.** Angajarea de reprezentanți de servicii pentru clienți care să lucreze în weekend
+**Soluția 1.** Angajarea de reprezentanți ai serviciului clienți care să lucreze în weekend
 
-**Soluția 2.** Achiziționarea unui nou sistem de ticketing pentru servicii pentru clienți, unde reprezentanții pot identifica cu ușurință care plângeri au stat cel mai mult în coadă – astfel încât să știe pe care să le abordeze mai întâi.
+**Soluția 2.** Achiziționarea unui nou sistem de gestionare a tichetelor pentru serviciul clienți, unde reprezentanții pot identifica cu ușurință care plângeri sunt în coadă de cel mai mult timp – astfel încât să știe pe care să le abordeze cu prioritate.
 
-În cadrul întâlnirii, Emerson petrece 5 minute explicând de ce este rău să ai o evaluare scăzută în magazinul de aplicații, 10 minute explicând procesul de cercetare și cum au fost identificate tendințele, 10 minute trecând
+În cadrul întâlnirii, Emerson petrece 5 minute explicând de ce o evaluare scăzută în magazinul de aplicații este dăunătoare, 10 minute explicând procesul de cerc
 A fost aceasta o modalitate eficientă pentru Emerson de a comunica în timpul acestei întâlniri?
 
-În timpul întâlnirii, un lider de echipă s-a concentrat exclusiv pe cele 10 minute de plângeri ale clienților pe care Emerson le-a prezentat. După întâlnire, aceste plângeri au fost singurul lucru pe care acest lider de echipă și-l amintea. Un alt lider de echipă s-a concentrat în principal pe descrierea procesului de cercetare făcută de Emerson. Al treilea lider de echipă și-a amintit soluțiile propuse de Emerson, dar nu era sigur cum ar putea fi implementate aceste soluții.
+În timpul întâlnirii, un lider de echipă s-a concentrat exclusiv pe cele 10 minute de plângeri ale clienților pe care Emerson le-a prezentat. După întâlnire, aceste plângeri au fost singurul lucru pe care acest lider de echipă și l-a amintit. Un alt lider de echipă s-a axat în principal pe descrierea procesului de cercetare făcută de Emerson. Al treilea lider de echipă și-a amintit soluțiile propuse de Emerson, dar nu era sigur cum ar putea fi implementate aceste soluții.
 
-În situația de mai sus, se poate observa că a existat o diferență semnificativă între ceea ce Emerson dorea ca liderii de echipă să rețină și ceea ce aceștia au reținut în final din întâlnire. Mai jos este prezentată o altă abordare pe care Emerson ar putea să o ia în considerare.
+În situația de mai sus, se poate observa că a existat o diferență semnificativă între ceea ce Emerson dorea ca liderii de echipă să rețină și ceea ce aceștia au reținut de fapt din întâlnire. Mai jos este prezentată o altă abordare pe care Emerson ar putea să o ia în considerare.
 
 Cum ar putea Emerson să îmbunătățească această abordare?  
 Context, Conflict, Climax, Closure, Conclusion  
-**Context** - Emerson ar putea petrece primele 5 minute introducând întreaga situație și asigurându-se că liderii de echipă înțeleg cum problemele afectează metrici critici pentru companie, cum ar fi veniturile.
+**Context** - Emerson ar putea petrece primele 5 minute introducând întreaga situație și asigurându-se că liderii de echipă înțeleg cum afectează problemele metricele critice pentru companie, cum ar fi veniturile.
 
-Ar putea fi prezentat astfel: „În prezent, ratingul aplicației noastre în magazinul de aplicații este de 2.5. Ratingurile din magazinul de aplicații sunt esențiale pentru optimizarea în magazinul de aplicații, ceea ce influențează câți utilizatori văd aplicația noastră în căutări și cum este percepută aplicația de utilizatorii potențiali. Și, bineînțeles, numărul de utilizatori pe care îi avem este direct legat de venituri.”
+Ar putea fi prezentat astfel: „În prezent, ratingul aplicației noastre în magazinul de aplicații este de 2.5. Ratingurile din magazinul de aplicații sunt esențiale pentru optimizarea în magazinul de aplicații, ceea ce influențează câți utilizatori văd aplicația noastră în căutări și cum este percepută aplicația de către utilizatorii potențiali. Și, bineînțeles, numărul de utilizatori pe care îi avem este direct legat de venituri.”
 
 **Conflict** Emerson ar putea apoi să vorbească în următoarele 5 minute despre conflict.
 
-Ar putea fi prezentat astfel: „Utilizatorii trimit cu 42% mai multe plângeri și rapoarte de erori în weekend. Clienții care trimit o plângere care rămâne fără răspuns după 48 de ore sunt cu 32% mai puțin predispuși să ofere aplicației noastre un rating mai mare de 2 în magazinul de aplicații. Îmbunătățirea ratingului aplicației noastre în magazinul de aplicații la 4 ar crește vizibilitatea cu 20-30%, ceea ce estimez că ar crește veniturile cu 10%.” Desigur, Emerson ar trebui să fie pregătit să justifice aceste cifre.
+Ar putea suna astfel: „Utilizatorii trimit cu 42% mai multe plângeri și rapoarte de erori în weekenduri. Clienții care trimit o plângere care rămâne fără răspuns timp de peste 48 de ore sunt cu 32% mai puțin predispuși să ofere aplicației noastre un rating mai mare de 2 în magazinul de aplicații. Îmbunătățirea ratingului aplicației noastre în magazinul de aplicații la 4 ar crește vizibilitatea cu 20-30%, ceea ce estimez că ar crește veniturile cu 10%.” Desigur, Emerson ar trebui să fie pregătit să justifice aceste cifre.
 
 **Climax** După ce a stabilit contextul, Emerson ar putea trece la punctul culminant pentru aproximativ 5 minute.
 
-Emerson ar putea introduce soluțiile propuse, să explice cum aceste soluții vor aborda problemele prezentate, cum ar putea fi implementate în fluxurile de lucru existente, cât costă soluțiile, care ar fi ROI-ul acestora și, poate, să prezinte câteva capturi de ecran sau wireframe-uri despre cum ar arăta soluțiile dacă ar fi implementate. Emerson ar putea, de asemenea, să împărtășească mărturii de la utilizatori ale căror plângeri au fost rezolvate după mai mult de 48 de ore, și chiar o mărturie de la un reprezentant actual al serviciului pentru clienți din cadrul companiei, care are comentarii despre sistemul actual de ticketing.
+Emerson ar putea introduce soluțiile propuse, să explice cum aceste soluții vor aborda problemele prezentate, cum ar putea fi implementate soluțiile în fluxurile de lucru existente, cât costă soluțiile, care ar fi ROI-ul soluțiilor și, poate, să prezinte câteva capturi de ecran sau wireframe-uri despre cum ar arăta soluțiile dacă ar fi implementate. Emerson ar putea, de asemenea, să împărtășească mărturii de la utilizatori ale căror plângeri au fost soluționate după mai mult de 48 de ore, și chiar o mărturie de la un reprezentant actual al serviciului pentru clienți din cadrul companiei, care are comentarii despre sistemul actual de ticketing.
 
 **Closure** Acum Emerson poate petrece 5 minute reiterând problemele cu care se confruntă compania, revizitând soluțiile propuse și revizuind de ce aceste soluții sunt cele potrivite.
 
-**Conclusion** Deoarece aceasta este o întâlnire cu câțiva factori de decizie unde se va folosi comunicarea bidirecțională, Emerson ar putea planifica să lase 10 minute pentru întrebări, pentru a se asigura că orice lucru confuz pentru liderii de echipă poate fi clarificat înainte de încheierea întâlnirii.
+**Conclusion** Deoarece aceasta este o întâlnire cu câțiva factori de decizie în care se va folosi comunicarea bidirecțională, Emerson ar putea planifica să lase 10 minute pentru întrebări, pentru a se asigura că orice lucru confuz pentru liderii de echipă poate fi clarificat înainte ca întâlnirea să se încheie.
 
-Dacă Emerson ar adopta abordarea #2, este mult mai probabil ca liderii de echipă să rețină din întâlnire exact ceea ce Emerson intenționa ca aceștia să rețină – că modul în care sunt gestionate plângerile și erorile ar putea fi îmbunătățit și că există 2 soluții care ar putea fi implementate pentru a face această îmbunătățire posibilă. Această abordare ar fi mult mai eficientă pentru a comunica datele și povestea pe care Emerson dorește să o transmită.
+Dacă Emerson ar adopta abordarea #2, este mult mai probabil ca liderii de echipă să rețină din întâlnire exact ceea ce Emerson intenționa ca ei să rețină – că modul în care sunt gestionate plângerile și erorile ar putea fi îmbunătățit și că există 2 soluții care ar putea fi implementate pentru a face această îmbunătățire posibilă. Această abordare ar fi mult mai eficientă pentru a comunica datele și povestea pe care Emerson dorește să o transmită.
 
 # Concluzie  
 ### Rezumatul punctelor principale  
 - A comunica înseamnă a transmite sau a schimba informații.  
 - Când comunici date, scopul tău nu ar trebui să fie doar să transmiți cifre publicului tău. Scopul tău ar trebui să fie să comunici o poveste informată de datele tale.  
-- Există 2 tipuri de comunicare: comunicare unidirecțională (informația este transmisă fără intenția de a primi un răspuns) și comunicare bidirecțională (informația este transmisă în ambele sensuri).  
+- Există 2 tipuri de comunicare: comunicare unidirecțională (informația este transmisă fără intenția de a primi un răspuns) și comunicare bidirecțională (informația este transmisă în ambele direcții).  
 - Există multe strategii pe care le poți folosi pentru a spune o poveste cu datele tale, iar cele 5 strategii pe care le-am discutat sunt:  
   - Înțelege-ți publicul, mediul și metoda de comunicare  
   - Începe cu sfârșitul în minte  
@@ -210,7 +210,7 @@ Dacă Emerson ar adopta abordarea #2, este mult mai probabil ca liderii de echip
 
 ## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/31)  
 
-Revizuiește ceea ce ai învățat cu testul de mai sus!  
+Revizuiește ceea ce ai învățat cu testul de după lecție de mai sus!  
 
 ## Temă  
 
