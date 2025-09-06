@@ -11,7 +11,7 @@ Test your knowledge of what's to come with the Pre-Lecture Quiz above!
 # Introduction
 
 ### What is Communication?
-Let’s start this lesson by defining what is means to communicate. **To communicate is to convey or exchange information.** Information can be ideas, thoughts, feelings, messages, covert signals, data – anything that a **_sender_** (someone sending information) wants a **_receiver_** (someone receiving information) to understand. In this lesson, we will refer to senders as  communicators, and receivers as the audience. 
+Let’s start this lesson by defining what it means to communicate. **To communicate is to convey or exchange information.** Information can be ideas, thoughts, feelings, messages, covert signals, data – anything that a **_sender_** (someone sending information) wants a **_receiver_** (someone receiving information) to understand. In this lesson, we will refer to senders as  communicators, and receivers as the audience. 
 
 ### Data Communication & Storytelling
 We understand that when communicating, the aim is to convey or exchange information. But when communicating data, your aim shouldn't be to simply pass along numbers to your audience. Your aim should be to communicate a story that is informed by your data - effective data communication and storytelling go hand-in-hand. Your audience is more likely to remember a story you tell, than a number you give. Later in this lesson, we will go over a few ways that you can use storytelling to communicate your data more effectively. 
@@ -91,7 +91,7 @@ That messaging is more clear. When communicating data, it can be easy to think t
 You can communicate data more clearly when you use meaningful words and phrases, instead of vague ones. Below are a few examples. 
 
  - We had an *impressive* year! 
-	 - One person could think a impressive means a 2% - 3% increase in revenue, and one person could think it means a 50% - 60% increase. 
+	 - One person could think an impressive year means a 2% - 3% increase in revenue, and one person could think it means a 50% - 60% increase. 
  - Our users' success rates increased *dramatically*.
 	 - How large of an increase is a dramatic increase?
  - This undertaking will require *significant* effort.
@@ -121,7 +121,7 @@ How do you use emotion when communicating data? Below are a couple of ways.
 		 - Yellow is usually optimism and happiness
 
 # Communication Case Study
-Emerson is a Product Manager for a mobile app. Emerson has noticed that customers submit 42% more complaints and bug reports on the weekends. Emerson also noticed that customers who submit a complaint that goes unanswered after 48 hours are more 32% more likely to give the app a rating of 1 or 2 in the app store.
+Emerson is a Product Manager for a mobile app. Emerson has noticed that customers submit 42% more complaints and bug reports on the weekends. Emerson also noticed that customers who submit a complaint that goes unanswered after 48 hours are 32% more likely to give the app a rating of 1 or 2 in the app store.
 
 After doing research, Emerson has a couple of solutions that will address the issue. Emerson sets up a 30-minute meeting with the 3 company leads to communicate the data and the proposed solutions.
 
@@ -143,7 +143,7 @@ How could Emerson improve this approach?
 Context, Conflict, Climax, Closure, Conclusion
 **Context** - Emerson could spend the first 5 minutes introducing the entire situation and making sure that the team leads understand how the problems affect metrics that are critical to the company, like revenue. 
 
-It could be laid out this way: "Currently, our app's rating in the app store is a 2.5. Ratings in the app store are critical to App Store Optimization, which impacts how many users see our app in search, and how our app is viewed to perspective users. And ofcourse, the number of users we have is tied directly to revenue."
+It could be laid out this way: "Currently, our app's rating in the app store is a 2.5. Ratings in the app store are critical to App Store Optimization, which impacts how many users see our app in search, and how our app is viewed to prospective users. And of course, the number of users we have is tied directly to revenue."
 
 **Conflict** Emerson could then move to talk for the next 5 minutes or so on the conflict.
 
