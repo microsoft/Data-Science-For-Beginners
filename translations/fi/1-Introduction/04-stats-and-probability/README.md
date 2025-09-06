@@ -1,129 +1,129 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "1cf49f029ba1f25a54f0d5bc2fa575fc",
-  "translation_date": "2025-09-05T22:47:04+00:00",
+  "original_hash": "ce95884566a74db72572cd51f0cb25ad",
+  "translation_date": "2025-09-06T13:43:27+00:00",
   "source_file": "1-Introduction/04-stats-and-probability/README.md",
   "language_code": "fi"
 }
 -->
-# Lyhyt johdatus tilastotieteeseen ja todennäköisyyksiin
+# Tilastotiede ja todennäköisyys: Lyhyt johdanto
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/04-Statistics-Probability.png)|
 |:---:|
-| Tilastotiede ja todennäköisyydet - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+| Tilastotiede ja todennäköisyys - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-Tilastotiede ja todennäköisyysteoria ovat kaksi läheisesti toisiinsa liittyvää matematiikan osa-aluetta, jotka ovat erittäin merkityksellisiä datatieteessä. Vaikka dataa voi käsitellä ilman syvällistä matematiikan tuntemusta, on silti hyödyllistä ymmärtää ainakin peruskäsitteet. Tässä esittelemme lyhyen johdannon, joka auttaa sinua pääsemään alkuun.
+Tilastotiede ja todennäköisyysteoria ovat kaksi läheisesti liittyvää matematiikan osa-aluetta, jotka ovat erittäin tärkeitä datatieteessä. Vaikka dataa voi käsitellä ilman syvällistä matematiikan tuntemusta, on silti hyödyllistä ymmärtää ainakin peruskäsitteet. Tässä esittelemme lyhyen johdannon, joka auttaa sinua pääsemään alkuun.
 
-[![Intro Video](../../../../1-Introduction/04-stats-and-probability/images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Johdantovideo](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.fi.png)](https://youtu.be/Z5Zy85g4Yjw)
 
-## [Ennakkokysely ennen luentoa](https://ff-quizzes.netlify.app/en/ds/quiz/6)
+## [Esiluentovisa](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
 ## Todennäköisyys ja satunnaismuuttujat
 
-**Todennäköisyys** on luku välillä 0 ja 1, joka ilmaisee, kuinka todennäköinen jokin **tapahtuma** on. Se määritellään positiivisten lopputulosten (jotka johtavat tapahtumaan) lukumääränä jaettuna kaikkien lopputulosten lukumäärällä, olettaen että kaikki lopputulokset ovat yhtä todennäköisiä. Esimerkiksi, kun heitämme noppaa, todennäköisyys saada parillinen luku on 3/6 = 0.5.
+**Todennäköisyys** on luku välillä 0 ja 1, joka ilmaisee, kuinka todennäköinen jokin **tapahtuma** on. Se määritellään positiivisten lopputulosten (jotka johtavat tapahtumaan) lukumääränä jaettuna kaikkien mahdollisten lopputulosten lukumäärällä, olettaen että kaikki lopputulokset ovat yhtä todennäköisiä. Esimerkiksi, kun heitämme noppaa, todennäköisyys saada parillinen luku on 3/6 = 0,5.
 
-Kun puhumme tapahtumista, käytämme **satunnaismuuttujia**. Esimerkiksi satunnaismuuttuja, joka edustaa nopanheiton tulosta, voi saada arvoja välillä 1–6. Lukuja 1–6 kutsutaan **otosavaruudeksi**. Voimme puhua satunnaismuuttujan todennäköisyydestä saada tietty arvo, esimerkiksi P(X=3)=1/6.
+Kun puhumme tapahtumista, käytämme **satunnaismuuttujia**. Esimerkiksi satunnaismuuttuja, joka edustaa nopanheiton tulosta, voi saada arvoja 1–6. Lukuja 1–6 kutsutaan **otosavaruudeksi**. Voimme puhua todennäköisyydestä, että satunnaismuuttuja saa tietyn arvon, esimerkiksi P(X=3)=1/6.
 
 Edellä mainittu satunnaismuuttuja on **diskreetti**, koska sen otosavaruus on laskettavissa, eli siinä on erillisiä arvoja, jotka voidaan luetella. On myös tapauksia, joissa otosavaruus on reaaliarvojen väli tai koko reaaliarvojen joukko. Tällaisia muuttujia kutsutaan **jatkuviksi**. Hyvä esimerkki on bussin saapumisaika.
 
 ## Todennäköisyysjakauma
 
-Diskreettien satunnaismuuttujien tapauksessa on helppo kuvata kunkin tapahtuman todennäköisyys funktiolla P(X). Jokaiselle otosavaruuden *S* arvolle *s* funktio antaa luvun välillä 0 ja 1, siten että kaikkien P(X=s) arvojen summa on 1.
+Diskreettien satunnaismuuttujien tapauksessa on helppo kuvata kunkin tapahtuman todennäköisyys funktiolla P(X). Jokaiselle otosavaruuden *S* arvolle *s* se antaa luvun välillä 0 ja 1 siten, että kaikkien tapahtumien P(X=s) arvojen summa on 1.
 
-Tunnetuin diskreetti jakauma on **tasajakauma**, jossa otosavaruudessa on N elementtiä, ja jokaisen elementin todennäköisyys on 1/N.
+Tunnetuin diskreetti jakauma on **tasajakauma**, jossa otosavaruudessa on N alkiota, ja jokaisella niistä on yhtä suuri todennäköisyys 1/N.
 
-Jatkuvan muuttujan todennäköisyysjakauman kuvaaminen on vaikeampaa, kun arvot ovat peräisin jostain välistä [a,b] tai koko reaaliarvojen joukosta ℝ. Mietitään esimerkiksi bussin saapumisaikaa. Todellisuudessa todennäköisyys, että bussi saapuu täsmälleen tiettynä aikana *t*, on 0!
+Jatkuvan muuttujan todennäköisyysjakauman kuvaaminen on vaikeampaa, kun arvot ovat peräisin jostakin välistä [a,b] tai koko reaaliarvojen joukosta ℝ. Mietitään esimerkiksi bussin saapumisaikaa. Itse asiassa todennäköisyys, että bussi saapuu tarkalleen tiettynä aikana *t*, on 0!
 
-> Nyt tiedät, että tapahtumat, joiden todennäköisyys on 0, tapahtuvat – ja vieläpä usein! Ainakin joka kerta, kun bussi saapuu!
+> Nyt tiedät, että tapahtumat, joiden todennäköisyys on 0, tapahtuvat – ja vieläpä usein! Ainakin aina, kun bussi saapuu!
 
-Voimme puhua vain todennäköisyydestä, että muuttuja osuu tiettyyn arvojen väliin, esim. P(t<sub>1</sub>≤X<t<sub>2</sub>). Tässä tapauksessa todennäköisyysjakauma kuvataan **todennäköisyystiheysfunktiolla** p(x), siten että
+Voimme puhua vain todennäköisyydestä, että muuttuja osuu tietylle arvojen välille, esim. P(t<sub>1</sub>≤X<t<sub>2</sub>). Tässä tapauksessa todennäköisyysjakauma kuvataan **tiheysfunktiolla** p(x), siten että
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../1-Introduction/04-stats-and-probability/images/probability-density.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.fi.png)
 
-Jatkuvan tasajakauman analogi on **jatkuva tasajakauma**, joka määritellään rajallisella välillä. Todennäköisyys, että arvo X osuu väliin, jonka pituus on l, on verrannollinen l:ään ja kasvaa arvoon 1.
+Jatkuvan tasajakauman analogia on **jatkuva tasajakauma**, joka määritellään äärelliselle välille. Todennäköisyys, että arvo X osuu pituudeltaan l olevaan väliin, on verrannollinen l:n pituuteen ja kasvaa arvoon 1.
 
 Toinen tärkeä jakauma on **normaalijakauma**, josta puhumme tarkemmin myöhemmin.
 
 ## Keskiarvo, varianssi ja keskihajonta
 
-Oletetaan, että otamme satunnaismuuttujasta X n näytettä: x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>. Voimme määritellä **keskiarvon** (tai **aritmeettisen keskiarvon**) perinteisellä tavalla: (x<sub>1</sub>+x<sub>2</sub>+x<sub>n</sub>)/n. Kun kasvatamme otoksen kokoa (eli otamme rajan n→∞), saamme jakauman keskiarvon (jota kutsutaan myös **odotusarvoksi**). Merkitsemme odotusarvoa **E**(x).
+Oletetaan, että otamme n näytettä satunnaismuuttujasta X: x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>. Voimme määritellä **keskiarvon** (tai **aritmeettisen keskiarvon**) perinteisellä tavalla: (x<sub>1</sub>+x<sub>2</sub>+...+x<sub>n</sub>)/n. Kun kasvatamme otoksen kokoa (eli otamme rajan n→∞), saamme jakauman keskiarvon (jota kutsutaan myös **odotusarvoksi**). Merkitsemme odotusarvoa **E**(x).
 
-> On osoitettu, että mille tahansa diskreetille jakaumalle, jonka arvot ovat {x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>N</sub>} ja vastaavat todennäköisyydet p<sub>1</sub>, p<sub>2</sub>, ..., p<sub>N</sub>, odotusarvo on E(X)=x<sub>1</sub>p<sub>1</sub>+x<sub>2</sub>p<sub>2</sub>+...+x<sub>N</sub>p<sub>N</sub>.
+> On osoitettavissa, että mille tahansa diskreetille jakaumalle, jonka arvot ovat {x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>N</sub>} ja vastaavat todennäköisyydet p<sub>1</sub>, p<sub>2</sub>, ..., p<sub>N</sub>, odotusarvo on E(X)=x<sub>1</sub>p<sub>1</sub>+x<sub>2</sub>p<sub>2</sub>+...+x<sub>N</sub>p<sub>N</sub>.
 
-Arvojen hajonnan tunnistamiseksi voimme laskea varianssin σ<sup>2</sup> = ∑(x<sub>i</sub> - μ)<sup>2</sup>/n, missä μ on otoksen keskiarvo. Arvoa σ kutsutaan **keskihajonnaksi**, ja σ<sup>2</sup> on **varianssi**.
+Arvojen hajonnan määrittämiseksi voimme laskea varianssin σ<sup>2</sup> = ∑(x<sub>i</sub> - μ)<sup>2</sup>/n, missä μ on otoksen keskiarvo. Arvoa σ kutsutaan **keskihajonnaksi**, ja σ<sup>2</sup> on **varianssi**.
 
 ## Moodi, mediaani ja kvartiilit
 
-Joskus keskiarvo ei kuvaa riittävän hyvin "tyypillistä" arvoa datalle. Esimerkiksi, jos datassa on muutama äärimmäinen arvo, ne voivat vaikuttaa keskiarvoon. Toinen hyvä indikaattori on **mediaani**, arvo, jonka alapuolella on puolet datan pisteistä ja yläpuolella toinen puoli.
+Joskus keskiarvo ei kuvaa riittävästi "tyypillistä" arvoa datassa. Esimerkiksi, jos datassa on muutamia äärimmäisiä arvoja, jotka ovat täysin poikkeavia, ne voivat vaikuttaa keskiarvoon. Hyvä vaihtoehtoinen mittari on **mediaani**, arvo, jonka alapuolella on puolet datan arvoista ja yläpuolella toinen puoli.
 
 Datan jakauman ymmärtämiseksi on hyödyllistä puhua **kvartiileista**:
 
-* Ensimmäinen kvartiili, eli Q1, on arvo, jonka alapuolella on 25 % datasta
-* Kolmas kvartiili, eli Q3, on arvo, jonka alapuolella on 75 % datasta
+* Ensimmäinen kvartiili eli Q1 on arvo, jonka alapuolella on 25 % datasta
+* Kolmas kvartiili eli Q3 on arvo, jonka alapuolella on 75 % datasta
 
-Graafisesti voimme kuvata mediaanin ja kvartiilien suhdetta diagrammilla, jota kutsutaan **laatikko-kaavioksi**:
+Graafisesti voimme esittää mediaanin ja kvartiilien suhteen diagrammissa, jota kutsutaan **laatikko- ja viiksikaavioksi**:
 
-<img src="images/boxplot_explanation.png" width="50%"/>
+<img src="images/boxplot_explanation.png" alt="Laatikko- ja viiksikaavio" width="50%">
 
-Tässä laskemme myös **kvartiilivälin** IQR=Q3-Q1 ja niin sanotut **poikkeamat** – arvot, jotka ovat alueen [Q1-1.5*IQR,Q3+1.5*IQR] ulkopuolella.
+Tässä laskemme myös **kvartiilivälin** IQR=Q3-Q1 ja niin sanotut **poikkeamat** – arvot, jotka ovat alueen [Q1-1.5*IQR, Q3+1.5*IQR] ulkopuolella.
 
-Pienelle diskreetille jakaumalle, jossa on vain muutama mahdollinen arvo, hyvä "tyypillinen" arvo on se, joka esiintyy useimmin, ja sitä kutsutaan **moodiksi**. Moodia käytetään usein kategoriselle datalle, kuten väreille. Mietitään tilannetta, jossa meillä on kaksi ryhmää ihmisiä – osa suosii vahvasti punaista ja osa sinistä. Jos koodaisimme värit numeroilla, keskiarvo suosikkivärille olisi jossain oranssin ja vihreän välillä, mikä ei kuvaisi kummankaan ryhmän todellista mieltymystä. Moodi sen sijaan olisi joko yksi väreistä tai molemmat, jos niiden kannattajien määrä on sama (tässä tapauksessa otosta kutsutaan **multimodaaliseksi**).
+Pienelle diskreetille jakaumalle, jossa on vain vähän mahdollisia arvoja, hyvä "tyypillinen" arvo on yleisin arvo, jota kutsutaan **moodiksi**. Moodia käytetään usein kategorisessa datassa, kuten väreissä. Kuvitellaan tilanne, jossa on kaksi ihmisryhmää – toiset suosivat vahvasti punaista ja toiset sinistä. Jos koodaisimme värit numeroilla, suosikkivärin keskiarvo olisi jossain oranssin ja vihreän välillä, mikä ei kuvasta kummankaan ryhmän todellista mieltymystä. Moodi sen sijaan olisi joko punainen tai sininen, tai molemmat, jos molempien värien kannattajia on yhtä paljon (tässä tapauksessa otosta kutsutaan **monimodaaliseksi**).
 
 ## Reaaliaikainen data
 
-Kun analysoimme tosielämän dataa, ne eivät usein ole varsinaisia satunnaismuuttujia siinä mielessä, että emme tee kokeita tuntemattomalla tuloksella. Esimerkiksi, mietitään baseball-joukkueen pelaajia ja heidän kehon tietojaan, kuten pituutta, painoa ja ikää. Nämä luvut eivät ole täysin satunnaisia, mutta voimme silti soveltaa samoja matemaattisia käsitteitä. Esimerkiksi ihmisten painojen sarjaa voidaan pitää satunnaismuuttujasta otettuna arvosarjana. Alla on Major League Baseball -pelaajien painojen sarja, joka on otettu [tästä datasetistä](http://wiki.stat.ucla.edu/socr/index.php/SOCR_Data_MLB_HeightsWeights) (mukavuuden vuoksi vain ensimmäiset 20 arvoa näytetään):
+Kun analysoimme tosielämän dataa, ne eivät usein ole varsinaisia satunnaismuuttujia siinä mielessä, että emme suorita kokeita tuntemattomilla tuloksilla. Esimerkiksi, jos tarkastelemme baseball-pelaajien joukkueen kehon mittoja, kuten pituutta, painoa ja ikää, nämä luvut eivät ole täysin satunnaisia, mutta voimme silti soveltaa samoja matemaattisia käsitteitä. Esimerkiksi ihmisten painojen sarjaa voidaan pitää satunnaismuuttujan arvojen sarjana. Alla on sarja painoja todellisilta baseball-pelaajilta [Major League Baseballista](http://mlb.mlb.com/index.jsp), otettuna [tästä datasetistä](http://wiki.stat.ucla.edu/socr/index.php/SOCR_Data_MLB_HeightsWeights) (mukavuussyistä vain ensimmäiset 20 arvoa on näytetty):
 
 ```
 [180.0, 215.0, 210.0, 210.0, 188.0, 176.0, 209.0, 200.0, 231.0, 180.0, 188.0, 180.0, 185.0, 160.0, 180.0, 185.0, 197.0, 189.0, 185.0, 219.0]
 ```
 
-> **Huomio**: Katso esimerkki tämän datasetin käsittelystä [liitteenä olevasta muistikirjasta](../../../../1-Introduction/04-stats-and-probability/notebook.ipynb). Tässä oppitunnissa on myös useita haasteita, jotka voit suorittaa lisäämällä koodia muistikirjaan. Jos et ole varma, miten dataa käsitellään, älä huoli – palaamme datan käsittelyyn Pythonilla myöhemmin. Jos et tiedä, miten suorittaa koodia Jupyter Notebookissa, katso [tämä artikkeli](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+> **Huomio**: Katso esimerkki tämän datasetin käsittelystä [liitteenä olevasta muistikirjasta](notebook.ipynb). Tässä oppitunnissa on myös useita haasteita, jotka voit suorittaa lisäämällä koodia muistikirjaan. Jos et ole varma, miten dataa käsitellään, älä huoli – palaamme datan käsittelyyn Pythonilla myöhemmin. Jos et tiedä, miten suorittaa koodia Jupyter Notebookissa, katso [tämä artikkeli](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
-Tässä on laatikko-kaavio, joka näyttää datan keskiarvon, mediaanin ja kvartiilit:
+Tässä on laatikko- ja viiksikaavio, joka näyttää datamme keskiarvon, mediaanin ja kvartiilit:
 
-![Painon laatikko-kaavio](../../../../1-Introduction/04-stats-and-probability/images/weight-boxplot.png)
+![Painon laatikko- ja viiksikaavio](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.fi.png)
 
-Koska datamme sisältää tietoa eri pelaajien **rooleista**, voimme myös tehdä laatikko-kaavion roolin mukaan – tämä antaa meille käsityksen siitä, miten parametrit eroavat roolien välillä. Tällä kertaa tarkastelemme pituutta:
+Koska datamme sisältää tietoa eri pelaajien **rooleista**, voimme myös tehdä laatikko- ja viiksikaavion roolin mukaan – tämä antaa käsityksen siitä, miten parametrien arvot vaihtelevat roolien välillä. Tällä kertaa tarkastelemme pituutta:
 
-![Laatikko-kaavio roolin mukaan](../../../../1-Introduction/04-stats-and-probability/images/boxplot_byrole.png)
+![Laatikko- ja viiksikaavio roolin mukaan](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.fi.png)
 
-Tämä diagrammi viittaa siihen, että keskimäärin ensimmäisen pesän pelaajien pituus on suurempi kuin toisen pesän pelaajien pituus. Myöhemmin tässä oppitunnissa opimme, miten voimme testata tätä hypoteesia muodollisemmin ja miten voimme osoittaa, että datamme on tilastollisesti merkittävää tämän osoittamiseksi.
+Tämä diagrammi viittaa siihen, että ensimmäisen pesämiehen keskimääräinen pituus on suurempi kuin toisen pesämiehen. Myöhemmin tässä oppitunnissa opimme, kuinka voimme testata tätä hypoteesia muodollisemmin ja osoittaa, että datamme on tilastollisesti merkittävää tämän osoittamiseksi.
 
-> Kun työskentelemme tosielämän datan kanssa, oletamme, että kaikki datapisteet ovat otoksia jostain todennäköisyysjakaumasta. Tämä oletus mahdollistaa koneoppimistekniikoiden soveltamisen ja toimivien ennustemallien rakentamisen.
+> Kun työskentelemme tosielämän datan kanssa, oletamme, että kaikki datapisteet ovat otoksia jostakin todennäköisyysjakaumasta. Tämä oletus mahdollistaa koneoppimistekniikoiden soveltamisen ja toimivien ennustemallien rakentamisen.
 
-Jotta voimme nähdä, millainen datamme jakauma on, voimme piirtää diagrammin, jota kutsutaan **histogrammiksi**. X-akselilla on eri painovälien lukumäärä (niin sanotut **binssit**), ja pystyakseli näyttää, kuinka monta kertaa satunnaismuuttujan otos osui tiettyyn väliin.
+Jotta voimme nähdä, millainen datamme jakauma on, voimme piirtää kaavion, jota kutsutaan **histogrammiksi**. X-akselilla on eri painovälien lukumäärä (niin sanotut **bin**-arvot), ja pystyakselilla näytetään, kuinka monta kertaa satunnaismuuttujan otos osui tiettyyn väliin.
 
-![Reaaliaikaisen datan histogrammi](../../../../1-Introduction/04-stats-and-probability/images/weight-histogram.png)
+![Reaaliaikaisen datan histogrammi](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.fi.png)
 
-Tästä histogrammista näet, että kaikki arvot keskittyvät tietyn keskimääräisen painon ympärille, ja mitä kauemmas keskiarvosta mennään, sitä harvemmin kyseistä painoa esiintyy. Eli on hyvin epätodennäköistä, että baseball-pelaajan paino poikkeaisi merkittävästi keskiarvosta. Painojen varianssi osoittaa, kuinka paljon painot todennäköisesti eroavat keskiarvosta.
+Tästä histogrammista näet, että kaikki arvot keskittyvät tietyn keskipainon ympärille, ja mitä kauemmas keskipainosta mennään, sitä harvemmin kyseisen painon arvoja esiintyy. Toisin sanoen on hyvin epätodennäköistä, että baseball-pelaajan paino poikkeaisi merkittävästi keskipainosta. Painojen varianssi osoittaa, kuinka paljon painot todennäköisesti eroavat keskiarvosta.
 
-> Jos otamme muiden ihmisten painoja, jotka eivät ole baseball-liigasta, jakauma on todennäköisesti erilainen. Jakauman muoto pysyy kuitenkin samana, mutta keskiarvo ja varianssi muuttuvat. Jos siis koulutamme mallimme baseball-pelaajilla, se todennäköisesti antaa vääriä tuloksia, kun sitä sovelletaan yliopisto-opiskelijoihin, koska taustalla oleva jakauma on erilainen.
+> Jos ottaisimme painoja muilta ihmisiltä, jotka eivät kuulu baseball-liigaan, jakauma olisi todennäköisesti erilainen. Jakauman muoto olisi kuitenkin sama, mutta keskiarvo ja varianssi muuttuisivat. Jos siis koulutamme mallimme baseball-pelaajilla, se todennäköisesti antaa vääriä tuloksia, kun sitä sovelletaan esimerkiksi yliopisto-opiskelijoihin, koska taustalla oleva jakauma on erilainen.
 
 ## Normaalijakauma
 
-Painojen jakauma, jonka näimme yllä, on hyvin tyypillinen, ja monet tosielämän mittaukset noudattavat samaa tyyppistä jakaumaa, mutta eri keskiarvolla ja varianssilla. Tätä jakaumaa kutsutaan **normaalijakaumaksi**, ja sillä on erittäin tärkeä rooli tilastotieteessä.
+Painojen jakauma, jonka näimme yllä, on hyvin tyypillinen, ja monet tosielämän mittaukset noudattavat samaa jakaumatyyppiä, mutta eri keskiarvolla ja varianssilla. Tätä jakaumaa kutsutaan **normaalijakaumaksi**, ja sillä on erittäin tärkeä rooli tilastotieteessä.
 
-Normaalijakauman käyttäminen on oikea tapa luoda satunnaisia painoja potentiaalisille baseball-pelaajille. Kun tiedämme keskimääräisen painon `mean` ja keskihajonnan `std`, voimme luoda 1000 painonäytettä seuraavalla tavalla:
+Normaalijakauman käyttäminen on oikea tapa luoda satunnaisia painoja mahdollisille baseball-pelaajille. Kun tiedämme keskipainon `mean` ja keskihajonnan `std`, voimme luoda 1000 painonäytettä seuraavasti:
 ```python
 samples = np.random.normal(mean,std,1000)
-``` 
+```
 
-Jos piirrämme histogrammin luoduista näytteistä, näemme kuvan, joka on hyvin samanlainen kuin yllä oleva. Ja jos lisäämme näytteiden määrää ja binssien määrää, voimme luoda kuvan normaalijakaumasta, joka on lähempänä ideaalista:
+Jos piirrämme histogrammin luoduista näytteistä, näemme kuvan, joka on hyvin samanlainen kuin yllä oleva. Ja jos lisäämme näytteiden ja binien määrää, voimme luoda normaalijakauman kuvan, joka on lähempänä ideaalia:
 
-![Normaalijakauma, keskiarvo=0 ja keskihajonta=1](../../../../1-Introduction/04-stats-and-probability/images/normal-histogram.png)
+![Normaalijakauma, keskiarvo=0 ja keskihajonta=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.fi.png)
 
 *Normaalijakauma, keskiarvo=0 ja keskihajonta=1*
 
 ## Luottamusvälit
 
-Kun puhumme baseball-pelaajien painoista, oletamme, että on olemassa tietty **satunnaismuuttuja W**, joka vastaa kaikkien baseball-pelaajien painojen ideaalista todennäköisyysjakaumaa (niin sanottu **populaatio**). Painojen sarjamme vastaa kaikkien baseball-pelaajien osajoukkoa, jota kutsumme **otokseksi**. Mielenkiintoinen kysymys on, voimmeko tietää W:n jakauman parametrit, eli populaation keskiarvon ja varianssin?
+Kun puhumme baseball-pelaajien painoista, oletamme, että on olemassa tietty **satunnaismuuttuja W**, joka vastaa painojen ideaalista todennäköisyysjakaumaa kaikille baseball-pelaajille (niin sanottu **populaatio**). Painojemme sarja vastaa otosta kaikista baseball-pelaajista, jota kutsumme **otokseksi**. Mielenkiintoinen kysymys on, voimmeko tietää W:n jakauman parametrit, eli populaation keskiarvon ja varianssin?
 
-Helpoin vastaus olisi laskea otoksen keskiarvo ja varianssi. Kuitenkin voi käydä niin, että satunnainen otoksemme ei edusta tarkasti koko populaatiota. Siksi on järkevää puhua **luottamusvälistä**.
+Helpoin vastaus olisi laskea otoksen keskiarvo ja varianssi. Kuitenkin voi käydä niin, että satunnainen otoksemme ei tarkasti edusta koko populaatiota. Siksi on järkevää puhua **luottamusvälistä**.
 
-> **Luottamusväli** on arvio populaation todellisesta keskiarvosta otoksemme perusteella, joka on tietyllä todennäköisyydellä (tai **luottamustasolla**) tarkka.
+> **Luottamusväli** on arvio populaation todellisesta keskiarvosta otoksemme perusteella, ja se on tarkka tietyllä todennäköisyydellä (tai **luottamustasolla**).
 
-Oletetaan, että meillä on otos X
+Oletetaan, että meillä on otos X...
 
 1</sub>, ..., X<sub>n</sub> otoksestamme. Joka kerta, kun otamme otoksen jakaumastamme, saamme eri keskiarvon μ. Näin ollen μ voidaan pitää satunnaismuuttujana. **Luottamusväli** luottamustasolla p on arvojen pari (L<sub>p</sub>,R<sub>p</sub>), siten että **P**(L<sub>p</sub>≤μ≤R<sub>p</sub>) = p, eli todennäköisyys, että mitattu keskiarvo osuu välin sisään, on p.
 
@@ -133,9 +133,9 @@ On tämän lyhyen johdannon ulkopuolella käsitellä yksityiskohtaisesti, miten 
 
 Jos haluamme arvioida populaation keskiarvon μ luottamustasolla p, meidän on otettava *(1-p)/2-prosenttipiste* Studentin jakaumasta A, joka voidaan joko hakea taulukoista tai laskea tilasto-ohjelmistojen sisäänrakennetuilla funktioilla (esim. Python, R jne.). Tällöin μ:n väli olisi X±A*D/√n, missä X on otoksen saatu keskiarvo ja D on keskihajonta.
 
-> **Huomio**: Ohitamme myös tärkeän käsitteen [vapausasteet](https://en.wikipedia.org/wiki/Degrees_of_freedom_(statistics)), joka on tärkeä Studentin jakauman yhteydessä. Voit perehtyä syvällisemmin tilastotieteen kirjoihin ymmärtääksesi tämän käsitteen paremmin.
+> **Huomio**: Ohitamme myös tärkeän käsitteen [vapausasteet](https://en.wikipedia.org/wiki/Degrees_of_freedom_(statistics)), joka on merkityksellinen Studentin jakauman yhteydessä. Voit perehtyä syvällisemmin tähän käsitteeseen täydellisemmistä tilastotieteen kirjoista.
 
-Esimerkki painojen ja pituuksien luottamusvälin laskemisesta löytyy [liitteenä olevista muistikirjoista](../../../../1-Introduction/04-stats-and-probability/notebook.ipynb).
+Esimerkki painojen ja pituuksien luottamusvälin laskemisesta löytyy [liitteenä olevista muistikirjoista](notebook.ipynb).
 
 | p | Painon keskiarvo |
 |-----|----------------|
@@ -147,7 +147,7 @@ Huomaa, että mitä korkeampi luottamustodennäköisyys, sitä laajempi luottamu
 
 ## Hypoteesin testaus
 
-Baseball-pelaajien aineistossamme on erilaisia pelaajarooleja, jotka voidaan tiivistää alla olevaan taulukkoon (katso [liitteenä oleva muistikirja](../../../../1-Introduction/04-stats-and-probability/notebook.ipynb), miten tämä taulukko on laskettu):
+Baseball-pelaajien aineistossamme on erilaisia pelaajarooleja, jotka voidaan tiivistää seuraavasti (katso [liitteenä oleva muistikirja](notebook.ipynb), miten tämä taulukko on laskettu):
 
 | Rooli | Pituus | Paino | Lukumäärä |
 |-------|--------|-------|-----------|
@@ -163,7 +163,7 @@ Baseball-pelaajien aineistossamme on erilaisia pelaajarooleja, jotka voidaan tii
 
 Voimme huomata, että ensimmäisten basemenien keskipituus on suurempi kuin toisten basemenien. Näin ollen voimme olla taipuvaisia päättelemään, että **ensimmäiset basemenit ovat pidempiä kuin toiset basemenit**.
 
-> Tätä väitettä kutsutaan **hypoteesiksi**, koska emme tiedä, onko se oikeasti totta vai ei.
+> Tätä väitettä kutsutaan **hypoteesiksi**, koska emme tiedä, onko se tosiasiallisesti totta vai ei.
 
 Kuitenkin ei ole aina ilmeistä, voimmeko tehdä tämän johtopäätöksen. Kuten edellä keskustelimme, jokaisella keskiarvolla on siihen liittyvä luottamusväli, ja näin ollen tämä ero voi olla vain tilastollinen virhe. Tarvitsemme muodollisemman tavan testata hypoteesimme.
 
@@ -177,11 +177,11 @@ Lasketaan luottamusvälit erikseen ensimmäisten ja toisten basemenien pituuksil
 
 Voimme nähdä, että missään luottamustasossa välit eivät mene päällekkäin. Tämä todistaa hypoteesimme, että ensimmäiset basemenit ovat pidempiä kuin toiset basemenit.
 
-Muodollisemmin, ratkaisemamme ongelma on nähdä, ovatko **kaksi todennäköisyysjakaumaa samat**, tai ainakin onko niillä samat parametrit. Riippuen jakaumasta, meidän on käytettävä erilaisia testejä. Jos tiedämme, että jakaumamme ovat normaalijakaumia, voimme soveltaa **[Studentin t-testiä](https://en.wikipedia.org/wiki/Student%27s_t-test)**.
+Muodollisemmin, ratkaisemamme ongelma on nähdä, ovatko **kaksi todennäköisyysjakaumaa samoja**, tai ainakin onko niillä samat parametrit. Riippuen jakaumasta, meidän on käytettävä erilaisia testejä. Jos tiedämme, että jakaumamme ovat normaalijakaumia, voimme soveltaa **[Studentin t-testiä](https://en.wikipedia.org/wiki/Student%27s_t-test)**.
 
-Studentin t-testissä laskemme niin sanotun **t-arvon**, joka osoittaa keskiarvojen eron ottaen huomioon varianssin. On osoitettu, että t-arvo noudattaa **Studentin jakaumaa**, mikä mahdollistaa kynnysarvon saamisen annetulle luottamustasolle **p** (tämä voidaan laskea tai katsoa numeerisista taulukoista). Vertaillemme sitten t-arvoa tähän kynnysarvoon hyväksyäksemme tai hylätäksemme hypoteesin.
+Studentin t-testissä laskemme niin sanotun **t-arvon**, joka osoittaa keskiarvojen eron ottaen huomioon varianssin. On osoitettu, että t-arvo noudattaa **Studentin jakaumaa**, mikä mahdollistaa kynnysarvon saamisen annetulle luottamustasolle **p** (tämä voidaan laskea tai katsoa numeerisista taulukoista). Vertaillemme sitten t-arvoa tähän kynnysarvoon hypoteesin hyväksymiseksi tai hylkäämiseksi.
 
-Pythonissa voimme käyttää **SciPy**-kirjastoa, joka sisältää `ttest_ind`-funktion (monien muiden hyödyllisten tilastollisten funktioiden lisäksi!). Se laskee t-arvon puolestamme ja tekee myös käänteisen luottamustason p-arvon haun, jotta voimme vain tarkastella luottamustasoa johtopäätöksen tekemiseksi.
+Pythonissa voimme käyttää **SciPy**-kirjastoa, joka sisältää `ttest_ind`-funktion (sekä monia muita hyödyllisiä tilastollisia funktioita!). Se laskee t-arvon puolestamme ja tekee myös käänteisen luottamustason p-arvon haun, joten voimme vain tarkastella luottamustasoa johtopäätöksen tekemiseksi.
 
 Esimerkiksi vertailumme ensimmäisten ja toisten basemenien pituuksista antaa seuraavat tulokset: 
 ```python
@@ -196,10 +196,10 @@ P-value: 9.137321189738925e-12
 ```
 Tässä tapauksessa p-arvo on erittäin pieni, mikä tarkoittaa, että on vahvaa näyttöä siitä, että ensimmäiset basemenit ovat pidempiä.
 
-On myös muita hypoteeseja, joita voimme haluta testata, esimerkiksi:
-* Todistaa, että annettu otos noudattaa jotain jakaumaa. Oletimme esimerkiksi, että pituudet ovat normaalijakautuneita, mutta tämä vaatii muodollisen tilastollisen vahvistuksen.
+On myös muita hypoteeseja, joita voimme testata, esimerkiksi:
+* Todistaa, että annettu otos noudattaa jotain jakaumaa. Esimerkissämme oletimme, että pituudet ovat normaalijakautuneita, mutta tämä vaatii muodollisen tilastollisen vahvistuksen.
 * Todistaa, että otoksen keskiarvo vastaa jotain ennalta määriteltyä arvoa.
-* Verrata useiden otosten keskiarvoja (esim. mikä on ero onnellisuustasoissa eri ikäryhmien välillä).
+* Verrata useiden otosten keskiarvoja (esim. mikä on onnellisuustasojen ero eri ikäryhmien välillä).
 
 ## Suurten lukujen laki ja keskeinen raja-arvolause
 
@@ -211,13 +211,13 @@ Keskeisestä raja-arvolauseesta seuraa myös, että kun N→∞, otoskeskiarvon 
 
 ## Kovaranssi ja korrelaatio
 
-Yksi asioista, joita data-analytiikka tekee, on löytää yhteyksiä datan välillä. Sanomme, että kaksi sarjaa **korreloivat**, kun ne käyttäytyvät samankaltaisesti samaan aikaan, eli ne joko nousevat/laskevat samanaikaisesti tai toinen sarja nousee, kun toinen laskee ja päinvastoin. Toisin sanoen, sarjojen välillä näyttää olevan jokin yhteys.
+Yksi datatieteen tehtävistä on löytää yhteyksiä datan välillä. Sanomme, että kaksi sarjaa **korreloivat**, kun ne käyttäytyvät samankaltaisesti samaan aikaan, eli ne joko nousevat/laskevat samanaikaisesti tai toinen sarja nousee, kun toinen laskee ja päinvastoin. Toisin sanoen, sarjojen välillä näyttää olevan jokin yhteys.
 
-> Korrelaatio ei välttämättä tarkoita kausaalista suhdetta kahden sarjan välillä; joskus molemmat muuttujat voivat riippua jostain ulkoisesta syystä, tai voi olla puhdasta sattumaa, että kaksi sarjaa korreloivat. Kuitenkin vahva matemaattinen korrelaatio on hyvä osoitus siitä, että kaksi muuttujaa ovat jollain tavalla yhteydessä.
+> Korrelaatio ei välttämättä tarkoita kausaalista suhdetta kahden sarjan välillä; joskus molemmat muuttujat voivat riippua jostain ulkoisesta syystä, tai voi olla täysin sattumaa, että kaksi sarjaa korreloivat. Kuitenkin vahva matemaattinen korrelaatio on hyvä osoitus siitä, että kaksi muuttujaa ovat jollain tavalla yhteydessä.
 
-Matemaattisesti pääkäsite, joka osoittaa yhteyden kahden satunnaismuuttujan välillä, on **kovarianssi**, joka lasketaan näin: Cov(X,Y) = **E**\[(X-**E**(X))(Y-**E**(Y))\]. Laskemme molempien muuttujien poikkeaman niiden keskiarvoista ja sitten näiden poikkeamien tulon. Jos molemmat muuttujat poikkeavat yhdessä, tulo on aina positiivinen arvo, joka lisää positiivista kovarianssia. Jos molemmat muuttujat poikkeavat epäsynkronisesti (eli toinen laskee keskiarvon alapuolelle, kun toinen nousee keskiarvon yläpuolelle), saamme aina negatiivisia lukuja, jotka lisäävät negatiivista kovarianssia. Jos poikkeamat eivät ole riippuvaisia, ne summautuvat suunnilleen nollaan.
+Matemaattisesti pääkäsite, joka osoittaa kahden satunnaismuuttujan välisen suhteen, on **kovarianssi**, joka lasketaan seuraavasti: Cov(X,Y) = **E**\[(X-**E**(X))(Y-**E**(Y))\]. Laskemme molempien muuttujien poikkeaman niiden keskiarvoista ja sitten näiden poikkeamien tulon. Jos molemmat muuttujat poikkeavat yhdessä, tulo on aina positiivinen, mikä johtaa positiiviseen kovarianssiin. Jos molemmat muuttujat poikkeavat epäsynkronisesti (eli toinen laskee keskiarvon alapuolelle, kun toinen nousee keskiarvon yläpuolelle), saamme aina negatiivisia lukuja, jotka johtavat negatiiviseen kovarianssiin. Jos poikkeamat eivät ole riippuvaisia, ne summautuvat suunnilleen nollaan.
 
-Kovarianssin itseisarvo ei kerro paljon siitä, kuinka suuri korrelaatio on, koska se riippuu todellisten arvojen suuruudesta. Normalisoidaksemme sen voimme jakaa kovarianssin molempien muuttujien keskihajonnalla saadaksemme **korrelaation**. Hyvä puoli on, että korrelaatio on aina välillä [-1,1], missä 1 tarkoittaa vahvaa positiivista korrelaatiota arvojen välillä, -1 vahvaa negatiivista korrelaatiota ja 0 ei korrelaatiota ollenkaan (muuttujat ovat riippumattomia).
+Kovarianssin itseisarvo ei kerro paljon korrelaation voimakkuudesta, koska se riippuu todellisten arvojen suuruudesta. Normalisoidaksemme sen voimme jakaa kovarianssin molempien muuttujien keskihajonnalla saadaksemme **korrelaation**. Hyvä puoli on, että korrelaatio on aina välillä [-1,1], missä 1 tarkoittaa vahvaa positiivista korrelaatiota, -1 vahvaa negatiivista korrelaatiota ja 0 ei korrelaatiota ollenkaan (muuttujat ovat riippumattomia).
 
 **Esimerkki**: Voimme laskea korrelaation baseball-pelaajien painojen ja pituuksien välillä yllä mainitusta aineistosta:
 ```python
@@ -229,13 +229,13 @@ array([[1.        , 0.52959196],
        [0.52959196, 1.        ]])
 ```
 
-> Korrelaatiomatriisi C voidaan laskea mille tahansa määrälle syötesarjoja S<sub>1</sub>, ..., S<sub>n</sub>. C<sub>ij</sub>-arvo on korrelaatio S<sub>i</sub>:n ja S<sub>j</sub>:n välillä, ja diagonaalielementit ovat aina 1 (mikä on myös S<sub>i</sub>:n itsekorrelaatio).
+> Korrelaatiomatriisi C voidaan laskea mille tahansa määrälle syötteitä S<sub>1</sub>, ..., S<sub>n</sub>. Arvo C<sub>ij</sub> on korrelaatio S<sub>i</sub>:n ja S<sub>j</sub>:n välillä, ja diagonaalielementit ovat aina 1 (itsekorrelaatio S<sub>i</sub>:lle).
 
 Tässä tapauksessa arvo 0.53 osoittaa, että henkilön painon ja pituuden välillä on jonkin verran korrelaatiota. Voimme myös tehdä hajontakaavion yhdestä arvosta toista vastaan nähdäksesi suhteen visuaalisesti:
 
-![Painon ja pituuden välinen suhde](../../../../1-Introduction/04-stats-and-probability/images/weight-height-relationship.png)
+![Painon ja pituuden suhde](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.fi.png)
 
-> Lisää esimerkkejä korrelaatiosta ja kovarianssista löytyy [liitteenä olevasta muistikirjasta](../../../../1-Introduction/04-stats-and-probability/notebook.ipynb).
+> Lisää esimerkkejä korrelaatiosta ja kovarianssista löytyy [liitteenä olevasta muistikirjasta](notebook.ipynb).
 
 ## Yhteenveto
 
@@ -245,7 +245,7 @@ Tässä osiossa opimme:
 * satunnaismuuttujien erilaiset jakaumat, mukaan lukien normaalijakauma
 * kuinka löytää korrelaatio eri ominaisuuksien välillä
 * kuinka käyttää matemaattisia ja tilastollisia menetelmiä hypoteesien todistamiseen
-* kuinka laskea satunnaismuuttujan luottamusvälejä otoksen perusteella
+* kuinka laskea satunnaismuuttujan luottamusvälit annetusta otoksesta
 
 Vaikka tämä ei olekaan tyhjentävä luettelo todennäköisyyslaskennan ja tilastotieteen aiheista, sen pitäisi antaa sinulle hyvä lähtökohta tähän kurssiin.
 
@@ -263,12 +263,12 @@ Käytä muistikirjan esimerkkikoodia testataksesi muita hypoteeseja:
 Todennäköisyyslaskenta ja tilastotiede on niin laaja aihe, että se ansaitsee oman kurssinsa. Jos haluat syventyä teoriaan, voit jatkaa lukemista seuraavista kirjoista:
 
 1. [Carlos Fernandez-Granda](https://cims.nyu.edu/~cfgranda/) New Yorkin yliopistosta on laatinut erinomaiset luentomuistiinpanot [Probability and Statistics for Data Science](https://cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf) (saatavilla verkossa).
-1. [Peter ja Andrew Bruce. Practical Statistics for Data Scientists.](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/) [[esimerkkikoodi R:llä](https://github.com/andrewgbruce/statistics-for-data-scientists)].
-1. [James D. Miller. Statistics for Data Science](https://www.packtpub.com/product/statistics-for-data-science/9781788290678) [[esimerkkikoodi R:llä](https://github.com/PacktPublishing/Statistics-for-Data-Science)].
+2. [Peter ja Andrew Bruce. Practical Statistics for Data Scientists.](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/) [[esimerkkikoodi R:llä](https://github.com/andrewgbruce/statistics-for-data-scientists)].
+3. [James D. Miller. Statistics for Data Science](https://www.packtpub.com/product/statistics-for-data-science/9781788290678) [[esimerkkikoodi R:llä](https://github.com/PacktPublishing/Statistics-for-Data-Science)].
 
 ## Tehtävä
 
-[Small Diabetes Study](assignment.md)
+[Pieni diabetes-tutkimus](assignment.md)
 
 ## Kiitokset
 
@@ -277,4 +277,4 @@ Tämän oppitunnin on laatinut ♥️:lla [Dmitry Soshnikov](http://soshnikov.co
 ---
 
 **Vastuuvapauslauseke**:  
-Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulisi pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa tämän käännöksen käytöstä johtuvista väärinkäsityksistä tai virhetulkinnoista.
+Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulee pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskääntämistä. Emme ole vastuussa väärinkäsityksistä tai virhetulkinnoista, jotka johtuvat tämän käännöksen käytöstä.
