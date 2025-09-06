@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "06bac7959b46b6e8aedcae014278c476",
-  "translation_date": "2025-09-05T13:47:39+00:00",
+  "original_hash": "0f67a4139454816631526779a456b734",
+  "translation_date": "2025-09-06T18:12:00+00:00",
   "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
   "language_code": "es"
 }
@@ -39,9 +39,9 @@ Gracias a la democratización de la IA, los desarrolladores ahora encuentran má
 
  * [Ciencia de Datos en la Banca](https://data-flair.training/blogs/data-science-in-banking/) - destaca el valor de la ciencia de datos en la industria financiera con aplicaciones que van desde modelado de riesgos y detección de fraudes, hasta segmentación de clientes, predicción en tiempo real y sistemas de recomendación. La analítica predictiva también impulsa medidas críticas como [puntuaciones de crédito](https://dzone.com/articles/using-big-data-and-predictive-analytics-for-credit).
 
- * [Ciencia de Datos en la Salud](https://data-flair.training/blogs/data-science-in-healthcare/) - destaca aplicaciones como imágenes médicas (por ejemplo, MRI, Rayos X, Tomografía), genómica (secuenciación de ADN), desarrollo de medicamentos (evaluación de riesgos, predicción de éxito), analítica predictiva (cuidado de pacientes y logística de suministros), seguimiento y prevención de enfermedades, etc.
+ * [Ciencia de Datos en la Salud](https://data-flair.training/blogs/data-science-in-healthcare/) - destaca aplicaciones como imágenes médicas (por ejemplo, MRI, Rayos X, Tomografía), genómica (secuenciación de ADN), desarrollo de medicamentos (evaluación de riesgos, predicción de éxito), analítica predictiva (cuidado de pacientes y logística de suministros), seguimiento y prevención de enfermedades, entre otros.
 
-![Aplicaciones de Ciencia de Datos en el Mundo Real](../../../../6-Data-Science-In-Wild/20-Real-World-Examples/images/data-science-applications.png) Crédito de la Imagen: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Aplicaciones de Ciencia de Datos en el Mundo Real](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.es.png) Crédito de la Imagen: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 La figura muestra otros dominios y ejemplos para aplicar técnicas de ciencia de datos. ¿Quieres explorar otras aplicaciones? Consulta la sección [Revisión y Autoestudio](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) a continuación.
 
@@ -51,24 +51,24 @@ La figura muestra otros dominios y ejemplos para aplicar técnicas de ciencia de
 | :---------------------------------------------------------------------------------------------------------------: |
 |              Ciencia de Datos e Investigación - _Sketchnote por [@nitya](https://twitter.com/nitya)_              |
 
-Aunque las aplicaciones del mundo real a menudo se centran en casos de uso industrial a gran escala, las aplicaciones y proyectos de _investigación_ pueden ser útiles desde dos perspectivas:
+Aunque las aplicaciones del mundo real suelen centrarse en casos de uso industrial a gran escala, las aplicaciones y proyectos de _investigación_ pueden ser útiles desde dos perspectivas:
 
 * _oportunidades de innovación_ - explorar prototipos rápidos de conceptos avanzados y probar experiencias de usuario para aplicaciones de próxima generación.
 * _desafíos de implementación_ - investigar posibles daños o consecuencias no deseadas de las tecnologías de ciencia de datos en contextos reales.
 
-Para los estudiantes, estos proyectos de investigación pueden proporcionar oportunidades de aprendizaje y colaboración que mejoren tu comprensión del tema y amplíen tu conciencia e interacción con personas o equipos relevantes que trabajan en áreas de interés. Entonces, ¿cómo son los proyectos de investigación y cómo pueden tener impacto?
+Para los estudiantes, estos proyectos de investigación pueden proporcionar oportunidades de aprendizaje y colaboración que mejoren su comprensión del tema y amplíen su conciencia e interacción con personas o equipos relevantes que trabajan en áreas de interés. Entonces, ¿cómo son los proyectos de investigación y cómo pueden tener impacto?
 
 Veamos un ejemplo: el [Estudio Gender Shades del MIT](http://gendershades.org/overview.html) de Joy Buolamwini (MIT Media Labs) con un [artículo de investigación destacado](http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) coautorado con Timnit Gebru (entonces en Microsoft Research) que se centró en:
 
- * **Qué:** El objetivo del proyecto de investigación era _evaluar el sesgo presente en algoritmos y conjuntos de datos de análisis facial automatizado_ basado en género y tipo de piel. 
+ * **Qué:** El objetivo del proyecto de investigación era _evaluar el sesgo presente en algoritmos y conjuntos de datos de análisis facial automatizado_ basado en género y tipo de piel.
  * **Por qué:** El análisis facial se utiliza en áreas como la aplicación de la ley, seguridad en aeropuertos, sistemas de contratación y más - contextos donde clasificaciones inexactas (por ejemplo, debido al sesgo) pueden causar daños económicos y sociales a individuos o grupos afectados. Comprender (y eliminar o mitigar) los sesgos es clave para la equidad en el uso.
- * **Cómo:** Los investigadores reconocieron que los puntos de referencia existentes utilizaban predominantemente sujetos de piel más clara y crearon un nuevo conjunto de datos (más de 1000 imágenes) que estaba _más equilibrado_ por género y tipo de piel. El conjunto de datos se utilizó para evaluar la precisión de tres productos de clasificación de género (de Microsoft, IBM y Face++). 
+ * **Cómo:** Los investigadores reconocieron que los puntos de referencia existentes utilizaban predominantemente sujetos de piel más clara y crearon un nuevo conjunto de datos (más de 1000 imágenes) que estaba _más equilibrado_ por género y tipo de piel. El conjunto de datos se utilizó para evaluar la precisión de tres productos de clasificación de género (de Microsoft, IBM y Face++).
 
 Los resultados mostraron que, aunque la precisión general de la clasificación era buena, había una diferencia notable en las tasas de error entre varios subgrupos, con **errores de clasificación de género** más altos para mujeres o personas con piel más oscura, lo que indicaba sesgo.
 
-**Resultados Clave:** Generó conciencia de que la ciencia de datos necesita más _conjuntos de datos representativos_ (subgrupos equilibrados) y más _equipos inclusivos_ (antecedentes diversos) para reconocer y eliminar o mitigar dichos sesgos en las soluciones de IA desde el principio. Esfuerzos de investigación como este también son fundamentales para que muchas organizaciones definan principios y prácticas para una _IA responsable_ que mejore la equidad en sus productos y procesos de IA.
+**Resultados Clave:** Generó conciencia de que la ciencia de datos necesita más _conjuntos de datos representativos_ (subgrupos equilibrados) y más _equipos inclusivos_ (antecedentes diversos) para reconocer y eliminar o mitigar dichos sesgos en las soluciones de IA desde etapas tempranas. Esfuerzos de investigación como este también son fundamentales para que muchas organizaciones definan principios y prácticas para una _IA responsable_ que mejore la equidad en sus productos y procesos de IA.
 
-**¿Quieres aprender sobre esfuerzos de investigación relevantes en Microsoft?** 
+**¿Quieres aprender sobre esfuerzos de investigación relevantes en Microsoft?**
 
 * Consulta [Proyectos de Investigación de Microsoft](https://www.microsoft.com/research/research-area/artificial-intelligence/?facet%5Btax%5D%5Bmsr-research-area%5D%5B%5D=13556&facet%5Btax%5D%5Bmsr-content-type%5D%5B%5D=msr-project) en Inteligencia Artificial.
 * Explora proyectos estudiantiles de la [Escuela de Verano de Ciencia de Datos de Microsoft Research](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/).
@@ -80,11 +80,11 @@ Los resultados mostraron que, aunque la precisión general de la clasificación 
 | :---------------------------------------------------------------------------------------------------------------: |
 |              Ciencia de Datos y Humanidades Digitales - _Sketchnote por [@nitya](https://twitter.com/nitya)_              |
 
-Las Humanidades Digitales [se han definido](https://digitalhumanities.stanford.edu/about-dh-stanford) como "una colección de prácticas y enfoques que combinan métodos computacionales con investigación humanística". Los [proyectos de Stanford](https://digitalhumanities.stanford.edu/projects) como _"rebooting history"_ y _"poetic thinking"_ ilustran el vínculo entre [Humanidades Digitales y Ciencia de Datos](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science), enfatizando técnicas como análisis de redes, visualización de información, análisis espacial y de texto que pueden ayudarnos a revisar conjuntos de datos históricos y literarios para derivar nuevas perspectivas e ideas.
+Las Humanidades Digitales [se han definido](https://digitalhumanities.stanford.edu/about-dh-stanford) como "una colección de prácticas y enfoques que combinan métodos computacionales con investigación humanística". Los proyectos de [Stanford](https://digitalhumanities.stanford.edu/projects) como _"rebooting history"_ y _"poetic thinking"_ ilustran la conexión entre [Humanidades Digitales y Ciencia de Datos](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science), enfatizando técnicas como análisis de redes, visualización de información, análisis espacial y de texto que pueden ayudarnos a revisar conjuntos de datos históricos y literarios para derivar nuevas perspectivas e ideas.
 
 *¿Quieres explorar y ampliar un proyecto en este espacio?*
 
-Consulta ["Emily Dickinson and the Meter of Mood"](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671) - un gran ejemplo de [Jen Looper](https://twitter.com/jenlooper) que pregunta cómo podemos usar la ciencia de datos para revisar poesía familiar y reevaluar su significado y las contribuciones de su autora en nuevos contextos. Por ejemplo, _¿podemos predecir la estación en la que se escribió un poema analizando su tono o sentimiento_ - y qué nos dice esto sobre el estado de ánimo de la autora durante el período relevante?
+Consulta ["Emily Dickinson and the Meter of Mood"](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671) - un excelente ejemplo de [Jen Looper](https://twitter.com/jenlooper) que pregunta cómo podemos usar la ciencia de datos para revisar poesía familiar y reevaluar su significado y las contribuciones de su autora en nuevos contextos. Por ejemplo, _¿podemos predecir la estación en la que se escribió un poema analizando su tono o sentimiento_ - y qué nos dice esto sobre el estado de ánimo de la autora durante el período relevante?
 
 Para responder a esa pregunta, seguimos los pasos del ciclo de vida de la ciencia de datos:
  * [`Adquisición de Datos`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#acquiring-the-dataset) - para recopilar un conjunto de datos relevante para el análisis. Las opciones incluyen usar una API (por ejemplo, [Poetry DB API](https://poetrydb.org/index.html)) o extraer páginas web (por ejemplo, [Project Gutenberg](https://www.gutenberg.org/files/12242/12242-h/12242-h.htm)) utilizando herramientas como [Scrapy](https://scrapy.org/).
@@ -110,9 +110,9 @@ Abordar estos desafíos de manera escalable y oportuna requiere pensamiento a es
  * [API Planetaria](https://planetarycomputer.microsoft.com/docs/reference/stac/) - para ayudar a los usuarios a buscar datos relevantes en espacio y tiempo.
  * [Hub](https://planetarycomputer.microsoft.com/docs/overview/environment/) - entorno gestionado para que los científicos procesen conjuntos de datos geoespaciales masivos.
  * [Aplicaciones](https://planetarycomputer.microsoft.com/applications) - muestran casos de uso y herramientas para obtener conocimientos sobre sostenibilidad.
-**El Proyecto Planetary Computer está actualmente en vista previa (a partir de septiembre de 2021)** - aquí tienes cómo puedes empezar a contribuir a soluciones sostenibles utilizando ciencia de datos.
+**El Proyecto Planetary Computer está actualmente en vista previa (a partir de septiembre de 2021)** - aquí tienes cómo puedes comenzar a contribuir a soluciones de sostenibilidad utilizando ciencia de datos.
 
-* [Solicita acceso](https://planetarycomputer.microsoft.com/account/request) para comenzar la exploración y conectarte con otros.
+* [Solicita acceso](https://planetarycomputer.microsoft.com/account/request) para empezar a explorar y conectarte con otros.
 * [Explora la documentación](https://planetarycomputer.microsoft.com/docs/overview/about) para entender los conjuntos de datos y APIs compatibles.
 * Explora aplicaciones como [Ecosystem Monitoring](https://analytics-lab.org/ecosystemmonitoring/) para inspirarte en ideas de aplicaciones.
 
@@ -127,7 +127,7 @@ Aquí tienes algunos ejemplos de proyectos estudiantiles de ciencia de datos par
  * [Escuela de Verano de Ciencia de Datos de MSR](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/#!projects) con [proyectos](https://github.com/msr-ds3) en GitHub que exploran temas como:
     - [Sesgo racial en el uso de la fuerza policial](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2019-replicating-an-empirical-analysis-of-racial-differences-in-police-use-of-force/) | [Github](https://github.com/msr-ds3/stop-question-frisk)
     - [Fiabilidad del sistema de metro de Nueva York](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2018-exploring-the-reliability-of-the-nyc-subway-system/) | [Github](https://github.com/msr-ds3/nyctransit)
- * [Digitalización de la cultura material: Explorando distribuciones socioeconómicas en Sirkap](https://claremont.maps.arcgis.com/apps/Cascade/index.html?appid=bdf2aef0f45a4674ba41cd373fa23afc) - de [Ornella Altunyan](https://twitter.com/ornelladotcom) y su equipo en Claremont, utilizando [ArcGIS StoryMaps](https://storymaps.arcgis.com/).
+ * [Digitalizando la cultura material: Explorando distribuciones socioeconómicas en Sirkap](https://claremont.maps.arcgis.com/apps/Cascade/index.html?appid=bdf2aef0f45a4674ba41cd373fa23afc) - de [Ornella Altunyan](https://twitter.com/ornelladotcom) y su equipo en Claremont, utilizando [ArcGIS StoryMaps](https://storymaps.arcgis.com/).
 
 ## 🚀 Desafío
 
@@ -143,7 +143,8 @@ Busca artículos que recomienden proyectos de ciencia de datos para principiante
  * [17 Aplicaciones y Ejemplos de Ciencia de Datos](https://builtin.com/data-science/data-science-applications-examples) - julio 2021
  * [11 Impresionantes Aplicaciones de Ciencia de Datos en el Mundo Real](https://myblindbird.com/data-science-applications-real-world/) - mayo 2021
  * [Ciencia de Datos en el Mundo Real](https://towardsdatascience.com/data-science-in-the-real-world/home) - Colección de artículos
- * Ciencia de Datos en: [Educación](https://data-flair.training/blogs/data-science-in-education/), [Agricultura](https://data-flair.training/blogs/data-science-in-agriculture/), [Finanzas](https://data-flair.training/blogs/data-science-in-finance/), [Películas](https://data-flair.training/blogs/data-science-at-movies/) y más.
+ * [12 Aplicaciones de Ciencia de Datos en el Mundo Real con Ejemplos](https://www.scaler.com/blog/data-science-applications/) - mayo 2024
+ * Ciencia de Datos en: [Educación](https://data-flair.training/blogs/data-science-in-education/), [Agricultura](https://data-flair.training/blogs/data-science-in-agriculture/), [Finanzas](https://data-flair.training/blogs/data-science-in-finance/), [Cine](https://data-flair.training/blogs/data-science-at-movies/), [Salud](https://onlinedegrees.sandiego.edu/data-science-health-care/) y más.
 
 ## Tarea
 
@@ -152,4 +153,4 @@ Busca artículos que recomienden proyectos de ciencia de datos para principiante
 ---
 
 **Descargo de responsabilidad**:  
-Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Si bien nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.
+Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Aunque nos esforzamos por garantizar la precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.

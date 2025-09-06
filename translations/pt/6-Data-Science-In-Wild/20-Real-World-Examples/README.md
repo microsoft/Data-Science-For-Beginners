@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "06bac7959b46b6e8aedcae014278c476",
-  "translation_date": "2025-09-05T13:31:00+00:00",
+  "original_hash": "0f67a4139454816631526779a456b734",
+  "translation_date": "2025-09-06T18:26:19+00:00",
   "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
   "language_code": "pt"
 }
@@ -37,11 +37,11 @@ Graças à democratização da IA, os desenvolvedores estão a encontrar formas 
 
  * [Análise Desportiva](https://towardsdatascience.com/scope-of-analytics-in-sports-world-37ed09c39860) - foca-se em _análise preditiva_ (análise de equipas e jogadores - pensa em [Moneyball](https://datasciencedegree.wisconsin.edu/blog/moneyball-proves-importance-big-data-big-ideas/) - e gestão de fãs) e _visualização de dados_ (dashboards de equipas e fãs, jogos, etc.) com aplicações como recrutamento de talentos, apostas desportivas e gestão de inventário/locais.
 
- * [Ciência de Dados na Banca](https://data-flair.training/blogs/data-science-in-banking/) - destaca o valor da ciência de dados na indústria financeira com aplicações que vão desde modelagem de risco e deteção de fraudes, até segmentação de clientes, previsão em tempo real e sistemas de recomendação. A análise preditiva também impulsiona medidas críticas como [scores de crédito](https://dzone.com/articles/using-big-data-and-predictive-analytics-for-credit).
+ * [Ciência de Dados na Banca](https://data-flair.training/blogs/data-science-in-banking/) - destaca o valor da ciência de dados na indústria financeira com aplicações que vão desde modelagem de risco e deteção de fraudes, até segmentação de clientes, previsão em tempo real e sistemas de recomendação. A análise preditiva também impulsiona medidas críticas como [pontuações de crédito](https://dzone.com/articles/using-big-data-and-predictive-analytics-for-credit).
 
- * [Ciência de Dados na Saúde](https://data-flair.training/blogs/data-science-in-healthcare/) - destaca aplicações como imagiologia médica (e.g., ressonância magnética, raio-X, tomografia), genómica (sequenciamento de DNA), desenvolvimento de medicamentos (avaliação de risco, previsão de sucesso), análise preditiva (cuidados ao paciente e logística de fornecimento), rastreamento e prevenção de doenças, entre outros.
+ * [Ciência de Dados na Saúde](https://data-flair.training/blogs/data-science-in-healthcare/) - destaca aplicações como imagiologia médica (e.g., ressonância magnética, raio-X, tomografia), genómica (sequenciamento de DNA), desenvolvimento de medicamentos (avaliação de risco, previsão de sucesso), análise preditiva (cuidados ao paciente e logística de fornecimento), rastreamento e prevenção de doenças, etc.
 
-![Aplicações de Ciência de Dados no Mundo Real](../../../../6-Data-Science-In-Wild/20-Real-World-Examples/images/data-science-applications.png) Crédito da Imagem: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Aplicações de Ciência de Dados no Mundo Real](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.pt.png) Crédito da Imagem: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 A figura mostra outros domínios e exemplos de aplicação de técnicas de ciência de dados. Queres explorar outras aplicações? Consulta a secção [Revisão e Autoestudo](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) abaixo.
 
@@ -51,26 +51,26 @@ A figura mostra outros domínios e exemplos de aplicação de técnicas de ciên
 | :---------------------------------------------------------------------------------------------------------------: |
 |              Ciência de Dados & Investigação - _Sketchnote por [@nitya](https://twitter.com/nitya)_              |
 
-Embora as aplicações do mundo real frequentemente se concentrem em casos de uso na indústria em grande escala, as aplicações e projetos de _investigação_ podem ser úteis de duas perspetivas:
+Embora as aplicações do mundo real frequentemente se concentrem em casos de uso na indústria em larga escala, as aplicações e projetos de _investigação_ podem ser úteis de duas perspetivas:
 
 * _oportunidades de inovação_ - explorar protótipos rápidos de conceitos avançados e testar experiências de utilizadores para aplicações de próxima geração.
 * _desafios de implementação_ - investigar possíveis danos ou consequências não intencionais das tecnologias de ciência de dados em contextos reais.
 
-Para os estudantes, estes projetos de investigação podem proporcionar tanto oportunidades de aprendizagem como de colaboração, melhorando a compreensão do tema e ampliando a consciência e o envolvimento com pessoas ou equipas relevantes que trabalham em áreas de interesse. Então, como são os projetos de investigação e como podem ter impacto?
+Para estudantes, estes projetos de investigação podem proporcionar oportunidades de aprendizagem e colaboração que melhoram a compreensão do tema e ampliam a consciência e o envolvimento com pessoas ou equipas relevantes que trabalham em áreas de interesse. Então, como são os projetos de investigação e como podem ter impacto?
 
 Vamos analisar um exemplo - o [MIT Gender Shades Study](http://gendershades.org/overview.html) de Joy Buolamwini (MIT Media Labs) com um [artigo de investigação de referência](http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) coautorado com Timnit Gebru (então na Microsoft Research) que se focou em:
 
  * **O quê:** O objetivo do projeto de investigação era _avaliar o viés presente em algoritmos e conjuntos de dados de análise facial automatizada_ com base no género e tipo de pele. 
- * **Porquê:** A análise facial é usada em áreas como aplicação da lei, segurança em aeroportos, sistemas de contratação e mais - contextos onde classificações imprecisas (e.g., devido a viés) podem causar danos económicos e sociais a indivíduos ou grupos afetados. Compreender (e eliminar ou mitigar) os vieses é essencial para a equidade no uso.
- * **Como:** Os investigadores reconheceram que os benchmarks existentes utilizavam predominantemente sujeitos de pele mais clara e criaram um novo conjunto de dados (mais de 1000 imagens) que era _mais equilibrado_ em termos de género e tipo de pele. O conjunto de dados foi usado para avaliar a precisão de três produtos de classificação de género (da Microsoft, IBM e Face++). 
+ * **Porquê:** A análise facial é usada em áreas como aplicação da lei, segurança em aeroportos, sistemas de contratação e mais - contextos onde classificações imprecisas (e.g., devido a viés) podem causar potenciais danos económicos e sociais a indivíduos ou grupos afetados. Compreender (e eliminar ou mitigar) os vieses é essencial para a equidade no uso.
+ * **Como:** Os investigadores reconheceram que os benchmarks existentes utilizavam predominantemente sujeitos de pele mais clara e criaram um novo conjunto de dados (1000+ imagens) que era _mais equilibrado_ em termos de género e tipo de pele. O conjunto de dados foi usado para avaliar a precisão de três produtos de classificação de género (da Microsoft, IBM e Face++). 
 
-Os resultados mostraram que, embora a precisão geral da classificação fosse boa, havia uma diferença notável nas taxas de erro entre vários subgrupos - com **erros de classificação de género** sendo mais elevados para mulheres ou pessoas com pele mais escura, indicativo de viés.
+Os resultados mostraram que, embora a precisão geral da classificação fosse boa, havia uma diferença notável nas taxas de erro entre vários subgrupos - com **erros de classificação de género** sendo mais altos para mulheres ou pessoas com pele mais escura, indicativo de viés.
 
-**Principais Resultados:** Destacou a necessidade de conjuntos de dados mais _representativos_ (subgrupos equilibrados) e equipas mais _inclusivas_ (diversidade de origens) para reconhecer e eliminar ou mitigar esses vieses mais cedo nas soluções de IA. Esforços de investigação como este também são fundamentais para muitas organizações definirem princípios e práticas para _IA responsável_ visando melhorar a equidade nos seus produtos e processos de IA.
+**Principais Resultados:** Destacou a necessidade de conjuntos de dados mais _representativos_ (subgrupos equilibrados) e equipas mais _inclusivas_ (diversidade de origens) para reconhecer e eliminar ou mitigar esses vieses mais cedo em soluções de IA. Esforços de investigação como este também são fundamentais para muitas organizações definirem princípios e práticas para _IA responsável_ para melhorar a equidade nos seus produtos e processos de IA.
 
-**Queres saber mais sobre esforços de investigação relevantes na Microsoft?**
+**Queres saber mais sobre esforços de investigação relevantes na Microsoft?** 
 
-* Consulta os [Projetos de Investigação da Microsoft](https://www.microsoft.com/research/research-area/artificial-intelligence/?facet%5Btax%5D%5Bmsr-research-area%5D%5B%5D=13556&facet%5Btax%5D%5Bmsr-content-type%5D%5B%5D=msr-project) em Inteligência Artificial.
+* Consulta [Projetos de Investigação da Microsoft](https://www.microsoft.com/research/research-area/artificial-intelligence/?facet%5Btax%5D%5Bmsr-research-area%5D%5B%5D=13556&facet%5Btax%5D%5Bmsr-content-type%5D%5B%5D=msr-project) em Inteligência Artificial.
 * Explora projetos de estudantes da [Microsoft Research Data Science Summer School](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/).
 * Consulta o projeto [Fairlearn](https://fairlearn.org/) e as iniciativas de [IA Responsável](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6).
 
@@ -80,7 +80,7 @@ Os resultados mostraram que, embora a precisão geral da classificação fosse b
 | :---------------------------------------------------------------------------------------------------------------: |
 |              Ciência de Dados & Humanidades Digitais - _Sketchnote por [@nitya](https://twitter.com/nitya)_              |
 
-Humanidades Digitais [são definidas](https://digitalhumanities.stanford.edu/about-dh-stanford) como "uma coleção de práticas e abordagens que combinam métodos computacionais com investigação humanística". Projetos da [Stanford](https://digitalhumanities.stanford.edu/projects) como _"rebooting history"_ e _"poetic thinking"_ ilustram a ligação entre [Humanidades Digitais e Ciência de Dados](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science) - enfatizando técnicas como análise de redes, visualização de informação, análise espacial e textual que podem ajudar-nos a revisitar conjuntos de dados históricos e literários para obter novos insights e perspetivas.
+Humanidades Digitais [foram definidas](https://digitalhumanities.stanford.edu/about-dh-stanford) como "uma coleção de práticas e abordagens que combinam métodos computacionais com investigação humanística". Projetos da [Stanford](https://digitalhumanities.stanford.edu/projects) como _"rebooting history"_ e _"poetic thinking"_ ilustram a ligação entre [Humanidades Digitais e Ciência de Dados](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science) - enfatizando técnicas como análise de redes, visualização de informação, análise espacial e textual que podem ajudar-nos a revisitar conjuntos de dados históricos e literários para obter novos insights e perspetivas.
 
 *Queres explorar e expandir um projeto nesta área?*
 
@@ -104,34 +104,34 @@ Usando este fluxo de trabalho, podemos explorar os impactos sazonais no sentimen
 
 A [Agenda 2030 para o Desenvolvimento Sustentável](https://sdgs.un.org/2030agenda) - adotada por todos os membros das Nações Unidas em 2015 - identifica 17 objetivos, incluindo aqueles que se concentram em **Proteger o Planeta** da degradação e do impacto das mudanças climáticas. A iniciativa [Microsoft Sustainability](https://www.microsoft.com/en-us/sustainability) apoia esses objetivos ao explorar formas de como soluções tecnológicas podem ajudar a construir futuros mais sustentáveis com um [foco em 4 metas](https://dev.to/azure/a-visual-guide-to-sustainable-software-engineering-53hh) - ser carbono negativo, positivo em água, zero desperdício e biodiverso até 2030.
 
-Abordar esses desafios de forma escalável e oportuna requer pensamento em escala de nuvem - e dados em grande escala. A iniciativa [Planetary Computer](https://planetarycomputer.microsoft.com/) fornece 4 componentes para ajudar cientistas de dados e desenvolvedores nesse esforço:
-
+Enfrentar esses desafios de forma escalável e oportuna requer pensamento em escala de nuvem - e dados em grande escala. A iniciativa [Planetary Computer](https://planetarycomputer.microsoft.com/) fornece 4 componentes para ajudar cientistas de dados e desenvolvedores neste esforço:
+ 
  * [Catálogo de Dados](https://planetarycomputer.microsoft.com/catalog) - com petabytes de dados de sistemas terrestres (gratuitos e hospedados no Azure).
- * [API Planetária](https://planetarycomputer.microsoft.com/docs/reference/stac/) - para ajudar os utilizadores a procurar dados relevantes no espaço e no tempo.
+ * [API Planetária](https://planetarycomputer.microsoft.com/docs/reference/stac/) - para ajudar os utilizadores a pesquisar dados relevantes no espaço e no tempo.
  * [Hub](https://planetarycomputer.microsoft.com/docs/overview/environment/) - ambiente gerido para cientistas processarem conjuntos de dados geoespaciais massivos.
  * [Aplicações](https://planetarycomputer.microsoft.com/applications) - mostram casos de uso e ferramentas para insights de sustentabilidade.
-**O Projeto Planetary Computer está atualmente em fase de pré-visualização (a partir de setembro de 2021)** - aqui está como pode começar a contribuir para soluções de sustentabilidade utilizando ciência de dados.
+**O Projeto Planetary Computer está atualmente em fase de pré-visualização (a partir de setembro de 2021)** - veja como pode começar a contribuir para soluções de sustentabilidade utilizando ciência de dados.
 
-* [Solicite acesso](https://planetarycomputer.microsoft.com/account/request) para iniciar a exploração e conectar-se com colegas.
+* [Solicite acesso](https://planetarycomputer.microsoft.com/account/request) para iniciar a exploração e conectar-se com outros utilizadores.
 * [Explore a documentação](https://planetarycomputer.microsoft.com/docs/overview/about) para compreender os conjuntos de dados e APIs suportados.
 * Explore aplicações como [Monitorização de Ecossistemas](https://analytics-lab.org/ecosystemmonitoring/) para inspiração em ideias de aplicações.
 
-Pense em como pode usar a visualização de dados para expor ou amplificar insights relevantes em áreas como alterações climáticas e desflorestação. Ou reflita sobre como esses insights podem ser utilizados para criar novas experiências de utilizador que motivem mudanças comportamentais para um estilo de vida mais sustentável.
+Pense em como pode usar visualização de dados para expor ou amplificar insights relevantes em áreas como alterações climáticas e desflorestação. Ou reflita sobre como esses insights podem ser utilizados para criar novas experiências de utilizador que motivem mudanças comportamentais para um estilo de vida mais sustentável.
 
 ## Ciência de Dados + Estudantes
 
-Já falámos sobre aplicações reais na indústria e na investigação, e explorámos exemplos de aplicações de ciência de dados nas humanidades digitais e na sustentabilidade. Então, como pode desenvolver as suas competências e partilhar a sua experiência como principiante em ciência de dados?
+Falámos sobre aplicações reais na indústria e na investigação, e explorámos exemplos de aplicações de ciência de dados nas humanidades digitais e na sustentabilidade. Então, como pode desenvolver as suas competências e partilhar a sua experiência como principiante em ciência de dados?
 
 Aqui estão alguns exemplos de projetos de estudantes em ciência de dados para inspirá-lo.
 
  * [Escola de Verão de Ciência de Dados da MSR](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/#!projects) com [projetos](https://github.com/msr-ds3) no GitHub que exploram tópicos como:
-    - [Viés racial no uso da força pela polícia](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2019-replicating-an-empirical-analysis-of-racial-differences-in-police-use-of-force/) | [Github](https://github.com/msr-ds3/stop-question-frisk)
-    - [Fiabilidade do sistema de metro de Nova Iorque](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2018-exploring-the-reliability-of-the-nyc-subway-system/) | [Github](https://github.com/msr-ds3/nyctransit)
+    - [Preconceito Racial no Uso da Força pela Polícia](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2019-replicating-an-empirical-analysis-of-racial-differences-in-police-use-of-force/) | [Github](https://github.com/msr-ds3/stop-question-frisk)
+    - [Fiabilidade do Sistema de Metro de Nova Iorque](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2018-exploring-the-reliability-of-the-nyc-subway-system/) | [Github](https://github.com/msr-ds3/nyctransit)
  * [Digitalização da Cultura Material: Explorando distribuições socioeconómicas em Sirkap](https://claremont.maps.arcgis.com/apps/Cascade/index.html?appid=bdf2aef0f45a4674ba41cd373fa23afc) - de [Ornella Altunyan](https://twitter.com/ornelladotcom) e equipa em Claremont, utilizando [ArcGIS StoryMaps](https://storymaps.arcgis.com/).
 
 ## 🚀 Desafio
 
-Procure artigos que recomendem projetos de ciência de dados adequados para principiantes - como [estas 50 áreas temáticas](https://www.upgrad.com/blog/data-science-project-ideas-topics-beginners/), [estas 21 ideias de projetos](https://www.intellspot.com/data-science-project-ideas) ou [estes 16 projetos com código fonte](https://data-flair.training/blogs/data-science-project-ideas/) que pode desconstruir e remixar. E não se esqueça de escrever no seu blog sobre as suas jornadas de aprendizagem e partilhar os seus insights connosco.
+Procure artigos que recomendem projetos de ciência de dados adequados para principiantes - como [estas 50 áreas temáticas](https://www.upgrad.com/blog/data-science-project-ideas-topics-beginners/), [estas 21 ideias de projetos](https://www.intellspot.com/data-science-project-ideas) ou [estes 16 projetos com código fonte](https://data-flair.training/blogs/data-science-project-ideas/) que pode desconstruir e adaptar. E não se esqueça de escrever sobre as suas jornadas de aprendizagem e partilhar os seus insights connosco.
 
 ## Questionário Pós-Aula
 
@@ -143,7 +143,8 @@ Quer explorar mais casos de uso? Aqui estão alguns artigos relevantes:
  * [17 Aplicações e Exemplos de Ciência de Dados](https://builtin.com/data-science/data-science-applications-examples) - Jul 2021
  * [11 Aplicações Impressionantes de Ciência de Dados no Mundo Real](https://myblindbird.com/data-science-applications-real-world/) - Mai 2021
  * [Ciência de Dados no Mundo Real](https://towardsdatascience.com/data-science-in-the-real-world/home) - Coleção de Artigos
- * Ciência de Dados em: [Educação](https://data-flair.training/blogs/data-science-in-education/), [Agricultura](https://data-flair.training/blogs/data-science-in-agriculture/), [Finanças](https://data-flair.training/blogs/data-science-in-finance/), [Filmes](https://data-flair.training/blogs/data-science-at-movies/) e mais.
+ * [12 Aplicações de Ciência de Dados no Mundo Real com Exemplos](https://www.scaler.com/blog/data-science-applications/) - Mai 2024
+ * Ciência de Dados em: [Educação](https://data-flair.training/blogs/data-science-in-education/), [Agricultura](https://data-flair.training/blogs/data-science-in-agriculture/), [Finanças](https://data-flair.training/blogs/data-science-in-finance/), [Filmes](https://data-flair.training/blogs/data-science-at-movies/), [Cuidados de Saúde](https://onlinedegrees.sandiego.edu/data-science-health-care/) e mais.
 
 ## Tarefa
 
@@ -152,4 +153,4 @@ Quer explorar mais casos de uso? Aqui estão alguns artigos relevantes:
 ---
 
 **Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original no seu idioma nativo deve ser considerado a fonte oficial. Para informações críticas, recomenda-se uma tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas resultantes do uso desta tradução.
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original na sua língua nativa deve ser considerado a fonte oficial. Para informações críticas, recomenda-se uma tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas resultantes do uso desta tradução.

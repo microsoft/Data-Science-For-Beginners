@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "06bac7959b46b6e8aedcae014278c476",
-  "translation_date": "2025-09-06T00:32:19+00:00",
+  "original_hash": "0f67a4139454816631526779a456b734",
+  "translation_date": "2025-09-06T18:39:06+00:00",
   "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
   "language_code": "tl"
 }
@@ -13,11 +13,11 @@ CO_OP_TRANSLATOR_METADATA:
 | :--------------------------------------------------------------------------------------------------------------: |
 |               Data Science sa Tunay na Mundo - _Sketchnote ni [@nitya](https://twitter.com/nitya)_               |
 
-Malapit na tayo sa dulo ng ating pag-aaral!
+Malapit na tayo sa dulo ng ating paglalakbay sa pag-aaral!
 
-Nagsimula tayo sa mga depinisyon ng data science at ethics, sinuri ang iba't ibang tools at teknik para sa data analysis at visualization, nirepaso ang lifecycle ng data science, at tiningnan ang scaling at automation ng data science workflows gamit ang cloud computing services. Kaya marahil iniisip mo: _"Paano ko maiaangkop ang lahat ng natutunan ko sa mga tunay na sitwasyon?"_
+Nagsimula tayo sa mga depinisyon ng data science at etika, sinuri ang iba't ibang tools at teknik para sa pagsusuri at pagpapakita ng datos, nirepaso ang lifecycle ng data science, at tinalakay ang pag-scale at pag-automate ng mga workflow gamit ang cloud computing services. Kaya marahil iniisip mo: _"Paano ko nga ba maiaangkop ang lahat ng ito sa mga tunay na sitwasyon?"_
 
-Sa araling ito, tatalakayin natin ang mga aplikasyon ng data science sa iba't ibang industriya at susuriin ang mga partikular na halimbawa sa pananaliksik, digital humanities, at sustainability. Titingnan din natin ang mga oportunidad para sa mga proyekto ng mag-aaral at magtatapos sa mga kapaki-pakinabang na resources para ipagpatuloy ang iyong pag-aaral!
+Sa araling ito, tatalakayin natin ang mga aplikasyon ng data science sa iba't ibang industriya at susuriin ang mga partikular na halimbawa sa pananaliksik, digital humanities, at sustainability. Titingnan din natin ang mga oportunidad para sa mga proyekto ng mag-aaral at magtatapos sa mga kapaki-pakinabang na resources upang ipagpatuloy ang iyong pag-aaral!
 
 ## Pre-Lecture Quiz
 
@@ -25,113 +25,113 @@ Sa araling ito, tatalakayin natin ang mga aplikasyon ng data science sa iba't ib
 
 ## Data Science + Industriya
 
-Dahil sa democratization ng AI, mas madali na ngayon para sa mga developer na magdisenyo at mag-integrate ng AI-driven decision-making at data-driven insights sa user experiences at development workflows. Narito ang ilang halimbawa kung paano "inaaplay" ang data science sa mga tunay na aplikasyon sa industriya:
+Dahil sa democratization ng AI, mas madali na ngayon para sa mga developer na magdisenyo at mag-integrate ng mga AI-driven na desisyon at data-driven na insights sa mga karanasan ng user at workflow ng development. Narito ang ilang halimbawa kung paano "inaangkop" ang data science sa mga tunay na aplikasyon sa industriya:
 
- * [Google Flu Trends](https://www.wired.com/2015/10/can-learn-epic-failure-google-flu-trends/) - ginamit ang data science para i-correlate ang mga search terms sa flu trends. Bagama't may mga kahinaan ang approach, nagbigay ito ng kamalayan sa mga posibilidad (at hamon) ng data-driven healthcare predictions.
+ * [Google Flu Trends](https://www.wired.com/2015/10/can-learn-epic-failure-google-flu-trends/) - gumamit ng data science upang iugnay ang mga search term sa mga trend ng trangkaso. Bagama't may mga kakulangan ang pamamaraan, nagbigay ito ng kamalayan sa mga posibilidad (at hamon) ng mga prediksyon sa kalusugan gamit ang datos.
 
- * [UPS Routing Predictions](https://www.technologyreview.com/2018/11/21/139000/how-ups-uses-ai-to-outsmart-bad-weather/) - nagpapaliwanag kung paano ginagamit ng UPS ang data science at machine learning para hulaan ang optimal na ruta para sa delivery, isinasaalang-alang ang kondisyon ng panahon, traffic patterns, deadlines ng delivery, at iba pa.
+ * [UPS Routing Predictions](https://www.technologyreview.com/2018/11/21/139000/how-ups-uses-ai-to-outsmart-bad-weather/) - nagpapaliwanag kung paano ginagamit ng UPS ang data science at machine learning upang hulaan ang pinakamainam na ruta para sa paghahatid, isinasaalang-alang ang kondisyon ng panahon, trapiko, at mga deadline ng paghahatid.
 
- * [NYC Taxicab Route Visualization](http://chriswhong.github.io/nyctaxi/) - ang data na nakuha gamit ang [Freedom Of Information Laws](https://chriswhong.com/open-data/foil_nyc_taxi/) ay tumulong sa pag-visualize ng isang araw sa buhay ng mga NYC cabs, na nagpapakita kung paano sila nag-navigate sa abalang lungsod, ang kita nila, at ang tagal ng biyahe sa loob ng bawat 24 na oras.
+ * [NYC Taxicab Route Visualization](http://chriswhong.github.io/nyctaxi/) - ang datos na nakalap gamit ang [Freedom Of Information Laws](https://chriswhong.com/open-data/foil_nyc_taxi/) ay tumulong sa pag-visualize ng isang araw sa buhay ng mga taxi sa NYC, na nagpapakita kung paano sila nagna-navigate sa abalang lungsod, ang kanilang kita, at ang tagal ng mga biyahe sa loob ng 24 na oras.
 
- * [Uber Data Science Workbench](https://eng.uber.com/dsw/) - gumagamit ng data (pickup & dropoff locations, tagal ng biyahe, preferred routes, atbp.) mula sa milyon-milyong Uber trips *araw-araw* para bumuo ng data analytics tool na tumutulong sa pricing, safety, fraud detection, at navigation decisions.
+ * [Uber Data Science Workbench](https://eng.uber.com/dsw/) - gumagamit ng datos (tulad ng pickup at dropoff locations, tagal ng biyahe, at mga paboritong ruta) mula sa milyun-milyong biyahe araw-araw upang makabuo ng tool sa data analytics para sa pagpepresyo, kaligtasan, pagtuklas ng pandaraya, at mga desisyon sa nabigasyon.
 
- * [Sports Analytics](https://towardsdatascience.com/scope-of-analytics-in-sports-world-37ed09c39860) - nakatuon sa _predictive analytics_ (team at player analysis - tulad ng [Moneyball](https://datasciencedegree.wisconsin.edu/blog/moneyball-proves-importance-big-data-big-ideas/) - at fan management) at _data visualization_ (team & fan dashboards, games, atbp.) na may aplikasyon tulad ng talent scouting, sports gambling, at inventory/venue management.
+ * [Sports Analytics](https://towardsdatascience.com/scope-of-analytics-in-sports-world-37ed09c39860) - nakatuon sa _predictive analytics_ (pagsusuri ng koponan at manlalaro - tulad ng [Moneyball](https://datasciencedegree.wisconsin.edu/blog/moneyball-proves-importance-big-data-big-ideas/) - at pamamahala ng tagahanga) at _data visualization_ (mga dashboard ng koponan at tagahanga, mga laro, atbp.) na may mga aplikasyon tulad ng talent scouting, pagsusugal sa sports, at pamamahala ng imbentaryo/venue.
 
- * [Data Science sa Banking](https://data-flair.training/blogs/data-science-in-banking/) - binibigyang-diin ang halaga ng data science sa industriya ng pananalapi na may mga aplikasyon mula sa risk modeling at fraud detection, hanggang sa customer segmentation, real-time prediction, at recommender systems. Ang predictive analytics ay nagdadala rin ng mahahalagang sukatan tulad ng [credit scores](https://dzone.com/articles/using-big-data-and-predictive-analytics-for-credit).
+ * [Data Science sa Banking](https://data-flair.training/blogs/data-science-in-banking/) - binibigyang-diin ang halaga ng data science sa industriya ng pananalapi na may mga aplikasyon mula sa risk modeling at pagtuklas ng pandaraya, hanggang sa customer segmentation, real-time prediction, at recommender systems. Ang predictive analytics ay mahalaga rin sa mga sukatan tulad ng [credit scores](https://dzone.com/articles/using-big-data-and-predictive-analytics-for-credit).
 
- * [Data Science sa Healthcare](https://data-flair.training/blogs/data-science-in-healthcare/) - binibigyang-diin ang mga aplikasyon tulad ng medical imaging (e.g., MRI, X-Ray, CT-Scan), genomics (DNA sequencing), drug development (risk assessment, success prediction), predictive analytics (patient care & supply logistics), disease tracking & prevention, atbp.
+ * [Data Science sa Healthcare](https://data-flair.training/blogs/data-science-in-healthcare/) - binibigyang-diin ang mga aplikasyon tulad ng medical imaging (hal., MRI, X-Ray, CT-Scan), genomics (DNA sequencing), pagbuo ng gamot (pagtatasa ng panganib, prediksyon ng tagumpay), predictive analytics (pangangalaga sa pasyente at logistics ng suplay), pagsubaybay at pag-iwas sa sakit, atbp.
 
-![Mga Aplikasyon ng Data Science sa Tunay na Mundo](../../../../6-Data-Science-In-Wild/20-Real-World-Examples/images/data-science-applications.png) Image Credit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Mga Aplikasyon ng Data Science sa Tunay na Mundo](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.tl.png) Kredito ng Imahe: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
-Ipinapakita ng figure ang iba pang mga domain at halimbawa ng paggamit ng data science techniques. Gusto mo bang tuklasin ang iba pang aplikasyon? Tingnan ang [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) na seksyon sa ibaba.
+Ipinapakita ng larawan ang iba pang mga domain at halimbawa ng paggamit ng mga teknik sa data science. Gusto mo bang tuklasin ang iba pang aplikasyon? Tingnan ang seksyong [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) sa ibaba.
 
 ## Data Science + Pananaliksik
 
 | ![ Sketchnote ni [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Research.png) |
 | :---------------------------------------------------------------------------------------------------------------: |
-|              Data Science & Pananaliksik - _Sketchnote ni [@nitya](https://twitter.com/nitya)_              |
+|              Data Science at Pananaliksik - _Sketchnote ni [@nitya](https://twitter.com/nitya)_              |
 
-Bagama't ang mga tunay na aplikasyon ay madalas na nakatuon sa mga use case sa industriya, ang mga aplikasyon at proyekto sa _pananaliksik_ ay maaaring maging kapaki-pakinabang mula sa dalawang perspektibo:
+Bagama't ang mga aplikasyon sa tunay na mundo ay madalas na nakatuon sa mga kaso ng paggamit sa industriya, ang mga aplikasyon at proyekto sa _pananaliksik_ ay maaaring maging kapaki-pakinabang mula sa dalawang perspektibo:
 
-* _oportunidad para sa inobasyon_ - tuklasin ang mabilis na prototyping ng advanced concepts at testing ng user experiences para sa mga susunod na henerasyon ng aplikasyon.
-* _mga hamon sa deployment_ - suriin ang mga potensyal na pinsala o hindi inaasahang epekto ng data science technologies sa mga tunay na sitwasyon.
+* _mga oportunidad sa inobasyon_ - tuklasin ang mabilisang prototyping ng mga advanced na konsepto at pagsubok ng mga karanasan ng user para sa mga susunod na henerasyon ng aplikasyon.
+* _mga hamon sa deployment_ - suriin ang mga potensyal na pinsala o hindi inaasahang epekto ng mga teknolohiya ng data science sa mga tunay na konteksto.
 
-Para sa mga mag-aaral, ang mga proyektong pananaliksik ay maaaring magbigay ng parehong learning at collaboration opportunities na maaaring magpabuti sa iyong pag-unawa sa paksa, at palawakin ang iyong kamalayan at pakikilahok sa mga kaugnay na tao o team na nagtatrabaho sa mga lugar ng interes. Kaya ano ang hitsura ng mga proyektong pananaliksik at paano ito nakakaapekto?
+Para sa mga mag-aaral, ang mga proyektong pananaliksik na ito ay maaaring magbigay ng parehong oportunidad sa pag-aaral at pakikipagtulungan na maaaring magpabuti sa iyong pag-unawa sa paksa, at palawakin ang iyong kamalayan at pakikilahok sa mga kaugnay na tao o koponan na nagtatrabaho sa mga interesadong larangan. Ano ang hitsura ng mga proyektong pananaliksik at paano ito nakakaapekto?
 
-Tingnan natin ang isang halimbawa - ang [MIT Gender Shades Study](http://gendershades.org/overview.html) mula kay Joy Buolamwini (MIT Media Labs) na may [signature research paper](http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) na co-authored ni Timnit Gebru (noon sa Microsoft Research) na nakatuon sa 
+Tingnan natin ang isang halimbawa - ang [MIT Gender Shades Study](http://gendershades.org/overview.html) mula kay Joy Buolamwini (MIT Media Labs) na may [signature research paper](http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) na isinulat kasama si Timnit Gebru (noon ay nasa Microsoft Research) na nakatuon sa:
 
- * **Ano:** Ang layunin ng proyekto ay _suriin ang bias sa automated facial analysis algorithms at datasets_ batay sa gender at skin type. 
- * **Bakit:** Ang facial analysis ay ginagamit sa mga lugar tulad ng law enforcement, airport security, hiring systems, at iba pa - mga konteksto kung saan ang maling klasipikasyon (hal., dahil sa bias) ay maaaring magdulot ng potensyal na economic at social harms sa mga apektadong indibidwal o grupo. Ang pag-unawa (at pag-aalis o pag-mitigate) ng biases ay mahalaga para sa fairness sa paggamit.
- * **Paano:** Napansin ng mga mananaliksik na ang mga umiiral na benchmarks ay kadalasang gumagamit ng lighter-skinned subjects, kaya gumawa sila ng bagong dataset (1000+ images) na _mas balanse_ batay sa gender at skin type. Ang dataset ay ginamit para suriin ang accuracy ng tatlong gender classification products (mula sa Microsoft, IBM & Face++). 
+ * **Ano:** Ang layunin ng proyekto ay _suriin ang bias sa mga automated facial analysis algorithms at datasets_ batay sa kasarian at kulay ng balat.
+ * **Bakit:** Ang facial analysis ay ginagamit sa mga lugar tulad ng pagpapatupad ng batas, seguridad sa paliparan, mga sistema ng pagkuha ng trabaho, at iba pa - mga konteksto kung saan ang maling klasipikasyon (hal., dahil sa bias) ay maaaring magdulot ng potensyal na pinsalang pang-ekonomiya at panlipunan sa mga apektadong indibidwal o grupo. Ang pag-unawa (at pag-aalis o pagpapagaan) ng bias ay mahalaga para sa patas na paggamit.
+ * **Paano:** Napansin ng mga mananaliksik na ang mga umiiral na benchmark ay pangunahing gumagamit ng mga subject na may mas maputing balat, kaya lumikha sila ng bagong dataset (1000+ na larawan) na _mas balanse_ ayon sa kasarian at kulay ng balat. Ang dataset ay ginamit upang suriin ang katumpakan ng tatlong produkto ng gender classification (mula sa Microsoft, IBM, at Face++).
 
-Ipinakita ng resulta na bagama't maganda ang overall classification accuracy, may kapansin-pansing pagkakaiba sa error rates sa pagitan ng iba't ibang subgroups - kung saan mas mataas ang **misgendering** para sa mga babae o taong may darker skin types, na nagpapahiwatig ng bias.
+Ipinakita ng mga resulta na bagama't maganda ang pangkalahatang katumpakan ng klasipikasyon, may kapansin-pansing pagkakaiba sa error rates sa pagitan ng iba't ibang subgroup - kung saan mas mataas ang **misgendering** para sa mga babae o taong may mas maitim na balat, na nagpapahiwatig ng bias.
 
-**Mga Pangunahing Resulta:** Nagbigay ng kamalayan na ang data science ay nangangailangan ng mas _representative datasets_ (balanseng subgroups) at mas _inclusive teams_ (diverse backgrounds) para ma-recognize at maalis o ma-mitigate ang ganitong biases nang mas maaga sa AI solutions. Ang mga pagsisikap sa pananaliksik tulad nito ay mahalaga rin sa maraming organisasyon sa pagbuo ng mga prinsipyo at praktika para sa _responsible AI_ upang mapabuti ang fairness sa kanilang AI products at processes.
+**Pangunahing Resulta:** Nagbigay ng kamalayan na ang data science ay nangangailangan ng mas _representative datasets_ (balanseng subgroup) at mas _inclusive teams_ (iba't ibang pinagmulan) upang maagang matukoy at maalis o mabawasan ang mga bias sa mga solusyon sa AI. Ang mga pagsisikap sa pananaliksik tulad nito ay mahalaga rin sa maraming organisasyon sa pagtukoy ng mga prinsipyo at kasanayan para sa _responsible AI_ upang mapabuti ang patas na paggamit sa kanilang mga produkto at proseso ng AI.
 
-**Gusto mo bang matuto tungkol sa mga kaugnay na pagsisikap sa pananaliksik sa Microsoft?** 
+**Gusto mo bang matuto tungkol sa mga kaugnay na pagsisikap sa pananaliksik sa Microsoft?**
 
 * Tingnan ang [Microsoft Research Projects](https://www.microsoft.com/research/research-area/artificial-intelligence/?facet%5Btax%5D%5Bmsr-research-area%5D%5B%5D=13556&facet%5Btax%5D%5Bmsr-content-type%5D%5B%5D=msr-project) sa Artificial Intelligence.
 * Tuklasin ang mga proyekto ng mag-aaral mula sa [Microsoft Research Data Science Summer School](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/).
-* Tingnan ang [Fairlearn](https://fairlearn.org/) na proyekto at [Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6) na mga inisyatibo.
+* Tingnan ang [Fairlearn](https://fairlearn.org/) na proyekto at ang mga inisyatibo sa [Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6).
 
 ## Data Science + Humanities
 
 | ![ Sketchnote ni [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Humanities.png) |
 | :---------------------------------------------------------------------------------------------------------------: |
-|              Data Science & Digital Humanities - _Sketchnote ni [@nitya](https://twitter.com/nitya)_              |
+|              Data Science at Digital Humanities - _Sketchnote ni [@nitya](https://twitter.com/nitya)_              |
 
-Ang Digital Humanities [ay naipaliwanag](https://digitalhumanities.stanford.edu/about-dh-stanford) bilang "isang koleksyon ng mga praktika at approaches na pinagsasama ang computational methods sa humanistic inquiry". Ang mga [proyekto ng Stanford](https://digitalhumanities.stanford.edu/projects) tulad ng _"rebooting history"_ at _"poetic thinking"_ ay nagpapakita ng koneksyon sa pagitan ng [Digital Humanities at Data Science](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science) - binibigyang-diin ang mga teknik tulad ng network analysis, information visualization, spatial at text analysis na makakatulong sa atin na muling suriin ang mga historical at literary datasets para makakuha ng bagong insights at perspektibo.
+Ang Digital Humanities [ay naipaliwanag](https://digitalhumanities.stanford.edu/about-dh-stanford) bilang "isang koleksyon ng mga praktika at pamamaraan na pinagsasama ang computational methods sa humanistic inquiry". Ang mga proyekto ng [Stanford](https://digitalhumanities.stanford.edu/projects) tulad ng _"rebooting history"_ at _"poetic thinking"_ ay nagpapakita ng koneksyon sa pagitan ng [Digital Humanities at Data Science](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science) - na binibigyang-diin ang mga teknik tulad ng network analysis, information visualization, spatial at text analysis na makakatulong sa atin na muling suriin ang mga historical at literary dataset upang makakuha ng bagong pananaw.
 
 *Gusto mo bang tuklasin at palawakin ang isang proyekto sa larangang ito?*
 
-Tingnan ang ["Emily Dickinson and the Meter of Mood"](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671) - isang mahusay na halimbawa mula kay [Jen Looper](https://twitter.com/jenlooper) na nagtatanong kung paano natin magagamit ang data science para muling suriin ang pamilyar na poetry at muling suriin ang kahulugan nito at ang kontribusyon ng may-akda sa bagong konteksto. Halimbawa, _maaari ba nating mahulaan ang panahon kung kailan isinulat ang isang tula sa pamamagitan ng pagsusuri sa tono o damdamin nito_ - at ano ang sinasabi nito tungkol sa estado ng kaisipan ng may-akda sa kaugnay na panahon?
+Tingnan ang ["Emily Dickinson and the Meter of Mood"](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671) - isang mahusay na halimbawa mula kay [Jen Looper](https://twitter.com/jenlooper) na nagtatanong kung paano natin magagamit ang data science upang muling suriin ang pamilyar na tula at muling suriin ang kahulugan nito at ang kontribusyon ng may-akda sa mga bagong konteksto. Halimbawa, _maaari ba nating mahulaan ang panahon kung kailan isinulat ang isang tula sa pamamagitan ng pagsusuri sa tono o damdamin nito_ - at ano ang sinasabi nito tungkol sa estado ng pag-iisip ng may-akda sa panahong iyon?
 
-Para sagutin ang tanong na iyon, sundan natin ang mga hakbang ng lifecycle ng data science:
- * [`Data Acquisition`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#acquiring-the-dataset) - para mangolekta ng kaugnay na dataset para sa pagsusuri. Ang mga opsyon ay kinabibilangan ng paggamit ng API (hal., [Poetry DB API](https://poetrydb.org/index.html)) o pag-scrape ng mga web page (hal., [Project Gutenberg](https://www.gutenberg.org/files/12242/12242-h/12242-h.htm)) gamit ang mga tools tulad ng [Scrapy](https://scrapy.org/).
- * [`Data Cleaning`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#clean-the-data) - nagpapaliwanag kung paano maaaring i-format, i-sanitize, at i-simplify ang text gamit ang mga basic tools tulad ng Visual Studio Code at Microsoft Excel.
- * [`Data Analysis`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#working-with-the-data-in-a-notebook) - nagpapaliwanag kung paano natin maaaring i-import ang dataset sa "Notebooks" para sa pagsusuri gamit ang Python packages (tulad ng pandas, numpy, at matplotlib) para ayusin at i-visualize ang data.
- * [`Sentiment Analysis`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#sentiment-analysis-using-cognitive-services) - nagpapaliwanag kung paano natin maaaring i-integrate ang cloud services tulad ng Text Analytics, gamit ang low-code tools tulad ng [Power Automate](https://flow.microsoft.com/en-us/) para sa automated data processing workflows.
+Upang sagutin ang tanong na iyon, sundin natin ang mga hakbang ng lifecycle ng data science:
+ * [`Data Acquisition`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#acquiring-the-dataset) - upang mangolekta ng kaugnay na dataset para sa pagsusuri. Kasama sa mga opsyon ang paggamit ng API (hal., [Poetry DB API](https://poetrydb.org/index.html)) o pag-scrape ng mga web page (hal., [Project Gutenberg](https://www.gutenberg.org/files/12242/12242-h/12242-h.htm)) gamit ang mga tool tulad ng [Scrapy](https://scrapy.org/).
+ * [`Data Cleaning`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#clean-the-data) - nagpapaliwanag kung paano maaaring i-format, linisin, at gawing simple ang teksto gamit ang mga pangunahing tool tulad ng Visual Studio Code at Microsoft Excel.
+ * [`Data Analysis`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#working-with-the-data-in-a-notebook) - nagpapaliwanag kung paano natin maaaring i-import ang dataset sa "Notebooks" para sa pagsusuri gamit ang mga Python package (tulad ng pandas, numpy, at matplotlib) upang ayusin at i-visualize ang datos.
+ * [`Sentiment Analysis`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#sentiment-analysis-using-cognitive-services) - nagpapaliwanag kung paano natin maaaring isama ang mga cloud service tulad ng Text Analytics, gamit ang mga low-code tool tulad ng [Power Automate](https://flow.microsoft.com/en-us/) para sa automated na pagproseso ng datos.
 
-Gamit ang workflow na ito, maaari nating tuklasin ang epekto ng panahon sa damdamin ng mga tula, at tulungan tayong bumuo ng sarili nating perspektibo sa may-akda. Subukan mo ito - pagkatapos ay palawakin ang notebook para magtanong ng iba pang mga tanong o i-visualize ang data sa mga bagong paraan!
+Gamit ang workflow na ito, maaari nating suriin ang epekto ng panahon sa damdamin ng mga tula, at matulungan tayong bumuo ng sarili nating pananaw tungkol sa may-akda. Subukan mo ito - pagkatapos ay palawakin ang notebook upang magtanong ng iba pang mga tanong o i-visualize ang datos sa mga bagong paraan!
 
-> Maaari mong gamitin ang ilan sa mga tools sa [Digital Humanities toolkit](https://github.com/Digital-Humanities-Toolkit) para ipagpatuloy ang mga ganitong uri ng inquiry.
+> Maaari mong gamitin ang ilan sa mga tool sa [Digital Humanities toolkit](https://github.com/Digital-Humanities-Toolkit) upang ituloy ang mga ganitong uri ng pagsusuri.
 
 ## Data Science + Sustainability
 
 | ![ Sketchnote ni [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Sustainability.png) |
 | :---------------------------------------------------------------------------------------------------------------: |
-|              Data Science & Sustainability - _Sketchnote ni [@nitya](https://twitter.com/nitya)_              |
+|              Data Science at Sustainability - _Sketchnote ni [@nitya](https://twitter.com/nitya)_              |
 
-Ang [2030 Agenda For Sustainable Development](https://sdgs.un.org/2030agenda) - na in-adopt ng lahat ng miyembro ng United Nations noong 2015 - ay nagtatakda ng 17 goals kabilang ang mga nakatuon sa **Pagprotekta sa Planet** mula sa pagkasira at epekto ng climate change. Ang [Microsoft Sustainability](https://www.microsoft.com/en-us/sustainability) na inisyatibo ay sumusuporta sa mga layuning ito sa pamamagitan ng paggalugad ng mga paraan kung paano makakatulong ang mga teknolohiyang solusyon sa pagbuo ng mas sustainable na kinabukasan na may [focus sa 4 na layunin](https://dev.to/azure/a-visual-guide-to-sustainable-software-engineering-53hh) - pagiging carbon negative, water positive, zero waste, at bio-diverse pagsapit ng 2030.
+Ang [2030 Agenda For Sustainable Development](https://sdgs.un.org/2030agenda) - na inaprubahan ng lahat ng miyembro ng United Nations noong 2015 - ay nagtatakda ng 17 layunin kabilang ang mga nakatuon sa **Pagprotekta sa Planeta** mula sa pagkasira at epekto ng pagbabago ng klima. Ang inisyatibong [Microsoft Sustainability](https://www.microsoft.com/en-us/sustainability) ay sumusuporta sa mga layuning ito sa pamamagitan ng paggalugad kung paano makakatulong ang mga teknolohikal na solusyon sa pagbuo ng mas napapanatiling kinabukasan na may [pokus sa 4 na layunin](https://dev.to/azure/a-visual-guide-to-sustainable-software-engineering-53hh) - pagiging carbon negative, water positive, zero waste, at bio-diverse pagsapit ng 2030.
 
-Ang pagharap sa mga hamon na ito sa isang scalable at napapanahong paraan ay nangangailangan ng cloud-scale thinking - at malakihang data. Ang [Planetary Computer](https://planetarycomputer.microsoft.com/) na inisyatibo ay nagbibigay ng 4 na components para tumulong sa mga data scientist at developer sa pagsisikap na ito:
+Ang pagtugon sa mga hamong ito sa isang scalable at napapanahong paraan ay nangangailangan ng cloud-scale na pag-iisip - at malakihang datos. Ang inisyatibong [Planetary Computer](https://planetarycomputer.microsoft.com/) ay nagbibigay ng 4 na bahagi upang matulungan ang mga data scientist at developer sa pagsisikap na ito:
 
- * [Data Catalog](https://planetarycomputer.microsoft.com/catalog) - na may petabytes ng Earth Systems data (libre at Azure-hosted).
- * [Planetary API](https://planetarycomputer.microsoft.com/docs/reference/stac/) - para tumulong sa mga user na maghanap ng kaugnay na data sa iba't ibang lugar at panahon.
- * [Hub](https://planetarycomputer.microsoft.com/docs/overview/environment/) - managed environment para sa mga scientist na magproseso ng malalaking geospatial datasets.
- * [Applications](https://planetarycomputer.microsoft.com/applications) - nagpapakita ng mga use cases at tools para sa sustainability insights.
+ * [Data Catalog](https://planetarycomputer.microsoft.com/catalog) - na may petabytes ng Earth Systems data (libre at naka-host sa Azure).
+ * [Planetary API](https://planetarycomputer.microsoft.com/docs/reference/stac/) - upang matulungan ang mga user na maghanap ng kaugnay na datos sa espasyo at panahon.
+ * [Hub](https://planetarycomputer.microsoft.com/docs/overview/environment/) - isang managed environment para sa mga siyentipiko upang iproseso ang malalaking geospatial dataset.
+ * [Applications](https://planetarycomputer.microsoft.com/applications) - nagpapakita ng mga kaso ng paggamit at mga tool para sa mga pananaw sa sustainability.
 **Ang Planetary Computer Project ay kasalukuyang nasa preview (mula Setyembre 2021)** - narito kung paano ka makakapagsimula sa pag-aambag sa mga solusyon para sa sustainability gamit ang data science.
 
 * [Humiling ng access](https://planetarycomputer.microsoft.com/account/request) upang simulan ang pag-explore at makipag-ugnayan sa mga kapwa mananaliksik.
 * [Mag-explore ng dokumentasyon](https://planetarycomputer.microsoft.com/docs/overview/about) upang maunawaan ang mga suportadong dataset at API.
 * Mag-explore ng mga aplikasyon tulad ng [Ecosystem Monitoring](https://analytics-lab.org/ecosystemmonitoring/) para sa inspirasyon sa mga ideya ng aplikasyon.
 
-Pag-isipan kung paano mo magagamit ang data visualization upang ipakita o palakasin ang mga mahalagang insight sa mga larangan tulad ng pagbabago ng klima at deforestation. O pag-isipan kung paano magagamit ang mga insight upang lumikha ng mga bagong karanasan para sa mga gumagamit na magpapasigla sa pagbabago ng ugali para sa mas sustainable na pamumuhay.
+Pag-isipan kung paano mo magagamit ang data visualization upang ipakita o palakasin ang mga mahahalagang insight sa mga larangan tulad ng pagbabago ng klima at deforestation. O pag-isipan kung paano magagamit ang mga insight upang lumikha ng mga bagong karanasan para sa mga gumagamit na magpapasigla sa pagbabago ng ugali para sa mas sustainable na pamumuhay.
 
 ## Data Science + Mga Mag-aaral
 
-Napag-usapan na natin ang mga aplikasyon sa totoong mundo sa industriya at pananaliksik, at na-explore ang mga halimbawa ng aplikasyon ng data science sa digital humanities at sustainability. Kaya paano mo maitatayo ang iyong mga kakayahan at maibabahagi ang iyong kaalaman bilang mga baguhan sa data science?
+Napag-usapan na natin ang mga aplikasyon sa totoong mundo sa industriya at pananaliksik, at na-explore ang mga halimbawa ng aplikasyon ng data science sa digital humanities at sustainability. Kaya paano mo maitatayo ang iyong mga kasanayan at maibabahagi ang iyong kaalaman bilang mga baguhan sa data science?
 
-Narito ang ilang halimbawa ng mga proyekto ng data science ng mga mag-aaral upang magbigay inspirasyon sa iyo.
+Narito ang ilang mga halimbawa ng mga proyekto ng data science para sa mga mag-aaral upang magbigay inspirasyon sa iyo.
 
- * [MSR Data Science Summer School](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/#!projects) na may mga proyekto sa GitHub [projects](https://github.com/msr-ds3) na nag-eexplore ng mga paksa tulad ng:
+* [MSR Data Science Summer School](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/#!projects) na may mga proyekto sa GitHub [projects](https://github.com/msr-ds3) na nag-eexplore ng mga paksa tulad ng:
     - [Racial Bias in Police Use of Force](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2019-replicating-an-empirical-analysis-of-racial-differences-in-police-use-of-force/) | [Github](https://github.com/msr-ds3/stop-question-frisk)
     - [Reliability of NYC Subway System](https://www.microsoft.com/en-us/research/video/data-science-summer-school-2018-exploring-the-reliability-of-the-nyc-subway-system/) | [Github](https://github.com/msr-ds3/nyctransit)
- * [Digitizing Material Culture: Exploring socio-economic distributions in Sirkap](https://claremont.maps.arcgis.com/apps/Cascade/index.html?appid=bdf2aef0f45a4674ba41cd373fa23afc) - mula kay [Ornella Altunyan](https://twitter.com/ornelladotcom) at team sa Claremont, gamit ang [ArcGIS StoryMaps](https://storymaps.arcgis.com/).
+* [Digitizing Material Culture: Exploring socio-economic distributions in Sirkap](https://claremont.maps.arcgis.com/apps/Cascade/index.html?appid=bdf2aef0f45a4674ba41cd373fa23afc) - mula kay [Ornella Altunyan](https://twitter.com/ornelladotcom) at ang kanyang team sa Claremont, gamit ang [ArcGIS StoryMaps](https://storymaps.arcgis.com/).
 
 ## 🚀 Hamon
 
-Maghanap ng mga artikulo na nagrerekomenda ng mga proyekto sa data science na angkop para sa mga baguhan - tulad ng [mga 50 paksa](https://www.upgrad.com/blog/data-science-project-ideas-topics-beginners/) o [mga 21 ideya ng proyekto](https://www.intellspot.com/data-science-project-ideas) o [mga 16 proyekto na may source code](https://data-flair.training/blogs/data-science-project-ideas/) na maaari mong pag-aralan at i-remix. At huwag kalimutang mag-blog tungkol sa iyong mga learning journey at ibahagi ang iyong mga insight sa aming lahat.
+Maghanap ng mga artikulo na nagrerekomenda ng mga proyekto sa data science na angkop para sa mga baguhan - tulad ng [mga 50 paksa](https://www.upgrad.com/blog/data-science-project-ideas-topics-beginners/) o [mga 21 ideya ng proyekto](https://www.intellspot.com/data-science-project-ideas) o [mga 16 na proyekto na may source code](https://data-flair.training/blogs/data-science-project-ideas/) na maaari mong pag-aralan at i-remix. At huwag kalimutang mag-blog tungkol sa iyong mga learning journey at ibahagi ang iyong mga insight sa aming lahat.
 
 ## Post-Lecture Quiz
 
@@ -140,10 +140,11 @@ Maghanap ng mga artikulo na nagrerekomenda ng mga proyekto sa data science na an
 ## Review & Self Study
 
 Gusto mo bang mag-explore ng mas maraming use cases? Narito ang ilang mga kaugnay na artikulo:
- * [17 Data Science Applications and Examples](https://builtin.com/data-science/data-science-applications-examples) - Hulyo 2021
- * [11 Breathtaking Data Science Applications in Real World](https://myblindbird.com/data-science-applications-real-world/) - Mayo 2021
- * [Data Science In The Real World](https://towardsdatascience.com/data-science-in-the-real-world/home) - Koleksyon ng Artikulo
- * Data Science Sa: [Edukasyon](https://data-flair.training/blogs/data-science-in-education/), [Agrikultura](https://data-flair.training/blogs/data-science-in-agriculture/), [Pananalapi](https://data-flair.training/blogs/data-science-in-finance/), [Pelikula](https://data-flair.training/blogs/data-science-at-movies/) at iba pa.
+* [17 Data Science Applications and Examples](https://builtin.com/data-science/data-science-applications-examples) - Hulyo 2021
+* [11 Breathtaking Data Science Applications in Real World](https://myblindbird.com/data-science-applications-real-world/) - Mayo 2021
+* [Data Science In The Real World](https://towardsdatascience.com/data-science-in-the-real-world/home) - Koleksyon ng Artikulo
+* [12 Real-World Data Science Applications with Examples](https://www.scaler.com/blog/data-science-applications/) - Mayo 2024
+* Data Science Sa: [Edukasyon](https://data-flair.training/blogs/data-science-in-education/), [Agrikultura](https://data-flair.training/blogs/data-science-in-agriculture/), [Pananalapi](https://data-flair.training/blogs/data-science-in-finance/), [Pelikula](https://data-flair.training/blogs/data-science-at-movies/), [Pangangalaga sa Kalusugan](https://onlinedegrees.sandiego.edu/data-science-health-care/) at iba pa.
 
 ## Assignment
 
@@ -152,4 +153,4 @@ Gusto mo bang mag-explore ng mas maraming use cases? Narito ang ilang mga kaugna
 ---
 
 **Paunawa**:  
-Ang dokumentong ito ay isinalin gamit ang AI translation service na [Co-op Translator](https://github.com/Azure/co-op-translator). Bagama't sinisikap naming maging tumpak, tandaan na ang mga awtomatikong pagsasalin ay maaaring maglaman ng mga pagkakamali o hindi pagkakatugma. Ang orihinal na dokumento sa kanyang katutubong wika ang dapat ituring na opisyal na sanggunian. Para sa mahalagang impormasyon, inirerekomenda ang propesyonal na pagsasalin ng tao. Hindi kami mananagot sa anumang hindi pagkakaunawaan o maling interpretasyon na dulot ng paggamit ng pagsasaling ito.
+Ang dokumentong ito ay isinalin gamit ang AI translation service na [Co-op Translator](https://github.com/Azure/co-op-translator). Bagama't sinisikap naming maging tumpak, pakitandaan na ang mga awtomatikong pagsasalin ay maaaring maglaman ng mga pagkakamali o hindi pagkakatugma. Ang orihinal na dokumento sa kanyang orihinal na wika ang dapat ituring na opisyal na sanggunian. Para sa mahalagang impormasyon, inirerekomenda ang propesyonal na pagsasalin ng tao. Hindi kami mananagot sa anumang hindi pagkakaunawaan o maling interpretasyon na maaaring magmula sa paggamit ng pagsasaling ito.

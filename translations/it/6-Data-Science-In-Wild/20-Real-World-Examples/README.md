@@ -1,126 +1,126 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "06bac7959b46b6e8aedcae014278c476",
-  "translation_date": "2025-09-06T08:53:01+00:00",
+  "original_hash": "0f67a4139454816631526779a456b734",
+  "translation_date": "2025-09-06T18:27:46+00:00",
   "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
   "language_code": "it"
 }
 -->
-# La Scienza dei Dati nel Mondo Reale
+# Data Science nel Mondo Reale
 
 | ![ Sketchnote di [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png) |
 | :--------------------------------------------------------------------------------------------------------------: |
-|               La Scienza dei Dati nel Mondo Reale - _Sketchnote di [@nitya](https://twitter.com/nitya)_           |
+|               Data Science nel Mondo Reale - _Sketchnote di [@nitya](https://twitter.com/nitya)_               |
 
 Siamo quasi alla fine di questo percorso di apprendimento!
 
-Abbiamo iniziato con le definizioni di scienza dei dati ed etica, esplorato vari strumenti e tecniche per l'analisi e la visualizzazione dei dati, esaminato il ciclo di vita della scienza dei dati e analizzato come scalare e automatizzare i flussi di lavoro della scienza dei dati con i servizi di cloud computing. Quindi, probabilmente ti starai chiedendo: _"Come posso applicare tutto ciò che ho imparato ai contesti del mondo reale?"_
+Abbiamo iniziato con le definizioni di data science ed etica, esplorato vari strumenti e tecniche per l'analisi e la visualizzazione dei dati, esaminato il ciclo di vita della data science e analizzato come scalare e automatizzare i flussi di lavoro di data science con i servizi di cloud computing. Quindi, probabilmente ti starai chiedendo: _"Come posso applicare tutto ciò che ho imparato ai contesti del mondo reale?"_
 
-In questa lezione, esploreremo le applicazioni reali della scienza dei dati nei vari settori e approfondiremo esempi specifici nei contesti della ricerca, delle scienze umane digitali e della sostenibilità. Esamineremo opportunità di progetti per studenti e concluderemo con risorse utili per continuare il tuo percorso di apprendimento!
+In questa lezione, esploreremo le applicazioni reali della data science in diversi settori e approfondiremo esempi specifici nei contesti della ricerca, delle discipline umanistiche digitali e della sostenibilità. Esamineremo le opportunità di progetti per studenti e concluderemo con risorse utili per continuare il tuo percorso di apprendimento!
 
-## Quiz Pre-Lezione
+## Quiz Pre-Lettura
 
-## [Quiz Pre-Lezione](https://ff-quizzes.netlify.app/en/ds/quiz/38)
+## [Quiz pre-lettura](https://ff-quizzes.netlify.app/en/ds/quiz/38)
 
-## Scienza dei Dati + Industria
+## Data Science + Industria
 
-Grazie alla democratizzazione dell'IA, gli sviluppatori trovano sempre più facile progettare e integrare decisioni guidate dall'IA e intuizioni basate sui dati nelle esperienze utente e nei flussi di lavoro di sviluppo. Ecco alcuni esempi di come la scienza dei dati viene "applicata" a contesti reali nell'industria:
+Grazie alla democratizzazione dell'AI, gli sviluppatori trovano sempre più facile progettare e integrare decisioni basate sull'intelligenza artificiale e intuizioni basate sui dati nelle esperienze utente e nei flussi di lavoro di sviluppo. Ecco alcuni esempi di come la data science viene "applicata" a contesti reali nell'industria:
 
- * [Google Flu Trends](https://www.wired.com/2015/10/can-learn-epic-failure-google-flu-trends/) ha utilizzato la scienza dei dati per correlare i termini di ricerca con le tendenze dell'influenza. Sebbene l'approccio avesse delle lacune, ha sollevato consapevolezza sulle possibilità (e sfide) delle previsioni sanitarie basate sui dati.
+ * [Google Flu Trends](https://www.wired.com/2015/10/can-learn-epic-failure-google-flu-trends/) ha utilizzato la data science per correlare i termini di ricerca con le tendenze influenzali. Sebbene l'approccio avesse dei difetti, ha aumentato la consapevolezza sulle possibilità (e sfide) delle previsioni sanitarie basate sui dati.
 
- * [Previsioni di Routing di UPS](https://www.technologyreview.com/2018/11/21/139000/how-ups-uses-ai-to-outsmart-bad-weather/) - spiega come UPS utilizza la scienza dei dati e il machine learning per prevedere i percorsi ottimali per le consegne, tenendo conto delle condizioni meteorologiche, dei modelli di traffico, delle scadenze di consegna e altro ancora.
+ * [Previsioni di Routing UPS](https://www.technologyreview.com/2018/11/21/139000/how-ups-uses-ai-to-outsmart-bad-weather/) - spiega come UPS utilizza la data science e il machine learning per prevedere i percorsi ottimali per le consegne, tenendo conto delle condizioni meteorologiche, dei modelli di traffico, delle scadenze di consegna e altro ancora.
 
  * [Visualizzazione dei Percorsi dei Taxi di NYC](http://chriswhong.github.io/nyctaxi/) - i dati raccolti utilizzando le [Leggi sulla Libertà di Informazione](https://chriswhong.com/open-data/foil_nyc_taxi/) hanno aiutato a visualizzare una giornata nella vita dei taxi di NYC, permettendoci di capire come navigano nella città affollata, i guadagni e la durata dei viaggi in un periodo di 24 ore.
 
- * [Uber Data Science Workbench](https://eng.uber.com/dsw/) - utilizza i dati (su luoghi di prelievo e rilascio, durata dei viaggi, percorsi preferiti, ecc.) raccolti da milioni di viaggi Uber *quotidianamente* per costruire uno strumento di analisi dei dati utile per prezzi, sicurezza, rilevamento delle frodi e decisioni di navigazione.
+ * [Uber Data Science Workbench](https://eng.uber.com/dsw/) - utilizza i dati (su luoghi di prelievo e consegna, durata dei viaggi, percorsi preferiti ecc.) raccolti da milioni di viaggi Uber *quotidianamente* per costruire uno strumento di analisi dei dati utile per prezzi, sicurezza, rilevamento delle frodi e decisioni di navigazione.
 
- * [Analisi Sportiva](https://towardsdatascience.com/scope-of-analytics-in-sports-world-37ed09c39860) - si concentra su _analisi predittiva_ (analisi di squadra e giocatori - pensa a [Moneyball](https://datasciencedegree.wisconsin.edu/blog/moneyball-proves-importance-big-data-big-ideas/) - e gestione dei fan) e _visualizzazione dei dati_ (dashboard per squadre e fan, giochi, ecc.) con applicazioni come scouting di talenti, scommesse sportive e gestione di inventari/luoghi.
+ * [Analisi Sportiva](https://towardsdatascience.com/scope-of-analytics-in-sports-world-37ed09c39860) - si concentra su _analisi predittiva_ (analisi di squadra e giocatori - pensa a [Moneyball](https://datasciencedegree.wisconsin.edu/blog/moneyball-proves-importance-big-data-big-ideas/) - e gestione dei fan) e _visualizzazione dei dati_ (dashboard di squadra e fan, giochi ecc.) con applicazioni come scouting di talenti, scommesse sportive e gestione di inventari/luoghi.
 
- * [Scienza dei Dati nel Settore Bancario](https://data-flair.training/blogs/data-science-in-banking/) - evidenzia il valore della scienza dei dati nel settore finanziario con applicazioni che vanno dalla modellazione del rischio e rilevamento delle frodi, alla segmentazione dei clienti, previsioni in tempo reale e sistemi di raccomandazione. L'analisi predittiva guida anche misure critiche come i [credit scores](https://dzone.com/articles/using-big-data-and-predictive-analytics-for-credit).
+ * [Data Science nel Settore Bancario](https://data-flair.training/blogs/data-science-in-banking/) - evidenzia il valore della data science nel settore finanziario con applicazioni che vanno dalla modellazione del rischio e rilevamento delle frodi, alla segmentazione dei clienti, previsioni in tempo reale e sistemi di raccomandazione. L'analisi predittiva guida anche misure critiche come i [credit scores](https://dzone.com/articles/using-big-data-and-predictive-analytics-for-credit).
 
- * [Scienza dei Dati nella Sanità](https://data-flair.training/blogs/data-science-in-healthcare/) - evidenzia applicazioni come imaging medico (es. MRI, radiografie, TAC), genomica (sequenziamento del DNA), sviluppo di farmaci (valutazione del rischio, previsione del successo), analisi predittiva (cura dei pazienti e logistica delle forniture), monitoraggio e prevenzione delle malattie, ecc.
+ * [Data Science nella Sanità](https://data-flair.training/blogs/data-science-in-healthcare/) - evidenzia applicazioni come imaging medico (ad esempio, MRI, raggi X, TAC), genomica (sequenziamento del DNA), sviluppo di farmaci (valutazione del rischio, previsione del successo), analisi predittiva (cura dei pazienti e logistica delle forniture), monitoraggio e prevenzione delle malattie ecc.
 
-![Applicazioni della Scienza dei Dati nel Mondo Reale](../../../../6-Data-Science-In-Wild/20-Real-World-Examples/images/data-science-applications.png) Crediti Immagine: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Applicazioni della Data Science nel Mondo Reale](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.it.png) Crediti Immagine: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
-La figura mostra altri domini ed esempi di applicazione delle tecniche di scienza dei dati. Vuoi esplorare altre applicazioni? Dai un'occhiata alla sezione [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) qui sotto.
+La figura mostra altri domini ed esempi per l'applicazione delle tecniche di data science. Vuoi esplorare altre applicazioni? Dai un'occhiata alla sezione [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) qui sotto.
 
-## Scienza dei Dati + Ricerca
+## Data Science + Ricerca
 
 | ![ Sketchnote di [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Research.png) |
 | :---------------------------------------------------------------------------------------------------------------: |
-|              Scienza dei Dati & Ricerca - _Sketchnote di [@nitya](https://twitter.com/nitya)_              |
+|              Data Science & Ricerca - _Sketchnote di [@nitya](https://twitter.com/nitya)_              |
 
 Mentre le applicazioni reali spesso si concentrano su casi d'uso industriali su larga scala, le applicazioni e i progetti di _ricerca_ possono essere utili da due prospettive:
 
 * _opportunità di innovazione_ - esplorare prototipi rapidi di concetti avanzati e testare esperienze utente per applicazioni di nuova generazione.
-* _sfide di implementazione_ - indagare i potenziali danni o le conseguenze non intenzionali delle tecnologie di scienza dei dati nei contesti reali.
+* _sfide di implementazione_ - indagare i potenziali danni o conseguenze indesiderate delle tecnologie di data science nei contesti reali.
 
-Per gli studenti, questi progetti di ricerca possono offrire opportunità di apprendimento e collaborazione che migliorano la comprensione dell'argomento e ampliano la consapevolezza e il coinvolgimento con persone o team rilevanti che lavorano in aree di interesse. Ma come sono i progetti di ricerca e quale impatto possono avere?
+Per gli studenti, questi progetti di ricerca possono offrire opportunità di apprendimento e collaborazione che migliorano la comprensione dell'argomento e ampliano la consapevolezza e il coinvolgimento con persone o team rilevanti che lavorano in aree di interesse. Ma come sono i progetti di ricerca e come possono avere un impatto?
 
-Esaminiamo un esempio: lo [Studio Gender Shades del MIT](http://gendershades.org/overview.html) di Joy Buolamwini (MIT Media Labs) con un [articolo di ricerca](http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) co-autore con Timnit Gebru (all'epoca presso Microsoft Research) che si è concentrato su:
+Esaminiamo un esempio: lo [Studio MIT Gender Shades](http://gendershades.org/overview.html) di Joy Buolamwini (MIT Media Labs) con un [articolo di ricerca significativo](http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf) co-autore con Timnit Gebru (all'epoca presso Microsoft Research) che si concentra su:
 
- * **Cosa:** L'obiettivo del progetto di ricerca era _valutare i bias presenti negli algoritmi e nei dataset di analisi facciale automatizzata_ in base al genere e al tipo di pelle.
- * **Perché:** L'analisi facciale è utilizzata in contesti come forze dell'ordine, sicurezza aeroportuale, sistemi di assunzione e altro - contesti in cui classificazioni inaccurate (es. a causa di bias) possono causare potenziali danni economici e sociali agli individui o ai gruppi interessati. Comprendere (ed eliminare o mitigare) i bias è fondamentale per un uso equo.
+ * **Cosa:** L'obiettivo del progetto di ricerca era _valutare i bias presenti negli algoritmi e nei dataset di analisi facciale automatizzata_ basati su genere e tipo di pelle.
+ * **Perché:** L'analisi facciale è utilizzata in contesti come forze dell'ordine, sicurezza aeroportuale, sistemi di assunzione e altro - contesti in cui classificazioni inaccurate (ad esempio, a causa di bias) possono causare potenziali danni economici e sociali agli individui o ai gruppi interessati. Comprendere (ed eliminare o mitigare) i bias è fondamentale per l'equità nell'uso.
  * **Come:** I ricercatori hanno riconosciuto che i benchmark esistenti utilizzavano prevalentemente soggetti con pelle chiara e hanno curato un nuovo dataset (oltre 1000 immagini) _più bilanciato_ per genere e tipo di pelle. Il dataset è stato utilizzato per valutare l'accuratezza di tre prodotti di classificazione di genere (di Microsoft, IBM e Face++).
 
-I risultati hanno mostrato che, sebbene l'accuratezza complessiva della classificazione fosse buona, c'era una differenza evidente nei tassi di errore tra i vari sottogruppi - con un **misgendering** più elevato per le donne o le persone con pelle più scura, indicativo di bias.
+I risultati hanno mostrato che, sebbene l'accuratezza complessiva della classificazione fosse buona, c'era una differenza evidente nei tassi di errore tra vari sottogruppi - con **errori di classificazione di genere** più alti per donne o persone con pelle più scura, indicativi di bias.
 
-**Risultati Chiave:** Ha sollevato consapevolezza sul fatto che la scienza dei dati necessita di _dataset più rappresentativi_ (sottogruppi bilanciati) e di _team più inclusivi_ (background diversificati) per riconoscere ed eliminare o mitigare tali bias nelle soluzioni di IA. Sforzi di ricerca come questo sono anche fondamentali per molte organizzazioni nella definizione di principi e pratiche per un'IA _responsabile_ per migliorare l'equità nei loro prodotti e processi di IA.
+**Risultati Chiave:** Ha aumentato la consapevolezza che la data science necessita di _dataset più rappresentativi_ (sottogruppi bilanciati) e _team più inclusivi_ (background diversificati) per riconoscere ed eliminare o mitigare tali bias nelle soluzioni AI. Sforzi di ricerca come questo sono anche fondamentali per molte organizzazioni nella definizione di principi e pratiche per _AI responsabile_ per migliorare l'equità nei loro prodotti e processi AI.
 
 **Vuoi conoscere gli sforzi di ricerca rilevanti in Microsoft?**
 
 * Dai un'occhiata ai [Progetti di Ricerca Microsoft](https://www.microsoft.com/research/research-area/artificial-intelligence/?facet%5Btax%5D%5Bmsr-research-area%5D%5B%5D=13556&facet%5Btax%5D%5Bmsr-content-type%5D%5B%5D=msr-project) sull'Intelligenza Artificiale.
 * Esplora i progetti per studenti della [Microsoft Research Data Science Summer School](https://www.microsoft.com/en-us/research/academic-program/data-science-summer-school/).
-* Dai un'occhiata al progetto [Fairlearn](https://fairlearn.org/) e alle iniziative di [IA Responsabile](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6).
+* Dai un'occhiata al progetto [Fairlearn](https://fairlearn.org/) e alle iniziative [AI Responsabile](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6).
 
-## Scienza dei Dati + Scienze Umane
+## Data Science + Discipline Umanistiche
 
 | ![ Sketchnote di [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Humanities.png) |
 | :---------------------------------------------------------------------------------------------------------------: |
-|              Scienza dei Dati & Scienze Umane Digitali - _Sketchnote di [@nitya](https://twitter.com/nitya)_              |
+|              Data Science & Discipline Umanistiche Digitali - _Sketchnote di [@nitya](https://twitter.com/nitya)_              |
 
-Le Scienze Umane Digitali [sono state definite](https://digitalhumanities.stanford.edu/about-dh-stanford) come "una raccolta di pratiche e approcci che combinano metodi computazionali con l'indagine umanistica". Progetti [Stanford](https://digitalhumanities.stanford.edu/projects) come _"rebooting history"_ e _"poetic thinking"_ illustrano il legame tra [Scienze Umane Digitali e Scienza dei Dati](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science) - enfatizzando tecniche come l'analisi delle reti, la visualizzazione delle informazioni, l'analisi spaziale e testuale che possono aiutarci a rivisitare dataset storici e letterari per trarre nuove intuizioni e prospettive.
+Le Discipline Umanistiche Digitali [sono state definite](https://digitalhumanities.stanford.edu/about-dh-stanford) come "una raccolta di pratiche e approcci che combinano metodi computazionali con l'indagine umanistica". I [progetti di Stanford](https://digitalhumanities.stanford.edu/projects) come _"rebooting history"_ e _"poetic thinking"_ illustrano il collegamento tra [Discipline Umanistiche Digitali e Data Science](https://digitalhumanities.stanford.edu/digital-humanities-and-data-science) - enfatizzando tecniche come analisi di rete, visualizzazione delle informazioni, analisi spaziale e testuale che possono aiutarci a rivisitare dataset storici e letterari per derivare nuove intuizioni e prospettive.
 
-*Vuoi esplorare ed estendere un progetto in questo ambito?*
+*Vuoi esplorare e ampliare un progetto in questo ambito?*
 
-Dai un'occhiata a ["Emily Dickinson and the Meter of Mood"](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671) - un ottimo esempio di [Jen Looper](https://twitter.com/jenlooper) che si chiede come possiamo utilizzare la scienza dei dati per rivisitare poesie familiari e rivalutare il loro significato e il contributo dell'autore in nuovi contesti. Ad esempio, _possiamo prevedere la stagione in cui una poesia è stata scritta analizzandone il tono o il sentimento_ - e cosa ci dice questo sullo stato d'animo dell'autore nel periodo rilevante?
+Dai un'occhiata a ["Emily Dickinson and the Meter of Mood"](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671) - un ottimo esempio di [Jen Looper](https://twitter.com/jenlooper) che si chiede come possiamo utilizzare la data science per rivisitare poesie familiari e rivalutare il loro significato e i contributi del loro autore in nuovi contesti. Ad esempio, _possiamo prevedere la stagione in cui una poesia è stata scritta analizzandone il tono o il sentimento_ - e cosa ci dice questo sullo stato d'animo dell'autore nel periodo rilevante?
 
-Per rispondere a questa domanda, seguiamo i passaggi del ciclo di vita della scienza dei dati:
- * [`Acquisizione dei Dati`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#acquiring-the-dataset) - per raccogliere un dataset rilevante per l'analisi. Le opzioni includono l'uso di un'API (es. [Poetry DB API](https://poetrydb.org/index.html)) o il web scraping (es. [Project Gutenberg](https://www.gutenberg.org/files/12242/12242-h/12242-h.htm)) utilizzando strumenti come [Scrapy](https://scrapy.org/).
- * [`Pulizia dei Dati`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#clean-the-data) - spiega come i testi possono essere formattati, sanitizzati e semplificati utilizzando strumenti di base come Visual Studio Code e Microsoft Excel.
- * [`Analisi dei Dati`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#working-with-the-data-in-a-notebook) - spiega come possiamo ora importare il dataset nei "Notebooks" per l'analisi utilizzando pacchetti Python (come pandas, numpy e matplotlib) per organizzare e visualizzare i dati.
+Per rispondere a questa domanda, seguiamo i passaggi del ciclo di vita della data science:
+ * [`Acquisizione dei Dati`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#acquiring-the-dataset) - per raccogliere un dataset rilevante per l'analisi. Le opzioni includono l'uso di un'API (ad esempio, [Poetry DB API](https://poetrydb.org/index.html)) o il scraping di pagine web (ad esempio, [Project Gutenberg](https://www.gutenberg.org/files/12242/12242-h/12242-h.htm)) utilizzando strumenti come [Scrapy](https://scrapy.org/).
+ * [`Pulizia dei Dati`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#clean-the-data) - spiega come il testo può essere formattato, sanitizzato e semplificato utilizzando strumenti di base come Visual Studio Code e Microsoft Excel.
+ * [`Analisi dei Dati`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#working-with-the-data-in-a-notebook) - spiega come possiamo ora importare il dataset in "Notebooks" per l'analisi utilizzando pacchetti Python (come pandas, numpy e matplotlib) per organizzare e visualizzare i dati.
  * [`Analisi del Sentimento`](https://gist.github.com/jlooper/ce4d102efd057137bc000db796bfd671#sentiment-analysis-using-cognitive-services) - spiega come possiamo integrare servizi cloud come Text Analytics, utilizzando strumenti low-code come [Power Automate](https://flow.microsoft.com/en-us/) per flussi di lavoro automatizzati di elaborazione dei dati.
 
-Seguendo questo flusso di lavoro, possiamo esplorare gli impatti stagionali sul sentimento delle poesie e aiutarci a formare le nostre prospettive sull'autore. Provalo tu stesso - poi estendi il notebook per porre altre domande o visualizzare i dati in modi nuovi!
+Seguendo questo workflow, possiamo esplorare gli impatti stagionali sul sentimento delle poesie e aiutarci a formare le nostre prospettive sull'autore. Provalo tu stesso - poi estendi il notebook per porre altre domande o visualizzare i dati in nuovi modi!
 
 > Puoi utilizzare alcuni degli strumenti nel [Digital Humanities toolkit](https://github.com/Digital-Humanities-Toolkit) per perseguire queste linee di indagine.
 
-## Scienza dei Dati + Sostenibilità
+## Data Science + Sostenibilità
 
 | ![ Sketchnote di [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-Sustainability.png) |
 | :---------------------------------------------------------------------------------------------------------------: |
-|              Scienza dei Dati & Sostenibilità - _Sketchnote di [@nitya](https://twitter.com/nitya)_              |
+|              Data Science & Sostenibilità - _Sketchnote di [@nitya](https://twitter.com/nitya)_              |
 
-L'[Agenda 2030 per lo Sviluppo Sostenibile](https://sdgs.un.org/2030agenda) - adottata da tutti i membri delle Nazioni Unite nel 2015 - identifica 17 obiettivi, tra cui quelli che si concentrano su **Proteggere il Pianeta** dal degrado e dall'impatto dei cambiamenti climatici. L'iniziativa [Microsoft Sustainability](https://www.microsoft.com/en-us/sustainability) supporta questi obiettivi esplorando modi in cui le soluzioni tecnologiche possono sostenere e costruire futuri più sostenibili con un [focus su 4 obiettivi](https://dev.to/azure/a-visual-guide-to-sustainable-software-engineering-53hh) - essere carbon negative, water positive, zero waste e biodiversi entro il 2030.
+L'[Agenda 2030 per lo Sviluppo Sostenibile](https://sdgs.un.org/2030agenda) - adottata da tutti i membri delle Nazioni Unite nel 2015 - identifica 17 obiettivi, inclusi quelli che si concentrano su **Proteggere il Pianeta** dalla degradazione e dall'impatto del cambiamento climatico. L'iniziativa [Microsoft Sustainability](https://www.microsoft.com/en-us/sustainability) supporta questi obiettivi esplorando modi in cui le soluzioni tecnologiche possono sostenere e costruire futuri più sostenibili con un [focus su 4 obiettivi](https://dev.to/azure/a-visual-guide-to-sustainable-software-engineering-53hh) - essere carbon negative, water positive, zero waste e bio-diverse entro il 2030.
 
 Affrontare queste sfide in modo scalabile e tempestivo richiede un pensiero su scala cloud - e dati su larga scala. L'iniziativa [Planetary Computer](https://planetarycomputer.microsoft.com/) fornisce 4 componenti per aiutare i data scientist e gli sviluppatori in questo sforzo:
 
  * [Catalogo Dati](https://planetarycomputer.microsoft.com/catalog) - con petabyte di dati sui sistemi terrestri (gratuiti e ospitati su Azure).
- * [Planetary API](https://planetarycomputer.microsoft.com/docs/reference/stac/) - per aiutare gli utenti a cercare dati rilevanti nello spazio e nel tempo.
+ * [API Planetary](https://planetarycomputer.microsoft.com/docs/reference/stac/) - per aiutare gli utenti a cercare dati rilevanti nello spazio e nel tempo.
  * [Hub](https://planetarycomputer.microsoft.com/docs/overview/environment/) - ambiente gestito per gli scienziati per elaborare enormi dataset geospaziali.
- * [Applicazioni](https://planetarycomputer.microsoft.com/applications) - mostra casi d'uso e strumenti per intuizioni sulla sostenibilità.
+ * [Applicazioni](https://planetarycomputer.microsoft.com/applications) - mostrano casi d'uso e strumenti per intuizioni sulla sostenibilità.
 **Il progetto Planetary Computer è attualmente in anteprima (a partire da settembre 2021)** - ecco come puoi iniziare a contribuire a soluzioni sostenibili utilizzando la data science.
 
 * [Richiedi l'accesso](https://planetarycomputer.microsoft.com/account/request) per iniziare l'esplorazione e connetterti con altri utenti.
-* [Esplora la documentazione](https://planetarycomputer.microsoft.com/docs/overview/about) per comprendere i dataset e le API supportate.
+* [Esplora la documentazione](https://planetarycomputer.microsoft.com/docs/overview/about) per comprendere i dataset e le API supportati.
 * Esplora applicazioni come [Ecosystem Monitoring](https://analytics-lab.org/ecosystemmonitoring/) per trovare ispirazione su idee applicative.
 
-Pensa a come puoi utilizzare la visualizzazione dei dati per evidenziare o amplificare intuizioni rilevanti su temi come il cambiamento climatico e la deforestazione. Oppure considera come queste intuizioni possano essere utilizzate per creare nuove esperienze utente che motivino cambiamenti comportamentali verso uno stile di vita più sostenibile.
+Pensa a come puoi utilizzare la visualizzazione dei dati per rivelare o amplificare intuizioni rilevanti su temi come il cambiamento climatico e la deforestazione. Oppure considera come queste intuizioni possano essere utilizzate per creare nuove esperienze utente che motivino cambiamenti comportamentali per uno stile di vita più sostenibile.
 
 ## Data Science + Studenti
 
-Abbiamo parlato di applicazioni reali nell'industria e nella ricerca, ed esplorato esempi di applicazioni di data science nelle discipline umanistiche digitali e nella sostenibilità. Quindi, come puoi sviluppare le tue competenze e condividere la tua esperienza come principianti nella data science?
+Abbiamo parlato di applicazioni reali nell'industria e nella ricerca, ed esplorato esempi di applicazioni di data science nelle discipline umanistiche digitali e nella sostenibilità. Quindi, come puoi sviluppare le tue competenze e condividere la tua esperienza come principiante in data science?
 
 Ecco alcuni esempi di progetti di data science per studenti che possono ispirarti.
 
@@ -141,9 +141,10 @@ Cerca articoli che raccomandano progetti di data science adatti ai principianti 
 
 Vuoi esplorare altri casi d'uso? Ecco alcuni articoli rilevanti:
  * [17 Applicazioni ed esempi di Data Science](https://builtin.com/data-science/data-science-applications-examples) - Luglio 2021
- * [11 Applicazioni straordinarie della Data Science nel mondo reale](https://myblindbird.com/data-science-applications-real-world/) - Maggio 2021
+ * [11 Straordinarie applicazioni di Data Science nel mondo reale](https://myblindbird.com/data-science-applications-real-world/) - Maggio 2021
  * [Data Science nel mondo reale](https://towardsdatascience.com/data-science-in-the-real-world/home) - Raccolta di articoli
- * Data Science in: [Educazione](https://data-flair.training/blogs/data-science-in-education/), [Agricoltura](https://data-flair.training/blogs/data-science-in-agriculture/), [Finanza](https://data-flair.training/blogs/data-science-in-finance/), [Cinema](https://data-flair.training/blogs/data-science-at-movies/) e altro.
+ * [12 Applicazioni di Data Science nel mondo reale con esempi](https://www.scaler.com/blog/data-science-applications/) - Maggio 2024
+ * Data Science in: [Educazione](https://data-flair.training/blogs/data-science-in-education/), [Agricoltura](https://data-flair.training/blogs/data-science-in-agriculture/), [Finanza](https://data-flair.training/blogs/data-science-in-finance/), [Cinema](https://data-flair.training/blogs/data-science-at-movies/), [Sanità](https://onlinedegrees.sandiego.edu/data-science-health-care/) e altro.
 
 ## Compito
 
