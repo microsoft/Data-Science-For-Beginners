@@ -4,7 +4,7 @@
 |:---:|
 |Data Preparation - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [Pre-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/14)
+## [Pre-Lecture Quiz](https://ff-quizzes.netlify.app/en/ds/quiz/14)
 
 
 
@@ -317,7 +317,7 @@ letters	numbers
 
 All of the discussed materials are provided as a [Jupyter Notebook](https://github.com/microsoft/Data-Science-For-Beginners/blob/main/2-Working-With-Data/08-data-preparation/notebook.ipynb). Additionally, there are exercises present after each section, give them a try!
 
-## [Post-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/15)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/15)
 
 
 

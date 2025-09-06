@@ -9,7 +9,7 @@
 	},
 	"dependencies": {
 		"core-js": "^3.6.5",
-		"vue": "^2.6.11",
+		"vue": "^3.5.16",
 		"vue-d3-network": "0.1.28"
 	},
 	"devDependencies": {
@@ -17,8 +17,8 @@
 		"@vue/cli-plugin-eslint": "~5.0.8",
 		"@vue/cli-service": "~5.0.8",
 		"babel-eslint": "^10.1.0",
-		"eslint": "^6.7.2",
-		"eslint-plugin-vue": "^6.2.2",
+		"eslint": "^9.34.0",
+		"eslint-plugin-vue": "^10.4.0",
 		"vue-template-compiler": "^2.6.11"
 	},
 	"eslintConfig": {

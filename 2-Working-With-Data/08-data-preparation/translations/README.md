@@ -1,1 +1,0 @@
-<!--add translations to this folder-->
