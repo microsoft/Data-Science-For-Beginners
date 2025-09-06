@@ -56,7 +56,7 @@ To help us understand the distribution of data, it is helpful to talk about **qu
 
 Graphically we can represent relationship between median and quartiles in a diagram called the **box plot**:
 
-<img src="images/boxplot_explanation.png" width="50%"/>
+<img src="images/boxplot_explanation.png" alt="Box Plot Explanation" width="50%">
 
 Here we also compute **inter-quartile range** IQR=Q3-Q1, and so-called **outliers** - values, that lie outside the boundaries [Q1-1.5*IQR,Q3+1.5*IQR].
 
