@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
-  "translation_date": "2025-09-05T07:37:53+00:00",
+  "original_hash": "472d3fab1c5be50f387336e7a686dbe1",
+  "translation_date": "2025-09-06T10:04:58+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "en"
 }
@@ -37,76 +37,76 @@ Table of contents:
   - [Review & Self Study](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Assignment](../../../../5-Data-Science-In-Cloud/19-Azure)
 
-## [Pre-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/36)
+## [Pre-Lecture Quiz](https://ff-quizzes.netlify.app/en/ds/quiz/36)
 
 ## 1. Introduction
 
 ### 1.1 What is Azure ML SDK?
 
-Data scientists and AI developers use the Azure Machine Learning SDK to create and manage machine learning workflows with the Azure Machine Learning service. You can interact with the service in any Python environment, such as Jupyter Notebooks, Visual Studio Code, or your preferred Python IDE.
+Data scientists and AI developers use the Azure Machine Learning SDK to design and execute machine learning workflows with the Azure Machine Learning service. You can interact with the service in any Python environment, such as Jupyter Notebooks, Visual Studio Code, or your preferred Python IDE.
 
 Key features of the SDK include:
 
 - Explore, prepare, and manage the lifecycle of datasets used in machine learning experiments.
 - Manage cloud resources for monitoring, logging, and organizing machine learning experiments.
-- Train models locally or using cloud resources, including GPU-accelerated training.
-- Use automated machine learning, which takes configuration parameters and training data, and automatically tests algorithms and hyperparameter settings to find the best model for predictions.
-- Deploy web services to turn trained models into RESTful services that can be integrated into applications.
+- Train models locally or using cloud resources, including GPU-accelerated model training.
+- Use automated machine learning, which takes configuration parameters and training data, and automatically iterates through algorithms and hyperparameter settings to find the best model for predictions.
+- Deploy web services to transform trained models into RESTful services that can be integrated into any application.
 
 [Learn more about the Azure Machine Learning SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
-In the [previous lesson](../18-Low-Code/README.md), we explored how to train, deploy, and use a model in a low-code/no-code approach. We used the Heart Failure dataset to create a heart failure prediction model. In this lesson, we will achieve the same goal but using the Azure Machine Learning SDK.
+In the [previous lesson](../18-Low-Code/README.md), we explored how to train, deploy, and consume a model using a Low code/No code approach. We used the Heart Failure dataset to create a heart failure prediction model. In this lesson, we will achieve the same goal but using the Azure Machine Learning SDK.
 
-![project-schema](../../../../5-Data-Science-In-Cloud/19-Azure/images/project-schema.PNG)
+![project-schema](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.en.png)
 
 ### 1.2 Heart failure prediction project and dataset introduction
 
-Refer to [this section](../18-Low-Code/README.md) for an introduction to the Heart Failure prediction project and dataset.
+Refer [here](../18-Low-Code/README.md) for the introduction to the Heart Failure prediction project and dataset.
 
 ## 2. Training a model with the Azure ML SDK
 ### 2.1 Create an Azure ML workspace
 
 To simplify, we will work in a Jupyter notebook. This assumes you already have a Workspace and a compute instance. If you already have a Workspace, you can skip to section 2.3 Notebook creation.
 
-If not, follow the instructions in the section **2.1 Create an Azure ML workspace** in the [previous lesson](../18-Low-Code/README.md) to set up a workspace.
+If not, follow the instructions in section **2.1 Create an Azure ML workspace** in the [previous lesson](../18-Low-Code/README.md) to create a workspace.
 
 ### 2.2 Create a compute instance
 
-In the [Azure ML workspace](https://ml.azure.com/) created earlier, navigate to the compute menu to view available compute resources.
+In the [Azure ML workspace](https://ml.azure.com/) created earlier, navigate to the compute menu to view the available compute resources.
 
-![compute-instance-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/compute-instance-1.PNG)
+![compute-instance-1](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.en.png)
 
-To create a compute instance for provisioning a Jupyter notebook:
-1. Click the + New button.
+Let’s create a compute instance to host a Jupyter notebook. 
+1. Click the + New button. 
 2. Assign a name to your compute instance.
-3. Select options: CPU or GPU, VM size, and core count.
+3. Select your options: CPU or GPU, VM size, and core count.
 4. Click the Create button.
 
-Congratulations! You've created a compute instance. We'll use this instance to create a Notebook in the [Creating Notebooks section](../../../../5-Data-Science-In-Cloud/19-Azure).
+Congratulations! You’ve created a compute instance. We’ll use this instance to create a Notebook in the [Creating Notebooks section](../../../../5-Data-Science-In-Cloud/19-Azure).
 
 ### 2.3 Loading the Dataset
-If you haven't uploaded the dataset yet, refer to the section **2.3 Loading the Dataset** in the [previous lesson](../18-Low-Code/README.md).
+Refer to the [previous lesson](../18-Low-Code/README.md) under section **2.3 Loading the Dataset** if you haven’t uploaded the dataset yet.
 
 ### 2.4 Creating Notebooks
 
-> **_NOTE:_** For the next step, you can either create a new notebook from scratch or upload the [notebook we created](../../../../5-Data-Science-In-Cloud/19-Azure/notebook.ipynb) to your Azure ML Studio. To upload it, click on the "Notebook" menu and upload the file.
+> **_NOTE:_** For the next step, you can either create a new notebook from scratch or upload the [notebook we created](notebook.ipynb) to your Azure ML Studio. To upload it, simply click on the "Notebook" menu and upload the notebook.
 
-Notebooks are a crucial part of the data science workflow. They can be used for Exploratory Data Analysis (EDA), training models on compute clusters, and deploying endpoints on inference clusters.
+Notebooks are a crucial part of the data science workflow. They can be used for Exploratory Data Analysis (EDA), calling a compute cluster to train a model, or calling an inference cluster to deploy an endpoint.
 
-To create a Notebook, you need a compute node running the Jupyter notebook instance. Return to the [Azure ML workspace](https://ml.azure.com/) and click on Compute instances. In the list, locate the [compute instance created earlier](../../../../5-Data-Science-In-Cloud/19-Azure). 
+To create a Notebook, you need a compute node running the Jupyter notebook instance. Return to the [Azure ML workspace](https://ml.azure.com/) and click on Compute instances. In the list of compute instances, you should see the [compute instance we created earlier](../../../../5-Data-Science-In-Cloud/19-Azure). 
 
-1. In the Applications section, click the Jupyter option. 
-2. Check the "Yes, I understand" box and click Continue.
-![notebook-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-1.PNG)
-3. A new browser tab will open with your Jupyter notebook instance. Click the "New" button to create a notebook.
+1. In the Applications section, click on the Jupyter option. 
+2. Tick the "Yes, I understand" box and click Continue.
+![notebook-1](../../../../translated_images/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.en.png)
+3. This will open a new browser tab with your Jupyter notebook instance. Click the "New" button to create a notebook.
 
-![notebook-2](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-2.PNG)
+![notebook-2](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.en.png)
 
-Now that we have a Notebook, we can begin training the model using the Azure ML SDK.
+Now that we have a Notebook, we can start training the model using the Azure ML SDK.
 
 ### 2.5 Training a model
 
-If you have any doubts, refer to the [Azure ML SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). It contains all the necessary details about the modules we'll use in this lesson.
+If you ever have questions, refer to the [Azure ML SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). It contains all the necessary details about the modules we’ll cover in this lesson.
 
 #### 2.5.1 Setup Workspace, experiment, compute cluster and dataset
 
@@ -124,7 +124,7 @@ from azureml.core import Experiment
 experiment_name = 'aml-experiment'
 experiment = Experiment(ws, experiment_name)
 ```
-To get or create an experiment in a workspace, request the experiment by name. Experiment names must be 3-36 characters long, start with a letter or number, and contain only letters, numbers, underscores, and dashes. If the experiment doesn't exist, a new one is created.
+To get or create an experiment from a workspace, request the experiment using its name. Experiment names must be 3-36 characters, start with a letter or number, and can only contain letters, numbers, underscores, and dashes. If the experiment doesn’t exist in the workspace, a new one is created.
 
 Now, create a compute cluster for training using the following code. Note that this step may take a few minutes. 
 
@@ -145,7 +145,7 @@ cts = ws.compute_targets
 compute_target = cts[aml_name]
 ```
 
-Retrieve the dataset from the workspace using its name:
+Retrieve the dataset from the workspace using its name as follows:
 
 ```python
 dataset = ws.datasets['heart-failure-records']
@@ -156,19 +156,19 @@ df.describe()
 
 Set the AutoML configuration using the [AutoMLConfig class](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
-The documentation lists many parameters you can customize. For this project, we'll use the following:
+As described in the documentation, there are many parameters you can customize. For this project, we’ll use the following:
 
-- `experiment_timeout_minutes`: Maximum time (in minutes) for the experiment to run before stopping automatically.
+- `experiment_timeout_minutes`: Maximum time (in minutes) the experiment can run before stopping automatically.
 - `max_concurrent_iterations`: Maximum number of concurrent training iterations allowed.
-- `primary_metric`: Metric used to evaluate the experiment's progress.
-- `compute_target`: Azure Machine Learning compute target for the experiment.
-- `task`: Type of task (e.g., 'classification', 'regression', or 'forecasting').
-- `training_data`: Training data containing features and a label column (optionally sample weights).
+- `primary_metric`: Metric used to evaluate the experiment’s status.
+- `compute_target`: Azure Machine Learning compute target for running the experiment.
+- `task`: Type of task to run (e.g., 'classification', 'regression', or 'forecasting').
+- `training_data`: Training data for the experiment, including features and a label column (optionally a sample weights column).
 - `label_column_name`: Name of the label column.
 - `path`: Full path to the Azure Machine Learning project folder.
-- `enable_early_stopping`: Whether to stop early if the score doesn't improve.
-- `featurization`: Whether to automate or customize the featurization step.
-- `debug_log`: Log file for debug information.
+- `enable_early_stopping`: Whether to enable early termination if the score doesn’t improve in the short term.
+- `featurization`: Whether to perform automatic featurization or use customized featurization.
+- `debug_log`: Log file for writing debug information.
 
 ```python
 from azureml.train.automl import AutoMLConfig
@@ -192,12 +192,12 @@ automl_config = AutoMLConfig(compute_target=compute_target,
                              **automl_settings
                             )
 ```
-With the configuration set, train the model using the following code. This step may take up to an hour depending on your cluster size.
+Once the configuration is set, train the model using the following code. This step may take up to an hour depending on your cluster size.
 
 ```python
 remote_run = experiment.submit(automl_config)
 ```
-Use the RunDetails widget to display the experiment progress.
+Use the RunDetails widget to display the different experiments.
 ```python
 from azureml.widgets import RunDetails
 RunDetails(remote_run).show()
@@ -206,12 +206,12 @@ RunDetails(remote_run).show()
 
 ### 3.1 Saving the best model
 
-The `remote_run` object is of type [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). It has a `get_output()` method that returns the best run and its fitted model.
+The `remote_run` is an object of type [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). This object has a `get_output()` method that returns the best run and its corresponding fitted model.
 
 ```python
 best_run, fitted_model = remote_run.get_output()
 ```
-View the parameters of the best model by printing `fitted_model`. Check its properties using the [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) method.
+View the parameters used for the best model by printing the fitted_model, and check the properties of the best model using the [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) method.
 
 ```python
 best_run.get_properties()
@@ -230,7 +230,7 @@ model = best_run.register_model(model_name = model_name,
 ```
 ### 3.2 Model Deployment
 
-After saving the best model, deploy it using the [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109) class. InferenceConfig specifies settings for a custom environment used for deployment. The [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) class represents a machine learning model deployed as a web service endpoint on Azure Container Instances. The deployed service is a load-balanced HTTP endpoint with a REST API. You can send data to this API and receive predictions from the model.
+After saving the best model, deploy it using the [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109) class. InferenceConfig specifies the configuration settings for a custom environment used for deployment. The [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) class represents a machine learning model deployed as a web service endpoint on Azure Container Instances. The deployed service is a load-balanced HTTP endpoint with a REST API. You can send data to this API and receive predictions from the model.
 
 Deploy the model using the [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) method.
 
@@ -292,11 +292,11 @@ Congratulations! You have successfully used the model deployed and trained on Az
 
 ## 🚀 Challenge
 
-There are many other things you can do with the SDK, but unfortunately, we can't cover them all in this lesson. The good news is that learning how to navigate the SDK documentation can help you explore further on your own. Check out the Azure ML SDK documentation and look for the `Pipeline` class, which allows you to create pipelines. A pipeline is a sequence of steps that can be executed as a workflow.
+There are many other things you can do with the SDK, but unfortunately, we can't cover them all in this lesson. The good news is that learning how to navigate the SDK documentation can help you explore further on your own. Check out the Azure ML SDK documentation and look for the `Pipeline` class, which allows you to create pipelines. A Pipeline is a sequence of steps that can be executed as a workflow.
 
 **HINT:** Visit the [SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) and use keywords like "Pipeline" in the search bar. You should find the `azureml.pipeline.core.Pipeline` class in the search results.
 
-## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/37)
 
 ## Review & Self Study
 
