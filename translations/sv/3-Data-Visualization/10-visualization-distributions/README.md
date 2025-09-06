@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "02ce904bc1e2bfabb7dc05c25aae375c",
-  "translation_date": "2025-09-04T19:05:38+00:00",
+  "original_hash": "80a20467e046d312809d008395051fc7",
+  "translation_date": "2025-09-05T21:50:11+00:00",
   "source_file": "3-Data-Visualization/10-visualization-distributions/README.md",
   "language_code": "sv"
 }
@@ -15,10 +15,10 @@ CO_OP_TRANSLATOR_METADATA:
 
 I den föregående lektionen lärde du dig några intressanta fakta om en dataset om fåglar i Minnesota. Du hittade felaktiga data genom att visualisera avvikare och tittade på skillnaderna mellan fågelkategorier baserat på deras maximala längd.
 
-## [Quiz före föreläsningen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/18)
+## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ds/quiz/18)
 ## Utforska datasetet om fåglar
 
-Ett annat sätt att gräva i data är att titta på dess distribution, eller hur data är organiserad längs en axel. Kanske vill du till exempel lära dig om den generella distributionen, för detta dataset, av den maximala vingbredden eller maximala kroppsmassan för fåglarna i Minnesota.
+Ett annat sätt att gräva i data är att titta på dess distribution, eller hur data är organiserad längs en axel. Kanske vill du till exempel lära dig om den generella distributionen, för detta dataset, av den maximala vingbredden eller den maximala kroppsmassan för fåglarna i Minnesota.
 
 Låt oss upptäcka några fakta om distributionerna av data i detta dataset. I filen _notebook.ipynb_ i roten av denna lektionsmapp, importera Pandas, Matplotlib och dina data:
 
@@ -30,12 +30,12 @@ birds.head()
 ```
 
 |      | Namn                         | VetenskapligtNamn      | Kategori              | Ordning      | Familj   | Släkte      | Bevarandestatus    | MinLängd | MaxLängd | MinKroppsmassa | MaxKroppsmassa | MinVingbredd | MaxVingbredd |
-| ---: | :--------------------------- | :--------------------- | :-------------------- | :----------- | :------- | :---------- | :----------------- | --------: | --------: | ----------: | ----------: | ----------: | ----------: |
-|    0 | Svartbukig visselanka         | Dendrocygna autumnalis | Änder/Gäss/Vattenfåglar | Anseriformes | Anatidae | Dendrocygna | LC                 |        47 |        56 |         652 |        1020 |          76 |          94 |
-|    1 | Rödbrun visselanka            | Dendrocygna bicolor    | Änder/Gäss/Vattenfåglar | Anseriformes | Anatidae | Dendrocygna | LC                 |        45 |        53 |         712 |        1050 |          85 |          93 |
-|    2 | Snögås                       | Anser caerulescens     | Änder/Gäss/Vattenfåglar | Anseriformes | Anatidae | Anser       | LC                 |        64 |        79 |        2050 |        4050 |         135 |         165 |
-|    3 | Ross' gås                    | Anser rossii           | Änder/Gäss/Vattenfåglar | Anseriformes | Anatidae | Anser       | LC                 |      57.3 |        64 |        1066 |        1567 |         113 |         116 |
-|    4 | Större vitkindad gås          | Anser albifrons        | Änder/Gäss/Vattenfåglar | Anseriformes | Anatidae | Anser       | LC                 |        64 |        81 |        1930 |        3310 |         130 |         165 |
+| ---: | :--------------------------- | :--------------------- | :-------------------- | :----------- | :------- | :---------- | :----------------- | --------: | --------: | -------------: | -------------: | ------------: | ------------: |
+|    0 | Svartbukig visselande anka   | Dendrocygna autumnalis | Ankor/Gäss/Vattenfåglar | Anseriformes | Anatidae | Dendrocygna | LC                 |        47 |        56 |           652  |          1020  |          76   |          94   |
+|    1 | Färgad visselande anka       | Dendrocygna bicolor    | Ankor/Gäss/Vattenfåglar | Anseriformes | Anatidae | Dendrocygna | LC                 |        45 |        53 |           712  |          1050  |          85   |          93   |
+|    2 | Snögås                       | Anser caerulescens     | Ankor/Gäss/Vattenfåglar | Anseriformes | Anatidae | Anser       | LC                 |        64 |        79 |          2050  |          4050  |         135   |         165   |
+|    3 | Ross' gås                    | Anser rossii           | Ankor/Gäss/Vattenfåglar | Anseriformes | Anatidae | Anser       | LC                 |      57.3 |        64 |          1066  |          1567  |         113   |         116   |
+|    4 | Större vitkindad gås         | Anser albifrons        | Ankor/Gäss/Vattenfåglar | Anseriformes | Anatidae | Anser       | LC                 |        64 |        81 |          1930  |          3310  |         130   |         165   |
 
 Generellt kan du snabbt titta på hur data är distribuerad genom att använda ett spridningsdiagram, som vi gjorde i den föregående lektionen:
 
@@ -48,19 +48,19 @@ plt.xlabel('Max Length')
 
 plt.show()
 ```
-![max längd per ordning](../../../../translated_images/scatter-wb.9d98b0ed7f0388af979441853361a11df5f518f5307938a503ca7913e986111b.sv.png)
+![max längd per ordning](../../../../3-Data-Visualization/10-visualization-distributions/images/scatter-wb.png)
 
 Detta ger en översikt över den generella distributionen av kroppslängd per fågelordning, men det är inte det optimala sättet att visa verkliga distributioner. Den uppgiften hanteras vanligtvis genom att skapa ett histogram.
 
 ## Arbeta med histogram
 
-Matplotlib erbjuder mycket bra sätt att visualisera datadistribution med hjälp av histogram. Denna typ av diagram liknar ett stapeldiagram där distributionen kan ses via en uppgång och nedgång av staplarna. För att bygga ett histogram behöver du numeriska data. För att bygga ett histogram kan du plotta ett diagram och definiera typen som 'hist' för histogram. Detta diagram visar distributionen av MaxKroppsmassa för hela datasetets numeriska data. Genom att dela upp datamängden i mindre fack kan det visa distributionen av datavärdena:
+Matplotlib erbjuder mycket bra sätt att visualisera datadistribution med hjälp av histogram. Denna typ av diagram liknar ett stapeldiagram där distributionen kan ses via en uppgång och nedgång av staplarna. För att bygga ett histogram behöver du numeriska data. För att skapa ett histogram kan du plotta ett diagram och definiera typen som 'hist' för histogram. Detta diagram visar distributionen av MaxKroppsmassa för hela datasetets numeriska data. Genom att dela upp datamängden i mindre fack kan det visa distributionen av datavärden:
 
 ```python
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
 plt.show()
 ```
-![distribution över hela datasetet](../../../../translated_images/dist1-wb.0d0cac82e2974fbbec635826fefead401af795f82e2279e2e2678bf2c117d827.sv.png)
+![distribution över hela datasetet](../../../../3-Data-Visualization/10-visualization-distributions/images/dist1-wb.png)
 
 Som du kan se, faller de flesta av de 400+ fåglarna i detta dataset inom intervallet under 2000 för deras Max Kroppsmassa. Få mer insikt i data genom att ändra `bins`-parametern till ett högre nummer, något som 30:
 
@@ -68,9 +68,9 @@ Som du kan se, faller de flesta av de 400+ fåglarna i detta dataset inom interv
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 30, figsize = (12,12))
 plt.show()
 ```
-![distribution över hela datasetet med större bins-param](../../../../translated_images/dist2-wb.2c0a7a3499b2fbf561e9f93b69f265dfc538dc78f6de15088ba84a88152e26ba.sv.png)
+![distribution över hela datasetet med större bins-param](../../../../3-Data-Visualization/10-visualization-distributions/images/dist2-wb.png)
 
-Detta diagram visar distributionen på ett lite mer detaljerat sätt. Ett diagram som är mindre snedvridet åt vänster kan skapas genom att säkerställa att du endast väljer data inom ett visst intervall:
+Detta diagram visar distributionen på ett lite mer detaljerat sätt. Ett diagram som är mindre snedvridet åt vänster kan skapas genom att säkerställa att du endast väljer data inom ett givet intervall:
 
 Filtrera dina data för att få endast de fåglar vars kroppsmassa är under 60, och visa 40 `bins`:
 
@@ -79,7 +79,7 @@ filteredBirds = birds[(birds['MaxBodyMass'] > 1) & (birds['MaxBodyMass'] < 60)]
 filteredBirds['MaxBodyMass'].plot(kind = 'hist',bins = 40,figsize = (12,12))
 plt.show()     
 ```
-![filtrerat histogram](../../../../translated_images/dist3-wb.64b88db7f9780200bd486a2c2a3252548dd439672dbd3f778193db7f654b100c.sv.png)
+![filtrerat histogram](../../../../3-Data-Visualization/10-visualization-distributions/images/dist3-wb.png)
 
 ✅ Prova några andra filter och datapunkter. För att se den fullständiga distributionen av data, ta bort `['MaxBodyMass']`-filtret för att visa märkta distributioner.
 
@@ -96,10 +96,10 @@ hist = ax.hist2d(x, y)
 ```
 Det verkar finnas en förväntad korrelation mellan dessa två element längs en förväntad axel, med en särskilt stark konvergenspunkt:
 
-![2D-diagram](../../../../translated_images/2D-wb.ae22fdd33936507a41e3af22e11e4903b04a9be973b23a4e05214efaccfd66c8.sv.png)
+![2D-diagram](../../../../3-Data-Visualization/10-visualization-distributions/images/2D-wb.png)
 
 Histogram fungerar bra som standard för numeriska data. Vad händer om du behöver se distributioner enligt textdata? 
-## Utforska datasetet för distributioner med hjälp av textdata 
+## Utforska datasetet för distributioner med textdata 
 
 Detta dataset innehåller också bra information om fågelkategorin och dess släkte, art och familj samt dess bevarandestatus. Låt oss gräva i denna bevarandestatusinformation. Vad är distributionen av fåglar enligt deras bevarandestatus?
 
@@ -112,7 +112,7 @@ Detta dataset innehåller också bra information om fågelkategorin och dess sl�
 > - NT: Nära hotad
 > - VU: Sårbar
 
-Dessa är textbaserade värden, så du måste göra en transformering för att skapa ett histogram. Använd dataframe `filteredBirds` för att visa dess bevarandestatus tillsammans med dess Minsta Vingbredd. Vad ser du?
+Dessa är textbaserade värden, så du måste göra en transformering för att skapa ett histogram. Använd dataframe `filteredBirds` för att visa dess bevarandestatus tillsammans med dess MinVingbredd. Vad ser du?
 
 ```python
 x1 = filteredBirds.loc[filteredBirds.ConservationStatus=='EX', 'MinWingspan']
@@ -135,7 +135,7 @@ plt.gca().set(title='Conservation Status', ylabel='Min Wingspan')
 plt.legend();
 ```
 
-![vingbredd och bevarandestatus](../../../../translated_images/histogram-conservation-wb.3c40450eb072c14de7a1a3ec5c0fcba4995531024760741b392911b567fd8b70.sv.png)
+![vingbredd och bevarandestatus](../../../../3-Data-Visualization/10-visualization-distributions/images/histogram-conservation-wb.png)
 
 Det verkar inte finnas någon bra korrelation mellan minsta vingbredd och bevarandestatus. Testa andra element i datasetet med denna metod. Du kan också prova olika filter. Hittar du någon korrelation?
 
@@ -153,17 +153,17 @@ import matplotlib.pyplot as plt
 sns.kdeplot(filteredBirds['MinWingspan'])
 plt.show()
 ```
-![Täthetsdiagram](../../../../translated_images/density1.8801043bd4af2567b0f706332b5853c7614e5e4b81b457acc27eb4e092a65cbd.sv.png)
+![Täthetsdiagram](../../../../3-Data-Visualization/10-visualization-distributions/images/density1.png)
 
-Du kan se hur diagrammet speglar det tidigare för Minsta Vingbredd-data; det är bara lite smidigare. Enligt Seaborns dokumentation, "Jämfört med ett histogram kan KDE producera ett diagram som är mindre rörigt och mer tolkningsbart, särskilt när man ritar flera distributioner. Men det har potential att introducera förvrängningar om den underliggande distributionen är begränsad eller inte smidig. Liksom ett histogram beror kvaliteten på representationen också på valet av bra utjämningsparametrar." [källa](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Med andra ord, avvikare kommer som alltid att få dina diagram att bete sig dåligt.
+Du kan se hur diagrammet ekar det tidigare för MinVingbredd-data; det är bara lite smidigare. Enligt Seaborns dokumentation, "Jämfört med ett histogram kan KDE producera ett diagram som är mindre rörigt och mer tolkningsbart, särskilt när man ritar flera distributioner. Men det har potential att introducera förvrängningar om den underliggande distributionen är begränsad eller inte smidig. Liksom ett histogram beror kvaliteten på representationen också på valet av bra utjämningsparametrar." [källa](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Med andra ord, avvikare kommer som alltid att få dina diagram att bete sig dåligt.
 
-Om du ville återbesöka den hackiga MaxKroppsmassa-linjen i det andra diagrammet du byggde, kunde du jämna ut den mycket väl genom att återskapa den med denna metod:
+Om du ville återbesöka den hackiga MaxBodyMass-linjen i det andra diagrammet du byggde, kunde du jämna ut den mycket väl genom att återskapa den med denna metod:
 
 ```python
 sns.kdeplot(filteredBirds['MaxBodyMass'])
 plt.show()
 ```
-![smidig kroppsmassa-linje](../../../../translated_images/density2.8e7647257060ff544a1aaded57e8dd1887586bfe340139e9b77ac1e5287f7977.sv.png)
+![smidig kroppsmassa-linje](../../../../3-Data-Visualization/10-visualization-distributions/images/density2.png)
 
 Om du ville ha en smidig, men inte för smidig linje, redigera `bw_adjust`-parametern: 
 
@@ -171,11 +171,11 @@ Om du ville ha en smidig, men inte för smidig linje, redigera `bw_adjust`-param
 sns.kdeplot(filteredBirds['MaxBodyMass'], bw_adjust=.2)
 plt.show()
 ```
-![mindre smidig kroppsmassa-linje](../../../../translated_images/density3.84ae27da82f31e6b83ad977646f029a1d21186574d7581facd70123b3eb257ee.sv.png)
+![mindre smidig kroppsmassa-linje](../../../../3-Data-Visualization/10-visualization-distributions/images/density3.png)
 
 ✅ Läs om de parametrar som finns tillgängliga för denna typ av diagram och experimentera!
 
-Denna typ av diagram erbjuder vackert förklarande visualiseringar. Med några få kodrader kan du till exempel visa tätheten av maximal kroppsmassa per fågelordning:
+Denna typ av diagram erbjuder vackert förklarande visualiseringar. Med några få kodrader kan du till exempel visa max kroppsmassa-täthet per fågelordning:
 
 ```python
 sns.kdeplot(
@@ -185,7 +185,7 @@ sns.kdeplot(
 )
 ```
 
-![kroppsmassa per ordning](../../../../translated_images/density4.e9d6c033f15c500fd33df94cb592b9f5cf1ed2a3d213c448a3f9e97ba39573ce.sv.png)
+![kroppsmassa per ordning](../../../../3-Data-Visualization/10-visualization-distributions/images/density4.png)
 
 Du kan också kartlägga tätheten av flera variabler i ett diagram. Testa MaxLängd och MinLängd för en fågel jämfört med deras bevarandestatus:
 
@@ -193,15 +193,15 @@ Du kan också kartlägga tätheten av flera variabler i ett diagram. Testa MaxL�
 sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationStatus")
 ```
 
-![flera tätheter, överlagrade](../../../../translated_images/multi.56548caa9eae8d0fd9012a8586295538c7f4f426e2abc714ba070e2e4b1fc2c1.sv.png)
+![flera tätheter, överlagrade](../../../../3-Data-Visualization/10-visualization-distributions/images/multi.png)
 
 Kanske är det värt att undersöka om klustret av "Sårbara" fåglar enligt deras längder är meningsfullt eller inte.
 
 ## 🚀 Utmaning
 
-Histogram är en mer sofistikerad typ av diagram än grundläggande spridningsdiagram, stapeldiagram eller linjediagram. Gör en sökning på internet för att hitta bra exempel på användningen av histogram. Hur används de, vad demonstrerar de, och inom vilka områden eller forskningsfält tenderar de att användas?
+Histogram är en mer sofistikerad typ av diagram än grundläggande spridningsdiagram, stapeldiagram eller linjediagram. Gör en sökning på internet för att hitta bra exempel på användningen av histogram. Hur används de, vad visar de och inom vilka områden eller forskningsfält tenderar de att användas?
 
-## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ds/)
+## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ds/quiz/19)
 
 ## Granskning & Självstudier
 
@@ -214,4 +214,4 @@ I denna lektion använde du Matplotlib och började arbeta med Seaborn för att 
 ---
 
 **Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör du vara medveten om att automatiserade översättningar kan innehålla fel eller inexaktheter. Det ursprungliga dokumentet på dess originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.
+Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör du vara medveten om att automatiserade översättningar kan innehålla fel eller felaktigheter. Det ursprungliga dokumentet på dess originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.

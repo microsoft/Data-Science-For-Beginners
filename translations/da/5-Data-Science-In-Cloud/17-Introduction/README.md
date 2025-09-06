@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "6a0556b17de4c8d1a9470b02247b01d4",
-  "translation_date": "2025-09-04T19:09:44+00:00",
+  "original_hash": "5f8e7cdefa096664ae86f795be571580",
+  "translation_date": "2025-09-05T21:56:30+00:00",
   "source_file": "5-Data-Science-In-Cloud/17-Introduction/README.md",
   "language_code": "da"
 }
@@ -13,39 +13,38 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Data Science i Skyen: Introduktion - _Sketchnote af [@nitya](https://twitter.com/nitya)_ |
 
+I denne lektion vil du lære de grundlæggende principper for skyen, hvorfor det kan være interessant for dig at bruge skytjenester til at køre dine data science-projekter, og vi vil se på nogle eksempler på data science-projekter, der køres i skyen.
 
-I denne lektion vil du lære de grundlæggende principper for skyen, hvorfor det kan være interessant for dig at bruge skytjenester til at køre dine data science-projekter, og vi vil se på nogle eksempler på data science-projekter, der kører i skyen. 
+## [Quiz før lektionen](https://ff-quizzes.netlify.app/en/ds/quiz/32)
 
-## [Quiz før lektionen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/32)
-
-## Hvad er skyen?
+## Hvad er Skyen?
 
 Skyen, eller Cloud Computing, er levering af en bred vifte af betalingsbaserede computing-tjenester, der er hostet på en infrastruktur via internettet. Tjenesterne inkluderer løsninger som lagring, databaser, netværk, software, analyse og intelligente tjenester.
 
 Vi skelner normalt mellem offentlig, privat og hybrid sky som følger:
 
 * Offentlig sky: En offentlig sky ejes og drives af en tredjeparts skytjenesteudbyder, som leverer sine computing-ressourcer via internettet til offentligheden.
-* Privat sky: Henviser til computing-ressourcer, der udelukkende bruges af en enkelt virksomhed eller organisation, med tjenester og en infrastruktur, der vedligeholdes på et privat netværk.
+* Privat sky: Henviser til skytjenester, der udelukkende bruges af en enkelt virksomhed eller organisation, med tjenester og en infrastruktur, der vedligeholdes på et privat netværk.
 * Hybrid sky: Hybrid skyen er et system, der kombinerer offentlige og private skyer. Brugere vælger et datacenter på stedet, mens de tillader data og applikationer at køre på en eller flere offentlige skyer.
 
 De fleste skytjenester falder ind under tre kategorier: Infrastruktur som en tjeneste (IaaS), Platform som en tjeneste (PaaS) og Software som en tjeneste (SaaS).
 
 * Infrastruktur som en tjeneste (IaaS): Brugere lejer en IT-infrastruktur såsom servere og virtuelle maskiner (VM'er), lagring, netværk, operativsystemer.
 * Platform som en tjeneste (PaaS): Brugere lejer et miljø til udvikling, test, levering og styring af softwareapplikationer. Brugere behøver ikke bekymre sig om opsætning eller styring af den underliggende infrastruktur af servere, lagring, netværk og databaser, der er nødvendige for udvikling.
-* Software som en tjeneste (SaaS): Brugere får adgang til softwareapplikationer via internettet, efter behov og typisk på abonnementsbasis. Brugere behøver ikke bekymre sig om hosting og styring af softwareapplikationen, den underliggende infrastruktur eller vedligeholdelse som softwareopdateringer og sikkerhedspatching.
+* Software som en tjeneste (SaaS): Brugere får adgang til softwareapplikationer via internettet, efter behov og typisk på abonnementsbasis. Brugere behøver ikke bekymre sig om hosting og styring af softwareapplikationen, den underliggende infrastruktur eller vedligeholdelse, som softwareopdateringer og sikkerhedspatching.
 
 Nogle af de største skyudbydere er Amazon Web Services, Google Cloud Platform og Microsoft Azure.
 
-## Hvorfor vælge skyen til Data Science?
+## Hvorfor vælge Skyen til Data Science?
 
 Udviklere og IT-professionelle vælger at arbejde med skyen af mange grunde, herunder følgende:
 
 * Innovation: Du kan styrke dine applikationer ved at integrere innovative tjenester, der er skabt af skyudbydere, direkte i dine apps.
 * Fleksibilitet: Du betaler kun for de tjenester, du har brug for, og kan vælge fra et bredt udvalg af tjenester. Du betaler typisk efter forbrug og tilpasser dine tjenester efter dine skiftende behov.
-* Budget: Du behøver ikke foretage indledende investeringer i hardware og software, opsætte og drive datacentre på stedet, og du kan blot betale for det, du bruger.
+* Budget: Du behøver ikke foretage indledende investeringer i hardware og software, opsætning og drift af datacentre på stedet, og du kan blot betale for det, du bruger.
 * Skalerbarhed: Dine ressourcer kan skaleres efter behovene i dit projekt, hvilket betyder, at dine apps kan bruge mere eller mindre computerkraft, lagring og båndbredde ved at tilpasse sig eksterne faktorer på ethvert tidspunkt.
 * Produktivitet: Du kan fokusere på din virksomhed i stedet for at bruge tid på opgaver, der kan håndteres af andre, såsom styring af datacentre.
-* Pålidelighed: Cloud Computing tilbyder flere måder at kontinuerligt sikkerhedskopiere dine data, og du kan opsætte katastrofeberedskabsplaner for at holde din virksomhed og tjenester i gang, selv i krisetider.
+* Pålidelighed: Cloud Computing tilbyder flere måder at kontinuerligt sikkerhedskopiere dine data, og du kan oprette katastrofeberedskabsplaner for at holde din virksomhed og dine tjenester kørende, selv i krisetider.
 * Sikkerhed: Du kan drage fordel af politikker, teknologier og kontroller, der styrker sikkerheden i dit projekt.
 
 Dette er nogle af de mest almindelige grunde til, at folk vælger at bruge skytjenester. Nu hvor vi har en bedre forståelse af, hvad skyen er, og hvad dens vigtigste fordele er, lad os se mere specifikt på arbejdet for dataforskere og udviklere, der arbejder med data, og hvordan skyen kan hjælpe dem med flere udfordringer, de måtte stå overfor:
@@ -102,7 +101,7 @@ Kilder:
 
 ## Quiz efter lektionen
 
-## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ds/)
+## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ds/quiz/33)
 
 ## Opgave
 
@@ -111,4 +110,4 @@ Kilder:
 ---
 
 **Ansvarsfraskrivelse**:  
-Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på at opnå nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi er ikke ansvarlige for eventuelle misforståelser eller fejltolkninger, der måtte opstå som følge af brugen af denne oversættelse.
+Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi er ikke ansvarlige for eventuelle misforståelser eller fejltolkninger, der måtte opstå som følge af brugen af denne oversættelse.

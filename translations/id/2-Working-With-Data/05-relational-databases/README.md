@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "11b166fbcb7eaf82308cdc24b562f687",
-  "translation_date": "2025-09-04T20:33:28+00:00",
+  "original_hash": "9399d7b4767e75068f95ce5c660b285c",
+  "translation_date": "2025-09-05T23:50:48+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "id"
 }
@@ -15,13 +15,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 Kemungkinan besar Anda pernah menggunakan spreadsheet sebelumnya untuk menyimpan informasi. Anda memiliki sekumpulan baris dan kolom, di mana baris berisi informasi (atau data), dan kolom menjelaskan informasi tersebut (kadang disebut metadata). Basis data relasional dibangun berdasarkan prinsip inti ini, yaitu kolom dan baris dalam tabel, yang memungkinkan Anda memiliki informasi yang tersebar di beberapa tabel. Hal ini memungkinkan Anda bekerja dengan data yang lebih kompleks, menghindari duplikasi, dan memiliki fleksibilitas dalam mengeksplorasi data. Mari kita jelajahi konsep-konsep basis data relasional.
 
-## [Kuis Pra-Kuliah](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/8)
+## [Kuis Pra-Kuliah](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
 ## Semuanya Dimulai dengan Tabel
 
 Basis data relasional memiliki inti berupa tabel. Sama seperti spreadsheet, tabel adalah kumpulan kolom dan baris. Baris berisi data atau informasi yang ingin kita gunakan, seperti nama kota atau jumlah curah hujan. Kolom menjelaskan data yang disimpan.
 
-Mari kita mulai eksplorasi dengan membuat tabel untuk menyimpan informasi tentang kota-kota. Kita mungkin memulai dengan nama dan negara mereka. Anda dapat menyimpan ini dalam tabel seperti berikut:
+Mari kita mulai eksplorasi kita dengan membuat tabel untuk menyimpan informasi tentang kota. Kita mungkin memulai dengan nama dan negara mereka. Anda dapat menyimpan ini dalam tabel seperti berikut:
 
 | Kota      | Negara         |
 | --------- | -------------- |
@@ -31,15 +31,15 @@ Mari kita mulai eksplorasi dengan membuat tabel untuk menyimpan informasi tentan
 
 Perhatikan bahwa nama kolom **kota**, **negara**, dan **populasi** menjelaskan data yang disimpan, dan setiap baris memiliki informasi tentang satu kota.
 
-## Kelemahan Pendekatan Tabel Tunggal
+## Kelemahan Pendekatan Satu Tabel
 
 Kemungkinan besar, tabel di atas terlihat cukup familiar bagi Anda. Mari kita mulai menambahkan beberapa data tambahan ke basis data kita yang sedang berkembang - curah hujan tahunan (dalam milimeter). Kita akan fokus pada tahun 2018, 2019, dan 2020. Jika kita menambahkannya untuk Tokyo, mungkin akan terlihat seperti ini:
 
-| Kota   | Negara | Tahun | Jumlah |
-| ------ | ------ | ----- | ------ |
-| Tokyo  | Jepang | 2020  | 1690   |
-| Tokyo  | Jepang | 2019  | 1874   |
-| Tokyo  | Jepang | 2018  | 1445   |
+| Kota   | Negara  | Tahun | Jumlah |
+| ------ | ------- | ----- | ------ |
+| Tokyo  | Jepang  | 2020  | 1690   |
+| Tokyo  | Jepang  | 2019  | 1874   |
+| Tokyo  | Jepang  | 2018  | 1445   |
 
 Apa yang Anda perhatikan tentang tabel kita? Anda mungkin menyadari bahwa kita menduplikasi nama dan negara kota berulang kali. Hal ini dapat memakan banyak ruang penyimpanan, dan sebagian besar tidak diperlukan untuk memiliki banyak salinan. Bagaimanapun, Tokyo hanya memiliki satu nama yang kita minati.
 
@@ -65,7 +65,7 @@ Mari kembali ke data kita dan tentukan bagaimana kita ingin memisahkannya. Kita 
 | Atlanta   | Amerika Serikat|
 | Auckland  | Selandia Baru  |
 
-Namun sebelum kita membuat tabel berikutnya, kita perlu mencari cara untuk mereferensikan setiap kota. Kita membutuhkan semacam pengenal, ID atau (dalam istilah basis data teknis) kunci utama. Kunci utama adalah nilai yang digunakan untuk mengidentifikasi satu baris spesifik dalam tabel. Meskipun ini bisa didasarkan pada nilai itu sendiri (misalnya kita bisa menggunakan nama kota), sebaiknya hampir selalu berupa angka atau pengenal lainnya. Kita tidak ingin ID pernah berubah karena akan merusak hubungan. Dalam kebanyakan kasus, kunci utama atau ID akan berupa angka yang dihasilkan secara otomatis.
+Namun sebelum kita membuat tabel berikutnya, kita perlu mencari cara untuk mereferensikan setiap kota. Kita membutuhkan semacam pengenal, ID atau (dalam istilah basis data teknis) kunci utama. Kunci utama adalah nilai yang digunakan untuk mengidentifikasi satu baris tertentu dalam tabel. Meskipun ini bisa didasarkan pada nilai itu sendiri (kita bisa menggunakan nama kota, misalnya), sebaiknya hampir selalu berupa angka atau pengenal lainnya. Kita tidak ingin ID pernah berubah karena akan merusak hubungan. Dalam kebanyakan kasus, kunci utama atau ID akan berupa angka yang dihasilkan secara otomatis.
 
 > ✅ Kunci utama sering disingkat sebagai PK
 
@@ -77,9 +77,9 @@ Namun sebelum kita membuat tabel berikutnya, kita perlu mencari cara untuk meref
 | 2       | Atlanta   | Amerika Serikat|
 | 3       | Auckland  | Selandia Baru  |
 
-> ✅ Anda akan melihat bahwa kita menggunakan istilah "id" dan "kunci utama" secara bergantian selama pelajaran ini. Konsep-konsep ini berlaku untuk DataFrames, yang akan Anda eksplorasi nanti. DataFrames tidak menggunakan terminologi "kunci utama", namun Anda akan melihat bahwa mereka berperilaku dengan cara yang hampir sama.
+> ✅ Anda akan melihat bahwa kita menggunakan istilah "id" dan "kunci utama" secara bergantian selama pelajaran ini. Konsep-konsep ini berlaku untuk DataFrame, yang akan Anda eksplorasi nanti. DataFrame tidak menggunakan terminologi "kunci utama", namun Anda akan melihat bahwa mereka berperilaku hampir sama.
 
-Dengan tabel kota kita dibuat, mari kita simpan data curah hujan. Alih-alih menduplikasi informasi lengkap tentang kota, kita dapat menggunakan ID. Kita juga harus memastikan tabel yang baru dibuat memiliki kolom *id* juga, karena semua tabel harus memiliki ID atau kunci utama.
+Dengan tabel kota kita dibuat, mari kita simpan data curah hujan. Daripada menduplikasi informasi lengkap tentang kota, kita dapat menggunakan ID. Kita juga harus memastikan tabel yang baru dibuat memiliki kolom *id* juga, karena semua tabel harus memiliki id atau kunci utama.
 
 ### rainfall
 
@@ -95,7 +95,7 @@ Dengan tabel kota kita dibuat, mari kita simpan data curah hujan. Alih-alih mend
 | 8           | 3       | 2019  | 942    |
 | 9           | 3       | 2020  | 1176   |
 
-Perhatikan kolom **city_id** di dalam tabel **rainfall** yang baru dibuat. Kolom ini berisi nilai-nilai yang merujuk pada ID di tabel **cities**. Dalam istilah data relasional teknis, ini disebut **kunci asing**; ini adalah kunci utama dari tabel lain. Anda dapat menganggapnya sebagai referensi atau penunjuk. **city_id** 1 merujuk ke Tokyo.
+Perhatikan kolom **city_id** di dalam tabel **rainfall** yang baru dibuat. Kolom ini berisi nilai-nilai yang merujuk pada ID di tabel **cities**. Dalam istilah data relasional teknis, ini disebut **kunci asing**; ini adalah kunci utama dari tabel lain. Anda dapat menganggapnya sebagai referensi atau pointer. **city_id** 1 merujuk ke Tokyo.
 
 > [!NOTE] Kunci asing sering disingkat sebagai FK
 
@@ -132,9 +132,9 @@ WHERE country = 'New Zealand';
 
 ## Menggabungkan Data
 
-Sampai sekarang kita telah mengambil data dari satu tabel. Sekarang kita ingin menggabungkan data dari **cities** dan **rainfall**. Ini dilakukan dengan *menggabungkan* mereka bersama. Anda akan secara efektif membuat sambungan antara dua tabel, dan mencocokkan nilai-nilai dari kolom dari masing-masing tabel.
+Hingga saat ini, kita telah mengambil data dari satu tabel. Sekarang kita ingin menggabungkan data dari **cities** dan **rainfall**. Ini dilakukan dengan *menggabungkan* mereka bersama. Anda pada dasarnya akan membuat sambungan antara dua tabel, dan mencocokkan nilai-nilai dari kolom dari masing-masing tabel.
 
-Dalam contoh kita, kita akan mencocokkan kolom **city_id** di **rainfall** dengan kolom **city_id** di **cities**. Ini akan mencocokkan nilai curah hujan dengan kota masing-masing. Jenis penggabungan yang akan kita lakukan disebut *inner join*, artinya jika ada baris yang tidak cocok dengan apa pun dari tabel lain, mereka tidak akan ditampilkan. Dalam kasus kita, setiap kota memiliki data curah hujan, jadi semuanya akan ditampilkan.
+Dalam contoh kita, kita akan mencocokkan kolom **city_id** di **rainfall** dengan kolom **city_id** di **cities**. Ini akan mencocokkan nilai curah hujan dengan kota masing-masing. Jenis penggabungan yang akan kita lakukan disebut *inner* join, artinya jika ada baris yang tidak cocok dengan apa pun dari tabel lain, mereka tidak akan ditampilkan. Dalam kasus kita, setiap kota memiliki data curah hujan, jadi semuanya akan ditampilkan.
 
 Mari kita ambil data curah hujan untuk tahun 2019 untuk semua kota kita.
 
@@ -167,7 +167,7 @@ WHERE rainfall.year = 2019
 
 ## Ringkasan
 
-Basis data relasional berpusat pada pembagian informasi di antara beberapa tabel yang kemudian digabungkan kembali untuk ditampilkan dan dianalisis. Ini memberikan tingkat fleksibilitas yang tinggi untuk melakukan perhitungan dan manipulasi data lainnya. Anda telah melihat konsep inti dari basis data relasional, dan bagaimana melakukan penggabungan antara dua tabel.
+Basis data relasional berpusat pada pembagian informasi di antara beberapa tabel yang kemudian digabungkan kembali untuk ditampilkan dan dianalisis. Ini memberikan tingkat fleksibilitas yang tinggi untuk melakukan perhitungan dan memanipulasi data. Anda telah melihat konsep inti dari basis data relasional, dan bagaimana melakukan penggabungan antara dua tabel.
 
 ## 🚀 Tantangan
 
@@ -175,11 +175,11 @@ Ada banyak basis data relasional yang tersedia di internet. Anda dapat mengekspl
 
 ## Kuis Pasca-Kuliah
 
-## [Kuis Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ds/)
+## [Kuis Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ds/quiz/9)
 
 ## Tinjauan & Studi Mandiri
 
-Ada beberapa sumber daya yang tersedia di [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum) untuk melanjutkan eksplorasi Anda tentang konsep SQL dan basis data relasional
+Ada beberapa sumber daya yang tersedia di [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum) untuk melanjutkan eksplorasi Anda tentang konsep SQL dan basis data relasional.
 
 - [Deskripsikan konsep data relasional](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-77958-bethanycheum)
 - [Mulai Query dengan Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-77958-bethanycheum) (Transact-SQL adalah versi SQL)

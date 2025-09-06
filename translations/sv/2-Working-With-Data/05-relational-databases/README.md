@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "11b166fbcb7eaf82308cdc24b562f687",
-  "translation_date": "2025-09-04T18:59:39+00:00",
+  "original_hash": "9399d7b4767e75068f95ce5c660b285c",
+  "translation_date": "2025-09-05T21:44:53+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "sv"
 }
@@ -13,15 +13,15 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Arbeta med data: Relationsdatabaser - _Sketchnote av [@nitya](https://twitter.com/nitya)_ |
 
-Chansen är stor att du tidigare har använt ett kalkylblad för att lagra information. Du hade en uppsättning rader och kolumner, där raderna innehöll informationen (eller datan) och kolumnerna beskrev informationen (ibland kallad metadata). En relationsdatabas bygger på denna grundprincip med kolumner och rader i tabeller, vilket gör det möjligt att sprida information över flera tabeller. Detta gör att du kan arbeta med mer komplex data, undvika duplicering och ha flexibilitet i hur du utforskar datan. Låt oss utforska koncepten kring en relationsdatabas.
+Chansen är stor att du tidigare har använt ett kalkylblad för att lagra information. Du hade en uppsättning rader och kolumner, där raderna innehöll informationen (eller datan) och kolumnerna beskrev informationen (ibland kallad metadata). En relationsdatabas bygger på denna grundprincip med kolumner och rader i tabeller, vilket gör det möjligt att sprida information över flera tabeller. Detta gör det möjligt att arbeta med mer komplex data, undvika duplicering och ha flexibilitet i hur du utforskar datan. Låt oss utforska koncepten kring en relationsdatabas.
 
-## [Quiz före föreläsningen](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/8)
+## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
 ## Allt börjar med tabeller
 
 En relationsdatabas har tabeller som sin kärna. Precis som med kalkylbladet är en tabell en samling av kolumner och rader. Raden innehåller datan eller informationen vi vill arbeta med, såsom namnet på en stad eller mängden nederbörd. Kolumnerna beskriver datan de lagrar.
 
-Låt oss börja vår utforskning genom att skapa en tabell för att lagra information om städer. Vi kan börja med deras namn och land. Du kan lagra detta i en tabell som följer:
+Låt oss börja vår utforskning genom att skapa en tabell för att lagra information om städer. Vi kanske börjar med deras namn och land. Du kan lagra detta i en tabell som följande:
 
 | Stad     | Land          |
 | -------- | ------------- |
@@ -33,10 +33,10 @@ Observera att kolumnnamnen **stad**, **land** och **befolkning** beskriver den d
 
 ## Begränsningar med en enda tabell
 
-Chansen är stor att tabellen ovan känns relativt bekant för dig. Låt oss börja lägga till ytterligare data till vår växande databas - årlig nederbörd (i millimeter). Vi fokuserar på åren 2018, 2019 och 2020. Om vi skulle lägga till det för Tokyo, kan det se ut så här:
+Chansen är stor att tabellen ovan verkar relativt bekant för dig. Låt oss börja lägga till ytterligare data till vår växande databas - årlig nederbörd (i millimeter). Vi fokuserar på åren 2018, 2019 och 2020. Om vi skulle lägga till det för Tokyo, kan det se ut så här:
 
-| Stad  | Land   | År   | Mängd |
-| ----- | ------ | ---- | ----- |
+| Stad  | Land   | År  | Mängd |
+| ----- | ------ | --- | ----- |
 | Tokyo | Japan  | 2020 | 1690  |
 | Tokyo | Japan  | 2019 | 1874  |
 | Tokyo | Japan  | 2018 | 1445  |
@@ -65,7 +65,7 @@ Låt oss återgå till vår data och bestämma hur vi vill dela upp den. Vi vet 
 | Atlanta  | USA           |
 | Auckland | Nya Zeeland   |
 
-Men innan vi skapar nästa tabell, måste vi lista ut hur vi ska referera till varje stad. Vi behöver någon form av identifierare, ID eller (i tekniska databasvillkor) en primärnyckel. En primärnyckel är ett värde som används för att identifiera en specifik rad i en tabell. Även om detta kan baseras på ett värde i sig självt (vi skulle kunna använda stadens namn, till exempel), bör det nästan alltid vara ett nummer eller annan identifierare. Vi vill inte att ID:t någonsin ska ändras eftersom det skulle bryta relationen. I de flesta fall kommer primärnyckeln eller ID:t att vara ett automatiskt genererat nummer.
+Men innan vi skapar nästa tabell, måste vi lista ut hur vi ska referera till varje stad. Vi behöver någon form av identifierare, ID eller (i tekniska databasvillkor) en primärnyckel. En primärnyckel är ett värde som används för att identifiera en specifik rad i en tabell. Även om detta kan baseras på ett värde i sig (vi skulle kunna använda stadens namn, till exempel), bör det nästan alltid vara ett nummer eller annan identifierare. Vi vill inte att ID:t någonsin ska ändras eftersom det skulle bryta relationen. I de flesta fall kommer primärnyckeln eller ID:t att vara ett automatiskt genererat nummer.
 
 > ✅ Primärnyckel förkortas ofta som PK
 
@@ -83,8 +83,8 @@ Med vår stadstabell skapad, låt oss lagra nederbörden. Istället för att dup
 
 ### nederbörd
 
-| nederbörd_id | stad_id | År   | Mängd |
-| ------------ | ------- | ---- | ----- |
+| nederbörd_id | stad_id | År  | Mängd |
+| ------------ | ------- | --- | ----- |
 | 1            | 1       | 2018 | 1445  |
 | 2            | 1       | 2019 | 1874  |
 | 3            | 1       | 2020 | 1690  |
@@ -95,13 +95,13 @@ Med vår stadstabell skapad, låt oss lagra nederbörden. Istället för att dup
 | 8            | 3       | 2019 | 942   |
 | 9            | 3       | 2020 | 1176  |
 
-Observera kolumnen **stad_id** i den nyss skapade tabellen **nederbörd**. Denna kolumn innehåller värden som refererar till ID:n i tabellen **städer**. I tekniska relationsdatatermer kallas detta en **främmande nyckel**; det är en primärnyckel från en annan tabell. Du kan tänka på det som en referens eller pekare. **stad_id** 1 refererar till Tokyo.
+Observera kolumnen **stad_id** i den nyss skapade **nederbörd**-tabellen. Denna kolumn innehåller värden som refererar till ID:n i **städer**-tabellen. I tekniska relationsdatatermer kallas detta en **främmande nyckel**; det är en primärnyckel från en annan tabell. Du kan tänka på det som en referens eller pekare. **stad_id** 1 refererar till Tokyo.
 
 > [!NOTE] Främmande nyckel förkortas ofta som FK
 
 ## Hämta data
 
-Med vår data separerad i två tabeller kanske du undrar hur vi hämtar den. Om vi använder en relationsdatabas som MySQL, SQL Server eller Oracle, kan vi använda ett språk som heter Structured Query Language eller SQL. SQL (ibland uttalat "sequel") är ett standardiserat språk som används för att hämta och ändra data i en relationsdatabas.
+Med vår data separerad i två tabeller kanske du undrar hur vi hämtar den. Om vi använder en relationsdatabas som MySQL, SQL Server eller Oracle, kan vi använda ett språk som kallas Structured Query Language eller SQL. SQL (ibland uttalat "sequel") är ett standardiserat språk som används för att hämta och modifiera data i en relationsdatabas.
 
 För att hämta data använder du kommandot `SELECT`. I grunden **väljer** du de kolumner du vill se **från** tabellen de finns i. Om du ville visa bara namnen på städerna, kan du använda följande:
 
@@ -134,11 +134,11 @@ WHERE country = 'New Zealand';
 
 Hittills har vi hämtat data från en enda tabell. Nu vill vi sammanföra data från både **städer** och **nederbörd**. Detta görs genom att *kombinera* dem. Du skapar i princip en koppling mellan de två tabellerna och matchar värdena från en kolumn i varje tabell.
 
-I vårt exempel kommer vi att matcha kolumnen **stad_id** i **nederbörd** med kolumnen **stad_id** i **städer**. Detta kommer att matcha nederbördsdata med respektive stad. Den typ av kombination vi kommer att utföra kallas en *inner join*, vilket betyder att om några rader inte matchar med något från den andra tabellen kommer de inte att visas. I vårt fall har varje stad nederbörd, så allt kommer att visas.
+I vårt exempel kommer vi att matcha kolumnen **stad_id** i **nederbörd** med kolumnen **stad_id** i **städer**. Detta kommer att matcha nederbördsvärdet med dess respektive stad. Den typ av kombination vi kommer att utföra kallas en *inner join*, vilket betyder att om några rader inte matchar med något från den andra tabellen kommer de inte att visas. I vårt fall har varje stad nederbörd, så allt kommer att visas.
 
 Låt oss hämta nederbörden för 2019 för alla våra städer.
 
-Vi kommer att göra detta i steg. Det första steget är att kombinera datan genom att ange kolumnerna för kopplingen - **stad_id** som vi nämnde tidigare.
+Vi kommer att göra detta i steg. Det första steget är att kombinera datan genom att ange kolumnerna för kopplingen - **stad_id** som vi tidigare nämnt.
 
 ```sql
 SELECT cities.city
@@ -167,7 +167,7 @@ WHERE rainfall.year = 2019
 
 ## Sammanfattning
 
-Relationsdatabaser är centrerade kring att dela upp information mellan flera tabeller som sedan sammanförs för visning och analys. Detta ger en hög grad av flexibilitet för att utföra beräkningar och manipulera data. Du har sett kärnkoncepten för en relationsdatabas och hur man utför en kombination mellan två tabeller.
+Relationsdatabaser är centrerade kring att dela upp information mellan flera tabeller som sedan sammanförs för visning och analys. Detta ger en hög grad av flexibilitet för att utföra beräkningar och på annat sätt manipulera data. Du har sett kärnkoncepten för en relationsdatabas och hur man utför en kombination mellan två tabeller.
 
 ## 🚀 Utmaning
 
@@ -175,7 +175,7 @@ Det finns många relationsdatabaser tillgängliga på internet. Du kan utforska 
 
 ## Quiz efter föreläsningen
 
-## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ds/)
+## [Quiz efter föreläsningen](https://ff-quizzes.netlify.app/en/ds/quiz/9)
 
 ## Granskning & Självstudier
 
@@ -192,4 +192,4 @@ Det finns flera resurser tillgängliga på [Microsoft Learn](https://docs.micros
 ---
 
 **Ansvarsfriskrivning**:  
-Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör du vara medveten om att automatiska översättningar kan innehålla fel eller inexaktheter. Det ursprungliga dokumentet på dess originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.
+Detta dokument har översatts med hjälp av AI-översättningstjänsten [Co-op Translator](https://github.com/Azure/co-op-translator). Även om vi strävar efter noggrannhet, bör du vara medveten om att automatiserade översättningar kan innehålla fel eller felaktigheter. Det ursprungliga dokumentet på dess originalspråk bör betraktas som den auktoritativa källan. För kritisk information rekommenderas professionell mänsklig översättning. Vi ansvarar inte för eventuella missförstånd eller feltolkningar som uppstår vid användning av denna översättning.

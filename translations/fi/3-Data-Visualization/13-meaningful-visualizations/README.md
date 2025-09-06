@@ -1,13 +1,13 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "0b380bb6d34102bb061eb41de23d9834",
-  "translation_date": "2025-09-04T19:43:32+00:00",
+  "original_hash": "cfb068050337a36e348debaa502a24fa",
+  "translation_date": "2025-09-05T22:44:01+00:00",
   "source_file": "3-Data-Visualization/13-meaningful-visualizations/README.md",
   "language_code": "fi"
 }
 -->
-# Merkityksellisten visualisointien luominen
+# Merkityksellisten Visualisointien Luominen
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/13-MeaningfulViz.png)|
 |:---:|
@@ -15,9 +15,9 @@ CO_OP_TRANSLATOR_METADATA:
 
 > "Jos kidutat dataa tarpeeksi kauan, se tunnustaa mitä tahansa" -- [Ronald Coase](https://en.wikiquote.org/wiki/Ronald_Coase)
 
-Yksi data-analyytikon perustaidosta on kyky luoda merkityksellinen datavisualisointi, joka auttaa vastaamaan kysymyksiin. Ennen datan visualisointia on varmistettava, että se on puhdistettu ja valmisteltu, kuten aiemmissa oppitunneissa tehtiin. Tämän jälkeen voit alkaa päättää, miten dataa kannattaa esittää.
+Yksi datatieteilijän perustaidoista on kyky luoda merkityksellinen datavisualisointi, joka auttaa vastaamaan kysymyksiin, joita sinulla saattaa olla. Ennen kuin visualisoit dataasi, sinun on varmistettava, että se on puhdistettu ja valmisteltu, kuten teit aiemmissa oppitunneissa. Tämän jälkeen voit alkaa päättää, miten data esitetään parhaiten.
 
-Tässä oppitunnissa käsitellään:
+Tässä oppitunnissa tarkastelet:
 
 1. Kuinka valita oikea kaaviotyyppi
 2. Kuinka välttää harhaanjohtavia kaavioita
@@ -26,58 +26,58 @@ Tässä oppitunnissa käsitellään:
 5. Kuinka rakentaa animoituja tai 3D-kaavioita
 6. Kuinka luoda luovia visualisointeja
 
-## [Ennakkokysely](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/24)
+## [Esiluennon kysely](https://ff-quizzes.netlify.app/en/ds/quiz/24)
 
 ## Valitse oikea kaaviotyyppi
 
-Aiemmissa oppitunneissa kokeilit erilaisten datavisualisointien luomista Matplotlibin ja Seabornin avulla. Yleisesti ottaen voit valita [oikeanlaisen kaavion](https://chartio.com/learn/charts/how-to-select-a-data-vizualization/) kysymyksesi perusteella seuraavan taulukon avulla:
+Aiemmissa oppitunneissa kokeilit erilaisten mielenkiintoisten datavisualisointien rakentamista Matplotlibin ja Seabornin avulla. Yleisesti ottaen voit valita [oikeanlaisen kaavion](https://chartio.com/learn/charts/how-to-select-a-data-vizualization/) kysymyksesi perusteella seuraavan taulukon avulla:
 
 | Tarve:                     | Käytä:                         |
 | -------------------------- | ------------------------------- |
 | Näytä datan trendit ajan myötä | Viivakaavio                   |
-| Vertaa kategorioita         | Pylväskaavio, piirakka         |
-| Vertaa kokonaismääriä       | Piirakka, pinottu pylväskaavio |
-| Näytä suhteita              | Hajontakaavio, viiva, facet, kaksoisviiva |
-| Näytä jakaumia              | Hajontakaavio, histogrammi, laatikko |
-| Näytä osuuksia              | Piirakka, donitsi, vohveli     |
+| Vertaile kategorioita      | Pylväskaavio, Piirakkakaavio    |
+| Vertaile kokonaismääriä    | Piirakkakaavio, Pinottu pylväskaavio |
+| Näytä suhteita             | Hajontakaavio, Viivakaavio, Facet, Kaksoisviiva |
+| Näytä jakaumia             | Hajontakaavio, Histogrammi, Laatikko |
+| Näytä osuuksia             | Piirakkakaavio, Donitsi, Vohveli |
 
-> ✅ Datan rakenteesta riippuen saatat joutua muuntamaan tekstin numeeriseksi, jotta kaavio tukee sitä.
+> ✅ Riippuen datasi rakenteesta, saatat joutua muuntamaan sen tekstistä numeeriseksi, jotta kaavio tukee sitä.
 
-## Vältä harhaanjohtamista
+## Vältä harhaanjohtavuutta
 
-Vaikka data-analyytikko valitsisi oikean kaavion oikealle datalle, on silti monia tapoja esittää dataa harhaanjohtavasti, usein datan kustannuksella. Harhaanjohtavia kaavioita ja infografiikoita on lukuisia esimerkkejä!
+Vaikka datatieteilijä valitsisi oikean kaavion oikealle datalle, on monia tapoja esittää dataa niin, että se tukee tiettyä näkökulmaa, usein datan kustannuksella. On olemassa lukuisia esimerkkejä harhaanjohtavista kaavioista ja infografiikoista!
 
-[![How Charts Lie by Alberto Cairo](../../../../translated_images/tornado.9f42168791208f970d6faefc11d1226d7ca89518013b14aa66b1c9edcd7678d2.fi.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
+[![How Charts Lie by Alberto Cairo](../../../../3-Data-Visualization/13-meaningful-visualizations/images/tornado.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
 > 🎥 Klikkaa yllä olevaa kuvaa nähdäksesi konferenssipuheen harhaanjohtavista kaavioista
 
-Tämä kaavio kääntää X-akselin näyttääkseen totuuden vastakohdan päivämäärän perusteella:
+Tässä kaaviossa X-akseli on käännetty näyttämään totuuden vastakohta päivämäärän perusteella:
 
-![huono kaavio 1](../../../../translated_images/bad-chart-1.93130f495b748bedfb3423d91b1e754d9026e17f94ad967aecdc9ca7203373bf.fi.png)
+![huono kaavio 1](../../../../3-Data-Visualization/13-meaningful-visualizations/images/bad-chart-1.png)
 
-[Tämä kaavio](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) on vielä harhaanjohtavampi, sillä katsojan huomio kiinnittyy oikealle ja hän saattaa päätellä, että COVID-tapaukset ovat vähentyneet eri maakunnissa ajan myötä. Todellisuudessa päivämäärät on järjestetty uudelleen antamaan harhaanjohtava laskeva trendi.
+[Tämä kaavio](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) on vielä harhaanjohtavampi, sillä katsojan huomio kiinnittyy oikealle, mikä antaa vaikutelman, että COVID-tapaukset ovat vähentyneet eri maakunnissa ajan myötä. Tarkemmin katsottuna päivämäärät on kuitenkin järjestetty uudelleen luomaan harhaanjohtava laskeva trendi.
 
-![huono kaavio 2](../../../../translated_images/bad-chart-2.c20e36dd4e6f617c0c325878dd421a563885bbf30a394884c147438827254e0e.fi.jpg)
+![huono kaavio 2](../../../../3-Data-Visualization/13-meaningful-visualizations/images/bad-chart-2.jpg)
 
-Tämä tunnettu esimerkki käyttää väriä JA käännettyä Y-akselia harhauttamiseen: sen sijaan, että asekuolemat olisivat lisääntyneet asemyönteisen lainsäädännön jälkeen, katsoja saattaa erehtyä luulemaan päinvastaista.
+Tämä tunnettu esimerkki käyttää värejä JA käännettyä Y-akselia harhauttaakseen: sen sijaan, että asekuolemat olisivat lisääntyneet aselainsäädännön jälkeen, katsoja saadaan uskomaan päinvastaista:
 
-![huono kaavio 3](../../../../translated_images/bad-chart-3.6865d0afac4108d737558d90a61547d23a8722896397ec792264ee51a1be4be5.fi.jpg)
+![huono kaavio 3](../../../../3-Data-Visualization/13-meaningful-visualizations/images/bad-chart-3.jpg)
 
 Tämä outo kaavio näyttää, kuinka mittasuhteita voidaan manipuloida, huvittavin seurauksin:
 
-![huono kaavio 4](../../../../translated_images/bad-chart-4.68cfdf4011b454471053ee1231172747e1fbec2403b4443567f1dc678134f4f2.fi.jpg)
+![huono kaavio 4](../../../../3-Data-Visualization/13-meaningful-visualizations/images/bad-chart-4.jpg)
 
-Vertailu, joka ei ole vertailukelpoista, on toinen hämärä temppu. On olemassa [loistava verkkosivusto](https://tylervigen.com/spurious-correlations), joka esittelee 'näennäisiä korrelaatioita', kuten Mainen avioeroprosentin ja margariinin kulutuksen. Reddit-ryhmä kerää myös [huonoja datan käyttöesimerkkejä](https://www.reddit.com/r/dataisugly/top/?t=all).
+Vertailu, joka ei ole vertailukelpoista, on toinen kyseenalainen temppu. On olemassa [mahtava verkkosivusto](https://tylervigen.com/spurious-correlations), joka esittelee 'näennäisiä korrelaatioita', kuten Mainen avioeroprosentin ja margariinin kulutuksen välisiä 'faktoja'. Reddit-ryhmä kerää myös [huonoja datan käyttöesimerkkejä](https://www.reddit.com/r/dataisugly/top/?t=all).
 
-On tärkeää ymmärtää, kuinka helposti silmä voi tulla harhaanjohdetuksi huonoilla kaavioilla. Vaikka data-analyytikon tarkoitus olisi hyvä, huonon kaaviotyypin valinta, kuten piirakkakaavio, jossa on liian monta kategoriaa, voi olla harhaanjohtavaa.
+On tärkeää ymmärtää, kuinka helposti silmä voidaan harhauttaa harhaanjohtavilla kaavioilla. Vaikka datatieteilijän tarkoitus olisi hyvä, huonon kaaviotyypin, kuten liian monia kategorioita sisältävän piirakkakaavion, valinta voi olla harhaanjohtavaa.
 
 ## Värit
 
-Edellä mainitussa 'Floridan aseväkivalta' -kaaviossa näit, kuinka väri voi tuoda lisämerkityksen kaavioihin, erityisesti sellaisiin, joita ei ole suunniteltu Matplotlibin ja Seabornin kaltaisten kirjastojen avulla, jotka sisältävät erilaisia tarkistettuja värikirjastoja ja -paletteja. Jos teet kaavion käsin, tutustu hieman [väriteoriaan](https://colormatters.com/color-and-design/basic-color-theory).
+Yllä olevassa 'Floridan aserikollisuus' -kaaviossa näit, kuinka värit voivat lisätä merkitystä kaavioihin, erityisesti sellaisiin, joita ei ole suunniteltu Matplotlibin ja Seabornin kaltaisten kirjastojen avulla, jotka sisältävät erilaisia tarkistettuja värikirjastoja ja -paletteja. Jos teet kaavion käsin, tutustu hieman [väriteoriaan](https://colormatters.com/color-and-design/basic-color-theory).
 
-> ✅ Ole tietoinen, kun suunnittelet kaavioita, että saavutettavuus on tärkeä osa visualisointia. Jotkut käyttäjistäsi saattavat olla värisokeita - näkyykö kaaviosi hyvin näkövammaisille käyttäjille?
+> ✅ Ole tietoinen, kun suunnittelet kaavioita, että saavutettavuus on tärkeä osa visualisointia. Jotkut käyttäjistäsi saattavat olla värisokeita – näkyykö kaaviosi hyvin näkövammaisille käyttäjille?
 
-Ole varovainen valitessasi värejä kaaviollesi, sillä väri voi välittää merkityksiä, joita et ehkä tarkoittanut. 'Pinkit naiset' yllä olevassa 'pituus'-kaaviossa välittävät selvästi 'naisellisen' merkityksen, joka lisää kaavion outoutta.
+Ole varovainen valitessasi värejä kaavioosi, sillä värit voivat välittää merkityksiä, joita et ehkä tarkoittanut. Yllä olevan 'pinkit naiset' -kaavion 'korkeus' viittaa selvästi 'feminiiniseen' merkitykseen, mikä lisää kaavion outoutta.
 
 Vaikka [värien merkitys](https://colormatters.com/color-symbolism/the-meanings-of-colors) voi vaihdella eri puolilla maailmaa ja muuttua sävyn mukaan, yleisesti ottaen värien merkitykset sisältävät:
 
@@ -96,39 +96,39 @@ Jos sinua pyydetään rakentamaan kaavio mukautetuilla väreillä, varmista, ett
 
 Kaaviot eivät ole merkityksellisiä, jos ne eivät ole luettavia! Käytä hetki kaavion leveyden ja korkeuden muotoiluun, jotta se skaalautuu hyvin datasi kanssa. Jos yksi muuttuja (kuten kaikki 50 osavaltiota) täytyy näyttää, esitä ne pystysuunnassa Y-akselilla, jos mahdollista, jotta vältät vaakasuunnassa vieritettävän kaavion.
 
-Merkitse akselit, tarjoa selite tarvittaessa ja lisää työkaluja datan parempaan ymmärtämiseen.
+Merkitse akselisi, tarjoa selite tarvittaessa ja lisää työkaluja datan paremman ymmärtämisen tueksi.
 
-Jos datasi on tekstuaalista ja X-akselilla pitkää, voit kallistaa tekstiä paremman luettavuuden saavuttamiseksi. [Matplotlib](https://matplotlib.org/stable/tutorials/toolkits/mplot3d.html) tarjoaa 3D-plottausta, jos datasi tukee sitä. Kehittyneitä datavisualisointeja voidaan tuottaa `mpl_toolkits.mplot3d`-kirjaston avulla.
+Jos datasi on tekstuaalista ja laajaa X-akselilla, voit kallistaa tekstiä luettavuuden parantamiseksi. [Matplotlib](https://matplotlib.org/stable/tutorials/toolkits/mplot3d.html) tarjoaa 3D-plottausta, jos datasi tukee sitä. Kehittyneitä datavisualisointeja voidaan tuottaa käyttämällä `mpl_toolkits.mplot3d`.
 
-![3d-kaaviot](../../../../translated_images/3d.0cec12bcc60f0ce7284c63baed1411a843e24716f7d7425de878715ebad54a15.fi.png)
+![3d kaaviot](../../../../3-Data-Visualization/13-meaningful-visualizations/images/3d.png)
 
 ## Animaatio ja 3D-kaavioiden näyttö
 
-Jotkut parhaista datavisualisoinneista nykyään ovat animoituja. Shirley Wu on tehnyt upeita visualisointeja D3:lla, kuten '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', jossa jokainen kukka on elokuvan visualisointi. Toinen esimerkki Guardianille on 'bussed out', interaktiivinen kokemus, joka yhdistää visualisointeja Greensockin ja D3:n kanssa sekä artikkelin, joka kertoo, kuinka NYC käsittelee kodittomien ongelmaa kuljettamalla ihmisiä pois kaupungista.
+Jotkut parhaista datavisualisoinneista nykyään ovat animoituja. Shirley Wu on tehnyt upeita visualisointeja D3:lla, kuten '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', jossa jokainen kukka on elokuvan visualisointi. Toinen esimerkki Guardianille on 'bussed out', interaktiivinen kokemus, joka yhdistää visualisointeja Greensockin ja D3:n avulla sekä artikkelin, joka kertoo, kuinka NYC käsittelee kodittomien ongelmaa lähettämällä ihmisiä pois kaupungista.
 
-![kuljetus](../../../../translated_images/busing.7b9e3b41cd4b981c6d63922cd82004cc1cf18895155536c1d98fcc0999bdd23e.fi.png)
+![busing](../../../../3-Data-Visualization/13-meaningful-visualizations/images/busing.png)
 
-> "Bussed Out: How America Moves its Homeless" Guardianilta [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualisoinnit: Nadieh Bremer & Shirley Wu
+> "Bussed Out: How America Moves its Homeless" [Guardianista](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualisoinnit: Nadieh Bremer & Shirley Wu
 
 Vaikka tämä oppitunti ei riitä opettamaan näitä tehokkaita visualisointikirjastoja syvällisesti, kokeile D3:ta Vue.js-sovelluksessa käyttämällä kirjastoa, joka näyttää visualisoinnin kirjasta "Dangerous Liaisons" animoituna sosiaalisena verkostona.
 
-> "Les Liaisons Dangereuses" on kirjeromaanimuotoinen teos, joka koostuu kirjeistä. Kirjoittanut Choderlos de Laclos vuonna 1782, se kertoo kahden ranskalaisen aristokraatin, Vicomte de Valmontin ja Marquise de Merteuilin, moraalittomista sosiaalisista juonitteluista 1700-luvun lopulla. Molemmat kohtaavat lopulta tuhon, mutta eivät ennen kuin aiheuttavat suurta sosiaalista vahinkoa. Romaani etenee kirjeiden kautta, joissa juonitaan kostoa tai yksinkertaisesti aiheutetaan ongelmia. Luo näiden kirjeiden visualisointi löytääksesi narratiivin keskeiset hahmot visuaalisesti.
+> "Les Liaisons Dangereuses" on kirjeromaanimuotoinen teos, joka koostuu kirjeistä. Vuonna 1782 Choderlos de Laclosin kirjoittama teos kertoo kahden ranskalaisen aristokraatin, Vicomte de Valmontin ja Marquise de Merteuilin, moraalittomista juonitteluista. Molemmat kohtaavat lopulta tuhon, mutta eivät ennen kuin aiheuttavat suurta sosiaalista vahinkoa. Kirjeiden avulla voit visualisoida tarinan keskeiset hahmot visuaalisesti.
 
-Toteutat verkkosovelluksen, joka näyttää animoidun näkymän tästä sosiaalisesta verkostosta. Sovellus käyttää kirjastoa, joka on rakennettu [verkoston visualisointiin](https://github.com/emiliorizzo/vue-d3-network) Vue.js:n ja D3:n avulla. Kun sovellus on käynnissä, voit siirtää solmuja näytöllä ja järjestellä dataa uudelleen.
+Toteutat verkkosovelluksen, joka näyttää animoidun näkymän tästä sosiaalisesta verkostosta. Se käyttää kirjastoa, joka on rakennettu [verkoston visualisointiin](https://github.com/emiliorizzo/vue-d3-network) Vue.js:n ja D3:n avulla. Kun sovellus on käynnissä, voit siirrellä solmuja näytöllä järjestelläksesi dataa.
 
-![liaisons](../../../../translated_images/liaisons.7b440b28f6d07ea430244fdf1fc4c64ff48f473f143b8e921846eda1c302aeba.fi.png)
+![liaisons](../../../../3-Data-Visualization/13-meaningful-visualizations/images/liaisons.png)
 
 ## Projekti: Rakenna kaavio, joka näyttää verkoston D3.js:llä
 
 > Tämän oppitunnin kansiossa on `solution`-kansio, josta löydät valmiin projektin viitteeksi.
 
-1. Seuraa README.md-tiedoston ohjeita aloituskansion juurihakemistossa. Varmista, että NPM ja Node.js ovat asennettu koneellesi ennen projektin riippuvuuksien asentamista.
+1. Seuraa README.md-tiedoston ohjeita aloituskansion juuresta. Varmista, että sinulla on NPM ja Node.js asennettuna koneellesi ennen projektin riippuvuuksien asentamista.
 
-2. Avaa `starter/src`-kansio. Löydät `assets`-kansion, jossa on .json-tiedosto, joka sisältää kaikki kirjeet romaanista, numeroituina, 'to' ja 'from' -merkinnöillä.
+2. Avaa `starter/src`-kansio. Löydät `assets`-kansiosta .json-tiedoston, jossa on kaikki kirjeet, numeroituina, ja 'to' ja 'from' -merkinnät.
 
-3. Täydennä koodi `components/Nodes.vue`-tiedostossa, jotta visualisointi toimii. Etsi metodi nimeltä `createLinks()` ja lisää seuraava sisäkkäinen silmukka.
+3. Täydennä koodi `components/Nodes.vue`-tiedostossa mahdollistamaan visualisointi. Etsi metodi nimeltä `createLinks()` ja lisää seuraava sisäkkäinen silmukka.
 
-Käy läpi .json-objekti, jotta saat kirjeiden 'to' ja 'from' -datan ja rakenna `links`-objekti, jotta visualisointikirjasto voi käyttää sitä:
+Käy läpi .json-objekti kerätäksesi kirjeiden 'to' ja 'from' -data ja rakenna `links`-objekti, jotta visualisointikirjasto voi käyttää sitä:
 
 ```javascript
 //loop through letters
@@ -152,9 +152,9 @@ Käynnistä sovelluksesi terminaalista (npm run serve) ja nauti visualisoinnista
 
 ## 🚀 Haaste
 
-Tutki internetiä löytääksesi harhaanjohtavia visualisointeja. Kuinka tekijä harhauttaa käyttäjää, ja onko se tarkoituksellista? Yritä korjata visualisoinnit näyttämään, miltä niiden pitäisi näyttää.
+Tutustu internetissä harhaanjohtaviin visualisointeihin. Kuinka tekijä harhauttaa käyttäjää, ja onko se tarkoituksellista? Yritä korjata visualisoinnit näyttämään, miltä niiden pitäisi näyttää.
 
-## [Jälkikysely](https://ff-quizzes.netlify.app/en/ds/)
+## [Jälkiluennon kysely](https://ff-quizzes.netlify.app/en/ds/quiz/25)
 
 ## Kertaus ja itseopiskelu
 
@@ -164,7 +164,7 @@ https://gizmodo.com/how-to-lie-with-data-visualization-1563576606
 
 http://ixd.prattsi.org/2017/12/visual-lies-usability-in-deceptive-data-visualizations/
 
-Tutustu näihin kiinnostaviin visualisointeihin historiallisista aineistoista ja esineistä:
+Tutustu näihin mielenkiintoisiin visualisointeihin historiallisista aineistoista ja esineistä:
 
 https://handbook.pubpub.org/
 
@@ -174,9 +174,9 @@ https://medium.com/@EvanSinar/use-animation-to-supercharge-data-visualization-cd
 
 ## Tehtävä
 
-[Rakenna oma mukautettu visualisointi](assignment.md)
+[Rakenna oma mukautettu visualisointisi](assignment.md)
 
 ---
 
 **Vastuuvapauslauseke**:  
-Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäinen asiakirja sen alkuperäisellä kielellä tulisi pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa väärinkäsityksistä tai virhetulkinnoista, jotka johtuvat tämän käännöksen käytöstä.
+Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Pyrimme tarkkuuteen, mutta huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulee pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa tämän käännöksen käytöstä aiheutuvista väärinkäsityksistä tai virhetulkinnoista.
