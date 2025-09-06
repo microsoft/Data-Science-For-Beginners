@@ -24,8 +24,6 @@ There are many ways to make this work in an online classroom format. Please let 
 
 All sketchnotes, including a large-format poster, are in [this folder](./sketchnotes/).
 
-The entire curriculum is available [as a PDF](./pdf/readme.pdf).
-
 You can also run this curriculum as a standalone, offline-friendly web site by using [Docsify](https://docsify.js.org/#/). [Install Docsify](https://docsify.js.org/#/quickstart) on your local machine, then in the root folder of your local copy of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
 
 An offline-friendly version of the curriculum will open as a standalone web page: https://localhost:3000
