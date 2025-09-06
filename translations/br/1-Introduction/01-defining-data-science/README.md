@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "a0516588d172f82f35f7a0d4a001e5d0",
-  "translation_date": "2025-09-06T08:36:44+00:00",
+  "original_hash": "a76ab694b1534fa57981311975660bfe",
+  "translation_date": "2025-09-06T12:15:32+00:00",
   "source_file": "1-Introduction/01-defining-data-science/README.md",
   "language_code": "br"
 }
@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Vídeo Definindo Ciência de Dados](../../../../1-Introduction/01-defining-data-science/images/video-def-ds.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Vídeo Definindo Ciência de Dados](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.br.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Quiz pré-aula](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -24,7 +24,7 @@ No nosso dia a dia, estamos constantemente cercados por dados. O texto que você
 
 No entanto, os dados se tornaram muito mais críticos com a criação dos computadores. O papel principal dos computadores é realizar cálculos, mas eles precisam de dados para operar. Assim, precisamos entender como os computadores armazenam e processam dados.
 
-Com o surgimento da Internet, o papel dos computadores como dispositivos de manipulação de dados aumentou. Se você pensar bem, usamos computadores cada vez mais para processar e comunicar dados, em vez de realizar cálculos propriamente ditos. Quando escrevemos um e-mail para um amigo ou buscamos informações na Internet, estamos essencialmente criando, armazenando, transmitindo e manipulando dados.
+Com o surgimento da Internet, o papel dos computadores como dispositivos de manipulação de dados aumentou. Se você pensar bem, usamos computadores cada vez mais para processar e comunicar dados, em vez de realizar cálculos propriamente ditos. Quando escrevemos um e-mail para um amigo ou buscamos alguma informação na Internet, estamos essencialmente criando, armazenando, transmitindo e manipulando dados.
 > Você consegue se lembrar da última vez que usou um computador para realmente calcular algo?
 
 ## O que é Ciência de Dados?
@@ -34,7 +34,7 @@ Na [Wikipedia](https://en.wikipedia.org/wiki/Data_science), **Ciência de Dados*
 Essa definição destaca os seguintes aspectos importantes da ciência de dados:
 
 * O principal objetivo da ciência de dados é **extrair conhecimento** dos dados, ou seja, **entender** os dados, encontrar relações ocultas e construir um **modelo**.
-* A ciência de dados utiliza **métodos científicos**, como probabilidade e estatística. De fato, quando o termo *ciência de dados* foi introduzido pela primeira vez, algumas pessoas argumentaram que era apenas um novo nome sofisticado para estatística. Hoje em dia, está claro que o campo é muito mais amplo.
+* A ciência de dados utiliza **métodos científicos**, como probabilidade e estatística. De fato, quando o termo *ciência de dados* foi introduzido pela primeira vez, algumas pessoas argumentaram que era apenas um novo nome sofisticado para estatística. Hoje em dia, ficou evidente que o campo é muito mais amplo.
 * O conhecimento obtido deve ser aplicado para produzir **insights acionáveis**, ou seja, insights práticos que podem ser aplicados a situações reais de negócios.
 * Devemos ser capazes de operar tanto com dados **estruturados** quanto **não estruturados**. Voltaremos a discutir os diferentes tipos de dados mais adiante no curso.
 * O **domínio de aplicação** é um conceito importante, e os cientistas de dados frequentemente precisam de algum grau de especialização no domínio do problema, como finanças, medicina, marketing, etc.
@@ -49,17 +49,17 @@ Uma das formas (atribuída a [Jim Gray](https://en.wikipedia.org/wiki/Jim_Gray_(
 
 ## Outros Campos Relacionados
 
-Como os dados estão em toda parte, a ciência de dados também é um campo amplo, tocando em muitas outras disciplinas.
+Como os dados estão em toda parte, a ciência de dados também é um campo amplo, tocando muitas outras disciplinas.
 
 ## Tipos de Dados
 
-Como já mencionamos, os dados estão em toda parte. Só precisamos capturá-los da maneira certa! É útil distinguir entre dados **estruturados** e **não estruturados**. O primeiro é tipicamente representado de forma bem estruturada, muitas vezes como uma tabela ou várias tabelas, enquanto o último é apenas uma coleção de arquivos. Às vezes, também podemos falar de dados **semiestruturados**, que possuem algum tipo de estrutura que pode variar bastante.
+Como já mencionamos, os dados estão em toda parte. Só precisamos capturá-los da maneira certa! É útil distinguir entre dados **estruturados** e **não estruturados**. Os primeiros são tipicamente representados em uma forma bem estruturada, muitas vezes como uma tabela ou várias tabelas, enquanto os últimos são apenas uma coleção de arquivos. Às vezes, também podemos falar de dados **semiestruturados**, que possuem algum tipo de estrutura que pode variar bastante.
 
 | Estruturados                                                                | Semiestruturados                                                                              | Não Estruturados                        |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------- |
 | Lista de pessoas com seus números de telefone                               | Páginas da Wikipedia com links                                                               | Texto da Enciclopédia Britânica         |
 | Temperatura em todos os cômodos de um prédio a cada minuto nos últimos 20 anos | Coleção de artigos científicos em formato JSON com autores, data de publicação e resumo      | Compartilhamento de arquivos corporativos |
-| Dados de idade e gênero de todas as pessoas entrando no prédio              | Páginas da Internet                                                                          | Vídeo bruto de uma câmera de vigilância |
+| Dados de idade e gênero de todas as pessoas entrando no prédio              | Páginas da Internet                                                                          | Vídeo bruto de câmeras de vigilância    |
 
 ## Onde Obter Dados
 
@@ -70,8 +70,8 @@ Existem muitas fontes possíveis de dados, e seria impossível listar todas elas
   - **Pesquisas** que pedimos aos usuários para preencher após uma compra ou após visitar um site.
   - **Análise de comportamento** pode, por exemplo, nos ajudar a entender até que ponto um usuário navega em um site e qual é o motivo típico para sair do site.
 * **Não Estruturados**
-  - **Textos** podem ser uma rica fonte de insights, como uma pontuação geral de **sentimento**, ou extração de palavras-chave e significado semântico.
-  - **Imagens** ou **Vídeos**. Um vídeo de uma câmera de vigilância pode ser usado para estimar o tráfego na estrada e informar as pessoas sobre possíveis congestionamentos.
+  - **Textos** podem ser uma rica fonte de insights, como um **índice de sentimento** geral ou a extração de palavras-chave e significado semântico.
+  - **Imagens** ou **Vídeos**. Um vídeo de uma câmera de vigilância pode ser usado para estimar o tráfego na estrada e informar as pessoas sobre possíveis engarrafamentos.
   - **Logs** de servidores web podem ser usados para entender quais páginas do nosso site são mais visitadas e por quanto tempo.
 * **Semiestruturados**
   - **Grafos de Redes Sociais** podem ser ótimas fontes de dados sobre personalidades de usuários e a potencial eficácia na disseminação de informações.
@@ -93,25 +93,25 @@ Vamos considerar um exemplo. Suponha que temos um curso de ciência de dados (co
 
 Podemos começar perguntando "O que pode ser digitalizado?" A maneira mais simples seria medir o tempo que cada aluno leva para completar cada módulo e medir o conhecimento adquirido dando um teste de múltipla escolha ao final de cada módulo. Ao calcular a média do tempo de conclusão entre todos os alunos, podemos descobrir quais módulos causam mais dificuldades e trabalhar para simplificá-los.
 Você pode argumentar que essa abordagem não é ideal, porque os módulos podem ter comprimentos diferentes. Provavelmente seria mais justo dividir o tempo pelo comprimento do módulo (em número de caracteres) e comparar esses valores em vez disso.
-Quando começamos a analisar os resultados de testes de múltipla escolha, podemos tentar determinar quais conceitos os alunos têm dificuldade em entender e usar essas informações para melhorar o conteúdo. Para isso, precisamos projetar os testes de forma que cada pergunta esteja vinculada a um determinado conceito ou bloco de conhecimento.
+Quando começamos a analisar os resultados de testes de múltipla escolha, podemos tentar identificar quais conceitos os alunos têm dificuldade em compreender e usar essas informações para melhorar o conteúdo. Para isso, precisamos projetar os testes de forma que cada pergunta esteja associada a um determinado conceito ou bloco de conhecimento.
 
-Se quisermos ir ainda mais longe, podemos traçar o tempo gasto em cada módulo em relação à faixa etária dos alunos. Podemos descobrir que, para algumas faixas etárias, leva um tempo excessivamente longo para concluir o módulo ou que os alunos abandonam antes de terminá-lo. Isso pode nos ajudar a fornecer recomendações de idade para o módulo e minimizar a insatisfação das pessoas devido a expectativas equivocadas.
+Se quisermos ir ainda mais longe, podemos traçar o tempo gasto em cada módulo em relação à faixa etária dos alunos. Podemos descobrir que, para algumas faixas etárias, leva um tempo excessivamente longo para concluir o módulo, ou que os alunos desistem antes de terminá-lo. Isso pode nos ajudar a fornecer recomendações de idade para o módulo e minimizar a insatisfação das pessoas devido a expectativas equivocadas.
 
 ## 🚀 Desafio
 
-Neste desafio, tentaremos encontrar conceitos relevantes para o campo de Ciência de Dados analisando textos. Vamos pegar um artigo da Wikipedia sobre Ciência de Dados, baixar e processar o texto, e então construir uma nuvem de palavras como esta:
+Neste desafio, tentaremos identificar conceitos relevantes para o campo de Ciência de Dados analisando textos. Vamos pegar um artigo da Wikipedia sobre Ciência de Dados, baixar e processar o texto, e então construir uma nuvem de palavras como esta:
 
-![Nuvem de Palavras para Ciência de Dados](../../../../1-Introduction/01-defining-data-science/images/ds_wordcloud.png)
+![Nuvem de Palavras para Ciência de Dados](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.br.png)
 
-Visite [`notebook.ipynb`](../../../../../../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') para ler o código. Você também pode executar o código e ver como ele realiza todas as transformações de dados em tempo real.
+Visite [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') para ler o código. Você também pode executar o código e ver como ele realiza todas as transformações de dados em tempo real.
 
 > Se você não sabe como executar código em um Jupyter Notebook, confira [este artigo](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
-## [Quiz pós-aula](https://ff-quizzes.netlify.app/en/ds/quiz/1)
+## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ds/quiz/1)
 
 ## Tarefas
 
-* **Tarefa 1**: Modifique o código acima para descobrir conceitos relacionados aos campos de **Big Data** e **Machine Learning**
+* **Tarefa 1**: Modifique o código acima para identificar conceitos relacionados aos campos de **Big Data** e **Machine Learning**
 * **Tarefa 2**: [Pense em Cenários de Ciência de Dados](assignment.md)
 
 ## Créditos
@@ -121,4 +121,4 @@ Esta lição foi criada com ♥️ por [Dmitry Soshnikov](http://soshnikov.com)
 ---
 
 **Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automatizadas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte autoritativa. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações equivocadas decorrentes do uso desta tradução.
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte oficial. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes do uso desta tradução.

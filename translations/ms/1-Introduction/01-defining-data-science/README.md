@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "a0516588d172f82f35f7a0d4a001e5d0",
-  "translation_date": "2025-09-06T00:14:02+00:00",
+  "original_hash": "a76ab694b1534fa57981311975660bfe",
+  "translation_date": "2025-09-06T12:27:11+00:00",
   "source_file": "1-Introduction/01-defining-data-science/README.md",
   "language_code": "ms"
 }
@@ -27,11 +27,11 @@ Terdapat banyak sumber data yang mungkin, dan mustahil untuk menyenaraikan semua
   - **Analisis tingkah laku** boleh, sebagai contoh, membantu kita memahami sejauh mana pengguna meneroka laman web, dan apa sebab utama mereka meninggalkan laman tersebut.
 * **Tidak berstruktur**
   - **Teks** boleh menjadi sumber maklumat yang kaya, seperti skor **sentimen keseluruhan**, atau mengekstrak kata kunci dan makna semantik.
-  - **Imej** atau **Video**. Rakaman video dari kamera pengawasan boleh digunakan untuk menganggarkan trafik di jalan raya, dan memberi maklumat kepada orang ramai tentang kemungkinan kesesakan lalu lintas.
+  - **Imej** atau **Video**. Video dari kamera pengawasan boleh digunakan untuk menganggarkan trafik di jalan raya, dan memberi maklumat kepada orang ramai tentang kemungkinan kesesakan lalu lintas.
   - **Log** pelayan web boleh digunakan untuk memahami halaman mana di laman web kita yang paling kerap dilawati, dan untuk berapa lama.
 * **Separa berstruktur**
   - Graf **Rangkaian Sosial** boleh menjadi sumber data yang hebat tentang personaliti pengguna dan keberkesanan mereka dalam menyebarkan maklumat.
-  - Apabila kita mempunyai koleksi gambar dari satu majlis, kita boleh cuba mengekstrak data **Dinamik Kumpulan** dengan membina graf orang yang bergambar bersama.
+  - Apabila kita mempunyai koleksi gambar dari satu majlis, kita boleh cuba mengekstrak data **Dinamik Kumpulan** dengan membina graf orang yang mengambil gambar bersama.
 
 Dengan mengetahui pelbagai sumber data yang mungkin, anda boleh cuba memikirkan senario yang berbeza di mana teknik sains data boleh digunakan untuk memahami situasi dengan lebih baik, dan untuk meningkatkan proses perniagaan.
 
@@ -49,17 +49,17 @@ Mari kita pertimbangkan satu contoh. Katakan kita mempunyai kursus sains data (s
 
 Kita boleh mula dengan bertanya "Apa yang boleh didigitalkan?" Cara paling mudah adalah dengan mengukur masa yang diambil oleh setiap pelajar untuk menyelesaikan setiap modul, dan mengukur pengetahuan yang diperoleh dengan memberikan ujian pilihan berganda pada akhir setiap modul. Dengan purata masa penyelesaian di kalangan semua pelajar, kita boleh mengetahui modul mana yang paling sukar bagi pelajar, dan bekerja untuk mempermudahkannya.
 Anda mungkin berpendapat bahawa pendekatan ini tidak sesuai, kerana modul boleh mempunyai panjang yang berbeza. Mungkin lebih adil untuk membahagikan masa mengikut panjang modul (dalam bilangan aksara), dan membandingkan nilai-nilai tersebut sebagai gantinya.
-Apabila kita mula menganalisis keputusan ujian pilihan berganda, kita boleh cuba menentukan konsep mana yang pelajar sukar fahami, dan menggunakan maklumat tersebut untuk memperbaiki kandungan. Untuk melakukan itu, kita perlu merancang ujian sedemikian rupa sehingga setiap soalan berkait dengan konsep tertentu atau bahagian pengetahuan.
+Apabila kita mula menganalisis keputusan ujian pilihan berganda, kita boleh cuba menentukan konsep mana yang pelajar sukar fahami, dan menggunakan maklumat tersebut untuk memperbaiki kandungan. Untuk melakukannya, kita perlu mereka bentuk ujian dengan cara setiap soalan memetakan kepada konsep tertentu atau bahagian pengetahuan.
 
-Jika kita ingin menjadi lebih rumit, kita boleh memplot masa yang diambil untuk setiap modul terhadap kategori umur pelajar. Kita mungkin mendapati bahawa untuk beberapa kategori umur, masa yang diambil untuk menyelesaikan modul adalah terlalu lama, atau pelajar berhenti sebelum menyelesaikannya. Ini boleh membantu kita memberikan cadangan umur untuk modul tersebut, dan mengurangkan ketidakpuasan orang ramai akibat jangkaan yang salah.
+Jika kita ingin menjadi lebih rumit, kita boleh plot masa yang diambil untuk setiap modul berbanding kategori umur pelajar. Kita mungkin mendapati bahawa untuk beberapa kategori umur, masa yang diambil untuk menyelesaikan modul adalah terlalu lama, atau pelajar berhenti sebelum menyelesaikannya. Ini boleh membantu kita memberikan cadangan umur untuk modul tersebut, dan meminimumkan ketidakpuasan orang ramai akibat jangkaan yang salah.
 
 ## 🚀 Cabaran
 
-Dalam cabaran ini, kita akan cuba mencari konsep yang berkaitan dengan bidang Sains Data dengan melihat teks. Kita akan mengambil artikel Wikipedia tentang Sains Data, memuat turun dan memproses teks, dan kemudian membina awan perkataan seperti ini:
+Dalam cabaran ini, kita akan cuba mencari konsep yang relevan dengan bidang Sains Data dengan melihat teks. Kita akan mengambil artikel Wikipedia tentang Sains Data, memuat turun dan memproses teks, dan kemudian membina awan perkataan seperti ini:
 
-![Awan Perkataan untuk Sains Data](../../../../1-Introduction/01-defining-data-science/images/ds_wordcloud.png)
+![Word Cloud for Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.ms.png)
 
-Lawati [`notebook.ipynb`](../../../../../../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') untuk membaca kod tersebut. Anda juga boleh menjalankan kod tersebut, dan melihat bagaimana ia melakukan semua transformasi data secara langsung.
+Lawati [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') untuk membaca kod. Anda juga boleh menjalankan kod tersebut, dan melihat bagaimana ia melaksanakan semua transformasi data secara langsung.
 
 > Jika anda tidak tahu cara menjalankan kod dalam Jupyter Notebook, lihat [artikel ini](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -68,7 +68,7 @@ Lawati [`notebook.ipynb`](../../../../../../../../../1-Introduction/01-defining-
 ## Tugasan
 
 * **Tugas 1**: Ubah kod di atas untuk mencari konsep berkaitan bagi bidang **Big Data** dan **Machine Learning**
-* **Tugas 2**: [Fikirkan Tentang Senario Sains Data](assignment.md)
+* **Tugas 2**: [Fikirkan Senario Sains Data](assignment.md)
 
 ## Kredit
 
@@ -77,4 +77,4 @@ Pelajaran ini telah ditulis dengan ♥️ oleh [Dmitry Soshnikov](http://soshnik
 ---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat penting, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
