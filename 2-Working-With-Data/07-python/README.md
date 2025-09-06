@@ -173,7 +173,7 @@ df.iloc[:5]
 
 **Grouping** is often used to get a result similar to *pivot tables* in Excel. Suppose that we want to compute mean value of column `A` for each given number of `LenB`. Then we can group our DataFrame by `LenB`, and call `mean`:
 ```python
-df.groupby(by='LenB').mean()
+df.groupby(by='LenB')[['A','DivA']].mean()
 ```
 If we need to compute mean and the number of elements in the group, then we can use more complex `aggregate` function:
 ```python
