@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "69b32b6789a91f796ebc7a02f5575e03",
-  "translation_date": "2025-09-04T17:47:33+00:00",
+  "original_hash": "a49d78e32e280c410f04e5f2a2068e77",
+  "translation_date": "2025-09-06T08:32:47+00:00",
   "source_file": "3-Data-Visualization/09-visualization-quantities/README.md",
   "language_code": "br"
 }
@@ -14,11 +14,11 @@ CO_OP_TRANSLATOR_METADATA:
 | Visualizando Quantidades - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
 Nesta lição, você explorará como usar uma das muitas bibliotecas disponíveis em Python para aprender a criar visualizações interessantes em torno do conceito de quantidade. Usando um conjunto de dados limpo sobre os pássaros de Minnesota, você pode aprender muitos fatos interessantes sobre a vida selvagem local.  
-## [Quiz pré-aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/16)
+## [Quiz pré-aula](https://ff-quizzes.netlify.app/en/ds/quiz/16)
 
 ## Observe a envergadura com Matplotlib
 
-Uma excelente biblioteca para criar gráficos e diagramas simples e sofisticados de vários tipos é [Matplotlib](https://matplotlib.org/stable/index.html). Em termos gerais, o processo de plotar dados usando essas bibliotecas inclui identificar as partes do seu dataframe que você deseja analisar, realizar as transformações necessárias nesses dados, atribuir valores aos eixos x e y, decidir qual tipo de gráfico mostrar e, então, exibir o gráfico. O Matplotlib oferece uma grande variedade de visualizações, mas para esta lição, vamos focar nas mais apropriadas para visualizar quantidades: gráficos de linha, dispersão e barras.
+Uma excelente biblioteca para criar gráficos e diagramas, tanto simples quanto sofisticados, é [Matplotlib](https://matplotlib.org/stable/index.html). Em termos gerais, o processo de plotar dados usando essas bibliotecas inclui identificar as partes do seu dataframe que você deseja analisar, realizar as transformações necessárias nos dados, atribuir valores aos eixos x e y, decidir o tipo de gráfico a ser exibido e, finalmente, mostrar o gráfico. O Matplotlib oferece uma grande variedade de visualizações, mas para esta lição, vamos focar nas mais apropriadas para visualizar quantidades: gráficos de linha, dispersão e barras.
 
 > ✅ Use o melhor gráfico para se adequar à estrutura dos seus dados e à história que você quer contar.  
 > - Para analisar tendências ao longo do tempo: linha  
@@ -28,7 +28,7 @@ Uma excelente biblioteca para criar gráficos e diagramas simples e sofisticados
 > - Para mostrar tendências: linha, coluna  
 > - Para mostrar relações entre valores: linha, dispersão, bolha  
 
-Se você tem um conjunto de dados e precisa descobrir quanto de um determinado item está incluído, uma das primeiras tarefas será inspecionar seus valores.  
+Se você tem um conjunto de dados e precisa descobrir a quantidade de um determinado item, uma das primeiras tarefas será inspecionar seus valores.  
 
 ✅ Existem ótimos 'cheat sheets' disponíveis para Matplotlib [aqui](https://matplotlib.org/cheatsheets/cheatsheets.pdf).
 
@@ -60,7 +60,7 @@ Vamos começar plotando alguns dos dados numéricos usando um gráfico de linha 
 wingspan = birds['MaxWingspan'] 
 wingspan.plot()
 ```  
-![Envergadura Máxima](../../../../translated_images/max-wingspan-02.e79fd847b2640b89e21e340a3a9f4c5d4b224c4fcd65f54385e84f1c9ed26d52.br.png)
+![Envergadura Máxima](../../../../3-Data-Visualization/09-visualization-quantities/images/max-wingspan-02.png)
 
 O que você percebe imediatamente? Parece haver pelo menos um valor discrepante - que envergadura impressionante! Uma envergadura de 2300 centímetros equivale a 23 metros - há Pterodátilos vagando por Minnesota? Vamos investigar.
 
@@ -80,7 +80,7 @@ plt.plot(x, y)
 
 plt.show()
 ```  
-![Envergadura com rótulos](../../../../translated_images/max-wingspan-labels-02.aa90e826ca49a9d1dde78075e9755c1849ef56a4e9ec60f7e9f3806daf9283e2.br.png)
+![Envergadura com rótulos](../../../../3-Data-Visualization/09-visualization-quantities/images/max-wingspan-labels-02.png)
 
 Mesmo com a rotação dos rótulos ajustada para 45 graus, há muitos para serem lidos. Vamos tentar uma estratégia diferente: rotular apenas os valores discrepantes e definir os rótulos dentro do gráfico. Você pode usar um gráfico de dispersão para criar mais espaço para os rótulos:
 
@@ -102,10 +102,10 @@ O que está acontecendo aqui? Você usou `tick_params` para ocultar os rótulos 
 
 O que você descobriu?
 
-![Valores discrepantes](../../../../translated_images/labeled-wingspan-02.6110e2d2401cd5238ccc24dfb6d04a6c19436101f6cec151e3992e719f9f1e1f.br.png)  
+![Valores discrepantes](../../../../3-Data-Visualization/09-visualization-quantities/images/labeled-wingspan-02.png)  
 ## Filtre seus dados
 
-Tanto a Águia-careca quanto o Falcão-das-pradarias, embora provavelmente sejam pássaros muito grandes, parecem estar rotulados incorretamente, com um `0` extra adicionado à sua envergadura máxima. É improvável que você encontre uma Águia-careca com uma envergadura de 25 metros, mas, se encontrar, por favor, nos avise! Vamos criar um novo dataframe sem esses dois valores discrepantes:
+Tanto a Águia-careca quanto o Falcão-das-pradarias, embora provavelmente sejam pássaros muito grandes, parecem estar com valores incorretos, com um `0` extra adicionado à sua envergadura máxima. É improvável que você encontre uma Águia-careca com uma envergadura de 25 metros, mas, se encontrar, por favor, nos avise! Vamos criar um novo dataframe sem esses dois valores discrepantes:
 
 ```python
 plt.title('Max Wingspan in Centimeters')
@@ -122,7 +122,7 @@ plt.show()
 
 Ao filtrar os valores discrepantes, seus dados agora estão mais coesos e compreensíveis.
 
-![Gráfico de dispersão das envergaduras](../../../../translated_images/scatterplot-wingspan-02.1c33790094ce36a75f5fb45b25ed2cf27f0356ea609e43c11e97a2cedd7011a4.br.png)
+![Gráfico de dispersão das envergaduras](../../../../3-Data-Visualization/09-visualization-quantities/images/scatterplot-wingspan-02.png)  
 
 Agora que temos um conjunto de dados mais limpo, pelo menos em termos de envergadura, vamos descobrir mais sobre esses pássaros.
 
@@ -137,7 +137,7 @@ Gráficos de barras são práticos quando você precisa mostrar agrupamentos de 
 
 No arquivo do notebook, crie um gráfico de barras básico.
 
-✅ Nota: você pode filtrar os dois pássaros discrepantes que identificamos na seção anterior, editar o erro de digitação na envergadura deles ou deixá-los para esses exercícios que não dependem dos valores de envergadura.
+✅ Nota: você pode filtrar os dois pássaros discrepantes que identificamos na seção anterior, corrigir o erro de digitação na envergadura deles ou deixá-los para esses exercícios que não dependem dos valores de envergadura.
 
 Se você quiser criar um gráfico de barras, pode selecionar os dados nos quais deseja focar. Gráficos de barras podem ser criados a partir de dados brutos:
 
@@ -148,11 +148,11 @@ birds.plot(x='Category',
         title='Birds of Minnesota')
 
 ```  
-![Dados completos como gráfico de barras](../../../../translated_images/full-data-bar-02.aaa3fda71c63ed564b917841a1886c177dd9a26424142e510c0c0498fd6ca160.br.png)
+![Dados completos como gráfico de barras](../../../../3-Data-Visualization/09-visualization-quantities/images/full-data-bar-02.png)  
 
-Este gráfico de barras, no entanto, é ilegível porque há muitos dados não agrupados. Você precisa selecionar apenas os dados que deseja plotar, então vamos observar o comprimento dos pássaros com base em sua categoria.
+Este gráfico de barras, no entanto, é ilegível porque há muitos dados não agrupados. Você precisa selecionar apenas os dados que deseja plotar, então vamos observar o comprimento dos pássaros com base em sua categoria.  
 
-Filtre seus dados para incluir apenas a categoria dos pássaros.
+Filtre seus dados para incluir apenas a categoria dos pássaros.  
 
 ✅ Observe que você usa Pandas para gerenciar os dados e, em seguida, deixa o Matplotlib fazer o gráfico.
 
@@ -163,9 +163,9 @@ category_count = birds.value_counts(birds['Category'].values, sort=True)
 plt.rcParams['figure.figsize'] = [6, 12]
 category_count.plot.barh()
 ```  
-![Categoria e comprimento](../../../../translated_images/category-counts-02.0b9a0a4de42275ae5096d0f8da590d8bf520d9e7e40aad5cc4fc8d276480cc32.br.png)
+![Categoria e comprimento](../../../../3-Data-Visualization/09-visualization-quantities/images/category-counts-02.png)  
 
-Este gráfico de barras mostra uma boa visão do número de pássaros em cada categoria. Num piscar de olhos, você vê que o maior número de pássaros nesta região está na categoria de Patos/Gansos/AvesAquáticas. Minnesota é a 'terra dos 10.000 lagos', então isso não é surpreendente!
+Este gráfico de barras mostra uma boa visão do número de pássaros em cada categoria. Num piscar de olhos, você vê que o maior número de pássaros nesta região está na categoria Patos/Gansos/AvesAquáticas. Minnesota é a 'terra dos 10.000 lagos', então isso não é surpreendente!
 
 ✅ Experimente outros contagens neste conjunto de dados. Algo te surpreende?
 
@@ -179,7 +179,7 @@ plt.barh(y=birds['Category'], width=maxlength)
 plt.rcParams['figure.figsize'] = [6, 12]
 plt.show()
 ```  
-![Comparando dados](../../../../translated_images/category-length-02.7304bf519375c9807d8165cc7ec60dd2a60f7b365b23098538e287d89adb7d76.br.png)
+![Comparando dados](../../../../3-Data-Visualization/09-visualization-quantities/images/category-length-02.png)  
 
 Nada é surpreendente aqui: beija-flores têm o menor MaxComprimento em comparação com Pelicanos ou Gansos. É bom quando os dados fazem sentido lógico!
 
@@ -195,19 +195,19 @@ plt.barh(category, minLength)
 
 plt.show()
 ```  
-Neste gráfico, você pode ver o intervalo por categoria de pássaros do Comprimento Mínimo e Máximo. Você pode dizer com segurança que, dado este conjunto de dados, quanto maior o pássaro, maior o intervalo de comprimento. Fascinante!
+Neste gráfico, você pode ver o intervalo por categoria de pássaros do Comprimento Mínimo e Máximo. Você pode dizer com segurança que, dados esses dados, quanto maior o pássaro, maior seu intervalo de comprimento. Fascinante!
 
-![Valores sobrepostos](../../../../translated_images/superimposed-02.f03058536baeb2ed7864f01102538464d4c2fd7ade881ddd7d5ba74dc5d2fdae.br.png)
+![Valores sobrepostos](../../../../3-Data-Visualization/09-visualization-quantities/images/superimposed-02.png)  
 
 ## 🚀 Desafio
 
 Este conjunto de dados de pássaros oferece uma riqueza de informações sobre diferentes tipos de pássaros dentro de um ecossistema específico. Pesquise na internet e veja se consegue encontrar outros conjuntos de dados relacionados a pássaros. Pratique a construção de gráficos e diagramas sobre esses pássaros para descobrir fatos que você não conhecia.
 
-## [Quiz pós-aula](https://ff-quizzes.netlify.app/en/ds/)
+## [Quiz pós-aula](https://ff-quizzes.netlify.app/en/ds/quiz/17)
 
-## Revisão e Autoestudo
+## Revisão & Autoestudo
 
-Esta primeira lição deu a você algumas informações sobre como usar o Matplotlib para visualizar quantidades. Pesquise outras maneiras de trabalhar com conjuntos de dados para visualização. [Plotly](https://github.com/plotly/plotly.py) é uma que não abordaremos nestas lições, então dê uma olhada no que ela pode oferecer.  
+Esta primeira lição deu a você algumas informações sobre como usar Matplotlib para visualizar quantidades. Pesquise outras maneiras de trabalhar com conjuntos de dados para visualização. [Plotly](https://github.com/plotly/plotly.py) é uma que não abordaremos nessas lições, então dê uma olhada no que ela pode oferecer.  
 ## Tarefa
 
 [Linhas, Dispersões e Barras](assignment.md)  

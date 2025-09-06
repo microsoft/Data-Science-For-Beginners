@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "a167aa0bfb1c46ece1b3d21ae939cc0d",
-  "translation_date": "2025-09-04T17:45:10+00:00",
+  "original_hash": "2baeafe1db4d58ee5b8ec85db9de728a",
+  "translation_date": "2025-09-06T08:30:37+00:00",
   "source_file": "4-Data-Science-Lifecycle/15-analyzing/README.md",
   "language_code": "br"
 }
@@ -15,15 +15,15 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## Quiz Pré-Aula
 
-## [Quiz Pré-Aula](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/28)
+## [Quiz Pré-Aula](https://ff-quizzes.netlify.app/en/ds/quiz/28)
 
 A análise no ciclo de vida dos dados confirma que os dados podem responder às perguntas propostas ou resolver um problema específico. Esta etapa também pode se concentrar em confirmar se um modelo está abordando corretamente essas questões e problemas. Esta lição é focada na Análise Exploratória de Dados (EDA), que são técnicas para definir características e relações dentro dos dados e podem ser usadas para preparar os dados para modelagem.
 
-Usaremos um conjunto de dados de exemplo do [Kaggle](https://www.kaggle.com/balaka18/email-spam-classification-dataset-csv/version/1) para mostrar como isso pode ser aplicado com Python e a biblioteca Pandas. Este conjunto de dados contém uma contagem de algumas palavras comuns encontradas em e-mails, sendo que as fontes desses e-mails são anônimas. Use o [notebook](notebook.ipynb) neste diretório para acompanhar.
+Usaremos um conjunto de dados de exemplo do [Kaggle](https://www.kaggle.com/balaka18/email-spam-classification-dataset-csv/version/1) para mostrar como isso pode ser aplicado com Python e a biblioteca Pandas. Este conjunto de dados contém uma contagem de algumas palavras comuns encontradas em e-mails, sendo que as fontes desses e-mails são anônimas. Use o [notebook](../../../../4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb) neste diretório para acompanhar.
 
 ## Análise Exploratória de Dados
 
-A fase de captura do ciclo de vida é onde os dados são adquiridos, bem como os problemas e perguntas em questão, mas como sabemos se os dados podem ajudar a apoiar o resultado final?  
+A fase de captura do ciclo de vida é onde os dados são adquiridos, bem como os problemas e questões em questão, mas como sabemos se os dados podem ajudar a apoiar o resultado final?  
 Lembre-se de que um cientista de dados pode fazer as seguintes perguntas ao adquirir os dados:  
 - Eu tenho dados suficientes para resolver este problema?  
 - Os dados têm qualidade aceitável para este problema?  
@@ -39,8 +39,8 @@ Em algumas das lições anteriores, usamos o Pandas para fornecer algumas estat�
 
 ## Amostragem e Consultas
 
-Explorar tudo em um grande conjunto de dados pode ser muito demorado e geralmente é uma tarefa deixada para o computador. No entanto, a amostragem é uma ferramenta útil para entender os dados e permite que tenhamos uma melhor compreensão do que está no conjunto de dados e o que ele representa. Com uma amostra, você pode aplicar probabilidade e estatísticas para chegar a algumas conclusões gerais sobre seus dados. Embora não haja uma regra definida sobre quanto dos dados você deve amostrar, é importante observar que quanto mais dados você amostrar, mais precisa será a generalização que você pode fazer sobre os dados.  
-O Pandas possui a função [`sample()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html) em sua biblioteca, onde você pode passar um argumento de quantas amostras aleatórias deseja receber e usar.
+Explorar tudo em um grande conjunto de dados pode ser muito demorado e geralmente é uma tarefa deixada para o computador. No entanto, a amostragem é uma ferramenta útil para entender os dados e nos permite ter uma melhor compreensão do que está no conjunto de dados e o que ele representa. Com uma amostra, você pode aplicar probabilidade e estatísticas para chegar a algumas conclusões gerais sobre seus dados. Embora não haja uma regra definida sobre quanto dos dados você deve amostrar, é importante notar que quanto mais dados você amostrar, mais precisa será a generalização que você pode fazer sobre os dados.  
+O Pandas possui a função [`sample()` em sua biblioteca](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sample.html), onde você pode passar um argumento de quantas amostras aleatórias deseja receber e usar.
 
 Consultas gerais aos dados podem ajudar você a responder algumas perguntas e teorias gerais que possa ter. Em contraste com a amostragem, as consultas permitem que você tenha controle e se concentre em partes específicas dos dados sobre as quais tem perguntas.  
 A função [`query()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.query.html) na biblioteca Pandas permite selecionar colunas e receber respostas simples sobre os dados por meio das linhas recuperadas.
@@ -51,9 +51,9 @@ Você não precisa esperar até que os dados estejam completamente limpos e anal
 
 ## Explorando para Identificar Inconsistências
 
-Todos os tópicos desta lição podem ajudar a identificar valores ausentes ou inconsistentes, mas o Pandas fornece funções para verificar alguns deles. [isna() ou isnull()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.isna.html) podem verificar valores ausentes. Uma parte importante de explorar esses valores dentro de seus dados é investigar por que eles acabaram dessa forma. Isso pode ajudar você a decidir quais [ações tomar para resolvê-los](/2-Working-With-Data/08-data-preparation/notebook.ipynb).
+Todos os tópicos desta lição podem ajudar a identificar valores ausentes ou inconsistentes, mas o Pandas fornece funções para verificar alguns deles. [isna() ou isnull()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.isna.html) podem verificar valores ausentes. Uma parte importante de explorar esses valores dentro de seus dados é investigar por que eles acabaram dessa forma. Isso pode ajudar você a decidir quais [ações tomar para resolvê-los](../../../../../../../../../2-Working-With-Data/08-data-preparation/notebook.ipynb).
 
-## [Quiz Pós-Aula](https://ff-quizzes.netlify.app/en/ds/)
+## [Quiz Pós-Aula](https://ff-quizzes.netlify.app/en/ds/quiz/29)
 
 ## Tarefa
 
