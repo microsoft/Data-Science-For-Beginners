@@ -1,51 +1,49 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "87f157ea00d36c1d12c14390d9852b50",
-  "translation_date": "2025-08-26T20:44:04+00:00",
+  "original_hash": "f7440be10c17a8a9262713af3d2818a9",
+  "translation_date": "2025-09-06T19:58:18+00:00",
   "source_file": "for-teachers.md",
   "language_code": "fi"
 }
 -->
 ## Opettajille
 
-Haluaisitko käyttää tätä opetussuunnitelmaa luokassasi? Ole hyvä ja käytä vapaasti!
+Haluaisitko käyttää tätä opetusohjelmaa luokassasi? Ole hyvä ja käytä vapaasti!
 
 Itse asiassa voit käyttää sitä suoraan GitHubissa hyödyntämällä GitHub Classroomia.
 
-Tätä varten haarauta tämä repo. Sinun täytyy luoda oma repo jokaiselle oppitunnille, joten sinun täytyy erottaa jokainen kansio omaksi repokseen. Näin [GitHub Classroom](https://classroom.github.com/classrooms) voi käsitellä jokaisen oppitunnin erikseen.
+Tätä varten haarauta tämä repo. Sinun täytyy luoda repo jokaiselle oppitunnille, joten sinun täytyy jakaa jokainen kansio erilliseen repoon. Näin [GitHub Classroom](https://classroom.github.com/classrooms) voi käsitellä jokaisen oppitunnin erikseen.
 
-Nämä [yksityiskohtaiset ohjeet](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) antavat sinulle käsityksen siitä, miten luokkahuoneesi voidaan perustaa.
+Nämä [täydelliset ohjeet](https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/) antavat sinulle käsityksen siitä, miten luokkahuoneesi voidaan perustaa.
 
 ## Repon käyttäminen sellaisenaan
 
-Jos haluat käyttää tätä repoja sellaisenaan ilman GitHub Classroomia, sekin onnistuu. Sinun täytyy vain viestiä opiskelijoillesi, minkä oppitunnin parissa heidän tulisi työskennellä yhdessä.
+Jos haluat käyttää tätä repoja sellaisena kuin se on, ilman GitHub Classroomia, sekin onnistuu. Sinun täytyy vain viestiä opiskelijoillesi, minkä oppitunnin haluat käydä läpi yhdessä.
 
-Verkko-opetuksessa (esim. Zoom, Teams tai muu) voit muodostaa pienryhmiä visailuja varten ja ohjata opiskelijoita valmistautumaan oppimiseen. Sitten voit kutsua opiskelijat osallistumaan visailuihin ja lähettämään vastauksensa 'issueina' tiettyyn aikaan. Sama menetelmä voi toimia myös tehtävien kanssa, jos haluat opiskelijoiden työskentelevän avoimesti yhdessä.
+Verkko-opetuksessa (Zoom, Teams tai muu) voit muodostaa pienryhmiä visailuja varten ja ohjata opiskelijoita valmistautumaan oppimiseen. Sitten voit kutsua opiskelijat visailuihin ja pyytää heitä lähettämään vastauksensa 'issueina' tiettyyn aikaan. Sama menetelmä voi toimia tehtävien kanssa, jos haluat opiskelijoiden työskentelevän avoimesti yhteistyössä.
 
-Jos haluat mieluummin yksityisemmän lähestymistavan, pyydä opiskelijoitasi haarauttamaan opetussuunnitelma, oppitunti kerrallaan, omiin yksityisiin GitHub-repoihinsa ja antamaan sinulle pääsy niihin. Tällöin he voivat suorittaa visailut ja tehtävät yksityisesti ja lähettää ne sinulle issueina luokkahuoneesi repoon.
+Jos haluat mieluummin yksityisemmän lähestymistavan, pyydä opiskelijoita haarauttamaan opetusohjelma, oppitunti kerrallaan, omiin GitHub-repoihinsa yksityisinä repoina ja antamaan sinulle pääsyn. Näin he voivat suorittaa visailut ja tehtävät yksityisesti ja lähettää ne sinulle issueina luokkahuoneesi repoon.
 
-On monia tapoja saada tämä toimimaan verkkoluokkahuoneessa. Kerro meille, mikä toimii parhaiten sinulle!
+On monia tapoja saada tämä toimimaan verkko-opetuksessa. Kerro meille, mikä toimii parhaiten sinulle!
 
-## Tämä opetussuunnitelma sisältää:
+## Tämä opetusohjelma sisältää:
 
-20 oppituntia, 40 visailua ja 20 tehtävää. Oppitunteihin liittyy piirrosmuistiinpanoja visuaalisille oppijoille. Monet oppitunnit ovat saatavilla sekä Pythonilla että R:llä, ja ne voidaan suorittaa Jupyter-notebookeilla VS Codessa. Lue lisää, miten voit perustaa luokkahuoneesi käyttämään tätä teknologiapinoa: https://code.visualstudio.com/docs/datascience/jupyter-notebooks.
+20 oppituntia, 40 visailua ja 20 tehtävää. Oppitunteja tukevat visuaalisille oppijoille tarkoitetut luonnosmuistiinpanot. Monet oppitunnit ovat saatavilla sekä Pythonilla että R:llä, ja ne voidaan suorittaa Jupyter-notebookeilla VS Codessa. Lue lisää siitä, miten luokkahuoneesi voidaan asettaa käyttämään tätä teknologiaa: https://code.visualstudio.com/docs/datascience/jupyter-notebooks.
 
-Kaikki piirrosmuistiinpanot, mukaan lukien suurikokoinen juliste, löytyvät [tästä kansiosta](../../sketchnotes).
+Kaikki luonnosmuistiinpanot, mukaan lukien suurikokoinen juliste, löytyvät [tästä kansiosta](../../sketchnotes).
 
-Koko opetussuunnitelma on saatavilla [PDF-muodossa](../../pdf/readme.pdf).
+Voit myös käyttää tätä opetusohjelmaa itsenäisenä, offline-ystävällisenä verkkosivustona hyödyntämällä [Docsifyä](https://docsify.js.org/#/). [Asenna Docsify](https://docsify.js.org/#/quickstart) paikalliselle koneellesi, ja sitten paikallisen kopiosi juurikansiossa kirjoita `docsify serve`. Verkkosivusto palvelee portissa 3000 paikallisessa verkossasi: `localhost:3000`.
 
-Voit myös käyttää tätä opetussuunnitelmaa itsenäisenä, offline-ystävällisenä verkkosivustona hyödyntämällä [Docsifya](https://docsify.js.org/#/). [Asenna Docsify](https://docsify.js.org/#/quickstart) paikalliselle koneellesi, ja kirjoita tämän repon paikallisen kopion juurikansiossa `docsify serve`. Verkkosivusto palvelee portissa 3000 paikallisessa ympäristössäsi: `localhost:3000`.
-
-Offline-ystävällinen versio opetussuunnitelmasta avautuu itsenäisenä verkkosivuna: https://localhost:3000
+Offline-ystävällinen versio opetusohjelmasta avautuu itsenäisenä verkkosivuna: https://localhost:3000
 
 Oppitunnit on jaettu kuuteen osaan:
 
 - 1: Johdanto
-    - 1: Mitä on datatiede
+    - 1: Datatieteen määrittely
     - 2: Etiikka
     - 3: Datan määrittely
-    - 4: Todennäköisyys ja tilastot yleisesti
+    - 4: Todennäköisyys ja tilastot - yleiskatsaus
 - 2: Datan käsittely
     - 5: Relaatiotietokannat
     - 6: Ei-relaatiotietokannat
@@ -55,7 +53,7 @@ Oppitunnit on jaettu kuuteen osaan:
     - 9: Määrien visualisointi
     - 10: Jakautumien visualisointi
     - 11: Suhteiden visualisointi
-    - 12: Yhteyksien visualisointi
+    - 12: Prosenttiosuuksien visualisointi
     - 13: Merkitykselliset visualisoinnit
 - 4: Datatieteen elinkaari
     - 14: Johdanto
@@ -68,11 +66,11 @@ Oppitunnit on jaettu kuuteen osaan:
 - 6: Datatiede käytännössä
     - 20: Yleiskatsaus
 
-## Kerro meille mielipiteesi!
+## Kerro meille ajatuksesi!
 
-Haluamme tehdä tästä opetussuunnitelmasta toimivan sinulle ja opiskelijoillesi. Anna meille palautetta keskustelupalstoilla! Voit myös luoda luokkahuoneesi oman alueen keskustelupalstoille opiskelijoitasi varten.
+Haluamme tehdä tästä opetusohjelmasta toimivan sinulle ja opiskelijoillesi. Anna meille palautetta keskustelupalstoilla! Voit myös luoda luokkahuonealueen keskustelupalstoille opiskelijoitasi varten.
 
 ---
 
 **Vastuuvapauslauseke**:  
-Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäinen asiakirja sen alkuperäisellä kielellä tulisi pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa väärinkäsityksistä tai virhetulkinnoista, jotka johtuvat tämän käännöksen käytöstä.
+Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Pyrimme tarkkuuteen, mutta huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulee pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskääntämistä. Emme ole vastuussa tämän käännöksen käytöstä aiheutuvista väärinkäsityksistä tai virhetulkinnoista.
