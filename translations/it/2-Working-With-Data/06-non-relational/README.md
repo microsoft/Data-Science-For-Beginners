@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "54c5a1c74aecb69d2f9099300a4b7eea",
-  "translation_date": "2025-09-04T17:54:17+00:00",
+  "original_hash": "c182e87f9f80be7e7cdffc7b40bbfccf",
+  "translation_date": "2025-09-06T08:41:23+00:00",
   "source_file": "2-Working-With-Data/06-non-relational/README.md",
   "language_code": "it"
 }
@@ -13,55 +13,55 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |Lavorare con i dati NoSQL - _Sketchnote di [@nitya](https://twitter.com/nitya)_ |
 
-## [Quiz Pre-Lezione](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/10)
+## [Quiz Pre-Lezione](https://ff-quizzes.netlify.app/en/ds/quiz/10)
 
 I dati non sono limitati ai database relazionali. Questa lezione si concentra sui dati non relazionali e coprirà le basi dei fogli di calcolo e del NoSQL.
 
 ## Fogli di calcolo
 
-I fogli di calcolo sono un modo popolare per archiviare ed esplorare i dati perché richiedono meno lavoro per essere configurati e utilizzati. In questa lezione imparerai i componenti di base di un foglio di calcolo, oltre a formule e funzioni. Gli esempi saranno illustrati con Microsoft Excel, ma la maggior parte delle parti e degli argomenti avrà nomi e passaggi simili rispetto ad altri software per fogli di calcolo.
+I fogli di calcolo sono un modo popolare per archiviare ed esplorare i dati perché richiedono meno lavoro per essere configurati e utilizzati. In questa lezione imparerai i componenti di base di un foglio di calcolo, oltre a formule e funzioni. Gli esempi saranno illustrati con Microsoft Excel, ma la maggior parte delle parti e degli argomenti avrà nomi e passaggi simili rispetto ad altri software di fogli di calcolo.
 
-![Un foglio di lavoro Microsoft Excel vuoto con due schede](../../../../translated_images/parts-of-spreadsheet.120711c82aa18a45c3e62a491a15bba0a31ab0e9db407ec022702fed8ffd89bf.it.png)
+![Un foglio di lavoro vuoto di Microsoft Excel con due schede](../../../../2-Working-With-Data/06-non-relational/images/parts-of-spreadsheet.png)
 
-Un foglio di calcolo è un file e sarà accessibile nel file system di un computer, dispositivo o sistema di archiviazione basato su cloud. Il software stesso può essere basato su browser o un'applicazione che deve essere installata su un computer o scaricata come app. In Excel questi file sono definiti anche come **workbook** e questa terminologia sarà utilizzata per il resto della lezione.
+Un foglio di calcolo è un file e sarà accessibile nel file system di un computer, dispositivo o sistema di file basato su cloud. Il software stesso può essere basato su browser o un'applicazione che deve essere installata su un computer o scaricata come app. In Excel questi file sono definiti anche come **workbook** e questa terminologia sarà utilizzata per il resto della lezione.
 
-Un workbook contiene una o più **worksheet**, dove ogni worksheet è etichettata con delle schede. All'interno di una worksheet ci sono rettangoli chiamati **celle**, che contengono i dati effettivi. Una cella è l'intersezione di una riga e una colonna, dove le colonne sono etichettate con caratteri alfabetici e le righe con numeri. Alcuni fogli di calcolo contengono intestazioni nelle prime righe per descrivere i dati in una cella.
+Un workbook contiene una o più **worksheets**, dove ogni worksheet è etichettata con delle schede. All'interno di una worksheet ci sono rettangoli chiamati **celle**, che contengono i dati effettivi. Una cella è l'intersezione di una riga e una colonna, dove le colonne sono etichettate con caratteri alfabetici e le righe con numeri. Alcuni fogli di calcolo contengono intestazioni nelle prime righe per descrivere i dati in una cella.
 
 Con questi elementi di base di un workbook Excel, utilizzeremo un esempio da [Microsoft Templates](https://templates.office.com/) focalizzato su un inventario per esaminare alcune parti aggiuntive di un foglio di calcolo.
 
 ### Gestione di un inventario
 
-Il file del foglio di calcolo chiamato "InventoryExample" è un foglio di calcolo formattato di articoli all'interno di un inventario che contiene tre worksheet, dove le schede sono etichettate "Inventory List", "Inventory Pick List" e "Bin Lookup". La riga 4 della worksheet Inventory List è l'intestazione, che descrive il valore di ogni cella nella colonna dell'intestazione.
+Il file del foglio di calcolo chiamato "InventoryExample" è un foglio di calcolo formattato di articoli all'interno di un inventario che contiene tre worksheets, dove le schede sono etichettate "Inventory List", "Inventory Pick List" e "Bin Lookup". La riga 4 della worksheet Inventory List è l'intestazione, che descrive il valore di ogni cella nella colonna dell'intestazione.
 
-![Una formula evidenziata da un esempio di lista inventario in Microsoft Excel](../../../../translated_images/formula-excel.ad1068c220892f5ead570d12f2394897961d31a5043a1dd4e6fc5d7690c7a14e.it.png)
+![Una formula evidenziata da un esempio di lista inventario in Microsoft Excel](../../../../2-Working-With-Data/06-non-relational/images/formula-excel.png)
 
-Ci sono casi in cui una cella dipende dai valori di altre celle per generare il proprio valore. Il foglio di calcolo Inventory List tiene traccia del costo di ogni articolo nel suo inventario, ma cosa succede se abbiamo bisogno di sapere il valore di tutto l'inventario? [**Le formule**](https://support.microsoft.com/en-us/office/overview-of-formulas-34519a4e-1e8d-4f4b-84d4-d642c4f63263) eseguono operazioni sui dati delle celle e vengono utilizzate per calcolare il costo dell'inventario in questo esempio. Questo foglio di calcolo utilizza una formula nella colonna Inventory Value per calcolare il valore di ogni articolo moltiplicando la quantità sotto l'intestazione QTY e i suoi costi dalle celle sotto l'intestazione COST. Facendo doppio clic o evidenziando una cella verrà mostrata la formula. Noterai che le formule iniziano con un segno di uguale, seguito dal calcolo o dall'operazione.
+Ci sono casi in cui una cella dipende dai valori di altre celle per generare il proprio valore. Il foglio di calcolo Inventory List tiene traccia del costo di ogni articolo nel suo inventario, ma cosa succede se abbiamo bisogno di sapere il valore di tutto l'inventario? [**Le formule**](https://support.microsoft.com/en-us/office/overview-of-formulas-34519a4e-1e8d-4f4b-84d4-d642c4f63263) eseguono azioni sui dati delle celle e vengono utilizzate per calcolare il costo dell'inventario in questo esempio. Questo foglio di calcolo utilizza una formula nella colonna Inventory Value per calcolare il valore di ogni articolo moltiplicando la quantità sotto l'intestazione QTY e i suoi costi dalle celle sotto l'intestazione COST. Facendo doppio clic o evidenziando una cella verrà mostrata la formula. Noterai che le formule iniziano con un segno di uguale, seguito dal calcolo o dall'operazione.
 
-![Una funzione evidenziata da un esempio di lista inventario in Microsoft Excel](../../../../translated_images/function-excel.be2ae4feddc10ca089f3d4363040d93b7fd046c8d4f83ba975ec46483ee99895.it.png)
+![Una funzione evidenziata da un esempio di lista inventario in Microsoft Excel](../../../../2-Working-With-Data/06-non-relational/images/function-excel.png)
 
-Possiamo utilizzare un'altra formula per sommare tutti i valori di Inventory Value e ottenere il valore totale. Questo potrebbe essere calcolato sommando ogni cella per generare la somma, ma può essere un compito tedioso. Excel ha [**funzioni**](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89), ovvero formule predefinite per eseguire calcoli sui valori delle celle. Le funzioni richiedono argomenti, che sono i valori necessari per eseguire questi calcoli. Quando le funzioni richiedono più di un argomento, devono essere elencati in un ordine specifico o la funzione potrebbe non calcolare il valore corretto. Questo esempio utilizza la funzione SUM e utilizza i valori di Inventory Value come argomento per sommare e generare il totale elencato sotto la riga 3, colonna B (anche indicata come B3).
+Possiamo utilizzare un'altra formula per sommare tutti i valori di Inventory Value e ottenere il valore totale. Questo potrebbe essere calcolato sommando ogni cella per generare la somma, ma può essere un compito tedioso. Excel ha [**funzioni**](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89), ovvero formule predefinite per eseguire calcoli sui valori delle celle. Le funzioni richiedono argomenti, che sono i valori necessari per eseguire questi calcoli. Quando le funzioni richiedono più di un argomento, devono essere elencate in un ordine specifico o la funzione potrebbe non calcolare il valore corretto. Questo esempio utilizza la funzione SUM e utilizza i valori di Inventory Value come argomento per generare il totale elencato sotto la riga 3, colonna B (anche indicata come B3).
 
 ## NoSQL
 
 NoSQL è un termine generico per i diversi modi di archiviare dati non relazionali e può essere interpretato come "non-SQL", "non-relazionale" o "non solo SQL". Questi tipi di sistemi di database possono essere classificati in 4 tipi.
 
-![Rappresentazione grafica di un archivio dati chiave-valore che mostra 4 chiavi numeriche uniche associate a 4 valori diversi](../../../../translated_images/kv-db.e8f2b75686bbdfcba0c827b9272c10ae0821611ea0fe98429b9d13194383afa6.it.png)
-> Fonte da [Michał Białecki Blog](https://www.michalbialecki.com/2018/03/18/azure-cosmos-db-key-value-database-cloud/)
+![Rappresentazione grafica di un archivio dati chiave-valore che mostra 4 chiavi numeriche uniche associate a 4 valori diversi](../../../../2-Working-With-Data/06-non-relational/images/kv-db.png)
+> Fonte da [Blog di Michał Białecki](https://www.michalbialecki.com/2018/03/18/azure-cosmos-db-key-value-database-cloud/)
 
-I database [Key-value](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#keyvalue-data-stores) associano chiavi uniche, che sono identificatori univoci associati a un valore. Queste coppie sono archiviate utilizzando una [tabella hash](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/) con una funzione di hashing appropriata.
+I database [Key-value](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#keyvalue-data-stores) associano chiavi uniche, che sono identificatori unici associati a un valore. Queste coppie sono archiviate utilizzando una [tabella hash](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/) con una funzione di hashing appropriata.
 
-![Rappresentazione grafica di un archivio dati a grafo che mostra le relazioni tra persone, i loro interessi e le loro posizioni](../../../../translated_images/graph-db.d13629152f79a9dac895b20fa7d841d4d4d6f6008b1382227c3bbd200fd4cfa1.it.png)
+![Rappresentazione grafica di un archivio dati a grafo che mostra le relazioni tra persone, i loro interessi e le loro posizioni](../../../../2-Working-With-Data/06-non-relational/images/graph-db.png)
 > Fonte da [Microsoft](https://docs.microsoft.com/en-us/azure/cosmos-db/graph/graph-introduction#graph-database-by-example)
 
 I database [Graph](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#graph-data-stores) descrivono le relazioni nei dati e sono rappresentati come una raccolta di nodi e archi. Un nodo rappresenta un'entità, qualcosa che esiste nel mondo reale come uno studente o un estratto conto bancario. Gli archi rappresentano la relazione tra due entità. Ogni nodo e arco ha proprietà che forniscono informazioni aggiuntive su ciascun nodo e arco.
 
-![Rappresentazione grafica di un archivio dati colonnare che mostra un database clienti con due famiglie di colonne chiamate Identità e Informazioni di Contatto](../../../../translated_images/columnar-db.ffcfe73c3e9063a8c8f93f8ace85e1200863584b1e324eb5159d8ca10f62ec04.it.png)
+![Rappresentazione grafica di un archivio dati colonnare che mostra un database clienti con due famiglie di colonne chiamate Identità e Informazioni di Contatto](../../../../2-Working-With-Data/06-non-relational/images/columnar-db.png)
 
-Gli [archivi dati colonnari](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) organizzano i dati in colonne e righe come una struttura dati relazionale, ma ogni colonna è divisa in gruppi chiamati famiglie di colonne, dove tutti i dati sotto una colonna sono correlati e possono essere recuperati e modificati in un'unica unità.
+Gli archivi dati [Columnar](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) organizzano i dati in colonne e righe come una struttura dati relazionale, ma ogni colonna è divisa in gruppi chiamati famiglie di colonne, dove tutti i dati sotto una colonna sono correlati e possono essere recuperati e modificati in un'unica unità.
 
 ### Archivi dati documentali con Azure Cosmos DB
 
-Gli [archivi dati documentali](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#document-data-stores) si basano sul concetto di un archivio dati chiave-valore e sono costituiti da una serie di campi e oggetti. Questa sezione esplorerà i database documentali con l'emulatore Cosmos DB.
+Gli archivi dati [Document](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#document-data-stores) si basano sul concetto di archivio dati chiave-valore e sono costituiti da una serie di campi e oggetti. Questa sezione esplorerà i database documentali con l'emulatore Cosmos DB.
 
 Un database Cosmos DB si adatta alla definizione di "Non Solo SQL", dove il database documentale di Cosmos DB si basa su SQL per interrogare i dati. La [lezione precedente](../05-relational-databases/README.md) su SQL copre le basi del linguaggio e saremo in grado di applicare alcune delle stesse query a un database documentale qui. Utilizzeremo l'emulatore Cosmos DB, che ci consente di creare ed esplorare un database documentale localmente su un computer. Leggi di più sull'emulatore [qui](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21).
 
@@ -88,27 +88,27 @@ Puoi scaricare e installare l'emulatore [per Windows qui](https://aka.ms/cosmosd
 
 L'emulatore avvia una finestra del browser, dove la vista Explorer consente di esplorare i documenti.
 
-![La vista Explorer dell'emulatore Cosmos DB](../../../../translated_images/cosmosdb-emulator-explorer.a1c80b1347206fe2f30f88fc123821636587d04fc5a56a9eb350c7da6b31f361.it.png)
+![La vista Explorer dell'emulatore Cosmos DB](../../../../2-Working-With-Data/06-non-relational/images/cosmosdb-emulator-explorer.png)
 
-Se stai seguendo, fai clic su "Start with Sample" per generare un database di esempio chiamato SampleDB. Se espandi SampleDB facendo clic sulla freccia, troverai un contenitore chiamato `Persons`, un contenitore contiene una raccolta di elementi, che sono i documenti all'interno del contenitore. Puoi esplorare i quattro documenti individuali sotto `Items`.
+Se stai seguendo, clicca su "Start with Sample" per generare un database di esempio chiamato SampleDB. Se espandi SampleDB cliccando sulla freccia troverai un contenitore chiamato `Persons`, un contenitore contiene una raccolta di elementi, che sono i documenti all'interno del contenitore. Puoi esplorare i quattro documenti individuali sotto `Items`.
 
-![Esplorare i dati di esempio nell'emulatore Cosmos DB](../../../../translated_images/cosmosdb-emulator-persons.bf640586a7077c8985dfd3071946465c8e074c722c7c202d6d714de99a93b90a.it.png)
+![Esplorare dati di esempio nell'emulatore Cosmos DB](../../../../2-Working-With-Data/06-non-relational/images/cosmosdb-emulator-persons.png)
 
 #### Interrogare i dati documentali con l'emulatore Cosmos DB
 
-Possiamo anche interrogare i dati di esempio facendo clic sul pulsante nuova query SQL (secondo pulsante da sinistra).
+Possiamo anche interrogare i dati di esempio cliccando sul pulsante nuova query SQL (secondo pulsante da sinistra).
 
 `SELECT * FROM c` restituisce tutti i documenti nel contenitore. Aggiungiamo una clausola where e troviamo tutti quelli con meno di 40 anni.
 
 `SELECT * FROM c where c.age < 40`
 
-![Eseguire una query SELECT sui dati di esempio nell'emulatore Cosmos DB per trovare documenti che hanno un valore del campo age inferiore a 40](../../../../translated_images/cosmosdb-emulator-persons-query.6905ebb497e3cd047cd96e55a0a03f69ce1b91b2b3d8c147e617b746b22b7e33.it.png)
+![Eseguire una query SELECT sui dati di esempio nell'emulatore Cosmos DB per trovare documenti che hanno un valore del campo age inferiore a 40](../../../../2-Working-With-Data/06-non-relational/images/cosmosdb-emulator-persons-query.png)
 
 La query restituisce due documenti, nota che il valore age per ciascun documento è inferiore a 40.
 
 #### JSON e documenti
 
-Se hai familiarità con JavaScript Object Notation (JSON), noterai che i documenti sembrano simili a JSON. C'è un file `PersonsData.json` in questa directory con più dati che puoi caricare nel contenitore Persons nell'emulatore tramite il pulsante `Upload Item`.
+Se hai familiarità con JavaScript Object Notation (JSON) noterai che i documenti sembrano simili a JSON. C'è un file `PersonsData.json` in questa directory con più dati che puoi caricare nel contenitore Persons nell'emulatore tramite il pulsante `Upload Item`.
 
 Nella maggior parte dei casi, le API che restituiscono dati JSON possono essere trasferite direttamente e archiviate nei database documentali. Di seguito è riportato un altro documento, rappresenta tweet dall'account Twitter di Microsoft che sono stati recuperati utilizzando l'API di Twitter, quindi inseriti in Cosmos DB.
 
@@ -130,19 +130,19 @@ I campi di interesse in questo documento sono: `created_at`, `id` e `text`.
 
 C'è un file `TwitterData.json` che puoi caricare nel database SampleDB. Si consiglia di aggiungerlo a un contenitore separato. Questo può essere fatto:
 
-1. Facendo clic sul pulsante nuovo contenitore in alto a destra
+1. Cliccando sul pulsante nuovo contenitore in alto a destra
 1. Selezionando il database esistente (SampleDB) e creando un id per il contenitore
 1. Impostando la chiave di partizione su `/id`
-1. Facendo clic su OK (puoi ignorare il resto delle informazioni in questa vista poiché si tratta di un piccolo set di dati che gira localmente sulla tua macchina)
+1. Cliccando su OK (puoi ignorare il resto delle informazioni in questa vista poiché si tratta di un piccolo dataset che gira localmente sulla tua macchina)
 1. Apri il tuo nuovo contenitore e carica il file Twitter Data con il pulsante `Upload Item`
 
 Prova a eseguire alcune query SELECT per trovare i documenti che contengono Microsoft nel campo text. Suggerimento: prova a utilizzare la [parola chiave LIKE](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character).
 
-## [Quiz Post-Lezione](https://ff-quizzes.netlify.app/en/ds/)
+## [Quiz Post-Lezione](https://ff-quizzes.netlify.app/en/ds/quiz/11)
 
 ## Revisione e studio autonomo
 
-- Ci sono alcune funzionalità e formattazioni aggiuntive in questo foglio di calcolo che questa lezione non copre. Microsoft ha una [grande libreria di documentazione e video](https://support.microsoft.com/excel) su Excel se sei interessato a imparare di più.
+- Ci sono alcune formattazioni e funzionalità aggiuntive in questo foglio di calcolo che questa lezione non copre. Microsoft ha una [grande libreria di documentazione e video](https://support.microsoft.com/excel) su Excel se sei interessato a imparare di più.
 
 - Questa documentazione architettonica dettaglia le caratteristiche dei diversi tipi di dati non relazionali: [Dati non relazionali e NoSQL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data)
 

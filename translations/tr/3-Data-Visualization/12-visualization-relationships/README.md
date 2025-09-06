@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "b29e427401499e81f4af55a8c4afea76",
-  "translation_date": "2025-09-04T18:13:57+00:00",
+  "original_hash": "44de95649fcec43643cbe3962f904331",
+  "translation_date": "2025-09-06T09:02:19+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "tr"
 }
@@ -13,19 +13,19 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 |İlişkileri Görselleştirme - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-Araştırmamızın doğa odaklı temasına devam ederek, Amerika Birleşik Devletleri Tarım Bakanlığı'ndan ([United States Department of Agriculture](https://www.nass.usda.gov/About_NASS/index.php)) alınan bir veri setine göre çeşitli bal türleri arasındaki ilişkileri göstermek için ilginç görselleştirmeler keşfedelim.
+Araştırmamızın doğa odaklı temasına devam ederek, Amerika Birleşik Devletleri Tarım Bakanlığı'ndan ([United States Department of Agriculture](https://www.nass.usda.gov/About_NASS/index.php)) alınan bir veri setine göre farklı bal türleri arasındaki ilişkileri göstermek için ilginç görselleştirmeler keşfedelim.
 
-Yaklaşık 600 öğeden oluşan bu veri seti, birçok ABD eyaletindeki bal üretimini göstermektedir. Örneğin, bir eyaletteki kolonilerin sayısını, koloni başına verimi, toplam üretimi, stokları, pound başına fiyatı ve 1998-2012 yılları arasında üretilen balın değerini inceleyebilirsiniz. Her eyalet için her yıl bir satır bulunmaktadır.
+Yaklaşık 600 öğeden oluşan bu veri seti, birçok ABD eyaletindeki bal üretimini gösteriyor. Örneğin, bir eyaletteki kolonilerin sayısını, koloni başına verimi, toplam üretimi, stokları, pound başına fiyatı ve 1998-2012 yılları arasında üretilen balın değerini inceleyebilirsiniz. Her yıl için her eyalet bir satırda temsil edilir.
 
-Bir eyaletin yıllık üretimi ile o eyaletteki bal fiyatı arasındaki ilişkiyi görselleştirmek ilginç olabilir. Alternatif olarak, eyaletlerin koloni başına bal verimi arasındaki ilişkiyi görselleştirebilirsiniz. Bu zaman aralığı, ilk olarak 2006 yılında görülen 'Koloni Çöküş Bozukluğu' (CCD) (http://npic.orst.edu/envir/ccd.html) gibi yıkıcı bir dönemi kapsadığı için çalışılması anlamlı bir veri setidir. 🐝
+Bir eyaletin yıllık üretimi ile o eyaletteki bal fiyatı arasındaki ilişkiyi görselleştirmek ilginç olabilir. Alternatif olarak, eyaletlerin koloni başına bal verimi arasındaki ilişkiyi görselleştirebilirsiniz. Bu zaman aralığı, ilk kez 2006 yılında görülen 'Koloni Çöküş Bozukluğu' (CCD) (http://npic.orst.edu/envir/ccd.html) gibi yıkıcı olayları kapsadığı için çalışılması anlamlı bir veri setidir. 🐝
 
-## [Ders Öncesi Test](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/22)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ds/quiz/22)
 
-Bu derste, daha önce kullandığınız Seaborn kütüphanesini, değişkenler arasındaki ilişkileri görselleştirmek için kullanabilirsiniz. Özellikle Seaborn'un `relplot` fonksiyonunu kullanarak, veri bilimcilerin değişkenlerin birbirleriyle nasıl ilişkili olduğunu daha iyi anlamalarını sağlayan '[istatistiksel ilişkiler](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)' için hızlı bir şekilde dağılım grafikleri ve çizgi grafikleri oluşturabilirsiniz.
+Bu derste, daha önce kullandığınız Seaborn kütüphanesini değişkenler arasındaki ilişkileri görselleştirmek için kullanabilirsiniz. Özellikle ilginç olan, Seaborn'un `relplot` fonksiyonunu kullanarak '[istatistiksel ilişkileri](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)' hızlı bir şekilde görselleştirebilmenizdir. Bu, veri bilimcinin değişkenlerin birbirleriyle nasıl ilişkili olduğunu daha iyi anlamasına olanak tanır.
 
 ## Dağılım Grafikleri
 
-Bal fiyatının eyalet bazında yıllar içinde nasıl değiştiğini göstermek için bir dağılım grafiği kullanın. Seaborn, `relplot` kullanarak eyalet verilerini gruplar ve hem kategorik hem de sayısal veriler için veri noktalarını görüntüler.
+Bir eyaletteki bal fiyatının yıllar içinde nasıl değiştiğini göstermek için bir dağılım grafiği kullanın. Seaborn, `relplot` kullanarak eyalet verilerini gruplar ve hem kategorik hem de sayısal veriler için veri noktalarını görüntüler.
 
 Hadi verileri ve Seaborn'u içe aktararak başlayalım:
 
@@ -36,7 +36,7 @@ import seaborn as sns
 honey = pd.read_csv('../../data/honey.csv')
 honey.head()
 ```
-Bal verilerinin yıl ve pound başına fiyat gibi birkaç ilginç sütuna sahip olduğunu fark ediyorsunuz. Bu verileri ABD eyaletlerine göre gruplayarak keşfedelim:
+Bal verilerinin yıl ve pound başına fiyat gibi birkaç ilginç sütuna sahip olduğunu fark ediyorsunuz. Bu verileri ABD eyaletlerine göre gruplandırarak keşfedelim:
 
 | eyalet | numcol | yieldpercol | totalprod | stocks   | priceperlb | prodvalue | year |
 | ----- | ------ | ----------- | --------- | -------- | ---------- | --------- | ---- |
@@ -51,7 +51,7 @@ Balın pound başına fiyatı ile ABD'deki üretim eyaletleri arasındaki ilişk
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.tr.png)
+![scatterplot 1](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter1.png)
 
 Şimdi, aynı verileri yıllar içinde fiyatın nasıl değiştiğini göstermek için bal renk şemasıyla gösterin. Bunu, yıllar içinde değişimi göstermek için bir 'hue' parametresi ekleyerek yapabilirsiniz:
 
@@ -60,9 +60,9 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.tr.png)
+![scatterplot 2](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter2.png)
 
-Bu renk şeması değişikliğiyle, yıllar içinde pound başına bal fiyatında belirgin bir artış olduğunu açıkça görebilirsiniz. Gerçekten de, verilerde bir örnek seti inceleyerek (örneğin Arizona eyaletini seçerek) yıllar içinde fiyat artışlarının bir modelini, birkaç istisna dışında görebilirsiniz:
+Bu renk şeması değişikliğiyle, yıllar içinde pound başına bal fiyatında güçlü bir ilerleme olduğunu açıkça görebilirsiniz. Gerçekten de, verilerde bir örnek seti doğrulamak için (örneğin Arizona'yı seçin) yıllar içinde fiyat artışlarının bir modelini, birkaç istisna dışında görebilirsiniz:
 
 | eyalet | numcol | yieldpercol | totalprod | stocks  | priceperlb | prodvalue | year |
 | ----- | ------ | ----------- | --------- | ------- | ---------- | --------- | ---- |
@@ -82,18 +82,18 @@ Bu renk şeması değişikliğiyle, yıllar içinde pound başına bal fiyatınd
 | AZ    | 23000  | 53          | 1219000   | 427000  | 1.55       | 1889000   | 2011 |
 | AZ    | 22000  | 46          | 1012000   | 253000  | 1.79       | 1811000   | 2012 |
 
-Bu ilerlemeyi görselleştirmenin bir başka yolu, renk yerine boyut kullanmaktır. Renk körü kullanıcılar için bu daha iyi bir seçenek olabilir. Görselleştirmenizi, fiyat artışını nokta çevresinin artışıyla gösterecek şekilde düzenleyin:
+Bu ilerlemeyi görselleştirmenin bir başka yolu, renk yerine boyut kullanmaktır. Renk körü kullanıcılar için bu daha iyi bir seçenek olabilir. Fiyat artışını nokta çevresinin artışıyla göstermek için görselleştirmenizi düzenleyin:
 
 ```python
 sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspect=.5);
 ```
-Noktaların boyutlarının kademeli olarak arttığını görebilirsiniz.
+Noktaların boyutunun kademeli olarak arttığını görebilirsiniz.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.tr.png)
+![scatterplot 3](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter3.png)
 
-Bu basit bir arz ve talep meselesi mi? İklim değişikliği ve koloni çöküşü gibi faktörler nedeniyle, yıllar içinde satın alınabilir bal miktarı azalıyor ve bu nedenle fiyat mı artıyor?
+Bu basit bir arz-talep meselesi mi? İklim değişikliği ve koloni çöküşü gibi faktörler nedeniyle, yıllar içinde satın alınabilecek daha az bal mı var ve bu nedenle fiyat mı artıyor?
 
-Bu veri setindeki bazı değişkenler arasında bir korelasyon bulmak için çizgi grafiklerini keşfedelim.
+Bu veri setindeki bazı değişkenler arasında bir korelasyon bulmak için, bazı çizgi grafiklerini keşfedelim.
 
 ## Çizgi Grafikleri
 
@@ -104,9 +104,9 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Cevap: Evet, 2003 yılı civarındaki bazı istisnalar dışında:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.tr.png)
+![line chart 1](../../../../3-Data-Visualization/12-visualization-relationships/images/line1.png)
 
-✅ Seaborn, bir çizgi etrafında verileri birleştirerek "her x değerindeki birden fazla ölçümü, ortalama ve ortalama etrafındaki %95 güven aralığını çizerek" görüntüler. [Kaynak](https://seaborn.pydata.org/tutorial/relational.html). Bu zaman alıcı davranış, `ci=None` eklenerek devre dışı bırakılabilir.
+✅ Seaborn, verileri tek bir çizgi etrafında topladığı için "her x değerindeki birden fazla ölçümü ortalamayı ve ortalama etrafındaki %95 güven aralığını çizerek" gösterir. [Kaynak](https://seaborn.pydata.org/tutorial/relational.html). Bu zaman alıcı davranış, `ci=None` eklenerek devre dışı bırakılabilir.
 
 Soru: Peki, 2003 yılında bal arzında bir artış görebilir miyiz? Yıllar içinde toplam üretime bakarsanız ne olur?
 
@@ -114,17 +114,17 @@ Soru: Peki, 2003 yılında bal arzında bir artış görebilir miyiz? Yıllar i�
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.tr.png)
+![line chart 2](../../../../3-Data-Visualization/12-visualization-relationships/images/line2.png)
 
-Cevap: Pek değil. Toplam üretime bakarsanız, aslında o yıl artmış gibi görünüyor, ancak genel olarak bu yıllar boyunca üretilen bal miktarı düşüşte.
+Cevap: Pek değil. Toplam üretime bakarsanız, aslında o yıl artmış gibi görünüyor, ancak genel olarak konuşursak, bu yıllar boyunca üretilen bal miktarı düşüşte.
 
-Soru: Bu durumda, 2003 civarındaki bal fiyatındaki artışa ne sebep olmuş olabilir?
+Soru: Bu durumda, 2003 yılı civarındaki bal fiyatındaki artışa ne sebep olmuş olabilir?
 
 Bunu keşfetmek için bir facet grid oluşturabilirsiniz.
 
 ## Facet Gridler
 
-Facet gridler, veri setinizin bir yönünü (bizim durumumuzda 'yıl'ı seçebilirsiniz) alır ve Seaborn, seçtiğiniz x ve y koordinatları için daha kolay görsel karşılaştırma sağlamak amacıyla her bir facet için bir grafik oluşturur. 2003 yılı bu tür bir karşılaştırmada öne çıkıyor mu?
+Facet gridler, veri setinizin bir yönünü (bizim durumumuzda 'yıl'ı seçebilirsiniz) alır ve Seaborn, seçtiğiniz x ve y koordinatları için daha kolay görsel karşılaştırma yapmak üzere her bir facet için bir grafik oluşturur. Bu tür bir karşılaştırmada 2003 yılı öne çıkıyor mu?
 
 Seaborn'un [belgelerinde önerildiği](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid) gibi `relplot` kullanmaya devam ederek bir facet grid oluşturun.
 
@@ -138,13 +138,13 @@ sns.relplot(
 ```
 Bu görselleştirmede, koloni başına verim ve koloni sayısını yıllar içinde yan yana, sütunlar için wrap 3 olarak ayarlanmış şekilde karşılaştırabilirsiniz:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.tr.png)
+![facet grid](../../../../3-Data-Visualization/12-visualization-relationships/images/facet.png)
 
-Bu veri seti için, eyaletler ve yıllar arasında koloni sayısı ve verim açısından dikkat çeken bir şey yok. Bu iki değişken arasında bir korelasyon bulmanın farklı bir yolu var mı?
+Bu veri seti için, yıllar içinde ve eyaletler arasında koloni sayısı ve verim açısından özellikle dikkat çeken bir şey yok. Bu iki değişken arasında bir korelasyon bulmanın farklı bir yolu var mı?
 
 ## Çift Çizgi Grafikleri
 
-Seaborn'un 'despine' özelliğini kullanarak üst ve sağ kenarları kaldırın ve Matplotlib'den [ax.twinx](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html) kullanarak iki çizgi grafiği üst üste bindirin. Twinx, bir grafiğin x eksenini paylaşmasını ve iki y ekseni görüntülemesini sağlar. Koloni başına verim ve koloni sayısını üst üste bindirerek gösterin:
+Seaborn'un 'despine' özelliğini kullanarak üst ve sağ kenar çizgilerini kaldırın ve Matplotlib'den [ax.twinx](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html) kullanarak iki çizgi grafiği üst üste bindirin. Twinx, bir grafiğin x eksenini paylaşmasına ve iki y ekseni görüntülemesine olanak tanır. Koloni başına verim ve koloni sayısını üst üste bindirerek gösterin:
 
 ```python
 fig, ax = plt.subplots(figsize=(12,6))
@@ -161,22 +161,22 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.tr.png)
+![superimposed plots](../../../../3-Data-Visualization/12-visualization-relationships/images/dual-line.png)
 
-2003 yılı civarında göze çarpan bir şey olmasa da, bu dersi biraz daha mutlu bir notla bitirmemizi sağlıyor: genel olarak azalan koloni sayısına rağmen, koloni sayısı sabitleniyor, ancak koloni başına verim azalıyor.
+2003 yılı civarında göze çarpan bir şey olmasa da, bu dersi biraz daha mutlu bir notla bitirmemize olanak tanıyor: genel olarak azalan koloni sayısına rağmen, koloni sayısı istikrar kazanıyor, ancak koloni başına verim azalıyor.
 
-Haydi arılar, haydi!
+Haydi arılar, haydi! 🐝❤️
 
-🐝❤️
 ## 🚀 Meydan Okuma
 
-Bu derste, dağılım grafikleri ve çizgi gridlerinin diğer kullanım alanlarını, özellikle facet gridlerini biraz daha öğrendiniz. Daha önceki derslerde kullandığınız farklı bir veri seti kullanarak bir facet grid oluşturmayı deneyin. Bunları oluşturmanın ne kadar sürdüğünü ve bu teknikleri kullanırken kaç tane grid çizmeniz gerektiğine dikkat etmeniz gerektiğini not edin.
+Bu derste, dağılım grafikleri ve çizgi gridlerinin diğer kullanım alanları hakkında biraz daha bilgi edindiniz, facet gridler dahil. Daha önceki derslerde kullandığınız farklı bir veri seti kullanarak bir facet grid oluşturmayı deneyin. Bunları oluşturmanın ne kadar sürdüğünü ve bu teknikleri kullanarak kaç grid çizmeniz gerektiği konusunda dikkatli olmanız gerektiğini not edin.
 
-## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ds/)
+## [Ders Sonrası Test](https://ff-quizzes.netlify.app/en/ds/quiz/23)
 
-## İnceleme ve Kendi Kendine Çalışma
+## Gözden Geçirme ve Kendi Kendine Çalışma
 
-Çizgi grafikleri basit veya oldukça karmaşık olabilir. [Seaborn belgelerinde](https://seaborn.pydata.org/generated/seaborn.lineplot.html) çizgi grafikleri oluşturmanın çeşitli yolları hakkında biraz okuyun. Bu derste oluşturduğunuz çizgi grafiklerini belgelerde listelenen diğer yöntemlerle geliştirmeyi deneyin.
+Çizgi grafikleri basit veya oldukça karmaşık olabilir. [Seaborn belgelerinde](https://seaborn.pydata.org/generated/seaborn.lineplot.html) çizgi grafikleri oluşturmanın çeşitli yolları hakkında biraz okuma yapın. Bu derste oluşturduğunuz çizgi grafiklerini belgelerde listelenen diğer yöntemlerle geliştirmeyi deneyin.
+
 ## Ödev
 
 [Arı kovanına dalın](assignment.md)
@@ -184,4 +184,4 @@ Bu derste, dağılım grafikleri ve çizgi gridlerinin diğer kullanım alanlar�
 ---
 
 **Feragatname**:  
-Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul edilmez.
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalardan sorumlu değiliz.

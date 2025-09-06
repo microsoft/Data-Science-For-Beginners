@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
-  "translation_date": "2025-09-04T18:06:35+00:00",
+  "original_hash": "472d3fab1c5be50f387336e7a686dbe1",
+  "translation_date": "2025-09-06T08:55:23+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "tr"
 }
@@ -19,25 +19,25 @@ CO_OP_TRANSLATOR_METADATA:
   - [Ders Öncesi Test](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [1. Giriş](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [1.1 Azure ML SDK Nedir?](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [1.2 Kalp yetmezliği tahmin projesi ve veri kümesi tanıtımı](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [1.2 Kalp yetmezliği tahmin projesi ve veri seti tanıtımı](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [2. Azure ML SDK ile Model Eğitimi](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.1 Azure ML çalışma alanı oluşturma](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.2 Hesaplama örneği oluşturma](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [2.3 Veri Kümesini Yükleme](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [2.3 Veri Setini Yükleme](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.4 Not Defteri Oluşturma](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.5 Model Eğitimi](../../../../5-Data-Science-In-Cloud/19-Azure)
-      - [2.5.1 Çalışma alanı, deney, hesaplama kümesi ve veri kümesi ayarları](../../../../5-Data-Science-In-Cloud/19-Azure)
+      - [2.5.1 Çalışma alanı, deney, hesaplama kümesi ve veri seti ayarları](../../../../5-Data-Science-In-Cloud/19-Azure)
       - [2.5.2 AutoML Yapılandırması ve Eğitim](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [3. Azure ML SDK ile Model Dağıtımı ve Uç Nokta Tüketimi](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [3.1 En iyi modeli kaydetme](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [3.2 Model Dağıtımı](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [3.3 Uç Nokta Tüketimi](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [3.3 Uç nokta tüketimi](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [🚀 Meydan Okuma](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Ders Sonrası Test](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Gözden Geçirme ve Kendi Kendine Çalışma](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Ödev](../../../../5-Data-Science-In-Cloud/19-Azure)
 
-## [Ders Öncesi Test](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/36)
+## [Ders Öncesi Test](https://ff-quizzes.netlify.app/en/ds/quiz/36)
 
 ## 1. Giriş
 
@@ -47,34 +47,34 @@ Veri bilimciler ve yapay zeka geliştiricileri, Azure Machine Learning SDK'sın�
 
 SDK'nın temel alanları şunlardır:
 
-- Makine öğrenimi deneylerinde kullanılan veri kümelerinin yaşam döngüsünü keşfetmek, hazırlamak ve yönetmek.
+- Makine öğrenimi deneylerinde kullanılan veri setlerinin yaşam döngüsünü keşfetmek, hazırlamak ve yönetmek.
 - Makine öğrenimi deneylerinizi izlemek, günlük kaydı yapmak ve düzenlemek için bulut kaynaklarını yönetmek.
 - Modelleri yerel olarak veya GPU hızlandırmalı model eğitimi dahil bulut kaynaklarını kullanarak eğitmek.
-- Yapılandırma parametrelerini ve eğitim verilerini kabul eden otomatik makine öğrenimini kullanmak. Algoritmalar ve hiperparametre ayarları arasında otomatik olarak iterasyon yaparak tahmin çalıştırmak için en iyi modeli bulur.
+- Yapılandırma parametrelerini ve eğitim verilerini kabul eden otomatik makine öğrenimini kullanmak. Algoritmalar ve hiperparametre ayarları arasında otomatik olarak iterasyon yaparak tahminler için en iyi modeli bulur.
 - Eğitilmiş modellerinizi RESTful hizmetlere dönüştürerek herhangi bir uygulamada tüketilebilecek web hizmetleri olarak dağıtmak.
 
 [Azure Machine Learning SDK hakkında daha fazla bilgi edinin](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109)
 
-[Önceki derste](../18-Low-Code/README.md), düşük kod/yok kod yaklaşımıyla bir modelin nasıl eğitileceğini, dağıtılacağını ve tüketileceğini gördük. Kalp Yetmezliği veri kümesini kullanarak bir kalp yetmezliği tahmin modeli oluşturduk. Bu derste, aynı işlemi Azure Machine Learning SDK kullanarak yapacağız.
+[Önceki derste](../18-Low-Code/README.md), düşük kodlu/yok kodlu bir yaklaşımla bir modeli nasıl eğiteceğimizi, dağıtacağımızı ve tüketeceğimizi gördük. Kalp Yetmezliği veri setini kullanarak bir kalp yetmezliği tahmin modeli oluşturduk. Bu derste, aynı işlemi Azure Machine Learning SDK kullanarak yapacağız.
 
-![proje şeması](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.tr.png)
+![proje şeması](../../../../5-Data-Science-In-Cloud/19-Azure/images/project-schema.PNG)
 
-### 1.2 Kalp yetmezliği tahmin projesi ve veri kümesi tanıtımı
+### 1.2 Kalp yetmezliği tahmin projesi ve veri seti tanıtımı
 
-Kalp yetmezliği tahmin projesi ve veri kümesi tanıtımı için [buraya](../18-Low-Code/README.md) göz atın.
+Kalp yetmezliği tahmin projesi ve veri seti tanıtımı için [buraya](../18-Low-Code/README.md) göz atın.
 
 ## 2. Azure ML SDK ile Model Eğitimi
 ### 2.1 Azure ML çalışma alanı oluşturma
 
-Basitlik açısından, bir Jupyter not defteri üzerinde çalışacağız. Bu, zaten bir Çalışma Alanı ve bir hesaplama örneğiniz olduğu anlamına gelir. Zaten bir Çalışma Alanınız varsa, doğrudan **2.3 Not Defteri Oluşturma** bölümüne geçebilirsiniz.
+Basitlik açısından, bir Jupyter not defteri üzerinde çalışacağız. Bu, zaten bir Çalışma Alanı ve bir hesaplama örneğiniz olduğu anlamına gelir. Eğer zaten bir Çalışma Alanınız varsa, doğrudan **2.3 Not Defteri Oluşturma** bölümüne geçebilirsiniz.
 
 Eğer yoksa, bir çalışma alanı oluşturmak için [önceki dersteki](../18-Low-Code/README.md) **2.1 Azure ML çalışma alanı oluşturma** bölümündeki talimatları takip edin.
 
 ### 2.2 Hesaplama örneği oluşturma
 
-Daha önce oluşturduğumuz [Azure ML çalışma alanına](https://ml.azure.com/) gidin ve hesaplama menüsünde mevcut hesaplama kaynaklarını göreceksiniz.
+Daha önce oluşturduğumuz [Azure ML çalışma alanına](https://ml.azure.com/) gidin ve hesaplama menüsüne tıklayın. Burada mevcut hesaplama kaynaklarını göreceksiniz.
 
-![hesaplama-örneği-1](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.tr.png)
+![hesaplama-örneği-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/compute-instance-1.PNG)
 
 Bir Jupyter not defteri sağlamak için bir hesaplama örneği oluşturalım. 
 1. + Yeni düğmesine tıklayın. 
@@ -84,40 +84,40 @@ Bir Jupyter not defteri sağlamak için bir hesaplama örneği oluşturalım.
 
 Tebrikler, bir hesaplama örneği oluşturdunuz! Bu hesaplama örneğini [Not Defteri Oluşturma bölümünde](../../../../5-Data-Science-In-Cloud/19-Azure) kullanacağız.
 
-### 2.3 Veri Kümesini Yükleme
-Eğer veri kümesini henüz yüklemediyseniz, [önceki dersteki](../18-Low-Code/README.md) **2.3 Veri Kümesini Yükleme** bölümüne bakın.
+### 2.3 Veri Setini Yükleme
+Eğer veri setini henüz yüklemediyseniz, [önceki dersteki](../18-Low-Code/README.md) **2.3 Veri Setini Yükleme** bölümüne bakın.
 
 ### 2.4 Not Defteri Oluşturma
 
-> **_NOT:_** Bir sonraki adım için ya sıfırdan yeni bir not defteri oluşturabilir ya da [önceden oluşturduğumuz not defterini](notebook.ipynb) Azure ML Studio'ya yükleyebilirsiniz. Yüklemek için, "Notebook" menüsüne tıklayın ve not defterini yükleyin.
+> **_NOT:_** Bir sonraki adım için ya sıfırdan yeni bir not defteri oluşturabilir ya da [önceden oluşturduğumuz not defterini](../../../../5-Data-Science-In-Cloud/19-Azure/notebook.ipynb) Azure ML Studio'ya yükleyebilirsiniz. Yüklemek için, "Not Defteri" menüsüne tıklayın ve not defterini yükleyin.
 
-Not defterleri, veri bilimi sürecinin çok önemli bir parçasıdır. Keşifsel Veri Analizi (EDA) yapmak, bir hesaplama kümesine model eğitimi çağrısı yapmak veya bir çıkarım kümesine uç nokta dağıtımı çağrısı yapmak için kullanılabilirler.
+Not defterleri, veri bilimi sürecinin çok önemli bir parçasıdır. Keşifsel Veri Analizi (EDA) yapmak, bir hesaplama kümesine model eğitimi çağrısı yapmak, bir tahmin kümesine uç nokta dağıtımı çağrısı yapmak için kullanılabilirler.
 
 Bir not defteri oluşturmak için, Jupyter not defteri örneğini çalıştıran bir hesaplama düğümüne ihtiyacımız var. [Azure ML çalışma alanına](https://ml.azure.com/) geri dönün ve Hesaplama örneklerine tıklayın. Daha önce oluşturduğumuz [hesaplama örneğini](../../../../5-Data-Science-In-Cloud/19-Azure) listede görmelisiniz.
 
 1. Uygulamalar bölümünde Jupyter seçeneğine tıklayın. 
 2. "Evet, anladım" kutusunu işaretleyin ve Devam düğmesine tıklayın.
-![not-defteri-1](../../../../translated_images/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.tr.png)
-3. Bu, aşağıdaki gibi Jupyter not defteri örneğinizle yeni bir tarayıcı sekmesi açmalıdır. Yeni bir not defteri oluşturmak için "Yeni" düğmesine tıklayın.
+![not-defteri-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-1.PNG)
+3. Bu, Jupyter not defteri örneğinizle yeni bir tarayıcı sekmesi açmalıdır. "Yeni" düğmesine tıklayarak bir not defteri oluşturun.
 
-![not-defteri-2](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.tr.png)
+![not-defteri-2](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-2.PNG)
 
-Artık bir not defterimiz olduğuna göre, Azure ML SDK ile model eğitimine başlayabiliriz.
+Artık bir not defterimiz olduğuna göre, Azure ML SDK ile modeli eğitmeye başlayabiliriz.
 
 ### 2.5 Model Eğitimi
 
-Öncelikle, herhangi bir şüpheniz varsa, [Azure ML SDK belgelerine](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) başvurun. Bu derste göreceğimiz modülleri anlamak için gerekli tüm bilgileri içerir.
+Öncelikle, herhangi bir şüpheniz olduğunda [Azure ML SDK belgelerine](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) başvurun. Bu belgeler, bu derste göreceğimiz modülleri anlamak için gerekli tüm bilgileri içerir.
 
-#### 2.5.1 Çalışma alanı, deney, hesaplama kümesi ve veri kümesi ayarları
+#### 2.5.1 Çalışma alanı, deney, hesaplama kümesi ve veri seti ayarları
 
-Aşağıdaki kodu kullanarak yapılandırma dosyasından `workspace` yüklemeniz gerekiyor:
+Aşağıdaki kodu kullanarak `workspace`'i yapılandırma dosyasından yüklemeniz gerekiyor:
 
 ```python
 from azureml.core import Workspace
 ws = Workspace.from_config()
 ```
 
-Bu, çalışma alanını temsil eden `Workspace` türünde bir nesne döndürür. Ardından, aşağıdaki kodu kullanarak bir `experiment` oluşturmanız gerekiyor:
+Bu, çalışma alanını temsil eden `Workspace` türünde bir nesne döndürür. Ardından, aşağıdaki kodu kullanarak bir `deney` oluşturmanız gerekiyor:
 
 ```python
 from azureml.core import Experiment
@@ -145,7 +145,7 @@ cts = ws.compute_targets
 compute_target = cts[aml_name]
 ```
 
-Veri kümesini çalışma alanından veri kümesi adını kullanarak şu şekilde alabilirsiniz:
+Veri setini çalışma alanından veri seti adını kullanarak şu şekilde alabilirsiniz:
 
 ```python
 dataset = ws.datasets['heart-failure-records']
@@ -156,13 +156,13 @@ df.describe()
 
 AutoML yapılandırmasını ayarlamak için [AutoMLConfig sınıfını](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.automlconfig(class)?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) kullanın.
 
-Belgelerde açıklandığı gibi, oynayabileceğiniz birçok parametre vardır. Bu proje için aşağıdaki parametreleri kullanacağız:
+Belgelerde açıklandığı gibi, üzerinde oynayabileceğiniz birçok parametre bulunmaktadır. Bu proje için aşağıdaki parametreleri kullanacağız:
 
 - `experiment_timeout_minutes`: Deneyin otomatik olarak durdurulmadan ve sonuçların otomatik olarak kullanılabilir hale getirilmeden önce çalışmasına izin verilen maksimum süre (dakika cinsinden).
 - `max_concurrent_iterations`: Deney için izin verilen maksimum eş zamanlı eğitim iterasyonu sayısı.
 - `primary_metric`: Deneyin durumunu belirlemek için kullanılan birincil metrik.
 - `compute_target`: Otomatik Makine Öğrenimi deneyini çalıştırmak için kullanılan Azure Machine Learning hesaplama hedefi.
-- `task`: Çalıştırılacak görev türü. 'classification', 'regression' veya 'forecasting' değerleri, çözülmesi gereken otomatik ML problem türüne bağlı olarak kullanılabilir.
+- `task`: Çalıştırılacak görev türü. Değerler 'classification', 'regression' veya 'forecasting' olabilir.
 - `training_data`: Deneyde kullanılacak eğitim verileri. Hem eğitim özelliklerini hem de bir etiket sütununu (isteğe bağlı olarak bir örnek ağırlıkları sütunu) içermelidir.
 - `label_column_name`: Etiket sütununun adı.
 - `path`: Azure Machine Learning proje klasörünün tam yolu.
@@ -192,7 +192,7 @@ automl_config = AutoMLConfig(compute_target=compute_target,
                              **automl_settings
                             )
 ```
-Artık yapılandırmanız ayarlandığına göre, aşağıdaki kodu kullanarak modeli eğitebilirsiniz. Bu adım, küme boyutunuza bağlı olarak bir saate kadar sürebilir.
+Yapılandırmanızı ayarladıktan sonra, aşağıdaki kodu kullanarak modeli eğitebilirsiniz. Bu adım, küme boyutunuza bağlı olarak bir saate kadar sürebilir.
 
 ```python
 remote_run = experiment.submit(automl_config)
@@ -206,7 +206,7 @@ RunDetails(remote_run).show()
 
 ### 3.1 En iyi modeli kaydetme
 
-`remote_run`, [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) türünde bir nesnedir. Bu nesne, en iyi çalışmayı ve karşılık gelen uyarlanmış modeli döndüren `get_output()` yöntemini içerir.
+`remote_run`, [AutoMLRun](https://docs.microsoft.com/python/api/azureml-train-automl-client/azureml.train.automl.run.automlrun?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) türünde bir nesnedir. Bu nesne, en iyi çalışmayı ve ilgili uyarlanmış modeli döndüren `get_output()` yöntemini içerir.
 
 ```python
 best_run, fitted_model = remote_run.get_output()
@@ -230,7 +230,7 @@ model = best_run.register_model(model_name = model_name,
 ```
 ### 3.2 Model Dağıtımı
 
-En iyi model kaydedildikten sonra, [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109) sınıfını kullanarak modeli dağıtabiliriz. InferenceConfig, dağıtım için kullanılan özel bir ortamın yapılandırma ayarlarını temsil eder. [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) sınıfı, Azure Container Instances üzerinde bir web hizmeti uç noktası olarak dağıtılmış bir makine öğrenimi modelini temsil eder. Dağıtılmış hizmet, bir model, betik ve ilişkili dosyalardan oluşturulur. Ortaya çıkan web hizmeti, bir REST API ile yük dengelemeli bir HTTP uç noktasıdır. Bu API'ye veri gönderebilir ve model tarafından döndürülen tahmini alabilirsiniz.
+En iyi model kaydedildikten sonra, [InferenceConfig](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model.inferenceconfig?view=azure-ml-py?ocid=AID3041109) sınıfını kullanarak modeli dağıtabilirsiniz. InferenceConfig, dağıtım için kullanılan özel bir ortamın yapılandırma ayarlarını temsil eder. [AciWebservice](https://docs.microsoft.com/python/api/azureml-core/azureml.core.webservice.aciwebservice?view=azure-ml-py) sınıfı, Azure Container Instances üzerinde bir web hizmeti uç noktası olarak dağıtılmış bir makine öğrenimi modelini temsil eder. Dağıtılmış bir hizmet, bir model, betik ve ilgili dosyalardan oluşturulur. Ortaya çıkan web hizmeti, bir yük dengeleyici, HTTP uç noktası ve bir REST API içerir. Bu API'ye veri gönderebilir ve model tarafından döndürülen tahmini alabilirsiniz.
 
 Model, [deploy](https://docs.microsoft.com/python/api/azureml-core/azureml.core.model(class)?view=azure-ml-py#deploy-workspace--name--models--inference-config-none--deployment-config-none--deployment-target-none--overwrite-false--show-output-false-?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) yöntemiyle dağıtılır.
 
@@ -252,7 +252,7 @@ print(aci_service.state)
 ```
 Bu adım birkaç dakika sürebilir.
 
-### 3.3 Uç Nokta Tüketimi
+### 3.3 Uç nokta tüketimi
 
 Uç noktanızı bir örnek giriş oluşturarak tüketebilirsiniz:
 
@@ -292,11 +292,11 @@ Tebrikler! Azure ML SDK ile Azure ML üzerinde eğitilmiş ve dağıtılmış mo
 
 ## 🚀 Zorluk
 
-SDK ile yapabileceğiniz birçok şey var, ne yazık ki bu ders kapsamında hepsini inceleyemiyoruz. Ama iyi haber, SDK dokümantasyonunu nasıl hızlıca gözden geçireceğinizi öğrenmek, kendi başınıza uzun bir yol kat etmenizi sağlayabilir. Azure ML SDK dokümantasyonuna göz atın ve size iş akışı olarak çalıştırılabilecek adımlar koleksiyonu oluşturmaya olanak tanıyan `Pipeline` sınıfını bulun.
+SDK ile yapabileceğiniz birçok şey var, ne yazık ki bu ders kapsamında hepsini inceleyemiyoruz. Ama iyi haber, SDK dokümantasyonunu nasıl hızlıca gözden geçireceğinizi öğrenmek, kendi başınıza çok yol almanızı sağlayabilir. Azure ML SDK dokümantasyonuna göz atın ve size iş akışı olarak çalıştırılabilecek adımlar koleksiyonu oluşturmaya olanak tanıyan `Pipeline` sınıfını bulun.
 
-**İPUCU:** [SDK dokümantasyonu](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) sayfasına gidin ve arama çubuğuna "Pipeline" gibi anahtar kelimeler yazın. Arama sonuçlarında `azureml.pipeline.core.Pipeline` sınıfını görmelisiniz.
+**İPUCU:** [SDK dokümantasyonu](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) sayfasına gidin ve arama çubuğuna "Pipeline" gibi anahtar kelimeler yazın. Arama sonuçlarında `azureml.pipeline.core.Pipeline` sınıfını bulmalısınız.
 
-## [Ders sonrası sınav](https://ff-quizzes.netlify.app/en/ds/)
+## [Ders sonrası sınav](https://ff-quizzes.netlify.app/en/ds/quiz/37)
 
 ## Gözden Geçirme ve Kendi Kendine Çalışma
 
@@ -309,4 +309,4 @@ Bu derste, Azure ML SDK ile bulutta kalp yetmezliği riskini tahmin eden bir mod
 ---
 
 **Feragatname**:  
-Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalardan sorumlu değiliz.

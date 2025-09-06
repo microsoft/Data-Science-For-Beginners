@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "5da2d6b3736f6d668b89de9bf3bdd31b",
-  "translation_date": "2025-09-04T17:53:31+00:00",
+  "original_hash": "472d3fab1c5be50f387336e7a686dbe1",
+  "translation_date": "2025-09-06T08:40:45+00:00",
   "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
   "language_code": "it"
 }
@@ -24,7 +24,7 @@ Indice:
     - [2.1 Creare un workspace Azure ML](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.2 Creare un'istanza di calcolo](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.3 Caricamento del dataset](../../../../5-Data-Science-In-Cloud/19-Azure)
-    - [2.4 Creazione di notebook](../../../../5-Data-Science-In-Cloud/19-Azure)
+    - [2.4 Creazione di Notebook](../../../../5-Data-Science-In-Cloud/19-Azure)
     - [2.5 Addestramento di un modello](../../../../5-Data-Science-In-Cloud/19-Azure)
       - [2.5.1 Configurazione del workspace, esperimento, cluster di calcolo e dataset](../../../../5-Data-Science-In-Cloud/19-Azure)
       - [2.5.2 Configurazione AutoML e addestramento](../../../../5-Data-Science-In-Cloud/19-Azure)
@@ -37,7 +37,7 @@ Indice:
   - [Revisione e Studio Autonomo](../../../../5-Data-Science-In-Cloud/19-Azure)
   - [Compito](../../../../5-Data-Science-In-Cloud/19-Azure)
 
-## [Quiz Pre-Lettura](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/36)
+## [Quiz Pre-Lettura](https://ff-quizzes.netlify.app/en/ds/quiz/36)
 
 ## 1. Introduzione
 
@@ -57,16 +57,16 @@ Le aree principali dell'SDK includono:
 
 Nella [lezione precedente](../18-Low-Code/README.md), abbiamo visto come addestrare, distribuire e consumare un modello in modalità Low code/No code. Abbiamo utilizzato il dataset sull'insufficienza cardiaca per generare un modello di previsione dell'insufficienza cardiaca. In questa lezione, faremo esattamente la stessa cosa ma utilizzando l'SDK di Azure Machine Learning.
 
-![schema-progetto](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.it.png)
+![schema-progetto](../../../../5-Data-Science-In-Cloud/19-Azure/images/project-schema.PNG)
 
 ### 1.2 Progetto di previsione dell'insufficienza cardiaca e introduzione al dataset
 
-Consulta [qui](../18-Low-Code/README.md) il progetto di previsione dell'insufficienza cardiaca e l'introduzione al dataset.
+Consulta [qui](../18-Low-Code/README.md) l'introduzione al progetto di previsione dell'insufficienza cardiaca e al dataset.
 
 ## 2. Addestramento di un modello con Azure ML SDK
 ### 2.1 Creare un workspace Azure ML
 
-Per semplicità, lavoreremo su un notebook Jupyter. Questo implica che tu abbia già un workspace e un'istanza di calcolo. Se hai già un workspace, puoi passare direttamente alla sezione 2.3 Creazione di notebook.
+Per semplicità, lavoreremo su un jupyter notebook. Questo implica che tu abbia già un Workspace e un'istanza di calcolo. Se hai già un Workspace, puoi passare direttamente alla sezione 2.3 Creazione di Notebook.
 
 In caso contrario, segui le istruzioni nella sezione **2.1 Creare un workspace Azure ML** nella [lezione precedente](../18-Low-Code/README.md) per creare un workspace.
 
@@ -74,39 +74,39 @@ In caso contrario, segui le istruzioni nella sezione **2.1 Creare un workspace A
 
 Nel [workspace Azure ML](https://ml.azure.com/) che abbiamo creato in precedenza, vai al menu di calcolo e vedrai le diverse risorse di calcolo disponibili.
 
-![istanza-calcolo-1](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.it.png)
+![istanza-calcolo-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/compute-instance-1.PNG)
 
-Creiamo un'istanza di calcolo per fornire un notebook Jupyter. 
+Creiamo un'istanza di calcolo per fornire un jupyter notebook. 
 1. Clicca sul pulsante + Nuovo. 
 2. Dai un nome alla tua istanza di calcolo.
 3. Scegli le opzioni: CPU o GPU, dimensione della VM e numero di core.
 4. Clicca sul pulsante Crea.
 
-Congratulazioni, hai appena creato un'istanza di calcolo! Utilizzeremo questa istanza di calcolo per creare un notebook nella [sezione Creazione di notebook](../../../../5-Data-Science-In-Cloud/19-Azure).
+Congratulazioni, hai appena creato un'istanza di calcolo! Utilizzeremo questa istanza di calcolo per creare un Notebook nella sezione [Creazione di Notebook](../../../../5-Data-Science-In-Cloud/19-Azure).
 
 ### 2.3 Caricamento del dataset
 Consulta la [lezione precedente](../18-Low-Code/README.md) nella sezione **2.3 Caricamento del dataset** se non hai ancora caricato il dataset.
 
-### 2.4 Creazione di notebook
+### 2.4 Creazione di Notebook
 
-> **_NOTA:_** Per il prossimo passaggio puoi creare un nuovo notebook da zero oppure caricare il [notebook che abbiamo creato](notebook.ipynb) nel tuo Azure ML Studio. Per caricarlo, clicca semplicemente sul menu "Notebook" e carica il notebook.
+> **_NOTA:_** Per il prossimo passaggio puoi creare un nuovo notebook da zero oppure caricare il [notebook che abbiamo creato](../../../../5-Data-Science-In-Cloud/19-Azure/notebook.ipynb) nel tuo Azure ML Studio. Per caricarlo, clicca semplicemente sul menu "Notebook" e carica il notebook.
 
-I notebook sono una parte davvero importante del processo di data science. Possono essere utilizzati per condurre analisi esplorative dei dati (EDA), chiamare un cluster di calcolo per addestrare un modello, chiamare un cluster di inferenza per distribuire un endpoint.
+I notebook sono una parte davvero importante del processo di data science. Possono essere utilizzati per condurre analisi esplorative dei dati (EDA), chiamare un cluster di calcolo per addestrare un modello, chiamare un cluster di inferenza per distribuire un endpoint. 
 
-Per creare un notebook, abbiamo bisogno di un nodo di calcolo che fornisca l'istanza del notebook Jupyter. Torna al [workspace Azure ML](https://ml.azure.com/) e clicca su Istanza di calcolo. Nell'elenco delle istanze di calcolo dovresti vedere l'[istanza di calcolo che abbiamo creato in precedenza](../../../../5-Data-Science-In-Cloud/19-Azure). 
+Per creare un Notebook, abbiamo bisogno di un nodo di calcolo che serva l'istanza del jupyter notebook. Torna al [workspace Azure ML](https://ml.azure.com/) e clicca su Istanza di calcolo. Nell'elenco delle istanze di calcolo dovresti vedere l'[istanza di calcolo che abbiamo creato in precedenza](../../../../5-Data-Science-In-Cloud/19-Azure). 
 
 1. Nella sezione Applicazioni, clicca sull'opzione Jupyter. 
 2. Spunta la casella "Sì, ho capito" e clicca sul pulsante Continua.
-![notebook-1](../../../../translated_images/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.it.png)
-3. Questo dovrebbe aprire una nuova scheda del browser con la tua istanza di notebook Jupyter come segue. Clicca sul pulsante "Nuovo" per creare un notebook.
+![notebook-1](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-1.PNG)
+3. Questo dovrebbe aprire una nuova scheda del browser con la tua istanza di jupyter notebook come segue. Clicca sul pulsante "Nuovo" per creare un notebook.
 
-![notebook-2](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.it.png)
+![notebook-2](../../../../5-Data-Science-In-Cloud/19-Azure/images/notebook-2.PNG)
 
-Ora che abbiamo un notebook, possiamo iniziare ad addestrare il modello con Azure ML SDK.
+Ora che abbiamo un Notebook, possiamo iniziare ad addestrare il modello con Azure ML SDK.
 
 ### 2.5 Addestramento di un modello
 
-Prima di tutto, se hai dubbi, consulta la [documentazione di Azure ML SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). Contiene tutte le informazioni necessarie per comprendere i moduli che vedremo in questa lezione.
+Prima di tutto, se hai qualche dubbio, consulta la [documentazione di Azure ML SDK](https://docs.microsoft.com/python/api/overview/azure/ml?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109). Contiene tutte le informazioni necessarie per comprendere i moduli che vedremo in questa lezione.
 
 #### 2.5.1 Configurazione del workspace, esperimento, cluster di calcolo e dataset
 
@@ -161,10 +161,10 @@ Come descritto nella documentazione, ci sono molti parametri con cui puoi giocar
 - `experiment_timeout_minutes`: Il tempo massimo (in minuti) che l'esperimento è autorizzato a durare prima di essere automaticamente interrotto e i risultati resi disponibili.
 - `max_concurrent_iterations`: Il numero massimo di iterazioni di addestramento concorrenti consentite per l'esperimento.
 - `primary_metric`: La metrica principale utilizzata per determinare lo stato dell'esperimento.
-- `compute_target`: La risorsa di calcolo di Azure Machine Learning su cui eseguire l'esperimento di Machine Learning automatico.
+- `compute_target`: Il target di calcolo di Azure Machine Learning su cui eseguire l'esperimento di Machine Learning automatico.
 - `task`: Il tipo di attività da eseguire. I valori possono essere 'classification', 'regression' o 'forecasting' a seconda del tipo di problema di ML automatico da risolvere.
-- `training_data`: I dati di addestramento da utilizzare nell'esperimento. Dovrebbe contenere sia le caratteristiche di addestramento che una colonna di etichetta (opzionalmente una colonna di pesi di campione).
-- `label_column_name`: Il nome della colonna di etichetta.
+- `training_data`: I dati di addestramento da utilizzare nell'esperimento. Dovrebbe contenere sia le caratteristiche di addestramento che una colonna di etichette (opzionalmente una colonna di pesi campione).
+- `label_column_name`: Il nome della colonna di etichette.
 - `path`: Il percorso completo alla cartella del progetto Azure Machine Learning.
 - `enable_early_stopping`: Indica se abilitare la terminazione anticipata se il punteggio non migliora nel breve termine.
 - `featurization`: Indicatore per determinare se il passaggio di featurizzazione deve essere eseguito automaticamente o meno, o se deve essere utilizzata una featurizzazione personalizzata.
@@ -211,7 +211,7 @@ Il `remote_run` è un oggetto di tipo [AutoMLRun](https://docs.microsoft.com/pyt
 ```python
 best_run, fitted_model = remote_run.get_output()
 ```
-Puoi vedere i parametri utilizzati per il miglior modello semplicemente stampando il `fitted_model` e vedere le proprietà del miglior modello utilizzando il metodo [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
+Puoi vedere i parametri utilizzati per il miglior modello semplicemente stampando il fitted_model e vedere le proprietà del miglior modello utilizzando il metodo [get_properties()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.run(class)?view=azure-ml-py#azureml_core_Run_get_properties?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109).
 
 ```python
 best_run.get_properties()
@@ -296,9 +296,9 @@ Ci sono molte altre cose che puoi fare tramite l'SDK, purtroppo non possiamo esp
 
 **SUGGERIMENTO:** Vai alla [documentazione SDK](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) e digita parole chiave nella barra di ricerca come "Pipeline". Dovresti trovare la classe `azureml.pipeline.core.Pipeline` nei risultati di ricerca.
 
-## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ds/)
+## [Quiz post-lezione](https://ff-quizzes.netlify.app/en/ds/quiz/37)
 
-## Revisione e studio autonomo
+## Revisione & Studio Autonomo
 
 In questa lezione, hai imparato come addestrare, distribuire e utilizzare un modello per prevedere il rischio di insufficienza cardiaca con l'SDK di Azure ML nel cloud. Consulta questa [documentazione](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py?WT.mc_id=academic-77958-bethanycheum&ocid=AID3041109) per ulteriori informazioni sull'SDK di Azure ML. Prova a creare il tuo modello con l'SDK di Azure ML.
 
