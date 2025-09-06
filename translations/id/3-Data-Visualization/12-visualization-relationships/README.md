@@ -1,31 +1,31 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "44de95649fcec43643cbe3962f904331",
-  "translation_date": "2025-09-05T23:55:09+00:00",
+  "original_hash": "0764fd4077f3f04a1d968ec371227744",
+  "translation_date": "2025-09-06T11:43:00+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "id"
 }
 -->
-# Memvisualisasikan Hubungan: Semua Tentang Madu 🍯
+# Visualisasi Hubungan: Semua Tentang Madu 🍯
 
 |![ Sketchnote oleh [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/12-Visualizing-Relationships.png)|
 |:---:|
-|Memvisualisasikan Hubungan - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_ |
+|Visualisasi Hubungan - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_ |
 
-Melanjutkan fokus penelitian kita pada alam, mari kita temukan visualisasi menarik untuk menunjukkan hubungan antara berbagai jenis madu, berdasarkan dataset yang diambil dari [Departemen Pertanian Amerika Serikat](https://www.nass.usda.gov/About_NASS/index.php).
+Melanjutkan fokus penelitian kami pada alam, mari kita temukan visualisasi menarik untuk menunjukkan hubungan antara berbagai jenis madu, berdasarkan dataset yang berasal dari [United States Department of Agriculture](https://www.nass.usda.gov/About_NASS/index.php).
 
 Dataset ini, yang terdiri dari sekitar 600 item, menampilkan produksi madu di banyak negara bagian AS. Sebagai contoh, Anda dapat melihat jumlah koloni, hasil per koloni, total produksi, stok, harga per pon, dan nilai madu yang diproduksi di negara bagian tertentu dari tahun 1998-2012, dengan satu baris per tahun untuk setiap negara bagian.
 
-Akan menarik untuk memvisualisasikan hubungan antara produksi tahunan suatu negara bagian dan, misalnya, harga madu di negara bagian tersebut. Sebagai alternatif, Anda dapat memvisualisasikan hubungan antara hasil madu per koloni di berbagai negara bagian. Rentang tahun ini mencakup periode 'CCD' atau 'Colony Collapse Disorder' yang pertama kali terlihat pada tahun 2006 (http://npic.orst.edu/envir/ccd.html), sehingga dataset ini menjadi bahan studi yang menarik. 🐝
+Akan menarik untuk memvisualisasikan hubungan antara produksi tahunan suatu negara bagian dan, misalnya, harga madu di negara bagian tersebut. Alternatifnya, Anda dapat memvisualisasikan hubungan antara hasil madu per koloni di berbagai negara bagian. Rentang tahun ini mencakup periode 'CCD' atau 'Colony Collapse Disorder' yang pertama kali terlihat pada tahun 2006 (http://npic.orst.edu/envir/ccd.html), sehingga dataset ini menjadi bahan studi yang menyentuh. 🐝
 
 ## [Kuis Pra-Pelajaran](https://ff-quizzes.netlify.app/en/ds/quiz/22)
 
-Dalam pelajaran ini, Anda dapat menggunakan Seaborn, yang sebelumnya telah Anda gunakan, sebagai pustaka yang baik untuk memvisualisasikan hubungan antar variabel. Yang sangat menarik adalah penggunaan fungsi `relplot` dari Seaborn yang memungkinkan scatter plot dan line plot untuk dengan cepat memvisualisasikan '[hubungan statistik](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', yang memungkinkan data scientist untuk lebih memahami bagaimana variabel saling berhubungan.
+Dalam pelajaran ini, Anda dapat menggunakan Seaborn, yang telah Anda gunakan sebelumnya, sebagai pustaka yang baik untuk memvisualisasikan hubungan antar variabel. Yang menarik adalah penggunaan fungsi `relplot` dari Seaborn yang memungkinkan scatter plot dan line plot untuk dengan cepat memvisualisasikan '[hubungan statistik](https://seaborn.pydata.org/tutorial/relational.html?highlight=relationships)', yang memungkinkan data scientist memahami lebih baik bagaimana variabel saling berhubungan.
 
 ## Scatterplot
 
-Gunakan scatterplot untuk menunjukkan bagaimana harga madu berkembang dari tahun ke tahun di setiap negara bagian. Seaborn, dengan menggunakan `relplot`, secara praktis mengelompokkan data negara bagian dan menampilkan titik data untuk data kategoris dan numerik.
+Gunakan scatterplot untuk menunjukkan bagaimana harga madu berkembang dari tahun ke tahun di setiap negara bagian. Seaborn, dengan menggunakan `relplot`, secara praktis mengelompokkan data negara bagian dan menampilkan titik data untuk data kategoris maupun numerik.
 
 Mari kita mulai dengan mengimpor data dan Seaborn:
 
@@ -51,7 +51,7 @@ Buat scatterplot dasar untuk menunjukkan hubungan antara harga per pon madu dan 
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter1.png)
+![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.id.png)
 
 Sekarang, tampilkan data yang sama dengan skema warna madu untuk menunjukkan bagaimana harga berkembang dari tahun ke tahun. Anda dapat melakukannya dengan menambahkan parameter 'hue' untuk menunjukkan perubahan dari tahun ke tahun:
 
@@ -60,9 +60,9 @@ Sekarang, tampilkan data yang sama dengan skema warna madu untuk menunjukkan bag
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter2.png)
+![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.id.png)
 
-Dengan perubahan skema warna ini, Anda dapat melihat bahwa ada perkembangan yang jelas dari tahun ke tahun dalam hal harga madu per pon. Memang, jika Anda melihat satu set data sampel untuk memverifikasi (pilih negara bagian tertentu, misalnya Arizona), Anda dapat melihat pola kenaikan harga dari tahun ke tahun, dengan beberapa pengecualian:
+Dengan perubahan skema warna ini, Anda dapat melihat bahwa ada perkembangan yang jelas selama bertahun-tahun dalam hal harga madu per pon. Memang, jika Anda melihat sampel data untuk memverifikasi (pilih negara bagian tertentu, misalnya Arizona), Anda dapat melihat pola kenaikan harga dari tahun ke tahun, dengan beberapa pengecualian:
 
 | state | numcol | yieldpercol | totalprod | stocks  | priceperlb | prodvalue | year |
 | ----- | ------ | ----------- | --------- | ------- | ---------- | --------- | ---- |
@@ -82,16 +82,16 @@ Dengan perubahan skema warna ini, Anda dapat melihat bahwa ada perkembangan yang
 | AZ    | 23000  | 53          | 1219000   | 427000  | 1.55       | 1889000   | 2011 |
 | AZ    | 22000  | 46          | 1012000   | 253000  | 1.79       | 1811000   | 2012 |
 
-Cara lain untuk memvisualisasikan perkembangan ini adalah dengan menggunakan ukuran, bukan warna. Untuk pengguna yang buta warna, ini mungkin menjadi opsi yang lebih baik. Edit visualisasi Anda untuk menunjukkan kenaikan harga dengan peningkatan ukuran lingkaran:
+Cara lain untuk memvisualisasikan perkembangan ini adalah dengan menggunakan ukuran, bukan warna. Untuk pengguna yang buta warna, ini mungkin menjadi pilihan yang lebih baik. Edit visualisasi Anda untuk menunjukkan kenaikan harga dengan peningkatan lingkaran titik:
 
 ```python
 sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspect=.5);
 ```
 Anda dapat melihat ukuran titik yang secara bertahap meningkat.
 
-![scatterplot 3](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter3.png)
+![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.id.png)
 
-Apakah ini hanya kasus sederhana dari penawaran dan permintaan? Karena faktor seperti perubahan iklim dan keruntuhan koloni, apakah madu yang tersedia untuk dibeli semakin sedikit dari tahun ke tahun, sehingga harga meningkat?
+Apakah ini kasus sederhana dari hukum permintaan dan penawaran? Karena faktor seperti perubahan iklim dan keruntuhan koloni, apakah madu yang tersedia untuk dibeli semakin sedikit dari tahun ke tahun, sehingga harga meningkat?
 
 Untuk menemukan korelasi antara beberapa variabel dalam dataset ini, mari kita eksplorasi beberapa grafik garis.
 
@@ -102,9 +102,9 @@ Pertanyaan: Apakah ada kenaikan harga madu per pon yang jelas dari tahun ke tahu
 ```python
 sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
-Jawaban: Ya, dengan beberapa pengecualian di sekitar tahun 2003:
+Jawaban: Ya, dengan beberapa pengecualian sekitar tahun 2003:
 
-![line chart 1](../../../../3-Data-Visualization/12-visualization-relationships/images/line1.png)
+![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.id.png)
 
 ✅ Karena Seaborn mengagregasi data di sekitar satu garis, ia menampilkan "pengukuran ganda pada setiap nilai x dengan memplot rata-rata dan interval kepercayaan 95% di sekitar rata-rata". [Sumber](https://seaborn.pydata.org/tutorial/relational.html). Perilaku yang memakan waktu ini dapat dinonaktifkan dengan menambahkan `ci=None`.
 
@@ -114,17 +114,17 @@ Pertanyaan: Nah, pada tahun 2003 apakah kita juga melihat lonjakan pasokan madu?
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../3-Data-Visualization/12-visualization-relationships/images/line2.png)
+![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.id.png)
 
 Jawaban: Tidak juga. Jika Anda melihat total produksi, sebenarnya tampaknya meningkat pada tahun tersebut, meskipun secara umum jumlah madu yang diproduksi menurun selama tahun-tahun ini.
 
-Pertanyaan: Dalam hal ini, apa yang bisa menyebabkan lonjakan harga madu di sekitar tahun 2003?
+Pertanyaan: Dalam hal ini, apa yang bisa menyebabkan lonjakan harga madu sekitar tahun 2003?
 
 Untuk menemukan ini, Anda dapat mengeksplorasi facet grid.
 
-## Facet Grid
+## Facet Grids
 
-Facet grid mengambil satu aspek dari dataset Anda (dalam kasus ini, Anda dapat memilih 'tahun' untuk menghindari terlalu banyak facet yang dihasilkan). Seaborn kemudian dapat membuat plot untuk masing-masing aspek tersebut dari koordinat x dan y yang Anda pilih untuk perbandingan visual yang lebih mudah. Apakah tahun 2003 menonjol dalam jenis perbandingan ini?
+Facet grid mengambil satu aspek dari dataset Anda (dalam kasus kami, Anda dapat memilih 'tahun' untuk menghindari terlalu banyak aspek yang dihasilkan). Seaborn kemudian dapat membuat plot untuk masing-masing aspek tersebut berdasarkan koordinat x dan y yang Anda pilih untuk perbandingan visual yang lebih mudah. Apakah tahun 2003 menonjol dalam jenis perbandingan ini?
 
 Buat facet grid dengan terus menggunakan `relplot` seperti yang direkomendasikan oleh [dokumentasi Seaborn](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid).
 
@@ -135,16 +135,17 @@ sns.relplot(
     col="year", 
     col_wrap=3,
     kind="line"
+    )
 ```
 Dalam visualisasi ini, Anda dapat membandingkan hasil per koloni dan jumlah koloni dari tahun ke tahun, berdampingan dengan pengaturan wrap pada 3 untuk kolom:
 
-![facet grid](../../../../3-Data-Visualization/12-visualization-relationships/images/facet.png)
+![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.id.png)
 
 Untuk dataset ini, tidak ada yang secara khusus menonjol terkait jumlah koloni dan hasilnya, dari tahun ke tahun dan negara bagian ke negara bagian. Apakah ada cara lain untuk menemukan korelasi antara kedua variabel ini?
 
 ## Grafik Garis Ganda
 
-Cobalah grafik multiline dengan menumpangkan dua grafik garis di atas satu sama lain, menggunakan 'despine' dari Seaborn untuk menghapus spines atas dan kanan, dan menggunakan `ax.twinx` [berasal dari Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx memungkinkan grafik untuk berbagi sumbu x dan menampilkan dua sumbu y. Jadi, tampilkan hasil per koloni dan jumlah koloni, ditumpangkan:
+Cobalah grafik multiline dengan menumpangkan dua grafik garis di atas satu sama lain, menggunakan 'despine' dari Seaborn untuk menghapus tulang belakang atas dan kanan mereka, dan menggunakan `ax.twinx` [berasal dari Matplotlib](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html). Twinx memungkinkan grafik berbagi sumbu x dan menampilkan dua sumbu y. Jadi, tampilkan hasil per koloni dan jumlah koloni, ditumpangkan:
 
 ```python
 fig, ax = plt.subplots(figsize=(12,6))
@@ -161,27 +162,28 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../3-Data-Visualization/12-visualization-relationships/images/dual-line.png)
+![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.id.png)
 
-Meskipun tidak ada yang mencolok di sekitar tahun 2003, ini memungkinkan kita untuk mengakhiri pelajaran ini dengan catatan yang sedikit lebih positif: meskipun jumlah koloni secara keseluruhan menurun, jumlah koloni mulai stabil meskipun hasil per koloni menurun.
+Meskipun tidak ada yang mencolok di sekitar tahun 2003, ini memungkinkan kita mengakhiri pelajaran ini dengan catatan yang sedikit lebih bahagia: meskipun jumlah koloni secara keseluruhan menurun, jumlah koloni mulai stabil meskipun hasil per koloni menurun.
 
-Semangat, lebah! 🐝❤️
+Semangat, lebah, semangat!
 
+🐝❤️
 ## 🚀 Tantangan
 
-Dalam pelajaran ini, Anda belajar lebih banyak tentang penggunaan scatterplot dan line grid lainnya, termasuk facet grid. Tantang diri Anda untuk membuat facet grid menggunakan dataset yang berbeda, mungkin yang telah Anda gunakan sebelumnya dalam pelajaran ini. Perhatikan berapa lama waktu yang dibutuhkan untuk membuatnya dan bagaimana Anda perlu berhati-hati tentang jumlah grid yang perlu Anda gambar menggunakan teknik ini.
+Dalam pelajaran ini, Anda belajar lebih banyak tentang penggunaan scatterplot dan line grid lainnya, termasuk facet grid. Tantang diri Anda untuk membuat facet grid menggunakan dataset yang berbeda, mungkin yang telah Anda gunakan sebelumnya dalam pelajaran ini. Perhatikan berapa lama waktu yang dibutuhkan untuk membuatnya dan bagaimana Anda perlu berhati-hati tentang berapa banyak grid yang perlu Anda gambar menggunakan teknik ini.
 
 ## [Kuis Pasca-Pelajaran](https://ff-quizzes.netlify.app/en/ds/quiz/23)
 
 ## Tinjauan & Studi Mandiri
 
-Grafik garis bisa sederhana atau cukup kompleks. Lakukan sedikit pembacaan di [dokumentasi Seaborn](https://seaborn.pydata.org/generated/seaborn.lineplot.html) tentang berbagai cara Anda dapat membangunnya. Cobalah untuk meningkatkan grafik garis yang Anda buat dalam pelajaran ini dengan metode lain yang tercantum dalam dokumentasi.
+Grafik garis bisa sederhana atau cukup kompleks. Lakukan sedikit pembacaan di [dokumentasi Seaborn](https://seaborn.pydata.org/generated/seaborn.lineplot.html) tentang berbagai cara Anda dapat membangunnya. Cobalah untuk meningkatkan grafik garis yang Anda buat dalam pelajaran ini dengan metode lain yang tercantum dalam dokumen.
 
 ## Tugas
 
-[Masuk lebih dalam ke sarang lebah](assignment.md)
+[Masuk ke sarang lebah](assignment.md)
 
 ---
 
 **Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan layanan penerjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Meskipun kami berupaya untuk memberikan hasil yang akurat, harap diperhatikan bahwa terjemahan otomatis mungkin mengandung kesalahan atau ketidakakuratan. Dokumen asli dalam bahasa aslinya harus dianggap sebagai sumber yang berwenang. Untuk informasi yang bersifat kritis, disarankan menggunakan jasa penerjemahan manusia profesional. Kami tidak bertanggung jawab atas kesalahpahaman atau penafsiran yang keliru yang timbul dari penggunaan terjemahan ini.
+Dokumen ini telah diterjemahkan menggunakan layanan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Meskipun kami berupaya untuk memberikan hasil yang akurat, harap diperhatikan bahwa terjemahan otomatis mungkin mengandung kesalahan atau ketidakakuratan. Dokumen asli dalam bahasa aslinya harus dianggap sebagai sumber yang berwenang. Untuk informasi yang bersifat kritis, disarankan menggunakan jasa penerjemah manusia profesional. Kami tidak bertanggung jawab atas kesalahpahaman atau penafsiran yang keliru yang timbul dari penggunaan terjemahan ini.

@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "44de95649fcec43643cbe3962f904331",
-  "translation_date": "2025-09-06T00:26:37+00:00",
+  "original_hash": "0764fd4077f3f04a1d968ec371227744",
+  "translation_date": "2025-09-06T11:43:58+00:00",
   "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
   "language_code": "tl"
 }
@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Sa pagpapatuloy ng ating pananaliksik na nakatuon sa kalikasan, tuklasin natin ang mga kawili-wiling paraan ng pagpapakita ng relasyon sa pagitan ng iba't ibang uri ng pulot, batay sa dataset mula sa [United States Department of Agriculture](https://www.nass.usda.gov/About_NASS/index.php).
 
-Ang dataset na ito, na may humigit-kumulang 600 item, ay nagpapakita ng produksyon ng pulot sa maraming estado ng U.S. Halimbawa, maaari mong tingnan ang bilang ng mga kolonya, ani bawat kolonya, kabuuang produksyon, imbentaryo, presyo bawat libra, at halaga ng pulot na ginawa sa isang partikular na estado mula 1998-2012, na may isang hilera bawat taon para sa bawat estado.
+Ang dataset na ito, na may humigit-kumulang 600 item, ay nagpapakita ng produksyon ng pulot sa maraming estado sa U.S. Halimbawa, maaari mong tingnan ang bilang ng mga kolonya, ani bawat kolonya, kabuuang produksyon, imbentaryo, presyo bawat libra, at halaga ng pulot na ginawa sa isang partikular na estado mula 1998-2012, na may isang row bawat taon para sa bawat estado.
 
 Magiging kawili-wiling ipakita ang relasyon sa pagitan ng produksyon ng isang estado bawat taon at, halimbawa, ang presyo ng pulot sa estado na iyon. Bilang alternatibo, maaari mong ipakita ang relasyon sa pagitan ng ani ng pulot bawat kolonya sa iba't ibang estado. Ang saklaw ng taon na ito ay sumasaklaw sa mapaminsalang 'CCD' o 'Colony Collapse Disorder' na unang nakita noong 2006 (http://npic.orst.edu/envir/ccd.html), kaya't ito ay isang makabuluhang dataset na pag-aralan. 🐝
 
@@ -46,23 +46,23 @@ Mapapansin mo na ang data ng pulot ay may ilang kawili-wiling mga column, kabila
 | CA    | 450000 | 83          | 37350000  | 12326000 | 0.62       | 23157000  | 1998 |
 | CO    | 27000  | 72          | 1944000   | 1594000  | 0.7        | 1361000   | 1998 |
 
-Gumawa ng simpleng scatterplot upang ipakita ang relasyon sa pagitan ng presyo bawat libra ng pulot at ng estado kung saan ito nagmula. Gawing sapat na mataas ang `y` axis upang maipakita ang lahat ng estado:
+Gumawa ng basic scatterplot upang ipakita ang relasyon sa pagitan ng presyo bawat libra ng pulot at ng estado kung saan ito nagmula. Gawing sapat na mataas ang `y` axis upang maipakita ang lahat ng estado:
 
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter1.png)
+![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.tl.png)
 
-Ngayon, ipakita ang parehong data gamit ang isang kulay ng pulot upang ipakita kung paano nagbabago ang presyo sa paglipas ng mga taon. Maaari mong gawin ito sa pamamagitan ng pagdaragdag ng 'hue' parameter upang ipakita ang pagbabago, taon-taon:
+Ngayon, ipakita ang parehong data gamit ang isang honey color scheme upang ipakita kung paano nagbabago ang presyo sa paglipas ng mga taon. Magagawa mo ito sa pamamagitan ng pagdaragdag ng 'hue' parameter upang ipakita ang pagbabago, taon-taon:
 
 > ✅ Alamin ang higit pa tungkol sa [mga color palettes na maaari mong gamitin sa Seaborn](https://seaborn.pydata.org/tutorial/color_palettes.html) - subukan ang isang magandang rainbow color scheme!
 
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter2.png)
+![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.tl.png)
 
-Sa pagbabago ng color scheme na ito, makikita mo na malinaw na may malakas na pag-usad sa paglipas ng mga taon sa presyo ng pulot bawat libra. Sa katunayan, kung titingnan mo ang isang sample set sa data upang i-verify (pumili ng isang partikular na estado, Arizona halimbawa) makikita mo ang pattern ng pagtaas ng presyo taon-taon, na may ilang mga eksepsyon:
+Sa pagbabago ng color scheme na ito, makikita mo na malinaw na may malakas na pagtaas sa paglipas ng mga taon sa presyo ng pulot bawat libra. Sa katunayan, kung titingnan mo ang isang sample set sa data upang i-verify (pumili ng isang partikular na estado, Arizona halimbawa) makikita mo ang pattern ng pagtaas ng presyo taon-taon, na may ilang mga eksepsyon:
 
 | estado | numcol | yieldpercol | totalprod | stocks  | priceperlb | prodvalue | year |
 | ----- | ------ | ----------- | --------- | ------- | ---------- | --------- | ---- |
@@ -82,18 +82,18 @@ Sa pagbabago ng color scheme na ito, makikita mo na malinaw na may malakas na pa
 | AZ    | 23000  | 53          | 1219000   | 427000  | 1.55       | 1889000   | 2011 |
 | AZ    | 22000  | 46          | 1012000   | 253000  | 1.79       | 1811000   | 2012 |
 
-Isa pang paraan upang ipakita ang pag-usad na ito ay ang paggamit ng laki, sa halip na kulay. Para sa mga gumagamit na may colorblindness, maaaring mas magandang opsyon ito. I-edit ang iyong visualization upang ipakita ang pagtaas ng presyo sa pamamagitan ng pagtaas ng circumference ng mga tuldok:
+Isa pang paraan upang ipakita ang progresyon na ito ay ang paggamit ng laki, sa halip na kulay. Para sa mga gumagamit na may colorblindness, maaaring mas magandang opsyon ito. I-edit ang iyong visualization upang ipakita ang pagtaas ng presyo sa pamamagitan ng pagtaas ng circumference ng mga tuldok:
 
 ```python
 sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspect=.5);
 ```
 Makikita mo ang unti-unting pagtaas ng laki ng mga tuldok.
 
-![scatterplot 3](../../../../3-Data-Visualization/12-visualization-relationships/images/scatter3.png)
+![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.tl.png)
 
 Ito ba ay simpleng kaso ng supply at demand? Dahil sa mga salik tulad ng pagbabago ng klima at colony collapse, mas kaunti ba ang pulot na magagamit para bilhin taon-taon, kaya't tumataas ang presyo?
 
-Upang matuklasan ang ugnayan sa pagitan ng ilan sa mga variable sa dataset na ito, tuklasin natin ang ilang line charts.
+Upang matuklasan ang ugnayan sa pagitan ng ilang mga variable sa dataset na ito, tuklasin natin ang ilang line charts.
 
 ## Line charts
 
@@ -102,21 +102,21 @@ Tanong: May malinaw bang pagtaas sa presyo ng pulot bawat libra taon-taon? Pinak
 ```python
 sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
-Sagot: Oo, na may ilang eksepsyon sa paligid ng taong 2003:
+Sagot: Oo, na may ilang mga eksepsyon sa paligid ng taong 2003:
 
-![line chart 1](../../../../3-Data-Visualization/12-visualization-relationships/images/line1.png)
+![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.tl.png)
 
-✅ Dahil ang Seaborn ay nag-aaggregate ng data sa isang linya, ipinapakita nito "ang maraming sukat sa bawat x value sa pamamagitan ng pag-plot ng mean at ang 95% confidence interval sa paligid ng mean". [Source](https://seaborn.pydata.org/tutorial/relational.html). Ang behavior na ito na kumakain ng oras ay maaaring i-disable sa pamamagitan ng pagdaragdag ng `ci=None`.
+✅ Dahil ang Seaborn ay nag-a-aggregate ng data sa isang linya, ipinapakita nito "ang maramihang sukat sa bawat x value sa pamamagitan ng pag-plot ng mean at ang 95% confidence interval sa paligid ng mean". [Source](https://seaborn.pydata.org/tutorial/relational.html). Ang time-consuming na behavior na ito ay maaaring i-disable sa pamamagitan ng pagdaragdag ng `ci=None`.
 
-Tanong: Sa 2003, makikita ba natin ang pagtaas sa supply ng pulot? Paano kung tingnan mo ang kabuuang produksyon taon-taon?
+Tanong: Sa 2003, makikita rin ba natin ang pagtaas sa supply ng pulot? Paano kung tingnan mo ang kabuuang produksyon taon-taon?
 
 ```python
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../3-Data-Visualization/12-visualization-relationships/images/line2.png)
+![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.tl.png)
 
-Sagot: Hindi talaga. Kung titingnan mo ang kabuuang produksyon, tila ito ay talagang tumaas sa partikular na taon, kahit na sa pangkalahatan ang dami ng pulot na ginagawa ay bumababa sa mga taong ito.
+Sagot: Hindi talaga. Kung titingnan mo ang kabuuang produksyon, tila ito ay tumaas sa partikular na taon, kahit na sa pangkalahatan ang dami ng pulot na ginagawa ay bumababa sa mga taong ito.
 
 Tanong: Sa kasong iyon, ano kaya ang sanhi ng pagtaas ng presyo ng pulot sa paligid ng 2003?
 
@@ -124,7 +124,7 @@ Upang matuklasan ito, maaari kang mag-explore ng facet grid.
 
 ## Facet grids
 
-Ang facet grids ay kumukuha ng isang aspeto ng iyong dataset (sa ating kaso, maaari mong piliin ang 'year' upang maiwasan ang sobrang dami ng facets na ginawa). Ang Seaborn ay maaaring gumawa ng plot para sa bawat isa sa mga aspeto ng iyong napiling x at y coordinates para sa mas madaling visual na paghahambing. Namumukod-tangi ba ang 2003 sa ganitong uri ng paghahambing?
+Ang facet grids ay kumukuha ng isang aspeto ng iyong dataset (sa ating kaso, maaari mong piliin ang 'year' upang maiwasan ang sobrang dami ng facets). Ang Seaborn ay maaaring gumawa ng plot para sa bawat isa sa mga facets ng iyong napiling x at y coordinates para sa mas madaling visual na paghahambing. Kapansin-pansin ba ang 2003 sa ganitong uri ng paghahambing?
 
 Gumawa ng facet grid sa pamamagitan ng patuloy na paggamit ng `relplot` tulad ng inirerekomenda ng [Seaborn's documentation](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html?highlight=facetgrid#seaborn.FacetGrid).
 
@@ -135,12 +135,13 @@ sns.relplot(
     col="year", 
     col_wrap=3,
     kind="line"
+    )
 ```
 Sa visualization na ito, maaari mong ihambing ang ani bawat kolonya at bilang ng mga kolonya taon-taon, magkatabi na may wrap na nakatakda sa 3 para sa mga column:
 
-![facet grid](../../../../3-Data-Visualization/12-visualization-relationships/images/facet.png)
+![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.tl.png)
 
-Para sa dataset na ito, walang partikular na namumukod-tangi kaugnay sa bilang ng mga kolonya at kanilang ani, taon-taon at estado sa estado. Mayroon bang ibang paraan upang tingnan ang paghahanap ng ugnayan sa pagitan ng dalawang variable na ito?
+Para sa dataset na ito, walang partikular na kapansin-pansin tungkol sa bilang ng mga kolonya at kanilang ani, taon-taon at estado sa estado. Mayroon bang ibang paraan upang tingnan ang paghahanap ng ugnayan sa pagitan ng dalawang variable na ito?
 
 ## Dual-line Plots
 
@@ -161,9 +162,9 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../3-Data-Visualization/12-visualization-relationships/images/dual-line.png)
+![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.tl.png)
 
-Habang walang masyadong kapansin-pansin sa mata sa paligid ng taong 2003, pinapayagan tayo nitong tapusin ang araling ito sa mas masayang tala: habang sa pangkalahatan ay bumababa ang bilang ng mga kolonya, ang bilang ng mga kolonya ay nagiging matatag kahit na ang kanilang ani bawat kolonya ay bumababa.
+Habang walang kapansin-pansin sa mata sa paligid ng taong 2003, pinapayagan tayo nitong tapusin ang araling ito sa isang mas masayang tala: habang may pangkalahatang pagbaba sa bilang ng mga kolonya, ang bilang ng mga kolonya ay nagiging matatag kahit na ang kanilang ani bawat kolonya ay bumababa.
 
 Go, bees, go!
 
@@ -176,7 +177,7 @@ Sa araling ito, natutunan mo ang higit pa tungkol sa iba pang gamit ng scatterpl
 
 ## Review & Self Study
 
-Ang mga line plots ay maaaring simple o medyo kumplikado. Magbasa nang kaunti sa [Seaborn documentation](https://seaborn.pydata.org/generated/seaborn.lineplot.html) tungkol sa iba't ibang paraan kung paano mo sila mabubuo. Subukang pagandahin ang mga line charts na ginawa mo sa araling ito gamit ang iba pang mga pamamaraan na nakalista sa docs.
+Ang mga line plots ay maaaring simple o medyo kumplikado. Magbasa nang kaunti sa [Seaborn documentation](https://seaborn.pydata.org/generated/seaborn.lineplot.html) tungkol sa iba't ibang paraan kung paano mo ito mabubuo. Subukang pagandahin ang mga line charts na ginawa mo sa araling ito gamit ang iba pang mga pamamaraan na nakalista sa docs.
 
 ## Assignment
 
@@ -185,4 +186,4 @@ Ang mga line plots ay maaaring simple o medyo kumplikado. Magbasa nang kaunti sa
 ---
 
 **Paunawa**:  
-Ang dokumentong ito ay isinalin gamit ang AI translation service na [Co-op Translator](https://github.com/Azure/co-op-translator). Bagama't sinisikap naming maging tumpak, pakatandaan na ang mga awtomatikong pagsasalin ay maaaring maglaman ng mga pagkakamali o hindi pagkakatugma. Ang orihinal na dokumento sa kanyang katutubong wika ang dapat ituring na opisyal na sanggunian. Para sa mahalagang impormasyon, inirerekomenda ang propesyonal na pagsasalin ng tao. Hindi kami mananagot sa anumang hindi pagkakaunawaan o maling interpretasyon na maaaring magmula sa paggamit ng pagsasaling ito.
+Ang dokumentong ito ay isinalin gamit ang AI translation service na [Co-op Translator](https://github.com/Azure/co-op-translator). Bagama't sinisikap naming maging tumpak, pakitandaan na ang mga awtomatikong pagsasalin ay maaaring maglaman ng mga pagkakamali o hindi pagkakatugma. Ang orihinal na dokumento sa kanyang orihinal na wika ang dapat ituring na opisyal na sanggunian. Para sa mahalagang impormasyon, inirerekomenda ang propesyonal na pagsasalin ng tao. Hindi kami mananagot sa anumang hindi pagkakaunawaan o maling interpretasyon na maaaring magmula sa paggamit ng pagsasaling ito.
