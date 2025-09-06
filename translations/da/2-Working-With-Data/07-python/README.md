@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "577a611517482c3ceaf76d3d8142cba9",
-  "translation_date": "2025-09-05T21:57:59+00:00",
+  "original_hash": "7bfec050f4717dcc2dfd028aca9d21f3",
+  "translation_date": "2025-09-06T15:46:35+00:00",
   "source_file": "2-Working-With-Data/07-python/README.md",
   "language_code": "da"
 }
@@ -13,13 +13,13 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Arbejde med Python - _Sketchnote af [@nitya](https://twitter.com/nitya)_                 |
 
-[![Introduktionsvideo](../../../../2-Working-With-Data/07-python/images/video-ds-python.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Introduktionsvideo](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.da.png)](https://youtu.be/dZjWOGbsN4Y)
 
-Selvom databaser tilbyder meget effektive måder at gemme data og forespørge dem ved hjælp af forespørgselssprog, er den mest fleksible måde at bearbejde data på at skrive dit eget program til at manipulere data. I mange tilfælde vil en databaseforespørgsel være en mere effektiv løsning. Men i nogle tilfælde, hvor mere kompleks databehandling er nødvendig, kan det ikke nemt udføres med SQL. 
-Databehandling kan programmeres i ethvert programmeringssprog, men der er visse sprog, der er mere velegnede til at arbejde med data. Dataforskere foretrækker typisk et af følgende sprog:
+Selvom databaser tilbyder meget effektive måder at gemme data og forespørge dem ved hjælp af forespørgselssprog, er den mest fleksible måde at bearbejde data på at skrive dit eget program til at manipulere data. I mange tilfælde vil en databaseforespørgsel være en mere effektiv løsning. Men i nogle tilfælde, hvor mere kompleks databehandling er nødvendig, kan det ikke nemt gøres med SQL. 
+Databehandling kan programmeres i ethvert programmeringssprog, men der er visse sprog, der er mere avancerede, når det kommer til at arbejde med data. Dataforskere foretrækker typisk et af følgende sprog:
 
-* **[Python](https://www.python.org/)**, et generelt programmeringssprog, som ofte anses for at være en af de bedste muligheder for begyndere på grund af dets enkelhed. Python har mange ekstra biblioteker, der kan hjælpe dig med at løse praktiske problemer, såsom at udtrække data fra en ZIP-fil eller konvertere et billede til gråtoner. Ud over data science bruges Python også ofte til webudvikling. 
-* **[R](https://www.r-project.org/)** er et traditionelt værktøj udviklet med statistisk databehandling i tankerne. Det indeholder også et stort bibliotek (CRAN), hvilket gør det til et godt valg til databehandling. Dog er R ikke et generelt programmeringssprog og bruges sjældent uden for data science-domænet.
+* **[Python](https://www.python.org/)**, et generelt programmeringssprog, som ofte anses for at være en af de bedste muligheder for begyndere på grund af dets enkelhed. Python har mange ekstra biblioteker, der kan hjælpe dig med at løse praktiske problemer, såsom at udtrække data fra en ZIP-arkiv eller konvertere et billede til gråtoner. Ud over data science bruges Python også ofte til webudvikling. 
+* **[R](https://www.r-project.org/)** er en traditionel værktøjskasse udviklet med statistisk databehandling i tankerne. Det indeholder også et stort bibliotek af pakker (CRAN), hvilket gør det til et godt valg for databehandling. Dog er R ikke et generelt programmeringssprog og bruges sjældent uden for data science-domænet.
 * **[Julia](https://julialang.org/)** er et andet sprog udviklet specifikt til data science. Det er designet til at give bedre ydeevne end Python, hvilket gør det til et fremragende værktøj til videnskabelige eksperimenter.
 
 I denne lektion vil vi fokusere på at bruge Python til simpel databehandling. Vi antager grundlæggende kendskab til sproget. Hvis du ønsker en dybere introduktion til Python, kan du henvise til en af følgende ressourcer:
@@ -37,9 +37,9 @@ Vi vil fokusere på nogle få eksempler på databehandling i stedet for at give 
 
 ## [Quiz før lektionen](https://ff-quizzes.netlify.app/en/ds/quiz/12)
 
-## Tabulære data og Dataframes
+## Tabulære Data og Dataframes
 
-Du har allerede stiftet bekendtskab med tabulære data, da vi talte om relationelle databaser. Når du har mange data, og de er indeholdt i mange forskellige sammenkædede tabeller, giver det bestemt mening at bruge SQL til at arbejde med dem. Men der er mange tilfælde, hvor vi har en tabel med data, og vi skal opnå en **forståelse** eller **indsigt** om disse data, såsom fordeling, korrelation mellem værdier osv. Inden for data science er der mange tilfælde, hvor vi skal udføre nogle transformationer af de originale data, efterfulgt af visualisering. Begge disse trin kan nemt udføres ved hjælp af Python.
+Du har allerede stiftet bekendtskab med tabulære data, da vi talte om relationelle databaser. Når du har mange data, og de er indeholdt i mange forskellige sammenkædede tabeller, giver det bestemt mening at bruge SQL til at arbejde med dem. Men der er mange tilfælde, hvor vi har en tabel med data, og vi skal opnå en **forståelse** eller **indsigt** om disse data, såsom fordeling, korrelation mellem værdier osv. I data science er der mange tilfælde, hvor vi skal udføre nogle transformationer af de oprindelige data, efterfulgt af visualisering. Begge disse trin kan nemt udføres ved hjælp af Python.
 
 Der er to mest nyttige biblioteker i Python, der kan hjælpe dig med at arbejde med tabulære data:
 * **[Pandas](https://pandas.pydata.org/)** giver dig mulighed for at manipulere såkaldte **Dataframes**, som er analoge med relationelle tabeller. Du kan have navngivne kolonner og udføre forskellige operationer på rækker, kolonner og dataframes generelt. 
@@ -63,7 +63,7 @@ Pandas er centreret omkring nogle få grundlæggende begreber.
 
 **Series** er en sekvens af værdier, der ligner en liste eller numpy-array. Den største forskel er, at en series også har en **indeks**, og når vi opererer på series (f.eks. lægger dem sammen), tages indekset i betragtning. Indekset kan være så simpelt som et heltal (det er standardindekset, når man opretter en series fra en liste eller et array), eller det kan have en kompleks struktur, såsom et datointerval.
 
-> **Bemærk**: Der er noget introducerende Pandas-kode i den medfølgende notebook [`notebook.ipynb`](../../../../2-Working-With-Data/07-python/notebook.ipynb). Vi skitserer kun nogle af eksemplerne her, og du er bestemt velkommen til at tjekke hele notebooken.
+> **Bemærk**: Der er noget introducerende Pandas-kode i den medfølgende notebook [`notebook.ipynb`](notebook.ipynb). Vi skitserer kun nogle af eksemplerne her, og du er bestemt velkommen til at tjekke den fulde notebook.
 
 Lad os tage et eksempel: vi vil analysere salget i vores isbutik. Lad os generere en series af salgsnumre (antal solgte varer hver dag) for en given tidsperiode:
 
@@ -75,27 +75,27 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Tidsserieplot](../../../../2-Working-With-Data/07-python/images/timeseries-1.png)
+![Tidsserieplot](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.da.png)
 
-Antag nu, at vi hver uge arrangerer en fest for venner, og vi tager yderligere 10 pakker is til festen. Vi kan oprette en anden series, indekseret efter uge, for at demonstrere det:
+Antag nu, at vi hver uge arrangerer en fest for venner, og vi tager yderligere 10 pakker is med til festen. Vi kan oprette en anden series, indekseret efter uge, for at demonstrere det:
 ```python
 additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"))
 ```
-Når vi lægger to series sammen, får vi det samlede antal:
+Når vi lægger de to series sammen, får vi det samlede antal:
 ```python
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Tidsserieplot](../../../../2-Working-With-Data/07-python/images/timeseries-2.png)
+![Tidsserieplot](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.da.png)
 
-> **Bemærk** at vi ikke bruger den simple syntaks `total_items+additional_items`. Hvis vi gjorde det, ville vi få mange `NaN` (*Not a Number*) værdier i den resulterende series. Dette skyldes, at der mangler værdier for nogle af indeksene i `additional_items`-serien, og at lægge `NaN` til noget resulterer i `NaN`. Derfor skal vi angive parameteren `fill_value` under additionen.
+> **Bemærk** at vi ikke bruger den simple syntaks `total_items+additional_items`. Hvis vi gjorde det, ville vi få mange `NaN` (*Not a Number*) værdier i den resulterende series. Dette skyldes, at der mangler værdier for nogle af indeksene i `additional_items`-serien, og at lægge `NaN` til noget resulterer i `NaN`. Derfor skal vi angive parameteren `fill_value` under addition.
 
 Med tidsserier kan vi også **resample** serien med forskellige tidsintervaller. For eksempel, hvis vi vil beregne gennemsnitligt salgsvolumen månedligt, kan vi bruge følgende kode:
 ```python
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Månedlige tidsserie-gennemsnit](../../../../2-Working-With-Data/07-python/images/timeseries-3.png)
+![Månedlige tidsserie-gennemsnit](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.da.png)
 
 ### DataFrame
 
@@ -133,21 +133,21 @@ Dette vil give os en tabel som denne:
 ```python
 df = pd.DataFrame([a,b]).T..rename(columns={ 0 : 'A', 1 : 'B' })
 ```
-Her betyder `.T` operationen at transponere DataFrame, dvs. bytte rækker og kolonner, og `rename`-operationen giver os mulighed for at omdøbe kolonnerne, så de matcher det tidligere eksempel.
+Her betyder `.T` operationen at transponere DataFrame, dvs. at bytte rækker og kolonner, og `rename`-operationen giver os mulighed for at omdøbe kolonnerne, så de matcher det tidligere eksempel.
 
 Her er nogle af de vigtigste operationer, vi kan udføre på DataFrames:
 
-**Kolonnevalg**. Vi kan vælge individuelle kolonner ved at skrive `df['A']` - denne operation returnerer en series. Vi kan også vælge et subset af kolonner til en anden DataFrame ved at skrive `df[['B','A']]` - dette returnerer en ny DataFrame.
+**Kolonnevalg**. Vi kan vælge individuelle kolonner ved at skrive `df['A']` - denne operation returnerer en Series. Vi kan også vælge et delmængde af kolonner til en anden DataFrame ved at skrive `df[['B','A']]` - dette returnerer en anden DataFrame.
 
-**Filtrering** af kun visse rækker baseret på kriterier. For eksempel, for kun at beholde rækker, hvor kolonnen `A` er større end 5, kan vi skrive `df[df['A']>5]`.
+**Filtrering** af kun visse rækker baseret på kriterier. For eksempel, for kun at beholde rækker med kolonnen `A` større end 5, kan vi skrive `df[df['A']>5]`.
 
-> **Bemærk**: Måden filtrering fungerer på er følgende. Udtrykket `df['A']<5` returnerer en boolsk series, som angiver, om udtrykket er `True` eller `False` for hvert element i den originale series `df['A']`. Når en boolsk series bruges som indeks, returnerer den et subset af rækker i DataFrame. Derfor er det ikke muligt at bruge vilkårlige Python-boolske udtryk, f.eks. at skrive `df[df['A']>5 and df['A']<7]` ville være forkert. I stedet skal du bruge den specielle `&`-operation på boolske series, ved at skrive `df[(df['A']>5) & (df['A']<7)]` (*parenteser er vigtige her*).
+> **Bemærk**: Måden filtrering fungerer på er følgende. Udtrykket `df['A']<5` returnerer en boolsk series, som angiver, om udtrykket er `True` eller `False` for hvert element i den oprindelige series `df['A']`. Når en boolsk series bruges som indeks, returnerer den en delmængde af rækker i DataFrame. Derfor er det ikke muligt at bruge vilkårlige Python-boolske udtryk, f.eks. at skrive `df[df['A']>5 and df['A']<7]` ville være forkert. I stedet skal du bruge den specielle `&`-operation på boolske series, ved at skrive `df[(df['A']>5) & (df['A']<7)]` (*parenteser er vigtige her*).
 
 **Oprettelse af nye beregnelige kolonner**. Vi kan nemt oprette nye beregnelige kolonner for vores DataFrame ved at bruge intuitive udtryk som dette:
 ```python
 df['DivA'] = df['A']-df['A'].mean() 
 ``` 
-Dette eksempel beregner afvigelsen af A fra dens gennemsnitsværdi. Hvad der faktisk sker her er, at vi beregner en series og derefter tildeler denne series til venstre side, hvilket skaber en ny kolonne. Derfor kan vi ikke bruge operationer, der ikke er kompatible med series, f.eks. er koden nedenfor forkert:
+Dette eksempel beregner afvigelsen af A fra dens gennemsnitsværdi. Hvad der faktisk sker her er, at vi beregner en series og derefter tildeler denne series til venstre side, hvilket skaber en ny kolonne. Derfor kan vi ikke bruge operationer, der ikke er kompatible med series, f.eks. nedenstående kode er forkert:
 ```python
 # Wrong code -> df['ADescr'] = "Low" if df['A'] < 5 else "Hi"
 df['LenB'] = len(df['B']) # <- Wrong result
@@ -180,11 +180,11 @@ Efter ovenstående operationer ender vi med følgende DataFrame:
 df.iloc[:5]
 ```
 
-**Gruppering** bruges ofte til at opnå et resultat, der ligner *pivot-tabeller* i Excel. Antag, at vi vil beregne gennemsnitsværdien af kolonnen `A` for hver given værdi af `LenB`. Så kan vi gruppere vores DataFrame efter `LenB` og kalde `mean`:
+**Gruppering** bruges ofte til at få et resultat, der ligner *pivot-tabeller* i Excel. Antag, at vi vil beregne gennemsnitsværdien af kolonnen `A` for hver given værdi af `LenB`. Så kan vi gruppere vores DataFrame efter `LenB` og kalde `mean`:
 ```python
-df.groupby(by='LenB').mean()
+df.groupby(by='LenB')[['A','DivA']].mean()
 ```
-Hvis vi skal beregne gennemsnit og antallet af elementer i gruppen, kan vi bruge den mere komplekse `aggregate`-funktion:
+Hvis vi skal beregne gennemsnittet og antallet af elementer i gruppen, kan vi bruge den mere komplekse `aggregate`-funktion:
 ```python
 df.groupby(by='LenB') \
  .aggregate({ 'DivA' : len, 'A' : lambda x: x.mean() }) \
@@ -201,92 +201,92 @@ Dette giver os følgende tabel:
 | 6    | 2     | 6.000000 |
 
 ### Hentning af Data
-Vi har set, hvor nemt det er at oprette Series og DataFrames fra Python-objekter. Dog kommer data som regel i form af en tekstfil eller en Excel-tabel. Heldigvis tilbyder Pandas en enkel måde at indlæse data fra disken. For eksempel er det lige så nemt at læse en CSV-fil som dette:  
+Vi har set, hvor nemt det er at oprette Series og DataFrames fra Python-objekter. Dog kommer data ofte i form af en tekstfil eller en Excel-tabel. Heldigvis tilbyder Pandas en enkel måde at indlæse data fra disk. For eksempel er det lige så nemt at læse en CSV-fil som dette:
 ```python
 df = pd.read_csv('file.csv')
-```  
-Vi vil se flere eksempler på indlæsning af data, herunder at hente det fra eksterne websteder, i afsnittet "Udfordring".
+```
+Vi vil se flere eksempler på indlæsning af data, herunder at hente det fra eksterne websteder, i afsnittet "Challenge".
 
 ### Udskrivning og Visualisering
 
-En Data Scientist skal ofte udforske data, og derfor er det vigtigt at kunne visualisere dem. Når en DataFrame er stor, vil vi mange gange bare sikre os, at vi gør alting korrekt, ved at udskrive de første par rækker. Dette kan gøres ved at kalde `df.head()`. Hvis du kører det fra Jupyter Notebook, vil det udskrive DataFrame i en pæn tabelform.
+En Data Scientist skal ofte udforske data, og derfor er det vigtigt at kunne visualisere dem. Når en DataFrame er stor, vil vi ofte bare sikre os, at vi gør alting korrekt, ved at udskrive de første par rækker. Dette kan gøres ved at kalde `df.head()`. Hvis du kører det fra Jupyter Notebook, vil det udskrive DataFrame i en flot tabelform.
 
 Vi har også set brugen af funktionen `plot` til at visualisere nogle kolonner. Selvom `plot` er meget nyttig til mange opgaver og understøtter mange forskellige graf-typer via parameteren `kind=`, kan du altid bruge det rå `matplotlib`-bibliotek til at lave noget mere komplekst. Vi vil dække datavisualisering i detaljer i separate kursuslektioner.
 
-Denne oversigt dækker de vigtigste koncepter i Pandas, men biblioteket er meget omfattende, og der er ingen grænser for, hvad du kan gøre med det! Lad os nu anvende denne viden til at løse et specifikt problem.
+Denne oversigt dækker de vigtigste begreber i Pandas, men biblioteket er meget rigt, og der er ingen grænser for, hvad du kan gøre med det! Lad os nu anvende denne viden til at løse et specifikt problem.
 
-## 🚀 Udfordring 1: Analyse af COVID-spredning
+## 🚀 Challenge 1: Analyse af COVID-spredning
 
-Det første problem, vi vil fokusere på, er modellering af den epidemiske spredning af COVID-19. For at gøre det vil vi bruge data om antallet af smittede personer i forskellige lande, leveret af [Center for Systems Science and Engineering](https://systems.jhu.edu/) (CSSE) ved [Johns Hopkins University](https://jhu.edu/). Datasættet er tilgængeligt i [dette GitHub-repository](https://github.com/CSSEGISandData/COVID-19).
+Det første problem, vi vil fokusere på, er modellering af den epidemiske spredning af COVID-19. For at gøre dette vil vi bruge data om antallet af smittede individer i forskellige lande, leveret af [Center for Systems Science and Engineering](https://systems.jhu.edu/) (CSSE) ved [Johns Hopkins University](https://jhu.edu/). Datasættet er tilgængeligt i [denne GitHub-repository](https://github.com/CSSEGISandData/COVID-19).
 
-Da vi ønsker at demonstrere, hvordan man arbejder med data, inviterer vi dig til at åbne [`notebook-covidspread.ipynb`](../../../../2-Working-With-Data/07-python/notebook-covidspread.ipynb) og læse det fra top til bund. Du kan også køre cellerne og løse nogle af de udfordringer, vi har efterladt til dig i slutningen.
+Da vi ønsker at demonstrere, hvordan man arbejder med data, inviterer vi dig til at åbne [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) og læse det fra top til bund. Du kan også udføre celler og lave nogle udfordringer, som vi har efterladt til dig i slutningen.
 
-![COVID Spredning](../../../../2-Working-With-Data/07-python/images/covidspread.png)
+![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.da.png)
 
-> Hvis du ikke ved, hvordan man kører kode i Jupyter Notebook, kan du læse [denne artikel](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
+> Hvis du ikke ved, hvordan man kører kode i Jupyter Notebook, kan du kigge på [denne artikel](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
-## Arbejde med Ustrukturerede Data
+## Arbejde med ustruktureret data
 
-Selvom data ofte kommer i tabelform, skal vi i nogle tilfælde arbejde med mindre strukturerede data, for eksempel tekst eller billeder. I sådanne tilfælde skal vi for at anvende de databehandlingsteknikker, vi har set ovenfor, på en eller anden måde **udtrække** strukturerede data. Her er nogle eksempler:
+Selvom data meget ofte kommer i tabelform, skal vi i nogle tilfælde arbejde med mindre struktureret data, for eksempel tekst eller billeder. I dette tilfælde, for at anvende de databehandlingsteknikker, vi har set ovenfor, skal vi på en eller anden måde **udtrække** struktureret data. Her er nogle eksempler:
 
-* Udtrække nøgleord fra tekst og se, hvor ofte disse nøgleord forekommer
+* Udtrække nøgleord fra tekst og se, hvor ofte disse nøgleord optræder
 * Bruge neurale netværk til at udtrække information om objekter på et billede
-* Få information om folks følelser fra et videokamerafeed
+* Få information om folks følelser via videokamera-feed
 
-## 🚀 Udfordring 2: Analyse af COVID-artikler
+## 🚀 Challenge 2: Analyse af COVID-artikler
 
-I denne udfordring fortsætter vi med emnet COVID-pandemien og fokuserer på behandling af videnskabelige artikler om emnet. Der findes [CORD-19-datasættet](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) med mere end 7000 (på tidspunktet for skrivningen) artikler om COVID, tilgængeligt med metadata og abstracts (og for omkring halvdelen af dem er der også fuld tekst tilgængelig).
+I denne udfordring fortsætter vi med emnet COVID-pandemien og fokuserer på behandling af videnskabelige artikler om emnet. Der findes [CORD-19 Dataset](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) med mere end 7000 (på tidspunktet for skrivningen) artikler om COVID, tilgængelige med metadata og abstracts (og for omkring halvdelen af dem er der også fuld tekst tilgængelig).
 
-Et fuldt eksempel på analyse af dette datasæt ved hjælp af [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health/?WT.mc_id=academic-77958-bethanycheum) kognitive tjeneste er beskrevet [i dette blogindlæg](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/). Vi vil diskutere en forenklet version af denne analyse.
+Et fuldt eksempel på analyse af dette datasæt ved hjælp af [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health/?WT.mc_id=academic-77958-bethanycheum) kognitive tjeneste er beskrevet [i denne blogpost](https://soshnikov.com/science/analyzing-medical-papers-with-azure-and-text-analytics-for-health/). Vi vil diskutere en forenklet version af denne analyse.
 
-> **NOTE**: Vi leverer ikke en kopi af datasættet som en del af dette repository. Du skal muligvis først downloade [`metadata.csv`](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge?select=metadata.csv) fra [dette datasæt på Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge). Registrering hos Kaggle kan være påkrævet. Du kan også downloade datasættet uden registrering [herfra](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), men det vil inkludere alle fulde tekster ud over metadatafilen.
+> **NOTE**: Vi leverer ikke en kopi af datasættet som en del af dette repository. Du skal muligvis først downloade [`metadata.csv`](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge?select=metadata.csv) filen fra [dette datasæt på Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge). Registrering hos Kaggle kan være påkrævet. Du kan også downloade datasættet uden registrering [herfra](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html), men det vil inkludere alle fulde tekster ud over metadatafilen.
 
-Åbn [`notebook-papers.ipynb`](../../../../2-Working-With-Data/07-python/notebook-papers.ipynb) og læs det fra top til bund. Du kan også køre cellerne og løse nogle af de udfordringer, vi har efterladt til dig i slutningen.
+Åbn [`notebook-papers.ipynb`](notebook-papers.ipynb) og læs det fra top til bund. Du kan også udføre celler og lave nogle udfordringer, som vi har efterladt til dig i slutningen.
 
-![COVID Medicinsk Behandling](../../../../2-Working-With-Data/07-python/images/covidtreat.png)
+![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.da.png)
 
-## Behandling af Billeddata
+## Behandling af billeddata
 
-For nylig er der udviklet meget kraftfulde AI-modeller, der gør det muligt at forstå billeder. Der er mange opgaver, der kan løses ved hjælp af forudtrænede neurale netværk eller cloud-tjenester. Nogle eksempler inkluderer:
+For nylig er der blevet udviklet meget kraftfulde AI-modeller, der gør det muligt for os at forstå billeder. Der er mange opgaver, der kan løses ved hjælp af forudtrænede neurale netværk eller cloud-tjenester. Nogle eksempler inkluderer:
 
-* **Billedklassifikation**, som kan hjælpe dig med at kategorisere billedet i en af de foruddefinerede klasser. Du kan nemt træne dine egne billedklassifikatorer ved hjælp af tjenester som [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-77958-bethanycheum)
-* **Objektdetektion** til at finde forskellige objekter på billedet. Tjenester som [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-77958-bethanycheum) kan finde en række almindelige objekter, og du kan træne en [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-77958-bethanycheum)-model til at finde specifikke objekter af interesse.
-* **Ansigtsgenkendelse**, herunder alder, køn og følelsesdetektion. Dette kan gøres via [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum).
+* **Billedklassifikation**, som kan hjælpe dig med at kategorisere et billede i en af de foruddefinerede klasser. Du kan nemt træne dine egne billedklassifikatorer ved hjælp af tjenester som [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-77958-bethanycheum)
+* **Objektdetektion** til at finde forskellige objekter på billedet. Tjenester som [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-77958-bethanycheum) kan finde en række almindelige objekter, og du kan træne [Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=academic-77958-bethanycheum) modellen til at finde specifikke objekter af interesse.
+* **Ansigtsdetektion**, inklusive alder, køn og følelsesdetektion. Dette kan gøres via [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum).
 
 Alle disse cloud-tjenester kan kaldes ved hjælp af [Python SDKs](https://docs.microsoft.com/samples/azure-samples/cognitive-services-python-sdk-samples/cognitive-services-python-sdk-samples/?WT.mc_id=academic-77958-bethanycheum), og kan derfor nemt integreres i din dataudforskningsarbejdsgang.
 
-Her er nogle eksempler på udforskning af data fra billedkilder:
-* I blogindlægget [How to Learn Data Science without Coding](https://soshnikov.com/azure/how-to-learn-data-science-without-coding/) udforsker vi Instagram-billeder og forsøger at forstå, hvad der får folk til at give flere likes til et billede. Vi udtrækker først så meget information som muligt fra billederne ved hjælp af [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-77958-bethanycheum) og bruger derefter [Azure Machine Learning AutoML](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml/?WT.mc_id=academic-77958-bethanycheum) til at bygge en fortolkelig model.
-* I [Facial Studies Workshop](https://github.com/CloudAdvocacy/FaceStudies) bruger vi [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum) til at udtrække følelser fra mennesker på fotografier fra begivenheder for at forsøge at forstå, hvad der gør folk glade.
+Her er nogle eksempler på udforskning af data fra billeddatakilder:
+* I blogindlægget [How to Learn Data Science without Coding](https://soshnikov.com/azure/how-to-learn-data-science-without-coding/) udforsker vi Instagram-billeder og forsøger at forstå, hvad der får folk til at give flere likes til et billede. Vi udtrækker først så meget information som muligt fra billederne ved hjælp af [computer vision](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=academic-77958-bethanycheum), og bruger derefter [Azure Machine Learning AutoML](https://docs.microsoft.com/azure/machine-learning/concept-automated-ml/?WT.mc_id=academic-77958-bethanycheum) til at bygge en fortolkbar model.
+* I [Facial Studies Workshop](https://github.com/CloudAdvocacy/FaceStudies) bruger vi [Face API](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=academic-77958-bethanycheum) til at udtrække følelser hos mennesker på fotografier fra begivenheder for at forsøge at forstå, hvad der gør folk glade.
 
 ## Konklusion
 
-Uanset om du allerede har strukturerede eller ustrukturerede data, kan du med Python udføre alle trin relateret til databehandling og forståelse. Det er sandsynligvis den mest fleksible måde at behandle data på, og det er grunden til, at størstedelen af dataforskere bruger Python som deres primære værktøj. At lære Python i dybden er sandsynligvis en god idé, hvis du er seriøs omkring din rejse inden for data science!
+Uanset om du allerede har struktureret eller ustruktureret data, kan du med Python udføre alle trin relateret til databehandling og forståelse. Det er sandsynligvis den mest fleksible måde at behandle data på, og det er grunden til, at størstedelen af dataforskere bruger Python som deres primære værktøj. At lære Python i dybden er sandsynligvis en god idé, hvis du er seriøs omkring din data science-rejse!
 
-## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ds/quiz/13)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/13)
 
 ## Gennemgang & Selvstudie
 
-**Bøger**  
+**Bøger**
 * [Wes McKinney. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython](https://www.amazon.com/gp/product/1491957662)
 
-**Online Ressourcer**  
-* Officiel [10 minutter til Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html) tutorial  
-* [Dokumentation om Pandas-visualisering](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
+**Online Ressourcer**
+* Officiel [10 minutes to Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html) tutorial
+* [Dokumentation om Pandas Visualisering](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
 
-**Lær Python**  
-* [Lær Python på en sjov måde med Turtle Graphics og Fractals](https://github.com/shwars/pycourse)  
-* [Tag dine første skridt med Python](https://docs.microsoft.com/learn/paths/python-first-steps/?WT.mc_id=academic-77958-bethanycheum) læringssti på [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=academic-77958-bethanycheum)
+**Lær Python**
+* [Learn Python in a Fun Way with Turtle Graphics and Fractals](https://github.com/shwars/pycourse)
+* [Tag dine første skridt med Python](https://docs.microsoft.com/learn/paths/python-first-steps/?WT.mc_id=academic-77958-bethanycheum) Learning Path på [Microsoft Learn](http://learn.microsoft.com/?WT.mc_id=academic-77958-bethanycheum)
 
 ## Opgave
 
-[Udfør en mere detaljeret dataundersøgelse for udfordringerne ovenfor](assignment.md)
+[Udfør en mere detaljeret dataundersøgelse for ovenstående udfordringer](assignment.md)
 
-## Kreditering
+## Credits
 
 Denne lektion er skrevet med ♥️ af [Dmitry Soshnikov](http://soshnikov.com)
 
 ---
 
 **Ansvarsfraskrivelse**:  
-Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på at opnå nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi er ikke ansvarlige for eventuelle misforståelser eller fejltolkninger, der måtte opstå som følge af brugen af denne oversættelse.
+Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi påtager os intet ansvar for misforståelser eller fejltolkninger, der måtte opstå som følge af brugen af denne oversættelse.
