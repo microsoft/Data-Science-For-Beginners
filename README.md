@@ -36,7 +36,11 @@ Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson cur
 **If you wish to have additional translations languages supported are listed [here](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
 #### Join Our Community 
-[![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://discord.gg/kzRShWzttr)
+[![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://aka.ms/ds4beginners/discord)
+
+We have a Discord learn with AI series ongoing, learn more and join us at [Learn with AI Series](https://aka.ms/learnwithai/discord) from 18 - 25 September, 2025. You will get tips and tricks of using GitHub Copilot for Data Science.
+
+![Learn with AI series](/images/4.jpg)
 
 # Are you a student?
 
