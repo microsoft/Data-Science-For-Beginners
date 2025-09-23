@@ -1,15 +1,31 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7332da4946897c5885e9ca5bc24de96b",
-  "translation_date": "2025-09-06T11:07:21+00:00",
+  "original_hash": "ae529efe508173a92d4019d86744ec00",
+  "translation_date": "2025-09-23T09:26:22+00:00",
   "source_file": "README.md",
   "language_code": "cs"
 }
 -->
 # Data Science pro začátečníky - Kurikulum
 
-Azure Cloud Advocates v Microsoftu s potěšením nabízejí 10týdenní kurikulum s 20 lekcemi zaměřenými na datovou vědu. Každá lekce obsahuje kvízy před a po lekci, písemné pokyny k dokončení lekce, řešení a úkol. Náš přístup založený na projektech vám umožní učit se prostřednictvím tvorby, což je osvědčený způsob, jak si nové dovednosti lépe osvojit.
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
+
+[![GitHub license](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
+[![GitHub stars](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
+
+[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)
+
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
+Azure Cloud Advocates ve společnosti Microsoft s potěšením nabízejí 10týdenní kurikulum o 20 lekcích zaměřené na datovou vědu. Každá lekce obsahuje kvízy před a po lekci, písemné pokyny k dokončení lekce, řešení a úkol. Náš přístup založený na projektech vám umožní učit se prostřednictvím tvorby, což je osvědčený způsob, jak si nové dovednosti lépe osvojit.
 
 **Velké díky našim autorům:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
@@ -22,27 +38,31 @@ Azure Cloud Advocates v Microsoftu s potěšením nabízejí 10týdenní kurikul
 
 ### 🌐 Podpora více jazyků
 
-#### Podporováno prostřednictvím GitHub Action (Automatizované & vždy aktuální)
+#### Podporováno prostřednictvím GitHub Action (automatizované a vždy aktuální)
 
-[Francouzština](../fr/README.md) | [Španělština](../es/README.md) | [Němčina](../de/README.md) | [Ruština](../ru/README.md) | [Arabština](../ar/README.md) | [Perština (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Čínština (zjednodušená)](../zh/README.md) | [Čínština (tradiční, Macao)](../mo/README.md) | [Čínština (tradiční, Hongkong)](../hk/README.md) | [Čínština (tradiční, Tchaj-wan)](../tw/README.md) | [Japonština](../ja/README.md) | [Korejština](../ko/README.md) | [Hindština](../hi/README.md) | [Bengálština](../bn/README.md) | [Maráthština](../mr/README.md) | [Nepálština](../ne/README.md) | [Paňdžábština (Gurmukhi)](../pa/README.md) | [Portugalština (Portugalsko)](../pt/README.md) | [Portugalština (Brazílie)](../br/README.md) | [Italština](../it/README.md) | [Polština](../pl/README.md) | [Turečtina](../tr/README.md) | [Řečtina](../el/README.md) | [Thajština](../th/README.md) | [Švédština](../sv/README.md) | [Dánština](../da/README.md) | [Norština](../no/README.md) | [Finština](../fi/README.md) | [Nizozemština](../nl/README.md) | [Hebrejština](../he/README.md) | [Vietnamština](../vi/README.md) | [Indonéština](../id/README.md) | [Malajština](../ms/README.md) | [Tagalog (Filipínština)](../tl/README.md) | [Svahilština](../sw/README.md) | [Maďarština](../hu/README.md) | [Čeština](./README.md) | [Slovenština](../sk/README.md) | [Rumunština](../ro/README.md) | [Bulharština](../bg/README.md) | [Srbština (cyrilice)](../sr/README.md) | [Chorvatština](../hr/README.md) | [Slovinština](../sl/README.md) | [Ukrajinština](../uk/README.md) | [Barmština (Myanmar)](../my/README.md)
+[Francouzština](../fr/README.md) | [Španělština](../es/README.md) | [Němčina](../de/README.md) | [Ruština](../ru/README.md) | [Arabština](../ar/README.md) | [Perština (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Čínština (zjednodušená)](../zh/README.md) | [Čínština (tradiční, Macao)](../mo/README.md) | [Čínština (tradiční, Hongkong)](../hk/README.md) | [Čínština (tradiční, Tchaj-wan)](../tw/README.md) | [Japonština](../ja/README.md) | [Korejština](../ko/README.md) | [Hindština](../hi/README.md) | [Bengálština](../bn/README.md) | [Maráthština](../mr/README.md) | [Nepálština](../ne/README.md) | [Paňdžábština (Gurmukhi)](../pa/README.md) | [Portugalština (Portugalsko)](../pt/README.md) | [Portugalština (Brazílie)](../br/README.md) | [Italština](../it/README.md) | [Polština](../pl/README.md) | [Turečtina](../tr/README.md) | [Řečtina](../el/README.md) | [Thajština](../th/README.md) | [Švédština](../sv/README.md) | [Dánština](../da/README.md) | [Norština](../no/README.md) | [Finština](../fi/README.md) | [Nizozemština](../nl/README.md) | [Hebrejština](../he/README.md) | [Vietnamština](../vi/README.md) | [Indonéština](../id/README.md) | [Malajština](../ms/README.md) | [Tagalog (Filipíny)](../tl/README.md) | [Svahilština](../sw/README.md) | [Maďarština](../hu/README.md) | [Čeština](./README.md) | [Slovenština](../sk/README.md) | [Rumunština](../ro/README.md) | [Bulharština](../bg/README.md) | [Srbština (cyrilice)](../sr/README.md) | [Chorvatština](../hr/README.md) | [Slovinština](../sl/README.md) | [Ukrajinština](../uk/README.md) | [Barmština (Myanmar)](../my/README.md)
 
 **Pokud si přejete přidat další překlady, seznam podporovaných jazyků najdete [zde](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
 #### Připojte se k naší komunitě 
-[![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://discord.gg/kzRShWzttr)
+[![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://aka.ms/ds4beginners/discord)
+
+Máme probíhající sérii Learn with AI na Discordu, dozvíte se více a připojte se k nám na [Learn with AI Series](https://aka.ms/learnwithai/discord) od 18. do 30. září 2025. Získáte tipy a triky, jak používat GitHub Copilot pro datovou vědu.
+
+![Learn with AI series](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.cs.jpg)
 
 # Jste student?
 
 Začněte s následujícími zdroji:
 
-- [Stránka Student Hub](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Na této stránce najdete zdroje pro začátečníky, studentské balíčky a dokonce způsoby, jak získat voucher na certifikaci zdarma. Tuto stránku si určitě uložte a pravidelně kontrolujte, protože obsah měníme alespoň jednou měsíčně.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Připojte se ke globální komunitě studentských ambasadorů, což může být vaše cesta do Microsoftu.
+- [Student Hub stránka](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Na této stránce najdete zdroje pro začátečníky, studentské balíčky a dokonce způsoby, jak získat voucher na certifikaci zdarma. Tuto stránku si určitě uložte a pravidelně kontrolujte, protože obsah měníme alespoň jednou měsíčně.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Připojte se ke globální komunitě studentských ambasadorů, může to být vaše cesta do Microsoftu.
 
 # Začínáme
 
-> **Učitelé**: [zahrnuli jsme několik návrhů](for-teachers.md), jak toto kurikulum využít. Budeme rádi za vaši zpětnou vazbu [v našem diskusním fóru](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
+> **Učitelé**: máme [několik návrhů](for-teachers.md), jak toto kurikulum využít. Budeme rádi za vaši zpětnou vazbu [v našem diskusním fóru](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
-> **[Studenti](https://aka.ms/student-page)**: pokud chcete toto kurikulum použít samostatně, vytvořte si vlastní kopii celého repozitáře a dokončete cvičení sami, začněte kvízem před lekcí. Poté si přečtěte lekci a dokončete zbytek aktivit. Snažte se vytvářet projekty pochopením lekcí, místo abyste kopírovali řešení kódu; tento kód je však k dispozici ve složkách /solutions v každé lekci zaměřené na projekt. Dalším nápadem by mohlo být vytvoření studijní skupiny s přáteli a společné procházení obsahu. Pro další studium doporučujeme [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **[Studenti](https://aka.ms/student-page)**: pokud chcete toto kurikulum použít samostatně, vytvořte si vlastní kopii celého repozitáře a dokončete cvičení sami, začněte kvízem před lekcí. Poté si přečtěte lekci a dokončete zbytek aktivit. Snažte se vytvářet projekty pochopením lekcí, místo abyste kopírovali řešení; kód řešení je však k dispozici ve složkách /solutions v každé lekci zaměřené na projekt. Další možností je vytvořit studijní skupinu s přáteli a projít obsah společně. Pro další studium doporučujeme [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 ## Seznamte se s týmem
 
@@ -54,57 +74,58 @@ Začněte s následujícími zdroji:
 
 ## Pedagogika
 
-Při tvorbě tohoto kurikula jsme se rozhodli pro dva pedagogické principy: zajistit, aby bylo založeno na projektech, a zahrnout časté kvízy. Na konci této série se studenti naučí základní principy datové vědy, včetně etických konceptů, přípravy dat, různých způsobů práce s daty, vizualizace dat, analýzy dat, reálných případů použití datové vědy a dalších.
+Při tvorbě tohoto kurikula jsme se rozhodli pro dva pedagogické principy: zajistit, aby bylo založeno na projektech, a zahrnout časté kvízy. Na konci této série se studenti naučí základní principy datové vědy, včetně etických konceptů, přípravy dat, různých způsobů práce s daty, vizualizace dat, analýzy dat, reálných případů použití datové vědy a další.
 
-Navíc nízkostresový kvíz před hodinou nastaví záměr studenta na učení daného tématu, zatímco druhý kvíz po hodině zajistí lepší zapamatování. Toto kurikulum bylo navrženo tak, aby bylo flexibilní a zábavné, a lze ho absolvovat celé nebo jen jeho části. Projekty začínají jednoduše a postupně se stávají složitějšími na konci 10týdenního cyklu.
-> Najděte náš [Kodex chování](CODE_OF_CONDUCT.md), [Pokyny pro přispívání](CONTRIBUTING.md), [Pokyny pro překlad](TRANSLATIONS.md). Vaše konstruktivní zpětná vazba je vítána!
+Kromě toho nízkostresový kvíz před hodinou nastaví záměr studenta na učení daného tématu, zatímco druhý kvíz po hodině zajistí lepší zapamatování. Toto kurikulum bylo navrženo tak, aby bylo flexibilní a zábavné, a lze ho absolvovat celé nebo jen jeho části. Projekty začínají malými úkoly a postupně se stávají složitějšími na konci 10týdenního cyklu.
+
+> Najděte naše [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), [Translation](TRANSLATIONS.md) pokyny. Uvítáme vaši konstruktivní zpětnou vazbu!
+
 ## Každá lekce obsahuje:
 
 - Volitelný sketchnote
 - Volitelné doplňkové video
-- Kvíz na rozehřátí před lekcí
+- Kvíz na zahřátí před lekcí
 - Písemná lekce
-- U lekcí založených na projektech, podrobné návody, jak projekt vytvořit
-- Kontrola znalostí
+- U lekcí zaměřených na projekt podrobné pokyny, jak projekt vytvořit
+- Kontroly znalostí
 - Výzvu
 - Doplňkové čtení
 - Úkol
 - [Kvíz po lekci](https://ff-quizzes.netlify.app/en/)
 
-> **Poznámka ke kvízům**: Všechny kvízy jsou obsaženy ve složce Quiz-App, celkem 40 kvízů, každý se třemi otázkami. Jsou propojeny přímo z lekcí, ale aplikaci kvízů lze spustit lokálně nebo nasadit na Azure; postupujte podle pokynů ve složce `quiz-app`. Postupně jsou lokalizovány.
+> **Poznámka ke kvízům**: Všechny kvízy jsou obsaženy ve složce Quiz-App, celkem 40 kvízů po třech otázkách. Jsou propojeny v rámci lekcí, ale aplikaci kvízů lze spustit lokálně nebo nasadit na Azure; postupujte podle pokynů ve složce `quiz-app`. Postupně jsou lokalizovány.
 
 ## Lekce
-
-|![ Sketchnote od @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.cs.png)|
+|![ Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.cs.png)|
 |:---:|
 | Data Science pro začátečníky: Plán - _Sketchnote od [@nitya](https://twitter.com/nitya)_ |
 
-| Číslo lekce | Téma | Skupina lekcí | Cíle učení | Propojená lekce | Autor |
+| Číslo lekce | Téma | Skupina lekcí | Cíle učení | Odkaz na lekci | Autor |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | Definování Data Science | [Úvod](1-Introduction/README.md) | Naučte se základní koncepty Data Science a jak souvisí s umělou inteligencí, strojovým učením a velkými daty. | [lekce](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
-| 02 | Etika v Data Science | [Úvod](1-Introduction/README.md) | Koncepty etiky dat, výzvy a rámce. | [lekce](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
+| 01 | Definování datové vědy | [Úvod](1-Introduction/README.md) | Naučte se základní koncepty datové vědy a jak souvisí s umělou inteligencí, strojovým učením a velkými daty. | [lekce](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 02 | Etika datové vědy | [Úvod](1-Introduction/README.md) | Koncepty etiky dat, výzvy a rámce. | [lekce](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
 | 03 | Definování dat | [Úvod](1-Introduction/README.md) | Jak jsou data klasifikována a jejich běžné zdroje. | [lekce](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 04 | Úvod do statistiky a pravděpodobnosti | [Úvod](1-Introduction/README.md) | Matematické techniky pravděpodobnosti a statistiky pro pochopení dat. | [lekce](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Práce s relačními daty | [Práce s daty](2-Working-With-Data/README.md) | Úvod do relačních dat a základy zkoumání a analýzy relačních dat pomocí Structured Query Language, známého jako SQL (vyslovováno „si-kvel“). | [lekce](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 05 | Práce s relačními daty | [Práce s daty](2-Working-With-Data/README.md) | Úvod do relačních dat a základy jejich zkoumání a analýzy pomocí Structured Query Language, známého jako SQL (vyslovováno „si-kvel“). | [lekce](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
 | 06 | Práce s NoSQL daty | [Práce s daty](2-Working-With-Data/README.md) | Úvod do nerelačních dat, jejich různých typů a základy zkoumání a analýzy dokumentových databází. | [lekce](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
-| 07 | Práce s Pythonem | [Práce s daty](2-Working-With-Data/README.md) | Základy používání Pythonu pro zkoumání dat s knihovnami jako Pandas. Doporučuje se základní znalost programování v Pythonu. | [lekce](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
+| 07 | Práce s Pythonem | [Práce s daty](2-Working-With-Data/README.md) | Základy používání Pythonu pro zkoumání dat s knihovnami, jako je Pandas. Doporučuje se základní znalost programování v Pythonu. | [lekce](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
 | 08 | Příprava dat | [Práce s daty](2-Working-With-Data/README.md) | Témata o technikách čištění a transformace dat pro řešení problémů s chybějícími, nepřesnými nebo neúplnými daty. | [lekce](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 09 | Vizualizace množství | [Vizualizace dat](3-Data-Visualization/README.md) | Naučte se používat Matplotlib k vizualizaci dat o ptácích 🦆 | [lekce](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 10 | Vizualizace rozložení dat | [Vizualizace dat](3-Data-Visualization/README.md) | Vizualizace pozorování a trendů v rámci intervalu. | [lekce](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 11 | Vizualizace proporcí | [Vizualizace dat](3-Data-Visualization/README.md) | Vizualizace diskrétních a seskupených procent. | [lekce](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 12 | Vizualizace vztahů | [Vizualizace dat](3-Data-Visualization/README.md) | Vizualizace spojení a korelací mezi datovými sadami a jejich proměnnými. | [lekce](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 13 | Smysluplné vizualizace | [Vizualizace dat](3-Data-Visualization/README.md) | Techniky a doporučení pro vytváření vizualizací, které jsou hodnotné pro efektivní řešení problémů a získávání poznatků. | [lekce](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 14 | Úvod do životního cyklu Data Science | [Životní cyklus](4-Data-Science-Lifecycle/README.md) | Úvod do životního cyklu Data Science a jeho prvního kroku získávání a extrakce dat. | [lekce](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | Analýza | [Životní cyklus](4-Data-Science-Lifecycle/README.md) | Tato fáze životního cyklu Data Science se zaměřuje na techniky analýzy dat. | [lekce](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Komunikace | [Životní cyklus](4-Data-Science-Lifecycle/README.md) | Tato fáze životního cyklu Data Science se zaměřuje na prezentaci poznatků z dat způsobem, který usnadňuje jejich pochopení pro rozhodovací orgány. | [lekce](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
-| 17 | Data Science v cloudu | [Cloudová data](5-Data-Science-In-Cloud/README.md) | Tato série lekcí představuje Data Science v cloudu a jeho výhody. | [lekce](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) a [Maud](https://twitter.com/maudstweets) |
-| 18 | Data Science v cloudu | [Cloudová data](5-Data-Science-In-Cloud/README.md) | Trénování modelů pomocí Low Code nástrojů. |[lekce](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) a [Maud](https://twitter.com/maudstweets) |
-| 19 | Data Science v cloudu | [Cloudová data](5-Data-Science-In-Cloud/README.md) | Nasazení modelů pomocí Azure Machine Learning Studio. | [lekce](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) a [Maud](https://twitter.com/maudstweets) |
-| 20 | Data Science v praxi | [V praxi](6-Data-Science-In-Wild/README.md) | Projekty řízené Data Science v reálném světě. | [lekce](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| 14 | Úvod do životního cyklu datové vědy | [Životní cyklus](4-Data-Science-Lifecycle/README.md) | Úvod do životního cyklu datové vědy a jeho prvního kroku získávání a extrakce dat. | [lekce](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
+| 15 | Analýza | [Životní cyklus](4-Data-Science-Lifecycle/README.md) | Tato fáze životního cyklu datové vědy se zaměřuje na techniky analýzy dat. | [lekce](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | Komunikace | [Životní cyklus](4-Data-Science-Lifecycle/README.md) | Tato fáze životního cyklu datové vědy se zaměřuje na prezentaci poznatků z dat způsobem, který usnadňuje jejich pochopení pro rozhodovací orgány. | [lekce](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 17 | Datová věda v cloudu | [Cloudová data](5-Data-Science-In-Cloud/README.md) | Tato série lekcí představuje datovou vědu v cloudu a její výhody. | [lekce](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) a [Maud](https://twitter.com/maudstweets) |
+| 18 | Datová věda v cloudu | [Cloudová data](5-Data-Science-In-Cloud/README.md) | Trénování modelů pomocí nástrojů s nízkým kódem. |[lekce](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) a [Maud](https://twitter.com/maudstweets) |
+| 19 | Datová věda v cloudu | [Cloudová data](5-Data-Science-In-Cloud/README.md) | Nasazení modelů pomocí Azure Machine Learning Studio. | [lekce](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) a [Maud](https://twitter.com/maudstweets) |
+| 20 | Datová věda v praxi | [V praxi](6-Data-Science-In-Wild/README.md) | Projekty řízené datovou vědou v reálném světě. | [lekce](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
-Postupujte podle těchto kroků pro otevření tohoto vzorku v Codespace:
+Postupujte podle těchto kroků pro otevření tohoto příkladu v Codespace:
 1. Klikněte na rozbalovací nabídku Code a vyberte možnost Open with Codespaces.
 2. Vyberte + New codespace ve spodní části panelu.
 Pro více informací si přečtěte [dokumentaci GitHubu](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
@@ -120,13 +141,13 @@ Pro použití tohoto repozitáře můžete buď otevřít repozitář v izolovan
 
 Nebo otevřete lokálně klonovanou nebo staženou verzi repozitáře:
 
-- Klonujte tento repozitář do vašeho lokálního souborového systému.
+- Klonujte tento repozitář do svého lokálního souborového systému.
 - Stiskněte F1 a vyberte příkaz **Remote-Containers: Open Folder in Container...**.
 - Vyberte klonovanou kopii této složky, počkejte na spuštění kontejneru a vyzkoušejte si věci.
 
 ## Offline přístup
 
-Tuto dokumentaci můžete spustit offline pomocí [Docsify](https://docsify.js.org/#/). Forkněte tento repozitář, [nainstalujte Docsify](https://docsify.js.org/#/quickstart) na váš lokální počítač, poté v kořenové složce tohoto repozitáře zadejte `docsify serve`. Webová stránka bude spuštěna na portu 3000 na vašem localhostu: `localhost:3000`.
+Tuto dokumentaci můžete spustit offline pomocí [Docsify](https://docsify.js.org/#/). Forkněte tento repozitář, [nainstalujte Docsify](https://docsify.js.org/#/quickstart) na svůj lokální počítač, poté v kořenové složce tohoto repozitáře zadejte `docsify serve`. Webová stránka bude spuštěna na portu 3000 na vašem localhostu: `localhost:3000`.
 
 > Poznámka, notebooky nebudou renderovány přes Docsify, takže pokud potřebujete spustit notebook, udělejte to samostatně ve VS Code s běžícím Python jádrem.
 
@@ -139,7 +160,7 @@ Náš tým vytváří další kurzy! Podívejte se na:
 - [Generativní AI s JavaScriptem](https://github.com/microsoft/generative-ai-with-javascript)
 - [Generativní AI s Javou](https://aka.ms/genaijava)
 - [AI pro začátečníky](https://aka.ms/ai-beginners)
-- [Data Science pro začátečníky](https://aka.ms/datascience-beginners)
+- [Datová věda pro začátečníky](https://aka.ms/datascience-beginners)
 - [Bash pro začátečníky](https://github.com/microsoft/bash-for-beginners)
 - [ML pro začátečníky](https://aka.ms/ml-beginners)
 - [Kybernetická bezpečnost pro začátečníky](https://github.com/microsoft/Security-101) 
@@ -154,5 +175,3 @@ Náš tým vytváří další kurzy! Podívejte se na:
 
 ---
 
-**Upozornění**:  
-Tento dokument byl přeložen pomocí služby pro automatický překlad [Co-op Translator](https://github.com/Azure/co-op-translator). I když se snažíme o co největší přesnost, mějte prosím na paměti, že automatické překlady mohou obsahovat chyby nebo nepřesnosti. Původní dokument v jeho původním jazyce by měl být považován za závazný zdroj. Pro důležité informace doporučujeme profesionální lidský překlad. Neodpovídáme za žádná nedorozumění nebo nesprávné výklady vyplývající z použití tohoto překladu.
