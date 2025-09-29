@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "ae529efe508173a92d4019d86744ec00",
-  "translation_date": "2025-09-23T09:38:12+00:00",
+  "original_hash": "dd9a1deb4da680b2cf11ba2e9f5a0a6e",
+  "translation_date": "2025-09-29T22:17:00+00:00",
   "source_file": "README.md",
   "language_code": "lt"
 }
 -->
 # Duomenų mokslas pradedantiesiems - Mokymo programa
 
-Azure Cloud Advocates iš Microsoft džiaugiasi galėdami pasiūlyti 10 savaičių, 20 pamokų mokymo programą apie duomenų mokslą. Kiekviena pamoka apima prieš pamoką ir po pamokos pateikiamus testus, rašytines instrukcijas, kaip atlikti pamoką, sprendimą ir užduotį. Mūsų projektinis mokymosi metodas leidžia mokytis kuriant, o tai yra patikrintas būdas įsisavinti naujus įgūdžius.
+Azure Cloud Advocates iš Microsoft džiaugiasi galėdami pasiūlyti 10 savaičių, 20 pamokų mokymo programą apie duomenų mokslą. Kiekviena pamoka apima prieš pamoką ir po pamokos testus, rašytines instrukcijas, kaip atlikti pamoką, sprendimą ir užduotį. Mūsų projektinis mokymosi metodas leidžia mokytis kuriant, o tai yra įrodytas būdas įsisavinti naujus įgūdžius.
 
 **Nuoširdžiai dėkojame mūsų autoriams:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
@@ -46,7 +46,7 @@ Pradėkite nuo šių išteklių:
 
 > **Mokytojai**: mes [įtraukėme keletą pasiūlymų](for-teachers.md), kaip naudoti šią mokymo programą. Laukiame jūsų atsiliepimų [mūsų diskusijų forume](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
-> **[Studentai](https://aka.ms/student-page)**: norėdami naudoti šią mokymo programą savarankiškai, nukopijuokite visą repozitoriją ir atlikite užduotis savarankiškai, pradėdami nuo prieš pamoką pateikiamo testo. Tada perskaitykite pamoką ir atlikite likusias veiklas. Stenkitės kurti projektus suprasdami pamokas, o ne kopijuodami sprendimo kodą; tačiau tas kodas yra prieinamas /solutions aplankuose kiekvienoje projektinėje pamokoje. Kita idėja būtų suformuoti mokymosi grupę su draugais ir kartu peržiūrėti turinį. Tolimesniam mokymuisi rekomenduojame [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **[Studentai](https://aka.ms/student-page)**: norėdami naudoti šią mokymo programą savarankiškai, nukopijuokite visą repozitoriją ir atlikite užduotis savarankiškai, pradėdami nuo prieš pamoką testo. Tada perskaitykite pamoką ir atlikite likusias veiklas. Stenkitės kurti projektus suprasdami pamokas, o ne kopijuodami sprendimo kodą; tačiau tas kodas yra prieinamas /solutions aplankuose kiekvienoje projektinėje pamokoje. Kita idėja būtų suformuoti mokymosi grupę su draugais ir kartu peržiūrėti turinį. Tolimesniam mokymuisi rekomenduojame [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 ## Susipažinkite su komanda
 
@@ -58,9 +58,9 @@ Pradėkite nuo šių išteklių:
 
 ## Pedagogika
 
-Kuriant šią mokymo programą, pasirinkome du pedagoginius principus: užtikrinti, kad ji būtų projektinė, ir įtraukti dažnus testus. Iki šios serijos pabaigos studentai išmoks pagrindinius duomenų mokslo principus, įskaitant etikos koncepcijas, duomenų paruošimą, skirtingus darbo su duomenimis būdus, duomenų vizualizaciją, duomenų analizę, realaus pasaulio duomenų mokslo panaudojimo atvejus ir dar daugiau.
+Kuriant šią mokymo programą, mes pasirinkome du pedagoginius principus: užtikrinti, kad ji būtų projektinė, ir įtraukti dažnus testus. Iki šios serijos pabaigos studentai išmoks pagrindinius duomenų mokslo principus, įskaitant etikos koncepcijas, duomenų paruošimą, įvairius darbo su duomenimis būdus, duomenų vizualizaciją, duomenų analizę, realaus pasaulio duomenų mokslo panaudojimo atvejus ir daugiau.
 
-Be to, mažos rizikos testas prieš pamoką nukreipia studentą mokytis temos, o antrasis testas po pamokos užtikrina geresnį įsisavinimą. Ši mokymo programa buvo sukurta taip, kad būtų lanksti ir įdomi, ją galima naudoti visą arba dalimis. Projektai prasideda nuo mažų ir tampa vis sudėtingesni iki 10 savaičių ciklo pabaigos.
+Be to, mažos rizikos testas prieš pamoką nustato studento ketinimą mokytis temos, o antrasis testas po pamokos užtikrina geresnį įsisavinimą. Ši mokymo programa buvo sukurta taip, kad būtų lanksti ir įdomi, ją galima naudoti visą arba dalimis. Projektai prasideda nuo mažų ir tampa vis sudėtingesni iki 10 savaičių ciklo pabaigos.
 
 > Raskite mūsų [Elgesio kodeksą](CODE_OF_CONDUCT.md), [Prisidėjimo](CONTRIBUTING.md), [Vertimo](TRANSLATIONS.md) gaires. Laukiame jūsų konstruktyvių atsiliepimų!
 
@@ -68,7 +68,7 @@ Be to, mažos rizikos testas prieš pamoką nukreipia studentą mokytis temos, o
 
 - Pasirenkamą sketchnote
 - Pasirenkamą papildomą vaizdo įrašą
-- Prieš pamoką pateikiamą testą
+- Prieš pamoką apšilimo testą
 - Rašytinę pamoką
 - Projektinėms pamokoms - žingsnis po žingsnio vadovus, kaip sukurti projektą
 - Žinių patikrinimus
@@ -77,16 +77,16 @@ Be to, mažos rizikos testas prieš pamoką nukreipia studentą mokytis temos, o
 - Užduotį
 - [Po pamokos testą](https://ff-quizzes.netlify.app/en/)
 
-> **Pastaba apie testus**: Visi testai yra Quiz-App aplanke, iš viso 40 testų po tris klausimus kiekviename. Jie yra susieti iš pamokų, tačiau testų programėlę galima paleisti lokaliai arba įdiegti Azure; sekite instrukcijas `quiz-app` aplanke. Jie palaipsniui lokalizuojami.
+> **Pastaba apie testus**: Visi testai yra Quiz-App aplanke, iš viso 40 testų po tris klausimus kiekviename. Jie yra susieti iš pamokų, tačiau testų programėlę galima paleisti vietoje arba įdiegti Azure; sekite instrukcijas `quiz-app` aplanke. Jie palaipsniui lokalizuojami.
 
 ## Pamokos
 |![ Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.lt.png)|
 |:---:|
-| Duomenų mokslas pradedantiesiems: Kelio žemėlapis - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+| Duomenų mokslas pradedantiesiems: kelio planas - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
 | Pamokos numeris | Tema | Pamokų grupavimas | Mokymosi tikslai | Susieta pamoka | Autorius |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | Duomenų mokslo apibrėžimas | [Įvadas](1-Introduction/README.md) | Sužinokite pagrindines duomenų mokslo sąvokas ir kaip jis susijęs su dirbtiniu intelektu, mašininio mokymosi ir didžiųjų duomenų sritimis. | [pamoka](1-Introduction/01-defining-data-science/README.md) [vaizdo įrašas](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 01 | Duomenų mokslo apibrėžimas | [Įvadas](1-Introduction/README.md) | Sužinokite pagrindines duomenų mokslo sąvokas ir kaip jis susijęs su dirbtiniu intelektu, mašininio mokymosi ir didžiųjų duomenų technologijomis. | [pamoka](1-Introduction/01-defining-data-science/README.md) [vaizdo įrašas](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
 | 02 | Duomenų mokslo etika | [Įvadas](1-Introduction/README.md) | Duomenų etikos sąvokos, iššūkiai ir struktūros. | [pamoka](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
 | 03 | Duomenų apibrėžimas | [Įvadas](1-Introduction/README.md) | Kaip klasifikuojami duomenys ir kokie yra jų dažniausi šaltiniai. | [pamoka](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 04 | Įvadas į statistiką ir tikimybes | [Įvadas](1-Introduction/README.md) | Matematiniai tikimybių ir statistikos metodai, skirti duomenų supratimui. | [pamoka](1-Introduction/04-stats-and-probability/README.md) [vaizdo įrašas](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
@@ -94,14 +94,14 @@ Be to, mažos rizikos testas prieš pamoką nukreipia studentą mokytis temos, o
 | 06 | Darbas su NoSQL duomenimis | [Darbas su duomenimis](2-Working-With-Data/README.md) | Įvadas į nereliacinius duomenis, jų įvairius tipus ir pagrindai, kaip tyrinėti ir analizuoti dokumentų duomenų bazes. | [pamoka](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
 | 07 | Darbas su Python | [Darbas su duomenimis](2-Working-With-Data/README.md) | Python naudojimo pagrindai duomenų tyrinėjimui su tokiomis bibliotekomis kaip Pandas. Rekomenduojama turėti pagrindinį Python programavimo supratimą. | [pamoka](2-Working-With-Data/07-python/README.md) [vaizdo įrašas](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
 | 08 | Duomenų paruošimas | [Darbas su duomenimis](2-Working-With-Data/README.md) | Temos apie duomenų valymo ir transformavimo technikas, skirtas spręsti trūkstamų, netikslių ar neišsamių duomenų problemas. | [pamoka](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 09 | Kiekio vizualizavimas | [Duomenų vizualizacija](3-Data-Visualization/README.md) | Sužinokite, kaip naudoti Matplotlib vizualizuojant paukščių duomenis 🦆 | [pamoka](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 10 | Duomenų pasiskirstymo vizualizavimas | [Duomenų vizualizacija](3-Data-Visualization/README.md) | Vizualizuoti stebėjimus ir tendencijas intervale. | [pamoka](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 11 | Proporcijų vizualizavimas | [Duomenų vizualizacija](3-Data-Visualization/README.md) | Vizualizuoti diskretinius ir grupinius procentus. | [pamoka](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 12 | Ryšių vizualizavimas | [Duomenų vizualizacija](3-Data-Visualization/README.md) | Vizualizuoti ryšius ir koreliacijas tarp duomenų rinkinių ir jų kintamųjų. | [pamoka](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 09 | Kiekių vizualizavimas | [Duomenų vizualizacija](3-Data-Visualization/README.md) | Sužinokite, kaip naudoti Matplotlib vizualizuojant paukščių duomenis 🦆 | [pamoka](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 10 | Duomenų pasiskirstymo vizualizavimas | [Duomenų vizualizacija](3-Data-Visualization/README.md) | Vizualizuojant stebėjimus ir tendencijas intervale. | [pamoka](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 11 | Proporcijų vizualizavimas | [Duomenų vizualizacija](3-Data-Visualization/README.md) | Vizualizuojant diskrečius ir grupuotus procentus. | [pamoka](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 12 | Ryšių vizualizavimas | [Duomenų vizualizacija](3-Data-Visualization/README.md) | Vizualizuojant ryšius ir koreliacijas tarp duomenų rinkinių ir jų kintamųjų. | [pamoka](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 13 | Reikšmingos vizualizacijos | [Duomenų vizualizacija](3-Data-Visualization/README.md) | Technikos ir gairės, kaip padaryti vizualizacijas vertingas efektyviam problemų sprendimui ir įžvalgoms. | [pamoka](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 14 | Įvadas į duomenų mokslo gyvavimo ciklą | [Gyvavimo ciklas](4-Data-Science-Lifecycle/README.md) | Įvadas į duomenų mokslo gyvavimo ciklą ir pirmąjį jo etapą – duomenų gavimą ir ištrauką. | [pamoka](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | Analizavimas | [Gyvavimo ciklas](4-Data-Science-Lifecycle/README.md) | Ši duomenų mokslo gyvavimo ciklo fazė orientuota į duomenų analizės technikas. | [pamoka](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Komunikacija | [Gyvavimo ciklas](4-Data-Science-Lifecycle/README.md) | Ši duomenų mokslo gyvavimo ciklo fazė orientuota į įžvalgų pateikimą iš duomenų taip, kad sprendimų priėmėjams būtų lengviau suprasti. | [pamoka](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 15 | Analizavimas | [Gyvavimo ciklas](4-Data-Science-Lifecycle/README.md) | Šis duomenų mokslo gyvavimo ciklo etapas yra skirtas duomenų analizės technikoms. | [pamoka](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | Komunikacija | [Gyvavimo ciklas](4-Data-Science-Lifecycle/README.md) | Šis duomenų mokslo gyvavimo ciklo etapas yra skirtas duomenų įžvalgų pateikimui taip, kad sprendimų priėmėjams būtų lengviau suprasti. | [pamoka](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
 | 17 | Duomenų mokslas debesyje | [Debesų duomenys](5-Data-Science-In-Cloud/README.md) | Ši pamokų serija pristato duomenų mokslą debesyje ir jo privalumus. | [pamoka](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) ir [Maud](https://twitter.com/maudstweets) |
 | 18 | Duomenų mokslas debesyje | [Debesų duomenys](5-Data-Science-In-Cloud/README.md) | Modelių mokymas naudojant mažo kodo įrankius. |[pamoka](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) ir [Maud](https://twitter.com/maudstweets) |
 | 19 | Duomenų mokslas debesyje | [Debesų duomenys](5-Data-Science-In-Cloud/README.md) | Modelių diegimas naudojant Azure Machine Learning Studio. | [pamoka](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) ir [Maud](https://twitter.com/maudstweets) |
@@ -110,20 +110,20 @@ Be to, mažos rizikos testas prieš pamoką nukreipia studentą mokytis temos, o
 ## GitHub Codespaces
 
 Sekite šiuos žingsnius, kad atidarytumėte šį pavyzdį Codespace aplinkoje:
-1. Spustelėkite Code išskleidžiamąjį meniu ir pasirinkite Open with Codespaces parinktį.
-2. Pasirinkite + New codespace apačioje.
+1. Spustelėkite meniu „Code“ ir pasirinkite „Open with Codespaces“ parinktį.
+2. Pasirinkite + Naujas Codespace apačioje.
 Daugiau informacijos rasite [GitHub dokumentacijoje](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
 Sekite šiuos žingsnius, kad atidarytumėte šį repo konteineryje naudodami savo vietinį kompiuterį ir VSCode su VS Code Remote - Containers plėtiniu:
 
-1. Jei pirmą kartą naudojate vystymo konteinerį, įsitikinkite, kad jūsų sistema atitinka reikalavimus (pvz., įdiegta Docker) [pradžios dokumentacijoje](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. Jei pirmą kartą naudojate kūrimo konteinerį, įsitikinkite, kad jūsų sistema atitinka reikalavimus (pvz., įdiegta Docker) [pradžios dokumentacijoje](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
 Norėdami naudoti šį repo, galite jį atidaryti izoliuotame Docker tūryje:
 
-**Pastaba**: Viduje tai naudos Remote-Containers: **Clone Repository in Container Volume...** komandą, kad nukopijuotų šaltinio kodą į Docker tūrį, o ne vietinį failų sistemą. [Tūriai](https://docs.docker.com/storage/volumes/) yra rekomenduojamas mechanizmas konteinerio duomenims išsaugoti.
+**Pastaba**: Viduje tai naudos Remote-Containers: **Clone Repository in Container Volume...** komandą, kad nukopijuotų šaltinio kodą į Docker tūrį, o ne vietinę failų sistemą. [Tūriai](https://docs.docker.com/storage/volumes/) yra rekomenduojamas mechanizmas konteinerio duomenims išsaugoti.
 
-Arba atidarykite vietoje nukopijuotą ar atsisiųstą repo versiją:
+Arba atidarykite vietinę nukopijuotą ar atsisiųstą repo versiją:
 
 - Nukopijuokite šį repo į savo vietinę failų sistemą.
 - Paspauskite F1 ir pasirinkite **Remote-Containers: Open Folder in Container...** komandą.
@@ -137,8 +137,10 @@ Arba atidarykite vietoje nukopijuotą ar atsisiųstą repo versiją:
 
 ## Kiti mokymo kursai
 
-Mūsų komanda kuria ir kitus mokymo kursus! Peržiūrėkite:
+Mūsų komanda kuria kitus mokymo kursus! Peržiūrėkite:
 
+- [Edge AI pradedantiesiems](https://aka.ms/edgeai-for-beginners)
+- [AI agentai pradedantiesiems](https://aka.ms/ai-agents-beginners)
 - [Generatyvus AI pradedantiesiems](https://aka.ms/genai-beginners)
 - [Generatyvus AI pradedantiesiems .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
 - [Generatyvus AI su JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
@@ -152,10 +154,12 @@ Mūsų komanda kuria ir kitus mokymo kursus! Peržiūrėkite:
 - [IoT pradedantiesiems](https://aka.ms/iot-beginners)
 - [Mašininis mokymasis pradedantiesiems](https://aka.ms/ml-beginners)
 - [XR kūrimas pradedantiesiems](https://aka.ms/xr-dev-for-beginners)
-- [GitHub Copilot įvaldymas AI poriniam programavimui](https://aka.ms/GitHubCopilotAI)
+- [GitHub Copilot valdymas AI poriniam programavimui](https://aka.ms/GitHubCopilotAI)
 - [XR kūrimas pradedantiesiems](https://github.com/microsoft/xr-development-for-beginners)
-- [GitHub Copilot įvaldymas C#/.NET programuotojams](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
-- [Pasirink savo Copilot nuotykį](https://github.com/microsoft/CopilotAdventures)
+- [GitHub Copilot valdymas C#/.NET kūrėjams](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
+- [Pasirinkite savo Copilot nuotykį](https://github.com/microsoft/CopilotAdventures)
 
 ---
 
+**Atsakomybės atsisakymas**:  
+Šis dokumentas buvo išverstas naudojant AI vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors stengiamės užtikrinti tikslumą, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Kritinei informacijai rekomenduojama naudoti profesionalų žmogaus vertimą. Mes neprisiimame atsakomybės už nesusipratimus ar neteisingus interpretavimus, atsiradusius dėl šio vertimo naudojimo.
