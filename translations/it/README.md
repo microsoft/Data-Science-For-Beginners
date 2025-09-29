@@ -1,20 +1,36 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "ae529efe508173a92d4019d86744ec00",
-  "translation_date": "2025-09-23T09:05:52+00:00",
+  "original_hash": "dd9a1deb4da680b2cf11ba2e9f5a0a6e",
+  "translation_date": "2025-09-29T21:47:38+00:00",
   "source_file": "README.md",
   "language_code": "it"
 }
 -->
 # Data Science per Principianti - Un Curriculum
 
-Azure Cloud Advocates di Microsoft sono lieti di offrire un curriculum di 10 settimane e 20 lezioni dedicato alla Data Science. Ogni lezione include quiz pre-lezione e post-lezione, istruzioni scritte per completare la lezione, una soluzione e un compito. La nostra pedagogia basata sui progetti ti permette di imparare mentre costruisci, un metodo comprovato per far sì che le nuove competenze rimangano impresse.
+[![Apri in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
+
+[![Licenza GitHub](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
+[![Contributori GitHub](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
+[![Problemi GitHub](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
+[![Richieste di pull GitHub](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+[![Osservatori GitHub](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
+[![Fork GitHub](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
+[![Stelle GitHub](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
+
+[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)
+
+[![Forum degli sviluppatori Azure AI Foundry](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
+Gli Azure Cloud Advocates di Microsoft sono lieti di offrire un curriculum di 10 settimane e 20 lezioni dedicato alla Data Science. Ogni lezione include quiz pre-lezione e post-lezione, istruzioni scritte per completare la lezione, una soluzione e un compito. La nostra pedagogia basata sui progetti ti permette di imparare mentre costruisci, un metodo comprovato per far sì che le nuove competenze rimangano impresse.
 
 **Un sentito ringraziamento ai nostri autori:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
 **🙏 Un ringraziamento speciale 🙏 ai nostri [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) autori, revisori e collaboratori di contenuti,** tra cui Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
-[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar, [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
+[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
 |![Sketchnote di @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.it.png)|
 |:---:|
@@ -39,8 +55,8 @@ Abbiamo una serie di apprendimento con AI in corso su Discord, scopri di più e 
 
 Inizia con le seguenti risorse:
 
-- [Pagina Student Hub](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) In questa pagina troverai risorse per principianti, pacchetti per studenti e persino modi per ottenere un voucher gratuito per la certificazione. Questa è una pagina che vuoi aggiungere ai segnalibri e controllare di tanto in tanto, poiché cambiamo i contenuti almeno mensilmente.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Unisciti a una comunità globale di ambasciatori studenti, potrebbe essere il tuo ingresso in Microsoft.
+- [Pagina Student Hub](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) In questa pagina troverai risorse per principianti, pacchetti per studenti e persino modi per ottenere un voucher gratuito per la certificazione. Questa è una pagina che vuoi salvare nei preferiti e controllare di tanto in tanto, poiché cambiamo contenuti almeno mensilmente.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Unisciti a una comunità globale di ambasciatori studenti, questa potrebbe essere la tua porta d'ingresso in Microsoft.
 
 # Per iniziare
 
@@ -58,9 +74,9 @@ Inizia con le seguenti risorse:
 
 ## Pedagogia
 
-Abbiamo scelto due principi pedagogici durante la creazione di questo curriculum: garantire che sia basato sui progetti e che includa quiz frequenti. Alla fine di questa serie, gli studenti avranno appreso i principi base della data science, inclusi concetti etici, preparazione dei dati, diversi modi di lavorare con i dati, visualizzazione dei dati, analisi dei dati, casi d'uso reali della data science e altro.
+Abbiamo scelto due principi pedagogici durante la creazione di questo curriculum: garantire che sia basato su progetti e che includa quiz frequenti. Alla fine di questa serie, gli studenti avranno appreso i principi base della data science, inclusi concetti etici, preparazione dei dati, diversi modi di lavorare con i dati, visualizzazione dei dati, analisi dei dati, casi d'uso reali della data science e altro.
 
-Inoltre, un quiz a basso rischio prima di una lezione orienta l'intenzione dello studente verso l'apprendimento di un argomento, mentre un secondo quiz dopo la lezione garantisce una maggiore ritenzione. Questo curriculum è stato progettato per essere flessibile e divertente e può essere seguito interamente o in parte. I progetti iniziano piccoli e diventano sempre più complessi entro la fine del ciclo di 10 settimane.
+Inoltre, un quiz a basso rischio prima della lezione orienta lo studente verso l'apprendimento di un argomento, mentre un secondo quiz dopo la lezione garantisce una maggiore ritenzione. Questo curriculum è stato progettato per essere flessibile e divertente e può essere seguito interamente o in parte. I progetti iniziano piccoli e diventano sempre più complessi entro la fine del ciclo di 10 settimane.
 
 > Trova il nostro [Codice di Condotta](CODE_OF_CONDUCT.md), [Contributi](CONTRIBUTING.md), [Linee guida per la traduzione](TRANSLATIONS.md). Accogliamo con favore il tuo feedback costruttivo!
 
@@ -70,38 +86,38 @@ Inoltre, un quiz a basso rischio prima di una lezione orienta l'intenzione dello
 - Video supplementare opzionale
 - Quiz di riscaldamento pre-lezione
 - Lezione scritta
-- Per le lezioni basate sui progetti, guide passo-passo su come costruire il progetto
+- Per le lezioni basate su progetti, guide passo-passo su come costruire il progetto
 - Verifiche delle conoscenze
 - Una sfida
 - Letture supplementari
 - Compito
 - [Quiz post-lezione](https://ff-quizzes.netlify.app/en/)
 
-> **Una nota sui quiz**: Tutti i quiz sono contenuti nella cartella Quiz-App, per un totale di 40 quiz di tre domande ciascuno. Sono collegati all'interno delle lezioni, ma l'app dei quiz può essere eseguita localmente o distribuita su Azure; segui le istruzioni nella cartella `quiz-app`. Sono gradualmente in fase di localizzazione.
+> **Una nota sui quiz**: Tutti i quiz sono contenuti nella cartella Quiz-App, per un totale di 40 quiz di tre domande ciascuno. Sono collegati all'interno delle lezioni, ma l'app dei quiz può essere eseguita localmente o distribuita su Azure; segui le istruzioni nella cartella `quiz-app`. I quiz vengono gradualmente localizzati.
 
 ## Lezioni
-|![Sketchnote di @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.it.png)|
+|![ Sketchnote di @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.it.png)|
 |:---:|
 | Data Science per Principianti: Roadmap - _Sketchnote di [@nitya](https://twitter.com/nitya)_ |
 
 | Numero Lezione | Argomento | Raggruppamento Lezione | Obiettivi di Apprendimento | Lezione Collegata | Autore |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | Definire la Data Science | [Introduzione](1-Introduction/README.md) | Impara i concetti di base della data science e come è correlata all'intelligenza artificiale, al machine learning e ai big data. | [lezione](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 01 | Definire la Data Science | [Introduzione](1-Introduction/README.md) | Imparare i concetti di base della data science e come è correlata all'intelligenza artificiale, al machine learning e ai big data. | [lezione](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
 | 02 | Etica della Data Science | [Introduzione](1-Introduction/README.md) | Concetti, sfide e framework sull'etica dei dati. | [lezione](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
 | 03 | Definire i Dati | [Introduzione](1-Introduction/README.md) | Come vengono classificati i dati e le loro fonti comuni. | [lezione](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 04 | Introduzione a Statistica e Probabilità | [Introduzione](1-Introduction/README.md) | Tecniche matematiche di probabilità e statistica per comprendere i dati. | [lezione](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Lavorare con Dati Relazionali | [Lavorare con i Dati](2-Working-With-Data/README.md) | Introduzione ai dati relazionali e alle basi dell'esplorazione e analisi dei dati relazionali con il linguaggio SQL (Structured Query Language). | [lezione](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 05 | Lavorare con Dati Relazionali | [Lavorare con i Dati](2-Working-With-Data/README.md) | Introduzione ai dati relazionali e alle basi dell'esplorazione e analisi dei dati relazionali con il linguaggio SQL (pronunciato "see-quell"). | [lezione](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
 | 06 | Lavorare con Dati NoSQL | [Lavorare con i Dati](2-Working-With-Data/README.md) | Introduzione ai dati non relazionali, ai loro vari tipi e alle basi dell'esplorazione e analisi dei database documentali. | [lezione](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
 | 07 | Lavorare con Python | [Lavorare con i Dati](2-Working-With-Data/README.md) | Basi dell'uso di Python per l'esplorazione dei dati con librerie come Pandas. È consigliata una comprensione di base della programmazione in Python. | [lezione](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | Preparazione dei Dati | [Lavorare con i Dati](2-Working-With-Data/README.md) | Tecniche sui dati per pulire e trasformare i dati affrontando le sfide di dati mancanti, inaccurati o incompleti. | [lezione](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 09 | Visualizzare Quantità | [Visualizzazione dei Dati](3-Data-Visualization/README.md) | Impara a usare Matplotlib per visualizzare dati sugli uccelli 🦆 | [lezione](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 08 | Preparazione dei Dati | [Lavorare con i Dati](2-Working-With-Data/README.md) | Tecniche sui dati per pulire e trasformare i dati per affrontare le sfide di dati mancanti, inaccurati o incompleti. | [lezione](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 09 | Visualizzare Quantità | [Visualizzazione dei Dati](3-Data-Visualization/README.md) | Imparare a usare Matplotlib per visualizzare dati sugli uccelli 🦆 | [lezione](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 10 | Visualizzare Distribuzioni di Dati | [Visualizzazione dei Dati](3-Data-Visualization/README.md) | Visualizzare osservazioni e tendenze all'interno di un intervallo. | [lezione](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 11 | Visualizzare Proporzioni | [Visualizzazione dei Dati](3-Data-Visualization/README.md) | Visualizzare percentuali discrete e raggruppate. | [lezione](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 12 | Visualizzare Relazioni | [Visualizzazione dei Dati](3-Data-Visualization/README.md) | Visualizzare connessioni e correlazioni tra insiemi di dati e le loro variabili. | [lezione](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | Visualizzazioni Significative | [Visualizzazione dei Dati](3-Data-Visualization/README.md) | Tecniche e linee guida per rendere le tue visualizzazioni utili per una risoluzione efficace dei problemi e per ottenere approfondimenti. | [lezione](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 13 | Visualizzazioni Significative | [Visualizzazione dei Dati](3-Data-Visualization/README.md) | Tecniche e linee guida per rendere le visualizzazioni utili per una risoluzione efficace dei problemi e per ottenere approfondimenti. | [lezione](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 14 | Introduzione al ciclo di vita della Data Science | [Ciclo di Vita](4-Data-Science-Lifecycle/README.md) | Introduzione al ciclo di vita della data science e al suo primo passo: acquisire ed estrarre dati. | [lezione](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
 | 15 | Analisi | [Ciclo di Vita](4-Data-Science-Lifecycle/README.md) | Questa fase del ciclo di vita della data science si concentra sulle tecniche per analizzare i dati. | [lezione](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Comunicazione | [Ciclo di Vita](4-Data-Science-Lifecycle/README.md) | Questa fase del ciclo di vita della data science si concentra sulla presentazione degli approfondimenti dai dati in modo che sia più facile per i decisori comprendere. | [lezione](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 16 | Comunicazione | [Ciclo di Vita](4-Data-Science-Lifecycle/README.md) | Questa fase del ciclo di vita della data science si concentra sulla presentazione degli approfondimenti dai dati in modo che i decisori possano comprenderli facilmente. | [lezione](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
 | 17 | Data Science nel Cloud | [Dati nel Cloud](5-Data-Science-In-Cloud/README.md) | Questa serie di lezioni introduce la data science nel cloud e i suoi vantaggi. | [lezione](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) e [Maud](https://twitter.com/maudstweets) |
 | 18 | Data Science nel Cloud | [Dati nel Cloud](5-Data-Science-In-Cloud/README.md) | Addestrare modelli usando strumenti Low Code. |[lezione](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) e [Maud](https://twitter.com/maudstweets) |
 | 19 | Data Science nel Cloud | [Dati nel Cloud](5-Data-Science-In-Cloud/README.md) | Distribuire modelli con Azure Machine Learning Studio. | [lezione](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) e [Maud](https://twitter.com/maudstweets) |
@@ -112,20 +128,20 @@ Inoltre, un quiz a basso rischio prima di una lezione orienta l'intenzione dello
 Segui questi passaggi per aprire questo esempio in un Codespace:
 1. Clicca sul menu a discesa "Code" e seleziona l'opzione "Open with Codespaces".
 2. Seleziona + New codespace in fondo al pannello.
-Per ulteriori informazioni, consulta la [documentazione di GitHub](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
+Per maggiori informazioni, consulta la [documentazione di GitHub](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
-Segui questi passaggi per aprire questo repository in un container utilizzando la tua macchina locale e VSCode con l'estensione VS Code Remote - Containers:
+Segui questi passaggi per aprire questo repository in un container usando la tua macchina locale e VSCode con l'estensione VS Code Remote - Containers:
 
 1. Se è la prima volta che utilizzi un container di sviluppo, assicurati che il tuo sistema soddisfi i prerequisiti (ad esempio, avere Docker installato) nella [documentazione introduttiva](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
 Per utilizzare questo repository, puoi aprirlo in un volume Docker isolato:
 
-**Nota**: In background, verrà utilizzato il comando Remote-Containers: **Clone Repository in Container Volume...** per clonare il codice sorgente in un volume Docker anziché nel filesystem locale. I [volumi](https://docs.docker.com/storage/volumes/) sono il meccanismo preferito per la persistenza dei dati del container.
+**Nota**: In background, verrà utilizzato il comando Remote-Containers: **Clone Repository in Container Volume...** per clonare il codice sorgente in un volume Docker invece che nel file system locale. [I volumi](https://docs.docker.com/storage/volumes/) sono il meccanismo preferito per la persistenza dei dati del container.
 
 Oppure apri una versione clonata o scaricata localmente del repository:
 
-- Clona questo repository nel tuo filesystem locale.
+- Clona questo repository nel tuo file system locale.
 - Premi F1 e seleziona il comando **Remote-Containers: Open Folder in Container...**.
 - Seleziona la copia clonata di questa cartella, attendi che il container si avvii e prova le funzionalità.
 
@@ -137,25 +153,29 @@ Puoi eseguire questa documentazione offline utilizzando [Docsify](https://docsif
 
 ## Altri Curricula
 
-Il nostro team produce altri curricula! Dai un'occhiata a:
+Il nostro team produce altri curricula! Dai un'occhiata:
 
-- [Generative AI for Beginners](https://aka.ms/genai-beginners)
-- [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
-- [Generative AI with JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
-- [Generative AI with Java](https://aka.ms/genaijava)
-- [AI for Beginners](https://aka.ms/ai-beginners)
-- [Data Science for Beginners](https://aka.ms/datascience-beginners)
-- [Bash for Beginners](https://github.com/microsoft/bash-for-beginners)
-- [ML for Beginners](https://aka.ms/ml-beginners)
-- [Cybersecurity for Beginners](https://github.com/microsoft/Security-101) 
-- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
-- [IoT for Beginners](https://aka.ms/iot-beginners)
-- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
-- [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)
-- [Mastering GitHub Copilot for AI Paired Programming](https://aka.ms/GitHubCopilotAI)
-- [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners)
-- [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
-- [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)
+- [Edge AI per Principianti](https://aka.ms/edgeai-for-beginners)
+- [Agenti AI per Principianti](https://aka.ms/ai-agents-beginners)
+- [AI Generativa per Principianti](https://aka.ms/genai-beginners)
+- [AI Generativa per Principianti .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
+- [AI Generativa con JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
+- [AI Generativa con Java](https://aka.ms/genaijava)
+- [AI per Principianti](https://aka.ms/ai-beginners)
+- [Data Science per Principianti](https://aka.ms/datascience-beginners)
+- [Bash per Principianti](https://github.com/microsoft/bash-for-beginners)
+- [ML per Principianti](https://aka.ms/ml-beginners)
+- [Cybersecurity per Principianti](https://github.com/microsoft/Security-101) 
+- [Sviluppo Web per Principianti](https://aka.ms/webdev-beginners)
+- [IoT per Principianti](https://aka.ms/iot-beginners)
+- [Machine Learning per Principianti](https://aka.ms/ml-beginners)
+- [Sviluppo XR per Principianti](https://aka.ms/xr-dev-for-beginners)
+- [Padroneggiare GitHub Copilot per la Programmazione AI in Coppia](https://aka.ms/GitHubCopilotAI)
+- [Sviluppo XR per Principianti](https://github.com/microsoft/xr-development-for-beginners)
+- [Padroneggiare GitHub Copilot per Sviluppatori C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
+- [Scegli la tua Avventura con Copilot](https://github.com/microsoft/CopilotAdventures)
 
 ---
 
+**Disclaimer**:  
+Questo documento è stato tradotto utilizzando il servizio di traduzione AI [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un esperto umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

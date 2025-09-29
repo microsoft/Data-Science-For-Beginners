@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "ae529efe508173a92d4019d86744ec00",
-  "translation_date": "2025-09-23T08:39:21+00:00",
+  "original_hash": "dd9a1deb4da680b2cf11ba2e9f5a0a6e",
+  "translation_date": "2025-09-29T21:25:20+00:00",
   "source_file": "README.md",
   "language_code": "en"
 }
@@ -38,14 +38,14 @@ We are hosting a Discord "Learn with AI" series from September 18–30, 2025. Jo
 
 Start with these resources:
 
-- [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum): This page offers beginner resources, student packs, and even opportunities to get free certification vouchers. Bookmark it and check back regularly for updated content.
+- [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum): This page offers beginner resources, student packs, and even opportunities to get free certification vouchers. Bookmark it and check back regularly for updates.
 - [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum): Join a global community of student ambassadors—your gateway to Microsoft.
 
 # Getting Started
 
-> **Teachers**: We’ve [included some suggestions](for-teachers.md) on how to use this curriculum. Share your feedback [in our discussion forum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
+> **Teachers**: We've [included some suggestions](for-teachers.md) on how to use this curriculum. Share your feedback [in our discussion forum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
-> **[Students](https://aka.ms/student-page)**: To use this curriculum independently, fork the repository and complete the exercises, starting with the pre-lesson quiz. Read the lesson and complete the activities. Try to build the projects by understanding the lessons rather than copying the solution code (available in the /solutions folders for each project-based lesson). Alternatively, form a study group with friends and go through the content together. For further learning, explore [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **[Students](https://aka.ms/student-page)**: To use this curriculum independently, fork the repository and complete the exercises, starting with the pre-lesson quiz. Read the lesson and complete the activities. Try to build the projects by understanding the lessons rather than copying the solution code (available in the /solutions folders). Alternatively, form a study group with friends and go through the content together. For further learning, explore [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 ## Meet the Team
 
@@ -57,9 +57,9 @@ Start with these resources:
 
 ## Pedagogy
 
-This curriculum is built on two key principles: project-based learning and frequent quizzes. By the end of the series, students will understand fundamental concepts of data science, including ethical considerations, data preparation, data visualization, data analysis, real-world applications, and more.
+This curriculum is built on two key principles: project-based learning and frequent quizzes. By the end of the series, students will understand fundamental data science concepts, including ethics, data preparation, data visualization, data analysis, real-world applications, and more.
 
-Low-stakes quizzes before each class help students focus on the topic, while post-class quizzes reinforce retention. The curriculum is designed to be flexible and engaging, allowing students to complete it in full or in part. Projects start small and grow in complexity over the 10-week cycle.
+Low-stakes quizzes before and after lessons help set learning intentions and reinforce retention. The curriculum is designed to be flexible and engaging, with projects that grow in complexity over the 10-week cycle.
 
 > Check out our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), and [Translation](TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
 
@@ -76,48 +76,48 @@ Low-stakes quizzes before each class help students focus on the topic, while pos
 - Assignment
 - [Post-lesson quiz](https://ff-quizzes.netlify.app/en/)
 
-> **A note about quizzes**: All quizzes are located in the Quiz-App folder, with 40 quizzes containing three questions each. They are linked within the lessons but can also be run locally or deployed to Azure. Follow the instructions in the `quiz-app` folder. Localization is ongoing.
+> **A note about quizzes**: All quizzes are located in the Quiz-App folder, with 40 quizzes of three questions each. They are linked within the lessons but can also be run locally or deployed to Azure. Follow the instructions in the `quiz-app` folder. Localization is ongoing.
 
 ## Lessons
 |![ Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.en.png)|
 |:---:|
 | Data Science For Beginners: Roadmap - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
+
 | Lesson Number | Topic | Lesson Grouping | Learning Objectives | Linked Lesson | Author |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
 | 01 | Defining Data Science | [Introduction](1-Introduction/README.md) | Learn the basic concepts behind data science and how it’s related to artificial intelligence, machine learning, and big data. | [lesson](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
-| 02 | Data Science Ethics | [Introduction](1-Introduction/README.md) | Concepts, challenges, and frameworks related to data ethics. | [lesson](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
+| 02 | Data Science Ethics | [Introduction](1-Introduction/README.md) | Data Ethics Concepts, Challenges & Frameworks. | [lesson](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
 | 03 | Defining Data | [Introduction](1-Introduction/README.md) | How data is classified and its common sources. | [lesson](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | Introduction to Statistics & Probability | [Introduction](1-Introduction/README.md) | Mathematical techniques in probability and statistics to understand data. | [lesson](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Working with Relational Data | [Working With Data](2-Working-With-Data/README.md) | Introduction to relational data and the basics of exploring and analyzing relational data using SQL (pronounced “see-quell”). | [lesson](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) |
-| 06 | Working with NoSQL Data | [Working With Data](2-Working-With-Data/README.md) | Introduction to non-relational data, its various types, and the basics of exploring and analyzing document databases. | [lesson](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 07 | Working with Python | [Working With Data](2-Working-With-Data/README.md) | Basics of using Python for data exploration with libraries like Pandas. Foundational knowledge of Python programming is recommended. | [lesson](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | Data Preparation | [Working With Data](2-Working-With-Data/README.md) | Techniques for cleaning and transforming data to address challenges like missing, inaccurate, or incomplete data. | [lesson](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 04 | Introduction to Statistics & Probability | [Introduction](1-Introduction/README.md) | The mathematical techniques of probability and statistics to understand data. | [lesson](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 05 | Working with Relational Data | [Working With Data](2-Working-With-Data/README.md) | Introduction to relational data and the basics of exploring and analyzing relational data with the Structured Query Language, also known as SQL (pronounced “see-quell”). | [lesson](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 06 | Working with NoSQL Data | [Working With Data](2-Working-With-Data/README.md) | Introduction to non-relational data, its various types and the basics of exploring and analyzing document databases. | [lesson](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
+| 07 | Working with Python | [Working With Data](2-Working-With-Data/README.md) | Basics of using Python for data exploration with libraries such as Pandas. Foundational understanding of Python programming is recommended. | [lesson](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
+| 08 | Data Preparation | [Working With Data](2-Working-With-Data/README.md) | Topics on data techniques for cleaning and transforming the data to handle challenges of missing, inaccurate, or incomplete data. | [lesson](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 09 | Visualizing Quantities | [Data Visualization](3-Data-Visualization/README.md) | Learn how to use Matplotlib to visualize bird data 🦆 | [lesson](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 10 | Visualizing Distributions of Data | [Data Visualization](3-Data-Visualization/README.md) | Visualizing observations and trends within an interval. | [lesson](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 11 | Visualizing Proportions | [Data Visualization](3-Data-Visualization/README.md) | Visualizing discrete and grouped percentages. | [lesson](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 12 | Visualizing Relationships | [Data Visualization](3-Data-Visualization/README.md) | Visualizing connections and correlations between data sets and their variables. | [lesson](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | Meaningful Visualizations | [Data Visualization](3-Data-Visualization/README.md) | Techniques and guidance for creating visualizations that effectively solve problems and provide insights. | [lesson](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 14 | Introduction to the Data Science lifecycle | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Introduction to the data science lifecycle and its first step: acquiring and extracting data. | [lesson](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | Analyzing | [Lifecycle](4-Data-Science-Lifecycle/README.md) | This phase of the data science lifecycle focuses on techniques for analyzing data. | [lesson](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 16 | Communication | [Lifecycle](4-Data-Science-Lifecycle/README.md) | This phase of the data science lifecycle focuses on presenting insights from data in a way that decision-makers can easily understand. | [lesson](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) |
+| 12 | Visualizing Relationships | [Data Visualization](3-Data-Visualization/README.md) | Visualizing connections and correlations between sets of data and their variables. | [lesson](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 13 | Meaningful Visualizations | [Data Visualization](3-Data-Visualization/README.md) | Techniques and guidance for making your visualizations valuable for effective problem solving and insights. | [lesson](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 14 | Introduction to the Data Science lifecycle | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Introduction to the data science lifecycle and its first step of acquiring and extracting data. | [lesson](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
+| 15 | Analyzing | [Lifecycle](4-Data-Science-Lifecycle/README.md) | This phase of the data science lifecycle focuses on techniques to analyze data. | [lesson](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | Communication | [Lifecycle](4-Data-Science-Lifecycle/README.md) | This phase of the data science lifecycle focuses on presenting the insights from the data in a way that makes it easier for decision makers to understand. | [lesson](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
 | 17 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | This series of lessons introduces data science in the cloud and its benefits. | [lesson](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
-| 18 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Training models using Low Code tools. | [lesson](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
-| 19 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Deploying models with Azure Machine Learning Studio. | [lesson](5-Data-Science-In-Cloud/19-Azure/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
-| 20 | Data Science in the Wild | [In the Wild](6-Data-Science-In-Wild/README.md) | Data science-driven projects in real-world scenarios. | [lesson](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| 18 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Training models using Low Code tools. |[lesson](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
+| 19 | Data Science in the Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Deploying models with Azure Machine Learning Studio. | [lesson](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
+| 20 | Data Science in the Wild | [In the Wild](6-Data-Science-In-Wild/README.md) | Data science driven projects in the real world. | [lesson](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
 Follow these steps to open this sample in a Codespace:
 1. Click the Code drop-down menu and select the Open with Codespaces option.
-2. Select + New codespace at the bottom of the pane.
+2. Select + New codespace at the bottom on the pane.
 For more info, check out the [GitHub documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
+Follow these steps to open this repo in a container using your local machine and VSCode using  the VS Code Remote - Containers extension:
 
-Follow these steps to open this repo in a container using your local machine and VSCode with the VS Code Remote - Containers extension:
-
-1. If this is your first time using a development container, ensure your system meets the prerequisites (e.g., Docker installed) in [the getting started documentation](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. If this is your first time using a development container, please ensure your system meets the pre-reqs (i.e. have Docker installed) in [the getting started documentation](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
 To use this repository, you can either open the repository in an isolated Docker volume:
 
@@ -131,14 +131,16 @@ Or open a locally cloned or downloaded version of the repository:
 
 ## Offline access
 
-You can run this documentation offline using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine, then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
+You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine,  then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
 
-> Note: Notebooks will not be rendered via Docsify, so when you need to run a notebook, do that separately in VS Code using a Python kernel.
+> Note, notebooks will not be rendered via Docsify, so when you need to run a notebook, do that separately in VS Code running a Python kernel.
 
 ## Other Curricula
 
 Our team produces other curricula! Check out:
 
+- [Edge AI for Beginners](https://aka.ms/edgeai-for-beginners)
+- [AI Agents for Beginners](https://aka.ms/ai-agents-beginners)
 - [Generative AI for Beginners](https://aka.ms/genai-beginners)
 - [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
 - [Generative AI with JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
@@ -159,3 +161,5 @@ Our team produces other curricula! Check out:
 
 ---
 
+**Disclaimer**:  
+This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we aim for accuracy, please note that automated translations may contain errors or inaccuracies. The original document in its native language should be regarded as the authoritative source. For critical information, professional human translation is recommended. We are not responsible for any misunderstandings or misinterpretations resulting from the use of this translation.
