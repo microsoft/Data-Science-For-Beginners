@@ -149,6 +149,8 @@ You can run this documentation offline by using [Docsify](https://docsify.js.org
 
 Our team produces other curricula! Check out:
 
+- [Edge AI for Beginners](https://aka.ms/edgeai-for-beginners)
+- [AI Agents for Beginners](https://aka.ms/ai-agents-beginners)
 - [Generative AI for Beginners](https://aka.ms/genai-beginners)
 - [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
 - [Generative AI with JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
