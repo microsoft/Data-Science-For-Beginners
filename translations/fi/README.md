@@ -1,24 +1,40 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7332da4946897c5885e9ca5bc24de96b",
-  "translation_date": "2025-09-06T10:59:00+00:00",
+  "original_hash": "ae529efe508173a92d4019d86744ec00",
+  "translation_date": "2025-09-23T09:15:23+00:00",
   "source_file": "README.md",
   "language_code": "fi"
 }
 -->
-# Tieteenalojen alkeet - Opetussuunnitelma
+# Data Science aloittelijoille - Opetussuunnitelma
 
-Azure Cloud Advocates Microsoftilta ovat iloisia voidessaan tarjota 10 viikon ja 20 oppitunnin opetussuunnitelman, joka käsittelee datatiedettä. Jokainen oppitunti sisältää ennakko- ja jälkitestit, kirjalliset ohjeet oppitunnin suorittamiseen, ratkaisun ja tehtävän. Projektipohjainen oppimismenetelmämme antaa mahdollisuuden oppia tekemisen kautta, mikä on todistetusti tehokas tapa omaksua uusia taitoja.
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
 
-**Sydämelliset kiitokset kirjoittajillemme:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
+[![GitHub license](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-**🙏 Erityiskiitokset 🙏 [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) -kirjoittajille, arvioijille ja sisällöntuottajille,** erityisesti Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
-[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar, [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
+[![GitHub stars](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
+
+[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)
+
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
+Microsoftin Azure Cloud Advocates -tiimi tarjoaa ilolla 10 viikon ja 20 oppitunnin opetussuunnitelman, joka käsittelee data-analytiikkaa. Jokainen oppitunti sisältää ennakkokyselyn ja jälkikyselyn, kirjalliset ohjeet oppitunnin suorittamiseen, ratkaisun ja tehtävän. Projektipohjainen oppimismenetelmämme auttaa sinua oppimaan rakentamisen kautta, mikä on todistetusti tehokas tapa omaksua uusia taitoja.
+
+**Sydämellinen kiitos kirjoittajillemme:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
+
+**🙏 Erityiskiitos 🙏 [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) -kirjoittajille, arvioijille ja sisällöntuottajille,** erityisesti Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
 |![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.fi.png)|
 |:---:|
-| Datatiede aloittelijoille - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+| Data-analytiikka aloittelijoille - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
 ### 🌐 Monikielinen tuki
 
@@ -29,22 +45,26 @@ Azure Cloud Advocates Microsoftilta ovat iloisia voidessaan tarjota 10 viikon ja
 **Jos haluat lisätä uusia kieliä, tuetut kielet löytyvät [täältä](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
 #### Liity yhteisöömme 
-[![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://discord.gg/kzRShWzttr)
+[![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://aka.ms/ds4beginners/discord)
+
+Meillä on käynnissä Discordissa oppimissarja tekoälyn kanssa. Lue lisää ja liity mukaan [Learn with AI Series](https://aka.ms/learnwithai/discord) 18.–30. syyskuuta 2025. Saat vinkkejä ja neuvoja GitHub Copilotin käytöstä data-analytiikassa.
+
+![Learn with AI series](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.fi.jpg)
 
 # Oletko opiskelija?
 
 Aloita seuraavilla resursseilla:
 
-- [Opiskelijasivusto](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Tältä sivulta löydät aloitusresursseja, opiskelijapaketteja ja jopa tapoja saada ilmainen sertifikaattikoodi. Tämä on sivu, jonka haluat lisätä kirjanmerkkeihin ja tarkistaa säännöllisesti, sillä päivitämme sisältöä vähintään kuukausittain.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Liity maailmanlaajuiseen opiskelijalähettiläiden yhteisöön, tämä voi olla sinun tiesi Microsoftille.
+- [Student Hub -sivu](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Tältä sivulta löydät aloittelijaresursseja, opiskelijapaketit ja jopa tapoja saada ilmainen sertifikaattivoucher. Tämä on sivu, jonka haluat tallentaa kirjanmerkkeihin ja tarkistaa säännöllisesti, sillä sisältöä vaihdetaan vähintään kuukausittain.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Liity maailmanlaajuiseen opiskelijalähettiläiden yhteisöön, tämä voi olla sinun tiesi Microsoftiin.
 
 # Aloittaminen
 
-> **Opettajat**: olemme [lisänneet joitakin ehdotuksia](for-teachers.md) siitä, miten tätä opetussuunnitelmaa voi käyttää. Kuulemme mielellämme palautettasi [keskustelufoorumillamme](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
+> **Opettajat**: olemme [lisänneet joitakin ehdotuksia](for-teachers.md) siitä, miten tätä opetussuunnitelmaa voi käyttää. Haluaisimme kuulla palautettasi [keskustelufoorumillamme](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
-> **[Opiskelijat](https://aka.ms/student-page)**: jos haluat käyttää tätä opetussuunnitelmaa itsenäisesti, forkkaa koko repo ja suorita harjoitukset itsenäisesti aloittaen ennakkotestistä. Lue sitten oppitunti ja suorita loput tehtävät. Yritä luoda projektit ymmärtämällä oppitunnit sen sijaan, että kopioisit ratkaisukoodin; kuitenkin kyseinen koodi on saatavilla /solutions-kansioissa jokaisessa projektiin perustuvassa oppitunnissa. Toinen idea on muodostaa opiskeluryhmä ystävien kanssa ja käydä sisältö yhdessä läpi. Lisäopiskelua varten suosittelemme [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **[Opiskelijat](https://aka.ms/student-page)**: jos haluat käyttää tätä opetussuunnitelmaa itsenäisesti, haaroita koko repo ja suorita tehtävät itsenäisesti aloittaen ennakkokyselystä. Lue sitten oppitunti ja suorita loput aktiviteetit. Yritä luoda projektit ymmärtämällä oppitunnit sen sijaan, että kopioisit ratkaisukoodin; kuitenkin kyseinen koodi on saatavilla /solutions-kansioissa jokaisessa projektipohjaisessa oppitunnissa. Toinen idea olisi muodostaa opiskeluryhmä ystävien kanssa ja käydä sisältö läpi yhdessä. Lisäopiskelua varten suosittelemme [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
-## Tutustu tiimiin
+## Tapaa tiimi
 
 [![Promo video](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Promo video")
 
@@ -54,51 +74,53 @@ Aloita seuraavilla resursseilla:
 
 ## Pedagogiikka
 
-Olemme valinneet kaksi pedagogista periaatetta tätä opetussuunnitelmaa rakentaessamme: varmistaa, että se on projektipohjainen ja että se sisältää usein toistuvia testejä. Tämän sarjan lopussa opiskelijat ovat oppineet datatieteen perusperiaatteet, mukaan lukien eettiset käsitteet, datan valmistelun, erilaiset tavat työskennellä datan kanssa, datan visualisoinnin, data-analyysin, datatieteen todelliset käyttötapaukset ja paljon muuta.
+Olemme valinneet kaksi pedagogista periaatetta tätä opetussuunnitelmaa rakentaessamme: varmistaa, että se on projektipohjainen ja että se sisältää usein kyselyjä. Tämän sarjan lopussa opiskelijat ovat oppineet data-analytiikan perusperiaatteet, mukaan lukien eettiset käsitteet, datan valmistelu, erilaiset tavat työskennellä datan kanssa, datan visualisointi, data-analyysi, data-analytiikan tosielämän käyttötapaukset ja paljon muuta.
 
-Lisäksi matalan kynnyksen testi ennen oppituntia suuntaa opiskelijan huomion oppimiseen, kun taas toinen testi oppitunnin jälkeen varmistaa paremman tiedon säilymisen. Tämä opetussuunnitelma on suunniteltu joustavaksi ja hauskaksi, ja sen voi suorittaa kokonaan tai osittain. Projektit alkavat pienistä ja muuttuvat yhä monimutkaisemmiksi 10 viikon jakson loppua kohden.
-> Löydät [käytännesäännöt](CODE_OF_CONDUCT.md), [osallistumisohjeet](CONTRIBUTING.md) ja [käännösohjeet](TRANSLATIONS.md). Otamme mielellämme vastaan rakentavaa palautettasi!
+Lisäksi matalan kynnyksen kysely ennen oppituntia ohjaa opiskelijan huomion oppimaan aihetta, kun taas toinen kysely oppitunnin jälkeen varmistaa paremman tiedon säilymisen. Tämä opetussuunnitelma on suunniteltu joustavaksi ja hauskaksi, ja sen voi suorittaa kokonaan tai osittain. Projektit alkavat pienistä ja muuttuvat yhä monimutkaisemmiksi 10 viikon jakson loppuun mennessä.
+
+> Löydä [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), [Translation](TRANSLATIONS.md) -ohjeet. Otamme mielellämme vastaan rakentavaa palautettasi!
+
 ## Jokainen oppitunti sisältää:
 
-- Valinnainen luonnoskuva
+- Valinnainen sketchnote
 - Valinnainen lisävideo
-- Ennakkokysely oppitunnin lämmittelyksi
+- Ennakkokysely
 - Kirjallinen oppitunti
 - Projektipohjaisissa oppitunneissa vaiheittaiset ohjeet projektin rakentamiseen
 - Tietotarkistukset
 - Haaste
 - Lisälukemista
 - Tehtävä
-- [Jälkitesti](https://ff-quizzes.netlify.app/en/)
+- [Jälkikysely](https://ff-quizzes.netlify.app/en/)
 
-> **Huomio testeistä**: Kaikki testit löytyvät Quiz-App-kansiosta, yhteensä 40 testiä, joissa jokaisessa on kolme kysymystä. Testit on linkitetty oppitunneilta, mutta testisovelluksen voi ajaa paikallisesti tai julkaista Azureen; seuraa ohjeita `quiz-app`-kansiossa. Testit lokalisoidaan vähitellen.
+> **Huomio kyselyistä**: Kaikki kyselyt löytyvät Quiz-App-kansiosta, yhteensä 40 kyselyä, joissa on kolme kysymystä kussakin. Ne on linkitetty oppituntien sisällä, mutta kyselysovelluksen voi ajaa paikallisesti tai julkaista Azureen; seuraa ohjeita `quiz-app`-kansiossa. Kyselyjä lokalisoidaan vähitellen.
 
 ## Oppitunnit
-
-|![ Luonnoskuva: @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.fi.png)|
+|![ Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.fi.png)|
 |:---:|
-| Data Science For Beginners: Roadmap - _Luonnoskuva: [@nitya](https://twitter.com/nitya)_ |
+| Data Science For Beginners: Tiekartta - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-| Oppitunnin numero | Aihe | Oppituntiryhmä | Oppimistavoitteet | Linkitetty oppitunti | Tekijä |
+
+| Oppitunnin numero | Aihe | Oppituntiryhmä | Oppimistavoitteet | Linkitetty oppitunti | Kirjoittaja |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
 | 01 | Mitä on datatiede? | [Johdanto](1-Introduction/README.md) | Opi datatieteen peruskäsitteet ja sen yhteys tekoälyyn, koneoppimiseen ja big dataan. | [oppitunti](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
 | 02 | Datatieteen etiikka | [Johdanto](1-Introduction/README.md) | Datan etiikan käsitteet, haasteet ja viitekehykset. | [oppitunti](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
 | 03 | Datan määrittely | [Johdanto](1-Introduction/README.md) | Miten data luokitellaan ja mitkä ovat sen yleisimmät lähteet. | [oppitunti](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 04 | Johdatus tilastoihin ja todennäköisyyksiin | [Johdanto](1-Introduction/README.md) | Tilastojen ja todennäköisyyksien matemaattiset menetelmät datan ymmärtämiseksi. | [oppitunti](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Relaatiodatan käsittely | [Datan käsittely](2-Working-With-Data/README.md) | Johdatus relaatiodataan sekä perusteet relaatiodatan tutkimiseen ja analysointiin käyttäen SQL-kieltä (lausutaan "siikuel"). | [oppitunti](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
-| 06 | NoSQL-datan käsittely | [Datan käsittely](2-Working-With-Data/README.md) | Johdatus ei-relationaaliseen dataan, sen eri tyyppeihin ja perusteet dokumenttitietokantojen tutkimiseen ja analysointiin. | [oppitunti](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
-| 07 | Pythonin käyttö datan käsittelyssä | [Datan käsittely](2-Working-With-Data/README.md) | Pythonin perusteet datan tutkimiseen Pandas-kirjaston avulla. Suositellaan perustason Python-ohjelmointiosaamista. | [oppitunti](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | Datan valmistelu | [Datan käsittely](2-Working-With-Data/README.md) | Aiheita datan puhdistamiseen ja muokkaamiseen liittyen, jotta voidaan käsitellä puuttuvaa, epätarkkaa tai epätäydellistä dataa. | [oppitunti](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 09 | Määrien visualisointi | [Datavisualisointi](3-Data-Visualization/README.md) | Opi käyttämään Matplotlib-kirjastoa lintudatan visualisointiin 🦆 | [oppitunti](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 10 | Datan jakaumien visualisointi | [Datavisualisointi](3-Data-Visualization/README.md) | Havainnoiden ja trendien visualisointi tietyllä aikavälillä. | [oppitunti](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 11 | Suhteiden visualisointi | [Datavisualisointi](3-Data-Visualization/README.md) | Yhteyksien ja korrelaatioiden visualisointi datan joukkojen ja muuttujien välillä. | [oppitunti](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 12 | Merkitykselliset visualisoinnit | [Datavisualisointi](3-Data-Visualization/README.md) | Tekniikoita ja ohjeita, joiden avulla visualisoinneista saadaan arvokkaita tehokkaaseen ongelmanratkaisuun ja oivalluksiin. | [oppitunti](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 05 | Relaatiodatan käsittely | [Datan käsittely](2-Working-With-Data/README.md) | Johdatus relaatiodataan sekä SQL:n (Structured Query Language) perusteisiin relaatiodatan tutkimisessa ja analysoinnissa. | [oppitunti](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 06 | NoSQL-datan käsittely | [Datan käsittely](2-Working-With-Data/README.md) | Johdatus ei-relaatiodataan, sen eri tyyppeihin ja dokumenttitietokantojen tutkimisen ja analysoinnin perusteisiin. | [oppitunti](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
+| 07 | Pythonin käyttö datan käsittelyssä | [Datan käsittely](2-Working-With-Data/README.md) | Pythonin perusteet datan tutkimiseen Pandas-kirjaston avulla. Suositellaan Python-ohjelmoinnin perustuntemusta. | [oppitunti](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
+| 08 | Datan valmistelu | [Datan käsittely](2-Working-With-Data/README.md) | Aiheita datan puhdistamiseen ja muuntamiseen liittyen, jotta voidaan käsitellä puuttuvaa, epätarkkaa tai epätäydellistä dataa. | [oppitunti](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 09 | Määrien visualisointi | [Datan visualisointi](3-Data-Visualization/README.md) | Opi käyttämään Matplotlibia lintudatan visualisointiin 🦆 | [oppitunti](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 10 | Datan jakaumien visualisointi | [Datan visualisointi](3-Data-Visualization/README.md) | Havainnoiden ja trendien visualisointi tietyllä aikavälillä. | [oppitunti](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 11 | Suhteiden visualisointi | [Datan visualisointi](3-Data-Visualization/README.md) | Yhteyksien ja korrelaatioiden visualisointi datan joukkojen ja niiden muuttujien välillä. | [oppitunti](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 12 | Merkitykselliset visualisoinnit | [Datan visualisointi](3-Data-Visualization/README.md) | Tekniikoita ja ohjeita, joiden avulla visualisoinneista saadaan arvokkaita ongelmanratkaisun ja oivallusten kannalta. | [oppitunti](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 13 | Johdatus datatieteen elinkaareen | [Elinkaari](4-Data-Science-Lifecycle/README.md) | Johdatus datatieteen elinkaareen ja sen ensimmäiseen vaiheeseen: datan hankintaan ja uuttamiseen. | [oppitunti](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 14 | Analysointi | [Elinkaari](4-Data-Science-Lifecycle/README.md) | Tämä vaihe datatieteen elinkaaresta keskittyy datan analysointitekniikoihin. | [oppitunti](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 15 | Viestintä | [Elinkaari](4-Data-Science-Lifecycle/README.md) | Tämä vaihe datatieteen elinkaaresta keskittyy datasta saatujen oivallusten esittämiseen päätöksentekijöille ymmärrettävällä tavalla. | [oppitunti](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 14 | Analysointi | [Elinkaari](4-Data-Science-Lifecycle/README.md) | Datatieteen elinkaaren vaihe, joka keskittyy datan analysointitekniikoihin. | [oppitunti](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 15 | Viestintä | [Elinkaari](4-Data-Science-Lifecycle/README.md) | Datatieteen elinkaaren vaihe, joka keskittyy datasta saatujen oivallusten esittämiseen päätöksentekijöille ymmärrettävällä tavalla. | [oppitunti](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
 | 16 | Datatiede pilvessä | [Pilvidata](5-Data-Science-In-Cloud/README.md) | Tämä oppituntisarja esittelee datatieteen pilvessä ja sen hyödyt. | [oppitunti](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) ja [Maud](https://twitter.com/maudstweets) |
 | 17 | Datatiede pilvessä | [Pilvidata](5-Data-Science-In-Cloud/README.md) | Mallien kouluttaminen Low Code -työkaluilla. |[oppitunti](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) ja [Maud](https://twitter.com/maudstweets) |
-| 18 | Datatiede pilvessä | [Pilvidata](5-Data-Science-In-Cloud/README.md) | Mallien julkaiseminen Azure Machine Learning Studiossa. | [oppitunti](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) ja [Maud](https://twitter.com/maudstweets) |
+| 18 | Datatiede pilvessä | [Pilvidata](5-Data-Science-In-Cloud/README.md) | Mallien käyttöönotto Azure Machine Learning Studion avulla. | [oppitunti](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) ja [Maud](https://twitter.com/maudstweets) |
 | 19 | Datatiede tosielämässä | [Tosielämässä](6-Data-Science-In-Wild/README.md) | Datatieteen ohjaamat projektit tosielämässä. | [oppitunti](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
@@ -109,26 +131,25 @@ Seuraa näitä ohjeita avataksesi tämän esimerkin Codespacessa:
 Lisätietoja löydät [GitHub-dokumentaatiosta](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
-
 Seuraa näitä ohjeita avataksesi tämän repositorion kontissa paikallisella koneellasi ja VSCode-ohjelmalla käyttäen VS Code Remote - Containers -laajennusta:
 
-1. Jos käytät kehityskonttia ensimmäistä kertaa, varmista, että järjestelmäsi täyttää vaatimukset (esim. Docker on asennettu) [aloitusdokumentaation](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started) mukaisesti.
+1. Jos käytät kehityskonttia ensimmäistä kertaa, varmista, että järjestelmäsi täyttää ennakkovaatimukset (esim. Docker on asennettu) [aloitusdokumentaation](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started) mukaisesti.
 
-Voit käyttää tätä repositoriota joko avaamalla sen eristetyssä Docker-volyymissä:
+Tämän repositorion käyttöön voit joko avata sen eristetyssä Docker-volyymissä:
 
-**Huomio**: Tämä käyttää taustalla Remote-Containers: **Clone Repository in Container Volume...** -komentoa kloonaamaan lähdekoodin Docker-volyymiin paikallisen tiedostojärjestelmän sijaan. [Volyymit](https://docs.docker.com/storage/volumes/) ovat suositeltu tapa säilyttää konttidataa.
+**Huom:** Tämä käyttää taustalla Remote-Containers: **Clone Repository in Container Volume...** -komentoa kloonaamaan lähdekoodin Docker-volyymiin paikallisen tiedostojärjestelmän sijaan. [Volyymit](https://docs.docker.com/storage/volumes/) ovat suositeltu tapa säilyttää konttidataa.
 
-Tai avaamalla paikallisesti kloonatun tai ladatun version repositoriosta:
+Tai avata paikallisesti kloonatun tai ladatun version repositoriosta:
 
 - Kloonaa tämä repositorio paikalliselle tiedostojärjestelmällesi.
 - Paina F1 ja valitse **Remote-Containers: Open Folder in Container...** -komento.
-- Valitse tämän kansion kloonattu kopio, odota, että kontti käynnistyy, ja kokeile.
+- Valitse tämän kansion kloonattu kopio, odota, että kontti käynnistyy, ja kokeile asioita.
 
 ## Offline-käyttö
 
 Voit käyttää tätä dokumentaatiota offline-tilassa käyttämällä [Docsifyä](https://docsify.js.org/#/). Haaroita tämä repositorio, [asenna Docsify](https://docsify.js.org/#/quickstart) paikalliselle koneellesi ja kirjoita tämän repositorion juurikansiossa `docsify serve`. Verkkosivusto palvelee portissa 3000 localhostissa: `localhost:3000`.
 
-> Huomio, muistikirjoja ei renderöidä Docsifyn kautta, joten kun tarvitset muistikirjan suorittamista, tee se erikseen VS Codessa Python-ytimellä.
+> Huomaa, että Docsify ei renderöi muistikirjoja, joten kun tarvitset muistikirjan suorittamista, tee se erikseen VS Codessa Python-ytimellä.
 
 ## Muut opetussuunnitelmat
 
@@ -154,5 +175,3 @@ Tiimimme tuottaa muita opetussuunnitelmia! Tutustu:
 
 ---
 
-**Vastuuvapauslauseke**:  
-Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulee pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskääntämistä. Emme ole vastuussa tämän käännöksen käytöstä johtuvista väärinkäsityksistä tai virhetulkinnoista.
