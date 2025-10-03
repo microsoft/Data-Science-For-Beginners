@@ -141,6 +141,14 @@ The quiz application requires Node.js and npm.
 **Linux:**
 ```bash
 # Debian/Ubuntu
+# WARNING: Piping scripts from the internet directly into bash can be a security risk.
+# It is recommended to review the script before running it:
+#   curl -fsSL https://deb.nodesource.com/setup_lts.x -o setup_lts.x
+#   less setup_lts.x
+# Then run:
+#   sudo -E bash setup_lts.x
+#
+# Alternatively, you can use the one-liner below at your own risk:
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
