@@ -51,6 +51,8 @@ Get started with the following resources:
 
 # Getting Started
 
+> **Complete Beginners**: New to data science? Start with our [beginner-friendly examples](examples/README.md)! These simple, well-commented examples will help you understand the basics before diving into the full curriculum.
+
 > **Teachers**: we have [included some suggestions](for-teachers.md) on how to use this curriculum.  We'd love your feedback [in our discussion forum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
 > **[Students](https://aka.ms/student-page)**: to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz.  Then read the lecture and complete the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however, that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
@@ -85,6 +87,20 @@ In addition, a low-stakes quiz before a class sets the intention of the student 
 - [Post-lesson quiz](https://ff-quizzes.netlify.app/en/)
 
 > **A note about quizzes**: All quizzes are contained in the Quiz-App folder, for 40 total quizzes of three questions each. They are linked from within the lessons, but the quiz app can be run locally or deployed to Azure; follow the instruction in the `quiz-app` folder. They are gradually being localized.
+
+## 🎓 Beginner-Friendly Examples
+
+**New to Data Science?** We've created a special [examples directory](examples/README.md) with simple, well-commented code to help you get started:
+
+- 🌟 **Hello World** - Your first data science program
+- 📂 **Loading Data** - Learn to read and explore datasets
+- 📊 **Simple Analysis** - Calculate statistics and find patterns
+- 📈 **Basic Visualization** - Create charts and graphs
+- 🔬 **Real-World Project** - Complete workflow from start to finish
+
+Each example includes detailed comments explaining every step, making it perfect for absolute beginners!
+
+👉 **[Start with the examples](examples/README.md)** 👈
 
 ## Lessons
 
