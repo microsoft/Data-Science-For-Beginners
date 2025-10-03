@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "dd9a1deb4da680b2cf11ba2e9f5a0a6e",
-  "translation_date": "2025-09-29T22:08:22+00:00",
+  "original_hash": "53f99070cdd86f228ee65685e3104dec",
+  "translation_date": "2025-10-03T10:46:38+00:00",
   "source_file": "README.md",
   "language_code": "ro"
 }
@@ -40,7 +40,7 @@ Advocații Cloud Azure de la Microsoft sunt încântați să ofere un curriculum
 
 #### Suportat prin GitHub Action (Automat & Mereu Actualizat)
 
-[Franceză](../fr/README.md) | [Spaniolă](../es/README.md) | [Germană](../de/README.md) | [Rusă](../ru/README.md) | [Arabă](../ar/README.md) | [Persană (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Chineză (Simplificată)](../zh/README.md) | [Chineză (Tradițională, Macau)](../mo/README.md) | [Chineză (Tradițională, Hong Kong)](../hk/README.md) | [Chineză (Tradițională, Taiwan)](../tw/README.md) | [Japoneză](../ja/README.md) | [Coreeană](../ko/README.md) | [Hindi](../hi/README.md) | [Bengali](../bn/README.md) | [Marathi](../mr/README.md) | [Nepaleză](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Portugheză (Portugalia)](../pt/README.md) | [Portugheză (Brazilia)](../br/README.md) | [Italiană](../it/README.md) | [Poloneză](../pl/README.md) | [Turcă](../tr/README.md) | [Greacă](../el/README.md) | [Thailandeză](../th/README.md) | [Suedeză](../sv/README.md) | [Daneză](../da/README.md) | [Norvegiană](../no/README.md) | [Finlandeză](../fi/README.md) | [Olandeză](../nl/README.md) | [Ebraică](../he/README.md) | [Vietnameză](../vi/README.md) | [Indoneziană](../id/README.md) | [Malayeză](../ms/README.md) | [Tagalog (Filipineză)](../tl/README.md) | [Swahili](../sw/README.md) | [Maghiară](../hu/README.md) | [Cehă](../cs/README.md) | [Slovacă](../sk/README.md) | [Română](./README.md) | [Bulgară](../bg/README.md) | [Sârbă (Chirilică)](../sr/README.md) | [Croată](../hr/README.md) | [Slovenă](../sl/README.md) | [Ucraineană](../uk/README.md) | [Birmaneză (Myanmar)](../my/README.md)
+[Franceză](../fr/README.md) | [Spaniolă](../es/README.md) | [Germană](../de/README.md) | [Rusă](../ru/README.md) | [Arabă](../ar/README.md) | [Persană (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Chineză (Simplificată)](../zh/README.md) | [Chineză (Tradițională, Macau)](../mo/README.md) | [Chineză (Tradițională, Hong Kong)](../hk/README.md) | [Chineză (Tradițională, Taiwan)](../tw/README.md) | [Japoneză](../ja/README.md) | [Coreeană](../ko/README.md) | [Hindi](../hi/README.md) | [Bengali](../bn/README.md) | [Marathi](../mr/README.md) | [Nepaleză](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Portugheză (Portugalia)](../pt/README.md) | [Portugheză (Brazilia)](../br/README.md) | [Italiană](../it/README.md) | [Poloneză](../pl/README.md) | [Turcă](../tr/README.md) | [Greacă](../el/README.md) | [Thailandeză](../th/README.md) | [Suedeză](../sv/README.md) | [Daneză](../da/README.md) | [Norvegiană](../no/README.md) | [Finlandeză](../fi/README.md) | [Olandeză](../nl/README.md) | [Ebraică](../he/README.md) | [Vietnameză](../vi/README.md) | [Indoneziană](../id/README.md) | [Malayeză](../ms/README.md) | [Tagalog (Filipineză)](../tl/README.md) | [Swahili](../sw/README.md) | [Maghiară](../hu/README.md) | [Cehă](../cs/README.md) | [Slovacă](../sk/README.md) | [Română](./README.md) | [Bulgară](../bg/README.md) | [Sârbă (Chirilică)](../sr/README.md) | [Croată](../hr/README.md) | [Slovenă](../sl/README.md) | [Ucraineană](../uk/README.md) | [Birmană (Myanmar)](../my/README.md)
 
 **Dacă doriți să aveți suport pentru alte limbi, acestea sunt listate [aici](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
@@ -53,9 +53,9 @@ Avem o serie de învățare cu AI în desfășurare pe Discord, aflați mai mult
 
 # Ești student?
 
-Începeți cu următoarele resurse:
+Începe cu următoarele resurse:
 
-- [Pagina Hub pentru Studenți](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Pe această pagină, veți găsi resurse pentru începători, pachete pentru studenți și chiar modalități de a obține un voucher gratuit pentru certificare. Aceasta este o pagină pe care doriți să o marcați și să o verificați periodic, deoarece schimbăm conținutul cel puțin lunar.
+- [Pagina Hub pentru Studenți](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) În această pagină, veți găsi resurse pentru începători, pachete pentru studenți și chiar modalități de a obține un voucher gratuit pentru certificare. Este o pagină pe care merită să o marcați și să o verificați periodic, deoarece conținutul este schimbat cel puțin lunar.
 - [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Alăturați-vă unei comunități globale de ambasadori studenți, aceasta ar putea fi calea voastră către Microsoft.
 
 # Începeți
@@ -87,29 +87,28 @@ Am ales două principii pedagogice în construirea acestui curriculum: asigurare
 - Chestionar de încălzire înainte de lecție
 - Lecție scrisă
 - Pentru lecțiile bazate pe proiecte, ghiduri pas cu pas despre cum să construiți proiectul
-- Verificări de cunoștințe
+- Verificări ale cunoștințelor
 - O provocare
 - Lectură suplimentară
 - Temă
 - [Chestionar după lecție](https://ff-quizzes.netlify.app/en/)
 
-> **O notă despre chestionare**: Toate chestionarele sunt conținute în folderul Quiz-App, pentru un total de 40 de chestionare, fiecare cu trei întrebări. Ele sunt legate din lecții, dar aplicația de chestionare poate fi rulată local sau implementată pe Azure; urmați instrucțiunile din folderul `quiz-app`. Ele sunt treptat localizate.
+> **O notă despre chestionare**: Toate chestionarele sunt conținute în folderul Quiz-App, pentru un total de 40 de chestionare, fiecare cu trei întrebări. Ele sunt legate din cadrul lecțiilor, dar aplicația de chestionare poate fi rulată local sau implementată pe Azure; urmați instrucțiunile din folderul `quiz-app`. Ele sunt treptat localizate.
 
 ## Lecții
 |![ Sketchnote de @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.ro.png)|
 |:---:|
-| Data Science pentru Începători: Planificare - _Sketchnote de [@nitya](https://twitter.com/nitya)_ |
-
+| Data Science Pentru Începători: Planificare - _Sketchnote de [@nitya](https://twitter.com/nitya)_ |
 
 | Număr Lecție | Subiect | Grupare Lecții | Obiective de Învățare | Lecție Legată | Autor |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
 | 01 | Definirea Științei Datelor | [Introducere](1-Introduction/README.md) | Învață conceptele de bază ale științei datelor și cum se leagă de inteligența artificială, învățarea automată și big data. | [lecție](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
-| 02 | Etica în Știința Datelor | [Introducere](1-Introduction/README.md) | Concepte, provocări și cadre de etică a datelor. | [lecție](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
+| 02 | Etica Științei Datelor | [Introducere](1-Introduction/README.md) | Concepte, provocări și cadre de etică a datelor. | [lecție](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
 | 03 | Definirea Datelor | [Introducere](1-Introduction/README.md) | Cum sunt clasificate datele și sursele lor comune. | [lecție](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 04 | Introducere în Statistică și Probabilitate | [Introducere](1-Introduction/README.md) | Tehnici matematice de probabilitate și statistică pentru a înțelege datele. | [lecție](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
 | 05 | Lucrul cu Date Relaționale | [Lucrul cu Date](2-Working-With-Data/README.md) | Introducere în date relaționale și elementele de bază ale explorării și analizei datelor relaționale cu Structured Query Language, cunoscut și sub numele de SQL (pronunțat „see-quell”). | [lecție](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
 | 06 | Lucrul cu Date NoSQL | [Lucrul cu Date](2-Working-With-Data/README.md) | Introducere în datele non-relaționale, tipurile lor diverse și elementele de bază ale explorării și analizei bazelor de date document. | [lecție](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
-| 07 | Lucrul cu Python | [Lucrul cu Date](2-Working-With-Data/README.md) | Elementele de bază ale utilizării Python pentru explorarea datelor cu biblioteci precum Pandas. Se recomandă o înțelegere fundamentală a programării în Python. | [lecție](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
+| 07 | Lucrul cu Python | [Lucrul cu Date](2-Working-With-Data/README.md) | Bazele utilizării Python pentru explorarea datelor cu biblioteci precum Pandas. Se recomandă o înțelegere fundamentală a programării în Python. | [lecție](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
 | 08 | Pregătirea Datelor | [Lucrul cu Date](2-Working-With-Data/README.md) | Subiecte despre tehnici de curățare și transformare a datelor pentru a gestiona provocările datelor lipsă, inexacte sau incomplete. | [lecție](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 09 | Vizualizarea Cantităților | [Vizualizarea Datelor](3-Data-Visualization/README.md) | Învață cum să folosești Matplotlib pentru a vizualiza date despre păsări 🦆 | [lecție](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 10 | Vizualizarea Distribuțiilor Datelor | [Vizualizarea Datelor](3-Data-Visualization/README.md) | Vizualizarea observațiilor și tendințelor într-un interval. | [lecție](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
@@ -146,7 +145,7 @@ Sau să deschizi o versiune clonată sau descărcată local a depozitului:
 - Apasă F1 și selectează comanda **Remote-Containers: Open Folder in Container...**.
 - Selectează copia clonată a acestui folder, așteaptă ca containerul să pornească și încearcă lucrurile.
 
-## Acces offline
+## Acces Offline
 
 Poți rula această documentație offline folosind [Docsify](https://docsify.js.org/#/). Clonează acest depozit, [instalează Docsify](https://docsify.js.org/#/quickstart) pe mașina ta locală, apoi în folderul rădăcină al acestui depozit, tastează `docsify serve`. Website-ul va fi servit pe portul 3000 pe localhost-ul tău: `localhost:3000`.
 
@@ -171,12 +170,22 @@ Echipa noastră produce alte curricule! Consultă:
 - [IoT pentru Începători](https://aka.ms/iot-beginners)
 - [Învățare Automată pentru Începători](https://aka.ms/ml-beginners)
 - [Dezvoltare XR pentru Începători](https://aka.ms/xr-dev-for-beginners)
-- [Stăpânirea GitHub Copilot pentru Programare AI în Perechi](https://aka.ms/GitHubCopilotAI)
+- [Stăpânirea GitHub Copilot pentru Programare AI în Echipe](https://aka.ms/GitHubCopilotAI)
 - [Dezvoltare XR pentru Începători](https://github.com/microsoft/xr-development-for-beginners)
 - [Stăpânirea GitHub Copilot pentru Dezvoltatori C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [Alege-ți propria aventură Copilot](https://github.com/microsoft/CopilotAdventures)
 
+## Obținerea Ajutorului
+
+Dacă te blochezi sau ai întrebări despre construirea aplicațiilor AI, alătură-te:
+
+[![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
+
+Dacă ai feedback despre produs sau erori în timpul construirii, vizitează:
+
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
 ---
 
 **Declinare de responsabilitate**:  
-Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți de faptul că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.
+Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să fiți conștienți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa maternă ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.

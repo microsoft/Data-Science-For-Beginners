@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "dd9a1deb4da680b2cf11ba2e9f5a0a6e",
-  "translation_date": "2025-09-29T21:28:19+00:00",
+  "original_hash": "53f99070cdd86f228ee65685e3104dec",
+  "translation_date": "2025-10-03T10:03:06+00:00",
   "source_file": "README.md",
   "language_code": "de"
 }
@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-Die Azure Cloud Advocates bei Microsoft freuen sich, einen 10-wöchigen, 20 Lektionen umfassenden Lehrplan rund um Datenwissenschaft anzubieten. Jede Lektion enthält Vor- und Nachtests, schriftliche Anweisungen zur Durchführung der Lektion, eine Lösung und eine Aufgabe. Unsere projektbasierte Pädagogik ermöglicht es Ihnen, durch praktisches Arbeiten zu lernen – eine bewährte Methode, um neue Fähigkeiten nachhaltig zu erlernen.
+Die Azure Cloud Advocates bei Microsoft freuen sich, einen 10-wöchigen Lehrplan mit 20 Lektionen rund um Datenwissenschaft anzubieten. Jede Lektion enthält Vor- und Nachtests, schriftliche Anweisungen zur Durchführung der Lektion, eine Lösung und eine Aufgabe. Unsere projektbasierte Pädagogik ermöglicht es Ihnen, durch praktisches Arbeiten zu lernen – eine bewährte Methode, um neue Fähigkeiten nachhaltig zu erlernen.
 
 **Herzlichen Dank an unsere Autoren:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
@@ -93,42 +93,41 @@ Darüber hinaus setzt ein niedrigschwelliges Quiz vor einer Klasse die Absicht d
 - Aufgabe
 - [Quiz nach der Lektion](https://ff-quizzes.netlify.app/en/)
 
-> **Eine Anmerkung zu den Quizfragen**: Alle Quizfragen befinden sich im Quiz-App-Ordner, insgesamt 40 Quizfragen mit jeweils drei Fragen. Sie sind innerhalb der Lektionen verlinkt, aber die Quiz-App kann lokal ausgeführt oder auf Azure bereitgestellt werden; folgen Sie den Anweisungen im `quiz-app`-Ordner. Sie werden schrittweise lokalisiert.
+> **Eine Anmerkung zu den Quizfragen**: Alle Quizfragen befinden sich im Quiz-App-Ordner, insgesamt 40 Quizfragen mit jeweils drei Fragen. Sie sind innerhalb der Lektionen verlinkt, aber die Quiz-App kann lokal ausgeführt oder auf Azure bereitgestellt werden; folgen Sie den Anweisungen im `quiz-app`-Ordner. Sie werden nach und nach lokalisiert.
 
 ## Lektionen
 |![ Sketchnote von @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.de.png)|
 |:---:|
 | Data Science für Anfänger: Roadmap - _Sketchnote von [@nitya](https://twitter.com/nitya)_ |
 
-
 | Lektion Nummer | Thema | Lektion Gruppe | Lernziele | Verlinkte Lektion | Autor |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
 | 01 | Definition von Data Science | [Einführung](1-Introduction/README.md) | Grundlegende Konzepte der Data Science und deren Beziehung zu künstlicher Intelligenz, maschinellem Lernen und Big Data kennenlernen. | [Lektion](1-Introduction/01-defining-data-science/README.md) [Video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
 | 02 | Ethik in der Data Science | [Einführung](1-Introduction/README.md) | Konzepte, Herausforderungen und Rahmenbedingungen der Datenethik. | [Lektion](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
-| 03 | Definition von Daten | [Einführung](1-Introduction/README.md) | Wie Daten klassifiziert werden und ihre häufigsten Quellen. | [Lektion](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | Einführung in Statistik und Wahrscheinlichkeit | [Einführung](1-Introduction/README.md) | Mathematische Techniken der Wahrscheinlichkeit und Statistik, um Daten zu verstehen. | [Lektion](1-Introduction/04-stats-and-probability/README.md) [Video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Arbeiten mit relationalen Daten | [Arbeiten mit Daten](2-Working-With-Data/README.md) | Einführung in relationale Daten und die Grundlagen der Exploration und Analyse relationaler Daten mit der Structured Query Language, auch bekannt als SQL (ausgesprochen „see-quell“). | [Lektion](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
-| 06 | Arbeiten mit NoSQL-Daten | [Arbeiten mit Daten](2-Working-With-Data/README.md) | Einführung in nicht-relationale Daten, ihre verschiedenen Typen und die Grundlagen der Exploration und Analyse von Dokumentdatenbanken. | [Lektion](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
-| 07 | Arbeiten mit Python | [Arbeiten mit Daten](2-Working-With-Data/README.md) | Grundlagen der Nutzung von Python zur Datenexploration mit Bibliotheken wie Pandas. Grundlegendes Verständnis der Python-Programmierung wird empfohlen. | [Lektion](2-Working-With-Data/07-python/README.md) [Video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | Datenvorbereitung | [Arbeiten mit Daten](2-Working-With-Data/README.md) | Themen zu Datentechniken für das Bereinigen und Transformieren von Daten, um Herausforderungen wie fehlende, ungenaue oder unvollständige Daten zu bewältigen. | [Lektion](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 09 | Visualisierung von Mengen | [Datenvisualisierung](3-Data-Visualization/README.md) | Lernen, wie man Matplotlib verwendet, um Vogeldaten 🦆 zu visualisieren. | [Lektion](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 03 | Definition von Daten | [Einführung](1-Introduction/README.md) | Klassifizierung von Daten und deren häufige Quellen. | [Lektion](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 04 | Einführung in Statistik und Wahrscheinlichkeit | [Einführung](1-Introduction/README.md) | Mathematische Techniken der Wahrscheinlichkeit und Statistik zur Datenanalyse verstehen. | [Lektion](1-Introduction/04-stats-and-probability/README.md) [Video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 05 | Arbeiten mit relationalen Daten | [Arbeiten mit Daten](2-Working-With-Data/README.md) | Einführung in relationale Daten und Grundlagen der Analyse mit SQL (Structured Query Language). | [Lektion](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 06 | Arbeiten mit NoSQL-Daten | [Arbeiten mit Daten](2-Working-With-Data/README.md) | Einführung in nicht-relationale Daten, deren Typen und Grundlagen der Analyse von Dokumentdatenbanken. | [Lektion](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
+| 07 | Arbeiten mit Python | [Arbeiten mit Daten](2-Working-With-Data/README.md) | Grundlagen der Datenanalyse mit Python und Bibliotheken wie Pandas. Grundkenntnisse in Python-Programmierung werden empfohlen. | [Lektion](2-Working-With-Data/07-python/README.md) [Video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
+| 08 | Datenvorbereitung | [Arbeiten mit Daten](2-Working-With-Data/README.md) | Techniken zur Bereinigung und Transformation von Daten, um Herausforderungen wie fehlende, ungenaue oder unvollständige Daten zu bewältigen. | [Lektion](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 09 | Visualisierung von Mengen | [Datenvisualisierung](3-Data-Visualization/README.md) | Lernen, wie man mit Matplotlib Vogeldaten 🦆 visualisiert. | [Lektion](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 10 | Visualisierung von Datenverteilungen | [Datenvisualisierung](3-Data-Visualization/README.md) | Beobachtungen und Trends innerhalb eines Intervalls visualisieren. | [Lektion](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 11 | Visualisierung von Proportionen | [Datenvisualisierung](3-Data-Visualization/README.md) | Diskrete und gruppierte Prozentsätze visualisieren. | [Lektion](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 12 | Visualisierung von Beziehungen | [Datenvisualisierung](3-Data-Visualization/README.md) | Verbindungen und Korrelationen zwischen Datensätzen und ihren Variablen visualisieren. | [Lektion](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | Sinnvolle Visualisierungen | [Datenvisualisierung](3-Data-Visualization/README.md) | Techniken und Leitlinien, um Ihre Visualisierungen wertvoll für effektive Problemlösungen und Erkenntnisse zu machen. | [Lektion](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 14 | Einführung in den Data Science-Lebenszyklus | [Lebenszyklus](4-Data-Science-Lifecycle/README.md) | Einführung in den Data Science-Lebenszyklus und seinen ersten Schritt: Daten erfassen und extrahieren. | [Lektion](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | Analyse | [Lebenszyklus](4-Data-Science-Lifecycle/README.md) | Diese Phase des Data Science-Lebenszyklus konzentriert sich auf Techniken zur Datenanalyse. | [Lektion](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Kommunikation | [Lebenszyklus](4-Data-Science-Lifecycle/README.md) | Diese Phase des Data Science-Lebenszyklus konzentriert sich darauf, die Erkenntnisse aus den Daten so zu präsentieren, dass Entscheidungsträger sie leichter verstehen können. | [Lektion](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 12 | Visualisierung von Beziehungen | [Datenvisualisierung](3-Data-Visualization/README.md) | Verbindungen und Korrelationen zwischen Datensätzen und deren Variablen visualisieren. | [Lektion](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 13 | Sinnvolle Visualisierungen | [Datenvisualisierung](3-Data-Visualization/README.md) | Techniken und Richtlinien, um Visualisierungen für effektive Problemlösungen und Erkenntnisse wertvoll zu machen. | [Lektion](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 14 | Einführung in den Data Science-Lebenszyklus | [Lebenszyklus](4-Data-Science-Lifecycle/README.md) | Einführung in den Lebenszyklus der Data Science und dessen ersten Schritt: Datenbeschaffung und -extraktion. | [Lektion](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
+| 15 | Analyse | [Lebenszyklus](4-Data-Science-Lifecycle/README.md) | Diese Phase des Lebenszyklus der Data Science konzentriert sich auf Techniken zur Datenanalyse. | [Lektion](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | Kommunikation | [Lebenszyklus](4-Data-Science-Lifecycle/README.md) | Diese Phase des Lebenszyklus der Data Science konzentriert sich darauf, Erkenntnisse aus den Daten so zu präsentieren, dass Entscheidungsträger sie leicht verstehen können. | [Lektion](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
 | 17 | Data Science in der Cloud | [Cloud-Daten](5-Data-Science-In-Cloud/README.md) | Diese Serie von Lektionen führt in Data Science in der Cloud und deren Vorteile ein. | [Lektion](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) und [Maud](https://twitter.com/maudstweets) |
 | 18 | Data Science in der Cloud | [Cloud-Daten](5-Data-Science-In-Cloud/README.md) | Modelle mit Low-Code-Tools trainieren. |[Lektion](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) und [Maud](https://twitter.com/maudstweets) |
 | 19 | Data Science in der Cloud | [Cloud-Daten](5-Data-Science-In-Cloud/README.md) | Modelle mit Azure Machine Learning Studio bereitstellen. | [Lektion](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) und [Maud](https://twitter.com/maudstweets) |
-| 20 | Data Science in der Praxis | [In der Praxis](6-Data-Science-In-Wild/README.md) | Von Data Science getriebene Projekte in der realen Welt. | [Lektion](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| 20 | Data Science in der Praxis | [In der Praxis](6-Data-Science-In-Wild/README.md) | Projekte, die durch Data Science in der realen Welt angetrieben werden. | [Lektion](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
 Folgen Sie diesen Schritten, um dieses Beispiel in einem Codespace zu öffnen:
 1. Klicken Sie auf das Code-Dropdown-Menü und wählen Sie die Option "Mit Codespaces öffnen".
-2. Wählen Sie + Neuer Codespace unten im Fenster.
+2. Wählen Sie unten im Fenster "+ Neuer Codespace".
 Weitere Informationen finden Sie in der [GitHub-Dokumentation](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
@@ -138,19 +137,19 @@ Folgen Sie diesen Schritten, um dieses Repository in einem Container mit Ihrer l
 
 Um dieses Repository zu verwenden, können Sie entweder das Repository in einem isolierten Docker-Volume öffnen:
 
-**Hinweis**: Im Hintergrund wird der Remote-Containers-Befehl **Clone Repository in Container Volume...** verwendet, um den Quellcode in einem Docker-Volume anstelle des lokalen Dateisystems zu klonen. [Volumes](https://docs.docker.com/storage/volumes/) sind das bevorzugte Verfahren zur Persistierung von Containerdaten.
+**Hinweis**: Im Hintergrund wird der Remote-Containers-Befehl **Clone Repository in Container Volume...** verwendet, um den Quellcode in einem Docker-Volume anstelle des lokalen Dateisystems zu klonen. [Volumes](https://docs.docker.com/storage/volumes/) sind die bevorzugte Methode zur Persistenz von Containerdaten.
 
 Oder öffnen Sie eine lokal geklonte oder heruntergeladene Version des Repositorys:
 
 - Klonen Sie dieses Repository auf Ihr lokales Dateisystem.
 - Drücken Sie F1 und wählen Sie den Befehl **Remote-Containers: Open Folder in Container...**.
-- Wählen Sie die geklonte Kopie dieses Ordners aus, warten Sie, bis der Container gestartet ist, und probieren Sie die Funktionen aus.
+- Wählen Sie die geklonte Kopie dieses Ordners, warten Sie, bis der Container gestartet ist, und probieren Sie die Funktionen aus.
 
 ## Offline-Zugriff
 
-Sie können diese Dokumentation offline mit [Docsify](https://docsify.js.org/#/) ausführen. Forken Sie dieses Repository, [installieren Sie Docsify](https://docsify.js.org/#/quickstart) auf Ihrer lokalen Maschine, und geben Sie dann im Stammordner dieses Repositorys `docsify serve` ein. Die Website wird auf Port 3000 auf Ihrem localhost bereitgestellt: `localhost:3000`.
+Sie können diese Dokumentation offline mit [Docsify](https://docsify.js.org/#/) ausführen. Forken Sie dieses Repository, [installieren Sie Docsify](https://docsify.js.org/#/quickstart) auf Ihrer lokalen Maschine und geben Sie dann im Stammordner dieses Repositorys `docsify serve` ein. Die Website wird auf Port 3000 auf Ihrem localhost bereitgestellt: `localhost:3000`.
 
-> Hinweis: Notebooks werden nicht über Docsify gerendert, daher sollten Sie ein Notebook separat in VS Code mit einem Python-Kernel ausführen.
+> Hinweis: Notebooks werden nicht über Docsify gerendert. Wenn Sie ein Notebook ausführen müssen, tun Sie dies separat in VS Code mit einem Python-Kernel.
 
 ## Weitere Lehrpläne
 
@@ -166,15 +165,25 @@ Unser Team erstellt weitere Lehrpläne! Schauen Sie sich an:
 - [Data Science für Anfänger](https://aka.ms/datascience-beginners)
 - [Bash für Anfänger](https://github.com/microsoft/bash-for-beginners)
 - [ML für Anfänger](https://aka.ms/ml-beginners)
-- [Cybersecurity für Anfänger](https://github.com/microsoft/Security-101) 
+- [Cybersicherheit für Anfänger](https://github.com/microsoft/Security-101) 
 - [Webentwicklung für Anfänger](https://aka.ms/webdev-beginners)
 - [IoT für Anfänger](https://aka.ms/iot-beginners)
 - [Maschinelles Lernen für Anfänger](https://aka.ms/ml-beginners)
 - [XR-Entwicklung für Anfänger](https://aka.ms/xr-dev-for-beginners)
-- [GitHub Copilot für KI-gestütztes Pair-Programming meistern](https://aka.ms/GitHubCopilotAI)
+- [GitHub Copilot für KI-gestütztes Programmieren meistern](https://aka.ms/GitHubCopilotAI)
 - [XR-Entwicklung für Anfänger](https://github.com/microsoft/xr-development-for-beginners)
 - [GitHub Copilot für C#/.NET-Entwickler meistern](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [Wählen Sie Ihr eigenes Copilot-Abenteuer](https://github.com/microsoft/CopilotAdventures)
+
+## Hilfe erhalten
+
+Wenn Sie nicht weiterkommen oder Fragen zum Erstellen von KI-Anwendungen haben, treten Sie bei:
+
+[![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
+
+Wenn Sie Produktfeedback oder Fehler beim Erstellen haben, besuchen Sie:
+
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 

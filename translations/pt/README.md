@@ -1,20 +1,19 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "dd9a1deb4da680b2cf11ba2e9f5a0a6e",
-  "translation_date": "2025-09-29T21:45:51+00:00",
+  "original_hash": "53f99070cdd86f228ee65685e3104dec",
+  "translation_date": "2025-10-03T10:21:28+00:00",
   "source_file": "README.md",
   "language_code": "pt"
 }
 -->
 # Ciência de Dados para Iniciantes - Um Currículo
 
-Azure Cloud Advocates na Microsoft têm o prazer de oferecer um currículo de 10 semanas e 20 lições sobre Ciência de Dados. Cada lição inclui questionários antes e depois da aula, instruções escritas para completar a lição, uma solução e uma tarefa. Nossa abordagem pedagógica baseada em projetos permite que você aprenda enquanto constrói, uma forma comprovada de fazer com que novas habilidades sejam assimiladas.
+Azure Cloud Advocates na Microsoft têm o prazer de oferecer um currículo de 10 semanas e 20 lições sobre Ciência de Dados. Cada lição inclui questionários antes e depois da aula, instruções escritas para completar a lição, uma solução e uma tarefa. Nossa abordagem pedagógica baseada em projetos permite que você aprenda enquanto constrói, uma forma comprovada de fixar novas habilidades.
 
 **Agradecimentos especiais aos nossos autores:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
-**🙏 Agradecimentos especiais 🙏 aos nossos [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) autores, revisores e colaboradores de conteúdo,** incluindo Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
-[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar, [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
+**🙏 Agradecimentos especiais 🙏 aos nossos [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) autores, revisores e colaboradores de conteúdo,** incluindo Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200), [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar, [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
 |![Sketchnote por @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.pt.png)|
 |:---:|
@@ -22,24 +21,24 @@ Azure Cloud Advocates na Microsoft têm o prazer de oferecer um currículo de 10
 
 ### 🌐 Suporte Multilíngue
 
-#### Suporte via GitHub Action (Automatizado e Sempre Atualizado)
+#### Suportado via GitHub Action (Automatizado e Sempre Atualizado)
 
 [Francês](../fr/README.md) | [Espanhol](../es/README.md) | [Alemão](../de/README.md) | [Russo](../ru/README.md) | [Árabe](../ar/README.md) | [Persa (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Chinês (Simplificado)](../zh/README.md) | [Chinês (Tradicional, Macau)](../mo/README.md) | [Chinês (Tradicional, Hong Kong)](../hk/README.md) | [Chinês (Tradicional, Taiwan)](../tw/README.md) | [Japonês](../ja/README.md) | [Coreano](../ko/README.md) | [Hindi](../hi/README.md) | [Bengali](../bn/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Português (Portugal)](./README.md) | [Português (Brasil)](../br/README.md) | [Italiano](../it/README.md) | [Polonês](../pl/README.md) | [Turco](../tr/README.md) | [Grego](../el/README.md) | [Tailandês](../th/README.md) | [Sueco](../sv/README.md) | [Dinamarquês](../da/README.md) | [Norueguês](../no/README.md) | [Finlandês](../fi/README.md) | [Holandês](../nl/README.md) | [Hebraico](../he/README.md) | [Vietnamita](../vi/README.md) | [Indonésio](../id/README.md) | [Malaio](../ms/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Suaíli](../sw/README.md) | [Húngaro](../hu/README.md) | [Tcheco](../cs/README.md) | [Eslovaco](../sk/README.md) | [Romeno](../ro/README.md) | [Búlgaro](../bg/README.md) | [Sérvio (Cirílico)](../sr/README.md) | [Croata](../hr/README.md) | [Esloveno](../sl/README.md) | [Ucraniano](../uk/README.md) | [Birmanês (Myanmar)](../my/README.md)
 
-**Se desejar suporte para idiomas adicionais, os idiomas disponíveis estão listados [aqui](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**Se desejar ter traduções adicionais, os idiomas suportados estão listados [aqui](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
 #### Junte-se à Nossa Comunidade 
 [![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://aka.ms/ds4beginners/discord)
 
-Temos uma série de aprendizado com IA em andamento no Discord. Saiba mais e junte-se a nós em [Learn with AI Series](https://aka.ms/learnwithai/discord) de 18 a 30 de setembro de 2025. Você receberá dicas e truques sobre como usar o GitHub Copilot para Ciência de Dados.
+Temos uma série de aprendizado com IA em andamento no Discord. Saiba mais e junte-se a nós no [Learn with AI Series](https://aka.ms/learnwithai/discord) de 18 a 30 de setembro de 2025. Você receberá dicas e truques sobre como usar o GitHub Copilot para Ciência de Dados.
 
-![Série Learn with AI](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.pt.jpg)
+![Learn with AI series](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.pt.jpg)
 
 # És estudante?
 
 Começa com os seguintes recursos:
 
-- [Página do Hub de Estudantes](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Nesta página, encontrarás recursos para iniciantes, pacotes para estudantes e até formas de obter um voucher gratuito para certificação. Esta é uma página que vale a pena marcar e verificar de tempos em tempos, pois trocamos o conteúdo pelo menos mensalmente.
+- [Página do Student Hub](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Nesta página, encontrarás recursos para iniciantes, pacotes para estudantes e até formas de obter um voucher gratuito para certificação. Esta é uma página que vale a pena marcar e verificar de tempos em tempos, pois trocamos o conteúdo pelo menos mensalmente.
 - [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Junta-te a uma comunidade global de embaixadores estudantis; esta pode ser a tua porta de entrada para a Microsoft.
 
 # Começando
@@ -60,9 +59,9 @@ Começa com os seguintes recursos:
 
 Escolhemos dois princípios pedagógicos ao construir este currículo: garantir que seja baseado em projetos e que inclua questionários frequentes. Ao final desta série, os estudantes terão aprendido os princípios básicos da ciência de dados, incluindo conceitos éticos, preparação de dados, diferentes formas de trabalhar com dados, visualização de dados, análise de dados, casos de uso reais de ciência de dados e muito mais.
 
-Além disso, um questionário de baixo risco antes da aula define a intenção do estudante em aprender um tópico, enquanto um segundo questionário após a aula garante maior retenção. Este currículo foi projetado para ser flexível e divertido e pode ser realizado na íntegra ou em partes. Os projetos começam pequenos e tornam-se progressivamente mais complexos ao final do ciclo de 10 semanas.
+Além disso, um questionário de baixo risco antes da aula define a intenção do estudante em aprender um tópico, enquanto um segundo questionário após a aula garante maior retenção. Este currículo foi projetado para ser flexível e divertido e pode ser realizado na íntegra ou em partes. Os projetos começam pequenos e tornam-se cada vez mais complexos ao final do ciclo de 10 semanas.
 
-> Encontra o nosso [Código de Conduta](CODE_OF_CONDUCT.md), [Contribuições](CONTRIBUTING.md), [Diretrizes de Tradução](TRANSLATIONS.md). Agradecemos o teu feedback construtivo!
+> Encontra o nosso [Código de Conduta](CODE_OF_CONDUCT.md), [Contribuição](CONTRIBUTING.md), [Diretrizes de Tradução](TRANSLATIONS.md). Agradecemos o vosso feedback construtivo!
 
 ## Cada lição inclui:
 
@@ -80,7 +79,7 @@ Além disso, um questionário de baixo risco antes da aula define a intenção d
 > **Uma nota sobre os questionários**: Todos os questionários estão contidos na pasta Quiz-App, totalizando 40 questionários de três perguntas cada. Eles estão vinculados dentro das lições, mas a aplicação de questionários pode ser executada localmente ou implantada no Azure; segue as instruções na pasta `quiz-app`. Eles estão sendo gradualmente localizados.
 
 ## Lições
-|![ Sketchnote por @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.pt.png)|
+|![Sketchnote por @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.pt.png)|
 |:---:|
 | Ciência de Dados para Iniciantes: Roteiro - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
@@ -89,9 +88,9 @@ Além disso, um questionário de baixo risco antes da aula define a intenção d
 | 01 | Definindo Ciência de Dados | [Introdução](1-Introduction/README.md) | Aprenda os conceitos básicos de ciência de dados e como ela está relacionada à inteligência artificial, aprendizagem automática e big data. | [aula](1-Introduction/01-defining-data-science/README.md) [vídeo](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
 | 02 | Ética na Ciência de Dados | [Introdução](1-Introduction/README.md) | Conceitos, desafios e frameworks de ética em dados. | [aula](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
 | 03 | Definindo Dados | [Introdução](1-Introduction/README.md) | Como os dados são classificados e suas fontes comuns. | [aula](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | Introdução à Estatística e Probabilidade | [Introdução](1-Introduction/README.md) | Técnicas matemáticas de probabilidade e estatística para compreender dados. | [aula](1-Introduction/04-stats-and-probability/README.md) [vídeo](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Trabalhando com Dados Relacionais | [Trabalhando com Dados](2-Working-With-Data/README.md) | Introdução aos dados relacionais e os fundamentos de exploração e análise de dados relacionais com a Structured Query Language, também conhecida como SQL (pronunciado "sequel"). | [aula](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
-| 06 | Trabalhando com Dados NoSQL | [Trabalhando com Dados](2-Working-With-Data/README.md) | Introdução aos dados não relacionais, seus vários tipos e os fundamentos de exploração e análise de bases de dados de documentos. | [aula](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
+| 04 | Introdução a Estatística e Probabilidade | [Introdução](1-Introduction/README.md) | Técnicas matemáticas de probabilidade e estatística para compreender dados. | [aula](1-Introduction/04-stats-and-probability/README.md) [vídeo](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 05 | Trabalhando com Dados Relacionais | [Trabalhando com Dados](2-Working-With-Data/README.md) | Introdução a dados relacionais e os fundamentos de exploração e análise de dados relacionais com a Structured Query Language, também conhecida como SQL (pronunciado "sequel"). | [aula](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 06 | Trabalhando com Dados NoSQL | [Trabalhando com Dados](2-Working-With-Data/README.md) | Introdução a dados não relacionais, seus vários tipos e os fundamentos de exploração e análise de bases de dados de documentos. | [aula](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
 | 07 | Trabalhando com Python | [Trabalhando com Dados](2-Working-With-Data/README.md) | Fundamentos do uso de Python para exploração de dados com bibliotecas como Pandas. É recomendável ter uma compreensão básica de programação em Python. | [aula](2-Working-With-Data/07-python/README.md) [vídeo](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
 | 08 | Preparação de Dados | [Trabalhando com Dados](2-Working-With-Data/README.md) | Técnicas de limpeza e transformação de dados para lidar com desafios como dados ausentes, imprecisos ou incompletos. | [aula](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 09 | Visualizando Quantidades | [Visualização de Dados](3-Data-Visualization/README.md) | Aprenda a usar Matplotlib para visualizar dados de aves 🦆 | [aula](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
@@ -121,7 +120,7 @@ Siga estes passos para abrir este repositório em um container usando sua máqui
 
 Para usar este repositório, você pode abrir o repositório em um volume isolado do Docker:
 
-**Nota**: Por trás dos panos, isso usará o comando Remote-Containers: **Clone Repository in Container Volume...** para clonar o código-fonte em um volume do Docker em vez do sistema de arquivos local. [Volumes](https://docs.docker.com/storage/volumes/) são o mecanismo preferido para persistir dados de containers.
+**Nota**: Por trás dos bastidores, isso usará o comando Remote-Containers: **Clone Repository in Container Volume...** para clonar o código-fonte em um volume do Docker em vez do sistema de arquivos local. [Volumes](https://docs.docker.com/storage/volumes/) são o mecanismo preferido para persistir dados de containers.
 
 Ou abrir uma versão clonada ou baixada localmente do repositório:
 
@@ -131,13 +130,13 @@ Ou abrir uma versão clonada ou baixada localmente do repositório:
 
 ## Acesso Offline
 
-Pode executar esta documentação offline utilizando o [Docsify](https://docsify.js.org/#/). Faça um fork deste repositório, [instale o Docsify](https://docsify.js.org/#/quickstart) na sua máquina local, e na pasta raiz deste repositório, digite `docsify serve`. O site será servido na porta 3000 no seu localhost: `localhost:3000`.
+Você pode executar esta documentação offline usando [Docsify](https://docsify.js.org/#/). Faça um fork deste repositório, [instale o Docsify](https://docsify.js.org/#/quickstart) na sua máquina local, e na pasta raiz deste repositório, digite `docsify serve`. O site será servido na porta 3000 no seu localhost: `localhost:3000`.
 
 > Nota: os notebooks não serão renderizados via Docsify, então, quando precisar executar um notebook, faça isso separadamente no VS Code executando um kernel Python.
 
 ## Outros Currículos
 
-A nossa equipa produz outros currículos! Confira:
+Nossa equipe produz outros currículos! Confira:
 
 - [Edge AI para Iniciantes](https://aka.ms/edgeai-for-beginners)
 - [Agentes de IA para Iniciantes](https://aka.ms/ai-agents-beginners)
@@ -158,6 +157,16 @@ A nossa equipa produz outros currículos! Confira:
 - [Desenvolvimento XR para Iniciantes](https://github.com/microsoft/xr-development-for-beginners)
 - [Dominando o GitHub Copilot para Desenvolvedores C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [Escolha Sua Própria Aventura com Copilot](https://github.com/microsoft/CopilotAdventures)
+
+## Obtendo Ajuda
+
+Se você ficar preso ou tiver dúvidas sobre como construir aplicativos de IA, junte-se:
+
+[![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
+
+Se você tiver feedback sobre produtos ou erros ao construir, visite:
+
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
