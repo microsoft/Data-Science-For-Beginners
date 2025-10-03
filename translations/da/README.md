@@ -1,26 +1,42 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "3beef650c5bafd70d88e2643a2b360fb",
-  "translation_date": "2025-10-03T12:28:30+00:00",
+  "original_hash": "d24976d371de57bb657d3127f4195542",
+  "translation_date": "2025-10-03T14:08:58+00:00",
   "source_file": "README.md",
   "language_code": "da"
 }
 -->
 # Data Science for Begyndere - Et Curriculum
 
-Azure Cloud Advocates hos Microsoft er glade for at tilbyde et 10-ugers, 20-lektioners curriculum om Data Science. Hver lektion inkluderer quizzer før og efter lektionen, skriftlige instruktioner til at gennemføre lektionen, en løsning og en opgave. Vores projektbaserede tilgang giver dig mulighed for at lære ved at bygge, en dokumenteret metode til at få nye færdigheder til at hænge fast.
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
+
+[![GitHub license](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
+[![GitHub stars](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
+
+[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)
+
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
+Azure Cloud Advocates hos Microsoft er glade for at tilbyde et 10-ugers, 20-lektioners curriculum om Data Science. Hver lektion inkluderer quizzer før og efter lektionen, skriftlige instruktioner til at gennemføre lektionen, en løsning og en opgave. Vores projektbaserede tilgang giver dig mulighed for at lære, mens du bygger, en dokumenteret metode til at få nye færdigheder til at hænge ved.
 
 **Stor tak til vores forfattere:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
-**🙏 Speciel tak 🙏 til vores [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) forfattere, anmeldere og indholdsbidragydere,** herunder Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
-[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar, [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
+**🙏 Særlig tak 🙏 til vores [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) forfattere, anmeldere og indholdsbidragydere,** især Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
-|![Sketchnote af @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.da.png)|
+|![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.da.png)|
 |:---:|
-| Data Science For Begyndere - _Sketchnote af [@nitya](https://twitter.com/nitya)_ |
+| Data Science For Beginners - _Sketchnote af [@nitya](https://twitter.com/nitya)_ |
 
-### 🌐 Flersproget Support
+### 🌐 Multisproget Support
 
 #### Understøttet via GitHub Action (Automatisk & Altid Opdateret)
 
@@ -42,13 +58,29 @@ Kom i gang med følgende ressourcer:
 - [Student Hub side](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) På denne side finder du ressourcer for begyndere, studentpakker og endda måder at få en gratis certifikatvoucher. Dette er en side, du bør bogmærke og tjekke fra tid til anden, da vi skifter indhold mindst månedligt.
 - [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Bliv en del af et globalt fællesskab af studentambassadører; dette kunne være din vej ind i Microsoft.
 
-# Kom godt i gang
+# Kom i gang
 
-> **Helt nybegyndere**: Ny inden for data science? Start med vores [begynder-venlige eksempler](examples/README.md)! Disse simple, velkommenterede eksempler vil hjælpe dig med at forstå det grundlæggende, før du dykker ned i det fulde curriculum.
+## 📚 Dokumentation
 
-> **Lærere**: Vi har [inkluderet nogle forslag](for-teachers.md) til, hvordan man kan bruge dette curriculum. Vi vil meget gerne høre din feedback [i vores diskussionsforum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
+- **[Installationsguide](INSTALLATION.md)** - Trin-for-trin opsætningsinstruktioner for begyndere
+- **[Brugervejledning](USAGE.md)** - Eksempler og almindelige arbejdsgange
+- **[Fejlfinding](TROUBLESHOOTING.md)** - Løsninger på almindelige problemer
+- **[Bidragsvejledning](CONTRIBUTING.md)** - Sådan bidrager du til dette projekt
+- **[For lærere](for-teachers.md)** - Vejledning til undervisning og klasselokaleressourcer
 
+## 👨‍🎓 For Studerende
+> **Helt nye**: Ny inden for data science? Start med vores [begynder-venlige eksempler](examples/README.md)! Disse simple, velkommenterede eksempler vil hjælpe dig med at forstå det grundlæggende, før du dykker ned i det fulde curriculum.
 > **[Studerende](https://aka.ms/student-page)**: For at bruge dette curriculum på egen hånd, fork hele repoen og gennemfør øvelserne selv, startende med en quiz før lektionen. Læs derefter lektionen og fuldfør resten af aktiviteterne. Prøv at skabe projekterne ved at forstå lektionerne i stedet for at kopiere løsningskoden; dog er denne kode tilgængelig i /solutions-mapperne i hver projektorienteret lektion. En anden idé kunne være at danne en studiegruppe med venner og gennemgå indholdet sammen. For yderligere studier anbefaler vi [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+
+**Hurtig Start:**
+1. Tjek [Installationsguiden](INSTALLATION.md) for at opsætte dit miljø
+2. Gennemgå [Brugervejledningen](USAGE.md) for at lære, hvordan du arbejder med curriculumet
+3. Start med Lektion 1 og arbejd dig igennem i rækkefølge
+4. Deltag i vores [Discord-fællesskab](https://aka.ms/ds4beginners/discord) for support
+
+## 👩‍🏫 For Lærere
+
+> **Lærere**: Vi har [inkluderet nogle forslag](for-teachers.md) til, hvordan man bruger dette curriculum. Vi vil meget gerne høre din feedback [i vores diskussionsforum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
 ## Mød Teamet
 
@@ -60,34 +92,34 @@ Kom i gang med følgende ressourcer:
 
 ## Pædagogik
 
-Vi har valgt to pædagogiske principper, mens vi byggede dette curriculum: at sikre, at det er projektbaseret, og at det inkluderer hyppige quizzer. Ved slutningen af denne serie vil studerende have lært grundlæggende principper for data science, herunder etiske begreber, dataklargøring, forskellige måder at arbejde med data, datavisualisering, dataanalyse, virkelige anvendelser af data science og mere.
+Vi har valgt to pædagogiske principper, mens vi byggede dette curriculum: at sikre, at det er projektbaseret, og at det inkluderer hyppige quizzer. Ved slutningen af denne serie vil studerende have lært grundlæggende principper for data science, herunder etiske begreber, dataklargøring, forskellige måder at arbejde med data på, datavisualisering, dataanalyse, virkelige anvendelser af data science og meget mere.
+Derudover kan en lav-risiko quiz før en lektion hjælpe med at fokusere elevens intention mod at lære et emne, mens en anden quiz efter lektionen sikrer yderligere fastholdelse. Dette pensum er designet til at være fleksibelt og sjovt og kan gennemføres helt eller delvist. Projekterne starter små og bliver gradvist mere komplekse i løbet af den 10-ugers cyklus.
 
-Derudover sætter en lav-stress quiz før en klasse intentionen hos den studerende mod at lære et emne, mens en anden quiz efter klassen sikrer yderligere fastholdelse. Dette curriculum er designet til at være fleksibelt og sjovt og kan tages i sin helhed eller delvist. Projekterne starter små og bliver gradvist mere komplekse ved slutningen af den 10-ugers cyklus.
-
-> Find vores [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), [Translation](TRANSLATIONS.md) retningslinjer. Vi byder din konstruktive feedback velkommen!
+> Find vores [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), [Translation](TRANSLATIONS.md) retningslinjer. Vi modtager gerne din konstruktive feedback!
 
 ## Hver lektion inkluderer:
 
 - Valgfri sketchnote
 - Valgfri supplerende video
-- Quiz til opvarmning før lektionen
+- Opvarmningsquiz før lektionen
 - Skriftlig lektion
-- For projektbaserede lektioner, trin-for-trin vejledninger om, hvordan man bygger projektet
-- Videnschecks
+- For projektbaserede lektioner, trin-for-trin vejledninger til at bygge projektet
+- Videnskontroller
 - En udfordring
 - Supplerende læsning
 - Opgave
 - [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/)
+
 > **En note om quizzer**: Alle quizzer findes i Quiz-App-mappen, med i alt 40 quizzer, hver med tre spørgsmål. De er linket fra lektionerne, men quiz-appen kan køres lokalt eller implementeres på Azure; følg instruktionerne i `quiz-app`-mappen. De bliver gradvist lokaliseret.
 
-## 🎓 Begyndervenlige Eksempler
+## 🎓 Begyndervenlige eksempler
 
 **Ny inden for Data Science?** Vi har oprettet en speciel [eksempelmappe](examples/README.md) med enkel, velkommenteret kode for at hjælpe dig i gang:
 
 - 🌟 **Hello World** - Dit første data science-program
-- 📂 **Indlæsning af Data** - Lær at læse og udforske datasæt
-- 📊 **Enkel Analyse** - Beregn statistikker og find mønstre
-- 📈 **Grundlæggende Visualisering** - Lav diagrammer og grafer
+- 📂 **Indlæsning af data** - Lær at læse og udforske datasæt
+- 📊 **Enkel analyse** - Beregn statistikker og find mønstre
+- 📈 **Grundlæggende visualisering** - Lav diagrammer og grafer
 - 🔬 **Projekt fra den virkelige verden** - Komplet arbejdsgang fra start til slut
 
 Hvert eksempel indeholder detaljerede kommentarer, der forklarer hvert trin, hvilket gør det perfekt for absolutte begyndere!
@@ -102,10 +134,10 @@ Hvert eksempel indeholder detaljerede kommentarer, der forklarer hvert trin, hvi
 
 | Lektion Nummer | Emne | Lektion Gruppe | Læringsmål | Linket Lektion | Forfatter |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | Definition af Data Science | [Introduktion](1-Introduction/README.md) | Lær de grundlæggende begreber bag data science og hvordan det relaterer til kunstig intelligens, maskinlæring og big data. | [lektion](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 01 | Definere Data Science | [Introduktion](1-Introduction/README.md) | Lær de grundlæggende begreber bag data science og hvordan det relaterer til kunstig intelligens, maskinlæring og big data. | [lektion](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
 | 02 | Data Science Etik | [Introduktion](1-Introduction/README.md) | Begreber, udfordringer og rammer inden for dataetik. | [lektion](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
-| 03 | Definition af Data | [Introduktion](1-Introduction/README.md) | Hvordan data klassificeres og dens almindelige kilder. | [lektion](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | Introduktion til Statistik & Sandsynlighed | [Introduktion](1-Introduction/README.md) | Matematiske teknikker inden for sandsynlighed og statistik for at forstå data. | [lektion](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 03 | Definere Data | [Introduktion](1-Introduction/README.md) | Hvordan data klassificeres og dets almindelige kilder. | [lektion](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 04 | Introduktion til Statistik & Sandsynlighed | [Introduktion](1-Introduction/README.md) | Matematiske teknikker inden for sandsynlighed og statistik til at forstå data. | [lektion](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
 | 05 | Arbejde med Relationelle Data | [Arbejde med Data](2-Working-With-Data/README.md) | Introduktion til relationelle data og grundlæggende udforskning og analyse af relationelle data med Structured Query Language, også kendt som SQL (udtales “see-quell”). | [lektion](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
 | 06 | Arbejde med NoSQL Data | [Arbejde med Data](2-Working-With-Data/README.md) | Introduktion til ikke-relationelle data, deres forskellige typer og grundlæggende udforskning og analyse af dokumentdatabaser. | [lektion](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
 | 07 | Arbejde med Python | [Arbejde med Data](2-Working-With-Data/README.md) | Grundlæggende brug af Python til dataudforskning med biblioteker som Pandas. Grundlæggende forståelse af Python-programmering anbefales. | [lektion](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
@@ -121,19 +153,19 @@ Hvert eksempel indeholder detaljerede kommentarer, der forklarer hvert trin, hvi
 | 17 | Data Science i Skyen | [Sky Data](5-Data-Science-In-Cloud/README.md) | Denne serie af lektioner introducerer data science i skyen og dens fordele. | [lektion](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) og [Maud](https://twitter.com/maudstweets) |
 | 18 | Data Science i Skyen | [Sky Data](5-Data-Science-In-Cloud/README.md) | Træning af modeller ved hjælp af Low Code-værktøjer. |[lektion](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) og [Maud](https://twitter.com/maudstweets) |
 | 19 | Data Science i Skyen | [Sky Data](5-Data-Science-In-Cloud/README.md) | Implementering af modeller med Azure Machine Learning Studio. | [lektion](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) og [Maud](https://twitter.com/maudstweets) |
-| 20 | Data Science i den Virkelige Verden | [I den Virkelige Verden](6-Data-Science-In-Wild/README.md) | Data science-drevne projekter i den virkelige verden. | [lektion](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| 20 | Data Science i Den Virkelige Verden | [I Den Virkelige Verden](6-Data-Science-In-Wild/README.md) | Data science-drevne projekter i den virkelige verden. | [lektion](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
 Følg disse trin for at åbne dette eksempel i en Codespace:
-1. Klik på Code-dropdown-menuen og vælg Open with Codespaces-optionen.
+1. Klik på Code-drop-down-menuen og vælg Open with Codespaces.
 2. Vælg + New codespace nederst i panelet.
 For mere info, se [GitHub-dokumentationen](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
 Følg disse trin for at åbne dette repo i en container ved hjælp af din lokale maskine og VSCode med VS Code Remote - Containers-udvidelsen:
 
-1. Hvis det er første gang, du bruger en udviklingscontainer, skal du sikre dig, at dit system opfylder forudsætningerne (f.eks. have Docker installeret) i [dokumentationen for at komme i gang](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. Hvis det er første gang, du bruger en udviklingscontainer, skal du sikre dig, at dit system opfylder forudsætningerne (f.eks. have Docker installeret) i [kom godt i gang-dokumentationen](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
 For at bruge dette repository kan du enten åbne det i et isoleret Docker-volumen:
 
@@ -147,13 +179,13 @@ Eller åbne en lokalt klonet eller downloadet version af repositoryet:
 
 ## Offline adgang
 
-Du kan køre denne dokumentation offline ved hjælp af [Docsify](https://docsify.js.org/#/). Fork dette repo, [installer Docsify](https://docsify.js.org/#/quickstart) på din lokale maskine, og skriv derefter `docsify serve` i rodmappen af dette repo. Hjemmesiden vil blive serveret på port 3000 på din localhost: `localhost:3000`.
+Du kan køre denne dokumentation offline ved hjælp af [Docsify](https://docsify.js.org/#/). Fork dette repo, [installer Docsify](https://docsify.js.org/#/quickstart) på din lokale maskine, og skriv derefter `docsify serve` i rodmappen af dette repo. Websiden vil blive serveret på port 3000 på din localhost: `localhost:3000`.
 
 > Bemærk, notebooks vil ikke blive gengivet via Docsify, så når du skal køre en notebook, skal du gøre det separat i VS Code med en Python-kernel.
 
-## Andre Læseplaner
+## Andre pensum
 
-Vores team producerer andre læseplaner! Tjek:
+Vores team producerer andre pensum! Tjek:
 
 - [Edge AI for Beginners](https://aka.ms/edgeai-for-beginners)
 - [AI Agents for Beginners](https://aka.ms/ai-agents-beginners)
@@ -170,18 +202,21 @@ Vores team producerer andre læseplaner! Tjek:
 - [IoT for Beginners](https://aka.ms/iot-beginners)
 - [Machine Learning for Beginners](https://aka.ms/ml-beginners)
 - [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)
-- [Mastering GitHub Copilot for AI Paired Programming](https://aka.ms/GitHubCopilotAI)
-- [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners)
-- [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
-- [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)
+- [Mestre GitHub Copilot til AI-parprogrammering](https://aka.ms/GitHubCopilotAI)
+- [XR-udvikling for begyndere](https://github.com/microsoft/xr-development-for-beginners)
+- [Mestre GitHub Copilot til C#/.NET-udviklere](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
+- [Vælg dit eget Copilot-eventyr](https://github.com/microsoft/CopilotAdventures)
 
-## Få Hjælp
+## Få hjælp
 
-Hvis du sidder fast eller har spørgsmål om at bygge AI-apps, så deltag:
+**Støder du på problemer?** Tjek vores [Fejlfindingsguide](TROUBLESHOOTING.md) for løsninger på almindelige problemer.
+
+Hvis du sidder fast eller har spørgsmål om at bygge AI-apps, kan du deltage i:
 
 [![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
 
-Hvis du har produktfeedback eller fejl under opbygning, besøg:
+Hvis du har produktfeedback eller oplever fejl under udviklingen, besøg:
+
 [![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
