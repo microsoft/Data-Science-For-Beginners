@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "dd9a1deb4da680b2cf11ba2e9f5a0a6e",
-  "translation_date": "2025-09-29T22:04:14+00:00",
+  "original_hash": "53f99070cdd86f228ee65685e3104dec",
+  "translation_date": "2025-10-03T10:41:38+00:00",
   "source_file": "README.md",
   "language_code": "sw"
 }
 -->
-# Sayansi ya Takwimu kwa Kompyuta - Mtaala
+# Sayansi ya Takwimu kwa Anziani - Mtaala
 
-Azure Cloud Advocates wa Microsoft wanakuletea mtaala wa wiki 10, masomo 20 kuhusu Sayansi ya Takwimu. Kila somo linajumuisha maswali ya awali na ya baada ya somo, maelekezo ya maandishi ya kukamilisha somo, suluhisho, na kazi ya nyumbani. Njia yetu ya kujifunza kwa miradi inakuruhusu kujifunza huku ukijenga, njia iliyothibitishwa ya kuhakikisha ujuzi mpya unakaa.
+Azure Cloud Advocates katika Microsoft wanakuletea mtaala wa wiki 10, masomo 20 kuhusu Sayansi ya Takwimu. Kila somo linajumuisha maswali ya awali na ya baada ya somo, maelekezo ya maandishi ya kukamilisha somo, suluhisho, na kazi ya nyumbani. Mbinu yetu ya kujifunza kwa miradi inakuruhusu kujifunza huku ukijenga, njia iliyothibitishwa ya kuhakikisha ujuzi mpya unakaa.
 
 **Shukrani za dhati kwa waandishi wetu:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
@@ -18,11 +18,11 @@ Azure Cloud Advocates wa Microsoft wanakuletea mtaala wa wiki 10, masomo 20 kuhu
 
 |![Sketchnote na @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.sw.png)|
 |:---:|
-| Sayansi ya Takwimu kwa Kompyuta - _Sketchnote na [@nitya](https://twitter.com/nitya)_ |
+| Sayansi ya Takwimu kwa Anziani - _Sketchnote na [@nitya](https://twitter.com/nitya)_ |
 
 ### 🌐 Msaada wa Lugha Nyingi
 
-#### Inasaidiwa kupitia GitHub Action (Imefanywa Kiotomatiki & Daima Imeboreshwa)
+#### Inasaidiwa kupitia GitHub Action (Imewezeshwa Kiotomatiki & Daima Imeboreshwa)
 
 [French](../fr/README.md) | [Spanish](../es/README.md) | [German](../de/README.md) | [Russian](../ru/README.md) | [Arabic](../ar/README.md) | [Persian (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Japanese](../ja/README.md) | [Korean](../ko/README.md) | [Hindi](../hi/README.md) | [Bengali](../bn/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Portuguese (Brazil)](../br/README.md) | [Italian](../it/README.md) | [Polish](../pl/README.md) | [Turkish](../tr/README.md) | [Greek](../el/README.md) | [Thai](../th/README.md) | [Swedish](../sv/README.md) | [Danish](../da/README.md) | [Norwegian](../no/README.md) | [Finnish](../fi/README.md) | [Dutch](../nl/README.md) | [Hebrew](../he/README.md) | [Vietnamese](../vi/README.md) | [Indonesian](../id/README.md) | [Malay](../ms/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Swahili](./README.md) | [Hungarian](../hu/README.md) | [Czech](../cs/README.md) | [Slovak](../sk/README.md) | [Romanian](../ro/README.md) | [Bulgarian](../bg/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Croatian](../hr/README.md) | [Slovenian](../sl/README.md) | [Ukrainian](../uk/README.md) | [Burmese (Myanmar)](../my/README.md)
 
@@ -56,13 +56,13 @@ Anza na rasilimali zifuatazo:
 
 > 🎥 Bofya picha hapo juu kwa video kuhusu mradi na watu waliouunda!
 
-## Pedagogia
+## Mbinu ya Kufundisha
 
-Tumetumia kanuni mbili za pedagogia wakati wa kuunda mtaala huu: kuhakikisha kuwa ni wa msingi wa miradi na kwamba unajumuisha maswali ya mara kwa mara. Mwisho wa mfululizo huu, wanafunzi watakuwa wamejifunza kanuni za msingi za sayansi ya takwimu, ikiwa ni pamoja na dhana za kimaadili, maandalizi ya takwimu, njia tofauti za kufanya kazi na takwimu, uonyeshaji wa takwimu, uchambuzi wa takwimu, matumizi halisi ya sayansi ya takwimu, na zaidi.
+Tumetumia kanuni mbili za kufundisha wakati wa kuunda mtaala huu: kuhakikisha kuwa ni wa msingi wa miradi na kwamba unajumuisha maswali ya mara kwa mara. Mwisho wa mfululizo huu, wanafunzi watakuwa wamejifunza kanuni za msingi za sayansi ya takwimu, ikiwa ni pamoja na dhana za kimaadili, maandalizi ya takwimu, njia tofauti za kufanya kazi na takwimu, uwasilishaji wa takwimu, uchambuzi wa takwimu, matumizi halisi ya sayansi ya takwimu, na zaidi.
 
-Zaidi ya hayo, jaribio la awali la somo lenye shinikizo ndogo huweka nia ya mwanafunzi kuelekea kujifunza mada, wakati jaribio la pili baada ya somo linahakikisha uhifadhi zaidi. Mtaala huu uliundwa kuwa rahisi na wa kufurahisha na unaweza kuchukuliwa kwa ukamilifu au kwa sehemu. Miradi huanza kwa ndogo na kuwa ngumu zaidi mwishoni mwa mzunguko wa wiki 10.
+Aidha, jaribio la awali la somo lenye shinikizo la chini linaweka nia ya mwanafunzi kuelekea kujifunza mada, wakati jaribio la pili baada ya somo linahakikisha uhifadhi zaidi. Mtaala huu uliundwa kuwa rahisi na wa kufurahisha na unaweza kuchukuliwa kwa ukamilifu au kwa sehemu. Miradi huanza kwa ndogo na kuwa ngumu zaidi mwishoni mwa mzunguko wa wiki 10.
 
-> Pata [Kanuni za Maadili](CODE_OF_CONDUCT.md), [Mchango](CONTRIBUTING.md), [Miongozo ya Tafsiri](TRANSLATIONS.md). Tunakaribisha maoni yako ya kujenga!
+> Pata [Kanuni za Maadili](CODE_OF_CONDUCT.md), [Mchango](CONTRIBUTING.md), [Mwongozo wa Tafsiri](TRANSLATIONS.md). Tunakaribisha maoni yako ya kujenga!
 
 ## Kila somo linajumuisha:
 
@@ -70,7 +70,7 @@ Zaidi ya hayo, jaribio la awali la somo lenye shinikizo ndogo huweka nia ya mwan
 - Video ya ziada ya hiari
 - Jaribio la awali la somo
 - Somo la maandishi
-- Kwa masomo ya msingi wa miradi, mwongozo wa hatua kwa hatua wa jinsi ya kujenga mradi
+- Kwa masomo yanayohusiana na miradi, mwongozo wa hatua kwa hatua wa jinsi ya kujenga mradi
 - Ukaguzi wa maarifa
 - Changamoto
 - Usomaji wa ziada
@@ -93,15 +93,15 @@ Zaidi ya hayo, jaribio la awali la somo lenye shinikizo ndogo huweka nia ya mwan
 | 05 | Kufanya Kazi na Data ya Mahusiano | [Kufanya Kazi na Data](2-Working-With-Data/README.md) | Utangulizi wa data ya mahusiano na misingi ya kuchunguza na kuchambua data ya mahusiano kwa kutumia Lugha ya Muundo wa Maswali, inayojulikana kama SQL (inayosemwa "see-quell"). | [somo](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
 | 06 | Kufanya Kazi na Data ya NoSQL | [Kufanya Kazi na Data](2-Working-With-Data/README.md) | Utangulizi wa data isiyo ya mahusiano, aina zake mbalimbali na misingi ya kuchunguza na kuchambua hifadhidata za hati. | [somo](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
 | 07 | Kufanya Kazi na Python | [Kufanya Kazi na Data](2-Working-With-Data/README.md) | Misingi ya kutumia Python kwa uchunguzi wa data kwa kutumia maktaba kama Pandas. Uelewa wa msingi wa programu ya Python unapendekezwa. | [somo](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | Maandalizi ya Data | [Kufanya Kazi na Data](2-Working-With-Data/README.md) | Mada kuhusu mbinu za data za kusafisha na kubadilisha data ili kushughulikia changamoto za data iliyokosekana, isiyo sahihi, au isiyo kamili. | [somo](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 08 | Maandalizi ya Data | [Kufanya Kazi na Data](2-Working-With-Data/README.md) | Mada kuhusu mbinu za data za kusafisha na kubadilisha data ili kushughulikia changamoto za data iliyopotea, isiyo sahihi, au isiyo kamili. | [somo](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 09 | Kuonyesha Kiasi | [Uonyeshaji wa Data](3-Data-Visualization/README.md) | Jifunze jinsi ya kutumia Matplotlib kuonyesha data ya ndege 🦆 | [somo](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 10 | Kuonyesha Usambazaji wa Data | [Uonyeshaji wa Data](3-Data-Visualization/README.md) | Kuonyesha uchunguzi na mitindo ndani ya muda maalum. | [somo](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 11 | Kuonyesha Uwiano | [Uonyeshaji wa Data](3-Data-Visualization/README.md) | Kuonyesha asilimia za makundi na za pekee. | [somo](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 12 | Kuonyesha Mahusiano | [Uonyeshaji wa Data](3-Data-Visualization/README.md) | Kuonyesha uhusiano na ulinganifu kati ya seti za data na vigezo vyake. | [somo](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 13 | Uonyeshaji wa Maana | [Uonyeshaji wa Data](3-Data-Visualization/README.md) | Mbinu na mwongozo wa kufanya uonyeshaji wako kuwa wa thamani kwa utatuzi wa matatizo na ufahamu wa kina. | [somo](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 14 | Utangulizi wa Mzunguko wa Sayansi ya Takwimu | [Mzunguko](4-Data-Science-Lifecycle/README.md) | Utangulizi wa mzunguko wa sayansi ya takwimu na hatua yake ya kwanza ya kupata na kutoa data. | [somo](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | Kuchambua | [Mzunguko](4-Data-Science-Lifecycle/README.md) | Awamu hii ya mzunguko wa sayansi ya takwimu inazingatia mbinu za kuchambua data. | [somo](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Mawasiliano | [Mzunguko](4-Data-Science-Lifecycle/README.md) | Awamu hii ya mzunguko wa sayansi ya takwimu inazingatia kuwasilisha ufahamu kutoka kwa data kwa njia inayorahisisha maamuzi kwa watendaji. | [somo](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 14 | Utangulizi wa Mzunguko wa Sayansi ya Takwimu | [Mzunguko wa Maisha](4-Data-Science-Lifecycle/README.md) | Utangulizi wa mzunguko wa maisha wa sayansi ya takwimu na hatua yake ya kwanza ya kupata na kutoa data. | [somo](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
+| 15 | Kuchambua | [Mzunguko wa Maisha](4-Data-Science-Lifecycle/README.md) | Awamu hii ya mzunguko wa maisha wa sayansi ya takwimu inazingatia mbinu za kuchambua data. | [somo](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | Mawasiliano | [Mzunguko wa Maisha](4-Data-Science-Lifecycle/README.md) | Awamu hii ya mzunguko wa maisha wa sayansi ya takwimu inazingatia kuwasilisha ufahamu kutoka kwa data kwa njia inayorahisisha maamuzi kwa watendaji. | [somo](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
 | 17 | Sayansi ya Takwimu katika Wingu | [Data ya Wingu](5-Data-Science-In-Cloud/README.md) | Mfululizo huu wa masomo unatoa utangulizi wa sayansi ya takwimu katika wingu na faida zake. | [somo](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) na [Maud](https://twitter.com/maudstweets) |
 | 18 | Sayansi ya Takwimu katika Wingu | [Data ya Wingu](5-Data-Science-In-Cloud/README.md) | Kufundisha mifano kwa kutumia zana za Low Code. |[somo](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) na [Maud](https://twitter.com/maudstweets) |
 | 19 | Sayansi ya Takwimu katika Wingu | [Data ya Wingu](5-Data-Science-In-Cloud/README.md) | Kuweka mifano kwa kutumia Azure Machine Learning Studio. | [somo](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) na [Maud](https://twitter.com/maudstweets) |
@@ -112,16 +112,16 @@ Zaidi ya hayo, jaribio la awali la somo lenye shinikizo ndogo huweka nia ya mwan
 Fuata hatua hizi kufungua sampuli hii katika Codespace:
 1. Bonyeza menyu ya kushuka ya Code na uchague chaguo la Open with Codespaces.
 2. Chagua + New codespace chini ya paneli.
-Kwa maelezo zaidi, angalia [GitHub documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
+Kwa maelezo zaidi, angalia [maelezo ya GitHub](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
-Fuata hatua hizi kufungua repo hii katika kontena kwa kutumia mashine yako ya ndani na VSCode kwa kutumia kiendelezi cha VS Code Remote - Containers:
+Fuata hatua hizi kufungua repo hii katika kontena ukitumia mashine yako ya ndani na VSCode kwa kutumia kiendelezi cha VS Code Remote - Containers:
 
-1. Ikiwa ni mara yako ya kwanza kutumia kontena la maendeleo, tafadhali hakikisha mfumo wako unakidhi mahitaji ya awali (yaani, kuwa na Docker iliyosakinishwa) katika [nyaraka za kuanza](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. Ikiwa ni mara yako ya kwanza kutumia kontena la maendeleo, tafadhali hakikisha mfumo wako unakidhi mahitaji ya awali (yaani, kuwa na Docker iliyosakinishwa) katika [maelezo ya kuanza](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
-Ili kutumia repo hii, unaweza kufungua repo katika ujazo wa Docker uliojitenga:
+Ili kutumia repo hii, unaweza kufungua repo katika hifadhi ya Docker iliyotengwa:
 
-**Kumbuka**: Chini ya pazia, hii itatumia Remote-Containers: **Clone Repository in Container Volume...** amri ya kunakili msimbo wa chanzo katika ujazo wa Docker badala ya mfumo wa faili wa ndani. [Volumes](https://docs.docker.com/storage/volumes/) ni njia inayopendekezwa ya kuhifadhi data ya kontena.
+**Kumbuka**: Chini ya pazia, hii itatumia Remote-Containers: **Clone Repository in Container Volume...** amri ya kunakili msimbo wa chanzo katika hifadhi ya Docker badala ya mfumo wa faili wa ndani. [Hifadhi](https://docs.docker.com/storage/volumes/) ni njia inayopendekezwa ya kuhifadhi data ya kontena.
 
 Au fungua nakala iliyopakuliwa au iliyoklonwa ya repo:
 
@@ -133,7 +133,7 @@ Au fungua nakala iliyopakuliwa au iliyoklonwa ya repo:
 
 Unaweza kuendesha nyaraka hizi nje ya mtandao kwa kutumia [Docsify](https://docsify.js.org/#/). Nakili repo hii, [sakinisha Docsify](https://docsify.js.org/#/quickstart) kwenye mashine yako ya ndani, kisha katika folda ya mizizi ya repo hii, andika `docsify serve`. Tovuti itahudumiwa kwenye bandari 3000 kwenye localhost yako: `localhost:3000`.
 
-> Kumbuka, daftari hazitaonyeshwa kupitia Docsify, kwa hivyo unapotaka kuendesha daftari, fanya hivyo kando katika VS Code ukiendesha kernel ya Python.
+> Kumbuka, daftari hazitaonyeshwa kupitia Docsify, kwa hivyo unapotaka kuendesha daftari, fanya hivyo kando katika VS Code ukitumia kernel ya Python.
 
 ## Mitaala Mingine
 
@@ -159,7 +159,17 @@ Timu yetu inazalisha mitaala mingine! Angalia:
 - [Kumiliki GitHub Copilot kwa Waendelezaji wa C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [Chagua Safari Yako ya Copilot](https://github.com/microsoft/CopilotAdventures)
 
+## Kupata Msaada
+
+Ikiwa utakwama au una maswali kuhusu kujenga programu za AI, jiunge:
+
+[![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
+
+Ikiwa una maoni ya bidhaa au makosa wakati wa kujenga tembelea:
+
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
 ---
 
 **Kanusho**:  
-Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kwa usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

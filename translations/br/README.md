@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "dd9a1deb4da680b2cf11ba2e9f5a0a6e",
-  "translation_date": "2025-09-29T21:46:44+00:00",
+  "original_hash": "53f99070cdd86f228ee65685e3104dec",
+  "translation_date": "2025-10-03T10:22:30+00:00",
   "source_file": "README.md",
   "language_code": "br"
 }
@@ -31,7 +31,7 @@ Azure Cloud Advocates na Microsoft têm o prazer de oferecer um currículo de 10
 #### Junte-se à Nossa Comunidade 
 [![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://aka.ms/ds4beginners/discord)
 
-Temos uma série de aprendizado com IA em andamento no Discord. Saiba mais e junte-se a nós no [Learn with AI Series](https://aka.ms/learnwithai/discord) de 18 a 30 de setembro de 2025. Você receberá dicas e truques sobre como usar o GitHub Copilot para Ciência de Dados.
+Temos uma série de aprendizado com IA em andamento no Discord. Saiba mais e junte-se a nós em [Learn with AI Series](https://aka.ms/learnwithai/discord) de 18 a 30 de setembro de 2025. Você receberá dicas e truques sobre como usar o GitHub Copilot para Ciência de Dados.
 
 ![Learn with AI series](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.br.jpg)
 
@@ -58,7 +58,7 @@ Comece com os seguintes recursos:
 
 ## Pedagogia
 
-Escolhemos dois princípios pedagógicos ao construir este currículo: garantir que ele seja baseado em projetos e que inclua questionários frequentes. Ao final desta série, os estudantes terão aprendido os princípios básicos da ciência de dados, incluindo conceitos éticos, preparação de dados, diferentes formas de trabalhar com dados, visualização de dados, análise de dados, casos de uso reais de ciência de dados e muito mais.
+Escolhemos dois princípios pedagógicos ao construir este currículo: garantir que seja baseado em projetos e que inclua questionários frequentes. Ao final desta série, os estudantes terão aprendido os princípios básicos da ciência de dados, incluindo conceitos éticos, preparação de dados, diferentes formas de trabalhar com dados, visualização de dados, análise de dados, casos de uso reais de ciência de dados e muito mais.
 
 Além disso, um questionário de baixa pressão antes da aula define a intenção do estudante em aprender um tópico, enquanto um segundo questionário após a aula garante maior retenção. Este currículo foi projetado para ser flexível e divertido e pode ser realizado em sua totalidade ou em partes. Os projetos começam pequenos e se tornam cada vez mais complexos ao final do ciclo de 10 semanas.
 
@@ -90,7 +90,7 @@ Além disso, um questionário de baixa pressão antes da aula define a intençã
 | 02 | Ética na Ciência de Dados | [Introdução](1-Introduction/README.md) | Conceitos, desafios e frameworks de ética em dados. | [aula](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
 | 03 | Definindo Dados | [Introdução](1-Introduction/README.md) | Como os dados são classificados e suas fontes comuns. | [aula](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 04 | Introdução à Estatística e Probabilidade | [Introdução](1-Introduction/README.md) | Técnicas matemáticas de probabilidade e estatística para entender os dados. | [aula](1-Introduction/04-stats-and-probability/README.md) [vídeo](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Trabalhando com Dados Relacionais | [Trabalhando com Dados](2-Working-With-Data/README.md) | Introdução aos dados relacionais e os fundamentos de exploração e análise de dados relacionais com a Linguagem de Consulta Estruturada, também conhecida como SQL (pronunciado "sequel"). | [aula](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 05 | Trabalhando com Dados Relacionais | [Trabalhando com Dados](2-Working-With-Data/README.md) | Introdução aos dados relacionais e os fundamentos de exploração e análise de dados relacionais com a Structured Query Language, também conhecida como SQL (pronunciado "sequel"). | [aula](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
 | 06 | Trabalhando com Dados NoSQL | [Trabalhando com Dados](2-Working-With-Data/README.md) | Introdução aos dados não relacionais, seus vários tipos e os fundamentos de exploração e análise de bancos de dados de documentos. | [aula](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
 | 07 | Trabalhando com Python | [Trabalhando com Dados](2-Working-With-Data/README.md) | Fundamentos do uso de Python para exploração de dados com bibliotecas como Pandas. É recomendável ter uma compreensão básica de programação em Python. | [aula](2-Working-With-Data/07-python/README.md) [vídeo](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
 | 08 | Preparação de Dados | [Trabalhando com Dados](2-Working-With-Data/README.md) | Técnicas de limpeza e transformação de dados para lidar com desafios como dados ausentes, imprecisos ou incompletos. | [aula](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
@@ -125,13 +125,13 @@ Para usar este repositório, você pode abrir o repositório em um volume isolad
 
 Ou abrir uma versão clonada ou baixada localmente do repositório:
 
-- Clone este repositório para o sistema de arquivos local.
+- Clone este repositório para seu sistema de arquivos local.
 - Pressione F1 e selecione o comando **Remote-Containers: Open Folder in Container...**.
 - Selecione a cópia clonada desta pasta, aguarde o contêiner iniciar e experimente.
 
 ## Acesso Offline
 
-Você pode executar esta documentação offline usando [Docsify](https://docsify.js.org/#/). Faça um fork deste repositório, [instale o Docsify](https://docsify.js.org/#/quickstart) em sua máquina local, e na pasta raiz deste repositório, digite `docsify serve`. O site será servido na porta 3000 do seu localhost: `localhost:3000`.
+Você pode executar esta documentação offline usando o [Docsify](https://docsify.js.org/#/). Faça um fork deste repositório, [instale o Docsify](https://docsify.js.org/#/quickstart) em sua máquina local, e na pasta raiz deste repositório, digite `docsify serve`. O site será servido na porta 3000 em seu localhost: `localhost:3000`.
 
 > Nota: os notebooks não serão renderizados via Docsify, então, quando precisar executar um notebook, faça isso separadamente no VS Code executando um kernel Python.
 
@@ -159,7 +159,17 @@ Nossa equipe produz outros currículos! Confira:
 - [Dominando o GitHub Copilot para Desenvolvedores C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [Escolha Sua Própria Aventura com Copilot](https://github.com/microsoft/CopilotAdventures)
 
+## Obtendo Ajuda
+
+Se você ficar preso ou tiver dúvidas sobre como construir aplicativos de IA, junte-se a:
+
+[![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
+
+Se você tiver feedback sobre produtos ou erros ao construir, visite:
+
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
 ---
 
 **Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte oficial. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações equivocadas decorrentes do uso desta tradução.
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automatizadas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte oficial. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações equivocadas decorrentes do uso desta tradução.
