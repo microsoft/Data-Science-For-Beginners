@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "dd9a1deb4da680b2cf11ba2e9f5a0a6e",
-  "translation_date": "2025-09-29T21:57:47+00:00",
+  "original_hash": "53f99070cdd86f228ee65685e3104dec",
+  "translation_date": "2025-10-03T10:34:29+00:00",
   "source_file": "README.md",
   "language_code": "nl"
 }
@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
 [![PRs Welkom](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
+[![GitHub volgers](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
 [![GitHub sterren](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
 
@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-Azure Cloud Advocates bij Microsoft bieden met plezier een 10-weekse, 20-lessen curriculum aan over Data Science. Elke les bevat een quiz vooraf en achteraf, geschreven instructies om de les te voltooien, een oplossing en een opdracht. Onze projectgerichte aanpak stelt je in staat om te leren terwijl je bouwt, een bewezen methode om nieuwe vaardigheden te laten beklijven.
+Azure Cloud Advocates bij Microsoft bieden met plezier een 10-weekse, 20-lessen curriculum aan over Data Science. Elke les bevat quizzen voor en na de les, geschreven instructies om de les te voltooien, een oplossing en een opdracht. Onze projectgerichte aanpak stelt je in staat om te leren terwijl je bouwt, een bewezen methode om nieuwe vaardigheden te laten beklijven.
 
 **Hartelijke dank aan onze auteurs:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
@@ -38,7 +38,7 @@ Azure Cloud Advocates bij Microsoft bieden met plezier een 10-weekse, 20-lessen 
 
 ### 🌐 Meertalige Ondersteuning
 
-#### Ondersteund via GitHub Action (Automatisch & Altijd Actueel)
+#### Ondersteund via GitHub Action (Automatisch & Altijd Up-to-Date)
 
 [Frans](../fr/README.md) | [Spaans](../es/README.md) | [Duits](../de/README.md) | [Russisch](../ru/README.md) | [Arabisch](../ar/README.md) | [Perzisch (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Chinees (Vereenvoudigd)](../zh/README.md) | [Chinees (Traditioneel, Macau)](../mo/README.md) | [Chinees (Traditioneel, Hong Kong)](../hk/README.md) | [Chinees (Traditioneel, Taiwan)](../tw/README.md) | [Japans](../ja/README.md) | [Koreaans](../ko/README.md) | [Hindi](../hi/README.md) | [Bengaals](../bn/README.md) | [Marathi](../mr/README.md) | [Nepalees](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Portugees (Portugal)](../pt/README.md) | [Portugees (Brazilië)](../br/README.md) | [Italiaans](../it/README.md) | [Pools](../pl/README.md) | [Turks](../tr/README.md) | [Grieks](../el/README.md) | [Thais](../th/README.md) | [Zweeds](../sv/README.md) | [Deens](../da/README.md) | [Noors](../no/README.md) | [Fins](../fi/README.md) | [Nederlands](./README.md) | [Hebreeuws](../he/README.md) | [Vietnamees](../vi/README.md) | [Indonesisch](../id/README.md) | [Maleis](../ms/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Swahili](../sw/README.md) | [Hongaars](../hu/README.md) | [Tsjechisch](../cs/README.md) | [Slowaaks](../sk/README.md) | [Roemeens](../ro/README.md) | [Bulgaars](../bg/README.md) | [Servisch (Cyrillisch)](../sr/README.md) | [Kroatisch](../hr/README.md) | [Sloveens](../sl/README.md) | [Oekraïens](../uk/README.md) | [Birmaans (Myanmar)](../my/README.md)
 
@@ -47,7 +47,7 @@ Azure Cloud Advocates bij Microsoft bieden met plezier een 10-weekse, 20-lessen 
 #### Word lid van onze community 
 [![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://aka.ms/ds4beginners/discord)
 
-We hebben een doorlopende Discord-serie over leren met AI, leer meer en doe mee via [Learn with AI Series](https://aka.ms/learnwithai/discord) van 18 - 30 september 2025. Je krijgt tips en trucs over het gebruik van GitHub Copilot voor Data Science.
+We hebben een doorlopende Discord-serie over leren met AI. Leer meer en doe mee via [Learn with AI Series](https://aka.ms/learnwithai/discord) van 18 - 30 september 2025. Je krijgt tips en trucs over het gebruik van GitHub Copilot voor Data Science.
 
 ![Learn with AI series](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.nl.jpg)
 
@@ -66,7 +66,7 @@ Begin met de volgende bronnen:
 
 ## Ontmoet het team
 
-[![Promo video](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Promo video")
+[![Promovideo](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Promovideo")
 
 **Gif door** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
 
@@ -74,17 +74,17 @@ Begin met de volgende bronnen:
 
 ## Pedagogiek
 
-We hebben twee pedagogische principes gekozen bij het opstellen van dit curriculum: ervoor zorgen dat het projectgericht is en dat het frequente quizzen bevat. Aan het einde van deze serie hebben studenten de basisprincipes van data science geleerd, waaronder ethische concepten, datavoorbereiding, verschillende manieren om met data te werken, datavisualisatie, data-analyse, praktijkvoorbeelden van data science en meer.
+We hebben twee pedagogische principes gekozen bij het bouwen van dit curriculum: ervoor zorgen dat het projectgericht is en dat het frequente quizzen bevat. Aan het einde van deze serie hebben studenten de basisprincipes van data science geleerd, waaronder ethische concepten, datavoorbereiding, verschillende manieren om met data te werken, datavisualisatie, data-analyse, praktijkvoorbeelden van data science en meer.
 
-Daarnaast zorgt een quiz voorafgaand aan een les ervoor dat de student zich richt op het leren van een onderwerp, terwijl een tweede quiz na de les verdere retentie bevordert. Dit curriculum is ontworpen om flexibel en leuk te zijn en kan in zijn geheel of gedeeltelijk worden gevolgd. De projecten beginnen klein en worden steeds complexer tegen het einde van de 10-weekse cyclus.
+Daarnaast zorgt een quiz met lage inzet voorafgaand aan een les ervoor dat de student zich richt op het leren van een onderwerp, terwijl een tweede quiz na de les verdere retentie bevordert. Dit curriculum is ontworpen om flexibel en leuk te zijn en kan in zijn geheel of gedeeltelijk worden gevolgd. De projecten beginnen klein en worden steeds complexer tegen het einde van de 10-weekse cyclus.
 
-> Bekijk onze [Gedragscode](CODE_OF_CONDUCT.md), [Bijdragen](CONTRIBUTING.md), [Vertalingsrichtlijnen](TRANSLATIONS.md). We verwelkomen je constructieve feedback!
+> Bekijk onze [Gedragscode](CODE_OF_CONDUCT.md), [Bijdragen](CONTRIBUTING.md), [Vertaling](TRANSLATIONS.md) richtlijnen. We verwelkomen je constructieve feedback!
 
 ## Elke les bevat:
 
 - Optionele sketchnote
 - Optionele aanvullende video
-- Quiz voorafgaand aan de les
+- Opwarmquiz voorafgaand aan de les
 - Geschreven les
 - Voor projectgerichte lessen, stapsgewijze handleidingen over hoe je het project bouwt
 - Kennischecks
@@ -105,7 +105,7 @@ Daarnaast zorgt een quiz voorafgaand aan een les ervoor dat de student zich rich
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
 | 01 | Data Science Definiëren | [Introductie](1-Introduction/README.md) | Leer de basisconcepten achter data science en hoe het gerelateerd is aan kunstmatige intelligentie, machine learning en big data. | [les](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
 | 02 | Data Science Ethiek | [Introductie](1-Introduction/README.md) | Concepten, uitdagingen en kaders rondom data-ethiek. | [les](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
-| 03 | Data Definiëren | [Introductie](1-Introduction/README.md) | Hoe data wordt geclassificeerd en de meest voorkomende bronnen. | [les](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 03 | Data Definiëren | [Introductie](1-Introduction/README.md) | Hoe data wordt geclassificeerd en de meest voorkomende bronnen ervan. | [les](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 04 | Introductie tot Statistiek & Kansberekening | [Introductie](1-Introduction/README.md) | De wiskundige technieken van kansberekening en statistiek om data te begrijpen. | [les](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
 | 05 | Werken met Relationele Data | [Werken met Data](2-Working-With-Data/README.md) | Introductie tot relationele data en de basis van het verkennen en analyseren van relationele data met Structured Query Language, ook wel SQL genoemd (uitgesproken als “see-quell”). | [les](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
 | 06 | Werken met NoSQL Data | [Werken met Data](2-Working-With-Data/README.md) | Introductie tot niet-relationele data, de verschillende typen en de basis van het verkennen en analyseren van documentdatabases. | [les](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
@@ -116,11 +116,11 @@ Daarnaast zorgt een quiz voorafgaand aan een les ervoor dat de student zich rich
 | 11 | Verhoudingen Visualiseren | [Data Visualisatie](3-Data-Visualization/README.md) | Visualiseren van discrete en gegroepeerde percentages. | [les](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 12 | Relaties Visualiseren | [Data Visualisatie](3-Data-Visualization/README.md) | Visualiseren van verbindingen en correlaties tussen datasets en hun variabelen. | [les](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 13 | Betekenisvolle Visualisaties | [Data Visualisatie](3-Data-Visualization/README.md) | Technieken en richtlijnen om je visualisaties waardevol te maken voor effectieve probleemoplossing en inzichten. | [les](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 14 | Introductie tot de Data Science Levenscyclus | [Levenscyclus](4-Data-Science-Lifecycle/README.md) | Introductie tot de levenscyclus van data science en de eerste stap van het verkrijgen en extraheren van data. | [les](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | Analyseren | [Levenscyclus](4-Data-Science-Lifecycle/README.md) | Deze fase van de levenscyclus van data science richt zich op technieken om data te analyseren. | [les](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Communicatie | [Levenscyclus](4-Data-Science-Lifecycle/README.md) | Deze fase van de levenscyclus van data science richt zich op het presenteren van inzichten uit de data op een manier die het voor besluitvormers gemakkelijker maakt om te begrijpen. | [les](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 14 | Introductie tot de Data Science Levenscyclus | [Levenscyclus](4-Data-Science-Lifecycle/README.md) | Introductie tot de data science levenscyclus en de eerste stap van het verkrijgen en extraheren van data. | [les](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
+| 15 | Analyseren | [Levenscyclus](4-Data-Science-Lifecycle/README.md) | Deze fase van de data science levenscyclus richt zich op technieken om data te analyseren. | [les](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | Communicatie | [Levenscyclus](4-Data-Science-Lifecycle/README.md) | Deze fase van de data science levenscyclus richt zich op het presenteren van inzichten uit de data op een manier die het voor besluitvormers gemakkelijker maakt om te begrijpen. | [les](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
 | 17 | Data Science in de Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Deze serie lessen introduceert data science in de cloud en de voordelen ervan. | [les](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) en [Maud](https://twitter.com/maudstweets) |
-| 18 | Data Science in de Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Modellen trainen met Low Code-tools. |[les](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) en [Maud](https://twitter.com/maudstweets) |
+| 18 | Data Science in de Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Modellen trainen met Low Code tools. |[les](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) en [Maud](https://twitter.com/maudstweets) |
 | 19 | Data Science in de Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Modellen implementeren met Azure Machine Learning Studio. | [les](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) en [Maud](https://twitter.com/maudstweets) |
 | 20 | Data Science in de Praktijk | [In de Praktijk](6-Data-Science-In-Wild/README.md) | Data science gedreven projecten in de echte wereld. | [les](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
@@ -136,9 +136,9 @@ Volg deze stappen om deze repo te openen in een container met behulp van je loka
 
 1. Als dit de eerste keer is dat je een ontwikkelcontainer gebruikt, zorg er dan voor dat je systeem aan de vereisten voldoet (bijv. Docker geïnstalleerd) zoals beschreven in [de startdocumentatie](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
-Om deze repository te gebruiken, kun je de repository openen in een geïsoleerd Docker-volume:
+Om deze repository te gebruiken, kun je deze openen in een geïsoleerd Docker-volume:
 
-**Let op**: Achter de schermen zal dit de Remote-Containers: **Clone Repository in Container Volume...**-opdracht gebruiken om de broncode te klonen in een Docker-volume in plaats van het lokale bestandssysteem. [Volumes](https://docs.docker.com/storage/volumes/) zijn de voorkeursmethode voor het behouden van containerdata.
+**Let op**: Achter de schermen zal dit de Remote-Containers: **Clone Repository in Container Volume...**-opdracht gebruiken om de broncode te klonen in een Docker-volume in plaats van het lokale bestandssysteem. [Volumes](https://docs.docker.com/storage/volumes/) zijn de voorkeursmethode voor het bewaren van containerdata.
 
 Of open een lokaal gekloonde of gedownloade versie van de repository:
 
@@ -148,7 +148,7 @@ Of open een lokaal gekloonde of gedownloade versie van de repository:
 
 ## Offline toegang
 
-Je kunt deze documentatie offline uitvoeren met behulp van [Docsify](https://docsify.js.org/#/). Fork deze repo, [installeer Docsify](https://docsify.js.org/#/quickstart) op je lokale machine, en typ vervolgens in de hoofdmap van deze repo `docsify serve`. De website wordt geserveerd op poort 3000 op je localhost: `localhost:3000`.
+Je kunt deze documentatie offline uitvoeren met [Docsify](https://docsify.js.org/#/). Fork deze repo, [installeer Docsify](https://docsify.js.org/#/quickstart) op je lokale machine, en typ vervolgens in de hoofdmap van deze repo `docsify serve`. De website wordt geserveerd op poort 3000 op je localhost: `localhost:3000`.
 
 > Let op, notebooks worden niet weergegeven via Docsify, dus wanneer je een notebook moet uitvoeren, doe dat dan apart in VS Code met een Python-kernel.
 
@@ -171,10 +171,20 @@ Ons team produceert andere curriculum! Bekijk:
 - [IoT voor Beginners](https://aka.ms/iot-beginners)
 - [Machine Learning voor Beginners](https://aka.ms/ml-beginners)
 - [XR Ontwikkeling voor Beginners](https://aka.ms/xr-dev-for-beginners)
-- [Meesteren van GitHub Copilot voor AI Pair Programming](https://aka.ms/GitHubCopilotAI)
+- [Mastering GitHub Copilot voor AI Paired Programming](https://aka.ms/GitHubCopilotAI)
 - [XR Ontwikkeling voor Beginners](https://github.com/microsoft/xr-development-for-beginners)
-- [Meesteren van GitHub Copilot voor C#/.NET Ontwikkelaars](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
+- [Mastering GitHub Copilot voor C#/.NET Ontwikkelaars](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [Kies Je Eigen Copilot Avontuur](https://github.com/microsoft/CopilotAdventures)
+
+## Hulp krijgen
+
+Als je vastloopt of vragen hebt over het bouwen van AI-apps, sluit je aan bij:
+
+[![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
+
+Als je feedback hebt over producten of fouten tegenkomt tijdens het bouwen, bezoek:
+
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 

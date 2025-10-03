@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "dd9a1deb4da680b2cf11ba2e9f5a0a6e",
-  "translation_date": "2025-09-29T21:47:38+00:00",
+  "original_hash": "53f99070cdd86f228ee65685e3104dec",
+  "translation_date": "2025-10-03T10:23:28+00:00",
   "source_file": "README.md",
   "language_code": "it"
 }
@@ -14,7 +14,7 @@ CO_OP_TRANSLATOR_METADATA:
 [![Licenza GitHub](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
 [![Contributori GitHub](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
 [![Problemi GitHub](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
-[![Richieste di pull GitHub](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![Pull Request GitHub](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 [![Osservatori GitHub](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
@@ -23,7 +23,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)
 
-[![Forum degli sviluppatori Azure AI Foundry](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+[![Forum Sviluppatori Azure AI Foundry](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 Gli Azure Cloud Advocates di Microsoft sono lieti di offrire un curriculum di 10 settimane e 20 lezioni dedicato alla Data Science. Ogni lezione include quiz pre-lezione e post-lezione, istruzioni scritte per completare la lezione, una soluzione e un compito. La nostra pedagogia basata sui progetti ti permette di imparare mentre costruisci, un metodo comprovato per far sì che le nuove competenze rimangano impresse.
 
@@ -42,7 +42,7 @@ Gli Azure Cloud Advocates di Microsoft sono lieti di offrire un curriculum di 10
 
 [Francese](../fr/README.md) | [Spagnolo](../es/README.md) | [Tedesco](../de/README.md) | [Russo](../ru/README.md) | [Arabo](../ar/README.md) | [Persiano (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Cinese (Semplificato)](../zh/README.md) | [Cinese (Tradizionale, Macao)](../mo/README.md) | [Cinese (Tradizionale, Hong Kong)](../hk/README.md) | [Cinese (Tradizionale, Taiwan)](../tw/README.md) | [Giapponese](../ja/README.md) | [Coreano](../ko/README.md) | [Hindi](../hi/README.md) | [Bengalese](../bn/README.md) | [Marathi](../mr/README.md) | [Nepalese](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Portoghese (Portogallo)](../pt/README.md) | [Portoghese (Brasile)](../br/README.md) | [Italiano](./README.md) | [Polacco](../pl/README.md) | [Turco](../tr/README.md) | [Greco](../el/README.md) | [Thailandese](../th/README.md) | [Svedese](../sv/README.md) | [Danese](../da/README.md) | [Norvegese](../no/README.md) | [Finlandese](../fi/README.md) | [Olandese](../nl/README.md) | [Ebraico](../he/README.md) | [Vietnamita](../vi/README.md) | [Indonesiano](../id/README.md) | [Malese](../ms/README.md) | [Tagalog (Filippino)](../tl/README.md) | [Swahili](../sw/README.md) | [Ungherese](../hu/README.md) | [Ceco](../cs/README.md) | [Slovacco](../sk/README.md) | [Rumeno](../ro/README.md) | [Bulgaro](../bg/README.md) | [Serbo (Cirillico)](../sr/README.md) | [Croato](../hr/README.md) | [Sloveno](../sl/README.md) | [Ucraino](../uk/README.md) | [Birmano (Myanmar)](../my/README.md)
 
-**Se desideri avere ulteriori traduzioni, le lingue supportate sono elencate [qui](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**Se desideri supportare ulteriori lingue, l'elenco è disponibile [qui](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
 #### Unisciti alla nostra comunità 
 [![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://aka.ms/ds4beginners/discord)
@@ -55,16 +55,16 @@ Abbiamo una serie di apprendimento con AI in corso su Discord, scopri di più e 
 
 Inizia con le seguenti risorse:
 
-- [Pagina Student Hub](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) In questa pagina troverai risorse per principianti, pacchetti per studenti e persino modi per ottenere un voucher gratuito per la certificazione. Questa è una pagina che vuoi salvare nei preferiti e controllare di tanto in tanto, poiché cambiamo contenuti almeno mensilmente.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Unisciti a una comunità globale di ambasciatori studenti, questa potrebbe essere la tua porta d'ingresso in Microsoft.
+- [Pagina Student Hub](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) In questa pagina troverai risorse per principianti, pacchetti per studenti e persino modi per ottenere un voucher gratuito per la certificazione. Questa è una pagina da salvare nei preferiti e controllare di tanto in tanto, poiché il contenuto viene aggiornato almeno mensilmente.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Unisciti a una comunità globale di ambasciatori studenti, potrebbe essere il tuo ingresso in Microsoft.
 
 # Per iniziare
 
 > **Insegnanti**: abbiamo [incluso alcune indicazioni](for-teachers.md) su come utilizzare questo curriculum. Ci piacerebbe ricevere il vostro feedback [nel nostro forum di discussione](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
-> **[Studenti](https://aka.ms/student-page)**: per utilizzare questo curriculum autonomamente, fai un fork dell'intero repository e completa gli esercizi da solo, iniziando con un quiz pre-lezione. Poi leggi la lezione e completa il resto delle attività. Cerca di creare i progetti comprendendo le lezioni piuttosto che copiando il codice della soluzione; tuttavia, quel codice è disponibile nelle cartelle /solutions in ogni lezione orientata al progetto. Un'altra idea potrebbe essere formare un gruppo di studio con amici e affrontare insieme i contenuti. Per ulteriori studi, ti consigliamo [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **[Studenti](https://aka.ms/student-page)**: per utilizzare questo curriculum autonomamente, fai un fork dell'intero repository e completa gli esercizi da solo, iniziando con un quiz pre-lezione. Poi leggi la lezione e completa il resto delle attività. Cerca di creare i progetti comprendendo le lezioni piuttosto che copiando il codice della soluzione; tuttavia, quel codice è disponibile nelle cartelle /solutions in ogni lezione orientata al progetto. Un'altra idea potrebbe essere formare un gruppo di studio con amici e affrontare insieme il contenuto. Per ulteriori studi, consigliamo [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
-## Incontra il team
+## Incontra il Team
 
 [![Video promozionale](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Video promozionale")
 
@@ -74,11 +74,11 @@ Inizia con le seguenti risorse:
 
 ## Pedagogia
 
-Abbiamo scelto due principi pedagogici durante la creazione di questo curriculum: garantire che sia basato su progetti e che includa quiz frequenti. Alla fine di questa serie, gli studenti avranno appreso i principi base della data science, inclusi concetti etici, preparazione dei dati, diversi modi di lavorare con i dati, visualizzazione dei dati, analisi dei dati, casi d'uso reali della data science e altro.
+Abbiamo scelto due principi pedagogici per costruire questo curriculum: garantire che sia basato su progetti e che includa quiz frequenti. Alla fine di questa serie, gli studenti avranno appreso i principi base della data science, inclusi concetti etici, preparazione dei dati, diversi modi di lavorare con i dati, visualizzazione dei dati, analisi dei dati, casi d'uso reali della data science e altro.
 
 Inoltre, un quiz a basso rischio prima della lezione orienta lo studente verso l'apprendimento di un argomento, mentre un secondo quiz dopo la lezione garantisce una maggiore ritenzione. Questo curriculum è stato progettato per essere flessibile e divertente e può essere seguito interamente o in parte. I progetti iniziano piccoli e diventano sempre più complessi entro la fine del ciclo di 10 settimane.
 
-> Trova il nostro [Codice di Condotta](CODE_OF_CONDUCT.md), [Contributi](CONTRIBUTING.md), [Linee guida per la traduzione](TRANSLATIONS.md). Accogliamo con favore il tuo feedback costruttivo!
+> Trova il nostro [Codice di Condotta](CODE_OF_CONDUCT.md), [Contributi](CONTRIBUTING.md), [Linee guida per la Traduzione](TRANSLATIONS.md). Accogliamo con favore il vostro feedback costruttivo!
 
 ## Ogni lezione include:
 
@@ -100,24 +100,25 @@ Inoltre, un quiz a basso rischio prima della lezione orienta lo studente verso l
 |:---:|
 | Data Science per Principianti: Roadmap - _Sketchnote di [@nitya](https://twitter.com/nitya)_ |
 
+
 | Numero Lezione | Argomento | Raggruppamento Lezione | Obiettivi di Apprendimento | Lezione Collegata | Autore |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | Definire la Data Science | [Introduzione](1-Introduction/README.md) | Imparare i concetti di base della data science e come è correlata all'intelligenza artificiale, al machine learning e ai big data. | [lezione](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 01 | Definire la Data Science | [Introduzione](1-Introduction/README.md) | Impara i concetti di base della data science e come è correlata all'intelligenza artificiale, al machine learning e ai big data. | [lezione](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
 | 02 | Etica della Data Science | [Introduzione](1-Introduction/README.md) | Concetti, sfide e framework sull'etica dei dati. | [lezione](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
 | 03 | Definire i Dati | [Introduzione](1-Introduction/README.md) | Come vengono classificati i dati e le loro fonti comuni. | [lezione](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | Introduzione a Statistica e Probabilità | [Introduzione](1-Introduction/README.md) | Tecniche matematiche di probabilità e statistica per comprendere i dati. | [lezione](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 04 | Introduzione a Statistica e Probabilità | [Introduzione](1-Introduction/README.md) | Le tecniche matematiche di probabilità e statistica per comprendere i dati. | [lezione](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
 | 05 | Lavorare con Dati Relazionali | [Lavorare con i Dati](2-Working-With-Data/README.md) | Introduzione ai dati relazionali e alle basi dell'esplorazione e analisi dei dati relazionali con il linguaggio SQL (pronunciato "see-quell"). | [lezione](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
 | 06 | Lavorare con Dati NoSQL | [Lavorare con i Dati](2-Working-With-Data/README.md) | Introduzione ai dati non relazionali, ai loro vari tipi e alle basi dell'esplorazione e analisi dei database documentali. | [lezione](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
 | 07 | Lavorare con Python | [Lavorare con i Dati](2-Working-With-Data/README.md) | Basi dell'uso di Python per l'esplorazione dei dati con librerie come Pandas. È consigliata una comprensione di base della programmazione in Python. | [lezione](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
 | 08 | Preparazione dei Dati | [Lavorare con i Dati](2-Working-With-Data/README.md) | Tecniche sui dati per pulire e trasformare i dati per affrontare le sfide di dati mancanti, inaccurati o incompleti. | [lezione](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 09 | Visualizzare Quantità | [Visualizzazione dei Dati](3-Data-Visualization/README.md) | Imparare a usare Matplotlib per visualizzare dati sugli uccelli 🦆 | [lezione](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 09 | Visualizzare Quantità | [Visualizzazione dei Dati](3-Data-Visualization/README.md) | Impara a usare Matplotlib per visualizzare dati sugli uccelli 🦆 | [lezione](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 10 | Visualizzare Distribuzioni di Dati | [Visualizzazione dei Dati](3-Data-Visualization/README.md) | Visualizzare osservazioni e tendenze all'interno di un intervallo. | [lezione](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 11 | Visualizzare Proporzioni | [Visualizzazione dei Dati](3-Data-Visualization/README.md) | Visualizzare percentuali discrete e raggruppate. | [lezione](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 12 | Visualizzare Relazioni | [Visualizzazione dei Dati](3-Data-Visualization/README.md) | Visualizzare connessioni e correlazioni tra insiemi di dati e le loro variabili. | [lezione](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | Visualizzazioni Significative | [Visualizzazione dei Dati](3-Data-Visualization/README.md) | Tecniche e linee guida per rendere le visualizzazioni utili per una risoluzione efficace dei problemi e per ottenere approfondimenti. | [lezione](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 13 | Visualizzazioni Significative | [Visualizzazione dei Dati](3-Data-Visualization/README.md) | Tecniche e linee guida per rendere le tue visualizzazioni utili per una risoluzione efficace dei problemi e per ottenere approfondimenti. | [lezione](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 14 | Introduzione al ciclo di vita della Data Science | [Ciclo di Vita](4-Data-Science-Lifecycle/README.md) | Introduzione al ciclo di vita della data science e al suo primo passo: acquisire ed estrarre dati. | [lezione](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
 | 15 | Analisi | [Ciclo di Vita](4-Data-Science-Lifecycle/README.md) | Questa fase del ciclo di vita della data science si concentra sulle tecniche per analizzare i dati. | [lezione](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Comunicazione | [Ciclo di Vita](4-Data-Science-Lifecycle/README.md) | Questa fase del ciclo di vita della data science si concentra sulla presentazione degli approfondimenti dai dati in modo che i decisori possano comprenderli facilmente. | [lezione](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 16 | Comunicazione | [Ciclo di Vita](4-Data-Science-Lifecycle/README.md) | Questa fase del ciclo di vita della data science si concentra sulla presentazione degli approfondimenti dai dati in modo che sia più facile per i decisori comprendere. | [lezione](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
 | 17 | Data Science nel Cloud | [Dati nel Cloud](5-Data-Science-In-Cloud/README.md) | Questa serie di lezioni introduce la data science nel cloud e i suoi vantaggi. | [lezione](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) e [Maud](https://twitter.com/maudstweets) |
 | 18 | Data Science nel Cloud | [Dati nel Cloud](5-Data-Science-In-Cloud/README.md) | Addestrare modelli usando strumenti Low Code. |[lezione](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) e [Maud](https://twitter.com/maudstweets) |
 | 19 | Data Science nel Cloud | [Dati nel Cloud](5-Data-Science-In-Cloud/README.md) | Distribuire modelli con Azure Machine Learning Studio. | [lezione](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) e [Maud](https://twitter.com/maudstweets) |
@@ -128,16 +129,16 @@ Inoltre, un quiz a basso rischio prima della lezione orienta lo studente verso l
 Segui questi passaggi per aprire questo esempio in un Codespace:
 1. Clicca sul menu a discesa "Code" e seleziona l'opzione "Open with Codespaces".
 2. Seleziona + New codespace in fondo al pannello.
-Per maggiori informazioni, consulta la [documentazione di GitHub](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
+Per ulteriori informazioni, consulta la [documentazione di GitHub](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
-Segui questi passaggi per aprire questo repository in un container usando la tua macchina locale e VSCode con l'estensione VS Code Remote - Containers:
+Segui questi passaggi per aprire questo repository in un container utilizzando la tua macchina locale e VSCode con l'estensione VS Code Remote - Containers:
 
 1. Se è la prima volta che utilizzi un container di sviluppo, assicurati che il tuo sistema soddisfi i prerequisiti (ad esempio, avere Docker installato) nella [documentazione introduttiva](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
 Per utilizzare questo repository, puoi aprirlo in un volume Docker isolato:
 
-**Nota**: In background, verrà utilizzato il comando Remote-Containers: **Clone Repository in Container Volume...** per clonare il codice sorgente in un volume Docker invece che nel file system locale. [I volumi](https://docs.docker.com/storage/volumes/) sono il meccanismo preferito per la persistenza dei dati del container.
+**Nota**: In background, verrà utilizzato il comando Remote-Containers: **Clone Repository in Container Volume...** per clonare il codice sorgente in un volume Docker anziché nel file system locale. [I volumi](https://docs.docker.com/storage/volumes/) sono il meccanismo preferito per la persistenza dei dati del container.
 
 Oppure apri una versione clonata o scaricata localmente del repository:
 
@@ -149,7 +150,7 @@ Oppure apri una versione clonata o scaricata localmente del repository:
 
 Puoi eseguire questa documentazione offline utilizzando [Docsify](https://docsify.js.org/#/). Fai un fork di questo repository, [installa Docsify](https://docsify.js.org/#/quickstart) sulla tua macchina locale, quindi nella cartella principale di questo repository, digita `docsify serve`. Il sito web sarà servito sulla porta 3000 del tuo localhost: `localhost:3000`.
 
-> Nota, i notebook non verranno visualizzati tramite Docsify, quindi quando hai bisogno di eseguire un notebook, fallo separatamente in VS Code utilizzando un kernel Python.
+> Nota, i notebook non verranno resi tramite Docsify, quindi quando hai bisogno di eseguire un notebook, fallo separatamente in VS Code utilizzando un kernel Python.
 
 ## Altri Curricula
 
@@ -170,12 +171,22 @@ Il nostro team produce altri curricula! Dai un'occhiata:
 - [IoT per Principianti](https://aka.ms/iot-beginners)
 - [Machine Learning per Principianti](https://aka.ms/ml-beginners)
 - [Sviluppo XR per Principianti](https://aka.ms/xr-dev-for-beginners)
-- [Padroneggiare GitHub Copilot per la Programmazione AI in Coppia](https://aka.ms/GitHubCopilotAI)
+- [Mastering GitHub Copilot per la Programmazione AI in Coppia](https://aka.ms/GitHubCopilotAI)
 - [Sviluppo XR per Principianti](https://github.com/microsoft/xr-development-for-beginners)
-- [Padroneggiare GitHub Copilot per Sviluppatori C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
+- [Mastering GitHub Copilot per Sviluppatori C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [Scegli la tua Avventura con Copilot](https://github.com/microsoft/CopilotAdventures)
+
+## Ottenere Aiuto
+
+Se hai difficoltà o domande sulla creazione di app AI, unisciti a:
+
+[![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
+
+Se hai feedback sui prodotti o errori durante la creazione, visita:
+
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
-**Disclaimer**:  
-Questo documento è stato tradotto utilizzando il servizio di traduzione AI [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un esperto umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.
+**Disclaimer (Avvertenza)**:  
+Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale effettuata da un esperto umano. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.

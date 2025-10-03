@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "dd9a1deb4da680b2cf11ba2e9f5a0a6e",
-  "translation_date": "2025-09-29T21:36:42+00:00",
+  "original_hash": "53f99070cdd86f228ee65685e3104dec",
+  "translation_date": "2025-10-03T10:11:39+00:00",
   "source_file": "README.md",
   "language_code": "tw"
 }
@@ -17,7 +17,7 @@ CO_OP_TRANSLATOR_METADATA:
 [![GitHub 拉取請求](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
 [![歡迎 PR](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![GitHub 追蹤者](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
+[![GitHub 觀察者](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
 [![GitHub 分叉](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
 [![GitHub 星星](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
 
@@ -52,9 +52,9 @@ Microsoft 的 Azure Cloud Advocates 很高興提供一個為期 10 週、共 20 
 
 # 您是學生嗎？
 
-可以從以下資源開始：
+以下是一些資源供您開始使用：
 
-- [學生中心頁面](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) 在此頁面中，您可以找到初學者資源、學生包以及獲取免費認證憑證的方法。這是一個值得收藏並定期查看的頁面，因為我們至少每月更新一次內容。
+- [學生中心頁面](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) 在此頁面，您可以找到初學者資源、學生包以及獲取免費證書憑證的方法。這是一個值得收藏並定期查看的頁面，因為我們至少每月更新一次內容。
 - [Microsoft 學習學生大使](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) 加入全球學生大使社群，這可能是您進入 Microsoft 的途徑。
 
 # 開始使用
@@ -73,9 +73,9 @@ Microsoft 的 Azure Cloud Advocates 很高興提供一個為期 10 週、共 20 
 
 ## 教學法
 
-我們在設計此課程時選擇了兩個教學原則：確保課程是基於項目的，並且包含頻繁的測驗。在本系列結束時，學生將學習到數據科學的基本原則，包括倫理概念、數據準備、不同的數據處理方式、數據可視化、數據分析、數據科學的實際應用案例等。
+我們在設計此課程時選擇了兩個教學原則：確保課程是基於項目的，並且包含頻繁的測驗。到本系列結束時，學生將學習到數據科學的基本原則，包括倫理概念、數據準備、不同的數據處理方式、數據可視化、數據分析、數據科學的實際應用案例等。
 
-此外，課前的低壓測驗可以幫助學生集中注意力學習某個主題，而課後的第二次測驗則能進一步鞏固知識。此課程設計靈活有趣，可以完整學習或部分選擇。項目從簡單開始，到 10 週課程結束時逐漸變得複雜。
+此外，課前的低壓測驗可以幫助學生集中注意力於學習主題，而課後的第二次測驗則能進一步加深記憶。此課程設計靈活有趣，可以完整學習或部分學習。項目從簡單開始，到 10 週周期結束時逐漸變得複雜。
 
 > 查看我們的 [行為準則](CODE_OF_CONDUCT.md)、[貢獻指南](CONTRIBUTING.md)、[翻譯指南](TRANSLATIONS.md)。我們歡迎您的建設性反饋！
 
@@ -85,14 +85,14 @@ Microsoft 的 Azure Cloud Advocates 很高興提供一個為期 10 週、共 20 
 - 可選的補充影片
 - 課前熱身測驗
 - 書面課程
-- 對於基於項目的課程，提供逐步指南以完成項目
+- 對於基於項目的課程，提供逐步指導如何構建項目
 - 知識檢查
 - 挑戰
 - 補充閱讀
 - 作業
 - [課後測驗](https://ff-quizzes.netlify.app/en/)
 
-> **關於測驗的說明**：所有測驗都包含在 Quiz-App 文件夾中，共有 40 個測驗，每個測驗包含三個問題。測驗在課程中有鏈接，但測驗應用可以在本地運行或部署到 Azure；請按照 `quiz-app` 文件夾中的指示進行操作。測驗正在逐步進行本地化。
+> **關於測驗的說明**：所有測驗都包含在 Quiz-App 文件夾中，共有 40 個測驗，每個測驗包含三個問題。測驗在課程中有鏈接，但測驗應用可以在本地運行或部署到 Azure；請按照 `quiz-app` 文件夾中的指示進行操作。測驗正在逐步本地化。
 
 ## 課程列表
 |![ Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.tw.png)|
@@ -106,49 +106,49 @@ Microsoft 的 Azure Cloud Advocates 很高興提供一個為期 10 週、共 20 
 | 03 | 定義數據 | [簡介](1-Introduction/README.md) | 數據的分類及其常見來源。 | [課程](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 04 | 統計與概率簡介 | [簡介](1-Introduction/README.md) | 使用概率和統計的數學技術來理解數據。 | [課程](1-Introduction/04-stats-and-probability/README.md) [影片](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
 | 05 | 使用關聯數據 | [數據操作](2-Working-With-Data/README.md) | 關聯數據的簡介，以及使用結構化查詢語言（SQL，讀作“see-quell”）探索和分析關聯數據的基礎知識。 | [課程](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
-| 06 | 使用 NoSQL 數據 | [數據操作](2-Working-With-Data/README.md) | 非關聯數據的簡介、其各種類型以及探索和分析文檔數據庫的基礎知識。 | [課程](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
+| 06 | 使用 NoSQL 數據 | [數據操作](2-Working-With-Data/README.md) | 非關聯數據的簡介、其各種類型，以及探索和分析文檔型數據庫的基礎知識。 | [課程](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
 | 07 | 使用 Python | [數據操作](2-Working-With-Data/README.md) | 使用 Python 進行數據探索的基礎知識，包括使用 Pandas 等庫。建議具備 Python 編程的基礎知識。 | [課程](2-Working-With-Data/07-python/README.md) [影片](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
 | 08 | 數據準備 | [數據操作](2-Working-With-Data/README.md) | 數據清理和轉換技術，應對缺失、不準確或不完整數據的挑戰。 | [課程](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 09 | 數量可視化 | [數據可視化](3-Data-Visualization/README.md) | 學習如何使用 Matplotlib 可視化鳥類數據 🦆 | [課程](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 10 | 數據分佈可視化 | [數據可視化](3-Data-Visualization/README.md) | 可視化區間內的觀察和趨勢。 | [課程](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 11 | 比例可視化 | [數據可視化](3-Data-Visualization/README.md) | 可視化離散和分組百分比。 | [課程](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 12 | 關係可視化 | [數據可視化](3-Data-Visualization/README.md) | 可視化數據集及其變量之間的連接和相關性。 | [課程](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | 有意義的可視化 | [數據可視化](3-Data-Visualization/README.md) | 創建有效解決問題和洞察的可視化技術和指導。 | [課程](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 14 | 數據科學生命周期簡介 | [生命周期](4-Data-Science-Lifecycle/README.md) | 數據科學生命周期的簡介及其第一步：獲取和提取數據。 | [課程](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | 分析 | [生命周期](4-Data-Science-Lifecycle/README.md) | 數據科學生命周期的這一階段專注於分析數據的技術。 | [課程](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | 溝通 | [生命周期](4-Data-Science-Lifecycle/README.md) | 數據科學生命周期的這一階段專注於以易於決策者理解的方式呈現數據洞察。 | [課程](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
-| 17 | 雲端中的數據科學 | [雲端數據](5-Data-Science-In-Cloud/README.md) | 這系列課程介紹雲端中的數據科學及其優勢。 | [課程](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
+| 13 | 有意義的可視化 | [數據可視化](3-Data-Visualization/README.md) | 創建有效解決問題和洞察的可視化技術與指導。 | [課程](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 14 | 數據科學生命周期簡介 | [生命周期](4-Data-Science-Lifecycle/README.md) | 數據科學生命周期的簡介及其第一步：數據的獲取和提取。 | [課程](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
+| 15 | 分析 | [生命周期](4-Data-Science-Lifecycle/README.md) | 數據科學生命周期中的分析階段，專注於數據分析技術。 | [課程](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | 溝通 | [生命周期](4-Data-Science-Lifecycle/README.md) | 數據科學生命周期中的溝通階段，專注於以易於決策者理解的方式呈現數據洞察。 | [課程](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 17 | 雲端中的數據科學 | [雲端數據](5-Data-Science-In-Cloud/README.md) | 本系列課程介紹雲端中的數據科學及其優勢。 | [課程](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
 | 18 | 雲端中的數據科學 | [雲端數據](5-Data-Science-In-Cloud/README.md) | 使用低代碼工具訓練模型。 |[課程](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
 | 19 | 雲端中的數據科學 | [雲端數據](5-Data-Science-In-Cloud/README.md) | 使用 Azure Machine Learning Studio 部署模型。 | [課程](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
-| 20 | 野外的數據科學 | [野外應用](6-Data-Science-In-Wild/README.md) | 現實世界中的數據科學驅動項目。 | [課程](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| 20 | 野外的數據科學 | [實際應用](6-Data-Science-In-Wild/README.md) | 數據科學驅動的實際項目。 | [課程](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
 按照以下步驟在 Codespace 中打開此範例：
 1. 點擊「Code」下拉選單，選擇「Open with Codespaces」選項。
 2. 在面板底部選擇「+ New codespace」。
-更多資訊請參考 [GitHub 文檔](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace)。
+如需更多資訊，請查看 [GitHub 文檔](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace)。
 
 ## VSCode Remote - Containers
-按照以下步驟使用本地機器和 VSCode 的 VS Code Remote - Containers 擴展在容器中打開此倉庫：
+按照以下步驟使用本地機器和 VSCode 的 VS Code Remote - Containers 擴展在容器中打開此存儲庫：
 
-1. 如果您是第一次使用開發容器，請確保您的系統符合前置要求（例如已安裝 Docker），詳情請參考 [入門文檔](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started)。
+1. 如果您是首次使用開發容器，請確保您的系統符合前置要求（例如已安裝 Docker），詳情請參閱 [入門文檔](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started)。
 
-要使用此倉庫，您可以選擇在隔離的 Docker 卷中打開倉庫：
+要使用此存儲庫，您可以選擇在隔離的 Docker 卷中打開存儲庫：
 
 **注意**：在底層，這將使用 Remote-Containers 的 **Clone Repository in Container Volume...** 命令將源代碼克隆到 Docker 卷中，而不是本地文件系統。[卷](https://docs.docker.com/storage/volumes/) 是持久化容器數據的首選機制。
 
-或者打開本地克隆或下載的倉庫版本：
+或者打開本地克隆或下載的存儲庫版本：
 
-- 將此倉庫克隆到您的本地文件系統。
+- 將此存儲庫克隆到您的本地文件系統。
 - 按 F1，選擇 **Remote-Containers: Open Folder in Container...** 命令。
 - 選擇此文件夾的克隆副本，等待容器啟動，然後嘗試操作。
 
 ## 離線訪問
 
-您可以使用 [Docsify](https://docsify.js.org/#/) 離線運行此文檔。Fork 此倉庫，在您的本地機器上 [安裝 Docsify](https://docsify.js.org/#/quickstart)，然後在此倉庫的根文件夾中輸入 `docsify serve`。網站將在本地端口 3000 上提供服務：`localhost:3000`。
+您可以使用 [Docsify](https://docsify.js.org/#/) 離線運行此文檔。Fork 此存儲庫，在您的本地機器上 [安裝 Docsify](https://docsify.js.org/#/quickstart)，然後在此存儲庫的根文件夾中輸入 `docsify serve`。網站將在本地端口 3000 上提供服務：`localhost:3000`。
 
-> 注意，筆記本文件不會通過 Docsify 渲染，因此需要運行筆記本時，請在 VS Code 中使用 Python kernel 單獨運行。
+> 注意，筆記本文件不會通過 Docsify 渲染，因此當您需要運行筆記本時，請在 VS Code 中使用 Python 核心單獨運行。
 
 ## 其他課程
 
@@ -174,7 +174,17 @@ Microsoft 的 Azure Cloud Advocates 很高興提供一個為期 10 週、共 20 
 - [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)
 
+## 獲取幫助
+
+如果您遇到困難或對構建 AI 應用有任何疑問，請加入：
+
+[![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
+
+如果您有產品反饋或在構建過程中遇到錯誤，請訪問：
+
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
 ---
 
 **免責聲明**：  
-本文件已使用 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 進行翻譯。雖然我們致力於提供準確的翻譯，但請注意，自動翻譯可能包含錯誤或不準確之處。原始文件的母語版本應被視為權威來源。對於關鍵資訊，建議使用專業人工翻譯。我們對因使用此翻譯而產生的任何誤解或錯誤解釋不承擔責任。
+本文件使用 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 進行翻譯。儘管我們努力確保翻譯的準確性，但請注意，自動翻譯可能包含錯誤或不準確之處。原始文件的母語版本應被視為權威來源。對於關鍵信息，建議使用專業人工翻譯。我們對因使用此翻譯而產生的任何誤解或錯誤解釋不承擔責任。
