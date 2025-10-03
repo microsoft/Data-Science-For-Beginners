@@ -345,7 +345,7 @@ instructions provided by the bot. You will only need to do this once across all 
 
 ## Questions?
 
-- Check our [GitHub Discussions](https://github.com/microsoft/Data-Science-For-Beginners/discussions)
+- Check our [Discord Channel #data-science-for-beginners](https://aka.ms/ds4beginners/discord)
 - Join our [Discord community](https://aka.ms/ds4beginners/discord)
 - Review existing [issues](https://github.com/microsoft/Data-Science-For-Beginners/issues) and [pull requests](https://github.com/microsoft/Data-Science-For-Beginners/pulls)
 
