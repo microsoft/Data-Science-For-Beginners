@@ -51,11 +51,27 @@ Get started with the following resources:
 
 # Getting Started
 
+## 📚 Documentation
+
+- **[Installation Guide](INSTALLATION.md)** - Step-by-step setup instructions for beginners
+- **[Usage Guide](USAGE.md)** - Examples and common workflows
+- **[Troubleshooting](TROUBLESHOOTING.md)** - Solutions to common issues
+- **[Contributing Guide](CONTRIBUTING.md)** - How to contribute to this project
+- **[For Teachers](for-teachers.md)** - Teaching guidance and classroom resources
+
+## 👨‍🎓 For Students
 > **Complete Beginners**: New to data science? Start with our [beginner-friendly examples](examples/README.md)! These simple, well-commented examples will help you understand the basics before diving into the full curriculum.
+> **[Students](https://aka.ms/student-page)**: to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz.  Then read the lecture and complete the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however, that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+
+**Quick Start:**
+1. Check the [Installation Guide](INSTALLATION.md) to set up your environment
+2. Review the [Usage Guide](USAGE.md) to learn how to work with the curriculum
+3. Start with Lesson 1 and work through sequentially
+4. Join our [Discord community](https://aka.ms/ds4beginners/discord) for support
+
+## 👩‍🏫 For Teachers
 
 > **Teachers**: we have [included some suggestions](for-teachers.md) on how to use this curriculum.  We'd love your feedback [in our discussion forum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
-
-> **[Students](https://aka.ms/student-page)**: to use this curriculum on your own, fork the entire repo and complete the exercises on your own, starting with a pre-lecture quiz.  Then read the lecture and complete the rest of the activities. Try to create the projects by comprehending the lessons rather than copying the solution code; however, that code is available in the /solutions folders in each project-oriented lesson. Another idea would be to form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 ## Meet the Team
 
@@ -186,6 +202,8 @@ Our team produces other curricula! Check out:
 - [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)
 
 ## Getting Help
+
+**Encountering issues?** Check our [Troubleshooting Guide](TROUBLESHOOTING.md) for solutions to common problems.
 
 If you get stuck or have any questions about building AI apps, join:
 
