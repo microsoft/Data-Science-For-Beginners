@@ -342,6 +342,8 @@ npm run serve
 - Restart terminal after installation
 
 **macOS:**
+
+> **Note:** If you do not have Homebrew installed, follow the instructions at [https://brew.sh/](https://brew.sh/) to install it first.
 ```bash
 # Install via Homebrew
 brew install git
