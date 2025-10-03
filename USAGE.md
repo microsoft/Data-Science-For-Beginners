@@ -215,7 +215,7 @@ echo "# Lesson 1 Notes" > my-learning-journal/lesson-01-notes.md
 ### Engage with the Community
 
 - Join the [Discord community](https://aka.ms/ds4beginners/discord)
-- Participate in [GitHub Discussions](https://github.com/microsoft/Data-Science-For-Beginners/discussions)
+- Participate in #Data-Science-for-Beginners Channel in Discord [Discord Discussions](https://aka.ms/ds4beginners/discord)
 - Share your progress and ask questions
 
 ### Build Your Own Projects
