@@ -1,31 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "53f99070cdd86f228ee65685e3104dec",
-  "translation_date": "2025-10-03T10:32:10+00:00",
+  "original_hash": "3beef650c5bafd70d88e2643a2b360fb",
+  "translation_date": "2025-10-03T12:29:41+00:00",
   "source_file": "README.md",
   "language_code": "no"
 }
 -->
-# Data Science for Nybegynnere - En Lærepensum
+# Data Science for Nybegynnere - Et Lærepensum
 
-[![Åpne i GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
-
-[![GitHub-lisens](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
-[![GitHub-bidragsytere](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
-[![GitHub-problemer](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
-[![GitHub pull-forespørsler](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
-[![PRs Velkommen](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-[![GitHub-følgere](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
-[![GitHub-forker](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
-[![GitHub-stjerner](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
-
-[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)
-
-[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
-
-Azure Cloud Advocates hos Microsoft er glade for å tilby et 10-ukers, 20-leksjons pensum om Data Science. Hver leksjon inkluderer quiz før og etter leksjonen, skriftlige instruksjoner for å fullføre leksjonen, en løsning og en oppgave. Vår prosjektbaserte pedagogikk lar deg lære mens du bygger, en bevist metode for å få nye ferdigheter til å sitte.
+Azure Cloud Advocates hos Microsoft er glade for å tilby et 10-ukers, 20-leksjons pensum om Data Science. Hver leksjon inkluderer quiz før og etter leksjonen, skriftlige instruksjoner for å fullføre leksjonen, en løsning og en oppgave. Vår prosjektbaserte pedagogikk lar deg lære mens du bygger, en bevist metode for å få nye ferdigheter til å "sitte".
 
 **Stor takk til våre forfattere:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
@@ -38,7 +22,7 @@ Azure Cloud Advocates hos Microsoft er glade for å tilby et 10-ukers, 20-leksjo
 
 ### 🌐 Støtte for flere språk
 
-#### Støttet via GitHub Action (Automatisk og alltid oppdatert)
+#### Støttet via GitHub Action (Automatisk & Alltid Oppdatert)
 
 [Fransk](../fr/README.md) | [Spansk](../es/README.md) | [Tysk](../de/README.md) | [Russisk](../ru/README.md) | [Arabisk](../ar/README.md) | [Persisk (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Kinesisk (Forenklet)](../zh/README.md) | [Kinesisk (Tradisjonell, Macau)](../mo/README.md) | [Kinesisk (Tradisjonell, Hong Kong)](../hk/README.md) | [Kinesisk (Tradisjonell, Taiwan)](../tw/README.md) | [Japansk](../ja/README.md) | [Koreansk](../ko/README.md) | [Hindi](../hi/README.md) | [Bengali](../bn/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Portugisisk (Portugal)](../pt/README.md) | [Portugisisk (Brasil)](../br/README.md) | [Italiensk](../it/README.md) | [Polsk](../pl/README.md) | [Tyrkisk](../tr/README.md) | [Gresk](../el/README.md) | [Thai](../th/README.md) | [Svensk](../sv/README.md) | [Dansk](../da/README.md) | [Norsk](./README.md) | [Finsk](../fi/README.md) | [Nederlandsk](../nl/README.md) | [Hebraisk](../he/README.md) | [Vietnamesisk](../vi/README.md) | [Indonesisk](../id/README.md) | [Malayisk](../ms/README.md) | [Tagalog (Filippinsk)](../tl/README.md) | [Swahili](../sw/README.md) | [Ungarsk](../hu/README.md) | [Tsjekkisk](../cs/README.md) | [Slovakisk](../sk/README.md) | [Rumensk](../ro/README.md) | [Bulgarsk](../bg/README.md) | [Serbisk (Kyrillisk)](../sr/README.md) | [Kroatisk](../hr/README.md) | [Slovensk](../sl/README.md) | [Ukrainsk](../uk/README.md) | [Burmesisk (Myanmar)](../my/README.md)
 
@@ -60,13 +44,15 @@ Kom i gang med følgende ressurser:
 
 # Kom i gang
 
-> **Lærere**: vi har [inkludert noen forslag](for-teachers.md) om hvordan du kan bruke dette pensumet. Vi vil gjerne ha tilbakemeldingen din [i vårt diskusjonsforum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
+> **Helt nybegynnere**: Ny innen data science? Start med våre [nybegynnervennlige eksempler](examples/README.md)! Disse enkle, godt kommenterte eksemplene vil hjelpe deg å forstå det grunnleggende før du dykker inn i hele pensumet.
 
-> **[Studenter](https://aka.ms/student-page)**: for å bruke dette pensumet på egen hånd, fork hele repoet og fullfør oppgavene selv, start med en quiz før leksjonen. Les deretter leksjonen og fullfør resten av aktivitetene. Prøv å lage prosjektene ved å forstå leksjonene i stedet for å kopiere løsningskoden; denne koden er imidlertid tilgjengelig i /solutions-mappene i hver prosjektorienterte leksjon. En annen idé kan være å danne en studiegruppe med venner og gå gjennom innholdet sammen. For videre studier anbefaler vi [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **Lærere**: Vi har [inkludert noen forslag](for-teachers.md) om hvordan du kan bruke dette pensumet. Vi vil gjerne ha din tilbakemelding [i vårt diskusjonsforum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
+
+> **[Studenter](https://aka.ms/student-page)**: For å bruke dette pensumet på egen hånd, fork hele repoet og fullfør oppgavene på egen hånd, start med en quiz før leksjonen. Les deretter leksjonen og fullfør resten av aktivitetene. Prøv å lage prosjektene ved å forstå leksjonene i stedet for å kopiere løsningskoden; denne koden er imidlertid tilgjengelig i /solutions-mappene i hver prosjektorienterte leksjon. En annen idé kan være å danne en studiegruppe med venner og gå gjennom innholdet sammen. For videre studier anbefaler vi [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 ## Møt teamet
 
-[![Promovideo](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Promovideo")
+[![Promo video](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Promo video")
 
 **Gif av** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
 
@@ -74,9 +60,9 @@ Kom i gang med følgende ressurser:
 
 ## Pedagogikk
 
-Vi har valgt to pedagogiske prinsipper mens vi bygde dette pensumet: å sikre at det er prosjektbasert og at det inkluderer hyppige quizer. Ved slutten av denne serien vil studentene ha lært grunnleggende prinsipper for data science, inkludert etiske konsepter, dataklargjøring, ulike måter å jobbe med data på, datavisualisering, dataanalyse, virkelige brukstilfeller av data science og mer.
+Vi har valgt to pedagogiske prinsipper mens vi bygde dette pensumet: å sikre at det er prosjektbasert og at det inkluderer hyppige quizer. Ved slutten av denne serien vil studentene ha lært grunnleggende prinsipper for data science, inkludert etiske konsepter, databehandling, forskjellige måter å jobbe med data på, datavisualisering, dataanalyse, virkelige brukstilfeller av data science og mer.
 
-I tillegg setter en lavterskelquiz før en klasse intensjonen til studenten mot å lære et emne, mens en andre quiz etter klassen sikrer ytterligere oppbevaring. Dette pensumet ble designet for å være fleksibelt og morsomt og kan tas i sin helhet eller delvis. Prosjektene starter små og blir gradvis mer komplekse mot slutten av den 10-ukers syklusen.
+I tillegg setter en lavterskelquiz før en klasse intensjonen til studenten mot å lære et emne, mens en andre quiz etter klassen sikrer videre oppbevaring. Dette pensumet ble designet for å være fleksibelt og morsomt og kan tas i sin helhet eller delvis. Prosjektene starter små og blir stadig mer komplekse mot slutten av den 10-ukers syklusen.
 
 > Finn vår [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), [Translation](TRANSLATIONS.md) retningslinjer. Vi ønsker din konstruktive tilbakemelding velkommen!
 
@@ -84,7 +70,7 @@ I tillegg setter en lavterskelquiz før en klasse intensjonen til studenten mot 
 
 - Valgfri sketchnote
 - Valgfri tilleggsvideo
-- Quiz for oppvarming før leksjonen
+- Oppvarmingsquiz før leksjonen
 - Skriftlig leksjon
 - For prosjektbaserte leksjoner, trinnvise guider om hvordan du bygger prosjektet
 - Kunnskapssjekker
@@ -92,14 +78,27 @@ I tillegg setter en lavterskelquiz før en klasse intensjonen til studenten mot 
 - Tilleggslesing
 - Oppgave
 - [Quiz etter leksjonen](https://ff-quizzes.netlify.app/en/)
+> **En merknad om quizer**: Alle quizer er samlet i Quiz-App-mappen, med totalt 40 quizer, hver med tre spørsmål. De er lenket fra leksjonene, men quiz-appen kan kjøres lokalt eller distribueres til Azure; følg instruksjonene i `quiz-app`-mappen. De blir gradvis lokalisert.
 
-> **En merknad om quizer**: Alle quizer er inneholdt i Quiz-App-mappen, for totalt 40 quizer med tre spørsmål hver. De er lenket fra leksjonene, men quiz-appen kan kjøres lokalt eller distribueres til Azure; følg instruksjonene i `quiz-app`-mappen. De blir gradvis lokalisert.
+## 🎓 Nybegynnervennlige Eksempler
+
+**Ny innen Data Science?** Vi har laget en spesiell [eksempelkatalog](examples/README.md) med enkel, godt kommentert kode for å hjelpe deg i gang:
+
+- 🌟 **Hello World** - Ditt første data science-program
+- 📂 **Laste inn data** - Lær å lese og utforske datasett
+- 📊 **Enkel analyse** - Beregn statistikk og finn mønstre
+- 📈 **Grunnleggende visualisering** - Lag diagrammer og grafer
+- 🔬 **Reelt prosjekt** - Full arbeidsflyt fra start til slutt
+
+Hvert eksempel inneholder detaljerte kommentarer som forklarer hvert steg, perfekt for helt nybegynnere!
+
+👉 **[Start med eksemplene](examples/README.md)** 👈
 
 ## Leksjoner
+
 |![ Sketchnote av @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.no.png)|
 |:---:|
 | Data Science For Beginners: Veikart - _Sketchnote av [@nitya](https://twitter.com/nitya)_ |
-
 
 | Leksjonsnummer | Emne | Leksjonsgruppe | Læringsmål | Lenket leksjon | Forfatter |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
@@ -110,31 +109,31 @@ I tillegg setter en lavterskelquiz før en klasse intensjonen til studenten mot 
 | 05 | Arbeide med Relasjonelle Data | [Arbeide med Data](2-Working-With-Data/README.md) | Introduksjon til relasjonelle data og grunnleggende utforsking og analyse av relasjonelle data med Structured Query Language, også kjent som SQL (uttales "see-quell"). | [leksjon](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
 | 06 | Arbeide med NoSQL Data | [Arbeide med Data](2-Working-With-Data/README.md) | Introduksjon til ikke-relasjonelle data, deres ulike typer og grunnleggende utforsking og analyse av dokumentdatabaser. | [leksjon](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
 | 07 | Arbeide med Python | [Arbeide med Data](2-Working-With-Data/README.md) | Grunnleggende bruk av Python for datautforsking med biblioteker som Pandas. Grunnleggende forståelse av Python-programmering anbefales. | [leksjon](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | Datapreparering | [Arbeide med Data](2-Working-With-Data/README.md) | Temaer om teknikker for rengjøring og transformering av data for å håndtere utfordringer med manglende, unøyaktige eller ufullstendige data. | [leksjon](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 08 | Datapreparering | [Arbeide med Data](2-Working-With-Data/README.md) | Temaer om teknikker for å rense og transformere data for å håndtere utfordringer med manglende, unøyaktige eller ufullstendige data. | [leksjon](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 09 | Visualisering av Mengder | [Datavisualisering](3-Data-Visualization/README.md) | Lær hvordan du bruker Matplotlib til å visualisere fugldata 🦆 | [leksjon](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 10 | Visualisering av Datafordelinger | [Datavisualisering](3-Data-Visualization/README.md) | Visualisering av observasjoner og trender innenfor et intervall. | [leksjon](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 11 | Visualisering av Prosentandeler | [Datavisualisering](3-Data-Visualization/README.md) | Visualisering av diskrete og grupperte prosentandeler. | [leksjon](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 11 | Visualisering av Proporsjoner | [Datavisualisering](3-Data-Visualization/README.md) | Visualisering av diskrete og grupperte prosentandeler. | [leksjon](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 12 | Visualisering av Relasjoner | [Datavisualisering](3-Data-Visualization/README.md) | Visualisering av forbindelser og korrelasjoner mellom datasett og deres variabler. | [leksjon](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 13 | Meningsfulle Visualiseringer | [Datavisualisering](3-Data-Visualization/README.md) | Teknikker og veiledning for å gjøre visualiseringene dine verdifulle for effektiv problemløsning og innsikt. | [leksjon](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 14 | Introduksjon til Data Science-livssyklusen | [Livssyklus](4-Data-Science-Lifecycle/README.md) | Introduksjon til data science-livssyklusen og dens første steg med innhenting og utvinning av data. | [leksjon](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
 | 15 | Analyse | [Livssyklus](4-Data-Science-Lifecycle/README.md) | Denne fasen av data science-livssyklusen fokuserer på teknikker for å analysere data. | [leksjon](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Kommunikasjon | [Livssyklus](4-Data-Science-Lifecycle/README.md) | Denne fasen av data science-livssyklusen fokuserer på å presentere innsikter fra data på en måte som gjør det enklere for beslutningstakere å forstå. | [leksjon](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 16 | Kommunikasjon | [Livssyklus](4-Data-Science-Lifecycle/README.md) | Denne fasen av data science-livssyklusen fokuserer på å presentere innsiktene fra data på en måte som gjør det enklere for beslutningstakere å forstå. | [leksjon](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
 | 17 | Data Science i Skyen | [Skydata](5-Data-Science-In-Cloud/README.md) | Denne serien av leksjoner introduserer data science i skyen og dens fordeler. | [leksjon](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) og [Maud](https://twitter.com/maudstweets) |
-| 18 | Data Science i Skyen | [Skydata](5-Data-Science-In-Cloud/README.md) | Trening av modeller ved bruk av Low Code-verktøy. |[leksjon](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) og [Maud](https://twitter.com/maudstweets) |
-| 19 | Data Science i Skyen | [Skydata](5-Data-Science-In-Cloud/README.md) | Implementering av modeller med Azure Machine Learning Studio. | [leksjon](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) og [Maud](https://twitter.com/maudstweets) |
+| 18 | Data Science i Skyen | [Skydata](5-Data-Science-In-Cloud/README.md) | Trene modeller ved hjelp av Low Code-verktøy. |[leksjon](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) og [Maud](https://twitter.com/maudstweets) |
+| 19 | Data Science i Skyen | [Skydata](5-Data-Science-In-Cloud/README.md) | Distribuere modeller med Azure Machine Learning Studio. | [leksjon](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) og [Maud](https://twitter.com/maudstweets) |
 | 20 | Data Science i Det Virkelige Liv | [I Det Virkelige Liv](6-Data-Science-In-Wild/README.md) | Prosjekter drevet av data science i den virkelige verden. | [leksjon](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
-Følg disse trinnene for å åpne dette eksempelet i en Codespace:
+Følg disse stegene for å åpne dette eksempelet i en Codespace:
 1. Klikk på Code-rullegardinmenyen og velg alternativet Open with Codespaces.
 2. Velg + New codespace nederst i panelet.
-For mer informasjon, sjekk ut [GitHub-dokumentasjonen](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
+For mer info, sjekk ut [GitHub-dokumentasjonen](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
-Følg disse trinnene for å åpne dette repoet i en container ved bruk av din lokale maskin og VSCode med VS Code Remote - Containers-utvidelsen:
+Følg disse stegene for å åpne dette repoet i en container ved bruk av din lokale maskin og VSCode med VS Code Remote - Containers-utvidelsen:
 
-1. Hvis dette er første gang du bruker en utviklingscontainer, sørg for at systemet ditt oppfyller kravene (f.eks. ha Docker installert) i [dokumentasjonen for å komme i gang](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. Hvis dette er første gang du bruker en utviklingscontainer, sørg for at systemet ditt oppfyller kravene (f.eks. ha Docker installert) i [komme i gang-dokumentasjonen](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
 For å bruke dette repoet kan du enten åpne det i et isolert Docker-volum:
 
@@ -152,7 +151,7 @@ Du kan kjøre denne dokumentasjonen offline ved å bruke [Docsify](https://docsi
 
 > Merk, notatbøker vil ikke bli gjengitt via Docsify, så når du trenger å kjøre en notatbok, gjør det separat i VS Code med en Python-kjerne.
 
-## Andre læreplaner
+## Andre Læreplaner
 
 Vårt team produserer andre læreplaner! Sjekk ut:
 
@@ -174,17 +173,16 @@ Vårt team produserer andre læreplaner! Sjekk ut:
 - [Mastering GitHub Copilot for AI Paired Programming](https://aka.ms/GitHubCopilotAI)
 - [XR-utvikling for Nybegynnere](https://github.com/microsoft/xr-development-for-beginners)
 - [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
-- [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)
+- [Velg Din Egen Copilot Adventure](https://github.com/microsoft/CopilotAdventures)
 
-## Få hjelp
+## Få Hjelp
 
 Hvis du står fast eller har spørsmål om å bygge AI-apper, bli med:
 
 [![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
 
 Hvis du har produktfeedback eller feil under bygging, besøk:
-
-[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+[![Azure AI Foundry Utviklerforum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
