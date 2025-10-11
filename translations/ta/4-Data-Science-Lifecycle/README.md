@@ -1,0 +1,30 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "dd173fd30fc039a7a299898920680723",
+  "translation_date": "2025-10-11T15:46:57+00:00",
+  "source_file": "4-Data-Science-Lifecycle/README.md",
+  "language_code": "ta"
+}
+-->
+# தரவியல் அறிவியல் வாழ்க்கைச் சுழற்சி
+
+![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.ta.jpg)
+> புகைப்படம் <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> மூலம் <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> இல்
+  
+இந்த பாடங்களில், தரவின் பகுப்பாய்வு மற்றும் தொடர்பு ஆகியவற்றை உள்ளடக்கிய தரவியல் அறிவியல் வாழ்க்கைச் சுழற்சியின் சில அம்சங்களை நீங்கள் ஆராய்வீர்கள்.
+
+### தலைப்புகள்
+
+1. [அறிமுகம்](14-Introduction/README.md)
+2. [பகுப்பாய்வு](15-analyzing/README.md)
+3. [தொடர்பு](16-communication/README.md)
+
+### கிரெடிட்ஸ்
+
+இந்த பாடங்கள் ❤️ உடன் [Jalen McGee](https://twitter.com/JalenMCG) மற்றும் [Jasmine Greenaway](https://twitter.com/paladique) மூலம் எழுதப்பட்டவை.
+
+---
+
+**குறிப்பு**:  
+இந்த ஆவணம் [Co-op Translator](https://github.com/Azure/co-op-translator) என்ற AI மொழிபெயர்ப்பு சேவையைப் பயன்படுத்தி மொழிபெயர்க்கப்பட்டுள்ளது. நாங்கள் துல்லியத்திற்காக முயற்சிக்கிறோம், ஆனால் தானியக்க மொழிபெயர்ப்புகளில் பிழைகள் அல்லது தவறான தகவல்கள் இருக்கக்கூடும் என்பதை தயவுசெய்து கவனத்தில் கொள்ளுங்கள். அதன் தாய்மொழியில் உள்ள மூல ஆவணம் அதிகாரப்பூர்வ ஆதாரமாக கருதப்பட வேண்டும். முக்கியமான தகவல்களுக்கு, தொழில்முறை மனித மொழிபெயர்ப்பு பரிந்துரைக்கப்படுகிறது. இந்த மொழிபெயர்ப்பைப் பயன்படுத்துவதால் ஏற்படும் எந்த தவறான புரிதல்கள் அல்லது தவறான விளக்கங்களுக்கு நாங்கள் பொறுப்பல்ல.

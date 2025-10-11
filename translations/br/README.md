@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "d24976d371de57bb657d3127f4195542",
-  "translation_date": "2025-10-03T13:54:28+00:00",
+  "original_hash": "9dc77d6fd78ee43189ae20d3d2206c00",
+  "translation_date": "2025-10-11T14:36:34+00:00",
   "source_file": "README.md",
   "language_code": "br"
 }
@@ -22,9 +22,9 @@ Azure Cloud Advocates na Microsoft têm o prazer de oferecer um currículo de 10
 
 ### 🌐 Suporte Multilíngue
 
-#### Suportado via GitHub Action (Automatizado e Sempre Atualizado)
+#### Suporte via GitHub Action (Automatizado e Sempre Atualizado)
 
-[Francês](../fr/README.md) | [Espanhol](../es/README.md) | [Alemão](../de/README.md) | [Russo](../ru/README.md) | [Árabe](../ar/README.md) | [Persa (Farsi)](../fa/README.md) | [Urdu](../ur/README.md) | [Chinês (Simplificado)](../zh/README.md) | [Chinês (Tradicional, Macau)](../mo/README.md) | [Chinês (Tradicional, Hong Kong)](../hk/README.md) | [Chinês (Tradicional, Taiwan)](../tw/README.md) | [Japonês](../ja/README.md) | [Coreano](../ko/README.md) | [Hindi](../hi/README.md) | [Bengali](../bn/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Português (Portugal)](../pt/README.md) | [Português (Brasil)](./README.md) | [Italiano](../it/README.md) | [Polonês](../pl/README.md) | [Turco](../tr/README.md) | [Grego](../el/README.md) | [Tailandês](../th/README.md) | [Sueco](../sv/README.md) | [Dinamarquês](../da/README.md) | [Norueguês](../no/README.md) | [Finlandês](../fi/README.md) | [Holandês](../nl/README.md) | [Hebraico](../he/README.md) | [Vietnamita](../vi/README.md) | [Indonésio](../id/README.md) | [Malaio](../ms/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Suaíli](../sw/README.md) | [Húngaro](../hu/README.md) | [Tcheco](../cs/README.md) | [Eslovaco](../sk/README.md) | [Romeno](../ro/README.md) | [Búlgaro](../bg/README.md) | [Sérvio (Cirílico)](../sr/README.md) | [Croata](../hr/README.md) | [Esloveno](../sl/README.md) | [Ucraniano](../uk/README.md) | [Birmanês (Myanmar)](../my/README.md)
+[Árabe](../ar/README.md) | [Bengali](../bn/README.md) | [Búlgaro](../bg/README.md) | [Birmanês (Myanmar)](../my/README.md) | [Chinês (Simplificado)](../zh/README.md) | [Chinês (Tradicional, Hong Kong)](../hk/README.md) | [Chinês (Tradicional, Macau)](../mo/README.md) | [Chinês (Tradicional, Taiwan)](../tw/README.md) | [Croata](../hr/README.md) | [Tcheco](../cs/README.md) | [Dinamarquês](../da/README.md) | [Holandês](../nl/README.md) | [Estoniano](../et/README.md) | [Finlandês](../fi/README.md) | [Francês](../fr/README.md) | [Alemão](../de/README.md) | [Grego](../el/README.md) | [Hebraico](../he/README.md) | [Hindi](../hi/README.md) | [Húngaro](../hu/README.md) | [Indonésio](../id/README.md) | [Italiano](../it/README.md) | [Japonês](../ja/README.md) | [Coreano](../ko/README.md) | [Lituano](../lt/README.md) | [Malaio](../ms/README.md) | [Marathi](../mr/README.md) | [Nepalês](../ne/README.md) | [Norueguês](../no/README.md) | [Persa (Farsi)](../fa/README.md) | [Polonês](../pl/README.md) | [Português (Brasil)](./README.md) | [Português (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romeno](../ro/README.md) | [Russo](../ru/README.md) | [Sérvio (Cirílico)](../sr/README.md) | [Eslovaco](../sk/README.md) | [Esloveno](../sl/README.md) | [Espanhol](../es/README.md) | [Suaíli](../sw/README.md) | [Sueco](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tâmil](../ta/README.md) | [Tailandês](../th/README.md) | [Turco](../tr/README.md) | [Ucraniano](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamita](../vi/README.md)
 
 **Se você deseja ter suporte para idiomas adicionais, eles estão listados [aqui](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
@@ -33,13 +33,13 @@ Azure Cloud Advocates na Microsoft têm o prazer de oferecer um currículo de 10
 
 Temos uma série de aprendizado com IA em andamento no Discord. Saiba mais e junte-se a nós em [Learn with AI Series](https://aka.ms/learnwithai/discord) de 18 a 30 de setembro de 2025. Você receberá dicas e truques sobre como usar o GitHub Copilot para Ciência de Dados.
 
-![Learn with AI series](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.br.jpg)
+![Série Learn with AI](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.br.jpg)
 
 # Você é estudante?
 
 Comece com os seguintes recursos:
 
-- [Página do Student Hub](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Nesta página, você encontrará recursos para iniciantes, pacotes para estudantes e até maneiras de obter um voucher de certificação gratuito. Esta é uma página que você vai querer marcar e verificar de tempos em tempos, pois trocamos o conteúdo pelo menos mensalmente.
+- [Página do Hub de Estudantes](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Nesta página, você encontrará recursos para iniciantes, pacotes para estudantes e até mesmo maneiras de obter um voucher de certificação gratuito. Esta é uma página que você vai querer marcar e verificar de tempos em tempos, pois trocamos o conteúdo pelo menos mensalmente.
 - [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Junte-se a uma comunidade global de embaixadores estudantis, isso pode ser sua porta de entrada para a Microsoft.
 
 # Começando
@@ -75,9 +75,9 @@ Comece com os seguintes recursos:
 > 🎥 Clique na imagem acima para assistir a um vídeo sobre o projeto e as pessoas que o criaram!
 
 ## Pedagogia
+Escolhemos dois princípios pedagógicos ao construir este currículo: garantir que ele seja baseado em projetos e que inclua quizzes frequentes. Ao final desta série, os alunos terão aprendido os princípios básicos de ciência de dados, incluindo conceitos éticos, preparação de dados, diferentes formas de trabalhar com dados, visualização de dados, análise de dados, casos de uso reais de ciência de dados e muito mais.
 
-Escolhemos dois princípios pedagógicos ao construir este currículo: garantir que ele seja baseado em projetos e que inclua questionários frequentes. Ao final desta série, os estudantes terão aprendido os princípios básicos da ciência de dados, incluindo conceitos éticos, preparação de dados, diferentes formas de trabalhar com dados, visualização de dados, análise de dados, casos de uso reais de ciência de dados e muito mais.
-Além disso, um quiz de baixa complexidade antes da aula ajuda o aluno a se concentrar no aprendizado de um tópico, enquanto um segundo quiz após a aula garante maior retenção. Este currículo foi projetado para ser flexível e divertido, podendo ser realizado integralmente ou parcialmente. Os projetos começam pequenos e se tornam progressivamente mais complexos ao final do ciclo de 10 semanas.
+Além disso, um quiz de baixa pressão antes da aula ajuda a direcionar a intenção do aluno para aprender um tópico, enquanto um segundo quiz após a aula garante maior retenção. Este currículo foi projetado para ser flexível e divertido e pode ser realizado integralmente ou parcialmente. Os projetos começam pequenos e se tornam progressivamente mais complexos ao final do ciclo de 10 semanas.
 
 > Encontre nosso [Código de Conduta](CODE_OF_CONDUCT.md), [Contribuição](CONTRIBUTING.md), [Diretrizes de Tradução](TRANSLATIONS.md). Agradecemos seu feedback construtivo!
 
@@ -88,17 +88,17 @@ Além disso, um quiz de baixa complexidade antes da aula ajuda o aluno a se conc
 - Quiz de aquecimento antes da aula
 - Aula escrita
 - Para aulas baseadas em projetos, guias passo a passo sobre como construir o projeto
-- Verificação de conhecimento
+- Verificações de conhecimento
 - Um desafio
 - Leitura suplementar
 - Tarefa
 - [Quiz pós-aula](https://ff-quizzes.netlify.app/en/)
 
-> **Uma observação sobre os quizzes**: Todos os quizzes estão contidos na pasta Quiz-App, totalizando 40 quizzes com três perguntas cada. Eles estão vinculados dentro das aulas, mas o aplicativo de quiz pode ser executado localmente ou implantado no Azure; siga as instruções na pasta `quiz-app`. Eles estão sendo gradualmente localizados.
+> **Uma nota sobre quizzes**: Todos os quizzes estão contidos na pasta Quiz-App, totalizando 40 quizzes de três perguntas cada. Eles estão vinculados dentro das aulas, mas o aplicativo de quiz pode ser executado localmente ou implantado no Azure; siga as instruções na pasta `quiz-app`. Eles estão sendo gradualmente localizados.
 
 ## 🎓 Exemplos para Iniciantes
 
-**Novo em Ciência de Dados?** Criamos um [diretório de exemplos](examples/README.md) especial com códigos simples e bem comentados para ajudá-lo a começar:
+**Novo em Ciência de Dados?** Criamos um [diretório de exemplos](examples/README.md) especial com código simples e bem comentado para ajudá-lo a começar:
 
 - 🌟 **Hello World** - Seu primeiro programa de ciência de dados
 - 📂 **Carregando Dados** - Aprenda a ler e explorar conjuntos de dados
@@ -118,12 +118,12 @@ Cada exemplo inclui comentários detalhados explicando cada etapa, tornando-o pe
 
 | Número da Aula | Tópico | Agrupamento de Aulas | Objetivos de Aprendizado | Aula Vinculada | Autor |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | Definindo Ciência de Dados | [Introdução](1-Introduction/README.md) | Aprenda os conceitos básicos de ciência de dados e como ela está relacionada à inteligência artificial, aprendizado de máquina e big data. | [aula](1-Introduction/01-defining-data-science/README.md) [vídeo](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 01 | Definindo Ciência de Dados | [Introdução](1-Introduction/README.md) | Aprenda os conceitos básicos por trás da ciência de dados e como ela está relacionada à inteligência artificial, aprendizado de máquina e big data. | [aula](1-Introduction/01-defining-data-science/README.md) [vídeo](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
 | 02 | Ética na Ciência de Dados | [Introdução](1-Introduction/README.md) | Conceitos, desafios e frameworks de ética em dados. | [aula](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
 | 03 | Definindo Dados | [Introdução](1-Introduction/README.md) | Como os dados são classificados e suas fontes comuns. | [aula](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | Introdução a Estatística e Probabilidade | [Introdução](1-Introduction/README.md) | Técnicas matemáticas de probabilidade e estatística para entender os dados. | [aula](1-Introduction/04-stats-and-probability/README.md) [vídeo](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Trabalhando com Dados Relacionais | [Trabalhando com Dados](2-Working-With-Data/README.md) | Introdução a dados relacionais e os fundamentos de exploração e análise de dados relacionais com a Structured Query Language, também conhecida como SQL (pronunciado “sequel”). | [aula](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
-| 06 | Trabalhando com Dados NoSQL | [Trabalhando com Dados](2-Working-With-Data/README.md) | Introdução a dados não relacionais, seus vários tipos e os fundamentos de exploração e análise de bancos de dados de documentos. | [aula](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
+| 04 | Introdução à Estatística e Probabilidade | [Introdução](1-Introduction/README.md) | Técnicas matemáticas de probabilidade e estatística para entender dados. | [aula](1-Introduction/04-stats-and-probability/README.md) [vídeo](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 05 | Trabalhando com Dados Relacionais | [Trabalhando com Dados](2-Working-With-Data/README.md) | Introdução aos dados relacionais e os fundamentos de exploração e análise de dados relacionais com a Structured Query Language, também conhecida como SQL (pronunciado “sequel”). | [aula](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 06 | Trabalhando com Dados NoSQL | [Trabalhando com Dados](2-Working-With-Data/README.md) | Introdução aos dados não relacionais, seus vários tipos e os fundamentos de exploração e análise de bancos de dados de documentos. | [aula](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
 | 07 | Trabalhando com Python | [Trabalhando com Dados](2-Working-With-Data/README.md) | Fundamentos do uso de Python para exploração de dados com bibliotecas como Pandas. É recomendável ter uma compreensão básica de programação em Python. | [aula](2-Working-With-Data/07-python/README.md) [vídeo](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
 | 08 | Preparação de Dados | [Trabalhando com Dados](2-Working-With-Data/README.md) | Técnicas de dados para limpeza e transformação de dados para lidar com desafios de dados ausentes, imprecisos ou incompletos. | [aula](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 09 | Visualizando Quantidades | [Visualização de Dados](3-Data-Visualization/README.md) | Aprenda a usar Matplotlib para visualizar dados de pássaros 🦆 | [aula](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
@@ -135,8 +135,8 @@ Cada exemplo inclui comentários detalhados explicando cada etapa, tornando-o pe
 | 15 | Análise | [Ciclo de Vida](4-Data-Science-Lifecycle/README.md) | Esta fase do ciclo de vida da ciência de dados foca em técnicas para analisar dados. | [aula](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
 | 16 | Comunicação | [Ciclo de Vida](4-Data-Science-Lifecycle/README.md) | Esta fase do ciclo de vida da ciência de dados foca em apresentar os insights dos dados de forma que facilite a compreensão pelos tomadores de decisão. | [aula](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
 | 17 | Ciência de Dados na Nuvem | [Dados na Nuvem](5-Data-Science-In-Cloud/README.md) | Esta série de aulas introduz a ciência de dados na nuvem e seus benefícios. | [aula](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) e [Maud](https://twitter.com/maudstweets) |
-| 18 | Ciência de Dados na Nuvem | [Dados na Nuvem](5-Data-Science-In-Cloud/README.md) | Treinamento de modelos usando ferramentas de baixo código. |[aula](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) e [Maud](https://twitter.com/maudstweets) |
-| 19 | Ciência de Dados na Nuvem | [Dados na Nuvem](5-Data-Science-In-Cloud/README.md) | Implantação de modelos com o Azure Machine Learning Studio. | [aula](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) e [Maud](https://twitter.com/maudstweets) |
+| 18 | Ciência de Dados na Nuvem | [Dados na Nuvem](5-Data-Science-In-Cloud/README.md) | Treinando modelos usando ferramentas de baixo código. |[aula](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) e [Maud](https://twitter.com/maudstweets) |
+| 19 | Ciência de Dados na Nuvem | [Dados na Nuvem](5-Data-Science-In-Cloud/README.md) | Implantando modelos com o Azure Machine Learning Studio. | [aula](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) e [Maud](https://twitter.com/maudstweets) |
 | 20 | Ciência de Dados no Mundo Real | [No Mundo Real](6-Data-Science-In-Wild/README.md) | Projetos impulsionados por ciência de dados no mundo real. | [aula](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
@@ -161,9 +161,9 @@ Ou abra uma versão clonada ou baixada localmente do repositório:
 - Pressione F1 e selecione o comando **Remote-Containers: Open Folder in Container...**.
 - Selecione a cópia clonada desta pasta, aguarde o contêiner iniciar e experimente.
 
-## Acesso offline
+## Acesso Offline
 
-Você pode executar esta documentação offline usando o [Docsify](https://docsify.js.org/#/). Faça um fork deste repositório, [instale o Docsify](https://docsify.js.org/#/quickstart) em sua máquina local, e então, na pasta raiz deste repositório, digite `docsify serve`. O site será servido na porta 3000 em seu localhost: `localhost:3000`.
+Você pode executar esta documentação offline usando [Docsify](https://docsify.js.org/#/). Faça um fork deste repositório, [instale o Docsify](https://docsify.js.org/#/quickstart) em sua máquina local, e então, na pasta raiz deste repositório, digite `docsify serve`. O site será servido na porta 3000 em seu localhost: `localhost:3000`.
 
 > Nota: os notebooks não serão renderizados via Docsify, então, quando precisar executar um notebook, faça isso separadamente no VS Code executando um kernel Python.
 
@@ -182,28 +182,28 @@ Nossa equipe produz outros currículos! Confira:
 - [Bash para Iniciantes](https://github.com/microsoft/bash-for-beginners)
 - [ML para Iniciantes](https://aka.ms/ml-beginners)
 - [Cibersegurança para Iniciantes](https://github.com/microsoft/Security-101) 
-- [Desenvolvimento Web para Iniciantes](https://aka.ms/webdev-beginners)
-- [IoT para Iniciantes](https://aka.ms/iot-beginners)
-- [Aprendizado de Máquina para Iniciantes](https://aka.ms/ml-beginners)
-- [Desenvolvimento XR para Iniciantes](https://aka.ms/xr-dev-for-beginners)
-- [Dominando o GitHub Copilot para Programação em Par com IA](https://aka.ms/GitHubCopilotAI)
-- [Desenvolvimento XR para Iniciantes](https://github.com/microsoft/xr-development-for-beginners)
-- [Dominando o GitHub Copilot para Desenvolvedores C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
-- [Escolha Sua Própria Aventura com Copilot](https://github.com/microsoft/CopilotAdventures)
+- [Desenvolvimento Web para Iniciantes](https://aka.ms/webdev-beginners)  
+- [IoT para Iniciantes](https://aka.ms/iot-beginners)  
+- [Aprendizado de Máquina para Iniciantes](https://aka.ms/ml-beginners)  
+- [Desenvolvimento XR para Iniciantes](https://aka.ms/xr-dev-for-beginners)  
+- [Dominando o GitHub Copilot para Programação em Par com IA](https://aka.ms/GitHubCopilotAI)  
+- [Desenvolvimento XR para Iniciantes](https://github.com/microsoft/xr-development-for-beginners)  
+- [Dominando o GitHub Copilot para Desenvolvedores C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)  
+- [Escolha Sua Própria Aventura com Copilot](https://github.com/microsoft/CopilotAdventures)  
 
-## Obtendo Ajuda
+## Obtendo Ajuda  
 
-**Encontrando problemas?** Confira nosso [Guia de Solução de Problemas](TROUBLESHOOTING.md) para soluções de problemas comuns.
+**Encontrando problemas?** Confira nosso [Guia de Solução de Problemas](TROUBLESHOOTING.md) para soluções de problemas comuns.  
 
-Se você estiver com dificuldades ou tiver dúvidas sobre como criar aplicativos de IA, participe:
+Se você estiver com dificuldades ou tiver dúvidas sobre como criar aplicativos de IA, participe:  
 
-[![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
+[![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)  
 
-Se você tiver feedback sobre o produto ou encontrar erros durante o desenvolvimento, visite:
+Se você tiver feedback sobre o produto ou encontrar erros durante o desenvolvimento, visite:  
 
-[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)  
 
 ---
 
 **Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte autoritativa. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações equivocadas decorrentes do uso desta tradução.
+Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, é importante estar ciente de que traduções automatizadas podem conter erros ou imprecisões. O documento original em seu idioma nativo deve ser considerado a fonte oficial. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes do uso desta tradução.
