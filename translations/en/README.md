@@ -1,36 +1,19 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "9dc77d6fd78ee43189ae20d3d2206c00",
-  "translation_date": "2025-10-11T14:14:56+00:00",
+  "original_hash": "f9a704f7494ca2d185ded59ba3da99ef",
+  "translation_date": "2025-10-24T08:48:35+00:00",
   "source_file": "README.md",
   "language_code": "en"
 }
 -->
 # Data Science for Beginners - A Curriculum
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
-
-[![GitHub license](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
-[![GitHub issues](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
-[![GitHub forks](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
-[![GitHub stars](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
-
-[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)
-
-[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
-
-Azure Cloud Advocates at Microsoft are excited to present a 10-week, 20-lesson curriculum focused on Data Science. Each lesson includes pre-lesson and post-lesson quizzes, detailed instructions, solutions, and assignments. This project-based approach helps you learn by doing, ensuring the knowledge sticks.
+Azure Cloud Advocates at Microsoft are excited to present a 10-week, 20-lesson curriculum focused on Data Science. Each lesson includes pre-lesson and post-lesson quizzes, detailed instructions, solutions, and assignments. This project-based approach ensures you learn effectively by building and applying your skills.
 
 **Special thanks to our authors:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
-**🙏 A big thank you 🙏 to our [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) authors, reviewers, and contributors,** including Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
-[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar, [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
+**🙏 A big thank you 🙏 to our [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) authors, reviewers, and contributors,** including Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200), [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar, [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/).
 
 |![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.en.png)|
 |:---:|
@@ -47,7 +30,7 @@ Azure Cloud Advocates at Microsoft are excited to present a 10-week, 20-lesson c
 #### Join Our Community 
 [![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://aka.ms/ds4beginners/discord)
 
-We are hosting a Discord "Learn with AI" series from September 18–30, 2025. Join us to learn tips and tricks for using GitHub Copilot in Data Science.
+We are hosting a Discord Learn with AI series from September 18 - 30, 2025. Join us to learn tips and tricks for using GitHub Copilot in Data Science. [Learn more and join here](https://aka.ms/learnwithai/discord).
 
 ![Learn with AI series](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.en.jpg)
 
@@ -55,8 +38,8 @@ We are hosting a Discord "Learn with AI" series from September 18–30, 2025. Jo
 
 Get started with these resources:
 
-- [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum): Find beginner resources, student packs, and even ways to get a free certification voucher. Bookmark this page and check back often, as content is updated monthly.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum): Join a global community of student ambassadors—your gateway to Microsoft.
+- [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum): Find beginner resources, student packs, and even ways to get a free certification voucher. Bookmark this page and check back regularly for updated content.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum): Join a global community of student ambassadors and explore opportunities to connect with Microsoft.
 
 # Getting Started
 
@@ -69,18 +52,18 @@ Get started with these resources:
 - **[For Teachers](for-teachers.md)** - Teaching guidance and classroom resources
 
 ## 👨‍🎓 For Students
-> **Complete Beginners**: New to data science? Start with our [beginner-friendly examples](examples/README.md)! These simple, well-commented examples will help you understand the basics before diving into the full curriculum.
-> **[Students](https://aka.ms/student-page)**: To use this curriculum independently, fork the entire repository and complete the exercises on your own, starting with the pre-lecture quiz. Then, read the lecture and complete the activities. Try to build the projects by understanding the lessons rather than copying the solution code (though solutions are available in the /solutions folders for each project-based lesson). Alternatively, form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **Complete Beginners**: If you're new to data science, start with our [beginner-friendly examples](examples/README.md)! These simple, well-commented examples will help you grasp the basics before diving into the full curriculum.
+> **[Students](https://aka.ms/student-page)**: To use this curriculum independently, fork the repository and complete the exercises starting with the pre-lecture quiz. Read the lecture and complete the activities. Try to build the projects by understanding the lessons rather than copying the solution code (available in the /solutions folders for each project-based lesson). Alternatively, form a study group with friends and go through the content together. For further study, we recommend [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 **Quick Start:**
-1. Check the [Installation Guide](INSTALLATION.md) to set up your environment.
-2. Review the [Usage Guide](USAGE.md) to learn how to work with the curriculum.
-3. Start with Lesson 1 and progress sequentially.
+1. Follow the [Installation Guide](INSTALLATION.md) to set up your environment.
+2. Check out the [Usage Guide](USAGE.md) to learn how to navigate the curriculum.
+3. Begin with Lesson 1 and progress sequentially.
 4. Join our [Discord community](https://aka.ms/ds4beginners/discord) for support.
 
 ## 👩‍🏫 For Teachers
 
-> **Teachers**: We have [included some suggestions](for-teachers.md) on how to use this curriculum. We'd love your feedback [in our discussion forum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
+> **Teachers**: We've [included suggestions](for-teachers.md) on how to use this curriculum effectively. Share your feedback [in our discussion forum](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
 ## Meet the Team
 
@@ -88,14 +71,14 @@ Get started with these resources:
 
 **Gif by** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
 
-> 🎥 Click the image above for a video about the project and the team behind it!
+> 🎥 Click the image above to watch a video about the project and the team behind it!
 
 ## Pedagogy
-We have selected two educational principles while designing this curriculum: ensuring it is project-based and includes frequent quizzes. By the end of this series, students will have learned the basic principles of data science, including ethical concepts, data preparation, various methods of working with data, data visualization, data analysis, real-world applications of data science, and more.
+We have selected two key educational principles while designing this curriculum: ensuring it is project-based and includes frequent quizzes. By the end of this series, students will have learned fundamental concepts of data science, including ethical considerations, data preparation, various methods of working with data, data visualization, data analysis, real-world applications of data science, and more.
 
-Additionally, a low-pressure quiz before a class helps set the student's focus on the topic, while a second quiz after class reinforces retention. This curriculum is designed to be flexible and enjoyable, and it can be completed in its entirety or in parts. The projects start small and gradually increase in complexity over the 10-week cycle.
+Additionally, a low-pressure quiz before each class helps students focus on the topic, while a second quiz after class reinforces their learning. This curriculum is designed to be flexible and enjoyable, and can be completed in full or in part. The projects start small and gradually become more complex by the end of the 10-week cycle.
 
-> Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), and [Translation](TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
+> Check out our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), and [Translation](TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
 
 ## Each lesson includes:
 
@@ -110,27 +93,29 @@ Additionally, a low-pressure quiz before a class helps set the student's focus o
 - Assignment
 - [Post-lesson quiz](https://ff-quizzes.netlify.app/en/)
 
-> **A note about quizzes**: All quizzes are located in the Quiz-App folder, with a total of 40 quizzes, each containing three questions. They are linked within the lessons, but the quiz app can also be run locally or deployed to Azure; follow the instructions in the `quiz-app` folder. Localization is ongoing.
+> **A note about quizzes**: All quizzes are located in the Quiz-App folder, with a total of 40 quizzes, each containing three questions. They are linked within the lessons, but the quiz app can be run locally or deployed to Azure; follow the instructions in the `quiz-app` folder. Localization is ongoing.
 
 ## 🎓 Beginner-Friendly Examples
 
 **New to Data Science?** We've created a special [examples directory](examples/README.md) with simple, well-commented code to help you get started:
 
 - 🌟 **Hello World** - Your first data science program
-- 📂 **Loading Data** - Learn to read and explore datasets
-- 📊 **Simple Analysis** - Calculate statistics and find patterns
+- 📂 **Loading Data** - Learn how to read and explore datasets
+- 📊 **Simple Analysis** - Calculate statistics and identify patterns
 - 📈 **Basic Visualization** - Create charts and graphs
 - 🔬 **Real-World Project** - Complete workflow from start to finish
 
-Each example includes detailed comments explaining every step, making it perfect for absolute beginners!
+Each example includes detailed comments explaining every step, making it ideal for absolute beginners!
 
 👉 **[Start with the examples](examples/README.md)** 👈
 
 ## Lessons
 
+
 |![ Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.en.png)|
 |:---:|
 | Data Science For Beginners: Roadmap - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+
 
 | Lesson Number | Topic | Lesson Grouping | Learning Objectives | Linked Lesson | Author |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
@@ -187,39 +172,53 @@ You can run this documentation offline by using [Docsify](https://docsify.js.org
 
 Our team produces other curricula! Check out:
 
-- [Edge AI for Beginners](https://aka.ms/edgeai-for-beginners)
-- [AI Agents for Beginners](https://aka.ms/ai-agents-beginners)
-- [Generative AI for Beginners](https://aka.ms/genai-beginners)
-- [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
-- [Generative AI with JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
-- [Generative AI with Java](https://aka.ms/genaijava)
-- [AI for Beginners](https://aka.ms/ai-beginners)
-- [Data Science for Beginners](https://aka.ms/datascience-beginners)
-- [Bash for Beginners](https://github.com/microsoft/bash-for-beginners)
-- [ML for Beginners](https://aka.ms/ml-beginners)
-- [Cybersecurity for Beginners](https://github.com/microsoft/Security-101) 
-- [Web Development for Beginners](https://aka.ms/webdev-beginners)  
-- [IoT for Beginners](https://aka.ms/iot-beginners)  
-- [Machine Learning for Beginners](https://aka.ms/ml-beginners)  
-- [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)  
-- [Mastering GitHub Copilot for AI Paired Programming](https://aka.ms/GitHubCopilotAI)  
-- [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners)  
-- [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)  
-- [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)  
+<!-- CO-OP TRANSLATOR OTHER COURSES START -->
+### Azure / Edge / MCP / Agents
+[![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Edge AI for Beginners](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![MCP for Beginners](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)  
+[![AI Agents for Beginners](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+
+---
+
+### Generative AI Series  
+[![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)  
+[![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)  
+[![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)  
+[![Generative AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
+
+---
+
+### Core Learning  
+[![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)  
+[![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)  
+[![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)  
+[![Cybersecurity for Beginners](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)  
+[![Web Dev for Beginners](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)  
+[![IoT for Beginners](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)  
+[![XR Development for Beginners](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+
+---
+
+### Copilot Series  
+[![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)  
+[![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)  
+[![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)  
+<!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
 ## Getting Help  
 
-**Having trouble?** Check out our [Troubleshooting Guide](TROUBLESHOOTING.md) for solutions to common issues.  
+**Having issues?** Check out our [Troubleshooting Guide](TROUBLESHOOTING.md) for solutions to common problems.
 
 If you're stuck or have questions about building AI applications, join:  
 
 [![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)  
 
-For product feedback or issues while building, visit:  
+For product feedback or errors while building, visit:  
 
 [![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)  
 
 ---
 
 **Disclaimer**:  
-This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we aim for accuracy, please note that automated translations may contain errors or inaccuracies. The original document in its native language should be regarded as the authoritative source. For critical information, professional human translation is recommended. We are not responsible for any misunderstandings or misinterpretations resulting from the use of this translation.
+This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we aim for accuracy, please note that automated translations may include errors or inaccuracies. The original document in its native language should be regarded as the authoritative source. For critical information, professional human translation is advised. We are not responsible for any misunderstandings or misinterpretations resulting from the use of this translation.
