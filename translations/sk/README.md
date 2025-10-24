@@ -1,31 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "9dc77d6fd78ee43189ae20d3d2206c00",
-  "translation_date": "2025-10-11T14:55:27+00:00",
+  "original_hash": "f9a704f7494ca2d185ded59ba3da99ef",
+  "translation_date": "2025-10-24T09:21:32+00:00",
   "source_file": "README.md",
   "language_code": "sk"
 }
 -->
 # Data Science pre začiatočníkov - Učebný plán
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
-
-[![GitHub license](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
-[![GitHub issues](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
-[![GitHub forks](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
-[![GitHub stars](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
-
-[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)
-
-[![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
-
-Azure Cloud Advocates v Microsoft s radosťou ponúkajú 10-týždňový, 20-lekciový učebný plán o Data Science. Každá lekcia obsahuje kvízy pred a po lekcii, písomné pokyny na dokončenie lekcie, riešenie a úlohu. Náš projektovo orientovaný prístup vám umožní učiť sa prostredníctvom tvorby, čo je osvedčený spôsob, ako si nové zručnosti lepšie osvojiť.
+Azure Cloud Advocates v Microsofte s radosťou ponúkajú 10-týždňový, 20-lekciový učebný plán o Data Science. Každá lekcia obsahuje kvízy pred a po lekcii, písomné pokyny na dokončenie lekcie, riešenie a úlohu. Náš projektovo orientovaný prístup vám umožní učiť sa prostredníctvom tvorby, čo je osvedčený spôsob, ako si nové zručnosti lepšie osvojiť.
 
 **Veľká vďaka našim autorom:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
@@ -40,11 +24,9 @@ Azure Cloud Advocates v Microsoft s radosťou ponúkajú 10-týždňový, 20-lek
 
 #### Podporované prostredníctvom GitHub Action (Automatizované a vždy aktuálne)
 
-<!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabčina](../ar/README.md) | [Bengálčina](../bn/README.md) | [Bulharčina](../bg/README.md) | [Barmčina (Mjanmarsko)](../my/README.md) | [Čínština (zjednodušená)](../zh/README.md) | [Čínština (tradičná, Hongkong)](../hk/README.md) | [Čínština (tradičná, Macao)](../mo/README.md) | [Čínština (tradičná, Taiwan)](../tw/README.md) | [Chorvátčina](../hr/README.md) | [Čeština](../cs/README.md) | [Dánčina](../da/README.md) | [Holandčina](../nl/README.md) | [Estónčina](../et/README.md) | [Fínčina](../fi/README.md) | [Francúzština](../fr/README.md) | [Nemčina](../de/README.md) | [Gréčtina](../el/README.md) | [Hebrejčina](../he/README.md) | [Hindčina](../hi/README.md) | [Maďarčina](../hu/README.md) | [Indonézština](../id/README.md) | [Taliančina](../it/README.md) | [Japončina](../ja/README.md) | [Kórejčina](../ko/README.md) | [Litovčina](../lt/README.md) | [Malajčina](../ms/README.md) | [Maráthčina](../mr/README.md) | [Nepálčina](../ne/README.md) | [Nórčina](../no/README.md) | [Perzština (Farsí)](../fa/README.md) | [Poľština](../pl/README.md) | [Portugalčina (Brazília)](../br/README.md) | [Portugalčina (Portugalsko)](../pt/README.md) | [Pandžábčina (Gurmukhi)](../pa/README.md) | [Rumunčina](../ro/README.md) | [Ruština](../ru/README.md) | [Srbčina (Cyrilika)](../sr/README.md) | [Slovenčina](./README.md) | [Slovinčina](../sl/README.md) | [Španielčina](../es/README.md) | [Swahilčina](../sw/README.md) | [Švédčina](../sv/README.md) | [Tagalog (Filipínčina)](../tl/README.md) | [Tamilčina](../ta/README.md) | [Thajčina](../th/README.md) | [Turečtina](../tr/README.md) | [Ukrajinčina](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamčina](../vi/README.md)
-<!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
+[Arabčina](../ar/README.md) | [Bengálčina](../bn/README.md) | [Bulharčina](../bg/README.md) | [Barmčina (Myanmar)](../my/README.md) | [Čínština (zjednodušená)](../zh/README.md) | [Čínština (tradičná, Hongkong)](../hk/README.md) | [Čínština (tradičná, Macao)](../mo/README.md) | [Čínština (tradičná, Taiwan)](../tw/README.md) | [Chorvátčina](../hr/README.md) | [Čeština](../cs/README.md) | [Dánčina](../da/README.md) | [Holandčina](../nl/README.md) | [Estónčina](../et/README.md) | [Fínčina](../fi/README.md) | [Francúzština](../fr/README.md) | [Nemčina](../de/README.md) | [Gréčtina](../el/README.md) | [Hebrejčina](../he/README.md) | [Hindčina](../hi/README.md) | [Maďarčina](../hu/README.md) | [Indonézština](../id/README.md) | [Taliančina](../it/README.md) | [Japončina](../ja/README.md) | [Kórejčina](../ko/README.md) | [Litovčina](../lt/README.md) | [Malajčina](../ms/README.md) | [Maráthčina](../mr/README.md) | [Nepálčina](../ne/README.md) | [Nórčina](../no/README.md) | [Perzština (Farsi)](../fa/README.md) | [Poľština](../pl/README.md) | [Portugalčina (Brazília)](../br/README.md) | [Portugalčina (Portugalsko)](../pt/README.md) | [Pandžábčina (Gurmukhi)](../pa/README.md) | [Rumunčina](../ro/README.md) | [Ruština](../ru/README.md) | [Srbčina (Cyrilika)](../sr/README.md) | [Slovenčina](./README.md) | [Slovinčina](../sl/README.md) | [Španielčina](../es/README.md) | [Swahilčina](../sw/README.md) | [Švédčina](../sv/README.md) | [Tagalog (Filipíny)](../tl/README.md) | [Tamilčina](../ta/README.md) | [Thajčina](../th/README.md) | [Turečtina](../tr/README.md) | [Ukrajinčina](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamčina](../vi/README.md)
 
-**Ak chcete podporiť ďalšie jazyky, zoznam podporovaných jazykov nájdete [tu](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**Ak si želáte podporu ďalších jazykov, zoznam podporovaných jazykov nájdete [tu](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
 #### Pripojte sa k našej komunite 
 [![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://aka.ms/ds4beginners/discord)
@@ -57,32 +39,32 @@ Máme prebiehajúcu sériu Learn with AI na Discorde, dozviete sa viac a pripojt
 
 Začnite s nasledujúcimi zdrojmi:
 
-- [Stránka Student Hub](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Na tejto stránke nájdete zdroje pre začiatočníkov, študentské balíčky a dokonca aj spôsoby, ako získať bezplatný certifikát. Toto je stránka, ktorú si chcete uložiť a pravidelne kontrolovať, pretože obsah meníme aspoň raz mesačne.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Pripojte sa k globálnej komunite študentských ambasádorov, toto môže byť vaša cesta do Microsoftu.
+- [Stránka Student Hub](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Na tejto stránke nájdete zdroje pre začiatočníkov, balíčky pre študentov a dokonca aj spôsoby, ako získať bezplatný certifikát. Táto stránka je ideálna na uloženie do záložiek a pravidelné kontrolovanie, pretože obsah sa mení minimálne raz mesačne.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Pripojte sa k celosvetovej komunite študentských ambasádorov, môže to byť vaša cesta do Microsoftu.
 
 # Začíname
 
 ## 📚 Dokumentácia
 
 - **[Inštalačný sprievodca](INSTALLATION.md)** - Krok za krokom nastavenie pre začiatočníkov
-- **[Sprievodca používaním](USAGE.md)** - Príklady a bežné pracovné postupy
+- **[Používateľský sprievodca](USAGE.md)** - Príklady a bežné pracovné postupy
 - **[Riešenie problémov](TROUBLESHOOTING.md)** - Riešenia bežných problémov
-- **[Sprievodca prispievaním](CONTRIBUTING.md)** - Ako prispievať do tohto projektu
+- **[Príručka pre prispievateľov](CONTRIBUTING.md)** - Ako prispievať do tohto projektu
 - **[Pre učiteľov](for-teachers.md)** - Pokyny na výučbu a zdroje pre triedu
 
 ## 👨‍🎓 Pre študentov
 > **Úplní začiatočníci**: Noví v oblasti Data Science? Začnite s našimi [príkladmi pre začiatočníkov](examples/README.md)! Tieto jednoduché, dobre komentované príklady vám pomôžu pochopiť základy predtým, než sa pustíte do celého učebného plánu.
-> **[Študenti](https://aka.ms/student-page)**: Ak chcete tento učebný plán používať samostatne, vytvorte si vlastnú kópiu celého repozitára a dokončite cvičenia sami, začnite kvízom pred lekciou. Potom si prečítajte lekciu a dokončite ostatné aktivity. Pokúste sa vytvárať projekty pochopením lekcií namiesto kopírovania kódu riešenia; tento kód je však dostupný v priečinkoch /solutions v každej projektovo orientovanej lekcii. Ďalším nápadom by bolo vytvoriť študijnú skupinu s priateľmi a prejsť obsah spoločne. Pre ďalšie štúdium odporúčame [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **[Študenti](https://aka.ms/student-page)**: Ak chcete tento učebný plán použiť samostatne, vytvorte si vlastnú kópiu celého repozitára a dokončite cvičenia sami, začnite kvízom pred lekciou. Potom si prečítajte lekciu a dokončite zvyšné aktivity. Pokúste sa vytvoriť projekty pochopením lekcií namiesto kopírovania kódu riešení; tento kód je však dostupný v priečinkoch /solutions v každej lekcii orientovanej na projekt. Ďalším nápadom by mohlo byť vytvorenie študijnej skupiny s priateľmi a prejsť obsah spoločne. Na ďalšie štúdium odporúčame [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 **Rýchly štart:**
 1. Skontrolujte [Inštalačný sprievodca](INSTALLATION.md) na nastavenie vášho prostredia
-2. Prezrite si [Sprievodca používaním](USAGE.md) na naučenie sa práce s učebným plánom
-3. Začnite s lekciou 1 a postupujte postupne
+2. Prezrite si [Používateľský sprievodca](USAGE.md) na naučenie sa práce s učebným plánom
+3. Začnite s Lekciou 1 a postupujte postupne
 4. Pripojte sa k našej [Discord komunite](https://aka.ms/ds4beginners/discord) pre podporu
 
 ## 👩‍🏫 Pre učiteľov
 
-> **Učitelia**: [pridali sme niekoľko návrhov](for-teachers.md) na používanie tohto učebného plánu. Radi by sme počuli vašu spätnú väzbu [v našom diskusnom fóre](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
+> **Učitelia**: [Zahrnuli sme niekoľko návrhov](for-teachers.md), ako používať tento učebný plán. Radi by sme počuli váš názor [v našom diskusnom fóre](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
 ## Spoznajte tím
 
@@ -93,9 +75,9 @@ Začnite s nasledujúcimi zdrojmi:
 > 🎥 Kliknite na obrázok vyššie pre video o projekte a ľuďoch, ktorí ho vytvorili!
 
 ## Pedagogika
-Pri tvorbe tohto kurikula sme sa rozhodli pre dve pedagogické zásady: zabezpečiť, aby bolo založené na projektoch, a zahrnúť časté kvízy. Na konci tejto série sa študenti naučia základné princípy dátovej vedy, vrátane etických konceptov, prípravy dát, rôznych spôsobov práce s dátami, vizualizácie dát, analýzy dát, reálnych prípadov použitia dátovej vedy a ďalších tém.
+Pri vytváraní tohto kurikula sme si zvolili dva pedagogické princípy: zabezpečiť, aby bolo založené na projektoch, a aby obsahovalo časté kvízy. Na konci tejto série sa študenti naučia základné princípy dátovej vedy, vrátane etických konceptov, prípravy dát, rôznych spôsobov práce s dátami, vizualizácie dát, analýzy dát, reálnych prípadov použitia dátovej vedy a ďalších.
 
-Okrem toho, nízko stresový kvíz pred hodinou nastaví študentov na učenie sa témy, zatiaľ čo druhý kvíz po hodine zabezpečí lepšie zapamätanie. Toto kurikulum bolo navrhnuté tak, aby bolo flexibilné a zábavné, a môže byť absolvované celé alebo len jeho časti. Projekty začínajú jednoduchými úlohami a postupne sa stávajú zložitejšími na konci 10-týždňového cyklu.
+Okrem toho, nízko stresový kvíz pred hodinou nastaví študentov na učenie sa témy, zatiaľ čo druhý kvíz po hodine zabezpečí lepšie zapamätanie. Toto kurikulum bolo navrhnuté tak, aby bolo flexibilné a zábavné, a môže byť absolvované celé alebo len jeho časti. Projekty začínajú malými úlohami a postupne sa stávajú zložitejšími na konci 10-týždňového cyklu.
 
 > Nájdite naše [Pravidlá správania](CODE_OF_CONDUCT.md), [Prispievanie](CONTRIBUTING.md), [Preklad](TRANSLATIONS.md) pokyny. Vaša konštruktívna spätná väzba je vítaná!
 
@@ -106,17 +88,17 @@ Okrem toho, nízko stresový kvíz pred hodinou nastaví študentov na učenie s
 - Rozcvičkový kvíz pred lekciou
 - Písomnú lekciu
 - Pre lekcie založené na projektoch, podrobné návody na vytvorenie projektu
-- Kontrolu vedomostí
+- Kontroly vedomostí
 - Výzvu
 - Doplnkové čítanie
 - Zadanie
 - [Kvíz po lekcii](https://ff-quizzes.netlify.app/en/)
 
-> **Poznámka ku kvízom**: Všetky kvízy sú obsiahnuté v priečinku Quiz-App, celkovo 40 kvízov po tri otázky. Sú prepojené priamo z lekcií, ale aplikáciu kvízov je možné spustiť lokálne alebo nasadiť na Azure; postupujte podľa pokynov v priečinku `quiz-app`. Postupne sa lokalizujú.
+> **Poznámka o kvízoch**: Všetky kvízy sú obsiahnuté v priečinku Quiz-App, celkovo 40 kvízov po tri otázky. Sú prepojené v rámci lekcií, ale aplikáciu kvízov je možné spustiť lokálne alebo nasadiť na Azure; postupujte podľa pokynov v priečinku `quiz-app`. Postupne sa lokalizujú.
 
 ## 🎓 Príklady pre začiatočníkov
 
-**Nový v dátovej vede?** Vytvorili sme špeciálny [priečinok s príkladmi](examples/README.md) s jednoduchým, dobre komentovaným kódom, ktorý vám pomôže začať:
+**Noví v dátovej vede?** Vytvorili sme špeciálny [priečinok s príkladmi](examples/README.md) s jednoduchým, dobre komentovaným kódom, ktorý vám pomôže začať:
 
 - 🌟 **Hello World** - Váš prvý program v dátovej vede
 - 📂 **Načítanie dát** - Naučte sa čítať a skúmať datasety
@@ -130,9 +112,11 @@ Každý príklad obsahuje podrobné komentáre vysvetľujúce každý krok, čo 
 
 ## Lekcie
 
-|![ Sketchnote od @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.sk.png)|
+
+|![ Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.sk.png)|
 |:---:|
 | Dátová veda pre začiatočníkov: Cestovná mapa - _Sketchnote od [@nitya](https://twitter.com/nitya)_ |
+
 
 | Číslo lekcie | Téma | Skupina lekcií | Ciele učenia | Prepojená lekcia | Autor |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
@@ -145,17 +129,17 @@ Každý príklad obsahuje podrobné komentáre vysvetľujúce každý krok, čo 
 | 07 | Práca s Pythonom | [Práca s dátami](2-Working-With-Data/README.md) | Základy používania Pythonu na skúmanie dát s knižnicami ako Pandas. Odporúča sa základné pochopenie programovania v Pythone. | [lekcia](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
 | 08 | Príprava dát | [Práca s dátami](2-Working-With-Data/README.md) | Témy o technikách čistenia a transformácie dát na riešenie problémov s chýbajúcimi, nepresnými alebo neúplnými dátami. | [lekcia](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 09 | Vizualizácia množstiev | [Vizualizácia dát](3-Data-Visualization/README.md) | Naučte sa používať Matplotlib na vizualizáciu dát o vtákoch 🦆 | [lekcia](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 10 | Vizualizácia rozdelení dát | [Vizualizácia dát](3-Data-Visualization/README.md) | Vizualizácia pozorovaní a trendov v rámci intervalu. | [lekcia](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 10 | Vizualizácia rozdelení dát | [Vizualizácia dát](3-Data-Visualization/README.md) | Vizualizácia pozorovaní a trendov v intervale. | [lekcia](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 11 | Vizualizácia proporcií | [Vizualizácia dát](3-Data-Visualization/README.md) | Vizualizácia diskrétnych a skupinových percentuálnych podielov. | [lekcia](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 12 | Vizualizácia vzťahov | [Vizualizácia dát](3-Data-Visualization/README.md) | Vizualizácia spojení a korelácií medzi súbormi dát a ich premennými. | [lekcia](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | Zmysluplné vizualizácie | [Vizualizácia dát](3-Data-Visualization/README.md) | Techniky a odporúčania na vytváranie vizualizácií, ktoré sú hodnotné pre efektívne riešenie problémov a získanie poznatkov. | [lekcia](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 13 | Zmysluplné vizualizácie | [Vizualizácia dát](3-Data-Visualization/README.md) | Techniky a odporúčania na vytváranie vizualizácií, ktoré sú hodnotné pre efektívne riešenie problémov a získavanie poznatkov. | [lekcia](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 14 | Úvod do životného cyklu dátovej vedy | [Životný cyklus](4-Data-Science-Lifecycle/README.md) | Úvod do životného cyklu dátovej vedy a jeho prvého kroku získavania a extrakcie dát. | [lekcia](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
 | 15 | Analýza | [Životný cyklus](4-Data-Science-Lifecycle/README.md) | Táto fáza životného cyklu dátovej vedy sa zameriava na techniky analýzy dát. | [lekcia](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
 | 16 | Komunikácia | [Životný cyklus](4-Data-Science-Lifecycle/README.md) | Táto fáza životného cyklu dátovej vedy sa zameriava na prezentovanie poznatkov z dát spôsobom, ktorý uľahčuje ich pochopenie pre rozhodovateľov. | [lekcia](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
 | 17 | Dátová veda v cloude | [Cloudové dáta](5-Data-Science-In-Cloud/README.md) | Táto séria lekcií predstavuje dátovú vedu v cloude a jej výhody. | [lekcia](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) a [Maud](https://twitter.com/maudstweets) |
 | 18 | Dátová veda v cloude | [Cloudové dáta](5-Data-Science-In-Cloud/README.md) | Trénovanie modelov pomocou nástrojov s nízkym kódom. |[lekcia](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) a [Maud](https://twitter.com/maudstweets) |
 | 19 | Dátová veda v cloude | [Cloudové dáta](5-Data-Science-In-Cloud/README.md) | Nasadzovanie modelov pomocou Azure Machine Learning Studio. | [lekcia](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) a [Maud](https://twitter.com/maudstweets) |
-| 20 | Dátová veda v praxi | [V praxi](6-Data-Science-In-Wild/README.md) | Projekty riadené dátovou vedou v reálnom svete. | [lekcia](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| 20 | Dátová veda v reálnom svete | [V reálnom svete](6-Data-Science-In-Wild/README.md) | Projekty riadené dátovou vedou v reálnom svete. | [lekcia](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
@@ -167,11 +151,11 @@ Pre viac informácií si pozrite [dokumentáciu GitHub](https://docs.github.com/
 ## VSCode Remote - Containers
 Postupujte podľa týchto krokov na otvorenie tohto repozitára v kontajneri pomocou vášho lokálneho počítača a VSCode s rozšírením VS Code Remote - Containers:
 
-1. Ak je to váš prvýkrát, čo používate vývojový kontajner, uistite sa, že váš systém spĺňa predpoklady (napr. máte nainštalovaný Docker) v [dokumentácii pre začiatok](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. Ak je to prvýkrát, čo používate vývojový kontajner, uistite sa, že váš systém spĺňa predpoklady (napr. máte nainštalovaný Docker) v [dokumentácii pre začiatok](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
 Na použitie tohto repozitára môžete buď otvoriť repozitár v izolovanom Docker objeme:
 
-**Poznámka**: V zákulisí sa použije príkaz Remote-Containers: **Clone Repository in Container Volume...** na klonovanie zdrojového kódu do Docker objemu namiesto lokálneho súborového systému. [Objemy](https://docs.docker.com/storage/volumes/) sú preferovaným mechanizmom na uchovávanie dát kontajnera.
+**Poznámka**: V zákulisí sa použije Remote-Containers: **Clone Repository in Container Volume...** príkaz na klonovanie zdrojového kódu do Docker objemu namiesto lokálneho súborového systému. [Objemy](https://docs.docker.com/storage/volumes/) sú preferovaným mechanizmom na uchovávanie dát kontajnera.
 
 Alebo otvorte lokálne klonovanú alebo stiahnutú verziu repozitára:
 
@@ -181,7 +165,7 @@ Alebo otvorte lokálne klonovanú alebo stiahnutú verziu repozitára:
 
 ## Offline prístup
 
-Túto dokumentáciu môžete spustiť offline pomocou [Docsify](https://docsify.js.org/#/). Forknite tento repozitár, [nainštalujte Docsify](https://docsify.js.org/#/quickstart) na váš lokálny počítač, potom v koreňovom priečinku tohto repozitára zadajte `docsify serve`. Webová stránka bude dostupná na porte 3000 na vašom localhost: `localhost:3000`.
+Túto dokumentáciu môžete spustiť offline pomocou [Docsify](https://docsify.js.org/#/). Forknite tento repozitár, [nainštalujte Docsify](https://docsify.js.org/#/quickstart) na váš lokálny počítač, potom v koreňovom priečinku tohto repozitára zadajte `docsify serve`. Webová stránka bude spustená na porte 3000 na vašom localhost: `localhost:3000`.
 
 > Poznámka, notebooky nebudú renderované cez Docsify, takže keď potrebujete spustiť notebook, urobte to samostatne vo VS Code s bežiacim Python kernelom.
 
@@ -189,39 +173,53 @@ Túto dokumentáciu môžete spustiť offline pomocou [Docsify](https://docsify.
 
 Náš tím vytvára aj ďalšie kurikulum! Pozrite si:
 
-- [Edge AI pre začiatočníkov](https://aka.ms/edgeai-for-beginners)
-- [AI agenti pre začiatočníkov](https://aka.ms/ai-agents-beginners)
-- [Generatívna AI pre začiatočníkov](https://aka.ms/genai-beginners)
-- [Generatívna AI pre začiatočníkov .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
-- [Generatívna AI s JavaScriptom](https://github.com/microsoft/generative-ai-with-javascript)
-- [Generatívna AI s Javou](https://aka.ms/genaijava)
-- [AI pre začiatočníkov](https://aka.ms/ai-beginners)
-- [Dátová veda pre začiatočníkov](https://aka.ms/datascience-beginners)
-- [Bash pre začiatočníkov](https://github.com/microsoft/bash-for-beginners)
-- [ML pre začiatočníkov](https://aka.ms/ml-beginners)
-- [Kybernetická bezpečnosť pre začiatočníkov](https://github.com/microsoft/Security-101) 
-- [Web Dev pre začiatočníkov](https://aka.ms/webdev-beginners)  
-- [IoT pre začiatočníkov](https://aka.ms/iot-beginners)  
-- [Strojové učenie pre začiatočníkov](https://aka.ms/ml-beginners)  
-- [XR vývoj pre začiatočníkov](https://aka.ms/xr-dev-for-beginners)  
-- [Ovládnutie GitHub Copilot pre AI párové programovanie](https://aka.ms/GitHubCopilotAI)  
-- [XR vývoj pre začiatočníkov](https://github.com/microsoft/xr-development-for-beginners)  
-- [Ovládnutie GitHub Copilot pre vývojárov C#/.NET](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)  
-- [Vyberte si vlastné dobrodružstvo s Copilotom](https://github.com/microsoft/CopilotAdventures)  
+<!-- CO-OP TRANSLATOR OTHER COURSES START -->
+### Azure / Edge / MCP / Agents
+[![AZD pre začiatočníkov](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Edge AI pre začiatočníkov](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![MCP pre začiatočníkov](https://img.shields.io/badge/MCP%20pre%20začiatočníkov-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)  
+[![AI agenti pre začiatočníkov](https://img.shields.io/badge/AI%20agenti%20pre%20začiatočníkov-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+
+---
+
+### Séria Generatívna AI  
+[![Generatívna AI pre začiatočníkov](https://img.shields.io/badge/Generatívna%20AI%20pre%20začiatočníkov-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)  
+[![Generatívna AI (.NET)](https://img.shields.io/badge/Generatívna%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)  
+[![Generatívna AI (Java)](https://img.shields.io/badge/Generatívna%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)  
+[![Generatívna AI (JavaScript)](https://img.shields.io/badge/Generatívna%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
+
+---
+
+### Základné učenie  
+[![ML pre začiatočníkov](https://img.shields.io/badge/ML%20pre%20začiatočníkov-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)  
+[![Data Science pre začiatočníkov](https://img.shields.io/badge/Data%20Science%20pre%20začiatočníkov-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)  
+[![AI pre začiatočníkov](https://img.shields.io/badge/AI%20pre%20začiatočníkov-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)  
+[![Kybernetická bezpečnosť pre začiatočníkov](https://img.shields.io/badge/Kybernetická%20bezpečnosť%20pre%20začiatočníkov-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)  
+[![Webový vývoj pre začiatočníkov](https://img.shields.io/badge/Webový%20vývoj%20pre%20začiatočníkov-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)  
+[![IoT pre začiatočníkov](https://img.shields.io/badge/IoT%20pre%20začiatočníkov-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)  
+[![XR vývoj pre začiatočníkov](https://img.shields.io/badge/XR%20vývoj%20pre%20začiatočníkov-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+
+---
+
+### Séria Copilot  
+[![Copilot pre AI párové programovanie](https://img.shields.io/badge/Copilot%20pre%20AI%20párové%20programovanie-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)  
+[![Copilot pre C#/.NET](https://img.shields.io/badge/Copilot%20pre%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)  
+[![Copilot Dobrodružstvo](https://img.shields.io/badge/Copilot%20Dobrodružstvo-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)  
+<!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
 ## Získanie pomoci  
 
-**Narazili ste na problémy?** Pozrite si náš [Sprievodca riešením problémov](TROUBLESHOOTING.md) pre riešenia bežných problémov.  
+**Máte problémy?** Pozrite si náš [Sprievodca riešením problémov](TROUBLESHOOTING.md) pre riešenia bežných problémov.  
 
 Ak ste sa zasekli alebo máte otázky ohľadom budovania AI aplikácií, pridajte sa:  
 
 [![Azure AI Foundry Discord](https://img.shields.io/badge/Discord-Azure_AI_Foundry_Community_Discord-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)  
 
-Ak máte spätnú väzbu k produktu alebo narazíte na chyby počas vývoja, navštívte:  
+Ak máte spätnú väzbu k produktom alebo chyby pri budovaní, navštívte:  
 
 [![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)  
 
 ---
 
-**Upozornenie**:  
-Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Hoci sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho rodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nenesieme zodpovednosť za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+**Zrieknutie sa zodpovednosti**:  
+Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Aj keď sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho rodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nie sme zodpovední za žiadne nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
