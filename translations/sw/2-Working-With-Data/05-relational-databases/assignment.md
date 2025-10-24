@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "2f2d7693f28e4b2675f275e489dc5aac",
-  "translation_date": "2025-08-26T14:32:28+00:00",
+  "original_hash": "25b37acdfb2452917c1aa2e2ca44317a",
+  "translation_date": "2025-10-24T09:57:27+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/assignment.md",
   "language_code": "sw"
 }
@@ -32,13 +32,14 @@ Hatua inayofuata ni kupakua na kufungua hifadhidata.
 1. Chagua **Choose database from file** na fungua faili ya **airports.db** uliyopakua awali
 1. Baada ya kufungua hifadhidata (hutapata mabadiliko kwenye skrini), tengeneza dirisha jipya la maswali kwa kuchagua **Ctl-Shift-P** (au **Cmd-Shift-P** kwenye Mac) na kuandika `SQLite: New query`
 
-Baada ya kufungua, dirisha jipya la maswali linaweza kutumika kuendesha kauli za SQL dhidi ya hifadhidata. Unaweza kutumia amri **Ctl-Shift-Q** (au **Cmd-Shift-Q** kwenye Mac) kuendesha maswali dhidi ya hifadhidata.
+Ukishafungua, dirisha jipya la maswali linaweza kutumika kuendesha kauli za SQL dhidi ya hifadhidata. Unaweza kutumia amri **Ctl-Shift-Q** (au **Cmd-Shift-Q** kwenye Mac) kuendesha maswali dhidi ya hifadhidata.
 
-> [!NOTE] Kwa maelezo zaidi kuhusu kiendelezi cha SQLite, unaweza kushauriana na [nyaraka](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum)
+> [!NOTE] 
+> Kwa maelezo zaidi kuhusu kiendelezi cha SQLite, unaweza kushauriana na [nyaraka](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum)
 
 ## Muundo wa hifadhidata
 
-Muundo wa hifadhidata ni mpangilio wa jedwali na muundo wake. Hifadhidata ya **airports** ina majedwali mawili, `cities`, ambalo lina orodha ya miji nchini Uingereza na Ireland, na `airports`, ambalo lina orodha ya viwanja vyote vya ndege. Kwa sababu baadhi ya miji inaweza kuwa na viwanja vya ndege vingi, majedwali mawili yalitengenezwa kuhifadhi taarifa. Katika zoezi hili utatumia "joins" kuonyesha taarifa za miji mbalimbali.
+Muundo wa hifadhidata ni mpangilio wa jedwali na muundo wake. Hifadhidata ya **airports** ina majedwali mawili, `cities`, ambalo lina orodha ya miji nchini Uingereza na Ireland, na `airports`, ambalo lina orodha ya viwanja vyote vya ndege. Kwa sababu baadhi ya miji inaweza kuwa na viwanja vya ndege vingi, majedwali mawili yaliundwa kuhifadhi taarifa hizo. Katika zoezi hili utatumia viunganishi kuonyesha taarifa za miji mbalimbali.
 
 | Cities           |
 | ---------------- |
@@ -59,15 +60,15 @@ Tengeneza maswali ya kurudisha taarifa zifuatazo:
 
 1. majina yote ya miji katika jedwali la `Cities`
 1. miji yote nchini Ireland katika jedwali la `Cities`
-1. majina yote ya viwanja vya ndege pamoja na mji na nchi zao
+1. majina yote ya viwanja vya ndege na miji yao na nchi zao
 1. viwanja vyote vya ndege vilivyopo London, Uingereza
 
 ## Rubric
 
-| Bora Zaidi | Inayotosheleza | Inayohitaji Uboreshaji |
-| ---------- | -------------- | ---------------------- |
+| Bora Zaidi | Inayotosheleza | Inayohitaji Kuboresha |
+| ---------- | -------------- | --------------------- |
 
 ---
 
 **Kanusho**:  
-Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
+Hati hii imetafsiriwa kwa kutumia huduma ya kutafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kwa usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

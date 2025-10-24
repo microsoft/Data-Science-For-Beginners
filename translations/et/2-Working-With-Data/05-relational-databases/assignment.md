@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "2f2d7693f28e4b2675f275e489dc5aac",
-  "translation_date": "2025-10-11T15:24:58+00:00",
+  "original_hash": "25b37acdfb2452917c1aa2e2ca44317a",
+  "translation_date": "2025-10-24T09:59:49+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/assignment.md",
   "language_code": "et"
 }
 -->
 # Lennujaamade andmete kuvamine
 
-Teile on antud [andmebaas](https://raw.githubusercontent.com/Microsoft/Data-Science-For-Beginners/main/2-Working-With-Data/05-relational-databases/airports.db), mis on ehitatud [SQLite](https://sqlite.org/index.html) peale ja sisaldab teavet lennujaamade kohta. Skeem on allpool välja toodud. Kasutate [SQLite laiendust](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum) [Visual Studio Code'is](https://code.visualstudio.com?WT.mc_id=academic-77958-bethanycheum), et kuvada teavet erinevate linnade lennujaamade kohta.
+Teile on antud [andmebaas](https://raw.githubusercontent.com/Microsoft/Data-Science-For-Beginners/main/2-Working-With-Data/05-relational-databases/airports.db), mis on loodud [SQLite](https://sqlite.org/index.html) abil ja sisaldab teavet lennujaamade kohta. Skeem on allpool kuvatud. Kasutate [SQLite laiendust](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum) [Visual Studio Code'is](https://code.visualstudio.com?WT.mc_id=academic-77958-bethanycheum), et kuvada teavet erinevate linnade lennujaamade kohta.
 
 ## Juhised
 
@@ -17,36 +17,37 @@ Teile on antud [andmebaas](https://raw.githubusercontent.com/Microsoft/Data-Scie
 
 ### Süsteemi seadistamine
 
-Visual Studio Code'i ja SQLite laienduse abil saate andmebaasiga suhelda.
+Andmebaasiga suhtlemiseks saate kasutada Visual Studio Code'i ja SQLite laiendust.
 
 1. Minge lehele [code.visualstudio.com](https://code.visualstudio.com?WT.mc_id=academic-77958-bethanycheum) ja järgige juhiseid Visual Studio Code'i paigaldamiseks
-1. Paigaldage [SQLite laiendus](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum) vastavalt Marketplace'i lehel toodud juhistele
+1. Paigaldage [SQLite laiendus](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum) vastavalt juhistele Marketplace'i lehel
 
 ### Andmebaasi allalaadimine ja avamine
 
 Järgmisena laadige alla ja avage andmebaas.
 
-1. Laadige [andmebaasi fail GitHubist](https://raw.githubusercontent.com/Microsoft/Data-Science-For-Beginners/main/2-Working-With-Data/05-relational-databases/airports.db) alla ja salvestage see kausta
+1. Laadige [GitHubist andmebaasifail](https://raw.githubusercontent.com/Microsoft/Data-Science-For-Beginners/main/2-Working-With-Data/05-relational-databases/airports.db) alla ja salvestage see kausta
 1. Avage Visual Studio Code
 1. Avage andmebaas SQLite laienduses, valides **Ctl-Shift-P** (või **Cmd-Shift-P** Macis) ja sisestades `SQLite: Open database`
-1. Valige **Choose database from file** ja avage varem alla laaditud **airports.db** fail
-1. Pärast andmebaasi avamist (ekraanil ei pruugi midagi muutuda) looge uus päringuaken, valides **Ctl-Shift-P** (või **Cmd-Shift-P** Macis) ja sisestades `SQLite: New query`
+1. Valige **Choose database from file** ja avage **airports.db** fail, mille te varem alla laadisite
+1. Pärast andmebaasi avamist (ekraanil ei pruugi näha olla muudatusi), looge uus päringuaken, valides **Ctl-Shift-P** (või **Cmd-Shift-P** Macis) ja sisestades `SQLite: New query`
 
-Kui päringuaken on avatud, saate SQL-lauseid andmebaasi vastu käivitada. Kasutage käsku **Ctl-Shift-Q** (või **Cmd-Shift-Q** Macis), et päringuid käivitada.
+Kui päringuaken on avatud, saab seda kasutada SQL-i käskude täitmiseks andmebaasi vastu. Käskude täitmiseks andmebaasis saate kasutada käsku **Ctl-Shift-Q** (või **Cmd-Shift-Q** Macis).
 
-> [!NOTE] Lisateabe saamiseks SQLite laienduse kohta vaadake [dokumentatsiooni](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum)
+> [!NOTE] 
+> Lisateabe saamiseks SQLite laienduse kohta võite tutvuda [dokumentatsiooniga](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum)
 
 ## Andmebaasi skeem
 
-Andmebaasi skeem on selle tabelite disain ja struktuur. **airports** andmebaasis on kaks tabelit: `cities`, mis sisaldab Ühendkuningriigi ja Iirimaa linnade loetelu, ja `airports`, mis sisaldab kõigi lennujaamade loetelu. Kuna mõnes linnas võib olla mitu lennujaama, loodi teabe salvestamiseks kaks tabelit. Selles ülesandes kasutate liitumisi, et kuvada teavet erinevate linnade kohta.
+Andmebaasi skeem on selle tabelite kujundus ja struktuur. **airports** andmebaasis on kaks tabelit: `cities`, mis sisaldab Ühendkuningriigi ja Iirimaa linnade loetelu, ja `airports`, mis sisaldab kõigi lennujaamade loetelu. Kuna mõnes linnas võib olla mitu lennujaama, loodi teabe salvestamiseks kaks tabelit. Selles harjutuses kasutate liitumisi, et kuvada teavet erinevate linnade kohta.
 
-| Linnad            |
-| ----------------- |
-| id (PK, integer)  |
-| city (text)       |
-| country (text)    |
+| Cities           |
+| ---------------- |
+| id (PK, integer) |
+| city (text)      |
+| country (text)   |
 
-| Lennujaamad                      |
+| Airports                         |
 | -------------------------------- |
 | id (PK, integer)                 |
 | name (text)                      |
@@ -70,4 +71,4 @@ Looge päringud, et tagastada järgmine teave:
 ---
 
 **Lahtiütlus**:  
-See dokument on tõlgitud, kasutades AI tõlketeenust [Co-op Translator](https://github.com/Azure/co-op-translator). Kuigi püüame tagada täpsuse, palume arvestada, et automaatsed tõlked võivad sisaldada vigu või ebatäpsusi. Algne dokument selle algses keeles tuleks lugeda autoriteetseks allikaks. Olulise teabe puhul soovitame kasutada professionaalset inimtõlget. Me ei vastuta selle tõlke kasutamisest tulenevate arusaamatuste või valede tõlgenduste eest.
+See dokument on tõlgitud AI tõlketeenuse [Co-op Translator](https://github.com/Azure/co-op-translator) abil. Kuigi püüame tagada täpsust, palume arvestada, et automaatsed tõlked võivad sisaldada vigu või ebatäpsusi. Algne dokument selle algkeeles tuleks pidada autoriteetseks allikaks. Olulise teabe puhul soovitame kasutada professionaalset inimtõlget. Me ei vastuta selle tõlke kasutamisest tulenevate arusaamatuste või valesti tõlgenduste eest.

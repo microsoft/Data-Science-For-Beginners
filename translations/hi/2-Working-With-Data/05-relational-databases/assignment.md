@@ -1,15 +1,15 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "2f2d7693f28e4b2675f275e489dc5aac",
-  "translation_date": "2025-08-24T20:56:55+00:00",
+  "original_hash": "25b37acdfb2452917c1aa2e2ca44317a",
+  "translation_date": "2025-10-24T09:53:55+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/assignment.md",
   "language_code": "hi"
 }
 -->
-# हवाई अड्डे के डेटा को प्रदर्शित करना
+# हवाई अड्डे का डेटा प्रदर्शित करना
 
-आपको [SQLite](https://sqlite.org/index.html) पर आधारित एक [डेटाबेस](https://raw.githubusercontent.com/Microsoft/Data-Science-For-Beginners/main/2-Working-With-Data/05-relational-databases/airports.db) दिया गया है, जिसमें हवाई अड्डों की जानकारी है। इसका स्कीमा नीचे दिखाया गया है। आप [Visual Studio Code](https://code.visualstudio.com?WT.mc_id=academic-77958-bethanycheum) में [SQLite एक्सटेंशन](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum) का उपयोग करके विभिन्न शहरों के हवाई अड्डों की जानकारी प्रदर्शित करेंगे।
+आपको [SQLite](https://sqlite.org/index.html) पर आधारित एक [डेटाबेस](https://raw.githubusercontent.com/Microsoft/Data-Science-For-Beginners/main/2-Working-With-Data/05-relational-databases/airports.db) प्रदान किया गया है, जिसमें हवाई अड्डों की जानकारी है। नीचे स्कीमा प्रदर्शित किया गया है। आप [Visual Studio Code](https://code.visualstudio.com?WT.mc_id=academic-77958-bethanycheum) में [SQLite एक्सटेंशन](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum) का उपयोग करके विभिन्न शहरों के हवाई अड्डों की जानकारी प्रदर्शित करेंगे।
 
 ## निर्देश
 
@@ -26,19 +26,20 @@ CO_OP_TRANSLATOR_METADATA:
 
 अब आप डेटाबेस डाउनलोड करेंगे और उसे खोलेंगे।
 
-1. [GitHub से डेटाबेस फाइल](https://raw.githubusercontent.com/Microsoft/Data-Science-For-Beginners/main/2-Working-With-Data/05-relational-databases/airports.db) डाउनलोड करें और इसे किसी डायरेक्टरी में सेव करें।
+1. [GitHub से डेटाबेस फाइल डाउनलोड करें](https://raw.githubusercontent.com/Microsoft/Data-Science-For-Beginners/main/2-Working-With-Data/05-relational-databases/airports.db) और इसे किसी डायरेक्टरी में सेव करें।
 1. Visual Studio Code खोलें।
 1. SQLite एक्सटेंशन में डेटाबेस खोलने के लिए **Ctl-Shift-P** (या Mac पर **Cmd-Shift-P**) दबाएं और `SQLite: Open database` टाइप करें।
 1. **Choose database from file** चुनें और पहले डाउनलोड की गई **airports.db** फाइल खोलें।
 1. डेटाबेस खोलने के बाद (स्क्रीन पर कोई अपडेट नहीं दिखेगा), एक नया क्वेरी विंडो बनाने के लिए **Ctl-Shift-P** (या Mac पर **Cmd-Shift-P**) दबाएं और `SQLite: New query` टाइप करें।
 
-एक बार खुलने के बाद, नया क्वेरी विंडो डेटाबेस पर SQL स्टेटमेंट्स चलाने के लिए उपयोग किया जा सकता है। डेटाबेस पर क्वेरी चलाने के लिए आप **Ctl-Shift-Q** (या Mac पर **Cmd-Shift-Q**) कमांड का उपयोग कर सकते हैं।
+एक बार खुलने के बाद, नया क्वेरी विंडो डेटाबेस पर SQL स्टेटमेंट्स चलाने के लिए उपयोग किया जा सकता है। आप **Ctl-Shift-Q** (या Mac पर **Cmd-Shift-Q**) कमांड का उपयोग करके डेटाबेस पर क्वेरी चला सकते हैं।
 
-> [!NOTE] SQLite एक्सटेंशन के बारे में अधिक जानकारी के लिए, आप [डॉक्यूमेंटेशन](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum) देख सकते हैं।
+> [!NOTE] 
+> SQLite एक्सटेंशन के बारे में अधिक जानकारी के लिए आप [डॉक्यूमेंटेशन](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum) देख सकते हैं।
 
 ## डेटाबेस स्कीमा
 
-किसी डेटाबेस का स्कीमा उसकी टेबल डिज़ाइन और संरचना होती है। **airports** डेटाबेस में दो टेबल्स हैं: `cities`, जिसमें यूनाइटेड किंगडम और आयरलैंड के शहरों की सूची है, और `airports`, जिसमें सभी हवाई अड्डों की सूची है। क्योंकि कुछ शहरों में एक से अधिक हवाई अड्डे हो सकते हैं, जानकारी को स्टोर करने के लिए दो टेबल्स बनाई गई हैं। इस अभ्यास में आप विभिन्न शहरों की जानकारी प्रदर्शित करने के लिए जोइन्स का उपयोग करेंगे।
+डेटाबेस का स्कीमा उसकी टेबल डिज़ाइन और संरचना है। **airports** डेटाबेस में दो टेबल हैं, `cities`, जिसमें यूनाइटेड किंगडम और आयरलैंड के शहरों की सूची है, और `airports`, जिसमें सभी हवाई अड्डों की सूची है। क्योंकि कुछ शहरों में कई हवाई अड्डे हो सकते हैं, जानकारी को स्टोर करने के लिए दो टेबल बनाई गई हैं। इस अभ्यास में आप जोइन का उपयोग करके विभिन्न शहरों की जानकारी प्रदर्शित करेंगे।
 
 | Cities           |
 | ---------------- |
@@ -55,7 +56,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ## असाइनमेंट
 
-निम्नलिखित जानकारी प्राप्त करने के लिए क्वेरी बनाएं:
+निम्नलिखित जानकारी लौटाने के लिए क्वेरी बनाएं:
 
 1. `Cities` टेबल में सभी शहरों के नाम।
 1. `Cities` टेबल में आयरलैंड के सभी शहर।
@@ -65,7 +66,8 @@ CO_OP_TRANSLATOR_METADATA:
 ## मूल्यांकन मानदंड
 
 | उत्कृष्ट | पर्याप्त | सुधार की आवश्यकता |
-| -------- | -------- | ----------------- |
+
+---
 
 **अस्वीकरण**:  
-यह दस्तावेज़ AI अनुवाद सेवा [Co-op Translator](https://github.com/Azure/co-op-translator) का उपयोग करके अनुवादित किया गया है। जबकि हम सटीकता के लिए प्रयासरत हैं, कृपया ध्यान दें कि स्वचालित अनुवाद में त्रुटियां या अशुद्धियां हो सकती हैं। मूल भाषा में उपलब्ध मूल दस्तावेज़ को प्रामाणिक स्रोत माना जाना चाहिए। महत्वपूर्ण जानकारी के लिए, पेशेवर मानव अनुवाद की सिफारिश की जाती है। इस अनुवाद के उपयोग से उत्पन्न किसी भी गलतफहमी या गलत व्याख्या के लिए हम उत्तरदायी नहीं हैं।
+यह दस्तावेज़ AI अनुवाद सेवा [Co-op Translator](https://github.com/Azure/co-op-translator) का उपयोग करके अनुवादित किया गया है। जबकि हम सटीकता के लिए प्रयास करते हैं, कृपया ध्यान दें कि स्वचालित अनुवाद में त्रुटियां या अशुद्धियां हो सकती हैं। मूल भाषा में दस्तावेज़ को आधिकारिक स्रोत माना जाना चाहिए। महत्वपूर्ण जानकारी के लिए, पेशेवर मानव अनुवाद की सिफारिश की जाती है। इस अनुवाद के उपयोग से उत्पन्न किसी भी गलतफहमी या गलत व्याख्या के लिए हम उत्तरदायी नहीं हैं।
