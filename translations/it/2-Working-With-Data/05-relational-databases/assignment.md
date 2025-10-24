@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "2f2d7693f28e4b2675f275e489dc5aac",
-  "translation_date": "2025-08-28T10:52:42+00:00",
+  "original_hash": "25b37acdfb2452917c1aa2e2ca44317a",
+  "translation_date": "2025-10-24T09:55:08+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/assignment.md",
   "language_code": "it"
 }
@@ -34,32 +34,33 @@ Successivamente, scarica e apri il database.
 
 Una volta aperta, la nuova finestra di query può essere utilizzata per eseguire istruzioni SQL sul database. Puoi utilizzare il comando **Ctl-Shift-Q** (o **Cmd-Shift-Q** su Mac) per eseguire query sul database.
 
-> [!NOTE] Per ulteriori informazioni sull'estensione SQLite, puoi consultare la [documentazione](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum)
+> [!NOTE] 
+> Per ulteriori informazioni sull'estensione SQLite, puoi consultare la [documentazione](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum)
 
 ## Schema del database
 
 Lo schema di un database è il design e la struttura delle sue tabelle. Il database **airports** ha due tabelle, `cities`, che contiene un elenco di città nel Regno Unito e in Irlanda, e `airports`, che contiene l'elenco di tutti gli aeroporti. Poiché alcune città possono avere più aeroporti, sono state create due tabelle per memorizzare le informazioni. In questo esercizio utilizzerai le join per visualizzare informazioni relative a diverse città.
 
-| Cities           |
-| ---------------- |
-| id (PK, integer) |
-| city (text)      |
-| country (text)   |
+| Città            |
+| ----------------- |
+| id (PK, integer)  |
+| city (text)       |
+| country (text)    |
 
-| Airports                         |
+| Aeroporti                        |
 | -------------------------------- |
 | id (PK, integer)                 |
 | name (text)                      |
 | code (text)                      |
-| city_id (FK to id in **Cities**) |
+| city_id (FK a id in **Cities**)  |
 
-## Esercizio
+## Compito
 
 Crea query per restituire le seguenti informazioni:
 
 1. tutti i nomi delle città nella tabella `Cities`
 1. tutte le città in Irlanda nella tabella `Cities`
-1. tutti i nomi degli aeroporti con la loro città e il loro paese
+1. tutti i nomi degli aeroporti con la loro città e paese
 1. tutti gli aeroporti a Londra, Regno Unito
 
 ## Valutazione
@@ -70,4 +71,4 @@ Crea query per restituire le seguenti informazioni:
 ---
 
 **Disclaimer**:  
-Questo documento è stato tradotto utilizzando il servizio di traduzione automatica [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche possono contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si raccomanda una traduzione professionale eseguita da un traduttore umano. Non siamo responsabili per eventuali fraintendimenti o interpretazioni errate derivanti dall'uso di questa traduzione.
+Questo documento è stato tradotto utilizzando il servizio di traduzione AI [Co-op Translator](https://github.com/Azure/co-op-translator). Sebbene ci impegniamo per garantire l'accuratezza, si prega di notare che le traduzioni automatiche potrebbero contenere errori o imprecisioni. Il documento originale nella sua lingua nativa dovrebbe essere considerato la fonte autorevole. Per informazioni critiche, si consiglia una traduzione professionale umana. Non siamo responsabili per eventuali incomprensioni o interpretazioni errate derivanti dall'uso di questa traduzione.
