@@ -88,7 +88,8 @@ With our cities table created, let's store the rainfall. Rather than duplicating
 
 Notice the **city_id** column inside the newly created **rainfall** table. This column contains values which reference the IDs in the **cities** table. In technical relational data terms, this is called a **foreign key**; it's a primary key from another table. You can just think of it as a reference or a pointer. **city_id** 1 references Tokyo.
 
-> [!NOTE] Foreign key is frequently abbreviated as FK
+> [!NOTE] 
+> Foreign key is frequently abbreviated as FK
 
 ## Retrieving the data
 
@@ -108,7 +109,8 @@ FROM cities;
 
 `SELECT` is where you list the columns, and `FROM` is where you list the tables.
 
-> [NOTE] SQL syntax is case-insensitive, meaning `select` and `SELECT` mean the same thing. However, depending on the type of database you are using the columns and tables might be case sensitive. As a result, it's a best practice to always treat everything in programming like it's case sensitive. When writing SQL queries common convention is to put the keywords in all upper-case letters.
+> [!NOTE] 
+> SQL syntax is case-insensitive, meaning `select` and `SELECT` mean the same thing. However, depending on the type of database you are using the columns and tables might be case sensitive. As a result, it's a best practice to always treat everything in programming like it's case sensitive. When writing SQL queries common convention is to put the keywords in all upper-case letters.
 
 The query above will display all cities. Let's imagine we only wanted to display cities in New Zealand. We need some form of a filter. The SQL keyword for this is `WHERE`, or "where something is true".
 
