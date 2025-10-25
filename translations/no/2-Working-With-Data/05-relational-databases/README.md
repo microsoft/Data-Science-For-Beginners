@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "9399d7b4767e75068f95ce5c660b285c",
-  "translation_date": "2025-09-05T22:18:20+00:00",
+  "original_hash": "80d80300002ef4e77cc7631d5904bd6e",
+  "translation_date": "2025-10-25T18:56:00+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "no"
 }
@@ -13,13 +13,13 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Arbeide med data: Relasjonsdatabaser - _Sketchnote av [@nitya](https://twitter.com/nitya)_ |
 
-Sjansen er stor for at du tidligere har brukt et regneark til å lagre informasjon. Du hadde et sett med rader og kolonner, der radene inneholdt informasjonen (eller dataene), og kolonnene beskrev informasjonen (noen ganger kalt metadata). En relasjonsdatabase er bygget på dette grunnprinsippet med kolonner og rader i tabeller, som lar deg spre informasjon over flere tabeller. Dette gir deg muligheten til å arbeide med mer komplekse data, unngå duplisering og ha fleksibilitet i måten du utforsker dataene. La oss utforske konseptene bak en relasjonsdatabase.
+Sjansen er stor for at du har brukt et regneark tidligere for å lagre informasjon. Du hadde et sett med rader og kolonner, der radene inneholdt informasjonen (eller dataene), og kolonnene beskrev informasjonen (noen ganger kalt metadata). En relasjonsdatabase er bygget på dette grunnprinsippet med kolonner og rader i tabeller, som lar deg ha informasjon spredt over flere tabeller. Dette gir deg muligheten til å arbeide med mer kompleks data, unngå duplisering og ha fleksibilitet i måten du utforsker dataene. La oss utforske konseptene bak en relasjonsdatabase.
 
 ## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
 ## Det starter med tabeller
 
-En relasjonsdatabase har tabeller som sitt kjerneelement. Akkurat som med et regneark, er en tabell en samling av kolonner og rader. Radene inneholder dataene eller informasjonen vi ønsker å arbeide med, som navnet på en by eller mengden nedbør. Kolonnene beskriver dataene de lagrer.
+En relasjonsdatabase har tabeller som sitt kjerneelement. Akkurat som med regnearket, er en tabell en samling av kolonner og rader. Radene inneholder dataene eller informasjonen vi ønsker å arbeide med, som navnet på en by eller mengden nedbør. Kolonnene beskriver dataene de lagrer.
 
 La oss begynne vår utforskning ved å opprette en tabell for å lagre informasjon om byer. Vi kan starte med deres navn og land. Du kan lagre dette i en tabell som følger:
 
@@ -31,15 +31,15 @@ La oss begynne vår utforskning ved å opprette en tabell for å lagre informasj
 
 Legg merke til at kolonnenavnene **by**, **land** og **befolkning** beskriver dataene som lagres, og hver rad har informasjon om én by.
 
-## Begrensninger med en enkelt tabell
+## Begrensninger ved en enkelt tabelltilnærming
 
 Sjansen er stor for at tabellen ovenfor virker relativt kjent for deg. La oss begynne å legge til litt ekstra data i vår voksende database - årlig nedbør (i millimeter). Vi fokuserer på årene 2018, 2019 og 2020. Hvis vi skulle legge det til for Tokyo, kan det se slik ut:
 
-| By    | Land   | År  | Mengde |
-| ----- | ------ | --- | ------ |
-| Tokyo | Japan  | 2020| 1690   |
-| Tokyo | Japan  | 2019| 1874   |
-| Tokyo | Japan  | 2018| 1445   |
+| By    | Land    | År   | Mengde |
+| ----- | ------- | ---- | ------ |
+| Tokyo | Japan   | 2020 | 1690   |
+| Tokyo | Japan   | 2019 | 1874   |
+| Tokyo | Japan   | 2018 | 1445   |
 
 Hva legger du merke til med tabellen vår? Du ser kanskje at vi dupliserer navnet og landet til byen om og om igjen. Det kan ta opp ganske mye lagringsplass, og det er stort sett unødvendig å ha flere kopier av det. Tross alt har Tokyo bare ett navn vi er interessert i.
 
@@ -51,11 +51,11 @@ OK, la oss prøve noe annet. La oss legge til nye kolonner for hvert år:
 | Atlanta  | USA           | 1779 | 1111 | 1683 |
 | Auckland | New Zealand   | 1386 | 942  | 1176 |
 
-Selv om dette unngår duplisering av rader, introduserer det et par andre utfordringer. Vi måtte endre strukturen på tabellen hver gang det kommer et nytt år. I tillegg, etter hvert som dataene vokser, vil det å ha år som kolonner gjøre det vanskeligere å hente ut og beregne verdier.
+Selv om dette unngår duplisering av rader, introduserer det et par andre utfordringer. Vi måtte endre strukturen på tabellen vår hver gang det kommer et nytt år. I tillegg, etter hvert som dataene våre vokser, vil det bli vanskeligere å hente ut og beregne verdier med årstallene som kolonner.
 
-Dette er grunnen til at vi trenger flere tabeller og relasjoner. Ved å dele opp dataene kan vi unngå duplisering og ha mer fleksibilitet i hvordan vi arbeider med dataene.
+Dette er grunnen til at vi trenger flere tabeller og relasjoner. Ved å dele opp dataene våre kan vi unngå duplisering og ha mer fleksibilitet i hvordan vi arbeider med dataene.
 
-## Konsepter for relasjoner
+## Konseptet med relasjoner
 
 La oss gå tilbake til dataene våre og bestemme hvordan vi vil dele dem opp. Vi vet at vi vil lagre navn og land for byene våre, så dette vil sannsynligvis fungere best i én tabell.
 
@@ -79,31 +79,32 @@ Men før vi oppretter den neste tabellen, må vi finne ut hvordan vi skal refere
 
 > ✅ Du vil legge merke til at vi bruker begrepene "id" og "primærnøkkel" om hverandre i løpet av denne leksjonen. Konseptene her gjelder også for DataFrames, som du vil utforske senere. DataFrames bruker ikke terminologien "primærnøkkel", men du vil legge merke til at de oppfører seg på samme måte.
 
-Med vår bytabell opprettet, la oss lagre nedbøren. I stedet for å duplisere den fullstendige informasjonen om byen, kan vi bruke ID-en. Vi bør også sørge for at den nyopprettede tabellen har en *id*-kolonne, da alle tabeller bør ha en ID eller primærnøkkel.
+Med vår bytabell opprettet, la oss lagre nedbøren. I stedet for å duplisere fullstendig informasjon om byen, kan vi bruke ID-en. Vi bør også sørge for at den nyopprettede tabellen har en *id*-kolonne også, da alle tabeller bør ha en ID eller primærnøkkel.
 
 ### nedbør
 
-| nedbør_id | by_id | År  | Mengde |
-| --------- | ----- | --- | ------ |
-| 1         | 1     | 2018| 1445   |
-| 2         | 1     | 2019| 1874   |
-| 3         | 1     | 2020| 1690   |
-| 4         | 2     | 2018| 1779   |
-| 5         | 2     | 2019| 1111   |
-| 6         | 2     | 2020| 1683   |
-| 7         | 3     | 2018| 1386   |
-| 8         | 3     | 2019| 942    |
-| 9         | 3     | 2020| 1176   |
+| nedbør_id | by_id | År   | Mengde |
+| --------- | ----- | ---- | ------ |
+| 1         | 1     | 2018 | 1445   |
+| 2         | 1     | 2019 | 1874   |
+| 3         | 1     | 2020 | 1690   |
+| 4         | 2     | 2018 | 1779   |
+| 5         | 2     | 2019 | 1111   |
+| 6         | 2     | 2020 | 1683   |
+| 7         | 3     | 2018 | 1386   |
+| 8         | 3     | 2019 | 942    |
+| 9         | 3     | 2020 | 1176   |
 
-Legg merke til **by_id**-kolonnen i den nyopprettede **nedbør**-tabellen. Denne kolonnen inneholder verdier som refererer til ID-ene i **byer**-tabellen. I tekniske relasjonsdatatermer kalles dette en **fremmednøkkel**; det er en primærnøkkel fra en annen tabell. Du kan bare tenke på det som en referanse eller en peker. **by_id** 1 refererer til Tokyo.
+Legg merke til **by_id**-kolonnen inne i den nyopprettede **nedbør**-tabellen. Denne kolonnen inneholder verdier som refererer til ID-ene i **byer**-tabellen. I tekniske relasjonsdatatermer kalles dette en **fremmednøkkel**; det er en primærnøkkel fra en annen tabell. Du kan bare tenke på det som en referanse eller en peker. **by_id** 1 refererer til Tokyo.
 
-> [!NOTE] Fremmednøkkel forkortes ofte som FK
+> [!NOTE] 
+> Fremmednøkkel forkortes ofte som FK
 
-## Hente data
+## Hente dataene
 
-Med dataene våre delt inn i to tabeller, lurer du kanskje på hvordan vi henter dem. Hvis vi bruker en relasjonsdatabase som MySQL, SQL Server eller Oracle, kan vi bruke et språk kalt Structured Query Language eller SQL. SQL (noen ganger uttalt "sequel") er et standard språk som brukes til å hente og endre data i en relasjonsdatabase.
+Med dataene våre delt inn i to tabeller, lurer du kanskje på hvordan vi henter dem. Hvis vi bruker en relasjonsdatabase som MySQL, SQL Server eller Oracle, kan vi bruke et språk som heter Structured Query Language eller SQL. SQL (noen ganger uttalt "sequel") er et standard språk som brukes til å hente og endre data i en relasjonsdatabase.
 
-For å hente data bruker du kommandoen `SELECT`. I sin kjerne **velger** du kolonnene du vil se **fra** tabellen de er inneholdt i. Hvis du bare ville vise navnene på byene, kunne du bruke følgende:
+For å hente data bruker du kommandoen `SELECT`. I sin kjerne **velger** du kolonnene du vil se **fra** tabellen de er inneholdt i. Hvis du ville vise bare navnene på byene, kunne du bruke følgende:
 
 ```sql
 SELECT city
@@ -117,9 +118,10 @@ FROM cities;
 
 `SELECT` er der du lister opp kolonnene, og `FROM` er der du lister opp tabellene.
 
-> [NOTE] SQL-syntaks er ikke skiftfølsom, noe som betyr at `select` og `SELECT` betyr det samme. Imidlertid, avhengig av typen database du bruker, kan kolonner og tabeller være skiftfølsomme. Som et resultat er det en god praksis å alltid behandle alt i programmering som om det er skiftfølsomt. Når du skriver SQL-spørringer, er det vanlig konvensjon å skrive nøkkelordene med store bokstaver.
+> [!NOTE] 
+> SQL-syntaks er ikke skiftfølsom, noe som betyr at `select` og `SELECT` betyr det samme. Men avhengig av typen database du bruker, kan kolonnene og tabellene være skiftfølsomme. Som et resultat er det en god praksis å alltid behandle alt i programmering som om det er skiftfølsomt. Når du skriver SQL-spørringer, er det vanlig konvensjon å skrive nøkkelordene med store bokstaver.
 
-Spørringen ovenfor vil vise alle byer. La oss forestille oss at vi bare ville vise byer i New Zealand. Vi trenger en form for filter. SQL-nøkkelordet for dette er `WHERE`, eller "hvor noe er sant".
+Spørringen ovenfor vil vise alle byer. La oss tenke oss at vi bare ville vise byer i New Zealand. Vi trenger en form for filter. SQL-nøkkelordet for dette er `WHERE`, eller "hvor noe er sant".
 
 ```sql
 SELECT city
@@ -130,15 +132,15 @@ WHERE country = 'New Zealand';
 -- Auckland
 ```
 
-## Slå sammen data
+## Kobling av data
 
-Til nå har vi hentet data fra én enkelt tabell. Nå vil vi samle dataene fra både **byer** og **nedbør**. Dette gjøres ved å *slå sammen* dem. Du vil i praksis lage en kobling mellom de to tabellene og matche verdiene fra en kolonne fra hver tabell.
+Til nå har vi hentet data fra en enkelt tabell. Nå vil vi samle dataene fra både **byer** og **nedbør**. Dette gjøres ved å *koble* dem sammen. Du vil i praksis opprette en kobling mellom de to tabellene og matche verdiene fra en kolonne fra hver tabell.
 
-I vårt eksempel vil vi matche **by_id**-kolonnen i **nedbør** med **by_id**-kolonnen i **byer**. Dette vil matche nedbørsverdien med sin respektive by. Typen sammenslåing vi vil utføre kalles en *inner join*, som betyr at hvis noen rader ikke samsvarer med noe fra den andre tabellen, vil de ikke bli vist. I vårt tilfelle har hver by nedbør, så alt vil bli vist.
+I vårt eksempel vil vi matche **by_id**-kolonnen i **nedbør** med **by_id**-kolonnen i **byer**. Dette vil matche nedbørverdien med sin respektive by. Typen kobling vi vil utføre er det som kalles en *inner join*, noe som betyr at hvis noen rader ikke samsvarer med noe fra den andre tabellen, vil de ikke bli vist. I vårt tilfelle har hver by nedbør, så alt vil bli vist.
 
 La oss hente nedbøren for 2019 for alle våre byer.
 
-Vi skal gjøre dette i trinn. Det første trinnet er å slå sammen dataene ved å indikere kolonnene for koblingen - **by_id** som fremhevet tidligere.
+Vi skal gjøre dette i trinn. Det første trinnet er å koble dataene sammen ved å indikere kolonnene for koblingen - **by_id** som fremhevet tidligere.
 
 ```sql
 SELECT cities.city
@@ -147,7 +149,7 @@ FROM cities
     INNER JOIN rainfall ON cities.city_id = rainfall.city_id
 ```
 
-Vi har fremhevet de to kolonnene vi ønsker, og det faktum at vi vil slå sammen tabellene ved **by_id**. Nå kan vi legge til `WHERE`-setningen for å filtrere ut kun år 2019.
+Vi har fremhevet de to kolonnene vi ønsker, og det faktum at vi vil koble tabellene sammen ved **by_id**. Nå kan vi legge til `WHERE`-setningen for å filtrere ut kun år 2019.
 
 ```sql
 SELECT cities.city
@@ -167,7 +169,7 @@ WHERE rainfall.year = 2019
 
 ## Oppsummering
 
-Relasjonsdatabaser er sentrert rundt å dele informasjon mellom flere tabeller som deretter bringes sammen for visning og analyse. Dette gir en høy grad av fleksibilitet til å utføre beregninger og ellers manipulere data. Du har sett kjernekonseptene for en relasjonsdatabase, og hvordan du utfører en sammenslåing mellom to tabeller.
+Relasjonsdatabaser er sentrert rundt å dele informasjon mellom flere tabeller som deretter bringes sammen for visning og analyse. Dette gir en høy grad av fleksibilitet til å utføre beregninger og ellers manipulere data. Du har sett de grunnleggende konseptene for en relasjonsdatabase, og hvordan du utfører en kobling mellom to tabeller.
 
 ## 🚀 Utfordring
 
@@ -192,4 +194,4 @@ Det finnes flere ressurser tilgjengelig på [Microsoft Learn](https://docs.micro
 ---
 
 **Ansvarsfraskrivelse**:  
-Dette dokumentet er oversatt ved hjelp av AI-oversettelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selv om vi tilstreber nøyaktighet, vennligst vær oppmerksom på at automatiske oversettelser kan inneholde feil eller unøyaktigheter. Det originale dokumentet på sitt opprinnelige språk bør anses som den autoritative kilden. For kritisk informasjon anbefales profesjonell menneskelig oversettelse. Vi er ikke ansvarlige for eventuelle misforståelser eller feiltolkninger som oppstår ved bruk av denne oversettelsen.
+Dette dokumentet er oversatt ved hjelp av AI-oversettelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selv om vi streber etter nøyaktighet, vær oppmerksom på at automatiserte oversettelser kan inneholde feil eller unøyaktigheter. Det originale dokumentet på dets opprinnelige språk bør anses som den autoritative kilden. For kritisk informasjon anbefales profesjonell menneskelig oversettelse. Vi er ikke ansvarlige for eventuelle misforståelser eller feiltolkninger som oppstår ved bruk av denne oversettelsen.
