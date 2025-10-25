@@ -1,109 +1,110 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "9399d7b4767e75068f95ce5c660b285c",
-  "translation_date": "2025-09-05T17:08:07+00:00",
+  "original_hash": "80d80300002ef4e77cc7631d5904bd6e",
+  "translation_date": "2025-10-25T19:02:38+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "sw"
 }
 -->
-# Kufanya Kazi na Data: Hifadhidata za Kihusiano
+# Kufanya Kazi na Data: Hifadhidata za Uhusiano
 
 |![ Sketchnote na [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/05-RelationalData.png)|
 |:---:|
-| Kufanya Kazi na Data: Hifadhidata za Kihusiano - _Sketchnote na [@nitya](https://twitter.com/nitya)_ |
+| Kufanya Kazi na Data: Hifadhidata za Uhusiano - _Sketchnote na [@nitya](https://twitter.com/nitya)_ |
 
-Inawezekana umewahi kutumia lahajedwali hapo awali kuhifadhi taarifa. Ulikuwa na seti ya safu na nguzo, ambapo safu zilikuwa na taarifa (au data), na nguzo zilielezea taarifa hiyo (wakati mwingine huitwa metadata). Hifadhidata ya kihusiano inajengwa juu ya kanuni hii ya msingi ya nguzo na safu katika jedwali, ikikuruhusu kuwa na taarifa iliyosambazwa katika majedwali mengi. Hii inakuruhusu kufanya kazi na data ngumu zaidi, kuepuka kurudia, na kuwa na urahisi katika jinsi unavyotafuta data. Hebu tuchunguze dhana za hifadhidata ya kihusiano.
+Inawezekana umewahi kutumia lahajedwali hapo awali kuhifadhi taarifa. Ulipata seti ya safu na nguzo, ambapo safu zilikuwa na taarifa (au data), na nguzo zilielezea taarifa hiyo (wakati mwingine huitwa metadata). Hifadhidata ya uhusiano inajengwa juu ya kanuni hii ya msingi ya nguzo na safu kwenye meza, ikiruhusu uwe na taarifa zilizotawanyika kwenye meza nyingi. Hii inakuruhusu kufanya kazi na data ngumu zaidi, kuepuka kurudia, na kuwa na urahisi wa kuchunguza data. Hebu tuchunguze dhana za hifadhidata ya uhusiano.
 
-## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ds/quiz/8)
+## [Jaribio la awali la mihadhara](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
-## Yote huanza na majedwali
+## Yote huanza na meza
 
-Hifadhidata ya kihusiano ina majedwali kama msingi wake. Kama ilivyo kwenye lahajedwali, jedwali ni mkusanyiko wa nguzo na safu. Safu ina data au taarifa tunayotaka kufanya kazi nayo, kama jina la jiji au kiasi cha mvua. Nguzo zinaelezea data wanayohifadhi.
+Hifadhidata ya uhusiano ina meza kama msingi wake. Kama ilivyo kwa lahajedwali, meza ni mkusanyiko wa nguzo na safu. Safu ina data au taarifa tunayotaka kufanya kazi nayo, kama jina la mji au kiasi cha mvua. Nguzo zinaelezea data wanayohifadhi.
 
-Hebu tuanze uchunguzi wetu kwa kuunda jedwali la kuhifadhi taarifa kuhusu miji. Tunaweza kuanza na majina yao na nchi. Unaweza kuhifadhi hii katika jedwali kama ifuatavyo:
+Hebu tuanze uchunguzi wetu kwa kuanzisha meza ya kuhifadhi taarifa kuhusu miji. Tunaweza kuanza na jina lao na nchi yao. Unaweza kuhifadhi hii kwenye meza kama ifuatavyo:
 
-| Jiji     | Nchi          |
+| Mji      | Nchi          |
 | -------- | ------------- |
 | Tokyo    | Japani        |
 | Atlanta  | Marekani      |
 | Auckland | New Zealand   |
 
-Angalia majina ya nguzo **jiji**, **nchi**, na **idadi ya watu** yanavyoelezea data inayohifadhiwa, na kila safu ina taarifa kuhusu jiji moja.
+Angalia majina ya nguzo **mji**, **nchi** na **idadi ya watu** yanaelezea data inayohifadhiwa, na kila safu ina taarifa kuhusu mji mmoja.
 
-## Mapungufu ya mbinu ya jedwali moja
+## Mapungufu ya mbinu ya meza moja
 
-Inawezekana, jedwali hapo juu linaonekana kuwa la kawaida kwako. Hebu tuanze kuongeza data ya ziada kwenye hifadhidata yetu inayokua - mvua ya kila mwaka (katika milimita). Tutazingatia miaka ya 2018, 2019, na 2020. Ikiwa tungeiongeza kwa Tokyo, inaweza kuonekana kama hii:
+Inawezekana, meza hapo juu inaonekana kuwa ya kawaida kwako. Hebu tuanze kuongeza data ya ziada kwenye hifadhidata yetu inayokua - mvua ya kila mwaka (katika milimita). Tutazingatia miaka ya 2018, 2019 na 2020. Ikiwa tungeongeza kwa Tokyo, inaweza kuonekana kama hii:
 
-| Jiji  | Nchi   | Mwaka | Kiasi  |
-| ----- | ------ | ----- | ------ |
-| Tokyo | Japani | 2020  | 1690   |
-| Tokyo | Japani | 2019  | 1874   |
-| Tokyo | Japani | 2018  | 1445   |
+| Mji   | Nchi   | Mwaka | Kiasi |
+| ----- | ------ | ----- | ----- |
+| Tokyo | Japani | 2020  | 1690  |
+| Tokyo | Japani | 2019  | 1874  |
+| Tokyo | Japani | 2018  | 1445  |
 
-Unaona nini kuhusu jedwali letu? Unaweza kugundua tunarudia jina na nchi ya jiji mara kwa mara. Hii inaweza kuchukua nafasi nyingi za kuhifadhi, na kwa kiasi kikubwa si lazima kuwa na nakala nyingi. Baada ya yote, Tokyo lina jina moja tu tunalovutiwa nalo.
+Je, unaona nini kuhusu meza yetu? Unaweza kugundua tunarudia jina na nchi ya mji mara kwa mara. Hiyo inaweza kuchukua nafasi nyingi za kuhifadhi, na kwa kiasi kikubwa si lazima kuwa na nakala nyingi. Baada ya yote, Tokyo ina jina moja tu tunalovutiwa nalo.
 
-Sawa, hebu tujaribu kitu kingine. Hebu tuongeze nguzo mpya kwa kila mwaka:
+Sawa, hebu jaribu kitu kingine. Hebu tuongeze nguzo mpya kwa kila mwaka:
 
-| Jiji     | Nchi          | 2018 | 2019 | 2020 |
+| Mji      | Nchi          | 2018 | 2019 | 2020 |
 | -------- | ------------- | ---- | ---- | ---- |
 | Tokyo    | Japani        | 1445 | 1874 | 1690 |
 | Atlanta  | Marekani      | 1779 | 1111 | 1683 |
 | Auckland | New Zealand   | 1386 | 942  | 1176 |
 
-Ingawa hii inazuia kurudia safu, inaongeza changamoto nyingine. Tunahitaji kubadilisha muundo wa jedwali letu kila mara kuna mwaka mpya. Aidha, data yetu inavyokua, kuwa na miaka kama nguzo itafanya iwe ngumu zaidi kupata na kuhesabu thamani.
+Ingawa hii inazuia kurudia kwa safu, inaongeza changamoto nyingine. Tunahitaji kubadilisha muundo wa meza yetu kila mara kunapokuwa na mwaka mpya. Zaidi ya hayo, kadri data yetu inavyokua, kuwa na miaka kama nguzo kutafanya iwe ngumu zaidi kupata na kuhesabu thamani.
 
-Hii ndiyo sababu tunahitaji majedwali mengi na mahusiano. Kwa kugawanya data yetu tunaweza kuepuka kurudia na kuwa na urahisi zaidi katika jinsi tunavyofanya kazi na data yetu.
+Hii ndiyo sababu tunahitaji meza nyingi na uhusiano. Kwa kugawanya data yetu tunaweza kuepuka kurudia na kuwa na urahisi zaidi wa jinsi tunavyofanya kazi na data yetu.
 
-## Dhana za mahusiano
+## Dhana za uhusiano
 
-Hebu turudi kwenye data yetu na kuamua jinsi tunavyotaka kuigawanya. Tunajua tunataka kuhifadhi jina na nchi za miji yetu, kwa hivyo hii itafanya kazi vizuri zaidi katika jedwali moja.
+Hebu turudi kwenye data yetu na kuamua jinsi tunavyotaka kuigawanya. Tunajua tunataka kuhifadhi jina na nchi ya miji yetu, kwa hivyo hii itafanya kazi vizuri zaidi kwenye meza moja.
 
-| Jiji     | Nchi          |
+| Mji      | Nchi          |
 | -------- | ------------- |
 | Tokyo    | Japani        |
 | Atlanta  | Marekani      |
 | Auckland | New Zealand   |
 
-Lakini kabla ya kuunda jedwali linalofuata, tunahitaji kujua jinsi ya kurejelea kila jiji. Tunahitaji aina fulani ya kitambulisho, ID au (katika istilahi za hifadhidata za kiufundi) funguo kuu. Funguo kuu ni thamani inayotumika kutambua safu moja maalum katika jedwali. Ingawa hii inaweza kutegemea thamani yenyewe (tunaweza kutumia jina la jiji, kwa mfano), inapaswa kuwa namba au kitambulisho kingine. Hatutaki ID ibadilike kwani ingeweza kuvunja uhusiano. Utakuta katika hali nyingi funguo kuu au ID itakuwa namba inayozalishwa kiotomatiki.
+Lakini kabla ya kuunda meza inayofuata, tunahitaji kujua jinsi ya kurejelea kila mji. Tunahitaji aina fulani ya kitambulisho, ID au (katika istilahi za kiufundi za hifadhidata) ufunguo wa msingi. Ufunguo wa msingi ni thamani inayotumika kutambua safu moja maalum kwenye meza. Ingawa hii inaweza kutegemea thamani yenyewe (tunaweza kutumia jina la mji, kwa mfano), inapaswa kuwa namba au kitambulisho kingine. Hatutaki id ibadilike kamwe kwani itavunja uhusiano. Utapata katika hali nyingi ufunguo wa msingi au id itakuwa namba inayozalishwa kiotomatiki.
 
-> ✅ Funguo kuu mara nyingi hufupishwa kama PK
+> ✅ Ufunguo wa msingi mara nyingi hufupishwa kama PK
 
 ### miji
 
-| city_id | Jiji     | Nchi          |
+| city_id | Mji      | Nchi          |
 | ------- | -------- | ------------- |
 | 1       | Tokyo    | Japani        |
 | 2       | Atlanta  | Marekani      |
 | 3       | Auckland | New Zealand   |
 
-> ✅ Utagundua tunatumia maneno "id" na "funguo kuu" kwa kubadilishana wakati wa somo hili. Dhana hizi zinatumika kwa DataFrames, ambazo utachunguza baadaye. DataFrames hazitumii istilahi ya "funguo kuu", hata hivyo utagundua zinatenda kwa njia sawa.
+> ✅ Utagundua tunatumia maneno "id" na "ufunguo wa msingi" kwa kubadilishana wakati wa somo hili. Dhana hizi zinatumika kwa DataFrames, ambazo utachunguza baadaye. DataFrames hazitumii istilahi ya "ufunguo wa msingi", hata hivyo utagundua zinatenda kwa njia sawa.
 
-Kwa jedwali letu la miji kuundwa, hebu tuhifadhi mvua. Badala ya kurudia taarifa kamili kuhusu jiji, tunaweza kutumia ID. Tunapaswa pia kuhakikisha jedwali jipya lililoundwa lina safu ya *id*, kwani majedwali yote yanapaswa kuwa na ID au funguo kuu.
+Kwa meza yetu ya miji kuundwa, hebu tuhifadhi mvua. Badala ya kurudia taarifa kamili kuhusu mji, tunaweza kutumia id. Tunapaswa pia kuhakikisha meza mpya iliyoundwa ina safu ya *id*, kwani meza zote zinapaswa kuwa na id au ufunguo wa msingi.
 
 ### mvua
 
-| rainfall_id | city_id | Mwaka | Kiasi  |
-| ----------- | ------- | ----- | ------ |
-| 1           | 1       | 2018  | 1445   |
-| 2           | 1       | 2019  | 1874   |
-| 3           | 1       | 2020  | 1690   |
-| 4           | 2       | 2018  | 1779   |
-| 5           | 2       | 2019  | 1111   |
-| 6           | 2       | 2020  | 1683   |
-| 7           | 3       | 2018  | 1386   |
-| 8           | 3       | 2019  | 942    |
-| 9           | 3       | 2020  | 1176   |
+| rainfall_id | city_id | Mwaka | Kiasi |
+| ----------- | ------- | ----- | ----- |
+| 1           | 1       | 2018  | 1445  |
+| 2           | 1       | 2019  | 1874  |
+| 3           | 1       | 2020  | 1690  |
+| 4           | 2       | 2018  | 1779  |
+| 5           | 2       | 2019  | 1111  |
+| 6           | 2       | 2020  | 1683  |
+| 7           | 3       | 2018  | 1386  |
+| 8           | 3       | 2019  | 942   |
+| 9           | 3       | 2020  | 1176  |
 
-Angalia safu ya **city_id** ndani ya jedwali jipya la **mvua**. Safu hii ina thamani zinazorejelea ID katika jedwali la **miji**. Katika istilahi za kiufundi za data za kihusiano, hii inaitwa **funguo za kigeni**; ni funguo kuu kutoka jedwali lingine. Unaweza kufikiria tu kama rejeleo au pointer. **city_id** 1 inarejelea Tokyo.
+Angalia safu ya **city_id** ndani ya meza mpya ya **mvua**. Safu hii ina thamani ambazo zinarejelea ID kwenye meza ya **miji**. Katika istilahi za kiufundi za data ya uhusiano, hii inaitwa **ufunguo wa kigeni**; ni ufunguo wa msingi kutoka meza nyingine. Unaweza kufikiria tu kama rejeleo au pointer. **city_id** 1 inarejelea Tokyo.
 
-> [!NOTE] Funguo za kigeni mara nyingi hufupishwa kama FK
+> [!NOTE] 
+> Ufunguo wa kigeni mara nyingi hufupishwa kama FK
 
 ## Kupata data
 
-Kwa data yetu kugawanywa katika majedwali mawili, unaweza kuwa unajiuliza jinsi tunavyopata. Ikiwa tunatumia hifadhidata ya kihusiano kama MySQL, SQL Server au Oracle, tunaweza kutumia lugha inayoitwa Structured Query Language au SQL. SQL (wakati mwingine hutamkwa "sequel") ni lugha ya kawaida inayotumika kupata na kurekebisha data katika hifadhidata ya kihusiano.
+Kwa data yetu kutenganishwa katika meza mbili, unaweza kuwa unajiuliza jinsi ya kuipata. Ikiwa tunatumia hifadhidata ya uhusiano kama MySQL, SQL Server au Oracle, tunaweza kutumia lugha inayoitwa Structured Query Language au SQL. SQL (wakati mwingine hutamkwa kama "sequel") ni lugha ya kawaida inayotumika kupata na kurekebisha data katika hifadhidata ya uhusiano.
 
-Ili kupata data unatumia amri `SELECT`. Kwa msingi wake, unachagua nguzo unazotaka kuona kutoka kwenye jedwali zinapopatikana. Ikiwa ungependa kuonyesha majina ya miji pekee, unaweza kutumia yafuatayo:
+Ili kupata data unatumia amri `SELECT`. Kwa msingi wake, unachagua nguzo unazotaka kuona kutoka kwenye meza ambazo zimo. Ikiwa ungependa kuonyesha tu majina ya miji, unaweza kutumia yafuatayo:
 
 ```sql
 SELECT city
@@ -115,11 +116,12 @@ FROM cities;
 -- Auckland
 ```
 
-`SELECT` ni pale unapoorodhesha nguzo, na `FROM` ni pale unapoorodhesha majedwali.
+`SELECT` ni mahali unapoorodhesha nguzo, na `FROM` ni mahali unapoorodhesha meza.
 
-> [NOTE] Sintaksia ya SQL haibagui herufi kubwa na ndogo, ikimaanisha `select` na `SELECT` ni sawa. Hata hivyo, kulingana na aina ya hifadhidata unayotumia, nguzo na majedwali yanaweza kuwa na herufi kubwa na ndogo. Kwa hivyo, ni mazoea bora kila mara kutibu kila kitu katika programu kama kinachobagua herufi kubwa na ndogo. Wakati wa kuandika maswali ya SQL, kawaida ni kuweka maneno muhimu kwa herufi kubwa.
+> [!NOTE] 
+> Sintaksia ya SQL haibagui herufi kubwa na ndogo, ikimaanisha `select` na `SELECT` ni sawa. Hata hivyo, kulingana na aina ya hifadhidata unayotumia, nguzo na meza zinaweza kuwa na herufi kubwa na ndogo. Kwa hivyo, ni mazoea bora kila mara kutibu kila kitu katika programu kama kinachobagua herufi kubwa na ndogo. Wakati wa kuandika maswali ya SQL, kawaida ni kuweka maneno muhimu kwa herufi kubwa.
 
-Swali hapo juu litaonyesha miji yote. Hebu tufikirie tunataka kuonyesha miji ya New Zealand pekee. Tunahitaji aina fulani ya kichujio. Neno muhimu la SQL kwa hili ni `WHERE`, au "mahali kitu ni kweli".
+Swali hapo juu litaonyesha miji yote. Hebu tufikirie tunataka kuonyesha tu miji ya New Zealand. Tunahitaji aina fulani ya kichujio. Neno muhimu la SQL kwa hili ni `WHERE`, au "mahali ambapo kitu ni kweli".
 
 ```sql
 SELECT city
@@ -132,13 +134,13 @@ WHERE country = 'New Zealand';
 
 ## Kuunganisha data
 
-Hadi sasa tumepata data kutoka jedwali moja. Sasa tunataka kuleta data pamoja kutoka kwa **miji** na **mvua**. Hii inafanywa kwa *kuunganisha* majedwali pamoja. Kimsingi utaunda kiunganishi kati ya majedwali mawili, na kulinganisha thamani kutoka safu kutoka kila jedwali.
+Hadi sasa tumepata data kutoka meza moja. Sasa tunataka kuleta data pamoja kutoka kwa **miji** na **mvua**. Hii inafanywa kwa *kuunganisha* pamoja. Utaunda kiunganishi kati ya meza mbili, na kulinganisha thamani kutoka safu kutoka kila meza.
 
-Katika mfano wetu, tutalinganisha safu ya **city_id** katika **mvua** na safu ya **city_id** katika **miji**. Hii italinganisha thamani ya mvua na jiji lake husika. Aina ya kuunganisha tutakayofanya inaitwa *inner join*, ikimaanisha ikiwa safu yoyote haifani na kitu chochote kutoka jedwali lingine haitakuwa imeonyeshwa. Katika kesi yetu kila jiji lina mvua, kwa hivyo kila kitu kitaonyeshwa.
+Katika mfano wetu, tutalinganisha safu ya **city_id** katika **mvua** na safu ya **city_id** katika **miji**. Hii italinganisha thamani ya mvua na mji wake husika. Aina ya muunganiko tutakaofanya ni kile kinachoitwa *muunganiko wa ndani*, ikimaanisha ikiwa safu yoyote haifani na chochote kutoka meza nyingine haitakuwa imeonyeshwa. Katika kesi yetu kila mji una mvua, kwa hivyo kila kitu kitaonyeshwa.
 
 Hebu tupate mvua ya mwaka 2019 kwa miji yetu yote.
 
-Tunaenda kufanya hivi kwa hatua. Hatua ya kwanza ni kuunganisha data pamoja kwa kuonyesha safu za kiunganishi - **city_id** kama ilivyoangaziwa hapo awali.
+Tutaifanya hii kwa hatua. Hatua ya kwanza ni kuunganisha data pamoja kwa kuonyesha safu za kiunganishi - **city_id** kama ilivyoangaziwa hapo awali.
 
 ```sql
 SELECT cities.city
@@ -147,7 +149,7 @@ FROM cities
     INNER JOIN rainfall ON cities.city_id = rainfall.city_id
 ```
 
-Tumeangazia safu mbili tunazotaka, na ukweli tunataka kuunganisha majedwali pamoja kwa **city_id**. Sasa tunaweza kuongeza taarifa ya `WHERE` ili kuchuja mwaka 2019 pekee.
+Tumeelezea safu mbili tunazotaka, na ukweli tunataka kuunganisha meza pamoja kwa **city_id**. Sasa tunaweza kuongeza taarifa ya `WHERE` kuchuja mwaka wa 2019 pekee.
 
 ```sql
 SELECT cities.city
@@ -167,29 +169,29 @@ WHERE rainfall.year = 2019
 
 ## Muhtasari
 
-Hifadhidata za kihusiano zinazingatia kugawanya taarifa kati ya majedwali mengi ambayo baadaye huletwa pamoja kwa kuonyesha na kuchambua. Hii inatoa kiwango cha juu cha urahisi wa kufanya mahesabu na vinginevyo kudhibiti data. Umeona dhana za msingi za hifadhidata ya kihusiano, na jinsi ya kufanya kuunganisha kati ya majedwali mawili.
+Hifadhidata za uhusiano zinazingatia kugawanya taarifa kati ya meza nyingi ambazo kisha huletwa pamoja kwa kuonyesha na kuchambua. Hii inatoa kiwango cha juu cha urahisi wa kufanya mahesabu na vinginevyo kudhibiti data. Umeona dhana za msingi za hifadhidata ya uhusiano, na jinsi ya kufanya muunganiko kati ya meza mbili.
 
 ## 🚀 Changamoto
 
-Kuna hifadhidata nyingi za kihusiano zinazopatikana kwenye mtandao. Unaweza kuchunguza data kwa kutumia ujuzi uliyojifunza hapo juu.
+Kuna hifadhidata nyingi za uhusiano zinazopatikana kwenye mtandao. Unaweza kuchunguza data kwa kutumia ujuzi uliyojifunza hapo juu.
 
-## Jaribio la baada ya somo
+## Jaribio la Baada ya Mihadhara
 
-## [Jaribio la baada ya somo](https://ff-quizzes.netlify.app/en/ds/quiz/9)
+## [Jaribio la baada ya mihadhara](https://ff-quizzes.netlify.app/en/ds/quiz/9)
 
 ## Mapitio na Kujisomea
 
-Kuna rasilimali kadhaa zinazopatikana kwenye [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum) kwa ajili ya kuendelea kuchunguza dhana za SQL na hifadhidata za kihusiano.
+Kuna rasilimali kadhaa zinazopatikana kwenye [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum) kwa ajili ya kuendelea kuchunguza dhana za SQL na hifadhidata za uhusiano.
 
-- [Eleza dhana za data ya kihusiano](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-77958-bethanycheum)
-- [Anza Kutafuta na Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-77958-bethanycheum) (Transact-SQL ni toleo la SQL)
+- [Eleza dhana za data ya uhusiano](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-77958-bethanycheum)
+- [Anza Kujifunza na Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-77958-bethanycheum) (Transact-SQL ni toleo la SQL)
 - [Maudhui ya SQL kwenye Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-77958-bethanycheum)
 
-## Kazi
+## Kazi ya Nyumbani
 
-[Kichwa cha Kazi](assignment.md)
+[Title ya Kazi ya Nyumbani](assignment.md)
 
 ---
 
 **Kanusho**:  
-Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kuhakikisha usahihi, tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuchukuliwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.
+Hati hii imetafsiriwa kwa kutumia huduma ya tafsiri ya AI [Co-op Translator](https://github.com/Azure/co-op-translator). Ingawa tunajitahidi kwa usahihi, tafadhali fahamu kuwa tafsiri za kiotomatiki zinaweza kuwa na makosa au kutokuwa sahihi. Hati ya asili katika lugha yake ya awali inapaswa kuzingatiwa kama chanzo cha mamlaka. Kwa taarifa muhimu, tafsiri ya kitaalamu ya binadamu inapendekezwa. Hatutawajibika kwa kutoelewana au tafsiri zisizo sahihi zinazotokana na matumizi ya tafsiri hii.

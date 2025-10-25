@@ -1,39 +1,39 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "9399d7b4767e75068f95ce5c660b285c",
-  "translation_date": "2025-09-05T23:34:36+00:00",
+  "original_hash": "80d80300002ef4e77cc7631d5904bd6e",
+  "translation_date": "2025-10-25T18:59:23+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "vi"
 }
 -->
-# Làm việc với Dữ liệu: Cơ sở Dữ liệu Quan hệ
+# Làm việc với dữ liệu: Cơ sở dữ liệu quan hệ
 
 |![ Sketchnote của [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/05-RelationalData.png)|
 |:---:|
-| Làm việc với Dữ liệu: Cơ sở Dữ liệu Quan hệ - _Sketchnote của [@nitya](https://twitter.com/nitya)_ |
+| Làm việc với dữ liệu: Cơ sở dữ liệu quan hệ - _Sketchnote của [@nitya](https://twitter.com/nitya)_ |
 
-Có lẽ bạn đã từng sử dụng bảng tính để lưu trữ thông tin. Bạn có một tập hợp các hàng và cột, trong đó các hàng chứa thông tin (hoặc dữ liệu), và các cột mô tả thông tin (đôi khi được gọi là metadata). Một cơ sở dữ liệu quan hệ được xây dựng dựa trên nguyên tắc cốt lõi này của các cột và hàng trong bảng, cho phép bạn lưu trữ thông tin trên nhiều bảng. Điều này giúp bạn làm việc với dữ liệu phức tạp hơn, tránh trùng lặp và có sự linh hoạt trong cách khám phá dữ liệu. Hãy cùng khám phá các khái niệm về cơ sở dữ liệu quan hệ.
+Có lẽ bạn đã từng sử dụng bảng tính để lưu trữ thông tin. Bạn có một tập hợp các hàng và cột, trong đó các hàng chứa thông tin (hoặc dữ liệu), và các cột mô tả thông tin (đôi khi được gọi là siêu dữ liệu). Một cơ sở dữ liệu quan hệ được xây dựng dựa trên nguyên tắc cốt lõi này của các cột và hàng trong bảng, cho phép bạn có thông tin phân tán trên nhiều bảng. Điều này giúp bạn làm việc với dữ liệu phức tạp hơn, tránh trùng lặp và có sự linh hoạt trong cách khám phá dữ liệu. Hãy cùng tìm hiểu các khái niệm về cơ sở dữ liệu quan hệ.
 
 ## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
-## Mọi thứ bắt đầu từ các bảng
+## Tất cả bắt đầu từ các bảng
 
-Cơ sở dữ liệu quan hệ có cốt lõi là các bảng. Cũng giống như bảng tính, một bảng là tập hợp các cột và hàng. Hàng chứa dữ liệu hoặc thông tin mà chúng ta muốn làm việc, chẳng hạn như tên của một thành phố hoặc lượng mưa. Các cột mô tả dữ liệu mà chúng lưu trữ.
+Cốt lõi của một cơ sở dữ liệu quan hệ là các bảng. Cũng giống như bảng tính, một bảng là tập hợp các cột và hàng. Hàng chứa dữ liệu hoặc thông tin mà chúng ta muốn làm việc, chẳng hạn như tên của một thành phố hoặc lượng mưa. Các cột mô tả dữ liệu mà chúng lưu trữ.
 
 Hãy bắt đầu khám phá bằng cách tạo một bảng để lưu trữ thông tin về các thành phố. Chúng ta có thể bắt đầu với tên và quốc gia của chúng. Bạn có thể lưu trữ thông tin này trong một bảng như sau:
 
 | Thành phố | Quốc gia       |
-| --------- | ------------- |
-| Tokyo     | Nhật Bản      |
-| Atlanta   | Hoa Kỳ        |
-| Auckland  | New Zealand   |
+| --------- | -------------- |
+| Tokyo     | Nhật Bản       |
+| Atlanta   | Hoa Kỳ         |
+| Auckland  | New Zealand    |
 
-Lưu ý rằng các tên cột **thành phố**, **quốc gia** và **dân số** mô tả dữ liệu được lưu trữ, và mỗi hàng chứa thông tin về một thành phố.
+Lưu ý rằng tên cột **thành phố**, **quốc gia** và **dân số** mô tả dữ liệu được lưu trữ, và mỗi hàng chứa thông tin về một thành phố.
 
-## Hạn chế của cách tiếp cận một bảng
+## Hạn chế của cách tiếp cận một bảng duy nhất
 
-Có lẽ bảng trên trông khá quen thuộc với bạn. Hãy bắt đầu thêm một số dữ liệu bổ sung vào cơ sở dữ liệu đang phát triển của chúng ta - lượng mưa hàng năm (tính bằng milimét). Chúng ta sẽ tập trung vào các năm 2018, 2019 và 2020. Nếu chúng ta thêm dữ liệu cho Tokyo, nó có thể trông như sau:
+Có lẽ bảng trên khá quen thuộc với bạn. Hãy bắt đầu thêm một số dữ liệu bổ sung vào cơ sở dữ liệu đang phát triển của chúng ta - lượng mưa hàng năm (tính bằng milimet). Chúng ta sẽ tập trung vào các năm 2018, 2019 và 2020. Nếu chúng ta thêm dữ liệu cho Tokyo, nó có thể trông như thế này:
 
 | Thành phố | Quốc gia | Năm  | Lượng mưa |
 | --------- | -------- | ---- | --------- |
@@ -41,45 +41,45 @@ Có lẽ bảng trên trông khá quen thuộc với bạn. Hãy bắt đầu th
 | Tokyo     | Nhật Bản | 2019 | 1874      |
 | Tokyo     | Nhật Bản | 2018 | 1445      |
 
-Bạn nhận thấy gì về bảng của chúng ta? Có thể bạn nhận thấy rằng chúng ta đang lặp lại tên và quốc gia của thành phố nhiều lần. Điều này có thể chiếm khá nhiều dung lượng lưu trữ và phần lớn là không cần thiết. Rốt cuộc, Tokyo chỉ có một tên mà chúng ta quan tâm.
+Bạn nhận thấy gì về bảng của chúng ta? Có thể bạn nhận thấy chúng ta đang lặp lại tên và quốc gia của thành phố nhiều lần. Điều này có thể chiếm khá nhiều dung lượng lưu trữ và phần lớn là không cần thiết để có nhiều bản sao. Dù sao thì Tokyo chỉ có một tên mà chúng ta quan tâm.
 
-Được rồi, hãy thử một cách khác. Hãy thêm các cột mới cho mỗi năm:
+OK, hãy thử một cách khác. Hãy thêm các cột mới cho mỗi năm:
 
 | Thành phố | Quốc gia       | 2018 | 2019 | 2020 |
-| --------- | ------------- | ---- | ---- | ---- |
-| Tokyo     | Nhật Bản      | 1445 | 1874 | 1690 |
-| Atlanta   | Hoa Kỳ        | 1779 | 1111 | 1683 |
-| Auckland  | New Zealand   | 1386 | 942  | 1176 |
+| --------- | -------------- | ---- | ---- | ---- |
+| Tokyo     | Nhật Bản       | 1445 | 1874 | 1690 |
+| Atlanta   | Hoa Kỳ         | 1779 | 1111 | 1683 |
+| Auckland  | New Zealand    | 1386 | 942  | 1176 |
 
-Mặc dù cách này tránh được việc lặp lại các hàng, nhưng nó lại tạo ra một số thách thức khác. Chúng ta sẽ cần thay đổi cấu trúc của bảng mỗi khi có một năm mới. Ngoài ra, khi dữ liệu của chúng ta tăng lên, việc sử dụng các năm làm cột sẽ khiến việc truy xuất và tính toán giá trị trở nên khó khăn hơn.
+Mặc dù cách này tránh được việc lặp lại các hàng, nhưng nó lại gây ra một số thách thức khác. Chúng ta sẽ cần phải thay đổi cấu trúc của bảng mỗi khi có một năm mới. Ngoài ra, khi dữ liệu của chúng ta tăng lên, việc để các năm làm cột sẽ khiến việc truy xuất và tính toán giá trị trở nên khó khăn hơn.
 
-Đây là lý do tại sao chúng ta cần nhiều bảng và các mối quan hệ. Bằng cách chia nhỏ dữ liệu, chúng ta có thể tránh trùng lặp và có nhiều sự linh hoạt hơn trong cách làm việc với dữ liệu.
+Đây là lý do tại sao chúng ta cần nhiều bảng và các mối quan hệ. Bằng cách chia nhỏ dữ liệu, chúng ta có thể tránh trùng lặp và có sự linh hoạt hơn trong cách làm việc với dữ liệu.
 
 ## Các khái niệm về mối quan hệ
 
-Hãy quay lại dữ liệu của chúng ta và xác định cách chúng ta muốn chia nhỏ nó. Chúng ta biết rằng chúng ta muốn lưu trữ tên và quốc gia của các thành phố, vì vậy điều này có lẽ sẽ hoạt động tốt nhất trong một bảng.
+Hãy quay lại dữ liệu của chúng ta và xác định cách chúng ta muốn chia nhỏ. Chúng ta biết rằng mình muốn lưu trữ tên và quốc gia của các thành phố, vì vậy điều này có lẽ sẽ phù hợp nhất trong một bảng.
 
 | Thành phố | Quốc gia       |
-| --------- | ------------- |
-| Tokyo     | Nhật Bản      |
-| Atlanta   | Hoa Kỳ        |
-| Auckland  | New Zealand   |
+| --------- | -------------- |
+| Tokyo     | Nhật Bản       |
+| Atlanta   | Hoa Kỳ         |
+| Auckland  | New Zealand    |
 
-Nhưng trước khi chúng ta tạo bảng tiếp theo, chúng ta cần tìm cách tham chiếu đến từng thành phố. Chúng ta cần một dạng định danh, ID hoặc (trong thuật ngữ cơ sở dữ liệu kỹ thuật) một khóa chính. Một khóa chính là một giá trị được sử dụng để xác định một hàng cụ thể trong bảng. Mặc dù điều này có thể dựa trên một giá trị tự thân (chúng ta có thể sử dụng tên của thành phố, chẳng hạn), nó gần như luôn luôn nên là một số hoặc định danh khác. Chúng ta không muốn ID thay đổi vì điều đó sẽ phá vỡ mối quan hệ. Trong hầu hết các trường hợp, khóa chính hoặc ID sẽ là một số được tạo tự động.
+Nhưng trước khi chúng ta tạo bảng tiếp theo, chúng ta cần tìm cách tham chiếu từng thành phố. Chúng ta cần một dạng định danh, ID hoặc (trong thuật ngữ cơ sở dữ liệu kỹ thuật) một khóa chính. Khóa chính là một giá trị được sử dụng để xác định một hàng cụ thể trong bảng. Mặc dù điều này có thể dựa trên một giá trị cụ thể (chúng ta có thể sử dụng tên của thành phố, ví dụ), nhưng nó gần như luôn luôn nên là một số hoặc định danh khác. Chúng ta không muốn ID thay đổi vì điều đó sẽ làm hỏng mối quan hệ. Trong hầu hết các trường hợp, khóa chính hoặc ID sẽ là một số được tạo tự động.
 
 > ✅ Khóa chính thường được viết tắt là PK
 
 ### cities
 
 | city_id | Thành phố | Quốc gia       |
-| ------- | --------- | ------------- |
-| 1       | Tokyo     | Nhật Bản      |
-| 2       | Atlanta   | Hoa Kỳ        |
-| 3       | Auckland  | New Zealand   |
+| ------- | --------- | -------------- |
+| 1       | Tokyo     | Nhật Bản       |
+| 2       | Atlanta   | Hoa Kỳ         |
+| 3       | Auckland  | New Zealand    |
 
 > ✅ Bạn sẽ nhận thấy chúng ta sử dụng các thuật ngữ "id" và "khóa chính" thay thế cho nhau trong bài học này. Các khái niệm ở đây cũng áp dụng cho DataFrames, mà bạn sẽ khám phá sau. DataFrames không sử dụng thuật ngữ "khóa chính", tuy nhiên bạn sẽ nhận thấy chúng hoạt động tương tự.
 
-Với bảng **cities** đã được tạo, hãy lưu trữ lượng mưa. Thay vì lặp lại toàn bộ thông tin về thành phố, chúng ta có thể sử dụng ID. Chúng ta cũng nên đảm bảo rằng bảng mới được tạo có một cột *id*, vì tất cả các bảng nên có một ID hoặc khóa chính.
+Với bảng **cities** đã được tạo, hãy lưu trữ lượng mưa. Thay vì lặp lại thông tin đầy đủ về thành phố, chúng ta có thể sử dụng ID. Chúng ta cũng nên đảm bảo rằng bảng mới tạo có một cột *id*, vì tất cả các bảng nên có một ID hoặc khóa chính.
 
 ### rainfall
 
@@ -95,15 +95,16 @@ Với bảng **cities** đã được tạo, hãy lưu trữ lượng mưa. Thay
 | 8           | 3       | 2019 | 942       |
 | 9           | 3       | 2020 | 1176      |
 
-Lưu ý cột **city_id** trong bảng **rainfall** mới được tạo. Cột này chứa các giá trị tham chiếu đến các ID trong bảng **cities**. Trong thuật ngữ dữ liệu quan hệ kỹ thuật, đây được gọi là **khóa ngoại**; nó là một khóa chính từ bảng khác. Bạn có thể nghĩ về nó như một tham chiếu hoặc con trỏ. **city_id** 1 tham chiếu đến Tokyo.
+Lưu ý cột **city_id** trong bảng **rainfall** mới được tạo. Cột này chứa các giá trị tham chiếu đến các ID trong bảng **cities**. Trong thuật ngữ dữ liệu quan hệ kỹ thuật, điều này được gọi là **khóa ngoại**; nó là một khóa chính từ bảng khác. Bạn có thể nghĩ nó như một tham chiếu hoặc một con trỏ. **city_id** 1 tham chiếu đến Tokyo.
 
-> [!NOTE] Khóa ngoại thường được viết tắt là FK
+> [!NOTE] 
+> Khóa ngoại thường được viết tắt là FK
 
 ## Truy xuất dữ liệu
 
-Với dữ liệu của chúng ta được tách thành hai bảng, bạn có thể tự hỏi làm thế nào để truy xuất nó. Nếu chúng ta đang sử dụng một cơ sở dữ liệu quan hệ như MySQL, SQL Server hoặc Oracle, chúng ta có thể sử dụng một ngôn ngữ gọi là Structured Query Language hoặc SQL. SQL (đôi khi được phát âm là "sequel") là một ngôn ngữ tiêu chuẩn được sử dụng để truy xuất và sửa đổi dữ liệu trong cơ sở dữ liệu quan hệ.
+Với dữ liệu của chúng ta được chia thành hai bảng, bạn có thể thắc mắc làm thế nào để truy xuất nó. Nếu chúng ta sử dụng một cơ sở dữ liệu quan hệ như MySQL, SQL Server hoặc Oracle, chúng ta có thể sử dụng một ngôn ngữ gọi là Structured Query Language hoặc SQL. SQL (đôi khi được phát âm là sequel) là một ngôn ngữ tiêu chuẩn được sử dụng để truy xuất và sửa đổi dữ liệu trong cơ sở dữ liệu quan hệ.
 
-Để truy xuất dữ liệu, bạn sử dụng lệnh `SELECT`. Cốt lõi của nó, bạn **chọn** các cột bạn muốn xem **từ** bảng chứa chúng. Nếu bạn muốn hiển thị chỉ tên của các thành phố, bạn có thể sử dụng:
+Để truy xuất dữ liệu, bạn sử dụng lệnh `SELECT`. Về cơ bản, bạn **chọn** các cột bạn muốn xem **từ** bảng mà chúng chứa. Nếu bạn muốn hiển thị chỉ tên của các thành phố, bạn có thể sử dụng câu lệnh sau:
 
 ```sql
 SELECT city
@@ -117,9 +118,10 @@ FROM cities;
 
 `SELECT` là nơi bạn liệt kê các cột, và `FROM` là nơi bạn liệt kê các bảng.
 
-> [NOTE] Cú pháp SQL không phân biệt chữ hoa chữ thường, nghĩa là `select` và `SELECT` có nghĩa giống nhau. Tuy nhiên, tùy thuộc vào loại cơ sở dữ liệu bạn đang sử dụng, các cột và bảng có thể phân biệt chữ hoa chữ thường. Do đó, một thực hành tốt là luôn coi mọi thứ trong lập trình như phân biệt chữ hoa chữ thường. Khi viết các truy vấn SQL, quy ước phổ biến là viết các từ khóa bằng chữ in hoa.
+> [!NOTE] 
+> Cú pháp SQL không phân biệt chữ hoa chữ thường, nghĩa là `select` và `SELECT` có nghĩa giống nhau. Tuy nhiên, tùy thuộc vào loại cơ sở dữ liệu bạn đang sử dụng, các cột và bảng có thể phân biệt chữ hoa chữ thường. Vì vậy, một thực hành tốt là luôn coi mọi thứ trong lập trình như phân biệt chữ hoa chữ thường. Khi viết các truy vấn SQL, quy ước phổ biến là viết các từ khóa bằng chữ hoa.
 
-Truy vấn trên sẽ hiển thị tất cả các thành phố. Giả sử chúng ta chỉ muốn hiển thị các thành phố ở New Zealand. Chúng ta cần một dạng bộ lọc. Từ khóa SQL cho điều này là `WHERE`, hoặc "nơi điều gì đó đúng".
+Câu truy vấn trên sẽ hiển thị tất cả các thành phố. Hãy tưởng tượng chúng ta chỉ muốn hiển thị các thành phố ở New Zealand. Chúng ta cần một dạng bộ lọc nào đó. Từ khóa SQL cho điều này là `WHERE`, hoặc "nơi điều gì đó đúng".
 
 ```sql
 SELECT city
@@ -130,15 +132,15 @@ WHERE country = 'New Zealand';
 -- Auckland
 ```
 
-## Kết hợp dữ liệu
+## Kết nối dữ liệu
 
-Cho đến nay, chúng ta đã truy xuất dữ liệu từ một bảng duy nhất. Bây giờ chúng ta muốn kết hợp dữ liệu từ cả **cities** và **rainfall**. Điều này được thực hiện bằng cách *kết hợp* chúng lại với nhau. Bạn sẽ tạo một mối nối giữa hai bảng và ghép các giá trị từ một cột của mỗi bảng.
+Cho đến nay chúng ta đã truy xuất dữ liệu từ một bảng duy nhất. Bây giờ chúng ta muốn kết hợp dữ liệu từ cả **cities** và **rainfall**. Điều này được thực hiện bằng cách *kết nối* chúng lại với nhau. Bạn sẽ tạo một đường nối giữa hai bảng và ghép các giá trị từ một cột của mỗi bảng.
 
-Trong ví dụ của chúng ta, chúng ta sẽ ghép cột **city_id** trong **rainfall** với cột **city_id** trong **cities**. Điều này sẽ ghép giá trị lượng mưa với thành phố tương ứng của nó. Loại kết hợp mà chúng ta sẽ thực hiện được gọi là *inner join*, nghĩa là nếu bất kỳ hàng nào không khớp với bất kỳ hàng nào từ bảng khác, chúng sẽ không được hiển thị. Trong trường hợp của chúng ta, mọi thành phố đều có lượng mưa, vì vậy mọi thứ sẽ được hiển thị.
+Trong ví dụ của chúng ta, chúng ta sẽ ghép cột **city_id** trong **rainfall** với cột **city_id** trong **cities**. Điều này sẽ ghép giá trị lượng mưa với thành phố tương ứng của nó. Loại kết nối mà chúng ta sẽ thực hiện được gọi là *inner join*, nghĩa là nếu bất kỳ hàng nào không khớp với bất kỳ hàng nào từ bảng khác, chúng sẽ không được hiển thị. Trong trường hợp của chúng ta, mỗi thành phố đều có lượng mưa, vì vậy mọi thứ sẽ được hiển thị.
 
 Hãy truy xuất lượng mưa năm 2019 cho tất cả các thành phố của chúng ta.
 
-Chúng ta sẽ thực hiện điều này theo từng bước. Bước đầu tiên là kết hợp dữ liệu lại với nhau bằng cách chỉ định các cột cho mối nối - **city_id** như đã được làm nổi bật trước đó.
+Chúng ta sẽ thực hiện điều này theo từng bước. Bước đầu tiên là kết nối dữ liệu lại với nhau bằng cách chỉ định các cột cho đường nối - **city_id** như đã được nhấn mạnh trước đó.
 
 ```sql
 SELECT cities.city
@@ -147,7 +149,7 @@ FROM cities
     INNER JOIN rainfall ON cities.city_id = rainfall.city_id
 ```
 
-Chúng ta đã làm nổi bật hai cột mà chúng ta muốn, và thực tế rằng chúng ta muốn kết hợp các bảng lại với nhau bằng **city_id**. Bây giờ chúng ta có thể thêm câu lệnh `WHERE` để lọc chỉ năm 2019.
+Chúng ta đã nhấn mạnh hai cột mà chúng ta muốn, và thực tế rằng chúng ta muốn kết nối các bảng lại với nhau bằng **city_id**. Bây giờ chúng ta có thể thêm câu lệnh `WHERE` để lọc chỉ năm 2019.
 
 ```sql
 SELECT cities.city
@@ -167,7 +169,7 @@ WHERE rainfall.year = 2019
 
 ## Tóm tắt
 
-Cơ sở dữ liệu quan hệ tập trung vào việc chia thông tin giữa nhiều bảng, sau đó được kết hợp lại để hiển thị và phân tích. Điều này cung cấp một mức độ linh hoạt cao để thực hiện các phép tính và thao tác dữ liệu. Bạn đã thấy các khái niệm cốt lõi của cơ sở dữ liệu quan hệ và cách thực hiện một phép kết hợp giữa hai bảng.
+Cơ sở dữ liệu quan hệ tập trung vào việc chia thông tin giữa nhiều bảng, sau đó được kết hợp lại để hiển thị và phân tích. Điều này cung cấp một mức độ linh hoạt cao để thực hiện các tính toán và xử lý dữ liệu. Bạn đã thấy các khái niệm cốt lõi của cơ sở dữ liệu quan hệ, và cách thực hiện kết nối giữa hai bảng.
 
 ## 🚀 Thử thách
 
@@ -179,7 +181,7 @@ Có rất nhiều cơ sở dữ liệu quan hệ có sẵn trên internet. Bạn
 
 ## Ôn tập & Tự học
 
-Có nhiều tài nguyên có sẵn trên [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum) để bạn tiếp tục khám phá các khái niệm về SQL và cơ sở dữ liệu quan hệ.
+Có nhiều tài nguyên có sẵn trên [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum) để bạn tiếp tục khám phá các khái niệm về SQL và cơ sở dữ liệu quan hệ
 
 - [Mô tả các khái niệm về dữ liệu quan hệ](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-77958-bethanycheum)
 - [Bắt đầu truy vấn với Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-77958-bethanycheum) (Transact-SQL là một phiên bản của SQL)
@@ -192,4 +194,4 @@ Có nhiều tài nguyên có sẵn trên [Microsoft Learn](https://docs.microsof
 ---
 
 **Tuyên bố miễn trừ trách nhiệm**:  
-Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc không chính xác. Tài liệu gốc bằng ngôn ngữ bản địa nên được coi là nguồn tham khảo chính thức. Đối với các thông tin quan trọng, chúng tôi khuyến nghị sử dụng dịch vụ dịch thuật chuyên nghiệp từ con người. Chúng tôi không chịu trách nhiệm cho bất kỳ sự hiểu lầm hoặc diễn giải sai nào phát sinh từ việc sử dụng bản dịch này.
+Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc không chính xác. Tài liệu gốc bằng ngôn ngữ bản địa nên được coi là nguồn thông tin chính thức. Đối với thông tin quan trọng, chúng tôi khuyến nghị sử dụng dịch vụ dịch thuật chuyên nghiệp bởi con người. Chúng tôi không chịu trách nhiệm cho bất kỳ sự hiểu lầm hoặc diễn giải sai nào phát sinh từ việc sử dụng bản dịch này.
