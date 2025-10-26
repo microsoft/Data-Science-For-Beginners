@@ -232,7 +232,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 _コンプライアンス_（「法律の文言」を満たすために十分なことを行うこと）と[システム的な問題](https://www.coursera.org/learn/data-science-ethics/home/week/4)（硬直化、情報の非対称性、分配の不公平性など）に対処すること（AIの武器化を加速させる可能性がある）との間には、依然として無形のギャップがあります。
 
-後者には、業界内で_組織間_で一貫した共有価値と感情的なつながりを構築する[倫理文化を定義するための協力的アプローチ](https://towardsdatascience.com/why-ai-ethics-requires-a-culture-driven-approach-26f451afa29f)が必要です。これには、組織内でより[正式化されたデータ倫理文化](https://www.codeforamerica.org/news/formalizing-an-ethical-data-culture/)を構築することが求められます。これにより、_誰でも_（プロセスの早い段階で倫理的懸念を提起するために）[アンドンコードを引く](https://en.wikipedia.org/wiki/And
+後者には、業界内で_組織間_で一貫した共有価値と感情的なつながりを構築する[倫理文化を定義するための協力的アプローチ](https://towardsdatascience.com/why-ai-ethics-requires-a-culture-driven-approach-26f451afa29f)が必要です。これには、組織内でより[正式化されたデータ倫理文化](https://www.codeforamerica.org/news/formalizing-an-ethical-data-culture/)を構築することが求められます。これにより、_誰でも_（プロセスの早い段階で倫理的懸念を提起するために）[アンドンコードを引く](https://en.wikipedia.org/wiki/Andon_(manufacturing))ことを可能にし、AIプロジェクトにおけるチーム編成の中核基準として _倫理的評価_（例：採用時）を行うことです。
 * [初心者向け機械学習](https://github.com/microsoft/ML-For-Beginners/blob/main/1-Introduction/3-fairness/README.md) - Microsoftによる公平性に関するレッスン。
 * [責任あるAIの原則](https://docs.microsoft.com/en-us/learn/modules/responsible-ai-principles/) - Microsoft Learnの無料学習パス。
 * [倫理とデータサイエンス](https://resources.oreilly.com/examples/0636920203964) - O'Reillyの電子書籍 (M. Loukides, H. Mason 他)
