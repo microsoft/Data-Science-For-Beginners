@@ -214,7 +214,7 @@ plt.show()
 
 ## 課題
 
-[Lines, Scatters, and Bars](assignment.md)
+[線グラフ、散布図、棒グラフ](assignment.md)
 
 ---
 
