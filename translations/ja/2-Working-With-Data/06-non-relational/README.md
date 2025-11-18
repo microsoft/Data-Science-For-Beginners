@@ -150,7 +150,7 @@ JavaScript Object Notation (JSON) に詳しい方は、ドキュメントがJSON
 
 ## 課題
 
-[Soda Profits](assignment.md)
+[ソーダの利益](assignment.md)
 
 ---
 
