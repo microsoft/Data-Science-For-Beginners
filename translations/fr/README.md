@@ -1,19 +1,35 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "f9a704f7494ca2d185ded59ba3da99ef",
-  "translation_date": "2025-10-24T08:49:17+00:00",
+  "original_hash": "26afff0d5c802e24a14f000c9c9f4614",
+  "translation_date": "2025-11-18T16:54:17+00:00",
   "source_file": "README.md",
   "language_code": "fr"
 }
 -->
 # Science des données pour débutants - Un programme
 
-Azure Cloud Advocates chez Microsoft sont ravis de proposer un programme de 10 semaines et 20 leçons entièrement dédié à la science des données. Chaque leçon inclut des quiz avant et après la leçon, des instructions écrites pour réaliser la leçon, une solution et un devoir. Notre pédagogie basée sur les projets vous permet d'apprendre tout en construisant, une méthode éprouvée pour assimiler de nouvelles compétences.
+[![Ouvrir dans GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
+
+[![Licence GitHub](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
+[![Contributeurs GitHub](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
+[![Problèmes GitHub](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
+[![Pull-requests GitHub](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![PRs Bienvenus](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+[![Observateurs GitHub](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
+[![Forks GitHub](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
+[![Étoiles GitHub](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
+
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
+
+[![Forum des développeurs Microsoft Foundry](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
+Les Azure Cloud Advocates chez Microsoft sont ravis de proposer un programme de 10 semaines et 20 leçons entièrement dédié à la science des données. Chaque leçon comprend des quiz avant et après la leçon, des instructions écrites pour compléter la leçon, une solution et un devoir. Notre pédagogie basée sur les projets vous permet d'apprendre tout en construisant, une méthode éprouvée pour que les nouvelles compétences soient bien assimilées.
 
 **Un grand merci à nos auteurs :** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
-**🙏 Remerciements spéciaux 🙏 à nos [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) auteurs, relecteurs et contributeurs de contenu,** notamment Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+**🙏 Merci spécial 🙏 à nos [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) auteurs, relecteurs et contributeurs de contenu,** notamment Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar, [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
 |![Sketchnote par @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.fr.png)|
@@ -25,15 +41,15 @@ Azure Cloud Advocates chez Microsoft sont ravis de proposer un programme de 10 s
 #### Supporté via GitHub Action (Automatisé et toujours à jour)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabe](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgare](../bg/README.md) | [Birman (Myanmar)](../my/README.md) | [Chinois (Simplifié)](../zh/README.md) | [Chinois (Traditionnel, Hong Kong)](../hk/README.md) | [Chinois (Traditionnel, Macao)](../mo/README.md) | [Chinois (Traditionnel, Taïwan)](../tw/README.md) | [Croate](../hr/README.md) | [Tchèque](../cs/README.md) | [Danois](../da/README.md) | [Néerlandais](../nl/README.md) | [Estonien](../et/README.md) | [Finnois](../fi/README.md) | [Français](./README.md) | [Allemand](../de/README.md) | [Grec](../el/README.md) | [Hébreu](../he/README.md) | [Hindi](../hi/README.md) | [Hongrois](../hu/README.md) | [Indonésien](../id/README.md) | [Italien](../it/README.md) | [Japonais](../ja/README.md) | [Coréen](../ko/README.md) | [Lituanien](../lt/README.md) | [Malais](../ms/README.md) | [Marathi](../mr/README.md) | [Népalais](../ne/README.md) | [Norvégien](../no/README.md) | [Persan (Farsi)](../fa/README.md) | [Polonais](../pl/README.md) | [Portugais (Brésil)](../br/README.md) | [Portugais (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Roumain](../ro/README.md) | [Russe](../ru/README.md) | [Serbe (Cyrillique)](../sr/README.md) | [Slovaque](../sk/README.md) | [Slovène](../sl/README.md) | [Espagnol](../es/README.md) | [Swahili](../sw/README.md) | [Suédois](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamoul](../ta/README.md) | [Thaï](../th/README.md) | [Turc](../tr/README.md) | [Ukrainien](../uk/README.md) | [Ourdou](../ur/README.md) | [Vietnamien](../vi/README.md)
+[Arabe](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgare](../bg/README.md) | [Birman (Myanmar)](../my/README.md) | [Chinois (Simplifié)](../zh/README.md) | [Chinois (Traditionnel, Hong Kong)](../hk/README.md) | [Chinois (Traditionnel, Macao)](../mo/README.md) | [Chinois (Traditionnel, Taïwan)](../tw/README.md) | [Croate](../hr/README.md) | [Tchèque](../cs/README.md) | [Danois](../da/README.md) | [Néerlandais](../nl/README.md) | [Estonien](../et/README.md) | [Finnois](../fi/README.md) | [Français](./README.md) | [Allemand](../de/README.md) | [Grec](../el/README.md) | [Hébreu](../he/README.md) | [Hindi](../hi/README.md) | [Hongrois](../hu/README.md) | [Indonésien](../id/README.md) | [Italien](../it/README.md) | [Japonais](../ja/README.md) | [Coréen](../ko/README.md) | [Lituanien](../lt/README.md) | [Malais](../ms/README.md) | [Marathi](../mr/README.md) | [Népalais](../ne/README.md) | [Pidgin Nigérian](../pcm/README.md) | [Norvégien](../no/README.md) | [Persan (Farsi)](../fa/README.md) | [Polonais](../pl/README.md) | [Portugais (Brésil)](../br/README.md) | [Portugais (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Roumain](../ro/README.md) | [Russe](../ru/README.md) | [Serbe (Cyrillique)](../sr/README.md) | [Slovaque](../sk/README.md) | [Slovène](../sl/README.md) | [Espagnol](../es/README.md) | [Swahili](../sw/README.md) | [Suédois](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamoul](../ta/README.md) | [Thaï](../th/README.md) | [Turc](../tr/README.md) | [Ukrainien](../uk/README.md) | [Ourdou](../ur/README.md) | [Vietnamien](../vi/README.md)
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**Si vous souhaitez ajouter des langues supplémentaires, les langues prises en charge sont listées [ici](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**Si vous souhaitez ajouter des langues supplémentaires, les langues supportées sont listées [ici](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
 #### Rejoignez notre communauté 
-[![Azure AI Discord](https://dcbadge.limes.pink/api/server/kzRShWzttr)](https://aka.ms/ds4beginners/discord)
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Nous organisons une série d'apprentissage avec l'IA sur Discord, apprenez-en plus et rejoignez-nous à [Learn with AI Series](https://aka.ms/learnwithai/discord) du 18 au 30 septembre 2025. Vous découvrirez des astuces pour utiliser GitHub Copilot pour la science des données.
+Nous avons une série d'apprentissage avec l'IA en cours sur Discord, apprenez-en plus et rejoignez-nous à [Learn with AI Series](https://aka.ms/learnwithai/discord) du 18 au 30 septembre 2025. Vous y découvrirez des astuces pour utiliser GitHub Copilot en science des données.
 
 ![Série Apprendre avec l'IA](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.fr.jpg)
 
@@ -41,22 +57,22 @@ Nous organisons une série d'apprentissage avec l'IA sur Discord, apprenez-en pl
 
 Commencez avec les ressources suivantes :
 
-- [Page d'accueil des étudiants](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Sur cette page, vous trouverez des ressources pour débutants, des packs étudiants et même des moyens d'obtenir un bon de certification gratuit. C'est une page à mettre en favori et à consulter régulièrement, car nous changeons le contenu au moins une fois par mois.
+- [Page Hub Étudiant](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Sur cette page, vous trouverez des ressources pour débutants, des packs étudiants et même des moyens d'obtenir un bon de certification gratuit. C'est une page à mettre en favori et à consulter régulièrement, car nous changeons le contenu au moins une fois par mois.
 - [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Rejoignez une communauté mondiale d'ambassadeurs étudiants, cela pourrait être votre porte d'entrée chez Microsoft.
 
-# Pour commencer
+# Premiers pas
 
 ## 📚 Documentation
 
 - **[Guide d'installation](INSTALLATION.md)** - Instructions étape par étape pour les débutants
 - **[Guide d'utilisation](USAGE.md)** - Exemples et flux de travail courants
-- **[Dépannage](TROUBLESHOOTING.md)** - Solutions aux problèmes courants
+- **[Dépannage](TROUBLESHOOTING.md)** - Solutions aux problèmes fréquents
 - **[Guide de contribution](CONTRIBUTING.md)** - Comment contribuer à ce projet
 - **[Pour les enseignants](for-teachers.md)** - Conseils pédagogiques et ressources pour la classe
 
 ## 👨‍🎓 Pour les étudiants
-> **Débutants complets** : Vous débutez en science des données ? Commencez par nos [exemples adaptés aux débutants](examples/README.md) ! Ces exemples simples et bien commentés vous aideront à comprendre les bases avant de plonger dans le programme complet.
-> **[Étudiants](https://aka.ms/student-page)** : pour utiliser ce programme par vous-même, clonez l'intégralité du dépôt et réalisez les exercices par vous-même, en commençant par un quiz avant la leçon. Ensuite, lisez la leçon et complétez les autres activités. Essayez de créer les projets en comprenant les leçons plutôt qu'en copiant le code de solution ; cependant, ce code est disponible dans les dossiers /solutions de chaque leçon orientée projet. Une autre idée serait de former un groupe d'étude avec des amis et de parcourir le contenu ensemble. Pour approfondir vos connaissances, nous recommandons [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **Débutants complets** : Vous débutez en science des données ? Commencez avec nos [exemples adaptés aux débutants](examples/README.md) ! Ces exemples simples et bien commentés vous aideront à comprendre les bases avant de plonger dans le programme complet.
+> **[Étudiants](https://aka.ms/student-page)** : pour utiliser ce programme par vous-même, clonez le dépôt entier et complétez les exercices par vous-même, en commençant par un quiz avant la leçon. Ensuite, lisez la leçon et complétez le reste des activités. Essayez de créer les projets en comprenant les leçons plutôt qu'en copiant le code de solution ; cependant, ce code est disponible dans les dossiers /solutions de chaque leçon orientée projet. Une autre idée serait de former un groupe d'étude avec des amis et de parcourir le contenu ensemble. Pour approfondir vos connaissances, nous recommandons [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 **Démarrage rapide :**
 1. Consultez le [Guide d'installation](INSTALLATION.md) pour configurer votre environnement
@@ -77,7 +93,7 @@ Commencez avec les ressources suivantes :
 > 🎥 Cliquez sur l'image ci-dessus pour une vidéo sur le projet et les personnes qui l'ont créé !
 
 ## Pédagogie
-Nous avons choisi deux principes pédagogiques lors de la création de ce programme : garantir qu'il soit basé sur des projets et qu'il inclue des quiz fréquents. À la fin de cette série, les étudiants auront appris les principes fondamentaux de la science des données, y compris les concepts éthiques, la préparation des données, différentes façons de travailler avec les données, la visualisation des données, l'analyse des données, des cas d'utilisation réels de la science des données, et bien plus encore.
+Nous avons choisi deux principes pédagogiques lors de la conception de ce programme : garantir qu'il soit basé sur des projets et qu'il inclue des quiz fréquents. À la fin de cette série, les étudiants auront appris les principes fondamentaux de la science des données, y compris les concepts éthiques, la préparation des données, différentes façons de travailler avec les données, la visualisation des données, l'analyse des données, des cas d'utilisation réels de la science des données, et bien plus encore.
 
 De plus, un quiz à faible enjeu avant un cours aide l'étudiant à se concentrer sur l'apprentissage d'un sujet, tandis qu'un deuxième quiz après le cours favorise une meilleure rétention. Ce programme a été conçu pour être flexible et amusant, et peut être suivi en totalité ou en partie. Les projets commencent petits et deviennent de plus en plus complexes à la fin du cycle de 10 semaines.
 
@@ -122,13 +138,13 @@ Chaque exemple inclut des commentaires détaillés expliquant chaque étape, par
 
 | Numéro de leçon | Sujet | Regroupement des leçons | Objectifs d'apprentissage | Leçon liée | Auteur |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | Définir la science des données | [Introduction](1-Introduction/README.md) | Apprenez les concepts de base de la science des données et comment elle est liée à l'intelligence artificielle, au machine learning et aux big data. | [leçon](1-Introduction/01-defining-data-science/README.md) [vidéo](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 01 | Définir la science des données | [Introduction](1-Introduction/README.md) | Apprenez les concepts de base de la science des données et comment elle est liée à l'intelligence artificielle, au machine learning et au big data. | [leçon](1-Introduction/01-defining-data-science/README.md) [vidéo](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
 | 02 | Éthique en science des données | [Introduction](1-Introduction/README.md) | Concepts, défis et cadres de l'éthique des données. | [leçon](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
 | 03 | Définir les données | [Introduction](1-Introduction/README.md) | Comment les données sont classifiées et leurs sources courantes. | [leçon](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 04 | Introduction aux statistiques et probabilités | [Introduction](1-Introduction/README.md) | Les techniques mathématiques de probabilité et de statistiques pour comprendre les données. | [leçon](1-Introduction/04-stats-and-probability/README.md) [vidéo](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Travailler avec des données relationnelles | [Travailler avec les données](2-Working-With-Data/README.md) | Introduction aux données relationnelles et aux bases de l'exploration et de l'analyse des données relationnelles avec le Structured Query Language, également connu sous le nom de SQL (prononcé "see-quell"). | [leçon](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 05 | Travailler avec des données relationnelles | [Travailler avec les données](2-Working-With-Data/README.md) | Introduction aux données relationnelles et aux bases de l'exploration et de l'analyse des données relationnelles avec le langage SQL (prononcé "see-quell"). | [leçon](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
 | 06 | Travailler avec des données NoSQL | [Travailler avec les données](2-Working-With-Data/README.md) | Introduction aux données non relationnelles, leurs différents types et les bases de l'exploration et de l'analyse des bases de données documentaires. | [leçon](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
-| 07 | Travailler avec Python | [Travailler avec les données](2-Working-With-Data/README.md) | Bases de l'utilisation de Python pour l'exploration des données avec des bibliothèques telles que Pandas. Une compréhension fondamentale de la programmation Python est recommandée. | [leçon](2-Working-With-Data/07-python/README.md) [vidéo](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
+| 07 | Travailler avec Python | [Travailler avec les données](2-Working-With-Data/README.md) | Bases de l'utilisation de Python pour l'exploration des données avec des bibliothèques comme Pandas. Une compréhension fondamentale de la programmation Python est recommandée. | [leçon](2-Working-With-Data/07-python/README.md) [vidéo](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
 | 08 | Préparation des données | [Travailler avec les données](2-Working-With-Data/README.md) | Techniques sur le nettoyage et la transformation des données pour gérer les défis des données manquantes, inexactes ou incomplètes. | [leçon](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
 | 09 | Visualiser des quantités | [Visualisation des données](3-Data-Visualization/README.md) | Apprenez à utiliser Matplotlib pour visualiser des données d'oiseaux 🦆 | [leçon](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 10 | Visualiser des distributions de données | [Visualisation des données](3-Data-Visualization/README.md) | Visualiser des observations et des tendances dans un intervalle. | [leçon](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
@@ -153,13 +169,13 @@ Pour plus d'informations, consultez la [documentation GitHub](https://docs.githu
 ## VSCode Remote - Containers
 Suivez ces étapes pour ouvrir ce dépôt dans un conteneur en utilisant votre machine locale et VSCode avec l'extension VS Code Remote - Containers :
 
-1. Si c'est votre première utilisation d'un conteneur de développement, assurez-vous que votre système répond aux prérequis (par exemple, avoir Docker installé) dans [la documentation de démarrage](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. Si c'est la première fois que vous utilisez un conteneur de développement, assurez-vous que votre système répond aux prérequis (par exemple, avoir Docker installé) dans [la documentation de démarrage](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
 Pour utiliser ce dépôt, vous pouvez soit ouvrir le dépôt dans un volume Docker isolé :
 
-**Note** : En coulisses, cela utilisera la commande Remote-Containers : **Clone Repository in Container Volume...** pour cloner le code source dans un volume Docker au lieu du système de fichiers local. Les [volumes](https://docs.docker.com/storage/volumes/) sont le mécanisme préféré pour la persistance des données des conteneurs.
+**Note** : En arrière-plan, cela utilisera la commande Remote-Containers : **Clone Repository in Container Volume...** pour cloner le code source dans un volume Docker au lieu du système de fichiers local. Les [volumes](https://docs.docker.com/storage/volumes/) sont le mécanisme préféré pour persister les données des conteneurs.
 
-Ou ouvrir une version localement clonée ou téléchargée du dépôt :
+Ou ouvrir une version clonée ou téléchargée localement du dépôt :
 
 - Clonez ce dépôt sur votre système de fichiers local.
 - Appuyez sur F1 et sélectionnez la commande **Remote-Containers: Open Folder in Container...**.
@@ -209,19 +225,21 @@ Notre équipe produit d'autres programmes ! Découvrez :
 [![Aventure Copilot](https://img.shields.io/badge/Aventure%20Copilot-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)  
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## Obtenir de l'Aide  
+## Obtenir de l'aide  
 
 **Vous rencontrez des problèmes ?** Consultez notre [Guide de Dépannage](TROUBLESHOOTING.md) pour des solutions aux problèmes courants.
 
-Si vous êtes bloqué ou avez des questions sur la création d'applications IA, rejoignez :  
+Si vous êtes bloqué ou avez des questions sur la création d'applications IA, rejoignez d'autres apprenants et développeurs expérimentés pour discuter de MCP. C'est une communauté solidaire où les questions sont les bienvenues et le partage de connaissances est encouragé.
 
-[![Discord Azure AI Foundry](https://img.shields.io/badge/Discord-Communauté_Discord_Azure_AI_Foundry-blue?style=for-the-badge&logo=discord&color=5865f2&logoColor=fff)](https://aka.ms/foundry/discord)
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Si vous avez des retours sur les produits ou des erreurs lors de la création, visitez :  
+Si vous avez des retours sur les produits ou des erreurs lors de la création, visitez :
 
-[![Forum Développeurs Azure AI Foundry](https://img.shields.io/badge/GitHub-Forum_Développeurs_Azure_AI_Foundry-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+[![Forum des Développeurs Microsoft Foundry](https://img.shields.io/badge/GitHub-Forum_des_Développeurs_Microsoft_Foundry-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **Avertissement** :  
-Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction humaine professionnelle. Nous ne sommes pas responsables des malentendus ou des interprétations erronées résultant de l'utilisation de cette traduction.
+Ce document a été traduit à l'aide du service de traduction IA [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction humaine professionnelle. Nous ne sommes pas responsables des malentendus ou des interprétations erronées résultant de l'utilisation de cette traduction.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
