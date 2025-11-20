@@ -1,0 +1,112 @@
+"Based on the correlation matrix, what is the strength and direction of the linear relationship between sleep duration and mood score in this dataset?"
+# 1. Import necessary libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Set visualization style
+sns.set_style('darkgrid')
+plt.rcParams['figure.figsize'] = (14, 7)
+
+# --- 2. Data Loading ---
+# NOTE: Replace 'lifestyle_data.csv' with your actual file path.
+# Assuming a dataset with columns: Date, Steps, CaloriesBurned, Distance, SleepDuration (hours)
+try:
+    df = pd.read_csv('lifestyle_data.csv')
+    print("Life Style data successfully loaded!")
+except FileNotFoundError:
+    print("Error: Make sure 'lifestyle_data.csv' is in the correct directory.")
+    print("Creating a dummy DataFrame for demonstration.")
+    # Create a minimal dummy DataFrame for structural demonstration if loading fails
+    data = {
+        'Date': pd.to_datetime(pd.date_range(start='2024-01-01', periods=30, freq='D')),
+        'Steps': np.random.randint(3000, 15000, 30),
+        'CaloriesBurned': np.random.randint(500, 2000, 30),
+        'Distance': np.round(np.random.uniform(2.0, 10.0, 30), 2),
+        'SleepDuration': np.round(np.random.uniform(5.5, 9.0, 30), 1),
+        'MoodScore': np.random.randint(1, 11, 30) # 1=Bad, 10=Excellent
+    }
+    df = pd.DataFrame(data)
+
+# Initial Data Exploration
+print("\n--- Initial Data Info ---")
+print(df.head())
+print(df.info())
+
+
+# --- 3. Data Cleaning and Preprocessing ---
+
+# 3.1. Convert 'Date' column to datetime objects
+if 'Date' in df.columns and df['Date'].dtype != '<M8[ns]': # Check if it's already datetime
+    df['Date'] = pd.to_datetime(df['Date'])
+
+# 3.2. Set 'Date' as index for time-series analysis
+df.set_index('Date', inplace=True)
+
+# 3.3. Check for Outliers (Simple check on a key metric)
+print(f"\nSteps - Basic Statistics:\n{df['Steps'].describe()}")
+# You might apply Z-score or IQR methods here for formal outlier removal
+
+
+# --- 4. Exploratory Data Analysis (EDA) & Insights ---
+
+# 4.1. Overall Trends Over Time
+print("\n--- 4.1 Weekly Averages ---")
+weekly_summary = df[['Steps', 'SleepDuration']].resample('W').mean()
+print(weekly_summary.head())
+
+# Time Series Plot for Steps and Sleep (Using Secondary Y-axis)
+fig, ax1 = plt.subplots(figsize=(14, 7))
+
+# Plot Steps on Primary Axis
+color = 'tab:blue'
+ax1.set_xlabel('Date')
+ax1.set_ylabel('Weekly Average Steps', color=color)
+ax1.plot(weekly_summary.index, weekly_summary['Steps'], color=color, marker='o')
+ax1.tick_params(axis='y', labelcolor=color)
+
+# Create a secondary axis for Sleep
+ax2 = ax1.twinx()
+color = 'tab:red'
+ax2.set_ylabel('Weekly Average Sleep Duration (hours)', color=color)
+ax2.plot(weekly_summary.index, weekly_summary['SleepDuration'], color=color, marker='x')
+ax2.tick_params(axis='y', labelcolor=color)
+
+plt.title('Weekly Trends: Steps vs. Sleep Duration ')
+fig.tight_layout()
+plt.show()
+
+# 4.2. Relationship Analysis: Steps vs. Calories Burned
+correlation_steps_calories = df['Steps'].corr(df['CaloriesBurned'])
+print(f"\nCorrelation between Steps and Calories Burned: {correlation_steps_calories:.2f}")
+
+plt.figure(figsize=(8, 6))
+sns.scatterplot(x='Steps', y='CaloriesBurned', data=df)
+plt.title('Relationship between Daily Steps and Calories Burned')
+plt.show()
+
+# 4.3. Correlation Matrix (Identifying Key Relationships)
+# Select the numeric columns for correlation analysis
+numeric_df = df[['Steps', 'CaloriesBurned', 'Distance', 'SleepDuration', 'MoodScore']]
+correlation_matrix = numeric_df.corr()
+
+plt.figure(figsize=(10, 8))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f")
+plt.title('Correlation Matrix of Life Style Metrics ')
+plt.show()
+
+# 4.4. Day of the Week Analysis (When are we most active?)
+df['DayOfWeek'] = df.index.day_name()
+day_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+daily_activity = df.groupby('DayOfWeek')['Steps'].mean().reindex(day_order)
+
+print("\n--- 4.4 Average Steps by Day of the Week ---")
+print(daily_activity)
+
+plt.figure(figsize=(10, 6))
+sns.barplot(x=daily_activity.index, y=daily_activity.values, palette='viridis')
+plt.title('Average Daily Steps by Day of the Week')
+plt.ylabel('Average Steps')
+plt.xlabel('Day of Week')
+plt.show()
