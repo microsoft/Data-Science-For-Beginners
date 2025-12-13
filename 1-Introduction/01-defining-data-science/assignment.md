@@ -20,9 +20,9 @@ Fill in the following table (substitute suggested problem domains for your own o
 
 | Problem Domain | Problem | Which data to collect | How to store the data | Which insights/decisions we can make | 
 |----------------|---------|-----------------------|-----------------------|--------------------------------------|
-| Education | | | | |
-| Vaccination | | | | |
-| Productivity | | | | |
+| Education |improving exam perfomance students of highschool |Attendance records, previous exam scores, hours spent studying in the library |CSV files initially, then relational database (PostgreSQL) |factors increase perfomance and factors decrease the perfomance. and improve teaching strategies  |
+| Vaccination |Monitor vaccination coverage during a pandemic | Vaccination dates, age, location, vaccine type, side effects |SQL database | Detect low coverage areas, prioritize vaccine distribution|
+| Productivity |Improve personal work productivity  | Task completion time, task count, break duration, app usage| SQLite or cloud spreadsheets| Optimize work schedules, reduce time waste |
 
 ## Rubric
 
