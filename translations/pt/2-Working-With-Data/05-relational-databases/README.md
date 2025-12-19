@@ -1,27 +1,27 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "80d80300002ef4e77cc7631d5904bd6e",
-  "translation_date": "2025-10-25T18:48:42+00:00",
+  "original_hash": "11739c7b40e7c6b16ad29e3df4e65862",
+  "translation_date": "2025-12-19T11:12:33+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "pt"
 }
 -->
-# Trabalhando com Dados: Bases de Dados Relacionais
+# Trabalhar com Dados: Bases de Dados Relacionais
 
 |![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/05-RelationalData.png)|
 |:---:|
-| Trabalhando com Dados: Bases de Dados Relacionais - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
+| Trabalhar com Dados: Bases de Dados Relacionais - _Sketchnote por [@nitya](https://twitter.com/nitya)_ |
 
-É bem provável que já tenha usado uma folha de cálculo no passado para armazenar informações. Você tinha um conjunto de linhas e colunas, onde as linhas continham as informações (ou dados) e as colunas descreviam essas informações (às vezes chamadas de metadados). Uma base de dados relacional é construída com base nesse princípio de colunas e linhas em tabelas, permitindo que você tenha informações distribuídas por várias tabelas. Isso possibilita trabalhar com dados mais complexos, evitar duplicações e ter flexibilidade na forma como explora os dados. Vamos explorar os conceitos de uma base de dados relacional.
+É provável que já tenha usado uma folha de cálculo no passado para armazenar informação. Tinha um conjunto de linhas e colunas, onde as linhas continham a informação (ou dados), e as colunas descreviam a informação (por vezes chamadas metadados). Uma base de dados relacional é construída sobre este princípio fundamental de colunas e linhas em tabelas, permitindo que tenha informação distribuída por várias tabelas. Isto permite trabalhar com dados mais complexos, evitar duplicação e ter flexibilidade na forma como explora os dados. Vamos explorar os conceitos de uma base de dados relacional.
 
 ## [Questionário pré-aula](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
 ## Tudo começa com tabelas
 
-Uma base de dados relacional tem como núcleo as tabelas. Assim como na folha de cálculo, uma tabela é uma coleção de colunas e linhas. A linha contém os dados ou informações com as quais queremos trabalhar, como o nome de uma cidade ou a quantidade de precipitação. As colunas descrevem os dados que armazenam.
+Uma base de dados relacional tem no seu núcleo tabelas. Tal como numa folha de cálculo, uma tabela é uma coleção de colunas e linhas. A linha contém os dados ou informação com que queremos trabalhar, como o nome de uma cidade ou a quantidade de precipitação. As colunas descrevem os dados que armazenam.
 
-Vamos começar nossa exploração criando uma tabela para armazenar informações sobre cidades. Podemos começar com o nome e o país delas. Você poderia armazenar isso em uma tabela como a seguinte:
+Vamos começar a nossa exploração criando uma tabela para armazenar informação sobre cidades. Podemos começar com o seu nome e país. Poderia armazenar isto numa tabela da seguinte forma:
 
 | Cidade   | País          |
 | -------- | ------------- |
@@ -29,21 +29,21 @@ Vamos começar nossa exploração criando uma tabela para armazenar informaçõe
 | Atlanta  | Estados Unidos|
 | Auckland | Nova Zelândia |
 
-Note que os nomes das colunas **cidade**, **país** e **população** descrevem os dados armazenados, e cada linha tem informações sobre uma cidade.
+Repare que os nomes das colunas **cidade**, **país** e **população** descrevem os dados armazenados, e cada linha tem informação sobre uma cidade.
 
-## As limitações de uma abordagem de tabela única
+## As limitações de uma abordagem com uma única tabela
 
-Provavelmente, a tabela acima parece relativamente familiar para você. Vamos começar a adicionar alguns dados adicionais à nossa crescente base de dados - precipitação anual (em milímetros). Vamos focar nos anos de 2018, 2019 e 2020. Se fôssemos adicioná-los para Tóquio, poderia ficar algo assim:
+É provável que a tabela acima lhe pareça relativamente familiar. Vamos começar a adicionar alguns dados adicionais à nossa base de dados em crescimento - precipitação anual (em milímetros). Vamos focar-nos nos anos 2018, 2019 e 2020. Se adicionássemos para Tóquio, poderia ficar algo assim:
 
-| Cidade | País   | Ano | Quantidade |
-| ------ | ------ | --- | ---------- |
-| Tóquio | Japão  | 2020| 1690       |
-| Tóquio | Japão  | 2019| 1874       |
-| Tóquio | Japão  | 2018| 1445       |
+| Cidade | País  | Ano  | Quantidade |
+| ------ | ----- | ---- | ---------- |
+| Tóquio | Japão | 2020 | 1690       |
+| Tóquio | Japão | 2019 | 1874       |
+| Tóquio | Japão | 2018 | 1445       |
 
-O que você percebe sobre nossa tabela? Pode notar que estamos duplicando o nome e o país da cidade várias vezes. Isso pode ocupar bastante espaço de armazenamento e é, em grande parte, desnecessário ter várias cópias. Afinal, Tóquio tem apenas um nome que nos interessa.
+O que nota sobre a nossa tabela? Pode notar que estamos a duplicar o nome e o país da cidade repetidamente. Isso pode ocupar bastante espaço de armazenamento, e é largamente desnecessário ter múltiplas cópias. Afinal, Tóquio tem apenas um nome que nos interessa.
 
-Ok, vamos tentar outra coisa. Vamos adicionar novas colunas para cada ano:
+OK, vamos tentar outra coisa. Vamos adicionar novas colunas para cada ano:
 
 | Cidade   | País          | 2018 | 2019 | 2020 |
 | -------- | ------------- | ---- | ---- | ---- |
@@ -51,13 +51,13 @@ Ok, vamos tentar outra coisa. Vamos adicionar novas colunas para cada ano:
 | Atlanta  | Estados Unidos| 1779 | 1111 | 1683 |
 | Auckland | Nova Zelândia | 1386 | 942  | 1176 |
 
-Embora isso evite a duplicação de linhas, traz outros desafios. Precisaríamos modificar a estrutura da nossa tabela cada vez que houvesse um novo ano. Além disso, à medida que nossos dados crescem, ter os anos como colunas tornará mais difícil recuperar e calcular valores.
+Embora isto evite a duplicação das linhas, adiciona alguns outros desafios. Teríamos de modificar a estrutura da nossa tabela cada vez que há um novo ano. Além disso, à medida que os nossos dados crescem, ter os anos como colunas torna mais difícil recuperar e calcular valores.
 
-É por isso que precisamos de múltiplas tabelas e relacionamentos. Dividindo nossos dados, podemos evitar duplicações e ter mais flexibilidade na forma como trabalhamos com eles.
+É por isso que precisamos de múltiplas tabelas e relações. Ao dividir os nossos dados podemos evitar duplicação e ter mais flexibilidade na forma como trabalhamos com os dados.
 
-## Os conceitos de relacionamentos
+## Os conceitos de relações
 
-Vamos voltar aos nossos dados e determinar como queremos dividi-los. Sabemos que queremos armazenar o nome e o país das nossas cidades, então isso provavelmente funcionará melhor em uma tabela.
+Vamos voltar aos nossos dados e determinar como queremos dividir as coisas. Sabemos que queremos armazenar o nome e país das nossas cidades, por isso isto provavelmente funcionará melhor numa tabela.
 
 | Cidade   | País          |
 | -------- | ------------- |
@@ -65,7 +65,7 @@ Vamos voltar aos nossos dados e determinar como queremos dividi-los. Sabemos que
 | Atlanta  | Estados Unidos|
 | Auckland | Nova Zelândia |
 
-Mas antes de criarmos a próxima tabela, precisamos descobrir como referenciar cada cidade. Precisamos de algum tipo de identificador, ID ou (em termos técnicos de base de dados) uma chave primária. Uma chave primária é um valor usado para identificar uma linha específica em uma tabela. Embora isso possa ser baseado em um valor em si (poderíamos usar o nome da cidade, por exemplo), quase sempre deve ser um número ou outro identificador. Não queremos que o ID mude, pois isso quebraria o relacionamento. Você verá que, na maioria dos casos, a chave primária ou ID será um número gerado automaticamente.
+Mas antes de criarmos a próxima tabela, precisamos de descobrir como referenciar cada cidade. Precisamos de alguma forma de identificador, ID ou (em termos técnicos de base de dados) uma chave primária. Uma chave primária é um valor usado para identificar uma linha específica numa tabela. Embora isto possa basear-se num valor em si (poderíamos usar o nome da cidade, por exemplo), deve quase sempre ser um número ou outro identificador. Não queremos que o id mude alguma vez pois isso quebraria a relação. Na maioria dos casos, a chave primária ou id será um número auto-gerado.
 
 > ✅ Chave primária é frequentemente abreviada como PK
 
@@ -77,34 +77,34 @@ Mas antes de criarmos a próxima tabela, precisamos descobrir como referenciar c
 | 2       | Atlanta  | Estados Unidos|
 | 3       | Auckland | Nova Zelândia |
 
-> ✅ Você notará que usamos os termos "id" e "chave primária" de forma intercambiável durante esta lição. Os conceitos aqui se aplicam a DataFrames, que você explorará mais tarde. DataFrames não utilizam a terminologia de "chave primária", no entanto, você perceberá que eles se comportam de maneira muito semelhante.
+> ✅ Vai notar que usamos os termos "id" e "chave primária" de forma intercambiável durante esta lição. Os conceitos aqui aplicam-se a DataFrames, que irá explorar mais tarde. DataFrames não usam a terminologia de "chave primária", no entanto vai notar que se comportam de forma muito semelhante.
 
-Com nossa tabela de cidades criada, vamos armazenar os dados de precipitação. Em vez de duplicar as informações completas sobre a cidade, podemos usar o ID. Também devemos garantir que a tabela recém-criada tenha uma coluna *id*, já que todas as tabelas devem ter um ID ou chave primária.
+Com a nossa tabela de cidades criada, vamos armazenar a precipitação. Em vez de duplicar a informação completa sobre a cidade, podemos usar o id. Também devemos garantir que a tabela recém-criada tem uma coluna *id*, pois todas as tabelas devem ter um id ou chave primária.
 
 ### precipitação
 
-| rainfall_id | city_id | Ano | Quantidade |
-| ----------- | ------- | --- | ---------- |
-| 1           | 1       | 2018| 1445       |
-| 2           | 1       | 2019| 1874       |
-| 3           | 1       | 2020| 1690       |
-| 4           | 2       | 2018| 1779       |
-| 5           | 2       | 2019| 1111       |
-| 6           | 2       | 2020| 1683       |
-| 7           | 3       | 2018| 1386       |
-| 8           | 3       | 2019| 942        |
-| 9           | 3       | 2020| 1176       |
+| rainfall_id | city_id | Ano  | Quantidade |
+| ----------- | ------- | ---- | ---------- |
+| 1           | 1       | 2018 | 1445       |
+| 2           | 1       | 2019 | 1874       |
+| 3           | 1       | 2020 | 1690       |
+| 4           | 2       | 2018 | 1779       |
+| 5           | 2       | 2019 | 1111       |
+| 6           | 2       | 2020 | 1683       |
+| 7           | 3       | 2018 | 1386       |
+| 8           | 3       | 2019 | 942        |
+| 9           | 3       | 2020 | 1176       |
 
-Note a coluna **city_id** dentro da tabela recém-criada **precipitação**. Esta coluna contém valores que referenciam os IDs na tabela **cidades**. Em termos técnicos de dados relacionais, isso é chamado de **chave estrangeira**; é uma chave primária de outra tabela. Você pode pensar nela como uma referência ou um apontador. **city_id** 1 refere-se a Tóquio.
+Repare na coluna **city_id** dentro da tabela recém-criada **precipitação**. Esta coluna contém valores que referenciam os IDs na tabela **cidades**. Em termos técnicos de dados relacionais, isto chama-se uma **chave estrangeira**; é uma chave primária de outra tabela. Pode simplesmente pensar nela como uma referência ou um apontador. **city_id** 1 referencia Tóquio.
 
 > [!NOTE] 
 > Chave estrangeira é frequentemente abreviada como FK
 
-## Recuperando os dados
+## Recuperar os dados
 
-Com nossos dados separados em duas tabelas, você pode estar se perguntando como recuperá-los. Se estivermos usando uma base de dados relacional como MySQL, SQL Server ou Oracle, podemos usar uma linguagem chamada Structured Query Language ou SQL. SQL (às vezes pronunciado como "sequel") é uma linguagem padrão usada para recuperar e modificar dados em uma base de dados relacional.
+Com os nossos dados separados em duas tabelas, pode estar a perguntar-se como os recuperamos. Se estivermos a usar uma base de dados relacional como MySQL, SQL Server ou Oracle, podemos usar uma linguagem chamada Structured Query Language ou SQL. SQL (por vezes pronunciado sequel) é uma linguagem padrão usada para recuperar e modificar dados numa base de dados relacional.
 
-Para recuperar dados, você usa o comando `SELECT`. Em sua essência, você **seleciona** as colunas que deseja ver **de** uma tabela onde elas estão contidas. Se você quisesse exibir apenas os nomes das cidades, poderia usar o seguinte:
+Para recuperar dados usa o comando `SELECT`. Na sua essência, você **seleciona** as colunas que quer ver **da** tabela onde estão contidas. Se quisesse mostrar apenas os nomes das cidades, poderia usar o seguinte:
 
 ```sql
 SELECT city
@@ -116,12 +116,12 @@ FROM cities;
 -- Auckland
 ```
 
-`SELECT` é onde você lista as colunas, e `FROM` é onde você lista as tabelas.
+`SELECT` é onde lista as colunas, e `FROM` é onde lista as tabelas.
 
 > [!NOTE] 
-> A sintaxe do SQL não diferencia maiúsculas de minúsculas, ou seja, `select` e `SELECT` significam a mesma coisa. No entanto, dependendo do tipo de base de dados que você está usando, as colunas e tabelas podem ser sensíveis a maiúsculas e minúsculas. Como resultado, é uma boa prática sempre tratar tudo em programação como sensível a maiúsculas e minúsculas. Ao escrever consultas SQL, a convenção comum é colocar as palavras-chave em letras maiúsculas.
+> A sintaxe SQL não diferencia maiúsculas de minúsculas, o que significa que `select` e `SELECT` significam o mesmo. No entanto, dependendo do tipo de base de dados que está a usar, as colunas e tabelas podem ser sensíveis a maiúsculas e minúsculas. Como resultado, é uma boa prática tratar tudo em programação como se fosse sensível a maiúsculas e minúsculas. Ao escrever consultas SQL, a convenção comum é colocar as palavras-chave em letras maiúsculas.
 
-A consulta acima exibirá todas as cidades. Vamos imaginar que queremos exibir apenas as cidades da Nova Zelândia. Precisamos de algum tipo de filtro. A palavra-chave SQL para isso é `WHERE`, ou "onde algo é verdadeiro".
+A consulta acima vai mostrar todas as cidades. Imagine que só queremos mostrar cidades na Nova Zelândia. Precisamos de algum tipo de filtro. A palavra-chave SQL para isto é `WHERE`, ou "onde algo é verdadeiro".
 
 ```sql
 SELECT city
@@ -132,15 +132,15 @@ WHERE country = 'New Zealand';
 -- Auckland
 ```
 
-## Unindo dados
+## Juntar dados
 
-Até agora, recuperamos dados de uma única tabela. Agora queremos reunir os dados de **cidades** e **precipitação**. Isso é feito *unindo* as tabelas. Você efetivamente criará uma ligação entre as duas tabelas e combinará os valores de uma coluna de cada tabela.
+Até agora recuperámos dados de uma única tabela. Agora queremos juntar os dados das tabelas **cidades** e **precipitação**. Isto é feito *juntando* as tabelas. Vai efetivamente criar uma ligação entre as duas tabelas, e associar os valores de uma coluna de cada tabela.
 
-No nosso exemplo, vamos combinar a coluna **city_id** em **precipitação** com a coluna **city_id** em **cidades**. Isso combinará o valor da precipitação com sua respectiva cidade. O tipo de união que realizaremos é chamado de união *interna*, o que significa que, se alguma linha não corresponder a nada da outra tabela, ela não será exibida. No nosso caso, todas as cidades têm dados de precipitação, então tudo será exibido.
+No nosso exemplo, vamos associar a coluna **city_id** em **precipitação** com a coluna **city_id** em **cidades**. Isto vai associar o valor da precipitação com a sua respetiva cidade. O tipo de junção que vamos fazer chama-se *inner* join, o que significa que se alguma linha não corresponder a nada da outra tabela, não será mostrada. No nosso caso, todas as cidades têm precipitação, por isso tudo será mostrado.
 
-Vamos recuperar os dados de precipitação de 2019 para todas as nossas cidades.
+Vamos recuperar a precipitação de 2019 para todas as nossas cidades.
 
-Vamos fazer isso em etapas. O primeiro passo é unir os dados indicando as colunas para a ligação - **city_id**, como destacado anteriormente.
+Vamos fazer isto em passos. O primeiro passo é juntar os dados indicando as colunas para a ligação - **city_id** como destacado antes.
 
 ```sql
 SELECT cities.city
@@ -149,7 +149,7 @@ FROM cities
     INNER JOIN rainfall ON cities.city_id = rainfall.city_id
 ```
 
-Destacamos as duas colunas que queremos e o fato de que queremos unir as tabelas pela **city_id**. Agora podemos adicionar a instrução `WHERE` para filtrar apenas o ano de 2019.
+Destacámos as duas colunas que queremos, e o facto de querermos juntar as tabelas pela **city_id**. Agora podemos adicionar a instrução `WHERE` para filtrar apenas o ano de 2019.
 
 ```sql
 SELECT cities.city
@@ -169,29 +169,31 @@ WHERE rainfall.year = 2019
 
 ## Resumo
 
-Bases de dados relacionais são centradas na divisão de informações entre múltiplas tabelas, que são então reunidas para exibição e análise. Isso proporciona um alto grau de flexibilidade para realizar cálculos e manipular dados de outras formas. Você viu os conceitos principais de uma base de dados relacional e como realizar uma união entre duas tabelas.
+Bases de dados relacionais centram-se em dividir a informação entre múltiplas tabelas que depois são reunidas para exibição e análise. Isto proporciona um elevado grau de flexibilidade para realizar cálculos e manipular dados de outras formas. Viu os conceitos fundamentais de uma base de dados relacional, e como realizar uma junção entre duas tabelas.
 
 ## 🚀 Desafio
 
-Existem inúmeras bases de dados relacionais disponíveis na internet. Você pode explorar os dados usando as habilidades que aprendeu acima.
+Existem inúmeras bases de dados relacionais disponíveis na internet. Pode explorar os dados usando as competências que aprendeu acima.
 
-## Questionário Pós-Aula
+## Questionário pós-aula
 
 ## [Questionário pós-aula](https://ff-quizzes.netlify.app/en/ds/quiz/9)
 
-## Revisão e Autoestudo
+## Revisão & Autoestudo
 
-Existem vários recursos disponíveis no [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum) para você continuar sua exploração dos conceitos de SQL e bases de dados relacionais.
+Existem vários recursos disponíveis em [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum) para continuar a sua exploração de SQL e conceitos de bases de dados relacionais
 
 - [Descrever conceitos de dados relacionais](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-77958-bethanycheum)
-- [Introdução à consulta com Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-77958-bethanycheum) (Transact-SQL é uma versão do SQL)
-- [Conteúdo de SQL no Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-77958-bethanycheum)
+- [Começar a consultar com Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-77958-bethanycheum) (Transact-SQL é uma versão de SQL)
+- [Conteúdo SQL no Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-77958-bethanycheum)
 
 ## Tarefa
 
-[Título da Tarefa](assignment.md)
+[Exibir dados de aeroportos](assignment.md)
 
 ---
 
-**Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos pela precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original na sua língua nativa deve ser considerado a fonte autoritária. Para informações críticas, recomenda-se uma tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes do uso desta tradução.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Aviso Legal**:
+Este documento foi traduzido utilizando o serviço de tradução automática [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, por favor tenha em conta que traduções automáticas podem conter erros ou imprecisões. O documento original na sua língua nativa deve ser considerado a fonte autorizada. Para informações críticas, recomenda-se a tradução profissional humana. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações erradas decorrentes do uso desta tradução.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

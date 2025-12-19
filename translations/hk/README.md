@@ -1,214 +1,246 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "26afff0d5c802e24a14f000c9c9f4614",
-  "translation_date": "2025-11-18T17:07:02+00:00",
+  "original_hash": "210052dafe5b5d956c427824e2c96686",
+  "translation_date": "2025-12-19T10:44:06+00:00",
   "source_file": "README.md",
   "language_code": "hk"
 }
 -->
-# 初學者的數據科學課程
+# Data Science for Beginners - 課程大綱
 
-Azure Cloud Advocates 團隊很高興為大家提供一個為期10週、共20課的數據科學課程。每一課都包含課前和課後測驗、詳細的教學指引、解決方案以及作業。我們的項目式教學法讓你在實際操作中學習，這是一種能讓新技能更容易掌握的有效方法。
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
 
-**衷心感謝我們的作者：** [Jasmine Greenaway](https://www.twitter.com/paladique)、[Dmitry Soshnikov](http://soshnikov.com)、[Nitya Narasimhan](https://twitter.com/nitya)、[Jalen McGee](https://twitter.com/JalenMcG)、[Jen Looper](https://twitter.com/jenlooper)、[Maud Levy](https://twitter.com/maudstweets)、[Tiffany Souterre](https://twitter.com/TiffanySouterre)、[Christopher Harrison](https://www.twitter.com/geektrainer)。
+[![GitHub license](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-**🙏 特別感謝 🙏 我們的 [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) 作者、審核者及內容貢獻者，** 包括 Aaryan Arora、[Aditya Garg](https://github.com/AdityaGarg00)、[Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/)、[Ankita Singh](https://www.linkedin.com/in/ankitasingh007)、[Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/)、[Arpita Das](https://www.linkedin.com/in/arpitadas01/)、ChhailBihari Dubey、[Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor)、[Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb)、[Majd Safi](https://www.linkedin.com/in/majd-s/)、[Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/)、[Miguel Correa](https://www.linkedin.com/in/miguelmque/)、[Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119)、[Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum)、[Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/)、[Rohit Yadav](https://www.linkedin.com/in/rty2423)、Samridhi Sharma、[Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200)、[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/)、[Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/)、Yogendrasingh Pawar、[Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/)、[Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)。
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
+[![GitHub stars](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
 
-|![由 @sketchthedocs 繪製的速寫筆記 https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.hk.png)|
+
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
+
+[![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
+微軟 Azure Cloud Advocates 很高興提供一個為期 10 週、共 20 課的數據科學課程。每課包含課前與課後小測驗、完成課程的書面指示、解答與作業。我們的專案導向教學法讓你在實作中學習，是新技能「紮根」的有效方式。
+
+**衷心感謝我們的作者：** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer)。
+
+**🙏 特別感謝 🙏 我們的 [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) 作者、審稿人及內容貢獻者，** 尤其是 Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
+
+|![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.hk.png)|
 |:---:|
-| 初學者的數據科學 - _速寫筆記由 [@nitya](https://twitter.com/nitya) 繪製_ |
+| Data Science For Beginners - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-### 🌐 多語言支持
+### 🌐 多語言支援
 
-#### 透過 GitHub Action 支援（自動化且始終保持最新）
+#### 透過 GitHub Action 支援（自動且持續更新）
 
-[阿拉伯語](../ar/README.md) | [孟加拉語](../bn/README.md) | [保加利亞語](../bg/README.md) | [緬甸語](../my/README.md) | [簡體中文](../zh/README.md) | [繁體中文（香港）](./README.md) | [繁體中文（澳門）](../mo/README.md) | [繁體中文（台灣）](../tw/README.md) | [克羅地亞語](../hr/README.md) | [捷克語](../cs/README.md) | [丹麥語](../da/README.md) | [荷蘭語](../nl/README.md) | [愛沙尼亞語](../et/README.md) | [芬蘭語](../fi/README.md) | [法語](../fr/README.md) | [德語](../de/README.md) | [希臘語](../el/README.md) | [希伯來語](../he/README.md) | [印地語](../hi/README.md) | [匈牙利語](../hu/README.md) | [印尼語](../id/README.md) | [意大利語](../it/README.md) | [日語](../ja/README.md) | [韓語](../ko/README.md) | [立陶宛語](../lt/README.md) | [馬來語](../ms/README.md) | [馬拉地語](../mr/README.md) | [尼泊爾語](../ne/README.md) | [尼日利亞皮欽語](../pcm/README.md) | [挪威語](../no/README.md) | [波斯語](../fa/README.md) | [波蘭語](../pl/README.md) | [葡萄牙語（巴西）](../br/README.md) | [葡萄牙語（葡萄牙）](../pt/README.md) | [旁遮普語](../pa/README.md) | [羅馬尼亞語](../ro/README.md) | [俄語](../ru/README.md) | [塞爾維亞語（西里爾字母）](../sr/README.md) | [斯洛伐克語](../sk/README.md) | [斯洛文尼亞語](../sl/README.md) | [西班牙語](../es/README.md) | [斯瓦希里語](../sw/README.md) | [瑞典語](../sv/README.md) | [塔加洛語](../tl/README.md) | [泰米爾語](../ta/README.md) | [泰語](../th/README.md) | [土耳其語](../tr/README.md) | [烏克蘭語](../uk/README.md) | [烏爾都語](../ur/README.md) | [越南語](../vi/README.md)
+<!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](./README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
+<!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**如果你希望支持更多語言，請參考 [這裡](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**如果你希望支援更多翻譯語言，請參考 [這裡](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
-#### 加入我們的社群
-我們正在進行一個 AI 學習系列，了解更多並加入我們 [AI 學習系列](https://aka.ms/learnwithai/discord)，活動日期為 2025年9月18日至30日。你將學到使用 GitHub Copilot 進行數據科學的技巧。
+#### 加入我們的社群 
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-![AI 學習系列](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.hk.jpg)
+我們正在進行 Discord AI 學習系列，詳情及加入請見 [Learn with AI Series](https://aka.ms/learnwithai/discord)，活動時間為 2025 年 9 月 18 日至 30 日。你將獲得使用 GitHub Copilot 進行數據科學的技巧與秘訣。
+
+![Learn with AI series](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.hk.jpg)
 
 # 你是學生嗎？
 
-開始使用以下資源：
+請從以下資源開始：
 
-- [學生中心頁面](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) 在這個頁面，你可以找到初學者資源、學生套件，甚至有機會獲得免費認證券。這是一個值得收藏的頁面，因為我們每月都會更新內容。
-- [Microsoft Learn 學生大使](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) 加入全球學生大使社群，這可能是你進入 Microsoft 的途徑。
+- [學生中心頁面](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) 在此頁面，你會找到初學者資源、學生套件，甚至有機會獲得免費認證券。這是你想要收藏並不時查看的頁面，因為我們至少每月更新內容。
+- [Microsoft Learn 學生大使](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) 加入全球學生大使社群，這可能是你進入微軟的途徑。
 
 # 開始使用
 
 ## 📚 文件
 
-- **[安裝指南](INSTALLATION.md)** - 初學者的逐步設置指引
-- **[使用指南](USAGE.md)** - 範例和常見工作流程
-- **[故障排除](TROUBLESHOOTING.md)** - 常見問題的解決方案
-- **[貢獻指南](CONTRIBUTING.md)** - 如何為此項目做出貢獻
-- **[給教師的資源](for-teachers.md)** - 教學指引和課堂資源
+- **[安裝指南](INSTALLATION.md)** - 初學者逐步設定說明
+- **[使用指南](USAGE.md)** - 範例與常見工作流程
+- **[故障排除](TROUBLESHOOTING.md)** - 常見問題解決方案
+- **[貢獻指南](CONTRIBUTING.md)** - 如何為此專案做出貢獻
+- **[教師專區](for-teachers.md)** - 教學指導與課堂資源
 
 ## 👨‍🎓 給學生
-> **完全初學者**：對數據科學完全陌生？從我們的 [初學者範例](examples/README.md) 開始！這些簡單且有詳細註解的範例將幫助你在深入課程之前理解基礎。
-> **[學生](https://aka.ms/student-page)**：如果你想自行使用這個課程，請 fork 整個 repo 並自行完成練習，從課前測驗開始。然後閱讀課程並完成其餘活動。嘗試通過理解課程內容來創建項目，而不是直接複製解決方案代碼；不過，代碼可以在每個項目課程的 /solutions 文件夾中找到。另一個建議是與朋友組成學習小組，一起學習內容。進一步學習，我們推薦 [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum)。
+> **完全初學者**：剛接觸數據科學？請從我們的[初學者友善範例](examples/README.md)開始！這些簡單且有詳細註解的範例將幫助你理解基礎，然後再深入完整課程。
+> **[學生](https://aka.ms/student-page)**：若想自行使用此課程，請 fork 整個 repo 並自行完成練習，從課前小測驗開始。接著閱讀課程內容並完成其餘活動。嘗試透過理解課程內容來建立專案，而非直接複製解答程式碼；不過每個專案導向課程的 /solutions 資料夾中有解答程式碼可供參考。另一個方法是與朋友組成讀書會，一起學習內容。進一步學習，我們推薦 [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum)。
 
 **快速開始：**
-1. 查看 [安裝指南](INSTALLATION.md) 設置你的環境
+1. 查看 [安裝指南](INSTALLATION.md) 以設定你的環境
 2. 閱讀 [使用指南](USAGE.md) 了解如何使用課程
-3. 從第一課開始，按順序學習
-4. 加入我們的 [Discord 社群](https://aka.ms/ds4beginners/discord) 獲得支持
+3. 從第一課開始，依序學習
+4. 加入我們的 [Discord 社群](https://aka.ms/ds4beginners/discord) 尋求支援
 
 ## 👩‍🏫 給教師
 
-> **教師**：我們已 [提供一些建議](for-teachers.md) 關於如何使用這個課程。我們期待你在 [討論論壇](https://github.com/microsoft/Data-Science-For-Beginners/discussions) 中提供反饋！
+> **教師們**：我們已[包含一些建議](for-teachers.md)說明如何使用此課程。歡迎在[討論論壇](https://github.com/microsoft/Data-Science-For-Beginners/discussions)提供你的回饋！
 
 ## 認識團隊
 
-[![宣傳影片](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "宣傳影片")
+[![Promo video](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Promo video")
 
-**Gif 作者** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
-
-> 🎥 點擊上方圖片觀看關於此項目及創作者的影片！
+**Gif 由** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal) 製作
+> 🎥 按一下上方圖片觀看關於此專案及其創作者的影片！
 
 ## 教學法
-我們在設計這個課程時選擇了兩個教學原則：確保它是以項目為基礎，並且包含頻繁的小測驗。在這個系列結束時，學生將學會數據科學的基本原則，包括倫理概念、數據準備、不同的數據處理方式、數據可視化、數據分析、數據科學的實際應用案例等等。
 
-此外，課前的低壓力小測驗可以幫助學生集中注意力學習某個主題，而課後的第二次測驗則有助於進一步鞏固知識。這個課程設計靈活有趣，可以完整學習，也可以選擇部分內容學習。項目從簡單開始，並在10週的學習周期結束時逐漸變得更為複雜。
+我們在建立此課程時選擇了兩個教學原則：確保課程以專案為基礎，並包含頻繁的小測驗。完成此系列課程後，學生將學會資料科學的基本原理，包括倫理概念、資料準備、不同的資料處理方式、資料視覺化、資料分析、資料科學的實際應用案例等。
 
-> 查看我們的[行為守則](CODE_OF_CONDUCT.md)、[貢獻指南](CONTRIBUTING.md)、[翻譯指南](TRANSLATIONS.md)。我們歡迎您的建設性反饋！
+此外，課前的低壓力小測驗能設定學生學習主題的意圖，而課後的第二次小測驗則確保進一步的記憶鞏固。此課程設計靈活且有趣，可整體或部分修習。專案從簡單開始，並在 10 週週期結束時逐漸變得複雜。
 
-## 每節課包括：
+> 請參閱我們的[行為準則](CODE_OF_CONDUCT.md)、[貢獻指南](CONTRIBUTING.md)、[翻譯指南](TRANSLATIONS.md)。我們歡迎您的建設性回饋！
 
-- 可選的手繪筆記
-- 可選的補充視頻
-- 課前熱身小測驗
-- 書面課程
-- 對於基於項目的課程，提供逐步指導如何完成項目
-- 知識檢查
-- 挑戰
+## 每堂課包含：
+
+- 選擇性手繪筆記
+- 選擇性補充影片
+- 課前暖身小測驗
+- 書面課程內容
+- 專案課程的逐步專案建置指南
+- 知識檢核
+- 挑戰題
 - 補充閱讀
 - 作業
 - [課後小測驗](https://ff-quizzes.netlify.app/en/)
 
-> **關於小測驗的說明**：所有小測驗都包含在 Quiz-App 文件夾中，共有40個小測驗，每個小測驗包含三個問題。它們在課程中有鏈接，但小測驗應用可以在本地運行或部署到 Azure；請按照 `quiz-app` 文件夾中的指示操作。這些小測驗正在逐步本地化。
+> **關於小測驗的說明**：所有小測驗均包含在 Quiz-App 資料夾中，共 40 個小測驗，每個小測驗有三個問題。它們在課程中有連結，但小測驗應用程式可在本地執行或部署到 Azure；請參考 `quiz-app` 資料夾中的說明。小測驗正逐步進行本地化。
 
-## 🎓 初學者友好的範例
+## 🎓 初學者友善範例
 
-**剛接觸數據科學？** 我們創建了一個特別的[範例目錄](examples/README.md)，其中包含簡單且有詳細註解的代碼，幫助您入門：
+**剛接觸資料科學？** 我們建立了一個特別的[範例目錄](examples/README.md)，提供簡單且有詳細註解的程式碼，幫助你入門：
 
-- 🌟 **Hello World** - 您的第一個數據科學程序
-- 📂 **加載數據** - 學習如何讀取和探索數據集
-- 📊 **簡單分析** - 計算統計數據並發現模式
-- 📈 **基礎可視化** - 創建圖表和圖形
-- 🔬 **實際項目** - 從頭到尾完成工作流程
+- 🌟 **Hello World** - 你的第一個資料科學程式
+- 📂 **載入資料** - 學習讀取與探索資料集
+- 📊 **簡單分析** - 計算統計數據並尋找模式
+- 📈 **基礎視覺化** - 製作圖表與圖形
+- 🔬 **實務專案** - 從頭到尾完成工作流程
 
-每個範例都包含詳細的註解，解釋每一步，非常適合完全的初學者！
+每個範例都包含詳細註解，解釋每個步驟，非常適合完全初學者！
 
 👉 **[從範例開始](examples/README.md)** 👈
 
-## 課程
+## 課程列表
+
 
 |![ Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.hk.png)|
 |:---:|
-| 數據科學初學者：學習路線圖 - _手繪筆記由 [@nitya](https://twitter.com/nitya) 提供_ |
+| 資料科學初學者路線圖 - _手繪筆記由 [@nitya](https://twitter.com/nitya) 製作_ |
 
-| 課程編號 | 主題 | 課程分組 | 學習目標 | 相關課程 | 作者 |
+
+| 課程編號 | 主題 | 課程分類 | 學習目標 | 連結課程 | 作者 |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | 定義數據科學 | [簡介](1-Introduction/README.md) | 學習數據科學的基本概念，以及它與人工智能、機器學習和大數據的關係。 | [課程](1-Introduction/01-defining-data-science/README.md) [視頻](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
-| 02 | 數據科學倫理 | [簡介](1-Introduction/README.md) | 數據倫理的概念、挑戰與框架。 | [課程](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
-| 03 | 定義數據 | [簡介](1-Introduction/README.md) | 數據的分類及其常見來源。 | [課程](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | 統計與概率簡介 | [簡介](1-Introduction/README.md) | 使用概率和統計的數學技術來理解數據。 | [課程](1-Introduction/04-stats-and-probability/README.md) [視頻](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | 使用關係數據 | [數據處理](2-Working-With-Data/README.md) | 關於關係數據的介紹，以及使用結構化查詢語言（SQL）探索和分析關係數據的基礎知識。 | [課程](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
-| 06 | 使用 NoSQL 數據 | [數據處理](2-Working-With-Data/README.md) | 非關係數據的介紹，其各種類型以及探索和分析文檔數據庫的基礎知識。 | [課程](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
-| 07 | 使用 Python | [數據處理](2-Working-With-Data/README.md) | 使用 Python 進行數據探索的基礎知識，包括 Pandas 等庫。建議具備 Python 編程的基礎知識。 | [課程](2-Working-With-Data/07-python/README.md) [視頻](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | 數據準備 | [數據處理](2-Working-With-Data/README.md) | 關於清理和轉換數據的技術，以應對數據缺失、不準確或不完整的挑戰。 | [課程](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 09 | 數量可視化 | [數據可視化](3-Data-Visualization/README.md) | 學習如何使用 Matplotlib 可視化鳥類數據 🦆 | [課程](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 10 | 數據分佈可視化 | [數據可視化](3-Data-Visualization/README.md) | 可視化區間內的觀察和趨勢。 | [課程](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 11 | 比例可視化 | [數據可視化](3-Data-Visualization/README.md) | 可視化離散和分組百分比。 | [課程](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 12 | 關係可視化 | [數據可視化](3-Data-Visualization/README.md) | 可視化數據集及其變量之間的連接和相關性。 | [課程](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | 有意義的可視化 | [數據可視化](3-Data-Visualization/README.md) | 提供使您的可視化對於有效解決問題和洞察更有價值的技術和指導。 | [課程](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 14 | 數據科學生命周期簡介 | [生命周期](4-Data-Science-Lifecycle/README.md) | 數據科學生命周期的介紹及其第一步：數據的獲取和提取。 | [課程](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | 分析 | [生命周期](4-Data-Science-Lifecycle/README.md) | 數據科學生命周期中專注於數據分析的技術。 | [課程](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | 溝通 | [生命周期](4-Data-Science-Lifecycle/README.md) | 數據科學生命周期中專注於以易於決策者理解的方式呈現數據洞察。 | [課程](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
-| 17 | 雲端數據科學 | [雲端數據](5-Data-Science-In-Cloud/README.md) | 這一系列課程介紹了雲端數據科學及其優勢。 | [課程](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
-| 18 | 雲端數據科學 | [雲端數據](5-Data-Science-In-Cloud/README.md) | 使用低代碼工具訓練模型。 |[課程](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
-| 19 | 雲端數據科學 | [雲端數據](5-Data-Science-In-Cloud/README.md) | 使用 Azure 機器學習工作室部署模型。 | [課程](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
-| 20 | 野外數據科學 | [實際應用](6-Data-Science-In-Wild/README.md) | 現實世界中的數據科學驅動項目。 | [課程](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| 01 | 定義資料科學 | [介紹](1-Introduction/README.md) | 了解資料科學的基本概念及其與人工智慧、機器學習和大數據的關係。 | [課程](1-Introduction/01-defining-data-science/README.md) [影片](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 02 | 資料科學倫理 | [介紹](1-Introduction/README.md) | 資料倫理的概念、挑戰與框架。 | [課程](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
+| 03 | 定義資料 | [介紹](1-Introduction/README.md) | 資料的分類及其常見來源。 | [課程](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 04 | 統計與機率入門 | [介紹](1-Introduction/README.md) | 使用機率與統計的數學技術來理解資料。 | [課程](1-Introduction/04-stats-and-probability/README.md) [影片](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 05 | 處理關聯式資料 | [資料處理](2-Working-With-Data/README.md) | 介紹關聯式資料及使用結構化查詢語言（SQL，發音為“see-quell”）探索與分析關聯式資料的基礎。 | [課程](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 06 | 處理 NoSQL 資料 | [資料處理](2-Working-With-Data/README.md) | 介紹非關聯式資料、其各種類型及探索與分析文件型資料庫的基礎。 | [課程](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
+| 07 | 使用 Python | [資料處理](2-Working-With-Data/README.md) | 使用 Python 及 Pandas 等函式庫進行資料探索的基礎。建議具備 Python 程式設計的基礎知識。 | [課程](2-Working-With-Data/07-python/README.md) [影片](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
+| 08 | 資料準備 | [資料處理](2-Working-With-Data/README.md) | 涵蓋資料清理與轉換技術，以處理缺失、不準確或不完整資料的挑戰。 | [課程](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 09 | 數量視覺化 | [資料視覺化](3-Data-Visualization/README.md) | 學習使用 Matplotlib 視覺化鳥類資料 🦆 | [課程](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 10 | 資料分布視覺化 | [資料視覺化](3-Data-Visualization/README.md) | 視覺化區間內的觀察值與趨勢。 | [課程](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 11 | 比例視覺化 | [資料視覺化](3-Data-Visualization/README.md) | 視覺化離散與分組百分比。 | [課程](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 12 | 關係視覺化 | [資料視覺化](3-Data-Visualization/README.md) | 視覺化資料集及其變數間的連結與相關性。 | [課程](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 13 | 有意義的視覺化 | [資料視覺化](3-Data-Visualization/README.md) | 製作有價值視覺化的技巧與指導，以有效解決問題並獲得洞察。 | [課程](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 14 | 資料科學生命週期入門 | [生命週期](4-Data-Science-Lifecycle/README.md) | 介紹資料科學生命週期及其第一步：資料取得與擷取。 | [課程](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
+| 15 | 分析 | [生命週期](4-Data-Science-Lifecycle/README.md) | 資料科學生命週期中專注於資料分析的階段。 | [課程](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | 溝通 | [生命週期](4-Data-Science-Lifecycle/README.md) | 資料科學生命週期中專注於以易於決策者理解的方式呈現資料洞察的階段。 | [課程](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 17 | 雲端資料科學 | [雲端資料](5-Data-Science-In-Cloud/README.md) | 本系列課程介紹雲端資料科學及其優勢。 | [課程](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
+| 18 | 雲端資料科學 | [雲端資料](5-Data-Science-In-Cloud/README.md) | 使用低程式碼工具訓練模型。 |[課程](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
+| 19 | 雲端資料科學 | [雲端資料](5-Data-Science-In-Cloud/README.md) | 使用 Azure Machine Learning Studio 部署模型。 | [課程](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) 和 [Maud](https://twitter.com/maudstweets) |
+| 20 | 實務資料科學 | [實務](6-Data-Science-In-Wild/README.md) | 真實世界中的資料科學驅動專案。 | [課程](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
-按照以下步驟在 Codespace 中打開此範例：
-1. 點擊 "Code" 下拉菜單，選擇 "Open with Codespaces" 選項。
-2. 在面板底部選擇 "+ New codespace"。
-更多信息，請查看 [GitHub 文檔](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace)。
+請依照以下步驟在 Codespace 中開啟此範例：
+1. 按一下 Code 下拉選單並選擇 Open with Codespaces 選項。
+2. 在窗格底部選擇 + New codespace。
+更多資訊請參考 [GitHub 文件](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace)。
 
 ## VSCode Remote - Containers
-按照以下步驟使用本地機器和 VSCode 的 VS Code Remote - Containers 擴展在容器中打開此存儲庫：
+請依照以下步驟，使用本機電腦與 VSCode 透過 VS Code Remote - Containers 擴充功能，在容器中開啟此儲存庫：
 
-1. 如果這是您第一次使用開發容器，請確保您的系統滿足前置條件（例如安裝了 Docker），詳見[入門文檔](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started)。
+1. 若是首次使用開發容器，請確保系統符合先決條件（例如已安裝 Docker），詳見[入門文件](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started)。
 
-要使用此存儲庫，您可以選擇在隔離的 Docker 卷中打開存儲庫：
+使用此儲存庫時，您可以選擇在隔離的 Docker 卷中開啟儲存庫：
 
-**注意**：在底層，這將使用 Remote-Containers: **Clone Repository in Container Volume...** 命令將源代碼克隆到 Docker 卷中，而不是本地文件系統。[卷](https://docs.docker.com/storage/volumes/) 是持久化容器數據的首選機制。
+**注意**：此操作底層會使用 Remote-Containers 的 **Clone Repository in Container Volume...** 指令，將原始碼克隆到 Docker 卷中，而非本地檔案系統。[卷](https://docs.docker.com/storage/volumes/) 是持久化容器資料的首選機制。
 
-或者打開本地克隆或下載的存儲庫版本：
+或開啟本地已克隆或下載的儲存庫版本：
 
-- 將此存儲庫克隆到您的本地文件系統。
-- 按 F1 並選擇 **Remote-Containers: Open Folder in Container...** 命令。
-- 選擇此文件夾的克隆副本，等待容器啟動，然後嘗試操作。
+- 將此儲存庫克隆到本地檔案系統。
+- 按 F1 並選擇 **Remote-Containers: Open Folder in Container...** 指令。
+- 選擇此資料夾的克隆副本，等待容器啟動，然後開始使用。
 
-## 離線訪問
+## 離線存取
 
-您可以使用 [Docsify](https://docsify.js.org/#/) 離線運行此文檔。Fork 此存儲庫，在您的本地機器上[安裝 Docsify](https://docsify.js.org/#/quickstart)，然後在此存儲庫的根文件夾中輸入 `docsify serve`。網站將在本地端口 3000 上提供服務：`localhost:3000`。
+您可以使用 [Docsify](https://docsify.js.org/#/) 離線執行此文件。請先 fork 此儲存庫，於本機安裝 [Docsify](https://docsify.js.org/#/quickstart)，然後在此儲存庫根目錄輸入 `docsify serve`。網站將在本機的 3000 埠提供服務：`localhost:3000`。
 
-> 注意，筆記本文件不會通過 Docsify 渲染，因此當您需要運行筆記本時，請在運行 Python 核心的 VS Code 中單獨運行。
+> 注意，筆記本不會透過 Docsify 呈現，若需執行筆記本，請在 VS Code 中使用 Python 核心另行執行。
 
 ## 其他課程
 
-我們的團隊還製作了其他課程！查看：
+我們團隊還製作其他課程！請參考：
+
+<!-- CO-OP TRANSLATOR OTHER COURSES START -->
+### LangChain
+[![LangChain4j for Beginners](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js for Beginners](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+
+---
 
 ### Azure / Edge / MCP / Agents
 [![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Edge AI for Beginners](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![MCP 初學者指南](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)  
-[![AI Agents 初學者指南](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![MCP for Beginners](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI Agents for Beginners](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
-
-### 生成式 AI 系列  
-[![生成式 AI 初學者指南](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)  
-[![生成式 AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)  
-[![生成式 AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)  
-[![生成式 AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
-
----
-
-### 核心學習  
-[![機器學習初學者指南](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)  
-[![數據科學初學者指南](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)  
-[![人工智能初學者指南](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)  
-[![網絡安全初學者指南](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)  
-[![網頁開發初學者指南](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)  
-[![物聯網初學者指南](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)  
-[![XR 開發初學者指南](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+ 
+### 生成式 AI 系列
+[![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
+[![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
+[![Generative AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
 
 ---
+ 
+### 核心學習
+[![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+[![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![Cybersecurity for Beginners](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![Web Dev for Beginners](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![IoT for Beginners](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![XR Development for Beginners](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
-### Copilot 系列  
-[![Copilot AI 配對編程](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)  
-[![Copilot C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)  
-[![Copilot 冒險](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)  
+---
+ 
+### Copilot 系列
+[![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+<!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## 尋求幫助  
+## 尋求協助
 
-**遇到問題？** 查看我們的 [故障排除指南](TROUBLESHOOTING.md)，了解常見問題的解決方法。
+**遇到問題？** 請查看我們的[疑難排解指南](TROUBLESHOOTING.md)，了解常見問題的解決方案。
 
-如果你在建立 AI 應用程式時遇到困難或有任何疑問，可以加入學習者和有經驗的開發者的討論。這是一個支持性的社群，歡迎提問並自由分享知識。
+如果你卡住了或對建立 AI 應用程式有任何疑問，歡迎加入 MCP 的學習者和經驗豐富的開發者討論。這是一個支持性的社群，歡迎提問並自由分享知識。
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-如果你有產品反饋或在開發過程中遇到錯誤，請訪問：
+如果你在開發過程中有產品反饋或遇到錯誤，請造訪：
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
@@ -216,5 +248,5 @@ Azure Cloud Advocates 團隊很高興為大家提供一個為期10週、共20課
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **免責聲明**：  
-此文件已使用 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 翻譯。我們致力於提供準確的翻譯，但請注意，自動翻譯可能包含錯誤或不準確之處。應以原文文件作為權威來源。如涉及重要資訊，建議尋求專業人工翻譯。我們對因使用此翻譯而引起的任何誤解或誤釋概不負責。
+本文件由 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 進行翻譯。雖然我們致力於確保準確性，但請注意自動翻譯可能包含錯誤或不準確之處。原始文件的母語版本應被視為權威來源。對於重要資訊，建議採用專業人工翻譯。我們不對因使用本翻譯而引起的任何誤解或誤釋承擔責任。
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

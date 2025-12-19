@@ -1,39 +1,39 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "80d80300002ef4e77cc7631d5904bd6e",
-  "translation_date": "2025-10-25T19:13:43+00:00",
+  "original_hash": "11739c7b40e7c6b16ad29e3df4e65862",
+  "translation_date": "2025-12-19T12:30:34+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "lt"
 }
 -->
-# Darbas su duomenimis: Reliacinės duomenų bazės
+# Darbas su duomenimis: reliacinės duomenų bazės
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/05-RelationalData.png)|
 |:---:|
-| Darbas su duomenimis: Reliacinės duomenų bazės - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+| Darbas su duomenimis: reliacinės duomenų bazės - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-Tikėtina, kad anksčiau naudojote skaičiuoklę informacijai saugoti. Turėjote eilutes ir stulpelius, kur eilutėse buvo informacija (arba duomenys), o stulpeliai apibūdino informaciją (kartais vadinamą metaduomenimis). Reliacinė duomenų bazė yra sukurta remiantis šiuo pagrindiniu principu - lentelėse esančiais stulpeliais ir eilutėmis, leidžiančiais informaciją paskirstyti per kelias lenteles. Tai leidžia dirbti su sudėtingesniais duomenimis, išvengti dubliavimo ir suteikia lankstumo tyrinėjant duomenis. Pažvelkime į reliacinės duomenų bazės koncepcijas.
+Tikėtina, kad anksčiau esate naudoję skaičiuoklę informacijos saugojimui. Turėjote eilučių ir stulpelių rinkinį, kur eilutėse buvo informacija (arba duomenys), o stulpeliai aprašė informaciją (kartais vadinamą metaduomenimis). Reliacinė duomenų bazė yra sukurta remiantis šiuo pagrindiniu stulpelių ir eilučių lentelėse principu, leidžiančiu turėti informaciją paskirstytą keliuose lentelėse. Tai leidžia dirbti su sudėtingesniais duomenimis, išvengti dubliavimo ir turėti lankstumą tyrinėjant duomenis. Pažvelkime į reliacinės duomenų bazės sąvokas.
 
-## [Klausimynas prieš paskaitą](https://ff-quizzes.netlify.app/en/ds/quiz/8)
+## [Priešpaskaitos testas](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
 ## Viskas prasideda nuo lentelių
 
-Reliacinės duomenų bazės pagrindas yra lentelės. Kaip ir skaičiuoklėje, lentelė yra stulpelių ir eilučių rinkinys. Eilutėse yra duomenys arba informacija, su kuria norime dirbti, pavyzdžiui, miesto pavadinimas ar kritulių kiekis. Stulpeliai apibūdina saugomus duomenis.
+Reliacinės duomenų bazės pagrindą sudaro lentelės. Kaip ir skaičiuoklėje, lentelė yra stulpelių ir eilučių rinkinys. Eilutėse yra duomenys arba informacija, su kuria norime dirbti, pavyzdžiui, miesto pavadinimas ar kritulių kiekis. Stulpeliai aprašo saugomus duomenis.
 
-Pradėkime tyrinėjimą sukurdami lentelę, kurioje saugosime informaciją apie miestus. Galime pradėti nuo jų pavadinimo ir šalies. Tai galėtume saugoti lentelėje taip:
+Pradėkime tyrinėjimą sukurdami lentelę, kurioje saugosime informaciją apie miestus. Galime pradėti nuo jų pavadinimo ir šalies. Tai galėtumėte saugoti lentelėje taip:
 
 | Miestas  | Šalis         |
 | -------- | ------------- |
 | Tokijas  | Japonija      |
 | Atlanta  | Jungtinės Valstijos |
-| Oklandas | Naujoji Zelandija |
+| Oklendas | Naujoji Zelandija |
 
-Atkreipkite dėmesį, kad stulpelių pavadinimai **miestas**, **šalis** ir **populiacija** apibūdina saugomus duomenis, o kiekvienoje eilutėje yra informacija apie vieną miestą.
+Atkreipkite dėmesį, kad stulpelių pavadinimai **miestas**, **šalis** ir **populiacija** aprašo saugomus duomenis, o kiekviena eilutė turi informaciją apie vieną miestą.
 
 ## Vienos lentelės metodo trūkumai
 
-Tikėtina, kad aukščiau pateikta lentelė jums atrodo gana pažįstama. Pradėkime pridėti papildomų duomenų į mūsų augančią duomenų bazę - metinį kritulių kiekį (milimetrais). Susitelkime į 2018, 2019 ir 2020 metus. Jei pridėtume duomenis apie Tokiją, tai galėtų atrodyti taip:
+Tikėtina, kad aukščiau pateikta lentelė jums atrodo gana pažįstama. Pridėkime papildomų duomenų į mūsų augančią duomenų bazę – metinius kritulių kiekius (milimetrais). Susitelksime į 2018, 2019 ir 2020 metus. Jei pridėtume duomenis Tokijui, tai atrodytų maždaug taip:
 
 | Miestas | Šalis   | Metai | Kiekis |
 | ------- | ------- | ----- | ------ |
@@ -41,47 +41,47 @@ Tikėtina, kad aukščiau pateikta lentelė jums atrodo gana pažįstama. Pradė
 | Tokijas | Japonija| 2019  | 1874   |
 | Tokijas | Japonija| 2018  | 1445   |
 
-Ką pastebite apie mūsų lentelę? Galbūt pastebėjote, kad mes kartojame miesto pavadinimą ir šalį vėl ir vėl. Tai gali užimti nemažai vietos ir iš esmės nėra būtina turėti kelias kopijas. Juk Tokijas turi tik vieną pavadinimą, kuris mus domina.
+Ką pastebite apie mūsų lentelę? Galite pastebėti, kad mes dubliuojame miesto pavadinimą ir šalį vėl ir vėl. Tai gali užimti nemažai vietos saugykloje ir dažniausiai nereikia turėti kelių kopijų. Juk Tokijas turi tik vieną pavadinimą, kuris mus domina.
 
 Gerai, pabandykime ką nors kita. Pridėkime naujus stulpelius kiekvieniems metams:
 
-| Miestas   | Šalis         | 2018 | 2019 | 2020 |
-| --------- | ------------- | ---- | ---- | ---- |
-| Tokijas   | Japonija      | 1445 | 1874 | 1690 |
-| Atlanta   | Jungtinės Valstijos | 1779 | 1111 | 1683 |
-| Oklandas  | Naujoji Zelandija   | 1386 | 942  | 1176 |
+| Miestas  | Šalis         | 2018 | 2019 | 2020 |
+| -------- | ------------- | ---- | ---- | ---- |
+| Tokijas  | Japonija      | 1445 | 1874 | 1690 |
+| Atlanta  | Jungtinės Valstijos | 1779 | 1111 | 1683 |
+| Oklendas | Naujoji Zelandija | 1386 | 942  | 1176 |
 
-Nors tai padeda išvengti eilučių dubliavimo, atsiranda keletas kitų iššūkių. Kiekvieną kartą atsiradus naujiems metams, reikėtų keisti lentelės struktūrą. Be to, augant duomenų kiekiui, turint metus kaip stulpelius, bus sudėtingiau gauti ir apskaičiuoti reikšmes.
+Nors tai išvengia eilučių dubliavimo, atsiranda keletas kitų iššūkių. Kiekvieną kartą atsiradus naujiems metams, reikėtų keisti lentelės struktūrą. Be to, kai duomenys auga, metai kaip stulpeliai apsunkins reikšmių gavimą ir skaičiavimą.
 
-Štai kodėl mums reikia kelių lentelių ir ryšių. Skirstydami duomenis galime išvengti dubliavimo ir turėti daugiau lankstumo dirbant su duomenimis.
+Todėl mums reikia kelių lentelių ir ryšių. Padalindami duomenis galime išvengti dubliavimo ir turėti daugiau lankstumo dirbant su duomenimis.
 
-## Ryšių koncepcija
+## Ryšių sąvokos
 
-Grįžkime prie mūsų duomenų ir nuspręskime, kaip juos padalinti. Žinome, kad norime saugoti miestų pavadinimus ir šalis, todėl tai greičiausiai geriausiai tiks vienoje lentelėje.
+Grįžkime prie mūsų duomenų ir nuspręskime, kaip juos padalinti. Žinome, kad norime saugoti miestų pavadinimus ir šalis, todėl tai geriausiai tiks vienoje lentelėje.
 
-| Miestas   | Šalis         |
-| --------- | ------------- |
-| Tokijas   | Japonija      |
-| Atlanta   | Jungtinės Valstijos |
-| Oklandas  | Naujoji Zelandija   |
+| Miestas  | Šalis         |
+| -------- | ------------- |
+| Tokijas  | Japonija      |
+| Atlanta  | Jungtinės Valstijos |
+| Oklendas | Naujoji Zelandija |
 
-Bet prieš kurdami kitą lentelę, turime nuspręsti, kaip nurodyti kiekvieną miestą. Mums reikia tam tikros identifikatoriaus formos, ID arba (techniniuose duomenų bazės terminuose) pirminio rakto. Pirminis raktas yra reikšmė, naudojama konkrečiai eilutei lentelėje identifikuoti. Nors tai galėtų būti pagrįsta pačia reikšme (pavyzdžiui, galėtume naudoti miesto pavadinimą), jis beveik visada turėtų būti skaičius arba kitas identifikatorius. Nenorime, kad ID kada nors pasikeistų, nes tai sugadintų ryšį. Daugeliu atvejų pirminis raktas arba ID bus automatiškai sugeneruotas skaičius.
+Tačiau prieš kuriant kitą lentelę, turime nuspręsti, kaip nurodyti kiekvieną miestą. Reikia tam tikro identifikatoriaus, ID arba (techniniais duomenų bazės terminais) pirminio rakto. Pirminis raktas yra reikšmė, naudojama identifikuoti vieną konkretų eilutę lentelėje. Nors tai galėtų būti pagrįsta pačia reikšme (pavyzdžiui, galėtume naudoti miesto pavadinimą), beveik visada tai turėtų būti skaičius arba kitas identifikatorius. Nenorime, kad ID keistųsi, nes tai sulaužytų ryšį. Daugeliu atvejų pirminis raktas arba ID bus automatiškai sugeneruotas skaičius.
 
-> ✅ Pirminis raktas dažnai trumpinamas kaip PK
+> ✅ Pirminis raktas dažnai sutrumpinamas kaip PK
 
-### miestai
+### cities
 
-| city_id | Miestas   | Šalis         |
-| ------- | --------- | ------------- |
-| 1       | Tokijas   | Japonija      |
-| 2       | Atlanta   | Jungtinės Valstijos |
-| 3       | Oklandas  | Naujoji Zelandija   |
+| city_id | Miestas  | Šalis         |
+| ------- | -------- | ------------- |
+| 1       | Tokijas  | Japonija      |
+| 2       | Atlanta  | Jungtinės Valstijos |
+| 3       | Oklendas | Naujoji Zelandija |
 
-> ✅ Pastebėsite, kad šioje pamokoje terminus "id" ir "pirminis raktas" naudojame pakaitomis. Šios koncepcijos taikomos ir DataFrames, kuriuos tyrinėsite vėliau. DataFrames nenaudoja "pirminio rakto" terminologijos, tačiau pastebėsite, kad jie veikia labai panašiai.
+> ✅ Pastebėsite, kad šioje pamokoje terminus „id“ ir „pirminis raktas“ vartojame pakaitomis. Šios sąvokos taikomos ir DataFrames, kuriuos tyrinėsite vėliau. DataFrames nenaudoja termino „pirminis raktas“, tačiau elgiasi panašiai.
 
-Sukūrę miestų lentelę, saugokime kritulių duomenis. Vietoj to, kad dubliuotume visą informaciją apie miestą, galime naudoti ID. Taip pat turėtume užtikrinti, kad naujai sukurta lentelė turėtų *id* stulpelį, nes visos lentelės turėtų turėti ID arba pirminį raktą.
+Sukūrę miestų lentelę, saugosime kritulių duomenis. Vietoj to, kad dubliuotume visą informaciją apie miestą, galime naudoti ID. Taip pat turėtume užtikrinti, kad naujai sukurtoje lentelėje būtų *id* stulpelis, nes visos lentelės turėtų turėti ID arba pirminį raktą.
 
-### krituliai
+### rainfall
 
 | rainfall_id | city_id | Metai | Kiekis |
 | ----------- | ------- | ----- | ------ |
@@ -95,16 +95,16 @@ Sukūrę miestų lentelę, saugokime kritulių duomenis. Vietoj to, kad dubliuot
 | 8           | 3       | 2019  | 942    |
 | 9           | 3       | 2020  | 1176   |
 
-Atkreipkite dėmesį į **city_id** stulpelį naujai sukurtoje **krituliai** lentelėje. Šiame stulpelyje yra reikšmės, kurios nurodo ID iš **miestai** lentelės. Techniniuose reliacinių duomenų terminuose tai vadinama **užsienio raktu**; tai yra pirminis raktas iš kitos lentelės. Galite tiesiog galvoti apie tai kaip nuorodą arba rodyklę. **city_id** 1 nurodo Tokiją.
+Atkreipkite dėmesį į **city_id** stulpelį naujai sukurtos **rainfall** lentelės viduje. Šis stulpelis turi reikšmes, kurios nurodo ID reikšmes **cities** lentelėje. Techniniais reliacinių duomenų terminais tai vadinama **svetimu raktu**; tai yra pirminis raktas iš kitos lentelės. Galite tiesiog galvoti apie tai kaip nuorodą arba rodyklę. **city_id** 1 nurodo Tokiją.
 
 > [!NOTE] 
-> Užsienio raktas dažnai trumpinamas kaip FK
+> Svetimas raktas dažnai sutrumpinamas kaip FK
 
 ## Duomenų gavimas
 
-Padalinus duomenis į dvi lenteles, galite susimąstyti, kaip juos gauti. Jei naudojame reliacinę duomenų bazę, tokią kaip MySQL, SQL Server ar Oracle, galime naudoti kalbą, vadinamą struktūrizuota užklausų kalba arba SQL. SQL (kartais tariama "siquel") yra standartinė kalba, naudojama duomenims gauti ir keisti reliacinėje duomenų bazėje.
+Padaliję duomenis į dvi lenteles, galbūt svarstote, kaip juos gauti. Jei naudojame reliacinę duomenų bazę, tokią kaip MySQL, SQL Server ar Oracle, galime naudoti kalbą, vadinamą struktūruotąja užklausų kalba arba SQL. SQL (kartais tariama „sequel“) yra standartinė kalba, naudojama duomenims gauti ir keisti reliacinėje duomenų bazėje.
 
-Norėdami gauti duomenis, naudojate komandą `SELECT`. Iš esmės, jūs **pasirenkate** stulpelius, kuriuos norite matyti, **iš** lentelės, kurioje jie yra. Jei norėtumėte rodyti tik miestų pavadinimus, galėtumėte naudoti šią užklausą:
+Duomenims gauti naudojama komanda `SELECT`. Iš esmės jūs **pasirenkate** stulpelius, kuriuos norite matyti, **iš** lentelės, kurioje jie yra. Jei norėtumėte parodyti tik miestų pavadinimus, galėtumėte naudoti šią užklausą:
 
 ```sql
 SELECT city
@@ -116,12 +116,12 @@ FROM cities;
 -- Auckland
 ```
 
-`SELECT` yra vieta, kur nurodote stulpelius, o `FROM` - kur nurodote lenteles.
+`SELECT` nurodo stulpelius, o `FROM` – lenteles.
 
 > [!NOTE] 
-> SQL sintaksė yra neatspari didžiosioms ir mažosioms raidėms, tai reiškia, kad `select` ir `SELECT` reiškia tą patį. Tačiau, priklausomai nuo naudojamos duomenų bazės tipo, stulpeliai ir lentelės gali būti jautrūs didžiosioms ir mažosioms raidėms. Todėl geriausia praktika visada elgtis su viskuo programavime taip, tarsi tai būtų jautru didžiosioms ir mažosioms raidėms. Rašant SQL užklausas, įprasta konvencija yra rašyti raktinius žodžius didžiosiomis raidėmis.
+> SQL sintaksė nėra jautri raidžių dydžiui, tai reiškia, kad `select` ir `SELECT` reiškia tą patį. Tačiau, priklausomai nuo duomenų bazės tipo, stulpeliai ir lentelės gali būti jautrūs raidžių dydžiui. Todėl geriausia praktika yra viską programavime laikyti jautriu raidžių dydžiui. Rašant SQL užklausas įprasta raktinius žodžius rašyti didžiosiomis raidėmis.
 
-Aukščiau pateikta užklausa parodys visus miestus. Įsivaizduokime, kad norime rodyti tik Naujosios Zelandijos miestus. Mums reikia tam tikros filtro formos. SQL raktinis žodis tam yra `WHERE`, arba "kur kažkas yra tiesa".
+Aukščiau pateikta užklausa parodys visus miestus. Įsivaizduokime, kad norime parodyti tik Naujosios Zelandijos miestus. Reikia tam tikro filtro. SQL raktinis žodis tam yra `WHERE`, arba „kur kažkas yra tiesa“.
 
 ```sql
 SELECT city
@@ -134,13 +134,13 @@ WHERE country = 'New Zealand';
 
 ## Duomenų sujungimas
 
-Iki šiol gavome duomenis iš vienos lentelės. Dabar norime sujungti duomenis iš **miestai** ir **krituliai**. Tai atliekama *sujungiant* juos kartu. Iš esmės sukursite siūlę tarp dviejų lentelių ir suderinsite reikšmes iš stulpelio kiekvienoje lentelėje.
+Iki šiol gavome duomenis iš vienos lentelės. Dabar norime sujungti duomenis iš **cities** ir **rainfall**. Tai atliekama *sujungiant* jas kartu. Iš esmės sukuriate jungtį tarp dviejų lentelių ir suderinate reikšmes iš stulpelio kiekvienoje lentelėje.
 
-Mūsų pavyzdyje suderinsime **city_id** stulpelį iš **krituliai** su **city_id** stulpeliu iš **miestai**. Tai suderins kritulių reikšmę su atitinkamu miestu. Sujungimo tipas, kurį atliksime, vadinamas *vidiniu* sujungimu, tai reiškia, kad jei bet kurios eilutės nesutampa su kita lentelės eilute, jos nebus rodomos. Mūsų atveju kiekvienas miestas turi kritulių duomenis, todėl viskas bus rodoma.
+Mūsų pavyzdyje suderinsime **city_id** stulpelį **rainfall** su **city_id** stulpeliu **cities**. Tai suderins kritulių reikšmę su atitinkamu miestu. Atliksime tai, kas vadinama *vidiniu* sujungimu, reiškiančiu, kad jei kokios nors eilutės nesutampa su kita lentelės reikšme, jos nebus rodomos. Mūsų atveju kiekvienas miestas turi kritulių duomenis, todėl viskas bus parodyta.
 
-Paimkime 2019 metų kritulių duomenis visiems mūsų miestams.
+Gaukime kritulių duomenis už 2019 metus visiems mūsų miestams.
 
-Tai atliksime etapais. Pirmasis žingsnis yra sujungti duomenis, nurodant stulpelius siūlei - **city_id**, kaip buvo paminėta anksčiau.
+Darysime tai etapais. Pirmas žingsnis – sujungti duomenis nurodant jungties stulpelius – **city_id**, kaip minėta anksčiau.
 
 ```sql
 SELECT cities.city
@@ -149,7 +149,7 @@ FROM cities
     INNER JOIN rainfall ON cities.city_id = rainfall.city_id
 ```
 
-Mes pažymėjome du stulpelius, kurių norime, ir faktą, kad norime sujungti lenteles pagal **city_id**. Dabar galime pridėti `WHERE` sakinį, kad filtruotume tik 2019 metus.
+Pažymėjome du stulpelius, kuriuos norime, ir faktą, kad norime sujungti lenteles pagal **city_id**. Dabar galime pridėti `WHERE` sakinį, kad filtruotume tik 2019 metus.
 
 ```sql
 SELECT cities.city
@@ -169,29 +169,31 @@ WHERE rainfall.year = 2019
 
 ## Santrauka
 
-Reliacinės duomenų bazės yra orientuotos į informacijos padalijimą tarp kelių lentelių, kurios vėliau sujungiamos atvaizdavimui ir analizei. Tai suteikia didelį lankstumą atliekant skaičiavimus ir kitaip manipuliuojant duomenimis. Jūs susipažinote su pagrindinėmis reliacinės duomenų bazės koncepcijomis ir kaip atlikti sujungimą tarp dviejų lentelių.
+Reliacinės duomenų bazės yra sutelktos į informacijos padalijimą tarp kelių lentelių, kurios vėliau sujungiamos rodymui ir analizei. Tai suteikia didelį lankstumą atlikti skaičiavimus ir kitaip manipuliuoti duomenimis. Jūs susipažinote su reliacinės duomenų bazės pagrindinėmis sąvokomis ir kaip atlikti sujungimą tarp dviejų lentelių.
 
 ## 🚀 Iššūkis
 
-Internete yra daugybė reliacinių duomenų bazių. Galite tyrinėti duomenis naudodamiesi aukščiau išmoktais įgūdžiais.
+Internete yra daug reliacinių duomenų bazių. Galite tyrinėti duomenis naudodami aukščiau įgytas žinias.
 
-## Klausimynas po paskaitos
+## Po paskaitos testas
 
-## [Klausimynas po paskaitos](https://ff-quizzes.netlify.app/en/ds/quiz/9)
+## [Po paskaitos testas](https://ff-quizzes.netlify.app/en/ds/quiz/9)
 
 ## Peržiūra ir savarankiškas mokymasis
 
-Yra keletas išteklių [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum), kur galite tęsti SQL ir reliacinių duomenų bazių koncepcijų tyrinėjimą.
+Yra keletas išteklių [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum), kurie padės toliau tyrinėti SQL ir reliacinių duomenų bazių sąvokas
 
-- [Aprašykite reliacinių duomenų koncepcijas](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-77958-bethanycheum)
-- [Pradėkite užklausų rašymą su Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-77958-bethanycheum) (Transact-SQL yra SQL versija)
+- [Aprašykite reliacinių duomenų sąvokas](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-77958-bethanycheum)
+- [Pradėkite užklausas su Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-77958-bethanycheum) (Transact-SQL yra SQL versija)
 - [SQL turinys Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-77958-bethanycheum)
 
 ## Užduotis
 
-[Užduoties pavadinimas](assignment.md)
+[Oro uostų duomenų rodymas](assignment.md)
 
 ---
 
-**Atsakomybės apribojimas**:  
-Šis dokumentas buvo išverstas naudojant AI vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Dėl svarbios informacijos rekomenduojama profesionali žmogaus vertimo paslauga. Mes neprisiimame atsakomybės už nesusipratimus ar neteisingus aiškinimus, atsiradusius naudojant šį vertimą.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Atsakomybės apribojimas**:
+Šis dokumentas buvo išverstas naudojant dirbtinio intelekto vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Kritinei informacijai rekomenduojamas profesionalus žmogaus vertimas. Mes neatsakome už bet kokius nesusipratimus ar neteisingus aiškinimus, kilusius dėl šio vertimo naudojimo.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
