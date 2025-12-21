@@ -1,0 +1,23 @@
+<!--
+CO_OP_TRANSLATOR_METADATA:
+{
+  "original_hash": "3a848466cb63aff1a93411affb152c2a",
+  "translation_date": "2025-12-19T13:31:32+00:00",
+  "source_file": "sketchnotes/README.md",
+  "language_code": "te"
+}
+-->
+ఇక్కడ అన్ని స్కెచ్‌నోట్లు కనుగొనండి!
+
+## క్రెడిట్స్
+
+నిత్య నరసింహన్, కళాకారుడు
+
+![roadmap sketchnote](../../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.te.png)
+
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**అస్పష్టత**:  
+ఈ పత్రాన్ని AI అనువాద సేవ [Co-op Translator](https://github.com/Azure/co-op-translator) ఉపయోగించి అనువదించబడింది. మేము ఖచ్చితత్వానికి ప్రయత్నించినప్పటికీ, ఆటోమేటెడ్ అనువాదాల్లో పొరపాట్లు లేదా తప్పిదాలు ఉండవచ్చు. మూల పత్రం దాని స్వదేశీ భాషలో అధికారిక మూలంగా పరిగణించాలి. ముఖ్యమైన సమాచారానికి, ప్రొఫెషనల్ మానవ అనువాదం సిఫార్సు చేయబడుతుంది. ఈ అనువాదం వాడకంలో ఏర్పడిన ఏవైనా అపార్థాలు లేదా తప్పుదారుల కోసం మేము బాధ్యత వహించము.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

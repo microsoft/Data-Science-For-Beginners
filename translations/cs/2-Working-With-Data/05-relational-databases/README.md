@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "80d80300002ef4e77cc7631d5904bd6e",
-  "translation_date": "2025-10-25T19:04:37+00:00",
+  "original_hash": "11739c7b40e7c6b16ad29e3df4e65862",
+  "translation_date": "2025-12-19T12:03:54+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "cs"
 }
@@ -13,15 +13,15 @@ CO_OP_TRANSLATOR_METADATA:
 |:---:|
 | Práce s daty: Relační databáze - _Sketchnote od [@nitya](https://twitter.com/nitya)_ |
 
-Je pravděpodobné, že jste v minulosti použili tabulkový procesor k ukládání informací. Měli jste sadu řádků a sloupců, kde řádky obsahovaly informace (nebo data) a sloupce popisovaly tyto informace (někdy nazývané metadata). Relační databáze je postavena na tomto základním principu sloupců a řádků v tabulkách, což vám umožňuje mít informace rozložené do více tabulek. To vám umožňuje pracovat s komplexnějšími daty, vyhnout se duplicitám a mít flexibilitu při zkoumání dat. Pojďme prozkoumat koncepty relační databáze.
+Je pravděpodobné, že jste v minulosti použili tabulkový procesor k ukládání informací. Měli jste sadu řádků a sloupců, kde řádky obsahovaly informace (nebo data) a sloupce popisovaly informace (někdy nazývané metadata). Relační databáze je postavena na tomto základním principu sloupců a řádků v tabulkách, což vám umožňuje mít informace rozprostřené přes více tabulek. To vám umožňuje pracovat s komplexnějšími daty, vyhnout se duplicitě a mít flexibilitu ve způsobu, jakým data prozkoumáváte. Pojďme prozkoumat koncepty relační databáze.
 
-## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ds/quiz/8)
+## [Přednáškový kvíz](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
-## Vše začíná tabulkami
+## Všechno začíná tabulkami
 
-Relační databáze má jako svůj základ tabulky. Stejně jako u tabulkového procesoru je tabulka kolekcí sloupců a řádků. Řádek obsahuje data nebo informace, se kterými chceme pracovat, například název města nebo množství srážek. Sloupce popisují data, která ukládají.
+Relační databáze má ve svém jádru tabulky. Stejně jako u tabulkového procesoru je tabulka sbírkou sloupců a řádků. Řádek obsahuje data nebo informace, se kterými chceme pracovat, například název města nebo množství srážek. Sloupce popisují data, která ukládají.
 
-Začněme naše zkoumání vytvořením tabulky pro ukládání informací o městech. Můžeme začít jejich názvem a zemí. Mohli byste to uložit do tabulky takto:
+Začněme naši exploraci vytvořením tabulky pro ukládání informací o městech. Můžeme začít jejich názvem a zemí. Můžete to uložit do tabulky takto:
 
 | Město    | Země          |
 | -------- | ------------- |
@@ -29,19 +29,19 @@ Začněme naše zkoumání vytvořením tabulky pro ukládání informací o mě
 | Atlanta  | Spojené státy |
 | Auckland | Nový Zéland   |
 
-Všimněte si, že názvy sloupců **město**, **země** a **populace** popisují ukládaná data a každý řádek obsahuje informace o jednom městě.
+Všimněte si názvů sloupců **město**, **země** a **populace**, které popisují ukládaná data, a každý řádek obsahuje informace o jednom městě.
 
 ## Nedostatky přístupu s jednou tabulkou
 
-Je pravděpodobné, že výše uvedená tabulka vám připadá poměrně známá. Začněme přidávat další data do naší rozrůstající se databáze - roční srážky (v milimetrech). Zaměříme se na roky 2018, 2019 a 2020. Pokud bychom je přidali pro Tokio, mohlo by to vypadat nějak takto:
+Je pravděpodobné, že tabulka výše vám přijde relativně známá. Začněme přidávat další data do naší rostoucí databáze - roční srážky (v milimetrech). Zaměříme se na roky 2018, 2019 a 2020. Pokud bychom je přidali pro Tokio, mohlo by to vypadat takto:
 
-| Město | Země     | Rok  | Množství |
-| ----- | -------- | ---- | -------- |
-| Tokio | Japonsko | 2020 | 1690     |
-| Tokio | Japonsko | 2019 | 1874     |
-| Tokio | Japonsko | 2018 | 1445     |
+| Město | Země    | Rok  | Množství |
+| ----- | ------- | ---- | -------- |
+| Tokio | Japonsko| 2020 | 1690     |
+| Tokio | Japonsko| 2019 | 1874     |
+| Tokio | Japonsko| 2018 | 1445     |
 
-Co si všimnete na naší tabulce? Možná si všimnete, že opakovaně duplikujeme název a zemi města. To by mohlo zabrat poměrně dost úložného prostoru a je to většinou zbytečné, protože Tokio má jen jedno jméno, které nás zajímá.
+Co si všimnete na naší tabulce? Můžete si všimnout, že opakujeme název a zemi města stále dokola. To by mohlo zabírat poměrně hodně místa a je to z velké části zbytečné mít více kopií. Koneckonců Tokio má jen jeden název, o který máme zájem.
 
 Dobře, zkusme něco jiného. Přidáme nové sloupce pro každý rok:
 
@@ -51,13 +51,13 @@ Dobře, zkusme něco jiného. Přidáme nové sloupce pro každý rok:
 | Atlanta  | Spojené státy | 1779 | 1111 | 1683 |
 | Auckland | Nový Zéland   | 1386 | 942  | 1176 |
 
-I když se tím vyhneme duplikaci řádků, přináší to několik dalších problémů. Museli bychom upravit strukturu naší tabulky pokaždé, když přibude nový rok. Navíc, jak naše data rostou, mít roky jako sloupce by ztížilo jejich získávání a výpočty.
+I když se tím vyhneme duplikaci řádků, přidává to několik dalších výzev. Museli bychom upravovat strukturu naší tabulky pokaždé, když přijde nový rok. Navíc, jak naše data rostou, mít roky jako sloupce ztíží získávání a výpočty hodnot.
 
-Proto potřebujeme více tabulek a vztahy mezi nimi. Rozdělením našich dat se můžeme vyhnout duplicitám a získat větší flexibilitu při práci s daty.
+Proto potřebujeme více tabulek a vztahů. Rozdělením našich dat se můžeme vyhnout duplicitě a mít větší flexibilitu v tom, jak s daty pracujeme.
 
 ## Koncepty vztahů
 
-Vraťme se k našim datům a určme, jak je chceme rozdělit. Víme, že chceme uložit název a zemi našich měst, takže to bude pravděpodobně nejlépe fungovat v jedné tabulce.
+Vraťme se k našim datům a určme, jak je chceme rozdělit. Víme, že chceme uložit název a zemi našich měst, takže to pravděpodobně nejlépe funguje v jedné tabulce.
 
 | Město    | Země          |
 | -------- | ------------- |
@@ -65,11 +65,11 @@ Vraťme se k našim datům a určme, jak je chceme rozdělit. Víme, že chceme 
 | Atlanta  | Spojené státy |
 | Auckland | Nový Zéland   |
 
-Ale než vytvoříme další tabulku, musíme zjistit, jak odkazovat na každé město. Potřebujeme nějakou formu identifikátoru, ID nebo (v technických termínech databáze) primární klíč. Primární klíč je hodnota používaná k identifikaci jednoho konkrétního řádku v tabulce. I když by to mohlo být založeno na samotné hodnotě (například bychom mohli použít název města), mělo by to být téměř vždy číslo nebo jiný identifikátor. Nechceme, aby se ID někdy změnilo, protože by to narušilo vztah. Ve většině případů je primární klíč nebo ID automaticky generované číslo.
+Ale než vytvoříme další tabulku, musíme zjistit, jak na každé město odkazovat. Potřebujeme nějaký identifikátor, ID nebo (v technických databázových termínech) primární klíč. Primární klíč je hodnota používaná k identifikaci jednoho konkrétního řádku v tabulce. I když by to mohlo být založeno na samotné hodnotě (například bychom mohli použít název města), mělo by to téměř vždy být číslo nebo jiný identifikátor. Nechceme, aby se id kdykoli změnilo, protože by to zlomilo vztah. Většinou bude primární klíč nebo id automaticky generované číslo.
 
 > ✅ Primární klíč se často zkracuje jako PK
 
-### města
+### cities
 
 | city_id | Město    | Země          |
 | ------- | -------- | ------------- |
@@ -77,11 +77,11 @@ Ale než vytvoříme další tabulku, musíme zjistit, jak odkazovat na každé 
 | 2       | Atlanta  | Spojené státy |
 | 3       | Auckland | Nový Zéland   |
 
-> ✅ Všimněte si, že během této lekce používáme termíny "id" a "primární klíč" zaměnitelně. Tyto koncepty se vztahují i na DataFrames, které budete zkoumat později. DataFrames nepoužívají terminologii "primární klíč", nicméně si všimnete, že se chovají velmi podobně.
+> ✅ V průběhu této lekce budete pozorovat, že používáme termíny "id" a "primární klíč" zaměnitelně. Koncepty zde platí i pro DataFrames, které budete později zkoumat. DataFrames nepoužívají terminologii "primární klíč", ale všimnete si, že se chovají velmi podobně.
 
-Po vytvoření naší tabulky měst uložíme srážky. Místo duplikování úplných informací o městě můžeme použít ID. Měli bychom také zajistit, aby nově vytvořená tabulka měla sloupec *id*, protože všechny tabulky by měly mít ID nebo primární klíč.
+S naší tabulkou měst vytvořenou, uložme srážky. Místo duplikování úplných informací o městě můžeme použít id. Měli bychom také zajistit, aby nově vytvořená tabulka měla také sloupec *id*, protože všechny tabulky by měly mít id nebo primární klíč.
 
-### srážky
+### rainfall
 
 | rainfall_id | city_id | Rok  | Množství |
 | ----------- | ------- | ---- | -------- |
@@ -95,16 +95,16 @@ Po vytvoření naší tabulky měst uložíme srážky. Místo duplikování úp
 | 8           | 3       | 2019 | 942      |
 | 9           | 3       | 2020 | 1176     |
 
-Všimněte si sloupce **city_id** v nově vytvořené tabulce **srážky**. Tento sloupec obsahuje hodnoty, které odkazují na ID v tabulce **města**. V technických termínech relačních dat se tomu říká **cizí klíč**; je to primární klíč z jiné tabulky. Můžete si to jednoduše představit jako odkaz nebo ukazatel. **city_id** 1 odkazuje na Tokio.
+Všimněte si sloupce **city_id** uvnitř nově vytvořené tabulky **rainfall**. Tento sloupec obsahuje hodnoty, které odkazují na ID v tabulce **cities**. V technických relačních datech se tomu říká **cizí klíč**; je to primární klíč z jiné tabulky. Můžete si to představit jako odkaz nebo ukazatel. **city_id** 1 odkazuje na Tokio.
 
 > [!NOTE] 
 > Cizí klíč se často zkracuje jako FK
 
 ## Získávání dat
 
-S našimi daty rozdělenými do dvou tabulek se možná ptáte, jak je získat. Pokud používáme relační databázi, jako je MySQL, SQL Server nebo Oracle, můžeme použít jazyk nazvaný Structured Query Language nebo SQL. SQL (někdy vyslovováno jako "sequel") je standardní jazyk používaný k získávání a úpravě dat v relační databázi.
+S našimi daty rozdělenými do dvou tabulek se možná ptáte, jak je získáme. Pokud používáme relační databázi jako MySQL, SQL Server nebo Oracle, můžeme použít jazyk nazvaný Structured Query Language nebo SQL. SQL (někdy vyslovováno jako sequel) je standardní jazyk používaný k získávání a úpravě dat v relační databázi.
 
-K získání dat používáte příkaz `SELECT`. V podstatě **vyberete** sloupce, které chcete zobrazit, **z** tabulky, ve které se nacházejí. Pokud byste chtěli zobrazit pouze názvy měst, mohli byste použít následující:
+Pro získání dat použijete příkaz `SELECT`. V jádru **vyberete** sloupce, které chcete vidět, **z** tabulky, ve které jsou obsaženy. Pokud byste chtěli zobrazit pouze názvy měst, mohli byste použít následující:
 
 ```sql
 SELECT city
@@ -116,12 +116,12 @@ FROM cities;
 -- Auckland
 ```
 
-`SELECT` je místo, kde uvádíte sloupce, a `FROM` je místo, kde uvádíte tabulky.
+`SELECT` je místo, kde vyjmenujete sloupce, a `FROM` je místo, kde vyjmenujete tabulky.
 
 > [!NOTE] 
-> Syntaxe SQL není citlivá na velikost písmen, což znamená, že `select` a `SELECT` znamenají totéž. Nicméně, v závislosti na typu databáze, kterou používáte, mohou být sloupce a tabulky citlivé na velikost písmen. Proto je nejlepší praxí vždy zacházet se vším v programování, jako by to bylo citlivé na velikost písmen. Při psaní SQL dotazů je běžnou konvencí psát klíčová slova velkými písmeny.
+> Syntaxe SQL nerozlišuje velká a malá písmena, což znamená, že `select` a `SELECT` znamenají totéž. Nicméně v závislosti na typu databáze, kterou používáte, mohou být sloupce a tabulky citlivé na velikost písmen. Proto je nejlepší praxí vždy zacházet se vším v programování, jako by to bylo citlivé na velikost písmen. Při psaní SQL dotazů je běžnou konvencí psát klíčová slova velkými písmeny.
 
-Výše uvedený dotaz zobrazí všechna města. Představme si, že bychom chtěli zobrazit pouze města na Novém Zélandu. Potřebujeme nějakou formu filtru. Klíčové slovo SQL pro toto je `WHERE`, neboli "kde něco platí".
+Výše uvedený dotaz zobrazí všechna města. Představme si, že chceme zobrazit pouze města na Novém Zélandu. Potřebujeme nějaký filtr. SQL klíčové slovo pro to je `WHERE`, nebo "kde něco platí".
 
 ```sql
 SELECT city
@@ -134,13 +134,13 @@ WHERE country = 'New Zealand';
 
 ## Spojování dat
 
-Doposud jsme získávali data z jedné tabulky. Nyní chceme spojit data z obou tabulek **města** a **srážky**. To se provádí *spojením* těchto tabulek. Efektivně vytvoříte spojení mezi dvěma tabulkami a přiřadíte hodnoty ze sloupce z každé tabulky.
+Dosud jsme získávali data z jedné tabulky. Nyní chceme spojit data z obou tabulek **cities** a **rainfall**. To se provádí jejich *spojením*. V podstatě vytvoříte spoj mezi dvěma tabulkami a spárujete hodnoty ze sloupce z každé tabulky.
 
-V našem příkladu spojíme sloupec **city_id** v tabulce **srážky** se sloupcem **city_id** v tabulce **města**. Tím přiřadíme hodnoty srážek k jejich příslušnému městu. Typ spojení, který provedeme, se nazývá *vnitřní* spojení, což znamená, že pokud nějaké řádky neodpovídají žádnému z druhé tabulky, nebudou zobrazeny. V našem případě má každé město srážky, takže vše bude zobrazeno.
+V našem příkladu spárujeme sloupec **city_id** v tabulce **rainfall** se sloupcem **city_id** v tabulce **cities**. To spáruje hodnotu srážek s příslušným městem. Typ spojení, které provedeme, se nazývá *inner* join, což znamená, že pokud se nějaké řádky neshodují s ničím z druhé tabulky, nebudou zobrazeny. V našem případě má každé město srážky, takže bude vše zobrazeno.
 
-Pojďme získat údaje o srážkách za rok 2019 pro všechna naše města.
+Získáme srážky za rok 2019 pro všechna naše města.
 
-Uděláme to v krocích. Prvním krokem je spojení dat dohromady tím, že označíme sloupce pro spojení - **city_id**, jak bylo uvedeno výše.
+Uděláme to po krocích. Prvním krokem je spojit data dohromady tím, že určíme sloupce pro spojení - **city_id**, jak bylo uvedeno výše.
 
 ```sql
 SELECT cities.city
@@ -149,7 +149,7 @@ FROM cities
     INNER JOIN rainfall ON cities.city_id = rainfall.city_id
 ```
 
-Zvýraznili jsme dva sloupce, které chceme, a fakt, že chceme spojit tabulky dohromady podle **city_id**. Nyní můžeme přidat příkaz `WHERE`, abychom filtrovali pouze rok 2019.
+Zvýraznili jsme dva sloupce, které chceme, a fakt, že chceme spojit tabulky podle **city_id**. Nyní můžeme přidat příkaz `WHERE` pro filtrování pouze roku 2019.
 
 ```sql
 SELECT cities.city
@@ -169,7 +169,7 @@ WHERE rainfall.year = 2019
 
 ## Shrnutí
 
-Relační databáze jsou založeny na rozdělení informací mezi více tabulek, které se poté spojují zpět pro zobrazení a analýzu. To poskytuje vysokou míru flexibility při provádění výpočtů a jiných manipulacích s daty. Viděli jste základní koncepty relační databáze a jak provést spojení mezi dvěma tabulkami.
+Relační databáze jsou založeny na rozdělení informací mezi více tabulek, které jsou pak znovu spojeny pro zobrazení a analýzu. To poskytuje vysokou míru flexibility pro provádění výpočtů a jinou manipulaci s daty. Viděli jste základní koncepty relační databáze a jak provést spojení mezi dvěma tabulkami.
 
 ## 🚀 Výzva
 
@@ -179,19 +179,21 @@ Na internetu je k dispozici mnoho relačních databází. Můžete prozkoumat da
 
 ## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ds/quiz/9)
 
-## Opakování a samostudium
+## Přehled a samostudium
 
-Na [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum) je k dispozici několik zdrojů, které vám umožní pokračovat v objevování SQL a konceptů relačních databází.
+Na [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum) je k dispozici několik zdrojů, které vám umožní pokračovat v průzkumu SQL a konceptů relačních databází
 
 - [Popis konceptů relačních dat](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-77958-bethanycheum)
 - [Začínáme s dotazováním pomocí Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-77958-bethanycheum) (Transact-SQL je verze SQL)
 - [Obsah SQL na Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-77958-bethanycheum)
 
-## Úkol
+## Zadání
 
-[Úkol - Název](assignment.md)
+[Zobrazení dat letiště](assignment.md)
 
 ---
 
-**Prohlášení**:  
-Tento dokument byl přeložen pomocí služby AI pro překlady [Co-op Translator](https://github.com/Azure/co-op-translator). Ačkoli se snažíme o přesnost, mějte prosím na paměti, že automatizované překlady mohou obsahovat chyby nebo nepřesnosti. Původní dokument v jeho rodném jazyce by měl být považován za autoritativní zdroj. Pro důležité informace se doporučuje profesionální lidský překlad. Neodpovídáme za žádná nedorozumění nebo nesprávné interpretace vyplývající z použití tohoto překladu.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Prohlášení o vyloučení odpovědnosti**:  
+Tento dokument byl přeložen pomocí AI překladatelské služby [Co-op Translator](https://github.com/Azure/co-op-translator). Přestože usilujeme o přesnost, mějte prosím na paměti, že automatické překlady mohou obsahovat chyby nebo nepřesnosti. Původní dokument v jeho mateřském jazyce by měl být považován za autoritativní zdroj. Pro důležité informace se doporučuje profesionální lidský překlad. Nejsme odpovědní za jakékoliv nedorozumění nebo nesprávné výklady vyplývající z použití tohoto překladu.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

@@ -1,27 +1,27 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "80d80300002ef4e77cc7631d5904bd6e",
-  "translation_date": "2025-10-25T19:05:29+00:00",
+  "original_hash": "11739c7b40e7c6b16ad29e3df4e65862",
+  "translation_date": "2025-12-19T12:06:48+00:00",
   "source_file": "2-Working-With-Data/05-relational-databases/README.md",
   "language_code": "sk"
 }
 -->
-# Práca s dátami: Relačné databázy
+# Práca s údajmi: Relačné databázy
 
 |![ Sketchnote od [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/05-RelationalData.png)|
 |:---:|
-| Práca s dátami: Relačné databázy - _Sketchnote od [@nitya](https://twitter.com/nitya)_ |
+| Práca s údajmi: Relačné databázy - _Sketchnote od [@nitya](https://twitter.com/nitya)_ |
 
-Je pravdepodobné, že ste už niekedy používali tabuľkový procesor na ukladanie informácií. Mali ste sadu riadkov a stĺpcov, kde riadky obsahovali informácie (alebo dáta) a stĺpce opisovali tieto informácie (niekedy nazývané metadáta). Relačná databáza je postavená na tomto základnom princípe stĺpcov a riadkov v tabuľkách, čo vám umožňuje mať informácie rozložené do viacerých tabuliek. To vám umožňuje pracovať s komplexnejšími dátami, vyhnúť sa duplicite a mať flexibilitu pri skúmaní dát. Poďme preskúmať koncepty relačnej databázy.
+Je pravdepodobné, že ste v minulosti používali tabuľkový procesor na ukladanie informácií. Mali ste súbor riadkov a stĺpcov, kde riadky obsahovali informácie (alebo údaje) a stĺpce popisovali informácie (niekedy nazývané metadáta). Relačná databáza je postavená na tomto základnom princípe stĺpcov a riadkov v tabuľkách, čo vám umožňuje mať informácie rozložené do viacerých tabuliek. To vám umožňuje pracovať s komplexnejšími údajmi, vyhnúť sa duplicite a mať flexibilitu v spôsobe, akým údaje skúmate. Poďme preskúmať koncepty relačnej databázy.
 
-## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ds/quiz/8)
+## [Prednáškový kvíz](https://ff-quizzes.netlify.app/en/ds/quiz/8)
 
 ## Všetko začína tabuľkami
 
-Relačná databáza má vo svojom jadre tabuľky. Rovnako ako v tabuľkovom procesore, tabuľka je zbierka stĺpcov a riadkov. Riadok obsahuje dáta alebo informácie, s ktorými chceme pracovať, ako napríklad názov mesta alebo množstvo zrážok. Stĺpce opisujú dáta, ktoré uchovávajú.
+Relačná databáza má vo svojom jadre tabuľky. Rovnako ako v tabuľkovom procesore, tabuľka je zbierka stĺpcov a riadkov. Riadok obsahuje údaje alebo informácie, s ktorými chceme pracovať, napríklad názov mesta alebo množstvo zrážok. Stĺpce popisujú údaje, ktoré ukladajú.
 
-Začnime našu analýzu vytvorením tabuľky na ukladanie informácií o mestách. Môžeme začať s ich názvom a krajinou. Mohli by ste to uložiť do tabuľky nasledovne:
+Začnime našu exploráciu vytvorením tabuľky na uloženie informácií o mestách. Môžeme začať ich názvom a krajinou. Môžete to uložiť do tabuľky nasledovne:
 
 | Mesto    | Krajina       |
 | -------- | ------------- |
@@ -29,11 +29,11 @@ Začnime našu analýzu vytvorením tabuľky na ukladanie informácií o mestác
 | Atlanta  | Spojené štáty |
 | Auckland | Nový Zéland   |
 
-Všimnite si, že názvy stĺpcov **mesto**, **krajina** a **populácia** opisujú uchovávané dáta a každý riadok obsahuje informácie o jednom meste.
+Všimnite si názvy stĺpcov **mesto**, **krajina** a **populácia**, ktoré popisujú ukladané údaje, a každý riadok obsahuje informácie o jednom meste.
 
 ## Nedostatky prístupu s jednou tabuľkou
 
-Je pravdepodobné, že vyššie uvedená tabuľka vám pripadá pomerne známa. Začnime pridávať ďalšie údaje do našej rozvíjajúcej sa databázy - ročné zrážky (v milimetroch). Zameriame sa na roky 2018, 2019 a 2020. Ak by sme ich pridali pre Tokio, mohlo by to vyzerať takto:
+Je pravdepodobné, že vám vyššie uvedená tabuľka pripadá relatívne známa. Začnime pridávať ďalšie údaje do našej rastúcej databázy - ročné zrážky (v milimetroch). Zameriame sa na roky 2018, 2019 a 2020. Ak by sme ich pridali pre Tokio, mohlo by to vyzerať takto:
 
 | Mesto | Krajina | Rok  | Množstvo |
 | ----- | ------- | ---- | -------- |
@@ -41,9 +41,9 @@ Je pravdepodobné, že vyššie uvedená tabuľka vám pripadá pomerne známa. 
 | Tokio | Japonsko| 2019 | 1874     |
 | Tokio | Japonsko| 2018 | 1445     |
 
-Čo si všimnete na našej tabuľke? Možno si všimnete, že opakovane duplikujeme názov a krajinu mesta. To by mohlo zabrať dosť veľa úložného priestoru a je to vo veľkej miere zbytočné, pretože Tokio má len jeden názov, ktorý nás zaujíma.
+Čo si všimnete na našej tabuľke? Môžete si všimnúť, že opakovane duplikujeme názov a krajinu mesta. To by mohlo zaberať dosť miesta na ukladanie a je to väčšinou zbytočné mať viacero kópií. Napokon, Tokio má len jeden názov, o ktorý sa zaujímame.
 
-Dobre, skúsme niečo iné. Pridajme nové stĺpce pre každý rok:
+Skúsme niečo iné. Pridajme nové stĺpce pre každý rok:
 
 | Mesto    | Krajina       | 2018 | 2019 | 2020 |
 | -------- | ------------- | ---- | ---- | ---- |
@@ -51,13 +51,13 @@ Dobre, skúsme niečo iné. Pridajme nové stĺpce pre každý rok:
 | Atlanta  | Spojené štáty | 1779 | 1111 | 1683 |
 | Auckland | Nový Zéland   | 1386 | 942  | 1176 |
 
-Aj keď sa tým vyhneme duplicite riadkov, prináša to niekoľko ďalších výziev. Museli by sme upraviť štruktúru našej tabuľky vždy, keď pribudne nový rok. Navyše, ako naše dáta rastú, mať roky ako stĺpce by mohlo sťažiť ich vyhľadávanie a výpočty.
+Hoci sa tým vyhneme duplikácii riadkov, pridáva to niekoľko ďalších výziev. Museli by sme meniť štruktúru tabuľky vždy, keď príde nový rok. Navyše, keď naše údaje rastú, mať roky ako stĺpce sťaží získavanie a výpočty hodnôt.
 
-Preto potrebujeme viacero tabuliek a vzťahy medzi nimi. Rozdelením našich dát sa môžeme vyhnúť duplicite a získať väčšiu flexibilitu pri práci s dátami.
+Preto potrebujeme viacero tabuliek a vzťahov. Rozdelením údajov môžeme zabrániť duplicite a mať väčšiu flexibilitu v práci s údajmi.
 
 ## Koncepty vzťahov
 
-Vráťme sa k našim dátam a určme, ako ich chceme rozdeliť. Vieme, že chceme uchovávať názov a krajinu našich miest, takže to bude pravdepodobne najlepšie fungovať v jednej tabuľke.
+Vráťme sa k našim údajom a rozhodnime sa, ako ich chceme rozdeliť. Vieme, že chceme uložiť názov a krajinu pre naše mestá, takže to pravdepodobne najlepšie funguje v jednej tabuľke.
 
 | Mesto    | Krajina       |
 | -------- | ------------- |
@@ -65,11 +65,11 @@ Vráťme sa k našim dátam a určme, ako ich chceme rozdeliť. Vieme, že chcem
 | Atlanta  | Spojené štáty |
 | Auckland | Nový Zéland   |
 
-Ale predtým, než vytvoríme ďalšiu tabuľku, musíme zistiť, ako odkazovať na každé mesto. Potrebujeme nejakú formu identifikátora, ID alebo (v technických databázových termínoch) primárny kľúč. Primárny kľúč je hodnota používaná na identifikáciu jedného konkrétneho riadku v tabuľke. Aj keď by to mohlo byť založené na samotnej hodnote (napríklad by sme mohli použiť názov mesta), takmer vždy by to malo byť číslo alebo iný identifikátor. Nechceme, aby sa ID niekedy zmenilo, pretože by to narušilo vzťah. Vo väčšine prípadov je primárny kľúč alebo ID automaticky generované číslo.
+Pred vytvorením ďalšej tabuľky však musíme zistiť, ako budeme odkazovať na každé mesto. Potrebujeme nejaký identifikátor, ID alebo (v technických databázových termínoch) primárny kľúč. Primárny kľúč je hodnota používaná na identifikáciu jedného konkrétneho riadku v tabuľke. Hoci by to mohlo byť založené na hodnote samotnej (napríklad by sme mohli použiť názov mesta), malo by to byť takmer vždy číslo alebo iný identifikátor. Nechceme, aby sa ID niekedy zmenilo, pretože by to prerušilo vzťah. Vo väčšine prípadov bude primárny kľúč alebo ID automaticky generované číslo.
 
 > ✅ Primárny kľúč sa často skracuje ako PK
 
-### mestá
+### cities
 
 | city_id | Mesto    | Krajina       |
 | ------- | -------- | ------------- |
@@ -77,11 +77,11 @@ Ale predtým, než vytvoríme ďalšiu tabuľku, musíme zistiť, ako odkazovať
 | 2       | Atlanta  | Spojené štáty |
 | 3       | Auckland | Nový Zéland   |
 
-> ✅ Všimnite si, že počas tejto lekcie používame pojmy "id" a "primárny kľúč" zameniteľne. Tieto koncepty sa vzťahujú aj na DataFrames, ktoré budete skúmať neskôr. DataFrames nepoužívajú terminológiu "primárny kľúč", avšak všimnete si, že sa správajú veľmi podobne.
+> ✅ V tejto lekcii budete vidieť, že pojmy "id" a "primárny kľúč" sa používajú zameniteľne. Tieto koncepty platia aj pre DataFrames, ktoré preskúmate neskôr. DataFrames nepoužívajú terminológiu "primárny kľúč", ale všimnete si, že sa správajú veľmi podobne.
 
-Keď sme vytvorili tabuľku miest, uložme zrážky. Namiesto duplikovania úplných informácií o meste môžeme použiť ID. Mali by sme tiež zabezpečiť, aby novovytvorená tabuľka mala stĺpec *id*, pretože všetky tabuľky by mali mať ID alebo primárny kľúč.
+Po vytvorení tabuľky miest uložme zrážky. Namiesto duplikovania úplných informácií o meste môžeme použiť ID. Mali by sme tiež zabezpečiť, aby novovytvorená tabuľka mala tiež stĺpec *id*, pretože všetky tabuľky by mali mať id alebo primárny kľúč.
 
-### zrážky
+### rainfall
 
 | rainfall_id | city_id | Rok  | Množstvo |
 | ----------- | ------- | ---- | -------- |
@@ -95,16 +95,16 @@ Keď sme vytvorili tabuľku miest, uložme zrážky. Namiesto duplikovania úpln
 | 8           | 3       | 2019 | 942      |
 | 9           | 3       | 2020 | 1176     |
 
-Všimnite si stĺpec **city_id** v novo vytvorenej tabuľke **zrážky**. Tento stĺpec obsahuje hodnoty, ktoré odkazujú na ID v tabuľke **mestá**. V technických termínoch relačných dát sa to nazýva **cudzí kľúč**; je to primárny kľúč z inej tabuľky. Môžete si to jednoducho predstaviť ako odkaz alebo ukazovateľ. **city_id** 1 odkazuje na Tokio.
+Všimnite si stĺpec **city_id** v novo vytvorenej tabuľke **rainfall**. Tento stĺpec obsahuje hodnoty, ktoré odkazujú na ID v tabuľke **cities**. V technických relačných dátových termínoch sa to nazýva **cudzí kľúč**; je to primárny kľúč z inej tabuľky. Môžete si to jednoducho predstaviť ako odkaz alebo ukazovateľ. **city_id** 1 odkazuje na Tokio.
 
-> [!NOTE] 
+> [!NOTE]  
 > Cudzí kľúč sa často skracuje ako FK
 
-## Získavanie dát
+## Získavanie údajov
 
-S našimi dátami rozdelenými do dvoch tabuliek sa možno pýtate, ako ich získať. Ak používame relačnú databázu, ako je MySQL, SQL Server alebo Oracle, môžeme použiť jazyk nazývaný Structured Query Language alebo SQL. SQL (niekedy vyslovované ako "sequel") je štandardný jazyk používaný na získavanie a úpravu dát v relačnej databáze.
+Keď máme údaje rozdelené do dvoch tabuliek, možno sa pýtate, ako ich získavame. Ak používame relačnú databázu ako MySQL, SQL Server alebo Oracle, môžeme použiť jazyk nazývaný Structured Query Language alebo SQL. SQL (niekedy vyslovované ako sequel) je štandardný jazyk používaný na získavanie a úpravu údajov v relačnej databáze.
 
-Na získanie dát používate príkaz `SELECT`. V podstate **vyberáte** stĺpce, ktoré chcete vidieť **z** tabuľky, v ktorej sa nachádzajú. Ak by ste chceli zobraziť iba názvy miest, mohli by ste použiť nasledujúci príkaz:
+Na získanie údajov používate príkaz `SELECT`. V jadre vyberiete stĺpce, ktoré chcete vidieť, **z** tabuľky, v ktorej sa nachádzajú. Ak by ste chceli zobraziť len názvy miest, mohli by ste použiť nasledovné:
 
 ```sql
 SELECT city
@@ -116,12 +116,12 @@ FROM cities;
 -- Auckland
 ```
 
-`SELECT` je miesto, kde uvádzate stĺpce, a `FROM` je miesto, kde uvádzate tabuľky.
+`SELECT` je miesto, kde vymenujete stĺpce, a `FROM` je miesto, kde vymenujete tabuľky.
 
-> [!NOTE] 
-> Syntax SQL nie je citlivá na veľkosť písmen, čo znamená, že `select` a `SELECT` znamenajú to isté. Avšak v závislosti od typu databázy, ktorú používate, môžu byť stĺpce a tabuľky citlivé na veľkosť písmen. Preto je najlepšou praxou vždy zaobchádzať so všetkým v programovaní, akoby to bolo citlivé na veľkosť písmen. Pri písaní SQL dotazov je bežné používať kľúčové slová veľkými písmenami.
+> [!NOTE]  
+> Syntax SQL nerozlišuje veľkosť písmen, takže `select` a `SELECT` znamenajú to isté. Avšak v závislosti od typu databázy môžu byť stĺpce a tabuľky citlivé na veľkosť písmen. Preto je najlepšou praxou vždy považovať všetko v programovaní za citlivé na veľkosť písmen. Pri písaní SQL dotazov je bežnou konvenciou písať kľúčové slová veľkými písmenami.
 
-Vyššie uvedený dotaz zobrazí všetky mestá. Predstavme si, že chceme zobraziť iba mestá na Novom Zélande. Potrebujeme nejakú formu filtra. Kľúčové slovo SQL pre toto je `WHERE`, alebo "kde niečo platí".
+Vyššie uvedený dotaz zobrazí všetky mestá. Predstavme si, že chceme zobraziť len mestá na Novom Zélande. Potrebujeme nejaký filter. SQL kľúčové slovo pre to je `WHERE`, alebo "kde je niečo pravda".
 
 ```sql
 SELECT city
@@ -132,15 +132,15 @@ WHERE country = 'New Zealand';
 -- Auckland
 ```
 
-## Spájanie dát
+## Spájanie údajov
 
-Doteraz sme získavali dáta z jednej tabuľky. Teraz chceme spojiť dáta z oboch tabuliek **mestá** a **zrážky**. To sa robí *spojením* týchto tabuliek. V podstate vytvoríte spojenie medzi dvoma tabuľkami a priradíte hodnoty zo stĺpca z každej tabuľky.
+Doteraz sme získavali údaje z jednej tabuľky. Teraz chceme spojiť údaje z oboch tabuliek **cities** a **rainfall**. To sa robí ich *spojením*. V podstate vytvoríte spojenie medzi dvoma tabuľkami a zhodujete hodnoty zo stĺpca každej tabuľky.
 
-V našom príklade priradíme stĺpec **city_id** v **zrážkach** so stĺpcom **city_id** v **mestách**. Týmto spôsobom priradíme hodnotu zrážok k príslušnému mestu. Typ spojenia, ktoré vykonáme, sa nazýva *vnútorné* spojenie, čo znamená, že akékoľvek riadky, ktoré sa nezhodujú s ničím z druhej tabuľky, nebudú zobrazené. V našom prípade má každé mesto zrážky, takže všetko bude zobrazené.
+V našom príklade zhodíme stĺpec **city_id** v tabuľke **rainfall** so stĺpcom **city_id** v tabuľke **cities**. Týmto priradíme hodnotu zrážok k príslušnému mestu. Typ spojenia, ktorý vykonáme, sa nazýva *inner* join, čo znamená, že ak sa nejaké riadky nezhodujú s ničím z druhej tabuľky, nebudú zobrazené. V našom prípade má každé mesto zrážky, takže všetko bude zobrazené.
 
 Získajme zrážky za rok 2019 pre všetky naše mestá.
 
-Urobíme to v krokoch. Prvým krokom je spojenie dát tým, že označíme stĺpce pre spojenie - **city_id**, ako sme už spomenuli.
+Urobíme to po krokoch. Prvým krokom je spojiť údaje tým, že určíme stĺpce pre spojenie - **city_id**, ako sme už zdôraznili.
 
 ```sql
 SELECT cities.city
@@ -149,7 +149,7 @@ FROM cities
     INNER JOIN rainfall ON cities.city_id = rainfall.city_id
 ```
 
-Zvýraznili sme dva stĺpce, ktoré chceme, a fakt, že chceme spojiť tabuľky pomocou **city_id**. Teraz môžeme pridať príkaz `WHERE`, aby sme filtrovali iba rok 2019.
+Zvýraznili sme dva stĺpce, ktoré chceme, a fakt, že chceme spojiť tabuľky podľa **city_id**. Teraz môžeme pridať príkaz `WHERE` na filtrovanie len roku 2019.
 
 ```sql
 SELECT cities.city
@@ -169,29 +169,31 @@ WHERE rainfall.year = 2019
 
 ## Zhrnutie
 
-Relačné databázy sú založené na rozdelení informácií medzi viaceré tabuľky, ktoré sa potom spájajú späť na zobrazenie a analýzu. To poskytuje vysoký stupeň flexibility na vykonávanie výpočtov a iné manipulácie s dátami. Videli ste základné koncepty relačnej databázy a ako vykonať spojenie medzi dvoma tabuľkami.
+Relačné databázy sú založené na rozdelení informácií medzi viaceré tabuľky, ktoré sa potom spájajú pre zobrazenie a analýzu. To poskytuje vysokú mieru flexibility na vykonávanie výpočtov a iné manipulácie s údajmi. Videli ste základné koncepty relačnej databázy a ako vykonať spojenie medzi dvoma tabuľkami.
 
 ## 🚀 Výzva
 
-Na internete je dostupných množstvo relačných databáz. Môžete preskúmať dáta pomocou zručností, ktoré ste sa naučili vyššie.
+Na internete je k dispozícii množstvo relačných databáz. Môžete preskúmať údaje pomocou zručností, ktoré ste sa naučili vyššie.
 
-## Kvíz po prednáške
+## Post-prednáškový kvíz
 
-## [Kvíz po prednáške](https://ff-quizzes.netlify.app/en/ds/quiz/9)
+## [Post-prednáškový kvíz](https://ff-quizzes.netlify.app/en/ds/quiz/9)
 
 ## Prehľad a samostatné štúdium
 
-Na [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum) je k dispozícii niekoľko zdrojov, ktoré vám umožnia pokračovať v skúmaní konceptov SQL a relačných databáz.
+Na [Microsoft Learn](https://docs.microsoft.com/learn?WT.mc_id=academic-77958-bethanycheum) je k dispozícii niekoľko zdrojov, ktoré vám umožnia pokračovať v skúmaní SQL a konceptov relačných databáz
 
-- [Popis konceptov relačných dát](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-77958-bethanycheum)
-- [Začnite s dotazovaním pomocou Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-77958-bethanycheum) (Transact-SQL je verzia SQL)
+- [Popísať koncepty relačných údajov](https://docs.microsoft.com//learn/modules/describe-concepts-of-relational-data?WT.mc_id=academic-77958-bethanycheum)
+- [Začať dotazovanie s Transact-SQL](https://docs.microsoft.com//learn/paths/get-started-querying-with-transact-sql?WT.mc_id=academic-77958-bethanycheum) (Transact-SQL je verzia SQL)
 - [Obsah SQL na Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=azure-sql-database%2Csql-server&expanded=azure&WT.mc_id=academic-77958-bethanycheum)
 
 ## Zadanie
 
-[Zadanie](assignment.md)
+[Zobrazenie údajov letiska](assignment.md)
 
 ---
 
-**Zrieknutie sa zodpovednosti**:  
-Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Hoci sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho rodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nie sme zodpovední za žiadne nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Zrieknutie sa zodpovednosti**:
+Tento dokument bol preložený pomocou AI prekladateľskej služby [Co-op Translator](https://github.com/Azure/co-op-translator). Aj keď sa snažíme o presnosť, majte prosím na pamäti, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho rodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nie sme zodpovední za akékoľvek nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

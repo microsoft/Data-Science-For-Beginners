@@ -1,227 +1,226 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "26afff0d5c802e24a14f000c9c9f4614",
-  "translation_date": "2025-11-18T17:59:11+00:00",
+  "original_hash": "210052dafe5b5d956c427824e2c96686",
+  "translation_date": "2025-12-19T12:12:44+00:00",
   "source_file": "README.md",
   "language_code": "sr"
 }
 -->
 # Наука о подацима за почетнике - Наставни план
 
-Azure Cloud Advocates у Microsoft-у са задовољством представљају наставни план од 10 недеља и 20 лекција посвећен науци о подацима. Свака лекција укључује квизове пре и после лекције, писана упутства за завршетак лекције, решење и задатак. Наш приступ заснован на пројектима омогућава вам да учите кроз практичан рад, што је доказан начин да нове вештине остану у памћењу.
+[![Отвори у GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
 
-**Срдачна захвалност нашим ауторима:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
+[![GitHub лиценца](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
+[![GitHub сарадници](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
+[![GitHub проблеми](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
+[![GitHub захтеви за повлачење](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![ПР-ови добродошли](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-**🙏 Посебна захвалност 🙏 нашим [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) ауторима, рецензентима и сарадницима,** посебно Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+[![GitHub пратиоци](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
+[![GitHub форкови](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
+[![GitHub звезде](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
+
+
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
+
+[![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+
+Azure Cloud Advocates у Microsoft-у са задовољством нуде 10-недељни, 20-лекцијски наставни план који се бави науком о подацима. Свака лекција укључује квизове пре и после лекције, писане инструкције за завршетак лекције, решење и задатак. Наша педагогија заснована на пројектима омогућава вам да учите док градите, што је доказани начин да нове вештине „запамтите“.
+
+**Велика захвалност нашим ауторима:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
+
+**🙏 Посебна захвалност 🙏 нашим ауторима, рецензентима и сарадницима садржаја из [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/),** нарочито Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
-|![Скетч од @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.sr.png)|
+|![Скетчнот од @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.sr.png)|
 |:---:|
-| Наука о подацима за почетнике - _Скетч од [@nitya](https://twitter.com/nitya)_ |
+| Наука о подацима за почетнике - _Скетчнот од [@nitya](https://twitter.com/nitya)_ |
 
 ### 🌐 Подршка за више језика
 
 #### Подржано преко GitHub Action (Аутоматски и увек ажурирано)
 
-[Арапски](../ar/README.md) | [Бенгалски](../bn/README.md) | [Бугарски](../bg/README.md) | [Бирмански (Мјанмар)](../my/README.md) | [Кинески (поједностављени)](../zh/README.md) | [Кинески (традиционални, Хонг Конг)](../hk/README.md) | [Кинески (традиционални, Макао)](../mo/README.md) | [Кинески (традиционални, Тајван)](../tw/README.md) | [Хрватски](../hr/README.md) | [Чешки](../cs/README.md) | [Дански](../da/README.md) | [Холандски](../nl/README.md) | [Естонски](../et/README.md) | [Фински](../fi/README.md) | [Француски](../fr/README.md) | [Немачки](../de/README.md) | [Грчки](../el/README.md) | [Хебрејски](../he/README.md) | [Хинди](../hi/README.md) | [Мађарски](../hu/README.md) | [Индонежански](../id/README.md) | [Италијански](../it/README.md) | [Јапански](../ja/README.md) | [Корејски](../ko/README.md) | [Литвански](../lt/README.md) | [Малајски](../ms/README.md) | [Марати](../mr/README.md) | [Непалски](../ne/README.md) | [Нигеријски Пиџин](../pcm/README.md) | [Норвешки](../no/README.md) | [Персијски (Фарси)](../fa/README.md) | [Пољски](../pl/README.md) | [Португалски (Бразил)](../br/README.md) | [Португалски (Португал)](../pt/README.md) | [Пунџаби (Гурмуки)](../pa/README.md) | [Румунски](../ro/README.md) | [Руски](../ru/README.md) | [Српски (Ћирилица)](./README.md) | [Словачки](../sk/README.md) | [Словеначки](../sl/README.md) | [Шпански](../es/README.md) | [Свахили](../sw/README.md) | [Шведски](../sv/README.md) | [Тагалог (Филипински)](../tl/README.md) | [Тамилски](../ta/README.md) | [Тајландски](../th/README.md) | [Турски](../tr/README.md) | [Украјински](../uk/README.md) | [Урду](../ur/README.md) | [Вијетнамски](../vi/README.md)
+<!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](./README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
+<!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**Ако желите да додате додатне језике, подржани језици су наведени [овде](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**Ако желите да додате још језика за превод, подржани језици су наведени [овде](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
 #### Придружите се нашој заједници 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Имамо серију учења са AI на Discord-у, сазнајте више и придружите нам се на [Learn with AI Series](https://aka.ms/learnwithai/discord) од 18 - 30 септембра, 2025. Добићете савете и трикове за коришћење GitHub Copilot-а за науку о подацима.
+Имамо текућу серију Learn with AI на Discord-у, сазнајте више и придружите нам се на [Learn with AI Series](https://aka.ms/learnwithai/discord) од 18. до 30. септембра 2025. године. Добићете савете и трикове за коришћење GitHub Copilot-а за науку о подацима.
 
 ![Learn with AI series](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.sr.jpg)
 
 # Да ли сте студент?
 
-Започните са следећим ресурсима:
+Почните са следећим ресурсима:
 
-- [Студентска страница](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) На овој страници ћете пронаћи ресурсе за почетнике, студентске пакете и чак начине да добијете бесплатан ваучер за сертификат. Ово је страница коју желите да обележите и проверавате с времена на време, јер садржај мењамо најмање једном месечно.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Придружите се глобалној заједници студентских амбасадора, ово би могао бити ваш пут у Microsoft.
+- [Страница Student Hub](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) На овој страници ћете пронаћи ресурсе за почетнике, студентске пакете и чак начине да добијете бесплатан сертификат. Ово је страница коју желите да означите и повремено проверавате јер ми мењамо садржај најмање месечно.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Придружите се глобалној заједници студентских амбасадора, ово може бити ваш пут у Microsoft.
 
-# Почетак
+# Почетак рада
 
 ## 📚 Документација
 
-- **[Водич за инсталацију](INSTALLATION.md)** - Упутства корак по корак за почетнике
-- **[Водич за употребу](USAGE.md)** - Примери и уобичајени радни токови
-- **[Решавање проблема](TROUBLESHOOTING.md)** - Решавање уобичајених проблема
+- **[Водич за инсталацију](INSTALLATION.md)** - Корак по корак упутства за почетнике
+- **[Водич за коришћење](USAGE.md)** - Примери и уобичајени радни токови
+- **[Решавање проблема](TROUBLESHOOTING.md)** - Решења за уобичајене проблеме
 - **[Водич за допринос](CONTRIBUTING.md)** - Како допринети овом пројекту
 - **[За наставнике](for-teachers.md)** - Упутства за наставу и ресурси за учионицу
 
 ## 👨‍🎓 За студенте
-> **Потпуни почетници**: Нови сте у науци о подацима? Почните са нашим [примерима прилагођеним почетницима](examples/README.md)! Ови једноставни, добро коментарисани примери ће вам помоћи да разумете основе пре него што се упустите у комплетан наставни план.
-> **[Студенти](https://aka.ms/student-page)**: да бисте користили овај наставни план самостално, форкујте цео репозиторијум и завршите вежбе самостално, почевши од квиза пре предавања. Затим прочитајте предавање и завршите остале активности. Покушајте да креирате пројекте разумевањем лекција, а не копирањем решења; међутим, тај код је доступан у /solutions фолдерима у свакој лекцији оријентисаној на пројекте. Друга идеја би била да формирате студијску групу са пријатељима и заједно прођете кроз садржај. За даље учење, препоручујемо [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **Потпуни почетници**: Нови сте у науци о подацима? Почните са нашим [примерима прилагођеним почетницима](examples/README.md)! Ови једноставни, добро коментарисани примери помоћи ће вам да разумете основе пре него што се упустите у цео наставни план.
+> **[Студенти](https://aka.ms/student-page)**: да бисте користили овај наставни план самостално, форкујте цео репозиторијум и сами завршите вежбе, почевши од квиза пре предавања. Затим прочитајте предавање и завршите остале активности. Покушајте да креирате пројекте разумевањем лекција уместо копирања кода решења; међутим, тај код је доступан у фасциклама /solutions у свакој лекцији оријентисаној на пројекат. Друга идеја је да формирате студијску групу са пријатељима и заједно прођете кроз садржај. За даље учење препоручујемо [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 **Брзи почетак:**
-1. Проверите [Водич за инсталацију](INSTALLATION.md) да бисте подесили своје окружење
-2. Прегледајте [Водич за употребу](USAGE.md) да бисте научили како да радите са наставним планом
-3. Почните са лекцијом 1 и радите редом
+1. Погледајте [Водич за инсталацију](INSTALLATION.md) да подесите своје окружење
+2. Прегледајте [Водич за коришћење](USAGE.md) да научите како да радите са наставним планом
+3. Почните са Лекцијом 1 и радите редом
 4. Придружите се нашој [Discord заједници](https://aka.ms/ds4beginners/discord) за подршку
 
 ## 👩‍🏫 За наставнике
 
-> **Наставници**: [укључили смо неке предлоге](for-teachers.md) о томе како да користите овај наставни план. Волели бисмо ваше повратне информације [у нашем форуму за дискусију](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
+> **Наставници**: укључили смо [неке предлоге](for-teachers.md) о томе како користити овај наставни план. Волели бисмо ваше повратне информације [у нашем форуму за дискусију](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
 ## Упознајте тим
 
 [![Промо видео](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Промо видео")
 
-**Gif од** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
-
+**Гиф од** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
 > 🎥 Кликните на слику изнад за видео о пројекту и људима који су га креирали!
 
-## Педагошки приступ
-Odabrali smo dva pedagoška principa prilikom kreiranja ovog kurikuluma: osiguranje da je zasnovan na projektima i da uključuje česte kvizove. Na kraju ove serije, studenti će naučiti osnovne principe nauke o podacima, uključujući etičke koncepte, pripremu podataka, različite načine rada sa podacima, vizualizaciju podataka, analizu podataka, primere iz stvarnog sveta u nauci o podacima i još mnogo toga.
+## Педагогија
 
-Pored toga, kviz sa niskim rizikom pre časa usmerava pažnju studenta ka učenju teme, dok drugi kviz nakon časa osigurava dodatno zadržavanje znanja. Ovaj kurikulum je dizajniran da bude fleksibilan i zabavan i može se pohađati u celosti ili delimično. Projekti počinju jednostavno i postaju sve složeniji do kraja desetonedeljnog ciklusa.
+Изабрали смо два педагошка начела приликом израде овог курикулума: обезбеђивање да буде заснован на пројектима и да укључује честе квизове. До краја ове серије, студенти ће научити основне принципе науке о подацима, укључујући етичке концепте, припрему података, различите начине рада са подацима, визуализацију података, анализу података, примере из стварног света у науци о подацима и још много тога.
 
-> Pronađite naš [Kodeks ponašanja](CODE_OF_CONDUCT.md), [Uputstva za doprinos](CONTRIBUTING.md), [Uputstva za prevođenje](TRANSLATIONS.md). Dobrodošli ste da nam pružite konstruktivne povratne informacije!
+Поред тога, квиз са малим улогом пре часа поставља намеру студента ка учењу теме, док други квиз после часа осигурава даље задржавање знања. Овај курикулум је дизајниран да буде флексибилан и забаван и може се похађати у целини или делимично. Пројекти почињу мали и постају све сложенији до краја циклуса од 10 недеља.
 
-## Svaka lekcija uključuje:
+> Пронађите наш [Кодекс понашања](CODE_OF_CONDUCT.md), [Упутства за допринос](CONTRIBUTING.md), [Упутства за превод](TRANSLATIONS.md). Добродошли су ваши конструктивни коментари!
 
-- Opcionalnu skicu
-- Opcionalni dopunski video
-- Kviz za zagrevanje pre lekcije
-- Pisanu lekciju
-- Za lekcije zasnovane na projektima, vodiče korak po korak kako izgraditi projekat
-- Provere znanja
-- Izazov
-- Dopunsko čitanje
-- Zadatak
-- [Kviz nakon lekcije](https://ff-quizzes.netlify.app/en/)
+## Свака лекција укључује:
 
-> **Napomena o kvizovima**: Svi kvizovi se nalaze u folderu Quiz-App, ukupno 40 kvizova sa po tri pitanja. Povezani su unutar lekcija, ali aplikacija za kviz može se pokrenuti lokalno ili postaviti na Azure; pratite uputstva u folderu `quiz-app`. Postepeno se lokalizuju.
+- Опциону скицноту
+- Опционални додатни видео
+- Квиз за загревање пре лекције
+- Писану лекцију
+- За лекције засноване на пројектима, корак-по-корак водиче како направити пројекат
+- Провере знања
+- Изазов
+- Додатно читање
+- Задатак
+- [Квиз после лекције](https://ff-quizzes.netlify.app/en/)
 
-## 🎓 Primeri prilagođeni početnicima
+> **Напомена о квизовима**: Сви квизови се налазе у фасцикли Quiz-App, укупно 40 квизова са по три питања. Они су повезани изнутра у лекцијама, али апликација за квизове може се покренути локално или поставити на Azure; пратите упутства у фасцикли `quiz-app`. Квизови се постепено локализују.
 
-**Novi ste u nauci o podacima?** Kreirali smo poseban [direktorijum sa primerima](examples/README.md) sa jednostavnim, dobro komentarisanim kodom koji će vam pomoći da počnete:
+## 🎓 Примери прилагођени почетницима
 
-- 🌟 **Hello World** - Vaš prvi program za nauku o podacima
-- 📂 **Učitavanje podataka** - Naučite kako da čitate i istražujete skupove podataka
-- 📊 **Jednostavna analiza** - Izračunajte statistiku i pronađite obrasce
-- 📈 **Osnovna vizualizacija** - Kreirajte grafikone i dijagrame
-- 🔬 **Projekat iz stvarnog sveta** - Kompletan radni tok od početka do kraja
+**Нови сте у науци о подацима?** Креирали смо посебан [директоријум примера](examples/README.md) са једноставним, добро коментарисаним кодом који ће вам помоћи да почнете:
 
-Svaki primer uključuje detaljne komentare koji objašnjavaju svaki korak, što ga čini savršenim za apsolutne početnike!
+- 🌟 **Hello World** - Ваш први програм из науке о подацима
+- 📂 **Учитавање података** - Научите како да читате и истражујете скупове података
+- 📊 **Једноставна анализа** - Израчунајте статистике и пронађите обрасце
+- 📈 **Основна визуализација** - Креирајте графиконе и дијаграме
+- 🔬 **Пројекат из стварног света** - Комплетан радни ток од почетка до краја
 
-👉 **[Počnite sa primerima](examples/README.md)** 👈
+Сваки пример укључује детаљне коментаре који објашњавају сваки корак, што га чини савршеним за апсолутне почетнике!
 
-## Lekcije
+👉 **[Почните са примерима](examples/README.md)** 👈
+
+## Лекције
 
 
-|![ Skica od @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.sr.png)|
+|![ Скицнота од @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.sr.png)|
 |:---:|
-| Nauka o podacima za početnike: Mapa puta - _Skica od [@nitya](https://twitter.com/nitya)_ |
+| Наука о подацима за почетнике: План пута - _Скицнота од [@nitya](https://twitter.com/nitya)_ |
 
 
-| Broj lekcije | Tema | Grupisanje lekcija | Ciljevi učenja | Povezana lekcija | Autor |
+| Број лекције | Тема | Груписање лекција | Циљеви учења | Повезана лекција | Аутор |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | Definisanje nauke o podacima | [Uvod](1-Introduction/README.md) | Naučite osnovne koncepte nauke o podacima i kako je povezana sa veštačkom inteligencijom, mašinskim učenjem i velikim podacima. | [lekcija](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
-| 02 | Etika u nauci o podacima | [Uvod](1-Introduction/README.md) | Koncepti etike podataka, izazovi i okviri. | [lekcija](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
-| 03 | Definisanje podataka | [Uvod](1-Introduction/README.md) | Kako se podaci klasifikuju i njihovi uobičajeni izvori. | [lekcija](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | Uvod u statistiku i verovatnoću | [Uvod](1-Introduction/README.md) | Matematičke tehnike verovatnoće i statistike za razumevanje podataka. | [lekcija](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Rad sa relacijskim podacima | [Rad sa podacima](2-Working-With-Data/README.md) | Uvod u relacijske podatke i osnove istraživanja i analize relacijskih podataka pomoću Structured Query Language, poznatog kao SQL (izgovara se “si-kvel”). | [lekcija](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
-| 06 | Rad sa NoSQL podacima | [Rad sa podacima](2-Working-With-Data/README.md) | Uvod u nerelacijske podatke, njihove različite tipove i osnove istraživanja i analize dokumentnih baza podataka. | [lekcija](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
-| 07 | Rad sa Python-om | [Rad sa podacima](2-Working-With-Data/README.md) | Osnove korišćenja Python-a za istraživanje podataka sa bibliotekama kao što je Pandas. Preporučuje se osnovno razumevanje Python programiranja. | [lekcija](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | Priprema podataka | [Rad sa podacima](2-Working-With-Data/README.md) | Teme o tehnikama za čišćenje i transformaciju podataka kako bi se rešili izazovi nedostajućih, netačnih ili nepotpunih podataka. | [lekcija](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 09 | Vizualizacija količina | [Vizualizacija podataka](3-Data-Visualization/README.md) | Naučite kako da koristite Matplotlib za vizualizaciju podataka o pticama 🦆 | [lekcija](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 10 | Vizualizacija distribucije podataka | [Vizualizacija podataka](3-Data-Visualization/README.md) | Vizualizacija opažanja i trendova unutar intervala. | [lekcija](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 11 | Vizualizacija proporcija | [Vizualizacija podataka](3-Data-Visualization/README.md) | Vizualizacija diskretnih i grupisanih procenata. | [lekcija](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 12 | Vizualizacija odnosa | [Vizualizacija podataka](3-Data-Visualization/README.md) | Vizualizacija veza i korelacija između skupova podataka i njihovih varijabli. | [lekcija](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | Smislene vizualizacije | [Vizualizacija podataka](3-Data-Visualization/README.md) | Tehnike i smernice za pravljenje vaših vizualizacija vrednim za efikasno rešavanje problema i uvid. | [lekcija](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 14 | Uvod u životni ciklus nauke o podacima | [Životni ciklus](4-Data-Science-Lifecycle/README.md) | Uvod u životni ciklus nauke o podacima i njegov prvi korak - prikupljanje i ekstrakcija podataka. | [lekcija](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | Analiza | [Životni ciklus](4-Data-Science-Lifecycle/README.md) | Ova faza životnog ciklusa nauke o podacima fokusira se na tehnike za analizu podataka. | [lekcija](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Komunikacija | [Životni ciklus](4-Data-Science-Lifecycle/README.md) | Ova faza životnog ciklusa nauke o podacima fokusira se na predstavljanje uvida iz podataka na način koji olakšava razumevanje donosiocima odluka. | [lekcija](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
-| 17 | Nauka o podacima u oblaku | [Podaci u oblaku](5-Data-Science-In-Cloud/README.md) | Ova serija lekcija uvodi nauku o podacima u oblaku i njene prednosti. | [lekcija](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) i [Maud](https://twitter.com/maudstweets) |
-| 18 | Nauka o podacima u oblaku | [Podaci u oblaku](5-Data-Science-In-Cloud/README.md) | Treniranje modela koristeći alate sa malo koda. |[lekcija](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) i [Maud](https://twitter.com/maudstweets) |
-| 19 | Nauka o podacima u oblaku | [Podaci u oblaku](5-Data-Science-In-Cloud/README.md) | Postavljanje modela pomoću Azure Machine Learning Studio. | [lekcija](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) i [Maud](https://twitter.com/maudstweets) |
-| 20 | Nauka o podacima u divljini | [U divljini](6-Data-Science-In-Wild/README.md) | Projekti vođeni naukom o podacima u stvarnom svetu. | [lekcija](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| 01 | Дефинисање науке о подацима | [Увод](1-Introduction/README.md) | Научите основне концепте иза науке о подацима и како је повезана са вештачком интелигенцијом, машинским учењем и великим подацима. | [лекција](1-Introduction/01-defining-data-science/README.md) [видео](https://youtu.be/beZ7Mb_oz9I) | [Дмитриј](http://soshnikov.com) |
+| 02 | Етика у науци о подацима | [Увод](1-Introduction/README.md) | Концепти етике података, изазови и оквири. | [лекција](1-Introduction/02-ethics/README.md) | [Нитија](https://twitter.com/nitya) |
+| 03 | Дефинисање података | [Увод](1-Introduction/README.md) | Како се подаци класификују и њихови уобичајени извори. | [лекција](1-Introduction/03-defining-data/README.md) | [Јасмин](https://www.twitter.com/paladique) |
+| 04 | Увод у статистику и вероватноћу | [Увод](1-Introduction/README.md) | Математичке технике вероватноће и статистике за разумевање података. | [лекција](1-Introduction/04-stats-and-probability/README.md) [видео](https://youtu.be/Z5Zy85g4Yjw) | [Дмитриј](http://soshnikov.com) |
+| 05 | Рад са релационим подацима | [Рад са подацима](2-Working-With-Data/README.md) | Увод у релационе податке и основе истраживања и анализе релационих података помоћу Структурног језика за упите, познатог као SQL (изговара се „си-квел“). | [лекција](2-Working-With-Data/05-relational-databases/README.md) | [Кристофер](https://www.twitter.com/geektrainer) | | |
+| 06 | Рад са NoSQL подацима | [Рад са подацима](2-Working-With-Data/README.md) | Увод у нерелационе податке, њихове различите типове и основе истраживања и анализе докумената у базама података. | [лекција](2-Working-With-Data/06-non-relational/README.md) | [Јасмин](https://twitter.com/paladique)|
+| 07 | Рад са Питоном | [Рад са подацима](2-Working-With-Data/README.md) | Основе коришћења Питона за истраживање података уз библиотеке као што је Pandas. Препоручује се основно разумевање програмирања у Питону. | [лекција](2-Working-With-Data/07-python/README.md) [видео](https://youtu.be/dZjWOGbsN4Y) | [Дмитриј](http://soshnikov.com) |
+| 08 | Припрема података | [Рад са подацима](2-Working-With-Data/README.md) | Теме о техникама чишћења и трансформације података за решавање изазова недостајућих, нетачних или непотпуних података. | [лекција](2-Working-With-Data/08-data-preparation/README.md) | [Јасмин](https://www.twitter.com/paladique) |
+| 09 | Визуализација количина | [Визуализација података](3-Data-Visualization/README.md) | Научите како да користите Matplotlib за визуализацију података о птицама 🦆 | [лекција](3-Data-Visualization/09-visualization-quantities/README.md) | [Џен](https://twitter.com/jenlooper) |
+| 10 | Визуализација расподела података | [Визуализација података](3-Data-Visualization/README.md) | Визуализација посматрања и трендова унутар интервала. | [лекција](3-Data-Visualization/10-visualization-distributions/README.md) | [Џен](https://twitter.com/jenlooper) |
+| 11 | Визуализација пропорција | [Визуализација података](3-Data-Visualization/README.md) | Визуализација дискретних и груписаних процената. | [лекција](3-Data-Visualization/11-visualization-proportions/README.md) | [Џен](https://twitter.com/jenlooper) |
+| 12 | Визуализација односа | [Визуализација података](3-Data-Visualization/README.md) | Визуализација веза и корелација између скупова података и њихових променљивих. | [лекција](3-Data-Visualization/12-visualization-relationships/README.md) | [Џен](https://twitter.com/jenlooper) |
+| 13 | Смислене визуализације | [Визуализација података](3-Data-Visualization/README.md) | Технике и смернице за прављење вредних визуализација за ефикасно решавање проблема и увиде. | [лекција](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Џен](https://twitter.com/jenlooper) |
+| 14 | Увод у животни циклус науке о подацима | [Животни циклус](4-Data-Science-Lifecycle/README.md) | Увод у животни циклус науке о подацима и његов први корак - прикупљање и екстракцију података. | [лекција](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Јасмин](https://twitter.com/paladique) |
+| 15 | Анализа | [Животни циклус](4-Data-Science-Lifecycle/README.md) | Ова фаза животног циклуса науке о подацима фокусира се на технике анализе података. | [лекција](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Јасмин](https://twitter.com/paladique) | | |
+| 16 | Комуникација | [Животни циклус](4-Data-Science-Lifecycle/README.md) | Ова фаза животног циклуса науке о подацима фокусира се на представљање увида из података на начин који олакшава разумевање од стране доносиоца одлука. | [лекција](4-Data-Science-Lifecycle/16-communication/README.md) | [Џејлен](https://twitter.com/JalenMcG) | | |
+| 17 | Наука о подацима у облаку | [Облак података](5-Data-Science-In-Cloud/README.md) | Ова серија лекција уводи науку о подацима у облаку и њене предности. | [лекција](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Тифани](https://twitter.com/TiffanySouterre) и [Мод](https://twitter.com/maudstweets) |
+| 18 | Наука о подацима у облаку | [Облак података](5-Data-Science-In-Cloud/README.md) | Тренирање модела коришћењем Low Code алата. |[лекција](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Тифани](https://twitter.com/TiffanySouterre) и [Мод](https://twitter.com/maudstweets) |
+| 19 | Наука о подацима у облаку | [Облак података](5-Data-Science-In-Cloud/README.md) | Деплојовање модела помоћу Azure Machine Learning Studio. | [лекција](5-Data-Science-In-Cloud/19-Azure/README.md)| [Тифани](https://twitter.com/TiffanySouterre) и [Мод](https://twitter.com/maudstweets) |
+| 20 | Наука о подацима у пракси | [У пракси](6-Data-Science-In-Wild/README.md) | Пројекти вођени науком о подацима у стварном свету. | [лекција](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Нитија](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
-Pratite ove korake da otvorite ovaj uzorak u Codespace-u:
-1. Kliknite na padajući meni Code i izaberite opciju Open with Codespaces.
-2. Izaberite + New codespace na dnu panela.
-Za više informacija, pogledajte [GitHub dokumentaciju](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
+Пратите ове кораке да бисте отворили овај пример у Codespace-у:
+1. Кликните на падајући мени Code и изаберите опцију Open with Codespaces.
+2. Изаберите + New codespace на дну панела.
+За више информација, погледајте [GitHub документацију](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
-Pratite ove korake da otvorite ovaj repo u kontejneru koristeći vaš lokalni računar i VSCode koristeći ekstenziju VS Code Remote - Containers:
+Пратите ове кораке да бисте отворили овај репозиторијум у контејнеру користећи ваш локални рачунар и VSCode уз помоћ екстензије VS Code Remote - Containers:
 
-1. Ako prvi put koristite razvojni kontejner, osigurajte da vaš sistem ispunjava preduslove (npr. da imate instaliran Docker) u [dokumentaciji za početak](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. Ако први пут користите развојни контејнер, молимо вас да проверите да ли ваш систем испуњава предуслове (нпр. да имате инсталиран Docker) у [документацији за почетак рада](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
-Da biste koristili ovaj repozitorijum, možete ga otvoriti u izolovanom Docker volumenu:
+Да бисте користили овај репозиторијум, можете или отворити репозиторијум у изолованом Docker волумену:
 
-**Napomena**: U pozadini, ovo će koristiti Remote-Containers: **Clone Repository in Container Volume...** komandu za kloniranje izvornog koda u Docker volumenu umesto lokalnog sistema datoteka. [Volumeni](https://docs.docker.com/storage/volumes/) su preferirani mehanizam za čuvanje podataka kontejnera.
+**Напомена**: Испод хаубе, ово ће користити команду Remote-Containers: **Clone Repository in Container Volume...** да клонира изворни код у Docker волумен уместо у локални фајл систем. [Волумени](https://docs.docker.com/storage/volumes/) су препоручени механизам за чување података контејнера.
 
-Ili otvorite lokalno kloniranu ili preuzetu verziju repozitorijuma:
+Или отворите локално клонирану или преузету верзију репозиторијума:
 
-- Klonirajte ovaj repozitorijum na vaš lokalni sistem datoteka.
-- Pritisnite F1 i izaberite komandu **Remote-Containers: Open Folder in Container...**.
-- Izaberite kloniranu kopiju ovog foldera, sačekajte da se kontejner pokrene i isprobajte stvari.
+- Клонирајте овај репозиторијум на ваш локални фајл систем.
+- Притисните F1 и изаберите команду **Remote-Containers: Open Folder in Container...**.
+- Изаберите клонирану копију ове фасцикле, сачекајте да се контејнер покрене и испробајте.
 
-## Pristup van mreže
+## Оффлине приступ
 
-Možete pokrenuti ovu dokumentaciju van mreže koristeći [Docsify](https://docsify.js.org/#/). Forkujte ovaj repo, [instalirajte Docsify](https://docsify.js.org/#/quickstart) na vaš lokalni računar, zatim u root folderu ovog repozitorijuma, ukucajte `docsify serve`. Veb-sajt će biti poslužen na portu 3000 na vašem localhost-u: `localhost:3000`.
+Можете покренути ову документацију оффлине користећи [Docsify](https://docsify.js.org/#/). Форкујте овај репозиторијум, [инсталирајте Docsify](https://docsify.js.org/#/quickstart) на вашем локалном рачунару, затим у коренској фасцикли овог репозиторијума укуцајте `docsify serve`. Вебсајт ће бити доступан на порту 3000 на вашем локалном хосту: `localhost:3000`.
 
-> Napomena, beležnice neće biti prikazane putem Docsify-a, pa kada treba da pokrenete beležnicu, uradite to odvojeno u VS Code-u koristeći Python kernel.
+> Напомена, нотебоок-ови се неће приказивати преко Docsify-а, па када треба да покренете нотебоок, урадите то посебно у VS Code-у са покренутим Python кернелом.
 
-## Ostali kurikulumi
+## Остали курикулуми
 
-Naš tim proizvodi i druge kurikulume! Pogledajte:
+Наш тим производи и друге курикулуме! Погледајте:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
+### LangChain
+[![LangChain4j за почетнике](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js за почетнике](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+
+---
+
 ### Azure / Edge / MCP / Agents
-[![AZD za početnike](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Edge AI za početnike](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![MCP za početnike](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)  
-[![AI agenti za početnike](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+### Серия генеративне вештачке интелигенције
 
----
+### Основно учење
 
-### Serija o generativnoj veštačkoj inteligenciji  
-[![Generativna veštačka inteligencija za početnike](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)  
-[![Generativna veštačka inteligencija (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)  
-[![Generativna veštačka inteligencija (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)  
-[![Generativna veštačka inteligencija (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
+### Серия Копилот
 
----
+## Добијање помоћи
 
-### Osnovno učenje  
-[![Mašinsko učenje za početnike](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)  
-[![Nauka o podacima za početnike](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)  
-[![Veštačka inteligencija za početnike](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)  
-[![Sajber bezbednost za početnike](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)  
-[![Razvoj weba za početnike](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)  
-[![IoT za početnike](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)  
-[![XR razvoj za početnike](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+**Имате проблема?** Погледајте наш [Водич за решавање проблема](TROUBLESHOOTING.md) за решења уобичајених проблема.
 
----
-
-### Serija o Copilot-u  
-[![Copilot za AI programiranje u paru](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)  
-[![Copilot za C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)  
-[![Copilot avantura](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)  
-<!-- CO-OP TRANSLATOR OTHER COURSES END -->
-
-## Dobijanje pomoći  
-
-**Imate problema?** Pogledajte naš [Vodič za rešavanje problema](TROUBLESHOOTING.md) za rešenja uobičajenih problema.
-
-Ako zapnete ili imate pitanja o izradi AI aplikacija, pridružite se zajednici učenika i iskusnih programera u diskusijama o MCP-u. To je podržavajuća zajednica gde su pitanja dobrodošla, a znanje se slobodno deli.
+Ако запнете или имате било каквих питања о изградњи AI апликација, придружите се другим ученицима и искусним програмерима у дискусијама о MCP. То је подржавајућа заједница где су питања добродошла и знање се слободно дели.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Ako imate povratne informacije o proizvodu ili greške tokom izrade, posetite:
+Ако имате повратне информације о производу или грешке током изградње, посетите:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Одрицање од одговорности**:  
-Овај документ је преведен помоћу услуге за превођење уз помоћ вештачке интелигенције [Co-op Translator](https://github.com/Azure/co-op-translator). Иако настојимо да обезбедимо тачност, молимо вас да имате у виду да аутоматски преводи могу садржати грешке или нетачности. Оригинални документ на изворном језику треба сматрати ауторитативним извором. За критичне информације препоручује се професионални превод од стране људског преводиоца. Не преузимамо одговорност за било каква погрешна тумачења или неспоразуме који могу настати услед коришћења овог превода.
+**Одрицање од одговорности**:
+Овај документ је преведен коришћењем AI услуге за превођење [Co-op Translator](https://github.com/Azure/co-op-translator). Иако се трудимо да превод буде тачан, имајте у виду да аутоматски преводи могу садржати грешке или нетачности. Оригинални документ на његовом изворном језику треба сматрати ауторитетним извором. За критичне информације препоручује се професионални људски превод. Нисмо одговорни за било каква неспоразума или погрешна тумачења која произилазе из коришћења овог превода.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
