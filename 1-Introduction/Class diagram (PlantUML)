@@ -1,0 +1,94 @@
+@startuml
+' Classes for e-learning system
+class User {
+  +userId: UUID
+  +name: String
+  +email: String
+  +passwordHash: String
+  +role: Role
+  +register(): void
+  +authenticate(): Token
+}
+
+class Student {
+  +studentId: UUID
+  +enroll(courseId: UUID): Enrollment
+  +submitQuiz(quizId: UUID, answers): Submission
+}
+
+class Instructor {
+  +instructorId: UUID
+  +createCourse(courseData): Course
+  +gradeSubmission(submissionId): Grade
+}
+
+class Course {
+  +courseId: UUID
+  +title: String
+  +description: String
+  +materials: List<Material>
+  +modules: List<Module>
+  +publish(): void
+}
+
+class Module {
+  +moduleId: UUID
+  +title: String
+  +order: Int
+}
+
+class Material {
+  +materialId: UUID
+  +type: {VIDEO, PDF, HTML}
+  +location: URL
+}
+
+class Enrollment {
+  +enrollmentId: UUID
+  +userId: UUID
+  +courseId: UUID
+  +status: {ENROLLED, COMPLETED}
+}
+
+class Quiz {
+  +quizId: UUID
+  +title: String
+  +timeLimit: Int
+  +questions: List<Question>
+}
+
+class Question {
+  +questionId: UUID
+  +text: String
+  +options: List<Option>
+  +correctOptionId: UUID
+}
+
+class Submission {
+  +submissionId: UUID
+  +quizId: UUID
+  +userId: UUID
+  +answers: Map<QuestionId,OptionId>
+  +score: Float
+  +submittedAt: DateTime
+}
+
+class Grade {
+  +gradeId: UUID
+  +submissionId: UUID
+  +score: Float
+  +gradedBy: UUID
+  +gradedAt: DateTime
+}
+
+User <|-- Student
+User <|-- Instructor
+Course "1" *-- "0..*" Module
+Module "1" *-- "0..*" Material
+Course "1" o-- "0..*" Enrollment
+Quiz "1" *-- "0..*" Question
+Question "1" *-- "0..*" Option
+Quiz "1" o-- "0..*" Submission
+Submission "1" o-- "0..1" Grade
+
+@enduml
