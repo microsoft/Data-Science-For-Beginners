@@ -1,8 +1,8 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "210052dafe5b5d956c427824e2c96686",
-  "translation_date": "2025-12-19T11:46:51+00:00",
+  "original_hash": "278a30661fe9f10afd81dea999adc63a",
+  "translation_date": "2025-12-21T11:50:57+00:00",
   "source_file": "README.md",
   "language_code": "id"
 }
@@ -14,8 +14,8 @@ CO_OP_TRANSLATOR_METADATA:
 [![Lisensi GitHub](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
 [![Kontributor GitHub](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
 [![Isu GitHub](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
-[![Permintaan tarik GitHub](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
-[![PRs Selamat Datang](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Pull request GitHub](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![PRs Dipersilakan](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 [![Pengamat GitHub](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
 [![Fork GitHub](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
@@ -24,18 +24,18 @@ CO_OP_TRANSLATOR_METADATA:
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-[![Forum Pengembang Microsoft Foundry](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+[![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-Azure Cloud Advocates di Microsoft dengan senang hati menawarkan kurikulum 10 minggu, 20 pelajaran yang membahas tentang Data Science. Setiap pelajaran mencakup kuis sebelum dan sesudah pelajaran, instruksi tertulis untuk menyelesaikan pelajaran, solusi, dan tugas. Metode pembelajaran berbasis proyek kami memungkinkan Anda belajar sambil membangun, cara yang terbukti efektif agar keterampilan baru 'melekat'.
+Azure Cloud Advocates di Microsoft dengan senang hati menawarkan kurikulum 10-minggu, 20-pelajaran yang membahas Data Science. Setiap pelajaran mencakup kuis sebelum-pelajaran dan setelah-pelajaran, instruksi tertulis untuk menyelesaikan pelajaran, solusi, dan tugas. Pedagogi berbasis proyek kami memungkinkan Anda belajar sambil membangun, cara yang terbukti membuat keterampilan baru 'melekat'.
 
-**Terima kasih hangat kepada para penulis kami:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
+**Terima kasih sebesar-besarnya kepada penulis kami:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
-**🙏 Terima kasih khusus 🙏 kepada para penulis, pengulas, dan kontributor konten [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/),** terutama Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+**🙏 Terima kasih khusus 🙏 kepada penulis, reviewer, dan kontributor konten [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) kami,** terutama Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
 |![Sketchnote oleh @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.id.png)|
 |:---:|
-| Data Science Untuk Pemula - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_ |
+| Data Science untuk Pemula - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_ |
 
 ### 🌐 Dukungan Multi-Bahasa
 
@@ -45,21 +45,21 @@ Azure Cloud Advocates di Microsoft dengan senang hati menawarkan kurikulum 10 mi
 [Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](./README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**Jika Anda ingin bahasa terjemahan tambahan didukung, daftar lengkapnya tersedia [di sini](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**Jika Anda ingin agar bahasa terjemahan tambahan didukung, daftar tersebut tercantum [di sini](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
 #### Bergabung dengan Komunitas Kami 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Kami memiliki seri belajar Discord dengan AI yang sedang berlangsung, pelajari lebih lanjut dan bergabunglah dengan kami di [Learn with AI Series](https://aka.ms/learnwithai/discord) dari 18 - 30 September, 2025. Anda akan mendapatkan tips dan trik menggunakan GitHub Copilot untuk Data Science.
+Kami sedang menjalankan seri Discord "Belajar dengan AI", pelajari lebih lanjut dan bergabunglah bersama kami di [Learn with AI Series](https://aka.ms/learnwithai/discord) dari 18 - 30 September, 2025. Anda akan mendapatkan tips dan trik menggunakan GitHub Copilot untuk Data Science.
 
 ![Seri Belajar dengan AI](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.id.jpg)
 
 # Apakah Anda seorang pelajar?
 
-Mulailah dengan sumber daya berikut:
+Mulai dengan sumber daya berikut:
 
-- [Halaman Student Hub](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Di halaman ini, Anda akan menemukan sumber daya untuk pemula, paket pelajar, dan bahkan cara mendapatkan voucher sertifikat gratis. Ini adalah halaman yang ingin Anda tandai dan periksa dari waktu ke waktu karena kami mengganti konten setidaknya setiap bulan.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Bergabunglah dengan komunitas global duta pelajar, ini bisa menjadi jalan Anda ke Microsoft.
+- [Student Hub page](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Pada halaman ini, Anda akan menemukan sumber daya untuk pemula, paket Pelajar dan bahkan cara untuk mendapatkan voucher sertifikat gratis. Ini adalah halaman yang ingin Anda tandai dan periksa dari waktu ke waktu karena kami mengganti konten setidaknya setiap bulan.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Bergabunglah dengan komunitas global duta mahasiswa, ini bisa menjadi jalan Anda masuk ke Microsoft.
 
 # Memulai
 
@@ -69,36 +69,36 @@ Mulailah dengan sumber daya berikut:
 - **[Panduan Penggunaan](USAGE.md)** - Contoh dan alur kerja umum
 - **[Pemecahan Masalah](TROUBLESHOOTING.md)** - Solusi untuk masalah umum
 - **[Panduan Kontribusi](CONTRIBUTING.md)** - Cara berkontribusi pada proyek ini
-- **[Untuk Guru](for-teachers.md)** - Panduan mengajar dan sumber daya kelas
+- **[Untuk Pengajar](for-teachers.md)** - Panduan mengajar dan sumber daya kelas
 
-## 👨‍🎓 Untuk Pelajar
-> **Pemula Lengkap**: Baru mengenal data science? Mulailah dengan [contoh ramah pemula kami](examples/README.md)! Contoh sederhana dan berkomentar baik ini akan membantu Anda memahami dasar-dasar sebelum menyelami kurikulum penuh.
-> **[Pelajar](https://aka.ms/student-page)**: untuk menggunakan kurikulum ini sendiri, fork seluruh repo dan selesaikan latihan sendiri, mulai dengan kuis pra-ceramah. Kemudian baca ceramah dan selesaikan aktivitas lainnya. Cobalah membuat proyek dengan memahami pelajaran daripada menyalin kode solusi; namun, kode tersebut tersedia di folder /solutions di setiap pelajaran berorientasi proyek. Ide lain adalah membentuk kelompok belajar dengan teman dan mempelajari konten bersama. Untuk studi lebih lanjut, kami merekomendasikan [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+## 👨‍🎓 Untuk Mahasiswa
+> **Pemula Total**: Baru dalam data science? Mulailah dengan [contoh ramah-pemula kami](examples/README.md)! Contoh-contoh sederhana dan berkomentar baik ini akan membantu Anda memahami dasar-dasar sebelum menyelami seluruh kurikulum.
+> **[Mahasiswa](https://aka.ms/student-page)**: untuk menggunakan kurikulum ini sendiri, fork seluruh repo dan selesaikan latihan sendiri, mulai dengan kuis pra-ceramah. Kemudian baca ceramah dan selesaikan sisa kegiatan. Cobalah membuat proyek dengan memahami pelajaran daripada menyalin kode solusi; namun, kode tersebut tersedia di folder /solutions di setiap pelajaran berorientasi-proyek. Ide lain adalah membentuk kelompok belajar dengan teman dan mempelajari konten bersama. Untuk studi lebih lanjut, kami merekomendasikan [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 **Mulai Cepat:**
 1. Periksa [Panduan Instalasi](INSTALLATION.md) untuk menyiapkan lingkungan Anda
-2. Tinjau [Panduan Penggunaan](USAGE.md) untuk belajar cara bekerja dengan kurikulum
-3. Mulai dengan Pelajaran 1 dan kerjakan secara berurutan
+2. Tinjau [Panduan Penggunaan](USAGE.md) untuk mempelajari cara bekerja dengan kurikulum
+3. Mulailah dengan Pelajaran 1 dan kerjakan secara berurutan
 4. Bergabunglah dengan [komunitas Discord kami](https://aka.ms/ds4beginners/discord) untuk dukungan
 
-## 👩‍🏫 Untuk Guru
+## 👩‍🏫 Untuk Pengajar
 
-> **Guru**: kami telah [menyertakan beberapa saran](for-teachers.md) tentang cara menggunakan kurikulum ini. Kami sangat menghargai umpan balik Anda [di forum diskusi kami](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
+> **Pengajar**: kami telah [menyertakan beberapa saran](for-teachers.md) tentang cara menggunakan kurikulum ini. Kami sangat menghargai masukan Anda [di forum diskusi kami](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
 ## Kenali Tim
 
-[![Video promo](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Video promo")
+[![Video promosi](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Video promosi")
 
 **Gif oleh** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
-> 🎥 Klik gambar di atas untuk video tentang proyek dan orang-orang yang membuatnya!
+> 🎥 Klik gambar di atas untuk video tentang proyek ini dan orang-orang yang membuatnya!
 
 ## Pedagogi
 
-Kami telah memilih dua prinsip pedagogis saat membangun kurikulum ini: memastikan bahwa kurikulum ini berbasis proyek dan mencakup kuis yang sering. Pada akhir seri ini, siswa akan mempelajari prinsip dasar ilmu data, termasuk konsep etika, persiapan data, berbagai cara bekerja dengan data, visualisasi data, analisis data, kasus penggunaan nyata ilmu data, dan lainnya.
+Kami telah memilih dua prinsip pedagogis saat membangun kurikulum ini: memastikan bahwa kurikulum berbasis proyek dan menyertakan kuis yang sering. Pada akhir seri ini, siswa akan mempelajari prinsip dasar ilmu data, termasuk konsep etika, persiapan data, berbagai cara bekerja dengan data, visualisasi data, analisis data, kasus penggunaan dunia nyata dari ilmu data, dan lainnya.
 
-Selain itu, kuis dengan risiko rendah sebelum kelas menetapkan niat siswa untuk mempelajari suatu topik, sementara kuis kedua setelah kelas memastikan retensi lebih lanjut. Kurikulum ini dirancang agar fleksibel dan menyenangkan serta dapat diambil secara keseluruhan atau sebagian. Proyek-proyek dimulai dari yang kecil dan menjadi semakin kompleks pada akhir siklus 10 minggu.
+Selain itu, kuis bertaraf rendah sebelum kelas menetapkan niat siswa terhadap pembelajaran sebuah topik, sementara kuis kedua setelah kelas memastikan retensi lebih lanjut. Kurikulum ini dirancang agar fleksibel dan menyenangkan serta bisa diikuti secara keseluruhan atau sebagian. Proyek-proyek dimulai dari kecil dan menjadi semakin kompleks pada akhir siklus 10 minggu.
 
-> Temukan [Kode Etik](CODE_OF_CONDUCT.md), [Kontribusi](CONTRIBUTING.md), [Panduan Terjemahan](TRANSLATIONS.md) kami. Kami menyambut umpan balik konstruktif Anda!
+> Temukan [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md),  [Translation](TRANSLATIONS.md) panduan. Kami menyambut masukan konstruktif Anda!
 
 ## Setiap pelajaran mencakup:
 
@@ -111,86 +111,86 @@ Selain itu, kuis dengan risiko rendah sebelum kelas menetapkan niat siswa untuk 
 - Tantangan
 - Bacaan tambahan
 - Tugas
-- [Kuis pasca pelajaran](https://ff-quizzes.netlify.app/en/)
+- [Kuis pasca-pelajaran](https://ff-quizzes.netlify.app/en/)
 
-> **Catatan tentang kuis**: Semua kuis terdapat di folder Quiz-App, dengan total 40 kuis masing-masing berisi tiga pertanyaan. Kuis-kuis tersebut terhubung dari dalam pelajaran, tetapi aplikasi kuis dapat dijalankan secara lokal atau dideploy ke Azure; ikuti instruksi di folder `quiz-app`. Kuis-kuis ini sedang secara bertahap dilokalisasi.
+> **Catatan tentang kuis**: Semua kuis disimpan dalam folder Quiz-App, untuk total 40 kuis masing-masing tiga pertanyaan. Mereka ditautkan dari dalam pelajaran, tetapi aplikasi kuis dapat dijalankan secara lokal atau dideploy ke Azure; ikuti instruksi di folder `quiz-app`. Mereka sedang diterjemahkan secara bertahap.
 
 ## 🎓 Contoh Ramah Pemula
 
-**Baru di Ilmu Data?** Kami telah membuat [direktori contoh](examples/README.md) khusus dengan kode sederhana dan berkomentar baik untuk membantu Anda memulai:
+**Baru di Ilmu Data?** Kami telah membuat direktori [examples](examples/README.md) spesial dengan kode sederhana dan diberi komentar dengan baik untuk membantu Anda memulai:
 
-- 🌟 **Hello World** - Program ilmu data pertama Anda
-- 📂 **Memuat Data** - Belajar membaca dan mengeksplorasi dataset
-- 📊 **Analisis Sederhana** - Menghitung statistik dan menemukan pola
-- 📈 **Visualisasi Dasar** - Membuat grafik dan diagram
-- 🔬 **Proyek Dunia Nyata** - Alur kerja lengkap dari awal hingga selesai
+- 🌟 **Hello World** - Program ilmu data pertamamu
+- 📂 **Loading Data** - Pelajari cara membaca dan menjelajahi dataset
+- 📊 **Simple Analysis** - Hitung statistik dan temukan pola
+- 📈 **Basic Visualization** - Buat bagan dan grafik
+- 🔬 **Real-World Project** - Alur kerja lengkap dari awal hingga akhir
 
-Setiap contoh mencakup komentar rinci yang menjelaskan setiap langkah, membuatnya sempurna untuk pemula mutlak!
+Setiap contoh menyertakan komentar rinci yang menjelaskan setiap langkah, menjadikannya sempurna untuk pemula sejati!
 
-👉 **[Mulai dengan contoh](examples/README.md)** 👈
+👉 **[Mulai dengan contoh-contoh](examples/README.md)** 👈
 
 ## Pelajaran
 
 
 |![ Sketchnote oleh @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.id.png)|
 |:---:|
-| Ilmu Data Untuk Pemula: Peta Jalan - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_ |
+| Data Science For Beginners: Roadmap - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_ |
 
 
-| Nomor Pelajaran | Topik | Pengelompokan Pelajaran | Tujuan Pembelajaran | Pelajaran Terkait | Penulis |
+| Lesson Number | Topic | Lesson Grouping | Learning Objectives | Linked Lesson | Author |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | Mendefinisikan Ilmu Data | [Pendahuluan](1-Introduction/README.md) | Pelajari konsep dasar di balik ilmu data dan bagaimana kaitannya dengan kecerdasan buatan, pembelajaran mesin, dan big data. | [pelajaran](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
-| 02 | Etika Ilmu Data | [Pendahuluan](1-Introduction/README.md) | Konsep Etika Data, Tantangan & Kerangka Kerja. | [pelajaran](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
-| 03 | Mendefinisikan Data | [Pendahuluan](1-Introduction/README.md) | Bagaimana data diklasifikasikan dan sumber umumnya. | [pelajaran](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | Pengenalan Statistik & Probabilitas | [Pendahuluan](1-Introduction/README.md) | Teknik matematika probabilitas dan statistik untuk memahami data. | [pelajaran](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Bekerja dengan Data Relasional | [Bekerja Dengan Data](2-Working-With-Data/README.md) | Pengenalan data relasional dan dasar-dasar eksplorasi serta analisis data relasional dengan Structured Query Language, yang juga dikenal sebagai SQL (diucapkan “see-quell”). | [pelajaran](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
-| 06 | Bekerja dengan Data NoSQL | [Bekerja Dengan Data](2-Working-With-Data/README.md) | Pengenalan data non-relasional, berbagai jenisnya dan dasar eksplorasi serta analisis basis data dokumen. | [pelajaran](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
-| 07 | Bekerja dengan Python | [Bekerja Dengan Data](2-Working-With-Data/README.md) | Dasar penggunaan Python untuk eksplorasi data dengan pustaka seperti Pandas. Pemahaman dasar pemrograman Python disarankan. | [pelajaran](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | Persiapan Data | [Bekerja Dengan Data](2-Working-With-Data/README.md) | Topik teknik data untuk membersihkan dan mengubah data guna menangani tantangan data yang hilang, tidak akurat, atau tidak lengkap. | [pelajaran](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 09 | Visualisasi Kuantitas | [Visualisasi Data](3-Data-Visualization/README.md) | Pelajari cara menggunakan Matplotlib untuk memvisualisasikan data burung 🦆 | [pelajaran](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 10 | Visualisasi Distribusi Data | [Visualisasi Data](3-Data-Visualization/README.md) | Memvisualisasikan pengamatan dan tren dalam suatu interval. | [pelajaran](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 11 | Visualisasi Proporsi | [Visualisasi Data](3-Data-Visualization/README.md) | Memvisualisasikan persentase diskrit dan berkelompok. | [pelajaran](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 12 | Visualisasi Hubungan | [Visualisasi Data](3-Data-Visualization/README.md) | Memvisualisasikan koneksi dan korelasi antara set data dan variabelnya. | [pelajaran](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | Visualisasi Bermakna | [Visualisasi Data](3-Data-Visualization/README.md) | Teknik dan panduan untuk membuat visualisasi Anda bernilai untuk pemecahan masalah dan wawasan yang efektif. | [pelajaran](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 14 | Pengenalan siklus hidup Ilmu Data | [Siklus Hidup](4-Data-Science-Lifecycle/README.md) | Pengenalan siklus hidup ilmu data dan langkah pertama yaitu memperoleh dan mengekstrak data. | [pelajaran](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | Menganalisis | [Siklus Hidup](4-Data-Science-Lifecycle/README.md) | Fase siklus hidup ilmu data ini berfokus pada teknik untuk menganalisis data. | [pelajaran](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Komunikasi | [Siklus Hidup](4-Data-Science-Lifecycle/README.md) | Fase siklus hidup ilmu data ini berfokus pada penyajian wawasan dari data dengan cara yang memudahkan pengambil keputusan untuk memahami. | [pelajaran](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
-| 17 | Ilmu Data di Cloud | [Data Cloud](5-Data-Science-In-Cloud/README.md) | Seri pelajaran ini memperkenalkan ilmu data di cloud dan manfaatnya. | [pelajaran](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) dan [Maud](https://twitter.com/maudstweets) |
-| 18 | Ilmu Data di Cloud | [Data Cloud](5-Data-Science-In-Cloud/README.md) | Melatih model menggunakan alat Low Code. |[pelajaran](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) dan [Maud](https://twitter.com/maudstweets) |
-| 19 | Ilmu Data di Cloud | [Data Cloud](5-Data-Science-In-Cloud/README.md) | Mendeploy model dengan Azure Machine Learning Studio. | [pelajaran](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) dan [Maud](https://twitter.com/maudstweets) |
-| 20 | Ilmu Data di Dunia Nyata | [Di Dunia Nyata](6-Data-Science-In-Wild/README.md) | Proyek ilmu data yang dijalankan di dunia nyata. | [pelajaran](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| 01 | Mendefinisikan Data Science | [Introduction](1-Introduction/README.md) | Pelajari konsep dasar di balik data science dan bagaimana hubungannya dengan artificial intelligence, machine learning, dan big data. | [lesson](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 02 | Data Science Ethics | [Introduction](1-Introduction/README.md) | Konsep, Tantangan & Kerangka Etika Data. | [lesson](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
+| 03 | Mendefinisikan Data | [Introduction](1-Introduction/README.md) | Bagaimana data diklasifikasikan dan sumber-sumber umumnya. | [lesson](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 04 | Pengenalan Statistik & Probabilitas | [Introduction](1-Introduction/README.md) | Teknik matematika probabilitas dan statistik untuk memahami data. | [lesson](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 05 | Bekerja dengan Data Relasional | [Working With Data](2-Working-With-Data/README.md) | Pengenalan data relasional dan dasar-dasar menjelajahi serta menganalisis data relasional dengan Structured Query Language, juga dikenal sebagai SQL (diucapkan “see-quell”). | [lesson](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 06 | Bekerja dengan Data NoSQL | [Working With Data](2-Working-With-Data/README.md) | Pengenalan data non-relasional, berbagai jenisnya dan dasar-dasar menjelajahi serta menganalisis database dokumen. | [lesson](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
+| 07 | Bekerja dengan Python | [Working With Data](2-Working-With-Data/README.md) | Dasar-dasar penggunaan Python untuk eksplorasi data dengan pustaka seperti Pandas. Disarankan memiliki pemahaman dasar pemrograman Python. | [lesson](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
+| 08 | Persiapan Data | [Working With Data](2-Working-With-Data/README.md) | Topik tentang teknik data untuk membersihkan dan mentransformasi data guna menangani tantangan data yang hilang, tidak akurat, atau tidak lengkap. | [lesson](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 09 | Visualisasi Kuantitas | [Data Visualization](3-Data-Visualization/README.md) | Pelajari cara menggunakan Matplotlib untuk memvisualisasikan data burung 🦆 | [lesson](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 10 | Visualisasi Distribusi Data | [Data Visualization](3-Data-Visualization/README.md) | Memvisualisasikan pengamatan dan tren dalam sebuah interval. | [lesson](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 11 | Visualisasi Proporsi | [Data Visualization](3-Data-Visualization/README.md) | Memvisualisasikan persentase diskret dan yang dikelompokkan. | [lesson](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 12 | Visualisasi Hubungan | [Data Visualization](3-Data-Visualization/README.md) | Memvisualisasikan koneksi dan korelasi antara set data dan variabelnya. | [lesson](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 13 | Visualisasi yang Bermakna | [Data Visualization](3-Data-Visualization/README.md) | Teknik dan panduan untuk membuat visualisasi Anda bernilai untuk pemecahan masalah dan wawasan yang efektif. | [lesson](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 14 | Pengenalan siklus hidup Data Science | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Pengenalan siklus hidup data science dan langkah pertamanya yaitu memperoleh dan mengekstrak data. | [lesson](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
+| 15 | Menganalisis | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Fase siklus hidup data science ini berfokus pada teknik untuk menganalisis data. | [lesson](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | Komunikasi | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Fase siklus hidup data science ini berfokus pada menyajikan wawasan dari data dengan cara yang memudahkan pengambil keputusan memahami. | [lesson](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 17 | Data Science di Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Seri pelajaran ini memperkenalkan data science di cloud dan manfaatnya. | [lesson](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
+| 18 | Data Science di Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Melatih model menggunakan alat Low Code. |[lesson](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
+| 19 | Data Science di Cloud | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Mendeploy model dengan Azure Machine Learning Studio. | [lesson](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
+| 20 | Data Science di Dunia Nyata | [In the Wild](6-Data-Science-In-Wild/README.md) | Proyek yang digerakkan oleh data science di dunia nyata. | [lesson](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
 Ikuti langkah-langkah ini untuk membuka contoh ini di Codespace:
-1. Klik menu drop-down Code dan pilih opsi Open with Codespaces.
+1. Klik menu tarik-turun Code dan pilih opsi Open with Codespaces.
 2. Pilih + New codespace di bagian bawah panel.
-Untuk info lebih lanjut, lihat [dokumentasi GitHub](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
+Untuk info lebih lanjut, lihat [GitHub documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
-Ikuti langkah-langkah ini untuk membuka repo ini dalam container menggunakan mesin lokal Anda dan VSCode dengan ekstensi VS Code Remote - Containers:
+Ikuti langkah-langkah ini untuk membuka repo ini di sebuah container menggunakan mesin lokal Anda dan VSCode dengan ekstensi VS Code Remote - Containers:
 
-1. Jika ini adalah pertama kalinya Anda menggunakan container pengembangan, pastikan sistem Anda memenuhi prasyarat (misalnya sudah menginstal Docker) dalam [dokumentasi memulai](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. Jika ini pertama kali Anda menggunakan development container, pastikan sistem Anda memenuhi prasyarat (mis. telah menginstal Docker) dalam [the getting started documentation](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
-Untuk menggunakan repositori ini, Anda dapat membuka repositori dalam volume Docker terisolasi:
+Untuk menggunakan repository ini, Anda bisa membuka repository dalam volume Docker terisolasi:
 
-**Catatan**: Di balik layar, ini akan menggunakan perintah Remote-Containers: **Clone Repository in Container Volume...** untuk mengkloning kode sumber ke dalam volume Docker alih-alih sistem file lokal. [Volume](https://docs.docker.com/storage/volumes/) adalah mekanisme yang disarankan untuk menyimpan data container.
+**Catatan**: Di balik layar, ini akan menggunakan perintah Remote-Containers: **Clone Repository in Container Volume...** untuk meng-clone kode sumber ke dalam volume Docker alih-alih filesystem lokal. [Volumes](https://docs.docker.com/storage/volumes/) adalah mekanisme yang direkomendasikan untuk mempertahankan data container.
 
-Atau buka versi repositori yang sudah dikloning atau diunduh secara lokal:
+Atau buka versi repository yang telah di-clone atau diunduh secara lokal:
 
-- Kloning repositori ini ke sistem file lokal Anda.
+- Clone repository ini ke filesystem lokal Anda.
 - Tekan F1 dan pilih perintah **Remote-Containers: Open Folder in Container...**.
-- Pilih salinan folder yang sudah dikloning, tunggu container mulai, dan coba jalankan.
+- Pilih salinan folder yang di-clone ini, tunggu hingga container mulai, dan coba eksplorasi.
 
 ## Akses Offline
 
-Anda dapat menjalankan dokumentasi ini secara offline dengan menggunakan [Docsify](https://docsify.js.org/#/). Fork repo ini, [pasang Docsify](https://docsify.js.org/#/quickstart) di mesin lokal Anda, lalu di folder root repo ini, ketik `docsify serve`. Situs web akan disajikan di port 3000 pada localhost Anda: `localhost:3000`.
+Anda dapat menjalankan dokumentasi ini secara offline dengan menggunakan [Docsify](https://docsify.js.org/#/). Fork repo ini, [install Docsify](https://docsify.js.org/#/quickstart) di mesin lokal Anda, kemudian di folder root repo ini, ketik `docsify serve`. Situs web akan disajikan pada port 3000 di localhost Anda: `localhost:3000`.
 
-> Catatan, notebook tidak akan dirender melalui Docsify, jadi saat Anda perlu menjalankan notebook, lakukan secara terpisah di VS Code yang menjalankan kernel Python.
+> Catatan, notebook tidak akan dirender melalui Docsify, jadi ketika Anda perlu menjalankan sebuah notebook, lakukan itu secara terpisah di VS Code yang menjalankan kernel Python.
 
 ## Kurikulum Lainnya
 
-Tim kami juga menghasilkan kurikulum lain! Lihat:
+Tim kami memproduksi kurikulum lain! Lihat:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
@@ -200,53 +200,53 @@ Tim kami juga menghasilkan kurikulum lain! Lihat:
 ---
 
 ### Azure / Edge / MCP / Agents
-[![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Edge AI for Beginners](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![MCP for Beginners](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI Agents for Beginners](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AZD untuk Pemula](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Edge AI untuk Pemula](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![MCP untuk Pemula](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Agen AI untuk Pemula](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
 ### Seri AI Generatif
-[![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
+[![AI Generatif untuk Pemula](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI Generatif (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
+[![AI Generatif (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
+[![AI Generatif (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
 
 ---
  
 ### Pembelajaran Inti
-[![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
-[![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
-[![Cybersecurity for Beginners](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![Web Dev for Beginners](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
-[![IoT for Beginners](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![XR Development for Beginners](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![ML untuk Pemula](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+[![Data Science untuk Pemula](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI untuk Pemula](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![Keamanan Siber untuk Pemula](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![Pengembangan Web untuk Pemula](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![IoT untuk Pemula](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![Pengembangan XR untuk Pemula](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
 ### Seri Copilot
-[![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
-[![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+[![Copilot untuk Pemrograman Berpasangan AI](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot untuk C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![Petualangan Copilot](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
 ## Mendapatkan Bantuan
 
-**Mengalami masalah?** Periksa [Panduan Pemecahan Masalah](TROUBLESHOOTING.md) kami untuk solusi masalah umum.
+**Mengalami masalah?** Periksa [Panduan Pemecahan Masalah](TROUBLESHOOTING.md) untuk solusi atas masalah umum.
 
-Jika Anda mengalami kebuntuan atau memiliki pertanyaan tentang membangun aplikasi AI. Bergabunglah dengan sesama pelajar dan pengembang berpengalaman dalam diskusi tentang MCP. Ini adalah komunitas yang mendukung di mana pertanyaan disambut dan pengetahuan dibagikan secara bebas.
+Jika Anda mengalami kebuntuan atau memiliki pertanyaan tentang membangun aplikasi AI, bergabunglah dengan sesama pelajar dan pengembang berpengalaman dalam diskusi tentang MCP. Ini adalah komunitas yang mendukung di mana pertanyaan diterima dan pengetahuan dibagikan secara bebas.
 
-[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
+[![Discord Microsoft Foundry](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
 Jika Anda memiliki umpan balik produk atau menemukan kesalahan saat membangun, kunjungi:
 
-[![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+[![Forum Pengembang Microsoft Foundry](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan layanan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Meskipun kami berupaya untuk memberikan terjemahan yang akurat, harap diingat bahwa terjemahan otomatis mungkin mengandung kesalahan atau ketidakakuratan. Dokumen asli dalam bahasa aslinya harus dianggap sebagai sumber yang sahih. Untuk informasi penting, disarankan menggunakan terjemahan profesional oleh manusia. Kami tidak bertanggung jawab atas kesalahpahaman atau penafsiran yang keliru yang timbul dari penggunaan terjemahan ini.
+**Penafian**:
+Dokumen ini telah diterjemahkan menggunakan layanan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Meskipun kami berupaya mencapai akurasi, harap diperhatikan bahwa terjemahan otomatis mungkin mengandung kesalahan atau ketidakakuratan. Dokumen asli dalam bahasa aslinya harus dianggap sebagai sumber otoritatif. Untuk informasi penting, disarankan menggunakan terjemahan profesional oleh penerjemah manusia. Kami tidak bertanggung jawab atas segala kesalahpahaman atau penafsiran yang keliru yang timbul dari penggunaan terjemahan ini.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
