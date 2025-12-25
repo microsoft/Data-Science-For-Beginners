@@ -1,56 +1,51 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "278a30661fe9f10afd81dea999adc63a",
-  "translation_date": "2025-12-21T11:36:54+00:00",
+  "original_hash": "7c31d1a22c746b1d0f0582d4f54702ba",
+  "translation_date": "2025-12-24T23:49:22+00:00",
   "source_file": "README.md",
   "language_code": "fi"
 }
 -->
-# Data-analytiikka aloittelijoille - Opetussuunnitelma
+# Data Science for Beginners - A Curriculum
 
-[![Avaa GitHub Codespacesissa](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
+[![Avaa GitHub Codespacesissä](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
 
 [![GitHub-lisenssi](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
-[![GitHubin tekijät](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
+[![GitHub-kontribuoijat](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
 [![GitHub-ongelmat](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
-[![GitHub pull-pyynnöt](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![GitHub pull requestit](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
 [![PR:t tervetulleita](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-[![GitHub-seuraajat](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
-[![GitHub-forkit](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
-[![GitHub-tähdet](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
-
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-[![Microsoft Foundryin kehittäjäfoorumi](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+[![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-Microsoftin Azure Cloud Advocates -tiimi iloitsee tarjotessaan 10-viikkoisen, 20-oppitunnin opetussuunnitelman, joka käsittelee data-analytiikkaa. Jokainen oppitunti sisältää ennakkokokeen ja jälkikokeen, kirjalliset ohjeet oppitunnin suorittamiseen, ratkaisun ja tehtävän. Projektipohjainen pedagogiikkamme antaa sinun oppia rakentamalla — todistettu tapa, jolla uudet taidot "juurtuvat".
+Microsoftin Azure Cloud Advocates -tiimi tarjoaa mielellään 10 viikon, 20 oppitunnin opetussuunnitelman, joka käsittelee datatiedettä. Jokainen oppitunti sisältää ennakko- ja jälkitehtävät, kirjalliset ohjeet oppitunnin suorittamiseen, ratkaisun ja tehtävän. Projektipohjainen pedagogiikkamme antaa sinun oppia rakentamalla — todistettu tapa, jonka avulla uudet taidot "juurtuvat".
 
-**Sydämellinen kiitos kirjoittajillemme:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
+**Sydämellinen kiitos tekijöillemme:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
-**🙏 Erityiskiitokset 🙏 [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) -kirjoittajille, tarkastajille ja sisällön tekijöille,** erityisesti Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+**🙏 Erityiskiitos 🙏 Microsoft Student Ambassador -kirjoittajille, tarkistajille ja sisällönavustajille,** erityisesti Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
-|![Sketchnote: @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.fi.png)|
+|![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.fi.png)|
 |:---:|
-| Data-analytiikka aloittelijoille - _Sketchnote, tekijä [@nitya](https://twitter.com/nitya)_ |
+| Data Science For Beginners - _Sketchnote tekijältä [@nitya](https://twitter.com/nitya)_ |
 
 ### 🌐 Monikielinen tuki
 
 #### Tuettu GitHub Actionin kautta (automaattinen ja aina ajan tasalla)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabia](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgaria](../bg/README.md) | [Burmalainen (Myanmar)](../my/README.md) | [Kiina (yksinkertaistettu)](../zh/README.md) | [Kiina (perinteinen, Hongkong)](../hk/README.md) | [Kiina (perinteinen, Makao)](../mo/README.md) | [Kiina (perinteinen, Taiwan)](../tw/README.md) | [Kroatia](../hr/README.md) | [Tšekki](../cs/README.md) | [Tanska](../da/README.md) | [Hollanti](../nl/README.md) | [Viro](../et/README.md) | [Suomi](./README.md) | [Ranska](../fr/README.md) | [Saksa](../de/README.md) | [Kreikka](../el/README.md) | [Heprea](../he/README.md) | [Hindi](../hi/README.md) | [Unkari](../hu/README.md) | [Indonesia](../id/README.md) | [Italia](../it/README.md) | [Japani](../ja/README.md) | [Kannada](../kn/README.md) | [Korea](../ko/README.md) | [Liettua](../lt/README.md) | [Malaiji](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerialainen pidgin](../pcm/README.md) | [Norja](../no/README.md) | [Persia (farsi)](../fa/README.md) | [Puola](../pl/README.md) | [Portugali (Brasilia)](../br/README.md) | [Portugali (Portugali)](../pt/README.md) | [Pandžabi (Gurmukhi)](../pa/README.md) | [Romania](../ro/README.md) | [Venäjä](../ru/README.md) | [Serbia (kyrillinen)](../sr/README.md) | [Slovakki](../sk/README.md) | [Sloveeni](../sl/README.md) | [Espanja](../es/README.md) | [Swahili](../sw/README.md) | [Ruotsi](../sv/README.md) | [Tagalog (filipino)](../tl/README.md) | [Tamili](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkki](../tr/README.md) | [Ukraina](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnami](../vi/README.md)
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh/README.md) | [Chinese (Traditional, Hong Kong)](../hk/README.md) | [Chinese (Traditional, Macau)](../mo/README.md) | [Chinese (Traditional, Taiwan)](../tw/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](./README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../br/README.md) | [Portuguese (Portugal)](../pt/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**Jos haluat lisätä tukemia käännöskieliä, tuetut kielet on lueteltu [tässä](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**Jos haluat lisätä tuettuja käännöskieliä, käytössä olevat kielet löytyvät [täältä](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
 #### Liity yhteisöömme 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Meillä on käynnissä Discord-sarja Learn with AI, lue lisää ja liity [Learn with AI Series](https://aka.ms/learnwithai/discord) -tapahtumaan 18.–30. syyskuuta 2025. Saat vinkkejä ja niksejä GitHub Copilotin käyttämiseen data-analytiikassa.
+Meillä on käynnissä Discordissa Learn with AI -sarja; lisätietoja ja liity mukaan osoitteessa [Learn with AI -sarja](https://aka.ms/learnwithai/discord) ajanjaksolla 18.–30. syyskuuta 2025. Saat vinkkejä ja niksejä GitHub Copilotin käyttämiseen datatieteessä.
 
 ![Learn with AI -sarja](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.fi.jpg)
 
@@ -58,144 +53,144 @@ Meillä on käynnissä Discord-sarja Learn with AI, lue lisää ja liity [Learn 
 
 Aloita seuraavista resursseista:
 
-- [Student Hub -sivu](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Tältä sivulta löydät aloittelijoille suunnattuja resursseja, opiskelijapakkauksia ja jopa tapoja saada ilmainen sertifikaattikuponki. Tämä on sivu, jonka haluat lisätä kirjanmerkkeihin ja tarkistaa aika ajoin, sillä päivitämme sisältöä vähintään kuukausittain.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Liity maailmanlaajuiseen Student Ambassadors -yhteisöön; tämä voi olla sinun tiesi Microsoftiin.
+- [Student Hub -sivu](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Tältä sivulta löydät aloittelijoille suunnattuja resursseja, opiskelijapaketit ja jopa tapoja saada ilmainen sertifikaattivoucher. Tämä on yksi sivu, jonka haluat lisätä kirjanmerkkeihin ja tarkistaa säännöllisesti, sillä päivitämme sisältöä vähintään kuukausittain.
+- [Microsoft Learn Student Ambassadors -ohjelma](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Liity globaalin opiskelija-ambassadoreiden yhteisöön — tämä voi olla porttisi Microsoftiin.
 
 # Aloittaminen
 
 ## 📚 Dokumentaatio
 
-- **[Asennusopas](INSTALLATION.md)** - Vaiheittaiset asennusohjeet aloittelijoille
-- **[Käyttöopas](USAGE.md)** - Esimerkkejä ja yleisiä työnkulkuja
+- **[Asennusopas](INSTALLATION.md)** - Askel askeleelta -ohjeet ympäristön pystyttämiseen aloittelijoille
+- **[Käyttöohje](USAGE.md)** - Esimerkkejä ja yleisiä työnkulkumalleja
 - **[Vianmääritys](TROUBLESHOOTING.md)** - Ratkaisuja yleisiin ongelmiin
-- **[Osallistumisopas](CONTRIBUTING.md)** - Ohjeet projektin kehittämiseen
-- **[Opettajille](for-teachers.md)** - Opetusohjeet ja luokkahuoneresurssit
+- **[Osallistumisohjeet](CONTRIBUTING.md)** - Kuinka osallistua tähän projektiin
+- **[Opettajille](for-teachers.md)** - Opetukseen liittyviä ohjeita ja luokkahuoneen resursseja
 
 ## 👨‍🎓 Opiskelijoille
-> **Täysin aloittelijat**: Uusi data-analytiikassa? Aloita [aloittelijaystävällisistä esimerkeistämme](examples/README.md)! Nämä yksinkertaiset, hyvin kommentoidut esimerkit auttavat sinua ymmärtämään perusteet ennen kuin sukellat koko opetussuunnitelmaan.
-> **[Opiskelijat](https://aka.ms/student-page)**: käyttääksesi tätä opetussuunnitelmaa itsenäisesti, tee fork koko repositoriosta ja tee harjoitukset itse aloittaen ennakkokokeella. Lue sitten luento ja suorita loput aktiviteeteista. Yritä luoda projektit ymmärtämällä oppitunnit sen sijaan, että kopioisit ratkaisukoodia; kyseinen koodi on kuitenkin saatavilla kunkin projektilähtöisen oppitunnin /solutions-kansioissa. Toinen idea on muodostaa opiskeluryhmä ystävien kanssa ja käydä sisältö yhdessä läpi. Jatko-opiskelua varten suosittelemme [Microsoft Learnia](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **Täydelliset aloittelijat**: Uusi datatieteessä? Aloita [aloittelijoille sopivista esimerkeistämme](examples/README.md)! Nämä yksinkertaiset, hyvin kommentoidut esimerkit auttavat sinua ymmärtämään perusteet ennen kuin sukellat koko opetussuunnitelmaan.
+> **[Opiskelijat](https://aka.ms/student-page)**: käyttääksesi tätä opetussuunnitelmaa itsenäisesti, tee fork koko repositoriosta ja suorita harjoitukset itse, aloittaen ennakkokyselyllä. Lue sitten luentomateriaali ja suorita loput aktiviteeteista. Yritä luoda projektit ymmärtämällä oppitunnit sen sijaan, että kopioit ratkaisukoodin; ratkaisukoodit löytyvät kuitenkin /solutions-kansioista jokaisessa projektilähtöisessä oppitunnissa. Toinen idea on muodostaa opiskeluryhmä ystävien kanssa ja käydä sisältö yhdessä läpi. Lisäopiskelua varten suosittelemme [Microsoft Learnia](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 **Pika-aloitus:**
 1. Tarkista [Asennusopas](INSTALLATION.md) asettaaksesi ympäristösi
-2. Tutustu [Käyttöoppaaseen](USAGE.md) oppiaksesi miten työskennellä opetussuunnitelman kanssa
-3. Aloita Oppitunnista 1 ja etene peräkkäin
+2. Lue läpi [Käyttöohje](USAGE.md) oppiaksesi työskentelemään opetussuunnitelman kanssa
+3. Aloita Oppitunnista 1 ja etene järjestyksessä
 4. Liity [Discord-yhteisöömme](https://aka.ms/ds4beginners/discord) saadaksesi tukea
 
 ## 👩‍🏫 Opettajille
 
-> **Opettajat**: olemme [sisällyttäneet joitakin ehdotuksia](for-teachers.md) siitä, miten käyttää tätä opetussuunnitelmaa. Haluaisimme kuulla palautteesi [keskustelufoorumillamme](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
+> **Opettajat**: olemme [lisänneet joitain ehdotuksia](for-teachers.md) siitä, miten tätä opetussuunnitelmaa voi käyttää. Haluaisimme kuulla palautteesi [keskustelufoorumissamme](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
 ## Tutustu tiimiin
 
-[![Esittelyvideo](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Esittelyvideo")
+[![Promo-video](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Promo-video")
 
-**Gif tekijä** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
-> 🎥 Klikkaa yllä olevaa kuvaa nähdäksesi videon projektista ja ihmisistä, jotka sen loivat!
+**Gif tekijältä** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
+> 🎥 Klikkaa yllä olevaa kuvaa katsoaksesi videon projektista ja ihmisistä, jotka loivat sen!
 
 ## Pedagogiikka
 
-Olemme valinneet kaksi opetuksellista periaatetta rakentaessamme tätä opetussuunnitelmaa: sen tulee olla projektipohjainen ja sen tulee sisältää usein toistuvia tietokilpailuja. Tämän sarjan loppuun mennessä opiskelijat ovat oppineet datatieteen perusperiaatteet, mukaan lukien eettiset käsitteet, datan valmistelun, erilaiset tavat työskennellä datan kanssa, datan visualisoinnin, data-analyysin, datatieteen käytännön käyttötapaukset ja muuta.
+Olemme valinneet kaksi pedagogista periaatetta tämän opetussuunnitelman rakentamisessa: varmistaa, että se perustuu projekteihin, ja että siihen sisältyy usein quiz-testejä. Tämän sarjan lopussa opiskelijat ovat oppineet data-analytiikan perusperiaatteet, mukaan lukien eettiset käsitteet, datan valmistelun, erilaiset tavat työskennellä datan kanssa, datan visualisoinnin, data-analyysin, data-analytiikan todelliset käyttötapaukset ja muuta.
 
-Lisäksi vähän panoksia vaativa ennakkotesti ennen tuntia suuntaa opiskelijan aikomusta oppia aihetta, ja toinen testi tunnin jälkeen varmistaa paremman muistamisen. Tämä opetussuunnitelma on suunniteltu joustavaksi ja hauskaksi, ja sen voi suorittaa kokonaan tai osittain. Projektit alkavat pienestä ja monimutkaistuvat vähitellen 10 viikon jakson loppuun mennessä.
+Lisäksi matalan panoksen quiz ennen tuntia suuntaa opiskelijan aikomusta oppia aihetta, kun taas toinen quiz tunnin jälkeen varmistaa paremman mieleenpainumisen. Tämä opetussuunnitelma on suunniteltu joustavaksi ja hauskoiksi ja sen voi suorittaa kokonaan tai osittain. Projektit alkavat pienestä ja kasvavat yhä monimutkaisemmiksi 10 viikon syklin loppuun mennessä.
 
-> Löydät [käyttäytymisohjeemme](CODE_OF_CONDUCT.md), [ohjeet osallistumiseen](CONTRIBUTING.md), [käännösohjeet](TRANSLATIONS.md). Otamme mielellämme vastaan rakentavaa palautettasi!
+> Löydät meidän [Käyttäytymissäännöt](CODE_OF_CONDUCT.md), [Osallistuminen](CONTRIBUTING.md), [Käännökset](TRANSLATIONS.md) ohjeet. Otamme mielellämme vastaan rakentavaa palautettasi!
 
 ## Jokainen oppitunti sisältää:
 
 - Valinnainen sketchnote
-- Valinnainen lisävideo
-- Lämmittelykysely ennen oppituntia
+- Valinnainen lisävideon
+- Ennen oppituntia oleva lämmittelyquiz
 - Kirjallinen oppitunti
-- Projektipohjaisissa oppitunneissa vaiheittaiset ohjeet projektin rakentamiseen
+- Projektiperusteisissa oppitunneissa vaiheittaiset ohjeet projektin rakentamiseen
 - Tiedon tarkistuksia
-- Haaste
-- Lisälukemisto
-- Tehtävä
-- [Oppitunnin jälkeinen tietokilpailu](https://ff-quizzes.netlify.app/en/)
+- Haasteen
+- Lisälukemista
+- Tehtävän
+- [Oppitunnon jälkeinen quiz](https://ff-quizzes.netlify.app/en/)
 
-> **Huomio tietokilpailuista**: Kaikki tietokilpailut ovat Quiz-App-kansiossa, yhteensä 40 tietokilpailua, joissa jokaisessa on kolme kysymystä. Ne linkitetään oppitunneista, mutta tietokilpailusovellusta voi ajaa paikallisesti tai ottaa käyttöön Azureen; noudata ohjeita `quiz-app`-kansiossa. Niitä lokalisoidaan vähitellen.
+> **Huomautus quizeistä**: Kaikki quizit sijaitsevat Quiz-App-kansiossa, yhteensä 40 quizia, joissa jokaisessa on kolme kysymystä. Ne on linkitetty oppitunneista, mutta quiz-sovellusta voi ajaa paikallisesti tai ottaa käyttöön Azureen; seuraa ohjeita `quiz-app`-kansiossa. Niitä lokalisoidaan vähitellen.
 
 ## 🎓 Aloittelijaystävälliset esimerkit
 
-**Uusi datatieteessä?** Olemme luoneet erityisen [esimerkkihakemiston](examples/README.md), jossa on yksinkertaista ja hyvin kommentoitua koodia auttamaan sinut alkuun:
+**Uusi data-analytiikassa?** Olemme luoneet erityisen [esimerkkihakemiston](examples/README.md), jossa on yksinkertaista ja hyvin kommentoitua koodia auttamaan sinua alkuun:
 
-- 🌟 **Hello World** - Ensimmäinen datatieteen ohjelmasi
-- 📂 **Loading Data** - Opi lukemaan ja tutkimaan aineistoja
-- 📊 **Simple Analysis** - Laske tilastot ja etsi kuvioita
-- 📈 **Basic Visualization** - Luo kaavioita ja graafeja
-- 🔬 **Real-World Project** - Kokonainen työnkulku alusta loppuun
+- 🌟 **Hello World** - Ensimmäinen data-analytiikkaohjelmasi
+- 📂 **Datan lataaminen** - Opi lukemaan ja tutkimaan datasettejä
+- 📊 **Yksinkertainen analyysi** - Laske tilastot ja löydä malleja
+- 📈 **Perusvisualisointi** - Luo kaavioita ja diagrammeja
+- 🔬 **Todellinen projekti** - Täysi työnkulku alusta loppuun
 
-Jokainen esimerkki sisältää yksityiskohtaiset kommentit, jotka selittävät jokaisen vaiheen, joten ne sopivat erinomaisesti täysin aloitteleville!
+Jokainen esimerkki sisältää yksityiskohtaisia kommentteja, jotka selittävät jokaisen vaiheen, joten ne sopivat erinomaisesti aivan aloitteleville!
 
-👉 **[Aloita esimerkeistä](examples/README.md)** 👈
+👉 **[Aloita esimerkeillä](examples/README.md)** 👈
 
 ## Oppitunnit
 
 
-|![ Sketchnote tekijä @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.fi.png)|
+|![ Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.fi.png)|
 |:---:|
-| Datatiede aloittelijoille: tiekartta - _Sketchnote tekijä [@nitya](https://twitter.com/nitya)_ |
+| Data-analytiikka aloittelijoille: Tiekartta - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
 
-| Oppitunnin numero | Aihe | Oppitunnin ryhmittely | Oppimistavoitteet | Liitetty oppitunti | Tekijä |
+| Lesson Number | Topic | Lesson Grouping | Learning Objectives | Linked Lesson | Author |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | Datatieteen määrittely | [Johdanto](1-Introduction/README.md) | Opit datatieteen peruskäsitteet ja miten se liittyy tekoälyyn, koneoppimiseen ja big dataan. | [oppitunti](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
-| 02 | Datatieteen etiikka | [Johdanto](1-Introduction/README.md) | Datan eettiset käsitteet, haasteet ja viitekehykset. | [oppitunti](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
-| 03 | Datan määrittely | [Johdanto](1-Introduction/README.md) | Miten data luokitellaan ja sen yleisimmät lähteet. | [oppitunti](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | Johdatus tilastotieteeseen ja todennäköisyyslaskentaan | [Johdanto](1-Introduction/README.md) | Todennäköisyys- ja tilastolliset matemaattiset menetelmät datan ymmärtämiseen. | [oppitunti](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Relaatiotietojen käsittely | [Tietojen käsittely](2-Working-With-Data/README.md) | Johdatus relaatiotietoihin ja perusteet relaatiotietojen tutkimisesta ja analysoinnista käyttäen Structured Query Languagea, joka tunnetaan myös nimellä SQL (lausutaan “see-quell”). | [oppitunti](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
-| 06 | NoSQL-datan käsittely | [Tietojen käsittely](2-Working-With-Data/README.md) | Johdatus ei-relaatiotyyppiseen dataan, sen eri tyyppeihin ja perusteet dokumenttitietokantojen tutkimisesta ja analysoinnista. | [oppitunti](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
-| 07 | Pythonin käyttö | [Tietojen käsittely](2-Working-With-Data/README.md) | Perusteet Pythonin käytöstä datan tutkimiseen kirjastoilla kuten Pandas. Suositellaan perustavaa ymmärrystä Python-ohjelmoinnista. | [oppitunti](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | Datan valmistelu | [Tietojen käsittely](2-Working-With-Data/README.md) | Aiheita datan puhdistuksesta ja muokkaamisesta, jotta voidaan käsitellä puuttuvaa, virheellistä tai epätäydellistä dataa. | [oppitunti](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 09 | Määrien visualisointi | [Datan visualisointi](3-Data-Visualization/README.md) | Opi käyttämään Matplotlibia lintudatan visualisointiin 🦆 | [oppitunti](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 10 | Datan jakaumien visualisointi | [Datan visualisointi](3-Data-Visualization/README.md) | Havaintojen ja trendien visualisointi tietyllä välillä. | [oppitunti](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 11 | Prosenttiosuuksien visualisointi | [Datan visualisointi](3-Data-Visualization/README.md) | Diskreettisten ja ryhmiteltyjen prosenttiosuuksien visualisointi. | [oppitunti](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 12 | Suhteiden visualisointi | [Datan visualisointi](3-Data-Visualization/README.md) | Yhdistysten ja korrelaatioiden visualisointi datakokonaisuuksien ja niiden muuttujien välillä. | [oppitunti](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | Merkitykselliset visualisoinnit | [Datan visualisointi](3-Data-Visualization/README.md) | Tekniikoita ja ohjeita, joiden avulla visualisoinneistasi tulee arvokkaita ongelmanratkaisulle ja oivalluksille. | [oppitunti](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 14 | Johdatus datatieteen elinkaareen | [Elinkaari](4-Data-Science-Lifecycle/README.md) | Johdatus datatieteen elinkaareen ja sen ensimmäiseen vaiheeseen, datan hankintaan ja poimintaan. | [oppitunti](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | Analysointi | [Elinkaari](4-Data-Science-Lifecycle/README.md) | Tämä vaihe datatieteen elinkaaressa keskittyy datan analysointimenetelmiin. | [oppitunti](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Viestintä | [Elinkaari](4-Data-Science-Lifecycle/README.md) | Tämä vaihe keskittyy esittämään datasta saadut oivallukset siten, että päätöksentekijöiden on helpompi ymmärtää ne. | [oppitunti](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
-| 17 | Datatiede pilvessä | [Pilvidata](5-Data-Science-In-Cloud/README.md) | Tämä oppituntisarja esittelee datatiedettä pilvessä ja sen hyödyt. | [oppitunti](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
-| 18 | Datatiede pilvessä | [Pilvidata](5-Data-Science-In-Cloud/README.md) | Mallien kouluttaminen matalakoodityökaluilla. |[oppitunti](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
-| 19 | Datatiede pilvessä | [Pilvidata](5-Data-Science-In-Cloud/README.md) | Mallien käyttöönotto Azure Machine Learning Studion avulla. | [oppitunti](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
-| 20 | Datatiede käytännössä | [Käytännön esimerkit](6-Data-Science-In-Wild/README.md) | Datatieteen ohjaamat projektit tosielämässä. | [oppitunti](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| 01 | Data-analytiikan määrittely | [Introduction](1-Introduction/README.md) | Tutustu data-analytiikan peruskäsitteisiin ja siihen, miten se liittyy tekoälyyn, koneoppimiseen ja big dataan. | [lesson](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 02 | Datan etiikka | [Introduction](1-Introduction/README.md) | Datan etiikan käsitteet, haasteet ja viitekehykset. | [lesson](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
+| 03 | Datan määrittely | [Introduction](1-Introduction/README.md) | Miten dataa luokitellaan ja sen yleiset lähteet. | [lesson](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 04 | Johdatus tilastotieteeseen ja todennäköisyyslaskentaan | [Introduction](1-Introduction/README.md) | Todennäköisyys- ja tilastomenetelmät datan ymmärtämiseksi. | [lesson](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 05 | Relaatiotietojen käsittely | [Working With Data](2-Working-With-Data/README.md) | Johdanto relaatiotietoihin ja perustiedot relaatiotietojen tutkimisesta ja analysoinnista Structured Query Language -kielen (tunnetaan myös nimellä SQL, lausutaan “see-quell”) avulla. | [lesson](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 06 | NoSQL-datan käsittely | [Working With Data](2-Working-With-Data/README.md) | Johdatus ei-relaatiotyyppiseen dataan, sen eri tyyppeihin ja dokumenttitietokantojen tutkimisen ja analysoinnin perusteisiin. | [lesson](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
+| 07 | Pythonin käyttö | [Working With Data](2-Working-With-Data/README.md) | Perusteet Pythonin käytöstä datan tutkimiseen kirjastoilla kuten Pandas. Suositellaan perustietämystä Python-ohjelmoinnista. | [lesson](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
+| 08 | Datan valmistelu | [Working With Data](2-Working-With-Data/README.md) | Aiheita datan puhdistus- ja muuntelutekniikoista, jotta voidaan käsitellä puuttuvan, epätarkan tai keskeneräisen datan haasteita. | [lesson](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 09 | Määrien visualisointi | [Data Visualization](3-Data-Visualization/README.md) | Opi käyttämään Matplotlibia lintudatan visualisointiin 🦆 | [lesson](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 10 | Datan jakaumien visualisointi | [Data Visualization](3-Data-Visualization/README.md) | Havaintojen ja trendien visualisointi tietyllä välillä. | [lesson](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 11 | Osuuksien visualisointi | [Data Visualization](3-Data-Visualization/README.md) | Diskreettien ja ryhmiteltyjen prosenttiosuuksien visualisointi. | [lesson](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 12 | Suhteiden visualisointi | [Data Visualization](3-Data-Visualization/README.md) | Yhteyksien ja korrelaatioiden visualisointi eri datakokonaisuuksien ja niiden muuttujien välillä. | [lesson](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 13 | Merkitykselliset visualisoinnit | [Data Visualization](3-Data-Visualization/README.md) | Tekniikat ja ohjeet, joiden avulla visualisoinnista tulee arvokas tehokkaaseen ongelmanratkaisuun ja oivalluksiin. | [lesson](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 14 | Johdanto data-analytiikan elinkaareen | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Johdatus data-analytiikan elinkaareen ja sen ensimmäiseen vaiheeseen, datan hankintaan ja uuttamiseen. | [lesson](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
+| 15 | Analysointi | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Tämä vaihe data-analytiikan elinkaaresta keskittyy datan analysointitekniikoihin. | [lesson](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | Viestintä | [Lifecycle](4-Data-Science-Lifecycle/README.md) | Tämä vaihe data-analytiikan elinkaaresta keskittyy datasta saatujen oivallusten esittämiseen tavalla, joka helpottaa päätöksentekijöiden ymmärtämistä. | [lesson](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 17 | Data-analytiikka pilvessä | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Tämä oppituntisarja esittelee pilvipohjaista data-analytiikkaa ja sen etuja. | [lesson](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
+| 18 | Data-analytiikka pilvessä | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Mallien kouluttaminen Low Code -työkaluilla. |[lesson](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
+| 19 | Data-analytiikka pilvessä | [Cloud Data](5-Data-Science-In-Cloud/README.md) | Mallien käyttöönotto Azure Machine Learning Studiolla. | [lesson](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
+| 20 | Data-analytiikka käytännössä | [In the Wild](6-Data-Science-In-Wild/README.md) | Data-analytiikkaan perustuvat projektit tosielämässä. | [lesson](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
-Follow these steps to open this sample in a Codespace:
+Noudata näitä ohjeita avataksesi tämän mallin Codespacessa:
 1. Klikkaa Code-pudotusvalikkoa ja valitse Open with Codespaces -vaihtoehto.
 2. Valitse + New codespace paneelin alareunasta.
-For more info, check out the [GitHub documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
+Lisätietoja saat GitHubin [dokumentaatiosta](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
-Follow these steps to open this repo in a container using your local machine and VSCode using  the VS Code Remote - Containers extension:
+Noudata näitä ohjeita avataksesi tämän repositorion kontissa käyttämällä paikallista konettasi ja VS Codea VS Code Remote - Containers -laajennuksen avulla:
 
-1. If this is your first time using a development container, please ensure your system meets the pre-reqs (i.e. have Docker installed) in [aloitusohjeet](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. Jos käytät kehityssäilöä (development container) ensimmäistä kertaa, varmista, että järjestelmäsi täyttää ennakkoedellytykset (esim. Docker on asennettu) kohdassa [aloitusohjeet](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
-To use this repository, you can either open the repository in an isolated Docker volume:
+Käyttääksesi tätä repositoriota voit joko avata repositorion eristetyssä Docker-volyymissa:
 
-**Huom**: Under the hood, this will use the Remote-Containers: **Clone Repository in Container Volume...** command to clone the source code in a Docker volume instead of the local filesystem. [Volumes](https://docs.docker.com/storage/volumes/) are the preferred mechanism for persisting container data.
+**Huom.** Taustalla tämä käyttää Remote-Containers: **Clone Repository in Container Volume...** -komentoa kloonaamaan lähdekoodin Docker-volyymiin paikallisen tiedostojärjestelmän sijaan. [Volyymit](https://docs.docker.com/storage/volumes/) ovat suositeltu tapa säilyttää säilön dataa.
 
-Or open a locally cloned or downloaded version of the repository:
+Tai avaa paikallisesti kloonattu tai ladattu versio repositoriosta:
 
 - Kloonaa tämä repositorio paikalliselle tiedostojärjestelmällesi.
 - Paina F1 ja valitse **Remote-Containers: Open Folder in Container...** -komento.
-- Valitse kloonattu kopio tästä kansiosta, odota että kontti käynnistyy, ja kokeile sitten.
+- Valitse kloonattu kopio tästä kansiosta, odota säilön käynnistymistä ja kokeile.
 
-## Offline access
+## Offline-käyttö
 
-Voit ajaa tämän dokumentaation offline-tilassa käyttämällä [Docsify](https://docsify.js.org/#/). Forkkaa tämä repositorio, asenna [Docsify](https://docsify.js.org/#/quickstart) paikalliselle koneellesi, sitten tämän repositorion juurikansiossa suorita `docsify serve`. Sivusto palvellaan portissa 3000 osoitteessa `localhost:3000`.
+Voit ajaa tämän dokumentaation offline-tilassa käyttämällä [Docsify](https://docsify.js.org/#/). Forkkaa tämä repo, [asenna Docsify](https://docsify.js.org/#/quickstart) paikalliselle koneellesi, sitten tämän repositorion juurihakemistossa kirjoita `docsify serve`. Sivusto palvelee osoitteessa portti 3000 paikallisessa koneessasi: `localhost:3000`.
 
-> Huomio: Notebookit eivät renderöidy Docsifyn kautta, joten kun sinun täytyy ajaa notebook, tee se erikseen VS Codessa Python-ytimen kanssa.
+> Huomaa, muistikirjoja (notebookeja) ei renderöidä Docsifyllä, joten kun tarvitset notebookin suorittamista, suorita se erikseen VS Codessa Python-ytimen kanssa.
 
 ## Muut opetussuunnitelmat
 
-Tiimimme tuottaa myös muita opetussuunnitelmia! Tutustu:
+Tiimimme tuottaa muitakin opetussuunnitelmia! Tutustu:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
-[![LangChain4j for Beginners](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
-[![LangChain.js for Beginners](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+[![LangChain4j aloittelijoille](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js aloittelijoille](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
 
 ---
 
@@ -217,7 +212,7 @@ Tiimimme tuottaa myös muita opetussuunnitelmia! Tutustu:
  
 ### Perusopinnot
 [![Koneoppiminen aloittelijoille](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
-[![Datatiede aloittelijoille](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![Data-analytiikka aloittelijoille](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![Tekoäly aloittelijoille](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
 [![Kyberturvallisuus aloittelijoille](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
 [![Verkkokehitys aloittelijoille](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
@@ -227,20 +222,20 @@ Tiimimme tuottaa myös muita opetussuunnitelmia! Tutustu:
 ---
  
 ### Copilot-sarja
-[![Copilot tekoälypariohjelmointiin](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![Copilot C#/.NET -kehittäjille](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![Copilot AI-pariohjelmointiin](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot C#/.NET:lle](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
 [![Copilot-seikkailu](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## Apua
+## Hanki apua
 
-**Koetko ongelmia?** Katso [Vianmääritysopas](TROUBLESHOOTING.md) yleisten ongelmien ratkaisuja varten.
+**Koetko ongelmia?** Katso [Vianmääritysopas](TROUBLESHOOTING.md) saadaksesi ratkaisuja yleisiin ongelmiin.
 
-Jos juutut tai sinulla on kysymyksiä tekoälysovellusten rakentamisesta, liity MCP:n keskusteluihin muiden oppijoiden ja kokeneiden kehittäjien kanssa. Se on kannustava yhteisö, jossa kysymyksiä saa esittää ja tietoa jaetaan vapaasti.
+Jos jumitut tai sinulla on kysyttävää AI‑sovellusten rakentamisesta, liity muiden oppijoiden ja kokeneiden kehittäjien keskusteluihin MCP:stä. Se on kannustava yhteisö, jossa kysymyksiin suhtaudutaan avoimesti ja tietoa jaetaan vapaasti.
 
-[![Microsoft Foundry -Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
+[![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Jos sinulla on tuotepalautetta tai kohtaat virheitä kehityksen aikana, vieraile:
+Jos sinulla on tuotepalautetta tai kohtaat virheitä rakentamisen aikana, käy:
 
 [![Microsoft Foundry -kehittäjäfoorumi](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
@@ -248,5 +243,5 @@ Jos sinulla on tuotepalautetta tai kohtaat virheitä kehityksen aikana, vieraile
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 Vastuuvapauslauseke:
-Tämä asiakirja on käännetty tekoälykäännöspalvelulla Co-op Translator (https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattikäännöksissä voi esiintyä virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäiskielellä tulee pitää määräävänä lähteenä. Tärkeissä asioissa suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa tämän käännöksen käytöstä aiheutuvista väärinymmärryksistä tai virhetulkinnoista.
+Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua Co-op Translator (https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, huomioithan, että automaattikäännöksissä saattaa esiintyä virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä on pidettävä virallisena lähteenä. Tärkeiden tietojen osalta suosittelemme ammattimaista ihmiskäännöstä. Emme ole vastuussa tämän käännöksen käytöstä aiheutuvista väärinymmärryksistä tai virheellisistä tulkinnoista.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
