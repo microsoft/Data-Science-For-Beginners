@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
  * [數據科學在醫療保健中的應用](https://data-flair.training/blogs/data-science-in-healthcare/) - 強調應用包括醫學影像（例如 MRI、X光、CT掃描）、基因組學（DNA測序）、藥物開發（風險評估、成功預測）、預測分析（患者護理和供應物流）、疾病追蹤和預防等。
 
-![數據科學在現實世界中的應用](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.hk.png) 圖片來源：[Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![數據科學在現實世界中的應用](../../../../translated_images/hk/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) 圖片來源：[Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 該圖展示了其他領域和應用數據科學技術的例子。想探索更多應用？查看下面的[回顧與自學](../../../../6-Data-Science-In-Wild/20-Real-World-Examples)部分。
 

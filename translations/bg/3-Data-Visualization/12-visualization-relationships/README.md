@@ -51,7 +51,7 @@ honey.head()
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.bg.png)
+![scatterplot 1](../../../../translated_images/bg/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Сега покажете същите данни с цветова схема, свързана с меда, за да покажете как цената се променя през годините. Можете да направите това, като добавите параметър 'hue', който показва промяната година след година:
 
@@ -60,7 +60,7 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.bg.png)
+![scatterplot 2](../../../../translated_images/bg/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 С тази промяна в цветовата схема можете да видите, че има очевидна силна прогресия през годините по отношение на цената на килограм мед. Всъщност, ако разгледате примерен набор от данни, за да проверите (например за щата Аризона), можете да видите модел на увеличение на цената година след година, с малки изключения:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Можете да видите как размерът на точките постепенно се увеличава.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.bg.png)
+![scatterplot 3](../../../../translated_images/bg/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Дали това е просто случай на търсене и предлагане? Поради фактори като климатични промени и колапс на колониите, има ли по-малко наличен мед за покупка година след година, което води до увеличение на цената?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Отговор: Да, с някои изключения около 2003 година:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.bg.png)
+![line chart 1](../../../../translated_images/bg/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Тъй като Seaborn агрегира данните около една линия, той показва „многобройните измервания за всяка стойност на x, като изобразява средната стойност и 95% доверителен интервал около средната стойност“. [Източник](https://seaborn.pydata.org/tutorial/relational.html). Това поведение, което отнема време, може да бъде изключено, като добавите `ci=None`.
 
@@ -114,7 +114,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.bg.png)
+![line chart 2](../../../../translated_images/bg/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Отговор: Не съвсем. Ако разгледате общото производство, то всъщност изглежда, че се е увеличило през тази конкретна година, въпреки че като цяло количеството произведен мед намалява през тези години.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 В тази визуализация можете да сравните добива на колония и броя на колониите година след година, една до друга, с настройка на wrap на 3 за колоните:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.bg.png)
+![facet grid](../../../../translated_images/bg/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 За този набор от данни нищо особено не изпъква по отношение на броя на колониите и техния добив, година след година и щат след щат. Има ли друг начин да се намери корелация между тези две променливи?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.bg.png)
+![superimposed plots](../../../../translated_images/bg/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Докато нищо не изпъква около 2003 година, това ни позволява да завършим урока с малко по-оптимистична нотка: въпреки че като цяло броят на колониите намалява, броят на колониите се стабилизира, дори ако техният добив на колония намалява.
 

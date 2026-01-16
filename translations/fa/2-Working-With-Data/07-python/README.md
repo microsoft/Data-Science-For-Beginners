@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 کار با پایتون - _طرح دستی توسط [@nitya](https://twitter.com/nitya)_                       |
 
-[![ویدئوی مقدمه](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.fa.png)](https://youtu.be/dZjWOGbsN4Y)
+[![ویدئوی مقدمه](../../../../translated_images/fa/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 در حالی که پایگاه‌های داده روش‌های بسیار کارآمدی برای ذخیره‌سازی داده‌ها و جستجوی آن‌ها با استفاده از زبان‌های پرس‌وجو ارائه می‌دهند، انعطاف‌پذیرترین روش پردازش داده‌ها نوشتن برنامه‌ای است که داده‌ها را دستکاری کند. در بسیاری از موارد، انجام یک پرس‌وجوی پایگاه داده می‌تواند مؤثرتر باشد. اما در برخی موارد که پردازش داده‌های پیچیده‌تر مورد نیاز است، این کار به راحتی با SQL قابل انجام نیست.  
 پردازش داده‌ها را می‌توان با هر زبان برنامه‌نویسی انجام داد، اما برخی زبان‌ها سطح بالاتری برای کار با داده‌ها دارند. دانشمندان داده معمولاً یکی از زبان‌های زیر را ترجیح می‌دهند:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![نمودار سری زمانی](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.fa.png)
+![نمودار سری زمانی](../../../../translated_images/fa/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 حالا فرض کنید که هر هفته یک مهمانی برای دوستان برگزار می‌کنیم و 10 بسته بستنی اضافی برای مهمانی می‌گیریم. می‌توانیم یک سری دیگر، با شاخص هفته، برای نشان دادن این موضوع ایجاد کنیم:
 ```python
@@ -84,7 +84,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![نمودار سری زمانی](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.fa.png)
+![نمودار سری زمانی](../../../../translated_images/fa/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **توجه** که ما از نحو ساده `total_items+additional_items` استفاده نمی‌کنیم. اگر این کار را می‌کردیم، تعداد زیادی مقدار `NaN` (*Not a Number*) در سری حاصل دریافت می‌کردیم. این به این دلیل است که مقادیر گم‌شده‌ای برای برخی از نقاط شاخص در سری `additional_items` وجود دارد و افزودن `NaN` به هر چیزی نتیجه `NaN` می‌دهد. بنابراین باید پارامتر `fill_value` را هنگام جمع مشخص کنیم.
 
@@ -93,7 +93,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![میانگین‌های سری زمانی ماهانه](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.fa.png)
+![میانگین‌های سری زمانی ماهانه](../../../../translated_images/fa/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ df = pd.read_csv('file.csv')
 
 از آنجا که می‌خواهیم نشان دهیم چگونه با داده‌ها کار کنیم، از شما دعوت می‌کنیم [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) را باز کنید و از ابتدا تا انتها بخوانید. همچنین می‌توانید سلول‌ها را اجرا کنید و برخی چالش‌هایی که در انتها برای شما گذاشته‌ایم را انجام دهید.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.fa.png)
+![COVID Spread](../../../../translated_images/fa/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > اگر نمی‌دانید چگونه کد را در Jupyter Notebook اجرا کنید، به [این مقاله](https://soshnikov.com/education/how-to-execute-notebooks-from-github/) نگاهی بیندازید.
 
@@ -241,7 +241,7 @@ df = pd.read_csv('file.csv')
 
 [`notebook-papers.ipynb`](notebook-papers.ipynb) را باز کنید و از ابتدا تا انتها بخوانید. همچنین می‌توانید سلول‌ها را اجرا کنید و برخی چالش‌هایی که در انتها برای شما گذاشته‌ایم را انجام دهید.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.fa.png)
+![Covid Medical Treatment](../../../../translated_images/fa/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## پردازش داده‌های تصویری
 

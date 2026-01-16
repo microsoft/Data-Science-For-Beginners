@@ -41,7 +41,7 @@ Grazie alla democratizzazione dell'AI, gli sviluppatori trovano sempre più faci
 
  * [Data Science nella Sanità](https://data-flair.training/blogs/data-science-in-healthcare/) - evidenzia applicazioni come imaging medico (ad esempio, MRI, raggi X, TAC), genomica (sequenziamento del DNA), sviluppo di farmaci (valutazione del rischio, previsione del successo), analisi predittiva (cura dei pazienti e logistica delle forniture), monitoraggio e prevenzione delle malattie ecc.
 
-![Applicazioni della Data Science nel Mondo Reale](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.it.png) Crediti Immagine: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Applicazioni della Data Science nel Mondo Reale](../../../../translated_images/it/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Crediti Immagine: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 La figura mostra altri domini ed esempi per l'applicazione delle tecniche di data science. Vuoi esplorare altre applicazioni? Dai un'occhiata alla sezione [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) qui sotto.
 

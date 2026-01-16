@@ -60,7 +60,7 @@ Alustame mõne numbrilise andmeosa visualiseerimist, kasutades lihtsat joondiagr
 wingspan = birds['MaxWingspan'] 
 wingspan.plot()
 ```
-![Max Tiivaulatus](../../../../translated_images/max-wingspan-02.e79fd847b2640b89e21e340a3a9f4c5d4b224c4fcd65f54385e84f1c9ed26d52.et.png)
+![Max Tiivaulatus](../../../../translated_images/et/max-wingspan-02.e79fd847b2640b89e21e340a3a9f4c5d4b224c4fcd65f54385e84f1c9ed26d52.png)
 
 Mida sa kohe märkad? Tundub, et on vähemalt üks erand - see on päris suur tiivaulatus! 2300 sentimeetri tiivaulatus võrdub 23 meetriga - kas Minnesotas rändavad pterodaktülid? Uurime lähemalt.
 
@@ -80,7 +80,7 @@ plt.plot(x, y)
 
 plt.show()
 ```
-![tiivaulatus koos siltidega](../../../../translated_images/max-wingspan-labels-02.aa90e826ca49a9d1dde78075e9755c1849ef56a4e9ec60f7e9f3806daf9283e2.et.png)
+![tiivaulatus koos siltidega](../../../../translated_images/et/max-wingspan-labels-02.aa90e826ca49a9d1dde78075e9755c1849ef56a4e9ec60f7e9f3806daf9283e2.png)
 
 Isegi kui siltide pööramine on seatud 45 kraadi, on neid liiga palju, et lugeda. Proovime teistsugust strateegiat: märgime ainult erandid ja seame sildid graafiku sisse. Võid kasutada hajusdiagrammi, et siltidele rohkem ruumi teha:
 
@@ -102,7 +102,7 @@ Mis siin toimub? Kasutasid `tick_params`, et peita alumised sildid, ja seejärel
 
 Mida sa avastasid?
 
-![erandid](../../../../translated_images/labeled-wingspan-02.6110e2d2401cd5238ccc24dfb6d04a6c19436101f6cec151e3992e719f9f1e1f.et.png)
+![erandid](../../../../translated_images/et/labeled-wingspan-02.6110e2d2401cd5238ccc24dfb6d04a6c19436101f6cec151e3992e719f9f1e1f.png)
 ## Filtreeri oma andmeid
 
 Nii kiilaskotkas kui ka preeriapistrik, kuigi tõenäoliselt väga suured linnud, tunduvad olevat valesti märgistatud, nende maksimaalse tiivaulatuse juurde on lisatud ekstra `0`. On ebatõenäoline, et kohtad kiilaskotkast 25-meetrise tiivaulatusega, aga kui nii, siis anna meile teada! Loome uue andmekogumi ilma nende kahe erandita:
@@ -122,7 +122,7 @@ plt.show()
 
 Erandite filtreerimisega on sinu andmed nüüd ühtsemad ja arusaadavamad.
 
-![hajusdiagramm tiivaulatustest](../../../../translated_images/scatterplot-wingspan-02.1c33790094ce36a75f5fb45b25ed2cf27f0356ea609e43c11e97a2cedd7011a4.et.png)
+![hajusdiagramm tiivaulatustest](../../../../translated_images/et/scatterplot-wingspan-02.1c33790094ce36a75f5fb45b25ed2cf27f0356ea609e43c11e97a2cedd7011a4.png)
 
 Nüüd, kui meil on vähemalt tiivaulatuse osas puhtam andmekogum, uurime rohkem nende lindude kohta.
 
@@ -148,7 +148,7 @@ birds.plot(x='Category',
         title='Birds of Minnesota')
 
 ```
-![kogu andmed tulpdiagrammina](../../../../translated_images/full-data-bar-02.aaa3fda71c63ed564b917841a1886c177dd9a26424142e510c0c0498fd6ca160.et.png)
+![kogu andmed tulpdiagrammina](../../../../translated_images/et/full-data-bar-02.aaa3fda71c63ed564b917841a1886c177dd9a26424142e510c0c0498fd6ca160.png)
 
 See tulpdiagramm on aga loetamatu, kuna seal on liiga palju rühmitamata andmeid. Pead valima ainult andmed, mida soovid kuvada, nii et vaatame lindude pikkust nende kategooria põhjal.
 
@@ -163,7 +163,7 @@ category_count = birds.value_counts(birds['Category'].values, sort=True)
 plt.rcParams['figure.figsize'] = [6, 12]
 category_count.plot.barh()
 ```
-![kategooria ja pikkus](../../../../translated_images/category-counts-02.0b9a0a4de42275ae5096d0f8da590d8bf520d9e7e40aad5cc4fc8d276480cc32.et.png)
+![kategooria ja pikkus](../../../../translated_images/et/category-counts-02.0b9a0a4de42275ae5096d0f8da590d8bf520d9e7e40aad5cc4fc8d276480cc32.png)
 
 See tulpdiagramm näitab head ülevaadet lindude arvust igas kategoorias. Ühe pilguga näed, et suurim arv linde selles piirkonnas kuulub Pardid/Haned/Vesilinnud kategooriasse. Minnesota on '10 000 järve maa', nii et see pole üllatav!
 
@@ -179,7 +179,7 @@ plt.barh(y=birds['Category'], width=maxlength)
 plt.rcParams['figure.figsize'] = [6, 12]
 plt.show()
 ```
-![andmete võrdlemine](../../../../translated_images/category-length-02.7304bf519375c9807d8165cc7ec60dd2a60f7b365b23098538e287d89adb7d76.et.png)
+![andmete võrdlemine](../../../../translated_images/et/category-length-02.7304bf519375c9807d8165cc7ec60dd2a60f7b365b23098538e287d89adb7d76.png)
 
 Siin pole midagi üllatavat: koolibrid on kõige väiksema MaxPikkusega võrreldes pelikani või hanega. On hea, kui andmed on loogilised!
 
@@ -197,7 +197,7 @@ plt.show()
 ```
 Selles graafikus näed iga linnukategooria Minimaalne Pikkus ja Maksimaalne Pikkus vahemikku. Võid kindlalt öelda, et nende andmete põhjal, mida suurem lind, seda suurem on selle pikkuse vahemik. Põnev!
 
-![superimposeeritud väärtused](../../../../translated_images/superimposed-02.f03058536baeb2ed7864f01102538464d4c2fd7ade881ddd7d5ba74dc5d2fdae.et.png)
+![superimposeeritud väärtused](../../../../translated_images/et/superimposed-02.f03058536baeb2ed7864f01102538464d4c2fd7ade881ddd7d5ba74dc5d2fdae.png)
 
 ## 🚀 Väljakutse
 

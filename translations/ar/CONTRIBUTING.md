@@ -315,7 +315,7 @@ def calculate_mean(data):
   ```
   ````
   
-- أضف نصوص بديلة للصور: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.ar.png)`  
+- أضف نصوص بديلة للصور: `![Alt text](../../translated_images/ar/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - حافظ على طول الأسطر معقولًا (حوالي 80-100 حرف)  
 
 ### Python

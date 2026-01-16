@@ -92,7 +92,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 完成！この円グラフは、キノコのデータを毒性/食用の2つのクラスに基づいて比率を示しています。ラベルの順序が特に重要なので、ラベル配列の順序を必ず確認してください！
 
-![円グラフ](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.ja.png)
+![円グラフ](../../../../../translated_images/ja/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## ドーナツグラフ！
 
@@ -126,7 +126,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![ドーナツグラフ](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.ja.png)
+![ドーナツグラフ](../../../../../translated_images/ja/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 このコードでは、ggplot2とwebrの2つのライブラリを使用しています。webrライブラリのPieDonut関数を使用すると、簡単にドーナツグラフを作成できます！
 
@@ -164,7 +164,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 ワッフルチャートを使用すると、このキノコのデータセットの傘の色の比率がはっきりとわかります。興味深いことに、緑色の傘を持つキノコがたくさんあります！
 
-![ワッフルチャート](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.ja.png)
+![ワッフルチャート](../../../../../translated_images/ja/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 このレッスンでは、比率を可視化する3つの方法を学びました。まず、データをカテゴリにグループ化し、次にデータを表示する最適な方法を決定します - 円グラフ、ドーナツグラフ、またはワッフルチャート。どれも魅力的で、データセットのスナップショットを瞬時に提供します。
 

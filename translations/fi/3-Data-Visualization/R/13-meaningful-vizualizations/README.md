@@ -47,25 +47,25 @@ Aiemmissa oppitunneissa kokeilit erilaisten datavisualisointien rakentamista Mat
 
 Vaikka datatieteilijä valitsisi oikean kaavion oikealle datalle, on monia tapoja esittää dataa harhaanjohtavasti, usein datan kustannuksella. Harhaanjohtavia kaavioita ja infografiikoita on paljon!
 
-[![How Charts Lie by Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.fi.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
+[![How Charts Lie by Alberto Cairo](../../../../../translated_images/fi/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
 > 🎥 Klikkaa yllä olevaa kuvaa nähdäksesi konferenssipuheen harhaanjohtavista kaavioista
 
 Tässä kaaviossa X-akseli on käännetty, jotta totuus näyttäisi päinvastaiselta päivämäärien perusteella:
 
-![huono kaavio 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.fi.png)
+![huono kaavio 1](../../../../../translated_images/fi/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Tämä kaavio](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) on vielä harhaanjohtavampi, sillä katsojan huomio kiinnittyy oikealle, jolloin syntyy vaikutelma, että COVID-tapaukset ovat vähentyneet eri maakunnissa. Tarkemmin katsottuna päivämäärät on kuitenkin järjestetty uudelleen, jotta saadaan aikaan harhaanjohtava laskeva trendi.
 
-![huono kaavio 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.fi.jpg)
+![huono kaavio 2](../../../../../translated_images/fi/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Tämä tunnettu esimerkki käyttää värejä JA käännettyä Y-akselia harhauttaakseen: sen sijaan, että asekuolemat olisivat lisääntyneet aselainsäädännön muutosten jälkeen, katsoja saadaan uskomaan päinvastaista:
 
-![huono kaavio 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.fi.jpg)
+![huono kaavio 3](../../../../../translated_images/fi/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Tämä outo kaavio näyttää, kuinka mittasuhteita voidaan manipuloida huvittavin seurauksin:
 
-![huono kaavio 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.fi.jpg)
+![huono kaavio 4](../../../../../translated_images/fi/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Vertailu, joka ei ole vertailukelpoista, on toinen kyseenalainen temppu. On olemassa [mahtava verkkosivusto](https://tylervigen.com/spurious-correlations), joka esittelee "näennäisiä korrelaatioita", kuten Mainen avioeroprosentin ja margariinin kulutuksen välisiä "faktoja". Redditissä on myös ryhmä, joka kerää [huonoja datan käyttötapoja](https://www.reddit.com/r/dataisugly/top/?t=all).
 
@@ -100,13 +100,13 @@ Merkitse akselit, lisää selite tarvittaessa ja tarjoa työkaluja datan parempa
 
 Jos datasi on tekstuaalista ja X-akselilla on paljon tekstiä, voit kallistaa tekstiä luettavuuden parantamiseksi. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) tarjoaa 3D-plottausta, jos datasi tukee sitä. Sen avulla voidaan tuottaa hienostuneita datavisualisointeja.
 
-![3d-kaaviot](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.fi.png)
+![3d-kaaviot](../../../../../translated_images/fi/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Animaatio ja 3D-kaavioiden näyttäminen
 
 Jotkut parhaista datavisualisoinneista nykyään ovat animoituja. Shirley Wu on tehnyt upeita visualisointeja D3:lla, kuten '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', jossa jokainen kukka on elokuvan visualisointi. Toinen esimerkki Guardianille on 'bussed out', interaktiivinen kokemus, joka yhdistää visualisointeja Greensockin ja D3:n avulla sekä artikkelin, joka kertoo, kuinka NYC käsittelee kodittomien ongelmaa lähettämällä ihmisiä pois kaupungista.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.fi.png)
+![busing](../../../../../translated_images/fi/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: How America Moves its Homeless" [Guardianista](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualisoinnit: Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Vaikka tämä oppitunti ei riitä opettamaan näitä tehokkaita visualisointikir
 
 Toteutat verkkosovelluksen, joka näyttää animoidun näkymän tästä sosiaalisesta verkostosta. Se käyttää kirjastoa, joka on rakennettu [verkoston visualisointiin](https://github.com/emiliorizzo/vue-d3-network) Vue.js:n ja D3:n avulla. Kun sovellus on käynnissä, voit siirrellä solmuja näytöllä ja järjestellä dataa uudelleen.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.fi.png)
+![liaisons](../../../../../translated_images/fi/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Projekti: Rakenna kaavio, joka näyttää verkoston D3.js:llä
 

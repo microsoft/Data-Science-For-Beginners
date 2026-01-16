@@ -311,7 +311,7 @@ def calculate_mean(data):
   import pandas as pd
   ```
   ````
-- ছবিতে alt টেক্সট যোগ করুন: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.bn.png)`
+- ছবিতে alt টেক্সট যোগ করুন: `![Alt text](../../translated_images/bn/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - লাইন দৈর্ঘ্য যুক্তিসঙ্গত রাখুন (প্রায় 80-100 অক্ষর)
 
 ### Python

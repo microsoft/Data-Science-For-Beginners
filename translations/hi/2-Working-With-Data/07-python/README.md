@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Python के साथ काम करना - _Sketchnote by [@nitya](https://twitter.com/nitya)_                 |
 
-[![Intro Video](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.hi.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Intro Video](../../../../translated_images/hi/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 हालांकि डेटाबेस डेटा को स्टोर करने और उन्हें क्वेरी लैंग्वेज का उपयोग करके क्वेरी करने के लिए बहुत प्रभावी तरीके प्रदान करते हैं, डेटा प्रोसेसिंग का सबसे लचीला तरीका अपना प्रोग्राम लिखना है। कई मामलों में, डेटाबेस क्वेरी करना अधिक प्रभावी हो सकता है। लेकिन कुछ मामलों में जब अधिक जटिल डेटा प्रोसेसिंग की आवश्यकता होती है, तो इसे SQL का उपयोग करके आसानी से नहीं किया जा सकता।  
 डेटा प्रोसेसिंग किसी भी प्रोग्रामिंग भाषा में की जा सकती है, लेकिन कुछ भाषाएँ डेटा के साथ काम करने के लिए उच्च स्तर की होती हैं। डेटा वैज्ञानिक आमतौर पर निम्नलिखित भाषाओं में से एक को प्राथमिकता देते हैं:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```  
-![टाइम सीरीज़ प्लॉट](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.hi.png)
+![टाइम सीरीज़ प्लॉट](../../../../translated_images/hi/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 अब मान लें कि हर सप्ताह हम दोस्तों के लिए एक पार्टी आयोजित कर रहे हैं और पार्टी के लिए अतिरिक्त 10 पैक आइसक्रीम लेते हैं। हम इसे दिखाने के लिए सप्ताह द्वारा इंडेक्स की गई एक और सीरीज़ बना सकते हैं:
 ```python
@@ -84,7 +84,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```  
-![टाइम सीरीज़ प्लॉट](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.hi.png)
+![टाइम सीरीज़ प्लॉट](../../../../translated_images/hi/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **ध्यान दें** कि हम साधारण सिंटैक्स `total_items+additional_items` का उपयोग नहीं कर रहे हैं। यदि हमने ऐसा किया होता, तो हमें परिणामी सीरीज़ में कई `NaN` (*Not a Number*) मान प्राप्त होते। ऐसा इसलिए है क्योंकि `additional_items` सीरीज़ में कुछ इंडेक्स पॉइंट्स के लिए मान गायब हैं, और किसी भी चीज़ में `NaN` जोड़ने से `NaN` मिलता है। इसलिए हमें जोड़ने के दौरान `fill_value` पैरामीटर निर्दिष्ट करने की आवश्यकता होती है।
 
@@ -93,7 +93,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```  
-![मासिक टाइम सीरीज़ औसत](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.hi.png)
+![मासिक टाइम सीरीज़ औसत](../../../../translated_images/hi/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### डेटा फ्रेम
 
@@ -219,7 +219,7 @@ df = pd.read_csv('file.csv')
 
 चूंकि हम दिखाना चाहते हैं कि डेटा के साथ कैसे काम किया जाए, हम आपको [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) खोलने और इसे ऊपर से नीचे तक पढ़ने के लिए आमंत्रित करते हैं। आप सेल्स को भी चला सकते हैं और अंत में छोड़े गए कुछ चैलेंज को हल कर सकते हैं।
 
-![COVID फैलाव](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.hi.png)
+![COVID फैलाव](../../../../translated_images/hi/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > यदि आपको Jupyter Notebook में कोड चलाने का तरीका नहीं पता है, तो [इस लेख](https://soshnikov.com/education/how-to-execute-notebooks-from-github/) को देखें।
 
@@ -241,7 +241,7 @@ df = pd.read_csv('file.csv')
 
 [`notebook-papers.ipynb`](notebook-papers.ipynb) खोलें और इसे ऊपर से नीचे तक पढ़ें। आप सेल्स को भी चला सकते हैं और अंत में छोड़े गए कुछ चैलेंज को हल कर सकते हैं।
 
-![Covid मेडिकल ट्रीटमेंट](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.hi.png)
+![Covid मेडिकल ट्रीटमेंट](../../../../translated_images/hi/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## इमेज डेटा प्रोसेसिंग
 

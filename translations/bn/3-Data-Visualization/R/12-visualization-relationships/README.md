@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.bn.png)
+![scatterplot 1](../../../../../translated_images/bn/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 এখন, একই ডেটা একটি মধু রঙের স্কিম দিয়ে দেখান যাতে বছরের পর বছর দাম কীভাবে পরিবর্তিত হয়েছে তা প্রদর্শিত হয়। এটি করতে, 'scale_color_gradientn' প্যারামিটার যোগ করুন যা পরিবর্তন দেখায়:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.bn.png)
+![scatterplot 2](../../../../../translated_images/bn/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 এই রঙের স্কিম পরিবর্তনের মাধ্যমে, আপনি দেখতে পারেন যে প্রতি পাউন্ড মধুর দামের ক্ষেত্রে বছরের পর বছর একটি শক্তিশালী অগ্রগতি রয়েছে। আসলে, যদি আপনি ডেটার একটি নমুনা সেট পরীক্ষা করেন (উদাহরণস্বরূপ, একটি নির্দিষ্ট রাজ্য, অ্যারিজোনা), আপনি দেখতে পাবেন যে বছরের পর বছর দামের বৃদ্ধির একটি প্যাটার্ন রয়েছে, কয়েকটি ব্যতিক্রম সহ:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 আপনি দেখতে পাবেন ডটের আকার ধীরে ধীরে বৃদ্ধি পাচ্ছে।
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.bn.png)
+![scatterplot 3](../../../../../translated_images/bn/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 এটি কি সরবরাহ এবং চাহিদার একটি সাধারণ ঘটনা? জলবায়ু পরিবর্তন এবং কলোনি ধ্বংসের মতো কারণগুলির কারণে, প্রতি বছর কেনার জন্য কম মধু পাওয়া যাচ্ছে, এবং তাই দাম বাড়ছে?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 উত্তর: হ্যাঁ, ২০০৩ সালের আশেপাশে কিছু ব্যতিক্রম সহ:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.bn.png)
+![line chart 1](../../../../../translated_images/bn/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 প্রশ্ন: তাহলে, ২০০৩ সালে মধুর সরবরাহে কি কোনো স্পাইক দেখা যায়? যদি আপনি বছর বছর মোট উৎপাদন দেখেন?
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.bn.png)
+![line chart 2](../../../../../translated_images/bn/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 উত্তর: আসলে না। যদি আপনি মোট উৎপাদন দেখেন, এটি সেই নির্দিষ্ট বছরে বৃদ্ধি পেয়েছে বলে মনে হয়, যদিও সাধারণভাবে এই বছরগুলিতে উৎপাদিত মধুর পরিমাণ হ্রাস পাচ্ছে।
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 এই ভিজ্যুয়ালাইজেশনে, আপনি প্রতি কলোনির উৎপাদন এবং কলোনির সংখ্যা বছর বছর, রাজ্য রাজ্য পাশাপাশি তুলনা করতে পারেন, যেখানে কলামের জন্য wrap 3 সেট করা হয়েছে:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.bn.png)
+![facet grid](../../../../../translated_images/bn/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 এই ডেটাসেটের জন্য, রাজ্য রাজ্য এবং বছর বছর কলোনির সংখ্যা এবং তাদের উৎপাদনের ক্ষেত্রে কিছুই বিশেষভাবে আলাদা করে দাঁড়ায় না। এই দুটি ভেরিয়েবলের মধ্যে সম্পর্ক খুঁজে বের করার জন্য দেখার অন্য কোনো উপায় কি আছে?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.bn.png)
+![superimposed plots](../../../../../translated_images/bn/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 যদিও ২০০৩ সালের আশেপাশে চোখে কিছুই ধরা পড়ে না, এটি আমাদের এই পাঠটি একটি সামান্য সুখী নোটে শেষ করার অনুমতি দেয়: যদিও সামগ্রিকভাবে কলোনির সংখ্যা হ্রাস পাচ্ছে, কলোনির সংখ্যা স্থিতিশীল হচ্ছে যদিও তাদের প্রতি কলোনির উৎপাদন হ্রাস পাচ্ছে।
 

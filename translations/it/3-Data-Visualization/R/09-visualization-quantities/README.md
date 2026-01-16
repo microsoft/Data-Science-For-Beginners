@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Qui, installi il pacchetto `ggplot2` e lo importi nello spazio di lavoro utilizzando il comando `library("ggplot2")`. Per tracciare un grafico in ggplot, si utilizza la funzione `ggplot()` specificando il dataset e le variabili x e y come attributi. In questo caso, utilizziamo la funzione `geom_line()` poiché vogliamo creare un grafico a linee.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.it.png)
+![MaxWingspan-lineplot](../../../../../translated_images/it/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Cosa noti immediatamente? Sembra esserci almeno un valore anomalo: che apertura alare! Un'apertura alare di oltre 2000 centimetri equivale a più di 20 metri: ci sono Pterodattili che volano in Minnesota? Indaghiamo.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Specifichiamo l'angolo nel `theme` e indichiamo le etichette degli assi x e y con `xlab()` e `ylab()` rispettivamente. La funzione `ggtitle()` assegna un titolo al grafico.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.it.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/it/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Anche con la rotazione delle etichette impostata a 45 gradi, ce ne sono troppe per essere leggibili. Proviamo una strategia diversa: etichettiamo solo i valori anomali e posizioniamo le etichette all'interno del grafico. Puoi utilizzare un grafico a dispersione per avere più spazio per le etichette:
 
@@ -100,7 +100,7 @@ Cosa succede qui? Hai utilizzato la funzione `geom_point()` per tracciare punti 
 
 Cosa scopri?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.it.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/it/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Filtrare i dati
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Abbiamo creato un nuovo dataframe `birds_filtered` e poi tracciato un grafico a dispersione. Filtrando i valori anomali, i tuoi dati ora sono più coerenti e comprensibili.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.it.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/it/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Ora che abbiamo un dataset più pulito almeno in termini di apertura alare, scopriamo di più su questi uccelli.
 
@@ -161,7 +161,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 Nel seguente snippet, installiamo i pacchetti [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) e [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) per aiutare a manipolare e raggruppare i dati al fine di tracciare un grafico a barre impilate. Prima, raggruppi i dati per la `Categoria` degli uccelli e poi riassumi le colonne `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Poi, tracci il grafico a barre utilizzando il pacchetto `ggplot2` specificando i colori per le diverse categorie e le etichette.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.it.png)
+![Stacked bar chart](../../../../../translated_images/it/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Questo grafico a barre, tuttavia, è illeggibile perché ci sono troppi dati non raggruppati. Devi selezionare solo i dati che vuoi tracciare, quindi osserviamo la lunghezza degli uccelli in base alla loro categoria.
 
@@ -176,7 +176,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Prima conti i valori unici nella colonna `Categoria` e poi li ordini in un nuovo dataframe `birds_count`. Questi dati ordinati vengono poi fattorizzati allo stesso livello in modo che vengano tracciati in ordine. Utilizzando `ggplot2`, tracci i dati in un grafico a barre. La funzione `coord_flip()` traccia barre orizzontali.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.it.png)
+![category-length](../../../../../translated_images/it/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Questo grafico a barre mostra una buona panoramica del numero di uccelli in ogni categoria. A colpo d'occhio, vedi che il maggior numero di uccelli in questa regione appartiene alla categoria Anatre/Oche/UccelliAcquatici. Il Minnesota è la "terra dei 10.000 laghi", quindi non è sorprendente!
 
@@ -199,7 +199,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Raggruppiamo i dati `birds_filtered` per `Categoria` e poi tracciamo un grafico a barre.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.it.png)
+![comparing data](../../../../../translated_images/it/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Nulla di sorprendente qui: i colibrì hanno la lunghezza massima più bassa rispetto ai Pellicani o alle Oche. È positivo quando i dati hanno senso logico!
 
@@ -211,7 +211,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.it.png)
+![super-imposed values](../../../../../translated_images/it/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Sfida
 

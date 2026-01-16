@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 ها هو، مخطط دائري يظهر نسب هذه البيانات وفقًا لهاتين الفئتين من الفطر. من المهم جدًا الحصول على ترتيب التسميات بشكل صحيح، خاصة هنا، لذا تأكد من التحقق من الترتيب الذي يتم بناء مصفوفة التسميات به!
 
-![مخطط دائري](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.ar.png)
+![مخطط دائري](../../../../../translated_images/ar/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## دونات!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![مخطط دونات](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.ar.png)
+![مخطط دونات](../../../../../translated_images/ar/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 يستخدم هذا الكود المكتبتين - ggplot2 وwebr. باستخدام وظيفة PieDonut من مكتبة webr، يمكننا إنشاء مخطط دونات بسهولة!
 
@@ -169,7 +169,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 باستخدام مخطط وافل، يمكنك رؤية نسب ألوان قبعات الفطر في هذه المجموعة البيانات بوضوح. من المثير للاهتمام أن هناك العديد من الفطر ذو القبعات الخضراء!
 
-![مخطط وافل](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.ar.png)
+![مخطط وافل](../../../../../translated_images/ar/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 في هذه الدرس، تعلمت ثلاث طرق لتصور النسب. أولاً، تحتاج إلى تجميع بياناتك في فئات ثم تقرر الطريقة الأفضل لعرض البيانات - دائري، دونات، أو وافل. جميعها لذيذة وتمنح المستخدم لمحة فورية عن مجموعة البيانات.
 

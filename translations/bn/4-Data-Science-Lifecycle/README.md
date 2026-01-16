@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ডেটা সায়েন্স লাইফসাইকেল
 
-![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.bn.jpg)  
+![communication](../../../translated_images/bn/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)  
 > ছবি <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> এর সৌজন্যে <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> এ  
 
 এই পাঠগুলোতে, আপনি ডেটা সায়েন্স লাইফসাইকেলের কিছু দিক অন্বেষণ করবেন, যার মধ্যে ডেটা বিশ্লেষণ এবং যোগাযোগ অন্তর্ভুক্ত।

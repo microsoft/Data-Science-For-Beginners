@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ಡೇಟಾ ಸೈನ್ಸ್ ಪರಿಚಯ
 
-![data in action](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.kn.jpg)
+![data in action](../../../translated_images/kn/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > ಫೋಟೋ <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ಸ್ಟೀಫನ್ ಡಾಸನ್</a> ಅವರಿಂದ <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ಅನ್ಸ್ಪ್ಲ್ಯಾಶ್</a> ನಲ್ಲಿ
   
 ಈ ಪಾಠಗಳಲ್ಲಿ, ನೀವು ಡೇಟಾ ಸೈನ್ಸ್ ಅನ್ನು ಹೇಗೆ ವ್ಯಾಖ್ಯಾನಿಸಲಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಕಂಡುಹಿಡಿಯುತ್ತೀರಿ ಮತ್ತು ಡೇಟಾ ವಿಜ್ಞಾನಿಯೊಬ್ಬರು ಪರಿಗಣಿಸಬೇಕಾದ ನೈತಿಕ ವಿಚಾರಗಳನ್ನು ತಿಳಿಯುತ್ತೀರಿ. ನೀವು ಡೇಟಾ ಅನ್ನು ಹೇಗೆ ವ್ಯಾಖ್ಯಾನಿಸಲಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ತಿಳಿಯುತ್ತೀರಿ ಮತ್ತು ಡೇಟಾ ಸೈನ್ಸ್‌ನ ಮೂಲ ಶೈಕ್ಷಣಿಕ ಕ್ಷೇತ್ರಗಳಾದ ಅಂಕಿಅಂಶ ಮತ್ತು ಸಾಧ್ಯತೆಗಳ ಬಗ್ಗೆ ಸ್ವಲ್ಪ ತಿಳಿಯುತ್ತೀರಿ.

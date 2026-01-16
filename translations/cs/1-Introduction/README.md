@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Úvod do datové vědy
 
-![data v akci](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.cs.jpg)
+![data v akci](../../../translated_images/cs/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Foto od <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephena Dawsona</a> na <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 V těchto lekcích objevíte, jak je datová věda definována, a seznámíte se s etickými otázkami, které musí datový vědec zohlednit. Také se naučíte, jak jsou data definována, a získáte základní znalosti o statistice a pravděpodobnosti, což jsou klíčové akademické oblasti datové vědy.

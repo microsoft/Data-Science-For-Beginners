@@ -25,7 +25,7 @@ Pada titik ini, Anda mungkin telah menyadari bahwa data science adalah sebuah pr
 
 Pelajaran ini berfokus pada 3 bagian dari siklus hidup: pengumpulan, pemrosesan, dan pemeliharaan.
 
-![Diagram siklus hidup data science](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.id.jpg)
+![Diagram siklus hidup data science](../../../../translated_images/id/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > Foto oleh [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Pengumpulan
@@ -101,7 +101,7 @@ Jelajahi [Siklus Hidup Proses Data Science Tim](https://docs.microsoft.com/en-us
 
 |Proses Data Science Tim (TDSP)|Proses standar industri untuk data mining (CRISP-DM)|
 |--|--|
-|![Siklus Hidup Data Science Tim](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.id.png) | ![Gambar Proses Data Science Alliance](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.id.png) |
+|![Siklus Hidup Data Science Tim](../../../../translated_images/id/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Gambar Proses Data Science Alliance](../../../../translated_images/id/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Gambar oleh [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Gambar oleh [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Kuis Pasca-Pelajaran](https://ff-quizzes.netlify.app/en/ds/quiz/27)

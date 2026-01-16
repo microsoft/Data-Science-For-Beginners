@@ -61,7 +61,7 @@ Let's start by plotting some of the numeric data using a basic line plot. Suppos
 wingspan = birds['MaxWingspan'] 
 wingspan.plot()
 ```  
-![Max Wingspan](../../../../translated_images/max-wingspan-02.e79fd847b2640b89e21e340a3a9f4c5d4b224c4fcd65f54385e84f1c9ed26d52.en.png)
+![Max Wingspan](../../../../translated_images/en/max-wingspan-02.e79fd847b2640b89.webp)
 
 What stands out immediately? There seems to be at least one outlier—what a wingspan! A 2300-centimeter wingspan equals 23 meters—are there Pterodactyls in Minnesota? Let's investigate.
 
@@ -81,7 +81,7 @@ plt.plot(x, y)
 
 plt.show()
 ```  
-![Wingspan with labels](../../../../translated_images/max-wingspan-labels-02.aa90e826ca49a9d1dde78075e9755c1849ef56a4e9ec60f7e9f3806daf9283e2.en.png)
+![Wingspan with labels](../../../../translated_images/en/max-wingspan-labels-02.aa90e826ca49a9d1.webp)
 
 Even with the labels rotated 45 degrees, there are too many to read. Let's try a different approach: label only the outliers and set the labels within the chart. You can use a scatter chart to make room for the labeling:
 
@@ -103,7 +103,7 @@ What's happening here? You used `tick_params` to hide the bottom labels and then
 
 What did you discover?
 
-![Outliers](../../../../translated_images/labeled-wingspan-02.6110e2d2401cd5238ccc24dfb6d04a6c19436101f6cec151e3992e719f9f1e1f.en.png)
+![Outliers](../../../../translated_images/en/labeled-wingspan-02.6110e2d2401cd523.webp)
 
 ## Filter your data
 
@@ -124,7 +124,7 @@ plt.show()
 
 By filtering out the outliers, your data becomes more cohesive and easier to understand.
 
-![Scatterplot of wingspans](../../../../translated_images/scatterplot-wingspan-02.1c33790094ce36a75f5fb45b25ed2cf27f0356ea609e43c11e97a2cedd7011a4.en.png)
+![Scatterplot of wingspans](../../../../translated_images/en/scatterplot-wingspan-02.1c33790094ce36a7.webp)
 
 Now that we have a cleaner dataset, at least in terms of wingspan, let's explore more about these birds.
 
@@ -151,7 +151,7 @@ birds.plot(x='Category',
         title='Birds of Minnesota')
 
 ```  
-![Full data as a bar chart](../../../../translated_images/full-data-bar-02.aaa3fda71c63ed564b917841a1886c177dd9a26424142e510c0c0498fd6ca160.en.png)
+![Full data as a bar chart](../../../../translated_images/en/full-data-bar-02.aaa3fda71c63ed56.webp)
 
 This bar chart, however, is hard to read because the data isn't grouped. You need to select only the data you want to plot, so let's look at the bird categories based on their count.
 
@@ -166,7 +166,7 @@ category_count = birds.value_counts(birds['Category'].values, sort=True)
 plt.rcParams['figure.figsize'] = [6, 12]
 category_count.plot.barh()
 ```  
-![Category and length](../../../../translated_images/category-counts-02.0b9a0a4de42275ae5096d0f8da590d8bf520d9e7e40aad5cc4fc8d276480cc32.en.png)
+![Category and length](../../../../translated_images/en/category-counts-02.0b9a0a4de42275ae.webp)
 
 This bar chart provides a clear view of the number of birds in each category. At a glance, you can see that the largest number of birds in this region belong to the Ducks/Geese/Waterfowl category. Given that Minnesota is the "land of 10,000 lakes," this isn't surprising!
 
@@ -182,7 +182,7 @@ plt.barh(y=birds['Category'], width=maxlength)
 plt.rcParams['figure.figsize'] = [6, 12]
 plt.show()
 ```  
-![Comparing data](../../../../translated_images/category-length-02.7304bf519375c9807d8165cc7ec60dd2a60f7b365b23098538e287d89adb7d76.en.png)
+![Comparing data](../../../../translated_images/en/category-length-02.7304bf519375c980.webp)
 
 Nothing surprising here: hummingbirds have the smallest MaxLength compared to pelicans or geese. It's reassuring when data aligns with logic!
 
@@ -200,7 +200,7 @@ plt.show()
 ```  
 In this plot, you can see the range of Minimum and Maximum Length for each bird category. You can confidently say that, based on this data, larger birds tend to have a wider length range. Fascinating!
 
-![Superimposed values](../../../../translated_images/superimposed-02.f03058536baeb2ed7864f01102538464d4c2fd7ade881ddd7d5ba74dc5d2fdae.en.png)
+![Superimposed values](../../../../translated_images/en/superimposed-02.f03058536baeb2ed.webp)
 
 ## 🚀 Challenge
 

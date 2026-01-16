@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # クラウドでのデータサイエンス
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.ja.jpg)
+![cloud-picture](../../../translated_images/ja/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > 写真提供：[Jelleke Vanooteghem](https://unsplash.com/@ilumire)（[Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)）
 
 ビッグデータを使ったデータサイエンスを行う際、クラウドは大きな変化をもたらす可能性があります。次の3つのレッスンでは、クラウドとは何か、そしてそれがなぜ非常に役立つのかを見ていきます。また、心不全のデータセットを調査し、心不全の可能性を評価するモデルを構築します。クラウドの力を活用して、モデルをトレーニング、デプロイ、そして2つの異なる方法で利用します。一つは、ユーザーインターフェースを使用してLow code/No code形式で行う方法、もう一つはAzure Machine Learning Software Developer Kit (Azure ML SDK)を使用する方法です。
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.ja.png)
+![project-schema](../../../translated_images/ja/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### トピック
 

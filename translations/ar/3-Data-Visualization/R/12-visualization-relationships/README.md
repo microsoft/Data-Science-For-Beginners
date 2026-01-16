@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.ar.png)
+![scatterplot 1](../../../../../translated_images/ar/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 الآن، اعرض نفس البيانات باستخدام نظام ألوان العسل لإظهار كيفية تطور السعر على مر السنين. يمكنك القيام بذلك عن طريق إضافة معامل 'scale_color_gradientn' لإظهار التغيير عامًا بعد عام:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.ar.png)
+![scatterplot 2](../../../../../translated_images/ar/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 مع هذا التغيير في نظام الألوان، يمكنك أن ترى بوضوح تقدمًا قويًا على مر السنين فيما يتعلق بسعر العسل لكل رطل. بالفعل، إذا نظرت إلى مجموعة بيانات عينة للتحقق (اختر ولاية معينة، مثل أريزونا)، يمكنك رؤية نمط زيادة الأسعار عامًا بعد عام، مع بعض الاستثناءات:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 يمكنك رؤية حجم النقاط يزداد تدريجيًا.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.ar.png)
+![scatterplot 3](../../../../../translated_images/ar/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 هل هذا مجرد حالة بسيطة من العرض والطلب؟ بسبب عوامل مثل تغير المناخ وانهيار المستعمرات، هل هناك كمية أقل من العسل المتاحة للشراء عامًا بعد عام، وبالتالي يرتفع السعر؟
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 الإجابة: نعم، مع بعض الاستثناءات حول عام 2003:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.ar.png)
+![line chart 1](../../../../../translated_images/ar/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 السؤال: حسنًا، في عام 2003 هل يمكننا أيضًا رؤية زيادة في كمية العسل المتوفرة؟ ماذا لو نظرت إلى الإنتاج الإجمالي عامًا بعد عام؟
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.ar.png)
+![line chart 2](../../../../../translated_images/ar/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 الإجابة: ليس حقًا. إذا نظرت إلى الإنتاج الإجمالي، يبدو أنه قد زاد في ذلك العام بالذات، على الرغم من أن كمية العسل المنتجة عمومًا كانت في انخفاض خلال هذه السنوات.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 في هذا التصور، يمكنك مقارنة الإنتاج لكل مستعمرة وعدد المستعمرات عامًا بعد عام جنبًا إلى جنب مع التفاف مضبوط على 3 للأعمدة:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.ar.png)
+![facet grid](../../../../../translated_images/ar/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 بالنسبة لهذه المجموعة من البيانات، لا يبرز أي شيء بشكل خاص فيما يتعلق بعدد المستعمرات وإنتاجها، عامًا بعد عام وولاية بعد ولاية. هل هناك طريقة مختلفة للنظر في إيجاد علاقة بين هذين المتغيرين؟
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.ar.png)
+![superimposed plots](../../../../../translated_images/ar/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 بينما لا يبرز شيء للعين حول عام 2003، فإنه يسمح لنا بإنهاء هذا الدرس بملاحظة أكثر سعادة: على الرغم من وجود انخفاض عام في عدد المستعمرات، فإن عدد المستعمرات يستقر حتى لو كان إنتاجها لكل مستعمرة يتناقص.
 

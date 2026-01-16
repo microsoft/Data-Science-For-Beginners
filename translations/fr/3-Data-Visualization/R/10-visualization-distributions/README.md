@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![longueur max par ordre](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.fr.png)
+![longueur max par ordre](../../../../../translated_images/fr/max-length-per-order.e5b283d952c78c12.webp)
 
 Cela donne un aperçu de la distribution générale de la longueur corporelle par ordre d'oiseaux, mais ce n'est pas la meilleure façon de représenter les distributions réelles. Cette tâche est généralement mieux réalisée avec un histogramme.
 
@@ -57,7 +57,7 @@ Cela donne un aperçu de la distribution générale de la longueur corporelle pa
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![distribution sur l'ensemble du jeu de données](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.fr.png)
+![distribution sur l'ensemble du jeu de données](../../../../../translated_images/fr/distribution-over-the-entire-dataset.d22afd3fa96be854.webp)
 
 Comme vous pouvez le voir, la plupart des 400+ oiseaux de ce jeu de données ont une Masse Corporelle Max inférieure à 2000. Obtenez plus d'informations sur les données en modifiant le paramètre `bins` à une valeur plus élevée, comme 30 :
 
@@ -65,7 +65,7 @@ Comme vous pouvez le voir, la plupart des 400+ oiseaux de ce jeu de données ont
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![distribution-30bins](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.fr.png)
+![distribution-30bins](../../../../../translated_images/fr/distribution-30bins.6a3921ea7a421bf7.webp)
 
 Ce graphique montre la distribution de manière un peu plus détaillée. Un graphique moins biaisé vers la gauche pourrait être créé en s'assurant que vous ne sélectionnez que des données dans une plage donnée :
 
@@ -77,7 +77,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![histogramme filtré](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.fr.png)
+![histogramme filtré](../../../../../translated_images/fr/filtered-histogram.6bf5d2bfd8253322.webp)
 
 ✅ Essayez d'autres filtres et points de données. Pour voir la distribution complète des données, supprimez le filtre `['MaxBodyMass']` pour afficher les distributions étiquetées.
 
@@ -91,7 +91,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Il semble y avoir une corrélation attendue entre ces deux éléments le long d'un axe attendu, avec un point de convergence particulièrement fort :
 
-![graphique 2D](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.fr.png)
+![graphique 2D](../../../../../translated_images/fr/2d-plot.c504786f439bd7eb.webp)
 
 Les histogrammes fonctionnent bien par défaut pour les données numériques. Que faire si vous devez examiner les distributions en fonction de données textuelles ? 
 ## Explorer le jeu de données pour les distributions à l'aide de données textuelles 
@@ -122,7 +122,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![collation envergure et conservation](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.fr.png)
+![collation envergure et conservation](../../../../../translated_images/fr/wingspan-conservation-collation.4024e9aa6910866a.webp)
 
 Il ne semble pas y avoir de bonne corrélation entre l'envergure minimale et le statut de conservation. Testez d'autres éléments du jeu de données en utilisant cette méthode. Essayez également différents filtres. Trouvez-vous une corrélation ?
 
@@ -136,7 +136,7 @@ Travaillons maintenant avec des graphiques de densité !
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![graphique de densité](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.fr.png)
+![graphique de densité](../../../../../translated_images/fr/density-plot.675ccf865b76c690.webp)
 
 Vous pouvez voir comment le graphique reflète le précédent pour les données d'EnvergureMin ; il est juste un peu plus fluide. Si vous vouliez revisiter cette ligne irrégulière de MasseCorporelleMax dans le deuxième graphique que vous avez construit, vous pourriez la lisser très bien en la recréant avec cette méthode :
 
@@ -144,7 +144,7 @@ Vous pouvez voir comment le graphique reflète le précédent pour les données 
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![densité masse corporelle](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.fr.png)
+![densité masse corporelle](../../../../../translated_images/fr/bodymass-smooth.d31ce526d82b0a1f.webp)
 
 Si vous vouliez une ligne lisse, mais pas trop lisse, modifiez le paramètre `adjust` : 
 
@@ -152,7 +152,7 @@ Si vous vouliez une ligne lisse, mais pas trop lisse, modifiez le paramètre `ad
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![masse corporelle moins lisse](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.fr.png)
+![masse corporelle moins lisse](../../../../../translated_images/fr/less-smooth-bodymass.10f4db8b683cc17d.webp)
 
 ✅ Lisez les paramètres disponibles pour ce type de graphique et expérimentez !
 
@@ -162,7 +162,7 @@ Ce type de graphique offre des visualisations magnifiquement explicatives. Avec 
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![masse corporelle par ordre](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.fr.png)
+![masse corporelle par ordre](../../../../../translated_images/fr/bodymass-per-order.9d2b065dd931b928.webp)
 
 ## 🚀 Défi
 

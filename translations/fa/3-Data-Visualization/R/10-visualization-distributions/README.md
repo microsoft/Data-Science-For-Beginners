@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![طول حداکثر بر اساس راسته](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.fa.png)
+![طول حداکثر بر اساس راسته](../../../../../translated_images/fa/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 این نمودار نمای کلی از توزیع طول بدن بر اساس راسته پرندگان ارائه می‌دهد، اما بهترین روش برای نمایش توزیع‌های واقعی نیست. این کار معمولاً با ایجاد یک هیستوگرام انجام می‌شود.
 ## کار با هیستوگرام‌ها
@@ -56,7 +56,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![توزیع در کل مجموعه داده](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.fa.png)
+![توزیع در کل مجموعه داده](../../../../../translated_images/fa/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 همانطور که مشاهده می‌کنید، بیشتر از 400 پرنده در این مجموعه داده در محدوده زیر 2000 برای جرم بدن حداکثر قرار دارند. با تغییر پارامتر `bins` به عددی بالاتر، مانند 30، اطلاعات بیشتری کسب کنید:
 
@@ -64,7 +64,7 @@ ggplot(data = birds_filtered, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![توزیع با 30 بخش](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.fa.png)
+![توزیع با 30 بخش](../../../../../translated_images/fa/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 این نمودار توزیع را به صورت کمی دقیق‌تر نشان می‌دهد. می‌توان نموداری کمتر متمایل به سمت چپ ایجاد کرد، با اطمینان از اینکه فقط داده‌های در یک محدوده خاص انتخاب شده‌اند:
 
@@ -76,7 +76,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![هیستوگرام فیلتر شده](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.fa.png)
+![هیستوگرام فیلتر شده](../../../../../translated_images/fa/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ برخی فیلترها و نقاط داده دیگر را امتحان کنید. برای مشاهده توزیع کامل داده‌ها، فیلتر `['MaxBodyMass']` را حذف کنید تا توزیع‌های برچسب‌گذاری شده نمایش داده شوند.
 
@@ -90,7 +90,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 به نظر می‌رسد یک همبستگی مورد انتظار بین این دو عنصر در طول یک محور مورد انتظار وجود دارد، با یک نقطه همگرایی بسیار قوی:
 
-![نمودار دو‌بعدی](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.fa.png)
+![نمودار دو‌بعدی](../../../../../translated_images/fa/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 هیستوگرام‌ها به طور پیش‌فرض برای داده‌های عددی خوب کار می‌کنند. اگر نیاز داشته باشید توزیع‌ها را بر اساس داده‌های متنی مشاهده کنید چه باید کرد؟
 ## بررسی مجموعه داده برای توزیع‌ها با استفاده از داده‌های متنی 
@@ -121,7 +121,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![طول بال و وضعیت حفاظتی](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.fa.png)
+![طول بال و وضعیت حفاظتی](../../../../../translated_images/fa/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 به نظر نمی‌رسد که همبستگی خوبی بین طول بال حداقل و وضعیت حفاظتی وجود داشته باشد. سایر عناصر مجموعه داده را با استفاده از این روش آزمایش کنید. می‌توانید فیلترهای مختلفی را نیز امتحان کنید. آیا همبستگی‌ای پیدا می‌کنید؟
 
@@ -135,7 +135,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![نمودار چگالی](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.fa.png)
+![نمودار چگالی](../../../../../translated_images/fa/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 می‌توانید ببینید که نمودار داده‌های طول بال حداقل قبلی را بازتاب می‌دهد؛ فقط کمی روان‌تر است. اگر بخواهید آن خط پله‌ای جرم بدن حداکثر در نمودار دوم که ساختید را بازبینی کنید، می‌توانید آن را با استفاده از این روش بسیار خوب روان کنید:
 
@@ -143,7 +143,7 @@ ggplot(data = birds_filtered_1, aes(x = MinWingspan)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![چگالی جرم بدن](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.fa.png)
+![چگالی جرم بدن](../../../../../translated_images/fa/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 اگر بخواهید یک خط روان، اما نه خیلی روان داشته باشید، پارامتر `adjust` را ویرایش کنید:
 
@@ -151,7 +151,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![چگالی جرم بدن کمتر روان](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.fa.png)
+![چگالی جرم بدن کمتر روان](../../../../../translated_images/fa/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ درباره پارامترهای موجود برای این نوع نمودار بخوانید و آزمایش کنید!
 
@@ -161,7 +161,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![چگالی جرم بدن بر اساس راسته](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.fa.png)
+![چگالی جرم بدن بر اساس راسته](../../../../../translated_images/fa/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 چالش
 

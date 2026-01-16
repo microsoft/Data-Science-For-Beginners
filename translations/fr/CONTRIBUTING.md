@@ -313,7 +313,7 @@ Incluez dans la description de votre PR :
   ```
   ````
   
-- Ajoutez du texte alternatif aux images : `![Texte alternatif](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.fr.png)`  
+- Ajoutez du texte alternatif aux images : `![Texte alternatif](../../translated_images/fr/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Gardez des longueurs de ligne raisonnables (environ 80-100 caractères)  
 
 ### Python

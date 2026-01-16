@@ -312,7 +312,7 @@ Inkluder i din PR-beskrivelse:
   import pandas as pd
   ```
   ````
-- Tilføj alt-tekst til billeder: `![Alt tekst](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.da.png)`
+- Tilføj alt-tekst til billeder: `![Alt tekst](../../translated_images/da/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Hold linjelængder rimelige (omkring 80-100 tegn)
 
 ### Python

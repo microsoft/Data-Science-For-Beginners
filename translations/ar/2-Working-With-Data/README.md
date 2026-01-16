@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # العمل مع البيانات
 
-![حب البيانات](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.ar.jpg)  
+![حب البيانات](../../../translated_images/ar/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)  
 > الصورة بواسطة <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ألكسندر سين</a> على <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 في هذه الدروس، ستتعلم بعض الطرق التي يمكن من خلالها إدارة البيانات ومعالجتها واستخدامها في التطبيقات. ستتعرف على قواعد البيانات العلائقية وغير العلائقية وكيف يمكن تخزين البيانات فيها. ستتعلم أساسيات العمل مع Python لإدارة البيانات، وستكتشف بعض الطرق العديدة التي يمكنك من خلالها استخدام Python لإدارة البيانات واستخراجها.

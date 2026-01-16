@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # التصورات
 
-![نحلة على زهرة اللافندر](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.ar.jpg)
+![نحلة على زهرة اللافندر](../../../translated_images/ar/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > الصورة بواسطة <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> على <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 تصور البيانات هو أحد أهم المهام التي يقوم بها عالم البيانات. الصور تعادل ألف كلمة، ويمكن للتصور أن يساعدك في التعرف على جميع أنواع الأجزاء المثيرة للاهتمام في بياناتك مثل القمم، والقيم الشاذة، والتجمعات، والاتجاهات، والمزيد، مما يمكن أن يساعدك في فهم القصة التي تحاول بياناتك سردها.

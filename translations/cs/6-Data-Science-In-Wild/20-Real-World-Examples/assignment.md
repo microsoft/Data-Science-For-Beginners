@@ -22,7 +22,7 @@ Rozhraní Explorer (zobrazené na snímku obrazovky níže) vám umožňuje vybr
  2. Prozkoumat [katalog datasetů](https://planetarycomputer.microsoft.com/catalog) – zjistit účel každého datasetu.
  3. Použít Explorer – vybrat dataset, který vás zajímá, zvolit relevantní dotaz a možnost vykreslení.
 
-![Explorer Planetary Computer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.cs.png)
+![Explorer Planetary Computer](../../../../translated_images/cs/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Váš úkol:`
 Nyní prostudujte vizualizaci, která se zobrazí v prohlížeči, a odpovězte na následující otázky:

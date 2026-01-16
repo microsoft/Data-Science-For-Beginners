@@ -61,7 +61,7 @@ Azure ML pakub kõiki tööriistu, mida arendajad ja andmeteadlased vajavad oma 
 
 Pole kahtlust, et projektide loomine ja ehitamine on parim viis oma oskuste ja teadmiste proovile panemiseks. Selles õppetunnis uurime kahte erinevat viisi südamepuudulikkuse rünnakute ennustamise andmeteaduse projekti loomiseks Azure ML Studios: vähe koodi/ilma koodita meetodil ja Azure ML SDK abil, nagu on näidatud järgmisel skeemil:
 
-![project-schema](../../../../translated_images/project-schema.736f6e403f321eb48d10242b3f4334dc6ccf0eabef8ff87daf52b89781389fcb.et.png)
+![project-schema](../../../../translated_images/et/project-schema.736f6e403f321eb48d10242b3f4334dc6ccf0eabef8ff87daf52b89781389fcb.png)
 
 Igal meetodil on oma plussid ja miinused. Vähe koodi/ilma koodita meetod on lihtsam alustada, kuna see hõlmab graafilise kasutajaliidese (GUI) kasutamist, ilma et oleks vaja eelnevaid teadmisi koodist. See meetod võimaldab projekti elujõulisust kiiresti testida ja luua POC (Proof Of Concept). Kuid kui projekt kasvab ja asjad peavad olema tootmisvalmis, ei ole GUI kaudu ressursside loomine teostatav. Siin muutub Azure ML SDK kasutamise oskus hädavajalikuks.
 
@@ -114,15 +114,15 @@ Azure Machine Learningi kasutamiseks looge tööruum oma Azure'i tellimuses. See
 1. Logige sisse [Azure portaali](https://ms.portal.azure.com/) Microsofti mandaatidega, mis on seotud teie Azure'i tellimusega.
 2. Valige **＋Loo ressurss**
    
-   ![workspace-1](../../../../translated_images/workspace-1.ac8694d60b073ed1ae8333d71244dc8a9b3e439d54593724f98f1beefdd27b08.et.png)
+   ![workspace-1](../../../../translated_images/et/workspace-1.ac8694d60b073ed1ae8333d71244dc8a9b3e439d54593724f98f1beefdd27b08.png)
 
    Otsige Machine Learning ja valige Machine Learningi plaat
 
-   ![workspace-2](../../../../translated_images/workspace-2.ae7c486db8796147075e4a56566aa819827dd6c4c8d18d64590317c3be625f17.et.png)
+   ![workspace-2](../../../../translated_images/et/workspace-2.ae7c486db8796147075e4a56566aa819827dd6c4c8d18d64590317c3be625f17.png)
 
    Klõpsake nuppu "Loo"
 
-   ![workspace-3](../../../../translated_images/workspace-3.398ca4a5858132cce584db9df10c5a011cd9075eb182e647a77d5cac01771eea.et.png)
+   ![workspace-3](../../../../translated_images/et/workspace-3.398ca4a5858132cce584db9df10c5a011cd9075eb182e647a77d5cac01771eea.png)
 
    Täitke seaded järgmiselt:
    - Tellimus: Teie Azure'i tellimus
@@ -134,17 +134,17 @@ Azure Machine Learningi kasutamiseks looge tööruum oma Azure'i tellimuses. See
    - Rakenduse ülevaated: Märkige vaikimisi uus rakenduse ülevaate ressurss, mis luuakse teie tööruumi jaoks
    - Konteineriregister: Puudub (üks luuakse automaatselt esimesel korral, kui juurutate mudeli konteinerisse)
 
-    ![workspace-4](../../../../translated_images/workspace-4.bac87f6599c4df63e624fc2608990f965887bee551d9dedc71c687b43b986b6a.et.png)
+    ![workspace-4](../../../../translated_images/et/workspace-4.bac87f6599c4df63e624fc2608990f965887bee551d9dedc71c687b43b986b6a.png)
 
    - Klõpsake nuppu "Loo + ülevaade" ja seejärel nuppu "Loo"
 3. Oodake, kuni teie tööruum luuakse (see võib võtta paar minutit). Seejärel minge portaali. Leiate selle Machine Learning Azure'i teenuse kaudu.
 4. Tööruumi ülevaate lehel käivitage Azure Machine Learning studio (või avage uus brauseri vahekaart ja navigeerige aadressile https://ml.azure.com) ning logige sisse Azure Machine Learning studio kasutades oma Microsofti kontot. Kui küsitakse, valige oma Azure'i kataloog ja tellimus ning Azure Machine Learningi tööruum.
    
-![workspace-5](../../../../translated_images/workspace-5.a6eb17e0a5e6420018b08bdaf3755ce977f96f1df3ea363d2476a9dce7e15adb.et.png)
+![workspace-5](../../../../translated_images/et/workspace-5.a6eb17e0a5e6420018b08bdaf3755ce977f96f1df3ea363d2476a9dce7e15adb.png)
 
 5. Azure Machine Learning studios lülitage ☰ ikooni ülaosas, et vaadata erinevaid lehti liideses. Saate neid lehti kasutada oma tööruumi ressursside haldamiseks.
 
-![workspace-6](../../../../translated_images/workspace-6.8dd81fe841797ee17f8f73916769576260b16c4e17e850d277a49db35fd74a15.et.png)
+![workspace-6](../../../../translated_images/et/workspace-6.8dd81fe841797ee17f8f73916769576260b16c4e17e850d277a49db35fd74a15.png)
 
 Tööruumi saate hallata Azure'i portaali kaudu, kuid andmeteadlaste ja masinõppe operatsioonide inseneride jaoks pakub Azure Machine Learning Studio rohkem keskendunud kasutajaliidest tööruumi ressursside haldamiseks.
 
@@ -189,18 +189,18 @@ Madala prioriteediga instants tähendab, et see on katkestatav: Microsoft Azure 
 
 [Azure ML tööruumis](https://ml.azure.com/), mille me varem lõime, minge arvutuse sektsiooni ja näete erinevaid arvutusressursse, mida me just arutasime (st arvutusinstantsid, arvutusklastrid, ennustusklastrid ja seotud arvutus). Selle projekti jaoks vajame mudeli treenimiseks arvutusklastrit. Studios klõpsake menüül "Compute", seejärel vahekaardil "Compute cluster" ja klõpsake nuppu "+ New", et luua arvutusklaster.
 
-![22](../../../../translated_images/cluster-1.b78cb630bb543729b11f60c34d97110a263f8c27b516ba4dc47807b3cee5579f.et.png)
+![22](../../../../translated_images/et/cluster-1.b78cb630bb543729b11f60c34d97110a263f8c27b516ba4dc47807b3cee5579f.png)
 
 1. Valige oma valikud: Dedikeeritud vs Madala prioriteediga, CPU või GPU, VM suurus ja tuumade arv (võite selle projekti jaoks jätta vaikeseaded).
 2. Klõpsake nupul Next.
 
-![23](../../../../translated_images/cluster-2.ea30cdbc9f926bb9e05af3fdbc1f679811c796dc2a6847f935290aec15526e88.et.png)
+![23](../../../../translated_images/et/cluster-2.ea30cdbc9f926bb9e05af3fdbc1f679811c796dc2a6847f935290aec15526e88.png)
 
 3. Andke klastrile arvutusnimi.
 4. Valige oma valikud: Minimaalne/maksimaalne sõlmede arv, tühikäigu sekundid enne vähendamist, SSH-juurdepääs. Pange tähele, et kui minimaalne sõlmede arv on 0, säästate raha, kui klaster on tühikäigul. Pange tähele, et mida suurem on maksimaalne sõlmede arv, seda lühem on treenimisaeg. Maksimaalne soovitatav sõlmede arv on 3.  
 5. Klõpsake nupul "Create". See samm võib võtta paar minutit.
 
-![29](../../../../translated_images/cluster-3.8a334bc070ec173a329ce5abd2a9d727542e83eb2347676c9af20f2c8870b3e7.et.png)
+![29](../../../../translated_images/et/cluster-3.8a334bc070ec173a329ce5abd2a9d727542e83eb2347676c9af20f2c8870b3e7.png)
 
 Suurepärane! Nüüd, kui meil on arvutusklaster, peame andmed Azure ML Studiosse laadima.
 
@@ -208,15 +208,15 @@ Suurepärane! Nüüd, kui meil on arvutusklaster, peame andmed Azure ML Studioss
 
 1. [Azure ML tööruumis](https://ml.azure.com/), mille me varem lõime, klõpsake vasakpoolses menüüs "Datasets" ja klõpsake nuppu "+ Create dataset", et luua andmestik. Valige "From local files" ja valige varem alla laaditud Kaggle'i andmestik.
 
-   ![24](../../../../translated_images/dataset-1.e86ab4e10907a6e9c2a72577b51db35f13689cb33702337b8b7032f2ef76dac2.et.png)
+   ![24](../../../../translated_images/et/dataset-1.e86ab4e10907a6e9c2a72577b51db35f13689cb33702337b8b7032f2ef76dac2.png)
 
 2. Andke oma andmestikule nimi, tüüp ja kirjeldus. Klõpsake Next. Laadige andmed failidest. Klõpsake Next.
 
-   ![25](../../../../translated_images/dataset-2.f58de1c435d5bf9ccb16ccc5f5d4380eb2b50affca85cfbf4f97562bdab99f77.et.png)
+   ![25](../../../../translated_images/et/dataset-2.f58de1c435d5bf9ccb16ccc5f5d4380eb2b50affca85cfbf4f97562bdab99f77.png)
 
 3. Skeemis muutke andmetüüp Boolean järgnevate tunnuste jaoks: anaemia, diabeet, kõrge vererõhk, sugu, suitsetamine ja DEATH_EVENT. Klõpsake Next ja seejärel Create.
 
-   ![26](../../../../translated_images/dataset-3.58db8c0eb783e89236a02bbce5bb4ba808d081a87d994d5284b1ae59928c95bf.et.png)
+   ![26](../../../../translated_images/et/dataset-3.58db8c0eb783e89236a02bbce5bb4ba808d081a87d994d5284b1ae59928c95bf.png)
 
 Suurepärane! Nüüd, kui andmestik on paigas ja arvutusklaster loodud, saame alustada mudeli treenimist!
 
@@ -226,19 +226,19 @@ Traditsiooniline masinõppe mudeli arendamine on ressursimahukas, nõuab märkim
 
 1. [Azure ML tööruumis](https://ml.azure.com/), mille me varem lõime, klõpsake vasakpoolses menüüs "Automated ML" ja valige just üles laaditud andmestik. Klõpsake Next.
 
-   ![27](../../../../translated_images/aml-1.67281a85d3a1e2f34eb367b2d0f74e1039d13396e510f363cd8766632106d1ec.et.png)
+   ![27](../../../../translated_images/et/aml-1.67281a85d3a1e2f34eb367b2d0f74e1039d13396e510f363cd8766632106d1ec.png)
 
 2. Sisestage uue eksperimendi nimi, sihtveerg (DEATH_EVENT) ja loodud arvutusklaster. Klõpsake Next.
 
-   ![28](../../../../translated_images/aml-2.c9fb9cffb39ccbbe21ab9810ae937195d41a489744e15cff2b8477ed4dcae1ec.et.png)
+   ![28](../../../../translated_images/et/aml-2.c9fb9cffb39ccbbe21ab9810ae937195d41a489744e15cff2b8477ed4dcae1ec.png)
 
 3. Valige "Classification" ja klõpsake Finish. See samm võib võtta 30 minutist kuni 1 tunnini, sõltuvalt teie arvutusklastri suurusest.
 
-   ![30](../../../../translated_images/aml-3.a7952e4295f38cc6cdb0c7ed6dc71ea756b7fb5697ec126bc1220f87c5fa9231.et.png)
+   ![30](../../../../translated_images/et/aml-3.a7952e4295f38cc6cdb0c7ed6dc71ea756b7fb5697ec126bc1220f87c5fa9231.png)
 
 4. Kui jooks on lõpetatud, klõpsake vahekaardil "Automated ML", klõpsake oma jooksul ja seejärel klõpsake "Best model summary" kaardil algoritmil.
 
-   ![31](../../../../translated_images/aml-4.7a627e09cb6f16d0aa246059d9faee3d1725cc4258d0c8df15e801f73afc7e2c.et.png)
+   ![31](../../../../translated_images/et/aml-4.7a627e09cb6f16d0aa246059d9faee3d1725cc4258d0c8df15e801f73afc7e2c.png)
 
 Siin näete üksikasjalikku kirjeldust parimast mudelist, mille AutoML genereeris. Samuti saate uurida teisi mudeleid vahekaardil Models. Võtke paar minutit, et uurida mudeleid selgituste (preview) nupul. Kui olete valinud mudeli, mida soovite kasutada (siin valime AutoML-i poolt valitud parima mudeli), näeme, kuidas seda juurutada.
 
@@ -249,15 +249,15 @@ Automatiseeritud masinõppe liides võimaldab teil parima mudeli veebiteenusena 
 
 Parima mudeli kirjelduses klõpsake nuppu "Deploy".
 
-![deploy-1](../../../../translated_images/deploy-1.ddad725acadc84e34553c3d09e727160faeb32527a9fb8b904c0f99235a34bb6.et.png)
+![deploy-1](../../../../translated_images/et/deploy-1.ddad725acadc84e34553c3d09e727160faeb32527a9fb8b904c0f99235a34bb6.png)
 
 15. Andke sellele nimi, kirjeldus, arvutustüüp (Azure Container Instance), lubage autentimine ja klõpsake Deploy. See samm võib võtta umbes 20 minutit. Juurutamisprotsess hõlmab mitmeid samme, sealhulgas mudeli registreerimist, ressursside loomist ja nende konfigureerimist veebiteenuse jaoks. Juurutamise olek ilmub Deploy status all. Valige Refresh perioodiliselt, et kontrollida juurutamise olekut. Kui olek on "Healthy", on see juurutatud ja töötab.
 
-![deploy-2](../../../../translated_images/deploy-2.94dbb13f239086473aa4bf814342fd40483d136849b080f02bafbb995383940e.et.png)
+![deploy-2](../../../../translated_images/et/deploy-2.94dbb13f239086473aa4bf814342fd40483d136849b080f02bafbb995383940e.png)
 
 16. Kui see on juurutatud, klõpsake vahekaardil Endpoint ja klõpsake just juurutatud lõpp-punkti. Siit leiate kõik üksikasjad, mida peate lõpp-punkti kohta teadma.
 
-![deploy-3](../../../../translated_images/deploy-3.fecefef070e8ef3b28e802326d107f61ac4e672d20bf82d05f78d025f9e6c611.et.png)
+![deploy-3](../../../../translated_images/et/deploy-3.fecefef070e8ef3b28e802326d107f61ac4e672d20bf82d05f78d025f9e6c611.png)
 
 Vinge! Nüüd, kui meil on mudel juurutatud, saame alustada lõpp-punkti tarbimist.
 
@@ -267,7 +267,7 @@ Klõpsake vahekaardil "Consume". Siit leiate REST-lõpp-punkti ja Python-skripti
 
 Seda skripti saab otse teie kohalikust masinast käivitada ja see tarbib teie lõpp-punkti.
 
-![35](../../../../translated_images/consumption-1.700abd196452842a020c7d745908637a6e4c5c50494ad1217be80e283e0de154.et.png)
+![35](../../../../translated_images/et/consumption-1.700abd196452842a020c7d745908637a6e4c5c50494ad1217be80e283e0de154.png)
 
 Võtke hetk, et vaadata neid kahte koodirida:
 

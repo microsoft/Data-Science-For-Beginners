@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Zde nainstalujete balíček `ggplot2` a poté jej importujete do pracovního prostoru pomocí příkazu `library("ggplot2")`. Pro vykreslení jakéhokoliv grafu v ggplot se používá funkce `ggplot()` a vy specifikujete dataset, proměnné x a y jako atributy. V tomto případě použijeme funkci `geom_line()`, protože chceme vykreslit čárový graf.
 
-![MaxRozpětí-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.cs.png)
+![MaxRozpětí-lineplot](../../../../../translated_images/cs/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Co si okamžitě všimnete? Zdá se, že existuje alespoň jeden odlehlý bod - to je docela rozpětí křídel! Rozpětí křídel přesahující 2000 centimetrů odpovídá více než 20 metrům - potulují se v Minnesotě pterodaktylové? Pojďme to prozkoumat.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Specifikujeme úhel v `theme` a specifikujeme popisky os x a y pomocí `xlab()` a `ylab()` respektive. Funkce `ggtitle()` dává grafu/jednotce název.
 
-![MaxRozpětí-lineplot-vylepšený](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.cs.png)
+![MaxRozpětí-lineplot-vylepšený](../../../../../translated_images/cs/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 I při rotaci popisků na 45 stupňů je jich příliš mnoho na čtení. Zkusme jinou strategii: označme pouze odlehlé body a nastavme popisky přímo v grafu. Můžete použít bodový graf, abyste vytvořili více prostoru pro popisky:
 
@@ -100,7 +100,7 @@ Co se zde děje? Použili jste funkci `geom_point()` k vykreslení bodů. S tím
 
 Co objevíte?
 
-![MaxRozpětí-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.cs.png)
+![MaxRozpětí-scatterplot](../../../../../translated_images/cs/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Filtrování dat
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Vytvořili jsme nový dataframe `birds_filtered` a poté vykreslili bodový graf. Filtrováním odlehlých bodů jsou vaše data nyní soudržnější a srozumitelnější.
 
-![MaxRozpětí-scatterplot-vylepšený](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.cs.png)
+![MaxRozpětí-scatterplot-vylepšený](../../../../../translated_images/cs/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Nyní, když máme čistší dataset alespoň z hlediska rozpětí křídel, pojďme objevit více o těchto ptácích.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 V následujícím úryvku instalujeme balíčky [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) a [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0), které pomáhají manipulovat a seskupovat data za účelem vykreslení seskupeného sloupcového grafu. Nejprve seskupíte data podle `Kategorie` ptáků a poté shrnete sloupce `MinDélka`, `MaxDélka`, `MinHmotnost`, `MaxHmotnost`, `MinRozpětí`, `MaxRozpětí`. Poté vykreslíte sloupcový graf pomocí balíčku `ggplot2` a specifikujete barvy pro různé kategorie a popisky.
 
-![Seskupený sloupcový graf](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.cs.png)
+![Seskupený sloupcový graf](../../../../../translated_images/cs/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Tento sloupcový graf je však nečitelný, protože obsahuje příliš mnoho neseskupených dat. Musíte vybrat pouze data, která chcete vykreslit, takže se podívejme na délku ptáků podle jejich kategorie.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Nejprve spočítáte unikátní hodnoty ve sloupci `Kategorie` a poté je seřadíte do nového dataframe `birds_count`. Tato seřazená data jsou poté faktorizována na stejné úrovni, aby byla vykreslena ve správném pořadí. Pomocí `ggplot2` poté vykreslíte data ve sloupcovém grafu. Funkce `coord_flip()` vykreslí horizontální sloupce.
 
-![Kategorie-délka](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.cs.png)
+![Kategorie-délka](../../../../../translated_images/cs/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Tento sloupcový graf poskytuje dobrý přehled o počtu ptáků v každé kategorii. Na první pohled vidíte, že největší počet ptáků v této oblasti patří do kategorie Kachny/Husy/Vodní ptáci. Minnesota je "země 10 000 jezer", takže to není překvapivé!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Seskupíme data `birds_filtered` podle `Kategorie` a poté vykreslíme sloupcový graf.
 
-![Porovnávání dat](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.cs.png)
+![Porovnávání dat](../../../../../translated_images/cs/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Nic zde není překvapivé: kolibříci mají nejmenší MaxDélku ve srovnání s pelikány nebo husami. Je dobré, když data dávají logický smysl!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![Překryté hodnoty](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.cs.png)
+![Překryté hodnoty](../../../../../translated_images/cs/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Výzva
 

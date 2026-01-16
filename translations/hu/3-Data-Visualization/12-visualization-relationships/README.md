@@ -51,7 +51,7 @@ Készíts egy alap szórásdiagramot, amely bemutatja a méz fontonkénti ára �
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![szórásdiagram 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.hu.png)
+![szórásdiagram 1](../../../../translated_images/hu/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Most mutasd meg ugyanazt az adatot méz színvilággal, hogy bemutasd, hogyan változik az ár az évek során. Ezt úgy teheted meg, hogy hozzáadsz egy 'hue' paramétert, amely az évről évre történő változást mutatja:
 
@@ -60,7 +60,7 @@ Most mutasd meg ugyanazt az adatot méz színvilággal, hogy bemutasd, hogyan v�
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![szórásdiagram 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.hu.png)
+![szórásdiagram 2](../../../../translated_images/hu/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 Ezzel a színvilág változtatással egyértelműen látható az évek során a méz fontonkénti árának erős növekedése. Valóban, ha az adatok egy mintáját megvizsgálod (például Arizona államot), láthatod az árak évről évre történő növekedésének mintázatát, néhány kivétellel:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Láthatod, hogy a pontok mérete fokozatosan növekszik.
 
-![szórásdiagram 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.hu.png)
+![szórásdiagram 3](../../../../translated_images/hu/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Ez egyszerűen a kereslet és kínálat esete? Az olyan tényezők, mint az éghajlatváltozás és a méhcsalád összeomlása miatt kevesebb méz áll rendelkezésre évről évre, és ezért nő az ára?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Válasz: Igen, néhány kivétellel 2003 körül:
 
-![vonaldiagram 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.hu.png)
+![vonaldiagram 1](../../../../translated_images/hu/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Mivel a Seaborn egyetlen vonal köré aggregálja az adatokat, "az x értékeknél lévő többszörös méréseket az átlag és az átlag körüli 95%-os konfidencia intervallum megjelenítésével ábrázolja". [Forrás](https://seaborn.pydata.org/tutorial/relational.html). Ez az időigényes viselkedés kikapcsolható a `ci=None` hozzáadásával.
 
@@ -114,7 +114,7 @@ Kérdés: Nos, 2003-ban láthatunk-e egy ugrást a mézkínálatban? Mi történ
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![vonaldiagram 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.hu.png)
+![vonaldiagram 2](../../../../translated_images/hu/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Válasz: Nem igazán. Ha megnézzük a teljes termelést, úgy tűnik, hogy az adott évben valójában növekedett, bár általánosságban a méztermelés csökkenő tendenciát mutat ezekben az években.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 Ebben a vizualizációban összehasonlíthatod a családonkénti hozamot és a méhcsaládok számát évről évre, egymás mellett, 3 oszlopos elrendezéssel:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.hu.png)
+![facet grid](../../../../translated_images/hu/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 Ebben az adatbázisban semmi különös nem tűnik ki a méhcsaládok számával és hozamával kapcsolatban évről évre és államonként. Van-e más módja annak, hogy korrelációt találjunk e két változó között?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![egymásra helyezett diagramok](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.hu.png)
+![egymásra helyezett diagramok](../../../../translated_images/hu/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Bár semmi különös nem tűnik ki 2003 körül, ez lehetőséget ad arra, hogy egy kicsit pozitívabb hangvétellel zárjuk a leckét: bár a méhcsaládok száma általánosságban csökken, a méhcsaládok száma stabilizálódik, még ha a családonkénti hozam csökken is.
 

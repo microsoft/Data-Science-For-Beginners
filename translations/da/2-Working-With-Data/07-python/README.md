@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Arbejde med Python - _Sketchnote af [@nitya](https://twitter.com/nitya)_                 |
 
-[![Introduktionsvideo](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.da.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Introduktionsvideo](../../../../translated_images/da/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Selvom databaser tilbyder meget effektive måder at gemme data og forespørge dem ved hjælp af forespørgselssprog, er den mest fleksible måde at bearbejde data på at skrive dit eget program til at manipulere data. I mange tilfælde vil en databaseforespørgsel være en mere effektiv løsning. Men i nogle tilfælde, hvor mere kompleks databehandling er nødvendig, kan det ikke nemt gøres med SQL. 
 Databehandling kan programmeres i ethvert programmeringssprog, men der er visse sprog, der er mere avancerede, når det kommer til at arbejde med data. Dataforskere foretrækker typisk et af følgende sprog:
@@ -75,7 +75,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Tidsserieplot](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.da.png)
+![Tidsserieplot](../../../../translated_images/da/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Antag nu, at vi hver uge arrangerer en fest for venner, og vi tager yderligere 10 pakker is med til festen. Vi kan oprette en anden series, indekseret efter uge, for at demonstrere det:
 ```python
@@ -86,7 +86,7 @@ Når vi lægger de to series sammen, får vi det samlede antal:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Tidsserieplot](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.da.png)
+![Tidsserieplot](../../../../translated_images/da/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Bemærk** at vi ikke bruger den simple syntaks `total_items+additional_items`. Hvis vi gjorde det, ville vi få mange `NaN` (*Not a Number*) værdier i den resulterende series. Dette skyldes, at der mangler værdier for nogle af indeksene i `additional_items`-serien, og at lægge `NaN` til noget resulterer i `NaN`. Derfor skal vi angive parameteren `fill_value` under addition.
 
@@ -95,7 +95,7 @@ Med tidsserier kan vi også **resample** serien med forskellige tidsintervaller.
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Månedlige tidsserie-gennemsnit](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.da.png)
+![Månedlige tidsserie-gennemsnit](../../../../translated_images/da/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -221,7 +221,7 @@ Det første problem, vi vil fokusere på, er modellering af den epidemiske spred
 
 Da vi ønsker at demonstrere, hvordan man arbejder med data, inviterer vi dig til at åbne [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) og læse det fra top til bund. Du kan også udføre celler og lave nogle udfordringer, som vi har efterladt til dig i slutningen.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.da.png)
+![COVID Spread](../../../../translated_images/da/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Hvis du ikke ved, hvordan man kører kode i Jupyter Notebook, kan du kigge på [denne artikel](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -243,7 +243,7 @@ Et fuldt eksempel på analyse af dette datasæt ved hjælp af [Text Analytics fo
 
 Åbn [`notebook-papers.ipynb`](notebook-papers.ipynb) og læs det fra top til bund. Du kan også udføre celler og lave nogle udfordringer, som vi har efterladt til dig i slutningen.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.da.png)
+![Covid Medical Treatment](../../../../translated_images/da/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Behandling af billeddata
 

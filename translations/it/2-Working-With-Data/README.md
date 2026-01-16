@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Lavorare con i Dati
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.it.jpg)
+![data love](../../../translated_images/it/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Foto di <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> su <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 In queste lezioni, imparerai alcuni dei modi in cui i dati possono essere gestiti, manipolati e utilizzati nelle applicazioni. Scoprirai i database relazionali e non relazionali e come i dati possono essere archiviati al loro interno. Imparerai le basi per lavorare con Python nella gestione dei dati e scoprirai alcune delle numerose modalità con cui puoi utilizzare Python per gestire e analizzare i dati.

@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Trabajando con Python - _Sketchnote por [@nitya](https://twitter.com/nitya)_              |
 
-[![Video Introductorio](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.es.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Video Introductorio](../../../../translated_images/es/video-ds-python.245247dc811db8e4.webp)](https://youtu.be/dZjWOGbsN4Y)
 
 Aunque las bases de datos ofrecen formas muy eficientes de almacenar datos y consultarlos mediante lenguajes de consulta, la forma más flexible de procesar datos es escribir tu propio programa para manipularlos. En muchos casos, realizar una consulta en una base de datos sería una forma más efectiva. Sin embargo, en algunos casos donde se necesita un procesamiento de datos más complejo, no se puede hacer fácilmente usando SQL.  
 El procesamiento de datos se puede programar en cualquier lenguaje de programación, pero hay ciertos lenguajes que son de nivel más alto en lo que respecta al trabajo con datos. Los científicos de datos suelen preferir uno de los siguientes lenguajes:
@@ -72,7 +72,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```  
-![Gráfico de Series Temporales](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.es.png)
+![Gráfico de Series Temporales](../../../../translated_images/es/timeseries-1.80de678ab1cf727e.webp)
 
 Ahora supongamos que cada semana organizamos una fiesta para amigos y tomamos 10 paquetes adicionales de helado para la fiesta. Podemos crear otra serie, indexada por semana, para demostrar eso:  
 ```python
@@ -83,7 +83,7 @@ Cuando sumamos dos series, obtenemos el número total:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```  
-![Gráfico de Series Temporales](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.es.png)
+![Gráfico de Series Temporales](../../../../translated_images/es/timeseries-2.aae51d575c55181c.webp)
 
 > **Nota** que no estamos usando la sintaxis simple `total_items+additional_items`. Si lo hiciéramos, recibiríamos muchos valores `NaN` (*Not a Number*) en la serie resultante. Esto se debe a que hay valores faltantes para algunos puntos del índice en la serie `additional_items`, y sumar `NaN` a cualquier cosa da como resultado `NaN`. Por lo tanto, necesitamos especificar el parámetro `fill_value` durante la suma.
 
@@ -92,7 +92,7 @@ Con las series temporales, también podemos **re-muestrear** la serie con difere
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```  
-![Promedios Mensuales de Series Temporales](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.es.png)
+![Promedios Mensuales de Series Temporales](../../../../translated_images/es/timeseries-3.f3147cbc8c624881.webp)
 
 ### DataFrame
 
@@ -218,7 +218,7 @@ El primer problema en el que nos enfocaremos es el modelado de la propagación e
 
 Como queremos demostrar cómo manejar datos, te invitamos a abrir [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) y leerlo de principio a fin. También puedes ejecutar las celdas y realizar algunos desafíos que hemos dejado para ti al final.  
 
-![Propagación del COVID](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.es.png)  
+![Propagación del COVID](../../../../translated_images/es/covidspread.f3d131c4f1d260ab.webp)  
 
 > Si no sabes cómo ejecutar código en Jupyter Notebook, consulta [este artículo](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).  
 
@@ -240,7 +240,7 @@ Un ejemplo completo de análisis de este conjunto de datos utilizando el servici
 
 Abre [`notebook-papers.ipynb`](notebook-papers.ipynb) y léelo de principio a fin. También puedes ejecutar las celdas y realizar algunos desafíos que hemos dejado para ti al final.  
 
-![Tratamiento Médico COVID](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.es.png)  
+![Tratamiento Médico COVID](../../../../translated_images/es/covidtreat.b2ba59f57ca45fbc.webp)  
 
 ## Procesando Datos de Imágenes  
 

@@ -22,7 +22,7 @@ Antarmuka Explorer (ditampilkan dalam tangkapan layar di bawah) memungkinkan And
  2. Jelajahi [Katalog dataset](https://planetarycomputer.microsoft.com/catalog) - pelajari tujuan masing-masing.
  3. Gunakan Explorer - pilih dataset yang menarik, pilih kueri dan opsi rendering yang relevan.
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.id.png)
+![The Planetary Computer Explorer](../../../../translated_images/id/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Tugas Anda:`
 Sekarang pelajari visualisasi yang ditampilkan di browser dan jawab pertanyaan berikut:

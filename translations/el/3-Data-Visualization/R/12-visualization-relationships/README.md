@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.el.png)
+![scatterplot 1](../../../../../translated_images/el/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 Τώρα, δείξτε τα ίδια δεδομένα με μια χρωματική παλέτα που θυμίζει μέλι, για να δείξετε πώς εξελίσσεται η τιμή με την πάροδο των ετών. Μπορείτε να το κάνετε αυτό προσθέτοντας την παράμετρο 'scale_color_gradientn' για να δείξετε την αλλαγή, χρόνο με τον χρόνο:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.el.png)
+![scatterplot 2](../../../../../translated_images/el/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 Με αυτή την αλλαγή χρωματικής παλέτας, μπορείτε να δείτε ότι υπάρχει προφανώς μια ισχυρή εξέλιξη με την πάροδο των ετών όσον αφορά την τιμή του μελιού ανά λίβρα. Πράγματι, αν κοιτάξετε ένα δείγμα δεδομένων για να το επαληθεύσετε (επιλέξτε, για παράδειγμα, την Αριζόνα), μπορείτε να δείτε ένα μοτίβο αύξησης της τιμής χρόνο με τον χρόνο, με λίγες εξαιρέσεις:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Μπορείτε να δείτε το μέγεθος των κουκκίδων να αυξάνεται σταδιακά.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.el.png)
+![scatterplot 3](../../../../../translated_images/el/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 Είναι αυτό μια απλή περίπτωση προσφοράς και ζήτησης; Λόγω παραγόντων όπως η κλιματική αλλαγή και η κατάρρευση αποικιών, υπάρχει λιγότερο διαθέσιμο μέλι για αγορά χρόνο με τον χρόνο, και έτσι αυξάνεται η τιμή;
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Απάντηση: Ναι, με κάποιες εξαιρέσεις γύρω στο 2003:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.el.png)
+![line chart 1](../../../../../translated_images/el/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 Ερώτηση: Λοιπόν, το 2003 μπορούμε επίσης να δούμε μια αύξηση στην προσφορά μελιού; Τι γίνεται αν κοιτάξετε τη συνολική παραγωγή χρόνο με τον χρόνο;
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.el.png)
+![line chart 2](../../../../../translated_images/el/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 Απάντηση: Όχι ακριβώς. Αν κοιτάξετε τη συνολική παραγωγή, φαίνεται να έχει αυξηθεί εκείνη τη χρονιά, παρόλο που γενικά η ποσότητα του παραγόμενου μελιού μειώνεται κατά τη διάρκεια αυτών των ετών.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 Σε αυτή την οπτικοποίηση, μπορείτε να συγκρίνετε την απόδοση ανά αποικία και τον αριθμό των αποικιών χρόνο με τον χρόνο, δίπλα-δίπλα, με το περιτύλιγμα να έχει οριστεί στις 3 στήλες:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.el.png)
+![facet grid](../../../../../translated_images/el/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 Για αυτό το σύνολο δεδομένων, τίποτα ιδιαίτερο δεν ξεχωρίζει όσον αφορά τον αριθμό των αποικιών και την απόδοσή τους, χρόνο με τον χρόνο και πολιτεία με πολιτεία. Υπάρχει διαφορετικός τρόπος να βρείτε μια συσχέτιση μεταξύ αυτών των δύο μεταβλητών;
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.el.png)
+![superimposed plots](../../../../../translated_images/el/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 Ενώ τίποτα δεν τραβάει την προσοχή γύρω στο 2003, αυτό μας επιτρέπει να κλείσουμε το μάθημα με μια πιο αισιόδοξη νότα: ενώ υπάρχει συνολικά μείωση στον αριθμό των αποικιών, ο αριθμός των αποικιών σταθεροποιείται, ακόμα κι αν η απόδοση ανά αποικία μειώνεται.
 

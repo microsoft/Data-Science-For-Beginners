@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # データの活用
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.ja.jpg)
+![data love](../../../translated_images/ja/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > 写真提供: <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> on <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 このレッスンでは、データを管理、操作、そしてアプリケーションで活用する方法について学びます。リレーショナルデータベースと非リレーショナルデータベースについて学び、それらにデータを保存する方法を理解します。また、Pythonを使ったデータ管理の基本を学び、Pythonを活用してデータを管理・分析するさまざまな方法を発見します。

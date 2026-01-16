@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # علم داده در فضای ابری
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.fa.jpg)
+![cloud-picture](../../../translated_images/fa/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > عکس از [Jelleke Vanooteghem](https://unsplash.com/@ilumire) در [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 وقتی صحبت از انجام علم داده با داده‌های بزرگ می‌شود، فضای ابری می‌تواند یک تغییر اساسی ایجاد کند. در سه درس بعدی، بررسی خواهیم کرد که فضای ابری چیست و چرا می‌تواند بسیار مفید باشد. همچنین یک مجموعه داده مربوط به نارسایی قلبی را بررسی کرده و مدلی برای ارزیابی احتمال نارسایی قلبی در افراد ایجاد خواهیم کرد. از قدرت فضای ابری برای آموزش، استقرار و استفاده از مدل به دو روش مختلف استفاده خواهیم کرد. یک روش با استفاده از رابط کاربری به صورت "کد کم/بدون کد"، و روش دیگر با استفاده از کیت توسعه نرم‌افزار Azure Machine Learning (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.fa.png)
+![project-schema](../../../translated_images/fa/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### موضوعات
 

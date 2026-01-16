@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 處理數據
 
-![數據之愛](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.hk.jpg)  
+![數據之愛](../../../translated_images/hk/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)  
 > 照片由 <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> 提供，來自 <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 在這些課程中，你將學習一些管理、操作和應用數據的方法。你會了解關聯式和非關聯式數據庫，以及數據如何存儲在其中。你將學習使用 Python 管理數據的基礎知識，並探索多種使用 Python 管理和挖掘數據的方法。

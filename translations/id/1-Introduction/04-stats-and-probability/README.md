@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Teori Statistik dan Probabilitas adalah dua bidang Matematika yang sangat terkait dan sangat relevan dengan Ilmu Data. Meskipun memungkinkan untuk bekerja dengan data tanpa pengetahuan mendalam tentang matematika, tetap lebih baik untuk memahami setidaknya beberapa konsep dasar. Di sini, kami akan memberikan pengantar singkat yang akan membantu Anda memulai.
 
-[![Video Pengantar](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.id.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Video Pengantar](../../../../translated_images/id/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Kuis Pra-Kuliah](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Lebih sulit untuk menggambarkan distribusi probabilitas variabel kontinu, dengan
 
 Kita hanya dapat berbicara tentang probabilitas variabel jatuh dalam interval nilai tertentu, misalnya P(t<sub>1</sub>≤X<t<sub>2</sub>). Dalam kasus ini, distribusi probabilitas digambarkan oleh **fungsi kepadatan probabilitas** p(x), sehingga
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.id.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/id/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Analog kontinu dari distribusi uniform disebut **uniform kontinu**, yang didefinisikan pada interval terbatas. Probabilitas bahwa nilai X jatuh ke dalam interval dengan panjang l sebanding dengan l, dan meningkat hingga 1.
 
@@ -82,11 +82,11 @@ Ketika kita menganalisis data dari kehidupan nyata, data tersebut sering kali bu
 
 Berikut adalah box plot yang menunjukkan rata-rata, median, dan kuartil untuk data kita:
 
-![Box Plot Berat Badan](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.id.png)
+![Box Plot Berat Badan](../../../../translated_images/id/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Karena data kita berisi informasi tentang **peran** pemain yang berbeda, kita juga dapat membuat box plot berdasarkan peran - ini akan memungkinkan kita mendapatkan gambaran tentang bagaimana nilai parameter berbeda di antara peran. Kali ini kita akan mempertimbangkan tinggi badan:
 
-![Box plot berdasarkan peran](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.id.png)
+![Box plot berdasarkan peran](../../../../translated_images/id/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Diagram ini menunjukkan bahwa, rata-rata, tinggi basemen pertama lebih tinggi daripada tinggi basemen kedua. Nanti dalam pelajaran ini kita akan belajar bagaimana kita dapat menguji hipotesis ini secara lebih formal, dan bagaimana menunjukkan bahwa data kita secara statistik signifikan untuk membuktikannya.
 
@@ -94,7 +94,7 @@ Diagram ini menunjukkan bahwa, rata-rata, tinggi basemen pertama lebih tinggi da
 
 Untuk melihat seperti apa distribusi data kita, kita dapat membuat grafik yang disebut **histogram**. Sumbu X akan berisi sejumlah interval berat badan yang berbeda (yang disebut **bin**), dan sumbu vertikal akan menunjukkan jumlah sampel variabel acak yang berada dalam interval tertentu.
 
-![Histogram data dunia nyata](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.id.png)
+![Histogram data dunia nyata](../../../../translated_images/id/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Dari histogram ini Anda dapat melihat bahwa semua nilai terpusat di sekitar berat badan rata-rata tertentu, dan semakin jauh kita dari berat badan tersebut - semakin sedikit berat badan dengan nilai tersebut yang ditemukan. Artinya, sangat kecil kemungkinan berat badan pemain baseball akan sangat berbeda dari berat badan rata-rata. Variansi berat badan menunjukkan sejauh mana berat badan cenderung berbeda dari rata-rata.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Jika kita membuat histogram dari sampel yang dihasilkan, kita akan melihat gambar yang sangat mirip dengan yang ditunjukkan di atas. Dan jika kita meningkatkan jumlah sampel dan jumlah bin, kita dapat menghasilkan gambar distribusi normal yang lebih mendekati ideal:
 
-![Distribusi Normal dengan mean=0 dan std.dev=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.id.png)
+![Distribusi Normal dengan mean=0 dan std.dev=1](../../../../translated_images/id/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Distribusi Normal dengan mean=0 dan std.dev=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 Dalam kasus kita, nilai 0.53 menunjukkan bahwa ada beberapa korelasi antara berat dan tinggi seseorang. Kita juga dapat membuat scatter plot dari satu nilai terhadap nilai lainnya untuk melihat hubungan secara visual:
 
-![Hubungan antara berat dan tinggi](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.id.png)
+![Hubungan antara berat dan tinggi](../../../../translated_images/id/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Lebih banyak contoh korelasi dan kovarians dapat ditemukan di [notebook pendamping](notebook.ipynb).
 

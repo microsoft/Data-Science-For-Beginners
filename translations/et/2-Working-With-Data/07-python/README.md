@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :------------------------------------------------------------------------------------------------------------: |
 |                 Töötamine Pythoniga - _Sketchnote autorilt [@nitya](https://twitter.com/nitya)_                 |
 
-[![Sissejuhatav video](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.et.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Sissejuhatav video](../../../../translated_images/et/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Kuigi andmebaasid pakuvad väga tõhusaid viise andmete salvestamiseks ja nende pärimiseks päringukeelte abil, on kõige paindlikum viis andmete töötlemiseks kirjutada oma programm, mis andmeid manipuleerib. Paljudel juhtudel oleks andmebaasi päring tõhusam lahendus. Kuid mõnel juhul, kui on vaja keerukamat andmetöötlust, ei saa seda lihtsalt SQL-i abil teha.  
 Andmetöötlust saab programmeerida mis tahes programmeerimiskeeles, kuid on teatud keeled, mis on andmetega töötamisel kõrgemal tasemel. Andmeteadlased eelistavad tavaliselt ühte järgmistest keeltest:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Ajaseeria graafik](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.et.png)
+![Ajaseeria graafik](../../../../translated_images/et/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Oletame nüüd, et igal nädalal korraldame sõpradele peo ja võtame peole lisaks 10 pakki jäätist. Saame luua teise Series'i, mis on indekseeritud nädala järgi, et seda näidata:
 ```python
@@ -84,7 +84,7 @@ Kui liidame kaks Series'it, saame koguarvu:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Ajaseeria graafik](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.et.png)
+![Ajaseeria graafik](../../../../translated_images/et/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Märkus**: Me ei kasuta lihtsat süntaksit `total_items+additional_items`. Kui me seda teeksime, saaksime palju `NaN` (*Not a Number*) väärtusi tulemuseks olevas Series'is. See on tingitud sellest, et `additional_items` Series'is puuduvad väärtused mõne indeksi punkti jaoks ja `NaN` lisamine millelegi annab tulemuseks `NaN`. Seetõttu peame liitmisel määrama `fill_value` parameetri.
 
@@ -93,7 +93,7 @@ Ajaseeriatega saame ka **ümberproovida** seeriat erinevate ajavahemikega. Näit
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Kuulised ajaseeria keskmised](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.et.png)
+![Kuulised ajaseeria keskmised](../../../../translated_images/et/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ Esimene probleem, millele keskendume, on COVID-19 epideemia leviku modelleerimin
 
 Kuna tahame näidata, kuidas andmetega töötada, kutsume teid avama [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) ja lugema seda algusest lõpuni. Võite ka rakke käivitada ja lahendada mõned väljakutsed, mille oleme teile lõppu jätnud.
 
-![COVID levik](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.et.png)
+![COVID levik](../../../../translated_images/et/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Kui te ei tea, kuidas Jupyter Notebookis koodi käivitada, vaadake [seda artiklit](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,7 +241,7 @@ Täielik näide selle andmestiku analüüsimisest, kasutades [Text Analytics for
 
 Avage [`notebook-papers.ipynb`](notebook-papers.ipynb) ja lugege seda algusest lõpuni. Võite ka rakke käivitada ja lahendada mõned väljakutsed, mille oleme teile lõppu jätnud.
 
-![COVID meditsiiniline ravi](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.et.png)
+![COVID meditsiiniline ravi](../../../../translated_images/et/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Pildiandmete töötlemine
 

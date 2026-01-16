@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Le cycle de vie de la science des données
 
-![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.fr.jpg)
+![communication](../../../translated_images/fr/communication.06d8e2a88d30d168.webp)
 > Photo par <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> sur <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Dans ces leçons, vous explorerez certains aspects du cycle de vie de la science des données, y compris l'analyse et la communication autour des données.

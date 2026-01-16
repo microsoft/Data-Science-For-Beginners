@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![ಡೇಟಾ ಸೈನ್ಸ್ ವ್ಯಾಖ್ಯಾನಿಸುವ ವೀಡಿಯೊ](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.kn.png)](https://youtu.be/beZ7Mb_oz9I)
+[![ಡೇಟಾ ಸೈನ್ಸ್ ವ್ಯಾಖ್ಯಾನಿಸುವ ವೀಡಿಯೊ](../../../../translated_images/kn/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [ಪೂರ್ವ-ಲೇಕ್ಚರ್ ಕ್ವಿಜ್](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ಈ ಸವಾಲಿನಲ್ಲಿ, ನಾವು ಪಠ್ಯಗಳನ್ನು ನೋಡಿ ಡೇಟಾ ಸೈನ್ಸ್ ಕ್ಷೇತ್ರಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ತತ್ವಗಳನ್ನು ಹುಡುಕಲು ಪ್ರಯತ್ನಿಸುವೆವು. ನಾವು ಡೇಟಾ ಸೈನ್ಸ್ ಕುರಿತು ವಿಕಿಪೀಡಿಯ ಲೇಖನವನ್ನು ತೆಗೆದು, ಪಠ್ಯವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಿ, ನಂತರ ಈ ರೀತಿಯ ಪದ ಮೋಡವನ್ನು ನಿರ್ಮಿಸುವೆವು:
 
-![Word Cloud for Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.kn.png)
+![Word Cloud for Data Science](../../../../translated_images/kn/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 ಕೋಡ್ ಓದಲು [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') ಗೆ ಭೇಟಿ ನೀಡಿ. ನೀವು ಕೋಡ್ ಅನ್ನು ಚಲಾಯಿಸಬಹುದು ಮತ್ತು ಅದು ಎಲ್ಲಾ ಡೇಟಾ ಪರಿವರ್ತನೆಗಳನ್ನು ನೈಜ ಸಮಯದಲ್ಲಿ ಹೇಗೆ ನಿರ್ವಹಿಸುತ್ತದೆ ಎಂದು ನೋಡಬಹುದು.
 

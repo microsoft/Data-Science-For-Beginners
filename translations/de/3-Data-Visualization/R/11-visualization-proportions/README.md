@@ -92,7 +92,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, ein Tortendiagramm, das die Proportionen dieser Daten entsprechend den beiden Pilzklassen zeigt. Es ist sehr wichtig, die Reihenfolge der Labels korrekt zu setzen, besonders hier, also überprüfe unbedingt die Reihenfolge, in der das Label-Array erstellt wird!
 
-![Tortendiagramm](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.de.png)
+![Tortendiagramm](../../../../../translated_images/de/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Donuts!
 
@@ -126,7 +126,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![Donut-Diagramm](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.de.png)
+![Donut-Diagramm](../../../../../translated_images/de/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Dieser Code verwendet die beiden Bibliotheken ggplot2 und webr. Mit der PieDonut-Funktion der webr-Bibliothek können wir ein Donut-Diagramm einfach erstellen!
 
@@ -164,7 +164,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Mit einem Waffel-Diagramm kannst du die Proportionen der Hutfarben in diesem Pilz-Datenset deutlich sehen. Interessanterweise gibt es viele Pilze mit grünen Hüten!
 
-![Waffel-Diagramm](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.de.png)
+![Waffel-Diagramm](../../../../../translated_images/de/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 In dieser Lektion hast du drei Möglichkeiten gelernt, Proportionen zu visualisieren. Zuerst musst du deine Daten in Kategorien gruppieren und dann entscheiden, welche die beste Möglichkeit ist, die Daten darzustellen - Torte, Donut oder Waffel. Alle sind köstlich und bieten dem Benutzer einen sofortigen Überblick über ein Datenset.
 

@@ -312,7 +312,7 @@ Uključite u opis PR-a:
   import pandas as pd
   ```
   ````
-- Dodajte alt tekst slikama: `![Alt tekst](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.hr.png)`
+- Dodajte alt tekst slikama: `![Alt tekst](../../translated_images/hr/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Održavajte razumnu duljinu linija (oko 80-100 znakova)
 
 ### Python

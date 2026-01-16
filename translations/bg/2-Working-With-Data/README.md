@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Работа с данни
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.bg.jpg)
+![data love](../../../translated_images/bg/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Снимка от <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> на <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 В тези уроци ще научите някои от начините, по които данните могат да бъдат управлявани, манипулирани и използвани в приложения. Ще се запознаете с релационни и нерелационни бази данни и как данните могат да се съхраняват в тях. Ще научите основите на работата с Python за управление на данни и ще откриете някои от многото начини, по които можете да използвате Python за управление и анализ на данни.

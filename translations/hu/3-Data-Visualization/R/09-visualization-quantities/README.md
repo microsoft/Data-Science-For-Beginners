@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Itt telepítjük a `ggplot2` csomagot, majd importáljuk a munkaterületre a `library("ggplot2")` paranccsal. Bármilyen diagramot a ggplotban a `ggplot()` függvénnyel készítünk, és megadjuk az adatállományt, az x és y változókat attribútumként. Ebben az esetben a `geom_line()` függvényt használjuk, mivel vonaldiagramot szeretnénk ábrázolni.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.hu.png)
+![MaxWingspan-lineplot](../../../../../translated_images/hu/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Mit veszel észre azonnal? Úgy tűnik, van legalább egy kiugró érték - ez elég nagy szárnyfesztáv! Egy 2000+ centiméteres szárnyfesztáv több mint 20 métert jelent - vajon Pterodactylusok kószálnak Minnesotában? Vizsgáljuk meg.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 A szögek megadását a `theme`-ben végezzük, az x és y tengely címkéit pedig a `xlab()` és `ylab()` segítségével adjuk meg. A `ggtitle()` nevet ad a diagramnak/grafikonnak.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.hu.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/hu/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Még a címkék 45 fokos elforgatásával is túl sok van ahhoz, hogy olvasható legyen. Próbáljunk ki egy másik stratégiát: csak a kiugró értékeket címkézzük meg, és helyezzük el a címkéket a diagramon belül. Használhatunk szórásdiagramot, hogy több helyet biztosítsunk a címkézéshez:
 
@@ -100,7 +100,7 @@ Mi történik itt? A `geom_point()` függvényt használjuk szóráspontok ábr�
 
 Mit fedezel fel?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.hu.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/hu/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Szűrd az adataidat
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Létrehoztunk egy új adatkeretet `birds_filtered` néven, majd szórásdiagramot ábrázoltunk. A kiugró értékek kiszűrésével az adataid most összefüggőbbek és érthetőbbek.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.hu.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/hu/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Most, hogy legalább a szárnyfesztáv szempontjából tisztább adatállományunk van, fedezzünk fel többet ezekről a madarakról.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 A következő kódrészletben telepítjük a [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) és [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) csomagokat, hogy segítsenek az adatok manipulálásában és csoportosításában, majd egy halmozott oszlopdiagramot ábrázolunk. Először csoportosítjuk az adatokat a madár `Category` szerint, majd összesítjük a `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan` oszlopokat. Ezután a `ggplot2` csomag segítségével ábrázoljuk az oszlopdiagramot, megadva a különböző kategóriák színeit és címkéit.
 
-![Halmozott oszlopdiagram](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.hu.png)
+![Halmozott oszlopdiagram](../../../../../translated_images/hu/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Ez az oszlopdiagram azonban olvashatatlan, mert túl sok nem csoportosított adat van. Ki kell választanunk csak azokat az adatokat, amelyeket ábrázolni szeretnénk, így nézzük meg a madarak hosszát kategóriájuk alapján.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Először megszámoljuk az egyedi értékeket a `Category` oszlopban, majd egy új adatkeretbe `birds_count` néven rendezzük őket. Ez a rendezett adat ugyanazon szinten van faktorizálva, hogy rendezett módon ábrázoljuk. A `ggplot2` segítségével ezután oszlopdiagramot ábrázolunk. A `coord_flip()` vízszintes oszlopokat ábrázol.
 
-![Kategória-hossz](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.hu.png)
+![Kategória-hossz](../../../../../translated_images/hu/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Ez az oszlopdiagram jó képet ad arról, hogy hány madár van az egyes kategóriákban. Egy pillantás alatt látható, hogy ebben a régióban a legtöbb madár a Kacsák/Ludak/Vízimadarak kategóriába tartozik. Minnesota a "10,000 tó földje", így ez nem meglepő!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Csoportosítjuk a `birds_filtered` adatokat `Category` szerint, majd oszlopdiagramot ábrázolunk.
 
-![Adatok összehasonlítása](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.hu.png)
+![Adatok összehasonlítása](../../../../../translated_images/hu/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Semmi meglepő: a kolibriknek van a legkisebb MaxLength értéke a pelikánokhoz vagy ludakhoz képest. Jó, ha az adatok logikusak!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![Egymásra helyezett értékek](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.hu.png)
+![Egymásra helyezett értékek](../../../../../translated_images/hu/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Kihívás
 

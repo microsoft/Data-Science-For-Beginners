@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 統計学と確率論は、データサイエンスにおいて非常に関連性の高い数学の分野です。数学の深い知識がなくてもデータを扱うことは可能ですが、基本的な概念を少しでも知っておく方が良いでしょう。ここでは、始めるための簡単な紹介を行います。
 
-[![イントロ動画](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.ja.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![イントロ動画](../../../../translated_images/ja/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [講義前のクイズ](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 変数が特定の値の範囲に収まる確率についてのみ話すことができます。例えば、P(t<sub>1</sub>≤X<t<sub>2</sub>)です。この場合、確率分布は**確率密度関数**p(x)によって記述されます。
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.ja.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/ja/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 連続型の一様分布は**連続一様分布**と呼ばれ、有限の区間で定義されます。値Xが長さlの区間に収まる確率はlに比例し、最大で1になります。
 
@@ -82,11 +82,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 以下は、データの平均、中央値、四分位数を示す箱ひげ図です：
 
-![体重の箱ひげ図](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.ja.png)
+![体重の箱ひげ図](../../../../translated_images/ja/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 データには異なる選手の**役割**に関する情報が含まれているため、役割ごとに箱ひげ図を作成することもできます。これにより、パラメータ値が役割ごとにどのように異なるかを把握できます。今回は身長を考慮します：
 
-![役割ごとの箱ひげ図](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.ja.png)
+![役割ごとの箱ひげ図](../../../../translated_images/ja/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 この図から、平均的に一塁手の身長が二塁手の身長より高いことが示唆されています。このレッスンの後半では、この仮説をより正式にテストする方法と、データが統計的に有意であることを示す方法を学びます。
 
@@ -94,7 +94,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 データの分布を確認するために、**ヒストグラム**と呼ばれるグラフをプロットすることができます。X軸には異なる体重区間（**ビン**）の数を含め、縦軸にはランダム変数のサンプルが特定の区間内に収まった回数を示します。
 
-![実世界データのヒストグラム](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.ja.png)
+![実世界データのヒストグラム](../../../../translated_images/ja/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 このヒストグラムから、すべての値が特定の平均体重の周りに集中しており、その体重から離れるほど、その値の体重が観測される頻度が減少することがわかります。つまり、野球選手の体重が平均体重から大きく異なることは非常に起こりにくいです。体重の分散は、体重が平均からどの程度異なる可能性があるかを示します。
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 生成されたサンプルのヒストグラムをプロットすると、上記の図に非常に似たものが表示されます。サンプル数とビン数を増やすと、理想に近い正規分布の図を生成することができます：
 
-![平均=0、標準偏差=1の正規分布](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.ja.png)
+![平均=0、標準偏差=1の正規分布](../../../../translated_images/ja/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *平均=0、標準偏差=1の正規分布*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 この場合、値0.53は、体重と身長の間にある程度の相関があることを示しています。また、1つの値をもう1つの値に対して散布図を作成し、関係を視覚的に確認することもできます：
 
-![体重と身長の関係](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.ja.png)
+![体重と身長の関係](../../../../translated_images/ja/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > 相関と共分散のさらなる例は[付属のノートブック](notebook.ipynb)に記載されています。
 

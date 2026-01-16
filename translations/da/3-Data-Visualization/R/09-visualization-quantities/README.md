@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Her installerer du `ggplot2`-pakken og importerer den derefter til arbejdsområdet ved hjælp af kommandoen `library("ggplot2")`. For at plotte et diagram i ggplot bruges funktionen `ggplot()`, hvor du angiver datasættet samt x- og y-variabler som attributter. I dette tilfælde bruger vi funktionen `geom_line()`, da vi ønsker at plotte et linjediagram.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.da.png)
+![MaxWingspan-lineplot](../../../../../translated_images/da/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Hvad bemærker du med det samme? Der ser ud til at være mindst én outlier – det er et ret stort vingefang! Et vingefang på over 2000 centimeter svarer til mere end 20 meter – er der pterodaktyler i Minnesota? Lad os undersøge det nærmere.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Vi angiver vinklen i `theme` og specificerer labels for x- og y-aksen i henholdsvis `xlab()` og `ylab()`. `ggtitle()` giver diagrammet en titel.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.da.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/da/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Selv med rotationen af labels sat til 45 grader er der for mange til at læse. Lad os prøve en anden strategi: kun at label outliers og placere labels inden for diagrammet. Du kan bruge et punktdiagram for at skabe mere plads til labeling:
 
@@ -100,7 +100,7 @@ Hvad sker der her? Du brugte funktionen `geom_point()` til at plotte punkter. Me
 
 Hvad opdager du?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.da.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/da/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Filtrer dine data
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Vi oprettede en ny dataframe `birds_filtered` og plottede derefter et punktdiagram. Ved at filtrere outliers ud er dine data nu mere sammenhængende og forståelige.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.da.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/da/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Nu hvor vi har et renere datasæt, i det mindste hvad angår vingefang, lad os opdage mere om disse fugle.
 
@@ -161,7 +161,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 I det følgende snippet installerer vi pakkerne [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) og [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) for at hjælpe med at manipulere og gruppere data for at plotte et stablet søjlediagram. Først grupperer du dataene efter fuglenes `Category` og opsummerer kolonnerne `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Derefter plottes søjlediagrammet ved hjælp af `ggplot2`-pakken, hvor du specificerer farverne for de forskellige kategorier og labels.
 
-![Stablet søjlediagram](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.da.png)
+![Stablet søjlediagram](../../../../../translated_images/da/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Dette søjlediagram er dog ulæseligt, fordi der er for mange ikke-grupperede data. Du skal vælge kun de data, du vil plotte, så lad os se på længden af fugle baseret på deres kategori.
 
@@ -176,7 +176,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Du tæller først unikke værdier i kolonnen `Category` og sorterer dem derefter i en ny dataframe `birds_count`. Disse sorterede data faktoreres derefter på samme niveau, så de plottes i den sorterede rækkefølge. Ved hjælp af `ggplot2` plottes dataene derefter i et søjlediagram. `coord_flip()` plottes som vandrette søjler.
 
-![kategori-længde](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.da.png)
+![kategori-længde](../../../../../translated_images/da/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Dette søjlediagram giver et godt overblik over antallet af fugle i hver kategori. Med et øjeblik ser du, at det største antal fugle i denne region tilhører kategorien Ænder/Gæs/Vandfugle. Minnesota er trods alt "de 10.000 søers land", så det er ikke overraskende!
 
@@ -199,7 +199,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Vi grupperer dataene `birds_filtered` efter `Category` og plottede derefter et søjlediagram.
 
-![sammenligning af data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.da.png)
+![sammenligning af data](../../../../../translated_images/da/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Intet er overraskende her: kolibrier har den mindste MaxLength sammenlignet med pelikaner eller gæs. Det er godt, når data giver logisk mening!
 
@@ -211,7 +211,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![overlejrede værdier](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.da.png)
+![overlejrede værdier](../../../../../translated_images/da/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Udfordring
 

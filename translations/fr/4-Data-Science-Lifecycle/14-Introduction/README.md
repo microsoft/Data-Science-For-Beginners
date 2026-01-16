@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Cette leçon se concentre sur 3 parties du cycle de vie : la capture, le traitement et la maintenance.
 
-![Diagramme du cycle de vie de la science des données](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.fr.jpg)  
+![Diagramme du cycle de vie de la science des données](../../../../translated_images/fr/data-science-lifecycle.a1e362637503c4fb.webp)  
 > Photo par [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Capture
@@ -101,7 +101,7 @@ Explorez le [cycle de vie du processus de science des données en équipe](https
 
 |Processus de science des données en équipe (TDSP)|Processus standard intersectoriel pour l'exploration de données (CRISP-DM)|
 |--|--|
-|![Cycle de vie de la science des données en équipe](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.fr.png) | ![Image du processus CRISP-DM](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.fr.png) |
+|![Cycle de vie de la science des données en équipe](../../../../translated_images/fr/tdsp-lifecycle2.e19029d598e2e73d.webp) | ![Image du processus CRISP-DM](../../../../translated_images/fr/CRISP-DM.8bad2b4c66e62aa7.webp) |
 | Image par [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Image par [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Quiz après le cours](https://ff-quizzes.netlify.app/en/ds/quiz/27)

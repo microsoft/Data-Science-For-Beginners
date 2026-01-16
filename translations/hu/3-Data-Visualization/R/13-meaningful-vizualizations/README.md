@@ -47,25 +47,25 @@ A korábbi leckékben különféle érdekes adatvizualizációkat készítettél
 
 Még ha az adatelemző gondosan választja is ki a megfelelő diagramot az adatokhoz, számos módon lehet az adatokat úgy megjeleníteni, hogy azok egy bizonyos állítást támasszanak alá, gyakran az adatok hitelességének rovására. Számos példát találhatunk megtévesztő diagramokra és infografikákra!
 
-[![Hogyan hazudnak a diagramok - Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.hu.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Hogyan hazudnak a diagramok")
+[![Hogyan hazudnak a diagramok - Alberto Cairo](../../../../../translated_images/hu/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Hogyan hazudnak a diagramok")
 
 > 🎥 Kattints a fenti képre egy konferenciaelőadásért a megtévesztő diagramokról
 
 Ez a diagram megfordítja az X tengelyt, hogy az igazság ellentétét mutassa, az időpontok alapján:
 
-![rossz diagram 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.hu.png)
+![rossz diagram 1](../../../../../translated_images/hu/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Ez a diagram](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) még megtévesztőbb, mivel a szem a jobb oldalra fókuszál, és azt a következtetést vonja le, hogy az idő múlásával a COVID-esetek csökkentek a különböző megyékben. Valójában, ha alaposan megnézed a dátumokat, észreveszed, hogy azokat átrendezték, hogy megtévesztő csökkenő trendet mutassanak.
 
-![rossz diagram 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.hu.jpg)
+![rossz diagram 2](../../../../../translated_images/hu/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Ez a hírhedt példa színeket ÉS egy megfordított Y tengelyt használ a megtévesztéshez: ahelyett, hogy azt a következtetést vonnánk le, hogy a fegyveres halálesetek megugrottak a fegyverbarát törvények elfogadása után, a szemünket megtévesztik, hogy az ellenkezőjét higgyük:
 
-![rossz diagram 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.hu.jpg)
+![rossz diagram 3](../../../../../translated_images/hu/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Ez a furcsa diagram azt mutatja, hogyan lehet az arányokat manipulálni, komikus hatást keltve:
 
-![rossz diagram 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.hu.jpg)
+![rossz diagram 4](../../../../../translated_images/hu/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Az összehasonlíthatatlan dolgok összehasonlítása egy másik árnyas trükk. Van egy [csodálatos weboldal](https://tylervigen.com/spurious-correlations), amely "hamis korrelációkat" mutat be, például a Maine-i válási arány és a margarin fogyasztása közötti "tényeket". Egy Reddit csoport is gyűjti az [adatok csúnya felhasználásait](https://www.reddit.com/r/dataisugly/top/?t=all).
 
@@ -100,13 +100,13 @@ Címkézd fel a tengelyeket, adj meg egy jelmagyarázatot, ha szükséges, és b
 
 Ha az adataid szövegesek és hosszúak az X tengelyen, döntsd meg a szöveget az olvashatóság érdekében. A [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) 3D ábrázolást kínál, ha az adataid támogatják. Kifinomult adatvizualizációk készíthetők vele.
 
-![3D diagramok](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.hu.png)
+![3D diagramok](../../../../../translated_images/hu/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Animáció és 3D diagramok megjelenítése
 
 Napjaink legjobb adatvizualizációi közül néhány animált. Shirley Wu lenyűgöző példákat készített D3-mal, például a '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)'-t, ahol minden virág egy filmet ábrázol. Egy másik példa a Guardian számára készült 'bussed out', egy interaktív élmény, amely vizualizációkat kombinál Greensockkal és D3-mal, valamint egy görgethető cikkformátummal, hogy bemutassa, hogyan kezeli New York City a hajléktalanproblémát az emberek városon kívülre szállításával.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.hu.png)
+![busing](../../../../../translated_images/hu/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: Hogyan mozgatja Amerika a hajléktalanjait" a [Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study) cikkéből. Vizualizációk: Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Bár ez a lecke nem elég mély ahhoz, hogy megtanítsa ezeket az erőteljes viz
 
 Egy webalkalmazást fogsz elkészíteni, amely animált nézetet jelenít meg erről a társadalmi hálózatról. Egy könyvtárat használ, amelyet egy [hálózat vizualizálására](https://github.com/emiliorizzo/vue-d3-network) hoztak létre Vue.js és D3 segítségével. Amikor az alkalmazás fut, az adatokat a képernyőn húzogatva átrendezheted.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.hu.png)
+![liaisons](../../../../../translated_images/hu/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Projekt: Hálózatot ábrázoló diagram készítése D3.js segítségével
 

@@ -41,7 +41,7 @@ AI के लोकतंत्रीकरण के कारण, डेवल
 
  * [Data Science in Healthcare](https://data-flair.training/blogs/data-science-in-healthcare/) - चिकित्सा इमेजिंग (जैसे, MRI, X-Ray, CT-Scan), जीनोमिक्स (DNA अनुक्रमण), दवा विकास (जोखिम मूल्यांकन, सफलता की भविष्यवाणी), पूर्वानुमानात्मक विश्लेषण (रोगी देखभाल और आपूर्ति लॉजिस्टिक्स), रोग ट्रैकिंग और रोकथाम जैसे अनुप्रयोगों को उजागर करता है।
 
-![वास्तविक दुनिया में डेटा विज्ञान अनुप्रयोग](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.hi.png) छवि क्रेडिट: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![वास्तविक दुनिया में डेटा विज्ञान अनुप्रयोग](../../../../translated_images/hi/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) छवि क्रेडिट: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 चित्र अन्य डोमेन और डेटा विज्ञान तकनीकों को लागू करने के उदाहरण दिखाता है। क्या आप अन्य अनुप्रयोगों का पता लगाना चाहते हैं? नीचे दिए गए [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) अनुभाग को देखें।
 

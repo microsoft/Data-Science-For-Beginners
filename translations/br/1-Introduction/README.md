@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introdução à Ciência de Dados
 
-![dados em ação](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.br.jpg)  
+![dados em ação](../../../translated_images/br/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)  
 > Foto por <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> no <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Nestes módulos, você descobrirá como a Ciência de Dados é definida e aprenderá sobre as considerações éticas que devem ser levadas em conta por um cientista de dados. Você também aprenderá como os dados são definidos e terá uma introdução a estatística e probabilidade, os principais domínios acadêmicos da Ciência de Dados.

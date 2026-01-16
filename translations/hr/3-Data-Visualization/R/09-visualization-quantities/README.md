@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Ovdje instalirate paket `ggplot2` i zatim ga uvozite u radni prostor pomoću naredbe `library("ggplot2")`. Za crtanje bilo kojeg grafa u ggplot-u koristi se funkcija `ggplot()`, a vi specificirate skup podataka, x i y varijable kao atribute. U ovom slučaju koristimo funkciju `geom_line()` jer želimo nacrtati linijski graf.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.hr.png)
+![MaxWingspan-lineplot](../../../../../translated_images/hr/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Što odmah primjećujete? Čini se da postoji barem jedan outlier - to je prilično velik raspon krila! Raspon krila od preko 2000 centimetara jednak je više od 20 metara - lutaju li Pterodaktili Minnesotom? Istražimo.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 U temi specificiramo kut, a oznake za x i y osi specificiramo pomoću `xlab()` i `ylab()` funkcija. Funkcija `ggtitle()` daje naziv grafu.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.hr.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/hr/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Čak i s rotacijom oznaka postavljenom na 45 stupnjeva, previše ih je za čitanje. Pokušajmo drugačiju strategiju: označimo samo outliere i postavimo oznake unutar grafa. Možete koristiti raspršeni graf kako biste napravili više prostora za označavanje:
 
@@ -100,7 +100,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 
 Što otkrivate?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.hr.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/hr/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Filtriranje podataka
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Napravili smo novi dataframe `birds_filtered` i zatim nacrtali raspršeni graf. Filtriranjem outliera, vaši podaci sada su kohezivniji i razumljiviji.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.hr.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/hr/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Sada kada imamo čišći skup podataka barem u smislu raspona krila, istražimo više o ovim pticama.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 U sljedećem isječku instaliramo pakete [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) i [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) kako bismo manipulirali i grupirali podatke za crtanje složenog stupčastog grafa. Prvo grupirate podatke prema `Category` ptica i zatim sažimate stupce `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Zatim crtate stupčasti graf koristeći `ggplot2` i specificirate boje za različite kategorije i oznake.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.hr.png)
+![Stacked bar chart](../../../../../translated_images/hr/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Ovaj stupčasti graf, međutim, nije čitljiv jer ima previše negrupiranih podataka. Trebate odabrati samo podatke koje želite prikazati, pa pogledajmo duljinu ptica na temelju njihove kategorije.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Prvo brojite jedinstvene vrijednosti u stupcu `Category` i zatim ih sortirate u novi dataframe `birds_count`. Ovi sortirani podaci zatim se faktoriziraju na istoj razini kako bi se prikazali na sortirani način. Koristeći `ggplot2`, zatim crtate podatke u stupčastom grafu. Funkcija `coord_flip()` prikazuje horizontalne stupce.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.hr.png)
+![category-length](../../../../../translated_images/hr/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Ovaj stupčasti graf pruža dobar pregled broja ptica u svakoj kategoriji. Na prvi pogled vidite da je najveći broj ptica u ovoj regiji u kategoriji Patke/Guske/Vodene ptice. Minnesota je 'zemlja 10.000 jezera', pa to nije iznenađujuće!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Grupiramo `birds_filtered` podatke prema `Category` i zatim crtamo stupčasti graf.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.hr.png)
+![comparing data](../../../../../translated_images/hr/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Ništa ovdje nije iznenađujuće: kolibrići imaju najmanju maksimalnu duljinu u usporedbi s pelikanima ili guskama. Dobro je kada podaci imaju logičan smisao!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.hr.png)
+![super-imposed values](../../../../../translated_images/hr/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Izazov
 

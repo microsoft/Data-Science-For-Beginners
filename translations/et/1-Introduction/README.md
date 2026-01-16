@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sissejuhatus andmeteadusesse
 
-![andmed tegevuses](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.et.jpg)
+![andmed tegevuses](../../../translated_images/et/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Foto autorilt <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> lehel <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Nendes tundides avastad, kuidas andmeteadust defineeritakse, ning õpid tundma eetilisi kaalutlusi, mida andmeteadlane peab arvesse võtma. Samuti saad teada, kuidas andmeid defineeritakse, ning õpid veidi statistika ja tõenäosusteooria kohta, mis on andmeteaduse põhivaldkonnad.

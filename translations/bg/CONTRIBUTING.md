@@ -312,7 +312,7 @@ def calculate_mean(data):
   import pandas as pd
   ```
   ````
-- Добавяйте alt текст към изображения: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.bg.png)`
+- Добавяйте alt текст към изображения: `![Alt text](../../translated_images/bg/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Поддържайте разумна дължина на редовете (около 80-100 символа)
 
 ### Python

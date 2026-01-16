@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # विज़ुअलाइज़ेशन
 
-![लैवेंडर फूल पर एक मधुमक्खी](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.hi.jpg)
+![लैवेंडर फूल पर एक मधुमक्खी](../../../translated_images/hi/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > फोटो <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">जेना ली</a> द्वारा <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">अनस्प्लैश</a> पर
 
 डेटा को विज़ुअलाइज़ करना एक डेटा वैज्ञानिक के सबसे महत्वपूर्ण कार्यों में से एक है। एक तस्वीर 1000 शब्दों के बराबर होती है, और एक विज़ुअलाइज़ेशन आपको आपके डेटा के विभिन्न रोचक पहलुओं जैसे स्पाइक्स, आउटलायर्स, समूह, प्रवृत्तियों और अन्य चीजों को पहचानने में मदद कर सकता है, जो आपके डेटा की कहानी को समझने में सहायता करता है।

@@ -47,25 +47,25 @@ Eelnevates tundides katsetasite erinevate huvitavate andmevisualisatsioonide loo
 
 Isegi kui andmeteadlane valib õige diagrammi õigete andmete jaoks, on palju viise, kuidas andmeid saab esitada viisil, mis tõestab teatud seisukohta, sageli andmete enda arvelt. Eksitavate diagrammide ja infograafikate näiteid on palju!
 
-[![Kuidas diagrammid valetavad, autor Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.et.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Kuidas diagrammid valetavad")
+[![Kuidas diagrammid valetavad, autor Alberto Cairo](../../../../../translated_images/et/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Kuidas diagrammid valetavad")
 
 > 🎥 Klõpsake ülaltoodud pildil, et vaadata konverentsi ettekannet eksitavate diagrammide kohta
 
 See diagramm pöörab X-telje ümber, et näidata tõe vastandit, tuginedes kuupäevadele:
 
-![halb diagramm 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.et.png)
+![halb diagramm 1](../../../../../translated_images/et/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [See diagramm](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) on veelgi eksitavam, kuna silm tõmmatakse paremale, et järeldada, et aja jooksul on COVID-i juhtumid erinevates maakondades vähenenud. Tegelikult, kui vaatate kuupäevi lähemalt, leiate, et need on ümber korraldatud, et anda eksitav langustrend.
 
-![halb diagramm 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.et.jpg)
+![halb diagramm 2](../../../../../translated_images/et/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 See kurikuulus näide kasutab värvi JA pööratud Y-telge eksitamiseks: selle asemel, et järeldada, et relvadega seotud surmad kasvasid pärast relvasõbraliku seadusandluse vastuvõtmist, petab silm, et arvata vastupidist:
 
-![halb diagramm 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.et.jpg)
+![halb diagramm 3](../../../../../translated_images/et/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 See kummaline diagramm näitab, kuidas proportsioone saab manipuleerida, naljakal moel:
 
-![halb diagramm 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.et.jpg)
+![halb diagramm 4](../../../../../translated_images/et/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Võrdlemine, mis ei ole võrreldav, on veel üks kahtlane trikk. On olemas [suurepärane veebisait](https://tylervigen.com/spurious-correlations), mis käsitleb 'juhuslikke korrelatsioone', näidates 'fakte', mis seostavad näiteks Maine'i lahutuste määra ja margariini tarbimist. Redditi grupp kogub ka [andmete koledaid kasutusviise](https://www.reddit.com/r/dataisugly/top/?t=all).
 
@@ -100,13 +100,13 @@ Märgistage oma teljed, lisage vajadusel legend ja pakkuge tööriistavihjeid an
 
 Kui teie andmed on tekstilised ja X-teljel pikad, saate teksti nurga alla pöörata, et parandada loetavust. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) pakub 3D-plotimist, kui teie andmed seda toetavad. Selle abil saab luua keerukaid andmevisualisatsioone.
 
-![3D diagrammid](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.et.png)
+![3D diagrammid](../../../../../translated_images/et/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Animatsioon ja 3D diagrammi kuvamine
 
 Mõned parimad tänapäeva andmevisualisatsioonid on animeeritud. Shirley Wu on loonud hämmastavaid visualisatsioone D3 abil, näiteks '[filmililled](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', kus iga lill on filmi visualisatsioon. Teine näide Guardianile on 'bussed out', interaktiivne kogemus, mis ühendab visualisatsioone Greensocki ja D3-ga ning scrollytelling artikli formaati, et näidata, kuidas NYC lahendab kodutute probleemi, saates inimesi linnast välja.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.et.png)
+![busing](../../../../../translated_images/et/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: Kuidas Ameerika liigutab oma kodutuid" [Guardianist](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualisatsioonid: Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Kuigi see tund ei ole piisav, et süvitsi õpetada neid võimsaid visualiseerimi
 
 Te lõpetate veebirakenduse, mis kuvab animeeritud vaate sellest sotsiaalvõrgustikust. See kasutab raamatukogu, mis loodi [võrgustiku visualiseerimiseks](https://github.com/emiliorizzo/vue-d3-network) Vue.js ja D3 abil. Kui rakendus töötab, saate ekraanil sõlmi liigutada, et andmeid ümber paigutada.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.et.png)
+![liaisons](../../../../../translated_images/et/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Projekt: Looge diagramm, mis näitab võrgustikku D3.js abil
 

@@ -22,7 +22,7 @@ Die Explorer-Oberfläche (im Screenshot unten gezeigt) ermöglicht es dir, einen
  2. Erkunde den Datensatz-[Katalog](https://planetarycomputer.microsoft.com/catalog) – lerne den Zweck jedes Datensatzes kennen.
  3. Nutze den Explorer – wähle einen interessanten Datensatz aus, wähle eine relevante Abfrage und eine Darstellungsoption.
 
-![Der Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.de.png)
+![Der Planetary Computer Explorer](../../../../translated_images/de/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Deine Aufgabe:`
 Untersuche nun die Visualisierung, die im Browser angezeigt wird, und beantworte die folgenden Fragen:

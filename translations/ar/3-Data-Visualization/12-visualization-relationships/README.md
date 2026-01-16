@@ -51,7 +51,7 @@ honey.head()
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.ar.png)
+![scatterplot 1](../../../../translated_images/ar/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 الآن، اعرض نفس البيانات باستخدام نظام ألوان يشبه العسل لعرض كيفية تطور السعر على مدار السنوات. يمكنك القيام بذلك عن طريق إضافة معلمة 'hue' لعرض التغيير عامًا بعد عام:
 
@@ -60,7 +60,7 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.ar.png)
+![scatterplot 2](../../../../translated_images/ar/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 مع هذا التغيير في نظام الألوان، يمكنك أن ترى بوضوح تقدمًا قويًا على مدار السنوات فيما يتعلق بسعر العسل لكل رطل. بالفعل، إذا نظرت إلى مجموعة بيانات للتحقق (اختر ولاية معينة، مثل أريزونا)، يمكنك رؤية نمط زيادة الأسعار عامًا بعد عام، مع بعض الاستثناءات:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 يمكنك رؤية حجم النقاط يزداد تدريجيًا.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.ar.png)
+![scatterplot 3](../../../../translated_images/ar/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 هل هذا مجرد حالة بسيطة من العرض والطلب؟ بسبب عوامل مثل تغير المناخ وانهيار المستعمرات، هل هناك كمية أقل من العسل المتاحة للشراء عامًا بعد عام، وبالتالي ترتفع الأسعار؟
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 الإجابة: نعم، مع بعض الاستثناءات حول عام 2003:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.ar.png)
+![line chart 1](../../../../translated_images/ar/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ لأن Seaborn يقوم بتجميع البيانات حول خط واحد، فإنه يعرض "القياسات المتعددة عند كل قيمة x عن طريق رسم المتوسط وفاصل الثقة بنسبة 95% حول المتوسط". [المصدر](https://seaborn.pydata.org/tutorial/relational.html). يمكن تعطيل هذا السلوك الذي يستغرق وقتًا عن طريق إضافة `ci=None`.
 
@@ -114,7 +114,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.ar.png)
+![line chart 2](../../../../translated_images/ar/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 الإجابة: ليس حقًا. إذا نظرت إلى الإنتاج الإجمالي، يبدو أنه قد زاد في ذلك العام تحديدًا، على الرغم من أن كمية العسل المنتجة عمومًا في انخفاض خلال هذه السنوات.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 في هذا التصور، يمكنك مقارنة الإنتاج لكل مستعمرة وعدد المستعمرات عامًا بعد عام، جنبًا إلى جنب مع التفاف مضبوط على 3 للأعمدة:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.ar.png)
+![facet grid](../../../../translated_images/ar/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 بالنسبة لهذه المجموعة من البيانات، لا يبرز شيء بشكل خاص فيما يتعلق بعدد المستعمرات وإنتاجها، عامًا بعد عام وولاية بعد ولاية. هل هناك طريقة مختلفة للبحث عن علاقة بين هذين المتغيرين؟
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.ar.png)
+![superimposed plots](../../../../translated_images/ar/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 بينما لا يبرز شيء للعين حول عام 2003، فإنه يسمح لنا بإنهاء هذا الدرس بملاحظة أكثر إيجابية: على الرغم من وجود انخفاض عام في عدد المستعمرات، فإن عدد المستعمرات يستقر حتى لو كان إنتاجها لكل مستعمرة يتناقص.
 

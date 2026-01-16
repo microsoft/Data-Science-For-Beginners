@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Video o definici datové vědy](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.cs.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Video o definici datové vědy](../../../../translated_images/cs/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ Pokud se chceme pustit do ještě složitější analýzy, můžeme vykreslit č
 
 V této výzvě se pokusíme najít koncepty relevantní pro oblast Data Science tím, že se podíváme na texty. Vezmeme článek z Wikipedie o Data Science, stáhneme a zpracujeme text, a poté vytvoříme slovní mrak, který bude vypadat takto:
 
-![Slovní mrak pro Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.cs.png)
+![Slovní mrak pro Data Science](../../../../translated_images/cs/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Navštivte [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') a projděte si kód. Můžete také spustit kód a sledovat, jak provádí všechny transformace dat v reálném čase.
 

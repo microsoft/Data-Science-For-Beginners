@@ -41,7 +41,7 @@ Takket være demokratiseringen af AI finder udviklere det nu lettere at designe 
 
  * [Data Science i Sundhedssektoren](https://data-flair.training/blogs/data-science-in-healthcare/) - fremhæver anvendelser som medicinsk billeddannelse (f.eks. MR, røntgen, CT-scanning), genomik (DNA-sekventering), lægemiddeludvikling (risikovurdering, succesprognoser), forudsigende analyser (patientpleje og logistik), sygdomssporing og -forebyggelse osv.
 
-![Data Science Anvendelser i den Virkelige Verden](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.da.png) Billedkredit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Data Science Anvendelser i den Virkelige Verden](../../../../translated_images/da/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Billedkredit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Figuren viser andre domæner og eksempler på anvendelse af data science-teknikker. Vil du udforske andre anvendelser? Tjek afsnittet [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) nedenfor.
 

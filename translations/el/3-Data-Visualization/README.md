@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Οπτικοποιήσεις
 
-![μια μέλισσα σε ένα άνθος λεβάντας](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.el.jpg)  
+![μια μέλισσα σε ένα άνθος λεβάντας](../../../translated_images/el/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)  
 > Φωτογραφία από <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> στο <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Η οπτικοποίηση δεδομένων είναι μία από τις πιο σημαντικές εργασίες ενός επιστήμονα δεδομένων. Μια εικόνα αξίζει όσο χίλιες λέξεις, και μια οπτικοποίηση μπορεί να σας βοηθήσει να εντοπίσετε κάθε είδους ενδιαφέροντα στοιχεία στα δεδομένα σας, όπως αιχμές, ακραίες τιμές, ομαδοποιήσεις, τάσεις και πολλά άλλα, που μπορούν να σας βοηθήσουν να κατανοήσετε την ιστορία που προσπαθούν να σας πουν τα δεδομένα σας.

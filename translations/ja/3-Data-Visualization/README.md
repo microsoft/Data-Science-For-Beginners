@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ビジュアライゼーション
 
-![ラベンダーの花にとまるミツバチ](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.ja.jpg)
+![ラベンダーの花にとまるミツバチ](../../../translated_images/ja/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > 写真提供: <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> on <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 データの可視化は、データサイエンティストにとって最も重要なタスクの1つです。画像は1000語に値すると言われるように、ビジュアライゼーションはデータの中に潜む興味深い部分、例えばスパイク、外れ値、グループ化、傾向などを特定し、データが語ろうとしているストーリーを理解する助けとなります。

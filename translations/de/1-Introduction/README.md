@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Einführung in Data Science
 
-![Daten in Aktion](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.de.jpg)
+![Daten in Aktion](../../../translated_images/de/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Foto von <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> auf <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 In diesen Lektionen erfahren Sie, wie Data Science definiert wird und lernen die ethischen Überlegungen kennen, die ein Data Scientist berücksichtigen muss. Außerdem lernen Sie, wie Daten definiert werden, und erhalten einen Einblick in Statistik und Wahrscheinlichkeit, die zentralen akademischen Bereiche der Data Science.

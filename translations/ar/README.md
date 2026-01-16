@@ -28,7 +28,7 @@ CO_OP_TRANSLATOR_METADATA:
 **🙏 شكر خاص 🙏 لمؤلفينا ومراجعي المحتوى والمساهمين من [سفراء طلاب مايكروسوفت](https://studentambassadors.microsoft.com/)،** لا سيما Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
-|![مخطط مرسوم بواسطة @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.ar.png)|
+|![مخطط مرسوم بواسطة @sketchthedocs https://sketchthedocs.dev](../../translated_images/ar/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.png)|
 |:---:|
 | علوم البيانات للمبتدئين - _مخطط مرسوم بواسطة [@nitya](https://twitter.com/nitya)_ |
 
@@ -47,7 +47,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 لدينا سلسلة على Discord بعنوان "تعلم مع الذكاء الاصطناعي" جارية، اعرف المزيد وانضم إلينا على [Learn with AI Series](https://aka.ms/learnwithai/discord) من 18 - 30 سبتمبر، 2025. ستحصل على نصائح وحيل لاستخدام GitHub Copilot لعلوم البيانات.
 
-![سلسلة تعلم مع الذكاء الاصطناعي](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.ar.jpg)
+![سلسلة تعلم مع الذكاء الاصطناعي](../../translated_images/ar/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.jpg)
 
 # هل أنت طالب؟
 
@@ -127,7 +127,7 @@ CO_OP_TRANSLATOR_METADATA:
 ## الدروس
 
 
-|![ مخطط توضيحي بواسطة @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.ar.png)|
+|![ مخطط توضيحي بواسطة @sketchthedocs https://sketchthedocs.dev](../../translated_images/ar/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.png)|
 |:---:|
 | خريطة طريق علوم البيانات للمبتدئين - _مخطط توضيحي بواسطة [@nitya](https://twitter.com/nitya)_ |
 

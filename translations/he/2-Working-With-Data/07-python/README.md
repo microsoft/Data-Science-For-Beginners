@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 עבודה עם Python - _סקיצה מאת [@nitya](https://twitter.com/nitya)_                 |
 
-[![סרטון מבוא](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.he.png)](https://youtu.be/dZjWOGbsN4Y)
+[![סרטון מבוא](../../../../translated_images/he/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 בעוד שמאגרי נתונים מציעים דרכים יעילות מאוד לאחסן נתונים ולבצע שאילתות באמצעות שפות שאילתה, הדרך הגמישה ביותר לעיבוד נתונים היא כתיבת תוכנית משלך כדי לתפעל נתונים. במקרים רבים, ביצוע שאילתה במאגר נתונים יהיה דרך יעילה יותר. עם זאת, במקרים שבהם נדרש עיבוד נתונים מורכב יותר, לא ניתן לבצע זאת בקלות באמצעות SQL.  
 ניתן לתכנת עיבוד נתונים בכל שפת תכנות, אך ישנן שפות מסוימות שהן ברמה גבוהה יותר בכל הנוגע לעבודה עם נתונים. מדעני נתונים בדרך כלל מעדיפים אחת מהשפות הבאות:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![גרף סדרת זמן](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.he.png)
+![גרף סדרת זמן](../../../../translated_images/he/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 עכשיו נניח שבכל שבוע אנו מארגנים מסיבה לחברים, ולוקחים 10 חבילות נוספות של גלידה למסיבה. נוכל ליצור סדרה נוספת, עם אינדקס לפי שבוע, כדי להדגים זאת:
 ```python
@@ -84,7 +84,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![גרף סדרת זמן](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.he.png)
+![גרף סדרת זמן](../../../../translated_images/he/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **הערה** שאנו לא משתמשים בתחביר הפשוט `total_items+additional_items`. אם היינו עושים זאת, היינו מקבלים הרבה ערכי `NaN` (*Not a Number*) בסדרה המתקבלת. זאת מכיוון שיש ערכים חסרים עבור חלק מנקודות האינדקס בסדרת `additional_items`, והוספת `NaN` לכל דבר תוצאה ב-`NaN`. לכן עלינו לציין את הפרמטר `fill_value` במהלך ההוספה.
 
@@ -93,7 +93,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![ממוצעים חודשיים של סדרת זמן](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.he.png)
+![ממוצעים חודשיים של סדרת זמן](../../../../translated_images/he/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ df = pd.read_csv('file.csv')
 
 מכיוון שאנחנו רוצים להדגים כיצד להתמודד עם נתונים, אנו מזמינים אתכם לפתוח את [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) ולקרוא אותו מההתחלה ועד הסוף. תוכלו גם להריץ תאים ולעשות כמה אתגרים שהשארנו לכם בסוף.
 
-![התפשטות COVID](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.he.png)
+![התפשטות COVID](../../../../translated_images/he/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > אם אינכם יודעים כיצד להריץ קוד ב-Jupyter Notebook, עיינו ב-[מאמר זה](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,7 +241,7 @@ df = pd.read_csv('file.csv')
 
 פתחו את [`notebook-papers.ipynb`](notebook-papers.ipynb) וקראו אותו מההתחלה ועד הסוף. תוכלו גם להריץ תאים ולעשות כמה אתגרים שהשארנו לכם בסוף.
 
-![טיפול רפואי ב-COVID](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.he.png)
+![טיפול רפואי ב-COVID](../../../../translated_images/he/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## עיבוד נתוני תמונה
 

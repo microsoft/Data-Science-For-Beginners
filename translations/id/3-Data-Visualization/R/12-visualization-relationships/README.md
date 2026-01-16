@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.id.png)
+![scatterplot 1](../../../../../translated_images/id/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 Sekarang, tunjukkan data yang sama dengan skema warna madu untuk menunjukkan bagaimana harga berkembang dari tahun ke tahun. Anda dapat melakukannya dengan menambahkan parameter 'scale_color_gradientn' untuk menunjukkan perubahan dari tahun ke tahun:
 
@@ -61,7 +61,7 @@ Sekarang, tunjukkan data yang sama dengan skema warna madu untuk menunjukkan bag
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.id.png)
+![scatterplot 2](../../../../../translated_images/id/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 Dengan perubahan skema warna ini, Anda dapat melihat bahwa ada perkembangan yang jelas selama bertahun-tahun dalam hal harga madu per pon. Memang, jika Anda melihat sampel data untuk memverifikasi (pilih negara bagian tertentu, misalnya Arizona), Anda dapat melihat pola kenaikan harga dari tahun ke tahun, dengan beberapa pengecualian:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Anda dapat melihat ukuran titik yang secara bertahap meningkat.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.id.png)
+![scatterplot 3](../../../../../translated_images/id/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 Apakah ini kasus sederhana dari hukum penawaran dan permintaan? Karena faktor seperti perubahan iklim dan keruntuhan koloni, apakah madu yang tersedia untuk dibeli semakin sedikit dari tahun ke tahun, sehingga harga meningkat?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Jawaban: Ya, dengan beberapa pengecualian sekitar tahun 2003:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.id.png)
+![line chart 1](../../../../../translated_images/id/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 Pertanyaan: Nah, pada tahun 2003 apakah kita juga melihat lonjakan pasokan madu? Bagaimana jika Anda melihat total produksi dari tahun ke tahun?
 
@@ -115,7 +115,7 @@ Pertanyaan: Nah, pada tahun 2003 apakah kita juga melihat lonjakan pasokan madu?
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.id.png)
+![line chart 2](../../../../../translated_images/id/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 Jawaban: Tidak benar-benar. Jika Anda melihat total produksi, sebenarnya tampaknya meningkat pada tahun tersebut, meskipun secara umum jumlah madu yang diproduksi menurun selama tahun-tahun ini.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 Dalam visualisasi ini, Anda dapat membandingkan hasil per koloni dan jumlah koloni dari tahun ke tahun, berdampingan dengan pengaturan wrap pada 3 untuk kolom:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.id.png)
+![facet grid](../../../../../translated_images/id/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 Untuk dataset ini, tidak ada yang secara khusus menonjol terkait jumlah koloni dan hasilnya, dari tahun ke tahun dan negara bagian ke negara bagian. Apakah ada cara lain untuk menemukan korelasi antara kedua variabel ini?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.id.png)
+![superimposed plots](../../../../../translated_images/id/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 Meskipun tidak ada yang mencolok di sekitar tahun 2003, ini memungkinkan kita mengakhiri pelajaran ini dengan catatan yang sedikit lebih bahagia: meskipun jumlah koloni secara keseluruhan menurun, jumlah koloni mulai stabil meskipun hasil per koloni menurun.
 

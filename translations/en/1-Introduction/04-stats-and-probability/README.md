@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Statistics and Probability Theory are two closely related branches of Mathematics that are highly relevant to Data Science. While you can work with data without a deep understanding of mathematics, it's still beneficial to grasp some basic concepts. This introduction will help you get started.
 
-[![Intro Video](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.en.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Intro Video](../../../../translated_images/en/video-prob-and-stats.e4282e5efa2f2543.webp)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Describing the probability distribution of a continuous variable, such as values
 
 Instead, we talk about the probability of a variable falling within a range of values, e.g., P(t<sub>1</sub>≤X<t<sub>2</sub>). In this case, the probability distribution is described by a **probability density function** p(x), such that:
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.en.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/en/probability-density.a8aad29f17a14afb.webp)
 
 A continuous analog of the uniform distribution is called **continuous uniform distribution**, defined over a finite interval. The probability that X falls within an interval of length l is proportional to l and can reach up to 1.
 
@@ -82,11 +82,11 @@ When analyzing real-world data, the values often aren't random variables in the 
 
 Here is a box plot showing the mean, median, and quartiles for the data:
 
-![Weight Box Plot](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.en.png)
+![Weight Box Plot](../../../../translated_images/en/weight-boxplot.1dbab1c03af26f8a.webp)
 
 Since the dataset includes information about different player **roles**, we can create box plots by role to see how the values differ across roles. This time, we'll consider height:
 
-![Box plot by role](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.en.png)
+![Box plot by role](../../../../translated_images/en/boxplot_byrole.036b27a1c3f52d42.webp)
 
 This diagram suggests that, on average, first basemen are taller than second basemen. Later in this lesson, we'll learn how to formally test this hypothesis and demonstrate statistical significance.
 
@@ -94,7 +94,7 @@ This diagram suggests that, on average, first basemen are taller than second bas
 
 To visualize the distribution of the data, we can create a **histogram**. The X-axis represents weight intervals (or **bins**), and the Y-axis shows the frequency of values within each interval.
 
-![Histogram of real-world data](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.en.png)
+![Histogram of real-world data](../../../../translated_images/en/weight-histogram.bfd00caf7fc30b14.webp)
 
 From this histogram, you can see that most values cluster around a certain mean weight, with fewer values appearing as we move further from the mean. This indicates that extreme weights are less likely. The variance shows how much the weights deviate from the mean.
 
@@ -112,7 +112,7 @@ samples = np.random.normal(mean,std,1000)
 
 If we plot a histogram of the generated samples, it will resemble the earlier histogram. Increasing the number of samples and bins will produce a graph closer to the ideal normal distribution:
 
-![Normal Distribution with mean=0 and std.dev=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.en.png)
+![Normal Distribution with mean=0 and std.dev=1](../../../../translated_images/en/normal-histogram.dfae0d67c202137d.webp)
 
 *Normal Distribution with mean=0 and std.dev=1*
 
@@ -234,7 +234,7 @@ array([[1.        , 0.52959196],
 
 In this case, the value 0.53 indicates a moderate correlation between a person’s weight and height. We can also create a scatter plot to visualize the relationship:
 
-![Relationship between weight and height](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.en.png)
+![Relationship between weight and height](../../../../translated_images/en/weight-height-relationship.3f06bde4ca2aba99.webp)
 
 > More examples of correlation and covariance can be found in the [accompanying notebook](notebook.ipynb).
 

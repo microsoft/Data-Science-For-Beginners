@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 כאן, אתם מתקינים את חבילת `ggplot2` ואז מייבאים אותה לסביבת העבודה באמצעות הפקודה `library("ggplot2")`. כדי לשרטט כל גרף ב-ggplot, משתמשים בפונקציה `ggplot()` ומציינים את מערך הנתונים, משתני x ו-y כמאפיינים. במקרה זה, אנו משתמשים בפונקציה `geom_line()` מכיוון שאנו מכוונים לשרטט גרף קווי.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.he.png)
+![MaxWingspan-lineplot](../../../../../translated_images/he/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 מה אתם מבחינים מיד? נראה שיש לפחות ערך חריג אחד - זו מוטת כנפיים מרשימה! מוטת כנפיים של יותר מ-2000 ס"מ שווה ליותר מ-20 מטרים - האם יש פטרודקטילים במינסוטה? בואו נחקור.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 אנו מציינים את הזווית ב-`theme` ומציינים את התוויות של צירי x ו-y ב-`xlab()` ו-`ylab()` בהתאמה. הפונקציה `ggtitle()` נותנת שם לגרף/תרשים.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.he.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/he/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 גם עם סיבוב התוויות ל-45 מעלות, יש יותר מדי תוויות לקריאה. בואו ננסה אסטרטגיה שונה: תייגו רק את הערכים החריגים והציבו את התוויות בתוך הגרף. תוכלו להשתמש בגרף פיזור כדי לפנות יותר מקום לתיוג:
 
@@ -100,7 +100,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 
 מה אתם מגלים?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.he.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/he/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## סינון הנתונים
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 יצרנו מערך נתונים חדש `birds_filtered` ואז שרטטנו גרף פיזור. על ידי סינון הערכים החריגים, הנתונים שלכם כעת יותר קוהרנטיים ומובנים.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.he.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/he/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 כעת, כשיש לנו מערך נתונים נקי יותר לפחות מבחינת מוטת כנפיים, בואו נגלה עוד על הציפורים הללו.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 בקטע הבא, אנו מתקינים את החבילות [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) ו-[lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) כדי לעזור במניפולציה וקיבוץ נתונים לצורך שרטוט גרף עמודות מוערם. תחילה, מקבצים את הנתונים לפי `Category` של הציפור ואז מסכמים את העמודות `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. לאחר מכן, שרטטו את גרף העמודות באמצעות חבילת `ggplot2` וציינו את הצבעים עבור הקטגוריות השונות והתוויות.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.he.png)
+![Stacked bar chart](../../../../../translated_images/he/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 גרף העמודות הזה, עם זאת, אינו קריא מכיוון שיש יותר מדי נתונים לא מקובצים. יש לבחור רק את הנתונים שברצונכם לשרטט, אז בואו נסתכל על אורך הציפורים לפי הקטגוריה שלהן.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 תחילה סופרים ערכים ייחודיים בעמודת `Category` ואז ממיינים אותם למערך נתונים חדש `birds_count`. נתונים ממיונים אלו מתועלים באותה רמה כך שהם משורטטים בסדר המיועד. באמצעות `ggplot2` אתם שרטטתם את הנתונים בגרף עמודות. הפונקציה `coord_flip()` מציגה עמודות אופקיות.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.he.png)
+![category-length](../../../../../translated_images/he/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 גרף העמודות הזה מציג מבט טוב על מספר הציפורים בכל קטגוריה. במבט חטוף, ניתן לראות שמספר הציפורים הגדול ביותר באזור זה שייך לקטגוריית ברווזים/אווזים/עופות מים. מינסוטה היא "ארץ 10,000 האגמים", כך שזה לא מפתיע!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 אנו מקבצים את הנתונים המסוננים `birds_filtered` לפי `Category` ואז שרטטנו גרף עמודות.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.he.png)
+![comparing data](../../../../../translated_images/he/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 אין כאן הפתעות: לקוליברי יש את האורך המקסימלי הקטן ביותר בהשוואה לפליקנים או אווזים. זה טוב כאשר הנתונים הגיוניים מבחינה לוגית!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.he.png)
+![super-imposed values](../../../../../translated_images/he/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 אתגר
 

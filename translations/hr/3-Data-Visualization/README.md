@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vizualizacije
 
-![pčela na cvijetu lavande](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.hr.jpg)
+![pčela na cvijetu lavande](../../../translated_images/hr/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Fotografija od <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> na <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Vizualizacija podataka jedna je od najvažnijih zadaća data scientista. Slike vrijede više od 1000 riječi, a vizualizacija vam može pomoći da identificirate razne zanimljive dijelove vaših podataka, poput vrhunaca, odstupanja, grupiranja, tendencija i još mnogo toga, što vam može pomoći da razumijete priču koju vaši podaci žele ispričati.

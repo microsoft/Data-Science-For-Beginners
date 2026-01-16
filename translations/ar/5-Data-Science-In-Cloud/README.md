@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # علم البيانات في السحابة
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.ar.jpg)
+![cloud-picture](../../../translated_images/ar/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > الصورة بواسطة [Jelleke Vanooteghem](https://unsplash.com/@ilumire) من [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 عندما يتعلق الأمر بممارسة علم البيانات مع البيانات الضخمة، يمكن أن تكون السحابة نقطة تحول. في الدروس الثلاثة القادمة، سنستعرض ما هي السحابة ولماذا يمكن أن تكون مفيدة جدًا. سنقوم أيضًا باستكشاف مجموعة بيانات عن فشل القلب وبناء نموذج يساعد في تقييم احتمالية إصابة شخص بفشل القلب. سنستخدم قوة السحابة لتدريب النموذج ونشره واستهلاكه بطريقتين مختلفتين. الطريقة الأولى باستخدام واجهة المستخدم فقط بأسلوب "Low code/No code"، والطريقة الثانية باستخدام Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.ar.png)
+![project-schema](../../../translated_images/ar/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### المواضيع
 

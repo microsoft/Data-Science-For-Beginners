@@ -22,7 +22,7 @@ Explorer界面（如下圖所示）允許你選擇一個數據集（從提供的
  2. 探索數據集[目錄](https://planetarycomputer.microsoft.com/catalog)——了解每個數據集的用途。
  3. 使用Explorer——選擇一個感興趣的數據集，選擇相關的查詢和渲染選項。
 
-![行星電腦Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.hk.png)
+![行星電腦Explorer](../../../../translated_images/hk/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `你的任務：`
 現在，研究瀏覽器中渲染的可視化，並回答以下問題：

@@ -47,25 +47,25 @@ Dans les leçons précédentes, vous avez expérimenté la création de toutes s
 
 Même si un data scientist choisit soigneusement le bon graphique pour les bonnes données, il existe de nombreuses façons de présenter les données de manière à prouver un point, souvent au détriment des données elles-mêmes. Il existe de nombreux exemples de graphiques et d'infographies trompeurs !
 
-[![Comment les graphiques mentent par Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.fr.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Comment les graphiques mentent")
+[![Comment les graphiques mentent par Alberto Cairo](../../../../../translated_images/fr/tornado.2880ffc7f135f82b.webp)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Comment les graphiques mentent")
 
 > 🎥 Cliquez sur l'image ci-dessus pour une conférence sur les graphiques trompeurs
 
 Ce graphique inverse l'axe X pour montrer l'opposé de la vérité, basé sur les dates :
 
-![mauvais graphique 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.fr.png)
+![mauvais graphique 1](../../../../../translated_images/fr/bad-chart-1.596bc93425a8ac30.webp)
 
 [Ce graphique](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) est encore plus trompeur, car l'œil est attiré vers la droite pour conclure qu'au fil du temps, les cas de COVID ont diminué dans les différents comtés. En réalité, si vous regardez attentivement les dates, vous constaterez qu'elles ont été réarrangées pour donner cette tendance descendante trompeuse.
 
-![mauvais graphique 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.fr.jpg)
+![mauvais graphique 2](../../../../../translated_images/fr/bad-chart-2.62edf4d2f30f4e51.webp)
 
 Cet exemple notoire utilise la couleur ET un axe Y inversé pour tromper : au lieu de conclure que les décès par arme à feu ont augmenté après l'adoption d'une législation favorable aux armes, l'œil est trompé pour penser que l'inverse est vrai :
 
-![mauvais graphique 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.fr.jpg)
+![mauvais graphique 3](../../../../../translated_images/fr/bad-chart-3.e201e2e915a230bc.webp)
 
 Ce graphique étrange montre comment la proportion peut être manipulée, avec un effet hilarant :
 
-![mauvais graphique 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.fr.jpg)
+![mauvais graphique 4](../../../../../translated_images/fr/bad-chart-4.8872b2b881ffa96c.webp)
 
 Comparer l'incomparable est une autre astuce douteuse. Il existe un [site web merveilleux](https://tylervigen.com/spurious-correlations) consacré aux 'corrélations fallacieuses' affichant des 'faits' corrélant des choses comme le taux de divorce dans le Maine et la consommation de margarine. Un groupe Reddit collecte également les [mauvaises utilisations](https://www.reddit.com/r/dataisugly/top/?t=all) des données.
 
@@ -100,13 +100,13 @@ Les graphiques ne sont pas significatifs s'ils ne sont pas lisibles ! Prenez un 
 
 Si vos données sont textuelles et longues sur l'axe X, vous pouvez incliner le texte pour une meilleure lisibilité. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) propose des tracés en 3D, si vos données le permettent. Des visualisations de données sophistiquées peuvent être produites avec cet outil.
 
-![graphique 3D](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.fr.png)
+![graphique 3D](../../../../../translated_images/fr/3d.db1734c151eee87d.webp)
 
 ## Animation et affichage de graphiques en 3D
 
 Certaines des meilleures visualisations de données aujourd'hui sont animées. Shirley Wu en a créé d'incroyables avec D3, comme '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', où chaque fleur est une visualisation d'un film. Un autre exemple pour le Guardian est 'bussed out', une expérience interactive combinant des visualisations avec Greensock et D3, ainsi qu'un format d'article narratif pour montrer comment NYC gère son problème de sans-abris en envoyant des gens hors de la ville.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.fr.png)
+![busing](../../../../../translated_images/fr/busing.8157cf1bc89a3f65.webp)
 
 > "Bussed Out: How America Moves its Homeless" du [Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualisations par Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Bien que cette leçon ne soit pas suffisante pour enseigner en profondeur ces bi
 
 Vous allez compléter une application web qui affichera une vue animée de ce réseau social. Elle utilise une bibliothèque conçue pour créer une [visualisation d'un réseau](https://github.com/emiliorizzo/vue-d3-network) avec Vue.js et D3. Lorsque l'application est en cours d'exécution, vous pouvez déplacer les nœuds sur l'écran pour réorganiser les données.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.fr.png)
+![liaisons](../../../../../translated_images/fr/liaisons.90ce7360bcf84765.webp)
 
 ## Projet : Construire un graphique pour montrer un réseau avec D3.js
 

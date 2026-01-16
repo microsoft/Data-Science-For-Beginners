@@ -41,7 +41,7 @@ AIの民主化のおかげで、開発者はAI駆動の意思決定やデータ�
 
  * [医療におけるデータサイエンス](https://data-flair.training/blogs/data-science-in-healthcare/) - 医療画像（例: MRI、X線、CTスキャン）、ゲノミクス（DNAシーケンシング）、薬剤開発（リスク評価、成功予測）、予測分析（患者ケア＆供給物流）、疾病追跡＆予防などの応用を強調しています。
 
-![現実世界におけるデータサイエンスの応用](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.ja.png) 画像提供: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![現実世界におけるデータサイエンスの応用](../../../../translated_images/ja/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) 画像提供: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 この図は、データサイエンス技術を応用する他の分野と例を示しています。他の応用を探りたいですか？以下の [レビュー＆自己学習](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) セクションをチェックしてください。
 

@@ -315,7 +315,7 @@ Fügen Sie Ihrer PR-Beschreibung Folgendes hinzu:
   ```
   ````
   
-- Fügen Sie Alt-Text zu Bildern hinzu: `![Alt-Text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.de.png)`  
+- Fügen Sie Alt-Text zu Bildern hinzu: `![Alt-Text](../../translated_images/de/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Halten Sie die Zeilenlänge vernünftig (ca. 80-100 Zeichen)  
 
 ### Python

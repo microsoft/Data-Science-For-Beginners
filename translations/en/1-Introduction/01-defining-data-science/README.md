@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Defining Data Science Video](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.en.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Defining Data Science Video](../../../../translated_images/en/video-def-ds.6623ee2392ef1abf.webp)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ If we want to delve deeper, we can plot the time taken for each module against t
 
 In this challenge, we will aim to identify concepts relevant to the field of Data Science by analyzing texts. We'll use a Wikipedia article on Data Science, download and process the text, and then create a word cloud like this one:
 
-![Word Cloud for Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.en.png)
+![Word Cloud for Data Science](../../../../translated_images/en/ds_wordcloud.664a7c07dca57de0.webp)
 
 Check out [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') to explore the code. You can also run the code and observe how it performs all the data transformations in real time.
 

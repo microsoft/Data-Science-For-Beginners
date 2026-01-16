@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Pythonでの操作 - _[@nitya](https://twitter.com/nitya) によるスケッチノート_                 |
 
-[![イントロ動画](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.ja.png)](https://youtu.be/dZjWOGbsN4Y)
+[![イントロ動画](../../../../translated_images/ja/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 データベースはデータを効率的に保存し、クエリ言語を使用して検索する方法を提供しますが、データ処理の最も柔軟な方法は、自分自身でプログラムを書いてデータを操作することです。多くの場合、データベースクエリを使用する方が効果的です。しかし、より複雑なデータ処理が必要な場合、SQLでは簡単に実現できないことがあります。  
 データ処理はどのプログラミング言語でもプログラム可能ですが、データ操作に特化した高レベルな言語があります。データサイエンティストは通常、以下の言語のいずれかを好みます:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![時系列プロット](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.ja.png)
+![時系列プロット](../../../../translated_images/ja/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 次に、毎週友人のためにパーティーを開催し、パーティー用にアイスクリームを10パック追加で購入するとします。これを示すために、週ごとにインデックス付けされた別のSeriesを作成できます:
 ```python
@@ -84,7 +84,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![時系列プロット](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.ja.png)
+![時系列プロット](../../../../translated_images/ja/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **注意**: 単純な構文 `total_items+additional_items` を使用していないことに注意してください。この場合、結果のSeriesに多くの`NaN`（*Not a Number*）値が含まれることになります。これは、`additional_items` Seriesのインデックスポイントの一部に欠損値があり、`NaN`を加算すると結果が`NaN`になるためです。そのため、加算時に`fill_value`パラメータを指定する必要があります。
 
@@ -93,7 +93,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![月次時系列平均](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.ja.png)
+![月次時系列平均](../../../../translated_images/ja/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ df = pd.read_csv('file.csv')
 
 データの扱い方を示すために、[`notebook-covidspread.ipynb`](notebook-covidspread.ipynb)を開き、上から下まで読んでみてください。また、セルを実行したり、最後に残しておいたチャレンジに取り組むこともできます。
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.ja.png)
+![COVID Spread](../../../../translated_images/ja/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Jupyter Notebookでコードを実行する方法がわからない場合は、[この記事](https://soshnikov.com/education/how-to-execute-notebooks-from-github/)を参照してください。
 
@@ -241,7 +241,7 @@ df = pd.read_csv('file.csv')
 
 [`notebook-papers.ipynb`](notebook-papers.ipynb)を開き、上から下まで読んでみてください。また、セルを実行したり、最後に残しておいたチャレンジに取り組むこともできます。
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.ja.png)
+![Covid Medical Treatment](../../../../translated_images/ja/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## 画像データの処理
 

@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 Siin installid `ggplot2` paketi ja impordid selle tööruumi, kasutades käsku `library("ggplot2")`. Graafiku loomiseks ggplotis kasutatakse funktsiooni `ggplot()`, kus määrad andmestiku, x- ja y-muutujad atribuutidena. Antud juhul kasutame funktsiooni `geom_line()`, kuna eesmärk on luua joongraafik.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.et.png)
+![MaxWingspan-lineplot](../../../../../translated_images/et/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Mida märkad kohe? Tundub, et on vähemalt üks kõrvalekalle - see on päris suur tiivaulatus! 2000+ sentimeetrine tiivaulatus võrdub rohkem kui 20 meetriga - kas Minnesotas rändavad pterodaktülid? Uurime lähemalt.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 Määrame nurga `theme` sees ja määrame x- ja y-telje sildid `xlab()` ja `ylab()` abil. `ggtitle()` annab graafikule/diagrammile nime.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.et.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/et/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Isegi kui siltide pööramine on seatud 45 kraadi, on neid liiga palju, et lugeda. Proovime teistsugust strateegiat: märgistame ainult kõrvalekalded ja määrame sildid graafiku sisse. Võid kasutada hajusdiagrammi, et siltidele rohkem ruumi teha:
 
@@ -100,7 +100,7 @@ Mis siin toimub? Kasutasid funktsiooni `geom_point()`, et graafikule hajuspunkte
 
 Mida avastad?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.et.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/et/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Filtreeri oma andmeid
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 Lõime uue andmestiku `birds_filtered` ja seejärel joonistasime hajusdiagrammi. Kõrvalekallete filtreerimisega on sinu andmed nüüd ühtsemad ja arusaadavamad.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.et.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/et/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Nüüd, kui meil on vähemalt tiivaulatuse osas puhtam andmestik, avastame rohkem nende lindude kohta.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```
 Järgmises koodilõigus installime [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) ja [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) paketid, et aidata andmeid manipuleerida ja rühmitada, et joonistada virnastatud tulpdiagramm. Kõigepealt rühmitad andmed linnu `Category` järgi ja seejärel summeerid `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan` veerud. Seejärel joonistad tulpdiagrammi, kasutades `ggplot2` paketti, määrates erinevate kategooriate värvid ja sildid.
 
-![Virnastatud tulpdiagramm](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.et.png)
+![Virnastatud tulpdiagramm](../../../../../translated_images/et/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 See tulpdiagramm on aga loetamatu, kuna seal on liiga palju rühmitamata andmeid. Pead valima ainult andmed, mida soovid graafikule kanda, seega vaatame lindude pikkust nende kategooria põhjal.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```
 Kõigepealt loendad unikaalsed väärtused `Category` veerus ja seejärel sorteerid need uude andmestikku `birds_count`. See sorteeritud andmestik on seejärel samal tasemel faktoreeritud, et see graafikul sorteeritud kujul kuvataks. Kasutades `ggplot2`, joonistad andmed tulpdiagrammi. `coord_flip()` kuvab horisontaalsed tulbad.
 
-![kategooria-pikkus](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.et.png)
+![kategooria-pikkus](../../../../../translated_images/et/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 See tulpdiagramm annab hea ülevaate lindude arvust igas kategoorias. Ühe pilguga näed, et suurim arv linde selles piirkonnas kuulub Pardid/Haned/Vesilinnud kategooriasse. Minnesota on "10 000 järve maa", seega pole see üllatav!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```
 Rühmitame `birds_filtered` andmed `Category` järgi ja seejärel joonistame tulpdiagrammi.
 
-![andmete võrdlemine](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.et.png)
+![andmete võrdlemine](../../../../../translated_images/et/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Siin pole midagi üllatavat: koolibrid on maksimaalse pikkuse poolest kõige väiksemad võrreldes pelikani või hanega. On hea, kui andmed on loogilised!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```
-![superimposeeritud väärtused](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.et.png)
+![superimposeeritud väärtused](../../../../../translated_images/et/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Väljakutse
 

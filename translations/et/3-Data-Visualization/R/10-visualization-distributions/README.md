@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![maksimaalne pikkus seltsi järgi](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.et.png)
+![maksimaalne pikkus seltsi järgi](../../../../../translated_images/et/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 See annab ülevaate lindude pikkuse jaotusest seltsi järgi, kuid see pole parim viis tõeliste jaotuste kuvamiseks. Selle ülesande jaoks kasutatakse tavaliselt histogrammi.
 ## Töötamine histogrammidega
@@ -56,7 +56,7 @@ See annab ülevaate lindude pikkuse jaotusest seltsi järgi, kuid see pole parim
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![jaotus kogu andmestikus](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.et.png)
+![jaotus kogu andmestikus](../../../../../translated_images/et/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 Nagu näete, kuulub enamik 400+ linnust selles andmestikus Max Body Mass väärtusega alla 2000. Saate andmetest rohkem aru, kui muudate `bins` parameetri kõrgemaks, näiteks 30:
 
@@ -64,7 +64,7 @@ Nagu näete, kuulub enamik 400+ linnust selles andmestikus Max Body Mass väärt
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![jaotus-30bins](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.et.png)
+![jaotus-30bins](../../../../../translated_images/et/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 See diagramm näitab jaotust veidi detailsemalt. Vähem vasakule kaldu diagrammi saab luua, kui valite andmed ainult teatud vahemikus:
 
@@ -76,7 +76,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![filtreeritud histogramm](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.et.png)
+![filtreeritud histogramm](../../../../../translated_images/et/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ Proovige mõnda muud filtrit ja andmepunkti. Andmete täieliku jaotuse nägemiseks eemaldage `['MaxBodyMass']` filter, et kuvada märgistatud jaotused.
 
@@ -90,7 +90,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Tundub, et nende kahe elemendi vahel on oodatud korrelatsioon mööda oodatud telge, kus üks kokkulangevuse punkt on eriti tugev:
 
-![2d diagramm](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.et.png)
+![2d diagramm](../../../../../translated_images/et/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 Histogrammid töötavad vaikimisi hästi numbriliste andmetega. Aga mis siis, kui peate nägema jaotusi tekstiliste andmete järgi? 
 ## Uurime andmestikku jaotuste leidmiseks tekstiliste andmete abil 
@@ -121,7 +121,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![tiivaulatus ja kaitsestaatuse seos](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.et.png)
+![tiivaulatus ja kaitsestaatuse seos](../../../../../translated_images/et/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 Tundub, et minimaalse tiivaulatuse ja kaitsestaatuse vahel pole head korrelatsiooni. Testige selle meetodiga andmestiku teisi elemente. Võite proovida ka erinevaid filtreid. Kas leiate korrelatsiooni?
 
@@ -135,7 +135,7 @@ Töötame nüüd tiheduse diagrammidega!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![tiheduse diagramm](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.et.png)
+![tiheduse diagramm](../../../../../translated_images/et/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 Näete, kuidas diagramm kajastab varasemat minimaalse tiivaulatuse diagrammi; see on lihtsalt veidi sujuvam. Kui soovite uuesti vaadata seda sakilist MaxBodyMass joont teises loodud diagrammis, saate selle väga hästi siluda, luues selle uuesti selle meetodiga:
 
@@ -143,7 +143,7 @@ Näete, kuidas diagramm kajastab varasemat minimaalse tiivaulatuse diagrammi; se
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![kehamassi tihedus](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.et.png)
+![kehamassi tihedus](../../../../../translated_images/et/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 Kui soovite sujuvat, kuid mitte liiga sujuvat joont, muutke `adjust` parameetrit: 
 
@@ -151,7 +151,7 @@ Kui soovite sujuvat, kuid mitte liiga sujuvat joont, muutke `adjust` parameetrit
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![vähem sujuv kehamass](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.et.png)
+![vähem sujuv kehamass](../../../../../translated_images/et/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ Lugege selle diagrammitüübi jaoks saadaolevate parameetrite kohta ja katsetage!
 
@@ -161,7 +161,7 @@ See diagrammitüüp pakub kaunilt selgitavaid visualiseeringuid. Näiteks mõne 
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![kehamass seltsi järgi](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.et.png)
+![kehamass seltsi järgi](../../../../../translated_images/et/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 Väljakutse
 

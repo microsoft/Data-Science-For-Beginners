@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Ici, vous installez le package `ggplot2` puis l'importez dans l'espace de travail avec la commande `library("ggplot2")`. Pour tracer un graphique dans ggplot, la fonction `ggplot()` est utilisée et vous spécifiez le jeu de données, les variables x et y comme attributs. Dans ce cas, nous utilisons la fonction `geom_line()` car nous visons à tracer un graphique linéaire.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.fr.png)
+![MaxWingspan-lineplot](../../../../../translated_images/fr/MaxWingspan-lineplot.b12169f99d26fdd2.webp)
 
 Que remarquez-vous immédiatement ? Il semble y avoir au moins une valeur aberrante - quelle envergure impressionnante ! Une envergure de plus de 2000 centimètres équivaut à plus de 20 mètres - y aurait-il des ptérodactyles qui rôdent dans le Minnesota ? Enquêtons.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Nous spécifions l'angle dans le `theme` et définissons les étiquettes des axes x et y avec `xlab()` et `ylab()` respectivement. La fonction `ggtitle()` donne un titre au graphique.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.fr.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/fr/MaxWingspan-lineplot-improved.04b73b4d5a59552a.webp)
 
 Même avec une rotation des étiquettes réglée à 45 degrés, il y en a trop pour être lisibles. Essayons une autre stratégie : étiqueter uniquement les valeurs aberrantes et placer les étiquettes directement dans le graphique. Vous pouvez utiliser un graphique en nuage de points pour laisser plus de place aux étiquettes :
 
@@ -100,7 +100,7 @@ Que se passe-t-il ici ? Vous avez utilisé la fonction `geom_point()` pour trace
 
 Que découvrez-vous ?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.fr.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/fr/MaxWingspan-scatterplot.60dc9e0e19d32700.webp)
 
 ## Filtrer vos données
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Nous avons créé un nouveau dataframe `birds_filtered` puis tracé un nuage de points. En filtrant les valeurs aberrantes, vos données sont désormais plus cohérentes et compréhensibles.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.fr.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/fr/MaxWingspan-scatterplot-improved.7d0af81658c65f3e.webp)
 
 Maintenant que nous avons un jeu de données plus propre en termes d'envergure, découvrons-en davantage sur ces oiseaux.
 
@@ -161,7 +161,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 Dans l'extrait suivant, nous installons les packages [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) et [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) pour aider à manipuler et regrouper les données afin de tracer un graphique en barres empilées. Tout d'abord, vous regroupez les données par `Category` d'oiseau, puis vous résumez les colonnes `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Ensuite, vous tracez le graphique en barres avec le package `ggplot2` et spécifiez les couleurs pour les différentes catégories et les étiquettes.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.fr.png)
+![Stacked bar chart](../../../../../translated_images/fr/stacked-bar-chart.0c92264e89da7b39.webp)
 
 Cependant, ce graphique en barres est illisible car il y a trop de données non regroupées. Vous devez sélectionner uniquement les données que vous souhaitez tracer, alors examinons la longueur des oiseaux en fonction de leur catégorie.
 
@@ -176,7 +176,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Vous comptez d'abord les valeurs uniques dans la colonne `Category` puis les triez dans un nouveau dataframe `birds_count`. Ces données triées sont ensuite factoriées au même niveau afin qu'elles soient tracées dans l'ordre trié. Avec `ggplot2`, vous tracez ensuite les données dans un graphique en barres. La fonction `coord_flip()` trace des barres horizontales.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.fr.png)
+![category-length](../../../../../translated_images/fr/category-length.7e34c296690e85d6.webp)
 
 Ce graphique en barres montre une bonne vue du nombre d'oiseaux dans chaque catégorie. En un clin d'œil, vous voyez que le plus grand nombre d'oiseaux dans cette région appartient à la catégorie Canards/Oies/Oiseaux aquatiques. Le Minnesota est le "pays des 10 000 lacs", donc cela n'est pas surprenant !
 
@@ -199,7 +199,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Nous regroupons les données `birds_filtered` par `Category` puis traçons un graphique en barres.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.fr.png)
+![comparing data](../../../../../translated_images/fr/comparingdata.f486a450d61c7ca5.webp)
 
 Rien de surprenant ici : les colibris ont la LongueurMax la plus faible comparée aux pélicans ou aux oies. C'est bien lorsque les données ont du sens logiquement !
 
@@ -211,7 +211,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.fr.png)
+![super-imposed values](../../../../../translated_images/fr/superimposed-values.5363f0705a1da416.webp)
 
 ## 🚀 Défi
 
