@@ -1,74 +1,8 @@
 {
-  "ds-for-beginners.d01930c9193ef522.webp": {
-    "original_hash": "b84eca5411f4bc0041e671becb05fe48",
-    "translation_date": "2026-01-16T15:56:08+00:00",
-    "source_file": "ds-for-beginners.png",
-    "language_code": "da"
-  },
-  "favicon.37b561214b36d454.webp": {
-    "original_hash": "228faa6584f8ba1f7e9a75e3200112e9",
-    "translation_date": "2026-01-16T15:56:10+00:00",
-    "source_file": "images/favicon.png",
-    "language_code": "da"
-  },
-  "1.0b520df6a0d9d3c4.webp": {
-    "original_hash": "54586a26505aae6cbcc8962a2852b277",
-    "translation_date": "2026-01-16T15:56:14+00:00",
-    "source_file": "images/1.png",
-    "language_code": "da"
-  },
-  "08-DataPreparation.e3b185c37958e964.webp": {
-    "original_hash": "0201767bfac86b208c4c9de0fce95141",
-    "translation_date": "2026-01-16T15:56:25+00:00",
-    "source_file": "sketchnotes/08-DataPreparation.png",
-    "language_code": "da"
-  },
-  "10-Visualizing-Distributions.8097fd8abd7221a1.webp": {
-    "original_hash": "885512a64dcab7202c5a53cbde907da2",
-    "translation_date": "2026-01-16T15:56:42+00:00",
-    "source_file": "sketchnotes/10-Visualizing-Distributions.png",
-    "language_code": "da"
-  },
-  "05-RelationalData.af50f5a3e50f7456.webp": {
-    "original_hash": "e4e0576bddd38fe9a4bd941f73d6de3b",
-    "translation_date": "2026-01-16T15:57:01+00:00",
-    "source_file": "sketchnotes/05-RelationalData.png",
-    "language_code": "da"
-  },
-  "16-Communicating.f1d29cd7984442a4.webp": {
-    "original_hash": "9a65542ddae4e103ab2a665fe65629ce",
-    "translation_date": "2026-01-16T15:57:14+00:00",
-    "source_file": "sketchnotes/16-Communicating.png",
-    "language_code": "da"
-  },
   "00-Roadmap.4905d6567dff4753.webp": {
     "original_hash": "ecf8b739e8b862f9c4dac338bd614aa7",
     "translation_date": "2026-01-16T15:58:42+00:00",
     "source_file": "sketchnotes/00-Roadmap.png",
-    "language_code": "da"
-  },
-  "12-Visualizing-Relationships.4466f9bd260f03dd.webp": {
-    "original_hash": "10d06245ecbdc48880e555f03a62f64c",
-    "translation_date": "2026-01-16T16:01:20+00:00",
-    "source_file": "sketchnotes/12-Visualizing-Relationships.png",
-    "language_code": "da"
-  },
-  "06-NoSQL.42a91ea0cd5769fe.webp": {
-    "original_hash": "f5873c65a3a544e1b1a94417c5ee55c8",
-    "translation_date": "2026-01-16T16:01:38+00:00",
-    "source_file": "sketchnotes/06-NoSQL.png",
-    "language_code": "da"
-  },
-  "20-DataScience-RealWorld.976976229ee11342.webp": {
-    "original_hash": "ff1861c005ea9fe7644777c4069008b9",
-    "translation_date": "2026-01-16T16:01:56+00:00",
-    "source_file": "sketchnotes/20-DataScience-RealWorld.png",
-    "language_code": "da"
-  },
-  "01-Definitions.1b14ddc9525dc0d9.webp": {
-    "original_hash": "56648d71e5fb4865d3f621010f220582",
-    "translation_date": "2026-01-16T16:02:17+00:00",
-    "source_file": "sketchnotes/01-Definitions.png",
     "language_code": "da"
   },
   "00-Title.8af36cd35da1ac55.webp": {
@@ -77,70 +11,10 @@
     "source_file": "sketchnotes/00-Title.png",
     "language_code": "da"
   },
-  "14-DataScience-Lifecycle.2c9f277e4d69fbaa.webp": {
-    "original_hash": "96cbd264a85530f5876c353b2e57956d",
-    "translation_date": "2026-01-16T16:02:37+00:00",
-    "source_file": "sketchnotes/14-DataScience-Lifecycle.png",
-    "language_code": "da"
-  },
-  "11-Visualizing-Proportions.3e82f24af94d206e.webp": {
-    "original_hash": "e7f8f167d209a389c3100d3ac210b69d",
-    "translation_date": "2026-01-16T16:03:03+00:00",
-    "source_file": "sketchnotes/11-Visualizing-Proportions.png",
-    "language_code": "da"
-  },
-  "20-DataScience-Research.da434814c51b4ef8.webp": {
-    "original_hash": "c1d7c67564ad6767200da0cab95eeb52",
-    "translation_date": "2026-01-16T16:03:29+00:00",
-    "source_file": "sketchnotes/20-DataScience-Research.png",
-    "language_code": "da"
-  },
-  "03-DefiningData.f800817186949e07.webp": {
-    "original_hash": "8c60eda506de75c669370430aa8ecc00",
-    "translation_date": "2026-01-16T16:03:50+00:00",
-    "source_file": "sketchnotes/03-DefiningData.png",
-    "language_code": "da"
-  },
-  "20-DataScience-Humanities.1d1a155f4d12a667.webp": {
-    "original_hash": "1458acca113e1f3c64fb18d6a434fb5c",
-    "translation_date": "2026-01-16T16:04:07+00:00",
-    "source_file": "sketchnotes/20-DataScience-Humanities.png",
-    "language_code": "da"
-  },
-  "20-DataScience-Sustainability.d4097bc684431da6.webp": {
-    "original_hash": "966e2a6eea920d7cb30a343e0bf5c856",
-    "translation_date": "2026-01-16T16:04:29+00:00",
-    "source_file": "sketchnotes/20-DataScience-Sustainability.png",
-    "language_code": "da"
-  },
-  "07-WorkWithPython.8bf4a5013718bef9.webp": {
-    "original_hash": "5cbac0986c16de6e4347ed8e6ae6f9c3",
-    "translation_date": "2026-01-16T16:04:43+00:00",
-    "source_file": "sketchnotes/07-WorkWithPython.png",
-    "language_code": "da"
-  },
-  "19-DataScience-Cloud.177b38fb86301fc6.webp": {
-    "original_hash": "78eb918c3512a018c0d99a217bc72038",
-    "translation_date": "2026-01-16T16:04:59+00:00",
-    "source_file": "sketchnotes/19-DataScience-Cloud.png",
-    "language_code": "da"
-  },
-  "18-DataScience-Cloud.3a7292e8182b74eb.webp": {
-    "original_hash": "c1094124ae2e325016c6ddcb95599c7a",
-    "translation_date": "2026-01-16T16:05:20+00:00",
-    "source_file": "sketchnotes/18-DataScience-Cloud.png",
-    "language_code": "da"
-  },
-  "09-Visualizing-Quantities.5c846edd805a5238.webp": {
-    "original_hash": "63def3198fdcbc1a6b9ef585745a82c8",
-    "translation_date": "2026-01-16T16:05:52+00:00",
-    "source_file": "sketchnotes/09-Visualizing-Quantities.png",
-    "language_code": "da"
-  },
-  "17-DataScience-Cloud.0df76ac874805c14.webp": {
-    "original_hash": "221a9e5d40e6f47fe793f175a8754ae0",
-    "translation_date": "2026-01-16T16:06:12+00:00",
-    "source_file": "sketchnotes/17-DataScience-Cloud.png",
+  "01-Definitions.1b14ddc9525dc0d9.webp": {
+    "original_hash": "56648d71e5fb4865d3f621010f220582",
+    "translation_date": "2026-01-16T16:02:17+00:00",
+    "source_file": "sketchnotes/01-Definitions.png",
     "language_code": "da"
   },
   "02-Ethics.728d166895302ab0.webp": {
@@ -149,10 +23,70 @@
     "source_file": "sketchnotes/02-Ethics.png",
     "language_code": "da"
   },
+  "03-DefiningData.f800817186949e07.webp": {
+    "original_hash": "8c60eda506de75c669370430aa8ecc00",
+    "translation_date": "2026-01-16T16:03:50+00:00",
+    "source_file": "sketchnotes/03-DefiningData.png",
+    "language_code": "da"
+  },
   "04-Statistics-Probability.cfc569d84a9f1867.webp": {
     "original_hash": "2ee100d33c054ce8a39267530f23377c",
     "translation_date": "2026-01-16T16:06:45+00:00",
     "source_file": "sketchnotes/04-Statistics-Probability.png",
+    "language_code": "da"
+  },
+  "05-RelationalData.af50f5a3e50f7456.webp": {
+    "original_hash": "e4e0576bddd38fe9a4bd941f73d6de3b",
+    "translation_date": "2026-01-16T15:57:01+00:00",
+    "source_file": "sketchnotes/05-RelationalData.png",
+    "language_code": "da"
+  },
+  "06-NoSQL.42a91ea0cd5769fe.webp": {
+    "original_hash": "f5873c65a3a544e1b1a94417c5ee55c8",
+    "translation_date": "2026-01-16T16:01:38+00:00",
+    "source_file": "sketchnotes/06-NoSQL.png",
+    "language_code": "da"
+  },
+  "07-WorkWithPython.8bf4a5013718bef9.webp": {
+    "original_hash": "5cbac0986c16de6e4347ed8e6ae6f9c3",
+    "translation_date": "2026-01-16T16:04:43+00:00",
+    "source_file": "sketchnotes/07-WorkWithPython.png",
+    "language_code": "da"
+  },
+  "08-DataPreparation.e3b185c37958e964.webp": {
+    "original_hash": "0201767bfac86b208c4c9de0fce95141",
+    "translation_date": "2026-01-16T15:56:25+00:00",
+    "source_file": "sketchnotes/08-DataPreparation.png",
+    "language_code": "da"
+  },
+  "09-Visualizing-Quantities.5c846edd805a5238.webp": {
+    "original_hash": "63def3198fdcbc1a6b9ef585745a82c8",
+    "translation_date": "2026-01-16T16:05:52+00:00",
+    "source_file": "sketchnotes/09-Visualizing-Quantities.png",
+    "language_code": "da"
+  },
+  "1.0b520df6a0d9d3c4.webp": {
+    "original_hash": "54586a26505aae6cbcc8962a2852b277",
+    "translation_date": "2026-01-16T15:56:14+00:00",
+    "source_file": "images/1.png",
+    "language_code": "da"
+  },
+  "10-Visualizing-Distributions.8097fd8abd7221a1.webp": {
+    "original_hash": "885512a64dcab7202c5a53cbde907da2",
+    "translation_date": "2026-01-16T15:56:42+00:00",
+    "source_file": "sketchnotes/10-Visualizing-Distributions.png",
+    "language_code": "da"
+  },
+  "11-Visualizing-Proportions.3e82f24af94d206e.webp": {
+    "original_hash": "e7f8f167d209a389c3100d3ac210b69d",
+    "translation_date": "2026-01-16T16:03:03+00:00",
+    "source_file": "sketchnotes/11-Visualizing-Proportions.png",
+    "language_code": "da"
+  },
+  "12-Visualizing-Relationships.4466f9bd260f03dd.webp": {
+    "original_hash": "10d06245ecbdc48880e555f03a62f64c",
+    "translation_date": "2026-01-16T16:01:20+00:00",
+    "source_file": "sketchnotes/12-Visualizing-Relationships.png",
     "language_code": "da"
   },
   "13-MeaningfulViz.4db6f1997e519908.webp": {
@@ -161,442 +95,64 @@
     "source_file": "sketchnotes/13-MeaningfulViz.png",
     "language_code": "da"
   },
+  "14-DataScience-Lifecycle.2c9f277e4d69fbaa.webp": {
+    "original_hash": "96cbd264a85530f5876c353b2e57956d",
+    "translation_date": "2026-01-16T16:02:37+00:00",
+    "source_file": "sketchnotes/14-DataScience-Lifecycle.png",
+    "language_code": "da"
+  },
   "15-Analyzing.b501f3dbdc958f6f.webp": {
     "original_hash": "973333ac82d2472591675e2b93afc87e",
     "translation_date": "2026-01-16T16:07:22+00:00",
     "source_file": "sketchnotes/15-Analyzing.png",
     "language_code": "da"
   },
-  "data.48e22bb7617d8d92.webp": {
-    "original_hash": "1a84026266861a50791b9f952fbab540",
-    "translation_date": "2026-01-16T16:07:39+00:00",
-    "source_file": "1-Introduction/images/data.jpg",
+  "16-Communicating.f1d29cd7984442a4.webp": {
+    "original_hash": "9a65542ddae4e103ab2a665fe65629ce",
+    "translation_date": "2026-01-16T15:57:14+00:00",
+    "source_file": "sketchnotes/16-Communicating.png",
     "language_code": "da"
   },
-  "ds_wordcloud.664a7c07dca57de0.webp": {
-    "original_hash": "df525e123083bea87f16bce2c07970c7",
-    "translation_date": "2026-01-16T16:07:58+00:00",
-    "source_file": "1-Introduction/01-defining-data-science/images/ds_wordcloud.png",
+  "17-DataScience-Cloud.0df76ac874805c14.webp": {
+    "original_hash": "221a9e5d40e6f47fe793f175a8754ae0",
+    "translation_date": "2026-01-16T16:06:12+00:00",
+    "source_file": "sketchnotes/17-DataScience-Cloud.png",
     "language_code": "da"
   },
-  "video-def-ds.6623ee2392ef1abf.webp": {
-    "original_hash": "95650b7eed7f176ce8fdee16271a464b",
-    "translation_date": "2026-01-16T16:08:29+00:00",
-    "source_file": "1-Introduction/01-defining-data-science/images/video-def-ds.png",
+  "18-DataScience-Cloud.3a7292e8182b74eb.webp": {
+    "original_hash": "c1094124ae2e325016c6ddcb95599c7a",
+    "translation_date": "2026-01-16T16:05:20+00:00",
+    "source_file": "sketchnotes/18-DataScience-Cloud.png",
     "language_code": "da"
   },
-  "boxplot_explanation.4039b7de08780fd4.webp": {
-    "original_hash": "18e16e4144706f7e9006fc2ff958e622",
-    "translation_date": "2026-01-16T16:08:47+00:00",
-    "source_file": "1-Introduction/04-stats-and-probability/images/boxplot_explanation.png",
+  "19-DataScience-Cloud.177b38fb86301fc6.webp": {
+    "original_hash": "78eb918c3512a018c0d99a217bc72038",
+    "translation_date": "2026-01-16T16:04:59+00:00",
+    "source_file": "sketchnotes/19-DataScience-Cloud.png",
     "language_code": "da"
   },
-  "weight-boxplot.1dbab1c03af26f8a.webp": {
-    "original_hash": "4e39b904d1a4313d66663aa3f7ab9602",
-    "translation_date": "2026-01-16T16:09:00+00:00",
-    "source_file": "1-Introduction/04-stats-and-probability/images/weight-boxplot.png",
+  "20-DataScience-Humanities.1d1a155f4d12a667.webp": {
+    "original_hash": "1458acca113e1f3c64fb18d6a434fb5c",
+    "translation_date": "2026-01-16T16:04:07+00:00",
+    "source_file": "sketchnotes/20-DataScience-Humanities.png",
     "language_code": "da"
   },
-  "weight-histogram.bfd00caf7fc30b14.webp": {
-    "original_hash": "bef55b4cd03923b2d8674e92bb1757c9",
-    "translation_date": "2026-01-16T16:09:05+00:00",
-    "source_file": "1-Introduction/04-stats-and-probability/images/weight-histogram.png",
+  "20-DataScience-RealWorld.976976229ee11342.webp": {
+    "original_hash": "ff1861c005ea9fe7644777c4069008b9",
+    "translation_date": "2026-01-16T16:01:56+00:00",
+    "source_file": "sketchnotes/20-DataScience-RealWorld.png",
     "language_code": "da"
   },
-  "probability-density.a8aad29f17a14afb.webp": {
-    "original_hash": "79ec3e39c1c20e570327ebd8a2737548",
-    "translation_date": "2026-01-16T16:09:10+00:00",
-    "source_file": "1-Introduction/04-stats-and-probability/images/probability-density.png",
+  "20-DataScience-Research.da434814c51b4ef8.webp": {
+    "original_hash": "c1d7c67564ad6767200da0cab95eeb52",
+    "translation_date": "2026-01-16T16:03:29+00:00",
+    "source_file": "sketchnotes/20-DataScience-Research.png",
     "language_code": "da"
   },
-  "weight-height-relationship.3f06bde4ca2aba99.webp": {
-    "original_hash": "2412d31f9c41004d2d0cb80179d6021f",
-    "translation_date": "2026-01-16T16:09:15+00:00",
-    "source_file": "1-Introduction/04-stats-and-probability/images/weight-height-relationship.png",
-    "language_code": "da"
-  },
-  "height-boxplot.ccb66b2848b5f51c.webp": {
-    "original_hash": "0f3d954cc0e0b9644f64f7bc1c8a5518",
-    "translation_date": "2026-01-16T16:09:19+00:00",
-    "source_file": "1-Introduction/04-stats-and-probability/images/height-boxplot.png",
-    "language_code": "da"
-  },
-  "video-prob-and-stats.e4282e5efa2f2543.webp": {
-    "original_hash": "95894d8c6274697246b11c5ddf395c5f",
-    "translation_date": "2026-01-16T16:09:26+00:00",
-    "source_file": "1-Introduction/04-stats-and-probability/images/video-prob-and-stats.png",
-    "language_code": "da"
-  },
-  "normal-histogram.dfae0d67c202137d.webp": {
-    "original_hash": "46ee775d2df1d79815c1aab51bd8d2fe",
-    "translation_date": "2026-01-16T16:09:33+00:00",
-    "source_file": "1-Introduction/04-stats-and-probability/images/normal-histogram.png",
-    "language_code": "da"
-  },
-  "boxplot_byrole.036b27a1c3f52d42.webp": {
-    "original_hash": "1193ef907e122e99637e73ef9f83d2a5",
-    "translation_date": "2026-01-16T16:09:38+00:00",
-    "source_file": "1-Introduction/04-stats-and-probability/images/boxplot_byrole.png",
-    "language_code": "da"
-  },
-  "cloud-picture.f5526de3c6c6387b.webp": {
-    "original_hash": "112d96f85f2037814d2df8b88267a595",
-    "translation_date": "2026-01-16T16:09:46+00:00",
-    "source_file": "5-Data-Science-In-Cloud/images/cloud-picture.jpg",
-    "language_code": "da"
-  },
-  "compute-instance-1.dba347cb199ca499.webp": {
-    "original_hash": "7af64073de557468a0b652e4bcecf2d1",
-    "translation_date": "2026-01-16T16:09:57+00:00",
-    "source_file": "5-Data-Science-In-Cloud/19-Azure/images/compute-instance-1.PNG",
-    "language_code": "da"
-  },
-  "notebook-1.12998af7b02c83f5.webp": {
-    "original_hash": "08d559b911ecbed212b67e206ae6bcf1",
-    "translation_date": "2026-01-16T16:10:12+00:00",
-    "source_file": "5-Data-Science-In-Cloud/19-Azure/images/notebook-1.PNG",
-    "language_code": "da"
-  },
-  "notebook-2.9a657c037e34f1cf.webp": {
-    "original_hash": "018309c1ca2ed8e31fd89c3674687979",
-    "translation_date": "2026-01-16T16:10:24+00:00",
-    "source_file": "5-Data-Science-In-Cloud/19-Azure/images/notebook-2.PNG",
-    "language_code": "da"
-  },
-  "project-schema.420e56d495624541.webp": {
-    "original_hash": "ac50741c7ac13ecfdef9db5564f80bbd",
-    "translation_date": "2026-01-16T16:10:38+00:00",
-    "source_file": "5-Data-Science-In-Cloud/19-Azure/images/project-schema.PNG",
-    "language_code": "da"
-  },
-  "aml-3.a7952e4295f38cc6.webp": {
-    "original_hash": "33433e94fe719f0e4104ad809338f91d",
-    "translation_date": "2026-01-16T16:11:04+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/aml-3.PNG",
-    "language_code": "da"
-  },
-  "aml-2.c9fb9cffb39ccbbe.webp": {
-    "original_hash": "703a44252eca61e2b68c1365f4beb179",
-    "translation_date": "2026-01-16T16:11:22+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/aml-2.PNG",
-    "language_code": "da"
-  },
-  "workspace-1.ac8694d60b073ed1.webp": {
-    "original_hash": "5e9f3153bfd5af7d8b6adcb09c08cabd",
-    "translation_date": "2026-01-16T16:11:39+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/workspace-1.PNG",
-    "language_code": "da"
-  },
-  "deploy-1.ddad725acadc84e3.webp": {
-    "original_hash": "d91956f565f29332f32fc85095206456",
-    "translation_date": "2026-01-16T16:11:51+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/deploy-1.PNG",
-    "language_code": "da"
-  },
-  "cluster-3.8a334bc070ec173a.webp": {
-    "original_hash": "b440d88eb5ce449ebe780c1edbac221d",
-    "translation_date": "2026-01-16T16:12:09+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/cluster-3.PNG",
-    "language_code": "da"
-  },
-  "workspace-4.bac87f6599c4df63.webp": {
-    "original_hash": "099e0b18ce11f3966c0b7d954c2eb4fb",
-    "translation_date": "2026-01-16T16:12:26+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/workspace-4.PNG",
-    "language_code": "da"
-  },
-  "datascienceinthecloud.59ffb059a670fb0a.webp": {
-    "original_hash": "d66cf00bfc41a3d1bef7e1d54ac4e03f",
-    "translation_date": "2026-01-16T16:12:36+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/datascienceinthecloud.jpg",
-    "language_code": "da"
-  },
-  "aml-4.7a627e09cb6f16d0.webp": {
-    "original_hash": "983ad36543a02fffcb8f05fb94e09ef4",
-    "translation_date": "2026-01-16T16:12:50+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/aml-4.PNG",
-    "language_code": "da"
-  },
-  "cluster-2.ea30cdbc9f926bb9.webp": {
-    "original_hash": "0486b9eb10e88dc53fc2927c9197cd27",
-    "translation_date": "2026-01-16T16:13:18+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/cluster-2.PNG",
-    "language_code": "da"
-  },
-  "dataset-1.e86ab4e10907a6e9.webp": {
-    "original_hash": "b742ef1724e601f68a1bdf3f1faa89c6",
-    "translation_date": "2026-01-16T16:13:44+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/dataset-1.PNG",
-    "language_code": "da"
-  },
-  "cluster-1.b78cb630bb543729.webp": {
-    "original_hash": "d938d671e7eabf7fbc012cf1987dc43f",
-    "translation_date": "2026-01-16T16:14:02+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/cluster-1.PNG",
-    "language_code": "da"
-  },
-  "workspace-2.ae7c486db8796147.webp": {
-    "original_hash": "9299f5ae459f0a153da6aaae9accc78d",
-    "translation_date": "2026-01-16T16:14:16+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/workspace-2.PNG",
-    "language_code": "da"
-  },
-  "deploy-3.fecefef070e8ef3b.webp": {
-    "original_hash": "487c6cd79b0232e10e40fdab2e6b929f",
-    "translation_date": "2026-01-16T16:14:34+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/deploy-3.PNG",
-    "language_code": "da"
-  },
-  "project-schema.736f6e403f321eb4.webp": {
-    "original_hash": "ac50741c7ac13ecfdef9db5564f80bbd",
-    "translation_date": "2026-01-16T16:15:02+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/project-schema.PNG",
-    "language_code": "da"
-  },
-  "dataset-3.58db8c0eb783e892.webp": {
-    "original_hash": "cc2177288c2ac7289b614ce41ee68d60",
-    "translation_date": "2026-01-16T16:15:38+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/dataset-3.PNG",
-    "language_code": "da"
-  },
-  "dataset-2.f58de1c435d5bf9c.webp": {
-    "original_hash": "328c65d45aa937db952093099bc408ce",
-    "translation_date": "2026-01-16T16:16:05+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/dataset-2.PNG",
-    "language_code": "da"
-  },
-  "workspace-6.8dd81fe841797ee1.webp": {
-    "original_hash": "fd0194c1a558063ddb53e5c1ead0a2b0",
-    "translation_date": "2026-01-16T16:16:20+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/workspace-6.PNG",
-    "language_code": "da"
-  },
-  "consumption-1.700abd196452842a.webp": {
-    "original_hash": "a5ecdcdff30f2d1059763b9ce5abe4eb",
-    "translation_date": "2026-01-16T16:16:45+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/consumption-1.PNG",
-    "language_code": "da"
-  },
-  "workspace-5.a6eb17e0a5e64200.webp": {
-    "original_hash": "01b1c520e46b3fbd6fba0d54bb80bece",
-    "translation_date": "2026-01-16T16:17:13+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/workspace-5.PNG",
-    "language_code": "da"
-  },
-  "deploy-2.94dbb13f23908647.webp": {
-    "original_hash": "cb622a2e6374ccfdb376d3528e2bb9c8",
-    "translation_date": "2026-01-16T16:17:28+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/deploy-2.PNG",
-    "language_code": "da"
-  },
-  "aml-1.67281a85d3a1e2f3.webp": {
-    "original_hash": "130c64f0112c117a400926da0bbaf090",
-    "translation_date": "2026-01-16T16:17:38+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/aml-1.PNG",
-    "language_code": "da"
-  },
-  "workspace-3.398ca4a5858132cc.webp": {
-    "original_hash": "2ee0b036fbc5fd13a526f26ac9d60347",
-    "translation_date": "2026-01-16T16:17:49+00:00",
-    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/workspace-3.PNG",
-    "language_code": "da"
-  },
-  "communication.06d8e2a88d30d168.webp": {
-    "original_hash": "5736c0fd0f68676dbd5b27c5b04f4b48",
-    "translation_date": "2026-01-16T16:18:04+00:00",
-    "source_file": "4-Data-Science-Lifecycle/images/communication.jpg",
-    "language_code": "da"
-  },
-  "CRISP-DM.8bad2b4c66e62aa7.webp": {
-    "original_hash": "eac24034dc4554b1292c0c035a852548",
-    "translation_date": "2026-01-16T16:18:21+00:00",
-    "source_file": "4-Data-Science-Lifecycle/14-Introduction/images/CRISP-DM.png",
-    "language_code": "da"
-  },
-  "data-science-lifecycle.a1e362637503c4fb.webp": {
-    "original_hash": "594be62e68ef5e92f5447febe91c7794",
-    "translation_date": "2026-01-16T16:18:29+00:00",
-    "source_file": "4-Data-Science-Lifecycle/14-Introduction/images/data-science-lifecycle.jpg",
-    "language_code": "da"
-  },
-  "tdsp-lifecycle2.e19029d598e2e73d.webp": {
-    "original_hash": "d1f838b6b0fd588b4ee6cd22cb578569",
-    "translation_date": "2026-01-16T16:18:42+00:00",
-    "source_file": "4-Data-Science-Lifecycle/14-Introduction/images/tdsp-lifecycle2.png",
-    "language_code": "da"
-  },
-  "data-love.a22ef29e6742c852.webp": {
-    "original_hash": "e7fcf82d891c727f86c21960cb63efa6",
-    "translation_date": "2026-01-16T16:19:14+00:00",
-    "source_file": "2-Working-With-Data/images/data-love.jpg",
-    "language_code": "da"
-  },
-  "video-ds-python.245247dc811db8e4.webp": {
-    "original_hash": "030eca02a7388a1428cf20faa215f2b9",
-    "translation_date": "2026-01-16T16:19:45+00:00",
-    "source_file": "2-Working-With-Data/07-python/images/video-ds-python.png",
-    "language_code": "da"
-  },
-  "dataframe-1.caf409f0c688e84c.webp": {
-    "original_hash": "2ca632a405bd7b501a0e0df0fa55515a",
-    "translation_date": "2026-01-16T16:19:55+00:00",
-    "source_file": "2-Working-With-Data/07-python/images/dataframe-1.png",
-    "language_code": "da"
-  },
-  "covidtreat.b2ba59f57ca45fbc.webp": {
-    "original_hash": "b2b1e40794073c65faa986c5995754c9",
-    "translation_date": "2026-01-16T16:20:02+00:00",
-    "source_file": "2-Working-With-Data/07-python/images/covidtreat.png",
-    "language_code": "da"
-  },
-  "timeseries-1.80de678ab1cf727e.webp": {
-    "original_hash": "30236ed2474d8d115ab3d51545e0c19e",
-    "translation_date": "2026-01-16T16:20:10+00:00",
-    "source_file": "2-Working-With-Data/07-python/images/timeseries-1.png",
-    "language_code": "da"
-  },
-  "covidspread.f3d131c4f1d260ab.webp": {
-    "original_hash": "461f7858f407e9f5b9eb9caf8ca21367",
-    "translation_date": "2026-01-16T16:20:15+00:00",
-    "source_file": "2-Working-With-Data/07-python/images/covidspread.png",
-    "language_code": "da"
-  },
-  "timeseries-2.aae51d575c55181c.webp": {
-    "original_hash": "33bd33349330cb115d729ce80b570501",
-    "translation_date": "2026-01-16T16:20:19+00:00",
-    "source_file": "2-Working-With-Data/07-python/images/timeseries-2.png",
-    "language_code": "da"
-  },
-  "timeseries-3.f3147cbc8c624881.webp": {
-    "original_hash": "aa4b14a21a73d400073a61f37033d465",
-    "translation_date": "2026-01-16T16:20:27+00:00",
-    "source_file": "2-Working-With-Data/07-python/images/timeseries-3.png",
-    "language_code": "da"
-  },
-  "cosmosdb-emulator-persons-query.6905ebb497e3cd04.webp": {
-    "original_hash": "4ab74b4d99e8e2a503433a1faf6921be",
-    "translation_date": "2026-01-16T16:20:41+00:00",
-    "source_file": "2-Working-With-Data/06-non-relational/images/cosmosdb-emulator-persons-query.png",
-    "language_code": "da"
-  },
-  "function-excel.be2ae4feddc10ca0.webp": {
-    "original_hash": "72ab7b76f4fab0df5aa91fa839722a60",
-    "translation_date": "2026-01-16T16:21:09+00:00",
-    "source_file": "2-Working-With-Data/06-non-relational/images/function-excel.png",
-    "language_code": "da"
-  },
-  "columnar-db.ffcfe73c3e9063a8.webp": {
-    "original_hash": "be6caa9571dc877703116566bc1a59d4",
-    "translation_date": "2026-01-16T16:21:17+00:00",
-    "source_file": "2-Working-With-Data/06-non-relational/images/columnar-db.png",
-    "language_code": "da"
-  },
-  "kv-db.e8f2b75686bbdfcb.webp": {
-    "original_hash": "b11fd06948e523a4f05e4fc016b72151",
-    "translation_date": "2026-01-16T16:21:25+00:00",
-    "source_file": "2-Working-With-Data/06-non-relational/images/kv-db.png",
-    "language_code": "da"
-  },
-  "cosmosdb-emulator-explorer.a1c80b1347206fe2.webp": {
-    "original_hash": "cdd5affc23e1edf90e5a1d4d5d0f1f8d",
-    "translation_date": "2026-01-16T16:21:35+00:00",
-    "source_file": "2-Working-With-Data/06-non-relational/images/cosmosdb-emulator-explorer.png",
-    "language_code": "da"
-  },
-  "formula-excel.ad1068c220892f5e.webp": {
-    "original_hash": "ffc48a46663588ed68f07739e1c6faec",
-    "translation_date": "2026-01-16T16:21:49+00:00",
-    "source_file": "2-Working-With-Data/06-non-relational/images/formula-excel.png",
-    "language_code": "da"
-  },
-  "graph-db.d13629152f79a9da.webp": {
-    "original_hash": "9642744eabff608b20e9241ba5931752",
-    "translation_date": "2026-01-16T16:22:02+00:00",
-    "source_file": "2-Working-With-Data/06-non-relational/images/graph-db.png",
-    "language_code": "da"
-  },
-  "document-db.ddeec48c6dc9e5fd.webp": {
-    "original_hash": "8cee40487b4a8926c048c397be218e6e",
-    "translation_date": "2026-01-16T16:22:10+00:00",
-    "source_file": "2-Working-With-Data/06-non-relational/images/document-db.png",
-    "language_code": "da"
-  },
-  "new-container.650e10c7a20a5f83.webp": {
-    "original_hash": "ab63b5a8099095333eebe2afa69197e3",
-    "translation_date": "2026-01-16T16:22:23+00:00",
-    "source_file": "2-Working-With-Data/06-non-relational/images/new-container.png",
-    "language_code": "da"
-  },
-  "cosmosdb-emulator-persons.bf640586a7077c89.webp": {
-    "original_hash": "4cf764cdeb46013888dafcd430447f3a",
-    "translation_date": "2026-01-16T16:22:40+00:00",
-    "source_file": "2-Working-With-Data/06-non-relational/images/cosmosdb-emulator-persons.png",
-    "language_code": "da"
-  },
-  "parts-of-spreadsheet.120711c82aa18a45.webp": {
-    "original_hash": "e744b94c055058c2862aaabe84625b90",
-    "translation_date": "2026-01-16T16:23:05+00:00",
-    "source_file": "2-Working-With-Data/06-non-relational/images/parts-of-spreadsheet.png",
-    "language_code": "da"
-  },
-  "bee.0aa1d91132b12e3a.webp": {
-    "original_hash": "107a59a0fdfa76d213eacf0f46df0292",
-    "translation_date": "2026-01-16T16:23:14+00:00",
-    "source_file": "3-Data-Visualization/images/bee.jpg",
-    "language_code": "da"
-  },
-  "multi.56548caa9eae8d0f.webp": {
-    "original_hash": "f75fa5419bb0d28a74c567876bc99455",
-    "translation_date": "2026-01-16T16:23:16+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/multi.png",
-    "language_code": "da"
-  },
-  "dist2.c398bfd5320401b9.webp": {
-    "original_hash": "fc0ce2a2e3087e5754770998f75db398",
-    "translation_date": "2026-01-16T16:23:21+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/dist2.png",
-    "language_code": "da"
-  },
-  "density3.84ae27da82f31e6b.webp": {
-    "original_hash": "1c4b40707ab63224822854698a26f6ca",
-    "translation_date": "2026-01-16T16:23:23+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/density3.png",
-    "language_code": "da"
-  },
-  "dist3-wb.64b88db7f9780200.webp": {
-    "original_hash": "b3d78f1f00c6c3d087f161dd74318aff",
-    "translation_date": "2026-01-16T16:23:29+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/dist3-wb.png",
-    "language_code": "da"
-  },
-  "scatter-wb.9d98b0ed7f0388af.webp": {
-    "original_hash": "20b0f7bb41756f35bdf985a8f5f3a342",
-    "translation_date": "2026-01-16T16:23:36+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/scatter-wb.png",
-    "language_code": "da"
-  },
-  "histogram-conservation-wb.3c40450eb072c14d.webp": {
-    "original_hash": "83ec1d81dea6fabb80c6386edf8eb241",
-    "translation_date": "2026-01-16T16:23:49+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/histogram-conservation-wb.png",
-    "language_code": "da"
-  },
-  "dist1-wb.0d0cac82e2974fbb.webp": {
-    "original_hash": "2f624fcf08f90cfedf12238e86730517",
-    "translation_date": "2026-01-16T16:23:54+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/dist1-wb.png",
-    "language_code": "da"
-  },
-  "histogram-conservation.13b3542e7784e415.webp": {
-    "original_hash": "ec86b1d6a476f4cf80f9d2b346525c92",
-    "translation_date": "2026-01-16T16:23:58+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/histogram-conservation.png",
-    "language_code": "da"
-  },
-  "dist3.ad4d9658559690f5.webp": {
-    "original_hash": "a4f7f50a3cc98d22d6a1321d1df7781b",
-    "translation_date": "2026-01-16T16:24:01+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/dist3.png",
+  "20-DataScience-Sustainability.d4097bc684431da6.webp": {
+    "original_hash": "966e2a6eea920d7cb30a343e0bf5c856",
+    "translation_date": "2026-01-16T16:04:29+00:00",
+    "source_file": "sketchnotes/20-DataScience-Sustainability.png",
     "language_code": "da"
   },
   "2D-wb.ae22fdd33936507a.webp": {
@@ -611,142 +167,10 @@
     "source_file": "3-Data-Visualization/10-visualization-distributions/images/2D.png",
     "language_code": "da"
   },
-  "density1.8801043bd4af2567.webp": {
-    "original_hash": "159abed877f261a34aeefc1c2f7d9f14",
-    "translation_date": "2026-01-16T16:24:15+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/density1.png",
-    "language_code": "da"
-  },
-  "density4.e9d6c033f15c500f.webp": {
-    "original_hash": "e007401afeb86f57097c31b272c54f59",
-    "translation_date": "2026-01-16T16:24:23+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/density4.png",
-    "language_code": "da"
-  },
-  "scatter.520a43eceb46dbcb.webp": {
-    "original_hash": "0b08180e497b0df05b452d6e82139280",
-    "translation_date": "2026-01-16T16:24:31+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/scatter.png",
-    "language_code": "da"
-  },
-  "dist1.0010100b00231819.webp": {
-    "original_hash": "637343564b5cc6aa01b966bb3f010c81",
-    "translation_date": "2026-01-16T16:24:34+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/dist1.png",
-    "language_code": "da"
-  },
-  "density2.8e7647257060ff54.webp": {
-    "original_hash": "ae4ee53e81dca21c2d475642c9acf970",
-    "translation_date": "2026-01-16T16:24:37+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/density2.png",
-    "language_code": "da"
-  },
-  "dist2-wb.2c0a7a3499b2fbf5.webp": {
-    "original_hash": "f66e1b4cf106774c02ddc8111fb26ea8",
-    "translation_date": "2026-01-16T16:24:42+00:00",
-    "source_file": "3-Data-Visualization/10-visualization-distributions/images/dist2-wb.png",
-    "language_code": "da"
-  },
-  "facet.6a34851dcd540050.webp": {
-    "original_hash": "b1972d34a64eaf50b7f64de8455601d6",
-    "translation_date": "2026-01-16T16:24:54+00:00",
-    "source_file": "3-Data-Visualization/12-visualization-relationships/images/facet.png",
-    "language_code": "da"
-  },
-  "dual-line.a4c28ce659603fab.webp": {
-    "original_hash": "354c3a3b7493b3ec80eec454e7e1661f",
-    "translation_date": "2026-01-16T16:25:10+00:00",
-    "source_file": "3-Data-Visualization/12-visualization-relationships/images/dual-line.png",
-    "language_code": "da"
-  },
-  "scatter3.3c160a3d1dcb36b3.webp": {
-    "original_hash": "b6dae06624fdb034a906091c859840c8",
-    "translation_date": "2026-01-16T16:25:25+00:00",
-    "source_file": "3-Data-Visualization/12-visualization-relationships/images/scatter3.png",
-    "language_code": "da"
-  },
-  "scatter2.c0041a58621ca702.webp": {
-    "original_hash": "0daebd8565f87f5de940b38eb8af1b9d",
-    "translation_date": "2026-01-16T16:25:42+00:00",
-    "source_file": "3-Data-Visualization/12-visualization-relationships/images/scatter2.png",
-    "language_code": "da"
-  },
-  "scatter1.5e1aa5fd6706c5d1.webp": {
-    "original_hash": "c02fe2f5fa39f591b4a26308356ed684",
-    "translation_date": "2026-01-16T16:26:00+00:00",
-    "source_file": "3-Data-Visualization/12-visualization-relationships/images/scatter1.png",
-    "language_code": "da"
-  },
-  "line1.f36eb465229a3b1f.webp": {
-    "original_hash": "2254eee0864847a0dbbcf3514523b938",
-    "translation_date": "2026-01-16T16:26:14+00:00",
-    "source_file": "3-Data-Visualization/12-visualization-relationships/images/line1.png",
-    "language_code": "da"
-  },
-  "line2.a5b3493dc01058af.webp": {
-    "original_hash": "352e8164b0d75c410198bb07822e43cb",
-    "translation_date": "2026-01-16T16:26:19+00:00",
-    "source_file": "3-Data-Visualization/12-visualization-relationships/images/line2.png",
-    "language_code": "da"
-  },
-  "pie1.8f6a8bfac96de60e.webp": {
-    "original_hash": "dc91ddf7490acc8493ca0801370d8fa8",
-    "translation_date": "2026-01-16T16:26:25+00:00",
-    "source_file": "3-Data-Visualization/11-visualization-proportions/images/pie1.png",
-    "language_code": "da"
-  },
-  "donut-wb.be3c12a22712302b.webp": {
-    "original_hash": "84f5657fc2c817fe6487993027aeb3e0",
-    "translation_date": "2026-01-16T16:26:29+00:00",
-    "source_file": "3-Data-Visualization/11-visualization-proportions/images/donut-wb.png",
-    "language_code": "da"
-  },
-  "waffle.5455dbae4ccf17d5.webp": {
-    "original_hash": "56634c9a9dc24921e012693843466dee",
-    "translation_date": "2026-01-16T16:26:39+00:00",
-    "source_file": "3-Data-Visualization/11-visualization-proportions/images/waffle.png",
-    "language_code": "da"
-  },
-  "donut.f016d7be7f08c8f8.webp": {
-    "original_hash": "055fcaf0a6d93663278eb958137b460c",
-    "translation_date": "2026-01-16T16:26:52+00:00",
-    "source_file": "3-Data-Visualization/11-visualization-proportions/images/donut.png",
-    "language_code": "da"
-  },
-  "pie1-wb.e201f2fcc3354131.webp": {
-    "original_hash": "f2dbe68e0228fc6bb76e502dfa88a5c7",
-    "translation_date": "2026-01-16T16:26:55+00:00",
-    "source_file": "3-Data-Visualization/11-visualization-proportions/images/pie1-wb.png",
-    "language_code": "da"
-  },
-  "bad-chart-1.93130f495b748bed.webp": {
-    "original_hash": "394d6720cc6661b80f93ec4f9ae5188b",
-    "translation_date": "2026-01-16T16:27:00+00:00",
-    "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/bad-chart-1.png",
-    "language_code": "da"
-  },
-  "bad-chart-3.6865d0afac4108d7.webp": {
-    "original_hash": "80f955c8f50661e029730e9b06959c0b",
-    "translation_date": "2026-01-16T16:27:12+00:00",
-    "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/bad-chart-3.jpg",
-    "language_code": "da"
-  },
-  "busing.7b9e3b41cd4b981c.webp": {
-    "original_hash": "2140ccbfc39ce661cb76aac08602d9fe",
-    "translation_date": "2026-01-16T16:27:20+00:00",
-    "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/busing.png",
-    "language_code": "da"
-  },
-  "tornado.9f42168791208f97.webp": {
-    "original_hash": "aaaeef8f6130caccd3d3a7384fd215cc",
-    "translation_date": "2026-01-16T16:27:28+00:00",
-    "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/tornado.png",
-    "language_code": "da"
-  },
-  "bad-chart-2.c20e36dd4e6f617c.webp": {
-    "original_hash": "29dbd98b3baae6e5b31bf42b72d9c54c",
-    "translation_date": "2026-01-16T16:27:40+00:00",
-    "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/bad-chart-2.jpg",
+  "2d-plot.c504786f439bd7eb.webp": {
+    "original_hash": "b5a6251e8480b8dbcf6ca9972efd2a94",
+    "translation_date": "2026-01-16T16:28:24+00:00",
+    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/2d-plot.png",
     "language_code": "da"
   },
   "3d.0cec12bcc60f0ce7.webp": {
@@ -755,154 +179,16 @@
     "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/3d.png",
     "language_code": "da"
   },
-  "bad-chart-4.68cfdf4011b45447.webp": {
-    "original_hash": "99bbd8d60d515f46157ca3e284b6cbdd",
-    "translation_date": "2026-01-16T16:28:06+00:00",
-    "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/bad-chart-4.jpg",
+  "3d.db1734c151eee87d.webp": {
+    "original_hash": "24efe448af156c5520372b9b554a2c89",
+    "translation_date": "2026-01-16T16:33:27+00:00",
+    "source_file": "3-Data-Visualization/R/13-meaningful-vizualizations/images/3d.png",
     "language_code": "da"
   },
-  "liaisons.7b440b28f6d07ea4.webp": {
-    "original_hash": "6d42370a9c4ee2cea0573912a6300e09",
-    "translation_date": "2026-01-16T16:28:16+00:00",
-    "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/liaisons.png",
-    "language_code": "da"
-  },
-  "2d-plot.c504786f439bd7eb.webp": {
-    "original_hash": "b5a6251e8480b8dbcf6ca9972efd2a94",
-    "translation_date": "2026-01-16T16:28:24+00:00",
-    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/2d-plot.png",
-    "language_code": "da"
-  },
-  "less-smooth-bodymass.10f4db8b683cc17d.webp": {
-    "original_hash": "407ad13c340ab84466724135c99aa8d6",
-    "translation_date": "2026-01-16T16:28:29+00:00",
-    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/less-smooth-bodymass.png",
-    "language_code": "da"
-  },
-  "distribution-30bins.6a3921ea7a421bf7.webp": {
-    "original_hash": "e06c4dfd27b06597b94a75072e9c4bc5",
-    "translation_date": "2026-01-16T16:28:33+00:00",
-    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/distribution-30bins.png",
-    "language_code": "da"
-  },
-  "bodymass-smooth.d31ce526d82b0a1f.webp": {
-    "original_hash": "9e0c8215e2ce2cc7120491a79559a907",
-    "translation_date": "2026-01-16T16:28:37+00:00",
-    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/bodymass-smooth.png",
-    "language_code": "da"
-  },
-  "distribution-over-the-entire-dataset.d22afd3fa96be854.webp": {
-    "original_hash": "338c78ae2ee25ed179e49ec1a4e7923b",
-    "translation_date": "2026-01-16T16:28:41+00:00",
-    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/distribution-over-the-entire-dataset.png",
-    "language_code": "da"
-  },
-  "filtered-histogram.6bf5d2bfd8253322.webp": {
-    "original_hash": "9beae93b6d3063f7afa19070ca9b21f2",
-    "translation_date": "2026-01-16T16:28:45+00:00",
-    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/filtered-histogram.png",
-    "language_code": "da"
-  },
-  "wingspan-conservation-collation.4024e9aa6910866a.webp": {
-    "original_hash": "898d4cfbbc9bd4723c3ce92f5746a6f8",
-    "translation_date": "2026-01-16T16:28:50+00:00",
-    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/wingspan-conservation-collation.png",
-    "language_code": "da"
-  },
-  "bodymass-per-order.9d2b065dd931b928.webp": {
-    "original_hash": "b009aeba10679cfeb880d3869e7d1db2",
-    "translation_date": "2026-01-16T16:28:55+00:00",
-    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/bodymass-per-order.png",
-    "language_code": "da"
-  },
-  "density-plot.675ccf865b76c690.webp": {
-    "original_hash": "269df7655a489ba893c9a930e54996b4",
-    "translation_date": "2026-01-16T16:29:01+00:00",
-    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/density-plot.png",
-    "language_code": "da"
-  },
-  "max-length-per-order.e5b283d952c78c12.webp": {
-    "original_hash": "3669afd28a61d41ee39429418ee938a0",
-    "translation_date": "2026-01-16T16:29:09+00:00",
-    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/max-length-per-order.png",
-    "language_code": "da"
-  },
-  "facet.491ad90d61c2a7cc.webp": {
-    "original_hash": "2a0a7fea3ccea24ef9a0d37487f38ba3",
-    "translation_date": "2026-01-16T16:29:24+00:00",
-    "source_file": "3-Data-Visualization/R/12-visualization-relationships/images/facet.png",
-    "language_code": "da"
-  },
-  "dual-line.fc4665f360a54018.webp": {
-    "original_hash": "a80f6d08e4639389726abb5b1c3d5d9f",
-    "translation_date": "2026-01-16T16:29:38+00:00",
-    "source_file": "3-Data-Visualization/R/12-visualization-relationships/images/dual-line.png",
-    "language_code": "da"
-  },
-  "scatter3.722d21e6f20b3ea2.webp": {
-    "original_hash": "e76960bfd5bd7187d9e021796f268d34",
-    "translation_date": "2026-01-16T16:29:47+00:00",
-    "source_file": "3-Data-Visualization/R/12-visualization-relationships/images/scatter3.png",
-    "language_code": "da"
-  },
-  "scatter2.4d1cbc693bad20e2.webp": {
-    "original_hash": "770ca46665efad9996e32d596f105ea9",
-    "translation_date": "2026-01-16T16:29:59+00:00",
-    "source_file": "3-Data-Visualization/R/12-visualization-relationships/images/scatter2.png",
-    "language_code": "da"
-  },
-  "scatter1.86b8900674d88b26.webp": {
-    "original_hash": "c987462f33600689809531fc3d265f96",
-    "translation_date": "2026-01-16T16:30:10+00:00",
-    "source_file": "3-Data-Visualization/R/12-visualization-relationships/images/scatter1.png",
-    "language_code": "da"
-  },
-  "line1.299b576fbb2a59e6.webp": {
-    "original_hash": "580b92476ca343c0fce7d5713d0ca5cd",
-    "translation_date": "2026-01-16T16:30:21+00:00",
-    "source_file": "3-Data-Visualization/R/12-visualization-relationships/images/line1.png",
-    "language_code": "da"
-  },
-  "line2.3b18fcda7176ceba.webp": {
-    "original_hash": "0900ae563b525221b628393ec05feaf8",
-    "translation_date": "2026-01-16T16:30:25+00:00",
-    "source_file": "3-Data-Visualization/R/12-visualization-relationships/images/line2.png",
-    "language_code": "da"
-  },
-  "donut-wb.34e6fb275da9d834.webp": {
-    "original_hash": "1fca738bcee99e03430409599cef33f3",
-    "translation_date": "2026-01-16T16:30:32+00:00",
-    "source_file": "3-Data-Visualization/R/11-visualization-proportions/images/donut-wb.png",
-    "language_code": "da"
-  },
-  "waffle.aaa75c5337735a6e.webp": {
-    "original_hash": "b84ca087d578965c31a20087b9215d88",
-    "translation_date": "2026-01-16T16:30:38+00:00",
-    "source_file": "3-Data-Visualization/R/11-visualization-proportions/images/waffle.png",
-    "language_code": "da"
-  },
-  "pie1-wb.685df063673751f4.webp": {
-    "original_hash": "2b353f34a1a1e444a1d7f2219b78cb83",
-    "translation_date": "2026-01-16T16:30:43+00:00",
-    "source_file": "3-Data-Visualization/R/11-visualization-proportions/images/pie1-wb.png",
-    "language_code": "da"
-  },
-  "MaxWingspan-lineplot.b12169f99d26fdd2.webp": {
-    "original_hash": "8a0744b5301a1c4dc64b580728b5771a",
-    "translation_date": "2026-01-16T16:30:46+00:00",
-    "source_file": "3-Data-Visualization/R/09-visualization-quantities/images/MaxWingspan-lineplot.png",
-    "language_code": "da"
-  },
-  "MaxWingspan-scatterplot.60dc9e0e19d32700.webp": {
-    "original_hash": "58de03db6718a04f8e61e2405ea2b502",
-    "translation_date": "2026-01-16T16:30:52+00:00",
-    "source_file": "3-Data-Visualization/R/09-visualization-quantities/images/MaxWingspan-scatterplot.png",
-    "language_code": "da"
-  },
-  "category-length.7e34c296690e85d6.webp": {
-    "original_hash": "f5c753a1fe65d51b8cc15b8b46c6d4e6",
-    "translation_date": "2026-01-16T16:31:03+00:00",
-    "source_file": "3-Data-Visualization/R/09-visualization-quantities/images/category-length.png",
+  "CRISP-DM.8bad2b4c66e62aa7.webp": {
+    "original_hash": "eac24034dc4554b1292c0c035a852548",
+    "translation_date": "2026-01-16T16:18:21+00:00",
+    "source_file": "4-Data-Science-Lifecycle/14-Introduction/images/CRISP-DM.png",
     "language_code": "da"
   },
   "MaxWingspan-lineplot-improved.04b73b4d5a59552a.webp": {
@@ -911,22 +197,10 @@
     "source_file": "3-Data-Visualization/R/09-visualization-quantities/images/MaxWingspan-lineplot-improved.png",
     "language_code": "da"
   },
-  "comparingdata.f486a450d61c7ca5.webp": {
-    "original_hash": "c5f1049b89ea0d7015e420acc0728045",
-    "translation_date": "2026-01-16T16:31:34+00:00",
-    "source_file": "3-Data-Visualization/R/09-visualization-quantities/images/comparingdata.png",
-    "language_code": "da"
-  },
-  "stacked-bar-chart.0c92264e89da7b39.webp": {
-    "original_hash": "150d1125735f6612e36c8d74d492c664",
-    "translation_date": "2026-01-16T16:31:57+00:00",
-    "source_file": "3-Data-Visualization/R/09-visualization-quantities/images/stacked-bar-chart.png",
-    "language_code": "da"
-  },
-  "superimposed-values.5363f0705a1da416.webp": {
-    "original_hash": "b41c56cb68dd92f60d7e18eefd963396",
-    "translation_date": "2026-01-16T16:32:10+00:00",
-    "source_file": "3-Data-Visualization/R/09-visualization-quantities/images/superimposed-values.png",
+  "MaxWingspan-lineplot.b12169f99d26fdd2.webp": {
+    "original_hash": "8a0744b5301a1c4dc64b580728b5771a",
+    "translation_date": "2026-01-16T16:30:46+00:00",
+    "source_file": "3-Data-Visualization/R/09-visualization-quantities/images/MaxWingspan-lineplot.png",
     "language_code": "da"
   },
   "MaxWingspan-scatterplot-improved.7d0af81658c65f3e.webp": {
@@ -935,28 +209,46 @@
     "source_file": "3-Data-Visualization/R/09-visualization-quantities/images/MaxWingspan-scatterplot-improved.png",
     "language_code": "da"
   },
+  "MaxWingspan-scatterplot.60dc9e0e19d32700.webp": {
+    "original_hash": "58de03db6718a04f8e61e2405ea2b502",
+    "translation_date": "2026-01-16T16:30:52+00:00",
+    "source_file": "3-Data-Visualization/R/09-visualization-quantities/images/MaxWingspan-scatterplot.png",
+    "language_code": "da"
+  },
+  "aml-1.67281a85d3a1e2f3.webp": {
+    "original_hash": "130c64f0112c117a400926da0bbaf090",
+    "translation_date": "2026-01-16T16:17:38+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/aml-1.PNG",
+    "language_code": "da"
+  },
+  "aml-2.c9fb9cffb39ccbbe.webp": {
+    "original_hash": "703a44252eca61e2b68c1365f4beb179",
+    "translation_date": "2026-01-16T16:11:22+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/aml-2.PNG",
+    "language_code": "da"
+  },
+  "aml-3.a7952e4295f38cc6.webp": {
+    "original_hash": "33433e94fe719f0e4104ad809338f91d",
+    "translation_date": "2026-01-16T16:11:04+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/aml-3.PNG",
+    "language_code": "da"
+  },
+  "aml-4.7a627e09cb6f16d0.webp": {
+    "original_hash": "983ad36543a02fffcb8f05fb94e09ef4",
+    "translation_date": "2026-01-16T16:12:50+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/aml-4.PNG",
+    "language_code": "da"
+  },
   "bad-chart-1.596bc93425a8ac30.webp": {
     "original_hash": "394d6720cc6661b80f93ec4f9ae5188b",
     "translation_date": "2026-01-16T16:32:38+00:00",
     "source_file": "3-Data-Visualization/R/13-meaningful-vizualizations/images/bad-chart-1.png",
     "language_code": "da"
   },
-  "bad-chart-3.e201e2e915a230bc.webp": {
-    "original_hash": "80f955c8f50661e029730e9b06959c0b",
-    "translation_date": "2026-01-16T16:32:47+00:00",
-    "source_file": "3-Data-Visualization/R/13-meaningful-vizualizations/images/bad-chart-3.jpg",
-    "language_code": "da"
-  },
-  "busing.8157cf1bc89a3f65.webp": {
-    "original_hash": "2140ccbfc39ce661cb76aac08602d9fe",
-    "translation_date": "2026-01-16T16:32:56+00:00",
-    "source_file": "3-Data-Visualization/R/13-meaningful-vizualizations/images/busing.png",
-    "language_code": "da"
-  },
-  "tornado.2880ffc7f135f82b.webp": {
-    "original_hash": "aaaeef8f6130caccd3d3a7384fd215cc",
-    "translation_date": "2026-01-16T16:33:05+00:00",
-    "source_file": "3-Data-Visualization/R/13-meaningful-vizualizations/images/tornado.png",
+  "bad-chart-1.93130f495b748bed.webp": {
+    "original_hash": "394d6720cc6661b80f93ec4f9ae5188b",
+    "translation_date": "2026-01-16T16:27:00+00:00",
+    "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/bad-chart-1.png",
     "language_code": "da"
   },
   "bad-chart-2.62edf4d2f30f4e51.webp": {
@@ -965,10 +257,28 @@
     "source_file": "3-Data-Visualization/R/13-meaningful-vizualizations/images/bad-chart-2.jpg",
     "language_code": "da"
   },
-  "3d.db1734c151eee87d.webp": {
-    "original_hash": "24efe448af156c5520372b9b554a2c89",
-    "translation_date": "2026-01-16T16:33:27+00:00",
-    "source_file": "3-Data-Visualization/R/13-meaningful-vizualizations/images/3d.png",
+  "bad-chart-2.c20e36dd4e6f617c.webp": {
+    "original_hash": "29dbd98b3baae6e5b31bf42b72d9c54c",
+    "translation_date": "2026-01-16T16:27:40+00:00",
+    "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/bad-chart-2.jpg",
+    "language_code": "da"
+  },
+  "bad-chart-3.6865d0afac4108d7.webp": {
+    "original_hash": "80f955c8f50661e029730e9b06959c0b",
+    "translation_date": "2026-01-16T16:27:12+00:00",
+    "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/bad-chart-3.jpg",
+    "language_code": "da"
+  },
+  "bad-chart-3.e201e2e915a230bc.webp": {
+    "original_hash": "80f955c8f50661e029730e9b06959c0b",
+    "translation_date": "2026-01-16T16:32:47+00:00",
+    "source_file": "3-Data-Visualization/R/13-meaningful-vizualizations/images/bad-chart-3.jpg",
+    "language_code": "da"
+  },
+  "bad-chart-4.68cfdf4011b45447.webp": {
+    "original_hash": "99bbd8d60d515f46157ca3e284b6cbdd",
+    "translation_date": "2026-01-16T16:28:06+00:00",
+    "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/bad-chart-4.jpg",
     "language_code": "da"
   },
   "bad-chart-4.8872b2b881ffa96c.webp": {
@@ -977,34 +287,52 @@
     "source_file": "3-Data-Visualization/R/13-meaningful-vizualizations/images/bad-chart-4.jpg",
     "language_code": "da"
   },
-  "liaisons.90ce7360bcf84765.webp": {
-    "original_hash": "6d42370a9c4ee2cea0573912a6300e09",
-    "translation_date": "2026-01-16T16:33:46+00:00",
-    "source_file": "3-Data-Visualization/R/13-meaningful-vizualizations/images/liaisons.png",
+  "bee.0aa1d91132b12e3a.webp": {
+    "original_hash": "107a59a0fdfa76d213eacf0f46df0292",
+    "translation_date": "2026-01-16T16:23:14+00:00",
+    "source_file": "3-Data-Visualization/images/bee.jpg",
     "language_code": "da"
   },
-  "scatterplot-wingspan-02.1c33790094ce36a7.webp": {
-    "original_hash": "074b877685ae02c92754fb416864f137",
-    "translation_date": "2026-01-16T16:33:54+00:00",
-    "source_file": "3-Data-Visualization/09-visualization-quantities/images/scatterplot-wingspan-02.png",
+  "bodymass-per-order.9d2b065dd931b928.webp": {
+    "original_hash": "b009aeba10679cfeb880d3869e7d1db2",
+    "translation_date": "2026-01-16T16:28:55+00:00",
+    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/bodymass-per-order.png",
     "language_code": "da"
   },
-  "superimposed.8b5bd0e8825d9c5c.webp": {
-    "original_hash": "4af0c94d9d61f1d458023b01c02a247e",
-    "translation_date": "2026-01-16T16:33:58+00:00",
-    "source_file": "3-Data-Visualization/09-visualization-quantities/images/superimposed.png",
+  "bodymass-smooth.d31ce526d82b0a1f.webp": {
+    "original_hash": "9e0c8215e2ce2cc7120491a79559a907",
+    "translation_date": "2026-01-16T16:28:37+00:00",
+    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/bodymass-smooth.png",
     "language_code": "da"
   },
-  "scatterplot-wingspan.bdab448702939bb3.webp": {
-    "original_hash": "a6265af4af8b135ebb0b1160ac2a85e1",
-    "translation_date": "2026-01-16T16:34:01+00:00",
-    "source_file": "3-Data-Visualization/09-visualization-quantities/images/scatterplot-wingspan.png",
+  "boxplot_byrole.036b27a1c3f52d42.webp": {
+    "original_hash": "1193ef907e122e99637e73ef9f83d2a5",
+    "translation_date": "2026-01-16T16:09:38+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/images/boxplot_byrole.png",
     "language_code": "da"
   },
-  "category-length.b0d9a0208a7b3713.webp": {
-    "original_hash": "990ba20663dfb1d5bc21e39b9162f412",
-    "translation_date": "2026-01-16T16:34:03+00:00",
-    "source_file": "3-Data-Visualization/09-visualization-quantities/images/category-length.png",
+  "boxplot_explanation.4039b7de08780fd4.webp": {
+    "original_hash": "18e16e4144706f7e9006fc2ff958e622",
+    "translation_date": "2026-01-16T16:08:47+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/images/boxplot_explanation.png",
+    "language_code": "da"
+  },
+  "busing.7b9e3b41cd4b981c.webp": {
+    "original_hash": "2140ccbfc39ce661cb76aac08602d9fe",
+    "translation_date": "2026-01-16T16:27:20+00:00",
+    "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/busing.png",
+    "language_code": "da"
+  },
+  "busing.8157cf1bc89a3f65.webp": {
+    "original_hash": "2140ccbfc39ce661cb76aac08602d9fe",
+    "translation_date": "2026-01-16T16:32:56+00:00",
+    "source_file": "3-Data-Visualization/R/13-meaningful-vizualizations/images/busing.png",
+    "language_code": "da"
+  },
+  "category-counts-02.0b9a0a4de42275ae.webp": {
+    "original_hash": "d0ebdd74049aa407805cb1b28d9d5075",
+    "translation_date": "2026-01-16T16:34:52+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/images/category-counts-02.png",
     "language_code": "da"
   },
   "category-counts.abee8188c4c9b6f0.webp": {
@@ -1019,64 +347,106 @@
     "source_file": "3-Data-Visualization/09-visualization-quantities/images/category-length-02.png",
     "language_code": "da"
   },
-  "max-wingspan-labels-02.aa90e826ca49a9d1.webp": {
-    "original_hash": "b1f49941bbc193409678b7c94bd39822",
-    "translation_date": "2026-01-16T16:34:38+00:00",
-    "source_file": "3-Data-Visualization/09-visualization-quantities/images/max-wingspan-labels-02.png",
+  "category-length.7e34c296690e85d6.webp": {
+    "original_hash": "f5c753a1fe65d51b8cc15b8b46c6d4e6",
+    "translation_date": "2026-01-16T16:31:03+00:00",
+    "source_file": "3-Data-Visualization/R/09-visualization-quantities/images/category-length.png",
     "language_code": "da"
   },
-  "max-wingspan.0b8d0858436414aa.webp": {
-    "original_hash": "020b2994ef28037b86c2e215771a0bf5",
-    "translation_date": "2026-01-16T16:34:42+00:00",
-    "source_file": "3-Data-Visualization/09-visualization-quantities/images/max-wingspan.png",
+  "category-length.b0d9a0208a7b3713.webp": {
+    "original_hash": "990ba20663dfb1d5bc21e39b9162f412",
+    "translation_date": "2026-01-16T16:34:03+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/images/category-length.png",
     "language_code": "da"
   },
-  "category-counts-02.0b9a0a4de42275ae.webp": {
-    "original_hash": "d0ebdd74049aa407805cb1b28d9d5075",
-    "translation_date": "2026-01-16T16:34:52+00:00",
-    "source_file": "3-Data-Visualization/09-visualization-quantities/images/category-counts-02.png",
+  "cloud-picture.f5526de3c6c6387b.webp": {
+    "original_hash": "112d96f85f2037814d2df8b88267a595",
+    "translation_date": "2026-01-16T16:09:46+00:00",
+    "source_file": "5-Data-Science-In-Cloud/images/cloud-picture.jpg",
     "language_code": "da"
   },
-  "superimposed-02.f03058536baeb2ed.webp": {
-    "original_hash": "06591758ffda43a2ba7a885727209a57",
-    "translation_date": "2026-01-16T16:35:20+00:00",
-    "source_file": "3-Data-Visualization/09-visualization-quantities/images/superimposed-02.png",
+  "cluster-1.b78cb630bb543729.webp": {
+    "original_hash": "d938d671e7eabf7fbc012cf1987dc43f",
+    "translation_date": "2026-01-16T16:14:02+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/cluster-1.PNG",
     "language_code": "da"
   },
-  "full-data-bar-02.aaa3fda71c63ed56.webp": {
-    "original_hash": "68ced4f3a959790addfa4c361f5abc0f",
-    "translation_date": "2026-01-16T16:35:39+00:00",
-    "source_file": "3-Data-Visualization/09-visualization-quantities/images/full-data-bar-02.png",
+  "cluster-2.ea30cdbc9f926bb9.webp": {
+    "original_hash": "0486b9eb10e88dc53fc2927c9197cd27",
+    "translation_date": "2026-01-16T16:13:18+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/cluster-2.PNG",
     "language_code": "da"
   },
-  "max-wingspan-labels.46f0cc3c48edd4e0.webp": {
-    "original_hash": "67ad5348aa4963aebb0ae7ec94a7fa26",
-    "translation_date": "2026-01-16T16:35:43+00:00",
-    "source_file": "3-Data-Visualization/09-visualization-quantities/images/max-wingspan-labels.png",
+  "cluster-3.8a334bc070ec173a.webp": {
+    "original_hash": "b440d88eb5ce449ebe780c1edbac221d",
+    "translation_date": "2026-01-16T16:12:09+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/cluster-3.PNG",
     "language_code": "da"
   },
-  "labeled-wingspan-02.6110e2d2401cd523.webp": {
-    "original_hash": "0f218473d2563c14c8caddecdea3a4c3",
-    "translation_date": "2026-01-16T16:35:46+00:00",
-    "source_file": "3-Data-Visualization/09-visualization-quantities/images/labeled-wingspan-02.png",
+  "columnar-db.ffcfe73c3e9063a8.webp": {
+    "original_hash": "be6caa9571dc877703116566bc1a59d4",
+    "translation_date": "2026-01-16T16:21:17+00:00",
+    "source_file": "2-Working-With-Data/06-non-relational/images/columnar-db.png",
     "language_code": "da"
   },
-  "max-wingspan-02.e79fd847b2640b89.webp": {
-    "original_hash": "424b2d5e92fd7ad1f1651fd34c48a43b",
-    "translation_date": "2026-01-16T16:35:49+00:00",
-    "source_file": "3-Data-Visualization/09-visualization-quantities/images/max-wingspan-02.png",
+  "communication.06d8e2a88d30d168.webp": {
+    "original_hash": "5736c0fd0f68676dbd5b27c5b04f4b48",
+    "translation_date": "2026-01-16T16:18:04+00:00",
+    "source_file": "4-Data-Science-Lifecycle/images/communication.jpg",
     "language_code": "da"
   },
-  "full-data-bar.a0b37da71a6cd236.webp": {
-    "original_hash": "bd639cfebb870669bcf5280302347b15",
-    "translation_date": "2026-01-16T16:35:53+00:00",
-    "source_file": "3-Data-Visualization/09-visualization-quantities/images/full-data-bar.png",
+  "comparingdata.f486a450d61c7ca5.webp": {
+    "original_hash": "c5f1049b89ea0d7015e420acc0728045",
+    "translation_date": "2026-01-16T16:31:34+00:00",
+    "source_file": "3-Data-Visualization/R/09-visualization-quantities/images/comparingdata.png",
     "language_code": "da"
   },
-  "labeled-wingspan.900ffedd7e3ec6de.webp": {
-    "original_hash": "92a8853541cd37a14b9523a58d655f7f",
-    "translation_date": "2026-01-16T16:35:58+00:00",
-    "source_file": "3-Data-Visualization/09-visualization-quantities/images/labeled-wingspan.png",
+  "compute-instance-1.dba347cb199ca499.webp": {
+    "original_hash": "7af64073de557468a0b652e4bcecf2d1",
+    "translation_date": "2026-01-16T16:09:57+00:00",
+    "source_file": "5-Data-Science-In-Cloud/19-Azure/images/compute-instance-1.PNG",
+    "language_code": "da"
+  },
+  "consumption-1.700abd196452842a.webp": {
+    "original_hash": "a5ecdcdff30f2d1059763b9ce5abe4eb",
+    "translation_date": "2026-01-16T16:16:45+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/consumption-1.PNG",
+    "language_code": "da"
+  },
+  "cosmosdb-emulator-explorer.a1c80b1347206fe2.webp": {
+    "original_hash": "cdd5affc23e1edf90e5a1d4d5d0f1f8d",
+    "translation_date": "2026-01-16T16:21:35+00:00",
+    "source_file": "2-Working-With-Data/06-non-relational/images/cosmosdb-emulator-explorer.png",
+    "language_code": "da"
+  },
+  "cosmosdb-emulator-persons-query.6905ebb497e3cd04.webp": {
+    "original_hash": "4ab74b4d99e8e2a503433a1faf6921be",
+    "translation_date": "2026-01-16T16:20:41+00:00",
+    "source_file": "2-Working-With-Data/06-non-relational/images/cosmosdb-emulator-persons-query.png",
+    "language_code": "da"
+  },
+  "cosmosdb-emulator-persons.bf640586a7077c89.webp": {
+    "original_hash": "4cf764cdeb46013888dafcd430447f3a",
+    "translation_date": "2026-01-16T16:22:40+00:00",
+    "source_file": "2-Working-With-Data/06-non-relational/images/cosmosdb-emulator-persons.png",
+    "language_code": "da"
+  },
+  "covidspread.f3d131c4f1d260ab.webp": {
+    "original_hash": "461f7858f407e9f5b9eb9caf8ca21367",
+    "translation_date": "2026-01-16T16:20:15+00:00",
+    "source_file": "2-Working-With-Data/07-python/images/covidspread.png",
+    "language_code": "da"
+  },
+  "covidtreat.b2ba59f57ca45fbc.webp": {
+    "original_hash": "b2b1e40794073c65faa986c5995754c9",
+    "translation_date": "2026-01-16T16:20:02+00:00",
+    "source_file": "2-Working-With-Data/07-python/images/covidtreat.png",
+    "language_code": "da"
+  },
+  "data-love.a22ef29e6742c852.webp": {
+    "original_hash": "e7fcf82d891c727f86c21960cb63efa6",
+    "translation_date": "2026-01-16T16:19:14+00:00",
+    "source_file": "2-Working-With-Data/images/data-love.jpg",
     "language_code": "da"
   },
   "data-science-applications.4e5019cd8790ebac.webp": {
@@ -1085,10 +455,640 @@
     "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/images/data-science-applications.png",
     "language_code": "da"
   },
+  "data-science-lifecycle.a1e362637503c4fb.webp": {
+    "original_hash": "594be62e68ef5e92f5447febe91c7794",
+    "translation_date": "2026-01-16T16:18:29+00:00",
+    "source_file": "4-Data-Science-Lifecycle/14-Introduction/images/data-science-lifecycle.jpg",
+    "language_code": "da"
+  },
+  "data.48e22bb7617d8d92.webp": {
+    "original_hash": "1a84026266861a50791b9f952fbab540",
+    "translation_date": "2026-01-16T16:07:39+00:00",
+    "source_file": "1-Introduction/images/data.jpg",
+    "language_code": "da"
+  },
+  "dataframe-1.caf409f0c688e84c.webp": {
+    "original_hash": "2ca632a405bd7b501a0e0df0fa55515a",
+    "translation_date": "2026-01-16T16:19:55+00:00",
+    "source_file": "2-Working-With-Data/07-python/images/dataframe-1.png",
+    "language_code": "da"
+  },
+  "datascienceinthecloud.59ffb059a670fb0a.webp": {
+    "original_hash": "d66cf00bfc41a3d1bef7e1d54ac4e03f",
+    "translation_date": "2026-01-16T16:12:36+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/datascienceinthecloud.jpg",
+    "language_code": "da"
+  },
+  "dataset-1.e86ab4e10907a6e9.webp": {
+    "original_hash": "b742ef1724e601f68a1bdf3f1faa89c6",
+    "translation_date": "2026-01-16T16:13:44+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/dataset-1.PNG",
+    "language_code": "da"
+  },
+  "dataset-2.f58de1c435d5bf9c.webp": {
+    "original_hash": "328c65d45aa937db952093099bc408ce",
+    "translation_date": "2026-01-16T16:16:05+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/dataset-2.PNG",
+    "language_code": "da"
+  },
+  "dataset-3.58db8c0eb783e892.webp": {
+    "original_hash": "cc2177288c2ac7289b614ce41ee68d60",
+    "translation_date": "2026-01-16T16:15:38+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/dataset-3.PNG",
+    "language_code": "da"
+  },
+  "density-plot.675ccf865b76c690.webp": {
+    "original_hash": "269df7655a489ba893c9a930e54996b4",
+    "translation_date": "2026-01-16T16:29:01+00:00",
+    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/density-plot.png",
+    "language_code": "da"
+  },
+  "density1.8801043bd4af2567.webp": {
+    "original_hash": "159abed877f261a34aeefc1c2f7d9f14",
+    "translation_date": "2026-01-16T16:24:15+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/density1.png",
+    "language_code": "da"
+  },
+  "density2.8e7647257060ff54.webp": {
+    "original_hash": "ae4ee53e81dca21c2d475642c9acf970",
+    "translation_date": "2026-01-16T16:24:37+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/density2.png",
+    "language_code": "da"
+  },
+  "density3.84ae27da82f31e6b.webp": {
+    "original_hash": "1c4b40707ab63224822854698a26f6ca",
+    "translation_date": "2026-01-16T16:23:23+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/density3.png",
+    "language_code": "da"
+  },
+  "density4.e9d6c033f15c500f.webp": {
+    "original_hash": "e007401afeb86f57097c31b272c54f59",
+    "translation_date": "2026-01-16T16:24:23+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/density4.png",
+    "language_code": "da"
+  },
+  "deploy-1.ddad725acadc84e3.webp": {
+    "original_hash": "d91956f565f29332f32fc85095206456",
+    "translation_date": "2026-01-16T16:11:51+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/deploy-1.PNG",
+    "language_code": "da"
+  },
+  "deploy-2.94dbb13f23908647.webp": {
+    "original_hash": "cb622a2e6374ccfdb376d3528e2bb9c8",
+    "translation_date": "2026-01-16T16:17:28+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/deploy-2.PNG",
+    "language_code": "da"
+  },
+  "deploy-3.fecefef070e8ef3b.webp": {
+    "original_hash": "487c6cd79b0232e10e40fdab2e6b929f",
+    "translation_date": "2026-01-16T16:14:34+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/deploy-3.PNG",
+    "language_code": "da"
+  },
+  "dist1-wb.0d0cac82e2974fbb.webp": {
+    "original_hash": "2f624fcf08f90cfedf12238e86730517",
+    "translation_date": "2026-01-16T16:23:54+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/dist1-wb.png",
+    "language_code": "da"
+  },
+  "dist1.0010100b00231819.webp": {
+    "original_hash": "637343564b5cc6aa01b966bb3f010c81",
+    "translation_date": "2026-01-16T16:24:34+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/dist1.png",
+    "language_code": "da"
+  },
+  "dist2-wb.2c0a7a3499b2fbf5.webp": {
+    "original_hash": "f66e1b4cf106774c02ddc8111fb26ea8",
+    "translation_date": "2026-01-16T16:24:42+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/dist2-wb.png",
+    "language_code": "da"
+  },
+  "dist2.c398bfd5320401b9.webp": {
+    "original_hash": "fc0ce2a2e3087e5754770998f75db398",
+    "translation_date": "2026-01-16T16:23:21+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/dist2.png",
+    "language_code": "da"
+  },
+  "dist3-wb.64b88db7f9780200.webp": {
+    "original_hash": "b3d78f1f00c6c3d087f161dd74318aff",
+    "translation_date": "2026-01-16T16:23:29+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/dist3-wb.png",
+    "language_code": "da"
+  },
+  "dist3.ad4d9658559690f5.webp": {
+    "original_hash": "a4f7f50a3cc98d22d6a1321d1df7781b",
+    "translation_date": "2026-01-16T16:24:01+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/dist3.png",
+    "language_code": "da"
+  },
+  "distribution-30bins.6a3921ea7a421bf7.webp": {
+    "original_hash": "e06c4dfd27b06597b94a75072e9c4bc5",
+    "translation_date": "2026-01-16T16:28:33+00:00",
+    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/distribution-30bins.png",
+    "language_code": "da"
+  },
+  "distribution-over-the-entire-dataset.d22afd3fa96be854.webp": {
+    "original_hash": "338c78ae2ee25ed179e49ec1a4e7923b",
+    "translation_date": "2026-01-16T16:28:41+00:00",
+    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/distribution-over-the-entire-dataset.png",
+    "language_code": "da"
+  },
+  "document-db.ddeec48c6dc9e5fd.webp": {
+    "original_hash": "8cee40487b4a8926c048c397be218e6e",
+    "translation_date": "2026-01-16T16:22:10+00:00",
+    "source_file": "2-Working-With-Data/06-non-relational/images/document-db.png",
+    "language_code": "da"
+  },
+  "donut-wb.34e6fb275da9d834.webp": {
+    "original_hash": "1fca738bcee99e03430409599cef33f3",
+    "translation_date": "2026-01-16T16:30:32+00:00",
+    "source_file": "3-Data-Visualization/R/11-visualization-proportions/images/donut-wb.png",
+    "language_code": "da"
+  },
+  "donut-wb.be3c12a22712302b.webp": {
+    "original_hash": "84f5657fc2c817fe6487993027aeb3e0",
+    "translation_date": "2026-01-16T16:26:29+00:00",
+    "source_file": "3-Data-Visualization/11-visualization-proportions/images/donut-wb.png",
+    "language_code": "da"
+  },
+  "donut.f016d7be7f08c8f8.webp": {
+    "original_hash": "055fcaf0a6d93663278eb958137b460c",
+    "translation_date": "2026-01-16T16:26:52+00:00",
+    "source_file": "3-Data-Visualization/11-visualization-proportions/images/donut.png",
+    "language_code": "da"
+  },
+  "ds-for-beginners.d01930c9193ef522.webp": {
+    "original_hash": "b84eca5411f4bc0041e671becb05fe48",
+    "translation_date": "2026-01-16T15:56:08+00:00",
+    "source_file": "ds-for-beginners.png",
+    "language_code": "da"
+  },
+  "ds_wordcloud.664a7c07dca57de0.webp": {
+    "original_hash": "df525e123083bea87f16bce2c07970c7",
+    "translation_date": "2026-01-16T16:07:58+00:00",
+    "source_file": "1-Introduction/01-defining-data-science/images/ds_wordcloud.png",
+    "language_code": "da"
+  },
+  "dual-line.a4c28ce659603fab.webp": {
+    "original_hash": "354c3a3b7493b3ec80eec454e7e1661f",
+    "translation_date": "2026-01-16T16:25:10+00:00",
+    "source_file": "3-Data-Visualization/12-visualization-relationships/images/dual-line.png",
+    "language_code": "da"
+  },
+  "dual-line.fc4665f360a54018.webp": {
+    "original_hash": "a80f6d08e4639389726abb5b1c3d5d9f",
+    "translation_date": "2026-01-16T16:29:38+00:00",
+    "source_file": "3-Data-Visualization/R/12-visualization-relationships/images/dual-line.png",
+    "language_code": "da"
+  },
+  "facet.491ad90d61c2a7cc.webp": {
+    "original_hash": "2a0a7fea3ccea24ef9a0d37487f38ba3",
+    "translation_date": "2026-01-16T16:29:24+00:00",
+    "source_file": "3-Data-Visualization/R/12-visualization-relationships/images/facet.png",
+    "language_code": "da"
+  },
+  "facet.6a34851dcd540050.webp": {
+    "original_hash": "b1972d34a64eaf50b7f64de8455601d6",
+    "translation_date": "2026-01-16T16:24:54+00:00",
+    "source_file": "3-Data-Visualization/12-visualization-relationships/images/facet.png",
+    "language_code": "da"
+  },
+  "favicon.37b561214b36d454.webp": {
+    "original_hash": "228faa6584f8ba1f7e9a75e3200112e9",
+    "translation_date": "2026-01-16T15:56:10+00:00",
+    "source_file": "images/favicon.png",
+    "language_code": "da"
+  },
+  "filtered-histogram.6bf5d2bfd8253322.webp": {
+    "original_hash": "9beae93b6d3063f7afa19070ca9b21f2",
+    "translation_date": "2026-01-16T16:28:45+00:00",
+    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/filtered-histogram.png",
+    "language_code": "da"
+  },
+  "formula-excel.ad1068c220892f5e.webp": {
+    "original_hash": "ffc48a46663588ed68f07739e1c6faec",
+    "translation_date": "2026-01-16T16:21:49+00:00",
+    "source_file": "2-Working-With-Data/06-non-relational/images/formula-excel.png",
+    "language_code": "da"
+  },
+  "full-data-bar-02.aaa3fda71c63ed56.webp": {
+    "original_hash": "68ced4f3a959790addfa4c361f5abc0f",
+    "translation_date": "2026-01-16T16:35:39+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/images/full-data-bar-02.png",
+    "language_code": "da"
+  },
+  "full-data-bar.a0b37da71a6cd236.webp": {
+    "original_hash": "bd639cfebb870669bcf5280302347b15",
+    "translation_date": "2026-01-16T16:35:53+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/images/full-data-bar.png",
+    "language_code": "da"
+  },
+  "function-excel.be2ae4feddc10ca0.webp": {
+    "original_hash": "72ab7b76f4fab0df5aa91fa839722a60",
+    "translation_date": "2026-01-16T16:21:09+00:00",
+    "source_file": "2-Working-With-Data/06-non-relational/images/function-excel.png",
+    "language_code": "da"
+  },
+  "graph-db.d13629152f79a9da.webp": {
+    "original_hash": "9642744eabff608b20e9241ba5931752",
+    "translation_date": "2026-01-16T16:22:02+00:00",
+    "source_file": "2-Working-With-Data/06-non-relational/images/graph-db.png",
+    "language_code": "da"
+  },
+  "height-boxplot.ccb66b2848b5f51c.webp": {
+    "original_hash": "0f3d954cc0e0b9644f64f7bc1c8a5518",
+    "translation_date": "2026-01-16T16:09:19+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/images/height-boxplot.png",
+    "language_code": "da"
+  },
+  "histogram-conservation-wb.3c40450eb072c14d.webp": {
+    "original_hash": "83ec1d81dea6fabb80c6386edf8eb241",
+    "translation_date": "2026-01-16T16:23:49+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/histogram-conservation-wb.png",
+    "language_code": "da"
+  },
+  "histogram-conservation.13b3542e7784e415.webp": {
+    "original_hash": "ec86b1d6a476f4cf80f9d2b346525c92",
+    "translation_date": "2026-01-16T16:23:58+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/histogram-conservation.png",
+    "language_code": "da"
+  },
+  "kv-db.e8f2b75686bbdfcb.webp": {
+    "original_hash": "b11fd06948e523a4f05e4fc016b72151",
+    "translation_date": "2026-01-16T16:21:25+00:00",
+    "source_file": "2-Working-With-Data/06-non-relational/images/kv-db.png",
+    "language_code": "da"
+  },
+  "labeled-wingspan-02.6110e2d2401cd523.webp": {
+    "original_hash": "0f218473d2563c14c8caddecdea3a4c3",
+    "translation_date": "2026-01-16T16:35:46+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/images/labeled-wingspan-02.png",
+    "language_code": "da"
+  },
+  "labeled-wingspan.900ffedd7e3ec6de.webp": {
+    "original_hash": "92a8853541cd37a14b9523a58d655f7f",
+    "translation_date": "2026-01-16T16:35:58+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/images/labeled-wingspan.png",
+    "language_code": "da"
+  },
+  "less-smooth-bodymass.10f4db8b683cc17d.webp": {
+    "original_hash": "407ad13c340ab84466724135c99aa8d6",
+    "translation_date": "2026-01-16T16:28:29+00:00",
+    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/less-smooth-bodymass.png",
+    "language_code": "da"
+  },
+  "liaisons.7b440b28f6d07ea4.webp": {
+    "original_hash": "6d42370a9c4ee2cea0573912a6300e09",
+    "translation_date": "2026-01-16T16:28:16+00:00",
+    "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/liaisons.png",
+    "language_code": "da"
+  },
+  "liaisons.90ce7360bcf84765.webp": {
+    "original_hash": "6d42370a9c4ee2cea0573912a6300e09",
+    "translation_date": "2026-01-16T16:33:46+00:00",
+    "source_file": "3-Data-Visualization/R/13-meaningful-vizualizations/images/liaisons.png",
+    "language_code": "da"
+  },
+  "line1.299b576fbb2a59e6.webp": {
+    "original_hash": "580b92476ca343c0fce7d5713d0ca5cd",
+    "translation_date": "2026-01-16T16:30:21+00:00",
+    "source_file": "3-Data-Visualization/R/12-visualization-relationships/images/line1.png",
+    "language_code": "da"
+  },
+  "line1.f36eb465229a3b1f.webp": {
+    "original_hash": "2254eee0864847a0dbbcf3514523b938",
+    "translation_date": "2026-01-16T16:26:14+00:00",
+    "source_file": "3-Data-Visualization/12-visualization-relationships/images/line1.png",
+    "language_code": "da"
+  },
+  "line2.3b18fcda7176ceba.webp": {
+    "original_hash": "0900ae563b525221b628393ec05feaf8",
+    "translation_date": "2026-01-16T16:30:25+00:00",
+    "source_file": "3-Data-Visualization/R/12-visualization-relationships/images/line2.png",
+    "language_code": "da"
+  },
+  "line2.a5b3493dc01058af.webp": {
+    "original_hash": "352e8164b0d75c410198bb07822e43cb",
+    "translation_date": "2026-01-16T16:26:19+00:00",
+    "source_file": "3-Data-Visualization/12-visualization-relationships/images/line2.png",
+    "language_code": "da"
+  },
+  "max-length-per-order.e5b283d952c78c12.webp": {
+    "original_hash": "3669afd28a61d41ee39429418ee938a0",
+    "translation_date": "2026-01-16T16:29:09+00:00",
+    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/max-length-per-order.png",
+    "language_code": "da"
+  },
+  "max-wingspan-02.e79fd847b2640b89.webp": {
+    "original_hash": "424b2d5e92fd7ad1f1651fd34c48a43b",
+    "translation_date": "2026-01-16T16:35:49+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/images/max-wingspan-02.png",
+    "language_code": "da"
+  },
+  "max-wingspan-labels-02.aa90e826ca49a9d1.webp": {
+    "original_hash": "b1f49941bbc193409678b7c94bd39822",
+    "translation_date": "2026-01-16T16:34:38+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/images/max-wingspan-labels-02.png",
+    "language_code": "da"
+  },
+  "max-wingspan-labels.46f0cc3c48edd4e0.webp": {
+    "original_hash": "67ad5348aa4963aebb0ae7ec94a7fa26",
+    "translation_date": "2026-01-16T16:35:43+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/images/max-wingspan-labels.png",
+    "language_code": "da"
+  },
+  "max-wingspan.0b8d0858436414aa.webp": {
+    "original_hash": "020b2994ef28037b86c2e215771a0bf5",
+    "translation_date": "2026-01-16T16:34:42+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/images/max-wingspan.png",
+    "language_code": "da"
+  },
+  "multi.56548caa9eae8d0f.webp": {
+    "original_hash": "f75fa5419bb0d28a74c567876bc99455",
+    "translation_date": "2026-01-16T16:23:16+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/multi.png",
+    "language_code": "da"
+  },
+  "new-container.650e10c7a20a5f83.webp": {
+    "original_hash": "ab63b5a8099095333eebe2afa69197e3",
+    "translation_date": "2026-01-16T16:22:23+00:00",
+    "source_file": "2-Working-With-Data/06-non-relational/images/new-container.png",
+    "language_code": "da"
+  },
+  "normal-histogram.dfae0d67c202137d.webp": {
+    "original_hash": "46ee775d2df1d79815c1aab51bd8d2fe",
+    "translation_date": "2026-01-16T16:09:33+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/images/normal-histogram.png",
+    "language_code": "da"
+  },
+  "notebook-1.12998af7b02c83f5.webp": {
+    "original_hash": "08d559b911ecbed212b67e206ae6bcf1",
+    "translation_date": "2026-01-16T16:10:12+00:00",
+    "source_file": "5-Data-Science-In-Cloud/19-Azure/images/notebook-1.PNG",
+    "language_code": "da"
+  },
+  "notebook-2.9a657c037e34f1cf.webp": {
+    "original_hash": "018309c1ca2ed8e31fd89c3674687979",
+    "translation_date": "2026-01-16T16:10:24+00:00",
+    "source_file": "5-Data-Science-In-Cloud/19-Azure/images/notebook-2.PNG",
+    "language_code": "da"
+  },
+  "parts-of-spreadsheet.120711c82aa18a45.webp": {
+    "original_hash": "e744b94c055058c2862aaabe84625b90",
+    "translation_date": "2026-01-16T16:23:05+00:00",
+    "source_file": "2-Working-With-Data/06-non-relational/images/parts-of-spreadsheet.png",
+    "language_code": "da"
+  },
+  "pie1-wb.685df063673751f4.webp": {
+    "original_hash": "2b353f34a1a1e444a1d7f2219b78cb83",
+    "translation_date": "2026-01-16T16:30:43+00:00",
+    "source_file": "3-Data-Visualization/R/11-visualization-proportions/images/pie1-wb.png",
+    "language_code": "da"
+  },
+  "pie1-wb.e201f2fcc3354131.webp": {
+    "original_hash": "f2dbe68e0228fc6bb76e502dfa88a5c7",
+    "translation_date": "2026-01-16T16:26:55+00:00",
+    "source_file": "3-Data-Visualization/11-visualization-proportions/images/pie1-wb.png",
+    "language_code": "da"
+  },
+  "pie1.8f6a8bfac96de60e.webp": {
+    "original_hash": "dc91ddf7490acc8493ca0801370d8fa8",
+    "translation_date": "2026-01-16T16:26:25+00:00",
+    "source_file": "3-Data-Visualization/11-visualization-proportions/images/pie1.png",
+    "language_code": "da"
+  },
   "planetary-computer-explorer.c1e95a9b053167d6.webp": {
     "original_hash": "1e3bcffe198a9432dfc6232e5f89e2a5",
     "translation_date": "2026-01-16T16:36:20+00:00",
     "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/images/planetary-computer-explorer.png",
+    "language_code": "da"
+  },
+  "probability-density.a8aad29f17a14afb.webp": {
+    "original_hash": "79ec3e39c1c20e570327ebd8a2737548",
+    "translation_date": "2026-01-16T16:09:10+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/images/probability-density.png",
+    "language_code": "da"
+  },
+  "project-schema.420e56d495624541.webp": {
+    "original_hash": "ac50741c7ac13ecfdef9db5564f80bbd",
+    "translation_date": "2026-01-16T16:10:38+00:00",
+    "source_file": "5-Data-Science-In-Cloud/19-Azure/images/project-schema.PNG",
+    "language_code": "da"
+  },
+  "project-schema.736f6e403f321eb4.webp": {
+    "original_hash": "ac50741c7ac13ecfdef9db5564f80bbd",
+    "translation_date": "2026-01-16T16:15:02+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/project-schema.PNG",
+    "language_code": "da"
+  },
+  "scatter-wb.9d98b0ed7f0388af.webp": {
+    "original_hash": "20b0f7bb41756f35bdf985a8f5f3a342",
+    "translation_date": "2026-01-16T16:23:36+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/scatter-wb.png",
+    "language_code": "da"
+  },
+  "scatter.520a43eceb46dbcb.webp": {
+    "original_hash": "0b08180e497b0df05b452d6e82139280",
+    "translation_date": "2026-01-16T16:24:31+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/images/scatter.png",
+    "language_code": "da"
+  },
+  "scatter1.5e1aa5fd6706c5d1.webp": {
+    "original_hash": "c02fe2f5fa39f591b4a26308356ed684",
+    "translation_date": "2026-01-16T16:26:00+00:00",
+    "source_file": "3-Data-Visualization/12-visualization-relationships/images/scatter1.png",
+    "language_code": "da"
+  },
+  "scatter1.86b8900674d88b26.webp": {
+    "original_hash": "c987462f33600689809531fc3d265f96",
+    "translation_date": "2026-01-16T16:30:10+00:00",
+    "source_file": "3-Data-Visualization/R/12-visualization-relationships/images/scatter1.png",
+    "language_code": "da"
+  },
+  "scatter2.4d1cbc693bad20e2.webp": {
+    "original_hash": "770ca46665efad9996e32d596f105ea9",
+    "translation_date": "2026-01-16T16:29:59+00:00",
+    "source_file": "3-Data-Visualization/R/12-visualization-relationships/images/scatter2.png",
+    "language_code": "da"
+  },
+  "scatter2.c0041a58621ca702.webp": {
+    "original_hash": "0daebd8565f87f5de940b38eb8af1b9d",
+    "translation_date": "2026-01-16T16:25:42+00:00",
+    "source_file": "3-Data-Visualization/12-visualization-relationships/images/scatter2.png",
+    "language_code": "da"
+  },
+  "scatter3.3c160a3d1dcb36b3.webp": {
+    "original_hash": "b6dae06624fdb034a906091c859840c8",
+    "translation_date": "2026-01-16T16:25:25+00:00",
+    "source_file": "3-Data-Visualization/12-visualization-relationships/images/scatter3.png",
+    "language_code": "da"
+  },
+  "scatter3.722d21e6f20b3ea2.webp": {
+    "original_hash": "e76960bfd5bd7187d9e021796f268d34",
+    "translation_date": "2026-01-16T16:29:47+00:00",
+    "source_file": "3-Data-Visualization/R/12-visualization-relationships/images/scatter3.png",
+    "language_code": "da"
+  },
+  "scatterplot-wingspan-02.1c33790094ce36a7.webp": {
+    "original_hash": "074b877685ae02c92754fb416864f137",
+    "translation_date": "2026-01-16T16:33:54+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/images/scatterplot-wingspan-02.png",
+    "language_code": "da"
+  },
+  "scatterplot-wingspan.bdab448702939bb3.webp": {
+    "original_hash": "a6265af4af8b135ebb0b1160ac2a85e1",
+    "translation_date": "2026-01-16T16:34:01+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/images/scatterplot-wingspan.png",
+    "language_code": "da"
+  },
+  "stacked-bar-chart.0c92264e89da7b39.webp": {
+    "original_hash": "150d1125735f6612e36c8d74d492c664",
+    "translation_date": "2026-01-16T16:31:57+00:00",
+    "source_file": "3-Data-Visualization/R/09-visualization-quantities/images/stacked-bar-chart.png",
+    "language_code": "da"
+  },
+  "superimposed-02.f03058536baeb2ed.webp": {
+    "original_hash": "06591758ffda43a2ba7a885727209a57",
+    "translation_date": "2026-01-16T16:35:20+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/images/superimposed-02.png",
+    "language_code": "da"
+  },
+  "superimposed-values.5363f0705a1da416.webp": {
+    "original_hash": "b41c56cb68dd92f60d7e18eefd963396",
+    "translation_date": "2026-01-16T16:32:10+00:00",
+    "source_file": "3-Data-Visualization/R/09-visualization-quantities/images/superimposed-values.png",
+    "language_code": "da"
+  },
+  "superimposed.8b5bd0e8825d9c5c.webp": {
+    "original_hash": "4af0c94d9d61f1d458023b01c02a247e",
+    "translation_date": "2026-01-16T16:33:58+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/images/superimposed.png",
+    "language_code": "da"
+  },
+  "tdsp-lifecycle2.e19029d598e2e73d.webp": {
+    "original_hash": "d1f838b6b0fd588b4ee6cd22cb578569",
+    "translation_date": "2026-01-16T16:18:42+00:00",
+    "source_file": "4-Data-Science-Lifecycle/14-Introduction/images/tdsp-lifecycle2.png",
+    "language_code": "da"
+  },
+  "timeseries-1.80de678ab1cf727e.webp": {
+    "original_hash": "30236ed2474d8d115ab3d51545e0c19e",
+    "translation_date": "2026-01-16T16:20:10+00:00",
+    "source_file": "2-Working-With-Data/07-python/images/timeseries-1.png",
+    "language_code": "da"
+  },
+  "timeseries-2.aae51d575c55181c.webp": {
+    "original_hash": "33bd33349330cb115d729ce80b570501",
+    "translation_date": "2026-01-16T16:20:19+00:00",
+    "source_file": "2-Working-With-Data/07-python/images/timeseries-2.png",
+    "language_code": "da"
+  },
+  "timeseries-3.f3147cbc8c624881.webp": {
+    "original_hash": "aa4b14a21a73d400073a61f37033d465",
+    "translation_date": "2026-01-16T16:20:27+00:00",
+    "source_file": "2-Working-With-Data/07-python/images/timeseries-3.png",
+    "language_code": "da"
+  },
+  "tornado.2880ffc7f135f82b.webp": {
+    "original_hash": "aaaeef8f6130caccd3d3a7384fd215cc",
+    "translation_date": "2026-01-16T16:33:05+00:00",
+    "source_file": "3-Data-Visualization/R/13-meaningful-vizualizations/images/tornado.png",
+    "language_code": "da"
+  },
+  "tornado.9f42168791208f97.webp": {
+    "original_hash": "aaaeef8f6130caccd3d3a7384fd215cc",
+    "translation_date": "2026-01-16T16:27:28+00:00",
+    "source_file": "3-Data-Visualization/13-meaningful-visualizations/images/tornado.png",
+    "language_code": "da"
+  },
+  "video-def-ds.6623ee2392ef1abf.webp": {
+    "original_hash": "95650b7eed7f176ce8fdee16271a464b",
+    "translation_date": "2026-01-16T16:08:29+00:00",
+    "source_file": "1-Introduction/01-defining-data-science/images/video-def-ds.png",
+    "language_code": "da"
+  },
+  "video-ds-python.245247dc811db8e4.webp": {
+    "original_hash": "030eca02a7388a1428cf20faa215f2b9",
+    "translation_date": "2026-01-16T16:19:45+00:00",
+    "source_file": "2-Working-With-Data/07-python/images/video-ds-python.png",
+    "language_code": "da"
+  },
+  "video-prob-and-stats.e4282e5efa2f2543.webp": {
+    "original_hash": "95894d8c6274697246b11c5ddf395c5f",
+    "translation_date": "2026-01-16T16:09:26+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/images/video-prob-and-stats.png",
+    "language_code": "da"
+  },
+  "waffle.5455dbae4ccf17d5.webp": {
+    "original_hash": "56634c9a9dc24921e012693843466dee",
+    "translation_date": "2026-01-16T16:26:39+00:00",
+    "source_file": "3-Data-Visualization/11-visualization-proportions/images/waffle.png",
+    "language_code": "da"
+  },
+  "waffle.aaa75c5337735a6e.webp": {
+    "original_hash": "b84ca087d578965c31a20087b9215d88",
+    "translation_date": "2026-01-16T16:30:38+00:00",
+    "source_file": "3-Data-Visualization/R/11-visualization-proportions/images/waffle.png",
+    "language_code": "da"
+  },
+  "weight-boxplot.1dbab1c03af26f8a.webp": {
+    "original_hash": "4e39b904d1a4313d66663aa3f7ab9602",
+    "translation_date": "2026-01-16T16:09:00+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/images/weight-boxplot.png",
+    "language_code": "da"
+  },
+  "weight-height-relationship.3f06bde4ca2aba99.webp": {
+    "original_hash": "2412d31f9c41004d2d0cb80179d6021f",
+    "translation_date": "2026-01-16T16:09:15+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/images/weight-height-relationship.png",
+    "language_code": "da"
+  },
+  "weight-histogram.bfd00caf7fc30b14.webp": {
+    "original_hash": "bef55b4cd03923b2d8674e92bb1757c9",
+    "translation_date": "2026-01-16T16:09:05+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/images/weight-histogram.png",
+    "language_code": "da"
+  },
+  "wingspan-conservation-collation.4024e9aa6910866a.webp": {
+    "original_hash": "898d4cfbbc9bd4723c3ce92f5746a6f8",
+    "translation_date": "2026-01-16T16:28:50+00:00",
+    "source_file": "3-Data-Visualization/R/10-visualization-distributions/images/wingspan-conservation-collation.png",
+    "language_code": "da"
+  },
+  "workspace-1.ac8694d60b073ed1.webp": {
+    "original_hash": "5e9f3153bfd5af7d8b6adcb09c08cabd",
+    "translation_date": "2026-01-16T16:11:39+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/workspace-1.PNG",
+    "language_code": "da"
+  },
+  "workspace-2.ae7c486db8796147.webp": {
+    "original_hash": "9299f5ae459f0a153da6aaae9accc78d",
+    "translation_date": "2026-01-16T16:14:16+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/workspace-2.PNG",
+    "language_code": "da"
+  },
+  "workspace-3.398ca4a5858132cc.webp": {
+    "original_hash": "2ee0b036fbc5fd13a526f26ac9d60347",
+    "translation_date": "2026-01-16T16:17:49+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/workspace-3.PNG",
+    "language_code": "da"
+  },
+  "workspace-4.bac87f6599c4df63.webp": {
+    "original_hash": "099e0b18ce11f3966c0b7d954c2eb4fb",
+    "translation_date": "2026-01-16T16:12:26+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/workspace-4.PNG",
+    "language_code": "da"
+  },
+  "workspace-5.a6eb17e0a5e64200.webp": {
+    "original_hash": "01b1c520e46b3fbd6fba0d54bb80bece",
+    "translation_date": "2026-01-16T16:17:13+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/workspace-5.PNG",
+    "language_code": "da"
+  },
+  "workspace-6.8dd81fe841797ee1.webp": {
+    "original_hash": "fd0194c1a558063ddb53e5c1ead0a2b0",
+    "translation_date": "2026-01-16T16:16:20+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/images/workspace-6.PNG",
     "language_code": "da"
   }
 }
