@@ -1,205 +1,215 @@
 <!--
 CO_OP_TRANSLATOR_METADATA:
 {
-  "original_hash": "7c31d1a22c746b1d0f0582d4f54702ba",
-  "translation_date": "2025-12-25T00:09:12+00:00",
+  "original_hash": "33d252f7491b696d85df7f680e7e7b90",
+  "translation_date": "2026-01-16T18:36:30+00:00",
   "source_file": "README.md",
   "language_code": "hu"
 }
 -->
-# Adattudomány kezdőknek - Tanterv
+# Data Science kezdőknek – Tanterv
 
-[![Megnyitás GitHub Codespaces-ben](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
 
-[![GitHub licenc](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
-[![GitHub közreműködők](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
-[![GitHub hibajegyek](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
-[![GitHub pull-kérelmek](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
-[![PR-eket szívesen látunk](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub license](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![GitHub figyelők](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
-[![GitHub forkok](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
-[![GitHub csillagok](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
+[![GitHub stars](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
 
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-A Microsoft Azure Cloud Advocates csapata örömmel kínál egy 10 hetes, 20 leckéből álló tananyagot, amely teljes egészében az adattudománnyal foglalkozik. Minden lecke tartalmaz elő- és utóteszteket, írásos útmutatót a lecke elvégzéséhez, megoldást és egy feladatot. Projektalapú pedagógiánk lehetővé teszi, hogy építkezve tanulj, ami bevett módszer az új készségek elsajátítására és rögzítésére.
+A Microsoft Azure Cloud Advocates örömmel kínál 10 hetes, 20 leckéből álló tananyagot, amely teljes egészében az adatelemzésről szól. Minden lecke tartalmaz elő- és utóteszteket, írásos útmutatót a feladat elvégzéséhez, megoldást és házi feladatot. Projekt-alapú tanítási módszerünk lehetővé teszi, hogy építés közben tanulj, amely bevált módszer az új készségek elsajátítására.
 
-**Hálás köszönet szerzőinknek:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
+**Szívből köszönjük szerzőinknek:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
-**🙏 Külön köszönet 🙏 a [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) szerzőknek, lektoroknak és tartalomközreműködőknek,** különösen Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+**🙏 Külön köszönet 🙏 Microsoft Diák Nagykövet** [https://studentambassadors.microsoft.com/](https://studentambassadors.microsoft.com/) szerzőinknek, lektorainknak és tartalomközreműködőinknek, különösen Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
-|![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/hu/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.png)|
+|![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../../../translated_images/hu/00-Title.8af36cd35da1ac55.webp)|
 |:---:|
-| Adattudomány kezdőknek - _Sketchnote készítette [@nitya](https://twitter.com/nitya)_ |
+| Data Science kezdőknek - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
 ### 🌐 Többnyelvű támogatás
 
-#### Automatikusan GitHub Action által biztosítva (Automatizált és mindig naprakész)
+#### GitHub Action által támogatott (Automatikus és mindig naprakész)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arab](../ar/README.md) | [Bengáli](../bn/README.md) | [Bolgár](../bg/README.md) | [Burmai (Myanmar)](../my/README.md) | [Kínai (egyszerűsített)](../zh/README.md) | [Kínai (hagyományos, Hongkong)](../hk/README.md) | [Kínai (hagyományos, Macau)](../mo/README.md) | [Kínai (hagyományos, Taiwan)](../tw/README.md) | [Horvát](../hr/README.md) | [Cseh](../cs/README.md) | [Dán](../da/README.md) | [Holland](../nl/README.md) | [Észt](../et/README.md) | [Finn](../fi/README.md) | [Francia](../fr/README.md) | [Német](../de/README.md) | [Görög](../el/README.md) | [Héber](../he/README.md) | [Hindi](../hi/README.md) | [Magyar](./README.md) | [Indonéz](../id/README.md) | [Olasz](../it/README.md) | [Japán](../ja/README.md) | [Kannada](../kn/README.md) | [Koreai](../ko/README.md) | [Litván](../lt/README.md) | [Maláj](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepáli](../ne/README.md) | [Nigériai pidgin](../pcm/README.md) | [Norvég](../no/README.md) | [Perzsa (Farsi)](../fa/README.md) | [Lengyel](../pl/README.md) | [Portugál (Brazília)](../br/README.md) | [Portugál (Portugália)](../pt/README.md) | [Pandzsábi (Gurmukhi)](../pa/README.md) | [Román](../ro/README.md) | [Orosz](../ru/README.md) | [Szerb (cirill)](../sr/README.md) | [Szlovák](../sk/README.md) | [Szlovén](../sl/README.md) | [Spanyol](../es/README.md) | [Szuahéli](../sw/README.md) | [Svéd](../sv/README.md) | [Tagalog (filippínó)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Török](../tr/README.md) | [Ukrajnai](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnami](../vi/README.md)
+[arab](../ar/README.md) | [bengáli](../bn/README.md) | [bolgár](../bg/README.md) | [burmai (Mianmar)](../my/README.md) | [kínai (egyszerűsített)](../zh/README.md) | [kínai (hagyományos, Hongkong)](../hk/README.md) | [kínai (hagyományos, Makaó)](../mo/README.md) | [kínai (hagyományos, Tajvan)](../tw/README.md) | [horvát](../hr/README.md) | [cseh](../cs/README.md) | [dán](../da/README.md) | [holland](../nl/README.md) | [észt](../et/README.md) | [finn](../fi/README.md) | [francia](../fr/README.md) | [német](../de/README.md) | [görög](../el/README.md) | [héber](../he/README.md) | [hindi](../hi/README.md) | [magyar](./README.md) | [indonéz](../id/README.md) | [olasz](../it/README.md) | [japán](../ja/README.md) | [kannada](../kn/README.md) | [koreai](../ko/README.md) | [litván](../lt/README.md) | [maláj](../ms/README.md) | [malajálam](../ml/README.md) | [maráthi](../mr/README.md) | [nepáli](../ne/README.md) | [nigériai pidzsin](../pcm/README.md) | [norvég](../no/README.md) | [perzsa (fárszi)](../fa/README.md) | [lengyel](../pl/README.md) | [portugál (brazil)](../br/README.md) | [portugál (portugál)](../pt/README.md) | [pandzsábi (Gurmukhi)](../pa/README.md) | [román](../ro/README.md) | [orosz](../ru/README.md) | [szerb (cirill)](../sr/README.md) | [szlovák](../sk/README.md) | [szlovén](../sl/README.md) | [spanyol](../es/README.md) | [szwahili](../sw/README.md) | [svéd](../sv/README.md) | [tagalog (filippínó)](../tl/README.md) | [tamil](../ta/README.md) | [telugu](../te/README.md) | [thai](../th/README.md) | [török](../tr/README.md) | [ukrán](../uk/README.md) | [urdu](../ur/README.md) | [vietnami](../vi/README.md)
+
+> **Szeretnél helyben klónozni?**
+
+> Ez a tárház több mint 50 nyelvi fordítást tartalmaz, ami jelentősen megnöveli a letöltési méretet. Ha fordítások nélkül szeretnéd klónozni, használj ritkított kimenti (sparse checkout) opciót:
+> ```bash
+> git clone --filter=blob:none --sparse https://github.com/microsoft/Data-Science-For-Beginners.git
+> cd Data-Science-For-Beginners
+> git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
+> ```
+> Ezzel megkapod mindazt, amire szükséged van a tanfolyam elvégzéséhez, lényegesen gyorsabb letöltéssel.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
 **Ha további fordítási nyelveket szeretnél támogatni, azok listája megtalálható [itt](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
-#### Csatlakozz közösségünkhöz 
+#### Csatlakozz közösségünkhöz  
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Folyamatban van egy Discord-on futó Learn with AI sorozatunk, további információkért és csatlakozásért látogass el a [Learn with AI Series](https://aka.ms/learnwithai/discord) oldalra 2025. szeptember 18. és 30. között. Tippeket és trükköket kapsz a GitHub Copilot adattudományban való használatához.
+Discordon folyamatosan fut az AI-val való tanulás sorozat, további információ és csatlakozás itt: [Learn with AI Series](https://aka.ms/learnwithai/discord) 2025. szeptember 18-30 között. Tippeket és trükköket kapsz arról, hogyan használd a GitHub Copilotot az adatelemzéshez.
 
-![Learn with AI sorozat](../../translated_images/hu/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.jpg)
+![Learn with AI series](../../../../translated_images/hu/1.2b28cdc6205e26fe.webp)
 
 # Diák vagy?
 
-Kezdd a következő forrásokkal:
+Kezdd az alábbi forrásokkal:
 
-- [Diák Hub oldal](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Ez az oldalon kezdő forrásokat, Diákcsomagokat és akár lehetőségeket is találsz ingyenes vizsga utalvány megszerzésére. Érdemes ezt az oldalt könyvjelzővel ellátni és időnként ellenőrizni, mivel legalább havonta frissítjük a tartalmakat.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Csatlakozz a globális diákkövető közösséghez — ez lehet a bejáratod a Microsofthoz.
+- [Student Hub oldal](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Ezen az oldalon kezdőknek szóló forrásokat, diákcsomagokat és akár ingyenes tanúsítvány kuponokat találsz. Mentd el könyvjelzőként, és időről időre nézd meg, mert legalább havonta cseréljük a tartalmat.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Csatlakozz egy globális diák nagykövet közösséghez, amely egy remek út a Microsoftnál való elhelyezkedéshez.
 
-# Első lépések
+# Kezdés
 
 ## 📚 Dokumentáció
 
-- **[Telepítési útmutató](INSTALLATION.md)** - Lépésről lépésre útmutató a környezet beállításához kezdőknek
-- **[Használati útmutató](USAGE.md)** - Példák és gyakori munkafolyamatok
-- **[Hibaelhárítás](TROUBLESHOOTING.md)** - Megoldások gyakori problémákra
-- **[Közreműködési útmutató](CONTRIBUTING.md)** - Hogyan járulhatsz hozzá ehhez a projekthez
-- **[Tanároknak](for-teachers.md)** - Oktatási útmutató és osztálytermi források
+- **[Telepítési útmutató](INSTALLATION.md)** – Lépésről lépésre kezdőknek az előkészítés
+- **[Használati útmutató](USAGE.md)** – Példák és gyakori munkafolyamatok
+- **[Hibaelhárítás](TROUBLESHOOTING.md)** – Gyakori problémák megoldásai
+- **[Hozzájárulási útmutató](CONTRIBUTING.md)** – Hogyan járulhatsz hozzá ehhez a projekthez
+- **[Tanárnak](for-teachers.md)** – Oktatási útmutató és osztálytermi források
 
 ## 👨‍🎓 Diákoknak
-> **Teljesen kezdők**: Új az adattudományban? Kezdd a [kezdőbarát példáinkkal](examples/README.md)! Ezek az egyszerű, jól kommentált példák segítenek megérteni az alapokat, mielőtt belevágsz a teljes tananyagba.
-> **[Diákok](https://aka.ms/student-page)**: ha egyedül szeretnéd használni ezt a tananyagot, fork-old a teljes repót, és végezd el a gyakorlatokat egyedül, kezdve egy előadás előtti kvízzel. Ezután olvasd el az előadást és végezd el a többi feladatot. Próbáld meg a projekteket a leckék megértésével létrehozni ahelyett, hogy egyszerűen lemásolnád a megoldás kódját; ez a kód azonban elérhető a /solutions mappákban minden projektorientált leckénél. Másik ötlet, hogy alakíts tanulócsoportot barátokkal és közösen dolgozzátok végig a tartalmat. További tanuláshoz ajánljuk a [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum) anyagait.
+> **Teljesen kezdők**: Még új vagy az adatelemzésben? Kezdd [kezdőbarát példáinkkal](examples/README.md)! Ezek az egyszerű, jól kommentált példák segítenek megérteni az alapokat, mielőtt teljes tananyagot tanulnál.
+> **[Diákok](https://aka.ms/student-page)**: ha magad akarod használni a tananyagot, forkold le a teljes repót, és önállóan csináld meg a feladatokat, kezdve az előadás előtti quiz-el. Olvasd el az előadást, majd végezd el a további tevékenységeket. Próbáld meg a projekteket úgy elkészíteni, hogy megérted a leckéket, ne csak kimásold a megoldás kódját; az viszont megtalálható a /solutions mappákban minden projektorientált leckénél. Egy másik ötlet, hogy barátokkal tanulócsoportot alakítotok, és együtt dolgoztok át a tartalmakat. További tanuláshoz javasoljuk a [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum) platformot.
 
 **Gyors kezdés:**
-1. Ellenőrizd a [Telepítési útmutatót](INSTALLATION.md) a környezeted beállításához
-2. Tekintsd át a [Használati útmutatót](USAGE.md), hogy megtudd, hogyan dolgozz a tananyaggal
-3. Kezdd az 1. leckével és haladj sorrendben
-4. Csatlakozz a [Discord közösségünkhöz](https://aka.ms/ds4beginners/discord) a támogatásért
+1. Nézd meg a [Telepítési útmutatót](INSTALLATION.md) a környezet beállításához
+2. Tekintsd át a [Használati útmutatót](USAGE.md) a tananyag használatának elsajátításához
+3. Kezdd az 1. leckével, és haladj sorban
+4. Csatlakozz [Discord közösségünkhöz](https://aka.ms/ds4beginners/discord) a támogatásért
 
 ## 👩‍🏫 Tanároknak
 
-> **Tanárok**: [tartalmaztunk néhány javaslatot](for-teachers.md) arra vonatkozóan, hogyan használjátok ezt a tananyagot. Szívesen fogadjuk visszajelzéseiteket [a beszélgetési fórumunkon](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
+> **Tanárként**: [belefoglaltunk néhány javaslatot](for-teachers.md) arra, hogyan használd ezt a tananyagot. Nagyon örülnénk visszajelzésednek [vita fórumunkon](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
-## Ismerkedj meg a csapattal
+## Ismerd meg a csapatot
+[![Promo video](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Promo video")
 
-[![Bemutató videó](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Bemutató videó")
+**Gif készítője:** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
 
-**Gif készítője** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
-> 🎥 Kattints a fenti képre a projektről és az azt létrehozó emberekről szóló videóért!
+> 🎥 Kattints a fenti képre egy videóért a projektről és az azt létrehozó emberekről!
 
 ## Pedagógia
 
-Két pedagógiai elvet választottunk ennek a tananyagnak a kialakításakor: biztosítani, hogy projektalapú legyen, és hogy gyakori kvízeket tartalmazzon. A sorozat végére a tanulók megismerik az adattudomány alapelveit, beleértve az etikai fogalmakat, az adatelőkészítést, az adatokkal való különböző munkamódokat, az adatok vizualizálását, az adatelemzést, az adattudomány valós világban alkalmazott eseteit és még sok mást.
+Két pedagógiai alapelvet választottunk ennek a tantervnek az összeállításakor: azt, hogy projektalapú legyen, és hogy gyakori kvízeket tartalmazzon. A sorozat végére a tanulók elsajátítják az adatelemzés alapelveit, beleértve az etikai fogalmakat, az adatelőkészítést, az adatkezelés különböző módjait, az adatvizualizációt, az adatelemzést, az adatelemzés valós példáit és még sok mást.
 
-Ezen felül egy alacsony tétű kvíz egy óra előtt beállítja a tanuló szándékát egy téma megtanulására, míg egy második kvíz az óra után segíti a megtartást. Ezt a tananyagot rugalmasra és szórakoztatóra terveztük, és egészben vagy részben is elvégezhető. A projektek kis mérettel indulnak és a 10 hetes ciklus végére egyre összetettebbé válnak.
+Ezen túlmenően egy alacsony tétű kvíz az óra előtt beállítja a tanulók tanulási szándékát egy adott témakör iránt, míg egy második kvíz az óra után biztosítja a mélyebb megértést. Ez a tanterv rugalmas és szórakoztató, és teljes egészében vagy részben is végezhető. A projektek kicsiként kezdődnek, és a 10 hetes ciklus végére egyre összetettebbek lesznek.
 
-> Tekintsd meg a [Magatartási kódexünket](CODE_OF_CONDUCT.md), a [Hozzájárulási irányelveket](CONTRIBUTING.md) és a [Fordítási irányelveket](TRANSLATIONS.md). Várjuk építő jellegű visszajelzésedet!
+> Találd meg irányelveinket a [Viselkedési kódexben](CODE_OF_CONDUCT.md), [Hozzájárulásról](CONTRIBUTING.md), [Fordításról](TRANSLATIONS.md). Örömmel fogadjuk építő visszajelzéseidet!
 
-## Minden lecke tartalmazza:
+## Minden lecke tartalmaz:
 
-- Opcionális sketchnote
-- Opcionális kiegészítő videó
-- Lecke előtti bemelegítő kvíz
-- Írott lecke
-- Projektalapú leckékhez lépésről lépésre útmutatók a projekt elkészítéséhez
-- Ismeretellenőrzések
-- Egy kihívás
-- Kiegészítő olvasmány
-- Feladat
-- [Lecke utáni kvíz](https://ff-quizzes.netlify.app/en/)
+- Opcionális sketchnote-ot
+- Opcionális kiegészítő videót
+- Óra előtti bemelegítő kvízt
+- Írott leckét
+- Projektalapú leckéknél lépésről lépésre útmutatót a projekt összeállításához
+- Tudásellenőrzéseket
+- Egy kihívást
+- Kiegészítő olvasnivalót
+- Feladatot
+- [Óra utáni kvíz](https://ff-quizzes.netlify.app/en/)
 
-> **Egy megjegyzés a kvízekről**: Minden kvíz a Quiz-App mappában található, összesen 40 kvíz három-három kérdéssel. A leckékből vannak linkelve, de a kvízalkalmazás helyileg is futtatható vagy Azure-ra telepíthető; kövesd az utasításokat a `quiz-app` mappában. Fokozatosan lokalizálják őket.
+> **Megjegyzés a kvízekről**: Az összes kvíz a Quiz-App mappában található, összesen 40 kvíz három-három kérdéssel. A leckékből linkelve vannak, de a kvízalkalmazás helyben is futtatható, vagy telepíthető Azure-ba; kövesd az útmutatót a `quiz-app` mappában. Folyamatosan lokalizálják őket.
 
-## 🎓 Kezdőbarát példák
+## 🎓 Kezdőknek Szánt Példák
 
-**Új az adattudományban?** Létrehoztunk egy külön [példakönyvtárat](examples/README.md) egyszerű, jól kommentált kóddal, hogy segítsünk elkezdeni:
+**Új vagy az Adatelemzésben?** Külön [példakönyvtárat](examples/README.md) hoztunk létre egyszerű, jól kommentált kódokkal, hogy segítsünk a kezdésben:
 
-- 🌟 **Hello World** - Az első adattudományi programod
-- 📂 **Loading Data** - Tanulj meg adatkészleteket beolvasni és felfedezni
-- 📊 **Simple Analysis** - Számíts statisztikákat és találj mintázatokat
-- 📈 **Basic Visualization** - Készíts diagramokat és grafikonokat
-- 🔬 **Real-World Project** - Teljes munkafolyamat a kezdetektől a befejezésig
+- 🌟 **Hello World** – Az első adatelemző programod
+- 📂 **Adatok betöltése** – Tanuld meg az adatkészletek beolvasását és felfedezését
+- 📊 **Egyszerű elemzés** – Számíts statisztikákat és találj mintákat
+- 📈 **Alapvető vizualizáció** – Készíts diagramokat és grafikonokat
+- 🔬 **Valós világ projekt** – Teljes munkafolyamat a kezdetektől a végéig
 
-Minden példa részletes kommentárokat tartalmaz, amelyek minden lépést elmagyaráznak, így tökéletes a teljesen kezdők számára!
+Minden példa részletes kommentárokat tartalmaz, amelyek elmagyarázzák a lépéseket, így tökéletes az abszolút kezdőknek!
 
 👉 **[Kezdd a példákkal](examples/README.md)** 👈
 
 ## Leckék
 
 
-|![ Sketchnote készítette @sketchthedocs https://sketchthedocs.dev](../../translated_images/hu/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.png)|
+|![ Sketchnote készítette: @sketchthedocs https://sketchthedocs.dev](../../../../translated_images/hu/00-Roadmap.4905d6567dff4753.webp)|
 |:---:|
-| Adattudomány kezdőknek: Útvonal - _Sketchnote készítette [@nitya](https://twitter.com/nitya)_ |
+| Adatelemzés kezdőknek: Útvonalterv - _Sketchnote készítette [@nitya](https://twitter.com/nitya)_ |
 
 
-| Lecke száma | Téma | Lecke csoportja | Tanulási célok | Kapcsolódó lecke | Szerző |
+| Lecke sorszáma | Téma | Lecke csoportosítás | Tanulási célok | Linked lecke | Szerző |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | Az adattudomány meghatározása | [Bevezetés](1-Introduction/README.md) | Ismerd meg az adattudomány alapfogalmait és azt, hogy hogyan kapcsolódik a mesterséges intelligenciához, a gépi tanuláshoz és a big data-hoz. | [lecke](1-Introduction/01-defining-data-science/README.md) [videó](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
-| 02 | Adattudományi etika | [Bevezetés](1-Introduction/README.md) | Az adat-etika fogalmai, kihívásai és keretrendszerei. | [lecke](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
-| 03 | Az adatok meghatározása | [Bevezetés](1-Introduction/README.md) | Hogyan osztályozzák az adatokat és mik az általános forrásaik. | [lecke](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | Bevezetés a statisztikába és a valószínűségszámításba | [Bevezetés](1-Introduction/README.md) | A valószínűség és a statisztika matematikai módszerei az adatok megértéséhez. | [lecke](1-Introduction/04-stats-and-probability/README.md) [videó](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Relációs adatok kezelése | [Adatok kezelése](2-Working-With-Data/README.md) | Bevezetés a relációs adatokhoz és az alapok a relációs adatok feltárásához és elemzéséhez a Structured Query Language, azaz SQL (kiejtve “see-quell”) segítségével. | [lecke](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
-| 06 | NoSQL adatok kezelése | [Adatok kezelése](2-Working-With-Data/README.md) | Bevezetés a nem relációs adatokhoz, azok különböző típusaihoz és a dokumentumalapú adatbázisok feltárásának és elemzésének alapjaihoz. | [lecke](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
-| 07 | Python használata | [Adatok kezelése](2-Working-With-Data/README.md) | Alapok a Python használatához adatok feltárásához olyan könyvtárakkal, mint a Pandas. Ajánlott az alapvető Python programozási ismeret. | [lecke](2-Working-With-Data/07-python/README.md) [videó](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | Adatelőkészítés | [Adatok kezelése](2-Working-With-Data/README.md) | Témakörök az adattisztításról és átalakításról, hogy kezeljük a hiányos, pontatlan vagy részleges adatokat. | [lecke](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 09 | Mennyiségek vizualizálása | [Adatvizualizáció](3-Data-Visualization/README.md) | Tanuld meg, hogyan használhatod a Matplotlibet madáradatok vizualizálásához 🦆 | [lecke](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 10 | Adateloszlások vizualizálása | [Adatvizualizáció](3-Data-Visualization/README.md) | Megfigyelések és trendek vizualizálása egy intervallumban. | [lecke](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 01 | Az adatelemzés meghatározása | [Bevezetés](1-Introduction/README.md) | Ismerd meg az adatelemzés alapfogalmait és kapcsolatát a mesterséges intelligenciával, gépi tanulással és a nagy adatokkal. | [lecke](1-Introduction/01-defining-data-science/README.md) [videó](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 02 | Adatelemzés etikája | [Bevezetés](1-Introduction/README.md) | Adatazetika fogalmak, kihívások és keretrendszerek. | [lecke](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
+| 03 | Az adatok meghatározása | [Bevezetés](1-Introduction/README.md) | Hogyan osztályozzuk az adatokat és milyen gyakori forrásai vannak. | [lecke](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 04 | Bevezetés a statisztikába és a valószínűségbe | [Bevezetés](1-Introduction/README.md) | Valószínűségszámítási és statisztikai matematikai technikák az adatok megértéséhez. | [lecke](1-Introduction/04-stats-and-probability/README.md) [videó](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 05 | Relációs adatok kezelése | [Munka az adatokkal](2-Working-With-Data/README.md) | Bevezetés a relációs adatokba és a relációs adatok SQL (Structured Query Language) alapú feltérképezésének és elemzésének alapjai. | [lecke](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 06 | NoSQL adatok kezelése | [Munka az adatokkal](2-Working-With-Data/README.md) | Bevezetés a nem-relációs adatokba, különböző típusaikba és a dokumentum adatbázisok alapfokú feltérképezésébe és elemzésébe. | [lecke](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
+| 07 | Python használata | [Munka az adatokkal](2-Working-With-Data/README.md) | A Python alapjai adatfeltérképezéshez, olyan könyvtárak használatával, mint a Pandas. Alap szintű Python programozási ismeretek ajánlottak. | [lecke](2-Working-With-Data/07-python/README.md) [videó](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
+| 08 | Adatelőkészítés | [Munka az adatokkal](2-Working-With-Data/README.md) | Az adattisztítás és átalakítás módszerei az adathiány, pontatlanság vagy hiányosságok kezelésére. | [lecke](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 09 | Mennyiségek vizualizálása | [Adatvizualizáció](3-Data-Visualization/README.md) | Tanuld meg a Matplotlib használatát madáradataid vizualizálásához 🦆 | [lecke](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 10 | Adatok eloszlásának vizualizálása | [Adatvizualizáció](3-Data-Visualization/README.md) | Megfigyelések és trendek vizualizálása egy adott időintervallumon belül. | [lecke](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
 | 11 | Arányok vizualizálása | [Adatvizualizáció](3-Data-Visualization/README.md) | Diszkrét és csoportosított százalékok vizualizálása. | [lecke](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 12 | Kapcsolatok vizualizálása | [Adatvizualizáció](3-Data-Visualization/README.md) | Kapcsolatok és korrelációk vizualizálása adatkészletek és változóik között. | [lecke](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | Értelmes vizualizációk | [Adatvizualizáció](3-Data-Visualization/README.md) | Technikák és útmutatás, hogy vizualizációid értékesek legyenek a hatékony problémamegoldáshoz és betekintéshez. | [lecke](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 14 | Bevezetés az adattudomány életciklusába | [Életciklus](4-Data-Science-Lifecycle/README.md) | Bevezetés az adattudomány életciklusába és annak első lépéseként az adatok megszerzésébe és kinyerésébe. | [lecke](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | Elemzés | [Életciklus](4-Data-Science-Lifecycle/README.md) | Az adattudomány életciklusának ez a szakasza az adatok elemzésére fókuszál. | [lecke](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Kommunikáció | [Életciklus](4-Data-Science-Lifecycle/README.md) | Az adattudomány életciklusának ez a szakasza az adatokból származó eredmények bemutatására összpontosít úgy, hogy a döntéshozók számára könnyebb legyen megérteni azokat. | [lecke](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
-| 17 | Adattudomány a felhőben | [Felhőadatok](5-Data-Science-In-Cloud/README.md) | Ez a lecke sorozat bevezeti az adattudományt a felhőben és annak előnyeit. | [lecke](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
-| 18 | Adattudomány a felhőben | [Felhőadatok](5-Data-Science-In-Cloud/README.md) | Modellek betanítása Low Code eszközökkel. |[lecke](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
-| 19 | Adattudomány a felhőben | [Felhőadatok](5-Data-Science-In-Cloud/README.md) | Modellek telepítése Azure Machine Learning Studio-val. | [lecke](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) and [Maud](https://twitter.com/maudstweets) |
-| 20 | Adattudomány a gyakorlatban | [A gyakorlatban](6-Data-Science-In-Wild/README.md) | Adattudomány által vezérelt projektek a való világban. | [lecke](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| 12 | Kapcsolatok vizualizálása | [Adatvizualizáció](3-Data-Visualization/README.md) | Kapcsolatok és korrelációk vizualizálása adat- és változóhalmazok között. | [lecke](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 13 | Értelmes vizualizációk | [Adatvizualizáció](3-Data-Visualization/README.md) | Technikák és útmutatás az értékes vizualizációk készítéséhez a hatékony problémamegoldás és betekintés érdekében. | [lecke](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 14 | Bevezetés az adatelemzés életciklusába | [Életciklus](4-Data-Science-Lifecycle/README.md) | Bevezetés az adatelemzés életciklusába és első lépése az adatok beszerzése és kinyerése. | [lecke](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
+| 15 | Elemzés | [Életciklus](4-Data-Science-Lifecycle/README.md) | Az adatelemzés életciklusának ezen fázisa az adatok elemzésére fókuszál. | [lecke](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | Kommunikáció | [Életciklus](4-Data-Science-Lifecycle/README.md) | Az adatelemzés életciklusának ezen fázisa a végkövetkeztetések bemutatására fókuszál, hogy a döntéshozók számára könnyebben érthető legyen. | [lecke](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 17 | Adatelemzés a felhőben | [Felhőadatok](5-Data-Science-In-Cloud/README.md) | Ez a leckesorozat bemutatja az adatelemzést a felhőben és annak előnyeit. | [lecke](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) és [Maud](https://twitter.com/maudstweets) |
+| 18 | Adatelemzés a felhőben | [Felhőadatok](5-Data-Science-In-Cloud/README.md) | Modellek tréningje alacsony kódolású eszközökkel. |[lecke](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) és [Maud](https://twitter.com/maudstweets) |
+| 19 | Adatelemzés a felhőben | [Felhőadatok](5-Data-Science-In-Cloud/README.md) | Modellek telepítése az Azure Machine Learning Studio használatával. | [lecke](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) és [Maud](https://twitter.com/maudstweets) |
+| 20 | Adatelemzés a valós világban | [A természetben](6-Data-Science-In-Wild/README.md) | Adatalapú projektek a való életben. | [lecke](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
-Kövesd az alábbi lépéseket a minta Codespace-ben való megnyitásához:
+Kövesd ezeket a lépéseket, hogy megnyisd ezt a mintát egy Codespace-ben:
 1. Kattints a Code legördülő menüre, és válaszd az Open with Codespaces opciót.
-2. A panel alján válaszd a + New codespace lehetőséget.
-For more info, check out the [GitHub documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
+2. Válaszd a + New codespace-t az alján.
+További információért nézd meg a [GitHub dokumentációt](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
-## VSCode Remote - Containers
-Kövesd ezeket a lépéseket a repó konténerben való megnyitásához a helyi gépedet és VSCode-ot használva, a VS Code Remote - Containers bővítmény segítségével:
+## VSCode Remote - Konténerek
+Kövesd az alábbi lépéseket, hogy ezt a tárolót helyben, a VSCode Remote - Containers bővítmény segítségével egy konténerben nyisd meg:
 
-1. Ha ez az első alkalom, hogy fejlesztői konténert használsz, győződj meg róla, hogy a rendszered megfelel az előfeltételeknek (pl. Docker telepítve van) a [kezdő dokumentációban](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. Ha először használsz fejlesztői konténert, győződj meg arról, hogy a rendszered megfelel-e az előfeltételeknek (pl. Docker telepítve van) a [kezdő dokumentációban](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
-To use this repository, you can either open the repository in an isolated Docker volume:
+Ehhez a tárolóhoz megnyithatod a repót egy különálló Docker kötetben:
 
-**Note**: Under the hood, this will use the Remote-Containers: **Clone Repository in Container Volume...** command to clone the source code in a Docker volume instead of the local filesystem. [Volumes](https://docs.docker.com/storage/volumes/) are the preferred mechanism for persisting container data.
+**Megjegyzés**: Alatta a Remote-Containers: **Clone Repository in Container Volume...** parancs használatos a forráskód Docker kötetbe történő klónozására a helyi fájlrendszer helyett. A [kötetek](https://docs.docker.com/storage/volumes/) a preferált mechanizmus a konténer-adatok megőrzésére.
 
-Or open a locally cloned or downloaded version of the repository:
+Vagy megnyithatsz egy helyileg klónozott vagy letöltött verziót:
 
-- Klónozd ezt a repót a helyi fájlrendszeredre.
-- Nyomd meg az F1-et és válaszd a **Remote-Containers: Open Folder in Container...** parancsot.
-- Válaszd ki a mappa klónozott példányát, várd meg, amíg elindul a konténer, és próbáld ki.
+- Klónozd ezt a tárolót a helyi fájlrendszeredre.
+- Nyomd meg az F1-et, és válaszd a **Remote-Containers: Open Folder in Container...** parancsot.
+- Válaszd ki a klónozott mappát, várd meg, míg a konténer elindul, majd próbáld ki a funkciókat.
 
-## Offline access
+## Offline hozzáférés
 
-Ezt a dokumentációt offline is futtathatod a [Docsify](https://docsify.js.org/#/) használatával. Forkold ezt a repót, telepítsd a [Docsify-t](https://docsify.js.org/#/quickstart) a helyi gépedre, majd a repó gyökérmappájában írd be `docsify serve`. A weboldal a localhost 3000-es portján lesz elérhető: `localhost:3000`.
+Ezt a dokumentációt offline is futtathatod a [Docsify](https://docsify.js.org/#/) használatával. Forkold ezt a repo-t, [telepítsd a Docsify-t](https://docsify.js.org/#/quickstart) a helyi gépedre, majd a repo gyökér mappájában írd be: `docsify serve`. A weboldal a localhoston, a 3000-es porton lesz elérhető: `localhost:3000`.
 
-> Megjegyzés: a jegyzetfüzetek (notebookok) nem lesznek renderelve a Docsify-val, ezért ha futtatni kell egy notebookot, azt külön tedd meg VS Code-ban Python kernel használatával.
+> Megjegyzés: a jegyzetfüzetek nem jelennek meg Docsify alatt, így ha futtatnod kell egy jegyzetfüzetet, tedd azt külön a VS Code-ban, Python kernel használatával.
 
-## Egyéb tananyagok
+## Egyéb tantervek
 
-Csapatunk más tananyagokat is készít! Nézd meg:
+Csapatunk más tanterveket is készít! Nézd meg:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
-[![LangChain4j for Beginners](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
-[![LangChain.js for Beginners](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+[![LangChain4j kezdőknek](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js kezdőknek](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
 
 ---
 
-### Azure / Edge / MCP / Agents
+### Azure / Edge / MCP / Ügynökök
 [![AZD kezdőknek](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Edge AI kezdőknek](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![MCP kezdőknek](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
@@ -207,7 +217,7 @@ Csapatunk más tananyagokat is készít! Nézd meg:
 
 ---
  
-### Generatív AI sorozat
+### Generatív AI Sorozat
 [![Generatív AI kezdőknek](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Generatív AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 [![Generatív AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
@@ -215,10 +225,10 @@ Csapatunk más tananyagokat is készít! Nézd meg:
 
 ---
  
-### Alapvető tananyagok
-[![Gépi tanulás kezdőknek](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+### Alapvető Tanulás
+[![ML kezdőknek](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![Adattudomány kezdőknek](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
-[![Mesterséges intelligencia kezdőknek](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI kezdőknek](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
 [![Kiberbiztonság kezdőknek](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
 [![Webfejlesztés kezdőknek](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
 [![IoT kezdőknek](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
@@ -226,27 +236,27 @@ Csapatunk más tananyagokat is készít! Nézd meg:
 
 ---
  
-### Copilot sorozat
+### Copilot Sorozat
 [![Copilot AI páros programozáshoz](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
-[![Copilot C#/.NET-hez](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+[![Copilot C#/.NET fejlesztéshez](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
 [![Copilot kaland](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## Segítség
+## Segítségkérés
 
-**Problémák merültek fel?** Nézze meg a [Hibaelhárítási útmutatót](TROUBLESHOOTING.md) a gyakori problémák megoldásaiért.
+**Problémába ütközött?** Tekintse meg [Hibaelhárítási útmutatónkat](TROUBLESHOOTING.md) a gyakori problémák megoldásaiért.
 
-Ha elakad, vagy kérdése van az AI-alkalmazások fejlesztésével kapcsolatban. Csatlakozzon más tanulókhoz és tapasztalt fejlesztőkhöz az MCP-vel kapcsolatos beszélgetésekben. Ez egy támogató közösség, ahol a kérdések szívesen látottak és a tudás szabadon megosztott.
+Ha elakad vagy bármilyen kérdése van az AI alkalmazások fejlesztésével kapcsolatban, csatlakozzon tanulótársaihoz és tapasztalt fejlesztőkhöz az MCP körüli beszélgetésekben. Ez egy támogató közösség, ahol a kérdések szívesen fogadottak, és a tudás szabadon megosztott.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Ha termék-visszajelzése vagy hibák merülnek fel a fejlesztés közben, látogasson el ide:
+Ha termék visszajelzése vagy hibák merülnek fel fejlesztés közben, látogasson el ide:
 
 [![Microsoft Foundry Fejlesztői Fórum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-Felelősségkizárás:
-Ez a dokumentum az AI fordítószolgáltatás (Co-op Translator: https://github.com/Azure/co-op-translator) segítségével készült. Bár törekszünk a pontosságra, kérjük, vegye figyelembe, hogy az automatikus fordítások hibákat vagy pontatlanságokat tartalmazhatnak. Az eredeti, anyanyelvi dokumentum tekintendő irányadónak. Kritikus fontosságú információk esetén emberi, szakmai fordítást javaslunk. Nem vállalunk felelősséget az e fordítás használatából eredő félreértésekért vagy téves értelmezésekért.
+**Jogi nyilatkozat**:
+Ezt a dokumentumot az AI fordító szolgáltatás [Co-op Translator](https://github.com/Azure/co-op-translator) használatával fordítottuk le. Bár igyekszünk a pontosságra, kérjük, vegye figyelembe, hogy az automatikus fordítások hibákat vagy pontatlanságokat tartalmazhatnak. Az eredeti dokumentum a saját nyelvén tekintendő hivatalos forrásnak. Kritikus információk esetén szakmai emberi fordítást javaslunk. Nem vállalunk felelősséget a fordítás használatából eredő félreértésekért vagy téves értelmezésekért.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
