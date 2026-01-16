@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Šioje pamokoje daugiausia dėmesio skiriama trims gyvavimo ciklo dalims: duomenų rinkimui, apdorojimui ir priežiūrai.
 
-![Duomenų mokslo gyvavimo ciklo diagrama](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.lt.jpg)
+![Duomenų mokslo gyvavimo ciklo diagrama](../../../../translated_images/lt/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > Nuotrauka iš [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Duomenų rinkimas
@@ -101,7 +101,7 @@ Išnagrinėkite [Komandos duomenų mokslo proceso gyvavimo ciklą](https://docs.
 
 |Komandos duomenų mokslo procesas (TDSP)|Kryžminės pramonės standartinis duomenų gavybos procesas (CRISP-DM)|
 |--|--|
-|![Komandos duomenų mokslo gyvavimo ciklas](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.lt.png) | ![Duomenų mokslo proceso aljanso vaizdas](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.lt.png) |
+|![Komandos duomenų mokslo gyvavimo ciklas](../../../../translated_images/lt/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Duomenų mokslo proceso aljanso vaizdas](../../../../translated_images/lt/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Vaizdas iš [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Vaizdas iš [Duomenų mokslo proceso aljanso](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Po paskaitos: testas](https://ff-quizzes.netlify.app/en/ds/quiz/27)

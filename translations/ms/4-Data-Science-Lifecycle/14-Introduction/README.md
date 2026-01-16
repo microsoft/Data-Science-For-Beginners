@@ -25,7 +25,7 @@ Pada tahap ini, anda mungkin telah menyedari bahawa sains data adalah satu prose
 
 Pelajaran ini memberi tumpuan kepada 3 bahagian dalam kitaran hayat: pengumpulan, pemprosesan, dan penyelenggaraan.
 
-![Rajah kitaran hayat sains data](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.ms.jpg)  
+![Rajah kitaran hayat sains data](../../../../translated_images/ms/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
 > Foto oleh [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Pengumpulan
@@ -101,7 +101,7 @@ Terokai [Kitaran Hayat Proses Sains Data Pasukan](https://docs.microsoft.com/en-
 
 |Proses Sains Data Pasukan (TDSP)|Proses standard industri untuk perlombongan data (CRISP-DM)|
 |--|--|
-|![Kitaran Hayat Proses Sains Data Pasukan](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.ms.png) | ![Imej Proses Sains Data Alliance](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.ms.png) |
+|![Kitaran Hayat Proses Sains Data Pasukan](../../../../translated_images/ms/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Imej Proses Sains Data Alliance](../../../../translated_images/ms/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Imej oleh [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Imej oleh [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Kuiz Pasca-Kuliah](https://ff-quizzes.netlify.app/en/ds/quiz/27)

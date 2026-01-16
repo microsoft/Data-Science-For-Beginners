@@ -41,7 +41,7 @@ Zaradi demokratizacije umetne inteligence razvijalci zdaj lažje oblikujejo in v
 
  * [Podatkovna znanost v zdravstvu](https://data-flair.training/blogs/data-science-in-healthcare/) - poudarja aplikacije, kot so medicinsko slikanje (npr. MRI, rentgen, CT-skeniranje), genomika (sekvenciranje DNK), razvoj zdravil (ocena tveganja, napoved uspeha), napovedna analitika (oskrba pacientov in logistika oskrbe), sledenje boleznim in preprečevanje itd.
 
-![Aplikacije podatkovne znanosti v resničnem svetu](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.sl.png) Vir slike: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Aplikacije podatkovne znanosti v resničnem svetu](../../../../translated_images/sl/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Vir slike: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Slika prikazuje druge domene in primere uporabe tehnik podatkovne znanosti. Želite raziskati druge aplikacije? Oglejte si razdelek [Pregled in samostojno učenje](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) spodaj.
 

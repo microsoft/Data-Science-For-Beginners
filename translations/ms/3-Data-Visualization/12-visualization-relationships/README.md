@@ -51,7 +51,7 @@ Buat scatterplot asas untuk menunjukkan hubungan antara harga per paun madu dan 
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.ms.png)
+![scatterplot 1](../../../../translated_images/ms/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Sekarang, tunjukkan data yang sama dengan skema warna madu untuk menunjukkan bagaimana harga berkembang dari tahun ke tahun. Anda boleh melakukannya dengan menambah parameter 'hue' untuk menunjukkan perubahan dari tahun ke tahun:
 
@@ -60,7 +60,7 @@ Sekarang, tunjukkan data yang sama dengan skema warna madu untuk menunjukkan bag
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.ms.png)
+![scatterplot 2](../../../../translated_images/ms/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 Dengan perubahan skema warna ini, anda dapat melihat dengan jelas perkembangan yang kuat dari tahun ke tahun dalam harga madu per paun. Malah, jika anda melihat set sampel dalam data untuk mengesahkan (pilih negeri tertentu, contohnya Arizona), anda dapat melihat pola kenaikan harga dari tahun ke tahun, dengan beberapa pengecualian:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Anda dapat melihat saiz titik semakin besar.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.ms.png)
+![scatterplot 3](../../../../translated_images/ms/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Adakah ini kes mudah permintaan dan penawaran? Disebabkan faktor seperti perubahan iklim dan keruntuhan koloni, adakah madu semakin kurang tersedia untuk dibeli dari tahun ke tahun, dan oleh itu harga meningkat?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Jawapan: Ya, dengan beberapa pengecualian sekitar tahun 2003:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.ms.png)
+![line chart 1](../../../../translated_images/ms/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Oleh kerana Seaborn mengagregatkan data di sekitar satu garis, ia memaparkan "pengukuran berganda pada setiap nilai x dengan memplotkan purata dan selang keyakinan 95% di sekitar purata". [Sumber](https://seaborn.pydata.org/tutorial/relational.html). Tingkah laku yang memakan masa ini boleh dilumpuhkan dengan menambah `ci=None`.
 
@@ -114,7 +114,7 @@ Soalan: Nah, pada tahun 2003 adakah kita juga melihat lonjakan dalam bekalan mad
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.ms.png)
+![line chart 2](../../../../translated_images/ms/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Jawapan: Tidak begitu. Jika anda melihat jumlah pengeluaran, ia sebenarnya kelihatan meningkat pada tahun tersebut, walaupun secara amnya jumlah madu yang dihasilkan menurun sepanjang tahun-tahun ini.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 Dalam visualisasi ini, anda boleh membandingkan hasil per koloni dan bilangan koloni dari tahun ke tahun, bersebelahan dengan susunan kolum sebanyak 3:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.ms.png)
+![facet grid](../../../../translated_images/ms/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 Untuk dataset ini, tiada apa yang benar-benar menonjol berkaitan dengan bilangan koloni dan hasilnya, dari tahun ke tahun dan negeri ke negeri. Adakah terdapat cara lain untuk mencari korelasi antara dua pemboleh ubah ini?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.ms.png)
+![superimposed plots](../../../../translated_images/ms/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Walaupun tiada apa yang menonjol di mata sekitar tahun 2003, ia membolehkan kita mengakhiri pelajaran ini dengan nota yang sedikit lebih gembira: walaupun terdapat penurunan bilangan koloni secara keseluruhan, bilangan koloni semakin stabil walaupun hasil per koloni semakin menurun.
 

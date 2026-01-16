@@ -93,7 +93,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```  
 Voila, un grafic de tip plăcintă care arată proporțiile acestor date conform celor două clase de ciuperci. Este foarte important să obții ordinea corectă a etichetelor, mai ales aici, așa că asigură-te că verifici ordinea în care este construită matricea de etichete!
 
-![grafic plăcintă](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.ro.png)
+![grafic plăcintă](../../../../../translated_images/ro/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Gogoși!
 
@@ -127,7 +127,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```  
 
-![grafic gogoașă](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.ro.png)
+![grafic gogoașă](../../../../../translated_images/ro/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Acest cod folosește două biblioteci - ggplot2 și webr. Folosind funcția PieDonut din biblioteca webr, putem crea ușor un grafic de tip gogoașă!
 
@@ -165,7 +165,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Folosind un grafic de tip vafă, poți vedea clar proporțiile culorilor pălăriilor din acest set de date despre ciuperci. Interesant, există multe ciuperci cu pălării verzi!
 
-![grafic vafă](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.ro.png)
+![grafic vafă](../../../../../translated_images/ro/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 În această lecție, ai învățat trei modalități de a vizualiza proporțiile. Mai întâi, trebuie să grupezi datele în categorii și apoi să decizi care este cea mai bună modalitate de a afișa datele - plăcintă, gogoașă sau vafă. Toate sunt delicioase și oferă utilizatorului o imagine instantanee a unui set de date.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # डेटा सायन्स जीवनचक्र
 
-![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.mr.jpg)
+![communication](../../../translated_images/mr/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
 > फोटो <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">हेडवे</a> यांनी <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">अनस्प्लॅश</a> वर घेतला आहे
   
 या धड्यांमध्ये, तुम्ही डेटा सायन्स जीवनचक्राच्या काही पैलूंवर चर्चा कराल, ज्यामध्ये डेटाचे विश्लेषण आणि संवाद यांचा समावेश आहे.

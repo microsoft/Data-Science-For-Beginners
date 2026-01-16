@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ဒေတာသိပ္ပံအကျဉ်းချုပ်
 
-![ဒေတာအလုပ်လုပ်နေမှု](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.my.jpg)
+![ဒေတာအလုပ်လုပ်နေမှု](../../../translated_images/my/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > ဓာတ်ပုံကို <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> မှ <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> တွင် ရိုက်ထားသည်
   
 ဒီသင်ခန်းစာများတွင် ဒေတာသိပ္ပံကို ဘယ်လိုအဓိပ္ပာယ်ဖွင့်ဆိုရမယ်ဆိုတာကို ရှင်းလင်းသွားမှာဖြစ်ပြီး ဒေတာသိပ္ပံပညာရှင်တစ်ဦးအနေနဲ့ လိုက်နာရမယ့် ကျင့်ဝတ်ဆိုင်ရာအချက်များကိုလည်း သင်ယူရမယ်။ ဒေတာကို ဘယ်လိုအဓိပ္ပာယ်ဖွင့်ဆိုရမယ်ဆိုတာကိုလည်း သင်ယူရမယ်။ ဒါ့အပြင် ဒေတာသိပ္ပံရဲ့ အဓိကပညာရပ်များဖြစ်တဲ့ စာရင်းအင်းနှင့် အလားအလာဆိုင်ရာအခြေခံအချက်များကိုလည်း နည်းနည်းလေး သင်ယူရမယ်။

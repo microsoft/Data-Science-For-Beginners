@@ -33,7 +33,7 @@ Azure Cloud Advocates tại Microsoft rất vui được cung cấp một chươ
 **🙏 Lời cảm ơn đặc biệt 🙏 tới các tác giả, người đánh giá và những người đóng góp nội dung thuộc [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/),** đáng chú ý có Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
-|![Sketchnote bởi @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.vi.png)|
+|![Sketchnote bởi @sketchthedocs https://sketchthedocs.dev](../../translated_images/vi/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.png)|
 |:---:|
 | Khoa học dữ liệu cho người mới bắt đầu - _Sketchnote bởi [@nitya](https://twitter.com/nitya)_ |
 
@@ -52,7 +52,7 @@ Azure Cloud Advocates tại Microsoft rất vui được cung cấp một chươ
 
 Chúng tôi đang có chuỗi Discord "Học cùng AI", tìm hiểu thêm và tham gia với chúng tôi tại [Chuỗi Học cùng AI](https://aka.ms/learnwithai/discord) từ 18 - 30 tháng 9, 2025. Bạn sẽ nhận được mẹo và thủ thuật khi sử dụng GitHub Copilot cho Khoa học Dữ liệu.
 
-![Chuỗi Học cùng AI](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.vi.jpg)
+![Chuỗi Học cùng AI](../../translated_images/vi/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.jpg)
 
 # Bạn có phải là sinh viên?
 
@@ -132,7 +132,7 @@ Mỗi ví dụ bao gồm các chú thích chi tiết giải thích từng bướ
 ## Bài học
 
 
-|![ Sketchnote bởi @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.vi.png)|
+|![ Sketchnote bởi @sketchthedocs https://sketchthedocs.dev](../../translated_images/vi/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.png)|
 |:---:|
 | Khoa học Dữ liệu cho Người mới bắt đầu: Lộ trình - _Sketchnote bởi [@nitya](https://twitter.com/nitya)_ |
 

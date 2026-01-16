@@ -93,7 +93,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, een taartdiagram dat de verhoudingen van deze data toont volgens deze twee klassen van champignons. Het is erg belangrijk om de volgorde van de labels correct te krijgen, vooral hier, dus zorg ervoor dat je de volgorde controleert waarmee de labelarray is gebouwd!
 
-![taartdiagram](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.nl.png)
+![taartdiagram](../../../../../translated_images/nl/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Donuts!
 
@@ -127,7 +127,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![donutdiagram](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.nl.png)
+![donutdiagram](../../../../../translated_images/nl/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Deze code gebruikt de twee bibliotheken - ggplot2 en webr. Met de PieDonut-functie van de webr-bibliotheek kun je eenvoudig een donutdiagram maken!
 
@@ -165,7 +165,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Met een wafeldiagram kun je duidelijk de verhoudingen van hoedkleuren in deze champignon-dataset zien. Interessant genoeg zijn er veel champignons met groene hoeden!
 
-![wafeldiagram](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.nl.png)
+![wafeldiagram](../../../../../translated_images/nl/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 In deze les heb je drie manieren geleerd om verhoudingen te visualiseren. Eerst moet je je data groeperen in categorieën en vervolgens beslissen wat de beste manier is om de data weer te geven - taart, donut of wafel. Allemaal zijn ze smakelijk en geven de gebruiker een direct overzicht van een dataset.
 

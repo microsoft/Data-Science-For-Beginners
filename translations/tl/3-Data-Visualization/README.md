@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mga Biswal na Presentasyon
 
-![isang bubuyog sa bulaklak ng lavender](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.tl.jpg)
+![isang bubuyog sa bulaklak ng lavender](../../../translated_images/tl/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Larawan ni <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> sa <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Ang pagbibiswal ng datos ay isa sa pinakamahalagang gawain ng isang data scientist. Ang mga larawan ay nagkakahalaga ng 1000 salita, at ang isang biswal na presentasyon ay makakatulong sa iyong matukoy ang iba't ibang kawili-wiling bahagi ng iyong datos tulad ng biglaang pagtaas, mga outlier, mga pangkat, mga uso, at marami pang iba, na makakatulong sa iyong maunawaan ang kwento na nais ipahayag ng iyong datos.

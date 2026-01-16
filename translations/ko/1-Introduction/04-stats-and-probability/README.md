@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 통계와 확률 이론은 데이터 과학에서 매우 중요한 수학의 두 가지 밀접한 분야입니다. 수학에 대한 깊은 지식 없이도 데이터를 다룰 수는 있지만, 최소한 기본 개념은 알고 있는 것이 좋습니다. 여기에서는 시작하는 데 도움이 되는 간단한 소개를 제공합니다.
 
-[![Intro Video](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.ko.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Intro Video](../../../../translated_images/ko/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 우리는 변수 값이 특정 구간에 속할 확률, 예를 들어 P(t<sub>1</sub>≤X<t<sub>2</sub>)에 대해서만 이야기할 수 있습니다. 이 경우, 확률 분포는 **확률 밀도 함수** p(x)로 설명됩니다. 이 함수는 다음과 같이 정의됩니다:
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.ko.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/ko/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 연속형 균등 분포는 유한 구간에서 정의되며, **연속 균등 분포**라고 불립니다. 값 X가 길이 l의 구간에 속할 확률은 l에 비례하며, 최대 1까지 증가합니다.
 
@@ -82,11 +82,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 다음은 데이터의 평균, 중앙값, 사분위수를 보여주는 박스 플롯입니다:
 
-![Weight Box Plot](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.ko.png)
+![Weight Box Plot](../../../../translated_images/ko/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 우리의 데이터는 서로 다른 선수 **포지션**에 대한 정보를 포함하고 있으므로, 포지션별로 박스 플롯을 작성할 수도 있습니다. 이를 통해 포지션별로 매개변수 값이 어떻게 다른지 알 수 있습니다. 이번에는 키를 고려해 봅시다:
 
-![Box plot by role](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.ko.png)
+![Box plot by role](../../../../translated_images/ko/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 이 다이어그램은 평균적으로 1루수의 키가 2루수의 키보다 더 높다는 것을 시사합니다. 이 강의 후반부에서는 이 가설을 더 공식적으로 검증하는 방법과 데이터가 통계적으로 유의미함을 보여주는 방법을 배울 것입니다.
 
@@ -94,7 +94,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 우리 데이터의 분포를 확인하려면 **히스토그램**이라는 그래프를 그릴 수 있습니다. X축에는 다양한 몸무게 구간(즉, **빈**)이 포함되고, Y축에는 해당 구간에 속한 샘플의 개수가 표시됩니다.
 
-![Histogram of real world data](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.ko.png)
+![Histogram of real world data](../../../../translated_images/ko/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 이 히스토그램에서 모든 값이 특정 평균 몸무게를 중심으로 집중되어 있으며, 평균에서 멀어질수록 해당 값의 몸무게가 나타날 확률이 낮아진다는 것을 알 수 있습니다. 즉, 야구 선수의 몸무게가 평균 몸무게와 크게 다를 확률은 매우 낮습니다. 몸무게의 분산은 평균에서 얼마나 벗어날 가능성이 있는지를 보여줍니다.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 생성된 샘플의 히스토그램을 그리면 위에서 본 그림과 매우 유사한 모습을 볼 수 있습니다. 샘플 수와 빈 수를 늘리면 이상적인 정규 분포에 더 가까운 그림을 생성할 수 있습니다:
 
-![Normal Distribution with mean=0 and std.dev=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.ko.png)
+![Normal Distribution with mean=0 and std.dev=1](../../../../translated_images/ko/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *평균=0, 표준 편차=1인 정규 분포*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 이 경우, 값 0.53은 사람의 체중과 키 간에 어느 정도 상관관계가 있음을 나타냅니다. 또한, 한 값을 다른 값에 대해 산점도로 나타내어 관계를 시각적으로 확인할 수 있습니다:
 
-![체중과 키 간의 관계](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.ko.png)
+![체중과 키 간의 관계](../../../../translated_images/ko/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > 상관관계와 공분산에 대한 더 많은 예제는 [첨부된 노트북](notebook.ipynb)에서 확인할 수 있습니다.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Livssyklusen for Data Science
 
-![kommunikasjon](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.no.jpg)
+![kommunikasjon](../../../translated_images/no/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
 > Foto av <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> på <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 I disse leksjonene vil du utforske noen av aspektene ved livssyklusen for Data Science, inkludert analyse og kommunikasjon rundt data.

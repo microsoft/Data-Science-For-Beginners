@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Știința Datelor în Cloud
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.ro.jpg)
+![cloud-picture](../../../translated_images/ro/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Fotografie de [Jelleke Vanooteghem](https://unsplash.com/@ilumire) de pe [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Când vine vorba de realizarea științei datelor cu seturi mari de date, cloud-ul poate fi o schimbare majoră. În următoarele trei lecții, vom vedea ce este cloud-ul și de ce poate fi foarte util. De asemenea, vom explora un set de date despre insuficiența cardiacă și vom construi un model pentru a ajuta la evaluarea probabilității ca cineva să sufere de insuficiență cardiacă. Vom folosi puterea cloud-ului pentru a antrena, implementa și utiliza un model în două moduri diferite. Un mod folosind doar interfața utilizatorului într-un stil Low code/No code, iar celălalt mod folosind Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.ro.png)
+![project-schema](../../../translated_images/ro/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Subiecte
 

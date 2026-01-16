@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # डाटा साइन्स जीवनचक्र
 
-![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.ne.jpg)
+![communication](../../../translated_images/ne/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
 > फोटो <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> द्वारा <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> मा
   
 यी पाठहरूमा, तपाईंले डाटा साइन्स जीवनचक्रका केही पक्षहरू, जस्तै डाटाको विश्लेषण र संवादको बारेमा अध्ययन गर्नुहुनेछ।

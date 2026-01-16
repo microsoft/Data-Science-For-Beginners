@@ -41,7 +41,7 @@ AI ਦੇ ਲੋਕਤੰਤਰਿਕਰਨ ਦੇ ਕਾਰਨ, ਵਿਕਾਸ
 
  * [ਸਿਹਤ ਸੇਵਾਵਾਂ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ](https://data-flair.training/blogs/data-science-in-healthcare/) - ਐਪਲੀਕੇਸ਼ਨਾਂ ਨੂੰ ਹਾਈਲਾਈਟ ਕਰਦਾ ਹੈ ਜਿਵੇਂ ਕਿ ਮੈਡੀਕਲ ਇਮੇਜਿੰਗ (ਜਿਵੇਂ ਕਿ MRI, X-Ray, CT-Scan), ਜਿਨੋਮਿਕਸ (DNA ਸਿਕਵੈਂਸਿੰਗ), ਦਵਾਈ ਵਿਕਾਸ (ਖਤਰੇ ਦਾ ਮੁਲਾਂਕਣ, ਸਫਲਤਾ ਦੀ ਪੇਸ਼ਗੂਈ), ਪੇਸ਼ਗੂਈ ਵਿਸ਼ਲੇਸ਼ਣ (ਮਰੀਜ਼ ਦੀ ਦੇਖਭਾਲ ਅਤੇ ਸਪਲਾਈ ਲੌਜਿਸਟਿਕਸ), ਬਿਮਾਰੀ ਟ੍ਰੈਕਿੰਗ ਅਤੇ ਰੋਕਥਾਮ ਆਦਿ।
 
-![ਹਕੀਕਤੀ ਦੁਨੀਆ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ ਦੇ ਐਪਲੀਕੇਸ਼ਨ](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.pa.png) ਚਿੱਤਰ ਸ੍ਰੋਤ: [ਡਾਟਾ ਫਲੇਅਰ: ਡਾਟਾ ਸਾਇੰਸ ਦੇ 6 ਸ਼ਾਨਦਾਰ ਐਪਲੀਕੇਸ਼ਨ](https://data-flair.training/blogs/data-science-applications/)
+![ਹਕੀਕਤੀ ਦੁਨੀਆ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ ਦੇ ਐਪਲੀਕੇਸ਼ਨ](../../../../translated_images/pa/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) ਚਿੱਤਰ ਸ੍ਰੋਤ: [ਡਾਟਾ ਫਲੇਅਰ: ਡਾਟਾ ਸਾਇੰਸ ਦੇ 6 ਸ਼ਾਨਦਾਰ ਐਪਲੀਕੇਸ਼ਨ](https://data-flair.training/blogs/data-science-applications/)
 
 ਇਸ ਚਿੱਤਰ ਵਿੱਚ ਹੋਰ ਖੇਤਰ ਅਤੇ ਡਾਟਾ ਸਾਇੰਸ ਤਕਨੀਕਾਂ ਨੂੰ ਲਾਗੂ ਕਰਨ ਦੇ ਉਦਾਹਰਣ ਦਿਖਾਏ ਗਏ ਹਨ। ਹੋਰ ਐਪਲੀਕੇਸ਼ਨਾਂ ਦੀ ਪੜਚੋਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ? ਹੇਠਾਂ ਦਿੱਤੇ [ਸਮੀਖਿਆ ਅਤੇ ਸਵੈ ਅਧਿਐਨ](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) ਭਾਗ ਨੂੰ ਵੇਖੋ।
 

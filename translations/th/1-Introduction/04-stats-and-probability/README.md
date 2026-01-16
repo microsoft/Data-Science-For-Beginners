@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ทฤษฎีสถิติและความน่าจะเป็นเป็นสองสาขาที่เกี่ยวข้องกันอย่างมากในคณิตศาสตร์ และมีความสำคัญอย่างยิ่งต่อวิทยาศาสตร์ข้อมูล แม้ว่าเราจะสามารถทำงานกับข้อมูลได้โดยไม่ต้องมีความรู้ทางคณิตศาสตร์ลึกซึ้ง แต่การมีความเข้าใจพื้นฐานบางอย่างก็ยังดีกว่า ที่นี่เราจะนำเสนอการแนะนำสั้น ๆ ที่จะช่วยให้คุณเริ่มต้นได้
 
-[![วิดีโอแนะนำ](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.th.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![วิดีโอแนะนำ](../../../../translated_images/th/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [แบบทดสอบก่อนเรียน](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 เราสามารถพูดถึงความน่าจะเป็นของตัวแปรที่อยู่ในช่วงค่าที่กำหนด เช่น P(t<sub>1</sub>≤X<t<sub>2</sub>) ในกรณีนี้ การแจกแจงความน่าจะเป็นจะถูกอธิบายโดย **ฟังก์ชันความหนาแน่นของความน่าจะเป็น** p(x) โดยที่
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.th.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/th/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 การแจกแจงแบบต่อเนื่องที่เป็นแบบสม่ำเสมอเรียกว่า **การแจกแจงแบบสม่ำเสมอต่อเนื่อง** ซึ่งถูกนิยามในช่วงจำกัด ความน่าจะเป็นที่ค่าของ X อยู่ในช่วงที่มีความยาว l จะเป็นสัดส่วนกับ l และเพิ่มขึ้นจนถึง 1
 
@@ -82,11 +82,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 นี่คือกล่องแผนภาพที่แสดงค่าเฉลี่ย ค่าเมดียน และควอร์ไทล์สำหรับข้อมูลของเรา:
 
-![Weight Box Plot](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.th.png)
+![Weight Box Plot](../../../../translated_images/th/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 เนื่องจากข้อมูลของเรามีข้อมูลเกี่ยวกับ **บทบาท** ของผู้เล่นที่แตกต่างกัน เราสามารถสร้างกล่องแผนภาพตามบทบาทได้ - ซึ่งจะช่วยให้เราเข้าใจว่าค่าพารามิเตอร์แตกต่างกันอย่างไรในแต่ละบทบาท ครั้งนี้เราจะพิจารณาส่วนสูง:
 
-![Box plot by role](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.th.png)
+![Box plot by role](../../../../translated_images/th/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 แผนภาพนี้แสดงให้เห็นว่า โดยเฉลี่ยแล้ว ส่วนสูงของผู้เล่นตำแหน่งเบสแรกสูงกว่าส่วนสูงของผู้เล่นตำแหน่งเบสที่สอง ในบทเรียนนี้เราจะเรียนรู้วิธีการทดสอบสมมติฐานนี้อย่างเป็นทางการมากขึ้น และวิธีการแสดงให้เห็นว่าข้อมูลของเรามีความสำคัญทางสถิติในการแสดงผลลัพธ์นี้
 
@@ -94,7 +94,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 เพื่อดูว่าการแจกแจงของข้อมูลของเราเป็นอย่างไร เราสามารถสร้างกราฟที่เรียกว่า **ฮิสโตแกรม** แกน X จะมีจำนวนช่วงน้ำหนักที่แตกต่างกัน (เรียกว่า **bins**) และแกนตั้งจะแสดงจำนวนครั้งที่ตัวอย่างตัวแปรสุ่มอยู่ในช่วงที่กำหนด
 
-![Histogram of real world data](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.th.png)
+![Histogram of real world data](../../../../translated_images/th/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 จากฮิสโตแกรมนี้คุณจะเห็นว่าค่าทั้งหมดกระจุกตัวอยู่รอบ ๆ น้ำหนักเฉลี่ยบางค่า และยิ่งเราออกห่างจากน้ำหนักนั้น - น้ำหนักที่มีค่านั้นจะยิ่งพบได้น้อยลง กล่าวคือ เป็นไปได้น้อยมากที่น้ำหนักของผู้เล่นเบสบอลจะต่างจากน้ำหนักเฉลี่ย ความแปรปรวนของน้ำหนักแสดงถึงขอบเขตที่น้ำหนักมีแนวโน้มที่จะต่างจากค่าเฉลี่ย
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 หากเราสร้างฮิสโตแกรมของตัวอย่างที่สร้างขึ้น เราจะเห็นภาพที่คล้ายกับภาพที่แสดงด้านบน และหากเราเพิ่มจำนวนตัวอย่างและจำนวน bins เราสามารถสร้างภาพการแจกแจงแบบปกติที่ใกล้เคียงกับอุดมคติมากขึ้น:
 
-![Normal Distribution with mean=0 and std.dev=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.th.png)
+![Normal Distribution with mean=0 and std.dev=1](../../../../translated_images/th/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *การแจกแจงแบบปกติที่มีค่าเฉลี่ย=0 และส่วนเบี่ยงเบนมาตรฐาน=1*
 
@@ -231,7 +231,7 @@ array([[1.        , 0.52959196],
 
 ในกรณีของเรา ค่า 0.53 บ่งบอกว่ามีความสัมพันธ์บางอย่างระหว่างน้ำหนักและส่วนสูงของบุคคล เราสามารถสร้าง scatter plot ของค่าหนึ่งกับอีกค่าหนึ่งเพื่อดูความสัมพันธ์ในเชิงภาพ:
 
-![Relationship between weight and height](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.th.png)
+![Relationship between weight and height](../../../../translated_images/th/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > ตัวอย่างเพิ่มเติมเกี่ยวกับความสัมพันธ์และความแปรปรวนร่วมสามารถดูได้ใน [notebook ที่แนบมา](notebook.ipynb)
 

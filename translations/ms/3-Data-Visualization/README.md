@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualisasi
 
-![seekor lebah di atas bunga lavender](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.ms.jpg)
+![seekor lebah di atas bunga lavender](../../../translated_images/ms/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Foto oleh <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> di <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Memvisualkan data adalah salah satu tugas paling penting bagi seorang saintis data. Gambar bernilai 1000 perkataan, dan visualisasi dapat membantu anda mengenal pasti pelbagai aspek menarik dalam data anda seperti lonjakan, nilai luar biasa, pengelompokan, kecenderungan, dan banyak lagi, yang dapat membantu anda memahami cerita yang ingin disampaikan oleh data anda.

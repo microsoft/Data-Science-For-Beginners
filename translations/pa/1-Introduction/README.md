@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ਡਾਟਾ ਸਾਇੰਸ ਦਾ ਪਰਿਚਯ
 
-![ਡਾਟਾ ਦੀ ਕਾਰਵਾਈ](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.pa.jpg)
+![ਡਾਟਾ ਦੀ ਕਾਰਵਾਈ](../../../translated_images/pa/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > ਫੋਟੋ <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ਸਟੀਫਨ ਡਾਸਨ</a> ਦੁਆਰਾ <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ਅਨਸਪਲੈਸ਼</a> 'ਤੇ
   
 ਇਨ੍ਹਾਂ ਪਾਠਾਂ ਵਿੱਚ, ਤੁਸੀਂ ਜਾਣੋਗੇ ਕਿ ਡਾਟਾ ਸਾਇੰਸ ਨੂੰ ਕਿਵੇਂ ਪਰਿਭਾਸ਼ਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ ਉਹ ਨੈਤਿਕ ਵਿਚਾਰ ਜੋ ਇੱਕ ਡਾਟਾ ਸਾਇੰਟਿਸਟ ਨੂੰ ਧਿਆਨ ਵਿੱਚ ਰੱਖਣੇ ਚਾਹੀਦੇ ਹਨ। ਤੁਸੀਂ ਇਹ ਵੀ ਸਿੱਖੋਗੇ ਕਿ ਡਾਟਾ ਨੂੰ ਕਿਵੇਂ ਪਰਿਭਾਸ਼ਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ ਅੰਕੜੇ ਅਤੇ ਸੰਭਾਵਨਾ ਬਾਰੇ ਕੁਝ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕਰੋਗੇ, ਜੋ ਕਿ ਡਾਟਾ ਸਾਇੰਸ ਦੇ ਮੁੱਖ ਅਕਾਦਮਿਕ ਖੇਤਰ ਹਨ।

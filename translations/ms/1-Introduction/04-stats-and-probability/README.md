@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Teori Statistik dan Kebarangkalian adalah dua cabang Matematik yang sangat berkait rapat dan amat relevan dalam Sains Data. Walaupun mungkin untuk bekerja dengan data tanpa pengetahuan matematik yang mendalam, adalah lebih baik untuk memahami sekurang-kurangnya konsep asas. Di sini, kami akan memberikan pengenalan ringkas untuk membantu anda bermula.
 
-[![Video Pengenalan](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.ms.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Video Pengenalan](../../../../translated_images/ms/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Kuiz Pra-Kuliah](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Lebih sukar untuk menerangkan taburan kebarangkalian pemboleh ubah berterusan, d
 
 Kita hanya boleh bercakap tentang kebarangkalian pemboleh ubah jatuh dalam julat nilai tertentu, contohnya P(t<sub>1</sub>≤X<t<sub>2</sub>). Dalam kes ini, taburan kebarangkalian diterangkan oleh **fungsi ketumpatan kebarangkalian** p(x), di mana
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.ms.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/ms/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Analog berterusan bagi taburan seragam dipanggil **seragam berterusan**, yang ditakrifkan pada julat terhingga. Kebarangkalian bahawa nilai X jatuh ke dalam julat panjang l adalah berkadar dengan l, dan meningkat sehingga 1.
 
@@ -82,11 +82,11 @@ Apabila kita menganalisis data dari dunia sebenar, data tersebut selalunya bukan
 
 Berikut ialah plot kotak yang menunjukkan min, median dan kuartil untuk data kita:
 
-![Plot Kotak Berat](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.ms.png)
+![Plot Kotak Berat](../../../../translated_images/ms/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Memandangkan data kita mengandungi maklumat tentang **peranan** pemain yang berbeza, kita juga boleh membuat plot kotak mengikut peranan - ini akan membolehkan kita mendapatkan idea tentang bagaimana nilai parameter berbeza mengikut peranan. Kali ini kita akan mempertimbangkan ketinggian:
 
-![Plot kotak mengikut peranan](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.ms.png)
+![Plot kotak mengikut peranan](../../../../translated_images/ms/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Diagram ini mencadangkan bahawa, secara purata, ketinggian pemain bas pertama lebih tinggi daripada pemain bas kedua. Kemudian dalam pelajaran ini kita akan belajar bagaimana kita boleh menguji hipotesis ini dengan lebih formal, dan bagaimana untuk menunjukkan bahawa data kita adalah signifikan secara statistik untuk membuktikannya.
 
@@ -94,7 +94,7 @@ Diagram ini mencadangkan bahawa, secara purata, ketinggian pemain bas pertama le
 
 Untuk melihat bagaimana taburan data kita, kita boleh melukis graf yang dipanggil **histogram**. Paksi X akan mengandungi bilangan julat berat yang berbeza (dipanggil **bin**), dan paksi menegak akan menunjukkan bilangan kali sampel pemboleh ubah rawak berada dalam julat tertentu.
 
-![Histogram data dunia sebenar](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.ms.png)
+![Histogram data dunia sebenar](../../../../translated_images/ms/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Daripada histogram ini, anda boleh melihat bahawa semua nilai tertumpu di sekitar berat purata tertentu, dan semakin jauh kita dari berat tersebut - semakin sedikit berat dengan nilai tersebut ditemui. Iaitu, sangat tidak mungkin bahawa berat pemain besbol akan sangat berbeza daripada berat purata. Varians berat menunjukkan sejauh mana berat cenderung berbeza daripada purata.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Jika kita melukis histogram sampel yang dijana, kita akan melihat gambar yang sangat serupa dengan yang ditunjukkan di atas. Dan jika kita meningkatkan bilangan sampel dan bilangan bin, kita boleh menghasilkan gambar taburan normal yang lebih hampir kepada ideal:
 
-![Taburan Normal dengan purata=0 dan sisihan piawai=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.ms.png)
+![Taburan Normal dengan purata=0 dan sisihan piawai=1](../../../../translated_images/ms/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Taburan Normal dengan purata=0 dan sisihan piawai=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 Dalam kes kita, nilai 0.53 menunjukkan bahawa terdapat beberapa korelasi antara berat dan tinggi seseorang. Kita juga boleh membuat plot taburan satu nilai terhadap yang lain untuk melihat hubungan secara visual:
 
-![Hubungan antara berat dan tinggi](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.ms.png)
+![Hubungan antara berat dan tinggi](../../../../translated_images/ms/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Lebih banyak contoh korelasi dan kovarians boleh didapati dalam [notebook yang disertakan](notebook.ipynb).
 

@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.pa.png)
+![scatterplot 1](../../../../../translated_images/pa/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 ਹੁਣ, ਸਾਲਾਂ ਦੇ ਦੌਰਾਨ ਸ਼ਹਿਦ ਦੀ ਕੀਮਤ ਕਿਵੇਂ ਵਿਕਸਿਤ ਹੁੰਦੀ ਹੈ, ਇਹ ਦਰਸਾਉਣ ਲਈ ਸ਼ਹਿਦ ਦੇ ਰੰਗ ਦੀ ਸਕੀਮ ਨਾਲ ਉਹੀ ਡਾਟਾ ਦਿਖਾਓ। ਤੁਸੀਂ ਇਹ 'scale_color_gradientn' ਪੈਰਾਮੀਟਰ ਸ਼ਾਮਲ ਕਰਕੇ ਕਰ ਸਕਦੇ ਹੋ ਜੋ ਸਾਲ ਦਰ ਸਾਲ ਬਦਲਾਅ ਦਿਖਾਉਂਦਾ ਹੈ:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.pa.png)
+![scatterplot 2](../../../../../translated_images/pa/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 ਇਸ ਰੰਗ ਸਕੀਮ ਬਦਲਾਅ ਨਾਲ, ਤੁਸੀਂ ਦੇਖ ਸਕਦੇ ਹੋ ਕਿ ਸਾਲਾਂ ਦੇ ਦੌਰਾਨ ਸ਼ਹਿਦ ਦੀ ਕੀਮਤ ਪ੍ਰਤੀ ਪਾਉਂਡ ਵਿੱਚ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਇੱਕ ਮਜ਼ਬੂਤ ​​ਤਰੱਕੀ ਹੈ। ਦਰਅਸਲ, ਜੇ ਤੁਸੀਂ ਡਾਟਾ ਵਿੱਚ ਇੱਕ ਨਮੂਨਾ ਸੈੱਟ ਦੀ ਜਾਂਚ ਕਰੋ (ਉਦਾਹਰਣ ਲਈ, ਅਰੀਜ਼ੋਨਾ ਨੂੰ ਚੁਣੋ) ਤਾਂ ਤੁਸੀਂ ਸਾਲ ਦਰ ਸਾਲ ਕੀਮਤ ਵਿੱਚ ਵਾਧੇ ਦਾ ਪੈਟਰਨ ਦੇਖ ਸਕਦੇ ਹੋ, ਕੁਝ ਛੋਟ ਦੇ ਨਾਲ:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 ਤੁਸੀਂ ਡਾਟ ਦੇ ਆਕਾਰ ਨੂੰ ਹੌਲੀ-ਹੌਲੀ ਵਧਦੇ ਹੋਏ ਦੇਖ ਸਕਦੇ ਹੋ।
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.pa.png)
+![scatterplot 3](../../../../../translated_images/pa/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 ਕੀ ਇਹ ਸਪਲਾਈ ਅਤੇ ਡਿਮਾਂਡ ਦਾ ਸਧਾਰਨ ਮਾਮਲਾ ਹੈ? ਜਿਵੇਂ ਕਿ ਮੌਸਮ ਵਿੱਚ ਬਦਲਾਅ ਅਤੇ ਕਾਲੋਨੀ ਕਾਲਾਪਸ ਦੇ ਕਾਰਨ, ਕੀ ਸਾਲ ਦਰ ਸਾਲ ਖਰੀਦਣ ਲਈ ਘੱਟ ਸ਼ਹਿਦ ਉਪਲਬਧ ਹੈ, ਅਤੇ ਇਸ ਲਈ ਕੀਮਤ ਵਧਦੀ ਹੈ?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 ਜਵਾਬ: ਹਾਂ, ਕੁਝ ਛੋਟਾਂ ਦੇ ਨਾਲ, 2003 ਦੇ ਆਸ-ਪਾਸ:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.pa.png)
+![line chart 1](../../../../../translated_images/pa/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 ਸਵਾਲ: ਖੈਰ, 2003 ਵਿੱਚ ਕੀ ਤੁਸੀਂ ਸ਼ਹਿਦ ਦੀ ਸਪਲਾਈ ਵਿੱਚ ਵੀ ਵਾਧਾ ਦੇਖ ਸਕਦੇ ਹੋ? ਜੇ ਤੁਸੀਂ ਸਾਲ ਦਰ ਸਾਲ ਕੁੱਲ ਉਤਪਾਦਨ ਨੂੰ ਦੇਖੋ ਤਾਂ ਕੀ ਹੋਵੇਗਾ?
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.pa.png)
+![line chart 2](../../../../../translated_images/pa/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 ਜਵਾਬ: ਸੱਚਮੁੱਚ ਨਹੀਂ। ਜੇ ਤੁਸੀਂ ਕੁੱਲ ਉਤਪਾਦਨ ਨੂੰ ਦੇਖੋ, ਤਾਂ ਇਹ ਵਿਸ਼ੇਸ਼ ਸਾਲ ਵਿੱਚ ਵਾਧਾ ਹੋਇਆ ਜਾਪਦਾ ਹੈ, ਹਾਲਾਂਕਿ ਆਮ ਤੌਰ 'ਤੇ ਸ਼ਹਿਦ ਦੇ ਉਤਪਾਦਨ ਦੀ ਮਾਤਰਾ ਇਨ੍ਹਾਂ ਸਾਲਾਂ ਦੌਰਾਨ ਘਟ ਰਹੀ ਹੈ।
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 ਇਸ ਦ੍ਰਿਸ਼ਟੀਕਰਨ ਵਿੱਚ, ਤੁਸੀਂ ਸਾਲ ਦਰ ਸਾਲ ਅਤੇ ਰਾਜ ਦਰ ਰਾਜ ਕਾਲੋਨੀ ਦੀ ਉਪਜ ਅਤੇ ਕਾਲੋਨੀਆਂ ਦੀ ਗਿਣਤੀ ਦੀ ਤੁਲਨਾ ਕਰ ਸਕਦੇ ਹੋ, ਕਾਲਮਾਂ ਲਈ 3 'ਤੇ ਰੈਪ ਸੈਟ ਨਾਲ:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.pa.png)
+![facet grid](../../../../../translated_images/pa/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 ਇਸ ਡਾਟਾਸੈੱਟ ਲਈ, ਸਾਲ ਦਰ ਸਾਲ ਅਤੇ ਰਾਜ ਦਰ ਰਾਜ ਕਾਲੋਨੀਆਂ ਦੀ ਗਿਣਤੀ ਅਤੇ ਉਨ੍ਹਾਂ ਦੀ ਉਪਜ ਦੇ ਸਬੰਧ ਵਿੱਚ ਕੁਝ ਖਾਸ ਦਿਖਾਈ ਨਹੀਂ ਦਿੰਦਾ। ਕੀ ਇਹ ਦੋ ਵੈਰੀਏਬਲਾਂ ਦੇ ਰਿਸ਼ਤੇ ਨੂੰ ਲੱਭਣ ਦਾ ਇੱਕ ਵੱਖਰਾ ਤਰੀਕਾ ਹੈ?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.pa.png)
+![superimposed plots](../../../../../translated_images/pa/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 ਹਾਲਾਂਕਿ 2003 ਦੇ ਆਸ-ਪਾਸ ਕੁਝ ਵੀ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਦਿਖਾਈ ਨਹੀਂ ਦਿੰਦਾ, ਇਹ ਸਾਨੂੰ ਇਸ ਪਾਠ ਨੂੰ ਇੱਕ ਖੁਸ਼ੀਦਾਇਕ ਨੋਟ 'ਤੇ ਖਤਮ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ: ਹਾਲਾਂਕਿ ਕੁੱਲ ਕਾਲੋਨੀਆਂ ਦੀ ਗਿਣਤੀ ਘਟ ਰਹੀ ਹੈ, ਕਾਲੋਨੀਆਂ ਦੀ ਗਿਣਤੀ ਸਥਿਰ ਹੋ ਰਹੀ ਹੈ ਭਾਵੇਂ ਉਨ੍ਹਾਂ ਦੀ ਪ੍ਰਤੀ ਕਾਲੋਨੀ ਉਪਜ ਘਟ ਰਹੀ ਹੈ।
 

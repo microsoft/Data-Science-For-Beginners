@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, sebuah carta pai yang menunjukkan peratusan data ini mengikut dua kelas cendawan ini. Sangat penting untuk mendapatkan susunan label dengan betul, terutamanya di sini, jadi pastikan anda mengesahkan susunan dengan cara array label dibina!
 
-![carta pai](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.ms.png)
+![carta pai](../../../../../translated_images/ms/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Donat!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![carta donat](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.ms.png)
+![carta donat](../../../../../translated_images/ms/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Kod ini menggunakan dua perpustakaan - ggplot2 dan webr. Dengan menggunakan fungsi PieDonut dari perpustakaan webr, kita boleh mencipta carta donat dengan mudah!
 
@@ -169,7 +169,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Menggunakan carta waffle, anda dapat melihat dengan jelas peratusan warna tudung dalam dataset cendawan ini. Menariknya, terdapat banyak cendawan bertudung hijau!
 
-![carta waffle](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.ms.png)
+![carta waffle](../../../../../translated_images/ms/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 Dalam pelajaran ini, anda belajar tiga cara untuk memvisualkan peratusan. Pertama, anda perlu mengelompokkan data anda ke dalam kategori dan kemudian memutuskan cara terbaik untuk memaparkan data - pai, donat, atau waffle. Semua ini menarik dan memberikan pengguna gambaran segera tentang dataset.
 

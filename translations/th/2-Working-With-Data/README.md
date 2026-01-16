@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # การทำงานกับข้อมูล
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.th.jpg)  
+![data love](../../../translated_images/th/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)  
 > ภาพถ่ายโดย <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> บน <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
 
 ในบทเรียนนี้ คุณจะได้เรียนรู้วิธีการต่าง ๆ ในการจัดการ ปรับเปลี่ยน และใช้งานข้อมูลในแอปพลิเคชัน คุณจะได้เรียนรู้เกี่ยวกับฐานข้อมูลเชิงสัมพันธ์และไม่เชิงสัมพันธ์ รวมถึงวิธีการจัดเก็บข้อมูลในฐานข้อมูลเหล่านี้ นอกจากนี้ คุณจะได้เรียนรู้พื้นฐานของการใช้ Python เพื่อจัดการข้อมูล และค้นพบวิธีการหลากหลายที่สามารถใช้ Python ในการจัดการและวิเคราะห์ข้อมูล  

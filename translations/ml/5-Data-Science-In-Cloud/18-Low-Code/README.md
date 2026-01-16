@@ -62,7 +62,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 പ്രോജക്ടുകൾ നിർമ്മിച്ച് പരീക്ഷണങ്ങൾ നടത്തുന്നത് നിങ്ങളുടെ കഴിവുകളും അറിവുകളും പരീക്ഷിക്കാൻ ഏറ്റവും നല്ല മാർഗമാണ്. ഈ പാഠത്തിൽ, ആസ്യൂർ ML സ്റ്റുഡിയോയിൽ ഹാർട്ട് ഫെയില്യർ ആക്രമണങ്ങൾ പ്രവചിക്കുന്ന ഡാറ്റാ സയൻസ് പ്രോജക്ട് നിർമ്മിക്കുന്ന രണ്ട് വ്യത്യസ്ത മാർഗങ്ങൾ പരിശോധിക്കാം: ലോ കോഡ്/നോ കോഡ് വഴി, ആസ്യൂർ ML SDK വഴി, താഴെ കാണുന്ന സ്കീമ പ്രകാരം:
 
-![project-schema](../../../../translated_images/project-schema.736f6e403f321eb48d10242b3f4334dc6ccf0eabef8ff87daf52b89781389fcb.ml.png)
+![project-schema](../../../../translated_images/ml/project-schema.736f6e403f321eb48d10242b3f4334dc6ccf0eabef8ff87daf52b89781389fcb.png)
 
 ഓരോ മാർഗത്തിനും സ്വന്തം ഗുണങ്ങളും ദോഷങ്ങളും ഉണ്ട്. ലോ കോഡ്/നോ കോഡ് വഴി GUI (ഗ്രാഫിക്കൽ യൂസർ ഇന്റർഫേസ്) ഉപയോഗിച്ച് ആരംഭിക്കാൻ എളുപ്പമാണ്, കോഡ് അറിവ് ആവശ്യമില്ല. ഈ രീതിയിൽ പ്രോജക്ടിന്റെ സാധുത വേഗത്തിൽ പരിശോധിക്കാനും POC (പ്രൂഫ് ഓഫ് കോൺസെപ്റ്റ്) സൃഷ്ടിക്കാനും കഴിയും. എന്നാൽ, പ്രോജക്ട് വളരുമ്പോൾ പ്രൊഡക്ഷൻ റെഡിയാക്കേണ്ടതുണ്ടെങ്കിൽ GUI വഴി റിസോഴ്‌സുകൾ സൃഷ്ടിക്കുന്നത് പ്രായോഗികമല്ല. റിസോഴ്‌സുകൾ സൃഷ്ടിക്കുന്നതിൽ നിന്നും മോഡൽ ഡിപ്ലോയ്മെന്റിലേക്കുള്ള എല്ലാ കാര്യങ്ങളും പ്രോഗ്രാമാറ്റിക്കായി ഓട്ടോമേറ്റ് ചെയ്യേണ്ടതുണ്ട്. ആസ്യൂർ ML SDK ഉപയോഗിക്കുന്നതിന്റെ പ്രാധാന്യം ഇവിടെ വരുന്നു.
 
@@ -115,15 +115,15 @@ CO_OP_TRANSLATOR_METADATA:
 1. നിങ്ങളുടെ ആസ്യൂർ സബ്സ്ക്രിപ്ഷനുമായി ബന്ധപ്പെട്ട മൈക്രോസോഫ്റ്റ് ക്രെഡൻഷ്യലുകൾ ഉപയോഗിച്ച് [ആസ്യൂർ പോർട്ടലിൽ](https://ms.portal.azure.com/) സൈൻ ഇൻ ചെയ്യുക.
 2. **＋Create a resource** തിരഞ്ഞെടുക്കുക
    
-   ![workspace-1](../../../../translated_images/workspace-1.ac8694d60b073ed1ae8333d71244dc8a9b3e439d54593724f98f1beefdd27b08.ml.png)
+   ![workspace-1](../../../../translated_images/ml/workspace-1.ac8694d60b073ed1ae8333d71244dc8a9b3e439d54593724f98f1beefdd27b08.png)
 
    മെഷീൻ ലേണിംഗ് തിരയുക, മെഷീൻ ലേണിംഗ് ടൈൽ തിരഞ്ഞെടുക്കുക
 
-   ![workspace-2](../../../../translated_images/workspace-2.ae7c486db8796147075e4a56566aa819827dd6c4c8d18d64590317c3be625f17.ml.png)
+   ![workspace-2](../../../../translated_images/ml/workspace-2.ae7c486db8796147075e4a56566aa819827dd6c4c8d18d64590317c3be625f17.png)
 
    സൃഷ്ടിക്കുക ബട്ടൺ ക്ലിക്ക് ചെയ്യുക
 
-   ![workspace-3](../../../../translated_images/workspace-3.398ca4a5858132cce584db9df10c5a011cd9075eb182e647a77d5cac01771eea.ml.png)
+   ![workspace-3](../../../../translated_images/ml/workspace-3.398ca4a5858132cce584db9df10c5a011cd9075eb182e647a77d5cac01771eea.png)
 
    ക്രമീകരണങ്ങൾ താഴെപോലെ പൂരിപ്പിക്കുക:
    - സബ്സ്ക്രിപ്ഷൻ: നിങ്ങളുടെ ആസ്യൂർ സബ്സ്ക്രിപ്ഷൻ
@@ -135,17 +135,17 @@ CO_OP_TRANSLATOR_METADATA:
    - അപ്ലിക്കേഷൻ ഇൻസൈറ്റ്സ്: നിങ്ങളുടെ വർക്ക്സ്പേസിനായി സൃഷ്ടിക്കപ്പെടുന്ന ഡിഫോൾട്ട് പുതിയ അപ്ലിക്കേഷൻ ഇൻസൈറ്റ്സ് റിസോഴ്‌സ് ശ്രദ്ധിക്കുക
    - കണ്ടെയ്‌നർ രജിസ്ട്രി: ഇല്ല (മോഡൽ ആദ്യമായി കണ്ടെയ്‌നറിൽ ഡിപ്ലോയ് ചെയ്യുമ്പോൾ സ്വയം സൃഷ്ടിക്കും)
 
-    ![workspace-4](../../../../translated_images/workspace-4.bac87f6599c4df63e624fc2608990f965887bee551d9dedc71c687b43b986b6a.ml.png)
+    ![workspace-4](../../../../translated_images/ml/workspace-4.bac87f6599c4df63e624fc2608990f965887bee551d9dedc71c687b43b986b6a.png)
 
    - സൃഷ്ടിക്കുക + അവലോകനം ക്ലിക്ക് ചെയ്ത് പിന്നീട് സൃഷ്ടിക്കുക ബട്ടൺ ക്ലിക്ക് ചെയ്യുക
 3. നിങ്ങളുടെ വർക്ക്സ്പേസ് സൃഷ്ടിക്കപ്പെടുന്നത് കാത്തിരിക്കുക (ചില മിനിറ്റുകൾ എടുക്കാം). ശേഷം പോർട്ടലിൽ അതിലേക്ക് പോകുക. ഇത് മെഷീൻ ലേണിംഗ് ആസ്യൂർ സേവനത്തിലൂടെ കണ്ടെത്താം.
 4. നിങ്ങളുടെ വർക്ക്സ്പേസ് ഓവർവ്യൂ പേജിൽ, ആസ്യൂർ മെഷീൻ ലേണിംഗ് സ്റ്റുഡിയോ ആരംഭിക്കുക (അല്ലെങ്കിൽ പുതിയ ബ്രൗസർ ടാബ് തുറന്ന് https://ml.azure.com-ൽ പോകുക), നിങ്ങളുടെ മൈക്രോസോഫ്റ്റ് അക്കൗണ്ട് ഉപയോഗിച്ച് സൈൻ ഇൻ ചെയ്യുക. ആവശ്യമായാൽ, നിങ്ങളുടെ ആസ്യൂർ ഡയറക്ടറി, സബ്സ്ക്രിപ്ഷൻ, ആസ്യൂർ ML വർക്ക്സ്പേസ് തിരഞ്ഞെടുക്കുക.
    
-![workspace-5](../../../../translated_images/workspace-5.a6eb17e0a5e6420018b08bdaf3755ce977f96f1df3ea363d2476a9dce7e15adb.ml.png)
+![workspace-5](../../../../translated_images/ml/workspace-5.a6eb17e0a5e6420018b08bdaf3755ce977f96f1df3ea363d2476a9dce7e15adb.png)
 
 5. ആസ്യൂർ ML സ്റ്റുഡിയോയിൽ, ഇടത് മുകളിൽ ☰ ഐക്കൺ ടോഗിൾ ചെയ്ത് ഇന്റർഫേസ് ഉള്ള വിവിധ പേജുകൾ കാണുക. ഈ പേജുകൾ ഉപയോഗിച്ച് നിങ്ങളുടെ വർക്ക്സ്പേസ് റിസോഴ്‌സുകൾ നിയന്ത്രിക്കാം.
 
-![workspace-6](../../../../translated_images/workspace-6.8dd81fe841797ee17f8f73916769576260b16c4e17e850d277a49db35fd74a15.ml.png)
+![workspace-6](../../../../translated_images/ml/workspace-6.8dd81fe841797ee17f8f73916769576260b16c4e17e850d277a49db35fd74a15.png)
 
 നിങ്ങൾ ആസ്യൂർ പോർട്ടൽ ഉപയോഗിച്ച് വർക്ക്സ്പേസ് നിയന്ത്രിക്കാം, എന്നാൽ ഡാറ്റാ സയന്റിസ്റ്റുകൾക്കും മെഷീൻ ലേണിംഗ് ഓപ്പറേഷൻസ് എഞ്ചിനീയർമാർക്കും, ആസ്യൂർ ML സ്റ്റുഡിയോ വർക്ക്സ്പേസ് റിസോഴ്‌സുകൾ നിയന്ത്രിക്കാൻ കൂടുതൽ കേന്ദ്രീകൃതമായ യൂസർ ഇന്റർഫേസ് നൽകുന്നു.
 
@@ -193,18 +193,18 @@ Low-priority instance എന്നത് ഇടപെടാവുന്നതാ
 
 മുൻപ് സൃഷ്ടിച്ച [Azure ML workspace](https://ml.azure.com/) ൽ, compute ലേക്ക് പോകുക, നിങ്ങൾ ഇപ്പോൾ ചർച്ച ചെയ്ത വിവിധ കംപ്യൂട്ട് റിസോഴ്‌സുകൾ കാണാൻ കഴിയും (ഉദാ: compute instances, compute clusters, inference clusters, attached compute). ഈ പ്രോജക്ടിനായി, മോഡൽ പരിശീലനത്തിനായി ഒരു compute cluster ആവശ്യമുണ്ട്. സ്റ്റുഡിയോയിൽ, "Compute" മെനുവിൽ ക്ലിക്ക് ചെയ്യുക, തുടർന്ന് "Compute cluster" ടാബിൽ ക്ലിക്ക് ചെയ്ത് "+ New" ബട്ടൺ ക്ലിക്ക് ചെയ്ത് compute cluster സൃഷ്ടിക്കുക.
 
-![22](../../../../translated_images/cluster-1.b78cb630bb543729b11f60c34d97110a263f8c27b516ba4dc47807b3cee5579f.ml.png)
+![22](../../../../translated_images/ml/cluster-1.b78cb630bb543729b11f60c34d97110a263f8c27b516ba4dc47807b3cee5579f.png)
 
 1. നിങ്ങളുടെ ഓപ്ഷനുകൾ തിരഞ്ഞെടുക്കുക: Dedicated vs Low priority, CPU അല്ലെങ്കിൽ GPU, VM വലുപ്പം, കോർ എണ്ണം (ഈ പ്രോജക്ടിനായി ഡിഫോൾട്ട് സെറ്റിംഗുകൾ നിലനിർത്താം).
 2. Next ബട്ടൺ ക്ലിക്ക് ചെയ്യുക.
 
-![23](../../../../translated_images/cluster-2.ea30cdbc9f926bb9e05af3fdbc1f679811c796dc2a6847f935290aec15526e88.ml.png)
+![23](../../../../translated_images/ml/cluster-2.ea30cdbc9f926bb9e05af3fdbc1f679811c796dc2a6847f935290aec15526e88.png)
 
 3. ക്ലസ്റ്ററിന് ഒരു കംപ്യൂട്ട് പേര് നൽകുക
 4. നിങ്ങളുടെ ഓപ്ഷനുകൾ തിരഞ്ഞെടുക്കുക: കുറഞ്ഞ/പരമാവധി നോഡുകളുടെ എണ്ണം, സ്കെയിൽ ഡൗൺ ചെയ്യുന്നതിന് മുമ്പുള്ള ഐഡിൽ സെക്കൻഡുകൾ, SSH ആക്‌സസ്. കുറഞ്ഞ നോഡുകളുടെ എണ്ണം 0 ആണെങ്കിൽ, ക്ലസ്റ്റർ ഐഡിൽ ആയപ്പോൾ പണം ലാഭിക്കും. പരമാവധി നോഡുകളുടെ എണ്ണം കൂടുതലായാൽ പരിശീലനം കുറച്ച് സമയം എടുക്കും. പരമാവധി നോഡുകളുടെ ശുപാർശ 3 ആണ്.
 5. "Create" ബട്ടൺ ക്ലിക്ക് ചെയ്യുക. ഈ ഘട്ടം കുറച്ച് മിനിറ്റുകൾ എടുക്കാം.
 
-![29](../../../../translated_images/cluster-3.8a334bc070ec173a329ce5abd2a9d727542e83eb2347676c9af20f2c8870b3e7.ml.png)
+![29](../../../../translated_images/ml/cluster-3.8a334bc070ec173a329ce5abd2a9d727542e83eb2347676c9af20f2c8870b3e7.png)
 
 അദ്ഭുതം! ഇപ്പോൾ ഒരു Compute cluster ഉണ്ടാകുമ്പോൾ, ഡാറ്റ Azure ML Studio-യിൽ ലോഡ് ചെയ്യേണ്ടതാണ്.
 
@@ -212,15 +212,15 @@ Low-priority instance എന്നത് ഇടപെടാവുന്നതാ
 
 1. മുൻപ് സൃഷ്ടിച്ച [Azure ML workspace](https://ml.azure.com/) ൽ, ഇടത് മെനുവിൽ "Datasets" ക്ലിക്ക് ചെയ്ത് "+ Create dataset" ബട്ടൺ ക്ലിക്ക് ചെയ്ത് ഒരു dataset സൃഷ്ടിക്കുക. "From local files" ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക, മുൻപ് ഡൗൺലോഡ് ചെയ്ത Kaggle dataset തിരഞ്ഞെടുക്കുക.
    
-   ![24](../../../../translated_images/dataset-1.e86ab4e10907a6e9c2a72577b51db35f13689cb33702337b8b7032f2ef76dac2.ml.png)
+   ![24](../../../../translated_images/ml/dataset-1.e86ab4e10907a6e9c2a72577b51db35f13689cb33702337b8b7032f2ef76dac2.png)
 
 2. നിങ്ങളുടെ dataset-ന് ഒരു പേര്, തരം, വിവരണം നൽകുക. Next ക്ലിക്ക് ചെയ്യുക. ഫയലുകളിൽ നിന്ന് ഡാറ്റ അപ്‌ലോഡ് ചെയ്യുക. Next ക്ലിക്ക് ചെയ്യുക.
    
-   ![25](../../../../translated_images/dataset-2.f58de1c435d5bf9ccb16ccc5f5d4380eb2b50affca85cfbf4f97562bdab99f77.ml.png)
+   ![25](../../../../translated_images/ml/dataset-2.f58de1c435d5bf9ccb16ccc5f5d4380eb2b50affca85cfbf4f97562bdab99f77.png)
 
 3. Schema-യിൽ, താഴെപ്പറയുന്ന ഫീച്ചറുകൾക്ക് ഡാറ്റ ടൈപ്പ് Boolean ആയി മാറ്റുക: anaemia, diabetes, high blood pressure, sex, smoking, DEATH_EVENT. Next ക്ലിക്ക് ചെയ്ത് Create ക്ലിക്ക് ചെയ്യുക.
    
-   ![26](../../../../translated_images/dataset-3.58db8c0eb783e89236a02bbce5bb4ba808d081a87d994d5284b1ae59928c95bf.ml.png)
+   ![26](../../../../translated_images/ml/dataset-3.58db8c0eb783e89236a02bbce5bb4ba808d081a87d994d5284b1ae59928c95bf.png)
 
 ശ്രേഷ്ഠം! Dataset സജ്ജമായപ്പോൾ, compute cluster സൃഷ്ടിച്ചതിനുശേഷം, മോഡൽ പരിശീലനം ആരംഭിക്കാം!
 
@@ -231,19 +231,19 @@ Automated machine learning (AutoML) മെഷീൻ ലേണിംഗ് മോ
 
 1. മുൻപ് സൃഷ്ടിച്ച [Azure ML workspace](https://ml.azure.com/) ൽ, ഇടത് മെനുവിൽ "Automated ML" ക്ലിക്ക് ചെയ്ത് നിങ്ങൾ അപ്‌ലോഡ് ചെയ്ത dataset തിരഞ്ഞെടുക്കുക. Next ക്ലിക്ക് ചെയ്യുക.
 
-   ![27](../../../../translated_images/aml-1.67281a85d3a1e2f34eb367b2d0f74e1039d13396e510f363cd8766632106d1ec.ml.png)
+   ![27](../../../../translated_images/ml/aml-1.67281a85d3a1e2f34eb367b2d0f74e1039d13396e510f363cd8766632106d1ec.png)
 
 2. പുതിയ experiment പേര് നൽകുക, target column (DEATH_EVENT) തിരഞ്ഞെടുക്കുക, സൃഷ്ടിച്ച compute cluster തിരഞ്ഞെടുക്കുക. Next ക്ലിക്ക് ചെയ്യുക.
    
-   ![28](../../../../translated_images/aml-2.c9fb9cffb39ccbbe21ab9810ae937195d41a489744e15cff2b8477ed4dcae1ec.ml.png)
+   ![28](../../../../translated_images/ml/aml-2.c9fb9cffb39ccbbe21ab9810ae937195d41a489744e15cff2b8477ed4dcae1ec.png)
 
 3. "Classification" തിരഞ്ഞെടുക്കുക, Finish ക്ലിക്ക് ചെയ്യുക. ഈ ഘട്ടം compute cluster വലുപ്പം അനുസരിച്ച് 30 മിനിറ്റിൽ 1 മണിക്കൂർ വരെ എടുക്കാം.
     
-    ![30](../../../../translated_images/aml-3.a7952e4295f38cc6cdb0c7ed6dc71ea756b7fb5697ec126bc1220f87c5fa9231.ml.png)
+    ![30](../../../../translated_images/ml/aml-3.a7952e4295f38cc6cdb0c7ed6dc71ea756b7fb5697ec126bc1220f87c5fa9231.png)
 
 4. റൺ പൂർത്തിയായ ശേഷം, "Automated ML" ടാബിൽ ക്ലിക്ക് ചെയ്യുക, നിങ്ങളുടെ റൺ തിരഞ്ഞെടുക്കുക, "Best model summary" കാർഡിലെ Algorithm ക്ലിക്ക് ചെയ്യുക.
     
-    ![31](../../../../translated_images/aml-4.7a627e09cb6f16d0aa246059d9faee3d1725cc4258d0c8df15e801f73afc7e2c.ml.png)
+    ![31](../../../../translated_images/ml/aml-4.7a627e09cb6f16d0aa246059d9faee3d1725cc4258d0c8df15e801f73afc7e2c.png)
 
 ഇവിടെ AutoML സൃഷ്ടിച്ച മികച്ച മോഡലിന്റെ വിശദമായ വിവരണം കാണാം. Models ടാബിൽ മറ്റ് മോഡലുകളും പരിശോധിക്കാം. Explanations (preview ബട്ടൺ) ൽ മോഡലുകൾ പരിശോധിക്കാൻ കുറച്ച് സമയം ചെലവഴിക്കുക. നിങ്ങൾ ഉപയോഗിക്കാൻ ആഗ്രഹിക്കുന്ന മോഡൽ തിരഞ്ഞെടുക്കുമ്പോൾ (ഇവിടെ AutoML തിരഞ്ഞെടുത്ത മികച്ച മോഡൽ തിരഞ്ഞെടുക്കും), അതിനെ എങ്ങനെ വിന്യസിക്കാമെന്ന് കാണാം.
 
@@ -254,15 +254,15 @@ Automated machine learning ഇന്റർഫേസ് മികച്ച മോ
 
 മികച്ച മോഡൽ വിവരണത്തിൽ "Deploy" ബട്ടൺ ക്ലിക്ക് ചെയ്യുക.
     
-![deploy-1](../../../../translated_images/deploy-1.ddad725acadc84e34553c3d09e727160faeb32527a9fb8b904c0f99235a34bb6.ml.png)
+![deploy-1](../../../../translated_images/ml/deploy-1.ddad725acadc84e34553c3d09e727160faeb32527a9fb8b904c0f99235a34bb6.png)
 
 15. ഒരു പേര്, വിവരണം, കംപ്യൂട്ട് തരം (Azure Container Instance), authentication സജ്ജമാക്കുക, Deploy ക്ലിക്ക് ചെയ്യുക. ഈ ഘട്ടം പൂർത്തിയാകാൻ ഏകദേശം 20 മിനിറ്റ് എടുക്കാം. വിന്യാസ പ്രക്രിയയിൽ മോഡൽ രജിസ്റ്റർ ചെയ്യൽ, റിസോഴ്‌സുകൾ സൃഷ്ടിക്കൽ, വെബ് സേവനത്തിനായി അവ ക്രമീകരിക്കൽ ഉൾപ്പെടുന്നു. Deploy status കീഴിൽ സ്റ്റാറ്റസ് സന്ദേശം കാണാം. സ്റ്റാറ്റസ് "Healthy" ആണെങ്കിൽ വിന്യസിച്ചും പ്രവർത്തിക്കുന്നുമാണ്.
 
-![deploy-2](../../../../translated_images/deploy-2.94dbb13f239086473aa4bf814342fd40483d136849b080f02bafbb995383940e.ml.png)
+![deploy-2](../../../../translated_images/ml/deploy-2.94dbb13f239086473aa4bf814342fd40483d136849b080f02bafbb995383940e.png)
 
 16. വിന്യസിച്ച ശേഷം, Endpoint ടാബിൽ ക്ലിക്ക് ചെയ്ത് നിങ്ങൾ വിന്യസിച്ച എൻഡ്‌പോയിന്റ് തിരഞ്ഞെടുക്കുക. ഇവിടെ എൻഡ്‌പോയിന്റ് സംബന്ധിച്ച എല്ലാ വിവരങ്ങളും കാണാം.
 
-![deploy-3](../../../../translated_images/deploy-3.fecefef070e8ef3b28e802326d107f61ac4e672d20bf82d05f78d025f9e6c611.ml.png)
+![deploy-3](../../../../translated_images/ml/deploy-3.fecefef070e8ef3b28e802326d107f61ac4e672d20bf82d05f78d025f9e6c611.png)
 
 അദ്ഭുതം! ഇപ്പോൾ ഒരു മോഡൽ വിന്യസിച്ചിരിക്കുന്നു, എൻഡ്‌പോയിന്റ് ഉപഭോഗം ആരംഭിക്കാം.
 
@@ -272,7 +272,7 @@ Automated machine learning ഇന്റർഫേസ് മികച്ച മോ
 
 ഈ സ്ക്രിപ്റ്റ് നിങ്ങളുടെ ലോക്കൽ മെഷീനിൽ നിന്ന് നേരിട്ട് പ്രവർത്തിപ്പിക്കാം, നിങ്ങളുടെ എൻഡ്‌പോയിന്റ് ഉപഭോഗിക്കും.
 
-![35](../../../../translated_images/consumption-1.700abd196452842a020c7d745908637a6e4c5c50494ad1217be80e283e0de154.ml.png)
+![35](../../../../translated_images/ml/consumption-1.700abd196452842a020c7d745908637a6e4c5c50494ad1217be80e283e0de154.png)
 
 ഈ 2 കോഡ് ലൈൻ പരിശോധിക്കുക:
 

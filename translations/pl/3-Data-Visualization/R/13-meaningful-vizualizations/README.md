@@ -47,25 +47,25 @@ W poprzednich lekcjach eksperymentowałeś z tworzeniem różnych interesującyc
 
 Nawet jeśli data scientist starannie dobierze odpowiedni wykres do danych, istnieje wiele sposobów, w jakie dane mogą być przedstawione w sposób wprowadzający w błąd, często kosztem ich wiarygodności. Istnieje wiele przykładów mylących wykresów i infografik!
 
-[![Jak kłamią wykresy autorstwa Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.pl.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
+[![Jak kłamią wykresy autorstwa Alberto Cairo](../../../../../translated_images/pl/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
 > 🎥 Kliknij obrazek powyżej, aby obejrzeć prezentację na temat mylących wykresów
 
 Ten wykres odwraca oś X, aby pokazać coś odwrotnego do prawdy, bazując na dacie:
 
-![zły wykres 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.pl.png)
+![zły wykres 1](../../../../../translated_images/pl/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Ten wykres](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) jest jeszcze bardziej mylący, ponieważ wzrok kieruje się w prawo, sugerując, że liczba przypadków COVID spadła w różnych hrabstwach. W rzeczywistości, jeśli przyjrzysz się dokładnie datom, zauważysz, że zostały one przestawione, aby stworzyć fałszywy trend spadkowy.
 
-![zły wykres 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.pl.jpg)
+![zły wykres 2](../../../../../translated_images/pl/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Ten znany przykład używa koloru ORAZ odwróconej osi Y, aby wprowadzić w błąd: zamiast wniosku, że liczba zgonów z użyciem broni wzrosła po wprowadzeniu przyjaznego broni ustawodawstwa, wzrok zostaje oszukany, by myśleć, że jest odwrotnie:
 
-![zły wykres 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.pl.jpg)
+![zły wykres 3](../../../../../translated_images/pl/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Ten dziwny wykres pokazuje, jak proporcje mogą być zmanipulowane, co prowadzi do komicznego efektu:
 
-![zły wykres 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.pl.jpg)
+![zły wykres 4](../../../../../translated_images/pl/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Porównywanie rzeczy nieporównywalnych to kolejny nieuczciwy trik. Istnieje [świetna strona internetowa](https://tylervigen.com/spurious-correlations) poświęcona 'fałszywym korelacjom', pokazująca 'fakty', takie jak korelacja między wskaźnikiem rozwodów w Maine a spożyciem margaryny. Grupa na Reddicie również zbiera [brzydkie przykłady](https://www.reddit.com/r/dataisugly/top/?t=all) użycia danych.
 
@@ -100,13 +100,13 @@ Oznacz osie, dodaj legendę, jeśli to konieczne, i oferuj podpowiedzi, aby uła
 
 Jeśli Twoje dane są tekstowe i obszerne na osi X, możesz ustawić tekst pod kątem, aby poprawić czytelność. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) oferuje wykresy 3D, jeśli Twoje dane to umożliwiają. Zaawansowane wizualizacje danych można tworzyć za jego pomocą.
 
-![wykresy 3D](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.pl.png)
+![wykresy 3D](../../../../../translated_images/pl/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Animacja i wyświetlanie wykresów 3D
 
 Niektóre z najlepszych wizualizacji danych są dziś animowane. Shirley Wu stworzyła niesamowite wizualizacje za pomocą D3, takie jak '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', gdzie każdy kwiat jest wizualizacją filmu. Innym przykładem jest projekt dla Guardiana 'bussed out', interaktywne doświadczenie łączące wizualizacje z Greensock i D3 oraz artykuł w formacie 'scrollytelling', pokazujący, jak Nowy Jork radzi sobie z problemem bezdomności, wysyłając ludzi poza miasto.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.pl.png)
+![busing](../../../../../translated_images/pl/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: How America Moves its Homeless" z [Guardiana](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Wizualizacje autorstwa Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Chociaż ta lekcja nie wystarczy, aby szczegółowo nauczyć się tych potężny
 
 Ukończysz aplikację internetową, która wyświetli animowany widok tej sieci społecznej. Wykorzystuje ona bibliotekę stworzoną do [wizualizacji sieci](https://github.com/emiliorizzo/vue-d3-network) za pomocą Vue.js i D3. Gdy aplikacja działa, możesz przeciągać węzły na ekranie, aby przemieszczać dane.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.pl.png)
+![liaisons](../../../../../translated_images/pl/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Projekt: Stwórz wykres przedstawiający sieć za pomocą D3.js
 

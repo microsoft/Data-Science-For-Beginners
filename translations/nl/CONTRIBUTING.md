@@ -315,7 +315,7 @@ Neem in je PR-beschrijving op:
   ```
   ````
   
-- Voeg alt-tekst toe aan afbeeldingen: `![Alt-tekst](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.nl.png)`  
+- Voeg alt-tekst toe aan afbeeldingen: `![Alt-tekst](../../translated_images/nl/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Houd de regellengte redelijk (ongeveer 80-100 tekens)  
 
 ### Python

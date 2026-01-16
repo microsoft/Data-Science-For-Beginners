@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # दृश्यात्मकता
 
-![ल्याभेन्डर फूलमा भमरा](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.ne.jpg)
+![ल्याभेन्डर फूलमा भमरा](../../../translated_images/ne/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > फोटो <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">जेन्ना ली</a> द्वारा <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">अनस्प्ल्यास</a> मा
 
 डेटा दृश्यात्मक बनाउनु डेटा वैज्ञानिकको सबैभन्दा महत्त्वपूर्ण कामहरूमध्ये एक हो। एउटा तस्बिरले १००० शब्द बराबरको मूल्य राख्छ, र दृश्यात्मकताले तपाईंलाई तपाईंको डेटाको रोचक पक्षहरू जस्तै उचालो, असामान्य डाटा, समूहहरू, प्रवृत्तिहरू, र अन्य धेरै कुरा पत्ता लगाउन मद्दत गर्न सक्छ, जसले तपाईंको डेटा भन्न खोजिरहेको कथा बुझ्न सहयोग पुर्‍याउँछ।

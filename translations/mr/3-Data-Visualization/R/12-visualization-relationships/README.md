@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.mr.png)
+![scatterplot 1](../../../../../translated_images/mr/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 आता, मधाच्या रंगसंगतीसह वर्षानुवर्षे किंमत कशी बदलत आहे हे दाखवा. तुम्ही 'scale_color_gradientn' पॅरामीटर जोडून वर्षानुवर्षे बदल दाखवू शकता:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.mr.png)
+![scatterplot 2](../../../../../translated_images/mr/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 या रंगसंगती बदलासह, तुम्ही पाहू शकता की मधाच्या प्रति पाउंड किंमतीत वर्षानुवर्षे स्पष्टपणे प्रगती होत आहे. खरंच, जर तुम्ही डेटामधील नमुना सेट तपासला (उदाहरणार्थ, एरिझोना राज्य निवडा) तर तुम्ही वर्षानुवर्षे किंमती वाढण्याचा नमुना पाहू शकता, काही अपवादांसह:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 तुम्ही पाहू शकता की डॉट्सचा आकार हळूहळू वाढत आहे.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.mr.png)
+![scatterplot 3](../../../../../translated_images/mr/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 हे साधे पुरवठा आणि मागणीचे प्रकरण आहे का? हवामान बदल आणि वसाहतींचा नाश यासारख्या घटकांमुळे, वर्षानुवर्षे खरेदीसाठी कमी मध उपलब्ध आहे का, आणि त्यामुळे किंमत वाढत आहे का?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 उत्तर: होय, काही अपवादांसह, विशेषतः 2003 च्या सुमारास:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.mr.png)
+![line chart 1](../../../../../translated_images/mr/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 प्रश्न: ठीक आहे, 2003 मध्ये मधाच्या पुरवठ्यातही वाढ दिसते का? जर तुम्ही वर्षानुवर्षे एकूण उत्पादन पाहिले तर काय?
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.mr.png)
+![line chart 2](../../../../../translated_images/mr/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 उत्तर: तसे नाही. जर तुम्ही एकूण उत्पादन पाहिले तर, त्या विशिष्ट वर्षात ते प्रत्यक्षात वाढलेले दिसते, जरी सामान्यतः मधाचे उत्पादन या वर्षांमध्ये घटत आहे.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 या दृश्यांकनात, तुम्ही वसाहतीप्रति उत्पादन आणि वसाहतींची संख्या वर्षानुवर्षे, राज्यानुसार बाजूने तुलना करू शकता, 3 कॉलम्ससाठी रॅप सेट करून:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.mr.png)
+![facet grid](../../../../../translated_images/mr/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 या डेटासेटसाठी, वसाहतींची संख्या आणि त्यांचे उत्पादन, वर्षानुवर्षे आणि राज्यानुसार काहीही विशेषतः वेगळे दिसत नाही. या दोन व्हेरिएबल्समधील नातेसंबंध शोधण्यासाठी वेगळ्या प्रकारे पाहण्याचा प्रयत्न करता येईल का?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.mr.png)
+![superimposed plots](../../../../../translated_images/mr/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 2003 च्या सुमारास डोळ्याला काहीही वेगळे दिसत नाही, परंतु हे आपल्याला थोड्या आनंददायक नोटवर धडा संपवण्याची परवानगी देते: जरी वसाहतींची संख्या एकूण घटत आहे, तरीही वसाहतींची संख्या स्थिर होत आहे जरी त्यांचे वसाहतीप्रति उत्पादन कमी होत आहे.
 

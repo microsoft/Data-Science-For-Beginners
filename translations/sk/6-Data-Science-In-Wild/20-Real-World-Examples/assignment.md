@@ -22,7 +22,7 @@ Rozhranie Explorer (zobrazené na snímke obrazovky nižšie) vám umožňuje vy
  2. Preskúmajte dataset [Katalóg](https://planetarycomputer.microsoft.com/catalog) – zistite účel každého datasetu.
  3. Použite Explorer – vyberte dataset, ktorý vás zaujíma, zvoľte relevantný dotaz a možnosť vykreslenia.
 
-![Explorer Planetary Computer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.sk.png)
+![Explorer Planetary Computer](../../../../translated_images/sk/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Vaša úloha:`
 Teraz preskúmajte vizualizáciu, ktorá sa zobrazí v prehliadači, a odpovedzte na nasledujúce otázky:

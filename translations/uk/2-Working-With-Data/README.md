@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Робота з даними
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.uk.jpg)
+![data love](../../../translated_images/uk/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Фото від <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> на <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 У цих уроках ви дізнаєтеся про деякі способи управління, обробки та використання даних у додатках. Ви ознайомитеся з реляційними та нереляційними базами даних і тим, як у них можна зберігати дані. Ви вивчите основи роботи з Python для управління даними та відкриєте для себе багато способів використання Python для обробки та аналізу даних.

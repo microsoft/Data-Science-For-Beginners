@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Pengenalan kepada Sains Data
 
-![data in action](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.ms.jpg)
+![data in action](../../../translated_images/ms/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Foto oleh <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> di <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Dalam pelajaran ini, anda akan meneroka bagaimana Sains Data didefinisikan dan mempelajari tentang pertimbangan etika yang perlu diambil kira oleh seorang saintis data. Anda juga akan mempelajari bagaimana data didefinisikan serta sedikit tentang statistik dan kebarangkalian, bidang akademik teras dalam Sains Data.

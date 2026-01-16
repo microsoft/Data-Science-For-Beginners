@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # डेटा सायन्सची ओळख
 
-![डेटा अॅक्शनमध्ये](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.mr.jpg)
+![डेटा अॅक्शनमध्ये](../../../translated_images/mr/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > फोटो <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">स्टीफन डॉसन</a> यांनी Unsplash वर <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">प्रकाशित केला</a>.
 
 या धड्यांमध्ये, तुम्हाला डेटा सायन्स कसे परिभाषित केले जाते हे समजेल आणि डेटा सायंटिस्टने विचारात घ्याव्या लागणाऱ्या नैतिक बाबींबद्दल शिकायला मिळेल. तुम्हाला डेटा कसा परिभाषित केला जातो हे समजेल आणि डेटा सायन्सच्या मुख्य शैक्षणिक शाखा असलेल्या सांख्यिकी आणि संभाव्यता याबद्दल थोडेसे शिकायला मिळेल.

@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![max length per order](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.te.png)
+![max length per order](../../../../../translated_images/te/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 ఇది పక్షుల ఆర్డర్ ప్రకారం శరీర పొడవు యొక్క సాధారణ పంపిణీకి అవలోకనం ఇస్తుంది, కానీ ఇది నిజమైన పంపిణీలను ప్రదర్శించడానికి ఉత్తమ మార్గం కాదు. ఆ పని సాధారణంగా హిస్టోగ్రామ్ సృష్టించడం ద్వారా నిర్వహించబడుతుంది.
 ## హిస్టోగ్రామ్లతో పని చేయడం
@@ -56,7 +56,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![distribution over entire dataset](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.te.png)
+![distribution over entire dataset](../../../../../translated_images/te/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 మీరు చూడగలిగినట్లుగా, ఈ డేటాసెట్‌లో 400+ పక్షులలో ఎక్కువ భాగం వారి గరిష్ట శరీర ద్రవ్యరాశి 2000 కంటే తక్కువ పరిధిలో ఉంటాయి. `bins` పారామీటర్‌ను 30 లాంటి ఎక్కువ సంఖ్యకు మార్చి డేటా గురించి మరింత అవగాహన పొందండి:
 
@@ -64,7 +64,7 @@ ggplot(data = birds_filtered, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![distribution-30bins](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.te.png)
+![distribution-30bins](../../../../../translated_images/te/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 ఈ చార్ట్ పంపిణీని మరింత సూక్ష్మంగా చూపిస్తుంది. ఎడమవైపు తక్కువ వంకరగా ఉన్న చార్ట్‌ను మీరు ఇచ్చిన పరిధిలో మాత్రమే డేటాను ఎంచుకోవడం ద్వారా సృష్టించవచ్చు:
 
@@ -76,7 +76,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![filtered histogram](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.te.png)
+![filtered histogram](../../../../../translated_images/te/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ మరిన్ని ఫిల్టర్లు మరియు డేటా పాయింట్లను ప్రయత్నించండి. డేటా యొక్క పూర్తి పంపిణీని చూడటానికి, లేబుల్ చేయబడిన పంపిణీలను చూపించడానికి `['MaxBodyMass']` ఫిల్టర్‌ను తీసివేయండి.
 
@@ -90,7 +90,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 ఈ రెండు అంశాల మధ్య అంచనా వేయదగిన సంబంధం కనిపిస్తుంది, ఒక ప్రత్యేకంగా బలమైన సమీకరణ బిందువు తో:
 
-![2d plot](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.te.png)
+![2d plot](../../../../../translated_images/te/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 హిస్టోగ్రామ్లు సంఖ్యాత్మక డేటాకు డిఫాల్ట్‌గా బాగా పనిచేస్తాయి. మీరు టెక్స్ట్ డేటా ప్రకారం పంపిణీలను చూడాలనుకుంటే ఏమవుతుంది?
 ## టెక్స్ట్ డేటా ఉపయోగించి పంపిణీలను అన్వేషించండి
@@ -121,7 +121,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![wingspan and conservation collation](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.te.png)
+![wingspan and conservation collation](../../../../../translated_images/te/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 కనిష్ట రెక్కపట్టు మరియు సంరక్షణ స్థితి మధ్య మంచి సంబంధం కనిపించట్లేదు. ఈ పద్ధతిని ఉపయోగించి డేటాసెట్ యొక్క ఇతర అంశాలను పరీక్షించండి. మీరు ఏదైనా సంబంధం కనుగొంటారా?
 
@@ -135,7 +135,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![density plot](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.te.png)
+![density plot](../../../../../translated_images/te/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 మీరు చూడగలరు, ఈ ప్లాట్ కనిష్ట రెక్కపట్టు డేటాకు ముందు ప్లాట్‌ను ప్రతిధ్వనిస్తుంది; ఇది కేవలం కొంచెం మృదువుగా ఉంటుంది. మీరు రెండవ చార్ట్‌లో ఉన్న ఆ జాగ్గీడ్ MaxBodyMass లైన్‌ను మృదువుగా చేయాలనుకుంటే, ఈ పద్ధతిని ఉపయోగించి దాన్ని బాగా సృష్టించవచ్చు:
 
@@ -143,7 +143,7 @@ ggplot(data = birds_filtered_1, aes(x = MinWingspan)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![bodymass density](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.te.png)
+![bodymass density](../../../../../translated_images/te/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 మీకు చాలా మృదువుగా కాకుండా కొంత మృదువుగా ఉండే లైన్ కావాలంటే, `adjust` పారామీటర్‌ను సవరించండి:
 
@@ -151,7 +151,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![less smooth bodymass](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.te.png)
+![less smooth bodymass](../../../../../translated_images/te/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ ఈ రకమైన ప్లాట్ కోసం అందుబాటులో ఉన్న పారామీటర్ల గురించి చదవండి మరియు ప్రయోగాలు చేయండి!
 
@@ -161,7 +161,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![bodymass per order](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.te.png)
+![bodymass per order](../../../../../translated_images/te/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 సవాలు
 

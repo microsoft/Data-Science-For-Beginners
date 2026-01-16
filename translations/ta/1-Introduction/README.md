@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # தரவியல் அறிவியலுக்கான அறிமுகம்
 
-![தரவு செயல்பாட்டில்](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.ta.jpg)
+![தரவு செயல்பாட்டில்](../../../translated_images/ta/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > புகைப்படம் <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> மூலம் <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> இல்
 
 இந்த பாடங்களில், தரவியல் அறிவியல் எப்படி வரையறுக்கப்படுகிறது என்பதை நீங்கள் கண்டறிந்து, ஒரு தரவியல் விஞ்ஞானி கவனிக்க வேண்டிய நெறிமுறைகள் பற்றிய அறிமுகத்தை பெறுவீர்கள். மேலும், தரவு எப்படி வரையறுக்கப்படுகிறது என்பதைப் பற்றி அறிந்து, தரவியல் அறிவியலின் முக்கிய கல்வி துறைகள் ஆகிய புள்ளியியல் மற்றும் சாத்தியக்கூறுகள் பற்றிய அடிப்படைகளைப் பற்றி சில தகவல்களைப் பெறுவீர்கள்.

@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Рад са Python-ом - _Скетч од [@nitya](https://twitter.com/nitya)_                        |
 
-[![Уводни видео](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.sr.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Уводни видео](../../../../translated_images/sr/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Иако базе података нуде веома ефикасне начине за складиштење података и њихово претраживање помоћу језика за упите, најфлексибилнији начин обраде података је писање сопственог програма за манипулацију подацима. У многим случајевима, коришћење упита у бази података би било ефикасније. Међутим, у неким случајевима када је потребна сложенија обрада података, то се не може лако урадити помоћу SQL-а. 
 Обрада података може се програмирати у било ком програмском језику, али постоје одређени језици који су на вишем нивоу када је у питању рад са подацима. Научници који се баве подацима обично преферирају један од следећих језика:
@@ -75,7 +75,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![График временског низа](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.sr.png)
+![График временског низа](../../../../translated_images/sr/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Сада претпоставимо да сваке недеље организујемо журку за пријатеље и узимамо додатних 10 пакета сладоледа за журку. Можемо креирати други низ, индексиран по недељама, да то покажемо:
 ```python
@@ -86,7 +86,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![График временског низа](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.sr.png)
+![График временског низа](../../../../translated_images/sr/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Напомена** да не користимо једноставну синтаксу `total_items+additional_items`. Да јесмо, добили бисмо много `NaN` (*Not a Number*) вредности у резултујућем низу. То је зато што недостају вредности за неке тачке индекса у низу `additional_items`, а додавање `NaN` било чему резултира у `NaN`. Због тога морамо да наведемо параметар `fill_value` током сабирања.
 
@@ -95,7 +95,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Месечни просеци временског низа](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.sr.png)
+![Месечни просеци временског низа](../../../../translated_images/sr/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -221,7 +221,7 @@ Data Scientist често мора да истражује податке, па 
 
 Пошто желимо да покажемо како се ради са подацима, позивамо вас да отворите [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) и прочитате га од почетка до краја. Такође можете извршавати ћелије и решавати неке изазове које смо оставили за вас на крају.
 
-![Ширење COVID-а](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.sr.png)
+![Ширење COVID-а](../../../../translated_images/sr/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Ако не знате како да покренете код у Jupyter Notebook-у, погледајте [овај чланак](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -243,7 +243,7 @@ Data Scientist често мора да истражује податке, па 
 
 Отворите [`notebook-papers.ipynb`](notebook-papers.ipynb) и прочитајте га од почетка до краја. Такође можете извршавати ћелије и решавати неке изазове које смо оставили за вас на крају.
 
-![Лечење COVID-а](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.sr.png)
+![Лечење COVID-а](../../../../translated_images/sr/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Обрада сликовних података
 

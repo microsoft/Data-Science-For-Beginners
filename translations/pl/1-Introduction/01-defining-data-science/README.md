@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Film o definicji Data Science](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.pl.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Film o definicji Data Science](../../../../translated_images/pl/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ Jeśli chcemy podejść do tego jeszcze bardziej szczegółowo, możemy zestawi�
 
 W tym wyzwaniu spróbujemy znaleźć koncepcje związane z dziedziną Data Science, analizując teksty. Weźmiemy artykuł z Wikipedii na temat Data Science, pobierzemy i przetworzymy tekst, a następnie stworzymy chmurę słów, taką jak ta:
 
-![Chmura słów dla Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.pl.png)
+![Chmura słów dla Data Science](../../../../translated_images/pl/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Odwiedź [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore'), aby zapoznać się z kodem. Możesz również uruchomić kod i zobaczyć, jak w czasie rzeczywistym wykonuje wszystkie transformacje danych.
 

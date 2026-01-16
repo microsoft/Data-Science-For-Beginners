@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![தரவியல் அறிவியல் வீடியோ வரையறை](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.ta.png)](https://youtu.be/beZ7Mb_oz9I)
+[![தரவியல் அறிவியல் வீடியோ வரையறை](../../../../translated_images/ta/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [முன்-வகுப்பு வினாடி வினா](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -141,7 +141,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 இந்த சவாலில், டேட்டா சயின்ஸ் துறைக்கு தொடர்புடைய கருத்துக்களை உரைகளைக் கொண்டு கண்டறிய முயற்சிக்கிறோம். டேட்டா சயின்ஸ் பற்றிய விக்கிபீடியா கட்டுரையை எடுத்து, உரையை பதிவிறக்கம் செய்து செயல்படுத்தி, பின்னர் கீழே உள்ளதைப் போன்ற ஒரு வார்த்தை மேகத்தை உருவாக்குவோம்:
 
-![டேட்டா சயின்ஸ் வார்த்தை மேகம்](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.ta.png)
+![டேட்டா சயின்ஸ் வார்த்தை மேகம்](../../../../translated_images/ta/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 குறியீட்டை படிக்க [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') ஐ பார்வையிடவும். நீங்கள் குறியீட்டை இயக்கி, அது நேரடி தரவுப் பரிமாற்றங்களை எவ்வாறு செயல்படுத்துகிறது என்பதைப் பார்க்கலாம்.
 

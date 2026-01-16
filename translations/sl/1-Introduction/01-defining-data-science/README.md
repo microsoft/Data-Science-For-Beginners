@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Video o definiranju podatkovne znanosti](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.sl.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Video o definiranju podatkovne znanosti](../../../../translated_images/sl/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Predavanje - kviz](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ Ko začnemo analizirati rezultate testov z več izbirami, lahko poskusimo ugotov
 
 V tem izzivu bomo poskušali najti koncepte, povezane s področjem podatkovne znanosti, tako da bomo analizirali besedila. Vzeli bomo članek iz Wikipedije o podatkovni znanosti, prenesli in obdelali besedilo ter nato ustvarili oblak besed, kot je ta:
 
-![Oblak besed za podatkovno znanost](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.sl.png)
+![Oblak besed za podatkovno znanost](../../../../translated_images/sl/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Obiščite [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore'), da si ogledate kodo. Prav tako lahko zaženete kodo in vidite, kako v realnem času izvaja vse transformacije podatkov.
 

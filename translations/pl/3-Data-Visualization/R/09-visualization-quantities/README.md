@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Tutaj instalujesz pakiet `ggplot2`, a następnie importujesz go do przestrzeni roboczej za pomocą polecenia `library("ggplot2")`. Aby wykreślić dowolny wykres w ggplot, używana jest funkcja `ggplot()`, w której określasz zestaw danych, zmienne x i y jako atrybuty. W tym przypadku używamy funkcji `geom_line()`, ponieważ chcemy wykreślić wykres liniowy.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.pl.png)
+![MaxWingspan-lineplot](../../../../../translated_images/pl/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Co zauważasz od razu? Wydaje się, że jest co najmniej jeden odstający wynik - to całkiem spora rozpiętość skrzydeł! Rozpiętość skrzydeł ponad 2000 centymetrów to ponad 20 metrów - czy w Minnesocie żyją pterodaktyle? Zbadajmy to.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Określamy kąt w `theme` i ustawiamy etykiety osi x i y w `xlab()` i `ylab()` odpowiednio. `ggtitle()` nadaje nazwę wykresowi.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.pl.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/pl/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Nawet przy obrocie etykiet o 45 stopni jest ich zbyt wiele, aby je odczytać. Spróbujmy innej strategii: oznacz tylko te odstające wyniki i ustaw etykiety wewnątrz wykresu. Możesz użyć wykresu punktowego, aby zrobić więcej miejsca na etykiety:
 
@@ -100,7 +100,7 @@ Co tu się dzieje? Użyłeś funkcji `geom_point()`, aby wykreślić punkty. Dzi
 
 Co odkrywasz?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.pl.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/pl/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Filtrowanie danych
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Stworzyliśmy nową ramkę danych `birds_filtered`, a następnie wykreśliliśmy wykres punktowy. Po odfiltrowaniu odstających wyników dane są teraz bardziej spójne i zrozumiałe.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.pl.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/pl/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Teraz, gdy mamy czystszy zestaw danych przynajmniej pod względem rozpiętości skrzydeł, odkryjmy więcej o tych ptakach.
 
@@ -161,7 +161,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 W poniższym fragmencie instalujemy pakiety [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) i [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0), aby pomóc w manipulacji i grupowaniu danych w celu wykreślenia wykresu słupkowego. Najpierw grupujesz dane według `Category` ptaków, a następnie podsumowujesz kolumny `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Następnie wykreślasz wykres słupkowy za pomocą pakietu `ggplot2`, określając kolory dla różnych kategorii i etykiety.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.pl.png)
+![Stacked bar chart](../../../../../translated_images/pl/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Ten wykres słupkowy jest jednak nieczytelny, ponieważ jest zbyt wiele niepogrupowanych danych. Musisz wybrać tylko dane, które chcesz wykreślić, więc spójrzmy na długość ptaków w zależności od ich kategorii.
 
@@ -176,7 +176,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Najpierw liczysz unikalne wartości w kolumnie `Category`, a następnie sortujesz je w nowej ramce danych `birds_count`. Te posortowane dane są następnie uwzględniane na tym samym poziomie, aby były wykreślone w uporządkowany sposób. Korzystając z `ggplot2`, wykreślasz dane na wykresie słupkowym. Funkcja `coord_flip()` wykreśla poziome słupki.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.pl.png)
+![category-length](../../../../../translated_images/pl/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Ten wykres słupkowy pokazuje dobry widok liczby ptaków w każdej kategorii. Na pierwszy rzut oka widać, że największa liczba ptaków w tym regionie należy do kategorii Kaczki/Gęsi/Wodnopławy. Minnesota to "kraina 10 000 jezior", więc to nie jest zaskakujące!
 
@@ -199,7 +199,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Grupujemy dane `birds_filtered` według `Category`, a następnie wykreślamy wykres słupkowy.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.pl.png)
+![comparing data](../../../../../translated_images/pl/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Nic zaskakującego tutaj: kolibry mają najmniejszą MaxLength w porównaniu do pelikanów czy gęsi. Dobrze, gdy dane mają sens logiczny!
 
@@ -211,7 +211,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.pl.png)
+![super-imposed values](../../../../../translated_images/pl/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Wyzwanie
 

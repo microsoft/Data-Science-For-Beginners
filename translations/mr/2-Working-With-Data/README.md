@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # डेटा सोबत काम करणे
 
-![डेटा प्रेम](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.mr.jpg)
+![डेटा प्रेम](../../../translated_images/mr/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > फोटो <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">अलेक्झांडर सिन</a> यांनी Unsplash वर <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> वर दिला आहे
   
 या धड्यांमध्ये, तुम्ही डेटा व्यवस्थापित करणे, बदलणे आणि अनुप्रयोगांमध्ये वापरण्याचे काही मार्ग शिकाल. तुम्ही रिलेशनल आणि नॉन-रिलेशनल डेटाबेसबद्दल शिकाल आणि त्यामध्ये डेटा कसा संग्रहित केला जाऊ शकतो हे समजून घ्याल. तुम्ही डेटा व्यवस्थापित करण्यासाठी Python सोबत काम करण्याचे मूलभूत तत्त्व शिकाल आणि Python चा वापर करून डेटा व्यवस्थापित आणि शोधण्यासाठी असलेल्या अनेक पद्धती शोधाल. 

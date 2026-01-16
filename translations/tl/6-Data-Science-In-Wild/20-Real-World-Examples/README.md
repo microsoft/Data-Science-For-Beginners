@@ -41,7 +41,7 @@ Dahil sa democratization ng AI, mas madali na ngayon para sa mga developer na ma
 
  * [Data Science sa Healthcare](https://data-flair.training/blogs/data-science-in-healthcare/) - binibigyang-diin ang mga aplikasyon tulad ng medical imaging (hal., MRI, X-Ray, CT-Scan), genomics (DNA sequencing), pagbuo ng gamot (pagtatasa ng panganib, prediksyon ng tagumpay), predictive analytics (pangangalaga sa pasyente at logistics ng suplay), pagsubaybay at pag-iwas sa sakit, atbp.
 
-![Mga Aplikasyon ng Data Science sa Tunay na Mundo](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.tl.png) Kredito ng Imahe: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Mga Aplikasyon ng Data Science sa Tunay na Mundo](../../../../translated_images/tl/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Kredito ng Imahe: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Ipinapakita ng larawan ang iba pang mga domain at halimbawa ng paggamit ng mga teknik sa data science. Gusto mo bang tuklasin ang iba pang aplikasyon? Tingnan ang seksyong [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) sa ibaba.
 

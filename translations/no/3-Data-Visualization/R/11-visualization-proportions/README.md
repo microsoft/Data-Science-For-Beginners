@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, et kakediagram som viser proporsjonene av disse dataene basert på de to klassene av sopp. Det er ganske viktig å få rekkefølgen på etikettene riktig, spesielt her, så sørg for å verifisere rekkefølgen etikettarrayet er bygget med!
 
-![kakediagram](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.no.png)
+![kakediagram](../../../../../translated_images/no/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Smultringer!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![smultringdiagram](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.no.png)
+![smultringdiagram](../../../../../translated_images/no/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Denne koden bruker de to bibliotekene - ggplot2 og webr. Ved å bruke PieDonut-funksjonen i webr-biblioteket kan vi enkelt lage et smultringdiagram!
 
@@ -169,7 +169,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Ved å bruke et vaffeldiagram kan du tydelig se proporsjonene av hattfarger i dette soppdatasettet. Interessant nok er det mange sopper med grønne hatter!
 
-![vaffeldiagram](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.no.png)
+![vaffeldiagram](../../../../../translated_images/no/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 I denne leksjonen lærte du tre måter å visualisere proporsjoner på. Først må du gruppere dataene dine i kategorier og deretter bestemme hvilken som er den beste måten å vise dataene på - kake, smultring eller vaffel. Alle er smakfulle og gir brukeren et øyeblikkelig innblikk i et datasett.
 

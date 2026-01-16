@@ -33,7 +33,7 @@ Microsoft இல் உள்ள Azure Cloud Advocates தங்கள் 10-வ
 **🙏 சிறப்பு நன்றி 🙏 எங்கள் [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) ஆசிரியர்கள், விமர்சகர்கள் மற்றும் உள்ளடக்க பங்களிப்பாளர்களுக்கு,** குறிப்பாக Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
-|![ஸ்கெட்ச்நோட் எழுதியவர் @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.ta.png)|
+|![ஸ்கெட்ச்நோட் எழுதியவர் @sketchthedocs https://sketchthedocs.dev](../../translated_images/ta/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.png)|
 |:---:|
 | ஆரம்பநிலை தரவு அறிவியல் - _ஸ்கெட்ச்நோட் எழுதியவர் [@nitya](https://twitter.com/nitya)_ |
 
@@ -52,7 +52,7 @@ Microsoft இல் உள்ள Azure Cloud Advocates தங்கள் 10-வ
 
 18 - 30 செப்டம்பர், 2025 இடையே நடைபெறும், AI உடன் கற்கும் தொடர் நிகழ்ச்சியில் நாங்கள் ஒரு தொடர்ச்சியான Discord செயற்பாட்டை நடத்துகிறோம், மேலும் அறிந்து எங்கள் [Learn with AI Series](https://aka.ms/learnwithai/discord) இல் சேருங்கள். நீங்கள் Data Science க்காக GitHub Copilot பயன்படுத்துவதற்கான குறிப்புகள் மற்றும் உத்திகளைக் பெறுவீர்கள்.
 
-![AI உடன் கற்கும் தொடர்](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.ta.jpg)
+![AI உடன் கற்கும் தொடர்](../../translated_images/ta/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.jpg)
 
 # நீங்களா ஒரு மாணவர்?
 
@@ -132,7 +132,7 @@ Microsoft இல் உள்ள Azure Cloud Advocates தங்கள் 10-வ
 ## பாடங்கள்
 
 
-|![ ஸ்கெட்ச்னோட் @sketchthedocs எழுதியவர் https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.ta.png)|
+|![ ஸ்கெட்ச்னோட் @sketchthedocs எழுதியவர் https://sketchthedocs.dev](../../translated_images/ta/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.png)|
 |:---:|
 | தரவு அறிவியல் ஆரம்பத்திற்கான வரைபடம் - _ஸ்கெட்ச்னோட் by [@nitya](https://twitter.com/nitya)_ |
 

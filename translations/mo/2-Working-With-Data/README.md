@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 資料處理
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.mo.jpg)  
+![data love](../../../translated_images/mo/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)  
 > 照片由 <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> 提供，來自 <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 在這些課程中，您將學習一些管理、操作和應用資料的方法。您將了解關聯式和非關聯式資料庫，以及資料如何存儲於其中。您還會學習使用 Python 管理資料的基礎知識，並探索使用 Python 管理和挖掘資料的多種方式。

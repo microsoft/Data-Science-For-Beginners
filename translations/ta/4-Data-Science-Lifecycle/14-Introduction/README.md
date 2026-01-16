@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 இந்த பாடம் வாழ்க்கைச் சுழற்சியின் 3 பகுதிகளை மையமாகக் கொண்டுள்ளது: தரவுகளைப் பெறுதல், செயலாக்கம் மற்றும் பராமரிப்பு.
 
-![தரவியல் அறிவியல் வாழ்க்கைச் சுழற்சியின் வரைபடம்](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.ta.jpg)
+![தரவியல் அறிவியல் வாழ்க்கைச் சுழற்சியின் வரைபடம்](../../../../translated_images/ta/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/) எடுத்த படம்
 
 ## தரவுகளைப் பெறுதல்
@@ -98,7 +98,7 @@ Here’s some things that a team may do with security in mind:
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![Team Data Science Lifecycle](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.ta.png) | ![Data Science Process Alliance Image](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.ta.png) |
+|![Team Data Science Lifecycle](../../../../translated_images/ta/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Data Science Process Alliance Image](../../../../translated_images/ta/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Image by [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Image by [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [பாடத்திற்குப் பின் வினாடி வினா](https://ff-quizzes.netlify.app/en/ds/quiz/27)

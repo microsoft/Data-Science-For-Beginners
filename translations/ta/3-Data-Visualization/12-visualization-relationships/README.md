@@ -51,7 +51,7 @@ honey.head()
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.ta.png)
+![scatterplot 1](../../../../translated_images/ta/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 இப்போது, ஆண்டுதோறும் தேனின் விலை எப்படி மாறுகிறது என்பதை காட்ட தேன் நிறத்துடன் கூடிய ஒரு வண்ணத் திட்டத்தை பயன்படுத்துங்கள். இதை ஆண்டுதோறும் மாற்றத்தை காட்ட 'hue' அளவுருவைச் சேர்த்தால் செய்யலாம்:
 
@@ -60,7 +60,7 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.ta.png)
+![scatterplot 2](../../../../translated_images/ta/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 இந்த வண்ணத் திட்ட மாற்றத்துடன், ஆண்டுகளின் போக்கில் தேனின் ஒரு பவுனுக்கு விலை அதிகரித்துள்ளது என்பது தெளிவாக தெரிகிறது. உண்மையில், தரவுகளில் ஒரு மாதிரியைப் பார்த்தால் (உதாரணமாக, அரிசோனா மாநிலத்தை எடுத்துக்கொள்ளுங்கள்), சில விதிவிலக்குகளைத் தவிர, ஆண்டுதோறும் விலை அதிகரிக்கும் முறைபாட்டை நீங்கள் காணலாம்:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 புள்ளிகளின் அளவு تدريجமாக அதிகரிப்பதை நீங்கள் காணலாம்.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.ta.png)
+![scatterplot 3](../../../../translated_images/ta/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 இது ஒரு எளிய வழங்கல் மற்றும் தேவைச் சூழல் ஆக இருக்கிறதா? காலநிலை மாற்றம் மற்றும் தேன்கூட்ட அழிவு போன்ற காரணங்களால், ஆண்டுதோறும் வாங்குவதற்கு குறைவான தேன் கிடைக்கிறதா, எனவே விலை அதிகரிக்கிறதா?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 பதில்: ஆம், 2003 ஆம் ஆண்டின் சுற்றியுள்ள சில விதிவிலக்குகளுடன்:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.ta.png)
+![line chart 1](../../../../translated_images/ta/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Seaborn தரவுகளை ஒரு கோட்டில் தொகுத்து, "ஒவ்வொரு x மதிப்பில் பல அளவீடுகளை சராசரியாகக் காட்டுகிறது மற்றும் சராசரியின் 95% நம்பகத்தன்மை இடைவெளியை வரைபடத்தில் காட்டுகிறது". [மூலம்](https://seaborn.pydata.org/tutorial/relational.html). இந்த நேரம் எடுத்துக்கொள்ளும் செயல்பாட்டை `ci=None` சேர்த்து முடக்கலாம்.
 
@@ -114,7 +114,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.ta.png)
+![line chart 2](../../../../translated_images/ta/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 பதில்: அவ்வளவாக இல்லை. மொத்த உற்பத்தியைப் பார்த்தால், அந்த குறிப்பிட்ட ஆண்டில் அது அதிகரித்தது போல் தெரிகிறது, ஆனால் பொதுவாக, இந்த ஆண்டுகளில் உற்பத்தி குறைந்து கொண்டிருக்கிறது.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 இந்த காட்சிப்படுத்தலில், ஒவ்வொரு ஆண்டும் ஒவ்வொரு மாநிலத்திலும் ஒவ்வொரு தேன்கூட்டத்திற்கான விளைச்சல் மற்றும் தேன்கூட்டங்களின் எண்ணிக்கையை ஒப்பிடலாம், 3 க்கான நெடுவரிசை அமைப்புடன்:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.ta.png)
+![facet grid](../../../../translated_images/ta/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 இந்த தரவுத்தொகுப்பில், ஆண்டுதோறும் மற்றும் மாநிலத்திற்கும் தேன்கூட்டங்களின் எண்ணிக்கை மற்றும் அவற்றின் விளைச்சலுடன் தொடர்புடைய எந்தவொரு விஷயமும் குறிப்பிடத்தக்கதாகத் தெரியவில்லை. இந்த இரண்டு மாறிகளுக்கு இடையேயான தொடர்பை கண்டறிய வேறு வழி இருக்கிறதா?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.ta.png)
+![superimposed plots](../../../../translated_images/ta/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 2003 ஆம் ஆண்டின் சுற்றியுள்ள எந்தவொரு விஷயமும் கண்களுக்கு தெளிவாகத் தெரியவில்லை, ஆனால் இது இந்த பாடத்தை ஒரு சிறிய மகிழ்ச்சியான குறிப்பில் முடிக்க அனுமதிக்கிறது: தேன்கூட்டங்களின் எண்ணிக்கை குறைந்து கொண்டிருப்பதுடன், அவற்றின் விளைச்சல் குறைந்தாலும், தேன்கூட்டங்களின் எண்ணிக்கை நிலைத்திருக்கிறது.
 

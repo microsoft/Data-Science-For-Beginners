@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualiseringar
 
-![en bi på en lavendelblomma](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.sv.jpg)
+![en bi på en lavendelblomma](../../../translated_images/sv/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Foto av <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> på <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Att visualisera data är en av de viktigaste uppgifterna för en dataanalytiker. Bilder säger mer än tusen ord, och en visualisering kan hjälpa dig att identifiera olika intressanta delar av din data, såsom toppar, avvikelser, grupperingar, tendenser och mycket mer, som kan hjälpa dig att förstå berättelsen din data försöker förmedla.

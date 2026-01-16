@@ -22,7 +22,7 @@ Explorer-gränssnittet (visat i skärmbilden nedan) låter dig välja en dataset
  2. Utforska datasetens [Katalog](https://planetarycomputer.microsoft.com/catalog) - lär dig syftet med varje dataset.
  3. Använd Explorer - välj en dataset som intresserar dig, välj en relevant fråga och ett renderingsalternativ.
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.sv.png)
+![The Planetary Computer Explorer](../../../../translated_images/sv/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Din uppgift:`
 Studera nu visualiseringen som renderas i webbläsaren och svara på följande:

@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Cloud တွင် ဒေတာသိပ္ပံ
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.my.jpg)
+![cloud-picture](../../../translated_images/my/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > ဓာတ်ပုံကို [Jelleke Vanooteghem](https://unsplash.com/@ilumire) မှ [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape) တွင် ရယူထားပါသည်။
 
 အကြီးမားသော ဒေတာများနှင့်အတူ ဒေတာသိပ္ပံလုပ်ဆောင်ရာတွင် Cloud သည် အရေးပါသော အပြောင်းအလဲတစ်ခုဖြစ်နိုင်ပါသည်။ လာမည့် သုံးခုသော သင်ခန်းစာများတွင် Cloud ဆိုတာဘာလဲ၊ ဘာကြောင့် အထောက်အကူဖြစ်နိုင်သလဲဆိုတာကို ကြည့်ရှုမည်ဖြစ်သည်။ ထို့အပြင် နှလုံးရောဂါ dataset တစ်ခုကိုလည်း လေ့လာပြီး၊ တစ်ဦးတစ်ယောက်တွင် နှလုံးရောဂါဖြစ်နိုင်ခြေကို ခန့်မှန်းနိုင်ရန် မော်ဒယ်တစ်ခုကို တည်ဆောက်မည်ဖြစ်သည်။ Cloud ၏ အားသာချက်ကို အသုံးပြု၍ မော်ဒယ်ကို လေ့ကျင့်ခြင်း၊ တင်သွင်းခြင်းနှင့် အသုံးပြုခြင်းကို နည်းလမ်းနှစ်မျိုးဖြင့် ပြုလုပ်မည်ဖြစ်သည်။ နည်းလမ်းတစ်ခုမှာ Low code/No code ပုံစံဖြင့် အသုံးပြုသူအင်တာဖေ့စ်ကိုသာ အသုံးပြုခြင်းဖြစ်ပြီး၊ နောက်တစ်ခုမှာ Azure Machine Learning Software Developer Kit (Azure ML SDK) ကို အသုံးပြုခြင်းဖြစ်သည်။
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.my.png)
+![project-schema](../../../translated_images/my/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### ခေါင်းစဉ်များ
 

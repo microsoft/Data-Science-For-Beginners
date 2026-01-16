@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ڈیٹا سائنس کا تعارف
 
-![عملی ڈیٹا](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.ur.jpg)
+![عملی ڈیٹا](../../../translated_images/ur/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > تصویر از <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">اسٹیفن ڈاسن</a>، <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> پر
   
 ان اسباق میں، آپ جانیں گے کہ ڈیٹا سائنس کو کیسے بیان کیا جاتا ہے اور ان اخلاقی پہلوؤں کے بارے میں سیکھیں گے جنہیں ایک ڈیٹا سائنسدان کو مدنظر رکھنا چاہیے۔ آپ یہ بھی سیکھیں گے کہ ڈیٹا کو کیسے بیان کیا جاتا ہے اور شماریات اور احتمال کے بارے میں کچھ جانیں گے، جو کہ ڈیٹا سائنس کے بنیادی تعلیمی شعبے ہیں۔

@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Kufanya Kazi na Python - _Sketchnote na [@nitya](https://twitter.com/nitya)_                 |
 
-[![Video ya Utangulizi](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.sw.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Video ya Utangulizi](../../../../translated_images/sw/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Ingawa hifadhidata zinatoa njia bora za kuhifadhi data na kuziuliza kwa kutumia lugha za maswali, njia inayobadilika zaidi ya kuchakata data ni kuandika programu yako mwenyewe ili kuibadilisha. Katika hali nyingi, kufanya maswali ya hifadhidata kungekuwa njia bora zaidi. Hata hivyo, katika baadhi ya hali ambapo uchakataji wa data changamani unahitajika, haiwezi kufanyika kwa urahisi kwa kutumia SQL. 
 Uchakataji wa data unaweza kupangwa kwa lugha yoyote ya programu, lakini kuna lugha fulani ambazo ni za kiwango cha juu zaidi linapokuja suala la kufanya kazi na data. Wanasayansi wa data mara nyingi hupendelea mojawapo ya lugha zifuatazo:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Mchoro wa Mfululizo wa Muda](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.sw.png)
+![Mchoro wa Mfululizo wa Muda](../../../../translated_images/sw/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Sasa fikiria kwamba kila wiki tunaandaa sherehe kwa marafiki, na tunachukua pakiti 10 za ziada za ice-cream kwa ajili ya sherehe. Tunaweza kuunda series nyingine, iliyoorodheshwa kwa wiki, kuonyesha hilo:
 ```python
@@ -84,7 +84,7 @@ Tunapoongeza series mbili pamoja, tunapata jumla ya idadi:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Mchoro wa Mfululizo wa Muda](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.sw.png)
+![Mchoro wa Mfululizo wa Muda](../../../../translated_images/sw/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Kumbuka** kwamba hatutumii sintaksia rahisi `total_items+additional_items`. Ikiwa tungefanya hivyo, tungepata thamani nyingi za `NaN` (*Not a Number*) katika series inayotokana. Hii ni kwa sababu kuna thamani zinazokosekana kwa baadhi ya pointi za index katika series ya `additional_items`, na kuongeza `NaN` kwa chochote husababisha `NaN`. Kwa hivyo tunahitaji kubainisha parameter ya `fill_value` wakati wa kuongeza.
 
@@ -93,7 +93,7 @@ Kwa mfululizo wa muda, tunaweza pia **kurekebisha upya** series kwa vipindi tofa
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Wastani wa Mfululizo wa Muda wa Kila Mwezi](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.sw.png)
+![Wastani wa Mfululizo wa Muda wa Kila Mwezi](../../../../translated_images/sw/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ Tatizo la kwanza ambalo tutalenga ni uundaji wa kuenea kwa janga la COVID-19. Il
 
 Kwa kuwa tunataka kuonyesha jinsi ya kushughulikia data, tunakualika kufungua [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) na kuisoma kutoka juu hadi chini. Unaweza pia kutekeleza seli, na kufanya changamoto ambazo tumeacha kwa ajili yako mwishoni.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.sw.png)
+![COVID Spread](../../../../translated_images/sw/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Ikiwa hujui jinsi ya kuendesha msimbo katika Jupyter Notebook, angalia [makala hii](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,7 +241,7 @@ Mfano kamili wa kuchambua dataset hii kwa kutumia huduma ya kiakili ya [Text Ana
 
 Fungua [`notebook-papers.ipynb`](notebook-papers.ipynb) na isome kutoka juu hadi chini. Unaweza pia kutekeleza seli, na kufanya changamoto ambazo tumeacha kwa ajili yako mwishoni.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.sw.png)
+![Covid Medical Treatment](../../../../translated_images/sw/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Usindikaji wa Data ya Picha
 

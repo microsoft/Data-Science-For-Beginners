@@ -47,25 +47,25 @@ Bu derste şunları gözden geçireceksiniz:
 
 Bir veri bilimcisi doğru veri için doğru grafiği seçmekte dikkatli olsa bile, veriler genellikle bir noktayı kanıtlamak için, çoğu zaman verilerin kendisini baltalama pahasına, yanıltıcı bir şekilde sunulabilir. Yanıltıcı grafikler ve infografikler için birçok örnek vardır!
 
-[![Alberto Cairo'dan How Charts Lie](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.tr.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
+[![Alberto Cairo'dan How Charts Lie](../../../../../translated_images/tr/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
 > 🎥 Yanıltıcı grafikler hakkında bir konferans konuşması için yukarıdaki görsele tıklayın
 
 Bu grafik, X eksenini ters çevirerek tarihe dayalı olarak gerçeğin tam tersini gösteriyor:
 
-![kötü grafik 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.tr.png)
+![kötü grafik 1](../../../../../translated_images/tr/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Bu grafik](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) daha da yanıltıcıdır, çünkü göz sağa çekilerek COVID vakalarının zamanla azaldığı sonucuna varır. Ancak, tarihlere dikkatlice bakarsanız, bu yanıltıcı düşüş eğilimini vermek için yeniden düzenlendiklerini görürsünüz.
 
-![kötü grafik 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.tr.jpg)
+![kötü grafik 2](../../../../../translated_images/tr/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Bu kötü şöhretli örnek, yanıltmak için renk ve ters çevrilmiş bir Y ekseni kullanır: Silah dostu yasaların geçmesinden sonra silahlı ölümlerin arttığı sonucuna varmak yerine, göz tam tersinin doğru olduğunu düşünmek için kandırılır:
 
-![kötü grafik 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.tr.jpg)
+![kötü grafik 3](../../../../../translated_images/tr/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Bu garip grafik, oranın nasıl manipüle edilebileceğini komik bir şekilde gösteriyor:
 
-![kötü grafik 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.tr.jpg)
+![kötü grafik 4](../../../../../translated_images/tr/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Karşılaştırılamaz olanı karşılaştırmak, başka bir gölgeli numaradır. [Harika bir web sitesi](https://tylervigen.com/spurious-correlations), Maine'deki boşanma oranı ile margarin tüketimi gibi şeyleri ilişkilendiren 'uydurma korelasyonlar' sergiliyor. Bir Reddit grubu da verilerin [çirkin kullanımlarını](https://www.reddit.com/r/dataisugly/top/?t=all) topluyor.
 
@@ -100,13 +100,13 @@ Eksenlerinizi etiketleyin, gerekirse bir açıklama ekleyin ve verilerin daha iy
 
 Verileriniz X ekseninde metinsel ve ayrıntılıysa, daha iyi okunabilirlik için metni açılı hale getirebilirsiniz. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html), verileriniz destekliyorsa 3D grafikler sunar. Bununla sofistike veri görselleştirmeleri üretilebilir.
 
-![3d grafikler](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.tr.png)
+![3d grafikler](../../../../../translated_images/tr/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Animasyon ve 3D grafik gösterimi
 
 Bugün en iyi veri görselleştirmelerinden bazıları animasyonludur. Shirley Wu, '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)' gibi D3 ile yapılmış harika örnekler sunar; burada her çiçek bir filmin görselleştirmesidir. Guardian için başka bir örnek ise 'bussed out', NYC'nin evsiz sorununu insanları şehirden otobüsle çıkararak nasıl ele aldığını göstermek için görselleştirmeleri Greensock ve D3 ile birleştiren bir interaktif deneyimdir.
 
-![otobüsle taşınma](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.tr.png)
+![otobüsle taşınma](../../../../../translated_images/tr/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: How America Moves its Homeless" [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Görselleştirmeler Nadieh Bremer & Shirley Wu tarafından.
 
@@ -116,7 +116,7 @@ Bu ders, bu güçlü görselleştirme kütüphanelerini öğretmek için yeterli
 
 Bir sosyal ağın animasyonlu bir görünümünü gösterecek bir web uygulamasını tamamlayacaksınız. Bu, Vue.js ve D3 kullanarak bir [ağ görselleştirmesi](https://github.com/emiliorizzo/vue-d3-network) oluşturmak için yapılmış bir kütüphane kullanır. Uygulama çalışırken, düğümleri ekranda sürükleyerek verileri karıştırabilirsiniz.
 
-![ilişkiler](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.tr.png)
+![ilişkiler](../../../../../translated_images/tr/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Proje: D3.js kullanarak bir ağ göstermek için bir grafik oluşturun
 

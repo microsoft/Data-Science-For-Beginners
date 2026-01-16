@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Sayansi ya Takwimu kwenye Wingu
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.sw.jpg)
+![cloud-picture](../../../translated_images/sw/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Picha na [Jelleke Vanooteghem](https://unsplash.com/@ilumire) kutoka [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Linapokuja suala la kufanya sayansi ya takwimu na data kubwa, wingu linaweza kuwa mabadiliko makubwa. Katika masomo matatu yajayo, tutaangalia wingu ni nini na kwa nini linaweza kuwa msaada mkubwa. Pia tutaangazia seti ya data ya kushindwa kwa moyo na kujenga mfano wa kusaidia kutathmini uwezekano wa mtu kupata kushindwa kwa moyo. Tutatumia nguvu ya wingu kufundisha, kupeleka, na kutumia mfano kwa njia mbili tofauti. Njia moja ni kwa kutumia tu kiolesura cha mtumiaji kwa mtindo wa "Low code/No code", na njia nyingine ni kwa kutumia Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.sw.png)
+![project-schema](../../../translated_images/sw/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Mada
 

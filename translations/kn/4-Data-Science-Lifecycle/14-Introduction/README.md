@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ಈ ಪಾಠವು ಜೀವನಚಕ್ರದ 3 ಭಾಗಗಳ ಮೇಲೆ ಕೇಂದ್ರೀಕರಿಸುತ್ತದೆ: ಸೆರೆಹಿಡಿಯುವುದು, ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವುದು ಮತ್ತು ನಿರ್ವಹಣೆ.
 
-![ಡೇಟಾ ಸೈನ್ಸ್ ಜೀವನಚಕ್ರದ ಚಿತ್ರಣ](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.kn.jpg)
+![ಡೇಟಾ ಸೈನ್ಸ್ ಜೀವನಚಕ್ರದ ಚಿತ್ರಣ](../../../../translated_images/kn/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > ಚಿತ್ರ: [ಬರ್ಕ್ಲಿ ಮಾಹಿತಿ ಶಾಲೆ](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## ಸೆರೆಹಿಡಿಯುವುದು
@@ -97,7 +97,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |ಟೀಮ್ ಡೇಟಾ ಸೈನ್ಸ್ ಪ್ರಕ್ರಿಯೆ (TDSP)|ಕ್ರಾಸ್-ಇಂಡಸ್ಟ್ರಿ ಸ್ಟ್ಯಾಂಡರ್ಡ್ ಪ್ರಕ್ರಿಯೆ ಫಾರ್ ಡೇಟಾ ಮೈನಿಂಗ್ (CRISP-DM)|
 |--|--|
-|![ಟೀಮ್ ಡೇಟಾ ಸೈನ್ಸ್ ಜೀವನಚಕ್ರ](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.kn.png) | ![ಡೇಟಾ ಸೈನ್ಸ್ ಪ್ರಕ್ರಿಯೆ ಅಲಯನ್ಸ್ ಚಿತ್ರ](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.kn.png) |
+|![ಟೀಮ್ ಡೇಟಾ ಸೈನ್ಸ್ ಜೀವನಚಕ್ರ](../../../../translated_images/kn/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![ಡೇಟಾ ಸೈನ್ಸ್ ಪ್ರಕ್ರಿಯೆ ಅಲಯನ್ಸ್ ಚಿತ್ರ](../../../../translated_images/kn/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | ಚಿತ್ರ: [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | ಚಿತ್ರ: [ಡೇಟಾ ಸೈನ್ಸ್ ಪ್ರಕ್ರಿಯೆ ಅಲಯನ್ಸ್](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [ಪೋಸ್ಟ್-ಲೇಕ್ಚರ್ ಕ್ವಿಜ್](https://ff-quizzes.netlify.app/en/ds/quiz/27)

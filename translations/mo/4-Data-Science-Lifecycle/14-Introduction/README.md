@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 本課程將重點放在生命週期的三個部分：資料捕捉、資料處理和資料維護。
 
-![資料科學生命週期圖示](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.mo.jpg)
+![資料科學生命週期圖示](../../../../translated_images/mo/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > 圖片來源：[Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## 資料捕捉
@@ -98,7 +98,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |團隊資料科學過程 (TDSP)|跨行業標準資料挖掘過程 (CRISP-DM)|
 |--|--|
-|![團隊資料科學生命週期](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.mo.png) | ![資料科學過程聯盟圖示](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.mo.png) |
+|![團隊資料科學生命週期](../../../../translated_images/mo/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![資料科學過程聯盟圖示](../../../../translated_images/mo/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | 圖片來源：[Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | 圖片來源：[Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [課後測驗](https://ff-quizzes.netlify.app/en/ds/quiz/27)

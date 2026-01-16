@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ရုပ်ပုံဖော်ပြမှုများ
 
-![ပန်းပေါ်မှာပျားတစ်ကောင်](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.my.jpg)
+![ပန်းပေါ်မှာပျားတစ်ကောင်](../../../translated_images/my/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > ဓာတ်ပုံကို <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> မှ <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> တွင် ရိုက်ထားသည်။
 
 ဒေတာကို ရုပ်ပုံဖော်ပြခြင်းသည် ဒေတာသိပ္ပံပညာရှင်တစ်ဦးအတွက် အရေးကြီးဆုံးအလုပ်များထဲမှ တစ်ခုဖြစ်သည်။ ပုံတစ်ပုံသည် စကားလုံး ၁၀၀၀ တန်ဖိုးရှိသလို၊ ရုပ်ပုံဖော်ပြမှုတစ်ခုက သင့်ဒေတာအတွင်းရှိ စိတ်ဝင်စားဖွယ် အချက်များကို (ဥပမာ - ထိပ်တန်းတက်မှုများ၊ ထူးခြားမှုများ၊ အုပ်စုဖွဲ့မှုများ၊ လမ်းကြောင်းများ စသည်) ရှာဖွေဖော်ထုတ်ပေးနိုင်ပြီး၊ သင့်ဒေတာက ပြောပြချင်တဲ့ ဇာတ်လမ်းကို နားလည်ရန် ကူညီပေးနိုင်ပါသည်။

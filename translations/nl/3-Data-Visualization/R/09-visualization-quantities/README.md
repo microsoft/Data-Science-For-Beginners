@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Hier installeer je het `ggplot2` pakket en importeer je het vervolgens in de werkruimte met het commando `library("ggplot2")`. Om een plot te maken in ggplot, gebruik je de functie `ggplot()` en specificeer je de dataset, x- en y-variabelen als attributen. In dit geval gebruiken we de functie `geom_line()` omdat we een lijnplot willen maken.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.nl.png)
+![MaxWingspan-lineplot](../../../../../translated_images/nl/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Wat valt je meteen op? Er lijkt minstens één uitschieter te zijn - dat is een behoorlijke vleugelspanwijdte! Een vleugelspanwijdte van meer dan 2000 centimeter komt overeen met meer dan 20 meter - zijn er Pterodactylen in Minnesota? Laten we dit onderzoeken.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 We specificeren de hoek in het `theme` en geven de x- en y-as labels met `xlab()` en `ylab()` respectievelijk. De `ggtitle()` geeft een naam aan de grafiek/plot.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.nl.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/nl/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Zelfs met de rotatie van de labels ingesteld op 45 graden, zijn er te veel om te lezen. Laten we een andere strategie proberen: label alleen die uitschieters en plaats de labels binnen de grafiek. Je kunt een spreidingsdiagram gebruiken om meer ruimte te maken voor de labeling:
 
@@ -100,7 +100,7 @@ Wat gebeurt hier? Je hebt de functie `geom_point()` gebruikt om spreidingspunten
 
 Wat ontdek je?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.nl.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/nl/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Filter je gegevens
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 We hebben een nieuwe dataframe `birds_filtered` gemaakt en vervolgens een spreidingsdiagram geplot. Door uitschieters te filteren, zijn je gegevens nu meer samenhangend en begrijpelijk.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.nl.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/nl/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Nu we een schonere dataset hebben, althans wat betreft vleugelspanwijdte, laten we meer ontdekken over deze vogels.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 In de volgende snippet installeren we de [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) en [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) pakketten om gegevens te manipuleren en te groeperen om een gestapeld staafdiagram te plotten. Eerst groepeer je de gegevens op de `Category` van de vogel en vat je de kolommen `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan` samen. Vervolgens plot je het staafdiagram met het `ggplot2` pakket en specificeer je de kleuren voor de verschillende categorieën en de labels.  
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.nl.png)
+![Stacked bar chart](../../../../../translated_images/nl/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Dit staafdiagram is echter onleesbaar omdat er te veel niet-gegroepeerde gegevens zijn. Je moet alleen de gegevens selecteren die je wilt plotten, dus laten we kijken naar de lengte van vogels op basis van hun categorie.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Je telt eerst unieke waarden in de `Category` kolom en sorteert ze vervolgens in een nieuwe dataframe `birds_count`. Deze gesorteerde gegevens worden vervolgens op hetzelfde niveau gefactoreerd zodat ze op een gesorteerde manier worden geplot. Met `ggplot2` plot je vervolgens de gegevens in een staafdiagram. De `coord_flip()` plot horizontale balken.  
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.nl.png)
+![category-length](../../../../../translated_images/nl/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Dit staafdiagram geeft een goed overzicht van het aantal vogels in elke categorie. In één oogopslag zie je dat het grootste aantal vogels in deze regio behoort tot de categorie Eenden/Ganzen/Watervogels. Minnesota is het 'land van 10.000 meren', dus dit is niet verrassend!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 We groeperen de `birds_filtered` gegevens op `Category` en plotten vervolgens een staafdiagram.  
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.nl.png)
+![comparing data](../../../../../translated_images/nl/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Hier is niets verrassends: kolibries hebben de minste MaxLength in vergelijking met pelikanen of ganzen. Het is goed wanneer gegevens logisch zijn!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.nl.png)
+![super-imposed values](../../../../../translated_images/nl/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Uitdaging
 

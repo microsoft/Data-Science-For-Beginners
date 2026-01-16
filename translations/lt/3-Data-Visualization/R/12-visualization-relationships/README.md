@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![sklaidos diagrama 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.lt.png)
+![sklaidos diagrama 1](../../../../../translated_images/lt/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 Dabar parodykite tuos pačius duomenis su medaus spalvų schema, kad parodytumėte, kaip kaina keičiasi metai iš metų. Tai galite padaryti pridėdami 'scale_color_gradientn' parametrą, kad parodytumėte pokyčius:
 
@@ -61,7 +61,7 @@ Dabar parodykite tuos pačius duomenis su medaus spalvų schema, kad parodytumė
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![sklaidos diagrama 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.lt.png)
+![sklaidos diagrama 2](../../../../../translated_images/lt/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 Naudodami šią spalvų schemą, galite pastebėti, kad per metus medaus kaina už svarą akivaizdžiai kyla. Iš tiesų, jei patikrinsite duomenų pavyzdį (pavyzdžiui, Arizonos valstiją), galite pastebėti kainų kilimo modelį metai iš metų, su keliomis išimtimis:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Matote, kaip taškų dydis palaipsniui didėja.
 
-![sklaidos diagrama 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.lt.png)
+![sklaidos diagrama 3](../../../../../translated_images/lt/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 Ar tai paprastas pasiūlos ir paklausos atvejis? Dėl tokių veiksnių kaip klimato kaita ir kolonijų žlugimas, ar medaus kiekis, kurį galima įsigyti, mažėja metai iš metų, todėl kaina kyla?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Atsakymas: Taip, su keliomis išimtimis apie 2003 metus:
 
-![linijinė diagrama 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.lt.png)
+![linijinė diagrama 1](../../../../../translated_images/lt/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 Klausimas: Na, o 2003 metais, ar taip pat matome medaus tiekimo šuolį? Ką, jei pažvelgtume į bendrą gamybą metai iš metų?
 
@@ -115,7 +115,7 @@ Klausimas: Na, o 2003 metais, ar taip pat matome medaus tiekimo šuolį? Ką, je
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![linijinė diagrama 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.lt.png)
+![linijinė diagrama 2](../../../../../translated_images/lt/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 Atsakymas: Ne visai. Jei pažvelgsite į bendrą gamybą, atrodo, kad ji iš tikrųjų padidėjo tais metais, nors apskritai medaus gamybos kiekis mažėja per šiuos metus.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 Šioje vizualizacijoje galite palyginti derlių vienai kolonijai ir kolonijų skaičių metai iš metų, šalia vienas kito, su wrap nustatytu 3 stulpeliams:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.lt.png)
+![facet grid](../../../../../translated_images/lt/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 Šiam duomenų rinkiniui niekas ypatingai neišsiskiria, kalbant apie kolonijų skaičių ir jų derlių, metai iš metų ir valstija po valstijos. Ar yra kitoks būdas ieškoti koreliacijos tarp šių dviejų kintamųjų?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![uždėtos diagramos](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.lt.png)
+![uždėtos diagramos](../../../../../translated_images/lt/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 Nors niekas ypatingai neišsiskiria apie 2003 metus, tai leidžia mums užbaigti šią pamoką šiek tiek linksmesne nata: nors kolonijų skaičius apskritai mažėja, jų skaičius stabilizuojasi, net jei jų derlius vienai kolonijai mažėja.
 

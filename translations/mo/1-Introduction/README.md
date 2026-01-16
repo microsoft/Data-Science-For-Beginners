@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 資料科學簡介
 
-![數據運作](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.mo.jpg)  
+![數據運作](../../../translated_images/mo/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)  
 > 照片由 <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> 提供，來源於 <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 在這些課程中，您將了解資料科學的定義，並學習作為資料科學家必須考慮的倫理問題。此外，您還會學習資料的定義，並簡單了解統計學和機率，這些是資料科學的核心學術領域。

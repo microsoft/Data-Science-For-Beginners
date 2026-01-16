@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.tr.png)
+![scatterplot 1](../../../../../translated_images/tr/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 Şimdi, aynı verileri yıllar içinde fiyatın nasıl değiştiğini göstermek için bal renk şemasıyla gösterin. Bunu, yıllar içinde değişimi göstermek için 'scale_color_gradientn' parametresini ekleyerek yapabilirsiniz:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.tr.png)
+![scatterplot 2](../../../../../translated_images/tr/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 Bu renk şeması değişikliğiyle, pound başına bal fiyatında yıllar içinde açık bir ilerleme olduğunu görebilirsiniz. Gerçekten de, verilerde bir örnek seti doğrulamak için (örneğin Arizona'yı seçin) yıllar içinde fiyat artışlarının bir modelini birkaç istisna dışında görebilirsiniz:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Noktaların boyutlarının kademeli olarak arttığını görebilirsiniz.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.tr.png)
+![scatterplot 3](../../../../../translated_images/tr/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 Bu basit bir arz ve talep meselesi mi? İklim değişikliği ve koloni çöküşü gibi faktörler nedeniyle, yıllar içinde satın alınabilecek daha az bal mı var ve bu nedenle fiyat mı artıyor?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Cevap: Evet, 2003 yılı civarındaki bazı istisnalar dışında:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.tr.png)
+![line chart 1](../../../../../translated_images/tr/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 Soru: Peki, 2003 yılında bal arzında bir artış görebiliyor muyuz? Yıllar içinde toplam üretime bakarsanız ne görürsünüz?
 
@@ -115,7 +115,7 @@ Soru: Peki, 2003 yılında bal arzında bir artış görebiliyor muyuz? Yıllar 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.tr.png)
+![line chart 2](../../../../../translated_images/tr/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 Cevap: Pek değil. Toplam üretime bakarsanız, aslında o yıl artmış gibi görünüyor, ancak genel olarak bu yıllarda üretilen bal miktarı düşüşte.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 Bu görselleştirmede, koloni başına verim ve koloni sayısını yıllar içinde yan yana, sütunlar için 3 olarak ayarlanmış bir wrap ile karşılaştırabilirsiniz:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.tr.png)
+![facet grid](../../../../../translated_images/tr/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 Bu veri seti için, eyaletler ve yıllar arasında koloni sayısı ve verim açısından dikkat çeken bir şey yok. Bu iki değişken arasında bir korelasyon bulmanın farklı bir yolu var mı?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.tr.png)
+![superimposed plots](../../../../../translated_images/tr/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 2003 yılı civarında göze çarpan bir şey olmasa da, bu dersi biraz daha mutlu bir notla bitirmemize olanak tanıyor: genel olarak azalan koloni sayısına rağmen, koloni sayısı sabitleniyor, ancak koloni başına verim azalıyor.
 

@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Trabalhar com Python - _Sketchnote por [@nitya](https://twitter.com/nitya)_                 |
 
-[![Vídeo de Introdução](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.pt.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Vídeo de Introdução](../../../../translated_images/pt/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Embora bases de dados ofereçam formas muito eficientes de armazenar e consultar dados usando linguagens de consulta, a maneira mais flexível de processar dados é escrever o seu próprio programa para manipulá-los. Em muitos casos, realizar uma consulta em uma base de dados seria mais eficaz. No entanto, em alguns casos, quando é necessário um processamento de dados mais complexo, isso não pode ser feito facilmente usando SQL.  
 O processamento de dados pode ser programado em qualquer linguagem de programação, mas há certas linguagens que são mais adequadas para trabalhar com dados. Cientistas de dados geralmente preferem uma das seguintes linguagens:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```  
-![Gráfico de Série Temporal](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.pt.png)
+![Gráfico de Série Temporal](../../../../translated_images/pt/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Agora suponha que, a cada semana, organizamos uma festa para amigos e levamos 10 pacotes adicionais de sorvete para a festa. Podemos criar outra série, indexada por semana, para demonstrar isso:  
 ```python
@@ -84,7 +84,7 @@ Quando somamos duas séries, obtemos o número total:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```  
-![Gráfico de Série Temporal](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.pt.png)
+![Gráfico de Série Temporal](../../../../translated_images/pt/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Nota** que não estamos usando a sintaxe simples `total_items+additional_items`. Se o fizéssemos, receberíamos muitos valores `NaN` (*Not a Number*) na série resultante. Isso ocorre porque há valores ausentes para alguns dos pontos de índice na série `additional_items`, e somar `NaN` a qualquer coisa resulta em `NaN`. Assim, precisamos especificar o parâmetro `fill_value` durante a soma.
 
@@ -93,7 +93,7 @@ Com séries temporais, também podemos **reamostrar** a série com diferentes in
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```  
-![Médias Mensais de Série Temporal](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.pt.png)
+![Médias Mensais de Série Temporal](../../../../translated_images/pt/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ O primeiro problema em que nos vamos focar é o modelo de propagação epidémic
 
 Como queremos demonstrar como lidar com dados, convidamo-lo a abrir [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) e lê-lo de cima para baixo. Pode também executar as células e realizar alguns desafios que deixámos para si no final.
 
-![Propagação da COVID](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.pt.png)
+![Propagação da COVID](../../../../translated_images/pt/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Se não sabe como executar código no Jupyter Notebook, veja [este artigo](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,7 +241,7 @@ Um exemplo completo de análise deste conjunto de dados usando o serviço cognit
 
 Abra [`notebook-papers.ipynb`](notebook-papers.ipynb) e leia-o de cima para baixo. Pode também executar as células e realizar alguns desafios que deixámos para si no final.
 
-![Tratamento Médico COVID](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.pt.png)
+![Tratamento Médico COVID](../../../../translated_images/pt/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Processamento de Dados de Imagem
 

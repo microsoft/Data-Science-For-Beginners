@@ -51,7 +51,7 @@ honey.head()
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.ru.png)
+![scatterplot 1](../../../../translated_images/ru/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Теперь покажите те же данные с цветовой схемой, напоминающей цвет мёда, чтобы отобразить, как цена меняется год за годом. Вы можете сделать это, добавив параметр 'hue', чтобы показать изменения:
 
@@ -60,7 +60,7 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.ru.png)
+![scatterplot 2](../../../../translated_images/ru/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 С изменением цветовой схемы становится очевидным, что цена за фунт мёда значительно увеличивается с годами. Если вы проверите это на выборке данных (например, выберите штат Аризона), вы увидите закономерность роста цен год за годом, за редкими исключениями:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Вы можете заметить, как размер точек постепенно увеличивается.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.ru.png)
+![scatterplot 3](../../../../translated_images/ru/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Это простой случай спроса и предложения? Из-за таких факторов, как изменение климата и разрушение колоний, становится ли мёда меньше с каждым годом, что приводит к росту цен?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Ответ: Да, с некоторыми исключениями около 2003 года:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.ru.png)
+![line chart 1](../../../../translated_images/ru/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Поскольку Seaborn агрегирует данные в одну линию, он отображает "несколько измерений для каждого значения x, строя среднее значение и 95% доверительный интервал вокруг среднего". [Источник](https://seaborn.pydata.org/tutorial/relational.html). Это трудоёмкое поведение можно отключить, добавив `ci=None`.
 
@@ -114,7 +114,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.ru.png)
+![line chart 2](../../../../translated_images/ru/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Ответ: Не совсем. Если посмотреть на общий объём производства, он, наоборот, кажется увеличившимся в этот год, хотя в целом объём производства мёда снижается в течение этих лет.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 В этой визуализации вы можете сравнить урожайность на колонию и количество колоний год за годом, рядом друг с другом, с wrap, установленным на 3 для столбцов:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.ru.png)
+![facet grid](../../../../translated_images/ru/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 Для этого набора данных ничего особенно не выделяется в отношении количества колоний и их урожайности год за годом и штат за штатом. Есть ли другой способ найти корреляцию между этими двумя переменными?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.ru.png)
+![superimposed plots](../../../../translated_images/ru/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Хотя ничего явно не выделяется около 2003 года, это позволяет завершить урок на более позитивной ноте: несмотря на общее снижение количества колоний, их число стабилизируется, даже если урожайность на колонию уменьшается.
 

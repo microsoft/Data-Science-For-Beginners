@@ -41,7 +41,7 @@ Shukrani kwa upatikanaji wa AI kwa urahisi, sasa watengenezaji wanapata urahisi 
 
  * [Sayansi ya Takwimu katika Afya](https://data-flair.training/blogs/data-science-in-healthcare/) - inaonyesha matumizi kama picha za matibabu (mfano, MRI, X-Ray, CT-Scan), genomics (mpangilio wa DNA), maendeleo ya dawa (tathmini ya hatari, utabiri wa mafanikio), uchambuzi wa utabiri (huduma ya mgonjwa na vifaa vya usambazaji), ufuatiliaji wa magonjwa na kuzuia n.k.
 
-![Matumizi ya Sayansi ya Takwimu Katika Ulimwengu Halisi](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.sw.png) Picha: [Data Flair: Matumizi 6 ya Kushangaza ya Sayansi ya Takwimu ](https://data-flair.training/blogs/data-science-applications/)
+![Matumizi ya Sayansi ya Takwimu Katika Ulimwengu Halisi](../../../../translated_images/sw/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Picha: [Data Flair: Matumizi 6 ya Kushangaza ya Sayansi ya Takwimu ](https://data-flair.training/blogs/data-science-applications/)
 
 Mchoro unaonyesha maeneo mengine na mifano ya kutumia mbinu za sayansi ya takwimu. Unataka kuchunguza matumizi mengine? Angalia sehemu ya [Mapitio na Kujisomea](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) hapa chini.
 

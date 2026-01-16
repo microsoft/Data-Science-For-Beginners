@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Этот урок сосредоточен на трех частях жизненного цикла: сборе данных, обработке и поддержке.
 
-![Диаграмма жизненного цикла Data Science](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.ru.jpg)  
+![Диаграмма жизненного цикла Data Science](../../../../translated_images/ru/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
 > Фото от [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Сбор данных
@@ -101,7 +101,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |Процесс Team Data Science (TDSP)|Стандартный процесс для анализа данных в различных отраслях (CRISP-DM)|
 |--|--|
-|![Жизненный цикл Team Data Science](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.ru.png) | ![Изображение процесса CRISP-DM](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.ru.png) |
+|![Жизненный цикл Team Data Science](../../../../translated_images/ru/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Изображение процесса CRISP-DM](../../../../translated_images/ru/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Изображение от [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Изображение от [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Тест после лекции](https://ff-quizzes.netlify.app/en/ds/quiz/27)

@@ -311,7 +311,7 @@ def calculate_mean(data):
   import pandas as pd
   ```
   ````
-- 為圖片添加替代文字：`![替代文字](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.tw.png)`
+- 為圖片添加替代文字：`![替代文字](../../translated_images/tw/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - 保持合理的行長度（約 80-100 字元）
 
 ### Python

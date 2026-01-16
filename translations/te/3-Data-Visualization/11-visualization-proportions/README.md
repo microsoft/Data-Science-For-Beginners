@@ -93,7 +93,7 @@ plt.show()
 ```
 ఇది, ఈ రెండు మష్రూమ్ తరగతుల ప్రకారం ఈ డేటా భాగాలను చూపించే పై చార్ట్. లేబుల్స్ క్రమం సరిగ్గా ఉండటం చాలా ముఖ్యం, కాబట్టి లేబుల్ అర్రే ఎలా నిర్మించబడిందో నిర్ధారించుకోండి!
 
-![pie chart](../../../../translated_images/pie1-wb.e201f2fcc335413143ce37650fb7f5f0bb21358e7823a327ed8644dfb84be9db.te.png)
+![pie chart](../../../../translated_images/te/pie1-wb.e201f2fcc335413143ce37650fb7f5f0bb21358e7823a327ed8644dfb84be9db.png)
 
 ## డోనట్స్!
 
@@ -123,7 +123,7 @@ plt.title('Mushroom Habitats')
 plt.show()
 ```
 
-![donut chart](../../../../translated_images/donut-wb.be3c12a22712302b5d10c40014d5389d4a1ae4412fe1655b3cf4af57b64f799a.te.png)
+![donut chart](../../../../translated_images/te/donut-wb.be3c12a22712302b5d10c40014d5389d4a1ae4412fe1655b3cf4af57b64f799a.png)
 
 ఈ కోడ్ ఒక చార్ట్ మరియు మధ్యలో ఒక వృత్తాన్ని గీయడం, ఆ మధ్య వృత్తాన్ని చార్ట్‌లో చేర్చడం చేస్తుంది. మధ్య వృత్తం వెడల్పును మార్చడానికి `0.40` ను మరొక విలువగా మార్చండి.
 
@@ -171,7 +171,7 @@ fig = plt.figure(
 
 వాఫిల్ చార్ట్ ఉపయోగించి, మీరు ఈ మష్రూమ్ dataset క్యాప్ రంగుల భాగాలను స్పష్టంగా చూడవచ్చు. ఆసక్తికరంగా, చాలా గ్రీన్-క్యాప్ మష్రూమ్‌లు ఉన్నాయి!
 
-![waffle chart](../../../../translated_images/waffle.5455dbae4ccf17d53bb40ff0a657ecef7b8aa967e27a19cc96325bd81598f65e.te.png)
+![waffle chart](../../../../translated_images/te/waffle.5455dbae4ccf17d53bb40ff0a657ecef7b8aa967e27a19cc96325bd81598f65e.png)
 
 ✅ Pywaffle చార్ట్లలో [Font Awesome](https://fontawesome.com/)లో అందుబాటులో ఉన్న ఏ ఐకాన్ అయినా ఉపయోగించగలదు. చతురస్రాల స్థానంలో ఐకాన్లను ఉపయోగించి మరింత ఆసక్తికరమైన వాఫిల్ చార్ట్ సృష్టించడానికి ప్రయోగాలు చేయండి.
 

@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 तथ्यांक र सम्भाव्यता सिद्धान्त गणितका दुई अत्यन्तै सम्बन्धित क्षेत्रहरू हुन्, जसको डाटा विज्ञानमा ठूलो महत्त्व छ। गहिरो गणितीय ज्ञान बिना पनि डाटासँग काम गर्न सम्भव छ, तर कम्तीमा केही आधारभूत अवधारणाहरू थाहा हुनु राम्रो हुन्छ। यहाँ हामी तपाईंलाई सुरु गर्न मद्दत गर्ने छोटो परिचय प्रस्तुत गर्नेछौं।
 
-[![Intro Video](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.ne.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Intro Video](../../../../translated_images/ne/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [पाठ अघि क्विज](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 हामी केवल कुनै निश्चित मानहरूको दायरामा भेरिएबल पर्ने सम्भाव्यताको कुरा गर्न सक्छौं, जस्तै P(t<sub>1</sub>≤X<t<sub>2</sub>)। यस अवस्थामा, सम्भाव्यता वितरणलाई **सम्भाव्यता घनत्व कार्य (probability density function)** p(x) द्वारा वर्णन गरिन्छ, जसले गर्दा
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.ne.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/ne/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 यूनिफर्म वितरणको कन्टिनुअस संस्करणलाई **कन्टिनुअस यूनिफर्म** भनिन्छ, जुन सीमित दायरामा परिभाषित हुन्छ। कुनै निश्चित लम्बाइ l को दायरामा X पर्ने सम्भाव्यता l को समानुपातिक हुन्छ, र १ सम्म पुग्छ।
 
@@ -82,11 +82,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 यहाँ हाम्रो डाटाको लागि माध्य, माध्यिका र क्वार्टाइलहरू देखाउने बक्स प्लट छ:
 
-![Weight Box Plot](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.ne.png)
+![Weight Box Plot](../../../../translated_images/ne/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 हाम्रो डाटामा विभिन्न खेलाडीका **भूमिकाहरू** को जानकारी समावेश भएकाले, हामी भूमिकाअनुसार बक्स प्लट पनि बनाउन सक्छौं - यसले हामीलाई बुझ्न मद्दत गर्छ कि भूमिकाहरूमा आधारित रूपमा मानहरू कसरी फरक छन्। यस पटक हामी उचाइलाई विचार गर्नेछौं:
 
-![Box plot by role](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.ne.png)
+![Box plot by role](../../../../translated_images/ne/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 यो चित्रले सुझाव दिन्छ कि, औसतमा, पहिलो बेसम्यानहरूको उचाइ दोस्रो बेसम्यानहरूको उचाइभन्दा बढी छ। यस पाठको पछि, हामी यो परिकल्पनालाई औपचारिक रूपमा परीक्षण गर्ने र हाम्रो डाटा सांख्यिकीय रूपमा महत्त्वपूर्ण छ भनेर देखाउने तरिका सिक्नेछौं।
 
@@ -94,7 +94,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 हाम्रो डाटाको वितरण कस्तो छ भनेर हेर्न, हामी **हिस्टोग्राम** नामक ग्राफ बनाउन सक्छौं। X-अक्षमा विभिन्न तौल अन्तरालहरूको संख्या (जसलाई **बिनहरू** भनिन्छ) हुनेछ, र ठाडो अक्षमा हाम्रो र्‍यान्डम भेरिएबल नमूना कुनै निश्चित अन्तरालभित्र भएको संख्या देखाइनेछ।
 
-![Histogram of real world data](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.ne.png)
+![Histogram of real world data](../../../../translated_images/ne/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 यस हिस्टोग्रामबाट तपाईं देख्न सक्नुहुन्छ कि सबै मानहरू निश्चित माध्य तौलको वरिपरि केन्द्रित छन्, र हामी त्यो तौलबाट जति टाढा जान्छौं, त्यति नै कम तौलका मानहरू भेटिन्छन्। अर्थात्, बेसबल खेलाडीको तौल माध्य तौलभन्दा धेरै फरक हुने सम्भाव्यता धेरै कम छ। तौलहरूको विचलनले तौलहरू माध्यबाट कति फरक हुन सक्छन् भन्ने देखाउँछ।
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 यदि हामी उत्पन्न गरिएका नमूनाहरूको हिस्टोग्राम बनाउँछौं भने, माथि देखाइएको चित्रसँग धेरै मिल्दोजुल्दो चित्र देखिनेछ। र यदि हामी नमूनाहरूको संख्या र बिनहरूको संख्या बढाउँछौं भने, हामी नर्मल वितरणको आदर्श चित्र बनाउन सक्छौं:
 
-![Normal Distribution with mean=0 and std.dev=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.ne.png)
+![Normal Distribution with mean=0 and std.dev=1](../../../../translated_images/ne/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *माध्य=0 र मानक विचलन=1 भएको नर्मल वितरण*
 
@@ -231,7 +231,7 @@ array([[1.        , 0.52959196],
 
 हाम्रो केसमा, मान 0.53 ले व्यक्तिको वजन र उचाइ बीच केही सहसंबंध रहेको संकेत गर्दछ। हामी सम्बन्धलाई दृश्य रूपमा हेर्नको लागि एउटा मानलाई अर्कोको विरुद्ध स्क्याटर प्लट बनाउन सक्छौं:
 
-![वजन र उचाइ बीचको सम्बन्ध](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.ne.png)
+![वजन र उचाइ बीचको सम्बन्ध](../../../../translated_images/ne/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > सहसंबंध र सहविचलनका थप उदाहरणहरू [संगत नोटबुक](notebook.ipynb) मा भेट्न सकिन्छ।
 

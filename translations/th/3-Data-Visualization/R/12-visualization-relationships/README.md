@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.th.png)
+![scatterplot 1](../../../../../translated_images/th/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 ตอนนี้ แสดงข้อมูลเดียวกันด้วยโทนสีของน้ำผึ้งเพื่อแสดงให้เห็นว่าราคาเปลี่ยนแปลงไปอย่างไรในแต่ละปี คุณสามารถทำได้โดยเพิ่มพารามิเตอร์ 'scale_color_gradientn' เพื่อแสดงการเปลี่ยนแปลงในแต่ละปี:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.th.png)
+![scatterplot 2](../../../../../translated_images/th/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 ด้วยการเปลี่ยนโทนสีนี้ คุณจะเห็นได้ชัดเจนว่ามีการเปลี่ยนแปลงอย่างต่อเนื่องในราคาน้ำผึ้งต่อปอนด์ในแต่ละปี หากคุณดูตัวอย่างข้อมูลในชุดข้อมูลเพื่อยืนยัน (เลือกดูรัฐหนึ่ง เช่น รัฐแอริโซนา) คุณจะเห็นรูปแบบการเพิ่มขึ้นของราคาปีต่อปี โดยมีข้อยกเว้นบางประการ:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 คุณจะเห็นว่าขนาดของจุดเพิ่มขึ้นเรื่อย ๆ
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.th.png)
+![scatterplot 3](../../../../../translated_images/th/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 นี่เป็นกรณีง่าย ๆ ของอุปสงค์และอุปทานหรือไม่? เนื่องจากปัจจัยต่าง ๆ เช่น การเปลี่ยนแปลงสภาพภูมิอากาศและการล่มสลายของรังผึ้ง มีน้ำผึ้งน้อยลงสำหรับการซื้อในแต่ละปี และทำให้ราคาสูงขึ้น?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 คำตอบ: ใช่ โดยมีข้อยกเว้นบางประการในปี 2003:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.th.png)
+![line chart 1](../../../../../translated_images/th/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 คำถาม: ในปี 2003 เราเห็นการเพิ่มขึ้นของปริมาณน้ำผึ้งหรือไม่? หากคุณดูการผลิตรวมในแต่ละปีล่ะ?
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.th.png)
+![line chart 2](../../../../../translated_images/th/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 คำตอบ: ไม่จริง หากคุณดูการผลิตรวม ดูเหมือนว่าจะเพิ่มขึ้นในปีนั้น แต่โดยทั่วไปแล้วปริมาณน้ำผึ้งที่ผลิตลดลงในช่วงปีเหล่านี้
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 ในภาพนี้ คุณสามารถเปรียบเทียบผลผลิตต่อรังและจำนวนรังในแต่ละปี โดยจัดเรียง wrap เป็น 3 คอลัมน์:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.th.png)
+![facet grid](../../../../../translated_images/th/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 สำหรับชุดข้อมูลนี้ ไม่มีสิ่งใดที่โดดเด่นเกี่ยวกับจำนวนรังและผลผลิตของรังในแต่ละปีและแต่ละรัฐ มีวิธีอื่นในการค้นหาความสัมพันธ์ระหว่างตัวแปรสองตัวนี้หรือไม่?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.th.png)
+![superimposed plots](../../../../../translated_images/th/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 แม้ว่าไม่มีสิ่งใดที่โดดเด่นในปี 2003 แต่ก็ช่วยให้เราจบบทเรียนนี้ด้วยข่าวดีเล็กน้อย: แม้ว่าจำนวนรังจะลดลงโดยรวม แต่จำนวนรังก็เริ่มคงที่ แม้ว่าผลผลิตต่อรังจะลดลง
 

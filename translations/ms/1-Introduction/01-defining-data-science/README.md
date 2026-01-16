@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Video Mendefinisikan Sains Data](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.ms.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Video Mendefinisikan Sains Data](../../../../translated_images/ms/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Kuiz pra-kuliah](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ Jika kita ingin menjadi lebih rumit, kita boleh memplot masa yang diambil untuk 
 
 Dalam cabaran ini, kita akan cuba mencari konsep yang relevan dengan bidang Sains Data dengan melihat teks. Kita akan mengambil artikel Wikipedia tentang Sains Data, memuat turun dan memproses teks tersebut, dan kemudian membina awan kata seperti ini:
 
-![Awan Kata untuk Sains Data](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.ms.png)
+![Awan Kata untuk Sains Data](../../../../translated_images/ms/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Lawati [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') untuk membaca kodnya. Anda juga boleh menjalankan kod tersebut, dan melihat bagaimana ia melaksanakan semua transformasi data secara langsung.
 

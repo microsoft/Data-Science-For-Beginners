@@ -311,7 +311,7 @@ PR 설명에 포함할 내용:
   import pandas as pd
   ```
   ````
-- 이미지에 대체 텍스트 추가: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.ko.png)`
+- 이미지에 대체 텍스트 추가: `![Alt text](../../translated_images/ko/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - 줄 길이는 적당히 유지 (약 80-100자)
 
 ### Python

@@ -312,7 +312,7 @@ Jumuisha katika maelezo ya PR yako:
   import pandas as pd
   ```
   ````
-- Ongeza maandishi mbadala kwa picha: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.sw.png)`
+- Ongeza maandishi mbadala kwa picha: `![Alt text](../../translated_images/sw/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Dumisha urefu wa mistari unaofaa (karibu herufi 80-100)
 
 ### Python

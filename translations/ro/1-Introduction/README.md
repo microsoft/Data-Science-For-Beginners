@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introducere în Știința Datelor
 
-![date în acțiune](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.ro.jpg)
+![date în acțiune](../../../translated_images/ro/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Fotografie de <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> pe <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 În aceste lecții, vei descoperi cum este definită Știința Datelor și vei învăța despre considerațiile etice pe care trebuie să le ia în calcul un specialist în date. De asemenea, vei învăța cum sunt definite datele și vei afla câte ceva despre statistică și probabilitate, domeniile academice de bază ale Științei Datelor.

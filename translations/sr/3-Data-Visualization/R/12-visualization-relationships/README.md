@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.sr.png)
+![scatterplot 1](../../../../../translated_images/sr/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 Сада, прикажите исте податке са шемом боја меда да покажете како се цена развија током година. То можете урадити додавањем параметра 'scale_color_gradientn' да прикажете промену из године у годину:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.sr.png)
+![scatterplot 2](../../../../../translated_images/sr/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 Са овом променом шеме боја, можете видети да постоји очигледан напредак током година у погледу цене меда по фунти. У ствари, ако погледате узорак података да бисте проверили (на пример, изаберите државу Аризону), можете видети образац повећања цена из године у годину, са неколико изузетака:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Можете видети да се величина тачака постепено повећава.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.sr.png)
+![scatterplot 3](../../../../../translated_images/sr/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 Да ли је ово једноставан случај понуде и потражње? Због фактора као што су климатске промене и колапс колонија, да ли је мање меда доступно за куповину из године у годину, па самим тим цена расте?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Одговор: Да, са неким изузецима око 2003. године:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.sr.png)
+![line chart 1](../../../../../translated_images/sr/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 Питање: Па, да ли можемо видети скок у залихама меда 2003. године? Шта ако погледате укупну производњу из године у годину?
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.sr.png)
+![line chart 2](../../../../../translated_images/sr/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 Одговор: Не баш. Ако погледате укупну производњу, чини се да је она заправо повећана те године, иако генерално количина произведеног меда опада током ових година.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 У овој визуализацији можете упоредити принос по колонији и број колонија из године у годину, један поред другог, са подешавањем wrap на 3 за колоне:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.sr.png)
+![facet grid](../../../../../translated_images/sr/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 За овај скуп података, ништа посебно не одскаче у погледу броја колонија и њиховог приноса, из године у годину и из државе у државу. Да ли постоји другачији начин да се пронађе корелација између ове две променљиве?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.sr.png)
+![superimposed plots](../../../../../translated_images/sr/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 Иако ништа не упада у очи око 2003. године, ово нам омогућава да завршимо лекцију на мало срећнијој ноти: иако је укупан број колонија у опадању, број колонија се стабилизује, чак и ако њихов принос по колонији опада.
 

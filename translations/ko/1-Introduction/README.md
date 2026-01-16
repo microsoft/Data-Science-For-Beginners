@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 데이터 과학 입문
 
-![데이터 활용](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.ko.jpg)  
+![데이터 활용](../../../translated_images/ko/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)  
 > 사진 제공: <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> / <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 이 강의에서는 데이터 과학이 어떻게 정의되는지 알아보고, 데이터 과학자가 반드시 고려해야 할 윤리적 문제들에 대해 배웁니다. 또한 데이터가 어떻게 정의되는지 배우고, 데이터 과학의 핵심 학문 분야인 통계와 확률에 대해 간단히 살펴볼 것입니다.

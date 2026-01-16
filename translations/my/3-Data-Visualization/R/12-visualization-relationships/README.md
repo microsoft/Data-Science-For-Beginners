@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.my.png)
+![scatterplot 1](../../../../../translated_images/my/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 ယခုအခါ၊ ပျားရည်အရောင်စနစ်ကို အသုံးပြု၍ ဤဒေတာကို ပြသပါ၊ ဈေးနှုန်းသည် နှစ်အလိုက် ဘယ်လိုပြောင်းလဲလာသည်ကို ပြပါ။ ဤအရာကို 'scale_color_gradientn' parameter ကို ထည့်သွင်းခြင်းဖြင့် ပြုလုပ်နိုင်သည်၊ နှစ်အလိုက်ပြောင်းလဲမှုကို ပြသရန်:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.my.png)
+![scatterplot 2](../../../../../translated_images/my/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 ဤအရောင်စနစ်ပြောင်းလဲမှုဖြင့် ပျားရည်တစ်ပေါင်လျှင်ဈေးနှုန်းသည် နှစ်အလိုက် ပြောင်းလဲမှုရှိနေသည်ကို အလွယ်တကူမြင်နိုင်သည်။ အမှန်တကယ်၊ ဒေတာထဲမှ နမူနာတစ်ခုကို စစ်ဆေးပါက (ဥပမာအားဖြင့် Arizona ပြည်နယ်) နှစ်အလိုက် ဈေးနှုန်းတိုးလာမှုပုံစံကို အချို့သောအထွေထွေကိစ္စများမှလွဲ၍ မြင်နိုင်ပါသည်:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 dot အရွယ်အစားသည် တဖြည်းဖြည်းတိုးလာနေသည်ကို မြင်နိုင်ပါသည်။
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.my.png)
+![scatterplot 3](../../../../../translated_images/my/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 ဤသည်သည် တိုးတက်မှုနှင့် တိုက်ရိုက်ဆက်စပ်မှုရှိသော supply နှင့် demand ဖြစ်နိုင်ပါသလား။ ရာသီဥတုပြောင်းလဲမှုနှင့် ပျားအုပ်ပျက်စီးမှုကြောင့် နှစ်အလိုက် ဝယ်ယူနိုင်သော ပျားရည်ပမာဏလျော့နည်းလာပြီး ဈေးနှုန်းတိုးလာနေပါသလား။
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 အဖြေ- ဟုတ်ကဲ့၊ ၂၀၀၃ ခုနှစ်အနီးတွင် အချို့သောထူးခြားမှုများရှိသည်:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.my.png)
+![line chart 1](../../../../../translated_images/my/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 မေးခွန်း- ၂၀၀၃ ခုနှစ်တွင် ပျားရည်ပမာဏတိုးတက်မှုကိုလည်း မြင်နိုင်ပါသလား။ စုစုပေါင်းထုတ်လုပ်မှုကို နှစ်အလိုက်ကြည့်ပါက ဘာတွေ့နိုင်မလဲ။
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.my.png)
+![line chart 2](../../../../../translated_images/my/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 အဖြေ- အမှန်တကယ်တော့ မဟုတ်ပါ။ စုစုပေါင်းထုတ်လုပ်မှုကိုကြည့်ပါက၊ ထိုနှစ်တွင် တိုးတက်မှုရှိသော်လည်း၊ ယေဘူယျအားဖြင့် ထုတ်လုပ်မှုသည် လျော့နည်းလာနေသည်ကို မြင်နိုင်ပါသည်။
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 ဤမြင်ကွင်းတွင် yield per colony နှင့် number of colonies ကို နှစ်အလိုက် နှိုင်းယှဉ်ကြည့်နိုင်သည်၊ column ကို ၃ အထိ wrap ပြုလုပ်ထားသည်:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.my.png)
+![facet grid](../../../../../translated_images/my/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 ဤဒေတာစဉ်အတွက်၊ နှစ်အလိုက်နှင့် ပြည်နယ်အလိုက် number of colonies နှင့် yield အကြား ထူးခြားမှုမရှိပါ။ ဤ variable နှစ်ခုအကြား ဆက်စပ်မှုကို ရှာဖွေရန် အခြားနည်းလမ်းတစ်ခုရှိပါသလား။
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.my.png)
+![superimposed plots](../../../../../translated_images/my/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 ၂၀၀၃ ခုနှစ်အနီးတွင် ထူးခြားမှုမရှိသော်လည်း၊ ပျားအုပ်အရေအတွက်သည် လျော့နည်းနေသော်လည်း တည်ငြိမ်နေပြီး၊ တစ်အုပ်လျှင်ထွက်ရှိမှုသည် လျော့နည်းနေသည်ကို မြင်နိုင်ပါသည်။
 

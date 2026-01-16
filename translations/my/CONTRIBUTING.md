@@ -312,7 +312,7 @@ Quiz application ကို ပြောင်းလဲတဲ့အခါ:
   import pandas as pd
   ```
   ````
-- ပုံများအတွက် alt text ထည့်ပါ: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.my.png)`
+- ပုံများအတွက် alt text ထည့်ပါ: `![Alt text](../../translated_images/my/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Line အရှည်ကို သင့်တော်စွာ ထိန်းသိမ်းပါ (80-100 characters အနီး)
 
 ### Python

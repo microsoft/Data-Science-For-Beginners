@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Statystyka i teoria prawdopodobieństwa to dwie ściśle powiązane dziedziny matematyki, które mają ogromne znaczenie w nauce o danych. Można pracować z danymi bez głębokiej wiedzy matematycznej, ale warto znać przynajmniej podstawowe pojęcia. Poniżej przedstawiamy krótkie wprowadzenie, które pomoże Ci zacząć.
 
-[![Wideo wprowadzające](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.pl.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Wideo wprowadzające](../../../../translated_images/pl/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Quiz przed wykładem](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Trudniej jest opisać rozkład prawdopodobieństwa zmiennej ciągłej, której w
 
 Możemy mówić jedynie o prawdopodobieństwie, że zmienna przyjmie wartość z określonego przedziału, np. P(t<sub>1</sub>≤X<t<sub>2</sub>). W takim przypadku rozkład prawdopodobieństwa opisuje **funkcja gęstości prawdopodobieństwa** p(x), taka że
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.pl.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/pl/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Ciągłym odpowiednikiem rozkładu jednostajnego jest **rozkład jednostajny ciągły**, który jest zdefiniowany na skończonym przedziale. Prawdopodobieństwo, że wartość X znajdzie się w przedziale o długości l, jest proporcjonalne do l i rośnie do 1.
 
@@ -82,11 +82,11 @@ Analizując dane z rzeczywistości, często nie są one zmiennymi losowymi w sen
 
 Oto wykres pudełkowy pokazujący średnią, medianę i kwartyle dla naszych danych:
 
-![Wykres pudełkowy wag](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.pl.png)
+![Wykres pudełkowy wag](../../../../translated_images/pl/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Ponieważ nasze dane zawierają informacje o różnych **rolach** graczy, możemy również stworzyć wykres pudełkowy według roli - pozwoli nam to zorientować się, jak wartości parametrów różnią się w zależności od roli. Tym razem rozważymy wzrost:
 
-![Wykres pudełkowy według roli](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.pl.png)
+![Wykres pudełkowy według roli](../../../../translated_images/pl/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Ten diagram sugeruje, że średni wzrost pierwszobazowych jest wyższy niż wzrost drugobazowych. Później w tej lekcji dowiemy się, jak formalniej przetestować tę hipotezę i jak wykazać, że nasze dane są statystycznie istotne, aby to pokazać.
 
@@ -94,7 +94,7 @@ Ten diagram sugeruje, że średni wzrost pierwszobazowych jest wyższy niż wzro
 
 Aby zobaczyć, jaki jest rozkład naszych danych, możemy narysować wykres zwany **histogramem**. Oś X zawiera liczbę różnych przedziałów wag (tzw. **koszyków**), a oś pionowa pokazuje liczbę przypadków, w których próbka zmiennej losowej znalazła się w danym przedziale.
 
-![Histogram danych rzeczywistych](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.pl.png)
+![Histogram danych rzeczywistych](../../../../translated_images/pl/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Z tego histogramu można zauważyć, że wszystkie wartości są skoncentrowane wokół pewnej średniej wagi, a im dalej od tej wagi, tym rzadziej spotykamy takie wartości. Innymi słowy, jest bardzo mało prawdopodobne, aby waga gracza baseballowego znacznie różniła się od średniej wagi. Wariancja wag pokazuje, w jakim stopniu wagi mogą różnić się od średniej.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Jeśli narysujemy histogram wygenerowanych próbek, zobaczymy obraz bardzo podobny do tego pokazanego powyżej. A jeśli zwiększymy liczbę próbek i liczbę koszyków, możemy wygenerować obraz rozkładu normalnego, który jest bliższy ideałowi:
 
-![Rozkład normalny ze średnią=0 i odch.std.=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.pl.png)
+![Rozkład normalny ze średnią=0 i odch.std.=1](../../../../translated_images/pl/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Rozkład normalny ze średnią=0 i odch.std.=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 W naszym przypadku wartość 0.53 wskazuje, że istnieje pewna korelacja między wagą a wzrostem osoby. Możemy również wykonać wykres punktowy jednej wartości względem drugiej, aby zobaczyć relację wizualnie:
 
-![Relacja między wagą a wzrostem](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.pl.png)
+![Relacja między wagą a wzrostem](../../../../translated_images/pl/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Więcej przykładów korelacji i kowariancji można znaleźć w [dołączonym notatniku](notebook.ipynb).
 

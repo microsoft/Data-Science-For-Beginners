@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # การสร้างภาพข้อมูล
 
-![ผึ้งบนดอกลาเวนเดอร์](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.th.jpg)
+![ผึ้งบนดอกลาเวนเดอร์](../../../translated_images/th/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > ภาพถ่ายโดย <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> บน <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 การสร้างภาพข้อมูลเป็นหนึ่งในงานที่สำคัญที่สุดของนักวิทยาศาสตร์ข้อมูล ภาพหนึ่งภาพมีค่ามากกว่าคำพูดนับพันคำ และการสร้างภาพข้อมูลสามารถช่วยให้คุณระบุส่วนที่น่าสนใจในข้อมูลของคุณ เช่น จุดพุ่งสูงสุด ค่าผิดปกติ การจัดกลุ่ม แนวโน้ม และอื่นๆ ซึ่งช่วยให้คุณเข้าใจเรื่องราวที่ข้อมูลของคุณพยายามจะบอก

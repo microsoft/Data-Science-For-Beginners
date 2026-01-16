@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # บทนำสู่วิทยาศาสตร์ข้อมูล
 
-![ข้อมูลในแอคชั่น](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.th.jpg)
+![ข้อมูลในแอคชั่น](../../../translated_images/th/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > ภาพถ่ายโดย <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> บน <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 ในบทเรียนนี้ คุณจะได้เรียนรู้ว่าวิทยาศาสตร์ข้อมูลถูกนิยามอย่างไร และพิจารณาประเด็นด้านจริยธรรมที่นักวิทยาศาสตร์ข้อมูลต้องคำนึงถึง นอกจากนี้ คุณจะได้เรียนรู้ว่าข้อมูลถูกนิยามอย่างไร รวมถึงพื้นฐานของสถิติและความน่าจะเป็น ซึ่งเป็นแกนหลักของวิชาการในวิทยาศาสตร์ข้อมูล

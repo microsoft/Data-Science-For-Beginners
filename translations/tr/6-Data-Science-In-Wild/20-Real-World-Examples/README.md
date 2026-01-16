@@ -41,7 +41,7 @@ Yapay zekanın demokratikleşmesi sayesinde, geliştiriciler artık yapay zeka d
 
  * [Sağlıkta Veri Bilimi](https://data-flair.training/blogs/data-science-in-healthcare/) - tıbbi görüntüleme (örneğin, MRI, X-Ray, CT-Scan), genomik (DNA dizilimi), ilaç geliştirme (risk değerlendirmesi, başarı tahmini), öngörücü analitik (hasta bakımı ve tedarik lojistiği), hastalık takibi ve önleme gibi uygulamaları vurgular.
 
-![Gerçek Dünyada Veri Bilimi Uygulamaları](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.tr.png) Görsel Kaynağı: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Gerçek Dünyada Veri Bilimi Uygulamaları](../../../../translated_images/tr/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Görsel Kaynağı: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Şekil, veri bilimi tekniklerinin uygulanabileceği diğer alanları ve örnekleri göstermektedir. Diğer uygulamaları keşfetmek ister misiniz? Aşağıdaki [İnceleme ve Kendi Kendine Çalışma](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) bölümüne göz atın.
 

@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # วิทยาศาสตร์ข้อมูลบนคลาวด์
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.th.jpg)
+![cloud-picture](../../../translated_images/th/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > ภาพโดย [Jelleke Vanooteghem](https://unsplash.com/@ilumire) จาก [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 เมื่อพูดถึงการทำวิทยาศาสตร์ข้อมูลกับข้อมูลขนาดใหญ่ คลาวด์สามารถเปลี่ยนเกมได้อย่างมาก ในสามบทเรียนถัดไป เราจะมาดูกันว่าคลาวด์คืออะไรและทำไมมันถึงมีประโยชน์มาก นอกจากนี้ เรายังจะสำรวจชุดข้อมูลเกี่ยวกับภาวะหัวใจล้มเหลวและสร้างโมเดลเพื่อช่วยประเมินความน่าจะเป็นที่ใครบางคนจะมีภาวะหัวใจล้มเหลว เราจะใช้พลังของคลาวด์ในการฝึกอบรม, ปรับใช้ และใช้งานโมเดลในสองวิธีที่แตกต่างกัน วิธีแรกใช้เฉพาะอินเทอร์เฟซผู้ใช้ในรูปแบบ Low code/No code และอีกวิธีใช้ Azure Machine Learning Software Developer Kit (Azure ML SDK)
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.th.png)
+![project-schema](../../../translated_images/th/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### หัวข้อ
 

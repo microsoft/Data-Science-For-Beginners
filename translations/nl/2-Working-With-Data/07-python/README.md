@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Werken met Python - _Sketchnote door [@nitya](https://twitter.com/nitya)_                 |
 
-[![Intro Video](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.nl.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Intro Video](../../../../translated_images/nl/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Hoewel databases zeer efficiënte manieren bieden om gegevens op te slaan en te raadplegen met behulp van querytalen, is de meest flexibele manier van gegevensverwerking het schrijven van je eigen programma om gegevens te manipuleren. In veel gevallen is een databasequery een effectievere aanpak. Maar in sommige gevallen, wanneer complexere gegevensverwerking nodig is, kan dit niet eenvoudig met SQL worden gedaan. 
 Gegevensverwerking kan worden geprogrammeerd in elke programmeertaal, maar er zijn bepaalde talen die beter geschikt zijn voor het werken met data. Datawetenschappers geven meestal de voorkeur aan een van de volgende talen:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Time Series Plot](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.nl.png)
+![Time Series Plot](../../../../translated_images/nl/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Stel nu dat we elke week een feestje organiseren voor vrienden en we nemen 10 extra pakken ijs mee voor het feest. We kunnen een andere series maken, geïndexeerd per week, om dat te laten zien:
 ```python
@@ -84,7 +84,7 @@ Wanneer we twee series bij elkaar optellen, krijgen we het totaal:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Time Series Plot](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.nl.png)
+![Time Series Plot](../../../../translated_images/nl/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Opmerking** dat we niet de eenvoudige syntaxis `total_items+additional_items` gebruiken. Als we dat deden, zouden we veel `NaN` (*Not a Number*) waarden krijgen in de resulterende series. Dit komt omdat er ontbrekende waarden zijn voor sommige indexpunten in de `additional_items` series, en het optellen van `NaN` met iets resulteert in `NaN`. Daarom moeten we de parameter `fill_value` specificeren tijdens het optellen.
 
@@ -93,7 +93,7 @@ Met tijdreeksen kunnen we ook **herbemonsteren** met verschillende tijdsinterval
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Monthly Time Series Averages](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.nl.png)
+![Monthly Time Series Averages](../../../../translated_images/nl/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ Het eerste probleem waarop we ons zullen richten is het modelleren van de epidem
 
 Omdat we willen demonstreren hoe je met data omgaat, nodigen we je uit om [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) te openen en deze van boven naar beneden te lezen. Je kunt ook cellen uitvoeren en enkele uitdagingen aangaan die we aan het einde voor je hebben achtergelaten.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.nl.png)
+![COVID Spread](../../../../translated_images/nl/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Als je niet weet hoe je code uitvoert in Jupyter Notebook, bekijk dan [dit artikel](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,7 +241,7 @@ Een volledig voorbeeld van het analyseren van deze dataset met behulp van de [Te
 
 Open [`notebook-papers.ipynb`](notebook-papers.ipynb) en lees deze van boven naar beneden. Je kunt ook cellen uitvoeren en enkele uitdagingen aangaan die we aan het einde voor je hebben achtergelaten.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.nl.png)
+![Covid Medical Treatment](../../../../translated_images/nl/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Verwerken van afbeeldingsdata
 

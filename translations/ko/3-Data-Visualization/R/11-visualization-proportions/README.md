@@ -92,7 +92,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 짜잔, 이 두 가지 버섯 클래스에 따라 데이터 비율을 보여주는 파이 차트가 완성되었습니다. 레이블 배열을 생성할 때 순서를 올바르게 설정하는 것이 특히 중요하므로 반드시 확인하세요!
 
-![pie chart](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.ko.png)
+![pie chart](../../../../../translated_images/ko/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## 도넛!
 
@@ -126,7 +126,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![donut chart](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.ko.png)
+![donut chart](../../../../../translated_images/ko/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 이 코드는 두 개의 라이브러리 - ggplot2와 webr을 사용합니다. webr 라이브러리의 PieDonut 함수를 사용하면 도넛 차트를 쉽게 만들 수 있습니다!
 
@@ -164,7 +164,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 와플 차트를 사용하면 이 버섯 데이터셋의 갓 색상 비율을 명확히 볼 수 있습니다. 흥미롭게도 녹색 갓을 가진 버섯이 많이 있습니다!
 
-![waffle chart](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.ko.png)
+![waffle chart](../../../../../translated_images/ko/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 이 강의에서는 비율을 시각화하는 세 가지 방법을 배웠습니다. 먼저 데이터를 카테고리로 그룹화한 후 데이터를 표시하는 가장 적합한 방법 - 파이, 도넛, 또는 와플을 결정해야 합니다. 모두 맛있고 사용자에게 데이터셋의 즉각적인 스냅샷을 제공합니다.
 

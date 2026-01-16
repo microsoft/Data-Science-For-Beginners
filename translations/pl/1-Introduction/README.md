@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Wprowadzenie do Data Science
 
-![dane w akcji](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.pl.jpg)  
+![dane w akcji](../../../translated_images/pl/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)  
 > Zdjęcie autorstwa <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephena Dawsona</a> na <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 W tych lekcjach odkryjesz, czym jest Data Science, oraz poznasz kwestie etyczne, które musi brać pod uwagę data scientist. Dowiesz się również, jak definiowane są dane, a także zapoznasz się z podstawami statystyki i prawdopodobieństwa, które są kluczowymi dziedzinami akademickimi w Data Science.

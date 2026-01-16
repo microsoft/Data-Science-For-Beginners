@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Verilerle Çalışmak
 
-![veri aşkı](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.tr.jpg)
+![veri aşkı](../../../translated_images/tr/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Fotoğraf: <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a>, <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> üzerinden
   
 Bu derslerde, verilerin nasıl yönetilebileceği, işlenebileceği ve uygulamalarda kullanılabileceği yolları öğreneceksiniz. İlişkisel ve ilişkisel olmayan veritabanlarını ve verilerin bu veritabanlarında nasıl saklanabileceğini keşfedeceksiniz. Verileri yönetmek için Python ile çalışmanın temellerini öğrenecek ve Python ile verileri yönetmek ve analiz etmek için kullanabileceğiniz birçok yöntemi keşfedeceksiniz.

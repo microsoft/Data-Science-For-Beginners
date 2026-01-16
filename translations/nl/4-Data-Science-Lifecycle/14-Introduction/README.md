@@ -25,7 +25,7 @@ Op dit punt heb je waarschijnlijk al door dat data science een proces is. Dit pr
 
 Deze les richt zich op 3 delen van de lifecycle: vastleggen, verwerken en onderhouden.
 
-![Diagram van de data science lifecycle](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.nl.jpg)  
+![Diagram van de data science lifecycle](../../../../translated_images/nl/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
 > Foto door [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Vastleggen
@@ -101,7 +101,7 @@ Verken de [Team Data Science Process lifecycle](https://docs.microsoft.com/en-us
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![Team Data Science Lifecycle](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.nl.png) | ![Data Science Process Alliance Image](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.nl.png) |
+|![Team Data Science Lifecycle](../../../../translated_images/nl/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Data Science Process Alliance Image](../../../../translated_images/nl/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Afbeelding door [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Afbeelding door [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/27)

@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Aici, instalezi pachetul `ggplot2` și apoi îl importi în spațiul de lucru folosind comanda `library("ggplot2")`. Pentru a crea orice grafic în ggplot, se folosește funcția `ggplot()` și specifici setul de date, variabilele x și y ca atribute. În acest caz, folosim funcția `geom_line()` deoarece dorim să creăm un grafic liniar.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.ro.png)
+![MaxWingspan-lineplot](../../../../../translated_images/ro/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Ce observi imediat? Pare să existe cel puțin un outlier - ce anvergură impresionantă! O anvergură de peste 2000 de centimetri înseamnă mai mult de 20 de metri - sunt Pterodactili care zboară prin Minnesota? Să investigăm.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Specificăm unghiul în `theme` și specificăm etichetele axelor x și y în `xlab()` și `ylab()` respectiv. Funcția `ggtitle()` oferă un nume graficului.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.ro.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/ro/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Chiar și cu rotația etichetelor setată la 45 de grade, sunt prea multe pentru a fi citite. Să încercăm o strategie diferită: etichetează doar outlierii și setează etichetele în interiorul graficului. Poți folosi un grafic scatter pentru a face mai mult loc etichetării:
 
@@ -100,7 +100,7 @@ Ce se întâmplă aici? Ai folosit funcția `geom_point()` pentru a reprezenta p
 
 Ce descoperi?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.ro.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/ro/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Filtrează datele tale
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Am creat un nou cadru de date `birds_filtered` și apoi am reprezentat un grafic scatter. Prin filtrarea outlierilor, datele tale sunt acum mai coerente și mai ușor de înțeles.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.ro.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/ro/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Acum că avem un set de date mai curat, cel puțin în ceea ce privește anvergura aripilor, să descoperim mai multe despre aceste păsări.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 În următorul fragment, instalăm pachetele [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) și [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) pentru a ajuta la manipularea și gruparea datelor în vederea creării unui grafic cu bare stivuite. Mai întâi, grupăm datele după `Category` și apoi sumarizăm coloanele `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Apoi, reprezentăm graficul cu bare folosind pachetul `ggplot2` și specificăm culorile pentru diferitele categorii și etichetele.  
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.ro.png)
+![Stacked bar chart](../../../../../translated_images/ro/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Acest grafic cu bare, totuși, este greu de citit deoarece există prea multe date negrupate. Trebuie să selectezi doar datele pe care vrei să le reprezinți grafic, așa că să analizăm lungimea păsărilor în funcție de categoria lor.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Mai întâi numeri valorile unice din coloana `Category` și apoi le sortezi într-un nou cadru de date `birds_count`. Aceste date sortate sunt apoi factorizate la același nivel pentru a fi reprezentate grafic în mod ordonat. Folosind `ggplot2`, reprezinți grafic datele într-un grafic cu bare. Funcția `coord_flip()` afișează barele orizontal.  
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.ro.png)
+![category-length](../../../../../translated_images/ro/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Acest grafic cu bare oferă o vedere bună asupra numărului de păsări din fiecare categorie. Dintr-o privire, vezi că cel mai mare număr de păsări din această regiune sunt în categoria Rațe/Gâște/Păsări acvatice. Minnesota este 'țara celor 10.000 de lacuri', așa că acest lucru nu este surprinzător!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Grupăm datele `birds_filtered` după `Category` și apoi reprezentăm grafic un grafic cu bare.  
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.ro.png)
+![comparing data](../../../../../translated_images/ro/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Nimic nu este surprinzător aici: colibrii au cea mai mică LungimeMaximă comparativ cu Pelicanii sau Gâștele. Este bine când datele au sens logic!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.ro.png)
+![super-imposed values](../../../../../translated_images/ro/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Provocare
 

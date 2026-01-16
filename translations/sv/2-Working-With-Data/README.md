@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Arbeta med data
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.sv.jpg)
+![data love](../../../translated_images/sv/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Foto av <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> på <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 I dessa lektioner kommer du att lära dig några av de sätt som data kan hanteras, manipuleras och användas i applikationer. Du kommer att lära dig om relations- och icke-relationsdatabaser och hur data kan lagras i dem. Du kommer att lära dig grunderna i att arbeta med Python för att hantera data, och du kommer att upptäcka några av de många sätten du kan använda Python för att hantera och analysera data.

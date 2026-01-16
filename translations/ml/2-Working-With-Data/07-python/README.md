@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Python ഉപയോഗിച്ച് പ്രവർത്തിക്കൽ - _Sketchnote by [@nitya](https://twitter.com/nitya)_                 |
 
-[![Intro Video](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.ml.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Intro Video](../../../../translated_images/ml/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 ഡാറ്റാബേസുകൾ ഡാറ്റ സംഭരിക്കാനും ക്വറി ഭാഷകൾ ഉപയോഗിച്ച് അവയെ ക്വറി ചെയ്യാനും വളരെ കാര്യക്ഷമമായ മാർഗങ്ങൾ നൽകുമ്പോഴും, ഡാറ്റ പ്രോസസ്സിംഗിന്റെ ഏറ്റവും ലവച്ഛമായ മാർഗം ഡാറ്റ കൈകാര്യം ചെയ്യാൻ നിങ്ങളുടെ സ്വന്തം പ്രോഗ്രാം എഴുതുകയാണ്. പലപ്പോഴും, ഡാറ്റാബേസ് ക്വറി ചെയ്യുന്നത് കൂടുതൽ ഫലപ്രദമായ മാർഗമായിരിക്കും. എന്നാൽ, കൂടുതൽ സങ്കീർണ്ണമായ ഡാറ്റ പ്രോസസ്സിംഗ് ആവശ്യമായപ്പോൾ, അത് എളുപ്പത്തിൽ SQL ഉപയോഗിച്ച് ചെയ്യാനാകില്ല.  
 ഡാറ്റ പ്രോസസ്സിംഗ് ഏതെങ്കിലും പ്രോഗ്രാമിംഗ് ഭാഷയിൽ പ്രോഗ്രാം ചെയ്യാം, പക്ഷേ ഡാറ്റ കൈകാര്യം ചെയ്യുന്നതിൽ ഉയർന്ന തലത്തിലുള്ള ചില ഭാഷകൾ ഉണ്ട്. ഡാറ്റ സയന്റിസ്റ്റുകൾ സാധാരണയായി താഴെപ്പറയുന്ന ഭാഷകളിൽ ഒന്നിനെ മുൻഗണന നൽകുന്നു:
@@ -75,7 +75,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Time Series Plot](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.ml.png)
+![Time Series Plot](../../../../translated_images/ml/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 ഇപ്പോൾ ഓരോ ആഴ്ചയും നാം സുഹൃത്തുക്കൾക്കായി പാർട്ടി സംഘടിപ്പിക്കുന്നു, പാർട്ടിക്കായി അധികം 10 പാക്ക് ഐസ്‌ക്രീം കൊണ്ടുവരുന്നു എന്ന് കരുതുക. ആ ആഴ്ചയുടെ ഇൻഡക്സ് ഉപയോഗിച്ച് മറ്റൊരു സീരീസ് സൃഷ്ടിക്കാം:
 ```python
@@ -86,7 +86,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Time Series Plot](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.ml.png)
+![Time Series Plot](../../../../translated_images/ml/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **കുറിപ്പ്**: നാം ലളിതമായ `total_items+additional_items` സിന്താക്സ് ഉപയോഗിക്കുന്നില്ല. അതുപയോഗിച്ചാൽ, ഫലസീരീസിൽ പല `NaN` (*Not a Number*) മൂല്യങ്ങളും ഉണ്ടാകുമായിരിക്കും. കാരണം `additional_items` സീരീസിൽ ചില ഇൻഡക്സ് പോയിന്റുകൾക്ക് മൂല്യങ്ങൾ ഇല്ല, `NaN` യെ ഏതെങ്കിലും മൂല്യത്തിലേക്ക് കൂട്ടിച്ചേർക്കുമ്പോൾ ഫലം `NaN` ആകുന്നു. അതിനാൽ കൂട്ടിച്ചേർക്കുമ്പോൾ `fill_value` പാരാമീറ്റർ നിർദ്ദേശിക്കേണ്ടതാണ്.
 
@@ -95,7 +95,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Monthly Time Series Averages](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.ml.png)
+![Monthly Time Series Averages](../../../../translated_images/ml/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### ഡാറ്റാഫ്രെയിം
 
@@ -224,7 +224,7 @@ df = pd.read_csv('file.csv')
 
 ഡാറ്റ കൈകാര്യം ചെയ്യുന്നത് എങ്ങനെ എന്ന് കാണിക്കാൻ, നിങ്ങൾക്ക് [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) തുറന്ന് മുകളിൽ നിന്ന് താഴേക്ക് വായിക്കാൻ ഞങ്ങൾ ക്ഷണിക്കുന്നു. സെല്ലുകൾ പ്രവർത്തിപ്പിക്കാനും, അവസാനം നാം നിങ്ങൾക്കായി വെച്ച ചില ചലഞ്ചുകൾ ചെയ്യാനും കഴിയും.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.ml.png)
+![COVID Spread](../../../../translated_images/ml/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Jupyter Notebook ൽ കോഡ് എങ്ങനെ റൺ ചെയ്യാമെന്ന് അറിയില്ലെങ്കിൽ, [ഈ ലേഖനം](https://soshnikov.com/education/how-to-execute-notebooks-from-github/) കാണുക.
 
@@ -246,7 +246,7 @@ df = pd.read_csv('file.csv')
 
 [`notebook-papers.ipynb`](notebook-papers.ipynb) തുറന്ന് മുകളിൽ നിന്ന് താഴേക്ക് വായിക്കുക. സെല്ലുകൾ പ്രവർത്തിപ്പിക്കാനും, അവസാനം നാം നിങ്ങൾക്കായി വെച്ച ചില ചലഞ്ചുകൾ ചെയ്യാനും കഴിയും.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.ml.png)
+![Covid Medical Treatment](../../../../translated_images/ml/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## ചിത്ര ഡാറ്റ പ്രോസസ്സിംഗ്
 

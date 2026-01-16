@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Praca z danymi
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.pl.jpg)
+![data love](../../../translated_images/pl/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Zdjęcie autorstwa <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> na <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 W tych lekcjach nauczysz się, jak dane mogą być zarządzane, manipulowane i wykorzystywane w aplikacjach. Dowiesz się o bazach danych relacyjnych i nierelacyjnych oraz o tym, jak dane mogą być w nich przechowywane. Poznasz podstawy pracy z Pythonem w celu zarządzania danymi oraz odkryjesz różne sposoby pracy z Pythonem, aby zarządzać i analizować dane.

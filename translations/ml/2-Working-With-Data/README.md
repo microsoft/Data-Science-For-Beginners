@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ഡാറ്റയുമായി പ്രവർത്തിക്കൽ
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.ml.jpg)
+![data love](../../../translated_images/ml/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > ഫോട്ടോ <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> യുടെ <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> ൽ നിന്നാണ്
   
 ഈ പാഠങ്ങളിൽ, ഡാറ്റ എങ്ങനെ കൈകാര്യം ചെയ്യാമെന്ന്, മാറ്റം വരുത്താമെന്ന്, ആപ്ലിക്കേഷനുകളിൽ ഉപയോഗിക്കാമെന്ന് നിങ്ങൾ പഠിക്കും. ബന്ധപരമായ (relational) ഡാറ്റാബേസുകളും ബന്ധമില്ലാത്ത (non-relational) ഡാറ്റാബേസുകളും എന്താണെന്ന്, അവയിൽ ഡാറ്റ എങ്ങനെ സൂക്ഷിക്കാമെന്ന് നിങ്ങൾ അറിയും. ഡാറ്റ കൈകാര്യം ചെയ്യാൻ പൈത്തൺ ഉപയോഗിക്കുന്നതിന്റെ അടിസ്ഥാനങ്ങൾ നിങ്ങൾ പഠിക്കും, കൂടാതെ പൈത്തൺ ഉപയോഗിച്ച് ഡാറ്റ കൈകാര്യം ചെയ്യാനും ഡാറ്റയിൽ നിന്ന് വിവരങ്ങൾ കണ്ടെത്താനും ഉള്ള നിരവധി മാർഗങ്ങൾ നിങ്ങൾ കണ്ടെത്തും.  

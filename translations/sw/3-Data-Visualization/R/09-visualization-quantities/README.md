@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Hapa, unasakinisha kifurushi cha `ggplot2` na kisha unakileta kwenye workspace kwa kutumia amri `library("ggplot2")`. Ili kuchora mchoro wowote katika ggplot, kazi ya `ggplot()` inatumika na unataja seti ya data, vigezo vya x na y kama sifa. Katika kesi hii, tunatumia kazi ya `geom_line()` kwa kuwa tunalenga kuchora mchoro wa mstari.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.sw.png)
+![MaxWingspan-lineplot](../../../../../translated_images/sw/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Unagundua nini mara moja? Inaonekana kuna angalau kipengele kimoja cha nje - huo ni upana wa mabawa wa ajabu! Upana wa mabawa wa zaidi ya sentimita 2000 ni zaidi ya mita 20 - kuna Pterodactyls wanaozunguka Minnesota? Hebu tuchunguze.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Tunataja pembe katika `theme` na tunataja lebo za mhimili wa x na y katika `xlab()` na `ylab()` mtawalia. `ggtitle()` inatoa jina kwa grafu/mchoro.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.sw.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/sw/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Hata kwa mzunguko wa lebo uliowekwa kwa digrii 45, kuna nyingi sana kusoma. Hebu jaribu mkakati tofauti: lebo tu kwa vipengele vya nje na weka lebo ndani ya mchoro. Unaweza kutumia mchoro wa scatter ili kutoa nafasi zaidi kwa kuweka lebo:
 
@@ -100,7 +100,7 @@ Nini kinaendelea hapa? Ulitumia kazi ya `geom_point()` kuchora alama za scatter.
 
 Unagundua nini?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.sw.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/sw/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Chuja data yako
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Tulitengeneza dataframe mpya `birds_filtered` na kisha tukachora mchoro wa scatter. Kwa kuchuja vipengele vya nje, data yako sasa ni ya mshikamano zaidi na inayoeleweka.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.sw.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/sw/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Sasa kwa kuwa tuna seti ya data safi angalau kwa suala la upana wa mabawa, hebu tujifunze zaidi kuhusu ndege hawa.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 Katika kipande kinachofuata, tunasakinisha vifurushi vya [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) na [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) ili kusaidia kudhibiti na kuunda data kwa lengo la kuchora mchoro wa bar uliojaa. Kwanza, unagawanya data kwa `Category` ya ndege na kisha unatoa muhtasari wa safu za `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Kisha, unachora mchoro wa bar kwa kutumia kifurushi cha `ggplot2` na kutaja rangi kwa kategoria tofauti na lebo.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.sw.png)
+![Stacked bar chart](../../../../../translated_images/sw/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Hata hivyo, mchoro huu wa bar hauwezi kusomeka kwa sababu kuna data nyingi isiyogawanywa. Unahitaji kuchagua tu data unayotaka kuchora, kwa hivyo hebu tuangalie urefu wa ndege kulingana na kategoria yao.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Kwanza unahesabu thamani za kipekee katika safu ya `Category` na kisha unazipanga katika dataframe mpya `birds_count`. Data hii iliyopangwa kisha inafanywa kuwa ya kiwango sawa ili iweze kuchorwa kwa mpangilio uliopangwa. Kwa kutumia `ggplot2` unachora data katika mchoro wa bar. `coord_flip()` inachora bar wima.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.sw.png)
+![category-length](../../../../../translated_images/sw/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Mchoro huu wa bar unaonyesha mtazamo mzuri wa idadi ya ndege katika kila kategoria. Kwa haraka, unaona kwamba idadi kubwa ya ndege katika eneo hili wako katika kategoria ya Ducks/Geese/Waterfowl. Minnesota ni 'ardhi ya maziwa 10,000' kwa hivyo hili si la kushangaza!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Tunagawanya data ya `birds_filtered` kwa `Category` na kisha tunachora mchoro wa bar.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.sw.png)
+![comparing data](../../../../../translated_images/sw/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Hakuna la kushangaza hapa: hummingbirds wana MaxLength ndogo zaidi ikilinganishwa na Pelicans au Geese. Ni vizuri wakati data ina mantiki!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.sw.png)
+![super-imposed values](../../../../../translated_images/sw/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Changamoto
 

@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.ne.png)
+![scatterplot 1](../../../../../translated_images/ne/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 अब, महको मूल्य वर्ष-प्रति-वर्ष कसरी परिवर्तन भएको छ भनेर देखाउन महको रंग योजना प्रयोग गरेर उही डेटा देखाउनुहोस्। तपाईंले 'scale_color_gradientn' प्यारामिटर थपेर यो गर्न सक्नुहुन्छ:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.ne.png)
+![scatterplot 2](../../../../../translated_images/ne/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 यो रंग योजनाको परिवर्तनसँगै, तपाईंले स्पष्ट रूपमा देख्न सक्नुहुन्छ कि महको प्रति पाउन्ड मूल्य वर्ष-प्रति-वर्ष बलियो रूपमा बढिरहेको छ। उदाहरणका लागि, एरिजोना राज्यको डेटा हेर्दा, मूल्यमा वर्ष-प्रति-वर्ष वृद्धि भएको देखिन्छ, केही अपवादहरू बाहेक:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 तपाईंले डटहरूको आकार क्रमशः बढिरहेको देख्न सक्नुहुन्छ।
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.ne.png)
+![scatterplot 3](../../../../../translated_images/ne/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 के यो आपूर्ति र मागको साधारण मामला हो? जलवायु परिवर्तन र कोलोनी कोलाप्स जस्ता कारकहरूको कारण, के वर्ष-प्रति-वर्ष किन्नको लागि कम मह उपलब्ध छ, जसका कारण मूल्य बढिरहेको छ?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 उत्तर: हो, २००३ को आसपास केही अपवादहरूका साथ:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.ne.png)
+![line chart 1](../../../../../translated_images/ne/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 प्रश्न: २००३ मा के महको आपूर्तिमा पनि वृद्धि देखिन्छ? कुल उत्पादन वर्ष-प्रति-वर्ष हेर्दा के देखिन्छ?
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.ne.png)
+![line chart 2](../../../../../translated_images/ne/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 उत्तर: खासै होइन। कुल उत्पादन हेर्दा, त्यो वर्षमा वास्तवमा वृद्धि भएको देखिन्छ, यद्यपि सामान्य रूपमा मह उत्पादन ती वर्षहरूमा घट्दो क्रममा छ।
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 यस दृश्यमा, तपाईंले प्रति उपनिवेश उत्पादन र उपनिवेशहरूको संख्या वर्ष-प्रति-वर्ष, राज्य-प्रति-राज्य तुलना गर्न सक्नुहुन्छ, ३ स्तम्भमा सेट गरिएको र्यापसँग:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.ne.png)
+![facet grid](../../../../../translated_images/ne/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 यस डेटासेटका लागि, उपनिवेशहरूको संख्या र तिनको उत्पादनमा वर्ष-प्रति-वर्ष र राज्य-प्रति-राज्य केही विशेष कुरा देखिँदैन। के यी दुई चरहरू बीचको सम्बन्ध पत्ता लगाउन हेर्ने अर्को तरिका छ?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.ne.png)
+![superimposed plots](../../../../../translated_images/ne/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 २००३ को आसपास आँखा तान्ने केही देखिँदैन, तर यसले हामीलाई यो पाठलाई अलिकति खुसीको नोटमा अन्त्य गर्न अनुमति दिन्छ: उपनिवेशहरूको संख्या घट्दो भए पनि, उपनिवेशहरूको संख्या स्थिर हुँदैछ, यद्यपि तिनको प्रति उपनिवेश उत्पादन घट्दो छ।
 

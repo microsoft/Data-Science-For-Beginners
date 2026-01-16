@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.ro.png)
+![scatterplot 1](../../../../../translated_images/ro/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 Acum, afișează aceleași date cu o schemă de culori inspirată de miere pentru a arăta cum evoluează prețul de-a lungul anilor. Poți face acest lucru adăugând un parametru 'scale_color_gradientn' pentru a arăta schimbarea, an după an:
 
@@ -61,7 +61,7 @@ Acum, afișează aceleași date cu o schemă de culori inspirată de miere pentr
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.ro.png)
+![scatterplot 2](../../../../../translated_images/ro/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 Cu această schimbare de schemă de culori, poți observa clar o progresie puternică de-a lungul anilor în ceea ce privește prețul mierii per kilogram. De fapt, dacă analizezi un set de date exemplu pentru a verifica (alege un stat, Arizona, de exemplu), poți observa un model de creștere a prețului an după an, cu câteva excepții:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Poți observa cum dimensiunea punctelor crește treptat.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.ro.png)
+![scatterplot 3](../../../../../translated_images/ro/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 Este acesta un caz simplu de cerere și ofertă? Din cauza unor factori precum schimbările climatice și colapsul coloniilor, există mai puțină miere disponibilă pentru cumpărare an după an, iar astfel prețul crește?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Răspuns: Da, cu câteva excepții în jurul anului 2003:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.ro.png)
+![line chart 1](../../../../../translated_images/ro/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 Întrebare: Ei bine, în 2003 putem observa și o creștere a stocului de miere? Ce se întâmplă dacă analizezi producția totală an după an?
 
@@ -115,7 +115,7 @@ Răspuns: Da, cu câteva excepții în jurul anului 2003:
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.ro.png)
+![line chart 2](../../../../../translated_images/ro/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 Răspuns: Nu chiar. Dacă te uiți la producția totală, pare să fi crescut în acel an, deși, în general, cantitatea de miere produsă este în scădere în acești ani.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 În această vizualizare, poți compara producția per colonie și numărul de colonii an după an, alăturate, cu o grilă setată la 3 coloane:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.ro.png)
+![facet grid](../../../../../translated_images/ro/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 Pentru acest set de date, nimic nu pare să iasă în evidență în ceea ce privește numărul de colonii și producția lor, an după an și stat după stat. Există o altă modalitate de a găsi o corelație între aceste două variabile?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.ro.png)
+![superimposed plots](../../../../../translated_images/ro/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 Deși nimic nu sare în ochi în jurul anului 2003, acest lucru ne permite să încheiem lecția pe o notă puțin mai optimistă: deși numărul de colonii este în scădere, acesta pare să se stabilizeze, chiar dacă producția per colonie este în scădere.
 

@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Data Science v cloude
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.sk.jpg)
+![cloud-picture](../../../translated_images/sk/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Foto od [Jelleke Vanooteghem](https://unsplash.com/@ilumire) z [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Keď ide o prácu s veľkými dátami v oblasti dátovej vedy, cloud môže byť prelomovým riešením. V nasledujúcich troch lekciách si vysvetlíme, čo je to cloud a prečo môže byť veľmi užitočný. Taktiež preskúmame dataset o zlyhaní srdca a vytvoríme model, ktorý pomôže odhadnúť pravdepodobnosť, že niekto zažije zlyhanie srdca. Využijeme silu cloudu na trénovanie, nasadenie a používanie modelu dvoma rôznymi spôsobmi. Jeden spôsob bude využívať iba používateľské rozhranie v štýle Low code/No code, druhý spôsob bude využívať Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.sk.png)
+![project-schema](../../../translated_images/sk/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Témy
 

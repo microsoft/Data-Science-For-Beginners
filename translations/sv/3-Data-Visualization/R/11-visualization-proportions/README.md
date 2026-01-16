@@ -93,7 +93,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voilà, ett pajdiagram som visar proportionerna av denna data enligt dessa två svampklasser. Det är ganska viktigt att få ordningen på etiketterna rätt, särskilt här, så se till att verifiera ordningen när etikettarrayen byggs!
 
-![pajdiagram](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.sv.png)
+![pajdiagram](../../../../../translated_images/sv/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Donuts!
 
@@ -127,7 +127,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![donutdiagram](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.sv.png)
+![donutdiagram](../../../../../translated_images/sv/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Denna kod använder de två biblioteken ggplot2 och webr. Med hjälp av funktionen PieDonut i webr-biblioteket kan vi enkelt skapa ett donutdiagram!
 
@@ -165,7 +165,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Med ett våffeldiagram kan du tydligt se proportionerna av hattfärger i detta svampdataset. Intressant nog finns det många svampar med gröna hattar!
 
-![våffeldiagram](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.sv.png)
+![våffeldiagram](../../../../../translated_images/sv/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 I den här lektionen lärde du dig tre sätt att visualisera proportioner. Först behöver du gruppera din data i kategorier och sedan bestämma vilket som är det bästa sättet att visa datan - paj, donut eller våffla. Alla är läckra och ger användaren en omedelbar överblick av ett dataset.
 

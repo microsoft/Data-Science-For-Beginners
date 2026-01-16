@@ -25,7 +25,7 @@ Do zdaj ste verjetno že ugotovili, da je podatkovna znanost proces. Ta proces l
 
 Ta lekcija se osredotoča na 3 dele življenjskega cikla: zajemanje, obdelavo in vzdrževanje.
 
-![Diagram življenjskega cikla podatkovne znanosti](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.sl.jpg)
+![Diagram življenjskega cikla podatkovne znanosti](../../../../translated_images/sl/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > Fotografija avtorja [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Zajemanje
@@ -101,7 +101,7 @@ Raziščite [življenjski cikel procesa podatkovne znanosti ekipe](https://docs.
 
 |Proces podatkovne znanosti ekipe (TDSP)|Križnoindustrijski standardni proces za rudarjenje podatkov (CRISP-DM)|
 |--|--|
-|![Življenjski cikel procesa podatkovne znanosti ekipe](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.sl.png) | ![Slika procesa CRISP-DM](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.sl.png) |
+|![Življenjski cikel procesa podatkovne znanosti ekipe](../../../../translated_images/sl/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Slika procesa CRISP-DM](../../../../translated_images/sl/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Slika avtorja [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Slika avtorja [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Kviz po predavanju](https://ff-quizzes.netlify.app/en/ds/quiz/27)

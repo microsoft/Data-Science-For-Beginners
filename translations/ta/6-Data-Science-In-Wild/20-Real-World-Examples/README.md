@@ -41,7 +41,7 @@ AI-யின் ஜனநாயகமயமாக்கலுக்கு நன
 
  * [சுகாதாரத்தில் தரவியல் அறிவியல்](https://data-flair.training/blogs/data-science-in-healthcare/) - மருத்துவ படங்கள் (எ.கா., MRI, X-Ray, CT-Scan), ஜீனோமிக்ஸ் (DNA வரிசைப்படுத்தல்), மருந்து மேம்பாடு (அபாய மதிப்பீடு, வெற்றியின் கணிப்பு), முன்கூட்டிய கணிப்புகள் (நோயாளி பராமரிப்பு & வழங்கல் தளவாடங்கள்), நோய் கண்காணிப்பு மற்றும் தடுப்பு போன்ற பயன்பாடுகளை விளக்குகிறது.
 
-![உண்மையான உலகில் தரவியல் அறிவியல் பயன்பாடுகள்](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.ta.png) படத்தின் உரிமை: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![உண்மையான உலகில் தரவியல் அறிவியல் பயன்பாடுகள்](../../../../translated_images/ta/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) படத்தின் உரிமை: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 இந்த படத்தில் தரவியல் அறிவியல் தொழில்நுட்பங்களைப் பயன்படுத்துவதற்கான பிற துறைகள் மற்றும் உதாரணங்கள் காட்டப்படுகின்றன. பிற பயன்பாடுகளை ஆராய விரும்புகிறீர்களா? கீழே உள்ள [மதிப்பீடு & சுய கற்றல்](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) பிரிவைப் பாருங்கள்.
 

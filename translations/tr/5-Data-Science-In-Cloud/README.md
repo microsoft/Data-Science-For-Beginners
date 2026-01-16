@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Bulutta Veri Bilimi
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.tr.jpg)
+![cloud-picture](../../../translated_images/tr/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Fotoğraf: [Jelleke Vanooteghem](https://unsplash.com/@ilumire) tarafından [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape) üzerinden sağlanmıştır.
 
 Büyük veriyle veri bilimi yaparken, bulut gerçek bir oyun değiştirici olabilir. Önümüzdeki üç derste, bulutun ne olduğunu ve neden çok faydalı olabileceğini göreceğiz. Ayrıca bir kalp yetmezliği veri setini inceleyecek ve bir kişinin kalp yetmezliği yaşama olasılığını değerlendirmeye yardımcı olacak bir model oluşturacağız. Bulutun gücünü kullanarak bir modeli iki farklı şekilde eğitecek, dağıtacak ve tüketeceğiz. Birinci yöntem, yalnızca kullanıcı arayüzünü kullanarak Düşük Kod/Kodsuz bir yaklaşımla; ikinci yöntem ise Azure Machine Learning Yazılım Geliştirme Kiti'ni (Azure ML SDK) kullanarak olacak.
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.tr.png)
+![project-schema](../../../translated_images/tr/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Konular
 

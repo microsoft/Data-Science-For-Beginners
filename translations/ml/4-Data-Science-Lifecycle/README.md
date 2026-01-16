@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ഡാറ്റ സയൻസ് ലൈഫ്‌സൈക്കിൾ
 
-![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.ml.jpg)
+![communication](../../../translated_images/ml/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
 > ഫോട്ടോ <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ഹെഡ്‌വേ</a> യുടെ <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">അൺസ്പ്ലാഷിൽ</a>
   
 ഈ പാഠങ്ങളിൽ, ഡാറ്റ സയൻസ് ലൈഫ്‌സൈക്കിളിന്റെ ചില ഭാഗങ്ങൾ, ഡാറ്റ ചുറ്റിപ്പറ്റിയുള്ള വിശകലനവും ആശയവിനിമയവും ഉൾപ്പെടെ, നിങ്ങൾ അന്വേഷിക്കും.

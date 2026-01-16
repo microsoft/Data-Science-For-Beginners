@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Наука о подацима у облаку
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.sr.jpg)
+![cloud-picture](../../../translated_images/sr/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Фотографија од [Јелеке Ванутегем](https://unsplash.com/@ilumire) са [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Када је реч о примени науке о подацима на велике скупове података, облак може бити револуционарно решење. У наредне три лекције, видећемо шта је облак и зашто може бити веома користан. Такође ћемо истражити скуп података о срчаној инсуфицијенцији и изградити модел који ће помоћи у процени вероватноће да неко има срчану инсуфицијенцију. Искористићемо моћ облака да обучимо, применимо и користимо модел на два различита начина. Један начин користи само кориснички интерфејс у стилу "Low code/No code", а други начин користи Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.sr.png)
+![project-schema](../../../translated_images/sr/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Теме
 

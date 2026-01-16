@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![定義數據科學影片](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.mo.png)](https://youtu.be/beZ7Mb_oz9I)
+[![定義數據科學影片](../../../../translated_images/mo/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [課前測驗](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 在這個挑戰中，我們將透過分析文本來尋找與資料科學領域相關的概念。我們會選取一篇關於資料科學的維基百科文章，下載並處理文本，然後建立一個像這樣的文字雲：
 
-![資料科學文字雲](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.mo.png)
+![資料科學文字雲](../../../../translated_images/mo/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 請訪問 [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') 來閱讀程式碼。你也可以執行程式碼，並即時查看它如何進行所有的資料轉換。
 

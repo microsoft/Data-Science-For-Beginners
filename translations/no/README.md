@@ -33,7 +33,7 @@ Azure Cloud Advocates hos Microsoft er glade for å tilby en 10-ukers, 20-leksjo
 **🙏 Spesiell takk 🙏 til våre [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) forfattere, gjennomgåere og innholdsbidragsytere,** særlig Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
-|![Sketchnote av @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.no.png)|
+|![Sketchnote av @sketchthedocs https://sketchthedocs.dev](../../translated_images/no/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.png)|
 |:---:|
 | Data Science For Beginners - _Sketchnote av [@nitya](https://twitter.com/nitya)_ |
 
@@ -52,7 +52,7 @@ Azure Cloud Advocates hos Microsoft er glade for å tilby en 10-ukers, 20-leksjo
 
 Vi har en pågående Discord "Lær med AI"-serie, les mer og bli med oss på [Learn with AI Series](https://aka.ms/learnwithai/discord) fra 18. - 30. september 2025. Du vil få tips og triks for å bruke GitHub Copilot for Data Science.
 
-![Lær med AI-serien](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.no.jpg)
+![Lær med AI-serien](../../translated_images/no/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.jpg)
 
 # Er du student?
 
@@ -132,7 +132,7 @@ Hvert eksempel inneholder detaljerte kommentarer som forklarer hvert trinn, noe 
 ## Leksjoner
 
 
-|![ Sketchnote av @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.no.png)|
+|![ Sketchnote av @sketchthedocs https://sketchthedocs.dev](../../translated_images/no/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.png)|
 |:---:|
 | Data Science for nybegynnere: Veikart - _Sketchnote av [@nitya](https://twitter.com/nitya)_ |
 

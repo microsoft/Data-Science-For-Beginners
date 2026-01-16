@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Видео о дефинисању науке о подацима](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.sr.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Видео о дефинисању науке о подацима](../../../../translated_images/sr/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Квиз пре предавања](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -149,7 +149,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 У овом изазову, покушаћемо да пронађемо концепте релевантне за област науке о подацима анализирајући текстове. Узет ћемо Википедијски чланак о науци о подацима, преузети и обрадити текст, а затим направити облак речи попут овог:
 
-![Облак речи за науку о подацима](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.sr.png)
+![Облак речи за науку о подацима](../../../../translated_images/sr/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Посетите [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') да бисте прочитали код. Такође можете покренути код и видети како у реалном времену врши све трансформације података.
 

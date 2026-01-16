@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Video ng Pagpapakilala sa Data Science](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.tl.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Video ng Pagpapakilala sa Data Science](../../../../translated_images/tl/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ Kung nais nating gawing mas komplikado, maaari nating i-plot ang oras na ginugol
 
 Sa hamong ito, susubukan nating tukuyin ang mga konseptong may kaugnayan sa larangan ng Data Science sa pamamagitan ng pagsusuri sa mga teksto. Kukuha tayo ng isang artikulo mula sa Wikipedia tungkol sa Data Science, ida-download at ipoproseso ang teksto, at gagawa ng isang word cloud na ganito:
 
-![Word Cloud para sa Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.tl.png)
+![Word Cloud para sa Data Science](../../../../translated_images/tl/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Bisitahin ang [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') upang basahin ang code. Maaari mo ring patakbuhin ang code, at makita kung paano nito isinasagawa ang lahat ng data transformations sa real time.
 

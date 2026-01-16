@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Giới thiệu về Khoa học Dữ liệu
 
-![dữ liệu trong hành động](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.vi.jpg)  
+![dữ liệu trong hành động](../../../translated_images/vi/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)  
 > Ảnh của <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> trên <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Trong các bài học này, bạn sẽ khám phá cách Khoa học Dữ liệu được định nghĩa và tìm hiểu về các cân nhắc đạo đức mà một nhà khoa học dữ liệu cần lưu ý. Bạn cũng sẽ học cách dữ liệu được định nghĩa và tìm hiểu một chút về thống kê và xác suất, những lĩnh vực học thuật cốt lõi của Khoa học Dữ liệu.

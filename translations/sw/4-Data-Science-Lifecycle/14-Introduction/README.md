@@ -25,7 +25,7 @@ Hadi kufikia hatua hii, labda umebaini kuwa sayansi ya takwimu ni mchakato. Mcha
 
 Somo hili linazingatia sehemu tatu za mzunguko wa maisha: kukusanya, kuchakata, na kudumisha.
 
-![Mchoro wa mzunguko wa maisha wa sayansi ya takwimu](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.sw.jpg)  
+![Mchoro wa mzunguko wa maisha wa sayansi ya takwimu](../../../../translated_images/sw/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
 > Picha na [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Kukusanya
@@ -101,7 +101,7 @@ Chunguza [Mzunguko wa Maisha wa Mchakato wa Timu ya Sayansi ya Takwimu](https://
 
 |Mchakato wa Timu ya Sayansi ya Takwimu (TDSP)|Mchakato wa Kawaida wa Viwanda kwa Uchimbaji wa Takwimu (CRISP-DM)|
 |--|--|
-|![Mzunguko wa Maisha wa Timu ya Sayansi ya Takwimu](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.sw.png) | ![Picha ya Mchakato wa Sayansi ya Takwimu](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.sw.png) |
+|![Mzunguko wa Maisha wa Timu ya Sayansi ya Takwimu](../../../../translated_images/sw/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Picha ya Mchakato wa Sayansi ya Takwimu](../../../../translated_images/sw/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Picha na [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Picha na [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Jaribio la Baada ya Somo](https://ff-quizzes.netlify.app/en/ds/quiz/27)

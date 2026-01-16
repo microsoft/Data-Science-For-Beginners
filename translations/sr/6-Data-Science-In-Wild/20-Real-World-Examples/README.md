@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
  * [Наука о подацима у здравству](https://data-flair.training/blogs/data-science-in-healthcare/) - истиче апликације као што су медицинска сликања (нпр. MRI, X-Ray, CT-Scan), геномика (секвенцирање ДНК), развој лекова (процена ризика, предвиђање успеха), предиктивна аналитика (нега пацијената и логистика снабдевања), праћење и превенција болести итд.
 
-![Примене науке о подацима у стварном свету](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.sr.png) Извор слике: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Примене науке о подацима у стварном свету](../../../../translated_images/sr/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Извор слике: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Слика приказује друге домене и примере примене техника науке о подацима. Желите да истражите друге апликације? Погледајте секцију [Преглед и самостално учење](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) испод.
 

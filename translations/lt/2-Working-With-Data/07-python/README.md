@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Darbas su Python - _Sketchnote by [@nitya](https://twitter.com/nitya)_                   |
 
-[![Intro Video](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.lt.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Intro Video](../../../../translated_images/lt/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Nors duomenų bazės siūlo labai efektyvius būdus saugoti duomenis ir užklausas vykdyti naudojant užklausų kalbas, lankstiausias būdas apdoroti duomenis yra rašyti savo programą, kuri manipuliuoja duomenimis. Daugeliu atvejų duomenų bazės užklausa būtų efektyvesnis sprendimas. Tačiau kai kuriais atvejais, kai reikia sudėtingesnio duomenų apdorojimo, tai negali būti lengvai atlikta naudojant SQL. 
 Duomenų apdorojimas gali būti programuojamas bet kuria programavimo kalba, tačiau yra tam tikrų kalbų, kurios yra aukštesnio lygio dirbant su duomenimis. Duomenų mokslininkai paprastai renkasi vieną iš šių kalbų:
@@ -75,7 +75,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Laiko serijos grafikas](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.lt.png)
+![Laiko serijos grafikas](../../../../translated_images/lt/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Dabar tarkime, kad kiekvieną savaitę organizuojame vakarėlį draugams ir pasiimame papildomus 10 ledų pakuočių vakarėliui. Galime sukurti kitą seriją, indeksuotą savaitėmis, kad tai parodytume:
 ```python
@@ -86,7 +86,7 @@ Kai sudedame dvi serijas, gauname bendrą skaičių:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Laiko serijos grafikas](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.lt.png)
+![Laiko serijos grafikas](../../../../translated_images/lt/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Pastaba**: Mes nenaudojame paprastos sintaksės `total_items+additional_items`. Jei tai darytume, gautume daug `NaN` (*Not a Number*) reikšmių rezultato serijoje. Taip yra todėl, kad kai kuriems indeksų taškams serijoje `additional_items` trūksta reikšmių, o sudėjus `NaN` su bet kuo gaunamas `NaN`. Todėl reikia nurodyti `fill_value` parametrą sudėties metu.
 
@@ -95,7 +95,7 @@ Su laiko serijomis taip pat galime **perdaryti** seriją su skirtingais laiko in
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Mėnesio laiko serijos vidurkiai](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.lt.png)
+![Mėnesio laiko serijos vidurkiai](../../../../translated_images/lt/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### Duomenų rėmelis
 
@@ -221,7 +221,7 @@ Pirmoji problema, į kurią sutelksime dėmesį, yra COVID-19 epidemijos plitimo
 
 Kadangi norime parodyti, kaip dirbti su duomenimis, kviečiame atidaryti [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) ir perskaityti jį nuo pradžios iki pabaigos. Taip pat galite vykdyti langelius ir atlikti keletą iššūkių, kuriuos palikome jums pabaigoje.
 
-![COVID plitimas](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.lt.png)
+![COVID plitimas](../../../../translated_images/lt/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Jei nežinote, kaip vykdyti kodą Jupyter Notebook, peržiūrėkite [šį straipsnį](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -243,7 +243,7 @@ Pilnas šio duomenų rinkinio analizės pavyzdys naudojant [Text Analytics for H
 
 Atidarykite [`notebook-papers.ipynb`](notebook-papers.ipynb) ir perskaitykite jį nuo pradžios iki pabaigos. Taip pat galite vykdyti langelius ir atlikti keletą iššūkių, kuriuos palikome jums pabaigoje.
 
-![COVID medicininis gydymas](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.lt.png)
+![COVID medicininis gydymas](../../../../translated_images/lt/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Vaizdų duomenų apdorojimas
 

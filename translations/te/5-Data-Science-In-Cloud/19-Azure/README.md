@@ -57,7 +57,7 @@ SDK యొక్క ముఖ్యమైన ప్రాంతాలు:
 
 [మునుపటి పాఠంలో](../18-Low-Code/README.md), మేము ఎలా మోడల్‌ను శిక్షణ, డిప్లాయ్ మరియు వినియోగించాలో చూశాము, అది Low code/No code విధానంలో జరిగింది. మేము హార్ట్ ఫెయిల్యూర్ డేటాసెట్ ఉపయోగించి హార్ట్ ఫెయిల్యూర్ ప్రిడిక్షన్ మోడల్‌ను సృష్టించాము. ఈ పాఠంలో, అదే పని Azure Machine Learning SDK ఉపయోగించి చేయబోతున్నాము.
 
-![project-schema](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.te.png)
+![project-schema](../../../../translated_images/te/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### 1.2 హార్ట్ ఫెయిల్యూర్ ప్రిడిక్షన్ ప్రాజెక్ట్ మరియు డేటాసెట్ పరిచయం
 
@@ -74,7 +74,7 @@ SDK యొక్క ముఖ్యమైన ప్రాంతాలు:
 
 ముందుగా సృష్టించిన [Azure ML వర్క్‌స్పేస్](https://ml.azure.com/)లో, కంప్యూట్ మెనూకి వెళ్లండి, అక్కడ మీరు అందుబాటులో ఉన్న వివిధ కంప్యూట్ వనరులను చూడవచ్చు
 
-![compute-instance-1](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.te.png)
+![compute-instance-1](../../../../translated_images/te/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.png)
 
 జూపిటర్ నోట్బుక్ ప్రావిజన్ చేయడానికి కంప్యూట్ ఇన్స్టాన్స్ సృష్టిద్దాం.
 1. + New బటన్‌పై క్లిక్ చేయండి.
@@ -97,10 +97,10 @@ SDK యొక్క ముఖ్యమైన ప్రాంతాలు:
 
 1. Applications విభాగంలో, Jupyter ఎంపికపై క్లిక్ చేయండి.
 2. "Yes, I understand" బాక్స్‌ను టిక్ చేసి Continue బటన్‌పై క్లిక్ చేయండి.
-![notebook-1](../../../../translated_images/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.te.png)
+![notebook-1](../../../../translated_images/te/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.png)
 3. ఇది మీ జూపిటర్ నోట్బుక్ ఇన్స్టాన్స్‌తో కొత్త బ్రౌజర్ ట్యాబ్‌ను తెరుస్తుంది. నూతన నోట్బుక్ సృష్టించడానికి "New" బటన్‌పై క్లిక్ చేయండి.
 
-![notebook-2](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.te.png)
+![notebook-2](../../../../translated_images/te/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.png)
 
 ఇప్పుడు మనకు నోట్బుక్ ఉన్నందున, Azure ML SDK తో మోడల్ శిక్షణ ప్రారంభించవచ్చు.
 

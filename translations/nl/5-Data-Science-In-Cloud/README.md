@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Data Science in de Cloud
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.nl.jpg)
+![cloud-picture](../../../translated_images/nl/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Foto door [Jelleke Vanooteghem](https://unsplash.com/@ilumire) van [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Als het gaat om data science met big data, kan de cloud een echte gamechanger zijn. In de komende drie lessen gaan we bekijken wat de cloud is en waarom deze zo nuttig kan zijn. We gaan ook een dataset over hartfalen verkennen en een model bouwen om de kans op hartfalen bij iemand te beoordelen. We zullen de kracht van de cloud gebruiken om een model op twee verschillende manieren te trainen, implementeren en gebruiken. Eén manier maakt gebruik van alleen de gebruikersinterface in een Low code/No code-stijl, de andere manier maakt gebruik van de Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.nl.png)
+![project-schema](../../../translated_images/nl/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Onderwerpen
 

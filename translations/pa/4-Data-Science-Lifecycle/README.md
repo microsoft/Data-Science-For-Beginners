@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ਡਾਟਾ ਸਾਇੰਸ ਲਾਈਫਸਾਈਕਲ
 
-![ਸੰਚਾਰ](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.pa.jpg)
+![ਸੰਚਾਰ](../../../translated_images/pa/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
 > ਫੋਟੋ <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> ਦੁਆਰਾ <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 'ਤੇ
   
 ਇਨ੍ਹਾਂ ਪਾਠਾਂ ਵਿੱਚ, ਤੁਸੀਂ ਡਾਟਾ ਸਾਇੰਸ ਲਾਈਫਸਾਈਕਲ ਦੇ ਕੁਝ ਪਹਲੂਆਂ ਦੀ ਜਾਂਚ ਕਰੋਗੇ, ਜਿਸ ਵਿੱਚ ਡਾਟਾ ਦੇ ਵਿਸ਼ਲੇਸ਼ਣ ਅਤੇ ਸੰਚਾਰ ਸ਼ਾਮਲ ਹਨ।

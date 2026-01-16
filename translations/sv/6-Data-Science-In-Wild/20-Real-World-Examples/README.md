@@ -41,7 +41,7 @@ Tack vare AI:s demokratisering är det nu enklare för utvecklare att designa oc
 
  * [Data Science inom Hälsovård](https://data-flair.training/blogs/data-science-in-healthcare/) - lyfter fram tillämpningar som medicinsk bildbehandling (t.ex. MRI, röntgen, CT-skanning), genomik (DNA-sekvensering), läkemedelsutveckling (riskbedömning, framgångsprognoser), prediktiv analys (patientvård och logistik), sjukdomsspårning och förebyggande åtgärder.
 
-![Data Science-tillämpningar i Verkligheten](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.sv.png) Bildkälla: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Data Science-tillämpningar i Verkligheten](../../../../translated_images/sv/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Bildkälla: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Figuren visar andra områden och exempel på hur data science-tekniker kan tillämpas. Vill du utforska fler tillämpningar? Kolla in [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples)-avsnittet nedan.
 

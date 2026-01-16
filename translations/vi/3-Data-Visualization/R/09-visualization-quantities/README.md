@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 Ở đây, bạn cài đặt gói `ggplot2` và sau đó nhập nó vào workspace bằng lệnh `library("ggplot2")`. Để vẽ bất kỳ biểu đồ nào trong ggplot, hàm `ggplot()` được sử dụng và bạn chỉ định tập dữ liệu, các biến x và y làm thuộc tính. Trong trường hợp này, chúng ta sử dụng hàm `geom_line()` vì mục tiêu là vẽ biểu đồ đường.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.vi.png)
+![MaxWingspan-lineplot](../../../../../translated_images/vi/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Bạn nhận thấy điều gì ngay lập tức? Có vẻ như có ít nhất một giá trị ngoại lai - đó là một sải cánh khá lớn! Một sải cánh hơn 2000 cm tương đương hơn 20 mét - liệu có phải khủng long bay đang lang thang ở Minnesota? Hãy điều tra.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 Chúng ta chỉ định góc trong `theme` và chỉ định nhãn cho trục x và y trong `xlab()` và `ylab()` tương ứng. Hàm `ggtitle()` đặt tên cho biểu đồ.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.vi.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/vi/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Ngay cả khi xoay nhãn ở góc 45 độ, vẫn có quá nhiều nhãn để đọc. Hãy thử một chiến lược khác: chỉ gắn nhãn cho các giá trị ngoại lai và đặt nhãn trong biểu đồ. Bạn có thể sử dụng biểu đồ scatter để có thêm không gian cho việc gắn nhãn:
 
@@ -100,7 +100,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 
 Bạn phát hiện ra điều gì?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.vi.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/vi/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Lọc dữ liệu của bạn
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 Chúng ta đã tạo một dataframe mới `birds_filtered` và sau đó vẽ một biểu đồ scatter. Bằng cách lọc các giá trị ngoại lai, dữ liệu của bạn giờ đây trở nên gắn kết và dễ hiểu hơn.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.vi.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/vi/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Bây giờ chúng ta đã có một tập dữ liệu sạch hơn ít nhất là về sải cánh, hãy khám phá thêm về những loài chim này.
 
@@ -161,7 +161,7 @@ birds_filtered %>% group_by(Category) %>%
 ```
 Trong đoạn mã sau, chúng ta cài đặt các gói [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) và [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) để hỗ trợ thao tác và nhóm dữ liệu nhằm vẽ biểu đồ cột xếp chồng. Đầu tiên, bạn nhóm dữ liệu theo `Category` của chim và sau đó tóm tắt các cột `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Sau đó, vẽ biểu đồ cột bằng gói `ggplot2` và chỉ định màu sắc cho các loại khác nhau và nhãn.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.vi.png)
+![Stacked bar chart](../../../../../translated_images/vi/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Tuy nhiên, biểu đồ cột này khó đọc vì có quá nhiều dữ liệu không được nhóm. Bạn cần chọn chỉ dữ liệu mà bạn muốn vẽ, vì vậy hãy xem xét chiều dài của chim dựa trên loại của chúng.
 
@@ -176,7 +176,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```
 Bạn đầu tiên đếm các giá trị duy nhất trong cột `Category` và sau đó sắp xếp chúng vào một dataframe mới `birds_count`. Dữ liệu đã sắp xếp này sau đó được đưa vào cùng cấp để nó được vẽ theo cách đã sắp xếp. Sử dụng `ggplot2`, bạn sau đó vẽ dữ liệu trong một biểu đồ cột. Hàm `coord_flip()` vẽ các cột theo chiều ngang.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.vi.png)
+![category-length](../../../../../translated_images/vi/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Biểu đồ cột này cho thấy một cái nhìn tốt về số lượng chim trong mỗi loại. Trong nháy mắt, bạn thấy rằng số lượng chim lớn nhất trong khu vực này thuộc loại Vịt/ngỗng/chim nước. Minnesota là "vùng đất của 10.000 hồ" nên điều này không có gì ngạc nhiên!
 
@@ -199,7 +199,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```
 Chúng ta nhóm dữ liệu `birds_filtered` theo `Category` và sau đó vẽ một biểu đồ cột.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.vi.png)
+![comparing data](../../../../../translated_images/vi/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Không có gì ngạc nhiên ở đây: chim ruồi có chiều dài tối đa nhỏ nhất so với bồ nông hoặc ngỗng. Thật tốt khi dữ liệu có ý nghĩa logic!
 
@@ -211,7 +211,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.vi.png)
+![super-imposed values](../../../../../translated_images/vi/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Thử thách
 

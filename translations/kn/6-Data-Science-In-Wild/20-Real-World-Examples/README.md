@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
  * [ಆರೋಗ್ಯ ಸೇವೆಯಲ್ಲಿ ಡೇಟಾ ಸೈನ್ಸ್](https://data-flair.training/blogs/data-science-in-healthcare/) - ವೈದ್ಯಕೀಯ ಚಿತ್ರಣ (ಉದಾ: MRI, X-ರೇ, CT-ಸ್ಕ್ಯಾನ್), ಜಿನೋಮಿಕ್ಸ್ (DNA ಕ್ರಮಬದ್ಧತೆ), ಔಷಧಿ ಅಭಿವೃದ್ಧಿ (ಅಪಾಯ ಮೌಲ್ಯಮಾಪನ, ಯಶಸ್ಸಿನ ಭವಿಷ್ಯವಾಣಿ), ಭವಿಷ್ಯವಾಣಿ ವಿಶ್ಲೇಷಣೆ (ರೋಗಿ ಆರೈಕೆ ಮತ್ತು ಸರಬರಾಜು ಲಾಜಿಸ್ಟಿಕ್ಸ್), ರೋಗ ಟ್ರ್ಯಾಕಿಂಗ್ ಮತ್ತು ತಡೆ ಮುಂತಾದ ಅನ್ವಯಿಕೆಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡುತ್ತದೆ.
 
-![ನಿಜಜೀವನದಲ್ಲಿ ಡೇಟಾ ಸೈನ್ಸ್ ಅನ್ವಯಿಕೆಗಳು](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.kn.png) ಚಿತ್ರ ಕ್ರೆಡಿಟ್: [ಡೇಟಾ ಫ್ಲೇರ್: 6 ಅದ್ಭುತ ಡೇಟಾ ಸೈನ್ಸ್ ಅನ್ವಯಿಕೆಗಳು](https://data-flair.training/blogs/data-science-applications/)
+![ನಿಜಜೀವನದಲ್ಲಿ ಡೇಟಾ ಸೈನ್ಸ್ ಅನ್ವಯಿಕೆಗಳು](../../../../translated_images/kn/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) ಚಿತ್ರ ಕ್ರೆಡಿಟ್: [ಡೇಟಾ ಫ್ಲೇರ್: 6 ಅದ್ಭುತ ಡೇಟಾ ಸೈನ್ಸ್ ಅನ್ವಯಿಕೆಗಳು](https://data-flair.training/blogs/data-science-applications/)
 
 ಚಿತ್ರವು ಡೇಟಾ ಸೈನ್ಸ್ ತಂತ್ರಗಳನ್ನು ಅನ್ವಯಿಸುವ ಇತರ ಕ್ಷೇತ್ರಗಳು ಮತ್ತು ಉದಾಹರಣೆಗಳನ್ನು ತೋರಿಸುತ್ತದೆ. ಇತರ ಅನ್ವಯಿಕೆಗಳನ್ನು ಅನ್ವೇಷಿಸಲು ಬಯಸುತ್ತೀರಾ? ಕೆಳಗಿನ [ಪರಿಶೀಲನೆ ಮತ್ತು ಸ್ವಯಂ ಅಧ್ಯಯನ](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) ವಿಭಾಗವನ್ನು ಪರಿಶೀಲಿಸಿ.
 

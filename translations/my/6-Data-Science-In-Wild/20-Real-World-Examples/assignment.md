@@ -22,7 +22,7 @@ Explorer အင်တာဖေ့စ် (အောက်ပါ screenshot မှ
  2. [Catalog](https://planetarycomputer.microsoft.com/catalog) ဒေတာအစုအဝေးကို စူးစမ်းပါ - ဒါ့ရည်ရွယ်ချက်ကို လေ့လာပါ။
  3. Explorer ကို အသုံးပြုပါ - စိတ်ဝင်စားစရာ ဒေတာအစုအဝေးတစ်ခုကို ရွေးချယ်ပြီး သက်ဆိုင်ရာ query နဲ့ rendering ရွေးချယ်မှုကို ရွေးပါ။
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.my.png)
+![The Planetary Computer Explorer](../../../../translated_images/my/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `သင့်တာဝန်:`
 Browser မှာ ပြသထားတဲ့ အမြင်ပြမှုကို လေ့လာပြီး အောက်ပါအတိုင်း ဖြေကြားပါ:

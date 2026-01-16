@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Hình ảnh trực quan
 
-![một con ong trên hoa oải hương](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.vi.jpg)
+![một con ong trên hoa oải hương](../../../translated_images/vi/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Ảnh của <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> trên <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Việc hình ảnh hóa dữ liệu là một trong những nhiệm vụ quan trọng nhất của một nhà khoa học dữ liệu. Một hình ảnh có giá trị bằng 1000 từ, và hình ảnh trực quan có thể giúp bạn nhận ra nhiều khía cạnh thú vị của dữ liệu như đỉnh, giá trị ngoại lai, nhóm, xu hướng, và nhiều hơn nữa, giúp bạn hiểu câu chuyện mà dữ liệu đang cố gắng truyền tải.

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Wizualizacje
 
-![pszczoła na kwiecie lawendy](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.pl.jpg)  
+![pszczoła na kwiecie lawendy](../../../translated_images/pl/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)  
 > Zdjęcie autorstwa <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> na <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Wizualizacja danych to jedno z najważniejszych zadań data scientistów. Obrazy są warte tysiąca słów, a wizualizacja może pomóc w identyfikacji różnych interesujących aspektów danych, takich jak skoki, wartości odstające, grupowania, tendencje i wiele innych, które pomagają zrozumieć historię, jaką opowiadają dane.

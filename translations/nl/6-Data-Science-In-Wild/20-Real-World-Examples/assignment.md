@@ -22,7 +22,7 @@ De Explorer-interface (afgebeeld in de screenshot hieronder) laat je een dataset
  2. Verken de dataset [Catalogus](https://planetarycomputer.microsoft.com/catalog) - leer het doel van elke dataset.
  3. Gebruik de Explorer - kies een dataset die je interesseert, selecteer een relevante query en weergaveoptie.
 
-![De Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.nl.png)
+![De Planetary Computer Explorer](../../../../translated_images/nl/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Jouw taak:`
 Bestudeer nu de visualisatie die in de browser wordt weergegeven en beantwoord de volgende vragen:

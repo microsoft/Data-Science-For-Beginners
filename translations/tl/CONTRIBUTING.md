@@ -312,7 +312,7 @@ Isama sa iyong deskripsyon ng PR:
   import pandas as pd
   ```
   ````
-- Magdagdag ng alt text sa mga larawan: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.tl.png)`
+- Magdagdag ng alt text sa mga larawan: `![Alt text](../../translated_images/tl/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Panatilihin ang makatwirang haba ng linya (mga 80-100 karakter)
 
 ### Python

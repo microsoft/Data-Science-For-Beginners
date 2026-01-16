@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 数据科学简介
 
-![数据的实际应用](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.zh.jpg)  
+![数据的实际应用](../../../translated_images/zh/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)  
 > 图片由 <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> 提供，来自 <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
 
 在这些课程中，您将了解数据科学的定义，并学习数据科学家必须考虑的伦理问题。您还将学习数据的定义，并对统计学和概率论有一些初步了解，这些是数据科学的核心学术领域。

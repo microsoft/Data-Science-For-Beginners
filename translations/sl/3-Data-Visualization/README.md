@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vizualizacije
 
-![čebela na cvetu sivke](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.sl.jpg)
+![čebela na cvetu sivke](../../../translated_images/sl/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Fotografija avtorice <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> na <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Vizualizacija podatkov je ena najpomembnejših nalog podatkovnega znanstvenika. Slike povedo več kot 1000 besed, vizualizacija pa vam lahko pomaga prepoznati različne zanimive vidike vaših podatkov, kot so konice, odstopanja, skupine, tendence in še več, kar vam omogoča, da bolje razumete zgodbo, ki jo vaši podatki pripovedujejo.

@@ -47,25 +47,25 @@ Trong các bài học trước, bạn đã thử nghiệm xây dựng nhiều lo
 
 Ngay cả khi một nhà khoa học dữ liệu cẩn thận chọn đúng biểu đồ cho dữ liệu, vẫn có nhiều cách để dữ liệu được trình bày nhằm chứng minh một quan điểm, thường là làm tổn hại đến tính chính xác của dữ liệu. Có rất nhiều ví dụ về các biểu đồ và đồ họa thông tin gây hiểu lầm!
 
-[![How Charts Lie của Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.vi.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
+[![How Charts Lie của Alberto Cairo](../../../../../translated_images/vi/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
 > 🎥 Nhấp vào hình ảnh trên để xem một bài nói chuyện về các biểu đồ gây hiểu lầm
 
 Biểu đồ này đảo ngược trục X để hiển thị điều ngược lại với sự thật, dựa trên ngày tháng:
 
-![bad chart 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.vi.png)
+![bad chart 1](../../../../../translated_images/vi/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Biểu đồ này](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) thậm chí còn gây hiểu lầm hơn, vì mắt người bị thu hút về phía bên phải để kết luận rằng, theo thời gian, số ca COVID đã giảm ở các quận khác nhau. Thực tế, nếu bạn nhìn kỹ vào các ngày tháng, bạn sẽ thấy chúng đã được sắp xếp lại để tạo ra xu hướng giảm giả.
 
-![bad chart 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.vi.jpg)
+![bad chart 2](../../../../../translated_images/vi/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Ví dụ nổi tiếng này sử dụng màu sắc VÀ trục Y bị lật để đánh lừa: thay vì kết luận rằng số ca tử vong do súng tăng vọt sau khi thông qua luật thân thiện với súng, mắt người lại bị đánh lừa để nghĩ điều ngược lại:
 
-![bad chart 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.vi.jpg)
+![bad chart 3](../../../../../translated_images/vi/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Biểu đồ kỳ lạ này cho thấy cách tỷ lệ có thể bị thao túng, dẫn đến hiệu ứng hài hước:
 
-![bad chart 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.vi.jpg)
+![bad chart 4](../../../../../translated_images/vi/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 So sánh những thứ không thể so sánh là một thủ thuật mờ ám khác. Có một [trang web tuyệt vời](https://tylervigen.com/spurious-correlations) về 'mối tương quan giả' hiển thị các 'sự thật' như tỷ lệ ly hôn ở Maine và mức tiêu thụ bơ thực vật. Một nhóm trên Reddit cũng thu thập [các ví dụ xấu](https://www.reddit.com/r/dataisugly/top/?t=all) về việc sử dụng dữ liệu.
 
@@ -100,13 +100,13 @@ Gắn nhãn các trục, cung cấp chú giải nếu cần thiết và cung c�
 
 Nếu dữ liệu của bạn là văn bản và dài dòng trên trục X, bạn có thể xoay góc văn bản để dễ đọc hơn. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) cung cấp khả năng vẽ biểu đồ 3D nếu dữ liệu của bạn hỗ trợ. Các biểu đồ trực quan phức tạp có thể được tạo ra bằng cách sử dụng nó.
 
-![3d plots](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.vi.png)
+![3d plots](../../../../../translated_images/vi/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Biểu đồ động và hiển thị 3D
 
 Một số biểu đồ trực quan tốt nhất hiện nay là biểu đồ động. Shirley Wu có những biểu đồ tuyệt vời được thực hiện bằng D3, chẳng hạn như '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', nơi mỗi bông hoa là một biểu đồ trực quan của một bộ phim. Một ví dụ khác cho Guardian là 'bussed out', một trải nghiệm tương tác kết hợp biểu đồ trực quan với Greensock và D3 cùng với định dạng bài viết cuộn để kể câu chuyện về cách NYC xử lý vấn đề người vô gia cư bằng cách đưa họ ra khỏi thành phố.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.vi.png)
+![busing](../../../../../translated_images/vi/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: How America Moves its Homeless" từ [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Biểu đồ trực quan bởi Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Mặc dù bài học này không đủ để đi sâu vào việc dạy các th�
 
 Bạn sẽ hoàn thành một ứng dụng web hiển thị một cái nhìn động về mạng xã hội này. Nó sử dụng một thư viện được xây dựng để tạo [biểu đồ mạng](https://github.com/emiliorizzo/vue-d3-network) bằng Vue.js và D3. Khi ứng dụng đang chạy, bạn có thể kéo các nút trên màn hình để sắp xếp lại dữ liệu.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.vi.png)
+![liaisons](../../../../../translated_images/vi/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Dự án: Tạo biểu đồ hiển thị mạng bằng D3.js
 

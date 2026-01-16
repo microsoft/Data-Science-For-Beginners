@@ -47,25 +47,25 @@ Sa mga nakaraang aralin, sinubukan mong gumawa ng iba't ibang uri ng visualisasy
 
 Kahit na maingat ang isang data scientist sa pagpili ng tamang tsart para sa tamang datos, maraming paraan upang maipakita ang datos sa paraang nagpapakita ng isang punto, madalas sa kapinsalaan ng datos mismo. Maraming halimbawa ng mapanlinlang na tsart at infographics!
 
-[![Paano Nagsisinungaling ang mga Tsart ni Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.tl.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Paano Nagsisinungaling ang mga Tsart")
+[![Paano Nagsisinungaling ang mga Tsart ni Alberto Cairo](../../../../../translated_images/tl/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Paano Nagsisinungaling ang mga Tsart")
 
 > 🎥 I-click ang larawan sa itaas para sa isang talakayan tungkol sa mapanlinlang na mga tsart
 
 Ang tsart na ito ay binabaliktad ang X axis upang ipakita ang kabaligtaran ng katotohanan, batay sa petsa:
 
-![masamang tsart 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.tl.png)
+![masamang tsart 1](../../../../../translated_images/tl/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Ang tsart na ito](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) ay mas mapanlinlang pa, dahil ang mata ay naaakit sa kanan upang isipin na, sa paglipas ng panahon, ang mga kaso ng COVID ay bumaba sa iba't ibang mga county. Sa katunayan, kung titingnan mong mabuti ang mga petsa, makikita mong inayos ang mga ito upang magmukhang pababa ang trend.
 
-![masamang tsart 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.tl.jpg)
+![masamang tsart 2](../../../../../translated_images/tl/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Ang kilalang halimbawa na ito ay gumagamit ng kulay AT baliktad na Y axis upang manlinlang: sa halip na isipin na tumaas ang mga pagkamatay dahil sa baril pagkatapos ng pagpasa ng batas na pabor sa baril, ang mata ay nalilinlang upang isipin ang kabaligtaran:
 
-![masamang tsart 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.tl.jpg)
+![masamang tsart 3](../../../../../translated_images/tl/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Ang kakaibang tsart na ito ay nagpapakita kung paano maaaring manipulahin ang proporsyon, na nagdudulot ng nakakatawang epekto:
 
-![masamang tsart 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.tl.jpg)
+![masamang tsart 4](../../../../../translated_images/tl/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Ang paghahambing ng mga bagay na hindi maihahambing ay isa pang mapanlinlang na taktika. Mayroong [kahanga-hangang website](https://tylervigen.com/spurious-correlations) na nagpapakita ng 'spurious correlations' na nagtatampok ng 'mga katotohanan' na nag-uugnay sa mga bagay tulad ng rate ng diborsyo sa Maine at ang pagkonsumo ng margarina. Ang isang Reddit group ay nangongolekta rin ng [pangit na paggamit](https://www.reddit.com/r/dataisugly/top/?t=all) ng datos.
 
@@ -100,13 +100,13 @@ Lagyan ng label ang iyong mga axis, magbigay ng legend kung kinakailangan, at ma
 
 Kung ang iyong datos ay tekstwal at mahaba sa X axis, maaari mong i-anggulo ang teksto para sa mas madaling basahin. Ang [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) ay nag-aalok ng 3D plotting, kung sinusuportahan ito ng iyong datos. Ang mga sopistikadong visualisasyon ng datos ay maaaring gawin gamit ito.
 
-![3d plots](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.tl.png)
+![3d plots](../../../../../translated_images/tl/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Animation at 3D na pagpapakita ng tsart
 
 Ang ilan sa mga pinakamahusay na visualisasyon ng datos ngayon ay animated. Si Shirley Wu ay may mga kamangha-manghang gawa gamit ang D3, tulad ng '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', kung saan ang bawat bulaklak ay isang visualisasyon ng isang pelikula. Isa pang halimbawa para sa Guardian ay 'bussed out', isang interactive na karanasan na pinagsasama ang mga visualisasyon gamit ang Greensock at D3 kasama ang isang scrollytelling na format ng artikulo upang ipakita kung paano hinahawakan ng NYC ang problema nito sa mga walang tirahan sa pamamagitan ng pagdadala ng mga tao palabas ng lungsod.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.tl.png)
+![busing](../../../../../translated_images/tl/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: Paano Inililipat ng Amerika ang mga Walang Tirahan" mula sa [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Mga visualisasyon nina Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Bagama't hindi sapat ang araling ito upang talakayin nang malalim ang mga makapa
 
 Kukumpletuhin mo ang isang web app na magpapakita ng isang animated na view ng social network na ito. Gumagamit ito ng isang library na ginawa upang lumikha ng isang [visual ng isang network](https://github.com/emiliorizzo/vue-d3-network) gamit ang Vue.js at D3. Kapag tumatakbo na ang app, maaari mong hilahin ang mga node sa screen upang i-shuffle ang datos.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.tl.png)
+![liaisons](../../../../../translated_images/tl/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Proyekto: Gumawa ng tsart upang ipakita ang isang network gamit ang D3.js
 

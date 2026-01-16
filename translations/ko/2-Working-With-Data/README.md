@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 데이터 작업하기
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.ko.jpg)  
+![data love](../../../translated_images/ko/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)  
 > 사진 제공: <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> on <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 이 강의에서는 데이터를 관리, 조작, 그리고 애플리케이션에서 활용하는 다양한 방법을 배우게 됩니다. 관계형 및 비관계형 데이터베이스에 대해 배우고, 데이터가 어떻게 저장될 수 있는지 알아볼 것입니다. 또한, 데이터를 관리하기 위해 Python을 사용하는 기본 원리를 배우고, Python을 활용하여 데이터를 관리하고 분석하는 다양한 방법을 발견하게 될 것입니다.

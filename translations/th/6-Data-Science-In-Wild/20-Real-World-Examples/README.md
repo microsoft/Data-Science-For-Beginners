@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
  * [วิทยาศาสตร์ข้อมูลในด้านสุขภาพ](https://data-flair.training/blogs/data-science-in-healthcare/) - เน้นการประยุกต์ใช้ เช่น การถ่ายภาพทางการแพทย์ (MRI, X-Ray, CT-Scan) จีโนมิกส์ (การถอดรหัส DNA) การพัฒนายา (การประเมินความเสี่ยง การคาดการณ์ความสำเร็จ) การวิเคราะห์เชิงพยากรณ์ (การดูแลผู้ป่วยและโลจิสติกส์) การติดตามและป้องกันโรค ฯลฯ
 
-![การประยุกต์ใช้วิทยาศาสตร์ข้อมูลในโลกแห่งความจริง](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.th.png) เครดิตภาพ: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![การประยุกต์ใช้วิทยาศาสตร์ข้อมูลในโลกแห่งความจริง](../../../../translated_images/th/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) เครดิตภาพ: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 ภาพนี้แสดงโดเมนและตัวอย่างอื่น ๆ ของการประยุกต์ใช้เทคนิควิทยาศาสตร์ข้อมูล ต้องการสำรวจการประยุกต์ใช้อื่น ๆ หรือไม่? ดูที่ส่วน [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) ด้านล่าง
 

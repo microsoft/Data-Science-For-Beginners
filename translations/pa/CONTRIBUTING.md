@@ -317,7 +317,7 @@ def calculate_mean(data):
   ```
   ````
   
-- ਚਿੱਤਰਾਂ ਲਈ alt ਟੈਕਸਟ ਸ਼ਾਮਲ ਕਰੋ: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.pa.png)`  
+- ਚਿੱਤਰਾਂ ਲਈ alt ਟੈਕਸਟ ਸ਼ਾਮਲ ਕਰੋ: `![Alt text](../../translated_images/pa/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - ਲਾਈਨ ਦੀ ਲੰਬਾਈ ਵਾਜਬ ਰੱਖੋ (80-100 ਅੱਖਰਾਂ ਦੇ ਆਸਪਾਸ)  
 
 ### Python

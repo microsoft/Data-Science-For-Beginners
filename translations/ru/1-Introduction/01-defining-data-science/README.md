@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Видео: Определение науки о данных](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.ru.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Видео: Определение науки о данных](../../../../translated_images/ru/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Тест перед лекцией](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 В этом задании мы попробуем найти концепции, связанные с областью Data Science, анализируя тексты. Мы возьмем статью из Википедии о Data Science, загрузим и обработаем текст, а затем создадим облако слов, похожее на это:
 
-![Облако слов для Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.ru.png)
+![Облако слов для Data Science](../../../../translated_images/ru/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Посетите [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore'), чтобы ознакомиться с кодом. Вы также можете запустить код и увидеть, как он выполняет все преобразования данных в реальном времени.
 

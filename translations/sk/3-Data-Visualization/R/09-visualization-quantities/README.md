@@ -67,7 +67,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 Tu nainštalujete balík `ggplot2` a potom ho importujete do pracovného priestoru pomocou príkazu `library("ggplot2")`. Na vykreslenie akéhokoľvek grafu v ggplot sa používa funkcia `ggplot()` a špecifikujete dataset, premenné x a y ako atribúty. V tomto prípade používame funkciu `geom_line()`, pretože chceme vykresliť čiarový graf.
 
-![MaxRozpätie-čiarový graf](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.sk.png)
+![MaxRozpätie-čiarový graf](../../../../../translated_images/sk/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Čo si všimnete okamžite? Zdá sa, že existuje aspoň jeden extrémny údaj - to je poriadne rozpätie krídel! Rozpätie krídel viac ako 2000 centimetrov znamená viac ako 20 metrov - potulujú sa v Minnesote pterodaktyly? Poďme to preskúmať.
 
@@ -85,7 +85,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 Špecifikujeme uhol v `theme` a špecifikujeme štítky osí x a y v `xlab()` a `ylab()` respektíve. Funkcia `ggtitle()` dáva grafu názov.
 
-![MaxRozpätie-čiarový graf-vylepšený](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.sk.png)
+![MaxRozpätie-čiarový graf-vylepšený](../../../../../translated_images/sk/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Aj s rotáciou štítkov nastavenou na 45 stupňov je ich príliš veľa na čítanie. Skúsme inú stratégiu: označme iba tie extrémne hodnoty a nastavme štítky priamo v grafe. Môžete použiť bodový graf, aby ste získali viac priestoru na označovanie:
 
@@ -101,7 +101,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 
 Čo objavíte?
 
-![MaxRozpätie-bodový graf](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.sk.png)
+![MaxRozpätie-bodový graf](../../../../../translated_images/sk/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Filtrovanie údajov
 
@@ -120,7 +120,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 Vytvorili sme nový dataframe `birds_filtered` a potom vykreslili bodový graf. Filtrovaním extrémnych hodnôt sú vaše údaje teraz súdržnejšie a zrozumiteľnejšie.
 
-![MaxRozpätie-bodový graf-vylepšený](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.sk.png)
+![MaxRozpätie-bodový graf-vylepšený](../../../../../translated_images/sk/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Teraz, keď máme čistejší dataset aspoň z hľadiska rozpätia krídel, poďme objaviť viac o týchto vtákoch.
 
@@ -162,7 +162,7 @@ birds_filtered %>% group_by(Category) %>%
 ```
 V nasledujúcom úryvku inštalujeme balíky [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) a [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0), ktoré pomáhajú manipulovať a zoskupovať údaje na vykreslenie zoskupeného stĺpcového grafu. Najprv zoskupíte údaje podľa `Category` vtákov a potom sumarizujete stĺpce `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Potom vykreslíte stĺpcový graf pomocou balíka `ggplot2` a špecifikujete farby pre rôzne kategórie a štítky.
 
-![Zoskupený stĺpcový graf](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.sk.png)
+![Zoskupený stĺpcový graf](../../../../../translated_images/sk/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Tento stĺpcový graf je však nečitateľný, pretože obsahuje príliš veľa nezoskupených údajov. Musíte vybrať iba údaje, ktoré chcete vykresliť, takže sa pozrime na dĺžku vtákov podľa ich kategórie.
 
@@ -177,7 +177,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```
 Najprv spočítate unikátne hodnoty v stĺpci `Category` a potom ich zoradíte do nového dataframe `birds_count`. Tieto zoradené údaje sú potom faktorizované na rovnakej úrovni, aby boli vykreslené v zoradenom poradí. Pomocou `ggplot2` potom vykreslíte údaje v stĺpcovom grafe. Funkcia `coord_flip()` vykreslí horizontálne stĺpce.
 
-![kategória-dĺžka](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.sk.png)
+![kategória-dĺžka](../../../../../translated_images/sk/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Tento stĺpcový graf poskytuje dobrý prehľad o počte vtákov v každej kategórii. Na prvý pohľad vidíte, že najväčší počet vtákov v tomto regióne patrí do kategórie Kačice/Husi/Vodné vtáky. Minnesota je "krajina 10 000 jazier", takže to nie je prekvapujúce!
 
@@ -200,7 +200,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```
 Zoskupíme údaje `birds_filtered` podľa `Category` a potom vykreslíme stĺpcový graf.
 
-![porovnávanie údajov](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.sk.png)
+![porovnávanie údajov](../../../../../translated_images/sk/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Tu nie je nič prekvapujúce: kolibríky majú najmenšiu MaxDĺžku v porovnaní s pelikánmi alebo husami. Je dobré, keď údaje dávajú logický zmysel!
 
@@ -212,7 +212,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```
-![prekryté hodnoty](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.sk.png)
+![prekryté hodnoty](../../../../../translated_images/sk/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Výzva
 

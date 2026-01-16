@@ -22,7 +22,7 @@ Ang interface ng Explorer (makikita sa screenshot sa ibaba) ay nagbibigay-daan s
  2. I-explore ang dataset [Catalog](https://planetarycomputer.microsoft.com/catalog) - alamin ang layunin ng bawat isa.
  3. Gamitin ang Explorer - pumili ng dataset na interesado ka, piliin ang kaugnay na query at rendering option.
 
-![Ang Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.tl.png)
+![Ang Planetary Computer Explorer](../../../../translated_images/tl/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Ang Iyong Gawain:`
 Pag-aralan ang visualization na na-render sa browser at sagutin ang mga sumusunod:

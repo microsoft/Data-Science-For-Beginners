@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 시각화
 
-![라벤더 꽃 위의 벌](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.ko.jpg)
+![라벤더 꽃 위의 벌](../../../translated_images/ko/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > 사진 제공: <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> on <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 데이터 시각화는 데이터 과학자에게 가장 중요한 작업 중 하나입니다. "이미지는 천 마디 말보다 강하다"는 말처럼, 시각화는 데이터의 스파이크, 이상치, 그룹화, 경향 등 흥미로운 부분을 식별하는 데 도움을 주며, 데이터가 전달하려는 이야기를 이해하는 데 큰 도움을 줍니다.

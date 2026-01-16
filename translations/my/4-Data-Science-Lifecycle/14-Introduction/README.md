@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ဒီသင်ခန်းစာမှာ အသက်တာစဉ်ရဲ့ အရေးကြီးတဲ့ အပိုင်း ၃ ခုကို အဓိကထားပြီး လေ့လာပါမယ်- ဒေတာရယူခြင်း၊ အလုပ်လုပ်ခြင်း၊ စီမံခန့်ခွဲခြင်း။
 
-![Diagram of the data science lifecycle](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.my.jpg)
+![Diagram of the data science lifecycle](../../../../translated_images/my/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/) မှဓာတ်ပုံ
 
 ## ဒေတာရယူခြင်း
@@ -97,7 +97,7 @@ Data Science Lifecycle ဟာ အမျိုးမျိုးသော ဗာ�
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![Team Data Science Lifecycle](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.my.png) | ![Data Science Process Alliance Image](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.my.png) |
+|![Team Data Science Lifecycle](../../../../translated_images/my/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Data Science Process Alliance Image](../../../../translated_images/my/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) မှပုံ | [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) မှပုံ |
 
 ## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/27)

@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Làm việc với Python - _Sketchnote của [@nitya](https://twitter.com/nitya)_                 |
 
-[![Video Giới thiệu](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.vi.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Video Giới thiệu](../../../../translated_images/vi/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Mặc dù cơ sở dữ liệu cung cấp cách lưu trữ dữ liệu và truy vấn chúng rất hiệu quả bằng ngôn ngữ truy vấn, cách linh hoạt nhất để xử lý dữ liệu là viết chương trình của riêng bạn để thao tác dữ liệu. Trong nhiều trường hợp, việc thực hiện truy vấn cơ sở dữ liệu sẽ hiệu quả hơn. Tuy nhiên, trong một số trường hợp khi cần xử lý dữ liệu phức tạp hơn, điều này không thể thực hiện dễ dàng bằng SQL. 
 Xử lý dữ liệu có thể được lập trình bằng bất kỳ ngôn ngữ lập trình nào, nhưng có một số ngôn ngữ ở cấp độ cao hơn khi làm việc với dữ liệu. Các nhà khoa học dữ liệu thường ưu tiên một trong các ngôn ngữ sau:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Biểu đồ chuỗi thời gian](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.vi.png)
+![Biểu đồ chuỗi thời gian](../../../../translated_images/vi/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Bây giờ giả sử rằng mỗi tuần chúng ta tổ chức một bữa tiệc cho bạn bè và lấy thêm 10 hộp kem cho bữa tiệc. Chúng ta có thể tạo một series khác, được index theo tuần, để minh họa điều đó:
 ```python
@@ -84,7 +84,7 @@ Khi chúng ta cộng hai series lại với nhau, chúng ta sẽ có tổng số
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Biểu đồ chuỗi thời gian](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.vi.png)
+![Biểu đồ chuỗi thời gian](../../../../translated_images/vi/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Lưu ý** rằng chúng ta không sử dụng cú pháp đơn giản `total_items+additional_items`. Nếu làm vậy, chúng ta sẽ nhận được rất nhiều giá trị `NaN` (*Not a Number*) trong series kết quả. Điều này là do có các giá trị bị thiếu cho một số điểm index trong series `additional_items`, và việc cộng `NaN` với bất kỳ giá trị nào sẽ dẫn đến `NaN`. Do đó, chúng ta cần chỉ định tham số `fill_value` trong quá trình cộng.
 
@@ -93,7 +93,7 @@ Với chuỗi thời gian, chúng ta cũng có thể **resample** series với c
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Biểu đồ trung bình chuỗi thời gian hàng tháng](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.vi.png)
+![Biểu đồ trung bình chuỗi thời gian hàng tháng](../../../../translated_images/vi/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ Vấn đề đầu tiên chúng ta sẽ tập trung là mô hình hóa sự lây
 
 Vì chúng ta muốn minh họa cách xử lý dữ liệu, hãy mở [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) và đọc từ đầu đến cuối. Bạn cũng có thể thực thi các ô lệnh và thực hiện một số thử thách mà chúng tôi đã để lại cho bạn ở cuối.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.vi.png)
+![COVID Spread](../../../../translated_images/vi/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Nếu bạn không biết cách chạy mã trong Jupyter Notebook, hãy xem [bài viết này](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,7 +241,7 @@ Một ví dụ đầy đủ về việc phân tích bộ dữ liệu này bằng
 
 Hãy mở [`notebook-papers.ipynb`](notebook-papers.ipynb) và đọc từ đầu đến cuối. Bạn cũng có thể thực thi các ô lệnh và thực hiện một số thử thách mà chúng tôi đã để lại cho bạn ở cuối.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.vi.png)
+![Covid Medical Treatment](../../../../translated_images/vi/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Xử Lý Dữ Liệu Hình Ảnh
 

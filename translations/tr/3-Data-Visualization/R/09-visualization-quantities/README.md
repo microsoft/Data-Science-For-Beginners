@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Burada `ggplot2` paketini yüklüyor ve ardından `library("ggplot2")` komutuyla çalışma alanına dahil ediyorsunuz. ggplot'ta herhangi bir grafik çizmek için `ggplot()` fonksiyonu kullanılır ve veri seti, x ve y değişkenleri öznitelik olarak belirtilir. Bu durumda, bir çizgi grafiği çizmeyi hedeflediğimiz için `geom_line()` fonksiyonunu kullanıyoruz.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.tr.png)
+![MaxWingspan-lineplot](../../../../../translated_images/tr/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Hemen ne fark ediyorsunuz? En az bir aykırı değer var gibi görünüyor - bu oldukça büyük bir kanat açıklığı! 2000+ santimetrelik bir kanat açıklığı 20 metreden fazladır - Minnesota'da Pterodaktiller mi dolaşıyor? Hadi bunu araştıralım.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 `theme` içinde açıyı belirtiyor ve `xlab()` ve `ylab()` ile x ve y ekseni etiketlerini belirtiyorsunuz. `ggtitle()` grafiğe bir ad verir.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.tr.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/tr/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Etiketlerin 45 derece döndürülmesine rağmen, okunamayacak kadar çok etiket var. Farklı bir strateji deneyelim: yalnızca aykırı değerleri etiketleyin ve etiketleri grafik içinde ayarlayın. Daha fazla alan yaratmak için bir dağılım grafiği kullanabilirsiniz:
 
@@ -100,7 +100,7 @@ Burada ne oluyor? `geom_point()` fonksiyonunu kullanarak dağılım noktaları �
 
 Ne keşfediyorsunuz?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.tr.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/tr/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Verilerinizi filtreleyin
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Yeni bir `birds_filtered` veri çerçevesi oluşturduk ve ardından bir dağılım grafiği çizdik. Aykırı değerleri filtreleyerek, verileriniz artık daha tutarlı ve anlaşılır hale geldi.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.tr.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/tr/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Kanat açıklığı açısından daha temiz bir veri setine sahip olduğumuza göre, bu kuşlar hakkında daha fazla şey keşfedelim.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 Aşağıdaki kod parçasında, verileri manipüle etmek ve gruplamak için [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) ve [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) paketlerini yüklüyoruz. Daha sonra `ggplot2` paketini kullanarak bir çubuk grafik çiziyoruz ve farklı kategoriler için renkleri ve etiketleri belirtiyoruz.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.tr.png)
+![Stacked bar chart](../../../../../translated_images/tr/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Ancak bu çubuk grafiği okunamaz çünkü çok fazla gruplandırılmamış veri var. Çizmek istediğiniz verileri seçmeniz gerekiyor, bu yüzden kuşların kategorilerine göre uzunluklarına bakalım.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Önce `Category` sütunundaki benzersiz değerleri sayar ve ardından bunları yeni bir `birds_count` veri çerçevesine sıralarsınız. Bu sıralanmış veriler aynı seviyede faktörlenir, böylece sıralı bir şekilde çizilir. `ggplot2` kullanarak verileri bir çubuk grafikte çizersiniz. `coord_flip()` yatay çubuklar çizer.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.tr.png)
+![category-length](../../../../../translated_images/tr/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Bu çubuk grafiği, her kategorideki kuş sayısının iyi bir görünümünü sunar. Bir bakışta, bu bölgedeki en büyük kuş sayısının Ördekler/Kazlar/Su Kuşları kategorisinde olduğunu görüyorsunuz. Minnesota '10.000 gölün ülkesi' olduğu için bu şaşırtıcı değil!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 `birds_filtered` verilerini `Category`'ye göre gruplar ve ardından bir çubuk grafik çizersiniz.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.tr.png)
+![comparing data](../../../../../translated_images/tr/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Burada şaşırtıcı bir şey yok: sinek kuşlarının Maksimum Uzunluğu, Pelikanlar veya Kazlarla karşılaştırıldığında en azdır. Verilerin mantıklı olması güzel bir şey!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.tr.png)
+![super-imposed values](../../../../../translated_images/tr/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Meydan Okuma
 

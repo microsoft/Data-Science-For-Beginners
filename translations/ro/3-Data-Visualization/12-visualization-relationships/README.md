@@ -51,7 +51,7 @@ Creează o diagramă scatter de bază pentru a arăta relația dintre prețul pe
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.ro.png)
+![scatterplot 1](../../../../translated_images/ro/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Acum, afișează aceleași date cu o schemă de culori inspirată de miere pentru a arăta cum evoluează prețul de-a lungul anilor. Poți face acest lucru adăugând un parametru 'hue' pentru a evidenția schimbările anuale:
 
@@ -60,7 +60,7 @@ Acum, afișează aceleași date cu o schemă de culori inspirată de miere pentr
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.ro.png)
+![scatterplot 2](../../../../translated_images/ro/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 Cu această schimbare de culori, poți observa clar o progresie puternică de-a lungul anilor în ceea ce privește prețul pe liră al mierii. De fapt, dacă verifici un set de date eșantion (de exemplu, statul Arizona), poți observa un model de creștere a prețului an de an, cu câteva excepții:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Poți observa cum dimensiunea punctelor crește treptat.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.ro.png)
+![scatterplot 3](../../../../translated_images/ro/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Este acesta un caz simplu de cerere și ofertă? Din cauza unor factori precum schimbările climatice și colapsul coloniilor, există mai puțină miere disponibilă pentru cumpărare an de an, ceea ce duce la creșterea prețului?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Răspuns: Da, cu câteva excepții în jurul anului 2003:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.ro.png)
+![line chart 1](../../../../translated_images/ro/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Deoarece Seaborn agregă datele într-o singură linie, afișează "măsurătorile multiple pentru fiecare valoare x prin reprezentarea mediei și a intervalului de încredere de 95% în jurul mediei". [Sursa](https://seaborn.pydata.org/tutorial/relational.html). Acest comportament consumator de timp poate fi dezactivat adăugând `ci=None`.
 
@@ -114,7 +114,7 @@ Răspuns: Da, cu câteva excepții în jurul anului 2003:
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.ro.png)
+![line chart 2](../../../../translated_images/ro/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Răspuns: Nu chiar. Dacă te uiți la producția totală, aceasta pare să fi crescut în acel an, deși, în general, cantitatea de miere produsă este în scădere în acești ani.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 În această vizualizare, poți compara producția per colonie și numărul de colonii an de an, alăturat, cu o împărțire pe 3 coloane:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.ro.png)
+![facet grid](../../../../translated_images/ro/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 Pentru acest set de date, nimic nu iese în evidență în mod special în ceea ce privește numărul de colonii și producția lor, an de an și stat de stat. Există o altă modalitate de a analiza corelația dintre aceste două variabile?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.ro.png)
+![superimposed plots](../../../../translated_images/ro/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Deși nimic nu sare în ochi în jurul anului 2003, acest grafic ne permite să încheiem lecția pe o notă mai optimistă: deși numărul coloniilor este în scădere, acesta pare să se stabilizeze, chiar dacă producția per colonie este în scădere.
 

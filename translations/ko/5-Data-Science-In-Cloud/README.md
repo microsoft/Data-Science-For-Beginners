@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 클라우드에서의 데이터 과학
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.ko.jpg)
+![cloud-picture](../../../translated_images/ko/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > 사진 제공: [Jelleke Vanooteghem](https://unsplash.com/@ilumire) / [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 빅데이터를 활용한 데이터 과학을 수행할 때, 클라우드는 게임 체인저가 될 수 있습니다. 다음 세 가지 강의에서 클라우드가 무엇인지, 그리고 왜 유용한지 알아보겠습니다. 또한 심부전 데이터셋을 탐구하고, 심부전 발생 가능성을 평가하는 데 도움을 줄 수 있는 모델을 구축할 것입니다. 클라우드의 강력한 기능을 활용하여 두 가지 방식으로 모델을 학습, 배포 및 활용할 것입니다. 첫 번째는 Low code/No code 방식으로 사용자 인터페이스만을 사용하는 방법이고, 두 번째는 Azure Machine Learning Software Developer Kit (Azure ML SDK)를 사용하는 방법입니다.
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.ko.png)
+![project-schema](../../../translated_images/ko/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### 주제
 

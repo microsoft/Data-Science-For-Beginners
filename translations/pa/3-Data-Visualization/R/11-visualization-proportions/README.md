@@ -92,7 +92,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```  
 ਲੋ ਜੀ, ਇੱਕ ਪਾਈ ਚਾਰਟ ਜੋ ਮਸ਼ਰੂਮਾਂ ਦੀਆਂ ਦੋ ਸ਼੍ਰੇਣੀਆਂ ਦੇ ਅਨੁਸਾਰ ਡਾਟੇ ਦੇ ਅਨੁਪਾਤਾਂ ਨੂੰ ਦਿਖਾਉਂਦਾ ਹੈ। ਲੇਬਲਾਂ ਦੇ ਕ੍ਰਮ ਨੂੰ ਸਹੀ ਰੱਖਣਾ ਬਹੁਤ ਮਹੱਤਵਪੂਰਨ ਹੈ, ਖਾਸ ਕਰਕੇ ਇੱਥੇ, ਇਸ ਲਈ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਲੇਬਲ ਐਰੇ ਬਣਾਉਣ ਦੇ ਕ੍ਰਮ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ!
 
-![pie chart](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.pa.png)
+![pie chart](../../../../../translated_images/pa/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## ਡੋਨਟ!
 
@@ -126,7 +126,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```  
 
-![donut chart](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.pa.png)
+![donut chart](../../../../../translated_images/pa/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 ਇਹ ਕੋਡ ਦੋ ਲਾਇਬ੍ਰੇਰੀਆਂ - ggplot2 ਅਤੇ webr ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ। webr ਲਾਇਬ੍ਰੇਰੀ ਦੇ PieDonut ਫੰਕਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕਰਕੇ, ਅਸੀਂ ਆਸਾਨੀ ਨਾਲ ਡੋਨਟ ਚਾਰਟ ਬਣਾ ਸਕਦੇ ਹਾਂ!
 
@@ -164,7 +164,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 ਵਾਫਲ ਚਾਰਟ ਦੀ ਵਰਤੋਂ ਕਰਕੇ, ਤੁਸੀਂ ਮਸ਼ਰੂਮਾਂ ਦੇ ਕੈਪ ਰੰਗਾਂ ਦੇ ਅਨੁਪਾਤਾਂ ਨੂੰ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਦੇਖ ਸਕਦੇ ਹੋ। ਦਿਲਚਸਪ ਗੱਲ ਇਹ ਹੈ ਕਿ ਬਹੁਤ ਸਾਰੇ ਹਰੇ ਕੈਪ ਵਾਲੇ ਮਸ਼ਰੂਮ ਹਨ!
 
-![waffle chart](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.pa.png)
+![waffle chart](../../../../../translated_images/pa/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 ਇਸ ਪਾਠ ਵਿੱਚ, ਤੁਸੀਂ ਅਨੁਪਾਤਾਂ ਨੂੰ ਦਿਖਾਉਣ ਦੇ ਤਿੰਨ ਤਰੀਕੇ ਸਿੱਖੇ। ਪਹਿਲਾਂ, ਤੁਹਾਨੂੰ ਆਪਣੇ ਡਾਟੇ ਨੂੰ ਸ਼੍ਰੇਣੀਆਂ ਵਿੱਚ ਗਰੁੱਪ ਕਰਨਾ ਪੈਂਦਾ ਹੈ ਅਤੇ ਫਿਰ ਇਹ ਫੈਸਲਾ ਕਰਨਾ ਪੈਂਦਾ ਹੈ ਕਿ ਡਾਟੇ ਨੂੰ ਦਿਖਾਉਣ ਦਾ ਸਭ ਤੋਂ ਵਧੀਆ ਤਰੀਕਾ ਕਿਹੜਾ ਹੈ - ਪਾਈ, ਡੋਨਟ, ਜਾਂ ਵਾਫਲ। ਸਾਰੇ ਸੁਆਦਿਸ਼ਟ ਹਨ ਅਤੇ ਯੂਜ਼ਰ ਨੂੰ ਡਾਟਾਸੈਟ ਦੀ ਤੁਰੰਤ ਝਲਕ ਦਿੰਦੇ ਹਨ।
 

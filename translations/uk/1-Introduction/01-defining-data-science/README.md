@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Відео про визначення науки про дані](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.uk.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Відео про визначення науки про дані](../../../../translated_images/uk/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Тест перед лекцією](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 У цьому завданні ми спробуємо знайти концепції, пов'язані з галуззю Data Science, аналізуючи тексти. Ми візьмемо статтю з Вікіпедії про Data Science, завантажимо та обробимо текст, а потім створимо хмару слів, схожу на цю:
 
-![Хмара слів для Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.uk.png)
+![Хмара слів для Data Science](../../../../translated_images/uk/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Відвідайте [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore'), щоб ознайомитися з кодом. Ви також можете запустити код і побачити, як він виконує всі перетворення даних у реальному часі.
 

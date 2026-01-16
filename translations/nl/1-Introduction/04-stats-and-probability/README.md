@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Statistiek en Kansberekening zijn twee sterk verwante gebieden binnen de wiskunde die zeer relevant zijn voor Data Science. Het is mogelijk om met data te werken zonder diepgaande kennis van wiskunde, maar het is toch beter om ten minste enkele basisconcepten te begrijpen. Hier bieden we een korte introductie die je op weg helpt.
 
-[![Introductievideo](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.nl.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Introductievideo](../../../../translated_images/nl/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Quiz voorafgaand aan de les](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Het is moeilijker om de kansverdeling van een continue variabele te beschrijven,
 
 We kunnen alleen praten over de kans dat een variabele binnen een bepaald interval van waarden valt, bijvoorbeeld P(t<sub>1</sub>≤X<t<sub>2</sub>). In dit geval wordt de kansverdeling beschreven door een **kansdichtheidsfunctie** p(x), zodanig dat
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.nl.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/nl/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Een continue variant van de uniforme verdeling wordt **continue uniforme verdeling** genoemd, die wordt gedefinieerd op een eindig interval. De kans dat de waarde X in een interval van lengte l valt, is evenredig aan l en loopt op tot 1.
 
@@ -82,11 +82,11 @@ Wanneer we data uit het echte leven analyseren, zijn ze vaak geen willekeurige v
 
 Hier is de boxplot die het gemiddelde, de mediaan en de kwartielen voor onze data toont:
 
-![Gewicht Boxplot](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.nl.png)
+![Gewicht Boxplot](../../../../translated_images/nl/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Omdat onze data informatie bevat over verschillende speler **rollen**, kunnen we ook een boxplot per rol maken - dit stelt ons in staat om een idee te krijgen van hoe de parameters verschillen per rol. Deze keer bekijken we de lengte:
 
-![Boxplot per rol](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.nl.png)
+![Boxplot per rol](../../../../translated_images/nl/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Dit diagram suggereert dat, gemiddeld genomen, de lengte van eerste honkspelers hoger is dan de lengte van tweede honkspelers. Later in deze les leren we hoe we deze hypothese formeler kunnen testen en hoe we kunnen aantonen dat onze data statistisch significant is om dit te bewijzen.
 
@@ -94,7 +94,7 @@ Dit diagram suggereert dat, gemiddeld genomen, de lengte van eerste honkspelers 
 
 Om te zien wat de verdeling van onze data is, kunnen we een grafiek maken die een **histogram** wordt genoemd. De X-as bevat een aantal verschillende gewichtintervallen (zogenaamde **bins**), en de verticale as toont het aantal keren dat onze willekeurige variabele steekproef binnen een bepaald interval viel.
 
-![Histogram van echte wereld data](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.nl.png)
+![Histogram van echte wereld data](../../../../translated_images/nl/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Uit dit histogram kun je zien dat alle waarden gecentreerd zijn rond een bepaald gemiddeld gewicht, en hoe verder we van dat gewicht af gaan, hoe minder gewichten van die waarde worden aangetroffen. Met andere woorden, het is zeer onwaarschijnlijk dat het gewicht van een honkbalspeler sterk afwijkt van het gemiddelde gewicht. De variantie van gewichten toont de mate waarin gewichten waarschijnlijk verschillen van het gemiddelde.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Als we het histogram van de gegenereerde steekproeven plotten, zien we een afbeelding die erg lijkt op die hierboven. En als we het aantal steekproeven en het aantal bins vergroten, kunnen we een afbeelding van een normale verdeling genereren die dichter bij ideaal is:
 
-![Normale Verdeling met mean=0 en std.dev=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.nl.png)
+![Normale Verdeling met mean=0 en std.dev=1](../../../../translated_images/nl/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Normale Verdeling met mean=0 en std.dev=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 In ons geval geeft de waarde 0.53 aan dat er enige correlatie is tussen het gewicht en de lengte van een persoon. We kunnen ook de spreidingsdiagram maken van één waarde tegen de andere om de relatie visueel te zien:
 
-![Relatie tussen gewicht en lengte](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.nl.png)
+![Relatie tussen gewicht en lengte](../../../../translated_images/nl/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Meer voorbeelden van correlatie en covariantie zijn te vinden in [bijbehorende notebook](notebook.ipynb).
 

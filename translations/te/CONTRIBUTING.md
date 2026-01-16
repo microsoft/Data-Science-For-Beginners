@@ -312,7 +312,7 @@ def calculate_mean(data):
   import pandas as pd
   ```
   ````
-- చిత్రాలకు alt టెక్స్ట్ జోడించండి: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.te.png)`
+- చిత్రాలకు alt టెక్స్ట్ జోడించండి: `![Alt text](../../translated_images/te/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - లైన్ పొడవులు సుమారు 80-100 అక్షరాలుగా ఉంచండి
 
 ### Python

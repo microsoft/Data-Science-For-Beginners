@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 Di sini, anda memasang pakej `ggplot2` dan kemudian mengimportnya ke dalam workspace menggunakan arahan `library("ggplot2")`. Untuk memplot sebarang plot dalam ggplot, fungsi `ggplot()` digunakan dan anda menentukan set data, pemboleh ubah x dan y sebagai atribut. Dalam kes ini, kita menggunakan fungsi `geom_line()` kerana kita ingin memplot plot garis.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.ms.png)
+![MaxWingspan-lineplot](../../../../../translated_images/ms/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Apa yang anda perhatikan dengan segera? Nampaknya terdapat sekurang-kurangnya satu outlier - itu rentang sayap yang sangat besar! Rentang sayap lebih dari 2000 sentimeter bersamaan lebih dari 20 meter - adakah terdapat Pterodaktil berkeliaran di Minnesota? Mari kita siasat.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 Kita menentukan sudut dalam `theme` dan menentukan label paksi x dan y dalam `xlab()` dan `ylab()` masing-masing. `ggtitle()` memberikan nama kepada graf/plot.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.ms.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/ms/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Walaupun dengan putaran label ditetapkan kepada 45 darjah, masih terlalu banyak untuk dibaca. Mari cuba strategi lain: label hanya outlier tersebut dan tetapkan label dalam carta. Anda boleh menggunakan carta scatter untuk memberikan lebih ruang kepada pelabelan:
 
@@ -100,7 +100,7 @@ Apa yang berlaku di sini? Anda menggunakan fungsi `geom_point()` untuk memplot t
 
 Apa yang anda temui?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.ms.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/ms/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Tapis data anda
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 Kami mencipta dataframe baru `birds_filtered` dan kemudian memplot scatter plot. Dengan menapis outlier, data anda kini lebih koheren dan mudah difahami.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.ms.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/ms/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Sekarang kita mempunyai set data yang lebih bersih sekurang-kurangnya dari segi rentang sayap, mari kita temui lebih banyak tentang burung-burung ini.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```
 Dalam snippet berikut, kami memasang pakej [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) dan [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) untuk membantu memanipulasi dan mengelompokkan data bagi memplot carta bar bertindan. Pertama, anda mengelompokkan data berdasarkan `Category` burung dan kemudian meringkaskan lajur `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Kemudian, plot carta bar menggunakan pakej `ggplot2` dan tentukan warna untuk kategori yang berbeza serta labelnya.  
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.ms.png)
+![Stacked bar chart](../../../../../translated_images/ms/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Namun, carta bar ini sukar dibaca kerana terdapat terlalu banyak data yang tidak dikelompokkan. Anda perlu memilih hanya data yang ingin anda plot, jadi mari kita lihat panjang burung berdasarkan kategori mereka.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```
 Anda mula-mula mengira nilai unik dalam lajur `Category` dan kemudian menyusunnya ke dalam dataframe baru `birds_count`. Data yang disusun ini kemudian difaktorkan pada tahap yang sama supaya ia diplotkan dalam cara yang disusun. Menggunakan `ggplot2` anda kemudian memplot data dalam carta bar. `coord_flip()` memplot bar mendatar.  
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.ms.png)
+![category-length](../../../../../translated_images/ms/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Carta bar ini menunjukkan pandangan yang baik tentang bilangan burung dalam setiap kategori. Sekilas pandang, anda dapat melihat bahawa bilangan burung terbesar di rantau ini adalah dalam kategori Itik/Angsa/BurungAir. Minnesota adalah 'tanah 10,000 tasik' jadi ini tidak mengejutkan!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```
 Kami mengelompokkan data `birds_filtered` mengikut `Category` dan kemudian memplot graf bar.  
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.ms.png)
+![comparing data](../../../../../translated_images/ms/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Tiada yang mengejutkan di sini: burung kolibri mempunyai MaxLength paling kecil berbanding Pelikan atau Angsa. Data yang masuk akal secara logik adalah sesuatu yang baik!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.ms.png)
+![super-imposed values](../../../../../translated_images/ms/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Cabaran
 

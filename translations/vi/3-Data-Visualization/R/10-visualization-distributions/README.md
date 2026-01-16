@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![chiều dài tối đa theo bộ](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.vi.png)
+![chiều dài tối đa theo bộ](../../../../../translated_images/vi/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 Điều này cung cấp một cái nhìn tổng quan về phân bố chung của chiều dài cơ thể theo từng bộ chim, nhưng đây không phải là cách tối ưu để hiển thị phân bố thực sự. Nhiệm vụ này thường được thực hiện bằng cách tạo biểu đồ Histogram.
 
@@ -57,7 +57,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![phân bố trên toàn bộ bộ dữ liệu](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.vi.png)
+![phân bố trên toàn bộ bộ dữ liệu](../../../../../translated_images/vi/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 Như bạn có thể thấy, hầu hết hơn 400 loài chim trong bộ dữ liệu này nằm trong phạm vi dưới 2000 cho khối lượng cơ thể tối đa của chúng. Tìm hiểu thêm về dữ liệu bằng cách thay đổi tham số `bins` thành một số lớn hơn, chẳng hạn như 30:
 
@@ -65,7 +65,7 @@ Như bạn có thể thấy, hầu hết hơn 400 loài chim trong bộ dữ li�
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![phân bố-30bins](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.vi.png)
+![phân bố-30bins](../../../../../translated_images/vi/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 Biểu đồ này hiển thị phân bố một cách chi tiết hơn. Một biểu đồ ít lệch về bên trái hơn có thể được tạo bằng cách đảm bảo rằng bạn chỉ chọn dữ liệu trong một phạm vi nhất định:
 
@@ -77,7 +77,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![biểu đồ histogram đã lọc](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.vi.png)
+![biểu đồ histogram đã lọc](../../../../../translated_images/vi/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ Thử một số bộ lọc và điểm dữ liệu khác. Để xem toàn bộ phân bố của dữ liệu, loại bỏ bộ lọc `['MaxBodyMass']` để hiển thị các phân bố có nhãn.
 
@@ -91,7 +91,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Có vẻ như có một mối tương quan dự kiến giữa hai yếu tố này dọc theo một trục dự kiến, với một điểm hội tụ đặc biệt mạnh:
 
-![biểu đồ 2d](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.vi.png)
+![biểu đồ 2d](../../../../../translated_images/vi/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 Biểu đồ Histogram hoạt động tốt theo mặc định cho dữ liệu dạng số. Vậy nếu bạn cần xem phân bố theo dữ liệu dạng văn bản thì sao?
 
@@ -123,7 +123,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![sải cánh và tình trạng bảo tồn](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.vi.png)
+![sải cánh và tình trạng bảo tồn](../../../../../translated_images/vi/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 Dường như không có mối tương quan tốt giữa sải cánh tối thiểu và tình trạng bảo tồn. Thử nghiệm các yếu tố khác của bộ dữ liệu bằng phương pháp này. Bạn có thể thử các bộ lọc khác nhau. Bạn có tìm thấy mối tương quan nào không?
 
@@ -137,7 +137,7 @@ Hãy làm việc với biểu đồ mật độ ngay bây giờ!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![biểu đồ mật độ](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.vi.png)
+![biểu đồ mật độ](../../../../../translated_images/vi/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 Bạn có thể thấy cách biểu đồ phản ánh biểu đồ trước đó về dữ liệu sải cánh tối thiểu; nó chỉ mượt mà hơn một chút. Nếu bạn muốn xem lại đường gấp khúc của MaxBodyMass trong biểu đồ thứ hai mà bạn đã tạo, bạn có thể làm mượt nó rất tốt bằng cách tạo lại nó bằng phương pháp này:
 
@@ -145,7 +145,7 @@ Bạn có thể thấy cách biểu đồ phản ánh biểu đồ trước đó
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![mật độ khối lượng cơ thể](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.vi.png)
+![mật độ khối lượng cơ thể](../../../../../translated_images/vi/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 Nếu bạn muốn một đường mượt mà nhưng không quá mượt, hãy chỉnh sửa tham số `adjust`:
 
@@ -153,7 +153,7 @@ Nếu bạn muốn một đường mượt mà nhưng không quá mượt, hãy 
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![khối lượng cơ thể ít mượt hơn](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.vi.png)
+![khối lượng cơ thể ít mượt hơn](../../../../../translated_images/vi/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ Đọc về các tham số có sẵn cho loại biểu đồ này và thử nghiệm!
 
@@ -163,7 +163,7 @@ Loại biểu đồ này cung cấp các hình ảnh trực quan giải thích r
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![khối lượng cơ thể theo bộ](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.vi.png)
+![khối lượng cơ thể theo bộ](../../../../../translated_images/vi/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 Thử thách
 

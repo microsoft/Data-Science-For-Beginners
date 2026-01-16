@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Statistik och sannolikhetsteori är två nära besläktade områden inom matematiken som är mycket relevanta för datavetenskap. Det är möjligt att arbeta med data utan djupa kunskaper i matematik, men det är ändå bättre att känna till åtminstone några grundläggande begrepp. Här presenterar vi en kort introduktion som hjälper dig att komma igång.
 
-[![Introduktionsvideo](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.sv.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Introduktionsvideo](../../../../translated_images/sv/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Quiz före föreläsningen](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Det är svårare att beskriva sannolikhetsfördelningen för en kontinuerlig var
 
 Vi kan bara prata om sannolikheten att en variabel faller inom ett givet intervall av värden, t.ex. P(t<sub>1</sub>≤X<t<sub>2</sub>). I detta fall beskrivs sannolikhetsfördelningen av en **sannolikhetstäthetsfunktion** p(x), sådan att
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.sv.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/sv/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 En kontinuerlig analog till likformig fördelning kallas **kontinuerligt likformig**, som definieras på ett ändligt intervall. Sannolikheten att värdet X faller inom ett intervall av längd l är proportionell mot l och stiger upp till 1.
 
@@ -82,11 +82,11 @@ När vi analyserar data från verkligheten är de ofta inte slumpmässiga variab
 
 Här är låddiagrammet som visar medelvärde, median och kvartiler för våra data:
 
-![Låddiagram för vikt](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.sv.png)
+![Låddiagram för vikt](../../../../translated_images/sv/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Eftersom våra data innehåller information om olika spelares **roller**, kan vi också göra ett låddiagram per roll - det låter oss få en uppfattning om hur parametrarnas värden skiljer sig mellan roller. Den här gången tittar vi på längd:
 
-![Låddiagram per roll](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.sv.png)
+![Låddiagram per roll](../../../../translated_images/sv/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Detta diagram antyder att, i genomsnitt, är längden på första basmän högre än längden på andra basmän. Senare i denna lektion kommer vi att lära oss hur vi kan testa denna hypotes mer formellt och hur vi kan visa att våra data är statistiskt signifikanta för att bevisa detta.
 
@@ -94,7 +94,7 @@ Detta diagram antyder att, i genomsnitt, är längden på första basmän högre
 
 För att se hur fördelningen av våra data ser ut kan vi rita ett diagram som kallas **histogram**. X-axeln innehåller ett antal olika viktintervall (så kallade **bins**), och Y-axeln visar antalet gånger vårt stickprov av slumpmässiga variabler hamnade inom ett givet intervall.
 
-![Histogram av verkliga data](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.sv.png)
+![Histogram av verkliga data](../../../../translated_images/sv/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Från detta histogram kan du se att alla värden är centrerade runt ett visst medelvärde, och ju längre vi går från det medelvärdet - desto färre vikter av det värdet förekommer. Det vill säga, det är mycket osannolikt att vikten på en basebollspelare skulle skilja sig mycket från medelvikten. Variansen i vikterna visar i vilken utsträckning vikterna sannolikt skiljer sig från medelvärdet.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Om vi ritar histogrammet för de genererade stickproven kommer vi att se en bild mycket lik den som visas ovan. Och om vi ökar antalet stickprov och antalet bins, kan vi generera en bild av en normalfördelning som är närmare idealet:
 
-![Normalfördelning med medelvärde=0 och std.avvikelse=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.sv.png)
+![Normalfördelning med medelvärde=0 och std.avvikelse=1](../../../../translated_images/sv/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Normalfördelning med medelvärde=0 och std.avvikelse=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 I vårt fall indikerar värdet 0.53 att det finns viss korrelation mellan en persons vikt och längd. Vi kan också göra ett spridningsdiagram av ett värde mot det andra för att se relationen visuellt:
 
-![Relation mellan vikt och längd](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.sv.png)
+![Relation mellan vikt och längd](../../../../translated_images/sv/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Fler exempel på korrelation och kovarians finns i [medföljande anteckningsbok](notebook.ipynb).
 

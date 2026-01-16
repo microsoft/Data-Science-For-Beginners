@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Video o definícii dátovej vedy](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.sk.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Video o definícii dátovej vedy](../../../../translated_images/sk/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -151,7 +151,7 @@ Ak chceme ísť ešte ďalej, môžeme vykresliť čas potrebný na dokončenie 
 
 V tejto výzve sa pokúsime nájsť koncepty relevantné pre oblasť dátovej vedy tým, že sa pozrieme na texty. Vezmeme článok z Wikipédie o dátovej vede, stiahneme a spracujeme text, a potom vytvoríme oblak slov, ako je tento:
 
-![Oblak slov pre dátovú vedu](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.sk.png)
+![Oblak slov pre dátovú vedu](../../../../translated_images/sk/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Navštívte [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore'), aby ste si prečítali kód. Môžete tiež spustiť kód a vidieť, ako vykonáva všetky transformácie dát v reálnom čase.
 

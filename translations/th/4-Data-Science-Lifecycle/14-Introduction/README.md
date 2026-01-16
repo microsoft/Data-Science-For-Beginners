@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 บทเรียนนี้จะเน้นที่ 3 ส่วนของวงจรชีวิต: การเก็บข้อมูล การประมวลผล และการบำรุงรักษา
 
-![แผนภาพของวงจรชีวิตวิทยาศาสตร์ข้อมูล](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.th.jpg)
+![แผนภาพของวงจรชีวิตวิทยาศาสตร์ข้อมูล](../../../../translated_images/th/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > ภาพโดย [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## การเก็บข้อมูล
@@ -101,7 +101,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![วงจรชีวิต Team Data Science](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.th.png) | ![ภาพจาก Data Science Process Alliance](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.th.png) |
+|![วงจรชีวิต Team Data Science](../../../../translated_images/th/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![ภาพจาก Data Science Process Alliance](../../../../translated_images/th/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | ภาพโดย [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | ภาพโดย [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [แบบทดสอบหลังเรียน](https://ff-quizzes.netlify.app/en/ds/quiz/27)

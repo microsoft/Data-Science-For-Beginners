@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Her installerer du `ggplot2`-pakken og importerer den deretter til arbeidsområdet ved hjelp av kommandoen `library("ggplot2")`. For å plotte et diagram i ggplot brukes funksjonen `ggplot()`, og du spesifiserer datasettet, x- og y-variablene som attributter. I dette tilfellet bruker vi funksjonen `geom_line()` siden vi ønsker å plotte et linjediagram.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.no.png)
+![MaxWingspan-lineplot](../../../../../translated_images/no/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Hva legger du merke til med en gang? Det ser ut til å være minst én uteligger - det er et ganske vingespenn! Et vingespenn på over 2000 centimeter tilsvarer mer enn 20 meter - er det Pterodaktyler som flyr rundt i Minnesota? La oss undersøke.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Vi spesifiserer vinkelen i `theme` og angir x- og y-akseetiketter i `xlab()` og `ylab()` henholdsvis. `ggtitle()` gir diagrammet et navn.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.no.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/no/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Selv med rotasjonen av etikettene satt til 45 grader, er det for mange til å lese. La oss prøve en annen strategi: merk bare uteliggerne og sett etikettene innenfor diagrammet. Du kan bruke et spredningsdiagram for å få mer plass til merkingen:
 
@@ -100,7 +100,7 @@ Hva skjer her? Du brukte funksjonen `geom_point()` for å plotte spredningspunkt
 
 Hva oppdager du?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.no.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/no/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Filtrer dataene dine
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Vi laget en ny dataframe `birds_filtered` og plottet deretter et spredningsdiagram. Ved å filtrere ut uteliggerne er dataene dine nå mer sammenhengende og forståelige.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.no.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/no/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Nå som vi har et renere datasett, i det minste når det gjelder vingespenn, la oss oppdage mer om disse fuglene.
 
@@ -161,7 +161,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 I følgende kodebit installerer vi [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8)- og [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0)-pakkene for å hjelpe med å manipulere og gruppere data for å plotte et stablet stolpediagram. Først grupperer du dataene etter fuglenes `Category` og oppsummerer deretter kolonnene `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Deretter plotter du stolpediagrammet ved hjelp av `ggplot2`-pakken og spesifiserer farger for de ulike kategoriene og etikettene.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.no.png)
+![Stacked bar chart](../../../../../translated_images/no/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Dette stolpediagrammet er imidlertid uleselig fordi det er for mye ugruppert data. Du må velge bare dataene du vil plotte, så la oss se på lengden av fugler basert på deres kategori.
 
@@ -176,7 +176,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Du teller først unike verdier i `Category`-kolonnen og sorterer dem deretter inn i en ny dataframe `birds_count`. Disse sorterte dataene faktoreres deretter på samme nivå slik at de plottes i sortert rekkefølge. Ved hjelp av `ggplot2` plotter du deretter dataene i et stolpediagram. `coord_flip()` plasserer horisontale stolper.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.no.png)
+![category-length](../../../../../translated_images/no/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Dette stolpediagrammet gir et godt innblikk i antallet fugler i hver kategori. Med et blikk ser du at det største antallet fugler i denne regionen er i kategorien Ender/Gjess/Vannfugl. Minnesota er "landet med 10 000 innsjøer", så dette er ikke overraskende!
 
@@ -199,7 +199,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Vi grupperer `birds_filtered`-dataene etter `Category` og plottet deretter et stolpediagram.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.no.png)
+![comparing data](../../../../../translated_images/no/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Ingenting er overraskende her: kolibrier har den minste MaksLengden sammenlignet med pelikaner eller gjess. Det er bra når data gir logisk mening!
 
@@ -211,7 +211,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.no.png)
+![super-imposed values](../../../../../translated_images/no/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Utfordring
 

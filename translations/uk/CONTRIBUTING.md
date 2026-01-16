@@ -316,7 +316,7 @@ def calculate_mean(data):
   ```
   ````
   
-- Додавайте alt-текст до зображень: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.uk.png)`  
+- Додавайте alt-текст до зображень: `![Alt text](../../translated_images/uk/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Зберігайте розумну довжину рядків (близько 80-100 символів)  
 
 ### Python

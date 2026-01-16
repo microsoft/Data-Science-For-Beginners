@@ -93,7 +93,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, một biểu đồ tròn hiển thị tỷ lệ của dữ liệu này theo hai lớp nấm. Điều rất quan trọng là phải sắp xếp đúng thứ tự của các nhãn, đặc biệt ở đây, vì vậy hãy chắc chắn kiểm tra thứ tự mà mảng nhãn được xây dựng!
 
-![biểu đồ tròn](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.vi.png)
+![biểu đồ tròn](../../../../../translated_images/vi/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Biểu đồ donut!
 
@@ -128,7 +128,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![biểu đồ donut](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.vi.png)
+![biểu đồ donut](../../../../../translated_images/vi/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Đoạn mã này sử dụng hai thư viện - ggplot2 và webr. Sử dụng hàm PieDonut của thư viện webr, chúng ta có thể dễ dàng tạo biểu đồ donut!
 
@@ -166,7 +166,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Sử dụng biểu đồ waffle, bạn có thể dễ dàng thấy tỷ lệ màu sắc của mũ nấm trong bộ dữ liệu này. Thật thú vị, có rất nhiều nấm có mũ màu xanh lá cây!
 
-![biểu đồ waffle](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.vi.png)
+![biểu đồ waffle](../../../../../translated_images/vi/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 Trong bài học này, bạn đã học ba cách để trực quan hóa tỷ lệ. Đầu tiên, bạn cần nhóm dữ liệu của mình thành các danh mục và sau đó quyết định cách tốt nhất để hiển thị dữ liệu - biểu đồ tròn, donut, hoặc waffle. Tất cả đều hấp dẫn và mang lại cho người dùng một cái nhìn nhanh về bộ dữ liệu.
 

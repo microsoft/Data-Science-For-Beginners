@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # தரவுடன் வேலை செய்வது
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.ta.jpg)
+![data love](../../../translated_images/ta/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > புகைப்படம் <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">அலெக்சாண்டர் சின்</a> மூலம், <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> இல் இருந்து
 
 இந்த பாடங்களில், தரவுகளை எவ்வாறு மேலாண்மை செய்யலாம், மாற்றலாம் மற்றும் பயன்பாட்டில் பயன்படுத்தலாம் என்பதை நீங்கள் கற்றுக்கொள்வீர்கள். தொடர்புடைய மற்றும் தொடர்பில்லாத தரவுத்தொகுப்புகள் மற்றும் அவற்றில் தரவுகளை எவ்வாறு சேமிக்கலாம் என்பதையும் நீங்கள் கற்றுக்கொள்வீர்கள். Python பயன்படுத்தி தரவுகளை மேலாண்மை செய்வதற்கான அடிப்படைகளை நீங்கள் கற்றுக்கொள்வீர்கள், மேலும் Python பயன்படுத்தி தரவுகளை மேலாண்மை செய்யவும், சுரங்கம் செய்யவும் பல வழிகளை நீங்கள் கண்டறிவீர்கள்.

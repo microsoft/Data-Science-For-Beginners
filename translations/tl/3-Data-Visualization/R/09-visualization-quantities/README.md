@@ -69,7 +69,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Dito, ini-install mo ang `ggplot2` package at pagkatapos ay ini-import ito sa workspace gamit ang `library("ggplot2")` command. Para mag-plot ng anumang plot sa ggplot, ginagamit ang `ggplot()` function at tinutukoy mo ang dataset, x at y variables bilang attributes. Sa kasong ito, ginagamit natin ang `geom_line()` function dahil layunin nating mag-plot ng line plot.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.tl.png)
+![MaxWingspan-lineplot](../../../../../translated_images/tl/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Ano ang napansin mo agad? Mukhang mayroong hindi bababa sa isang outlier - napakalaki ng wingspan! Ang wingspan na higit sa 2000 sentimetro ay katumbas ng higit sa 20 metro - may mga Pterodactyl ba sa Minnesota? Suriin natin.
 
@@ -87,7 +87,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Tinutukoy natin ang anggulo sa `theme` at tinutukoy ang mga label ng x at y axis sa `xlab()` at `ylab()` ayon sa pagkakabanggit. Ang `ggtitle()` ay nagbibigay ng pangalan sa graph/plot.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.tl.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/tl/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Kahit na may rotation ng mga label na nakatakda sa 45 degrees, masyadong marami ang mga ito para basahin. Subukan natin ang ibang estratehiya: lagyan lamang ng label ang mga outlier at itakda ang mga label sa loob ng chart. Maaari kang gumamit ng scatter chart upang magkaroon ng mas maraming espasyo para sa paglalagay ng label:
 
@@ -103,7 +103,7 @@ Ano ang nangyayari dito? Ginamit mo ang `geom_point()` function upang mag-plot n
 
 Ano ang natuklasan mo?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.tl.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/tl/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## I-filter ang iyong data
 
@@ -122,7 +122,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Gumawa tayo ng bagong dataframe `birds_filtered` at pagkatapos ay nag-plot ng scatter plot. Sa pamamagitan ng pag-filter ng mga outlier, ang iyong data ay mas cohesive at mas madaling maunawaan.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.tl.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/tl/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Ngayon na mayroon tayong mas malinis na dataset, hindi bababa sa mga tuntunin ng wingspan, tuklasin natin ang higit pa tungkol sa mga ibon na ito.
 
@@ -164,7 +164,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 Sa sumusunod na snippet, ini-install natin ang [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) at [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) packages upang makatulong sa pag-manipula at pag-group ng data upang mag-plot ng stacked bar chart. Una, i-group mo ang data batay sa `Category` ng ibon at pagkatapos ay i-summarize ang `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan` columns. Pagkatapos, i-plot ang bar chart gamit ang `ggplot2` package at tukuyin ang mga kulay para sa iba't ibang kategorya at mga label.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.tl.png)
+![Stacked bar chart](../../../../../translated_images/tl/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Gayunpaman, ang bar chart na ito ay hindi mababasa dahil masyadong maraming hindi naka-group na data. Kailangan mong piliin lamang ang data na nais mong i-plot, kaya't tingnan natin ang haba ng mga ibon batay sa kanilang kategorya.
 
@@ -179,7 +179,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Una mong binibilang ang mga unique na halaga sa `Category` column at pagkatapos ay inaayos ang mga ito sa isang bagong dataframe `birds_count`. Ang sorted data na ito ay pagkatapos ay factored sa parehong level upang ito ay ma-plot sa sorted na paraan. Gamit ang `ggplot2` ay i-plot mo ang data sa isang bar chart. Ang `coord_flip()` ay nag-plot ng horizontal bars.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.tl.png)
+![category-length](../../../../../translated_images/tl/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Ang bar chart na ito ay nagpapakita ng magandang view ng bilang ng mga ibon sa bawat kategorya. Sa isang sulyap, makikita mo na ang pinakamalaking bilang ng mga ibon sa rehiyong ito ay nasa kategoryang Ducks/Geese/Waterfowl. Ang Minnesota ay ang 'land of 10,000 lakes' kaya't hindi ito nakakagulat!
 
@@ -202,7 +202,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 I-group natin ang `birds_filtered` data batay sa `Category` at pagkatapos ay mag-plot ng bar graph.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.tl.png)
+![comparing data](../../../../../translated_images/tl/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Walang nakakagulat dito: ang mga hummingbird ay may pinakamaliit na MaxLength kumpara sa Pelicans o Geese. Maganda kapag ang data ay may lohikal na kahulugan!
 
@@ -214,7 +214,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.tl.png)
+![super-imposed values](../../../../../translated_images/tl/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Hamon
 

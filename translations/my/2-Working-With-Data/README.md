@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ဒေတာနှင့်အလုပ်လုပ်ခြင်း
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.my.jpg)
+![data love](../../../translated_images/my/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > ဓာတ်ပုံကို <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> မှ <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> တွင် ရိုက်ထားသည်
   
 ဒီသင်ခန်းစာများတွင် ဒေတာကို စီမံခြင်း၊ ပြောင်းလဲခြင်းနှင့် အက်ပလီကေးရှင်းများတွင် အသုံးပြုခြင်းနည်းလမ်းများကို သင်ယူနိုင်ပါမည်။ သင် relational databases နှင့် non-relational databases အကြောင်းကို သင်ယူပြီး ဒေတာကို ဘယ်လိုသိုလှောင်နိုင်မလဲဆိုတာကိုလည်း သိရှိနိုင်ပါမည်။ Python ကို အသုံးပြု၍ ဒေတာကို စီမံရန် အခြေခံအချက်များကို သင်ယူပြီး Python ကို အသုံးပြု၍ ဒေတာကို စီမံခြင်းနှင့် ရှာဖွေခြင်းနည်းလမ်းများစွာကို ရှာဖွေတွေ့ရှိနိုင်ပါမည်။

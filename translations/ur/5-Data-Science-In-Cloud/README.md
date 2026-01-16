@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # کلاؤڈ میں ڈیٹا سائنس
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.ur.jpg)
+![cloud-picture](../../../translated_images/ur/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > تصویر [Jelleke Vanooteghem](https://unsplash.com/@ilumire) کی جانب سے [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape) پر دستیاب ہے۔
 
 جب بڑے ڈیٹا کے ساتھ ڈیٹا سائنس کرنے کی بات آتی ہے، تو کلاؤڈ ایک انقلابی تبدیلی ثابت ہو سکتا ہے۔ اگلے تین اسباق میں، ہم دیکھیں گے کہ کلاؤڈ کیا ہے اور یہ کیوں مددگار ثابت ہو سکتا ہے۔ ہم دل کی ناکامی کے ڈیٹا سیٹ کا جائزہ لیں گے اور ایک ماڈل بنائیں گے جو کسی شخص کے دل کی ناکامی کے امکانات کا اندازہ لگانے میں مدد کرے گا۔ ہم کلاؤڈ کی طاقت کا استعمال کرتے ہوئے ماڈل کو دو مختلف طریقوں سے تربیت دیں گے، تعینات کریں گے اور استعمال کریں گے۔ ایک طریقہ صرف یوزر انٹرفیس کے ذریعے، جسے "لو کوڈ/نو کوڈ" انداز کہا جاتا ہے، اور دوسرا طریقہ Azure Machine Learning Software Developer Kit (Azure ML SDK) کا استعمال کرتے ہوئے۔
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.ur.png)
+![project-schema](../../../translated_images/ur/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### موضوعات
 

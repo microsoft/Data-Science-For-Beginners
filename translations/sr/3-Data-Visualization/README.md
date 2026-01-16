@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Визуализације
 
-![пчела на цвету лаванде](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.sr.jpg)
+![пчела на цвету лаванде](../../../translated_images/sr/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Фотографија од <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Џене Ли</a> на <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Визуелизација података је један од најважнијих задатака научника за податке. Слика вреди хиљаду речи, а визуелизација вам може помоћи да уочите све врсте занимљивих аспеката ваших података, као што су врхови, одступања, груписања, тенденције и још много тога, што вам може помоћи да разумете причу коју ваши подаци покушавају да испричају.

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 可视化
 
-![一只蜜蜂停在薰衣草花上](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.zh.jpg)
+![一只蜜蜂停在薰衣草花上](../../../translated_images/zh/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > 图片由 <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> 提供，来自 <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 数据可视化是数据科学家最重要的任务之一。图片胜过千言万语，可视化可以帮助你识别数据中的各种有趣部分，例如峰值、异常值、分组、趋势等，从而帮助你理解数据背后的故事。

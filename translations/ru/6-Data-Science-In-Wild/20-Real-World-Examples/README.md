@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
  * [Наука о данных в здравоохранении](https://data-flair.training/blogs/data-science-in-healthcare/) - выделяет такие приложения, как медицинская визуализация (например, МРТ, рентген, КТ-сканирование), геномика (секвенирование ДНК), разработка лекарств (оценка рисков, прогнозирование успеха), предиктивная аналитика (уход за пациентами и логистика поставок), отслеживание и предотвращение заболеваний и т.д.
 
-![Приложения науки о данных в реальном мире](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.ru.png) Источник изображения: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Приложения науки о данных в реальном мире](../../../../translated_images/ru/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Источник изображения: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 На рисунке показаны другие области и примеры применения методов науки о данных. Хотите изучить другие приложения? Ознакомьтесь с разделом [Обзор и самостоятельное изучение](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) ниже.
 

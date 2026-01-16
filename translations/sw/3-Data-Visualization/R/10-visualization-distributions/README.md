@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![urefu wa juu kwa oda](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.sw.png)
+![urefu wa juu kwa oda](../../../../../translated_images/sw/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 Hii inatoa muhtasari wa usambazaji wa jumla wa urefu wa mwili kwa kila Oda ya ndege, lakini si njia bora ya kuonyesha usambazaji wa kweli. Kazi hii kawaida hufanywa kwa kuunda Histogramu.
 
@@ -57,7 +57,7 @@ Hii inatoa muhtasari wa usambazaji wa jumla wa urefu wa mwili kwa kila Oda ya nd
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![usambazaji wa seti nzima ya data](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.sw.png)
+![usambazaji wa seti nzima ya data](../../../../../translated_images/sw/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 Kama unavyoona, ndege wengi zaidi ya 400 katika seti hii ya data wanaangukia katika safu ya chini ya 2000 kwa UzitoMkuu wa Mwili wao. Pata ufahamu zaidi kuhusu data kwa kubadilisha kipengele cha `bins` kuwa namba kubwa zaidi, kama 30:
 
@@ -65,7 +65,7 @@ Kama unavyoona, ndege wengi zaidi ya 400 katika seti hii ya data wanaangukia kat
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![usambazaji-30bins](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.sw.png)
+![usambazaji-30bins](../../../../../translated_images/sw/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 Mchoro huu unaonyesha usambazaji kwa undani zaidi. Mchoro usioegemea sana upande wa kushoto unaweza kuundwa kwa kuhakikisha kuwa unachagua tu data ndani ya safu fulani:
 
@@ -77,7 +77,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![histogramu iliyochujwa](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.sw.png)
+![histogramu iliyochujwa](../../../../../translated_images/sw/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ Jaribu vichujio vingine na pointi za data. Ili kuona usambazaji kamili wa data, ondoa kichujio cha `['MaxBodyMass']` ili kuonyesha usambazaji ulio na lebo.
 
@@ -91,7 +91,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Inaonekana kuna uhusiano unaotarajiwa kati ya vipengele hivi viwili kwenye mhimili unaotarajiwa, na sehemu moja yenye nguvu ya mwelekeo:
 
-![mchoro wa 2d](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.sw.png)
+![mchoro wa 2d](../../../../../translated_images/sw/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 Histogramu hufanya kazi vizuri kwa chaguo-msingi kwa data ya namba. Je, unahitaji kuona usambazaji kulingana na data ya maandishi?
 
@@ -123,7 +123,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![mabawa na hali ya uhifadhi](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.sw.png)
+![mabawa na hali ya uhifadhi](../../../../../translated_images/sw/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 Haionekani kuwa na uhusiano mzuri kati ya mabawa madogo na hali ya uhifadhi. Jaribu vipengele vingine vya seti ya data kwa kutumia njia hii. Je, unapata uhusiano wowote?
 
@@ -137,7 +137,7 @@ Hebu tufanye kazi na mchoro wa msongamano sasa!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![mchoro wa msongamano](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.sw.png)
+![mchoro wa msongamano](../../../../../translated_images/sw/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 Unaweza kuona jinsi mchoro unavyoakisi ule wa awali wa data ya MabawaMdogo; ni laini kidogo tu. Ikiwa ungependa kurejea mstari wa vipande wa UzitoMkuu wa Mwili katika mchoro wa pili uliounda, ungeweza kuulainisha vizuri kwa kuunda upya kwa kutumia njia hii:
 
@@ -145,7 +145,7 @@ Unaweza kuona jinsi mchoro unavyoakisi ule wa awali wa data ya MabawaMdogo; ni l
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![msongamano wa uzito wa mwili](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.sw.png)
+![msongamano wa uzito wa mwili](../../../../../translated_images/sw/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 Ikiwa ungependa mstari ulio laini, lakini si laini sana, hariri kipengele cha `adjust`: 
 
@@ -153,7 +153,7 @@ Ikiwa ungependa mstari ulio laini, lakini si laini sana, hariri kipengele cha `a
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![msongamano wa uzito wa mwili usio laini sana](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.sw.png)
+![msongamano wa uzito wa mwili usio laini sana](../../../../../translated_images/sw/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ Soma kuhusu vigezo vinavyopatikana kwa aina hii ya mchoro na ujaribu!
 
@@ -163,7 +163,7 @@ Aina hii ya mchoro inatoa vielelezo vya kuelezea vizuri. Kwa mistari michache ya
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![uzito wa mwili kwa oda](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.sw.png)
+![uzito wa mwili kwa oda](../../../../../translated_images/sw/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 Changamoto
 

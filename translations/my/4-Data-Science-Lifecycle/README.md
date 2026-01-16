@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ဒေတာသိပ္ပံ၏ အသက်ရှည်လက်ဆောင်
 
-![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.my.jpg)
+![communication](../../../translated_images/my/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
 > ဓာတ်ပုံ - <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> မှ <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> တွင် ရရှိသည်
   
 ဒီသင်ခန်းစာများတွင် ဒေတာသိပ္ပံ၏ အသက်ရှည်လက်ဆောင်အပိုင်းအစများကို လေ့လာနိုင်ပါမည်။ ဒေတာဆန်းစစ်ခြင်းနှင့် ဆက်သွယ်ပြောဆိုမှုတို့အပါအဝင် အချက်အလက်များကို လေ့လာဆန်းစစ်ခြင်းနှင့် ပတ်သက်သော အကြောင်းအရာများကို လေ့လာမည်ဖြစ်သည်။

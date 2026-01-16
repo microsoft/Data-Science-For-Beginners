@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 İstatistik ve Olasılık Teorisi, Matematiğin birbiriyle yakından ilişkili ve Veri Bilimi açısından oldukça önemli iki alanıdır. Matematik hakkında derin bir bilgiye sahip olmadan veriyle çalışmak mümkün olsa da, en azından bazı temel kavramları bilmek her zaman daha iyidir. Burada, başlangıç yapmanıza yardımcı olacak kısa bir giriş sunacağız.
 
-[![Tanıtım Videosu](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.tr.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Tanıtım Videosu](../../../../translated_images/tr/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Ders Öncesi Testi](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Sürekli bir değişkenin olasılık dağılımını tanımlamak daha zordur; bu
 
 Bir değişkenin belirli bir değer aralığına düşme olasılığından bahsedebiliriz, örneğin P(t<sub>1</sub>≤X<t<sub>2</sub>). Bu durumda, olasılık dağılımı **olasılık yoğunluk fonksiyonu** p(x) ile tanımlanır, öyle ki:
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.tr.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/tr/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Sürekli uniform dağılımın bir analogu, sonlu bir aralıkta tanımlanır. X'in uzunluğu *l* olan bir aralığa düşme olasılığı *l* ile orantılıdır ve 1'e kadar yükselir.
 
@@ -82,11 +82,11 @@ Gerçek hayattan veri analiz ettiğimizde, bu veriler tam anlamıyla rastgele de
 
 İşte verilerimiz için ortalama, medyan ve çeyrekleri gösteren kutu grafiği:
 
-![Kilo Kutu Grafiği](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.tr.png)
+![Kilo Kutu Grafiği](../../../../translated_images/tr/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Verilerimiz farklı oyuncu **rolleri** hakkında bilgi içerdiğinden, rollere göre kutu grafiği de yapabiliriz - bu, parametre değerlerinin roller arasında nasıl farklılık gösterdiği hakkında fikir edinmemizi sağlar. Bu sefer boyu ele alacağız:
 
-![Role göre kutu grafiği](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.tr.png)
+![Role göre kutu grafiği](../../../../translated_images/tr/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Bu diyagram, ortalama olarak birinci basemenlerin boyunun ikinci basemenlerden daha yüksek olduğunu göstermektedir. Bu dersin ilerleyen bölümlerinde bu hipotezi daha resmi bir şekilde nasıl test edebileceğimizi ve verilerimizin bu durumu göstermek için istatistiksel olarak anlamlı olduğunu nasıl kanıtlayabileceğimizi öğreneceğiz.
 
@@ -94,7 +94,7 @@ Bu diyagram, ortalama olarak birinci basemenlerin boyunun ikinci basemenlerden d
 
 Verilerimizin dağılımını görmek için **histogram** adı verilen bir grafik çizebiliriz. X ekseni, farklı kilo aralıklarını (sözde **binler**) içerir ve dikey eksen, rastgele değişken örneğimizin belirli bir aralıkta olduğu zamanların sayısını gösterir.
 
-![Gerçek dünya verilerinin histogramı](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.tr.png)
+![Gerçek dünya verilerinin histogramı](../../../../translated_images/tr/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Bu histogramdan, tüm değerlerin belirli bir ortalama kilonun etrafında toplandığını ve bu kilodan uzaklaştıkça, o değerdeki kiloların daha az sıklıkla karşılaşıldığını görebilirsiniz. Yani, bir beyzbol oyuncusunun kilosunun ortalama kilodan çok farklı olması oldukça olasılık dışıdır. Kiloların varyansı, kiloların ortalamadan ne kadar farklı olma olasılığını gösterir.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Üretilen örneklerin histogramını çizersek, yukarıda gösterilen resme çok benzeyen bir görüntü görürüz. Örnek sayısını ve bin sayısını artırırsak, ideal bir normal dağılıma daha yakın bir görüntü oluşturabiliriz:
 
-![Ortalama=0 ve std.dev=1 ile Normal Dağılım](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.tr.png)
+![Ortalama=0 ve std.dev=1 ile Normal Dağılım](../../../../translated_images/tr/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Ortalama=0 ve std.dev=1 ile Normal Dağılım*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 Bizim durumumuzda, 0.53 değeri, bir kişinin ağırlığı ile boyu arasında bir miktar korelasyon olduğunu gösterir. Ayrıca, ilişkiyi görsel olarak görmek için bir değeri diğerine karşı dağılım grafiği yapabiliriz:
 
-![Ağırlık ve boy arasındaki ilişki](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.tr.png)
+![Ağırlık ve boy arasındaki ilişki](../../../../translated_images/tr/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Korelasyon ve kovaryans ile ilgili daha fazla örnek [eşlik eden defterde](notebook.ipynb) bulunabilir.
 

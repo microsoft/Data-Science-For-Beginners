@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ڈیٹا کے ساتھ کام کرنا
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.ur.jpg)
+![data love](../../../translated_images/ur/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > تصویر از <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">الیکزینڈر سن</a> on <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 ان اسباق میں، آپ سیکھیں گے کہ ڈیٹا کو کس طرح منظم، تبدیل، اور ایپلیکیشنز میں استعمال کیا جا سکتا ہے۔ آپ ریلیشنل اور نان ریلیشنل ڈیٹا بیسز کے بارے میں جانیں گے اور یہ کہ ڈیٹا ان میں کس طرح محفوظ کیا جا سکتا ہے۔ آپ Python کے ساتھ ڈیٹا کو منظم کرنے کے بنیادی اصول سیکھیں گے، اور آپ دریافت کریں گے کہ Python کے ذریعے ڈیٹا کو منظم اور مائن کرنے کے کئی طریقے موجود ہیں۔

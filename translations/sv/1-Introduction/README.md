@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduktion till Data Science
 
-![data i aktion](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.sv.jpg)
+![data i aktion](../../../translated_images/sv/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Foto av <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> på <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 I dessa lektioner kommer du att upptäcka hur Data Science definieras och lära dig om etiska överväganden som en dataanalytiker måste ta hänsyn till. Du kommer också att lära dig hur data definieras och få en introduktion till statistik och sannolikhet, de centrala akademiska områdena inom Data Science.

@@ -47,25 +47,25 @@ Una dintre abilitățile de bază ale unui specialist în date este capacitatea 
 
 Chiar dacă un specialist în date este atent să aleagă graficul potrivit pentru datele potrivite, există multe moduri în care datele pot fi afișate pentru a susține un punct de vedere, adesea în detrimentul datelor în sine. Există numeroase exemple de grafice și infografice înșelătoare!
 
-[![Cum Mint Graficele de Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.ro.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Cum mint graficele")
+[![Cum Mint Graficele de Alberto Cairo](../../../../../translated_images/ro/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Cum mint graficele")
 
 > 🎥 Fă clic pe imaginea de mai sus pentru o prezentare despre graficele înșelătoare
 
 Acest grafic inversează axa X pentru a arăta opusul adevărului, bazat pe date:
 
-![grafic prost 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.ro.png)
+![grafic prost 1](../../../../../translated_images/ro/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Acest grafic](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) este chiar mai înșelător, deoarece privirea este atrasă spre dreapta pentru a concluziona că, în timp, cazurile de COVID au scăzut în diverse județe. De fapt, dacă te uiți atent la date, vei descoperi că acestea au fost rearanjate pentru a crea acea tendință descendentă înșelătoare.
 
-![grafic prost 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.ro.jpg)
+![grafic prost 2](../../../../../translated_images/ro/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Acest exemplu notoriu folosește culoarea ȘI o axă Y inversată pentru a înșela: în loc să concluzionezi că decesele cauzate de arme au crescut după adoptarea legislației favorabile armelor, privirea este păcălită să creadă că opusul este adevărat:
 
-![grafic prost 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.ro.jpg)
+![grafic prost 3](../../../../../translated_images/ro/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Acest grafic ciudat arată cum proporțiile pot fi manipulate, cu efecte hilare:
 
-![grafic prost 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.ro.jpg)
+![grafic prost 4](../../../../../translated_images/ro/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Compararea incomparabilului este o altă tactică dubioasă. Există un [site web minunat](https://tylervigen.com/spurious-correlations) dedicat 'corelațiilor false', care afișează 'fapte' ce corelează lucruri precum rata divorțurilor din Maine și consumul de margarină. Un grup Reddit colectează, de asemenea, [utilizările urâte](https://www.reddit.com/r/dataisugly/top/?t=all) ale datelor.
 
@@ -100,13 +100,13 @@ Etichetează axele, oferă o legendă dacă este necesar și oferă tooltips pen
 
 Dacă datele tale sunt textuale și verbose pe axa X, poți înclina textul pentru o mai bună lizibilitate. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) oferă graficare 3D, dacă datele tale o susțin. Vizualizări sofisticate de date pot fi produse folosind această metodă.
 
-![grafice 3D](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.ro.png)
+![grafice 3D](../../../../../translated_images/ro/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Afișarea animată și graficarea 3D
 
 Unele dintre cele mai bune vizualizări de date de astăzi sunt animate. Shirley Wu are exemple uimitoare realizate cu D3, cum ar fi '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', unde fiecare floare este o vizualizare a unui film. Un alt exemplu pentru Guardian este 'bussed out', o experiență interactivă care combină vizualizările cu Greensock și D3 plus un format de articol narativ pentru a arăta cum NYC gestionează problema persoanelor fără adăpost, trimițându-le cu autobuzul în afara orașului.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.ro.png)
+![busing](../../../../../translated_images/ro/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: Cum America își mută persoanele fără adăpost" de la [Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Vizualizări de Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Deși această lecție nu este suficientă pentru a intra în detalii despre ace
 
 Vei finaliza o aplicație web care va afișa o vizualizare animată a acestei rețele sociale. Folosește o bibliotecă construită pentru a crea o [vizualizare a unei rețele](https://github.com/emiliorizzo/vue-d3-network) utilizând Vue.js și D3. Când aplicația rulează, poți trage nodurile pe ecran pentru a rearanja datele.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.ro.png)
+![liaisons](../../../../../translated_images/ro/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Proiect: Construiește un grafic pentru a arăta o rețea folosind D3.js
 

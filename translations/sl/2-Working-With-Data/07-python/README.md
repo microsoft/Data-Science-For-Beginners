@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-----------------------------------------------------------------------------------------------------------: |
 |                 Delo s Pythonom - _Sketchnote avtorja [@nitya](https://twitter.com/nitya)_                    |
 
-[![Uvodni video](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.sl.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Uvodni video](../../../../translated_images/sl/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Medtem ko baze podatkov ponujajo zelo učinkovite načine za shranjevanje podatkov in njihovo poizvedovanje z uporabo jezikov za poizvedbe, je najbolj prilagodljiv način obdelave podatkov pisanje lastnega programa za manipulacijo podatkov. V mnogih primerih bi bila poizvedba v bazi podatkov bolj učinkovita. Vendar pa v nekaterih primerih, ko je potrebna bolj zapletena obdelava podatkov, tega ni mogoče enostavno doseči z uporabo SQL. 
 Obdelavo podatkov je mogoče programirati v katerem koli programskem jeziku, vendar obstajajo določeni jeziki, ki so na višji ravni glede dela s podatki. Podatkovni znanstveniki običajno uporabljajo enega od naslednjih jezikov:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Graf časovne serije](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.sl.png)
+![Graf časovne serije](../../../../translated_images/sl/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Recimo, da vsak teden organiziramo zabavo za prijatelje in vzamemo dodatnih 10 paketov sladoleda za zabavo. Ustvarimo lahko drugo Series, indeksirano po tednih, da to prikažemo:
 ```python
@@ -84,7 +84,7 @@ Ko seštejemo dve Series, dobimo skupno število:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Graf časovne serije](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.sl.png)
+![Graf časovne serije](../../../../translated_images/sl/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Opomba**: Ne uporabljamo preproste sintakse `total_items+additional_items`. Če bi jo, bi dobili veliko vrednosti `NaN` (*Not a Number*) v rezultatni Series. To je zato, ker manjkajo vrednosti za nekatere točke indeksa v Series `additional_items`, in seštevanje `NaN` z nečim rezultira v `NaN`. Zato moramo med seštevanjem določiti parameter `fill_value`.
 
@@ -93,7 +93,7 @@ Pri časovnih serijah lahko tudi **ponovno vzorčimo** serijo z različnimi čas
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Mesečna povprečja časovne serije](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.sl.png)
+![Mesečna povprečja časovne serije](../../../../translated_images/sl/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ Prvi problem, na katerega se bomo osredotočili, je modeliranje širjenja epidem
 
 Ker želimo pokazati, kako ravnati s podatki, vas vabimo, da odprete [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) in ga preberete od začetka do konca. Prav tako lahko zaženete celice in rešite nekaj izzivov, ki smo jih pripravili za vas na koncu.
 
-![Širjenje COVID-a](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.sl.png)
+![Širjenje COVID-a](../../../../translated_images/sl/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Če ne veste, kako zagnati kodo v Jupyter Notebooku, si oglejte [ta članek](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,7 +241,7 @@ Celoten primer analize tega podatkovnega niza z uporabo kognitivne storitve [Tex
 
 Odprite [`notebook-papers.ipynb`](notebook-papers.ipynb) in ga preberite od začetka do konca. Prav tako lahko zaženete celice in rešite nekaj izzivov, ki smo jih pripravili za vas na koncu.
 
-![Zdravljenje COVID-a](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.sl.png)
+![Zdravljenje COVID-a](../../../../translated_images/sl/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Obdelava slikovnih podatkov
 

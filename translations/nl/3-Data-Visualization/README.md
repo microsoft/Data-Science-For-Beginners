@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualisaties
 
-![een bij op een lavendelbloem](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.nl.jpg)
+![een bij op een lavendelbloem](../../../translated_images/nl/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Foto door <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> op <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Het visualiseren van data is een van de belangrijkste taken van een datawetenschapper. Beelden zeggen meer dan duizend woorden, en een visualisatie kan je helpen allerlei interessante aspecten van je data te identificeren, zoals pieken, uitschieters, groeperingen, tendensen en meer, die je kunnen helpen het verhaal van je data te begrijpen.

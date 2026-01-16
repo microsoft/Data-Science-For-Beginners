@@ -312,7 +312,7 @@ Pavyzdžiai:
   import pandas as pd
   ```
   ````
-- Pridėkite alternatyvų tekstą vaizdams: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.lt.png)`
+- Pridėkite alternatyvų tekstą vaizdams: `![Alt text](../../translated_images/lt/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Išlaikykite pagrįstą eilutės ilgį (apie 80–100 simbolių)
 
 ### Python

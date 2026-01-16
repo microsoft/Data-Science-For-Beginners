@@ -22,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. ڈیٹا سیٹ [کیٹلاگ](https://planetarycomputer.microsoft.com/catalog) کو دریافت کریں - ہر ایک کا مقصد سیکھیں۔
  3. ایکسپلورر استعمال کریں - دلچسپی کا ایک ڈیٹا سیٹ منتخب کریں، ایک متعلقہ کوئری اور رینڈرنگ آپشن منتخب کریں۔
 
-![سیاروی کمپیوٹر ایکسپلورر](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.ur.png)
+![سیاروی کمپیوٹر ایکسپلورر](../../../../translated_images/ur/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `آپ کا کام:`
 اب براؤزر میں رینڈر کی گئی ویژولائزیشن کا مطالعہ کریں اور درج ذیل سوالات کے جواب دیں:

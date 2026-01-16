@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Arbeta med Python - _Sketchnote av [@nitya](https://twitter.com/nitya)_                  |
 
-[![Introduktionsvideo](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.sv.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Introduktionsvideo](../../../../translated_images/sv/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Även om databaser erbjuder mycket effektiva sätt att lagra och söka data med hjälp av frågespråk, är det mest flexibla sättet att bearbeta data att skriva sitt eget program för att manipulera data. I många fall är en databasfråga ett mer effektivt sätt. Men i vissa fall, när mer komplex databehandling behövs, kan det inte enkelt göras med SQL.  
 Databehandling kan programmeras i vilket programmeringsspråk som helst, men det finns vissa språk som är mer högspecialiserade för att arbeta med data. Dataforskare föredrar vanligtvis ett av följande språk:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```  
-![Tidsserieplott](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.sv.png)
+![Tidsserieplott](../../../../translated_images/sv/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Anta nu att vi varje vecka organiserar en fest för vänner och tar med ytterligare 10 paket glass till festen. Vi kan skapa en annan Series, indexerad per vecka, för att visa detta:  
 ```python
@@ -84,7 +84,7 @@ När vi adderar två Series får vi det totala antalet:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```  
-![Tidsserieplott](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.sv.png)
+![Tidsserieplott](../../../../translated_images/sv/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Notera** att vi inte använder den enkla syntaxen `total_items+additional_items`. Om vi gjorde det skulle vi få många `NaN` (*Not a Number*)-värden i den resulterande serien. Detta beror på att det saknas värden för vissa indexpunkter i serien `additional_items`, och att addera `NaN` till något resulterar i `NaN`. Därför måste vi specificera parametern `fill_value` under additionen.
 
@@ -93,7 +93,7 @@ Med tidsserier kan vi också **resampla** serien med olika tidsintervall. Till e
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```  
-![Månadsvisa tidsseriegenomsnitt](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.sv.png)
+![Månadsvisa tidsseriegenomsnitt](../../../../translated_images/sv/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -220,7 +220,7 @@ Det första problemet vi kommer att fokusera på är modellering av epidemisk sp
 
 Eftersom vi vill demonstrera hur man hanterar data, uppmanar vi dig att öppna [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) och läsa den från början till slut. Du kan också köra cellerna och göra några utmaningar som vi har lämnat åt dig i slutet.
 
-![COVID-spridning](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.sv.png)
+![COVID-spridning](../../../../translated_images/sv/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Om du inte vet hur man kör kod i Jupyter Notebook, ta en titt på [denna artikel](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -242,7 +242,7 @@ Ett komplett exempel på att analysera detta dataset med hjälp av [Text Analyti
 
 Öppna [`notebook-papers.ipynb`](notebook-papers.ipynb) och läs den från början till slut. Du kan också köra cellerna och göra några utmaningar som vi har lämnat åt dig i slutet.
 
-![Covid Medicinsk Behandling](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.sv.png)
+![Covid Medicinsk Behandling](../../../../translated_images/sv/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Bearbeta bilddata
 

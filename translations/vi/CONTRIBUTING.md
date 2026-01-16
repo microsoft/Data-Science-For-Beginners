@@ -312,7 +312,7 @@ Bao gồm trong mô tả PR của bạn:
   import pandas as pd
   ```
   ````
-- Thêm văn bản thay thế cho hình ảnh: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.vi.png)`
+- Thêm văn bản thay thế cho hình ảnh: `![Alt text](../../translated_images/vi/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Giữ độ dài dòng hợp lý (khoảng 80-100 ký tự)
 
 ### Python

@@ -41,7 +41,7 @@ Dzięki demokratyzacji AI, programistom jest teraz łatwiej projektować i integ
 
  * [Data Science w Ochronie Zdrowia](https://data-flair.training/blogs/data-science-in-healthcare/) - podkreśla zastosowania takie jak obrazowanie medyczne (np. MRI, RTG, tomografia komputerowa), genomika (sekwencjonowanie DNA), rozwój leków (ocena ryzyka, przewidywanie sukcesu), analiza predykcyjna (opieka nad pacjentem i logistyka dostaw), śledzenie i zapobieganie chorobom itp.
 
-![Zastosowania Data Science w Rzeczywistym Świecie](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.pl.png) Źródło obrazu: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Zastosowania Data Science w Rzeczywistym Świecie](../../../../translated_images/pl/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Źródło obrazu: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Rysunek pokazuje inne dziedziny i przykłady zastosowania technik data science. Chcesz odkryć inne zastosowania? Sprawdź sekcję [Przegląd i Samodzielna Nauka](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) poniżej.
 

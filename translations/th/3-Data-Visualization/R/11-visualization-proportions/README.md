@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 และนี่คือแผนภูมิวงกลมที่แสดงสัดส่วนข้อมูลตามสองคลาสของเห็ดนี้ สิ่งสำคัญคือการจัดลำดับป้ายให้ถูกต้อง โดยเฉพาะในกรณีนี้ ดังนั้นอย่าลืมตรวจสอบลำดับที่สร้างอาร์เรย์ป้าย!
 
-![pie chart](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.th.png)
+![pie chart](../../../../../translated_images/th/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## โดนัท!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![donut chart](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.th.png)
+![donut chart](../../../../../translated_images/th/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 โค้ดนี้ใช้สองไลบรารี - ggplot2 และ webr โดยใช้ฟังก์ชัน PieDonut ของไลบรารี webr เราสามารถสร้างแผนภูมิโดนัทได้อย่างง่ายดาย!
 
@@ -169,7 +169,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 ด้วยแผนภูมิแบบวาฟเฟิล คุณสามารถเห็นสัดส่วนของสีหมวกเห็ดในชุดข้อมูลนี้ได้อย่างชัดเจน น่าสนใจที่มีเห็ดที่มีหมวกสีเขียวจำนวนมาก!
 
-![waffle chart](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.th.png)
+![waffle chart](../../../../../translated_images/th/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 ในบทเรียนนี้ คุณได้เรียนรู้สามวิธีในการแสดงสัดส่วนข้อมูล ก่อนอื่น คุณต้องจัดกลุ่มข้อมูลของคุณเป็นหมวดหมู่ จากนั้นตัดสินใจว่าวิธีใดดีที่สุดในการแสดงข้อมูล - วงกลม โดนัท หรือวาฟเฟิล ทั้งหมดนี้น่าสนใจและให้ภาพรวมของชุดข้อมูลแก่ผู้ใช้ได้ทันที
 

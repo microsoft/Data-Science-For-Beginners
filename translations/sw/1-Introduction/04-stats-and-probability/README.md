@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Nadharia ya Takwimu na Uwezekano ni maeneo mawili yanayohusiana sana ya Hisabati ambayo ni muhimu sana kwa Sayansi ya Data. Inawezekana kufanya kazi na data bila uelewa wa kina wa hisabati, lakini ni bora kujua angalau dhana za msingi. Hapa tutatoa utangulizi mfupi ambao utakusaidia kuanza.
 
-[![Video ya Utangulizi](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.sw.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Video ya Utangulizi](../../../../translated_images/sw/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Jaribio la Kabla ya Somo](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Ni vigumu zaidi kuelezea usambazaji wa uwezekano wa mabadiliko endelevu, yenye t
 
 Tunaweza tu kuzungumzia uwezekano wa mabadiliko kuangukia katika kipengele fulani cha thamani, kwa mfano P(t<sub>1</sub>≤X<t<sub>2</sub>). Katika kesi hii, usambazaji wa uwezekano unaelezewa na **kazi ya msongamano wa uwezekano** p(x), ambapo
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.sw.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/sw/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Mfano wa usambazaji wa sare endelevu unaitwa **sare endelevu**, ambao hufafanuliwa kwenye kipengele kilichofungwa. Uwezekano kwamba thamani X itaangukia kwenye kipengele cha urefu l ni sawia na l, na huongezeka hadi 1.
 
@@ -82,11 +82,11 @@ Tunapochambua data kutoka maisha halisi, mara nyingi si mabadiliko ya kawaida ka
 
 Hapa kuna mchoro wa box plot unaoonyesha wastani, median na robo kwa data yetu:
 
-![Box Plot ya Uzito](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.sw.png)
+![Box Plot ya Uzito](../../../../translated_images/sw/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Kwa kuwa data yetu ina taarifa kuhusu **majukumu** tofauti ya wachezaji, tunaweza pia kufanya box plot kwa mujibu wa jukumu - hii itaturuhusu kupata wazo la jinsi thamani zinavyotofautiana kati ya majukumu. Wakati huu tutazingatia urefu:
 
-![Box plot kwa mujibu wa jukumu](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.sw.png)
+![Box plot kwa mujibu wa jukumu](../../../../translated_images/sw/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Mchoro huu unaonyesha kwamba, kwa wastani, urefu wa wachezaji wa nafasi ya kwanza ni mrefu zaidi kuliko wa nafasi ya pili. Baadaye katika somo hili tutajifunza jinsi tunavyoweza kuthibitisha dhana hii kwa njia rasmi zaidi, na jinsi ya kuonyesha kwamba data yetu ni muhimu kitaalamu kuonyesha hilo.
 
@@ -94,7 +94,7 @@ Mchoro huu unaonyesha kwamba, kwa wastani, urefu wa wachezaji wa nafasi ya kwanz
 
 Ili kuona usambazaji wa data yetu, tunaweza kuchora mchoro unaoitwa **histogramu**. Mhimili wa X ungekuwa na idadi ya vipengele tofauti vya uzito (vinavyoitwa **bins**), na mhimili wa wima ungeonyesha idadi ya mara mabadiliko yetu ya kawaida yalikuwa ndani ya kipengele fulani.
 
-![Histogramu ya data halisi](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.sw.png)
+![Histogramu ya data halisi](../../../../translated_images/sw/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Kutoka kwenye histogramu hii unaweza kuona kwamba thamani zote ziko katikati ya wastani fulani wa uzito, na kadri tunavyoenda mbali na uzito huo - ndivyo uzito wa thamani hiyo unavyopungua. Yaani, ni nadra sana kwamba uzito wa mchezaji wa baseball utakuwa tofauti sana na wastani wa uzito. Tofauti ya uzito inaonyesha kiwango ambacho uzito unaweza kutofautiana na wastani.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Tukichora histogramu ya sampuli zilizozalishwa tutaona picha inayofanana sana na ile iliyoonyeshwa hapo juu. Na tukiongeza idadi ya sampuli na idadi ya bins, tunaweza kuzalisha picha ya usambazaji wa kawaida inayokaribia ile bora zaidi:
 
-![Usambazaji wa Kawaida na wastani=0 na std.dev=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.sw.png)
+![Usambazaji wa Kawaida na wastani=0 na std.dev=1](../../../../translated_images/sw/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Usambazaji wa Kawaida na wastani=0 na std.dev=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 Katika kesi yetu, thamani 0.53 inaonyesha kwamba kuna uhusiano fulani kati ya uzito na urefu wa mtu. Tunaweza pia kutengeneza mchoro wa kutawanyika wa thamani moja dhidi ya nyingine ili kuona uhusiano kwa macho:
 
-![Uhusiano kati ya uzito na urefu](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.sw.png)
+![Uhusiano kati ya uzito na urefu](../../../../translated_images/sw/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Mifano zaidi ya uwiano wa pamoja na uhusiano wa pamoja inaweza kupatikana katika [majarida yanayoambatana](notebook.ipynb).
 

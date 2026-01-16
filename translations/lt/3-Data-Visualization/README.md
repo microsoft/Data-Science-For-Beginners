@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vizualizacijos
 
-![bitė ant levandos žiedo](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.lt.jpg)  
+![bitė ant levandos žiedo](../../../translated_images/lt/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)  
 > Nuotrauka <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> iš <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Duomenų vizualizavimas yra viena svarbiausių duomenų mokslininko užduočių. Vaizdai verti tūkstančio žodžių, o vizualizacija gali padėti atskleisti įvairius įdomius jūsų duomenų aspektus, tokius kaip šuoliai, anomalijos, grupavimai, tendencijos ir dar daugiau, kas padeda suprasti istoriją, kurią jūsų duomenys bando papasakoti.

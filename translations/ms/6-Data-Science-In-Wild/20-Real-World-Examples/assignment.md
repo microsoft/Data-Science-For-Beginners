@@ -22,7 +22,7 @@ Antara muka Explorer (seperti yang ditunjukkan dalam tangkapan skrin di bawah) m
  2. Terokai [Katalog dataset](https://planetarycomputer.microsoft.com/catalog) - pelajari tujuan setiap dataset.
  3. Gunakan Explorer - pilih dataset yang menarik, pilih pertanyaan dan pilihan rendering yang relevan.
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.ms.png)
+![The Planetary Computer Explorer](../../../../translated_images/ms/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Tugas Anda:`
 Sekarang kaji visualisasi yang dipaparkan dalam pelayar dan jawab soalan berikut:

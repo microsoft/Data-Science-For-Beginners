@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![데이터 과학 정의 비디오](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.ko.png)](https://youtu.be/beZ7Mb_oz9I)
+[![데이터 과학 정의 비디오](../../../../translated_images/ko/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [강의 전 퀴즈](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 이번 도전 과제에서는 텍스트를 분석하여 데이터 과학 분야와 관련된 개념을 찾아보겠습니다. 데이터 과학에 대한 위키피디아 글을 가져와 텍스트를 처리한 후, 아래와 같은 워드 클라우드를 만들어 보겠습니다:
 
-![데이터 과학 워드 클라우드](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.ko.png)
+![데이터 과학 워드 클라우드](../../../../translated_images/ko/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore')를 방문하여 코드를 읽어보세요. 코드를 실행하여 모든 데이터 변환이 실시간으로 어떻게 수행되는지 확인할 수도 있습니다.
 

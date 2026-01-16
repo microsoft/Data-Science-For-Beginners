@@ -51,7 +51,7 @@ Balın pound başına fiyatı ile ABD'deki üretim eyaletleri arasındaki ilişk
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.tr.png)
+![scatterplot 1](../../../../translated_images/tr/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Şimdi, aynı verileri yıllar içinde fiyatın nasıl değiştiğini göstermek için bal renk şemasıyla gösterin. Bunu, yıllar içinde değişimi göstermek için bir 'hue' parametresi ekleyerek yapabilirsiniz:
 
@@ -60,7 +60,7 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.tr.png)
+![scatterplot 2](../../../../translated_images/tr/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 Bu renk şeması değişikliğiyle, yıllar içinde pound başına bal fiyatında güçlü bir ilerleme olduğunu açıkça görebilirsiniz. Gerçekten de, verilerde bir örnek seti inceleyerek (örneğin Arizona'yı seçerek) yıllar içinde fiyat artışlarının bir desenini, birkaç istisna dışında görebilirsiniz:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Noktaların boyutlarının kademeli olarak arttığını görebilirsiniz.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.tr.png)
+![scatterplot 3](../../../../translated_images/tr/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Bu basit bir arz ve talep meselesi mi? İklim değişikliği ve koloni çöküşü gibi faktörler nedeniyle, yıllar içinde satın alınabilecek daha az bal mı var ve bu nedenle fiyat mı artıyor?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Cevap: Evet, 2003 yılı civarındaki bazı istisnalar dışında:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.tr.png)
+![line chart 1](../../../../translated_images/tr/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Seaborn, verileri tek bir çizgi etrafında topladığı için "her x değerindeki birden fazla ölçümü ortalamayı ve ortalama etrafındaki %95 güven aralığını çizerek" gösterir. [Kaynak](https://seaborn.pydata.org/tutorial/relational.html). Bu zaman alıcı davranış, `ci=None` eklenerek devre dışı bırakılabilir.
 
@@ -114,7 +114,7 @@ Soru: Peki, 2003 yılında bal arzında bir artış da görebiliyor muyuz? Yıll
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.tr.png)
+![line chart 2](../../../../translated_images/tr/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Cevap: Pek değil. Toplam üretime bakarsanız, aslında o yıl üretimin arttığını görürsünüz, ancak genel olarak bu yıllar boyunca üretilen bal miktarının azaldığı görülmektedir.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 Bu görselleştirmede, koloni başına verim ve koloni sayısını yıllar içinde yan yana, sütunlar için wrap 3 olarak ayarlanmış şekilde karşılaştırabilirsiniz:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.tr.png)
+![facet grid](../../../../translated_images/tr/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 Bu veri seti için, eyaletler ve yıllar arasında koloni sayısı ve verim açısından belirgin bir şey öne çıkmıyor. Bu iki değişken arasında bir korelasyon bulmanın farklı bir yolu var mı?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.tr.png)
+![superimposed plots](../../../../translated_images/tr/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 2003 yılı civarında göze çarpan bir şey olmasa da, bu dersi biraz daha mutlu bir notla bitirmemize olanak tanıyor: kolonilerin sayısı genel olarak azalıyor olsa da, koloni sayısı sabitleniyor, ancak koloni başına verim azalıyor.
 

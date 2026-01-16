@@ -93,7 +93,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, wykres kołowy pokazujący proporcje tych danych według dwóch klas grzybów. Bardzo ważne jest, aby kolejność etykiet była poprawna, szczególnie tutaj, więc upewnij się, że weryfikujesz kolejność, w jakiej budowana jest tablica etykiet!
 
-![wykres kołowy](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.pl.png)
+![wykres kołowy](../../../../../translated_images/pl/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Pierścienie!
 
@@ -127,7 +127,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![wykres pierścieniowy](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.pl.png)
+![wykres pierścieniowy](../../../../../translated_images/pl/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Ten kod używa dwóch bibliotek - ggplot2 i webr. Korzystając z funkcji PieDonut z biblioteki webr, możemy łatwo stworzyć wykres pierścieniowy!
 
@@ -165,7 +165,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Korzystając z wykresu gofrowego, możesz wyraźnie zobaczyć proporcje kolorów kapeluszy w tym zestawie danych o grzybach. Co ciekawe, jest wiele grzybów z zielonymi kapeluszami!
 
-![wykres gofrowy](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.pl.png)
+![wykres gofrowy](../../../../../translated_images/pl/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 W tej lekcji nauczyłeś się trzech sposobów wizualizacji proporcji. Najpierw musisz pogrupować swoje dane w kategorie, a następnie zdecydować, który sposób ich wyświetlania jest najlepszy - koło, pierścień czy gofr. Wszystkie są apetyczne i dają użytkownikowi natychmiastowy wgląd w zestaw danych.
 

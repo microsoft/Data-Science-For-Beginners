@@ -51,7 +51,7 @@ honey.head()
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.te.png)
+![scatterplot 1](../../../../translated_images/te/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 ఇప్పుడు, తేనె రంగు ప్యాలెట్ ఉపయోగించి అదే డేటాను చూపించండి, సంవత్సరాల వారీగా ధర ఎలా మారిందో చూపించడానికి. మీరు 'hue' పారామీటర్ జోడించడం ద్వారా సంవత్సరాల మార్పును చూపవచ్చు:
 
@@ -60,7 +60,7 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.te.png)
+![scatterplot 2](../../../../translated_images/te/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 ఈ రంగు ప్యాలెట్ మార్పుతో, తేనె ధరలో సంవత్సరాల వారీగా స్పష్టమైన పెరుగుదల ఉందని మీరు చూడవచ్చు. నిజంగా, డేటాలో ఒక ఉదాహరణ రాష్ట్రం (ఉదాహరణకు అరిజోనా) తీసుకుని పరిశీలిస్తే, సంవత్సరాల వారీగా ధర పెరుగుదల ఒక నమూనా కనిపిస్తుంది, కొన్ని తప్పులతో:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 డాట్ల పరిమాణం క్రమంగా పెరుగుతున్నట్లు మీరు చూడవచ్చు.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.te.png)
+![scatterplot 3](../../../../translated_images/te/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 ఇది సరళమైన సరఫరా మరియు డిమాండ్ కేసా కాదా? వాతావరణ మార్పు మరియు కాలనీ కాలాప్స్ వంటి కారణాల వల్ల, సంవత్సరాల వారీగా తేనె కొరకు అందుబాటు తగ్గుతుందా, అందువల్ల ధర పెరుగుతుందా?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 జవాబు: అవును, 2003 సంవత్సరానికి చుట్టూ కొన్ని తప్పులతో:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.te.png)
+![line chart 1](../../../../translated_images/te/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Seaborn ఒకే లైన్ చుట్టూ డేటాను సమీకరించడంతో, "ప్రతి x విలువ వద్ద బహుళ కొలతలను సగటు మరియు సగటు చుట్టూ 95% విశ్వాస అంతరాన్ని ప్లాట్ చేస్తుంది". [మూలం](https://seaborn.pydata.org/tutorial/relational.html). ఈ సమయం తీసుకునే ప్రవర్తనను `ci=None` జోడించడం ద్వారా నిలిపివేయవచ్చు.
 
@@ -114,7 +114,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.te.png)
+![line chart 2](../../../../translated_images/te/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 జవాబు: అంతగా కాదు. మొత్తం ఉత్పత్తిని చూస్తే, ఆ ప్రత్యేక సంవత్సరంలో పెరిగినట్లు కనిపిస్తుంది, అయితే సాధారణంగా ఈ సంవత్సరాలలో తేనె ఉత్పత్తి తగ్గుతోంది.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 ఈ దృశ్యీకరణలో, మీరు సంవత్సరాల వారీగా కాలనీకి ఉత్పత్తి మరియు కాలనీల సంఖ్యను పక్కపక్కనే 3 కాలమ్స్ లో ర్యాప్ సెట్ తో పోల్చవచ్చు:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.te.png)
+![facet grid](../../../../translated_images/te/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 ఈ డేటాసెట్ కోసం, కాలనీల సంఖ్య మరియు వారి ఉత్పత్తి విషయంలో సంవత్సరాల వారీగా మరియు రాష్ట్రాల వారీగా ప్రత్యేకంగా ఏమీ కనిపించదు. ఈ రెండు వేరియబుల్స్ మధ్య సంబంధం కనుగొనడానికి వేరే దృశ్య పద్ధతి ఉందా?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.te.png)
+![superimposed plots](../../../../translated_images/te/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 2003 సంవత్సరానికి చుట్టూ ఏదీ ప్రత్యేకంగా కనిపించకపోయినా, ఈ పాఠాన్ని కొంత సంతోషకరమైన నోటుతో ముగించడానికి ఇది సహాయపడుతుంది: మొత్తం కాలనీల సంఖ్య తగ్గుతున్నప్పటికీ, వారి ఉత్పత్తి తగ్గుతున్నా కాలనీల సంఖ్య స్థిరపడుతోంది.
 

@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![每目最大長度](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.mo.png)
+![每目最大長度](../../../../../translated_images/mo/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 這提供了每個鳥類目的一般身體長度分佈概況，但這並不是顯示真實分佈的最佳方式。通常使用直方圖來完成這項任務。
 ## 使用直方圖
@@ -56,7 +56,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![整個數據集的分佈](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.mo.png)
+![整個數據集的分佈](../../../../../translated_images/mo/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 如你所見，這個數據集中的 400 多種鳥類大多數最大體重都低於 2000。通過將 `bins` 參數更改為更高的數字，例如 30，可以獲得更多的洞察：
 
@@ -64,7 +64,7 @@ ggplot(data = birds_filtered, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![30個區間的分佈](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.mo.png)
+![30個區間的分佈](../../../../../translated_images/mo/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 此圖表以更細緻的方式顯示了分佈。通過確保僅選擇特定範圍內的數據，可以創建一個不那麼偏向左側的圖表：
 
@@ -76,7 +76,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![篩選後的直方圖](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.mo.png)
+![篩選後的直方圖](../../../../../translated_images/mo/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ 嘗試其他篩選條件和數據點。要查看數據的完整分佈，移除 `['MaxBodyMass']` 篩選器以顯示標籤分佈。
 
@@ -90,7 +90,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 沿著預期的軸，這兩個元素之間似乎存在預期的相關性，其中有一個特別強的收斂點：
 
-![2D 圖表](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.mo.png)
+![2D 圖表](../../../../../translated_images/mo/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 直方圖默認適用於數值型數據。如果你需要查看基於文本數據的分佈該怎麼辦？
 ## 使用文本數據探索數據集的分佈
@@ -121,7 +121,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![翼展與保育狀態的對比](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.mo.png)
+![翼展與保育狀態的對比](../../../../../translated_images/mo/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 最小翼展和保育狀態之間似乎沒有良好的相關性。使用此方法測試數據集的其他元素。你可以嘗試不同的篩選條件。你是否發現了任何相關性？
 
@@ -135,7 +135,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![密度圖](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.mo.png)
+![密度圖](../../../../../translated_images/mo/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 你可以看到該圖表反映了之前的最小翼展數據；它只是稍微平滑了一些。如果你想重新訪問第二個圖表中那條鋸齒狀的最大體重線，可以通過使用此方法非常好地將其平滑化：
 
@@ -143,7 +143,7 @@ ggplot(data = birds_filtered_1, aes(x = MinWingspan)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![體重密度](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.mo.png)
+![體重密度](../../../../../translated_images/mo/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 如果你想要一條平滑但不過於平滑的線，可以編輯 `adjust` 參數：
 
@@ -151,7 +151,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![較不平滑的體重密度](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.mo.png)
+![較不平滑的體重密度](../../../../../translated_images/mo/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ 閱讀此類圖表可用的參數並進行實驗！
 
@@ -161,7 +161,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![每目體重密度](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.mo.png)
+![每目體重密度](../../../../../translated_images/mo/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 挑戰
 

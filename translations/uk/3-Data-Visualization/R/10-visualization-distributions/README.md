@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![максимальна довжина за рядом](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.uk.png)
+![максимальна довжина за рядом](../../../../../translated_images/uk/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 Це дає загальний огляд розподілу довжини тіла за рядом птахів, але це не найкращий спосіб відображення справжніх розподілів. Для цього зазвичай створюють гістограму.
 ## Робота з гістограмами
@@ -56,7 +56,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![розподіл по всьому набору даних](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.uk.png)
+![розподіл по всьому набору даних](../../../../../translated_images/uk/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 Як видно, більшість із 400+ птахів у цьому наборі даних мають масу тіла менше 2000. Отримайте більше інформації про дані, змінивши параметр `bins` на більше значення, наприклад, 30:
 
@@ -64,7 +64,7 @@ ggplot(data = birds_filtered, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![розподіл-30bins](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.uk.png)
+![розподіл-30bins](../../../../../translated_images/uk/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 Цей графік показує розподіл у трохи більш деталізованому вигляді. Менш зміщений графік можна створити, вибравши дані лише в заданому діапазоні:
 
@@ -76,7 +76,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![відфільтрована гістограма](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.uk.png)
+![відфільтрована гістограма](../../../../../translated_images/uk/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ Спробуйте інші фільтри та точки даних. Щоб побачити повний розподіл даних, видаліть фільтр `['MaxBodyMass']`, щоб показати розподіли з мітками.
 
@@ -90,7 +90,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Здається, є очікуваний кореляційний зв’язок між цими двома елементами вздовж передбачуваної осі, з одним особливо сильним точковим збігом:
 
-![2d графік](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.uk.png)
+![2d графік](../../../../../translated_images/uk/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 Гістограми добре працюють за замовчуванням для числових даних. А що, якщо потрібно побачити розподіли за текстовими даними? 
 ## Дослідження набору даних для розподілів за текстовими даними 
@@ -121,7 +121,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![розмах крил і статус збереження](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.uk.png)
+![розмах крил і статус збереження](../../../../../translated_images/uk/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 Здається, немає чіткої кореляції між мінімальним розмахом крил і статусом збереження. Перевірте інші елементи набору даних, використовуючи цей метод. Ви можете спробувати різні фільтри. Чи знаходите ви якусь кореляцію?
 
@@ -135,7 +135,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![графік щільності](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.uk.png)
+![графік щільності](../../../../../translated_images/uk/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 Ви можете побачити, як графік повторює попередній для даних про мінімальний розмах крил; він просто трохи плавніший. Якщо ви хотіли б повернутися до того нерівного графіка MaxBodyMass у другому побудованому вами графіку, ви могли б дуже добре згладити його, відтворивши цей метод:
 
@@ -143,7 +143,7 @@ ggplot(data = birds_filtered_1, aes(x = MinWingspan)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![щільність маси тіла](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.uk.png)
+![щільність маси тіла](../../../../../translated_images/uk/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 Якщо ви хочете отримати плавну, але не надто плавну лінію, змініть параметр `adjust`: 
 
@@ -151,7 +151,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![менш плавна маса тіла](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.uk.png)
+![менш плавна маса тіла](../../../../../translated_images/uk/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ Ознайомтеся з параметрами, доступними для цього типу графіка, і експериментуйте!
 
@@ -161,7 +161,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![маса тіла за рядом](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.uk.png)
+![маса тіла за рядом](../../../../../translated_images/uk/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 Виклик
 

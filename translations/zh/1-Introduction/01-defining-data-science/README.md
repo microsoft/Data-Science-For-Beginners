@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![数据科学定义视频](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.zh.png)](https://youtu.be/beZ7Mb_oz9I)
+[![数据科学定义视频](../../../../translated_images/zh/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [课前测验](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 在这个挑战中，我们将尝试通过分析文本来找到与数据科学领域相关的概念。我们将选取一篇关于数据科学的维基百科文章，下载并处理文本，然后构建一个像这样的词云：
 
-![数据科学词云](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.zh.png)
+![数据科学词云](../../../../translated_images/zh/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 访问 [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') 阅读代码。你也可以运行代码，实时查看它如何执行所有数据转换。
 

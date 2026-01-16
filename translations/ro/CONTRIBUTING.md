@@ -318,7 +318,7 @@ Includeți în descrierea PR-ului:
   ```
   ````
   
-- Adăugați text alternativ la imagini: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.ro.png)`  
+- Adăugați text alternativ la imagini: `![Alt text](../../translated_images/ro/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Mențineți lungimea liniilor rezonabilă (aproximativ 80-100 de caractere)  
 
 ### Python

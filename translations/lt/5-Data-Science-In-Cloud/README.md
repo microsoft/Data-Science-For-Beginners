@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Duomenų mokslas debesyje
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.lt.jpg)
+![cloud-picture](../../../translated_images/lt/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Nuotrauka [Jelleke Vanooteghem](https://unsplash.com/@ilumire) iš [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Kalbant apie duomenų mokslą su dideliais duomenų kiekiais, debesis gali būti tikras žaidimo keitiklis. Per artimiausias tris pamokas sužinosime, kas yra debesis ir kodėl jis gali būti labai naudingas. Taip pat išnagrinėsime širdies nepakankamumo duomenų rinkinį ir sukursime modelį, kuris padės įvertinti tikimybę, ar žmogui gresia širdies nepakankamumas. Naudosime debesies galią, kad apmokytume, diegtume ir naudotume modelį dviem skirtingais būdais. Vienas būdas – naudojant tik vartotojo sąsają „Low code/No code“ stiliumi, kitas – naudojant „Azure Machine Learning Software Developer Kit“ (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.lt.png)
+![project-schema](../../../translated_images/lt/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Temos
 

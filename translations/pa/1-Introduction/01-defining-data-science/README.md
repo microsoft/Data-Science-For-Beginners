@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![ਡਾਟਾ ਸਾਇੰਸ ਦੀ ਪਰਿਭਾਸ਼ਾ ਵੀਡੀਓ](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.pa.png)](https://youtu.be/beZ7Mb_oz9I)
+[![ਡਾਟਾ ਸਾਇੰਸ ਦੀ ਪਰਿਭਾਸ਼ਾ ਵੀਡੀਓ](../../../../translated_images/pa/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [ਪ੍ਰੀ-ਲੈਕਚਰ ਕਵਿਜ਼](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -111,7 +111,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਇਸ ਚੁਣੌਤੀ ਵਿੱਚ, ਅਸੀਂ ਟੈਕਸਟਾਂ ਨੂੰ ਦੇਖ ਕੇ ਡੇਟਾ ਸਾਇੰਸ ਦੇ ਖੇਤਰ ਨਾਲ ਸਬੰਧਤ ਸੰਕਲਪਾਂ ਨੂੰ ਪਤਾ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਾਂਗੇ। ਅਸੀਂ ਡੇਟਾ ਸਾਇੰਸ 'ਤੇ ਇੱਕ ਵਿਕੀਪੀਡੀਆ ਲੇਖ ਲਵਾਂਗੇ, ਟੈਕਸਟ ਨੂੰ ਡਾਊਨਲੋਡ ਅਤੇ ਪ੍ਰੋਸੈਸ ਕਰਾਂਗੇ, ਅਤੇ ਫਿਰ ਇੱਕ ਵਰਡ ਕਲਾਉਡ ਬਣਾਵਾਂਗੇ ਜਿਵੇਂ ਕਿ ਇਹ ਹੈ:
 
-![ਡੇਟਾ ਸਾਇੰਸ ਲਈ ਵਰਡ ਕਲਾਉਡ](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.pa.png)
+![ਡੇਟਾ ਸਾਇੰਸ ਲਈ ਵਰਡ ਕਲਾਉਡ](../../../../translated_images/pa/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 ਕੋਡ ਨੂੰ ਪੜ੍ਹਨ ਲਈ [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') 'ਤੇ ਜਾਓ। ਤੁਸੀਂ ਕੋਡ ਨੂੰ ਚਲਾ ਵੀ ਸਕਦੇ ਹੋ, ਅਤੇ ਦੇਖ ਸਕਦੇ ਹੋ ਕਿ ਇਹ ਸਾਰੇ ਡੇਟਾ ਰੂਪਾਂਤਰਨਾਂ ਨੂੰ ਅਸਲ ਸਮੇਂ ਵਿੱਚ ਕਿਵੇਂ ਕਰਦਾ ਹੈ।
 

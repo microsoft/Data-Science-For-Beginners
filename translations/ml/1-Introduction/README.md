@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ഡാറ്റാ സയൻസിലേക്ക് പരിചയം
 
-![data in action](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.ml.jpg)
+![data in action](../../../translated_images/ml/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > ഫോട്ടോ <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">സ്റ്റീഫൻ ഡോസൺ</a> <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">അൺസ്പ്ലാഷിൽ</a>
   
 ഈ പാഠങ്ങളിൽ, ഡാറ്റാ സയൻസ് എങ്ങനെ നിർവചിക്കപ്പെടുന്നു എന്ന് നിങ്ങൾ കണ്ടെത്തും, ഒരു ഡാറ്റാ സയന്റിസ്റ്റ് പരിഗണിക്കേണ്ട നൈതിക കാര്യങ്ങളെക്കുറിച്ച് പഠിക്കും. ഡാറ്റ എങ്ങനെ നിർവചിക്കപ്പെടുന്നു എന്നും, ഡാറ്റാ സയൻസിന്റെ മേധാവി അക്കാദമിക് മേഖലകളായ സ്ഥിതിവിവരശാസ്ത്രവും സാദ്ധ്യതയും കുറിച്ച് കുറച്ച് പഠിക്കും.

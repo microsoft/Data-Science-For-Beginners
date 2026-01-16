@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Življenjski cikel podatkovne znanosti
 
-![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.sl.jpg)
+![communication](../../../translated_images/sl/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
 > Fotografija avtorja <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> na <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 V teh lekcijah boste raziskali nekatere vidike življenjskega cikla podatkovne znanosti, vključno z analizo in komunikacijo podatkov.

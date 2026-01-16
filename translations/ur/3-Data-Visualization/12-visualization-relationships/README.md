@@ -51,7 +51,7 @@ honey.head()
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.ur.png)
+![scatterplot 1](../../../../translated_images/ur/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 اب، اسی ڈیٹا کو شہد کے رنگ سکیم کے ساتھ دکھائیں تاکہ یہ ظاہر ہو کہ قیمت سال بہ سال کیسے بدلی ہے۔ آپ یہ 'hue' پیرامیٹر شامل کرکے کر سکتے ہیں تاکہ سال بہ سال تبدیلی کو دکھایا جا سکے:
 
@@ -60,7 +60,7 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.ur.png)
+![scatterplot 2](../../../../translated_images/ur/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 اس رنگ سکیم کی تبدیلی کے ساتھ، آپ واضح طور پر دیکھ سکتے ہیں کہ شہد کی فی پاؤنڈ قیمت میں سال بہ سال ایک مضبوط ترقی ہو رہی ہے۔ درحقیقت، اگر آپ ڈیٹا کے ایک نمونے کو جانچنے کے لیے دیکھیں (مثال کے طور پر، ایریزونا ریاست کو منتخب کریں) تو آپ دیکھ سکتے ہیں کہ قیمت میں سال بہ سال اضافے کا ایک نمونہ موجود ہے، چند استثنائی صورتوں کے ساتھ:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 آپ دیکھ سکتے ہیں کہ نقطوں کے سائز میں بتدریج اضافہ ہو رہا ہے۔
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.ur.png)
+![scatterplot 3](../../../../translated_images/ur/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 کیا یہ صرف طلب اور رسد کا معاملہ ہے؟ موسمیاتی تبدیلی اور کالونی کولیپس جیسے عوامل کی وجہ سے، کیا سال بہ سال خریداری کے لیے کم شہد دستیاب ہے، اور اس لیے قیمت بڑھ رہی ہے؟
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 جواب: ہاں، کچھ استثنائی صورتوں کے ساتھ، خاص طور پر 2003 کے آس پاس:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.ur.png)
+![line chart 1](../../../../translated_images/ur/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ چونکہ Seaborn ایک لائن کے ارد گرد ڈیٹا کو جمع کر رہا ہے، یہ "ہر x ویلیو پر متعدد پیمائشوں کو اوسط اور اوسط کے ارد گرد 95% اعتماد کے وقفے کو پلاٹ کر کے ظاہر کرتا ہے"۔ [ماخذ](https://seaborn.pydata.org/tutorial/relational.html)۔ اس وقت لینے والے رویے کو `ci=None` شامل کر کے غیر فعال کیا جا سکتا ہے۔
 
@@ -114,7 +114,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.ur.png)
+![line chart 2](../../../../translated_images/ur/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 جواب: واقعی نہیں۔ اگر آپ کل پیداوار کو دیکھیں، تو یہ خاص سال میں درحقیقت بڑھتی ہوئی نظر آتی ہے، حالانکہ عمومی طور پر ان سالوں کے دوران شہد کی پیداوار میں کمی ہو رہی ہے۔
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 اس بصری نمائندگی میں، آپ فی کالونی پیداوار اور کالونیوں کی تعداد کو سال بہ سال، ریاست بہ ریاست، 3 کالمز کے ساتھ موازنہ کر سکتے ہیں:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.ur.png)
+![facet grid](../../../../translated_images/ur/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 اس ڈیٹا سیٹ کے لیے، کالونیوں کی تعداد اور ان کی پیداوار کے حوالے سے سال بہ سال اور ریاست بہ ریاست کچھ خاص نمایاں نہیں ہوتا۔ کیا ان دو متغیرات کے درمیان تعلق تلاش کرنے کے لیے دیکھنے کا کوئی مختلف طریقہ ہے؟
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.ur.png)
+![superimposed plots](../../../../translated_images/ur/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 اگرچہ 2003 کے آس پاس آنکھ کو کچھ خاص نظر نہیں آتا، لیکن یہ ہمیں اس سبق کو ایک خوشگوار نوٹ پر ختم کرنے کی اجازت دیتا ہے: اگرچہ مجموعی طور پر کالونیوں کی تعداد میں کمی ہو رہی ہے، کالونیوں کی تعداد مستحکم ہو رہی ہے، چاہے ان کی فی کالونی پیداوار کم ہو رہی ہو۔
 

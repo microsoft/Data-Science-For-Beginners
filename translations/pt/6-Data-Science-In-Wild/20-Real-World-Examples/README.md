@@ -41,7 +41,7 @@ Graças à democratização da IA, os desenvolvedores estão a encontrar formas 
 
  * [Ciência de Dados na Saúde](https://data-flair.training/blogs/data-science-in-healthcare/) - destaca aplicações como imagiologia médica (e.g., ressonância magnética, raio-X, tomografia), genómica (sequenciamento de DNA), desenvolvimento de medicamentos (avaliação de risco, previsão de sucesso), análise preditiva (cuidados ao paciente e logística de fornecimento), rastreamento e prevenção de doenças, etc.
 
-![Aplicações de Ciência de Dados no Mundo Real](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.pt.png) Crédito da Imagem: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Aplicações de Ciência de Dados no Mundo Real](../../../../translated_images/pt/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Crédito da Imagem: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 A figura mostra outros domínios e exemplos de aplicação de técnicas de ciência de dados. Queres explorar outras aplicações? Consulta a secção [Revisão e Autoestudo](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) abaixo.
 

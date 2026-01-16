@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 İşte, bu iki mantar sınıfına göre verilerin oranlarını gösteren bir pasta grafiği. Etiketlerin sırasını doğru almak oldukça önemlidir, özellikle burada, bu yüzden etiket dizisinin oluşturulma sırasını doğruladığınızdan emin olun!
 
-![pasta grafiği](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.tr.png)
+![pasta grafiği](../../../../../translated_images/tr/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Donutlar!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![donut grafiği](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.tr.png)
+![donut grafiği](../../../../../translated_images/tr/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Bu kod iki kütüphaneyi kullanır - ggplot2 ve webr. webr kütüphanesinin PieDonut fonksiyonunu kullanarak kolayca bir donut grafiği oluşturabilirsiniz!
 
@@ -169,7 +169,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Bir waffle grafiği kullanarak, bu mantar veri setindeki şapka renklerinin oranlarını açıkça görebilirsiniz. İlginç bir şekilde, birçok yeşil şapkalı mantar var!
 
-![waffle grafiği](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.tr.png)
+![waffle grafiği](../../../../../translated_images/tr/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 Bu derste, oranları görselleştirmenin üç yolunu öğrendiniz. Öncelikle, verilerinizi kategorilere ayırmanız ve ardından verileri göstermek için en iyi yolu seçmeniz gerekiyor - pasta, donut veya waffle. Hepsi lezzetli ve kullanıcıya bir veri setinin anlık görüntüsünü sunar.
 

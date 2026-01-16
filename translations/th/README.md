@@ -33,7 +33,7 @@ Azure Cloud Advocates ที่ Microsoft ยินดีเสนอหลั�
 **🙏 ขอบคุณเป็นพิเศษ 🙏 ต่อผู้เขียน ทบทวน และผู้มีส่วนร่วมเนื้อหาจาก [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/),** โดยเฉพาะ Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
-|![ภาพสเก็ตช์โดย @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.th.png)|
+|![ภาพสเก็ตช์โดย @sketchthedocs https://sketchthedocs.dev](../../translated_images/th/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.png)|
 |:---:|
 | วิทยาศาสตร์ข้อมูลสำหรับผู้เริ่มต้น - _สเก็ตช์โน้ตโดย [@nitya](https://twitter.com/nitya)_ |
 
@@ -52,7 +52,7 @@ Azure Cloud Advocates ที่ Microsoft ยินดีเสนอหลั�
 
 เรามีซีรีส์ Discord เรียนรู้กับ AI กำลังจัดอยู่ เรียนรู้เพิ่มเติมและเข้าร่วมกับเราได้ที่ [Learn with AI Series](https://aka.ms/learnwithai/discord) ตั้งแต่วันที่ 18 - 30 กันยายน 2025 คุณจะได้รับเคล็ดลับและเทคนิคการใช้ GitHub Copilot สำหรับวิทยาศาสตร์ข้อมูล
 
-![ซีรีส์ Learn with AI](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.th.jpg)
+![ซีรีส์ Learn with AI](../../translated_images/th/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.jpg)
 
 # คุณเป็นนักเรียนหรือไม่?
 
@@ -132,7 +132,7 @@ Azure Cloud Advocates ที่ Microsoft ยินดีเสนอหลั�
 ## บทเรียน
 
 
-|![ สเก็ตช์โน้ตโดย @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.th.png)|
+|![ สเก็ตช์โน้ตโดย @sketchthedocs https://sketchthedocs.dev](../../translated_images/th/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.png)|
 |:---:|
 | Data Science For Beginners: Roadmap - _สเก็ตช์โน้ตโดย [@nitya](https://twitter.com/nitya)_ |
 

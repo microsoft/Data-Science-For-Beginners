@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # கிளவுடில் தரவியல் அறிவியல்
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.ta.jpg)
+![cloud-picture](../../../translated_images/ta/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > படம் [Jelleke Vanooteghem](https://unsplash.com/@ilumire) மூலம் [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape) இல் இருந்து
 
 பெரிய தரவுகளுடன் தரவியல் அறிவியல் செய்யும்போது, கிளவுட் ஒரு முக்கிய மாற்றத்தை ஏற்படுத்த முடியும். அடுத்த மூன்று பாடங்களில், கிளவுட் என்ன மற்றும் அது ஏன் மிகவும் பயனுள்ளதாக இருக்க முடியும் என்பதை நாம் காணப்போகிறோம். மேலும், நாங்கள் ஒரு இதய செயலிழப்பு தரவுத்தொகுப்பை ஆராய்ந்து, ஒருவருக்கு இதய செயலிழப்பு ஏற்படும் சாத்தியத்தை மதிப்பீடு செய்ய உதவும் ஒரு மாதிரியை உருவாக்கப் போகிறோம். கிளவுட்டின் சக்தியை பயன்படுத்தி, இரண்டு விதங்களில் ஒரு மாதிரியை பயிற்சி, வெளியிட மற்றும் பயன்படுத்தப் போகிறோம். ஒன்று, "குறைந்த குறியீடு/குறியீடு இல்லாத" முறையில் பயனர் இடைமுகத்தை மட்டுமே பயன்படுத்துவது; மற்றொன்று, Azure Machine Learning Software Developer Kit (Azure ML SDK) பயன்படுத்துவது.
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.ta.png)
+![project-schema](../../../translated_images/ta/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### தலைப்புகள்
 

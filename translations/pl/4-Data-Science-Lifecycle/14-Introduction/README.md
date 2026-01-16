@@ -25,7 +25,7 @@ Na tym etapie prawdopodobnie zdajesz sobie sprawę, że nauka o danych to proces
 
 Ta lekcja skupia się na 3 częściach cyklu życia: zbieraniu, przetwarzaniu i utrzymaniu.
 
-![Diagram cyklu życia nauki o danych](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.pl.jpg)  
+![Diagram cyklu życia nauki o danych](../../../../translated_images/pl/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
 > Zdjęcie autorstwa [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Zbieranie
@@ -101,7 +101,7 @@ Zapoznaj się z [cyklem życia procesu nauki o danych zespołu](https://docs.mic
 
 |Proces nauki o danych zespołu (TDSP)|Standardowy proces dla eksploracji danych (CRISP-DM)|
 |--|--|
-|![Cykl życia nauki o danych zespołu](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.pl.png) | ![Obraz procesu CRISP-DM](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.pl.png) |
+|![Cykl życia nauki o danych zespołu](../../../../translated_images/pl/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Obraz procesu CRISP-DM](../../../../translated_images/pl/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Obraz autorstwa [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Obraz autorstwa [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Quiz po wykładzie](https://ff-quizzes.netlify.app/en/ds/quiz/27)
