@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voilà, un grafico a torta che mostra le proporzioni di questi dati secondo le due classi di funghi. È molto importante ottenere l'ordine corretto delle etichette, soprattutto qui, quindi assicurati di verificare l'ordine con cui viene costruito l'array delle etichette!
 
-![grafico a torta](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.it.png)
+![grafico a torta](../../../../../translated_images/it/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Ciambelle!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![grafico a ciambella](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.it.png)
+![grafico a ciambella](../../../../../translated_images/it/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Questo codice utilizza due librerie: ggplot2 e webr. Utilizzando la funzione PieDonut della libreria webr, possiamo creare facilmente un grafico a ciambella!
 
@@ -169,7 +169,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Utilizzando un grafico a waffle, puoi vedere chiaramente le proporzioni dei colori del cappello in questo dataset sui funghi. Interessante notare che ci sono molti funghi con cappelli verdi!
 
-![grafico a waffle](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.it.png)
+![grafico a waffle](../../../../../translated_images/it/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 In questa lezione, hai imparato tre modi per visualizzare le proporzioni. Prima, devi raggruppare i tuoi dati in categorie e poi decidere qual è il modo migliore per visualizzarli - torta, ciambella o waffle. Tutti sono deliziosi e gratificano l'utente con un'istantanea del dataset.
 

@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.vi.png)
+![scatterplot 1](../../../../../translated_images/vi/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 Bây giờ, hiển thị cùng dữ liệu với bảng màu mật ong để thể hiện cách giá thay đổi theo năm. Bạn có thể làm điều này bằng cách thêm tham số 'scale_color_gradientn' để hiển thị sự thay đổi theo năm:
 
@@ -61,7 +61,7 @@ Bây giờ, hiển thị cùng dữ liệu với bảng màu mật ong để th�
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.vi.png)
+![scatterplot 2](../../../../../translated_images/vi/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 Với sự thay đổi bảng màu này, bạn có thể thấy rõ ràng rằng có một sự tiến triển mạnh mẽ theo năm về giá mật ong mỗi pound. Thực tế, nếu bạn xem xét một tập mẫu trong dữ liệu để xác minh (chọn một bang cụ thể, ví dụ Arizona), bạn có thể thấy một xu hướng tăng giá theo năm, với một vài ngoại lệ:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Bạn có thể thấy kích thước của các điểm tăng dần.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.vi.png)
+![scatterplot 3](../../../../../translated_images/vi/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 Đây có phải là một trường hợp đơn giản của cung và cầu? Do các yếu tố như biến đổi khí hậu và sự sụp đổ của đàn ong, liệu có ít mật ong hơn để mua theo năm, dẫn đến giá tăng?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Trả lời: Có, với một số ngoại lệ vào khoảng năm 2003:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.vi.png)
+![line chart 1](../../../../../translated_images/vi/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 Câu hỏi: Vậy vào năm 2003, liệu chúng ta có thể thấy sự tăng đột biến trong nguồn cung mật ong không? Nếu bạn xem xét tổng sản lượng theo năm thì sao?
 
@@ -115,7 +115,7 @@ Câu hỏi: Vậy vào năm 2003, liệu chúng ta có thể thấy sự tăng �
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.vi.png)
+![line chart 2](../../../../../translated_images/vi/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 Trả lời: Không hẳn. Nếu bạn xem xét tổng sản lượng, thực tế nó dường như đã tăng trong năm đó, mặc dù nhìn chung lượng mật ong được sản xuất đang giảm trong những năm này.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 Trong hình ảnh hóa này, bạn có thể so sánh sản lượng mỗi đàn và số lượng đàn ong theo năm, cạnh nhau với wrap được đặt là 3 cho các cột:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.vi.png)
+![facet grid](../../../../../translated_images/vi/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 Đối với tập dữ liệu này, không có điều gì đặc biệt nổi bật liên quan đến số lượng đàn ong và sản lượng của chúng theo năm và theo bang. Liệu có cách khác để tìm mối tương quan giữa hai biến này?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.vi.png)
+![superimposed plots](../../../../../translated_images/vi/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 Mặc dù không có điều gì nổi bật vào khoảng năm 2003, điều này cho phép chúng ta kết thúc bài học với một ghi chú vui vẻ hơn: mặc dù số lượng đàn ong đang giảm, số lượng đàn ong đang ổn định ngay cả khi sản lượng mỗi đàn đang giảm.
 

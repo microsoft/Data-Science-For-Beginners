@@ -41,7 +41,7 @@ AI کی جمہوریت کی بدولت، ڈویلپرز کے لیے AI سے چل
 
  * [صحت کی دیکھ بھال میں ڈیٹا سائنس](https://data-flair.training/blogs/data-science-in-healthcare/) - طبی امیجنگ (جیسے MRI، ایکس رے، CT-Scan)، جینومکس (DNA سیکوینسنگ)، دوا کی ترقی (خطرے کی تشخیص، کامیابی کی پیش گوئی)، پیش گوئی تجزیات (مریض کی دیکھ بھال اور سپلائی لاجسٹکس)، بیماری کی ٹریکنگ اور روک تھام وغیرہ جیسے اطلاقات کو اجاگر کرتا ہے۔
 
-![حقیقی دنیا میں ڈیٹا سائنس کے اطلاقات](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.ur.png) تصویر کا کریڈٹ: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![حقیقی دنیا میں ڈیٹا سائنس کے اطلاقات](../../../../translated_images/ur/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) تصویر کا کریڈٹ: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 یہ شکل دیگر ڈومینز اور ڈیٹا سائنس تکنیکوں کے اطلاقات کی مثالیں دکھاتی ہے۔ کیا آپ دیگر اطلاقات کو دریافت کرنا چاہتے ہیں؟ نیچے [جائزہ اور خود مطالعہ](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) سیکشن دیکھیں۔
 

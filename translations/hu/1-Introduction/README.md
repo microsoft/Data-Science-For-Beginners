@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Bevezetés az adattudományba
 
-![adatok működés közben](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.hu.jpg)  
+![adatok működés közben](../../../translated_images/hu/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)  
 > Fotó: <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> az <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> oldalán  
 
 Ezekben a leckékben felfedezheted, hogyan definiálják az adattudományt, és megismerheted azokat az etikai szempontokat, amelyeket egy adattudósnak figyelembe kell vennie. Emellett megtudhatod, hogyan definiálják az adatokat, és betekintést nyerhetsz a statisztika és valószínűség világába, amelyek az adattudomány alapvető tudományterületei.

@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # క్లౌడ్‌లో డేటా సైన్స్
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.te.jpg)
+![cloud-picture](../../../translated_images/te/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > ఫోటో [Jelleke Vanooteghem](https://unsplash.com/@ilumire) నుండి [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 బిగ్ డేటాతో డేటా సైన్స్ చేయడంలో, క్లౌడ్ ఒక గేమ్ చేంజర్ కావచ్చు. తదుపరి మూడు పాఠాలలో, క్లౌడ్ అంటే ఏమిటి మరియు అది ఎందుకు చాలా సహాయకరమో మనం చూడబోతున్నాము. మనం హార్ట్ ఫెయిల్యూర్ డేటాసెట్‌ను కూడా పరిశీలించి, ఎవరికైనా హార్ట్ ఫెయిల్యూర్ ఉండే అవకాశాన్ని అంచనా వేయడానికి ఒక మోడల్‌ను నిర్మించబోతున్నాము. మోడల్‌ను శిక్షణ ఇవ్వడం, డిప్లాయ్ చేయడం మరియు రెండు వేర్వేరు మార్గాల్లో వినియోగించడం కోసం క్లౌడ్ శక్తిని ఉపయోగిస్తాము. ఒక మార్గం లో కోడ్/నో కోడ్ ఫ్యాషన్‌లో కేవలం యూజర్ ఇంటర్‌ఫేస్ ఉపయోగించడం, మరొక మార్గం Azure మెషీన్ లెర్నింగ్ సాఫ్ట్‌వేర్ డెవలపర్ కిట్ (Azure ML SDK) ఉపయోగించడం.
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.te.png)
+![project-schema](../../../translated_images/te/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### విషయాలు
 

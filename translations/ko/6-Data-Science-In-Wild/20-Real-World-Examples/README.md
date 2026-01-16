@@ -41,7 +41,7 @@ AI의 민주화 덕분에 개발자들은 이제 AI 기반 의사결정과 데�
 
  * [헬스케어에서의 데이터 과학](https://data-flair.training/blogs/data-science-in-healthcare/) - 의료 영상 (예: MRI, X-Ray, CT-Scan), 유전체학 (DNA 시퀀싱), 약물 개발 (위험 평가, 성공 예측), 예측 분석 (환자 관리 및 공급 물류), 질병 추적 및 예방 등과 같은 응용 사례를 강조합니다.
 
-![현실 세계에서의 데이터 과학 응용 사례](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.ko.png) 이미지 출처: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![현실 세계에서의 데이터 과학 응용 사례](../../../../translated_images/ko/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) 이미지 출처: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 이 그림은 데이터 과학 기술을 적용할 수 있는 다른 도메인과 예제를 보여줍니다. 다른 응용 사례를 탐구하고 싶으신가요? 아래의 [리뷰 및 자기 학습](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) 섹션을 확인하세요.
 

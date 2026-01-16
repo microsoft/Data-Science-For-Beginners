@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Työskentely datan kanssa
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.fi.jpg)
+![data love](../../../translated_images/fi/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Kuva: <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> palvelussa <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Näissä oppitunneissa opit joitakin tapoja, joilla dataa voidaan hallita, käsitellä ja käyttää sovelluksissa. Opit relaatiotietokannoista ja ei-relaatiotietokannoista sekä siitä, miten dataa voidaan tallentaa niihin. Opit Pythonin perusteet datan hallintaan ja tutustut moniin tapoihin, joilla voit käyttää Pythonia datan hallintaan ja analysointiin.

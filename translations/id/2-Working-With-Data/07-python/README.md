@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Bekerja dengan Python - _Sketchnote oleh [@nitya](https://twitter.com/nitya)_             |
 
-[![Video Pengantar](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.id.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Video Pengantar](../../../../translated_images/id/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Meskipun basis data menawarkan cara yang sangat efisien untuk menyimpan data dan melakukan kueri menggunakan bahasa kueri, cara paling fleksibel untuk memproses data adalah dengan menulis program Anda sendiri untuk memanipulasi data. Dalam banyak kasus, melakukan kueri basis data akan lebih efektif. Namun, dalam beberapa kasus di mana pemrosesan data yang lebih kompleks diperlukan, hal tersebut tidak dapat dilakukan dengan mudah menggunakan SQL.  
 Pemrosesan data dapat diprogram dalam bahasa pemrograman apa pun, tetapi ada beberapa bahasa yang lebih tinggi tingkatannya dalam hal bekerja dengan data. Para ilmuwan data biasanya lebih memilih salah satu dari bahasa berikut:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```  
-![Grafik Time Series](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.id.png)
+![Grafik Time Series](../../../../translated_images/id/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Sekarang misalkan setiap minggu kita mengadakan pesta untuk teman-teman, dan kita mengambil tambahan 10 bungkus es krim untuk pesta. Kita dapat membuat series lain, diindeks berdasarkan minggu, untuk menunjukkan hal itu:  
 ```python
@@ -84,7 +84,7 @@ Ketika kita menambahkan dua series bersama-sama, kita mendapatkan total jumlah:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```  
-![Grafik Time Series](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.id.png)
+![Grafik Time Series](../../../../translated_images/id/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Catatan** bahwa kita tidak menggunakan sintaks sederhana `total_items+additional_items`. Jika kita melakukannya, kita akan mendapatkan banyak nilai `NaN` (*Not a Number*) dalam series hasil. Ini karena ada nilai yang hilang untuk beberapa titik index dalam series `additional_items`, dan menambahkan `NaN` ke apa pun menghasilkan `NaN`. Oleh karena itu, kita perlu menentukan parameter `fill_value` selama penjumlahan.
 
@@ -93,7 +93,7 @@ Dengan time series, kita juga dapat **mengubah sampel ulang** series dengan inte
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```  
-![Rata-rata Time Series Bulanan](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.id.png)
+![Rata-rata Time Series Bulanan](../../../../translated_images/id/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ Masalah pertama yang akan kita fokuskan adalah pemodelan penyebaran epidemi COVI
 
 Karena kita ingin menunjukkan cara menangani data, kami mengundang Anda untuk membuka [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) dan membacanya dari atas ke bawah. Anda juga dapat mengeksekusi sel, dan melakukan beberapa tantangan yang telah kami tinggalkan untuk Anda di akhir.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.id.png)
+![COVID Spread](../../../../translated_images/id/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Jika Anda tidak tahu cara menjalankan kode di Jupyter Notebook, lihat [artikel ini](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,7 +241,7 @@ Contoh lengkap analisis dataset ini menggunakan layanan kognitif [Text Analytics
 
 Buka [`notebook-papers.ipynb`](notebook-papers.ipynb) dan bacalah dari atas ke bawah. Anda juga dapat mengeksekusi sel, dan melakukan beberapa tantangan yang telah kami tinggalkan untuk Anda di akhir.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.id.png)
+![Covid Medical Treatment](../../../../translated_images/id/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Pemrosesan Data Gambar
 

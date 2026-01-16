@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Aqui, instalas o pacote `ggplot2` e depois importas para o ambiente de trabalho usando o comando `library("ggplot2")`. Para criar qualquer gráfico no ggplot, usa-se a função `ggplot()` e especifica-se o conjunto de dados, as variáveis x e y como atributos. Neste caso, usamos a função `geom_line()` porque queremos criar um gráfico de linhas.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.pt.png)
+![MaxWingspan-lineplot](../../../../../translated_images/pt/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 O que notas imediatamente? Parece haver pelo menos um valor atípico - que envergadura impressionante! Uma envergadura de mais de 2000 centímetros equivale a mais de 20 metros - será que há Pterodáctilos a voar em Minnesota? Vamos investigar.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Especificamos o ângulo no `theme` e definimos os rótulos dos eixos x e y em `xlab()` e `ylab()` respetivamente. O `ggtitle()` dá um nome ao gráfico.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.pt.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/pt/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Mesmo com a rotação dos rótulos definida para 45 graus, há demasiados para ler. Vamos tentar uma estratégia diferente: rotular apenas os valores atípicos e definir os rótulos dentro do gráfico. Podes usar um gráfico de dispersão para criar mais espaço para os rótulos:
 
@@ -100,7 +100,7 @@ O que está a acontecer aqui? Usaste a função `geom_point()` para criar pontos
 
 O que descobres?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.pt.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/pt/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Filtrar os teus dados
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Criámos um novo dataframe `birds_filtered` e depois representámos um gráfico de dispersão. Ao filtrar os valores atípicos, os teus dados tornam-se mais coesos e compreensíveis.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.pt.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/pt/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Agora que temos um conjunto de dados mais limpo, pelo menos em termos de envergadura, vamos descobrir mais sobre estas aves.
 
@@ -161,7 +161,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 No seguinte trecho, instalamos os pacotes [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) e [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) para ajudar a manipular e agrupar dados para criar um gráfico de barras empilhado. Primeiro, agrupas os dados pela `Categoria` das aves e depois resumes as colunas `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Em seguida, crias o gráfico de barras usando o pacote `ggplot2` e especificas as cores para as diferentes categorias e os rótulos.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.pt.png)
+![Stacked bar chart](../../../../../translated_images/pt/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Este gráfico de barras, no entanto, é ilegível porque há demasiados dados não agrupados. Precisamos de selecionar apenas os dados que queremos representar, então vamos observar o comprimento das aves com base na sua categoria.
 
@@ -176,7 +176,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Primeiro, contas os valores únicos na coluna `Categoria` e depois ordenas num novo dataframe `birds_count`. Estes dados ordenados são então considerados no mesmo nível para que sejam representados de forma ordenada. Usando o `ggplot2`, crias o gráfico de barras. O `coord_flip()` cria barras horizontais.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.pt.png)
+![category-length](../../../../../translated_images/pt/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Este gráfico de barras mostra uma boa visão do número de aves em cada categoria. Num piscar de olhos, vês que o maior número de aves nesta região pertence à categoria de Patos/Gansos/AvesAquáticas. Minnesota é a 'terra dos 10.000 lagos', então isto não é surpreendente!
 
@@ -199,7 +199,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Agrupamos os dados `birds_filtered` pela `Categoria` e depois criamos um gráfico de barras.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.pt.png)
+![comparing data](../../../../../translated_images/pt/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Nada é surpreendente aqui: os beija-flores têm o menor MaxLength em comparação com os Pelicanos ou Gansos. É bom quando os dados fazem sentido lógico!
 
@@ -211,7 +211,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.pt.png)
+![super-imposed values](../../../../../translated_images/pt/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Desafio
 

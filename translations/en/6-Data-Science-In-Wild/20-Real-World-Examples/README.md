@@ -41,7 +41,7 @@ The democratization of AI has made it easier for developers to design and integr
 
  * [Data Science in Healthcare](https://data-flair.training/blogs/data-science-in-healthcare/) - showcases applications such as medical imaging (e.g., MRI, X-Ray, CT-Scan), genomics (DNA sequencing), drug development (risk assessment, success prediction), predictive analytics (patient care and logistics), disease tracking, and prevention.
 
-![Data Science Applications in The Real World](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.en.png) Image Credit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Data Science Applications in The Real World](../../../../translated_images/en/data-science-applications.4e5019cd8790ebac.webp) Image Credit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 The figure highlights other domains and examples of data science applications. Interested in exploring more? Check out the [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) section below.
 

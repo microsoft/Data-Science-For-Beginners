@@ -41,7 +41,7 @@ Dėl AI demokratizacijos kūrėjams dabar lengviau kurti ir integruoti AI pagrį
 
  * [Duomenų mokslas sveikatos apsaugoje](https://data-flair.training/blogs/data-science-in-healthcare/) - pabrėžia taikymą, pvz., medicininį vaizdavimą (pvz., MRT, rentgenas, KT skenavimas), genomiką (DNR sekos nustatymas), vaistų kūrimą (rizikos vertinimas, sėkmės prognozė), prognozavimo analizę (pacientų priežiūra ir tiekimo logistika), ligų stebėjimą ir prevenciją ir kt.
 
-![Duomenų mokslo taikymas realiame pasaulyje](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.lt.png) Vaizdo kreditas: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Duomenų mokslo taikymas realiame pasaulyje](../../../../translated_images/lt/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Vaizdo kreditas: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Paveikslėlyje parodytos kitos sritys ir pavyzdžiai, kaip taikyti duomenų mokslo technikas. Norite tyrinėti kitus taikymus? Peržiūrėkite [Peržiūra ir savarankiškas mokymasis](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) skyrių žemiau.
 

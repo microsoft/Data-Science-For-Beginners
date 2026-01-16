@@ -93,7 +93,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, piirakkakaavio, joka näyttää tämän datan osuudet näiden kahden sieniluokan mukaan. On erittäin tärkeää saada tunnisteiden järjestys oikein, erityisesti tässä, joten varmista tunnisteiden järjestys ennen kaavion rakentamista!
 
-![piirakkakaavio](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.fi.png)
+![piirakkakaavio](../../../../../translated_images/fi/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Donitsit!
 
@@ -127,7 +127,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![donitsikaavio](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.fi.png)
+![donitsikaavio](../../../../../translated_images/fi/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Tämä koodi käyttää kahta kirjastoa - ggplot2 ja webr. Käyttämällä webr-kirjaston PieDonut-funktiota voimme helposti luoda donitsikaavion!
 
@@ -165,7 +165,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Vohvelikaaviota käyttämällä voit selkeästi nähdä sienilakkien värien osuudet tässä datasetissä. Mielenkiintoista on, että on paljon vihreälakkisia sieniä!
 
-![vohvelikaavio](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.fi.png)
+![vohvelikaavio](../../../../../translated_images/fi/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 Tässä oppitunnissa opit kolme tapaa visualisoida osuuksia. Ensin sinun täytyy ryhmitellä data kategorioihin ja sitten päättää, mikä on paras tapa esittää data - piirakka, donitsi tai vohveli. Kaikki ovat herkullisia ja tarjoavat käyttäjälle välittömän katsauksen datasettiin.
 

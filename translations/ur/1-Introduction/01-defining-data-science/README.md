@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![ڈیٹا سائنس کی تعریف ویڈیو](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.ur.png)](https://youtu.be/beZ7Mb_oz9I)
+[![ڈیٹا سائنس کی تعریف ویڈیو](../../../../translated_images/ur/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [لیکچر سے پہلے کا کوئز](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 اس چیلنج میں، ہم ڈیٹا سائنس کے میدان سے متعلق تصورات کو متن کے ذریعے تلاش کرنے کی کوشش کریں گے۔ ہم ڈیٹا سائنس پر ایک ویکیپیڈیا مضمون لیں گے، متن کو ڈاؤنلوڈ اور پروسیس کریں گے، اور پھر ایک ورڈ کلاؤڈ بنائیں گے جیسا کہ یہ:
 
-![ڈیٹا سائنس کے لیے ورڈ کلاؤڈ](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.ur.png)
+![ڈیٹا سائنس کے لیے ورڈ کلاؤڈ](../../../../translated_images/ur/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 کوڈ کو پڑھنے کے لیے [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') پر جائیں۔ آپ کوڈ کو چلا بھی سکتے ہیں، اور دیکھ سکتے ہیں کہ یہ حقیقی وقت میں تمام ڈیٹا تبدیلیاں کیسے انجام دیتا ہے۔
 

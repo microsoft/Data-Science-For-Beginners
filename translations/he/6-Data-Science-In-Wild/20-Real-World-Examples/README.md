@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
  * [מדע הנתונים בבריאות](https://data-flair.training/blogs/data-science-in-healthcare/) - מדגיש יישומים כמו הדמיה רפואית (למשל, MRI, רנטגן, CT-Scan), גנומיקה (ריצוף DNA), פיתוח תרופות (הערכת סיכונים, תחזית הצלחה), אנליטיקה חזויה (טיפול בחולים ולוגיסטיקה של אספקה), מעקב ומניעת מחלות וכו'.
 
-![יישומי מדע הנתונים בעולם האמיתי](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.he.png) קרדיט תמונה: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![יישומי מדע הנתונים בעולם האמיתי](../../../../translated_images/he/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) קרדיט תמונה: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 התרשים מציג תחומים ודוגמאות נוספים ליישום טכניקות מדע הנתונים. רוצים לחקור יישומים נוספים? בדקו את [סקירה ולימוד עצמי](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) למטה.
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # مصورسازی‌ها
 
-![یک زنبور روی گل اسطوخودوس](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.fa.jpg)  
+![یک زنبور روی گل اسطوخودوس](../../../translated_images/fa/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)  
 > عکس از <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">جنا لی</a> در <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 مصورسازی داده‌ها یکی از مهم‌ترین وظایف یک دانشمند داده است. تصاویر به اندازه هزار کلمه ارزش دارند و یک مصورسازی می‌تواند به شما کمک کند تا انواع مختلفی از جنبه‌های جالب داده‌هایتان مانند جهش‌ها، نقاط پرت، گروه‌بندی‌ها، تمایلات و موارد دیگر را شناسایی کنید که می‌توانند به شما در درک داستانی که داده‌هایتان می‌خواهند بگویند، کمک کنند.

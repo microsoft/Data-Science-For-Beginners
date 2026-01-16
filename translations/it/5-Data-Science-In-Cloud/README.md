@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Data Science nel Cloud
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.it.jpg)
+![cloud-picture](../../../translated_images/it/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Foto di [Jelleke Vanooteghem](https://unsplash.com/@ilumire) da [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Quando si tratta di fare data science con big data, il cloud può essere una svolta. Nelle prossime tre lezioni, vedremo cos'è il cloud e perché può essere molto utile. Esploreremo anche un dataset relativo all'insufficienza cardiaca e costruiremo un modello per aiutare a valutare la probabilità che qualcuno abbia un'insufficienza cardiaca. Utilizzeremo la potenza del cloud per addestrare, distribuire e utilizzare un modello in due modi diversi. Un modo utilizzando solo l'interfaccia utente in modalità Low code/No code, l'altro modo utilizzando l'Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.it.png)
+![project-schema](../../../translated_images/it/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Argomenti
 

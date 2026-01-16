@@ -318,7 +318,7 @@ def calculate_mean(data):
   ```
   ````
   
-- Προσθέστε alt text στις εικόνες: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.el.png)`  
+- Προσθέστε alt text στις εικόνες: `![Alt text](../../translated_images/el/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Διατηρήστε λογικά μήκη γραμμών (περίπου 80-100 χαρακτήρες)  
 
 ### Python

@@ -67,7 +67,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 ここでは、`ggplot2`パッケージをインストールし、`library("ggplot2")`コマンドを使用してワークスペースにインポートします。`ggplot`でプロットを作成するには、`ggplot()`関数を使用し、データセット、x軸とy軸の変数を属性として指定します。この場合、折れ線グラフをプロットするために`geom_line()`関数を使用します。
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.ja.png)
+![MaxWingspan-lineplot](../../../../../translated_images/ja/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 何がすぐに目に留まりますか？少なくとも1つの外れ値があるようです。これはかなりの翼幅ですね！2000センチメートル以上の翼幅は20メートル以上に相当します。ミネソタ州にプテラノドンがいるのでしょうか？調査してみましょう。
 
@@ -85,7 +85,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 `theme`で角度を指定し、`xlab()`と`ylab()`でx軸とy軸のラベルを指定します。`ggtitle()`でグラフ/プロットに名前を付けます。
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.ja.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/ja/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 ラベルの回転を45度に設定しても、読み取るには多すぎます。別の戦略を試してみましょう。外れ値のみをラベル付けし、チャート内にラベルを設定します。散布図を使用してラベル付けのスペースを確保します。
 
@@ -101,7 +101,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 
 何がわかりますか？
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.ja.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/ja/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## データをフィルタリングする
 
@@ -120,7 +120,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 新しいデータフレーム`birds_filtered`を作成し、散布図をプロットしました。外れ値を除外することで、データがより一貫性があり理解しやすくなりました。
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.ja.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/ja/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 翼幅に関して少なくともクリーンなデータセットが得られたので、これらの鳥についてさらに発見してみましょう。
 
@@ -163,7 +163,7 @@ birds_filtered %>% group_by(Category) %>%
 ```
 以下のスニペットでは、データを操作してグループ化し、積み上げ棒グラフをプロットするために[dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8)と[lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0)パッケージをインストールします。まず、鳥の`Category`でデータをグループ化し、`MinLength`、`MaxLength`、`MinBodyMass`、`MaxBodyMass`、`MinWingspan`、`MaxWingspan`列を要約します。その後、`ggplot2`パッケージを使用して棒グラフをプロットし、異なるカテゴリの色とラベルを指定します。
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.ja.png)
+![Stacked bar chart](../../../../../translated_images/ja/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 この棒グラフは、グループ化されていないデータが多すぎるため、読み取りにくいです。プロットしたいデータのみを選択する必要があります。鳥のカテゴリに基づいて長さを調べてみましょう。
 
@@ -178,7 +178,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```
 まず、`Category`列のユニークな値をカウントし、それを新しいデータフレーム`birds_count`にソートします。このソートされたデータを同じレベルでファクタリングし、ソートされた方法でプロットされるようにします。その後、`ggplot2`を使用して棒グラフをプロットします。`coord_flip()`を使用して水平棒をプロットします。
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.ja.png)
+![category-length](../../../../../translated_images/ja/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 この棒グラフは、各カテゴリの鳥の数をよく示しています。一目で、この地域で最も多い鳥がカモ/ガン/水鳥カテゴリに属していることがわかります。ミネソタ州は「1万の湖の地」として知られているので、これは驚くべきことではありません！
 
@@ -201,7 +201,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```
 `birds_filtered`データを`Category`でグループ化し、棒グラフをプロットします。
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.ja.png)
+![comparing data](../../../../../translated_images/ja/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 ここには驚くことはありません。ハチドリの最大長さはペリカンやガンと比較して最も短いです。データが論理的に意味をなすのは良いことです！
 
@@ -213,7 +213,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.ja.png)
+![super-imposed values](../../../../../translated_images/ja/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 チャレンジ
 

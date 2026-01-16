@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Εισαγωγή στην Επιστήμη Δεδομένων
 
-![δεδομένα σε δράση](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.el.jpg)
+![δεδομένα σε δράση](../../../translated_images/el/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Φωτογραφία από <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> στο <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Σε αυτά τα μαθήματα, θα ανακαλύψετε πώς ορίζεται η Επιστήμη Δεδομένων και θα μάθετε για τις ηθικές παραμέτρους που πρέπει να λαμβάνει υπόψη ένας επιστήμονας δεδομένων. Θα μάθετε επίσης πώς ορίζονται τα δεδομένα και θα αποκτήσετε μια βασική κατανόηση της στατιστικής και της πιθανότητας, των βασικών ακαδημαϊκών πεδίων της Επιστήμης Δεδομένων.

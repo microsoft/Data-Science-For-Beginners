@@ -47,25 +47,25 @@ Katika masomo yaliyopita, ulijaribu kujenga aina mbalimbali za uwasilishaji wa t
 
 Hata kama mwanasayansi wa takwimu atakuwa makini kuchagua chati sahihi kwa data sahihi, kuna njia nyingi ambazo data inaweza kuwasilishwa kwa njia ya kuthibitisha hoja fulani, mara nyingi kwa gharama ya kudhoofisha data yenyewe. Kuna mifano mingi ya chati na infografiki za kupotosha!
 
-[![Jinsi Chati Zinavyodanganya na Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.sw.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Jinsi chati zinavyodanganya")
+[![Jinsi Chati Zinavyodanganya na Alberto Cairo](../../../../../translated_images/sw/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Jinsi chati zinavyodanganya")
 
 > 🎥 Bofya picha hapo juu kwa mazungumzo ya mkutano kuhusu chati za kupotosha
 
 Chati hii inageuza mhimili wa X ili kuonyesha kinyume cha ukweli, kulingana na tarehe:
 
-![chati mbaya 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.sw.png)
+![chati mbaya 1](../../../../../translated_images/sw/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Chati hii](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) ni ya kupotosha zaidi, kwani jicho linaelekezwa upande wa kulia kuhitimisha kuwa, kwa muda, kesi za COVID zimepungua katika kaunti mbalimbali. Kwa kweli, ukitazama kwa makini tarehe, utagundua kuwa zimepangwa upya ili kuonyesha mwenendo wa kupungua ambao si wa kweli.
 
-![chati mbaya 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.sw.jpg)
+![chati mbaya 2](../../../../../translated_images/sw/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Mfano huu maarufu unatumia rangi NA mhimili wa Y uliogeuzwa ili kudanganya: badala ya kuhitimisha kuwa vifo vya bunduki viliongezeka baada ya kupitishwa kwa sheria zinazounga mkono bunduki, jicho linadanganywa kufikiri kinyume chake:
 
-![chati mbaya 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.sw.jpg)
+![chati mbaya 3](../../../../../translated_images/sw/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Chati hii ya ajabu inaonyesha jinsi uwiano unavyoweza kudanganywa, kwa njia ya kuchekesha:
 
-![chati mbaya 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.sw.jpg)
+![chati mbaya 4](../../../../../translated_images/sw/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Kulinganisha vitu visivyolinganishika ni mbinu nyingine ya hila. Kuna [tovuti nzuri](https://tylervigen.com/spurious-correlations) inayohusu 'uwiano wa uongo' ikionyesha 'ukweli' unaohusisha mambo kama kiwango cha talaka huko Maine na matumizi ya siagi ya margarine. Kikundi cha Reddit pia hukusanya [matumizi mabaya](https://www.reddit.com/r/dataisugly/top/?t=all) ya data.
 
@@ -100,13 +100,13 @@ Weka lebo kwenye mhimili wako, toa ufafanuzi ikiwa ni lazima, na toa vidokezo vy
 
 Ikiwa data yako ni ya maandishi na ndefu kwenye mhimili wa X, unaweza kuipangilia kwa pembe kwa usomaji bora. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) inatoa uwezekano wa kuchora kwa 3D, ikiwa data yako inaunga mkono. Uwasilishaji wa takwimu wa hali ya juu unaweza kuzalishwa kwa kutumia maktaba hii.
 
-![chati za 3D](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.sw.png)
+![chati za 3D](../../../../../translated_images/sw/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Uhuishaji na maonyesho ya chati za 3D
 
 Baadhi ya uwasilishaji bora wa takwimu leo ni wa kuhuishwa. Shirley Wu ana mifano ya kushangaza iliyofanywa na D3, kama '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', ambapo kila ua ni uwasilishaji wa filamu. Mfano mwingine kwa Guardian ni 'bussed out', uzoefu wa maingiliano unaochanganya uwasilishaji na Greensock na D3 pamoja na makala ya scrollytelling kuonyesha jinsi NYC inavyoshughulikia tatizo la watu wasio na makazi kwa kuwahamisha nje ya jiji.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.sw.png)
+![busing](../../../../../translated_images/sw/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: Jinsi Marekani Inavyohamisha Watu Wasio na Makazi" kutoka [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Uwasilishaji na Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Ingawa somo hili halitoshi kufundisha kwa kina maktaba hizi zenye nguvu za uwasi
 
 Utakamilisha programu ya wavuti ambayo itaonyesha mtazamo wa kuhuishwa wa mtandao huu wa kijamii. Inatumia maktaba iliyojengwa kuunda [uwasilishaji wa mtandao](https://github.com/emiliorizzo/vue-d3-network) kwa kutumia Vue.js na D3. Wakati programu inafanya kazi, unaweza kuvuta nodi kwenye skrini ili kupanga upya data.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.sw.png)
+![liaisons](../../../../../translated_images/sw/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Mradi: Jenga chati kuonyesha mtandao kwa kutumia D3.js
 

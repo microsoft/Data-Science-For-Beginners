@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
  * [Επιστήμη Δεδομένων στην Υγειονομική Περίθαλψη](https://data-flair.training/blogs/data-science-in-healthcare/) - αναδεικνύει εφαρμογές όπως η ιατρική απεικόνιση (π.χ., MRI, ακτινογραφία, CT-Scan), η γονιδιωματική (αλληλούχιση DNA), η ανάπτυξη φαρμάκων (αξιολόγηση κινδύνου, πρόβλεψη επιτυχίας), η προβλεπτική ανάλυση (φροντίδα ασθενών και εφοδιαστική), η παρακολούθηση και πρόληψη ασθενειών κ.λπ.
 
-![Εφαρμογές Επιστήμης Δεδομένων στον Πραγματικό Κόσμο](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.el.png) Πηγή Εικόνας: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Εφαρμογές Επιστήμης Δεδομένων στον Πραγματικό Κόσμο](../../../../translated_images/el/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Πηγή Εικόνας: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Η εικόνα δείχνει άλλους τομείς και παραδείγματα για την εφαρμογή τεχνικών επιστήμης δεδομένων. Θέλετε να εξερευνήσετε άλλες εφαρμογές; Δείτε την ενότητα [Ανασκόπηση & Αυτομελέτη](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) παρακάτω.
 

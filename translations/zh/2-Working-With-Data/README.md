@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 数据处理
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.zh.jpg)  
+![data love](../../../translated_images/zh/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)  
 > 图片由 <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> 提供，来自 <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
 
 在这些课程中，您将学习一些管理、操作和在应用程序中使用数据的方法。您将了解关系型和非关系型数据库，以及数据如何存储在其中。您将学习使用 Python 管理数据的基础知识，并探索多种使用 Python 管理和挖掘数据的方法。

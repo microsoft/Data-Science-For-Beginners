@@ -51,7 +51,7 @@ Erstellen Sie ein einfaches Streudiagramm, um die Beziehung zwischen dem Preis p
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.de.png)
+![scatterplot 1](../../../../translated_images/de/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Zeigen Sie nun dieselben Daten mit einer honigfarbenen Farbpalette, um zu zeigen, wie sich der Preis im Laufe der Jahre entwickelt. Sie können dies tun, indem Sie einen 'hue'-Parameter hinzufügen, der die Veränderung Jahr für Jahr darstellt:
 
@@ -60,7 +60,7 @@ Zeigen Sie nun dieselben Daten mit einer honigfarbenen Farbpalette, um zu zeigen
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.de.png)
+![scatterplot 2](../../../../translated_images/de/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 Mit dieser Farbänderung können Sie deutlich sehen, dass es im Laufe der Jahre eine starke Entwicklung des Honigpreises pro Pfund gibt. Wenn Sie beispielsweise einen Bundesstaat wie Arizona auswählen, können Sie ein Muster von Preissteigerungen Jahr für Jahr mit wenigen Ausnahmen erkennen:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Sie können sehen, wie die Größe der Punkte allmählich zunimmt.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.de.png)
+![scatterplot 3](../../../../translated_images/de/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Ist dies ein einfacher Fall von Angebot und Nachfrage? Aufgrund von Faktoren wie Klimawandel und dem Zusammenbruch von Bienenvölkern gibt es Jahr für Jahr weniger Honig zu kaufen, und daher steigen die Preise?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Antwort: Ja, mit einigen Ausnahmen um das Jahr 2003:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.de.png)
+![line chart 1](../../../../translated_images/de/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Da Seaborn die Daten um eine Linie aggregiert, zeigt es "die mehrfachen Messungen bei jedem x-Wert, indem es den Mittelwert und das 95%-Konfidenzintervall um den Mittelwert herum darstellt". [Quelle](https://seaborn.pydata.org/tutorial/relational.html). Dieses zeitaufwändige Verhalten kann durch Hinzufügen von `ci=None` deaktiviert werden.
 
@@ -114,7 +114,7 @@ Frage: Nun, können wir im Jahr 2003 auch einen Anstieg des Honigangebots sehen?
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.de.png)
+![line chart 2](../../../../translated_images/de/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Antwort: Nicht wirklich. Wenn Sie die Gesamtproduktion betrachten, scheint sie in diesem Jahr tatsächlich gestiegen zu sein, obwohl die Honigproduktion im Allgemeinen in diesen Jahren rückläufig ist.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 In dieser Visualisierung können Sie den Ertrag pro Volk und die Anzahl der Bienenvölker Jahr für Jahr nebeneinander vergleichen, mit einer Wrap-Einstellung von 3 für die Spalten:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.de.png)
+![facet grid](../../../../translated_images/de/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 Für diesen Datensatz fällt nichts Besonderes in Bezug auf die Anzahl der Bienenvölker und deren Ertrag Jahr für Jahr und Bundesstaat für Bundesstaat auf. Gibt es eine andere Möglichkeit, eine Korrelation zwischen diesen beiden Variablen zu finden?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.de.png)
+![superimposed plots](../../../../translated_images/de/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Während nichts um das Jahr 2003 besonders auffällt, können wir diese Lektion mit einer etwas erfreulicheren Note abschließen: Obwohl die Anzahl der Bienenvölker insgesamt abnimmt, stabilisiert sich die Anzahl der Bienenvölker, auch wenn ihr Ertrag pro Volk sinkt.
 

@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ਕਲਾਉਡ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.pa.jpg)
+![cloud-picture](../../../translated_images/pa/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > ਫੋਟੋ [Jelleke Vanooteghem](https://unsplash.com/@ilumire) ਵੱਲੋਂ [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape) ਤੋਂ
 
 ਜਦੋਂ ਵੱਡੇ ਡਾਟਾ ਨਾਲ ਡਾਟਾ ਸਾਇੰਸ ਕਰਨ ਦੀ ਗੱਲ ਆਉਂਦੀ ਹੈ, ਤਾਂ ਕਲਾਉਡ ਇੱਕ ਬਹੁਤ ਵੱਡਾ ਬਦਲਾਅ ਲਿਆ ਸਕਦਾ ਹੈ। ਅਗਲੇ ਤਿੰਨ ਪਾਠਾਂ ਵਿੱਚ, ਅਸੀਂ ਦੇਖਾਂਗੇ ਕਿ ਕਲਾਉਡ ਕੀ ਹੈ ਅਤੇ ਇਹ ਕਿਵੇਂ ਬਹੁਤ ਮਦਦਗਾਰ ਹੋ ਸਕਦਾ ਹੈ। ਅਸੀਂ ਇੱਕ ਹਾਰਟ ਫੇਲਿਅਰ ਡਾਟਾਸੈਟ ਦੀ ਵੀ ਜਾਂਚ ਕਰਾਂਗੇ ਅਤੇ ਇੱਕ ਮਾਡਲ ਬਣਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਾਂਗੇ ਜੋ ਕਿਸੇ ਵਿਅਕਤੀ ਦੇ ਹਾਰਟ ਫੇਲਿਅਰ ਹੋਣ ਦੀ ਸੰਭਾਵਨਾ ਦਾ ਅੰਕਲਨ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰੇ। ਅਸੀਂ ਕਲਾਉਡ ਦੀ ਤਾਕਤ ਦਾ ਇਸਤੇਮਾਲ ਕਰਕੇ ਮਾਡਲ ਨੂੰ ਟ੍ਰੇਨ, ਡਿਪਲੌਇ ਅਤੇ ਦੋ ਵੱਖ-ਵੱਖ ਤਰੀਕਿਆਂ ਨਾਲ ਕਨਜ਼ਿਊਮ ਕਰਾਂਗੇ। ਇੱਕ ਤਰੀਕਾ ਸਿਰਫ ਯੂਜ਼ਰ ਇੰਟਰਫੇਸ ਦੀ ਵਰਤੋਂ ਕਰਕੇ "ਲੋ ਕੋਡ/ਨੋ ਕੋਡ" ਢੰਗ ਵਿੱਚ, ਅਤੇ ਦੂਜਾ ਤਰੀਕਾ Azure Machine Learning Software Developer Kit (Azure ML SDK) ਦੀ ਵਰਤੋਂ ਕਰਕੇ।
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.pa.png)
+![project-schema](../../../translated_images/pa/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### ਵਿਸ਼ੇ
 

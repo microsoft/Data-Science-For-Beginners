@@ -25,7 +25,7 @@ A questo punto probabilmente hai capito che la data science è un processo. Ques
 
 Questa lezione si concentra su 3 parti del ciclo di vita: acquisizione, elaborazione e manutenzione.
 
-![Diagramma del ciclo di vita della data science](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.it.jpg)  
+![Diagramma del ciclo di vita della data science](../../../../translated_images/it/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
 > Foto di [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Acquisizione
@@ -101,7 +101,7 @@ Esplora il [Team Data Science Process lifecycle](https://docs.microsoft.com/en-u
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![Ciclo di Vita del Team Data Science](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.it.png) | ![Immagine del Processo di Data Science Alliance](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.it.png) |
+|![Ciclo di Vita del Team Data Science](../../../../translated_images/it/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Immagine del Processo di Data Science Alliance](../../../../translated_images/it/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Immagine di [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Immagine di [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Quiz Post-Lezione](https://ff-quizzes.netlify.app/en/ds/quiz/27)

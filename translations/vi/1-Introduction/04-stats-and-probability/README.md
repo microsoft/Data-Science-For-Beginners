@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Lý thuyết Thống kê và Xác suất là hai lĩnh vực liên quan chặt chẽ trong Toán học và rất quan trọng đối với Khoa học Dữ liệu. Bạn có thể làm việc với dữ liệu mà không cần kiến thức sâu về toán học, nhưng vẫn tốt hơn nếu biết ít nhất một số khái niệm cơ bản. Dưới đây là phần giới thiệu ngắn gọn để giúp bạn bắt đầu.
 
-[![Video Giới thiệu](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.vi.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Video Giới thiệu](../../../../translated_images/vi/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Câu hỏi trước bài giảng](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Mô tả phân phối xác suất của một biến liên tục khó hơn, vớ
 
 Chúng ta chỉ có thể nói về xác suất của một biến nằm trong một khoảng giá trị nhất định, ví dụ P(t<sub>1</sub>≤X<t<sub>2</sub>). Trong trường hợp này, phân phối xác suất được mô tả bằng **hàm mật độ xác suất** p(x), sao cho:
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.vi.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/vi/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Một dạng liên tục của phân phối đều được gọi là **phân phối đều liên tục**, được định nghĩa trên một khoảng hữu hạn. Xác suất giá trị X nằm trong một khoảng có độ dài l tỷ lệ thuận với l, và tăng lên đến 1.
 
@@ -82,11 +82,11 @@ Khi chúng ta phân tích dữ liệu từ đời thực, chúng thường khôn
 
 Dưới đây là biểu đồ box plot hiển thị giá trị trung bình, median và tứ phân vị cho dữ liệu của chúng ta:
 
-![Biểu đồ Box Plot về cân nặng](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.vi.png)
+![Biểu đồ Box Plot về cân nặng](../../../../translated_images/vi/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Vì dữ liệu của chúng ta chứa thông tin về các **vai trò** của cầu thủ, chúng ta cũng có thể tạo box plot theo vai trò - điều này sẽ cho phép chúng ta hiểu cách các giá trị tham số khác nhau giữa các vai trò. Lần này chúng ta sẽ xem xét chiều cao:
 
-![Box plot theo vai trò](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.vi.png)
+![Box plot theo vai trò](../../../../translated_images/vi/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Biểu đồ này cho thấy rằng, trung bình, chiều cao của các cầu thủ ở vị trí đầu tiên cao hơn chiều cao của các cầu thủ ở vị trí thứ hai. Sau này trong bài học, chúng ta sẽ học cách kiểm tra giả thuyết này một cách chính thức hơn, và cách chứng minh rằng dữ liệu của chúng ta có ý nghĩa thống kê để thể hiện điều đó.
 
@@ -94,7 +94,7 @@ Biểu đồ này cho thấy rằng, trung bình, chiều cao của các cầu t
 
 Để xem phân phối của dữ liệu của chúng ta, chúng ta có thể vẽ một biểu đồ gọi là **histogram**. Trục X sẽ chứa một số khoảng cân nặng khác nhau (gọi là **bins**), và trục Y sẽ hiển thị số lần mẫu biến ngẫu nhiên nằm trong một khoảng nhất định.
 
-![Histogram của dữ liệu thực tế](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.vi.png)
+![Histogram của dữ liệu thực tế](../../../../translated_images/vi/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Từ histogram này, bạn có thể thấy rằng tất cả các giá trị tập trung xung quanh một giá trị cân nặng trung bình nhất định, và càng xa giá trị đó - càng ít cân nặng có giá trị đó được gặp. Tức là, rất khó xảy ra rằng cân nặng của một cầu thủ bóng chày sẽ khác biệt nhiều so với cân nặng trung bình. Phương sai của cân nặng cho thấy mức độ mà cân nặng có khả năng khác biệt so với giá trị trung bình.
 
@@ -112,7 +112,7 @@ samples = np.random.normal(mean,std,1000)
 
 Nếu chúng ta vẽ histogram của các mẫu được tạo ra, chúng ta sẽ thấy hình ảnh rất giống với hình ảnh được hiển thị ở trên. Và nếu chúng ta tăng số lượng mẫu và số lượng bins, chúng ta có thể tạo ra hình ảnh của phân phối chuẩn gần với lý tưởng hơn:
 
-![Phân phối chuẩn với mean=0 và std.dev=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.vi.png)
+![Phân phối chuẩn với mean=0 và std.dev=1](../../../../translated_images/vi/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Phân phối chuẩn với mean=0 và std.dev=1*
 
@@ -234,7 +234,7 @@ array([[1.        , 0.52959196],
 
 Trong trường hợp của chúng ta, giá trị 0.53 chỉ ra rằng có một số tương quan giữa cân nặng và chiều cao của một người. Chúng ta cũng có thể tạo biểu đồ phân tán của một giá trị so với giá trị kia để xem mối quan hệ một cách trực quan:
 
-![Mối quan hệ giữa cân nặng và chiều cao](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.vi.png)
+![Mối quan hệ giữa cân nặng và chiều cao](../../../../translated_images/vi/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Nhiều ví dụ hơn về tương quan và hiệp phương sai có thể được tìm thấy trong [notebook đi kèm](notebook.ipynb).
 

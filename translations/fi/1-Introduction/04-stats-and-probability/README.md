@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Tilastotiede ja todennäköisyysteoria ovat kaksi läheisesti liittyvää matematiikan osa-aluetta, jotka ovat erittäin tärkeitä datatieteessä. Vaikka dataa voi käsitellä ilman syvällistä matematiikan tuntemusta, on silti hyödyllistä ymmärtää ainakin peruskäsitteet. Tässä esittelemme lyhyen johdannon, joka auttaa sinua pääsemään alkuun.
 
-[![Johdantovideo](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.fi.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Johdantovideo](../../../../translated_images/fi/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Esiluentovisa](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Jatkuvan muuttujan todennäköisyysjakauman kuvaaminen on vaikeampaa, kun arvot 
 
 Voimme puhua vain todennäköisyydestä, että muuttuja osuu tietylle arvojen välille, esim. P(t<sub>1</sub>≤X<t<sub>2</sub>). Tässä tapauksessa todennäköisyysjakauma kuvataan **tiheysfunktiolla** p(x), siten että
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.fi.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/fi/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Jatkuvan tasajakauman analogia on **jatkuva tasajakauma**, joka määritellään äärelliselle välille. Todennäköisyys, että arvo X osuu pituudeltaan l olevaan väliin, on verrannollinen l:n pituuteen ja kasvaa arvoon 1.
 
@@ -82,11 +82,11 @@ Kun analysoimme tosielämän dataa, ne eivät usein ole varsinaisia satunnaismuu
 
 Tässä on laatikko- ja viiksikaavio, joka näyttää datamme keskiarvon, mediaanin ja kvartiilit:
 
-![Painon laatikko- ja viiksikaavio](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.fi.png)
+![Painon laatikko- ja viiksikaavio](../../../../translated_images/fi/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Koska datamme sisältää tietoa eri pelaajien **rooleista**, voimme myös tehdä laatikko- ja viiksikaavion roolin mukaan – tämä antaa käsityksen siitä, miten parametrien arvot vaihtelevat roolien välillä. Tällä kertaa tarkastelemme pituutta:
 
-![Laatikko- ja viiksikaavio roolin mukaan](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.fi.png)
+![Laatikko- ja viiksikaavio roolin mukaan](../../../../translated_images/fi/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Tämä diagrammi viittaa siihen, että ensimmäisen pesämiehen keskimääräinen pituus on suurempi kuin toisen pesämiehen. Myöhemmin tässä oppitunnissa opimme, kuinka voimme testata tätä hypoteesia muodollisemmin ja osoittaa, että datamme on tilastollisesti merkittävää tämän osoittamiseksi.
 
@@ -94,7 +94,7 @@ Tämä diagrammi viittaa siihen, että ensimmäisen pesämiehen keskimääräine
 
 Jotta voimme nähdä, millainen datamme jakauma on, voimme piirtää kaavion, jota kutsutaan **histogrammiksi**. X-akselilla on eri painovälien lukumäärä (niin sanotut **bin**-arvot), ja pystyakselilla näytetään, kuinka monta kertaa satunnaismuuttujan otos osui tiettyyn väliin.
 
-![Reaaliaikaisen datan histogrammi](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.fi.png)
+![Reaaliaikaisen datan histogrammi](../../../../translated_images/fi/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Tästä histogrammista näet, että kaikki arvot keskittyvät tietyn keskipainon ympärille, ja mitä kauemmas keskipainosta mennään, sitä harvemmin kyseisen painon arvoja esiintyy. Toisin sanoen on hyvin epätodennäköistä, että baseball-pelaajan paino poikkeaisi merkittävästi keskipainosta. Painojen varianssi osoittaa, kuinka paljon painot todennäköisesti eroavat keskiarvosta.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Jos piirrämme histogrammin luoduista näytteistä, näemme kuvan, joka on hyvin samanlainen kuin yllä oleva. Ja jos lisäämme näytteiden ja binien määrää, voimme luoda normaalijakauman kuvan, joka on lähempänä ideaalia:
 
-![Normaalijakauma, keskiarvo=0 ja keskihajonta=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.fi.png)
+![Normaalijakauma, keskiarvo=0 ja keskihajonta=1](../../../../translated_images/fi/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Normaalijakauma, keskiarvo=0 ja keskihajonta=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 Tässä tapauksessa arvo 0.53 osoittaa, että henkilön painon ja pituuden välillä on jonkin verran korrelaatiota. Voimme myös tehdä hajontakaavion yhdestä arvosta toista vastaan nähdäksesi suhteen visuaalisesti:
 
-![Painon ja pituuden suhde](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.fi.png)
+![Painon ja pituuden suhde](../../../../translated_images/fi/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Lisää esimerkkejä korrelaatiosta ja kovarianssista löytyy [liitteenä olevasta muistikirjasta](notebook.ipynb).
 

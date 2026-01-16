@@ -57,7 +57,7 @@ Key features of the SDK include:
 
 In the [previous lesson](../18-Low-Code/README.md), we explored how to train, deploy, and consume a model using a Low code/No code approach. We used the Heart Failure dataset to create a heart failure prediction model. In this lesson, we will achieve the same goal but using the Azure Machine Learning SDK.
 
-![project-schema](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.en.png)
+![project-schema](../../../../translated_images/en/project-schema.420e56d495624541.webp)
 
 ### 1.2 Heart failure prediction project and dataset introduction
 
@@ -74,7 +74,7 @@ If not, follow the instructions in section **2.1 Create an Azure ML workspace** 
 
 In the [Azure ML workspace](https://ml.azure.com/) created earlier, navigate to the compute menu to view the available compute resources.
 
-![compute-instance-1](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.en.png)
+![compute-instance-1](../../../../translated_images/en/compute-instance-1.dba347cb199ca499.webp)
 
 Let’s create a compute instance to host a Jupyter notebook. 
 1. Click the + New button. 
@@ -97,10 +97,10 @@ To create a Notebook, you need a compute node running the Jupyter notebook insta
 
 1. In the Applications section, click on the Jupyter option. 
 2. Tick the "Yes, I understand" box and click Continue.
-![notebook-1](../../../../translated_images/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.en.png)
+![notebook-1](../../../../translated_images/en/notebook-1.12998af7b02c83f5.webp)
 3. This will open a new browser tab with your Jupyter notebook instance. Click the "New" button to create a notebook.
 
-![notebook-2](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.en.png)
+![notebook-2](../../../../translated_images/en/notebook-2.9a657c037e34f1cf.webp)
 
 Now that we have a Notebook, we can start training the model using the Azure ML SDK.
 

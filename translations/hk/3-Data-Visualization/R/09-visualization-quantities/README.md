@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 在這裡，你安裝了 `ggplot2` 套件，然後使用 `library("ggplot2")` 命令將其導入工作空間。要在 ggplot 中繪製任何圖表，使用 `ggplot()` 函數並指定數據集、x 和 y 變量作為屬性。在這種情況下，我們使用 `geom_line()` 函數，因為我們的目標是繪製折線圖。
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.hk.png)
+![MaxWingspan-lineplot](../../../../../translated_images/hk/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 你立即注意到什麼？似乎至少有一個異常值——那是一個相當大的翼展！2000+ 厘米的翼展超過 20 米——明尼蘇達州有翼龍在飛嗎？讓我們調查一下。
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 我們在 `theme` 中指定角度，並在 `xlab()` 和 `ylab()` 中分別指定 x 和 y 軸標籤。`ggtitle()` 為圖表/圖形命名。
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.hk.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/hk/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 即使將標籤的旋轉設置為 45 度，仍然有太多標籤難以閱讀。讓我們嘗試另一種策略：僅標記那些異常值並在圖表內設置標籤。你可以使用散點圖來為標籤留出更多空間：
 
@@ -100,7 +100,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 
 你發現了什麼？
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.hk.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/hk/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## 篩選數據
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 我們創建了一個新的數據框 `birds_filtered`，然後繪製了一個散點圖。通過篩選掉異常值，你的數據現在更加一致且易於理解。
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.hk.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/hk/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 現在我們至少在翼展方面有了一個更乾淨的數據集，讓我們了解更多關於這些鳥類的信息。
 
@@ -162,7 +162,7 @@ birds_filtered %>% group_by(Category) %>%
 ```
 在以下代碼片段中，我們安裝了 [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) 和 [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) 套件，以幫助操作和分組數據以繪製堆疊條形圖。首先，你按鳥類的 `Category` 分組數據，然後總結 `MinLength`、`MaxLength`、`MinBodyMass`、`MaxBodyMass`、`MinWingspan`、`MaxWingspan` 列。然後，使用 `ggplot2` 套件繪製條形圖並指定不同類別的顏色和標籤。
 
-![堆疊條形圖](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.hk.png)
+![堆疊條形圖](../../../../../translated_images/hk/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 然而，這個條形圖難以閱讀，因為有太多未分組的數據。你需要選擇你想要繪製的數據，所以讓我們看看基於鳥類類別的鳥類長度。
 
@@ -177,7 +177,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```
 你首先計算 `Category` 列中的唯一值，然後將它們排序到一個新的數據框 `birds_count` 中。這些排序後的數據在相同層次中進行分級，以便按排序方式繪製。使用 `ggplot2`，你然後在條形圖中繪製數據。`coord_flip()` 繪製水平條形圖。
 
-![類別-長度](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.hk.png)
+![類別-長度](../../../../../translated_images/hk/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 這個條形圖很好地展示了每個類別中鳥類的數量。一眼就能看出，在這個地區最多的鳥類是鴨/鵝/水禽類別。明尼蘇達州是“萬湖之地”，所以這並不令人驚訝！
 
@@ -200,7 +200,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```
 我們按 `Category` 分組 `birds_filtered` 數據，然後繪製條形圖。
 
-![比較數據](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.hk.png)
+![比較數據](../../../../../translated_images/hk/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 這裡沒有什麼令人驚訝的：蜂鳥的最大長度比鵜鶘或鵝要小得多。當數據符合邏輯時，這是件好事！
 
@@ -212,7 +212,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```
-![疊加值](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.hk.png)
+![疊加值](../../../../../translated_images/hk/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 挑戰
 

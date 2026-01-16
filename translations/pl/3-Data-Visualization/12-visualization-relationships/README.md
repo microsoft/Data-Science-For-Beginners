@@ -51,7 +51,7 @@ Stwórz podstawowy wykres punktowy, aby pokazać relację między ceną za funt 
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.pl.png)
+![scatterplot 1](../../../../translated_images/pl/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Teraz pokaż te same dane z kolorystyką nawiązującą do miodu, aby zobrazować, jak cena zmienia się na przestrzeni lat. Możesz to zrobić, dodając parametr 'hue', który pokaże zmiany rok po roku:
 
@@ -60,7 +60,7 @@ Teraz pokaż te same dane z kolorystyką nawiązującą do miodu, aby zobrazowa�
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.pl.png)
+![scatterplot 2](../../../../translated_images/pl/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 Dzięki tej zmianie kolorystyki możesz zauważyć wyraźny wzrost ceny na przestrzeni lat. Jeśli spojrzysz na próbkę danych (na przykład dla stanu Arizona), zobaczysz wzorzec wzrostu cen rok po roku, z kilkoma wyjątkami:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Możesz zauważyć, że rozmiar punktów stopniowo się zwiększa.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.pl.png)
+![scatterplot 3](../../../../translated_images/pl/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Czy to prosty przypadek podaży i popytu? Czy z powodu takich czynników jak zmiany klimatyczne i zapaść kolonii dostępność miodu maleje z roku na rok, a cena rośnie?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Odpowiedź: Tak, z pewnymi wyjątkami w okolicach roku 2003:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.pl.png)
+![line chart 1](../../../../translated_images/pl/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Ponieważ Seaborn agreguje dane w jednej linii, wyświetla "wiele pomiarów dla każdej wartości x, rysując średnią i 95% przedział ufności wokół średniej". [Źródło](https://seaborn.pydata.org/tutorial/relational.html). To czasochłonne zachowanie można wyłączyć, dodając `ci=None`.
 
@@ -114,7 +114,7 @@ Pytanie: Czy w 2003 roku można również zauważyć wzrost podaży miodu? Co je
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.pl.png)
+![line chart 2](../../../../translated_images/pl/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Odpowiedź: Niekoniecznie. Jeśli spojrzysz na całkowitą produkcję, wydaje się, że w tym konkretnym roku faktycznie wzrosła, mimo że ogólnie rzecz biorąc ilość produkowanego miodu maleje w tych latach.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 Na tej wizualizacji możesz porównać wydajność na kolonię i liczbę kolonii rok po roku, obok siebie, z ustawieniem wrap na 3 dla kolumn:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.pl.png)
+![facet grid](../../../../translated_images/pl/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 Dla tego zbioru danych nic szczególnego nie wyróżnia się w odniesieniu do liczby kolonii i ich wydajności rok po roku oraz stan po stanie. Czy istnieje inny sposób na znalezienie korelacji między tymi dwiema zmiennymi?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.pl.png)
+![superimposed plots](../../../../translated_images/pl/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Chociaż nic szczególnego nie rzuca się w oczy w okolicach roku 2003, pozwala to zakończyć tę lekcję na nieco bardziej optymistycznej nucie: mimo ogólnego spadku liczby kolonii, ich liczba stabilizuje się, nawet jeśli wydajność na kolonię maleje.
 

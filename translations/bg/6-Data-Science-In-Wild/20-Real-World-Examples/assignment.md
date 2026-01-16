@@ -22,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. Разгледайте [Каталога](https://planetarycomputer.microsoft.com/catalog) на наборите от данни - научете за целта на всеки.
  3. Използвайте Explorer - изберете набор от данни, който ви интересува, изберете подходящо запитване и опция за визуализация.
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.bg.png)
+![The Planetary Computer Explorer](../../../../translated_images/bg/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Вашата задача:`
 Сега изучете визуализацията, която се генерира в браузъра, и отговорете на следните въпроси:

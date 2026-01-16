@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, pirukadiagramm, mis näitab nende kahe seeneklassi andmete proportsioone. On üsna oluline saada siltide järjekord õigeks, eriti siin, seega kontrolli kindlasti, kuidas siltide massiiv on koostatud!
 
-![pirukadiagramm](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.et.png)
+![pirukadiagramm](../../../../../translated_images/et/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Sõõrikud!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![sõõrikdiagramm](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.et.png)
+![sõõrikdiagramm](../../../../../translated_images/et/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 See kood kasutab kahte teeki - ggplot2 ja webr. Kasutades webr teegi PieDonut funktsiooni, saame hõlpsasti luua sõõrikdiagrammi!
 
@@ -169,7 +169,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Vahvlidiagrammi abil näed selgelt seente kübara värvide proportsioone selles andmestikus. Huvitaval kombel on palju rohelise kübaraga seeni!
 
-![vahvlidiagramm](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.et.png)
+![vahvlidiagramm](../../../../../translated_images/et/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 Selles õppetükis õppisid kolme viisi proportsioonide visualiseerimiseks. Kõigepealt pead oma andmed rühmitama kategooriatesse ja seejärel otsustama, milline on parim viis andmete kuvamiseks - pirukas, sõõrik või vahvel. Kõik on maitsvad ja pakuvad kasutajale kohest ülevaadet andmestikust.
 

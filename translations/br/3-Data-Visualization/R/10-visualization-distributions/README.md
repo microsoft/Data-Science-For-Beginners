@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![comprimento máximo por ordem](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.br.png)
+![comprimento máximo por ordem](../../../../../translated_images/br/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 Isso fornece uma visão geral da distribuição do comprimento corporal por ordem de pássaros, mas não é a maneira ideal de exibir distribuições reais. Essa tarefa geralmente é realizada criando um histograma.
 
@@ -57,7 +57,7 @@ O `ggplot2` oferece ótimas maneiras de visualizar a distribuição de dados usa
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![distribuição em todo o conjunto de dados](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.br.png)
+![distribuição em todo o conjunto de dados](../../../../../translated_images/br/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 Como você pode ver, a maioria dos 400+ pássaros neste conjunto de dados está na faixa de menos de 2000 para sua massa corporal máxima. Obtenha mais informações sobre os dados alterando o parâmetro `bins` para um número maior, algo como 30:
 
@@ -65,7 +65,7 @@ Como você pode ver, a maioria dos 400+ pássaros neste conjunto de dados está 
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![distribuição-30bins](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.br.png)
+![distribuição-30bins](../../../../../translated_images/br/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 Este gráfico mostra a distribuição de forma um pouco mais detalhada. Um gráfico menos inclinado para a esquerda poderia ser criado garantindo que você selecione apenas dados dentro de um determinado intervalo:
 
@@ -77,7 +77,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![histograma filtrado](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.br.png)
+![histograma filtrado](../../../../../translated_images/br/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ Experimente outros filtros e pontos de dados. Para ver a distribuição completa dos dados, remova o filtro `['MaxBodyMass']` para mostrar distribuições rotuladas.
 
@@ -91,7 +91,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Parece haver uma correlação esperada entre esses dois elementos ao longo de um eixo esperado, com um ponto de convergência particularmente forte:
 
-![gráfico 2d](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.br.png)
+![gráfico 2d](../../../../../translated_images/br/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 Os histogramas funcionam bem por padrão para dados numéricos. E se você precisar ver distribuições de acordo com dados textuais? 
 ## Explore o conjunto de dados para distribuições usando dados textuais 
@@ -122,7 +122,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![envergadura e status de conservação](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.br.png)
+![envergadura e status de conservação](../../../../../translated_images/br/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 Não parece haver uma boa correlação entre envergadura mínima e status de conservação. Teste outros elementos do conjunto de dados usando este método. Você encontra alguma correlação?
 
@@ -136,7 +136,7 @@ Vamos trabalhar com gráficos de densidade agora!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![gráfico de densidade](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.br.png)
+![gráfico de densidade](../../../../../translated_images/br/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 Você pode ver como o gráfico reflete o anterior para os dados de envergadura mínima; é apenas um pouco mais suave. Se você quisesse revisitar aquela linha irregular de MaxBodyMass no segundo gráfico que construiu, poderia suavizá-la muito bem recriando-a usando este método:
 
@@ -144,7 +144,7 @@ Você pode ver como o gráfico reflete o anterior para os dados de envergadura m
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![densidade de massa corporal](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.br.png)
+![densidade de massa corporal](../../../../../translated_images/br/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 Se você quisesse uma linha suave, mas não muito suave, edite o parâmetro `adjust`: 
 
@@ -152,7 +152,7 @@ Se você quisesse uma linha suave, mas não muito suave, edite o parâmetro `adj
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![massa corporal menos suave](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.br.png)
+![massa corporal menos suave](../../../../../translated_images/br/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ Leia sobre os parâmetros disponíveis para este tipo de gráfico e experimente!
 
@@ -162,7 +162,7 @@ Este tipo de gráfico oferece visualizações explicativas muito bonitas. Com al
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![massa corporal por ordem](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.br.png)
+![massa corporal por ordem](../../../../../translated_images/br/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 Desafio
 

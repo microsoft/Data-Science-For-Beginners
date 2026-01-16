@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![ဒေတာသိပ္ပံကို သတ်မှတ်ခြင်း ဗီဒီယို](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.my.png)](https://youtu.be/beZ7Mb_oz9I)
+[![ဒေတာသိပ္ပံကို သတ်မှတ်ခြင်း ဗီဒီယို](../../../../translated_images/my/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -120,7 +120,7 @@ Machine Learning နယ်ပယ်တစ်ခုဖြစ်တဲ့ Artifici
 
 ဤစိန်ခေါ်မှုတွင် ကျွန်ုပ်တို့သည် Data Science နယ်ပယ်နှင့်ဆက်စပ်သောအယူအဆများကို စာသားများကိုကြည့်ခြင်းဖြင့်ရှာဖွေရန်ကြိုးစားမည်။ ကျွန်ုပ်တို့သည် Data Science အကြောင်း Wikipedia ဆောင်းပါးတစ်ခုကိုယူပြီး၊ စာသားကိုဒေါင်းလုပ်လုပ်ပြီး အဆင့်ဆင့်လုပ်ဆောင်ပြီးနောက်၊ အောက်ပါပုံကဲ့သို့သော စကားလုံးတိမ်တစ်ခုကိုတည်ဆောက်မည်။
 
-![Word Cloud for Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.my.png)
+![Word Cloud for Data Science](../../../../translated_images/my/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') သို့သွားပြီး ကုဒ်ကိုဖတ်ရှုပါ။ သင်သည်ကုဒ်ကိုလည်း run လုပ်နိုင်ပြီး၊ အချက်အလက်ပြောင်းလဲမှုများကို အချိန်နှင့်တပြေးညီလုပ်ဆောင်ပုံကိုကြည့်ရှုနိုင်သည်။
 

@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 La Teoría de Estadística y Probabilidad son dos áreas de las Matemáticas estrechamente relacionadas y altamente relevantes para la Ciencia de Datos. Es posible trabajar con datos sin un conocimiento profundo de matemáticas, pero siempre es mejor conocer al menos algunos conceptos básicos. Aquí presentaremos una breve introducción que te ayudará a comenzar.
 
-[![Video Introductorio](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.es.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Video Introductorio](../../../../translated_images/es/video-prob-and-stats.e4282e5efa2f2543.webp)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Es más difícil describir la distribución de probabilidad de una variable cont
 
 Solo podemos hablar de la probabilidad de que una variable caiga en un intervalo dado de valores, por ejemplo, P(t<sub>1</sub>≤X<t<sub>2</sub>). En este caso, la distribución de probabilidad se describe mediante una **función de densidad de probabilidad** p(x), tal que
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.es.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/es/probability-density.a8aad29f17a14afb.webp)
 
 Un análogo continuo de la distribución uniforme se llama **uniforme continua**, que se define en un intervalo finito. La probabilidad de que el valor X caiga en un intervalo de longitud l es proporcional a l, y aumenta hasta 1.
 
@@ -82,11 +82,11 @@ Cuando analizamos datos del mundo real, a menudo no son variables aleatorias com
 
 Aquí está el diagrama de caja que muestra la media, mediana y cuartiles de nuestros datos:
 
-![Diagrama de Caja de Peso](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.es.png)
+![Diagrama de Caja de Peso](../../../../translated_images/es/weight-boxplot.1dbab1c03af26f8a.webp)
 
 Dado que nuestros datos contienen información sobre diferentes **roles** de jugadores, también podemos hacer el diagrama de caja por rol, lo que nos permitirá hacernos una idea de cómo varían los valores de los parámetros según los roles. Esta vez consideraremos la altura:
 
-![Diagrama de Caja por Rol](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.es.png)
+![Diagrama de Caja por Rol](../../../../translated_images/es/boxplot_byrole.036b27a1c3f52d42.webp)
 
 Este diagrama sugiere que, en promedio, la altura de los jugadores de primera base es mayor que la de los jugadores de segunda base. Más adelante en esta lección aprenderemos cómo podemos probar esta hipótesis de manera más formal y cómo demostrar que nuestros datos son estadísticamente significativos para mostrar esto.
 
@@ -94,7 +94,7 @@ Este diagrama sugiere que, en promedio, la altura de los jugadores de primera ba
 
 Para ver cuál es la distribución de nuestros datos, podemos trazar un gráfico llamado **histograma**. El eje X contendrá un número de diferentes intervalos de peso (los llamados **bins**), y el eje vertical mostrará el número de veces que nuestra muestra de variable aleatoria estuvo dentro de un intervalo dado.
 
-![Histograma de datos del mundo real](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.es.png)
+![Histograma de datos del mundo real](../../../../translated_images/es/weight-histogram.bfd00caf7fc30b14.webp)
 
 En este histograma puedes ver que todos los valores están centrados alrededor de un cierto peso promedio, y cuanto más nos alejamos de ese peso, menos frecuentemente se encuentran pesos de ese valor. Es decir, es muy improbable que el peso de un jugador de béisbol sea muy diferente del peso promedio. La varianza de los pesos muestra la medida en que los pesos tienden a diferir del promedio.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Si trazamos el histograma de las muestras generadas, veremos una imagen muy similar a la mostrada anteriormente. Y si aumentamos el número de muestras y el número de bins, podemos generar una imagen de una distribución normal más cercana al ideal:
 
-![Distribución Normal con media=0 y desviación estándar=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.es.png)
+![Distribución Normal con media=0 y desviación estándar=1](../../../../translated_images/es/normal-histogram.dfae0d67c202137d.webp)
 
 *Distribución Normal con media=0 y desviación estándar=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 En nuestro caso, el valor 0.53 indica que hay cierta correlación entre el peso y la altura de una persona. También podemos hacer un gráfico de dispersión de un valor contra el otro para ver la relación visualmente:
 
-![Relación entre peso y altura](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.es.png)
+![Relación entre peso y altura](../../../../translated_images/es/weight-height-relationship.3f06bde4ca2aba99.webp)
 
 > Más ejemplos de correlación y covarianza se pueden encontrar en el [notebook adjunto](notebook.ipynb).
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # データサイエンス入門
 
-![データの活用](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.ja.jpg)
+![データの活用](../../../translated_images/ja/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > 写真提供：<a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a>（<a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>）
 
 このレッスンでは、データサイエンスの定義について学び、データサイエンティストが考慮すべき倫理的な問題について理解します。また、データの定義や、データサイエンスの主要な学問分野である統計学と確率論について少し学びます。

@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 이번 강의에서는 생애 주기의 3가지 부분인 데이터 수집, 처리, 유지 관리에 초점을 맞춥니다.
 
-![데이터 과학 생애 주기 다이어그램](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.ko.jpg)
+![데이터 과학 생애 주기 다이어그램](../../../../translated_images/ko/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > 사진 출처: [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## 데이터 수집
@@ -97,7 +97,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![Team Data Science Lifecycle](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.ko.png) | ![Data Science Process Alliance Image](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.ko.png) |
+|![Team Data Science Lifecycle](../../../../translated_images/ko/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Data Science Process Alliance Image](../../../../translated_images/ko/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | 이미지 출처: [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | 이미지 출처: [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [강의 후 퀴즈](https://ff-quizzes.netlify.app/en/ds/quiz/27)

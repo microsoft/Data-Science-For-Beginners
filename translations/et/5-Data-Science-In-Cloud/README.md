@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Andmeteadus pilves
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.et.jpg)
+![cloud-picture](../../../translated_images/et/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Foto autorilt [Jelleke Vanooteghem](https://unsplash.com/@ilumire) lehelt [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Kui tegemist on suurte andmetega andmeteadusega, võib pilv olla tõeline mängumuutja. Järgmise kolme õppetunni jooksul vaatame, mis on pilv ja miks see võib olla väga kasulik. Uurime ka südamepuudulikkuse andmestikku ja loome mudeli, mis aitab hinnata südamepuudulikkuse tõenäosust. Kasutame pilve võimsust mudeli treenimiseks, juurutamiseks ja kasutamiseks kahel erineval viisil. Üks viis on kasutada ainult kasutajaliidest madala koodi/ilma koodita lähenemisviisil, teine viis on kasutada Azure Machine Learning Software Developer Kit'i (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.et.png)
+![project-schema](../../../translated_images/et/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Teemad
 

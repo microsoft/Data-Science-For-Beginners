@@ -22,7 +22,7 @@ L'interface Explorer (illustrée dans la capture d'écran ci-dessous) vous perme
  2. Explorer le [Catalogue](https://planetarycomputer.microsoft.com/catalog) des jeux de données - comprendre leur objectif.
  3. Utiliser l'Explorer - choisir un jeu de données qui vous intéresse, sélectionner une requête et une option de rendu pertinentes.
 
-![L'Explorer du Planetary Computer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.fr.png)
+![L'Explorer du Planetary Computer](../../../../translated_images/fr/planetary-computer-explorer.c1e95a9b053167d6.webp)
 
 `Votre tâche :`
 Étudiez maintenant la visualisation affichée dans le navigateur et répondez aux questions suivantes :

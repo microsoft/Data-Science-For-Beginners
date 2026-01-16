@@ -41,7 +41,7 @@ Terima kasih kepada pendemokrasian AI, pembangun kini lebih mudah untuk mereka b
 
  * [Sains Data dalam Penjagaan Kesihatan](https://data-flair.training/blogs/data-science-in-healthcare/) - menonjolkan aplikasi seperti pengimejan perubatan (contohnya, MRI, X-Ray, CT-Scan), genomik (penjujukan DNA), pembangunan ubat (penilaian risiko, ramalan kejayaan), analitik ramalan (penjagaan pesakit & logistik bekalan), pengesanan & pencegahan penyakit dll.
 
-![Aplikasi Sains Data di Dunia Sebenar](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.ms.png) Kredit Imej: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Aplikasi Sains Data di Dunia Sebenar](../../../../translated_images/ms/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Kredit Imej: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Rajah ini menunjukkan domain lain dan contoh untuk menerapkan teknik sains data. Mahu meneroka aplikasi lain? Lihat bahagian [Kajian & Pembelajaran Kendiri](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) di bawah.
 

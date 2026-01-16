@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 數據科學入門
 
-![數據運作中](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.hk.jpg)
+![數據運作中](../../../translated_images/hk/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > 圖片由 <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> 提供，來源於 <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 在這些課程中，你將了解什麼是數據科學，並學習數據科學家必須考慮的倫理問題。你還會學習數據的定義，並簡單了解統計學和概率論，這些是數據科學的核心學術領域。

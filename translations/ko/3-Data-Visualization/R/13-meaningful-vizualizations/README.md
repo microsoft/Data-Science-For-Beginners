@@ -47,25 +47,25 @@ CO_OP_TRANSLATOR_METADATA:
 
 데이터 과학자가 올바른 데이터에 적합한 차트를 신중히 선택하더라도, 데이터를 특정 관점을 증명하기 위해 표시하는 과정에서 데이터 자체를 훼손하는 경우가 많습니다. 기만적인 차트와 인포그래픽의 예는 무수히 많습니다!
 
-[![How Charts Lie by Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.ko.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
+[![How Charts Lie by Alberto Cairo](../../../../../translated_images/ko/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
 > 🎥 위 이미지를 클릭하면 기만적인 차트에 대한 컨퍼런스 강연을 볼 수 있습니다.
 
 이 차트는 X축을 반대로 뒤집어 날짜를 기준으로 진실의 반대를 보여줍니다:
 
-![bad chart 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.ko.png)
+![bad chart 1](../../../../../translated_images/ko/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [이 차트](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg)는 더욱 기만적입니다. 눈은 오른쪽으로 향하며 시간이 지남에 따라 COVID 사례가 감소했다고 결론짓게 만듭니다. 하지만 날짜를 자세히 보면, 기만적인 하락 추세를 보여주기 위해 날짜가 재배열된 것을 알 수 있습니다.
 
-![bad chart 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.ko.jpg)
+![bad chart 2](../../../../../translated_images/ko/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 이 악명 높은 예시는 색상과 뒤집힌 Y축을 사용하여 기만합니다. 총기 친화적 법안 통과 후 총기 사망자가 급증했음에도 불구하고, 눈은 반대의 결론을 내리도록 속습니다:
 
-![bad chart 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.ko.jpg)
+![bad chart 3](../../../../../translated_images/ko/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 이 이상한 차트는 비율을 조작하여 웃음을 자아냅니다:
 
-![bad chart 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.ko.jpg)
+![bad chart 4](../../../../../translated_images/ko/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 비교할 수 없는 것을 비교하는 것도 또 다른 기만적인 방법입니다. [멋진 웹사이트](https://tylervigen.com/spurious-correlations)는 '허위 상관관계'를 보여주는 '사실'을 수집하며, 예를 들어 메인주의 이혼율과 마가린 소비를 상관시키는 데이터를 제공합니다. Reddit 그룹은 데이터의 [기만적인 사용](https://www.reddit.com/r/dataisugly/top/?t=all)을 수집합니다.
 
@@ -100,13 +100,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 X축에 텍스트 데이터가 길고 자세하다면, 텍스트를 각도로 조정하여 가독성을 높일 수 있습니다. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html)는 데이터가 지원하는 경우 3D 플로팅을 제공합니다. 이를 사용하여 정교한 데이터 시각화를 생성할 수 있습니다.
 
-![3d plots](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.ko.png)
+![3d plots](../../../../../translated_images/ko/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## 애니메이션 및 3D 차트 표시
 
 오늘날 최고의 데이터 시각화 중 일부는 애니메이션으로 제작됩니다. Shirley Wu는 D3를 사용하여 '[영화 꽃](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)'과 같은 놀라운 애니메이션을 만들었습니다. 각 꽃은 영화의 시각화를 나타냅니다. 또 다른 예로 Guardian의 'Bussed Out'은 NYC가 노숙자 문제를 해결하기 위해 사람들을 도시 밖으로 버스에 태워 보내는 방식을 보여주는 스크롤텔링 기사 형식과 Greensock 및 D3를 결합한 인터랙티브 경험입니다.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.ko.png)
+![busing](../../../../../translated_images/ko/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: How America Moves its Homeless" from [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualizations by Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ X축에 텍스트 데이터가 길고 자세하다면, 텍스트를 각도로 �
 
 Vue.js와 D3를 사용하여 네트워크 시각화를 표시하는 라이브러리를 사용하여 애니메이션화된 소셜 네트워크를 보여주는 웹 앱을 완성하세요. 앱이 실행되면 화면에서 노드를 끌어 데이터를 재배열할 수 있습니다.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.ko.png)
+![liaisons](../../../../../translated_images/ko/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## 프로젝트: D3.js를 사용하여 네트워크를 보여주는 차트 만들기
 

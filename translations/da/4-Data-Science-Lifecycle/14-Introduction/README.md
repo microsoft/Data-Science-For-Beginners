@@ -25,7 +25,7 @@ På nuværende tidspunkt har du sandsynligvis indset, at data science er en proc
 
 Denne lektion fokuserer på 3 dele af livscyklussen: indsamling, behandling og vedligeholdelse.
 
-![Diagram over data science livscyklus](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.da.jpg)
+![Diagram over data science livscyklus](../../../../translated_images/da/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > Foto af [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Indsamling
@@ -101,7 +101,7 @@ Undersøg [Team Data Science Process livscyklus](https://docs.microsoft.com/en-u
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![Team Data Science Lifecycle](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.da.png) | ![Data Science Process Alliance Image](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.da.png) |
+|![Team Data Science Lifecycle](../../../../translated_images/da/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Data Science Process Alliance Image](../../../../translated_images/da/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Billede af [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Billede af [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Quiz efter lektionen](https://ff-quizzes.netlify.app/en/ds/quiz/27)

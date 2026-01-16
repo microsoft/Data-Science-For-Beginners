@@ -22,7 +22,7 @@ La interfaz de Explorer (mostrada en la captura de pantalla abajo) te permite se
  2. Explorar el [Catálogo](https://planetarycomputer.microsoft.com/catalog) de conjuntos de datos - aprender el propósito de cada uno.
  3. Usar el Explorer - elegir un conjunto de datos de interés, seleccionar una consulta relevante y una opción de representación.
 
-![El Explorer del Planetary Computer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.es.png)
+![El Explorer del Planetary Computer](../../../../translated_images/es/planetary-computer-explorer.c1e95a9b053167d6.webp)
 
 `Tu tarea:`
 Ahora estudia la visualización que se genera en el navegador y responde lo siguiente:

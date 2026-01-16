@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Ang Estadistika at Teorya ng Probabilidad ay dalawang malapit na kaugnay na larangan ng Matematika na mahalaga sa Data Science. Posibleng magtrabaho gamit ang datos nang hindi masyadong malalim ang kaalaman sa matematika, ngunit mas mainam pa rin na malaman ang ilang pangunahing konsepto. Dito, magbibigay kami ng maikling panimula na makakatulong sa iyong magsimula.
 
-[![Intro Video](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.tl.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Intro Video](../../../../translated_images/tl/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Mas mahirap ilarawan ang probability distribution ng isang continuous variable, 
 
 Maaari lamang nating pag-usapan ang probabilidad ng isang variable na nasa loob ng isang ibinigay na interval ng mga halaga, halimbawa P(t<sub>1</sub>≤X<t<sub>2</sub>). Sa kasong ito, ang probability distribution ay inilalarawan ng isang **probability density function** p(x), kung saan:
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.tl.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/tl/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Ang continuous analog ng uniform distribution ay tinatawag na **continuous uniform**, na tinutukoy sa isang finite interval. Ang probabilidad na ang halaga X ay nasa loob ng isang interval na may haba l ay proporsyonal sa l, at tumataas hanggang 1.
 
@@ -82,11 +82,11 @@ Kapag sinusuri natin ang datos mula sa totoong buhay, madalas na hindi sila rand
 
 Narito ang box plot na nagpapakita ng mean, median, at quartiles para sa ating datos:
 
-![Weight Box Plot](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.tl.png)
+![Weight Box Plot](../../../../translated_images/tl/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Dahil ang ating datos ay naglalaman ng impormasyon tungkol sa iba't ibang **roles** ng player, maaari rin tayong gumawa ng box plot ayon sa role - magbibigay ito sa atin ng ideya kung paano nagkakaiba ang mga halaga ng parameter sa bawat role. Sa pagkakataong ito, isasaalang-alang natin ang taas:
 
-![Box plot by role](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.tl.png)
+![Box plot by role](../../../../translated_images/tl/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Ipinapakita ng diagram na ito na, sa karaniwan, ang taas ng mga first basemen ay mas mataas kaysa sa taas ng mga second basemen. Sa susunod na bahagi ng aralin, matututunan natin kung paano mas pormal na masusubok ang hypothesis na ito, at kung paano ipakita na ang ating datos ay statistically significant upang patunayan ito.
 
@@ -94,7 +94,7 @@ Ipinapakita ng diagram na ito na, sa karaniwan, ang taas ng mga first basemen ay
 
 Upang makita kung ano ang distribution ng ating datos, maaari tayong mag-plot ng graph na tinatawag na **histogram**. Ang X-axis ay maglalaman ng bilang ng iba't ibang weight intervals (tinatawag na **bins**), at ang vertical axis ay magpapakita ng bilang ng beses na ang sample ng ating random variable ay nasa loob ng isang ibinigay na interval.
 
-![Histogram of real world data](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.tl.png)
+![Histogram of real world data](../../../../translated_images/tl/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Mula sa histogram na ito, makikita mo na ang lahat ng mga halaga ay nakasentro sa paligid ng tiyak na mean weight, at habang lumalayo tayo mula sa mean weight - mas kaunti ang mga timbang na may ganitong halaga ang nakikita. Ibig sabihin, napaka-improbable na ang timbang ng isang baseball player ay malayo sa mean weight. Ang variance ng mga timbang ay nagpapakita kung gaano kalaki ang posibilidad na magkaiba ang mga timbang mula sa mean.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Kung ipo-plot natin ang histogram ng mga nabuong samples, makikita natin ang larawan na halos katulad ng ipinakita sa itaas. At kung dadagdagan natin ang bilang ng samples at ang bilang ng bins, maaari tayong makabuo ng larawan ng normal distribution na mas malapit sa ideal:
 
-![Normal Distribution with mean=0 and std.dev=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.tl.png)
+![Normal Distribution with mean=0 and std.dev=1](../../../../translated_images/tl/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Normal Distribution na may mean=0 at std.dev=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 Sa ating kaso, ang halaga na 0.53 ay nagpapahiwatig na mayroong correlation sa pagitan ng timbang at taas ng isang tao. Maaari rin tayong gumawa ng scatter plot ng isang value laban sa isa pa upang makita ang relasyon nang biswal:
 
-![Relasyon sa pagitan ng timbang at taas](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.tl.png)
+![Relasyon sa pagitan ng timbang at taas](../../../../translated_images/tl/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Mas maraming halimbawa ng correlation at covariance ang matatagpuan sa [kasamang notebook](notebook.ipynb).
 

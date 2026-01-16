@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 ਇੱਥੇ, ਤੁਸੀਂ `ggplot2` ਪੈਕੇਜ ਇੰਸਟਾਲ ਕਰਦੇ ਹੋ ਅਤੇ ਫਿਰ ਇਸਨੂੰ `library("ggplot2")` ਕਮਾਂਡ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਵਰਕਸਪੇਸ ਵਿੱਚ ਇੰਪੋਰਟ ਕਰਦੇ ਹੋ। ggplot ਵਿੱਚ ਕੋਈ ਵੀ ਪਲਾਟ ਬਣਾਉਣ ਲਈ, `ggplot()` ਫੰਕਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਜਾਂਦੀ ਹੈ ਅਤੇ ਤੁਸੀਂ ਡਾਟਾਸੈੱਟ, x ਅਤੇ y ਵੈਰੀਏਬਲਾਂ ਨੂੰ ਗੁਣਾਂ ਵਜੋਂ ਨਿਰਧਾਰਤ ਕਰਦੇ ਹੋ। ਇਸ ਮਾਮਲੇ ਵਿੱਚ, ਅਸੀਂ ਲਾਈਨ ਪਲਾਟ ਪਲਾਟ ਕਰਨ ਲਈ `geom_line()` ਫੰਕਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹਾਂ।  
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.pa.png)  
+![MaxWingspan-lineplot](../../../../../translated_images/pa/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)  
 
 ਤੁਰੰਤ ਕੀ ਨਜ਼ਰ ਆਉਂਦਾ ਹੈ? ਘੱਟੋ-ਘੱਟ ਇੱਕ ਆਊਟਲਾਇਰ ਹੈ - ਇਹ ਕਾਫ਼ੀ ਵੱਡੀ ਪੰਖਾਂ ਦੀ ਲੰਬਾਈ ਹੈ! 2000+ ਸੈਂਟੀਮੀਟਰ ਪੰਖਾਂ ਦੀ ਲੰਬਾਈ 20 ਮੀਟਰ ਤੋਂ ਵੱਧ ਹੈ - ਕੀ ਮਿਨੇਸੋਟਾ ਵਿੱਚ ਪਟੇਰੋਡੈਕਟਿਲ ਉੱਡ ਰਹੇ ਹਨ? ਆਓ ਜਾਂਚ ਕਰੀਏ।  
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 ਅਸੀਂ `theme` ਵਿੱਚ ਕੋਣ ਨਿਰਧਾਰਤ ਕਰਦੇ ਹਾਂ ਅਤੇ `xlab()` ਅਤੇ `ylab()` ਵਿੱਚ x ਅਤੇ y ਐਕਸਿਸ ਲੇਬਲ ਨਿਰਧਾਰਤ ਕਰਦੇ ਹਾਂ। `ggtitle()` ਗ੍ਰਾਫ/ਪਲਾਟ ਨੂੰ ਇੱਕ ਨਾਮ ਦਿੰਦਾ ਹੈ।  
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.pa.png)  
+![MaxWingspan-lineplot-improved](../../../../../translated_images/pa/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)  
 
 45 ਡਿਗਰੀ 'ਤੇ ਲੇਬਲਾਂ ਦੇ ਰੋਟੇਸ਼ਨ ਦੇ ਨਾਲ ਵੀ, ਇਹ ਪੜ੍ਹਨ ਲਈ ਬਹੁਤ ਜ਼ਿਆਦਾ ਹਨ। ਆਓ ਇੱਕ ਵੱਖਰੀ ਰਣਨੀਤੀ ਅਪਣਾਈਏ: ਸਿਰਫ ਉਹ ਆਊਟਲਾਇਰ ਲੇਬਲ ਕਰੋ ਅਤੇ ਪਲਾਟ ਦੇ ਅੰਦਰ ਲੇਬਲ ਸੈੱਟ ਕਰੋ। ਤੁਸੀਂ ਲੇਬਲਿੰਗ ਲਈ ਹੋਰ ਜਗ੍ਹਾ ਬਣਾਉਣ ਲਈ ਇੱਕ ਸਕੈਟਰ ਚਾਰਟ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹੋ:  
 
@@ -100,7 +100,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 
 ਤੁਸੀਂ ਕੀ ਪਤਾ ਲਗਾਇਆ?  
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.pa.png)  
+![MaxWingspan-scatterplot](../../../../../translated_images/pa/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)  
 
 ## ਆਪਣੇ ਡਾਟੇ ਨੂੰ ਫਿਲਟਰ ਕਰੋ  
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 ਅਸੀਂ ਇੱਕ ਨਵਾਂ ਡਾਟਾਫਰੇਮ `birds_filtered` ਬਣਾਇਆ ਅਤੇ ਫਿਰ ਇੱਕ ਸਕੈਟਰ ਪਲਾਟ ਪਲਾਟ ਕੀਤਾ। ਆਊਟਲਾਇਰਾਂ ਨੂੰ ਫਿਲਟਰ ਕਰਕੇ, ਹੁਣ ਤੁਹਾਡਾ ਡਾਟਾ ਹੋਰ ਸੰਗਠਿਤ ਅਤੇ ਸਮਝਣਯੋਗ ਹੈ।  
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.pa.png)  
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/pa/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)  
 
 ਹੁਣ ਜਦੋਂ ਸਾਡੇ ਕੋਲ ਪੰਖਾਂ ਦੀ ਲੰਬਾਈ ਦੇ ਹਿਸਾਬ ਨਾਲ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਸਾਫ ਡਾਟਾਸੈੱਟ ਹੈ, ਆਓ ਇਨ੍ਹਾਂ ਪੰਛੀਆਂ ਬਾਰੇ ਹੋਰ ਪਤਾ ਲਗਾਈਏ।  
 
@@ -161,7 +161,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 ਹੇਠਾਂ ਦਿੱਤੇ ਕੋਡ ਵਿੱਚ, ਅਸੀਂ [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) ਅਤੇ [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) ਪੈਕੇਜਾਂ ਨੂੰ ਇੰਸਟਾਲ ਕਰਦੇ ਹਾਂ ਜੋ ਡਾਟੇ ਨੂੰ ਮੈਨਿਪੂਲੇਟ ਅਤੇ ਗਰੁੱਪ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦੇ ਹਨ ਤਾਂ ਜੋ ਇੱਕ ਸਟੈਕਡ ਬਾਰ ਚਾਰਟ ਪਲਾਟ ਕੀਤਾ ਜਾ ਸਕੇ। ਪਹਿਲਾਂ, ਤੁਸੀਂ ਡਾਟੇ ਨੂੰ ਪੰਛੀ ਦੀ `Category` ਦੇ ਅਨੁਸਾਰ ਗਰੁੱਪ ਕਰਦੇ ਹੋ ਅਤੇ ਫਿਰ `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan` ਕਾਲਮਾਂ ਨੂੰ ਸੰਖੇਪ ਕਰਦੇ ਹੋ। ਫਿਰ, `ggplot2` ਪੈਕੇਜ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਬਾਰ ਚਾਰਟ ਪਲਾਟ ਕਰੋ ਅਤੇ ਵੱਖ-ਵੱਖ ਸ਼੍ਰੇਣੀਆਂ ਲਈ ਰੰਗ ਅਤੇ ਲੇਬਲ ਨਿਰਧਾਰਤ ਕਰੋ।  
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.pa.png)  
+![Stacked bar chart](../../../../../translated_images/pa/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)  
 
 ਹਾਲਾਂਕਿ, ਇਹ ਬਾਰ ਚਾਰਟ ਪੜ੍ਹਨ ਯੋਗ ਨਹੀਂ ਹੈ ਕਿਉਂਕਿ ਬਹੁਤ ਸਾਰਾ ਗੈਰ-ਗਰੁੱਪ ਕੀਤਾ ਡਾਟਾ ਹੈ। ਤੁਹਾਨੂੰ ਸਿਰਫ ਉਹ ਡਾਟਾ ਚੁਣਨ ਦੀ ਲੋੜ ਹੈ ਜੋ ਤੁਸੀਂ ਪਲਾਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਇਸ ਲਈ ਆਓ ਪੰਛੀ ਦੀ ਸ਼੍ਰੇਣੀ ਦੇ ਆਧਾਰ 'ਤੇ ਪੰਛੀਆਂ ਦੀ ਲੰਬਾਈ ਦੇਖੀਏ।  
 
@@ -176,7 +176,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 ਤੁਸੀਂ `Category` ਕਾਲਮ ਵਿੱਚ ਵਿਲੱਖਣ ਮੁੱਲਾਂ ਦੀ ਗਿਣਤੀ ਕਰਦੇ ਹੋ ਅਤੇ ਫਿਰ ਉਨ੍ਹਾਂ ਨੂੰ ਇੱਕ ਨਵੇਂ ਡਾਟਾਫਰੇਮ `birds_count` ਵਿੱਚ ਸੌਰਟ ਕਰਦੇ ਹੋ। ਇਹ ਸੌਰਟ ਕੀਤਾ ਡਾਟਾ ਫਿਰ ਇੱਕੋ ਪੱਧਰ 'ਤੇ ਫੈਕਟਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਤਾਂ ਜੋ ਇਹ ਸੌਰਟ ਕੀਤੇ ਤਰੀਕੇ ਨਾਲ ਪਲਾਟ ਕੀਤਾ ਜਾ ਸਕੇ। `ggplot2` ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਤੁਸੀਂ ਫਿਰ ਡਾਟੇ ਨੂੰ ਇੱਕ ਬਾਰ ਚਾਰਟ ਵਿੱਚ ਪਲਾਟ ਕਰਦੇ ਹੋ। `coord_flip()` ਖੜ੍ਹੇ ਬਾਰ ਪਲਾਟ ਕਰਦਾ ਹੈ।  
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.pa.png)  
+![category-length](../../../../../translated_images/pa/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)  
 
 ਇਹ ਬਾਰ ਚਾਰਟ
 

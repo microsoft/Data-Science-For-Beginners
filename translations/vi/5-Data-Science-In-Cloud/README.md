@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Khoa học dữ liệu trên đám mây
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.vi.jpg)
+![cloud-picture](../../../translated_images/vi/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Ảnh của [Jelleke Vanooteghem](https://unsplash.com/@ilumire) từ [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Khi thực hiện khoa học dữ liệu với dữ liệu lớn, đám mây có thể là một yếu tố thay đổi cuộc chơi. Trong ba bài học tiếp theo, chúng ta sẽ tìm hiểu đám mây là gì và tại sao nó có thể rất hữu ích. Chúng ta cũng sẽ khám phá một tập dữ liệu về suy tim và xây dựng một mô hình để giúp đánh giá khả năng một người bị suy tim. Chúng ta sẽ sử dụng sức mạnh của đám mây để huấn luyện, triển khai và sử dụng mô hình theo hai cách khác nhau. Một cách sử dụng giao diện người dùng theo phong cách "Ít mã/Không mã", cách còn lại sử dụng Bộ công cụ phát triển phần mềm Azure Machine Learning (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.vi.png)
+![project-schema](../../../translated_images/vi/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Các chủ đề
 

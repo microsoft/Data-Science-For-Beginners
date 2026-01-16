@@ -47,25 +47,25 @@ En lecciones anteriores, experimentaste con la creación de todo tipo de visuali
 
 Incluso si un científico de datos es cuidadoso al elegir el gráfico adecuado para los datos correctos, hay muchas maneras en que los datos pueden ser mostrados para probar un punto, a menudo a costa de socavar los datos mismos. ¡Existen muchos ejemplos de gráficos e infografías engañosos!
 
-[![Cómo los gráficos engañan por Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.es.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Cómo los gráficos engañan")
+[![Cómo los gráficos engañan por Alberto Cairo](../../../../../translated_images/es/tornado.2880ffc7f135f82b.webp)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Cómo los gráficos engañan")
 
 > 🎥 Haz clic en la imagen de arriba para ver una charla sobre gráficos engañosos
 
 Este gráfico invierte el eje X para mostrar lo opuesto a la verdad, basado en la fecha:
 
-![gráfico malo 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.es.png)
+![gráfico malo 1](../../../../../translated_images/es/bad-chart-1.596bc93425a8ac30.webp)
 
 [Este gráfico](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) es aún más engañoso, ya que el ojo se dirige hacia la derecha para concluir que, con el tiempo, los casos de COVID han disminuido en los diversos condados. De hecho, si miras de cerca las fechas, encontrarás que han sido reorganizadas para dar esa engañosa tendencia descendente.
 
-![gráfico malo 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.es.jpg)
+![gráfico malo 2](../../../../../translated_images/es/bad-chart-2.62edf4d2f30f4e51.webp)
 
 Este ejemplo notorio utiliza color Y un eje Y invertido para engañar: en lugar de concluir que las muertes por armas aumentaron después de la aprobación de legislación favorable a las armas, de hecho el ojo es engañado para pensar que lo opuesto es cierto:
 
-![gráfico malo 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.es.jpg)
+![gráfico malo 3](../../../../../translated_images/es/bad-chart-3.e201e2e915a230bc.webp)
 
 Este extraño gráfico muestra cómo la proporción puede ser manipulada, con un efecto hilarante:
 
-![gráfico malo 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.es.jpg)
+![gráfico malo 4](../../../../../translated_images/es/bad-chart-4.8872b2b881ffa96c.webp)
 
 Comparar lo incomparable es otra táctica dudosa. Hay un [sitio web maravilloso](https://tylervigen.com/spurious-correlations) dedicado a 'correlaciones espurias' que muestra 'hechos' correlacionando cosas como la tasa de divorcio en Maine y el consumo de margarina. Un grupo de Reddit también recopila los [usos feos](https://www.reddit.com/r/dataisugly/top/?t=all) de los datos.
 
@@ -100,13 +100,13 @@ Etiqueta tus ejes, proporciona una leyenda si es necesario y ofrece información
 
 Si tus datos son textuales y extensos en el eje X, puedes inclinar el texto para mejorar la legibilidad. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) ofrece gráficos en 3D, si tus datos lo permiten. Se pueden producir visualizaciones de datos sofisticadas utilizando esta herramienta.
 
-![gráficos 3D](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.es.png)
+![gráficos 3D](../../../../../translated_images/es/3d.db1734c151eee87d.webp)
 
 ## Animación y visualización de gráficos en 3D
 
 Algunas de las mejores visualizaciones de datos hoy en día son animadas. Shirley Wu tiene ejemplos increíbles hechos con D3, como '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', donde cada flor es una visualización de una película. Otro ejemplo para The Guardian es 'bussed out', una experiencia interactiva que combina visualizaciones con Greensock y D3 más un formato de artículo narrativo para mostrar cómo Nueva York maneja su problema de personas sin hogar enviándolas fuera de la ciudad.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.es.png)
+![busing](../../../../../translated_images/es/busing.8157cf1bc89a3f65.webp)
 
 > "Bussed Out: Cómo Estados Unidos mueve a sus personas sin hogar" de [The Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualizaciones por Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Aunque esta lección no es suficiente para profundizar en estas poderosas biblio
 
 Completarás una aplicación web que mostrará una vista animada de esta red social. Utiliza una biblioteca que fue creada para generar una [visualización de una red](https://github.com/emiliorizzo/vue-d3-network) usando Vue.js y D3. Cuando la aplicación esté funcionando, puedes mover los nodos en la pantalla para reorganizar los datos.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.es.png)
+![liaisons](../../../../../translated_images/es/liaisons.90ce7360bcf84765.webp)
 
 ## Proyecto: Construir un gráfico para mostrar una red usando D3.js
 

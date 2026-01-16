@@ -47,25 +47,25 @@ CO_OP_TRANSLATOR_METADATA:
 
 即使數據科學家謹慎地為正確的數據選擇了合適的圖表，仍然有許多方法可以以誤導的方式展示數據，通常是為了證明某個觀點，卻犧牲了數據的真實性。有許多誤導性圖表和信息圖的例子！
 
-[![Alberto Cairo 的《How Charts Lie》](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.hk.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
+[![Alberto Cairo 的《How Charts Lie》](../../../../../translated_images/hk/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
 > 🎥 點擊上方圖片觀看關於誤導性圖表的會議演講
 
 這張圖表反轉了 X 軸，根據日期顯示了與事實相反的內容：
 
-![糟糕的圖表 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.hk.png)
+![糟糕的圖表 1](../../../../../translated_images/hk/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [這張圖表](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) 更加誤導，因為視覺上吸引人注意的是右側，讓人得出隨時間推移各縣的 COVID 病例數下降的結論。事實上，如果仔細查看日期，你會發現它們被重新排列以製造出誤導性的下降趨勢。
 
-![糟糕的圖表 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.hk.jpg)
+![糟糕的圖表 2](../../../../../translated_images/hk/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 這個臭名昭著的例子使用顏色和反轉的 Y 軸來誤導：原本應該得出槍支友好立法通過後槍支死亡率激增的結論，卻讓人誤以為情況正好相反：
 
-![糟糕的圖表 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.hk.jpg)
+![糟糕的圖表 3](../../../../../translated_images/hk/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 這張奇怪的圖表展示了比例如何被操控，效果令人捧腹：
 
-![糟糕的圖表 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.hk.jpg)
+![糟糕的圖表 4](../../../../../translated_images/hk/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 比較不可比的事物是另一種不正當的手段。有一個[精彩的網站](https://tylervigen.com/spurious-correlations)專門展示「虛假的相關性」，例如顯示緬因州的離婚率與人造奶油的消耗量之間的「事實」相關性。一個 Reddit 群組也收集了[糟糕的數據使用](https://www.reddit.com/r/dataisugly/top/?t=all)。
 
@@ -100,13 +100,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 如果你的數據在 X 軸上是文本且冗長，可以將文本角度調整以提高可讀性。[plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) 提供了 3D 繪圖功能，如果你的數據支持它，可以使用它來生成更高級的數據視覺化。
 
-![3D 圖表](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.hk.png)
+![3D 圖表](../../../../../translated_images/hk/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## 動畫和 3D 圖表展示
 
 如今一些最好的數據視覺化是動畫化的。Shirley Wu 使用 D3 創作了令人驚嘆的作品，例如「[電影之花](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)」，每朵花都是一部電影的視覺化。另一個例子是《衛報》的「Bussed Out」，這是一個結合 Greensock 和 D3 的視覺化與滾動敘事文章格式的互動體驗，展示了紐約市如何通過將無家可歸者送出城市來處理其無家可歸問題。
 
-![Bussed Out](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.hk.png)
+![Bussed Out](../../../../../translated_images/hk/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > 「Bussed Out: How America Moves its Homeless」來自[衛報](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study)。視覺化由 Nadieh Bremer 和 Shirley Wu 創作
 
@@ -116,7 +116,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 你將完成一個網頁應用，展示這個社交網絡的動畫視圖。它使用了一個庫來創建[網絡視覺化](https://github.com/emiliorizzo/vue-d3-network)，基於 Vue.js 和 D3。當應用運行時，你可以在屏幕上拖動節點，重新排列數據。
 
-![危險關係](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.hk.png)
+![危險關係](../../../../../translated_images/hk/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## 項目：使用 D3.js 構建一個展示網絡的圖表
 

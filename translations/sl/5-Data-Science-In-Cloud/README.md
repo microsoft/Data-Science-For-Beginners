@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Podatkovna znanost v oblaku
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.sl.jpg)
+![cloud-picture](../../../translated_images/sl/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Fotografija avtorja [Jelleke Vanooteghem](https://unsplash.com/@ilumire) na [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Ko gre za izvajanje podatkovne znanosti z velikimi podatki, je oblak lahko prava sprememba igre. V naslednjih treh lekcijah bomo raziskali, kaj oblak je in zakaj je lahko zelo koristen. Prav tako bomo preučili podatkovni niz o srčnem popuščanju in zgradili model, ki pomaga oceniti verjetnost, da ima nekdo srčno popuščanje. Uporabili bomo moč oblaka za treniranje, uvajanje in uporabo modela na dva različna načina. En način bo uporaba samo uporabniškega vmesnika v načinu "Low code/No code", drugi način pa bo uporaba Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.sl.png)
+![project-schema](../../../translated_images/sl/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Teme
 

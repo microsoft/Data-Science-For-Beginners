@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
  * [স্বাস্থ্যসেবায় ডেটা সায়েন্স](https://data-flair.training/blogs/data-science-in-healthcare/) - মেডিকেল ইমেজিং (যেমন এমআরআই, এক্স-রে, সিটি-স্ক্যান), জিনোমিক্স (ডিএনএ সিকোয়েন্সিং), ওষুধ উন্নয়ন (ঝুঁকি মূল্যায়ন, সাফল্যের পূর্বাভাস), পূর্বাভাসমূলক বিশ্লেষণ (রোগীর যত্ন এবং সরবরাহ লজিস্টিকস), রোগ ট্র্যাকিং এবং প্রতিরোধ ইত্যাদির মতো প্রয়োগ তুলে ধরে।
 
-![বাস্তব জীবনে ডেটা সায়েন্সের প্রয়োগ](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.bn.png) চিত্র ক্রেডিট: [ডেটা ফ্লেয়ার: ৬টি অসাধারণ ডেটা সায়েন্স প্রয়োগ](https://data-flair.training/blogs/data-science-applications/)
+![বাস্তব জীবনে ডেটা সায়েন্সের প্রয়োগ](../../../../translated_images/bn/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) চিত্র ক্রেডিট: [ডেটা ফ্লেয়ার: ৬টি অসাধারণ ডেটা সায়েন্স প্রয়োগ](https://data-flair.training/blogs/data-science-applications/)
 
 চিত্রটি ডেটা সায়েন্স কৌশল প্রয়োগের অন্যান্য ডোমেইন এবং উদাহরণ দেখায়। আরও প্রয়োগ অন্বেষণ করতে চান? নীচের [পর্যালোচনা এবং স্ব-অধ্যয়ন](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) বিভাগটি দেখুন।
 

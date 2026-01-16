@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![آرڈر کے لحاظ سے زیادہ سے زیادہ لمبائی](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.ur.png)
+![آرڈر کے لحاظ سے زیادہ سے زیادہ لمبائی](../../../../../translated_images/ur/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 یہ پرندوں کے آرڈر کے لحاظ سے جسمانی لمبائی کی عمومی تقسیم کا جائزہ دیتا ہے، لیکن یہ حقیقی تقسیم کو ظاہر کرنے کا بہترین طریقہ نہیں ہے۔ یہ کام عام طور پر ہسٹوگرام بنا کر کیا جاتا ہے۔
 ## ہسٹوگرام کے ساتھ کام کرنا
@@ -56,7 +56,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![پورے ڈیٹا سیٹ پر تقسیم](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.ur.png)
+![پورے ڈیٹا سیٹ پر تقسیم](../../../../../translated_images/ur/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 جیسا کہ آپ دیکھ سکتے ہیں، اس ڈیٹا سیٹ میں موجود 400+ پرندوں میں سے زیادہ تر کا زیادہ سے زیادہ جسمانی وزن 2000 سے کم ہے۔ ڈیٹا کے بارے میں مزید بصیرت حاصل کرنے کے لیے `bins` پیرامیٹر کو زیادہ تعداد، جیسے 30 میں تبدیل کریں:
 
@@ -64,7 +64,7 @@ ggplot(data = birds_filtered, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![30 بِنز کے ساتھ تقسیم](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.ur.png)
+![30 بِنز کے ساتھ تقسیم](../../../../../translated_images/ur/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 یہ چارٹ تقسیم کو تھوڑا زیادہ تفصیلی انداز میں دکھاتا ہے۔ ایک چارٹ جو بائیں طرف کم جھکا ہوا ہو، اس وقت بنایا جا سکتا ہے جب آپ صرف ایک دیے گئے حد کے اندر ڈیٹا کو منتخب کریں:
 
@@ -76,7 +76,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![فلٹر شدہ ہسٹوگرام](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.ur.png)
+![فلٹر شدہ ہسٹوگرام](../../../../../translated_images/ur/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ کچھ دوسرے فلٹرز اور ڈیٹا پوائنٹس آزمائیں۔ ڈیٹا کی مکمل تقسیم دیکھنے کے لیے، `['MaxBodyMass']` فلٹر کو ہٹا دیں تاکہ لیبل شدہ تقسیمات دکھائی دیں۔
 
@@ -90,7 +90,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 ایسا لگتا ہے کہ ان دو عناصر کے درمیان ایک متوقع محور کے ساتھ ایک متوقع تعلق ہے، جس میں ہم آہنگی کا ایک خاص طور پر مضبوط نقطہ ہے:
 
-![2D پلاٹ](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.ur.png)
+![2D پلاٹ](../../../../../translated_images/ur/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 ہسٹوگرامز عددی ڈیٹا کے لیے ڈیفالٹ کے طور پر اچھی طرح کام کرتے ہیں۔ اگر آپ کو متن کے ڈیٹا کے مطابق تقسیمات دیکھنے کی ضرورت ہو تو کیا ہوگا؟
 ## متن کے ڈیٹا کا استعمال کرتے ہوئے ڈیٹا سیٹ کے لیے تقسیمات کو دریافت کریں 
@@ -121,7 +121,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![پروں کا پھیلاؤ اور تحفظ کی حالت کا موازنہ](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.ur.png)
+![پروں کا پھیلاؤ اور تحفظ کی حالت کا موازنہ](../../../../../translated_images/ur/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 کم از کم پروں کے پھیلاؤ اور تحفظ کی حالت کے درمیان کوئی اچھا تعلق نظر نہیں آتا۔ اس طریقے کا استعمال کرتے ہوئے ڈیٹا سیٹ کے دوسرے عناصر کو آزمائیں۔ آپ مختلف فلٹرز بھی آزما سکتے ہیں۔ کیا آپ کو کوئی تعلق نظر آتا ہے؟
 
@@ -135,7 +135,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![کثافت پلاٹ](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.ur.png)
+![کثافت پلاٹ](../../../../../translated_images/ur/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 آپ دیکھ سکتے ہیں کہ یہ پلاٹ کم از کم پروں کے پھیلاؤ کے ڈیٹا کے لیے پچھلے پلاٹ کی عکاسی کرتا ہے؛ یہ صرف تھوڑا سا ہموار ہے۔ اگر آپ اس قدموں والے MaxBodyMass لائن کو دوبارہ دیکھنا چاہتے ہیں جو آپ نے دوسرے چارٹ میں بنایا تھا، تو آپ اسے اس طریقے کا استعمال کرتے ہوئے بہت اچھی طرح سے ہموار کر سکتے ہیں:
 
@@ -143,7 +143,7 @@ ggplot(data = birds_filtered_1, aes(x = MinWingspan)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![جسمانی وزن کی کثافت](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.ur.png)
+![جسمانی وزن کی کثافت](../../../../../translated_images/ur/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 اگر آپ ایک ہموار، لیکن زیادہ ہموار نہ ہونے والی لائن چاہتے ہیں، تو `adjust` پیرامیٹر میں ترمیم کریں:
 
@@ -151,7 +151,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![کم ہموار جسمانی وزن](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.ur.png)
+![کم ہموار جسمانی وزن](../../../../../translated_images/ur/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ اس قسم کے پلاٹ کے لیے دستیاب پیرامیٹرز کے بارے میں پڑھیں اور تجربہ کریں!
 
@@ -161,7 +161,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![آرڈر کے لحاظ سے جسمانی وزن](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.ur.png)
+![آرڈر کے لحاظ سے جسمانی وزن](../../../../../translated_images/ur/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 چیلنج
 

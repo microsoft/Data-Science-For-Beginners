@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.es.png)
+![scatterplot 1](../../../../../translated_images/es/scatter1.86b8900674d88b26.webp)
 
 Ahora, muestra los mismos datos con un esquema de colores de miel para mostrar cómo evoluciona el precio a lo largo de los años. Puedes hacerlo agregando un parámetro 'scale_color_gradientn' para mostrar el cambio, año tras año:
 
@@ -61,7 +61,7 @@ Ahora, muestra los mismos datos con un esquema de colores de miel para mostrar c
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.es.png)
+![scatterplot 2](../../../../../translated_images/es/scatter2.4d1cbc693bad20e2.webp)
 
 Con este cambio de esquema de colores, puedes ver que hay una progresión evidente a lo largo de los años en términos de precio de la miel por libra. De hecho, si observas un conjunto de muestra en los datos para verificar (elige un estado, Arizona por ejemplo), puedes ver un patrón de aumento de precios año tras año, con pocas excepciones:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Puedes ver que el tamaño de los puntos aumenta gradualmente.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.es.png)
+![scatterplot 3](../../../../../translated_images/es/scatter3.722d21e6f20b3ea2.webp)
 
 ¿Es este un caso simple de oferta y demanda? Debido a factores como el cambio climático y el colapso de colonias, ¿hay menos miel disponible para la compra año tras año, y por eso el precio aumenta?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Respuesta: Sí, con algunas excepciones alrededor del año 2003:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.es.png)
+![line chart 1](../../../../../translated_images/es/line1.299b576fbb2a59e6.webp)
 
 Pregunta: Bueno, ¿en 2003 también podemos ver un aumento en el suministro de miel? ¿Qué pasa si observas la producción total año tras año?
 
@@ -115,7 +115,7 @@ Pregunta: Bueno, ¿en 2003 también podemos ver un aumento en el suministro de m
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.es.png)
+![line chart 2](../../../../../translated_images/es/line2.3b18fcda7176ceba.webp)
 
 Respuesta: No realmente. Si observas la producción total, parece haber aumentado en ese año en particular, aunque en general la cantidad de miel producida está en declive durante estos años.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 En esta visualización, puedes comparar el rendimiento por colonia y el número de colonias año tras año, lado a lado con un ajuste de envoltura de 3 para las columnas:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.es.png)
+![facet grid](../../../../../translated_images/es/facet.491ad90d61c2a7cc.webp)
 
 Para este conjunto de datos, nada particularmente destaca con respecto al número de colonias y su rendimiento, año tras año y estado por estado. ¿Hay una forma diferente de buscar una correlación entre estas dos variables?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.es.png)
+![superimposed plots](../../../../../translated_images/es/dual-line.fc4665f360a54018.webp)
 
 Aunque nada salta a la vista alrededor del año 2003, esto nos permite terminar esta lección con una nota un poco más feliz: aunque hay un número decreciente de colonias en general, el número de colonias se está estabilizando, incluso si su rendimiento por colonia está disminuyendo.
 

@@ -51,7 +51,7 @@ honey.head()
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.el.png)
+![scatterplot 1](../../../../translated_images/el/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Τώρα, δείξτε τα ίδια δεδομένα με μια χρωματική παλέτα που θυμίζει μέλι, για να δείξετε πώς εξελίσσεται η τιμή με την πάροδο των ετών. Μπορείτε να το κάνετε αυτό προσθέτοντας την παράμετρο 'hue' για να δείξετε την αλλαγή, χρόνο με τον χρόνο:
 
@@ -60,7 +60,7 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.el.png)
+![scatterplot 2](../../../../translated_images/el/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 Με αυτή την αλλαγή χρωματικής παλέτας, μπορείτε να δείτε ότι υπάρχει προφανώς μια ισχυρή πρόοδος με την πάροδο των ετών όσον αφορά την τιμή του μελιού ανά λίβρα. Πράγματι, αν εξετάσετε ένα δείγμα δεδομένων (π.χ. την πολιτεία της Αριζόνα), μπορείτε να δείτε ένα μοτίβο αύξησης της τιμής χρόνο με τον χρόνο, με λίγες εξαιρέσεις:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Μπορείτε να δείτε το μέγεθος των κουκκίδων να αυξάνεται σταδιακά.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.el.png)
+![scatterplot 3](../../../../translated_images/el/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Είναι αυτό μια απλή περίπτωση προσφοράς και ζήτησης; Λόγω παραγόντων όπως η κλιματική αλλαγή και η κατάρρευση αποικιών, υπάρχει λιγότερο διαθέσιμο μέλι για αγορά χρόνο με τον χρόνο, και έτσι αυξάνεται η τιμή;
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Απάντηση: Ναι, με κάποιες εξαιρέσεις γύρω στο έτος 2003:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.el.png)
+![line chart 1](../../../../translated_images/el/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Επειδή το Seaborn συγκεντρώνει δεδομένα γύρω από μία γραμμή, εμφανίζει «τις πολλαπλές μετρήσεις σε κάθε τιμή x σχεδιάζοντας τον μέσο όρο και το διάστημα εμπιστοσύνης 95% γύρω από τον μέσο όρο». [Πηγή](https://seaborn.pydata.org/tutorial/relational.html). Αυτή η χρονοβόρα συμπεριφορά μπορεί να απενεργοποιηθεί προσθέτοντας `ci=None`.
 
@@ -114,7 +114,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.el.png)
+![line chart 2](../../../../translated_images/el/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Απάντηση: Όχι ακριβώς. Αν κοιτάξετε τη συνολική παραγωγή, φαίνεται να έχει αυξηθεί εκείνη τη χρονιά, παρόλο που γενικά η ποσότητα του παραγόμενου μελιού μειώνεται κατά τη διάρκεια αυτών των ετών.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 Σε αυτή την οπτικοποίηση, μπορείτε να συγκρίνετε την απόδοση ανά αποικία και τον αριθμό των αποικιών χρόνο με τον χρόνο, δίπλα-δίπλα, με το περιτύλιγμα να έχει οριστεί στις 3 στήλες:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.el.png)
+![facet grid](../../../../translated_images/el/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 Για αυτό το σύνολο δεδομένων, τίποτα ιδιαίτερο δεν ξεχωρίζει όσον αφορά τον αριθμό των αποικιών και την απόδοσή τους, χρόνο με τον χρόνο και πολιτεία με πολιτεία. Υπάρχει διαφορετικός τρόπος να βρείτε μια συσχέτιση μεταξύ αυτών των δύο μεταβλητών;
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.el.png)
+![superimposed plots](../../../../translated_images/el/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Ενώ τίποτα δεν τραβάει την προσοχή γύρω στο έτος 2003, αυτό μας επιτρέπει να κλείσουμε το μάθημα με μια πιο αισιόδοξη νότα: ενώ υπάρχει συνολικά μια μείωση στον αριθμό των αποικιών, ο αριθμός των αποικιών σταθεροποιείται, ακόμα κι αν η απόδοσή τους ανά αποικία μειώνεται.
 

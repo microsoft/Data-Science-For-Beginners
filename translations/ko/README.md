@@ -33,7 +33,7 @@ CO_OP_TRANSLATOR_METADATA:
 **🙏 특별 감사 🙏 우리 [Microsoft 학생 홍보대사](https://studentambassadors.microsoft.com/) 저자, 검토자 및 콘텐츠 기여자들에게,** 특히 Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
-|![스케치노트 작성자 @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.ko.png)|
+|![스케치노트 작성자 @sketchthedocs https://sketchthedocs.dev](../../translated_images/ko/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.png)|
 |:---:|
 | 초보자를 위한 데이터 사이언스 - _스케치노트 작성자 [@nitya](https://twitter.com/nitya)_ |
 
@@ -52,7 +52,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 우리는 Discord에서 Learn with AI 시리즈를 진행하고 있습니다. 자세한 내용 및 참여는 [AI와 함께 배우기 시리즈](https://aka.ms/learnwithai/discord)에서 확인하세요. 기간: 2025년 9월 18일 - 30일. GitHub Copilot을 데이터 사이언스에 활용하는 팁과 요령을 얻을 수 있습니다.
 
-![AI와 함께 배우기 시리즈](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.ko.jpg)
+![AI와 함께 배우기 시리즈](../../translated_images/ko/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.jpg)
 
 # 학생이신가요?
 
@@ -132,7 +132,7 @@ CO_OP_TRANSLATOR_METADATA:
 ## Lessons
 
 
-|![ 스케치노트 작성자 @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.ko.png)|
+|![ 스케치노트 작성자 @sketchthedocs https://sketchthedocs.dev](../../translated_images/ko/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.png)|
 |:---:|
 | 초보자를 위한 데이터 과학: 로드맵 - _스케치노트 작성자 [@nitya](https://twitter.com/nitya)_ |
 

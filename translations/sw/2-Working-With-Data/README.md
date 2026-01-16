@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Kufanya Kazi na Data
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.sw.jpg)
+![data love](../../../translated_images/sw/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Picha na <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> kwenye <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Katika masomo haya, utajifunza baadhi ya njia ambazo data inaweza kusimamiwa, kubadilishwa, na kutumika katika programu. Utajifunza kuhusu hifadhidata za uhusiano (relational) na zisizo za uhusiano (non-relational) na jinsi data inaweza kuhifadhiwa ndani yake. Pia, utajifunza misingi ya kufanya kazi na Python kusimamia data, na kugundua baadhi ya njia nyingi ambazo unaweza kutumia Python kusimamia na kuchimba data.

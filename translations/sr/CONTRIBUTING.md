@@ -318,7 +318,7 @@ def calculate_mean(data):
   ```
   ````
   
-- Додајте alt текст сликама: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.sr.png)`  
+- Додајте alt текст сликама: `![Alt text](../../translated_images/sr/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Одржавајте разумну дужину линија (око 80-100 карактера)  
 
 ### Python

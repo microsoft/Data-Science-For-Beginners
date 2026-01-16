@@ -22,7 +22,7 @@ Explorer-liides (näidatud alloleval ekraanipildil) võimaldab valida andmehulga
  2. Uuri andmehulkade [kataloogi](https://planetarycomputer.microsoft.com/catalog) – saa teada iga andmehulgaga seotud eesmärk.
  3. Kasuta Explorerit – vali huvipakkuv andmehulk, sobiv päring ja renderdamisvõimalus.
 
-![Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.et.png)
+![Planetary Computer Explorer](../../../../translated_images/et/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Sinu ülesanne:`
 Uuri nüüd brauseris loodud visualiseerimist ja vasta järgmistele küsimustele:

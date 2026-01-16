@@ -311,7 +311,7 @@ def calculate_mean(data):
   import pandas as pd
   ```
   ````
-- प्रतिमांसाठी alt टेक्स्ट जोडा: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.mr.png)`
+- प्रतिमांसाठी alt टेक्स्ट जोडा: `![Alt text](../../translated_images/mr/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - ओळींची लांबी वाजवी ठेवा (सुमारे 80-100 वर्ण)
 
 ### Python

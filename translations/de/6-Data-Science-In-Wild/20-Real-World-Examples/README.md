@@ -41,7 +41,7 @@ Dank der Demokratisierung von KI finden Entwickler es jetzt einfacher, KI-gesteu
 
  * [Datenwissenschaft im Gesundheitswesen](https://data-flair.training/blogs/data-science-in-healthcare/) - hebt Anwendungen wie medizinische Bildgebung (z. B. MRT, Röntgen, CT-Scan), Genomik (DNA-Sequenzierung), Arzneimittelentwicklung (Risikobewertung, Erfolgsvorhersage), prädiktive Analytik (Patientenversorgung & Logistik), Krankheitsüberwachung und -prävention hervor.
 
-![Anwendungen der Datenwissenschaft in der realen Welt](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.de.png) Bildnachweis: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Anwendungen der Datenwissenschaft in der realen Welt](../../../../translated_images/de/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Bildnachweis: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Die Abbildung zeigt weitere Bereiche und Beispiele für die Anwendung von Datenwissenschaftstechniken. Möchten Sie weitere Anwendungen erkunden? Schauen Sie sich den Abschnitt [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) unten an.
 

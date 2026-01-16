@@ -312,7 +312,7 @@ def calculate_mean(data):
   import pandas as pd
   ```
   ````
-- छविहरूमा alt टेक्स्ट थप्नुहोस्: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.ne.png)`
+- छविहरूमा alt टेक्स्ट थप्नुहोस्: `![Alt text](../../translated_images/ne/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - लाइन लम्बाइलाई उचित राख्नुहोस् (लगभग 80-100 अक्षर)
 
 ### Python

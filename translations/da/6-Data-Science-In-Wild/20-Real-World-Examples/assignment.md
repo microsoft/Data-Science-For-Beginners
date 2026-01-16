@@ -22,7 +22,7 @@ Explorer-grænsefladen (vist på skærmbilledet nedenfor) giver dig mulighed for
  2. Udforsk datasæt [Kataloget](https://planetarycomputer.microsoft.com/catalog) - lær formålet med hvert datasæt.
  3. Brug Explorer - vælg et datasæt, der interesserer dig, vælg en relevant forespørgsel og visningsmulighed.
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.da.png)
+![The Planetary Computer Explorer](../../../../translated_images/da/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Din opgave:`
 Undersøg nu den visualisering, der vises i browseren, og besvar følgende:

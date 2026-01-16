@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![maksimalna duljina po redu](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.hr.png)
+![maksimalna duljina po redu](../../../../../translated_images/hr/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 Ovo daje pregled opće distribucije duljine tijela po redu ptica, ali nije optimalan način za prikaz stvarnih distribucija. Taj zadatak obično se rješava izradom histograma.
 ## Rad s histogramima
@@ -56,7 +56,7 @@ Ovo daje pregled opće distribucije duljine tijela po redu ptica, ali nije optim
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![distribucija cijelog skupa podataka](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.hr.png)
+![distribucija cijelog skupa podataka](../../../../../translated_images/hr/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 Kao što možete vidjeti, većina od 400+ ptica u ovom skupu podataka spada u raspon ispod 2000 za njihovu maksimalnu tjelesnu masu. Dobijte više uvida u podatke promjenom parametra `bins` na veći broj, poput 30:
 
@@ -64,7 +64,7 @@ Kao što možete vidjeti, većina od 400+ ptica u ovom skupu podataka spada u ra
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![distribucija-30bins](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.hr.png)
+![distribucija-30bins](../../../../../translated_images/hr/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 Ovaj grafikon prikazuje distribuciju na malo detaljniji način. Grafikon manje nagnut ulijevo mogao bi se stvoriti osiguravanjem da odaberete samo podatke unutar određenog raspona:
 
@@ -76,7 +76,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![filtrirani histogram](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.hr.png)
+![filtrirani histogram](../../../../../translated_images/hr/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ Isprobajte neke druge filtre i točke podataka. Da biste vidjeli punu distribuciju podataka, uklonite filter `['MaxBodyMass']` kako biste prikazali označene distribucije.
 
@@ -90,7 +90,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Čini se da postoji očekivana korelacija između ova dva elementa duž očekivane osi, s jednom posebno jakom točkom konvergencije:
 
-![2d grafikon](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.hr.png)
+![2d grafikon](../../../../../translated_images/hr/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 Histograme je lako koristiti za numeričke podatke. Što ako trebate vidjeti distribucije prema tekstualnim podacima? 
 ## Istražite skup podataka za distribucije koristeći tekstualne podatke 
@@ -121,7 +121,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![raspon krila i status očuvanosti](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.hr.png)
+![raspon krila i status očuvanosti](../../../../../translated_images/hr/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 Čini se da ne postoji dobra korelacija između minimalnog raspona krila i statusa očuvanosti. Testirajte druge elemente skupa podataka koristeći ovu metodu. Možete isprobati i različite filtre. Nalazite li neku korelaciju?
 
@@ -135,7 +135,7 @@ Radimo sada s grafovima gustoće!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![graf gustoće](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.hr.png)
+![graf gustoće](../../../../../translated_images/hr/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 Možete vidjeti kako grafikon odražava prethodni za podatke o minimalnom rasponu krila; samo je malo glađi. Ako želite ponovno pogledati onaj nazubljeni grafikon MaxBodyMass iz drugog grafikona koji ste izradili, mogli biste ga vrlo dobro izgladiti koristeći ovu metodu:
 
@@ -143,7 +143,7 @@ Možete vidjeti kako grafikon odražava prethodni za podatke o minimalnom raspon
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![gustoća tjelesne mase](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.hr.png)
+![gustoća tjelesne mase](../../../../../translated_images/hr/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 Ako želite glatku, ali ne previše glatku liniju, uredite parametar `adjust`: 
 
@@ -151,7 +151,7 @@ Ako želite glatku, ali ne previše glatku liniju, uredite parametar `adjust`:
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![manje glatka tjelesna masa](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.hr.png)
+![manje glatka tjelesna masa](../../../../../translated_images/hr/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ Pročitajte o parametrima dostupnim za ovu vrstu grafikona i eksperimentirajte!
 
@@ -161,7 +161,7 @@ Ova vrsta grafikona nudi vizualizacije koje lijepo objašnjavaju podatke. Na pri
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![tjelesna masa po redu](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.hr.png)
+![tjelesna masa po redu](../../../../../translated_images/hr/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 Izazov
 

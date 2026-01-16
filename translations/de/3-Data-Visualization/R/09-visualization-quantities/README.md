@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Hier installierst du das `ggplot2`-Paket und importierst es dann in den Arbeitsbereich mit dem Befehl `library("ggplot2")`. Um ein Diagramm in ggplot zu erstellen, wird die Funktion `ggplot()` verwendet, und du gibst den Datensatz sowie die x- und y-Variablen als Attribute an. In diesem Fall verwenden wir die Funktion `geom_line()`, da wir ein Liniendiagramm erstellen möchten.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.de.png)
+![MaxWingspan-lineplot](../../../../../translated_images/de/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Was fällt dir sofort auf? Es scheint mindestens einen Ausreißer zu geben – das ist eine beeindruckende Flügelspannweite! Eine Flügelspannweite von über 2000 Zentimetern entspricht mehr als 20 Metern – gibt es Pterodaktylen in Minnesota? Lass uns das untersuchen.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Wir geben den Winkel im `theme` an und spezifizieren die x- und y-Achsenbeschriftungen in `xlab()` und `ylab()`. Der `ggtitle()` gibt dem Diagramm/Plot einen Namen.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.de.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/de/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Selbst mit der Drehung der Beschriftungen auf 45 Grad sind es zu viele, um sie zu lesen. Versuchen wir eine andere Strategie: Beschrifte nur die Ausreißer und setze die Beschriftungen direkt ins Diagramm. Du kannst ein Streudiagramm verwenden, um mehr Platz für die Beschriftungen zu schaffen:
 
@@ -100,7 +100,7 @@ Was passiert hier? Du hast die Funktion `geom_point()` verwendet, um Streupunkte
 
 Was entdeckst du?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.de.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/de/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Filtere deine Daten
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Wir haben einen neuen Dataframe `birds_filtered` erstellt und dann ein Streudiagramm geplottet. Durch das Herausfiltern von Ausreißern sind deine Daten jetzt kohärenter und verständlicher.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.de.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/de/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Jetzt, da wir einen bereinigten Datensatz zumindest in Bezug auf die Flügelspannweite haben, lass uns mehr über diese Vögel herausfinden.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 Im folgenden Code-Snippet installieren wir die Pakete [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) und [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0), um Daten zu manipulieren und zu gruppieren, um ein gestapeltes Balkendiagramm zu erstellen. Zuerst gruppierst du die Daten nach der `Category` der Vögel und fasst die Spalten `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan` zusammen. Anschließend erstellst du das Balkendiagramm mit dem `ggplot2`-Paket und spezifizierst die Farben für die verschiedenen Kategorien und die Beschriftungen.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.de.png)
+![Stacked bar chart](../../../../../translated_images/de/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Dieses Balkendiagramm ist jedoch unleserlich, da es zu viele nicht gruppierte Daten gibt. Du musst nur die Daten auswählen, die du plotten möchtest. Lass uns die Länge der Vögel basierend auf ihrer Kategorie betrachten.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Du zählst zuerst die eindeutigen Werte in der Spalte `Category` und sortierst sie in einen neuen Dataframe `birds_count`. Diese sortierten Daten werden dann auf derselben Ebene fakturiert, sodass sie in der sortierten Weise geplottet werden. Mit `ggplot2` plottest du die Daten dann in einem Balkendiagramm. Die Funktion `coord_flip()` erstellt horizontale Balken.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.de.png)
+![category-length](../../../../../translated_images/de/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Dieses Balkendiagramm zeigt eine gute Ansicht der Anzahl der Vögel in jeder Kategorie. Auf einen Blick siehst du, dass die größte Anzahl von Vögeln in dieser Region in der Kategorie Enten/Gänse/Wasservögel liegt. Minnesota ist das 'Land der 10.000 Seen', daher ist das nicht überraschend!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Wir gruppieren die `birds_filtered`-Daten nach `Category` und erstellen ein Balkendiagramm.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.de.png)
+![comparing data](../../../../../translated_images/de/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Hier gibt es nichts Überraschendes: Kolibris haben die geringste MaxLänge im Vergleich zu Pelikanen oder Gänsen. Es ist gut, wenn Daten logisch Sinn ergeben!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.de.png)
+![super-imposed values](../../../../../translated_images/de/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Herausforderung
 

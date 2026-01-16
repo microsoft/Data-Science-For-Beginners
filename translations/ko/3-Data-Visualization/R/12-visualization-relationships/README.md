@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.ko.png)
+![scatterplot 1](../../../../../translated_images/ko/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 이제 같은 데이터를 꿀 색상 테마로 표시하여 연도별로 가격이 어떻게 변화했는지 보여주세요. 이를 위해 'scale_color_gradientn' 매개변수를 추가하여 연도별 변화를 표시할 수 있습니다:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.ko.png)
+![scatterplot 2](../../../../../translated_images/ko/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 이 색상 테마 변경을 통해 꿀의 파운드당 가격이 연도별로 강한 상승 추세를 보이는 것을 명확히 확인할 수 있습니다. 실제로 데이터를 샘플링하여 확인해 보면(예: 애리조나 주) 연도별로 가격이 증가하는 패턴을 확인할 수 있으며, 예외는 거의 없습니다:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 점의 크기가 점차 증가하는 것을 확인할 수 있습니다.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.ko.png)
+![scatterplot 3](../../../../../translated_images/ko/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 이것이 단순히 수요와 공급의 문제일까요? 기후 변화와 꿀벌 군집 붕괴와 같은 요인으로 인해 구매 가능한 꿀이 연도별로 줄어들고, 그 결과 가격이 상승하는 것일까요?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 답변: 네, 2003년을 중심으로 몇 가지 예외가 있습니다:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.ko.png)
+![line chart 1](../../../../../translated_images/ko/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 질문: 그렇다면 2003년에 꿀 공급량에서도 급증이 있었나요? 연도별 총 생산량을 살펴보면 어떨까요?
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.ko.png)
+![line chart 2](../../../../../translated_images/ko/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 답변: 그렇지 않습니다. 총 생산량을 보면, 특정 연도에는 실제로 증가한 것으로 보이지만, 일반적으로 꿀 생산량은 이 기간 동안 감소하는 추세입니다.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 이 시각화에서는 꿀벌 군집당 생산량과 군집 수를 연도별로 나란히 비교할 수 있습니다. 열은 3으로 설정합니다:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.ko.png)
+![facet grid](../../../../../translated_images/ko/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 이 데이터셋에서는 연도별, 주별로 꿀벌 군집 수와 생산량에 관해 특별히 두드러지는 점은 없습니다. 이 두 변수 간 상관관계를 찾는 다른 방법이 있을까요?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.ko.png)
+![superimposed plots](../../../../../translated_images/ko/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 2003년을 중심으로 눈에 띄는 점은 없지만, 이 강의를 조금 더 긍정적인 노트로 마무리할 수 있습니다: 꿀벌 군집 수는 전반적으로 감소하고 있지만, 군집 수는 안정화되고 있으며 군집당 생산량은 감소하고 있습니다.
 

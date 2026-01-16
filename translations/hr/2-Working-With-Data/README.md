@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Rad s podacima
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.hr.jpg)  
+![data love](../../../translated_images/hr/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)  
 > Fotografija autora <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> na <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 U ovim lekcijama naučit ćete neke od načina na koje se podaci mogu upravljati, manipulirati i koristiti u aplikacijama. Naučit ćete o relacijskim i nerelacijskim bazama podataka te kako se podaci mogu pohranjivati u njima. Upoznat ćete osnove rada s Pythonom za upravljanje podacima i otkriti neke od brojnih načina na koje možete koristiti Python za upravljanje i analizu podataka.

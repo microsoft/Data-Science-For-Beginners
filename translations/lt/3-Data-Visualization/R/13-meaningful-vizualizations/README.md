@@ -47,25 +47,25 @@ Ankstesnėse pamokose eksperimentavote su įvairių tipų duomenų vizualizacijo
 
 Net jei duomenų mokslininkas kruopščiai pasirenka tinkamą diagramą tinkamiems duomenims, yra daugybė būdų, kaip duomenys gali būti pateikti taip, kad įrodytų tam tikrą tašką, dažnai pažeidžiant pačius duomenis. Yra daugybė klaidinančių diagramų ir infografikų pavyzdžių!
 
-[![Kaip meluoja diagramos, Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.lt.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Kaip meluoja diagramos")
+[![Kaip meluoja diagramos, Alberto Cairo](../../../../../translated_images/lt/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Kaip meluoja diagramos")
 
 > 🎥 Spustelėkite aukščiau esančią nuotrauką, kad pamatytumėte konferencijos pranešimą apie klaidinančias diagramas
 
 Ši diagrama apverčia X ašį, kad parodytų priešingą tiesai, remiantis datomis:
 
-![bloga diagrama 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.lt.png)
+![bloga diagrama 1](../../../../../translated_images/lt/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Ši diagrama](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) yra dar labiau klaidinanti, nes akis nukreipiama į dešinę, kad būtų padaryta išvada, jog laikui bėgant COVID atvejų skaičius sumažėjo įvairiose apskrityse. Tačiau, jei atidžiai pažvelgsite į datas, pastebėsite, kad jos buvo pertvarkytos, kad būtų parodyta klaidinanti mažėjimo tendencija.
 
-![bloga diagrama 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.lt.jpg)
+![bloga diagrama 2](../../../../../translated_images/lt/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Šis liūdnai pagarsėjęs pavyzdys naudoja spalvas IR apverstą Y ašį, kad suklaidintų: vietoj išvados, kad ginklų mirčių skaičius padidėjo po ginklams palankios teisės aktų priėmimo, akis apgaunama manyti, kad tiesa yra priešinga:
 
-![bloga diagrama 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.lt.jpg)
+![bloga diagrama 3](../../../../../translated_images/lt/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Ši keista diagrama rodo, kaip proporcijos gali būti manipuliuojamos, sukeliant juoką:
 
-![bloga diagrama 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.lt.jpg)
+![bloga diagrama 4](../../../../../translated_images/lt/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Palyginti nepalyginamus dalykus yra dar vienas abejotinas triukas. Yra [puiki svetainė](https://tylervigen.com/spurious-correlations), skirta „klaidingoms koreliacijoms“, kurioje pateikiami „faktai“, koreliuojantys tokius dalykus kaip skyrybų rodiklis Meino valstijoje ir margarino vartojimas. Reddit grupė taip pat renka [blogus duomenų naudojimo pavyzdžius](https://www.reddit.com/r/dataisugly/top/?t=all).
 
@@ -100,13 +100,13 @@ Pažymėkite ašis, pateikite legendą, jei reikia, ir pasiūlykite užuominas (
 
 Jei jūsų duomenys yra tekstiniai ir ilgi X ašyje, galite pakreipti tekstą, kad jis būtų lengviau skaitomas. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) siūlo 3D diagramų kūrimą, jei jūsų duomenys tai palaiko. Naudojant šią biblioteką galima sukurti sudėtingas duomenų vizualizacijas.
 
-![3D diagramos](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.lt.png)
+![3D diagramos](../../../../../translated_images/lt/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Animacija ir 3D diagramų rodymas
 
 Kai kurios geriausios šių dienų duomenų vizualizacijos yra animuotos. Shirley Wu sukūrė nuostabias vizualizacijas su D3, tokias kaip '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', kur kiekviena gėlė yra filmo vizualizacija. Kitas pavyzdys, sukurtas Guardian, yra „bussed out“, interaktyvi patirtis, derinanti vizualizacijas su Greensock ir D3 bei pasakojimo straipsnio formatą, kad parodytų, kaip NYC sprendžia benamių problemą, išsiųsdama žmones iš miesto.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.lt.png)
+![busing](../../../../../translated_images/lt/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > „Bussed Out: How America Moves its Homeless“ iš [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Vizualizacijos: Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Nors ši pamoka nėra pakankama, kad išsamiai išmokytų šias galingas vizuali
 
 Jūs sukursite internetinę programą, kuri parodys animuotą šio socialinio tinklo vaizdą. Ji naudoja biblioteką, sukurtą [tinklo vizualizacijai](https://github.com/emiliorizzo/vue-d3-network) su Vue.js ir D3. Kai programa veikia, galite perkelti mazgus ekrane, kad pertvarkytumėte duomenis.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.lt.png)
+![liaisons](../../../../../translated_images/lt/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Projektas: Sukurkite diagramą tinklui parodyti naudojant D3.js
 

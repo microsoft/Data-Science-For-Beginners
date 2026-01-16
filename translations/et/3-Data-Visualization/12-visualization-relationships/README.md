@@ -51,7 +51,7 @@ Looge lihtne hajuvusdiagramm, et näidata suhet mee hinna naela kohta ja selle p
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![hajuvusdiagramm 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.et.png)
+![hajuvusdiagramm 1](../../../../translated_images/et/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Nüüd näidake samu andmeid mee värviskeemiga, et näidata, kuidas hind aastate jooksul muutub. Seda saate teha, lisades 'hue' parameetri, et näidata muutust aastate lõikes:
 
@@ -60,7 +60,7 @@ Nüüd näidake samu andmeid mee värviskeemiga, et näidata, kuidas hind aastat
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![hajuvusdiagramm 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.et.png)
+![hajuvusdiagramm 2](../../../../translated_images/et/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 Selle värviskeemi muutusega näete selgelt tugevat arengut aastate jooksul mee hinna osas naela kohta. Tõepoolest, kui vaatate andmestikus valimit, näiteks Arizona osariiki, näete aastate lõikes hinnatõusu mustrit, kus on vähe erandeid:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Näete, et punktide suurus suureneb järk-järgult.
 
-![hajuvusdiagramm 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.et.png)
+![hajuvusdiagramm 3](../../../../translated_images/et/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Kas see on lihtne pakkumise ja nõudluse juhtum? Kas kliimamuutuste ja kolooniate kokkuvarisemise tõttu on aastate jooksul vähem mett saadaval, mistõttu hind tõuseb?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Vastus: Jah, mõningate eranditega umbes 2003. aasta paiku:
 
-![joondiagramm 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.et.png)
+![joondiagramm 1](../../../../translated_images/et/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Kuna Seaborn koondab andmeid ühe joone ümber, kuvab see "mitu mõõtmist iga x väärtuse juures, joonistades keskmise ja 95% usaldusvahemiku keskmise ümber". [Allikas](https://seaborn.pydata.org/tutorial/relational.html). Selle ajamahuka käitumise saab keelata, lisades `ci=None`.
 
@@ -114,7 +114,7 @@ Küsimus: Noh, kas 2003. aastal näeme ka mee pakkumise kasvu? Mis siis, kui vaa
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![joondiagramm 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.et.png)
+![joondiagramm 2](../../../../translated_images/et/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Vastus: Mitte päris. Kui vaatate kogutoodangut, tundub, et see tegelikult suurenes sel konkreetsel aastal, kuigi üldiselt mee tootmise kogus väheneb nendel aastatel.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 Selles visualiseerimises saate võrrelda saagikust koloonia kohta ja kolooniate arvu aastate lõikes kõrvuti, veergude wrap'iga 3:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.et.png)
+![facet grid](../../../../translated_images/et/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 Selle andmestiku puhul ei paista kolooniate arvu ja nende saagikuse osas aastate lõikes ja osariikide lõikes midagi erilist silma. Kas on olemas teine viis, kuidas leida korrelatsiooni nende kahe muutuja vahel?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.et.png)
+![superimposed plots](../../../../translated_images/et/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Kuigi 2003. aasta paiku ei paista midagi silma, võimaldab see meil lõpetada selle tunni veidi rõõmsama noodiga: kuigi kolooniate arv on üldiselt vähenemas, stabiliseerub kolooniate arv isegi siis, kui nende saagikus koloonia kohta väheneb.
 

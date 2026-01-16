@@ -92,7 +92,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, isang pie chart na nagpapakita ng proporsyon ng datos ayon sa dalawang klase ng kabute. Napakahalaga na makuha ang tamang pagkakasunod ng labels, lalo na dito, kaya siguraduhing i-verify ang pagkakasunod ng label array!
 
-![pie chart](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.tl.png)
+![pie chart](../../../../../translated_images/tl/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Donuts!
 
@@ -126,7 +126,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![donut chart](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.tl.png)
+![donut chart](../../../../../translated_images/tl/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Ang code na ito ay gumagamit ng dalawang library - ggplot2 at webr. Gamit ang PieDonut function ng webr library, madali tayong makakagawa ng donut chart!
 
@@ -164,7 +164,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Gamit ang waffle chart, makikita mo nang malinaw ang proporsyon ng mga cap colors sa dataset ng kabute. Nakakatuwa, maraming green-capped mushrooms!
 
-![waffle chart](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.tl.png)
+![waffle chart](../../../../../translated_images/tl/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 Sa araling ito, natutunan mo ang tatlong paraan upang ipakita ang proporsyon. Una, kailangan mong i-group ang iyong datos sa mga kategorya at pagkatapos ay magdesisyon kung alin ang pinakamahusay na paraan upang ipakita ang datos - pie, donut, o waffle. Lahat ay masarap at nagbibigay ng instant snapshot ng dataset sa user.
 

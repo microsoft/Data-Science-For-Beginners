@@ -47,25 +47,25 @@ V predchádzajúcich lekciách ste experimentovali s vytváraním rôznych zauj�
 
 Aj keď dátový vedec starostlivo vyberie správny graf pre správne dáta, existuje mnoho spôsobov, ako môžu byť dáta prezentované tak, aby podporili určitý názor, často na úkor samotných dát. Existuje veľa príkladov zavádzajúcich grafov a infografík!
 
-[![Ako grafy klamú od Alberta Caira](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.sk.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Ako grafy klamú")
+[![Ako grafy klamú od Alberta Caira](../../../../../translated_images/sk/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Ako grafy klamú")
 
 > 🎥 Kliknite na obrázok vyššie pre konferenčný prejav o zavádzajúcich grafoch
 
 Tento graf prevracia os X, aby ukázal opak pravdy na základe dátumu:
 
-![zlý graf 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.sk.png)
+![zlý graf 1](../../../../../translated_images/sk/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Tento graf](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) je ešte zavádzajúcejší, pretože oko je vedené k záveru, že počet prípadov COVID klesal v rôznych okresoch. Ak sa však pozriete bližšie na dátumy, zistíte, že boli preusporiadané, aby vytvorili tento zavádzajúci klesajúci trend.
 
-![zlý graf 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.sk.jpg)
+![zlý graf 2](../../../../../translated_images/sk/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Tento notoricky známy príklad používa farbu A prevrátenú os Y na zavádzanie: namiesto záveru, že počet úmrtí na strelné zbrane vzrástol po prijatí legislatívy podporujúcej zbrane, oko je oklamané, aby si myslelo opak:
 
-![zlý graf 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.sk.jpg)
+![zlý graf 3](../../../../../translated_images/sk/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Tento zvláštny graf ukazuje, ako môže byť proporcia manipulovaná, a to až do komického efektu:
 
-![zlý graf 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.sk.jpg)
+![zlý graf 4](../../../../../translated_images/sk/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Porovnávanie neporovnateľného je ďalší pochybný trik. Existuje [úžasná webová stránka](https://tylervigen.com/spurious-correlations) venovaná 'falošným koreláciám', ktorá zobrazuje 'fakty' korelujúce veci ako rozvodovosť v Maine a spotrebu margarínu. Skupina na Reddite tiež zbiera [škaredé použitia](https://www.reddit.com/r/dataisugly/top/?t=all) dát.
 
@@ -100,13 +100,13 @@ Označte svoje osi, poskytnite legendu, ak je to potrebné, a ponúknite tooltip
 
 Ak sú vaše dáta textové a na osi X príliš dlhé, môžete text nakloniť pre lepšiu čitateľnosť. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) ponúka 3D vykresľovanie, ak to vaše dáta podporujú. Pomocou neho je možné vytvoriť sofistikované vizualizácie dát.
 
-![3D grafy](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.sk.png)
+![3D grafy](../../../../../translated_images/sk/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Animácia a 3D zobrazenie grafov
 
 Niektoré z najlepších vizualizácií dát sú dnes animované. Shirley Wu vytvorila úžasné vizualizácie pomocou D3, ako napríklad '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', kde každý kvet predstavuje vizualizáciu filmu. Ďalším príkladom pre Guardian je 'bussed out', interaktívny zážitok kombinujúci vizualizácie s Greensock a D3 spolu s článkom vo formáte scrollytelling, ktorý ukazuje, ako NYC rieši problém bezdomovcov tým, že ich presúva mimo mesta.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.sk.png)
+![busing](../../../../../translated_images/sk/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: Ako Amerika presúva svojich bezdomovcov" od [Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Vizualizácie od Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Hoci táto lekcia nie je dostatočne podrobná na to, aby vás naučila tieto v�
 
 Dokončíte webovú aplikáciu, ktorá zobrazí animovaný pohľad na túto sociálnu sieť. Používa knižnicu, ktorá bola vytvorená na [vizualizáciu siete](https://github.com/emiliorizzo/vue-d3-network) pomocou Vue.js a D3. Keď aplikácia beží, môžete uzly na obrazovke presúvať a meniť usporiadanie dát.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.sk.png)
+![liaisons](../../../../../translated_images/sk/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Projekt: Vytvorte graf na zobrazenie siete pomocou D3.js
 

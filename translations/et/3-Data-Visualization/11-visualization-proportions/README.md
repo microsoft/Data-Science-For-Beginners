@@ -93,7 +93,7 @@ plt.show()
 ```
 Voila, pirukadiagramm, mis näitab andmete proportsioone vastavalt nendele kahele seente klassile. On üsna oluline saada siltide järjekord õigeks, eriti siin, seega kontrolli kindlasti järjekorda, millega siltide massiiv on koostatud!
 
-![pirukadiagramm](../../../../translated_images/pie1-wb.e201f2fcc335413143ce37650fb7f5f0bb21358e7823a327ed8644dfb84be9db.et.png)
+![pirukadiagramm](../../../../translated_images/et/pie1-wb.e201f2fcc335413143ce37650fb7f5f0bb21358e7823a327ed8644dfb84be9db.png)
 
 ## Sõõrikud!
 
@@ -123,7 +123,7 @@ plt.title('Mushroom Habitats')
 plt.show()
 ```
 
-![sõõrikdiagramm](../../../../translated_images/donut-wb.be3c12a22712302b5d10c40014d5389d4a1ae4412fe1655b3cf4af57b64f799a.et.png)
+![sõõrikdiagramm](../../../../translated_images/et/donut-wb.be3c12a22712302b5d10c40014d5389d4a1ae4412fe1655b3cf4af57b64f799a.png)
 
 See kood joonistab diagrammi ja keskse ringi, seejärel lisab selle keskse ringi diagrammi. Muuda keskse ringi laiust, muutes `0.40` mõneks teiseks väärtuseks.
 
@@ -170,7 +170,7 @@ fig = plt.figure(
 
 Vahvlidiagrammi abil näed selgelt seente kübara värvide proportsioone selles andmestikus. Huvitaval kombel on palju rohelise kübaraga seeni!
 
-![vahvlidiagramm](../../../../translated_images/waffle.5455dbae4ccf17d53bb40ff0a657ecef7b8aa967e27a19cc96325bd81598f65e.et.png)
+![vahvlidiagramm](../../../../translated_images/et/waffle.5455dbae4ccf17d53bb40ff0a657ecef7b8aa967e27a19cc96325bd81598f65e.png)
 
 ✅ PyWaffle toetab ikoone diagrammides, mis kasutavad kõiki ikoone, mis on saadaval [Font Awesome](https://fontawesome.com/) lehel. Katseta, et luua veelgi huvitavam vahvlidiagramm, kasutades ruutude asemel ikoone.
 

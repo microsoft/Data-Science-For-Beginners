@@ -315,7 +315,7 @@ Sertakan dalam deskripsi PR Anda:
   ```
   ````
   
-- Tambahkan teks alternatif ke gambar: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.id.png)`  
+- Tambahkan teks alternatif ke gambar: `![Alt text](../../translated_images/id/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Pertahankan panjang baris yang wajar (sekitar 80-100 karakter)  
 
 ### Python

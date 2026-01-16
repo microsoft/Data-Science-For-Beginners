@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Video over de definitie van Data Science](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.nl.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Video over de definitie van Data Science](../../../../translated_images/nl/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Quiz voorafgaand aan de les](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ Als we het nog ingewikkelder willen maken, kunnen we de tijd die nodig is voor e
 
 In deze uitdaging gaan we proberen concepten te vinden die relevant zijn voor het vakgebied Data Science door naar teksten te kijken. We nemen een Wikipedia-artikel over Data Science, downloaden en verwerken de tekst, en bouwen vervolgens een woordwolk zoals deze:
 
-![Woordwolk voor Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.nl.png)
+![Woordwolk voor Data Science](../../../../translated_images/nl/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Bezoek [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') om de code door te nemen. Je kunt de code ook uitvoeren en zien hoe het alle datatransformaties in real-time uitvoert.
 

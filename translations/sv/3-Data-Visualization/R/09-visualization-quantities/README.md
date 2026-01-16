@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Här installerar du `ggplot2`-paketet och importerar det sedan till arbetsytan med kommandot `library("ggplot2")`. För att plotta ett diagram i ggplot används funktionen `ggplot()` och du specificerar datasetet, x- och y-variabler som attribut. I detta fall använder vi funktionen `geom_line()` eftersom vi vill plotta ett linjediagram.
 
-![MaxVingbredd-linjediagram](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.sv.png)
+![MaxVingbredd-linjediagram](../../../../../translated_images/sv/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Vad märker du direkt? Det verkar finnas åtminstone en avvikelse - det är en ganska imponerande vingbredd! En vingbredd på över 2000 centimeter motsvarar mer än 20 meter - finns det Pterodactyler som strövar omkring i Minnesota? Låt oss undersöka.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Vi specificerar vinkeln i `theme` och anger x- och y-axelns etiketter i `xlab()` och `ylab()` respektive. `ggtitle()` ger diagrammet/plotten ett namn.
 
-![MaxVingbredd-linjediagram-förbättrat](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.sv.png)
+![MaxVingbredd-linjediagram-förbättrat](../../../../../translated_images/sv/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Även med rotationen av etiketterna inställd på 45 grader är det för många för att läsa. Låt oss prova en annan strategi: märk endast avvikelserna och placera etiketterna inom diagrammet. Du kan använda ett spridningsdiagram för att skapa mer utrymme för märkningen:
 
@@ -100,7 +100,7 @@ Vad händer här? Du använde funktionen `geom_point()` för att plotta spridnin
 
 Vad upptäcker du?
 
-![MaxVingbredd-spridningsdiagram](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.sv.png)
+![MaxVingbredd-spridningsdiagram](../../../../../translated_images/sv/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Filtrera din data
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Vi skapade en ny dataframe `birds_filtered` och plottade sedan ett spridningsdiagram. Genom att filtrera bort avvikelser är din data nu mer sammanhängande och begriplig.
 
-![MaxVingbredd-spridningsdiagram-förbättrat](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.sv.png)
+![MaxVingbredd-spridningsdiagram-förbättrat](../../../../../translated_images/sv/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Nu när vi har ett renare dataset åtminstone när det gäller vingbredd, låt oss upptäcka mer om dessa fåglar.
 
@@ -161,7 +161,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 I följande kodsnutt installerar vi paketen [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) och [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) för att hjälpa till att manipulera och gruppera data för att plotta ett staplat stapeldiagram. Först grupperar du datan efter fåglarnas `Category` och summerar sedan kolumnerna `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Sedan plotter du stapeldiagrammet med `ggplot2`-paketet och specificerar färgerna för de olika kategorierna och etiketterna.
 
-![Staplat stapeldiagram](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.sv.png)
+![Staplat stapeldiagram](../../../../../translated_images/sv/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Detta stapeldiagram är dock oläsligt eftersom det finns för mycket icke-grupperad data. Du behöver välja endast den data du vill plotta, så låt oss titta på fåglarnas längd baserat på deras kategori.
 
@@ -176,7 +176,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Du räknar först unika värden i kolumnen `Category` och sorterar dem sedan i en ny dataframe `birds_count`. Denna sorterade data faktoreras sedan på samma nivå så att den plottas på ett sorterat sätt. Med `ggplot2` plotter du sedan datan i ett stapeldiagram. `coord_flip()` plotter horisontella staplar.
 
-![kategori-längd](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.sv.png)
+![kategori-längd](../../../../../translated_images/sv/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Detta stapeldiagram ger en bra översikt över antalet fåglar i varje kategori. Vid en snabb blick ser du att det största antalet fåglar i denna region tillhör kategorin Ankor/Gäss/Vattenfåglar. Minnesota är "landet med 10 000 sjöar", så detta är inte förvånande!
 
@@ -199,7 +199,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Vi grupperar `birds_filtered`-datan efter `Category` och plotter sedan ett stapeldiagram.
 
-![jämföra data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.sv.png)
+![jämföra data](../../../../../translated_images/sv/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Inget är förvånande här: kolibrier har den minsta MaxLängden jämfört med pelikaner eller gäss. Det är bra när data är logisk!
 
@@ -211,7 +211,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![överlagrade värden](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.sv.png)
+![överlagrade värden](../../../../../translated_images/sv/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Utmaning
 

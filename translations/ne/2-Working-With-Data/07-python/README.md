@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 पाइथन संग काम गर्ने - _Sketchnote by [@nitya](https://twitter.com/nitya)_                 |
 
-[![परिचय भिडियो](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.ne.png)](https://youtu.be/dZjWOGbsN4Y)
+[![परिचय भिडियो](../../../../translated_images/ne/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 डाटाबेसहरूले डाटा भण्डारण गर्न र क्वेरी भाषाहरू प्रयोग गरेर तिनीहरूलाई सोधपुछ गर्न धेरै प्रभावकारी तरिका प्रदान गर्छन्। तर, डाटा प्रशोधनको सबैभन्दा लचिलो तरिका भनेको आफ्नो प्रोग्राम लेखेर डाटालाई हेरफेर गर्नु हो। धेरै अवस्थामा, डाटाबेस क्वेरी गर्नु अझ प्रभावकारी हुन्छ। तर, कहिलेकाहीँ जटिल डाटा प्रशोधन आवश्यक पर्दा, SQL प्रयोग गरेर सजिलै गर्न सकिँदैन। 
 
@@ -74,7 +74,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![समय सिरिज प्लट](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.ne.png)
+![समय सिरिज प्लट](../../../../translated_images/ne/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 अब कल्पना गर्नुहोस् कि प्रत्येक हप्ता हामी साथीहरूको लागि पार्टी आयोजना गर्छौं, र पार्टीको लागि १० प्याक आइसक्रिम थप्छौं। हामी अर्को सिरिज सिर्जना गर्न सक्छौं, हप्ताद्वारा इन्डेक्स गरिएको, यो देखाउन:
 ```python
@@ -85,7 +85,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![समय सिरिज प्लट](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.ne.png)
+![समय सिरिज प्लट](../../../../translated_images/ne/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **नोट** कि हामीले साधारण `total_items+additional_items` सिन्ट्याक्स प्रयोग गरेका छैनौं। यदि हामीले त्यसो गरेका भए, हामीले परिणामस्वरूप धेरै `NaN` (*Not a Number*) मानहरू पाउने थियौं। यो किनभने `additional_items` सिरिजमा केही इन्डेक्स बिन्दुहरूको लागि मानहरू हराइरहेका छन्, र `NaN` लाई कुनै पनि चीजमा जोड्दा `NaN` परिणाम दिन्छ। त्यसैले हामीले थप गर्दा `fill_value` प्यारामिटर निर्दिष्ट गर्न आवश्यक छ।
 
@@ -94,7 +94,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![मासिक समय सिरिज औसत](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.ne.png)
+![मासिक समय सिरिज औसत](../../../../translated_images/ne/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### डाटाफ्रेम
 
@@ -220,7 +220,7 @@ df = pd.read_csv('file.csv')
 
 हामी डाटासँग कसरी व्यवहार गर्ने देखाउन चाहन्छौं, त्यसैले कृपया [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) खोल्नुहोस् र माथिदेखि तलसम्म पढ्नुहोस्। तपाईंले सेलहरू चलाउन सक्नुहुन्छ, र अन्त्यमा हामीले तपाईंका लागि छोडेका केही चुनौतीहरू गर्न सक्नुहुन्छ।
 
-![COVID फैलावट](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.ne.png)
+![COVID फैलावट](../../../../translated_images/ne/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > यदि तपाईंलाई Jupyter Notebook मा कोड कसरी चलाउने थाहा छैन भने, [यस लेख](https://soshnikov.com/education/how-to-execute-notebooks-from-github/) हेर्नुहोस्।
 
@@ -242,7 +242,7 @@ df = pd.read_csv('file.csv')
 
 [`notebook-papers.ipynb`](notebook-papers.ipynb) खोल्नुहोस् र माथिदेखि तलसम्म पढ्नुहोस्। तपाईंले सेलहरू चलाउन सक्नुहुन्छ, र अन्त्यमा हामीले तपाईंका लागि छोडेका केही चुनौतीहरू गर्न सक्नुहुन्छ।
 
-![Covid मेडिकल उपचार](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.ne.png)
+![Covid मेडिकल उपचार](../../../../translated_images/ne/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## छवि डाटा प्रशोधन
 

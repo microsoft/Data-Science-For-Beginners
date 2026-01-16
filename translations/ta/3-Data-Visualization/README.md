@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # காட்சிப்படுத்தல்கள்
 
-![ஒரு லாவெண்டர் மலரின் மீது ஒரு தேனீ](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.ta.jpg)
+![ஒரு லாவெண்டர் மலரின் மீது ஒரு தேனீ](../../../translated_images/ta/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > புகைப்படம் <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ஜென்னா லீ</a> மூலம் <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> இல்
 
 தரவை காட்சிப்படுத்துவது ஒரு தரவியல் விஞ்ஞானியின் மிக முக்கியமான பணிகளில் ஒன்றாகும். ஒரு படம் 1000 வார்த்தைகளுக்கு சமம், மேலும் ஒரு காட்சிப்படுத்தல் உங்கள் தரவின் பல்வேறு சுவாரஸ்யமான பகுதிகளை, உதாரணமாக உச்சங்கள், விலகல்கள், குழுக்கள், போக்குகள் மற்றும் பலவற்றை அடையாளம் காண உதவுகிறது, இது உங்கள் தரவு சொல்ல முயற்சிக்கும் கதையை நீங்கள் புரிந்துகொள்ள உதவும்.

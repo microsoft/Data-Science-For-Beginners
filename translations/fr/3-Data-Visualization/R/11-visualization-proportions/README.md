@@ -92,7 +92,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voilà, un graphique en secteurs montrant les proportions de ces données selon ces deux classes de champignons. Il est très important de respecter l'ordre des étiquettes, surtout ici, alors assurez-vous de vérifier l'ordre dans lequel le tableau des étiquettes est construit !
 
-![graphique en secteurs](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.fr.png)
+![graphique en secteurs](../../../../../translated_images/fr/pie1-wb.685df063673751f4.webp)
 
 ## Anneaux !
 
@@ -126,7 +126,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![graphique en anneau](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.fr.png)
+![graphique en anneau](../../../../../translated_images/fr/donut-wb.34e6fb275da9d834.webp)
 
 Ce code utilise deux bibliothèques - ggplot2 et webr. En utilisant la fonction PieDonut de la bibliothèque webr, nous pouvons facilement créer un graphique en anneau !
 
@@ -164,7 +164,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Avec un graphique en gaufres, vous pouvez clairement voir les proportions des couleurs de chapeau dans cet ensemble de données sur les champignons. Fait intéressant, il y a beaucoup de champignons avec des chapeaux verts !
 
-![graphique en gaufres](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.fr.png)
+![graphique en gaufres](../../../../../translated_images/fr/waffle.aaa75c5337735a6e.webp)
 
 Dans cette leçon, vous avez appris trois façons de visualiser les proportions. Tout d'abord, vous devez regrouper vos données en catégories, puis décider de la meilleure façon de les afficher - en secteurs, en anneau ou en gaufres. Tous sont délicieux et offrent à l'utilisateur un aperçu instantané d'un ensemble de données.
 

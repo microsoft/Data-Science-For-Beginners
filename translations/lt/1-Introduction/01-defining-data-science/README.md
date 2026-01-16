@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Duomenų mokslas: apibrėžimo vaizdo įrašas](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.lt.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Duomenų mokslas: apibrėžimo vaizdo įrašas](../../../../translated_images/lt/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Prieš paskaitos testas](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -149,7 +149,7 @@ Jei norime dar labiau pasigilinti, galime sudaryti grafiką, kuriame būtų pava
 
 Šiame iššūkyje bandysime rasti konceptus, susijusius su duomenų mokslo sritimi, analizuodami tekstus. Paimsime Vikipedijos straipsnį apie duomenų mokslą, atsisiųsime ir apdorosime tekstą, o tada sukursime žodžių debesį, panašų į šį:
 
-![Žodžių debesis apie duomenų mokslą](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.lt.png)
+![Žodžių debesis apie duomenų mokslą](../../../../translated_images/lt/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Apsilankykite [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore'), kad peržiūrėtumėte kodą. Taip pat galite paleisti kodą ir pamatyti, kaip jis realiu laiku atlieka visus duomenų transformavimus.
 

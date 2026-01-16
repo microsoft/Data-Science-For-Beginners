@@ -312,7 +312,7 @@ Vključite v opis PR:
   import pandas as pd
   ```
   ````
-- Dodajte alt besedilo slikam: `![Alt besedilo](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.sl.png)`
+- Dodajte alt besedilo slikam: `![Alt besedilo](../../translated_images/sl/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Ohranjajte dolžino vrstic razumno (približno 80-100 znakov)
 
 ### Python

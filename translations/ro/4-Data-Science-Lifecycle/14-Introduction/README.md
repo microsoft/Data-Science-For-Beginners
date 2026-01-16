@@ -25,7 +25,7 @@ Până în acest moment, probabil ai realizat că știința datelor este un proc
 
 Această lecție se concentrează pe 3 părți ale ciclului de viață: capturare, procesare și mentenanță.
 
-![Diagramă a ciclului de viață al științei datelor](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.ro.jpg)  
+![Diagramă a ciclului de viață al științei datelor](../../../../translated_images/ro/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
 > Fotografie de [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Capturare
@@ -101,7 +101,7 @@ Explorează [Ciclul de viață al Procesului de Știința Datelor al Echipei](ht
 
 |Procesul de Știința Datelor al Echipei (TDSP)|Procesul standard inter-industrial pentru mineritul datelor (CRISP-DM)|
 |--|--|
-|![Ciclul de viață al echipei de știința datelor](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.ro.png) | ![Imaginea Procesului de Știința Datelor](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.ro.png) |
+|![Ciclul de viață al echipei de știința datelor](../../../../translated_images/ro/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Imaginea Procesului de Știința Datelor](../../../../translated_images/ro/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Imagine de [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Imagine de [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Chestionar după lecție](https://ff-quizzes.netlify.app/en/ds/quiz/27)

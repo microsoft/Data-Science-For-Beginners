@@ -21,7 +21,7 @@ Data isn't limited to relational databases. This lesson focuses on non-relationa
 
 Spreadsheets are a widely used tool for storing and analyzing data because they are easy to set up and use. In this lesson, you'll learn the fundamental components of a spreadsheet, along with formulas and functions. The examples will use Microsoft Excel, but most spreadsheet software has similar features and terminology.
 
-![An empty Microsoft Excel workbook with two worksheets](../../../../translated_images/parts-of-spreadsheet.120711c82aa18a45c3e62a491a15bba0a31ab0e9db407ec022702fed8ffd89bf.en.png)
+![An empty Microsoft Excel workbook with two worksheets](../../../../translated_images/en/parts-of-spreadsheet.120711c82aa18a45.webp)
 
 A spreadsheet is a file that can be accessed on a computer, device, or cloud-based file system. The software itself might be browser-based or require installation as an application or app. In Excel, these files are referred to as **workbooks**, and this term will be used throughout the lesson.
 
@@ -33,11 +33,11 @@ Using these basic elements of an Excel workbook, we'll explore an example from [
 
 The spreadsheet file named "InventoryExample" is a formatted inventory sheet containing three worksheets, with tabs labeled "Inventory List," "Inventory Pick List," and "Bin Lookup." Row 4 of the Inventory List worksheet serves as the header, describing the value of each cell in the corresponding column.
 
-![A highlighted formula from an example inventory list in Microsoft Excel](../../../../translated_images/formula-excel.ad1068c220892f5ead570d12f2394897961d31a5043a1dd4e6fc5d7690c7a14e.en.png)
+![A highlighted formula from an example inventory list in Microsoft Excel](../../../../translated_images/en/formula-excel.ad1068c220892f5e.webp)
 
 Sometimes, a cell's value depends on other cells to calculate its value. For example, the Inventory List spreadsheet tracks the cost of each item, but what if we need to calculate the total value of the inventory? [**Formulas**](https://support.microsoft.com/en-us/office/overview-of-formulas-34519a4e-1e8d-4f4b-84d4-d642c4f63263) perform operations on cell data, and in this case, a formula is used in the Inventory Value column to calculate the value of each item by multiplying the quantity (under the QTY header) by the cost (under the COST header). Double-clicking or highlighting a cell reveals the formula. Formulas always start with an equals sign, followed by the calculation or operation.
 
-![A highlighted function from an example inventory list in Microsoft Excel](../../../../translated_images/function-excel.be2ae4feddc10ca089f3d4363040d93b7fd046c8d4f83ba975ec46483ee99895.en.png)
+![A highlighted function from an example inventory list in Microsoft Excel](../../../../translated_images/en/function-excel.be2ae4feddc10ca0.webp)
 
 To find the total inventory value, we can use another formula to sum up all the values in the Inventory Value column. While adding each cell manually is possible, it would be tedious. Excel provides [**functions**](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89), which are predefined formulas for performing calculations. Functions require arguments, which are the values needed for the calculation. If a function requires multiple arguments, they must be listed in the correct order to ensure accurate results. In this example, the SUM function is used to add up the values in the Inventory Value column, with the total displayed in row 3, column B (B3).
 
@@ -45,17 +45,17 @@ To find the total inventory value, we can use another formula to sum up all the 
 
 NoSQL is a broad term for various methods of storing non-relational data. It can mean "non-SQL," "non-relational," or "not only SQL." These database systems are generally categorized into four types.
 
-![Graphical representation of a key-value data store showing 4 unique numerical keys that are associated with 4 various values](../../../../translated_images/kv-db.e8f2b75686bbdfcba0c827b9272c10ae0821611ea0fe98429b9d13194383afa6.en.png)
+![Graphical representation of a key-value data store showing 4 unique numerical keys that are associated with 4 various values](../../../../translated_images/en/kv-db.e8f2b75686bbdfcb.webp)
 > Source from [Michał Białecki Blog](https://www.michalbialecki.com/2018/03/18/azure-cosmos-db-key-value-database-cloud/)
 
 [Key-value](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#keyvalue-data-stores) databases store data as pairs of unique keys and their associated values. These pairs are organized using a [hash table](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/) with a suitable hashing function.
 
-![Graphical representation of a graph data store showing the relationships between people, their interests and locations](../../../../translated_images/graph-db.d13629152f79a9dac895b20fa7d841d4d4d6f6008b1382227c3bbd200fd4cfa1.en.png)
+![Graphical representation of a graph data store showing the relationships between people, their interests and locations](../../../../translated_images/en/graph-db.d13629152f79a9da.webp)
 > Source from [Microsoft](https://docs.microsoft.com/en-us/azure/cosmos-db/graph/graph-introduction#graph-database-by-example)
 
 [Graph](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#graph-data-stores) databases represent relationships between data as nodes and edges. A node represents an entity, such as a student or a bank statement, while edges represent the relationships between entities. Both nodes and edges have properties that provide additional information.
 
-![Graphical representation of a columnar data store showing a customer database with two column families named Identity and Contact Info](../../../../translated_images/columnar-db.ffcfe73c3e9063a8c8f93f8ace85e1200863584b1e324eb5159d8ca10f62ec04.en.png)
+![Graphical representation of a columnar data store showing a customer database with two column families named Identity and Contact Info](../../../../translated_images/en/columnar-db.ffcfe73c3e9063a8.webp)
 
 [Columnar](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) data stores organize data into rows and columns, similar to relational databases. However, columns are grouped into column families, where all data within a column family is related and can be retrieved or modified as a single unit.
 
@@ -88,11 +88,11 @@ You can download and install the emulator [for Windows here](https://aka.ms/cosm
 
 The Emulator opens in a browser window, where the Explorer view lets you navigate documents.
 
-![The Explorer view of the Cosmos DB Emulator](../../../../translated_images/cosmosdb-emulator-explorer.a1c80b1347206fe2f30f88fc123821636587d04fc5a56a9eb350c7da6b31f361.en.png)
+![The Explorer view of the Cosmos DB Emulator](../../../../translated_images/en/cosmosdb-emulator-explorer.a1c80b1347206fe2.webp)
 
 If you're following along, click "Start with Sample" to generate a sample database called SampleDB. Expanding SampleDB reveals a container named `Persons`. A container holds a collection of items, which are the documents within it. You can explore the four individual documents under `Items`.
 
-![Exploring sample data in the Cosmos DB Emulator](../../../../translated_images/cosmosdb-emulator-persons.bf640586a7077c8985dfd3071946465c8e074c722c7c202d6d714de99a93b90a.en.png)
+![Exploring sample data in the Cosmos DB Emulator](../../../../translated_images/en/cosmosdb-emulator-persons.bf640586a7077c89.webp)
 
 #### Querying Document Data with the Cosmos DB Emulator
 
@@ -102,7 +102,7 @@ You can query the sample data by clicking the "New SQL Query" button (second but
 
 `SELECT * FROM c where c.age < 40`
 
- ![Running a SELECT query on sample data in the Cosmos DB Emulator to find documents that have an age field value that is less than 40](../../../../translated_images/cosmosdb-emulator-persons-query.6905ebb497e3cd047cd96e55a0a03f69ce1b91b2b3d8c147e617b746b22b7e33.en.png)
+ ![Running a SELECT query on sample data in the Cosmos DB Emulator to find documents that have an age field value that is less than 40](../../../../translated_images/en/cosmosdb-emulator-persons-query.6905ebb497e3cd04.webp)
 
 The query returns two documents, both with age values less than 40.
 

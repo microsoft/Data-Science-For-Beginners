@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Čia įdiegiame `ggplot2` paketą ir importuojame jį į darbo aplinką naudodami komandą `library("ggplot2")`. Norint sukurti bet kokią diagramą su ggplot, naudojama funkcija `ggplot()`, kurioje nurodote duomenų rinkinį, x ir y kintamuosius kaip atributus. Šiuo atveju naudojame funkciją `geom_line()`, nes norime sukurti linijinę diagramą.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.lt.png)
+![MaxWingspan-lineplot](../../../../../translated_images/lt/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Ką pastebite iš karto? Atrodo, kad yra bent vienas išskirtinis atvejis – tai tikrai įspūdingas sparnų plotis! Sparnų plotis, viršijantis 2000 cm, yra daugiau nei 20 metrų – ar Minesotoje skraido pterodaktiliai? Išsiaiškinkime.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Mes nurodome kampą `theme` ir nurodome x ir y ašių etiketes naudodami `xlab()` ir `ylab()` atitinkamai. `ggtitle()` suteikia grafikui/diagramai pavadinimą.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.lt.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/lt/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Net ir pasukus etiketes 45 laipsnių kampu, jų per daug, kad būtų galima perskaityti. Pabandykime kitą strategiją: pažymėkime tik tuos išskirtinius atvejus ir nustatykime etiketes pačioje diagramoje. Galite naudoti sklaidos diagramą, kad būtų daugiau vietos etiketėms:
 
@@ -100,7 +100,7 @@ Kas čia vyksta? Naudojote funkciją `geom_point()`, kad pavaizduotumėte sklaid
 
 Ką pastebite?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.lt.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/lt/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Filtruokite savo duomenis
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Sukūrėme naują duomenų rėmelį `birds_filtered` ir tada pavaizdavome sklaidos diagramą. Filtruodami išskirtinius atvejus, jūsų duomenys tampa nuoseklesni ir suprantamesni.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.lt.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/lt/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Dabar, kai turime švaresnį duomenų rinkinį bent jau sparnų pločio atžvilgiu, sužinokime daugiau apie šiuos paukščius.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 Šiame fragmente įdiegiame [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) ir [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) paketus, kad padėtume manipuliuoti ir grupuoti duomenis, norint pavaizduoti sukrautą stulpelinę diagramą. Pirmiausia grupuojate duomenis pagal paukščių `Category` ir tada apibendrinate `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan` stulpelius. Tada, naudodami `ggplot2` paketą, pavaizduojate stulpelinę diagramą, nurodydami spalvas skirtingoms kategorijoms ir etiketes.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.lt.png)
+![Stacked bar chart](../../../../../translated_images/lt/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Ši stulpelinė diagrama, tačiau, yra neįskaitoma, nes yra per daug negrupuotų duomenų. Turite pasirinkti tik tuos duomenis, kuriuos norite pavaizduoti, todėl pažvelkime į paukščių ilgį pagal jų kategoriją.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Pirmiausia suskaičiuojate unikalių reikšmių skaičių `Category` stulpelyje ir tada surūšiuojate jas į naują duomenų rėmelį `birds_count`. Šie surūšiuoti duomenys tada faktorizuojami tame pačiame lygyje, kad būtų pavaizduoti surūšiuota tvarka. Naudodami `ggplot2` tada pavaizduojate duomenis stulpelinėje diagramoje. Funkcija `coord_flip()` pavaizduoja horizontalius stulpelius.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.lt.png)
+![category-length](../../../../../translated_images/lt/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Ši stulpelinė diagrama suteikia gerą vaizdą apie paukščių skaičių kiekvienoje kategorijoje. Vienu žvilgsniu matote, kad didžiausias paukščių skaičius šiame regione priklauso Antys/Žąsys/Vandens kategorijai. Minesota yra „10 000 ežerų kraštas“, todėl tai nestebina!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Mes grupuojame `birds_filtered` duomenis pagal `Category` ir tada pavaizduojame stulpelinę diagramą.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.lt.png)
+![comparing data](../../../../../translated_images/lt/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Čia nieko nestebina: kolibriai turi mažiausią `MaxLength`, palyginti su pelikanais ar žąsimis. Gerai, kai duomenys logiškai atitinka!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.lt.png)
+![super-imposed values](../../../../../translated_images/lt/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Iššūkis
 

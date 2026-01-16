@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 پائتھون کے ساتھ کام کرنا - _[@nitya](https://twitter.com/nitya) کی طرف سے اسکیچ نوٹ_                 |
 
-[![تعارفی ویڈیو](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.ur.png)](https://youtu.be/dZjWOGbsN4Y)
+[![تعارفی ویڈیو](../../../../translated_images/ur/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 اگرچہ ڈیٹا بیسز ڈیٹا کو محفوظ کرنے اور انہیں کوئری لینگویجز کے ذریعے تلاش کرنے کے لیے بہت مؤثر طریقے فراہم کرتے ہیں، ڈیٹا پروسیسنگ کا سب سے لچکدار طریقہ اپنا پروگرام لکھ کر ڈیٹا کو تبدیل کرنا ہے۔ اکثر اوقات، ڈیٹا بیس کوئری کرنا زیادہ مؤثر ہوگا۔ لیکن کچھ معاملات میں جب زیادہ پیچیدہ ڈیٹا پروسیسنگ کی ضرورت ہو، تو یہ کام آسانی سے SQL کے ذریعے نہیں کیا جا سکتا۔  
 ڈیٹا پروسیسنگ کسی بھی پروگرامنگ زبان میں کی جا سکتی ہے، لیکن کچھ زبانیں ڈیٹا کے ساتھ کام کرنے کے لحاظ سے زیادہ اعلیٰ سطح کی ہوتی ہیں۔ ڈیٹا سائنسدان عام طور پر درج ذیل زبانوں میں سے کسی ایک کو ترجیح دیتے ہیں:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![ٹائم سیریز پلاٹ](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.ur.png)
+![ٹائم سیریز پلاٹ](../../../../translated_images/ur/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 اب فرض کریں کہ ہر ہفتے ہم دوستوں کے لیے ایک پارٹی کا اہتمام کرتے ہیں، اور پارٹی کے لیے آئس کریم کے اضافی 10 پیک لیتے ہیں۔ ہم ایک اور سیریز بنا سکتے ہیں، جو ہفتے کے انڈیکس کے ذریعے ظاہر ہو:
 ```python
@@ -84,7 +84,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![ٹائم سیریز پلاٹ](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.ur.png)
+![ٹائم سیریز پلاٹ](../../../../translated_images/ur/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **نوٹ** کہ ہم سادہ سینٹیکس `total_items+additional_items` استعمال نہیں کر رہے ہیں۔ اگر ہم ایسا کرتے، تو ہمیں نتیجہ میں بہت سے `NaN` (*Not a Number*) اقدار ملتی۔ اس کی وجہ یہ ہے کہ `additional_items` سیریز میں انڈیکس پوائنٹس کے لیے کچھ اقدار غائب ہیں، اور کسی بھی چیز میں `NaN` شامل کرنے سے نتیجہ `NaN` ہوتا ہے۔ اس لیے ہمیں جمع کرتے وقت `fill_value` پیرامیٹر کی وضاحت کرنے کی ضرورت ہوتی ہے۔
 
@@ -93,7 +93,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![ماہانہ ٹائم سیریز اوسط](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.ur.png)
+![ماہانہ ٹائم سیریز اوسط](../../../../translated_images/ur/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### ڈیٹا فریم
 
@@ -219,7 +219,7 @@ df = pd.read_csv('file.csv')
 
 چونکہ ہم یہ دکھانا چاہتے ہیں کہ ڈیٹا کے ساتھ کیسے کام کیا جائے، ہم آپ کو دعوت دیتے ہیں کہ [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) کھولیں اور اسے شروع سے آخر تک پڑھیں۔ آپ سیلز کو چلا سکتے ہیں اور آخر میں دیے گئے کچھ چیلنجز کو حل کر سکتے ہیں۔
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.ur.png)
+![COVID Spread](../../../../translated_images/ur/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > اگر آپ کو Jupyter Notebook میں کوڈ چلانے کا طریقہ معلوم نہیں ہے، تو [اس مضمون](https://soshnikov.com/education/how-to-execute-notebooks-from-github/) کو دیکھیں۔
 
@@ -241,7 +241,7 @@ df = pd.read_csv('file.csv')
 
 [`notebook-papers.ipynb`](notebook-papers.ipynb) کھولیں اور اسے شروع سے آخر تک پڑھیں۔ آپ سیلز کو چلا سکتے ہیں اور آخر میں دیے گئے کچھ چیلنجز کو حل کر سکتے ہیں۔
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.ur.png)
+![Covid Medical Treatment](../../../../translated_images/ur/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## تصویری ڈیٹا کی پروسیسنگ
 

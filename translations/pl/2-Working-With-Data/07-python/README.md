@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------------: |
 |                 Praca z Pythonem - _Sketchnote autorstwa [@nitya](https://twitter.com/nitya)_                   |
 
-[![Wideo wprowadzające](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.pl.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Wideo wprowadzające](../../../../translated_images/pl/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Bazy danych oferują bardzo efektywne sposoby przechowywania danych i ich przeszukiwania za pomocą języków zapytań, ale najbardziej elastycznym sposobem przetwarzania danych jest napisanie własnego programu do ich manipulacji. W wielu przypadkach zapytanie do bazy danych byłoby bardziej efektywne. Jednak w sytuacjach, gdy potrzebne jest bardziej złożone przetwarzanie danych, nie zawsze można to łatwo zrobić za pomocą SQL.  
 Przetwarzanie danych można zaprogramować w dowolnym języku programowania, ale istnieją języki, które są bardziej zaawansowane w pracy z danymi. Naukowcy zajmujący się danymi zazwyczaj preferują jeden z następujących języków:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Wykres szeregów czasowych](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.pl.png)
+![Wykres szeregów czasowych](../../../../translated_images/pl/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Załóżmy teraz, że co tydzień organizujemy imprezę dla znajomych i zabieramy dodatkowe 10 opakowań lodów na imprezę. Możemy stworzyć kolejną serię, indeksowaną tygodniami, aby to pokazać:
 ```python
@@ -84,7 +84,7 @@ Gdy dodamy dwie serie, otrzymamy całkowitą liczbę:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Wykres szeregów czasowych](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.pl.png)
+![Wykres szeregów czasowych](../../../../translated_images/pl/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Uwaga**: Nie używamy prostego zapisu `total_items+additional_items`. Gdybyśmy to zrobili, otrzymalibyśmy wiele wartości `NaN` (*Not a Number*) w wynikowej serii. Dzieje się tak, ponieważ brakuje wartości dla niektórych punktów indeksu w serii `additional_items`, a dodanie `NaN` do czegokolwiek skutkuje `NaN`. Dlatego musimy określić parametr `fill_value` podczas dodawania.
 
@@ -93,7 +93,7 @@ W przypadku szeregów czasowych możemy również **próbkować** serię z róż
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Miesięczne średnie szeregów czasowych](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.pl.png)
+![Miesięczne średnie szeregów czasowych](../../../../translated_images/pl/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ Pierwszym problemem, na którym się skupimy, jest modelowanie rozprzestrzeniani
 
 Ponieważ chcemy pokazać, jak radzić sobie z danymi, zapraszamy do otwarcia [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) i przeczytania go od góry do dołu. Możesz również uruchomić komórki i wykonać wyzwania, które zostawiliśmy na końcu.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.pl.png)
+![COVID Spread](../../../../translated_images/pl/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Jeśli nie wiesz, jak uruchomić kod w Jupyter Notebook, zapoznaj się z [tym artykułem](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,7 +241,7 @@ Pełny przykład analizy tego zbioru danych za pomocą usługi [Text Analytics f
 
 Otwórz [`notebook-papers.ipynb`](notebook-papers.ipynb) i przeczytaj go od góry do dołu. Możesz również uruchomić komórki i wykonać wyzwania, które zostawiliśmy na końcu.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.pl.png)
+![Covid Medical Treatment](../../../../translated_images/pl/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Przetwarzanie Danych Obrazowych
 

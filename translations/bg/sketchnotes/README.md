@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Нитя Нарасимхан, художник
 
-![скицнота на пътна карта](../../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.bg.png)
+![скицнота на пътна карта](../../../translated_images/bg/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.png)
 
 ---
 

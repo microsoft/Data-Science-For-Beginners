@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Video despre Definirea Științei Datelor](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.ro.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Video despre Definirea Științei Datelor](../../../../translated_images/ro/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Chestionar înainte de curs](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ Dacă dorim să complicăm și mai mult lucrurile, putem reprezenta grafic timpu
 
 În această provocare, vom încerca să identificăm concepte relevante pentru domeniul Științei Datelor analizând texte. Vom lua un articol de pe Wikipedia despre Știința Datelor, vom descărca și procesa textul, iar apoi vom construi un nor de cuvinte asemănător cu acesta:
 
-![Nor de cuvinte pentru Știința Datelor](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.ro.png)
+![Nor de cuvinte pentru Știința Datelor](../../../../translated_images/ro/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Vizitează [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') pentru a parcurge codul. Poți, de asemenea, să rulezi codul și să vezi cum efectuează toate transformările de date în timp real.
 

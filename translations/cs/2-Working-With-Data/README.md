@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Práce s daty
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.cs.jpg)
+![data love](../../../translated_images/cs/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Foto od <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexandra Sinna</a> na <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 V těchto lekcích se naučíte některé způsoby, jak lze data spravovat, manipulovat s nimi a používat je v aplikacích. Naučíte se o relačních a nerelačních databázích a o tom, jak v nich lze data ukládat. Získáte základy práce s Pythonem pro správu dat a objevíte některé z mnoha způsobů, jak můžete Python využít k práci s daty a jejich analýze.

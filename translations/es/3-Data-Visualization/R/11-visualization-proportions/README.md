@@ -93,7 +93,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, un gráfico de pastel que muestra las proporciones de estos datos según estas dos clases de hongos. Es bastante importante obtener el orden correcto de las etiquetas, especialmente aquí, así que asegúrate de verificar el orden con el que se construye el arreglo de etiquetas.
 
-![gráfico de pastel](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.es.png)
+![gráfico de pastel](../../../../../translated_images/es/pie1-wb.685df063673751f4.webp)
 
 ## ¡Donas!
 
@@ -127,7 +127,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![gráfico de dona](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.es.png)
+![gráfico de dona](../../../../../translated_images/es/donut-wb.34e6fb275da9d834.webp)
 
 Este código utiliza dos bibliotecas: ggplot2 y webr. Usando la función PieDonut de la biblioteca webr, podemos crear un gráfico de dona fácilmente.
 
@@ -165,7 +165,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Usando un gráfico de waffle, puedes ver claramente las proporciones de colores de sombrero en este conjunto de datos de hongos. Curiosamente, ¡hay muchos hongos con sombreros verdes!
 
-![gráfico de waffle](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.es.png)
+![gráfico de waffle](../../../../../translated_images/es/waffle.aaa75c5337735a6e.webp)
 
 En esta lección, aprendiste tres formas de visualizar proporciones. Primero, necesitas agrupar tus datos en categorías y luego decidir cuál es la mejor manera de mostrar los datos: pastel, dona o waffle. Todos son deliciosos y gratifican al usuario con una instantánea instantánea de un conjunto de datos.
 

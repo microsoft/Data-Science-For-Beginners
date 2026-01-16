@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Tieteen datan elinkaari
 
-![viestintä](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.fi.jpg)  
+![viestintä](../../../translated_images/fi/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)  
 > Kuva: <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> sivustolla <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
 
 Näissä oppitunneissa tutustut tieteen datan elinkaaren eri osa-alueisiin, kuten analysointiin ja viestintään datan ympärillä.

@@ -25,7 +25,7 @@ Bu noktada, veri biliminin bir süreç olduğunu muhtemelen fark etmişsinizdir.
 
 Bu ders, yaşam döngüsünün 3 kısmına odaklanıyor: veri toplama, işleme ve bakım.
 
-![Veri bilimi yaşam döngüsü diyagramı](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.tr.jpg)
+![Veri bilimi yaşam döngüsü diyagramı](../../../../translated_images/tr/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > Fotoğraf: [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Veri Toplama
@@ -101,7 +101,7 @@ Veri Bilimi Yaşam Döngüsünün birçok versiyonu vardır; her adım farklı i
 
 |Team Data Science Process (TDSP)|Endüstriler arası veri madenciliği için standart süreç (CRISP-DM)|
 |--|--|
-|![Team Data Science Lifecycle](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.tr.png) | ![Data Science Process Alliance Image](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.tr.png) |
+|![Team Data Science Lifecycle](../../../../translated_images/tr/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Data Science Process Alliance Image](../../../../translated_images/tr/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Görsel: [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Görsel: [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Ders Sonrası Quiz](https://ff-quizzes.netlify.app/en/ds/quiz/27)

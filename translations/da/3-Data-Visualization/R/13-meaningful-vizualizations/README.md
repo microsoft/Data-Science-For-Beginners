@@ -47,25 +47,25 @@ I tidligere lektioner eksperimenterede du med at bygge alle slags interessante d
 
 Selv hvis en dataforsker er omhyggelig med at vælge det rigtige diagram til de rigtige data, er der mange måder, hvorpå data kan vises for at bevise en pointe, ofte på bekostning af at undergrave dataene selv. Der findes mange eksempler på vildledende diagrammer og infografikker!
 
-[![How Charts Lie af Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.da.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
+[![How Charts Lie af Alberto Cairo](../../../../../translated_images/da/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
 > 🎥 Klik på billedet ovenfor for en konferencepræsentation om vildledende diagrammer
 
 Dette diagram vender X-aksen om for at vise det modsatte af sandheden, baseret på dato:
 
-![dårligt diagram 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.da.png)
+![dårligt diagram 1](../../../../../translated_images/da/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Dette diagram](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) er endnu mere vildledende, da øjet drages mod højre for at konkludere, at COVID-tilfælde over tid er faldet i de forskellige amter. Faktisk, hvis du ser nøje på datoerne, vil du opdage, at de er blevet omarrangeret for at give den vildledende nedadgående tendens.
 
-![dårligt diagram 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.da.jpg)
+![dårligt diagram 2](../../../../../translated_images/da/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Dette berygtede eksempel bruger farve OG en vendt Y-akse til at vildlede: i stedet for at konkludere, at våbendrab steg efter vedtagelsen af våbenvenlig lovgivning, bliver øjet faktisk narret til at tro, at det modsatte er sandt:
 
-![dårligt diagram 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.da.jpg)
+![dårligt diagram 3](../../../../../translated_images/da/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Dette mærkelige diagram viser, hvordan proportioner kan manipuleres, til komisk effekt:
 
-![dårligt diagram 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.da.jpg)
+![dårligt diagram 4](../../../../../translated_images/da/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 At sammenligne det, der ikke kan sammenlignes, er endnu et skummelt trick. Der er en [vidunderlig hjemmeside](https://tylervigen.com/spurious-correlations) dedikeret til 'spurious correlations', der viser 'fakta', der korrelerer ting som skilsmisseraten i Maine og forbruget af margarine. En Reddit-gruppe samler også [grimme eksempler](https://www.reddit.com/r/dataisugly/top/?t=all) på data.
 
@@ -100,13 +100,13 @@ Mærk dine akser, giv en forklaring, hvis det er nødvendigt, og tilbyd værktø
 
 Hvis dine data er tekstuelle og lange på X-aksen, kan du vinkle teksten for bedre læsbarhed. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) tilbyder 3D-plotning, hvis dine data understøtter det. Sofistikerede datavisualiseringer kan produceres ved hjælp af det.
 
-![3d diagrammer](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.da.png)
+![3d diagrammer](../../../../../translated_images/da/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Animation og 3D-diagramvisning
 
 Nogle af de bedste datavisualiseringer i dag er animerede. Shirley Wu har fantastiske eksempler lavet med D3, såsom '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', hvor hver blomst er en visualisering af en film. Et andet eksempel for Guardian er 'bussed out', en interaktiv oplevelse, der kombinerer visualiseringer med Greensock og D3 plus en scrollytelling-artikel for at vise, hvordan NYC håndterer sit hjemløse problem ved at sende folk ud af byen.
 
-![bussing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.da.png)
+![bussing](../../../../../translated_images/da/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: How America Moves its Homeless" fra [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualiseringer af Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Selvom denne lektion ikke går i dybden med at lære disse kraftfulde visualiser
 
 Du vil fuldføre en webapp, der viser en animeret visning af dette sociale netværk. Den bruger et bibliotek, der blev bygget til at skabe en [visualisering af et netværk](https://github.com/emiliorizzo/vue-d3-network) ved hjælp af Vue.js og D3. Når appen kører, kan du trække noderne rundt på skærmen for at omarrangere dataene.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.da.png)
+![liaisons](../../../../../translated_images/da/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Projekt: Byg et diagram til at vise et netværk ved hjælp af D3.js
 

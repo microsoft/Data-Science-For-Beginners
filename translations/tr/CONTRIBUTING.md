@@ -310,7 +310,7 @@ PR açıklamanıza şunları ekleyin:
   import pandas as pd
   ```
   ````
-- Görseller için alt metin ekleyin: `![Alt metin](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.tr.png)`
+- Görseller için alt metin ekleyin: `![Alt metin](../../translated_images/tr/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Satır uzunluklarını makul tutun (yaklaşık 80-100 karakter)
 
 ### Python

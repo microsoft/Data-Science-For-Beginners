@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ভিজুয়ালাইজেশন
 
-![ল্যাভেন্ডার ফুলে একটি মৌমাছি](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.bn.jpg)
+![ল্যাভেন্ডার ফুলে একটি মৌমাছি](../../../translated_images/bn/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > ছবি <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">জেনা লি</a> এর তোলা <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">আনস্প্ল্যাশ</a> এ
 
 ডেটা ভিজুয়ালাইজ করা একজন ডেটা সায়েন্টিস্টের সবচেয়ে গুরুত্বপূর্ণ কাজগুলোর একটি। একটি ছবি হাজার শব্দের সমান, এবং একটি ভিজুয়ালাইজেশন আপনাকে আপনার ডেটার বিভিন্ন আকর্ষণীয় অংশ যেমন স্পাইক, আউটলায়ার, গ্রুপিং, প্রবণতা এবং আরও অনেক কিছু চিহ্নিত করতে সাহায্য করতে পারে, যা আপনার ডেটা যে গল্পটি বলতে চায় তা বুঝতে সাহায্য করে।

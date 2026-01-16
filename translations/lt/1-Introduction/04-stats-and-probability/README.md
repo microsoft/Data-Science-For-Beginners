@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Statistika ir tikimybių teorija yra dvi glaudžiai susijusios matematikos sritys, kurios yra itin svarbios duomenų mokslui. Nors galima dirbti su duomenimis neturint gilių matematikos žinių, vis tiek verta susipažinti bent su pagrindinėmis sąvokomis. Čia pateiksime trumpą įvadą, kuris padės jums pradėti.
 
-[![Intro Video](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.lt.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Intro Video](../../../../translated_images/lt/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Prieš paskaitą atlikite testą](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Sunkiau aprašyti tęstinio kintamojo tikimybių pasiskirstymą, kai reikšmės 
 
 Galime kalbėti tik apie tikimybę, kad kintamasis pateks į tam tikrą reikšmių intervalą, pvz., P(t<sub>1</sub>≤X<t<sub>2</sub>). Tokiu atveju tikimybių pasiskirstymas aprašomas **tikimybių tankio funkcija** p(x), tokia, kad
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.lt.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/lt/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Tęstinis vienodo pasiskirstymo analogas vadinamas **tęstiniu vienodu pasiskirstymu**, kuris apibrėžiamas baigtiniame intervale. Tikimybė, kad reikšmė X pateks į intervalo ilgį l, yra proporcinga l ir didėja iki 1.
 
@@ -82,11 +82,11 @@ Analizuojant realaus pasaulio duomenis, jie dažnai nėra tikri atsitiktiniai ki
 
 Čia pateikiama dėžės diagrama, rodanti vidurkį, medianą ir kvartilius mūsų duomenims:
 
-![Weight Box Plot](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.lt.png)
+![Weight Box Plot](../../../../translated_images/lt/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Kadangi mūsų duomenyse yra informacija apie skirtingus žaidėjų **vaidmenis**, galime sudaryti dėžės diagramą pagal vaidmenį - tai leis mums suprasti, kaip parametrų reikšmės skiriasi tarp vaidmenų. Šį kartą apsvarstysime ūgį:
 
-![Box plot by role](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.lt.png)
+![Box plot by role](../../../../translated_images/lt/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Ši diagrama rodo, kad, vidutiniškai, pirmosios bazės žaidėjų ūgis yra didesnis nei antrosios bazės žaidėjų ūgis. Vėliau šioje pamokoje išmoksime, kaip formaliau patikrinti šią hipotezę ir kaip parodyti, kad mūsų duomenys yra statistiškai reikšmingi tai įrodyti.
 
@@ -94,7 +94,7 @@ Kadangi mūsų duomenyse yra informacija apie skirtingus žaidėjų **vaidmenis*
 
 Norėdami pamatyti, koks yra mūsų duomenų pasiskirstymas, galime sudaryti grafiką, vadinamą **histograma**. X ašis turėtų turėti skirtingų svorio intervalų skaičių (vadinamų **dėžėmis**), o vertikali ašis rodytų, kiek kartų mūsų atsitiktinio kintamojo imtis pateko į tam tikrą intervalą.
 
-![Histogram of real world data](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.lt.png)
+![Histogram of real world data](../../../../translated_images/lt/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Iš šios histogramos matote, kad visos reikšmės yra sutelktos aplink tam tikrą vidutinį svorį, o kuo toliau nuo to svorio - tuo mažiau svorių su ta reikšme yra aptinkama. T. y., labai mažai tikėtina, kad beisbolo žaidėjo svoris labai skirsis nuo vidutinio svorio. Svorio dispersija rodo, kiek svoriai gali skirtis nuo vidurkio.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Jei sudarysime sugeneruotų imčių histogramą, pamatysime vaizdą, labai panašų į aukščiau pateiktą. O jei padidinsime imčių skaičių ir dėžių skaičių, galime sugeneruoti normalaus pasiskirstymo vaizdą, kuris bus artimesnis idealiam:
 
-![Normal Distribution with mean=0 and std.dev=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.lt.png)
+![Normal Distribution with mean=0 and std.dev=1](../../../../translated_images/lt/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Normalusis pasiskirstymas su vidurkiu=0 ir standartiniu nuokrypiu=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 Mūsų atveju reikšmė 0.53 rodo, kad yra tam tikra koreliacija tarp žmogaus svorio ir ūgio. Taip pat galime sudaryti sklaidos diagramą, kurioje viena reikšmė vaizduojama prieš kitą, kad vizualiai pamatytume ryšį:
 
-![Ryšys tarp svorio ir ūgio](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.lt.png)
+![Ryšys tarp svorio ir ūgio](../../../../translated_images/lt/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Daugiau koreliacijos ir kovariacijos pavyzdžių galite rasti [pridedamoje užrašų knygelėje](notebook.ipynb).
 

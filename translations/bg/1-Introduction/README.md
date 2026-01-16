@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Въведение в науката за данните
 
-![данни в действие](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.bg.jpg)
+![данни в действие](../../../translated_images/bg/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Снимка от <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> на <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 В тези уроци ще откриете как се дефинира науката за данните и ще научите за етичните съображения, които трябва да бъдат взети предвид от специалиста по данни. Ще научите също как се дефинират данните и ще се запознаете с основите на статистиката и вероятностите, които са основни академични области на науката за данните.

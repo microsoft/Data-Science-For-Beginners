@@ -51,7 +51,7 @@ honey.head()
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.ne.png)
+![scatterplot 1](../../../../translated_images/ne/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 अब, महको रंग योजनाको प्रयोग गरेर वर्ष दर वर्ष मूल्य कसरी परिवर्तन भएको छ भन्ने देखाउनुहोस्। तपाईंले 'hue' प्यारामिटर थपेर परिवर्तन देखाउन सक्नुहुन्छ:
 
@@ -60,7 +60,7 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.ne.png)
+![scatterplot 2](../../../../translated_images/ne/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 यो रंग योजनाको परिवर्तनसँगै, तपाईंले स्पष्ट रूपमा देख्न सक्नुहुन्छ कि महको प्रति पाउन्ड मूल्यमा वर्ष दर वर्ष बलियो प्रगति भएको छ। वास्तवमा, यदि तपाईं डेटाको नमूना सेट हेर्नुहुन्छ (उदाहरणका लागि, एरिजोना राज्य चयन गर्नुहोस्) तपाईंले वर्ष दर वर्ष मूल्य वृद्धि भएको ढाँचा देख्न सक्नुहुन्छ, केही अपवादहरू सहित:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 तपाईंले बिन्दुको आकार क्रमशः बढ्दै गएको देख्न सक्नुहुन्छ।
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.ne.png)
+![scatterplot 3](../../../../translated_images/ne/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 के यो आपूर्ति र मागको साधारण मामला हो? जलवायु परिवर्तन र उपनिवेश पतन जस्ता कारणहरूले गर्दा, वर्ष दर वर्ष किन महको मूल्य बढ्दै गएको छ?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 उत्तर: हो, केही अपवादहरू सहित, विशेष गरी २००३ को वरिपरि:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.ne.png)
+![line chart 1](../../../../translated_images/ne/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ किनकि Seaborn ले एक लाइन वरिपरि डेटा समेट्दै छ, यसले "प्रत्येक x मानमा बहु मापनहरू औसत र औसत वरिपरि ९५% विश्वास अन्तराल प्लट गरेर देखाउँछ।" [स्रोत](https://seaborn.pydata.org/tutorial/relational.html)। यो समय लाग्ने व्यवहारलाई `ci=None` थपेर अक्षम गर्न सकिन्छ।
 
@@ -114,7 +114,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.ne.png)
+![line chart 2](../../../../translated_images/ne/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 उत्तर: वास्तवमा होइन। यदि तपाईंले कुल उत्पादन हेर्नुभयो भने, यो विशेष वर्षमा बढेको जस्तो देखिन्छ, यद्यपि सामान्य रूपमा मह उत्पादनको मात्रा यी वर्षहरूमा घट्दै गएको छ।
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 यस दृश्यमा, तपाईंले प्रति उपनिवेश उत्पादन र उपनिवेशहरूको संख्या वर्ष दर वर्ष, राज्य दर राज्य, सँगसँगै तुलना गर्न सक्नुहुन्छ, स्तम्भहरूको लागि wrap लाई ३ मा सेट गरेर:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.ne.png)
+![facet grid](../../../../translated_images/ne/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 यस डेटासेटका लागि, उपनिवेशहरूको संख्या र तिनीहरूको उत्पादनको सम्बन्धमा वर्ष दर वर्ष र राज्य दर राज्य केही विशेष कुरा बाहिर देखिँदैन। के यी दुई चरहरू बीचको सम्बन्ध पत्ता लगाउन हेर्ने फरक तरिका छ?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.ne.png)
+![superimposed plots](../../../../translated_images/ne/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 २००३ को वरिपरि आँखा बाहिर केही नजम्पे पनि, यसले हामीलाई यो पाठलाई अलिकति खुशीको नोटमा अन्त्य गर्न अनुमति दिन्छ: उपनिवेशहरूको संख्या घट्दै गएको भए पनि, उपनिवेशहरूको संख्या स्थिर हुँदैछ, यद्यपि तिनीहरूको प्रति उपनिवेश उत्पादन घट्दैछ।
 

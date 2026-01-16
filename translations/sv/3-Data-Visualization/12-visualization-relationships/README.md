@@ -51,7 +51,7 @@ Skapa ett grundläggande spridningsdiagram för att visa relationen mellan prise
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![spridningsdiagram 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.sv.png)
+![spridningsdiagram 1](../../../../translated_images/sv/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Visa nu samma data med ett honungsfärgschema för att visa hur priset utvecklas över åren. Du kan göra detta genom att lägga till en 'hue'-parameter för att visa förändringen år för år:
 
@@ -60,7 +60,7 @@ Visa nu samma data med ett honungsfärgschema för att visa hur priset utvecklas
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![spridningsdiagram 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.sv.png)
+![spridningsdiagram 2](../../../../translated_images/sv/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 Med denna färgschemaförändring kan du tydligt se en stark progression över åren när det gäller priset på honung per pound. Om du tittar på ett urval av data för att verifiera (välj en viss delstat, till exempel Arizona) kan du se ett mönster av prisökningar år för år, med få undantag:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Du kan se att storleken på punkterna gradvis ökar.
 
-![spridningsdiagram 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.sv.png)
+![spridningsdiagram 3](../../../../translated_images/sv/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Är detta ett enkelt fall av utbud och efterfrågan? På grund av faktorer som klimatförändringar och kollaps av bisamhällen, finns det mindre honung tillgänglig för köp år för år, och därmed ökar priset?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Svar: Ja, med vissa undantag runt år 2003:
 
-![linjediagram 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.sv.png)
+![linjediagram 1](../../../../translated_images/sv/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Eftersom Seaborn aggregerar data runt en linje, visar den "de flera mätningarna vid varje x-värde genom att plotta medelvärdet och 95 % konfidensintervallet runt medelvärdet". [Källa](https://seaborn.pydata.org/tutorial/relational.html). Detta tidskrävande beteende kan inaktiveras genom att lägga till `ci=None`.
 
@@ -114,7 +114,7 @@ Fråga: Kan vi också se en topp i honungstillgången runt 2003? Vad händer om 
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![linjediagram 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.sv.png)
+![linjediagram 2](../../../../translated_images/sv/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Svar: Inte riktigt. Om du tittar på den totala produktionen verkar den faktiskt ha ökat det året, även om mängden producerad honung generellt sett minskar under dessa år.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 I denna visualisering kan du jämföra avkastning per samhälle och antal samhällen år för år, sida vid sida med en wrap inställd på 3 för kolumnerna:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.sv.png)
+![facet grid](../../../../translated_images/sv/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 För detta dataset framträder inget särskilt med avseende på antalet samhällen och deras avkastning, år för år och delstat för delstat. Finns det ett annat sätt att hitta en korrelation mellan dessa två variabler?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![överlagrade diagram](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.sv.png)
+![överlagrade diagram](../../../../translated_images/sv/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Även om inget särskilt framträder runt år 2003, låter det oss avsluta denna lektion på en lite gladare not: även om antalet samhällen totalt sett minskar, stabiliseras antalet samhällen även om deras avkastning per samhälle minskar.
 

@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Video ya Kufafanua Sayansi ya Takwimu](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.sw.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Video ya Kufafanua Sayansi ya Takwimu](../../../../translated_images/sw/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Jaribio la kabla ya somo](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ Ikiwa tunataka kufanya uchambuzi wa kina zaidi, tunaweza kuchora muda unaotumika
 
 Katika changamoto hii, tutajaribu kutafuta dhana zinazohusiana na uwanja wa Sayansi ya Takwimu kwa kuangalia maandishi. Tutachukua makala ya Wikipedia kuhusu Sayansi ya Takwimu, kupakua na kuchakata maandishi, kisha kujenga wingu la maneno kama hili:
 
-![Wingu la Maneno kwa Sayansi ya Takwimu](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.sw.png)
+![Wingu la Maneno kwa Sayansi ya Takwimu](../../../../translated_images/sw/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Tembelea [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') kusoma kupitia msimbo. Unaweza pia kuendesha msimbo huo, na kuona jinsi unavyofanya mabadiliko yote ya data kwa wakati halisi.
 

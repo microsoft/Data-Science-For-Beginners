@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introducción a la Ciencia de Datos
 
-![datos en acción](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.es.jpg)
+![datos en acción](../../../translated_images/es/data.48e22bb7617d8d92.webp)
 > Foto por <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> en <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 En estas lecciones, descubrirás cómo se define la Ciencia de Datos y aprenderás sobre las consideraciones éticas que un científico de datos debe tener en cuenta. También aprenderás cómo se define el dato y conocerás un poco sobre estadística y probabilidad, los dominios académicos fundamentales de la Ciencia de Datos.

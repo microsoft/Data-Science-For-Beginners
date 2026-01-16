@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 هنا، تقوم بتثبيت حزمة `ggplot2` ثم استيرادها إلى مساحة العمل باستخدام الأمر `library("ggplot2")`. لرسم أي مخطط في ggplot، يتم استخدام وظيفة `ggplot()` وتحديد مجموعة البيانات، متغيرات x و y كسمات. في هذه الحالة، نستخدم وظيفة `geom_line()` لأننا نهدف إلى رسم مخطط خطي.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.ar.png)
+![MaxWingspan-lineplot](../../../../../translated_images/ar/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 ما الذي تلاحظه فورًا؟ يبدو أن هناك على الأقل نقطة شاذة واحدة - هذا عرض جناح كبير جدًا! عرض جناح يزيد عن 2000 سنتيمتر يساوي أكثر من 20 مترًا - هل هناك تيروداكتيلات تتجول في مينيسوتا؟ دعونا نحقق في الأمر.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 نحدد الزاوية في `theme` ونحدد تسميات المحورين x و y في `xlab()` و `ylab()` على التوالي. يعطي `ggtitle()` اسمًا للرسم البياني/المخطط.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.ar.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/ar/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 حتى مع تدوير التسميات إلى 45 درجة، هناك الكثير منها لقراءتها. دعونا نحاول استراتيجية مختلفة: قم بتسمية النقاط الشاذة فقط وضع التسميات داخل الرسم البياني. يمكنك استخدام مخطط مبعثر لتوفير مساحة أكبر للتسمية:
 
@@ -100,7 +100,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 
 ماذا تكتشف؟
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.ar.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/ar/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## تصفية البيانات الخاصة بك
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 قمنا بإنشاء إطار بيانات جديد `birds_filtered` ثم رسمنا مخططًا مبعثرًا. من خلال تصفية النقاط الشاذة، أصبحت بياناتك الآن أكثر تماسكًا وفهمًا.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.ar.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/ar/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 الآن بعد أن أصبح لدينا مجموعة بيانات أنظف على الأقل من حيث عرض الجناح، دعونا نكتشف المزيد عن هذه الطيور.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```
 في المقتطف التالي، نقوم بتثبيت حزم [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) و[lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) للمساعدة في معالجة وتجميع البيانات من أجل رسم مخطط عمودي مكدس. أولاً، نقوم بتجميع البيانات حسب `Category` الطيور ثم تلخيص الأعمدة `MinLength`, `MaxLength`, `MinBodyMass`,`MaxBodyMass`,`MinWingspan`,`MaxWingspan`. ثم، نرسم المخطط العمودي باستخدام حزمة `ggplot2` ونحدد الألوان للفئات المختلفة والتسميات.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.ar.png)
+![Stacked bar chart](../../../../../translated_images/ar/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 ومع ذلك، هذا المخطط العمودي غير قابل للقراءة لأنه يحتوي على الكثير من البيانات غير المجمعة. تحتاج إلى اختيار البيانات التي تريد رسمها فقط، لذا دعونا ننظر إلى طول الطيور بناءً على فئتها.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```
 أولاً، تقوم بعد القيم الفريدة في عمود `Category` ثم ترتيبها في إطار بيانات جديد `birds_count`. يتم ترتيب هذه البيانات المصفاة بنفس المستوى بحيث يتم رسمها بطريقة مرتبة. باستخدام `ggplot2`، تقوم بعد ذلك برسم البيانات في مخطط عمودي. يقوم `coord_flip()` برسم الأعمدة أفقيًا.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.ar.png)
+![category-length](../../../../../translated_images/ar/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 يوفر هذا المخطط العمودي عرضًا جيدًا لعدد الطيور في كل فئة. في لمحة، ترى أن أكبر عدد من الطيور في هذه المنطقة ينتمي إلى فئة البط/الإوز/طيور الماء. مينيسوتا هي "أرض 10,000 بحيرة"، لذا هذا ليس مفاجئًا!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```
 نقوم بتجميع بيانات `birds_filtered` حسب `Category` ثم رسم مخطط عمودي.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.ar.png)
+![comparing data](../../../../../translated_images/ar/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 لا شيء مفاجئ هنا: الطيور الطنانة لديها أقل طول أقصى مقارنة بالبجع أو الإوز. من الجيد عندما تكون البيانات منطقية!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.ar.png)
+![super-imposed values](../../../../../translated_images/ar/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 تحدي
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Визуализации
 
-![пчела върху цвете лавандула](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.bg.jpg)
+![пчела върху цвете лавандула](../../../translated_images/bg/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Снимка от <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> на <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Визуализирането на данни е една от най-важните задачи на специалиста по данни. Една картина казва повече от хиляда думи, а визуализацията може да ви помогне да идентифицирате всякакви интересни аспекти на вашите данни, като пикове, отклонения, групирания, тенденции и други, които могат да ви помогнат да разберете историята, която вашите данни се опитват да разкажат.

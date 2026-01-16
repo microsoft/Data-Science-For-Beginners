@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
  * [علم داده در مراقبت‌های بهداشتی](https://data-flair.training/blogs/data-science-in-healthcare/) - کاربردهایی مانند تصویربرداری پزشکی (مانند MRI، اشعه ایکس، سی‌تی‌اسکن)، ژنومیک (توالی‌یابی DNA)، توسعه دارو (ارزیابی ریسک، پیش‌بینی موفقیت)، تحلیل‌های پیش‌بینی‌کننده (مراقبت از بیمار و لجستیک تامین)، ردیابی و پیشگیری از بیماری و غیره را برجسته می‌کند.
 
-![کاربردهای علم داده در دنیای واقعی](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.fa.png) اعتبار تصویر: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![کاربردهای علم داده در دنیای واقعی](../../../../translated_images/fa/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) اعتبار تصویر: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 این شکل حوزه‌ها و مثال‌های دیگری برای کاربرد تکنیک‌های علم داده را نشان می‌دهد. آیا می‌خواهید کاربردهای دیگری را بررسی کنید؟ بخش [مرور و مطالعه خود](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) را در زیر ببینید.
 

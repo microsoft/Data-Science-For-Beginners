@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # డేటాతో పని చేయడం
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.te.jpg)
+![data love](../../../translated_images/te/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > ఫోటో <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> ద్వారా <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>లో
   
 ఈ పాఠాలలో, డేటాను ఎలా నిర్వహించవచ్చు, మార్చవచ్చు మరియు అనువర్తనాలలో ఉపయోగించవచ్చు అనే కొన్ని మార్గాలను మీరు నేర్చుకుంటారు. మీరు సంబంధిత మరియు అసంబంధిత డేటాబేస్‌ల గురించి మరియు వాటిలో డేటాను ఎలా నిల్వ చేయవచ్చో తెలుసుకుంటారు. డేటాను నిర్వహించడానికి Pythonతో పని చేసే ప్రాథమిక అంశాలను మీరు నేర్చుకుంటారు, మరియు Pythonతో డేటాను నిర్వహించడానికి మరియు తవ్వడానికి మీరు ఉపయోగించగల అనేక మార్గాలను మీరు కనుగొంటారు. 

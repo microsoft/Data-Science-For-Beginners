@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Paggamit ng Data
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.tl.jpg)
+![data love](../../../translated_images/tl/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Larawan ni <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> sa <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Sa mga araling ito, matututuhan mo ang iba't ibang paraan kung paano maaaring pamahalaan, manipulahin, at gamitin ang data sa mga aplikasyon. Malalaman mo ang tungkol sa relational at non-relational na mga database at kung paano naiimbak ang data sa mga ito. Matututuhan mo ang mga pangunahing kaalaman sa paggamit ng Python para pamahalaan ang data, at madidiskubre mo ang maraming paraan kung paano maaaring gamitin ang Python upang pamahalaan at tuklasin ang data.

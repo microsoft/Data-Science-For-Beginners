@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :---------------------------------------------------------------------------------------------------------------: |
 |                 ਪਾਇਥਨ ਨਾਲ ਕੰਮ ਕਰਨਾ - _[@nitya](https://twitter.com/nitya) ਦੁਆਰਾ ਬਣਾਈ ਗਈ ਸਕੈਚਨੋਟ_                 |
 
-[![ਜਾਣ-ਪਛਾਣ ਵੀਡੀਓ](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.pa.png)](https://youtu.be/dZjWOGbsN4Y)
+[![ਜਾਣ-ਪਛਾਣ ਵੀਡੀਓ](../../../../translated_images/pa/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 ਜਦੋਂ ਕਿ ਡਾਟਾਬੇਸ ਡਾਟਾ ਨੂੰ ਸਟੋਰ ਕਰਨ ਅਤੇ ਕਵੈਰੀ ਲੈਂਗਵੇਜਾਂ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਕਵੈਰੀ ਕਰਨ ਦੇ ਲਈ ਬਹੁਤ ਕੁਸ਼ਲ ਤਰੀਕੇ ਪੇਸ਼ ਕਰਦੇ ਹਨ, ਡਾਟਾ ਪ੍ਰੋਸੈਸਿੰਗ ਦਾ ਸਭ ਤੋਂ ਲਚਕਦਾਰ ਤਰੀਕਾ ਆਪਣਾ ਪ੍ਰੋਗਰਾਮ ਲਿਖਣਾ ਹੈ ਜੋ ਡਾਟਾ ਨੂੰ ਮੋੜ ਸਕੇ। ਕਈ ਮਾਮਲਿਆਂ ਵਿੱਚ, ਡਾਟਾਬੇਸ ਕਵੈਰੀ ਕਰਨਾ ਜ਼ਿਆਦਾ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਹੋਵੇਗਾ। ਹਾਲਾਂਕਿ ਕੁਝ ਮਾਮਲਿਆਂ ਵਿੱਚ ਜਦੋਂ ਜ਼ਿਆਦਾ ਜਟਿਲ ਡਾਟਾ ਪ੍ਰੋਸੈਸਿੰਗ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ, ਇਹ SQL ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਆਸਾਨੀ ਨਾਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ। 
 ਡਾਟਾ ਪ੍ਰੋਸੈਸਿੰਗ ਕਿਸੇ ਵੀ ਪ੍ਰੋਗਰਾਮਿੰਗ ਭਾਸ਼ਾ ਵਿੱਚ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ, ਪਰ ਕੁਝ ਭਾਸ਼ਾਵਾਂ ਹਨ ਜੋ ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨ ਦੇ ਹਿਸਾਬ ਨਾਲ ਉੱਚ ਪੱਧਰ ਦੀਆਂ ਹਨ। ਡਾਟਾ ਸਾਇੰਟਿਸਟ ਆਮ ਤੌਰ 'ਤੇ ਹੇਠਾਂ ਦਿੱਤੀਆਂ ਭਾਸ਼ਾਵਾਂ ਵਿੱਚੋਂ ਇੱਕ ਨੂੰ ਤਰਜੀਹ ਦਿੰਦੇ ਹਨ:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![ਟਾਈਮ ਸਿਰੀਜ਼ ਪਲਾਟ](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.pa.png)
+![ਟਾਈਮ ਸਿਰੀਜ਼ ਪਲਾਟ](../../../../translated_images/pa/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 ਹੁਣ ਮੰਨ ਲਓ ਕਿ ਹਰ ਹਫ਼ਤੇ ਅਸੀਂ ਦੋਸਤਾਂ ਲਈ ਇੱਕ ਪਾਰਟੀ ਦਾ ਆਯੋਜਨ ਕਰਦੇ ਹਾਂ, ਅਤੇ ਪਾਰਟੀ ਲਈ 10 ਪੈਕ ਆਈਸ-ਕ੍ਰੀਮ ਵਾਧੂ ਲੈਂਦੇ ਹਾਂ। ਅਸੀਂ ਹਫ਼ਤੇ ਦੇ ਸੂਚਕ ਦੁਆਰਾ ਇੱਕ ਹੋਰ ਸਿਰੀਜ਼ ਬਣਾਉਣ ਲਈ ਇਹ ਦਿਖਾ ਸਕਦੇ ਹਾਂ:
 ```python
@@ -84,7 +84,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![ਟਾਈਮ ਸਿਰੀਜ਼ ਪਲਾਟ](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.pa.png)
+![ਟਾਈਮ ਸਿਰੀਜ਼ ਪਲਾਟ](../../../../translated_images/pa/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **ਨੋਟ** ਕਿ ਅਸੀਂ ਸਧਾਰਨ syntax `total_items+additional_items` ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕਰ ਰਹੇ। ਜੇ ਅਸੀਂ ਕਰਦੇ, ਤਾਂ ਸਾਨੂੰ resulting ਸਿਰੀਜ਼ ਵਿੱਚ ਬਹੁਤ ਸਾਰੇ `NaN` (*Not a Number*) ਮੁੱਲ ਮਿਲਦੇ। ਇਹ ਇਸ ਲਈ ਹੈ ਕਿਉਂਕਿ `additional_items` ਸਿਰੀਜ਼ ਵਿੱਚ ਕੁਝ ਸੂਚਕ ਬਿੰਦੂਆਂ ਲਈ ਮੁੱਲ ਗੁੰਮ ਹਨ, ਅਤੇ `Nan` ਨੂੰ ਕਿਸੇ ਵੀ ਚੀਜ਼ ਵਿੱਚ ਜੋੜਨਾ `NaN` ਦੇ ਨਤੀਜੇ ਵਿੱਚ ਹੁੰਦਾ ਹੈ। ਇਸ ਲਈ ਅਸੀਂ ਜੋੜਦੇ ਸਮੇਂ `fill_value` ਪੈਰਾਮੀਟਰ ਨੂੰ ਨਿਰਧਾਰਤ ਕਰਨ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।
 
@@ -93,7 +93,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![ਮਹੀਨਾਵਾਰ ਟਾਈਮ ਸਿਰੀਜ਼ ਐਵਰੇਜ](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.pa.png)
+![ਮਹੀਨਾਵਾਰ ਟਾਈਮ ਸਿਰੀਜ਼ ਐਵਰੇਜ](../../../../translated_images/pa/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### ਡਾਟਾਫ੍ਰੇਮ
 
@@ -158,7 +158,7 @@ df = pd.read_csv('file.csv')
 
 ਜਦੋਂ ਕਿ ਅਸੀਂ ਡਾਟਾ ਨਾਲ ਨਿਪਟਣ ਦਾ ਪ੍ਰਦਰਸ਼ਨ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹਾਂ, ਅਸੀਂ ਤੁਹਾਨੂੰ ਸਲਾਹ ਦਿੰਦੇ ਹਾਂ ਕਿ [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) ਖੋਲ੍ਹੋ ਅਤੇ ਇਸਨੂੰ ਉੱਪਰ ਤੋਂ ਹੇਠਾਂ ਪੜ੍ਹੋ। ਤੁਸੀਂ ਸੈੱਲ ਚਲਾ ਸਕਦੇ ਹੋ ਅਤੇ ਕੁਝ ਚੁਣੌਤੀਆਂ ਕਰ ਸਕਦੇ ਹੋ ਜੋ ਅਸੀਂ ਤੁਹਾਡੇ ਲਈ ਅੰਤ ਵਿੱਚ ਛੱਡੀਆਂ ਹਨ।
 
-![COVID ਫੈਲਾਅ](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.pa.png)
+![COVID ਫੈਲਾਅ](../../../../translated_images/pa/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > ਜੇ ਤੁਸੀਂ Jupyter Notebook ਵਿੱਚ ਕੋਡ ਚਲਾਉਣ ਦਾ ਤਰੀਕਾ ਨਹੀਂ ਜਾਣਦੇ, ਤਾਂ [ਇਸ ਲੇਖ](https://soshnikov.com/education/how-to-execute-notebooks-from-github/) ਨੂੰ ਵੇਖੋ।
 
@@ -180,7 +180,7 @@ df = pd.read_csv('file.csv')
 
 [`notebook-papers.ipynb`](notebook-papers.ipynb) ਖੋਲ੍ਹੋ ਅਤੇ ਇਸਨੂੰ ਉੱਪਰ ਤੋਂ ਹੇਠਾਂ ਪੜ੍ਹੋ। ਤੁਸੀਂ ਸੈੱਲ ਚਲਾ ਸਕਦੇ ਹੋ ਅਤੇ ਕੁਝ ਚੁਣੌਤੀਆਂ ਕਰ ਸਕਦੇ ਹੋ ਜੋ ਅਸੀਂ ਤੁਹਾਡੇ ਲਈ ਅੰਤ ਵਿੱਚ ਛੱਡੀਆਂ ਹਨ।
 
-![Covid ਮੈਡੀਕਲ ਇਲਾਜ](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.pa.png)
+![Covid ਮੈਡੀਕਲ ਇਲਾਜ](../../../../translated_images/pa/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## ਚਿੱਤਰ ਡਾਟਾ ਦੀ ਪ੍ਰੋਸੈਸਿੰਗ
 

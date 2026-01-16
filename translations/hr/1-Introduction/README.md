@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Uvod u podatkovnu znanost
 
-![podaci u akciji](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.hr.jpg)
+![podaci u akciji](../../../translated_images/hr/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Fotografija autora <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> na <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 U ovim lekcijama otkrit ćete kako se definira podatkovna znanost i upoznati se s etičkim razmatranjima koja mora uzeti u obzir podatkovni znanstvenik. Također ćete naučiti kako se definiraju podaci te steći osnovno razumijevanje statistike i vjerojatnosti, ključnih akademskih područja podatkovne znanosti.

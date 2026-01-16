@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![szórásdiagram 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.hu.png)
+![szórásdiagram 1](../../../../../translated_images/hu/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 Most mutasd meg ugyanazt az adatot méz színsémával, hogy bemutasd, hogyan változik az ár az évek során. Ezt úgy teheted meg, hogy hozzáadsz egy 'scale_color_gradientn' paramétert, amely megmutatja az évről évre történő változást:
 
@@ -61,7 +61,7 @@ Most mutasd meg ugyanazt az adatot méz színsémával, hogy bemutasd, hogyan v�
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![szórásdiagram 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.hu.png)
+![szórásdiagram 2](../../../../../translated_images/hu/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 Ezzel a színséma változtatással egyértelműen látható az évek során a méz fontonkénti árának erős növekedése. Valóban, ha az adatbázis egy mintáját megvizsgálod (például Arizona államot), láthatod az árak évről évre történő növekedésének mintázatát, néhány kivétellel:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Láthatod, hogy a pontok mérete fokozatosan növekszik.
 
-![szórásdiagram 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.hu.png)
+![szórásdiagram 3](../../../../../translated_images/hu/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 Ez egyszerűen a kereslet és kínálat esete? Az olyan tényezők, mint az éghajlatváltozás és a kolóniák összeomlása miatt kevesebb méz áll rendelkezésre évről évre, és ezért nő az ára?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Válasz: Igen, néhány kivétellel 2003 körül:
 
-![vonaldiagram 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.hu.png)
+![vonaldiagram 1](../../../../../translated_images/hu/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 Kérdés: Nos, 2003-ban láthatunk egy kiugrást a mézkészletben is? Mi történik, ha megvizsgáljuk a teljes termelést évről évre?
 
@@ -115,7 +115,7 @@ Kérdés: Nos, 2003-ban láthatunk egy kiugrást a mézkészletben is? Mi tört�
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![vonaldiagram 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.hu.png)
+![vonaldiagram 2](../../../../../translated_images/hu/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 Válasz: Nem igazán. Ha megnézzük a teljes termelést, úgy tűnik, hogy az valójában növekedett abban az évben, bár általánosságban a méztermelés csökkenő tendenciát mutat ezekben az években.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 Ebben a vizualizációban összehasonlíthatod a kolóniánkénti hozamot és a kolóniák számát évről évre, egymás mellett, 3 oszlopra állítva a wrap-et:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.hu.png)
+![facet grid](../../../../../translated_images/hu/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 Ebben az adatbázisban semmi különös nem tűnik ki a kolóniák számával és hozamával kapcsolatban évről évre és államonként. Van más módja annak, hogy összefüggést találjunk e két változó között?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![egymásra helyezett diagramok](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.hu.png)
+![egymásra helyezett diagramok](../../../../../translated_images/hu/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 Bár semmi különös nem tűnik ki 2003 körül, ez lehetőséget ad arra, hogy egy kicsit vidámabb hangon zárjuk ezt a leckét: bár a kolóniák száma általánosságban csökken, a kolóniák száma stabilizálódik, még akkor is, ha a kolóniánkénti hozam csökken.
 

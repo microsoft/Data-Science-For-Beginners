@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 視覺化
 
-![一隻蜜蜂停在薰衣草花上](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.hk.jpg)
+![一隻蜜蜂停在薰衣草花上](../../../translated_images/hk/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > 照片由 <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> 提供，來源於 <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 視覺化數據是數據科學家最重要的任務之一。圖片勝過千言萬語，視覺化可以幫助你識別數據中的各種有趣部分，例如峰值、異常值、分組、趨勢等等，這些都能幫助你理解數據背後的故事。

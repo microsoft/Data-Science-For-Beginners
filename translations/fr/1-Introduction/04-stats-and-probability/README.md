@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 La théorie des statistiques et des probabilités sont deux domaines étroitement liés des mathématiques, très pertinents pour la science des données. Il est possible de travailler avec des données sans une connaissance approfondie des mathématiques, mais il est tout de même préférable de connaître au moins quelques concepts de base. Voici une courte introduction pour vous aider à démarrer.
 
-[![Vidéo d'introduction](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.fr.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Vidéo d'introduction](../../../../translated_images/fr/video-prob-and-stats.e4282e5efa2f2543.webp)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Il est plus difficile de décrire la distribution de probabilité d'une variable
 
 Nous ne pouvons parler que de la probabilité qu'une variable tombe dans un intervalle donné de valeurs, par exemple P(t<sub>1</sub>≤X<t<sub>2</sub>). Dans ce cas, la distribution de probabilité est décrite par une **fonction de densité de probabilité** p(x), telle que
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.fr.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/fr/probability-density.a8aad29f17a14afb.webp)
 
 Un analogue continu de la distribution uniforme est appelé **uniforme continue**, qui est défini sur un intervalle fini. La probabilité que la valeur X tombe dans un intervalle de longueur l est proportionnelle à l, et augmente jusqu'à 1.
 
@@ -82,11 +82,11 @@ Lorsque nous analysons des données provenant de la vie réelle, elles ne sont s
 
 Voici le diagramme en boîte montrant la moyenne, la médiane et les quartiles pour nos données :
 
-![Diagramme en boîte des poids](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.fr.png)
+![Diagramme en boîte des poids](../../../../translated_images/fr/weight-boxplot.1dbab1c03af26f8a.webp)
 
 Étant donné que nos données contiennent des informations sur différents **rôles** de joueurs, nous pouvons également réaliser un diagramme en boîte par rôle - cela nous permettra de comprendre comment les valeurs des paramètres diffèrent selon les rôles. Cette fois, nous considérerons la taille :
 
-![Diagramme en boîte par rôle](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.fr.png)
+![Diagramme en boîte par rôle](../../../../translated_images/fr/boxplot_byrole.036b27a1c3f52d42.webp)
 
 Ce diagramme suggère qu'en moyenne, la taille des joueurs de première base est supérieure à celle des joueurs de deuxième base. Plus tard dans cette leçon, nous apprendrons comment tester cette hypothèse de manière plus formelle et comment démontrer que nos données sont statistiquement significatives pour le prouver.
 
@@ -94,7 +94,7 @@ Ce diagramme suggère qu'en moyenne, la taille des joueurs de première base est
 
 Pour voir quelle est la distribution de nos données, nous pouvons tracer un graphique appelé **histogramme**. L'axe X contiendra un certain nombre d'intervalles de poids différents (appelés **bins**), et l'axe vertical montrera le nombre de fois où notre échantillon de variable aléatoire se trouvait dans un intervalle donné.
 
-![Histogramme des données du monde réel](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.fr.png)
+![Histogramme des données du monde réel](../../../../translated_images/fr/weight-histogram.bfd00caf7fc30b14.webp)
 
 À partir de cet histogramme, vous pouvez voir que toutes les valeurs sont centrées autour d'un certain poids moyen, et plus nous nous éloignons de ce poids, moins nous rencontrons de poids de cette valeur. Autrement dit, il est très improbable que le poids d'un joueur de baseball soit très différent du poids moyen. La variance des poids montre dans quelle mesure les poids sont susceptibles de différer de la moyenne.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Si nous traçons l'histogramme des échantillons générés, nous verrons une image très similaire à celle montrée ci-dessus. Et si nous augmentons le nombre d'échantillons et le nombre de bins, nous pouvons générer une image de distribution normale plus proche de l'idéal :
 
-![Distribution normale avec moyenne=0 et écart-type=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.fr.png)
+![Distribution normale avec moyenne=0 et écart-type=1](../../../../translated_images/fr/normal-histogram.dfae0d67c202137d.webp)
 
 *Distribution normale avec moyenne=0 et écart-type=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 Dans notre cas, la valeur 0,53 indique qu'il existe une certaine corrélation entre le poids et la taille d'une personne. Nous pouvons également tracer un nuage de points d'une valeur par rapport à l'autre pour voir visuellement la relation :
 
-![Relation entre poids et taille](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.fr.png)
+![Relation entre poids et taille](../../../../translated_images/fr/weight-height-relationship.3f06bde4ca2aba99.webp)
 
 > Plus d'exemples de corrélation et de covariance peuvent être trouvés dans le [notebook associé](notebook.ipynb).
 

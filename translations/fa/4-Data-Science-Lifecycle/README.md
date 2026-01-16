@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # چرخه حیات علم داده
 
-![ارتباط](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.fa.jpg)  
+![ارتباط](../../../translated_images/fa/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)  
 > عکس از <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> در <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
 
 در این درس‌ها، برخی از جنبه‌های چرخه حیات علم داده را بررسی خواهید کرد، از جمله تحلیل و ارتباطات پیرامون داده‌ها.

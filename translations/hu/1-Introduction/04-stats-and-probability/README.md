@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 A statisztika és a valószínűségelmélet a matematika két szorosan összefüggő területe, amelyek rendkívül fontosak az adatelemzés szempontjából. Bár lehetséges adatokkal dolgozni mély matematikai ismeretek nélkül, mégis hasznos, ha legalább az alapfogalmakkal tisztában vagyunk. Itt egy rövid bevezetőt nyújtunk, amely segít az indulásban.
 
-[![Bevezető videó](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.hu.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Bevezető videó](../../../../translated_images/hu/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Folytonos változók esetén nehezebb leírni a valószínűségi eloszlást, ha
 
 Csak arról beszélhetünk, hogy egy változó egy adott értéktartományba esik, például P(t<sub>1</sub>≤X<t<sub>2</sub>). Ebben az esetben a valószínűségi eloszlást egy **sűrűségfüggvény** p(x) írja le, amelyre igaz, hogy
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.hu.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/hu/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Az egyenletes eloszlás folytonos megfelelőjét **folytonos egyenletes eloszlásnak** nevezzük, amely egy véges intervallumon van definiálva. Annak a valószínűsége, hogy az X érték egy l hosszúságú intervallumba esik, arányos l-lel, és legfeljebb 1 lehet.
 
@@ -82,11 +82,11 @@ Amikor valós életből származó adatokat elemzünk, azok gyakran nem véletle
 
 Itt látható egy dobozdiagram, amely az adatok átlagát, mediánját és kvartilisét mutatja:
 
-![Súly dobozdiagram](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.hu.png)
+![Súly dobozdiagram](../../../../translated_images/hu/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Mivel adataink különböző játékos **szerepekről** tartalmaznak információt, készíthetünk szerepenkénti dobozdiagramot is - ez lehetővé teszi számunkra, hogy megértsük, hogyan különböznek az értékek a szerepek között. Ezúttal a magasságot vizsgáljuk:
 
-![Dobozdiagram szerepek szerint](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.hu.png)
+![Dobozdiagram szerepek szerint](../../../../translated_images/hu/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Ez a diagram azt sugallja, hogy átlagosan az első bázisjátékosok magasabbak, mint a második bázisjátékosok. Később az órán megtanuljuk, hogyan tesztelhetjük ezt a hipotézist formálisabban, és hogyan bizonyíthatjuk, hogy adataink statisztikailag szignifikánsak ennek kimutatására.
 
@@ -94,7 +94,7 @@ Ez a diagram azt sugallja, hogy átlagosan az első bázisjátékosok magasabbak
 
 Adataink eloszlásának megértéséhez készíthetünk egy **hisztogramot**. Az X-tengely különböző súlytartományokat (úgynevezett **bin-eket**) tartalmaz, míg a függőleges tengely azt mutatja, hogy véletlen változónk mintája hányszor esett egy adott tartományba.
 
-![Valós adatok hisztogramja](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.hu.png)
+![Valós adatok hisztogramja](../../../../translated_images/hu/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Ebből a hisztogramból látható, hogy az összes érték egy bizonyos átlagos súly körül koncentrálódik, és minél távolabb megyünk ettől a súlytól, annál kevesebb ilyen érték fordul elő. Azaz nagyon valószínűtlen, hogy egy baseballjátékos súlya jelentősen eltér az átlagos súlytól. A súlyok szórása azt mutatja, hogy a súlyok mennyire térhetnek el az átlagtól.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Ha a generált minták hisztogramját ábrázoljuk, nagyon hasonló képet kapunk, mint amit fentebb láttunk. Ha növeljük a minták és a bin-ek számát, egy ideális normális eloszláshoz közelebb álló képet kapunk:
 
-![Normális eloszlás átlag=0 és szórás=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.hu.png)
+![Normális eloszlás átlag=0 és szórás=1](../../../../translated_images/hu/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Normális eloszlás átlag=0 és szórás=1*
 
@@ -231,7 +231,7 @@ array([[1.        , 0.52959196],
 
 Esetünkben a 0.53 érték azt jelzi, hogy van némi korreláció egy személy súlya és magassága között. Készíthetünk egy szórási diagramot az egyik értékről a másik ellen, hogy vizuálisan lássuk a kapcsolatot:
 
-![Kapcsolat a súly és magasság között](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.hu.png)
+![Kapcsolat a súly és magasság között](../../../../translated_images/hu/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > További példák a korrelációra és kovarianciára az [kísérő jegyzetfüzetben](notebook.ipynb) találhatók.
 

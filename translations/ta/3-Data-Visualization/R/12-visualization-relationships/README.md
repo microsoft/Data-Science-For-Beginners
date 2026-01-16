@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.ta.png)
+![scatterplot 1](../../../../../translated_images/ta/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 இப்போது, ஆண்டுதோறும் தேனின் விலை எப்படி மாறுகிறது என்பதை தேன் நிறத்துடன் காட்டுங்கள். இதை 'scale_color_gradientn' பராமeter-ஐ சேர்த்து, ஆண்டுதோறும் மாற்றத்தை காட்சிப்படுத்தலாம்:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.ta.png)
+![scatterplot 2](../../../../../translated_images/ta/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 இந்த நிறத்திட்ட மாற்றத்துடன், ஆண்டுதோறும் தேனின் விலை ஒரு பவுண்டுக்கு அதிகரித்திருப்பது தெளிவாக தெரிகிறது. உண்மையில், தரவுகளில் ஒரு மாதிரியைப் பாருங்கள் (அரிசோனா மாநிலத்தை எடுத்துக்கொள்ளுங்கள்), சில விதிவிலக்குகளைத் தவிர, ஆண்டுதோறும் விலை அதிகரிக்கும் முறைபாட்டை நீங்கள் காணலாம்:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 புள்ளிகளின் அளவு تدريجமாக அதிகரிப்பதை நீங்கள் காணலாம்.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.ta.png)
+![scatterplot 3](../../../../../translated_images/ta/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 இது ஒரு எளிய தேவைக்கும் வழங்கலுக்கும் இடையேயான உறவா? காலநிலை மாற்றம் மற்றும் கொள்கலன்களின் அழிவு போன்ற காரணங்களால், ஆண்டுதோறும் வாங்குவதற்கு தேன் குறைவாக உள்ளதா, அதனால் விலை அதிகரிக்கிறதா?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 பதில்: ஆம், 2003 ஆம் ஆண்டைச் சுற்றியுள்ள சில விதிவிலக்குகளுடன்:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.ta.png)
+![line chart 1](../../../../../translated_images/ta/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 கேள்வி: 2003 ஆம் ஆண்டில் தேன் வழங்கலில் ஒரு உச்சம் காண முடியுமா? ஆண்டுதோறும் மொத்த உற்பத்தியைப் பாருங்கள்:
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.ta.png)
+![line chart 2](../../../../../translated_images/ta/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 பதில்: அவ்வாறு இல்லை. மொத்த உற்பத்தியைப் பாருங்கள், குறிப்பிட்ட ஆண்டில் அது அதிகரித்திருப்பது போலவே தெரிகிறது, ஆனால் பொதுவாக இந்த ஆண்டுகளில் தேன் உற்பத்தி குறைந்து கொண்டிருக்கிறது.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 இந்த காட்சிப்படுத்தலில், ஒவ்வொரு ஆண்டும் ஒவ்வொரு மாநிலமும் கொள்கலனின் உற்பத்தி மற்றும் எண்ணிக்கையை ஒப்பிடலாம், 3 க்கான நெடுவரிசை அமைப்புடன்:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.ta.png)
+![facet grid](../../../../../translated_images/ta/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 இந்த தரவுத்தொகுப்பில், ஒவ்வொரு ஆண்டும் ஒவ்வொரு மாநிலமும் கொள்கலன்களின் எண்ணிக்கை மற்றும் அவற்றின் உற்பத்தியில் குறிப்பிடத்தக்க மாற்றம் எதுவும் இல்லை. இந்த இரண்டு மாறிகளுக்கு இடையேயான தொடர்பை கண்டறிய வேறொரு வழி இருக்கிறதா?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.ta.png)
+![superimposed plots](../../../../../translated_images/ta/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 2003 ஆம் ஆண்டைச் சுற்றி கண்களுக்கு எதுவும் தெரியவில்லை, ஆனால் இது இந்த பாடத்தை ஒரு சிறிய மகிழ்ச்சியான குறிப்பில் முடிக்க அனுமதிக்கிறது: கொள்கலன்களின் எண்ணிக்கை குறைந்து கொண்டிருப்பதுடன், அவற்றின் உற்பத்தி குறைந்தாலும், கொள்கலன்களின் எண்ணிக்கை நிலைத்திருக்கிறது.
 

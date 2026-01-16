@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Візуалізації
 
-![бджола на квітці лаванди](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.uk.jpg)
+![бджола на квітці лаванди](../../../translated_images/uk/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Фото <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Дженни Лі</a> на <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Візуалізація даних — одна з найважливіших задач для дата-сайєнтиста. Зображення варті тисячі слів, а візуалізація може допомогти вам виявити різноманітні цікаві аспекти ваших даних, такі як піки, аномалії, групування, тенденції та багато іншого, що допоможе вам зрозуміти історію, яку ваші дані намагаються розповісти.

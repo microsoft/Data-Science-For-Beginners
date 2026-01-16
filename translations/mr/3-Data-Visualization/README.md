@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # दृश्यचित्रण
 
-![लॅव्हेंडर फुलावर मधमाशी](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.mr.jpg)
+![लॅव्हेंडर फुलावर मधमाशी](../../../translated_images/mr/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > फोटो <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">जेनना ली</a> यांनी Unsplash वरून घेतला आहे. <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 डेटा सायंटिस्टसाठी डेटा दृश्यचित्रण करणे ही एक महत्त्वाची जबाबदारी आहे. एक चित्र हजार शब्दांपेक्षा जास्त सांगते, आणि दृश्यचित्रण तुम्हाला तुमच्या डेटामधील अनेक मनोरंजक गोष्टी शोधण्यात मदत करू शकते, जसे की स्पाइक्स, आउटलाईयर्स, गट, प्रवृत्ती, आणि बरेच काही, ज्यामुळे तुम्हाला तुमचा डेटा काय सांगू इच्छित आहे हे समजण्यास मदत होते.

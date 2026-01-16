@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 ఇది, ఈ రెండు మష్రూమ్ తరగతుల ప్రకారం డేటా యొక్క నిష్పత్తులను చూపించే పై చార్ట్. లేబుల్స్ క్రమం సరిగ్గా ఉండటం చాలా ముఖ్యం, కాబట్టి లేబుల్ అర్రే ఎలా తయారవుతుందో నిర్ధారించుకోండి!
 
-![pie chart](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.te.png)
+![pie chart](../../../../../translated_images/te/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## డోనట్స్!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![donut chart](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.te.png)
+![donut chart](../../../../../translated_images/te/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 ఈ కోడ్ రెండు లైబ్రరీలు - ggplot2 మరియు webr ఉపయోగిస్తుంది. webr లైబ్రరీలో PieDonut ఫంక్షన్ ఉపయోగించి, డోనట్ చార్ట్ సులభంగా సృష్టించవచ్చు!
 
@@ -170,7 +170,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 వాఫిల్ చార్ట్ ఉపయోగించి, ఈ మష్రూమ్ dataset లో క్యాప్ రంగుల నిష్పత్తులను స్పష్టంగా చూడవచ్చు. ఆసక్తికరంగా, చాలా గ్రీన్ క్యాప్ మష్రూమ్స్ ఉన్నాయి!
 
-![waffle chart](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.te.png)
+![waffle chart](../../../../../translated_images/te/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 ఈ పాఠంలో, మీరు నిష్పత్తులను విజువలైజ్ చేయడానికి మూడు మార్గాలు నేర్చుకున్నారు. మొదట, డేటాను వర్గాలుగా వర్గీకరించి, ఆ తర్వాత డేటాను ప్రదర్శించడానికి ఉత్తమ మార్గం - పై, డోనట్ లేదా వాఫిల్ ఎంచుకోవాలి. ఇవన్నీ రుచికరమైనవి మరియు dataset యొక్క తక్షణ స్నాప్‌షాట్ తో వినియోగదారుని సంతృప్తి పరుస్తాయి.
 

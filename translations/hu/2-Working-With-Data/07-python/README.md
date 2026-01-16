@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Python használata - _Sketchnote by [@nitya](https://twitter.com/nitya)_                 |
 
-[![Bevezető videó](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.hu.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Bevezető videó](../../../../translated_images/hu/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Bár az adatbázisok hatékony módot kínálnak az adatok tárolására és lekérdezésére lekérdezési nyelvek segítségével, az adatok feldolgozásának legflexibilisebb módja az, ha saját programot írunk az adatok manipulálására. Sok esetben egy adatbázis-lekérdezés hatékonyabb megoldás lehet. Azonban, ha összetettebb adatfeldolgozásra van szükség, azt nem lehet könnyen SQL segítségével megvalósítani.  
 Az adatfeldolgozást bármely programozási nyelven meg lehet valósítani, de vannak olyan nyelvek, amelyek magasabb szintűek az adatokkal való munka szempontjából. Az adatelemzők általában az alábbi nyelvek egyikét részesítik előnyben:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```  
-![Idősor grafikon](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.hu.png)
+![Idősor grafikon](../../../../translated_images/hu/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Tegyük fel, hogy minden héten szervezünk egy baráti összejövetelt, és további 10 csomag fagylaltot viszünk a bulira. Létrehozhatunk egy másik sorozatot, amelyet hetek szerint indexelünk, hogy ezt bemutassuk:  
 ```python
@@ -84,7 +84,7 @@ Amikor összeadjuk a két sorozatot, megkapjuk a teljes számot:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```  
-![Idősor grafikon](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.hu.png)
+![Idősor grafikon](../../../../translated_images/hu/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Megjegyzés**: Nem használjuk az egyszerű `total_items+additional_items` szintaxist. Ha ezt tennénk, sok `NaN` (*Not a Number*) értéket kapnánk az eredményül kapott sorozatban. Ennek oka, hogy az `additional_items` sorozatban hiányzó értékek vannak néhány indexpontnál, és ha `NaN`-t adunk hozzá bármihez, az eredmény `NaN` lesz. Ezért meg kell adnunk a `fill_value` paramétert az összeadás során.
 
@@ -93,7 +93,7 @@ Az idősorokkal különböző időintervallumokkal is **újramintázhatjuk** a s
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```  
-![Havi idősor átlagok](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.hu.png)
+![Havi idősor átlagok](../../../../translated_images/hu/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ Az első probléma, amire összpontosítunk, a COVID-19 járvány terjedésének
 
 Mivel meg szeretnénk mutatni, hogyan kell az adatokkal dolgozni, arra kérünk, hogy nyisd meg a [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) fájlt, és olvasd el elejétől a végéig. A cellákat is végrehajthatod, és néhány kihívást is megoldhatsz, amelyeket a végén hagytunk neked.
 
-![COVID Terjedés](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.hu.png)
+![COVID Terjedés](../../../../translated_images/hu/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Ha nem tudod, hogyan kell kódot futtatni Jupyter Notebookban, nézd meg [ezt a cikket](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,7 +241,7 @@ A dataset elemzésének teljes példája a [Text Analytics for Health](https://d
 
 Nyisd meg a [`notebook-papers.ipynb`](notebook-papers.ipynb) fájlt, és olvasd el elejétől a végéig. A cellákat is végrehajthatod, és néhány kihívást is megoldhatsz, amelyeket a végén hagytunk neked.
 
-![Covid Orvosi Kezelés](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.hu.png)
+![Covid Orvosi Kezelés](../../../../translated_images/hu/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Képadatok feldolgozása
 

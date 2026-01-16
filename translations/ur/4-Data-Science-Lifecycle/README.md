@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ڈیٹا سائنس کا لائف سائیکل
 
-![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.ur.jpg)
+![communication](../../../translated_images/ur/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
 > تصویر از <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> on <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 ان اسباق میں، آپ ڈیٹا سائنس کے لائف سائیکل کے کچھ پہلوؤں کو دریافت کریں گے، جن میں ڈیٹا کے تجزیے اور اس کے بارے میں بات چیت شامل ہے۔

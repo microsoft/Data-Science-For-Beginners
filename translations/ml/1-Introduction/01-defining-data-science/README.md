@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Defining Data Science Video](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.ml.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Defining Data Science Video](../../../../translated_images/ml/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [പ്രീ-ലെക്ചർ ക്വിസ്](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ഈ വെല്ലുവിളിയിൽ, ഡാറ്റാ സയൻസ് മേഖലയുമായി ബന്ധപ്പെട്ട ആശയങ്ങൾ വാചകങ്ങൾ പരിശോധിച്ച് കണ്ടെത്താൻ ശ്രമിക്കും. ഡാറ്റാ സയൻസിനെക്കുറിച്ചുള്ള ഒരു വിക്കിപീഡിയ ലേഖനം എടുത്ത്, ടെക്സ്റ്റ് ഡൗൺലോഡ് ചെയ്ത് പ്രോസസ് ചെയ്ത്, താഴെ കാണുന്ന പോലെ ഒരു വാക്ക് ക്ലൗഡ് നിർമ്മിക്കും:
 
-![Word Cloud for Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.ml.png)
+![Word Cloud for Data Science](../../../../translated_images/ml/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 കോഡ് വായിക്കാൻ [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') സന്ദർശിക്കുക. നിങ്ങൾക്ക് കോഡ് പ്രവർത്തിപ്പിച്ച് എല്ലാ ഡാറ്റാ പരിവർത്തനങ്ങളും യഥാർത്ഥ സമയത്ത് എങ്ങനെ നടക്കുന്നതെന്ന് കാണാം.
 

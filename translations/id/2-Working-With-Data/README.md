@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Bekerja dengan Data
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.id.jpg)
+![data love](../../../translated_images/id/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Foto oleh <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> di <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Dalam pelajaran ini, Anda akan mempelajari beberapa cara untuk mengelola, memanipulasi, dan menggunakan data dalam aplikasi. Anda akan mempelajari tentang basis data relasional dan non-relasional serta bagaimana data dapat disimpan di dalamnya. Anda akan mempelajari dasar-dasar bekerja dengan Python untuk mengelola data, dan Anda akan menemukan berbagai cara untuk bekerja dengan Python dalam mengelola dan menambang data.

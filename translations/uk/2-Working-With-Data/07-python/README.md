@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Робота з Python - _Скетчноут від [@nitya](https://twitter.com/nitya)_                     |
 
-[![Вступне відео](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.uk.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Вступне відео](../../../../translated_images/uk/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Хоча бази даних пропонують дуже ефективні способи зберігання даних і запитів до них за допомогою мов запитів, найгнучкішим способом обробки даних є написання власної програми для їх маніпулювання. У багатьох випадках виконання запиту до бази даних буде більш ефективним. Однак у деяких випадках, коли потрібна більш складна обробка даних, це не можна легко зробити за допомогою SQL. 
 Обробка даних може бути запрограмована на будь-якій мові програмування, але є певні мови, які є більш високорівневими для роботи з даними. Зазвичай, фахівці з даних віддають перевагу одній із наступних мов:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Графік часових рядів](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.uk.png)
+![Графік часових рядів](../../../../translated_images/uk/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Тепер припустимо, що щотижня ми організовуємо вечірку для друзів і беремо додатково 10 упаковок морозива для вечірки. Ми можемо створити ще один Series, індексований за тижнями, щоб продемонструвати це:
 ```python
@@ -84,7 +84,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Графік часових рядів](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.uk.png)
+![Графік часових рядів](../../../../translated_images/uk/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Примітка**: Ми не використовуємо простий синтаксис `total_items+additional_items`. Якби ми це зробили, ми отримали б багато значень `NaN` (*Not a Number*) у результаті. Це тому, що для деяких точок індексу в Series `additional_items` відсутні значення, і додавання `NaN` до чого-небудь призводить до `NaN`. Тому нам потрібно вказати параметр `fill_value` під час додавання.
 
@@ -93,7 +93,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Середні значення часових рядів за місяць](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.uk.png)
+![Середні значення часових рядів за місяць](../../../../translated_images/uk/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ df = pd.read_csv('file.csv')
 
 Оскільки ми хочемо продемонструвати, як працювати з даними, ми запрошуємо вас відкрити [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) і прочитати його від початку до кінця. Ви також можете виконувати комірки та виконувати завдання, які ми залишили для вас наприкінці.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.uk.png)
+![COVID Spread](../../../../translated_images/uk/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Якщо ви не знаєте, як запускати код у Jupyter Notebook, перегляньте [цю статтю](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,7 +241,7 @@ df = pd.read_csv('file.csv')
 
 Відкрийте [`notebook-papers.ipynb`](notebook-papers.ipynb) і прочитайте його від початку до кінця. Ви також можете виконувати комірки та виконувати завдання, які ми залишили для вас наприкінці.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.uk.png)
+![Covid Medical Treatment](../../../../translated_images/uk/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Обробка даних зображень
 

@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 여기서는 `ggplot2` 패키지를 설치한 후 `library("ggplot2")` 명령을 사용하여 작업 공간에 가져옵니다. ggplot에서 플롯을 그리려면 `ggplot()` 함수를 사용하며 데이터셋, x 및 y 변수 등을 속성으로 지정합니다. 이 경우 선형 플롯을 그리기 위해 `geom_line()` 함수를 사용합니다.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.ko.png)
+![MaxWingspan-lineplot](../../../../../translated_images/ko/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 즉시 눈에 띄는 점은 무엇인가요? 적어도 하나의 이상치가 있는 것 같습니다. 2000cm 이상의 날개 길이는 20미터가 넘습니다. 미네소타에 프테로닥틸이 살고 있는 걸까요? 조사해 봅시다.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 `theme`에서 각도를 지정하고 `xlab()`과 `ylab()`에서 x축과 y축 레이블을 지정합니다. `ggtitle()`은 그래프/플롯에 이름을 부여합니다.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.ko.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/ko/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 레이블을 45도 회전시켰음에도 불구하고 읽기에는 너무 많습니다. 다른 전략을 시도해 봅시다: 이상치만 레이블을 지정하고 차트 내에서 레이블을 설정합니다. 산점도를 사용하여 레이블링 공간을 더 확보할 수 있습니다:
 
@@ -100,7 +100,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 
 무엇을 발견했나요?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.ko.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/ko/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## 데이터 필터링
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 새로운 데이터프레임 `birds_filtered`를 만들고 산점도를 그렸습니다. 이상치를 필터링함으로써 데이터가 더 일관되고 이해하기 쉬워졌습니다.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.ko.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/ko/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 이제 날개 길이에 관한 데이터가 더 깨끗해졌으니, 이 새들에 대해 더 알아봅시다.
 
@@ -159,7 +159,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 다음 코드 스니펫에서는 데이터를 조작하고 그룹화하여 누적 막대 차트를 그리기 위해 [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8)과 [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) 패키지를 설치합니다. 먼저 새의 `Category`로 데이터를 그룹화한 후 `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan` 열을 요약합니다. 그런 다음 `ggplot2` 패키지를 사용하여 막대 차트를 그리고 각 카테고리에 대한 색상과 레이블을 지정합니다.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.ko.png)
+![Stacked bar chart](../../../../../translated_images/ko/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 하지만 이 막대 차트는 너무 많은 비그룹화된 데이터로 인해 읽기 어렵습니다. 플롯하려는 데이터만 선택해야 합니다. 새의 카테고리를 기준으로 길이를 살펴봅시다.
 
@@ -174,7 +174,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 먼저 `Category` 열의 고유 값을 계산한 후 이를 새 데이터프레임 `birds_count`로 정렬합니다. 이 정렬된 데이터를 동일한 수준으로 팩터링하여 정렬된 방식으로 플롯됩니다. 그런 다음 `ggplot2`를 사용하여 데이터를 막대 차트로 플롯합니다. `coord_flip()`은 수평 막대를 플롯합니다.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.ko.png)
+![category-length](../../../../../translated_images/ko/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 이 막대 차트는 각 카테고리의 새 수를 잘 보여줍니다. 한눈에 미네소타 지역에서 가장 많은 새가 Ducks/Geese/Waterfowl 카테고리에 속한다는 것을 알 수 있습니다. 미네소타는 '10,000개의 호수의 땅'이므로 놀랍지 않습니다!
 
@@ -197,7 +197,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 `birds_filtered` 데이터를 `Category`로 그룹화한 후 막대 그래프를 플롯합니다.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.ko.png)
+![comparing data](../../../../../translated_images/ko/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 여기서 놀라운 점은 없습니다: 벌새는 펠리컨이나 기러기에 비해 MaxLength가 가장 적습니다. 데이터가 논리적으로 맞아떨어지는 것은 좋은 일입니다!
 
@@ -209,7 +209,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.ko.png)
+![super-imposed values](../../../../../translated_images/ko/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 도전 과제
 

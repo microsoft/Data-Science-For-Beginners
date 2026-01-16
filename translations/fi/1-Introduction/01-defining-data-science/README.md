@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Tietojenkäsittelytieteen määritelmä - Video](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.fi.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Tietojenkäsittelytieteen määritelmä - Video](../../../../translated_images/fi/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Esiluennon kysely](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ Jos haluamme mennä vielä pidemmälle, voimme piirtää kaavion, jossa esitetä
 
 Tässä haasteessa yritämme löytää Data Science -alaan liittyviä käsitteitä tarkastelemalla tekstejä. Otamme Wikipedia-artikkelin Data Sciencesta, lataamme ja käsittelemme tekstin ja luomme sitten sanapilven, joka näyttää tältä:
 
-![Sanapilvi Data Sciencesta](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.fi.png)
+![Sanapilvi Data Sciencesta](../../../../translated_images/fi/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Vieraile tiedostossa [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') lukeaksesi koodin läpi. Voit myös suorittaa koodin ja nähdä, kuinka se suorittaa kaikki datan muunnokset reaaliajassa.
 

@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 यह पाठ जीवनचक्र के 3 भागों पर केंद्रित है: डेटा संग्रहण, प्रोसेसिंग और रखरखाव।
 
-![डेटा साइंस जीवनचक्र का आरेख](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.hi.jpg)
+![डेटा साइंस जीवनचक्र का आरेख](../../../../translated_images/hi/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > फोटो [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/) द्वारा
 
 ## डेटा संग्रहण
@@ -98,7 +98,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |टीम डेटा साइंस प्रक्रिया (TDSP)|क्रॉस-इंडस्ट्री स्टैंडर्ड प्रक्रिया फॉर डेटा माइनिंग (CRISP-DM)|
 |--|--|
-|![टीम डेटा साइंस जीवनचक्र](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.hi.png) | ![डेटा साइंस प्रक्रिया एलायंस छवि](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.hi.png) |
+|![टीम डेटा साइंस जीवनचक्र](../../../../translated_images/hi/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![डेटा साइंस प्रक्रिया एलायंस छवि](../../../../translated_images/hi/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | छवि [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) द्वारा | छवि [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) द्वारा |
 
 ## [पोस्ट-लेक्चर क्विज़](https://ff-quizzes.netlify.app/en/ds/quiz/27)

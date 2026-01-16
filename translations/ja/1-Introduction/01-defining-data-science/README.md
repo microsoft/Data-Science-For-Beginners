@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![データサイエンスの定義ビデオ](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.ja.png)](https://youtu.be/beZ7Mb_oz9I)
+[![データサイエンスの定義ビデオ](../../../../translated_images/ja/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [講義前のクイズ](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 このチャレンジでは、テキストを調べることでデータサイエンス分野に関連する概念を見つけることを試みます。データサイエンスに関するWikipediaの記事を取得し、テキストを処理した後、以下のようなワードクラウドを作成します：
 
-![データサイエンスのワードクラウド](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.ja.png)
+![データサイエンスのワードクラウド](../../../../translated_images/ja/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 コードを読むには[`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore')を訪問してください。また、コードを実行して、リアルタイムでデータ変換がどのように行われるか確認することもできます。
 

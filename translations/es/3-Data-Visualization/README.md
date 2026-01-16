@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualizaciones
 
-![una abeja en una flor de lavanda](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.es.jpg)
+![una abeja en una flor de lavanda](../../../translated_images/es/bee.0aa1d91132b12e3a.webp)
 > Foto por <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> en <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Visualizar datos es una de las tareas más importantes de un científico de datos. Las imágenes valen más que mil palabras, y una visualización puede ayudarte a identificar todo tipo de aspectos interesantes de tus datos, como picos, valores atípicos, agrupaciones, tendencias y más, que te ayudarán a entender la historia que tus datos intentan contar.

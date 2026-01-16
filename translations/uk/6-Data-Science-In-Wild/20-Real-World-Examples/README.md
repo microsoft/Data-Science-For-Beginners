@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 * [Наука про дані у сфері охорони здоров’я](https://data-flair.training/blogs/data-science-in-healthcare/) - підкреслює такі додатки, як медична візуалізація (наприклад, МРТ, рентген, КТ-сканування), геноміка (секвенування ДНК), розробка ліків (оцінка ризиків, прогноз успіху), прогнозна аналітика (догляд за пацієнтами та логістика постачання), відстеження та профілактика захворювань тощо.
 
-![Застосування науки про дані у реальному світі](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.uk.png) Джерело зображення: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Застосування науки про дані у реальному світі](../../../../translated_images/uk/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Джерело зображення: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 На малюнку показані інші галузі та приклади застосування технік науки про дані. Хочете дослідити інші застосування? Ознайомтеся з розділом [Огляд і самостійне навчання](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) нижче.
 

@@ -51,7 +51,7 @@ Luo perushajontakaavio, joka näyttää hunajan hinnan ja sen alkuperäosavaltio
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.fi.png)
+![scatterplot 1](../../../../translated_images/fi/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Näytä nyt sama data hunajavärisävyillä, jotka kuvaavat hinnan kehitystä vuosien varrella. Voit tehdä tämän lisäämällä 'hue'-parametrin, joka näyttää muutoksen vuosi vuodelta:
 
@@ -60,7 +60,7 @@ Näytä nyt sama data hunajavärisävyillä, jotka kuvaavat hinnan kehitystä vu
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.fi.png)
+![scatterplot 2](../../../../translated_images/fi/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 Tämän värisävyjen muutoksen avulla näet selvästi vahvan kehityksen hunajan hinnassa vuosien varrella. Jos tarkastelet datan otosta varmistaaksesi (valitse esimerkiksi Arizona), näet hintojen nousun vuosi vuodelta, muutamia poikkeuksia lukuun ottamatta:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Näet pisteiden koon kasvavan asteittain.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.fi.png)
+![scatterplot 3](../../../../translated_images/fi/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Onko tämä yksinkertainen tapaus kysynnän ja tarjonnan laista? Ilmastonmuutoksen ja pesäkatojen kaltaisten tekijöiden vuoksi, onko hunajaa vähemmän saatavilla vuosi vuodelta, ja siksi hinta nousee?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Vastaus: Kyllä, muutamia poikkeuksia lukuun ottamatta vuoden 2003 tienoilla:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.fi.png)
+![line chart 1](../../../../translated_images/fi/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Koska Seaborn yhdistää datan yhdeksi viivaksi, se näyttää "useat mittaukset kussakin x-arvossa piirtämällä keskiarvon ja 95 %:n luottamusvälin keskiarvon ympärille". [Lähde](https://seaborn.pydata.org/tutorial/relational.html). Tämä aikaa vievä toiminto voidaan poistaa lisäämällä `ci=None`.
 
@@ -114,7 +114,7 @@ Kysymys: No, vuonna 2003, näkyykö myös piikki hunajan tarjonnassa? Entä jos 
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.fi.png)
+![line chart 2](../../../../translated_images/fi/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Vastaus: Ei oikeastaan. Jos tarkastelet kokonaistuotantoa, se näyttää itse asiassa kasvaneen kyseisenä vuonna, vaikka yleisesti ottaen hunajan tuotantomäärä on laskussa näinä vuosina.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 Tässä visualisoinnissa voit verrata pesien tuottoa ja pesämäärää vuosi vuodelta rinnakkain, sarakkeiden wrap-asetuksella 3:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.fi.png)
+![facet grid](../../../../translated_images/fi/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 Tämän datasetin osalta mikään ei erityisesti erotu pesien määrän ja niiden tuoton osalta vuosi vuodelta ja osavaltioittain. Onko olemassa toinen tapa tarkastella korrelaatiota näiden kahden muuttujan välillä?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.fi.png)
+![superimposed plots](../../../../translated_images/fi/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Vaikka mikään ei erityisesti erotu vuoden 2003 tienoilla, tämä antaa meille mahdollisuuden päättää oppitunti hieman iloisemmalla nuotilla: vaikka pesien määrä on yleisesti laskussa, pesien määrä näyttää vakiintuvan, vaikka niiden tuotto per pesä on laskussa.
 

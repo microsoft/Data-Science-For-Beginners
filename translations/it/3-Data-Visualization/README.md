@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualizzazioni
 
-![un'ape su un fiore di lavanda](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.it.jpg)
+![un'ape su un fiore di lavanda](../../../translated_images/it/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Foto di <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> su <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Visualizzare i dati è uno dei compiti più importanti per un data scientist. Un'immagine vale più di mille parole, e una visualizzazione può aiutarti a identificare tutti i tipi di aspetti interessanti nei tuoi dati, come picchi, valori anomali, raggruppamenti, tendenze e molto altro, che possono aiutarti a comprendere la storia che i tuoi dati stanno cercando di raccontare.

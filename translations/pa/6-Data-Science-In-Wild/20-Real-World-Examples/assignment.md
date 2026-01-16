@@ -22,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. ਡਾਟਾਸੈੱਟ [ਕੈਟਾਲੌਗ](https://planetarycomputer.microsoft.com/catalog) ਦੀ ਪੜਚੋਲ ਕਰੋ - ਹਰ ਇੱਕ ਦਾ ਉਦੇਸ਼ ਸਿੱਖੋ।
  3. ਐਕਸਪਲੋਰਰ ਵਰਤੋ - ਇੱਕ ਰੁਚੀਕਰ ਡਾਟਾਸੈੱਟ ਚੁਣੋ, ਇੱਕ ਸੰਬੰਧਿਤ ਕਵੈਰੀ ਅਤੇ ਰੈਂਡਰਿੰਗ ਵਿਕਲਪ ਚੁਣੋ।
 
-![ਗ੍ਰਹਿ ਕੰਪਿਊਟਰ ਐਕਸਪਲੋਰਰ](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.pa.png)
+![ਗ੍ਰਹਿ ਕੰਪਿਊਟਰ ਐਕਸਪਲੋਰਰ](../../../../translated_images/pa/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `ਤੁਹਾਡਾ ਕੰਮ:`
 ਹੁਣ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਰੈਂਡਰ ਕੀਤੇ ਗਏ ਵਿਜੁਅਲਾਈਜ਼ੇਸ਼ਨ ਦਾ ਅਧਿਐਨ ਕਰੋ ਅਤੇ ਹੇਠਾਂ ਦਿੱਤੇ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦਿਓ:

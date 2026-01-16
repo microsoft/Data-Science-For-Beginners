@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, diagram lingkaran yang menunjukkan proporsi data ini berdasarkan dua kelas jamur. Sangat penting untuk mendapatkan urutan label yang benar, terutama di sini, jadi pastikan untuk memverifikasi urutan pembuatan array label!
 
-![pie chart](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.id.png)
+![pie chart](../../../../../translated_images/id/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Donat!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![donut chart](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.id.png)
+![donut chart](../../../../../translated_images/id/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Kode ini menggunakan dua pustaka - ggplot2 dan webr. Dengan menggunakan fungsi PieDonut dari pustaka webr, kita dapat membuat diagram donat dengan mudah!
 
@@ -169,7 +169,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Dengan menggunakan diagram waffle, Anda dapat dengan jelas melihat proporsi warna tutup dalam dataset jamur ini. Menariknya, ada banyak jamur dengan tutup hijau!
 
-![waffle chart](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.id.png)
+![waffle chart](../../../../../translated_images/id/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 Dalam pelajaran ini, Anda mempelajari tiga cara untuk memvisualisasikan proporsi. Pertama, Anda perlu mengelompokkan data Anda ke dalam kategori dan kemudian memutuskan cara terbaik untuk menampilkan data - lingkaran, donat, atau waffle. Semuanya menarik dan memberikan pengguna gambaran instan tentang dataset.
 

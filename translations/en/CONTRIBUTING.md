@@ -312,7 +312,7 @@ Include in your PR description:
   import pandas as pd
   ```
   ````
-- Add alt text to images: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.en.png)`
+- Add alt text to images: `![Alt text](../../translated_images/en/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Keep line lengths reasonable (around 80-100 characters)
 
 ### Python

@@ -316,7 +316,7 @@ def calculate_mean(data):
   ```
   ````
   
-- הוסף טקסט חלופי לתמונות: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.he.png)`  
+- הוסף טקסט חלופי לתמונות: `![Alt text](../../translated_images/he/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - שמור על אורך שורות סביר (בסביבות 80-100 תווים)  
 
 ### Python

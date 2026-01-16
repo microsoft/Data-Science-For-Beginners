@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # डेटा साइंस का परिचय
 
-![डेटा इन एक्शन](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.hi.jpg)
+![डेटा इन एक्शन](../../../translated_images/hi/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > फोटो <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">स्टीफन डॉसन</a> द्वारा <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">अनस्प्लैश</a> पर
 
 इन पाठों में, आप जानेंगे कि डेटा साइंस को कैसे परिभाषित किया जाता है और उन नैतिक विचारों के बारे में सीखेंगे जिन्हें एक डेटा वैज्ञानिक को ध्यान में रखना चाहिए। आप यह भी जानेंगे कि डेटा को कैसे परिभाषित किया जाता है और सांख्यिकी और संभावना के बारे में थोड़ा सीखेंगे, जो डेटा साइंस के मुख्य शैक्षणिक क्षेत्र हैं।

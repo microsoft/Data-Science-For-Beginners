@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # डेटा के साथ काम करना
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.hi.jpg)
+![data love](../../../translated_images/hi/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > फोटो <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> द्वारा <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> पर
   
 इन पाठों में, आप सीखेंगे कि डेटा को कैसे प्रबंधित, संशोधित और अनुप्रयोगों में उपयोग किया जा सकता है। आप रिलेशनल और नॉन-रिलेशनल डेटाबेस के बारे में जानेंगे और डेटा को उनमें कैसे संग्रहीत किया जा सकता है। आप डेटा प्रबंधन के लिए Python के साथ काम करने की मूल बातें सीखेंगे, और आप यह भी खोजेंगे कि Python का उपयोग करके डेटा को प्रबंधित और माइन करने के कई तरीके क्या हैं। 

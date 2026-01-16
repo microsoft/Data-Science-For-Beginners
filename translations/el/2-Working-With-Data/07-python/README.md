@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Εργασία με Python - _Σκίτσο από [@nitya](https://twitter.com/nitya)_                     |
 
-[![Εισαγωγικό Βίντεο](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.el.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Εισαγωγικό Βίντεο](../../../../translated_images/el/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Ενώ οι βάσεις δεδομένων προσφέρουν πολύ αποτελεσματικούς τρόπους αποθήκευσης δεδομένων και ερωτημάτων μέσω γλωσσών ερωτημάτων, ο πιο ευέλικτος τρόπος επεξεργασίας δεδομένων είναι η δημιουργία του δικού σας προγράμματος για την επεξεργασία τους. Σε πολλές περιπτώσεις, η χρήση ερωτημάτων βάσης δεδομένων είναι πιο αποτελεσματική. Ωστόσο, σε ορισμένες περιπτώσεις όπου απαιτείται πιο σύνθετη επεξεργασία δεδομένων, αυτό δεν μπορεί να γίνει εύκολα με SQL. 
 Η επεξεργασία δεδομένων μπορεί να προγραμματιστεί σε οποιαδήποτε γλώσσα προγραμματισμού, αλλά υπάρχουν ορισμένες γλώσσες που είναι πιο κατάλληλες για εργασία με δεδομένα. Οι επιστήμονες δεδομένων συνήθως προτιμούν μία από τις παρακάτω γλώσσες:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Γράφημα Χρονικής Σειράς](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.el.png)
+![Γράφημα Χρονικής Σειράς](../../../../translated_images/el/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Τώρα υποθέστε ότι κάθε εβδομάδα οργανώνουμε ένα πάρτι για φίλους και παίρνουμε επιπλέον 10 πακέτα παγωτού για το πάρτι. Μπορούμε να δημιουργήσουμε μια άλλη σειρά, με δείκτη εβδομάδας, για να το δείξουμε:
 ```python
@@ -84,7 +84,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Γράφημα Χρονικής Σειράς](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.el.png)
+![Γράφημα Χρονικής Σειράς](../../../../translated_images/el/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Σημείωση** ότι δεν χρησιμοποιούμε απλή σύνταξη `total_items+additional_items`. Εάν το κάναμε, θα λαμβάναμε πολλές τιμές `NaN` (*Not a Number*) στη σειρά που προκύπτει. Αυτό συμβαίνει επειδή υπάρχουν ελλείπουσες τιμές για ορισμένα σημεία δείκτη στη σειρά `additional_items`, και η προσθήκη `NaN` σε οτιδήποτε έχει ως αποτέλεσμα `NaN`. Έτσι, πρέπει να καθορίσουμε την παράμετρο `fill_value` κατά την πρόσθεση.
 
@@ -93,7 +93,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Μηνιαίοι Μέσοι Όροι Χρονικής Σειράς](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.el.png)
+![Μηνιαίοι Μέσοι Όροι Χρονικής Σειράς](../../../../translated_images/el/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -203,7 +203,7 @@ df = pd.read_csv('file.csv')
 
 Επειδή θέλουμε να δείξουμε πώς να χειριζόμαστε δεδομένα, σας προσκαλούμε να ανοίξετε το [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) και να το διαβάσετε από την αρχή μέχρι το τέλος. Μπορείτε επίσης να εκτελέσετε τα κελιά και να κάνετε κάποιες προκλήσεις που έχουμε αφήσει για εσάς στο τέλος.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.el.png)
+![COVID Spread](../../../../translated_images/el/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Αν δεν γνωρίζετε πώς να εκτελέσετε κώδικα στο Jupyter Notebook, ρίξτε μια ματιά σε αυτό το [άρθρο](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -225,7 +225,7 @@ df = pd.read_csv('file.csv')
 
 Ανοίξτε το [`notebook-papers.ipynb`](notebook-papers.ipynb) και διαβάστε το από την αρχή μέχρι το τέλος. Μπορείτε επίσης να εκτελέσετε τα κελιά και να κάνετε κάποιες προκλήσεις που έχουμε αφήσει για εσάς στο τέλος.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.el.png)
+![Covid Medical Treatment](../../../../translated_images/el/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Επεξεργασία Δεδομένων Εικόνας
 

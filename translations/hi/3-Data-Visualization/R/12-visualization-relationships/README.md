@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![स्कैटरप्लॉट 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.hi.png)
+![स्कैटरप्लॉट 1](../../../../../translated_images/hi/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 अब, वही डेटा एक शहद रंग योजना के साथ दिखाएं ताकि यह दिखाया जा सके कि कीमत वर्षों में कैसे विकसित होती है। आप इसे 'scale_color_gradientn' पैरामीटर जोड़कर कर सकते हैं, जो साल दर साल परिवर्तन दिखाता है:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![स्कैटरप्लॉट 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.hi.png)
+![स्कैटरप्लॉट 2](../../../../../translated_images/hi/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 इस रंग योजना परिवर्तन के साथ, आप देख सकते हैं कि वर्षों में प्रति पाउंड शहद की कीमत में स्पष्ट रूप से एक मजबूत प्रगति है। वास्तव में, यदि आप डेटा के एक नमूना सेट को सत्यापित करने के लिए देखते हैं (उदाहरण के लिए, एरिज़ोना राज्य को चुनें), तो आप देख सकते हैं कि कुछ अपवादों को छोड़कर, कीमत में साल दर साल वृद्धि का एक पैटर्न है:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 आप देख सकते हैं कि डॉट्स का आकार धीरे-धीरे बढ़ रहा है।
 
-![स्कैटरप्लॉट 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.hi.png)
+![स्कैटरप्लॉट 3](../../../../../translated_images/hi/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 क्या यह आपूर्ति और मांग का एक साधारण मामला है? जलवायु परिवर्तन और कॉलोनी कोलैप्स जैसे कारकों के कारण, क्या हर साल खरीदने के लिए कम शहद उपलब्ध है, और इसीलिए कीमत बढ़ रही है?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 उत्तर: हां, कुछ अपवादों के साथ, विशेष रूप से 2003 के आसपास:
 
-![लाइन चार्ट 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.hi.png)
+![लाइन चार्ट 1](../../../../../translated_images/hi/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 प्रश्न: खैर, क्या 2003 में हम शहद की आपूर्ति में भी वृद्धि देख सकते हैं? यदि आप कुल उत्पादन को साल दर साल देखें तो क्या होता है?
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![लाइन चार्ट 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.hi.png)
+![लाइन चार्ट 2](../../../../../translated_images/hi/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 उत्तर: वास्तव में नहीं। यदि आप कुल उत्पादन को देखें, तो ऐसा लगता है कि यह विशेष वर्ष में बढ़ा है, हालांकि सामान्य रूप से इन वर्षों के दौरान शहद का उत्पादन घट रहा है।
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 इस विज़ुअलाइज़ेशन में, आप कॉलोनी की प्रति कॉलोनी उपज और कॉलोनियों की संख्या को साल दर साल, राज्य दर राज्य, 3 कॉलम के रैप के साथ साइड बाय साइड तुलना कर सकते हैं:
 
-![फेसट ग्रिड](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.hi.png)
+![फेसट ग्रिड](../../../../../translated_images/hi/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 इस डेटा सेट के लिए, कॉलोनियों की संख्या और उनकी उपज के संबंध में, साल दर साल और राज्य दर राज्य, कुछ भी विशेष रूप से अलग नहीं दिखता। क्या इन दो चर के बीच सहसंबंध खोजने का कोई और तरीका है?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![सुपरइम्पोज़्ड प्लॉट्स](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.hi.png)
+![सुपरइम्पोज़्ड प्लॉट्स](../../../../../translated_images/hi/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 हालांकि 2003 के आसपास कुछ भी आंखों को स्पष्ट रूप से नहीं दिखता, यह हमें इस पाठ को एक खुशहाल नोट पर समाप्त करने की अनुमति देता है: जबकि कॉलोनियों की संख्या में समग्र गिरावट हो रही है, कॉलोनियों की संख्या स्थिर हो रही है, भले ही उनकी प्रति कॉलोनी उपज घट रही हो।
 

@@ -48,7 +48,7 @@ plt.xlabel('Max Length')
 
 plt.show()
 ```
-![maksimaalne pikkus seltsi kohta](../../../../translated_images/scatter-wb.9d98b0ed7f0388af979441853361a11df5f518f5307938a503ca7913e986111b.et.png)
+![maksimaalne pikkus seltsi kohta](../../../../translated_images/et/scatter-wb.9d98b0ed7f0388af979441853361a11df5f518f5307938a503ca7913e986111b.png)
 
 See annab ülevaate kehapikkuse üldisest jaotusest lindude seltsi kohta, kuid see ei ole kõige optimaalsem viis tõeliste jaotuste kuvamiseks. Selle ülesande jaoks kasutatakse tavaliselt histogrammi.
 ## Töötamine histogrammidega
@@ -59,7 +59,7 @@ Matplotlib pakub väga häid viise andmete jaotuse visualiseerimiseks histogramm
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
 plt.show()
 ```
-![jaotus kogu andmestikus](../../../../translated_images/dist1-wb.0d0cac82e2974fbbec635826fefead401af795f82e2279e2e2678bf2c117d827.et.png)
+![jaotus kogu andmestikus](../../../../translated_images/et/dist1-wb.0d0cac82e2974fbbec635826fefead401af795f82e2279e2e2678bf2c117d827.png)
 
 Nagu näete, jääb enamik selle andmestiku 400+ linnust oma maksimaalse kehamassi osas alla 2000. Saate andmetest rohkem aimu, muutes `bins` parameetri suuremaks, näiteks 30:
 
@@ -67,7 +67,7 @@ Nagu näete, jääb enamik selle andmestiku 400+ linnust oma maksimaalse kehamas
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 30, figsize = (12,12))
 plt.show()
 ```
-![jaotus kogu andmestikus suuremate bin-parameetritega](../../../../translated_images/dist2-wb.2c0a7a3499b2fbf561e9f93b69f265dfc538dc78f6de15088ba84a88152e26ba.et.png)
+![jaotus kogu andmestikus suuremate bin-parameetritega](../../../../translated_images/et/dist2-wb.2c0a7a3499b2fbf561e9f93b69f265dfc538dc78f6de15088ba84a88152e26ba.png)
 
 See diagramm näitab jaotust veidi detailsemalt. Vähem vasakule kalduvat diagrammi saab luua, kui valida andmed ainult teatud vahemikus:
 
@@ -78,7 +78,7 @@ filteredBirds = birds[(birds['MaxBodyMass'] > 1) & (birds['MaxBodyMass'] < 60)]
 filteredBirds['MaxBodyMass'].plot(kind = 'hist',bins = 40,figsize = (12,12))
 plt.show()     
 ```
-![filtreeritud histogramm](../../../../translated_images/dist3-wb.64b88db7f9780200bd486a2c2a3252548dd439672dbd3f778193db7f654b100c.et.png)
+![filtreeritud histogramm](../../../../translated_images/et/dist3-wb.64b88db7f9780200bd486a2c2a3252548dd439672dbd3f778193db7f654b100c.png)
 
 ✅ Proovige teisi filtreid ja andmepunkte. Andmete täieliku jaotuse nägemiseks eemaldage `['MaxBodyMass']` filter, et kuvada märgistatud jaotusi.
 
@@ -95,7 +95,7 @@ hist = ax.hist2d(x, y)
 ```
 Tundub, et nende kahe elemendi vahel on oodatud telje ulatuses korrelatsioon, kusjuures üks eriti tugev koondumispunkt paistab silma:
 
-![2D diagramm](../../../../translated_images/2D-wb.ae22fdd33936507a41e3af22e11e4903b04a9be973b23a4e05214efaccfd66c8.et.png)
+![2D diagramm](../../../../translated_images/et/2D-wb.ae22fdd33936507a41e3af22e11e4903b04a9be973b23a4e05214efaccfd66c8.png)
 
 Histogrammid töötavad vaikimisi hästi numbriliste andmetega. Aga mis siis, kui peate nägema jaotusi tekstiliste andmete järgi? 
 ## Uurime andmestikku jaotuste osas tekstiliste andmete abil 
@@ -134,7 +134,7 @@ plt.gca().set(title='Conservation Status', ylabel='Min Wingspan')
 plt.legend();
 ```
 
-![tiivaulatus ja kaitsestaatuse koondamine](../../../../translated_images/histogram-conservation-wb.3c40450eb072c14de7a1a3ec5c0fcba4995531024760741b392911b567fd8b70.et.png)
+![tiivaulatus ja kaitsestaatuse koondamine](../../../../translated_images/et/histogram-conservation-wb.3c40450eb072c14de7a1a3ec5c0fcba4995531024760741b392911b567fd8b70.png)
 
 Tundub, et minimaalne tiivaulatus ja kaitsestaatus ei ole omavahel hästi korrelatsioonis. Testige selle meetodiga andmestiku teisi elemente. Võite proovida ka erinevaid filtreid. Kas leiate mingeid korrelatsioone?
 
@@ -152,7 +152,7 @@ import matplotlib.pyplot as plt
 sns.kdeplot(filteredBirds['MinWingspan'])
 plt.show()
 ```
-![Tiheduse graafik](../../../../translated_images/density1.8801043bd4af2567b0f706332b5853c7614e5e4b81b457acc27eb4e092a65cbd.et.png)
+![Tiheduse graafik](../../../../translated_images/et/density1.8801043bd4af2567b0f706332b5853c7614e5e4b81b457acc27eb4e092a65cbd.png)
 
 Näete, kuidas graafik kordab eelmist minimaalsete tiivaulatuste andmete graafikut; see on lihtsalt veidi sujuvam. Seaborni dokumentatsiooni kohaselt "võrreldes histogrammiga võib KDE (tuuma tiheduse hinnang) toota graafiku, mis on vähem segane ja kergemini tõlgendatav, eriti mitme jaotuse joonistamisel. Kuid see võib põhjustada moonutusi, kui aluseks olev jaotus on piiratud või mitte sujuv. Nagu histogrammi puhul, sõltub ka esitluse kvaliteet heade silumisseadete valikust." [allikas](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) Teisisõnu, kõrvalekalded, nagu alati, võivad teie graafikuid halvasti mõjutada.
 
@@ -162,7 +162,7 @@ Kui soovite uuesti vaadata seda sakilist MaxBodyMass joont teises loodud graafik
 sns.kdeplot(filteredBirds['MaxBodyMass'])
 plt.show()
 ```
-![sile kehamassi joon](../../../../translated_images/density2.8e7647257060ff544a1aaded57e8dd1887586bfe340139e9b77ac1e5287f7977.et.png)
+![sile kehamassi joon](../../../../translated_images/et/density2.8e7647257060ff544a1aaded57e8dd1887586bfe340139e9b77ac1e5287f7977.png)
 
 Kui soovite sujuvat, kuid mitte liiga sujuvat joont, muutke `bw_adjust` parameetrit:
 
@@ -170,7 +170,7 @@ Kui soovite sujuvat, kuid mitte liiga sujuvat joont, muutke `bw_adjust` parameet
 sns.kdeplot(filteredBirds['MaxBodyMass'], bw_adjust=.2)
 plt.show()
 ```
-![vähem sile kehamassi joon](../../../../translated_images/density3.84ae27da82f31e6b83ad977646f029a1d21186574d7581facd70123b3eb257ee.et.png)
+![vähem sile kehamassi joon](../../../../translated_images/et/density3.84ae27da82f31e6b83ad977646f029a1d21186574d7581facd70123b3eb257ee.png)
 
 ✅ Lugege selle tüüpi graafiku jaoks saadaolevate parameetrite kohta ja katsetage!
 
@@ -184,7 +184,7 @@ sns.kdeplot(
 )
 ```
 
-![kehamass seltsi kohta](../../../../translated_images/density4.e9d6c033f15c500fd33df94cb592b9f5cf1ed2a3d213c448a3f9e97ba39573ce.et.png)
+![kehamass seltsi kohta](../../../../translated_images/et/density4.e9d6c033f15c500fd33df94cb592b9f5cf1ed2a3d213c448a3f9e97ba39573ce.png)
 
 Samuti saate ühes graafikus kaardistada mitme muutuja tiheduse. Võrrelge linnu MaxLength ja MinLength nende kaitsestaatusega:
 
@@ -192,7 +192,7 @@ Samuti saate ühes graafikus kaardistada mitme muutuja tiheduse. Võrrelge linnu
 sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationStatus")
 ```
 
-![mitu tihedust, üksteise peal](../../../../translated_images/multi.56548caa9eae8d0fd9012a8586295538c7f4f426e2abc714ba070e2e4b1fc2c1.et.png)
+![mitu tihedust, üksteise peal](../../../../translated_images/et/multi.56548caa9eae8d0fd9012a8586295538c7f4f426e2abc714ba070e2e4b1fc2c1.png)
 
 Võib-olla tasub uurida, kas 'Haavatavate' lindude klaster nende pikkuste järgi on tähendusrikas või mitte.
 

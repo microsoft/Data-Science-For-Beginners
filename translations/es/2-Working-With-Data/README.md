@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Trabajando con Datos
 
-![amor por los datos](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.es.jpg)
+![amor por los datos](../../../translated_images/es/data-love.a22ef29e6742c852.webp)
 > Foto de <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> en <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 En estas lecciones, aprenderás algunas de las formas en que los datos pueden ser gestionados, manipulados y utilizados en aplicaciones. Aprenderás sobre bases de datos relacionales y no relacionales y cómo los datos pueden ser almacenados en ellas. Conocerás los fundamentos de trabajar con Python para gestionar datos y descubrirás algunas de las muchas maneras en que puedes usar Python para manejar y extraer información de los datos. 

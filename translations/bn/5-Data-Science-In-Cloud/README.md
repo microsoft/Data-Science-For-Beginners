@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ক্লাউডে ডেটা সায়েন্স
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.bn.jpg)
+![cloud-picture](../../../translated_images/bn/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > ছবি: [Jelleke Vanooteghem](https://unsplash.com/@ilumire) [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape) থেকে
 
 বড় ডেটার সাথে ডেটা সায়েন্স করার ক্ষেত্রে ক্লাউড একটি বড় পরিবর্তন আনতে পারে। পরবর্তী তিনটি পাঠে আমরা দেখব ক্লাউড কী এবং এটি কেন খুবই সহায়ক হতে পারে। আমরা একটি হার্ট ফেইলিউর ডেটাসেট বিশ্লেষণ করব এবং একটি মডেল তৈরি করব যা কারো হার্ট ফেইলিউরের সম্ভাবনা মূল্যায়নে সাহায্য করবে। আমরা ক্লাউডের শক্তি ব্যবহার করে মডেলটি প্রশিক্ষণ, ডিপ্লয় এবং দুটি ভিন্ন উপায়ে ব্যবহার করব। একটি উপায় শুধুমাত্র ব্যবহারকারীর ইন্টারফেস ব্যবহার করে "লো কোড/নো কোড" পদ্ধতিতে, অন্যটি Azure Machine Learning Software Developer Kit (Azure ML SDK) ব্যবহার করে।
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.bn.png)
+![project-schema](../../../translated_images/bn/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### বিষয়বস্তু
 

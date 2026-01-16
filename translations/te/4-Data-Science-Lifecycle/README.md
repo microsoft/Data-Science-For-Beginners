@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # డేటా సైన్స్ లైఫ్‌సైకిల్
 
-![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.te.jpg)
+![communication](../../../translated_images/te/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
 > ఫోటో <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">హెడ్‌వే</a> ద్వారా <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">అన్స్ప్లాష్</a>లో
   
 ఈ పాఠాలలో, మీరు డేటా సైన్స్ లైఫ్‌సైకిల్ యొక్క కొన్ని అంశాలను, డేటా చుట్టూ విశ్లేషణ మరియు కమ్యూనికేషన్ సహా, అన్వేషించబోతున్నారు.

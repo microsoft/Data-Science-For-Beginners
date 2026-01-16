@@ -41,7 +41,7 @@ Az AI demokratizálásának köszönhetően a fejlesztők számára egyre könny
 
  * [Adattudomány az egészségügyben](https://data-flair.training/blogs/data-science-in-healthcare/) - olyan alkalmazásokat emel ki, mint orvosi képalkotás (pl. MRI, röntgen, CT-vizsgálat), genomika (DNS szekvenálás), gyógyszerfejlesztés (kockázatértékelés, siker előrejelzés), prediktív analitika (betegellátás és ellátási logisztika), betegségek nyomon követése és megelőzése stb.
 
-![Adattudomány alkalmazásai a való világban](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.hu.png) Kép forrása: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Adattudomány alkalmazásai a való világban](../../../../translated_images/hu/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Kép forrása: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 A fenti ábra további területeket és példákat mutat be az adattudományi technikák alkalmazására. Szeretnél további alkalmazásokat felfedezni? Nézd meg az [Áttekintés és önálló tanulás](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) szekciót alább.
 

@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, koláčový graf zobrazujúci proporcie týchto údajov podľa dvoch tried húb. Je veľmi dôležité správne zoradiť poradie štítkov, najmä tu, preto si overte poradie, v akom je pole štítkov vytvorené!
 
-![koláčový graf](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.sk.png)
+![koláčový graf](../../../../../translated_images/sk/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Donuty!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![donutový graf](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.sk.png)
+![donutový graf](../../../../../translated_images/sk/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Tento kód používa dve knižnice - ggplot2 a webr. Pomocou funkcie PieDonut z knižnice webr môžeme ľahko vytvoriť donutový graf!
 
@@ -169,7 +169,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Pomocou waflového grafu môžete jasne vidieť proporcie farieb klobúkov v tomto datasete húb. Zaujímavé je, že existuje veľa húb so zelenými klobúkmi!
 
-![waflový graf](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.sk.png)
+![waflový graf](../../../../../translated_images/sk/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 V tejto lekcii ste sa naučili tri spôsoby vizualizácie proporcií. Najprv musíte zoskupiť svoje údaje do kategórií a potom sa rozhodnúť, ktorý spôsob zobrazenia údajov je najlepší - koláč, donut alebo waffle. Všetky sú chutné a poskytujú používateľovi okamžitý prehľad o datasete.
 

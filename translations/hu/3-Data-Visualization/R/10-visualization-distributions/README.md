@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![max hosszúság rendenként](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.hu.png)
+![max hosszúság rendenként](../../../../../translated_images/hu/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 Ez egy áttekintést ad a madarak testhosszának eloszlásáról rendenként, de nem a legoptimálisabb módja az igazi eloszlások megjelenítésének. Ezt a feladatot általában hisztogramokkal oldják meg.
 
@@ -57,7 +57,7 @@ A `ggplot2` kiváló eszközöket kínál az adatok eloszlásának vizualizálá
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![eloszlás az egész adathalmazon](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.hu.png)
+![eloszlás az egész adathalmazon](../../../../../translated_images/hu/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 Ahogy látható, a több mint 400 madár többsége ebben az adathalmazban 2000 alatti MaxTestTömeg tartományba esik. Mélyebb betekintést nyerhetsz az adatokba, ha a `bins` paramétert magasabb számra, például 30-ra állítod:
 
@@ -65,7 +65,7 @@ Ahogy látható, a több mint 400 madár többsége ebben az adathalmazban 2000 
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![eloszlás 30 bin-nel](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.hu.png)
+![eloszlás 30 bin-nel](../../../../../translated_images/hu/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 Ez a diagram kicsit részletesebb módon mutatja az eloszlást. Egy kevésbé balra torzított diagramot hozhatsz létre, ha csak egy adott tartományon belüli adatokat választasz ki:
 
@@ -77,7 +77,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![szűrt hisztogram](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.hu.png)
+![szűrt hisztogram](../../../../../translated_images/hu/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ Próbálj ki más szűrőket és adatpontokat. Az adatok teljes eloszlásának megtekintéséhez távolítsd el a `['MaxBodyMass']` szűrőt, hogy címkézett eloszlásokat mutass.
 
@@ -91,7 +91,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Úgy tűnik, hogy van egy várható korreláció a két elem között egy előre látható tengely mentén, egy különösen erős konvergencia ponttal:
 
-![2d diagram](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.hu.png)
+![2d diagram](../../../../../translated_images/hu/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 A hisztogramok alapértelmezés szerint jól működnek numerikus adatokkal. Mi van akkor, ha szöveges adatok szerint szeretnéd látni az eloszlásokat? 
 ## Az adathalmaz eloszlásának vizsgálata szöveges adatok alapján 
@@ -122,7 +122,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![szárnyfesztáv és természetvédelmi státusz](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.hu.png)
+![szárnyfesztáv és természetvédelmi státusz](../../../../../translated_images/hu/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 Úgy tűnik, hogy nincs jó korreláció a minimális szárnyfesztáv és a természetvédelmi státusz között. Tesztelj más elemeket az adathalmazból ezzel a módszerrel. Próbálj ki különböző szűrőket is. Találsz bármilyen korrelációt?
 
@@ -136,7 +136,7 @@ Most dolgozzunk sűrűségdiagramokkal!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![sűrűségdiagram](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.hu.png)
+![sűrűségdiagram](../../../../../translated_images/hu/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 Láthatod, hogy a diagram visszatükrözi a korábbi Minimális Szárnyfesztáv adatokat; csak egy kicsit simább. Ha szeretnéd újraalkotni a második diagramon látott MaxTestTömeg "szaggatott" vonalat, nagyon jól kisimíthatod ezt a módszert használva:
 
@@ -144,7 +144,7 @@ Láthatod, hogy a diagram visszatükrözi a korábbi Minimális Szárnyfesztáv 
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![testtömeg sűrűség](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.hu.png)
+![testtömeg sűrűség](../../../../../translated_images/hu/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 Ha sima, de nem túl sima vonalat szeretnél, szerkeszd az `adjust` paramétert: 
 
@@ -152,7 +152,7 @@ Ha sima, de nem túl sima vonalat szeretnél, szerkeszd az `adjust` paramétert:
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![kevésbé sima testtömeg](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.hu.png)
+![kevésbé sima testtömeg](../../../../../translated_images/hu/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ Olvass utána az elérhető paramétereknek ehhez a diagramtípushoz, és kísérletezz!
 
@@ -162,7 +162,7 @@ Ez a diagramtípus gyönyörűen magyarázó vizualizációkat kínál. Példáu
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![testtömeg rendenként](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.hu.png)
+![testtömeg rendenként](../../../../../translated_images/hu/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 Kihívás
 

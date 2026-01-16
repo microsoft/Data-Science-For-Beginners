@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Aquí, instalas el paquete `ggplot2` y luego lo importas al espacio de trabajo usando el comando `library("ggplot2")`. Para graficar cualquier gráfico en ggplot, se utiliza la función `ggplot()` y especificas el conjunto de datos, las variables x e y como atributos. En este caso, usamos la función `geom_line()` ya que buscamos graficar un gráfico de líneas.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.es.png)
+![MaxWingspan-lineplot](../../../../../translated_images/es/MaxWingspan-lineplot.b12169f99d26fdd2.webp)
 
 ¿Qué notas de inmediato? Parece haber al menos un valor atípico: ¡vaya envergadura! Una envergadura de más de 2000 centímetros equivale a más de 20 metros: ¿hay pterodáctilos rondando Minnesota? Investiguemos.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Especificamos el ángulo en el `theme` y especificamos las etiquetas de los ejes x e y en `xlab()` y `ylab()` respectivamente. El `ggtitle()` da un nombre al gráfico.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.es.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/es/MaxWingspan-lineplot-improved.04b73b4d5a59552a.webp)
 
 Incluso con la rotación de las etiquetas configurada a 45 grados, hay demasiadas para leer. Probemos una estrategia diferente: etiquetar solo los valores atípicos y establecer las etiquetas dentro del gráfico. Puedes usar un gráfico de dispersión para hacer más espacio para el etiquetado:
 
@@ -100,7 +100,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 
 ¿Qué descubres?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.es.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/es/MaxWingspan-scatterplot.60dc9e0e19d32700.webp)
 
 ## Filtra tus datos
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Creamos un nuevo dataframe `birds_filtered` y luego graficamos un gráfico de dispersión. Al filtrar los valores atípicos, tus datos ahora son más cohesivos y comprensibles.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.es.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/es/MaxWingspan-scatterplot-improved.7d0af81658c65f3e.webp)
 
 Ahora que tenemos un conjunto de datos más limpio al menos en términos de envergadura, descubramos más sobre estas aves.
 
@@ -161,7 +161,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 En el siguiente fragmento, instalamos los paquetes [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) y [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) para ayudar a manipular y agrupar datos con el fin de graficar un gráfico de barras apiladas. Primero, agrupas los datos por la `Categoría` de ave y luego resumes las columnas `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Luego, graficas el gráfico de barras usando el paquete `ggplot2` y especificas los colores para las diferentes categorías y las etiquetas.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.es.png)
+![Stacked bar chart](../../../../../translated_images/es/stacked-bar-chart.0c92264e89da7b39.webp)
 
 Este gráfico de barras, sin embargo, es ilegible porque hay demasiados datos no agrupados. Necesitas seleccionar solo los datos que deseas graficar, así que veamos la longitud de las aves según su categoría.
 
@@ -176,7 +176,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Primero cuentas los valores únicos en la columna `Category` y luego los ordenas en un nuevo dataframe `birds_count`. Estos datos ordenados se factorizan en el mismo nivel para que se grafiquen de manera ordenada. Usando `ggplot2` luego graficas los datos en un gráfico de barras. El `coord_flip()` grafica barras horizontales.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.es.png)
+![category-length](../../../../../translated_images/es/category-length.7e34c296690e85d6.webp)
 
 Este gráfico de barras muestra una buena vista del número de aves en cada categoría. De un vistazo, ves que el mayor número de aves en esta región pertenece a la categoría de Patos/Gansos/Aves acuáticas. Minnesota es la 'tierra de los 10,000 lagos', ¡así que esto no es sorprendente!
 
@@ -199,7 +199,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Agrupamos los datos `birds_filtered` por `Category` y luego graficamos un gráfico de barras.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.es.png)
+![comparing data](../../../../../translated_images/es/comparingdata.f486a450d61c7ca5.webp)
 
 Nada sorprendente aquí: los colibríes tienen la menor MaxLength en comparación con los pelícanos o los gansos. ¡Es bueno cuando los datos tienen sentido lógico!
 
@@ -211,7 +211,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.es.png)
+![super-imposed values](../../../../../translated_images/es/superimposed-values.5363f0705a1da416.webp)
 
 ## 🚀 Desafío
 

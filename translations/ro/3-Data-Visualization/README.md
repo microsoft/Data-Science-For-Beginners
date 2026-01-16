@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vizualizări
 
-![o albină pe o floare de lavandă](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.ro.jpg)  
+![o albină pe o floare de lavandă](../../../translated_images/ro/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)  
 > Fotografie de <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> pe <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Vizualizarea datelor este una dintre cele mai importante sarcini ale unui specialist în date. Imaginile valorează cât 1000 de cuvinte, iar o vizualizare te poate ajuta să identifici tot felul de aspecte interesante ale datelor tale, cum ar fi vârfuri, valori extreme, grupări, tendințe și multe altele, care te pot ajuta să înțelegi povestea pe care datele tale încearcă să o spună.

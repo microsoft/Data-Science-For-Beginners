@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Az Adattudomány Életciklusa
 
-![kommunikáció](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.hu.jpg)
+![kommunikáció](../../../translated_images/hu/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
 > Fotó: <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> az <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> oldalán
   
 Ezekben a leckékben az Adattudomány életciklusának néhány aspektusát fogod megismerni, beleértve az adatok elemzését és a kommunikációt.

@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Paggamit ng Python - _Sketchnote ni [@nitya](https://twitter.com/nitya)_                 |
 
-[![Intro Video](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.tl.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Intro Video](../../../../translated_images/tl/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Bagama't ang mga database ay nagbibigay ng napaka-epektibong paraan upang mag-imbak ng data at mag-query gamit ang mga query language, ang pinaka-flexible na paraan ng pagproseso ng data ay ang pagsusulat ng sarili mong programa upang manipulahin ang data. Sa maraming pagkakataon, mas epektibo ang paggamit ng database query. Gayunpaman, sa ilang mga kaso kung saan mas kumplikadong pagproseso ng data ang kinakailangan, hindi ito madaling magawa gamit ang SQL. 
 
@@ -74,7 +74,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Time Series Plot](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.tl.png)
+![Time Series Plot](../../../../translated_images/tl/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Ngayon ipagpalagay na bawat linggo ay nag-oorganisa tayo ng party para sa mga kaibigan, at kumukuha ng karagdagang 10 pack ng ice-cream para sa party. Maaari tayong gumawa ng isa pang series, na naka-index sa linggo, upang ipakita iyon:
 ```python
@@ -85,7 +85,7 @@ Kapag pinagsama natin ang dalawang series, makakakuha tayo ng kabuuang bilang:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Time Series Plot](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.tl.png)
+![Time Series Plot](../../../../translated_images/tl/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Note** na hindi natin ginagamit ang simpleng syntax `total_items+additional_items`. Kung ginawa natin, makakakuha tayo ng maraming `NaN` (*Not a Number*) na halaga sa resulting series. Ito ay dahil may mga nawawalang halaga para sa ilang mga index point sa `additional_items` series, at ang pagdaragdag ng `NaN` sa anumang bagay ay nagreresulta sa `NaN`. Kaya kailangan nating tukuyin ang `fill_value` parameter sa panahon ng addition.
 
@@ -94,7 +94,7 @@ Sa time series, maaari rin tayong mag-**resample** ng series gamit ang iba't iba
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Monthly Time Series Averages](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.tl.png)
+![Monthly Time Series Averages](../../../../translated_images/tl/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -220,7 +220,7 @@ Ang unang problemang tututukan natin ay ang pagmomodelo ng pagkalat ng epidemya 
 
 Dahil nais naming ipakita kung paano magtrabaho sa data, inaanyayahan ka naming buksan ang [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) at basahin ito mula sa simula hanggang sa dulo. Maaari mo ring i-execute ang mga cells, at gawin ang ilang mga hamon na iniwan namin para sa iyo sa dulo.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.tl.png)
+![COVID Spread](../../../../translated_images/tl/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Kung hindi mo alam kung paano magpatakbo ng code sa Jupyter Notebook, tingnan ang [artikulong ito](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -242,7 +242,7 @@ Ang isang buong halimbawa ng pagsusuri sa dataset na ito gamit ang [Text Analyti
 
 Buksan ang [`notebook-papers.ipynb`](notebook-papers.ipynb) at basahin ito mula sa simula hanggang sa dulo. Maaari mo ring i-execute ang mga cells, at gawin ang ilang mga hamon na iniwan namin para sa iyo sa dulo.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.tl.png)
+![Covid Medical Treatment](../../../../translated_images/tl/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Pagproseso ng Data ng Larawan
 

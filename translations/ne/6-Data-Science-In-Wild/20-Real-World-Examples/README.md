@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
  * [स्वास्थ्य सेवामा डाटा साइन्स](https://data-flair.training/blogs/data-science-in-healthcare/) - मेडिकल इमेजिङ (जस्तै, MRI, X-Ray, CT-Scan), जीनोमिक्स (DNA अनुक्रमण), औषधि विकास (जोखिम मूल्याङ्कन, सफलता भविष्यवाणी), पूर्वानुमानात्मक विश्लेषण (रोगी हेरचाह र आपूर्ति रसद), रोग ट्र्याकिङ र रोकथाम जस्ता अनुप्रयोगहरूलाई हाइलाइट गर्दछ।
 
-![वास्तविक संसारमा डाटा साइन्स अनुप्रयोगहरू](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.ne.png) छवि श्रेय: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![वास्तविक संसारमा डाटा साइन्स अनुप्रयोगहरू](../../../../translated_images/ne/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) छवि श्रेय: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 चित्रले डाटा साइन्स प्रविधिहरू लागू गर्नका लागि अन्य डोमेनहरू र उदाहरणहरू देखाउँछ। अन्य अनुप्रयोगहरू अन्वेषण गर्न चाहनुहुन्छ? तलको [समीक्षा र आत्म अध्ययन](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) खण्ड जाँच गर्नुहोस्।
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # کار با داده‌ها
 
-![عشق به داده](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.fa.jpg)
+![عشق به داده](../../../translated_images/fa/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > عکس از <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">الکساندر سین</a> در <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 در این درس‌ها، شما با روش‌هایی آشنا خواهید شد که داده‌ها می‌توانند مدیریت، دستکاری و در برنامه‌ها استفاده شوند. شما درباره پایگاه‌های داده رابطه‌ای و غیررابطه‌ای و نحوه ذخیره‌سازی داده‌ها در آن‌ها یاد خواهید گرفت. همچنین اصول کار با پایتون برای مدیریت داده‌ها را خواهید آموخت و با برخی از روش‌های متعدد کار با پایتون برای مدیریت و استخراج داده‌ها آشنا خواهید شد.

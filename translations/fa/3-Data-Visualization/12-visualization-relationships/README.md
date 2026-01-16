@@ -51,7 +51,7 @@ honey.head()
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.fa.png)
+![scatterplot 1](../../../../translated_images/fa/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 حالا، همان داده‌ها را با یک طرح رنگی مرتبط با عسل نمایش دهید تا نشان دهید قیمت چگونه در طول سال‌ها تغییر کرده است. می‌توانید این کار را با افزودن پارامتر 'hue' برای نمایش تغییرات سال به سال انجام دهید:
 
@@ -60,7 +60,7 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.fa.png)
+![scatterplot 2](../../../../translated_images/fa/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 با این تغییر طرح رنگ، می‌توانید ببینید که به وضوح یک پیشرفت قوی در طول سال‌ها از نظر قیمت هر پوند عسل وجود دارد. در واقع، اگر یک مجموعه نمونه از داده‌ها را بررسی کنید (مثلاً ایالت آریزونا)، می‌توانید الگویی از افزایش قیمت سال به سال را با چند استثنا مشاهده کنید:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 می‌توانید ببینید که اندازه نقاط به تدریج افزایش می‌یابد.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.fa.png)
+![scatterplot 3](../../../../translated_images/fa/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 آیا این یک مورد ساده از عرضه و تقاضا است؟ آیا به دلیل عواملی مانند تغییرات اقلیمی و فروپاشی کلنی، عسل کمتری برای خرید در دسترس است و بنابراین قیمت افزایش می‌یابد؟
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 پاسخ: بله، با چند استثنا در حدود سال ۲۰۰۳:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.fa.png)
+![line chart 1](../../../../translated_images/fa/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ از آنجا که Seaborn داده‌ها را در یک خط تجمیع می‌کند، "اندازه‌گیری‌های متعدد در هر مقدار x را با رسم میانگین و فاصله اطمینان ۹۵٪ در اطراف میانگین نمایش می‌دهد". [منبع](https://seaborn.pydata.org/tutorial/relational.html). این رفتار زمان‌بر را می‌توان با افزودن `ci=None` غیرفعال کرد.
 
@@ -114,7 +114,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.fa.png)
+![line chart 2](../../../../translated_images/fa/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 پاسخ: نه واقعاً. اگر به تولید کل نگاه کنید، به نظر می‌رسد که در آن سال خاص افزایش یافته است، حتی اگر به طور کلی مقدار عسل تولید شده در این سال‌ها در حال کاهش باشد.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 در این تجسم، می‌توانید بازده هر کلنی و تعداد کلنی‌ها را سال به سال، کنار هم با تنظیم wrap در ۳ برای ستون‌ها مقایسه کنید:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.fa.png)
+![facet grid](../../../../translated_images/fa/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 برای این مجموعه داده، هیچ چیز خاصی در مورد تعداد کلنی‌ها و بازده آن‌ها، سال به سال و ایالت به ایالت برجسته نیست. آیا راه دیگری برای یافتن همبستگی بین این دو متغیر وجود دارد؟
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.fa.png)
+![superimposed plots](../../../../translated_images/fa/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 در حالی که چیزی در حدود سال ۲۰۰۳ به چشم نمی‌آید، این نمودار به ما اجازه می‌دهد این درس را با یک نکته خوشحال‌کننده‌تر به پایان برسانیم: در حالی که تعداد کلنی‌ها به طور کلی در حال کاهش است، تعداد کلنی‌ها در حال تثبیت است حتی اگر بازده هر کلنی کاهش یابد.
 

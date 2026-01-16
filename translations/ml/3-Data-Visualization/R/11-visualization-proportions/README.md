@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 ഇവിടെ, ഈ ഡാറ്റയുടെ അനുപാതങ്ങൾ ഈ രണ്ട് മഷ്‌റൂം ക്ലാസുകൾ അനുസരിച്ച് കാണിക്കുന്ന ഒരു പൈ ചാർട്ട്. ലേബലുകളുടെ ക്രമം ശരിയാണെന്ന് ഉറപ്പാക്കുന്നത് വളരെ പ്രധാനമാണ്, പ്രത്യേകിച്ച് ഇവിടെ, അതിനാൽ ലേബൽ അറേ എങ്ങനെ നിർമ്മിക്കപ്പെടുന്നു എന്ന് പരിശോധിക്കുക!
 
-![pie chart](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.ml.png)
+![pie chart](../../../../../translated_images/ml/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## ഡോണട്ടുകൾ!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![donut chart](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.ml.png)
+![donut chart](../../../../../translated_images/ml/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 ഈ കോഡ് രണ്ട് ലൈബ്രറികൾ ഉപയോഗിക്കുന്നു - ggplot2, webr. webr ലൈബ്രറിയുടെ PieDonut ഫംഗ്ഷൻ ഉപയോഗിച്ച്, ഡോണട്ട് ചാർട്ട് എളുപ്പത്തിൽ സൃഷ്ടിക്കാം!
 
@@ -169,7 +169,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 വാഫിൾ ചാർട്ട് ഉപയോഗിച്ച്, ഈ മഷ്‌റൂം dataset-ലെ ക്യാപ് നിറങ്ങളുടെ അനുപാതങ്ങൾ വ്യക്തമായി കാണാം. രസകരമായി, പച്ച ക്യാപ് ഉള്ള മഷ്‌റൂമുകൾ വളരെ കൂടുതലാണ്!
 
-![waffle chart](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.ml.png)
+![waffle chart](../../../../../translated_images/ml/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 ഈ പാഠത്തിൽ, നിങ്ങൾക്ക് അനുപാതങ്ങൾ ദൃശ്യവൽക്കരിക്കുന്ന മൂന്ന് മാർഗങ്ങൾ പഠിച്ചു. ആദ്യം, ഡാറ്റയെ വിഭാഗങ്ങളായി ഗ്രൂപ്പ് ചെയ്യണം, പിന്നെ ഡാറ്റ പ്രദർശിപ്പിക്കാൻ ഏറ്റവും നല്ല മാർഗം - പൈ, ഡോണട്ട്, അല്ലെങ്കിൽ വാഫിൾ - തിരഞ്ഞെടുക്കണം. എല്ലാം രുചികരവും ഉപയോക്താവിന് dataset-ന്റെ ഉടൻ ഒരു ദൃശ്യസംഗ്രഹം നൽകുന്നതുമാണ്.
 

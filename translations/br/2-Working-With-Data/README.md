@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Trabalhando com Dados
 
-![amor por dados](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.br.jpg)
+![amor por dados](../../../translated_images/br/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Foto por <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> no <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Nestas lições, você aprenderá algumas das maneiras de gerenciar, manipular e usar dados em aplicações. Você aprenderá sobre bancos de dados relacionais e não relacionais e como os dados podem ser armazenados neles. Aprenderá os fundamentos de trabalhar com Python para gerenciar dados e descobrirá algumas das muitas formas de usar Python para gerenciar e explorar dados. 

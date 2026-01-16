@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Επιστήμη Δεδομένων στο Cloud
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.el.jpg)
+![cloud-picture](../../../translated_images/el/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Φωτογραφία από [Jelleke Vanooteghem](https://unsplash.com/@ilumire) στο [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Όταν πρόκειται για την επιστήμη δεδομένων με μεγάλα δεδομένα, το cloud μπορεί να αλλάξει τα δεδομένα. Στα επόμενα τρία μαθήματα, θα δούμε τι είναι το cloud και γιατί μπορεί να είναι πολύ χρήσιμο. Θα εξερευνήσουμε επίσης ένα σύνολο δεδομένων για καρδιακή ανεπάρκεια και θα δημιουργήσουμε ένα μοντέλο για να βοηθήσουμε στην εκτίμηση της πιθανότητας κάποιος να έχει καρδιακή ανεπάρκεια. Θα χρησιμοποιήσουμε τη δύναμη του cloud για να εκπαιδεύσουμε, να αναπτύξουμε και να χρησιμοποιήσουμε ένα μοντέλο με δύο διαφορετικούς τρόπους. Ο ένας τρόπος είναι χρησιμοποιώντας μόνο το περιβάλλον χρήστη με μια προσέγγιση "Low code/No code", και ο άλλος τρόπος είναι χρησιμοποιώντας το Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.el.png)
+![project-schema](../../../translated_images/el/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Θέματα
 

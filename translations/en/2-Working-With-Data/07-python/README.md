@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Working With Python - _Sketchnote by [@nitya](https://twitter.com/nitya)_                 |
 
-[![Intro Video](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.en.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Intro Video](../../../../translated_images/en/video-ds-python.245247dc811db8e4.webp)](https://youtu.be/dZjWOGbsN4Y)
 
 Databases provide efficient ways to store and query data using query languages, but the most flexible method for processing data is writing your own program to manipulate it. Often, database queries are more effective, but in cases where complex data processing is required, SQL may not be sufficient. 
 
@@ -74,7 +74,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Time Series Plot](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.en.png)
+![Time Series Plot](../../../../translated_images/en/timeseries-1.80de678ab1cf727e.webp)
 
 Now, suppose we host weekly parties where we consume an additional 10 packs of ice cream. We can create another Series indexed by week to represent this:
 ```python
@@ -85,7 +85,7 @@ Adding these two Series gives the total number:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Time Series Plot](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.en.png)
+![Time Series Plot](../../../../translated_images/en/timeseries-2.aae51d575c55181c.webp)
 
 > **Note**: We don’t use the simple syntax `total_items + additional_items`. Doing so would result in many `NaN` (*Not a Number*) values in the resulting Series because missing values in the `additional_items` Series lead to `NaN` when added. Instead, we specify the `fill_value` parameter during addition.
 
@@ -94,7 +94,7 @@ With time series, we can also **resample** data at different intervals. For inst
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Monthly Time Series Averages](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.en.png)
+![Monthly Time Series Averages](../../../../translated_images/en/timeseries-3.f3147cbc8c624881.webp)
 
 ### DataFrame
 
@@ -220,7 +220,7 @@ The first problem we’ll tackle is modeling the spread of the COVID-19 epidemic
 
 To demonstrate how to work with data, we encourage you to open [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) and go through it from start to finish. You can also execute the cells and try out some challenges we’ve included at the end.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.en.png)
+![COVID Spread](../../../../translated_images/en/covidspread.f3d131c4f1d260ab.webp)
 
 > If you’re unfamiliar with running code in Jupyter Notebook, check out [this article](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -242,7 +242,7 @@ A complete example of analyzing this dataset using the [Text Analytics for Healt
 
 Open [`notebook-papers.ipynb`](notebook-papers.ipynb) and go through it from start to finish. You can also execute the cells and try out some challenges we’ve included at the end.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.en.png)
+![Covid Medical Treatment](../../../../translated_images/en/covidtreat.b2ba59f57ca45fbc.webp)
 
 ## Processing Image Data
 

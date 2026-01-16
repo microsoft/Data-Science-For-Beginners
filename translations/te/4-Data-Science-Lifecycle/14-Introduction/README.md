@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ఈ పాఠం లైఫ్‌సైకిల్ యొక్క 3 భాగాలపై దృష్టి సారిస్తుంది: సేకరణ, ప్రాసెసింగ్ మరియు నిర్వహణ.
 
-![డేటా సైన్స్ లైఫ్‌సైకిల్ యొక్క డయాగ్రామ్](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.te.jpg)
+![డేటా సైన్స్ లైఫ్‌సైకిల్ యొక్క డయాగ్రామ్](../../../../translated_images/te/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > ఫోటో [బర్క్లీ స్కూల్ ఆఫ్ ఇన్ఫర్మేషన్](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/) ద్వారా
 
 ## సేకరణ
@@ -98,7 +98,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |టీమ్ డేటా సైన్స్ ప్రాసెస్ (TDSP)|క్రాస్-ఇండస్ట్రీ స్టాండర్డ్ ప్రాసెస్ ఫర్ డేటా మైనింగ్ (CRISP-DM)|
 |--|--|
-|![టీమ్ డేటా సైన్స్ లైఫ్‌సైకిల్](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.te.png) | ![డేటా సైన్స్ ప్రాసెస్ అలయన్స్ చిత్రం](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.te.png) |
+|![టీమ్ డేటా సైన్స్ లైఫ్‌సైకిల్](../../../../translated_images/te/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![డేటా సైన్స్ ప్రాసెస్ అలయన్స్ చిత్రం](../../../../translated_images/te/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | చిత్రం [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) ద్వారా | చిత్రం [డేటా సైన్స్ ప్రాసెస్ అలయన్స్](https://www.datascience-pm.com/crisp-dm-2/) ద్వారా |
 
 ## [పోస్ట్-లెక్చర్ క్విజ్](https://ff-quizzes.netlify.app/en/ds/quiz/27)

@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ಕ್ಲೌಡ್‌ನಲ್ಲಿ ಡೇಟಾ ಸೈನ್ಸ್
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.kn.jpg)
+![cloud-picture](../../../translated_images/kn/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > ಫೋಟೋ [Jelleke Vanooteghem](https://unsplash.com/@ilumire) ಅವರಿಂದ [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 ಬೃಹತ್ ಡೇಟಾ ಜೊತೆಗೆ ಡೇಟಾ ಸೈನ್ಸ್ ಮಾಡುವಾಗ, ಕ್ಲೌಡ್ ಒಂದು ಆಟ ಬದಲಿಸುವುದಾಗಿ ಇರಬಹುದು. ಮುಂದಿನ ಮೂರು ಪಾಠಗಳಲ್ಲಿ, ನಾವು ಕ್ಲೌಡ್ ಎಂದರೇನು ಮತ್ತು ಅದು ಏಕೆ ಬಹಳ ಸಹಾಯಕವಾಗಬಹುದು ಎಂಬುದನ್ನು ನೋಡಲಿದ್ದೇವೆ. ನಾವು ಹೃದಯ ವೈಫಲ್ಯ ಡೇಟಾಸೆಟ್ ಅನ್ನು ಅನ್ವೇಷಿಸಿ, ಯಾರಿಗಾದರೂ ಹೃದಯ ವೈಫಲ್ಯ ಇರುವ ಸಾಧ್ಯತೆಯನ್ನು ಅಂದಾಜಿಸಲು ಸಹಾಯ ಮಾಡುವ ಮಾದರಿಯನ್ನು ನಿರ್ಮಿಸಲಿದ್ದೇವೆ. ನಾವು ಮಾದರಿಯನ್ನು ತರಬೇತಿ, ನಿಯೋಜನೆ ಮತ್ತು ಬಳಕೆ ಮಾಡಲು ಕ್ಲೌಡ್ ಶಕ್ತಿಯನ್ನು ಎರಡು ವಿಭಿನ್ನ ರೀತಿಗಳಲ್ಲಿ ಬಳಸಲಿದ್ದೇವೆ. ಒಂದು ಮಾರ್ಗವು ಕೇವಲ ಬಳಕೆದಾರ ಇಂಟರ್ಫೇಸ್ ಅನ್ನು ಬಳಸಿಕೊಂಡು ಲೋ ಕೋಡ್/ನೋ ಕೋಡ್ ಶೈಲಿಯಲ್ಲಿ, ಮತ್ತೊಂದು ಮಾರ್ಗವು ಅಜೂರ್ ಮೆಷಿನ್ ಲರ್ನಿಂಗ್ ಸಾಫ್ಟ್‌ವೇರ್ ಡೆವಲಪರ್ ಕಿಟ್ (Azure ML SDK) ಬಳಸಿ.
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.kn.png)
+![project-schema](../../../translated_images/kn/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### ವಿಷಯಗಳು
 

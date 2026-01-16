@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ಡೇಟಾ ಸೈನ್ಸ್ ಜೀವನಚಕ್ರ
 
-![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.kn.jpg)
+![communication](../../../translated_images/kn/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
 > ಫೋಟೋ <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ಹೆಡ್‌ವೇ</a> ಅವರಿಂದ <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ಅನ್ಸ್ಪ್ಲ್ಯಾಶ್</a> ನಲ್ಲಿ
   
 ಈ ಪಾಠಗಳಲ್ಲಿ, ನೀವು ಡೇಟಾ ಸೈನ್ಸ್ ಜೀವನಚಕ್ರದ ಕೆಲವು ಅಂಶಗಳನ್ನು, ಡೇಟಾ ಸುತ್ತಲೂ ವಿಶ್ಲೇಷಣೆ ಮತ್ತು ಸಂವಹನವನ್ನು ಅನ್ವೇಷಿಸುವಿರಿ.

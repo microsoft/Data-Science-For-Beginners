@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ciência de Dados na Nuvem
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.br.jpg)
+![cloud-picture](../../../translated_images/br/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Foto de [Jelleke Vanooteghem](https://unsplash.com/@ilumire) no [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Quando se trata de fazer ciência de dados com big data, a nuvem pode ser um divisor de águas. Nas próximas três lições, vamos entender o que é a nuvem e por que ela pode ser tão útil. Também vamos explorar um conjunto de dados sobre insuficiência cardíaca e construir um modelo para ajudar a avaliar a probabilidade de alguém sofrer uma insuficiência cardíaca. Usaremos o poder da nuvem para treinar, implantar e consumir um modelo de duas maneiras diferentes. Uma delas utilizando apenas a interface do usuário em um formato de Baixo Código/Sem Código, e a outra utilizando o Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.br.png)
+![project-schema](../../../translated_images/br/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Tópicos
 

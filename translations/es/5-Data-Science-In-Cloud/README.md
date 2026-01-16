@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ciencia de Datos en la Nube
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.es.jpg)
+![cloud-picture](../../../translated_images/es/cloud-picture.f5526de3c6c6387b.webp)
 
 > Foto de [Jelleke Vanooteghem](https://unsplash.com/@ilumire) en [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Cuando se trata de hacer ciencia de datos con grandes volúmenes de datos, la nube puede marcar una gran diferencia. En las próximas tres lecciones, veremos qué es la nube y por qué puede ser muy útil. También exploraremos un conjunto de datos sobre insuficiencia cardíaca y construiremos un modelo para ayudar a evaluar la probabilidad de que alguien sufra una insuficiencia cardíaca. Usaremos el poder de la nube para entrenar, implementar y consumir un modelo de dos maneras diferentes. Una forma utilizando únicamente la interfaz de usuario en un enfoque de bajo código/sin código, y la otra utilizando el Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.es.png)
+![project-schema](../../../translated_images/es/project-schema.420e56d495624541.webp)
 
 ### Temas
 

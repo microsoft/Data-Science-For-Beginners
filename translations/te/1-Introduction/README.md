@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # డేటా సైన్స్ పరిచయం
 
-![data in action](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.te.jpg)
+![data in action](../../../translated_images/te/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > ఫోటో <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">స్టీఫెన్ డాసన్</a> ద్వారా <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">అన్స్ప్లాష్</a>లో
   
 ఈ పాఠాలలో, మీరు డేటా సైన్స్ ఎలా నిర్వచించబడిందో తెలుసుకుంటారు మరియు డేటా శాస్త్రవేత్తలు పరిగణించవలసిన నైతిక అంశాలను తెలుసుకుంటారు. మీరు డేటా ఎలా నిర్వచించబడిందో తెలుసుకుంటారు మరియు డేటా సైన్స్ యొక్క ప్రాథమిక అకాడమిక్ విభాగాలు అయిన గణాంకాలు మరియు సంభావ్యత గురించి కొంత తెలుసుకుంటారు.

@@ -92,7 +92,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```  
 והנה, גרף עוגה שמראה את היחסים של נתונים אלו לפי שתי מחלקות הפטריות. חשוב מאוד לקבל את סדר התוויות נכון, במיוחד כאן, אז ודאו את הסדר שבו נבנה מערך התוויות!
 
-![גרף עוגה](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.he.png)
+![גרף עוגה](../../../../../translated_images/he/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## דונאט!
 
@@ -126,7 +126,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```  
 
-![גרף דונאט](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.he.png)
+![גרף דונאט](../../../../../translated_images/he/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 הקוד הזה משתמש בשתי ספריות - ggplot2 ו-webr. באמצעות פונקציית PieDonut של ספריית webr, ניתן ליצור גרף דונאט בקלות!
 
@@ -164,7 +164,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 באמצעות גרף וופל, ניתן לראות בבירור את היחסים של צבעי כובעי הפטריות במאגר הנתונים הזה. מעניין, יש הרבה פטריות עם כובעים ירוקים!
 
-![גרף וופל](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.he.png)
+![גרף וופל](../../../../../translated_images/he/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 בשיעור זה, למדתם שלוש דרכים להמחשת יחסים. ראשית, עליכם לקבץ את הנתונים שלכם לקטגוריות ואז להחליט מהי הדרך הטובה ביותר להציג את הנתונים - עוגה, דונאט, או וופל. כולם טעימים ומספקים למשתמש תמונת מצב מיידית של מאגר נתונים.
 

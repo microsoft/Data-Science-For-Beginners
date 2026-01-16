@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Data Science w Chmurze
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.pl.jpg)
+![cloud-picture](../../../translated_images/pl/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Zdjęcie autorstwa [Jelleke Vanooteghem](https://unsplash.com/@ilumire) z [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Jeśli chodzi o analizę danych z dużymi zbiorami danych, chmura może być prawdziwym przełomem. W ciągu najbliższych trzech lekcji dowiemy się, czym jest chmura i dlaczego może być bardzo pomocna. Zbadamy również zbiór danych dotyczących niewydolności serca i zbudujemy model, który pomoże ocenić prawdopodobieństwo wystąpienia niewydolności serca u danej osoby. Wykorzystamy moc chmury, aby wytrenować, wdrożyć i używać modelu na dwa różne sposoby. Jeden sposób polega na użyciu wyłącznie interfejsu użytkownika w podejściu Low code/No code, a drugi sposób na wykorzystaniu Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.pl.png)
+![project-schema](../../../translated_images/pl/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Tematy
 

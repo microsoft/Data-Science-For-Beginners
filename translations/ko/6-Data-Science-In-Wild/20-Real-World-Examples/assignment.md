@@ -22,7 +22,7 @@ Explorer 인터페이스(아래 스크린샷 참조)는 데이터셋(제공된 �
  2. 데이터셋 [카탈로그](https://planetarycomputer.microsoft.com/catalog)를 탐색하여 각 데이터셋의 목적을 학습하세요.
  3. Explorer를 사용하여 관심 있는 데이터셋을 선택하고, 관련 쿼리와 렌더링 옵션을 선택하세요.
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.ko.png)
+![The Planetary Computer Explorer](../../../../translated_images/ko/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `여러분의 과제:`
 이제 브라우저에 렌더링된 시각화를 연구하고 다음 질문에 답하세요:

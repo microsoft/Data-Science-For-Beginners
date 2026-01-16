@@ -22,7 +22,7 @@ Explorerインターフェース（以下のスクリーンショット参照）
  2. データセットの [Catalog](https://planetarycomputer.microsoft.com/catalog) を調べる - 各データセットの目的を学ぶ。
  3. Explorerを使用する - 興味のあるデータセットを選び、関連するクエリとレンダリングオプションを選択する。
 
-![惑星コンピューターのExplorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.ja.png)
+![惑星コンピューターのExplorer](../../../../translated_images/ja/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `あなたの課題:`
 ブラウザに表示された視覚化を調べ、以下の質問に答えてください：

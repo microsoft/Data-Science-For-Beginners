@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 পাইথনের সাথে কাজ করা - _[@nitya](https://twitter.com/nitya) এর স্কেচনোট_                 |
 
-[![পরিচিতি ভিডিও](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.bn.png)](https://youtu.be/dZjWOGbsN4Y)
+[![পরিচিতি ভিডিও](../../../../translated_images/bn/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 ডেটাবেস ডেটা সংরক্ষণ এবং কুয়েরি করার জন্য খুবই কার্যকর পদ্ধতি প্রদান করে, তবে ডেটা প্রক্রিয়াকরণের সবচেয়ে নমনীয় উপায় হল আপনার নিজের প্রোগ্রাম লিখে ডেটা ম্যানিপুলেট করা। অনেক ক্ষেত্রে, ডেটাবেস কুয়েরি করা আরও কার্যকর হতে পারে। তবে, কিছু ক্ষেত্রে যখন আরও জটিল ডেটা প্রক্রিয়াকরণের প্রয়োজন হয়, তখন এটি সহজে SQL ব্যবহার করে করা সম্ভব হয় না।  
 ডেটা প্রক্রিয়াকরণ যেকোনো প্রোগ্রামিং ভাষায় করা যেতে পারে, তবে কিছু ভাষা ডেটার সাথে কাজ করার জন্য উচ্চতর স্তরের সুবিধা প্রদান করে। ডেটা বিজ্ঞানীরা সাধারণত নিম্নলিখিত ভাষাগুলোর একটি পছন্দ করেন:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```  
-![টাইম সিরিজ প্লট](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.bn.png)  
+![টাইম সিরিজ প্লট](../../../../translated_images/bn/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)  
 
 এখন ধরুন প্রতি সপ্তাহে আমরা বন্ধুদের জন্য একটি পার্টি আয়োজন করি এবং পার্টির জন্য অতিরিক্ত ১০ প্যাক আইসক্রিম নিই। আমরা এটি দেখানোর জন্য সপ্তাহ অনুযায়ী ইনডেক্স করা আরেকটি সিরিজ তৈরি করতে পারি:  
 ```python
@@ -84,7 +84,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```  
-![টাইম সিরিজ প্লট](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.bn.png)  
+![টাইম সিরিজ প্লট](../../../../translated_images/bn/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)  
 
 > **নোট** যে আমরা সাধারণ সিনট্যাক্স `total_items+additional_items` ব্যবহার করছি না। যদি করতাম, তাহলে আমরা অনেক `NaN` (*Not a Number*) মান পেতাম। এর কারণ হল `additional_items` সিরিজের কিছু ইনডেক্স পয়েন্টে মান অনুপস্থিত, এবং `NaN`-এর সাথে কিছু যোগ করলে ফলাফল `NaN` হয়। তাই যোগ করার সময় আমাদের `fill_value` প্যারামিটার নির্দিষ্ট করতে হয়।  
 
@@ -93,7 +93,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```  
-![মাসিক টাইম সিরিজ গড়](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.bn.png)  
+![মাসিক টাইম সিরিজ গড়](../../../../translated_images/bn/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)  
 
 ### ডেটাফ্রেম (DataFrame)
 
@@ -219,7 +219,7 @@ df = pd.read_csv('file.csv')
 
 যেহেতু আমরা ডেটা নিয়ে কাজ করার পদ্ধতি প্রদর্শন করতে চাই, আমরা আপনাকে [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) খুলে শুরু থেকে শেষ পর্যন্ত পড়ার আমন্ত্রণ জানাই। আপনি সেলগুলো চালাতে পারেন এবং শেষে আমাদের দেওয়া কিছু চ্যালেঞ্জ সম্পন্ন করতে পারেন।
 
-![COVID ছড়ানো](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.bn.png)
+![COVID ছড়ানো](../../../../translated_images/bn/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > যদি আপনি Jupyter Notebook-এ কোড চালানোর পদ্ধতি না জানেন, [এই আর্টিকেলটি](https://soshnikov.com/education/how-to-execute-notebooks-from-github/) দেখুন।
 
@@ -241,7 +241,7 @@ df = pd.read_csv('file.csv')
 
 [`notebook-papers.ipynb`](notebook-papers.ipynb) খুলুন এবং শুরু থেকে শেষ পর্যন্ত পড়ুন। আপনি সেলগুলো চালাতে পারেন এবং শেষে আমাদের দেওয়া কিছু চ্যালেঞ্জ সম্পন্ন করতে পারেন।
 
-![Covid মেডিকেল ট্রিটমেন্ট](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.bn.png)
+![Covid মেডিকেল ট্রিটমেন্ট](../../../../translated_images/bn/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## ইমেজ ডেটা প্রসেসিং
 

@@ -22,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. ಡೇಟಾಸೆಟ್ [ಕ್ಯಾಟಲಾಗ್](https://planetarycomputer.microsoft.com/catalog) ಅನ್ನು ಅನ್ವೇಷಿಸಿ - ಪ್ರತಿ ಡೇಟಾಸೆಟ್ ಉದ್ದೇಶವನ್ನು ತಿಳಿದುಕೊಳ್ಳಿ.
  3. ಎಕ್ಸ್‌ಪ್ಲೋರರ್ ಬಳಸಿ - ಆಸಕ್ತಿಯ ಡೇಟಾಸೆಟ್ ಆಯ್ಕೆಮಾಡಿ, ಸಂಬಂಧಿತ ಪ್ರಶ್ನೆ ಮತ್ತು ರೆಂಡರಿಂಗ್ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.
 
-![ಗ್ರಹಣ ಕಂಪ್ಯೂಟರ್ ಎಕ್ಸ್‌ಪ್ಲೋರರ್](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.kn.png)
+![ಗ್ರಹಣ ಕಂಪ್ಯೂಟರ್ ಎಕ್ಸ್‌ಪ್ಲೋರರ್](../../../../translated_images/kn/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `ನಿಮ್ಮ ಕಾರ್ಯ:`
 ಈಗ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ರೆಂಡರ್ ಆಗಿರುವ ದೃಶ್ಯೀಕರಣವನ್ನು ಅಧ್ಯಯನ ಮಾಡಿ ಮತ್ತು ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರ ನೀಡಿ:

@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 العمل مع بايثون - _رسم توضيحي بواسطة [@nitya](https://twitter.com/nitya)_                 |
 
-[![فيديو مقدمة](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.ar.png)](https://youtu.be/dZjWOGbsN4Y)
+[![فيديو مقدمة](../../../../translated_images/ar/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 بينما توفر قواعد البيانات طرقًا فعالة جدًا لتخزين البيانات واستعلامها باستخدام لغات الاستعلام، فإن الطريقة الأكثر مرونة لمعالجة البيانات هي كتابة برنامج خاص بك لمعالجتها. في كثير من الحالات، يكون إجراء استعلام قاعدة بيانات أكثر فعالية. ومع ذلك، في بعض الحالات التي تتطلب معالجة بيانات أكثر تعقيدًا، لا يمكن القيام بذلك بسهولة باستخدام SQL.  
 يمكن برمجة معالجة البيانات بأي لغة برمجة، ولكن هناك لغات معينة تعتبر عالية المستوى فيما يتعلق بالعمل مع البيانات. يفضل علماء البيانات عادةً إحدى اللغات التالية:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![رسم بياني للسلاسل الزمنية](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.ar.png)
+![رسم بياني للسلاسل الزمنية](../../../../translated_images/ar/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 الآن افترض أننا ننظم حفلة للأصدقاء كل أسبوع، ونأخذ 10 عبوات إضافية من الآيس كريم للحفلة. يمكننا إنشاء سلسلة أخرى، مفهرسة حسب الأسبوع، لتوضيح ذلك:
 ```python
@@ -84,7 +84,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![رسم بياني للسلاسل الزمنية](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.ar.png)
+![رسم بياني للسلاسل الزمنية](../../../../translated_images/ar/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **ملاحظة** أننا لا نستخدم الصيغة البسيطة `total_items+additional_items`. إذا فعلنا ذلك، فسنحصل على الكثير من القيم `NaN` (*ليس رقمًا*) في السلسلة الناتجة. هذا لأن هناك قيم مفقودة لبعض نقاط الفهرس في سلسلة `additional_items`، وإضافة `NaN` إلى أي شيء يؤدي إلى `NaN`. لذلك نحتاج إلى تحديد معلمة `fill_value` أثناء الجمع.
 
@@ -93,7 +93,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![متوسطات السلاسل الزمنية الشهرية](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.ar.png)
+![متوسطات السلاسل الزمنية الشهرية](../../../../translated_images/ar/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### إطار البيانات
 
@@ -219,7 +219,7 @@ df = pd.read_csv('file.csv')
 
 نظرًا لأننا نريد توضيح كيفية التعامل مع البيانات، ندعوك لفتح [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) وقراءته من البداية إلى النهاية. يمكنك أيضًا تنفيذ الخلايا، والقيام ببعض التحديات التي تركناها لك في النهاية.
 
-![انتشار COVID](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.ar.png)
+![انتشار COVID](../../../../translated_images/ar/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > إذا كنت لا تعرف كيفية تشغيل الكود في Jupyter Notebook، ألقِ نظرة على [هذه المقالة](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,7 +241,7 @@ df = pd.read_csv('file.csv')
 
 افتح [`notebook-papers.ipynb`](notebook-papers.ipynb) وقراءته من البداية إلى النهاية. يمكنك أيضًا تنفيذ الخلايا، والقيام ببعض التحديات التي تركناها لك في النهاية.
 
-![علاج COVID الطبي](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.ar.png)
+![علاج COVID الطبي](../../../../translated_images/ar/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## معالجة بيانات الصور
 

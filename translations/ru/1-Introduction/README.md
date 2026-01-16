@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Введение в науку о данных
 
-![данные в действии](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.ru.jpg)
+![данные в действии](../../../translated_images/ru/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Фото сделано <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Стивеном Доусоном</a> на <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 В этих уроках вы узнаете, как определяется наука о данных, а также познакомитесь с этическими аспектами, которые должен учитывать специалист по данным. Вы также узнаете, что такое данные, и получите общее представление о статистике и теории вероятностей — ключевых академических областях науки о данных.

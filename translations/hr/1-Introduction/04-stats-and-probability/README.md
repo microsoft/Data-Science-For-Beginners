@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Statistika i teorija vjerojatnosti su dva usko povezana područja matematike koja su izuzetno važna za znanost o podacima. Iako je moguće raditi s podacima bez dubokog poznavanja matematike, ipak je korisno razumjeti barem osnovne koncepte. Ovdje ćemo predstaviti kratak uvod koji će vam pomoći da započnete.
 
-[![Uvodni video](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.hr.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Uvodni video](../../../../translated_images/hr/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Kviz prije predavanja](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Teže je opisati raspodjelu vjerojatnosti kontinuirane varijable, s vrijednostim
 
 Možemo govoriti samo o vjerojatnosti da varijabla padne u određeni interval vrijednosti, npr. P(t<sub>1</sub>≤X<t<sub>2</sub>). U ovom slučaju, raspodjela vjerojatnosti opisana je **funkcijom gustoće vjerojatnosti** p(x), tako da
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.hr.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/hr/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Kontinuirani analog uniformne raspodjele naziva se **kontinuirana uniformna raspodjela**, koja je definirana na konačnom intervalu. Vjerojatnost da vrijednost X padne u interval duljine l proporcionalna je l i raste do 1.
 
@@ -82,11 +82,11 @@ Kada analiziramo podatke iz stvarnog života, oni često nisu slučajne varijabl
 
 Evo box plota koji prikazuje srednju vrijednost, medijan i kvartile za naše podatke:
 
-![Box plot težine](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.hr.png)
+![Box plot težine](../../../../translated_images/hr/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Budući da naši podaci sadrže informacije o različitim **ulogama** igrača, možemo napraviti i box plot prema ulozi - to će nam omogućiti da steknemo uvid u to kako se vrijednosti parametara razlikuju među ulogama. Ovaj put razmotrit ćemo visinu:
 
-![Box plot prema ulozi](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.hr.png)
+![Box plot prema ulozi](../../../../translated_images/hr/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Ovaj dijagram sugerira da je, u prosjeku, visina igrača na prvoj bazi veća od visine igrača na drugoj bazi. Kasnije u ovoj lekciji naučit ćemo kako možemo formalnije testirati ovu hipotezu i kako pokazati da su naši podaci statistički značajni za to.
 
@@ -94,7 +94,7 @@ Ovaj dijagram sugerira da je, u prosjeku, visina igrača na prvoj bazi veća od 
 
 Kako bismo vidjeli kakva je raspodjela naših podataka, možemo nacrtati grafikon zvan **histogram**. X-os bi sadržavala broj različitih intervala težine (tzv. **binova**), a Y-os bi prikazivala broj puta kada je uzorak naše slučajne varijable bio unutar određenog intervala.
 
-![Histogram stvarnih podataka](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.hr.png)
+![Histogram stvarnih podataka](../../../../translated_images/hr/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Iz ovog histograma možete vidjeti da su sve vrijednosti centrirane oko određene srednje težine, a što se više udaljavamo od te težine, to se rjeđe susreću težine te vrijednosti. Drugim riječima, vrlo je malo vjerojatno da će težina bejzbol igrača biti vrlo različita od srednje težine. Varijanca težina pokazuje u kojoj mjeri težine odstupaju od srednje vrijednosti.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Ako nacrtamo histogram generiranih uzoraka, vidjet ćemo sliku vrlo sličnu onoj prikazanoj gore. A ako povećamo broj uzoraka i broj binova, možemo generirati sliku normalne raspodjele koja je bliža idealu:
 
-![Normalna raspodjela sa srednjom vrijednošću=0 i std.dev=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.hr.png)
+![Normalna raspodjela sa srednjom vrijednošću=0 i std.dev=1](../../../../translated_images/hr/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Normalna raspodjela sa srednjom vrijednošću=0 i std.dev=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 U našem slučaju, vrijednost 0.53 ukazuje na to da postoji određena korelacija između težine i visine osobe. Također možemo napraviti scatter plot jedne vrijednosti u odnosu na drugu kako bismo vizualno vidjeli odnos:
 
-![Odnos između težine i visine](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.hr.png)
+![Odnos između težine i visine](../../../../translated_images/hr/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Više primjera korelacije i kovarijance možete pronaći u [priloženoj bilježnici](notebook.ipynb).
 

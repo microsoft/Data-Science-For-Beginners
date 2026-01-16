@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Trabalhar com Dados
 
-![amor pelos dados](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.pt.jpg)
+![amor pelos dados](../../../translated_images/pt/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Foto por <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> no <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Nestes módulos, vais aprender algumas formas de gerir, manipular e utilizar dados em aplicações. Vais aprender sobre bases de dados relacionais e não relacionais e como os dados podem ser armazenados nelas. Vais aprender os fundamentos de trabalhar com Python para gerir dados e descobrir algumas das muitas maneiras de usar Python para gerir e explorar dados. 

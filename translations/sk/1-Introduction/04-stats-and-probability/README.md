@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Teória štatistiky a pravdepodobnosti sú dve úzko prepojené oblasti matematiky, ktoré sú veľmi dôležité pre dátovú vedu. Dá sa pracovať s dátami aj bez hlbokých matematických znalostí, ale je lepšie poznať aspoň základné koncepty. Tu vám predstavíme krátky úvod, ktorý vám pomôže začať.
 
-[![Úvodné video](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.sk.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Úvodné video](../../../../translated_images/sk/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Kvíz pred prednáškou](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Je ťažšie opísať pravdepodobnostné rozdelenie spojitej premennej, ktorej h
 
 Môžeme hovoriť iba o pravdepodobnosti, že premenná spadne do daného intervalu hodnôt, napr. P(t<sub>1</sub>≤X<t<sub>2</sub>). V tomto prípade je pravdepodobnostné rozdelenie opísané pomocou **hustoty pravdepodobnosti** p(x), pričom
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.sk.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/sk/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Spojitý analóg rovnomerného rozdelenia sa nazýva **spojité rovnomerné rozdelenie**, ktoré je definované na konečnom intervale. Pravdepodobnosť, že hodnota X spadne do intervalu dĺžky l, je úmerná l a stúpa až na 1.
 
@@ -82,11 +82,11 @@ Keď analyzujeme dáta z reálneho sveta, často nie sú náhodnými premennými
 
 Tu je boxplot zobrazujúci priemer, medián a kvartily pre naše dáta:
 
-![Boxplot váh](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.sk.png)
+![Boxplot váh](../../../../translated_images/sk/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Keďže naše dáta obsahujú informácie o rôznych hráčskych **rolách**, môžeme tiež vytvoriť boxplot podľa rolí - umožní nám to získať predstavu o tom, ako sa hodnoty parametrov líšia medzi rolami. Tentokrát budeme uvažovať o výške:
 
-![Boxplot podľa rolí](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.sk.png)
+![Boxplot podľa rolí](../../../../translated_images/sk/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Tento diagram naznačuje, že priemerná výška hráčov na prvej méte je vyššia ako výška hráčov na druhej méte. Neskôr v tejto lekcii sa naučíme, ako môžeme túto hypotézu formálnejšie otestovať a ako ukázať, že naše dáta sú štatisticky významné na jej preukázanie.
 
@@ -94,7 +94,7 @@ Tento diagram naznačuje, že priemerná výška hráčov na prvej méte je vyš
 
 Na zistenie, aké je rozdelenie našich dát, môžeme vytvoriť graf nazývaný **histogram**. X-os bude obsahovať počet rôznych intervalov váh (tzv. **binov**), a vertikálna os bude ukazovať počet prípadov, keď naša vzorka náhodnej premennej spadla do daného intervalu.
 
-![Histogram reálnych dát](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.sk.png)
+![Histogram reálnych dát](../../../../translated_images/sk/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Z tohto histogramu vidíte, že všetky hodnoty sú sústredené okolo určitého priemeru váhy a čím ďalej ideme od tejto váhy, tým menej hodnôt tejto váhy sa vyskytuje. T.j., je veľmi nepravdepodobné, že váha hráča baseballu bude veľmi odlišná od priemernej váhy. Rozptyl váh ukazuje, do akej miery sa váhy pravdepodobne líšia od priemeru.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Ak vykreslíme histogram vygenerovaných vzoriek, uvidíme obrázok veľmi podobný tomu, ktorý je uvedený vyššie. A ak zvýšime počet vzoriek a počet binov, môžeme vytvoriť obrázok normálneho rozdelenia, ktorý je bližší ideálu:
 
-![Normálne rozdelenie s priemerom=0 a smerodajnou odchýlkou=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.sk.png)
+![Normálne rozdelenie s priemerom=0 a smerodajnou odchýlkou=1](../../../../translated_images/sk/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Normálne rozdelenie s priemerom=0 a smerodajnou odchýlkou=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 V našom prípade hodnota 0.53 indikuje, že existuje určitá korelácia medzi hmotnosťou a výškou osoby. Môžeme tiež vytvoriť scatter plot jednej hodnoty proti druhej, aby sme videli vzťah vizuálne:
 
-![Vzťah medzi hmotnosťou a výškou](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.sk.png)
+![Vzťah medzi hmotnosťou a výškou](../../../../translated_images/sk/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Viac príkladov korelácie a kovariancie nájdete v [sprievodnom notebooku](notebook.ipynb).
 

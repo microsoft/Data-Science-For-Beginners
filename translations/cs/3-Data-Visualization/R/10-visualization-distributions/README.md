@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![max délka podle řádu](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.cs.png)
+![max délka podle řádu](../../../../../translated_images/cs/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 Tento graf poskytuje přehled o obecné distribuci délky těla podle řádu ptáků, ale není to optimální způsob, jak zobrazit skutečné distribuce. Tento úkol se obvykle řeší vytvořením histogramu.
 ## Práce s histogramy
@@ -56,7 +56,7 @@ Tento graf poskytuje přehled o obecné distribuci délky těla podle řádu pt�
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![distribuce přes celý dataset](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.cs.png)
+![distribuce přes celý dataset](../../../../../translated_images/cs/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 Jak vidíte, většina z více než 400 ptáků v tomto datasetu spadá do rozsahu pod 2000 pro jejich maximální tělesnou hmotnost. Získejte více informací o datech změnou parametru `bins` na vyšší číslo, například 30:
 
@@ -64,7 +64,7 @@ Jak vidíte, většina z více než 400 ptáků v tomto datasetu spadá do rozsa
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![distribuce-30bins](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.cs.png)
+![distribuce-30bins](../../../../../translated_images/cs/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 Tento graf ukazuje distribuci trochu podrobněji. Méně zkreslený graf by mohl být vytvořen tím, že zajistíte, že vyberete pouze data v daném rozsahu:
 
@@ -76,7 +76,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![filtrovaný histogram](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.cs.png)
+![filtrovaný histogram](../../../../../translated_images/cs/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ Vyzkoušejte některé další filtry a datové body. Chcete-li vidět plnou distribuci dat, odstraňte filtr `['MaxBodyMass']`, abyste zobrazili označené distribuce.
 
@@ -90,7 +90,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Zdá se, že existuje očekávaná korelace mezi těmito dvěma prvky podél očekávané osy, s jedním obzvláště silným bodem konvergence:
 
-![2d graf](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.cs.png)
+![2d graf](../../../../../translated_images/cs/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 Histogramy fungují dobře ve výchozím nastavení pro číselná data. Co když potřebujete vidět distribuce podle textových dat? 
 ## Prozkoumejte dataset pro distribuce pomocí textových dat 
@@ -121,7 +121,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![rozpětí křídel a stav ochrany](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.cs.png)
+![rozpětí křídel a stav ochrany](../../../../../translated_images/cs/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 Zdá se, že neexistuje dobrá korelace mezi minimálním rozpětím křídel a stavem ochrany. Otestujte další prvky datasetu pomocí této metody. Můžete také vyzkoušet různé filtry. Najdete nějakou korelaci?
 
@@ -135,7 +135,7 @@ Pojďme nyní pracovat s hustotními grafy!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![hustotní graf](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.cs.png)
+![hustotní graf](../../../../../translated_images/cs/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 Vidíte, jak graf odráží ten předchozí pro data o minimálním rozpětí křídel; je jen trochu hladší. Pokud byste chtěli znovu vytvořit tu zubatou linii MaxBodyMass z druhého grafu, který jste vytvořili, mohli byste ji velmi dobře vyhladit pomocí této metody:
 
@@ -143,7 +143,7 @@ Vidíte, jak graf odráží ten předchozí pro data o minimálním rozpětí k�
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![hustota tělesné hmotnosti](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.cs.png)
+![hustota tělesné hmotnosti](../../../../../translated_images/cs/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 Pokud byste chtěli hladkou, ale ne příliš hladkou linii, upravte parametr `adjust`: 
 
@@ -151,7 +151,7 @@ Pokud byste chtěli hladkou, ale ne příliš hladkou linii, upravte parametr `a
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![méně hladká tělesná hmotnost](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.cs.png)
+![méně hladká tělesná hmotnost](../../../../../translated_images/cs/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ Přečtěte si o dostupných parametrech pro tento typ grafu a experimentujte!
 
@@ -161,7 +161,7 @@ Tento typ grafu nabízí krásně vysvětlující vizualizace. Například něko
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![tělesná hmotnost podle řádu](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.cs.png)
+![tělesná hmotnost podle řádu](../../../../../translated_images/cs/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 Výzva
 

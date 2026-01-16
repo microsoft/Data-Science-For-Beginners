@@ -22,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. डेटा सेट [कैटलॉग](https://planetarycomputer.microsoft.com/catalog) का अन्वेषण करें - प्रत्येक का उद्देश्य जानें।
  3. एक्सप्लोरर का उपयोग करें - अपनी रुचि का डेटा सेट चुनें, एक प्रासंगिक क्वेरी और रेंडरिंग विकल्प चुनें।
 
-![ग्रह कंप्यूटर एक्सप्लोरर](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.hi.png)
+![ग्रह कंप्यूटर एक्सप्लोरर](../../../../translated_images/hi/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `आपका कार्य:`
 अब ब्राउज़र में रेंडर किए गए विज़ुअलाइज़ेशन का अध्ययन करें और निम्नलिखित प्रश्नों का उत्तर दें:

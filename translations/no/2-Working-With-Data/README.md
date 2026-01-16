@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Arbeide med data
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.no.jpg)
+![data love](../../../translated_images/no/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Foto av <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> på <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 I disse leksjonene vil du lære noen av måtene data kan administreres, manipuleres og brukes i applikasjoner. Du vil lære om relasjonelle og ikke-relasjonelle databaser og hvordan data kan lagres i dem. Du vil lære det grunnleggende om å jobbe med Python for å håndtere data, og du vil oppdage noen av de mange måtene du kan bruke Python til å administrere og analysere data.

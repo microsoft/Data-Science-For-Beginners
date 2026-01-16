@@ -316,7 +316,7 @@ def calculate_mean(data):
   ```
   ````
   
-- படங்களுக்கு மாற்று உரையைச் சேர்க்கவும்: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.ta.png)`  
+- படங்களுக்கு மாற்று உரையைச் சேர்க்கவும்: `![Alt text](../../translated_images/ta/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - வரி நீளங்களை நியாயமான அளவில் வைத்திருங்கள் (சுமார் 80-100 எழுத்துகள்)  
 
 ### Python

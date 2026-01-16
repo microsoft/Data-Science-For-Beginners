@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Uakisi
 
-![nyuki juu ya ua la lavenda](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.sw.jpg)
+![nyuki juu ya ua la lavenda](../../../translated_images/sw/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Picha na <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> kwenye <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Kuakisi data ni moja ya kazi muhimu zaidi kwa mwanasayansi wa data. Picha zina thamani ya maneno 1000, na uakisi unaweza kukusaidia kutambua aina zote za sehemu za kuvutia katika data yako kama vile miinuko, data zisizo za kawaida, makundi, mwelekeo, na zaidi, ambavyo vinaweza kukusaidia kuelewa hadithi ambayo data yako inajaribu kusimulia.

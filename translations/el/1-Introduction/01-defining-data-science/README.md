@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Βίντεο Ορισμός της Επιστήμης Δεδομένων](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.el.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Βίντεο Ορισμός της Επιστήμης Δεδομένων](../../../../translated_images/el/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Προ-διάλεξη κουίζ](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -135,7 +135,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Σε αυτή την πρόκληση, θα προσπαθήσουμε να βρούμε έννοιες σχετικές με τον τομέα της Επιστήμης Δεδομένων εξετάζοντας κείμενα. Θα πάρουμε ένα άρθρο από τη Wikipedia για την Επιστήμη Δεδομένων, θα κατεβάσουμε και θα επεξεργαστούμε το κείμενο και στη συνέχεια θα δημιουργήσουμε ένα σύννεφο λέξεων όπως αυτό:
 
-![Σύννεφο λέξεων για την Επιστήμη Δεδομένων](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.el.png)
+![Σύννεφο λέξεων για την Επιστήμη Δεδομένων](../../../../translated_images/el/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Επισκεφθείτε το [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') για να διαβάσετε τον κώδικα. Μπορείτε επίσης να εκτελέσετε τον κώδικα και να δείτε πώς πραγματοποιεί όλες τις μετατροπές δεδομένων σε πραγματικό χρόνο.
 

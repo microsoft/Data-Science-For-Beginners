@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Наука о данных в облаке
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.ru.jpg)
+![cloud-picture](../../../translated_images/ru/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Фото [Jelleke Vanooteghem](https://unsplash.com/@ilumire) с [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Когда речь идет о работе с большими данными в области науки о данных, облако может стать настоящим прорывом. В следующих трех уроках мы узнаем, что такое облако и почему оно может быть очень полезным. Мы также изучим набор данных о сердечной недостаточности и создадим модель, которая поможет оценить вероятность сердечной недостаточности у человека. Мы будем использовать возможности облака для обучения, развертывания и использования модели двумя различными способами. Один способ — используя только пользовательский интерфейс в стиле Low code/No code, другой — с помощью набора инструментов разработчика Azure Machine Learning (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.ru.png)
+![project-schema](../../../translated_images/ru/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Темы
 

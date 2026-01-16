@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Ciência de Dados na Cloud
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.pt.jpg)
+![cloud-picture](../../../translated_images/pt/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Foto de [Jelleke Vanooteghem](https://unsplash.com/@ilumire) no [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Quando se trata de fazer ciência de dados com big data, a cloud pode ser um divisor de águas. Nas próximas três lições, vamos explorar o que é a cloud e por que ela pode ser tão útil. Também vamos analisar um conjunto de dados sobre insuficiência cardíaca e construir um modelo para ajudar a avaliar a probabilidade de alguém sofrer de insuficiência cardíaca. Utilizaremos o poder da cloud para treinar, implementar e consumir um modelo de duas formas diferentes. Uma forma será utilizando apenas a interface de utilizador, num estilo de "Low code/No code", e a outra será através do Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.pt.png)
+![project-schema](../../../translated_images/pt/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Tópicos
 

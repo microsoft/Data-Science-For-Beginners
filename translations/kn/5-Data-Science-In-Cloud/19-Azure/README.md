@@ -57,7 +57,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 [ಹಿಂದಿನ ಪಾಠದಲ್ಲಿ](../18-Low-Code/README.md), ನಾವು ಕಡಿಮೆ ಕೋಡ್/ಕೋಡ್ ಇಲ್ಲದ ರೀತಿಯಲ್ಲಿ ಮಾದರಿಯನ್ನು ತರಬೇತಿ, ನಿಯೋಜನೆ ಮತ್ತು ಬಳಕೆ ಮಾಡುವುದು ಹೇಗೆ ಎಂದು ನೋಡಿದ್ದೇವೆ. ನಾವು ಹೃದಯ ವೈಫಲ್ಯ ಡೇಟಾಸೆಟ್ ಬಳಸಿ ಹೃದಯ ವೈಫಲ್ಯ ಭವಿಷ್ಯವಾಣಿ ಮಾದರಿಯನ್ನು ರಚಿಸಿದ್ದೇವೆ. ಈ ಪಾಠದಲ್ಲಿ, ನಾವು ಅದೇ ಕಾರ್ಯವನ್ನು ಅಜೂರ್ ಮೆಷಿನ್ ಲರ್ನಿಂಗ್ ಎಸ್‌ಡಿಕೆ ಬಳಸಿ ಮಾಡಲಿದ್ದೇವೆ.
 
-![project-schema](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.kn.png)
+![project-schema](../../../../translated_images/kn/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### 1.2 ಹೃದಯ ವೈಫಲ್ಯ ಭವಿಷ್ಯವಾಣಿ ಯೋಜನೆ ಮತ್ತು ಡೇಟಾಸೆಟ್ ಪರಿಚಯ
 
@@ -74,7 +74,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ನಾವು ಮೊದಲು ರಚಿಸಿದ [ಅಜೂರ್ ಎಂಎಲ್ ವರ್ಕ್‌ಸ್ಪೇಸ್](https://ml.azure.com/) ನಲ್ಲಿ, ಕಂಪ್ಯೂಟ್ ಮೆನುಗೆ ಹೋಗಿ ಲಭ್ಯವಿರುವ ವಿವಿಧ ಕಂಪ್ಯೂಟ್ ಸಂಪನ್ಮೂಲಗಳನ್ನು ನೋಡಬಹುದು
 
-![compute-instance-1](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.kn.png)
+![compute-instance-1](../../../../translated_images/kn/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.png)
 
 ಜುಪೈಟರ್ ನೋಟ್ಬುಕ್ ಪ್ರೊವಿಷನ್ ಮಾಡಲು ಕಂಪ್ಯೂಟ್ ಇನ್ಸ್ಟಾನ್ಸ್ ರಚಿಸೋಣ.
 1. + New ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ.
@@ -97,10 +97,10 @@ CO_OP_TRANSLATOR_METADATA:
 
 1. Applications ವಿಭಾಗದಲ್ಲಿ, Jupyter ಆಯ್ಕೆಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.
 2. "Yes, I understand" ಬಾಕ್ಸ್ ಟಿಕ್ ಮಾಡಿ ಮತ್ತು Continue ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ.
-![notebook-1](../../../../translated_images/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.kn.png)
+![notebook-1](../../../../translated_images/kn/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.png)
 3. ಇದು ನಿಮ್ಮ ಜುಪೈಟರ್ ನೋಟ್ಬುಕ್ ಇನ್ಸ್ಟಾನ್ಸ್‌ನೊಂದಿಗೆ ಹೊಸ ಬ್ರೌಸರ್ ಟ್ಯಾಬ್ ತೆರೆಯುತ್ತದೆ. ನೋಟ್ಬುಕ್ ರಚಿಸಲು "New" ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-![notebook-2](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.kn.png)
+![notebook-2](../../../../translated_images/kn/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.png)
 
 ನಾವು ಈಗ ನೋಟ್ಬುಕ್ ಹೊಂದಿದ್ದೇವೆ, ಅಜೂರ್ ಎಂಎಲ್ ಎಸ್‌ಡಿಕೆ ಬಳಸಿ ಮಾದರಿಯನ್ನು ತರಬೇತಿ ಮಾಡಬಹುದು.
 

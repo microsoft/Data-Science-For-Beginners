@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![نمودار پراکندگی ۱](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.fa.png)
+![نمودار پراکندگی ۱](../../../../../translated_images/fa/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 حالا همان داده‌ها را با یک طرح رنگی عسل نمایش دهید تا نشان دهید قیمت چگونه در طول سال‌ها تغییر کرده است. می‌توانید این کار را با افزودن پارامتر 'scale_color_gradientn' انجام دهید تا تغییرات سال به سال را نشان دهید:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![نمودار پراکندگی ۲](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.fa.png)
+![نمودار پراکندگی ۲](../../../../../translated_images/fa/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 با این تغییر طرح رنگی، می‌توانید ببینید که به وضوح یک پیشرفت قوی در طول سال‌ها از نظر قیمت هر پوند عسل وجود دارد. در واقع، اگر یک مجموعه نمونه در داده‌ها را بررسی کنید (مثلاً ایالت آریزونا)، می‌توانید الگویی از افزایش قیمت سال به سال را مشاهده کنید، با چند استثنا:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 می‌توانید ببینید که اندازه نقاط به تدریج افزایش می‌یابد.
 
-![نمودار پراکندگی ۳](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.fa.png)
+![نمودار پراکندگی ۳](../../../../../translated_images/fa/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 آیا این یک مورد ساده از عرضه و تقاضا است؟ به دلیل عواملی مانند تغییرات اقلیمی و فروپاشی کلنی، آیا عسل کمتری برای خرید در دسترس است و بنابراین قیمت افزایش می‌یابد؟
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 پاسخ: بله، با چند استثنا در حدود سال ۲۰۰۳:
 
-![نمودار خطی ۱](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.fa.png)
+![نمودار خطی ۱](../../../../../translated_images/fa/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 سؤال: خب، در سال ۲۰۰۳ آیا می‌توانیم افزایش عرضه عسل را نیز مشاهده کنیم؟ اگر تولید کل را سال به سال بررسی کنید چه؟
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![نمودار خطی ۲](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.fa.png)
+![نمودار خطی ۲](../../../../../translated_images/fa/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 پاسخ: نه واقعاً. اگر تولید کل را بررسی کنید، به نظر می‌رسد که در آن سال خاص افزایش یافته است، حتی اگر به طور کلی مقدار عسل تولید شده در این سال‌ها در حال کاهش باشد.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 در این تجسم، می‌توانید بازده هر کلنی و تعداد کلنی‌ها را سال به سال، کنار هم با تنظیم wrap در ۳ برای ستون‌ها مقایسه کنید:
 
-![شبکه فاست](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.fa.png)
+![شبکه فاست](../../../../../translated_images/fa/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 برای این مجموعه داده، هیچ چیز خاصی در مورد تعداد کلنی‌ها و بازده آن‌ها، سال به سال و ایالت به ایالت برجسته نیست. آیا راه دیگری برای یافتن همبستگی بین این دو متغیر وجود دارد؟
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![نمودارهای روی هم](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.fa.png)
+![نمودارهای روی هم](../../../../../translated_images/fa/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 در حالی که هیچ چیز خاصی در حدود سال ۲۰۰۳ به چشم نمی‌آید، این اجازه را به ما می‌دهد که این درس را با یک نکته خوشحال‌کننده‌تر به پایان برسانیم: در حالی که تعداد کلنی‌ها به طور کلی در حال کاهش است، تعداد کلنی‌ها در حال تثبیت است حتی اگر بازده هر کلنی کاهش یابد.
 

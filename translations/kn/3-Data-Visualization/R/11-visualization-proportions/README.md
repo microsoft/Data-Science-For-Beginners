@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 ಇದು, ಈ ಡೇಟಾದ ಪ್ರಮಾಣಗಳನ್ನು ಈ ಎರಡು ಮಶ್ರೂಮ್ ವರ್ಗಗಳ ಪ್ರಕಾರ ತೋರಿಸುವ ಪೈ ಚಾರ್ಟ್. ಲೇಬಲ್‌ಗಳ ಕ್ರಮವನ್ನು ಸರಿಯಾಗಿ ಪಡೆಯುವುದು ಬಹಳ ಮುಖ್ಯ, ವಿಶೇಷವಾಗಿ ಇಲ್ಲಿ, ಆದ್ದರಿಂದ ಲೇಬಲ್ ಅರೆ ಅನ್ನು ರಚಿಸುವ ಕ್ರಮವನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ!
 
-![pie chart](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.kn.png)
+![pie chart](../../../../../translated_images/kn/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## ಡೋನಟ್ಸ್!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![donut chart](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.kn.png)
+![donut chart](../../../../../translated_images/kn/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 ಈ ಕೋಡ್ ಎರಡು ಲೈಬ್ರರಿಗಳನ್ನು ಬಳಸುತ್ತದೆ - ggplot2 ಮತ್ತು webr. webr ಲೈಬ್ರರಿಯ PieDonut ಫಂಕ್ಷನ್ ಬಳಸಿ, ನಾವು ಸುಲಭವಾಗಿ ಡೋನಟ್ ಚಾರ್ಟ್ ರಚಿಸಬಹುದು!
 
@@ -170,7 +170,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 ವಾಫಲ್ ಚಾರ್ಟ್ ಬಳಸಿ, ನೀವು ಈ ಮಶ್ರೂಮ್ ಡೇಟಾಸೆಟ್‌ನ ಕ್ಯಾಪ್ ಬಣ್ಣಗಳ ಪ್ರಮಾಣಗಳನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ನೋಡಬಹುದು. ಆಸಕ್ತಿದಾಯಕವಾಗಿ, ಹಸಿರು ಕ್ಯಾಪ್ ಇರುವ ಮಶ್ರೂಮ್‌ಗಳು ಬಹಳಿವೆ!
 
-![waffle chart](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.kn.png)
+![waffle chart](../../../../../translated_images/kn/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 ಈ ಪಾಠದಲ್ಲಿ, ನೀವು ಪ್ರಮಾಣಗಳನ್ನು ದೃಶ್ಯೀಕರಿಸುವ ಮೂರು ವಿಧಾನಗಳನ್ನು ಕಲಿತಿರಿ. ಮೊದಲು, ನಿಮ್ಮ ಡೇಟಾವನ್ನು ವರ್ಗಗಳಾಗಿ ಗುಂಪುಮಾಡಬೇಕು ಮತ್ತು ನಂತರ ಡೇಟಾವನ್ನು ಪ್ರದರ್ಶಿಸುವ ಅತ್ಯುತ್ತಮ ವಿಧಾನವನ್ನು ನಿರ್ಧರಿಸಬೇಕು - ಪೈ, ಡೋನಟ್ ಅಥವಾ ವಾಫಲ್. ಎಲ್ಲವೂ ರುಚಿಕರವಾಗಿವೆ ಮತ್ತು ಬಳಕೆದಾರರಿಗೆ ಡೇಟಾಸೆಟ್‌ನ ತಕ್ಷಣದ ದೃಶ್ಯವನ್ನು ನೀಡುತ್ತವೆ.
 

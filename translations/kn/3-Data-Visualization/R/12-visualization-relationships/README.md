@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.kn.png)
+![scatterplot 1](../../../../../translated_images/kn/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 ಈಗ, ವರ್ಷಗಳ ಪ್ರಗತಿಯನ್ನು ತೋರಿಸಲು ಜೇನುತುಪ್ಪ ಬಣ್ಣದ ಸ್ಕೀಮ್ ಬಳಸಿ ಅದೇ ಡೇಟಾವನ್ನು ತೋರಿಸಿ. ವರ್ಷದಿಂದ ವರ್ಷಕ್ಕೆ ಬದಲಾವಣೆಯನ್ನು ತೋರಿಸಲು 'scale_color_gradientn' ಪರಿಮಾಣವನ್ನು ಸೇರಿಸಬಹುದು:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.kn.png)
+![scatterplot 2](../../../../../translated_images/kn/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 ಈ ಬಣ್ಣದ ಸ್ಕೀಮ್ ಬದಲಾವಣೆಯಿಂದ, ಜೇನುತುಪ್ಪದ ಪೌಂಡ್ ಪ್ರತಿ ಬೆಲೆಯು ವರ್ಷದಿಂದ ವರ್ಷಕ್ಕೆ ಸ್ಪಷ್ಟವಾಗಿ ಹೆಚ್ಚುತ್ತಿರುವುದು ಕಾಣುತ್ತದೆ. ನಿಜವಾಗಿಯೂ, ಡೇಟಾದ ಒಂದು ಮಾದರಿ ಸೆಟ್ (ಉದಾಹರಣೆಗೆ ಅರೆಜೋನಾದ ಒಂದು ರಾಜ್ಯ) ನೋಡಿದರೆ, ವರ್ಷದಿಂದ ವರ್ಷಕ್ಕೆ ಬೆಲೆ ಏರಿಕೆಯ ಮಾದರಿಯನ್ನು ಕಾಣಬಹುದು, ಕೆಲವೊಂದು ಹೊರತುಪಡಿಸಿ:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 ನೀವು ಬಿಂದುಗಳ ಗಾತ್ರ ಕ್ರಮೇಣ ಹೆಚ್ಚುತ್ತಿರುವುದನ್ನು ಕಾಣಬಹುದು.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.kn.png)
+![scatterplot 3](../../../../../translated_images/kn/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 ಇದು ಸರಳ ಸರಬರಾಜು ಮತ್ತು ಬೇಡಿಕೆ ಪ್ರಕರಣವೇ? ಹವಾಮಾನ ಬದಲಾವಣೆ ಮತ್ತು ಕಾಲೋನಿ ಕಾಲಾಪ್ಸ್ ಮುಂತಾದ ಕಾರಣಗಳಿಂದ, ವರ್ಷದಿಂದ ವರ್ಷಕ್ಕೆ ಖರೀದಿಗೆ ಲಭ್ಯವಿರುವ ಜೇನುತುಪ್ಪ ಕಡಿಮೆಯಾಗುತ್ತಿದೆಯೇ, ಆದ್ದರಿಂದ ಬೆಲೆ ಏರುತ್ತಿದೆಯೇ?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 ಉತ್ತರ: ಹೌದು, 2003 ರ ಸುತ್ತಲೂ ಕೆಲವು ಹೊರತುಪಡಿಸಿ:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.kn.png)
+![line chart 1](../../../../../translated_images/kn/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 ಪ್ರಶ್ನೆ: 2003 ರಲ್ಲಿ ಜೇನುತುಪ್ಪದ ಸರಬರಾಜಿನಲ್ಲಿ ಏರಿಕೆಯನ್ನು ನೋಡಬಹುದೇ? ಒಟ್ಟು ಉತ್ಪಾದನೆಯನ್ನು ವರ್ಷದಿಂದ ವರ್ಷಕ್ಕೆ ನೋಡಿದರೆ?
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.kn.png)
+![line chart 2](../../../../../translated_images/kn/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 ಉತ್ತರ: ಅಷ್ಟು ಅಲ್ಲ. ಒಟ್ಟು ಉತ್ಪಾದನೆಯನ್ನು ನೋಡಿದರೆ, ಆ ವಿಶೇಷ ವರ್ಷದಲ್ಲಿ ಅದು ಹೆಚ್ಚಿದಂತೆ ತೋರುತ್ತದೆ, ಆದರೂ ಸಾಮಾನ್ಯವಾಗಿ ಈ ವರ್ಷಗಳಲ್ಲಿ ಜೇನುತುಪ್ಪದ ಉತ್ಪಾದನೆ ಕಡಿಮೆಯಾಗುತ್ತಿದೆ.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 ಈ ದೃಶ್ಯೀಕರಣದಲ್ಲಿ, ನೀವು ವರ್ಷದಿಂದ ವರ್ಷಕ್ಕೆ ಮತ್ತು ರಾಜ್ಯದಿಂದ ರಾಜ್ಯಕ್ಕೆ yield per colony ಮತ್ತು ಕಾಲೋನಿಗಳ ಸಂಖ್ಯೆಯನ್ನು ಪಕ್ಕಪಕ್ಕವಾಗಿ 3 ಕಾಲಮ್‌ಗಳೊಂದಿಗೆ ಹೋಲಿಸಬಹುದು:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.kn.png)
+![facet grid](../../../../../translated_images/kn/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 ಈ ಡೇಟಾಸೆಟ್‌ಗೆ, ಕಾಲೋನಿಗಳ ಸಂಖ್ಯೆ ಮತ್ತು ಅವರ ಉತ್ಪಾದನೆಯ ಕುರಿತು ವರ್ಷದಿಂದ ವರ್ಷಕ್ಕೆ ಮತ್ತು ರಾಜ್ಯದಿಂದ ರಾಜ್ಯಕ್ಕೆ ವಿಶೇಷವಾಗಿ ಏನೂ ಹೊರಹೊಮ್ಮುವುದಿಲ್ಲ. ಈ ಎರಡು ವ್ಯತ್ಯಾಸಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಕಂಡುಹಿಡಿಯಲು ಬೇರೆ ವಿಧಾನವಿದೆಯೇ?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.kn.png)
+![superimposed plots](../../../../../translated_images/kn/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 2003 ರ ಸುತ್ತಲೂ ಏನೂ ವಿಶೇಷವಾಗಿ ಗಮನ ಸೆಳೆಯದಿದ್ದರೂ, ಈ ಪಾಠವನ್ನು ಸ್ವಲ್ಪ ಸಂತೋಷಕರವಾಗಿ ಮುಗಿಸಲು ಇದು ಸಹಾಯ ಮಾಡುತ್ತದೆ: ಒಟ್ಟಾರೆ ಕಾಲೋನಿಗಳ ಸಂಖ್ಯೆ ಕಡಿಮೆಯಾಗುತ್ತಿದೆಯಾದರೂ, ಕಾಲೋನಿಗಳ ಸಂಖ್ಯೆ ಸ್ಥಿರವಾಗುತ್ತಿದೆ ಮತ್ತು ಅವರ yield per colony ಕಡಿಮೆಯಾಗುತ್ತಿದೆ.
 

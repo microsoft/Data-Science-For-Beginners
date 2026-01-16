@@ -41,7 +41,7 @@ Berkat demokratisasi AI, pengembang kini lebih mudah merancang dan mengintegrasi
 
  * [Ilmu Data di Kesehatan](https://data-flair.training/blogs/data-science-in-healthcare/) - menyoroti aplikasi seperti pencitraan medis (misalnya, MRI, X-Ray, CT-Scan), genomik (sekuensing DNA), pengembangan obat (penilaian risiko, prediksi keberhasilan), analitik prediktif (perawatan pasien & logistik pasokan), pelacakan & pencegahan penyakit, dll.
 
-![Aplikasi Ilmu Data di Dunia Nyata](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.id.png) Kredit Gambar: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Aplikasi Ilmu Data di Dunia Nyata](../../../../translated_images/id/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Kredit Gambar: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Gambar tersebut menunjukkan domain lain dan contoh penerapan teknik ilmu data. Ingin mengeksplorasi aplikasi lainnya? Lihat bagian [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) di bawah ini.
 

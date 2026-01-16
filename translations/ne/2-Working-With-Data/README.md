@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # डाटासँग काम गर्ने
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.ne.jpg)
+![data love](../../../translated_images/ne/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > फोटो: <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">एलेक्जेन्डर सिन</a> द्वारा <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">अनस्प्ल्यास</a> मा उपलब्ध
 
 यी पाठहरूमा, तपाईंले डाटालाई व्यवस्थापन, हेरफेर, र अनुप्रयोगहरूमा प्रयोग गर्न सकिने केही तरिकाहरू सिक्नुहुनेछ। तपाईंले सम्बन्धात्मक (relational) र गैर-सम्बन्धात्मक (non-relational) डाटाबेसहरूको बारेमा सिक्नुहुनेछ र तिनमा डाटा कसरी भण्डारण गर्न सकिन्छ भन्ने कुरा बुझ्नुहुनेछ। तपाईंले डाटालाई व्यवस्थापन गर्न Python प्रयोग गर्ने आधारभूत कुराहरू सिक्नुहुनेछ, साथै Python प्रयोग गरेर डाटालाई व्यवस्थापन र खनन गर्ने विभिन्न तरिकाहरू पत्ता लगाउनुहुनेछ।

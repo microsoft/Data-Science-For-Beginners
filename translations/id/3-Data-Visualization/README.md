@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualisasi
 
-![seekor lebah di bunga lavender](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.id.jpg)
+![seekor lebah di bunga lavender](../../../translated_images/id/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Foto oleh <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> di <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Memvisualisasikan data adalah salah satu tugas terpenting seorang data scientist. Gambar bernilai 1000 kata, dan sebuah visualisasi dapat membantu Anda mengidentifikasi berbagai aspek menarik dari data Anda seperti lonjakan, pencilan, pengelompokan, kecenderungan, dan lainnya, yang dapat membantu Anda memahami cerita yang ingin disampaikan oleh data Anda.

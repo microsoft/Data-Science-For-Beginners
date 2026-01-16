@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![ویدیو تعریف علم داده](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.fa.png)](https://youtu.be/beZ7Mb_oz9I)
+[![ویدیو تعریف علم داده](../../../../translated_images/fa/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [آزمون پیش از درس](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 در این چالش، سعی خواهیم کرد مفاهیم مرتبط با حوزه علم داده را با بررسی متون پیدا کنیم. ما یک مقاله ویکی‌پدیا درباره علم داده را انتخاب می‌کنیم، متن را دانلود و پردازش می‌کنیم، و سپس یک ابر کلمات مانند این تصویر ایجاد می‌کنیم:
 
-![ابر کلمات برای علم داده](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.fa.png)
+![ابر کلمات برای علم داده](../../../../translated_images/fa/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 به [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') مراجعه کنید تا کد را مرور کنید. همچنین می‌توانید کد را اجرا کنید و ببینید که چگونه تمام تبدیل‌های داده را به صورت زنده انجام می‌دهد.
 

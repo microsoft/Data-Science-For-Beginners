@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![डेटा साइंस की परिभाषा वीडियो](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.hi.png)](https://youtu.be/beZ7Mb_oz9I)
+[![डेटा साइंस की परिभाषा वीडियो](../../../../translated_images/hi/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [प्री-लेक्चर क्विज़](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 इस चुनौती में, हम डेटा साइंस के क्षेत्र से संबंधित अवधारणाओं को खोजने की कोशिश करेंगे, और इसके लिए हम टेक्स्ट का विश्लेषण करेंगे। हम डेटा साइंस पर एक विकिपीडिया लेख लेंगे, टेक्स्ट को डाउनलोड और प्रोसेस करेंगे, और फिर एक वर्ड क्लाउड बनाएंगे, जो इस तरह दिखेगा:
 
-![डेटा साइंस के लिए वर्ड क्लाउड](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.hi.png)
+![डेटा साइंस के लिए वर्ड क्लाउड](../../../../translated_images/hi/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 कोड को पढ़ने के लिए [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') पर जाएं। आप कोड को चला सकते हैं और देख सकते हैं कि यह वास्तविक समय में सभी डेटा ट्रांसफॉर्मेशन कैसे करता है।
 

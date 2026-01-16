@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Data Science u oblaku
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.hr.jpg)
+![cloud-picture](../../../translated_images/hr/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Fotografija od [Jelleke Vanooteghem](https://unsplash.com/@ilumire) s [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Kada je riječ o primjeni data sciencea na velike količine podataka, oblak može biti revolucionaran. U sljedeće tri lekcije vidjet ćemo što je oblak i zašto može biti vrlo koristan. Također ćemo istražiti skup podataka o zatajenju srca i izgraditi model koji pomaže u procjeni vjerojatnosti da osoba ima zatajenje srca. Iskoristit ćemo snagu oblaka za treniranje, implementaciju i korištenje modela na dva različita načina. Jedan način koristi samo korisničko sučelje u stilu "Low code/No code", dok drugi način koristi Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.hr.png)
+![project-schema](../../../translated_images/hr/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Teme
 

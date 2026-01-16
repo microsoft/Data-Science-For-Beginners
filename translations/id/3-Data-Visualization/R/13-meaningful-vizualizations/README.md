@@ -47,25 +47,25 @@ Dalam pelajaran sebelumnya, Anda telah mencoba membuat berbagai visualisasi data
 
 Meskipun seorang ilmuwan data berhati-hati dalam memilih grafik yang tepat untuk data yang tepat, ada banyak cara data dapat ditampilkan untuk membuktikan suatu poin, sering kali dengan mengorbankan integritas data itu sendiri. Ada banyak contoh grafik dan infografis yang menyesatkan!
 
-[![How Charts Lie oleh Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.id.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
+[![How Charts Lie oleh Alberto Cairo](../../../../../translated_images/id/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
 > 🎥 Klik gambar di atas untuk melihat pembicaraan konferensi tentang grafik yang menyesatkan
 
 Grafik ini membalik sumbu X untuk menunjukkan kebalikan dari kebenaran, berdasarkan tanggal:
 
-![grafik buruk 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.id.png)
+![grafik buruk 1](../../../../../translated_images/id/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Grafik ini](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) bahkan lebih menyesatkan, karena mata tertarik ke kanan untuk menyimpulkan bahwa, seiring waktu, kasus COVID telah menurun di berbagai wilayah. Faktanya, jika Anda melihat lebih dekat pada tanggalnya, Anda akan menemukan bahwa tanggal-tanggal tersebut telah diatur ulang untuk memberikan tren penurunan yang menyesatkan.
 
-![grafik buruk 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.id.jpg)
+![grafik buruk 2](../../../../../translated_images/id/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Contoh terkenal ini menggunakan warna DAN sumbu Y yang dibalik untuk menyesatkan: alih-alih menyimpulkan bahwa kematian akibat senjata meningkat setelah pengesahan undang-undang yang mendukung senjata, mata justru tertipu untuk berpikir bahwa kebalikannya adalah benar:
 
-![grafik buruk 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.id.jpg)
+![grafik buruk 3](../../../../../translated_images/id/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Grafik aneh ini menunjukkan bagaimana proporsi dapat dimanipulasi, dengan efek yang menggelikan:
 
-![grafik buruk 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.id.jpg)
+![grafik buruk 4](../../../../../translated_images/id/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Membandingkan hal-hal yang tidak sebanding adalah trik licik lainnya. Ada [situs web yang luar biasa](https://tylervigen.com/spurious-correlations) tentang 'korelasi palsu' yang menampilkan 'fakta' yang menghubungkan hal-hal seperti tingkat perceraian di Maine dan konsumsi margarin. Grup Reddit juga mengumpulkan [penggunaan data yang buruk](https://www.reddit.com/r/dataisugly/top/?t=all).
 
@@ -100,13 +100,13 @@ Label sumbu Anda, sediakan legenda jika diperlukan, dan tawarkan tooltip untuk p
 
 Jika data Anda berupa teks yang panjang pada sumbu X, Anda dapat memiringkan teks untuk meningkatkan keterbacaan. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) menawarkan pemetaan 3D, jika data Anda mendukungnya. Visualisasi data yang canggih dapat dihasilkan menggunakan ini.
 
-![grafik 3D](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.id.png)
+![grafik 3D](../../../../../translated_images/id/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Animasi dan tampilan grafik 3D
 
 Beberapa visualisasi data terbaik saat ini bersifat animasi. Shirley Wu memiliki karya luar biasa yang dibuat dengan D3, seperti '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', di mana setiap bunga adalah visualisasi dari sebuah film. Contoh lain untuk Guardian adalah 'bussed out', sebuah pengalaman interaktif yang menggabungkan visualisasi dengan Greensock dan D3 serta format artikel scrollytelling untuk menunjukkan bagaimana NYC menangani masalah tunawisma dengan mengirim orang keluar dari kota.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.id.png)
+![busing](../../../../../translated_images/id/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: How America Moves its Homeless" dari [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualisasi oleh Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Meskipun pelajaran ini tidak cukup mendalam untuk mengajarkan pustaka visualisas
 
 Anda akan menyelesaikan aplikasi web yang akan menampilkan tampilan animasi dari jaringan sosial ini. Aplikasi ini menggunakan pustaka yang dibuat untuk membuat [visual jaringan](https://github.com/emiliorizzo/vue-d3-network) menggunakan Vue.js dan D3. Saat aplikasi berjalan, Anda dapat menarik node di layar untuk mengacak data.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.id.png)
+![liaisons](../../../../../translated_images/id/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Proyek: Buat grafik untuk menunjukkan jaringan menggunakan D3.js
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualiseringer
 
-![en bi på en lavendelblomst](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.da.jpg)  
+![en bi på en lavendelblomst](../../../translated_images/da/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)  
 > Foto af <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> på <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 At visualisere data er en af de vigtigste opgaver for en dataforsker. Billeder siger mere end 1000 ord, og en visualisering kan hjælpe dig med at identificere alle mulige interessante aspekter af dine data, såsom spidser, afvigere, grupperinger, tendenser og meget mere, der kan hjælpe dig med at forstå den historie, dine data forsøger at fortælle.

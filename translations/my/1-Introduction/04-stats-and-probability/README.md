@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 စာရင်းအင်းနှင့် အလားအလာ သီအိုရီသည် သင်္ချာ၏ အလွန်နီးစပ်သော နယ်ပယ်နှစ်ခုဖြစ်ပြီး ဒေတာသိပ္ပံတွင် အလွန်အရေးပါသည်။ သင်္ချာအကြောင်း အနက်ရှိုင်းစွာ မသိဘဲ ဒေတာနှင့် လုပ်ဆောင်နိုင်သော်လည်း အခြေခံအယူအဆအချို့ကို သိထားခြင်းက ပိုမိုကောင်းမွန်ပါသည်။ ဒီမှာ သင်စတင်နိုင်ရန် အကျိုးရှိမည့် အကျဉ်းချုပ်တစ်ခုကို တင်ပြပါမည်။
 
-[![Intro Video](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.my.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Intro Video](../../../../translated_images/my/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Continuous variable တစ်ခု၏ အလားအလာဖြန့်ဝ�
 
 ကျွန်ုပ်တို့သည် variable တစ်ခုသည် တန်ဖိုးများ၏ interval တစ်ခုတွင် ကျရောက်သော အလားအလာအကြောင်းသာ ပြောနိုင်သည်၊ ဥပမာအားဖြင့် P(t<sub>1</sub>≤X<t<sub>2</sub>)။ ဒီအခြေအနေတွင် အလားအလာဖြန့်ဝေမှုကို **probability density function** p(x) ဖြင့် ဖော်ပြသည်၊ ၎င်းသည်
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.my.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/my/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Continuous uniform distribution ဟုခေါ်သော uniform distribution ၏ continuous analog ကို အကန့်အသတ် interval တစ်ခုတွင် သတ်မှတ်သည်။ X တန်ဖိုးသည် အကွာအဝေး l တွင် ကျရောက်သော အလားအလာသည် l နှင့် အချိုးကျပြီး 1 အထိ မြင့်တက်သည်။
 
@@ -82,11 +82,11 @@ Median နှင့် quartiles တစ်ခုချင်းစီ၏ ဆက�
 
 ဒီမှာ ကျွန်ုပ်တို့၏ ဒေတာအတွက် ပျမ်းမျှတန်ဖိုး၊ median နှင့် quartiles ကို ဖော်ပြထားသော box plot ဖြစ်သည်-
 
-![Weight Box Plot](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.my.png)
+![Weight Box Plot](../../../../translated_images/my/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 ကျွန်ုပ်တို့၏ ဒေတာတွင် ကစားသမား **roles** အကြောင်း အချက်အလက်များ ပါဝင်သောကြောင့် role အလိုက် box plot ကိုလည်း ပြုလုပ်နိုင်သည် - ၎င်းသည် parameter values များသည် roles အလိုက် ဘယ်လိုကွဲပြားနေသည်ကို နားလည်ရန် ကူညီပေးမည်။ ဒီအကြိမ်မှာ height ကို စဉ်းစားပါမည်-
 
-![Box plot by role](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.my.png)
+![Box plot by role](../../../../translated_images/my/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 ဒီ diagram က ပထမ base ကစားသမား height သည် ဒုတိယ base ကစားသမား height ထက် ပျမ်းမျှအားဖြင့် မြင့်သည်ကို ဖော်ပြသည်။ ဒီသင်ခန်းစာတွင် ကျွန်ုပ်တို့သည် ဒီအယူအဆကို ပိုမိုတိကျစွာ စမ်းသပ်နိုင်သော နည်းလမ်းများနှင့် ကျွန်ုပ်တို့၏ ဒေတာသည် အထောက်အထားအလုံလောက်ရှိသည်ကို သက်သေပြနိုင်သော နည်းလမ်းများကို လေ့လာမည်။
 
@@ -94,7 +94,7 @@ Median နှင့် quartiles တစ်ခုချင်းစီ၏ ဆက�
 
 ကျွန်ုပ်တို့၏ ဒေတာ distribution ကို ကြည့်ရန် **histogram** ဟုခေါ်သော graph တစ်ခုကို ရှုနိုင်သည်။ X-axis တွင် အလေးချိန် interval များ (so-called **bins**) ပါဝင်ပြီး၊ vertical axis တွင် random variable sample သည် interval တစ်ခုတွင် ရှိသောအခါ အကြိမ်အရေအတွက်ကို ဖော်ပြသည်။
 
-![Histogram of real world data](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.my.png)
+![Histogram of real world data](../../../../translated_images/my/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 ဒီ histogram မှာ အလေးချိန်များအားလုံးသည် ပျမ်းမျှအလေးချိန်
 
@@ -206,7 +206,7 @@ array([[1.        , 0.52959196],
 
 ဤအခါတွင်၊ 0.53 သည် weight နှင့် height အကြား correlation ရှိကြောင်း ပြသသည်။ Scatter plot ကို ရေးဆွဲ၍ visual relationship ကိုလည်း ကြည့်နိုင်သည်:
 
-![Relationship between weight and height](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.my.png)
+![Relationship between weight and height](../../../../translated_images/my/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Correlation နှင့် covariance ၏ နောက်ထပ်ဥပမာများကို [accompanying notebook](notebook.ipynb) တွင် ရှာဖွေနိုင်သည်။
 

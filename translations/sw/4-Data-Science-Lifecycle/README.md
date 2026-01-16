@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Mzunguko wa Maisha wa Sayansi ya Takwimu
 
-![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.sw.jpg)
+![communication](../../../translated_images/sw/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
 > Picha na <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> kwenye <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Katika masomo haya, utachunguza baadhi ya vipengele vya mzunguko wa maisha wa Sayansi ya Takwimu, ikiwa ni pamoja na uchambuzi na mawasiliano kuhusu data.

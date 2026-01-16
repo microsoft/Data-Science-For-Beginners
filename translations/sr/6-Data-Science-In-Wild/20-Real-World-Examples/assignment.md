@@ -22,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. Истражите [Каталог](https://planetarycomputer.microsoft.com/catalog) скупа података - упознајте се са сврхом сваког скупа.
  3. Користите Explorer - изаберите скуп података који вас интересује, изаберите релевантан упит и опцију приказа.
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.sr.png)
+![The Planetary Computer Explorer](../../../../translated_images/sr/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Ваш задатак:`
 Сада проучите визуализацију која је приказана у прегледачу и одговорите на следеће:

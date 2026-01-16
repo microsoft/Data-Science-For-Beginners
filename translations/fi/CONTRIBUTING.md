@@ -312,7 +312,7 @@ Sisällytä PR-kuvaukseesi:
   import pandas as pd
   ```
   ````
-- Lisää alt-tekstiä kuviin: `![Alt-teksti](../../translated_images/kuva.a2a8c9070e65ff3c7c6a6dc945dcd333c7807f900cd4709e93198d0022bd0d3d.fi.png)`
+- Lisää alt-tekstiä kuviin: `![Alt-teksti](../../translated_images/fi/kuva.a2a8c9070e65ff3c7c6a6dc945dcd333c7807f900cd4709e93198d0022bd0d3d.png)`
 - Pidä rivien pituudet kohtuullisina (noin 80-100 merkkiä)
 
 ### Python

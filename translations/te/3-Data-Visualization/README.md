@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # విజువలైజేషన్లు
 
-![a bee on a lavender flower](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.te.jpg)
+![a bee on a lavender flower](../../../translated_images/te/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > ఫోటో <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">జెన్నా లీ</a> చేత <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">అన్స్ప్లాష్</a> లో
 
 

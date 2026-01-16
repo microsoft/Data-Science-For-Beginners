@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ക്ലൗഡിലെ ഡാറ്റാ സയൻസ്
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.ml.jpg)
+![cloud-picture](../../../translated_images/ml/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > ഫോട്ടോ [Jelleke Vanooteghem](https://unsplash.com/@ilumire) യുടെ [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape) ൽ നിന്നാണ്
 
 വലിയ ഡാറ്റയുമായി ഡാറ്റാ സയൻസ് ചെയ്യുമ്പോൾ, ക്ലൗഡ് ഒരു ഗെയിം ചേഞ്ചർ ആകാം. അടുത്ത മൂന്ന് പാഠങ്ങളിൽ, ക്ലൗഡ് എന്താണെന്നും അത് എങ്ങനെ സഹായകരമാകാമെന്നും നാം കാണാൻ പോകുന്നു. ഹൃദയ പരാജയ ഡാറ്റാസെറ്റ് പരിശോധിച്ച്, ആരെങ്കിലും ഹൃദയ പരാജയ സാധ്യതയുള്ളതെന്ന് വിലയിരുത്താൻ സഹായിക്കുന്ന ഒരു മോഡൽ നിർമ്മിക്കാനും നാം പോകുന്നു. മോഡൽ പരിശീലിപ്പിക്കാൻ, വിന്യസിക്കാൻ, ഉപയോഗിക്കാൻ ക്ലൗഡിന്റെ ശക്തി ഉപയോഗിക്കും. ഒരു വഴി കുറഞ്ഞ കോഡ്/കോഡ് ഇല്ലാത്ത രീതിയിൽ മാത്രം ഉപയോക്തൃ ഇന്റർഫേസ് ഉപയോഗിച്ച്, മറ്റൊരു വഴി Azure മെഷീൻ ലേണിംഗ് സോഫ്റ്റ്വെയർ ഡെവലപ്പർ കിറ്റ് (Azure ML SDK) ഉപയോഗിച്ച്.
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.ml.png)
+![project-schema](../../../translated_images/ml/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### വിഷയങ്ങൾ
 

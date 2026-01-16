@@ -47,25 +47,25 @@ Nelle lezioni precedenti, hai sperimentato la creazione di vari tipi di visualiz
 
 Anche se un data scientist sceglie con attenzione il grafico giusto per i dati, ci sono molti modi in cui i dati possono essere visualizzati per dimostrare un punto, spesso a scapito della veridicità dei dati stessi. Esistono molti esempi di grafici e infografiche ingannevoli!
 
-[![How Charts Lie di Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.it.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
+[![How Charts Lie di Alberto Cairo](../../../../../translated_images/it/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
 > 🎥 Clicca sull'immagine sopra per una conferenza sui grafici ingannevoli
 
 Questo grafico inverte l'asse X per mostrare l'opposto della verità, basandosi sulla data:
 
-![grafico errato 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.it.png)
+![grafico errato 1](../../../../../translated_images/it/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Questo grafico](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) è ancora più ingannevole, poiché l'occhio è attirato verso destra per concludere che, nel tempo, i casi di COVID siano diminuiti nelle varie contee. In realtà, se si osservano attentamente le date, si scopre che sono state riorganizzate per creare questa falsa tendenza al ribasso.
 
-![grafico errato 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.it.jpg)
+![grafico errato 2](../../../../../translated_images/it/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Questo esempio noto utilizza il colore E un asse Y invertito per ingannare: invece di concludere che le morti per armi da fuoco siano aumentate dopo l'approvazione di una legislazione favorevole alle armi, l'occhio è ingannato a pensare che sia vero il contrario:
 
-![grafico errato 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.it.jpg)
+![grafico errato 3](../../../../../translated_images/it/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Questo grafico strano mostra come le proporzioni possano essere manipolate, con effetti esilaranti:
 
-![grafico errato 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.it.jpg)
+![grafico errato 4](../../../../../translated_images/it/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Confrontare l'incomparabile è un altro trucco discutibile. Esiste un [sito web meraviglioso](https://tylervigen.com/spurious-correlations) dedicato alle 'correlazioni spurie' che mostra 'fatti' correlando cose come il tasso di divorzi nel Maine e il consumo di margarina. Un gruppo su Reddit raccoglie anche [usi discutibili](https://www.reddit.com/r/dataisugly/top/?t=all) dei dati.
 
@@ -100,13 +100,13 @@ Etichetta gli assi, fornisci una legenda se necessario e offri tooltip per una m
 
 Se i tuoi dati sono testuali e verbosi sull'asse X, puoi angolare il testo per migliorarne la leggibilità. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) offre la possibilità di creare grafici in 3D, se i tuoi dati lo supportano. Con esso è possibile produrre visualizzazioni sofisticate.
 
-![grafici 3D](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.it.png)
+![grafici 3D](../../../../../translated_images/it/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Animazione e visualizzazione di grafici in 3D
 
 Alcune delle migliori visualizzazioni dei dati oggi sono animate. Shirley Wu ha creato visualizzazioni straordinarie con D3, come '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', dove ogni fiore rappresenta una visualizzazione di un film. Un altro esempio per il Guardian è 'bussed out', un'esperienza interattiva che combina visualizzazioni con Greensock e D3, oltre a un formato di articolo scrollytelling per mostrare come NYC gestisce il problema dei senzatetto bussando le persone fuori dalla città.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.it.png)
+![busing](../../../../../translated_images/it/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: How America Moves its Homeless" dal [Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualizzazioni di Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Sebbene questa lezione non sia sufficiente per approfondire l'insegnamento di qu
 
 Completerai un'app web che visualizzerà una vista animata di questa rete sociale. Utilizza una libreria progettata per creare una [visualizzazione di una rete](https://github.com/emiliorizzo/vue-d3-network) utilizzando Vue.js e D3. Quando l'app è in esecuzione, puoi spostare i nodi sullo schermo per riorganizzare i dati.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.it.png)
+![liaisons](../../../../../translated_images/it/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Progetto: Creare un grafico per mostrare una rete usando D3.js
 

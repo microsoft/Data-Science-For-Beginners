@@ -51,7 +51,7 @@ honey.head()
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.he.png)
+![scatterplot 1](../../../../translated_images/he/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 כעת, הציגו את אותם נתונים עם סכמת צבעים של דבש כדי להראות כיצד המחיר מתפתח לאורך השנים. ניתן לעשות זאת על ידי הוספת פרמטר 'hue' כדי להציג את השינוי משנה לשנה:
 
@@ -60,7 +60,7 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.he.png)
+![scatterplot 2](../../../../translated_images/he/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 עם שינוי סכמת הצבעים, ניתן לראות בבירור שיש התקדמות חזקה לאורך השנים מבחינת המחיר לקילוגרם של דבש. אכן, אם תבחנו סט דגימה בנתונים כדי לאמת (בחרו מדינה מסוימת, כמו אריזונה לדוגמה), תוכלו לראות דפוס של עליית מחירים משנה לשנה, עם מעט חריגות:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 ניתן לראות שהגודל של הנקודות גדל בהדרגה.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.he.png)
+![scatterplot 3](../../../../translated_images/he/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 האם מדובר במקרה פשוט של היצע וביקוש? בשל גורמים כמו שינויי אקלים וקריסת מושבות, האם יש פחות דבש זמין לרכישה משנה לשנה, ולכן המחיר עולה?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 תשובה: כן, עם כמה חריגות סביב שנת 2003:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.he.png)
+![line chart 1](../../../../translated_images/he/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ מכיוון ש-Seaborn מאגד נתונים סביב קו אחד, הוא מציג "את המדידות המרובות בכל ערך x על ידי הצגת הממוצע וטווח הביטחון של 95% סביב הממוצע". [מקור](https://seaborn.pydata.org/tutorial/relational.html). ניתן לבטל התנהגות זו על ידי הוספת `ci=None`.
 
@@ -114,7 +114,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.he.png)
+![line chart 2](../../../../translated_images/he/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 תשובה: לא ממש. אם תבחנו את הייצור הכולל, נראה שהוא דווקא עלה בשנה זו, למרות שבאופן כללי כמות הדבש המיוצרת נמצאת בירידה בשנים הללו.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 בויזואליזציה זו, ניתן להשוות את התפוקה לכל כוורת ומספר הכוורות משנה לשנה, זו לצד זו, עם הגדרת wrap של 3 לעמודות:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.he.png)
+![facet grid](../../../../translated_images/he/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 עבור מאגר הנתונים הזה, שום דבר לא בולט במיוחד ביחס למספר הכוורות והתפוקה שלהן, משנה לשנה ומדינה למדינה. האם יש דרך אחרת לחפש קשר בין שני המשתנים הללו?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.he.png)
+![superimposed plots](../../../../translated_images/he/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 בעוד ששום דבר לא קופץ לעין סביב שנת 2003, זה מאפשר לנו לסיים את השיעור בנימה מעט שמחה יותר: למרות שיש ירידה כללית במספר הכוורות, מספר הכוורות מתייצב גם אם התפוקה לכל כוורת יורדת.
 

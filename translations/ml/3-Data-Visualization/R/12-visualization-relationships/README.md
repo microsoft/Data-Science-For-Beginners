@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.ml.png)
+![scatterplot 1](../../../../../translated_images/ml/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 ഇപ്പോൾ, വർഷം തോറും വില എങ്ങനെ മാറിയെന്ന് കാണിക്കാൻ തേൻ നിറത്തിലുള്ള കളർ സ്കീം ഉപയോഗിച്ച് സമാന ഡാറ്റ കാണിക്കുക. വർഷം തോറും മാറ്റം കാണിക്കാൻ 'scale_color_gradientn' പാരാമീറ്റർ ചേർക്കാം:
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.ml.png)
+![scatterplot 2](../../../../../translated_images/ml/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 ഈ കളർ സ്കീം മാറ്റത്തോടെ, പൗണ്ട് പ്രതി തേൻ വില വർഷം തോറും ശക്തമായി ഉയരുന്നുവെന്ന് വ്യക്തമായി കാണാം. ഡാറ്റയിൽ ഒരു സാമ്പിൾ സെറ്റ് പരിശോധിച്ചാൽ (ഉദാഹരണത്തിന്, അരിസോണ), വില വർഷം തോറും ഉയരുന്ന ഒരു പാറ്റേൺ കാണാം, കുറച്ച് ഒഴിവുകൾ കൂടെ:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 ഡോട്ടുകളുടെ വലിപ്പം ക്രമാനുസൃതമായി വർദ്ധിക്കുന്നതായി കാണാം.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.ml.png)
+![scatterplot 3](../../../../../translated_images/ml/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 ഇത് സപ്ലൈ-ഡിമാൻഡ് സാദ്ധ്യതയുള്ള ഒരു ലളിതമായ കേസ് ആണോ? കാലാവസ്ഥ മാറ്റം, കോളനി തകർച്ച തുടങ്ങിയ ഘടകങ്ങൾ കാരണം, വർഷം തോറും വാങ്ങാനുളള തേൻ കുറയുന്നുണ്ടോ, അതുകൊണ്ട് വില ഉയരുന്നുണ്ടോ?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 ഉത്തരം: ചില ഒഴിവുകൾ കൂടെ, 2003-ൽ ചില വ്യത്യാസങ്ങൾ കാണാം:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.ml.png)
+![line chart 1](../../../../../translated_images/ml/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 ചോദ്യം: 2003-ൽ തേൻ സപ്ലൈയിൽ ഒരു പീക്ക് കാണാമോ? മൊത്തം ഉത്പാദനം വർഷം തോറും നോക്കിയാൽ?
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.ml.png)
+![line chart 2](../../../../../translated_images/ml/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 ഉത്തരം: അത്രയുമല്ല. മൊത്തം ഉത്പാദനം ആ വർഷം വർദ്ധിച്ചിട്ടുണ്ടെന്ന് തോന്നുന്നു, എങ്കിലും സാധാരണയായി ഈ വർഷങ്ങളിൽ തേൻ ഉത്പാദനം കുറയുകയാണ്.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 ഈ ദൃശ്യവൽക്കരണത്തിൽ, കോളനി പ്രതി ഉത്പാദനവും കോളനികളുടെ എണ്ണവും വർഷം തോറും, 3 കോളങ്ങൾ വച്ച് വച്ച് താരതമ്യം ചെയ്യാം:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.ml.png)
+![facet grid](../../../../../translated_images/ml/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 ഈ ഡാറ്റാസെറ്റിൽ, കോളനികളുടെ എണ്ണം, അവയുടെ ഉത്പാദനം വർഷം തോറും, സംസ്ഥാനങ്ങൾ അനുസരിച്ച് പ്രത്യേകമായ ഒന്നും കാണാനില്ല. ഈ രണ്ട് വേരിയബിളുകൾ തമ്മിൽ സഹബന്ധം കണ്ടെത്താൻ മറ്റൊരു മാർഗ്ഗമുണ്ടോ?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.ml.png)
+![superimposed plots](../../../../../translated_images/ml/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 2003-ൽ പ്രത്യേകമായി ഒന്നും കാണാനില്ലെങ്കിലും, ഈ പാഠം ഒരു സന്തോഷകരമായ നോട്ടിൽ അവസാനിപ്പിക്കാൻ സഹായിക്കുന്നു: മൊത്തം കോളനികളുടെ എണ്ണം കുറയുന്നുണ്ടെങ്കിലും, അവയുടെ എണ്ണം സ്ഥിരതയുള്ളതും, കോളനി പ്രതി ഉത്പാദനം കുറയുന്നുണ്ടെങ്കിലും.
 

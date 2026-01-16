@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Panimula sa Data Science
 
-![data in action](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.tl.jpg)
+![data in action](../../../translated_images/tl/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Larawan ni <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> sa <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Sa mga araling ito, matutuklasan mo kung paano tinutukoy ang Data Science at matututo tungkol sa mga etikal na konsiderasyon na dapat isaalang-alang ng isang data scientist. Malalaman mo rin kung paano tinutukoy ang data at magkakaroon ng kaunting kaalaman tungkol sa estadistika at probabilidad, ang mga pangunahing akademikong larangan ng Data Science.

@@ -57,7 +57,7 @@ SDK peamised valdkonnad:
 
 [Varasemas õppetunnis](../18-Low-Code/README.md) nägime, kuidas treenida, juurutada ja tarbida mudelit madala koodi/ilma koodita meetodil. Kasutasime südamepuudulikkuse andmestikku, et luua südamepuudulikkuse ennustusmudel. Selles õppetunnis teeme täpselt sama, kuid kasutades Azure Machine Learning SDK-d.
 
-![projekti skeem](../../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.et.png)
+![projekti skeem](../../../../translated_images/et/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### 1.2 Südamepuudulikkuse ennustusprojekti ja andmestiku tutvustus
 
@@ -74,7 +74,7 @@ Kui ei, järgige juhiseid jaotises **2.1 Azure ML tööruumi loomine** [varasema
 
 [Azure ML tööruumis](https://ml.azure.com/), mille me varem lõime, minge menüüsse Compute ja näete erinevaid arvutusressursse.
 
-![compute-instance-1](../../../../translated_images/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.et.png)
+![compute-instance-1](../../../../translated_images/et/compute-instance-1.dba347cb199ca4996b3e3d649295ed95626ba481479d3986557b9b98e76d8816.png)
 
 Loome arvutusressursi Jupyter märkmiku jaoks. 
 1. Klõpsake nupul + New. 
@@ -97,10 +97,10 @@ Märkmiku loomiseks vajame arvutusressurssi, mis teenindab Jupyter märkmiku ins
 
 1. Rakenduste jaotises klõpsake Jupyter valikul. 
 2. Märkige ruut "Yes, I understand" ja klõpsake nupul Continue.
-![notebook-1](../../../../translated_images/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.et.png)
+![notebook-1](../../../../translated_images/et/notebook-1.12998af7b02c83f536c11b3aeba561be16e0f05e94146600728ec64270ce1105.png)
 3. See avab uue brauseri vahekaardi teie Jupyter märkmiku instantsiga. Klõpsake nupul "New", et luua märkmik.
 
-![notebook-2](../../../../translated_images/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.et.png)
+![notebook-2](../../../../translated_images/et/notebook-2.9a657c037e34f1cf26c0212f5ee9e2da8545b3e107c7682c55114e494167a8aa.png)
 
 Nüüd, kui meil on märkmik, saame alustada mudeli treenimist Azure ML SDK-ga.
 

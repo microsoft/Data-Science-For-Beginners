@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Teorija statistike in verjetnosti sta dve tesno povezani področji matematike, ki sta zelo pomembni za podatkovno znanost. Čeprav je mogoče delati s podatki brez poglobljenega matematičnega znanja, je vseeno koristno poznati vsaj osnovne koncepte. Tukaj bomo predstavili kratek uvod, ki vam bo pomagal začeti.
 
-[![Uvodni video](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.sl.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Uvodni video](../../../../translated_images/sl/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Predavanje - kviz](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Težje je opisati porazdelitev verjetnosti zvezne spremenljivke, katere vrednost
 
 Lahko govorimo le o verjetnosti, da spremenljivka pade v določen interval vrednosti, npr. P(t<sub>1</sub>≤X<t<sub>2</sub>). V tem primeru je porazdelitev verjetnosti opisana z **gostotno funkcijo verjetnosti** p(x), tako da
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.sl.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/sl/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Zvezni analog enakomerne porazdelitve se imenuje **zvezna enakomerna porazdelitev**, ki je definirana na končnem intervalu. Verjetnost, da vrednost X pade v interval dolžine l, je sorazmerna z l in se povečuje do 1.
 
@@ -82,11 +82,11 @@ Ko analiziramo podatke iz resničnega življenja, ti pogosto niso naključne spr
 
 Tukaj je škatlasti diagram, ki prikazuje povprečje, mediano in kvartile za naše podatke:
 
-![Škatlasti diagram teže](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.sl.png)
+![Škatlasti diagram teže](../../../../translated_images/sl/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Ker naši podatki vsebujejo informacije o različnih **vlogah** igralcev, lahko naredimo tudi škatlasti diagram po vlogah - to nam omogoča vpogled v to, kako se vrednosti parametrov razlikujejo med vlogami. Tokrat bomo obravnavali višino:
 
-![Škatlasti diagram po vlogah](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.sl.png)
+![Škatlasti diagram po vlogah](../../../../translated_images/sl/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Ta diagram nakazuje, da je povprečna višina igralcev na prvi bazi višja od višine igralcev na drugi bazi. Kasneje v tej lekciji se bomo naučili, kako lahko to hipotezo formalneje preverimo in kako pokažemo, da so naši podatki statistično pomembni za to trditev.
 
@@ -94,7 +94,7 @@ Ta diagram nakazuje, da je povprečna višina igralcev na prvi bazi višja od vi
 
 Da bi videli, kakšna je porazdelitev naših podatkov, lahko narišemo graf, imenovan **histogram**. X-os bo vsebovala število različnih intervalov teže (tako imenovanih **razredov**), Y-os pa bo prikazovala število primerov, ko je vzorec naključne spremenljivke padel v določen interval.
 
-![Histogram podatkov iz resničnega sveta](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.sl.png)
+![Histogram podatkov iz resničnega sveta](../../../../translated_images/sl/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Iz tega histograma lahko vidimo, da so vse vrednosti skoncentrirane okoli določenega povprečja teže, in bolj ko se oddaljujemo od tega povprečja, manj pogosto se pojavljajo teže te vrednosti. To pomeni, da je zelo malo verjetno, da bi bila teža igralca baseballa zelo različna od povprečne teže. Varianca tež prikazuje, v kolikšni meri se teže verjetno razlikujejo od povprečja.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Če narišemo histogram generiranih vzorcev, bomo videli sliko, zelo podobno zgornji. Če povečamo število vzorcev in število razredov, lahko ustvarimo sliko normalne porazdelitve, ki je bližje idealni:
 
-![Normalna porazdelitev s povprečjem=0 in std.odklonom=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.sl.png)
+![Normalna porazdelitev s povprečjem=0 in std.odklonom=1](../../../../translated_images/sl/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Normalna porazdelitev s povprečjem=0 in std.odklonom=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 V našem primeru vrednost 0.53 kaže, da obstaja neka korelacija med težo in višino osebe. Prav tako lahko naredimo razpršeni diagram ene vrednosti proti drugi, da vizualno vidimo povezavo:
 
-![Povezava med težo in višino](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.sl.png)
+![Povezava med težo in višino](../../../../translated_images/sl/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Več primerov korelacije in kovariance najdete v [priloženem zvezku](notebook.ipynb).
 

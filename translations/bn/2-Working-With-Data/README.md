@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ডেটা নিয়ে কাজ করা
 
-![ডেটার প্রতি ভালোবাসা](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.bn.jpg)
+![ডেটার প্রতি ভালোবাসা](../../../translated_images/bn/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > ছবি <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">আলেকজান্ডার সিন</a> এর তোলা, <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">আনস্প্ল্যাশ</a> থেকে
 
 এই পাঠগুলোতে, আপনি শিখবেন কীভাবে ডেটা পরিচালনা, পরিবর্তন এবং অ্যাপ্লিকেশনে ব্যবহার করা যায়। আপনি সম্পর্কিত এবং অ-সম্পর্কিত ডেটাবেস সম্পর্কে শিখবেন এবং কীভাবে ডেটা সেখানে সংরক্ষণ করা যায়। আপনি পাইথন ব্যবহার করে ডেটা পরিচালনার মৌলিক বিষয়গুলো শিখবেন এবং পাইথন ব্যবহার করে ডেটা পরিচালনা ও বিশ্লেষণের বিভিন্ন উপায় আবিষ্কার করবেন।

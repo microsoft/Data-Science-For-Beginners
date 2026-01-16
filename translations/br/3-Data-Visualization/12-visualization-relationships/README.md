@@ -51,7 +51,7 @@ Crie um gráfico de dispersão básico para mostrar a relação entre o preço p
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.br.png)
+![scatterplot 1](../../../../translated_images/br/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Agora, mostre os mesmos dados com um esquema de cores de mel para mostrar como o preço evolui ao longo dos anos. Você pode fazer isso adicionando um parâmetro 'hue' para mostrar a mudança ano após ano:
 
@@ -60,7 +60,7 @@ Agora, mostre os mesmos dados com um esquema de cores de mel para mostrar como o
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.br.png)
+![scatterplot 2](../../../../translated_images/br/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 Com essa mudança de esquema de cores, você pode ver claramente uma forte progressão ao longo dos anos em termos de preço do mel por libra. De fato, se você observar um conjunto de amostra nos dados para verificar (escolha um estado, como o Arizona, por exemplo), pode ver um padrão de aumento de preço ano após ano, com poucas exceções:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Você pode ver o tamanho dos pontos aumentando gradualmente.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.br.png)
+![scatterplot 3](../../../../translated_images/br/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Isso é um caso simples de oferta e demanda? Devido a fatores como mudanças climáticas e colapso das colônias, há menos mel disponível para compra ano após ano, e, portanto, o preço aumenta?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Resposta: Sim, com algumas exceções em torno do ano de 2003:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.br.png)
+![line chart 1](../../../../translated_images/br/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Como o Seaborn está agregando dados em torno de uma linha, ele exibe "as múltiplas medições em cada valor de x, plotando a média e o intervalo de confiança de 95% em torno da média". [Fonte](https://seaborn.pydata.org/tutorial/relational.html). Esse comportamento demorado pode ser desativado adicionando `ci=None`.
 
@@ -114,7 +114,7 @@ Pergunta: Bem, em 2003 também podemos ver um pico na oferta de mel? E se você 
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.br.png)
+![line chart 2](../../../../translated_images/br/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Resposta: Não exatamente. Se você observar a produção total, parece que ela realmente aumentou naquele ano específico, embora, de forma geral, a quantidade de mel sendo produzida esteja em declínio durante esses anos.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 Nesta visualização, você pode comparar o rendimento por colônia e o número de colônias ano após ano, lado a lado, com um wrap definido em 3 para as colunas:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.br.png)
+![facet grid](../../../../translated_images/br/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 Para este conjunto de dados, nada particularmente se destaca em relação ao número de colônias e seu rendimento, ano após ano e estado por estado. Existe uma maneira diferente de encontrar uma correlação entre essas duas variáveis?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.br.png)
+![superimposed plots](../../../../translated_images/br/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Embora nada salte aos olhos em torno do ano de 2003, isso nos permite terminar esta lição com uma nota um pouco mais feliz: embora o número de colônias esteja em declínio geral, ele está se estabilizando, mesmo que o rendimento por colônia esteja diminuindo.
 

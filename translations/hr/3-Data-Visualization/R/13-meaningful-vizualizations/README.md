@@ -47,25 +47,25 @@ U prethodnim lekcijama eksperimentirali ste s izradom raznih zanimljivih vizuali
 
 Čak i ako podatkovni znanstvenik pažljivo odabere pravi grafikon za prave podatke, postoji mnogo načina na koje se podaci mogu prikazati kako bi se dokazala određena točka, često na štetu samih podataka. Postoji mnogo primjera obmanjujućih grafikona i infografika!
 
-[![Kako grafikoni lažu, autor Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.hr.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Kako grafikoni lažu")
+[![Kako grafikoni lažu, autor Alberto Cairo](../../../../../translated_images/hr/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Kako grafikoni lažu")
 
 > 🎥 Kliknite na sliku iznad za konferencijsko predavanje o obmanjujućim grafikonima
 
 Ovaj grafikon obrće X os kako bi prikazao suprotnost istini, temeljenoj na datumu:
 
-![loš grafikon 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.hr.png)
+![loš grafikon 1](../../../../../translated_images/hr/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Ovaj grafikon](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) još je obmanjujući jer oko privlači desna strana, sugerirajući da su slučajevi COVID-a opali tijekom vremena u raznim okruzima. Međutim, ako pažljivo pogledate datume, otkrit ćete da su preuređeni kako bi stvorili obmanjujući trend pada.
 
-![loš grafikon 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.hr.jpg)
+![loš grafikon 2](../../../../../translated_images/hr/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Ovaj zloglasni primjer koristi boju I obrnutu Y os kako bi obmanuo: umjesto zaključka da su smrtni slučajevi od vatrenog oružja porasli nakon donošenja zakona koji pogoduje oružju, oko je zavarano da misli suprotno:
 
-![loš grafikon 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.hr.jpg)
+![loš grafikon 3](../../../../../translated_images/hr/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Ovaj neobičan grafikon pokazuje kako se proporcije mogu manipulirati, na smiješan način:
 
-![loš grafikon 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.hr.jpg)
+![loš grafikon 4](../../../../../translated_images/hr/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Uspoređivanje neusporedivog još je jedan sumnjiv trik. Postoji [sjajna web stranica](https://tylervigen.com/spurious-correlations) posvećena 'lažnim korelacijama' koja prikazuje 'činjenice' koje povezuju, primjerice, stopu razvoda u Maineu i potrošnju margarina. Reddit grupa također prikuplja [ružne primjere](https://www.reddit.com/r/dataisugly/top/?t=all) korištenja podataka.
 
@@ -100,13 +100,13 @@ Označite svoje osi, osigurajte legendu ako je potrebno i ponudite alate za bolj
 
 Ako su vaši podaci tekstualni i opširni na X osi, možete zakrenuti tekst radi bolje čitljivosti. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) nudi 3D grafičke prikaze, ako vaši podaci to podržavaju. Sofisticirane vizualizacije podataka mogu se izraditi pomoću njega.
 
-![3D grafikoni](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.hr.png)
+![3D grafikoni](../../../../../translated_images/hr/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Animacija i 3D prikaz grafikona
 
 Neke od najboljih vizualizacija podataka danas su animirane. Shirley Wu ima nevjerojatne primjere izrađene pomoću D3, poput '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', gdje svaki cvijet predstavlja vizualizaciju filma. Drugi primjer za Guardian je 'bussed out', interaktivno iskustvo koje kombinira vizualizacije s Greensockom i D3 te formatom članka za prikaz kako NYC rješava problem beskućnika premještanjem ljudi izvan grada.
 
-![bussing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.hr.png)
+![bussing](../../../../../translated_images/hr/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: Kako Amerika premješta svoje beskućnike" iz [Guardiana](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Vizualizacije autorice Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Iako ova lekcija nije dovoljno detaljna da vas nauči ovim moćnim bibliotekama 
 
 Dovršit ćete web aplikaciju koja će prikazati animirani prikaz ove društvene mreže. Koristi biblioteku koja je izrađena za stvaranje [vizualizacije mreže](https://github.com/emiliorizzo/vue-d3-network) koristeći Vue.js i D3. Kada aplikacija radi, možete povlačiti čvorove po ekranu kako biste premještali podatke.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.hr.png)
+![liaisons](../../../../../translated_images/hr/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Projekt: Izradite grafikon za prikaz mreže koristeći D3.js
 

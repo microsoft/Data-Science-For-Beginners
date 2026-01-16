@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduzione alla Scienza dei Dati
 
-![dati in azione](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.it.jpg)
+![dati in azione](../../../translated_images/it/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Foto di <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> su <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 In queste lezioni, scoprirai come viene definita la Scienza dei Dati e imparerai le considerazioni etiche che un data scientist deve tenere a mente. Inoltre, apprenderai come vengono definiti i dati e acquisirai alcune nozioni di statistica e probabilità, i domini accademici fondamentali della Scienza dei Dati.

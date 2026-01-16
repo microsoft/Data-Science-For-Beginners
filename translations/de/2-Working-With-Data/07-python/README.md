@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Arbeiten mit Python - _Sketchnote von [@nitya](https://twitter.com/nitya)_                 |
 
-[![Einführungsvideo](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.de.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Einführungsvideo](../../../../translated_images/de/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Während Datenbanken sehr effiziente Möglichkeiten bieten, Daten zu speichern und sie mit Abfragesprachen zu durchsuchen, ist die flexibelste Art der Datenverarbeitung das Schreiben eines eigenen Programms, um die Daten zu manipulieren. In vielen Fällen wäre eine Datenbankabfrage effektiver. Es gibt jedoch Situationen, in denen komplexere Datenverarbeitungen erforderlich sind, die sich nicht einfach mit SQL umsetzen lassen.  
 Datenverarbeitung kann in jeder Programmiersprache programmiert werden, aber es gibt bestimmte Sprachen, die sich besonders gut für die Arbeit mit Daten eignen. Datenwissenschaftler bevorzugen typischerweise eine der folgenden Sprachen:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Zeitreihen-Diagramm](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.de.png)
+![Zeitreihen-Diagramm](../../../../translated_images/de/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Angenommen, wir organisieren jede Woche eine Party für Freunde und nehmen zusätzlich 10 Packungen Eis für die Party. Wir können eine weitere Serie erstellen, die nach Wochen indiziert ist, um dies zu demonstrieren:
 ```python
@@ -84,7 +84,7 @@ Wenn wir zwei Series zusammenaddieren, erhalten wir die Gesamtanzahl:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Zeitreihen-Diagramm](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.de.png)
+![Zeitreihen-Diagramm](../../../../translated_images/de/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Hinweis**: Wir verwenden nicht die einfache Syntax `total_items+additional_items`. Wenn wir dies täten, würden wir viele `NaN` (*Not a Number*)-Werte in der resultierenden Serie erhalten. Dies liegt daran, dass für einige Indexpunkte in der Serie `additional_items` Werte fehlen, und das Addieren von `NaN` zu irgendetwas ergibt `NaN`. Daher müssen wir den Parameter `fill_value` während der Addition angeben.
 
@@ -93,7 +93,7 @@ Mit Zeitreihen können wir die Serie auch mit unterschiedlichen Zeitintervallen 
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Monatliche Zeitreihen-Durchschnitte](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.de.png)
+![Monatliche Zeitreihen-Durchschnitte](../../../../translated_images/de/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ Das erste Problem, auf das wir uns konzentrieren werden, ist die Modellierung de
 
 Da wir demonstrieren möchten, wie man mit Daten umgeht, laden wir Sie ein, [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) zu öffnen und es von oben bis unten zu lesen. Sie können auch Zellen ausführen und einige Herausforderungen lösen, die wir am Ende für Sie hinterlassen haben.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.de.png)
+![COVID Spread](../../../../translated_images/de/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Wenn Sie nicht wissen, wie man Code in Jupyter Notebook ausführt, werfen Sie einen Blick auf [diesen Artikel](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,7 +241,7 @@ Ein vollständiges Beispiel für die Analyse dieses Datensatzes mit dem kognitiv
 
 Öffnen Sie [`notebook-papers.ipynb`](notebook-papers.ipynb) und lesen Sie es von oben bis unten. Sie können auch Zellen ausführen und einige Herausforderungen lösen, die wir am Ende für Sie hinterlassen haben.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.de.png)
+![Covid Medical Treatment](../../../../translated_images/de/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Verarbeitung von Bilddaten
 

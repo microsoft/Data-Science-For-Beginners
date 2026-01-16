@@ -310,7 +310,7 @@ def calculate_mean(data):
   import pandas as pd
   ```
   ````
-- ചിത്രങ്ങൾക്ക് alt ടെക്സ്റ്റ് ചേർക്കുക: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.ml.png)`
+- ചിത്രങ്ങൾക്ക് alt ടെക്സ്റ്റ് ചേർക്കുക: `![Alt text](../../translated_images/ml/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - വരി നീളം യുക്തമായിരിക്കണം (ഏകദേശം 80-100 അക്ഷരങ്ങൾ)
 
 ### Python

@@ -22,7 +22,7 @@ Explorer sąsaja (pavaizduota žemiau esančiame ekrano vaizde) leidžia pasirin
  2. Išnagrinėti duomenų rinkinių [Katalogą](https://planetarycomputer.microsoft.com/catalog) – sužinoti kiekvieno paskirtį.
  3. Naudoti Explorer – pasirinkti jus dominantį duomenų rinkinį, pasirinkti tinkamą užklausą ir atvaizdavimo parinktį.
 
-![Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.lt.png)
+![Planetary Computer Explorer](../../../../translated_images/lt/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Jūsų užduotis:`
 Dabar išanalizuokite naršyklėje sugeneruotą vizualizaciją ir atsakykite į šiuos klausimus:

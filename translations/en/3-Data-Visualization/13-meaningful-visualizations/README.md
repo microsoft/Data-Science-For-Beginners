@@ -47,25 +47,25 @@ In earlier lessons, you experimented with creating various data visualizations u
 
 Even when a data scientist carefully selects the right chart for the data, there are many ways data can be presented misleadingly to support a particular narrative, often at the expense of the data's integrity. There are numerous examples of deceptive charts and infographics!
 
-[![How Charts Lie by Alberto Cairo](../../../../translated_images/tornado.9f42168791208f970d6faefc11d1226d7ca89518013b14aa66b1c9edcd7678d2.en.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
+[![How Charts Lie by Alberto Cairo](../../../../translated_images/en/tornado.9f42168791208f97.webp)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
 > 🎥 Click the image above to watch a conference talk about misleading charts.
 
 This chart reverses the X-axis to present the opposite of the truth based on the dates:
 
-![bad chart 1](../../../../translated_images/bad-chart-1.93130f495b748bedfb3423d91b1e754d9026e17f94ad967aecdc9ca7203373bf.en.png)
+![bad chart 1](../../../../translated_images/en/bad-chart-1.93130f495b748bed.webp)
 
 [This chart](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) is even more misleading, as the eye is drawn to the right, suggesting that COVID cases have declined over time in various counties. However, upon closer inspection of the dates, you'll notice they have been rearranged to create a deceptive downward trend.
 
-![bad chart 2](../../../../translated_images/bad-chart-2.c20e36dd4e6f617c0c325878dd421a563885bbf30a394884c147438827254e0e.en.jpg)
+![bad chart 2](../../../../translated_images/en/bad-chart-2.c20e36dd4e6f617c.webp)
 
 This infamous example uses both color and a flipped Y-axis to mislead viewers. Instead of showing that gun deaths increased after the passage of gun-friendly legislation, the chart tricks the eye into believing the opposite:
 
-![bad chart 3](../../../../translated_images/bad-chart-3.6865d0afac4108d737558d90a61547d23a8722896397ec792264ee51a1be4be5.en.jpg)
+![bad chart 3](../../../../translated_images/en/bad-chart-3.6865d0afac4108d7.webp)
 
 This peculiar chart demonstrates how proportions can be manipulated, often to humorous effect:
 
-![bad chart 4](../../../../translated_images/bad-chart-4.68cfdf4011b454471053ee1231172747e1fbec2403b4443567f1dc678134f4f2.en.jpg)
+![bad chart 4](../../../../translated_images/en/bad-chart-4.68cfdf4011b45447.webp)
 
 Another deceptive tactic is comparing things that are not comparable. There is a [fascinating website](https://tylervigen.com/spurious-correlations) dedicated to 'spurious correlations,' showcasing absurd 'facts' like the correlation between Maine's divorce rate and margarine consumption. A Reddit group also collects [examples of poor data usage](https://www.reddit.com/r/dataisugly/top/?t=all).
 
@@ -100,13 +100,13 @@ Label your axes, include a legend if necessary, and provide tooltips for better 
 
 If your data includes verbose text on the X-axis, you can angle the text for improved readability. [Matplotlib](https://matplotlib.org/stable/tutorials/toolkits/mplot3d.html) also supports 3D plotting if your data is suitable for it. Advanced visualizations can be created using `mpl_toolkits.mplot3d`.
 
-![3d plots](../../../../translated_images/3d.0cec12bcc60f0ce7284c63baed1411a843e24716f7d7425de878715ebad54a15.en.png)
+![3d plots](../../../../translated_images/en/3d.0cec12bcc60f0ce7.webp)
 
 ## Animation and 3D chart display
 
 Some of the most engaging data visualizations today are animated. Shirley Wu has created stunning examples using D3, such as '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/),' where each flower represents a movie. Another example is 'Bussed Out,' an interactive experience for the Guardian that combines visualizations with Greensock and D3, along with a scrollytelling article format, to illustrate how NYC addresses homelessness by bussing people out of the city.
 
-![busing](../../../../translated_images/busing.7b9e3b41cd4b981c6d63922cd82004cc1cf18895155536c1d98fcc0999bdd23e.en.png)
+![busing](../../../../translated_images/en/busing.7b9e3b41cd4b981c.webp)
 
 > "Bussed Out: How America Moves its Homeless" from [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualizations by Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ While this lesson doesn't delve deeply into these powerful visualization librari
 
 You will complete a web app that displays an animated view of this social network. It uses a library designed to create a [network visualization](https://github.com/emiliorizzo/vue-d3-network) using Vue.js and D3. When the app is running, you can drag the nodes around the screen to rearrange the data.
 
-![liaisons](../../../../translated_images/liaisons.7b440b28f6d07ea430244fdf1fc4c64ff48f473f143b8e921846eda1c302aeba.en.png)
+![liaisons](../../../../translated_images/en/liaisons.7b440b28f6d07ea4.webp)
 
 ## Project: Build a chart to show a network using D3.js
 

@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![डेटा सायन्सची व्याख्या व्हिडिओ](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.mr.png)](https://youtu.be/beZ7Mb_oz9I)
+[![डेटा सायन्सची व्याख्या व्हिडिओ](../../../../translated_images/mr/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [पूर्व-व्याख्यान प्रश्नमंजुषा](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -127,7 +127,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 या आव्हानात, आपण डेटा सायन्स क्षेत्राशी संबंधित संकल्पना शोधण्याचा प्रयत्न करू, ते मजकूर पाहून. आपण डेटा सायन्सवरील विकिपीडिया लेख घेऊ, मजकूर डाउनलोड आणि प्रक्रिया करू, आणि नंतर खालीलप्रमाणे एक वर्ड क्लाउड तयार करू:
 
-![डेटा सायन्ससाठी वर्ड क्लाउड](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.mr.png)
+![डेटा सायन्ससाठी वर्ड क्लाउड](../../../../translated_images/mr/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 कोड वाचण्यासाठी [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') ला भेट द्या. तुम्ही कोड चालवू शकता आणि तो प्रत्यक्षात डेटा ट्रान्सफॉर्मेशन कसे करतो ते पाहू शकता.
 

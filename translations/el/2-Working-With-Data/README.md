@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Εργασία με Δεδομένα
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.el.jpg)
+![data love](../../../translated_images/el/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Φωτογραφία από <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> στο <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Σε αυτά τα μαθήματα, θα μάθετε μερικούς από τους τρόπους με τους οποίους μπορούν να διαχειριστούν, να τροποποιηθούν και να χρησιμοποιηθούν τα δεδομένα σε εφαρμογές. Θα μάθετε για σχεσιακές και μη σχεσιακές βάσεις δεδομένων και πώς μπορούν να αποθηκευτούν δεδομένα σε αυτές. Θα μάθετε τα βασικά της εργασίας με την Python για τη διαχείριση δεδομένων και θα ανακαλύψετε μερικούς από τους πολλούς τρόπους με τους οποίους μπορείτε να χρησιμοποιήσετε την Python για τη διαχείριση και την εξόρυξη δεδομένων.

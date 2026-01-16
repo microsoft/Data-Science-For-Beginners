@@ -47,25 +47,25 @@ Dalam pelajaran sebelumnya, anda telah bereksperimen dengan membina pelbagai jen
 
 Walaupun seorang saintis data berhati-hati memilih carta yang sesuai untuk data yang betul, terdapat banyak cara data boleh dipaparkan untuk membuktikan sesuatu, sering kali dengan mengorbankan integriti data itu sendiri. Terdapat banyak contoh carta dan infografik yang mengelirukan!
 
-[![Bagaimana Carta Menipu oleh Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.ms.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Bagaimana carta menipu")
+[![Bagaimana Carta Menipu oleh Alberto Cairo](../../../../../translated_images/ms/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Bagaimana carta menipu")
 
 > 🎥 Klik imej di atas untuk ceramah persidangan tentang carta yang mengelirukan
 
 Carta ini membalikkan paksi X untuk menunjukkan kebalikan daripada kebenaran, berdasarkan tarikh:
 
-![carta buruk 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.ms.png)
+![carta buruk 1](../../../../../translated_images/ms/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Carta ini](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) lebih mengelirukan, kerana mata tertarik ke kanan untuk menyimpulkan bahawa, dari masa ke masa, kes COVID telah menurun di pelbagai daerah. Sebenarnya, jika anda melihat dengan teliti pada tarikh, anda akan mendapati bahawa ia telah disusun semula untuk memberikan trend menurun yang mengelirukan.
 
-![carta buruk 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.ms.jpg)
+![carta buruk 2](../../../../../translated_images/ms/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Contoh terkenal ini menggunakan warna DAN paksi Y yang terbalik untuk menipu: bukannya menyimpulkan bahawa kematian akibat senjata meningkat selepas penggubalan undang-undang mesra senjata, mata sebenarnya tertipu untuk berfikir sebaliknya:
 
-![carta buruk 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.ms.jpg)
+![carta buruk 3](../../../../../translated_images/ms/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Carta pelik ini menunjukkan bagaimana perkadaran boleh dimanipulasi, dengan kesan yang lucu:
 
-![carta buruk 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.ms.jpg)
+![carta buruk 4](../../../../../translated_images/ms/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Membandingkan perkara yang tidak sebanding adalah satu lagi helah yang tidak jujur. Terdapat [laman web yang hebat](https://tylervigen.com/spurious-correlations) tentang 'korelasi palsu' yang memaparkan 'fakta' yang mengaitkan perkara seperti kadar perceraian di Maine dan penggunaan marjerin. Sebuah kumpulan Reddit juga mengumpulkan [penggunaan data yang buruk](https://www.reddit.com/r/dataisugly/top/?t=all).
 
@@ -100,13 +100,13 @@ Labelkan paksi anda, sediakan legenda jika perlu, dan tawarkan tooltip untuk pem
 
 Jika data anda berbentuk teks dan panjang pada paksi X, anda boleh memiringkan teks untuk kebolehbacaan yang lebih baik. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) menawarkan pemplotan 3D, jika data anda menyokongnya. Visualisasi data yang canggih boleh dihasilkan menggunakan ini.
 
-![plot 3d](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.ms.png)
+![plot 3d](../../../../../translated_images/ms/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Paparan carta animasi dan 3D
 
 Beberapa visualisasi data terbaik hari ini adalah animasi. Shirley Wu mempunyai visualisasi yang menakjubkan menggunakan D3, seperti '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', di mana setiap bunga adalah visualisasi sebuah filem. Contoh lain untuk Guardian ialah 'bussed out', pengalaman interaktif yang menggabungkan visualisasi dengan Greensock dan D3 serta format artikel scrollytelling untuk menunjukkan bagaimana NYC menangani masalah gelandangan dengan menghantar orang keluar dari bandar.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.ms.png)
+![busing](../../../../../translated_images/ms/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: How America Moves its Homeless" daripada [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualisasi oleh Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Walaupun pelajaran ini tidak mencukupi untuk mengajar perpustakaan visualisasi y
 
 Anda akan melengkapkan aplikasi web yang akan memaparkan pandangan animasi rangkaian sosial ini. Ia menggunakan perpustakaan yang dibina untuk mencipta [visual rangkaian](https://github.com/emiliorizzo/vue-d3-network) menggunakan Vue.js dan D3. Apabila aplikasi berjalan, anda boleh menarik nod di skrin untuk menyusun semula data.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.ms.png)
+![liaisons](../../../../../translated_images/ms/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Projek: Bina carta untuk menunjukkan rangkaian menggunakan D3.js
 

@@ -51,7 +51,7 @@ Lag et grunnleggende spredningsdiagram for å vise relasjonen mellom prisen per 
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![spredningsdiagram 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.no.png)
+![spredningsdiagram 1](../../../../translated_images/no/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Vis nå de samme dataene med et honningfarget fargetema for å vise hvordan prisen utvikler seg over årene. Du kan gjøre dette ved å legge til en 'hue'-parameter for å vise endringen, år for år:
 
@@ -60,7 +60,7 @@ Vis nå de samme dataene med et honningfarget fargetema for å vise hvordan pris
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![spredningsdiagram 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.no.png)
+![spredningsdiagram 2](../../../../translated_images/no/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 Med denne fargeendringen kan du tydelig se en sterk progresjon over årene når det gjelder honningpris per pund. Faktisk, hvis du ser på et utvalg i dataene for å verifisere (velg en gitt stat, for eksempel Arizona), kan du se et mønster av prisøkninger år for år, med få unntak:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Du kan se at størrelsen på prikkene gradvis øker.
 
-![spredningsdiagram 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.no.png)
+![spredningsdiagram 3](../../../../translated_images/no/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Er dette et enkelt tilfelle av tilbud og etterspørsel? På grunn av faktorer som klimaendringer og kollaps av kolonier, er det mindre honning tilgjengelig for kjøp år for år, og dermed øker prisen?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Svar: Ja, med noen unntak rundt året 2003:
 
-![linjediagram 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.no.png)
+![linjediagram 1](../../../../translated_images/no/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Fordi Seaborn aggregerer data rundt én linje, viser det "de flere målingene ved hver x-verdi ved å plotte gjennomsnittet og 95% konfidensintervallet rundt gjennomsnittet". [Kilde](https://seaborn.pydata.org/tutorial/relational.html). Denne tidkrevende oppførselen kan deaktiveres ved å legge til `ci=None`.
 
@@ -114,7 +114,7 @@ Spørsmål: Vel, i 2003 kan vi også se en topp i honningtilførselen? Hva om du
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![linjediagram 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.no.png)
+![linjediagram 2](../../../../translated_images/no/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Svar: Ikke egentlig. Hvis du ser på total produksjon, ser det faktisk ut til å ha økt det året, selv om mengden honning som produseres generelt sett er i nedgang i disse årene.
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 I denne visualiseringen kan du sammenligne avkastning per koloni og antall kolonier år for år, side om side med wrap satt til 3 for kolonnene:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.no.png)
+![facet grid](../../../../translated_images/no/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 For dette datasettet skiller ingenting seg spesielt ut med hensyn til antall kolonier og deres avkastning, år for år og stat for stat. Er det en annen måte å se på korrelasjonen mellom disse to variablene?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.no.png)
+![superimposed plots](../../../../translated_images/no/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Selv om ingenting skiller seg ut rundt året 2003, lar det oss avslutte denne leksjonen på en litt lykkeligere tone: selv om det generelt er et synkende antall kolonier, stabiliserer antallet kolonier seg, selv om deres avkastning per koloni er i nedgang.
 

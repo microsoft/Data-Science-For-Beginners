@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 使用 Python - _由 [@nitya](https://twitter.com/nitya) 繪製的手繪筆記_                      |
 
-[![介紹影片](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.hk.png)](https://youtu.be/dZjWOGbsN4Y)
+[![介紹影片](../../../../translated_images/hk/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 雖然數據庫提供了非常高效的方式來存儲數據並使用查詢語言進行查詢，但最靈活的數據處理方式是編寫自己的程序來操作數據。在許多情況下，使用數據庫查詢可能更有效。然而，在某些需要更複雜數據處理的情況下，使用 SQL 並不容易完成這些操作。
 
@@ -74,7 +74,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![時間序列圖](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.hk.png)
+![時間序列圖](../../../../translated_images/hk/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 假設每週我們都會為朋友舉辦派對，並額外準備 10 盒冰淇淋。我們可以創建另一個以週為索引的 Series 來展示這一點：
 ```python
@@ -85,7 +85,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![時間序列圖](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.hk.png)
+![時間序列圖](../../../../translated_images/hk/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **注意**：我們並未使用簡單的語法 `total_items+additional_items`。如果這樣做，結果 Series 中會有許多 `NaN`（*非數值*）值。這是因為在 `additional_items` Series 的某些索引點上存在缺失值，而將 `NaN` 與任何值相加的結果都是 `NaN`。因此，我們需要在相加時指定 `fill_value` 參數。
 
@@ -94,7 +94,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![每月時間序列平均值](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.hk.png)
+![每月時間序列平均值](../../../../translated_images/hk/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -220,7 +220,7 @@ df = pd.read_csv('file.csv')
 
 由於我們想展示如何處理數據，我們邀請你打開 [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) 並從頭到尾閱讀。你也可以執行單元格，並完成我們在最後留下的一些挑戰。
 
-![COVID 傳播](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.hk.png)
+![COVID 傳播](../../../../translated_images/hk/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > 如果你不知道如何在 Jupyter Notebook 中運行代碼，可以查看 [這篇文章](https://soshnikov.com/education/how-to-execute-notebooks-from-github/)。
 
@@ -242,7 +242,7 @@ df = pd.read_csv('file.csv')
 
 打開 [`notebook-papers.ipynb`](notebook-papers.ipynb) 並從頭到尾閱讀。你也可以執行單元格，並完成我們在最後留下的一些挑戰。
 
-![COVID 醫療處理](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.hk.png)
+![COVID 醫療處理](../../../../translated_images/hk/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## 處理圖片數據
 

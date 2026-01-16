@@ -312,7 +312,7 @@ Do popisu PR zahrňte:
   import pandas as pd
   ```
   ````
-- Přidávejte alt text k obrázkům: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.cs.png)`
+- Přidávejte alt text k obrázkům: `![Alt text](../../translated_images/cs/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Udržujte rozumnou délku řádků (kolem 80-100 znaků)
 
 ### Python

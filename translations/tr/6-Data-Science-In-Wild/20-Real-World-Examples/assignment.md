@@ -22,7 +22,7 @@ Explorer arayüzü (aşağıdaki ekran görüntüsünde gösterilmiştir), bir v
  2. Veri seti [Kataloğunu](https://planetarycomputer.microsoft.com/catalog) keşfedin - her birinin amacını öğrenin.
  3. Explorer'ı kullanın - ilginizi çeken bir veri seti seçin, ilgili bir sorgu ve görselleştirme seçeneği belirleyin.
 
-![Gezegen Bilgisayarı Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.tr.png)
+![Gezegen Bilgisayarı Explorer](../../../../translated_images/tr/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Göreviniz:`
 Şimdi tarayıcıda oluşturulan görselleştirmeyi inceleyin ve aşağıdaki soruları yanıtlayın:

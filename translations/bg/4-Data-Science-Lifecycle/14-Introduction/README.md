@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Тази лекция се фокусира върху 3 части от жизнения цикъл: събиране, обработка и поддръжка.
 
-![Диаграма на жизнения цикъл на науката за данни](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.bg.jpg)  
+![Диаграма на жизнения цикъл на науката за данни](../../../../translated_images/bg/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
 > Снимка от [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Събиране
@@ -101,7 +101,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |Процес за екипна наука за данни (TDSP)|Стандарт за процеса на извличане на данни в различни индустрии (CRISP-DM)|
 |--|--|
-|![Жизнен цикъл на екипната наука за данни](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.bg.png) | ![Изображение на алианса за процеса на извличане на данни](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.bg.png) |
+|![Жизнен цикъл на екипната наука за данни](../../../../translated_images/bg/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Изображение на алианса за процеса на извличане на данни](../../../../translated_images/bg/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Изображение от [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Изображение от [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Тест след лекцията](https://ff-quizzes.netlify.app/en/ds/quiz/27)

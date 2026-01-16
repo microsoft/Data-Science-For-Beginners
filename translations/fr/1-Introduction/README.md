@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduction à la Science des Données
 
-![données en action](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.fr.jpg)
+![données en action](../../../translated_images/fr/data.48e22bb7617d8d92.webp)
 > Photo par <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> sur <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Dans ces leçons, vous découvrirez comment la Science des Données est définie et vous apprendrez les considérations éthiques qu'un data scientist doit prendre en compte. Vous apprendrez également ce que sont les données et vous vous familiariserez avec les bases des statistiques et de la probabilité, les domaines académiques fondamentaux de la Science des Données.

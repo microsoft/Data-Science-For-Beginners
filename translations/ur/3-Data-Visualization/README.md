@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # تصورات
 
-![ایک شہد کی مکھی لیونڈر کے پھول پر](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.ur.jpg)
+![ایک شہد کی مکھی لیونڈر کے پھول پر](../../../translated_images/ur/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > تصویر <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">جینا لی</a> کی جانب سے <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> پر
 
 ڈیٹا کو بصری طور پر پیش کرنا ایک ڈیٹا سائنسدان کے سب سے اہم کاموں میں سے ایک ہے۔ تصاویر ہزاروں الفاظ کے برابر ہوتی ہیں، اور ایک تصور آپ کو اپنے ڈیٹا کے مختلف دلچسپ پہلوؤں جیسے کہ اسپائکس، آؤٹ لائرز، گروپنگز، رجحانات، اور مزید کو پہچاننے میں مدد دے سکتا ہے، جو آپ کو یہ سمجھنے میں مدد دیتا ہے کہ آپ کا ڈیٹا کیا کہانی بیان کر رہا ہے۔

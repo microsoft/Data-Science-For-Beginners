@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ויזואליזציות
 
-![דבורה על פרח לבנדר](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.he.jpg)  
+![דבורה על פרח לבנדר](../../../translated_images/he/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)  
 > צילום על ידי <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> ב-<a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 הדמיית נתונים היא אחת המשימות החשובות ביותר של מדען נתונים. תמונות שוות אלף מילים, וויזואליזציה יכולה לעזור לך לזהות כל מיני חלקים מעניינים בנתונים שלך כמו קפיצות, חריגות, קבוצות, מגמות ועוד, שיכולים לעזור לך להבין את הסיפור שהנתונים שלך מנסים לספר.

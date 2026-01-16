@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # क्लाउड में डेटा साइंस
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.hi.jpg)
+![cloud-picture](../../../translated_images/hi/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > फोटो [Jelleke Vanooteghem](https://unsplash.com/@ilumire) द्वारा [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape) से
 
 जब बड़े डेटा के साथ डेटा साइंस करने की बात आती है, तो क्लाउड एक गेम चेंजर साबित हो सकता है। अगले तीन पाठों में, हम देखेंगे कि क्लाउड क्या है और यह क्यों बहुत सहायक हो सकता है। हम एक हार्ट फेलियर डेटासेट का भी विश्लेषण करेंगे और एक मॉडल बनाएंगे जो किसी व्यक्ति के हार्ट फेलियर होने की संभावना का आकलन करने में मदद करेगा। हम क्लाउड की शक्ति का उपयोग करके दो अलग-अलग तरीकों से एक मॉडल को ट्रेन, डिप्लॉय और उपयोग करेंगे। एक तरीका केवल यूजर इंटरफेस का उपयोग करते हुए "लो कोड/नो कोड" तरीके से होगा, और दूसरा तरीका Azure Machine Learning Software Developer Kit (Azure ML SDK) का उपयोग करते हुए होगा।
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.hi.png)
+![project-schema](../../../translated_images/hi/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### विषय
 

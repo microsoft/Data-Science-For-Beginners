@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualisatsioonid
 
-![mesilane lavendlil](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.et.jpg)
+![mesilane lavendlil](../../../translated_images/et/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Foto autorilt <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> lehel <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Andmete visualiseerimine on üks olulisemaid ülesandeid andmeteadlase töös. Pilt on väärt tuhat sõna ning visualiseerimine aitab tuvastada mitmesuguseid huvitavaid andmete aspekte, nagu tipud, kõrvalekalded, rühmitused, suundumused ja palju muud, mis aitavad mõista, millist lugu andmed räägivad.

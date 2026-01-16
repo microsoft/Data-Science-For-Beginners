@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Statistik und Wahrscheinlichkeitsrechnung sind zwei eng miteinander verbundene Bereiche der Mathematik, die für Data Science von großer Bedeutung sind. Es ist möglich, mit Daten zu arbeiten, ohne tiefgehende mathematische Kenntnisse zu haben, aber es ist dennoch hilfreich, zumindest einige grundlegende Konzepte zu kennen. Hier geben wir eine kurze Einführung, die Ihnen den Einstieg erleichtert.
 
-[![Einführungsvideo](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.de.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Einführungsvideo](../../../../translated_images/de/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Es ist schwieriger, die Wahrscheinlichkeitsverteilung einer stetigen Variablen z
 
 Wir können nur über die Wahrscheinlichkeit sprechen, dass eine Variable in ein bestimmtes Werteintervall fällt, z. B. P(t<sub>1</sub>≤X<t<sub>2</sub>). In diesem Fall wird die Wahrscheinlichkeitsverteilung durch eine **Wahrscheinlichkeitsdichtefunktion** p(x) beschrieben, sodass
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.de.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/de/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Ein stetiges Analogon der gleichmäßigen Verteilung wird als **stetige Gleichverteilung** bezeichnet, die auf einem endlichen Intervall definiert ist. Die Wahrscheinlichkeit, dass der Wert X in ein Intervall der Länge l fällt, ist proportional zu l und steigt bis zu 1.
 
@@ -82,11 +82,11 @@ Wenn wir Daten aus der realen Welt analysieren, sind sie oft keine Zufallsvariab
 
 Hier ist der Boxplot, der Mittelwert, Median und Quartile für unsere Daten zeigt:
 
-![Gewichts-Boxplot](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.de.png)
+![Gewichts-Boxplot](../../../../translated_images/de/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Da unsere Daten Informationen über verschiedene Spieler**rollen** enthalten, können wir auch den Boxplot nach Rollen erstellen – so können wir erkennen, wie sich die Parameterwerte je nach Rolle unterscheiden. Diesmal betrachten wir die Größe:
 
-![Boxplot nach Rolle](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.de.png)
+![Boxplot nach Rolle](../../../../translated_images/de/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Dieses Diagramm deutet darauf hin, dass die Größe von First Basemen im Durchschnitt höher ist als die von Second Basemen. Später in dieser Lektion werden wir lernen, wie wir diese Hypothese formeller testen können und wie wir zeigen können, dass unsere Daten statistisch signifikant sind, um dies zu belegen.
 
@@ -94,7 +94,7 @@ Dieses Diagramm deutet darauf hin, dass die Größe von First Basemen im Durchsc
 
 Um zu sehen, wie die Verteilung unserer Daten aussieht, können wir ein Diagramm namens **Histogramm** erstellen. Die X-Achse enthält eine Anzahl verschiedener Gewichtsintervalle (sogenannte **Bins**), und die Y-Achse zeigt die Anzahl der Male, die unsere Zufallsvariablenstichprobe in ein bestimmtes Intervall fiel.
 
-![Histogramm realer Daten](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.de.png)
+![Histogramm realer Daten](../../../../translated_images/de/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Aus diesem Histogramm können Sie erkennen, dass alle Werte um einen bestimmten mittleren Wert zentriert sind und dass die Wahrscheinlichkeit, dass ein Gewicht stark vom Mittelwert abweicht, geringer ist. Die Varianz der Gewichte zeigt, in welchem Maße die Gewichte wahrscheinlich vom Mittelwert abweichen.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Wenn wir das Histogramm der generierten Stichproben zeichnen, sehen wir ein Bild, das dem oben gezeigten sehr ähnlich ist. Und wenn wir die Anzahl der Stichproben und die Anzahl der Bins erhöhen, können wir ein Bild einer Normalverteilung erzeugen, das näher an der idealen Form liegt:
 
-![Normalverteilung mit Mittelwert=0 und Standardabweichung=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.de.png)
+![Normalverteilung mit Mittelwert=0 und Standardabweichung=1](../../../../translated_images/de/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Normalverteilung mit Mittelwert=0 und Standardabweichung=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 In unserem Fall zeigt der Wert 0.53 an, dass es eine gewisse Korrelation zwischen dem Gewicht und der Größe einer Person gibt. Wir können auch das Streudiagramm eines Wertes gegen den anderen erstellen, um die Beziehung visuell zu sehen:
 
-![Beziehung zwischen Gewicht und Größe](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.de.png)
+![Beziehung zwischen Gewicht und Größe](../../../../translated_images/de/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Weitere Beispiele für Korrelation und Kovarianz finden Sie im [begleitenden Notebook](notebook.ipynb).
 

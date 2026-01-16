@@ -25,7 +25,7 @@ A estas alturas, probablemente te hayas dado cuenta de que la ciencia de datos e
 
 Esta lección se centra en 3 partes del ciclo de vida: captura, procesamiento y mantenimiento.
 
-![Diagrama del ciclo de vida de la ciencia de datos](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.es.jpg)  
+![Diagrama del ciclo de vida de la ciencia de datos](../../../../translated_images/es/data-science-lifecycle.a1e362637503c4fb.webp)  
 > Foto por [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Captura
@@ -101,7 +101,7 @@ Explora el [Ciclo de Vida del Proceso de Ciencia de Datos en Equipo](https://doc
 
 |Proceso de Ciencia de Datos en Equipo (TDSP)|Proceso estándar de la industria para la minería de datos (CRISP-DM)|
 |--|--|
-|![Ciclo de Vida del Proceso de Ciencia de Datos en Equipo](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.es.png) | ![Imagen del Proceso de Ciencia de Datos](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.es.png) |
+|![Ciclo de Vida del Proceso de Ciencia de Datos en Equipo](../../../../translated_images/es/tdsp-lifecycle2.e19029d598e2e73d.webp) | ![Imagen del Proceso de Ciencia de Datos](../../../../translated_images/es/CRISP-DM.8bad2b4c66e62aa7.webp) |
 | Imagen por [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Imagen por [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Cuestionario Posterior a la Clase](https://ff-quizzes.netlify.app/en/ds/quiz/27)

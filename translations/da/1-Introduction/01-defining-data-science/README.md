@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Video om definition af Data Science](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.da.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Video om definition af Data Science](../../../../translated_images/da/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Quiz før forelæsning](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ Hvis vi vil gøre det endnu mere kompliceret, kan vi plotte den tid, der bruges 
 
 I denne udfordring vil vi forsøge at finde begreber, der er relevante for området Data Science ved at kigge på tekster. Vi vil tage en Wikipedia-artikel om Data Science, downloade og bearbejde teksten og derefter opbygge en ordsky som denne:
 
-![Ordsky for Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.da.png)
+![Ordsky for Data Science](../../../../translated_images/da/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Besøg [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') for at læse koden igennem. Du kan også køre koden og se, hvordan den udfører alle datatransformationer i realtid.
 

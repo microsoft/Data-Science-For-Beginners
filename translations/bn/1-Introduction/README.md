@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ডেটা সায়েন্সের পরিচিতি
 
-![ডেটা কার্যক্রমে](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.bn.jpg)
+![ডেটা কার্যক্রমে](../../../translated_images/bn/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > ছবি: <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">স্টিফেন ডসন</a> এর তোলা <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">আনস্প্ল্যাশ</a> এ
   
 এই পাঠগুলোতে, আপনি শিখবেন কীভাবে ডেটা সায়েন্স সংজ্ঞায়িত হয় এবং একজন ডেটা বিজ্ঞানীর জন্য বিবেচনা করতে হবে এমন নৈতিক বিষয়গুলো সম্পর্কে জানবেন। আপনি ডেটা কীভাবে সংজ্ঞায়িত হয় তা শিখবেন এবং পরিসংখ্যান ও সম্ভাবনার বিষয়ে কিছুটা ধারণা পাবেন, যা ডেটা সায়েন্সের মূল একাডেমিক ক্ষেত্র।

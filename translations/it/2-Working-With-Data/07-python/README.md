@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Lavorare con Python - _Sketchnote di [@nitya](https://twitter.com/nitya)_                 |
 
-[![Video Introduttivo](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.it.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Video Introduttivo](../../../../translated_images/it/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Sebbene i database offrano modi molto efficienti per memorizzare i dati e interrogarli utilizzando linguaggi di query, il modo più flessibile per elaborare i dati è scrivere un proprio programma per manipolarli. In molti casi, eseguire una query su un database sarebbe un metodo più efficace. Tuttavia, in alcuni casi in cui è necessaria un'elaborazione dei dati più complessa, non è facilmente realizzabile utilizzando SQL.  
 L'elaborazione dei dati può essere programmata in qualsiasi linguaggio di programmazione, ma ci sono alcuni linguaggi che sono più adatti per lavorare con i dati. Gli scienziati dei dati di solito preferiscono uno dei seguenti linguaggi:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Grafico Serie Temporale](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.it.png)
+![Grafico Serie Temporale](../../../../translated_images/it/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Ora supponiamo che ogni settimana organizziamo una festa per gli amici e prendiamo 10 confezioni di gelato in più per la festa. Possiamo creare un'altra serie, indicizzata per settimana, per dimostrarlo:  
 ```python
@@ -84,7 +84,7 @@ Quando sommiamo due serie, otteniamo il numero totale:
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```  
-![Grafico Serie Temporale](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.it.png)
+![Grafico Serie Temporale](../../../../translated_images/it/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Nota** che non stiamo usando la sintassi semplice `total_items+additional_items`. Se lo facessimo, otterremmo molti valori `NaN` (*Not a Number*) nella serie risultante. Questo perché ci sono valori mancanti per alcuni punti dell'indice nella serie `additional_items`, e sommare `NaN` a qualsiasi cosa risulta in `NaN`. Pertanto, dobbiamo specificare il parametro `fill_value` durante l'addizione.
 
@@ -93,7 +93,7 @@ Con le serie temporali, possiamo anche **ricampionare** la serie con intervalli 
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```  
-![Medie Mensili Serie Temporale](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.it.png)
+![Medie Mensili Serie Temporale](../../../../translated_images/it/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ Il primo problema su cui ci concentreremo è la modellazione della diffusione ep
 
 Poiché vogliamo dimostrare come gestire i dati, ti invitiamo ad aprire [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) e leggerlo dall'inizio alla fine. Puoi anche eseguire le celle e affrontare alcune sfide che abbiamo lasciato per te alla fine.
 
-![Diffusione del COVID](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.it.png)
+![Diffusione del COVID](../../../../translated_images/it/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Se non sai come eseguire il codice in Jupyter Notebook, dai un'occhiata a [questo articolo](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -241,7 +241,7 @@ Un esempio completo di analisi di questo dataset utilizzando il servizio cogniti
 
 Apri [`notebook-papers.ipynb`](notebook-papers.ipynb) e leggilo dall'inizio alla fine. Puoi anche eseguire le celle e affrontare alcune sfide che abbiamo lasciato per te alla fine.
 
-![Trattamento Medico COVID](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.it.png)
+![Trattamento Medico COVID](../../../../translated_images/it/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Elaborazione di Dati Immagine
 

@@ -92,7 +92,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```  
 Voilà, um gráfico de pizza que mostra as proporções destes dados de acordo com estas duas classes de cogumelos. É muito importante garantir que a ordem das etiquetas esteja correta, especialmente aqui, por isso verifica sempre a ordem com que o array de etiquetas é construído!
 
-![gráfico de pizza](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.pt.png)
+![gráfico de pizza](../../../../../translated_images/pt/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Roscas!
 
@@ -126,7 +126,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![gráfico de rosca](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.pt.png)
+![gráfico de rosca](../../../../../translated_images/pt/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Este código utiliza duas bibliotecas - ggplot2 e webr. Usando a função PieDonut da biblioteca webr, podemos criar um gráfico de rosca facilmente!
 
@@ -164,7 +164,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Usando um gráfico de waffle, podes ver claramente as proporções das cores dos chapéus neste conjunto de dados de cogumelos. Curiosamente, existem muitos cogumelos com chapéus verdes!
 
-![gráfico de waffle](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.pt.png)
+![gráfico de waffle](../../../../../translated_images/pt/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 Nesta lição, aprendeste três formas de visualizar proporções. Primeiro, precisas de agrupar os teus dados em categorias e depois decidir qual é a melhor forma de exibir os dados - pizza, rosca ou waffle. Todas são deliciosas e oferecem ao utilizador uma visão instantânea de um conjunto de dados.
 

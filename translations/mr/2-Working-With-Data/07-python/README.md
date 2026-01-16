@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Python सोबत काम करणे - _Sketchnote by [@nitya](https://twitter.com/nitya)_                 |
 
-[![Intro Video](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.mr.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Intro Video](../../../../translated_images/mr/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 डेटाबेस डेटा साठवण्यासाठी आणि क्वेरी भाषांचा वापर करून त्यावर क्वेरी करण्यासाठी अत्यंत कार्यक्षम पद्धती प्रदान करतात, परंतु डेटा प्रक्रिया करण्याचा सर्वात लवचिक मार्ग म्हणजे स्वतःचा प्रोग्राम लिहून डेटा हाताळणे. अनेक वेळा, डेटाबेस क्वेरी करणे अधिक प्रभावी ठरते. परंतु काही वेळा जेव्हा अधिक जटिल डेटा प्रक्रिया आवश्यक असते, तेव्हा ती SQL वापरून सहजपणे करता येत नाही. 
 डेटा प्रक्रिया कोणत्याही प्रोग्रामिंग भाषेत प्रोग्राम केली जाऊ शकते, परंतु काही भाषा डेटा सोबत काम करण्याच्या दृष्टीने उच्च स्तरावर असतात. डेटा वैज्ञानिक सामान्यतः खालील भाषांपैकी एक निवडतात:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Time Series Plot](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.mr.png)
+![Time Series Plot](../../../../translated_images/mr/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 आता समजा प्रत्येक आठवड्यात आम्ही मित्रांसाठी पार्टी आयोजित करतो आणि पार्टीसाठी अतिरिक्त 10 ice-cream पॅक्स घेतो. आम्ही हे दाखवण्यासाठी आठवड्याने index केलेली आणखी एक series तयार करू शकतो:
 ```python
@@ -84,7 +84,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Time Series Plot](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.mr.png)
+![Time Series Plot](../../../../translated_images/mr/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Note** की आम्ही साधी syntax `total_items+additional_items` वापरत नाही. जर आम्ही तसे केले असते, तर आम्हाला resulting series मध्ये अनेक `NaN` (*Not a Number*) मूल्ये मिळाली असती. कारण `additional_items` series मध्ये काही index point साठी missing values आहेत, आणि `NaN` कशाशीही जोडल्यास `NaN` मिळते. त्यामुळे addition दरम्यान `fill_value` parameter specify करणे आवश्यक आहे.
 
@@ -93,7 +93,7 @@ Time series सोबत, आपण वेगवेगळ्या time interval
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Monthly Time Series Averages](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.mr.png)
+![Monthly Time Series Averages](../../../../translated_images/mr/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -219,7 +219,7 @@ df = pd.read_csv('file.csv')
 
 आम्ही डेटा कसा हाताळायचा हे दाखवायचे असल्याने, आम्ही तुम्हाला [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) उघडून वरपासून खालपर्यंत वाचण्याचे आमंत्रण देतो. तुम्ही सेल्स चालवू शकता आणि शेवटी आम्ही तुमच्यासाठी ठेवलेल्या काही आव्हाने पूर्ण करू शकता.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.mr.png)
+![COVID Spread](../../../../translated_images/mr/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > जर तुम्हाला Jupyter Notebook मध्ये कोड कसा चालवायचा माहित नसेल, तर [या लेखाचा](https://soshnikov.com/education/how-to-execute-notebooks-from-github/) अभ्यास करा.
 
@@ -241,7 +241,7 @@ df = pd.read_csv('file.csv')
 
 [`notebook-papers.ipynb`](notebook-papers.ipynb) उघडा आणि वरपासून खालपर्यंत वाचा. तुम्ही सेल्स चालवू शकता आणि शेवटी आम्ही तुमच्यासाठी ठेवलेल्या काही आव्हाने पूर्ण करू शकता.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.mr.png)
+![Covid Medical Treatment](../../../../translated_images/mr/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## प्रतिमा डेटाचे प्रोसेसिंग
 

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualisations
 
-![une abeille sur une fleur de lavande](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.fr.jpg)  
+![une abeille sur une fleur de lavande](../../../translated_images/fr/bee.0aa1d91132b12e3a.webp)  
 > Photo par <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> sur <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Visualiser des données est l'une des tâches les plus importantes pour un data scientist. Les images valent mille mots, et une visualisation peut vous aider à identifier toutes sortes d'éléments intéressants dans vos données, tels que des pics, des valeurs aberrantes, des regroupements, des tendances, et bien plus encore, qui peuvent vous aider à comprendre l'histoire que vos données cherchent à raconter.

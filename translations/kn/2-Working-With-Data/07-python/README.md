@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 ಪೈಥಾನ್ ಜೊತೆ ಕೆಲಸ ಮಾಡುವುದು - _[@nitya](https://twitter.com/nitya) ಅವರ ಸ್ಕೆಚ್ ನೋಟ್_                 |
 
-[![ಪರಿಚಯ ವೀಡಿಯೋ](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.kn.png)](https://youtu.be/dZjWOGbsN4Y)
+[![ಪರಿಚಯ ವೀಡಿಯೋ](../../../../translated_images/kn/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 ಡೇಟಾಬೇಸ್‌ಗಳು ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸಲು ಮತ್ತು ಕ್ವೇರಿ ಭಾಷೆಗಳನ್ನು ಬಳಸಿ ಅವುಗಳನ್ನು ಪ್ರಶ್ನಿಸಲು ಅತ್ಯಂತ ಪರಿಣಾಮಕಾರಿಯಾದ ಮಾರ್ಗಗಳನ್ನು ನೀಡುತ್ತವೆ, ಆದರೆ ಡೇಟಾ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವ ಅತ್ಯಂತ ಲವಚಿಕ ಮಾರ್ಗವೆಂದರೆ ನಿಮ್ಮದೇ ಪ್ರೋಗ್ರಾಂ ಬರೆಯುವುದು. ಬಹುಶಃ ಬಹಳ ಸಂದರ್ಭಗಳಲ್ಲಿ ಡೇಟಾಬೇಸ್ ಕ್ವೇರಿ ಮಾಡುವುದು ಹೆಚ್ಚು ಪರಿಣಾಮಕಾರಿಯಾಗಿರುತ್ತದೆ. ಆದರೆ ಕೆಲವು ಸಂದರ್ಭಗಳಲ್ಲಿ ಹೆಚ್ಚು ಸಂಕೀರ್ಣ ಡೇಟಾ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವಿಕೆ ಅಗತ್ಯವಿದ್ದಾಗ, ಅದನ್ನು SQL ಬಳಸಿ ಸುಲಭವಾಗಿ ಮಾಡಲಾಗುವುದಿಲ್ಲ.  
 ಡೇಟಾ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವಿಕೆ ಯಾವುದೇ ಪ್ರೋಗ್ರಾಮಿಂಗ್ ಭಾಷೆಯಲ್ಲಿ ಮಾಡಬಹುದು, ಆದರೆ ಡೇಟಾ ಜೊತೆ ಕೆಲಸ ಮಾಡಲು ಕೆಲವು ಭಾಷೆಗಳು ಹೆಚ್ಚಿನ ಮಟ್ಟದಲ್ಲಿವೆ. ಡೇಟಾ ವಿಜ್ಞಾನಿಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಕೆಳಗಿನ ಭಾಷೆಗಳಲ್ಲೊಂದು ಆಯ್ಕೆಮಾಡುತ್ತಾರೆ:
@@ -75,7 +75,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![ಸಮಯ ಸರಣಿ ರೇಖಾಚಿತ್ರ](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.kn.png)
+![ಸಮಯ ಸರಣಿ ರೇಖಾಚಿತ್ರ](../../../../translated_images/kn/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 ಈಗ ಪ್ರತೀ ವಾರ ನಾವು ಸ್ನೇಹಿತರಿಗಾಗಿ ಪಾರ್ಟಿ ಆಯೋಜಿಸುತ್ತೇವೆ ಮತ್ತು ಪಾರ್ಟಿಗಾಗಿ ಹೆಚ್ಚುವರಿ 10 ಪ್ಯಾಕೆಟ್ ಐಸ್-ಕ್ರೀಮ್ ತೆಗೆದುಕೊಳ್ಳುತ್ತೇವೆ ಎಂದು ಊಹಿಸೋಣ. ಅದನ್ನು ತೋರಿಸಲು ವಾರದ ಸೂಚ್ಯಂಕದೊಂದಿಗೆ ಮತ್ತೊಂದು ಸರಣಿಯನ್ನು ರಚಿಸಬಹುದು:
 ```python
@@ -86,7 +86,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![ಸಮಯ ಸರಣಿ ರೇಖಾಚಿತ್ರ](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.kn.png)
+![ಸಮಯ ಸರಣಿ ರೇಖಾಚಿತ್ರ](../../../../translated_images/kn/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **ಗಮನಿಸಿ** ನಾವು ಸರಳ `total_items+additional_items` ಸಿಂಟ್ಯಾಕ್ಸ್ ಬಳಸುತ್ತಿಲ್ಲ. ಅದನ್ನು ಮಾಡಿದರೆ, ಫಲಿತಾಂಶ ಸರಣಿಯಲ್ಲಿ ಬಹಳಷ್ಟು `NaN` (*ಸಂಖ್ಯೆ ಅಲ್ಲ*) ಮೌಲ್ಯಗಳು ಬರುತ್ತಿದ್ದವು. ಇದಕ್ಕೆ ಕಾರಣವೆಂದರೆ `additional_items` ಸರಣಿಯಲ್ಲಿ ಕೆಲವು ಸೂಚ್ಯಂಕ ಬಿಂದುಗಳಿಗೆ ಮೌಲ್ಯಗಳು ಇಲ್ಲದಿರುವುದು, ಮತ್ತು `NaN` ಅನ್ನು ಯಾವುದಕ್ಕೂ ಸೇರಿಸಿದರೆ `NaN` ಆಗುತ್ತದೆ. ಆದ್ದರಿಂದ ಸೇರಿಸುವಾಗ `fill_value` ಪರಿಮಾಣವನ್ನು ಸೂಚಿಸಬೇಕಾಗುತ್ತದೆ.
 
@@ -95,7 +95,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![ಮಾಸಿಕ ಸಮಯ ಸರಣಿ ಸರಾಸರಿ](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.kn.png)
+![ಮಾಸಿಕ ಸಮಯ ಸರಣಿ ಸರಾಸರಿ](../../../../translated_images/kn/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### ಡೇಟಾಫ್ರೇಮ್
 
@@ -222,7 +222,7 @@ df = pd.read_csv('file.csv')
 
 ನಾವು ಡೇಟಾ ಹೇಗೆ ನಿರ್ವಹಿಸಬೇಕೆಂದು ತೋರಿಸಲು ಬಯಸುವ ಕಾರಣದಿಂದ, ನೀವು [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) ಅನ್ನು ತೆರೆಯಿರಿ ಮತ್ತು ಮೇಲಿನಿಂದ ಕೆಳಗೆ ಓದಿ. ನೀವು ಸೆಲ್‌ಗಳನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸಬಹುದು ಮತ್ತು ನಾವು ಕೊನೆಯಲ್ಲಿ ನಿಮಗಾಗಿ ಬಿಟ್ಟಿರುವ ಕೆಲವು ಚಾಲೆಂಜ್‌ಗಳನ್ನು ಮಾಡಬಹುದು.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.kn.png)
+![COVID Spread](../../../../translated_images/kn/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > ನೀವು Jupyter Notebook ನಲ್ಲಿ ಕೋಡ್ ಅನ್ನು ಹೇಗೆ ಚಾಲನೆ ಮಾಡುವುದು ಎಂದು ತಿಳಿಯದಿದ್ದರೆ, [ಈ ಲೇಖನವನ್ನು](https://soshnikov.com/education/how-to-execute-notebooks-from-github/) ನೋಡಿ.
 
@@ -244,7 +244,7 @@ df = pd.read_csv('file.csv')
 
 [`notebook-papers.ipynb`](notebook-papers.ipynb) ಅನ್ನು ತೆರೆಯಿರಿ ಮತ್ತು ಮೇಲಿನಿಂದ ಕೆಳಗೆ ಓದಿ. ನೀವು ಸೆಲ್‌ಗಳನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸಬಹುದು ಮತ್ತು ಕೊನೆಯಲ್ಲಿ ನಾವು ಬಿಟ್ಟಿರುವ ಕೆಲವು ಚಾಲೆಂಜ್‌ಗಳನ್ನು ಮಾಡಬಹುದು.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.kn.png)
+![Covid Medical Treatment](../../../../translated_images/kn/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## ಚಿತ್ರ ಡೇಟಾ ಪ್ರಕ್ರಿಯೆ
 

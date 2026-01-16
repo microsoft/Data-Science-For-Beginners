@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Рад са подацима
 
-![љубав према подацима](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.sr.jpg)  
+![љубав према подацима](../../../translated_images/sr/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)  
 > Фотографија од <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Александра Сина</a> на <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
 
 У овим лекцијама ћете научити неке од начина на које се подаци могу управљати, манипулисати и користити у апликацијама. Научићете о релационим и нерелационим базама података и како се подаци могу чувати у њима. Упознаћете основе рада са Python-ом за управљање подацима и открићете неке од многих начина на које можете користити Python за управљање и анализу података.

@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Adatokkal való munka
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.hu.jpg)  
+![data love](../../../translated_images/hu/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)  
 > Fotó: <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> az <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> oldalán  
 
 Ezekben a leckékben megtanulhatod, hogyan lehet az adatokat kezelni, manipulálni és alkalmazásokban felhasználni. Megismerheted a relációs és nem relációs adatbázisokat, valamint azt, hogyan tárolhatók bennük az adatok. Elsajátíthatod az alapokat a Python használatához az adatok kezelésében, és felfedezheted a számos módot, ahogyan a Python segítségével adatokat kezelhetsz és bányászhatsz.  

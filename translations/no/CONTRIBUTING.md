@@ -318,7 +318,7 @@ Inkluder i PR-beskrivelsen:
   ```
   ````
   
-- Legg til alt-tekst til bilder: `![Alt-tekst](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.no.png)`  
+- Legg til alt-tekst til bilder: `![Alt-tekst](../../translated_images/no/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Hold linjelengder rimelige (rundt 80-100 tegn)  
 
 ### Python

@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :---------------------------------------------------------------------------------------------------: |
 |                 Работа с Python - _Скетч от [@nitya](https://twitter.com/nitya)_                     |
 
-[![Въвеждащо видео](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.bg.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Въвеждащо видео](../../../../translated_images/bg/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 Докато базите данни предлагат много ефективни начини за съхранение на данни и тяхното извличане чрез език за заявки, най-гъвкавият начин за обработка на данни е да напишете собствена програма за манипулиране на данните. В много случаи използването на заявка към база данни би било по-ефективно. Въпреки това, в някои случаи, когато е необходима по-сложна обработка на данни, това не може лесно да се направи с SQL. 
 Обработката на данни може да бъде програмирана на всеки език за програмиране, но има определени езици, които са по-високо ниво, когато става въпрос за работа с данни. Специалистите по данни обикновено предпочитат един от следните езици:
@@ -75,7 +75,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Графика на времеви серии](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.bg.png)
+![Графика на времеви серии](../../../../translated_images/bg/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 Сега да предположим, че всяка седмица организираме парти за приятели и вземаме допълнителни 10 опаковки сладолед за партито. Можем да създадем друга серия, индексирана по седмици, за да демонстрираме това:
 ```python
@@ -86,7 +86,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Графика на времеви серии](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.bg.png)
+![Графика на времеви серии](../../../../translated_images/bg/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **Забележка**: Не използваме простия синтаксис `total_items+additional_items`. Ако го направим, ще получим много стойности `NaN` (*Not a Number*) в резултатната серия. Това е така, защото липсват стойности за някои точки от индекса в серията `additional_items`, и добавянето на `NaN` към нещо води до `NaN`. Затова трябва да зададем параметъра `fill_value` по време на събирането.
 
@@ -95,7 +95,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Месечни средни стойности на времеви серии](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.bg.png)
+![Месечни средни стойности на времеви серии](../../../../translated_images/bg/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### DataFrame
 
@@ -221,7 +221,7 @@ df = pd.read_csv('file.csv')
 
 Тъй като искаме да демонстрираме как да работим с данни, ви каним да отворите [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) и да го прочетете от началото до края. Можете също така да изпълните клетките и да решите някои предизвикателства, които сме оставили за вас в края.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.bg.png)
+![COVID Spread](../../../../translated_images/bg/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Ако не знаете как да изпълнявате код в Jupyter Notebook, разгледайте [тази статия](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -243,7 +243,7 @@ df = pd.read_csv('file.csv')
 
 Отворете [`notebook-papers.ipynb`](notebook-papers.ipynb) и го прочетете от началото до края. Можете също така да изпълните клетките и да решите някои предизвикателства, които сме оставили за вас в края.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.bg.png)
+![Covid Medical Treatment](../../../../translated_images/bg/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## Обработка на данни от изображения
 

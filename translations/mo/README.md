@@ -33,7 +33,7 @@ Azure Cloud Advocates at Microsoft 很高興提供一個為期 10 週、共 20 �
 **🙏 特別感謝 🙏 我們的 [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) 作者、審閱者與內容貢獻者，** 特別是 Aaryan Arora、[Aditya Garg](https://github.com/AdityaGarg00)、[Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/)、[Ankita Singh](https://www.linkedin.com/in/ankitasingh007)、[Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/)、[Arpita Das](https://www.linkedin.com/in/arpitadas01/)、ChhailBihari Dubey、[Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor)、[Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb)、[Majd Safi](https://www.linkedin.com/in/majd-s/)、[Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/)、[Miguel Correa](https://www.linkedin.com/in/miguelmque/)、[Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119)、[Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum)、[Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/)、[Rohit Yadav](https://www.linkedin.com/in/rty2423)、Samridhi Sharma、[Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/)、[Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/)、Yogendrasingh Pawar 、[Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/)、[Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
-|![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.mo.png)|
+|![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/mo/00-Title.8af36cd35da1ac555b678627fbdc6e320c75f0100876ea41d30ea205d3b08d22.png)|
 |:---:|
 | Data Science For Beginners - _速寫筆記（作者：[ @nitya ](https://twitter.com/nitya)）_ |
 
@@ -52,7 +52,7 @@ Azure Cloud Advocates at Microsoft 很高興提供一個為期 10 週、共 20 �
 
 我們正在舉辦 Discord 的 Learn with AI 系列活動，了解更多並於 2025 年 9 月 18 日至 30 日加入我們，請參閱 [Learn with AI Series](https://aka.ms/learnwithai/discord)。你將會獲得使用 GitHub Copilot 進行資料科學的祕訣與技巧。
 
-![Learn with AI 系列](../../translated_images/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.mo.jpg)
+![Learn with AI 系列](../../translated_images/mo/1.2b28cdc6205e26fef6a21817fe5d83ae8b50fbd0a33e9fed0df05845da5b30b6.jpg)
 
 # 你是學生嗎？
 
@@ -132,7 +132,7 @@ Azure Cloud Advocates at Microsoft 很高興提供一個為期 10 週、共 20 �
 ## 課程列表
 
 
-|![ 手繪筆記由 @sketchthedocs 提供 https://sketchthedocs.dev](../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.mo.png)|
+|![ 手繪筆記由 @sketchthedocs 提供 https://sketchthedocs.dev](../../translated_images/mo/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.png)|
 |:---:|
 | 初學者資料科學：路線圖 - _手繪筆記作者 [@nitya](https://twitter.com/nitya)_ |
 

@@ -318,7 +318,7 @@ def calculate_mean(data):
   ```
   ````
   
-- متن جایگزین برای تصاویر اضافه کنید: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.fa.png)`  
+- متن جایگزین برای تصاویر اضافه کنید: `![Alt text](../../translated_images/fa/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - طول خطوط را معقول نگه دارید (حدود 80-100 کاراکتر)  
 
 ### پایتون

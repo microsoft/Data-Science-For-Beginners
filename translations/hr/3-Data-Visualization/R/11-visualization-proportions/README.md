@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, tortni grafikon koji prikazuje proporcije ovih podataka prema ove dvije klase gljiva. Vrlo je važno dobiti redoslijed oznaka točno, posebno ovdje, pa svakako provjerite redoslijed kojim je niz oznaka izgrađen!
 
-![tortni grafikon](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.hr.png)
+![tortni grafikon](../../../../../translated_images/hr/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Prstenovi!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![grafikon u obliku prstena](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.hr.png)
+![grafikon u obliku prstena](../../../../../translated_images/hr/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Ovaj kod koristi dvije biblioteke - ggplot2 i webr. Koristeći funkciju PieDonut iz webr biblioteke, lako možemo kreirati grafikon u obliku prstena!
 
@@ -169,7 +169,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Koristeći grafikon u obliku vafla, jasno možete vidjeti proporcije boja klobuka u ovom datasetu gljiva. Zanimljivo je da postoji mnogo gljiva sa zelenim klobukom!
 
-![grafikon u obliku vafla](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.hr.png)
+![grafikon u obliku vafla](../../../../../translated_images/hr/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 U ovoj lekciji naučili ste tri načina za vizualizaciju proporcija. Prvo, trebate grupirati svoje podatke u kategorije, a zatim odlučiti koji je najbolji način za prikaz podataka - torta, prsten ili vafl. Svi su ukusni i pružaju korisniku trenutni pregled dataset-a.
 

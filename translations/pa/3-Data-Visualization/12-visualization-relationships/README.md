@@ -51,7 +51,7 @@ honey.head()
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.pa.png)
+![scatterplot 1](../../../../translated_images/pa/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 ਹੁਣ, ਸਾਲ ਦਰ ਸਾਲ ਸ਼ਹਿਦ ਦੀ ਕੀਮਤ ਦੇ ਵਿਕਾਸ ਨੂੰ ਦਰਸਾਉਣ ਲਈ ਸ਼ਹਿਦ ਦੇ ਰੰਗ ਦੀ ਯੋਜਨਾ ਨਾਲ ਉਹੀ ਡਾਟਾ ਦਿਖਾਓ। ਤੁਸੀਂ 'hue' ਪੈਰਾਮੀਟਰ ਸ਼ਾਮਲ ਕਰਕੇ ਇਹ ਕਰ ਸਕਦੇ ਹੋ:
 
@@ -60,7 +60,7 @@ sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.pa.png)
+![scatterplot 2](../../../../translated_images/pa/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 ਇਸ ਰੰਗ ਯੋਜਨਾ ਦੇ ਬਦਲਾਅ ਨਾਲ, ਤੁਸੀਂ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਸਾਲ ਦਰ ਸਾਲ ਸ਼ਹਿਦ ਦੀ ਕੀਮਤ ਵਿੱਚ ਇੱਕ ਮਜ਼ਬੂਤ ਪ੍ਰਗਤੀ ਦੇਖ ਸਕਦੇ ਹੋ। ਜੇ ਤੁਸੀਂ ਡਾਟਾ ਦੇ ਨਮੂਨਾ ਸੈੱਟ ਨੂੰ ਜਾਂਚਣ ਲਈ (ਉਦਾਹਰਣ ਲਈ, ਅਰੀਜ਼ੋਨਾ) ਦੇਖੋ, ਤਾਂ ਤੁਸੀਂ ਸਾਲ ਦਰ ਸਾਲ ਕੀਮਤ ਵਿੱਚ ਵਾਧੇ ਦਾ ਪੈਟਰਨ ਦੇਖ ਸਕਦੇ ਹੋ, ਕੁਝ ਛੋਟੇ-ਮੋਟੇ ਅਪਵਾਦਾਂ ਦੇ ਨਾਲ:
 
@@ -89,7 +89,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 ਤੁਸੀਂ ਡਾਟ ਦੇ ਆਕਾਰ ਨੂੰ ਹੌਲੀ-ਹੌਲੀ ਵਧਦੇ ਹੋਏ ਦੇਖ ਸਕਦੇ ਹੋ।
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.pa.png)
+![scatterplot 3](../../../../translated_images/pa/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 ਕੀ ਇਹ ਸਪਲਾਈ ਅਤੇ ਡਿਮਾਂਡ ਦਾ ਸਧਾਰਨ ਮਾਮਲਾ ਹੈ? ਜਿਵੇਂ ਕਿ ਮੌਸਮ ਬਦਲਾਅ ਅਤੇ ਕਾਲੋਨੀ ਕਾਲਾਪਸ ਦੇ ਕਾਰਨ, ਕੀ ਸਾਲ ਦਰ ਸਾਲ ਖਰੀਦਣ ਲਈ ਘੱਟ ਸ਼ਹਿਦ ਉਪਲਬਧ ਹੈ, ਅਤੇ ਇਸ ਲਈ ਕੀਮਤ ਵਧਦੀ ਹੈ?
 
@@ -104,7 +104,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 ਜਵਾਬ: ਹਾਂ, ਕੁਝ ਅਪਵਾਦਾਂ ਦੇ ਨਾਲ, ਖਾਸ ਤੌਰ 'ਤੇ 2003 ਦੇ ਆਸ-ਪਾਸ:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.pa.png)
+![line chart 1](../../../../translated_images/pa/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ ਕਿਉਂਕਿ Seaborn ਇੱਕ ਲਾਈਨ 'ਤੇ ਡਾਟਾ ਨੂੰ ਸਮੂਹਬੱਧ ਕਰ ਰਿਹਾ ਹੈ, ਇਹ "x ਮੁੱਲ 'ਤੇ ਕਈ ਮਾਪਾਂ ਨੂੰ ਦਰਸਾਉਣ ਲਈ ਮੀਨ ਅਤੇ ਮੀਨ ਦੇ ਆਸ-ਪਾਸ 95% ਭਰੋਸੇਯੋਗ ਅੰਤਰ" ਦਿਖਾਉਂਦਾ ਹੈ। [ਸਰੋਤ](https://seaborn.pydata.org/tutorial/relational.html)। ਇਸ ਸਮਾਂ-ਖਪਤ ਵਿਵਹਾਰ ਨੂੰ `ci=None` ਸ਼ਾਮਲ ਕਰਕੇ ਅਯੋਗ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।
 
@@ -114,7 +114,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.pa.png)
+![line chart 2](../../../../translated_images/pa/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 ਜਵਾਬ: ਸੱਚਮੁੱਚ ਨਹੀਂ। ਜੇ ਤੁਸੀਂ ਕੁੱਲ ਉਤਪਾਦਨ ਨੂੰ ਦੇਖੋ, ਤਾਂ ਇਹ ਵਿਸ਼ੇਸ਼ ਸਾਲ ਵਿੱਚ ਵਾਧੇ ਵਿੱਚ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ, ਹਾਲਾਂਕਿ ਆਮ ਤੌਰ 'ਤੇ ਸ਼ਹਿਦ ਦੇ ਉਤਪਾਦਨ ਦੀ ਮਾਤਰਾ ਇਨ੍ਹਾਂ ਸਾਲਾਂ ਦੌਰਾਨ ਘਟ ਰਹੀ ਹੈ।
 
@@ -139,7 +139,7 @@ sns.relplot(
 ```
 ਇਸ ਦ੍ਰਿਸ਼ਟੀਕਰਣ ਵਿੱਚ, ਤੁਸੀਂ ਸਾਲ ਦਰ ਸਾਲ ਅਤੇ ਰਾਜ ਦਰ ਰਾਜ ਪ੍ਰਤੀ ਕਾਲੋਨੀ ਉਤਪਾਦਨ ਅਤੇ ਕਾਲੋਨੀਆਂ ਦੀ ਗਿਣਤੀ ਦੀ ਤੁਲਨਾ ਕਰ ਸਕਦੇ ਹੋ, ਕਾਲਮਾਂ ਲਈ 3 'ਤੇ ਰੈਪ ਸੈਟ ਕਰਕੇ:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.pa.png)
+![facet grid](../../../../translated_images/pa/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 ਇਸ ਡਾਟਾਸੈੱਟ ਲਈ, ਸਾਲ ਦਰ ਸਾਲ ਅਤੇ ਰਾਜ ਦਰ ਰਾਜ ਕਾਲੋਨੀਆਂ ਦੀ ਗਿਣਤੀ ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਉਤਪਾਦਨ ਵਿੱਚ ਕੁਝ ਵਿਸ਼ੇਸ਼ ਦਿਖਾਈ ਨਹੀਂ ਦਿੰਦਾ। ਕੀ ਇਹ ਦੋ ਚਰਾਂ ਦੇ ਰਿਸ਼ਤੇ ਨੂੰ ਖੋਜਣ ਲਈ ਦੇਖਣ ਦਾ ਇੱਕ ਵੱਖਰਾ ਤਰੀਕਾ ਹੈ?
 
@@ -162,7 +162,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.pa.png)
+![superimposed plots](../../../../translated_images/pa/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 ਹਾਲਾਂਕਿ 2003 ਦੇ ਆਸ-ਪਾਸ ਕੁਝ ਵੀ ਸਪਸ਼ਟ ਤੌਰ 'ਤੇ ਦਿਖਾਈ ਨਹੀਂ ਦਿੰਦਾ, ਇਹ ਸਾਨੂੰ ਇਸ ਪਾਠ ਨੂੰ ਇੱਕ ਖੁਸ਼ੀਦਾਇਕ ਨੋਟ 'ਤੇ ਖਤਮ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ: ਹਾਲਾਂਕਿ ਕਾਲੋਨੀਆਂ ਦੀ ਗਿਣਤੀ ਵਿੱਚ ਕੁੱਲ ਘਟਾਅ ਹੈ, ਕਾਲੋਨੀਆਂ ਦੀ ਗਿਣਤੀ ਸਥਿਰ ਹੋ ਰਹੀ ਹੈ, ਭਾਵੇਂ ਉਨ੍ਹਾਂ ਦਾ ਪ੍ਰਤੀ ਕਾਲੋਨੀ ਉਤਪਾਦਨ ਘਟ ਰਿਹਾ ਹੈ।
 

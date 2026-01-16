@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # डाटा साइन्सको परिचय
 
-![डाटा क्रियाशीलतामा](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.ne.jpg)
+![डाटा क्रियाशीलतामा](../../../translated_images/ne/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > फोटो <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> द्वारा <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a मा
   
 यी पाठहरूमा, तपाईंले डाटा साइन्स कसरी परिभाषित गरिन्छ भन्ने कुरा पत्ता लगाउनुहुनेछ र डाटा वैज्ञानिकले विचार गर्नुपर्ने नैतिक पक्षहरूको बारेमा सिक्नुहुनेछ। तपाईंले डाटा कसरी परिभाषित गरिन्छ भन्ने कुरा पनि सिक्नुहुनेछ र डाटा साइन्सका मुख्य शैक्षिक क्षेत्रहरू, जस्तै तथ्यांक र सम्भावनाको बारेमा थोरै जानकारी प्राप्त गर्नुहुनेछ।

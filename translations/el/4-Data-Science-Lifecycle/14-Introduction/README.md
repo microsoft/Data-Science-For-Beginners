@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Αυτό το μάθημα επικεντρώνεται σε 3 μέρη του κύκλου ζωής: συλλογή, επεξεργασία και συντήρηση.
 
-![Διάγραμμα του κύκλου ζωής της επιστήμης δεδομένων](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.el.jpg)  
+![Διάγραμμα του κύκλου ζωής της επιστήμης δεδομένων](../../../../translated_images/el/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
 > Φωτογραφία από [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Συλλογή
@@ -101,7 +101,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |Διαδικασία Ομάδας Επιστήμης Δεδομένων (TDSP)|Δια-βιομηχανικό πρότυπο διαδικασίας για εξόρυξη δεδομένων (CRISP-DM)|
 |--|--|
-|![Κύκλος Ζωής Ομάδας Επιστήμης Δεδομένων](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.el.png) | ![Εικόνα Διαδικασίας Επιστήμης Δεδομένων Alliance](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.el.png) |
+|![Κύκλος Ζωής Ομάδας Επιστήμης Δεδομένων](../../../../translated_images/el/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Εικόνα Διαδικασίας Επιστήμης Δεδομένων Alliance](../../../../translated_images/el/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Εικόνα από [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Εικόνα από [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Κουίζ Μετά τη Διάλεξη](https://ff-quizzes.netlify.app/en/ds/quiz/27)

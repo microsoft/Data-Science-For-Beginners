@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.hk.png)
+![scatterplot 1](../../../../../translated_images/hk/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 現在，使用蜂蜜色彩方案展示價格隨年份的變化。您可以通過添加 'scale_color_gradientn' 參數來顯示每年的變化：
 
@@ -61,7 +61,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.hk.png)
+![scatterplot 2](../../../../../translated_images/hk/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 使用這種色彩方案，您可以看到蜂蜜每磅價格隨年份的明顯增長趨勢。事實上，如果您查看數據中的樣本集（例如選擇亞利桑那州），您可以看到價格每年逐漸上漲，僅有少數例外：
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 您可以看到點的大小逐漸增大。
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.hk.png)
+![scatterplot 3](../../../../../translated_images/hk/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 這是否是一個簡單的供需問題？由於氣候變化和蜂群崩潰等因素，是否每年可供購買的蜂蜜減少，導致價格上漲？
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 答案：是的，但在2003年左右有一些例外：
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.hk.png)
+![line chart 1](../../../../../translated_images/hk/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 問題：那麼在2003年，我們是否也能看到蜂蜜供應的激增？如果您查看每年的總生產量呢？
 
@@ -115,7 +115,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.hk.png)
+![line chart 2](../../../../../translated_images/hk/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 答案：並不完全。如果您查看總生產量，實際上在那一年似乎有所增加，儘管總體而言蜂蜜的生產量在這些年中呈下降趨勢。
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 在此視覺化中，您可以比較每群產量和蜂群數量每年每州的變化，並將列數設置為3：
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.hk.png)
+![facet grid](../../../../../translated_images/hk/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 對於此數據集，關於蜂群數量和每群產量每年每州的變化，並未有特別突出的地方。是否有其他方式可以找到這兩個變量之間的相關性？
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.hk.png)
+![superimposed plots](../../../../../translated_images/hk/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 雖然在2003年並未有明顯的異常，但這讓我們可以以一個稍微樂觀的結論結束本課：儘管蜂群數量總體上在下降，但蜂群數量正在穩定，即使每群產量在減少。
 

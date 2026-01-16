@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Adattudomány a felhőben
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.hu.jpg)
+![cloud-picture](../../../translated_images/hu/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Fotó: [Jelleke Vanooteghem](https://unsplash.com/@ilumire) az [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape) oldaláról
 
 Amikor nagy adathalmazokkal végzünk adattudományi munkát, a felhő igazi fordulópont lehet. A következő három leckében megnézzük, mi is az a felhő, és miért lehet rendkívül hasznos. Emellett megvizsgálunk egy szívelégtelenséggel kapcsolatos adathalmazt, és készítünk egy modellt, amely segít felmérni valakinek a szívelégtelenség valószínűségét. A felhő erejét fogjuk használni a modell betanítására, telepítésére és használatára két különböző módon. Az egyik módszer kizárólag a felhasználói felületet használja egy Low code/No code megközelítésben, a másik pedig az Azure Machine Learning Software Developer Kit (Azure ML SDK) segítségével történik.
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.hu.png)
+![project-schema](../../../translated_images/hu/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Témakörök
 

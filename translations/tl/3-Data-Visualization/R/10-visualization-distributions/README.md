@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![max length per order](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.tl.png)
+![max length per order](../../../../../translated_images/tl/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 Ipinapakita nito ang pangkalahatang pamamahagi ng haba ng katawan bawat Order ng ibon, ngunit hindi ito ang pinakamainam na paraan upang ipakita ang tunay na pamamahagi. Ang gawaing ito ay karaniwang ginagawa sa pamamagitan ng paglikha ng Histogram.
 
@@ -57,7 +57,7 @@ Nag-aalok ang `ggplot2` ng mahusay na paraan upang ipakita ang pamamahagi ng dat
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![distribution over entire dataset](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.tl.png)
+![distribution over entire dataset](../../../../../translated_images/tl/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 Makikita mo na karamihan sa 400+ na ibon sa dataset na ito ay nasa saklaw na mas mababa sa 2000 para sa kanilang Max Body Mass. Makakuha ng mas maraming insight sa datos sa pamamagitan ng pagbabago ng `bins` parameter sa mas mataas na numero, tulad ng 30:
 
@@ -65,7 +65,7 @@ Makikita mo na karamihan sa 400+ na ibon sa dataset na ito ay nasa saklaw na mas
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![distribution-30bins](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.tl.png)
+![distribution-30bins](../../../../../translated_images/tl/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 Ipinapakita ng tsart na ito ang pamamahagi sa mas detalyadong paraan. Ang isang tsart na hindi masyadong skewed sa kaliwa ay maaaring malikha sa pamamagitan ng pagtiyak na pipiliin mo lamang ang datos sa loob ng isang ibinigay na saklaw:
 
@@ -77,7 +77,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![filtered histogram](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.tl.png)
+![filtered histogram](../../../../../translated_images/tl/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ Subukan ang iba pang mga filter at puntos ng datos. Upang makita ang buong pamamahagi ng datos, alisin ang `['MaxBodyMass']` filter upang ipakita ang mga labeled distributions.
 
@@ -91,7 +91,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Mukhang may inaasahang ugnayan sa pagitan ng dalawang elementong ito sa isang inaasahang axis, na may isang partikular na malakas na punto ng convergence:
 
-![2d plot](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.tl.png)
+![2d plot](../../../../../translated_images/tl/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 Ang histograms ay mahusay na gumagana bilang default para sa numeric na datos. Paano kung kailangan mong makita ang pamamahagi ayon sa text na datos?
 
@@ -123,7 +123,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![wingspan and conservation collation](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.tl.png)
+![wingspan and conservation collation](../../../../../translated_images/tl/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 Mukhang walang magandang ugnayan sa pagitan ng minimum wingspan at kalagayan ng konserbasyon. Subukan ang iba pang mga elemento ng dataset gamit ang pamamaraang ito. Maaari kang mag-eksperimento sa iba't ibang filter. May nakikita ka bang ugnayan?
 
@@ -137,7 +137,7 @@ Subukan natin ang density plot ngayon!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![density plot](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.tl.png)
+![density plot](../../../../../translated_images/tl/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 Makikita mo kung paano ginagaya ng plot ang naunang isa para sa Minimum Wingspan na datos; medyo mas maayos lang ito. Kung nais mong balikan ang jagged MaxBodyMass line sa pangalawang tsart na ginawa mo, maaari mo itong gawing mas maayos sa pamamagitan ng muling paggawa nito gamit ang pamamaraang ito:
 
@@ -145,7 +145,7 @@ Makikita mo kung paano ginagaya ng plot ang naunang isa para sa Minimum Wingspan
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![bodymass density](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.tl.png)
+![bodymass density](../../../../../translated_images/tl/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 Kung nais mo ng maayos, ngunit hindi masyadong maayos na linya, i-edit ang `adjust` parameter:
 
@@ -153,7 +153,7 @@ Kung nais mo ng maayos, ngunit hindi masyadong maayos na linya, i-edit ang `adju
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![less smooth bodymass](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.tl.png)
+![less smooth bodymass](../../../../../translated_images/tl/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ Basahin ang tungkol sa mga parameter na magagamit para sa ganitong uri ng plot at mag-eksperimento!
 
@@ -163,7 +163,7 @@ Ang ganitong uri ng tsart ay nag-aalok ng magagandang paliwanag na visualization
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![bodymass per order](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.tl.png)
+![bodymass per order](../../../../../translated_images/tl/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 Hamon
 

@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Tässä asennetaan `ggplot2`-kirjasto ja tuodaan se työtilaan komennolla `library("ggplot2")`. Kaavion piirtämiseen ggplotissa käytetään `ggplot()`-funktiota, jossa määritetään datasetti, x- ja y-muuttujat attribuuteiksi. Tässä tapauksessa käytetään `geom_line()`-funktiota, koska tavoitteena on piirtää viivakaavio.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.fi.png)
+![MaxWingspan-lineplot](../../../../../translated_images/fi/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 Mitä huomaat heti? Näyttää olevan ainakin yksi poikkeama - melko vaikuttava siipiväli! Yli 2000 senttimetrin siipiväli vastaa yli 20 metriä - onko Minnesotassa lentäviä pterosauruksia? Tutkitaan asiaa.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Määritämme kulman `theme`-osiossa ja määritämme x- ja y-akselin selitteet `xlab()`- ja `ylab()`-funktioilla. `ggtitle()` antaa kaaviolle nimen.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.fi.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/fi/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 Vaikka selitteiden kiertokulma on asetettu 45 asteeseen, niitä on silti liikaa luettavaksi. Kokeillaan toista strategiaa: merkitään vain poikkeamat ja asetetaan selitteet kaavion sisälle. Voit käyttää hajontakaaviota, jotta selitteille jää enemmän tilaa:
 
@@ -100,7 +100,7 @@ Mitä tässä tapahtuu? Käytit `geom_point()`-funktiota hajontapisteiden piirt�
 
 Mitä huomaat?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.fi.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/fi/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## Suodata dataasi
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 Loimme uuden dataframen `birds_filtered` ja piirsimme hajontakaavion. Suodattamalla poikkeamat datasi on nyt yhtenäisempää ja ymmärrettävämpää.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.fi.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/fi/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 Nyt kun meillä on puhtaampi datasetti ainakin siipivälin osalta, tutkitaan lisää näitä lintuja.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 Seuraavassa koodissa asennetaan [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8)- ja [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0)-kirjastot, jotka auttavat datan käsittelyssä ja ryhmittelyssä pinotun pylväsdiagrammin piirtämiseksi. Ensin ryhmitellään data lintujen `Category`-sarakkeen mukaan ja tiivistetään sarakkeet `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan`. Sitten piirretään pylväsdiagrammi `ggplot2`-kirjaston avulla ja määritetään eri kategorioiden värit ja selitteet.
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.fi.png)
+![Stacked bar chart](../../../../../translated_images/fi/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 Tämä pylväsdiagrammi on kuitenkin vaikeasti luettavissa, koska siinä on liikaa ryhmittelemätöntä dataa. Sinun täytyy valita vain data, jonka haluat piirtää, joten tarkastellaan lintujen pituutta kategorian perusteella.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 Ensin lasketaan `Category`-sarakkeen uniikit arvot ja lajitellaan ne uuteen dataframeen `birds_count`. Tämä lajiteltu data järjestetään samalle tasolle, jotta se piirretään järjestyksessä. Käyttämällä `ggplot2`-kirjastoa piirretään data pylväsdiagrammiin. `coord_flip()` piirtää vaakapalkit.
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.fi.png)
+![category-length](../../../../../translated_images/fi/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 Tämä pylväsdiagrammi näyttää hyvän näkymän lintujen lukumäärästä kussakin kategoriassa. Silmänräpäyksessä näet, että suurin osa tämän alueen linnuista kuuluu Ankat/hanhet/vesilinnut-kategoriaan. Minnesota on "10 000 järven maa", joten tämä ei ole yllättävää!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 Ryhmämme `birds_filtered`-datan `Category`-sarakkeen mukaan ja piirrämme pylväsdiagrammin.
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.fi.png)
+![comparing data](../../../../../translated_images/fi/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 Tässä ei ole mitään yllättävää: kolibrit ovat pienimpiä maksimaalisen pituuden osalta verrattuna pelikaaniin tai hanhiin. On hyvä, kun data on loogista!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.fi.png)
+![super-imposed values](../../../../../translated_images/fi/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 Haaste
 

@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Python తో పని చేయడం - _Sketchnote by [@nitya](https://twitter.com/nitya)_                 |
 
-[![Intro Video](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.te.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Intro Video](../../../../translated_images/te/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 డేటాబేసులు డేటాను నిల్వ చేయడానికి మరియు క్వెరీ భాషలను ఉపయోగించి వాటిని క్వెరీ చేయడానికి చాలా సమర్థవంతమైన మార్గాలను అందించినప్పటికీ, డేటాను ప్రాసెస్ చేయడానికి అత్యంత అనుకూలమైన మార్గం మీ స్వంత ప్రోగ్రామ్ రాయడం. చాలా సందర్భాల్లో, డేటాబేస్ క్వెరీ చేయడం మరింత సమర్థవంతమైన మార్గం అవుతుంది. అయితే, కొన్ని సందర్భాల్లో, మరింత సంక్లిష్టమైన డేటా ప్రాసెసింగ్ అవసరం అయితే, అది SQL ఉపయోగించి సులభంగా చేయలేము.  
 డేటా ప్రాసెసింగ్ ఏ ప్రోగ్రామింగ్ భాషలోనైనా ప్రోగ్రామ్ చేయవచ్చు, కానీ డేటాతో పని చేయడంలో కొంతమంది భాషలు ఉన్నత స్థాయిలో ఉంటాయి. డేటా సైంటిస్టులు సాధారణంగా క్రింది భాషలలో ఒకదాన్ని ఇష్టపడతారు:
@@ -75,7 +75,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Time Series Plot](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.te.png)
+![Time Series Plot](../../../../translated_images/te/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 ఇప్పుడు ప్రతీ వారం మేము స్నేహితుల కోసం పార్టీ నిర్వహిస్తున్నాము, మరియు పార్టీ కోసం అదనంగా 10 ఐస్-క్రీమ్ ప్యాకెట్లు తీసుకుంటాము అనుకోండి. మేము వారానికి ఇండెక్స్ చేయబడిన మరో సిరీస్ సృష్టించవచ్చు, దీన్ని చూపించడానికి:
 ```python
@@ -86,7 +86,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Time Series Plot](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.te.png)
+![Time Series Plot](../../../../translated_images/te/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **గమనిక** మేము సాదారణ సింటాక్స్ `total_items+additional_items` ఉపయోగించట్లేదు. అలా చేస్తే, ఫలిత సిరీస్‌లో చాలా `NaN` (*Not a Number*) విలువలు వస్తాయి. ఇది ఎందుకంటే `additional_items` సిరీస్‌లో కొన్ని ఇండెక్స్ పాయింట్లకు విలువలు లేవు, మరియు `NaN` ను ఏదైనా విలువకు జోడిస్తే ఫలితం `NaN` అవుతుంది. అందువల్ల జోడింపు సమయంలో `fill_value` పారామీటర్‌ను నిర్దేశించాలి.
 
@@ -95,7 +95,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Monthly Time Series Averages](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.te.png)
+![Monthly Time Series Averages](../../../../translated_images/te/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### డేటాఫ్రేమ్
 
@@ -222,7 +222,7 @@ df = pd.read_csv('file.csv')
 
 మనం డేటాతో ఎలా వ్యవహరించాలో చూపించాలనుకుంటున్నందున, మీరు [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) ను తెరిచి పై నుండి క్రింద వరకు చదవమని ఆహ్వానిస్తున్నాము. మీరు సెల్స్‌ను కూడా నడిపించవచ్చు, మరియు చివరలో మేము మీ కోసం వదిలిన కొన్ని ఛాలెంజ్‌లను చేయవచ్చు.
 
-![COVID Spread](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.te.png)
+![COVID Spread](../../../../translated_images/te/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > మీరు Jupyter Notebook లో కోడ్ ఎలా నడుపాలో తెలియకపోతే, [ఈ వ్యాసం](https://soshnikov.com/education/how-to-execute-notebooks-from-github/)ను చూడండి.
 
@@ -244,7 +244,7 @@ df = pd.read_csv('file.csv')
 
 [`notebook-papers.ipynb`](notebook-papers.ipynb) ను తెరిచి పై నుండి క్రింద వరకు చదవండి. మీరు సెల్స్‌ను కూడా నడిపించవచ్చు, మరియు చివరలో మేము మీ కోసం వదిలిన కొన్ని ఛాలెంజ్‌లను చేయవచ్చు.
 
-![Covid Medical Treatment](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.te.png)
+![Covid Medical Treatment](../../../../translated_images/te/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## చిత్ర డేటా ప్రాసెసింగ్
 

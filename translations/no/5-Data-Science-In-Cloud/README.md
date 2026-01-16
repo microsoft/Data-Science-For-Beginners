@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Data Science i skyen
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.no.jpg)
+![cloud-picture](../../../translated_images/no/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > Foto av [Jelleke Vanooteghem](https://unsplash.com/@ilumire) fra [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Når det gjelder å utføre dataanalyse med store datamengder, kan skyen være en game changer. I de neste tre leksjonene skal vi se hva skyen er og hvorfor den kan være svært nyttig. Vi skal også utforske et datasett om hjertesvikt og bygge en modell for å vurdere sannsynligheten for at noen opplever hjertesvikt. Vi vil bruke kraften i skyen til å trene, distribuere og bruke en modell på to forskjellige måter. Den ene måten bruker kun brukergrensesnittet i en Low code/No code-tilnærming, den andre måten bruker Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.no.png)
+![project-schema](../../../translated_images/no/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### Emner
 

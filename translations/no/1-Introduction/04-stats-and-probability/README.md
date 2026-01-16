@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Statistikk og sannsynlighetsteori er to nært relaterte områder innen matematikk som er svært relevante for datavitenskap. Det er mulig å jobbe med data uten dyp kunnskap om matematikk, men det er likevel bedre å kjenne til noen grunnleggende konsepter. Her vil vi gi en kort introduksjon som kan hjelpe deg i gang.
 
-[![Introduksjonsvideo](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.no.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Introduksjonsvideo](../../../../translated_images/no/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Quiz før forelesning](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ Det er mer utfordrende å beskrive sannsynlighetsfordelingen for en kontinuerlig
 
 Vi kan bare snakke om sannsynligheten for at en variabel faller innenfor et gitt intervall av verdier, f.eks. P(t<sub>1</sub>≤X<t<sub>2</sub>). I dette tilfellet beskrives sannsynlighetsfordelingen av en **sannsynlighetstetthetsfunksjon** p(x), slik at
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.no.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/no/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 En kontinuerlig analog av uniform fordeling kalles **kontinuerlig uniform**, som er definert på et begrenset intervall. Sannsynligheten for at verdien X faller innenfor et intervall med lengde l er proporsjonal med l, og stiger opp til 1.
 
@@ -82,11 +82,11 @@ Når vi analyserer data fra virkeligheten, er de ofte ikke tilfeldige variabler 
 
 Her er boksplottet som viser gjennomsnitt, median og kvartiler for våre data:
 
-![Vekt boksplott](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.no.png)
+![Vekt boksplott](../../../../translated_images/no/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Siden våre data inneholder informasjon om forskjellige spiller **roller**, kan vi også lage boksplott etter rolle - det vil gi oss en idé om hvordan parameterverdier varierer mellom roller. Denne gangen vil vi vurdere høyde:
 
-![Boksplott etter rolle](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.no.png)
+![Boksplott etter rolle](../../../../translated_images/no/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Dette diagrammet antyder at, i gjennomsnitt, er høyden til førstemenn høyere enn høyden til andremenn. Senere i denne leksjonen vil vi lære hvordan vi kan teste denne hypotesen mer formelt, og hvordan vi kan demonstrere at våre data er statistisk signifikante for å vise dette.
 
@@ -94,7 +94,7 @@ Dette diagrammet antyder at, i gjennomsnitt, er høyden til førstemenn høyere 
 
 For å se hva fordelingen av våre data er, kan vi lage et diagram kalt **histogram**. X-aksen vil inneholde et antall forskjellige vektintervaller (såkalte **bins**), og den vertikale aksen vil vise antall ganger vår tilfeldige variabelprøve var innenfor et gitt intervall.
 
-![Histogram av data fra virkeligheten](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.no.png)
+![Histogram av data fra virkeligheten](../../../../translated_images/no/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Fra dette histogrammet kan du se at alle verdier er sentrert rundt en viss gjennomsnittsvekt, og jo lenger vi går fra den vekten - jo færre vekter av den verdien blir registrert. Det vil si, det er svært usannsynlig at vekten til en baseballspiller vil være veldig forskjellig fra gjennomsnittsvekten. Variansen i vekter viser i hvilken grad vektene sannsynligvis vil avvike fra gjennomsnittet.
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 Hvis vi plotter histogrammet for de genererte prøvene, vil vi se et bilde som ligner på det som er vist ovenfor. Og hvis vi øker antall prøver og antall bins, kan vi generere et bilde av en normalfordeling som er nærmere ideell:
 
-![Normalfordeling med gjennomsnitt=0 og std.avvik=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.no.png)
+![Normalfordeling med gjennomsnitt=0 og std.avvik=1](../../../../translated_images/no/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Normalfordeling med gjennomsnitt=0 og std.avvik=1*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 I vårt tilfelle indikerer verdien 0.53 at det er en viss korrelasjon mellom vekt og høyde til en person. Vi kan også lage et spredningsdiagram av én verdi mot den andre for å se relasjonen visuelt:
 
-![Relasjon mellom vekt og høyde](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.no.png)
+![Relasjon mellom vekt og høyde](../../../../translated_images/no/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Flere eksempler på korrelasjon og kovarians kan finnes i [tilhørende notatbok](notebook.ipynb).
 

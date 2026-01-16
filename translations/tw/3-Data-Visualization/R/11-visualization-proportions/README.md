@@ -93,7 +93,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 瞧，一個圓餅圖展示了根據這兩類蘑菇的比例數據。在這裡，正確的標籤順序非常重要，因此請務必確認標籤數組的構建順序！
 
-![圓餅圖](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.tw.png)
+![圓餅圖](../../../../../translated_images/tw/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## 甜甜圈圖！
 
@@ -128,7 +128,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![甜甜圈圖](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.tw.png)
+![甜甜圈圖](../../../../../translated_images/tw/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 此代碼使用了兩個庫 - ggplot2 和 webr。使用 webr 庫的 PieDonut 函數，我們可以輕鬆創建甜甜圈圖！
 
@@ -166,7 +166,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 使用華夫圖，你可以清楚地看到此蘑菇數據集中菌蓋顏色的比例。有趣的是，有許多綠色菌蓋的蘑菇！
 
-![華夫圖](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.tw.png)
+![華夫圖](../../../../../translated_images/tw/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 在本課程中，你學到了三種視覺化比例的方法。首先，你需要將數據分組到分類中，然後決定哪種方式最適合顯示數據 - 圓餅圖、甜甜圈圖或華夫圖。這些方法都很有趣，並能讓用戶快速了解數據集。
 

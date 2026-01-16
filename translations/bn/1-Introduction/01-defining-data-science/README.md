@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![ডেটা সায়েন্স সংজ্ঞায়িত করার ভিডিও](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.bn.png)](https://youtu.be/beZ7Mb_oz9I)
+[![ডেটা সায়েন্স সংজ্ঞায়িত করার ভিডিও](../../../../translated_images/bn/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [পূর্ব-লেকচার কুইজ](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -149,7 +149,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 এই চ্যালেঞ্জে, আমরা ডেটা সায়েন্স ক্ষেত্রের সাথে সম্পর্কিত ধারণাগুলো খুঁজে বের করার চেষ্টা করব টেক্সট বিশ্লেষণ করে। আমরা ডেটা সায়েন্স সম্পর্কিত একটি উইকিপিডিয়া নিবন্ধ নেব, টেক্সট ডাউনলোড এবং প্রক্রিয়া করব, এবং তারপর একটি ওয়ার্ড ক্লাউড তৈরি করব যা এরকম দেখতে হবে:
 
-![ডেটা সায়েন্সের জন্য ওয়ার্ড ক্লাউড](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.bn.png)
+![ডেটা সায়েন্সের জন্য ওয়ার্ড ক্লাউড](../../../../translated_images/bn/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') পরিদর্শন করুন কোডটি পড়ার জন্য। আপনি কোডটি চালাতে পারেন এবং দেখতে পারেন এটি কীভাবে রিয়েল টাইমে সমস্ত ডেটা রূপান্তর সম্পন্ন করে। 
 

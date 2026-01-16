@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Statistika ja tõenäosusteooria on kaks tihedalt seotud matemaatika valdkonda, mis on väga olulised andmeteaduse jaoks. Andmetega on võimalik töötada ka ilma sügavate matemaatiliste teadmisteta, kuid siiski on parem omada vähemalt mõningaid põhiteadmisi. Siin anname lühikese sissejuhatuse, mis aitab teil alustada.
 
-[![Sissejuhatav video](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.et.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Sissejuhatav video](../../../../translated_images/et/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 
 ## [Loengu-eelne viktoriin](https://ff-quizzes.netlify.app/en/ds/quiz/6)
@@ -40,7 +40,7 @@ Pideva muutuja tõenäosusjaotuse kirjeldamine on keerulisem, kui väärtused on
 
 Me saame rääkida ainult muutuja tõenäosusest langeda teatud väärtuste vahemikku, nt P(t<sub>1</sub>&le;X&lt;t<sub>2</sub>). Sel juhul kirjeldatakse tõenäosusjaotust **tõenäosustihedusfunktsiooni** p(x) abil, nii et
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.et.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/et/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
   
 Pideva ühtlase jaotuse analoog on **pidev ühtlane jaotus**, mis on määratletud lõplikul intervallil. Tõenäosus, et väärtus X langeb pikkusega l intervalli, on proportsionaalne l-ga ja ulatub kuni 1-ni.
 
@@ -65,7 +65,7 @@ Et aidata meil andmete jaotust paremini mõista, on kasulik rääkida **kvartiil
 
 Graafiliselt saame mediaani ja kvartiilide suhet kujutada diagrammil, mida nimetatakse **kastdiagrammiks**:
 
-<img src="../../../../translated_images/boxplot_explanation.4039b7de08780fd493ef798b41f7291d753f1f84de8955645f00c586e65f16a3.et.png" alt="Kastdiagrammi selgitus" width="50%">
+<img src="../../../../translated_images/et/boxplot_explanation.4039b7de08780fd493ef798b41f7291d753f1f84de8955645f00c586e65f16a3.png" alt="Kastdiagrammi selgitus" width="50%">
 
 Siin arvutame ka **kvartiilidevahelise ulatuse** IQR=Q3-Q1 ja nn **äärmusväärtused** - väärtused, mis jäävad väljapoole piire [Q1-1.5*IQR,Q3+1.5*IQR].
 
@@ -82,11 +82,11 @@ Kui analüüsime päriselust pärit andmeid, ei ole need sageli otseselt juhusli
 
 Siin on kastdiagramm, mis näitab meie andmete keskmist, mediaani ja kvartiile:
 
-![Kaalude kastdiagramm](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.et.png)
+![Kaalude kastdiagramm](../../../../translated_images/et/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Kuna meie andmed sisaldavad teavet erinevate mängijate **rollide** kohta, saame teha kastdiagrammi ka rolli järgi - see võimaldab meil saada aimu, kuidas parameetrite väärtused rollide lõikes erinevad. Seekord vaatleme pikkust:
 
-![Kastdiagramm rolli järgi](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.et.png)
+![Kastdiagramm rolli järgi](../../../../translated_images/et/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 See diagramm viitab sellele, et esimese baasi mängijate keskmine pikkus on suurem kui teise baasi mängijate keskmine pikkus. Hiljem selles õppetükis õpime, kuidas saame seda hüpoteesi formaalsemalt testida ja kuidas näidata, et meie andmed on statistiliselt olulised selle tõestamiseks.
 
@@ -94,7 +94,7 @@ See diagramm viitab sellele, et esimese baasi mängijate keskmine pikkus on suur
 
 Et näha, milline on meie andmete jaotus, saame joonistada graafiku, mida nimetatakse **histogrammiks**. X-telg sisaldab erinevate kaalude vahemikke (nn **binne**) ja vertikaaltelg näitab, mitu korda meie juhusliku muutuja valim oli antud vahemikus.
 
-![Päriselu andmete histogramm](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.et.png)
+![Päriselu andmete histogramm](../../../../translated_images/et/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Sellest histogrammist näete, et kõik väärtused koonduvad teatud keskmise kaalu ümber ja mida kaugemale me sellest kaalust läheme, seda vähem esineb selle väärtusega kaale. St, on väga ebatõenäoline, et pesapallimängija kaal erineb oluliselt keskmisest kaalust. Kaalude dispersioon näitab, mil määral kaalud tõenäoliselt keskmisest erinevad.
 
@@ -110,7 +110,7 @@ samples = np.random.normal(mean,std,1000)
 
 Kui joonistame genereeritud valimite histogrammi, näeme pilti, mis on väga sarnane ülaltoodud pildiga. Ja kui suurendame valimite arvu ja binide arvu, saame genereerida normaaljaotuse graafiku, mis on ideaalile lähemal:
 
-![Normaaljaotus keskmisega=0 ja standardhälbega=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.et.png)
+![Normaaljaotus keskmisega=0 ja standardhälbega=1](../../../../translated_images/et/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Normaaljaotus keskmisega=0 ja standardhälbega=1*
 
@@ -229,7 +229,7 @@ array([[1.        , 0.52959196],
 
 Meie puhul näitab väärtus 0.53, et kehakaalu ja pikkuse vahel on mingi korrelatsioon. Võime teha ka hajuvusdiagrammi ühe väärtuse kohta teise vastu, et näha seost visuaalselt:
 
-![Seos kehakaalu ja pikkuse vahel](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.et.png)
+![Seos kehakaalu ja pikkuse vahel](../../../../translated_images/et/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Rohkem korrelatsiooni ja kovariatsiooni näiteid leiate [kaasnevast märkmikust](notebook.ipynb).
 

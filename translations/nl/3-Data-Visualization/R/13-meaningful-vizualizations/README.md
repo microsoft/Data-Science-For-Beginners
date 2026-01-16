@@ -47,25 +47,25 @@ In eerdere lessen heb je geëxperimenteerd met het maken van allerlei interessan
 
 Zelfs als een datawetenschapper zorgvuldig het juiste type grafiek kiest, zijn er genoeg manieren waarop data kan worden weergegeven om een punt te bewijzen, vaak ten koste van de integriteit van de data. Er zijn veel voorbeelden van misleidende grafieken en infographics!
 
-[![How Charts Lie door Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.nl.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
+[![How Charts Lie door Alberto Cairo](../../../../../translated_images/nl/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
 > 🎥 Klik op de afbeelding hierboven voor een conferentietoespraak over misleidende grafieken
 
 Deze grafiek keert de X-as om om het tegenovergestelde van de waarheid te tonen, gebaseerd op de datum:
 
-![slechte grafiek 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.nl.png)
+![slechte grafiek 1](../../../../../translated_images/nl/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Deze grafiek](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) is nog misleidender, omdat het oog naar rechts wordt getrokken om te concluderen dat COVID-gevallen in de loop van de tijd zijn afgenomen in verschillende provincies. Als je echter goed naar de data kijkt, zie je dat de datums zijn herschikt om die misleidende dalende trend te creëren.
 
-![slechte grafiek 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.nl.jpg)
+![slechte grafiek 2](../../../../../translated_images/nl/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Dit beruchte voorbeeld gebruikt kleur EN een omgekeerde Y-as om te misleiden: in plaats van te concluderen dat het aantal schietincidenten steeg na de invoering van gun-vriendelijke wetgeving, wordt het oog misleid om te denken dat het tegenovergestelde waar is:
 
-![slechte grafiek 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.nl.jpg)
+![slechte grafiek 3](../../../../../translated_images/nl/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Deze vreemde grafiek laat zien hoe verhoudingen kunnen worden gemanipuleerd, met hilarisch effect:
 
-![slechte grafiek 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.nl.jpg)
+![slechte grafiek 4](../../../../../translated_images/nl/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Het vergelijken van onvergelijkbare zaken is nog een schimmige truc. Er is een [geweldige website](https://tylervigen.com/spurious-correlations) over 'spurious correlations' die 'feiten' toont zoals de correlatie tussen het echtscheidingspercentage in Maine en de consumptie van margarine. Een Reddit-groep verzamelt ook de [lelijke toepassingen](https://www.reddit.com/r/dataisugly/top/?t=all) van data.
 
@@ -100,13 +100,13 @@ Label je assen, geef een legenda indien nodig, en bied tooltips aan voor een bet
 
 Als je data tekstueel en uitgebreid is op de X-as, kun je de tekst schuin zetten voor betere leesbaarheid. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) biedt 3D-plotmogelijkheden als je data dit ondersteunt. Geavanceerde datavisualisaties kunnen hiermee worden gemaakt.
 
-![3d grafieken](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.nl.png)
+![3d grafieken](../../../../../translated_images/nl/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Animatie en 3D-grafiekweergave
 
 Sommige van de beste datavisualisaties van vandaag zijn geanimeerd. Shirley Wu heeft geweldige voorbeelden gemaakt met D3, zoals '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', waarbij elke bloem een visualisatie van een film is. Een ander voorbeeld voor de Guardian is 'bussed out', een interactieve ervaring die visualisaties combineert met Greensock en D3, plus een scrollytelling-artikelformaat om te laten zien hoe NYC omgaat met zijn daklozenprobleem door mensen de stad uit te sturen.
 
-![busing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.nl.png)
+![busing](../../../../../translated_images/nl/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: How America Moves its Homeless" van [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualisaties door Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Hoewel deze les niet diepgaand genoeg is om deze krachtige visualisatiebibliothe
 
 Je voltooit een webapp die een geanimeerd overzicht van dit sociale netwerk weergeeft. Het gebruikt een bibliotheek die is gebouwd om een [visualisatie van een netwerk](https://github.com/emiliorizzo/vue-d3-network) te maken met Vue.js en D3. Wanneer de app draait, kun je de knooppunten op het scherm verplaatsen om de data te herschikken.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.nl.png)
+![liaisons](../../../../../translated_images/nl/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Project: Bouw een grafiek om een netwerk te tonen met D3.js
 

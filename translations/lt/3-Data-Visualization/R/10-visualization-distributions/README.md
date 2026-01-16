@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![maksimalus ilgis pagal būrį](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.lt.png)
+![maksimalus ilgis pagal būrį](../../../../../translated_images/lt/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 Tai suteikia bendrą paukščių kūno ilgio pasiskirstymo pagal būrį apžvalgą, tačiau tai nėra optimalus būdas tikriems pasiskirstymams parodyti. Šią užduotį paprastai atlieka histograma.
 
@@ -57,7 +57,7 @@ Tai suteikia bendrą paukščių kūno ilgio pasiskirstymo pagal būrį apžvalg
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![pasiskirstymas visame duomenų rinkinyje](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.lt.png)
+![pasiskirstymas visame duomenų rinkinyje](../../../../../translated_images/lt/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 Kaip matote, dauguma iš 400+ paukščių šiame duomenų rinkinyje patenka į mažesnę nei 2000 Max Kūno Masės ribą. Gaukite daugiau įžvalgų apie duomenis, pakeisdami `bins` parametrą į didesnį skaičių, pavyzdžiui, 30:
 
@@ -65,7 +65,7 @@ Kaip matote, dauguma iš 400+ paukščių šiame duomenų rinkinyje patenka į m
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![pasiskirstymas su 30 intervalų](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.lt.png)
+![pasiskirstymas su 30 intervalų](../../../../../translated_images/lt/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 Ši diagrama rodo pasiskirstymą šiek tiek detaliau. Mažiau į kairę pasvirusią diagramą būtų galima sukurti užtikrinant, kad pasirinktumėte tik duomenis tam tikrame diapazone:
 
@@ -77,7 +77,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![filtruota histograma](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.lt.png)
+![filtruota histograma](../../../../../translated_images/lt/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ Išbandykite kitus filtrus ir duomenų taškus. Norėdami pamatyti visą duomenų pasiskirstymą, pašalinkite `['MaxBodyMass']` filtrą, kad parodytumėte pažymėtus pasiskirstymus.
 
@@ -91,7 +91,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 Atrodo, kad tarp šių dviejų elementų yra tikėtinas koreliavimas pagal numatomą ašį, su viena ypač stipria susiliejimo vieta:
 
-![2D diagrama](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.lt.png)
+![2D diagrama](../../../../../translated_images/lt/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 Histogramų numatytasis veikimas gerai tinka skaitiniams duomenims. O kas, jei reikia pamatyti pasiskirstymus pagal tekstinius duomenis? 
 ## Tyrinėkite duomenų rinkinį pagal tekstinius duomenis
@@ -122,7 +122,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![sparnų amplitudė ir apsaugos statusas](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.lt.png)
+![sparnų amplitudė ir apsaugos statusas](../../../../../translated_images/lt/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 Atrodo, kad nėra gero koreliavimo tarp minimalaus sparnų amplitudės dydžio ir apsaugos statuso. Išbandykite kitus duomenų rinkinio elementus naudodami šį metodą. Taip pat galite išbandyti skirtingus filtrus. Ar pastebite kokį nors koreliavimą?
 
@@ -136,7 +136,7 @@ Dabar dirbkime su tankio diagramomis!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![tankio diagrama](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.lt.png)
+![tankio diagrama](../../../../../translated_images/lt/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 Galite matyti, kaip ši diagrama atspindi ankstesnę minimalaus sparnų amplitudės duomenų diagramą; ji tiesiog šiek tiek sklandesnė. Jei norėtumėte peržiūrėti tą dantytą MaxBodyMass liniją antroje sukurtoje diagramoje, galėtumėte ją labai gerai išlyginti, naudodami šį metodą:
 
@@ -144,7 +144,7 @@ Galite matyti, kaip ši diagrama atspindi ankstesnę minimalaus sparnų amplitud
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![kūno masės tankis](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.lt.png)
+![kūno masės tankis](../../../../../translated_images/lt/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 Jei norėtumėte sklandžios, bet ne per daug sklandžios linijos, redaguokite `adjust` parametrą:
 
@@ -152,7 +152,7 @@ Jei norėtumėte sklandžios, bet ne per daug sklandžios linijos, redaguokite `
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![mažiau sklandi kūno masė](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.lt.png)
+![mažiau sklandi kūno masė](../../../../../translated_images/lt/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ Perskaitykite apie šio tipo diagramos parametrus ir eksperimentuokite!
 
@@ -162,7 +162,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![kūno masė pagal būrį](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.lt.png)
+![kūno masė pagal būrį](../../../../../translated_images/lt/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 Iššūkis
 

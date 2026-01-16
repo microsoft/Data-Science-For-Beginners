@@ -22,7 +22,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. Εξερευνήστε τον [Κατάλογο](https://planetarycomputer.microsoft.com/catalog) συνόλων δεδομένων - μάθετε τον σκοπό του καθενός.
  3. Χρησιμοποιήστε το Explorer - επιλέξτε ένα σύνολο δεδομένων που σας ενδιαφέρει, επιλέξτε μια σχετική ερώτηση και επιλογή απεικόνισης.
 
-![Το Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.el.png)
+![Το Planetary Computer Explorer](../../../../translated_images/el/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Η Αποστολή σας:`
 Μελετήστε τώρα την οπτικοποίηση που δημιουργείται στον περιηγητή και απαντήστε στα εξής:

@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Travailler avec Python - _Sketchnote par [@nitya](https://twitter.com/nitya)_             |
 
-[![Vidéo d'introduction](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.fr.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Vidéo d'introduction](../../../../translated_images/fr/video-ds-python.245247dc811db8e4.webp)](https://youtu.be/dZjWOGbsN4Y)
 
 Bien que les bases de données offrent des moyens très efficaces de stocker et d'interroger des données à l'aide de langages de requête, la méthode la plus flexible pour traiter les données reste d'écrire son propre programme pour les manipuler. Dans de nombreux cas, effectuer une requête dans une base de données serait plus efficace. Cependant, dans certains cas où un traitement de données plus complexe est nécessaire, cela ne peut pas être facilement réalisé avec SQL.  
 Le traitement des données peut être programmé dans n'importe quel langage, mais certains langages sont plus adaptés au travail avec les données. Les data scientists préfèrent généralement l'un des langages suivants :
@@ -72,7 +72,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```  
-![Graphique de séries temporelles](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.fr.png)
+![Graphique de séries temporelles](../../../../translated_images/fr/timeseries-1.80de678ab1cf727e.webp)
 
 Supposons maintenant que chaque semaine, nous organisons une fête pour nos amis et que nous prenons 10 packs de glaces supplémentaires pour la fête. Nous pouvons créer une autre série, indexée par semaine, pour le démontrer :  
 ```python
@@ -83,7 +83,7 @@ Lorsque nous additionnons deux séries, nous obtenons le total :
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```  
-![Graphique de séries temporelles](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.fr.png)
+![Graphique de séries temporelles](../../../../translated_images/fr/timeseries-2.aae51d575c55181c.webp)
 
 > **Note** : Nous n'utilisons pas la syntaxe simple `total_items+additional_items`. Si nous l'avions fait, nous aurions obtenu de nombreuses valeurs `NaN` (*Not a Number*) dans la série résultante. Cela est dû au fait qu'il manque des valeurs pour certains points d'index dans la série `additional_items`, et additionner `NaN` à quoi que ce soit donne `NaN`. Ainsi, nous devons spécifier le paramètre `fill_value` lors de l'addition.
 
@@ -92,7 +92,7 @@ Avec les séries temporelles, nous pouvons également **reéchantillonner** la s
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```  
-![Moyennes mensuelles des séries temporelles](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.fr.png)
+![Moyennes mensuelles des séries temporelles](../../../../translated_images/fr/timeseries-3.f3147cbc8c624881.webp)
 
 ### DataFrame
 
@@ -218,7 +218,7 @@ Le premier problème sur lequel nous allons nous concentrer est la modélisation
 
 Puisque nous voulons démontrer comment traiter les données, nous vous invitons à ouvrir [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb) et à le lire de haut en bas. Vous pouvez également exécuter les cellules et relever certains défis que nous avons laissés pour vous à la fin.
 
-![Propagation du COVID](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.fr.png)
+![Propagation du COVID](../../../../translated_images/fr/covidspread.f3d131c4f1d260ab.webp)
 
 > Si vous ne savez pas comment exécuter du code dans Jupyter Notebook, consultez [cet article](https://soshnikov.com/education/how-to-execute-notebooks-from-github/).
 
@@ -240,7 +240,7 @@ Un exemple complet d'analyse de ce jeu de données en utilisant le service cogni
 
 Ouvrez [`notebook-papers.ipynb`](notebook-papers.ipynb) et lisez-le de haut en bas. Vous pouvez également exécuter les cellules et relever certains défis que nous avons laissés pour vous à la fin.
 
-![Traitement médical du COVID](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.fr.png)
+![Traitement médical du COVID](../../../../translated_images/fr/covidtreat.b2ba59f57ca45fbc.webp)
 
 ## Traitement des données d'image
 

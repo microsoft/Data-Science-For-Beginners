@@ -25,7 +25,7 @@ Do sada ste vjerojatno shvatili da je podatkovna znanost proces. Taj proces mož
 
 Ova lekcija fokusira se na 3 dijela životnog ciklusa: prikupljanje, obrada i održavanje.
 
-![Dijagram životnog ciklusa podatkovne znanosti](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.hr.jpg)  
+![Dijagram životnog ciklusa podatkovne znanosti](../../../../translated_images/hr/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
 > Fotografija od [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Prikupljanje
@@ -101,7 +101,7 @@ Istražite [Team Data Science Process lifecycle](https://docs.microsoft.com/en-u
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![Team Data Science Lifecycle](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.hr.png) | ![Data Science Process Alliance Image](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.hr.png) |
+|![Team Data Science Lifecycle](../../../../translated_images/hr/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Data Science Process Alliance Image](../../../../translated_images/hr/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Slika od [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Slika od [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Kviz nakon lekcije](https://ff-quizzes.netlify.app/en/ds/quiz/27)

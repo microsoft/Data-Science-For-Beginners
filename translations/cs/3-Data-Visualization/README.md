@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Vizualizace
 
-![včela na květu levandule](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.cs.jpg)
+![včela na květu levandule](../../../translated_images/cs/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Fotografie od <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenny Lee</a> na <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Vizualizace dat je jedním z nejdůležitějších úkolů datového vědce. Obrázky mají hodnotu tisíce slov a vizualizace vám může pomoci identifikovat různé zajímavé aspekty vašich dat, jako jsou výkyvy, odlehlé hodnoty, seskupení, tendence a další, které vám mohou pomoci pochopit příběh, který vaše data vyprávějí.

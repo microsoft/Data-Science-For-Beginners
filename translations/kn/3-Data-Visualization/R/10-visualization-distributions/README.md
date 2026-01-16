@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![max length per order](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.kn.png)
+![max length per order](../../../../../translated_images/kn/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.png)
 
 ಇದು ಪಕ್ಷಿ ಕ್ರಮದ ಪ್ರತಿ ದೇಹ ಉದ್ದದ ಸಾಮಾನ್ಯ ವಿತರಣೆಯ ಅವಲೋಕನವನ್ನು ನೀಡುತ್ತದೆ, ಆದರೆ ಇದು ನಿಜವಾದ ವಿತರಣೆಯನ್ನು ಪ್ರದರ್ಶಿಸಲು ಅತ್ಯುತ್ತಮ ವಿಧಾನವಲ್ಲ. ಆ ಕಾರ್ಯವನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಹಿಸ್ಟೋಗ್ರಾಮ್ ರಚಿಸುವ ಮೂಲಕ ನಿರ್ವಹಿಸಲಾಗುತ್ತದೆ.
 ## ಹಿಸ್ಟೋಗ್ರಾಮ್‌ಗಳೊಂದಿಗೆ ಕೆಲಸ
@@ -56,7 +56,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![distribution over entire dataset](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.kn.png)
+![distribution over entire dataset](../../../../../translated_images/kn/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.png)
 
 ನೀವು ನೋಡಬಹುದು, ಈ ಡೇಟಾಸೆಟ್‌ನ 400+ ಪಕ್ಷಿಗಳ ಬಹುತೇಕವು ಗರಿಷ್ಠ ದೇಹ ಭಾರದ 2000 ಕ್ಕಿಂತ ಕಡಿಮೆ ವ್ಯಾಪ್ತಿಯಲ್ಲಿ ಬರುತ್ತವೆ. `bins` ಪರಿಮಾಣವನ್ನು 30 ರಂತಹ ಹೆಚ್ಚಿನ ಸಂಖ್ಯೆಗೆ ಬದಲಾಯಿಸುವ ಮೂಲಕ ಡೇಟಾದ ಬಗ್ಗೆ ಹೆಚ್ಚಿನ ಒಳನೋಟವನ್ನು ಪಡೆಯಿರಿ:
 
@@ -64,7 +64,7 @@ ggplot(data = birds_filtered, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![distribution-30bins](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.kn.png)
+![distribution-30bins](../../../../../translated_images/kn/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.png)
 
 ಈ ಚಾರ್ಟ್ ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಸೂಕ್ಷ್ಮ ರೀತಿಯಲ್ಲಿ ವಿತರಣೆಯನ್ನು ತೋರಿಸುತ್ತದೆ. ಎಡಕ್ಕೆ ಕಡಿಮೆ ತಿರುವು ಹೊಂದಿರುವ ಚಾರ್ಟ್ ಅನ್ನು ನೀವು ನಿರ್ದಿಷ್ಟ ವ್ಯಾಪ್ತಿಯೊಳಗಿನ ಡೇಟಾವನ್ನು ಮಾತ್ರ ಆಯ್ಕೆಮಾಡುವ ಮೂಲಕ ರಚಿಸಬಹುದು:
 
@@ -76,7 +76,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![filtered histogram](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.kn.png)
+![filtered histogram](../../../../../translated_images/kn/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.png)
 
 ✅ ಇನ್ನಷ್ಟು ಫಿಲ್ಟರ್‌ಗಳು ಮತ್ತು ಡೇಟಾ ಪಾಯಿಂಟ್‌ಗಳನ್ನು ಪ್ರಯತ್ನಿಸಿ. ಡೇಟಾದ ಸಂಪೂರ್ಣ ವಿತರಣೆಯನ್ನು ನೋಡಲು, ಲೇಬಲ್ ಮಾಡಲಾದ ವಿತರಣೆಯನ್ನು ತೋರಿಸಲು `['MaxBodyMass']` ಫಿಲ್ಟರ್ ಅನ್ನು ತೆಗೆದುಹಾಕಿ.
 
@@ -90,7 +90,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 ಈ ಎರಡು ಅಂಶಗಳ ನಡುವೆ ನಿರೀಕ್ಷಿತ ಅಕ್ಷದ ಮೇಲೆ ನಿರೀಕ್ಷಿತ ಸಂಬಂಧವಿದೆ, ಒಂದು ವಿಶೇಷವಾಗಿ ಬಲವಾದ ಸಂಯೋಜನೆಯ ಬಿಂದುವಿನೊಂದಿಗೆ:
 
-![2d plot](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.kn.png)
+![2d plot](../../../../../translated_images/kn/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.png)
 
 ಹಿಸ್ಟೋಗ್ರಾಮ್‌ಗಳು ಸಂಖ್ಯಾತ್ಮಕ ಡೇಟಾಗಾಗಿ ಡೀಫಾಲ್ಟ್‌ನಲ್ಲಿ ಚೆನ್ನಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತವೆ. ಪಠ್ಯ ಡೇಟಾ ಪ್ರಕಾರ ವಿತರಣೆಯನ್ನು ನೋಡಬೇಕಾದರೆ ಏನು ಮಾಡಬೇಕು?
 ## ಪಠ್ಯ ಡೇಟಾ ಬಳಸಿ ವಿತರಣೆಯನ್ನು ಅನ್ವೇಷಿಸಿ
@@ -121,7 +121,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![wingspan and conservation collation](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.kn.png)
+![wingspan and conservation collation](../../../../../translated_images/kn/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.png)
 
 ಕನಿಷ್ಠ ರೆಕ್ಕೆ ವಿಸ್ತಾರ ಮತ್ತು ಸಂರಕ್ಷಣಾ ಸ್ಥಿತಿಯ ನಡುವೆ ಉತ್ತಮ ಸಂಬಂಧವಿಲ್ಲದಂತೆ ತೋರುತ್ತದೆ. ಈ ವಿಧಾನವನ್ನು ಬಳಸಿ ಡೇಟಾಸೆಟ್‌ನ ಇತರ ಅಂಶಗಳನ್ನು ಪರೀಕ್ಷಿಸಿ. ನೀವು ಯಾವುದೇ ಸಂಬಂಧವನ್ನು ಕಂಡುಕೊಳ್ಳುತ್ತೀರಾ?
 
@@ -135,7 +135,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![density plot](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.kn.png)
+![density plot](../../../../../translated_images/kn/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.png)
 
 ನೀವು ನೋಡಬಹುದು, ಈ ಪ್ಲಾಟ್ ಕನಿಷ್ಠ ರೆಕ್ಕೆ ವಿಸ್ತಾರದ ಡೇಟಾಗಾಗಿ ಹಿಂದಿನದನ್ನು ಪ್ರತಿಧ್ವನಿಸುತ್ತದೆ; ಅದು ಸ್ವಲ್ಪ ಸ್ಮೂತ್ ಆಗಿದೆ. ನೀವು ಎರಡನೇ ಚಾರ್ಟ್‌ನಲ್ಲಿ ರಚಿಸಿದ ಜಾಗೃತ MaxBodyMass ರೇಖೆಯನ್ನು ಮರುಸೃಷ್ಟಿಸುವ ಮೂಲಕ ಅದನ್ನು ಚೆನ್ನಾಗಿ ಸ್ಮೂತ್ ಮಾಡಬಹುದು:
 
@@ -143,7 +143,7 @@ ggplot(data = birds_filtered_1, aes(x = MinWingspan)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![bodymass density](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.kn.png)
+![bodymass density](../../../../../translated_images/kn/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.png)
 
 ನೀವು ಸ್ಮೂತ್ ಆದರೆ ತುಂಬಾ ಸ್ಮೂತ್ ಅಲ್ಲದ ರೇಖೆಯನ್ನು ಬಯಸಿದರೆ, `adjust` ಪರಿಮಾಣವನ್ನು ಸಂಪಾದಿಸಿ:
 
@@ -151,7 +151,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![less smooth bodymass](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.kn.png)
+![less smooth bodymass](../../../../../translated_images/kn/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.png)
 
 ✅ ಈ ರೀತಿಯ ಪ್ಲಾಟ್‌ಗೆ ಲಭ್ಯವಿರುವ ಪರಿಮಾಣಗಳ ಬಗ್ಗೆ ಓದಿ ಮತ್ತು ಪ್ರಯೋಗ ಮಾಡಿ!
 
@@ -161,7 +161,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![bodymass per order](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.kn.png)
+![bodymass per order](../../../../../translated_images/kn/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.png)
 
 ## 🚀 ಸವಾಲು
 

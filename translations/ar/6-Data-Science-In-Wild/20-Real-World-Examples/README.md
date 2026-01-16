@@ -41,7 +41,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 * [علم البيانات في الرعاية الصحية](https://data-flair.training/blogs/data-science-in-healthcare/) - يبرز تطبيقات مثل التصوير الطبي (مثل التصوير بالرنين المغناطيسي، الأشعة السينية، التصوير المقطعي)، الجينوميات (تسلسل الحمض النووي)، تطوير الأدوية (تقييم المخاطر، التنبؤ بالنجاح)، التحليلات التنبؤية (رعاية المرضى ولوجستيات الإمداد)، تتبع الأمراض والوقاية منها، إلخ.
 
-![تطبيقات علم البيانات في العالم الحقيقي](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.ar.png) مصدر الصورة: [Data Flair: 6 Amazing Data Science Applications](https://data-flair.training/blogs/data-science-applications/)
+![تطبيقات علم البيانات في العالم الحقيقي](../../../../translated_images/ar/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) مصدر الصورة: [Data Flair: 6 Amazing Data Science Applications](https://data-flair.training/blogs/data-science-applications/)
 
 تُظهر الصورة مجالات وأمثلة أخرى لتطبيق تقنيات علم البيانات. هل تريد استكشاف تطبيقات أخرى؟ تحقق من قسم [المراجعة والدراسة الذاتية](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) أدناه.
 

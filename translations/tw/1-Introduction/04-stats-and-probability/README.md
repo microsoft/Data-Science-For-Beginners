@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 統計學與機率論是數學中高度相關的兩個領域，對於數據科學來說尤為重要。即使在缺乏深厚數學知識的情況下也可以操作數據，但了解一些基本概念仍然是有益的。在這裡，我們將提供一個簡短的介紹，幫助您入門。
 
-[![介紹影片](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.tw.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![介紹影片](../../../../translated_images/tw/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [課前測驗](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +39,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 我們只能討論變數落在某個值區間內的機率，例如 P(t<sub>1</sub>≤X<t<sub>2</sub>)。在這種情況下，機率分佈由 **機率密度函數** p(x) 描述，其滿足以下公式：
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.tw.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/tw/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 連續型均勻分佈是均勻分佈的連續類比，定義在一個有限區間內。變數 X 落入長度為 l 的區間的機率與 l 成正比，並且總和為 1。
 
@@ -82,11 +82,11 @@ CO_OP_TRANSLATOR_METADATA:
 
 以下是顯示我們數據的平均值、中位數和四分位數的箱型圖：
 
-![體重箱型圖](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.tw.png)
+![體重箱型圖](../../../../translated_images/tw/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 由於我們的數據包含不同球員 **角色** 的信息，我們還可以按角色繪製箱型圖——這將幫助我們了解參數值在不同角色之間的差異。這次我們將考慮身高：
 
-![按角色繪製的箱型圖](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.tw.png)
+![按角色繪製的箱型圖](../../../../translated_images/tw/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 這張圖表表明，平均而言，一壘手的身高高於二壘手的身高。在本課程的後面部分，我們將學習如何更正式地檢驗這一假設，以及如何證明我們的數據在統計上具有顯著性。
 
@@ -94,7 +94,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 為了了解我們數據的分佈，我們可以繪製一個稱為 **直方圖** 的圖表。X 軸包含若干不同的體重區間（即 **箱**），而 Y 軸顯示隨機變數樣本落在給定區間內的次數。
 
-![真實世界數據的直方圖](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.tw.png)
+![真實世界數據的直方圖](../../../../translated_images/tw/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 從這個直方圖中可以看出，所有值都集中在某個平均體重附近，距離該體重越遠，該值出現的次數越少。也就是說，棒球運動員的體重與平均體重差異很大的可能性非常小。體重的方差顯示了體重與平均值可能的差異程度。
 
@@ -111,7 +111,7 @@ samples = np.random.normal(mean,std,1000)
 
 如果我們繪製生成樣本的直方圖，我們將看到與上圖非常相似的圖像。如果我們增加樣本數量和箱數，我們可以生成更接近理想的正態分佈圖像：
 
-![平均值=0 和標準差=1 的正態分佈](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.tw.png)
+![平均值=0 和標準差=1 的正態分佈](../../../../translated_images/tw/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *平均值=0 和標準差=1 的正態分佈*
 
@@ -233,7 +233,7 @@ array([[1.        , 0.52959196],
 
 在我們的情況下，值 0.53 表明體重和身高之間存在一定的相關性。我們還可以繪製一個值對另一個值的散點圖，以直觀地查看關係：
 
-![體重與身高的關係](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.tw.png)
+![體重與身高的關係](../../../../translated_images/tw/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > 更多關於相關性和協方差的示例可以在 [附帶的筆記本](notebook.ipynb) 中找到。
 

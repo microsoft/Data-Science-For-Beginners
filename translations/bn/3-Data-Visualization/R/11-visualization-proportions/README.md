@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 দেখুন, একটি পাই চার্ট যা এই ডেটার অনুপাত দেখাচ্ছে এই দুই শ্রেণীর মাশরুম অনুযায়ী। এখানে লেবেলের ক্রম সঠিকভাবে পাওয়া খুবই গুরুত্বপূর্ণ, তাই নিশ্চিত করুন যে লেবেল অ্যারে তৈরি করার সময় ক্রমটি যাচাই করেছেন!
 
-![pie chart](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.bn.png)
+![pie chart](../../../../../translated_images/bn/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## ডোনাট!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![donut chart](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.bn.png)
+![donut chart](../../../../../translated_images/bn/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 এই কোডটি দুটি লাইব্রেরি ব্যবহার করে - ggplot2 এবং webr। webr লাইব্রেরির PieDonut ফাংশন ব্যবহার করে আমরা সহজেই একটি ডোনাট চার্ট তৈরি করতে পারি!
 
@@ -170,7 +170,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 ওয়াফল চার্ট ব্যবহার করে, আপনি স্পষ্টভাবে এই মাশরুম ডেটাসেটের ক্যাপ রঙের অনুপাত দেখতে পারেন। মজার বিষয় হলো, অনেক সবুজ ক্যাপযুক্ত মাশরুম রয়েছে!
 
-![waffle chart](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.bn.png)
+![waffle chart](../../../../../translated_images/bn/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 এই পাঠে, আপনি অনুপাত ভিজ্যুয়ালাইজ করার তিনটি উপায় শিখেছেন। প্রথমে, আপনাকে আপনার ডেটাকে ক্যাটাগরিতে গ্রুপ করতে হবে এবং তারপর সিদ্ধান্ত নিতে হবে কোনটি ডেটা প্রদর্শনের সেরা উপায় - পাই, ডোনাট, বা ওয়াফল। সবগুলোই মজাদার এবং ব্যবহারকারীকে একটি ডেটাসেটের তাৎক্ষণিক স্ন্যাপশট প্রদান করে।
 

@@ -315,7 +315,7 @@ A PR leírásában szerepeljen:
   ```
   ````
   
-- Adj alternatív szöveget a képekhez: `![Alt szöveg](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.hu.png)`  
+- Adj alternatív szöveget a képekhez: `![Alt szöveg](../../translated_images/hu/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Tartsd a sorhosszokat ésszerű határok között (kb. 80-100 karakter)  
 
 ### Python

@@ -67,7 +67,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 ဒီမှာ `ggplot2` package ကို install လုပ်ပြီး `library("ggplot2")` command ကိုအသုံးပြုကာ workspace ထဲသို့ import လုပ်ပါသည်။ ggplot တွင် plot တစ်ခုကိုဖော်ပြရန် `ggplot()` function ကိုအသုံးပြုပြီး dataset, x နှင့် y variable များကို attribute အဖြစ်သတ်မှတ်ပါသည်။ ဒီအခါမှာ line plot ကို plot လုပ်ရန် `geom_line()` function ကိုအသုံးပြုပါသည်။
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.my.png)
+![MaxWingspan-lineplot](../../../../../translated_images/my/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.png)
 
 သင်ဘာတွေသတိထားမိပါသလဲ? အနည်းဆုံး outlier တစ်ခုရှိသလိုပဲ - တောင်ပံအကျယ်တစ်ခုကတော်တော်လေးကြီးတယ်! 2000+ စင်တီမီတာတောင်ပံအကျယ်က 20 မီတာကျော်ရှိတယ် - Minnesota မှာ Pterodactyls တွေရှိနေသလား? စစ်ဆေးကြည့်ရအောင်။
 
@@ -85,7 +85,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 `theme` မှာ angle ကိုသတ်မှတ်ပြီး `xlab()` နှင့် `ylab()` မှာ x နှင့် y axis label များကိုသတ်မှတ်ပါသည်။ `ggtitle()` သည် graph/plot ကိုနာမည်ပေးသည်။
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.my.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/my/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.png)
 
 label များကို 45 ဒီဂရီလှည့်ထားသော်လည်း၊ ဖတ်ရန်အလွန်များနေသည်။ အခြား strategy တစ်ခုကိုစမ်းကြည့်ရအောင်- outlier များကိုသာ label လုပ်ပြီး label များကို chart ထဲမှာထားပါ။ scatter chart ကိုအသုံးပြုကာ label များအတွက်နေရာပိုမိုရရှိစေပါ:
 
@@ -101,7 +101,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 
 သင်ဘာတွေရှာဖွေတွေ့ရှိပါသလဲ?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.my.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/my/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.png)
 
 ## သင့်ဒေတာကို filter လုပ်ပါ
 
@@ -120,7 +120,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```  
 `birds_filtered` ဆိုသော dataframe အသစ်တစ်ခုကိုဖန်တီးပြီး scatter plot တစ်ခုကို plot လုပ်ပါသည်။ outlier များကို filter လုပ်ခြင်းဖြင့် သင့်ဒေတာသည် ပိုမိုညီညွတ်ပြီးနားလည်ရလွယ်ကူလာသည်။
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.my.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/my/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.png)
 
 အနည်းဆုံးတောင်ပံအကျယ်အရ dataset ကိုရှင်းလင်းပြီးနောက်၊ ငှက်များအကြောင်းပိုမိုရှာဖွေကြည့်ရအောင်။
 
@@ -161,7 +161,7 @@ birds_filtered %>% group_by(Category) %>%
 ```  
 ဒီ snippet တွင် [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) နှင့် [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) package များကို install လုပ်ကာ ဒေတာကို manipulate လုပ်ရန်နှင့် group လုပ်ရန်အသုံးပြုသည်။ ငှက်၏ `Category` အပေါ်မူတည်၍ ဒေတာကို group လုပ်ပြီး `MinLength`, `MaxLength`, `MinBodyMass`, `MaxBodyMass`, `MinWingspan`, `MaxWingspan` column များကို summarise လုပ်သည်။ ထို့နောက် `ggplot2` package ကိုအသုံးပြုကာ bar chart ကို plot လုပ်ပြီး category များအတွက်အရောင်များနှင့် label များကိုသတ်မှတ်သည်။
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.my.png)
+![Stacked bar chart](../../../../../translated_images/my/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.png)
 
 ဒီ bar chart သည် များလွန်းသော non-grouped data ကြောင့် မဖတ်နိုင်ပါ။ plot လုပ်လိုသောဒေတာကိုသာရွေးချယ်ရန်လိုအပ်သည်၊ ဒါကြောင့် ငှက်၏ category အပေါ်မူတည်၍ length ကိုကြည့်ရှုပါ။
 
@@ -176,7 +176,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```  
 `Category` column တွင်ရှိသော unique value များကို count လုပ်ပြီး `birds_count` ဆိုသော dataframe အသစ်တစ်ခုထဲသို့ sort လုပ်သည်။ ဒီ sorted data ကို level တူညီအတိုင်း factor လုပ်ကာ sorted ပုံစံဖြင့် plot လုပ်သည်။ `ggplot2` ကိုအသုံးပြုကာ bar chart ကို plot လုပ်သည်။ `coord_flip()` သည် horizontal bar များကို plot လုပ်သည်။
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.my.png)
+![category-length](../../../../../translated_images/my/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.png)
 
 ဒီ bar chart သည် category တစ်ခုစီတွင်ရှိသောငှက်အရေအတွက်ကိုကောင်းစွာမြင်နိုင်စေသည်။ Minnesota တွင် Ducks/Geese/Waterfowl category တွင်ငှက်အများဆုံးရှိသည်ကို တစ်ချက်ကြည့်လိုက်တာနဲ့မြင်နိုင်သည်။ Minnesota သည် '10,000 ရေကန်များ၏မြေ' ဖြစ်သောကြောင့်၊ ဒီအရာသည်အံ့ဩစရာမဟုတ်ပါ။
 
@@ -199,7 +199,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```  
 `birds_filtered` ဒေတာကို `Category` အပေါ်မူတည်၍ group လုပ်ပြီး bar graph ကို plot လုပ်သည်။
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.my.png)
+![comparing data](../../../../../translated_images/my/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.png)
 
 ဒီမှာအံ့ဩစရာမရှိပါ- hummingbirds တွင် Pelicans သို့မဟုတ် Geese နှင့်နှိုင်းယှဉ်ပါက MaxLength အနည်းဆုံးရှိသည်။ ဒေတာသည် logical make sense ဖြစ်သည်မှာကောင်းပါသည်!
 
@@ -211,7 +211,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```  
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.my.png)
+![super-imposed values](../../../../../translated_images/my/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.png)
 
 ## 🚀 စိန်ခေါ်မှု
 

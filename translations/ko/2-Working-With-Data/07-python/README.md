@@ -13,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
 | :-------------------------------------------------------------------------------------------------------: |
 |                 Python 작업하기 - _Sketchnote by [@nitya](https://twitter.com/nitya)_                     |
 
-[![Intro Video](../../../../translated_images/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.ko.png)](https://youtu.be/dZjWOGbsN4Y)
+[![Intro Video](../../../../translated_images/ko/video-ds-python.245247dc811db8e4d5ac420246de8a118c63fd28f6a56578d08b630ae549f260.png)](https://youtu.be/dZjWOGbsN4Y)
 
 데이터베이스는 데이터를 저장하고 쿼리 언어를 사용하여 데이터를 조회하는 데 매우 효율적인 방법을 제공하지만, 데이터 처리를 가장 유연하게 수행하는 방법은 직접 프로그램을 작성하여 데이터를 조작하는 것입니다. 많은 경우 데이터베이스 쿼리가 더 효과적인 방법일 수 있습니다. 하지만 더 복잡한 데이터 처리가 필요한 경우 SQL로 쉽게 처리할 수 없는 경우도 있습니다.  
 데이터 처리는 어떤 프로그래밍 언어로도 작성할 수 있지만, 데이터 작업에 있어 더 높은 수준의 언어들이 있습니다. 데이터 과학자들은 일반적으로 다음 언어들 중 하나를 선호합니다:
@@ -73,7 +73,7 @@ print(f"Length of index is {len(idx)}")
 items_sold = pd.Series(np.random.randint(25,50,size=len(idx)),index=idx)
 items_sold.plot()
 ```
-![Time Series Plot](../../../../translated_images/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.ko.png)
+![Time Series Plot](../../../../translated_images/ko/timeseries-1.80de678ab1cf727e50e00bcf24009fa2b0a8b90ebc43e34b99a345227d28e467.png)
 
 이제 매주 친구들과 파티를 열고 추가로 아이스크림 10팩을 가져간다고 가정해 봅시다. 이를 나타내는 또 다른 시리즈를 생성할 수 있습니다:
 ```python
@@ -84,7 +84,7 @@ additional_items = pd.Series(10,index=pd.date_range(start_date,end_date,freq="W"
 total_items = items_sold.add(additional_items,fill_value=0)
 total_items.plot()
 ```
-![Time Series Plot](../../../../translated_images/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.ko.png)
+![Time Series Plot](../../../../translated_images/ko/timeseries-2.aae51d575c55181ceda81ade8c546a2fc2024f9136934386d57b8a189d7570ff.png)
 
 > **참고**: 단순한 문법 `total_items+additional_items`을 사용하지 않았습니다. 그렇게 하면 결과 시리즈에 많은 `NaN`(*Not a Number*) 값이 생깁니다. 이는 `additional_items` 시리즈의 일부 인덱스 포인트에 값이 없기 때문이며, `NaN`을 다른 값에 더하면 결과는 `NaN`이 됩니다. 따라서 덧셈 중에 `fill_value` 매개변수를 지정해야 합니다.
 
@@ -93,7 +93,7 @@ total_items.plot()
 monthly = total_items.resample("1M").mean()
 ax = monthly.plot(kind='bar')
 ```
-![Monthly Time Series Averages](../../../../translated_images/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.ko.png)
+![Monthly Time Series Averages](../../../../translated_images/ko/timeseries-3.f3147cbc8c624881008564bc0b5d9fcc15e7374d339da91766bd0e1c6bd9e3af.png)
 
 ### 데이터프레임 (DataFrame)
 
@@ -219,7 +219,7 @@ df = pd.read_csv('file.csv')
 
 데이터를 다루는 방법을 보여주기 위해 [`notebook-covidspread.ipynb`](notebook-covidspread.ipynb)를 열어 처음부터 끝까지 읽어보시길 권장합니다. 셀을 실행하고, 마지막에 남겨둔 몇 가지 도전을 수행할 수도 있습니다.
 
-![COVID 확산](../../../../translated_images/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.ko.png)
+![COVID 확산](../../../../translated_images/ko/covidspread.f3d131c4f1d260ab0344d79bac0abe7924598dd754859b165955772e1bd5e8a2.png)
 
 > Jupyter Notebook에서 코드를 실행하는 방법을 모른다면 [이 기사](https://soshnikov.com/education/how-to-execute-notebooks-from-github/)를 참고하세요.
 
@@ -241,7 +241,7 @@ df = pd.read_csv('file.csv')
 
 [`notebook-papers.ipynb`](notebook-papers.ipynb)를 열어 처음부터 끝까지 읽어보세요. 셀을 실행하고, 마지막에 남겨둔 몇 가지 도전을 수행할 수도 있습니다.
 
-![COVID 의료 치료](../../../../translated_images/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.ko.png)
+![COVID 의료 치료](../../../../translated_images/ko/covidtreat.b2ba59f57ca45fbcda36e0ddca3f8cfdddeeed6ca879ea7f866d93fa6ec65791.png)
 
 ## 이미지 데이터 처리
 

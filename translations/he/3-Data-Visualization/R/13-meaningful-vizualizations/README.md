@@ -47,25 +47,25 @@ CO_OP_TRANSLATOR_METADATA:
 
 גם אם מדען נתונים מקפיד לבחור את התרשים הנכון לנתונים הנכונים, יש דרכים רבות שבהן ניתן להציג נתונים באופן שמוכיח נקודה, לעיתים על חשבון הנתונים עצמם. ישנם דוגמאות רבות לתרשימים ואינפוגרפיקות מטעים!
 
-[![איך תרשימים משקרים מאת אלברטו קאירו](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.he.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "איך תרשימים משקרים")
+[![איך תרשימים משקרים מאת אלברטו קאירו](../../../../../translated_images/he/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "איך תרשימים משקרים")
 
 > 🎥 לחץ על התמונה למעלה להרצאה על תרשימים מטעים
 
 התרשים הזה הופך את ציר ה-X כדי להציג את ההפך מהאמת, בהתבסס על תאריך:
 
-![תרשים גרוע 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.he.png)
+![תרשים גרוע 1](../../../../../translated_images/he/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [התרשים הזה](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) אפילו יותר מטעה, שכן העין נמשכת ימינה כדי להסיק שבמהלך הזמן, מקרי הקורונה ירדו במחוזות השונים. למעשה, אם תסתכל מקרוב על התאריכים, תמצא שהם סודרו מחדש כדי ליצור מגמת ירידה מטעה.
 
-![תרשים גרוע 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.he.jpg)
+![תרשים גרוע 2](../../../../../translated_images/he/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 הדוגמה הידועה הזו משתמשת בצבע ובציר Y הפוך כדי להטעות: במקום להסיק שמקרי המוות מנשק עלו לאחר חקיקת חוקים ידידותיים לנשק, למעשה העין מתעתעת לחשוב שההפך הוא הנכון:
 
-![תרשים גרוע 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.he.jpg)
+![תרשים גרוע 3](../../../../../translated_images/he/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 התרשים המוזר הזה מראה כיצד ניתן לתמרן פרופורציות, בצורה משעשעת:
 
-![תרשים גרוע 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.he.jpg)
+![תרשים גרוע 4](../../../../../translated_images/he/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 השוואת דברים שאינם ברי השוואה היא עוד טריק מפוקפק. ישנו [אתר נפלא](https://tylervigen.com/spurious-correlations) שמציג 'קורלציות שגויות' עם 'עובדות' שמקשרות בין דברים כמו שיעור הגירושין במיין לצריכת מרגרינה. קבוצת Reddit גם אוספת את [השימושים המכוערים](https://www.reddit.com/r/dataisugly/top/?t=all) בנתונים.
 
@@ -100,13 +100,13 @@ CO_OP_TRANSLATOR_METADATA:
 
 אם הנתונים שלך הם טקסטואליים ומפורטים בציר ה-X, תוכל להטות את הטקסט לקריאות טובה יותר. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) מציע גרפים תלת-ממדיים, אם הנתונים שלך תומכים בכך. ניתן ליצור ויזואליזציות מתוחכמות באמצעותו.
 
-![גרפים תלת-ממדיים](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.he.png)
+![גרפים תלת-ממדיים](../../../../../translated_images/he/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## אנימציה ותצוגת תרשימים תלת-ממדיים
 
 חלק מהויזואליזציות הטובות ביותר כיום הן מונפשות. שירלי וו יצרה ויזואליזציות מדהימות עם D3, כמו '[פרחי סרטים](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', שבה כל פרח הוא ויזואליזציה של סרט. דוגמה נוספת עבור ה-Guardian היא 'בוסס החוצה', חוויה אינטראקטיבית שמשלבת ויזואליזציות עם Greensock ו-D3 יחד עם פורמט מאמר סקרוליטלי כדי להראות כיצד ניו יורק מתמודדת עם בעיית חסרי הבית שלה על ידי שליחת אנשים מחוץ לעיר.
 
-![בוסס החוצה](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.he.png)
+![בוסס החוצה](../../../../../translated_images/he/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "בוסס החוצה: כיצד אמריקה מזיזה את חסרי הבית שלה" מתוך [הגרדיאן](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). ויזואליזציות מאת נדיה ברמר ושירלי וו
 
@@ -116,7 +116,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 תשלים אפליקציית ווב שתציג תצוגה מונפשת של הרשת החברתית הזו. היא משתמשת בספרייה שנבנתה כדי ליצור [ויזואליזציה של רשת](https://github.com/emiliorizzo/vue-d3-network) באמצעות Vue.js ו-D3. כשהאפליקציה פועלת, תוכל להזיז את הצמתים על המסך כדי לשנות את סידור הנתונים.
 
-![יחסים מסוכנים](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.he.png)
+![יחסים מסוכנים](../../../../../translated_images/he/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## פרויקט: צור תרשים להצגת רשת באמצעות D3.js
 

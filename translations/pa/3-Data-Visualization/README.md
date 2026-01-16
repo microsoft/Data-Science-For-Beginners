@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ਵਿਜੁਅਲਾਈਜ਼ੇਸ਼ਨ
 
-![ਲੈਵੈਂਡਰ ਫੁੱਲ 'ਤੇ ਮੱਖੀ](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.pa.jpg)
+![ਲੈਵੈਂਡਰ ਫੁੱਲ 'ਤੇ ਮੱਖੀ](../../../translated_images/pa/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > ਫੋਟੋ <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ਜੈਨਾ ਲੀ</a> ਦੁਆਰਾ <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ਅਨਸਪਲੈਸ਼</a> 'ਤੇ
 
 ਡਾਟਾ ਨੂੰ ਵਿਜੁਅਲਾਈਜ਼ ਕਰਨਾ ਇੱਕ ਡਾਟਾ ਸਾਇੰਟਿਸਟ ਦੇ ਸਭ ਤੋਂ ਮਹੱਤਵਪੂਰਨ ਕੰਮਾਂ ਵਿੱਚੋਂ ਇੱਕ ਹੈ। ਚਿੱਤਰ 1000 ਸ਼ਬਦਾਂ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ, ਅਤੇ ਵਿਜੁਅਲਾਈਜ਼ੇਸ਼ਨ ਤੁਹਾਨੂੰ ਆਪਣੇ ਡਾਟਾ ਦੇ ਵੱਖ-ਵੱਖ ਦਿਲਚਸਪ ਪੱਖਾਂ ਜਿਵੇਂ ਕਿ ਸਪਾਈਕਸ, ਆਉਟਲਾਇਰਜ਼, ਗਰੁੱਪਿੰਗ, ਰੁਝਾਨ ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ ਦੀ ਪਛਾਣ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦੀ ਹੈ, ਜੋ ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਡਾਟਾ ਦੀ ਕਹਾਣੀ ਨੂੰ ਸਮਝਣ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ।

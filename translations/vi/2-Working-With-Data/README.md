@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Làm việc với Dữ liệu
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.vi.jpg)
+![data love](../../../translated_images/vi/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Ảnh của <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> trên <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Trong các bài học này, bạn sẽ tìm hiểu một số cách mà dữ liệu có thể được quản lý, xử lý và sử dụng trong các ứng dụng. Bạn sẽ học về cơ sở dữ liệu quan hệ và phi quan hệ, cũng như cách dữ liệu có thể được lưu trữ trong chúng. Bạn sẽ nắm được các kiến thức cơ bản về cách làm việc với Python để quản lý dữ liệu, và khám phá một số cách mà Python có thể được sử dụng để quản lý và khai thác dữ liệu.

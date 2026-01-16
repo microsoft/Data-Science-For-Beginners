@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ದೃಶ್ಯೀಕರಣಗಳು
 
-![ಲ್ಯಾವೆಂಡರ್ ಹೂವಿನ ಮೇಲೆ ಒಂದು ಜೇನುತುಪ್ಪ](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.kn.jpg)
+![ಲ್ಯಾವೆಂಡರ್ ಹೂವಿನ ಮೇಲೆ ಒಂದು ಜೇನುತುಪ್ಪ](../../../translated_images/kn/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > ಫೋಟೋ <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ಜೆನ್ನಾ ಲೀ</a> ಅವರಿಂದ <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ಅನ್ಸ್ಪ್ಲ್ಯಾಶ್</a> ನಲ್ಲಿ
 
 

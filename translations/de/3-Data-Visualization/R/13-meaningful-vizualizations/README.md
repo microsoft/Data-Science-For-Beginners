@@ -47,25 +47,25 @@ In den vorherigen Lektionen haben Sie mit Matplotlib und Seaborn verschiedene in
 
 Selbst wenn ein Data Scientist sorgfältig den richtigen Diagrammtyp für die richtigen Daten auswählt, gibt es viele Möglichkeiten, wie Daten so dargestellt werden können, dass sie eine bestimmte Aussage unterstützen – oft auf Kosten der Datenintegrität. Es gibt viele Beispiele für irreführende Diagramme und Infografiken!
 
-[![Wie Diagramme lügen von Alberto Cairo](../../../../../translated_images/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.de.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Wie Diagramme lügen")
+[![Wie Diagramme lügen von Alberto Cairo](../../../../../translated_images/de/tornado.2880ffc7f135f82b5e5328624799010abefd1080ae4b7ecacbdc7d792f1d8849.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "Wie Diagramme lügen")
 
 > 🎥 Klicken Sie auf das Bild oben, um einen Vortrag über irreführende Diagramme anzusehen.
 
 Dieses Diagramm kehrt die X-Achse um, um das Gegenteil der Wahrheit basierend auf dem Datum darzustellen:
 
-![schlechtes Diagramm 1](../../../../../translated_images/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.de.png)
+![schlechtes Diagramm 1](../../../../../translated_images/de/bad-chart-1.596bc93425a8ac301a28b8361f59a970276e7b961658ce849886aa1fed427341.png)
 
 [Dieses Diagramm](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) ist noch irreführender, da das Auge nach rechts gezogen wird, um zu schließen, dass die COVID-Fälle in den verschiedenen Bezirken im Laufe der Zeit zurückgegangen sind. Tatsächlich wurden die Daten jedoch so umgeordnet, dass ein irreführender Abwärtstrend entsteht.
 
-![schlechtes Diagramm 2](../../../../../translated_images/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.de.jpg)
+![schlechtes Diagramm 2](../../../../../translated_images/de/bad-chart-2.62edf4d2f30f4e519f5ef50c07ce686e27b0196a364febf9a4d98eecd21f9f60.jpg)
 
 Dieses berüchtigte Beispiel verwendet Farbe UND eine umgekehrte Y-Achse, um zu täuschen: Statt zu zeigen, dass die Zahl der Waffentoten nach der Verabschiedung waffenfreundlicher Gesetze gestiegen ist, wird das Auge getäuscht, das Gegenteil zu glauben:
 
-![schlechtes Diagramm 3](../../../../../translated_images/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.de.jpg)
+![schlechtes Diagramm 3](../../../../../translated_images/de/bad-chart-3.e201e2e915a230bc2cde289110604ec9abeb89be510bd82665bebc1228258972.jpg)
 
 Dieses seltsame Diagramm zeigt, wie Proportionen manipuliert werden können – mit komischem Effekt:
 
-![schlechtes Diagramm 4](../../../../../translated_images/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.de.jpg)
+![schlechtes Diagramm 4](../../../../../translated_images/de/bad-chart-4.8872b2b881ffa96c3e0db10eb6aed7793efae2cac382c53932794260f7bfff07.jpg)
 
 Das Vergleichen von Unvergleichbarem ist ein weiterer fragwürdiger Trick. Es gibt eine [wunderbare Website](https://tylervigen.com/spurious-correlations), die sich mit "spurious correlations" beschäftigt und "Fakten" zeigt, die Dinge wie die Scheidungsrate in Maine und den Margarineverbrauch korrelieren. Eine Reddit-Gruppe sammelt auch die [hässlichen Anwendungen](https://www.reddit.com/r/dataisugly/top/?t=all) von Daten.
 
@@ -100,13 +100,13 @@ Beschriften Sie Ihre Achsen, fügen Sie bei Bedarf eine Legende hinzu und bieten
 
 Wenn Ihre Daten textlastig und ausführlich auf der X-Achse sind, können Sie den Text für eine bessere Lesbarkeit schräg stellen. [plot3D](https://cran.r-project.org/web/packages/plot3D/index.html) bietet 3D-Diagramme, wenn Ihre Daten dies unterstützen. Mit dieser Bibliothek können anspruchsvolle Datenvisualisierungen erstellt werden.
 
-![3D-Diagramme](../../../../../translated_images/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.de.png)
+![3D-Diagramme](../../../../../translated_images/de/3d.db1734c151eee87d924989306a00e23f8cddac6a0aab122852ece220e9448def.png)
 
 ## Animation und 3D-Diagramme
 
 Einige der besten Datenvisualisierungen heutzutage sind animiert. Shirley Wu hat beeindruckende Visualisierungen mit D3 erstellt, wie z. B. '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', bei denen jede Blume eine Visualisierung eines Films darstellt. Ein weiteres Beispiel für den Guardian ist 'bussed out', eine interaktive Erfahrung, die Visualisierungen mit Greensock und D3 kombiniert und ein Scrollytelling-Artikel-Format verwendet, um zu zeigen, wie NYC mit seinem Obdachlosenproblem umgeht, indem Menschen aus der Stadt geschickt werden.
 
-![bussing](../../../../../translated_images/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.de.png)
+![bussing](../../../../../translated_images/de/busing.8157cf1bc89a3f65052d362a78c72f964982ceb9dcacbe44480e35909c3dce62.png)
 
 > "Bussed Out: How America Moves its Homeless" vom [Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualisierungen von Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Auch wenn diese Lektion nicht ausreicht, um diese leistungsstarken Visualisierun
 
 Sie werden eine Web-App abschließen, die eine animierte Ansicht dieses sozialen Netzwerks anzeigt. Sie verwendet eine Bibliothek, die erstellt wurde, um ein [Netzwerk zu visualisieren](https://github.com/emiliorizzo/vue-d3-network) mit Vue.js und D3. Wenn die App läuft, können Sie die Knoten auf dem Bildschirm verschieben, um die Daten neu anzuordnen.
 
-![liaisons](../../../../../translated_images/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.de.png)
+![liaisons](../../../../../translated_images/de/liaisons.90ce7360bcf8476558f700bbbaf198ad697d5b5cb2829ba141a89c0add7c6ecd.png)
 
 ## Projekt: Ein Diagramm zur Darstellung eines Netzwerks mit D3.js erstellen
 

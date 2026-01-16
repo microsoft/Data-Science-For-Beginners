@@ -51,7 +51,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.de.png)
+![scatterplot 1](../../../../../translated_images/de/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 Zeige nun dieselben Daten mit einem honigfarbenen Farbschema, um zu verdeutlichen, wie sich der Preis im Laufe der Jahre entwickelt hat. Dies kannst du erreichen, indem du den Parameter 'scale_color_gradientn' hinzufügst, um die Veränderung Jahr für Jahr darzustellen:
 
@@ -61,7 +61,7 @@ Zeige nun dieselben Daten mit einem honigfarbenen Farbschema, um zu verdeutliche
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.de.png)
+![scatterplot 2](../../../../../translated_images/de/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 Mit dieser Farbänderung kannst du deutlich erkennen, dass es im Laufe der Jahre eine starke Preissteigerung pro Pfund Honig gibt. Wenn du beispielsweise einen bestimmten Bundesstaat wie Arizona betrachtest, kannst du ein Muster von Preissteigerungen Jahr für Jahr erkennen, mit wenigen Ausnahmen:
 
@@ -92,7 +92,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Du kannst sehen, dass die Größe der Punkte allmählich zunimmt.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.de.png)
+![scatterplot 3](../../../../../translated_images/de/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 Ist dies ein einfacher Fall von Angebot und Nachfrage? Aufgrund von Faktoren wie Klimawandel und dem Zusammenbruch von Bienenvölkern – gibt es Jahr für Jahr weniger Honig zu kaufen, und daher steigen die Preise?
 
@@ -107,7 +107,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Antwort: Ja, mit einigen Ausnahmen um das Jahr 2003:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.de.png)
+![line chart 1](../../../../../translated_images/de/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 Frage: Gab es im Jahr 2003 auch einen Anstieg des Honigangebots? Was ist, wenn du die Gesamtproduktion Jahr für Jahr betrachtest?
 
@@ -115,7 +115,7 @@ Frage: Gab es im Jahr 2003 auch einen Anstieg des Honigangebots? Was ist, wenn d
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.de.png)
+![line chart 2](../../../../../translated_images/de/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 Antwort: Nicht wirklich. Wenn du die Gesamtproduktion betrachtest, scheint sie in diesem Jahr tatsächlich gestiegen zu sein, obwohl die Honigproduktion im Allgemeinen in diesen Jahren rückläufig ist.
 
@@ -135,7 +135,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 In dieser Visualisierung kannst du den Ertrag pro Volk und die Anzahl der Völker Jahr für Jahr nebeneinander vergleichen, wobei die Wrap-Einstellung auf 3 Spalten gesetzt ist:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.de.png)
+![facet grid](../../../../../translated_images/de/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 Für diesen Datensatz fällt nichts Besonderes in Bezug auf die Anzahl der Völker und deren Ertrag Jahr für Jahr und Bundesstaat für Bundesstaat auf. Gibt es eine andere Möglichkeit, eine Korrelation zwischen diesen beiden Variablen zu finden?
 
@@ -152,7 +152,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.de.png)
+![superimposed plots](../../../../../translated_images/de/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 Auch wenn nichts um das Jahr 2003 ins Auge springt, können wir diese Lektion mit einer etwas erfreulicheren Note beenden: Während die Gesamtzahl der Bienenvölker insgesamt abnimmt, stabilisiert sich die Anzahl der Völker, auch wenn ihr Ertrag pro Volk sinkt.
 

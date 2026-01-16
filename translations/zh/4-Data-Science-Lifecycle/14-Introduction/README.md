@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 本课程重点讲解生命周期中的三个部分：数据捕获、数据处理和数据维护。
 
-![数据科学生命周期图示](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.zh.jpg)
+![数据科学生命周期图示](../../../../translated_images/zh/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > 图片来源：[伯克利信息学院](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## 数据捕获
@@ -98,7 +98,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |团队数据科学过程 (TDSP)|跨行业数据挖掘标准过程 (CRISP-DM)|
 |--|--|
-|![团队数据科学生命周期](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.zh.png) | ![数据科学过程联盟图片](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.zh.png) |
+|![团队数据科学生命周期](../../../../translated_images/zh/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![数据科学过程联盟图片](../../../../translated_images/zh/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | 图片来源：[Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | 图片来源：[数据科学过程联盟](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [课后测验](https://ff-quizzes.netlify.app/en/ds/quiz/27)

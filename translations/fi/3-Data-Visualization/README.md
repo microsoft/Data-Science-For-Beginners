@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualisoinnit
 
-![mehiläinen laventelikukassa](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.fi.jpg)
+![mehiläinen laventelikukassa](../../../translated_images/fi/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.jpg)
 > Kuva: <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> palvelussa <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Datan visualisointi on yksi data-analyytikon tärkeimmistä tehtävistä. Kuva kertoo enemmän kuin tuhat sanaa, ja visualisointi voi auttaa sinua tunnistamaan kaikenlaisia mielenkiintoisia piirteitä datassasi, kuten piikkejä, poikkeamia, ryhmittymiä, suuntauksia ja paljon muuta, jotka auttavat sinua ymmärtämään, mitä tarinaa datasi yrittää kertoa.

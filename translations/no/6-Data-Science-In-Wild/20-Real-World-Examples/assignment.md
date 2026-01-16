@@ -22,7 +22,7 @@ Grensesnittet til Explorer (vist i skjermbildet nedenfor) lar deg velge et datas
  2. Utforsk datasettkatalogen [Catalog](https://planetarycomputer.microsoft.com/catalog) - lær formålet med hvert datasett.
  3. Bruk Explorer - velg et datasett som interesserer deg, velg en relevant spørring og visningsmetode.
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.no.png)
+![The Planetary Computer Explorer](../../../../translated_images/no/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Din oppgave:`
 Studer nå visualiseringen som vises i nettleseren og svar på følgende:

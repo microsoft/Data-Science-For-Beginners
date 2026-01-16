@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # データサイエンスライフサイクル
 
-![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.ja.jpg)
+![communication](../../../translated_images/ja/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
 > 写真提供：<a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a>、<a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 このレッスンでは、データサイエンスのライフサイクルのいくつかの側面、特にデータの分析やコミュニケーションについて学びます。

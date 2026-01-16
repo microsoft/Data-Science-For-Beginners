@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # ಡೇಟಾ ಜೊತೆಗೆ ಕೆಲಸ ಮಾಡುವುದು
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.kn.jpg)
+![data love](../../../translated_images/kn/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > ಫೋಟೋ <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ಅಲೆಕ್ಸಾಂಡರ್ ಸಿನ್</a> ಅವರಿಂದ <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ಅನ್ಸ್ಪ್ಲ್ಯಾಶ್</a> ನಲ್ಲಿ
   
 ಈ ಪಾಠಗಳಲ್ಲಿ, ಡೇಟಾವನ್ನು ನಿರ್ವಹಿಸುವ, ತಿದ್ದುಪಡಿ ಮಾಡುವ ಮತ್ತು ಅಪ್ಲಿಕೇಶನ್‌ಗಳಲ್ಲಿ ಬಳಸುವ ಕೆಲವು ವಿಧಾನಗಳನ್ನು ನೀವು ಕಲಿಯುತ್ತೀರಿ. ಸಂಬಂಧಿತ ಮತ್ತು ಅಸಂಬಂಧಿತ ಡೇಟಾಬೇಸ್‌ಗಳ ಬಗ್ಗೆ ಮತ್ತು ಅವುಗಳಲ್ಲಿ ಡೇಟಾವನ್ನು ಹೇಗೆ ಸಂಗ್ರಹಿಸಬಹುದು ಎಂಬುದನ್ನು ನೀವು ತಿಳಿದುಕೊಳ್ಳುತ್ತೀರಿ. ಡೇಟಾವನ್ನು ನಿರ್ವಹಿಸಲು ಪೈಥಾನ್‌ನೊಂದಿಗೆ ಕೆಲಸ ಮಾಡುವ ಮೂಲಭೂತಗಳನ್ನು ನೀವು ಕಲಿಯುತ್ತೀರಿ ಮತ್ತು ಪೈಥಾನ್‌ನೊಂದಿಗೆ ಡೇಟಾವನ್ನು ನಿರ್ವಹಿಸುವ ಮತ್ತು ಗಣನೆ ಮಾಡುವ ಅನೇಕ ವಿಧಾನಗಳನ್ನು ನೀವು ಕಂಡುಹಿಡಿಯುತ್ತೀರಿ.  

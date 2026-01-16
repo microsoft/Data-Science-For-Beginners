@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # 雲端中的數據科學
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.hk.jpg)
+![cloud-picture](../../../translated_images/hk/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.jpg)
 
 > 圖片來源：[Jelleke Vanooteghem](https://unsplash.com/@ilumire) 來自 [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 當涉及到使用大數據進行數據科學時，雲端可以成為改變遊戲規則的關鍵。在接下來的三節課中，我們將了解什麼是雲端以及為什麼它非常有用。我們還將探索一個心臟衰竭數據集，並建立一個模型來幫助評估某人發生心臟衰竭的可能性。我們將利用雲端的強大功能來訓練、部署和以兩種不同的方式使用模型。一種方式是僅使用用戶界面，以低代碼/無代碼的方式進行；另一種方式是使用 Azure 機器學習軟件開發工具包 (Azure ML SDK)。
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.hk.png)
+![project-schema](../../../translated_images/hk/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.png)
 
 ### 主題
 

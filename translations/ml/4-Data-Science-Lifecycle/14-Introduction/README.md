@@ -25,7 +25,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ഈ പാഠം ലൈഫ്‌സൈക്കിളിന്റെ 3 ഭാഗങ്ങളായ പിടിച്ചെടുക്കൽ, പ്രോസസ്സിംഗ്, പരിപാലനം എന്നിവയിൽ കേന്ദ്രീകരിക്കുന്നു.
 
-![Diagram of the data science lifecycle](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.ml.jpg)
+![Diagram of the data science lifecycle](../../../../translated_images/ml/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)
 > ഫോട്ടോ: [ബർക്ക്ലി സ്കൂൾ ഓഫ് ഇൻഫർമേഷൻ](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## പിടിച്ചെടുക്കൽ
@@ -97,7 +97,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 |ടീം ഡാറ്റാ സയൻസ് പ്രോസസ് (TDSP)|ക്രോസ്-ഇൻഡസ്ട്രി സ്റ്റാൻഡേർഡ് പ്രോസസ് ഫോർ ഡാറ്റ മൈനിംഗ് (CRISP-DM)|
 |--|--|
-|![Team Data Science Lifecycle](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.ml.png) | ![Data Science Process Alliance Image](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.ml.png) |
+|![Team Data Science Lifecycle](../../../../translated_images/ml/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Data Science Process Alliance Image](../../../../translated_images/ml/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | ചിത്രം: [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | ചിത്രം: [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [പോസ്റ്റ്-ലെക്ചർ ക്വിസ്](https://ff-quizzes.netlify.app/en/ds/quiz/27)

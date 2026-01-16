@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Видео за определение на науката за данни](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.bg.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Видео за определение на науката за данни](../../../../translated_images/bg/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Тест преди лекцията](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -151,7 +151,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 В това предизвикателство ще се опитаме да намерим концепции, свързани с областта на науката за данни, като разгледаме текстове. Ще вземем статия от Wikipedia за науката за данни, ще изтеглим и обработим текста, и след това ще създадем облак от думи като този:
 
-![Облак от думи за науката за данни](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.bg.png)
+![Облак от думи за науката за данни](../../../../translated_images/bg/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Посетете [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore'), за да разгледате кода. Можете също така да изпълните кода и да видите как той извършва всички трансформации на данни в реално време.
 

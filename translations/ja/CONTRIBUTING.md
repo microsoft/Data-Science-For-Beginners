@@ -311,7 +311,7 @@ PR説明には以下を含めてください：
   import pandas as pd
   ```
   ````
-- 画像に代替テキストを追加：`![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.ja.png)`
+- 画像に代替テキストを追加：`![Alt text](../../translated_images/ja/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - 行の長さを適度に保つ（約80〜100文字）
 
 ### Python
