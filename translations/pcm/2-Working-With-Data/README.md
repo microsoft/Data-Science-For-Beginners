@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # How to Work with Data
 
-![data love](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.pcm.jpg)
+![data love](../../../translated_images/pcm/data-love.a22ef29e6742c852.webp)
 > Foto by <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> for <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 For dis lessons, you go sabi some ways wey you fit take manage, change, and use data for apps. You go learn about relational and non-relational databases and how data fit dey store inside dem. You go sabi di basics of how to use Python to manage data, and you go see plenty ways wey you fit use Python to manage and find data.

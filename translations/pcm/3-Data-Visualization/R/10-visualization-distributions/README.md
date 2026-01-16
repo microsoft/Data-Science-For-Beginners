@@ -45,7 +45,7 @@ ggplot(data=birds_filtered, aes(x=Order, y=MaxLength,group=1)) +
   geom_point() +
   ggtitle("Max Length per order") + coord_flip()
 ```
-![max length per order](../../../../../translated_images/max-length-per-order.e5b283d952c78c12b091307c5d3cf67132dad6fefe80a073353b9dc5c2bd3eb8.pcm.png)
+![max length per order](../../../../../translated_images/pcm/max-length-per-order.e5b283d952c78c12.webp)
 
 Dis one dey show di general spread of body length per bird Order, but e no be di best way to show true distributions. Di better way na to use Histogram.
 
@@ -57,7 +57,7 @@ Dis one dey show di general spread of body length per bird Order, but e no be di
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + 
   geom_histogram(bins=10)+ylab('Frequency')
 ```
-![distribution over entire dataset](../../../../../translated_images/distribution-over-the-entire-dataset.d22afd3fa96be854e4c82213fedec9e3703cba753d07fad4606aadf58cf7e78e.pcm.png)
+![distribution over entire dataset](../../../../../translated_images/pcm/distribution-over-the-entire-dataset.d22afd3fa96be854.webp)
 
 As you fit see, most of di 400+ birds for dis dataset dey fall for di range wey dey under 2000 for dia Max Body Mass. You fit sabi more about di data by changin di `bins` parameter to higher number, like 30:
 
@@ -65,7 +65,7 @@ As you fit see, most of di 400+ birds for dis dataset dey fall for di range wey 
 ggplot(data = birds_filtered, aes(x = MaxBodyMass)) + geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![distribution-30bins](../../../../../translated_images/distribution-30bins.6a3921ea7a421bf71f06bf5231009e43d1146f1b8da8dc254e99b5779a4983e5.pcm.png)
+![distribution-30bins](../../../../../translated_images/pcm/distribution-30bins.6a3921ea7a421bf7.webp)
 
 Dis chart dey show di spread in more detailed way. You fit create chart wey no go dey too skewed to di left by makin sure say you only select data wey dey inside one given range:
 
@@ -77,7 +77,7 @@ ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) +
   geom_histogram(bins=30)+ylab('Frequency')
 ```
 
-![filtered histogram](../../../../../translated_images/filtered-histogram.6bf5d2bfd82533220e1bd4bc4f7d14308f43746ed66721d9ec8f460732be6674.pcm.png)
+![filtered histogram](../../../../../translated_images/pcm/filtered-histogram.6bf5d2bfd8253322.webp)
 
 ✅ Try some other filters and data points. To see di full spread of di data, remove di `['MaxBodyMass']` filter to show labeled distributions.
 
@@ -91,7 +91,7 @@ ggplot(data=birds_filtered_1, aes(x=MaxBodyMass, y=MaxLength) ) +
 ```
 E be like say di correlation wey dey between dis two elements dey follow di expected axis, with one strong point of convergence:
 
-![2d plot](../../../../../translated_images/2d-plot.c504786f439bd7ebceebf2465c70ca3b124103e06c7ff7214bf24e26f7aec21e.pcm.png)
+![2d plot](../../../../../translated_images/pcm/2d-plot.c504786f439bd7eb.webp)
 
 Histograms dey work well for numeric data by default. But wetin if you wan see how text data dey spread? 
 ## Explore di dataset for distributions usin text data 
@@ -122,7 +122,7 @@ ggplot(data=birds_filtered_1, aes(x = MinWingspan, fill = ConservationStatus)) +
   scale_fill_manual(name="Conservation Status",values=c("red","green","blue","pink"),labels=c("Endangered","Near Threathened","Vulnerable","Least Concern"))
 ```
 
-![wingspan and conservation collation](../../../../../translated_images/wingspan-conservation-collation.4024e9aa6910866aa82f0c6cb6a6b4b925bd10079e6b0ef8f92eefa5a6792f76.pcm.png)
+![wingspan and conservation collation](../../../../../translated_images/pcm/wingspan-conservation-collation.4024e9aa6910866a.webp)
 
 E no dey look like say good correlation dey between minimum wingspan and conservation status. Test other elements for di dataset usin dis method. You fit try different filters too. You see any correlation?
 
@@ -136,7 +136,7 @@ Make we work with density plot now!
 ggplot(data = birds_filtered_1, aes(x = MinWingspan)) + 
   geom_density()
 ```
-![density plot](../../../../../translated_images/density-plot.675ccf865b76c690487fb7f69420a8444a3515f03bad5482886232d4330f5c85.pcm.png)
+![density plot](../../../../../translated_images/pcm/density-plot.675ccf865b76c690.webp)
 
 You fit see how di plot dey resemble di previous one for Minimum Wingspan data; e just dey smoother small. If you wan revisit dat jagged MaxBodyMass line for di second chart wey you build, you fit smooth am well by recreatin am usin dis method:
 
@@ -144,7 +144,7 @@ You fit see how di plot dey resemble di previous one for Minimum Wingspan data; 
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density()
 ```
-![bodymass density](../../../../../translated_images/bodymass-smooth.d31ce526d82b0a1f19a073815dea28ecfbe58145ec5337e4ef7e8cdac81120b3.pcm.png)
+![bodymass density](../../../../../translated_images/pcm/bodymass-smooth.d31ce526d82b0a1f.webp)
 
 If you wan smooth line wey no go too smooth, edit di `adjust` parameter: 
 
@@ -152,7 +152,7 @@ If you wan smooth line wey no go too smooth, edit di `adjust` parameter:
 ggplot(data = birds_filtered_1, aes(x = MaxBodyMass)) + 
   geom_density(adjust = 1/5)
 ```
-![less smooth bodymass](../../../../../translated_images/less-smooth-bodymass.10f4db8b683cc17d17b2d33f22405413142004467a1493d416608dafecfdee23.pcm.png)
+![less smooth bodymass](../../../../../translated_images/pcm/less-smooth-bodymass.10f4db8b683cc17d.webp)
 
 ✅ Read about di parameters wey dey available for dis type of plot and experiment!
 
@@ -162,7 +162,7 @@ Dis type of chart dey offer better explanatory visualizations. With few lines of
 ggplot(data=birds_filtered_1,aes(x = MaxBodyMass, fill = Order)) +
   geom_density(alpha=0.5)
 ```
-![bodymass per order](../../../../../translated_images/bodymass-per-order.9d2b065dd931b928c839d8cdbee63067ab1ae52218a1b90717f4bc744354f485.pcm.png)
+![bodymass per order](../../../../../translated_images/pcm/bodymass-per-order.9d2b065dd931b928.webp)
 
 ## 🚀 Challenge
 

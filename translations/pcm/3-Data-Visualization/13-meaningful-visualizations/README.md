@@ -47,25 +47,25 @@ For the lessons wey you don do before, you don try different types of data visua
 
 Even if data scientist choose the correct chart for the correct data, e still get plenty ways wey person fit show data wey go make e look like e dey prove one point, but e go dey spoil the data truth. E get many examples of charts and infographics wey dey deceive!
 
-[![How Charts Lie by Alberto Cairo](../../../../translated_images/tornado.9f42168791208f970d6faefc11d1226d7ca89518013b14aa66b1c9edcd7678d2.pcm.png)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
+[![How Charts Lie by Alberto Cairo](../../../../translated_images/pcm/tornado.9f42168791208f97.webp)](https://www.youtube.com/watch?v=oX74Nge8Wkw "How charts lie")
 
 > 🎥 Click the image above to watch conference talk about charts wey dey deceive
 
 This chart turn the X axis upside down to show opposite of wetin really happen, based on date:
 
-![bad chart 1](../../../../translated_images/bad-chart-1.93130f495b748bedfb3423d91b1e754d9026e17f94ad967aecdc9ca7203373bf.pcm.png)
+![bad chart 1](../../../../translated_images/pcm/bad-chart-1.93130f495b748bed.webp)
 
 [This chart](https://media.firstcoastnews.com/assets/WTLV/images/170ae16f-4643-438f-b689-50d66ca6a8d8/170ae16f-4643-438f-b689-50d66ca6a8d8_1140x641.jpg) dey even more deceptive, because e go make your eye think say COVID cases don reduce for different counties. But if you look the dates well, you go see say dem don rearrange am to make e look like e dey go down.
 
-![bad chart 2](../../../../translated_images/bad-chart-2.c20e36dd4e6f617c0c325878dd421a563885bbf30a394884c147438827254e0e.pcm.jpg)
+![bad chart 2](../../../../translated_images/pcm/bad-chart-2.c20e36dd4e6f617c.webp)
 
 This popular example use color AND turn the Y axis upside down to deceive: instead of showing say gun deaths increase after dem pass gun-friendly law, e go make your eye think say na opposite happen:
 
-![bad chart 3](../../../../translated_images/bad-chart-3.6865d0afac4108d737558d90a61547d23a8722896397ec792264ee51a1be4be5.pcm.jpg)
+![bad chart 3](../../../../translated_images/pcm/bad-chart-3.6865d0afac4108d7.webp)
 
 This funny chart show how proportion fit dey manipulated, e go even make you laugh:
 
-![bad chart 4](../../../../translated_images/bad-chart-4.68cfdf4011b454471053ee1231172747e1fbec2403b4443567f1dc678134f4f2.pcm.jpg)
+![bad chart 4](../../../../translated_images/pcm/bad-chart-4.68cfdf4011b45447.webp)
 
 Another bad trick na to compare things wey no suppose dey compared. E get [one nice website](https://tylervigen.com/spurious-correlations) wey dey show 'spurious correlations' wey dey connect things like divorce rate for Maine and margarine consumption. Reddit group also dey collect [bad examples](https://www.reddit.com/r/dataisugly/top/?t=all) of how people dey use data.
 
@@ -100,13 +100,13 @@ Label your axes, add legend if e dey necessary, and give tooltips to help people
 
 If your data dey text form and e long for the X axis, you fit angle the text make e easy to read. [Matplotlib](https://matplotlib.org/stable/tutorials/toolkits/mplot3d.html) fit help you do 3D plotting if your data fit work for am. You fit use `mpl_toolkits.mplot3d` to make advanced data visualizations.
 
-![3d plots](../../../../translated_images/3d.0cec12bcc60f0ce7284c63baed1411a843e24716f7d7425de878715ebad54a15.pcm.png)
+![3d plots](../../../../translated_images/pcm/3d.0cec12bcc60f0ce7.webp)
 
 ## Animation and 3D chart display
 
 Some of the best data visualizations wey we get today dey animated. Shirley Wu don make amazing ones with D3, like '[film flowers](http://bl.ocks.org/sxywu/raw/d612c6c653fb8b4d7ff3d422be164a5d/)', where each flower dey show one movie. Another example for the Guardian na 'bussed out', wey combine visualizations with Greensock and D3 plus scrollytelling article format to show how NYC dey handle homeless people by sending dem out of the city.
 
-![busing](../../../../translated_images/busing.7b9e3b41cd4b981c6d63922cd82004cc1cf18895155536c1d98fcc0999bdd23e.pcm.png)
+![busing](../../../../translated_images/pcm/busing.7b9e3b41cd4b981c.webp)
 
 > "Bussed Out: How America Moves its Homeless" from [the Guardian](https://www.theguardian.com/us-news/ng-interactive/2017/dec/20/bussed-out-america-moves-homeless-people-country-study). Visualizations by Nadieh Bremer & Shirley Wu
 
@@ -116,7 +116,7 @@ Even though this lesson no go fit teach you everything about these powerful visu
 
 You go complete web app wey go show animated view of this social network. E dey use one library wey dem build to [show network](https://github.com/emiliorizzo/vue-d3-network) using Vue.js and D3. When the app dey run, you fit move the nodes around for the screen to shuffle the data.
 
-![liaisons](../../../../translated_images/liaisons.7b440b28f6d07ea430244fdf1fc4c64ff48f473f143b8e921846eda1c302aeba.pcm.png)
+![liaisons](../../../../translated_images/pcm/liaisons.7b440b28f6d07ea4.webp)
 
 ## Project: Make chart to show network using D3.js
 

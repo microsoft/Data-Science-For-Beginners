@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # The Data Science Lifecycle
 
-![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.pcm.jpg)
+![communication](../../../translated_images/pcm/communication.06d8e2a88d30d168.webp)
 > Foto by <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> for <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 For dis lessons, you go learn some things wey dey inside Data Science lifecycle, like how to analyze and how to talk about data.

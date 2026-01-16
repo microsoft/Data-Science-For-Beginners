@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Introduction to Data Science
 
-![data dey work](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.pcm.jpg)
+![data dey work](../../../translated_images/pcm/data.48e22bb7617d8d92.webp)
 > Foto by <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> for <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 For dis lessons, you go sabi wetin Data Science mean and you go learn about di ethical things wey data scientist suppose dey think about. You go also sabi wetin data mean and small small about statistics and probability, wey be di main academic area for Data Science.

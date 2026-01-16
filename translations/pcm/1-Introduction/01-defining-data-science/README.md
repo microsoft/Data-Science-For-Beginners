@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Wetin Be Data Science Video](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.pcm.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Wetin Be Data Science Video](../../../../translated_images/pcm/video-def-ds.6623ee2392ef1abf.webp)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +153,7 @@ If we wan make am even more complex, we fit draw graph wey go show di time wey e
 
 For dis challenge, we go try find concepts wey relate to Data Science by looking at texts. We go carry one Wikipedia article about Data Science, download and process di text, then build one word cloud like dis one:
 
-![Word Cloud for Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.pcm.png)
+![Word Cloud for Data Science](../../../../translated_images/pcm/ds_wordcloud.664a7c07dca57de0.webp)
 
 Go check [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') to read di code. You fit also run di code, and see how e dey do all di data transformations live.
 

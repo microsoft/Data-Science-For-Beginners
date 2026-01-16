@@ -66,7 +66,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 Here, you go install di `ggplot2` package and then import am into di workspace using di `library("ggplot2")` command. To plot any plot for ggplot, di `ggplot()` function dey used and you go specify di dataset, x and y variables as attributes. For dis case, we dey use di `geom_line()` function because we wan plot line plot.
 
-![MaxWingspan-lineplot](../../../../../translated_images/MaxWingspan-lineplot.b12169f99d26fdd263f291008dfd73c18a4ba8f3d32b1fda3d74af51a0a28616.pcm.png)
+![MaxWingspan-lineplot](../../../../../translated_images/pcm/MaxWingspan-lineplot.b12169f99d26fdd2.webp)
 
 Wetin you notice immediately? E be like say one outlier dey - di wingspan big well well! Wingspan wey pass 2000 centimeters na more than 20 meters - Pterodactyl dey waka for Minnesota? Make we check am.
 
@@ -84,7 +84,7 @@ ggplot(data=birds, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 We dey specify di angle for di `theme` and di x and y axis labels for `xlab()` and `ylab()` respectively. Di `ggtitle()` dey give name to di graph/plot.
 
-![MaxWingspan-lineplot-improved](../../../../../translated_images/MaxWingspan-lineplot-improved.04b73b4d5a59552a6bc7590678899718e1f065abe9eada9ebb4148939b622fd4.pcm.png)
+![MaxWingspan-lineplot-improved](../../../../../translated_images/pcm/MaxWingspan-lineplot-improved.04b73b4d5a59552a.webp)
 
 Even as we rotate di labels to 45 degrees, e still too much to read. Make we try another strategy: label only di outliers and set di labels inside di chart. You fit use scatter chart to make space for di labeling:
 
@@ -100,7 +100,7 @@ Wetindey happen here? You use di `geom_point()` function to plot scatter points.
 
 Wetin you discover?
 
-![MaxWingspan-scatterplot](../../../../../translated_images/MaxWingspan-scatterplot.60dc9e0e19d32700283558f253841fdab5104abb62bc96f7d97f9c0ee857fa8b.pcm.png)
+![MaxWingspan-scatterplot](../../../../../translated_images/pcm/MaxWingspan-scatterplot.60dc9e0e19d32700.webp)
 
 ## Filter your data
 
@@ -119,7 +119,7 @@ ggplot(data=birds_filtered, aes(x=Name, y=MaxWingspan,group=1)) +
 ```
 We create new dataframe `birds_filtered` and then plot scatter plot. By removing di outliers, your data go dey more clean and easy to understand.
 
-![MaxWingspan-scatterplot-improved](../../../../../translated_images/MaxWingspan-scatterplot-improved.7d0af81658c65f3e75b8fedeb2335399e31108257e48db15d875ece608272051.pcm.png)
+![MaxWingspan-scatterplot-improved](../../../../../translated_images/pcm/MaxWingspan-scatterplot-improved.7d0af81658c65f3e.webp)
 
 Now wey we don clean di dataset for wingspan, make we learn more about dis birds.
 
@@ -160,7 +160,7 @@ birds_filtered %>% group_by(Category) %>%
 ```
 For di following snippet, we dey install di [dplyr](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8) and [lubridate](https://www.rdocumentation.org/packages/lubridate/versions/1.8.0) packages to help manipulate and group data to plot stacked bar chart. First, you go group di data by di `Category` of bird and then summarise di `MinLength`, `MaxLength`, `MinBodyMass`,`MaxdyMass`,`MinWingspan`,`MaxWingspan` columns. Then, plot di bar chart using `ggplot2` package and specify di colours for di different category and di labels. 
 
-![Stacked bar chart](../../../../../translated_images/stacked-bar-chart.0c92264e89da7b391a7490224d1e7059a020e8b74dcd354414aeac78871c02f1.pcm.png)
+![Stacked bar chart](../../../../../translated_images/pcm/stacked-bar-chart.0c92264e89da7b39.webp)
 
 Dis bar chart, however, no dey readable because di data no dey grouped well. You need select only di data wey you wan plot, so make we look di length of birds based on their category.
 
@@ -175,7 +175,7 @@ ggplot(birds_count,aes(Category,n))+geom_bar(stat="identity")+coord_flip()
 ```
 You first count unique values for di `Category` column and then sort dem into new dataframe `birds_count`. Dis sorted data go then dey factored for di same level so e go plot in di sorted way. Using `ggplot2` you go then plot di data for bar chart. Di `coord_flip()` go plot horizontal bars. 
 
-![category-length](../../../../../translated_images/category-length.7e34c296690e85d64f7e4d25a56077442683eca96c4f5b4eae120a64c0755636.pcm.png)
+![category-length](../../../../../translated_images/pcm/category-length.7e34c296690e85d6.webp)
 
 Dis bar chart dey show better view of di number of birds for each category. You go quickly see say di largest number of birds for dis area dey for Ducks/Geese/Waterfowl category. Minnesota na 'land of 10,000 lakes' so e no dey surprising!
 
@@ -198,7 +198,7 @@ ggplot(birds_grouped,aes(Category,MaxLength))+geom_bar(stat="identity")+coord_fl
 ```
 We group di `birds_filtered` data by `Category` and then plot bar graph. 
 
-![comparing data](../../../../../translated_images/comparingdata.f486a450d61c7ca5416f27f3f55a6a4465d00df3be5e6d33936e9b07b95e2fdd.pcm.png)
+![comparing data](../../../../../translated_images/pcm/comparingdata.f486a450d61c7ca5.webp)
 
 Nothing dey surprising here: hummingbirds get di least MaxLength compared to Pelicans or Geese. E dey good when data make sense!
 
@@ -210,7 +210,7 @@ ggplot(data=birds_grouped, aes(x=Category)) +
   geom_bar(aes(y=MinLength), stat="identity", position="identity", fill='orange')+
   coord_flip()
 ```
-![super-imposed values](../../../../../translated_images/superimposed-values.5363f0705a1da4167625a373a1064331ea3cb7a06a297297d0734fcc9b3819a0.pcm.png)
+![super-imposed values](../../../../../translated_images/pcm/superimposed-values.5363f0705a1da416.webp)
 
 ## 🚀 Challenge
 

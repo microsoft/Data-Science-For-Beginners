@@ -48,7 +48,7 @@ plt.xlabel('Max Length')
 
 plt.show()
 ```
-![max length per order](../../../../translated_images/scatter-wb.9d98b0ed7f0388af979441853361a11df5f518f5307938a503ca7913e986111b.pcm.png)
+![max length per order](../../../../translated_images/pcm/scatter-wb.9d98b0ed7f0388af.webp)
 
 Dis one dey give overview of di general distribution of body length per bird Order, but e no be di best way to show true distributions. Di work wey dey fit dis one na to create Histogram.
 ## Working with histograms
@@ -59,7 +59,7 @@ Matplotlib get better ways to show data distribution using Histograms. Dis type 
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
 plt.show()
 ```
-![distribution over the entire dataset](../../../../translated_images/dist1-wb.0d0cac82e2974fbbec635826fefead401af795f82e2279e2e2678bf2c117d827.pcm.png)
+![distribution over the entire dataset](../../../../translated_images/pcm/dist1-wb.0d0cac82e2974fbb.webp)
 
 As you fit see, most of di 400+ birds wey dey dis dataset dey fall for di range wey dey under 2000 for dia Max Body Mass. You fit get more insight for di data by changing di `bins` parameter to higher number, like 30:
 
@@ -67,7 +67,7 @@ As you fit see, most of di 400+ birds wey dey dis dataset dey fall for di range 
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 30, figsize = (12,12))
 plt.show()
 ```
-![distribution over the entire dataset with larger bins param](../../../../translated_images/dist2-wb.2c0a7a3499b2fbf561e9f93b69f265dfc538dc78f6de15088ba84a88152e26ba.pcm.png)
+![distribution over the entire dataset with larger bins param](../../../../translated_images/pcm/dist2-wb.2c0a7a3499b2fbf5.webp)
 
 Dis chart dey show di distribution in more detailed way. You fit create chart wey no go dey too skewed to di left by making sure say you only select data wey dey inside one given range:
 
@@ -78,7 +78,7 @@ filteredBirds = birds[(birds['MaxBodyMass'] > 1) & (birds['MaxBodyMass'] < 60)]
 filteredBirds['MaxBodyMass'].plot(kind = 'hist',bins = 40,figsize = (12,12))
 plt.show()     
 ```
-![filtered histogram](../../../../translated_images/dist3-wb.64b88db7f9780200bd486a2c2a3252548dd439672dbd3f778193db7f654b100c.pcm.png)
+![filtered histogram](../../../../translated_images/pcm/dist3-wb.64b88db7f9780200.webp)
 
 ✅ Try some other filters and data points. To see di full distribution of di data, remove di `['MaxBodyMass']` filter to show labeled distributions.
 
@@ -95,7 +95,7 @@ hist = ax.hist2d(x, y)
 ```
 E be like say di correlation wey dey between dis two elements dey follow di expected axis, with one strong point of convergence:
 
-![2D plot](../../../../translated_images/2D-wb.ae22fdd33936507a41e3af22e11e4903b04a9be973b23a4e05214efaccfd66c8.pcm.png)
+![2D plot](../../../../translated_images/pcm/2D-wb.ae22fdd33936507a.webp)
 
 Histograms dey work well by default for numeric data. Wetin you go do if you wan see distributions based on text data? 
 ## Explore di dataset for distributions using text data 
@@ -134,7 +134,7 @@ plt.gca().set(title='Conservation Status', ylabel='Min Wingspan')
 plt.legend();
 ```
 
-![wingspan and conservation collation](../../../../translated_images/histogram-conservation-wb.3c40450eb072c14de7a1a3ec5c0fcba4995531024760741b392911b567fd8b70.pcm.png)
+![wingspan and conservation collation](../../../../translated_images/pcm/histogram-conservation-wb.3c40450eb072c14d.webp)
 
 E no dey look like say good correlation dey between minimum wingspan and conservation status. Test other elements of di dataset using dis method. You fit try different filters too. You see any correlation?
 
@@ -152,7 +152,7 @@ import matplotlib.pyplot as plt
 sns.kdeplot(filteredBirds['MinWingspan'])
 plt.show()
 ```
-![Density plot](../../../../translated_images/density1.8801043bd4af2567b0f706332b5853c7614e5e4b81b457acc27eb4e092a65cbd.pcm.png)
+![Density plot](../../../../translated_images/pcm/density1.8801043bd4af2567.webp)
 
 You fit see how di plot dey resemble di previous one for Minimum Wingspan data; e just dey smoother small. According to Seaborn documentation, "Relative to a histogram, KDE fit produce plot wey no go dey too crowded and e go dey easy to understand, especially when you dey draw multiple distributions. But e fit introduce distortions if di underlying distribution dey bounded or e no smooth. Like histogram, di quality of di representation still depend on di selection of good smoothing parameters." [source](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) In other words, outliers as usual go make your charts misbehave.
 
@@ -162,7 +162,7 @@ If you wan revisit dat jagged MaxBodyMass line for di second chart wey you build
 sns.kdeplot(filteredBirds['MaxBodyMass'])
 plt.show()
 ```
-![smooth bodymass line](../../../../translated_images/density2.8e7647257060ff544a1aaded57e8dd1887586bfe340139e9b77ac1e5287f7977.pcm.png)
+![smooth bodymass line](../../../../translated_images/pcm/density2.8e7647257060ff54.webp)
 
 If you wan smooth line wey no go too smooth, edit di `bw_adjust` parameter: 
 
@@ -170,7 +170,7 @@ If you wan smooth line wey no go too smooth, edit di `bw_adjust` parameter:
 sns.kdeplot(filteredBirds['MaxBodyMass'], bw_adjust=.2)
 plt.show()
 ```
-![less smooth bodymass line](../../../../translated_images/density3.84ae27da82f31e6b83ad977646f029a1d21186574d7581facd70123b3eb257ee.pcm.png)
+![less smooth bodymass line](../../../../translated_images/pcm/density3.84ae27da82f31e6b.webp)
 
 ✅ Read about di parameters wey dey available for dis type of plot and experiment!
 
@@ -184,7 +184,7 @@ sns.kdeplot(
 )
 ```
 
-![bodymass per order](../../../../translated_images/density4.e9d6c033f15c500fd33df94cb592b9f5cf1ed2a3d213c448a3f9e97ba39573ce.pcm.png)
+![bodymass per order](../../../../translated_images/pcm/density4.e9d6c033f15c500f.webp)
 
 You fit also map di density of plenty variables for one chart. Test di MaxLength and MinLength of bird compared to dia conservation status:
 
@@ -192,7 +192,7 @@ You fit also map di density of plenty variables for one chart. Test di MaxLength
 sns.kdeplot(data=filteredBirds, x="MinLength", y="MaxLength", hue="ConservationStatus")
 ```
 
-![multiple densities, superimposed](../../../../translated_images/multi.56548caa9eae8d0fd9012a8586295538c7f4f426e2abc714ba070e2e4b1fc2c1.pcm.png)
+![multiple densities, superimposed](../../../../translated_images/pcm/multi.56548caa9eae8d0f.webp)
 
 Maybe e go make sense to research whether di cluster of 'Vulnerable' birds based on dia lengths dey meaningful or not.
 

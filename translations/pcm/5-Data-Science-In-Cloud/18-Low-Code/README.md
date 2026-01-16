@@ -61,7 +61,7 @@ Azure ML get all di tools wey developers and data scientists need for their mach
 
 E clear say di best way to test your skills and knowledge na to dey make and build projects. For dis lesson, we go look two different ways to build data science project wey dey predict heart failure attacks for Azure ML Studio, using Low code/No code and di Azure ML SDK as di schema show:
 
-![project-schema](../../../../translated_images/project-schema.736f6e403f321eb48d10242b3f4334dc6ccf0eabef8ff87daf52b89781389fcb.pcm.png)
+![project-schema](../../../../translated_images/pcm/project-schema.736f6e403f321eb4.webp)
 
 Each method get di own advantage and disadvantage. Di Low code/No code way easy to start because e dey use GUI (Graphical User Interface), and you no need sabi code before you fit use am. Dis method dey good for quick testing of di project idea and to create POC (Proof Of Concept). But as di project dey grow and you wan make am ready for production, e no go make sense to dey create resources through GUI. You go need programmatically automate everything, from di creation of resources to di deployment of di model. Na here di knowledge of how to use Azure ML SDK go dey very important.
 
@@ -114,15 +114,15 @@ To use Azure Machine Learning, create workspace for your Azure subscription. You
 1. Sign into di [Azure portal](https://ms.portal.azure.com/) wit di Microsoft credentials wey dey your Azure subscription.
 2. Select **＋Create a resource**
    
-   ![workspace-1](../../../../translated_images/workspace-1.ac8694d60b073ed1ae8333d71244dc8a9b3e439d54593724f98f1beefdd27b08.pcm.png)
+   ![workspace-1](../../../../translated_images/pcm/workspace-1.ac8694d60b073ed1.webp)
 
    Search for Machine Learning and select di Machine Learning tile
 
-   ![workspace-2](../../../../translated_images/workspace-2.ae7c486db8796147075e4a56566aa819827dd6c4c8d18d64590317c3be625f17.pcm.png)
+   ![workspace-2](../../../../translated_images/pcm/workspace-2.ae7c486db8796147.webp)
 
    Click di create button
 
-   ![workspace-3](../../../../translated_images/workspace-3.398ca4a5858132cce584db9df10c5a011cd9075eb182e647a77d5cac01771eea.pcm.png)
+   ![workspace-3](../../../../translated_images/pcm/workspace-3.398ca4a5858132cc.webp)
 
    Fill di settings like dis:
    - Subscription: Your Azure subscription
@@ -134,17 +134,17 @@ To use Azure Machine Learning, create workspace for your Azure subscription. You
    - Application insights: Note di default new application insights resource wey dem go create for your workspace
    - Container registry: None (dem go create one automatically di first time you deploy model to container)
 
-    ![workspace-4](../../../../translated_images/workspace-4.bac87f6599c4df63e624fc2608990f965887bee551d9dedc71c687b43b986b6a.pcm.png)
+    ![workspace-4](../../../../translated_images/pcm/workspace-4.bac87f6599c4df63.webp)
 
    - Click di create + review and then di create button
 3. Wait make your workspace finish to create (e fit take few minutes). Then go di portal to find am. You fit find am through di Machine Learning Azure service.
 4. For di Overview page for your workspace, launch Azure Machine Learning studio (or open new browser tab and go https://ml.azure.com), and sign into Azure Machine Learning studio wit your Microsoft account. If dem ask, select your Azure directory and subscription, and your Azure Machine Learning workspace.
    
-![workspace-5](../../../../translated_images/workspace-5.a6eb17e0a5e6420018b08bdaf3755ce977f96f1df3ea363d2476a9dce7e15adb.pcm.png)
+![workspace-5](../../../../translated_images/pcm/workspace-5.a6eb17e0a5e64200.webp)
 
 5. For Azure Machine Learning studio, toggle di ☰ icon for di top left to see di different pages for di interface. You fit use dis pages to manage di resources for your workspace.
 
-![workspace-6](../../../../translated_images/workspace-6.8dd81fe841797ee17f8f73916769576260b16c4e17e850d277a49db35fd74a15.pcm.png)
+![workspace-6](../../../../translated_images/pcm/workspace-6.8dd81fe841797ee1.webp)
 
 You fit manage your workspace wit di Azure portal, but for data scientists and Machine Learning operations engineers, Azure Machine Learning Studio dey provide better user interface to manage workspace resources.
 
@@ -189,18 +189,18 @@ Low-priority instance mean say e fit stop anytime: Microsoft Azure fit use di re
 
 For di [Azure ML workspace](https://ml.azure.com/) wey we don create before, go compute and you go see di different compute resources wey we don talk about (like compute instances, compute clusters, inference clusters, and attached compute). For dis project, we go need compute cluster to train di model. For di Studio, click di "Compute" menu, then di "Compute cluster" tab, and click di "+ New" button to create compute cluster.
 
-![22](../../../../translated_images/cluster-1.b78cb630bb543729b11f60c34d97110a263f8c27b516ba4dc47807b3cee5579f.pcm.png)
+![22](../../../../translated_images/pcm/cluster-1.b78cb630bb543729.webp)
 
 1. Choose your options: Dedicated vs Low priority, CPU or GPU, VM size and core number (you fit leave di default settings for dis project).
 2. Click di Next button.
 
-![23](../../../../translated_images/cluster-2.ea30cdbc9f926bb9e05af3fdbc1f679811c796dc2a6847f935290aec15526e88.pcm.png)
+![23](../../../../translated_images/pcm/cluster-2.ea30cdbc9f926bb9.webp)
 
 3. Give di cluster one compute name.
 4. Choose your options: Minimum/Maximum number of nodes, Idle seconds before scale down, SSH access. If di minimum number of nodes na 0, you go save money when di cluster dey idle. Di higher di maximum number of nodes, di faster di training go be. Di maximum number of nodes wey dem recommend na 3.  
 5. Click di "Create" button. Dis step fit take small time.
 
-![29](../../../../translated_images/cluster-3.8a334bc070ec173a329ce5abd2a9d727542e83eb2347676c9af20f2c8870b3e7.pcm.png)
+![29](../../../../translated_images/pcm/cluster-3.8a334bc070ec173a.webp)
 
 Nice one! Now we don get Compute cluster, we need to load di data go Azure ML Studio.
 
@@ -208,15 +208,15 @@ Nice one! Now we don get Compute cluster, we need to load di data go Azure ML St
 
 1. For di [Azure ML workspace](https://ml.azure.com/) wey we don create before, click "Datasets" for di left menu and click di "+ Create dataset" button to create dataset. Choose di "From local files" option and select di Kaggle dataset wey we don download before.
    
-   ![24](../../../../translated_images/dataset-1.e86ab4e10907a6e9c2a72577b51db35f13689cb33702337b8b7032f2ef76dac2.pcm.png)
+   ![24](../../../../translated_images/pcm/dataset-1.e86ab4e10907a6e9.webp)
 
 2. Give your dataset name, type, and description. Click Next. Upload di data from files. Click Next.
    
-   ![25](../../../../translated_images/dataset-2.f58de1c435d5bf9ccb16ccc5f5d4380eb2b50affca85cfbf4f97562bdab99f77.pcm.png)
+   ![25](../../../../translated_images/pcm/dataset-2.f58de1c435d5bf9c.webp)
 
 3. For di Schema, change di data type to Boolean for di following features: anaemia, diabetes, high blood pressure, sex, smoking, and DEATH_EVENT. Click Next and Click Create.
    
-   ![26](../../../../translated_images/dataset-3.58db8c0eb783e89236a02bbce5bb4ba808d081a87d994d5284b1ae59928c95bf.pcm.png)
+   ![26](../../../../translated_images/pcm/dataset-3.58db8c0eb783e892.webp)
 
 Good job! Now di dataset dey ready and di compute cluster don dey set, we fit start to train di model!
 
@@ -227,19 +227,19 @@ Automated machine learning (AutoML) na di process wey dey automate di time-consu
 
 1. For di [Azure ML workspace](https://ml.azure.com/) wey we don create before, click "Automated ML" for di left menu and select di dataset wey you just upload. Click Next.
 
-   ![27](../../../../translated_images/aml-1.67281a85d3a1e2f34eb367b2d0f74e1039d13396e510f363cd8766632106d1ec.pcm.png)
+   ![27](../../../../translated_images/pcm/aml-1.67281a85d3a1e2f3.webp)
 
 2. Enter new experiment name, di target column (DEATH_EVENT), and di compute cluster wey we don create. Click Next.
    
-   ![28](../../../../translated_images/aml-2.c9fb9cffb39ccbbe21ab9810ae937195d41a489744e15cff2b8477ed4dcae1ec.pcm.png)
+   ![28](../../../../translated_images/pcm/aml-2.c9fb9cffb39ccbbe.webp)
 
 3. Choose "Classification" and Click Finish. Dis step fit take between 30 minutes to 1 hour, based on di size of your compute cluster.
     
-    ![30](../../../../translated_images/aml-3.a7952e4295f38cc6cdb0c7ed6dc71ea756b7fb5697ec126bc1220f87c5fa9231.pcm.png)
+    ![30](../../../../translated_images/pcm/aml-3.a7952e4295f38cc6.webp)
 
 4. When di run don complete, click di "Automated ML" tab, click di run, and click di Algorithm for di "Best model summary" card.
     
-    ![31](../../../../translated_images/aml-4.7a627e09cb6f16d0aa246059d9faee3d1725cc4258d0c8df15e801f73afc7e2c.pcm.png)
+    ![31](../../../../translated_images/pcm/aml-4.7a627e09cb6f16d0.webp)
 
 Here you go see detailed description of di best model wey AutoML generate. You fit also check di other models wey dey di Models tab. Take small time to explore di models for di Explanations (preview button). Once you don choose di model wey you wan use (for here we go choose di best model wey AutoML select), we go see how we fit deploy am.
 
@@ -250,15 +250,15 @@ Di automated machine learning interface dey allow you deploy di best model as we
 
 For di best model description, click di "Deploy" button.
     
-![deploy-1](../../../../translated_images/deploy-1.ddad725acadc84e34553c3d09e727160faeb32527a9fb8b904c0f99235a34bb6.pcm.png)
+![deploy-1](../../../../translated_images/pcm/deploy-1.ddad725acadc84e3.webp)
 
 15. Give am name, description, compute type (Azure Container Instance), enable authentication, and click Deploy. Dis step fit take about 20 minutes to complete. Di deployment process get plenty steps like registering di model, generating resources, and configuring dem for di web service. Status message go show under Deploy status. Select Refresh from time to time to check di deployment status. E don deploy and dey run when di status na "Healthy".
 
-![deploy-2](../../../../translated_images/deploy-2.94dbb13f239086473aa4bf814342fd40483d136849b080f02bafbb995383940e.pcm.png)
+![deploy-2](../../../../translated_images/pcm/deploy-2.94dbb13f23908647.webp)
 
 16. When e don deploy, click di Endpoint tab and click di endpoint wey you just deploy. You go see all di details wey you need to know about di endpoint.
 
-![deploy-3](../../../../translated_images/deploy-3.fecefef070e8ef3b28e802326d107f61ac4e672d20bf82d05f78d025f9e6c611.pcm.png)
+![deploy-3](../../../../translated_images/pcm/deploy-3.fecefef070e8ef3b.webp)
 
 Nice one! Now we don deploy di model, we fit start to use di endpoint.
 
@@ -268,7 +268,7 @@ Click di "Consume" tab. Here you go see di REST endpoint and python script for d
 
 Dis script fit run directly from your local machine and e go use di endpoint.
 
-![35](../../../../translated_images/consumption-1.700abd196452842a020c7d745908637a6e4c5c50494ad1217be80e283e0de154.pcm.png)
+![35](../../../../translated_images/pcm/consumption-1.700abd196452842a.webp)
 
 Check dis 2 lines of code:
 

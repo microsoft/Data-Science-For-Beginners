@@ -25,7 +25,7 @@ By now, you don dey realize say data science na process wey dem fit break down i
 
 Dis lesson go focus on 3 parts for di lifecycle: capturing, processing, and maintenance.
 
-![Diagram of the data science lifecycle](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.pcm.jpg)
+![Diagram of the data science lifecycle](../../../../translated_images/pcm/data-science-lifecycle.a1e362637503c4fb.webp)
 > Photo by [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Capturing
@@ -97,7 +97,7 @@ Check di [Team Data Science Process lifecycle](https://docs.microsoft.com/en-us/
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![Team Data Science Lifecycle](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.pcm.png) | ![Data Science Process Alliance Image](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.pcm.png) |
+|![Team Data Science Lifecycle](../../../../translated_images/pcm/tdsp-lifecycle2.e19029d598e2e73d.webp) | ![Data Science Process Alliance Image](../../../../translated_images/pcm/CRISP-DM.8bad2b4c66e62aa7.webp) |
 | Image by [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Image by [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/27)
