@@ -93,7 +93,7 @@ plt.show()
 ```
 Voila, one pie chart wey dey show the proportions of dis data based on dis two classes of mushrooms. E dey very important to arrange the labels well, especially for here, so make sure say you check the order wey you take build the label array!
 
-![pie chart](../../../../translated_images/pie1-wb.e201f2fcc335413143ce37650fb7f5f0bb21358e7823a327ed8644dfb84be9db.pcm.png)
+![pie chart](../../../../translated_images/pcm/pie1-wb.e201f2fcc3354131.webp)
 
 ## Donuts!
 
@@ -123,7 +123,7 @@ plt.title('Mushroom Habitats')
 plt.show()
 ```
 
-![donut chart](../../../../translated_images/donut-wb.be3c12a22712302b5d10c40014d5389d4a1ae4412fe1655b3cf4af57b64f799a.pcm.png)
+![donut chart](../../../../translated_images/pcm/donut-wb.be3c12a22712302b.webp)
 
 Dis code dey draw one chart and one center circle, then e go add dat center circle for the chart. You fit change the width of the center circle by editing `0.40` to another value.
 
@@ -171,7 +171,7 @@ fig = plt.figure(
 
 With waffle chart, you fit see the proportions of cap colors for dis mushrooms dataset. E dey interesting say plenty green-capped mushrooms dey!
 
-![waffle chart](../../../../translated_images/waffle.5455dbae4ccf17d53bb40ff0a657ecef7b8aa967e27a19cc96325bd81598f65e.pcm.png)
+![waffle chart](../../../../translated_images/pcm/waffle.5455dbae4ccf17d5.webp)
 
 ✅ Pywaffle dey support icons inside the charts wey fit use any icon wey dey [Font Awesome](https://fontawesome.com/). Try experiment to create one more interesting waffle chart wey go use icons instead of squares.
 

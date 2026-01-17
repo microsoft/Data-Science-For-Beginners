@@ -15,7 +15,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Statistics and Probability na two areas for Mathematics wey dey connect well well, and dem dey important for Data Science. You fit dey work with data even if you no sabi mathematics deep, but e still good make you sabi small small things. For here, we go give you small introduction wey go help you start.
 
-[![Intro Video](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.pcm.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Intro Video](../../../../translated_images/pcm/video-prob-and-stats.e4282e5efa2f2543.webp)](https://youtu.be/Z5Zy85g4Yjw)
 
 
 ## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/6)
@@ -40,7 +40,7 @@ E dey harder to describe the probability distribution of continuous variable, we
 
 We fit only talk about the probability say variable go fall inside one interval of values, like P(t<sub>1</sub>&le;X&lt;t<sub>2</sub>). For this case, probability distribution dey described by **probability density function** p(x), wey be like this:
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.pcm.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/pcm/probability-density.a8aad29f17a14afb.webp)
   
 Continuous version of uniform distribution na **continuous uniform**, wey dey defined for one finite interval. Probability say value X go fall inside interval wey get length l na proportional to l, and e go reach 1.
 
@@ -65,7 +65,7 @@ To help us understand how data dey spread, e good to talk about **quartiles**:
 
 We fit show the relationship between median and quartiles with diagram wey dem dey call **box plot**:
 
-<img src="../../../../translated_images/boxplot_explanation.4039b7de08780fd493ef798b41f7291d753f1f84de8955645f00c586e65f16a3.pcm.png" alt="Box Plot Explanation" width="50%">
+<img src="../../../../translated_images/pcm/boxplot_explanation.4039b7de08780fd4.webp" alt="Box Plot Explanation" width="50%">
 
 For here, we fit calculate **inter-quartile range** IQR=Q3-Q1, and **outliers** - values wey dey outside the boundaries [Q1-1.5*IQR,Q3+1.5*IQR].
 
@@ -83,11 +83,11 @@ When we dey analyze real-life data, dem no dey random variables like that, becau
 
 Here na box plot wey dey show mean, median and quartiles for our data:
 
-![Weight Box Plot](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.pcm.png)
+![Weight Box Plot](../../../../translated_images/pcm/weight-boxplot.1dbab1c03af26f8a.webp)
 
 Since our data get information about different player **roles**, we fit also do box plot by role - e go help us see how parameter values dey different for roles. This time we go look height:
 
-![Box plot by role](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.pcm.png)
+![Box plot by role](../../../../translated_images/pcm/boxplot_byrole.036b27a1c3f52d42.webp)
 
 This diagram dey show say, on average, height of first basemen dey higher than height of second basemen. Later for this lesson, we go learn how to test this idea more formally, and how to show say our data dey statistically significant to prove am.
 
@@ -95,7 +95,7 @@ This diagram dey show say, on average, height of first basemen dey higher than h
 
 To see how our data dey spread, we fit draw graph wey dem dey call **histogram**. X-axis go get number of different weight intervals (bins), and vertical axis go show how many times our random variable sample dey inside one interval.
 
-![Histogram of real world data](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.pcm.png)
+![Histogram of real world data](../../../../translated_images/pcm/weight-histogram.bfd00caf7fc30b14.webp)
 
 From this histogram, you fit see say all values dey gather around one mean weight, and as we dey go far from that weight, the fewer weights we go see. E mean say e no likely say baseball player weight go dey very different from the mean weight. Variance of weights dey show how much weights fit dey different from the mean.
 
@@ -112,7 +112,7 @@ samples = np.random.normal(mean,std,1000)
 
 If we draw histogram of the samples we generate, e go look like the one wey we show before. And if we increase the number of samples and bins, we fit generate picture of normal distribution wey dey closer to perfect:
 
-![Normal Distribution with mean=0 and std.dev=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.pcm.png)
+![Normal Distribution with mean=0 and std.dev=1](../../../../translated_images/pcm/normal-histogram.dfae0d67c202137d.webp)
 
 *Normal Distribution with mean=0 and std.dev=1*
 
@@ -231,7 +231,7 @@ array([[1.        , 0.52959196],
 
 For our case, di value 0.53 show say weight and height of person get some correlation. We fit also draw scatter plot of one value against di other to see di relationship:
 
-![Relationship between weight and height](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.pcm.png)
+![Relationship between weight and height](../../../../translated_images/pcm/weight-height-relationship.3f06bde4ca2aba99.webp)
 
 > More examples of correlation and covariance dey for di [accompanying notebook](notebook.ipynb).
 

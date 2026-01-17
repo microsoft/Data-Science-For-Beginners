@@ -60,7 +60,7 @@ Make we start by plotting some of di numeric data using one basic line plot. Sup
 wingspan = birds['MaxWingspan'] 
 wingspan.plot()
 ```
-![Max Wingspan](../../../../translated_images/max-wingspan-02.e79fd847b2640b89e21e340a3a9f4c5d4b224c4fcd65f54385e84f1c9ed26d52.pcm.png)
+![Max Wingspan](../../../../translated_images/pcm/max-wingspan-02.e79fd847b2640b89.webp)
 
 Wetin you notice quick quick? E be like say one bird get wingspan wey dey very big - dat one na outlier! 2300 centimeter wingspan na 23 meters - abi na Pterodactyl dey fly for Minnesota? Make we check am.
 
@@ -80,7 +80,7 @@ plt.plot(x, y)
 
 plt.show()
 ```
-![wingspan with labels](../../../../translated_images/max-wingspan-labels-02.aa90e826ca49a9d1dde78075e9755c1849ef56a4e9ec60f7e9f3806daf9283e2.pcm.png)
+![wingspan with labels](../../../../translated_images/pcm/max-wingspan-labels-02.aa90e826ca49a9d1.webp)
 
 Even though we rotate di labels to 45 degrees, e still too much to read. Make we try another way: label only di outliers and put di labels inside di chart. You fit use scatter chart to get more space for di labeling:
 
@@ -102,7 +102,7 @@ Wetindey happen here? You use `tick_params` to hide di bottom labels and then lo
 
 Wetin you discover?
 
-![outliers](../../../../translated_images/labeled-wingspan-02.6110e2d2401cd5238ccc24dfb6d04a6c19436101f6cec151e3992e719f9f1e1f.pcm.png)
+![outliers](../../../../translated_images/pcm/labeled-wingspan-02.6110e2d2401cd523.webp)
 ## Filter your data
 
 Di Bald Eagle and di Prairie Falcon, even though dem be big birds, e be like say di wingspan wey dem get na typo, dem add extra `0`. E no dey possible say Bald Eagle go get 25 meter wingspan, but if e dey possible, abeg tell us! Make we create new dataframe wey no go include di two outliers:
@@ -122,7 +122,7 @@ plt.show()
 
 By removing di outliers, di data go dey more clear and easy to understand.
 
-![scatterplot of wingspans](../../../../translated_images/scatterplot-wingspan-02.1c33790094ce36a75f5fb45b25ed2cf27f0356ea609e43c11e97a2cedd7011a4.pcm.png)
+![scatterplot of wingspans](../../../../translated_images/pcm/scatterplot-wingspan-02.1c33790094ce36a7.webp)
 
 Now wey di dataset don clean for di wingspan part, make we learn more about di birds.
 
@@ -148,7 +148,7 @@ birds.plot(x='Category',
         title='Birds of Minnesota')
 
 ```
-![full data as a bar chart](../../../../translated_images/full-data-bar-02.aaa3fda71c63ed564b917841a1886c177dd9a26424142e510c0c0498fd6ca160.pcm.png)
+![full data as a bar chart](../../../../translated_images/pcm/full-data-bar-02.aaa3fda71c63ed56.webp)
 
 Dis bar chart no dey clear because di data no dey grouped. You need to select only di data wey you wan plot, so make we check di length of birds based on their category.
 
@@ -163,7 +163,7 @@ category_count = birds.value_counts(birds['Category'].values, sort=True)
 plt.rcParams['figure.figsize'] = [6, 12]
 category_count.plot.barh()
 ```
-![category and length](../../../../translated_images/category-counts-02.0b9a0a4de42275ae5096d0f8da590d8bf520d9e7e40aad5cc4fc8d276480cc32.pcm.png)
+![category and length](../../../../translated_images/pcm/category-counts-02.0b9a0a4de42275ae.webp)
 
 Dis bar chart dey show di number of birds for each category. You go quick see say di Ducks/Geese/Waterfowl category get di highest number of birds. Minnesota na 'land of 10,000 lakes' so e no dey surprising!
 
@@ -179,7 +179,7 @@ plt.barh(y=birds['Category'], width=maxlength)
 plt.rcParams['figure.figsize'] = [6, 12]
 plt.show()
 ```
-![comparing data](../../../../translated_images/category-length-02.7304bf519375c9807d8165cc7ec60dd2a60f7b365b23098538e287d89adb7d76.pcm.png)
+![comparing data](../../../../translated_images/pcm/category-length-02.7304bf519375c980.webp)
 
 Nothing dey surprising here: hummingbirds get di least MaxLength compared to Pelicans or Geese. E dey good when data dey make sense!
 
@@ -197,7 +197,7 @@ plt.show()
 ```
 For dis plot, you fit see di range per bird category for Minimum Length and Maximum Length. You fit talk say, based on dis data, di bigger di bird, di larger di length range. E dey interesting!
 
-![superimposed values](../../../../translated_images/superimposed-02.f03058536baeb2ed7864f01102538464d4c2fd7ade881ddd7d5ba74dc5d2fdae.pcm.png)
+![superimposed values](../../../../translated_images/pcm/superimposed-02.f03058536baeb2ed.webp)
 
 ## 🚀 Challenge
 

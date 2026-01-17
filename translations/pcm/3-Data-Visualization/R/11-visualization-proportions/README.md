@@ -97,7 +97,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, one pie chart wey dey show the proportions of dis data based on dis two classes of mushrooms. E dey very important to arrange the labels well, especially for here, so make sure say you check the order wey you take build the label array!
 
-![pie chart](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.pcm.png)
+![pie chart](../../../../../translated_images/pcm/pie1-wb.685df063673751f4.webp)
 
 ## Donuts!
 
@@ -132,7 +132,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![donut chart](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.pcm.png)
+![donut chart](../../../../../translated_images/pcm/donut-wb.34e6fb275da9d834.webp)
 
 Dis code dey use two libraries- ggplot2 and webr. With the PieDonut function for webr library, e easy to create donut chart!
 
@@ -169,7 +169,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 With waffle chart, you fit see the proportions of cap colors for dis mushrooms dataset. E dey interesting say plenty mushrooms get green cap!
 
-![waffle chart](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.pcm.png)
+![waffle chart](../../../../../translated_images/pcm/waffle.aaa75c5337735a6e.webp)
 
 For dis lesson, you don learn three ways to show proportions. First, you go need group your data into categories and then decide the best way to show the data - pie, donut, or waffle. All of dem dey sweet and dey give the user quick snapshot of one dataset.
 

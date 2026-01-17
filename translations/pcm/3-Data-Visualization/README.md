@@ -9,7 +9,7 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Visualizations
 
-![a bee on a lavender flower](../../../translated_images/bee.0aa1d91132b12e3a8994b9ca12816d05ce1642010d9b8be37f8d37365ba845cf.pcm.jpg)
+![a bee on a lavender flower](../../../translated_images/pcm/bee.0aa1d91132b12e3a.webp)
 > Foto by <a href="https://unsplash.com/@jenna2980?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jenna Lee</a> for <a href="https://unsplash.com/s/photos/bees-in-a-meadow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 To dey show data na one of di most important work wey data scientist dey do. Picture fit talk pass 1000 words, and di way wey you go fit show data fit help you see plenty tins for di data like spike, outlier, group, tendency, and other tins wey go help you sabi di story wey di data wan tell.

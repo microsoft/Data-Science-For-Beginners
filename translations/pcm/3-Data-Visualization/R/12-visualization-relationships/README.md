@@ -52,7 +52,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.pcm.png)
+![scatterplot 1](../../../../../translated_images/pcm/scatter1.86b8900674d88b26.webp)
 
 Now, show di same data wit honey color scheme to show how di price don change over di years. You fit do dis by adding 'scale_color_gradientn' parameter to show di change, year by year:
 
@@ -62,7 +62,7 @@ Now, show di same data wit honey color scheme to show how di price don change ov
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.pcm.png)
+![scatterplot 2](../../../../../translated_images/pcm/scatter2.4d1cbc693bad20e2.webp)
 
 Wit dis color scheme change, you fit see say di price of honey don dey increase over di years. If you check one sample set for di data to confirm (pick one state, Arizona for example), you go see say di price dey increase year by year, wit small exceptions:
 
@@ -94,7 +94,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 You go see say di size of di dots dey increase small small.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.pcm.png)
+![scatterplot 3](../../../../../translated_images/pcm/scatter3.722d21e6f20b3ea2.webp)
 
 E be like say na simple case of supply and demand? Abi na climate change and colony collapse dey make honey dey reduce year by year, and di price dey increase?
 
@@ -109,7 +109,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Answer: Yes, wit small exceptions around di year 2003:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.pcm.png)
+![line chart 1](../../../../../translated_images/pcm/line1.299b576fbb2a59e6.webp)
 
 Question: For 2003, we fit see say di honey supply increase? Wetin go happen if you check total production year by year?
 
@@ -117,7 +117,7 @@ Question: For 2003, we fit see say di honey supply increase? Wetin go happen if 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.pcm.png)
+![line chart 2](../../../../../translated_images/pcm/line2.3b18fcda7176ceba.webp)
 
 Answer: E no really show. If you check total production, e be like say e increase for dat year, even though di honey wey dem dey produce dey reduce for di years.
 
@@ -137,7 +137,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 For dis visualization, you fit compare di yield per colony and number of colonies year by year, side by side wit wrap set at 3 for di columns:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.pcm.png)
+![facet grid](../../../../../translated_images/pcm/facet.491ad90d61c2a7cc.webp)
 
 For dis dataset, nothing special dey show for di number of colonies and their yield, year by year and state by state. E get another way to find di correlation wey dey between dis two variables?
 
@@ -154,7 +154,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.pcm.png)
+![superimposed plots](../../../../../translated_images/pcm/dual-line.fc4665f360a54018.webp)
 
 Even though nothing dey show clearly for di year 2003, e dey allow us end dis lesson wit small happy note: even though di number of colonies dey reduce, di number of colonies don dey stable even if their yield per colony dey reduce.
 

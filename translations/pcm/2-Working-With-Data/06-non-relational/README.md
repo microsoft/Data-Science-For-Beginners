@@ -21,7 +21,7 @@ Data no dey only for relational databases. Dis lesson go talk about non-relation
 
 Spreadsheets na one popular way wey people dey use store and check data because e no too hard to setup and start. For dis lesson, you go sabi di basic parts of spreadsheet, plus formulas and functions. Di examples go dey show with Microsoft Excel, but most of di parts and topics go get similar names and steps for other spreadsheet software.
 
-![An empty Microsoft Excel workbook with two worksheets](../../../../translated_images/parts-of-spreadsheet.120711c82aa18a45c3e62a491a15bba0a31ab0e9db407ec022702fed8ffd89bf.pcm.png)
+![An empty Microsoft Excel workbook with two worksheets](../../../../translated_images/pcm/parts-of-spreadsheet.120711c82aa18a45.webp)
 
 Spreadsheet na file wey you fit access for di file system of computer, device, or cloud-based file system. Di software fit dey browser-based or na app wey you go install for computer or download as app. For Excel, dem dey call dis files **workbooks** and na dis name we go dey use for di rest of di lesson.
 
@@ -33,11 +33,11 @@ With dis basic parts of Excel workbook, we go use example from [Microsoft Templa
 
 Di spreadsheet file wey dem call "InventoryExample" na formatted spreadsheet of items wey dey inside inventory. E get three worksheets, and di tabs na "Inventory List", "Inventory Pick List" and "Bin Lookup". Row 4 for di Inventory List worksheet na di header, wey dey explain di value of each cell for di header column.
 
-![A highlighted formula from an example inventory list in Microsoft Excel](../../../../translated_images/formula-excel.ad1068c220892f5ead570d12f2394897961d31a5043a1dd4e6fc5d7690c7a14e.pcm.png)
+![A highlighted formula from an example inventory list in Microsoft Excel](../../../../translated_images/pcm/formula-excel.ad1068c220892f5e.webp)
 
 Sometimes, di value wey dey inside one cell dey depend on di values wey dey other cells to calculate am. Di Inventory List spreadsheet dey track di cost of every item for di inventory, but wetin if we wan know di value of everything wey dey di inventory? [**Formulas**](https://support.microsoft.com/en-us/office/overview-of-formulas-34519a4e-1e8d-4f4b-84d4-d642c4f63263) dey perform actions on cell data and e dey calculate di cost of di inventory for dis example. Dis spreadsheet use formula for di Inventory Value column to calculate di value of each item by multiplying di quantity under di QTY header and di cost under di COST header. If you double-click or highlight di cell, you go see di formula. You go notice say formulas dey start with equals sign, followed by di calculation or operation.
 
-![A highlighted function from an example inventory list in Microsoft Excel](../../../../translated_images/function-excel.be2ae4feddc10ca089f3d4363040d93b7fd046c8d4f83ba975ec46483ee99895.pcm.png)
+![A highlighted function from an example inventory list in Microsoft Excel](../../../../translated_images/pcm/function-excel.be2ae4feddc10ca0.webp)
 
 We fit use another formula to add all di values for Inventory Value together to get di total value. You fit calculate am by adding each cell one by one, but dat one go dey stressful. Excel get [**functions**](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89), wey be predefined formulas to calculate cell values. Functions dey need arguments, wey be di values wey dem go use calculate. If functions need more than one argument, you go need arrange dem well or di function no go calculate di correct value. Dis example use di SUM function, and e use di values for Inventory Value as di argument to calculate di total wey dey under row 3, column B (dem dey call am B3).
 
@@ -45,17 +45,17 @@ We fit use another formula to add all di values for Inventory Value together to 
 
 NoSQL na general name for di different ways wey people dey store non-relational data. E fit mean "non-SQL", "non-relational" or "not only SQL". Dis type of database systems dey divide into 4 types.
 
-![Graphical representation of a key-value data store showing 4 unique numerical keys that are associated with 4 various values](../../../../translated_images/kv-db.e8f2b75686bbdfcba0c827b9272c10ae0821611ea0fe98429b9d13194383afa6.pcm.png)
+![Graphical representation of a key-value data store showing 4 unique numerical keys that are associated with 4 various values](../../../../translated_images/pcm/kv-db.e8f2b75686bbdfcb.webp)
 > Source from [Michał Białecki Blog](https://www.michalbialecki.com/2018/03/18/azure-cosmos-db-key-value-database-cloud/)
 
 [Key-value](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#keyvalue-data-stores) databases dey pair unique keys, wey be di identifier wey dey connect with value. Dem dey store dis pairs with [hash table](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/) wey get correct hashing function.
 
-![Graphical representation of a graph data store showing the relationships between people, their interests and locations](../../../../translated_images/graph-db.d13629152f79a9dac895b20fa7d841d4d4d6f6008b1382227c3bbd200fd4cfa1.pcm.png)
+![Graphical representation of a graph data store showing the relationships between people, their interests and locations](../../../../translated_images/pcm/graph-db.d13629152f79a9da.webp)
 > Source from [Microsoft](https://docs.microsoft.com/en-us/azure/cosmos-db/graph/graph-introduction#graph-database-by-example)
 
 [Graph](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#graph-data-stores) databases dey explain relationships for data and dem dey show am as collection of nodes and edges. Node dey represent entity, like student or bank statement. Edges dey show di relationship between two entities. Each node and edge get properties wey dey give more information about di node and edges.
 
-![Graphical representation of a columnar data store showing a customer database with two column families named Identity and Contact Info](../../../../translated_images/columnar-db.ffcfe73c3e9063a8c8f93f8ace85e1200863584b1e324eb5159d8ca10f62ec04.pcm.png)
+![Graphical representation of a columnar data store showing a customer database with two column families named Identity and Contact Info](../../../../translated_images/pcm/columnar-db.ffcfe73c3e9063a8.webp)
 
 [Columnar](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) data stores dey arrange data into columns and rows like relational data structure, but each column dey divide into groups wey dem dey call column family. All di data under one column dey related and you fit retrieve or change am as one unit.
 
@@ -88,11 +88,11 @@ You fit download and install di emulator [for Windows here](https://aka.ms/cosmo
 
 Di Emulator go open browser window, and di Explorer view go allow you check documents.
 
-![The Explorer view of the Cosmos DB Emulator](../../../../translated_images/cosmosdb-emulator-explorer.a1c80b1347206fe2f30f88fc123821636587d04fc5a56a9eb350c7da6b31f361.pcm.png)
+![The Explorer view of the Cosmos DB Emulator](../../../../translated_images/pcm/cosmosdb-emulator-explorer.a1c80b1347206fe2.webp)
 
 If you dey follow di steps, click "Start with Sample" to create sample database wey dem call SampleDB. If you expand Sample DB by clicking di arrow, you go see container wey dem call `Persons`. Container dey hold collection of items, wey be di documents inside di container. You fit check di four documents wey dey under `Items`.
 
-![Exploring sample data in the Cosmos DB Emulator](../../../../translated_images/cosmosdb-emulator-persons.bf640586a7077c8985dfd3071946465c8e074c722c7c202d6d714de99a93b90a.pcm.png)
+![Exploring sample data in the Cosmos DB Emulator](../../../../translated_images/pcm/cosmosdb-emulator-persons.bf640586a7077c89.webp)
 
 #### How to Query Document Data with di Cosmos DB Emulator
 
@@ -102,7 +102,7 @@ You fit query di sample data by clicking di new SQL Query button (second button 
 
 `SELECT * FROM c where c.age < 40`
 
- ![Running a SELECT query on sample data in the Cosmos DB Emulator to find documents that have an age field value that is less than 40](../../../../translated_images/cosmosdb-emulator-persons-query.6905ebb497e3cd047cd96e55a0a03f69ce1b91b2b3d8c147e617b746b22b7e33.pcm.png)
+ ![Running a SELECT query on sample data in the Cosmos DB Emulator to find documents that have an age field value that is less than 40](../../../../translated_images/pcm/cosmosdb-emulator-persons-query.6905ebb497e3cd04.webp)
 
 Di query go show two documents, and you go notice say di age value for each document dey less than 40.
 

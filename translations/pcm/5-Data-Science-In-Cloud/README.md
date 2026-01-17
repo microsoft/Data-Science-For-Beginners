@@ -9,13 +9,13 @@ CO_OP_TRANSLATOR_METADATA:
 -->
 # Data Science for Cloud
 
-![cloud-picture](../../../translated_images/cloud-picture.f5526de3c6c6387b2d656ba94f019b3352e5e3854a78440e4fb00c93e2dea675.pcm.jpg)
+![cloud-picture](../../../translated_images/pcm/cloud-picture.f5526de3c6c6387b.webp)
 
 > Foto by [Jelleke Vanooteghem](https://unsplash.com/@ilumire) from [Unsplash](https://unsplash.com/s/photos/cloud?orientation=landscape)
 
 Wen e reach to do data science wit big data, cloud fit change di game. For di next three lessons, we go see wetin cloud be and why e fit dey very helpful. We go still check one heart failure dataset and build one model wey go help us know di chance wey person fit get heart failure. We go use di power of cloud to train, deploy, and use di model for two different ways. One way na to use only di user interface for Low code/No code style, di other way na to use di Azure Machine Learning Software Developer Kit (Azure ML SDK).
 
-![project-schema](../../../translated_images/project-schema.420e56d495624541eaecf2b737f138c86fb7d8162bb1c0bf8783c350872ffc4d.pcm.png)
+![project-schema](../../../translated_images/pcm/project-schema.420e56d495624541.webp)
 
 ### Topics
 
