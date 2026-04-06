@@ -1,0 +1,566 @@
+{
+  "1-Introduction/01-defining-data-science/README.md": {
+    "original_hash": "43212cc1ac137b7bb1dcfb37ca06b0f4",
+    "translation_date": "2026-04-06T16:57:44+00:00",
+    "source_file": "1-Introduction/01-defining-data-science/README.md",
+    "language_code": "km"
+  },
+  "1-Introduction/01-defining-data-science/assignment.md": {
+    "original_hash": "4e0f1773b9bee1be3b28f9fe2c71b3de",
+    "translation_date": "2026-04-06T16:57:58+00:00",
+    "source_file": "1-Introduction/01-defining-data-science/assignment.md",
+    "language_code": "km"
+  },
+  "1-Introduction/01-defining-data-science/notebook.ipynb": {
+    "original_hash": "8f5eb7b3f7cc89e6d98fb32e1de65dec",
+    "translation_date": "2026-04-06T17:46:26+00:00",
+    "source_file": "1-Introduction/01-defining-data-science/notebook.ipynb",
+    "language_code": "km"
+  },
+  "1-Introduction/01-defining-data-science/solution/assignment.md": {
+    "original_hash": "a8f79b9c0484c35b4f26e8aec7fc4d56",
+    "translation_date": "2026-04-06T17:06:32+00:00",
+    "source_file": "1-Introduction/01-defining-data-science/solution/assignment.md",
+    "language_code": "km"
+  },
+  "1-Introduction/01-defining-data-science/solution/notebook.ipynb": {
+    "original_hash": "090bbfbfcb0c40d3d6e3236f836164ea",
+    "translation_date": "2026-04-06T17:49:24+00:00",
+    "source_file": "1-Introduction/01-defining-data-science/solution/notebook.ipynb",
+    "language_code": "km"
+  },
+  "1-Introduction/02-ethics/README.md": {
+    "original_hash": "58860ce9a4b8a564003d2752f7c72851",
+    "translation_date": "2026-04-06T17:05:35+00:00",
+    "source_file": "1-Introduction/02-ethics/README.md",
+    "language_code": "km"
+  },
+  "1-Introduction/02-ethics/assignment.md": {
+    "original_hash": "b588c0fc73014f52520c666efc3e0cc3",
+    "translation_date": "2026-04-06T17:05:58+00:00",
+    "source_file": "1-Introduction/02-ethics/assignment.md",
+    "language_code": "km"
+  },
+  "1-Introduction/03-defining-data/README.md": {
+    "original_hash": "12339119c0165da569a93ddba05f9339",
+    "translation_date": "2026-04-06T17:01:57+00:00",
+    "source_file": "1-Introduction/03-defining-data/README.md",
+    "language_code": "km"
+  },
+  "1-Introduction/03-defining-data/assignment.md": {
+    "original_hash": "2e5cacb967c1e9dfd07809bfc441a0b4",
+    "translation_date": "2026-04-06T17:02:10+00:00",
+    "source_file": "1-Introduction/03-defining-data/assignment.md",
+    "language_code": "km"
+  },
+  "1-Introduction/04-stats-and-probability/README.md": {
+    "original_hash": "ce95884566a74db72572cd51f0cb25ad",
+    "translation_date": "2026-04-06T17:00:29+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/README.md",
+    "language_code": "km"
+  },
+  "1-Introduction/04-stats-and-probability/assignment.ipynb": {
+    "original_hash": "6d945fd15163f60cb473dbfe04b2d100",
+    "translation_date": "2026-04-06T17:48:30+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/assignment.ipynb",
+    "language_code": "km"
+  },
+  "1-Introduction/04-stats-and-probability/assignment.md": {
+    "original_hash": "01d1b493e8b51a6ebb42524f6b1bcfff",
+    "translation_date": "2026-04-06T17:00:49+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/assignment.md",
+    "language_code": "km"
+  },
+  "1-Introduction/04-stats-and-probability/notebook.ipynb": {
+    "original_hash": "0f899e3c5019f948e7c787b22f3b2304",
+    "translation_date": "2026-04-06T17:48:05+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/notebook.ipynb",
+    "language_code": "km"
+  },
+  "1-Introduction/04-stats-and-probability/solution/assignment.ipynb": {
+    "original_hash": "ebf5783d7ab3f7ab30a437492a30b229",
+    "translation_date": "2026-04-06T17:49:56+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/solution/assignment.ipynb",
+    "language_code": "km"
+  },
+  "1-Introduction/README.md": {
+    "original_hash": "696a8474a01054281704cbfb09148949",
+    "translation_date": "2026-04-06T16:52:48+00:00",
+    "source_file": "1-Introduction/README.md",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/05-relational-databases/README.md": {
+    "original_hash": "11739c7b40e7c6b16ad29e3df4e65862",
+    "translation_date": "2026-04-06T17:25:37+00:00",
+    "source_file": "2-Working-With-Data/05-relational-databases/README.md",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/05-relational-databases/assignment.md": {
+    "original_hash": "25b37acdfb2452917c1aa2e2ca44317a",
+    "translation_date": "2026-04-06T17:26:01+00:00",
+    "source_file": "2-Working-With-Data/05-relational-databases/assignment.md",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/06-non-relational/README.md": {
+    "original_hash": "c182e87f9f80be7e7cdffc7b40bbfccf",
+    "translation_date": "2026-04-06T17:22:23+00:00",
+    "source_file": "2-Working-With-Data/06-non-relational/README.md",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/06-non-relational/assignment.md": {
+    "original_hash": "f824bfdb8b12d33293913f76f5c787c5",
+    "translation_date": "2026-04-06T17:22:36+00:00",
+    "source_file": "2-Working-With-Data/06-non-relational/assignment.md",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/07-python/R/notebook.ipynb": {
+    "original_hash": "96055e5b4288cab076079d967d88e75f",
+    "translation_date": "2026-04-06T18:06:15+00:00",
+    "source_file": "2-Working-With-Data/07-python/R/notebook.ipynb",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/07-python/README.md": {
+    "original_hash": "7bfec050f4717dcc2dfd028aca9d21f3",
+    "translation_date": "2026-04-06T17:20:46+00:00",
+    "source_file": "2-Working-With-Data/07-python/README.md",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/07-python/assignment.md": {
+    "original_hash": "dc8f035ce92e4eaa078ab19caa68267a",
+    "translation_date": "2026-04-06T17:21:03+00:00",
+    "source_file": "2-Working-With-Data/07-python/assignment.md",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/07-python/notebook-covidspread.ipynb": {
+    "original_hash": "6335cccba01dc6ad7b15aba7a8c73f38",
+    "translation_date": "2026-04-06T17:53:49+00:00",
+    "source_file": "2-Working-With-Data/07-python/notebook-covidspread.ipynb",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/07-python/notebook-papers.ipynb": {
+    "original_hash": "563424d708ece56f0ef9b78b58755442",
+    "translation_date": "2026-04-06T17:52:19+00:00",
+    "source_file": "2-Working-With-Data/07-python/notebook-papers.ipynb",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/07-python/notebook.ipynb": {
+    "original_hash": "1eee5e4aa24fb5c945b43cbcda282de8",
+    "translation_date": "2026-04-06T17:54:54+00:00",
+    "source_file": "2-Working-With-Data/07-python/notebook.ipynb",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/08-data-preparation/README.md": {
+    "original_hash": "1b560955ff39a2bcf2a049fce474a951",
+    "translation_date": "2026-04-06T17:24:20+00:00",
+    "source_file": "2-Working-With-Data/08-data-preparation/README.md",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/08-data-preparation/assignment.ipynb": {
+    "original_hash": "ea753231e2dbdcf8d2e7e976784cbe2a",
+    "translation_date": "2026-04-06T18:05:20+00:00",
+    "source_file": "2-Working-With-Data/08-data-preparation/assignment.ipynb",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/08-data-preparation/assignment.md": {
+    "original_hash": "f9d5a7275e046223fa6474477674b810",
+    "translation_date": "2026-04-06T17:24:32+00:00",
+    "source_file": "2-Working-With-Data/08-data-preparation/assignment.md",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/08-data-preparation/notebook.ipynb": {
+    "original_hash": "6301339d1c9a301b00639c635dc9b731",
+    "translation_date": "2026-04-06T18:05:09+00:00",
+    "source_file": "2-Working-With-Data/08-data-preparation/notebook.ipynb",
+    "language_code": "km"
+  },
+  "2-Working-With-Data/README.md": {
+    "original_hash": "abc3309ab41bc5a7846f70ee1a055838",
+    "translation_date": "2026-04-06T16:54:44+00:00",
+    "source_file": "2-Working-With-Data/README.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/09-visualization-quantities/README.md": {
+    "original_hash": "a49d78e32e280c410f04e5f2a2068e77",
+    "translation_date": "2026-04-06T17:32:10+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/README.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/09-visualization-quantities/assignment.md": {
+    "original_hash": "ad163c4fda72c8278280b61cad317ff4",
+    "translation_date": "2026-04-06T17:32:21+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/assignment.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/09-visualization-quantities/notebook.ipynb": {
+    "original_hash": "33e5c5d3f0630388e20f2e161bd4cdf3",
+    "translation_date": "2026-04-06T18:06:58+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/notebook.ipynb",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/09-visualization-quantities/solution/notebook.ipynb": {
+    "original_hash": "b19267e699cacd851d2bf56fe99fc589",
+    "translation_date": "2026-04-06T18:08:28+00:00",
+    "source_file": "3-Data-Visualization/09-visualization-quantities/solution/notebook.ipynb",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/10-visualization-distributions/README.md": {
+    "original_hash": "80a20467e046d312809d008395051fc7",
+    "translation_date": "2026-04-06T17:26:58+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/README.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/10-visualization-distributions/assignment.md": {
+    "original_hash": "40eeb9b9f94009c537c7811f9f27f037",
+    "translation_date": "2026-04-06T17:27:10+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/assignment.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/10-visualization-distributions/notebook.ipynb": {
+    "original_hash": "e5272cbcbffd1ddcc09e44d3d8e7e8cd",
+    "translation_date": "2026-04-06T18:06:22+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/notebook.ipynb",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/10-visualization-distributions/solution/notebook.ipynb": {
+    "original_hash": "7fbf767d839628bf761fd53b8824bae0",
+    "translation_date": "2026-04-06T18:07:27+00:00",
+    "source_file": "3-Data-Visualization/10-visualization-distributions/solution/notebook.ipynb",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/11-visualization-proportions/README.md": {
+    "original_hash": "42119bcc97bee88254e381156d770f3c",
+    "translation_date": "2026-04-06T17:29:37+00:00",
+    "source_file": "3-Data-Visualization/11-visualization-proportions/README.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/11-visualization-proportions/assignment.md": {
+    "original_hash": "1e00fe6a244c2f8f9a794c862661dd4f",
+    "translation_date": "2026-04-06T17:29:47+00:00",
+    "source_file": "3-Data-Visualization/11-visualization-proportions/assignment.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/11-visualization-proportions/notebook.ipynb": {
+    "original_hash": "397e9bbc0743761dbf72e5f16b7043e6",
+    "translation_date": "2026-04-06T18:06:36+00:00",
+    "source_file": "3-Data-Visualization/11-visualization-proportions/notebook.ipynb",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/11-visualization-proportions/solution/notebook.ipynb": {
+    "original_hash": "fad4270d3543a90c551c57de8e53940f",
+    "translation_date": "2026-04-06T18:08:01+00:00",
+    "source_file": "3-Data-Visualization/11-visualization-proportions/solution/notebook.ipynb",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/12-visualization-relationships/README.md": {
+    "original_hash": "0764fd4077f3f04a1d968ec371227744",
+    "translation_date": "2026-04-06T17:28:20+00:00",
+    "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/12-visualization-relationships/assignment.md": {
+    "original_hash": "680419753c086eef51be86607c623945",
+    "translation_date": "2026-04-06T17:28:32+00:00",
+    "source_file": "3-Data-Visualization/12-visualization-relationships/assignment.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/12-visualization-relationships/notebook.ipynb": {
+    "original_hash": "0f988634b7192626d91cc33b4b6388c5",
+    "translation_date": "2026-04-06T18:06:29+00:00",
+    "source_file": "3-Data-Visualization/12-visualization-relationships/notebook.ipynb",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/12-visualization-relationships/solution/notebook.ipynb": {
+    "original_hash": "6dc6d959b7a74ab98a06ca0c23248709",
+    "translation_date": "2026-04-06T18:07:48+00:00",
+    "source_file": "3-Data-Visualization/12-visualization-relationships/solution/notebook.ipynb",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/13-meaningful-visualizations/README.md": {
+    "original_hash": "cfb068050337a36e348debaa502a24fa",
+    "translation_date": "2026-04-06T17:31:00+00:00",
+    "source_file": "3-Data-Visualization/13-meaningful-visualizations/README.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/13-meaningful-visualizations/assignment.md": {
+    "original_hash": "e56df4c0f49357e30ac8fc77aa439dd4",
+    "translation_date": "2026-04-06T17:31:11+00:00",
+    "source_file": "3-Data-Visualization/13-meaningful-visualizations/assignment.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/13-meaningful-visualizations/correlation-analysis.ipynb": {
+    "original_hash": "8ad076c4d4df20aa5939d32b7a50baff",
+    "translation_date": "2026-04-06T18:06:50+00:00",
+    "source_file": "3-Data-Visualization/13-meaningful-visualizations/correlation-analysis.ipynb",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/13-meaningful-visualizations/solution/README.md": {
+    "original_hash": "5c51a54dd89075a7a362890117b7ed9e",
+    "translation_date": "2026-04-06T17:32:45+00:00",
+    "source_file": "3-Data-Visualization/13-meaningful-visualizations/solution/README.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/13-meaningful-visualizations/starter/README.md": {
+    "original_hash": "5c51a54dd89075a7a362890117b7ed9e",
+    "translation_date": "2026-04-06T17:32:33+00:00",
+    "source_file": "3-Data-Visualization/13-meaningful-visualizations/starter/README.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/R/09-visualization-quantities/README.md": {
+    "original_hash": "22acf28f518a4769ea14fa42f4734b9f",
+    "translation_date": "2026-04-06T17:36:52+00:00",
+    "source_file": "3-Data-Visualization/R/09-visualization-quantities/README.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/R/09-visualization-quantities/assignment.md": {
+    "original_hash": "0ea21b6513df5ade7419c6b7d65f10b1",
+    "translation_date": "2026-04-06T17:37:04+00:00",
+    "source_file": "3-Data-Visualization/R/09-visualization-quantities/assignment.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/R/10-visualization-distributions/README.md": {
+    "original_hash": "ea67c0c40808fd723594de6896c37ccf",
+    "translation_date": "2026-04-06T17:33:44+00:00",
+    "source_file": "3-Data-Visualization/R/10-visualization-distributions/README.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/R/10-visualization-distributions/assignment.md": {
+    "original_hash": "a233d542512136c4dd29aad38ca0175f",
+    "translation_date": "2026-04-06T17:33:54+00:00",
+    "source_file": "3-Data-Visualization/R/10-visualization-distributions/assignment.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/R/11-visualization-proportions/README.md": {
+    "original_hash": "47028abaaafa2bcb1079702d20569066",
+    "translation_date": "2026-04-06T17:35:36+00:00",
+    "source_file": "3-Data-Visualization/R/11-visualization-proportions/README.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/R/12-visualization-relationships/README.md": {
+    "original_hash": "a33c5d4b4156a2b41788d8720b6f724c",
+    "translation_date": "2026-04-06T17:34:50+00:00",
+    "source_file": "3-Data-Visualization/R/12-visualization-relationships/README.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/R/13-meaningful-vizualizations/README.md": {
+    "original_hash": "b4039f1c76548d144a0aee0bf28304ec",
+    "translation_date": "2026-04-06T17:38:37+00:00",
+    "source_file": "3-Data-Visualization/R/13-meaningful-vizualizations/README.md",
+    "language_code": "km"
+  },
+  "3-Data-Visualization/README.md": {
+    "original_hash": "1441550a0d789796b2821e04f7f4cc94",
+    "translation_date": "2026-04-06T16:55:37+00:00",
+    "source_file": "3-Data-Visualization/README.md",
+    "language_code": "km"
+  },
+  "4-Data-Science-Lifecycle/14-Introduction/README.md": {
+    "original_hash": "07e12a25d20b8f191e3cb651c27fdb2b",
+    "translation_date": "2026-04-06T17:18:21+00:00",
+    "source_file": "4-Data-Science-Lifecycle/14-Introduction/README.md",
+    "language_code": "km"
+  },
+  "4-Data-Science-Lifecycle/14-Introduction/assignment.md": {
+    "original_hash": "564445c39ad29a491abcb9356fc4d47d",
+    "translation_date": "2026-04-06T17:18:37+00:00",
+    "source_file": "4-Data-Science-Lifecycle/14-Introduction/assignment.md",
+    "language_code": "km"
+  },
+  "4-Data-Science-Lifecycle/14-Introduction/notebook.ipynb": {
+    "original_hash": "3bd4c20c4e8f3158f483f0f1cc543bb1",
+    "translation_date": "2026-04-06T17:50:57+00:00",
+    "source_file": "4-Data-Science-Lifecycle/14-Introduction/notebook.ipynb",
+    "language_code": "km"
+  },
+  "4-Data-Science-Lifecycle/15-analyzing/README.md": {
+    "original_hash": "661dad02c3ac239644d34c1eb51e76f8",
+    "translation_date": "2026-04-06T17:17:03+00:00",
+    "source_file": "4-Data-Science-Lifecycle/15-analyzing/README.md",
+    "language_code": "km"
+  },
+  "4-Data-Science-Lifecycle/15-analyzing/assignment.ipynb": {
+    "original_hash": "7bca1c1abc1e55842817b62e44e1a963",
+    "translation_date": "2026-04-06T17:50:50+00:00",
+    "source_file": "4-Data-Science-Lifecycle/15-analyzing/assignment.ipynb",
+    "language_code": "km"
+  },
+  "4-Data-Science-Lifecycle/15-analyzing/assignment.md": {
+    "original_hash": "fcc7547171f4530f159676dd73ed772e",
+    "translation_date": "2026-04-06T17:17:18+00:00",
+    "source_file": "4-Data-Science-Lifecycle/15-analyzing/assignment.md",
+    "language_code": "km"
+  },
+  "4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb": {
+    "original_hash": "9d102c8c3cdbc8ea4e92fc32593462c6",
+    "translation_date": "2026-04-06T17:50:38+00:00",
+    "source_file": "4-Data-Science-Lifecycle/15-analyzing/notebook.ipynb",
+    "language_code": "km"
+  },
+  "4-Data-Science-Lifecycle/16-communication/README.md": {
+    "original_hash": "215a3254ba5a222a57c5bb0192cea8e3",
+    "translation_date": "2026-04-06T17:16:09+00:00",
+    "source_file": "4-Data-Science-Lifecycle/16-communication/README.md",
+    "language_code": "km"
+  },
+  "4-Data-Science-Lifecycle/16-communication/assignment.md": {
+    "original_hash": "8980d7efd101c82d6d6ffc3458214120",
+    "translation_date": "2026-04-06T17:16:21+00:00",
+    "source_file": "4-Data-Science-Lifecycle/16-communication/assignment.md",
+    "language_code": "km"
+  },
+  "4-Data-Science-Lifecycle/README.md": {
+    "original_hash": "dd173fd30fc039a7a299898920680723",
+    "translation_date": "2026-04-06T16:53:16+00:00",
+    "source_file": "4-Data-Science-Lifecycle/README.md",
+    "language_code": "km"
+  },
+  "5-Data-Science-In-Cloud/17-Introduction/README.md": {
+    "original_hash": "5f8e7cdefa096664ae86f795be571580",
+    "translation_date": "2026-04-06T17:13:44+00:00",
+    "source_file": "5-Data-Science-In-Cloud/17-Introduction/README.md",
+    "language_code": "km"
+  },
+  "5-Data-Science-In-Cloud/17-Introduction/assignment.md": {
+    "original_hash": "96f3696153d9ed54b19a1bb65438c104",
+    "translation_date": "2026-04-06T17:13:57+00:00",
+    "source_file": "5-Data-Science-In-Cloud/17-Introduction/assignment.md",
+    "language_code": "km"
+  },
+  "5-Data-Science-In-Cloud/18-Low-Code/README.md": {
+    "original_hash": "bd4da10766c64fce4294a98f6479dfb0",
+    "translation_date": "2026-04-06T17:12:17+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/README.md",
+    "language_code": "km"
+  },
+  "5-Data-Science-In-Cloud/18-Low-Code/assignment.md": {
+    "original_hash": "8fdc4a5fd9bc27a8d2ebef995dfbf73f",
+    "translation_date": "2026-04-06T17:12:36+00:00",
+    "source_file": "5-Data-Science-In-Cloud/18-Low-Code/assignment.md",
+    "language_code": "km"
+  },
+  "5-Data-Science-In-Cloud/19-Azure/README.md": {
+    "original_hash": "472d3fab1c5be50f387336e7a686dbe1",
+    "translation_date": "2026-04-06T17:09:30+00:00",
+    "source_file": "5-Data-Science-In-Cloud/19-Azure/README.md",
+    "language_code": "km"
+  },
+  "5-Data-Science-In-Cloud/19-Azure/assignment.md": {
+    "original_hash": "386efdbc19786951341f6956247ee990",
+    "translation_date": "2026-04-06T17:09:49+00:00",
+    "source_file": "5-Data-Science-In-Cloud/19-Azure/assignment.md",
+    "language_code": "km"
+  },
+  "5-Data-Science-In-Cloud/19-Azure/notebook.ipynb": {
+    "original_hash": "af42669556d5dc19fc4cc3866f7d2597",
+    "translation_date": "2026-04-06T17:50:31+00:00",
+    "source_file": "5-Data-Science-In-Cloud/19-Azure/notebook.ipynb",
+    "language_code": "km"
+  },
+  "5-Data-Science-In-Cloud/README.md": {
+    "original_hash": "8dfe141a0f46f7d253e07f74913c7f44",
+    "translation_date": "2026-04-06T16:53:06+00:00",
+    "source_file": "5-Data-Science-In-Cloud/README.md",
+    "language_code": "km"
+  },
+  "6-Data-Science-In-Wild/20-Real-World-Examples/README.md": {
+    "original_hash": "0f67a4139454816631526779a456b734",
+    "translation_date": "2026-04-06T17:40:45+00:00",
+    "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
+    "language_code": "km"
+  },
+  "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md": {
+    "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
+    "translation_date": "2026-04-06T17:45:25+00:00",
+    "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
+    "language_code": "km"
+  },
+  "6-Data-Science-In-Wild/README.md": {
+    "original_hash": "07faf02ff163e609edf0b0308dc5d4e6",
+    "translation_date": "2026-04-06T16:55:45+00:00",
+    "source_file": "6-Data-Science-In-Wild/README.md",
+    "language_code": "km"
+  },
+  "AGENTS.md": {
+    "original_hash": "cc2e18ab65df63e75d3619c4752e9b22",
+    "translation_date": "2026-04-06T16:48:03+00:00",
+    "source_file": "AGENTS.md",
+    "language_code": "km"
+  },
+  "CODE_OF_CONDUCT.md": {
+    "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
+    "translation_date": "2026-04-06T16:48:14+00:00",
+    "source_file": "CODE_OF_CONDUCT.md",
+    "language_code": "km"
+  },
+  "CONTRIBUTING.md": {
+    "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
+    "translation_date": "2026-04-06T16:44:11+00:00",
+    "source_file": "CONTRIBUTING.md",
+    "language_code": "km"
+  },
+  "INSTALLATION.md": {
+    "original_hash": "a64d8afa22ffcc2016bb239188d6acb1",
+    "translation_date": "2026-04-06T16:49:04+00:00",
+    "source_file": "INSTALLATION.md",
+    "language_code": "km"
+  },
+  "README.md": {
+    "original_hash": "0b97d87bdd9506ce0239c2d7257f04d6",
+    "translation_date": "2026-04-06T16:52:30+00:00",
+    "source_file": "README.md",
+    "language_code": "km"
+  },
+  "SECURITY.md": {
+    "original_hash": "0d575483100c332b2dbaefef915bb3c4",
+    "translation_date": "2026-04-06T16:49:28+00:00",
+    "source_file": "SECURITY.md",
+    "language_code": "km"
+  },
+  "SUPPORT.md": {
+    "original_hash": "872be8bc1b93ef1dd9ac3d6e8f99f6ab",
+    "translation_date": "2026-04-06T16:42:58+00:00",
+    "source_file": "SUPPORT.md",
+    "language_code": "km"
+  },
+  "TROUBLESHOOTING.md": {
+    "original_hash": "93a6a8a8a209128cbfedcbc076ee21b0",
+    "translation_date": "2026-04-06T16:46:22+00:00",
+    "source_file": "TROUBLESHOOTING.md",
+    "language_code": "km"
+  },
+  "USAGE.md": {
+    "original_hash": "f546349678757508d69ce9e1d2688446",
+    "translation_date": "2026-04-06T16:42:48+00:00",
+    "source_file": "USAGE.md",
+    "language_code": "km"
+  },
+  "docs/_sidebar.md": {
+    "original_hash": "3767555b3cc28a2865c79202f4374204",
+    "translation_date": "2026-04-06T16:55:00+00:00",
+    "source_file": "docs/_sidebar.md",
+    "language_code": "km"
+  },
+  "examples/README.md": {
+    "original_hash": "9bef7fd96c8f262339933117d9b3e342",
+    "translation_date": "2026-04-06T16:54:33+00:00",
+    "source_file": "examples/README.md",
+    "language_code": "km"
+  },
+  "for-teachers.md": {
+    "original_hash": "f7440be10c17a8a9262713af3d2818a9",
+    "translation_date": "2026-04-06T16:41:32+00:00",
+    "source_file": "for-teachers.md",
+    "language_code": "km"
+  },
+  "quiz-app/README.md": {
+    "original_hash": "e92c33ea498915a13c9aec162616db18",
+    "translation_date": "2026-04-06T16:53:49+00:00",
+    "source_file": "quiz-app/README.md",
+    "language_code": "km"
+  },
+  "sketchnotes/README.md": {
+    "original_hash": "3a848466cb63aff1a93411affb152c2a",
+    "translation_date": "2026-04-06T16:55:08+00:00",
+    "source_file": "sketchnotes/README.md",
+    "language_code": "km"
+  }
+}
