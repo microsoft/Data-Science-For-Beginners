@@ -1,43 +1,43 @@
-# Khoa học dữ liệu cho người mới bắt đầu - Một chương trình học
+# Khoa học dữ liệu cho người mới bắt đầu - Chương trình học
 
-[![Mở trong GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
 
-[![Giấy phép GitHub](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
-[![Người đóng góp GitHub](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
-[![Vấn đề GitHub](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
-[![Yêu cầu kéo GitHub](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
-[![Chào đón PR](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub license](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![Người theo dõi GitHub](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
-[![Nhánh GitHub](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
-[![Sao GitHub](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
+[![GitHub stars](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
 
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-[![Diễn đàn Nhà phát triển Microsoft Foundry](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+[![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-Nhóm Đại sứ Đám mây Azure tại Microsoft vui mừng cung cấp một chương trình học 10 tuần, 20 bài học toàn bộ về Khoa học Dữ liệu. Mỗi bài học bao gồm kiểm tra trước và sau bài, hướng dẫn chi tiết để hoàn thành bài học, lời giải và bài tập. Phương pháp học dựa trên dự án cho phép bạn học trong khi xây dựng, một cách đã được chứng minh để các kỹ năng mới "bám dính".
+Các Nhà vận động Điện toán Đám mây Azure tại Microsoft vui mừng giới thiệu một chương trình học 10 tuần, 20 bài học hoàn toàn về Khoa học Dữ liệu. Mỗi bài học bao gồm các bài kiểm tra trước và sau bài học, hướng dẫn bằng văn bản để hoàn thành bài học, một giải pháp và một bài tập. Phương pháp giảng dạy dựa trên dự án cho phép bạn học đồng thời với việc xây dựng, một cách đã được chứng minh để các kỹ năng mới được "giữ lại".
 
-**Xin chân thành cảm ơn các tác giả của chúng tôi:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
+**Chân thành cảm ơn các tác giả của chúng tôi:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
-**🙏 Đặc biệt cảm ơn 🙏 các tác giả, người đánh giá và đóng góp nội dung [Đại sứ Sinh viên Microsoft](https://studentambassadors.microsoft.com/),** đặc biệt là Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+**🙏 Đặc biệt cảm ơn 🙏 các tác giả, người đánh giá và đóng góp nội dung [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/),** nổi bật là Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
 [Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
 
 |![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/vi/00-Title.8af36cd35da1ac55.webp)|
 |:---:|
-| Khoa học Dữ liệu cho Người mới bắt đầu - _Sketchnote bởi [@nitya](https://twitter.com/nitya)_ |
+| Khoa học dữ liệu cho người mới bắt đầu - _Sketchnote bởi [@nitya](https://twitter.com/nitya)_ |
 
 ### 🌐 Hỗ trợ đa ngôn ngữ
 
-#### Được hỗ trợ qua GitHub Action (Tự động & Luôn cập nhật)
+#### Hỗ trợ qua GitHub Action (Tự động & Luôn cập nhật)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](./README.md)
+[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Khmer](../km/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](./README.md)
 
-> **Thích sao chép về máy (Clone) cục bộ?**
+> **Ưu tiên sao chép về máy?**
 >
-> Kho lưu trữ này bao gồm hơn 50 bản dịch ngôn ngữ, điều này làm tăng đáng kể kích thước tải xuống. Để sao chép mà không có bản dịch, hãy sử dụng sparse checkout:
+> Kho lưu trữ này bao gồm hơn 50 bản dịch ngôn ngữ làm tăng kích thước tải xuống đáng kể. Để sao chép mà không có bản dịch, hãy sử dụng sparse checkout:
 >
 > **Bash / macOS / Linux:**
 > ```bash
@@ -53,211 +53,210 @@ Nhóm Đại sứ Đám mây Azure tại Microsoft vui mừng cung cấp một c
 > git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
 > ```
 >
-> Điều này cho bạn mọi thứ bạn cần để hoàn thành khóa học với tốc độ tải xuống nhanh hơn nhiều.
+> Điều này cung cấp cho bạn tất cả những gì bạn cần để hoàn thành khóa học với tốc độ tải xuống nhanh hơn nhiều.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**Nếu bạn muốn hỗ trợ thêm các ngôn ngữ dịch thuật, các ngôn ngữ được hỗ trợ được liệt kê [tại đây](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**Nếu bạn muốn có thêm các ngôn ngữ bản dịch, các ngôn ngữ được hỗ trợ được liệt kê [tại đây](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
 
-#### Tham gia cộng đồng của chúng tôi 
+#### Tham gia Cộng đồng của chúng tôi 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Chúng tôi có một chuỗi học tập Discord với chủ đề AI đang diễn ra, tìm hiểu thêm và tham gia với chúng tôi tại [Chuỗi học với AI](https://aka.ms/learnwithai/discord) từ ngày 18 đến 30 tháng 9 năm 2025. Bạn sẽ nhận được các mẹo và thủ thuật sử dụng GitHub Copilot cho Khoa học Dữ liệu.
+Chúng tôi đang có một loạt chương trình học trên Discord với chủ đề học cùng AI, tìm hiểu thêm và tham gia cùng chúng tôi tại [Learn with AI Series](https://aka.ms/learnwithai/discord) từ ngày 18 - 30 tháng 9 năm 2025. Bạn sẽ nhận được các mẹo và thủ thuật sử dụng GitHub Copilot cho Khoa học Dữ liệu.
 
-![Chuỗi học với AI](../../translated_images/vi/1.2b28cdc6205e26fe.webp)
+![Learn with AI series](../../translated_images/vi/1.2b28cdc6205e26fe.webp)
 
 # Bạn là sinh viên?
 
-Bắt đầu với các tài nguyên sau đây:
+Bắt đầu với các tài nguyên sau:
 
-- [Trang Trung tâm Sinh viên](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Trong trang này, bạn sẽ tìm thấy tài nguyên dành cho người mới bắt đầu, bộ dụng cụ dành cho sinh viên và thậm chí cả cách nhận phiếu chứng nhận miễn phí. Đây là trang bạn nên đánh dấu trang và kiểm tra định kỳ vì chúng tôi thay đổi nội dung ít nhất hàng tháng.
-- [Đại sứ Sinh viên Microsoft Learn](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Tham gia cộng đồng đại sứ sinh viên toàn cầu, đây có thể là con đường của bạn vào Microsoft.
+- [Trang Trung tâm Sinh viên](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) Trong trang này, bạn sẽ tìm thấy các tài nguyên cho người mới bắt đầu, các bộ tài liệu dành cho sinh viên và thậm chí các cách để lấy voucher chứng nhận miễn phí. Đây là một trang bạn nên đánh dấu trang và kiểm tra định kỳ vì chúng tôi thay đổi nội dung ít nhất mỗi tháng.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) Tham gia cộng đồng đại sứ sinh viên toàn cầu, đây có thể là con đường dẫn bạn đến Microsoft.
 
 # Bắt đầu
 
 ## 📚 Tài liệu
 
-- **[Hướng dẫn Cài đặt](INSTALLATION.md)** - Hướng dẫn từng bước thiết lập cho người mới bắt đầu
-- **[Hướng dẫn Sử dụng](USAGE.md)** - Ví dụ và các quy trình làm việc phổ biến
-- **[Khắc phục sự cố](TROUBLESHOOTING.md)** - Giải pháp cho các vấn đề thường gặp
-- **[Hướng dẫn Đóng góp](CONTRIBUTING.md)** - Cách đóng góp cho dự án này
+- **[Hướng dẫn cài đặt](INSTALLATION.md)** - Hướng dẫn cài đặt từng bước cho người mới
+- **[Hướng dẫn sử dụng](USAGE.md)** - Ví dụ và các quy trình làm việc phổ biến
+- **[Khắc phục sự cố](TROUBLESHOOTING.md)** - Giải pháp cho các sự cố thường gặp
+- **[Hướng dẫn đóng góp](CONTRIBUTING.md)** - Cách đóng góp cho dự án này
 - **[Dành cho Giáo viên](for-teachers.md)** - Hướng dẫn giảng dạy và tài nguyên lớp học
 
 ## 👨‍🎓 Dành cho Sinh viên
-> **Người Mới Hoàn Toàn:** Mới bắt đầu với khoa học dữ liệu? Bắt đầu với các [ví dụ thân thiện cho người mới](examples/README.md)! Những ví dụ đơn giản, có chú thích đầy đủ này sẽ giúp bạn hiểu các khái niệm cơ bản trước khi bước vào toàn bộ chương trình.
-> **[Sinh viên](https://aka.ms/student-page):** để sử dụng chương trình này một cách độc lập, hãy fork toàn bộ repo và hoàn thành các bài tập một mình, bắt đầu với bài kiểm tra trước bài giảng. Sau đó đọc bài giảng và hoàn thành các hoạt động còn lại. Hãy cố gắng tạo các dự án bằng cách hiểu bài học thay vì sao chép mã giải pháp; tuy nhiên, mã đó có sẵn trong thư mục /solutions trong mỗi bài học theo dự án. Một ý tưởng khác là lập nhóm học với bạn bè và cùng nhau học nội dung. Để học thêm, chúng tôi khuyên dùng [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
+> **Hoàn toàn mới**: Mới với khoa học dữ liệu? Bắt đầu với các [ví dụ thân thiện với người mới bắt đầu](examples/README.md)! Những ví dụ đơn giản, có chú thích đầy đủ này sẽ giúp bạn hiểu được cơ bản trước khi bước vào toàn bộ chương trình học.
+> **[Sinh viên](https://aka.ms/student-page)**: để sử dụng chương trình học này một mình, hãy fork toàn bộ repo và hoàn thành các bài tập một mình, bắt đầu bằng bài kiểm tra trước bài giảng. Sau đó đọc bài giảng và hoàn thành các hoạt động còn lại. Cố gắng tạo ra các dự án bằng cách hiểu bài học hơn là sao chép mã giải pháp; tuy nhiên, mã đó có sẵn trong các thư mục /solutions trong mỗi bài học theo dự án. Một ý tưởng khác là thành lập nhóm học cùng bạn bè và cùng nhau học nội dung. Để học sâu hơn, chúng tôi khuyên bạn nên dùng [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum).
 
 **Bắt đầu nhanh:**
-1. Kiểm tra [Hướng dẫn Cài đặt](INSTALLATION.md) để thiết lập môi trường của bạn
-2. Xem qua [Hướng dẫn Sử dụng](USAGE.md) để học cách làm việc với chương trình học
-3. Bắt đầu với Bài 1 và làm lần lượt theo thứ tự
-4. Tham gia cộng đồng [Discord của chúng tôi](https://aka.ms/ds4beginners/discord) để được hỗ trợ
+1. Xem [Hướng dẫn cài đặt](INSTALLATION.md) để thiết lập môi trường của bạn
+2. Xem qua [Hướng dẫn sử dụng](USAGE.md) để học cách làm việc với chương trình học
+3. Bắt đầu với Bài học 1 và làm tuần tự
+4. Tham gia [cộng đồng Discord](https://aka.ms/ds4beginners/discord) để được hỗ trợ
 
 ## 👩‍🏫 Dành cho Giáo viên
-> **Giáo viên**: chúng tôi đã [bao gồm một số đề xuất](for-teachers.md) về cách sử dụng chương trình giảng dạy này. Chúng tôi rất mong nhận được phản hồi của bạn [trong diễn đàn thảo luận của chúng tôi](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
+> **Giáo viên**: chúng tôi đã [bao gồm một số gợi ý](for-teachers.md) về cách sử dụng chương trình giảng dạy này. Chúng tôi rất mong nhận được phản hồi của bạn [trong diễn đàn thảo luận của chúng tôi](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 
 ## Gặp gỡ Đội ngũ
 
-[![Video quảng cáo](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Video quảng cáo")
+[![Video giới thiệu](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "Video giới thiệu")
 
 **Gif bởi** [Mohit Jaisal](https://www.linkedin.com/in/mohitjaisal)
 
-> 🎥 Nhấn vào hình ảnh ở trên để xem video về dự án và những người đã tạo ra nó!
+> 🎥 Nhấp vào hình ảnh phía trên để xem video về dự án và những người đã tạo ra nó!
 
 ## Phương pháp giảng dạy
 
-Chúng tôi đã chọn hai nguyên tắc sư phạm khi xây dựng chương trình giảng dạy này: đảm bảo rằng nó dựa trên dự án và bao gồm các bài kiểm tra thường xuyên. Vào cuối chuỗi này, học viên sẽ học được các nguyên tắc cơ bản về khoa học dữ liệu, bao gồm các khái niệm về đạo đức, chuẩn bị dữ liệu, các cách khác nhau để làm việc với dữ liệu, trực quan hóa dữ liệu, phân tích dữ liệu, các trường hợp sử dụng khoa học dữ liệu trong thực tế, và nhiều hơn nữa.
+Chúng tôi đã chọn hai nguyên tắc giảng dạy khi xây dựng chương trình này: đảm bảo rằng nó dựa trên dự án và bao gồm các bài kiểm tra thường xuyên. Đến cuối loạt bài này, học sinh sẽ học được các nguyên tắc cơ bản của khoa học dữ liệu, bao gồm các khái niệm đạo đức, chuẩn bị dữ liệu, các cách khác nhau để làm việc với dữ liệu, trực quan hóa dữ liệu, phân tích dữ liệu, các trường hợp sử dụng thực tế của khoa học dữ liệu và nhiều hơn nữa.
 
-Ngoài ra, một bài kiểm tra nhẹ nhàng trước lớp tạo ý định học tập cho học viên về một chủ đề, trong khi bài kiểm tra thứ hai sau lớp đảm bảo việc ghi nhớ lâu dài hơn. Chương trình giảng dạy này được thiết kế để linh hoạt và thú vị, có thể học toàn bộ hoặc một phần. Các dự án bắt đầu nhỏ và ngày càng phức tạp hơn vào cuối chu kỳ 10 tuần.
+Ngoài ra, một bài kiểm tra nhẹ nhàng trước khi lên lớp sẽ thiết lập mục đích học tập của học viên về một chủ đề, trong khi bài kiểm tra thứ hai sau lớp đảm bảo việc ghi nhớ lâu hơn. Chương trình này được thiết kế linh hoạt và vui nhộn và có thể được học toàn bộ hoặc từng phần. Các dự án bắt đầu nhỏ và trở nên phức tạp hơn theo chu kỳ 10 tuần.
 
-> Tìm [Bộ Quy tắc Ứng xử](CODE_OF_CONDUCT.md), hướng dẫn [Đóng góp](CONTRIBUTING.md), [Dịch thuật](TRANSLATIONS.md). Chúng tôi hoan nghênh phản hồi mang tính xây dựng của bạn!
+> Tìm [Bộ quy tắc ứng xử](CODE_OF_CONDUCT.md), [Hướng dẫn đóng góp](CONTRIBUTING.md), [Dịch thuật](TRANSLATIONS.md) của chúng tôi. Chúng tôi rất hoan nghênh phản hồi xây dựng của bạn!
 
 ## Mỗi bài học bao gồm:
 
-- Sketchnote tùy chọn
+- Ghi chú tóm tắt tùy chọn
 - Video bổ sung tùy chọn
 - Bài kiểm tra khởi động trước bài học
 - Bài học bằng văn bản
-- Đối với các bài học dựa trên dự án, hướng dẫn từng bước cách xây dựng dự án
+- Đối với các bài học dựa trên dự án, hướng dẫn từng bước để xây dựng dự án
 - Kiểm tra kiến thức
 - Một thử thách
-- Đọc thêm bổ sung
-- Bài tập
-- [Bài kiểm tra sau bài học](https://ff-quizzes.netlify.app/en/)
+- Bài đọc bổ sung
+- Bài kiểm tra [sau bài học](https://ff-quizzes.netlify.app/en/)
 
-> **Lưu ý về các bài kiểm tra**: Tất cả các bài kiểm tra đều nằm trong thư mục Quiz-App, tổng cộng 40 bài kiểm tra với mỗi bài 3 câu hỏi. Các bài kiểm tra được liên kết trong các bài học, nhưng ứng dụng kiểm tra có thể chạy cục bộ hoặc được triển khai trên Azure; hãy làm theo hướng dẫn trong thư mục `quiz-app`. Các bài kiểm tra đang được dịch dần dần.
+> **Lưu ý về bài kiểm tra**: Tất cả các bài kiểm tra được chứa trong thư mục Quiz-App, tổng cộng 40 bài kiểm tra với mỗi bài 3 câu hỏi. Chúng được liên kết trong các bài học, nhưng ứng dụng kiểm tra có thể chạy cục bộ hoặc triển khai trên Azure; làm theo hướng dẫn trong thư mục `quiz-app`. Chúng đang dần được địa phương hóa.
 
-## 🎓 Ví dụ Thân thiện với Người mới bắt đầu
+## 🎓 Ví dụ thân thiện với người mới bắt đầu
 
-**Mới làm quen với Khoa học Dữ liệu?** Chúng tôi đã tạo một [thư mục ví dụ đặc biệt](examples/README.md) với mã nguồn đơn giản, có chú thích rõ ràng để giúp bạn bắt đầu:
+**Mới với Khoa học Dữ liệu?** Chúng tôi đã tạo một thư mục [ví dụ đặc biệt](examples/README.md) với mã đơn giản, có chú thích rõ ràng để giúp bạn bắt đầu:
 
 - 🌟 **Hello World** - Chương trình khoa học dữ liệu đầu tiên của bạn
-- 📂 **Tải Dữ liệu** - Học cách đọc và khám phá bộ dữ liệu
-- 📊 **Phân tích Đơn giản** - Tính toán thống kê và tìm kiếm mẫu
-- 📈 **Trực quan hóa Cơ bản** - Tạo biểu đồ và đồ thị
-- 🔬 **Dự án Thực tế** - Quy trình hoàn chỉnh từ đầu đến cuối
+- 📂 **Tải dữ liệu** - Học cách đọc và khám phá các bộ dữ liệu
+- 📊 **Phân tích đơn giản** - Tính toán thống kê và tìm các mẫu
+- 📈 **Trực quan hóa cơ bản** - Tạo biểu đồ và đồ thị
+- 🔬 **Dự án thực tế** - Quy trình hoàn chỉnh từ đầu đến cuối
 
-Mỗi ví dụ đều có chú thích chi tiết giải thích từng bước, rất phù hợp cho người mới bắt đầu tuyệt đối!
+Mỗi ví dụ đều có chú thích chi tiết giải thích từng bước, phù hợp hoàn hảo cho người mới bắt đầu hoàn toàn!
 
 👉 **[Bắt đầu với các ví dụ](examples/README.md)** 👈
 
 ## Các bài học
 
 
-|![ Sketchnote bởi @sketchthedocs https://sketchthedocs.dev](../../translated_images/vi/00-Roadmap.4905d6567dff4753.webp)|
+|![ Ghi chú tóm tắt bởi @sketchthedocs https://sketchthedocs.dev](../../translated_images/vi/00-Roadmap.4905d6567dff4753.webp)|
 |:---:|
-| Lộ trình Khoa học Dữ liệu cho Người mới bắt đầu - _Sketchnote bởi [@nitya](https://twitter.com/nitya)_ |
+| Khoa học Dữ liệu cho Người mới bắt đầu: Lộ trình - _Ghi chú tóm tắt bởi [@nitya](https://twitter.com/nitya)_ |
 
 
-| Số bài học | Chủ đề | Nhóm bài học | Mục tiêu học tập | Bài học liên kết | Tác giả |
-| :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | Định nghĩa Khoa học Dữ liệu | [Giới thiệu](1-Introduction/README.md) | Tìm hiểu các khái niệm cơ bản về khoa học dữ liệu và mối liên hệ của nó với trí tuệ nhân tạo, học máy và dữ liệu lớn. | [bài học](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
-| 02 | Đạo đức Khoa học Dữ liệu | [Giới thiệu](1-Introduction/README.md) | Các khái niệm, thách thức và khuôn khổ về đạo đức dữ liệu. | [bài học](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
-| 03 | Định nghĩa Dữ liệu | [Giới thiệu](1-Introduction/README.md) | Cách phân loại dữ liệu và các nguồn phổ biến của nó. | [bài học](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 04 | Giới thiệu về Thống kê & Xác suất | [Giới thiệu](1-Introduction/README.md) | Các kỹ thuật toán học về xác suất và thống kê để hiểu dữ liệu. | [bài học](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
-| 05 | Làm việc với Dữ liệu Quan hệ | [Làm việc với dữ liệu](2-Working-With-Data/README.md) | Giới thiệu về dữ liệu quan hệ và cơ bản về khám phá và phân tích dữ liệu quan hệ với Ngôn ngữ Truy vấn Có cấu trúc, còn gọi là SQL (phát âm “xi-kwel”). | [bài học](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
-| 06 | Làm việc với Dữ liệu NoSQL | [Làm việc với dữ liệu](2-Working-With-Data/README.md) | Giới thiệu về dữ liệu phi quan hệ, các loại khác nhau của nó và cơ bản về khám phá và phân tích các cơ sở dữ liệu tài liệu. | [bài học](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique)|
-| 07 | Làm việc với Python | [Làm việc với dữ liệu](2-Working-With-Data/README.md) | Cơ bản về sử dụng Python để khám phá dữ liệu với các thư viện như Pandas. Khuyến nghị có kiến thức nền tảng về lập trình Python. | [bài học](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
-| 08 | Chuẩn bị Dữ liệu | [Làm việc với dữ liệu](2-Working-With-Data/README.md) | Các chủ đề về kỹ thuật dữ liệu để làm sạch và chuyển đổi dữ liệu nhằm xử lý các thách thức về dữ liệu thiếu, không chính xác hoặc không đầy đủ. | [bài học](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
-| 09 | Trực quan hóa Số lượng | [Trực quan hóa dữ liệu](3-Data-Visualization/README.md) | Học cách sử dụng Matplotlib để trực quan hóa dữ liệu chim 🦆 | [bài học](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 10 | Trực quan hóa Phân bố Dữ liệu | [Trực quan hóa dữ liệu](3-Data-Visualization/README.md) | Trực quan hóa các quan sát và xu hướng trong một khoảng. | [bài học](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 11 | Trực quan hóa Tỷ lệ | [Trực quan hóa dữ liệu](3-Data-Visualization/README.md) | Trực quan hóa các phần trăm rời rạc và nhóm. | [bài học](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 12 | Trực quan hóa Mối quan hệ | [Trực quan hóa dữ liệu](3-Data-Visualization/README.md) | Trực quan hóa các kết nối và tương quan giữa các bộ dữ liệu và các biến của chúng. | [bài học](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 13 | Trực quan hóa Có ý nghĩa | [Trực quan hóa dữ liệu](3-Data-Visualization/README.md) | Các kỹ thuật và hướng dẫn giúp trực quan hóa của bạn có giá trị cho việc giải quyết vấn đề và sẽ kiến hiệu quả. | [bài học](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
-| 14 | Giới thiệu về Vòng đời Khoa học Dữ liệu | [Vòng đời](4-Data-Science-Lifecycle/README.md) | Giới thiệu về vòng đời khoa học dữ liệu và bước đầu tiên là thu thập và trích xuất dữ liệu. | [bài học](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
-| 15 | Phân tích | [Vòng đời](4-Data-Science-Lifecycle/README.md) | Giai đoạn này của vòng đời khoa học dữ liệu tập trung vào các kỹ thuật phân tích dữ liệu. | [bài học](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
-| 16 | Giao tiếp | [Vòng đời](4-Data-Science-Lifecycle/README.md) | Giai đoạn này của vòng đời khoa học dữ liệu tập trung vào việc trình bày những hiểu biết từ dữ liệu theo cách giúp người ra quyết định dễ hiểu hơn. | [bài học](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
-| 17 | Khoa học Dữ liệu trên Đám mây | [Dữ liệu Đám mây](5-Data-Science-In-Cloud/README.md) | Chuỗi bài học này giới thiệu về khoa học dữ liệu trên đám mây và các lợi ích của nó. | [bài học](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) và [Maud](https://twitter.com/maudstweets) |
-| 18 | Khoa học Dữ liệu trên Đám mây | [Dữ liệu Đám mây](5-Data-Science-In-Cloud/README.md) | Huấn luyện mô hình sử dụng công cụ Low Code. |[bài học](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) và [Maud](https://twitter.com/maudstweets) |
-| 19 | Khoa học Dữ liệu trên Đám mây | [Dữ liệu Đám mây](5-Data-Science-In-Cloud/README.md) | Triển khai mô hình với Azure Machine Learning Studio. | [bài học](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) và [Maud](https://twitter.com/maudstweets) |
-| 20 | Khoa học Dữ liệu trong Thực tế | [Trong Thực tế](6-Data-Science-In-Wild/README.md) | Các dự án dựa trên khoa học dữ liệu trong thế giới thực. | [bài học](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
+| Số bài học | Chủ đề | Nhóm bài học | Mục tiêu học tập | Liên kết bài học | Tác giả |
+| :---------: | :---------------------------------------: | :---------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------: | :----: |
+| 01 | Định nghĩa Khoa học Dữ liệu | [Giới thiệu](1-Introduction/README.md) | Học các khái niệm cơ bản về khoa học dữ liệu và cách nó liên quan đến trí tuệ nhân tạo, học máy, và dữ liệu lớn. | [bài học](1-Introduction/01-defining-data-science/README.md) [video](https://youtu.be/beZ7Mb_oz9I) | [Dmitry](http://soshnikov.com) |
+| 02 | Đạo đức trong Khoa học Dữ liệu | [Giới thiệu](1-Introduction/README.md) | Các khái niệm, thách thức và khung đạo đức dữ liệu. | [bài học](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
+| 03 | Định nghĩa Dữ liệu | [Giới thiệu](1-Introduction/README.md) | Cách dữ liệu được phân loại và các nguồn phổ biến. | [bài học](1-Introduction/03-defining-data/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 04 | Giới thiệu thống kê & xác suất | [Giới thiệu](1-Introduction/README.md) | Các kỹ thuật toán học về xác suất và thống kê để hiểu dữ liệu. | [bài học](1-Introduction/04-stats-and-probability/README.md) [video](https://youtu.be/Z5Zy85g4Yjw) | [Dmitry](http://soshnikov.com) |
+| 05 | Làm việc với Dữ liệu Quan hệ | [Làm việc với Dữ liệu](2-Working-With-Data/README.md) | Giới thiệu dữ liệu quan hệ và các kiến thức cơ bản về khám phá và phân tích dữ liệu quan hệ với Ngôn ngữ Truy vấn Cấu trúc, hay gọi là SQL (đọc là "see-quell"). | [bài học](2-Working-With-Data/05-relational-databases/README.md) | [Christopher](https://www.twitter.com/geektrainer) | | |
+| 06 | Làm việc với Dữ liệu NoSQL | [Làm việc với Dữ liệu](2-Working-With-Data/README.md) | Giới thiệu dữ liệu phi quan hệ, các loại khác nhau và kiến thức cơ bản về khám phá và phân tích cơ sở dữ liệu tài liệu. | [bài học](2-Working-With-Data/06-non-relational/README.md) | [Jasmine](https://twitter.com/paladique) |
+| 07 | Làm việc với Python | [Làm việc với Dữ liệu](2-Working-With-Data/README.md) | Cơ bản sử dụng Python cho khám phá dữ liệu với các thư viện như Pandas. Khuyến nghị có hiểu biết nền tảng lập trình Python. | [bài học](2-Working-With-Data/07-python/README.md) [video](https://youtu.be/dZjWOGbsN4Y) | [Dmitry](http://soshnikov.com) |
+| 08 | Chuẩn bị Dữ liệu | [Làm việc với Dữ liệu](2-Working-With-Data/README.md) | Các chủ đề về kỹ thuật dữ liệu để làm sạch và biến đổi dữ liệu nhằm xử lý các thách thức về dữ liệu thiếu, không chính xác, hoặc không đầy đủ. | [bài học](2-Working-With-Data/08-data-preparation/README.md) | [Jasmine](https://www.twitter.com/paladique) |
+| 09 | Trực quan hóa Số lượng | [Trực quan hóa Dữ liệu](3-Data-Visualization/README.md) | Học cách sử dụng Matplotlib để trực quan hóa dữ liệu về chim 🦆 | [bài học](3-Data-Visualization/09-visualization-quantities/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 10 | Trực quan hóa Phân bố Dữ liệu | [Trực quan hóa Dữ liệu](3-Data-Visualization/README.md) | Trực quan hóa các quan sát và xu hướng trong một khoảng thời gian. | [bài học](3-Data-Visualization/10-visualization-distributions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 11 | Trực quan hóa Tỷ lệ | [Trực quan hóa Dữ liệu](3-Data-Visualization/README.md) | Trực quan hóa tỷ lệ phần trăm rời rạc và nhóm. | [bài học](3-Data-Visualization/11-visualization-proportions/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 12 | Trực quan hóa Mối quan hệ | [Trực quan hóa Dữ liệu](3-Data-Visualization/README.md) | Trực quan hóa các kết nối và tương quan giữa các tập dữ liệu và các biến của chúng. | [bài học](3-Data-Visualization/12-visualization-relationships/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 13 | Trực quan hóa Có ý nghĩa | [Trực quan hóa Dữ liệu](3-Data-Visualization/README.md) | Kỹ thuật và hướng dẫn để làm trực quan hóa của bạn có giá trị cho việc giải quyết vấn đề hiệu quả và đưa ra những hiểu biết. | [bài học](3-Data-Visualization/13-meaningful-visualizations/README.md) | [Jen](https://twitter.com/jenlooper) |
+| 14 | Giới thiệu vòng đời Khoa học Dữ liệu | [Vòng đời](4-Data-Science-Lifecycle/README.md) | Giới thiệu về vòng đời khoa học dữ liệu và bước đầu tiên là thu thập và trích xuất dữ liệu. | [bài học](4-Data-Science-Lifecycle/14-Introduction/README.md) | [Jasmine](https://twitter.com/paladique) |
+| 15 | Phân tích | [Vòng đời](4-Data-Science-Lifecycle/README.md) | Giai đoạn trong vòng đời khoa học dữ liệu tập trung vào các kỹ thuật phân tích dữ liệu. | [bài học](4-Data-Science-Lifecycle/15-analyzing/README.md) | [Jasmine](https://twitter.com/paladique) | | |
+| 16 | Truyền đạt | [Vòng đời](4-Data-Science-Lifecycle/README.md) | Giai đoạn trong vòng đời khoa học dữ liệu tập trung vào trình bày những hiểu biết từ dữ liệu theo cách giúp người ra quyết định dễ hiểu hơn. | [bài học](4-Data-Science-Lifecycle/16-communication/README.md) | [Jalen](https://twitter.com/JalenMcG) | | |
+| 17 | Khoa học Dữ liệu trên mây | [Dữ liệu trên mây](5-Data-Science-In-Cloud/README.md) | Loạt bài giới thiệu khoa học dữ liệu trên đám mây và các lợi ích của nó. | [bài học](5-Data-Science-In-Cloud/17-Introduction/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) và [Maud](https://twitter.com/maudstweets) |
+| 18 | Khoa học Dữ liệu trên mây | [Dữ liệu trên mây](5-Data-Science-In-Cloud/README.md) | Huấn luyện mô hình bằng công cụ Low Code. |[bài học](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [Tiffany](https://twitter.com/TiffanySouterre) và [Maud](https://twitter.com/maudstweets) |
+| 19 | Khoa học Dữ liệu trên mây | [Dữ liệu trên mây](5-Data-Science-In-Cloud/README.md) | Triển khai mô hình với Azure Machine Learning Studio. | [bài học](5-Data-Science-In-Cloud/19-Azure/README.md)| [Tiffany](https://twitter.com/TiffanySouterre) và [Maud](https://twitter.com/maudstweets) |
+| 20 | Khoa học Dữ liệu trong thực tế | [Trong thực tế](6-Data-Science-In-Wild/README.md) | Các dự án khoa học dữ liệu ứng dụng trong thế giới thực. | [bài học](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [Nitya](https://twitter.com/nitya) |
 
 ## GitHub Codespaces
 
-Làm theo các bước sau để mở mẫu này trong một Codespace:
-1. Nhấp vào menu thả xuống Code và chọn tùy chọn Mở với Codespaces.
-2. Chọn + Codespace mới ở dưới cùng của bảng điều khiển.
+Thực hiện các bước sau để mở mẫu này trong một Codespace:
+1. Nhấp vào menu thả xuống Code và chọn tùy chọn Open with Codespaces.
+2. Chọn + New codespace ở dưới cùng của bảng.
 Để biết thêm thông tin, xem [tài liệu GitHub](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace).
 
 ## VSCode Remote - Containers
-Làm theo các bước này để mở kho lưu trữ này trong container sử dụng máy tính cục bộ của bạn và VSCode với phần mở rộng VS Code Remote - Containers:
+Thực hiện các bước sau để mở repo này trong container bằng máy cục bộ và VSCode sử dụng extension VS Code Remote - Containers:
 
-1. Nếu đây là lần đầu bạn sử dụng container phát triển, hãy đảm bảo hệ thống của bạn đáp ứng các yêu cầu trước (ví dụ đã cài Docker) trong [tài liệu hướng dẫn bắt đầu](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
+1. Nếu đây là lần đầu tiên bạn sử dụng container phát triển, vui lòng đảm bảo hệ thống của bạn đáp ứng các yêu cầu trước (ví dụ đã cài Docker) trong [tài liệu hướng dẫn bắt đầu](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started).
 
-Để sử dụng kho lưu trữ này, bạn có thể mở kho lưu trữ trong một volume Docker cô lập:
+Để sử dụng repo này, bạn có thể mở repo trong một Docker volume cô lập:
 
-**Lưu ý**: Về mặt kỹ thuật, điều này sẽ sử dụng lệnh Remote-Containers: **Clone Repository in Container Volume...** để nhân bản mã nguồn trong một volume Docker thay vì trong hệ thống tệp cục bộ. [Volumes](https://docs.docker.com/storage/volumes/) là cơ chế ưu tiên để lưu trữ dữ liệu container.
+**Lưu ý**: Về cơ bản, điều này sẽ sử dụng lệnh Remote-Containers: **Clone Repository in Container Volume...** để sao chép mã nguồn vào Docker volume thay vì hệ thống tập tin cục bộ. [Volumes](https://docs.docker.com/storage/volumes/) là cơ chế được khuyến nghị để lưu trữ dữ liệu container.
 
-Hoặc mở bản sao đã clone hoặc tải về kho lưu trữ tại máy cục bộ:
+Hoặc mở bản sao repo đã clone hoặc tải về trên máy cục bộ:
 
-- Clone kho lưu trữ này về hệ thống tập tin cục bộ.
+- Sao chép repo này vào hệ thống tập tin local của bạn.
 - Nhấn F1 và chọn lệnh **Remote-Containers: Open Folder in Container...**.
-- Chọn thư mục đã clone này, chờ container khởi động và thử nghiệm.
+- Chọn thư mục đã sao chép, chờ container khởi động và thử nghiệm.
 
-## Truy cập ngoại tuyến
+## Truy cập Offline
 
-Bạn có thể chạy tài liệu này ngoại tuyến bằng cách sử dụng [Docsify](https://docsify.js.org/#/). Fork repo này, [cài đặt Docsify](https://docsify.js.org/#/quickstart) trên máy cục bộ, sau đó ở thư mục gốc của repo, gõ lệnh `docsify serve`. Trang web sẽ được phục vụ tại cổng 3000 trên localhost của bạn: `localhost:3000`.
+Bạn có thể chạy tài liệu này offline bằng cách sử dụng [Docsify](https://docsify.js.org/#/). Fork repo này, [cài đặt Docsify](https://docsify.js.org/#/quickstart) trên máy local của bạn, rồi trong thư mục gốc của repo, nhập `docsify serve`. Website sẽ chạy trên cổng 3000 ở localhost: `localhost:3000`.
 
-> Lưu ý, các notebook sẽ không được render qua Docsify, nên khi cần chạy notebook, hãy chạy riêng trong VS Code với kernel Python.
+> Lưu ý, các notebook sẽ không được hiển thị qua Docsify, vì vậy khi bạn cần chạy notebook, hãy làm điều đó riêng trong VS Code với kernel Python.
 
-## Các Chương trình Giảng dạy Khác
+## Các chương trình giảng dạy khác
 
-Nhóm chúng tôi còn sản xuất các chương trình giảng dạy khác! Hãy xem qua:
+Đội ngũ của chúng tôi còn sản xuất nhiều chương trình giảng dạy khác! Hãy xem:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
-[![LangChain4j cho Người mới bắt đầu](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
-[![LangChain.js dành cho người mới bắt đầu](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
-[![LangChain dành cho người mới bắt đầu](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
+[![LangChain4j dành cho Người mới bắt đầu](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain.js cho Người mới bắt đầu](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
+[![LangChain cho Người mới bắt đầu](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
 ---
 
 ### Azure / Edge / MCP / Agents
-[![AZD dành cho người mới bắt đầu](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Edge AI dành cho người mới bắt đầu](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![MCP dành cho người mới bắt đầu](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI Agents dành cho người mới bắt đầu](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AZD cho Người mới bắt đầu](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![Edge AI cho Người mới bắt đầu](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![MCP cho Người mới bắt đầu](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI Agents cho Người mới bắt đầu](https://img.shields.io/badge/AI%20Agents%20for%20Beginners-00C49A?style=for-the-badge&labelColor=E5E7EB&color=00C49A)](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
 ### Chuỗi AI Sinh tạo
-[![Generative AI dành cho người mới bắt đầu](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
-[![Generative AI (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
+[![AI Sinh tạo cho Người mới bắt đầu](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI Sinh tạo (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
+[![AI Sinh tạo (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
+[![AI Sinh tạo (JavaScript)](https://img.shields.io/badge/Generative%20AI%20(JavaScript)-E879F9?style=for-the-badge&labelColor=E5E7EB&color=E879F9)](https://github.com/microsoft/generative-ai-with-javascript?WT.mc_id=academic-105485-koreyst)
 
 ---
  
-### Học tập cốt lõi
-[![ML dành cho người mới bắt đầu](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
-[![Khoa học dữ liệu dành cho người mới bắt đầu](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
-[![AI dành cho người mới bắt đầu](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
-[![An ninh mạng dành cho người mới bắt đầu](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
-[![Phát triển web dành cho người mới bắt đầu](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
-[![IoT dành cho người mới bắt đầu](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
-[![Phát triển XR dành cho người mới bắt đầu](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+### Học tập Cốt lõi
+[![ML cho Người mới bắt đầu](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
+[![Khoa học Dữ liệu cho Người mới bắt đầu](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
+[![AI cho Người mới bắt đầu](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
+[![An ninh mạng cho Người mới bắt đầu](https://img.shields.io/badge/Cybersecurity%20for%20Beginners-F97316?style=for-the-badge&labelColor=E5E7EB&color=F97316)](https://github.com/microsoft/Security-101?WT.mc_id=academic-96948-sayoung)
+[![Phát triển Web cho Người mới bắt đầu](https://img.shields.io/badge/Web%20Dev%20for%20Beginners-EC4899?style=for-the-badge&labelColor=E5E7EB&color=EC4899)](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
+[![IoT cho Người mới bắt đầu](https://img.shields.io/badge/IoT%20for%20Beginners-14B8A6?style=for-the-badge&labelColor=E5E7EB&color=14B8A6)](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
+[![Phát triển XR cho Người mới bắt đầu](https://img.shields.io/badge/XR%20Development%20for%20Beginners-38BDF8?style=for-the-badge&labelColor=E5E7EB&color=38BDF8)](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 
 ---
  
 ### Chuỗi Copilot
-[![Copilot cho lập trình cặp với AI](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+[![Copilot cho Lập trình AI Hợp tác](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
 [![Copilot cho C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
 [![Cuộc phiêu lưu Copilot](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## Nhận trợ giúp
+## Nhận Hỗ Trợ
 
-**Gặp vấn đề?** Kiểm tra [Hướng dẫn khắc phục sự cố](TROUBLESHOOTING.md) của chúng tôi để tìm giải pháp cho các vấn đề phổ biến.
+**Gặp sự cố?** Hãy xem [Hướng dẫn Khắc phục sự cố](TROUBLESHOOTING.md) để tìm giải pháp cho các vấn đề phổ biến.
 
-Nếu bạn bị kẹt hoặc có bất kỳ câu hỏi nào về việc xây dựng ứng dụng AI. Hãy tham gia cùng những người học khác và các nhà phát triển có kinh nghiệm trong các cuộc thảo luận về MCP. Đây là một cộng đồng thân thiện, nơi mọi câu hỏi đều được chào đón và kiến thức được chia sẻ tự do.
+Nếu bạn bị mắc kẹt hoặc có bất kỳ câu hỏi nào về việc xây dựng ứng dụng AI. Hãy tham gia cùng các học viên và nhà phát triển có kinh nghiệm trong các cuộc thảo luận về MCP. Đây là cộng đồng hỗ trợ, nơi các câu hỏi được chào đón và kiến thức được chia sẻ tự do.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-Nếu bạn có phản hồi về sản phẩm hoặc lỗi trong quá trình xây dựng, hãy truy cập:
+Nếu bạn có phản hồi về sản phẩm hoặc gặp lỗi trong quá trình xây dựng, hãy truy cập:
 
-[![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
+[![Diễn đàn Nhà phát triển Microsoft Foundry](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Từ chối trách nhiệm**:
-Tài liệu này đã được dịch sử dụng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi nỗ lực đảm bảo tính chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc không chính xác. Tài liệu gốc bằng ngôn ngữ nguyên bản của nó nên được coi là nguồn tham khảo chính xác nhất. Đối với thông tin quan trọng, nên sử dụng dịch vụ dịch thuật chuyên nghiệp bởi con người. Chúng tôi không chịu trách nhiệm về bất kỳ hiểu lầm hoặc diễn giải sai nào phát sinh từ việc sử dụng bản dịch này.
+**Tuyên bố từ chối trách nhiệm**:  
+Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc sự không chính xác. Tài liệu gốc bằng ngôn ngữ bản địa nên được xem là nguồn chính xác và đáng tin cậy. Đối với các thông tin quan trọng, nên sử dụng dịch vụ dịch thuật chuyên nghiệp bởi con người. Chúng tôi không chịu trách nhiệm về bất kỳ sự hiểu lầm hoặc diễn giải sai nào phát sinh từ việc sử dụng bản dịch này.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
