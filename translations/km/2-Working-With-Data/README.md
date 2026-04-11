@@ -1,0 +1,23 @@
+# ការធ្វើការ​ជាមួយទិន្នន័យ
+
+![data love](../../../translated_images/km/data-love.a22ef29e6742c852.webp)
+> រូបថតដោយ <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> នៅលើ <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+នៅក្នុងមេរៀនទាំងនេះ អ្នកនឹងរៀនពីវិធីខ្លះៗដែលអាចគ្រប់គ្រង បំប្លែង និងប្រើទិន្នន័យក្នុងកម្មវិធីបាន។ អ្នកនឹងរៀនអំពីមូលដ្ឋានទិន្នន័យប្រភេទ​ខ្សែបញ្ជី និងមូលដ្ឋានទិន្នន័យមិនខ្សែបញ្ជី និងរបៀបដែលទិន្នន័យអាចធ្វើការផ្ទុកនៅក្នុងពួកវា។ អ្នកនឹងរៀនគ្រឹះមូលដ្ឋាននៃការធ្វើការជាមួយ Python សម្រាប់គ្រប់គ្រងទិន្នន័យ ហើយអ្នកនឹងរកឃើញពីវិធីជាច្រើនដែលអ្នកអាចធ្វើការជាមួយ Python ដើម្បីគ្រប់គ្រង និងស្វែងរកទិន្នន័យបាន។ 
+### ប្រធានបទ
+
+1. [មូលដ្ឋានទិន្នន័យប្រភេទខ្សែបញ្ជី](05-relational-databases/README.md)
+2. [មូលដ្ឋានទិន្នន័យមិនខ្សែបញ្ជី](06-non-relational/README.md)
+3. [ការធ្វើការជាមួយ Python](07-python/README.md)
+4. [ការរៀបចំទិន្នន័យ](08-data-preparation/README.md)
+
+### ឥណទាន
+
+មេរៀនទាំងនេះត្រូវបានសរសេរជាមួយ❤️ដោយ [Christopher Harrison](https://twitter.com/geektrainer), [Dmitry Soshnikov](https://twitter.com/shwars) និង [Jasmine Greenaway](https://twitter.com/paladique)
+
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**ការបដិសេធ**៖  
+ឯកសារនេះត្រូវបានបកប្រែដោយប្រើសេវាកម្មបកប្រែ AI [Co-op Translator](https://github.com/Azure/co-op-translator)។ ខណៈពេលដែលយើងខិតខំប្រឹងប្រែងឱ្យបានភាពត្រឹមត្រូវ សូមយល់ដឹងថាបកប្រែដោយស្វ័យប្រវត្តិអាចមានកំហុស ឬការមិនត្រឹមត្រូវ។ ឯកសារដើមក្នុងភាសាដើមគួរត្រូវបានទស្សនាថាជា​ប្រភព​ដែល​មាន​សិង្ហារឹកភាព។ សម្រាប់ព័ត៌មានសំខាន់ៗ គួរត្រូវបានបកប្រែដោយមនុស្សអ្នកជំនាញជំនួស។ យើងមិនទទួលខុសត្រូវចំពោះការយល់ច្រឡំ ឬការបកន្រ្តប់ខុសដែលកើតឡើងពីការប្រើប្រាស់ការបកប្រែនេះឡើយ។
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
