@@ -91,7 +91,7 @@ Explore the [Team Data Science Process lifecycle](https://docs.microsoft.com/en-
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
 |![Team Data Science Lifecycle](./images/tdsp-lifecycle2.png) | ![Data Science Process Alliance Image](./images/CRISP-DM.png) |
-| Image by [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Image by [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
+| Image by [Microsoft](https://docs.microsoft.com/azure/architecture/data-science-process/lifecycle) | Image by [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/27)
 
