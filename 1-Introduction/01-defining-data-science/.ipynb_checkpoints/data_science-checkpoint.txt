@@ -1,0 +1,48 @@
+Not to be confused with Information science or Computer science.
+
+The existence of Comet NEOWISE (here depicted as a series of red dots) was discovered by analyzing astronomical survey data acquired by a space telescope, the Wide-field Infrared Survey Explorer.
+Data science is an interdisciplinary academic field[1] that uses statistics, scientific computing, scientific methods, processing, scientific visualization, algorithms, coding (like Python, SQL, and R), and systems to extract or extrapolate knowledge from potentially noisy, structured, or unstructured data.[2] A data scientist is a professional who creates programming code and combines it with statistical knowledge to summarize data.[3]
+
+Scope of data science
+Data science plays a critical role in modern decision-making by enabling organizations to extract actionable insights from large and complex datasets.[4] Data science also integrates domain knowledge from the underlying application domain (e.g., natural sciences, information technology, and medicine).[5] Data science is multifaceted and can be described as a science, a research paradigm, a research method, a discipline, a workflow, and a profession.[6]
+
+Data science is "a concept to unify statistics, data analysis, informatics, and their related methods" to "understand and analyze actual phenomena" with data.[7] It uses techniques and theories drawn from many fields within the context of mathematics, statistics, computer science, information science, and domain knowledge.[8] However, data science is distinct from computer science and information science. Turing Award winner Jim Gray imagined data science as a "fourth paradigm" of science (empirical, theoretical, computational, and now data-driven) and asserted that "everything about science is changing because of the impact of information technology" and the data deluge.[9][10]
+
+Data science is often described as a multidisciplinary and rapidly evolving field because it draws on techniques from diverse areas, such as computer science, statistics, information science, and other subject-specific disciplines. Some researchers argue that the combination of the different fields resembles how information science was decades ago.[11] These similarities help clarify how data science gradually became its own field of study.[11]
+
+Foundations
+Data science is an interdisciplinary field[12] focused on extracting knowledge from typically large data sets and applying the knowledge from that data to solve problems in other application domains. The field encompasses preparing data for analysis, formulating data science problems, analyzing data, and summarizing these findings. As such, it incorporates skills from computer science, mathematics, data visualization, graphic design, communication, and business.[13]
+
+Vasant Dhar writes that statistics emphasizes quantitative data and description. In contrast, data science deals with quantitative and qualitative data (e.g., from images, text, sensors, transactions, customer information, etc.) and emphasizes prediction and action.[14] Andrew Gelman of Columbia University has described statistics as a non-essential part of data science.[15] Stanford professor David Donoho writes that data science is not distinguished from statistics by the size of datasets or use of computing and that many graduate programs misleadingly advertise their analytics and statistics training as the essence of a data-science program. He describes data science as an applied field growing out of traditional statistics.[16]
+
+Etymology
+Early usage
+In 1962, John Tukey described a field he called "data analysis", which resembles modern data science.[16] In 1985, in a lecture given to the Chinese Academy of Sciences in Beijing, C. F. Jeff Wu used the term "data science" for the first time as an alternative name for statistics.[17] Later, attendees at a 1992 statistics symposium at the University of Montpellier  II acknowledged the emergence of a new discipline focused on data of various origins and forms, combining established concepts and principles of statistics and data analysis with computing.[18][19]
+
+The term "data science" has been traced back to 1974, when Peter Naur proposed it as an alternative name to computer science. In his 1974 book Concise Survey of Computer Methods, Peter Naur proposed using the term ‘data science’ rather than ‘computer science’ to reflect the growing emphasis on data-driven methods[20][8] In 1996, the International Federation of Classification Societies became the first conference to specifically feature data science as a topic.[8] However, the definition was still in flux. After the 1985 lecture at the Chinese Academy of Sciences in Beijing, in 1997 C. F. Jeff Wu again suggested that statistics should be renamed data science. He reasoned that a new name would help statistics shed inaccurate stereotypes, such as being synonymous with accounting or limited to describing data.[21] In 1998, Hayashi Chikio argued for data science as a new, interdisciplinary concept, with three aspects: data design, collection, and analysis.[19]
+
+Modern usage
+In 2012, technologists Thomas H. Davenport and DJ Patil declared "Data Scientist: The Sexiest Job of the 21st Century",[22] a catchphrase that was picked up even by major-city newspapers like the New York Times[23] and the Boston Globe.[24] A decade later, they reaffirmed it, stating that "the job is more in demand than ever with employers".[25]
+
+The modern conception of data science as an independent discipline is sometimes attributed to William S. Cleveland.[26] In 2014, the American Statistical Association's Section on Statistical Learning and Data Mining changed its name to the Section on Statistical Learning and Data Science, reflecting the ascendant popularity of data science.[27]
+
+The professional title of "data scientist" has been attributed to DJ Patil and Jeff Hammerbacher in 2008.[28] Though it was used by the National Science Board in their 2005 report "Long-Lived Digital Data Collections: Enabling Research and Education in the 21st Century", it referred broadly to any key role in managing a digital data collection.[29]
+
+Data science and data analysis
+summary statistics and scatterplots showing the Datasaurus dozen data set
+Example of exploratory data analysis using the Datasaurus dozen data set
+Data analysis typically involves working with structured datasets to answer specific questions or solve specific problems. This can involve tasks such as data cleaning and data visualization to summarize data and develop hypotheses about relationships between variables. Data analysts typically use statistical methods to test these hypotheses and draw conclusions from the data.[30]
+
+Data science involves working with larger datasets that often require advanced computational and statistical methods to analyze. Data scientists often work with unstructured data such as text or images and use machine learning algorithms to build predictive models. Data science often uses statistical analysis, data preprocessing, and supervised learning.[31][32]
+
+Cloud computing for data science
+
+A cloud-based architecture for enabling big data analytics. Data flows from various sources, such as personal computers, laptops, and smart phones, through cloud services for processing and analysis, finally leading to various big data applications.
+Cloud computing can offer access to large amounts of computational power and storage.[33] In big data, where volumes of information are continually generated and processed, these platforms can be used to handle complex and resource-intensive analytical tasks.[34]
+
+Some distributed computing frameworks are designed to handle big data workloads. These frameworks can enable data scientists to process and analyze large datasets in parallel, which can reduce processing times.[35]
+
+Ethical consideration in data science
+Data science involves collecting, processing, and analyzing data which often includes personal and sensitive information. Ethical concerns include potential privacy violations, bias perpetuation, and negative societal impacts.[36][37]
+
+Machine learning models can amplify existing biases present in training data, leading to discriminatory or unfair outcomes.[38][39]
