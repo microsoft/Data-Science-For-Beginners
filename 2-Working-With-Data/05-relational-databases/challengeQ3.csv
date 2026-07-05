@@ -1,0 +1,9 @@
+cid,name,type,notnull,dflt_value,pk
+0,EMPNO,integer,1,NULL,1
+1,ENAME,varchar(20),1,NULL,0
+2,JOB,varchar(20),1,NULL,0
+3,MGR,integer,0,NULL,0
+4,HIREDATE,date,1,NULL,0
+5,SAL,integer,1,NULL,0
+6,COMM,integer,0,NULL,0
+7,DEPTNO,integer,1,NULL,0

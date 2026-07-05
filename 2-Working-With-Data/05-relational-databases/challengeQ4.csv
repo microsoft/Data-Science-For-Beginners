@@ -1,0 +1,5 @@
+cid,name,type,notnull,dflt_value,pk
+0,PROJID,integer,1,NULL,1
+1,EMPNO,integer,1,NULL,0
+2,STARTDATE,date,1,NULL,0
+3,ENDDATE,date,1,NULL,0

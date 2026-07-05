@@ -1,0 +1,4 @@
+cid,name,type,notnull,dflt_value,pk
+0,DEPTNO,integer,1,NULL,1
+1,DNAME,varchar(20),1,NULL,0
+2,LOC,varchar(20),1,NULL,0
