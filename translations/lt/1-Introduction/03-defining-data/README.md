@@ -1,75 +1,79 @@
-# Duomenų Apibrėžimas
+# Duomenų apibrėžimas
 
-|![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/03-DefiningData.png)|
+|![ Sketchnote autorius [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/03-DefiningData.png)|
 |:---:|
-|Duomenų apibrėžimas - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+|Duomenų apibrėžimas - _Sketchnote autorius [@nitya](https://twitter.com/nitya)_ |
 
-Duomenys – tai faktai, informacija, stebėjimai ir matavimai, naudojami atradimams daryti ir pagrįstiems sprendimams priimti. Duomenų taškas yra vienas duomenų vienetas duomenų rinkinyje, kuris yra duomenų taškų kolekcija. Duomenų rinkiniai gali būti įvairių formatų ir struktūrų, dažniausiai priklausomai nuo jų šaltinio arba vietos, iš kur jie buvo gauti. Pavyzdžiui, įmonės mėnesinės pajamos gali būti pateiktos skaičiuoklėje, o išmaniojo laikrodžio valandinis širdies ritmo duomenys gali būti [JSON](https://stackoverflow.com/a/383699) formatu. Duomenų mokslininkai dažnai dirba su skirtingų tipų duomenimis viename duomenų rinkinyje.
+Duomenys yra faktai, informacija, stebėjimai ir matavimai, kurie naudojami atradimams padaryti ir pagrįstiems sprendimams priimti. Duomenų taškas – tai vienetas duomenų rinkinyje, kuris yra duomenų taškų rinkinys. Duomenų rinkiniai gali būti įvairių formatų ir struktūrų, paprastai priklausant nuo jų šaltinio arba nuo to, iš kur atėjo duomenys. Pavyzdžiui, įmonės mėnesinės pajamos gali būti skaičiuoklėje, o laikrodžio širdies ritmo duomenys per valandą gali būti [JSON](https://stackoverflow.com/a/383699) formatu. Duomenų mokslininkams dažnai tenka dirbti su skirtingų tipų duomenimis viename duomenų rinkinyje.
 
-Ši pamoka skirta duomenų identifikavimui ir klasifikavimui pagal jų savybes ir šaltinius.
+Ši pamoka orientuota į duomenų identifikavimą ir klasifikavimą pagal jų savybes ir šaltinius.
 
-## [Prieš paskaitą: testas](https://ff-quizzes.netlify.app/en/ds/quiz/4)
-## Kaip apibūdinami duomenys
+## [Priešpaskaitos testas](https://ff-quizzes.netlify.app/en/ds/quiz/4)
+## Kaip aprašomi duomenys
 
-### Pirminiai duomenys
-Pirminiai duomenys yra duomenys, kurie gaunami tiesiai iš šaltinio savo pradinėje būsenoje ir dar nėra analizuoti ar organizuoti. Kad būtų galima suprasti, kas vyksta su duomenų rinkiniu, jis turi būti organizuotas į formatą, kurį suprastų tiek žmonės, tiek technologijos, naudojamos tolesnei analizei. Duomenų rinkinio struktūra apibūdina, kaip jis yra organizuotas, ir gali būti klasifikuojama kaip struktūrizuota, nestruktūrizuota arba pusiau struktūrizuota. Šios struktūros tipai skirsis priklausomai nuo šaltinio, tačiau galiausiai atitiks vieną iš šių trijų kategorijų.
+### Žali duomenys
+Žali duomenys yra duomenys, gauti tiesiai iš jų šaltinio pradinėje būsenoje, kurie nėra analizėti ar organizuoti. Norint suprasti, kas vyksta su duomenų rinkiniu, jį reikia suorganizuoti į tokį formatą, kurį suprastų žmonės ir technologijos, kurias jie gali naudoti tolesnei analizei. Duomenų rinkinio struktūra apibūdina, kaip jis yra organizuotas, ir gali būti klasifikuojama kaip struktūrizuota, nestruktūrizuota ir pusiau struktūrizuota. Šie struktūros tipai priklausys nuo šaltinio, bet galutiniame rezultate telpa į šias tris kategorijas.
 
 ### Kiekybiniai duomenys
-Kiekybiniai duomenys yra skaitiniai stebėjimai duomenų rinkinyje, kuriuos paprastai galima analizuoti, matuoti ir naudoti matematiškai. Kai kurie kiekybinių duomenų pavyzdžiai: šalies gyventojų skaičius, žmogaus ūgis ar įmonės ketvirčio pajamos. Atlikus papildomą analizę, kiekybiniai duomenys galėtų būti naudojami sezoninėms oro kokybės indekso (AQI) tendencijoms nustatyti arba spėti, kokia tikimybė, kad darbo dienos piko metu bus eismas.
+Kiekybiniai duomenys yra skaitinės stebėsenos duomenų rinkinyje ir paprastai gali būti analizuojami, matuojami ir naudojami matematiškai. Pavyzdžiai: šalies gyventojų skaičius, asmens ūgis arba įmonės ketvirčio pajamos. Papildoma analize kiekybiniai duomenys gali būti naudojami sezoniniams Oro kokybės indekso (AQI) tendencijoms atrasti arba įvertinti eismo srauto piko valandas įprastą darbo dieną.
 
 ### Kokybiniai duomenys
-Kokybiniai duomenys, dar vadinami kategoriniais duomenimis, yra duomenys, kurių negalima objektyviai išmatuoti, kaip kiekybinių duomenų stebėjimų. Tai dažniausiai įvairių formatų subjektyvūs duomenys, kurie atspindi kažko kokybę, pavyzdžiui, produkto ar proceso. Kartais kokybiniai duomenys yra skaitiniai, tačiau paprastai nenaudojami matematiškai, pavyzdžiui, telefono numeriai ar laiko žymos. Kai kurie kokybinių duomenų pavyzdžiai: vaizdo įrašų komentarai, automobilio markė ir modelis arba artimiausių draugų mėgstamiausia spalva. Kokybiniai duomenys galėtų būti naudojami norint suprasti, kurie produktai vartotojams patinka labiausiai, arba nustatyti populiarius raktinius žodžius darbo paraiškų gyvenimo aprašymuose.
+Kokybiniai duomenys, dar vadinami kategoriniais, yra duomenys, kurių negalima objektyviai išmatuoti, kaip kiekybinius duomenis. Tai paprastai yra įvairios subjektyvios informacijos formos, kurios aprašo kažką kokybiškai, pavyzdžiui, produktą ar procesą. Kartais kokybiniai duomenys yra skaitiniai, bet paprastai nėra naudojami matematiškai, kaip telefono numeriai ar laiko žymos. Pavyzdžiai: vaizdo komentarai, automobilio markė ir modelis arba artimiausių draugų mėgstamiausia spalva. Kokybiniai duomenys gali padėti suprasti, kurie produktai vartotojams patinka labiausiai, arba identifikuoti populiariausius raktinius žodžius darbo paraiškų gyvenimo aprašymuose.
 
 ### Struktūrizuoti duomenys
-Struktūrizuoti duomenys yra organizuoti į eilutes ir stulpelius, kur kiekviena eilutė turi tą patį stulpelių rinkinį. Stulpeliai atspindi tam tikro tipo reikšmę ir bus identifikuojami pavadinimu, apibūdinančiu, ką ta reikšmė reiškia, o eilutės turės faktines reikšmes. Stulpeliai dažnai turi specifines taisykles ar apribojimus reikšmėms, kad būtų užtikrinta, jog reikšmės tiksliai atspindi stulpelį. Pavyzdžiui, įsivaizduokite klientų skaičiuoklę, kur kiekviena eilutė privalo turėti telefono numerį, o telefono numeriai niekada neturi raidžių. Gali būti taikomos taisyklės, užtikrinančios, kad telefono numerio stulpelis niekada nebūtų tuščias ir jame būtų tik skaičiai.
+Struktūrizuoti duomenys yra organizuoti į eilutes ir stulpelius, kur kiekviena eilutė turi tą patį stulpelių rinkinį. Stulpeliai rodo tam tikro tipo reikšmę ir būna pavadinti, apibūdinant ką ta reikšmė reiškia, o eilutės talpina faktines reikšmes. Stulpelių reikšmėms dažnai taikomos specifinės taisyklės ar apribojimai, kad užtikrintų reikšmių tikslumą. Pavyzdžiui, klientų skaičiuoklėje kiekviena eilutė turi turėti telefono numerį, kuriame nėra raidžių. Gali būti taisyklės telefone, kad jis niekada nebūtų tuščias ir turėtų tik skaitmenis.
 
-Struktūrizuotų duomenų privalumas yra tas, kad jie gali būti organizuoti taip, kad būtų susiję su kitais struktūrizuotais duomenimis. Tačiau dėl to, kad duomenys yra sukurti būti organizuoti konkrečiu būdu, jų bendros struktūros keitimas gali pareikalauti daug pastangų. Pavyzdžiui, pridėjus el. pašto stulpelį klientų skaičiuoklėje, kuris negali būti tuščias, reikės nuspręsti, kaip pridėti šias reikšmes prie esamų klientų eilučių duomenų rinkinyje.
+Vienas struktūrizuotų duomenų privalumų yra tas, kad jie gali būti susieti su kitais struktūrizuotais duomenimis. Tačiau, kadangi duomenys sukurti taip, kad būtų organizuoti pagal tam tikrą tvarką, bendri jos struktūros pakeitimai gali būti sudėtingi. Pavyzdžiui, pridėti el. pašto stulpelį, kuris negali būti tuščias klientų skaičiuoklėje reiškia, kad reikės spręsti, kaip šias reikšmes pridėti prie esamų duomenų eilučių.
 
-Struktūrizuotų duomenų pavyzdžiai: skaičiuoklės, reliacinės duomenų bazės, telefono numeriai, banko išrašai.
+Struktūrizuotų duomenų pavyzdžiai: skaičiuoklės, reliacinės duomenų bazės, telefono numeriai, banko išrašai
 
 ### Nestruktūrizuoti duomenys
-Nestruktūrizuoti duomenys paprastai negali būti suskirstyti į eilutes ar stulpelius ir neturi formato ar taisyklių rinkinio, kurio reikėtų laikytis. Kadangi nestruktūrizuoti duomenys turi mažiau apribojimų savo struktūrai, juos lengviau papildyti nauja informacija, palyginti su struktūrizuotu duomenų rinkiniu. Jei jutiklis, fiksuojantis barometrinį slėgį kas 2 minutes, gauna atnaujinimą, leidžiantį matuoti ir registruoti temperatūrą, nereikia keisti esamų duomenų, jei jie yra nestruktūrizuoti. Tačiau tai gali apsunkinti šių duomenų analizę ar tyrimą. Pavyzdžiui, mokslininkas, norintis rasti vidutinę praėjusio mėnesio temperatūrą pagal jutiklio duomenis, gali pastebėti, kad jutiklis kai kuriuose įrašuose užfiksavo „e“, nurodydamas, kad jis buvo sugedęs, o tai reiškia, kad duomenys yra neišsamūs.
+Nestruktūrizuoti duomenys paprastai nėra suskirstyti į eilutes ar stulpelius ir neturi nustatyto formato ar taisyklių. Kadangi nestruktūrizuoti duomenys turi mažiau apribojimų, juos lengviau papildyti nauja informacija, palyginus su struktūrizuotu duomenų rinkiniu. Pavyzdžiui, jei jutiklis matuoja barometrinį slėgį kas 2 minutes ir gauna atnaujinimą, leidžiantį jame matuoti ir temperatūrą, tai nėra būtina keisti esamus duomenis, jei jie nestruktūrizuoti. Tačiau tai gali pailginti tokio duomenų analizės ar tyrimo laiką. Pavyzdžiui, mokslininkas, norintis apskaičiuoti vidutinę ankstesnio mėnesio temperatūrą pagal jutiklio duomenis, atranda, kad jutiklis kai kur įrašė „e“ žymėdamas, kad jis buvo sugadintas, o ne skaitinę reikšmę, tad duomenys yra neišsamūs.
 
-Nestruktūrizuotų duomenų pavyzdžiai: tekstiniai failai, tekstinės žinutės, vaizdo failai.
+Nestruktūrizuotų duomenų pavyzdžiai: teksto failai, žinutės, vaizdo įrašai
 
 ### Pusiau struktūrizuoti duomenys
-Pusiau struktūrizuoti duomenys turi savybių, dėl kurių jie yra struktūrizuotų ir nestruktūrizuotų duomenų derinys. Jie paprastai neatitinka eilučių ir stulpelių formato, tačiau yra organizuoti taip, kad būtų laikomi struktūrizuotais ir gali laikytis nustatyto formato ar taisyklių rinkinio. Struktūra skirsis priklausomai nuo šaltinio, pavyzdžiui, nuo gerai apibrėžtos hierarchijos iki lankstesnės, leidžiančios lengvai integruoti naują informaciją. Metaduomenys yra indikatoriai, padedantys nuspręsti, kaip duomenys yra organizuoti ir saugomi, ir turės įvairius pavadinimus, priklausomai nuo duomenų tipo. Kai kurie įprasti metaduomenų pavadinimai yra žymos, elementai, subjektai ir atributai. Pavyzdžiui, tipinė el. laiško žinutė turės temą, turinį ir gavėjų rinkinį ir gali būti organizuota pagal tai, kas ar kada ją išsiuntė.
+Pusiau struktūrizuoti duomenys turi savybių, kurios sudaro struktūrizuotų ir nestruktūrizuotų duomenų derinį. Jie paprastai nesilaiko eilučių ir stulpelių formato, bet yra organizuoti taip, kad laikomi struktūrizuotais ir gali turėti nustatytą formatą ar taisyklių rinkinį. Struktūra skiriasi priklausomai nuo šaltinių nuo aiškiai apibrėžtos hierarchijos iki lankstesnės, leidžiančios lengvai integruoti naują informaciją. Metaduomenys yra indikatoriai, padedantys nuspręsti, kaip duomenys organizuojami ir saugomi, jų pavadinimai skiriasi priklausomai nuo duomenų tipo. Dažniausi metaduomenų pavadinimai yra žymos, elementai, objektai ir atributai. Pavyzdžiui, tipinė el. laiško žinutė turi temą, turinį ir gavėjų sąrašą, kurį galima suorganizuoti pagal siuntėją ar laiką.
 
-Pusiau struktūrizuotų duomenų pavyzdžiai: HTML, CSV failai, JavaScript Object Notation (JSON).
+Pusiau struktūrizuotų duomenų pavyzdžiai: HTML, CSV failai, JavaScript objektų žymėjimas (JSON)
 
 ## Duomenų šaltiniai
 
-Duomenų šaltinis yra pradinė vieta, kurioje duomenys buvo sugeneruoti arba „gyvena“, ir skirsis priklausomai nuo to, kaip ir kada jie buvo surinkti. Duomenys, sugeneruoti jų naudotojų, vadinami pirminiais duomenimis, o antriniai duomenys gaunami iš šaltinio, kuris surinko duomenis bendram naudojimui. Pavyzdžiui, mokslininkų grupė, renkantys stebėjimus atogrąžų miške, būtų laikomi pirminiais, o jei jie nuspręstų pasidalinti šiais duomenimis su kitais mokslininkais, jie būtų laikomi antriniais tiems, kurie juos naudoja.
+Duomenų šaltinis yra pradinė vieta, kur duomenis sugeneravo arba kur jie „gyvena“, ir priklauso nuo to, kaip ir kada jie surinkti. Duomenys, sugeneruoti paties naudotojo (naudotojų), vadinami pirminiais, o antriniai duomenys yra iš šaltinio, kuris rinko duomenis bendram naudojimui. Pavyzdžiui, grupė mokslininkų, stebinčių lietaus miško duomenis, būtų laikomi pirminiais, o jei jie pasidalins su kitais mokslininkais, tai bus antriniai naujiems naudotojams.
 
-Duomenų bazės yra dažnas šaltinis ir remiasi duomenų bazių valdymo sistema, kuri talpina ir prižiūri duomenis, kur naudotojai naudoja užklausas duomenims tyrinėti. Failai kaip duomenų šaltiniai gali būti garso, vaizdo ir vaizdo failai, taip pat skaičiuoklės, tokios kaip Excel. Interneto šaltiniai yra dažna vieta duomenims talpinti, kur galima rasti tiek duomenų bazių, tiek failų. Programų programavimo sąsajos, dar žinomos kaip API, leidžia programuotojams kurti būdus dalintis duomenimis su išoriniais naudotojais per internetą, o interneto duomenų nuskaitymas išgauna duomenis iš tinklalapio. [Pamokos apie darbą su duomenimis](../../../../../../../../../2-Working-With-Data) yra skirtos įvairių duomenų šaltinių naudojimui.
+Duomenų bazės yra įprastas šaltinis ir remiasi duomenų bazių valdymo sistema, kurioje naudotojai naudoja užklausas duomenų tyrimui. Failai kaip duomenų šaltiniai gali būti garso, vaizdo ir vaizdo įrašų failai, taip pat skaičiuoklės, tokios kaip Excel. Interneto šaltiniai yra dažna vieta duomenų talpinimui, kur galima rasti duomenų bazes ir failus. Programavimo sąsajos (APIs) leidžia programuotojams kurti būdus dalintis duomenimis su išoriniais naudotojais per internetą, o interneto duomenų nuskaitymas (web scraping) ištraukia duomenis iš tinklalapio. [Pamokos Darbas su Duomenimis](../../../../../../../../../2-Working-With-Data) orientuotos į įvairių duomenų šaltinių naudojimą.
 
 ## Išvada
 
 Šioje pamokoje sužinojome:
 
 - Kas yra duomenys
-- Kaip apibūdinami duomenys
-- Kaip duomenys klasifikuojami ir kategorizuojami
-- Kur galima rasti duomenis
+- Kaip aprašomi duomenys
+- Kaip klasifikuojami ir kategorizuojami duomenys
+- Kur galima rasti duomenų
 
 ## 🚀 Iššūkis
 
-Kaggle yra puikus atvirų duomenų rinkinių šaltinis. Naudokite [duomenų rinkinių paieškos įrankį](https://www.kaggle.com/datasets), kad rastumėte įdomių duomenų rinkinių ir klasifikuokite 3–5 rinkinius pagal šiuos kriterijus:
+Kaggle yra puikus atvirų duomenų šaltinis. Naudokite [duomenų rinkinių paieškos įrankį](https://www.kaggle.com/datasets), kad surastumėte įdomių duomenų rinkinių ir klasifikuokite 3–5 duomenų rinkinius pagal šiuos kriterijus:
 
 - Ar duomenys yra kiekybiniai ar kokybiniai?
 - Ar duomenys yra struktūrizuoti, nestruktūrizuoti ar pusiau struktūrizuoti?
 
-## [Po paskaitos: testas](https://ff-quizzes.netlify.app/en/ds/quiz/5)
+## [Po paskaitos testas](https://ff-quizzes.netlify.app/en/ds/quiz/5)
+
+
 
 ## Peržiūra ir savarankiškas mokymasis
 
-- Šis „Microsoft Learn“ modulis, pavadintas [Klasifikuokite savo duomenis](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/2-classify-data), išsamiai aprašo struktūrizuotus, pusiau struktūrizuotus ir nestruktūrizuotus duomenis.
+- Ši Microsoft Learn dalis, pavadinta [Duomenų formatų identifikacija](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/2-data-formats?pivots=text), aprašo struktūrizuotus, pusiau struktūrizuotus ir nestruktūrizuotus duomenis.
 
 ## Užduotis
 
-[Klasifikuoti duomenų rinkinius](assignment.md)
+[Duomenų rinkinių klasifikavimas](assignment.md)
 
 ---
 
-**Atsakomybės apribojimas**:  
-Šis dokumentas buvo išverstas naudojant AI vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Kritinei informacijai rekomenduojama profesionali žmogaus vertimo paslauga. Mes neprisiimame atsakomybės už nesusipratimus ar klaidingus interpretavimus, atsiradusius dėl šio vertimo naudojimo.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Atsakomybės apribojimas**:
+Šis dokumentas buvo išverstas naudojant dirbtinio intelekto vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba laikomas autoritetingu šaltiniu. Svarbiai informacijai rekomenduojama naudoti profesionalų žmogiškąjį vertimą. Mes neatsakome už jokius nesusipratimus ar neteisingą interpretaciją, kilusią naudojantis šiuo vertimu.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
