@@ -4,73 +4,76 @@
 |:---:|
 |Definování dat - _Sketchnote od [@nitya](https://twitter.com/nitya)_ |
 
-Data jsou fakta, informace, pozorování a měření, která se používají k objevování nových poznatků a k podpoře informovaného rozhodování. Datový bod je jednotka dat v rámci datové sady, což je sbírka datových bodů. Datové sady mohou mít různé formáty a struktury, obvykle podle svého zdroje, tedy odkud data pocházejí. Například měsíční příjmy společnosti mohou být ve formátu tabulky, zatímco hodinová data o srdečním tepu ze smartwatch mohou být ve formátu [JSON](https://stackoverflow.com/a/383699). Je běžné, že datoví vědci pracují s různými typy dat v rámci jedné datové sady.
+Data jsou fakta, informace, pozorování a měření, které se používají k objevům a k podpoře informovaných rozhodnutí. Datový bod je jednotlivá jednotka dat v sadě dat, což je kolekce datových bodů. Sady dat mohou mít různé formáty a struktury a obvykle budou založeny na svém zdroji, tedy odkud data pocházejí. Například měsíční výdělky společnosti mohou být v tabulce, ale hodinová data o srdečním tepu ze smartphonu mohou být ve formátu [JSON](https://stackoverflow.com/a/383699). Je běžné, že datoví vědci pracují s různými typy dat v rámci jedné sady dat.
 
-Tato lekce se zaměřuje na identifikaci a klasifikaci dat podle jejich charakteristik a zdrojů.
+Tato lekce se zaměřuje na identifikaci a klasifikaci dat podle jejich vlastností a zdrojů.
 
-## [Kvíz před přednáškou](https://ff-quizzes.netlify.app/en/ds/quiz/4)
-
-## Jak jsou data popisována
+## [Přednáškový kvíz](https://ff-quizzes.netlify.app/en/ds/quiz/4)
+## Jak jsou data popsána
 
 ### Surová data
-Surová data jsou data, která pocházejí ze svého zdroje ve svém původním stavu a nebyla analyzována ani organizována. Aby bylo možné pochopit, co se děje s datovou sadou, je třeba ji uspořádat do formátu, který je srozumitelný jak pro lidi, tak pro technologie, které mohou být použity k její další analýze. Struktura datové sady popisuje, jak je organizována, a může být klasifikována jako strukturovaná, nestrukturovaná nebo polostrukturovaná. Tyto typy struktur se liší podle zdroje, ale nakonec spadají do těchto tří kategorií.
+Surová data jsou data, která pocházejí ze svého zdroje ve svém počátečním stavu a nebyla analyzována ani uspořádána. Abychom pochopili, co se se sadou dat děje, musí být uspořádána do formátu, který může být chápán jak lidmi, tak technologiemi, jež je mohou dál analyzovat. Struktura sady dat popisuje, jak je uspořádána, a může být klasifikována jako strukturovaná, nestrukturovaná a polostrukturovaná. Tyto typy struktur se budou lišit v závislosti na zdroji, ale nakonec spadají do těchto tří kategorií.
 
 ### Kvantitativní data
-Kvantitativní data jsou číselná pozorování v rámci datové sady, která lze obvykle analyzovat, měřit a používat matematicky. Některé příklady kvantitativních dat jsou: počet obyvatel země, výška osoby nebo čtvrtletní příjmy společnosti. S další analýzou by kvantitativní data mohla být použita k objevení sezónních trendů indexu kvality ovzduší (AQI) nebo k odhadu pravděpodobnosti dopravní špičky během běžného pracovního dne.
+Kvantitativní data jsou číselná pozorování ve skupině dat a obvykle je lze analyzovat, měřit a používat matematicky. Některé příklady kvantitativních dat jsou: populace země, výška osoby nebo čtvrtletní výdělky společnosti. S další analýzou by kvantitativní data mohla být použita k objevení sezónních trendů indexu kvality ovzduší (AQI) nebo k odhadu pravděpodobnosti dopravní špičky v typický pracovní den.
 
 ### Kvalitativní data
-Kvalitativní data, známá také jako kategorická data, jsou data, která nelze měřit objektivně jako kvantitativní pozorování. Obvykle se jedná o různé formáty subjektivních dat, která zachycují kvalitu něčeho, například produktu nebo procesu. Někdy jsou kvalitativní data číselná, ale obvykle se nepoužívají matematicky, například telefonní čísla nebo časové značky. Některé příklady kvalitativních dat jsou: komentáře k videím, značka a model auta nebo oblíbená barva vašich nejbližších přátel. Kvalitativní data by mohla být použita k pochopení, které produkty mají spotřebitelé nejraději, nebo k identifikaci populárních klíčových slov v životopisech uchazečů o zaměstnání.
+Kvalitativní data, také známá jako kategoriální data, jsou data, která nelze objektivně měřit jako pozorování kvantitativních dat. Obvykle jde o různé formáty subjektivních dat, která zachycují kvalitu něčeho, například produktu nebo procesu. Někdy jsou kvalitativní data číselná a obvykle by nebyla používána matematicky, jako jsou telefonní čísla nebo časová razítka. Některé příklady kvalitativních dat jsou: komentáře k videím, značka a model auta nebo oblíbená barva vašich nejbližších přátel. Kvalitativní data lze použít k pochopení, které produkty mají spotřebitelé nejraději, nebo k identifikaci populárních klíčových slov v životopisech pracovních uchazečů.
 
 ### Strukturovaná data
-Strukturovaná data jsou data, která jsou organizována do řádků a sloupců, kde každý řádek má stejnou sadu sloupců. Sloupce představují hodnotu určitého typu a jsou identifikovány názvem, který popisuje, co hodnota představuje, zatímco řádky obsahují skutečné hodnoty. Sloupce často mají specifickou sadu pravidel nebo omezení pro hodnoty, aby bylo zajištěno, že hodnoty přesně reprezentují sloupec. Například si představte tabulku zákazníků, kde každý řádek musí obsahovat telefonní číslo a telefonní čísla nikdy neobsahují abecední znaky. Mohou být aplikována pravidla na sloupec telefonního čísla, aby bylo zajištěno, že nikdy nebude prázdný a bude obsahovat pouze čísla.
+Strukturovaná data jsou data uspořádaná do řádků a sloupců, kde každý řádek má stejnou sadu sloupců. Sloupce představují hodnotu určitého typu a jsou identifikovány názvem, který popisuje, co hodnota představuje, zatímco řádky obsahují skutečné hodnoty. Sloupce často mají specifické sady pravidel nebo omezení na hodnoty, aby bylo zajištěno, že hodnoty správně reprezentují sloupec. Například si představte tabulku zákazníků, kde každý řádek musí mít telefonní číslo a telefonní čísla nikdy neobsahují abecední znaky. Mohou být na sloupec s telefonním číslem aplikována pravidla, aby nikdy nebyl prázdný a obsahoval pouze čísla.
 
-Výhodou strukturovaných dat je, že mohou být organizována tak, aby byla propojena s jinými strukturovanými daty. Nicméně, protože data jsou navržena tak, aby byla organizována specifickým způsobem, změny v jejich celkové struktuře mohou být náročné. Například přidání sloupce e-mailu do tabulky zákazníků, který nemůže být prázdný, znamená, že budete muset zjistit, jak přidat tyto hodnoty do existujících řádků zákazníků v datové sadě.
+Výhodou strukturovaných dat je, že mohou být uspořádána tak, aby bylo možné je vztáhnout k jiným strukturovaným datům. Nicméně, protože data jsou navržena k uspořádání určitým způsobem, může být změna jejich celkové struktury náročná. Například přidání sloupce s e-mailem do tabulky zákazníků, který nesmí být prázdný, znamená, že budete muset zjistit, jak tyto hodnoty přidat k existujícím řádkům zákazníků v sadě dat.
 
 Příklady strukturovaných dat: tabulky, relační databáze, telefonní čísla, bankovní výpisy
 
 ### Nestrukturovaná data
-Nestrukturovaná data obvykle nelze kategorizovat do řádků nebo sloupců a neobsahují formát ani sadu pravidel, která by se měla dodržovat. Protože nestrukturovaná data mají méně omezení na svou strukturu, je snazší přidávat nové informace ve srovnání se strukturovanou datovou sadou. Pokud senzor, který zachycuje data o barometrickém tlaku každé 2 minuty, obdrží aktualizaci, která mu nyní umožňuje měřit a zaznamenávat teplotu, nevyžaduje to změnu existujících dat, pokud jsou nestrukturovaná. Nicméně to může prodloužit dobu analýzy nebo zkoumání tohoto typu dat. Například vědec, který chce zjistit průměrnou teplotu za předchozí měsíc z dat senzoru, ale zjistí, že senzor zaznamenal "e" v některých svých datech, aby označil, že byl rozbitý, místo typického čísla, což znamená, že data jsou neúplná.
+Nestrukturovaná data obvykle nelze kategorizovat do řádků nebo sloupců a neobsahují formát ani sadu pravidel, která by bylo třeba dodržovat. Protože nestrukturovaná data mají méně omezení na svou strukturu, je snazší přidávat nové informace ve srovnání se strukturovanou sadou dat. Pokud senzor, který snímá data o barometrickém tlaku každé 2 minuty, dostane aktualizaci, která mu umožní měřit a zaznamenávat teplotu, nebude nutné měnit stávající data, pokud jsou nestrukturovaná. Toto však může znamenat, že analýza nebo zkoumání takových dat potrvá déle. Například vědec, který chce zjistit průměrnou teplotu za předchozí měsíc z dat senzoru, ale zjistí, že senzor zaznamenal v některých datech písmeno „e“ pro označení, že byl senzor rozbitý místo typického čísla, což znamená, že data nejsou kompletní.
 
 Příklady nestrukturovaných dat: textové soubory, textové zprávy, video soubory
 
 ### Polostrukturovaná data
-Polostrukturovaná data mají vlastnosti, které je činí kombinací strukturovaných a nestrukturovaných dat. Obvykle neodpovídají formátu řádků a sloupců, ale jsou organizována způsobem, který je považován za strukturovaný, a mohou dodržovat pevný formát nebo sadu pravidel. Struktura se liší podle zdrojů, od dobře definované hierarchie až po něco flexibilnějšího, co umožňuje snadnou integraci nových informací. Metadata jsou indikátory, které pomáhají rozhodnout, jak jsou data organizována a ukládána, a mají různé názvy podle typu dat. Některé běžné názvy pro metadata jsou značky, prvky, entity a atributy. Například typická e-mailová zpráva bude mít předmět, tělo a sadu příjemců a může být organizována podle toho, kdo ji poslal nebo kdy byla odeslána.
+Polostrukturovaná data mají vlastnosti, které z nich činí kombinaci strukturovaných a nestrukturovaných dat. Obvykle neodpovídají formátu řádků a sloupců, ale jsou uspořádána způsobem, který je považován za strukturovaný a může dodržovat pevný formát nebo sadu pravidel. Struktura se bude lišit podle zdrojů, například od dobře definované hierarchie až po něco flexibilnějšího, co umožňuje snadnou integraci nových informací. Metadata jsou indikátory, které pomáhají rozhodnout, jak jsou data uspořádána a uložena, a mají různá jména podle typu dat. Některá běžná jména pro metadata jsou tagy, elementy, entity a atributy. Například běžný e-mail bude mít předmět, tělo a sadu příjemců a může být uspořádán podle toho, kdo nebo kdy byl odeslán.
 
-Příklady polostrukturovaných dat: HTML, soubory CSV, JavaScript Object Notation (JSON)
+Příklady polostrukturovaných dat: HTML, CSV soubory, JavaScript Object Notation (JSON)
 
 ## Zdroje dat
 
-Zdroj dat je počáteční místo, kde byla data vytvořena, nebo kde "žijí", a liší se podle toho, jak a kdy byla shromážděna. Data generovaná uživateli jsou známá jako primární data, zatímco sekundární data pocházejí ze zdroje, který shromáždil data pro obecné použití. Například skupina vědců, která sbírá pozorování v deštném pralese, by byla považována za primární zdroj, a pokud se rozhodnou sdílet tato data s jinými vědci, byla by považována za sekundární pro ty, kteří je používají.
+Zdroj dat je počáteční místo, kde byla data vytvořena nebo kde „žijí“ a bude se lišit podle toho, jak a kdy byla data shromážděna. Data generovaná svými uživateli jsou známá jako primární data, zatímco sekundární data pocházejí ze zdroje, který data shromažďoval pro obecné použití. Například skupina vědců sbírajících pozorování v deštném pralese by byla považována za primární zdroj a pokud je rozhodnou sdílet s jinými vědci, budou pro ty, kdo je používají, považována za sekundární.
 
-Databáze jsou běžným zdrojem a spoléhají na systém správy databází, který hostuje a udržuje data, kde uživatelé používají příkazy nazývané dotazy k prozkoumání dat. Soubory jako zdroje dat mohou být zvukové, obrazové a video soubory, stejně jako tabulky, například Excel. Internetové zdroje jsou běžným místem pro hostování dat, kde lze najít databáze i soubory. Rozhraní pro programování aplikací, známá také jako API, umožňují programátorům vytvářet způsoby sdílení dat s externími uživateli prostřednictvím internetu, zatímco proces webového scrappingu extrahuje data z webové stránky. [Lekce v Práce s daty](../../../../../../../../../2-Working-With-Data) se zaměřují na to, jak používat různé zdroje dat.
+Databáze jsou běžným zdrojem a spoléhají na systém pro správu databází k hostování a udržování dat, kde uživatelé používají příkazy zvané dotazy k průzkumu dat. Soubory jako zdroje dat mohou být audio, obrazové a video soubory, stejně jako tabulky typu Excel. Internetové zdroje jsou běžným místem pro hostování dat, kde lze najít databáze i soubory. Rozhraní aplikačního programování, známá také jako API, umožňují programátorům vytvářet způsoby sdílení dat s externími uživateli přes internet, zatímco proces web scrapingu extrahuje data z webové stránky. [Lekce v sekci Práce s daty](../../../../../../../../../2-Working-With-Data) se zaměřují na to, jak využívat různé zdroje dat.
 
 ## Závěr
 
 V této lekci jsme se naučili:
 
 - Co jsou data
-- Jak jsou data popisována
+- Jak jsou data popsána
 - Jak jsou data klasifikována a kategorizována
 - Kde lze data najít
 
 ## 🚀 Výzva
 
-Kaggle je vynikajícím zdrojem otevřených datových sad. Použijte [nástroj pro vyhledávání datových sad](https://www.kaggle.com/datasets) k nalezení zajímavých datových sad a klasifikujte 3-5 datových sad podle těchto kritérií:
+Kaggle je vynikajícím zdrojem otevřených sad dat. Použijte [nástroj pro hledání sad dat](https://www.kaggle.com/datasets), abyste našli zajímavé sady dat a klasifikovali 3-5 sad pomocí těchto kritérií:
 
 - Jsou data kvantitativní nebo kvalitativní?
-- Jsou data strukturovaná, nestrukturovaná nebo polostrukturovaná?
+- Jsou data strukturovaná, nestrukturovaná, nebo polostrukturovaná?
 
-## [Kvíz po přednášce](https://ff-quizzes.netlify.app/en/ds/quiz/5)
+## [Popřednáškový kvíz](https://ff-quizzes.netlify.app/en/ds/quiz/5)
 
-## Přehled a samostudium
 
-- Tato jednotka Microsoft Learn s názvem [Klasifikace vašich dat](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/2-classify-data) obsahuje podrobný rozbor strukturovaných, polostrukturovaných a nestrukturovaných dat.
+
+## Revize & Samostudium
+
+- Tato jednotka Microsoft Learn, nazvaná [Identifikace formátů dat](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/2-data-formats?pivots=text), má podrobný rozbor strukturovaných, polostrukturovaných a nestrukturovaných dat.
 
 ## Úkol
 
-[Klasifikace datových sad](assignment.md)
+[Klasifikace sad dat](assignment.md)
 
 ---
 
-**Prohlášení**:  
-Tento dokument byl přeložen pomocí služby pro automatický překlad [Co-op Translator](https://github.com/Azure/co-op-translator). I když se snažíme o přesnost, mějte prosím na paměti, že automatické překlady mohou obsahovat chyby nebo nepřesnosti. Původní dokument v jeho původním jazyce by měl být považován za autoritativní zdroj. Pro důležité informace se doporučuje profesionální lidský překlad. Neodpovídáme za žádné nedorozumění nebo nesprávné interpretace vyplývající z použití tohoto překladu.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Prohlášení o omezení odpovědnosti**:
+Tento dokument byl přeložen pomocí AI překladatelské služby [Co-op Translator](https://github.com/Azure/co-op-translator). Přestože usilujeme o co největší přesnost, mějte prosím na paměti, že automatizované překlady mohou obsahovat chyby nebo nepřesnosti. Originální dokument v jeho mateřském jazyce by měl být považován za autoritativní zdroj. Pro kritické informace se doporučuje profesionální lidský překlad. Nejsme odpovědní za jakékoli nedorozumění nebo nesprávné interpretace vzniklé použitím tohoto překladu.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

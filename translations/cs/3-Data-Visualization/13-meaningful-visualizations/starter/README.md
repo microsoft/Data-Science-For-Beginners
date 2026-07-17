@@ -1,31 +1,33 @@
-# Projekt vizualizace dat Dangerous Liaisons
+# Projekt vizualizace dat Nebezpečné známosti
 
-Než začnete, ujistěte se, že máte na svém počítači nainstalované NPM a Node. Nainstalujte závislosti (npm install) a poté spusťte projekt lokálně (npm run serve):
+Pro začátek se ujistěte, že máte na svém počítači nainstalován NPM a Node **>=20.0.0**. Nainstalujte závislosti (npm install) a poté spusťte projekt lokálně (npm run serve):
 
 ## Nastavení projektu
 ```
 npm install
 ```
 
-### Kompilace a automatické obnovení pro vývoj
+### Překládá a automaticky obnovuje pro vývoj
 ```
 npm run serve
 ```
 
-### Kompilace a minimalizace pro produkci
+### Překládá a minimalizuje pro produkci
 ```
 npm run build
 ```
 
-### Kontrola a oprava souborů
+### Provádí lintování a opravy souborů
 ```
 npm run lint
 ```
 
 ### Přizpůsobení konfigurace
-Podívejte se na [Konfigurační referenci](https://cli.vuejs.org/config/).
+Viz [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
 
-**Prohlášení**:  
-Tento dokument byl přeložen pomocí služby pro automatický překlad [Co-op Translator](https://github.com/Azure/co-op-translator). I když se snažíme o přesnost, mějte na paměti, že automatické překlady mohou obsahovat chyby nebo nepřesnosti. Původní dokument v jeho původním jazyce by měl být považován za autoritativní zdroj. Pro důležité informace se doporučuje profesionální lidský překlad. Neodpovídáme za žádná nedorozumění nebo nesprávné interpretace vyplývající z použití tohoto překladu.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Prohlášení o omezení odpovědnosti**:
+Tento dokument byl přeložen pomocí AI překladatelské služby [Co-op Translator](https://github.com/Azure/co-op-translator). Přestože usilujeme o co největší přesnost, mějte prosím na paměti, že automatizované překlady mohou obsahovat chyby nebo nepřesnosti. Originální dokument v jeho mateřském jazyce by měl být považován za autoritativní zdroj. Pro kritické informace se doporučuje profesionální lidský překlad. Nejsme odpovědní za jakékoli nedorozumění nebo nesprávné interpretace vzniklé použitím tohoto překladu.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
