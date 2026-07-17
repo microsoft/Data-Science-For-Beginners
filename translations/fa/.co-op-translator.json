@@ -12,8 +12,8 @@
     "language_code": "fa"
   },
   "1-Introduction/01-defining-data-science/notebook.ipynb": {
-    "original_hash": "8f5eb7b3f7cc89e6d98fb32e1de65dec",
-    "translation_date": "2026-02-28T08:11:58+00:00",
+    "original_hash": "8eb07e3d899aaba7ea9c9ec9b5aa2850",
+    "translation_date": "2026-07-17T21:12:54+00:00",
     "source_file": "1-Introduction/01-defining-data-science/notebook.ipynb",
     "language_code": "fa"
   },
@@ -42,8 +42,8 @@
     "language_code": "fa"
   },
   "1-Introduction/03-defining-data/README.md": {
-    "original_hash": "12339119c0165da569a93ddba05f9339",
-    "translation_date": "2025-09-05T14:24:17+00:00",
+    "original_hash": "7217c6f9eb464d4ff4bae6c036ab53cb",
+    "translation_date": "2026-07-17T21:19:26+00:00",
     "source_file": "1-Introduction/03-defining-data/README.md",
     "language_code": "fa"
   },
@@ -63,6 +63,12 @@
     "original_hash": "01d1b493e8b51a6ebb42524f6b1bcfff",
     "translation_date": "2025-08-24T21:44:27+00:00",
     "source_file": "1-Introduction/04-stats-and-probability/assignment.md",
+    "language_code": "fa"
+  },
+  "1-Introduction/04-stats-and-probability/notebook.ipynb": {
+    "original_hash": "0c77e104b29c723287bf11b773fcc5d5",
+    "translation_date": "2026-07-17T21:14:04+00:00",
+    "source_file": "1-Introduction/04-stats-and-probability/notebook.ipynb",
     "language_code": "fa"
   },
   "1-Introduction/README.md": {
@@ -108,8 +114,8 @@
     "language_code": "fa"
   },
   "2-Working-With-Data/07-python/notebook-covidspread.ipynb": {
-    "original_hash": "6335cccba01dc6ad7b15aba7a8c73f38",
-    "translation_date": "2026-02-28T08:13:22+00:00",
+    "original_hash": "da97f98781c7cd271063f605fe8d71d0",
+    "translation_date": "2026-07-17T21:12:22+00:00",
     "source_file": "2-Working-With-Data/07-python/notebook-covidspread.ipynb",
     "language_code": "fa"
   },
@@ -192,14 +198,14 @@
     "language_code": "fa"
   },
   "3-Data-Visualization/13-meaningful-visualizations/solution/README.md": {
-    "original_hash": "5c51a54dd89075a7a362890117b7ed9e",
-    "translation_date": "2025-08-24T22:34:39+00:00",
+    "original_hash": "2b3b2632bb02af608ca60be828e8097d",
+    "translation_date": "2026-07-17T21:19:35+00:00",
     "source_file": "3-Data-Visualization/13-meaningful-visualizations/solution/README.md",
     "language_code": "fa"
   },
   "3-Data-Visualization/13-meaningful-visualizations/starter/README.md": {
-    "original_hash": "5c51a54dd89075a7a362890117b7ed9e",
-    "translation_date": "2025-08-24T22:34:08+00:00",
+    "original_hash": "2b3b2632bb02af608ca60be828e8097d",
+    "translation_date": "2026-07-17T21:19:31+00:00",
     "source_file": "3-Data-Visualization/13-meaningful-visualizations/starter/README.md",
     "language_code": "fa"
   },
