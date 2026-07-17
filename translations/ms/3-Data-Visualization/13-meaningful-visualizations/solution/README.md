@@ -1,31 +1,33 @@
 # Projek visualisasi data Dangerous Liaisons
 
-Untuk memulakan, pastikan anda mempunyai NPM dan Node yang berjalan di mesin anda. Pasang kebergantungan (npm install) dan kemudian jalankan projek secara tempatan (npm run serve):
+Untuk memulakan, anda perlu memastikan bahawa anda mempunyai NPM dan Node **>=20.0.0** yang berjalan di mesin anda. Pasang kebergantungan (npm install) dan kemudian jalankan projek secara tempatan (npm run serve):
 
 ## Persediaan projek
 ```
 npm install
 ```
 
-### Kompilasi dan muat semula secara automatik untuk pembangunan
+### Memampat dan muat semula secara panas untuk pembangunan
 ```
 npm run serve
 ```
 
-### Kompilasi dan minimakan untuk pengeluaran
+### Memampat dan meminify untuk pengeluaran
 ```
 npm run build
 ```
 
-### Lakukan lint dan perbaiki fail
+### Memeriksa dan membaiki fail
 ```
 npm run lint
 ```
 
-### Sesuaikan konfigurasi
-Lihat [Rujukan Konfigurasi](https://cli.vuejs.org/config/).
+### Tersuai konfigurasi
+Lihat [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
 
-**Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil perhatian bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Penafian**:
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk ketepatan, sila ambil maklum bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang sahih. Untuk maklumat penting, terjemahan oleh manusia profesional adalah disyorkan. Kami tidak bertanggungjawab terhadap sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
