@@ -1,13 +1,13 @@
-# Projekt vizualizacije podataka Dangerous Liaisons
+# Projekt vizualizacije podataka Nesigurne veze
 
-Za početak, potrebno je osigurati da imate instalirane NPM i Node na svom računalu. Instalirajte ovisnosti (npm install) i zatim pokrenite projekt lokalno (npm run serve):
+Za početak, morate osigurati da imate NPM i Node **>=20.0.0** instalirane na vašem računalu. Instalirajte ovisnosti (npm install) i zatim pokrenite projekt lokalno (npm run serve):
 
 ## Postavljanje projekta
 ```
 npm install
 ```
 
-### Kompajlira i automatski osvježava za razvoj
+### Kompajlira i automatski ponovno učitava za razvoj
 ```
 npm run serve
 ```
@@ -17,15 +17,17 @@ npm run serve
 npm run build
 ```
 
-### Provjerava i popravlja datoteke
+### Provjerava i ispravlja datoteke
 ```
 npm run lint
 ```
 
 ### Prilagodba konfiguracije
-Pogledajte [Referencu konfiguracije](https://cli.vuejs.org/config/).
+Pogledajte [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
 
-**Odricanje od odgovornosti**:  
-Ovaj dokument je preveden pomoću AI usluge za prevođenje [Co-op Translator](https://github.com/Azure/co-op-translator). Iako nastojimo osigurati točnost, imajte na umu da automatski prijevodi mogu sadržavati pogreške ili netočnosti. Izvorni dokument na izvornom jeziku treba smatrati mjerodavnim izvorom. Za ključne informacije preporučuje se profesionalni prijevod od strane stručnjaka. Ne snosimo odgovornost za nesporazume ili pogrešne interpretacije koje mogu proizaći iz korištenja ovog prijevoda.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Napomena**:
+Ovaj dokument je preveden korištenjem AI prevoditeljskog servisa [Co-op Translator](https://github.com/Azure/co-op-translator). Iako težimo točnosti, imajte na umu da automatski prijevodi mogu sadržavati greške ili netočnosti. Izvorni dokument na izvornom jeziku treba smatrati autoritativnim izvorom. Za važne informacije preporuča se profesionalni ljudski prijevod. Nismo odgovorni za bilo kakva nesporazumevanja ili pogrešne interpretacije koje proizlaze iz korištenja ovog prijevoda.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
