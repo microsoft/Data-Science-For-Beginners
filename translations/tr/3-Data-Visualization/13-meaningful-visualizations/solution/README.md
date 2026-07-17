@@ -1,13 +1,13 @@
 # Tehlikeli İlişkiler veri görselleştirme projesi
 
-Başlamak için, makinenizde NPM ve Node'un çalıştığından emin olmanız gerekiyor. Bağımlılıkları yükleyin (npm install) ve ardından projeyi yerel olarak çalıştırın (npm run serve):
+Başlamak için makinenizde NPM ve Node **>=20.0.0** yüklü ve çalışır durumda olmalıdır. Bağımlılıkları yükleyin (npm install) ve ardından projeyi yerel olarak çalıştırın (npm run serve):
 
 ## Proje kurulumu
 ```
 npm install
 ```
 
-### Geliştirme için derler ve anında yeniden yükler
+### Geliştirme için derler ve sıcak yükleme yapar
 ```
 npm run serve
 ```
@@ -17,15 +17,17 @@ npm run serve
 npm run build
 ```
 
-### Dosyaları kontrol eder ve düzeltir
+### Dosyaları denetler ve düzeltir
 ```
 npm run lint
 ```
 
-### Yapılandırmayı özelleştirme
-[Configuration Reference](https://cli.vuejs.org/config/) adresine bakın.
+### Yapılandırmayı özelleştir
+Bkz. [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
 
-**Feragatname**:  
-Bu belge, [Co-op Translator](https://github.com/Azure/co-op-translator) adlı yapay zeka çeviri hizmeti kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belgenin kendi dilindeki hali, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalar için sorumluluk kabul etmiyoruz.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Feragatname**:
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba sarf etsek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayınız. Orijinal belge, kendi dilinde yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımı sonucu ortaya çıkabilecek yanlış anlamalardan veya yanlış yorumlamalardan sorumlu değiliz.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
