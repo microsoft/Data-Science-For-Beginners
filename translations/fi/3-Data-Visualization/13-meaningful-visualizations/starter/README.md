@@ -1,8 +1,8 @@
-# Dangerous Liaisons - datavisualisointiprojekti
+# Dangerous Liaisons -datojen visualisointiprojekti
 
-Aloittaaksesi varmista, että sinulla on NPM ja Node asennettuna koneellesi. Asenna riippuvuudet (npm install) ja aja projekti paikallisesti (npm run serve):
+Aloittaaksesi sinun tulee varmistaa, että koneellasi on käynnissä NPM ja Node **>=20.0.0**. Asenna riippuvuudet (npm install) ja käynnistä projekti paikallisesti (npm run serve):
 
-## Projektin asennus
+## Projektin alustus
 ```
 npm install
 ```
@@ -12,7 +12,7 @@ npm install
 npm run serve
 ```
 
-### Kääntää ja minimoi tuotantokäyttöä varten
+### Kääntää ja minifioi tuotantoa varten
 ```
 npm run build
 ```
@@ -27,5 +27,7 @@ Katso [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
 
-**Vastuuvapauslauseke**:  
-Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Pyrimme tarkkuuteen, mutta huomioithan, että automaattiset käännökset voivat sisältää virheitä tai epätarkkuuksia. Alkuperäistä asiakirjaa sen alkuperäisellä kielellä tulee pitää ensisijaisena lähteenä. Kriittisen tiedon osalta suositellaan ammattimaista ihmiskääntämistä. Emme ole vastuussa tämän käännöksen käytöstä aiheutuvista väärinkäsityksistä tai virhetulkinnoista.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Vastuuvapauslauseke**:
+Tämä asiakirja on käännetty käyttämällä tekoälypohjaista käännöspalvelua [Co-op Translator](https://github.com/Azure/co-op-translator). Vaikka pyrimme tarkkuuteen, otathan huomioon, että automaattiset käännökset saattavat sisältää virheitä tai epätarkkuuksia. Alkuperäinen asiakirja sen alkuperäiskielellä on virallinen lähde. Tärkeissä asioissa suositellaan ammattimaista ihmiskäännöstä. Emme ole vastuussa tämän käännöksen käytöstä aiheutuvista väärinymmärryksistä tai tulkinnoista.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
