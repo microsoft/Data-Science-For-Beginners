@@ -1,31 +1,33 @@
-# Pavojingų ryšių duomenų vizualizacijos projektas
+# Pavojingos sąsajos duomenų vizualizacijos projektas
 
-Norėdami pradėti, įsitikinkite, kad jūsų kompiuteryje veikia NPM ir Node. Įdiekite priklausomybes (npm install) ir tada paleiskite projektą lokaliai (npm run serve):
+Norėdami pradėti, turite įsitikinti, kad jūsų kompiuteryje veikia NPM ir Node **>=20.0.0**. Įdiekite priklausomybes (npm install), tada paleiskite projektą vietoje (npm run serve):
 
-## Projekto nustatymas
+## Projekto paruošimas
 ```
 npm install
 ```
 
-### Kompiliavimas ir automatinis perkrovimas vystymui
+### Kompiliuoja ir karštai įkrauna kūrimui
 ```
 npm run serve
 ```
 
-### Kompiliavimas ir minimizavimas produkcijai
+### Kompiliuoja ir suspaudžia gamybai
 ```
 npm run build
 ```
 
-### Failų tikrinimas ir taisymas
+### Tikrina ir taiso failus
 ```
 npm run lint
 ```
 
 ### Konfigūracijos pritaikymas
-Žr. [Konfigūracijos nuorodą](https://cli.vuejs.org/config/).
+Žr. [Konfigūracijos nuoroda](https://cli.vuejs.org/config/).
 
 ---
 
-**Atsakomybės apribojimas**:  
-Šis dokumentas buvo išverstas naudojant dirbtinio intelekto vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, atkreipiame dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba turėtų būti laikomas autoritetingu šaltiniu. Kritinei informacijai rekomenduojama naudotis profesionalių vertėjų paslaugomis. Mes neprisiimame atsakomybės už nesusipratimus ar klaidingus aiškinimus, kylančius dėl šio vertimo naudojimo.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Atsakomybės apribojimas**:
+Šis dokumentas buvo išverstas naudojant dirbtinio intelekto vertimo paslaugą [Co-op Translator](https://github.com/Azure/co-op-translator). Nors siekiame tikslumo, prašome atkreipti dėmesį, kad automatiniai vertimai gali turėti klaidų ar netikslumų. Originalus dokumentas jo gimtąja kalba laikomas autoritetingu šaltiniu. Svarbiai informacijai rekomenduojama naudoti profesionalų žmogiškąjį vertimą. Mes neatsakome už jokius nesusipratimus ar neteisingą interpretaciją, kilusią naudojantis šiuo vertimu.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

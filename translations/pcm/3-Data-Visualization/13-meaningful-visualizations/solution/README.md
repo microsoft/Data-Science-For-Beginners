@@ -1,33 +1,33 @@
 # Dangerous Liaisons data visualization project
 
-To start, make sure say NPM and Node dey run for your machine. Install di dependencies (npm install) and then run di project for your local machine (npm run serve):
+To stat, you gats sure say you get NPM and Node **>=20.0.0** wey dey run for your machine. Install the dependencies (npm install) den run the project local (npm run serve):
 
 ## Project setup
 ```
 npm install
 ```
 
-### E go compile and dey reload for development
+### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### E go compile and reduce size for production
+### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### E dey check and correct files
+### Lints and fixes files
 ```
 npm run lint
 ```
 
-### Make di configuration how you want am
-Check [Configuration Reference](https://cli.vuejs.org/config/).
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Disclaimer**:  
-Dis dokyument don use AI transleshion service [Co-op Translator](https://github.com/Azure/co-op-translator) do di transleshion. Even as we dey try make am accurate, abeg make you sabi say machine transleshion fit get mistake or no dey correct well. Di original dokyument wey dey for im native language na di main source wey you go fit trust. For important informashon, e good make you use professional human transleshion. We no go fit take blame for any misunderstanding or wrong way you go take understand di transleshion wey dis dokyument get.
+**Disclaimer**:
+Dis document don translate wit AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). Even tho we dey try make am correct, abeg make you know say automated translation fit get errors or mistakes. Di original document for dia own language na im be di correct source. For important info, make person wey sabi human translation do am. We no go responsible for any misunderstanding or wrong understanding wey fit happen because of dis translation.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

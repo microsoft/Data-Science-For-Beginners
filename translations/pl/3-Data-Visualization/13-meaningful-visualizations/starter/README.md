@@ -1,29 +1,33 @@
 # Projekt wizualizacji danych Dangerous Liaisons
 
-Aby rozpocząć, upewnij się, że masz zainstalowane NPM i Node na swoim komputerze. Zainstaluj zależności (npm install), a następnie uruchom projekt lokalnie (npm run serve):
+Aby rozpocząć, musisz upewnić się, że na Twoim komputerze działa NPM i Node **>=20.0.0**. Zainstaluj zależności (npm install), a następnie uruchom projekt lokalnie (npm run serve):
 
 ## Konfiguracja projektu
 ```
 npm install
 ```
 
-### Kompilacja i automatyczne odświeżanie podczas rozwoju
+### Kompiluje i przeładowuje na gorąco podczas programowania
 ```
 npm run serve
 ```
 
-### Kompilacja i minimalizacja dla produkcji
+### Kompiluje i minifikuje do produkcji
 ```
 npm run build
 ```
 
-### Sprawdzanie i poprawianie plików
+### Sprawdza i naprawia pliki
 ```
 npm run lint
 ```
 
-### Dostosowanie konfiguracji
-Zobacz [Odnośnik do konfiguracji](https://cli.vuejs.org/config/).
+### Dostosuj konfigurację
+Zobacz [Configuration Reference](https://cli.vuejs.org/config/).
 
-**Zastrzeżenie**:  
-Ten dokument został przetłumaczony za pomocą usługi tłumaczenia AI [Co-op Translator](https://github.com/Azure/co-op-translator). Chociaż staramy się zapewnić dokładność, prosimy pamiętać, że automatyczne tłumaczenia mogą zawierać błędy lub nieścisłości. Oryginalny dokument w jego rodzimym języku powinien być uznawany za autorytatywne źródło. W przypadku informacji krytycznych zaleca się skorzystanie z profesjonalnego tłumaczenia przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z użycia tego tłumaczenia.
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Zastrzeżenie**:
+Niniejszy dokument został przetłumaczony za pomocą usługi tłumaczenia AI [Co-op Translator](https://github.com/Azure/co-op-translator). Choć dążymy do dokładności, prosimy pamiętać, że automatyczne tłumaczenia mogą zawierać błędy lub niedokładności. Oryginalny dokument w jego języku źródłowym należy uznawać za autorytatywne źródło. W przypadku informacji krytycznych zalecane jest skorzystanie z profesjonalnego tłumaczenia wykonanego przez człowieka. Nie ponosimy odpowiedzialności za jakiekolwiek nieporozumienia lub błędne interpretacje wynikające z użycia tego tłumaczenia.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

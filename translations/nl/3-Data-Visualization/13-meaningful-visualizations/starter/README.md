@@ -1,8 +1,8 @@
-# Gevaarlijke Relaties data visualisatieproject
+# Dangerous Liaisons datavisualisatieproject
 
-Om te beginnen moet je ervoor zorgen dat je NPM en Node op je machine hebt draaien. Installeer de afhankelijkheden (npm install) en voer vervolgens het project lokaal uit (npm run serve):
+Om te beginnen moet je ervoor zorgen dat je NPM en Node **>=20.0.0** op je machine hebt draaien. Installeer de afhankelijkheden (npm install) en voer daarna het project lokaal uit (npm run serve):
 
-## Projectinstelling
+## Project setup
 ```
 npm install
 ```
@@ -17,15 +17,17 @@ npm run serve
 npm run build
 ```
 
-### Controleert en herstelt bestanden
+### Controleert en repareert bestanden
 ```
 npm run lint
 ```
 
-### Configuratie aanpassen
-Zie [Configuratiereferentie](https://cli.vuejs.org/config/).
+### Pas de configuratie aan
+Zie [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
 
-**Disclaimer**:  
-Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor kritieke informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Disclaimer**:
+Dit document is vertaald met behulp van de AI vertaaldienst [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u er rekening mee te houden dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor kritieke informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor eventuele misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

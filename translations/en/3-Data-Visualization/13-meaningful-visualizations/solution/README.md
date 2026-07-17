@@ -1,6 +1,6 @@
 # Dangerous Liaisons data visualization project
 
-To begin, make sure NPM and Node are installed and running on your computer. Install the dependencies (npm install) and then launch the project locally (npm run serve):
+To get started, you need to ensure that you have NPM and Node **>=20.0.0** running on your machine. Install the dependencies (npm install) and then run the project locally (npm run serve):
 
 ## Project setup
 ```
@@ -23,9 +23,11 @@ npm run lint
 ```
 
 ### Customize configuration
-Refer to [Configuration Reference](https://cli.vuejs.org/config/).
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
 
-**Disclaimer**:  
-This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we aim for accuracy, please note that automated translations may include errors or inaccuracies. The original document in its native language should be regarded as the authoritative source. For critical information, professional human translation is advised. We are not responsible for any misunderstandings or misinterpretations resulting from the use of this translation.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Disclaimer**:
+This document has been translated using AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

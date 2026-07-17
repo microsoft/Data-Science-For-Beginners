@@ -1,29 +1,33 @@
-# 危險關係數據可視化項目
+# 危險關係資料視覺化專案
 
-開始之前，請確保您的機器上已安裝 NPM 和 Node。安裝依賴項（npm install），然後在本地運行項目（npm run serve）：
+要開始之前，您需要確保您的機器上已安裝 NPM 和 Node **>=20.0.0**。安裝依賴套件（npm install），然後在本機執行專案（npm run serve）：
 
-## 項目設置
+## 專案設定
 ```
 npm install
 ```
 
-### 編譯並熱重載以進行開發
+### 編譯並在開發環境中熱重載
 ```
 npm run serve
 ```
 
-### 編譯並壓縮以進行生產環境
+### 編譯並壓縮以供生產環境使用
 ```
 npm run build
 ```
 
-### 檢查並修復文件
+### 進行程式碼檢查和修復檔案
 ```
 npm run lint
 ```
 
-### 自定義配置
-請參閱 [配置參考](https://cli.vuejs.org/config/)。
+### 自訂設定
+請參考 [設定參考](https://cli.vuejs.org/config/)。
 
-**免責聲明**：  
-本文件使用 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 進行翻譯。儘管我們努力確保翻譯的準確性，但請注意，自動翻譯可能包含錯誤或不準確之處。原始文件的母語版本應被視為權威來源。對於關鍵資訊，建議使用專業人工翻譯。我們對因使用此翻譯而引起的任何誤解或錯誤解釋不承擔責任。
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**免責聲明**：
+此文件已使用 AI 翻譯服務 [Co-op Translator](https://github.com/Azure/co-op-translator) 進行翻譯。雖然我們努力追求準確性，但請注意自動翻譯可能包含錯誤或不準確之處。原始文件的母語版本應視為權威來源。對於關鍵資訊，建議採用專業人工翻譯。我們不對因使用此翻譯所產生的任何誤解或誤譯承擔責任。
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

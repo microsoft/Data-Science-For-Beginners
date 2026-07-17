@@ -1,18 +1,18 @@
-# Ohtlike suhete andmete visualiseerimise projekt
+# Ohtlike Sidemete andmete visualiseerimise projekt
 
-Alustamiseks veendu, et NPM ja Node töötavad sinu arvutis. Paigalda sõltuvused (npm install) ja käivita projekt kohalikult (npm run serve):
+Alustamiseks peate veenduma, et teie arvutis töötab NPM ja Node versioon **>=20.0.0**. Installige sõltuvused (npm install) ja seejärel käivitage projekt lokaalselt (npm run serve):
 
 ## Projekti seadistamine
 ```
 npm install
 ```
 
-### Kompileerib ja rakendab muudatused arenduseks
+### Koondab ja värskendab arenduse ajal kohe
 ```
 npm run serve
 ```
 
-### Kompileerib ja minimeerib tootmiseks
+### Koondab ja minifieerib tootmiseks
 ```
 npm run build
 ```
@@ -23,9 +23,11 @@ npm run lint
 ```
 
 ### Kohanda konfiguratsiooni
-Vaata [Konfiguratsiooni viidet](https://cli.vuejs.org/config/).
+Vaata [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
 
-**Lahtiütlus**:  
-See dokument on tõlgitud AI tõlketeenuse [Co-op Translator](https://github.com/Azure/co-op-translator) abil. Kuigi püüame tagada täpsust, palume arvestada, et automaatsed tõlked võivad sisaldada vigu või ebatäpsusi. Algne dokument selle algses keeles tuleks pidada autoriteetseks allikaks. Olulise teabe puhul soovitame kasutada professionaalset inimtõlget. Me ei vastuta selle tõlke kasutamisest tulenevate arusaamatuste või valesti tõlgenduste eest.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Lahtiütlus**:
+See dokument on tõlgitud kasutades AI tõlketeenust [Co-op Translator](https://github.com/Azure/co-op-translator). Kuigi me püüdleme täpsuse poole, palun pange tähele, et automatiseeritud tõlgetes võib esineda vigu või ebatäpsusi. Originaaldokument selle emakeeles tuleks pidada autoriteetseks allikaks. Olulise teabe puhul soovitatakse kasutada professionaalset inimtõlget. Me ei vastuta selle tõlkega seotud eksimustest või valesti mõistmistest.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

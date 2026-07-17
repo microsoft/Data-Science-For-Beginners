@@ -1,75 +1,79 @@
-# Veriyi Tanımlama
+# Veri Tanımlama
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/03-DefiningData.png)|
 |:---:|
-|Veriyi Tanımlama - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
+|Veri Tanımlama - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-Veri, keşifler yapmak ve bilinçli kararlar desteklemek için kullanılan gerçekler, bilgiler, gözlemler ve ölçümlerdir. Bir veri noktası, bir veri kümesindeki tek bir veri birimidir ve veri noktalarının bir koleksiyonudur. Veri kümeleri farklı formatlarda ve yapılarda olabilir ve genellikle kaynağına, yani verinin nereden geldiğine bağlıdır. Örneğin, bir şirketin aylık kazançları bir elektronik tablo formatında olabilirken, bir akıllı saatten gelen saatlik kalp atış hızı verileri [JSON](https://stackoverflow.com/a/383699) formatında olabilir. Veri bilimciler genellikle bir veri kümesindeki farklı veri türleriyle çalışırlar.
+Veri, keşif yapmak ve bilinçli kararlar almak için kullanılan gerçekler, bilgiler, gözlemler ve ölçümlerdir. Veri noktası, veri noktalarının bir koleksiyonu olan bir veri seti içindeki tek bir veri birimidir. Veri setleri farklı formatlarda ve yapılarda olabilir ve genellikle kaynağına veya verinin nereden geldiğine bağlıdır. Örneğin, bir şirketin aylık kazancı bir elektronik tabloda olabilir ancak bir akıllı saatten gelen saatlik kalp atış hızı verisi [JSON](https://stackoverflow.com/a/383699) formatında olabilir. Veri bilimcilerin bir veri seti içindeki farklı türde verilerle çalışması yaygındır. 
 
-Bu ders, veriyi özelliklerine ve kaynaklarına göre tanımlamaya ve sınıflandırmaya odaklanmaktadır.
+Bu ders, veriyi özellikleri ve kaynaklarına göre tanımlama ve sınıflandırmaya odaklanmaktadır.
 
-## [Ders Öncesi Testi](https://ff-quizzes.netlify.app/en/ds/quiz/4)
-## Verinin Tanımlanması
+## [Ders Öncesi Quiz](https://ff-quizzes.netlify.app/en/ds/quiz/4)
+## Veri Nasıl Tanımlanır
 
 ### Ham Veri
-Ham veri, kaynağından gelen ve henüz analiz edilmemiş veya organize edilmemiş veridir. Bir veri kümesinde neler olduğunu anlamak için, verinin insanlar ve analiz için kullanılan teknolojiler tarafından anlaşılabilir bir formata organize edilmesi gerekir. Bir veri kümesinin yapısı, nasıl organize edildiğini tanımlar ve yapılandırılmış, yapılandırılmamış ve yarı yapılandırılmış olarak sınıflandırılabilir. Bu yapılar, kaynağa bağlı olarak değişiklik gösterebilir ancak nihayetinde bu üç kategoriye uyacaktır.
+Ham veri, kaynağından alınmış, ilk halindeki ve henüz analiz edilmemiş veya düzenlenmemiş veridir. Bir veri setinde olan biteni anlamak için, verilerin insanlar ve onları analiz etmek için kullanabilecekleri teknolojiler tarafından anlaşılabilir bir formata organize edilmesi gerekir. Bir veri setinin yapısı, onun nasıl düzenlendiğini açıklar ve yapılandırılmış, yapılandırılmamış ve yarı yapılandırılmış olarak sınıflandırılabilir. Bu yapı türleri kaynağa bağlı olarak değişir ancak nihayetinde bu üç kategoriye uyar. 
 
 ### Nicel Veri
-Nicel veri, bir veri kümesindeki sayısal gözlemlerdir ve genellikle analiz edilebilir, ölçülebilir ve matematiksel olarak kullanılabilir. Nicel veriye bazı örnekler: bir ülkenin nüfusu, bir kişinin boyu veya bir şirketin üç aylık kazançları. Ek analizlerle, nicel veri Hava Kalitesi İndeksi (AQI) için mevsimsel eğilimleri keşfetmek veya tipik bir iş gününde yoğun saat trafiği olasılığını tahmin etmek için kullanılabilir.
+Nicel veri, bir veri setindeki sayısal gözlemlerdir ve tipik olarak analiz edilebilir, ölçülebilir ve matematiksel olarak kullanılabilir. Nicel veri örnekleri: bir ülkenin nüfusu, bir kişinin boyu veya bir şirketin üç aylık kazancı. Bazı ek analizlerle, nicel veriler Hava Kalitesi İndeksi'nin (AQI) mevsimsel trendlerini keşfetmek veya tipik bir iş günündeki yoğun saat trafiği olasılığını tahmin etmek için kullanılabilir.
 
 ### Nitel Veri
-Nitel veri, kategorik veri olarak da bilinir ve nicel veri gözlemleri gibi nesnel olarak ölçülemeyen veridir. Genellikle bir ürün veya sürecin kalitesini yakalayan çeşitli formatlarda öznel veridir. Bazen nitel veri sayısal olabilir ancak genellikle matematiksel olarak kullanılmaz, örneğin telefon numaraları veya zaman damgaları. Nitel veriye bazı örnekler: video yorumları, bir arabanın marka ve modeli veya en yakın arkadaşlarınızın en sevdiği renk. Nitel veri, tüketicilerin en çok hangi ürünleri sevdiğini anlamak veya iş başvurusu özgeçmişlerinde popüler anahtar kelimeleri belirlemek için kullanılabilir.
+Nitel veri, kategorik veri olarak da bilinir, nicel verinin gözlemleri gibi nesnel olarak ölçülemeyen verilerdir. Genellikle bir ürün veya sürecin kalitesini yakalayan çeşitli biçimlerde öznel veridir. Bazen nitel veri sayısaldır ve tipik olarak matematiksel olarak kullanılmaz, örneğin telefon numaraları veya zaman damgaları gibi. Nitel veri örnekleri: video yorumları, bir arabanın marka ve modeli veya en yakın arkadaşlarınızın favori rengi. Nitel veri, tüketicilerin en çok hangi ürünleri sevdiğini anlamak veya iş başvurusu özgeçmişlerinde popüler anahtar kelimeleri belirlemek için kullanılabilir.
 
 ### Yapılandırılmış Veri
-Yapılandırılmış veri, satır ve sütunlara organize edilmiş veridir; her satır aynı sütun setine sahip olacaktır. Sütunlar, belirli bir türdeki bir değeri temsil eder ve değerin neyi temsil ettiğini açıklayan bir isimle tanımlanır, satırlar ise gerçek değerleri içerir. Sütunlar genellikle değerlerin sütunu doğru bir şekilde temsil etmesini sağlamak için belirli bir dizi kural veya kısıtlama içerir. Örneğin, her satırda bir telefon numarasının olması gereken ve telefon numaralarının alfabetik karakterler içermediği bir müşteri elektronik tablosunu hayal edin. Telefon numarası sütununda boş olmaması ve yalnızca sayılar içermesi gerektiğini belirten kurallar uygulanabilir.
+Yapılandırılmış veri, satırlar ve sütunlar halinde düzenlenmiş verilerdir ve her satır aynı sütun setine sahip olur. Sütunlar belirli bir türden bir değeri temsil eder ve değerin neyi temsil ettiğini açıklayan bir isimle tanımlanır, satırlar ise gerçek değerleri içerir. Sütunlarda genellikle değerlerin doğru temsilini sağlamak için belirli kurallar veya kısıtlamalar bulunur. Örneğin, her satırda bir telefon numarası bulunması gereken ve telefon numaralarında asla harf bulunmayan bir müşteri elektronik tablosunu düşünün. Telefon numarası sütununda boş olmaması ve sadece sayı içermesi için kurallar uygulanabilir. 
 
-Yapılandırılmış verinin bir avantajı, diğer yapılandırılmış verilerle ilişkilendirilebilecek şekilde organize edilebilmesidir. Ancak, veri belirli bir şekilde organize edilmek üzere tasarlandığından, genel yapısında değişiklik yapmak oldukça fazla çaba gerektirebilir. Örneğin, müşteri elektronik tablosuna boş olamayacak bir e-posta sütunu eklemek, mevcut müşteri satırlarına bu değerleri nasıl ekleyeceğinizi belirlemenizi gerektirir.
+Yapılandırılmış verinin bir avantajı, diğer yapılandırılmış verilerle ilişkili olacak şekilde düzenlenebilmesidir. Ancak, veriler belirli bir şekilde düzenlenmek üzere tasarlandığı için, genel yapısında değişiklik yapmak büyük çaba gerektirebilir. Örneğin, müşteri elektronik tablosuna boş bırakılmaması gereken bir e-posta sütunu eklemek, bu değerlerin var olan müşteri satırlarına nasıl eklenebileceğini çözmek anlamına gelir. 
 
-Yapılandırılmış veri örnekleri: elektronik tablolar, ilişkisel veritabanları, telefon numaraları, banka ekstreleri
+Yapılandırılmış veri örnekleri: elektronik tablolar, ilişkisel veritabanları, telefon numaraları, banka hesap dökümleri
 
 ### Yapılandırılmamış Veri
-Yapılandırılmamış veri genellikle satır veya sütunlara kategorize edilemez ve bir format veya takip edilmesi gereken bir dizi kural içermez. Yapılandırılmamış verinin yapısında daha az kısıtlama olduğu için, yapılandırılmış bir veri kümesine kıyasla yeni bilgi eklemek daha kolaydır. Örneğin, her 2 dakikada bir barometrik basınç verisi toplayan bir sensörün artık sıcaklık ölçüp kaydedebilmesini sağlayan bir güncelleme alması, veri yapılandırılmamışsa mevcut veriyi değiştirmeyi gerektirmez. Ancak, bu tür veriyi analiz etmek veya incelemek daha uzun sürebilir. Örneğin, bir bilim insanı sensör verilerinden geçen ayın ortalama sıcaklığını bulmak ister ancak sensörün bazı verilerinde "e" kaydettiğini ve bunun sensörün bozuk olduğunu belirttiğini keşfeder, bu da verinin eksik olduğu anlamına gelir.
+Yapılandırılmamış veri genellikle satırlara veya sütunlara kategorize edilemez ve takip etmesi gereken bir format ya da kural seti yoktur. Yapılandırılmamış veride yapısal kısıtlamalar daha az olduğu için, yeni bilgi eklemek yapılandırılmış veri setine kıyasla daha kolaydır. Örneğin, her 2 dakikada bir barometrik basıncı ölçen bir sensör artık sıcaklığı da ölçüp kaydedebiliyorsa, yapılandırılmamış veri ise mevcut verileri değiştirmeye gerek yoktur. Ancak bu tür verinin analiz edilmesi veya incelenmesi daha uzun sürebilir. Örneğin, bir bilim insanı sensör verilerinden geçen ayın ortalama sıcaklığını bulmak ister ancak sensörün bazı verilerde kırık olduğunu belirtmek için "e" yazdığını keşfeder, bu da verilerin eksik olduğu anlamına gelir.
 
-Yapılandırılmamış veri örnekleri: metin dosyaları, metin mesajları, video dosyaları
+Yapılandırılmamış veri örnekleri: metin dosyaları, kısa mesajlar, video dosyaları
 
 ### Yarı Yapılandırılmış Veri
-Yarı yapılandırılmış veri, yapılandırılmış ve yapılandırılmamış verinin bir kombinasyonu olmasını sağlayan özelliklere sahiptir. Genellikle satır ve sütun formatına uymaz ancak yapılandırılmış olarak kabul edilen bir şekilde organize edilmiştir ve sabit bir format veya bir dizi kurala uyabilir. Yapı, kaynaklar arasında değişiklik gösterebilir; iyi tanımlanmış bir hiyerarşiden, yeni bilgilerin kolayca entegre edilmesine izin veren daha esnek bir yapıya kadar. Meta veriler, verinin nasıl organize edildiğini ve saklandığını belirlemeye yardımcı olan göstergelerdir ve veri türüne bağlı olarak çeşitli isimlere sahip olacaktır. Meta veriler için yaygın isimler arasında etiketler, öğeler, varlıklar ve öznitelikler bulunur. Örneğin, tipik bir e-posta mesajı bir konu, gövde ve bir alıcılar setine sahip olacaktır ve kim tarafından veya ne zaman gönderildiğine göre organize edilebilir.
+Yarı yapılandırılmış veri, yapılandırılmış ile yapılandırılmamış verinin birleşimi özellikler taşır. Genellikle satır ve sütun formatına uymasa da yapılandırılmış şekilde düzenlenmiş olup sabit format veya kurallar seti izleyebilir. Yapı, iyi tanımlanmış bir hiyerarşiden yeni bilgilerin kolayca entegre edilmesine izin veren daha esnek yapılara kadar kaynaklar arasında değişebilir. Meta veriler, verinin nasıl düzenlendiği ve saklandığını belirlemeye yardımcı olan göstergelerdir ve veri tipine göre farklı isimler taşıyabilir. Meta verilerin bazı yaygın isimleri etiketler, elementler, varlıklar ve niteliklerdir. Örneğin, tipik bir e-posta mesajının bir konusu, gövdesi ve alıcıları vardır ve kim tarafından ya da ne zaman gönderildiğine göre düzenlenebilir. 
 
-Yarı yapılandırılmış veri örnekleri: HTML, CSV dosyaları, JavaScript Object Notation (JSON)
+Yarı yapılandırılmış veri örnekleri: HTML, CSV dosyaları, JavaScript Nesne Gösterimi (JSON)
 
 ## Veri Kaynakları 
 
-Bir veri kaynağı, verinin oluşturulduğu veya "yaşadığı" ilk konumdur ve nasıl ve ne zaman toplandığına bağlı olarak değişiklik gösterebilir. Kullanıcı(lar) tarafından oluşturulan veri birincil veri olarak bilinirken, genel kullanım için veri toplayan bir kaynaktan gelen veri ikincil veri olarak kabul edilir. Örneğin, bir grup bilim insanının bir yağmur ormanında gözlemler toplaması birincil veri olarak kabul edilir ve bu veriyi diğer bilim insanlarıyla paylaşmaya karar verirlerse, bunu kullananlar için ikincil veri olarak kabul edilir.
+Veri kaynağı, verinin üretildiği ilk yerdir veya verinin "yaşadığı" yerdir ve ne zaman ve nasıl toplandığına göre değişir. Kullanıcıları tarafından üretilen veriler birincil veri olarak bilinirken, genel kullanım için veri toplayan kaynaktan gelen veriler ikincil veri olarak adlandırılır. Örneğin, bir grup bilim insanının bir yağmur ormanında yaptığı gözlemler birincil kabul edilir ve onları diğer bilim insanlarıyla paylaşırlarsa kullananlar için ikincil olur. 
 
-Veritabanları yaygın bir kaynaktır ve bir veritabanı yönetim sistemi, veriyi barındırmak ve korumak için kullanılır; kullanıcılar, veriyi keşfetmek için sorgu adı verilen komutlar kullanır. Dosyalar veri kaynakları olarak ses, görüntü ve video dosyaları ile Excel gibi elektronik tablolar olabilir. İnternet kaynakları, veritabanlarının yanı sıra dosyaların bulunabileceği yaygın bir veri barındırma yeridir. Uygulama programlama arayüzleri, API'ler olarak da bilinir, programcıların internet üzerinden harici kullanıcılarla veri paylaşma yolları oluşturmasına olanak tanır, web kazıma ise bir web sayfasından veri çıkarma işlemidir. [Veriyle Çalışma Dersleri](../../../../../../../../../2-Working-With-Data), çeşitli veri kaynaklarını nasıl kullanacağınızı öğrenmeye odaklanır.
+Veritabanları yaygın bir kaynaktır ve veriyi barındırmak ve yönetmek için veritabanı yönetim sistemi gerektirir; kullanıcılar veriyi keşfetmek için sorgu adı verilen komutları kullanır. Dosyalar da ses, görüntü ve video dosyaları ile Excel gibi elektronik tablolar olabilir. İnternet kaynakları veri barındırma için yaygın yerlerdir; burada hem veritabanları hem de dosyalar bulunabilir. Uygulama programlama arayüzleri (API'ler), programcıların veriyi dış kullanıcılarla internet üzerinden paylaşmanın yollarını oluşturmasını sağlar, web kazıma ise bir web sayfasından veri çıkarır. [Veri ile Çalışma](../../../../../../../../../2-Working-With-Data) dersleri çeşitli veri kaynaklarının nasıl kullanılacağını anlatır. 
 
 ## Sonuç
 
-Bu derste öğrendik:
+Bu derste şunları öğrendik:
 
-- Verinin ne olduğunu
-- Verinin nasıl tanımlandığını
-- Verinin nasıl sınıflandırıldığını ve kategorize edildiğini
-- Verinin nerede bulunabileceğini
+- Veri nedir
+- Verinin nasıl tanımlandığı
+- Veri nasıl sınıflandırılır ve kategorize edilir
+- Veri nerede bulunur
 
 ## 🚀 Meydan Okuma
 
-Kaggle, açık veri kümeleri için mükemmel bir kaynaktır. [Veri kümesi arama aracı](https://www.kaggle.com/datasets) ile bazı ilginç veri kümeleri bulun ve 3-5 veri kümesini şu kriterlere göre sınıflandırın:
+Kaggle, açık veri setleri için mükemmel bir kaynaktır. [Veri seti arama aracını](https://www.kaggle.com/datasets) kullanarak ilginç veri setleri bulun ve 3-5 veri setini bu kriterlere göre sınıflandırın:
 
 - Veri nicel mi yoksa nitel mi?
 - Veri yapılandırılmış, yapılandırılmamış mı yoksa yarı yapılandırılmış mı?
 
-## [Ders Sonrası Testi](https://ff-quizzes.netlify.app/en/ds/quiz/5)
+## [Ders Sonrası Quiz](https://ff-quizzes.netlify.app/en/ds/quiz/5)
 
-## Gözden Geçirme ve Kendi Kendine Çalışma
 
-- Bu Microsoft Learn birimi, [Verinizi Sınıflandırın](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/2-classify-data) başlıklı, yapılandırılmış, yarı yapılandırılmış ve yapılandırılmamış verinin ayrıntılı bir dökümüne sahiptir.
+
+## İnceleme & Kendi Kendine Çalışma
+
+- Bu Microsoft Learn ünitesi, [Veri formatlarını tanımlama](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/2-data-formats?pivots=text) yapılandırılmış, yarı yapılandırılmış ve yapılandırılmamış verinin detaylı bir dökümünü sunar.
 
 ## Ödev
 
-[Veri Kümelerini Sınıflandırma](assignment.md)
+[Veri Setlerini Sınıflandırma](assignment.md)
 
 ---
 
-**Feragatname**:  
-Bu belge, [Co-op Translator](https://github.com/Azure/co-op-translator) adlı yapay zeka çeviri hizmeti kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlama veya yanlış yorumlamalardan sorumlu değiliz.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Feragatname**:
+Bu belge, AI çeviri hizmeti [Co-op Translator](https://github.com/Azure/co-op-translator) kullanılarak çevrilmiştir. Doğruluk için çaba sarf etsek de, otomatik çevirilerin hata veya yanlışlık içerebileceğini lütfen unutmayınız. Orijinal belge, kendi dilinde yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımı sonucu ortaya çıkabilecek yanlış anlamalardan veya yanlış yorumlamalardan sorumlu değiliz.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

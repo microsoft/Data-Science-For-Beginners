@@ -1,6 +1,6 @@
-# Projeto de visualização de dados Dangerous Liaisons
+# Projeto de visualização de dados Ligações Perigosas
 
-Para começar, certifique-se de que tem o NPM e o Node instalados e a funcionar na sua máquina. Instale as dependências (npm install) e depois execute o projeto localmente (npm run serve):
+Para começar, precisa de garantir que tem o NPM e o Node **>=20.0.0** a correr na sua máquina. Instale as dependências (npm install) e depois execute o projeto localmente (npm run serve):
 
 ## Configuração do projeto
 ```
@@ -12,7 +12,7 @@ npm install
 npm run serve
 ```
 
-### Compila e minimiza para produção
+### Compila e minifica para produção
 ```
 npm run build
 ```
@@ -23,7 +23,11 @@ npm run lint
 ```
 
 ### Personalizar configuração
-Consulte [Configuration Reference](https://cli.vuejs.org/config/).
+Veja [Configuration Reference](https://cli.vuejs.org/config/).
 
-**Aviso Legal**:  
-Este documento foi traduzido utilizando o serviço de tradução por IA [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos para garantir a precisão, tenha em atenção que traduções automáticas podem conter erros ou imprecisões. O documento original na sua língua nativa deve ser considerado a fonte autoritária. Para informações críticas, recomenda-se a tradução profissional realizada por humanos. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas decorrentes da utilização desta tradução.
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Aviso Legal**:
+Este documento foi traduzido utilizando o serviço de tradução automática [Co-op Translator](https://github.com/Azure/co-op-translator). Embora nos esforcemos pela precisão, esteja ciente de que traduções automáticas podem conter erros ou imprecisões. O documento original na sua língua nativa deve ser considerado a fonte autorizada. Para informações críticas, recomenda-se tradução profissional humana. Não nos responsabilizamos por quaisquer mal-entendidos ou interpretações incorretas resultantes da utilização desta tradução.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

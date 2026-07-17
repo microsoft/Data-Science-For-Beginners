@@ -1,31 +1,33 @@
-# Projekt vizualizacije podatkov Dangerous Liaisons
+# Vizualizacija podatkov projekta Nevarne povezave
 
-Za začetek se prepričajte, da imate na svojem računalniku nameščena NPM in Node. Namestite odvisnosti (npm install) in nato projekt zaženite lokalno (npm run serve):
+Za začetek morate zagotoviti, da imate na svojem računalniku nameščen NPM in Node **>=20.0.0**. Namestite odvisnosti (npm install) in nato zaženite projekt lokalno (npm run serve):
 
 ## Nastavitev projekta
 ```
 npm install
 ```
 
-### Prevajanje in samodejno osveževanje za razvoj
+### Prevaja in vroče nalaga za razvoj
 ```
 npm run serve
 ```
 
-### Prevajanje in minimiziranje za produkcijo
+### Prevaja in stisne za produkcijo
 ```
 npm run build
 ```
 
-### Preverjanje kode in odpravljanje napak
+### Preveri in popravi datoteke
 ```
 npm run lint
 ```
 
 ### Prilagoditev konfiguracije
-Glejte [Reference konfiguracije](https://cli.vuejs.org/config/).
+Oglejte si [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
 
-**Omejitev odgovornosti**:  
-Ta dokument je bil preveden z uporabo storitve za strojno prevajanje [Co-op Translator](https://github.com/Azure/co-op-translator). Čeprav si prizadevamo za natančnost, vas prosimo, da upoštevate, da lahko avtomatizirani prevodi vsebujejo napake ali netočnosti. Izvirni dokument v njegovem maternem jeziku je treba obravnavati kot avtoritativni vir. Za ključne informacije priporočamo profesionalni človeški prevod. Ne prevzemamo odgovornosti za morebitne nesporazume ali napačne razlage, ki izhajajo iz uporabe tega prevoda.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Omejitev odgovornosti**:
+Ta dokument je bil preveden z uporabo AI prevajalske storitve [Co-op Translator](https://github.com/Azure/co-op-translator). Čeprav si prizadevamo za natančnost, vas prosimo, da upoštevate, da avtomatizirani prevodi lahko vsebujejo napake ali netočnosti. Izvirni dokument v njegovem izvirnem jeziku je treba obravnavati kot avtoritativni vir. Za kritične informacije je priporočljiv strokovni človeški prevod. Ne odgovarjamo za morebitna nesporazume ali napačne interpretacije, ki izhajajo iz uporabe tega prevoda.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

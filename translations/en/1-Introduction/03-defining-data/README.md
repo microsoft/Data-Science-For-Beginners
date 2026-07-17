@@ -4,49 +4,48 @@
 |:---:|
 |Defining Data - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-Data consists of facts, information, observations, and measurements that are used to make discoveries and support informed decisions. A data point is a single unit of data within a dataset, which is a collection of data points. Datasets can come in various formats and structures, often depending on their source or origin. For instance, a company's monthly earnings might be stored in a spreadsheet, while hourly heart rate data from a smartwatch might be in [JSON](https://stackoverflow.com/a/383699) format. It's common for data scientists to work with different types of data within a dataset.
+Data is facts, information, observations and measurements that are used to make discoveries and to support informed decisions. A data point is a single unit of data within a dataset, which is a collection of data points. Datasets may come in different formats and structures, and will usually be based on its source, or where the data came from. For example, a company's monthly earnings might be in a spreadsheet but hourly heart rate data from a smartwatch may be in [JSON](https://stackoverflow.com/a/383699) format. It's common for data scientists to work with different types of data within a dataset. 
 
-This lesson focuses on identifying and classifying data based on its characteristics and sources.
+This lesson focuses on identifying and classifying data by its characteristics and its sources.
 
 ## [Pre-Lecture Quiz](https://ff-quizzes.netlify.app/en/ds/quiz/4)
-
 ## How Data is Described
 
 ### Raw Data
-Raw data refers to data in its original state, as it comes from its source, without any analysis or organization. To make sense of a dataset, it needs to be organized into a format that is understandable to both humans and the technology used for further analysis. The structure of a dataset describes how it is organized and can be classified as structured, unstructured, or semi-structured. These structural types vary depending on the source but ultimately fall into one of these three categories.
+Raw data is data that has come from its source in its initial state and has not been analyzed or organized. In order to make sense of what is happening with a dataset, it needs to be organized into a format that can be understood by humans as well as the technology they may use to analyze it further. The structure of a dataset describes how it's organized and can be classified as structured, unstructured, and semi-structured. These types of structure will vary, depending on the source but will ultimately fit into these three categories. 
 
 ### Quantitative Data
-Quantitative data consists of numerical observations within a dataset that can typically be analyzed, measured, and used mathematically. Examples of quantitative data include a country's population, a person's height, or a company's quarterly earnings. With additional analysis, quantitative data can be used to uncover seasonal trends in the Air Quality Index (AQI) or estimate the likelihood of rush hour traffic on a typical workday.
+Quantitative data is numerical observations within a dataset and can typically be analyzed, measured and used mathematically. Some examples of quantitative data are: a country's population, a person's height or a company's quarterly earnings. With some additional analysis, quantitative data could be used to discover seasonal trends of the Air Quality Index (AQI) or estimate the probability of rush hour traffic on a typical work day.
 
 ### Qualitative Data
-Qualitative data, also known as categorical data, cannot be measured objectively like quantitative data. It generally consists of subjective information that captures the quality of something, such as a product or process. Sometimes, qualitative data may include numbers that are not typically used mathematically, such as phone numbers or timestamps. Examples of qualitative data include video comments, the make and model of a car, or your closest friends' favorite colors. Qualitative data can be used to determine which products consumers prefer or to identify popular keywords in job application resumes.
+Qualitative data, also known as categorical data, is data that cannot be measured objectively like observations of quantitative data. It's generally various formats of subjective data that capture the quality of something, such as a product or process. Sometimes, qualitative data is numerical and wouldn't typically be used mathematically, like phone numbers or timestamps. Some examples of qualitative data are: video comments, the make and model of a car or your closest friends' favorite color. Qualitative data could be used to understand which products consumers like best or identifying popular keywords in job application resumes.
 
 ### Structured Data
-Structured data is organized into rows and columns, where each row contains the same set of columns. Columns represent specific types of values and are identified by names that describe what the values represent, while rows contain the actual data. Columns often have specific rules or restrictions to ensure the values accurately represent the column. For example, imagine a spreadsheet of customers where each row must include a phone number, and the phone numbers cannot contain alphabetical characters. Rules might be applied to the phone number column to ensure it is never empty and only contains numbers.
+Structured data is data that is organized into rows and columns, where each row will have the same set of columns. Columns represent a value of a particular type and will be identified with a name describing what the value represents, while rows contain the actual values. Columns will often have a specific set of rules or restrictions on the values, to ensure that the values accurately represent the column. For example imagine a spreadsheet of customers where each row must have a phone number and the phone numbers never contain alphabetical characters. There may be rules applied to the phone number column to make sure it's never empty and only contains numbers. 
 
-One advantage of structured data is that it can be organized in a way that allows it to relate to other structured data. However, because the data is designed to follow a specific structure, making changes to its overall organization can require significant effort. For instance, adding an email column to the customer spreadsheet that cannot be empty would require determining how to populate this column for existing rows in the dataset.
+A benefit of structured data is that it can be organized in such a way that it can be related to other structured data. However, because the data is designed to be organized in a specific way, making changes to its overall structure can take a lot of effort to do. For example, adding an email column to the customer spreadsheet that cannot be empty means you'll need to figure out how you'll add these values to the existing rows of customers in the dataset. 
 
-Examples of structured data: spreadsheets, relational databases, phone numbers, bank statements.
+Examples of structured data: spreadsheets, relational databases, phone numbers, bank statements
 
 ### Unstructured Data
-Unstructured data cannot typically be categorized into rows or columns and does not follow a specific format or set of rules. Because unstructured data has fewer restrictions, it is easier to add new information compared to structured datasets. For example, if a sensor that records barometric pressure every two minutes is updated to also measure temperature, no changes are needed to the existing data if it is unstructured. However, analyzing or investigating unstructured data may take longer. For instance, a scientist trying to calculate the average temperature for the previous month might find that the sensor recorded an "e" in some entries to indicate it was broken, resulting in incomplete data.
+Unstructured data typically cannot be categorized into rows or columns and doesn't contain a format or set of rules to follow. Because unstructured data has fewer restrictions on its structure, it's easier to add new information in comparison to a structured dataset. If a sensor capturing data on barometric pressure every 2 minutes has received an update that now allows it to measure and record temperature, it doesn't require altering the existing data if it's unstructured. However, this may make analyzing or investigating this type of data take longer. For example, a scientist who wants to find the average temperature of the previous month from the sensor's data, but discovers that the sensor recorded an "e" in some of its recorded data to note that it was broken instead of a typical number, which means the data is incomplete.
 
-Examples of unstructured data: text files, text messages, video files.
+Examples of unstructured data: text files, text messages, video files
 
-### Semi-structured Data
-Semi-structured data combines features of both structured and unstructured data. While it does not typically conform to a row-and-column format, it is organized in a way that is considered structured and may follow a fixed format or set of rules. The structure can vary between sources, ranging from a well-defined hierarchy to a more flexible format that allows for easy integration of new information. Metadata serves as indicators that help determine how the data is organized and stored, and it may have various names depending on the type of data. Common terms for metadata include tags, elements, entities, and attributes. For example, a typical email message includes a subject, body, and a set of recipients, and it can be organized by sender or date sent.
+### Semi-structured
+Semi-structured data has features that make it a combination of structured and unstructured data. It doesn't typically conform to a format of rows and columns but is organized in a way that is considered structured and may follow a fixed format or set of rules. The structure will vary between sources, such as a well-defined hierarchy to something more flexible that allows for easy integration of new information. Metadata are indicators that help decide how the data is organized and stored and will have various names, based on the type of data. Some common names for metadata are tags, elements, entities and attributes. For example, a typical email message will have a subject, body and a set of recipients and can be organized by whom or when it was sent. 
 
-Examples of semi-structured data: HTML, CSV files, JavaScript Object Notation (JSON).
+Examples of semi-structured data: HTML, CSV files, JavaScript Object Notation (JSON)
 
-## Sources of Data
+## Sources of Data 
 
-A data source refers to the original location where the data was generated or "lives," and it varies based on how and when the data was collected. Data generated by its user(s) is known as primary data, while secondary data comes from a source that has collected data for general use. For example, a group of scientists collecting observations in a rainforest would be considered primary data, and if they share it with other scientists, it would be considered secondary data for those who use it.
+A data source is the initial location of where the data was generated, or where it "lives" and will vary based on how and when it was collected. Data generated by its user(s) are known as primary data while secondary data comes from a source that has collected data for general use. For example, a group of scientists collecting observations in a rainforest would be considered primary and if they decide to share it with other scientists it would be considered secondary to those that use it. 
 
-Databases are a common data source and rely on a database management system to host and maintain the data. Users interact with the data using commands called queries. Files can also serve as data sources, including audio, image, and video files, as well as spreadsheets like Excel. The internet is another common location for hosting data, where both databases and files can be found. Application programming interfaces (APIs) allow programmers to create ways to share data with external users over the internet, while web scraping involves extracting data from web pages. The [lessons in Working with Data](../../../../../../../../../2-Working-With-Data) focus on how to use various data sources.
+Databases are a common source and rely on a database management system to host and maintain the data where users use commands called queries to explore the data. Files as data sources can be audio, image, and video files as well as spreadsheets like Excel. Internet sources are a common location for hosting data, where databases as well as files can be found. Application programming interfaces, also known as APIs allow programmers to create ways to share data with external users through the internet, while the process of web scraping extracts data from a web page. The [lessons in Working with Data](../../../../../../../../../2-Working-With-Data) focus on how to use various data sources. 
 
 ## Conclusion
 
-In this lesson, we have learned:
+In this lesson we have learned:
 
 - What data is
 - How data is described
@@ -55,16 +54,18 @@ In this lesson, we have learned:
 
 ## 🚀 Challenge
 
-Kaggle is an excellent source of open datasets. Use the [dataset search tool](https://www.kaggle.com/datasets) to find some interesting datasets and classify 3-5 datasets using the following criteria:
+Kaggle is an excellent source of open datasets. Use the [dataset search tool](https://www.kaggle.com/datasets) to find some interesting datasets and classify 3-5 datasets with this criteria:
 
 - Is the data quantitative or qualitative?
 - Is the data structured, unstructured, or semi-structured?
 
 ## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/5)
 
+
+
 ## Review & Self Study
 
-- This Microsoft Learn unit, titled [Classify your Data](https://docs.microsoft.com/en-us/learn/modules/choose-storage-approach-in-azure/2-classify-data), provides a detailed breakdown of structured, semi-structured, and unstructured data.
+- This Microsoft Learn unit, titled [Identify data formats](https://learn.microsoft.com/en-us/training/modules/explore-core-data-concepts/2-data-formats?pivots=text) has a detailed breakdown of structured, semi-structured, and unstructured data.
 
 ## Assignment
 
@@ -72,5 +73,7 @@ Kaggle is an excellent source of open datasets. Use the [dataset search tool](ht
 
 ---
 
-**Disclaimer**:  
-This document has been translated using the AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we aim for accuracy, please note that automated translations may include errors or inaccuracies. The original document in its native language should be regarded as the authoritative source. For critical information, professional human translation is advised. We are not responsible for any misunderstandings or misinterpretations resulting from the use of this translation.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Disclaimer**:
+This document has been translated using AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). While we strive for accuracy, please be aware that automated translations may contain errors or inaccuracies. The original document in its native language should be considered the authoritative source. For critical information, professional human translation is recommended. We are not liable for any misunderstandings or misinterpretations arising from the use of this translation.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

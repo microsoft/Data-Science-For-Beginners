@@ -1,13 +1,13 @@
 # Proiect de vizualizare a datelor Dangerous Liaisons
 
-Pentru a începe, trebuie să te asiguri că ai NPM și Node instalate și funcționale pe calculatorul tău. Instalează dependențele (npm install) și apoi rulează proiectul local (npm run serve):
+Pentru a începe, trebuie să te asiguri că ai NPM și Node **>=20.0.0** instalate pe calculatorul tău. Instalează dependențele (npm install) și apoi rulează proiectul local (npm run serve):
 
 ## Configurarea proiectului
 ```
 npm install
 ```
 
-### Compilează și reîncarcă automat pentru dezvoltare
+### Compilează și reîncarcă la cald pentru dezvoltare
 ```
 npm run serve
 ```
@@ -17,7 +17,7 @@ npm run serve
 npm run build
 ```
 
-### Verifică și corectează fișierele
+### Verifică și repară fișierele
 ```
 npm run lint
 ```
@@ -27,5 +27,7 @@ Vezi [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
 
-**Declinare de responsabilitate**:  
-Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). Deși ne străduim să asigurăm acuratețea, vă rugăm să rețineți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa natală ar trebui considerat sursa autoritară. Pentru informații critice, se recomandă traducerea profesională realizată de un specialist uman. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care pot apărea din utilizarea acestei traduceri.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Declinare a responsabilității**:
+Acest document a fost tradus folosind serviciul de traducere AI [Co-op Translator](https://github.com/Azure/co-op-translator). În timp ce ne străduim pentru acuratețe, vă rugăm să rețineți că traducerile automate pot conține erori sau inexactități. Documentul original în limba sa nativă trebuie considerat sursa autorizată. Pentru informații critice, se recomandă traducerea profesională realizată de un om. Nu ne asumăm responsabilitatea pentru eventualele neînțelegeri sau interpretări greșite care decurg din utilizarea acestei traduceri.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
