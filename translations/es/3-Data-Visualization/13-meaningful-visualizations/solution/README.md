@@ -1,13 +1,13 @@
-# Proyecto de visualización de datos Dangerous Liaisons
+# Proyecto de visualización de datos de Dangerous Liaisons
 
-Para comenzar, asegúrate de tener NPM y Node funcionando en tu máquina. Instala las dependencias (npm install) y luego ejecuta el proyecto localmente (npm run serve):
+Para comenzar, debes asegurarte de tener NPM y Node **>=20.0.0** ejecutándose en tu máquina. Instala las dependencias (npm install) y luego ejecuta el proyecto localmente (npm run serve):
 
 ## Configuración del proyecto
 ```
 npm install
 ```
 
-### Compila y recarga automáticamente para desarrollo
+### Compila y recarga en caliente para desarrollo
 ```
 npm run serve
 ```
@@ -17,13 +17,17 @@ npm run serve
 npm run build
 ```
 
-### Analiza y corrige archivos
+### Lint y corrige archivos
 ```
 npm run lint
 ```
 
-### Personalizar configuración
-Consulta [Referencia de Configuración](https://cli.vuejs.org/config/).
+### Personaliza la configuración
+Consulta la [Referencia de configuración](https://cli.vuejs.org/config/).
 
-**Descargo de responsabilidad**:  
-Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Aunque nos esforzamos por garantizar la precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse como la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Descargo de responsabilidad**:
+Este documento ha sido traducido utilizando el servicio de traducción automática [Co-op Translator](https://github.com/Azure/co-op-translator). Aunque nos esforzamos por la precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o inexactitudes. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional humana. No somos responsables de cualquier malentendido o interpretación errónea que surja del uso de esta traducción.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

@@ -1,29 +1,33 @@
-# Projet de visualisation des données Dangerous Liaisons
+# Projet de visualisation de données Liaisons dangereuses
 
-Pour commencer, assurez-vous que NPM et Node sont installés et fonctionnent sur votre machine. Installez les dépendances (npm install), puis exécutez le projet en local (npm run serve) :
+Pour commencer, vous devez vous assurer que NPM et Node **>=20.0.0** sont installés sur votre machine. Installez les dépendances (npm install) puis exécutez le projet localement (npm run serve) :
 
 ## Configuration du projet
 ```
 npm install
 ```
 
-### Compilation et rechargement à chaud pour le développement
+### Compile et recharge à chaud pour le développement
 ```
 npm run serve
 ```
 
-### Compilation et minification pour la production
+### Compile et minifie pour la production
 ```
 npm run build
 ```
 
-### Analyse et correction des fichiers
+### Lint et corrige les fichiers
 ```
 npm run lint
 ```
 
 ### Personnaliser la configuration
-Voir [Référence de configuration](https://cli.vuejs.org/config/).
+Voir [Configuration Reference](https://cli.vuejs.org/config/).
 
-**Avertissement** :  
-Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de recourir à une traduction professionnelle réalisée par un humain. Nous déclinons toute responsabilité en cas de malentendus ou d'interprétations erronées résultant de l'utilisation de cette traduction.
+---
+
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Avertissement** :
+Ce document a été traduit à l'aide du service de traduction automatique [Co-op Translator](https://github.com/Azure/co-op-translator). Bien que nous nous efforçions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue native doit être considéré comme la source faisant autorité. Pour les informations critiques, il est recommandé de recourir à une traduction professionnelle réalisée par un humain. Nous ne saurions être tenus responsables des malentendus ou erreurs d'interprétation découlant de l'utilisation de cette traduction.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
