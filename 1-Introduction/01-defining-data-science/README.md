@@ -57,7 +57,7 @@ One way to understand data is to <b>build a model</b> that will be able to predi
 </dd>
 <dt>Artificial Intelligence</dt>
 <dd>
-An area of machine learning known as artificial intelligence (AI) also relies on data, and it involves building high complexity models that mimic human thought processes.  AI methods often allow us to turn unstructured data (e.g. natural language) into structured insights. 
+Artificial intelligence (AI) also relies on data, and it involves building high complexity models that mimic human thought processes.  Machine learning is one area of AI. AI methods often allow us to turn unstructured data (e.g. natural language) into structured insights.
 </dd>
 <dt>Visualization</dt>
 <dd>
