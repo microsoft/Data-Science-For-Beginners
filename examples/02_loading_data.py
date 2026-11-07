@@ -15,6 +15,7 @@ Prerequisites: pandas library (install with: pip install pandas)
 
 # Import the pandas library - it's the most popular tool for working with data in Python
 # We give it the short name 'pd' so we can type less
+import os
 import pandas as pd
 
 print("=" * 70)
@@ -30,7 +31,10 @@ print()
 
 # Load the data into a DataFrame (think of it as a smart spreadsheet)
 # A DataFrame is pandas' main data structure - it organizes data in rows and columns
-data = pd.read_csv('../data/birds.csv')
+script_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(script_dir, '../data/birds.csv')
+
+data = pd.read_csv(file_path)
 
 print("✅ Data loaded successfully!")
 print()
