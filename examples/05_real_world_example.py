@@ -10,7 +10,7 @@ What you'll learn:
 - How to handle real-world data issues
 - How to draw meaningful conclusions
 
-Prerequisites: 
+Prerequisites:
 - pandas library (install with: pip install pandas)
 - matplotlib library (install with: pip install matplotlib)
 
@@ -18,7 +18,7 @@ Real-world context:
 Bird strikes (when birds collide with aircraft) are a safety concern for aviation.
 Let's analyze bird strike data to understand patterns and risks.
 """
-
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -49,7 +49,9 @@ print()
 print("📂 Loading bird strike data...")
 
 try:
-    data = pd.read_csv('../data/birds.csv')
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(script_dir, '../data/honey.csv')
+    data = pd.read_csv(file_path)
     print(f"✅ Successfully loaded {len(data)} records")
     print()
 except FileNotFoundError:
@@ -159,7 +161,7 @@ print()
 if 'Bird Species' in data.columns:
     print("Creating visualization 1: Top 10 Bird Species...")
     top_10_species = data['Bird Species'].value_counts().head(10)
-    
+
     plt.figure(figsize=(12, 6))
     plt.barh(range(len(top_10_species)), top_10_species.values, color='steelblue')
     plt.yticks(range(len(top_10_species)), top_10_species.index)
@@ -179,7 +181,7 @@ numeric_columns = data.select_dtypes(include=['int64', 'float64']).columns
 if len(numeric_columns) > 0:
     print("Creating visualization 2: Numeric data distribution...")
     col_to_plot = numeric_columns[0]
-    
+
     plt.figure(figsize=(10, 6))
     data[col_to_plot].hist(bins=30, color='teal', edgecolor='black', alpha=0.7)
     plt.xlabel(col_to_plot, fontsize=12)
