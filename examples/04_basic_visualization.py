@@ -10,11 +10,11 @@ What you'll learn:
 - How to create pie charts
 - How to customize and save your visualizations
 
-Prerequisites: 
+Prerequisites:
 - pandas library (install with: pip install pandas)
 - matplotlib library (install with: pip install matplotlib)
 """
-
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -25,7 +25,9 @@ print()
 
 # Load data
 print("📂 Loading honey production data...")
-data = pd.read_csv('../data/honey.csv')
+script_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(script_dir, '../data/honey.csv')
+data = pd.read_csv(file_path)
 print("✅ Data loaded!\n")
 
 # For better display, we'll use a subset of the data
@@ -44,30 +46,30 @@ print()
 if 'state' in data.columns and 'totalprod' in data.columns:
     # Calculate average production by state (for top 10 states)
     state_avg = data.groupby('state')['totalprod'].mean().sort_values(ascending=False).head(10)
-    
+
     print("Creating a bar chart of average honey production by state...")
     print()
-    
+
     # Create the figure and axis
     plt.figure(figsize=(12, 6))  # Width: 12 inches, Height: 6 inches
-    
+
     # Create the bar chart
     plt.bar(state_avg.index, state_avg.values, color='gold', edgecolor='orange')
-    
+
     # Add labels and title
     plt.xlabel('State', fontsize=12)
     plt.ylabel('Average Production (pounds)', fontsize=12)
     plt.title('Top 10 States by Average Honey Production', fontsize=14, fontweight='bold')
-    
+
     # Rotate x-axis labels for better readability
     plt.xticks(rotation=45)
-    
+
     # Add a grid for easier reading (behind the bars)
     plt.grid(axis='y', alpha=0.3, linestyle='--')
-    
+
     # Adjust layout to prevent label cutoff
     plt.tight_layout()
-    
+
     # Save the figure
     plt.savefig('bar_chart_example.png', dpi=300, bbox_inches='tight')
     print("✅ Bar chart saved as 'bar_chart_example.png'")
@@ -83,28 +85,28 @@ print()
 if 'year' in data.columns and 'totalprod' in data.columns:
     # Calculate total production by year
     yearly_production = data.groupby('year')['totalprod'].sum()
-    
+
     print("Creating a line plot of honey production over time...")
     print()
-    
+
     plt.figure(figsize=(12, 6))
-    
+
     # Create the line plot
-    plt.plot(yearly_production.index, yearly_production.values, 
+    plt.plot(yearly_production.index, yearly_production.values,
              marker='o',           # Add circular markers at each data point
              linewidth=2,          # Line thickness
              color='darkorange',   # Line color
              markersize=6,         # Size of markers
              markerfacecolor='gold')  # Fill color of markers
-    
+
     # Add labels and title
     plt.xlabel('Year', fontsize=12)
     plt.ylabel('Total Production (pounds)', fontsize=12)
     plt.title('Honey Production Over Time', fontsize=14, fontweight='bold')
-    
+
     # Add a grid
     plt.grid(True, alpha=0.3, linestyle='--')
-    
+
     plt.tight_layout()
     plt.savefig('line_plot_example.png', dpi=300, bbox_inches='tight')
     print("✅ Line plot saved as 'line_plot_example.png'")
@@ -120,24 +122,24 @@ print()
 if 'state' in data.columns and 'totalprod' in data.columns:
     # Get total production for top 5 states
     top5_states = data.groupby('state')['totalprod'].sum().sort_values(ascending=False).head(5)
-    
+
     print("Creating a pie chart of production share (top 5 states)...")
     print()
-    
+
     plt.figure(figsize=(10, 8))
-    
+
     # Create the pie chart
     colors = ['gold', 'orange', 'lightsalmon', 'lightcoral', 'peachpuff']
-    plt.pie(top5_states.values, 
+    plt.pie(top5_states.values,
             labels=top5_states.index,     # State names
             autopct='%1.1f%%',            # Show percentages
             startangle=90,                # Start from top
             colors=colors,
             explode=(0.1, 0, 0, 0, 0))   # Slightly separate the first slice
-    
-    plt.title('Top 5 States Share of Total Honey Production', 
+
+    plt.title('Top 5 States Share of Total Honey Production',
               fontsize=14, fontweight='bold', pad=20)
-    
+
     plt.savefig('pie_chart_example.png', dpi=300, bbox_inches='tight')
     print("✅ Pie chart saved as 'pie_chart_example.png'")
     plt.close()
@@ -152,30 +154,30 @@ print()
 if 'year' in data.columns and 'totalprod' in data.columns and 'state' in data.columns:
     # Compare production trends for a few states
     states_to_compare = ['CA', 'ND', 'SD']
-    
+
     print(f"Creating a comparison plot for states: {', '.join(states_to_compare)}...")
     print()
-    
+
     plt.figure(figsize=(12, 6))
-    
+
     # Plot a line for each state
     colors_map = {'CA': 'blue', 'ND': 'green', 'SD': 'red'}
-    
+
     for state in states_to_compare:
         if state in data['state'].values:
             state_data = data[data['state'] == state].groupby('year')['totalprod'].sum()
-            plt.plot(state_data.index, state_data.values, 
-                    marker='o', 
+            plt.plot(state_data.index, state_data.values,
+                    marker='o',
                     label=state,  # This will appear in the legend
                     linewidth=2,
                     color=colors_map.get(state, 'gray'))
-    
+
     plt.xlabel('Year', fontsize=12)
     plt.ylabel('Total Production (pounds)', fontsize=12)
     plt.title('Honey Production Comparison by State', fontsize=14, fontweight='bold')
     plt.legend(title='State')  # Add a legend
     plt.grid(True, alpha=0.3, linestyle='--')
-    
+
     plt.tight_layout()
     plt.savefig('comparison_plot_example.png', dpi=300, bbox_inches='tight')
     print("✅ Comparison plot saved as 'comparison_plot_example.png'")

@@ -12,7 +12,7 @@ What you'll learn:
 
 Prerequisites: pandas library (install with: pip install pandas)
 """
-
+import os
 import pandas as pd
 
 print("=" * 70)
@@ -22,7 +22,9 @@ print()
 
 # Load a dataset - we'll use the honey production data
 print("📂 Loading honey production data...")
-data = pd.read_csv('../data/honey.csv')
+script_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(script_dir, '../data/honey.csv')
+data = pd.read_csv(file_path)
 print("✅ Data loaded!\n")
 
 # Quick look at the data
@@ -41,7 +43,7 @@ print()
 # Let's look at the 'totalprod' column (total production)
 if 'totalprod' in data.columns:
     total_production = data['totalprod']
-    
+
     print("Total Honey Production Statistics:")
     print("-" * 70)
     print(f"  Mean (Average):     {total_production.mean():,.2f}")
@@ -62,7 +64,7 @@ print()
 if 'year' in data.columns:
     year_to_filter = 2000
     filtered_data = data[data['year'] == year_to_filter]
-    
+
     print(f"Showing data for year {year_to_filter}:")
     print("-" * 70)
     print(f"Found {len(filtered_data)} records")
@@ -74,7 +76,7 @@ if 'year' in data.columns:
 if 'totalprod' in data.columns and 'year' in data.columns:
     # Find records where production was above 10 million pounds after 2010
     high_production = data[(data['totalprod'] > 10000000) & (data['year'] > 2010)]
-    
+
     print("High production years (>10M pounds after 2010):")
     print("-" * 70)
     print(f"Found {len(high_production)} records")
@@ -90,10 +92,10 @@ print()
 if 'state' in data.columns and 'totalprod' in data.columns:
     # Group the data by state and calculate mean production
     state_averages = data.groupby('state')['totalprod'].mean()
-    
+
     # Sort to see which states have highest average production
     state_averages_sorted = state_averages.sort_values(ascending=False)
-    
+
     print("Top 10 States by Average Honey Production:")
     print("-" * 70)
     for i, (state, avg_prod) in enumerate(state_averages_sorted.head(10).items(), 1):
@@ -109,7 +111,7 @@ print()
 if 'totalprod' in data.columns:
     # Sort by total production in descending order
     sorted_data = data.sort_values('totalprod', ascending=False)
-    
+
     print("Records with Highest Production:")
     print("-" * 70)
     # Show the top 5 records
@@ -126,7 +128,7 @@ print()
 if 'state' in data.columns:
     # Count how many records we have for each state
     state_counts = data['state'].value_counts()
-    
+
     print("Number of records per state (top 10):")
     print("-" * 70)
     for state, count in state_counts.head(10).items():
@@ -142,13 +144,13 @@ print()
 # Question: Which state had the highest honey production in 2012?
 if all(col in data.columns for col in ['state', 'year', 'totalprod']):
     year_2012 = data[data['year'] == 2012]
-    
+
     if len(year_2012) > 0:
         # Find the row with maximum production in 2012
         max_prod_idx = year_2012['totalprod'].idxmax()
         max_prod_state = year_2012.loc[max_prod_idx, 'state']
         max_prod_amount = year_2012.loc[max_prod_idx, 'totalprod']
-        
+
         print("Question: Which state had the highest honey production in 2012?")
         print("-" * 70)
         print(f"Answer: {max_prod_state}")
