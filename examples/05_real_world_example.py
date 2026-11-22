@@ -2,11 +2,11 @@
 Real World Example: Complete Data Science Workflow
 
 This example ties everything together, showing you a complete data science project
-from start to finish. We'll analyze bird strike data to answer real questions.
+from start to finish. We'll analyze Minnesota bird species data to answer real questions.
 
 What you'll learn:
 - How to approach a data science problem
-- Complete workflow: Load → Clean → Analyze → Visualize → Conclude
+- Complete workflow: Load → Explore → Clean → Analyze → Visualize → Conclude
 - How to handle real-world data issues
 - How to draw meaningful conclusions
 
@@ -15,15 +15,17 @@ Prerequisites:
 - matplotlib library (install with: pip install matplotlib)
 
 Real-world context:
-Bird strikes (when birds collide with aircraft) are a safety concern for aviation.
-Let's analyze bird strike data to understand patterns and risks.
+Understanding bird biodiversity and physical characteristics helps conservationists
+and ecologists protect wildlife and monitor ecosystem health.
+Let's analyze bird species data to understand patterns and conservation status.
 """
 
-import pandas as pd
+from pathlib import Path
 import matplotlib.pyplot as plt
+import pandas as pd
 
 print("=" * 80)
-print("REAL WORLD DATA SCIENCE PROJECT: BIRD STRIKE ANALYSIS")
+print("REAL WORLD DATA SCIENCE PROJECT: BIRD SPECIES ANALYSIS")
 print("=" * 80)
 print()
 
@@ -33,10 +35,10 @@ print("STEP 1: DEFINE THE PROBLEM")
 print("=" * 80)
 print()
 print("Questions we want to answer:")
-print("  1. How many bird strikes occur?")
-print("  2. When do bird strikes most commonly occur?")
-print("  3. What are the most common bird species involved?")
-print("  4. What is the typical damage level?")
+print("  1. How many bird species are recorded?")
+print("  2. What are the most common bird categories and families?")
+print("  3. What is the conservation status distribution of these birds?")
+print("  4. Which bird species are the largest (wingspan and body mass)?")
 print()
 input("Press Enter to continue...")
 print()
@@ -46,15 +48,18 @@ print("=" * 80)
 print("STEP 2: LOAD THE DATA")
 print("=" * 80)
 print()
-print("📂 Loading bird strike data...")
+print("📂 Loading bird species data...")
+
+# Resolve path relative to this script so it works from any directory
+data_path = Path(__file__).resolve().parent.parent / 'data' / 'birds.csv'
 
 try:
-    data = pd.read_csv('../data/birds.csv')
+    data = pd.read_csv(data_path)
     print(f"✅ Successfully loaded {len(data)} records")
     print()
 except FileNotFoundError:
-    print("❌ Error: birds.csv not found in data/ folder")
-    print("Please make sure the data file exists.")
+    print(f"❌ Error: birds.csv not found at {data_path}")
+    print("Please make sure the data file exists in data/ folder.")
     exit(1)
 
 # STEP 3: EXPLORE THE DATA
@@ -119,35 +124,46 @@ print("STEP 5: ANALYZE THE DATA")
 print("=" * 80)
 print()
 
-# Analysis 1: Total number of incidents
-total_strikes = len(data)
+# Analysis 1: Total number of species
+total_species = len(data)
 print("Analysis 1: Overview")
 print("-" * 80)
-print(f"  • Total bird strikes recorded: {total_strikes:,}")
+print(f"  • Total bird species recorded: {total_species:,}")
 print()
 
-# Analysis 2: Find the most common bird species
-if 'Bird Species' in data.columns:
-    print("Analysis 2: Most Common Bird Species")
-    print("-" * 80)
-    top_species = data['Bird Species'].value_counts().head(5)
-    for i, (species, count) in enumerate(top_species.items(), 1):
-        print(f"  {i}. {species}: {count} strikes ({count/total_strikes*100:.1f}%)")
-    print()
+# Analysis 2: Most common bird categories
+print("Analysis 2: Most Common Bird Categories")
+print("-" * 80)
+top_categories = data['Category'].value_counts().head(5)
+for i, (category, count) in enumerate(top_categories.items(), 1):
+    print(f"  {i}. {category}: {count} species ({count/total_species*100:.1f}%)")
+print()
 
-# Analysis 3: Analyze by time (if time column exists)
-time_column = None
-for col in ['FlightDate', 'Date', 'Time']:
-    if col in data.columns:
-        time_column = col
-        break
+# Analysis 3: Conservation status distribution
+print("Analysis 3: Conservation Status Breakdown")
+print("-" * 80)
+status_names = {
+    'LC': 'Least Concern',
+    'NT': 'Near Threatened',
+    'VU': 'Vulnerable',
+    'EN': 'Endangered',
+    'CR': 'Critically Endangered',
+    'EX': 'Extinct'
+}
+status_counts = data['ConservationStatus'].value_counts()
+for code, count in status_counts.items():
+    label = status_names.get(code, code)
+    print(f"  • {label} ({code}): {count} species ({count/total_species*100:.1f}%)")
+print()
 
-if time_column:
-    print(f"Analysis 3: Temporal Analysis")
-    print("-" * 80)
-    print(f"  • Using column: {time_column}")
-    # Additional time analysis could go here
-    print()
+# Analysis 4: Physical extremes
+print("Analysis 4: Physical Extremes")
+print("-" * 80)
+heaviest = data.loc[data['MaxBodyMass'].idxmax()]
+longest_wingspan = data.loc[data['MaxWingspan'].idxmax()]
+print(f"  • Heaviest bird: {heaviest['Name']} ({heaviest['MaxBodyMass']:,} g)")
+print(f"  • Largest wingspan: {longest_wingspan['Name']} ({longest_wingspan['MaxWingspan']:,} mm)")
+print()
 
 # STEP 6: VISUALIZE THE DATA
 print("=" * 80)
@@ -155,42 +171,37 @@ print("STEP 6: VISUALIZE THE DATA")
 print("=" * 80)
 print()
 
-# Visualization 1: Top bird species
-if 'Bird Species' in data.columns:
-    print("Creating visualization 1: Top 10 Bird Species...")
-    top_10_species = data['Bird Species'].value_counts().head(10)
-    
-    plt.figure(figsize=(12, 6))
-    plt.barh(range(len(top_10_species)), top_10_species.values, color='steelblue')
-    plt.yticks(range(len(top_10_species)), top_10_species.index)
-    plt.xlabel('Number of Strikes', fontsize=12)
-    plt.ylabel('Bird Species', fontsize=12)
-    plt.title('Top 10 Bird Species Involved in Strikes', fontsize=14, fontweight='bold')
-    plt.grid(axis='x', alpha=0.3)
-    plt.tight_layout()
-    plt.savefig('birds_top_species.png', dpi=300, bbox_inches='tight')
-    plt.close()
-    print("  ✅ Saved as 'birds_top_species.png'")
-    print()
+# Visualization 1: Top 10 bird categories
+print("Creating visualization 1: Top 10 Bird Categories...")
+top_10_categories = data['Category'].value_counts().head(10)
 
-# Visualization 2: Distribution of another variable
-# Check what columns are available for interesting visualizations
-numeric_columns = data.select_dtypes(include=['int64', 'float64']).columns
-if len(numeric_columns) > 0:
-    print("Creating visualization 2: Numeric data distribution...")
-    col_to_plot = numeric_columns[0]
-    
-    plt.figure(figsize=(10, 6))
-    data[col_to_plot].hist(bins=30, color='teal', edgecolor='black', alpha=0.7)
-    plt.xlabel(col_to_plot, fontsize=12)
-    plt.ylabel('Frequency', fontsize=12)
-    plt.title(f'Distribution of {col_to_plot}', fontsize=14, fontweight='bold')
-    plt.grid(axis='y', alpha=0.3)
-    plt.tight_layout()
-    plt.savefig('birds_distribution.png', dpi=300, bbox_inches='tight')
-    plt.close()
-    print(f"  ✅ Saved as 'birds_distribution.png'")
-    print()
+plt.figure(figsize=(12, 6))
+plt.barh(range(len(top_10_categories)), top_10_categories.values, color='steelblue')
+plt.yticks(range(len(top_10_categories)), top_10_categories.index)
+plt.gca().invert_yaxis()  # Put highest count at the top
+plt.xlabel('Number of Species', fontsize=12)
+plt.ylabel('Bird Category', fontsize=12)
+plt.title('Top 10 Bird Categories in Minnesota', fontsize=14, fontweight='bold')
+plt.grid(axis='x', alpha=0.3)
+plt.tight_layout()
+plt.savefig('birds_top_categories.png', dpi=300, bbox_inches='tight')
+plt.close()
+print("  ✅ Saved as 'birds_top_categories.png'")
+print()
+
+# Visualization 2: Distribution of MaxWingspan
+print("Creating visualization 2: Wingspan Distribution...")
+plt.figure(figsize=(10, 6))
+data['MaxWingspan'].hist(bins=30, color='teal', edgecolor='black', alpha=0.7)
+plt.xlabel('Maximum Wingspan (mm)', fontsize=12)
+plt.ylabel('Number of Species', fontsize=12)
+plt.title('Distribution of Maximum Wingspan Across Bird Species', fontsize=14, fontweight='bold')
+plt.grid(axis='y', alpha=0.3)
+plt.tight_layout()
+plt.savefig('birds_wingspan_distribution.png', dpi=300, bbox_inches='tight')
+plt.close()
+print("  ✅ Saved as 'birds_wingspan_distribution.png'")
+print()
 
 # STEP 7: DRAW CONCLUSIONS
 print("=" * 80)
@@ -200,19 +211,20 @@ print()
 
 print("Key Findings:")
 print("-" * 80)
-print(f"  1. We analyzed {total_strikes:,} bird strike incidents")
-
-if 'Bird Species' in data.columns:
-    most_common_species = data['Bird Species'].value_counts().index[0]
-    most_common_count = data['Bird Species'].value_counts().values[0]
-    print(f"  2. Most common species: {most_common_species} ({most_common_count} incidents)")
-
+print(f"  1. We analyzed {total_species:,} distinct bird species")
+most_common_cat = top_categories.index[0]
+most_common_count = top_categories.values[0]
+print(f"  2. Most common category: {most_common_cat} ({most_common_count} species)")
+lc_count = status_counts.get('LC', 0)
+print(f"  3. Conservation: {lc_count/total_species*100:.1f}% of species are Least Concern (LC)")
+print(f"  4. The widest wingspan belongs to {longest_wingspan['Name']} ({longest_wingspan['MaxWingspan']:,} mm)")
 print()
+
 print("Implications:")
 print("-" * 80)
-print("  • This data can help airports implement targeted bird control measures")
-print("  • Understanding patterns helps improve aircraft safety procedures")
-print("  • Airlines can use this data for pilot training and awareness")
+print("  • Understanding bird biodiversity helps local conservation programs")
+print("  • Monitoring threatened species (NT, VU, EN, CR) guides habitat protection")
+print("  • Morphological data supports avian biology and ecological research")
 print()
 
 # STEP 8: NEXT STEPS
@@ -221,11 +233,11 @@ print("STEP 8: NEXT STEPS & RECOMMENDATIONS")
 print("=" * 80)
 print()
 print("What you could do next:")
-print("  • Analyze temporal patterns (time of day, season)")
-print("  • Investigate geographical patterns (airports, regions)")
-print("  • Correlate with aircraft types or flight phases")
-print("  • Build a predictive model for high-risk conditions")
-print("  • Create an interactive dashboard for stakeholders")
+print("  • Analyze correlation between wingspan and body mass")
+print("  • Compare average physical measurements across different bird Orders")
+print("  • Focus on threatened species to explore conservation priorities")
+print("  • Build a machine learning classifier to predict bird category from measurements")
+print("  • Create an interactive visualization dashboard")
 print()
 
 # FINAL SUMMARY
